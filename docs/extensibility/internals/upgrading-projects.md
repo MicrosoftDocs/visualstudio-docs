@@ -78,17 +78,17 @@ The following scenarios arise with project upgrades:
 
 ### To implement IVsProjectUpgradeViaFactory
 
-1.  Implement the method of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface, specifically the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method in your project factory implementation, or make the implementations callable from your project factory implementation.
+1. Implement the method of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory> interface, specifically the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method in your project factory implementation, or make the implementations callable from your project factory implementation.
 
-2.  If you want to do an in-place upgrade as a part of the solution opening, supply the flag <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_SXSBACKUP> as the `VSPUVF_FLAGS` parameter in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> implementation.
+2. If you want to do an in-place upgrade as a part of the solution opening, supply the flag <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_SXSBACKUP> as the `VSPUVF_FLAGS` parameter in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> implementation.
 
-3.  If you want to do an in-place upgrade as a part of the solution opening, supply the flag <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_COPYBACKUP> as the `VSPUVF_FLAGS` parameter in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> implementation.
+3. If you want to do an in-place upgrade as a part of the solution opening, supply the flag <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_COPYBACKUP> as the `VSPUVF_FLAGS` parameter in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> implementation.
 
-4.  For both the steps 2 and 3, the actual file upgrade steps, using <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>, can be implemented as described in the "Implementing `IVsProjectUpgade`" section below, or you can delegate the actual file upgrade to <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>.
+4. For both the steps 2 and 3, the actual file upgrade steps, using <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>, can be implemented as described in the "Implementing `IVsProjectUpgade`" section below, or you can delegate the actual file upgrade to <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>.
 
-5.  Use the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> to post upgrade related messages for the user using Visual Studio Migration Wizard.
+5. Use the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> to post upgrade related messages for the user using Visual Studio Migration Wizard.
 
-6.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileUpgrade> interface is used to implement any kind of file upgrade that needs to happen as part of project upgrade. This interface is not called from <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory>, but is supplied as a mechanism to upgrade files that are part of the project system, but the main project system might not be directly aware of. For example, this situation could arise if the compiler related files and properties are not handled by the same development team that handles the rest of the project system.
+6. <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileUpgrade> interface is used to implement any kind of file upgrade that needs to happen as part of project upgrade. This interface is not called from <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory>, but is supplied as a mechanism to upgrade files that are part of the project system, but the main project system might not be directly aware of. For example, this situation could arise if the compiler related files and properties are not handled by the same development team that handles the rest of the project system.
 
 ### IVsProjectUpgrade Implementation
 
@@ -96,11 +96,11 @@ If your project system implements <xref:Microsoft.VisualStudio.Shell.Interop.IVs
 
 #### To implement IVsProjectUpgrade
 
-1.  When a user attempts to open a project, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> method is called by the environment after the project is opened and before any other user action can be taken on the project. If the user had already been prompted to upgrade the solution, then the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is passed in the `grfUpgradeFlags` parameter. If the user opens a project directly, such as by using the **Add Existing Project** command, then the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is not passed and the project needs to prompt the user to upgrade.
+1. When a user attempts to open a project, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> method is called by the environment after the project is opened and before any other user action can be taken on the project. If the user had already been prompted to upgrade the solution, then the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is passed in the `grfUpgradeFlags` parameter. If the user opens a project directly, such as by using the **Add Existing Project** command, then the <xref:Microsoft.VisualStudio.Shell.Interop.__VSUPGRADEPROJFLAGS.UPF_SILENTMIGRATE> flag is not passed and the project needs to prompt the user to upgrade.
 
-2.  In response to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, the project must evaluate whether the project file is upgraded. If the project does not need to upgrade the project type to a new version, then it can simply return the <xref:Microsoft.VisualStudio.VSConstants.S_OK> flag.
+2. In response to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> call, the project must evaluate whether the project file is upgraded. If the project does not need to upgrade the project type to a new version, then it can simply return the <xref:Microsoft.VisualStudio.VSConstants.S_OK> flag.
 
-3.  If the project needs to upgrade the project type to a new version, then it must determine whether the project file can be modified by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method and passing in a value of <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags> for the `rgfQueryEdit` parameter. The project then needs to do the following:
+3. If the project needs to upgrade the project type to a new version, then it must determine whether the project file can be modified by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method and passing in a value of <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags> for the `rgfQueryEdit` parameter. The project then needs to do the following:
 
     -   If the `VSQueryEditResult` value returned in the `pfEditCanceled` parameter is <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResult.QER_EditOK>, then the upgrade can proceed because the project file can be written.
 
@@ -110,17 +110,17 @@ If your project system implements <xref:Microsoft.VisualStudio.Shell.Interop.IVs
 
     -   If the `VSQueryEditResult` value is <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResult.QER_EditNotOK> and the `VSQueryEditResultFlags` value has the <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResultFlags.QER_ReadOnlyUnderScc> bit set, then the project file should be checked out by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> (<xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags.QEF_ForceEdit_NoPrompting>, <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditFlags.QEF_DisallowInMemoryEdits>,...).
 
-4.  If the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> call on the project file causes the file to be checked out, and the latest version to be retrieved, then the project is unloaded and reloaded. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> method is called again once another instance of the project is created. On this second call, the project file can be written to disk; it is recommended that the project save a copy of the project file in the previous format with an .OLD extension, make its necessary upgrade changes, and save the project file in the new format. Again, if any part of the upgrade process fails, the method must indicate failure by returning <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes.VS_E_PROJECTMIGRATIONFAILED>. This causes the project to be unloaded in Solution Explorer.
+4. If the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> call on the project file causes the file to be checked out, and the latest version to be retrieved, then the project is unloaded and reloaded. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> method is called again once another instance of the project is created. On this second call, the project file can be written to disk; it is recommended that the project save a copy of the project file in the previous format with an .OLD extension, make its necessary upgrade changes, and save the project file in the new format. Again, if any part of the upgrade process fails, the method must indicate failure by returning <xref:Microsoft.VisualStudio.Shell.Interop.VSErrorCodes.VS_E_PROJECTMIGRATIONFAILED>. This causes the project to be unloaded in Solution Explorer.
 
      It is important to understand the complete process that occurs in the environment for the case in which the call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> method (specifying a value of ReportOnly) returns the <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResult.QER_EditNotOK> and the <xref:Microsoft.VisualStudio.Shell.Interop.tagVSQueryEditResultFlags.QER_ReadOnlyUnderScc> flags.
 
-5.  The user attempts to open the project file.
+5. The user attempts to open the project file.
 
-6.  The environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CanCreateProject%2A> implementation.
+6. The environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CanCreateProject%2A> implementation.
 
-7.  If <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CanCreateProject%2A> returns `true`, then the environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CanCreateProject%2A> implementation.
+7. If <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CanCreateProject%2A> returns `true`, then the environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CanCreateProject%2A> implementation.
 
-8.  The environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat.Load%2A> implementation to open the file and initialize the project object, for example, Project1.
+8. The environment calls your <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat.Load%2A> implementation to open the file and initialize the project object, for example, Project1.
 
 9. The environment calls your `IVsProjectUpgrade::UpgradeProject` implementation to determine whether the project file needs to be upgraded.
 
@@ -161,17 +161,17 @@ Typically, project item implementers want to leverage an already fully instantia
 
 ### To get the project upgrade notification
 
-1.  Set the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80.SolutionOrProjectUpgrading> flag (defined in vsshell80.idl) in your project item implementation. This causes your project item VSPackage to auto load when the Visual Studio shell determines that a project system is in the process of upgrading.
+1. Set the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80.SolutionOrProjectUpgrading> flag (defined in vsshell80.idl) in your project item implementation. This causes your project item VSPackage to auto load when the Visual Studio shell determines that a project system is in the process of upgrading.
 
-2.  Advise the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution2.AdviseSolutionEvents%2A> method.
+2. Advise the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution2.AdviseSolutionEvents%2A> method.
 
-3.  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface is fired after the project system implementation has completed its upgrade operations and the new upgraded project is created. Depending on the scenario, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface is fired after the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenSolution%2A>, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>, or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterLoadProject%2A> methods.
+3. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface is fired after the project system implementation has completed its upgrade operations and the new upgraded project is created. Depending on the scenario, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface is fired after the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenSolution%2A>, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A>, or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterLoadProject%2A> methods.
 
 ### To upgrade the project item files
 
-1.  You must carefully manage the file backup process in your project item implementation. This applies in particular for a side-by-side backup, where the `fUpgradeFlag` parameter of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method is set to <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_SXSBACKUP>, where files that had been backed up are placed along side files that are designated as ".old". The backed up files older than the system time when the project was upgraded can be designated as stale. Furthermore, they might be overwritten unless you take specific steps to prevent this.
+1. You must carefully manage the file backup process in your project item implementation. This applies in particular for a side-by-side backup, where the `fUpgradeFlag` parameter of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method is set to <xref:Microsoft.VisualStudio.Shell.Interop.__VSPPROJECTUPGRADEVIAFACTORYFLAGS.PUVFF_SXSBACKUP>, where files that had been backed up are placed along side files that are designated as ".old". The backed up files older than the system time when the project was upgraded can be designated as stale. Furthermore, they might be overwritten unless you take specific steps to prevent this.
 
-2.  At the time your project item gets a notification of the project upgrade, the **Visual Studio Conversion Wizard** is still displayed. Therefore, you should use the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> interface to provide upgrade messages to the wizard UI.
+2. At the time your project item gets a notification of the project upgrade, the **Visual Studio Conversion Wizard** is still displayed. Therefore, you should use the methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUpgradeLogger> interface to provide upgrade messages to the wizard UI.
 
 ## See also
 

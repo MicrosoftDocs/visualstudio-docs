@@ -48,15 +48,15 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
  Choose the tools you need based on your app requirements and the language you want to use.
 
-1.  [Xamarin for Visual Studio](./cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices
+1. [Xamarin for Visual Studio](./cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices
 
-2.  [Apache Cordova with Visual Studio](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42): A common code base for HTML, CSS, and JavaScript or Typescript
+2. [Apache Cordova with Visual Studio](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42): A common code base for HTML, CSS, and JavaScript or Typescript
 
-3.  [Visual Studio Tools for Unity](./cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#
+3. [Visual Studio Tools for Unity](./cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#
 
-4.  [C++ for Cross-Platform Development](./cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++
+4. [C++ for Cross-Platform Development](./cross-platform/visual-cpp-for-cross-platform-mobile-development.md): Shared code libraries and apps in C++
 
-5.  [Visual Studio Emulator for Android](./cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE
+5. [Visual Studio Emulator for Android](./cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE
 
 ## Connect your apps to services
  You can connect to these services out of the box (assuming that you have an account for each service):

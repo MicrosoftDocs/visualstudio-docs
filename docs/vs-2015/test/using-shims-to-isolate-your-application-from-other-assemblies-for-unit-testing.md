@@ -60,13 +60,13 @@ using (ShimsContext.Create()
   
 ###  <a name="AddFakes"></a> Add Fakes Assemblies  
   
-1.  In Solution Explorer, expand your unit test project’s **References**.  
+1. In Solution Explorer, expand your unit test project’s **References**.  
   
     -   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.  
   
-2.  Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim DateTime, select System.dll  
+2. Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim DateTime, select System.dll  
   
-3.  On the shortcut menu, choose **Add Fakes Assembly**.  
+3. On the shortcut menu, choose **Add Fakes Assembly**.  
   
 ###  <a name="ShimsContext"></a> Use ShimsContext  
  When using shim types in a unit test framework, you must wrap the test code in a `ShimsContext` to control the lifetime of your shims. If we didn’t require this, your shims would last until the AppDomain shut down. The easiest way to create a `ShimsContext` is by using the static `Create()` method as shown in the following code:  

@@ -55,11 +55,11 @@ ms.workload:
 
 ### To add a content control to a document by using the Toolbox
 
-1.  In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
+1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
 
-2.  Open the **Toolbox** and click the **Word Controls** tab.
+2. Open the **Toolbox** and click the **Word Controls** tab.
 
-3.  Add the control one of the following ways:
+3. Add the control one of the following ways:
 
     -   Double-click a content control in the **Toolbox**.
 
@@ -79,14 +79,14 @@ ms.workload:
 
 #### To add a content control to a document in Word
 
-1.  In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
+1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
 
-2.  On the Ribbon, click the **Developer** tab.
+2. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-3.  In the **Controls** group, click the icon for the content control that you want to add.
+3. In the **Controls** group, click the icon for the content control that you want to add.
 
 ##  <a name="runtimedoclevel"></a> Add content controls at runtime in a document-level project
  You can add content controls programmatically to your document at runtime by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. Each method has three overloads that you can use to add a content control in the following ways:
@@ -104,7 +104,7 @@ ms.workload:
 
 ### To add a content control at the current selection
 
-1.  Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the class name of the content control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a single parameter for the name of the new control.
+1. Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the class name of the content control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a single parameter for the name of the new control.
 
      The following code example uses the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A> method to add a new <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to the beginning of the document. To run this code, add the code to the `ThisDocument` class in your project, and call the `AddRichTextControlAtSelection` method from the `ThisDocument_Startup` event handler.
 
@@ -113,7 +113,7 @@ ms.workload:
 
 ### To add a content control at a specified range
 
-1.  Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a <xref:Microsoft.Office.Interop.Word.Range> parameter.
+1. Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a <xref:Microsoft.Office.Interop.Word.Range> parameter.
 
      The following code example uses the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A> method to add a new <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to the beginning of the document. To run this code, add the code to the `ThisDocument` class in your project, and call the `AddRichTextControlAtRange` method from the `ThisDocument_Startup` event handler.
 
@@ -122,7 +122,7 @@ ms.workload:
 
 ### To add a content control that is based on a native content control
 
-1.  Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a `Microsoft.Office.Interop.Word.ContentControl` parameter.
+1. Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a `Microsoft.Office.Interop.Word.ContentControl` parameter.
 
      The following code example uses the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A> method to create a new <xref:Microsoft.Office.Tools.Word.RichTextContentControl> for every native rich text control that is in the document. To run this code, add the code to the `ThisDocument` class in your project, and call the `CreateRichTextControlsFromNativeControls` method from the `ThisDocument_Startup` event handler.
 
@@ -147,7 +147,7 @@ ms.workload:
 
 ### To add a content control at the current selection
 
-1.  Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the class name of the content control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a single parameter for the name of the new control.
+1. Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the class name of the content control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a single parameter for the name of the new control.
 
      The following code example uses the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A> method to add a new <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to the beginning of the active document. To run this code, add the code to the `ThisAddIn` class in your project, and call the `AddRichTextControlAtSelection` method from the `ThisAddIn_Startup` event handler.
 
@@ -156,7 +156,7 @@ ms.workload:
 
 ### To add a content control at a specified range
 
-1.  Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a <xref:Microsoft.Office.Interop.Word.Range> parameter.
+1. Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a <xref:Microsoft.Office.Interop.Word.Range> parameter.
 
      The following code example uses the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A> method to add a new <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to the beginning of the active document. To run this code, add the code to the `ThisAddIn` class in your project, and call the `AddRichTextControlAtRange` method from the `ThisAddIn_Startup` event handler.
 
@@ -165,7 +165,7 @@ ms.workload:
 
 #### To add a content control that is based on a native content control
 
-1.  Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a `Microsoft.Office.Interop.Word.ContentControl` parameter.
+1. Use a <xref:Microsoft.Office.Tools.Word.ControlCollection> method that has the name `Add`\<*control class*> (where *control class* is the name of the content control class that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A>), and that has a `Microsoft.Office.Interop.Word.ContentControl` parameter.
 
      The following code example uses the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl%2A> method to create a new <xref:Microsoft.Office.Tools.Word.RichTextContentControl> for every native rich text control that is in a document, after the document is opened. To run this code, add the code to the `ThisAddIn` class in your project.
 

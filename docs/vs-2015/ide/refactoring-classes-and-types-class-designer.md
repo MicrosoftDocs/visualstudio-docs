@@ -42,32 +42,32 @@ When you refactor code, you make it easier to understand, maintain, and more eff
   
 ##### To rename a name in the Class Designer  
   
-1.  On the class diagram, select the type or member and click on the name.  
+1. On the class diagram, select the type or member and click on the name.  
   
      The name of the member becomes editable.  
   
-2.  Type the new name for the type or type member  
+2. Type the new name for the type or type member  
   
 ##### To rename a name in the Class Details Window  
   
-1.  To display the Class Details window, right-click the type or type member and then click **Class Details**.  
+1. To display the Class Details window, right-click the type or type member and then click **Class Details**.  
   
      The Class Details window appears.  
   
-2.  In the **Name** column, change the name of the type member  
+2. In the **Name** column, change the name of the type member  
   
-3.  To move focus away from the cell, press the **ENTER** key or click away from the cell.  
+3. To move focus away from the cell, press the **ENTER** key or click away from the cell.  
   
     > [!NOTE]
     >  In the Class Details window, you can change the name of a member but not a type.  
   
 ##### To rename a name in the Properties window  
   
-1.  On the class diagram or the Class Details window, right-click the type or member and then click **Properties**.  
+1. On the class diagram or the Class Details window, right-click the type or member and then click **Properties**.  
   
      The Properties window appears and displays properties for the type or type member.  
   
-2.  In the **Name** property, change the name of the type or type member.  
+2. In the **Name** property, change the name of the type or type member.  
   
      The new name propagates to all windows and code locations in the current project where the old name appeared.  
   
@@ -76,9 +76,9 @@ When you refactor code, you make it easier to understand, maintain, and more eff
   
 ##### To move a type member from one type to another  
   
-1.  In a type that is visible on the design surface, right-click the member you want to move to another type, and then click **Cut**.  
+1. In a type that is visible on the design surface, right-click the member you want to move to another type, and then click **Cut**.  
   
-2.  Right-click the destination type and then click **Paste**.  
+2. Right-click the destination type and then click **Paste**.  
   
      The property is removed from the source type and appears in the destination type.  
   

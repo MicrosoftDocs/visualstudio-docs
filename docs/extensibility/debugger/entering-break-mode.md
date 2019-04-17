@@ -17,9 +17,9 @@ The following information describes the process that occurs when a breakpoint is
 
 ## Break mode process
 
-1.  The debug engine (DE) sends [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md), [IDebugExceptionEvent2](../../extensibility/debugger/reference/idebugexceptionevent2.md), or any other stopping event to cause the IDE to enter break mode.
+1. The debug engine (DE) sends [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md), [IDebugExceptionEvent2](../../extensibility/debugger/reference/idebugexceptionevent2.md), or any other stopping event to cause the IDE to enter break mode.
 
-2.  The SDM gets the call stack information from the thread, as follows:
+2. The SDM gets the call stack information from the thread, as follows:
 
     -   [IDebugThread2::EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)
 

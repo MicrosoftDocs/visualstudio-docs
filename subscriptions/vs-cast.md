@@ -39,9 +39,9 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
     > [!div class="mx-imgBorder"]
     > ![CAST Highlight Thank You Page](_img/vs-cast-highlight/vs-cast-highlight-thankyou.png)
 
-0.  The CAST team will evaluate your request, and will contact you to finalize creation of your account.
+0. The CAST team will evaluate your request, and will contact you to finalize creation of your account.
 
-0.  You will also receive the following email from CAST, confirming the receipt of your request.
+0. You will also receive the following email from CAST, confirming the receipt of your request.
 
    *Thank you for your request to activate the 30 day access to CAST Highlight - an exclusive offer for Microsoft Visual Studio Enterprise customers!*
 

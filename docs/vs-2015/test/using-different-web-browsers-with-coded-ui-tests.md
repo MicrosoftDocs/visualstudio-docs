@@ -77,13 +77,13 @@ Coded UI tests can automate testing for web applications by recording your tests
 ### Enable debugging  
  To enable debugging your web application, you must complete the following configuration options:  
   
-1.  Enable Just My Code:  
+1. Enable Just My Code:  
   
     1.  On the **Tools** menu, choose **Options** and then choose **Debugging**.  
   
     2.  Select **Enable Just My Code**.  
   
-2.  Disable CLR exceptions:  
+2. Disable CLR exceptions:  
   
     1.  On the **Debug** menu, choose **Exceptions**.  
   

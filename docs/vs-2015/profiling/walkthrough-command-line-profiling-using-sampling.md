@@ -47,19 +47,19 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
 #### To profile the PeopleTrax application by using the sampling method  
   
-1.  Install the PeopleTrax sample application and build the release version of the application.  
+1. Install the PeopleTrax sample application and build the release version of the application.  
   
-2.  Open a command prompt window and add the Profiling Tools directory to the local Path environment variable.  
+2. Open a command prompt window and add the Profiling Tools directory to the local Path environment variable.  
   
-3.  Change the working directory to the directory that contain the PeopleTrax binaries.  
+3. Change the working directory to the directory that contain the PeopleTrax binaries.  
   
-4.  Type the following command to set the appropriate environment variables:  
+4. Type the following command to set the appropriate environment variables:  
   
     ```  
     VSPerfCLREnv /sampleon  
     ```  
   
-5.  Start profiling by running VSPerfCmd.exe, which is the command-line tool that controls the profiler. The following command starts the application and profiler in the sampling mode:  
+5. Start profiling by running VSPerfCmd.exe, which is the command-line tool that controls the profiler. The following command starts the application and profiler in the sampling mode:  
   
     ```  
     VsPerfCmd /start:sample /output:PeopleTraxReport.vsp /launch:PeopleTrax.exe  
@@ -67,13 +67,13 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
      The profiler process starts and attaches to the PeopleTrax.exe process. The profiler process starts to write the collected profiling data to the report file.  
   
-6.  Click **Get People**.  
+6. Click **Get People**.  
   
-7.  Click **ExportData**.  
+7. Click **ExportData**.  
   
      Notepad opens and displays a new file that contains the exported data from **PeopleTrax**.  
   
-8.  Close Notepad, and then close the **PeopleTrax** application.  
+8. Close Notepad, and then close the **PeopleTrax** application.  
   
 9. Shut down the profiler. Type the following command:  
   

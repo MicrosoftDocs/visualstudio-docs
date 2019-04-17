@@ -192,48 +192,48 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 ###  <a name="AddComments"></a>   
 ##### Add a comment to an existing node on the map  
   
-1.  Select the code element. A toolbar appears above it.  
+1. Select the code element. A toolbar appears above it.  
   
      ![Dependency graph toolbar](../modeling/media/depedencygraph-toolbar.png "DepedencyGraph_Toolbar")  
   
-2.  On the toolbar, choose the third icon, **Create a new comment node with a new link to the selected node**.  
+2. On the toolbar, choose the third icon, **Create a new comment node with a new link to the selected node**.  
   
      \- or -  
   
      Open the shortcut menu for the code element and choose **Edit**, **New Comment**.  
   
-3.  Type your comments. To type on a new line, press **SHIFT** + **RETURN**.  
+3. Type your comments. To type on a new line, press **SHIFT** + **RETURN**.  
   
 ##### Add a comment to the map itself  
   
-1.  Open the shortcut menu for the map and choose **Edit**, **New Comment**.  
+1. Open the shortcut menu for the map and choose **Edit**, **New Comment**.  
   
-2.  Type your comments. To type on a new line, press **SHIFT** + **RETURN**.  
+2. Type your comments. To type on a new line, press **SHIFT** + **RETURN**.  
   
 ###  <a name="RenameNodes"></a>   
 ##### Rename a code element or link  
   
-1.  Select the code element or the link you want to rename.  
+1. Select the code element or the link you want to rename.  
   
-2.  Press **F2**, or open the shortcut menu and choose **Edit**, **Rename**.  
+2. Press **F2**, or open the shortcut menu and choose **Edit**, **Rename**.  
   
-3.  When the edit box appears in the map, rename the code element or the link.  
+3. When the edit box appears in the map, rename the code element or the link.  
   
      \- or -  
   
-4.  Open the shortcut menu and choose **Edit**, **Properties**.  
+4. Open the shortcut menu and choose **Edit**, **Properties**.  
   
-5.  Edit the **Label** property in the Visual Studio Properties window.  
+5. Edit the **Label** property in the Visual Studio Properties window.  
   
 ##### Remove a code element or link from the map  
   
-1.  Select the code element or link and press the **Delete** key.  
+1. Select the code element or link and press the **Delete** key.  
   
      \- or -  
   
      Open the shortcut menu for the code element or link and choose **Edit**, **Remove**.  
   
-2.  If the element or link is part of a group, the **Refetch Children** button ![Refetch Children Icon](../modeling/media/dependencygraph-deletednodesicon.png "DependencyGraph_DeletedNodesIcon") appears inside the group. Click this to retrieve missing elements and links.  
+2. If the element or link is part of a group, the **Refetch Children** button ![Refetch Children Icon](../modeling/media/dependencygraph-deletednodesicon.png "DependencyGraph_DeletedNodesIcon") appears inside the group. Click this to retrieve missing elements and links.  
   
 -   You can remove code elements and links from a map without affecting the underlying code. When you delete them, their definitions are removed from the DGML (.dgml) file.  
   
@@ -241,9 +241,9 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 ##### Flag a code element for follow-up  
   
-1.  Select the code element or link you want to flag for follow-up.  
+1. Select the code element or link you want to flag for follow-up.  
   
-2.  Open the shortcut menu and choose **Edit**, **Flag for Follow Up**.  
+2. Open the shortcut menu and choose **Edit**, **Flag for Follow Up**.  
   
 -   By default, the code element gains a red background. Consider [adding a comment](#AddComments) to it with the appropriate follow-up information.  
   
@@ -254,18 +254,18 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 #### To apply a predefined color or icon to code elements or links with a certain category or property  
   
-1.  On the map toolbar, choose **Legend**.  
+1. On the map toolbar, choose **Legend**.  
   
-2.  In the **Legend** box, see if the code element category or property already appears in the list.  
+2. In the **Legend** box, see if the code element category or property already appears in the list.  
   
-3.  If the list does not include the category or property, choose **+** in the **Legend** box, then choose **Node Property**, **Node Category**, **Link Property**, or **Link Category**. Then choose the property or category. The category or property now appears in the **Legend** box.  
+3. If the list does not include the category or property, choose **+** in the **Legend** box, then choose **Node Property**, **Node Category**, **Link Property**, or **Link Category**. Then choose the property or category. The category or property now appears in the **Legend** box.  
   
     > [!NOTE]
     >  To create and assign a category or a property to a code element, you can edit the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).  
   
-4.  In the **Legend** box, click the icon next to the category or property you added or you want to change.  
+4. In the **Legend** box, click the icon next to the category or property you added or you want to change.  
   
-5.  Use the following table to select the style that you want to change:  
+5. Use the following table to select the style that you want to change:  
   
     |**To change the**|**Choose**|  
     |-----------------------|----------------|  
@@ -276,7 +276,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
      The **Color Set Picker** or **Icon Set Picker** dialog box appears for you to select a color or icon.  
   
-6.  In the **Color Set Picker** or **Icon Set Picker** dialog box, do one of the following:  
+6. In the **Color Set Picker** or **Icon Set Picker** dialog box, do one of the following:  
   
     |**To apply a**|**Perform these steps**|  
     |--------------------|-----------------------------|  
@@ -289,9 +289,9 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 ##  <a name="ModifyLegend"></a> Edit the Legend box  
  You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:  
   
-1.  Open the shortcut menu for a style in the **Legend** box.  
+1. Open the shortcut menu for a style in the **Legend** box.  
   
-2.  Perform one of the following tasks:  
+2. Perform one of the following tasks:  
   
     |**To**|**Choose**|  
     |------------|----------------|  
@@ -302,11 +302,11 @@ Rearrange items on code maps to make them easier to read and improve their perfo
   
 ##  <a name="CopyLegend"></a> Copy styles from one map to another  
   
-1.  Make sure the **Legend** box appears on the source map. If it is not visible, on the map toolbar, click **Legend**.  
+1. Make sure the **Legend** box appears on the source map. If it is not visible, on the map toolbar, click **Legend**.  
   
-2.  Open the shortcut menu for the **Legend** box. Choose **Copy Legend**.  
+2. Open the shortcut menu for the **Legend** box. Choose **Copy Legend**.  
   
-3.  Paste the legend onto the target map.  
+3. Paste the legend onto the target map.  
   
 ##  <a name="MergeMaps"></a> Merge code maps  
  You can merge maps by copying and pasting code elements between maps. If the code element identifiers match, then pasting code elements functions like a merge operation. To make this task easier, put all the assemblies or binaries that you want to visualize in the same folder so that the full path of each assembly or binary is the same for each map that you want to merge.  

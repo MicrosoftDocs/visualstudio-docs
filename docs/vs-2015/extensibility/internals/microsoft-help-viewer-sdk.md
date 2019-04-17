@@ -126,17 +126,17 @@ This article contains the following tasks for Visual Studio Help Viewer integrat
 
  The body (not including the header and footer) of the topic will contain page links, a note section, a collapsible area, a code snippet, and a section of language specific text.  See the branding section for information about those areas of the presented topic.
 
-1.  Add a topic title tag:  `<div class="title">Contoso Topic 4</div>`
+1. Add a topic title tag:  `<div class="title">Contoso Topic 4</div>`
 
-2.  Add a note section: `<div class="alert"> add your table tag and text </div>`
+2. Add a note section: `<div class="alert"> add your table tag and text </div>`
 
-3.  Add a collapsible area:  `<CollapsibleArea Expanded="1" Title="Collapsible Area Test Heading"> add text  </CollapsibleArea>`
+3. Add a collapsible area:  `<CollapsibleArea Expanded="1" Title="Collapsible Area Test Heading"> add text  </CollapsibleArea>`
 
-4.  Add a code snippet:  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`
+4. Add a code snippet:  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`
 
-5.  Add code language specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that devLangnu= allows you to enter other languages. For example, devLangnu=”Fortran” will display Fortran when the code snippet DisplayLanguage = Fortran
+5. Add code language specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that devLangnu= allows you to enter other languages. For example, devLangnu=”Fortran” will display Fortran when the code snippet DisplayLanguage = Fortran
 
-6.  Add page links: `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
+6. Add page links: `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
 >  Note: for non-supported new “Display Language” (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.

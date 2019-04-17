@@ -62,21 +62,21 @@ ms.workload:
 
 ### To add a chart in Excel
 
-1.  On the **Insert** tab, in the **Charts** group, click **Column**, and then click **All Chart Types**.
+1. On the **Insert** tab, in the **Charts** group, click **Column**, and then click **All Chart Types**.
 
-2.  In the **Insert Chart** dialog box, click **OK**.
+2. In the **Insert Chart** dialog box, click **OK**.
 
-3.  On the **Design** tab, in the **Data** group, click **Select Data**.
+3. On the **Design** tab, in the **Data** group, click **Select Data**.
 
-4.  In the **Select Data Source** dialog box, click in the **Chartdata range** box and clear any default selection.
+4. In the **Select Data Source** dialog box, click in the **Chartdata range** box and clear any default selection.
 
-5.  In the **Data for Chart** sheet, select the block of cells that contains the numbers, which includes A4 in the upper left corner to E8 in the lower right corner.
+5. In the **Data for Chart** sheet, select the block of cells that contains the numbers, which includes A4 in the upper left corner to E8 in the lower right corner.
 
-6.  In the **Select Data Source** dialog box, click **OK**.
+6. In the **Select Data Source** dialog box, click **OK**.
 
-7.  Reposition the chart so that the upper right corner aligns with cell **E2**.
+7. Reposition the chart so that the upper right corner aligns with cell **E2**.
 
-8.  Save your file to drive C and name it **ExcelChart.xlsx**.
+8. Save your file to drive C and name it **ExcelChart.xlsx**.
 
 9. Exit Excel.
 
@@ -85,13 +85,13 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create an Excel Workbook project with the name **My Excel Chart**. In the wizard, select **Copy an existing document**.
+1. Create an Excel Workbook project with the name **My Excel Chart**. In the wizard, select **Copy an existing document**.
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  Click the **Browse** button and browse to the workbook you created earlier in this walkthrough.
+2. Click the **Browse** button and browse to the workbook you created earlier in this walkthrough.
 
-3.  Click **OK**.
+3. Click **OK**.
 
      Visual Studio opens the new Excel workbook in the designer and adds the **My Excel Chart** project to **Solution Explorer**.
 
@@ -100,7 +100,7 @@ ms.workload:
 
 ### To change the name of the Chart control
 
-1.  Select the <xref:Microsoft.Office.Tools.Excel.Chart> control in the designer and change the following properties in the **Properties** Window.
+1. Select the <xref:Microsoft.Office.Tools.Excel.Chart> control in the designer and change the following properties in the **Properties** Window.
 
     |Property|Value|
     |--------------|-----------|
@@ -114,11 +114,11 @@ ms.workload:
 
 ### To add a user control
 
-1.  Select the **My Excel Chart** project in **Solution Explorer**.
+1. Select the **My Excel Chart** project in **Solution Explorer**.
 
-2.  On the **Project** menu, click **Add New Item**.
+2. On the **Project** menu, click **Add New Item**.
 
-3.  In the **Add New Item** dialog box, click **User Control**, name the control **ChartOptions,** and click **Add**.
+3. In the **Add New Item** dialog box, click **User Control**, name the control **ChartOptions,** and click **Add**.
 
 ### To add radio buttons to the user control
 
@@ -159,36 +159,36 @@ ms.workload:
 
 ### To create an event and property on a user control
 
-1.  In **Solution Explorer**, right-click the user control, and then click **View Code**.
+1. In **Solution Explorer**, right-click the user control, and then click **View Code**.
 
-2.  Add code to the `ChartOptions` class to create a `SelectionChanged` event and the `Selection` property.
+2. Add code to the `ChartOptions` class to create a `SelectionChanged` event and the `Selection` property.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#13](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#13)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#13](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#13)]
 
 ### To handle the CheckedChanged event of the radio buttons
 
-1.  Set the chart type in the `CheckedChanged` event handler of the `areaBlockChart` radio button and then raise the event.
+1. Set the chart type in the `CheckedChanged` event handler of the `areaBlockChart` radio button and then raise the event.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#14](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#14)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#14](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#14)]
 
-2.  Set the chart type in the `CheckedChanged` event handler of the `barChart` radio button.
+2. Set the chart type in the `CheckedChanged` event handler of the `barChart` radio button.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#15](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#15)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#15](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#15)]
 
-3.  Set the chart type in the `CheckedChanged` event handler of the `columnChart` radio button.
+3. Set the chart type in the `CheckedChanged` event handler of the `columnChart` radio button.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#16](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#16)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#16](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#16)]
 
-4.  Set the chart type in the `CheckedChanged` event handler of the `lineChart` radio button.
+4. Set the chart type in the `CheckedChanged` event handler of the `lineChart` radio button.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#17](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#17)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#17](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#17)]
 
-5.  In C#, you must add event handlers for the radio buttons. You can add the code to the `ChartOptions` constructor, beneath the call to `InitializeComponent`. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
+5. In C#, you must add event handlers for the radio buttons. You can add the code to the `ChartOptions` constructor, beneath the call to `InitializeComponent`. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#18](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#18)]
 
@@ -197,29 +197,29 @@ ms.workload:
 
 ### To add the user control your worksheet
 
-1.  On the **Build** menu, click **Build Solution**.
+1. On the **Build** menu, click **Build Solution**.
 
      The **ChartOptions** user control is added to the **Toolbox**.
 
-2.  In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Designer**.
+2. In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Designer**.
 
-3.  Drag the **ChartOptions** control from the **Toolbox** to the worksheet.
+3. Drag the **ChartOptions** control from the **Toolbox** to the worksheet.
 
      A new control named `my_Excel_Chart_ChartOptions1` is added to your project.
 
-4.  Change the name of the control to **ChartOptions1**.
+4. Change the name of the control to **ChartOptions1**.
 
 ## Change the chart type
  To change the chart type, create an event handler that sets the style according to the option selected in the user control.
 
 ### To change the type of chart that is displayed in the worksheet
 
-1.  Add the following event handler to the `Sheet1` class.
+1. Add the following event handler to the `Sheet1` class.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#19](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#19)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#19](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#19)]
 
-2.  In C#, you must add an event handler for the user control to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
+2. In C#, you must add an event handler for the user control to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#20](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#20)]
 
@@ -228,11 +228,11 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Select various radio buttons.
+2. Select various radio buttons.
 
-3.  Confirm that the chart style changes to match the selection.
+3. Confirm that the chart style changes to match the selection.
 
 ## Next steps
  This walkthrough shows the basics of using radio buttons and chart styles on worksheets. Here are some tasks that might come next:

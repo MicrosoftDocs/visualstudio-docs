@@ -53,23 +53,23 @@ NOTE]
   
 #### To load symbols manually  
   
-1.  In the **Modules** window, right-click a module for which symbols have not loaded.  
+1. In the **Modules** window, right-click a module for which symbols have not loaded.  
   
-2.  Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
+2. Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
   
 #### To change symbol load settings  
   
-1.  In the **Modules** window, right-click any module.  
+1. In the **Modules** window, right-click any module.  
   
-2.  Click **Symbol Settings**.  
+2. Click **Symbol Settings**.  
   
      You can now change the symbol load settings, as described in [Specify symbol locations and loading behavior](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#BKMK_Specify_symbol_locations_and_loading_behavior). Changes do not take effect until you restart the debugging session.  
   
 #### To change symbol load behavior for a specific module  
   
-1.  In the **Modules** window, right-click the module.  
+1. In the **Modules** window, right-click the module.  
   
-2.  Point to **Automatic Symbol Load Settings** and then click **Always Load Manually** or **Default**. Changes do not take effect until you restart the debugging session.  
+2. Point to **Automatic Symbol Load Settings** and then click **Always Load Manually** or **Default**. Changes do not take effect until you restart the debugging session.  
   
 ## See Also  
  [Breaking Execution](http://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   

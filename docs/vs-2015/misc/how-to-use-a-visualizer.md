@@ -34,11 +34,11 @@ You can use a visualizer to display the contents of a variable or object in a wa
   
 ### To open a visualizer  
   
-1.  Click the magnifying glass icon that appears next to a variable name in **DataTips**, a **Watch** window, or in the **Autos**, **Locals**, or **Quick Watch** window.  
+1. Click the magnifying glass icon that appears next to a variable name in **DataTips**, a **Watch** window, or in the **Autos**, **Locals**, or **Quick Watch** window.  
   
      A list of visualizers is displayed.  
   
-2.  Click the visualizer you want to use.  
+2. Click the visualizer you want to use.  
   
 ### To use a visualizer for managed code during remote debugging  
   

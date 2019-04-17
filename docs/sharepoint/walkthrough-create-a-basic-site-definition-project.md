@@ -74,19 +74,19 @@ ms.workload:
 
 #### To create a visual web part
 
-1.  In **Solution Explorer**, choose the **Show All Files** button.
+1. In **Solution Explorer**, choose the **Show All Files** button.
 
-2.  Choose the **SiteDefinition1** project node, and then, on the menu bar, choose **Project** > **Add New Item**.
+2. Choose the **SiteDefinition1** project node, and then, on the menu bar, choose **Project** > **Add New Item**.
 
      The **Add New Item** dialog box appears.
 
-3.  Expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.
+3. Expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.
 
-4.  In the list of templates, choose the **Visual Web Part** template, keep the default name VisualWebPart1, and then choose the **Add** button.
+4. In the list of templates, choose the **Visual Web Part** template, keep the default name VisualWebPart1, and then choose the **Add** button.
 
      The *VisualWebPart1.ascx* file opens.
 
-5.  At the bottom of *VisualWebPart1.ascx*, add the following markup to add three controls to the form: a text box, a button, and a label:
+5. At the bottom of *VisualWebPart1.ascx*, add the following markup to add three controls to the form: a text box, a button, and a label:
 
     ```aspx-csharp
     <table>
@@ -104,7 +104,7 @@ ms.workload:
     </table>
     ```
 
-6.  Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)]) or *VisualWebPart1.ascx.vb* (for [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) , and then add the following code:
+6. Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)]) or *VisualWebPart1.ascx.vb* (for [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) , and then add the following code:
 
      [!code-vb[SP_SimpleSiteDef#1](../sharepoint/codesnippet/VisualBasic/testsitedefvb/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.vb#1)]
      [!code-csharp[SP_SimpleSiteDef#1](../sharepoint/codesnippet/CSharp/testsitedef/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.cs#1)]
@@ -116,7 +116,7 @@ ms.workload:
 
 #### To add a visual web part to the default ASPX page
 
-1.  Open the default.aspx page, and then add the following line under the `WebPartPages` tag:
+1. Open the default.aspx page, and then add the following line under the `WebPartPages` tag:
 
     ```aspx-csharp
     <%@ Register Tagprefix="MyWebPartControls" Namespace="TestSiteDef.VisualWebPart1" Assembly="$SharePoint.Project.AssemblyFullName$" %>
@@ -124,7 +124,7 @@ ms.workload:
 
      This line associates the name MyWebPartControls with the Web part and its code. The *Namespace* parameter matches the namespace that's used in the *VisualWebPart1.ascx* code file.
 
-2.  After the `</asp:Content>` element, replace the entire `ContentPlaceHolderId="PlaceHolderMain"` section and its contents with the following code:
+2. After the `</asp:Content>` element, replace the entire `ContentPlaceHolderId="PlaceHolderMain"` section and its contents with the following code:
 
     ```aspx-csharp
     <asp:Content ID="Content1" ContentPlaceHolderId="PlaceHolderMain" runat="server">
@@ -134,7 +134,7 @@ ms.workload:
 
      This code creates a reference to the visual Web part that you created earlier.
 
-3.  In **Solution Explorer**, open the shortcut menu for the **SiteDefinition1** node, and then choose **Set as Startup Item**.
+3. In **Solution Explorer**, open the shortcut menu for the **SiteDefinition1** node, and then choose **Set as Startup Item**.
 
 ## Deploy and run the site definition solution
  Next, deploy the project to SharePoint, and then run the project.
@@ -152,17 +152,17 @@ ms.workload:
 
 #### To create a site by using the site definition
 
-1.  On the SharePoint site, the New SharePoint Site page appears.
+1. On the SharePoint site, the New SharePoint Site page appears.
 
-2.  In the **Title and Description** section, enter **My New Site** for the title and a description of the site.
+2. In the **Title and Description** section, enter **My New Site** for the title and a description of the site.
 
-3.  In the **Web Site Address** section, enter **mynewsite** in the **URL name** box.
+3. In the **Web Site Address** section, enter **mynewsite** in the **URL name** box.
 
-4.  In the **Template** section, choose the **SharePoint Customizations** tab.
+4. In the **Template** section, choose the **SharePoint Customizations** tab.
 
-5.  In the **Select a template** list, choose **SiteDefinition1**.
+5. In the **Select a template** list, choose **SiteDefinition1**.
 
-6.  Leave the other settings at their default values, and then choose the **Create** button.
+6. Leave the other settings at their default values, and then choose the **Create** button.
 
      The new site appears.
 

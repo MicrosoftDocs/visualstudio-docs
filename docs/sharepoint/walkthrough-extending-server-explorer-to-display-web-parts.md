@@ -62,55 +62,55 @@ ms.workload:
 
 #### To create the VSIX project
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the menu bar, choose **File** > **New** > **Project**.
+2. On the menu bar, choose **File** > **New** > **Project**.
 
-3.  In the  **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.
+3. In the  **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.
 
     > [!NOTE]
     >  The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
-4.  At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
+4. At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
 
-5.  Choose the **VSIX Project** template, name the project **WebPartNode**, and then choose the **OK** button.
+5. Choose the **VSIX Project** template, name the project **WebPartNode**, and then choose the **OK** button.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **WebPartNode** project to **Solution Explorer**.
 
 #### To create the extension project
 
-1.  In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.
+1. In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.
 
-2.  In the **New Project** dialog box, expand the **Visual C#** node or **Visual Basic** node, and then the choose **Windows** node.
+2. In the **New Project** dialog box, expand the **Visual C#** node or **Visual Basic** node, and then the choose **Windows** node.
 
-3.  At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
+3. At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
 
-4.  In the list of project templates, choose **Class Library**, name the project **WebPartNodeExtension**, and then choose the **OK** button.
+4. In the list of project templates, choose **Class Library**, name the project **WebPartNodeExtension**, and then choose the **OK** button.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **WebPartNodeExtension** project to the solution and opens the default Class1 code file.
 
-5.  Delete the Class1 code file from the project.
+5. Delete the Class1 code file from the project.
 
 #### To create the SharePoint commands project
 
-1.  In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.
+1. In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.
 
-2.  In the  **New Project** dialog box, expand the **Visual C#** node or **Visual Basic** node, and then choose the **Windows** node.
+2. In the  **New Project** dialog box, expand the **Visual C#** node or **Visual Basic** node, and then choose the **Windows** node.
 
-3.  At the top of the dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.
+3. At the top of the dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.
 
-4.  In the list of project templates, choose **Class Library**, name the project **WebPartCommands**, and then choose the **OK** button.
+4. In the list of project templates, choose **Class Library**, name the project **WebPartCommands**, and then choose the **OK** button.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **WebPartCommands** project to the solution and opens the default Class1 code file.
 
-5.  Delete the Class1 code file from the project.
+5. Delete the Class1 code file from the project.
 
 ## Configure the projects
  Before you write code to create the extension, you must add code files and assembly references, and configure the project settings.
 
 #### To configure the WebPartNodeExtension project
 
-1.  In the WebPartNodeExtension project, add four code files that have the following names:
+1. In the WebPartNodeExtension project, add four code files that have the following names:
 
     -   SiteNodeExtension
 
@@ -120,49 +120,49 @@ ms.workload:
 
     -   WebPartCommandIds
 
-2.  Open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Add Reference**.
+2. Open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Add Reference**.
 
-3.  In the **Reference Manager - WebPartNodeExtension** dialog box, choose the **Framework** tab, and then select the check box for each of the following assemblies:
+3. In the **Reference Manager - WebPartNodeExtension** dialog box, choose the **Framework** tab, and then select the check box for each of the following assemblies:
 
     -   System.ComponentModel.Composition
 
     -   System.Windows.Forms
 
-4.  Choose the **Extensions** tab, select the check box for the Microsoft.VisualStudio.SharePoint assembly, and then choose the **OK** button.
+4. Choose the **Extensions** tab, select the check box for the Microsoft.VisualStudio.SharePoint assembly, and then choose the **OK** button.
 
-5.  In **Solution Explorer**, open the shortcut menu for the **WebPartNodeExtension** project node, and then choose **Properties**.
+5. In **Solution Explorer**, open the shortcut menu for the **WebPartNodeExtension** project node, and then choose **Properties**.
 
      The **Project Designer** opens.
 
-6.  Choose the **Application** tab.
+6. Choose the **Application** tab.
 
-7.  In the **Default namespace** box (C#) or **Root namespace** box ([!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]), enter **ServerExplorer.SharePointConnections.WebPartNode**.
+7. In the **Default namespace** box (C#) or **Root namespace** box ([!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]), enter **ServerExplorer.SharePointConnections.WebPartNode**.
 
 #### To configure the webpartcommands project
 
-1.  In the WebPartCommands project, add a code file that's named WebPartCommands.
+1. In the WebPartCommands project, add a code file that's named WebPartCommands.
 
-2.  In **Solution Explorer**, open the shortcut menu for the **WebPartCommands** project node, choose **Add**, and then choose **Existing Item**.
+2. In **Solution Explorer**, open the shortcut menu for the **WebPartCommands** project node, choose **Add**, and then choose **Existing Item**.
 
-3.  In the **Add Existing Item** dialog box, browse to the folder that contains the code files for the WebPartNodeExtension project, and then choose the WebPartNodeInfo and WebPartCommandIds code files.
+3. In the **Add Existing Item** dialog box, browse to the folder that contains the code files for the WebPartNodeExtension project, and then choose the WebPartNodeInfo and WebPartCommandIds code files.
 
-4.  Choose the arrow next to the **Add** button, and then choose **Add As Link** in the menu that appears.
+4. Choose the arrow next to the **Add** button, and then choose **Add As Link** in the menu that appears.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the code files to the WebPartCommands project as links. As a result, the code files are located in the WebPartNodeExtension project, but the code in the files are also compiled in the WebPartCommands project.
 
-5.  Open the shortcut menu for the **WebPartCommands** project again, and choose **Add Reference**.
+5. Open the shortcut menu for the **WebPartCommands** project again, and choose **Add Reference**.
 
-6.  In the **Reference Manager - WebPartCommands** dialog box, choose the **Extensions** tab, select the check box for each of the following assemblies, and then choose the **OK** button:
+6. In the **Reference Manager - WebPartCommands** dialog box, choose the **Extensions** tab, select the check box for each of the following assemblies, and then choose the **OK** button:
 
     -   Microsoft.SharePoint
 
     -   Microsoft.VisualStudio.SharePoint.Commands
 
-7.  In **Solution Explorer**, open the shortcut menu for the **WebPartCommands** project again, and then choose **Properties**.
+7. In **Solution Explorer**, open the shortcut menu for the **WebPartCommands** project again, and then choose **Properties**.
 
      The **Project Designer** opens.
 
-8.  Choose the **Application** tab.
+8. Choose the **Application** tab.
 
 9. In the **Default namespace** box (C#) or **Root namespace** box ([!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]), enter **ServerExplorer.SharePointConnections.WebPartNode**.
 
@@ -171,25 +171,25 @@ ms.workload:
 
 #### To create icons for the nodes
 
-1.  In **Solution Explorer**, open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Properties**.
+1. In **Solution Explorer**, open the shortcut menu for the **WebPartNodeExtension** project, and then choose **Properties**.
 
-2.  The **Project Designer** opens.
+2. The **Project Designer** opens.
 
-3.  Choose the **Resources** tab, and then choose the **This project does not contain a default resources file. Click here to create one** link.
+3. Choose the **Resources** tab, and then choose the **This project does not contain a default resources file. Click here to create one** link.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates a resource file and opens it in the designer.
 
-4.  At the top of the designer, choose the arrow next to the **Add Resource** menu command, and then choose **Add New Icon** in the menu that appears.
+4. At the top of the designer, choose the arrow next to the **Add Resource** menu command, and then choose **Add New Icon** in the menu that appears.
 
-5.  In the **Add New Resource** dialog box, name the new icon **WebPartsNode**, and then choose the **Add** button.
+5. In the **Add New Resource** dialog box, name the new icon **WebPartsNode**, and then choose the **Add** button.
 
      The new icon opens in the **Image Editor**.
 
-6.  Edit the 16x16 version of the icon so that it has a design that you can easily recognize.
+6. Edit the 16x16 version of the icon so that it has a design that you can easily recognize.
 
-7.  Open the shortcut menu for the 32x32 version of the icon, and then choose **Delete Image Type**.
+7. Open the shortcut menu for the 32x32 version of the icon, and then choose **Delete Image Type**.
 
-8.  Repeat steps 5 through 8 to add a second icon to the project resources, and name this icon **WebPart**.
+8. Repeat steps 5 through 8 to add a second icon to the project resources, and name this icon **WebPart**.
 
 9. In **Solution Explorer**, under the **Resources** folder for the **WebPartNodeExtension** project, open the shortcut menu for **WebPartsNode.ico**.
 
@@ -202,7 +202,7 @@ ms.workload:
 
 #### To add the Web Part Gallery node to Server Explorer
 
-1.  In the WebPartNodeExtension project, open the SiteNodeExtension code file, and then paste the following code into it.
+1. In the WebPartNodeExtension project, open the SiteNodeExtension code file, and then paste the following code into it.
 
     > [!NOTE]
     >  After you add this code, the project will have some compile errors, but they'll go away when you add code in later steps.
@@ -217,7 +217,7 @@ ms.workload:
 
 #### To define the web part node type
 
-1.  In the WebPartNodeExtension project, open the WebPartNodeTypeProvder code file, and then paste the following code into it.
+1. In the WebPartNodeExtension project, open the WebPartNodeTypeProvder code file, and then paste the following code into it.
 
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#2](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodetypeprovider.vb#2)]
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#2](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodetypeprovider.cs#2)]
@@ -227,7 +227,7 @@ ms.workload:
 
 #### To define the web part data class
 
-1.  In the WebPartNodeExtension project, open the WebPartNodeInfo code file, and then paste the following code into it.
+1. In the WebPartNodeExtension project, open the WebPartNodeInfo code file, and then paste the following code into it.
 
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodeinfo.vb#3)]
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodeinfo.cs#3)]
@@ -237,7 +237,7 @@ ms.workload:
 
 #### To define the command IDs
 
-1.  In the WebPartNodeExtension project, open the WebPartCommandIds code file, and then paste the following code into it.
+1. In the WebPartNodeExtension project, open the WebPartCommandIds code file, and then paste the following code into it.
 
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#4](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartcommandids.cs#4)]
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#4](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartcommandids.vb#4)]
@@ -247,7 +247,7 @@ ms.workload:
 
 #### To define the SharePoint commands
 
-1.  In the WebPartCommands project, open the WebPartCommands code file, and then paste the following code into it.
+1. In the WebPartCommands project, open the WebPartCommands code file, and then paste the following code into it.
 
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#6](../sharepoint/codesnippet/CSharp/WebPartNode/WebPartCommands/WebPartCommands.cs#6)]
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#6](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartcommands/webpartcommands.vb#6)]
@@ -257,7 +257,7 @@ ms.workload:
 
 #### To build the solution
 
-1.  On the menu bar, choose **Build** > **Build Solution**.
+1. On the menu bar, choose **Build** > **Build Solution**.
 
     > [!WARNING]
     >  At this point, the WebPartNode project may have a build error because the VSIX manifest file doesn't have a value for Author. This error will go away when you add a value in later steps.
@@ -267,28 +267,28 @@ ms.workload:
 
 #### To configure the VSIX package
 
-1.  In **Solution Explorer**, under the WebPartNode project, open the **source.extension.vsixmanifest** file in the manifest editor.
+1. In **Solution Explorer**, under the WebPartNode project, open the **source.extension.vsixmanifest** file in the manifest editor.
 
      The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
 
-2.  In the **Product Name** box, enter **Web Part Gallery Node for Server Explorer**.
+2. In the **Product Name** box, enter **Web Part Gallery Node for Server Explorer**.
 
-3.  In the **Author** box, enter **Contoso**.
+3. In the **Author** box, enter **Contoso**.
 
-4.  In the **Description** box, enter **Adds a custom Web Part Gallery node to the SharePoint Connections node in Server Explorer. This extension uses a custom SharePoint command to call into the server object model.**
+4. In the **Description** box, enter **Adds a custom Web Part Gallery node to the SharePoint Connections node in Server Explorer. This extension uses a custom SharePoint command to call into the server object model.**
 
-5.  Choose the **Assets** tab of the editor, and then choose the **New** button.
+5. Choose the **Assets** tab of the editor, and then choose the **New** button.
 
      The **Add New Asset** dialog box appears.
 
-6.  In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
+6. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
     >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
-7.  In the  **Source** list, choose **A project in current solution**.
+7. In the  **Source** list, choose **A project in current solution**.
 
-8.  In the **Project** list, choose **WebPartNodeExtension** and then choose the **OK** button.
+8. In the **Project** list, choose **WebPartNodeExtension** and then choose the **OK** button.
 
 9. In the manifest editor, choose the **New** button again.
 
@@ -314,19 +314,19 @@ ms.workload:
 
 #### To start debugging the extension
 
-1.  Restart [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] with administrative credentials, and then open the WebPartNode solution.
+1. Restart [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] with administrative credentials, and then open the WebPartNode solution.
 
-2.  In the WebPartNodeExtension project, open the SiteNodeExtension code file, and then add a breakpoint to the first line of code in the `NodeChildrenRequested` and `CreateWebPartNodes` methods.
+2. In the WebPartNodeExtension project, open the SiteNodeExtension code file, and then add a breakpoint to the first line of code in the `NodeChildrenRequested` and `CreateWebPartNodes` methods.
 
-3.  Choose the **F5** key to start debugging.
+3. Choose the **F5** key to start debugging.
 
      Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Web Part Gallery Node Extension for Server Explorer\1.0 and starts an experimental instance of Visual Studio. You will test the project item in this instance of Visual Studio.
 
 #### To test the extension
 
-1.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **View** > **Server Explorer**.
+1. In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **View** > **Server Explorer**.
 
-2.  Perform the following steps if the SharePoint site that you want to use for testing doesn't appear under the **SharePoint Connections** node in **Server Explorer**:
+2. Perform the following steps if the SharePoint site that you want to use for testing doesn't appear under the **SharePoint Connections** node in **Server Explorer**:
 
     1.  In **Server Explorer**, open the shortcut menu for **SharePoint Connections**, and then choose **Add Connection**.
 
@@ -334,17 +334,17 @@ ms.workload:
 
          To specify the SharePoint site on your development computer, enter **http://localhost**.
 
-3.  Expand the site connection node (which displays the URL of your site), and then expand a child site node (for example, **Team Site**).
+3. Expand the site connection node (which displays the URL of your site), and then expand a child site node (for example, **Team Site**).
 
-4.  Verify that the code in the other instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] stops on the breakpoint that you set earlier in the `NodeChildrenRequested` method, and then choose **F5** to continue to debug the project.
+4. Verify that the code in the other instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] stops on the breakpoint that you set earlier in the `NodeChildrenRequested` method, and then choose **F5** to continue to debug the project.
 
-5.  In the experimental instance of Visual Studio, verify that a new node named **Web Part Gallery** appears under the top-level site node, and then expand the **Web Part Gallery** node.
+5. In the experimental instance of Visual Studio, verify that a new node named **Web Part Gallery** appears under the top-level site node, and then expand the **Web Part Gallery** node.
 
-6.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `CreateWebPartNodes` method, and then choose the **F5** key to continue to debug the project.
+6. Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `CreateWebPartNodes` method, and then choose the **F5** key to continue to debug the project.
 
-7.  In the experimental instance of Visual Studio, verify that all Web Parts on the connected site appear under the **Web Part Gallery** node in **Server Explorer**.
+7. In the experimental instance of Visual Studio, verify that all Web Parts on the connected site appear under the **Web Part Gallery** node in **Server Explorer**.
 
-8.  In **Server Explorer**, open the shortcut menu for one of the Web Parts, and then choose **Properties**.
+8. In **Server Explorer**, open the shortcut menu for one of the Web Parts, and then choose **Properties**.
 
 9. In the instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] that you're debugging, verify that details about the Web Part appear in the **Properties** window.
 
@@ -353,15 +353,15 @@ ms.workload:
 
 #### To uninstall the extension
 
-1.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **Tools** > **Extensions and Updates**.
+1. In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **Tools** > **Extensions and Updates**.
 
      The **Extensions and Updates** dialog box opens.
 
-2.  In the list of extensions, choose **Web Part Gallery Node Extension for Server Explorer**, and then choose the **Uninstall** button.
+2. In the list of extensions, choose **Web Part Gallery Node Extension for Server Explorer**, and then choose the **Uninstall** button.
 
-3.  In the dialog box that appears, choose the **Yes** button to confirm that you want to uninstall the extension, and then choose the **Restart Now** button to complete the uninstallation.
+3. In the dialog box that appears, choose the **Yes** button to confirm that you want to uninstall the extension, and then choose the **Restart Now** button to complete the uninstallation.
 
-4.  Close both instances of Visual Studio (the experimental instance and the instance of Visual Studio in which the WebPartNode solution is open).
+4. Close both instances of Visual Studio (the experimental instance and the instance of Visual Studio in which the WebPartNode solution is open).
 
 ## See also
 - [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)

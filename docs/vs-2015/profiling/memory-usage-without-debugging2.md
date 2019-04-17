@@ -30,11 +30,11 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 ##  <a name="BKMK_Start_a_Memory_Usage_diagnostic_session"></a> Start a Memory Usage diagnostic session  
   
-1.  Open a C# Universal Windows project in Visual Studio.  
+1. Open a C# Universal Windows project in Visual Studio.  
   
-2.  On the menu bar, choose  **Debug / Performance Profiler...**.  
+2. On the menu bar, choose  **Debug / Performance Profiler...**.  
   
-3.  Select **Memory Usage** and then choose the **Start** button at the bottom of the page.  
+3. Select **Memory Usage** and then choose the **Start** button at the bottom of the page.  
   
      ![Start a Memory Usage diagnostic session](../profiling/media/memuse-start-diagnosticssession.png "MEMUSE_Start_DiagnosticsSession")  
   

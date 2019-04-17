@@ -44,11 +44,11 @@ manager: jillfra
   
 ### To collect .NET memory data  
   
-1.  In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+1. In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
-2.  On the _Performance Session_**Property Pages** dialog box, click the **General** tab, and select the **Collect .NET object allocation information** check box.  
+2. On the _Performance Session_**Property Pages** dialog box, click the **General** tab, and select the **Collect .NET object allocation information** check box.  
   
-3.  To collect .NET object lifetime data, select the **Also collect .NET object lifetime information** check box.  
+3. To collect .NET object lifetime data, select the **Also collect .NET object lifetime information** check box.  
   
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  

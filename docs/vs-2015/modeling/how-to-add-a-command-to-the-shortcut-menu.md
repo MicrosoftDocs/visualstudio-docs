@@ -55,9 +55,9 @@ You can add menu commands to your domain-specific language (DSL) so that your us
   
 #### To add the command  
   
-1.  In **Solution Explorer**, under the **DslPackage** project, open Commands.vsct.  
+1. In **Solution Explorer**, under the **DslPackage** project, open Commands.vsct.  
   
-2.  In the `Commands` element, define one or more buttons and a group. A *button* is an item on the menu. A *group* is a section in the menu. To define these items, add the following elements:  
+2. In the `Commands` element, define one or more buttons and a group. A *button* is an item on the menu. A *group* is a section in the menu. To define these items, add the following elements:  
   
     ```  
     <!-- Define a group - a section in the menu -->  
@@ -86,7 +86,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
     > [!NOTE]
     >  Each button or group is identified by a GUID and an integer ID. You can create several groups and buttons with the same GUID. However, they must have different IDs. The GUID names and ID names are translated to actual GUIDs and numeric IDs in the `<Symbols>` node.  
   
-3.  Add a visibility constraint for the command so that it is loaded only in the context of your domain-specific language. For more information, see [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md).  
+3. Add a visibility constraint for the command so that it is loaded only in the context of your domain-specific language. For more information, see [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md).  
   
      To do this, add the following elements in the `CommandTable` element after the `Commands` element.  
   
@@ -98,7 +98,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
     </VisibilityConstraints>  
     ```  
   
-4.  Define the names that you used for the guids and ids. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.  
+4. Define the names that you used for the guids and ids. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.  
   
     ```  
     <Symbols>  
@@ -111,12 +111,12 @@ You can add menu commands to your domain-specific language (DSL) so that your us
     </Symbols>  
     ```  
   
-5.  Replace `{000...000}` with a GUID that identifies your groups and menu items. To obtain a new GUID, use the **Create GUID** tool on the **Tools** menu.  
+5. Replace `{000...000}` with a GUID that identifies your groups and menu items. To obtain a new GUID, use the **Create GUID** tool on the **Tools** menu.  
   
     > [!NOTE]
     >  If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.  
   
-6.  In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:  
+6. In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:  
   
     -   `grpidMyMenuGroup`  
   
@@ -133,11 +133,11 @@ You can add menu commands to your domain-specific language (DSL) so that your us
   
 #### To update the Package.tt file  
   
-1.  In **Solution Explorer**, in the **DslPackage** project, in the **GeneratedCode** folder, open the Package.tt file.  
+1. In **Solution Explorer**, in the **DslPackage** project, in the **GeneratedCode** folder, open the Package.tt file.  
   
-2.  Locate the `ProvideMenuResource` attribute.  
+2. Locate the `ProvideMenuResource` attribute.  
   
-3.  Increment the `version` parameter of the attribute, which is the second parameter. If you want, you can write the parameter name explicitly to remind you of its purpose. For example:  
+3. Increment the `version` parameter of the attribute, which is the second parameter. If you want, you can write the parameter name explicitly to remind you of its purpose. For example:  
   
      `[VSShell::ProvideMenuResource("1000.ctmenu", version: 2 )]`  
   
@@ -148,15 +148,15 @@ You can add menu commands to your domain-specific language (DSL) so that your us
   
 #### To extend the CommandSet class  
   
-1.  In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:  
+1. In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:  
   
      `namespace Company.Language1`  
   
      `{ ...  internal partial class Language1CommandSet : ...`  
   
-2.  In **DslPackage**, create a folder that is named **Custom Code**. In this folder, create a new class file that is named `CommandSet.cs`.  
+2. In **DslPackage**, create a folder that is named **Custom Code**. In this folder, create a new class file that is named `CommandSet.cs`.  
   
-3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:  
+3. In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:  
   
      `namespace Company.Language1 /* Make sure this is correct */`  
   
@@ -318,13 +318,13 @@ protected override IList<MenuCommand> GetMenuCommands()
   
 #### To exercise the command  
   
-1.  On the **Solution Explorer** toolbar, click **Transform All Templates**.  
+1. On the **Solution Explorer** toolbar, click **Transform All Templates**.  
   
-2.  Press **F5** to rebuild the solution, and start debugging the domain-specific language in the experimental build.  
+2. Press **F5** to rebuild the solution, and start debugging the domain-specific language in the experimental build.  
   
-3.  In the experimental build, open a sample diagram.  
+3. In the experimental build, open a sample diagram.  
   
-4.  Right-click various items in the diagram to verify that the command is correctly enabled or disabled, and appropriately shown or hidden, depending on the selected item.  
+4. Right-click various items in the diagram to verify that the command is correctly enabled or disabled, and appropriately shown or hidden, depending on the selected item.  
   
 ## Troubleshooting  
  **Command does not appear in menu:**  

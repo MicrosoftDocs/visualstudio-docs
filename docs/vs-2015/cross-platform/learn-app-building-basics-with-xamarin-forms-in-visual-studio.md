@@ -32,13 +32,13 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 ##  <a name="solution"></a> Set up your solution
  These steps create a Xamarin.Forms solution that contains a PCL for shared code and two added NuGet packages.
 
-1.  In Visual Studio, create a new **Blank App (Xamarin.Forms Portable)** solution and name it **WeatherApp**. You can find this template most easily by entering **Xamarin.Forms** into the search field.
+1. In Visual Studio, create a new **Blank App (Xamarin.Forms Portable)** solution and name it **WeatherApp**. You can find this template most easily by entering **Xamarin.Forms** into the search field.
 
      If it’s not there, you might have to install Xamarin or enable the Visual Studio 2015 feature, see [Setup and install](../cross-platform/setup-and-install.md).
 
      ![Creating a new Blank App &#40;Xamarin.Forms Portable&#41; project](../cross-platform/media/crossplat-xamarin-formsguide-2.png "CrossPlat Xamarin FormsGuide 2")
 
-2.  After clicking OK to create the solution, you’ll have a number of individual projects:
+2. After clicking OK to create the solution, you’ll have a number of individual projects:
 
     -   **WeatherApp (Portable)**: the PCL where you’ll write code that is shared across platforms, including common business logic and UI code using with Xamarin.Forms.
 
@@ -57,7 +57,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
      Within each native project you have access to the native designer for the corresponding platform and can implement platform specific screens and functionality as needed.
 
-3.  Upgrade the Xamarin.Forms NuGet package in your solution to the latest stable version as follows. We recommend doing this whenever you create a new Xamarin solution:
+3. Upgrade the Xamarin.Forms NuGet package in your solution to the latest stable version as follows. We recommend doing this whenever you create a new Xamarin solution:
 
     -   Select **Tools > NuGet Package Manager > Manage NuGet Packages for Solution**.
 
@@ -69,7 +69,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
          ![Updating the Xamarin.Forms NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-4.png "CrossPlat Xamarin FormsGuide 4")
 
-4.  Add the **Newtonsoft.Json** and NuGet package to the PCL project, which you’ll use to process information retrieved from a weather data service:
+4. Add the **Newtonsoft.Json** and NuGet package to the PCL project, which you’ll use to process information retrieved from a weather data service:
 
     -   In the NuGet Package Manager (still open from step 3), select the **Browse** tab and search for **Newtonsoft**.
 
@@ -83,9 +83,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
     -   ![Locating and installing the Newtonsoft.Json NuGet package](../cross-platform/media/crossplat-xamarin-formsguide-5.png "CrossPlat Xamarin FormsGuide 5")
 
-5.  Repeat step 4 to find and install the **Microsoft.Net.Http** package.
+5. Repeat step 4 to find and install the **Microsoft.Net.Http** package.
 
-6.  Build your solution and verify that there are no build errors.
+6. Build your solution and verify that there are no build errors.
 
 ##  <a name="dataservice"></a> Write shared data service code
  The **WeatherApp (Portable)** project is where you’ll write code for the portable class library (PCL) that’s shared across all platforms. The PCL is automatically included in the app packages build by the iOS, Android, and Windows Phone projects.
@@ -94,9 +94,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  The following steps add then code to the PCL to access and store data from that weather service:
 
-1.  Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.
+1. Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.
 
-2.  Replace the entire contents of **Weather.cs** with the following:
+2. Replace the entire contents of **Weather.cs** with the following:
 
     ```csharp
     namespace WeatherApp
@@ -127,9 +127,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-3.  Add another class to the PCL project named **DataService.cs** in which you’ll use to process JSON data from the weather data service.
+3. Add another class to the PCL project named **DataService.cs** in which you’ll use to process JSON data from the weather data service.
 
-4.  Replace the entire contents of **DataService.cs** with the following code:
+4. Replace the entire contents of **DataService.cs** with the following code:
 
     ```csharp
     using System.Threading.Tasks;
@@ -158,9 +158,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-5.  Add a third class to the PCL named **Core** where you’ll put shared business logic, such as logic that forms a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.
+5. Add a third class to the PCL named **Core** where you’ll put shared business logic, such as logic that forms a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.
 
-6.  Replace the contents of **Core.cs** with the following:
+6. Replace the contents of **Core.cs** with the following:
 
     ```csharp
     using System;
@@ -204,18 +204,18 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-7.  Build the **WeatherApp** PCL project to make sure the code is correct.
+7. Build the **WeatherApp** PCL project to make sure the code is correct.
 
 ##  <a name="uicode"></a> Begin writing shared UI code
  Xamarin.Forms let you implement shared UI code in the PCL. In these steps you’ll add a screen to the PCL with a button that updates its text with data returned by the weather data service code added in the previous section:
 
-1.  Add a **Forms Xaml Page** named **WeatherPage.cs** by right-clicking the **WeatherApp** project and selecting **Add > New Item...**. In the **Add New Item** dialog, search on “Forms,” select **Forms Xaml Page**, and name it **WeatherPage.cs**.
+1. Add a **Forms Xaml Page** named **WeatherPage.cs** by right-clicking the **WeatherApp** project and selecting **Add > New Item...**. In the **Add New Item** dialog, search on “Forms,” select **Forms Xaml Page**, and name it **WeatherPage.cs**.
 
      Xamarin.Forms is XAML-based, so this step creates a **WeatherPage.xaml** file along with the nested code-behind file **WeatherPage.xaml.cs**. This allows you to generate UI through either XAML or code. You’ll do some of both in this walkthrough.
 
      ![Adding a new Xamarin.Forms XAML page](../cross-platform/media/crossplat-xamarin-formsguide-6.png "CrossPlat Xamarin FormsGuide 6")
 
-2.  To add a button to the WeatherPage screen, replace the contents of WeatherPage.xaml with the following:
+2. To add a button to the WeatherPage screen, replace the contents of WeatherPage.xaml with the following:
 
     ```xaml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -228,7 +228,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
      Notice that the name of the button must be defined using the **x:Name** attribute so that you can reference this button by name from within the code-behind file.
 
-3.  To add an event handler for the button’s **Clicked** event to update the button text, replace the contents of **WeatherPage.xaml.cs** with the code below. (Feel free to change “60601” to another zip code.)
+3. To add an event handler for the button’s **Clicked** event to update the button text, replace the contents of **WeatherPage.xaml.cs** with the code below. (Feel free to change “60601” to another zip code.)
 
     ```csharp
     using System;
@@ -257,7 +257,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-4.  To open **WeatherPage** as the first screen when the app launches, replace the default constructor in **App.cs** with the following code:
+4. To open **WeatherPage** as the first screen when the app launches, replace the default constructor in **App.cs** with the following code:
 
     ```csharp
     public App()
@@ -266,18 +266,18 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-5.  Build the WeatherApp PCL project to make sure the code is correct.
+5. Build the WeatherApp PCL project to make sure the code is correct.
 
 ##  <a name="test"></a> Test your app using the Visual Studio Emulator for Android
  Now you’re ready to run the app! Let’s run just the Android version for now to verify that the app is getting data from the weather service. Later you’ll also run the iOS and Windows Phone versions after you’ve added more UI elements. (Note: if you’re running Visual Studio on Windows 7, you’ll follow these same steps but will the Xamarin Player instead.)
 
-1.  Set the **WeatherApp.Droid** project as the startup project by right-clicking it and selecting **Set as Startup Project**.
+1. Set the **WeatherApp.Droid** project as the startup project by right-clicking it and selecting **Set as Startup Project**.
 
-2.  In the Visual Studio toolbar, you’ll see **WeatherApp.Droid** listed as the target project. Select one of the Android emulators for debugging and hit **F5**. We recommend using one of the **VS Emulator** options that will run the app in the Visual Studio Emulator for Android options.
+2. In the Visual Studio toolbar, you’ll see **WeatherApp.Droid** listed as the target project. Select one of the Android emulators for debugging and hit **F5**. We recommend using one of the **VS Emulator** options that will run the app in the Visual Studio Emulator for Android options.
 
      ![Selecting a VS Emulator debug target](../cross-platform/media/crossplat-xamarin-formsguide-7.png "CrossPlat Xamarin FormsGuide 7")
 
-3.  When the app launches in the emulator, click the **Get Weather** button. You should see the button’s text updated to **Chicago, IL**, which is the *Title* property of the data retrieved from the weather service.
+3. When the app launches in the emulator, click the **Get Weather** button. You should see the button’s text updated to **Chicago, IL**, which is the *Title* property of the data retrieved from the weather service.
 
      ![Weather App before and after tapping the button](../cross-platform/media/crossplat-xamarin-formsguide-8.png "CrossPlat Xamarin FormsGuide 8")
 

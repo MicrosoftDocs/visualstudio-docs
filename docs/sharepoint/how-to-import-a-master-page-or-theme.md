@@ -19,27 +19,27 @@ ms.workload:
 
 ### To import a master page or theme
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create or open a SharePoint project.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create or open a SharePoint project.
 
      For information about how to create a SharePoint project, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
 
-2.  On the menu bar, choose **Project** > **Add New Item**.
+2. On the menu bar, choose **Project** > **Add New Item**.
 
-3.  In the **Add New Item** dialog box, expand the **SharePoint** node, and then choose the **2010** node.
+3. In the **Add New Item** dialog box, expand the **SharePoint** node, and then choose the **2010** node.
 
-4.  In the list of SharePoint templates, choose the **Module** template, and then specify a name for the module.
+4. In the list of SharePoint templates, choose the **Module** template, and then specify a name for the module.
 
      A module contains files (for example, master page or theme files) for deployment to a location that you specify in SharePoint.
 
-5.  In the module, delete the default file, which is named *Sample.txt*.
+5. In the module, delete the default file, which is named *Sample.txt*.
 
-6.  Choose the module node.
+6. Choose the module node.
 
-7.  On the menu bar, choose **Project** > **Add Existing Item**, and then choose the master page or theme file.
+7. On the menu bar, choose **Project** > **Add Existing Item**, and then choose the master page or theme file.
 
      Master page files have a .master extension, and theme files have a .thmx extension.
 
-8.  If you added a master page, change its **Deployment Conflict Resolution** setting to **Automatic** in the module's properties.
+8. If you added a master page, change its **Deployment Conflict Resolution** setting to **Automatic** in the module's properties.
 
     > [!NOTE]
     >  Errors can occur if the name of the master page is the same as the name of an existing master page that's marked as either Default Master Page or Custom Master Page. For information about how to resolve this problem, see [Walkthrough: Import a custom master page and site page with an image](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md).

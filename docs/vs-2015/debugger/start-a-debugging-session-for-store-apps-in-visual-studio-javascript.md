@@ -79,15 +79,15 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 ###  <a name="BKMK_Open_the_debugging_property_page_for_the_project"></a> Open the debugging property page for the project
 
-1.  In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.
+1. In Solution Explorer, select the project. On the shortcut menu, choose **Properties**.
 
-2.  Expand the **Configuration Properties**  node and then choose **Debugging**
+2. Expand the **Configuration Properties**  node and then choose **Debugging**
 
 ###  <a name="BKMK_Choose_the_build_configuration_options"></a> Choose the build configuration options
 
-1.  From the **Configuration** list, choose **Debug** or **(Active) Debug**.
+1. From the **Configuration** list, choose **Debug** or **(Active) Debug**.
 
-2.  From the **Platform** list choose the target platform to build for. In most cases, **Any CPU** is the best choice.
+2. From the **Platform** list choose the target platform to build for. In most cases, **Any CPU** is the best choice.
 
 ###  <a name="BKMK_Choose_the_deployment_target"></a> Choose the deployment target
  You can deploy and debug an app on the Visual Studio machine, in the Visual Studio simulator on the local machine, or on a remote machine. You choose the target from the **Debugger to launch** list on the **Debugging** property page for the project.
@@ -199,23 +199,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  To attach to an app:
 
-1.  Set the app to run in debug mode. This must be done when the app is not running.
+1. Set the app to run in debug mode. This must be done when the app is not running.
 
-2.  Start the app. You can start the app from the Start menu, an execution contract, or some other method.
+2. Start the app. You can start the app from the Start menu, an execution contract, or some other method.
 
-3.  Attach the debugger to the running app.
+3. Attach the debugger to the running app.
 
 ###  <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> Set the app to run in debug mode
 
-1.  Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the remote tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
+1. Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the remote tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
 
-2.  On the Start menu, search for `Debuggable Package Manager` and then start it.
+2. On the Start menu, search for `Debuggable Package Manager` and then start it.
 
      A PowerShell window properly configured for the AppxDebug cmdlet appears.
 
-3.  To enable debugging of an app, you must specify the PackageFullName identifier of the app. To view a list all apps that includes the PackageFullName, type `Get-AppxPackage` at the PowerShell prompt.
+3. To enable debugging of an app, you must specify the PackageFullName identifier of the app. To view a list all apps that includes the PackageFullName, type `Get-AppxPackage` at the PowerShell prompt.
 
-4.  At the PowerShell prompt, enter `Enable-AppxDebug` *PackageFullName* where *PackageFullName* is the PackageFullName identifier of the app.
+4. At the PowerShell prompt, enter `Enable-AppxDebug` *PackageFullName* where *PackageFullName* is the PackageFullName identifier of the app.
 
 ###  <a name="BKMK_Attach_the_debugger"></a> Attach the debugger
 

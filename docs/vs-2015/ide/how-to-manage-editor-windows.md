@@ -28,9 +28,9 @@ You can work on code in several locations at once. Do this by splitting an Edito
   
 #### To split a pane  
   
-1.  Click within the editor window to give it focus.  
+1. Click within the editor window to give it focus.  
   
-2.  From the **Window** menu, select **Split**.  
+2. From the **Window** menu, select **Split**.  
   
      The editing area divides into two panes separated by a splitter bar. You can scroll these panes independently to view and edit different parts of the active document at the same time. Any changes made in one pane are reflected in the other.  
   

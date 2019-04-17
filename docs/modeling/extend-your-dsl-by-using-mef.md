@@ -18,7 +18,7 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
 
 ### To enable your DSL to be extended by MEF
 
-1.  Create a new folder named **MefExtension** inside the **DslPackage** project. Add the following files to it:
+1. Create a new folder named **MefExtension** inside the **DslPackage** project. Add the following files to it:
 
      File name: `CommandExtensionVSCT.tt`
 
@@ -66,7 +66,7 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
     <#@ include file="DslPackage\PackageExtensionEnablement.tt" #>
     ```
 
-2.  Create a new folder named **MefExtension** inside the **Dsl** project. Add the following files to it:
+2. Create a new folder named **MefExtension** inside the **Dsl** project. Add the following files to it:
 
      File name: `DesignerExtensionMetaDataAttribute.tt`
 
@@ -89,7 +89,7 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
     <#@ include file="Dsl\GestureExtensionController.tt" #>
     ```
 
-3.  Add the following line to the existing file that is named **DslPackage\Commands.vsct**:
+3. Add the following line to the existing file that is named **DslPackage\Commands.vsct**:
 
     ```xml
     <Include href="MefExtension\CommandExtensionVSCT.vsct"/>
@@ -97,17 +97,17 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
 
     Insert the line after the existing `<Include>` directive.
 
-4.  Open *DslDefinition.dsl*.
+4. Open *DslDefinition.dsl*.
 
-5.  In DSL Explorer, select **Editor\Validation**.
+5. In DSL Explorer, select **Editor\Validation**.
 
-6.  In the Properties window, make sure that at least one of the properties named **Uses** is `true`.
+6. In the Properties window, make sure that at least one of the properties named **Uses** is `true`.
 
-7.  In the **Solution Explorer** toolbar, click **Transform All Templates**.
+7. In the **Solution Explorer** toolbar, click **Transform All Templates**.
 
      Subsidiary files appear underneath each of the files that you added.
 
-8.  Build and run the solution to verify that it is still working.
+8. Build and run the solution to verify that it is still working.
 
 Your DSL is now MEF-enabled. You can write menu commands, gestures handlers, and validation constraints as MEF extensions. You can write these extensions in your DSL solution together with other custom code. In addition, you or other developers can write separate Visual Studio extensions that extend your DSL.
 

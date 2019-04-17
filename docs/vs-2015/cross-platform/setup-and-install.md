@@ -33,7 +33,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
 ##  <a name="prereq"></a> Pre-requisites  
   
-1.  For targeting Windows and Android:  
+1. For targeting Windows and Android:  
   
     1.  Recommended: a physical Windows computer (not a VM) running Windows 8 or later, which allows use of the fast, Hyper-V based Visual Studio Emulator for Android if you don't have an Android device. (Did we mention that you need a physical computer and not a VM?)  
   
@@ -41,7 +41,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
     
     1. For either configuration, you can always run apps directly on connected physical devices.  
   
-1.  For targeting iOS:  
+1. For targeting iOS:  
   
     1.  A networked Mac or Mac mini with OS X Yosemite running OS X 10.10.5 or later (required for Xcode 7.1).  
   
@@ -87,12 +87,12 @@ If you have issues using Xamarin after doing this setup and install, post your q
   
 ##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)  
   
-1.  Create a free Apple ID at [https://appleid.apple.com](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.  
+1. Create a free Apple ID at [https://appleid.apple.com](https://appleid.apple.com/) if you don’t have one already. This is necessary for installing and signing into Xcode.  
   
-2.  Download and install Xcode from  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/), and add your Apple ID as described on [Adding Your Account to XCode](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1) (apple.com).  
+2. Download and install Xcode from  [https://developer.apple.com/xcode/](https://developer.apple.com/xcode/), and add your Apple ID as described on [Adding Your Account to XCode](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1) (apple.com).  
   
-3.  Download and install Xamarin by following the instructions on [Installing and Configuring Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com).  
+3. Download and install Xamarin by following the instructions on [Installing and Configuring Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com).  
   
-4.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
+4. Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
   
      Note that both computers must be on the same local network.

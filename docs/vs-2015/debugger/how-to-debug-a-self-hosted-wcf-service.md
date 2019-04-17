@@ -34,9 +34,9 @@ A *self-hosted service* is a WCF service that does not run inside IIS, the WCF S
   
 ### To start both client and host from Visual Studio  
   
-1.  Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains both the client and server projects.  
+1. Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains both the client and server projects.  
   
-2.  Configure the solution to start both client and server processes when you choose **Start** on the **Debug** menu.  
+2. Configure the solution to start both client and server processes when you choose **Start** on the **Debug** menu.  
   
     1.  In **Solution Explorer**, right-click the solution name.  
   

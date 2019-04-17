@@ -52,14 +52,14 @@ End Sub
   
 #### To add validation during changes to individual column values  
   
-1.  Open the dataset in the designer by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1. Open the dataset in the designer by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
-2.  Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.  
+2. Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.  
   
     > [!NOTE]
     >  The Dataset Designer does not automatically create an event handler for the C# event. The code that's necessary to handle the event in C# is included in the next section. `SampleColumnChangingEvent` is created and then hooked up to the <xref:System.Data.DataTable.ColumnChanging> event in the <xref:System.Data.DataTable.EndInit%2A> method.  
   
-3.  Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.  
+3. Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.  
   
      The following code example validates that the **Quantity** column contains more than 0. If **Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if **Quantity** is more than 0. The code in the column-changing event handler should resemble the following:  
   
@@ -111,18 +111,18 @@ End Sub
   
 #### To add validation during changes to whole rows  
   
-1.  Open the dataset in the designer by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1. Open the dataset in the designer by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
-2.  Double-click the title bar of the data table on the designer.  
+2. Double-click the title bar of the data table on the designer.  
   
      A partial class is created with a `RowChanging` event handler and opens in the Code Editor.  
   
     > [!NOTE]
     >  The Dataset Designer does not automatically create an event handler for the <xref:System.Data.DataTable.RowChanging> event in C# projects. You have to create a method to handle the <xref:System.Data.DataTable.RowChanging> event and run code to hook up the event in the table's initialization method.  
   
-3.  Add user code inside the partial class declaration.  
+3. Add user code inside the partial class declaration.  
   
-4.  The following code shows where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event for Visual Basic:  
+4. The following code shows where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event for Visual Basic:  
   
     ```vb  
     Partial Class OrdersDataTable  
@@ -139,7 +139,7 @@ End Sub
     End Class  
     ```  
   
-5.  The following code shows how to create the `RowChanging` event handler and where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event for C#:  
+5. The following code shows how to create the `RowChanging` event handler and where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event for C#:  
   
     ```csharp  
     partial class OrdersDataTable  

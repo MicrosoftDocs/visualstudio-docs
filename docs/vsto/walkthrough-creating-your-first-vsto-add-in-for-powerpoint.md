@@ -44,19 +44,19 @@ ms.workload:
 
 ### To create a new project
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4.  Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
+4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
 
-5.  In the list of project templates, select a PowerPoint VSTO Add-in project.
+5. In the list of project templates, select a PowerPoint VSTO Add-in project.
 
-6.  In the **Name** box, type **FirstPowerPointAddIn**.
+6. In the **Name** box, type **FirstPowerPointAddIn**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstPowerPointAddIn** project and opens the **ThisAddIn** code file in the editor.
 
@@ -91,24 +91,24 @@ ms.workload:
 
 ### To test the project
 
-1.  Press **F5** to build and run your project.
+1. Press **F5** to build and run your project.
 
      When you build the project, the code is compiled into an assembly that is put in the build output folder for the project. Visual Studio also creates a set of registry entries that enable PowerPoint to discover and load the VSTO Add-in, and it configures the security settings on the development computer to enable the VSTO Add-in to run. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
-2.  In PowerPoint, add a new slide to the active presentation.
+2. In PowerPoint, add a new slide to the active presentation.
 
-3.  Verify that the following text is added to a new text box at the top of the slide.
+3. Verify that the following text is added to a new text box at the top of the slide.
 
      **This text was added by using code.**
 
-4.  Close PowerPoint.
+4. Close PowerPoint.
 
 ## Clean up the project
  When you finish developing a project, remove the VSTO Add-in assembly, registry entries, and security settings from your development computer. Otherwise, the VSTO Add-in will run every time you open PowerPoint on the development computer.
 
 ### To clean up your project
 
-1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.
+1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
  Now that you have created a basic VSTO Add-in for PowerPoint, you can learn more about how to develop VSTO Add-ins from these topics:

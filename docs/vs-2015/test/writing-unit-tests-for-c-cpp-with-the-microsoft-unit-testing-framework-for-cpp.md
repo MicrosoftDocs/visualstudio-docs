@@ -18,11 +18,11 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ### To write unit tests for an unmanaged code DLL  
   
-1.  Use the **Native Test Project** template to create a separate Visual Studio project for your tests.  
+1. Use the **Native Test Project** template to create a separate Visual Studio project for your tests.  
   
      The project contains some sample test code.  
   
-2.  Make the DLL accessible to the test project:  
+2. Make the DLL accessible to the test project:  
   
     -   `#include` a `.h` file that contains declarations of the DLL’s externally-accessible functions.  
   
@@ -34,7 +34,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
          In the **Properties** of the test project, expand **Common Properties**, **Framework and References**, and choose **Add Reference**.  
   
-3.  In the test project, create test classes and test methods by using the TEST macros and Assert class in the following way:  
+3. In the test project, create test classes and test methods by using the TEST macros and Assert class in the following way:  
   
     ```cpp  
     #include "stdafx.h"  
@@ -60,7 +60,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
     -   You cannot nest test classes.  
   
-4.  Use Test Explorer to run the tests:  
+4. Use Test Explorer to run the tests:  
   
     1.  On the **View** menu, choose **Other Windows**, **Test Explorer**.  
   
@@ -79,25 +79,25 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
 ##  <a name="walkthrough"></a> Walkthrough: Developing an unmanaged DLL with Test Explorer  
  You can adapt this walkthrough to develop your own DLL. The principal steps are as follows:  
   
-1.  [Create a Native Test Project](#unitTestProject). The tests are created in a separate project from the DLL that you are developing.  
+1. [Create a Native Test Project](#unitTestProject). The tests are created in a separate project from the DLL that you are developing.  
   
-2.  [Create a DLL Project](#createDllProject). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.  
+2. [Create a DLL Project](#createDllProject). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.  
   
-3.  [Make the DLL functions visible to the tests](#coupleProjects).  
+3. [Make the DLL functions visible to the tests](#coupleProjects).  
   
-4.  [Iteratively augment the tests](#iterate). We recommend a "red-green-refactor" cycle, in which development of the code is led by the tests.  
+4. [Iteratively augment the tests](#iterate). We recommend a "red-green-refactor" cycle, in which development of the code is led by the tests.  
   
-5.  [Debug failing tests](#debug). You can run tests in debug mode.  
+5. [Debug failing tests](#debug). You can run tests in debug mode.  
   
-6.  [Refactor while keeping the tests unchanged](#refactor). Refactoring means improving the structure of the code without changing its external behavior. You can do it to improve the performance, extensibility, or readability of the code. Because the intention is not to change the behavior, you do not change the tests while making a refactoring change to the code. The tests help make sure  that you do not introduce bugs while you are refactoring. You can therefore make such changes with much more confidence than if you did not have the tests.  
+6. [Refactor while keeping the tests unchanged](#refactor). Refactoring means improving the structure of the code without changing its external behavior. You can do it to improve the performance, extensibility, or readability of the code. Because the intention is not to change the behavior, you do not change the tests while making a refactoring change to the code. The tests help make sure  that you do not introduce bugs while you are refactoring. You can therefore make such changes with much more confidence than if you did not have the tests.  
   
-7.  [Check coverage](https://msdn.microsoft.com/library/fc8hec9e.aspx). Unit tests are more useful when they exercise more of your code. You can discover which parts of your code have been used by the tests.  
+7. [Check coverage](https://msdn.microsoft.com/library/fc8hec9e.aspx). Unit tests are more useful when they exercise more of your code. You can discover which parts of your code have been used by the tests.  
   
-8.  [Isolate units from external resources](https://msdn.microsoft.com/library/hh549174.aspx). Typically, a DLL is dependent on other components of the system that you are developing, such as other DLLs, databases, or remote subsystems. It is useful to test each unit in isolation from its dependencies. External components can make tests run slowly. During development, the other components might not be complete.  
+8. [Isolate units from external resources](https://msdn.microsoft.com/library/hh549174.aspx). Typically, a DLL is dependent on other components of the system that you are developing, such as other DLLs, databases, or remote subsystems. It is useful to test each unit in isolation from its dependencies. External components can make tests run slowly. During development, the other components might not be complete.  
   
 ###  <a name="unitTestProject"></a> Create a native unit test project  
   
-1.  On the **File** menu, choose **New**, **Project**.  
+1. On the **File** menu, choose **New**, **Project**.  
   
      In the dialog box, expand **Installed**, **Templates**, **Visual C++**, **Test**.  
   
@@ -107,7 +107,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
      ![Creating a C&#43;&#43; Unit Test Project](../test/media/utecpp01.png "UteCpp01")  
   
-2.  In the new project, inspect **unittest1.cpp**  
+2. In the new project, inspect **unittest1.cpp**  
   
      ![Test project with TEST&#95;CLASS and TEST&#95;METHOD](../test/media/utecpp2.png "UteCpp2")  
   
@@ -121,7 +121,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method.  
   
-3.  Verify that the tests run in Test Explorer:  
+3. Verify that the tests run in Test Explorer:  
   
     1.  Insert some test code:  
   
@@ -146,25 +146,25 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ###  <a name="createDllProject"></a> Create an Unmanaged DLL project  
   
-1.  Create a **Visual C++** project by using the **Win32 Project** template.  
+1. Create a **Visual C++** project by using the **Win32 Project** template.  
   
      In this walkthrough, the project is named `RootFinder`.  
   
      ![Creating a C&#43;&#43; Win32 project](../test/media/utecpp05.png "UteCpp05")  
   
-2.  Select **DLL** and **Export Symbols** in the Win32 Application Wizard.  
+2. Select **DLL** and **Export Symbols** in the Win32 Application Wizard.  
   
      The **Export Symbols** option generates a convenient macro that you can use to declare exported methods.  
   
      ![C&#43;&#43; project wizard set for DLL and Export Symbols](../test/media/utecpp06.png "UteCpp06")  
   
-3.  Declare an exported function in the principal .h file:  
+3. Declare an exported function in the principal .h file:  
   
      ![New DLL code project and .h file with API macros](../test/media/utecpp07.png "UteCpp07")  
   
      The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](http://msdn.microsoft.com/library/8d7d1303-b9e9-47ca-96cc-67bf444a08a9).  
   
-4.  In the principal .cpp file, add a minimal body for the function:  
+4. In the principal .cpp file, add a minimal body for the function:  
   
     ```cpp  
     // Find the square root of a number.  
@@ -226,7 +226,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ###  <a name="iterate"></a> Iteratively augment the tests and make them pass  
   
-1.  Add a new test:  
+1. Add a new test:  
   
     ```cpp  
     TEST_METHOD(RangeTest)  
@@ -245,7 +245,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
     >   
     >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.  
   
-2.  Build the solution, and then in Test Explorer, choose **Run All**.  
+2. Build the solution, and then in Test Explorer, choose **Run All**.  
   
      The new test fails.  
   
@@ -254,7 +254,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
     > [!TIP]
     >  Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.  
   
-3.  Enhance the code under test so that the new test passes:  
+3. Enhance the code under test so that the new test passes:  
   
     ```cpp  
     #include <math.h>  
@@ -273,7 +273,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
     }  
     ```  
   
-4.  Build the solution and then in Test Explorer, choose **Run All**.  
+4. Build the solution and then in Test Explorer, choose **Run All**.  
   
      Both tests pass.  
   
@@ -284,7 +284,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ###  <a name="debug"></a> Debug a failing test  
   
-1.  Add another test:  
+1. Add another test:  
   
     ```cpp  
   
@@ -318,15 +318,15 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
     }  
     ```  
   
-2.  Build the solution and choose **Run All**.  
+2. Build the solution and choose **Run All**.  
   
-3.  Open (or double-click) the failed test.  
+3. Open (or double-click) the failed test.  
   
      The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.  
   
      ![NegativeRangeTests failed](../test/media/ute-cpp-testexplorer-negativerangetest-fail.png "UTE_Cpp_TestExplorer_NegativeRangeTest_Fail")  
   
-4.  To see why the test fails, step through the function:  
+4. To see why the test fails, step through the function:  
   
     1.  Set a breakpoint at the start of the SquareRoot function.  
   
@@ -334,7 +334,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
          When the run stops at the breakpoint, step through the code.  
   
-5.  Insert code in the function that you are developing:  
+5. Insert code in the function that you are developing:  
   
     ```cpp  
   
@@ -350,7 +350,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
     ```  
   
-6.  All tests now pass.  
+6. All tests now pass.  
   
      ![All tests pass](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
   
@@ -359,7 +359,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
 ###  <a name="refactor"></a> Refactor the code without changing tests  
   
-1.  Simplify the central calculation in the SquareRoot function:  
+1. Simplify the central calculation in the SquareRoot function:  
   
     ```  
     // old code:  
@@ -369,7 +369,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
     ```  
   
-2.  Build the solution and choose **Run All**, to make sure that you have not introduced an error.  
+2. Build the solution and choose **Run All**, to make sure that you have not introduced an error.  
   
     > [!TIP]
     >  A good set of unit tests gives confidence that you have not introduced bugs when you change the code.  

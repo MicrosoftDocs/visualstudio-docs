@@ -20,13 +20,13 @@ A command group is a collection of commands that always appear together on a men
 
 ## To create a reusable group of buttons
 
-1.  Create a VSIX project named `ReusableButtons`. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
+1. Create a VSIX project named `ReusableButtons`. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
-2.  When the project opens, add a custom command item template named **ReusableCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *ReusableCommand.cs*.
+2. When the project opens, add a custom command item template named **ReusableCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *ReusableCommand.cs*.
 
-3.  In the *.vsct* file, go to the Symbols section and find the GuidSymbol element that contains groups and commands for the project. It should be named guidReusableCommandPackageCmdSet.
+3. In the *.vsct* file, go to the Symbols section and find the GuidSymbol element that contains groups and commands for the project. It should be named guidReusableCommandPackageCmdSet.
 
-4.  Add an IDSymbol for each button that you will add to the group, as in the following example.
+4. Add an IDSymbol for each button that you will add to the group, as in the following example.
 
     ```xml
     <GuidSymbol name="guidReusableCommandPackageCmdSet" value="{7f383b2a-c6b9-4c1d-b4b8-a26dc5b60ca1}">
@@ -38,7 +38,7 @@ A command group is a collection of commands that always appear together on a men
 
      By default, the command item template creates a group named **MyMenuGroup** and a button that has the name that you provided, together with an IDSymbol entry for each.
 
-5.  In the Groups section, create a Group element that has the same GUID and ID attributes as the ones given in the Symbols section. You can also use an existing group, or use the entry that is provided by the command template, as in the following example. This group appears on the **Tools** menu
+5. In the Groups section, create a Group element that has the same GUID and ID attributes as the ones given in the Symbols section. You can also use an existing group, or use the entry that is provided by the command template, as in the following example. This group appears on the **Tools** menu
 
     ```xml
     <Groups>
@@ -50,7 +50,7 @@ A command group is a collection of commands that always appear together on a men
 
 ## To create a group of buttons for reuse
 
-1.  You can put a command or menu in a group either by using the group as a parent in the definition of the command or menu, or by putting the command or menu in the group by using the CommandPlacements section.
+1. You can put a command or menu in a group either by using the group as a parent in the definition of the command or menu, or by putting the command or menu in the group by using the CommandPlacements section.
 
      In the Buttons section define a button that has your group as its parent, or use the button that is provided by the package template, as shown in the following example.
 
@@ -64,7 +64,7 @@ A command group is a collection of commands that always appear together on a men
     </Button>
     ```
 
-2.  If a button must appear in more than one group, create an entry for it in the CommandPlacements section, which must be placed after the Commands section. Set the GUID and ID attributes of the CommandPlacement element to match those of the button you want to position, and then set the GUID and ID of its Parent element to those of the target group, as shown in the following example.
+2. If a button must appear in more than one group, create an entry for it in the CommandPlacements section, which must be placed after the Commands section. Set the GUID and ID attributes of the CommandPlacement element to match those of the button you want to position, and then set the GUID and ID of its Parent element to those of the target group, as shown in the following example.
 
     ```xml
     <CommandPlacements>

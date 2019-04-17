@@ -31,9 +31,9 @@ You can migrate a legacy language service to a later version of Visual Studio by
 
 #### To migrate a Visual Studio 2008 language service to a later version
 
-1.  Install the newer versions of Visual Studio and the Visual Studio SDK. For more information about ways to install the SDK, see [Installing the Visual Studio SDK](../../extensibility/installing-the-visual-studio-sdk.md).
+1. Install the newer versions of Visual Studio and the Visual Studio SDK. For more information about ways to install the SDK, see [Installing the Visual Studio SDK](../../extensibility/installing-the-visual-studio-sdk.md).
 
-2.  Edit the RegExLangServ.csproj file (without loading it in Visual Studio.
+2. Edit the RegExLangServ.csproj file (without loading it in Visual Studio.
 
      In the `Import` node that refers to the Microsoft.VsSDK.targets file, replace the value with the following text.
 
@@ -41,13 +41,13 @@ You can migrate a legacy language service to a later version of Visual Studio by
     $(MSBuildExtensionsPath)\Microsoft\VisualStudio\v14.0\VSSDK\Microsoft.VsSDK.targets
     ```
 
-3.  Save the file, and then close it.
+3. Save the file, and then close it.
 
-4.  Open the RegExLangServ.sln solution.
+4. Open the RegExLangServ.sln solution.
 
-5.  The **One-way upgrade** window appears. Click **OK**.
+5. The **One-way upgrade** window appears. Click **OK**.
 
-6.  Update the project properties. Open the **Project Properties** window by selecting the project node in the **Solution Explorer**, right-clicking, and selecting **Properties**.
+6. Update the project properties. Open the **Project Properties** window by selecting the project node in the **Solution Explorer**, right-clicking, and selecting **Properties**.
 
     -   On the **Application** tab, change **Target framework** to **4.6.1**.
 
@@ -55,7 +55,7 @@ You can migrate a legacy language service to a later version of Visual Studio by
 
          In the **Command line arguments** box, type /**rootsuffix Exp**.
 
-7.  Update the following references:
+7. Update the following references:
 
     -   Remove the reference to Microsoft.VisualStudio.Shell.9.0.dll, then add references to Microsoft.VisualStudio.Shell.14.0.dll and Microsoft.VisualStudio.Shell.Immutable.11.0.dll.
 
@@ -63,7 +63,7 @@ You can migrate a legacy language service to a later version of Visual Studio by
 
     -   Add a reference to Microsoft.VisualStudio.Shell.Interop.10.0.dll.
 
-8.  Open the VsPkg.cs file and change the value of the `DefaultRegistryRoot` attribute to
+8. Open the VsPkg.cs file and change the value of the `DefaultRegistryRoot` attribute to
 
     ```
     "Software\\Microsoft\\VisualStudio\\14.0Exp"

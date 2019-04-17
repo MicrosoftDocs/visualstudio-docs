@@ -158,15 +158,15 @@ Assert (countAfter == countBefore = 1);
   
 #### To link tests to a model element or relationship  
   
-1.  In [!INCLUDE[TCMlong](../includes/tcmlong-md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac).  
+1. In [!INCLUDE[TCMlong](../includes/tcmlong-md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac).  
   
      The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../includes/esprfound-md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).  
   
-2.  Link the requirement work item to one or more elements in your model.  
+2. Link the requirement work item to one or more elements in your model.  
   
      In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**. For more information, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
   
-3.  Add to the test suite, test cases that verify the requirement expressed in the model element.  
+3. Add to the test suite, test cases that verify the requirement expressed in the model element.  
   
 ## See Also  
  [Create models for your app](../modeling/create-models-for-your-app.md)   

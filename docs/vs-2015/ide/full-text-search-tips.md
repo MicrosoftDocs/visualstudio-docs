@@ -45,11 +45,11 @@ One of the more useful methods of locating information in Help is by performing 
 ### Ranking of Search Results  
  The search algorithm applies certain criteria to help rank search results higher or lower in the results list. In general:  
   
-1.  Content that includes search words in the title is ranked higher than content that doesn't.  
+1. Content that includes search words in the title is ranked higher than content that doesn't.  
   
-2.  Content that includes search words in close proximity is ranked higher than content that doesn't.  
+2. Content that includes search words in close proximity is ranked higher than content that doesn't.  
   
-3.  Content that contains a higher density of the search words is ranked higher than content that has a lower density of the search words.  
+3. Content that contains a higher density of the search words is ranked higher than content that has a lower density of the search words.  
   
 ### Words Ignored in Searches (Stop Words)  
  Commonly occurring words or numbers, which are sometimes called stop words, are automatically ignored during a full-text search. For example, if you search for the phrase "pass through", search results will display topics that contain the word "pass" but not "through".  

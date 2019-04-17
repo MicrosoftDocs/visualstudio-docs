@@ -206,23 +206,23 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 ##### To test the new Domain Classes
 
-1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
+1. **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
 
-2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of Visual Studio in experimental mode. In the experimental instance of Visual Studio, open or create a file that has the file name extension of your DSL.
+2. **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of Visual Studio in experimental mode. In the experimental instance of Visual Studio, open or create a file that has the file name extension of your DSL.
 
-3.  **Open the Explorer.** At the side of the diagram is the language explorer window, which is usually named *YourLanguage* Explorer. If you do not see this window, it might be on a tab underneath Solution Explorer. If you cannot find it, on the **View** menu, point to **Other Windows**, and then click *YourLanguage* **Explorer**.
+3. **Open the Explorer.** At the side of the diagram is the language explorer window, which is usually named *YourLanguage* Explorer. If you do not see this window, it might be on a tab underneath Solution Explorer. If you cannot find it, on the **View** menu, point to **Other Windows**, and then click *YourLanguage* **Explorer**.
 
      Your explorer presents a tree view of the model.
 
-4.  **Create new elements.** Right-click the root node at the top, and then click **Add New**_YourClass_.
+4. **Create new elements.** Right-click the root node at the top, and then click **Add New**_YourClass_.
 
      A new instance of your class appears in your language Explorer.
 
-5.  Verify that each instance has a different name when you create new instances. This will occur only if you have set the **Is Element Name** flag on a domain property.
+5. Verify that each instance has a different name when you create new instances. This will occur only if you have set the **Is Element Name** flag on a domain property.
 
-6.  **Examine the domain properties. With an instance of your class selected,** inspect the Properties window. It should show the domain properties that you defined on this domain class.
+6. **Examine the domain properties. With an instance of your class selected,** inspect the Properties window. It should show the domain properties that you defined on this domain class.
 
-7.  **Save the file, close it, and re-open it**. All the instances you created should be visible in the explorer, after you expand the nodes.
+7. **Save the file, close it, and re-open it**. All the instances you created should be visible in the explorer, after you expand the nodes.
 
 ## <a name="shapes"></a> Defining Shapes on the Diagram
  You can define classes of elements that appear on a diagram as rectangles, ellipses, or icons.
@@ -415,13 +415,13 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 #### To define a Compartment Shape
 
-1.  **Create the container domain class**. Click the **Embedding Relationship** tool, click the root class of the model, and then click a blank part of the DSL definition diagram. This creates the domain class that is named Album in the example figure.
+1. **Create the container domain class**. Click the **Embedding Relationship** tool, click the root class of the model, and then click a blank part of the DSL definition diagram. This creates the domain class that is named Album in the example figure.
 
      Alternatively instead of embedding in the root class, you can embed the container in a domain class that is mapped to a swimlane.
 
      Add a domain property such as Name to the class, and set its **Is Element Name** flag in the Properties window.
 
-2.  **Create the list item domain class**. Click the **Embedding Relationship** tool, click the container class (Album) and then click a blank part of the diagram. This creates the domain class that is named Song in the example figure.
+2. **Create the list item domain class**. Click the **Embedding Relationship** tool, click the container class (Album) and then click a blank part of the diagram. This creates the domain class that is named Song in the example figure.
 
      Add a domain property such as Title to the class, and set its **Is Element Name** flag.
 
@@ -429,21 +429,21 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
      Add another list item domain class for each list that you want to display.
 
-3.  **To mix several types of item in the list**, create classes that inherit from the list class. Make the list class abstract by setting its **Inheritance Modifier**.
+3. **To mix several types of item in the list**, create classes that inherit from the list class. Make the list class abstract by setting its **Inheritance Modifier**.
 
      For example, if you want classical music to be sorted by composer instead of artist, you could create two subclasses of Song, ClassicalSong and NonClassicalSong.
 
-4.  **Create the compartment shape**. Drag from the **Compartment Shape** tool onto the DSL definition diagram.
+4. **Create the compartment shape**. Drag from the **Compartment Shape** tool onto the DSL definition diagram.
 
      Add a text decorator and set its name.
 
      Add a compartment and set its name.
 
-5.  To let the user hide the list compartments, right-click the compartment shape class, point to **Add**, and then click **Expand/Collapse Decorator**. In the Properties window, set the position of the decorator.
+5. To let the user hide the list compartments, right-click the compartment shape class, point to **Add**, and then click **Expand/Collapse Decorator**. In the Properties window, set the position of the decorator.
 
-6.  Click the **Diagram Element Map** tool, click the container domain class, and then click the compartment shape.
+6. Click the **Diagram Element Map** tool, click the container domain class, and then click the compartment shape.
 
-7.  Select the diagram element map link between the domain class and the shape. In the **DSL Details** window:
+7. Select the diagram element map link between the domain class and the shape. In the **DSL Details** window:
 
     1.  Click the **Decorators** tab. Click the name of the decorator and then select the appropriate item under **Display Property**. Make sure that a check mark appears next to the name of the decorator.
 
@@ -460,20 +460,20 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 #### To define a tool for creating the shape
 
-1.  **Make a toolbox item for creating elements of the domain class.**
+1. **Make a toolbox item for creating elements of the domain class.**
 
-2.  In **DSL Explorer**, expand the **Editor** node and all its sub-nodes.
+2. In **DSL Explorer**, expand the **Editor** node and all its sub-nodes.
 
-3.  Right-click the node under **Toolbox Tabs** that has the same name as your DSL, for example MusicLibrary. Click **Add Element Tool**.
+3. Right-click the node under **Toolbox Tabs** that has the same name as your DSL, for example MusicLibrary. Click **Add Element Tool**.
 
     > [!NOTE]
     >  If you right-click the **Tools** node, you will not see **Add Element Tool**. Instead, click the node above it.
 
-4.  In the Properties window with the new element tool selected, set **Class** to the domain class that you have recently added.
+4. In the Properties window with the new element tool selected, set **Class** to the domain class that you have recently added.
 
-5.  Set **Caption** and **Tooltip**.
+5. Set **Caption** and **Tooltip**.
 
-6.  Set **Toolbox Icon** to an icon that will appear in the toolbox. You can set it to a new icon or an icon already used for another tool.
+6. Set **Toolbox Icon** to an icon that will appear in the toolbox. You can set it to a new icon or an icon already used for another tool.
 
      To create a new icon, open Dsl\Resources in **Solution Explorer**. Copy and paste one of the existing element tool .BMP files. Rename the pasted copy, and then double-click to edit it.
 
@@ -516,19 +516,19 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 ##### To display a reference link in a compartment
 
-1.  **Add a compartment to the compartment shape**. On the DSL Definition diagram, right-click the compartment shape class, point to **Add**, and then click **Compartment**.
+1. **Add a compartment to the compartment shape**. On the DSL Definition diagram, right-click the compartment shape class, point to **Add**, and then click **Compartment**.
 
-2.  Set **Displayed elements collection path** to navigate to the link, instead of its target element. Click the drop-down menu and use the tree view to select the reference relationship instead of its target. In the example, the relationship is **ArtistAppearedOnAlbums**.
+2. Set **Displayed elements collection path** to navigate to the link, instead of its target element. Click the drop-down menu and use the tree view to select the reference relationship instead of its target. In the example, the relationship is **ArtistAppearedOnAlbums**.
 
-3.  Set **Path to Display Property** to navigate from the link to the target element. In the example, this is **Artist**.
+3. Set **Path to Display Property** to navigate from the link to the target element. In the example, this is **Artist**.
 
-4.  Set **Display Property** to the appropriate property of the target element, for example **Name**.
+4. Set **Display Property** to the appropriate property of the target element, for example **Name**.
 
-5.  **Transform All Templates**, build and run the DSL, and open a test model.
+5. **Transform All Templates**, build and run the DSL, and open a test model.
 
-6.  In the model diagram, create the appropriate classes of shape, set their names, and create a link between them. In the compartment shape, the names of linked elements should appear.
+6. In the model diagram, create the appropriate classes of shape, set their names, and create a link between them. In the compartment shape, the names of linked elements should appear.
 
-7.  Select either the link or the item in the compartment shape. Both the link and the item should disappear.
+7. Select either the link or the item in the compartment shape. Both the link and the item should disappear.
 
 ## <a name="ports"></a> Defining Ports on the Boundary of another Shape
  A port is a shape that is located on the boundary of another shape.
@@ -585,11 +585,11 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
  There are two methods of extending the DSL definition:
 
-1.  Fine-tune the DSL by using more features of the DSL Definition. For example, you can make a single connector tool that can create several types of connector, and you can control the rules by which deleting one element also deletes related elements. These techniques are mostly achieved by setting values in the DSL Definition, and some require a few lines of program code.
+1. Fine-tune the DSL by using more features of the DSL Definition. For example, you can make a single connector tool that can create several types of connector, and you can control the rules by which deleting one element also deletes related elements. These techniques are mostly achieved by setting values in the DSL Definition, and some require a few lines of program code.
 
      For more information, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
-2.  Extend your modeling tools by using program code to achieve more advanced effects. For example, you can create menu commands that can change the model, and you can create tools that integrate two or more DSLs. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
+2. Extend your modeling tools by using program code to achieve more advanced effects. For example, you can create menu commands that can change the model, and you can create tools that integrate two or more DSLs. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 ### Changing the DSL Definition
  When you create any item in a DSL definition, many default values are set automatically. After they have been set, you can change them. This simplifies the development of a DSL, while still allowing for powerful customizations.

@@ -44,9 +44,9 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Product Page](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
 
-0.  That's it!  You'll see the CloudPilot portal, and you'll be ready to start using your CloudPilot subscription to move your applications to Microsoft Azure.
+0. That's it!  You'll see the CloudPilot portal, and you'll be ready to start using your CloudPilot subscription to move your applications to Microsoft Azure.
 
-0.  As soon as your account is successfully created, you will receive an email from UnifyCloud VSS Support confirming the successful creation of your account.
+0. As soon as your account is successfully created, you will receive an email from UnifyCloud VSS Support confirming the successful creation of your account.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Confirmation Email](_img/vs-cloudpilot/vs-cloudpilot-email.png)

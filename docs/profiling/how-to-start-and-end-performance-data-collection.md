@@ -21,7 +21,7 @@ You must add the target binary that you want to profile to the performance sessi
 
 ### To start profiling
 
-1.  Right-click the name of the performance session on the **Performance Explorer** window and choose one of the following options:
+1. Right-click the name of the performance session on the **Performance Explorer** window and choose one of the following options:
 
     -   **Launch with Profiling** - starts the application and immediately begins profiling.
 

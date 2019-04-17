@@ -41,19 +41,19 @@ ms.workload:
 
 ### To refresh an app
 
-1.  With your UWP project open in Visual Studio, select **Local Machine** as the debug target.
+1. With your UWP project open in Visual Studio, select **Local Machine** as the debug target.
 
      ![Select debug target list](../debugger/media/js_select_target.png "JS_Select_Target")
 
-3.  Press F5 to run the app in debug mode.
+3. Press F5 to run the app in debug mode.
 
-4.  Switch to Visual Studio.
+4. Switch to Visual Studio.
 
-5.  In the home page of your UWP app, edit some of the HTML.
+5. In the home page of your UWP app, edit some of the HTML.
 
-7.  Click the **Refresh Windows app** button, which looks like this: ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh"). (Or press F4.)
+7. Click the **Refresh Windows app** button, which looks like this: ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh"). (Or press F4.)
 
-8.  Switch to the app. The app is reloaded and the updated HTML is used to render the app.
+8. Switch to the app. The app is reloaded and the updated HTML is used to render the app.
 
 ## See Also
 - [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

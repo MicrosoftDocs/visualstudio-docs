@@ -38,13 +38,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 #### To add an image to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.  
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.  
+2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.  
   
-3.  Specify the **Name** of the image file, and the **Location** where you want it to be created.  
+3. Specify the **Name** of the image file, and the **Location** where you want it to be created.  
   
-4.  Choose the **Add** button.  
+4. Choose the **Add** button.  
   
 ### Choosing the image format  
  Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.  

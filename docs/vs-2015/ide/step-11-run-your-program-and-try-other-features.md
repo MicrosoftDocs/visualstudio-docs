@@ -21,19 +21,19 @@ Your program is finished and ready to run. You can run your program and set the 
   
 ### To run your program and set the background color  
   
-1.  Choose F5, or on the menu bar, choose **Debug**, **Start Debugging**.  
+1. Choose F5, or on the menu bar, choose **Debug**, **Start Debugging**.  
   
-2.  Before you open a picture, choose the **Set the background color** button. The **Color** dialog box opens.  
+2. Before you open a picture, choose the **Set the background color** button. The **Color** dialog box opens.  
   
      ![Color dialog box](../ide/media/express-colordialog.png "Express_ColorDialog")  
 Color dialog box  
   
-3.  Choose a color to set the PictureBox background color. Look closely at the `backgroundButton_Click()` method to understand how it works.  
+3. Choose a color to set the PictureBox background color. Look closely at the `backgroundButton_Click()` method to understand how it works.  
   
     > [!NOTE]
     >  You can load a picture from the Internet by pasting its URL into the **Open File** dialog box. Try to find an image with a transparent background, so your background color shows.  
   
-4.  Choose the **Clear the picture** button to make sure it clears. Then, exit the program by choosing the **Close** button.  
+4. Choose the **Clear the picture** button to make sure it clears. Then, exit the program by choosing the **Close** button.  
   
 ### To try other features  
   

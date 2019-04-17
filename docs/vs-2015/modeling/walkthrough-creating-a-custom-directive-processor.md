@@ -77,18 +77,18 @@ End Property
 
 #### To create a custom directive processor  
 
-1.  In Visual Studio, create a C# or a Visual Basic class library project named CustomDP.  
+1. In Visual Studio, create a C# or a Visual Basic class library project named CustomDP.  
 
     > [!NOTE]
     >  If you want to install the directive processor on more than one computer, it is better to use a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension (VSIX) project and include a .pkgdef file in the extension. For more information, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).  
 
-2.  Add  references to these assemblies:  
+2. Add  references to these assemblies:  
 
     -   **Microsoft.VisualStudio.TextTemplating.\*.0**  
 
     -   **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0**  
 
-3.  Replace the code in **Class1** with the following code. This code defines a CustomDirectiveProcessor class that inherits from the <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> class and implements the necessary methods.  
+3. Replace the code in **Class1** with the following code. This code defines a CustomDirectiveProcessor class that inherits from the <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> class and implements the necessary methods.  
 
     ```csharp  
     using System;  
@@ -600,11 +600,11 @@ End Property
     End Namespace  
     ```  
 
-4.  For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] only, open the **Project** menu, and click **CustomDP Properties**. On the **Application** tab, in **Root namespace**, delete the default value, `CustomDP`.  
+4. For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] only, open the **Project** menu, and click **CustomDP Properties**. On the **Application** tab, in **Root namespace**, delete the default value, `CustomDP`.  
 
-5.  On the **File** menu, click **Save All**.  
+5. On the **File** menu, click **Save All**.  
 
-6.  On the **Build** menu, click **Build Solution**.  
+6. On the **Build** menu, click **Build Solution**.  
 
 ### Build the Project  
  Build the project. On the **Build** menu, click **Build Solution**.  
@@ -678,12 +678,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 
 #### To create an XML file for use in testing the directive processor  
 
-1.  Create a text file named `DocFile.xml` by using any text editor (for example, Notepad).  
+1. Create a text file named `DocFile.xml` by using any text editor (for example, Notepad).  
 
     > [!NOTE]
     >  You can create this file in any location (for example, C:\Test\DocFile.xml).  
 
-2.  Add the following to the text file:  
+2. Add the following to the text file:  
 
     ```  
     <?xml version="1.0"?>  
@@ -724,17 +724,17 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     </doc>  
     ```  
 
-3.  Save and close the file.  
+3. Save and close the file.  
 
 #### To create a text template to test the directive processor  
 
-1.  In Visual Studio, create a C# or Visual Basic class library project named TemplateTest.  
+1. In Visual Studio, create a C# or Visual Basic class library project named TemplateTest.  
 
-2.  Add a new text template file named TestDP.tt.  
+2. Add a new text template file named TestDP.tt.  
 
-3.  Make sure that the **Custom Tool** property of TestDP.tt is set to `TextTemplatingFileGenerator`.  
+3. Make sure that the **Custom Tool** property of TestDP.tt is set to `TextTemplatingFileGenerator`.  
 
-4.  Change the content of  TestDP.tt to the following text.  
+4. Change the content of  TestDP.tt to the following text.  
 
     > [!NOTE]
     >  Make sure to replace the string <`YOUR PATH>` with the path to the DocFile.xml file.  
@@ -826,15 +826,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     > [!NOTE]
     >  In this example, the value of the `Processor` parameter is `CustomDirectiveProcessor`. The value of the `Processor` parameter must match the name of the processor's registry key.  
 
-5.  On the **File** menu, click **Save All**.  
+5. On the **File** menu, click **Save All**.  
 
 #### To test the directive processor  
 
-1.  In **Solution Explorer**, right-click TestDP.tt and then click **Run Custom Tool**.  
+1. In **Solution Explorer**, right-click TestDP.tt and then click **Run Custom Tool**.  
 
      For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] users, TestDP.txt might not appear in **Solution Explorer** by default. To display all files assigned to the project, open the **Project** menu and click **Show All Files**.  
 
-2.  In **Solution Explorer**, expand the TestDP.txt node, and then double-click TestDP.txt to open it in the editor.  
+2. In **Solution Explorer**, expand the TestDP.txt node, and then double-click TestDP.txt to open it in the editor.  
 
      The generated text output appears. The output should look like the following:  
 
@@ -873,7 +873,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 
 #### To add HTML to the generated text  
 
-1.  Replace the code in TestDP.tt with the following. The HTML is highlighted. Make sure to replace the string `YOUR PATH` with the path to the DocFile.xml file.  
+1. Replace the code in TestDP.tt with the following. The HTML is highlighted. Make sure to replace the string `YOUR PATH` with the path to the DocFile.xml file.  
 
     > [!NOTE]
     >  Additional open \<# and close #> tags separate the statement code from the HTML tags.  
@@ -958,8 +958,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     </body></html>  
     ```  
 
-2.  On the **File** menu, click **Save TestDP.txt**.  
+2. On the **File** menu, click **Save TestDP.txt**.  
 
-3.  To view the output in a browser, in **Solution Explorer**, right-click TestDP.htm, and click **View In Browser**.  
+3. To view the output in a browser, in **Solution Explorer**, right-click TestDP.htm, and click **View In Browser**.  
 
      Your output should be the same as the original text except it should have the HTML format applied. Each item name should appear in bold.

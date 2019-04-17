@@ -29,29 +29,29 @@ ms.workload:
 
 ### To create an association between entities
 
-1.  On the **BusinessDataConnectivity** tab of the **Toolbox**, choose the **Association** item.
+1. On the **BusinessDataConnectivity** tab of the **Toolbox**, choose the **Association** item.
 
-2.  On the BDC Designer, choose the source entity, and then choose the destination entity.
+2. On the BDC Designer, choose the source entity, and then choose the destination entity.
 
      The **Association Editor** appears.
 
-3.  If you want to create a foreign key-based association, select the **Is Foreign Key Association** check box.
+3. If you want to create a foreign key-based association, select the **Is Foreign Key Association** check box.
 
     1.  In the **Source ID** column of the **Identifier Mapping** table, choose the identifier next to each matching type descriptor that appears in the **Field** column.
 
          For example, In the **Source ID** column, select `ContactID` next to the `ReadList.salesOrderList.SalesOrderList.SalesOrder.ContactID` type descriptor and the `ReadItem.salesOrder.SalesOrder.ContactID` type descriptor.
 
-4.  If you want to create a foreign keyless association, clear the **Is Foreign Key Association** check box.
+4. If you want to create a foreign keyless association, clear the **Is Foreign Key Association** check box.
 
-5.  Choose the **OK** button.
+5. Choose the **OK** button.
 
-6.  On the BDC Designer, a line that represents the association appears between the source entity and the destination entity.
+6. On the BDC Designer, a line that represents the association appears between the source entity and the destination entity.
 
      Visual Studio adds an Association Navigator method to the service class of the destination entity and the service class of the source entity. For more information about Association Navigation methods, see [Supported Operations](http://go.microsoft.com/fwlink/?LinkId=169286).
 
-7.  In the Association Navigator method of the source entity, add code that returns a collection of destination entities.
+7. In the Association Navigator method of the source entity, add code that returns a collection of destination entities.
 
-8.  In the Association Navigator method of the destination entity, add code that returns the related source entity.
+8. In the Association Navigator method of the destination entity, add code that returns the related source entity.
 
      For examples of Association Navigator methods, see [Create an association between entities](../sharepoint/creating-an-association-between-entities.md).
 

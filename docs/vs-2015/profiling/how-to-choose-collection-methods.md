@@ -42,23 +42,23 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
   
 #### To select a collection method using Performance Explorer  
   
-1.  On the **Performance Explorer** toolbar, click the arrow next to the **Method** drop-down list.  
+1. On the **Performance Explorer** toolbar, click the arrow next to the **Method** drop-down list.  
   
-2.  Click the collection method that you prefer.  
+2. Click the collection method that you prefer.  
   
 ## Performance Session Property Pages  
   
 #### To select the sampling or instrumentation method using performance session properties  
   
-1.  In **Performance Explorer**, select the performance session.  
+1. In **Performance Explorer**, select the performance session.  
   
      A performance session file name has a .psess extension.  
   
-2.  Right-click the performance session, and then click **Properties**.  
+2. Right-click the performance session, and then click **Properties**.  
   
-3.  In the **Property Pages**, click **General**.  
+3. In the **Property Pages**, click **General**.  
   
-4.  Click the collection method that you prefer.  
+4. Click the collection method that you prefer.  
   
     -   For information about the other options that are available when you are collecting sampling data, see [Collecting Performance Statistics by Using Sampling](../profiling/collecting-performance-statistics-by-using-sampling.md)  
   
@@ -66,29 +66,29 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools support three m
   
 #### To select .NET memory data collection by using performance session properties  
   
-1.  In **Performance Explorer**, select the performance session.  
+1. In **Performance Explorer**, select the performance session.  
   
      A performance session file name has a .psess extension.  
   
-2.  Right-click the performance session, and then click **Properties**.  
+2. Right-click the performance session, and then click **Properties**.  
   
-3.  In the **Property Pages**, click **General**.  
+3. In the **Property Pages**, click **General**.  
   
-4.  Click **Sampling** or **Instrumentation**.  
+4. Click **Sampling** or **Instrumentation**.  
   
-5.  Click **Collect .NET object allocation information** to collect the size and number of [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] object allocations.  
+5. Click **Collect .NET object allocation information** to collect the size and number of [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] object allocations.  
   
-6.  (Optional) Click **Also collect .NET object lifetime information** to collect data about the garbage collection generations in which the object memory was reclaimed.  
+6. (Optional) Click **Also collect .NET object lifetime information** to collect data about the garbage collection generations in which the object memory was reclaimed.  
   
      For information about the other options that are available when you are collecting .NET memory data, see [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md).  
   
 #### To select concurrency data collection by using performance session properties  
   
-1.  In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+1. In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
-2.  In the **Property Pages**, click **General**.  
+2. In the **Property Pages**, click **General**.  
   
-3.  Click **Concurrency**.  
+3. Click **Concurrency**.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

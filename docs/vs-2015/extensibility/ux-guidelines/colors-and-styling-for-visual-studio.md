@@ -257,11 +257,11 @@ protected override void Dispose(bool disposing)
 
  Only a handful of system colors can be used for High Contrast themes. When choosing your system color names, remember the following tips:
 
-1.  **Choose system colors that have the same semantic meaning** as the element that you are coloring. For instance, if you are choosing a high-contrast color for text within a window, use WindowText and not ControlText.
+1. **Choose system colors that have the same semantic meaning** as the element that you are coloring. For instance, if you are choosing a high-contrast color for text within a window, use WindowText and not ControlText.
 
-2.  **Choose foreground/background pairs** together or you will not be confident that your color choice will work in all High Contrast themes.
+2. **Choose foreground/background pairs** together or you will not be confident that your color choice will work in all High Contrast themes.
 
-3.  **Determine which parts of your UI are the most important and ensure that content areas will stand out.** You will lose a lot of detail that subtle differences in color hue would normally distinguish, so the use of strong border colors is common to define content areas, because there are no color variants for different content areas.
+3. **Determine which parts of your UI are the most important and ensure that content areas will stand out.** You will lose a lot of detail that subtle differences in color hue would normally distinguish, so the use of strong border colors is common to define content areas, because there are no color variants for different content areas.
 
 ### System color set
  The table at [WPF Team Blog: SystemColors Reference](http://blogs.msdn.com/b/wpf/archive/2010/11/30/systemcolors-reference.aspx) indicates the complete set of system color names, and the corresponding hues displayed in each theme.

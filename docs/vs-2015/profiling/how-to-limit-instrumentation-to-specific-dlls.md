@@ -19,33 +19,33 @@ By using the instrumentation profiling method, you can limit the collection of p
   
 ### To limit instrumentation to specific DLLs in a Visual Studio solution  
   
-1.  Open the solution that contains the DLL in [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
+1. Open the solution that contains the DLL in [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
   
-2.  On the **Analyze** menu, select **Launch Performance Wizard**.  
+2. On the **Analyze** menu, select **Launch Performance Wizard**.  
   
-3.  Choose **Instrumentation** as the profiling method and then click **Next**.  
+3. Choose **Instrumentation** as the profiling method and then click **Next**.  
   
-4.  From the **Which of the following available targets would you like to profile?**, select the name of the .dll project and then click **Next**.  
+4. From the **Which of the following available targets would you like to profile?**, select the name of the .dll project and then click **Next**.  
   
-5.  Click **Finish** to exit the wizard and display the new performance session in the **Performance Explorer** window.  
+5. Click **Finish** to exit the wizard and display the new performance session in the **Performance Explorer** window.  
   
-6.  Right-click **Targets** and then select **Add Target Project**.  
+6. Right-click **Targets** and then select **Add Target Project**.  
   
-7.  From the **Add Target Project** list, select the executable project that you want to use to exercise the DLL.  
+7. From the **Add Target Project** list, select the executable project that you want to use to exercise the DLL.  
   
      Optional. You can add any DLL projects that you want to profile.  
   
-8.  To prevent data collection for an added project, right-click the name of the project, and then clear the **Instrument** check box.  
+8. To prevent data collection for an added project, right-click the name of the project, and then clear the **Instrument** check box.  
   
 ### To specify specific DLLs to profile as independent binaries  
   
-1.  Open [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
+1. Open [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
   
-2.  On the **Analyze** menu, select **Launch Performance Wizard**.  
+2. On the **Analyze** menu, select **Launch Performance Wizard**.  
   
-3.  From the **Which of the following available targets would you like to profile**, select the **Profile a dynamic link library (.DLL)** and then click **Next**.  
+3. From the **Which of the following available targets would you like to profile**, select the **Profile a dynamic link library (.DLL)** and then click **Next**.  
   
-4.  On the second page of the wizard, perform the following steps:  
+4. On the second page of the wizard, perform the following steps:  
   
     -   Type the path and file name of the .dll file that you want to profile in **Dll path**. You can also click the ellipsis button (...) to locate the file in the **Dynamic link library to profile** dialog box. Note that you must specify the copy of the .dll file that will be launched by the executable (.exe) file that you select next.  
   
@@ -55,11 +55,11 @@ By using the instrumentation profiling method, you can limit the collection of p
   
     -   Click **Next**.  
   
-5.  Choose **Instrumentation** as the profiling method and then click **Next**.  
+5. Choose **Instrumentation** as the profiling method and then click **Next**.  
   
-6.  Click **Finish** to exit the wizard and display the new performance session in the **Performance Explorer** window.  
+6. Click **Finish** to exit the wizard and display the new performance session in the **Performance Explorer** window.  
   
-7.  Optional. To add more .dll files, right-click **Targets** and then select **Add Target Binary**. Select the files from the **Add Target Binary** dialog box.  
+7. Optional. To add more .dll files, right-click **Targets** and then select **Add Target Binary**. Select the files from the **Add Target Binary** dialog box.  
   
     > [!NOTE]
     >  Do not specify the executable (.exe) file that exercises the DLLs.  

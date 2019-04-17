@@ -53,69 +53,69 @@ You can create several build configurations for a solution. For example, you can
   
 #### To create a project configuration  
   
-1.  Open the **Configuration Manager** dialog box.  
+1. Open the **Configuration Manager** dialog box.  
   
-2.  Select a project in the **Project** column.  
+2. Select a project in the **Project** column.  
   
-3.  In the **Configuration** drop-down list for that project, choose **New**.  
+3. In the **Configuration** drop-down list for that project, choose **New**.  
   
      The **New Project Configuration** dialog box opens.  
   
-4.  In the **Name** box, enter a name for the new configuration.  
+4. In the **Name** box, enter a name for the new configuration.  
   
-5.  To use the property settings from an existing project configuration,  in the **Copy settings from** drop-down list, choose a configuration.  
+5. To use the property settings from an existing project configuration,  in the **Copy settings from** drop-down list, choose a configuration.  
   
-6.  To create a solution-wide configuration at the same time, select the **Create new solution configuration** check box.  
+6. To create a solution-wide configuration at the same time, select the **Create new solution configuration** check box.  
   
 #### To rename a project configuration  
   
-1.  Open the **Configuration Manager** dialog box.  
+1. Open the **Configuration Manager** dialog box.  
   
-2.  In the **Project** column, select the project that has the project configuration you want to rename.  
+2. In the **Project** column, select the project that has the project configuration you want to rename.  
   
-3.  In the **Configuration** drop-down list for that project, choose **Edit**.  
+3. In the **Configuration** drop-down list for that project, choose **Edit**.  
   
      The **Edit Project Configurations** dialog box opens.  
   
-4.  Select the project configuration name you want to change.  
+4. Select the project configuration name you want to change.  
   
-5.  Select **Rename**, and then enter a new name.  
+5. Select **Rename**, and then enter a new name.  
   
 ## Creating and Modifying Solution-wide Build Configurations  
   
 #### To create a solution-wide build configuration  
   
-1.  Open the **Configuration Manager** dialog box.  
+1. Open the **Configuration Manager** dialog box.  
   
-2.  In the **Active solution configuration** drop-down list, choose **New**.  
+2. In the **Active solution configuration** drop-down list, choose **New**.  
   
      The **New Solution Configuration** dialog box opens.  
   
-3.  In the **Name** text box, enter a name for the new configuration.  
+3. In the **Name** text box, enter a name for the new configuration.  
   
-4.  To use the settings from an existing solution configuration, in the **Copy settings from** drop-down list, choose a configuration.  
+4. To use the settings from an existing solution configuration, in the **Copy settings from** drop-down list, choose a configuration.  
   
-5.  If you want to create project configurations at the same time, select the **Create new project configurations** check box.  
+5. If you want to create project configurations at the same time, select the **Create new project configurations** check box.  
   
 #### To rename a solution-wide build configuration  
   
-1.  Open the **Configuration Manager** dialog box.  
+1. Open the **Configuration Manager** dialog box.  
   
-2.  In the **Active solution configuration** drop-down list, choose **Edit**.  
+2. In the **Active solution configuration** drop-down list, choose **Edit**.  
   
      The **Edit Solution Configurations** dialog box opens.  
   
-3.  Select the solution configuration name you want to change.  
+3. Select the solution configuration name you want to change.  
   
-4.  Select **Rename**, and then enter a new name.  
+4. Select **Rename**, and then enter a new name.  
   
 #### To modify a solution-wide build configuration  
   
-1.  Open the **Configuration Manager** dialog box.  
+1. Open the **Configuration Manager** dialog box.  
   
-2.  In the **Active solution configuration** drop-down list, select the configuration you want.  
+2. In the **Active solution configuration** drop-down list, select the configuration you want.  
   
-3.  In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it..  
+3. In the **Project contexts** pane, for every project, select the **Configuration** and **Platform** you want, and select whether to **Build** it and whether to **Deploy** it..  
   
 ## See Also  
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   

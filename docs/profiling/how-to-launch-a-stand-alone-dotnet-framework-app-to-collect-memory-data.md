@@ -87,7 +87,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To end a profiling session
 
-1.  Perform one of the following steps to detach the profiler from the target application:
+1. Perform one of the following steps to detach the profiler from the target application:
 
     -   Close the target application.
 
@@ -95,7 +95,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
     -   Type **VSPerfCmd /detach**
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 

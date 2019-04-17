@@ -86,28 +86,28 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 ##### To create a custom token  
   
-1.  On the **Tools** menu, choose **Options**.  
+1. On the **Tools** menu, choose **Options**.  
   
-2.  Open the **Environment** folder and then choose **Task List**.  
+2. Open the **Environment** folder and then choose **Task List**.  
   
      The [Task List, Environment, Options Dialog Box](../ide/reference/task-list-environment-options-dialog-box.md) is displayed.  
   
      ![Visual Studio Task List](../ide/media/vs2015-task-list-options.png "vs2015_task_list_options")  
   
-3.  In the **Tokens** category, in the **Name** text box, enter your token name, for example "BUG".  
+3. In the **Tokens** category, in the **Name** text box, enter your token name, for example "BUG".  
   
-4.  In the **Priority** drop-down list, choose a default priority for the new token. Choose the **Add** button.  
+4. In the **Priority** drop-down list, choose a default priority for the new token. Choose the **Add** button.  
   
 ###  <a name="cppComments"></a> C++ TODO comments  
  By default, C++ TODO comments are displayed in the **Task List** window. You can change this behavior.  
   
 ##### To turn off C++ TODO comments  
   
-1.  On the **Tools** menu, go to **Options &#124; Text Editor &#124; C/C++ &#124; View &#124; Enumerate Comment Tasks** and set the value to false.  
+1. On the **Tools** menu, go to **Options &#124; Text Editor &#124; C/C++ &#124; View &#124; Enumerate Comment Tasks** and set the value to false.  
   
-2.  In the **Options** dialog box, open **Text Editor**.  
+2. In the **Options** dialog box, open **Text Editor**.  
   
-3.  Under **C/C++**, choose **View**, and then set **Enumerate Comment Tasks** to **False**.  
+3. Under **C/C++**, choose **View**, and then set **Enumerate Comment Tasks** to **False**.  
   
 ##  <a name="shortcuts"></a> Shortcuts  
  A *shortcut* is a bookmark in the code that is tracked in the **Task List**; it has a different icon than a regular bookmark. Double-click the shortcut in the **Task List** to go to the corresponding location in the code.  

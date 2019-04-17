@@ -52,21 +52,21 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, Vi
   
 #### To build and run the default Native Activity app  
   
-1.  If it is not already selected, choose **x86** from the **Solution Platforms** dropdown list.  
+1. If it is not already selected, choose **x86** from the **Solution Platforms** dropdown list.  
   
      ![Solution Platforms dropdown x86 selection](../cross-platform/media/cppmdd-rc-na-solution-x86.png "CPPMDD_RC_NA_Solution_x86")  
   
      If the **Solution Platforms** list isn’t showing, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.  
   
-2.  On the menu bar, choose **Build**, **Build Solution**.  
+2. On the menu bar, choose **Build**, **Build Solution**.  
   
      The Output window displays the output of the build process for the two projects in the solution.  
   
-3.  Choose one of the VS Emulator Android Phone (x86) profiles as your deployment target.  
+3. Choose one of the VS Emulator Android Phone (x86) profiles as your deployment target.  
   
      If you have installed other emulators or connected an Android device, you can choose them in the deployment target dropdown list.  
   
-4.  Press F5 to start debugging, or Shift+F5 to start without debugging.  
+4. Press F5 to start debugging, or Shift+F5 to start without debugging.  
   
      Here’s what the default app looks like in the Visual Studio emulator for Android.  
   
@@ -74,6 +74,6 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, Vi
   
      Visual Studio starts the emulator, which takes a few seconds to load and deploy your code. Once your app has started, you can set breakpoints and use the debugger to step through code, examine locals, and watch values.  
   
-5.  Press Shift + F5 to stop debugging.  
+5. Press Shift + F5 to stop debugging.  
   
      The emulator is a separate process that continues to run. You can edit, compile, and deploy your code multiple times to the same emulator.

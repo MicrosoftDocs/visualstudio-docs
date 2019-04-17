@@ -29,7 +29,7 @@ This error occurs when [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is not i
   
 ### To reinstall ASP.NET  
   
-1.  From a command prompt window, run the following command:  
+1. From a command prompt window, run the following command:  
   
     ```  
     \WINDOWS\Microsoft.NET\Framework\version\aspnet_regiis -i  

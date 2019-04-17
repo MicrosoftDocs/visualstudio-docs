@@ -34,9 +34,9 @@ When you debug a multithreaded application, you can use any one of several metho
   
 ### To switch to a thread in the Debug Location toolbar  
   
-1.  On the **Debug Location** toolbar, click the **Thread** box.  
+1. On the **Debug Location** toolbar, click the **Thread** box.  
   
-2.  In the list, click the thread to which you want to switch.  
+2. In the list, click the thread to which you want to switch.  
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

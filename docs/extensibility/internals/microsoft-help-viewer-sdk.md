@@ -125,17 +125,17 @@ Example metadata section:
 
 The body (not including the header and footer) of the topic will contain page links, a note section, a collapsible area, a code snippet, and a section of language-specific text.  See the branding section for information about those areas of the presented topic.
 
-1.  Add a topic title tag:  `<div class="title">Contoso Topic 4</div>`
+1. Add a topic title tag:  `<div class="title">Contoso Topic 4</div>`
 
-2.  Add a note section: `<div class="alert"> add your table tag and text </div>`
+2. Add a note section: `<div class="alert"> add your table tag and text </div>`
 
-3.  Add a collapsible area:  `<CollapsibleArea Expanded="1" Title="Collapsible Area Test Heading"> add text  </CollapsibleArea>`
+3. Add a collapsible area:  `<CollapsibleArea Expanded="1" Title="Collapsible Area Test Heading"> add text  </CollapsibleArea>`
 
-4.  Add a code snippet:  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`
+4. Add a code snippet:  `<CodeSnippet EnableCopyCode="true" Language="CSharp" ContainsMarkup="false" DisplayLanguage="C#" > a block of code </CodeSnippet>`
 
-5.  Add code language-specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that `devLangnu=` allows you to enter other languages. For example, `devLangnu="Fortran"` displays Fortran when the code snippet DisplayLanguage = Fortran
+5. Add code language-specific text:  `<LanguageSpecificText devLangcs="CS" devLangvb="VB" devLangcpp="C++" devLangnu="F#" />` Note that `devLangnu=` allows you to enter other languages. For example, `devLangnu="Fortran"` displays Fortran when the code snippet DisplayLanguage = Fortran
 
-6.  Add page links: `<a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>`
+6. Add page links: `<a href="ms-xhelp:///?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
 > Note: for non-supported new "Display Language" (example, F#, Cobol, Fortran) code colorization in the code snippet will be monochrome.
@@ -644,11 +644,11 @@ Sample HelpContentSetup.msha file: (Replace "content set name 1" and "content se
 </div>.
 ```
 
-1.  Create local folder, something like "C:\SampleContent"
+1. Create local folder, something like "C:\SampleContent"
 
-2.  For this example, we will use MSHC files to contain the topics.  An MSHC is a zip with the file extension changed from .zip to .MSHC.
+2. For this example, we will use MSHC files to contain the topics.  An MSHC is a zip with the file extension changed from .zip to .MSHC.
 
-3.  Create the below HelpContentSetup.msha as a text file (notepad was used to create the file) and save it to the above noted folder (see step 1).
+3. Create the below HelpContentSetup.msha as a text file (notepad was used to create the file) and save it to the above noted folder (see step 1).
 
 The class "Branding" exists and is unique. The Branding mshc is included in this primer so that the installed content will have branding, and the content behaviors that are contained in the MSHCs will have the appropriate support elements contained in the branding package. Without this, errors will result when the system looks for support items that are not part of the ripped (installed) content.
 
@@ -698,9 +698,9 @@ This walkthrough demonstrates how to incorporate Help content into a Visual Stud
 
 **Requirements**
 
-1.  [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)]
+1. [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)]
 
-2.  [Visual Studio 2013 Isolated Shell Redist](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
+2. [Visual Studio 2013 Isolated Shell Redist](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 
 **Overview**
 
@@ -739,13 +739,13 @@ Define the content store in the registry. For the Integrated Shell, change Visua
 
 To create an Isolated Shell extension:
 
-1.  In Visual Studio, under **File**, choose **New Project**, under **Other Project Types** choose **Extensibility**, and then choose  **Visual Studio Shell Isolated**. Name the project `ContosoHelpShell`) to create an extensibility project based on the Visual Studio Isolated Shell template.
+1. In Visual Studio, under **File**, choose **New Project**, under **Other Project Types** choose **Extensibility**, and then choose  **Visual Studio Shell Isolated**. Name the project `ContosoHelpShell`) to create an extensibility project based on the Visual Studio Isolated Shell template.
 
-2.  In Solution Explorer, in the ContosoHelpShellUI project, in the Resource Files folder, open ApplicationCommands.vsct. Make sure this line is commented out (search for "No_Help"): `<!-- <define name="No_HelpMenuCommands"/> -->`
+2. In Solution Explorer, in the ContosoHelpShellUI project, in the Resource Files folder, open ApplicationCommands.vsct. Make sure this line is commented out (search for "No_Help"): `<!-- <define name="No_HelpMenuCommands"/> -->`
 
-3.  Choose the F5 key to compile and run **Debug**. In the experimental instance of the Isolated Shell IDE, choose the **Help** menu. Make sure that the **View Help**, **Add and Remove Help Content**, and **Set Help Preference** commands appear.
+3. Choose the F5 key to compile and run **Debug**. In the experimental instance of the Isolated Shell IDE, choose the **Help** menu. Make sure that the **View Help**, **Add and Remove Help Content**, and **Set Help Preference** commands appear.
 
-4.  In Solution Explorer, in the ContosHelpShell project, in the Shell Customization folder, open ContosoHelpShell.pkgdef. To define the Contoso Help catalog, add the following lines:
+4. In Solution Explorer, in the ContosHelpShell project, in the Shell Customization folder, open ContosoHelpShell.pkgdef. To define the Contoso Help catalog, add the following lines:
 
     ```
      [$RootKey$\Help]
@@ -755,7 +755,7 @@ To create an Isolated Shell extension:
     "BrandingPackage"="ContosoBrandingPackage.mshc"
     ```
 
-5.  In Solution Explorer, in the ContosHelpShell project, in the Shell Customization folder, open ContosoHelpShell.Application.pkgdef. To enable F1 Help, add the following lines:
+5. In Solution Explorer, in the ContosHelpShell project, in the Shell Customization folder, open ContosoHelpShell.Application.pkgdef. To enable F1 Help, add the following lines:
 
     ```
     // F1 Help Provider
@@ -771,9 +771,9 @@ To create an Isolated Shell extension:
     @="{4A791146-19E4-11D3-B86B-00C04F79F802}"
     ```
 
-6.  In Solution Explorer, on the context menu of the ContosoHelpShell solution, choose the **Properties** menu item. Under **Configuration Properties**, select **Configuration Manager**. In the **Configuration** column, change every "Debug" value to "Release".
+6. In Solution Explorer, on the context menu of the ContosoHelpShell solution, choose the **Properties** menu item. Under **Configuration Properties**, select **Configuration Manager**. In the **Configuration** column, change every "Debug" value to "Release".
 
-7.  Build the solution. This creates a set of files in a release folder, which will be used in the next section.
+7. Build the solution. This creates a set of files in a release folder, which will be used in the next section.
 
 To test this as if deployed:
 

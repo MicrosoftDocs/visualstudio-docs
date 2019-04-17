@@ -42,19 +42,19 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
 #### To package an extension by using a VSIX project  
   
-1.  Build the projects that make up your extension.  
+1. Build the projects that make up your extension.  
   
-2.  Create a VSIX project by using the **VSIX Project** template.  
+2. Create a VSIX project by using the **VSIX Project** template.  
   
      Source.extension.vsixmanifest opens in **Manifest Designer**.  
   
-3.  On the **Assets** tab, choose the **New** button.  
+3. On the **Assets** tab, choose the **New** button.  
   
      The **Add New Asset** dialog box appears.  
   
-4.  In the **Type** list, choose the type of extension to add.  
+4. In the **Type** list, choose the type of extension to add.  
   
-5.  To add an extension or content element that's included in the current solution (for example, an item template or a compiled assembly), perform the following steps:  
+5. To add an extension or content element that's included in the current solution (for example, an item template or a compiled assembly), perform the following steps:  
   
     1.  In the **Source** list, choose **A project in current solution**.  
   
@@ -62,7 +62,7 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
     3.  In the **Embed in this folder** box, enter the name of a folder in which to embed the asset, and then choose the **OK** button.  
   
-6.  To add an extension or content element that isn't included in the current solution, perform the following steps:  
+6. To add an extension or content element that isn't included in the current solution, perform the following steps:  
   
     1.  In the **Source** list box, choose **File on filesystem**.  
   
@@ -70,9 +70,9 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
     3.  In the **Embed in this folder** box, enter the name of a folder in which to embed the asset, and then choose the **OK** button.  
   
-7.  If you want your package to include additional extensions, add them in the same manner.  
+7. If you want your package to include additional extensions, add them in the same manner.  
   
-8.  Build the solution.  
+8. Build the solution.  
   
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] builds a .vsix file that contains a VSIX manifest file, a [Content_Types].xml file, and all of the extension assets that you added to the project.  
   

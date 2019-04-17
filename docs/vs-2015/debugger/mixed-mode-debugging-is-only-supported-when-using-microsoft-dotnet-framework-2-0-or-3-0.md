@@ -32,17 +32,17 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
   
 ### To change the operating system to 32-bit (Visual Basic or C#)  
   
-1.  In **Solution Explorer**, right-click your project, and then click **Properties** in the shortcut menu.  
+1. In **Solution Explorer**, right-click your project, and then click **Properties** in the shortcut menu.  
   
-2.  In the property pages, click the **Compile** or **Debug** tab.  
+2. In the property pages, click the **Compile** or **Debug** tab.  
   
-3.  Click **Platform**, and then select **x86** from the list of platforms.  
+3. Click **Platform**, and then select **x86** from the list of platforms.  
   
      By default, the Visual Basic and C# compilers produce code to run on any CPU. On a 64-bit computer, these binaries run as 64-bit processes. To run on a 32-bit process, you must choose **Win32**, not **AnyCPU**.  
   
 ### To change the operating system to 32-bit (C/C++)  
   
-1.  In **Solution Explorer**, right-click your project, and then click **Properties** in the shortcut menu.  
+1. In **Solution Explorer**, right-click your project, and then click **Properties** in the shortcut menu.  
   
      In the property pages, click **Platform**, and then select **Win32** from the list of platforms.  
   

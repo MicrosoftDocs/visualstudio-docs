@@ -22,13 +22,13 @@ This walkthrough explains how to create a tool window that responds to events in
 
 #### To create an extension with a tool window
 
-1.  Create a project named **RDTExplorer** using the VSIX template, and add a custom tool window item template named **RDTExplorerWindow**.
+1. Create a project named **RDTExplorer** using the VSIX template, and add a custom tool window item template named **RDTExplorerWindow**.
 
      For more information about creating an extension with a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).
 
 #### To subscribe to RDT events
 
-1.  Open the RDTExplorerWindowControl.xaml file and delete the button named `button1`. Add a <xref:System.Windows.Forms.ListBox> control and accept the default name. The Grid element should look like this:
+1. Open the RDTExplorerWindowControl.xaml file and delete the button named `button1`. Add a <xref:System.Windows.Forms.ListBox> control and accept the default name. The Grid element should look like this:
 
     ```xml
     <Grid>
@@ -39,7 +39,7 @@ This walkthrough explains how to create a tool window that responds to events in
     </Grid>
     ```
 
-2.  Open the RDTExplorerWindow.cs file in code view. Add the following using statements to the start of the file.
+2. Open the RDTExplorerWindow.cs file in code view. Add the following using statements to the start of the file.
 
     ```csharp
     using Microsoft.VisualStudio;
@@ -47,24 +47,24 @@ This walkthrough explains how to create a tool window that responds to events in
     using Microsoft.VisualStudio.Shell.Interop;
     ```
 
-3.  Modify the `RDTExplorerWindow` class so that, in addition to deriving from the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class, it implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents> interface.
+3. Modify the `RDTExplorerWindow` class so that, in addition to deriving from the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class, it implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents> interface.
 
     ```csharp
     public class RDTExplorerWindow : ToolWindowPane, IVsRunningDocTableEvents
     {. . .}
     ```
 
-4.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>.
+4. Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>.
 
     -   Implement the interface. Place the cursor on the IVsRunningDocTableEvents name. You should see a light bulb in the left margin. Click the Down arrow to the right of the light bulb and select **Implement interface**.
 
-5.  In each method in the interface, replace the line `throw new NotImplementedException();` with this:
+5. In each method in the interface, replace the line `throw new NotImplementedException();` with this:
 
     ```csharp
     return VSConstants.S_OK;
     ```
 
-6.  Add a cookie field to the RDTExplorerWindow class.
+6. Add a cookie field to the RDTExplorerWindow class.
 
     ```csharp
     private uint rdtCookie;
@@ -72,7 +72,7 @@ This walkthrough explains how to create a tool window that responds to events in
 
      This holds the cookie that is returned by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> method.
 
-7.  Override the RDTExplorerWindow's Initialize() method to register for RDT events. You should always get services in the ToolWindowPane's Initialize() method, not in the constructor.
+7. Override the RDTExplorerWindow's Initialize() method to register for RDT events. You should always get services in the ToolWindowPane's Initialize() method, not in the constructor.
 
     ```csharp
     protected override void Initialize()
@@ -85,7 +85,7 @@ This walkthrough explains how to create a tool window that responds to events in
 
      The <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable> service is called to obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable> interface. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> method connects RDT events to an object that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>, in this case, a RDTExplorer object.
 
-8.  Update the RDTExplorerWindow's Dispose() method.
+8. Update the RDTExplorerWindow's Dispose() method.
 
     ```csharp
     protected override void Dispose(bool disposing)

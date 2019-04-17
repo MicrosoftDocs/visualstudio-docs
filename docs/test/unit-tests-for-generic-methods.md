@@ -67,22 +67,22 @@ public void SizeOfLinkedListTest()
 ##### Test helper method
  The test helper method performs the following steps, which correspond to lines in the code labeled step 1 through step 5.
 
-1.  Create a generic linked list.
+1. Create a generic linked list.
 
-2.  Append four nodes to the linked list. The data type of the contents of these nodes is unknown.
+2. Append four nodes to the linked list. The data type of the contents of these nodes is unknown.
 
-3.  Assign the expected size of the linked list to the variable `expected`.
+3. Assign the expected size of the linked list to the variable `expected`.
 
-4.  Compute the actual size of the linked list and assign it to the variable `actual`.
+4. Compute the actual size of the linked list and assign it to the variable `actual`.
 
-5.  Compare `actual` with `expected` in an Assert statement. If the actual is not equal to the expected, the test fails.
+5. Compare `actual` with `expected` in an Assert statement. If the actual is not equal to the expected, the test fails.
 
 ##### Test method
  The test method is compiled into the code that is called when you run the test named SizeOfLinkedListTest. It performs the following steps, which correspond to lines in the code labeled step 6 and step 7.
 
-1.  Specify `<int>` when you call the test helper method, to verify that the test works for `integer` variables.
+1. Specify `<int>` when you call the test helper method, to verify that the test works for `integer` variables.
 
-2.  Specify `<char>` when you call the test helper method, to verify that the test works for `char` variables.
+2. Specify `<char>` when you call the test helper method, to verify that the test works for `char` variables.
 
 ```csharp
 public void SizeOfLinkedListTestHelper<T>()

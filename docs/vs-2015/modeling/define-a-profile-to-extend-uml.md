@@ -43,21 +43,21 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 #### To define a UML Profile  
   
-1.  Create a new XML file with the file name extension `.profile`.  
+1. Create a new XML file with the file name extension `.profile`.  
   
-2.  Add stereotype definitions according to the guidelines described in [The Structure of a Profile](#Schema).  
+2. Add stereotype definitions according to the guidelines described in [The Structure of a Profile](#Schema).  
   
-3.  Add the profile to a Visual Studio Extension (`.vsix` file). You can either create a new extension for your profile, or add the profile to an existing extension.  
+3. Add the profile to a Visual Studio Extension (`.vsix` file). You can either create a new extension for your profile, or add the profile to an existing extension.  
   
      See the next section, [How to Add a Profile to a Visual Studio Extension](#AddProfile).  
   
-4.  Install the extension on your computer.  
+4. Install the extension on your computer.  
   
     1.  Double-click the extension file, which has a file name extension `.vsix`.  
   
     2.  Restart Visual Studio.  
   
-5.  Verify that the profile has been installed.  
+5. Verify that the profile has been installed.  
   
     1.  Select the model in UML Explorer.  
   
@@ -67,7 +67,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
     4.  If your profile defines additional properties for this stereotype, expand the stereotype property to see them.  
   
-6.  Send the extension file to other users of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to install on their computers.  
+6. Send the extension file to other users of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to install on their computers.  
   
 ##  <a name="AddProfile"></a> How to Add a Profile to a Visual Studio Extension  
  To install a profile, and to allow you to send it to other users, you must add the profile to a Visual Studio extension. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
@@ -127,7 +127,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 #### To define a profile extension without using Visual Studio SDK  
   
-1.  Create a Windows directory that contains the following three files:  
+1. Create a Windows directory that contains the following three files:  
   
     -   *YourProfile* `.profile`  
   
@@ -135,7 +135,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
     -   `[Content_Types].xml` - type this name as shown here, with the square brackets  
   
-2.  Edit `[Content_Types].xml` to contain the following text. Notice that it contains an entry for each file name extension.  
+2. Edit `[Content_Types].xml` to contain the following text. Notice that it contains an entry for each file name extension.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -145,7 +145,7 @@ You can define a *UML profile* to customize the standard model elements for spec
     </Types>  
     ```  
   
-3.  Copy an existing `extension.vsixmanifest` and edit it with an XML editor. Alter the ID, Name, and Content nodes.  
+3. Copy an existing `extension.vsixmanifest` and edit it with an XML editor. Alter the ID, Name, and Content nodes.  
   
     -   You can find an example of `extension.vsixmanifest` in this directory:  
   
@@ -160,21 +160,21 @@ You can define a *UML profile* to customize the standard model elements for spec
         </Content>  
         ```  
   
-4.  Compress the three files into a zipped file.  
+4. Compress the three files into a zipped file.  
   
      In Windows Explorer, select the three files, right-click, point to **Send To**, and then click **Compressed (zipped) folder**.  
   
-5.  Rename the zipped file, and change its file name extension from `.zip` to `.vsix`.  
+5. Rename the zipped file, and change its file name extension from `.zip` to `.vsix`.  
   
-6.  To install the profile on any computer with appropriate editions of Visual Studio, double-click the `.vsix` file.  
+6. To install the profile on any computer with appropriate editions of Visual Studio, double-click the `.vsix` file.  
   
 #### To install a UML Profile from a Visual Studio Extension  
   
-1.  Double-click the `.vsix` file in Windows Explorer, or open it within Visual Studio.  
+1. Double-click the `.vsix` file in Windows Explorer, or open it within Visual Studio.  
   
-2.  Click **Install** in the dialog box that appears.  
+2. Click **Install** in the dialog box that appears.  
   
-3.  To uninstall or temporarily disable the extension, open **Extensions and Updates** from the **Tools** menu.  
+3. To uninstall or temporarily disable the extension, open **Extensions and Updates** from the **Tools** menu.  
   
 ##  <a name="Localized"></a> How to Define Localized Profiles  
  You can define different profiles for different cultures or languages, and package them all into the same extension. When a user loads your extension, they will see the profile that you have defined for their culture.  
@@ -183,16 +183,16 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 #### To define a localized profile  
   
-1.  Create a profile as described in the previous sections[How to Define a Profile](#DefineProfile) and [How to Add a Profile to a Visual Studio Extension](#AddProfile). This is the default profile, and will be used in any installation for which you do not provide a localized profile.  
+1. Create a profile as described in the previous sections[How to Define a Profile](#DefineProfile) and [How to Add a Profile to a Visual Studio Extension](#AddProfile). This is the default profile, and will be used in any installation for which you do not provide a localized profile.  
   
-2.  Add a new directory in the same directory as your default profile file.  
+2. Add a new directory in the same directory as your default profile file.  
   
     > [!NOTE]
     >  If you are building the extension by using a Visual Studio Extension project, use Solution Explorer to add a new folder to the project.  
   
-3.  Change the new directory's name to the ISO short code for the localized culture, such as `bg` for Bulgarian, or `fr` for French. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](http://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.  
+3. Change the new directory's name to the ISO short code for the localized culture, such as `bg` for Bulgarian, or `fr` for French. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](http://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.  
   
-4.  Add a copy of your default profile to the new directory. Do not change its file name.  
+4. Add a copy of your default profile to the new directory. Do not change its file name.  
   
      A sample [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] Extension folder, before it is built or compressed into a `.vsix` file, would contain the following folders and files:  
   
@@ -207,11 +207,11 @@ You can define a *UML profile* to customize the standard model elements for spec
     > [!NOTE]
     >  You should not insert into `extension.vsixmanifest` a reference to the localized versions of the profiles. The copied profile files must have the same name as the profile in the parent folder.  
   
-5.  Edit the new copy of the profile, translating to the target language all the parts that will be visible to the user, such as the `displayName` attributes.  
+5. Edit the new copy of the profile, translating to the target language all the parts that will be visible to the user, such as the `displayName` attributes.  
   
-6.  You can create additional culture folders and localized profiles for as many cultures as you want.  
+6. You can create additional culture folders and localized profiles for as many cultures as you want.  
   
-7.  Build the Visual Studio extension, either by building the Extension Project or compressing all the files, as described in the previous sections.  
+7. Build the Visual Studio extension, either by building the Extension Project or compressing all the files, as described in the previous sections.  
   
 ##  <a name="Schema"></a> The Structure of a Profile  
  The XSD file for UML profiles can be found in the following sample: [Setting Stereotypes and Profiles XSD](http://go.microsoft.com/fwlink/?LinkID=213811). To help you edit profile files, install the `.xsd` file in:  

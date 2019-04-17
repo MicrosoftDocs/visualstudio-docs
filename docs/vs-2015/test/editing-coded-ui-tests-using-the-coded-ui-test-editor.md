@@ -27,21 +27,21 @@ The Coded UI Test Editor lets you easily modify your coded UI tests. Using the C
   
  ![UI Test Edito](../test/media/uitesteditor.png "UITestEditor")  
   
-1.  [Find](../ide/finding-and-replacing-text.md) helps you locate UI actions and controls.  
+1. [Find](../ide/finding-and-replacing-text.md) helps you locate UI actions and controls.  
   
-2.  [Delete](#CodedUITestEditor_DeleteUIActions) removes unwanted UI actions.  
+2. [Delete](#CodedUITestEditor_DeleteUIActions) removes unwanted UI actions.  
   
-3.  **Rename** changes the names for test methods and controls.  
+3. **Rename** changes the names for test methods and controls.  
   
-4.  **Properties** opens the Properties Window for selected item.  
+4. **Properties** opens the Properties Window for selected item.  
   
-5.  [Split into a new method](#CodedUITestEditor_SplitMethods) lets you modularize the UI actions.  
+5. [Split into a new method](#CodedUITestEditor_SplitMethods) lets you modularize the UI actions.  
   
-6.  [Move Code](#CodedUITestEditor_MoveMethods) adds custom code to your test methods.  
+6. [Move Code](#CodedUITestEditor_MoveMethods) adds custom code to your test methods.  
   
-7.  [Insert Delay Before](#CodedUITestEditor_InsertDelay) adds a pause prior to a UI action, specified in milliseconds.  
+7. [Insert Delay Before](#CodedUITestEditor_InsertDelay) adds a pause prior to a UI action, specified in milliseconds.  
   
-8.  [Locate the UI Control](#CodedUITestEditor_LocateUIControl) identifies the location of the control in the UI of application under test.  
+8. [Locate the UI Control](#CodedUITestEditor_LocateUIControl) identifies the location of the control in the UI of application under test.  
   
 9. [Locate All](#CodedUITestEditor_LocateDecendants) helps you verify control property and significant changes to the application’s controls.  
   

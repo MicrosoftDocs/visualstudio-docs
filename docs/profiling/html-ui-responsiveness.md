@@ -32,9 +32,9 @@ This topic describes how to isolate performance problems in your apps using the 
 ## Run the HTML UI Responsiveness tool
  You can use the HTML UI Responsiveness tool when you have a working UWP app open in Visual Studio.
 
-1.  If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as **Local Machine** or **Device**.
+1. If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as **Local Machine** or **Device**.
 
-2.  On the **Debug** menu, choose **Performance Profiler**.
+2. On the **Debug** menu, choose **Performance Profiler**.
 
      If you want to change the analysis target for the profiler, choose **Change Target**.
 
@@ -52,15 +52,15 @@ This topic describes how to isolate performance problems in your apps using the 
 
          You can use this option to analyze the performance of apps that you have installed on your computer when you don't have access to source code. This option can also be useful when you just want to analyze the performance of any app outside your own app development.
 
-3.  From **Available Tools**, select **HTML UI Responsiveness**, and then choose **Start**.
+3. From **Available Tools**, select **HTML UI Responsiveness**, and then choose **Start**.
 
-4.  When you start the UI Responsiveness Profiler, a User Account Control window might request your permission to run Visual Studio ETW Collector.exe. Choose **Yes**.
+4. When you start the UI Responsiveness Profiler, a User Account Control window might request your permission to run Visual Studio ETW Collector.exe. Choose **Yes**.
 
      Interact with the app to test the relevant performance scenario. For a detailed workflow, see [Isolate a UI responsiveness problem](#Workflow) and [Isolate a visual throughput problem](#IsolateVisualThroughput).
 
-5.  Switch to Visual Studio by pressing Alt+Tab.
+5. Switch to Visual Studio by pressing Alt+Tab.
 
-6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.
+6. To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.
 
 ## Isolate an issue
  The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](/visualstudio/profiling/html-ui-responsiveness).
@@ -68,26 +68,26 @@ This topic describes how to isolate performance problems in your apps using the 
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:
 
-1.  Open your app in Visual Studio.
+1. Open your app in Visual Studio.
 
-2.  Test your app for UI responsiveness issues. (Press **Ctrl**+**F5** to start your app without debugging.)
+2. Test your app for UI responsiveness issues. (Press **Ctrl**+**F5** to start your app without debugging.)
 
      If you find an issue, continue testing to try to narrow the time frame in which the issue occurs, or try to identify triggers that cause the behavior.
 
-3.  Switch to Visual Studio (press **Alt**+**Tab**) and stop your app (**Shift**+**F5**).
+3. Switch to Visual Studio (press **Alt**+**Tab**) and stop your app (**Shift**+**F5**).
 
-4.  Optionally, add user marks to your code using [Mark code for analysis](#ProfileMark).
+4. Optionally, add user marks to your code using [Mark code for analysis](#ProfileMark).
 
     > [!TIP]
     >  User marks can help you identify the responsiveness problem while you're viewing profiler data. For example, you can add a user mark at the beginning and end of a section of code that is causing a responsiveness issue.
 
-5.  Run the UI Responsiveness Profiler by following the instructions in the previous section.
+5. Run the UI Responsiveness Profiler by following the instructions in the previous section.
 
-6.  Put the app into the state that results in a UI responsiveness issue.
+6. Put the app into the state that results in a UI responsiveness issue.
 
-7.  Switch to Visual Studio (press Alt+Tab) and choose **Stop collection** in the profiler tab of the UI Responsiveness Profiler.
+7. Switch to Visual Studio (press Alt+Tab) and choose **Stop collection** in the profiler tab of the UI Responsiveness Profiler.
 
-8.  If you have added user marks, they will appear in the [View the diagnostic session timeline](#Ruler) of the profiler. The following illustration shows a single user mark used to specify a particular operation in your code.
+8. If you have added user marks, they will appear in the [View the diagnostic session timeline](#Ruler) of the profiler. The following illustration shows a single user mark used to specify a particular operation in your code.
 
      ![Diagnostics Ruler showing a user mark](../profiling/media/js_htmlvizprofiler_usermark.png "JS_HTMLVizProfiler_UserMark")
 

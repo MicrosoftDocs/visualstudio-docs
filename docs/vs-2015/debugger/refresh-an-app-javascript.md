@@ -44,23 +44,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ### To refresh an app  
   
-1.  In Visual Studio, create a new project by using the Navigation App project template.  
+1. In Visual Studio, create a new project by using the Navigation App project template.  
   
      This can be Windows Store app, Windows Phone Store app, or a universal app.  
   
-2.  With the template open in Visual Studio, select a debug target.  
+2. With the template open in Visual Studio, select a debug target.  
   
      If a Windows Phone project is your current startup project, select a Windows Phone emulator for the debug target. Otherwise, select **Simulator** or **Local Machine**.  
   
      ![Select debug target list](../debugger/media/js-select-target.png "JS_Select_Target")  
   
-3.  Press F5 to run the app in debug mode.  
+3. Press F5 to run the app in debug mode.  
   
-4.  Switch to Visual Studio. (Press F12.)  
+4. Switch to Visual Studio. (Press F12.)  
   
-5.  In **Solution Explorer**, in the **pages** > **home** folder, open home.html.  
+5. In **Solution Explorer**, in the **pages** > **home** folder, open home.html.  
   
-6.  Change the page title text from  
+6. Change the page title text from  
   
     ```html  
     Welcome to yourAppName!  
@@ -72,9 +72,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     Hello!  
     ```  
   
-7.  Click the **Refresh Windows app** button, which looks like this: ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh"). (Or press F4.)  
+7. Click the **Refresh Windows app** button, which looks like this: ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh"). (Or press F4.)  
   
-8.  Switch to the app. The app is reloaded without the debugger restarting, and the new page title appears.  
+8. Switch to the app. The app is reloaded without the debugger restarting, and the new page title appears.  
   
 ## See Also  
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)

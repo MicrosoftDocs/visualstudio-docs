@@ -47,19 +47,19 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../include
   
 #### To profile the PeopleTrax application by using the instrumentation method  
   
-1.  Install the PeopleTrax sample application and build the Release version.  
+1. Install the PeopleTrax sample application and build the Release version.  
   
-2.  Open a command prompt window and add the **Profiling Tools** directory to the local Path environment variable.  
+2. Open a command prompt window and add the **Profiling Tools** directory to the local Path environment variable.  
   
-3.  Change the working directory to the directory containing the PeopleTrax binaries.  
+3. Change the working directory to the directory containing the PeopleTrax binaries.  
   
-4.  Create a directory to contain the file based reports. Type the following command:  
+4. Create a directory to contain the file based reports. Type the following command:  
   
     ```  
     md Reports  
     ```  
   
-5.  Use the VSInstr command-line tool to instrument the binaries in the application. Type the following commands on separate command lines:  
+5. Use the VSInstr command-line tool to instrument the binaries in the application. Type the following commands on separate command lines:  
   
     ```  
     VSInstr PeopleTrax.exe  
@@ -71,19 +71,19 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../include
   
      **Note** By default, VSInstr saves a non-instrumented backup of the original file. The backup file name has the extension .orig. For example, the original version of "MyApp.exe" would be saved as "MyApp.exe.orig."  
   
-6.  Type the following command to set the appropriate environment variables:  
+6. Type the following command to set the appropriate environment variables:  
   
     ```  
     VsPerfCLREnv /traceon  
     ```  
   
-7.  To start the profiler, type the following command:  
+7. To start the profiler, type the following command:  
   
     ```  
     VsPerfCmd /start:trace /output:Reports\Report.vsp  
     ```  
   
-8.  After you start the profiler in trace mode, run the instrumented version of the PeopleTrax.exe process to collect data.  
+8. After you start the profiler in trace mode, run the instrumented version of the PeopleTrax.exe process to collect data.  
   
      The **PeopleTrax** application window appears.  
   

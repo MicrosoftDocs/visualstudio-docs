@@ -41,15 +41,15 @@ A *text template*<em>host</em> provides an environment that enables the *text te
   
 #### To create a custom host  
   
-1.  In Visual Studio, create a new Visual Basic or a C# console application named CustomHost.  
+1. In Visual Studio, create a new Visual Basic or a C# console application named CustomHost.  
   
-2.  Add references to the following assemblies:  
+2. Add references to the following assemblies:  
   
     -   **Microsoft.VisualStudio.TextTemplating.\*.0**  
   
     -   **Microsoft.VisualStudio.TextTemplating.Interfaces.10.0 and later versions**  
   
-3.  Replace the code in the Program.cs or Module1.vb file with the following code:  
+3. Replace the code in the Program.cs or Module1.vb file with the following code:  
   
     ```csharp  
     using System;  
@@ -708,22 +708,22 @@ A *text template*<em>host</em> provides an environment that enables the *text te
     End Namespace  
     ```  
   
-4.  For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.  
+4. For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.  
   
-5.  On the **File** menu, click **Save All**.  
+5. On the **File** menu, click **Save All**.  
   
-6.  On the **Build** menu, click **Build Solution**.  
+6. On the **Build** menu, click **Build Solution**.  
   
 ## Testing the Custom Host  
  To test the custom host, you write a text template, then you run the custom host, pass it the name of the text template, and verify that the template is transformed.  
   
 #### To create a text template to test the custom host  
   
-1.  Create a text file, and name it `TestTemplate.tt`.  
+1. Create a text file, and name it `TestTemplate.tt`.  
   
      You can use any text editor (for example, Notepad) to create the file.  
   
-2.  Add the following to the file:  
+2. Add the following to the file:  
   
     > [!NOTE]
     >  The programming language of the text template does not have to match that of the custom host.  
@@ -766,13 +766,13 @@ A *text template*<em>host</em> provides an environment that enables the *text te
   
     ```  
   
-3.  Save and close the file.  
+3. Save and close the file.  
   
 #### To test the custom host  
   
-1.  Open the Command Prompt window.  
+1. Open the Command Prompt window.  
   
-2.  Type the path of the executable file for the custom host, but do not press ENTER yet.  
+2. Type the path of the executable file for the custom host, but do not press ENTER yet.  
   
      For example, type:  
   
@@ -781,9 +781,9 @@ A *text template*<em>host</em> provides an environment that enables the *text te
     > [!NOTE]
     >  Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.  
   
-3.  Type a space.  
+3. Type a space.  
   
-4.  Type the path of the text template file, and then press ENTER.  
+4. Type the path of the text template file, and then press ENTER.  
   
      For example, type:  
   
@@ -794,11 +794,11 @@ A *text template*<em>host</em> provides an environment that enables the *text te
   
      The custom host application runs and completes the text template transformation process.  
   
-5.  In **Windows Explorer**, browse to the folder that contains the file TestTemplate.tt.  
+5. In **Windows Explorer**, browse to the folder that contains the file TestTemplate.tt.  
   
      That folder also contains the file TestTemplate1.txt.  
   
-6.  Open this file to see the results of the text template transformation.  
+6. Open this file to see the results of the text template transformation.  
   
      The generated text output appears and looks like this:  
   

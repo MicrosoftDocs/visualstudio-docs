@@ -285,13 +285,13 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
 ## How do I write new WPF UI?
 
-1.  Start by adding the assembly references required in the above first steps section to your project. You don't need to add all of them, so add just the references you need. (Note: if you are using or have access to **Colors** instead of **Brushes**, then you can skip the reference to **Utilities**, since you won't need the converter.)
+1. Start by adding the assembly references required in the above first steps section to your project. You don't need to add all of them, so add just the references you need. (Note: if you are using or have access to **Colors** instead of **Brushes**, then you can skip the reference to **Utilities**, since you won't need the converter.)
 
-2.  Select the desired image and get its moniker. Use a **KnownMoniker**, or use your own if you have your own custom images and monikers.
+2. Select the desired image and get its moniker. Use a **KnownMoniker**, or use your own if you have your own custom images and monikers.
 
-3.  Add **CrispImages** to your XAML. (See below example.)
+3. Add **CrispImages** to your XAML. (See below example.)
 
-4.  Set the **ImageThemingUtilities.ImageBackgroundColor** property in your UI hierarchy. (This should be set at the location where the background color is known, not necessarily on the **CrispImage**.) (See below example.)
+4. Set the **ImageThemingUtilities.ImageBackgroundColor** property in your UI hierarchy. (This should be set at the location where the background color is known, not necessarily on the **CrispImage**.) (See below example.)
 
 ```xaml
 <Window
@@ -317,9 +317,9 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
  Updating existing WPF UI is a relatively simple process that consists of three basic steps:
 
-1.  Replace all \<Image> elements in your UI with \<CrispImage> elements.
+1. Replace all \<Image> elements in your UI with \<CrispImage> elements.
 
-2.  Change all the Source attributes to Moniker attributes.
+2. Change all the Source attributes to Moniker attributes.
 
     -   If the image never changes and you are using **KnownMonikers**, then statically bind that property to the **KnownMoniker**. (See the above example.)
 
@@ -327,7 +327,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
     -   If the image can change, bind the Moniker attribute to a code property that notifies on property changes.
 
-3.  Somewhere in the UI hierarchy, set **ImageThemingUtilities.ImageBackgroundColor** to make sure color inversion works correctly.
+3. Somewhere in the UI hierarchy, set **ImageThemingUtilities.ImageBackgroundColor** to make sure color inversion works correctly.
 
     -   This might require the use of the **BrushToColorConverter** class. (See the above example.)
 
@@ -701,11 +701,11 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  **I don't need to support HIMAGELISTs**
 
-1.  Determine the set of **KnownMonikers** that match the images in your image strip, or create your own monikers for the images in your image strip.
+1. Determine the set of **KnownMonikers** that match the images in your image strip, or create your own monikers for the images in your image strip.
 
-2.  Update whatever mapping you used to get the image at the required index in the image strip to use the monikers instead.
+2. Update whatever mapping you used to get the image at the required index in the image strip to use the monikers instead.
 
-3.  Update your code to use the image service to request monikers via the updated mapping. (This might mean updating to **CrispImages** for managed code, or requesting HBITMAPs or HICONs from the image service and passing them around for native code.)
+3. Update your code to use the image service to request monikers via the updated mapping. (This might mean updating to **CrispImages** for managed code, or requesting HBITMAPs or HICONs from the image service and passing them around for native code.)
 
 ## Testing your images
  You can use the Image Library Viewer tool to test your image manifests to make sure everything is authored correctly. You can find the tool in the [Visual Studio 2015 SDK](visual-studio-sdk.md). Documentation for this tool and others can be found [here](https://aka.ms/VSImageThemeTools).

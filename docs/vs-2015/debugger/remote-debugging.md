@@ -32,7 +32,7 @@ You can either download the remote tools directly on the device or server that y
 
 ### To download and install the remote tools
   
-1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
+1. On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
     |Version|Link|Notes|
     |-|-|-|
@@ -41,14 +41,14 @@ You can either download the remote tools directly on the device or server that y
     |Visual Studio 2013|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.120).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
     |Visual Studio 2012|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.110).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|
   
-2.  On the download page, choose the version of the tools that matches your operating system (x86, x64, or  ARM version) and download the remote tools.
+2. On the download page, choose the version of the tools that matches your operating system (x86, x64, or  ARM version) and download the remote tools.
   
     > [!IMPORTANT]
     >  We recommend you install the most recent version of the remote tools that matches your version of Visual Studio. Mismatched versions are not recommended.  
     >   
     >  In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer.  
   
-3.  When you have finished downloading the executable, follow the directions to install the application on the remote computer. See [setup instructions](#bkmk_setup)
+3. When you have finished downloading the executable, follow the directions to install the application on the remote computer. See [setup instructions](#bkmk_setup)
 
 If you try to copy the remote debugger (msvsmon.exe) to the remote computer and run it, be aware that the **Remote Debugger Configuration Wizard** (**rdbgwiz.exe**) is installed only when you download the tools, and you may need to use the wizard for configuration later, especially if you want the remote debugger to run as a service. For more information, see [(Optional) Configure the remote debugger as a service](#bkmk_configureService) below.
 

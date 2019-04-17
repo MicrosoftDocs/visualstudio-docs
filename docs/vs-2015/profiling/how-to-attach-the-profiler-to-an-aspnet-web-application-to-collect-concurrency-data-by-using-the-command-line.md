@@ -67,11 +67,11 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Detach the profiler from the target application by closing it or by typing the following at a command prompt:  
+1. Detach the profiler from the target application by closing it or by typing the following at a command prompt:  
 
      **VSPerfCmd /detach**  
 
-2.  Shut down the profiler by typing the following command at a command prompt:  
+2. Shut down the profiler by typing the following command at a command prompt:  
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)  
 

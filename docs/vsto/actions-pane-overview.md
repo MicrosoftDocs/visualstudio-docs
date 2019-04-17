@@ -80,9 +80,9 @@ ms.workload:
 
 ##### To display the actions pane by using the UI of Word or Excel
 
-1.  On the Ribbon, click the **View** tab.
+1. On the Ribbon, click the **View** tab.
 
-2.  In the **Show/Hide** group, click the **Document Actions** toggle button.
+2. In the **Show/Hide** group, click the **Document Actions** toggle button.
 
 ## Program actions pane events
  You can add multiple user controls to the actions pane and then write code to respond to events on the document by showing and hiding the user controls. If you map XML schema elements to your document, you can show certain user controls in the actions pane whenever the insertion point is inside one of the XML elements. For more information, see [How to: Map schemas to Word documents inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md) and [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md).

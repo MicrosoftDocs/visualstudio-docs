@@ -29,11 +29,11 @@ Debugging exceptions is an important part of developing a robust [!INCLUDE[vstec
 
 ### To enable debugging of ASP.NET exceptions with Just My Code
 
-1.  On the **Debug** menu, click **Exceptions**.
+1. On the **Debug** menu, click **Exceptions**.
 
      The **Exceptions** dialog box appears.
 
-2.  On the **Common Language Runtime Exceptions** row, select **Thrown** or **User-unhandled**.
+2. On the **Common Language Runtime Exceptions** row, select **Thrown** or **User-unhandled**.
 
      To use the **User-unhandled** setting, **Just My Code** must be enabled..
 

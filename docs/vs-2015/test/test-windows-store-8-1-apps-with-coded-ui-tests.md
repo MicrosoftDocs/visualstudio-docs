@@ -16,7 +16,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
 ## Create a simple Windows Store app  
   
-1.  If you want to run coded UI tests for your XAML-based Windows Store app, you must [set a unique automation property that identifies each control](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md).  
+1. If you want to run coded UI tests for your XAML-based Windows Store app, you must [set a unique automation property that identifies each control](../test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md).  
   
      On the **Tools** menu, point to **Options** and then choose **Text Editor**, then **XAML**, and finally **Miscellaneous**.  
   
@@ -24,15 +24,15 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
   
      ![XAML Miscellaneous options](../test/media/cuit-windowsstoreapp-b.png "CUIT_WindowsStoreApp_B")  
   
-2.  Create a new project for a blank XAML based Windows Store app using either Visual C# or Visual Basic template.  
+2. Create a new project for a blank XAML based Windows Store app using either Visual C# or Visual Basic template.  
   
      ![Create a Windows Store Blank App &#40;XAML&#41;](../test/media/cuit-windowsstoreapp-newproject-blankstoreapp.png "CUIT_WindowsStoreApp_NewProject_BlankStoreApp")  
   
-3.  In Solution Explorer, open MainPage.xaml. From the Toolbox, drag a button control and a textbox control to the design surface.  
+3. In Solution Explorer, open MainPage.xaml. From the Toolbox, drag a button control and a textbox control to the design surface.  
   
      ![Design the Windows Store app](../test/media/cuit-windowsstoreapp-design.png "CUIT_WindowsStoreApp_Design")  
   
-4.  Double-click the button control and add the following code:  
+4. Double-click the button control and add the following code:  
   
     ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
@@ -52,7 +52,7 @@ Use this walkthrough for creating UI tests for UWP apps and XAML-based Store 8.1
     End Class  
     ```  
   
-5.  Press F5 to run your Windows Store app.  
+5. Press F5 to run your Windows Store app.  
   
 ## Create and run a coded UI test for the Windows Store app  
 

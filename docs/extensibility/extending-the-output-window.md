@@ -19,22 +19,22 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
 ## Create an extension that uses the Output pane
  You can make an extension that exercises different aspects of the Output pane.
 
-1.  Create a VSIX project named `TestOutput` with a menu command named **TestOutput**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
+1. Create a VSIX project named `TestOutput` with a menu command named **TestOutput**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
-2.  Add the following references:
+2. Add the following references:
 
     1.  EnvDTE
 
     2.  EnvDTE80
 
-3.  In *TestOutput.cs*, add the following using statement:
+3. In *TestOutput.cs*, add the following using statement:
 
     ```f#
     using EnvDTE;
     using EnvDTE80;
     ```
 
-4.  In *TestOutput.cs*, delete the `ShowMessageBox` method. Add the following method stub:
+4. In *TestOutput.cs*, delete the `ShowMessageBox` method. Add the following method stub:
 
     ```csharp
     private void OutputCommandHandler(object sender, EventArgs e)
@@ -42,7 +42,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
     }
     ```
 
-5.  In the TestOutput constructor, change the command handler to OutputCommandHandler. Here is the part that adds the commands:
+5. In the TestOutput constructor, change the command handler to OutputCommandHandler. Here is the part that adds the commands:
 
     ```csharp
     OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
@@ -55,7 +55,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
     }
     ```
 
-6.  The sections below have different methods that show different ways of dealing with the Output pane. You can call these methods to body of the `OutputCommandHandler()` method. For example, the following code adds the `CreatePane()` method given in the next section.
+6. The sections below have different methods that show different ways of dealing with the Output pane. You can call these methods to body of the `OutputCommandHandler()` method. For example, the following code adds the `CreatePane()` method given in the next section.
 
     ```csharp
     private void OutputCommandHandler(object sender, EventArgs e)

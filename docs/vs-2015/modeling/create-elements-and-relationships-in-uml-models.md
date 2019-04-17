@@ -81,11 +81,11 @@ using Microsoft.VisualStudio.Uml.Extensions;
   
 #### To create an association  
   
-1.  Obtain the owner of the association, which is usually the package or model containing the source end of the relationship.  
+1. Obtain the owner of the association, which is usually the package or model containing the source end of the relationship.  
   
-2.  Invoke the required Create method on the owner.  
+2. Invoke the required Create method on the owner.  
   
-3.  Set the relationship's properties such as its name.  
+3. Set the relationship's properties such as its name.  
   
      For example:  
   
@@ -94,7 +94,7 @@ using Microsoft.VisualStudio.Uml.Extensions;
     association .Name = "Observes";  
     ```  
   
-4.  Set the properties of each end of the relationship. There are always two `MemberEnds`. For example:  
+4. Set the properties of each end of the relationship. There are always two `MemberEnds`. For example:  
   
     ```  
     association .MemberEnds[0].Name = "subject";   // role name  

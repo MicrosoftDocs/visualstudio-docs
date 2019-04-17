@@ -77,13 +77,13 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To end a profiling session
 
-1.  Close the target application.
+1. Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd /shutdown**
 
-3.  (Optional) Clear the profiling environment variables. Type:
+3. (Optional) Clear the profiling environment variables. Type:
 
      **VSPerfClrEnv /off**
 

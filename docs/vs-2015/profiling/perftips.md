@@ -40,13 +40,13 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
 ## Turn PerfTips on or off  
  To enable or disable PerfTips:  
   
-1.  On the **Debug** menu, choose **Options**.  
+1. On the **Debug** menu, choose **Options**.  
   
-2.  Check or clear **Show elapsed PerfTip while debugging**.  
+2. Check or clear **Show elapsed PerfTip while debugging**.  
   
 ## Turn the Diagnostic Tools window on or off  
  To enable or disable the Diagnostic Tools window:  
   
-1.  On the **Debug** menu, choose **Options**.  
+1. On the **Debug** menu, choose **Options**.  
   
-2.  Check or clear **Enable Diagnostics Tools while debugging**.
+2. Check or clear **Enable Diagnostics Tools while debugging**.

@@ -60,17 +60,17 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 #### To create a new use case diagram  
   
-1.  On the **Architecture** menu, click **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, click **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, click **UMLUse Case Diagram**.  
+2. Under **Templates**, click **UMLUse Case Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then click **OK**.  
+4. In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then click **OK**.  
   
 #### To draw a use case diagram  
   
-1.  Drag **Subsystem** boundaries from the toolbox onto the diagram, to represent either your whole system or its major components.  
+1. Drag **Subsystem** boundaries from the toolbox onto the diagram, to represent either your whole system or its major components.  
   
     -   You can draw a use case diagram without system boundaries if you do not want to describe which use cases are supported by your system or its components.  
   
@@ -78,13 +78,13 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
     -   Rename it appropriately.  
   
-2.  Drag **Actors** from the toolbox onto the diagram (placing them outside any system boundary).  
+2. Drag **Actors** from the toolbox onto the diagram (placing them outside any system boundary).  
   
     -   Actors represent classes of users, organizations, and external systems that interact with your system.  
   
     -   Rename them. For example: **Customer, Restaurant, Credit card agency.**  
   
-3.  Drag **Use Cases** from the toolbox onto the appropriate systems.  
+3. Drag **Use Cases** from the toolbox onto the appropriate systems.  
   
     -   Use cases represent the activities that actors perform with the help of your system.  
   
@@ -96,13 +96,13 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
     -   You can draw a use case outside the system boundary to show that it is not supported by your system, perhaps in a particular version or release.  
   
-4.  Click **Association** on the toolbox, then a use case, and then an actor that participates in the use case. Link each actor to its use cases in this manner.  
+4. Click **Association** on the toolbox, then a use case, and then an actor that participates in the use case. Link each actor to its use cases in this manner.  
   
-5.  Structure the use cases with the **Include**, **Extend** and **Generalization** relationships. To create each of these links, click the tool, then the source use case, then the target. See the following section titled [Structuring Use Cases](#Structuring).  
+5. Structure the use cases with the **Include**, **Extend** and **Generalization** relationships. To create each of these links, click the tool, then the source use case, then the target. See the following section titled [Structuring Use Cases](#Structuring).  
   
-6.  Describe the use cases in more detail. See the following section titled [Describing Use Cases in Detail](#Details).  
+6. Describe the use cases in more detail. See the following section titled [Describing Use Cases in Detail](#Details).  
   
-7.  Draw separate diagrams to focus on different subsystems or different groups of related use cases. All the diagrams in one modeling project are views of the same model.  
+7. Draw separate diagrams to focus on different subsystems or different groups of related use cases. All the diagrams in one modeling project are views of the same model.  
   
 ##  <a name="Actors"></a> Drawing Actors and Use Cases  
  The main purpose of a use case diagram is to show who interacts with your system, and the main goals they achieve with it.  
@@ -134,17 +134,17 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 ##### To change the appearance of an actor  
   
-1.  Right-click the actor and then click **Properties**.  
+1. Right-click the actor and then click **Properties**.  
   
      The **Properties** window appears.  
   
-2.  Set the **Image Path** property to the location of an image file.  
+2. Set the **Image Path** property to the location of an image file.  
   
     -   You can use any of several image formats, including .gif, .jpg, and .bmp.  
   
     -   Use a file that is included in the solution or project source control so that it is still available when the solution is moved or copied.  
   
-3.  To replicate this appearance in other use case diagrams, copy the actor and paste it into another diagram.  
+3. To replicate this appearance in other use case diagrams, copy the actor and paste it into another diagram.  
   
     -   The change of image applies only to the view in a particular diagram. It does not apply to the underlying model element. If you drag the actor from UML Model Explorer onto another diagram, it will appear as the standard stick figure.  
   
@@ -202,11 +202,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 ##### To show the same actor or use case on different diagrams  
   
-1.  Create the actor or use case on one diagram.  
+1. Create the actor or use case on one diagram.  
   
-2.  Create another use case diagram.  
+2. Create another use case diagram.  
   
-3.  Drag an actor or use case off **Model Explorer** onto the new diagram.  
+3. Drag an actor or use case off **Model Explorer** onto the new diagram.  
   
     > [!NOTE]
     >  If you place on the new diagram an actor and a use case that are already associated, the association between them will automatically appear on the new diagram.  
@@ -234,19 +234,19 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 #### To link a use case to a diagram or file in the same solution  
   
-1.  Draw a diagram such as a sequence diagram or activity diagram to illustrate a scenario of the use case.  
+1. Draw a diagram such as a sequence diagram or activity diagram to illustrate a scenario of the use case.  
   
-2.  Go back to the use case diagram.  
+2. Go back to the use case diagram.  
   
-3.  Drag the diagram or file from Solution Explorer onto a blank part of the use case diagram.  
+3. Drag the diagram or file from Solution Explorer onto a blank part of the use case diagram.  
   
-4.  Connect from the artifact to the use case using a **Dependency**.  
+4. Connect from the artifact to the use case using a **Dependency**.  
   
 #### To link to a solution file such as a Word document or PowerPoint presentation  
   
-1.  Write a document that uses text, screen shots, and so on to describe the scenario of the use case.  
+1. Write a document that uses text, screen shots, and so on to describe the scenario of the use case.  
   
-2.  Add the document to the solution.  
+2. Add the document to the solution.  
   
     1.  Move the Word document into the same Windows folder as the solution.  
   
@@ -256,19 +256,19 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
          The Word document appears in a solution folder in Solution Explorer.  
   
-3.  Drag the Word document from Solution Explorer onto a blank part of the use case diagram.  
+3. Drag the Word document from Solution Explorer onto a blank part of the use case diagram.  
   
      A new Artifact appears.  
   
-4.  Connect from the artifact to the use case using a **Dependency**.  
+4. Connect from the artifact to the use case using a **Dependency**.  
   
 #### To link to a shared document, OneNote element, or web page  
   
-1.  Obtain the URL of the shared element. This can be, for example, a network file path beginning '\\\\', or a web page or Sharepoint URL beginning 'http://', or a link to a OneNote section, page, or paragraph beginning 'onenote:'.  
+1. Obtain the URL of the shared element. This can be, for example, a network file path beginning '\\\\', or a web page or Sharepoint URL beginning 'http://', or a link to a OneNote section, page, or paragraph beginning 'onenote:'.  
   
-2.  In the Toolbox, click **Artifact** and then click in the use case diagram.  
+2. In the Toolbox, click **Artifact** and then click in the use case diagram.  
   
-3.  With the new artifact selected, type or paste the URL into the **Hyperlink** property.  
+3. With the new artifact selected, type or paste the URL into the **Hyperlink** property.  
   
 > [!NOTE]
 >  You can double-click an Artifact to open the diagram or document to which it links.  
@@ -348,9 +348,9 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 ##### To refactor common goals from two or more use cases  
   
-1.  Create and name the new general use case.  
+1. Create and name the new general use case.  
   
-2.  Create a **Generalization** relation with the large arrow pointing at the new general use case.  
+2. Create a **Generalization** relation with the large arrow pointing at the new general use case.  
   
     1.  Click **Generalization** in the toolbox.  
   
@@ -358,9 +358,9 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
     3.  Click the general use case (**Pay** in the example).  
   
-3.  If you have described the goals for the specialized use cases, move the common parts into the description of the general use case.  
+3. If you have described the goals for the specialized use cases, move the common parts into the description of the general use case.  
   
-4.  Actors that are shared between the specialized use cases can be moved to the general use case.  
+4. Actors that are shared between the specialized use cases can be moved to the general use case.  
   
 ###  <a name="Extend"></a> Separating variant cases with Extend  
  Use an Extend link to show that one use case may add functionality to another use case under certain circumstances. The arrow should point at the main, extended use case.  

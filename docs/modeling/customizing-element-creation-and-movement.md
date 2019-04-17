@@ -143,21 +143,21 @@ By adding custom code to an EMD, you can define more complex merge behavior. Thi
 
 ### To write Custom Accept code to restrict what the user can add
 
-1.  Create a DSL by using the **Minimal Language** solution template. Open the DSL Definition diagram.
+1. Create a DSL by using the **Minimal Language** solution template. Open the DSL Definition diagram.
 
-2.  In DSL Explorer, expand **Domain Classes**, `ExampleModel`, **Element Merge Directives**. Select the element merge directive that is named `ExampleElement`.
+2. In DSL Explorer, expand **Domain Classes**, `ExampleModel`, **Element Merge Directives**. Select the element merge directive that is named `ExampleElement`.
 
      This EMD controls how the user can create new `ExampleElement` objects in the model, for example by dragging from the toolbox.
 
-3.  In the **DSL Details** window, select **Uses custom accept**.
+3. In the **DSL Details** window, select **Uses custom accept**.
 
-4.  Rebuild the solution. This will take longer than usual because the generated code will be updated from the model.
+4. Rebuild the solution. This will take longer than usual because the generated code will be updated from the model.
 
      A build error will be reported, similar to: "Company.ElementMergeSample.ExampleElement does not contain a definition for CanMergeExampleElement..."
 
      You must implement the method `CanMergeExampleElement`.
 
-5.  Create a new code file in the **Dsl** project. Replace its content with the following code and change the namespace to the namespace of your project.
+5. Create a new code file in the **Dsl** project. Replace its content with the following code and change the namespace to the namespace of your project.
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -186,7 +186,7 @@ By adding custom code to an EMD, you can define more complex merge behavior. Thi
 
     This simple example restricts the number of elements that can be merged into the parent model. For more interesting conditions, the method can inspect any of the properties and links of the receiving object. It can also inspect the properties of the merging elements, which are carried in a <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype>. For more information about `ElementGroupPrototypes`, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md). For more information about how to write code that reads a model, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-6.  Test the DSL:
+6. Test the DSL:
 
     1.  Press **F5** to rebuild the solution. When the experimental instance of Visual Studio opens, open an instance of your DSL.
 
@@ -212,19 +212,19 @@ In custom merge code, you can define what happens when the user drags a tool or 
 
 ### To override MergeRelate
 
-1.  In the DSL definition, make sure that you have defined the EMD to which you want to add code. If you want, you can add paths and define custom accept code as described in the previous sections.
+1. In the DSL definition, make sure that you have defined the EMD to which you want to add code. If you want, you can add paths and define custom accept code as described in the previous sections.
 
-2.  In the DslDefinition diagram, select the receiving class of the merge. Typically it is the class at the source end of an embedding relationship.
+2. In the DslDefinition diagram, select the receiving class of the merge. Typically it is the class at the source end of an embedding relationship.
 
      For example, in a DSL generated from the Minimal Language solution, select `ExampleModel`.
 
-3.  In the **Properties** window, set **Generates Double Derived** to **true**.
+3. In the **Properties** window, set **Generates Double Derived** to **true**.
 
-4.  Rebuild the solution.
+4. Rebuild the solution.
 
-5.  Inspect the content of **Dsl\Generated Files\DomainClasses.cs**. Search for methods named `MergeRelate` and examine their contents. This will help you write your own versions.
+5. Inspect the content of **Dsl\Generated Files\DomainClasses.cs**. Search for methods named `MergeRelate` and examine their contents. This will help you write your own versions.
 
-6.  In a new code file, write a partial class for the receiving class, and override the `MergeRelate` method. Remember to call the base method. For example:
+6. In a new code file, write a partial class for the receiving class, and override the `MergeRelate` method. Remember to call the base method. For example:
 
     ```csharp
     partial class ExampleModel

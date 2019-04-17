@@ -34,9 +34,9 @@ You can improve the quality of your application by running code analysis regular
   
 ##  <a name="BKMK_ConfigureRuleSets"></a> Configure rule sets for a project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project name and then choose **Properties**.  
+1. In **Solution Explorer**, open the shortcut menu for the project name and then choose **Properties**.  
   
-2.  The following steps are optional:  
+2. The following steps are optional:  
   
     1.  In the **Configuration** and **Platform** lists, choose the build configuration and target platform.  
   
@@ -45,9 +45,9 @@ You can improve the quality of your application by running code analysis regular
         > [!NOTE]
         >  This option does not suppress code analysis errors and warnings from generated code when the errors and warnings appear in forms and templates. You can both view and maintain the source code for a form or a template.  
   
-3.  To run code analysis every time the project is built using the selected configuration, select the **Enable Code Analysis for C/C++ on Build** check box. You can also run code analysis manually by opening the **Analyze** menu and then choosing **Run Code Analysis on** *ProjectName*.  
+3. To run code analysis every time the project is built using the selected configuration, select the **Enable Code Analysis for C/C++ on Build** check box. You can also run code analysis manually by opening the **Analyze** menu and then choosing **Run Code Analysis on** *ProjectName*.  
   
-4.  In the **Run this rule set** list, do one of the following:  
+4. In the **Run this rule set** list, do one of the following:  
   
     -   Choose the rule set that you want to use.  
   
@@ -108,19 +108,19 @@ You can improve the quality of your application by running code analysis regular
   
  **To create a work item for one or more C/C++ code warnings**  
   
-1.  In the Code Analysis window, expand and select the warnings  
+1. In the Code Analysis window, expand and select the warnings  
   
-2.  On the shortcut menu for the warnings, choose **Create Work Item**, and then choose the work item type.  
+2. On the shortcut menu for the warnings, choose **Create Work Item**, and then choose the work item type.  
   
-3.  Visual Studio creates a single work item for the selected warnings and displays the work item in a document window of the IDE.  
+3. Visual Studio creates a single work item for the selected warnings and displays the work item in a document window of the IDE.  
   
-4.  Add any additional information, and then choose **Save Work Item**.  
+4. Add any additional information, and then choose **Save Work Item**.  
   
 ##  <a name="BKMK_Search"></a> Searching and filtering code analysis results  
  You can search long lists of warning messages and you can filter warnings in multi-project solutions.  
   
-1.  **To filter warnings by title or warning id**: Enter the keyword in the **Filter** text box.  
+1. **To filter warnings by title or warning id**: Enter the keyword in the **Filter** text box.  
   
-2.  **To filter warnings by project**: In a multi-project solution, choose one or more projects in the list at the top right of the Code Analysis window. Choose the solution name to display all warnings.  
+2. **To filter warnings by project**: In a multi-project solution, choose one or more projects in the list at the top right of the Code Analysis window. Choose the solution name to display all warnings.  
   
-3.  **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. Choose either **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **All** to display all messages.
+3. **To filter warnings by severity**: By default, code analysis messages are assigned a severity of **Warning**. You can assign the severity of one or more messages as **Error** in a custom rule set. Choose either **Warning** or **Error** to display only the messages that are assigned the respective severity. Choose **All** to display all messages.

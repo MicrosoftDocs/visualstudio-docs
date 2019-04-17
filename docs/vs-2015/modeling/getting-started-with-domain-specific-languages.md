@@ -184,11 +184,11 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 ##### To rename domain classes, relationships and tools  
   
-1.  In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.  
+1. In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.  
   
      ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt-person.png "FamilyT_Person")  
   
-2.  Rename the element and connector tools.  
+2. Rename the element and connector tools.  
   
     1.  Open the DSL Explorer window by clicking the tab under Solution Explorer. If you cannot see it, on the **View** menu point to **Other Windows** and then click **DSL Explorer**. DSL Explorer is visible only when the DSL Definition diagram is the active window.  
   
@@ -204,7 +204,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     6.  In the same manner, change the name of the **ExampleConnector** tool to **ParentLink**. Alter the **Caption** property so that it is not a copy of the Name property. For example, enter **Parent Link**.  
   
-3.  Rebuild the DSL.  
+3. Rebuild the DSL.  
   
     1.  Save the DSL Definition file.  
   
@@ -212,15 +212,15 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     3.  Press F5. Wait until the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] appears.  
   
-4.  In the Debugging solution in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.  
+4. In the Debugging solution in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.  
   
-5.  Save the model file.  
+5. Save the model file.  
   
-6.  Open a .tt file and replace occurrences of the old type and property names with the new names.  
+6. Open a .tt file and replace occurrences of the old type and property names with the new names.  
   
-7.  Make sure that the file name that is specified in the .tt file specifies your test model.  
+7. Make sure that the file name that is specified in the .tt file specifies your test model.  
   
-8.  Save the .tt file. Open the generated file to see the result of running the code in the .tt file. Verify that it is correct.  
+8. Save the .tt file. Open the generated file to see the result of running the code in the .tt file. Verify that it is correct.  
   
 ### Add Domain Properties to Classes  
  Add properties to a domain class, for example to represent the years of birth and death of a Person.  
@@ -270,7 +270,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 ##### To add and display a new domain class  
   
-1.  Add a domain class and make it a child of the model root.  
+1. Add a domain class and make it a child of the model root.  
   
     1.  In the DSL Definition diagram, click the **Embedding Relationship** tool, click the root class **FamilyTreeModel**, and then click in an empty part of the diagram.  
   
@@ -283,7 +283,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     2.  Add a domain property to the new class, for example **Name**.  
   
-2.  Add a reference relationship between Person and Town.  
+2. Add a reference relationship between Person and Town.  
   
     1.  Click the **Reference Relationship** tool, click Person and then click Town.  
   
@@ -292,7 +292,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
         > [!NOTE]
         >  Reference relationships represent cross-references from one part of the model tree to another.  
   
-3.  Add a shape to represent towns on the model diagrams.  
+3. Add a shape to represent towns on the model diagrams.  
   
     1.  Drag a **Geometry Shape** from the toolbox to the diagram and rename it, for example **TownShape**.  
   
@@ -300,13 +300,13 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     3.  Add a Decorator to display the name of the town, and rename it NameDecorator. Set its Position property.  
   
-4.  Map the Town domain class to the TownShape.  
+4. Map the Town domain class to the TownShape.  
   
     1.  Click the **Diagram Element Map** tool, then click the Town domain class, and then the TownShape shape class.  
   
     2.  In the **Decorator Maps** tab of the **DSL Details** window with the map connector selected, check NameDecorator and set **Display Property** to Name.  
   
-5.  Create a connector to display the relationship between Person and Towns.  
+5. Create a connector to display the relationship between Person and Towns.  
   
     1.  Drag a Connector from the toolbox to the diagram. Rename it and set its appearance properties.  
   
@@ -314,7 +314,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
          ![Family Tree definition with added shape map](../modeling/media/familyt-shapemap.png "FamilyT_ShapeMap")  
   
-6.  Create an element tool for making a new Town.  
+6. Create an element tool for making a new Town.  
   
     1.  In **DSL Explorer**, expand **Editor** then **Toolbox Tabs**.  
   
@@ -324,7 +324,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     4.  Set the **Toolbox Icon** property. Click **[...]** and in the **File name** field, select an icon file.  
   
-7.  Create a connector tool for making a link between towns and people.  
+7. Create a connector tool for making a link between towns and people.  
   
     1.  Right-click *\<your DSL>* and then click **Add New Connector Tool**.  
   
@@ -334,7 +334,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
     4.  Set the **Toolbox Icon**.  
   
-8.  Save the DSL Definition, click **Transform All Templates**, and then press **F5**.  
+8. Save the DSL Definition, click **Transform All Templates**, and then press **F5**.  
   
 9. In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a test model file. Use the new tools to create towns and links between towns and persons. Notice that you can only create links between the correct types of element.  
   
@@ -388,9 +388,9 @@ This topic explains the basic concepts in defining and using a domain-specific l
   
 #### To reset the Visual Studio Experimental instance  
   
-1.  Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.  
+1. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.  
   
-2.  Rebuild any experimental DSLs or other experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions that you still want to use.  
+2. Rebuild any experimental DSLs or other experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensions that you still want to use.  
   
 ## See Also  
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   

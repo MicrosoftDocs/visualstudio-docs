@@ -77,9 +77,9 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
 ##  <a name="ChangeGraphStyle"></a> Change the style of the map  
  You can change the background color and border color of the map by editing the map's .dgml file. To change the style of code elements and links, see [Change the style of code elements and links](#Highlight).  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  In the `<DirectedGraph>` element, add any of the following attributes to change its style:  
+2. In the `<DirectedGraph>` element, add any of the following attributes to change its style:  
   
      Background color  
   
@@ -118,9 +118,9 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 ##### To apply a custom style to a single code element  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  Find the code element's `<Node/>` element. Add any of these attributes to customize its style:  
+2. Find the code element's `<Node/>` element. Add any of these attributes to customize its style:  
   
      Background color  
   
@@ -209,11 +209,11 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 ##### To apply a custom style to a single link  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  Find the `<Link/>` element that contains both the names of the source code element and target code element.  
+2. Find the `<Link/>` element that contains both the names of the source code element and target code element.  
   
-3.  In the `<Link/>` element, add any of the following attributes to customize its style:  
+3. In the `<Link/>` element, add any of the following attributes to customize its style:  
   
      Outline and arrowhead color  
   
@@ -370,11 +370,11 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
  In this example:  
   
-1.  If `Coverage` is > 80, then set the `Background` property to green.  
+1. If `Coverage` is > 80, then set the `Background` property to green.  
   
-2.  Else if `Coverage` is > 50, then set the `Background` property to a shade of orange based on the value of the `Coverage` property.  
+2. Else if `Coverage` is > 50, then set the `Background` property to a shade of orange based on the value of the `Coverage` property.  
   
-3.  Else set the `Background` property to a shade of red based on the value of the `Coverage` property.  
+3. Else set the `Background` property to a shade of red based on the value of the `Coverage` property.  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -437,9 +437,9 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 #### To assign a property to a code element  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  Find the `<Node/>` element for that code element. Specify the name of the property and its value. For example:  
+2. Find the `<Node/>` element for that code element. Specify the name of the property and its value. For example:  
   
     ```xml  
     <Nodes>  
@@ -447,7 +447,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </Nodes>  
     ```  
   
-3.  Add a `<Property/>` element to the `<Properties>` section to specify attributes such as its visible name and data type:  
+3. Add a `<Property/>` element to the `<Properties>` section to specify attributes such as its visible name and data type:  
   
     ```xml  
     <Properties>  
@@ -457,11 +457,11 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 #### To assign a property to a link  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  Find the `<Link/>` element that contains both the names of the source code element and target code element.  
+2. Find the `<Link/>` element that contains both the names of the source code element and target code element.  
   
-3.  In the `<Node/>` element, specify the name of the property and its value. For example:  
+3. In the `<Node/>` element, specify the name of the property and its value. For example:  
   
     ```xml  
     <Links>  
@@ -469,7 +469,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </Links>  
     ```  
   
-4.  Add a `<Property/>` element to the `<Properties>` section to specify attributes such as its visible name and data type:  
+4. Add a `<Property/>` element to the `<Properties>` section to specify attributes such as its visible name and data type:  
   
     ```xml  
     <Properties>  
@@ -504,11 +504,11 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 #### To assign a category to a link  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  Find the `<Link/>` element that contains both the names of the source code element and target code element.  
+2. Find the `<Link/>` element that contains both the names of the source code element and target code element.  
   
-3.  In the `<Link/>` element, add a `Category` attribute to specify the name of the category. For example:  
+3. In the `<Link/>` element, add a `Category` attribute to specify the name of the category. For example:  
   
     ```xml  
     <Links>  
@@ -516,7 +516,7 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
     </Links>  
     ```  
   
-4.  Add a `<Category/>` element to the `<Categories>` section so that you can use the `Label` attribute to specify the display text for that category:  
+4. Add a `<Category/>` element to the `<Categories>` section so that you can use the `Label` attribute to specify the display text for that category:  
   
     ```xml  
     <Categories>  
@@ -526,9 +526,9 @@ To customize a code map, you can edit a map's Directed Graph Markup Language (.d
   
 #### To create hierarchical categories  
   
-1.  Open the .dgml file in a text or XML editor.  
+1. Open the .dgml file in a text or XML editor.  
   
-2.  Add a `<Category/>` element for the parent category, and then add the `BasedOn` attribute to the child category's `<Category/>` element.  
+2. Add a `<Category/>` element for the parent category, and then add the `BasedOn` attribute to the child category's `<Category/>` element.  
   
      For example:  
   

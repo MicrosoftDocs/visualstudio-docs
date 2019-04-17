@@ -91,17 +91,17 @@ Go to specific points in your application's execution when you start debugging f
 
 ##### To start debugging from a performance event
 
-1.  Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.
+1. Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.
 
      ![View performance event details](../debugger/media/ffr_itsummarypageperformance.png "FFR_ITSummaryPagePerformance")
 
      You can also just double-click the event.
 
-2.  On the event page, review the execution times for these calls. Find a slow call in the execution tree.
+2. On the event page, review the execution times for these calls. Find a slow call in the execution tree.
 
      The slowest calls appear in their own section when you have multiple calls, nested or otherwise.
 
-3.  Expand that call to review any nested calls and parameter values that were recorded at that point in time.
+3. Expand that call to review any nested calls and parameter values that were recorded at that point in time.
 
      (Keyboard: To show or hide a nested call, press the **Right Arrow** or **Left Arrow** key respectively. To show and hide parameter values for a nested call, press the **Space** key.)
 
@@ -122,7 +122,7 @@ Go to specific points in your application's execution when you start debugging f
 
 ##### To start debugging from an exception
 
-1.  Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.
+1. Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.
 
      ![Start debugging from exception event](../debugger/media/ffr_itsummarypageexception.png "FFR_ITSummaryPageException")
 
@@ -227,9 +227,9 @@ Go to specific points in your application's execution when you start debugging f
 
 ##### To start debugging from a specific test step
 
-1.  Expand **Test Steps Grid**. Choose a test step.
+1. Expand **Test Steps Grid**. Choose a test step.
 
-2.  At the bottom of **Test Steps Grid**, choose **Start Debugging**. You can also double-click a test step.
+2. At the bottom of **Test Steps Grid**, choose **Start Debugging**. You can also double-click a test step.
 
      This starts debugging from the first valid IntelliTrace event after the selected test step.
 

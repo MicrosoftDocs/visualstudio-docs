@@ -23,19 +23,19 @@ ms.workload:
 
 ### To add a custom property
 
-1.  In the **BDC Explorer**, choose the node that represents the model element to which you want to apply a custom property.
+1. In the **BDC Explorer**, choose the node that represents the model element to which you want to apply a custom property.
 
-2.  On the menu bar, choose **View** > **Properties Window**.
+2. On the menu bar, choose **View** > **Properties Window**.
 
-3.  In the **Properties** window, choose the **Custom Properties** property, and then choose the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).
+3. In the **Properties** window, choose the **Custom Properties** property, and then choose the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).
 
      The **Property Editor** dialog box appears.
 
-4.  In the text box in the **Name** column, specify the name of the property.
+4. In the text box in the **Name** column, specify the name of the property.
 
-5.  For the **Type** field of the custom property, choose the appropriate data type.
+5. For the **Type** field of the custom property, choose the appropriate data type.
 
-6.  For the **Value** field of the custom property, specify a value, and then choose the **OK** button.
+6. For the **Value** field of the custom property, specify a value, and then choose the **OK** button.
 
 ## See also
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

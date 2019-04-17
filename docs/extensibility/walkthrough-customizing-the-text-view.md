@@ -31,11 +31,11 @@ You can customize a text view by modifying any of the following properties in it
 
 ## Create a MEF project
 
-1.  Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `ViewPropertyTest`.
+1. Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `ViewPropertyTest`.
 
-2.  Add an Editor Classifier item template to the project. For more information, see [Create an extension with an editor item template](../extensibility/creating-an-extension-with-an-editor-item-template.md).
+2. Add an Editor Classifier item template to the project. For more information, see [Create an extension with an editor item template](../extensibility/creating-an-extension-with-an-editor-item-template.md).
 
-3.  Delete the existing class files.
+3. Delete the existing class files.
 
 ## Define the content type
 
@@ -62,28 +62,28 @@ You can customize a text view by modifying any of the following properties in it
 
 ## Change the view properties
 
-1.  Set up the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> method so that the view properties are changed when the view is opened. To make the change, first find the <xref:System.Windows.ResourceDictionary> that corresponds to the aspect of the view you want to find. Then, change the appropriate property in the resource dictionary and set the properties. Batch the calls to the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.SetProperties%2A> method by calling the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.BeginBatchUpdate%2A> method before you set the properties and then the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.EndBatchUpdate%2A> after you set the properties.
+1. Set up the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated%2A> method so that the view properties are changed when the view is opened. To make the change, first find the <xref:System.Windows.ResourceDictionary> that corresponds to the aspect of the view you want to find. Then, change the appropriate property in the resource dictionary and set the properties. Batch the calls to the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.SetProperties%2A> method by calling the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.BeginBatchUpdate%2A> method before you set the properties and then the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.EndBatchUpdate%2A> after you set the properties.
 
      [!code-csharp[VSSDKViewPropertyTest#4](../extensibility/codesnippet/CSharp/walkthrough-customizing-the-text-view_4.cs)]
      [!code-vb[VSSDKViewPropertyTest#4](../extensibility/codesnippet/VisualBasic/walkthrough-customizing-the-text-view_4.vb)]
 
 ## Build and test the code
 
-1.  Build the solution.
+1. Build the solution.
 
      When you run this project in the debugger, a second instance of Visual Studio is started.
 
-2.  Create a text file and type some text.
+2. Create a text file and type some text.
 
     -   The insertion caret should be magenta and the overwrite caret should be turquoise.
 
     -   The indicator margin (to the left of the text view) should be light green.
 
-3.  Select the text you typed. The color of the selected text should be light pink.
+3. Select the text you typed. The color of the selected text should be light pink.
 
-4.  While the text is selected, click anywhere outside the text window. The color of the selected text should be dark pink.
+4. While the text is selected, click anywhere outside the text window. The color of the selected text should be dark pink.
 
-5.  Turn on visible whitespace. (On the **Edit** menu, point to **Advanced** and then click **View White Space**). Type some tabs in the text. Red arrows that represent the tabs should be displayed.
+5. Turn on visible whitespace. (On the **Edit** menu, point to **Advanced** and then click **View White Space**). Type some tabs in the text. Red arrows that represent the tabs should be displayed.
 
 ## See also
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)

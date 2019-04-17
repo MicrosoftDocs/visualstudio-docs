@@ -124,8 +124,8 @@ When your DSL is installed by this method, the user can open a DSL file from wit
 
 ### To uninstall a DSL that was installed from an MSI
 
-1.  In Windows, open the **Programs and Features** control panel.
+1. In Windows, open the **Programs and Features** control panel.
 
-2.  Uninstall the DSL.
+2. Uninstall the DSL.
 
-3.  Restart Visual Studio.
+3. Restart Visual Studio.

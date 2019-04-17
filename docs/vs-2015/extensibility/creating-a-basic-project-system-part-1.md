@@ -277,26 +277,26 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 #### To initialize the project factory  
   
-1.  In the SimpleProjectPackage.cs file, add the following `using` statement.  
+1. In the SimpleProjectPackage.cs file, add the following `using` statement.  
   
     ```  
     using Microsoft.VisualStudio.Project;  
     ```  
   
-2.  Derive the `SimpleProjectPackage` class from `Microsoft.VisualStudio.Package.ProjectPackage`.  
+2. Derive the `SimpleProjectPackage` class from `Microsoft.VisualStudio.Package.ProjectPackage`.  
   
     ```  
     public sealed class SimpleProjectPackage : ProjectPackage  
     ```  
   
-3.  Register the project factory. Add the following line to the `SimpleProjectPackage.Initialize` method, just after `base.Initialize`.  
+3. Register the project factory. Add the following line to the `SimpleProjectPackage.Initialize` method, just after `base.Initialize`.  
   
     ```  
     base.Initialize();  
     this.RegisterProjectFactory(new SimpleProjectFactory(this));  
     ```  
   
-4.  Implement the abstract property `ProductUserContext`:  
+4. Implement the abstract property `ProductUserContext`:  
   
     ```csharp  
     public override string ProductUserContext  
@@ -305,19 +305,19 @@ In Visual Studio, projects are the containers that developers use to organize so
     }  
     ```  
   
-5.  In SimpleProjectFactory.cs, add the following `using` statement after the existing `using` statements.  
+5. In SimpleProjectFactory.cs, add the following `using` statement after the existing `using` statements.  
   
     ```  
     using Microsoft.VisualStudio.Project;  
     ```  
   
-6.  Derive the `SimpleProjectFactory` class from `ProjectFactory`.  
+6. Derive the `SimpleProjectFactory` class from `ProjectFactory`.  
   
     ```  
     class SimpleProjectFactory : ProjectFactory  
     ```  
   
-7.  Add the following dummy method to the `SimpleProjectFactory` class. You will implement this method in a later section.  
+7. Add the following dummy method to the `SimpleProjectFactory` class. You will implement this method in a later section.  
   
     ```  
     protected override ProjectNode CreateProject()  
@@ -326,7 +326,7 @@ In Visual Studio, projects are the containers that developers use to organize so
     }  
     ```  
   
-8.  Add the following field and constructor to the `SimpleProjectFactory` class. This `SimpleProjectPackage` reference is cached in a private field so that it can be used in setting a service provider site.  
+8. Add the following field and constructor to the `SimpleProjectFactory` class. This `SimpleProjectPackage` reference is cached in a private field so that it can be used in setting a service provider site.  
   
     ```  
     private SimpleProjectPackage package;  
@@ -345,17 +345,17 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 #### To test the project factory implementation  
   
-1.  In the SimpleProjectFactory.cs file, set a breakpoint on the following line in the `SimpleProjectFactory` constructor.  
+1. In the SimpleProjectFactory.cs file, set a breakpoint on the following line in the `SimpleProjectFactory` constructor.  
   
     ```  
     this.package = package;  
     ```  
   
-2.  Press F5 to start an experimental instance of Visual Studio.  
+2. Press F5 to start an experimental instance of Visual Studio.  
   
-3.  In the experimental instance, start to create a new project.In the **New Project** dialog box, select the SimpleProject project type and then click **OK**. Execution stops at the breakpoint.  
+3. In the experimental instance, start to create a new project.In the **New Project** dialog box, select the SimpleProject project type and then click **OK**. Execution stops at the breakpoint.  
   
-4.  Clear the breakpoint and stop debugging. Since we have not created a project node yet, the project creation code still throws exceptions.  
+4. Clear the breakpoint and stop debugging. Since we have not created a project node yet, the project creation code still throws exceptions.  
   
 ## Extending the Project Node Class  
  Now you can implement the `SimpleProjectNode` class, which derives from the `ProjectNode` class. The `ProjectNode` base class handles the following tasks of project creation:  
@@ -426,13 +426,13 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 #### To connect the project factory class and the node class  
   
-1.  In the SimpleProjectFactory.cs file, add the following `using` statement:  
+1. In the SimpleProjectFactory.cs file, add the following `using` statement:  
   
     ```  
     using IOleServiceProvider =    Microsoft.VisualStudio.OLE.Interop.IServiceProvider;  
     ```  
   
-2.  Replace the `SimpleProjectFactory.CreateProject` method by using the following code.  
+2. Replace the `SimpleProjectFactory.CreateProject` method by using the following code.  
   
     ```  
     protected override ProjectNode CreateProject()  
@@ -444,18 +444,18 @@ In Visual Studio, projects are the containers that developers use to organize so
     }  
     ```  
   
-3.  Rebuild the solution and verify that it builds without errors.  
+3. Rebuild the solution and verify that it builds without errors.  
   
 ## Testing the Project Node Class  
  Test your project factory to see whether it creates a project hierarchy.  
   
 #### To test the project node class  
   
-1.  Press F5 to start debugging. In the experimental instance, create a new SimpleProject.  
+1. Press F5 to start debugging. In the experimental instance, create a new SimpleProject.  
   
-2.  Visual Studio should call your project factory to create a project.  
+2. Visual Studio should call your project factory to create a project.  
   
-3.  Close the experimental instance of Visual Studio.  
+3. Close the experimental instance of Visual Studio.  
   
 ## Adding a Custom Project Node Icon  
  The project node icon in the earlier section is a default icon. You can change it to a custom icon.  
@@ -537,13 +537,13 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 #### To test the custom project node icon  
   
-1.  Start debugging, and in the experimental instance create a new SimpleProject.  
+1. Start debugging, and in the experimental instance create a new SimpleProject.  
   
-2.  In the newly-created project, notice that SimpleProjectNode.bmp is used as the project node icon.  
+2. In the newly-created project, notice that SimpleProjectNode.bmp is used as the project node icon.  
   
      ![Simple Project New Project Node](../extensibility/media/simpleprojnewprojectnode.png "SimpleProjNewProjectNode")  
   
-3.  Open Program.cs in the code editor. You should see source code that resembles the following code.  
+3. Open Program.cs in the code editor. You should see source code that resembles the following code.  
   
     ```  
     using System;  

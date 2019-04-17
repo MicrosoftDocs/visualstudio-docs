@@ -30,11 +30,11 @@ The following example shows how to add data-bound controls in document-level pro
 
 ### To populate a document with data from a database
 
-1.  Open a Word document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], with the document open in the designer.
+1. Open a Word document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], with the document open in the designer.
 
-2.  Open the **Data Sources** window and create a data source from a database. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+2. Open the **Data Sources** window and create a data source from a database. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-3.  Drag the field you want from the **Data Sources** window to your document.
+3. Drag the field you want from the **Data Sources** window to your document.
 
 A content control is added to the document. The type of content control depends on the data type of the field you selected. For more information, see [Content controls](../vsto/content-controls.md).
 

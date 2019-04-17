@@ -106,7 +106,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Do one of the following to detach the profiler from the target application:  
+1. Do one of the following to detach the profiler from the target application:  
 
     -   Stop the service.  
 
@@ -114,15 +114,15 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     -   Type **VSPerfCmd /detach**  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  (Optional) Clear the profiling environment variables. Type:  
+3. (Optional) Clear the profiling environment variables. Type:  
 
      **VSPerfClrEnv /globaloff**  
 
-4.  Restart the computer.  
+4. Restart the computer.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

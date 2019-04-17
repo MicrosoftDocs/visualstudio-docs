@@ -39,27 +39,27 @@ Applies to Windows and console applications.
   
 ### To choose a zone for your partial-trust application  
   
-1.  From the **Project** menu, choose _Projectname_**Properties**.  
+1. From the **Project** menu, choose _Projectname_**Properties**.  
   
-2.  In the *Projectname* property pages, click the **Security** page.  
+2. In the *Projectname* property pages, click the **Security** page.  
   
-3.  Select **Enable ClickOnce Security Settings**.  
+3. Select **Enable ClickOnce Security Settings**.  
   
-4.  Under **Zone your application will be installed from**, click the drop-down listbox and choose the zone you want to simulate the application being installed from.  
+4. Under **Zone your application will be installed from**, click the drop-down listbox and choose the zone you want to simulate the application being installed from.  
   
      The **Permissions required by the application** grid shows all available permissions. The check mark indicates permissions granted to your application.  
   
-5.  If the zone you choose was **(Custom)**, select the correct custom settings in the **Setting** column of the **Permissions** grid.  
+5. If the zone you choose was **(Custom)**, select the correct custom settings in the **Setting** column of the **Permissions** grid.  
   
-6.  Click **OK** to close the property pages.  
+6. Click **OK** to close the property pages.  
   
 ### To add an extra permission when a security exception occurs  
   
-1.  The **Exception Assistant** dialog box appears with the message: **SecurityException was unhandled.**  
+1. The **Exception Assistant** dialog box appears with the message: **SecurityException was unhandled.**  
   
-2.  In the **Exception Assistant** dialog box, under **Actions**, click **Add Permission to the Project**.  
+2. In the **Exception Assistant** dialog box, under **Actions**, click **Add Permission to the Project**.  
   
-3.  The **Restart Debug** dialog box appears.  
+3. The **Restart Debug** dialog box appears.  
   
     -   If you want to restart the debugging session with the new permission, click **Yes**.  
   
@@ -67,13 +67,13 @@ Applies to Windows and console applications.
   
 ### To view extra permissions added while debugging  
   
-1.  From the **Project** menu, choose _Projectname_**Properties**.  
+1. From the **Project** menu, choose _Projectname_**Properties**.  
   
-2.  In the *Projectname* property pages, click the **Security** page.  
+2. In the *Projectname* property pages, click the **Security** page.  
   
-3.  Look at the **Permissions required by the application** grid. Any extra permission you added has two icons in the **Included** column: the normal checkmark, which all included permissions have, and an additional icon, which looks like a balloon containing the letter "i".  
+3. Look at the **Permissions required by the application** grid. Any extra permission you added has two icons in the **Included** column: the normal checkmark, which all included permissions have, and an additional icon, which looks like a balloon containing the letter "i".  
   
-4.  Use the vertical scrollbar to view the entire **Permissions required by the application** grid.  
+4. Use the vertical scrollbar to view the entire **Permissions required by the application** grid.  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   

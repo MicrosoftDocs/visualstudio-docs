@@ -20,7 +20,7 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
   
 ### To verify whether the answers are correct  
   
-1.  Add the `CheckTheAnswer()` method.  
+1. Add the `CheckTheAnswer()` method.  
   
      When this method is called, it adds the values of addend1 and addend2 and compares the result to the value in the sum `NumericUpDown` control. If the values are equal, the method returns a value of `true`. Otherwise, the method returns a value of `false`. Your code should look like the following.  
   
@@ -29,14 +29,14 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
   
      Next, you'll check the answer by updating the code in the method for the timer's Tick event handler to call the new `CheckTheAnswer()` method.  
   
-2.  Add the following code to the `if else` statement.  
+2. Add the following code to the `if else` statement.  
   
      [!code-csharp[VbExpressTutorial3Step4#10](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step4/cs/form1.cs#10)]
      [!code-vb[VbExpressTutorial3Step4#10](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step4/vb/form1.vb#10)]  
   
      If the answer is correct, `CheckTheAnswer()` returns `true`. The event handler stops the timer, shows a congratulatory message, and then makes the **Start** button available again. Otherwise, the quiz continues.  
   
-3.  Save your program, run it, start a quiz, and provide a correct answer to the addition problem.  
+3. Save your program, run it, start a quiz, and provide a correct answer to the addition problem.  
   
     > [!NOTE]
     >  When you enter your answer, you must either select the default value before you start to enter your answer, or you must delete the zero manually. You'll correct this behavior later in this tutorial.  

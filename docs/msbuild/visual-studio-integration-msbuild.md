@@ -125,17 +125,17 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 
 #### To unload and edit a project file in Visual Studio
 
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Unload Project**.
 
      The project is marked **(unavailable)**.
 
-2.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
+2. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Edit \<Project File>**.
 
      The project file opens in the Visual Studio XML Editor.
 
-3.  Edit, save, and then close the project file.
+3. Edit, save, and then close the project file.
 
-4.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
+4. In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.
 
 ## IntelliSense and validation
  When using the XML editor to edit project files, IntelliSense and validation is driven by the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] schema files. These are installed in the schema cache, which can be found in *\<Visual Studio installation directory>\Xml\Schemas\1033\MSBuild*.

@@ -35,14 +35,14 @@ ms.workload:
 
 ### To add a row to a table
 
-1.  Use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method to add a row to the table.
+1. Use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method to add a row to the table.
 
      [!code-vb[Trin_VstcoreWordAutomation#95](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#95)]
      [!code-csharp[Trin_VstcoreWordAutomation#95](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#95)]
 
 ### To add a column to a table
 
-1.  Use the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method, and then use the <xref:Microsoft.Office.Interop.Word.Columns.DistributeWidth%2A> method to make all the columns the same width.
+1. Use the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method, and then use the <xref:Microsoft.Office.Interop.Word.Columns.DistributeWidth%2A> method to make all the columns the same width.
 
      [!code-vb[Trin_VstcoreWordAutomation#96](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#96)]
      [!code-csharp[Trin_VstcoreWordAutomation#96](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#96)]
@@ -57,14 +57,14 @@ ms.workload:
 
 ### To add a row to a table
 
-1.  Use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method to add a row to the table.
+1. Use the <xref:Microsoft.Office.Interop.Word.Rows.Add%2A> method to add a row to the table.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#95](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#95)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#95](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#95)]
 
 ### To add a column to a table
 
-1.  Use the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method, and then use the <xref:Microsoft.Office.Interop.Word.Columns.DistributeWidth%2A> method to make all the columns the same width.
+1. Use the <xref:Microsoft.Office.Interop.Word.Columns.Add%2A> method, and then use the <xref:Microsoft.Office.Interop.Word.Columns.DistributeWidth%2A> method to make all the columns the same width.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#96](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#96)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#96](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#96)]

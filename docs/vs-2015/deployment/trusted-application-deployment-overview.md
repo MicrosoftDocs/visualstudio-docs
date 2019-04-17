@@ -52,15 +52,15 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
   
   You must follow these steps to take advantage of Trusted Application Deployment:  
   
-1.  Obtain a certificate for the publisher.  
+1. Obtain a certificate for the publisher.  
   
-2.  Add the publisher to the trusted publishers store on all clients.  
+2. Add the publisher to the trusted publishers store on all clients.  
   
-3.  Create your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
+3. Create your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application.  
   
-4.  Sign the deployment manifest with the publisher's certificate.  
+4. Sign the deployment manifest with the publisher's certificate.  
   
-5.  Publish the application deployment to client computers.  
+5. Publish the application deployment to client computers.  
   
 ### Obtain a Certificate for the Publisher  
  Digital certificates are a core component of the Microsoft Authenticode authentication and security system. Authenticode is a standard part of the Windows operating system. All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications must be signed with a digital certificate, regardless of whether they participate in Trusted Application Deployment. For a full explanation of how Authenticode works with [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], see [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md).  

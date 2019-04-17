@@ -54,13 +54,13 @@ ms.workload:
 
  These errors can occur you try to create a project that is based on a workbook that had its personal information removed by using the Document Inspector. To avoid this error, perform the following steps before creating the project.
 
-1.  Open the workbook in Excel.
+1. Open the workbook in Excel.
 
-2.  In Excel, open the Trust Center.
+2. In Excel, open the Trust Center.
 
-3.  On the **Privacy Options** tab clear the **Remove personal information from file properties on save** check box.
+3. On the **Privacy Options** tab clear the **Remove personal information from file properties on save** check box.
 
-4.  Save the workbook and close Excel.
+4. Save the workbook and close Excel.
 
 ### Cannot open a project after migration
  After an Office solution is migrated to Microsoft Office 2010, the project cannot be opened on a development computer with only the 2007 Microsoft Office system installed. You may see the following errors.

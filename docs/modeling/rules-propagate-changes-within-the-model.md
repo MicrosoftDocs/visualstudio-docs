@@ -139,19 +139,19 @@ namespace ExampleNamespace
 
   Notice the following points about rules:
 
-1.  The set of changes in a transaction might trigger many rules. Usually, the rules are executed when the outermost transaction is committed. They are executed in an unspecified order.
+1. The set of changes in a transaction might trigger many rules. Usually, the rules are executed when the outermost transaction is committed. They are executed in an unspecified order.
 
-2.  A rule is always executed inside a transaction. Therefore, you do not have to create a new transaction to make changes.
+2. A rule is always executed inside a transaction. Therefore, you do not have to create a new transaction to make changes.
 
-3.  Rules are not executed when a transaction is rolled back, or when the Undo or Redo operations are performed. These operations reset all the content of the Store to its previous state. Therefore, if your rule changes the state of anything outside the Store, it might not keep in synchronism with the Store content. To update state outside the Store, it is better to use Events. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
+3. Rules are not executed when a transaction is rolled back, or when the Undo or Redo operations are performed. These operations reset all the content of the Store to its previous state. Therefore, if your rule changes the state of anything outside the Store, it might not keep in synchronism with the Store content. To update state outside the Store, it is better to use Events. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
 
-4.  Some rules are executed when a model is loaded from file. To determine whether loading or saving is in progress, use `store.TransactionManager.CurrentTransaction.IsSerializing`.
+4. Some rules are executed when a model is loaded from file. To determine whether loading or saving is in progress, use `store.TransactionManager.CurrentTransaction.IsSerializing`.
 
-5.  If the code of your rule creates more rule triggers, they will be added to the end of the firing list, and will be executed before the transaction completes. DeletedRules are executed after all other rules. One rule can run many times in a transaction, one time for each change.
+5. If the code of your rule creates more rule triggers, they will be added to the end of the firing list, and will be executed before the transaction completes. DeletedRules are executed after all other rules. One rule can run many times in a transaction, one time for each change.
 
-6.  To pass information to and from rules, you can store information in the `TransactionContext`. This is just a dictionary that is maintained during the transaction. It is disposed when the transaction ends. The event arguments in each rule provide access to it. Remember that rules are not executed in a predictable order.
+6. To pass information to and from rules, you can store information in the `TransactionContext`. This is just a dictionary that is maintained during the transaction. It is disposed when the transaction ends. The event arguments in each rule provide access to it. Remember that rules are not executed in a predictable order.
 
-7.  Use rules after considering other alternatives. For example, if you want to update a property when a value changes, consider using a calculated property. If you want to constrain the size or location of a shape, use a `BoundsRule`. If you want to respond to a change in a property value, add an `OnValueChanged` handler to the property. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
+7. Use rules after considering other alternatives. For example, if you want to update a property when a value changes, consider using a calculated property. If you want to constrain the size or location of a shape, use a `BoundsRule`. If you want to respond to a change in a property value, add an `OnValueChanged` handler to the property. For more information, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
 
 ## Example
  The following example updates a property when a domain relationship is instantiated to link two elements. The rule will be triggered not only when the user creates a link on a diagram, but also if program code creates a link.

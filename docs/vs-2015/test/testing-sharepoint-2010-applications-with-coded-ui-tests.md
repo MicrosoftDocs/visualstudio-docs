@@ -56,14 +56,14 @@ uiGridKeyboardInputEdit.Text=value;
   
  If you are recording actions on a non-empty cell, then recording gets a little more complicated, because the moment you add text to a cell, a new \<div> control is added as a child of the cell. The new \<div> control contains the text that you just entered. The recorder needs to record actions on the new \<div> control; however, it can’t because the new \<div> control does not exist until after the test is entered. You must manually make the following code changes to accommodate this issue.  
   
-1.  Go to cell initialization and make `RowIndex` and `ColumnIndex` primary properties:  
+1. Go to cell initialization and make `RowIndex` and `ColumnIndex` primary properties:  
   
     ```csharp  
     this.mUIItemCell.SearchProperties[HtmlCell.PropertyNames. RowIndex] = "3";   
     this.mUIItemCell.SearchProperties[HtmlCell.PropertyNames. ColumnIndex] = "3";  
     ```  
   
-2.  Find the `HtmlDiv` child of the cell:  
+2. Find the `HtmlDiv` child of the cell:  
   
     ```csharp  
     private UITestControl getControlToDoubleClick(HtmlCell cell)   
@@ -79,13 +79,13 @@ uiGridKeyboardInputEdit.Text=value;
   
     ```  
   
-3.  Add code for a mouse double-click action on `HtmlDiv`:  
+3. Add code for a mouse double-click action on `HtmlDiv`:  
   
     ```csharp  
     Mouse.DoubleClick(uIItemPane, new Point(31, 14)); )  
     ```  
   
-4.  Add code to set text on `TextArea`:  
+4. Add code to set text on `TextArea`:  
   
     ```csharp  
     uIGridKeyboardInputEdit.Text = value; }  
@@ -108,15 +108,15 @@ uiGridKeyboardInputEdit.Text=value;
   
 #### Testing Silverlight web parts  
   
-1.  Start Fiddler.  
+1. Start Fiddler.  
   
-2.  Clear the browser cache. This is necessary because the XAP file, which contains the Silverlight UI Automation Helper DLL, is typically cached. We have to make sure that the modified XAP file is picked up, so we clear the browser cache.  
+2. Clear the browser cache. This is necessary because the XAP file, which contains the Silverlight UI Automation Helper DLL, is typically cached. We have to make sure that the modified XAP file is picked up, so we clear the browser cache.  
   
-3.  Open the web page.  
+3. Open the web page.  
   
-4.  Start the recorder and generate code like you would for a regular web application testing.  
+4. Start the recorder and generate code like you would for a regular web application testing.  
   
-5.  You should confirm that the generated code references the Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll.  
+5. You should confirm that the generated code references the Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll.  
   
      For more information, see [UI Testing SharePoint 2010 with Visual Studio 2012](http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/01/ui-testing-sharepoint-2010-with-visual-studio-2012.aspx)  
   

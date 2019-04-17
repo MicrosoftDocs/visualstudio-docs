@@ -68,9 +68,9 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To switch to another stack frame  
   
-1.  In the **Call Stack** window, right-click the frame whose code and data that you want to view.  
+1. In the **Call Stack** window, right-click the frame whose code and data that you want to view.  
   
-2.  Select **Switch to Frame**.  
+2. Select **Switch to Frame**.  
   
      A green arrow with a curly tail appears next to the frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.  
   
@@ -84,7 +84,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To visually trace the call stack  
   
-1.  In the **Call Stack** window, open the shortcut menu. Choose **Show Call Stack on Code Map**. (Keyboard: **CTRL** + **SHIFT** + **`**)  
+1. In the **Call Stack** window, open the shortcut menu. Choose **Show Call Stack on Code Map**. (Keyboard: **CTRL** + **SHIFT** + **`**)  
   
      See [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
   
@@ -111,25 +111,25 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 #### To load symbols  
   
-1.  In the **Call Stack** window, right-click the frame for which symbols are not loaded. The frame will be dimmed.  
+1. In the **Call Stack** window, right-click the frame for which symbols are not loaded. The frame will be dimmed.  
   
-2.  Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
+2. Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
   
 #### To set the symbol path  
   
-1.  In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.  
+1. In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.  
   
      The **Options** dialog box opens and the **Symbols** page is displayed.  
   
-2.  Click **Symbol Settings**.  
+2. Click **Symbol Settings**.  
   
-3.  In the **Options** dialog box, click the Folder icon.  
+3. In the **Options** dialog box, click the Folder icon.  
   
      In the **Symbol file (.pdb) locations** box, a cursor appears.  
   
-4.  Type a directory pathname to the symbol location on the computer that you are debugging. For local debugging, this is your local computer. For remote debugging, it is the remote computer.  
+4. Type a directory pathname to the symbol location on the computer that you are debugging. For local debugging, this is your local computer. For remote debugging, it is the remote computer.  
   
-5.  Click **OK** to close the **Options** dialog box.  
+5. Click **OK** to close the **Options** dialog box.  
   
 ## See Also  
  [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)   

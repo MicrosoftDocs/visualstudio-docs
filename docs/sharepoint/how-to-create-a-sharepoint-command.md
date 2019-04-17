@@ -20,7 +20,7 @@ ms.workload:
 
 ### To create a SharePoint command
 
-1.  Create a class library project that has the following configuration:
+1. Create a class library project that has the following configuration:
 
     -   Targets the .NET Framework 3.5. For more information about selecting the target framework, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
@@ -29,13 +29,13 @@ ms.workload:
     > [!NOTE]
     >  You cannot implement a SharePoint command in the same project that defines a SharePoint tools extension, because SharePoint commands target the .NET Framework 3.5 and SharePoint tools extensions target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. You must define any SharePoint commands that are used by your extension in a separate project. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
-2.  Add references to the following assemblies:
+2. Add references to the following assemblies:
 
     -   Microsoft.VisualStudio.SharePoint.Commands
 
     -   Microsoft.SharePoint
 
-3.  In a class in the project, create a method that defines your SharePoint command. The method must conform to the following guidelines:
+3. In a class in the project, create a method that defines your SharePoint command. The method must conform to the following guidelines:
 
     -   It can have one or two parameters.
 
@@ -49,7 +49,7 @@ ms.workload:
 
     -   The method can have any visibility (**public**, **internal**, or **private**), and it can be static or non-static.
 
-4.  Apply the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> to the method. This attribute specifies a unique identifier for the command; this identifier does not have to match the method name.
+4. Apply the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> to the method. This attribute specifies a unique identifier for the command; this identifier does not have to match the method name.
 
      You must specify the same unique identifier when you call the command from your SharePoint tools extension. For more information, see [How to: Execute a SharePoint command](../sharepoint/how-to-execute-a-sharepoint-command.md).
 

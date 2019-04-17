@@ -25,11 +25,11 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To attach the profiler to a .NET Framework service
 
-1.  Install the service.
+1. Install the service.
 
-2.  Open a command window.
+2. Open a command window.
 
-3.  Initialize the profiling environment variables. Type:
+3. Initialize the profiling environment variables. Type:
 
      [VSPerfClrEnv](../profiling/vsperfclrenv.md) **/globalsampleon** [**/samplelineoff**]
 
@@ -37,9 +37,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     -   **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.
 
-4.  Restart the computer.
+4. Restart the computer.
 
-5.  Start the profiler. Type:
+5. Start the profiler. Type:
 
      [VSPerfCmd](../profiling/vsperfcmd.md) **/start:concurrency  /output:** `OutputFile` [`Options`]
 
@@ -58,9 +58,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.|
     |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file.|
 
-6.  If necessary, start the service.
+6. If necessary, start the service.
 
-7.  Attach the profiler to the service. Type:
+7. Attach the profiler to the service. Type:
 
      **VSPerfCmd /attach:** `PID` [[/targetclr](../profiling/targetclr.md)**:**`Version`]
 
@@ -88,7 +88,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application.
+1. Do one of the following to detach the profiler from the target application.
 
     -   Stop the service.
 
@@ -96,6 +96,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     -   Type **VSPerfCmd /detach.**
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd**  [Shutdown](../profiling/shutdown.md)

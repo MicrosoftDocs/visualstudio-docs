@@ -87,9 +87,9 @@ using System.Linq;
   
 #### To define a MEF gesture handler  
   
-1.  Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).  
+1. Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).  
   
-2.  You can now define a gesture handler as a MEF component:  
+2. You can now define a gesture handler as a MEF component:  
   
     ```  
   
@@ -123,7 +123,7 @@ using System.Linq;
   
      You can create more than one gesture handler component, such as when you have different types of dragged objects.  
   
-3.  Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#extracting).  
+3. Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#extracting).  
   
 ##  <a name="extracting"></a> How to decode the dragged item  
  When the user drags an item onto your diagram, or from one part of your diagram to another, information about the item that is being dragged is available in `DiagramDragEventArgs`. Because the drag operation could have started at any object on the screen, the data can be available in any one of a variety of formats. Your code must recognize the formats with which it is capable of dealing.  
@@ -162,7 +162,7 @@ using System.Linq;
   
 ### To prepare a DSL project for Model Bus  
   
-1.  Make the source DSL accessible by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Bus:  
+1. Make the source DSL accessible by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Model Bus:  
   
     1.  Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).  
   
@@ -172,7 +172,7 @@ using System.Linq;
   
 ###  <a name="mbr"></a> To send an object from a source DSL  
   
-1.  In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.  
+1. In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.  
   
     ```  
   
@@ -214,13 +214,13 @@ using System.Linq;
   
 ### To receive a Model Bus Reference from a DSL in a target DSL or UML project  
   
-1.  In the target DSL project, add project references to:  
+1. In the target DSL project, add project references to:  
   
     -   The source Dsl project.  
   
     -   The source ModelBus project.  
   
-2.  In the gesture handler code file, add the following namespace references:  
+2. In the gesture handler code file, add the following namespace references:  
   
     ```csharp  
     using Microsoft.VisualStudio.Modeling;  
@@ -233,7 +233,7 @@ using System.Linq;
   
     ```  
   
-3.  The following sample illustrates how to get access to the source model element:  
+3. The following sample illustrates how to get access to the source model element:  
   
     ```  
     partial class MyTargetShape // or diagram or connector   

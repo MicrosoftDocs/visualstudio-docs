@@ -129,17 +129,17 @@ ms.workload:
 #### Factors
  In order to determine which indicator type is appropriate, you need to determine the following factors.
 
-1.  **Timing:** length of time the operation will take
+1. **Timing:** length of time the operation will take
 
-2.  **Modality:** whether the operation is modal to the environment (locks the UI until the process is complete)
+2. **Modality:** whether the operation is modal to the environment (locks the UI until the process is complete)
 
-3.  **Persistent/Transient:** whether the final result of the progress needs to be reported and/or viewable at a later time
+3. **Persistent/Transient:** whether the final result of the progress needs to be reported and/or viewable at a later time
 
-4.  **Determinate/Indeterminate:** whether the operation end time and progress can be calculated
+4. **Determinate/Indeterminate:** whether the operation end time and progress can be calculated
 
-5.  **Graphic/Textual location:** whether the progress or process is captured inline, in the body of a message, or a specific control, such as the Tree control
+5. **Graphic/Textual location:** whether the progress or process is captured inline, in the body of a message, or a specific control, such as the Tree control
 
-6.  **Proximity:** whether the progress should be in close proximity to the UI that it is related to. (For example, can it be in the status bar, which might be far away, or does it have to be near the button that launched the process?)
+6. **Proximity:** whether the progress should be in close proximity to the UI that it is related to. (For example, can it be in the status bar, which might be far away, or does it have to be near the button that launched the process?)
 
 #### Determinate progress
 

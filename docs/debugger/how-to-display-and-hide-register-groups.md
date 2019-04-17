@@ -31,9 +31,9 @@ To reduce clutter, the **Registers** window organizes registers into groups. If 
 
 ## Display or hide register groups
 
-1.  Right-click the **Registers** window.
+1. Right-click the **Registers** window.
 
-2.  On the shortcut menu, select the register groups you want to show or hide.
+2. On the shortcut menu, select the register groups you want to show or hide.
 
      Register groups that are not supported by the hardware you are debugging on are disabled on the shortcut menu, so they cannot be selected.
 

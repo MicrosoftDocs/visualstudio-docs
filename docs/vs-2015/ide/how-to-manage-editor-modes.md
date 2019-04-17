@@ -50,11 +50,11 @@ You can display the Visual Studio Code Editor in various display modes.
   
 #### To enable Virtual Space mode  
   
-1.  Select **Options** from the **Tools** menu.  
+1. Select **Options** from the **Tools** menu.  
   
-2.  Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. (For example, to turn on line numbers only in Visual Basic, choose the Basic, Text Editor options.)  
+2. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. (For example, to turn on line numbers only in Visual Basic, choose the Basic, Text Editor options.)  
   
-3.  Select **General** options, and under **Settings**, select **Enable Virtual Space**.  
+3. Select **General** options, and under **Settings**, select **Enable Virtual Space**.  
   
     > [!NOTE]
     >  **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.  

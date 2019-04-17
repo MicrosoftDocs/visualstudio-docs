@@ -31,7 +31,7 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
 
 ### To edit code in Break mode
 
-1.  Enter Break mode by doing one of the following:
+1. Enter Break mode by doing one of the following:
 
     -   Set a breakpoint in your code, then choose **Start Debugging** from the **Debug** menu and wait for the application to hit the breakpoint.
 
@@ -43,14 +43,14 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
 
     -   When an exception occurs, choose **Enable Editing** on the **Exception Assistant**.
 
-2.  Make any desired and supported code changes.
+2. Make any desired and supported code changes.
 
      For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
     > [!NOTE]
     >  If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You will not be able to continue code execution unless you undo the illegal code change.
 
-3.  On the **Debug** menu, click **Continue** to resume execution.
+3. On the **Debug** menu, click **Continue** to resume execution.
 
      Your code now executes with your applied edits incorporated into the project.
 

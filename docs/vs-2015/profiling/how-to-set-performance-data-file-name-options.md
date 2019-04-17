@@ -32,11 +32,11 @@ By default, you save a profiling data (.vsp) file by using the following syntax:
   
 ### To change the naming syntax of the profiling data files of a performance session  
   
-1.  In **Performance Explorer**, right-click the name of the performance session, and then click **Properties**.  
+1. In **Performance Explorer**, right-click the name of the performance session, and then click **Properties**.  
   
-2.  Click **General**.  
+2. Click **General**.  
   
-3.  Under **Report**, change any of the following settings:  
+3. Under **Report**, change any of the following settings:  
   
     |||  
     |-|-|  

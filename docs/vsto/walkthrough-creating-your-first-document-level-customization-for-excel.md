@@ -82,9 +82,9 @@ ms.workload:
 
 ### To close and reopen a worksheet in the designer
 
-1.  Close the workbook by clicking the **Close** button (X) for the designer window.
+1. Close the workbook by clicking the **Close** button (X) for the designer window.
 
-2.  In **Solution Explorer**, right-click the **Sheet1** code file, and click **View Designer**.
+2. In **Solution Explorer**, right-click the **Sheet1** code file, and click **View Designer**.
 
      \- or -
 
@@ -95,7 +95,7 @@ ms.workload:
 
 ### To add text to a worksheet by using the designer
 
-1.  In the worksheet that is open in the designer, select cell **A1**, and then type the following text.
+1. In the worksheet that is open in the designer, select cell **A1**, and then type the following text.
 
      **This text was added by using the designer.**
 
@@ -111,11 +111,11 @@ ms.workload:
 
 ### To add a second line of text to the worksheet by using code
 
-1.  In **Solution Explorer**, right-click **Sheet1**, and then click **View Code**.
+1. In **Solution Explorer**, right-click **Sheet1**, and then click **View Code**.
 
      The code file opens in Visual Studio.
 
-2.  Replace the `Sheet1_Startup` event handler with the following code. When Sheet1 is opened, this code adds a second line of text to the worksheet.
+2. Replace the `Sheet1_Startup` event handler with the following code. When Sheet1 is opened, this code adds a second line of text to the worksheet.
 
      [!code-csharp[Trin_ExcelWorkbookTutorial#1](../vsto/codesnippet/CSharp/Trin_ExcelWorkbookTutorial/Sheet1.cs#1)]
      [!code-vb[Trin_ExcelWorkbookTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ExcelWorkbookTutorial/Sheet1.vb#1)]
@@ -124,24 +124,24 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to build and run your project.
+1. Press **F5** to build and run your project.
 
      When you build the project, the code is compiled into an assembly that is associated with the workbook. Visual Studio puts a copy of the workbook and the assembly in the build output folder for the project, and it configures the security settings on the development computer to enable the customization to run. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
-2.  In the workbook, verify that you see the following text.
+2. In the workbook, verify that you see the following text.
 
      **This text was added by using the designer.**
 
      **This text was added by using code.**
 
-3.  Close the workbook.
+3. Close the workbook.
 
 ## Clean up the project
  When you finish developing a project, you should remove the files in the build output folder and the security settings created by the build process.
 
 ### To clean up the completed project on your development computer
 
-1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.
+1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
  Now that you have created a basic document-level customization for Excel, you can learn more about how to develop customizations from these topics:

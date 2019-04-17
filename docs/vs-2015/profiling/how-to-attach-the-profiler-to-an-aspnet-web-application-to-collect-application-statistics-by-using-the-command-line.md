@@ -103,7 +103,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Do one of the following to detach the profiler from the target application:  
+1. Do one of the following to detach the profiler from the target application:  
 
     -   Type **VSPerfCmd /detach**  
 
@@ -111,13 +111,13 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     -   Close the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process.  
 
-2.  Shut down the profiler. Type:**VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
+2. Shut down the profiler. Type:**VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
 
-3.  (Optional) Clear the profiling environment variables. Type:  
+3. (Optional) Clear the profiling environment variables. Type:  
 
      **VSPerfCmd /globaloff**  
 
-4.  Restart the computer.  
+4. Restart the computer.  
 
 ## See Also  
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   

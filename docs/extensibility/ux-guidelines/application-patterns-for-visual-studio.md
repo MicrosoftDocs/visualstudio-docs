@@ -272,11 +272,11 @@ Dialogs in Visual Studio should typically support one discrete unit of the user'
 
 If you have determined that you need a dialog, you have three choices, in order of preference:
 
-1.  Integrate your features into one of the shared dialogs in Visual Studio.
+1. Integrate your features into one of the shared dialogs in Visual Studio.
 
-2.  Create your own dialog using a pattern found in an existing similar dialog.
+2. Create your own dialog using a pattern found in an existing similar dialog.
 
-3.  Create a new dialog, following interaction and layout guidelines.
+3. Create a new dialog, following interaction and layout guidelines.
 
 This section describes how to choose the correct dialog pattern within Visual Studio workflows and the common conventions for dialog design.
 
@@ -358,9 +358,9 @@ Dialogs should fit within a minimum 1024x768 screen resolution, and initial dial
 
 There are two recommendations for resizable dialogs:
 
-1.  That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
+1. That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
 
-2.  That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
+2. That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
 
 #### Position
 Dialogs must appear centered within the IDE on first launch. The last position of non-resizable dialogs doesn't need to be persisted, so they will appear centered on subsequent launches.
@@ -609,9 +609,9 @@ These details should be taken into consideration when implementing dragging in t
 
 Another issue to be aware of is how to handle move operations on items that have open designers or editors. The expected behavior is as follows (this applies to all project types):
 
-1.  If the open editor/designer does not have any unsaved changes, then the editor/designer window should be silently closed.
+1. If the open editor/designer does not have any unsaved changes, then the editor/designer window should be silently closed.
 
-2.  If the open editor/designer does have unsaved changes, then the source of the drag should wait for the drop to occur and then ask the user to save the uncommitted changes in the open documents before closing the window with a prompt similar to the following:
+2. If the open editor/designer does have unsaved changes, then the source of the drag should wait for the drop to occur and then ask the user to save the uncommitted changes in the open documents before closing the window with a prompt similar to the following:
 
     ```
     ==========================================================

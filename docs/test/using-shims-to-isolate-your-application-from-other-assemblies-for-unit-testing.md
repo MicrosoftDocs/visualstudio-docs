@@ -59,13 +59,13 @@ using (ShimsContext.Create()) {
 
 ###  <a name="AddFakes"></a> Add Fakes Assemblies
 
-1.  In **Solution Explorer**, expand your unit test project's **References**.
+1. In **Solution Explorer**, expand your unit test project's **References**.
 
     -   If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
 
-2.  Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
+2. Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
-3.  On the shortcut menu, choose **Add Fakes Assembly**.
+3. On the shortcut menu, choose **Add Fakes Assembly**.
 
 ###  <a name="ShimsContext"></a> Use ShimsContext
 

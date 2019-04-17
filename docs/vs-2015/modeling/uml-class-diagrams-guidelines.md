@@ -80,33 +80,33 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   
 #### To create a UML Class diagram  
   
-1.  On the **Architecture** menu, choose **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, choose **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, choose **UML Class Diagram**.  
+2. Under **Templates**, choose **UML Class Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then choose **OK**.  
+4. In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then choose **OK**.  
   
      A new class diagram appears with the **UMLClass Diagram** Toolbox. The Toolbox contains the required elements and relations.  
   
 #### To draw a UML Class Diagram  
   
-1.  To create a type, choose the **Class**, **Interface** or **Enumeration** tool on the Toolbox, and then click a blank part of the diagram. (If you can’t see the Toolbox, press CTRL+ALT+X.)  
+1. To create a type, choose the **Class**, **Interface** or **Enumeration** tool on the Toolbox, and then click a blank part of the diagram. (If you can’t see the Toolbox, press CTRL+ALT+X.)  
   
-2.  To add attributes or operations to the types, or literals to an enumeration, choose the **Attributes**, **Operations** or **Literals** heading in the type, and press ENTER.  
+2. To add attributes or operations to the types, or literals to an enumeration, choose the **Attributes**, **Operations** or **Literals** heading in the type, and press ENTER.  
   
      You can write a signature such as `f(x:Boolean):Integer`. See [Attributes and Operations](#AttributesAndOperations).  
   
      To add several items quickly, press ENTER two times at the end of each item. You can use the arrow keys to move up and down the list.  
   
-3.  To expand or collapse a type, choose the chevron icon at its upper-left. You can also expand and collapse the **Attributes** and **Operations** section of a class or interface.  
+3. To expand or collapse a type, choose the chevron icon at its upper-left. You can also expand and collapse the **Attributes** and **Operations** section of a class or interface.  
   
-4.  To draw associations, inheritance, or dependency links between the types, click the appropriate tool, then the source type, and then the target type.  
+4. To draw associations, inheritance, or dependency links between the types, click the appropriate tool, then the source type, and then the target type.  
   
-5.  To create types in a package, create a package using the **Package** tool, and then create new types and packages within the package. You can also use the copy command to copy types, and paste them into a package.  
+5. To create types in a package, create a package using the **Package** tool, and then create new types and packages within the package. You can also use the copy command to copy types, and paste them into a package.  
   
-6.  Every diagram is a view on a model that is shared between other diagrams in the same project. To see a tree view of the complete model, choose **View**, **Other Windows**, **UML Model Explorer**.  
+6. Every diagram is a view on a model that is shared between other diagrams in the same project. To see a tree view of the complete model, choose **View**, **Other Windows**, **UML Model Explorer**.  
   
 ##  <a name="UsingTypes"></a> Using Classes, Interfaces, and Enumerations  
  There are three standard kinds of classifier available on the toolbox. These are referred to as *types* throughout this document.  
@@ -440,17 +440,17 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   
 #### To use a template type  
   
-1.  Create a new type, for example, `AddressTable`.  
+1. Create a new type, for example, `AddressTable`.  
   
-2.  Open the shortcut menu for the new type, and then choose **Properties**.  
+2. Open the shortcut menu for the new type, and then choose **Properties**.  
   
-3.  In the **Template Binding** property, select the template type, for example `Dictionary`, from the drop-down list.  
+3. In the **Template Binding** property, select the template type, for example `Dictionary`, from the drop-down list.  
   
-4.  Expand the **Template Binding** property.  
+4. Expand the **Template Binding** property.  
   
      A row appears for each parameter of the template type.  
   
-5.  Set each parameter to a suitable value. For example, set the `Key` parameter to a class called `Name`.  
+5. Set each parameter to a suitable value. For example, set the `Key` parameter to a class called `Name`.  
   
 ##  <a name="Packages"></a> Packages  
  You can view packages in a UML class diagram. A package is a container for other model elements. You can create any element inside a package. On the diagram, the elements inside the package will move around when you move the package.  

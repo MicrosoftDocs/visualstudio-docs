@@ -29,13 +29,13 @@ ms.workload:
 
 ### To make controls resize with cells at design time
 
-1.  From the **Toolbox**, drag a Windows Forms control to a worksheet.
+1. From the **Toolbox**, drag a Windows Forms control to a worksheet.
 
-2.  Right-click the control, and then click **Format Control**.
+2. Right-click the control, and then click **Format Control**.
 
-3.  In the **Format Control** dialog box, click the **Properties** tab.
+3. In the **Format Control** dialog box, click the **Properties** tab.
 
-4.  Under **Object Positioning**, select the **Move and size with cells** option, and then click **OK**.
+4. Under **Object Positioning**, select the **Move and size with cells** option, and then click **OK**.
 
      When you resize the cell that contains the control, the control resizes to fit the cell.
 
@@ -44,7 +44,7 @@ ms.workload:
 
 ### To make controls resize with cells at run time
 
-1.  Add a control to range A1.
+1. Add a control to range A1.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#5)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#5)]
@@ -62,7 +62,7 @@ ms.workload:
 
 ### To change the behavior of a control so that it does not resize or move with the cell
 
-1.  Call the placement property of the control and set the value to <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>.
+1. Call the placement property of the control and set the value to <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>.
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#6)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#6)]

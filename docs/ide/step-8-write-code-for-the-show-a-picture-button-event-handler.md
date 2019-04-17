@@ -23,17 +23,17 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
 
 ## To write code for the show a picture button event handler
 
-1.  Go to **Windows Forms Designer** and double-click the **Show a picture** button. The IDE immediately goes to the code designer and moves your cursor so it's inside the `showButton_Click()` method that you added previously.
+1. Go to **Windows Forms Designer** and double-click the **Show a picture** button. The IDE immediately goes to the code designer and moves your cursor so it's inside the `showButton_Click()` method that you added previously.
 
-2.  Type an `i` on the empty line between the two braces `{ }`. (In Visual Basic, type on the empty line between `Private Sub...` and `End Sub`.) An **IntelliSense** window opens, as shown in the following picture.
+2. Type an `i` on the empty line between the two braces `{ }`. (In Visual Basic, type on the empty line between `Private Sub...` and `End Sub`.) An **IntelliSense** window opens, as shown in the following picture.
 
      ![IntelliSense with Visual C&#35; code](../ide/media/express_ifintellisense.png)
 
-3.  The **IntelliSense** window should be highlighting the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a little *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
+3. The **IntelliSense** window should be highlighting the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a little *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
 
      ![Visual C&#35; code](../ide/media/express_highlighttrue.png)
 
-4.  Next, you use IntelliSense to enter more code to open an **Open File** dialog box. If the user chose the **OK** button, the PictureBox loads the file that the user selected. The following steps show how to enter the code, and although it's numerous steps, it's just a few keystrokes:
+4. Next, you use IntelliSense to enter more code to open an **Open File** dialog box. If the user chose the **OK** button, the PictureBox loads the file that the user selected. The following steps show how to enter the code, and although it's numerous steps, it's just a few keystrokes:
 
     1.  Start with the selected text **true** in the snippet. Type `op` to overwrite it. (In Visual Basic, you start with an initial cap, so type `Op`.)
 

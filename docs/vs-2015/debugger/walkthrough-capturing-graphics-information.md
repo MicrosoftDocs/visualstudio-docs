@@ -26,9 +26,9 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
 #### To enable the capture of graphics information after a project or solution is loaded  
   
-1.  In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], load a project or solution file for the app that you want to capture graphics information from.  
+1. In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], load a project or solution file for the app that you want to capture graphics information from.  
   
-2.  On the Graphics Diagnostics toolbar, choose **Start Diagnostics**.  
+2. On the Graphics Diagnostics toolbar, choose **Start Diagnostics**.  
   
 #### To enable the capture of graphics information without loading a project or solution  
   

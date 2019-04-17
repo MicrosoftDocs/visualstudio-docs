@@ -31,15 +31,15 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
  This walkthrough consists of five main steps:  
   
-1.  Creating a new project  
+1. Creating a new project  
   
-2.  Creating an XML file to be read into the dataset  
+2. Creating an XML file to be read into the dataset  
   
-3.  Creating the user interface  
+3. Creating the user interface  
   
-4.  Creating the dataset, reading the XML file, and displaying it in a <xref:System.Windows.Forms.DataGridView> control  
+4. Creating the dataset, reading the XML file, and displaying it in a <xref:System.Windows.Forms.DataGridView> control  
   
-5.  Adding code to display the XML schema based on the XML file in a <xref:System.Windows.Forms.TextBox> control  
+5. Adding code to display the XML schema based on the XML file in a <xref:System.Windows.Forms.TextBox> control  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -49,11 +49,11 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To create the new Windows project  
   
-1.  On the **File** menu, create a new project.  
+1. On the **File** menu, create a new project.  
   
-2.  Name the project `ReadingXML`.  
+2. Name the project `ReadingXML`.  
   
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **ReadingXML** project is created and added to **Solution Explorer**.  
   
@@ -62,13 +62,13 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To create the XML file that will be read into the dataset  
   
-1.  On the **Project** menu, select**Add New Item**.  
+1. On the **Project** menu, select**Add New Item**.  
   
-2.  Select **XML File**, name the file `authors.xml`, and then select **Add**.  
+2. Select **XML File**, name the file `authors.xml`, and then select **Add**.  
   
      The XML file loads into the designer and is ready for edit.  
   
-3.  Paste the following code into the editor below the XML declaration:  
+3. Paste the following code into the editor below the XML declaration:  
   
     ```xml  
     <Authors_Table>  
@@ -130,7 +130,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
     </Authors_Table>  
     ```  
   
-4.  On the **File** menu, select**Save authors.xml**.  
+4. On the **File** menu, select**Save authors.xml**.  
   
 ## Create the user interface  
  The user interface for this application consists of the following:  
@@ -147,9 +147,9 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To add controls to the form  
   
-1.  Open `Form1` in design view.  
+1. Open `Form1` in design view.  
   
-2.  From the **Toolbox**, drag the following controls onto the form:  
+2. From the **Toolbox**, drag the following controls onto the form:  
   
     -   One <xref:System.Windows.Forms.DataGridView> control  
   
@@ -157,7 +157,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
     -   Two <xref:System.Windows.Forms.Button> controls  
   
-3.  Set the following properties:  
+3. Set the following properties:  
   
     |Control|Property|Setting|  
     |-------------|--------------|-------------|  
@@ -173,46 +173,46 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 #### To create a new dataset that  receives the XML data  
   
-1.  In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.  
+1. In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.  
   
-2.  From the [Toolbox, Data Tab](../ide/reference/toolbox-data-tab.md), drag a **DataSet** onto **Form1**.  
+2. From the [Toolbox, Data Tab](../ide/reference/toolbox-data-tab.md), drag a **DataSet** onto **Form1**.  
   
-3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select **OK**.  
+3. In the **Add Dataset** dialog box, select **Untyped dataset**, and then select **OK**.  
   
      **DataSet1** is added to the component tray.  
   
-4.  In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName%2A> properties for`AuthorsDataSet`.  
+4. In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName%2A> properties for`AuthorsDataSet`.  
   
 ## Create the event handler to read the XML file into the dataset  
  The **Read XML** button reads the XML file into the dataset. It then sets properties on the <xref:System.Windows.Forms.DataGridView> control that bind it to the dataset.  
   
 #### To add code to the ReadXmlButton_Click event handler  
   
-1.  In **Solution Explorer**, select **Form1**,  and then select the **View Designer** button on the **Solution Explorer** toolbar.  
+1. In **Solution Explorer**, select **Form1**,  and then select the **View Designer** button on the **Solution Explorer** toolbar.  
   
-2.  Select the **Read XML** button.  
+2. Select the **Read XML** button.  
   
      The **Code Editor** opens at the `ReadXmlButton_Click` event handler.  
   
-3.  Type the following code into the `ReadXmlButton_Click` event handler:  
+3. Type the following code into the `ReadXmlButton_Click` event handler:  
   
      [!code-csharp[VbRaddataFillingAndExecuting#2](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/CS/Form1.cs#2)]
      [!code-vb[VbRaddataFillingAndExecuting#2](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form1.vb#2)]  
   
-4.  In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.  
+4. In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.  
   
 ## Create the event handler to display the schema in the textbox  
  The **Show Schema** button creates a <xref:System.IO.StringWriter> object that's filled with the schema and is displayed in the <xref:System.Windows.Forms.TextBox>control.  
   
 #### To add code to the ShowSchemaButton_Click event handler  
   
-1.  In **Solution Explorer**, select **Form1**, and then select the **View Designer** button.  
+1. In **Solution Explorer**, select **Form1**, and then select the **View Designer** button.  
   
-2.  Select the **Show Schema** button.  
+2. Select the **Show Schema** button.  
   
      The **Code Editor** opens at the `ShowSchemaButton_Click` event handler.  
   
-3.  Type the following code into the `ShowSchemaButton_Click` event handler.  
+3. Type the following code into the `ShowSchemaButton_Click` event handler.  
   
      [!code-csharp[VbRaddataFillingAndExecuting#3](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/CS/Form1.cs#3)]
      [!code-vb[VbRaddataFillingAndExecuting#3](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting/VB/Form1.vb#3)]  
@@ -221,13 +221,13 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 
 You can now test the form to make sure it behaves as expected.
   
-1.  Select **F5** to run the application.  
+1. Select **F5** to run the application.  
   
-2.  Select the **Read XML** button.  
+2. Select the **Read XML** button.  
   
      The DataGridView displays the contents of the XML file.  
   
-3.  Select the **Show Schema** button.  
+3. Select the **Show Schema** button.  
   
      The text box displays the XML schema for the XML file.  
   

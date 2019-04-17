@@ -32,7 +32,7 @@ Simple colorizer model
   
 ## How a VSPackage Uses a Language Service Colorizer  
   
-1.  The VSPackage must get the appropriate language service, which requires the language service VSPackage to do the following:  
+1. The VSPackage must get the appropriate language service, which requires the language service VSPackage to do the following:  
   
     1.  Use an object implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> interface to get the text to be colorized.  
   
@@ -42,7 +42,7 @@ Simple colorizer model
   
     3.  Associate the language service with the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> by calling its <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer.SetLanguageServiceID%2A> method.  
   
-2.  The VSPackage can now obtain and use the colorizer object as follows:  
+2. The VSPackage can now obtain and use the colorizer object as follows:  
   
     > [!NOTE]
     >  VSPackages that use the core editor do not have to obtain a language service's colorizer objects explicitly. As soon as an instance of the core editor obtains an appropriate language service, it performs all the colorization tasks shown here.  

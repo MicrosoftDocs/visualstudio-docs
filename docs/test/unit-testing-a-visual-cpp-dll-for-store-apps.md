@@ -18,15 +18,15 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
-1.  On the **File** menu, choose **New** > **New Project**.
+1. On the **File** menu, choose **New** > **New Project**.
 
-2.  In the New Project dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
+2. In the New Project dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
-3.  Name the project `RooterLibTests`; specify the location; name the solution `RooterLib`; and make sure **Create directory for solution** is checked.
+3. Name the project `RooterLibTests`; specify the location; name the solution `RooterLib`; and make sure **Create directory for solution** is checked.
 
      ![Specify the solution and project name and location](../test/media/ute_cpp_windows_unittestlib_createspecs.png)
 
-4.  In the new project, open **unittest1.cpp**.
+4. In the new project, open **unittest1.cpp**.
 
      ![unittest1.cpp](../test/media/ute_cpp_windows_unittest1_cpp.png)
 
@@ -42,7 +42,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer
 
-1.  Insert some test code:
+1. Insert some test code:
 
     ```cpp
     TEST_METHOD(TestMethod1)
@@ -53,7 +53,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
      Notice that the `Assert` class provides several static methods that you can use to verify results in test methods.
 
-2.  On the **Test** menu, choose **Run** and then choose **Run All**.
+2. On the **Test** menu, choose **Run** and then choose **Run All**.
 
      The test project builds and runs. The **Test Explorer** window appears, and the test is listed under **Passed Tests**. The **Summary** pane at the bottom of the window provides additional details about the selected test.
 
@@ -61,13 +61,13 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
 
-1.  In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.
+1. In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.
 
      ![Create the RooterLib project](../test/media/ute_cpp_windows_rooterlib_create.png)
 
-2.  In the **Add New Project** dialog box, choose **DLL (UWP apps)**.
+2. In the **Add New Project** dialog box, choose **DLL (UWP apps)**.
 
-3.  Add the following code to the *RooterLib.h* file:
+3. Add the following code to the *RooterLib.h* file:
 
     ```cpp
     // The following ifdef block is the standard way of creating macros which make exporting
@@ -93,7 +93,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
      The `CRooterLib` class declares a constructor and the `SqareRoot` estimator method.
 
-4.  Add the ROOTERLIB_EXPORTS symbol to the command line.
+4. Add the ROOTERLIB_EXPORTS symbol to the command line.
 
     1.  In **Solution Explorer**, choose the **RooterLib** project, and then choose **Properties** from the shortcut menu.
 
@@ -103,7 +103,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     3.  Choose **\<Edit...>** from the **Preprocessor Definitions** list, and then add `ROOTERLIB_EXPORTS` in the **Preprocessor Definitions** dialog box.
 
-5.  Add minimal implementations of the declared functions. Open *RooterLib.cpp* and add the following code:
+5. Add minimal implementations of the declared functions. Open *RooterLib.cpp* and add the following code:
 
     ```cpp
     // constructor
@@ -173,7 +173,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Iteratively_augment_the_tests_and_make_them_pass"></a> Iteratively augment the tests and make them pass
 
-1.  Add a new test:
+1. Add a new test:
 
     ```cpp
     TEST_METHOD(RangeTest)
@@ -194,16 +194,16 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
     >
     > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
-2.  In **Test Explorer**, choose **Run All**.
+2. In **Test Explorer**, choose **Run All**.
 
-3.  The test fails.
+3. The test fails.
 
      ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png)
 
     > [!TIP]
     > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
 
-4.  Enhance the code under test so that the new test passes. Add the following to *RooterLib.cpp*:
+4. Enhance the code under test so that the new test passes. Add the following to *RooterLib.cpp*:
 
     ```cpp
     #include <math.h>
@@ -224,7 +224,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     ```
 
-5.  Build the solution and then in **Test Explorer**, choose **Run All**.
+5. Build the solution and then in **Test Explorer**, choose **Run All**.
 
      Both tests pass.
 
@@ -302,7 +302,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Refactor_the_code_without_changing_tests"></a> Refactor the code without changing tests
 
-1.  Simplify the central calculation in the `SquareRoot` function:
+1. Simplify the central calculation in the `SquareRoot` function:
 
     ```csharp
     // old code
@@ -311,7 +311,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
     result = (result + v/result) / 2.0;
     ```
 
-2.  Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.
+2. Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.
 
     > [!TIP]
     > A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.

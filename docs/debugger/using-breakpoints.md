@@ -130,13 +130,13 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
 ### Set a function breakpoint using a memory address (native C++ only)
  You can use the address of an object to set a function breakpoint on a method called by a specific instance of a class.  For example, given an addressable object of type `my_class`, you can set a function breakpoint on the `my_method` method that instance calls.
 
-1.  Set a breakpoint somewhere after the instance of the class is instantiated.
+1. Set a breakpoint somewhere after the instance of the class is instantiated.
 
-2.  Find the address of the instance (for example, `0xcccccccc`).
+2. Find the address of the instance (for example, `0xcccccccc`).
 
-3.  Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**.
+3. Select **Debug** > **New Breakpoint** > **Function Breakpoint**, or press **Alt**+**F9** > **Ctrl**+**B**.
 
-4.  Add the following to the **Function Name** box, and select **C++** language.
+4. Add the following to the **Function Name** box, and select **C++** language.
 
     ```C++
     ((my_class *) 0xcccccccc)->my_method

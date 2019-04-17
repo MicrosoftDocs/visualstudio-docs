@@ -31,9 +31,9 @@ This dialog box is employed in a number of user scenarios, including the followi
 
 ### To select a value or reference type from the type browser
 
-1.  In the **Type Name** box, enter the name of the type that you want to use.
+1. In the **Type Name** box, enter the name of the type that you want to use.
 
-2.  Do one of the following:
+2. Do one of the following:
 
     -   Once the name of the type that you want to use appears in the tree in the **Type Name** box, double-click the type to select it.
 
@@ -41,9 +41,9 @@ This dialog box is employed in a number of user scenarios, including the followi
 
 ### To select a generic type from the type browser
 
-1.  In the **Type Name** box, type in the name of the type that you want to use.
+1. In the **Type Name** box, type in the name of the type that you want to use.
 
-2.  Once the name of the type that you want to use appears in the tree in the **Type Name** box, click the type to select it to cause drop-down boxes appear.
+2. Once the name of the type that you want to use appears in the tree in the **Type Name** box, click the type to select it to cause drop-down boxes appear.
 
      Select the type that you want to use to close the generic from the drop-down boxes, and then click **OK**.
 
@@ -59,9 +59,9 @@ The list of types in the **Type Name** box gets shorter as you type more charact
 
 For example:
 
-1.  Typing **Operation** matches <xref:System.OperationCanceledException> but not <xref:System.InvalidOperationException>. To match <xref:System.InvalidOperationException>, start typing System.I or Invalid.
+1. Typing **Operation** matches <xref:System.OperationCanceledException> but not <xref:System.InvalidOperationException>. To match <xref:System.InvalidOperationException>, start typing System.I or Invalid.
 
-2.  Typing **Generic** matches <xref:System.GenericUriParser> but not types in the <xref:System.Collections.Generic> namespace. To search for types in the <xref:System.Collections.Generic> namespace, type the fully qualified name of the namespace.
+2. Typing **Generic** matches <xref:System.GenericUriParser> but not types in the <xref:System.Collections.Generic> namespace. To search for types in the <xref:System.Collections.Generic> namespace, type the fully qualified name of the namespace.
 
 ## Selecting a service contract using the type browser dialog
 

@@ -72,11 +72,11 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
   
 #### To turn off NTLM security  
   
-1.  In **Solution Explorer**, right-click the Web site name, and then click **Property Pages**.  
+1. In **Solution Explorer**, right-click the Web site name, and then click **Property Pages**.  
   
-2.  Select **Start Options**, and then clear the **NTLM Authentication** check box.  
+2. Select **Start Options**, and then clear the **NTLM Authentication** check box.  
   
-3.  Click **OK**.  
+3. Click **OK**.  
   
 ## See Also  
  <xref:System.ServiceModel.Security.MessageSecurityException>   

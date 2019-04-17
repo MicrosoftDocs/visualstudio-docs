@@ -18,17 +18,17 @@ In your custom project system, you can allow projects of that type to load in mu
   
  You, as the author of a project system, implement `UpgradeProject_CheckOnly` (from the `IVsProjectUpgradeViaFactory4` interface) to provide users of your project system with an upgrade check. When users open a project, this method is called to determine whether a project must be repaired before it is loaded. The possible upgrade requirements are enumerated in `VSPUVF_REPAIRFLAGS`, and they include the following possibilities:  
   
-1.  `SPUVF_PROJECT_NOREPAIR`: Requires no repair.  
+1. `SPUVF_PROJECT_NOREPAIR`: Requires no repair.  
   
-2.  `VSPUVF_PROJECT_SAFEREPAIR`: Makes the project compatible with an earlier version without the issues that you might have encounter with the previous versions of the product.  
+2. `VSPUVF_PROJECT_SAFEREPAIR`: Makes the project compatible with an earlier version without the issues that you might have encounter with the previous versions of the product.  
   
-3.  `VSPUVF_PROJECT_UNSAFEREPAIR`: Makes the project backwards-compatible but with some risk of the issues that you might have encountered with previous versions of the product. For example, the project won’t be compatible if it depended on different SDK versions.  
+3. `VSPUVF_PROJECT_UNSAFEREPAIR`: Makes the project backwards-compatible but with some risk of the issues that you might have encountered with previous versions of the product. For example, the project won’t be compatible if it depended on different SDK versions.  
   
-4.  `VSPUVF_PROJECT_ONEWAYUPGRADE`: Makes the project incompatible with an earlier version.  
+4. `VSPUVF_PROJECT_ONEWAYUPGRADE`: Makes the project incompatible with an earlier version.  
   
-5.  `VSPUVF_PROJECT_INCOMPATIBLE`: Indicates that the current version doesn’t support this project.  
+5. `VSPUVF_PROJECT_INCOMPATIBLE`: Indicates that the current version doesn’t support this project.  
   
-6.  `VSPUVF_PROJECT_DEPRECATED`: Indicates that this project is no longer supported.  
+6. `VSPUVF_PROJECT_DEPRECATED`: Indicates that this project is no longer supported.  
   
 > [!NOTE]
 >  To avoid confusion, don’t combine upgrade flags when you set them. For example, don't create an ambiguous upgrade status such as `VSPUVF_PROJECT_SAFEREPAIR | VSPUVF_PROJECT_DEPRECATED`.  
@@ -50,11 +50,11 @@ In your custom project system, you can allow projects of that type to load in mu
   
 #### To mark a project as incompatible  
   
-1.  In the component, get an `IVsAppCompat` interface from the global service SVsSolution.  
+1. In the component, get an `IVsAppCompat` interface from the global service SVsSolution.  
   
      For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>.  
   
-2.  In the component, call `IVsAppCompat.AskForUserConsentToBreakAssetCompat`, and pass it an array of `IVsHierarchy` interfaces that represent the projects of interest.  
+2. In the component, call `IVsAppCompat.AskForUserConsentToBreakAssetCompat`, and pass it an array of `IVsHierarchy` interfaces that represent the projects of interest.  
   
      This method has the following signature:  
   
@@ -68,9 +68,9 @@ In your custom project system, you can allow projects of that type to load in mu
     > [!WARNING]
     >  In most common scenarios, the `IVsHierarchy` array will contain only one item.  
   
-3.  If `AskForUserConsentToBreakAssetCompat` returns `S_OK`, the component makes or accepts the changes that break compatibility.  
+3. If `AskForUserConsentToBreakAssetCompat` returns `S_OK`, the component makes or accepts the changes that break compatibility.  
   
-4.  In your component, call the `IVsAppCompat.BreakAssetCompatibility` method for each project that you want to mark as incompatible. The component can set the value of the parameter `lpszMinimumVersion` to a specific minimum version instead of having Visual Studio look up the current version string in the registry. This approach minimizes the risk of the component inadvertently setting a higher value in the future, based on what is in the registry at that time. If that higher value were set, Visual Studio couldn't open the project.  
+4. In your component, call the `IVsAppCompat.BreakAssetCompatibility` method for each project that you want to mark as incompatible. The component can set the value of the parameter `lpszMinimumVersion` to a specific minimum version instead of having Visual Studio look up the current version string in the registry. This approach minimizes the risk of the component inadvertently setting a higher value in the future, based on what is in the registry at that time. If that higher value were set, Visual Studio couldn't open the project.  
   
      This method has the following signature:  
   

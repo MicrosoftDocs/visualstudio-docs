@@ -20,9 +20,9 @@ Programming languages typically provide a means to annotate or comment the code.
 ## Comment styles
 There are two general styles of comment:
 
-1.  Line comments, where the comment is on a single line.
+1. Line comments, where the comment is on a single line.
 
-2.  Block comments, where the comment may include multiple lines.
+2. Block comments, where the comment may include multiple lines.
 
 Line comments typically have a starting character (or characters), while block comments have both start and end characters. For example, in C#, a line comment starts with `//`, and a block comment starts with `/*` and ends with `*/`.
 

@@ -720,11 +720,11 @@ To test the custom host, you write a text template, then you run the custom host
 
 ### To create a text template to test the custom host
 
-1.  Create a text file, and name it `TestTemplate.tt`.
+1. Create a text file, and name it `TestTemplate.tt`.
 
      You can use any text editor (for example, Notepad) to create the file.
 
-2.  Add the following to the file:
+2. Add the following to the file:
 
     > [!NOTE]
     > The programming language of the text template does not have to match that of the custom host.
@@ -767,13 +767,13 @@ To test the custom host, you write a text template, then you run the custom host
 
     ```
 
-3.  Save and close the file.
+3. Save and close the file.
 
 ### To test the custom host
 
-1.  Open the Command Prompt window.
+1. Open the Command Prompt window.
 
-2.  Type the path of the executable file for the custom host, but do not press ENTER yet.
+2. Type the path of the executable file for the custom host, but do not press ENTER yet.
 
      For example, type:
 
@@ -782,9 +782,9 @@ To test the custom host, you write a text template, then you run the custom host
     > [!NOTE]
     > Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.
 
-3.  Type a space.
+3. Type a space.
 
-4.  Type the path of the text template file, and then press ENTER.
+4. Type the path of the text template file, and then press ENTER.
 
      For example, type:
 
@@ -795,11 +795,11 @@ To test the custom host, you write a text template, then you run the custom host
 
      The custom host application runs and completes the text template transformation process.
 
-5.  In **Windows Explorer**, browse to the folder that contains the file TestTemplate.tt.
+5. In **Windows Explorer**, browse to the folder that contains the file TestTemplate.tt.
 
      That folder also contains the file TestTemplate1.txt.
 
-6.  Open this file to see the results of the text template transformation.
+6. Open this file to see the results of the text template transformation.
 
      The generated text output appears and looks like this:
 

@@ -13,19 +13,19 @@ ms.workload:
 ##  <a name="BKMK_UITextAndTerminology"></a> UI text and terminology
  Comprehensible text is crucial to effective UI. Software users tend to read labels first, namely those most relevant to completing the task at hand. Static text is read with less frequency. Plan for users to start their work sessions with a quick scan of the whole window, followed by a reading of the UI in this approximate order:
 
-1.  Interactive controls in the center
+1. Interactive controls in the center
 
-2.  Commit buttons
+2. Commit buttons
 
-3.  Interactive controls found elsewhere
+3. Interactive controls found elsewhere
 
-4.  Main instructions
+4. Main instructions
 
-5.  Supplemental explanations
+5. Supplemental explanations
 
-6.  Window title
+6. Window title
 
-7.  Other static text in the main body
+7. Other static text in the main body
 
 ### Usage patterns for UI text
 

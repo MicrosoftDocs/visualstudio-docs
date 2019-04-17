@@ -65,11 +65,11 @@ This section describes how to debug the basic project types created by the [!INC
   
 ###  <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> To debug a C or C++ Win32 application  
   
-1.  Open the project in Visual Studio.  
+1. Open the project in Visual Studio.  
   
-2.  On the **Debug** menu, choose **Start**.  
+2. On the **Debug** menu, choose **Start**.  
   
-3.  Debug using the techniques discussed in [Debugger Basics](../debugger/debugger-basics.md).  
+3. Debug using the techniques discussed in [Debugger Basics](../debugger/debugger-basics.md).  
   
 ###  <a name="BKMK_To_manually_set_a_Debug_configuration"></a> To manually set a Debug configuration  
   

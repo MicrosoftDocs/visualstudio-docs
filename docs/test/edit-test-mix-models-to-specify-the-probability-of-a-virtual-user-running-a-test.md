@@ -47,27 +47,27 @@ Using the **Load Test Editor**, you can change the test mix model in a load test
 
 ### To change the test mix model
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2.  In *Scenarios* folder of the load test tree, choose the scenario node for which you want to specify the maximum number of test iterations.
+2. In *Scenarios* folder of the load test tree, choose the scenario node for which you want to specify the maximum number of test iterations.
 
-3.  On the **View** menu, select **Properties Window**.
+3. On the **View** menu, select **Properties Window**.
 
      The categories and properties of the scenario are displayed.
 
-4.  In the **Test Mix Type** property, choose the ellipsis button ( **…**).
+4. In the **Test Mix Type** property, choose the ellipsis button ( **…**).
 
      The **Edit Test Mix** dialog box is displayed.
 
-5.  Choose the drop-down list under **Test mix model** and select the test mix model that you want to use for the scenario.
+5. Choose the drop-down list under **Test mix model** and select the test mix model that you want to use for the scenario.
 
-6.  (Optional) Modify the test mix by using the **Add**, **Remove** and **Distribute** buttons and distribution sliders. For more information, see [Edit the test mix to specify which tests to include in a load test scenario](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
+6. (Optional) Modify the test mix by using the **Add**, **Remove** and **Distribute** buttons and distribution sliders. For more information, see [Edit the test mix to specify which tests to include in a load test scenario](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
-7.  (Optional) Specify a web performance and unit test to initialize or end by using the check boxes and selecting the desired tests. For more information, see [Emulate expected real-world usage of a website or application](../test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md).
+7. (Optional) Specify a web performance and unit test to initialize or end by using the check boxes and selecting the desired tests. For more information, see [Emulate expected real-world usage of a website or application](../test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md).
 
-8.  Choose **OK**.
+8. Choose **OK**.
 
      The **Properties** window displays the new test mix model for the **Test Mix Type** property.
 

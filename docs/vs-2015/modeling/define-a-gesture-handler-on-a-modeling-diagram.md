@@ -198,19 +198,19 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 #### To add a separate gesture handler to a VSIX project  
   
-1.  You do not need this procedure if you have created the gesture handler with its own VSIX.  
+1. You do not need this procedure if you have created the gesture handler with its own VSIX.  
   
-2.  Create a VSIX project, unless your solution already has one.  
+2. Create a VSIX project, unless your solution already has one.  
   
     1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
   
     2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
     -   In Solution Explorer, in the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
   
-4.  In **source.extension.vsixmanifest**, add the gesture handler class library project as a MEF Component:  
+4. In **source.extension.vsixmanifest**, add the gesture handler class library project as a MEF Component:  
   
     1.  On the **MetaData** tab, set a name for the VSIX.  
   
@@ -347,21 +347,21 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
 #### To install an extension  
   
-1.  In your computer, find the **.vsix** file that was built by your VSIX project.  
+1. In your computer, find the **.vsix** file that was built by your VSIX project.  
   
     1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
     2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
-2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
+2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
      The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
   
-3.  On the target computer, open the **.vsix** file.  
+3. On the target computer, open the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+4. Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
 #### To uninstall an extension  
   

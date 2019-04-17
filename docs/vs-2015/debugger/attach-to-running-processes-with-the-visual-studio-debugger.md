@@ -43,9 +43,9 @@ You can use this capability to debug apps that are running on a local or remote 
 ##  <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on the local machine
  In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names).
 
-1.  In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
+1. In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
 
-2.  In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.
+2. In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.
 
      To quickly select the process you want, type the first letter of the process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
 
@@ -53,7 +53,7 @@ You can use this capability to debug apps that are running on a local or remote 
 
      If the process is running under a different user account, select the **Show processes from all users** check box.
 
-3.  In the **Attach to** box, make sure that the type of code you will debug is listed. The default **Automatic** setting tries to determine what type of code you want to debug. To set the type of code manually, do the following
+3. In the **Attach to** box, make sure that the type of code you will debug is listed. The default **Automatic** setting tries to determine what type of code you want to debug. To set the type of code manually, do the following
 
     1.  In the **Attach to** box, click **Select**.
 
@@ -61,7 +61,7 @@ You can use this capability to debug apps that are running on a local or remote 
 
     3.  Click **OK**.
 
-4.  Click **Attach**.
+4. Click **Attach**.
 
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
  In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names). For more complete guidance for ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). For other apps, you may be able to find the name of the process in the Task Manager.

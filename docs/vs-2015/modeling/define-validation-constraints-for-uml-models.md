@@ -75,23 +75,23 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 #### To create a separate validation constraint in a class library project  
   
-1.  Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
+1. Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
   
     1.  On the **File** menu, choose **New**, **Project**.  
   
     2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, and then in the middle column choose **Class Library**.  
   
-2.  Unless your solution already contains one, create a VSIX project:  
+2. Unless your solution already contains one, create a VSIX project:  
   
     1.  In **Solution Explorer**, on the shortcut menu of the solution, choose  **Add**, **New Project**.  
   
     2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then choose **Extensibility**. In the middle column, click **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
     -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
-4.  In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component:  
+4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component:  
   
     1.  On the **MetaData** tab, set a name for the VSIX.  
   
@@ -107,9 +107,9 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 #### To define the Validation Class  
   
-1.  You do not need this procedure if you have created a validation class with its own VSIX from the validation project template.  
+1. You do not need this procedure if you have created a validation class with its own VSIX from the validation project template.  
   
-2.  In the validation class project, add references to the following [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] assemblies:  
+2. In the validation class project, add references to the following [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] assemblies:  
   
      `Microsoft.VisualStudio.Modeling.Sdk.[version]`  
   
@@ -119,7 +119,7 @@ using Microsoft.VisualStudio.Uml.Classes;
   
      `System.ComponentModel.Composition`  
   
-3.  Add a file to the class library project containing code that is similar to the following example.  
+3. Add a file to the class library project containing code that is similar to the following example.  
   
     -   Each validation constraint is contained within a method that is marked with a specific attribute. The method accepts a parameter of a model element type. When validation is invoked, the validation framework will apply every validation method to every model element that conforms to its parameter type.  
   
@@ -177,7 +177,7 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 #### To test the validation constraint  
   
-1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
+1. Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
      An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts.  
   
@@ -189,19 +189,19 @@ using Microsoft.VisualStudio.Uml.Classes;
   
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
-2.  In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
+2. In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
   
-3.  To set up a test for the sample constraint given in the previous section:  
+3. To set up a test for the sample constraint given in the previous section:  
   
     1.  Open a class diagram.  
   
     2.  Create a class, and add two attributes that have the same name.  
   
-4.  On the shortcut menu anywhere on the diagram, choose **Validate**.  
+4. On the shortcut menu anywhere on the diagram, choose **Validate**.  
   
-5.  Any errors in the model will be reported in the errors window.  
+5. Any errors in the model will be reported in the errors window.  
   
-6.  Double-click the error report. If the elements mentioned in the report are visible on the screen, they will be highlighted.  
+6. Double-click the error report. If the elements mentioned in the report are visible on the screen, they will be highlighted.  
   
      **Troubleshooting**: If the **Validate** command does not appear on the menu, make sure that:  
   
@@ -362,21 +362,21 @@ context.LogError(... , usecase);
   
 #### To install an extension  
   
-1.  On your computer, find the **.vsix** file that was built by your VSIX project.  
+1. On your computer, find the **.vsix** file that was built by your VSIX project.  
   
     1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
     2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
-2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
+2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
     -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
   
-3.  On the target computer, open the **.vsix** file.  
+3. On the target computer, open the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+4. Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
 #### To uninstall an extension  
   

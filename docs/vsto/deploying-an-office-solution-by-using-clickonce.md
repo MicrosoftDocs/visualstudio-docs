@@ -145,34 +145,34 @@ ms.workload:
 
 ##### To add the .vsto MIME type to IIS 6.0
 
-1.  On the server that's running IIS 6.0, choose **Start** > **All Programs** > **Administrative Tools** >  **Internet Information Services (IIS) Manager**.
+1. On the server that's running IIS 6.0, choose **Start** > **All Programs** > **Administrative Tools** >  **Internet Information Services (IIS) Manager**.
 
-2.  Choose the computer name, the **Web Sites** folder, or the web site that you're configuring.
+2. Choose the computer name, the **Web Sites** folder, or the web site that you're configuring.
 
-3.  On the menu bar, choose **Action** > **Properties**.
+3. On the menu bar, choose **Action** > **Properties**.
 
-4.  On the **HTTP Headers** tab, choose the **MIME Types** button.
+4. On the **HTTP Headers** tab, choose the **MIME Types** button.
 
-5.  In the **MIME Types** window, choose the **New** button.
+5. In the **MIME Types** window, choose the **New** button.
 
-6.  In the **MIME Type** window, enter **.vsto** as the extension, enter **application/x-ms-vsto** as the MIME type, and then apply the new settings.
+6. In the **MIME Type** window, enter **.vsto** as the extension, enter **application/x-ms-vsto** as the MIME type, and then apply the new settings.
 
     > [!NOTE]
     >  For the changes to take effect, you must restart the World Wide Web Publishing Service or wait for the worker process to recycle. You must then flush the browser's disk cache and then try to open the *.vsto* file again.
 
 ##### To add the .vsto MIME type to IIS 7.0
 
-1.  On the server that's running IIS 7.0, choose **Start** > **All Programs** > **Accessories**.
+1. On the server that's running IIS 7.0, choose **Start** > **All Programs** > **Accessories**.
 
-2.  Open the shortcut menu for **Command Prompt**, and then choose  **Run as administrator.**
+2. Open the shortcut menu for **Command Prompt**, and then choose  **Run as administrator.**
 
-3.  In the **Open** box, enter the following path, and then choose the **OK** button.
+3. In the **Open** box, enter the following path, and then choose the **OK** button.
 
     ```cmd
     %windir%\system32\inetsrv
     ```
 
-4.  Enter the following command, and then apply the new settings.
+4. Enter the following command, and then apply the new settings.
 
     ```cmd
     set config /section:staticContent /+[fileExtension='.vsto',mimeType='application/x-ms-vsto']
@@ -215,21 +215,21 @@ ms.workload:
 
 ### Build and publish the solution
 
-1.  In **Solution Explorer**, open the shortcut menu for the **FileCopyPDA** project, and then choose **Build**.
+1. In **Solution Explorer**, open the shortcut menu for the **FileCopyPDA** project, and then choose **Build**.
 
-2.  Open the shortcut menu for the **ExcelWorkbook** project, and then choose **Build**.
+2. Open the shortcut menu for the **ExcelWorkbook** project, and then choose **Build**.
 
-3.  Open the shortcut menu for the **ExcelWorkbook** project, and then choose **Add Reference**.
+3. Open the shortcut menu for the **ExcelWorkbook** project, and then choose **Add Reference**.
 
-4.  In the **Add Reference** dialog box, choose the **Projects** tab, choose **FileCopyPDA**, and then choose the **OK** button.
+4. In the **Add Reference** dialog box, choose the **Projects** tab, choose **FileCopyPDA**, and then choose the **OK** button.
 
-5.  In **Solution Explorer**, choose the **ExcelWorkbook** project.
+5. In **Solution Explorer**, choose the **ExcelWorkbook** project.
 
-6.  On menu bar, choose **Project** > **New Folder**.
+6. On menu bar, choose **Project** > **New Folder**.
 
-7.  Enter **Data**, and then choose the **Enter** key.
+7. Enter **Data**, and then choose the **Enter** key.
 
-8.  In **Solution Explorer**, choose the **Data** folder.
+8. In **Solution Explorer**, choose the **Data** folder.
 
 9. On the menu bar, choose **Project** > **Add Existing Item**.
 
@@ -247,13 +247,13 @@ ms.workload:
 
 ### Modify the application manifest
 
-1.  Open the solution directory, **c:\publish**, by using **File Explorer**.
+1. Open the solution directory, **c:\publish**, by using **File Explorer**.
 
-2.  Open the **Application Files** folder, and then open the folder that corresponds to the most recent published version of your solution.
+2. Open the **Application Files** folder, and then open the folder that corresponds to the most recent published version of your solution.
 
-3.  Open the **ExcelWorkbook.dll.manifest** file in a text editor such as Notepad.
+3. Open the **ExcelWorkbook.dll.manifest** file in a text editor such as Notepad.
 
-4.  After the `</vstav3:update>` element, add following code. For the class attribute of the `<vstav3:entryPoint>` element, use the following syntax: *NamespaceName.ClassName*. In the following example, the namespace and class names are the same, so the resulting entry point name is `FileCopyPDA.FileCopyPDA`.
+4. After the `</vstav3:update>` element, add following code. For the class attribute of the `<vstav3:entryPoint>` element, use the following syntax: *NamespaceName.ClassName*. In the following example, the namespace and class names are the same, so the resulting entry point name is `FileCopyPDA.FileCopyPDA`.
 
     ```xml
     <vstav3:postActions>
@@ -274,11 +274,11 @@ ms.workload:
 
 ### Re-sign the application and deployment manifests
 
-1.  In the **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** folder, copy the **ExcelWorkbook_TemporaryKey.pfx** certificate file, and then paste it into the *PublishFolder* **\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ folder.
+1. In the **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** folder, copy the **ExcelWorkbook_TemporaryKey.pfx** certificate file, and then paste it into the *PublishFolder* **\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ folder.
 
-2.  Open the Visual Studio command prompt, and then change directories to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ folder (for example, **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).
+2. Open the Visual Studio command prompt, and then change directories to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ folder (for example, **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).
 
-3.  Sign the modified application manifest by running the following command:
+3. Sign the modified application manifest by running the following command:
 
     ```cmd
     mage -sign ExcelWorkbook.dll.manifest -certfile ExcelWorkbook_TemporaryKey.pfx
@@ -286,7 +286,7 @@ ms.workload:
 
      The message "ExcelWorkbook.dll.manifest successfully signed" appears.
 
-4.  Change to the **c:\publish** folder, and then update and sign the deployment manifest by running the following command:
+4. Change to the **c:\publish** folder, and then update and sign the deployment manifest by running the following command:
 
     ```cmd
     mage -update ExcelWorkbook.vsto -appmanifest "Application Files\Ex
@@ -298,16 +298,16 @@ ms.workload:
 
      The message "ExcelWorkbook.vsto successfully signed" appears.
 
-5.  Copy the *ExcelWorkbook.vsto* file to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentVersionNumber_ directory.
+5. Copy the *ExcelWorkbook.vsto* file to the **c:\publish\Application Files\ExcelWorkbook**\__MostRecentVersionNumber_ directory.
 
 ##  <a name="SharePoint"></a> Put the document of a solution onto a server that's running SharePoint (document-level customizations only)
  You can publish your document-level customization to end users by using SharePoint. When users go to the SharePoint site and open the document, the runtime automatically installs the solution from the shared network folder to the user's local computer. After the solution is installed locally, the customization will still function even if the document is copied elsewhere, such as the desktop.
 
 #### To put the document on a server that's running SharePoint
 
-1.  Add the solution document to a document library on a SharePoint site.
+1. Add the solution document to a document library on a SharePoint site.
 
-2.  Perform the steps for one of the following approaches:
+2. Perform the steps for one of the following approaches:
 
     -   Use the Office Configuration Tool to add the server that's running SharePoint to the Trust Center in Word or Excel on all user computers.
 
@@ -404,40 +404,40 @@ ms.workload:
 
 #### To update the _AssemblyLocation property in a document
 
-1.  On the **File** tab, choose **Info**, which the following illustration shows.
+1. On the **File** tab, choose **Info**, which the following illustration shows.
 
      ![Info tab in Excel](../vsto/media/vsto-infotab.png "Info tab in Excel")
 
-2.  In the **Properties** list, choose **Advanced Properties**, which the following illustration shows.
+2. In the **Properties** list, choose **Advanced Properties**, which the following illustration shows.
 
      ![Advanced Properties in Excel.](../vsto/media/vsto-advanceddocumentproperties.png "Advanced Properties in Excel.")
 
-3.  On the **Custom** tab in the **Properties** list, choose _AssemblyLocation, as the following illustration shows.
+3. On the **Custom** tab in the **Properties** list, choose _AssemblyLocation, as the following illustration shows.
 
      ![The AssemblyLocation property.](../vsto/media/vsto-assemblylocationproperty.png "The AssemblyLocation property.")
 
      The **Value** box contains the deployment manifest identifier.
 
-4.  Before the identifier, enter the fully qualified path of the document, followed by a bar, in the format *Path*|*Identifier* (for example, *File://ServerName/FolderName/FileName|74744e4b-e4d6-41eb-84f7-ad20346fe2d9*.
+4. Before the identifier, enter the fully qualified path of the document, followed by a bar, in the format *Path*|*Identifier* (for example, *File://ServerName/FolderName/FileName|74744e4b-e4d6-41eb-84f7-ad20346fe2d9*.
 
      For more information about how to format this identifier, see [Custom document properties overview](../vsto/custom-document-properties-overview.md).
 
-5.  Choose the **OK** button, and then save and close the document.
+5. Choose the **OK** button, and then save and close the document.
 
-6.  Run the setup program without the /url parameter to install the solution in the specified location.
+6. Run the setup program without the /url parameter to install the solution in the specified location.
 
 ##  <a name="Roll"></a> Roll back a solution to an earlier version
  When you roll back a solution, you revert users back to an earlier version of that solution.
 
 #### To roll back a solution
 
-1.  Open the installation location of the solution.
+1. Open the installation location of the solution.
 
-2.  In the top-level publish folder, delete the deployment manifest (the *.vsto* file).
+2. In the top-level publish folder, delete the deployment manifest (the *.vsto* file).
 
-3.  Find the subfolder for the version to which you want to roll back.
+3. Find the subfolder for the version to which you want to roll back.
 
-4.  Copy the deployment manifest from that subfolder to the top-level publish folder.
+4. Copy the deployment manifest from that subfolder to the top-level publish folder.
 
      For example, to roll back a solution that's called **OutlookAddIn1** from version 1.0.0.1 to version 1.0.0.0, copy the file **OutlookAddIn1.vsto** from the **OutlookAddIn1_1_0_0_0** folder. Paste the file into the top-level publish folder, overwriting the version-specific deployment manifest for **OutlookAddIn1_1_0_0_1** that was already there.
 

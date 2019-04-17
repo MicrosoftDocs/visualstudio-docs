@@ -81,13 +81,13 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 
  The order in which .natvis files are evaluated is as follows:  
 
-1.  .natvis files embedded in a .pdb you are debugging (unless a file of the same name exists in a loaded project)  
+1. .natvis files embedded in a .pdb you are debugging (unless a file of the same name exists in a loaded project)  
 
-2.  .natvis files that are part of a loaded C++ projects or a top-level solution item. This includes all loaded C++ projects, including class libraries, but it does not include projects of other languages (e.g. you can’t load a .natvis file from a C# project). For executable projects, you should use the solution items to host any .natvis files that are not already present in a .pdb, since there is no C++ project available.  
+2. .natvis files that are part of a loaded C++ projects or a top-level solution item. This includes all loaded C++ projects, including class libraries, but it does not include projects of other languages (e.g. you can’t load a .natvis file from a C# project). For executable projects, you should use the solution items to host any .natvis files that are not already present in a .pdb, since there is no C++ project available.  
 
-3.  The user-specific natvis directory (**%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers**  
+3. The user-specific natvis directory (**%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers**  
 
-4.  The system-wide Natvis directory (**%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers**). This is where .natvis files that are installed with Visual Studio are copied. You can add other files to this directory as well if you have administrator permissions.  
+4. The system-wide Natvis directory (**%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers**). This is where .natvis files that are installed with Visual Studio are copied. You can add other files to this directory as well if you have administrator permissions.  
 
 ## Modifying .natvis files while debugging  
  You can modify a .natvis file in the IDE while debugging the project in which it is included. Open the file in the IDE (using the same instance of Visual Studio that you are debugging with), modify it, and save it. As soon as the file is saved, the **Watch** and **Locals** windows should be updated to reflect the change. If you modify the .natvis file outside the IDE, the changes do not take effect automatically. To update the windows, you can evaluate the **.natvisreload** command in the **Watch** window. This causes the changes to take effect without restarting the debug session.  

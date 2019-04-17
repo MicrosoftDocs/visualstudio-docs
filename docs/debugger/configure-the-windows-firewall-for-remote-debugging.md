@@ -96,13 +96,13 @@ On a remote computer, the remote debugging tools are in:
 
 1. Select **Allow an app through Windows Firewall**.
 
-1.  If **Remote Debugger** or **Visual Studio Remote Debugger** doesn't appear under **Allowed apps and features**, select **Change settings**, and then select **Allow another app**.
+1. If **Remote Debugger** or **Visual Studio Remote Debugger** doesn't appear under **Allowed apps and features**, select **Change settings**, and then select **Allow another app**.
 
-1.  If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>, depending on the appropriate architecture for your app. Select *msvsmon.exe*, and then select **Add**.
+1. If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>, depending on the appropriate architecture for your app. Select *msvsmon.exe*, and then select **Add**.
 
-1.  In the **Apps** list, select the **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection.
+1. In the **Apps** list, select the **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection.
 
-1.  Select **Add**, and then select **OK**.
+1. Select **Add**, and then select **OK**.
 
 ## <a name="troubleshooting"></a>Troubleshoot the remote debugging connection
 

@@ -33,41 +33,41 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
 #### To create a class library  
   
-1.  On the **File** menu of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], click **New** and then click **Project**.  
+1. On the **File** menu of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], click **New** and then click **Project**.  
   
-2.  In the **New Project** dialog box, under **Project Types**, click **Visual C#**.  
+2. In the **New Project** dialog box, under **Project Types**, click **Visual C#**.  
   
-3.  Under **Templates**, select **Class Library**.  
+3. Under **Templates**, select **Class Library**.  
   
-4.  In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.  
+4. In the **Name** text box, type **CodeAnalysisManagedDemo** and then click **OK**.  
   
-5.  After the project is created, open the Class1.cs file.  
+5. After the project is created, open the Class1.cs file.  
   
-6.  Replace the existing text in Class1.cs with the following code:  
+6. Replace the existing text in Class1.cs with the following code:  
   
      `//CodeAnalysisManagedDemo //Class1.cs using System;  namespace testCode {          public class demo : Exception     {                  public static void Initialize(int size) { }         protected static readonly int _item;         public static int item { get { return _item; } }     } }`  
   
-7.  Save the Class1.cs file.  
+7. Save the Class1.cs file.  
   
 ## Analyze the project  
   
 #### To analyze a managed project for code defects  
   
-1.  Select the CodeAnalysisManagedDemo project in **Solution Explorer**.  
+1. Select the CodeAnalysisManagedDemo project in **Solution Explorer**.  
   
-2.  On the **Project** menu, click **Properties**.  
+2. On the **Project** menu, click **Properties**.  
   
      The CodeAnalysisManagedDemo properties page is displayed.  
   
-3.  Click **CodeAnalysis**.  
+3. Click **CodeAnalysis**.  
   
-4.  Make sure that  **Enable Code Analysis on Build (defines CODE_ANALYSIS constant**) is checked.  
+4. Make sure that  **Enable Code Analysis on Build (defines CODE_ANALYSIS constant**) is checked.  
   
-5.  From the **Run this rule set** drop-down list, select **Microsoft All Rules**.  
+5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.  
   
-6.  On the **File** menu, click **Save Selected Items**, and then close the ManagedDemo properties pages.  
+6. On the **File** menu, click **Save Selected Items**, and then close the ManagedDemo properties pages.  
   
-7.  On the **Build** menu, click **Build ManagedDemo**.  
+7. On the **Build** menu, click **Build ManagedDemo**.  
   
      The CodeAnalysisManagedDemo project build warnings are reported in the **Code Analysis** and **Output** windows.  
   
@@ -77,15 +77,15 @@ In this walkthrough, you analyze a managed project for code defects by using the
   
 #### To correct code analysis rule violations  
   
-1.  On the **View** menu, click **Error List**.  
+1. On the **View** menu, click **Error List**.  
   
      Depending on the developer profile that you chose, you might have to point to **Other Windows** on the **View** menu, and then click **Error List**.  
   
-2.  In **Solution Explorer**, click **Show All Files**.  
+2. In **Solution Explorer**, click **Show All Files**.  
   
-3.  Next, expand the Properties node, and then open the AssemblyInfo.cs file.  
+3. Next, expand the Properties node, and then open the AssemblyInfo.cs file.  
   
-4.  Use the following  to correct warnings:  
+4. Use the following  to correct warnings:  
   
 - [CA1014: Mark assemblies with CLSCompliantAttribute](../code-quality/ca1014-mark-assemblies-with-clscompliantattribute.md): Microsoft.Design: 'demo' should be marked with the CLSCompliantAttribute, and its value should be true.  
   

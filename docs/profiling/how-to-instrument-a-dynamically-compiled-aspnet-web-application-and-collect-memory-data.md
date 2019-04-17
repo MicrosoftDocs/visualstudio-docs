@@ -25,11 +25,11 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To configure the ASP.NET web application and the web server
 
-1.  Modify the *web.config* file of the target application. See [How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).
+1. Modify the *web.config* file of the target application. See [How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).
 
-2.  Open a command prompt window on the computer that hosts the web application.
+2. Open a command prompt window on the computer that hosts the web application.
 
-3.  Initialize the profiling environment variables. Type:
+3. Initialize the profiling environment variables. Type:
 
      **VSPerfClrEnv /globaltracegc**
 
@@ -41,7 +41,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
     -   **/globaltracegclife** enables the collection of memory allocation data and object lifetime data.
 
-4.  Restart the computer.
+4. Restart the computer.
 
 ## Run the profiling session
 
@@ -111,13 +111,13 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To restore the application and computer configuration
 
-1.  Replace the *web.config* file with a copy of the original file.
+1. Replace the *web.config* file with a copy of the original file.
 
-2.  (Optional). Clear the profiling environment variables. Type:
+2. (Optional). Clear the profiling environment variables. Type:
 
      **VSPerfCmd /globaloff**
 
-3.  Restart the computer.
+3. Restart the computer.
 
 ## See also
 - [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)

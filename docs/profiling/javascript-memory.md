@@ -41,11 +41,11 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
 #### To run the memory analyzer
 
-1.  Open Visual Studio.
+1. Open Visual Studio.
 
-2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either **Local Machine** or **Device**.
+2. If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either **Local Machine** or **Device**.
 
-3.  On the menu bar, choose **Debug** > **Performance Profiler**.
+3. On the menu bar, choose **Debug** > **Performance Profiler**.
 
      By default, the current startup project is analyzed. If you want to change the analysis target, choose **Change Target**.
 
@@ -63,15 +63,15 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 
          Use this option to analyze the memory usage of apps that you have installed on your computer when you don't have access to source code. This option can also be useful when you just want to analyze the memory usage of any app outside your own app development.
 
-4.  From **Available Tools**, select the **JavaScript Memory** check box, and then choose **Start**.
+4. From **Available Tools**, select the **JavaScript Memory** check box, and then choose **Start**.
 
-5.  When you start the memory analyzer, a User Account Control window might request your permission to run Visual Studio ETW Collector.exe. Choose **Yes**.
+5. When you start the memory analyzer, a User Account Control window might request your permission to run Visual Studio ETW Collector.exe. Choose **Yes**.
 
      Interact with the app to test the relevant memory usage scenarios and view the memory graph, as discussed in the following sections.
 
-6.  Switch to Visual Studio by pressing **Alt**+**Tab**.
+6. Switch to Visual Studio by pressing **Alt**+**Tab**.
 
-7.  To view data that the memory analyzer is gathering, choose **Take Heap Snapshot**. See [View a snapshot summary](#view-a-snapshot-summary) later in this topic.
+7. To view data that the memory analyzer is gathering, choose **Take Heap Snapshot**. See [View a snapshot summary](#view-a-snapshot-summary) later in this topic.
 
 ## Check memory usage
  You can try to identify memory leaks by using different views in the JavaScript memory analyzer. If you already suspect that your app is leaking memory, see [Isolate a memory leak](#isolate-a-memory-leak) for a suggested workflow.

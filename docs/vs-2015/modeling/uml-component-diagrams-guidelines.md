@@ -55,13 +55,13 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 #### To create a component diagram  
   
-1.  On the **Architecture** menu, click **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, click **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, click **UML Component Diagram**.  
+2. Under **Templates**, click **UML Component Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then click **OK**..  
+4. In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**, and then click **OK**..  
   
      A new component diagram appears with the UML **Component Diagram** toolbox. The toolbox contains the required elements and relations.  
   
@@ -74,7 +74,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 ##### To create components  
   
-1.  Click **Component** in the toolbox, and then click a blank part of the diagram.  
+1. Click **Component** in the toolbox, and then click a blank part of the diagram.  
   
      \- or -  
   
@@ -90,9 +90,9 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
          A copy of the component appears with a new name.  
   
-2.  Click the name of the component to change it.  
+2. Click the name of the component to change it.  
   
-3.  Click the chevron (5) if you want to see just the component's header.  
+3. Click the chevron (5) if you want to see just the component's header.  
   
 ### Showing the Ports of a Component  
  A *port* (2, 3) represents a group of messages or operation calls that pass either into or out of a component. The group is described by an interface, which defines the port's type. A port can either provide an interface or require an interface.  
@@ -174,7 +174,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 #### To add parts to a component  
   
-1.  Create a part for each major functional unit that you consider to be a part of the parent component.  
+1. Create a part for each major functional unit that you consider to be a part of the parent component.  
   
     1.  Click **Component** in the toolbox, and then click inside the parent component (1).  
   
@@ -206,11 +206,11 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
          The interfaces are added to the part's type, and appear on the part itself. The parent component adjusts its size if necessary.  
   
-2.  Connect the parts to one another.  
+2. Connect the parts to one another.  
   
     -   Use the **Dependency** tool to connect the ports of different parts (6).  
   
-3.  Connect the parts to the parent component's ports:  
+3. Connect the parts to the parent component's ports:  
   
     1.  Create one or more ports (7) on the parent component. Click **Required Interface** or **Provided Interface** on the toolbox, and then click the parent component.  
   
@@ -223,13 +223,13 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 ##### To place a part's type on a diagram  
   
-1.  Determine the fully qualified name of the part's type.  
+1. Determine the fully qualified name of the part's type.  
   
      Right-click the part and then click **Properties**.  
   
      The type name appears in the **Type** field of the Properties window.  
   
-2.  Locate the part's type in **UML Model Explorer**.  
+2. Locate the part's type in **UML Model Explorer**.  
   
      Click **View**, point to **Other Windows**, and then click **UML Model Explorer**.  
   
@@ -239,9 +239,9 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
      You can change its name here if you want to.  
   
-3.  Open or create another component diagram.  
+3. Open or create another component diagram.  
   
-4.  Drag from the type in UML Model Explorer onto the diagram.  
+4. Drag from the type in UML Model Explorer onto the diagram.  
   
      A view of the type appears as a component in the diagram.  
   
@@ -268,23 +268,23 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
   
 ##### To draw a sequence diagram that shows collaboration between parts  
   
-1.  Create a new sequence diagram.  
+1. Create a new sequence diagram.  
   
      For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
-2.  Create a lifeline for an external component, user, device or other actor (1) that sends messages to this component.  
+2. Create a lifeline for an external component, user, device or other actor (1) that sends messages to this component.  
   
      You can set the **Actor** property of this lifeline to true, to indicate that it is external to the component under consideration. A stick figure appears above the lifeline.  
   
-3.  Create a lifeline for the provided interface (2) of this component to which the chosen actor sends messages.  
+3. Create a lifeline for the provided interface (2) of this component to which the chosen actor sends messages.  
   
-4.  Create a lifeline for each part (3) of the component.  
+4. Create a lifeline for each part (3) of the component.  
   
-5.  Create a lifeline for each required interface (4) of the component.  
+5. Create a lifeline for each required interface (4) of the component.  
   
-6.  Draw messages from the external actor (5). Show how the message is passed to the parts, and how they collaborate to respond to the message.  
+6. Draw messages from the external actor (5). Show how the message is passed to the parts, and how they collaborate to respond to the message.  
   
-7.  Where necessary, show messages sent to a required interface (6). Do not show any detail within execution of the message.  
+7. Where necessary, show messages sent to a required interface (6). Do not show any detail within execution of the message.  
   
 ### Is the Component More than its Parts?  
  In some cases, a component is no more than a name given to a collection of parts. All the work is done by the parts, and at run time there is no code or other artifact that represents the component.  

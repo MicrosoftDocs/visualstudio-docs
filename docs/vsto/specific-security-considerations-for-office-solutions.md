@@ -97,17 +97,17 @@ ms.workload:
 
 #### To disable VSTO Add-ins in Microsoft Office 2010 and Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications
 
-1.  Choose the **File** tab.
+1. Choose the **File** tab.
 
-2.  Choose the *ApplicationName* **Options** button.
+2. Choose the *ApplicationName* **Options** button.
 
-3.  In the categories pane, choose **Trust Center**.
+3. In the categories pane, choose **Trust Center**.
 
-4.  In the details pane, choose **Trust Center Settings**.
+4. In the details pane, choose **Trust Center Settings**.
 
-5.  In the categories pane, choose **Add-ins**.
+5. In the categories pane, choose **Add-ins**.
 
-6.  In the details pane, select **Require Application Add-ins to be Signed by Trusted Publisher** or **Disable all Application Add-ins**.
+6. In the details pane, select **Require Application Add-ins to be Signed by Trusted Publisher** or **Disable all Application Add-ins**.
 
 ## See also
 - [Secure Office solutions](../vsto/securing-office-solutions.md)

@@ -34,11 +34,11 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, create a new **Project**.  
   
-2.  Name the project **SavingDataInATransactionWalkthrough**.  
+2. Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -47,13 +47,13 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1. On the **Data** menu, select**Show Data Sources**.  
   
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3. On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
   
-4.  On the **Choose your Data Connection**screen do one of the following:  
+4. On the **Choose your Data Connection**screen do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
@@ -61,13 +61,13 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.  
+6. On the **Save connection string to the Application Configuration file** screen, select **Next**.  
   
-7.  On the **Choose your Database Objects** screen, expand the **Tables** node.  
+7. On the **Choose your Database Objects** screen, expand the **Tables** node.  
   
-8.  Select the `Customers` and `Orders` tables, and then select **Finish**.  
+8. Select the `Customers` and `Orders` tables, and then select **Finish**.  
   
      The **NorthwindDataSet** is added to your project and the `Customers` and `Orders` tables appear in the **Data Sources** window.  
   
@@ -91,9 +91,9 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To add a reference to the System.Transactions DLL file  
   
-1.  On the **Project** menu, select**Add Reference**.  
+1. On the **Project** menu, select**Add Reference**.  
   
-2.  Select **System.Transactions**(on the **.NET** tab), and then select **OK**.  
+2. Select **System.Transactions**(on the **.NET** tab), and then select **OK**.  
   
      A reference to **System.Transactions** is added to the project.  
   

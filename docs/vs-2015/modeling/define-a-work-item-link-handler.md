@@ -26,7 +26,7 @@ You can create a Visual Studio Integration Extension that responds when the user
   
 #### To set up the Visual Studio solution  
   
-1.  Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
+1. Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
   
     1.  On the **File** menu, choose **New**, **Project**.  
   
@@ -36,17 +36,17 @@ You can create a Visual Studio Integration Extension that responds when the user
   
     4.  Set the project Name and Location and click OK.  
   
-2.  Unless your solution already contains one, create a VSIX project.  
+2. Unless your solution already contains one, create a VSIX project.  
   
     1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
   
     2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
     -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
-4.  In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component.  
+4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component.  
   
     1.  On the **MetaData** tab, set a name for the VSIX.  
   
@@ -150,17 +150,17 @@ namespace WorkItems
   
 #### To test the link handler  
   
-1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
+1. Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
      An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts.  
   
      **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start, ensure that the VSIX project is set as the Startup project of the solution.  
   
-2.  In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
+2. In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
   
-3.  Create a model element such as UML class, and set its name.  
+3. Create a model element such as UML class, and set its name.  
   
-4.  Right-click the element and then click **Create Work Item**.  
+4. Right-click the element and then click **Create Work Item**.  
   
     -   If the submenu shows **Open Team Foundation Server Connection**, you will need to close the project, connect to the appropriate TFS, and restart this procedure.  
   
@@ -168,11 +168,11 @@ namespace WorkItems
   
          A new work item form opens.  
   
-5.  Verify that the title of the work item is the same as the model element, if you have used the sample code in the previous section. This demonstrates `OnWorkItemCreated()` has worked.  
+5. Verify that the title of the work item is the same as the model element, if you have used the sample code in the previous section. This demonstrates `OnWorkItemCreated()` has worked.  
   
-6.  Complete the form, save and close the work item.  
+6. Complete the form, save and close the work item.  
   
-7.  Verify that the work item is now colored red. This demonstrates `OnWorkItemLinked()` in the sample code.  
+7. Verify that the work item is now colored red. This demonstrates `OnWorkItemLinked()` in the sample code.  
   
      **Troubleshooting**: If the handler methods have not run, verify that:  
   

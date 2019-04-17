@@ -178,25 +178,25 @@ Stay focused on your work while you find out what happened to your code - withou
   
 -   A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
   
-1.  Go to application code that has unit tests.  
+1. Go to application code that has unit tests.  
   
-2.  Review the tests for that code (**Alt + 3**).  
+2. Review the tests for that code (**Alt + 3**).  
   
      ![CodeLens &#45; Choose test status in code editor](../ide/media/codelenschoosetestindicator.png "CodeLensChooseTestIndicator")  
   
-3.  If you see a warning icon ![CodeLens &#45; Unit tests not yet run warning](../ide/media/codelenstestwarningicon.png "CodeLensTestWarningIcon"), run the tests.  
+3. If you see a warning icon ![CodeLens &#45; Unit tests not yet run warning](../ide/media/codelenstestwarningicon.png "CodeLensTestWarningIcon"), run the tests.  
   
      ![CodeLens &#45; View unit tests not run yet](../ide/media/codelenstestsnotyetrun.png "CodeLensTestsNotYetRun")  
   
-4.  To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.  
+4. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.  
   
      ![CodeLens &#45; Go to unit test definition](../ide/media/codelensunittestdefinition.png "CodeLensUnitTestDefinition")  
   
-5.  Review the test’s results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
+5. Review the test’s results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
   
      ![CodeLens &#45; See unit test result](../ide/media/codelensunittestresult.png "CodeLensUnitTestResult")  
   
-6.  To see how many people changed this test, who changed this test, or how many changes were made to this test, [Find your code's history and linked items](#FindCodeHistory).  
+6. To see how many people changed this test, who changed this test, or how many changes were made to this test, [Find your code's history and linked items](#FindCodeHistory).  
   
 ##  <a name="QA"></a> Q & A  
   
@@ -245,13 +245,13 @@ Stay focused on your work while you find out what happened to your code - withou
   
  To use the keyboard:  
   
-1.  Press **Alt + T + O** to open the **Options** box.  
+1. Press **Alt + T + O** to open the **Options** box.  
   
-2.  Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.  
+2. Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.  
   
-3.  Press **Down Arrow** to go to **Fonts and Colors**.  
+3. Press **Down Arrow** to go to **Fonts and Colors**.  
   
-4.  Press **TAB** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.  
+4. Press **TAB** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.  
   
 ### Q: Can I move the CodeLens heads-up display?  
  **A:** Yes, choose ![CodeLens &#45; Dock as a window](../ide/media/codelensdockwindow.png "CodeLensDockWindow") to dock CodeLens as a window.  

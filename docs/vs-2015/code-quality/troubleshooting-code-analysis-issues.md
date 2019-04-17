@@ -20,11 +20,11 @@ This topic contains troubleshooting information for the following Visual Studio 
 ##  <a name="ChildRuleSetChangesInPreviousVersions"></a> Changes in a Visual Studio 2010 Rule Set Are Not Reflected in Previous Visual Studio Versions  
  When you create a rule set in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] that contains a child rule set, a change to the child rule set might not be applied in code analysis runs on computers that use an earlier version of Visual Studio. To resolve this issue, you must force a rewrite of the parent rule set, that is the rule set that contains the child rule set.  
   
-1.  Open the parent rule set in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)].  
+1. Open the parent rule set in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)].  
   
-2.  Make a change, such as adding or removing a rule, and then save the rule set.  
+2. Make a change, such as adding or removing a rule, and then save the rule set.  
   
-3.  Reopen the rule set, reverse the change, and then save the rule set again.  
+3. Reopen the rule set, reverse the change, and then save the rule set again.  
   
 ## See Also  
  [Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)   

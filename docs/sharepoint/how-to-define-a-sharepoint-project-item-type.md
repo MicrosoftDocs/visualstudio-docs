@@ -20,17 +20,17 @@ ms.workload:
 
 ### To define a project item type
 
-1.  Create a class library project.
+1. Create a class library project.
 
-2.  Add references to the following assemblies:
+2. Add references to the following assemblies:
 
     -   Microsoft.VisualStudio.SharePoint
 
     -   System.ComponentModel.Composition
 
-3.  Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> interface.
+3. Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> interface.
 
-4.  Add the following attributes to the class:
+4. Add the following attributes to the class:
 
     -   <xref:System.ComponentModel.Composition.ExportAttribute>. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> type to the attribute constructor.
 
@@ -38,7 +38,7 @@ ms.workload:
 
     -   <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemIconAttribute>. This attribute specifies the icon to display for this project item in **Solution Explorer**. This attribute is optional; if you do not apply it to your class, Visual Studio displays a default icon for your project item. If you set this attribute, pass the fully qualified name of an icon or bitmap that is embedded in your assembly.
 
-5.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider.InitializeType%2A> method, use members of the *projectItemTypeDefinition* parameter to define the behavior of the project item type. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFileEvents> interfaces. To access a specific instance of your project item type, handle <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents> events such as <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemAdded> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemInitialized>.
+5. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider.InitializeType%2A> method, use members of the *projectItemTypeDefinition* parameter to define the behavior of the project item type. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemFileEvents> interfaces. To access a specific instance of your project item type, handle <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents> events such as <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemAdded> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemInitialized>.
 
 ## Example
  The following code example demonstrates how to define a simple project item type. This project item type writes a message to the **Output** window and **Error List** window when a user adds a project item of this type to a project.

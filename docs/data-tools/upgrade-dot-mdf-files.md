@@ -51,9 +51,9 @@ Before you upgrade a database, consider the following criteria:
 
 ### To upgrade a database file to use the LocalDB version
 
-1.  In **Server Explorer**, select the **Connect to Database** button.
+1. In **Server Explorer**, select the **Connect to Database** button.
 
-2.  In the **Add Connection** dialog box, specify the following information:
+2. In the **Add Connection** dialog box, specify the following information:
 
     -   **Data Source**: `Microsoft SQL Server (SqlClient)`
 
@@ -67,9 +67,9 @@ Before you upgrade a database, consider the following criteria:
 
     -   **Logical Name**: The name that you want to use with the file.
 
-3.  Select the **OK** button.
+3. Select the **OK** button.
 
-4.  When you're prompted, select the **Yes** button to upgrade the file.
+4. When you're prompted, select the **Yes** button to upgrade the file.
 
     The database is upgraded, is attached to the LocalDB database engine, and is no longer compatible with the older version of LocalDB.
 
@@ -77,11 +77,11 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
 
 ### To upgrade a database file to use the SQL Server Express version
 
-1.  On the shortcut menu for the connection to the database, select **Modify Connection**.
+1. On the shortcut menu for the connection to the database, select **Modify Connection**.
 
-2.  In the **Modify Connection** dialog box, select the **Advanced** button.
+2. In the **Modify Connection** dialog box, select the **Advanced** button.
 
-3.  In the **Advanced Properties** dialog box, select the **OK** button without changing the server name.
+3. In the **Advanced Properties** dialog box, select the **OK** button without changing the server name.
 
     The database file is upgraded to match the current version of SQL Server Express.
 
@@ -95,13 +95,13 @@ You can also modify a SQL Server Express connection to use LocalDB by opening th
 
 ### To make SQL Server Express the default database engine
 
-1.  On the menu bar, select **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-2.  In the **Options** dialog box, expand the **Database Tools** options, and then select **Data Connections**.
+2. In the **Options** dialog box, expand the **Database Tools** options, and then select **Data Connections**.
 
-3.  In the **SQL Server Instance Name** text box, specify the name of the instance of SQL Server Express or LocalDB that you want to use. If the instance isn't named, specify `.\SQLEXPRESS or (LocalDB)\MSSQLLocalDB`.
+3. In the **SQL Server Instance Name** text box, specify the name of the instance of SQL Server Express or LocalDB that you want to use. If the instance isn't named, specify `.\SQLEXPRESS or (LocalDB)\MSSQLLocalDB`.
 
-4.  Select the **OK** button.
+4. Select the **OK** button.
 
     SQL Server Express will be the default database engine for your applications.
 

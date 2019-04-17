@@ -48,15 +48,15 @@ static void Main(string[] args)
   
  You can observe the a variable in the QuickWatch window as follows:  
   
-1.  Set a breakpoint on the `a = a + b;` line.  
+1. Set a breakpoint on the `a = a + b;` line.  
   
-2.  Start debugging. Execution stops at the breakpoint.  
+2. Start debugging. Execution stops at the breakpoint.  
   
-3.  Open the **QuickWatch** window (right-click on a, then choose **Debug / QuickWatch**, or **SHIFT+F9**).You can open the window and add the a variable to the **Expression** window, then click **Reevaluate**. You should see the a variable in the **Values** window, with a value of 2.  
+3. Open the **QuickWatch** window (right-click on a, then choose **Debug / QuickWatch**, or **SHIFT+F9**).You can open the window and add the a variable to the **Expression** window, then click **Reevaluate**. You should see the a variable in the **Values** window, with a value of 2.  
   
-4.  The **QuickWatch** window is a modal dialog window, so you can’t continue debugging as long as it is open. You can add the variable to the **Watch** window by clicking **Add Watch**.  
+4. The **QuickWatch** window is a modal dialog window, so you can’t continue debugging as long as it is open. You can add the variable to the **Watch** window by clicking **Add Watch**.  
   
-5.  Close the **QuickWatch** window. Now you can continue debugging while you observe the value in the **Watch** window  
+5. Close the **QuickWatch** window. Now you can continue debugging while you observe the value in the **Watch** window  
   
 ## Observing variables with the Watch window  
  You can observe multiple variables with the **Watch** window. For example, if you have the following code:  
@@ -196,17 +196,17 @@ public class Program
   
  You can add a reference to that `Person` object in the **Watch** window as follows:  
   
-1.  Set a breakpoint in the code some time after the object has been created.  
+1. Set a breakpoint in the code some time after the object has been created.  
   
-2.  Start debugging, and when execution stops in the breakpoint, find the variable in the **Locals** window, right-click it, and select **Make Object ID**.  
+2. Start debugging, and when execution stops in the breakpoint, find the variable in the **Locals** window, right-click it, and select **Make Object ID**.  
   
-3.  You should see a **$** plus a number in the **Locals** window. This is the object ID.  
+3. You should see a **$** plus a number in the **Locals** window. This is the object ID.  
   
-4.  Add the object ID to the Watch window.  
+4. Add the object ID to the Watch window.  
   
-5.  Set a breakpoint where you want to observe the object’s behavior.  In the code above, that would be in the `DoSomething()` method.  
+5. Set a breakpoint where you want to observe the object’s behavior.  In the code above, that would be in the `DoSomething()` method.  
   
-6.  Continue debugging, and when execution stops in the `DoSomething()` method, the **Watch** window displays the `Person` object.  
+6. Continue debugging, and when execution stops in the `DoSomething()` method, the **Watch** window displays the `Person` object.  
   
 > [!NOTE]
 >  If you want to see the object’s properties, such as `Person.Name` in the example above, you must have enabled property evaluation .  

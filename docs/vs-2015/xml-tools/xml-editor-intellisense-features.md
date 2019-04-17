@@ -106,11 +106,11 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
 #### To change the auto-completion behavior  
   
-1.  Select **Options** from the **Tools** menu.  
+1. Select **Options** from the **Tools** menu.  
   
-2.  Expand **Text Editor**, expand **XML**, and select **Miscellaneous**.  
+2. Expand **Text Editor**, expand **XML**, and select **Miscellaneous**.  
   
-3.  Make any changes to the **Auto insert** section and click **OK**.  
+3. Make any changes to the **Auto insert** section and click **OK**.  
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)   

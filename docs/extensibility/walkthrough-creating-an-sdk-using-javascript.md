@@ -23,17 +23,17 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
 
 ##  <a name="createSimpleMathVSIX"></a> To create the SimpleMathVSIX extension SDK project
 
-1.  On the menu bar, choose **File** > **New** > **Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
-2.  In the list of template categories, under **Visual C#**, select **Extensibility**, and then select the **VSIX Project** template.
+2. In the list of template categories, under **Visual C#**, select **Extensibility**, and then select the **VSIX Project** template.
 
-3.  In the **Name** text box, specify `SimpleMathVSIX` and choose the **OK** button.
+3. In the **Name** text box, specify `SimpleMathVSIX` and choose the **OK** button.
 
-4.  If the **Visual Studio Package Wizard** appears, choose the **Next** button on the **Welcome** page, and then on **Page 1 of 7**, choose the **Finish** button.
+4. If the **Visual Studio Package Wizard** appears, choose the **Next** button on the **Welcome** page, and then on **Page 1 of 7**, choose the **Finish** button.
 
      Although the **Manifest Designer** opens, we'll keep this walkthrough simple by modifying the manifest file directly.
 
-5.  In **Solution Explorer**, open the shortcut menu for the **source.extension.vsixmanifest** file, and then choose **View Code**. Use this code to replace the existing content in the file.
+5. In **Solution Explorer**, open the shortcut menu for the **source.extension.vsixmanifest** file, and then choose **View Code**. Use this code to replace the existing content in the file.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -55,11 +55,11 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
     </PackageManifest>
     ```
 
-6.  In **Solution Explorer**, open the shortcut menu for the **SimpleMathVSIX** project, and then choose **Add** > **New Item**.
+6. In **Solution Explorer**, open the shortcut menu for the **SimpleMathVSIX** project, and then choose **Add** > **New Item**.
 
-7.  In the **Data** category, select **XML file**, name the file `SDKManifest.xml`, and choose the **Add** button.
+7. In the **Data** category, select **XML file**, name the file `SDKManifest.xml`, and choose the **Add** button.
 
-8.  In **Solution Explorer**, open the shortcut menu for the **SDKManifest.xml** file, and then choose **Open** to display the file in the **XML Editor**.
+8. In **Solution Explorer**, open the shortcut menu for the **SDKManifest.xml** file, and then choose **Open** to display the file in the **XML Editor**.
 
 9. Add the following code to the **SDKManifest.xml** file.
 

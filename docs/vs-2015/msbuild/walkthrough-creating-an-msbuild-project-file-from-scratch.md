@@ -48,13 +48,13 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To create the minimal application  
   
-1.  At the command prompt, browse to the folder where you want to create the application, for example, \My Documents\ or \Desktop\\.  
+1. At the command prompt, browse to the folder where you want to create the application, for example, \My Documents\ or \Desktop\\.  
   
-2.  Type **md HelloWorld** to create a subfolder named \HelloWorld\\.  
+2. Type **md HelloWorld** to create a subfolder named \HelloWorld\\.  
   
-3.  Type **cd HelloWorld** to change to the new folder.  
+3. Type **cd HelloWorld** to change to the new folder.  
   
-4.  Start Notepad or another text editor, and then type the following code.  
+4. Start Notepad or another text editor, and then type the following code.  
   
     ```  
     using System;  
@@ -72,15 +72,15 @@ Programming languages that target the .NET Framework use MSBuild project files t
     }  
     ```  
   
-5.  Save this source code file and name it Helloworld.cs.  
+5. Save this source code file and name it Helloworld.cs.  
   
-6.  Build the application by typing **csc helloworld.cs** at the command prompt.  
+6. Build the application by typing **csc helloworld.cs** at the command prompt.  
   
-7.  Test the application by typing **helloworld** at the command prompt.  
+7. Test the application by typing **helloworld** at the command prompt.  
   
      The **Hello, world!** message should be displayed.  
   
-8.  Delete the application by typing **del helloworld.exe** at the command prompt.  
+8. Delete the application by typing **del helloworld.exe** at the command prompt.  
   
 ## Creating a Minimal MSBuild Project File  
  Now that you have a minimal application source file, you can create a minimal project file to build the application. This project file contains the following elements:  
@@ -167,11 +167,11 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To build the application  
   
-1.  At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
+1. At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
   
      This builds the Build target of the Helloworld project file by invoking the Visual C# compiler to create the Helloworld application.  
   
-2.  Test the application by typing **helloworld**.  
+2. Test the application by typing **helloworld**.  
   
      The **Hello, world!** message should be displayed.  
   
@@ -254,13 +254,13 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To test the build properties  
   
-1.  At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
+1. At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
   
      This creates the \Bin\ folder and then invokes the Visual C# compiler to create the MSBuildSample application and puts it in the \Bin\ folder.  
   
-2.  To verify that the \Bin\ folder has been created, and that it contains the MSBuildSample application, type **dir Bin**.  
+2. To verify that the \Bin\ folder has been created, and that it contains the MSBuildSample application, type **dir Bin**.  
   
-3.  Test the application by typing **Bin\MSBuildSample**.  
+3. Test the application by typing **Bin\MSBuildSample**.  
   
      The **Hello, world!** message should be displayed.  
   
@@ -329,27 +329,27 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To test the build targets  
   
-1.  At the command prompt, type **msbuild helloworld.csproj /p:AssemblyName=Greetings**.  
+1. At the command prompt, type **msbuild helloworld.csproj /p:AssemblyName=Greetings**.  
   
      Because you did not use the **/t** switch to explicitly set the target, MSBuild runs the default Build target. The **/p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, Greetings.exe, to be created in the \Bin\ folder.  
   
-2.  To verify that the \Bin\ folder contains both the MSBuildSample application and the new Greetings application, type **dir Bin**.  
+2. To verify that the \Bin\ folder contains both the MSBuildSample application and the new Greetings application, type **dir Bin**.  
   
-3.  Test the Greetings application by typing **Bin\Greetings**.  
+3. Test the Greetings application by typing **Bin\Greetings**.  
   
      The **Hello, world!** message should be displayed.  
   
-4.  Delete the MSBuildSample application by typing **msbuild helloworld.csproj /t:clean**.  
+4. Delete the MSBuildSample application by typing **msbuild helloworld.csproj /t:clean**.  
   
      This runs the Clean task to remove the application that has the default `AssemblyName` property value, `MSBuildSample`.  
   
-5.  Delete the Greetings application by typing **msbuild helloworld.csproj /t:clean /p:AssemblyName=Greetings**.  
+5. Delete the Greetings application by typing **msbuild helloworld.csproj /t:clean /p:AssemblyName=Greetings**.  
   
      This runs the Clean task to remove the application that has the given **AssemblyName** property value, `Greetings`.  
   
-6.  To verify that the \Bin\ folder is now empty, type **dir Bin**.  
+6. To verify that the \Bin\ folder is now empty, type **dir Bin**.  
   
-7.  Type **msbuild**.  
+7. Type **msbuild**.  
   
      Although a project file is not specified, MSBuild builds the helloworld.csproj file because there is only one project file in the current folder. This causes the MSBuildSample application to be created in the \Bin\ folder.  
   
@@ -360,7 +360,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 #### To build incrementally  
   
-1.  In the project file, add these attributes to the opening Build target:  
+1. In the project file, add these attributes to the opening Build target:  
   
     ```  
     Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe"  
@@ -377,7 +377,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
     </Target>  
     ```  
   
-2.  Test the Build target by typing **msbuild /v:d** at the command prompt.  
+2. Test the Build target by typing **msbuild /v:d** at the command prompt.  
   
      Remember that helloworld.csproj is the default project file, and that Build is the default target.  
   

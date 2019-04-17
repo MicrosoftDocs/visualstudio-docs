@@ -41,15 +41,15 @@ ms.workload:
 
 #### To create a custom master page in SharePoint Designer
 
-1.  In SharePoint Designer, in the Navigation pane, choose the **Master Pages** site object.
+1. In SharePoint Designer, in the Navigation pane, choose the **Master Pages** site object.
 
-2.  On the **Master Pages** ribbon, choose **Blank Master Page**.
+2. On the **Master Pages** ribbon, choose **Blank Master Page**.
 
-3.  Choose the new master page, and then, on the **Master Pages** ribbon, choose **Edit File**.
+3. Choose the new master page, and then, on the **Master Pages** ribbon, choose **Edit File**.
 
-4.  At the bottom of SharePoint Designer, choose the **Code** tab.
+4. At the bottom of SharePoint Designer, choose the **Code** tab.
 
-5.  Replace the existing markup with the following markup.
+5. Replace the existing markup with the following markup.
 
     ```aspx-csharp
     <%@ Master Language="C#" %>
@@ -70,39 +70,39 @@ ms.workload:
     </html>
     ```
 
-6.  Save the page, choose the **Master Pages** tab, and rename the master page as **mybasic1.master**.
+6. Save the page, choose the **Master Pages** tab, and rename the master page as **mybasic1.master**.
 
 ## Add an image to the content database in SharePoint Designer
  Now you can add an image to display on the site page. The image is deployed to the SharePoint content database.
 
 #### To add an image to the content database in SharePoint Designer
 
-1.  In the Navigation pane, choose the **All Files** site object, and then, in the tree view, choose the **images** folder.
+1. In the Navigation pane, choose the **All Files** site object, and then, in the tree view, choose the **images** folder.
 
-2.  On the **All Files** ribbon, choose **Import Files**, choose a file of your choice, and then choose the **OK** button. In this example, the file is named **myimg1.png**.
+2. On the **All Files** ribbon, choose **Import Files**, choose a file of your choice, and then choose the **OK** button. In this example, the file is named **myimg1.png**.
 
      Optionally, you can create a subfolder to help organize the images.
 
-3.  Close the **Import** dialog box.
+3. Close the **Import** dialog box.
 
 ## Create a site page
  This basic site page uses the custom master page and displays the image that you added in the previous step.
 
 #### To create a site page
 
-1.  In the Navigation pane, choose the **Site Pages** object.
+1. In the Navigation pane, choose the **Site Pages** object.
 
-2.  On the **Pages** ribbon, choose the **Page** button, choose the **ASPX** page type, and then name the new file **mycontentpage1.aspx**.
+2. On the **Pages** ribbon, choose the **Page** button, choose the **ASPX** page type, and then name the new file **mycontentpage1.aspx**.
 
      Optionally, you can create a subfolder to help organize the site pages.
 
-3.  In the site pages list, choose **MyContentPage1.aspx** to open its properties page, and then, at the bottom of the page, choose the **Edit file** link.
+3. In the site pages list, choose **MyContentPage1.aspx** to open its properties page, and then, at the bottom of the page, choose the **Edit file** link.
 
      If a message appears and says that this page doesn't contain any regions that are editable in safe mode and asks whether you want to open this page in advanced mode, choose the **Yes** button.
 
-4.  At the bottom of the page, choose the **Code** button.
+4. At the bottom of the page, choose the **Code** button.
 
-5.  Replace the existing markup with the following markup.
+5. Replace the existing markup with the following markup.
 
     ```aspx-csharp
     <%@ Import Namespace="Microsoft.SharePoint.ApplicationPages" %>
@@ -118,22 +118,22 @@ ms.workload:
     </asp:Content>
     ```
 
-6.  Save the updated site page.
+6. Save the updated site page.
 
 ## Export the items from SharePoint
  Export the items from SharePoint to a SharePoint solution (*.wsp*) file.
 
 #### To export items from SharePoint Designer
 
-1.  In SharePoint Designer, in the Navigation pane, choose the **Team Site** object, and then, on the **Site** ribbon, choose **Save As Template**.
+1. In SharePoint Designer, in the Navigation pane, choose the **Team Site** object, and then, on the **Site** ribbon, choose **Save As Template**.
 
-2.  In the **Save as Template** dialog box, enter a file name and template name, select the **Include Content** check box, and then choose the **OK** button.
+2. In the **Save as Template** dialog box, enter a file name and template name, select the **Include Content** check box, and then choose the **OK** button.
 
      This saves the contents of the site in the *.wsp* file.
 
-3.  After the solution exports, choose the **Solution Gallery** link to display the list of available solution files.
+3. After the solution exports, choose the **Solution Gallery** link to display the list of available solution files.
 
-4.  Open the shortcut menu for the new *.wsp* file, and then choose **Save target as** to save it to the system.
+4. Open the shortcut menu for the new *.wsp* file, and then choose **Save target as** to save it to the system.
 
 ## Import the items into Visual Studio
  Import the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. After the content is imported, you can customize it, add more items, and then deploy it.

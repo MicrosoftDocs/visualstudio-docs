@@ -19,7 +19,7 @@ App Center is mission control for apps.
 
 ## Activation steps
 Getting started with Visual Studio App Center is easy.
-1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Visual Studio App Center tile, and click **Get started**.
     > [!div class="mx-imgBorder"]
@@ -54,9 +54,9 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ### Q:  I get an error that my browser is unsupported.  What's wrong?
 A:  App Center requires newer capabilities that may not be provided by some older browsers.  If your browser isn't supported, follow these steps:
-1.  Open a different browser, such as Microsoft Edge or the latest versions of Google Chrome or Firefox, or Safari.
-2.  Connect to the Visual Studio [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and sign in.
-3.  Now click on the **Get started** link on the Visual Studio App Center tile.
+1. Open a different browser, such as Microsoft Edge or the latest versions of Google Chrome or Firefox, or Safari.
+2. Connect to the Visual Studio [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and sign in.
+3. Now click on the **Get started** link on the Visual Studio App Center tile.
 
 You should now be able to access the App Center portal and create your account.
 

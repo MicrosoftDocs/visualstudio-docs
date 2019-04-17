@@ -28,7 +28,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To start an application with the profiler
 
-1.  At a command prompt, type the following command:
+1. At a command prompt, type the following command:
 
      [VSPerfCmd](../profiling/vsperfcmd.md) **/start:concurrency  /output:** `OutputFile` [`Options`]
 
@@ -42,7 +42,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. The default value is 500.|
     |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.|
 
-2.  Start the target application by typing:
+2. Start the target application by typing:
 
      **VSPerfCmd**  [/launch](../profiling/launch.md) **:** `AppName` [`Options`]
 
@@ -74,10 +74,10 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To end a profiling session
 
-1.  Detach the profiler from the target application by closing it or by typing the following command at a command prompt:
+1. Detach the profiler from the target application by closing it or by typing the following command at a command prompt:
 
      **VSPerfCmd /detach**
 
-2.  Shut down the profiler by typing the following command at a command prompt:
+2. Shut down the profiler by typing the following command at a command prompt:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)

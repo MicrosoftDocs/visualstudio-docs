@@ -20,35 +20,35 @@ The following procedures describe how to use surround-with code snippets. Surrou
   
 ### To use surround-with code snippets through keyboard shortcut  
   
-1.  In the Visual Studio IDE, open the file that you intend to edit.  
+1. In the Visual Studio IDE, open the file that you intend to edit.  
   
-2.  In the Code Editor, select text to surround.  
+2. In the Code Editor, select text to surround.  
   
-3.  Type CTRL+K, CTRL+S.  
+3. Type CTRL+K, CTRL+S.  
   
-4.  Select the code snippet from the code snippet list using the mouse, or by typing the name of the code snippet and pressing TAB or ENTER.  
+4. Select the code snippet from the code snippet list using the mouse, or by typing the name of the code snippet and pressing TAB or ENTER.  
   
 ### To use surround-with code snippets through the Edit menu  
   
-1.  In the Visual Studio IDE, open the file that you intend to edit.  
+1. In the Visual Studio IDE, open the file that you intend to edit.  
   
-2.  In the Code Editor, select text to surround.  
+2. In the Code Editor, select text to surround.  
   
-3.  From the **Edit** menu, select **IntelliSense** and then select the **Surround With** command.  
+3. From the **Edit** menu, select **IntelliSense** and then select the **Surround With** command.  
   
-4.  Select the code snippet from the code snippet inserter and then press TAB or ENTER.  
+4. Select the code snippet from the code snippet inserter and then press TAB or ENTER.  
   
      Alternatively, you can type the name of the code snippet, and then press TAB or ENTER.  
   
 ### To use surround-with code snippets through the context menu  
   
-1.  In the Visual Studio IDE, open the file that you intend to edit.  
+1. In the Visual Studio IDE, open the file that you intend to edit.  
   
-2.  In the Code Editor, select text to surround.  
+2. In the Code Editor, select text to surround.  
   
-3.  Right-click the selected text and then select the **Surround With** command from the context menu.  
+3. Right-click the selected text and then select the **Surround With** command from the context menu.  
   
-4.  Select the code snippet from the code snippet inserter and then press TAB or ENTER.  
+4. Select the code snippet from the code snippet inserter and then press TAB or ENTER.  
   
      Alternatively, you can type the name of the code snippet, and then press TAB or ENTER.  
   

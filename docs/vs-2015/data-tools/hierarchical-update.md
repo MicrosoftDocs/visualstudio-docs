@@ -93,11 +93,11 @@ Hierarchical update* refers to the process of saving updated data (from a datase
   
 #### To add code to commit parent records in the dataset before adding new child records  
   
-1.  Create an event handler for the `OrdersBindingSource.AddingNew` event.  
+1. Create an event handler for the `OrdersBindingSource.AddingNew` event.  
   
     -   Open **Form1** in design view, select **OrdersBindingSource** in the component tray, select **Events** in the **Properties** window, and then double-click the **AddingNew** event.  
   
-2.  Add a line of code to the event handler that calls the `CustomersBindingSource.EndEdit` method. The code in the `OrdersBindingSource_AddingNew` event handler should resemble the following:  
+2. Add a line of code to the event handler that calls the `CustomersBindingSource.EndEdit` method. The code in the `OrdersBindingSource_AddingNew` event handler should resemble the following:  
   
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../snippets/csharp/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/CS/Form1.cs#2)]
      [!code-vb[VSProDataOrcasHierarchicalUpdate#2](../snippets/visualbasic/VS_Snippets_VBCSharp/VSProDataOrcasHierarchicalUpdate/VB/Form1.vb#2)]  

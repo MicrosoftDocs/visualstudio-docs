@@ -22,11 +22,11 @@ ms.workload:
 
 ### To add a property to a project item extension
 
-1.  Define a class with a public property that represents the property you are adding to a project item type. If you want to add multiple properties to a project item type, you can define all the properties in the same class or in different classes.
+1. Define a class with a public property that represents the property you are adding to a project item type. If you want to add multiple properties to a project item type, you can define all the properties in the same class or in different classes.
 
-2.  In the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> method of your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> implementation, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemPropertiesRequested> event of the *projectItemType* parameter.
+2. In the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> method of your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> implementation, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemPropertiesRequested> event of the *projectItemType* parameter.
 
-3.  In the event handler for the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemPropertiesRequested> event, add an instance of your properties class to the <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemPropertiesRequestedEventArgs.PropertySources%2A> collection of the event arguments parameter.
+3. In the event handler for the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.ProjectItemPropertiesRequested> event, add an instance of your properties class to the <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemPropertiesRequestedEventArgs.PropertySources%2A> collection of the event arguments parameter.
 
 ## Example
  The following code example demonstrates how to add a property named **Example Property** to the Event Receiver project item.

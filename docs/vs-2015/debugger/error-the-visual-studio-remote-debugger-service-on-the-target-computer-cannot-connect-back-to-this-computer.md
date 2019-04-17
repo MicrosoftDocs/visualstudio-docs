@@ -42,27 +42,27 @@ This error means that the Visual Studio Remote Debugger service is running under
   
 ### To correct this error  
   
-1.  Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Set Up the Remote Tools on the Device](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c).  
+1. Make sure the Visual Studio Remote Debugger service is correctly set up on the remote computer. For more information, see [Set Up the Remote Tools on the Device](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c).  
   
-2.  Run the remote debugger service under an account that can access the debugger host computer, as shown in the previous table.  
+2. Run the remote debugger service under an account that can access the debugger host computer, as shown in the previous table.  
   
 ### To add "Log on as a service" privilege  
   
-1.  On the **Start** menu, choose **Control Panel**.  
+1. On the **Start** menu, choose **Control Panel**.  
   
-2.  In Control Panel, choose **Classic View**, if necessary.  
+2. In Control Panel, choose **Classic View**, if necessary.  
   
-3.  Double-click **Administrative Tools**.  
+3. Double-click **Administrative Tools**.  
   
-4.  In the Administrative Tools window, double-click **Local Security Policy**.  
+4. In the Administrative Tools window, double-click **Local Security Policy**.  
   
-5.  In the **Local Security Settings** window, expand the **Local Policies** folder.  
+5. In the **Local Security Settings** window, expand the **Local Policies** folder.  
   
-6.  Click **User Rights Assignment**.  
+6. Click **User Rights Assignment**.  
   
-7.  In the **Policy** column, double-click **Log on as a service** to view current local Group Policy assignments in the **Log on as a service** dialog box.  
+7. In the **Policy** column, double-click **Log on as a service** to view current local Group Policy assignments in the **Log on as a service** dialog box.  
   
-8.  To add new users, click the **Add User or Group** button.  
+8. To add new users, click the **Add User or Group** button.  
   
 9. When you are finished adding users, click **OK**.  
   

@@ -42,23 +42,23 @@ In VSTO Add-in projects, you create controls and bind them at run time.
 
 To connect the data object to the BindingSource:
 
-1.  Drag the data field you want from the **Data Sources** window to your document. This automatically creates a control.
+1. Drag the data field you want from the **Data Sources** window to your document. This automatically creates a control.
 
-2.  In your code, create an instance of the type of the object that you chose for the data source.
+2. In your code, create an instance of the type of the object that you chose for the data source.
 
-3.  Assign the instance to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
+3. Assign the instance to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
 
 ### Application-level projects
 
 To connect the data object to the BindingSource:
 
-1.  In your code, create an instance of the type of the object that is associated with the data source.
+1. In your code, create an instance of the type of the object that is associated with the data source.
 
-2.  Create an instance of a <xref:System.Windows.Forms.BindingSource>.
+2. Create an instance of a <xref:System.Windows.Forms.BindingSource>.
 
-3.  Assign the data source instance to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
+3. Assign the data source instance to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
 
-4.  Add the data source as a databinding to the control.
+4. Add the data source as a databinding to the control.
 
 ## See also
 

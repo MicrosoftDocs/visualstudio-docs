@@ -47,15 +47,15 @@ To define a DSL, you must have installed the following components:
 
 To create a new domain-specific language, you create a new Visual Studio solution by using the Domain-Specific Language project template.
 
-1.  On the **File** menu, point to **New**, and then click **Project**.
+1. On the **File** menu, point to **New**, and then click **Project**.
 
-2.  Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.
+2. Under **Project types**, expand the **Other Project Types** node, and click **Extensibility**.
 
-3.  Click **Domain-Specific Language Designer**.
+3. Click **Domain-Specific Language Designer**.
 
      ![Create DSL dialog](../modeling/media/create_dsldialog.png)
 
-4.  In the **Name** box, type **FamilyTree**. Click **OK**.
+4. In the **Name** box, type **FamilyTree**. Click **OK**.
 
      The **Domain-Specific Language Wizard** opens, and displays a list of template DSL solutions.
 
@@ -63,15 +63,15 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
      The templates are useful starting points. Each of them provides a complete working DSL, which you can edit to suit your needs. Ordinarily, you would choose the template nearest what you want to create.
 
-5.  For this walkthrough, choose the **Minimal Language** template.
+5. For this walkthrough, choose the **Minimal Language** template.
 
-6.  Enter a file name extension for your DSL in the appropriate wizard page. This is the extension that files containing instances of your DSL will use.
+6. Enter a file name extension for your DSL in the appropriate wizard page. This is the extension that files containing instances of your DSL will use.
 
     -   Choose an extension that is not associated with any application in your computer, or in any computer where you want to install the DSL. For example, **docx** and **htm** would be unacceptable file name extensions.
 
     -   The wizard will warn you if the extension that you have entered is being used as a DSL. Consider using a different file name extension. You can also reset the Visual Studio SDK Experimental instance to clear out old experimental designers. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
 
-7.  Inspect the other pages and then click **Finish**.
+7. Inspect the other pages and then click **Finish**.
 
      A solution is generated that contains two projects. They are named Dsl and DslPackage. A diagram file opens that is named DslDefinition.dsl.
 
@@ -100,18 +100,18 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 ### To experiment with the DSL
 
-1.  Click **Transform All Templates** in the **Solution Explorer** toolbar. This regenerates most of the source code from DslDefinition.dsl.
+1. Click **Transform All Templates** in the **Solution Explorer** toolbar. This regenerates most of the source code from DslDefinition.dsl.
 
     > [!NOTE]
     > Whenever you change *DslDefinition.dsl*, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
 
-2.  Press **F5**, or on the **Debug** menu, click **Start Debugging**.
+2. Press **F5**, or on the **Debug** menu, click **Start Debugging**.
 
      The DSL builds and is installed in the experimental instance of Visual Studio.
 
      An experimental instance of Visual Studio starts. The experimental instance takes its settings from a separate subtree of the registry, where Visual Studio extensions are registered for debugging purposes. Normal instances of Visual Studio do not have access to extensions registered there.
 
-3.  In the experimental instance of Visual Studio, open the model file named **Test** from **Solution Explorer**.
+3. In the experimental instance of Visual Studio, open the model file named **Test** from **Solution Explorer**.
 
      \- or -
 
@@ -121,13 +121,13 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
      The toolbox opens and displays tools appropriate to the diagram type.
 
-4.  Use the tools to create shapes and connectors on the diagram.
+4. Use the tools to create shapes and connectors on the diagram.
 
     1.  To create shapes, drag from the Example Shape tool onto the diagram.
 
     2.  To connect two shapes, click the Example Connector tool, click the first shape, and then click the second shape.
 
-5.  Click the labels of the shapes to change them.
+5. Click the labels of the shapes to change them.
 
 Your experimental Visual Studio will resemble the following example:
 
@@ -159,11 +159,11 @@ When you change a model file, you will see corresponding changes in generated fi
 
 #### To regenerate text files after you change the model file
 
-1.  In the experimental instance of Visual Studio, save the model file.
+1. In the experimental instance of Visual Studio, save the model file.
 
-2.  Make sure that the file name parameter in each .tt file refers to the model file that you are using for experiments. Save the .tt file.
+2. Make sure that the file name parameter in each .tt file refers to the model file that you are using for experiments. Save the .tt file.
 
-3.  Click **Transform All Templates** in the toolbar of **Solution Explorer**.
+3. Click **Transform All Templates** in the toolbar of **Solution Explorer**.
 
      \- or -
 
@@ -193,11 +193,11 @@ Rename the existing domain classes and relationships. For example, starting from
 
 #### To rename domain classes, relationships and tools
 
-1.  In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.
+1. In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.
 
      ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
 
-2.  Rename the element and connector tools.
+2. Rename the element and connector tools.
 
     1.  Open the DSL Explorer window by clicking the tab under Solution Explorer. If you cannot see it, on the **View** menu point to **Other Windows** and then click **DSL Explorer**. DSL Explorer is visible only when the DSL Definition diagram is the active window.
 
@@ -213,7 +213,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
     6.  In the same manner, change the name of the **ExampleConnector** tool to **ParentLink**. Alter the **Caption** property so that it is not a copy of the Name property. For example, enter **Parent Link**.
 
-3.  Rebuild the DSL.
+3. Rebuild the DSL.
 
     1.  Save the DSL Definition file.
 
@@ -221,15 +221,15 @@ Rename the existing domain classes and relationships. For example, starting from
 
     3.  Press F5. Wait until the experimental instance of Visual Studio appears.
 
-4.  In the Debugging solution in the experimental instance of Visual Studio, open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.
+4. In the Debugging solution in the experimental instance of Visual Studio, open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.
 
-5.  Save the model file.
+5. Save the model file.
 
-6.  Open a .tt file and replace occurrences of the old type and property names with the new names.
+6. Open a .tt file and replace occurrences of the old type and property names with the new names.
 
-7.  Make sure that the file name that is specified in the .tt file specifies your test model.
+7. Make sure that the file name that is specified in the .tt file specifies your test model.
 
-8.  Save the .tt file. Open the generated file to see the result of running the code in the .tt file. Verify that it is correct.
+8. Save the .tt file. Open the generated file to see the result of running the code in the .tt file. Verify that it is correct.
 
 ### Add Domain Properties to Classes
  Add properties to a domain class, for example to represent the years of birth and death of a Person.
@@ -279,7 +279,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
 ##### To add and display a new domain class
 
-1.  Add a domain class and make it a child of the model root.
+1. Add a domain class and make it a child of the model root.
 
     1.  In the DSL Definition diagram, click the **Embedding Relationship** tool, click the root class **FamilyTreeModel**, and then click in an empty part of the diagram.
 
@@ -292,7 +292,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
     2.  Add a domain property to the new class, for example **Name**.
 
-2.  Add a reference relationship between Person and Town.
+2. Add a reference relationship between Person and Town.
 
     1.  Click the **Reference Relationship** tool, click Person and then click Town.
 
@@ -301,7 +301,7 @@ Rename the existing domain classes and relationships. For example, starting from
         > [!NOTE]
         >  Reference relationships represent cross-references from one part of the model tree to another.
 
-3.  Add a shape to represent towns on the model diagrams.
+3. Add a shape to represent towns on the model diagrams.
 
     1.  Drag a **Geometry Shape** from the toolbox to the diagram and rename it, for example **TownShape**.
 
@@ -309,13 +309,13 @@ Rename the existing domain classes and relationships. For example, starting from
 
     3.  Add a Decorator to display the name of the town, and rename it NameDecorator. Set its Position property.
 
-4.  Map the Town domain class to the TownShape.
+4. Map the Town domain class to the TownShape.
 
     1.  Click the **Diagram Element Map** tool, then click the Town domain class, and then the TownShape shape class.
 
     2.  In the **Decorator Maps** tab of the **DSL Details** window with the map connector selected, check NameDecorator and set **Display Property** to Name.
 
-5.  Create a connector to display the relationship between Person and Towns.
+5. Create a connector to display the relationship between Person and Towns.
 
     1.  Drag a Connector from the toolbox to the diagram. Rename it and set its appearance properties.
 
@@ -323,7 +323,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
          ![Family Tree definition with added shape map](../modeling/media/familyt_shapemap.png)
 
-6.  Create an element tool for making a new Town.
+6. Create an element tool for making a new Town.
 
     1.  In **DSL Explorer**, expand **Editor** then **Toolbox Tabs**.
 
@@ -333,7 +333,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
     4.  Set the **Toolbox Icon** property. Click **[...]** and in the **File name** field, select an icon file.
 
-7.  Create a connector tool for making a link between towns and people.
+7. Create a connector tool for making a link between towns and people.
 
     1.  Right-click *\<your DSL>* and then click **Add New Connector Tool**.
 
@@ -343,7 +343,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
     4.  Set the **Toolbox Icon**.
 
-8.  Save the DSL Definition, click **Transform All Templates**, and then press **F5**.
+8. Save the DSL Definition, click **Transform All Templates**, and then press **F5**.
 
 9. In the experimental instance of Visual Studio, open a test model file. Use the new tools to create towns and links between towns and persons. Notice that you can only create links between the correct types of element.
 
@@ -397,9 +397,9 @@ Rename the existing domain classes and relationships. For example, starting from
 
 #### To reset the Visual Studio Experimental instance
 
-1.  Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
+1. Click **Start**, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**.
 
-2.  Rebuild any experimental DSLs or other experimental Visual Studio extensions that you still want to use.
+2. Rebuild any experimental DSLs or other experimental Visual Studio extensions that you still want to use.
 
 ## See also
 

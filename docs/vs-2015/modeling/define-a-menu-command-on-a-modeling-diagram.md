@@ -136,17 +136,17 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
 
 #### To add a menu command to a VSIX project  
 
-1.  You do not need this procedure if you have created the menu command with its own VSIX.  
+1. You do not need this procedure if you have created the menu command with its own VSIX.  
 
-2.  Create a VSIX project, unless your solution already has one.  
+2. Create a VSIX project, unless your solution already has one.  
 
     1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
 
     2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then choose **Extensibility**. In the middle column, choose **VSIX Project**.  
 
-3.  In Solution Explorer, on the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
+3. In Solution Explorer, on the shortcut menu of the VSIX project, choose **Set as StartUp project**.  
 
-4.  Open **source.extension.vsixmanifest**.  
+4. Open **source.extension.vsixmanifest**.  
 
     1.  On the **MetaData** tab, set a name for the VSIX.  
 
@@ -208,7 +208,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
 #### To test the menu command  
 
-1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
+1. Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
 
      An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts.  
 
@@ -220,9 +220,9 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
 
-2.  In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram. Use a diagram that belongs to one of the types that are listed in the attributes of your menu command class.  
+2. In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram. Use a diagram that belongs to one of the types that are listed in the attributes of your menu command class.  
 
-3.  Open the shortcut menu anywhere on the diagram. Your command should appear in the menu.  
+3. Open the shortcut menu anywhere on the diagram. Your command should appear in the menu.  
 
      **Troubleshooting**: If the command does not appear on the menu, make sure that:  
 
@@ -239,21 +239,21 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
 #### To install an extension  
 
-1.  In your computer, find the **.vsix** file that was built by your VSIX project.  
+1. In your computer, find the **.vsix** file that was built by your VSIX project.  
 
     1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
 
     2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
 
-2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
+2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
 
      The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
 
-3.  On the target computer, open the **.vsix** file, for example by double-clicking it.  
+3. On the target computer, open the **.vsix** file, for example by double-clicking it.  
 
      **Visual Studio Extension Installer** opens and installs the extension.  
 
-4.  Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+4. Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
 
 #### To uninstall an extension  
 

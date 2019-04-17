@@ -32,7 +32,7 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
 ## To create a lookup table  
   
-1.  Add one of the following types of data sources with related data to your project:  
+1. Add one of the following types of data sources with related data to your project:  
   
     -   Dataset or Entity Data Model.
 
@@ -43,22 +43,22 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
     > [!NOTE]
     >  Before you can create a lookup table, two related tables or objects must exist as a data source for the project.  
   
-2.  Open the**WPF Designer**, and make sure that the designer contains a container that is a valid drop target for items in the **Data Sources** window.  
+2. Open the**WPF Designer**, and make sure that the designer contains a container that is a valid drop target for items in the **Data Sources** window.  
   
      For more information about valid drop targets, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
-3.  On the **Data** menu, click **Show Data Sources** to open the **Data Sources** window.  
+3. On the **Data** menu, click **Show Data Sources** to open the **Data Sources** window.  
   
-4.  Expand the nodes in the **Data Sources** window, until you can see the parent table or object and the related child table or object.  
+4. Expand the nodes in the **Data Sources** window, until you can see the parent table or object and the related child table or object.  
   
     > [!NOTE]
     >  The related child table or object is the node that appears as an expandable child node under the parent table or object.  
   
-5.  Click the drop-down menu for the child node, and select **Details**.  
+5. Click the drop-down menu for the child node, and select **Details**.  
   
-6.  Expand the child node.  
+6. Expand the child node.  
   
-7.  Under the child node, click the drop-down menu for the item that relates the child and parent data. (In the preceding example, this is the **CustomerID** node.) Select one of the following types of controls that support lookup binding:  
+7. Under the child node, click the drop-down menu for the item that relates the child and parent data. (In the preceding example, this is the **CustomerID** node.) Select one of the following types of controls that support lookup binding:  
   
     -   **ComboBox**  
   
@@ -74,7 +74,7 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
         > [!NOTE]
         >  For information about how to add custom controls to the list of controls you can select for items in the **Data Sources** window, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
-8.  Drag the child node from the **Data Sources** window onto a container in the WPF designer. (In the preceding example, the child node is the **Orders** node.)  
+8. Drag the child node from the **Data Sources** window onto a container in the WPF designer. (In the preceding example, the child node is the **Orders** node.)  
   
      Visual Studio generates XAML that creates new data-bound controls for each of the items that you drag. The XAML also adds a new <xref:System.Windows.Data.CollectionViewSource> for the child table or object to the resources of the drop target. For some data sources, Visual Studio also generates code to load data into the table or object. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   

@@ -23,10 +23,10 @@ Visual Studio uses a common visual language to illustrate the concepts that are 
 
 **Jump to section:**
 
-1.  [Concepts A-Z](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDConcepts)
-2.  [Products and platforms](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDProducts)
-3.  [Common concepts using arrows](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDArrows)
-4.  [Status indicators](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDStatus)
+1. [Concepts A-Z](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDConcepts)
+2. [Products and platforms](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDProducts)
+3. [Common concepts using arrows](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDArrows)
+4. [Status indicators](../../extensibility/ux-guidelines/visual-language-dictionary-for-visual-studio.md#BKMK_VLDStatus)
 
 ##  <a name="BKMK_VLDConcepts"></a> Concepts A-Z
 

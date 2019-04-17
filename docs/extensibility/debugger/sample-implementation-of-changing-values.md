@@ -23,13 +23,13 @@ ms.workload:
 
  The implementation of `IDebugProperty2::SetValueAsString` performs the following tasks:
 
-1.  Evaluates the expression to produce a value.
+1. Evaluates the expression to produce a value.
 
-2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to its memory location and produces an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.
+2. Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to its memory location and produces an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.
 
-3.  Converts the value to a series of bytes.
+3. Converts the value to a series of bytes.
 
-4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to store the bytes in memory.
+4. Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to store the bytes in memory.
 
 ## Managed code
  The following code is an implementation of `IDebugProperty2::SetValueAsString` in managed code.

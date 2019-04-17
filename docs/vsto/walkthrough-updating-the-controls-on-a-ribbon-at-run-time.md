@@ -53,11 +53,11 @@ First, create an Outlook VSTO Add-in project.
 
 ### To create a new Outlook VSTO Add-in project
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **Ribbon_Update_At_Runtime**.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **Ribbon_Update_At_Runtime**.
 
-2.  In the **New Project** dialog box, select **Create directory for solution**.
+2. In the **New Project** dialog box, select **Create directory for solution**.
 
-3.  Save the project to the default project directory.
+3. Save the project to the default project directory.
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -67,25 +67,25 @@ The ribbon for this example will appear when a user composes a new mail message.
 
 ### To design a custom group
 
-1.  On the **Project** menu, click **Add New Item**.
+1. On the **Project** menu, click **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
+2. In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
 
-3.  Change the name of the new Ribbon to **CustomerRibbon**, and then click **Add**.
+3. Change the name of the new Ribbon to **CustomerRibbon**, and then click **Add**.
 
      The *CustomerRibbon.cs* or *CustomerRibbon.vb* file opens in the Ribbon Designer and displays a default tab and group.
 
-4.  Click the Ribbon Designer to select it.
+4. Click the Ribbon Designer to select it.
 
-5.  In the **Properties** window, click the drop-down arrow next to the **RibbonType** property, and then click **Microsoft.Outlook.Mail.Compose**.
+5. In the **Properties** window, click the drop-down arrow next to the **RibbonType** property, and then click **Microsoft.Outlook.Mail.Compose**.
 
      This enables the ribbon to appear when the user composes a new mail message in Outlook.
 
-6.  In the Ribbon Designer, click **Group1** to select it.
+6. In the Ribbon Designer, click **Group1** to select it.
 
-7.  In the **Properties** window, set **Label** to **Customer Purchases**.
+7. In the **Properties** window, set **Label** to **Customer Purchases**.
 
-8.  From the **Office Ribbon Controls** tab of the **Toolbox**, drag a **ComboBox** onto the **Customer Purchases** group.
+8. From the **Office Ribbon Controls** tab of the **Toolbox**, drag a **ComboBox** onto the **Customer Purchases** group.
 
 9. Click **ComboBox1** to select it.
 
@@ -105,17 +105,17 @@ A built-in tab is a tab that is already on the ribbon of an Outlook Explorer or 
 
 ### To add the custom group to a built-in tab
 
-1.  Click the **TabAddins (Built-In)** tab to select it.
+1. Click the **TabAddins (Built-In)** tab to select it.
 
-2.  In the **Properties** window, expand the **ControlId** property, and then set **OfficeId** to **TabNewMailMessage**.
+2. In the **Properties** window, expand the **ControlId** property, and then set **OfficeId** to **TabNewMailMessage**.
 
      This adds the **Customer Purchases** group to the **Messages** tab of the ribbon that appears in a new mail message.
 
-3.  Click the **Customer Purchases** group to select it.
+3. Click the **Customer Purchases** group to select it.
 
-4.  In the **Properties** window, expand the **Position** property, click the drop-down arrow next to the **PositionType** property, and then click **BeforeOfficeId**.
+4. In the **Properties** window, expand the **Position** property, click the drop-down arrow next to the **PositionType** property, and then click **BeforeOfficeId**.
 
-5.  Set the **OfficeId** property to **GroupClipboard**.
+5. Set the **OfficeId** property to **GroupClipboard**.
 
      This positions the **Customer Purchases** group before the **Clipboard** group of the **Messages** tab.
 
@@ -125,23 +125,23 @@ Use the **Data Sources** window to add a typed dataset to your project.
 
 ### To create the data source
 
-1.  On the **Data** menu, click **Add New Data Source**.
+1. On the **Data** menu, click **Add New Data Source**.
 
      This starts the **Data Source Configuration Wizard**.
 
-2.  Select **Database**, and then click **Next**.
+2. Select **Database**, and then click **Next**.
 
-3.  Select **Dataset**, and then click **Next**.
+3. Select **Dataset**, and then click **Next**.
 
-4.  Select a data connection to the Northwind sample Microsoft SQL Server Compact 4.0 database, or add a new connection by using the **New Connection** button.
+4. Select a data connection to the Northwind sample Microsoft SQL Server Compact 4.0 database, or add a new connection by using the **New Connection** button.
 
-5.  After a connection has been selected or created, click **Next**.
+5. After a connection has been selected or created, click **Next**.
 
-6.  Click **Next** to save the connection string.
+6. Click **Next** to save the connection string.
 
-7.  On the **Choose Your Database Objects** page, expand **Tables**.
+7. On the **Choose Your Database Objects** page, expand **Tables**.
 
-8.  Select the check box next to each of the following tables:
+8. Select the check box next to each of the following tables:
 
     1.  **Customers**
 
@@ -251,11 +251,11 @@ To create a customer follow-up email message, select a customer, and then select
 
 ### To test the controls in the custom group
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
      Outlook starts.
 
-2.  In Outlook, on the **File** menu, point to **New**, and then click **Mail Message**.
+2. In Outlook, on the **File** menu, point to **New**, and then click **Mail Message**.
 
      The following actions occur:
 
@@ -265,7 +265,7 @@ To create a customer follow-up email message, select a customer, and then select
 
     -   The **Customers** combo box in the group is updated with the names of customers in the Northwind database.
 
-3.  On the **Message** tab of the ribbon, in the **Customer Purchases** group, select a customer from the **Customers** combo box.
+3. On the **Message** tab of the ribbon, in the **Customer Purchases** group, select a customer from the **Customers** combo box.
 
      The following actions occur:
 
@@ -275,7 +275,7 @@ To create a customer follow-up email message, select a customer, and then select
 
     -   The selected customer's email address is added to the **To** line of the mail message, and the subject and body of the mail message are populated with text.
 
-4.  Click the **Products Purchases** menu, point to any sales order, and then click a product from the sales order.
+4. Click the **Products Purchases** menu, point to any sales order, and then click a product from the sales order.
 
      The product name is added to the body of the mail message.
 

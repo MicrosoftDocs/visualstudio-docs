@@ -29,9 +29,9 @@ The **Configuration Manager** provides a way for you to quickly add a new platfo
 
 ### To configure a project to target a 64-bit platform
 
-1.  On the menu bar, choose **Build** > **Configuration Manager**.
+1. On the menu bar, choose **Build** > **Configuration Manager**.
 
-2.  In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
+2. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.
 
     1.  If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**.
 

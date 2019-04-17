@@ -21,27 +21,27 @@ ms.workload:
 
 ### To define the type descriptor of a parameter
 
-1.  In the **BDC Method Details** window, choose the type descriptor of the parameter.
+1. In the **BDC Method Details** window, choose the type descriptor of the parameter.
 
-2.  On the menu bar, choose **View**, **Properties Window**.
+2. On the menu bar, choose **View**, **Properties Window**.
 
-3.  In the **Properties** window, set the properties of the type descriptor.
+3. In the **Properties** window, set the properties of the type descriptor.
 
      The following procedures describe how to define a type descriptor as a field, entity, or entity collection.
 
 ### To define a field
 
-1.  In the **Properties** window, set the **Name** property of the type descriptor to the name of a field in the type that represents the entity (For example: **FirstName**).
+1. In the **Properties** window, set the **Name** property of the type descriptor to the name of a field in the type that represents the entity (For example: **FirstName**).
 
-2.  In the list next to the **TypeName** property, choose the appropriate data type (for example, **Int32**).
+2. In the list next to the **TypeName** property, choose the appropriate data type (for example, **Int32**).
 
      For information about other optional parameters, see [TypeDescriptor](/previous-versions/office/developer/sharepoint-2007/ms543392\(v\=office.12\)).
 
 ### To define an entity
 
-1.  In the **Properties** window, set the **Name** property to a name that describes the entity (For example: **Contact**).
+1. In the **Properties** window, set the **Name** property to a name that describes the entity (For example: **Contact**).
 
-2.  Set the **TypeName** property to the fully qualified name of the type that represents the entity. This type can be a class in your project, a type defined in an assembly that you reference in your solution, or a type defined in the BDC object model.
+2. Set the **TypeName** property to the fully qualified name of the type that represents the entity. This type can be a class in your project, a type defined in an assembly that you reference in your solution, or a type defined in the BDC object model.
 
     -   For a class in your project, choose the down arrow next to the **TypeName** property, choose the **Current Project** tab in the dialog box that appears, and then choose the class in your project.
 
@@ -61,15 +61,15 @@ ms.workload:
 
          `Microsoft.BusinessData.Runtime.DynamicType`
 
-3.  In the **BDC Method Details** window, open the list that appears for the type descriptor, and then choose **Edit**.
+3. In the **BDC Method Details** window, open the list that appears for the type descriptor, and then choose **Edit**.
 
      The **BDC Explorer** window opens.
 
-4.  In the **BDC Explorer**, open the shortcut menu of the type descriptor, and then choose **Add Type Descriptor**.
+4. In the **BDC Explorer**, open the shortcut menu of the type descriptor, and then choose **Add Type Descriptor**.
 
      A new type descriptor is added as a child to the entity type descriptor. Configure this type descriptor as a field.
 
-5.  Repeat step 4 to add a child type descriptor for each field of the entity.
+5. Repeat step 4 to add a child type descriptor for each field of the entity.
 
 ### To define a collection of entities
 

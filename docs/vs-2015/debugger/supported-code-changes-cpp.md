@@ -117,22 +117,22 @@ If you make one of these changes and then try to apply code changes, an error or
   
  **To disable relinking after Edit and Continue**  
   
-1.  On the **Debug** menu, choose **Options and Settings**.  
+1. On the **Debug** menu, choose **Options and Settings**.  
   
-2.  In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.  
+2. In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.  
   
-3.  Clear the **Relink code changes after debugging** check box.  
+3. Clear the **Relink code changes after debugging** check box.  
   
 ##  <a name="BKMK_Precompiled_Header_Limitations"></a> Precompiled Header Limitations  
  By default, Edit and Continue loads and processes precompiled headers in the background to speed up processing of code changes. Loading precompiled headers requires allocation of physical memory, which can be a problem if you are compiling on a machine with limited RAM. You can determine if this might be a problem by using the Windows Task Manager to determine the amount of available physical memory while you are debugging. If this amount is greater than the size of your precompiled headers, Edit and Continue should have no problem. If the amount is less than the size of your precompiled headers, you can prevent Edit and Continue from loading precompiled headers in the background.  
   
  **To disable background loading of precompiled headers for Edit and Continue**  
   
-1.  On the **Debug** menu, choose **Options and Settings**.  
+1. On the **Debug** menu, choose **Options and Settings**.  
   
-2.  In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.  
+2. In the **Options** dialog box, under the **Debugging** node, and select the **Edit and Continue** node.  
   
-3.  Clear the **Allow Precompiling** check box.  
+3. Clear the **Allow Precompiling** check box.  
   
 ##  <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations  
  Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](http://msdn.microsoft.com/library/04c596f4-c97b-4952-8053-316678b1d0b6).  

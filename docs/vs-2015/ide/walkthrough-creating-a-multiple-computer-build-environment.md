@@ -73,9 +73,9 @@ You can create a build environment within your organization by installing Visual
   
 #### To install software on the computers  
   
-1.  On the host computer, install Visual Studio.  
+1. On the host computer, install Visual Studio.  
   
-2.  On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version starts with "4.5".  
+2. On the build computer, install the .NET Framework 4.5. To verify that it's installed, make sure that the value of the registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full@Version starts with "4.5".  
   
 ##  <a name="CopyingFiles"></a> Copying files from the host computer to the build computer  
  This section covers the copying of specific files, compilers, build tools, MSBuild assets, and registry settings from the host computer to the build computer. These instructions assume that you've installed Visual Studio in the default location on the host computer; if you installed in another location, adjust the steps accordingly.  
@@ -313,7 +313,7 @@ You can create a build environment within your organization by installing Visual
   
 #### To copy assemblies from the host computer and install them on the build computer  
   
-1.  Copy the following assemblies from the host computer to the build computer. Because they will be installed to the GAC, it doesn’t matter where you put them on the build computer.  
+1. Copy the following assemblies from the host computer to the build computer. Because they will be installed to the GAC, it doesn’t matter where you put them on the build computer.  
   
     -   %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.Build.CPPTasks.Common.v110.dll  
   
@@ -321,7 +321,7 @@ You can create a build environment within your organization by installing Visual
   
     -   %ProgramFiles%\Microsoft Visual Studio 11.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.VCProjectEngine.dll  
   
-2.  To install the assemblies to the GAC, locate gacutil.exe on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough.  
+2. To install the assemblies to the GAC, locate gacutil.exe on the build computer—typically, it's in %ProgramFiles%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\\. If you can't locate this folder, repeat the steps in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough.  
   
      Open a Command Prompt window that has administrative rights and run this command for each file:  
   
@@ -354,13 +354,13 @@ You can create a build environment within your organization by installing Visual
   
 #### To create a build environment that can be checked into source control  
   
-1.  Create a "Depot" directory on the host computer.  
+1. Create a "Depot" directory on the host computer.  
   
      These steps refer to the directory as %Depot%.  
   
-2.  Copy the directories and files as described in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the %Depot% directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.  
+2. Copy the directories and files as described in the [Copying files from the host computer to the build computer](../ide/walkthrough-creating-a-multiple-computer-build-environment.md#CopyingFiles) section of this walkthrough, except paste them under the %Depot% directory that you just created. For example, copy from %ProgramFiles%\Windows Kits\8.0\bin\ to %Depot%\Windows Kits\8.0\bin\\.  
   
-3.  When the files are pasted in %Depot%, make these changes:  
+3. When the files are pasted in %Depot%, make these changes:  
   
     -   In %Depot%\MSBuild\Microsoft.Cpp\v4.0\v110\Microsoft.CPP.Targets, \Microsoft.Cpp.InvalidPlatforms.targets\\, \Microsoft.cppbuild.targets\\, and \Microsoft.CppCommon.targets\\, change every instance of  
   
@@ -380,7 +380,7 @@ You can create a build environment within your organization by installing Visual
   
          AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll”.  
   
-4.  Create a .props file—for example, Partner.AutoImports.props—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other .props files and .targets files that rely on registry values. Because we aren’t setting any registry values, these variables would be empty and the build would fail. Instead, add this to Partner.AutoImports.props:  
+4. Create a .props file—for example, Partner.AutoImports.props—and put it at the root of the folder that contains your projects. This file is used to set variables that are used by MSBuild to find various resources. If the variables are not set by this file, they are set by other .props files and .targets files that rely on registry values. Because we aren’t setting any registry values, these variables would be empty and the build would fail. Instead, add this to Partner.AutoImports.props:  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -403,13 +403,13 @@ You can create a build environment within your organization by installing Visual
     </Project>  
     ```  
   
-5.  In each of your project files, add the following line at the top, after the `<Project Default Targets…>` line.  
+5. In each of your project files, add the following line at the top, after the `<Project Default Targets…>` line.  
   
     ```  
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>  
     ```  
   
-6.  Change the command-line environment as follows:  
+6. Change the command-line environment as follows:  
   
     -   Set Depot=*location of the Depot directory that you created in step 1*  
   

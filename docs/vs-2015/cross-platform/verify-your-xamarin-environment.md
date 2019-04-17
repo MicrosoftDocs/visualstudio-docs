@@ -32,11 +32,11 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
 1. Check that you have the latest Android SDK tools installed by going to **Tools > Android > Android SDK Manager** and installing the newest version of the Android SDK Tools, Android SDK Platform-tools, and Android SDK Build-tools components. Note that it is not necessary to always install the latest Android API level; the API you need depends on the platform level you want to target. In general, installing Xamarin will install the platform level it requires.  
 
-2.  Validate the Android designer: in the Android project in Solution Explorer, open the **Resources > Layout > Main.axml** file. (If you aren't seeing this file directly, try searching for it in Solution Explorer; it exists in the Android project only and not in the iOS project.)  
+2. Validate the Android designer: in the Android project in Solution Explorer, open the **Resources > Layout > Main.axml** file. (If you aren't seeing this file directly, try searching for it in Solution Explorer; it exists in the Android project only and not in the iOS project.)  
   
     - If you receive an error saying "The installed Android SDK is too old", click **Open Android SDK** in that message to select and install the newest SDK version tools available as in step 1 above. 
   
-3.  Validate building and debugging in the emulator (or device):  
+3. Validate building and debugging in the emulator (or device):  
   
     -   Right-click the Android project in Solution Explorer and select **Set as Startup Project**.  
   
@@ -58,9 +58,9 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
 ## Windows Phone  
   
-1.  Validate the Windows Phone designer: in the Windows Phone project in Solution Explorer, open the **MainPage.xaml** file.  
+1. Validate the Windows Phone designer: in the Windows Phone project in Solution Explorer, open the **MainPage.xaml** file.  
   
-2.  Validate building and debugging in the emulator or on a device (note: you will need to have the Windows Phone emulator installed through Visual Studio setup for this step, or a tethered device):  
+2. Validate building and debugging in the emulator or on a device (note: you will need to have the Windows Phone emulator installed through Visual Studio setup for this step, or a tethered device):  
   
     -   Right-click the Windows Phone project in Solution Explorer and select **Set as Startup Project**.  
   
@@ -72,11 +72,11 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
 ## iOS  
   
-1.  Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com).  
+1. Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com).  
   
-2.  Validate the storyboard designer: in the iOS project in Solution Explorer, open the **Main.storyboard** file. Here, Visual Studio is hosting the designer that’s running remotely on the Mac.  
+2. Validate the storyboard designer: in the iOS project in Solution Explorer, open the **Main.storyboard** file. Here, Visual Studio is hosting the designer that’s running remotely on the Mac.  
   
-3.  Validate building and debugging:  
+3. Validate building and debugging:  
   
     1.  Right-click the iOS project in Solution Explorer and select **Set as Startup Project**.  
   
@@ -101,8 +101,8 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
 ##  <a name="missing"></a> Are the Xamarin project templates missing? Try this  
  Templates might be missing if you install Xamarin directly from the Xamarin website and you have Visual Studio 2013 and Visual Studio 2015 installed side-by-side. It’s easy to fix, though: just enable the **Xamarin for Visual Studio 2015** feature in the Xamarin setup program.  
   
-1.  In Control Panel, open **Programs and Features**, choose the **Xamarin** item, and click **Change**.  
+1. In Control Panel, open **Programs and Features**, choose the **Xamarin** item, and click **Change**.  
   
-2.  In the setup wizard for Xamarin that appears,  click **Next** and then **Change**.  
+2. In the setup wizard for Xamarin that appears,  click **Next** and then **Change**.  
   
-3.  In the list of optional features to install, expand **Xamarin for Visual Studio 2015**, choose **will be installed on local drive**, and click **Next** to proceed with adding the feature.
+3. In the list of optional features to install, expand **Xamarin for Visual Studio 2015**, choose **will be installed on local drive**, and click **Next** to proceed with adding the feature.

@@ -150,9 +150,9 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ### Open the IntelliTrace log and matching solution  
   
-1.  Open the IntelliTrace log (.iTrace file) from Visual Studio Enterprise. Or just double-click the file if you have Visual Studio Enterprise on the same computer.  
+1. Open the IntelliTrace log (.iTrace file) from Visual Studio Enterprise. Or just double-click the file if you have Visual Studio Enterprise on the same computer.  
   
-2.  Choose **Open solution** to have Visual Studio automatically open the matching solution or project, if the project wasn't built as part of a solution. [Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?](#InvalidConfigFile)  
+2. Choose **Open solution** to have Visual Studio automatically open the matching solution or project, if the project wasn't built as part of a solution. [Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?](#InvalidConfigFile)  
   
      Visual Studio automatically shelves any pending changes when it opens the matching solution or project. To get more details about this shelveset, look in the **Output** window or **Team Explorer**.  
   
@@ -176,13 +176,13 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ### Diagnose a performance problem  
   
-1.  Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.  
+1. Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.  
   
      ![View performance event details](../debugger/media/ffr-itsummarypageperformance.png "FFR_ITSummaryPagePerformance")  
   
      You can also just double-click the event.  
   
-2.  On the event page, review the execution times for these calls. Find a slow call in the execution tree.  
+2. On the event page, review the execution times for these calls. Find a slow call in the execution tree.  
   
      The slowest calls appear in their own section when you have multiple calls, nested or otherwise.  
   
@@ -200,7 +200,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
 ### Diagnose an exception  
   
-1.  Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.  
+1. Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.  
   
      ![Start debugging from exception event](../debugger/media/ffr-itsummarypageexception.png "FFR_ITSummaryPageException")  
   
@@ -234,11 +234,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 ####  <a name="InvalidConfigFile"></a> Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?  
  This might happen when you deploy from your development computer or you're not connected to TFS during deployment.  
   
-1.  Go to your project's deployment folder.  
+1. Go to your project's deployment folder.  
   
-2.  Find and open the build manifest (BuildInfo.config file).  
+2. Find and open the build manifest (BuildInfo.config file).  
   
-3.  Make sure the file has the required information:  
+3. Make sure the file has the required information:  
   
 - **ProjectName**  
   

@@ -40,15 +40,15 @@ ms.workload:
 ## SharePoint permissions considerations
  To develop SharePoint solutions, you must have sufficient permissions to run and debug SharePoint solutions. Before you can test a SharePoint solution, take the following steps to ensure that you have the necessary permissions:
 
-1.  Add your user account as an Administrator on the system.
+1. Add your user account as an Administrator on the system.
 
-2.  Add your user account as a Farm Administrator for the SharePoint server.
+2. Add your user account as a Farm Administrator for the SharePoint server.
 
     1.  In SharePoint 2010 Central Administration, choose the **Manage the farm administrators group** link.
 
     2.  On the **Farm Administrators** page, choose the **New** menu option
 
-3.  Add your user account to the to the WSS_ADMIN_WPG group.
+3. Add your user account to the to the WSS_ADMIN_WPG group.
 
 ## Additional security resources
  For more information about security issues, see the following.

@@ -34,13 +34,13 @@ To visualize your software system's high-level, logical architecture, create a *
   
 #### To add a new layer diagram to a modeling project  
   
-1.  On the **Architecture** menu, choose **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, choose **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, choose **Layer Diagram**.  
+2. Under **Templates**, choose **Layer Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.  
+4. In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.  
   
      -or-  
   
@@ -49,7 +49,7 @@ To visualize your software system's high-level, logical architecture, create a *
     > [!NOTE]
     >  The layer diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.  
   
-5.  Make sure to save both the modeling project and the layer diagram.  
+5. Make sure to save both the modeling project and the layer diagram.  
   
 ##  <a name="CreateLayers"></a> Create layers from artifacts  
  You can create layers from Visual Studio solution items, such as projects, code files, namespaces, classes, and methods. This automatically creates links between layers and items, including them in the layer validation process.  
@@ -82,11 +82,11 @@ To visualize your software system's high-level, logical architecture, create a *
   
 ##  <a name="Managing"></a> Manage links between layers and artifacts  
   
-1.  On the layer diagram, open the shortcut menu for the layer, and then choose **View Links**.  
+1. On the layer diagram, open the shortcut menu for the layer, and then choose **View Links**.  
   
      **Layer Explorer** shows the artifact links for the selected layer.  
   
-2.  Use the following tasks to manage these links:  
+2. Use the following tasks to manage these links:  
   
 |**To**|**In Layer Explorer**|  
 |------------|---------------------------|  

@@ -38,21 +38,21 @@ You can flag a thread that you want to give special attention by marking it with
   
 ### To flag Just My Code  
   
-1.  On the toolbar at the top of the **Threads** window, click the flag icon.  
+1. On the toolbar at the top of the **Threads** window, click the flag icon.  
   
-2.  In the drop-down list, click **Flag Just My Code**.  
+2. In the drop-down list, click **Flag Just My Code**.  
   
 ### To flag threads that are associated with selected modules  
   
-1.  On the toolbar of the **Threads** window, click the flag icon.  
+1. On the toolbar of the **Threads** window, click the flag icon.  
   
-2.  In the drop-down list, click **Flag Custom Module Selection**.  
+2. In the drop-down list, click **Flag Custom Module Selection**.  
   
-3.  In the **Select Modules** dialog box, select the modules that you want.  
+3. In the **Select Modules** dialog box, select the modules that you want.  
   
-4.  (Optional) In the **Search** box, type a string to search for specific modules.  
+4. (Optional) In the **Search** box, type a string to search for specific modules.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   

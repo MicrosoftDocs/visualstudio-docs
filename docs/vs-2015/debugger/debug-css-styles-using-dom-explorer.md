@@ -52,11 +52,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To view and change CSS rules  
   
-1.  In Visual Studio, create a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app using JavaScript and HTML in the Split App project template.  
+1. In Visual Studio, create a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app using JavaScript and HTML in the Split App project template.  
   
-2.  In **Solution Explorer**, open items.css. (You can find items.css in the pages folder.)  
+2. In **Solution Explorer**, open items.css. (You can find items.css in the pages folder.)  
   
-3.  Replace the following CSS code:  
+3. Replace the following CSS code:  
   
     ```css  
     .itemspage .itemslist .item {  
@@ -83,30 +83,30 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      This adds a style that specifies the color #ff6a00 (orange) for each item in the list. The CSS selector, `.itemspage .itemslist .item`, indicates a set of class names for DIV elements in items.html, which appear as nested elements in the live DOM. The `item` DIV element specifies the list items.  
   
-4.  Select **Simulator** in the drop-down list on the **Debug** toolbar (**Local Machine** is the default value).  
+4. Select **Simulator** in the drop-down list on the **Debug** toolbar (**Local Machine** is the default value).  
   
      ![Select debug target list](../debugger/media/js-select-target.png "JS_Select_Target")  
   
-5.  Press F5 to run your app in debug mode.  
+5. Press F5 to run your app in debug mode.  
   
      When the app finishes loading, look at the headings of the list items, such as **Group Title: 1**. The color is unchanged, so the attempt to apply an orange color to the titles didn't work. We'll figure out what went wrong and fix it by using the CSS tabs in DOM Explorer.  
   
     > [!TIP]
     >  After the app appears in the Simulator, position the Simulator right next to the Visual Studio window so you can immediately see the results of your selections and changes you make to CSS styles.  
   
-6.  Switch to Visual Studio and click **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click. Here is the **Select Element** button. ![Select Element Button in DOM Explorer](../debugger/media/js-dom-select-element-button.png "JS_DOM_Select_Element_Button")  
+6. Switch to Visual Studio and click **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click. Here is the **Select Element** button. ![Select Element Button in DOM Explorer](../debugger/media/js-dom-select-element-button.png "JS_DOM_Select_Element_Button")  
   
     > [!TIP]
     >  You can also select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
   
-7.  In the Simulator, hover over the title of the first item in the list, **Group Title: 1**, in the left panel of the home page. The title is highlighted, as shown here:  
+7. In the Simulator, hover over the title of the first item in the list, **Group Title: 1**, in the left panel of the home page. The title is highlighted, as shown here:  
   
      ![Using the Select Element button](../debugger/media/js-css-select-element.png "JS_CSS_Select_Element")  
   
     > [!NOTE]
     >  The Windows Phone Emulator only partially supports highlighting elements by hovering.  
   
-8.  Click the outlined title. DOM Explorer automatically selects the corresponding HTML element, which looks similar to this.  
+8. Click the outlined title. DOM Explorer automatically selects the corresponding HTML element, which looks similar to this.  
   
     ```html  
     <h4 class="item-title">Group Title: 1</h4>  

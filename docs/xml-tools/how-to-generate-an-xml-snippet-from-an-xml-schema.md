@@ -44,31 +44,31 @@ Default values are generated and noted as editable values. If the schema specifi
 
 ### To create a new XML file and associate it with an XML schema
 
-1.  On the **File** menu, point to **New**, and click **File**.
+1. On the **File** menu, point to **New**, and click **File**.
 
-2.  Select **XML File** in the **Templates** pane and click **Open**.
+2. Select **XML File** in the **Templates** pane and click **Open**.
 
      A new file is opened in the editor. The file contains a default XML declaration, `<?xml version="1.0" encoding="utf-8">`.
 
-3.  In the document properties window, click the browse button (**...**) on the **Schemas** field.
+3. In the document properties window, click the browse button (**...**) on the **Schemas** field.
 
      The **XSD Schemas** dialog box is displayed.
 
-4.  Click **Add**.
+4. Click **Add**.
 
      The **Open XSD Schema** dialog box is displayed.
 
-5.  Select the schema file and click **Open**.
+5. Select the schema file and click **Open**.
 
-6.  Click **OK**.
+6. Click **OK**.
 
      The XML schema is now associated with the XML document.
 
 ### To generate an XML snippet
 
-1.  Type `<` in the editor pane.
+1. Type `<` in the editor pane.
 
-2.  The members list displays the possible items:
+2. The members list displays the possible items:
 
      **!--** to add a comment.
 
@@ -78,11 +78,11 @@ Default values are generated and noted as editable values. If the schema specifi
 
      **Contact** to add the root element.
 
-3.  Select **Contact** from the member list and press **Enter**.
+3. Select **Contact** from the member list and press **Enter**.
 
      The editor adds the start tag `<Contact` and positions the cursor after the element name.
 
-4.  Press **Tab** to generate XML data for the `Contact` element based on its schema information.
+4. Press **Tab** to generate XML data for the `Contact` element based on its schema information.
 
 ## Input
 

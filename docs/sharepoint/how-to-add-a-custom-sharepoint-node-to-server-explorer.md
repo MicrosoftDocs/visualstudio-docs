@@ -21,9 +21,9 @@ ms.workload:
 
 ### To define the new node
 
-1.  Create a class library project.
+1. Create a class library project.
 
-2.  Add references to the following assemblies:
+2. Add references to the following assemblies:
 
     -   Microsoft.VisualStudio.SharePoint
 
@@ -33,15 +33,15 @@ ms.workload:
 
     -   System.Drawing
 
-3.  Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeProvider> interface.
+3. Create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeProvider> interface.
 
-4.  Add the following attributes to the class:
+4. Add the following attributes to the class:
 
     -   <xref:System.ComponentModel.Composition.ExportAttribute>. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeProvider> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeProvider> type to the attribute constructor.
 
     -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeTypeAttribute>. In a node definition, this attribute specifies the string identifier for the new node. We recommend that you use the format *company name*.*node name* to make sure that all nodes have a unique identifier.
 
-5.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeProvider.InitializeType%2A> method, use members of the *typeDefinition* parameter to configure the behavior of the new node. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeDefinition> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents> interface.
+5. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeProvider.InitializeType%2A> method, use members of the *typeDefinition* parameter to configure the behavior of the new node. This parameter is an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeDefinition> object that provides access to the events defined in the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents> interface.
 
      The following code example demonstrates how to define a new node. This example assumes that your project contains an icon named CustomChildNodeIcon as an embedded resource.
 
@@ -50,11 +50,11 @@ ms.workload:
 
 ### To add the new node as a child of an existing node
 
-1.  In the same project as your node definition, create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> interface.
+1. In the same project as your node definition, create a class that implements the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> interface.
 
-2.  Add the <xref:System.ComponentModel.Composition.ExportAttribute> attribute to the class. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> type to the attribute constructor.
+2. Add the <xref:System.ComponentModel.Composition.ExportAttribute> attribute to the class. This attribute enables Visual Studio to discover and load your <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> implementation. Pass the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> type to the attribute constructor.
 
-3.  Add the <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeTypeAttribute> attribute to the class. In a node extension, this attribute specifies the string identifier for the type of node that you want to extend.
+3. Add the <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeTypeAttribute> attribute to the class. In a node extension, this attribute specifies the string identifier for the type of node that you want to extend.
 
      To specify built-in node types provided by Visual Studio, pass one of the following enumeration values to the attribute constructor:
 
@@ -62,9 +62,9 @@ ms.workload:
 
     -   <xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions.ExtensionNodeTypes>: Use these values to specify one of the built-in nodes that represent an individual component on a SharePoint site, such as a node that represents a list, field, or content type.
 
-4.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension.Initialize%2A> method, handle the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeChildrenRequested> event of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType> parameter.
+4. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension.Initialize%2A> method, handle the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeChildrenRequested> event of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeType> parameter.
 
-5.  In the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeChildrenRequested> event handler, add the new node to the child nodes collection of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeEventArgs.Node%2A> object that is exposed by the event arguments parameter.
+5. In the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeEvents.NodeChildrenRequested> event handler, add the new node to the child nodes collection of the <xref:Microsoft.VisualStudio.SharePoint.Explorer.ExplorerNodeEventArgs.Node%2A> object that is exposed by the event arguments parameter.
 
      The following code example demonstrates how to add the new node as a child of the SharePoint site node in **Server Explorer**.
 

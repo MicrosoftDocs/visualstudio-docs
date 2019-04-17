@@ -86,41 +86,41 @@ You can add these members to types on a class diagram and configure those member
   
 #### To create a member using Class Designer  
   
-1.  Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.  
+1. Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.  
   
      A new member signature is created and added to the type. It is given a default name that you can change in **Class Designer**, the **Class Details** window, or in the **Properties** window.  
   
-2.  Optionally, specify other details about the member, such as its type.  
+2. Optionally, specify other details about the member, such as its type.  
   
 #### To create a member using the Class Details Window toolbar  
   
-1.  On the diagram surface, select the type to which you want to add a member.  
+1. On the diagram surface, select the type to which you want to add a member.  
   
      The type obtains focus and its contents are displayed in the Class Details window.  
   
-2.  In the Class Details window toolbar, click the top icon and select **New \<member>** from the drop-list.  
+2. In the Class Details window toolbar, click the top icon and select **New \<member>** from the drop-list.  
   
      The cursor moves to the **Name** field in a row for the kind of member you want to add. For example, if you clicked **New Property**, the cursor moves to a new row in the **Properties** section of the Class Details window.  
   
-3.  Type the name of the member you want to create and press Enter (or otherwise move focus, such as by pressing Tab).  
+3. Type the name of the member you want to create and press Enter (or otherwise move focus, such as by pressing Tab).  
   
      A new member signature is created and added to the type. The member now exists in code and is displayed in **Class Designer**, the Class Details window, and the Properties window.  
   
-4.  Optionally, specify other details about the member, such as its type.  
+4. Optionally, specify other details about the member, such as its type.  
   
 #### To create a member using the Class Details Window  
   
-1.  On the diagram surface, select the type to which you want to add a member.  
+1. On the diagram surface, select the type to which you want to add a member.  
   
      The type obtains focus and its contents are displayed in the Class Details window.  
   
-2.  In the Class Details window, in the section that contains the kind of member you want to add, click **\<add member>**. For example, if you want to add a field, click **\<add field>**.  
+2. In the Class Details window, in the section that contains the kind of member you want to add, click **\<add member>**. For example, if you want to add a field, click **\<add field>**.  
   
-3.  Type the name of the member you want to create and press Enter.  
+3. Type the name of the member you want to create and press Enter.  
   
      A new member signature is created and added to the type. The member now exists in code and is displayed in the **Class Designer**, the Class Details window, and the Properties window.  
   
-4.  Optionally, specify other details about the member, such as its type.  
+4. Optionally, specify other details about the member, such as its type.  
   
      **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md).  
   
@@ -169,11 +169,11 @@ You can add these members to types on a class diagram and configure those member
   
 #### To modify a type member  
   
-1.  Using Class Designer, select a type.  
+1. Using Class Designer, select a type.  
   
-2.  If the Class Details window is not displayed, click the **Class Details Window** button on the Class Designer toolbar.  
+2. If the Class Details window is not displayed, click the **Class Details Window** button on the Class Designer toolbar.  
   
-3.  Edit the values in the fields of the Class Details window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.  
+3. Edit the values in the fields of the Class Details window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.  
   
     > [!NOTE]
     >  If you want to modify only the name of a member, you can do so by using in-place editing.  
@@ -217,35 +217,35 @@ You can add these members to types on a class diagram and configure those member
   
 ###  <a name="HowToAddParameterToMethod"></a> To add a parameter to a method  
   
-1.  On the diagram surface, click the type containing the method to which you want to add a parameter.  
+1. On the diagram surface, click the type containing the method to which you want to add a parameter.  
   
      The type obtains focus and its contents display in the Class Details window.  
   
-2.  In the Class Details window, expand the row of the method to which you want to add a parameter.  
+2. In the Class Details window, expand the row of the method to which you want to add a parameter.  
   
      An indented parameter row appears, containing only a pair of parentheses and the words **\<add parameter>.**  
   
-3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
+3. Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
   
      The new parameter is added to the method and the method’s code. It displays in the Class Details window and the Properties window.  
   
-4.  Optionally, specify other details about the parameter, such as its type.  
+4. Optionally, specify other details about the parameter, such as its type.  
   
 ### To add an optional parameter to a method  
   
-1.  On the diagram surface, click the type containing the method to which you want to add an optional parameter.  
+1. On the diagram surface, click the type containing the method to which you want to add an optional parameter.  
   
      The type obtains focus and its contents display in the Class Details window.  
   
-2.  In the Class Details window, expand the row of the method to which you want to add an optional parameter.  
+2. In the Class Details window, expand the row of the method to which you want to add an optional parameter.  
   
      An indented parameter row appears, containing only a pair of parentheses and the words **\<add parameter>.**  
   
-3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
+3. Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
   
      The new parameter is added to the method and the method’s code. It displays in the Class Details window and the Properties window.  
   
-4.  In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.  
+4. In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.  
   
     > [!NOTE]
     >  Optional parameters must be the last parameters in the parameter list.  

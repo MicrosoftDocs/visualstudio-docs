@@ -32,11 +32,11 @@ You can require that code analysis be run on all code projects in a team project
   
 ### To open the check-in policy editor  
   
-1.  In Team Explorer, right-click the team project name, point to **Team Project Settings**, and then click **Source Control**.  
+1. In Team Explorer, right-click the team project name, point to **Team Project Settings**, and then click **Source Control**.  
   
-2.  In the **Source Control** dialog box, select the **Check-in Policy** tab.  
+2. In the **Source Control** dialog box, select the **Check-in Policy** tab.  
   
-3.  Do one of the following:  
+3. Do one of the following:  
   
     -   Click **Add** to create a new check-in policy.  
   

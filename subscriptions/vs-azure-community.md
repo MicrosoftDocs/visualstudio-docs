@@ -35,7 +35,7 @@ Getting started with Azure Community is easy.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png)
 
-4.  Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
+4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png)
 

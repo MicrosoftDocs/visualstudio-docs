@@ -34,13 +34,13 @@ The following procedures describe how to debug both managed and native code, als
   
 ### To enable mixed-mode debugging  
   
-1.  In **Solution Explorer**, select the project.  
+1. In **Solution Explorer**, select the project.  
   
-2.  On the **View** menu, click **Property Pages**.  
+2. On the **View** menu, click **Property Pages**.  
   
-3.  In the **\<Project> Property Pages** dialog box, expand the **Configuration Properties** node, and then select **Debugging**.  
+3. In the **\<Project> Property Pages** dialog box, expand the **Configuration Properties** node, and then select **Debugging**.  
   
-4.  Set **Debugger Type** to **Mixed** or **Auto**.  
+4. Set **Debugger Type** to **Mixed** or **Auto**.  
   
 ## See Also  
  [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md)

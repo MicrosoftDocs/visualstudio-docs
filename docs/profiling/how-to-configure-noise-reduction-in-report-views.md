@@ -26,11 +26,11 @@ Performance reports can be configured for noise reduction by limiting the amount
 
 ### To configure trimming for a performance report
 
-1.  When either a Call Tree view or Allocation view is displayed in the generated report, on the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.
+1. When either a Call Tree view or Allocation view is displayed in the generated report, on the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.
 
      The **Noise Reduction** dialog box appears.
 
-2.  To enable trimming, follow these steps:
+2. To enable trimming, follow these steps:
 
     1.  Select **Enable Trimming**. This is the default setting.
 
@@ -43,17 +43,17 @@ Performance reports can be configured for noise reduction by limiting the amount
 
     4.  To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.
 
-3.  To disable trimming, clear **Enable Trimming**.
+3. To disable trimming, clear **Enable Trimming**.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ### To configure folding for a performance report
 
-1.  On the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.
+1. On the **Developer** menu, click **Profiler** and then click **Noise Reduction Options**.
 
      The **Noise Reduction** dialog box appears.
 
-2.  To enable folding, follow these steps:
+2. To enable folding, follow these steps:
 
     1.  Select **Enable Folding**. This is the default setting.
 
@@ -66,9 +66,9 @@ Performance reports can be configured for noise reduction by limiting the amount
 
     4.  To enable the noise reduction warning in the generated report, select **Display warning when Noise Reduction is enabled**. This is the default setting.
 
-3.  To disable folding, clear **Enable Folding**.
+3. To disable folding, clear **Enable Folding**.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ## See also
 - [Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)

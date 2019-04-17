@@ -23,24 +23,24 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
 ## Adding an Icon to a Command  
  The following procedure assumes that you have an existing VSPackage project with a menu command. To find out how to do this, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-1.  Create a bitmap with a color depth of 32-bits. An icon is always 16 x 16 so this bitmap must be 16 pixels high and a multiple of 16 pixels wide.  
+1. Create a bitmap with a color depth of 32-bits. An icon is always 16 x 16 so this bitmap must be 16 pixels high and a multiple of 16 pixels wide.  
   
      Each icon is placed on the bitmap next to each other in a single row. Use the alpha channel to indicate places of transparency in each icon.  
   
      If you use an 8-bit color depth, use magenta, `RGB(255,0,255)`, as the transparency. However, 32-bit color icons are preferred.  
   
-2.  Copy the icon file to the Resources directory in your VSPackage project. In the Solution Explorer, add the icon to the project. (Select Resources, and on the context menu click Add, then Existing Item, and select your icon file.)  
+2. Copy the icon file to the Resources directory in your VSPackage project. In the Solution Explorer, add the icon to the project. (Select Resources, and on the context menu click Add, then Existing Item, and select your icon file.)  
   
-3.  Open the .vsct file in the editor.  
+3. Open the .vsct file in the editor.  
   
-4.  Add a `GuidSymbol` element with a name of **testIcon**. Create a GUID (**Tools / Create GUID**, then select **Registry Format** and click Copy) and paste it into the `value` attribute. The result should look like this:  
+4. Add a `GuidSymbol` element with a name of **testIcon**. Create a GUID (**Tools / Create GUID**, then select **Registry Format** and click Copy) and paste it into the `value` attribute. The result should look like this:  
   
     ```xml  
     <!-- Create your own GUID -->  
     <GuidSymbol name="testIcon" value="{00000000-0000-0000-0000-0000}">  
     ```  
   
-5.  Add an `<IDSymbol>` for the icon. The `name` attribute is the icon's ID, and the `value` indicates its position on the strip, if any. If there is just one icon, add 1. The result should look like this:  
+5. Add an `<IDSymbol>` for the icon. The `name` attribute is the icon's ID, and the `value` indicates its position on the strip, if any. If there is just one icon, add 1. The result should look like this:  
   
     ```xml  
     <!-- Create your own GUID -->  
@@ -49,7 +49,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
     </GuidSymbol>  
     ```  
   
-6.  Create a `<Bitmap>` in the `<Bitmaps>` section of the .vsct file to represent the bitmap containing the icons.  
+6. Create a `<Bitmap>` in the `<Bitmaps>` section of the .vsct file to represent the bitmap containing the icons.  
   
     -   Set the `guid` value to the name of the `<GuidSymbol>` element you created in the previous step.  
   
@@ -63,7 +63,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
         <Bitmap guid="testIcon" href="Resources\<icon file name>" usedList="testIcon1"/>  
         ```  
   
-7.  In the existing `<Button>` element, set the `Icon` element to the GUIDSymbol and IDSymbol values you created earlier. Here’s an example of a Button element with those values:  
+7. In the existing `<Button>` element, set the `Icon` element to the GUIDSymbol and IDSymbol values you created earlier. Here’s an example of a Button element with those values:  
   
     ```xml  
     <Button guid="guidAddIconCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">  
@@ -75,7 +75,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
     </Button>  
     ```  
   
-8.  Test your icon. Build the project and start debugging. In the experimental instance, find the command. It should show the icon you added.  
+8. Test your icon. Build the project and start debugging. In the experimental instance, find the command. It should show the icon you added.  
   
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   

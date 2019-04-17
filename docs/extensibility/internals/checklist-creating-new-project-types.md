@@ -15,15 +15,15 @@ ms.workload:
 # Checklist: Create new project types
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks:
 
-1.  Design the functionality for your new project type. For more information, see [Project type design decisions](../../extensibility/internals/project-type-design-decisions.md).
+1. Design the functionality for your new project type. For more information, see [Project type design decisions](../../extensibility/internals/project-type-design-decisions.md).
 
-2.  Determine which editors are used for code and other project elements. You can use the core or standard editors, or you can create and use project-specific editors. For more information, see [Create custom editors and designers](../../extensibility/creating-custom-editors-and-designers.md) and [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md).
+2. Determine which editors are used for code and other project elements. You can use the core or standard editors, or you can create and use project-specific editors. For more information, see [Create custom editors and designers](../../extensibility/creating-custom-editors-and-designers.md) and [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md).
 
-3.  Determine the level of participation your project items will have in the **Class View** and the **Object Browser**. For more information, see [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md).
+3. Determine the level of participation your project items will have in the **Class View** and the **Object Browser**. For more information, see [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md).
 
-4.  Derive new classes based on design decisions that you made previously for your project and project items.
+4. Derive new classes based on design decisions that you made previously for your project and project items.
 
-5.  Write the code for the following project type components:
+5. Write the code for the following project type components:
 
     -   Project factory, to manage creating new projects and opening existing projects. For more information, see [Create project instances by using project factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).
 
@@ -45,11 +45,11 @@ You must complete several tasks to create a new project type. The following chec
 
     -   XML command table (*.vsct*) files. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
 
-6.  Test, debug, and start your project type.
+6. Test, debug, and start your project type.
 
-7.  Display your project in the **Project** tab of the **Add Reference** dialog box by setting `VARIANT_TRUE` as the value for `VSHPROPID_ShowProjInSolutionPage`. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A>.
+7. Display your project in the **Project** tab of the **Add Reference** dialog box by setting `VARIANT_TRUE` as the value for `VSHPROPID_ShowProjInSolutionPage`. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A>.
 
-8.  Create the Microsoft Installer (*.msi*) file for installing your VSPackages. For more information, see [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md), [Register a project type](../../extensibility/internals/registering-a-project-type.md), and [VSPackages](../../extensibility/internals/vspackages.md).
+8. Create the Microsoft Installer (*.msi*) file for installing your VSPackages. For more information, see [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md), [Register a project type](../../extensibility/internals/registering-a-project-type.md), and [VSPackages](../../extensibility/internals/vspackages.md).
 
 ## See also
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

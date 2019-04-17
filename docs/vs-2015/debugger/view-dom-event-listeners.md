@@ -35,23 +35,23 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 #### To view event listeners
 
-1.  In Visual Studio, create a JavaScript app that uses the Windows Phone Pivot Application project template.
+1. In Visual Studio, create a JavaScript app that uses the Windows Phone Pivot Application project template.
 
-2.  With the template open in Visual Studio, select **Emulator 8.1 WVGA 4in 512MB** in the drop-down list on the Debug toolbar in the debugger:
+2. With the template open in Visual Studio, select **Emulator 8.1 WVGA 4in 512MB** in the drop-down list on the Debug toolbar in the debugger:
 
      ![Selecting a debug target](../debugger/media/js-dom-debug-target-emu.png "JS_DOM_Debug_Target_Emu")
 
-3.  Press F5 to run the app in debug mode.
+3. Press F5 to run the app in debug mode.
 
-4.  In the running app, go to the **Section 3** pivot item.
+4. In the running app, go to the **Section 3** pivot item.
 
-5.  Switch to Visual Studio (Alt+Tab or F12).
+5. Switch to Visual Studio (Alt+Tab or F12).
 
-6.  In DOM Explorer, choose `Find` in the upper-right corner.
+6. In DOM Explorer, choose `Find` in the upper-right corner.
 
-7.  Type `ListView`, and then press Enter.
+7. Type `ListView`, and then press Enter.
 
-8.  If necessary, choose the **Next** button to find the `DIV` element that represents the `ListView` control (this element has a `data-win-control` value of `WinJS.UI.ListView`).
+8. If necessary, choose the **Next** button to find the `DIV` element that represents the `ListView` control (this element has a `data-win-control` value of `WinJS.UI.ListView`).
 
      The `DIV` element should now be selected in DOM Explorer.
 

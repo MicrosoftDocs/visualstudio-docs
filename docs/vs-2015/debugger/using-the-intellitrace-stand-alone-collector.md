@@ -55,21 +55,21 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ##  <a name="GetStarted"></a> How do I get started?
 
-1.  [Install the collector](#BKMK_Install_the_IntelliTrace_Stand_Alone_Collector)
+1. [Install the collector](#BKMK_Install_the_IntelliTrace_Stand_Alone_Collector)
 
-2.  [Set up permissions for the collector directory](#ConfigurePermissionsRunningCollector)
+2. [Set up permissions for the collector directory](#ConfigurePermissionsRunningCollector)
 
-3.  [Install IntelliTrace PowerShell cmdlets to collect data for Web apps or SharePoint applications](#BKMK_Set_up_the_IntelliTrace_PowerShell_commandlets)
+3. [Install IntelliTrace PowerShell cmdlets to collect data for Web apps or SharePoint applications](#BKMK_Set_up_the_IntelliTrace_PowerShell_commandlets)
 
-4.  [Set up permissions for the .iTrace file directory](#BKMK_Create_and_Configure_a_Log_File_Directory)
+4. [Set up permissions for the .iTrace file directory](#BKMK_Create_and_Configure_a_Log_File_Directory)
 
-5.  [Collect data from a Web app or SharePoint application](#BKMK_Collect_Data_from_IIS_Application_Pools)
+5. [Collect data from a Web app or SharePoint application](#BKMK_Collect_Data_from_IIS_Application_Pools)
 
      -or-
 
      [Collect data from a managed app](#BKMK_Collect_Data_from_Executables)
 
-6.  [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
+6. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
 ##  <a name="BKMK_Install_the_IntelliTrace_Stand_Alone_Collector"></a> Install the collector
 
@@ -110,13 +110,13 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ##  <a name="ConfigurePermissionsRunningCollector"></a> Set up permissions for the collector directory
 
-1.  On your app’s server, open a command prompt window as an administrator.
+1. On your app’s server, open a command prompt window as an administrator.
 
-2.  Use the Windows **icacls** command to give the server administrator full permissions to the collector directory. For example:
+2. Use the Windows **icacls** command to give the server administrator full permissions to the collector directory. For example:
 
      `icacls "C:\IntelliTraceCollector" /grant "` *\<Domain\AdministratorID>* `":F`
 
-3.  To collect data for a Web app or SharePoint application:
+3. To collect data for a Web app or SharePoint application:
 
     1.  Give the person who will run the IntelliTrace PowerShell cmdlets full permissions to the collector directory.
 
@@ -138,11 +138,11 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ##  <a name="BKMK_Set_up_the_IntelliTrace_PowerShell_commandlets"></a> Install IntelliTrace PowerShell cmdlets to collect data for Web apps or SharePoint applications
 
-1.  On your app’s server, make sure that PowerShell is enabled. On most versions of Windows Server, you can add this feature in the **Server Manager** administrative tool.
+1. On your app’s server, make sure that PowerShell is enabled. On most versions of Windows Server, you can add this feature in the **Server Manager** administrative tool.
 
      ![Adding PowerShell by using Server Manager](../debugger/media/intellitrace-servermanager-addpowershell.png "INTELLITRACE_ServerManager_AddPowerShell")
 
-2.  Install the IntelliTrace PowerShell cmdlets.
+2. Install the IntelliTrace PowerShell cmdlets.
 
     1.  Open a PowerShell command window as an administrator.
 
@@ -206,7 +206,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 ##  <a name="BKMK_Collect_Data_from_IIS_Application_Pools"></a> Collect data from a Web app or SharePoint application
 
-1.  To start collecting data, open a PowerShell command window as an administrator, then run this command:
+1. To start collecting data, open a PowerShell command window as an administrator, then run this command:
 
      `Start-IntelliTraceCollection` `"` *\<ApplicationPool>* `"` *\<PathToCollectionPlan>* *\<FullPathToITraceFileDirectory>*
 
@@ -227,28 +227,28 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
      *Can I open the .iTrace file at this time?* No, the file is locked during data collection.
 
-2.  Reproduce the problem.
+2. Reproduce the problem.
 
-3.  To take a snapshot of the .iTrace file, use this syntax:
+3. To take a snapshot of the .iTrace file, use this syntax:
 
      `Checkpoint-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 
-4.  To check collection status, use this syntax:
+4. To check collection status, use this syntax:
 
      `Get-IntelliTraceCollectionStatus`
 
-5.  To stop collecting data, use this syntax:
+5. To stop collecting data, use this syntax:
 
      `Stop-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 
     > [!IMPORTANT]
     >  After you run this command, type **Y** to confirm that you want to stop collecting data. Otherwise, the collector might continue collecting data, the iTrace file will remain locked, or the file might not contain any useful data.
 
-6.  [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
+6. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
 ##  <a name="BKMK_Collect_Data_from_Executables"></a> Collect data from a managed app
 
-1.  To start your app and collect data at the same time, use this syntax:
+1. To start your app and collect data at the same time, use this syntax:
 
      *\<FullPathToIntelliTraceCollectorExecutable>* `\IntelliTraceSC.exe launch /cp:` *\<PathToCollectionPlan>* `/f:` *\<FullPathToITraceFileDirectoryAndFileName>* *\<PathToAppExecutableFileAndFileName>*
 
@@ -263,18 +263,18 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
     |*FullPathToITraceFileDirectoryAndFileName*|The full path to the .iTrace file directory and the .iTrace file name with the **.itrace** extension. **Security Note:**  Provide the full path, not a relative path.|
     |*PathToAppExecutableFileAndFileName*|The path and file name of your managed app|
 
-2.  Stop data collection by exiting the app.
+2. Stop data collection by exiting the app.
 
-3.  [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
+3. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
 ##  <a name="BKMK_View_IntelliTrace_Log_Files"></a> Open the .iTrace file in Visual Studio Enterprise
 
 > [!NOTE]
 >  To debug with IntelliTrace and step through code, you must have the matching source files and symbol files. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
-1.  Move the .iTrace file or copy it to a computer with Visual Studio Enterprise (but not Professional or Community editions).
+1. Move the .iTrace file or copy it to a computer with Visual Studio Enterprise (but not Professional or Community editions).
 
-2.  Double-click the .iTrace file outside Visual Studio, or open the file from inside Visual Studio.
+2. Double-click the .iTrace file outside Visual Studio, or open the file from inside Visual Studio.
 
      Visual Studio shows the **IntelliTrace Summary** page. In most sections, you can review events or other items, choose an item, and start debugging with IntelliTrace at the point where and when an event happened. See [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
 

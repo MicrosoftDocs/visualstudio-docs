@@ -36,7 +36,7 @@ ms.workload:
 
 ### To insert text in a range
 
-1.  Specify a range at the beginning of a document and insert the text **New Text**.
+1. Specify a range at the beginning of a document and insert the text **New Text**.
 
      The following code example can be used in a document-level customization.
 
@@ -48,7 +48,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomationAddIn#51](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#51)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#51](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#51)]
 
-2.  Select the <xref:Microsoft.Office.Interop.Word.Range> object, which has expanded from one character to the length of the inserted text.
+2. Select the <xref:Microsoft.Office.Interop.Word.Range> object, which has expanded from one character to the length of the inserted text.
 
      [!code-vb[Trin_VstcoreWordAutomation#52](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#52)]
      [!code-csharp[Trin_VstcoreWordAutomation#52](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#52)]
@@ -58,7 +58,7 @@ ms.workload:
 
 ### To replace text in a range
 
-1.  Create a <xref:Microsoft.Office.Interop.Word.Range> object that consists of the first 12 characters in the document.
+1. Create a <xref:Microsoft.Office.Interop.Word.Range> object that consists of the first 12 characters in the document.
 
      The following code example can be used in a document-level customization.
 
@@ -70,12 +70,12 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomationAddIn#53](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#53)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#53](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#53)]
 
-2.  Replace those characters with the string **New Text**.
+2. Replace those characters with the string **New Text**.
 
      [!code-vb[Trin_VstcoreWordAutomation#54](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#54)]
      [!code-csharp[Trin_VstcoreWordAutomation#54](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#54)]
 
-3.  Select the range.
+3. Select the range.
 
      [!code-vb[Trin_VstcoreWordAutomation#55](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#55)]
      [!code-csharp[Trin_VstcoreWordAutomation#55](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#55)]

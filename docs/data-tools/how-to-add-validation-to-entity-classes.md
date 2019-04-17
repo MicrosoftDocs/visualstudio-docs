@@ -27,15 +27,15 @@ ms.workload:
 
 ### To validate data during a column's value change
 
-1.  Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
 
-2.  In the **O/R Designer**, right-click the class for which you want to add validation and then click **View Code**.
+2. In the **O/R Designer**, right-click the class for which you want to add validation and then click **View Code**.
 
      The Code Editor opens with a partial class for the selected entity class.
 
-3.  Place the cursor in the partial class.
+3. Place the cursor in the partial class.
 
-4.  For Visual Basic projects:
+4. For Visual Basic projects:
 
     1.  Expand the **Method Name** list.
 
@@ -73,15 +73,15 @@ ms.workload:
 
 ### To validate data during an update to an entity class
 
-1.  Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
 
-2.  Right-click an empty area on the **O/R Designer** and click **View Code**.
+2. Right-click an empty area on the **O/R Designer** and click **View Code**.
 
      The Code Editor opens with a partial class for the `DataContext`.
 
-3.  Place the cursor in the partial class for the `DataContext`.
+3. Place the cursor in the partial class for the `DataContext`.
 
-4.  For Visual Basic projects:
+4. For Visual Basic projects:
 
     1.  Expand the **Method Name** list.
 

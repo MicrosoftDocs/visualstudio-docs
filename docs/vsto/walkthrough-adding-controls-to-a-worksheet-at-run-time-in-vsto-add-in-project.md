@@ -43,40 +43,40 @@ ms.workload:
 
 ### To create a new Excel VSTO Add-in project
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Excel VSTO Add-in project with the name **ExcelDynamicControls**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Excel VSTO Add-in project with the name **ExcelDynamicControls**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  Add a reference to the **Microsoft.Office.Tools.Excel.v4.0.Utilities.dll** assembly. This reference is required to programmatically add a Windows Forms control to a worksheet later in this walkthrough.
+2. Add a reference to the **Microsoft.Office.Tools.Excel.v4.0.Utilities.dll** assembly. This reference is required to programmatically add a Windows Forms control to a worksheet later in this walkthrough.
 
 ## Provide a UI to add controls to a worksheet
  Add a custom tab to the Excel Ribbon. Users can select check boxes on the tab to add controls to a worksheet.
 
 #### To provide a UI to add controls to a worksheet
 
-1.  On the **Project** menu, click **Add New Item**.
+1. On the **Project** menu, click **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**, and then click **Add**.
+2. In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**, and then click **Add**.
 
      A file named **Ribbon1.cs** or **Ribbon1.vb** opens in the Ribbon Designer and displays a default tab and group.
 
-3.  From the **Office Ribbon Controls** tab of the **Toolbox**, drag a CheckBox control onto **group1**.
+3. From the **Office Ribbon Controls** tab of the **Toolbox**, drag a CheckBox control onto **group1**.
 
-4.  Click **CheckBox1** to select it.
+4. Click **CheckBox1** to select it.
 
-5.  In the **Properties** window, change the following properties.
+5. In the **Properties** window, change the following properties.
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**Button**|
     |**Label**|**Button**|
 
-6.  Add a second check box to **group1**, and then change the following properties.
+6. Add a second check box to **group1**, and then change the following properties.
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**NamedRange**|
     |**Label**|**NamedRange**|
 
-7.  Add a third check box to **group1**, and then change the following properties.
+7. Add a third check box to **group1**, and then change the following properties.
 
     |Property|Value|
     |--------------|-----------|
@@ -88,33 +88,33 @@ ms.workload:
 
 ### To add controls to a worksheet
 
-1.  In the Ribbon Designer, double-click **Button**.
+1. In the Ribbon Designer, double-click **Button**.
 
      The <xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox.Click> event handler of the **Button** check box opens in the Code Editor.
 
-2.  Replace the `Button_Click` event handler with the following code.
+2. Replace the `Button_Click` event handler with the following code.
 
      This code uses the `GetVstoObject` method to get a host item that represents the first worksheet in the workbook, and then adds a <xref:Microsoft.Office.Tools.Excel.Controls.Button> control to the currently selected cell.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#2](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#2)]
      [!code-vb[Trin_Excel_Dynamic_Controls#2](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#2)]
 
-3.  In **Solution Explorer**, select *Ribbon1.cs* or *Ribbon1.vb*.
+3. In **Solution Explorer**, select *Ribbon1.cs* or *Ribbon1.vb*.
 
-4.  On the **View** menu, click **Designer**.
+4. On the **View** menu, click **Designer**.
 
-5.  In the Ribbon Designer, double-click **NamedRange**.
+5. In the Ribbon Designer, double-click **NamedRange**.
 
-6.  Replace the `NamedRange_Click` event handler with the following code.
+6. Replace the `NamedRange_Click` event handler with the following code.
 
      This code uses the `GetVstoObject` method to get a host item that represents the first worksheet in the workbook, and then defines a <xref:Microsoft.Office.Tools.Excel.NamedRange> control for the currently selected cell or cells.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#3](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/Ribbon1.cs#3)]
      [!code-vb[Trin_Excel_Dynamic_Controls#3](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/Ribbon1.vb#3)]
 
-7.  In the Ribbon Designer, double-click **ListObject**.
+7. In the Ribbon Designer, double-click **ListObject**.
 
-8.  Replace the `ListObject_Click` event handler with the following code.
+8. Replace the `ListObject_Click` event handler with the following code.
 
      This code uses the `GetVstoObject` method to get a host item that represents the first worksheet in the workbook, and then defines a <xref:Microsoft.Office.Tools.Excel.ListObject> for the currently selected cell or cells.
 
@@ -131,16 +131,16 @@ ms.workload:
 
 ### To remove controls from the worksheet
 
-1.  In **Solution Explorer**, select *ThisAddIn.cs* or *ThisAddIn.vb*.
+1. In **Solution Explorer**, select *ThisAddIn.cs* or *ThisAddIn.vb*.
 
-2.  On the **View** menu, click **Code**.
+2. On the **View** menu, click **Code**.
 
-3.  Add the following method to the `ThisAddIn` class. This code gets the first worksheet in the workbook and then uses the `HasVstoObject` method to check whether the worksheet has a generated worksheet object. If the generated worksheet object has controls, the code gets that worksheet object and iterates through the control collection, removing the controls.
+3. Add the following method to the `ThisAddIn` class. This code gets the first worksheet in the workbook and then uses the `HasVstoObject` method to check whether the worksheet has a generated worksheet object. If the generated worksheet object has controls, the code gets that worksheet object and iterates through the control collection, removing the controls.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#6](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#6)]
      [!code-vb[Trin_Excel_Dynamic_Controls#6](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#6)]
 
-4.  In C#, you must create an event handler for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event. You can place this code in the `ThisAddIn_Startup` method. For more information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md). Replace the `ThisAddIn_Startup` method with the following code.
+4. In C#, you must create an event handler for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeSave> event. You can place this code in the `ThisAddIn_Startup` method. For more information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md). Replace the `ThisAddIn_Startup` method with the following code.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#5](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#5)]
 
@@ -149,25 +149,25 @@ ms.workload:
 
 ### To test the solution.
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Select any cell in Sheet1.
+2. Select any cell in Sheet1.
 
-3.  Click the **Add-Ins** tab.
+3. Click the **Add-Ins** tab.
 
-4.  In the **group1** group, click **Button**.
+4. In the **group1** group, click **Button**.
 
      A button appears in the selected cell.
 
-5.  Select a different cell in Sheet1.
+5. Select a different cell in Sheet1.
 
-6.  In the **group1** group, click **NamedRange**.
+6. In the **group1** group, click **NamedRange**.
 
      A named range is defined for the selected cell.
 
-7.  Select a series of cells in Sheet1.
+7. Select a series of cells in Sheet1.
 
-8.  In the **group1** group, click **ListObject**.
+8. In the **group1** group, click **ListObject**.
 
      A list object is added for the selected cells.
 

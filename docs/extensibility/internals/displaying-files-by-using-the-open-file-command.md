@@ -18,7 +18,7 @@ The following steps describe how the IDE handles the **Open File** command, whic
 
  When a user clicks the **Open File** command on the **File** menu, and selects a file from the **Open File** dialog box, the following process occurs:
 
-1.  Using the running document table, the IDE determines whether the file is already open in a project.
+1. Using the running document table, the IDE determines whether the file is already open in a project.
 
     -   If the file is open, the IDE resurfaces the window.
 
@@ -27,9 +27,9 @@ The following steps describe how the IDE handles the **Open File** command, whic
         > [!NOTE]
         >  In your project implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>, provide a priority value that indicates the level at which your project opens the file. Priority values are provided in the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration.
 
-2.  Each project responds with a priority level that indicates the importance it places on being the project to open the file.
+2. Each project responds with a priority level that indicates the importance it places on being the project to open the file.
 
-3.  The IDE uses the following criteria to determine which project opens the file:
+3. The IDE uses the following criteria to determine which project opens the file:
 
     -   The project that responds with the highest priority (`DP_Intrinsic`) opens the file. If more than one project responds with this priority, the first project to respond opens the file.
 
@@ -41,9 +41,9 @@ The following steps describe how the IDE handles the **Open File** command, whic
 
          If the Miscellaneous Files project does not indicate that it can open the file, an instance of the project has not been created. In this case, the IDE creates an instance of the Miscellaneous Files project and tells the project to open the file.
 
-4.  As soon as the IDE determines which project opens the file, it calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method on that project.
+4. As soon as the IDE determines which project opens the file, it calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method on that project.
 
-5.  The project then has the option of opening the file by using a project-specific editor or a standard editor. For more information, see [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md) and [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md), respectively.
+5. The project then has the option of opening the file by using a project-specific editor or a standard editor. For more information, see [How to: Open project-specific editors](../../extensibility/how-to-open-project-specific-editors.md) and [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md), respectively.
 
 ## See also
 - [Display files by using the Open With command](../../extensibility/internals/displaying-files-by-using-the-open-with-command.md)

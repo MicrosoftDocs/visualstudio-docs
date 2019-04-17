@@ -22,9 +22,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To attach the profiler to a running .NET Framework application
 
-1.  Open a command prompt window.
+1. Open a command prompt window.
 
-2.  Start the profiler. Type:
+2. Start the profiler. Type:
 
      [VSPerfCmd](../profiling/vsperfcmd.md) **/start:concurrency  /output:** `OutputFile` [`Options`]
 
@@ -38,9 +38,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.|
     |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.|
 
-3.  Start the target application in the typical way.
+3. Start the target application in the typical way.
 
-4.  Attach the profiler to the target application. Type:
+4. Attach the profiler to the target application. Type:
 
      **VSPerfCmd /attach:** `PID` [**/lineoff**] [**/targetclr:**`Version`]
 
@@ -68,7 +68,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application.
+1. Do one of the following to detach the profiler from the target application.
 
     -   Type **VSPerfCmd /detach**
 
@@ -76,6 +76,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     -   Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      VSPerfCmd[/shutdown](../profiling/shutdown.md)

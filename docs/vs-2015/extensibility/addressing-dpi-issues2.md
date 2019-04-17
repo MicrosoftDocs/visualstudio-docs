@@ -338,9 +338,9 @@ public int GetHostInfo(DOCHOSTUIINFO info)
   
 ## Tips  
   
-1.  If the document property on the WebOC control changes, you might need to reassociate the document with the IDocHostUIHandler class.  
+1. If the document property on the WebOC control changes, you might need to reassociate the document with the IDocHostUIHandler class.  
   
-2.  If the above does not work, there is a known issue with the WebOC not picking up the change to the DPI flag. The most reliable way of fixing this is to toggle the optical zoom of the WebOC, meaning two calls with two different values for the zoom percentage. Additionally, if this workaround is required, it might be necessary to perform it on every navigate call.  
+2. If the above does not work, there is a known issue with the WebOC not picking up the change to the DPI flag. The most reliable way of fixing this is to toggle the optical zoom of the WebOC, meaning two calls with two different values for the zoom percentage. Additionally, if this workaround is required, it might be necessary to perform it on every navigate call.  
   
     ```csharp  
     // browser2 is a SHDocVw.IWebBrowser2 in this case  

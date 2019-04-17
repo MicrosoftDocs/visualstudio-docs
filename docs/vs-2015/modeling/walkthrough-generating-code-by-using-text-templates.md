@@ -80,9 +80,9 @@ foreach (XmlNode artist in catalog.SelectNodes("artist"))
   
 ##### To create the project  
   
-1.  On the **File** menu click **New** and then click **Project**.  
+1. On the **File** menu click **New** and then click **Project**.  
   
-2.  Click the **Visual C#** node, and then in the **Templates** pane, click **Console Application.**  
+2. Click the **Visual C#** node, and then in the **Templates** pane, click **Console Application.**  
   
 ### Add a prototype XML file to the project  
  The purpose of this file is to provide samples of the XML node types that you want your application to be able to read. It could be a file that will be used for testing your application. The template will produce a C# class for each node type in this file.  

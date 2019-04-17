@@ -36,9 +36,9 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 ## To build, rebuild, or clean an entire solution
 
-1.  In **Solution Explorer**, choose or open the solution.
+1. In **Solution Explorer**, choose or open the solution.
 
-2.  On the menu bar, choose **Build**, and then choose one of the following commands:
+2. On the menu bar, choose **Build**, and then choose one of the following commands:
 
     -   Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
@@ -51,9 +51,9 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 ## To build or rebuild a single project
 
-1.  In **Solution Explorer**, choose or open the project.
+1. In **Solution Explorer**, choose or open the project.
 
-2.  On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
+2. On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
 
     -   Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
 
@@ -61,13 +61,13 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 ## To build only the startup project and its dependencies
 
-1.  On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-2.  In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
+2. In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
 
      The **Build and Run** > **Projects and Solutions** > **Options** dialog box opens.
 
-3.  Select the  **Only build startup projects and dependencies on Run** check box.
+3. Select the  **Only build startup projects and dependencies on Run** check box.
 
      When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
 

@@ -19,13 +19,13 @@ The following checklist summarizes the basic steps you must take in order to cre
   
 ## Steps for Creating a Language Service  
   
-1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
+1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
   
     -   In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
   
     -   Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.  
   
-2.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
+2. Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
   
      The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface is the starting point of interaction between the core editor and the language service.  
   

@@ -14,11 +14,11 @@ ms.workload:
 # Command implementation
 To implement a command in a VSPackage, you must perform the following tasks:
 
-1.  In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
+1. In the *.vsct* file, set up a command group and then add the command to it. For more information, see [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
 
-2.  Register the command with Visual Studio.
+2. Register the command with Visual Studio.
 
-3.  Implement the command.
+3. Implement the command.
 
 The following sections explain how to register and implement commands.
 

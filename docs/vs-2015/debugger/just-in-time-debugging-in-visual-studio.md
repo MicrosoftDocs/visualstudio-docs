@@ -67,36 +67,36 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 
 #### To disable Just-In-Time debugging by editing the registry
 
-1.  On the **Start** menu, search for and run `regedit.exe`
+1. On the **Start** menu, search for and run `regedit.exe`
 
-2.  In the **Registry Editor** window, locate and delete the follow registry entries:
+2. In the **Registry Editor** window, locate and delete the follow registry entries:
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger
 
-3.  If your computer is running a 64-bit operating system, delete the following registry entries also:
+3. If your computer is running a 64-bit operating system, delete the following registry entries also:
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger
 
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger
 
-4.  Take care not to accidentally delete or change any other registry keys.
+4. Take care not to accidentally delete or change any other registry keys.
 
-5.  Close the **Registry Editor** window.
+5. Close the **Registry Editor** window.
 
 > [!NOTE]
 >  If you are trying to disable Just-In-Time debugging for a server-side app and these steps don't resolve the issue, turn off server-side debugging in the IIS application settings and retry.
 
 #### To enable Just-In-Time debugging of a Windows Form
 
-1.  By default, Windows Forms applications have a top-level exception handler that allows the program to continue to run if it can recover. For example, if your Windows Forms application throws an unhandled exception, you will see a dialog like the following:
+1. By default, Windows Forms applications have a top-level exception handler that allows the program to continue to run if it can recover. For example, if your Windows Forms application throws an unhandled exception, you will see a dialog like the following:
 
      ![WindowsFormsUnhandledException](../debugger/media/windowsformsunhandledexception.png "WindowsFormsUnhandledException")
 
      To enable Just-In-Time debugging of a Windows Forms application, you must perform the following additional steps:
 
-2.  Set the `jitDebugging` value to `true` in the `system.windows.form` section of the machine.config or *\<application name>*.exe.config file:
+2. Set the `jitDebugging` value to `true` in the `system.windows.form` section of the machine.config or *\<application name>*.exe.config file:
 
     ```
     <configuration>
@@ -104,7 +104,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
     </configuration>
     ```
 
-3.  In a C++ Windows Form application, you must also set `DebuggableAttribute` in a .config file or in your code. If you compile with [/Zi](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) and without [/Og](http://msdn.microsoft.com/library/d10630cc-b9cf-4e97-bde3-8d7ee79e9435), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line to your the AssemblyInfo.cpp file of your application:
+3. In a C++ Windows Form application, you must also set `DebuggableAttribute` in a .config file or in your code. If you compile with [/Zi](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8) and without [/Og](http://msdn.microsoft.com/library/d10630cc-b9cf-4e97-bde3-8d7ee79e9435), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set this yourself. You can do this by adding the following line to your the AssemblyInfo.cpp file of your application:
 
     ```
     [assembly:System::Diagnostics::DebuggableAttribute(true, true)];

@@ -92,19 +92,19 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
 
 #### To end a profiling session  
 
-1.  Stop the service from Service Control Manager.  
+1. Stop the service from Service Control Manager.  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  When you have completed all profiling, clear the profiling environment variables. Type:  
+3. When you have completed all profiling, clear the profiling environment variables. Type:  
 
      **VSPerfClrEnv /globaloff**  
 
-4.  Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
+4. Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
 
-5.  Restart the computer.  
+5. Restart the computer.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

@@ -50,23 +50,23 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 ##  <a name="createVSIX"></a> To create the SimpleMathVSIX extension project
 
-1.  On the shortcut menu for the **Solution 'SimpleMath'** node, choose **Add** > **New Project**.
+1. On the shortcut menu for the **Solution 'SimpleMath'** node, choose **Add** > **New Project**.
 
-2.  In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Extensibility** node, and then choose the **VSIX Project** template.
+2. In the list of templates, expand **Visual C#** or **Visual Basic**, choose the **Extensibility** node, and then choose the **VSIX Project** template.
 
-3.  In the **Name** box, specify **SimpleMathVSIX**, and then choose the **OK** button.
+3. In the **Name** box, specify **SimpleMathVSIX**, and then choose the **OK** button.
 
-4.  In **Solution Explorer**, choose the **source.extension.vsixmanifest** item.
+4. In **Solution Explorer**, choose the **source.extension.vsixmanifest** item.
 
-5.  On the menu bar, choose **View** > **Code**.
+5. On the menu bar, choose **View** > **Code**.
 
-6.  Replace the existing XML with the following XML:
+6. Replace the existing XML with the following XML:
 
      [!code-xml[CreatingAnSDKUsingWinRT#1](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-csharp-or-visual-basic_2.xml)]
 
-7.  In **Solution Explorer**, choose the **SimpleMathVSIX** project.
+7. In **Solution Explorer**, choose the **SimpleMathVSIX** project.
 
-8.  On the menu bar, choose **Project** > **Add New Item**.
+8. On the menu bar, choose **Project** > **Add New Item**.
 
 9. In the list of **Common Items**, expand **Data**, and then choose **XML File**.
 

@@ -44,19 +44,19 @@ ms.workload:
 
 ### To create a new Word VSTO Add-in project in Visual Studio
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4.  Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
+4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
 
-5.  In the list of project templates, select a Word VSTO Add-in project.
+5. In the list of project templates, select a Word VSTO Add-in project.
 
-6.  In the **Name** box, type **FirstWordAddIn**.
+6. In the **Name** box, type **FirstWordAddIn**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWordAddIn** project and opens the ThisAddIn code file in the editor.
 
@@ -93,24 +93,24 @@ ms.workload:
 
 ### To test the project
 
-1.  Press **F5** to build and run your project.
+1. Press **F5** to build and run your project.
 
      When you build the project, the code is compiled into an assembly that is included in the build output folder for the project. Visual Studio also creates a set of registry entries that enable Word to discover and load the VSTO Add-in, and it configures the security settings on the development computer to enable the VSTO Add-in to run. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
-2.  In Word, save the active document.
+2. In Word, save the active document.
 
-3.  Verify that the following text is added to the document.
+3. Verify that the following text is added to the document.
 
      **This text was added by using code.**
 
-4.  Close Word.
+4. Close Word.
 
 ## Clean up the project
  When you finish developing a project, remove the VSTO Add-in assembly, registry entries, and security settings from your development computer. Otherwise, the VSTO Add-in will continue to run every time that you open Word on your development computer.
 
 ### To clean up the completed project on your development computer
 
-1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.
+1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
  Now that you have created a basic VSTO Add-in for Word, you can learn more about how to develop VSTO Add-ins from these topics:

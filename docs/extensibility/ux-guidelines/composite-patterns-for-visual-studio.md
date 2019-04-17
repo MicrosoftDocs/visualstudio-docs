@@ -125,13 +125,13 @@ Composite patterns combine interaction and design elements in distinct configura
 
 ### On-object UI components
 
-1.  Container (content presenter) type
+1. Container (content presenter) type
 
     -   Floating
 
     -   Inline
 
-2.  Content type
+2. Content type
 
     -   Informational: data that might be static or dynamic
 
@@ -139,7 +139,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
     -   Navigational: links that take the user to another window or application, such as MSDN
 
-3.  Gestures
+3. Gestures
 
     -   Invocation
 
@@ -149,7 +149,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
     -   Other interactions
 
-4.  Persistence and commit model
+4. Persistence and commit model
 
     -   Transient
 
@@ -159,7 +159,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
     -   On-demand
 
-5.  Ambient indicators (optional)
+5. Ambient indicators (optional)
 
     -   Squiggle underline
 
@@ -170,13 +170,13 @@ Composite patterns combine interaction and design elements in distinct configura
 #### Container (content presenter) type
  There are two major options available to present content at the point of attention:
 
-1.  **Inline:** an inline presenter, such as the peek view that was introduced in the Visual Studio 2013 Code Editor, makes space for new content by shifting existing content.
+1. **Inline:** an inline presenter, such as the peek view that was introduced in the Visual Studio 2013 Code Editor, makes space for new content by shifting existing content.
 
     -   **Prefer** inline presenters if you expect users will want to spend a significant amount of time referring to or interacting with the content you present.
 
     -   **Avoid** inline presenters if you expect users will want to glance at the information you present, then continue with their main task with minimal disruption.
 
-2.  **Floating:** a floating presenter is positioned as close to the selected content as possible but does not alter the layout of the existing content. Various strategies can be employed, such as displaying a floating content panel over the nearest available white space to the selected symbol.
+2. **Floating:** a floating presenter is positioned as close to the selected content as possible but does not alter the layout of the existing content. Various strategies can be employed, such as displaying a floating content panel over the nearest available white space to the selected symbol.
 
     -   **Prefer** floating presenters if you expect users will want to glance at the information you present, then continue with their main task with minimal disruption.
 
@@ -185,7 +185,7 @@ Composite patterns combine interaction and design elements in distinct configura
 #### Content type
  There are three main types of content that can be displayed inside any on-object UI container. Any combination of these types of information can be shown. The three types are:
 
-1.  **Informational:** most on-object UI containers will display some kind of informational content. The content can represent information about the present state of the environment or it may represent information about a potential future state of the environment. For example, it could be used to show the effect of a particular command, such as a refactoring, on the existing code.
+1. **Informational:** most on-object UI containers will display some kind of informational content. The content can represent information about the present state of the environment or it may represent information about a potential future state of the environment. For example, it could be used to show the effect of a particular command, such as a refactoring, on the existing code.
 
     -   **Always** use the canonical representation of the information that you display. For example, code should look like code, complete with syntax highlighting, and should respect whatever font and other environment settings the user has set.
 
@@ -193,7 +193,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
     -   **Always** consider using a different background color if presenting informational content that represents a potential future state.
 
-2.  Actionable: some on-object UI containers will provide the ability to perform some action over the master content, such as performing a refactoring operation.
+2. Actionable: some on-object UI containers will provide the ability to perform some action over the master content, such as performing a refactoring operation.
 
     -   **Always** position actionable commands separately from the informational content.
 
@@ -205,7 +205,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
     -   **Always** consider how and when an on-object UI container will be closed or dismissed. As a best practice, any action that concludes the dialog between the master and detail content should also close the on-object UI container when that action is invoked.
 
-3.  **Navigational:** some on-object UI containers include links that take the user to another window or application, such as opening an MSDN article in the user's web browser.
+3. **Navigational:** some on-object UI containers include links that take the user to another window or application, such as opening an MSDN article in the user's web browser.
 
     -   **Always** prepend any navigational link with "Open" so that users will not be surprised by being navigated to some other content.
 

@@ -24,13 +24,13 @@ This document demonstrates how to use the Shader Designer to export a Directed G
   
 #### To export a shader  
   
-1.  In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a **Visual Shader Graph (.dgsl)** file.  
+1. In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open a **Visual Shader Graph (.dgsl)** file.  
   
      If you don't have a **Visual Shader Graph (.dgsl)** file to open, create one as described in [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md).  
   
-2.  On the **Shader Designer** toolbar, choose **Advanced**, **Export**, **Export As**. The **Export Shader** dialog box is displayed.  
+2. On the **Shader Designer** toolbar, choose **Advanced**, **Export**, **Export As**. The **Export Shader** dialog box is displayed.  
   
-3.  In the **Save as type** drop-down list, choose the format that you want to export.  
+3. In the **Save as type** drop-down list, choose the format that you want to export.  
   
      Here are the formats that you can choose:  
   
@@ -43,7 +43,7 @@ This document demonstrates how to use the Shader Designer to export a Directed G
      **C++ Header (\*.h)**  
      Exports the shader as a C-style header that defines a byte array that contains HLSL bytecode. This option can make it more time-consuming to debug and patch the code based on end-user problems because the app must be recompiled to test the fix. However, because this option makes it difficult, though not impossible, to modify the shader after it's deployed in an app, it presents the most difficulty to a user who wants to modify the shader in unwanted ways.  
   
-4.  In the **File name** combo box, specify a name for the exported shader, and then choose the **Save** button.  
+4. In the **File name** combo box, specify a name for the exported shader, and then choose the **Save** button.  
   
 ## See Also  
  [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)   

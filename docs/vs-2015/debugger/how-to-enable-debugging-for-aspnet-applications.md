@@ -29,24 +29,24 @@ To enable debugging, you must enable it in both the **Project Properties** page 
   
 ### To enable ASP.NET debugging in the project properties (Visual Basic/C#)  
   
-1.  In **Solution Explorer**, right-click the name of a Web project and select **Properties**.  
+1. In **Solution Explorer**, right-click the name of a Web project and select **Properties**.  
   
-2.  In the project properties page click the **Web** tab.  
+2. In the project properties page click the **Web** tab.  
   
-3.  Under **Debuggers**, select the **ASP.NET** check box.  
+3. Under **Debuggers**, select the **ASP.NET** check box.  
   
 ### To enable debugging in the web.config file  
   
-1.  Open the web.config file by using any standard text editor or XML parser.  
+1. Open the web.config file by using any standard text editor or XML parser.  
   
     > [!NOTE]  
     > You cannot access the file remotely by using a Web browser, however. For security reasons, [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] configures Microsoft IIS to help prevent direct browser access to Web.config files. If you try to access a configuration file by using a browser, you will get HTTP access error 403 (forbidden).  
   
-2.  Web.config is an XML file, and so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` element. If the compilation element does not exist, create it.  
+2. Web.config is an XML file, and so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` element. If the compilation element does not exist, create it.  
   
-3.  If the `compilation` element does not contain a `debug` attribute, add the attribute to the element.  
+3. If the `compilation` element does not contain a `debug` attribute, add the attribute to the element.  
   
-4.  Make sure the `debug` attribute value is set to `true`.  
+4. Make sure the `debug` attribute value is set to `true`.  
   
 The web.config file should look like the following example. Note that there can be sections between the configuration and system.web elements  
   

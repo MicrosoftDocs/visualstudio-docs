@@ -82,21 +82,21 @@ ms.workload:
 
 ### To add a named range and a list object
 
-1.  Verify that the **My Master-Detail.xlsx** workbook is open in the Visual Studio designer, with **Sheet1** displayed.
+1. Verify that the **My Master-Detail.xlsx** workbook is open in the Visual Studio designer, with **Sheet1** displayed.
 
-2.  Open the **Data Sources** window and expand the **Orders** node.
+2. Open the **Data Sources** window and expand the **Orders** node.
 
-3.  Select the **OrderID** column, and then click the drop-down arrow that appears.
+3. Select the **OrderID** column, and then click the drop-down arrow that appears.
 
-4.  Click **NamedRange** in the drop-down list, and then drag the **OrderID** column to cell **A2**.
+4. Click **NamedRange** in the drop-down list, and then drag the **OrderID** column to cell **A2**.
 
      A <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `OrderIDNamedRange` is created in cell **A2**. At the same time, a <xref:System.Windows.Forms.BindingSource> named `OrdersBindingSource`, a table adapter, and a <xref:System.Data.DataSet> instance are added to the project. The control is bound to the <xref:System.Windows.Forms.BindingSource>, which in turn is bound to the <xref:System.Data.DataSet> instance.
 
-5.  Scroll down past the columns that are under the **Orders** table. At the bottom of the list is the **Order Details** table; it is here because it is a child of the **Orders** table. Select this **Order Details** table, not the one that is at the same level as the **Orders** table, and then click the drop-down arrow that appears.
+5. Scroll down past the columns that are under the **Orders** table. At the bottom of the list is the **Order Details** table; it is here because it is a child of the **Orders** table. Select this **Order Details** table, not the one that is at the same level as the **Orders** table, and then click the drop-down arrow that appears.
 
-6.  Click **ListObject** in the drop-down list, and then drag the **OrderDetails** table to cell **A6**.
+6. Click **ListObject** in the drop-down list, and then drag the **OrderDetails** table to cell **A6**.
 
-7.  A <xref:Microsoft.Office.Tools.Excel.ListObject> control named **Order_DetailsListObject** is created in cell **A6**, and bound to the <xref:System.Windows.Forms.BindingSource>.
+7. A <xref:Microsoft.Office.Tools.Excel.ListObject> control named **Order_DetailsListObject** is created in cell **A6**, and bound to the <xref:System.Windows.Forms.BindingSource>.
 
 ### To add two buttons
 
@@ -130,14 +130,14 @@ ms.workload:
 
 ### To initialize the data and the controls
 
-1.  In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.
+1. In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.
 
-2.  Add the following code to the `Sheet1_Startup` method to set the text for the buttons.
+2. Add the following code to the `Sheet1_Startup` method to set the text for the buttons.
 
      [!code-vb[Trin_VstcoreDataExcel#15](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#15)]
      [!code-csharp[Trin_VstcoreDataExcel#15](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#15)]
 
-3.  For C# only, add event handlers for the button click events to the `Sheet1_Startup` method.
+3. For C# only, add event handlers for the button click events to the `Sheet1_Startup` method.
 
      [!code-csharp[Trin_VstcoreDataExcel#16](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#16)]
 
@@ -146,12 +146,12 @@ ms.workload:
 
 ### To scroll through the records
 
-1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of `Button1`, and add the following code to move backwards through the records:
+1. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of `Button1`, and add the following code to move backwards through the records:
 
      [!code-vb[Trin_VstcoreDataExcel#17](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#17)]
      [!code-csharp[Trin_VstcoreDataExcel#17](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#17)]
 
-2.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of `Button2`, and add the following code to advance through the records:
+2. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of `Button2`, and add the following code to advance through the records:
 
      [!code-vb[Trin_VstcoreDataExcel#18](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#18)]
      [!code-csharp[Trin_VstcoreDataExcel#18](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#18)]
@@ -161,21 +161,21 @@ ms.workload:
 
 ### To test the data caching
 
-1.  Press **F5**.
+1. Press **F5**.
 
-2.  Verify that the named range and the list object are filled with data from the data source.
+2. Verify that the named range and the list object are filled with data from the data source.
 
-3.  Scroll through some of the records by clicking the buttons.
+3. Scroll through some of the records by clicking the buttons.
 
-4.  Save the workbook, and then close the workbook and Visual Studio.
+4. Save the workbook, and then close the workbook and Visual Studio.
 
-5.  Disable the connection to the database. Unplug the network cable from your computer if the database is located on a server, or stop the SQL Server service if the database is on your development computer.
+5. Disable the connection to the database. Unplug the network cable from your computer if the database is located on a server, or stop the SQL Server service if the database is on your development computer.
 
-6.  Open Excel, and then open **My Master-Detail.xlsx** from the *\bin* directory (*\My Master-Detail\bin* in Visual Basic or *\My Master-Detail\bin\debug* in C#).
+6. Open Excel, and then open **My Master-Detail.xlsx** from the *\bin* directory (*\My Master-Detail\bin* in Visual Basic or *\My Master-Detail\bin\debug* in C#).
 
-7.  Scroll through some of the records to see that the worksheet operates normally when disconnected.
+7. Scroll through some of the records to see that the worksheet operates normally when disconnected.
 
-8.  Reconnect to the database. Connect your computer to the network again if the database is located on a server, or start the SQL Server service if the database is on your development computer.
+8. Reconnect to the database. Connect your computer to the network again if the database is located on a server, or start the SQL Server service if the database is on your development computer.
 
 ## Next steps
  This walkthrough shows the basics of creating a master/detail data relationship on a worksheet and caching a dataset. Here are some tasks that might come next:

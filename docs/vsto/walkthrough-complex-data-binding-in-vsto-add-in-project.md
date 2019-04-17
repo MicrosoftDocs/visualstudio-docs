@@ -46,7 +46,7 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create an Excel VSTO Add-in project with the name **Populating Worksheets from a Database**, using either Visual Basic or C#.
+1. Create an Excel VSTO Add-in project with the name **Populating Worksheets from a Database**, using either Visual Basic or C#.
 
      For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -88,27 +88,27 @@ ms.workload:
 
 ### To add the list object, dataset, and table adapter
 
-1.  In the `ThisAddIn` class, declare the following controls to display the `Address` table of the `AdventureWorksLTDataSet` dataset.
+1. In the `ThisAddIn` class, declare the following controls to display the `Address` table of the `AdventureWorksLTDataSet` dataset.
 
      [!code-csharp[Trin_ExcelAddInDatabase#1](../vsto/codesnippet/CSharp/Trin_ExcelAddInDatabase_O12/ThisAddIn.cs#1)]
      [!code-vb[Trin_ExcelAddInDatabase#1](../vsto/codesnippet/VisualBasic/Trin_ExcelAddInDatabase_O12/ThisAddIn.vb#1)]
 
-2.  In the `ThisAddIn_Startup` method, add the following code to initialize the dataset and fill the dataset with information from the `AdventureWorksLTDataSet` dataset.
+2. In the `ThisAddIn_Startup` method, add the following code to initialize the dataset and fill the dataset with information from the `AdventureWorksLTDataSet` dataset.
 
      [!code-csharp[Trin_ExcelAddInDatabase#2](../vsto/codesnippet/CSharp/Trin_ExcelAddInDatabase_O12/ThisAddIn.cs#2)]
      [!code-vb[Trin_ExcelAddInDatabase#2](../vsto/codesnippet/VisualBasic/Trin_ExcelAddInDatabase_O12/ThisAddIn.vb#2)]
 
-3.  Add the following code to the `ThisAddIn_Startup` method. This generates a host item that extends the worksheet. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+3. Add the following code to the `ThisAddIn_Startup` method. This generates a host item that extends the worksheet. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
      [!code-csharp[Trin_ExcelAddInDatabase#3](../vsto/codesnippet/CSharp/Trin_ExcelAddInDatabase_O12/ThisAddIn.cs#3)]
      [!code-vb[Trin_ExcelAddInDatabase#3](../vsto/codesnippet/VisualBasic/Trin_ExcelAddInDatabase_O12/ThisAddIn.vb#3)]
 
-4.  Create a range and add the <xref:Microsoft.Office.Tools.Excel.ListObject> control.
+4. Create a range and add the <xref:Microsoft.Office.Tools.Excel.ListObject> control.
 
      [!code-csharp[Trin_ExcelAddInDatabase#4](../vsto/codesnippet/CSharp/Trin_ExcelAddInDatabase_O12/ThisAddIn.cs#4)]
      [!code-vb[Trin_ExcelAddInDatabase#4](../vsto/codesnippet/VisualBasic/Trin_ExcelAddInDatabase_O12/ThisAddIn.vb#4)]
 
-5.  Bind the list object to `AdventureWorksLTDataSet` by using the <xref:System.Windows.Forms.BindingSource>. Pass in the names of the columns you want to bind to the list object.
+5. Bind the list object to `AdventureWorksLTDataSet` by using the <xref:System.Windows.Forms.BindingSource>. Pass in the names of the columns you want to bind to the list object.
 
      [!code-csharp[Trin_ExcelAddInDatabase#5](../vsto/codesnippet/CSharp/Trin_ExcelAddInDatabase_O12/ThisAddIn.cs#5)]
      [!code-vb[Trin_ExcelAddInDatabase#5](../vsto/codesnippet/VisualBasic/Trin_ExcelAddInDatabase_O12/ThisAddIn.vb#5)]

@@ -30,15 +30,15 @@ ms.workload:
 
 ### To add controls to Backstage view
 
-1.  Open the Ribbon item in Design view.
+1. Open the Ribbon item in Design view.
 
      For information about how to add a **Ribbon (Visual Designer)** item to your project, see [How to: Get started customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
-2.  In the Ribbon Designer, click the **File** tab.
+2. In the Ribbon Designer, click the **File** tab.
 
      A menu designer appears. This design surface does not contain any controls.
 
-3.  From the **Office Ribbon Controls** tab of the **Toolbox**, drag any of the following controls onto the menu designer:
+3. From the **Office Ribbon Controls** tab of the **Toolbox**, drag any of the following controls onto the menu designer:
 
     -   Button
 
@@ -54,7 +54,7 @@ ms.workload:
 
     -   ToggleButton
 
-4.  Drag controls to move them to new positions on the menu.
+4. Drag controls to move them to new positions on the menu.
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)

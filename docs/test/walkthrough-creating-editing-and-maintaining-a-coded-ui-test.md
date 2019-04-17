@@ -79,21 +79,21 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ### Run the WPF app
 
-1.  On the **Debug** menu, select **Start Debugging** or press **F5**.
+1. On the **Debug** menu, select **Start Debugging** or press **F5**.
 
-2.  Notice that the check box control is disabled. Choose **Start**.
+2. Notice that the check box control is disabled. Choose **Start**.
 
      In a few seconds, the progress bar should be 100% complete.
 
-3.  You can now select the check box control.
+3. You can now select the check box control.
 
-4.  Close SimpleWPFApp.
+4. Close SimpleWPFApp.
 
 ## Create a shortcut to the WPF app
 
-1.  Locate the SimpleWPFApp application that you created earlier.
+1. Locate the SimpleWPFApp application that you created earlier.
 
-2.  Create a desktop shortcut to the SimpleWPFApp application. Right-click *SimpleWPFApp.exe* and choose **Copy**. On your desktop, right-click and choose **Paste shortcut**.
+2. Create a desktop shortcut to the SimpleWPFApp application. Right-click *SimpleWPFApp.exe* and choose **Copy**. On your desktop, right-click and choose **Paste shortcut**.
 
     > [!TIP]
     > A shortcut to the application makes it easier to add or modify coded UI tests for your application because it lets you start the application quickly.
@@ -160,31 +160,31 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Edit and rerun the coded UI test
 
-1.  In the **Test Explorer** window, select the failed test and in the **StackTrace** section, choose the first link to **UIMap.SimpleAppTest()**.
+1. In the **Test Explorer** window, select the failed test and in the **StackTrace** section, choose the first link to **UIMap.SimpleAppTest()**.
 
-2.  The *UIMap.Designer.cs* file opens with the point of error highlighted in the code:
+2. The *UIMap.Designer.cs* file opens with the point of error highlighted in the code:
 
     ```csharp
     // Select 'CheckBox' check box
     uICheckBoxCheckBox.Checked = this.SimpleAppTestParams.UICheckBoxCheckBoxChecked;
     ```
 
-3.  To correct this problem, you can make the coded UI test wait for the CheckBox control to be enabled before continuing on to this line using the `WaitForControlEnabled()` method.
+3. To correct this problem, you can make the coded UI test wait for the CheckBox control to be enabled before continuing on to this line using the `WaitForControlEnabled()` method.
 
     > [!WARNING]
     > Do not modify the *UIMap.Designer.cs* file. Any code changes you make will be overwritten every time you generate code using **UIMap - Coded UI Test Builder**. If you have to modify a recorded method, copy it to the *UIMap.cs* file and rename it. The *UIMap.cs* file can be used to override methods and properties in the *UIMapDesigner.cs* file. You must remove the reference to the original method in the *CodedUITest.cs* file and replace it with the renamed method name.
 
-4.  In **Solution Explorer**, locate *UIMap.uitest* in your coded UI test project.
+4. In **Solution Explorer**, locate *UIMap.uitest* in your coded UI test project.
 
-5.  Open the shortcut menu for *UIMap.uitest* and choose **Open**.
+5. Open the shortcut menu for *UIMap.uitest* and choose **Open**.
 
      The coded UI test is displayed in the Coded UI Test Editor. You can now view and edit the coded UI test.
 
-6.  In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the *UIMap.cs* or *UIMap.vb* file. Moving the method to a different file allows custom code to be added that won't be overwritten when the test code is recompiled.
+6. In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the *UIMap.cs* or *UIMap.vb* file. Moving the method to a different file allows custom code to be added that won't be overwritten when the test code is recompiled.
 
-7.  Choose the **Move Code** button on the **Coded UI Test Editor** toolbar.
+7. Choose the **Move Code** button on the **Coded UI Test Editor** toolbar.
 
-8.  A Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the *UIMap.uitest* file to the *UIMap.cs* file, and that you'll no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.
+8. A Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the *UIMap.uitest* file to the *UIMap.cs* file, and that you'll no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.
 
      The test method is removed from the *UIMap.uitest* file and no longer is displayed in the UI Actions pane. To edit the moved test file, open the *UIMap.cs* file from **Solution Explorer**.
 
@@ -233,17 +233,17 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Refactor a control in SimpleWPFApp
 
-1.  In the *MainWindow.xaml* file, in the designer, select the button control.
+1. In the *MainWindow.xaml* file, in the designer, select the button control.
 
-2.  At the top of the **Properties** window, change the **Name** property value from **button1** to **buttonA**.
+2. At the top of the **Properties** window, change the **Name** property value from **button1** to **buttonA**.
 
-3.  On the **Build** menu, choose **Build Solution**.
+3. On the **Build** menu, choose **Build Solution**.
 
-4.  In **Test Explorer**, run **CodedUITestMethod1**.
+4. In **Test Explorer**, run **CodedUITestMethod1**.
 
      The test fails because the coded UI test cannot locate the button control that was originally mapped in the UIMap as button1. Refactoring can impact coded UI tests in this manner.
 
-5.  In **Test Explorer**, in the **StackTrace** section, choose the first link next to **UIMpa.ModifiedSimpleAppTest()**.
+5. In **Test Explorer**, in the **StackTrace** section, choose the first link next to **UIMpa.ModifiedSimpleAppTest()**.
 
      The *UIMap.cs* file opens. The point of error is highlighted in the code:
 
@@ -258,29 +258,29 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Map refactored control rerun the test
 
-1.  In the *CodedUITest1.cs* file, in the **CodedUITestMethod1()** method, right-click, select **Generate Code for Coded UI Test** and then choose **Use Coded UI Test Builder**.
+1. In the *CodedUITest1.cs* file, in the **CodedUITestMethod1()** method, right-click, select **Generate Code for Coded UI Test** and then choose **Use Coded UI Test Builder**.
 
      The **UIMap - Coded UI Test Builder** appears.
 
-2.  Using the desktop shortcut you created earlier, run the SimpleWPFApp application that you created earlier.
+2. Using the desktop shortcut you created earlier, run the SimpleWPFApp application that you created earlier.
 
-3.  On the **UIMap - Coded UI Test Builder** dialog, drag the crosshair tool to the **Start** button on SimpleWPFApp.
+3. On the **UIMap - Coded UI Test Builder** dialog, drag the crosshair tool to the **Start** button on SimpleWPFApp.
 
      The **Start** button is enclosed in a blue box. **Coded UI Test Builder** takes a few seconds to process the data for the selected control and display the control's properties. Notice that the value of **AutomationUId** is **buttonA**.
 
-4.  In the properties for the control, choose the arrow at the upper-left corner to expand the UI Control Map. Notice that **UIStartButton1** is selected.
+4. In the properties for the control, choose the arrow at the upper-left corner to expand the UI Control Map. Notice that **UIStartButton1** is selected.
 
-5.  In the toolbar, choose the **Add control to UI Control Map**.
+5. In the toolbar, choose the **Add control to UI Control Map**.
 
      The status at the bottom of the window verifies the action by displaying **Selected control has been added to the UI control map**.
 
-6.  On the **UIMap - Coded UI Test Builder** dialog, choose **Generate Code**.
+6. On the **UIMap - Coded UI Test Builder** dialog, choose **Generate Code**.
 
      The **Coded UI Test Builder - Generate Code** dialog appears with a note indicating that no new method is required, and that code will only be generated for the changes to the UI control map.
 
-7.  Choose **Generate**.
+7. Choose **Generate**.
 
-8.  Close SimpleWPFApp.
+8. Close SimpleWPFApp.
 
 9. Close **UIMap - Coded UI Test Builder**.
 

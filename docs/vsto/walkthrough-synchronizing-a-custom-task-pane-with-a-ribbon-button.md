@@ -54,7 +54,7 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create an Excel Add-in project with the name **SynchronizeTaskPaneAndRibbon**, using the Excel Add-in project template. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an Excel Add-in project with the name **SynchronizeTaskPaneAndRibbon**, using the Excel Add-in project template. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **SynchronizeTaskPaneAndRibbon** project to **Solution Explorer**.
 
@@ -63,62 +63,62 @@ ms.workload:
 
 ### To add a toggle button to the ribbon
 
-1.  On the **Project** menu, click **Add New Item**.
+1. On the **Project** menu, click **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
+2. In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
 
-3.  Change the name of the new Ribbon to **ManageTaskPaneRibbon**, and click **Add**.
+3. Change the name of the new Ribbon to **ManageTaskPaneRibbon**, and click **Add**.
 
      The **ManageTaskPaneRibbon.cs** or **ManageTaskPaneRibbon.vb** file opens in the Ribbon Designer and displays a default tab and group.
 
-4.  In the Ribbon Designer, click **group1**.
+4. In the Ribbon Designer, click **group1**.
 
-5.  In the **Properties** window, set the **Label** property to **Task Pane Manager**.
+5. In the **Properties** window, set the **Label** property to **Task Pane Manager**.
 
-6.  From the **Office Ribbon Controls** tab of the **Toolbox**, drag a **ToggleButton** onto the **Task Pane Manager** group.
+6. From the **Office Ribbon Controls** tab of the **Toolbox**, drag a **ToggleButton** onto the **Task Pane Manager** group.
 
-7.  Click **toggleButton1**.
+7. Click **toggleButton1**.
 
-8.  In the **Properties** window, set the **Label** property to **Show Task Pane**.
+8. In the **Properties** window, set the **Label** property to **Show Task Pane**.
 
 ## Design the user interface of the custom task pane
  There is no visual designer for custom task panes, but you can design a user control with the layout you want. Later in this walkthrough, you will add the user control to the custom task pane.
 
 ### To design the user interface of the custom task pane
 
-1.  On the **Project** menu, click **Add User Control**.
+1. On the **Project** menu, click **Add User Control**.
 
-2.  In the **Add New Item** dialog box, change the name of the user control to **TaskPaneControl**, and click **Add**.
+2. In the **Add New Item** dialog box, change the name of the user control to **TaskPaneControl**, and click **Add**.
 
      The user control opens in the designer.
 
-3.  From the **Common Controls** tab of the **Toolbox**, drag a **TextBox** control to the user control.
+3. From the **Common Controls** tab of the **Toolbox**, drag a **TextBox** control to the user control.
 
 ## Create the custom task pane
  To create the custom task pane when the VSTO Add-in starts, add the user control to the task pane in the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler of the VSTO Add-in. By default, the custom task pane will not be visible. Later in this walkthrough, you will add code that will display or hide the task pane when the user clicks the toggle button you added to the ribbon.
 
 ### To create the custom task pane
 
-1.  In **Solution Explorer**, expand **Excel**.
+1. In **Solution Explorer**, expand **Excel**.
 
-2.  Right-click **ThisAddIn.cs** or **ThisAddIn.vb** and click **View Code**.
+2. Right-click **ThisAddIn.cs** or **ThisAddIn.vb** and click **View Code**.
 
-3.  Add the following code to the `ThisAddIn` class. This code declares an instance of `TaskPaneControl` as a member of `ThisAddIn`.
+3. Add the following code to the `ThisAddIn` class. This code declares an instance of `TaskPaneControl` as a member of `ThisAddIn`.
 
      [!code-csharp[Trin_TaskPaneRibbonSynchronize#1](../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs#1)]
      [!code-vb[Trin_TaskPaneRibbonSynchronize#1](../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb#1)]
 
-4.  Replace the `ThisAddIn_Startup` event handler with the following code. This code adds the `TaskPaneControl` object to the `CustomTaskPanes` field, but it does not display the custom task pane (by default, the <xref:Microsoft.Office.Tools.CustomTaskPane.Visible%2A> property of the <xref:Microsoft.Office.Tools.CustomTaskPane> class is **false**). The Visual C# code also attaches an event handler to the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event.
+4. Replace the `ThisAddIn_Startup` event handler with the following code. This code adds the `TaskPaneControl` object to the `CustomTaskPanes` field, but it does not display the custom task pane (by default, the <xref:Microsoft.Office.Tools.CustomTaskPane.Visible%2A> property of the <xref:Microsoft.Office.Tools.CustomTaskPane> class is **false**). The Visual C# code also attaches an event handler to the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event.
 
      [!code-csharp[Trin_TaskPaneRibbonSynchronize#2](../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs#2)]
      [!code-vb[Trin_TaskPaneRibbonSynchronize#2](../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb#2)]
 
-5.  Add the following method to the `ThisAddIn` class. This method handles the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event. When the user closes the task pane by clicking the **Close** button (X), this method updates the state of the toggle button on the Ribbon.
+5. Add the following method to the `ThisAddIn` class. This method handles the <xref:Microsoft.Office.Tools.CustomTaskPane.VisibleChanged> event. When the user closes the task pane by clicking the **Close** button (X), this method updates the state of the toggle button on the Ribbon.
 
      [!code-csharp[Trin_TaskPaneRibbonSynchronize#3](../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs#3)]
      [!code-vb[Trin_TaskPaneRibbonSynchronize#3](../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb#3)]
 
-6.  Add the following property to the `ThisAddIn` class. This property exposes the private `myCustomTaskPane1` object to other classes. Later in this walkthrough, you will add code to the `MyRibbon` class that uses this property.
+6. Add the following property to the `ThisAddIn` class. This property exposes the private `myCustomTaskPane1` object to other classes. Later in this walkthrough, you will add code to the `MyRibbon` class that uses this property.
 
      [!code-csharp[Trin_TaskPaneRibbonSynchronize#4](../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ThisAddIn.cs#4)]
      [!code-vb[Trin_TaskPaneRibbonSynchronize#4](../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ThisAddIn.vb#4)]
@@ -128,11 +128,11 @@ ms.workload:
 
 ### To display and hide the custom task pane by using the toggle button
 
-1.  In the Ribbon Designer, double-click the **Show Task Pane** toggle button.
+1. In the Ribbon Designer, double-click the **Show Task Pane** toggle button.
 
      Visual Studio automatically generates an event handler named `toggleButton1_Click`, which handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. Visual Studio also opens the *MyRibbon.cs* or *MyRibbon.vb* file in the Code Editor.
 
-2.  Replace the `toggleButton1_Click` event handler with the following code. When the user clicks the toggle button, this code displays or hides the custom task pane, depending on whether the toggle button is pressed or not pressed.
+2. Replace the `toggleButton1_Click` event handler with the following code. When the user clicks the toggle button, this code displays or hides the custom task pane, depending on whether the toggle button is pressed or not pressed.
 
      [!code-vb[Trin_TaskPaneRibbonSynchronize#5](../vsto/codesnippet/VisualBasic/Trin_TaskPaneRibbonSynchronize/ManageTaskPaneRibbon.vb#5)]
      [!code-csharp[Trin_TaskPaneRibbonSynchronize#5](../vsto/codesnippet/CSharp/Trin_TaskPaneRibbonSynchronize/ManageTaskPaneRibbon.cs#5)]
@@ -142,17 +142,17 @@ ms.workload:
 
 ### To test your VSTO Add-in
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
      Confirm that Excel opens, and the **Add-Ins** tab appears on the ribbon.
 
-2.  Click the **Add-Ins** tab on the ribbon.
+2. Click the **Add-Ins** tab on the ribbon.
 
-3.  In the **Task Pane Manager** group, click the **Show Task Pane** toggle button.
+3. In the **Task Pane Manager** group, click the **Show Task Pane** toggle button.
 
      Verify that the task pane is alternately displayed and hidden when you click the toggle button.
 
-4.  When the task pane is visible, click the **Close** button (X) in the corner of the task pane.
+4. When the task pane is visible, click the **Close** button (X) in the corner of the task pane.
 
      Verify that the toggle button appears to be not pressed.
 

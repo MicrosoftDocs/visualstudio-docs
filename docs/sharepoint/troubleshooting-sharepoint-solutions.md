@@ -109,9 +109,9 @@ ms.workload:
 
 ##### To reenter the workflow wizard
 
-1.  In **Solution Explorer**, choose the workflow node.
+1. In **Solution Explorer**, choose the workflow node.
 
-2.  In the **Properties** window, choose the ellipsis (...) button on any property that has an ellipsis button.
+2. In the **Properties** window, choose the ellipsis (...) button on any property that has an ellipsis button.
 
 ## User must refresh application page in browser while debugging to view updated image
  If you are debugging a SharePoint solution that contains an application page with a control that displays an image, such as an [!INCLUDE[TLA2#tla_html](../sharepoint/includes/tla2sharptla-html-md.md)] Image control, you must refresh the page in the browser to display any changes that were made to the image.
@@ -150,9 +150,9 @@ ms.workload:
 
 ##### To change the feature scope of the event receiver
 
-1.  In **Solution Explorer**, open the event receiver's *.feature* file in the **Feature Designer** by either double-clicking the file or opening its shortcut menu and then choosing **Open**.
+1. In **Solution Explorer**, open the event receiver's *.feature* file in the **Feature Designer** by either double-clicking the file or opening its shortcut menu and then choosing **Open**.
 
-2.  Choose the arrow next to **Scope**, and then choose **Site** in the list that appears.
+2. Choose the arrow next to **Scope**, and then choose **Site** in the list that appears.
 
 ## Deployment error appears after the name of an identifier in a business data connectivity model project is changed
  This problem occurs if you change the identifier name of an entity in a Business Data Connectivity (BDC) model and then try to deploy the solution.
@@ -183,13 +183,13 @@ ms.workload:
 
 ##### To resolve this issue
 
-1.  In **Solution Explorer**, choose the user control file, whose file name extension is *.ascx*.
+1. In **Solution Explorer**, choose the user control file, whose file name extension is *.ascx*.
 
-2.  On the menu bar, choose **View** > **Properties Window**.
+2. On the menu bar, choose **View** > **Properties Window**.
 
-3.  In the **Properties** window, expand the **Deployment Location** node.
+3. In the **Properties** window, expand the **Deployment Location** node.
 
-4.  Ensure that the value of the **Path** property starts with the string "CONTROLTEMPLATES\\".
+4. Ensure that the value of the **Path** property starts with the string "CONTROLTEMPLATES\\".
 
 ## Error appears when an imported reusable workflow that contains a task form field is run
  This problem occurs if you import a workflow that contains a task form that has a field, and then run the new workflow on the same system from which you imported it.
@@ -224,26 +224,26 @@ ms.workload:
 
 ##### To access the IIS app pool settings
 
-1.  Open IIS Manager.
+1. Open IIS Manager.
 
-2.  In the **Connections** pane, expand the SharePoint server node, and then choose the **Application Pools** node.
+2. In the **Connections** pane, expand the SharePoint server node, and then choose the **Application Pools** node.
 
-3.  On the **Application Pools** page, choose the SharePoint application pool (typically "SharePoint - 80"), and then, in the **Actions** pane, choose the **Advanced Settings** link.
+3. On the **Application Pools** page, choose the SharePoint application pool (typically "SharePoint - 80"), and then, in the **Actions** pane, choose the **Advanced Settings** link.
 
-4.  To increase the wait time before IIS timeout, change the value of **Ping Maximum Response Time (seconds)** to a value that's larger than 90 seconds.
+4. To increase the wait time before IIS timeout, change the value of **Ping Maximum Response Time (seconds)** to a value that's larger than 90 seconds.
 
-5.  To disable IIS pinging, set **Ping Enabled** to **False**.
+5. To disable IIS pinging, set **Ping Enabled** to **False**.
 
 ## Auto-retract leaves orphaned list instance in SharePoint
  This problem occurs if you take the following steps.
 
-1.  Create a list definition that has a list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Create a list definition that has a list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  Choose the **F5** key to run the solution.
+2. Choose the **F5** key to run the solution.
 
-3.  Stop debugging, or close the SharePoint site.
+3. Stop debugging, or close the SharePoint site.
 
-4.  Reopen the SharePoint site and open the list instance.
+4. Reopen the SharePoint site and open the list instance.
 
 ### Error message
  Server Error in '/' Application.

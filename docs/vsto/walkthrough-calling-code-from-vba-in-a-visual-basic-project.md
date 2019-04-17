@@ -56,54 +56,54 @@ ms.workload:
 
 ### To create a document that contains VBA code
 
-1.  Start Word.
+1. Start Word.
 
-2.  Save the active document as a Word **Macro-Enabled Document (\*.docm)** with the name **DocumentWithVBA**. Save it in a convenient location, such as the desktop.
+2. Save the active document as a Word **Macro-Enabled Document (\*.docm)** with the name **DocumentWithVBA**. Save it in a convenient location, such as the desktop.
 
-3.  On the Ribbon, click the **Developer** tab.
+3. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-4.  In the **Code** group, click **Visual Basic**.
+4. In the **Code** group, click **Visual Basic**.
 
      The Visual Basic Editor opens.
 
-5.  In the **Project** window, double-click **ThisDocument**.
+5. In the **Project** window, double-click **ThisDocument**.
 
      The code file for the `ThisDocument` object opens.
 
-6.  Add the following VBA code to the code file. This code defines a simple function that does nothing. The only purpose of this function is to ensure that a VBA project exists in the document. This is required for later steps in this walkthrough.
+6. Add the following VBA code to the code file. This code defines a simple function that does nothing. The only purpose of this function is to ensure that a VBA project exists in the document. This is required for later steps in this walkthrough.
 
     ```vb
     Sub EmptySub()
     End Sub
     ```
 
-7.  Save the document and exit Word.
+7. Save the document and exit Word.
 
 ## Create the project
  Now you can create a document-level project for Word that uses the macro-enabled document you created earlier.
 
 ### To create a new project
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**. If your IDE is set to use Visual Basic development settings, on the **File** menu, click **New Project**.
+2. On the **File** menu, point to **New**, and then click **Project**. If your IDE is set to use Visual Basic development settings, on the **File** menu, click **New Project**.
 
-3.  In the templates pane, expand **Visual Basic**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual Basic**, and then expand **Office/SharePoint**.
 
-4.  Select the **Office Add-ins** node.
+4. Select the **Office Add-ins** node.
 
-5.  In the list of project templates, select the **Word 2010 Document** or **Word 2013 Document** project.
+5. In the list of project templates, select the **Word 2010 Document** or **Word 2013 Document** project.
 
-6.  In the **Name** box, type **CallingCodeFromVBA**.
+6. In the **Name** box, type **CallingCodeFromVBA**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      The **Visual Studio Tools for Office Project Wizard** opens.
 
-8.  Select **Copy an existing document**, and, in the **Full path of the existing document** box, specify the location of the **DocumentWithVBA** document that you created earlier. If you are using your own macro-enabled document, specify the location of this document instead.
+8. Select **Copy an existing document**, and, in the **Full path of the existing document** box, specify the location of the **DocumentWithVBA** document that you created earlier. If you are using your own macro-enabled document, specify the location of this document instead.
 
 9. Click **Finish**.
 
@@ -114,21 +114,21 @@ ms.workload:
 
 ### To trust the location of the document
 
-1.  Start Word.
+1. Start Word.
 
-2.  Click the **File** tab.
+2. Click the **File** tab.
 
-3.  Click the **Word Options** button.
+3. Click the **Word Options** button.
 
-4.  In the categories pane, click **Trust Center**.
+4. In the categories pane, click **Trust Center**.
 
-5.  In the details pane, click **Trust Center Settings**.
+5. In the details pane, click **Trust Center Settings**.
 
-6.  In the categories pane, click **Trusted Locations**.
+6. In the categories pane, click **Trusted Locations**.
 
-7.  In the details pane, click **Add new location**.
+7. In the details pane, click **Add new location**.
 
-8.  In the **Microsoft Office Trusted Location** dialog box, browse to the folder that contains the **CallingCodeFromVBA** project.
+8. In the **Microsoft Office Trusted Location** dialog box, browse to the folder that contains the **CallingCodeFromVBA** project.
 
 9. Select **Subfolders of this location are also trusted**.
 
@@ -145,30 +145,30 @@ ms.workload:
 
 ### To add a method to the ThisDocument class
 
-1.  In **Solution Explorer**, right-click **ThisDocument.vb**, and then click **View Code**.
+1. In **Solution Explorer**, right-click **ThisDocument.vb**, and then click **View Code**.
 
      The **ThisDocument.vb** file opens in the Code Editor.
 
-2.  Add the following method to the `ThisDocument` class. This method creates a table with two rows and two columns at the beginning of the document. The parameters specify the text that is displayed in the first row. Later in this walkthrough, you will call this method from VBA code in the document.
+2. Add the following method to the `ThisDocument` class. This method creates a table with two rows and two columns at the beginning of the document. The parameters specify the text that is displayed in the first row. Later in this walkthrough, you will call this method from VBA code in the document.
 
      [!code-vb[Trin_CallingVBCustomizationFromVBA#1](../vsto/codesnippet/VisualBasic/CallingCodeFromVBA/ThisDocument.vb#1)]
 
-3.  Build the project.
+3. Build the project.
 
 ## Expose the method to VBA code
  To expose the `CreateTable` method to VBA code in the document, set the **EnableVbaCallers** property for the `ThisDocument` host item to **True**.
 
 ### To expose the method to VBA code
 
-1.  In **Solution Explorer**, double-click **ThisDocument.vb**.
+1. In **Solution Explorer**, double-click **ThisDocument.vb**.
 
      The **DocumentWithVBA** file opens in the designer.
 
-2.  In the **Properties** window, select the **EnableVbaCallers** property, and change the value to **True**.
+2. In the **Properties** window, select the **EnableVbaCallers** property, and change the value to **True**.
 
-3.  Click **OK** in the message that is displayed.
+3. Click **OK** in the message that is displayed.
 
-4.  Build the project.
+4. Build the project.
 
 ## Call the method from VBA code
  You can now call the `CreateTable` method from VBA code in the document.
@@ -178,15 +178,15 @@ ms.workload:
 
 ### To call the method from VBA code
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  On the **Developer** tab, in the **Code** group, click **Visual Basic**.
+2. On the **Developer** tab, in the **Code** group, click **Visual Basic**.
 
      The Visual Basic Editor opens.
 
-3.  On the **Insert** menu, click **Module**.
+3. On the **Insert** menu, click **Module**.
 
-4.  Add the following code to the new module.
+4. Add the following code to the new module.
 
      This code calls the `CreateTable` method in the customization assembly. The macro accesses this method by using the `CallVSTOAssembly` property of the `ThisDocument` object. This property was automatically generated when you set the **EnableVbaCallers** property earlier in this walkthrough.
 
@@ -196,11 +196,11 @@ ms.workload:
     End Sub
     ```
 
-5.  Press **F5**.
+5. Press **F5**.
 
-6.  Verify that a new table was added to the document.
+6. Verify that a new table was added to the document.
 
-7.  Exit Word without saving your changes.
+7. Exit Word without saving your changes.
 
 ## Next steps
  You can learn more about calling code in Office solutions from VBA in these topics:

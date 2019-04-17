@@ -23,7 +23,7 @@ You can use the VSIX Project template to create an extension or to package an ex
 ## Deploying a Custom Project Template using the VSIX Project Template  
  The following steps show how to use the VSIX project to package a project template that you can share with other developers or upload to the Visual Studio Gallery.  
   
-1.  Create a project template.  
+1. Create a project template.  
   
     1.  Open the project from which to create a template. This project can be of any project type.  
   
@@ -31,13 +31,13 @@ You can use the VSIX Project template to create an extension or to package an ex
   
          A .zip file is created in %USERPROFILE%\My Documents\Visual Studio *\<version>*\My Exported Templates\\.  
   
-2.  Create an empty VSIX project.  
+2. Create an empty VSIX project.  
   
      On the **File** menu, click **New** and then click **Project**. Select either **Visual Basic** or **Visual C#**. Under the selected node, select **Extensibility**, and then select **VSIX Project**.  
   
-3.  Add the .zip file to the project. Set its **Copy to Output Directory** property to `Copy Always`.  
+3. Add the .zip file to the project. Set its **Copy to Output Directory** property to `Copy Always`.  
   
-4.  In the **Solution Explorer**, double-click the `source.extension.vsixmanifest` file to open it in the **VSIX Manifest Designer**, and then make the following changes:  
+4. In the **Solution Explorer**, double-click the `source.extension.vsixmanifest` file to open it in the **VSIX Manifest Designer**, and then make the following changes:  
   
     -   Set the **Product Name** field to **My Project Template**.  
   
@@ -49,13 +49,13 @@ You can use the VSIX Project template to create an extension or to package an ex
   
     -   In the **Assets** section, add a **Microsoft.VisualStudio.ProjectTemplate** type and set its path to the name of the .zip file.  
   
-5.  Save and close the source.extension.vsixmanifest file.  
+5. Save and close the source.extension.vsixmanifest file.  
   
-6.  Build the project.  
+6. Build the project.  
   
-7.  In the output directory, double-click the .vsix file.  
+7. In the output directory, double-click the .vsix file.  
   
-8.  A **VSIX Installer** message box appears. Follow the instructions to install the extension.  
+8. A **VSIX Installer** message box appears. Follow the instructions to install the extension.  
   
 9. Close Visual Studio and then re-open it.  
   
@@ -65,18 +65,18 @@ You can use the VSIX Project template to create an extension or to package an ex
   
 #### To Specify the Location of the Template in the New Project Dialog Box  
   
-1.  Template folders are located in the *Visual Studio Installation Path*\Common7\IDE\ProjectTemplates and *Visual Studio Installation Path*\Common7\IDE\ItemTemplates directories. The names of the top level sections in the New Project dialog do not exactly match the names of the template folders. Where they differ, use the name of the template folder.  
+1. Template folders are located in the *Visual Studio Installation Path*\Common7\IDE\ProjectTemplates and *Visual Studio Installation Path*\Common7\IDE\ItemTemplates directories. The names of the top level sections in the New Project dialog do not exactly match the names of the template folders. Where they differ, use the name of the template folder.  
   
      Change the .vsix file extension to .zip, and then open the file.  
   
-2.  Create a new folder with the same name as the section of the New Project dialog the template should appear in.  
+2. Create a new folder with the same name as the section of the New Project dialog the template should appear in.  
   
-3.  If the template is to appear in a subsection, create a subfolder of the same name.  
+3. If the template is to appear in a subsection, create a subfolder of the same name.  
   
-4.  Move the template .zip file into the new folder.  
+4. Move the template .zip file into the new folder.  
   
-5.  Change the .zip extension to .vsix.  
+5. Change the .zip extension to .vsix.  
   
-6.  Open the VSIX manifest.  
+6. Open the VSIX manifest.  
   
-7.  In the VSIX manifest, update the **Asset** path of the template so that it points to the root of the directory tree that contains the template file. For example, if the template is in \CSharp\Windows, the reference should point to \CSharp.
+7. In the VSIX manifest, update the **Asset** path of the template so that it points to the root of the directory tree that contains the template file. For example, if the template is in \CSharp\Windows, the reference should point to \CSharp.

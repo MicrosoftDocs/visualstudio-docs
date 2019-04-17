@@ -27,7 +27,7 @@ For more information about text templates, see [Design-Time Code Generation by u
 
 To resolve a ModelBus reference in a text template, the target DSL must have a compatible adapter. Text templates execute in a separate AppDomain from the Visual Studio document editors, and therefore the adapter has to load the model instead of accessing it through DTE.
 
-1.  If the target DSL solution does not have a **ModelBusAdapter** project, create one by using the Modelbus Extension wizard:
+1. If the target DSL solution does not have a **ModelBusAdapter** project, create one by using the Modelbus Extension wizard:
 
     1.  Download and install the Visual Studio ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
@@ -41,7 +41,7 @@ To resolve a ModelBus reference in a text template, the target DSL must have a c
 
     6.  Rebuild the solution.
 
-2.  If you want to access the DSL both from a text template and from other code, such as command, duplicate the **ModelBusAdapter** project:
+2. If you want to access the DSL both from a text template and from other code, such as command, duplicate the **ModelBusAdapter** project:
 
     1.  In Windows Explorer, copy and paste the folder that contains **ModelBusAdapter.csproj**.
 
@@ -63,12 +63,12 @@ To resolve a ModelBus reference in a text template, the target DSL must have a c
 
     8.  **Transform All Templates** and rebuild the solution. No build errors should occur.
 
-3.  In the new adapter project, add references to the following assemblies:
+3. In the new adapter project, add references to the following assemblies:
 
     - Microsoft.VisualStudio.TextTemplating.11.0
     - Microsoft.VisualStudio.TextTemplating.Modeling.11.0
 
-4.  In AdapterManager.tt:
+4. In AdapterManager.tt:
 
     -   Change the declaration of AdapterManagerBase so that it inherits from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.
 
@@ -86,7 +86,7 @@ To resolve a ModelBus reference in a text template, the target DSL must have a c
 
          This attribute filters the set of adapters that is available when a modelbus consumer searches for an adapter.
 
-5.  **Transform All Templates** and rebuild the solution. No build errors should occur.
+5. **Transform All Templates** and rebuild the solution. No build errors should occur.
 
 ## Write a Text Template That Can Resolve ModelBus References
 
@@ -155,17 +155,17 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 ## Walkthrough: Testing a Text Template That Uses ModelBus
  In this walkthrough, you follow these steps:
 
-1.  Construct two DSLs. One DSL, the *Consumer*, has a `ModelBusReference` property that can refer to the other DSL, the *Provider*.
+1. Construct two DSLs. One DSL, the *Consumer*, has a `ModelBusReference` property that can refer to the other DSL, the *Provider*.
 
-2.  Create two ModelBus Adapters in the Provider: one for access by text templates, the other for ordinary code.
+2. Create two ModelBus Adapters in the Provider: one for access by text templates, the other for ordinary code.
 
-3.  Create instance models of the DSLs in a single experimental project.
+3. Create instance models of the DSLs in a single experimental project.
 
-4.  Set a domain property in one model to point to the other model.
+4. Set a domain property in one model to point to the other model.
 
-5.  Write a double-click handler that opens the model that is pointed to.
+5. Write a double-click handler that opens the model that is pointed to.
 
-6.  Write a text template that can load the first model, follow the reference to the other model, and read the other model.
+6. Write a text template that can load the first model, follow the reference to the other model, and read the other model.
 
 ### Construct a DSL that is accessible to ModelBus
 
@@ -295,7 +295,7 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
 
 ### Resolve a ModelBus Reference in a text template
 
-1.  In the experimental instance of Visual Studio, open a sample text template file. Set its content as follows.
+1. In the experimental instance of Visual Studio, open a sample text template file. Set its content as follows.
 
     ```
     <#@ template debug="true" hostspecific="true" language="C#"
@@ -339,7 +339,7 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
 
     - If you know that many MBRs are linked to the same model, it is better to call CreateAdapter only one time.
 
-2.  Save the template. Verify that the resulting text file resembles the following.
+2. Save the template. Verify that the resulting text file resembles the following.
 
     ```
     ExampleElement1
@@ -349,9 +349,9 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
 
 ### Resolve a ModelBus reference in a gesture handler
 
-1.  Close the experimental instance of Visual Studio, if it is running.
+1. Close the experimental instance of Visual Studio, if it is running.
 
-2.  Add a file named *MBConsumer\Dsl\Custom.cs* and set its content to the following:
+2. Add a file named *MBConsumer\Dsl\Custom.cs* and set its content to the following:
 
     ```csharp
     namespace Company.MB2Consume
@@ -382,11 +382,11 @@ You now have a DSL that can be accessed by text templates through ModelBus. Refe
     }
     ```
 
-3.  Press **Ctrl**+**F5**.
+3. Press **Ctrl**+**F5**.
 
-4.  In the experimental instance of Visual Studio, open `Debugging\Sample.consume`.
+4. In the experimental instance of Visual Studio, open `Debugging\Sample.consume`.
 
-5.  Double-click one shape.
+5. Double-click one shape.
 
     If you have set the MBR on that element, the referenced model opens and the referenced element is selected.
 

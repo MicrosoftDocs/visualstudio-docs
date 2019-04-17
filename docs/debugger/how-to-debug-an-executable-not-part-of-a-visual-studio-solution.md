@@ -52,7 +52,7 @@ In these situations, you can create a Visual Studio EXE project for the app, or 
 
 ### To import an app into an existing Visual Studio solution
 
-1.  With a C++, C#, or Visual Basic solution open in Visual Studio, select **File** > **Add** > **Existing Project**.
+1. With a C++, C#, or Visual Basic solution open in Visual Studio, select **File** > **Add** > **Existing Project**.
 
 1. In the **Open Project** dialog box, select **All Project Files**, if not already selected, in the dropdown next to **File name**.
 

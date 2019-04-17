@@ -35,11 +35,11 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 #### To change the file extension of a DSL  
   
-1.  Open the DSL Definition. In DSL Explorer, click the Editor node.  
+1. Open the DSL Definition. In DSL Explorer, click the Editor node.  
   
-2.  In the Properties window, edit the **FileExtension** property. Do not include the initial "." of the file name extension.  
+2. In the Properties window, edit the **FileExtension** property. Do not include the initial "." of the file name extension.  
   
-3.  In Solution Explorer, change the name of the two item template files in **DslPackage\ProjectItemTemplates**. These files have names that follow this format:  
+3. In Solution Explorer, change the name of the two item template files in **DslPackage\ProjectItemTemplates**. These files have names that follow this format:  
   
      `myDsl.diagram`  
   
@@ -119,7 +119,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 #### To set a domain class to be referenced by ID monikers  
   
-1.  Make sure that **Is Moniker Key** is `false` for every domain property in the class and its base classes.  
+1. Make sure that **Is Moniker Key** is `false` for every domain property in the class and its base classes.  
   
     1.  In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**.  
   
@@ -127,7 +127,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
     3.  If the domain class has a base class, repeat the procedure in that class.  
   
-2.  Set **Serialize Id** = `true` for the domain class.  
+2. Set **Serialize Id** = `true` for the domain class.  
   
      This property can be found under **Xml Serialization Behavior**.  
   
@@ -247,13 +247,13 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 #### To customize the serialization of a particular class  
   
-1.  Set **Is Custom** in the node for that class under **Xml Serialization Behavior**.  
+1. Set **Is Custom** in the node for that class under **Xml Serialization Behavior**.  
   
-2.  Transform All Templates, build the solution, and investigate the resulting compilation errors. Comments near each error explain what code you have to provide.  
+2. Transform All Templates, build the solution, and investigate the resulting compilation errors. Comments near each error explain what code you have to provide.  
   
 #### To provide your own serialization for the whole model  
   
-1.  Override methods in Dsl\GeneratedCode\SerializationHelper.cs  
+1. Override methods in Dsl\GeneratedCode\SerializationHelper.cs  
   
 ## Options in Xml Serialization Behavior  
  In DSL Explorer, the Xml Serialization Behavior node contains a child node for each domain class, relationship, shape, connector and diagram class. Under each of those nodes is a list of properties and relationships sourced at that element. Relationships are represented both in their own right and under their source classes.  

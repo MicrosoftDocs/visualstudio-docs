@@ -156,9 +156,9 @@ namespace BackgroundThreadProgressUI // CHANGE TO YOUR NAMESPACE
   
 #### To allow the user to cancel the thread in the example  
   
-1.  Add a cancel button to the progress dialog.  
+1. Add a cancel button to the progress dialog.  
   
-2.  Add the following code to the progress dialog box:  
+2. Add the following code to the progress dialog box:  
   
      `public event MethodInvoker Cancel;`  
   
@@ -170,7 +170,7 @@ namespace BackgroundThreadProgressUI // CHANGE TO YOUR NAMESPACE
   
      `}`  
   
-3.  In the Execute() method, insert this line after the construction of the form:  
+3. In the Execute() method, insert this line after the construction of the form:  
   
      `form.Cancel += delegate() { worker.CancelAsync(); };`  
   

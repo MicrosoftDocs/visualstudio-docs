@@ -330,9 +330,9 @@ manager: jillfra
 
  There are two recommendations for resizable dialogs:
 
-1.  That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
+1. That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
 
-2.  That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
+2. That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
 
 #### Position
  Dialogs must appear centered within the IDE on first launch. For non-resizable dialogs, it is not required that the last position of the dialog be persisted, so it will appear centered on subsequent launches. For resizable dialogs, the size should be persisted on subsequent launches. For resizable dialogs that are modal, the position does not need to be persisted. Displaying them centered within the IDE prevents the possibility of the dialog appearing in an unpredictable or unusable position when the user's display configuration has changed. For modeless dialogs that can be repositioned, the user's position should be maintained on subsequent launches, as the dialog may be used frequently as an integral part of a larger workflow.

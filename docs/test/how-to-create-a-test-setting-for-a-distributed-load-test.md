@@ -37,33 +37,33 @@ Follow these steps to create and remove test settings in your solution for load 
 
 ### To add a test settings for a distributed load test
 
-1.  In **Solution Explorer**, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
+1. In **Solution Explorer**, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
 
      The **Add New Item** dialog box appears.
 
-2.  In the **Installed Templates** pane, choose **Test Settings**.
+2. In the **Installed Templates** pane, choose **Test Settings**.
 
-3.  (Optional) In the **Name** box, change the name of the test settings file.
+3. (Optional) In the **Name** box, change the name of the test settings file.
 
-4.  Choose **Add**.
+4. Choose **Add**.
 
      The new test settings file appears in **Solution Explorer**, under the **Solution Items** folder.
 
     > [!NOTE]
     > The list of test settings that Visual Studio Enterprise displays is derived from the list of test settings files in the **Solution Items** folder. For example, test settings files in the **Solution Items** folder are displayed when you use the **Select Active Test Settings** option on the **Test** menu. This means that if you move a test settings file to another location in your solution hierarchy, it can no longer be used as a test setting from within the Visual Studio integrated development environment.
 
-5.  The **Test Settings** dialog box is displayed. The **General** page is selected.
+5. The **Test Settings** dialog box is displayed. The **General** page is selected.
 
      You can now edit and save test settings values.
 
     > [!NOTE]
     > Each test settings that you create is listed as a choice for the **Select Active Test Settings** and **Edit Test Settings** options on the **Test** menu.
 
-6.  Under **Name**, type the name for the test settings.
+6. Under **Name**, type the name for the test settings.
 
-7.  (Optional) Under **Description**, type a description for the test setting so other team members know what it is intended for.
+7. (Optional) Under **Description**, type a description for the test setting so other team members know what it is intended for.
 
-8.  (Optional) To select the default naming scheme for your test runs, select **Default naming scheme**. To define your own naming scheme, select **User-defined scheme** and then type the text that you want in **Prefix text**. To append the date and time stamp to the test run name, select **Append date-time stamp**.
+8. (Optional) To select the default naming scheme for your test runs, select **Default naming scheme**. To define your own naming scheme, select **User-defined scheme** and then type the text that you want in **Prefix text**. To append the date and time stamp to the test run name, select **Append date-time stamp**.
 
 9. Choose **Roles**.
 

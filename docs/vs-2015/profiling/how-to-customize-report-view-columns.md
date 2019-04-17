@@ -42,14 +42,14 @@ Performance tools in Visual Studio Team System Development Edition  are fully in
   
 ### To customize a report view  
   
-1.  Open the report view.  
+1. Open the report view.  
   
-2.  Right-click the report view surface, and then click **Add/Remove Columns**.  
+2. Right-click the report view surface, and then click **Add/Remove Columns**.  
   
      The **Add/Remove Columns** dialog box appears.  
   
-3.  Select the columns you want to add.  
+3. Select the columns you want to add.  
   
-4.  Click the arrow button to reorder columns.  
+4. Click the arrow button to reorder columns.  
   
-5.  Click **OK**.
+5. Click **OK**.

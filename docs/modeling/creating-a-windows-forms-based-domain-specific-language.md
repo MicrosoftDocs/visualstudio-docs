@@ -66,34 +66,34 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To update the DSL definition
 
-1.  Open DslDefinition.dsl in the DSL designer.
+1. Open DslDefinition.dsl in the DSL designer.
 
-2.  Delete **ExampleElement**
+2. Delete **ExampleElement**
 
-3.  Rename the **ExampleModel** domain class to `Farm`.
+3. Rename the **ExampleModel** domain class to `Farm`.
 
      Give it additional domain properties named `Size` of type **Int32**, and `IsOrganic` of type **Boolean**.
 
     > [!NOTE]
     >  If you delete the root domain class and then create a new root, you will have to reset the Editor Root Class property. In **DSL Explorer**, select **Editor**. Then in the Properties window, set **Root Class** to `Farm`.
 
-4.  Use the **Named Domain Class** tool to create the following domain classes:
+4. Use the **Named Domain Class** tool to create the following domain classes:
 
     -   `Field` - Give this an additional domain property named `Size`.
 
     -   `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
 
-5.  Use the **Domain Class** tool to create the following classes:
+5. Use the **Domain Class** tool to create the following classes:
 
     -   `Sheep`
 
     -   `Goat`
 
-6.  Use the **Inheritance** tool to make `Goat` and `Sheep` inherit from `Animal`.
+6. Use the **Inheritance** tool to make `Goat` and `Sheep` inherit from `Animal`.
 
-7.  Use the **Embedding** tool to embed `Field` and `Animal` under `Farm`.
+7. Use the **Embedding** tool to embed `Field` and `Animal` under `Farm`.
 
-8.  You might want to tidy the diagram. To reduce the number of duplicate elements, use the **Bring Subtree Here** command on the shortcut menu of leaf elements.
+8. You might want to tidy the diagram. To reduce the number of duplicate elements, use the **Bring Subtree Here** command on the shortcut menu of leaf elements.
 
 9. **Transform All Templates** in the toolbar of Solution Explorer.
 
@@ -107,13 +107,13 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To define your DSL model as a data source
 
-1.  On the **Data** menu, choose **Show Data Sources**.
+1. On the **Data** menu, choose **Show Data Sources**.
 
      The **Data Sources** window opens.
 
      Choose **Add New Data Source**. The **Data Source Configuration Wizard** opens.
 
-2.  Choose **Object**, **Next**.
+2. Choose **Object**, **Next**.
 
      Expand **Dsl**, **Company.FarmApp**, and select **Farm**, which is the root class of your model. Choose **Finish**.
 
@@ -171,7 +171,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To complete the bindings to the DSL
 
-1.  Add the following code in a separate code file in the **UI** project:
+1. Add the following code in a separate code file in the **UI** project:
 
     ```csharp
     using System.ComponentModel;
@@ -197,7 +197,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
     }
     ```
 
-2.  In the **DslPackage** project, edit **DslPackage\DocView.tt** to update the following variable definition:
+2. In the **DslPackage** project, edit **DslPackage\DocView.tt** to update the following variable definition:
 
     ```csharp
     string viewControlTypeName = "FarmControl";
@@ -208,18 +208,18 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To test the DSL
 
-1.  Build and run the solution.
+1. Build and run the solution.
 
-2.  In the experimental instance of Visual Studio, open the **Sample** file.
+2. In the experimental instance of Visual Studio, open the **Sample** file.
 
-3.  In the **FarmApp Explorer**, open the shortcut menu on the **Farm** root node, and choose **Add New Goat**.
+3. In the **FarmApp Explorer**, open the shortcut menu on the **Farm** root node, and choose **Add New Goat**.
 
      `Goat1` appears in the **Animals** view.
 
     > [!WARNING]
     >  You must use the shortcut menu on the **Farm** node, not the **Animals** node.
 
-4.  Select the **Farm** root node and view its properties.
+4. Select the **Farm** root node and view its properties.
 
      In the form view, change the **Name** or **Size** of the farm.
 
@@ -229,13 +229,13 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 #### To make the properties update immediately
 
-1.  In the design view of FarmControl.cs, select a simple field such as Name, Size or IsOrganic.
+1. In the design view of FarmControl.cs, select a simple field such as Name, Size or IsOrganic.
 
-2.  In the Properties window, expand **DataBindings** and open **(Advanced)**.
+2. In the Properties window, expand **DataBindings** and open **(Advanced)**.
 
      In the **Formatting and Advanced Binding** dialog, under **Data Source Update Mode**, choose **OnPropertyChanged**.
 
-3.  Build and run the solution.
+3. Build and run the solution.
 
      Verify that when you change the content of the field, the corresponding property of the Farm model changes immediately.
 

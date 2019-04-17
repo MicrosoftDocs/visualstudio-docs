@@ -64,7 +64,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
 #### To display “Hello” in the console window
 
-1.  In the GreetingsConsoleApp.cpp file, enter a blank line before the line `return 0;` and then enter the following code:
+1. In the GreetingsConsoleApp.cpp file, enter a blank line before the line `return 0;` and then enter the following code:
 
     ```
     cout << "Hello\n";
@@ -78,7 +78,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
      [cout](http://msdn.microsoft.com/library/d87db6c3-e4e1-4d09-9ec5-458f55018257) is included in the \<iostream\> header file.
 
-2.  To include the iostream header, enter the following code after `#include "stdafx.h"`:
+2. To include the iostream header, enter the following code after `#include "stdafx.h"`:
 
     ```
     #include \<iostream\>
@@ -89,7 +89,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
      The red squiggly line under `cout` disappears when you fix the error.
 
-3.  Save the changes to the file.
+3. Save the changes to the file.
 
      ![Code that fixes cout error](../ide/media/c-ide-coutfix.png "C++IDE_CoutFix")
 

@@ -35,13 +35,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 #### To add a DGSL shader to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.  
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.  
+2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.  
   
-3.  Specify the **Name** of the shader file, and the **Location** where you want it to be created.  
+3. Specify the **Name** of the shader file, and the **Location** where you want it to be created.  
   
-4.  Choose the **Add** button.  
+4. Choose the **Add** button.  
   
 ### The default shader  
  Each time that you create a DGSL shader, it begins as a minimal shader that has just a **Point Color** node that's connected to the **Final Color** node. Although this shader is complete and functional, it doesn't do much. Therefore, the first step in creating a working shader is often to delete the **Point Color** node or disconnect it from the **Final Color** node to make room for other nodes.  

@@ -75,15 +75,15 @@ Manage different versions of your modeling projects and diagrams, including code
   
 ##### To move a diagram file in or out of a project folder  
   
-1.  Start **Developer Command prompt for Visual Studio**.  
+1. Start **Developer Command prompt for Visual Studio**.  
   
-2.  Use **tf rename** to move the diagram file and its **.layout** file:  
+2. Use **tf rename** to move the diagram file and its **.layout** file:  
   
      `tf rename sourcePath targetPath`  
   
-3.  In Solution Explorer, right-click the file and then click **Exclude From Project**.  
+3. In Solution Explorer, right-click the file and then click **Exclude From Project**.  
   
-4.  Add the file to the destination folder.  
+4. Add the file to the destination folder.  
   
      In Solution Explorer, right-click the destination folder or the project, point to **Add**, and then click **Existing Item**. In the dialog box, select the diagram file and then click **Add**. The layout file will be added automatically.  
   

@@ -170,13 +170,13 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
   
  To load symbols for a specific system component while you are debugging:  
   
-1.  Open the Modules window (keyboard: **Ctrl+Alt+U**).  
+1. Open the Modules window (keyboard: **Ctrl+Alt+U**).  
   
-2.  Select the module that you want to load symbols for.  
+2. Select the module that you want to load symbols for.  
   
      You can tell which modules have symbols loaded by looking at the **Symbol Status** column.  
   
-3.  Choose **Load Symbols** on the context menu.  
+3. Choose **Load Symbols** on the context menu.  
   
 ##  <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code  
  The debugger steps over properties and operators in managed code by default. In most cases, this provides a better debugging experience. To enable stepping into properties or operators, choose **Debug** / **Options**. On the **Debugging** / **General** page, clear the **Step over properties and operators (Managed only)** check box

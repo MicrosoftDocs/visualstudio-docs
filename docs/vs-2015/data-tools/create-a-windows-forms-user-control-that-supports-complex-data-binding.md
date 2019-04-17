@@ -62,11 +62,11 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, from the **File** menu, create a new **Project**.  
   
-2.  Name the project **ComplexControlWalkthrough**.  
+2. Name the project **ComplexControlWalkthrough**.  
   
-3.  Select **Windows Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **ComplexControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -75,9 +75,9 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To add a user control to the project  
   
-1.  From the **Project** menu, choose **Add User Control**.  
+1. From the **Project** menu, choose **Add User Control**.  
   
-2.  Type **ComplexDataGridView** in the **Name** area, and then click **Add**.  
+2. Type **ComplexDataGridView** in the **Name** area, and then click **Add**.  
   
      The **ComplexDataGridView** control is added to **Solution Explorer**, and opens in the designer.  
   
@@ -93,39 +93,39 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To implement the ComplexBindingProperties attribute  
   
-1.  Switch the **ComplexDataGridView** control to code view. (On the **View** menu, select **Code**.)  
+1. Switch the **ComplexDataGridView** control to code view. (On the **View** menu, select **Code**.)  
   
-2.  Replace the code in the `ComplexDataGridView` with the following:  
+2. Replace the code in the `ComplexDataGridView` with the following:  
   
      [!code-csharp[VbRaddataDisplaying#4](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/ComplexDataGridView.cs#4)]
      [!code-vb[VbRaddataDisplaying#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/ComplexDataGridView.vb#4)]  
   
-3.  From the **Build** menu, choose **Build Solution**.  
+3. From the **Build** menu, choose **Build Solution**.  
   
 ## Creating a data source from your database  
  This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
   
 #### To create the data source  
   
-1.  On the **Data** menu, click **Show Data Sources**.  
+1. On the **Data** menu, click **Show Data Sources**.  
   
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.  
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.  
   
-3.  Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.  
+3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.  
   
-4.  On the **Choose your Data Connection** page do one of the following:  
+4. On the **Choose your Data Connection** page do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.  
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.  
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.  
   
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.  
+7. On the **Choose your Database Objects** page, expand the **Tables** node.  
   
-8.  Select the `Customers` table, and then click **Finish**.  
+8. Select the `Customers` table, and then click **Finish**.  
   
      The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.  
   
@@ -134,15 +134,15 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To set the Customers table to bind to the ComplexDataGridView control  
   
-1.  Open **Form1** in the designer.  
+1. Open **Form1** in the designer.  
   
-2.  Expand the **Customers** node in the **Data Sources** window.  
+2. Expand the **Customers** node in the **Data Sources** window.  
   
-3.  Click the drop-down arrow on the **Customers** node, and choose **Customize**.  
+3. Click the drop-down arrow on the **Customers** node, and choose **Customize**.  
   
-4.  Select the **ComplexDataGridView** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.  
+4. Select the **ComplexDataGridView** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.  
   
-5.  Click the drop-down arrow on the `Customers` table, and choose **ComplexDataGridView** from the control list.  
+5. Click the drop-down arrow on the `Customers` table, and choose **ComplexDataGridView** from the control list.  
   
 ## Addcontrols to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.  

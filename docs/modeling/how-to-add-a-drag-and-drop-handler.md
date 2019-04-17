@@ -74,9 +74,9 @@ MEF (Managed Extensibility Framework) lets you define components that can be ins
 
 ### To define a MEF gesture handler
 
-1.  Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
+1. Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
 
-2.  You can now define a gesture handler as a MEF component:
+2. You can now define a gesture handler as a MEF component:
 
     ```csharp
     // This attribute is defined in the generated file
@@ -108,7 +108,7 @@ MEF (Managed Extensibility Framework) lets you define components that can be ins
 
      You can create more than one gesture handler component, such as when you have different types of dragged objects.
 
-3.  Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#to-send-an-object-from-a-source-dsl).
+3. Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#to-send-an-object-from-a-source-dsl).
 
 ## How to decode the dragged item
 
@@ -162,7 +162,7 @@ Make the source DSL accessible by Visual Studio Model Bus:
 
 ### To send an object from a source DSL
 
-1.  In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.
+1. In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -202,13 +202,13 @@ Make the source DSL accessible by Visual Studio Model Bus:
 
 ### To receive a Model Bus Reference from a DSL in a target DSL or UML project
 
-1.  In the target DSL project, add project references to:
+1. In the target DSL project, add project references to:
 
     -   The source Dsl project.
 
     -   The source ModelBus project.
 
-2.  In the gesture handler code file, add the following namespace references:
+2. In the gesture handler code file, add the following namespace references:
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -220,7 +220,7 @@ Make the source DSL accessible by Visual Studio Model Bus:
     using SourceDslNamespace.ModelBusAdapters;
     ```
 
-3.  The following sample illustrates how to get access to the source model element:
+3. The following sample illustrates how to get access to the source model element:
 
     ```csharp
     partial class MyTargetShape // or diagram or connector

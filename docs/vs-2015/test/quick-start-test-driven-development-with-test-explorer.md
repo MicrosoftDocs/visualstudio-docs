@@ -124,7 +124,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 #### After every change, make all the tests pass  
   
-1.  In `MyMath\Rooter.cs`, improve the code of `SquareRoot`:  
+1. In `MyMath\Rooter.cs`, improve the code of `SquareRoot`:  
   
     ```csharp  
     public double SquareRoot(double input)  
@@ -133,7 +133,7 @@ We recommend that you create unit tests to help keep your code working correctly
      }  
     ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
      The code builds and the test runs.  
   
@@ -143,7 +143,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 #### Add tests to extend the range of inputs  
   
-1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
+1. To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
   
     > [!TIP]
     >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps ensure that you don’t lose existing functionality as you work to extend the code.  
@@ -174,13 +174,13 @@ We recommend that you create unit tests to help keep your code working correctly
     }  
     ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
      The new test fails, although the first test still passes.  
   
      To find the point of failure, select the failing test and then in the lower part of Test Explorer, select the top item of the **Stack Trace**.  
   
-3.  Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:  
+3. Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:  
   
     ```  
     public double SquareRoot(double input)  
@@ -196,13 +196,13 @@ We recommend that you create unit tests to help keep your code working correctly
     }  
     ```  
   
-4.  In Test Explorer, choose **Run All**.  
+4. In Test Explorer, choose **Run All**.  
   
      Both tests now pass.  
   
 #### Add tests for exceptional cases  
   
-1.  Add a test for negative inputs:  
+1. Add a test for negative inputs:  
   
     ```csharp  
     [TestMethod]  
@@ -221,15 +221,15 @@ We recommend that you create unit tests to help keep your code working correctly
      }  
     ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
      The method under test loops, and must be canceled manually.  
   
-3.  Choose **Cancel**.  
+3. Choose **Cancel**.  
   
      The test stops after 10 seconds.  
   
-4.  Fix the method code:  
+4. Fix the method code:  
   
     ```csharp  
   
@@ -242,13 +242,13 @@ We recommend that you create unit tests to help keep your code working correctly
     ...  
     ```  
   
-5.  In Test Explorer, choose **Run All**.  
+5. In Test Explorer, choose **Run All**.  
   
      All the tests pass.  
   
 #### Refactor without changing tests  
   
-1.  Simplify the code, but do not change the tests.  
+1. Simplify the code, but do not change the tests.  
   
     > [!TIP]
     >  A *refactoring* is a change that is intended to make the code perform better or to make the code easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.  
@@ -277,7 +277,7 @@ We recommend that you create unit tests to help keep your code working correctly
     }  
     ```  
   
-2.  Choose **Run All**.  
+2. Choose **Run All**.  
   
      All the tests still pass.  
   

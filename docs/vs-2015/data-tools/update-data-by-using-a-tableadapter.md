@@ -32,11 +32,11 @@ After the data in your dataset has been modified and validated, you can send the
   
  The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:  
   
-1.  Call the adapter's `Update` method in a `try`/`catch` block.  
+1. Call the adapter's `Update` method in a `try`/`catch` block.  
   
-2.  If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](http://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c).  
+2. If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](http://msdn.microsoft.com/library/1fa907c5-fe66-4f29-a253-2b97b900050c).  
   
-3.  Reconcile the problem in the data row (programmatically if you can, or by presenting the invalid row to the user for modification), and then try the update again (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).  
+3. Reconcile the problem in the data row (programmatically if you can, or by presenting the invalid row to the user for modification), and then try the update again (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).  
   
 ## Savedata to a database  
  Call the `Update` method of a TableAdapter. Pass the name of the data table that contains the values to be written to the database.  

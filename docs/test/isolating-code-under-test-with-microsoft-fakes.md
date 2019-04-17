@@ -54,7 +54,7 @@ In general, we recommend that you use stub types to isolate from dependencies wi
 ##  Get started with stubs
 For a more detailed description, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
-1.  **Inject interfaces**
+1. **Inject interfaces**
 
      To use stubs, you have to write the code you want to test in such a way that it does not explicitly mention classes in another component of your application. By "component" we mean a class or classes that are developed and updated together, and typically contained in one Visual Studio project. Variables and parameters should be declared by using interfaces and instances of other components should be passed in or created by using a factory. For example, if StockFeed is a class in another component of the application, then this would be considered bad:
 
@@ -75,7 +75,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     ```
 
-2.  **Add Fakes Assembly**
+2. **Add Fakes Assembly**
 
     1.  In **Solution Explorer**, expand the test project's reference list. If you are working in Visual Basic, you must choose **Show All Files** in order to see the reference list.
 
@@ -83,7 +83,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     3.  Rebuild the solution.
 
-3.  In your tests, construct instances of the stub and provide code for its methods:
+3. In your tests, construct instances of the stub and provide code for its methods:
 
     ```csharp
     [TestClass]
@@ -162,13 +162,13 @@ During testing, you would like to shim the `Now` property, because the real vers
 
 To use shims, you don't have to modify the application code or write it a particular way.
 
-1.  **Add Fakes Assembly**
+1. **Add Fakes Assembly**
 
      In **Solution Explorer**, open your unit test project's references and select the reference to the assembly that contains the method you want to fake. In this example, the `DateTime` class is in *System.dll*.  To see the references in a Visual Basic project, choose **Show All Files**.
 
      Choose **Add Fakes Assembly**.
 
-2.  **Insert a shim in a ShimsContext**
+2. **Insert a shim in a ShimsContext**
 
     ```csharp
     [TestClass]

@@ -70,10 +70,10 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
 
 #### To end a profiling session
 
-1.  Detach the profiler from the target application by stopping the service or by typing the following command at a command prompt:
+1. Detach the profiler from the target application by stopping the service or by typing the following command at a command prompt:
 
      Type **VSPerfCmd /detach**
 
-2.  Shut down the profiler by typing the following command at a command prompt:
+2. Shut down the profiler by typing the following command at a command prompt:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)

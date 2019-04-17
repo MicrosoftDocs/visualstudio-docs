@@ -44,35 +44,35 @@ This error reads:
   
 ### To open the Local Security Policy window  
   
-1.  Start the **secpol.msc** Microsoft Management Console snap-in. Type secpol.msc in Windows search, the Windows Run box, or at a command prompt.  
+1. Start the **secpol.msc** Microsoft Management Console snap-in. Type secpol.msc in Windows search, the Windows Run box, or at a command prompt.  
   
 ### To add user rights assignments  
   
-1.  Open the Loca  
+1. Open the Loca  
   
-2.  Open the **Local Security Policy** window.  
+2. Open the **Local Security Policy** window.  
   
-3.  Expand the **Local Policies** folder.  
+3. Expand the **Local Policies** folder.  
   
-4.  Click **User Rights Assignment**.  
+4. Click **User Rights Assignment**.  
   
-5.  In the **Policy** column, double-click **Debug programs** to view current local group policy assignments in the **Local Security Policy Setting** dialog box.  
+5. In the **Policy** column, double-click **Debug programs** to view current local group policy assignments in the **Local Security Policy Setting** dialog box.  
   
      ![Local Security Policy User Rights](../debugger/media/dbg-err-localsecuritypolicy-userrightsdebugprograms.png "DBG_ERR_LocalSecurityPolicy_UserRightsDebugPrograms")  
   
-6.  To add new users, click the **Add User or Group** button.  
+6. To add new users, click the **Add User or Group** button.  
   
 ### To change the Sharing and Security Model  
   
-1.  Open the **Local Security Policy** window.  
+1. Open the **Local Security Policy** window.  
   
-2.  Expand the **Local Policies** folder.  
+2. Expand the **Local Policies** folder.  
   
-3.  Click **Security Options**.  
+3. Click **Security Options**.  
   
-4.  In the **Policy** column, double-click **Network access: Sharing and security model for local accounts**.  
+4. In the **Policy** column, double-click **Network access: Sharing and security model for local accounts**.  
   
-5.  In the **Network access: Sharing and security model for local accounts** dialog box, change the value to **Classic - local users authenticate as themselves** and click the **Apply** button.  
+5. In the **Network access: Sharing and security model for local accounts** dialog box, change the value to **Classic - local users authenticate as themselves** and click the **Apply** button.  
   
      ![Local Security Policy Security Options](../debugger/media/dbg-err-localsecuritypolicy-securityoptions-networkaccess.png "DBG_ERR_LocalSecurityPolicy_SecurityOptions_NetworkAccess")  
   

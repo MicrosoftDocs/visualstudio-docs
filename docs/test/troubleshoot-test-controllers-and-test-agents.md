@@ -33,11 +33,11 @@ You can control the level of logging on a test controller computer. This is usef
 
 ### To set the logging level on a test controller computer
 
-1.  Stop the test controller service. At a command prompt, type `net stop vsttcontroller`.
+1. Stop the test controller service. At a command prompt, type `net stop vsttcontroller`.
 
-2.  Open the file *QTController.exe.config*. This file is located in the controller installation directory.
+2. Open the file *QTController.exe.config*. This file is located in the controller installation directory.
 
-3.  Edit the entry for the `EqtTraceLevel` switch in the system diagnostics section of the file. Your code should resemble this:
+3. Edit the entry for the `EqtTraceLevel` switch in the system diagnostics section of the file. Your code should resemble this:
 
     ```xml
     <system.diagnostics>
@@ -58,9 +58,9 @@ You can control the level of logging on a test controller computer. This is usef
     </system.diagnostics>
     ```
 
-4.  Save the file.
+4. Save the file.
 
-5.  Start the controller service. At a command prompt, type `net start vsttcontroller`.
+5. Start the controller service. At a command prompt, type `net start vsttcontroller`.
 
 This applies to the test controller, the test agent service, and the test agent process. When diagnosing problems, it is helpful to enable logging on all three processes. The procedure to set the logging level is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the agent process, use the following configuration files:
 
@@ -91,25 +91,25 @@ To fix this error, you must bind the test controller to one of the network adapt
 
 ### To obtain the IP address of the network adapter
 
-1.  Choose **Start**, and then choose **Run**.
+1. Choose **Start**, and then choose **Run**.
 
      The **Run** dialog box is displayed.
 
-2.  Type `cmd` and then choose **OK**.
+2. Type `cmd` and then choose **OK**.
 
      A command prompt opens.
 
-3.  Type `ipconfig /all`.
+3. Type `ipconfig /all`.
 
      The IP addresses for your network adapters are displayed. Record the IP address of the network adapter that you want to bind your controller to.
 
 ### To bind a test controller to a network adapter
 
-1.  Stop the test controller service. At a command prompt, type `net stop vsttcontroller`.
+1. Stop the test controller service. At a command prompt, type `net stop vsttcontroller`.
 
-2.  Open the file *QTController.exe.config*. This file is located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
+2. Open the file *QTController.exe.config*. This file is located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
 
-3.  Add an entry for the `BindTo` property to the application settings. Specify the IP address of the network adapter that you want to bind the controller to. Your code should resemble this:
+3. Add an entry for the `BindTo` property to the application settings. Specify the IP address of the network adapter that you want to bind the controller to. Your code should resemble this:
 
     ```xml
     <appSettings>
@@ -123,9 +123,9 @@ To fix this error, you must bind the test controller to one of the network adapt
     </appSettings>
     ```
 
-4.  Save the file.
+4. Save the file.
 
-5.  Start the test controller service. At a command prompt, type `net start vsttcontroller`.
+5. Start the test controller service. At a command prompt, type `net start vsttcontroller`.
 
 ### To connect a test agent to a bound controller
 

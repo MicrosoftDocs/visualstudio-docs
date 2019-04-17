@@ -230,11 +230,11 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 #### To add filtering by city  
   
-1.  In **Solution Explorer**, open the shortcut menu for the **Form1.vb** or **Form1.cs** node and choose **Open**.  
+1. In **Solution Explorer**, open the shortcut menu for the **Form1.vb** or **Form1.cs** node and choose **Open**.  
   
-2.  Add a <xref:System.Windows.Forms.TextBox> control and a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.  
+2. Add a <xref:System.Windows.Forms.TextBox> control and a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.  
   
-3.  Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, and choose **View Code**, and then add the following code in the `Button1_Click` event handler:  
+3. Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, and choose **View Code**, and then add the following code in the `Button1_Click` event handler:  
   
     ```vb  
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click  
@@ -263,11 +263,11 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
     }  
     ```  
   
-4.  In the previous code, replace `http://localhost:53161/NorthwindCustomers.svc` with the URL from the `Form1_Load` event handler.  
+4. In the previous code, replace `http://localhost:53161/NorthwindCustomers.svc` with the URL from the `Form1_Load` event handler.  
   
-5.  On the menu bar, choose **Debug**, **Start Debugging** to run the application.  
+5. On the menu bar, choose **Debug**, **Start Debugging** to run the application.  
   
-6.  In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
+6. In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
   
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   

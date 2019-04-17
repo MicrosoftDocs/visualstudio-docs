@@ -281,6 +281,6 @@ manager: jillfra
 
   There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:
 
-1.  Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.
+1. Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.
 
-2.  Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.
+2. Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.

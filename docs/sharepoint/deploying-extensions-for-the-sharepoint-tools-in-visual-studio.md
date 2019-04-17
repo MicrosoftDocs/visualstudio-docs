@@ -69,65 +69,65 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
 #### To include the extension assembly
 
-1.  In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose **Open**.
+1. In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose **Open**.
 
      The file opens in the designer
 
-2.  On the **Assets** tab of the editor, choose the **New** button.
+2. On the **Assets** tab of the editor, choose the **New** button.
 
      The **Add New Asset** dialog box opens.
 
-3.  In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
+3. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
-4.  In the **Source** list, perform one of the following steps:
+4. In the **Source** list, perform one of the following steps:
 
     -   If the extension assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
 
     -   If the extension assembly is included as a file in your project, choose **File on filesystem**. In the **Path** list, enter the complete path to the extension assembly file, or use the **Browse** button to locate and choose the assembly file.
 
-5.  Choose the **OK** button.
+5. Choose the **OK** button.
 
 #### To include a SharePoint command assembly
 
-1.  In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose the **Open** button.
+1. In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose the **Open** button.
 
      The file opens in the designer.
 
-2.  In the **Assets** section of the editor, choose the **New** button.
+2. In the **Assets** section of the editor, choose the **New** button.
 
      The **Add New Asset** dialog box opens.
 
-3.  In the **Type** box, enter **SharePoint.Commands.v4**.
+3. In the **Type** box, enter **SharePoint.Commands.v4**.
 
-4.  In the **Source** list, perform one of the following steps:
+4. In the **Source** list, perform one of the following steps:
 
     -   If the command assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
 
     -   If the command assembly is included as a file in your project, choose **File on filesystem**. In the **Path** list, enter the complete path to the extension assembly file, or use the **Browse** button to locate and choose the assembly file.
 
-5.  Choose the **OK** button.
+5. Choose the **OK** button.
 
 #### To include a template that you create
 
-1.  In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose the **Open** button.
+1. In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose the **Open** button.
 
      The file opens in the designer.
 
-2.  In the **Assets** section of the editor, choose the **New** button.
+2. In the **Assets** section of the editor, choose the **New** button.
 
      The **Add New Asset** dialog box opens.
 
-3.  In the **Type** list, choose **Microsoft.VisualStudio.ProjectTemplate** or **Microsoft.VisualStudio.ItemTemplate**.
+3. In the **Type** list, choose **Microsoft.VisualStudio.ProjectTemplate** or **Microsoft.VisualStudio.ItemTemplate**.
 
-4.  In the **Source** list, choose **A project in current solution**.
+4. In the **Source** list, choose **A project in current solution**.
 
-5.  In the **Project** list, choose the name of the project, and then choose the **OK** button.
+5. In the **Project** list, choose the name of the project, and then choose the **OK** button.
 
-6.  In **Solution Explorer**, open the shortcut menu for your Project Template or Item Template project, and then choose **Unload Project**.
+6. In **Solution Explorer**, open the shortcut menu for your Project Template or Item Template project, and then choose **Unload Project**.
 
-7.  Open the shortcut menu for the project node again, and then choose **Edit**_YourTemplateProjectName_**.csproj** or **Edit**_YourTemplateProjectName_**.vbproj**.
+7. Open the shortcut menu for the project node again, and then choose **Edit**_YourTemplateProjectName_**.csproj** or **Edit**_YourTemplateProjectName_**.vbproj**.
 
-8.  Locate the following `VSTemplate` element in the project file.
+8. Locate the following `VSTemplate` element in the project file.
 
     ```xml
     <VSTemplate Include="YourTemplateName.vstemplate">
@@ -149,9 +149,9 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
 #### To include a template that you create manually
 
-1.  In the VSIX project, add a new folder to the project to contain the template.
+1. In the VSIX project, add a new folder to the project to contain the template.
 
-2.  Under this new folder, create the following subfolders, and then add the template (.zip) file to the *Locale ID* folder.
+2. Under this new folder, create the following subfolders, and then add the template (.zip) file to the *Locale ID* folder.
 
      *YourTemplateFolder*
 
@@ -165,43 +165,43 @@ The following procedures describe how to add entries to the .vsixmanifest file f
 
      For example, if you have an item template named ContosoCustomAction.zip that supports the English (United States) locale, the full path might be *ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip*.
 
-3.  In **Solution Explorer**, choose the template file (*YourTemplateName*.zip).
+3. In **Solution Explorer**, choose the template file (*YourTemplateName*.zip).
 
-4.  In the **Properties** window, set the **Build Action** property to **Content**.
+4. In the **Properties** window, set the **Build Action** property to **Content**.
 
-5.  Open the shortcut menu for the source.extension.vsixmanifest file, and then choose **Open**.
+5. Open the shortcut menu for the source.extension.vsixmanifest file, and then choose **Open**.
 
      The file opens in the designer.
 
-6.  In the **Assets** section of the editor, choose the **New** button.
+6. In the **Assets** section of the editor, choose the **New** button.
 
      The **Add New Asset** dialog box opens.
 
-7.  In the **Type** list, choose **Microsoft.VisualStudio.ItemTemplate** or **Microsoft.VisualStudio.ProjectTemplate**.
+7. In the **Type** list, choose **Microsoft.VisualStudio.ItemTemplate** or **Microsoft.VisualStudio.ProjectTemplate**.
 
-8.  In the **Source** list, choose **File on filesystem**.
+8. In the **Source** list, choose **File on filesystem**.
 
 9. In the **Path** field, enter the complete path to the assembly (for example, *ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip*, or use the **Browse** button to locate and choose the assembly, and then choose the **OK** button.
 
 #### To include a wizard for a project template or item template
 
-1.  In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose **Open**.
+1. In the VSIX project, open the shortcut menu for the source.extension.vsixmanifest file, and then choose **Open**.
 
      The file opens in the designer.
 
-2.  In the **Assets** section of the editor, choose the **New** button.
+2. In the **Assets** section of the editor, choose the **New** button.
 
      The **Add New Asset** dialog box opens.
 
-3.  In the **Type** list, choose **Microsoft.VisualStudio.Assembly**.
+3. In the **Type** list, choose **Microsoft.VisualStudio.Assembly**.
 
-4.  In the **Source** list, perform one of the following steps:
+4. In the **Source** list, perform one of the following steps:
 
     -   If the wizard assembly is built from a project that's in the same solution as the VSIX project, choose **A project in current solution**. In the **Project** list, choose the name of the project.
 
     -   If the wizard assembly is included as a file in your project, choose **File on filesystem**. In the **Path** field, enter the complete path to the assembly file, or use the **Browse** button to locate and choose the assembly.
 
-5.  Choose the **OK** button.
+5. Choose the **OK** button.
 
 ### Related walkthroughs
 
@@ -218,13 +218,13 @@ The following table lists walkthroughs that demonstrate how to use a VSIX projec
 
 If you want to manually create the VSIX package for your SharePoint tools extension, perform the following steps:
 
-1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md).
+1. Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md).
 
-2.  In Windows Explorer, right-click the folder that contains the two XML files, click Send To, and then click Compressed (zipped) Folder. Rename the resulting .zip file to Filename.vsix, where Filename is the name of the redistributable file that installs your package.
+2. In Windows Explorer, right-click the folder that contains the two XML files, click Send To, and then click Compressed (zipped) Folder. Rename the resulting .zip file to Filename.vsix, where Filename is the name of the redistributable file that installs your package.
 
-3.  Add your extension assembly to the VSIX package. If your extension includes a SharePoint command, also add the assembly that implements the SharePoint command to the VSIX package.
+3. Add your extension assembly to the VSIX package. If your extension includes a SharePoint command, also add the assembly that implements the SharePoint command to the VSIX package.
 
-4.  Modify the extension.vsixmanifest file:
+4. Modify the extension.vsixmanifest file:
 
     -   Add a `Microsoft.VisualStudio.MefComponent` element under the `Assets` element, and then set the value of the new element to the relative path of the assembly that implements your extension in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 

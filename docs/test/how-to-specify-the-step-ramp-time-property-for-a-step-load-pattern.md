@@ -43,24 +43,24 @@ The **Step Ramp Time** property allows the increase from one step to the next (f
 
 ## To edit the step ramp time property for a step load pattern
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2.  In the load test trees **Scenarios** folder, open the scenario node you want to specify the step ramp time for.
+2. In the load test trees **Scenarios** folder, open the scenario node you want to specify the step ramp time for.
 
-3.  Select the **Step Load Pattern** node.
+3. Select the **Step Load Pattern** node.
 
     > [!NOTE]
     > The load pattern for the scenario must be a step load pattern. If it is not, the load pattern will display the load pattern type that is currently associated with the scenario. For more information, see [Edit load patterns to model virtual user activities](../test/edit-load-patterns-to-model-virtual-user-activities.md).
 
-4.  On the **View** menu, select **Properties Window**.
+4. On the **View** menu, select **Properties Window**.
 
      The scenario's categories and properties are displayed in the **Properties** window.
 
-5.  Set the value for the **Step Ramp Time** property by entering a number for the seconds taken in each step to gradually add the users specified by the **Step User Count** property.
+5. Set the value for the **Step Ramp Time** property by entering a number for the seconds taken in each step to gradually add the users specified by the **Step User Count** property.
 
-6.  After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Step Ramp Time** value.
+6. After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Step Ramp Time** value.
 
 ## See also
 

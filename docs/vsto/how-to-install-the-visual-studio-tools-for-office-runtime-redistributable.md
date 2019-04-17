@@ -30,7 +30,7 @@ ms.workload:
 
 ## To install the Visual Studio Tools for Office runtime
 
-1.  Install the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+1. Install the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
 
     -   To download the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], see [Microsoft .NET Framework 4 (Web Installer)](http://go.microsoft.com/fwlink/?LinkId=178957).
 
@@ -38,7 +38,7 @@ ms.workload:
 
     -   To download the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], see [Microsoft .NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653).
 
-2.  Run *vstor_redist.exe* to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+2. Run *vstor_redist.exe* to install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
      You can download these setup files from [Visual Studio 2010 Tools for Office runtime](http://go.microsoft.com/fwlink/?LinkId=140384). The prerequisites for the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] match the prerequisites for the .NET Framework.
 

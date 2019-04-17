@@ -106,11 +106,11 @@ A yellow arrow indicates the current thread (and the location of the execution p
 
 ### To sort threads
 
-1.  In the toolbar at the top of the **Threads** window, select the button at the top of any column.
+1. In the toolbar at the top of the **Threads** window, select the button at the top of any column.
 
      The threads are now sorted by the values in that column.
 
-2.  If you want to reverse the sort order, select the same button again.
+2. If you want to reverse the sort order, select the same button again.
 
      Threads that appeared at the top of the list now appear on the bottom.
 
@@ -120,9 +120,9 @@ A yellow arrow indicates the current thread (and the location of the execution p
 
 ### To sort threads within groups
 
-1.  In the toolbar at the top of the **Threads** window, select the **Group by** list, then select the criteria that you want to group threads by.
+1. In the toolbar at the top of the **Threads** window, select the **Group by** list, then select the criteria that you want to group threads by.
 
-2.  In the **Threads** window, select the button at the top of any column.
+2. In the **Threads** window, select the button at the top of any column.
 
      The threads are now sorted by the values in that column.
 

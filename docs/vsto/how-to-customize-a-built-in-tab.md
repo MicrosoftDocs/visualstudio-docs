@@ -24,39 +24,39 @@ ms.workload:
 
 ### To add groups to a built-in tab
 
-1.  Right-click the Ribbon code file in **Solution Explorer**, and then click **View Designer**.
+1. Right-click the Ribbon code file in **Solution Explorer**, and then click **View Designer**.
 
     > [!NOTE]
     >  If the Ribbon code file doesn't appear in **Solution Explorer**, you must add a **Ribbon item** to your project. See [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
-2.  Right-click any tab in the Ribbon designer, and then click **Properties**.
+2. Right-click any tab in the Ribbon designer, and then click **Properties**.
 
-3.  In the **Properties** window, expand the **ControlId** property, and then set the **ControlIdType** property to **Office**.
+3. In the **Properties** window, expand the **ControlId** property, and then set the **ControlIdType** property to **Office**.
 
-4.  Set the **OfficeId** property to the *control ID* of the built-in tab that you want to customize.
+4. Set the **OfficeId** property to the *control ID* of the built-in tab that you want to customize.
 
      The control ID is the name that uniquely identifies tabs, groups, and controls that are built into Microsoft Office applications.
 
      For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).
 
-5.  From the **Office Ribbon Controls** tab of the **Toolbox**, drag groups onto the tab.
+5. From the **Office Ribbon Controls** tab of the **Toolbox**, drag groups onto the tab.
 
     > [!NOTE]
     >  Built-in groups do not appear in the designer. Therefore, the only way to determine whether you are working with a built-in tab is to examine the **ControlId** property of the tab.
 
 ### To position groups on a built-in tab
 
-1.  In the Ribbon Designer, select a custom group.
+1. In the Ribbon Designer, select a custom group.
 
-2.  In the **Properties** window, expand the **Position** property.
+2. In the **Properties** window, expand the **Position** property.
 
-3.  Set the **PositionType** property to the appropriate value:
+3. Set the **PositionType** property to the appropriate value:
 
     -   **BeforeOfficeId** positions the group before a specified built-in group.
 
     -   **AfterOfficeId** positions the group after a specified built-in group.
 
-4.  Set the **OfficeId** property to the control ID of a built-in group.
+4. Set the **OfficeId** property to the control ID of a built-in group.
 
      For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).
 

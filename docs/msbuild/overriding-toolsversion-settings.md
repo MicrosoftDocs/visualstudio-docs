@@ -15,11 +15,11 @@ ms.workload:
 # Override ToolsVersion settings
 You can change the Toolset for projects and solutions in one of three ways:
 
-1.  By using the `-ToolsVersion` switch (or `-tv`, for short) when you build the project or solution from the command line.
+1. By using the `-ToolsVersion` switch (or `-tv`, for short) when you build the project or solution from the command line.
 
-2.  By setting the `ToolsVersion` parameter on the MSBuild task.
+2. By setting the `ToolsVersion` parameter on the MSBuild task.
 
-3.  By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a Toolset version that differs from that of the other projects.
+3. By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a Toolset version that differs from that of the other projects.
 
 ## Override the ToolsVersion settings of projects and solutions on command line builds
  Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `-ToolsVersion` (or `-tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:
@@ -35,7 +35,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 ## Override the ToolsVersion settings using the ToolsVersion parameter of the MSBuild task
  The MSBuild task is the primary means for one project to build another. To enable the MSBuild task to build a project with a different ToolsVersion than the one specified in the project, it provides an optional task parameter named `ToolsVersion`. The following example demonstrates how to use this parameter:
 
-1.  Create a file that's named *projectA.proj* and that contains the following code:
+1. Create a file that's named *projectA.proj* and that contains the following code:
 
     ```xml
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
@@ -53,7 +53,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
     </Project>
     ```
 
-2.  Create another file that's named *projectB.proj* and that contains the following code:
+2. Create another file that's named *projectB.proj* and that contains the following code:
 
     ```xml
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
@@ -67,13 +67,13 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
     </Project>
     ```
 
-3.  Enter the following command at a command prompt:
+3. Enter the following command at a command prompt:
 
     ```cmd
     msbuild projectA.proj -t:go -toolsversion:3.5
     ```
 
-4.  The following output appears. For `projectA`, the `-toolsversion:3.5` setting on the command line overrides the `ToolsVersion=12.0` setting in the `Project` tag.
+4. The following output appears. For `projectA`, the `-toolsversion:3.5` setting on the command line overrides the `ToolsVersion=12.0` setting in the `Project` tag.
 
      `ProjectB` is called by a task in `projectA`. That task has `ToolsVersion=2.0`, which overrides the other `ToolsVersion` settings for `projectB`.
 
@@ -91,15 +91,15 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 ## Order of precedence
  The order of precedence, from highest to lowest, used to determine the `ToolsVersion` is:
 
-1.  The `ToolsVersion` attribute on the MSBuild task used to build the project, if any.
+1. The `ToolsVersion` attribute on the MSBuild task used to build the project, if any.
 
-2.  The `-toolsversion` (or `-tv`) switch that's used in the msbuild.exe command, if any.
+2. The `-toolsversion` (or `-tv`) switch that's used in the msbuild.exe command, if any.
 
-3.  If the environment variable `MSBUILDTREATALLTOOLSVERSIONSASCURRENT` is set, then use the current `ToolsVersion`.
+3. If the environment variable `MSBUILDTREATALLTOOLSVERSIONSASCURRENT` is set, then use the current `ToolsVersion`.
 
-4.  If the environment variable `MSBUILDTREATHIGHERTOOLSVERSIONASCURRENT` is set and the `ToolsVersion` defined in the project file is greater than the current `ToolsVersion`, use the current `ToolsVersion`.
+4. If the environment variable `MSBUILDTREATHIGHERTOOLSVERSIONASCURRENT` is set and the `ToolsVersion` defined in the project file is greater than the current `ToolsVersion`, use the current `ToolsVersion`.
 
-5.  If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is set, or if `ToolsVersion` is not set, then the following steps are used:
+5. If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is set, or if `ToolsVersion` is not set, then the following steps are used:
 
     1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn't exist, it is assumed to be the current version.
 
@@ -107,7 +107,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 
     3.  The default tools version in the registry. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).
 
-6.  If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is not set, then the following steps are used:
+6. If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is not set, then the following steps are used:
 
     1.  If the environment variable `MSBUILDDEFAULTTOOLSVERSION` is set to a `ToolsVersion` that exists, use it.
 

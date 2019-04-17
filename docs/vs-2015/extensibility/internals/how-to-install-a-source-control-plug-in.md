@@ -17,11 +17,11 @@ manager: jillfra
 
 Creating a source-control plug-in involves three steps:  
   
-1.  Create a DLL with the functions defined in the Source Control Plug-in API reference section of this documentation.  
+1. Create a DLL with the functions defined in the Source Control Plug-in API reference section of this documentation.  
   
-2.  Implement the Source Control Plug-in API-defined functions. When [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] calls for it, make interfaces and dialog boxes available from the plug-in.  
+2. Implement the Source Control Plug-in API-defined functions. When [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] calls for it, make interfaces and dialog boxes available from the plug-in.  
   
-3.  Register the DLL by making appropriate registry entries.  
+3. Register the DLL by making appropriate registry entries.  
   
 ## Integration with Visual Studio  
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports source control plug-ins that conform to the Source Control Plug-in API.  
@@ -31,7 +31,7 @@ Creating a source-control plug-in involves three steps:
   
 ##### To register the source control plug-in DLL  
   
-1.  Add two entries under the HKEY_LOCAL_MACHINE key in the SOFTWARE subkey that specifies your company name subkey followed by your product name subkey. The pattern is HKEY_LOCAL_MACHINE\SOFTWARE\\*[company name]*\\*[product name]*\\*[entry]* = value. The two entries are always called SCCServerName and SCCServerPath. Each is a regular string.  
+1. Add two entries under the HKEY_LOCAL_MACHINE key in the SOFTWARE subkey that specifies your company name subkey followed by your product name subkey. The pattern is HKEY_LOCAL_MACHINE\SOFTWARE\\*[company name]*\\*[product name]*\\*[entry]* = value. The two entries are always called SCCServerName and SCCServerPath. Each is a regular string.  
   
      For example, if your company name is Microsoft and your source control product is named SourceSafe, then this registry path would be HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe. In this subkey, the first entry, SCCServerName, is a user-readable string naming your product. The second entry, SCCServerPath, is the full path to the source control plug-in DLL that the IDE should connect to. The following provides sample registry entries:  
   
@@ -43,7 +43,7 @@ Creating a source-control plug-in involves three steps:
     > [!NOTE]
     >  The SCCServerPath is the full path to the SourceSafe plug-in. Your source control plug-in will use different company and product names but the same registry entry paths.  
   
-2.  The following optional registry entries can be used to modify the behavior of your source control plug-in. These entries go in the same subkey as SccServerName and SccServerPath.  
+2. The following optional registry entries can be used to modify the behavior of your source control plug-in. These entries go in the same subkey as SccServerName and SccServerPath.  
   
     -   The HideInVisualStudioregistry entry can be used if you do not want your source control-plug-in to appear in the Plug-in Selection list of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. This entry will also affect automatic switching to the source control plug-in. One possible use for this entry is if you supply a source control package that replaces your source control plug-in but you want to make it easier for the user to migrate from using the source control plug-in to the source control package. When the source control package is installed, it sets this registry entry, which hides the plug-in.  
   
@@ -58,7 +58,7 @@ Creating a source-control plug-in involves three steps:
     |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\HideInVisualStudio|1|  
     |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\DisableSccManager|1|  
   
-3.  Add the subkey, SourceCodeControlProvider, under the HKEY_LOCAL_MACHINE key in the SOFTWARE subkey.  
+3. Add the subkey, SourceCodeControlProvider, under the HKEY_LOCAL_MACHINE key in the SOFTWARE subkey.  
   
      Under this subkey, the registry entry ProviderRegKey is set to a string that represents the subkey that you placed in the registry in step 1. The pattern is HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey = SOFTWARE\\*[company name]*\\*[product name]*.  
   
@@ -71,7 +71,7 @@ Creating a source-control plug-in involves three steps:
     > [!NOTE]
     >  Your source control plug-in will use the same subkey and entry names, but the value will be different.  
   
-4.  Create a subkey named InstalledSCCProviders under the SourceCodeControlProvider subkey, and then place one entry under that subkey.  
+4. Create a subkey named InstalledSCCProviders under the SourceCodeControlProvider subkey, and then place one entry under that subkey.  
   
      The name of this entry is the user-readable name of the provider (the same as the value specified for the SCCServerName entry), and the value is, once again, the subkey created in step 1. The pattern is HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\*[display name]* = SOFTWARE\\*[company name]*\\*[product name]*.  
   

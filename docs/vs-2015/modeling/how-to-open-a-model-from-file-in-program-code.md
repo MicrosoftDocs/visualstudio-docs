@@ -22,11 +22,11 @@ You can open DSL models in any application.
   
 #### To set the Target framework  
   
-1.  Open the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project for the application in which you want to read a DSL model.  
+1. Open the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project for the application in which you want to read a DSL model.  
   
-2.  In **Solution Explorer**, right-click the project and then click **Properties**.  
+2. In **Solution Explorer**, right-click the project and then click **Properties**.  
   
-3.  In the project properties window, on the **Application** tab, set the **Target framework** field to **.NET Framework 4**.  
+3. In the project properties window, on the **Application** tab, set the **Target framework** field to **.NET Framework 4**.  
   
 > [!NOTE]
 >  You might need to do this even if you selected **.NET Framework 4** in the project creation dialog box. The target framework should not be **.NET Framework 4 Client Profile**.  

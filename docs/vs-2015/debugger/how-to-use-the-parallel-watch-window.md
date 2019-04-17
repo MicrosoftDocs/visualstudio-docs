@@ -39,11 +39,11 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 ### To display the Parallel Watch window  
   
-1.  Set a breakpoint in the code.  
+1. Set a breakpoint in the code.  
   
-2.  On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.  
+2. On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.  
   
-3.  On the menu bar, choose **Debug**, **Windows**, **Parallel Watch**, and then choose a watch window. You can open as many as four windows.  
+3. On the menu bar, choose **Debug**, **Windows**, **Parallel Watch**, and then choose a watch window. You can open as many as four windows.  
   
 ### To add a watch expression  
   

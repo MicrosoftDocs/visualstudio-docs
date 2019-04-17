@@ -92,11 +92,11 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  The following steps then add code to the PCL to access and store data from that weather service:
 
-1.  To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).
+1. To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).
 
-2.  Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.
+2. Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.
 
-3.  Replace the entire contents of **Weather.cs** with the following:
+3. Replace the entire contents of **Weather.cs** with the following:
 
     ```csharp
     namespace WeatherApp
@@ -127,9 +127,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-4.  Add another class to the PCL project named **DataService.cs** in which you’ll use to process JSON data from the weather data service.
+4. Add another class to the PCL project named **DataService.cs** in which you’ll use to process JSON data from the weather data service.
 
-5.  Replace the entire contents of **DataService.cs** with the following code:
+5. Replace the entire contents of **DataService.cs** with the following code:
 
     ```csharp
     using System.Threading.Tasks;
@@ -158,9 +158,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-6.  Add a third class to the PCL named **Core** where you’ll put shared business logic, such as logic that forms a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.
+6. Add a third class to the PCL named **Core** where you’ll put shared business logic, such as logic that forms a query string with a zip code, calls the weather data service, and populates an instance of the **Weather** class.
 
-7.  Replace the contents of **Core.cs** with the following:
+7. Replace the contents of **Core.cs** with the following:
 
     ```csharp
     using System;
@@ -210,7 +210,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }
     ```
 
-8.  Replace *YOUR KEY HERE* in the code with the API key you obtained in step 1 (it still needs quotes around it).
+8. Replace *YOUR KEY HERE* in the code with the API key you obtained in step 1 (it still needs quotes around it).
 
 9. Delete MyClass.cs in the PCL because we won't be using it.
 
@@ -221,25 +221,25 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 ### Design the look and feel of your app
 
-1.  In **Solution Explorer**, expand the **WeatherApp.Droid**>**Resources**>**layout** folder and open **Main.axml**. This opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
+1. In **Solution Explorer**, expand the **WeatherApp.Droid**>**Resources**>**layout** folder and open **Main.axml**. This opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
 
     > [!TIP]
     >  There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android topic on xamarin.com.
 
-2.  Select and delete the default button that appears in the designer.
+2. Select and delete the default button that appears in the designer.
 
-3.  Open the Toolbox with **View > Other Windows > Toolbox**.
+3. Open the Toolbox with **View > Other Windows > Toolbox**.
 
-4.  From the **Toolbox**, drag a **RelativeLayout** control onto the designer. You'll use this control as a parent container for other controls.
+4. From the **Toolbox**, drag a **RelativeLayout** control onto the designer. You'll use this control as a parent container for other controls.
 
     > [!TIP]
     >  If at any time the layout doesn't seem to display correctly, save the file and switching between the **Design** and **Source** tabs to refresh.
 
-5.  In the **Properties** window, set the **background** property (in the Style group) to `#545454`.
+5. In the **Properties** window, set the **background** property (in the Style group) to `#545454`.
 
-6.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control.
+6. From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control.
 
-7.  In the **Properties** window, set these properties (note: it can help to sort the list alphabetically using the sort button in the Properties window toolbar):
+7. In the **Properties** window, set these properties (note: it can help to sort the list alphabetically using the sort button in the Properties window toolbar):
 
     |Property|Value|
     |--------------|-----------|
@@ -269,7 +269,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
     ```
 
-8.  From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control and position it below the ZipCodeSearchLabel control. You do this by dropping the new control on the appropriate edge of the existing control; it helps to zoom the designer in somewhat for this.
+8. From the **Toolbox**, drag a **TextView** control onto the **RelativeLayout** control and position it below the ZipCodeSearchLabel control. You do this by dropping the new control on the appropriate edge of the existing control; it helps to zoom the designer in somewhat for this.
 
 9. In the **Properties** window, set these properties:
 
@@ -462,7 +462,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 ### Consume your shared code
 
-1.  Open the **MainActivity.cs** file of the **WeatherApp** project in the code editor and replace its contents with the code below. This code calls the `GetWeather` method that you defined in your shared code. Then, in the UI of the app, it shows the data that is retrieved from that method.
+1. Open the **MainActivity.cs** file of the **WeatherApp** project in the code editor and replace its contents with the code below. This code calls the `GetWeather` method that you defined in your shared code. Then, in the UI of the app, it shows the data that is retrieved from that method.
 
     ```csharp
     using System;
@@ -508,11 +508,11 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 ### Run the app and see how it looks
 
-1.  In **Solution Explorer**, make sure the **WeatherApp.Droid** project is set as the startup project.
+1. In **Solution Explorer**, make sure the **WeatherApp.Droid** project is set as the startup project.
 
-2.  Select an appropriate device or emulator target, then start the app by pressing the F5 key.
+2. Select an appropriate device or emulator target, then start the app by pressing the F5 key.
 
-3.  On the device or in the emulator, type a valid United States zip code into the edit box (for example: 60601), and press **Get Weather**. Weather data for that region then appears in the controls.
+3. On the device or in the emulator, type a valid United States zip code into the edit box (for example: 60601), and press **Get Weather**. Weather data for that region then appears in the controls.
 
      ![Weather app for Android and Windows Phone](../cross-platform/media/xamarin-getstarted-results.png "Xamarin_GetStarted_Results")
 
@@ -577,17 +577,17 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 ### Consume your shared code
 
-1.  In the designer, select the **Get Weather** button.
+1. In the designer, select the **Get Weather** button.
 
-2.  In the **Properties** window, choose the event handler button (![Visual Studio Event Handlers icon](../cross-platform/media/blend-vs-eventhandlers-icon.png "blend_VS_EventHandlers_icon")).
+2. In the **Properties** window, choose the event handler button (![Visual Studio Event Handlers icon](../cross-platform/media/blend-vs-eventhandlers-icon.png "blend_VS_EventHandlers_icon")).
 
      This icon appears in the top corner of the **Properties** window.
 
-3.  Next to the **Click** event, type **GetWeatherButton_Click**, and then press the ENTER key.
+3. Next to the **Click** event, type **GetWeatherButton_Click**, and then press the ENTER key.
 
      This generates an event handler named `GetWeatherButton_Click`. The code editor opens and places your cursor inside of the event handler code block.  Note: if the editor doesn't open when pressing ENTER, just double-click the event name.
 
-4.  Replace that event handler with the following code.
+4. Replace that event handler with the following code.
 
     ```csharp
     private async void GetWeatherButton_Click(object sender, RoutedEventArgs e)
@@ -610,15 +610,15 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
      This code calls the `GetWeather` method that you defined in your shared code. This is the same method that you called in your Android app. This code also shows data retrieved from that method in the UI controls of your app.
 
-5.  In MainPage.xaml.cs, which is open, delete all the code inside the **OnNavigatedTo** method. This code simply handled the default button that was removed when we replaced the contents of MainPage.xaml.
+5. In MainPage.xaml.cs, which is open, delete all the code inside the **OnNavigatedTo** method. This code simply handled the default button that was removed when we replaced the contents of MainPage.xaml.
 
 ### Run the app and see how it looks
 
-1.  In **Solution Explorer**, set the **WeatherApp.WinPhone** project as the startup project.
+1. In **Solution Explorer**, set the **WeatherApp.WinPhone** project as the startup project.
 
-2.  Start the app by pressing the F5 key.
+2. Start the app by pressing the F5 key.
 
-3.  In the Windows Phone emulator, type a valid United States zip code into the edit box (for example: 60601), and press **Get Weather**. Weather data for that region then appears in the controls.
+3. In the Windows Phone emulator, type a valid United States zip code into the edit box (for example: 60601), and press **Get Weather**. Weather data for that region then appears in the controls.
 
      ![Windows version of the running app](../cross-platform/media/xamarin-getstarted-results-windows.png "Xamarin_GetStarted_Results_Windows")
 

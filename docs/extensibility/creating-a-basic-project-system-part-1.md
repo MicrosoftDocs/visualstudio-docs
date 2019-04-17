@@ -263,26 +263,26 @@ Templates
 
 ### To initialize the project factory
 
-1.  In the *SimpleProjectPackage.cs* file, add the following `using` statement.
+1. In the *SimpleProjectPackage.cs* file, add the following `using` statement.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
     ```
 
-2.  Derive the `SimpleProjectPackage` class from `Microsoft.VisualStudio.Package.ProjectPackage`.
+2. Derive the `SimpleProjectPackage` class from `Microsoft.VisualStudio.Package.ProjectPackage`.
 
     ```csharp
     public sealed class SimpleProjectPackage : ProjectPackage
     ```
 
-3.  Register the project factory. Add the following line to the `SimpleProjectPackage.Initialize` method, just after `base.Initialize`.
+3. Register the project factory. Add the following line to the `SimpleProjectPackage.Initialize` method, just after `base.Initialize`.
 
     ```csharp
     base.Initialize();
     this.RegisterProjectFactory(new SimpleProjectFactory(this));
     ```
 
-4.  Implement the abstract property `ProductUserContext`:
+4. Implement the abstract property `ProductUserContext`:
 
     ```csharp
     public override string ProductUserContext
@@ -291,19 +291,19 @@ Templates
     }
     ```
 
-5.  In *SimpleProjectFactory.cs*, add the following `using` statement after the existing `using` statements.
+5. In *SimpleProjectFactory.cs*, add the following `using` statement after the existing `using` statements.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
     ```
 
-6.  Derive the `SimpleProjectFactory` class from `ProjectFactory`.
+6. Derive the `SimpleProjectFactory` class from `ProjectFactory`.
 
     ```csharp
     class SimpleProjectFactory : ProjectFactory
     ```
 
-7.  Add the following dummy method to the `SimpleProjectFactory` class. You will implement this method in a later section.
+7. Add the following dummy method to the `SimpleProjectFactory` class. You will implement this method in a later section.
 
     ```csharp
     protected override ProjectNode CreateProject()
@@ -312,7 +312,7 @@ Templates
     }
     ```
 
-8.  Add the following field and constructor to the `SimpleProjectFactory` class. This `SimpleProjectPackage` reference is cached in a private field so that it can be used in setting a service provider site.
+8. Add the following field and constructor to the `SimpleProjectFactory` class. This `SimpleProjectPackage` reference is cached in a private field so that it can be used in setting a service provider site.
 
     ```csharp
     private SimpleProjectPackage package;
@@ -331,17 +331,17 @@ Templates
 
 ### To test the project factory implementation
 
-1.  In the *SimpleProjectFactory.cs* file, set a breakpoint on the following line in the `SimpleProjectFactory` constructor.
+1. In the *SimpleProjectFactory.cs* file, set a breakpoint on the following line in the `SimpleProjectFactory` constructor.
 
     ```csharp
     this.package = package;
     ```
 
-2.  Press **F5** to start an experimental instance of Visual Studio.
+2. Press **F5** to start an experimental instance of Visual Studio.
 
-3.  In the experimental instance, start to create a new project. In the **New Project** dialog box, select the **SimpleProject** project type and then click **OK**. Execution stops at the breakpoint.
+3. In the experimental instance, start to create a new project. In the **New Project** dialog box, select the **SimpleProject** project type and then click **OK**. Execution stops at the breakpoint.
 
-4.  Clear the breakpoint and stop debugging. Since we have not created a project node yet, the project creation code still throws exceptions.
+4. Clear the breakpoint and stop debugging. Since we have not created a project node yet, the project creation code still throws exceptions.
 
 ## Extend the ProjectNode class
  Now you can implement the `SimpleProjectNode` class, which derives from the `ProjectNode` class. The `ProjectNode` base class handles the following tasks of project creation:
@@ -410,13 +410,13 @@ Templates
 
 ### To connect the project factory class and the node class
 
-1.  In the *SimpleProjectFactory.cs* file, add the following `using` statement:
+1. In the *SimpleProjectFactory.cs* file, add the following `using` statement:
 
     ```csharp
     using IOleServiceProvider =    Microsoft.VisualStudio.OLE.Interop.IServiceProvider;
     ```
 
-2.  Replace the `SimpleProjectFactory.CreateProject` method by using the following code.
+2. Replace the `SimpleProjectFactory.CreateProject` method by using the following code.
 
     ```csharp
     protected override ProjectNode CreateProject()
@@ -428,18 +428,18 @@ Templates
     }
     ```
 
-3.  Rebuild the solution and verify that it builds without errors.
+3. Rebuild the solution and verify that it builds without errors.
 
 ## Test the ProjectNode class
  Test your project factory to see whether it creates a project hierarchy.
 
 ### To test the ProjectNode class
 
-1.  Press **F5** to start debugging. In the experimental instance, create a new SimpleProject.
+1. Press **F5** to start debugging. In the experimental instance, create a new SimpleProject.
 
-2.  Visual Studio should call your project factory to create a project.
+2. Visual Studio should call your project factory to create a project.
 
-3.  Close the experimental instance of Visual Studio.
+3. Close the experimental instance of Visual Studio.
 
 ## Add a custom project node icon
  The project node icon in the earlier section is a default icon. You can change it to a custom icon.
@@ -521,13 +521,13 @@ Templates
 
 ### To test the custom project node icon
 
-1.  Start debugging, and in the experimental instance create a new SimpleProject.
+1. Start debugging, and in the experimental instance create a new SimpleProject.
 
-2.  In the newly-created project, notice that *SimpleProjectNode.bmp* is used as the project node icon.
+2. In the newly-created project, notice that *SimpleProjectNode.bmp* is used as the project node icon.
 
      ![Simple Project New Project Node](../extensibility/media/simpleprojnewprojectnode.png "SimpleProjNewProjectNode")
 
-3.  Open *Program.cs* in the code editor. You should see source code that resembles the following code.
+3. Open *Program.cs* in the code editor. You should see source code that resembles the following code.
 
     ```csharp
     using System;

@@ -14,7 +14,7 @@ ms.workload:
 # Persisting Data in the MSBuild Project File
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:
 
-1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](../../msbuild/msbuild.md).) Build-related information can either:
+1. Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](../../msbuild/msbuild.md).) Build-related information can either:
 
     1.  Configuration-independent data. That is, data stored in MSBuild elements with blank or missing conditions.
 
@@ -24,7 +24,7 @@ A project subtype may need to persist subtype-specific data into the project fil
         <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
         ```
 
-2.  Persist data that is not relevant to build. This data can be expressed in free-form XML that is not validated against an XML schema.
+2. Persist data that is not relevant to build. This data can be expressed in free-form XML that is not validated against an XML schema.
 
     1.  Configuration-independent data.
 
@@ -39,9 +39,9 @@ A project subtype may need to persist subtype-specific data into the project fil
 
 #### To remove a property from an MSBuild project file
 
-1.  Call `QueryInterface` on <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> of the project subtype.
+1. Call `QueryInterface` on <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> of the project subtype.
 
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.RemoveProperty%2A> with `pszPropName` set to the property you want to remove.
+2. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.RemoveProperty%2A> with `pszPropName` set to the property you want to remove.
 
 ### Persisting Non-Build Related Information
  Persistence of data in project files that does not matter to build is handled through <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>.

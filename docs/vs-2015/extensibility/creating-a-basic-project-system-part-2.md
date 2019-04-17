@@ -114,9 +114,9 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
 ## Adding a Minimal .vsct File  
  Visual Studio must be run in setup mode to recognize a new or modified Visual Studio template. Setup mode requires a .vsct file to be present. Therefore, you must add a minimal .vsct file to the project.  
   
-1.  Add an XML file named SimpleProject.vsct to the SimpleProject project.  
+1. Add an XML file named SimpleProject.vsct to the SimpleProject project.  
   
-2.  Replace the contents of the SimpleProject.vsct file with the following code.  
+2. Replace the contents of the SimpleProject.vsct file with the following code.  
   
     ```  
     <?xml version="1.0" encoding="utf-8" ?>  
@@ -125,7 +125,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
     </CommandTable>  
     ```  
   
-3.  Set the **Build Action** of this file to **VSCTCompile**. You can do this only in the .csproj file, not in the **Properties** window. Make sure that the **Build Action** of this file is set to **None** at this point.  
+3. Set the **Build Action** of this file to **VSCTCompile**. You can do this only in the .csproj file, not in the **Properties** window. Make sure that the **Build Action** of this file is set to **None** at this point.  
   
     1.  Right-click the SimpleProject node and then click **Edit SimpleProject.csproj**.  
   
@@ -203,11 +203,11 @@ ZipProjects:
   
  This section shows how to create a Console child node for the SimpleProject project type.  
   
-1.  Rename the \Templates\Projects\SimpleProject\ folder to \Templates\Projects\ConsoleApp\\.  
+1. Rename the \Templates\Projects\SimpleProject\ folder to \Templates\Projects\ConsoleApp\\.  
   
-2.  In the **Properties** window, select all five files in the \Templates\Projects\ConsoleApp\ folder and make sure the **Build Action** is set to **ZipProject**.  
+2. In the **Properties** window, select all five files in the \Templates\Projects\ConsoleApp\ folder and make sure the **Build Action** is set to **ZipProject**.  
   
-3.  In the SimpleProject.vstemplate file, add the following line at the end of the \<TemplateData> section, just before the closing tag.  
+3. In the SimpleProject.vstemplate file, add the following line at the end of the \<TemplateData> section, just before the closing tag.  
   
     ```  
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>  
@@ -215,11 +215,11 @@ ZipProjects:
   
      This causes the Console Application template to appear both in the Console child node and in the SimpleProject parent node, which is one level above the child node.  
   
-4.  Save the SimpleProject.vstemplate file.  
+4. Save the SimpleProject.vstemplate file.  
   
-5.  In the .csproj file, add \<OutputSubPath> to each of the ZipProject elements. Unload the project, as before, and edit the project file.  
+5. In the .csproj file, add \<OutputSubPath> to each of the ZipProject elements. Unload the project, as before, and edit the project file.  
   
-6.  Locate the \<ZipProject> elements. To each \<ZipProject> element, add an \<OutputSubPath> element and give it the value Console. The ZipProject  
+6. Locate the \<ZipProject> elements. To each \<ZipProject> element, add an \<OutputSubPath> element and give it the value Console. The ZipProject  
   
     ```  
     <ZipProject Include="Templates\Projects\ConsoleApp\AssemblyInfo.cs">  
@@ -239,7 +239,7 @@ ZipProjects:
         </ZipProject>  
     ```  
   
-7.  Add this \<PropertyGroup> to the project file:  
+7. Add this \<PropertyGroup> to the project file:  
   
     ```  
     <PropertyGroup>  
@@ -247,7 +247,7 @@ ZipProjects:
     </PropertyGroup>  
     ```  
   
-8.  Save the project file and reload the project.  
+8. Save the project file and reload the project.  
   
 ## Testing the Project Type Child Node  
  Test the modified project file to see whether the **Console** child node appears in the **New Project** dialog box.  
@@ -279,15 +279,15 @@ ZipProjects:
   
 #### To substitute project template parameters  
   
-1.  In the SimpleProjectNode.cs file, remove the `AddFileFromTemplate` method.  
+1. In the SimpleProjectNode.cs file, remove the `AddFileFromTemplate` method.  
   
-2.  In the \Templates\Projects\ConsoleApp\SimpleProject.myproj file, locate the \<RootNamespace> property and change its value to $safeprojectname$.  
+2. In the \Templates\Projects\ConsoleApp\SimpleProject.myproj file, locate the \<RootNamespace> property and change its value to $safeprojectname$.  
   
     ```  
     <RootNamespace>$safeprojectname$</RootNamespace>  
     ```  
   
-3.  In the \Templates\Projects\SimpleProject\Program.cs file, replace the contents of the file with the following code:  
+3. In the \Templates\Projects\SimpleProject\Program.cs file, replace the contents of the file with the following code:  
   
     ```  
     using System;  
@@ -309,11 +309,11 @@ ZipProjects:
     }  
     ```  
   
-4.  Rebuild the SimpleProject project and start debugging. The experimental instance should appear.  
+4. Rebuild the SimpleProject project and start debugging. The experimental instance should appear.  
   
-5.  Create a new SimpleProject Console application. (In the **Project types** pane, select **SimpleProject**. Under **Visual Studio installed templates**, select **Console Application**.)  
+5. Create a new SimpleProject Console application. (In the **Project types** pane, select **SimpleProject**. Under **Visual Studio installed templates**, select **Console Application**.)  
   
-6.  In the newly-created project, open Program.cs. It should look something like the following (GUID values in your file will differ.):  
+6. In the newly-created project, open Program.cs. It should look something like the following (GUID values in your file will differ.):  
   
     ```  
     using System;  

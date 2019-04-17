@@ -119,19 +119,19 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
 ##  <a name="BKMK_ThemedDialogLayout"></a> Themed dialog layout
  Themed dialogs in Visual Studio have a lighter appearance and offer more white space. Typography provides more emphasis and interest, offering more open line spacing and a variation of font sizes and weights. Where possible, chrome and title bars have been reduced or removed. The layout of these dialogs should follow this basic pattern:
 
-1.  The background of the dialog is white.
+1. The background of the dialog is white.
 
-2.  There is a 1-pixel rule border in a mid-value gray.
+2. There is a 1-pixel rule border in a mid-value gray.
 
-3.  The dialog title no longer sits in a title bar, but provides visual interest and emphasis in a larger point size. (See the font size section in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).)
+3. The dialog title no longer sits in a title bar, but provides visual interest and emphasis in a larger point size. (See the font size section in [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).)
 
-4.  Labels coupled with additional text, such as a description, should be **Environment font + Bold**.
+4. Labels coupled with additional text, such as a description, should be **Environment font + Bold**.
 
-5.  Interior columns are separated by a 1-pixel rule in light gray.
+5. Interior columns are separated by a 1-pixel rule in light gray.
 
-6.  Default links have no underscore. Hover and pressed states have a color change plus underscore.
+6. Default links have no underscore. Hover and pressed states have a color change plus underscore.
 
-7.  Commit buttons (like **OK**/**Cancel**) sit in the lower right corner.
+7. Commit buttons (like **OK**/**Cancel**) sit in the lower right corner.
 
 ### Themed dialog layout examples
  ![Themed dialog layout](../../extensibility/ux-guidelines/media/0801-h-themeddialog.png "0801-h_ThemedDialog")

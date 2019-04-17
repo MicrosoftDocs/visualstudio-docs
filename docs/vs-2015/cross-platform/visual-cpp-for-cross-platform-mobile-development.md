@@ -21,11 +21,11 @@ You can build native C++ apps for iOS, Android and Windows devices, and share co
   
  Development using Visual C++ for Cross-Platform Mobile Development has several advantages:  
   
-1.  **Easy installation.** The Visual Studio installer acquires and installs the required third-party tools and SDKs you need to build apps or libraries for Android and iOS. Configuration and setup is simple and mostly automatic.  
+1. **Easy installation.** The Visual Studio installer acquires and installs the required third-party tools and SDKs you need to build apps or libraries for Android and iOS. Configuration and setup is simple and mostly automatic.  
   
-2.  **A powerful and familiar build environment.** Create sharable cross-platform solutions and projects easily with Visual Studio templates. Manage properties for all projects using one common interface. Edit all your code in the Visual Studio editor, and take advantage of the built-in cross-platform IntelliSense for code completion and error highlighting.  
+2. **A powerful and familiar build environment.** Create sharable cross-platform solutions and projects easily with Visual Studio templates. Manage properties for all projects using one common interface. Edit all your code in the Visual Studio editor, and take advantage of the built-in cross-platform IntelliSense for code completion and error highlighting.  
   
-3.  **A unified debugging experience.** Use the world-class debugging tools in Visual Studio to watch and step through C++ code on all platforms, including Android devices and emulators, iOS simulators and devices, and Windows or Windows Phone devices and emulators.  
+3. **A unified debugging experience.** Use the world-class debugging tools in Visual Studio to watch and step through C++ code on all platforms, including Android devices and emulators, iOS simulators and devices, and Windows or Windows Phone devices and emulators.  
   
 ## Get the tools  
  Visual C++ for Cross-Platform Mobile Development is an installable option that comes with Visual Studio 2015. For prerequisites and installation instructions, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build code for iOS, you also need a Mac computer and an Apple iOS Developer Account. For more information, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).  
@@ -92,12 +92,12 @@ You can build native C++ apps for iOS, Android and Windows devices, and share co
   
 ## In this section  
   
-1.  [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)  
+1. [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)  
   
-2.  [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
+2. [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
   
-3.  [Create an Android Native Activity App](../cross-platform/create-an-android-native-activity-app.md)  
+3. [Create an Android Native Activity App](../cross-platform/create-an-android-native-activity-app.md)  
   
-4.  [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)  
+4. [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md)  
   
-5.  [Cross-Platform Mobile Development Examples](../cross-platform/cross-platform-mobile-development-examples.md)
+5. [Cross-Platform Mobile Development Examples](../cross-platform/cross-platform-mobile-development-examples.md)

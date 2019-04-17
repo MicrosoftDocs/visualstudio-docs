@@ -58,8 +58,8 @@ The State window in Visual Studio graphics Diagnostics helps you understand the 
 
 ##### To pin state in place
 
-1.  In the State window, locate the state that you're interested in. You might have to expand higher-level state to locate the details you're interested in.
+1. In the State window, locate the state that you're interested in. You might have to expand higher-level state to locate the details you're interested in.
 
-2.  Place the cursor over the state that you're interested in. A Pin icon appears to the left of the state item.
+2. Place the cursor over the state that you're interested in. A Pin icon appears to the left of the state item.
 
-3.  Choose the Pin icon to pin the state item in place.
+3. Choose the Pin icon to pin the state item in place.

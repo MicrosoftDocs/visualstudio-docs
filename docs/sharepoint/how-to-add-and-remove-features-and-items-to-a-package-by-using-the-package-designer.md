@@ -46,7 +46,7 @@ ms.workload:
 
 #### To remove SharePoint features with the package designer
 
-1.  In the **Items in the Package** list, choose an item that you want to remove, and then choose the **Remove** (<) button, or choose the **Remove All** button (<<) to remove all the items.
+1. In the **Items in the Package** list, choose an item that you want to remove, and then choose the **Remove** (<) button, or choose the **Remove All** button (<<) to remove all the items.
 
      The SharePoint Items appear in the **Items in the Solution** list.
 

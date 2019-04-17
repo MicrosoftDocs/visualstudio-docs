@@ -249,14 +249,14 @@ Code Analysis uses a built-in dictionary to check identifiers in your code for e
 
 ##  <a name="BKMK_ToApplyACustomDictionaryToAProject"></a> To apply a custom dictionary to a project
 
-1.  In **Solution Explorer**, use one of the following procedures:
+1. In **Solution Explorer**, use one of the following procedures:
 
-2.  To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. Specify the file in the **Add Existing Item** dialog box.
+2. To add a dictionary to a single project, right-click the project name and then click **Add Existing Item**. Specify the file in the **Add Existing Item** dialog box.
 
-3.  To add a dictionary that is shared among two or more projects, locate the file to share in the **Add Existing Item** dialog box, click the down arrow on the **Add** button and then click **Add As Link**.
+3. To add a dictionary that is shared among two or more projects, locate the file to share in the **Add Existing Item** dialog box, click the down arrow on the **Add** button and then click **Add As Link**.
 
-4.  In **Solution Explorer**, right-click the **CustomDictionary.xml** file name and click **Properties**.
+4. In **Solution Explorer**, right-click the **CustomDictionary.xml** file name and click **Properties**.
 
-5.  From the **Build Action** list, select **CodeAnalysisDictionary**.
+5. From the **Build Action** list, select **CodeAnalysisDictionary**.
 
-6.  From the **Copy to Output Directory** list, select **Do not copy**.
+6. From the **Copy to Output Directory** list, select **Do not copy**.

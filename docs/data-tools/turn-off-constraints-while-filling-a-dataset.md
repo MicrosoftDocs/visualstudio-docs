@@ -39,9 +39,9 @@ If there were no mechanism to allow temporary constraint suspension, an error wo
 
 ## To suspend update constraints using the Dataset Designer
 
-1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.
+2. In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints%2A> property to `false`.
 
 ## See also
 

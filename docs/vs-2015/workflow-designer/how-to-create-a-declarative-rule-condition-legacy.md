@@ -35,23 +35,23 @@ This topic describes how to declare a rule condition using the legacy [!INCLUDE[
   
 ### To create a declarative rule condition using the Rule Condition Editor  
   
-1.  In the activity's **Properties** window, click the **Condition** property or **UntilCondition** property, depending on the activity.  
+1. In the activity's **Properties** window, click the **Condition** property or **UntilCondition** property, depending on the activity.  
   
-2.  Select **Declarative Rule Condition** from the list for the property.  
+2. Select **Declarative Rule Condition** from the list for the property.  
   
-3.  Expand the **Condition** or **UntilCondition** property.  
+3. Expand the **Condition** or **UntilCondition** property.  
   
-4.  Click the **ConditionName** property.  
+4. Click the **ConditionName** property.  
   
-5.  Click the **ConditionName** ellipses **[…]** to open the **Select Condition** dialog box.  
+5. Click the **ConditionName** ellipses **[…]** to open the **Select Condition** dialog box.  
   
-6.  Click **New Condition** to open the **Rule Condition Editor** dialog box.  
+6. Click **New Condition** to open the **Rule Condition Editor** dialog box.  
   
-7.  Type the expression for the condition in the **Condition** text box.  
+7. Type the expression for the condition in the **Condition** text box.  
   
      For information about how to create condition expressions, see [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md).  
   
-8.  When you are finished creating the condition expression, click **OK** to close the dialog box and create the rule condition with an assigned name.  
+8. When you are finished creating the condition expression, click **OK** to close the dialog box and create the rule condition with an assigned name.  
   
      The **Select Condition** dialog box opens.  
   

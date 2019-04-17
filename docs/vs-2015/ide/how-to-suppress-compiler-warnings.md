@@ -17,29 +17,29 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
 ### To suppress specific warnings for Visual C# or F#  
   
-1.  In **Solution Explorer**, choose the project in which you want to suppress warnings.  
+1. In **Solution Explorer**, choose the project in which you want to suppress warnings.  
   
-2.  On the menu bar, choose **View**, **Property Pages**.  
+2. On the menu bar, choose **View**, **Property Pages**.  
   
-3.  Choose the **Build** page.  
+3. Choose the **Build** page.  
   
-4.  In the **Suppress warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons, and then rebuild the solution.  
+4. In the **Suppress warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons, and then rebuild the solution.  
   
 ### To suppress specific warnings for Visual C++  
   
-1.  In **Solution Explorer**, choose the project or source file in which you want to suppress warnings.  
+1. In **Solution Explorer**, choose the project or source file in which you want to suppress warnings.  
   
-2.  On the menu bar, choose **View**, **Property Pages**.  
+2. On the menu bar, choose **View**, **Property Pages**.  
   
-3.  Choose the **Configuration Properties** category, choose the **C/C++** category, and then choose the **Advanced** page.  
+3. Choose the **Configuration Properties** category, choose the **C/C++** category, and then choose the **Advanced** page.  
   
-4.  Perform one of the following steps:  
+4. Perform one of the following steps:  
   
     -   In the **Disable Specific Warnings** box, specify the error codes of the warnings that you want to suppress, separated by a semicolon.  
   
     -   In the **Disable Specific Warnings** box, choose **Edit** to display more options.  
   
-5.  Choose the **OK** button, and then rebuild the solution.  
+5. Choose the **OK** button, and then rebuild the solution.  
   
 ## Suppressing Warnings for Visual Basic  
  You can hide specific compiler warnings for Visual Basic by editing the .vbproj file for the project. You can also use the [Compile Page, Project Designer](../ide/reference/compile-page-project-designer-visual-basic.md) to suppress warnings by category. For more information, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  

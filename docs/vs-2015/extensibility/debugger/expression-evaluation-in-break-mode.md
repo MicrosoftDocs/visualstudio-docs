@@ -21,11 +21,11 @@ The following describes the process that occurs when the debugger is in break mo
 ## Expression Evaluation Process  
  These are the basic steps involved in evaluating an expression:  
   
-1.  The session debug manager (SDM) calls [IDebugStackFrame2::GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to obtain an expression context interface, [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md).  
+1. The session debug manager (SDM) calls [IDebugStackFrame2::GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to obtain an expression context interface, [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md).  
   
-2.  The SDM then calls [IDebugExpressionContext2::ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) with the string to be parsed.  
+2. The SDM then calls [IDebugExpressionContext2::ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) with the string to be parsed.  
   
-3.  If ParseText does not return S_OK, the reason for the error is returned.  
+3. If ParseText does not return S_OK, the reason for the error is returned.  
   
      -otherwise-  
   

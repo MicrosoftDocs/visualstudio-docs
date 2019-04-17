@@ -45,13 +45,13 @@ Choose **Include a screenshot** to send your current screen to Microsoft. The to
 
 ###  <a name="provide_a_trace_and_heap_dump"></a>
 
-1.  Trace and heap dump files are very useful in helping us diagnose problems.   We appreciate it very much when you use the Report a Problem tool to record your repro steps and send the data to Microsoft.
+1. Trace and heap dump files are very useful in helping us diagnose problems.   We appreciate it very much when you use the Report a Problem tool to record your repro steps and send the data to Microsoft.
 
-2.  Click the chevron next to **Record your actions to reproduce the issue**. If your problem is causing Visual Studio to hang or crash, then open up another instance of Visual Studio and select it from the list view.
+2. Click the chevron next to **Record your actions to reproduce the issue**. If your problem is causing Visual Studio to hang or crash, then open up another instance of Visual Studio and select it from the list view.
 
-3.  Click on **Start Recording** and perform the steps that reproduce the problem. When you are done, click on the **Stop Record** button in the floating window.
+3. Click on **Start Recording** and perform the steps that reproduce the problem. When you are done, click on the **Stop Record** button in the floating window.
 
-4.  Wait a few minutes for Visual Studio to collect and package up the information that was recorded. The dialog will look something like this when the collection process is complete:
+4. Wait a few minutes for Visual Studio to collect and package up the information that was recorded. The dialog will look something like this when the collection process is complete:
 
      ![Record a Trace File](../ide/media/record-a-trace-file.png "Record a Trace File")
 

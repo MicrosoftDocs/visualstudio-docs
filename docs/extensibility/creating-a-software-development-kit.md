@@ -66,13 +66,13 @@ A software development kit (SDK) is a collection of APIs that you can reference 
 
  If you want to use a different location, you must do one of two things:
 
-1.  Specify it in a registry key:
+1. Specify it in a registry key:
 
      **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number\>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
 
      and add a (Default) subkey that has a value of `<path to SDK><SDKName><SDKVersion>`.
 
-2.  Add the MSBuild property `SDKReferenceDirectoryRoot` to your project file. The value of this property is a semicolon delimited list of directories in which the Extension SDKs you want to reference reside.
+2. Add the MSBuild property `SDKReferenceDirectoryRoot` to your project file. The value of this property is a semicolon delimited list of directories in which the Extension SDKs you want to reference reside.
 
 ### Installation layout
  Extension SDKs have the following installation layout:
@@ -188,7 +188,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
 ##  <a name="ToolboxItems"></a> Specify the location of toolbox items
  The ToolBoxItems element of the *SDKManifest.xml* schema specifies the category and location of toolbox items in both platform and extension SDKs. The following examples show how to specify different locations. This is applicable to either WinMD or DLL references.
 
-1.  Place controls in the toolbox default category.
+1. Place controls in the toolbox default category.
 
     ```
     <File Reference = "sample.winmd">
@@ -196,7 +196,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-2.  Place controls under a particular category name.
+2. Place controls under a particular category name.
 
     ```
     <File Reference = "sample.winmd">
@@ -204,7 +204,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-3.  Place controls under particular category names.
+3. Place controls under particular category names.
 
     ```
     <File Reference = "sample.winmd">
@@ -215,7 +215,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-4.  Place controls under different category names in Blend and Visual Studio.
+4. Place controls under different category names in Blend and Visual Studio.
 
     ```
     // Blend accepts a slightly different structure for the category name because it allows a path rather than a single category.
@@ -225,7 +225,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-5.  Enumerate specific controls differently in Blend and Visual Studio.
+5. Enumerate specific controls differently in Blend and Visual Studio.
 
     ```
     <File Reference = "sample.winmd">
@@ -236,7 +236,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-6.  Enumerate specific controls, and place them under the Visual Studio Common Path or only in the All Controls Group.
+6. Enumerate specific controls, and place them under the Visual Studio Common Path or only in the All Controls Group.
 
     ```
     <File Reference = "sample.winmd">
@@ -247,7 +247,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
     </File>
     ```
 
-7.  Enumerate specific controls, and show only a specific set in ChooseItems without them being in the toolbox.
+7. Enumerate specific controls, and show only a specific set in ChooseItems without them being in the toolbox.
 
     ```
     <File Reference = "sample.winmd">

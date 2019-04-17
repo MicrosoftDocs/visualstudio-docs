@@ -28,13 +28,13 @@ During instrumentation, probes are inserted into the binary to measure applicati
   
 ### To relocate instrumented binary  
   
-1.  In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+1. In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
-2.  In the **Property Pages**, click the **Binary** properties.  
+2. In the **Property Pages**, click the **Binary** properties.  
   
-3.  Select the **Relocate instrumented binaries** check box.  
+3. Select the **Relocate instrumented binaries** check box.  
   
-4.  Specify the location for the instrumented binary.  
+4. Specify the location for the instrumented binary.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

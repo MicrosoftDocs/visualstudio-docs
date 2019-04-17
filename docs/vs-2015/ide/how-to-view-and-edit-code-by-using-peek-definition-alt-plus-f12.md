@@ -24,7 +24,7 @@ You can use the **Peek Definition** command to view and edit code without switch
   
 #### To open a Peek Definition window  
   
-1.  You can find **Peek Definition** by opening the shortcut menu for a method that you want to explore. (Keyboard: Alt+F12)  
+1. You can find **Peek Definition** by opening the shortcut menu for a method that you want to explore. (Keyboard: Alt+F12)  
   
      This illustration shows the **Peek Definition** window for a method that's named `Print()`:  
   
@@ -32,11 +32,11 @@ You can use the **Peek Definition** command to view and edit code without switch
   
      The definition window appears below the `printer.Print(“Hello World!”)` line in the original file. The window doesn't hide any of the code in your original file. The lines that follow the `printer.Print(“Hello World!”)` call appear under the definition window.  
   
-2.  You can move the cursor to different locations in the code definition window. You can still move around in the original code window above or below the definition window.  
+2. You can move the cursor to different locations in the code definition window. You can still move around in the original code window above or below the definition window.  
   
-3.  You can copy a string from the definition window and paste it in the original code. You can also drag and drop the string from the definition window to the original code without deleting it from the definition window.  
+3. You can copy a string from the definition window and paste it in the original code. You can also drag and drop the string from the definition window to the original code without deleting it from the definition window.  
   
-4.  You can close the definition window by choosing the Esc key or the **Close** button on the definition window tab.  
+4. You can close the definition window by choosing the Esc key or the **Close** button on the definition window tab.  
   
 #### To open a Peek Definition window from within a Peek Definition window  
   

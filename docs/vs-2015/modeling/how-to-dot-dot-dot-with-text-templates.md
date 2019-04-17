@@ -104,11 +104,11 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
   
 ###  <a name="starting"></a> What is the best way to start writing a text template?  
   
-1.  Write a specific example of the generated file.  
+1. Write a specific example of the generated file.  
   
-2.  Turn it into a text template by inserting the `<#@template #>` directive, and the directives and code that are required to load the input file or model.  
+2. Turn it into a text template by inserting the `<#@template #>` directive, and the directives and code that are required to load the input file or model.  
   
-3.  Progressively replace parts of the file with expression and code blocks.  
+3. Progressively replace parts of the file with expression and code blocks.  
   
 ### What is a "model"?  
   

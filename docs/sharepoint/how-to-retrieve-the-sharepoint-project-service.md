@@ -29,9 +29,9 @@ ms.workload:
 
 #### To retrieve the service in a project extension
 
-1.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> interface, locate the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method.
+1. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> interface, locate the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method.
 
-2.  Use the *projectService* parameter to access the service.
+2. Use the *projectService* parameter to access the service.
 
      The following code example demonstrates how to use the project service to write a message to the **Output** window and **Error List** window in a simple project extension.
 
@@ -42,9 +42,9 @@ ms.workload:
 
 #### To retrieve the service in a project item extension
 
-1.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> interface, locate the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> method.
+1. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension> interface, locate the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeExtension.Initialize%2A> method.
 
-2.  Use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType.ProjectService%2A> property of the *projectItemType* parameter to retrieve the service.
+2. Use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType.ProjectService%2A> property of the *projectItemType* parameter to retrieve the service.
 
      The following code example demonstrates how to use the project service to write a message to the **Output** window and **Error List** window in a simple extension of the **List Definition** project item.
 
@@ -55,9 +55,9 @@ ms.workload:
 
 #### To retrieve the service in a project item type definition
 
-1.  In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> interface, locate the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider.InitializeType%2A> method.
+1. In your implementation of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> interface, locate the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider.InitializeType%2A> method.
 
-2.  Use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition.ProjectService%2A> property of the *typeDefinition* parameter to retrieve the service.
+2. Use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition.ProjectService%2A> property of the *typeDefinition* parameter to retrieve the service.
 
      The following code example demonstrates how to use the project service to write a message to the **Output** window and **Error List** window in a simple project item type definition.
 
@@ -71,9 +71,9 @@ ms.workload:
 
 #### To retrieve the service in a Server Explorer extension
 
-1.  Get an <xref:System.IServiceProvider> object from the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.ServiceProvider%2A> property of an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode> object in your extension.
+1. Get an <xref:System.IServiceProvider> object from the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.ServiceProvider%2A> property of an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode> object in your extension.
 
-2.  Use the <xref:System.IServiceProvider.GetService%2A> method to request an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object.
+2. Use the <xref:System.IServiceProvider.GetService%2A> method to request an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object.
 
      The following code example demonstrates how to use the project service to write a message to the **Output** window and **Error List** window from a shortcut menu that the extension adds to list nodes in **Server Explorer**.
 

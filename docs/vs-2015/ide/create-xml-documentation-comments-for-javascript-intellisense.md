@@ -81,7 +81,7 @@ manager: jillfra
   
 ### To create XML documentation comments for an overloaded function  
   
-1.  In the function, add a [\<signature>](../ide/signature-javascript.md) element for each overload. In these elements, add other elements, such as `<summary>`, `<param>`, and `<returns>`, preceding each element with three slash marks (///).  
+1. In the function, add a [\<signature>](../ide/signature-javascript.md) element for each overload. In these elements, add other elements, such as `<summary>`, `<param>`, and `<returns>`, preceding each element with three slash marks (///).  
   
      The following example shows an overloaded JavaScript function. In this example, the overloads differ by parameter type.  
   
@@ -101,7 +101,7 @@ manager: jillfra
     }  
     ```  
   
-2.  To view the XML documentation comments, type the name and the opening parenthesis of the function that is marked with XML documentation comments, as in the following example:  
+2. To view the XML documentation comments, type the name and the opening parenthesis of the function that is marked with XML documentation comments, as in the following example:  
   
     ```javascript  
     calc(  
@@ -109,7 +109,7 @@ manager: jillfra
   
 ### To create localized IntelliSense  
   
-1.  Create an XML file that has documentation comments in the OpenAjax MessageBundle format.  
+1. Create an XML file that has documentation comments in the OpenAjax MessageBundle format.  
   
     > [!IMPORTANT]
     >  MessageBundle is the recommended format. This format is not supported in Microsoft Ajax or in .winmd files. For information about using the alternative `VSDoc` format, see [\<loc>](../ide/loc-javascript.md).  
@@ -125,14 +125,14 @@ manager: jillfra
   
     ```  
   
-2.  In your .js file, add the following code. The `<loc>` element must be declared before any script, and follows the same usage rules as the `<reference>` element. For more information, see [JavaScript IntelliSense](../ide/javascript-intellisense.md) and [\<loc>](../ide/loc-javascript.md).  
+2. In your .js file, add the following code. The `<loc>` element must be declared before any script, and follows the same usage rules as the `<reference>` element. For more information, see [JavaScript IntelliSense](../ide/javascript-intellisense.md) and [\<loc>](../ide/loc-javascript.md).  
   
     ```javascript  
     /// <loc filename="messageFilename.xml" format="messagebundle"/>  
   
     ```  
   
-3.  In your .js file, add the XML documentation elements and default descriptions. Set the `locid` attribute values to match the corresponding `name` attribute values from the sidecar file. The default descriptions will be replaced by localized IntelliSense information, if it's available.  
+3. In your .js file, add the XML documentation elements and default descriptions. Set the `locid` attribute values to match the corresponding `name` attribute values from the sidecar file. The default descriptions will be replaced by localized IntelliSense information, if it's available.  
   
     ```javascript  
     function add(a,b)   
@@ -144,7 +144,7 @@ manager: jillfra
   
     ```  
   
-4.  To view the XML documentation comments, type the name and the opening parenthesis of the function, as in the following example:  
+4. To view the XML documentation comments, type the name and the opening parenthesis of the function, as in the following example:  
   
     ```javascript  
     add(  

@@ -31,21 +31,21 @@ Windows Counters are system performance counters that can be collected at set in
   
 ### To collect Windows counter data  
   
-1.  In Performance Explorer, right-click the session for which you want to configure Windows counters and select **Properties**.  
+1. In Performance Explorer, right-click the session for which you want to configure Windows counters and select **Properties**.  
   
-2.  In the **Property Pages**, click **Windows Counters**.  
+2. In the **Property Pages**, click **Windows Counters**.  
   
-3.  Select the **Collect Windows Counters** check box.  
+3. Select the **Collect Windows Counters** check box.  
   
-4.  In the **Collection interval (msecs)** text box, type a time interval.  
+4. In the **Collection interval (msecs)** text box, type a time interval.  
   
-5.  Select a category from the **Counter Category** drop-down list.  
+5. Select a category from the **Counter Category** drop-down list.  
   
-6.  Select an instance from the **Instance** drop-down list.  
+6. Select an instance from the **Instance** drop-down list.  
   
-7.  Select the counters you want to use when you profile your application.  
+7. Select the counters you want to use when you profile your application.  
   
-8.  Click **Apply.**  
+8. Click **Apply.**  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

@@ -37,9 +37,9 @@ Resolution&mdash;In Test Explorer, choose **Run All** to verify that the tests r
 
 When you modify and rerun your tests, a previous code coverage result can still be visible, including the code coloring from that old run.
 
-1.  Run Analyze Code Coverage.
+1. Run Analyze Code Coverage.
 
-2.  Make sure that you have selected the most recent result set in the **Code Coverage Results** window.
+2. Make sure that you have selected the most recent result set in the **Code Coverage Results** window.
 
 ### .pdb (symbol) files are unavailable
 

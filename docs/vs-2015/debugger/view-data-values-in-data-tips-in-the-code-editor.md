@@ -81,9 +81,9 @@ DataTips provide a convenient way to view information about variables in your pr
   
 #### To edit the value of a variable using a DataTip  
   
-1.  In a DataTip, click the value. This is disabled for read-only values.  
+1. In a DataTip, click the value. This is disabled for read-only values.  
   
-2.  Type a new value and press ENTER.  
+2. Type a new value and press ENTER.  
   
 ## Making a DataTip Transparent  
  If you want to see the code that is behind a DataTip, you can make the DataTip temporarily transparent. This does not apply to DataTips that are pinned or floating.  
@@ -121,19 +121,19 @@ DataTips provide a convenient way to view information about variables in your pr
   
 #### To Export DataTips  
   
-1.  On the Debug menu, click **Export DataTips**.  
+1. On the Debug menu, click **Export DataTips**.  
   
      The **Export DataTips** dialog box appears.  
   
-2.  Use standard file techniques to navigate to the location where you want to save the XML file, type a name for the file in the **File name** box, and then click **OK**.  
+2. Use standard file techniques to navigate to the location where you want to save the XML file, type a name for the file in the **File name** box, and then click **OK**.  
   
 #### To Import DataTips  
   
-1.  On the Debug menu, click **Import DataTips**.  
+1. On the Debug menu, click **Import DataTips**.  
   
      The **Import DataTips** dialog box appears.  
   
-2.  Use the dialog box to find the XML file that you want to open and click **OK**.  
+2. Use the dialog box to find the XML file that you want to open and click **OK**.  
   
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   

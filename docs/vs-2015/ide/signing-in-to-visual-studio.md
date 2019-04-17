@@ -47,12 +47,12 @@ You can personalize and optimize your development experience in Visual Studio if
 ## To change your profile information
  In **File &#124; Account Settings,** you can see and update information about your Visual Studio profile and license. To edit your profile information, such as your account name, avatar picture, or email address:
 
-1.  Go to **File &#124; Account Settings**.
+1. Go to **File &#124; Account Settings**.
 
-2.  In the **Account Settings** dialog box, **Manage Visual Studio profile** link.
+2. In the **Account Settings** dialog box, **Manage Visual Studio profile** link.
 
-3.  On the **My Microsoft Information** page in the browser, choose the **Edit Information** button.
+3. On the **My Microsoft Information** page in the browser, choose the **Edit Information** button.
 
-4.  Change the settings that you want.
+4. Change the settings that you want.
 
-5.  When you're done, choose the **Save changes** button.
+5. When you're done, choose the **Save changes** button.

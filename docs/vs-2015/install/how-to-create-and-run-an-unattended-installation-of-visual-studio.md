@@ -23,11 +23,11 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To create a network image
 
-1.  Create a folder on the server (for example, *Drive*:\IDEinstall\\).
+1. Create a folder on the server (for example, *Drive*:\IDEinstall\\).
 
-2.  Download the installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015), and then run *Product*.exe /Layout *Drive*:\IDEinstall\
+2. Download the installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015), and then run *Product*.exe /Layout *Drive*:\IDEinstall\
 
-3.  Share the IDEinstall folder on the network, and then set the appropriate security settings.
+3. Share the IDEinstall folder on the network, and then set the appropriate security settings.
 
      The network path of the installation application for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] resembles \\\\*ServerName*\IDEinstall\\*Product*.exe.
 
@@ -69,11 +69,11 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To create an unattended installation of Visual Studio
 
-1.  In *Drive*:\IDEinstall\AdminDeployment.xml file, change the value of the NoWeb attribute of the BundleCustomizations element from "default" to "yes" as the following example shows:
+1. In *Drive*:\IDEinstall\AdminDeployment.xml file, change the value of the NoWeb attribute of the BundleCustomizations element from "default" to "yes" as the following example shows:
 
      Change `<BundleCustomizations TargetDir="default" NoWeb="default"/>` to `<BundleCustomizations TargetDir="default" NoWeb="yes"/>`
 
-2.  Change the SelectableItemCustomization attribute as needed for optional components, and then save the file.
+2. Change the SelectableItemCustomization attribute as needed for optional components, and then save the file.
 
 ## Running Unattended Setup
  You can run unattended setup either by automatically running the installation application for Visual Studio on client computers or by allowing users to run the application themselves using settings that you define.
@@ -86,9 +86,9 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To enable clients to manually install Visual Studio with pre-defined settings
 
-1.  Copy the customized AdminDeployment.xml file to a network share that is read-only (for example, \\\\*ServerName*\IDEinstall\packages\AdminDeployment.xml).
+1. Copy the customized AdminDeployment.xml file to a network share that is read-only (for example, \\\\*ServerName*\IDEinstall\packages\AdminDeployment.xml).
 
-2.  Enable users to install from that share.
+2. Enable users to install from that share.
 
 ## Maintaining an Installation
  If you open **Control Panel** and rerun the installation application, you can modify features of Visual Studio, uninstall programming languages, and repair or uninstall Visual Studio.
@@ -163,9 +163,9 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To register
 
-1.  Open the **Help** menu, and then choose **Register Product**.
+1. Open the **Help** menu, and then choose **Register Product**.
 
-2.  Enter the product key.
+2. Enter the product key.
 
      (For more information, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and the [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) topics.)
 

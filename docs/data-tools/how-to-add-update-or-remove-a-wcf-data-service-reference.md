@@ -24,11 +24,11 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
 ### To add a reference to an external service
 
-1.  In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
+1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
      The **Add Service Reference** dialog box appears.
 
-2.  In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
+2. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
 
     > [!NOTE]
     >  You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.
@@ -37,11 +37,11 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
      A progress bar displays when the search is being performed. You can stop the search at any time by clicking **Stop**.
 
-3.  In the **Services** list, expand the node for the service that you want to use and select an entity set.
+3. In the **Services** list, expand the node for the service that you want to use and select an entity set.
 
-4.  In the **Namespace** box, enter the namespace that you want to use for the reference.
+4. In the **Namespace** box, enter the namespace that you want to use for the reference.
 
-5.  Click **OK** to add the reference to the project.
+5. Click **OK** to add the reference to the project.
 
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
 

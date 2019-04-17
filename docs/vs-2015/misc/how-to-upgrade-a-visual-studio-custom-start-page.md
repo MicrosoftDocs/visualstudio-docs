@@ -16,17 +16,17 @@ You can upgrade a Visual Studio 2010 or Visual Studio 2012 custom start page to 
 
 ### To upgrade a custom start page to Visual Studio 2015
 
-1.  Make sure that Visual Studio 2015 and the Visual Studio 2015 SDK are installed. You can download the VSSDK from [Microsoft Visual Studio 2013 SDK](https://my.visualstudio.com/Downloads?pid=1436).
+1. Make sure that Visual Studio 2015 and the Visual Studio 2015 SDK are installed. You can download the VSSDK from [Microsoft Visual Studio 2013 SDK](https://my.visualstudio.com/Downloads?pid=1436).
 
-2.  Open your custom template project. You will see a message notifying you that the project is to be upgraded. Click **OK** and wait for the upgrade to complete.
+2. Open your custom template project. You will see a message notifying you that the project is to be upgraded. Click **OK** and wait for the upgrade to complete.
 
-3.  In the project properties for both the start page project and the control project, make sure that the Target Framework is at least .NET Framework 4.5.
+3. In the project properties for both the start page project and the control project, make sure that the Target Framework is at least .NET Framework 4.5.
 
-4.  In the Debug category of the project properties for the start page project, set the path to the Visual Studio 2015 version of devenv.exe.
+4. In the Debug category of the project properties for the start page project, set the path to the Visual Studio 2015 version of devenv.exe.
 
-5.  In the project references for both projects, remove the references to Microsoft.VisualStudio.Shell.11.0 and add references to Microsoft.VisualStudio.Shell.14.0.
+5. In the project references for both projects, remove the references to Microsoft.VisualStudio.Shell.11.0 and add references to Microsoft.VisualStudio.Shell.14.0.
 
-6.  Open StartPage.xaml with the XML editor and make the following changes:
+6. Open StartPage.xaml with the XML editor and make the following changes:
 
     1.  Update the namespaces. Change the following lines:
 
@@ -46,4 +46,4 @@ You can upgrade a Visual Studio 2010 or Visual Studio 2012 custom start page to 
         xmlns:vsfx="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"
         ```
 
-7.  Open MyControl.xaml, and change the namespace reference `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.11.0"` to `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"` .
+7. Open MyControl.xaml, and change the namespace reference `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.11.0"` to `xmlns:vs="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.14.0"` .

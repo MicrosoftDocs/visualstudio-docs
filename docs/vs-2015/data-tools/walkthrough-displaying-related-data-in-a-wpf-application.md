@@ -55,19 +55,19 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 #### To create a new WPF project  
   
-1.  Start Visual Studio.  
+1. Start Visual Studio.  
   
-2.  On the **File** menu, point to **New**, and then click **Project**.  
+2. On the **File** menu, point to **New**, and then click **Project**.  
   
-3.  Expand **Visual C#** or **Visual Basic**, and then select **Windows**.  
+3. Expand **Visual C#** or **Visual Basic**, and then select **Windows**.  
   
-4.  Make sure that **.NET Framework 4** is selected in the combo box at the top of the dialog box. The <xref:System.Windows.Controls.DataGrid> control that you use in this walkthrough is available only in the .NET Framework 4.  
+4. Make sure that **.NET Framework 4** is selected in the combo box at the top of the dialog box. The <xref:System.Windows.Controls.DataGrid> control that you use in this walkthrough is available only in the .NET Framework 4.  
   
-5.  Select the **WPF Application** project template.  
+5. Select the **WPF Application** project template.  
   
-6.  In the **Name** box, type `AdventureWorksOrdersViewer`.  
+6. In the **Name** box, type `AdventureWorksOrdersViewer`.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
      Visual Studio creates the `AdventureWorksOrdersViewer` project.  
   
@@ -186,7 +186,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 #### To test the application  
   
-1.  Press **F5**.  
+1. Press **F5**.  
   
      The application builds and runs. Verify the following:  
   
@@ -194,7 +194,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
     -   For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the <xref:System.Windows.Controls.DataGrid>.  
   
-2.  Close the application.  
+2. Close the application.  
   
 ## Next Steps  
  After completing this walkthrough, learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md) and [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md).  

@@ -51,9 +51,9 @@ During this walkthrough, you will learn how to:
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the **Visual Studio Installer**.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -83,9 +83,9 @@ The first step is to create a **Windows Forms Application**:
 
 This walkthrough creates a simple data-bindable control from a **User Control**. Add a **User Control** item to the **SimpleControlWalkthrough** project:
 
-1.  From the **Project** menu, choose **Add User Control**.
+1. From the **Project** menu, choose **Add User Control**.
 
-2.  Type **PhoneNumberBox** in the Name area, and click **Add**.
+2. Type **PhoneNumberBox** in the Name area, and click **Add**.
 
      The **PhoneNumberBox** control is added to **Solution Explorer**, and opens in the designer.
 
@@ -93,48 +93,48 @@ This walkthrough creates a simple data-bindable control from a **User Control**.
 
 This walkthrough expands upon the existing <xref:System.Windows.Forms.MaskedTextBox> to create the **PhoneNumberBox** control:
 
-1.  Drag a <xref:System.Windows.Forms.MaskedTextBox> from the **Toolbox** onto the user control's design surface.
+1. Drag a <xref:System.Windows.Forms.MaskedTextBox> from the **Toolbox** onto the user control's design surface.
 
-2.  Select the smart tag on the <xref:System.Windows.Forms.MaskedTextBox> you just dragged, and choose **Set Mask**.
+2. Select the smart tag on the <xref:System.Windows.Forms.MaskedTextBox> you just dragged, and choose **Set Mask**.
 
-3.  Select **Phone number** in the **Input Mask** dialog box, and click **OK** to set the mask.
+3. Select **Phone number** in the **Input Mask** dialog box, and click **OK** to set the mask.
 
 ## Add the required data-binding attribute
 
 For simple controls that support databinding, implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>:
 
-1.  Switch the **PhoneNumberBox** control to code view. (On the **View** menu, choose **Code**.)
+1. Switch the **PhoneNumberBox** control to code view. (On the **View** menu, choose **Code**.)
 
-2.  Replace the code in the **PhoneNumberBox** with the following:
+2. Replace the code in the **PhoneNumberBox** with the following:
 
      [!code-csharp[VbRaddataDisplaying#3](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.cs)]
      [!code-vb[VbRaddataDisplaying#3](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.vb)]
 
-3.  From the **Build** menu, choose **Build Solution**.
+3. From the **Build** menu, choose **Build Solution**.
 
 ## Create a data source from your database
 
 This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
 
-1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
+1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3.  On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.
+3. On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.
 
-4.  On the **Choose your Data Connection** page, do one of the following:
+4. On the **Choose your Data Connection** page, do one of the following:
 
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
 
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.
+7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8.  Select the `Customers` table, and then click **Finish**.
+8. Select the `Customers` table, and then click **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.
 
@@ -142,17 +142,17 @@ This step uses the **Data Source Configuration** wizard to create a data source 
 
 Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form:
 
-1.  Open **Form1** in the designer.
+1. Open **Form1** in the designer.
 
-2.  Expand the **Customers** node in the **Data Sources** window.
+2. Expand the **Customers** node in the **Data Sources** window.
 
-3.  Click the drop-down arrow on the **Customers** node, and choose **Details** from the control list.
+3. Click the drop-down arrow on the **Customers** node, and choose **Details** from the control list.
 
-4.  Click the drop-down arrow on the **Phone** column, and choose **Customize**.
+4. Click the drop-down arrow on the **Phone** column, and choose **Customize**.
 
-5.  Select the **PhoneNumberBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
+5. Select the **PhoneNumberBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
-6.  Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.
+6. Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.
 
 ## Add controls to the form
 

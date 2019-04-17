@@ -43,7 +43,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
   
 ### To add comments  
   
-1.  Add the following comment to your code.  
+1. Add the following comment to your code.  
   
      [!code-csharp[VbExpressTutorial1Step9_10#1](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs#1)]
      [!code-vb[VbExpressTutorial1Step9_10#1](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb#1)]  
@@ -58,7 +58,7 @@ You next add a comment to your code. A comment is a note that doesn't change the
     >   
     >  To activate a snippet when typing code, type it and choose the TAB key. Many snippets appear in the **IntelliSense** window, which is why you choose the TAB key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)  
   
-2.  Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.  
+2. Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.  
   
      ![Save All toolbar button](../ide/media/express-iconsaveall.png "Express_IconSaveAll")  
 Save All button  
@@ -72,14 +72,14 @@ Picture Viewer
   
 ### To test your program  
   
-1.  Choose the F5 key or choose the **Start Debugging** toolbar button.  
+1. Choose the F5 key or choose the **Start Debugging** toolbar button.  
   
-2.  Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your **My Documents** folder, inside the **My Pictures\Sample Pictures** folder.  
+2. Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your **My Documents** folder, inside the **My Pictures\Sample Pictures** folder.  
   
     > [!NOTE]
     >  If you don't see any images in the **Select a picture file** dialog box, be sure that the "All files (*.\*)" filter is selected in the drop-down list on the lower right side of the dialog box.  
   
-3.  Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the TableLayoutPanel and FlowLayoutPanel containers: They keep your form sized correctly when the user resizes it.  
+3. Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the TableLayoutPanel and FlowLayoutPanel containers: They keep your form sized correctly when the user resizes it.  
   
      Right now, larger pictures go beyond the borders of your picture viewer. In the next step, you'll add code to make pictures fit in the window.  
   

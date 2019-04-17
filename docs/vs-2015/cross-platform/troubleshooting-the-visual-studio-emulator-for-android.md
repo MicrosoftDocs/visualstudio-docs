@@ -77,13 +77,13 @@ This topic contains information to help you resolve issues that you may experien
 
 #### To view the emulator’s MAC addresses
 
-1.  Launch the emulator.
+1. Launch the emulator.
 
-2.  On the emulator toolbar, click the chevron button (>>) to open the Additional Tools window.
+2. On the emulator toolbar, click the chevron button (>>) to open the Additional Tools window.
 
-3.  In the Additional Tools window, click the Network tab.
+3. In the Additional Tools window, click the Network tab.
 
-4.  On the Network page, locate the Physical address entries.
+4. On the Network page, locate the Physical address entries.
 
 ##  <a name="ManualNetworkConfig"></a> Cannot connect to network destinations when network settings require manual configuration
  To connect to network destinations from the emulator, your network must meet the following requirements:
@@ -264,28 +264,28 @@ This topic contains information to help you resolve issues that you may experien
 ##  <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port
  You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn’t set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
 
-1.  Uninstall Xamarin Player.
+1. Uninstall Xamarin Player.
 
-2.  Verify that virtual box has been removed (Xamarin Player runs on top of virtual box).
+2. Verify that virtual box has been removed (Xamarin Player runs on top of virtual box).
 
-3.  Go to device manager, select the option to show hidden devices, and then delete everything except the physical network cards.
+3. Go to device manager, select the option to show hidden devices, and then delete everything except the physical network cards.
 
-4.  You can try uninstalling/reinstalling Hyper-V after removing any non-physical network adapters.
+4. You can try uninstalling/reinstalling Hyper-V after removing any non-physical network adapters.
 
 ##  <a name="Skylake"></a> Cannot attach debugger to a Xamarin project
  If you are running Windows 10 with Intel Skylake processors,  Xamarin apps might fail to run in the emulator or the Visual Studio debugger might not attach to them. This is due to an issue with Hyper-V and Skylake processors. Take the following steps as a workaround.
 
-1.  Open Hyper-V Manager and select the VM for the emulator profile that your are using.
+1. Open Hyper-V Manager and select the VM for the emulator profile that your are using.
 
-2.  Select **Delete Saved State** (lower right).
+2. Select **Delete Saved State** (lower right).
 
-3.  Choose **Settings...**
+3. Choose **Settings...**
 
-4.  Expand the processor node and choose **Compatibility**.
+4. Expand the processor node and choose **Compatibility**.
 
-5.  Enable **Migrate to a physical computer with a different processor version**.
+5. Enable **Migrate to a physical computer with a different processor version**.
 
-6.  Restart the service (under **Actions**) and try again.
+6. Restart the service (under **Actions**) and try again.
 
 ##  <a name="GooglePlay"></a> Emulator fails to run app that uses Google Play Services
  The emulator does not ship with the libraries for Google Play Services. However, the emulator does support drag-and-drop installation of flashable zip files.

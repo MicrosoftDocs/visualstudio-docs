@@ -91,9 +91,9 @@ You can write code to verify that each column you want to validate contains data
 
 ### To validate data when a row changes (Visual Basic)
 
-1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  Double-click the title bar of the table you want to validate. This action automatically creates the <xref:System.Data.DataTable.RowChanging> event handler of the <xref:System.Data.DataTable> in the dataset's partial-class file.
+2. Double-click the title bar of the table you want to validate. This action automatically creates the <xref:System.Data.DataTable.RowChanging> event handler of the <xref:System.Data.DataTable> in the dataset's partial-class file.
 
     > [!TIP]
     >  Double-click to the left of the table name to create the row-changing event handler. If you double-click the table name, you can edit it.
@@ -102,14 +102,14 @@ You can write code to verify that each column you want to validate contains data
 
 ### To validate data when a row changes (C#)
 
-1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  Double-click the title bar of the table you want to validate. This action creates a partial-class file for the <xref:System.Data.DataTable>.
+2. Double-click the title bar of the table you want to validate. This action creates a partial-class file for the <xref:System.Data.DataTable>.
 
     > [!NOTE]
     >  The **Dataset Designer** does not automatically create an event handler for the <xref:System.Data.DataTable.RowChanging> event. You have to create a method to handle the <xref:System.Data.DataTable.RowChanging> event, and run code to hook up the event in the table's initialization method.
 
-3.  Copy the following code into the partial class:
+3. Copy the following code into the partial class:
 
     ```csharp
     public override void EndInit()

@@ -23,11 +23,11 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 
 ### Change the Color Theme of the IDE
 
-1.  On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, choose **Tools**, **Options**.
 
-2.  In the options list, choose **Environment**, **General**.
+2. In the options list, choose **Environment**, **General**.
 
-3.  In the **Color theme** list, choose either the default **Blue** theme, **Dark** or **Light**.
+3. In the **Color theme** list, choose either the default **Blue** theme, **Dark** or **Light**.
 
     > [!IMPORTANT]
     >  When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes.
@@ -46,18 +46,18 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 
 #### To change the font and size of all text in the IDE
 
-1.  On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, choose **Tools**, **Options**.
 
-2.  In the options list, choose **Environment**, **Fonts and Colors**.
+2. In the options list, choose **Environment**, **Fonts and Colors**.
 
-3.  In the **Show settings for** list, choose **Environment Font**.
+3. In the **Show settings for** list, choose **Environment Font**.
 
     > [!TIP]
     >  If you want to change the font for tool windows only, in the **Show settings for** list, choose **[All Text Tool Windows]**.
 
-4.  In the **Font** list, choose a font.
+4. In the **Font** list, choose a font.
 
-5.  In the **Size** list, choose a text size, and then choose the **OK** button.
+5. In the **Size** list, choose a text size, and then choose the **OK** button.
 
 ## See Also
  [Accessibility Features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)

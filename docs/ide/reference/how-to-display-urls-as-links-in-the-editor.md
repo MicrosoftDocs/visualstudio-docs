@@ -25,17 +25,17 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 ## Display URLs as links
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  Click **Text Editor**.
+2. Click **Text Editor**.
 
-3.  To change the option for only one language, expand the folder for that language and choose **General**.
+3. To change the option for only one language, expand the folder for that language and choose **General**.
 
      —or—
 
      To change the option for all languages, expand the **All Languages** folder and choose **General**.
 
-4.  Under **Display**, select **Enable single-click URL navigation**.
+4. Under **Display**, select **Enable single-click URL navigation**.
 
 ## See also
 

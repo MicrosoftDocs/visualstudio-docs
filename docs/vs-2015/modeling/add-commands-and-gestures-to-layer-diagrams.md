@@ -56,12 +56,12 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 #### To add layer extensions to a separate VSIX  
   
-1.  Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain command or gesture handler classes.  
+1. Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain command or gesture handler classes.  
   
     > [!NOTE]
     >  You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.  
   
-2.  Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:  
+2. Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:  
   
     1.  In the **New Project** dialog box, expand **Visual C#**, then click **Extensibility**, and then click **VSIX Project**.  
   
@@ -69,7 +69,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
     3.  Click **Select Editions** and make sure that **Visual Studio** is checked.  
   
-3.  In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.  
+3. In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.  
   
     1.  In the **Assets**.tab, choose **New**.  
   
@@ -79,7 +79,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
     4.  Save the file.  
   
-4.  Return to the command or gesture handler project, and add the following project references.  
+4. Return to the command or gesture handler project, and add the following project references.  
   
 |**Reference**|**What this allows you to do**|  
 |-------------------|------------------------------------|  
@@ -90,7 +90,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
 |Microsoft.VisualStudio.Modeling.Sdk.[version]|Define modeling extensions|  
 |Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]|Update shapes and diagrams|  
   
-1.  Edit the class file in the C# class library project to contain the code for your extension. For more information, see one of the following sections:  
+1. Edit the class file in the C# class library project to contain the code for your extension. For more information, see one of the following sections:  
   
      [Defining a Menu Command](#command)  
   
@@ -98,9 +98,9 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
      See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
-2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens. In this instance, create or open a layer diagram.  
+2. To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens. In this instance, create or open a layer diagram.  
   
-3.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
+3. To install the VSIX in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
   
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   

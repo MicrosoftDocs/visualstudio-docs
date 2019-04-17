@@ -67,35 +67,35 @@ To make sure that code doesn't conflict with its design, validate your code with
 ##  <a name="SupportsValidation"></a> See if an item supports validation  
  You can link layers to Web sites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.  
   
-1.  On the layer diagram, select one or more layers, right-click your selection, and then click **View Links**.  
+1. On the layer diagram, select one or more layers, right-click your selection, and then click **View Links**.  
   
-2.  In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.  
+2. In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.  
   
 ##  <a name="IncludeReferences"></a> Include other .NET assemblies and projects for validation  
  When you drag items to the layer diagram, references to the corresponding .NET assemblies or projects are added automatically to the **Layer References** folder in the modeling project. This folder contains references to the assemblies and projects that are analyzed during validation. You can include other .NET assemblies and projects for validation without manually dragging them to the layer diagram.  
   
-1.  In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.  
+1. In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.  
   
-2.  In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.  
+2. In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.  
   
 ##  <a name="ValidateManually"></a> Validate code manually  
  If you have an open layer diagram that is linked to solution items, you can run the **Validate** shortcut command from the diagram. You can also use the command prompt to run the **msbuild** command with the **/p:ValidateArchitecture** custom property set to **True**. For example, as you make changes in the code, perform layer validation regularly so that you can catch dependency conflicts early.  
   
 #### To validate code from an open layer diagram  
   
-1.  Right-click the diagram surface, and then click **Validate Architecture**.  
+1. Right-click the diagram surface, and then click **Validate Architecture**.  
   
     > [!NOTE]
     >  By default, the **Build Action** property on the layer diagram (.layerdiagram) file is set to **Validate** so that the diagram is included in the validation process.  
   
      The **Error List** window reports any errors that occur. For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
-2.  To view the source of each error, double-click the error in the **Error List** window.  
+2. To view the source of each error, double-click the error in the **Error List** window.  
   
     > [!NOTE]
     >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the layer diagram, or the code is missing a dependency that is specified by the layer diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
-3.  To manage errors, see [Manage validation errors](#ManageErrors).  
+3. To manage errors, see [Manage validation errors](#ManageErrors).  
   
 #### To validate code at the command prompt  
   

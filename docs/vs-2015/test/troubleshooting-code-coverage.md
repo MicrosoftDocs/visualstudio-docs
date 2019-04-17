@@ -39,9 +39,9 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
 ### You’re looking at a previous result  
  When you modify and re-run your tests, a previous code coverage result can still be visible, including the code coloring from that old run.  
   
-1.  Run Analyze Code Coverage.  
+1. Run Analyze Code Coverage.  
   
-2.  Make sure that you have selected the most recent result set in the Code Coverage results window.  
+2. Make sure that you have selected the most recent result set in the Code Coverage results window.  
   
 ### .pdb (symbol) files are unavailable  
  Analysis  

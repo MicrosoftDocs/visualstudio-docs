@@ -62,20 +62,20 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create the n-tier solution and DataEntityTier class library  
   
-1.  From the **File** menu, create a new project.  
+1. From the **File** menu, create a new project.  
   
     > [!NOTE]
     >  The **Dataset Designer** is supported in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] and C# projects. Create the new project in one of these languages.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **Windows**.  
+2. In the **New Project** dialog box, in the **Project types** pane, click **Windows**.  
   
-3.  Click the **Class Library** template.  
+3. Click the **Class Library** template.  
   
-4.  Name the project **DataEntityTier**.  
+4. Name the project **DataEntityTier**.  
   
-5.  Name the solution **NTierWalkthrough**.  
+5. Name the solution **NTierWalkthrough**.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
      An NTierWalkthrough solution that contains the DataEntityTier project is created and added to **Solution Explorer**.  
   
@@ -84,11 +84,11 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create the new class library for the TableAdapters  
   
-1.  From the **File** menu, add a new project to the NTierWalkthrough solution.  
+1. From the **File** menu, add a new project to the NTierWalkthrough solution.  
   
-2.  In the **New Project** dialog box, in the **Templates** pane, click **Class Library**.  
+2. In the **New Project** dialog box, in the **Templates** pane, click **Class Library**.  
   
-3.  Name the project **DataAccessTier** and click **OK**.  
+3. Name the project **DataAccessTier** and click **OK**.  
   
      The DataAccessTier project is created and added to the NTierWalkthrough solution.  
   
@@ -100,15 +100,15 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create the dataset  
   
-1.  Click DataAccessTier in **Solution Explorer**.  
+1. Click DataAccessTier in **Solution Explorer**.  
   
-2.  On the **Data** menu, click **Show Data Sources**.  
+2. On the **Data** menu, click **Show Data Sources**.  
   
-3.  In the **Data Sources** window, click **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+3. In the **Data Sources** window, click **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-4.  On the **Choose a Data Source Type** page, click **Database** and then click **Next**.  
+4. On the **Choose a Data Source Type** page, click **Database** and then click **Next**.  
   
-5.  On the **Choose Your Data Connection** page, perform one of the following actions:  
+5. On the **Choose Your Data Connection** page, perform one of the following actions:  
   
      If a data connection to the Northwind sample database is available in the drop-down list, click it.  
   
@@ -116,14 +116,14 @@ N-tier* data applications are applications that access data and are separated in
   
      Click **New Connection** to open the **Add Connection** dialog box.  
   
-6.  If the database requires a password, select the option to include sensitive data, and then click **Next**.  
+6. If the database requires a password, select the option to include sensitive data, and then click **Next**.  
   
     > [!NOTE]
     >  If you selected a local database file (instead of connecting to SQL Server) you might be asked if you want to add the file to the project. Click **Yes** to add the database file to the project.  
   
-7.  Click **Next** on the **Save the Connection String to the Application Configuration File** page.  
+7. Click **Next** on the **Save the Connection String to the Application Configuration File** page.  
   
-8.  Expand the **Tables** node on the **Choose Your Database Objects** page.  
+8. Expand the **Tables** node on the **Choose Your Database Objects** page.  
   
 9. Click the check boxes for the **Customers** and **Orders** tables, and then click **Finish**.  
   
@@ -154,11 +154,11 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create a new WCF Service application  
   
-1.  From the **File** menu, add a new project to the NTierWalkthrough solution.  
+1. From the **File** menu, add a new project to the NTierWalkthrough solution.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **WCF**. In the **Templates** pane, click **WCF Service Library**.  
+2. In the **New Project** dialog box, in the **Project types** pane, click **WCF**. In the **Templates** pane, click **WCF Service Library**.  
   
-3.  Name the project **DataService** and click **OK**.  
+3. Name the project **DataService** and click **OK**.  
   
      The DataService project is created and added to the NTierWalkthrough solution.  
   
@@ -167,48 +167,48 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create a method in the data access tier that returns the Customers table  
   
-1.  In **Solution Explorer**, double-click NorthwindDataset.xsd to open the dataset in the Dataset Designer.  
+1. In **Solution Explorer**, double-click NorthwindDataset.xsd to open the dataset in the Dataset Designer.  
   
-2.  Right-click CustomersTableAdapter and click **Add Query** to edit the Tableadapter.  
+2. Right-click CustomersTableAdapter and click **Add Query** to edit the Tableadapter.  
   
-3.  On the **Choose a Command Type** page, leave the default value of **Use SQL statements** and click **Next**.  
+3. On the **Choose a Command Type** page, leave the default value of **Use SQL statements** and click **Next**.  
   
-4.  On the **Choose a Query Type** page, leave the default value of **SELECT which returns rows** and click **Next**.  
+4. On the **Choose a Query Type** page, leave the default value of **SELECT which returns rows** and click **Next**.  
   
-5.  On the **Specify a SQL SELECT statement** page, leave the default query and click **Next**.  
+5. On the **Specify a SQL SELECT statement** page, leave the default query and click **Next**.  
   
-6.  On the **Choose Methods to Generate** page, type **GetCustomers** for the **Method name** in the **Return a DataTable** section.  
+6. On the **Choose Methods to Generate** page, type **GetCustomers** for the **Method name** in the **Return a DataTable** section.  
   
-7.  Click **Finish**.  
+7. Click **Finish**.  
   
 #### To create a method in the data access tier that returns the Orders table  
   
-1.  Right-click OrdersTableAdapter and click **Add Query**.  
+1. Right-click OrdersTableAdapter and click **Add Query**.  
   
-2.  On the **Choose a Command Type** page, leave the default value of **Use SQL statements** and click **Next**.  
+2. On the **Choose a Command Type** page, leave the default value of **Use SQL statements** and click **Next**.  
   
-3.  On the **Choose a Query Type** page, leave the default value of **SELECT which returns rows** and click **Next**.  
+3. On the **Choose a Query Type** page, leave the default value of **SELECT which returns rows** and click **Next**.  
   
-4.  On the **Specify a SQL SELECT statement** page, leave the default query and click **Next**.  
+4. On the **Specify a SQL SELECT statement** page, leave the default query and click **Next**.  
   
-5.  On the **Choose Methods to Generate** page, type **GetOrders** for the **Method name** in the **Return a DataTable** section.  
+5. On the **Choose Methods to Generate** page, type **GetOrders** for the **Method name** in the **Return a DataTable** section.  
   
-6.  Click **Finish**.  
+6. Click **Finish**.  
   
-7.  On the **Build** menu, click **Build Solution**.  
+7. On the **Build** menu, click **Build Solution**.  
   
 ## Adding a Reference to the Data Entity and Data Access Tiers to the Data Service  
  Because the data service requires information from the dataset and TableAdapters, add references to the DataEntityTier and DataAccessTier projects.  
   
 #### To add references to the data service  
   
-1.  Right-click DataService in **Solution Explorer** and click **Add Reference**.  
+1. Right-click DataService in **Solution Explorer** and click **Add Reference**.  
   
-2.  Click the **Projects** tab in the **Add Reference** dialog box.  
+2. Click the **Projects** tab in the **Add Reference** dialog box.  
   
-3.  Select both the **DataAccessTier** and **DataEntityTier** projects.  
+3. Select both the **DataAccessTier** and **DataEntityTier** projects.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ## Adding Functions to the Service to Call the GetCustomers and GetOrders Methods in the Data Access Tier  
  Now that the data access tier contains the methods to return data, create methods in the data service to call the methods in the data access tier.  
@@ -218,9 +218,9 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To create the GetCustomers and GetOrders functions in the data service  
   
-1.  In the **DataService** project, double-click IService1.vb or IService1.cs.  
+1. In the **DataService** project, double-click IService1.vb or IService1.cs.  
   
-2.  Add the following code under the **Add your service operations here** comment:  
+2. Add the following code under the **Add your service operations here** comment:  
   
     ```vb  
     <OperationContract()> _  
@@ -239,9 +239,9 @@ N-tier* data applications are applications that access data and are separated in
   
     ```  
   
-3.  In the DataService project, double-click Service1.vb (or Service1.cs).  
+3. In the DataService project, double-click Service1.vb (or Service1.cs).  
   
-4.  Add the following code to the Service1 class:  
+4. Add the following code to the Service1 class:  
   
     ```vb  
     Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers  
@@ -274,20 +274,20 @@ N-tier* data applications are applications that access data and are separated in
     }  
     ```  
   
-5.  On the **Build** menu, click **Build Solution**.  
+5. On the **Build** menu, click **Build Solution**.  
   
 ## Creating a Presentation Tier to Display Data from the Data Service  
  Now that the solution contains the data service that has methods that call into the data access tier, create another project that will call into the data service and present the data to users. For this walkthrough, create a Windows Forms application; this is the presentation tier of the n-tier application.  
   
 #### To create the presentation tier project  
   
-1.  From the **File** menu, add a new project to the NTierWalkthrough solution.  
+1. From the **File** menu, add a new project to the NTierWalkthrough solution.  
   
-2.  In the **New Project** dialog box, in the **Project types** pane, click **Windows**. In the **Templates** pane, click **Windows Forms Application**.  
+2. In the **New Project** dialog box, in the **Project types** pane, click **Windows**. In the **Templates** pane, click **Windows Forms Application**.  
   
-3.  Name the project **PresentationTier** and click **OK**.  
+3. Name the project **PresentationTier** and click **OK**.  
   
-4.  The PresentationTier project is created and added to the NTierWalkthrough solution.  
+4. The PresentationTier project is created and added to the NTierWalkthrough solution.  
   
 ## Setting the PresentationTier Project as the Startup Project  
  Because the presentation tier is the actual client application that is used to present and interact with the data, you must set the PresentationTier project to be the Startup project.  
@@ -301,19 +301,19 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To add a reference to the presentation tier  
   
-1.  In **Solution Explorer**, right-click PresentationTier and click **Add Reference**.  
+1. In **Solution Explorer**, right-click PresentationTier and click **Add Reference**.  
   
-2.  In the **Add Reference** dialog box, click the **Projects** tab.  
+2. In the **Add Reference** dialog box, click the **Projects** tab.  
   
-3.  Select **DataEntityTier** and click **OK**.  
+3. Select **DataEntityTier** and click **OK**.  
   
 #### To add a service reference to the presentation tier  
   
-1.  In **Solution Explorer**, right-click PresentationTier and click **Add Service Reference**.  
+1. In **Solution Explorer**, right-click PresentationTier and click **Add Service Reference**.  
   
-2.  In the **Add Service Reference** dialog box, click **Discover**.  
+2. In the **Add Service Reference** dialog box, click **Discover**.  
   
-3.  Select **Service1** and click **OK**.  
+3. Select **Service1** and click **OK**.  
   
     > [!NOTE]
     >  If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the GetCustomers and GetOrders methods).  
@@ -323,19 +323,19 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To add two data bound DataGridViews to the form  
   
-1.  In **Solution Explorer**, select the PresentationTier project.  
+1. In **Solution Explorer**, select the PresentationTier project.  
   
-2.  In the **Data Sources** window, expand **NorthwindDataSet** and locate the **Customers** node.  
+2. In the **Data Sources** window, expand **NorthwindDataSet** and locate the **Customers** node.  
   
-3.  Drag the **Customers** node onto Form1.  
+3. Drag the **Customers** node onto Form1.  
   
-4.  In the **Data Sources** window, expand the **Customers** node and locate the related **Orders** node (the **Orders** node nested in the **Customers** node).  
+4. In the **Data Sources** window, expand the **Customers** node and locate the related **Orders** node (the **Orders** node nested in the **Customers** node).  
   
-5.  Drag the related **Orders** node onto Form1.  
+5. Drag the related **Orders** node onto Form1.  
   
-6.  Create a `Form1_Load` event handler by double-clicking an empty area of the form.  
+6. Create a `Form1_Load` event handler by double-clicking an empty area of the form.  
   
-7.  Add the following code to the `Form1_Load` event handler.  
+7. Add the following code to the `Form1_Load` event handler.  
   
     ```vb  
     Dim DataSvc As New ServiceReference1.Service1Client  
@@ -359,18 +359,18 @@ N-tier* data applications are applications that access data and are separated in
   
 #### To increase the maxReceivedMessageSize value  
   
-1.  In **Solution Explorer**, double-click the app.config file in the PresentationTier project.  
+1. In **Solution Explorer**, double-click the app.config file in the PresentationTier project.  
   
-2.  Locate the **maxReceivedMessage** size attribute and change the value to `6553600`.  
+2. Locate the **maxReceivedMessage** size attribute and change the value to `6553600`.  
   
 ## Testing the Application  
  Run the application. The data is retrieved from the data service and displayed on the form.  
   
 #### To test the application  
   
-1.  Press F5.  
+1. Press F5.  
   
-2.  The data from the Customers and Orders tables is retrieved from the data service and displayed on the form.  
+2. The data from the Customers and Orders tables is retrieved from the data service and displayed on the form.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  

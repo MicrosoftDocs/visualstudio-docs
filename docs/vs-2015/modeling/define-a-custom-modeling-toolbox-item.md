@@ -32,13 +32,13 @@ To make it easy to create an element or group of elements according to a pattern
   
 #### To define a custom modeling tool  
   
-1.  Create a UML diagram that contains an element or group of elements.  
+1. Create a UML diagram that contains an element or group of elements.  
   
     -   These elements can have relationships between them, and can have subsidiary elements such as ports, attributes, operations or pins.  
   
-2.  Save the diagram using the name that you want to give the new tool. On the **File** menu, use **Save…As**.  
+2. Save the diagram using the name that you want to give the new tool. On the **File** menu, use **Save…As**.  
   
-3.  Using Windows Explorer, copy the two diagram files to the following folder or any subfolder:  
+3. Using Windows Explorer, copy the two diagram files to the following folder or any subfolder:  
   
      *YourDocuments* **\Visual Studio\Architecture Tools\Custom Toolbox Items**  
   
@@ -48,11 +48,11 @@ To make it easy to create an element or group of elements according to a pattern
   
     -   You can make as many custom tools as you like. Use one diagram for each tool.  
   
-4.  (Optional) Create a **.tbxinfo** file as described in [How to Define the Properties of Custom Tools](#tbxinfo), and add it to the same directory. This allows you to define a toolbox icon, tooltip, and so on.  
+4. (Optional) Create a **.tbxinfo** file as described in [How to Define the Properties of Custom Tools](#tbxinfo), and add it to the same directory. This allows you to define a toolbox icon, tooltip, and so on.  
   
     -   A single **.tbxinfo** file can be used to define several tools. It can refer to diagram files that are in subfolders.  
   
-5.  Restart Visual Studio. The additional tool will appear in the toolbox for the appropriate type of diagram.  
+5. Restart Visual Studio. The additional tool will appear in the toolbox for the appropriate type of diagram.  
   
 ### What the Custom Tool will Replicate  
  A custom tool will replicate most of the features of the source diagram:  
@@ -139,11 +139,11 @@ To make it easy to create an element or group of elements according to a pattern
   
 #### To add a Toolbox Item to a Visual Studio extension  
   
-1.  [Create and test one or more custom tools](#DefineTool).  
+1. [Create and test one or more custom tools](#DefineTool).  
   
-2.  [Create a .tbxinfo file](#tbxinfo) that references the tools.  
+2. [Create a .tbxinfo file](#tbxinfo) that references the tools.  
   
-3.  Open an existing Visual Studio extension project.  
+3. Open an existing Visual Studio extension project.  
   
      \- or -  
   
@@ -153,14 +153,14 @@ To make it easy to create an element or group of elements according to a pattern
   
     2.  In the **New Project** dialog box, under **Installed Templates**, choose **Visual C#**, **Extensibility**, **VSIX project**.  
   
-4.  Add your toolbox definitions to the project. Include the **.tbxinfo** file, the diagram files, bitmap files, and any resource files, and make sure that they are included in the VSIX.  
+4. Add your toolbox definitions to the project. Include the **.tbxinfo** file, the diagram files, bitmap files, and any resource files, and make sure that they are included in the VSIX.  
   
     -   In Solution Explorer, on the shortcut menu of the VSIX project, choose **Add**, **Existing Item**. In the dialog box, set **Objects of Type: All Files**. Locate the files, select them all, and then choose **Add**.  
   
         > [!NOTE]
         >  In this project, you cannot open the diagram files in the model editor.  
   
-5.  Set the following properties of all the files that you have just added. You can set their properties at the same time by selecting them all in Solution Explorer. Be careful not to change the properties of the other files in the project.  
+5. Set the following properties of all the files that you have just added. You can set their properties at the same time by selecting them all in Solution Explorer. Be careful not to change the properties of the other files in the project.  
   
      **Copy to Output Directory** = **Copy Always**  
   
@@ -168,9 +168,9 @@ To make it easy to create an element or group of elements according to a pattern
   
      **Include in VSIX** = **true**  
   
-6.  Open **source.extension.vsixmanifest**. It opens in the extension manifest editor.  
+6. Open **source.extension.vsixmanifest**. It opens in the extension manifest editor.  
   
-7.  Under **Metadata**, add a description for the custom tools.  
+7. Under **Metadata**, add a description for the custom tools.  
   
      Under **Assets**, choose **New** and then set the fields in the dialog as follows:  
   
@@ -185,7 +185,7 @@ To make it easy to create an element or group of elements according to a pattern
   
     -   **Path** = your **.tbxinfo** file, for example **MyTools.tbxinfo**  
   
-8.  Build the project.  
+8. Build the project.  
   
 9. **To verify that the extension works**, press F5. The experimental instance of Visual Studio starts.  
   
@@ -195,11 +195,11 @@ To make it easy to create an element or group of elements according to a pattern
   
 #### To install custom tools from a Visual Studio Extension  
   
-1.  Open the `.vsix` file in Windows Explorer or in Visual Studio.  
+1. Open the `.vsix` file in Windows Explorer or in Visual Studio.  
   
-2.  Choose **Install** in the dialog box that appears.  
+2. Choose **Install** in the dialog box that appears.  
   
-3.  To uninstall or temporarily disable the extension, open **Extensions and Updates** from the **Tools** menu.  
+3. To uninstall or temporarily disable the extension, open **Extensions and Updates** from the **Tools** menu.  
   
 ## Localization  
  You can make an extension that, when it is installed on another computer, will display tool names and tooltips in the language of the target computer.  

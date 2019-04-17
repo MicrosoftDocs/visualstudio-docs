@@ -39,31 +39,31 @@ ms.workload:
 
 ### To add a NamedRange control to a worksheet using the Name Box in Excel
 
-1.  Select the cell or cells you want to include in the named range.
+1. Select the cell or cells you want to include in the named range.
 
-2.  In the **Name Box**, type a name for the range and press **Enter**.
+2. In the **Name Box**, type a name for the range and press **Enter**.
 
      The **Name Box** is located beside the formula bar, just above column **A** of the worksheet.
 
 ### To add a NamedRange control to a worksheet using the Toolbox
 
-1.  Open the **Toolbox** and click the **Excel Controls** tab.
+1. Open the **Toolbox** and click the **Excel Controls** tab.
 
-2.  Click <xref:Microsoft.Office.Tools.Excel.NamedRange> and drag it to a worksheet.
+2. Click <xref:Microsoft.Office.Tools.Excel.NamedRange> and drag it to a worksheet.
 
      The **Add Named Range** dialog box appears.
 
-3.  Select the cell or cells you want to include in the named range.
+3. Select the cell or cells you want to include in the named range.
 
-4.  Click **OK**.
+4. Click **OK**.
 
      If you do not want the default name that is given to the control, you can change the name in the **Properties** window.
 
 ### To add a NamedRange control to a worksheet using the Data Sources window
 
-1.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+1. Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-2.  Drag a single field from the **Data Sources** window to your worksheet.
+2. Drag a single field from the **Data Sources** window to your worksheet.
 
      A data-bound <xref:Microsoft.Office.Tools.Excel.NamedRange> control is added to the worksheet. For more information, see [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
@@ -72,7 +72,7 @@ ms.workload:
 
 ### To add a NamedRange control to a worksheet programmatically
 
-1.  In the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler of `Sheet1`, insert the following code to add the <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **A1** and set its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property to `Hello world!`
+1. In the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler of `Sheet1`, insert the following code to add the <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **A1** and set its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property to `Hello world!`
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#3)]
      [!code-vb[Trin_VstcoreHostControlsExcel#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#3)]
@@ -82,7 +82,7 @@ ms.workload:
 
 ### To add a NamedRange control to a worksheet programmatically
 
-1.  The following code generates a worksheet host item that is based on the open worksheet, and then adds a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **A1** and sets its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property to `Hello world`.
+1. The following code generates a worksheet host item that is based on the open worksheet, and then adds a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **A1** and sets its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property to `Hello world`.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#7](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#7)]
      [!code-vb[Trin_Excel_Dynamic_Controls#7](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#7)]

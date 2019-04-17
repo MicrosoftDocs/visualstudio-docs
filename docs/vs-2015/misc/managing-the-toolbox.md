@@ -21,9 +21,9 @@ The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] allows a VSPackage, such as a
   
  This support is limited to editors and designers requiring:  
   
-1.  The implementation of a factory object to provide instances of the editor or designer. For more information on implementing a designer or editor factory object, see [Editor Factories](../extensibility/editor-factories.md).  
+1. The implementation of a factory object to provide instances of the editor or designer. For more information on implementing a designer or editor factory object, see [Editor Factories](../extensibility/editor-factories.md).  
   
-2.  Registration of the toolbox tab that automatically is activated if the editor or designer is present.  
+2. Registration of the toolbox tab that automatically is activated if the editor or designer is present.  
   
 ## Controlling the Toolbox  
  Supplementing automation support, the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] provides the following interfaces to provide VSPackages greater control over how the **Toolbox** is managed.  

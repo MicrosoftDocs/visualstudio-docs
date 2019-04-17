@@ -171,9 +171,9 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
 #### To generate a new PIN  
   
-1.  Stop the agent, or open a second Terminal app window on your Mac and use that to enter the command.  
+1. Stop the agent, or open a second Terminal app window on your Mac and use that to enter the command.  
   
-2.  Enter this command in the Terminal app:  
+2. Enter this command in the Terminal app:  
   
      `vcremote generateClientCert`  
   
@@ -184,21 +184,21 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
 #### To generate a new server certificate  
   
-1.  Stop the vcremote agent.  
+1. Stop the vcremote agent.  
   
-2.  Enter this command in the Terminal app:  
+2. Enter this command in the Terminal app:  
   
      `vcremote resetServerCert`  
   
-3.  When prompted for confirmation, enter `Y`.  
+3. When prompted for confirmation, enter `Y`.  
   
-4.  Enter this command in the Terminal app:  
+4. Enter this command in the Terminal app:  
   
      `vcremote generateClientCert`  
   
      This generates a new temporary PIN.  
   
-5.  To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).  
+5. To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).  
   
 ##  <a name="ConfigureMac"></a> Configure the remote agent on the Mac  
  You can configure the remote agent using various command line options. For example, you can specify the port to listen for build requests and specify the maximum number of builds to maintain on the file system. By default, the limit is 10 builds. The remote agent will remove builds that exceed the maximum on shutdown.  

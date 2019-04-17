@@ -22,11 +22,11 @@ ms.workload:
 
 ### To add a property to a SharePoint project
 
-1.  Define a class with a public property that represents the property you are adding to SharePoint projects. If you want to add multiple properties, you can define all the properties in the same class or in different classes.
+1. Define a class with a public property that represents the property you are adding to SharePoint projects. If you want to add multiple properties, you can define all the properties in the same class or in different classes.
 
-2.  In the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method of your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> implementation, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> event of the *projectService* parameter.
+2. In the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension.Initialize%2A> method of your <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectExtension> implementation, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> event of the *projectService* parameter.
 
-3.  In the event handler for the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> event, add an instance of your properties class to the <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectPropertiesRequestedEventArgs.PropertySources%2A> collection of the event arguments parameter.
+3. In the event handler for the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> event, add an instance of your properties class to the <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectPropertiesRequestedEventArgs.PropertySources%2A> collection of the event arguments parameter.
 
 ## Example
  The following code example demonstrates how to add two properties to SharePoint projects. One property persists its data in the project user option file (the *.csproj.user* file or *.vbproj.user* file). The other property persists its data in the project file (*.csproj* file or *.vbproj* file).

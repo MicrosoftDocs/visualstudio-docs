@@ -19,8 +19,8 @@ The steps to activate your benefit depend on the edition you choose.
 ### Digital edition
 The Digital Edition is available to Visual Studio Dev Essentials members.
 
-1.  To access the Digital Edition of MSDN Magazine, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
-2.  Locate the MSDN Magazine tile in the Professional Development section, and click **Access**.
+1. To access the Digital Edition of MSDN Magazine, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+2. Locate the MSDN Magazine tile in the Professional Development section, and click **Access**.
 
 ### Printed edition
 1. To begin receiving your MSDN Magazine subscription, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)

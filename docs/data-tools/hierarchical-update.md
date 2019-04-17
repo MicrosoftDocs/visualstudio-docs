@@ -81,9 +81,9 @@ The generated save code also contains a line of code that calls the `CustomersBi
 
 ### To update the code to commit changes to the related tables before saving
 
-1.  Double-click the **Save** button on the <xref:System.Windows.Forms.BindingNavigator> to open **Form1** in the Code Editor.
+1. Double-click the **Save** button on the <xref:System.Windows.Forms.BindingNavigator> to open **Form1** in the Code Editor.
 
-2.  Add a line of code to call the `OrdersBindingSource.EndEdit` method after the line that calls the `CustomersBindingSource.EndEdit` method. The code in the **Save** button click event should resemble the following:
+2. Add a line of code to call the `OrdersBindingSource.EndEdit` method after the line that calls the `CustomersBindingSource.EndEdit` method. The code in the **Save** button click event should resemble the following:
 
      [!code-vb[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/VisualBasic/hierarchical-update_1.vb)]
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/CSharp/hierarchical-update_1.cs)]
@@ -95,11 +95,11 @@ In addition to committing changes on a related child table before saving data to
 
 ### To add code to commit parent records in the dataset before adding new child records
 
-1.  Create an event handler for the `OrdersBindingSource.AddingNew` event.
+1. Create an event handler for the `OrdersBindingSource.AddingNew` event.
 
     -   Open **Form1** in design view, select **OrdersBindingSource** in the component tray, select **Events** in the **Properties** window, and then double-click the **AddingNew** event.
 
-2.  Add a line of code to the event handler that calls the `CustomersBindingSource.EndEdit` method. The code in the `OrdersBindingSource_AddingNew` event handler should resemble the following:
+2. Add a line of code to the event handler that calls the `CustomersBindingSource.EndEdit` method. The code in the `OrdersBindingSource_AddingNew` event handler should resemble the following:
 
      [!code-vb[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/VisualBasic/hierarchical-update_2.vb)]
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/CSharp/hierarchical-update_2.cs)]

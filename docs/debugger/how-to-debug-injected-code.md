@@ -46,19 +46,19 @@ The **Disassembly** window shows assembly-language instructions that correspond 
 
 ## To view injected code
 
-1.  The debugger must be in break mode.
+1. The debugger must be in break mode.
 
-2.  In a source code window, place the cursor in front of the attribute whose injected code you want to view.
+2. In a source code window, place the cursor in front of the attribute whose injected code you want to view.
 
-3.  Right-click, and select **Go To Disassembly** from the shortcut menu.
+3. Right-click, and select **Go To Disassembly** from the shortcut menu.
 
      If the attribute location is near the current execution point, you can select the **Disassembly** window from the **Debug** menu.
 
 ## To view the disassembly code at the current execution point
 
-1.  The debugger must be in break mode.
+1. The debugger must be in break mode.
 
-2.  From the **Debug** menu, choose **Windows**, and click **Disassembly**.
+2. From the **Debug** menu, choose **Windows**, and click **Disassembly**.
 
 ## See also
 

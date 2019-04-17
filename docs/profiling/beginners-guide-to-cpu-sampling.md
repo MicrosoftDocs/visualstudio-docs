@@ -38,22 +38,22 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
 #### To create and run a performance session
 
-1.  Open the solution in Visual Studio. Set the configuration to Release. (Find the **Solution Configurations** box on the toolbar, which is set to **Debug** by default. Change it to **Release**.)
+1. Open the solution in Visual Studio. Set the configuration to Release. (Find the **Solution Configurations** box on the toolbar, which is set to **Debug** by default. Change it to **Release**.)
 
     > [!IMPORTANT]
     >  If you are not an administrator on the computer that you are using, you should run Visual Studio as an administrator while you are using the profiler. (Right-click the Visual Studio application icon, and then click **Run as administrator**.
 
-2.  On the **Debug** menu, select **Profiler**, and then select **Performance Profiler**.
+2. On the **Debug** menu, select **Profiler**, and then select **Performance Profiler**.
 
-3.  Check the **Performance Wizard** option, and click **Start**.
+3. Check the **Performance Wizard** option, and click **Start**.
 
-4.  Check the **CPU Sampling (recommended)** option and click **Finish**.
+4. Check the **CPU Sampling (recommended)** option and click **Finish**.
 
-5.  Your application starts and the profiler starts to collect data.
+5. Your application starts and the profiler starts to collect data.
 
-6.  Exercise the functionality that might contain performance issues.
+6. Exercise the functionality that might contain performance issues.
 
-7.  Close the application as you usually would.
+7. Close the application as you usually would.
 
      After you finish running the application, the **Summary** view of the profiling data appears in the main Visual Studio window and an icon for the new session appears in the **Performance Explorer** window.
 
@@ -70,7 +70,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
 #### To analyze sampling data
 
-1.  In the **Summary** view, the **Hot Path** shows the branch of your application's call tree with the highest inclusive samples. This is the execution path that was most active when data was collected. High inclusive values can indicate that the algorithm that generates the call tree can be optimized. Find the function in your code that is lowest in the path. Notice that the path can also include system functions or functions in external modules.
+1. In the **Summary** view, the **Hot Path** shows the branch of your application's call tree with the highest inclusive samples. This is the execution path that was most active when data was collected. High inclusive values can indicate that the algorithm that generates the call tree can be optimized. Find the function in your code that is lowest in the path. Notice that the path can also include system functions or functions in external modules.
 
      ![Profiler Hot Path](../profiling/media/profiler_hotpath.png "Profiler_HotPath")
 
@@ -78,7 +78,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
     2.  **Exclusive Samples** indicate how much work was done by the code in the function body, excluding the work done by functions that were called by it. High exclusive counts may indicate a performance bottleneck within the function itself.
 
-2.  Click the function name to display the **Function Details** view of the profiling data. The **Function Details** view presents a graphical view of the profiling data for the selected function, showing all the functions that called that function and all the functions that were called by the selected function.
+2. Click the function name to display the **Function Details** view of the profiling data. The **Function Details** view presents a graphical view of the profiling data for the selected function, showing all the functions that called that function and all the functions that were called by the selected function.
 
     -   The size of the blocks of the calling and called functions represent the relative frequency that the functions called or were called.
 
@@ -86,7 +86,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
     -   The lower pane of the **Function Details** windows displays the function code itself. If you examine the code and find an opportunity to optimize its performance, click the source file name to open the file in the Visual Studio editor.
 
-3.  To continue your analysis, return to the **Summary** view by selecting **Summary** from the **View** drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, click the function name to display it in the **Function Details** view.
+3. To continue your analysis, return to the **Summary** view by selecting **Summary** from the **View** drop-down list. Then examine the functions in **Functions Doing the Most Individual Work**. This list displays the functions with the highest exclusive samples. The code in the function body of these functions performed significant work and you might be able to optimize it. To further analyze a particular function, click the function name to display it in the **Function Details** view.
 
      ![List of functions doing the most work](../profiling/media/functions_mostwork.png "Functions_MostWork")
 
@@ -96,7 +96,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
      ![Performance Summary view timeline](../profiling/media/performancesummary.png "PerformanceSummary")
 
-4.  The profiler also uses a set of rules to suggest ways of improving the profiling run and to identify possible performance problems. If an issue is found, a warning is displayed in the **Error List** window. To open the **Error List** window, on the **View** menu click **Error List**.
+4. The profiler also uses a set of rules to suggest ways of improving the profiling run and to identify possible performance problems. If an issue is found, a warning is displayed in the **Error List** window. To open the **Error List** window, on the **View** menu click **Error List**.
 
     -   To see the function that raised a warning the **Function Details** view, double-click the warning.
 
@@ -107,13 +107,13 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 
 #### To revise code and rerun the profiler
 
-1.  Change your code.
+1. Change your code.
 
-2.  To open the **Performance Explorer**, on the **Debug** menu click **Profiler**, then **Performance Explorer** and then click **Show Performance Explorer**.
+2. To open the **Performance Explorer**, on the **Debug** menu click **Profiler**, then **Performance Explorer** and then click **Show Performance Explorer**.
 
-3.  In the **Performance Explorer**, right-click the session that you want to rerun, and then click **Launch with Profiling.**
+3. In the **Performance Explorer**, right-click the session that you want to rerun, and then click **Launch with Profiling.**
 
-4.  After you rerun the session, another data file is added to the *Reports* folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.
+4. After you rerun the session, another data file is added to the *Reports* folder for the session in **Performance Explorer**. Select both the original and new profiling data, right-click the selection, and then click **Compare Performance Reports**.
 
      A new report window opens, displaying the results of the comparison. For more information about how to use the comparison view, see [How to: Compare performance data files](../profiling/how-to-compare-performance-data-files.md).
 

@@ -45,9 +45,9 @@ Tasks illustrated in this walkthrough include:
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -73,25 +73,25 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the data source
 
-1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
+1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3.  Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
 
-4.  On the **Choose a database model** page, verify that **Dataset** is specified, and then click **Next**.
+4. On the **Choose a database model** page, verify that **Dataset** is specified, and then click **Next**.
 
-5.  On the **Choose your Data Connection** page, do one of the following:
+5. On the **Choose your Data Connection** page, do one of the following:
 
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-6.  If your database requires a password and if the option to include sensitive data is enabled, select the option and then click **Next**.
+6. If your database requires a password and if the option to include sensitive data is enabled, select the option and then click **Next**.
 
-7.  On the **Save connection string to the Application Configuration file** page, click **Next**.
+7. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
-8.  On the **Choose your Database Objects** page, expand the **Tables** node.
+8. On the **Choose your Database Objects** page, expand the **Tables** node.
 
 9. Select the **Customers** and **Orders** tables, and then click **Finish**.
 
@@ -111,15 +111,15 @@ You can create a data-bound grid (a <xref:System.Windows.Forms.DataGridView> con
 
 Create a second form to pass data to.
 
-1.  From the **Project** menu, choose **Add Windows Form**.
+1. From the **Project** menu, choose **Add Windows Form**.
 
-2.  Leave the default name of **Form2**, and click **Add**.
+2. Leave the default name of **Form2**, and click **Add**.
 
-3.  Drag the main **Orders** node from the **Data Sources** window onto **Form2**.
+3. Drag the main **Orders** node from the **Data Sources** window onto **Form2**.
 
      A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form2**. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
-4.  Delete the **OrdersBindingNavigator** from the component tray.
+4. Delete the **OrdersBindingNavigator** from the component tray.
 
      The **OrdersBindingNavigator** disappears from **Form2**.
 
@@ -127,15 +127,15 @@ Create a second form to pass data to.
 
 Add a TableAdapter query to Form2 to load orders for the selected customer on Form1.
 
-1.  Double-click the **NorthwindDataSet.xsd** file in **Solution Explorer**.
+1. Double-click the **NorthwindDataSet.xsd** file in **Solution Explorer**.
 
-2.  Right-click the **OrdersTableAdapter**, and select **Add Query**.
+2. Right-click the **OrdersTableAdapter**, and select **Add Query**.
 
-3.  Leave the default option of **Use SQL statements**, and then click **Next**.
+3. Leave the default option of **Use SQL statements**, and then click **Next**.
 
-4.  Leave the default option of **SELECT which returns rows**, and then click **Next**.
+4. Leave the default option of **SELECT which returns rows**, and then click **Next**.
 
-5.  Add a WHERE clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
+5. Add a WHERE clause to the query, to return `Orders` based on the `CustomerID`. The query should be similar to the following:
 
     ```sql
     SELECT OrderID, CustomerID, EmployeeID, OrderDate, RequiredDate, ShippedDate, ShipVia, Freight, ShipName, ShipAddress, ShipCity, ShipRegion, ShipPostalCode, ShipCountry
@@ -146,34 +146,34 @@ Add a TableAdapter query to Form2 to load orders for the selected customer on Fo
     > [!NOTE]
     > Verify the correct parameter syntax for your database. For example, in Microsoft Access, the WHERE clause would look like: `WHERE CustomerID = ?`.
 
-6.  Click **Next**.
+6. Click **Next**.
 
-7.  For the **Fill a DataTableMethod Name**, type `FillByCustomerID`.
+7. For the **Fill a DataTableMethod Name**, type `FillByCustomerID`.
 
-8.  Clear the **Return a DataTable** option, and then click **Next**.
+8. Clear the **Return a DataTable** option, and then click **Next**.
 
 9. Click **Finish**.
 
 ## Create a method on Form2 to pass data to
 
-1.  Right-click **Form2**, and select **View Code** to open **Form2** in the **Code Editor**.
+1. Right-click **Form2**, and select **View Code** to open **Form2** in the **Code Editor**.
 
-2.  Add the following code to **Form2** after the `Form2_Load` method:
+2. Add the following code to **Form2** after the `Form2_Load` method:
 
      [!code-vb[VbRaddataDisplaying#1](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_1.vb)]
      [!code-csharp[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]
 
 ## Create a method on Form1 to pass data and display Form2
 
-1.  In **Form1**, right-click the Customer data grid, and then click **Properties**.
+1. In **Form1**, right-click the Customer data grid, and then click **Properties**.
 
-2.  In the **Properties** window, click **Events**.
+2. In the **Properties** window, click **Events**.
 
-3.  Double-click the **CellDoubleClick** event.
+3. Double-click the **CellDoubleClick** event.
 
      The code editor appears.
 
-4.  Update the method definition to match the following sample:
+4. Update the method definition to match the following sample:
 
      [!code-csharp[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
      [!code-vb[VbRaddataDisplaying#2](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_2.vb)]

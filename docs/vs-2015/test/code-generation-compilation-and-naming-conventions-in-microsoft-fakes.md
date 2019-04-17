@@ -163,13 +163,13 @@ This topic discusses options and issues in Fakes code generation and compilation
   
  From your unit test projects, you can simply take a reference to the compiled Fakes assemblies that are placed under the FakesAssemblies in the project folder.  
   
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
+1. Create a new Class Library with the .NET runtime version matching your test projects. Let’s call it Fakes.Prebuild. Remove the class1.cs file from the project, not needed.  
   
-2.  Add reference to all the System and third-party assemblies you need Fakes for.  
+2. Add reference to all the System and third-party assemblies you need Fakes for.  
   
-3.  Add a .fakes file for each of the assemblies and build.  
+3. Add a .fakes file for each of the assemblies and build.  
   
-4.  From your test project  
+4. From your test project  
   
     -   Make sure that you have a reference to the Fakes runtime DLL:  
   

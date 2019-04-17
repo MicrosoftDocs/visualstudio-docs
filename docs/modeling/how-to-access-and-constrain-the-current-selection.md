@@ -22,7 +22,7 @@ Depending on the command, the command handler might need the selection in the mo
 
 ### To access selection information
 
-1.  The <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class defines the following members that can be used to access the current selection.
+1. The <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class defines the following members that can be used to access the current selection.
 
     |Member|Description|
     |-|-|
@@ -35,9 +35,9 @@ Depending on the command, the command handler might need the selection in the mo
     |<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.SingleDocumentSelection%2A> property|Gets the primary element of the selection in the model designer.|
     |<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.SingleSelection%2A> property|Gets the primary element of the selection in the active window.|
 
-2.  The <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet.CurrentDocView%2A> property of the <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class provides access to the <xref:Microsoft.VisualStudio.Modeling.Shell.DiagramDocView> object that represents the model designer window and provides additional access the selected elements in the model designer.
+2. The <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet.CurrentDocView%2A> property of the <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class provides access to the <xref:Microsoft.VisualStudio.Modeling.Shell.DiagramDocView> object that represents the model designer window and provides additional access the selected elements in the model designer.
 
-3.  In addition, the generated code defines an explorer tool window property and an explorer selection property in the command set class for the domain-specific language.
+3. In addition, the generated code defines an explorer tool window property and an explorer selection property in the command set class for the domain-specific language.
 
     -   The explorer tool window property returns an instance of the explorer tool window class for the domain-specific language. The explorer tool window class derives from the <xref:Microsoft.VisualStudio.Modeling.Shell.ModelExplorerToolWindow> class and represents the model explorer for the domain-specific language.
 
@@ -49,11 +49,11 @@ The <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> interf
 
 ### To determine from a command handler what type of window is active
 
-1.  The <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.MonitorSelection%2A> property of the <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class returns an <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> object that provides access to the current selection state in the shell.
+1. The <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.MonitorSelection%2A> property of the <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> class returns an <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> object that provides access to the current selection state in the shell.
 
-2.  The <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService.CurrentSelectionContainer%2A> property of the <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> interface gets the active selection container, which can be different from the active window.
+2. The <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService.CurrentSelectionContainer%2A> property of the <xref:Microsoft.VisualStudio.Modeling.Shell.IMonitorSelectionService> interface gets the active selection container, which can be different from the active window.
 
-3.  Add the following properties to the command set class for you domain-specific language to determine what type of window is active.
+3. Add the following properties to the command set class for you domain-specific language to determine what type of window is active.
 
     ```csharp
     // using Microsoft.VisualStudio.Modeling.Shell;
@@ -87,17 +87,17 @@ By adding selection rules, you can control which elements are selected when the 
 
 ### To create a selection rule
 
-1.  Create a custom code file in the DSL project
+1. Create a custom code file in the DSL project
 
-2.  Define a selection rule class that is derived from the <xref:Microsoft.VisualStudio.Modeling.Diagrams.DiagramSelectionRules> class.
+2. Define a selection rule class that is derived from the <xref:Microsoft.VisualStudio.Modeling.Diagrams.DiagramSelectionRules> class.
 
-3.  Override the <xref:Microsoft.VisualStudio.Modeling.Diagrams.DiagramSelectionRules.GetCompliantSelection%2A> method of the selection rule class to apply the selection criteria.
+3. Override the <xref:Microsoft.VisualStudio.Modeling.Diagrams.DiagramSelectionRules.GetCompliantSelection%2A> method of the selection rule class to apply the selection criteria.
 
-4.  Add a partial class definition for the ClassDiagram class to your custom code file.
+4. Add a partial class definition for the ClassDiagram class to your custom code file.
 
      The `ClassDiagram` class derives from the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> class and is defined in the generated code file, Diagram.cs, in the DSL project.
 
-5.  Override the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.SelectionRules%2A> property of the `ClassDiagram` class to return the custom selection rule.
+5. Override the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.SelectionRules%2A> property of the `ClassDiagram` class to return the custom selection rule.
 
      The default implementation of the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.SelectionRules%2A> property gets a selection rule object that does not modify the selection.
 

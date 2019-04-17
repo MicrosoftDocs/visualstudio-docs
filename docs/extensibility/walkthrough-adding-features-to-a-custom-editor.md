@@ -16,27 +16,27 @@ After you create a custom editor, you can add more features to it.
 
 ## To create an editor for a VSPackage
 
-1.  Create a custom editor by using the Visual Studio Package project template.
+1. Create a custom editor by using the Visual Studio Package project template.
 
      For more information, see [Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md).
 
-2.  Decide whether you want your editor to support a single view or multiple views.
+2. Decide whether you want your editor to support a single view or multiple views.
 
      An editor that supports the **New Window** command, or has form view and code view, requires separate document data objects and document view objects. In an editor that supports only a single view, the document data object, and the document view object can be implemented on the same object.
 
      For an example of multiple views, see [Support multiple document views](../extensibility/supporting-multiple-document-views.md).
 
-3.  Implement an editor factory by setting up the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.
+3. Implement an editor factory by setting up the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.
 
      For more information, see [Editor factories](../extensibility/editor-factories.md).
 
-4.  Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
+4. Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
 
      A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-place activation](../extensibility/in-place-activation.md).
 
-5.  Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.
+5. Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.
 
-6.  Provide document persistence and response to external file changes:
+6. Provide document persistence and response to external file changes:
 
     1.  To persist the file, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.
 
@@ -45,7 +45,7 @@ After you create a custom editor, you can add more features to it.
         > [!NOTE]
         >  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to get a pointer to `IVsFileChangeEx`.
 
-7.  Coordinate document edit events with source code control. Follow these steps:
+7. Coordinate document edit events with source code control. Follow these steps:
 
     1.  Get a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.
 
@@ -57,7 +57,7 @@ After you create a custom editor, you can add more features to it.
 
          This method prompts the user to save the file if it hasn't been saved or if it changed since the last save.
 
-8.  Enable the **Properties** window to display properties for text selected in the editor. Follow these steps:
+8. Enable the **Properties** window to display properties for text selected in the editor. Follow these steps:
 
     1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.
 

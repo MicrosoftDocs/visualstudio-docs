@@ -37,13 +37,13 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 > [!NOTE]
 > Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
-1.  On the **Architecture** menu, choose **New Dependency Diagram**.
+1. On the **Architecture** menu, choose **New Dependency Diagram**.
 
-2.  Under **Templates**, choose **dependency diagram**.
+2. Under **Templates**, choose **dependency diagram**.
 
-3.  Name the diagram.
+3. Name the diagram.
 
-4.  In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.
+4. In **Add to Modeling Project**, browse to and select an existing modeling project in your solution.
 
      -or-
 
@@ -52,7 +52,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
     > [!NOTE]
     > The dependency diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.
 
-5.  Make sure to save both the modeling project and the dependency diagram.
+5. Make sure to save both the modeling project and the dependency diagram.
 
 ## Drag and drop, or copy and paste, from a Code Map
 
@@ -103,11 +103,11 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 
 ## <a name="Managing"></a> Manage links between layers and artifacts
 
-1.  On the dependency diagram, open the shortcut menu for the layer, and then choose **View Links**.
+1. On the dependency diagram, open the shortcut menu for the layer, and then choose **View Links**.
 
      **Layer Explorer** shows the artifact links for the selected layer.
 
-2.  Use the following tasks to manage these links:
+2. Use the following tasks to manage these links:
 
 |**To**|**In Layer Explorer**|
 |-|-|

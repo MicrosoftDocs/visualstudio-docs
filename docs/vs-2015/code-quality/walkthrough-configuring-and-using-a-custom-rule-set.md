@@ -142,9 +142,9 @@ This walkthrough shows how to use code analysis tools that have been configured 
   
 #### Run Code Analysis on the RuleSetSample project for the second time  
   
-1.  On the **Analyze** menu, click **Run Code Analysis on RuleSetSample**.  
+1. On the **Analyze** menu, click **Run Code Analysis on RuleSetSample**.  
   
-2.  In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.  
+2. In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.  
   
 ## See Also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   

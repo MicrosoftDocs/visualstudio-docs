@@ -48,11 +48,11 @@ If your application attempts to use a broken reference, an exception error is ge
   
 #### To fix a broken project reference by correcting the reference path  
   
-1.  In **Solution Explorer**, right-click your project node and click **Properties**.  
+1. In **Solution Explorer**, right-click your project node and click **Properties**.  
   
-2.  The **Project Designer** appears.  
+2. The **Project Designer** appears.  
   
-3.  If you are using Visual Basic, select the **References** page and click the **Reference Paths** button. In the **Reference Paths** dialog box, type the path of the folder that contains the item you want to reference in the **Folder** field, and then click the **Add Folder** button.  
+3. If you are using Visual Basic, select the **References** page and click the **Reference Paths** button. In the **Reference Paths** dialog box, type the path of the folder that contains the item you want to reference in the **Folder** field, and then click the **Add Folder** button.  
   
      -or-  
   

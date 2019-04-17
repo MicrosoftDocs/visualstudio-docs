@@ -155,13 +155,13 @@ The compilation of Fakes assemblies can significantly increase your build time. 
 
 From your unit test projects, add a reference to the compiled Fakes assemblies that are placed under FakesAssemblies in the project folder.
 
-1.  Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the *class1.cs* file from the project, not needed.
+1. Create a new Class Library with the .NET runtime version matching your test projects. Let's call it Fakes.Prebuild. Remove the *class1.cs* file from the project, not needed.
 
-2.  Add reference to all the System and third-party assemblies you need Fakes for.
+2. Add reference to all the System and third-party assemblies you need Fakes for.
 
-3.  Add a *.fakes* file for each of the assemblies and build.
+3. Add a *.fakes* file for each of the assemblies and build.
 
-4.  From your test project
+4. From your test project
 
     -   Make sure that you have a reference to the Fakes runtime DLL:
 

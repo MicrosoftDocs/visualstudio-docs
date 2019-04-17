@@ -29,9 +29,9 @@ ms.workload:
 
 ### To change the generated Ribbon code
 
-1.  Modify the declaration of the Ribbon class so that it derives from <xref:Microsoft.Office.Tools.Ribbon.RibbonBase> instead of `Microsoft.Office.Tools.Ribbon.OfficeRibbon`.
+1. Modify the declaration of the Ribbon class so that it derives from <xref:Microsoft.Office.Tools.Ribbon.RibbonBase> instead of `Microsoft.Office.Tools.Ribbon.OfficeRibbon`.
 
-2.  Modify the constructor of the Ribbon class as shown below. If you have added any of your own code to the constructor, do not change your code. In Visual Basic projects, modify only the parameterless constructor. Ignore the other constructor.
+2. Modify the constructor of the Ribbon class as shown below. If you have added any of your own code to the constructor, do not change your code. In Visual Basic projects, modify only the parameterless constructor. Ignore the other constructor.
 
      The following code example shows the default constructor of a Ribbon class in a project that targets the .NET Framework 3.5.
 
@@ -66,7 +66,7 @@ ms.workload:
     }
     ```
 
-3.  In the `InitializeComponent` method, modify any code that constructs a Ribbon control so that the code instead uses one of the helper methods of the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
+3. In the `InitializeComponent` method, modify any code that constructs a Ribbon control so that the code instead uses one of the helper methods of the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
 
     > [!NOTE]
     >  In Visual C# projects, you must expand the region that is named `Component Designer generated code` to see the `InitializeComponent` method.
@@ -93,7 +93,7 @@ ms.workload:
 
      For a full list of the helper methods for the Ribbon controls, see [Instantiate Ribbon controls](#ribboncontrols).
 
-4.  In Visual C# projects, modify any line of code in the `InitializeComponent` method that uses an <xref:System.EventHandler%601> delegate to use a specific Ribbon delegate instead.
+4. In Visual C# projects, modify any line of code in the `InitializeComponent` method that uses an <xref:System.EventHandler%601> delegate to use a specific Ribbon delegate instead.
 
      For example, assume that your file contains the following line of code that handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> event in a project that targets the .NET Framework 3.5.
 
@@ -103,7 +103,7 @@ ms.workload:
     \<CodeContentPlaceHolder>9</CodeContentPlaceHolder>
      For a full list of the Ribbon delegates, see [Handle Ribbon events](#ribbonevents).
 
-5.  In Visual Basic projects, locate the `ThisRibbonCollection` class at the end of the file. Modify the declaration of this class so that it no longer inherits from `Microsoft.Office.Tools.Ribbon.RibbonReadOnlyCollection`.
+5. In Visual Basic projects, locate the `ThisRibbonCollection` class at the end of the file. Modify the declaration of this class so that it no longer inherits from `Microsoft.Office.Tools.Ribbon.RibbonReadOnlyCollection`.
 
 ##  <a name="ribboncontrols"></a> Instantiate Ribbon controls
  You must modify any code that dynamically instantiates Ribbon controls. In projects that target the .NET Framework 3.5, Ribbon controls are classes that you can instantiate directly in certain scenarios. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these controls are interfaces that you cannot instantiate directly. You must create the controls by using methods that are provided by the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.

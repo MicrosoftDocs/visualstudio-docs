@@ -29,11 +29,11 @@ The following example shows how to add data-bound controls in document-level pro
 
 ### To populate a worksheet with data from a database
 
-1.  Open an Excel document-level project in Visual Studio, with the worksheet open in the designer.
+1. Open an Excel document-level project in Visual Studio, with the worksheet open in the designer.
 
-2.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+2. Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-3.  Drag the field or table you want from the **Data Sources** window to your worksheet.
+3. Drag the field or table you want from the **Data Sources** window to your worksheet.
 
 One of the following controls is created on the worksheet:
 

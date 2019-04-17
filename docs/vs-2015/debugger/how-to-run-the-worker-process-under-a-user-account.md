@@ -30,13 +30,13 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../includes/
   
 #### To run aspnet_wp.exe under a user account  
   
-1.  Open the machine.config file, located on your computer in the CONFIG folder under the path where you installed the runtime.  
+1. Open the machine.config file, located on your computer in the CONFIG folder under the path where you installed the runtime.  
   
-2.  Find the &lt;processModel&gt; section and change the user and password attributes to the name and password of the user account you want aspnet_wp.exe to run under.  
+2. Find the &lt;processModel&gt; section and change the user and password attributes to the name and password of the user account you want aspnet_wp.exe to run under.  
   
-3.  Save the machine.config file.  
+3. Save the machine.config file.  
   
-4.  On [!INCLUDE[winxpsvr](../includes/winxpsvr-md.md)], IIS 6.0 is installed by default. The corresponding worker process is w3wp.exe.To run in IIS 6.0 mode with aspnet_wp.exe as the worker process, you must follow these steps:  
+4. On [!INCLUDE[winxpsvr](../includes/winxpsvr-md.md)], IIS 6.0 is installed by default. The corresponding worker process is w3wp.exe.To run in IIS 6.0 mode with aspnet_wp.exe as the worker process, you must follow these steps:  
   
     1.  Click **Start**, click **Administrative Tools** and then choose **Internet Information Services**.  
   
@@ -48,7 +48,7 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../includes/
   
     5.  Close the **Properties** dialog box and **Internet Services Manager**.  
   
-5.  Open a Windows Command Prompt and reset the server by running:  
+5. Open a Windows Command Prompt and reset the server by running:  
   
     ```  
     iisreset  
@@ -60,11 +60,11 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../includes/
     net start w3svc  
     ```  
   
-6.  Locate the Temporary [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Files folder, which should be in the same path as the CONFIG folder. Right-click the Temporary [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Files folder and choose **Properties** on the shortcut menu.  
+6. Locate the Temporary [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Files folder, which should be in the same path as the CONFIG folder. Right-click the Temporary [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Files folder and choose **Properties** on the shortcut menu.  
   
-7.  In the **Temporary ASP.NET Files Properties** dialog box, click the **Security** tab.  
+7. In the **Temporary ASP.NET Files Properties** dialog box, click the **Security** tab.  
   
-8.  Click **Advanced**.  
+8. Click **Advanced**.  
   
 9. In the **Advanced Security Settings for Temporary ASP.Net Files** dialog box, click **Add**.  
   

@@ -54,11 +54,11 @@ One of the most common scenarios in application development is to display data o
   
 #### To create the new Windows application project  
   
-1.  On the **File** menu, create a new project.  
+1. On the **File** menu, create a new project.  
   
-2.  Name the project `UpdateMultipleTablesWalkthrough`.  
+2. Name the project `UpdateMultipleTablesWalkthrough`.  
   
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -67,13 +67,13 @@ One of the most common scenarios in application development is to display data o
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1. On the **Data** menu, select**Show Data Sources**.  
   
-2.  In the **Data Sources** window, select**Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. In the **Data Sources** window, select**Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3. On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
   
-4.  On the **Choose your Data Connection**screen do one of the following:  
+4. On the **Choose your Data Connection**screen do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
@@ -81,13 +81,13 @@ One of the most common scenarios in application development is to display data o
   
     -   Select **New Connection** to open the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file**, select **Next**.  
+6. On the **Save connection string to the Application Configuration file**, select **Next**.  
   
-7.  On the **Choose your Database Objects**screen, expand the **Tables** node .  
+7. On the **Choose your Database Objects**screen, expand the **Tables** node .  
   
-8.  Select the **Customers** and **Orders** tables, and then select **Finish**.  
+8. Select the **Customers** and **Orders** tables, and then select **Finish**.  
   
      The **NorthwindDataSet** is added to your project, and the tables appear in the **Data Sources** window.  
   
@@ -96,20 +96,20 @@ One of the most common scenarios in application development is to display data o
   
 #### To set the drop type for the items in the Data Sources window  
   
-1.  In the **Data Sources** window, expand the **Customers** node.  
+1. In the **Data Sources** window, expand the **Customers** node.  
   
-2.  On the **Customers** node, select **Details** from the control list to change the control of the **Customers** table to individual controls. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+2. On the **Customers** node, select **Details** from the control list to change the control of the **Customers** table to individual controls. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
 ## Create the data-bound form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.  
   
 #### To create data-bound controls on the form  
   
-1.  Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
+1. Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
      Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
-2.  Drag the related **Orders** node from the **Data Sources** window onto **Form1**.  
+2. Drag the related **Orders** node from the **Data Sources** window onto **Form1**.  
   
     > [!NOTE]
     >  The related **Orders** node is located below the **Fax** column and is a child node of the **Customers** node.  
@@ -124,9 +124,9 @@ One of the most common scenarios in application development is to display data o
   
 #### To add update logic to the application  
   
-1.  Select the **Save** button on the <xref:System.Windows.Forms.BindingNavigator>.This opens the Code Editor to the `bindingNavigatorSaveItem_Click` event handler.  
+1. Select the **Save** button on the <xref:System.Windows.Forms.BindingNavigator>.This opens the Code Editor to the `bindingNavigatorSaveItem_Click` event handler.  
   
-2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, and <xref:System.Data.DataRowState>). Then updates are run in the correct order. The code should look like the following:  
+2. Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, and <xref:System.Data.DataRowState>). Then updates are run in the correct order. The code should look like the following:  
   
      [!code-csharp[VbRaddataSaving#10](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form4.cs#10)]
      [!code-vb[VbRaddataSaving#10](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form4.vb#10)]  
@@ -135,13 +135,13 @@ One of the most common scenarios in application development is to display data o
   
 #### To test the application  
   
-1.  Select **F5**.  
+1. Select **F5**.  
   
-2.  Make some changes to the data of one or more records in each table.  
+2. Make some changes to the data of one or more records in each table.  
   
-3.  Select the **Save** button.  
+3. Select the **Save** button.  
   
-4.  Check the values in the database to verify that the changes were saved.  
+4. Check the values in the database to verify that the changes were saved.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form in your Windows application. Some enhancements you could make to this walkthrough include:  

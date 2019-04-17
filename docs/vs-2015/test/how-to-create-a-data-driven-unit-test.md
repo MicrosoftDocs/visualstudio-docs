@@ -39,13 +39,13 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
   
   Creating a data-driven unit test involves the following steps:  
   
-1.  Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
+1. Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.  
   
-2.  Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.  
+2. Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.  
   
-3.  Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
+3. Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.  
   
-4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
+4. Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.  
   
 ##  <a name="BKMK_The_method_under_test"></a> The method under test  
  As an example, let's assume that we have created:  

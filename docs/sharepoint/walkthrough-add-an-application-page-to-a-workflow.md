@@ -43,11 +43,11 @@ ms.workload:
 
 #### To set the value of the outcome column in the workflow
 
-1.  Load the completed project from the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Load the completed project from the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  Open the code for *Workflow1.cs* or *Workflow1.vb* (depending on your programming language).
+2. Open the code for *Workflow1.cs* or *Workflow1.vb* (depending on your programming language).
 
-3.  To the bottom of the `createTask1_MethodInvoking` method, add the following code:
+3. To the bottom of the `createTask1_MethodInvoking` method, add the following code:
 
     ```vb
     createTask1_TaskProperties1.ExtendedProperties("Outcome") =
@@ -64,11 +64,11 @@ ms.workload:
 
 #### To add an application page to the project
 
-1.  Choose the ExpenseReport project, and then, on the menu bar, choose **Project** > **Add New Item**.
+1. Choose the ExpenseReport project, and then, on the menu bar, choose **Project** > **Add New Item**.
 
-2.  In the **Templates** pane, choose the **Application Page** template, use the default name for the project item (**ApplicationPage1.aspx**), and choose the **Add** button.
+2. In the **Templates** pane, choose the **Application Page** template, use the default name for the project item (**ApplicationPage1.aspx**), and choose the **Add** button.
 
-3.  In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:
+3. In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:
 
     ```aspx-csharp
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">
@@ -82,7 +82,7 @@ ms.workload:
 
      This code adds a table to the page together with a title.
 
-4.  Add a title to the application page by replacing the `PlaceHolderPageTitleInTitleArea` section with the following:
+4. Add a title to the application page by replacing the `PlaceHolderPageTitleInTitleArea` section with the following:
 
     ```aspx-csharp
     <asp:Content ID="PageTitleInTitleArea" ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server" >
@@ -95,9 +95,9 @@ ms.workload:
 
 #### To code the application page
 
-1.  Choose the **ApplicationPage1.aspx** node, and then, on the menu bar, choose **View** > **Code** to display the code behind the application page.
+1. Choose the **ApplicationPage1.aspx** node, and then, on the menu bar, choose **View** > **Code** to display the code behind the application page.
 
-2.  Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:
+2. Replace the **using** or **Import** statements (depending on your programming language) at the top of the class with the following:
 
     ```vb
     Imports System
@@ -125,7 +125,7 @@ ms.workload:
     using Microsoft.SharePoint.Navigation;
     ```
 
-3.  Add the following code to the `Page_Load` method:
+3. Add the following code to the `Page_Load` method:
 
     ```vb
     Try

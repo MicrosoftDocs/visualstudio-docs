@@ -272,7 +272,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 ##### To add an IntelliSense annotation  
   
-1.  Add the following code to demoLib.js.  
+1. Add the following code to demoLib.js.  
   
     ```javascript  
     function someFunc(a) { };  
@@ -280,7 +280,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
     ```  
   
-2.  Add the following code to demoLib.intellisense.js.  
+2. Add the following code to demoLib.intellisense.js.  
   
     ```javascript  
     intellisense.annotate(someFunc, function (a) {  
@@ -296,18 +296,18 @@ intellisense.addEventListener('statementcompletion', function (event) {
     });  
     ```  
   
-3.  Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
+3. Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
   
     ```javascript  
     /// <reference path="demoLib.js" />  
   
     ```  
   
-4.  In appCode.js, type the following code. You'll see the XML documentation comments in the extension displayed as IntelliSense Parameter Info.  
+4. In appCode.js, type the following code. You'll see the XML documentation comments in the extension displayed as IntelliSense Parameter Info.  
   
      ![Example showing the use of intellisense.annotate](../ide/media/js-intellisense-annotate-paraminfo.png "js_intellisense_annotate_paraminfo")  
   
-5.  In appCode.js, type the following code. While you type, you'll see the standard comments in the extension displayed as IntelliSense Quick Info.  
+5. In appCode.js, type the following code. While you type, you'll see the standard comments in the extension displayed as IntelliSense Quick Info.  
   
      ![Example showing the use of intellisense.annotate](../ide/media/js-intellisense-annotations.png "js_intellisense_annotations")  
   
@@ -324,7 +324,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 ##### To send a message to the Output window  
   
-1.  Add the following code to exampleLib.js.  
+1. Add the following code to exampleLib.js.  
   
     ```javascript  
     var someVar = {  
@@ -333,7 +333,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
     };  
     ```  
   
-2.  Add the following code to exampleLib.intellisense.js.  
+2. Add the following code to exampleLib.intellisense.js.  
   
     ```javascript  
     intellisense.addEventListener('statementcompletion', function (e) {  
@@ -351,16 +351,16 @@ intellisense.addEventListener('statementcompletion', function (event) {
     });  
     ```  
   
-3.  Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
+3. Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
   
     ```javascript  
     /// <reference path="exampleLib.js" />  
   
     ```  
   
-4.  In the Output window, choose **JavaScript Language Service** in the **Show output from** list. (To view the Output window, select **Output** from the View menu.)  
+4. In the Output window, choose **JavaScript Language Service** in the **Show output from** list. (To view the Output window, select **Output** from the View menu.)  
   
-5.  In appCode.js, type the following code. While you type, the Output window shows messages from the language service. The first message in the Output window indicates that statement completion for the current scope has been requested.  
+5. In appCode.js, type the following code. While you type, the Output window shows messages from the language service. The first message in the Output window indicates that statement completion for the current scope has been requested.  
   
     ```javascript  
     some  
@@ -377,9 +377,9 @@ intellisense.addEventListener('statementcompletion', function (event) {
     …  
     ```  
   
-6.  Choose the **Clear All** button in the Output window.  
+6. Choose the **Clear All** button in the Output window.  
   
-7.  Type the following code. The first message in the output window indicates that a member list has been requested.  
+7. Type the following code. The first message in the output window indicates that a member list has been requested.  
   
     ```javascript  
     someVar.  
@@ -411,7 +411,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 ##### To change the icons  
   
-1.  Add the following code to exampleLib.js.  
+1. Add the following code to exampleLib.js.  
   
     ```javascript  
     function Namespace(name) {  
@@ -431,7 +431,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
     SomeNamespace.Enum1 = new Enum({ VALUE1: 0, VALUE2: 1 });  
     ```  
   
-2.  Add the following code to exampleLib.intellisense.js.  
+2. Add the following code to exampleLib.intellisense.js.  
   
     ```javascript  
     intellisense.addEventListener('statementcompletion', function (e) {  
@@ -473,18 +473,18 @@ intellisense.addEventListener('statementcompletion', function (event) {
     });  
     ```  
   
-3.  Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
+3. Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
   
     ```javascript  
     /// <reference path="exampleLib.js" />  
   
     ```  
   
-4.  In appCode.js, type the following code. While you type, you'll see that the icon for the namespace has changed to "{}", as is used in C#.  
+4. In appCode.js, type the following code. While you type, you'll see that the icon for the namespace has changed to "{}", as is used in C#.  
   
      ![Example showing the use of glyph property](../ide/media/js-intellisense-glyph-namespace.png "js_intellisense_glyph_namespace")  
   
-5.  In appCode.js, type the following code. While you type, you'll see a new enumeration icon for the Enum1 member, and a new class icon for the SomeClass1 member.  
+5. In appCode.js, type the following code. While you type, you'll see a new enumeration icon for the Enum1 member, and a new class icon for the SomeClass1 member.  
   
      ![Example showing use of the glyph property](../ide/media/js-intellisense-glyph-class-enum.png "js_intellisense_glyph_class_enum")  
   
@@ -501,7 +501,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 ##### To avoid run-time effects on IntelliSense results  
   
-1.  Add the following code to exampleLib.js.  
+1. Add the following code to exampleLib.js.  
   
     ```javascript  
     function after(count, func) {  
@@ -515,18 +515,18 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
      In the preceding code, the wrapped function ignores initial calls, based on the value of `count`, and doesn't return results.  
   
-2.  Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
+2. Add the following reference directive as the first line in appCode.js. The path used here indicates that the JavaScript files are in the same folder.  
   
     ```javascript  
     /// <reference path="exampleLib.js" />  
   
     ```  
   
-3.  In appCode.js, type the following code. The identifier list appears instead of IntelliSense because the wrapped function is never called, which means that the `throttled` function doesn't return any results.  
+3. In appCode.js, type the following code. The identifier list appears instead of IntelliSense because the wrapped function is never called, which means that the `throttled` function doesn't return any results.  
   
      ![Example of overriding intellisense results](../ide/media/js-intellisense-override.png "js_intellisense_override")  
   
-4.  Add the following code to exampleLib.intellisense.js. This will change the design-time behavior so that IntelliSense is shown for the wrapped function, as expected.  
+4. Add the following code to exampleLib.intellisense.js. This will change the design-time behavior so that IntelliSense is shown for the wrapped function, as expected.  
   
     ```javascript  
     window.after = function (count, func) {  
@@ -535,7 +535,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
     };  
     ```  
   
-5.  In appCode.js, test the results by typing the same code that you typed previously. This time, IntelliSense provides the desired information.  
+5. In appCode.js, test the results by typing the same code that you typed previously. This time, IntelliSense provides the desired information.  
   
      ![Example of overriding IntelliSense results](../ide/media/js-intellisense-override-fixed.png "js_intellisense_override_fixed")  
   

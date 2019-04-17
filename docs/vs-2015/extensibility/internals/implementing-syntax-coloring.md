@@ -27,13 +27,13 @@ When the language service provides syntax colorization, the parser converts a li
   
 ## Steps Followed by an Editor to Colorize Text  
   
-1.  The editor gets the colorizer by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> object.  
+1. The editor gets the colorizer by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> object.  
   
-2.  The editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.GetStateMaintenanceFlag%2A> method to determine whether the colorizer needs the state of each line to be maintained outside the colorizer.  
+2. The editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.GetStateMaintenanceFlag%2A> method to determine whether the colorizer needs the state of each line to be maintained outside the colorizer.  
   
-3.  If the colorizer requires the state to be maintained outside the colorizer, the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.GetStartState%2A> method to get the state of the first line.  
+3. If the colorizer requires the state to be maintained outside the colorizer, the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.GetStartState%2A> method to get the state of the first line.  
   
-4.  For each line in the buffer, the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method, which performs the following steps:  
+4. For each line in the buffer, the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method, which performs the following steps:  
   
     1.  The line of text is passed to a scanner to convert the text into tokens. Each token specifies the token text and the token type.  
   
@@ -43,9 +43,9 @@ When the language service provides syntax colorization, the parser converts a li
   
     4.  The state at the end of the line is returned for each line.  
   
-5.  If the colorizer requires the state to be maintained, the editor caches the state for that line.  
+5. If the colorizer requires the state to be maintained, the editor caches the state for that line.  
   
-6.  The editor renders the line of text using the information returned from the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method. This requires the following steps:  
+6. The editor renders the line of text using the information returned from the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> method. This requires the following steps:  
   
     1.  For each character in the line, get the colorable item index.  
   

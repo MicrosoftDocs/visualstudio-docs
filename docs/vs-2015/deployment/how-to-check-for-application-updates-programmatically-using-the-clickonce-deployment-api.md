@@ -31,15 +31,15 @@ ClickOnce provides two ways to update an application once it is deployed. In the
   
 ### To check for updates programmatically  
   
-1.  Create a new Windows Forms application using your preferred command-line or visual tools.  
+1. Create a new Windows Forms application using your preferred command-line or visual tools.  
   
-2.  Create whatever button, menu item, or other user interface item you want your users to select to check for updates. From that item's event handler, call the following method to check for and install updates.  
+2. Create whatever button, menu item, or other user interface item you want your users to select to check for updates. From that item's event handler, call the following method to check for and install updates.  
   
      [!code-cpp[ClickOnceAPI#6](../snippets/cpp/VS_Snippets_Winforms/ClickOnceAPI/cpp/form1.cpp#6)]
      [!code-csharp[ClickOnceAPI#6](../snippets/csharp/VS_Snippets_Winforms/ClickOnceAPI/CS/Form1.cs#6)]
      [!code-vb[ClickOnceAPI#6](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceAPI/VB/Form1.vb#6)]  
   
-3.  Compile your application.  
+3. Compile your application.  
   
 ### Using Mage.exe to deploy an application that checks for updates programmatically  
   

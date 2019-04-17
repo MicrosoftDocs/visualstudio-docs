@@ -40,9 +40,9 @@ There are several ways of creating a .vsix file. The following procedure describ
 
 #### To develop a custom directive processor in a VSIX project
 
-1.  Create a new **VSIX Project** project.
+1. Create a new **VSIX Project** project.
 
-2.  In **source.extension.vsixmanifest**, set the content type and supported editions.
+2. In **source.extension.vsixmanifest**, set the content type and supported editions.
 
     1.  In the VSIX manifest editor, on the **Assets** tab, choose **New** and set the new item's properties:
 
@@ -52,7 +52,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
     2.  Click **Selected Editions** and check the types of installation on which you want the directive processor to be usable.
 
-3.  Add a .pkgdef file and set its properties to be included in the VSIX.
+3. Add a .pkgdef file and set its properties to be included in the VSIX.
 
     1.  Create a text file and name it \<*assemblyName*>.pkgdef.
 
@@ -68,7 +68,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
     3.  Set the name of the VSIX and make sure that the ID is unique.
 
-4.  Add the following text to the .pkgdef file.
+4. Add the following text to the .pkgdef file.
 
     ```
     [$RootKey$\TextTemplating]
@@ -81,7 +81,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
      Replace the following names with your own names: `CustomDirectiveProcessorName`, `NamespaceName`, `ClassName`, `AssemblyName`.
 
-5.  Add the following references to the project:
+5. Add the following references to the project:
 
     -   **Microsoft.VisualStudio.TextTemplating.\*.0**
 
@@ -89,27 +89,27 @@ There are several ways of creating a .vsix file. The following procedure describ
 
     -   **Microsoft.VisualStudio.TextTemplating.VSHost.\*.0**
 
-6.  Add your custom directive processor class to the project.
+6. Add your custom directive processor class to the project.
 
      This is a public class that should implement <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.
 
 #### To install the Custom Directive Processor
 
-1.  In Windows Explorer, open the build directory (usually bin\Debug or bin\Release).
+1. In Windows Explorer, open the build directory (usually bin\Debug or bin\Release).
 
-2.  If you want to install the directive processor on another computer, copy the .vsix file to the other computer.
+2. If you want to install the directive processor on another computer, copy the .vsix file to the other computer.
 
-3.  Double-click the .vsix file. The Visual Studio Extension Installer appears.
+3. Double-click the .vsix file. The Visual Studio Extension Installer appears.
 
-4.  Restart Visual Studio. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:
+4. Restart Visual Studio. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:
 
      `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" ... #>`
 
 #### To uninstall or temporarily disable the custom directive processor
 
-1.  In the Visual Studio **Tools** menu, click **Extension Manager**.
+1. In the Visual Studio **Tools** menu, click **Extension Manager**.
 
-2.  Select the VSIX that contains the directive processor, and then click **Uninstall** or **Disable**.
+2. Select the VSIX that contains the directive processor, and then click **Uninstall** or **Disable**.
 
 ### Troubleshooting a Directive Processor in a VSIX
  If the directive processor does not work, the following suggestions might help:

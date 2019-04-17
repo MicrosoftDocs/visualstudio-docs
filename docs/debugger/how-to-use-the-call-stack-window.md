@@ -62,11 +62,11 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
 
-1.  In the **Call Stack** window, right-click the stack frame whose code and data that you want to view.
+1. In the **Call Stack** window, right-click the stack frame whose code and data that you want to view.
 
     Or, you can double-click a frame in the **Call Stack** window to switch to that frame.
 
-2.  Select **Switch to Frame**.
+2. Select **Switch to Frame**.
 
      A green arrow with a curly tail appears next to the stack frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.
 
@@ -112,25 +112,25 @@ See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-
 
 ### To load symbols
 
-1.  In the **Call Stack** window, right-click the stack frame for which symbols are not loaded. The frame will be dimmed.
+1. In the **Call Stack** window, right-click the stack frame for which symbols are not loaded. The frame will be dimmed.
 
-2.  Point to **Load Symbols** and then select **Microsoft Symbol Servers** (if available), or browse to the symbol path.
+2. Point to **Load Symbols** and then select **Microsoft Symbol Servers** (if available), or browse to the symbol path.
 
 ### To set the symbol path
 
-1.  In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.
+1. In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.
 
      The **Options** dialog box opens and the **Symbols** page is displayed.
 
-2.  Select **Symbol Settings**.
+2. Select **Symbol Settings**.
 
-3.  In the **Options** dialog box, click the Folder icon.
+3. In the **Options** dialog box, click the Folder icon.
 
      In the **Symbol file (.pdb) locations** box, a cursor appears.
 
-4.  Enter a directory pathname to the symbol location on the computer that you are debugging. For local and remote debugging, this is a path on your local computer.
+4. Enter a directory pathname to the symbol location on the computer that you are debugging. For local and remote debugging, this is a path on your local computer.
 
-5.  Select **OK** to close the **Options** dialog box.
+5. Select **OK** to close the **Options** dialog box.
 
 ## See also
 

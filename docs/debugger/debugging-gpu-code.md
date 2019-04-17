@@ -36,9 +36,9 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ## Run Current Tile to Cursor and Run to Cursor
  When you are debugging on the GPU, you have two options for running to the cursor location. The commands for both options are available on the shortcut menu of the code editor.
 
-1.  The **Run to Cursor** command runs your app until it reaches the cursor location and then breaks. This does not imply that the current thread runs to the cursor; rather, it means that the first thread that reaches the cursor point triggers the break. See [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+1. The **Run to Cursor** command runs your app until it reaches the cursor location and then breaks. This does not imply that the current thread runs to the cursor; rather, it means that the first thread that reaches the cursor point triggers the break. See [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
 
-2.  The **Run Current Tile to Cursor** command runs your app until all of the threads in the current tile reach the cursor and then breaks.
+2. The **Run Current Tile to Cursor** command runs your app until all of the threads in the current tile reach the cursor and then breaks.
 
 ## Debugging Windows
  By using certain debugging windows, you can examine, flag, and freeze GPU threads. For more information, see:

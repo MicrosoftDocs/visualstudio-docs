@@ -35,17 +35,17 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
 ### To add WPF controls to an actions pane, custom task pane, or form region
 
-1.  Open a project to which you want to add a custom task pane, an actions pane, or a form region.
+1. Open a project to which you want to add a custom task pane, an actions pane, or a form region.
 
-2.  Add a **User Control (WPF)** item to your project.
+2. Add a **User Control (WPF)** item to your project.
 
-3.  From the **Toolbox**, add WPF controls to the WPF user control design surface.
+3. From the **Toolbox**, add WPF controls to the WPF user control design surface.
 
      By default, when the WPF user control designer is open, the **Toolbox** contains only WPF controls.
 
-4.  Build the project.
+4. Build the project.
 
-5.  Add an actions pane, form region, or custom task pane to your project:
+5. Add an actions pane, form region, or custom task pane to your project:
 
     -   For form regions, add an **Outlook Form Region** item to the project. For more information, see [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md).
 
@@ -53,31 +53,31 @@ You cannot add WPF controls directly to UI elements in Office solutions. Instead
 
     -   For custom task panes, add a **User Control** item to the project. For more information, see [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).
 
-6.  From the *ProjectName* **WPF User Controls** tab of the **Toolbox**, drag the WPF user control to the designer for the actions pane, form region, or custom task pane.
+6. From the *ProjectName* **WPF User Controls** tab of the **Toolbox**, drag the WPF user control to the designer for the actions pane, form region, or custom task pane.
 
      Visual Studio automatically creates an <xref:System.Windows.Forms.Integration.ElementHost> object that hosts the WPF user control on the UI element.
 
-7.  Rebuild the project.
+7. Rebuild the project.
 
 #### To add WPF controls to a document or worksheet in a document-level project
 
-1.  Open a document-level project for Word or Excel.
+1. Open a document-level project for Word or Excel.
 
-2.  Add a **User Control (WPF)** item to your project.
+2. Add a **User Control (WPF)** item to your project.
 
-3.  From the **Toolbox**, add WPF controls to the WPF user control design surface.
+3. From the **Toolbox**, add WPF controls to the WPF user control design surface.
 
-4.  Build the project.
+4. Build the project.
 
-5.  Add a **User Control** item (that is, a Windows Forms user control) to the project.
+5. Add a **User Control** item (that is, a Windows Forms user control) to the project.
 
-6.  Open the designer for the Windows Forms user control.
+6. Open the designer for the Windows Forms user control.
 
-7.  From the *ProjectName* **WPF User Controls** tab of the **Toolbox**, drag the WPF user control to the designer.
+7. From the *ProjectName* **WPF User Controls** tab of the **Toolbox**, drag the WPF user control to the designer.
 
      Visual Studio automatically creates an <xref:System.Windows.Forms.Integration.ElementHost> object that hosts the WPF user control in the Windows Forms user control.
 
-8.  Write code that programmatically adds the Windows Forms user control to the document or workbook. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+8. Write code that programmatically adds the Windows Forms user control to the document or workbook. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
     > [!NOTE]
     > You cannot drag the Windows Forms user control to the document or worksheet in the designer.

@@ -82,21 +82,21 @@ ms.workload:
 
 ### To add two named ranges
 
-1.  Verify that the *My Simple Data Binding.xlsx* workbook is open in the Visual Studio designer, with **Sheet1** displayed.
+1. Verify that the *My Simple Data Binding.xlsx* workbook is open in the Visual Studio designer, with **Sheet1** displayed.
 
-2.  Open the **Data Sources** window and expand the **Customers** node.
+2. Open the **Data Sources** window and expand the **Customers** node.
 
-3.  Select the **CompanyName** column, and then click the drop-down arrow that appears.
+3. Select the **CompanyName** column, and then click the drop-down arrow that appears.
 
-4.  Select **NamedRange** in the drop-down list, and then drag the **CompanyName** column to cell **A1**.
+4. Select **NamedRange** in the drop-down list, and then drag the **CompanyName** column to cell **A1**.
 
      A <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `companyNameNamedRange` is created in cell **A1**. At the same time, a <xref:System.Windows.Forms.BindingSource> named `customersBindingSource`, a table adapter, and a <xref:System.Data.DataSet> instance are added to the project. The control is bound to the <xref:System.Windows.Forms.BindingSource>, which in turn is bound to the <xref:System.Data.DataSet> instance.
 
-5.  Select the **CustomerID** column in the **Data Sources** window, and then click the drop-down arrow that appears.
+5. Select the **CustomerID** column in the **Data Sources** window, and then click the drop-down arrow that appears.
 
-6.  Click **NamedRange** in the drop-down list, and then drag the **CustomerID** column to cell **B1**.
+6. Click **NamedRange** in the drop-down list, and then drag the **CustomerID** column to cell **B1**.
 
-7.  Another <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `customerIDNamedRange` is created in cell **B1**, and bound to the <xref:System.Windows.Forms.BindingSource>.
+7. Another <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `customerIDNamedRange` is created in cell **B1**, and bound to the <xref:System.Windows.Forms.BindingSource>.
 
 ### To add four buttons
 
@@ -137,28 +137,28 @@ ms.workload:
 
 ### To move to the first record
 
-1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button1` button, and add the following code to move to the first record:
+1. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button1` button, and add the following code to move to the first record:
 
      [!code-csharp[Trin_VstcoreDataExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#4)]
      [!code-vb[Trin_VstcoreDataExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#4)]
 
 ### To move to the previous record
 
-1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button2` button, and add the following code to move the position back by one:
+1. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button2` button, and add the following code to move the position back by one:
 
      [!code-csharp[Trin_VstcoreDataExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#5)]
      [!code-vb[Trin_VstcoreDataExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#5)]
 
 ### To move to the next record
 
-1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button3` button, and add the following code to advance the position by one:
+1. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button3` button, and add the following code to advance the position by one:
 
      [!code-csharp[Trin_VstcoreDataExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#6)]
      [!code-vb[Trin_VstcoreDataExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#6)]
 
 ### To move to the last record
 
-1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button4` button, and add the following code to move to the last record:
+1. Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button4` button, and add the following code to move to the last record:
 
      [!code-csharp[Trin_VstcoreDataExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#7)]
      [!code-vb[Trin_VstcoreDataExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#7)]
@@ -168,13 +168,13 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Confirm that the first record appears in cells **A1** and **B1**.
+2. Confirm that the first record appears in cells **A1** and **B1**.
 
-3.  Click the **>** (`Button3`) button and confirm that the next record appears in cell **A1** and **B1**.
+3. Click the **>** (`Button3`) button and confirm that the next record appears in cell **A1** and **B1**.
 
-4.  Click the other scroll buttons to confirm that the record changes as expected.
+4. Click the other scroll buttons to confirm that the record changes as expected.
 
 ## Next steps
  This walkthrough shows the basics of binding a named range to a field in a database. Here are some tasks that might come next:

@@ -25,11 +25,11 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 #### To open an empty rule set file in the rule set editor  
   
-1.  On the **File** menu of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], point to **New** and then click **File**.  
+1. On the **File** menu of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], point to **New** and then click **File**.  
   
-2.  In the **New File** dialog box, click **General** in the **Installed Templates** list, and then select **Code Analysis Rule Set**.  
+2. In the **New File** dialog box, click **General** in the **Installed Templates** list, and then select **Code Analysis Rule Set**.  
   
-3.  The rule set editor appears. No rules are selected in the editor list.  
+3. The rule set editor appears. No rules are selected in the editor list.  
   
 #### To create a custom rule from a single existing rule set  
   
@@ -49,21 +49,21 @@ In [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)], [!INCLUDE[vsPreShort](.
   
 #### To create a custom rule set from multiple existing rule sets  
   
-1.  In Solution Explorer, right-click the project and then select **Properties**.  
+1. In Solution Explorer, right-click the project and then select **Properties**.  
   
-2.  On the **Properties** tab, click **Code Analysis**.  
+2. On the **Properties** tab, click **Code Analysis**.  
   
-3.  Select **\<Choose multiple rule sets...>** from **Run this rule set**.  
+3. Select **\<Choose multiple rule sets...>** from **Run this rule set**.  
   
-4.  In the **Add or Remove Rule Sets** dialog box, select the rule sets on which you want to base your new rule set and then click **OK**.  
+4. In the **Add or Remove Rule Sets** dialog box, select the rule sets on which you want to base your new rule set and then click **OK**.  
   
-5.  Save the new rule set.  
+5. Save the new rule set.  
   
      The name of the new rule set is selected in the **Run this rule set** list. You can change the display name of the rule set in the next step.  
   
-6.  (Optional) To change the display name of the rule set, on the **View** menu, click **Properties Window**. Type the display name in the **Name** box.  
+6. (Optional) To change the display name of the rule set, on the **View** menu, click **Properties Window**. Type the display name in the **Name** box.  
   
-7.  To add, remove, or modify specific code analysis rules in the new rule set, click **Open**.  
+7. To add, remove, or modify specific code analysis rules in the new rule set, click **Open**.  
   
 ## Modifying a rule set  
   

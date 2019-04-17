@@ -35,22 +35,22 @@ In this tutorial, you will:
 
 ## Collect memory usage data
 
-1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to begin examining memory usage.
+1. Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to begin examining memory usage.
 
     If you have an area where you suspect a memory issue, set the first breakpoint before the memory issue occurs.
 
     > [!TIP]
     >  Because it can be challenging to capture the memory profile of an operation that interests you when your app frequently allocates and de-allocates memory, set breakpoints at the start and end of the operation (or step through the operation) to find the exact point that memory changed.
 
-2.  Set a second breakpoint at the end of the function or region of code that you want to analyze (or after a suspected memory issue occurs).
+2. Set a second breakpoint at the end of the function or region of code that you want to analyze (or after a suspected memory issue occurs).
 
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+3. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
+4. Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
 
      ![Show Diagnostics Tools](../profiling/media/diag-tools-select-tool-2.png "DiagToolsSelectTool")
 
-5.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+5. Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
@@ -63,20 +63,20 @@ In this tutorial, you will:
      >
      >  Stop (Shortcut key: **Shift**+**F5**) and restart debugging.
 
-6.  To take a snapshot at the start of your debugging session, choose **Take snapshot** on the **Memory Usage** summary toolbar. (It may help to set a breakpoint here as well.)
+6. To take a snapshot at the start of your debugging session, choose **Take snapshot** on the **Memory Usage** summary toolbar. (It may help to set a breakpoint here as well.)
 
     ![Take snapshot](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot")
 
      > [!TIP]
      >  To create a baseline for memory comparisons, consider taking a snapshot at the start of your debugging session.
 
-6.  Run the scenario that will cause your first breakpoint to be hit.
+6. Run the scenario that will cause your first breakpoint to be hit.
 
-7.  While the debugger is paused at the first breakpoint, choose **Take snapshot** on the **Memory Usage** summary toolbar.
+7. While the debugger is paused at the first breakpoint, choose **Take snapshot** on the **Memory Usage** summary toolbar.
 
-8.  Press **F5** to run the app to your second breakpoint.
+8. Press **F5** to run the app to your second breakpoint.
 
-9.  Now, take another snapshot.
+9. Now, take another snapshot.
 
      At this point, you can begin to analyze the data.
 

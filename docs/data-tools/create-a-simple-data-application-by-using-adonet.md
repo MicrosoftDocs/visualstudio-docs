@@ -118,16 +118,16 @@ Create the sample database by following these steps:
 
  You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
 
-1.  If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.
+1. If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.
     If you're using Visual Basic, in **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.
 
-2.  In the **Name** column, enter `connString`.
+2. In the **Name** column, enter `connString`.
 
-3.  In the **Type** list, select **(Connection String)**.
+3. In the **Type** list, select **(Connection String)**.
 
-4.  In the **Scope** list, select **Application**.
+4. In the **Scope** list, select **Application**.
 
-5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
+5. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
 
 > [!NOTE]
 > In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).

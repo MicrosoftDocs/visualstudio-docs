@@ -35,11 +35,11 @@ You can use the **Data Sources** window to bind an image in a database to a cont
   
 ## Bind a picture in a database to a control  
   
-1.  Make sure that the design surface you want to add the control to is open in the WPF Designer or the Windows Forms Designer.  
+1. Make sure that the design surface you want to add the control to is open in the WPF Designer or the Windows Forms Designer.  
   
-2.  In the **Data Sources** window, expand the desired table or object to display its columns or properties.  
+2. In the **Data Sources** window, expand the desired table or object to display its columns or properties.  
   
-3.  Select the column or property that contains your image data, and select one of the following controls from its drop-down control list:  
+3. Select the column or property that contains your image data, and select one of the following controls from its drop-down control list:  
   
     -   If the WPF designer is open, select **Image**.  
   

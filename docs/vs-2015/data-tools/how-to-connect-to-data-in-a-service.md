@@ -37,20 +37,20 @@ You connect your application to the data returned from a service by running the 
   
 ### To connect your application to a service  
   
-1.  On the **Data** menu, click **Add New Data Source**.  
+1. On the **Data** menu, click **Add New Data Source**.  
   
-2.  Select **Service** on the **Choose a Data Source Type** page, and then click **Next**.  
+2. Select **Service** on the **Choose a Data Source Type** page, and then click **Next**.  
   
-3.  Enter the address of the service you want to use, or click **Discover** to locate services in the current solution, and then click **Go**.  
+3. Enter the address of the service you want to use, or click **Discover** to locate services in the current solution, and then click **Go**.  
   
-4.  Optionally, a new **Namespace** can be typed in place of the default value.  
+4. Optionally, a new **Namespace** can be typed in place of the default value.  
   
     > [!NOTE]
     >  Click **Advanced** to open the [Configure Service Reference Dialog Box](../data-tools/configure-service-reference-dialog-box.md).  
   
-5.  Click **OK** to add a service reference to your project.  
+5. Click **OK** to add a service reference to your project.  
   
-6.  Click **Finish**.  
+6. Click **Finish**.  
   
      The data source is added to the **Data Sources** window.  
   

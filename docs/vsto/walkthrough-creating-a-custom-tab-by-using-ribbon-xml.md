@@ -44,7 +44,7 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create a **Word Add-in** project with the name **MyRibbonAddIn**.
+1. Create a **Word Add-in** project with the name **MyRibbonAddIn**.
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -55,31 +55,31 @@ ms.workload:
 
 ### To create the Add-ins tab
 
-1.  On the **Project** menu, click **Add New Item**.
+1. On the **Project** menu, click **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **Ribbon (XML)**.
+2. In the **Add New Item** dialog box, select **Ribbon (XML)**.
 
-3.  Change the name of the new Ribbon to **MyRibbon**, and click **Add**.
+3. Change the name of the new Ribbon to **MyRibbon**, and click **Add**.
 
      The **MyRibbon.cs** or **MyRibbon.vb** file opens in the designer. An XML file that is named **MyRibbon.xml** is also added to your project.
 
-4.  In **Solution Explorer**, right-click **ThisAddin.cs** or **ThisAddin.vb**, and then click **View Code**.
+4. In **Solution Explorer**, right-click **ThisAddin.cs** or **ThisAddin.vb**, and then click **View Code**.
 
-5.  Add the following code to the **ThisAddin** class. This code overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.
+5. Add the following code to the **ThisAddin** class. This code overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]
 
-6.  In **Solution Explorer**, right-click the **MyRibbonAddIn** project and then click **Build**. Verify that the project builds without errors.
+6. In **Solution Explorer**, right-click the **MyRibbonAddIn** project and then click **Build**. Verify that the project builds without errors.
 
 ## Add buttons to the Add-ins tab
  The goal for this VSTO Add-in is to give users a way to add boilerplate text and a specific table to the active document. To provide the user interface, add two buttons to the **Add-Ins** tab by modifying the Ribbon XML file. Later in this walkthrough, you will define callback methods for the buttons. For more information about the Ribbon XML file, see [Ribbon XML](../vsto/ribbon-xml.md).
 
 ### To add buttons to the Add-ins tab
 
-1.  In **Solution Explorer**, right-click **MyRibbon.xml** and then click **Open**.
+1. In **Solution Explorer**, right-click **MyRibbon.xml** and then click **Open**.
 
-2.  Replace the contents of the **tab** element with the following XML. This XML changes the label of the default control group to **Content**, and it adds two new buttons with the labels **Insert Text** and **Insert Table**.
+2. Replace the contents of the **tab** element with the following XML. This XML changes the label of the default control group to **Content**, and it adds two new buttons with the labels **Insert Text** and **Insert Table**.
 
     ```xml
     <tab idMso="TabAddIns">
@@ -99,19 +99,19 @@ ms.workload:
 
 ### To add callback methods for the buttons
 
-1.  In **Solution Explorer**, right-click **MyRibbon.cs** or **MyRibbon.vb**, and then click **Open**.
+1. In **Solution Explorer**, right-click **MyRibbon.cs** or **MyRibbon.vb**, and then click **Open**.
 
-2.  Add the following code to the top of the **MyRibbon.cs** or **MyRibbon.vb** file. This code creates an alias for the <xref:Microsoft.Office.Interop.Word> namespace.
+2. Add the following code to the top of the **MyRibbon.cs** or **MyRibbon.vb** file. This code creates an alias for the <xref:Microsoft.Office.Interop.Word> namespace.
 
      [!code-csharp[Trin_RibbonButtons#1](../vsto/codesnippet/CSharp/Trin_RibbonButtons/MyRibbon.cs#1)]
      [!code-vb[Trin_RibbonButtons#1](../vsto/codesnippet/VisualBasic/Trin_RibbonButtons/MyRibbon.vb#1)]
 
-3.  Add the following method to the `MyRibbon` class. This is a callback method for the **Insert Text** button that adds a string to the active document at the current location of the cursor.
+3. Add the following method to the `MyRibbon` class. This is a callback method for the **Insert Text** button that adds a string to the active document at the current location of the cursor.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#2](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs#2)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#2](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb#2)]
 
-4.  Add the following method to the `MyRibbon` class. This is a callback method for the **Insert Table** button that adds a table to the active document at the current location of the cursor.
+4. Add the following method to the `MyRibbon` class. This is a callback method for the **Insert Table** button that adds a table to the active document at the current location of the cursor.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs#3)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb#3)]
@@ -121,19 +121,19 @@ ms.workload:
 
 ### To test your VSTO Add-in
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Confirm that the **Add-Ins** tab is visible on the ribbon.
+2. Confirm that the **Add-Ins** tab is visible on the ribbon.
 
-3.  Click the **Add-Ins** tab.
+3. Click the **Add-Ins** tab.
 
-4.  Confirm that the **Content** group is visible on the ribbon.
+4. Confirm that the **Content** group is visible on the ribbon.
 
-5.  Click the **Insert Text** button in the **Content** group.
+5. Click the **Insert Text** button in the **Content** group.
 
      A string is added to the document at the current location of the cursor.
 
-6.  Click the **Insert Table** button in the **Content** group.
+6. Click the **Insert Table** button in the **Content** group.
 
      A table is added to the document at the current location of the cursor.
 

@@ -49,9 +49,9 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ### To set dialog box options from the keyboard
 
-1.  Use **Tab** or **Shift** + **Tab** to move up and down through the controls in the dialog box.
+1. Use **Tab** or **Shift** + **Tab** to move up and down through the controls in the dialog box.
 
-2.  To change option settings:
+2. To change option settings:
 
     -   For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.
 
@@ -75,23 +75,23 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ### To move and dock tool windows from the keyboard
 
-1.  Navigate to the tool window you intend to move and give it focus.
+1. Navigate to the tool window you intend to move and give it focus.
 
-2.  On the **Window** menu, select the  **Dockable** option.
+2. On the **Window** menu, select the  **Dockable** option.
 
-3.  Press **ALT** + **Space** and then choose **Move**.
+3. Press **ALT** + **Space** and then choose **Move**.
 
      The docking guide diamond appears.
 
-4.  Use the **ARROW** keys to move the window to a new location.
+4. Use the **ARROW** keys to move the window to a new location.
 
      The mouse pointer moves with the window as you use the **ARROW** keys.
 
-5.  When you have reached the new location, use the **ARROW** keys to move the mouse pointer over the correct portion of the guide diamond.
+5. When you have reached the new location, use the **ARROW** keys to move the mouse pointer over the correct portion of the guide diamond.
 
      An outline of the tool window appears in the new docking location.
 
-6.  Press **ENTER**.
+6. Press **ENTER**.
 
      The tool window snaps into place at the new docking location.
 

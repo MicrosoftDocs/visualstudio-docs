@@ -60,9 +60,9 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 ## <a name="MapStack"></a> Map the call stack
 
-1.  Start debugging. (Keyboard: **F5**)
+1. Start debugging. (Keyboard: **F5**)
 
-2.  After your app enters break mode or you step into a function, choose **Code Map**. (Keyboard: **Ctrl** + **Shift** + **`**)
+2. After your app enters break mode or you step into a function, choose **Code Map**. (Keyboard: **Ctrl** + **Shift** + **`**)
 
      ![Choose Code Map to start mapping call stack](../debugger/media/debuggermap_choosecodemap.png)
 

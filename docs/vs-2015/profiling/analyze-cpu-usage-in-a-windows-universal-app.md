@@ -31,15 +31,15 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ##  <a name="BKMK_Create_the_CpuUseDemo_project"></a> Create the CpuUseDemo project  
  **CpuUseDemo** is an app that was created to demonstrate how to collect and analyze CPU usage data. The buttons generate a number by calling a method that selects the maximum value from multiple calls to a function. The called function creates a very large number of random values and then returns the last one. The data is displayed in a text box.  
   
-1.  Create a new C# Windows Universal app project named **CpuUseDemo** using the **BlankApp** template.  
+1. Create a new C# Windows Universal app project named **CpuUseDemo** using the **BlankApp** template.  
   
      ![Create the CpuUseDemoProject](../profiling/media/cpu-use-newproject.png "CPU_USE_NewProject")  
   
-2.  Replace MainPage.xaml with [this code](#BKMK_MainPage_xaml).  
+2. Replace MainPage.xaml with [this code](#BKMK_MainPage_xaml).  
   
-3.  Replace MainPage.xaml.cs with [this code](#BKMK_MainPage_xaml_cs).  
+3. Replace MainPage.xaml.cs with [this code](#BKMK_MainPage_xaml_cs).  
   
-4.  Build the app and try it out. The app is simple enough to show you some common cases of CPU Usage data analysis.  
+4. Build the app and try it out. The app is simple enough to show you some common cases of CPU Usage data analysis.  
   
 ##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
  ![Run a release build of the app in the simulator](../profiling/media/cpu-use-wt-setsimulatorandretail.png "CPU_USE_WT_SetSimulatorAndRetail")  

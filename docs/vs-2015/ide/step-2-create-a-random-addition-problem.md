@@ -20,13 +20,13 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
   
 ### To create a random addition problem  
   
-1.  In the form designer, choose the form (Form1).  
+1. In the form designer, choose the form (Form1).  
   
-2.  On the menu bar, choose **View**, **Code**.  
+2. On the menu bar, choose **View**, **Code**.  
   
      Form1.cs or Form1.vb appears, depending on the programming language that you're using, so that you can view the code behind the form.  
   
-3.  Create a `Random` object by adding a `new` statement near the top of the code, like the following.  
+3. Create a `Random` object by adding a `new` statement near the top of the code, like the following.  
   
      [!code-csharp[VbExpressTutorial3Step2#1](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs#1)]
      [!code-vb[VbExpressTutorial3Step2#1](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb#1)]  
@@ -37,7 +37,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
   
      Soon you'll build a method to check the answers, so your quiz must use variables to store the random numbers that it generates for each problem. See [Variables](http://msdn.microsoft.com/library/4cfaa06d-4ae3-4307-897b-cf599dc24caa) or [Types](http://msdn.microsoft.com/library/f782d7cc-035e-4500-b1b1-36a9881130ad). To properly use variables, you must declare them, which means listing their names and data types.  
   
-4.  Add two integer variables to the form, and name them **addend1** and **addend2**.  
+4. Add two integer variables to the form, and name them **addend1** and **addend2**.  
   
     > [!NOTE]
     >  An integer variable is known as an int in C# or an Integer in Visual Basic. This kind of variable stores a positive or negative number from -2147483648 through 2147483647 and can store only whole numbers, not decimals.  
@@ -47,7 +47,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
      [!code-csharp[VbExpressTutorial3Step2#2](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs#2)]
      [!code-vb[VbExpressTutorial3Step2#2](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb#2)]  
   
-5.  Add a method that's named `StartTheQuiz()` and that uses the `Random` object's `Next()` method to show the random numbers in the labels. `StartTheQuiz()` will eventually fill in all of the problems and then start the timer, so add a comment. The function should look like the following.  
+5. Add a method that's named `StartTheQuiz()` and that uses the `Random` object's `Next()` method to show the random numbers in the labels. `StartTheQuiz()` will eventually fill in all of the problems and then start the timer, so add a comment. The function should look like the following.  
   
      [!code-csharp[VbExpressTutorial3Step2#3](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs#3)]
      [!code-vb[VbExpressTutorial3Step2#3](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb#3)]  
@@ -69,18 +69,18 @@ Next method
   
      The statements set the **Text** properties of **plusLeftLabel** and **plusRightLabel** so that they display the two random numbers. You must use the integer's `ToString()` method to convert the numbers to text. (In programming, string means text. Label controls display only text, not numbers.  
   
-6.  In the design window, either double-click the **Start** button, or choose it and then choose the Enter key.  
+6. In the design window, either double-click the **Start** button, or choose it and then choose the Enter key.  
   
      When a quiz taker chooses this button, the quiz should start, and you've just added a Click event handler to implement that behavior.  
   
-7.  Add the following two statements.  
+7. Add the following two statements.  
   
      [!code-csharp[VbExpressTutorial3Step2#4](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs#4)]
      [!code-vb[VbExpressTutorial3Step2#4](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb#4)]  
   
      The first statement calls the new `StartTheQuiz()` method. The second statement sets the **Enabled** property of the **startButton** control to **False** so that the quiz taker can't choose the button during a quiz.  
   
-8.  Save your code, run it, and then choose the **Start** button.  
+8. Save your code, run it, and then choose the **Start** button.  
   
      A random addition problem appears, as the following illustration shows.  
   

@@ -18,7 +18,7 @@ ms.workload:
 
 ### To run code when deployment steps are executed
 
-1.  Create a project item extension, a project extension, or a definition of a new project item type. For more information, see the following topics:
+1. Create a project item extension, a project extension, or a definition of a new project item type. For more information, see the following topics:
 
     -   [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)
 
@@ -26,9 +26,9 @@ ms.workload:
 
     -   [How to: Define a SharePoint project item type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md)
 
-2.  In the extension, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepCompleted> events of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType> object (in a project item extension or project extension) or an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition> object (in a definition of a new project item type).
+2. In the extension, handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepCompleted> events of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemType> object (in a project item extension or project extension) or an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeDefinition> object (in a definition of a new project item type).
 
-3.  In the event handlers, use the <xref:Microsoft.VisualStudio.SharePoint.DeploymentStepStartedEventArgs> and <xref:Microsoft.VisualStudio.SharePoint.DeploymentStepCompletedEventArgs> parameters to get information about the deployment step. For example, you can determine which deployment step is executing and whether the solution is being deployed or retracted.
+3. In the event handlers, use the <xref:Microsoft.VisualStudio.SharePoint.DeploymentStepStartedEventArgs> and <xref:Microsoft.VisualStudio.SharePoint.DeploymentStepCompletedEventArgs> parameters to get information about the deployment step. For example, you can determine which deployment step is executing and whether the solution is being deployed or retracted.
 
 ## Example
  The following code example demonstrates how to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepStarted> and <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemEvents.DeploymentStepCompleted> events in an extension for the List Instance project item. This extension writes an additional message to the **Output** window when Visual Studio recycles the application pool while deploying and retracting the solution.

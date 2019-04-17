@@ -84,9 +84,9 @@ SCCRTN SccGet(
 
  There are two ways to resolve this situation where the local cache of source control versions becomes out of sync with the source control database:
 
-1.  Do not allow renaming a file in the source control database that is currently checked out.
+1. Do not allow renaming a file in the source control database that is currently checked out.
 
-2.  Do the equivalent of "delete old" followed by "add new". The following algorithm is one way to accomplish this.
+2. Do the equivalent of "delete old" followed by "add new". The following algorithm is one way to accomplish this.
 
     1.  Call the [SccQueryChanges](../extensibility/sccquerychanges-function.md) function to learn about the renaming of *a.txt* to *b.txt* in the source control database.
 

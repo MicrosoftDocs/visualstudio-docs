@@ -32,16 +32,16 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
   
  The elements shown in the figure are as follows.  
   
-1.  A combined fragment. There are several kinds of combined fragments. This example is an Alt combined fragment, which you can use to show that alternative sequences of messages can occur.  
+1. A combined fragment. There are several kinds of combined fragments. This example is an Alt combined fragment, which you can use to show that alternative sequences of messages can occur.  
   
-2.  Interaction operands. Every combined fragment contains at least one interaction operand, which can contain messages, interaction uses, and smaller combined fragments. In this example, the Alt combined fragment has two interaction operations, showing two alternative sequences of messages.  
+2. Interaction operands. Every combined fragment contains at least one interaction operand, which can contain messages, interaction uses, and smaller combined fragments. In this example, the Alt combined fragment has two interaction operations, showing two alternative sequences of messages.  
   
-3.  You can select each interaction operand separately by clicking inside it. In this example, the top interaction operand is selected, so that its boundary can be seen. Typically, only the dividing line between interaction operands is visible.  
+3. You can select each interaction operand separately by clicking inside it. In this example, the top interaction operand is selected, so that its boundary can be seen. Typically, only the dividing line between interaction operands is visible.  
   
     > [!NOTE]
     >  To select the top interaction operand, you must not click too close to the top of the combined fragment.  
   
-4.  Guards. You can give each interaction operand a guard. This describes the condition under which the messages inside the interaction operand will be performed.  
+4. Guards. You can give each interaction operand a guard. This describes the condition under which the messages inside the interaction operand will be performed.  
   
 ## Creating Combined Fragments  
  For a list of the kinds of fragment you can create, see [Kinds of Combined Fragment](#KindsOfFragment).  

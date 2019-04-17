@@ -151,9 +151,9 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   
 ##### To prepare your app to capture graphics information programmatically  
   
-1.  Make sure that the `vsgcapture.h` header is included in the source code for the app. It can be included in just one location—for example, in the source code file where you will call the programmatic capture API—or in a precompiled header file to call the API from multiple source code files.  
+1. Make sure that the `vsgcapture.h` header is included in the source code for the app. It can be included in just one location—for example, in the source code file where you will call the programmatic capture API—or in a precompiled header file to call the API from multiple source code files.  
   
-2.  In the source code for the app, whenever you want to capture the remainder of the current frame, call `g_pVsgDbg->CaptureCurrentFrame()`. This method takes no parameters and doesn't return a value.  
+2. In the source code for the app, whenever you want to capture the remainder of the current frame, call `g_pVsgDbg->CaptureCurrentFrame()`. This method takes no parameters and doesn't return a value.  
   
 ### Configuring the name and location of the graphics log file  
  The graphics log is created in the location that's defined by the `DONT_SAVE_VSGLOG_TO_TEMP` and `VSG_DEFAULT_RUN_FILENAME` macros.  

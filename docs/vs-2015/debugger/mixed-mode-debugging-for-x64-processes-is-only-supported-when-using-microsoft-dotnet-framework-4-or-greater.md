@@ -36,19 +36,19 @@ NET Framework versions earlier than 4 do not provide support for mixed-mode debu
   
 ### To change the platform to 32-bit (Visual Basic or C#)  
   
-1.  In **Solution Explorer**, right-click your project, and then click **Properties**.  
+1. In **Solution Explorer**, right-click your project, and then click **Properties**.  
   
-2.  In the property pages, click the **Compile** or the **Debug** tab.  
+2. In the property pages, click the **Compile** or the **Debug** tab.  
   
-3.  Click **Platform** and select x86 from the list of platforms.  
+3. Click **Platform** and select x86 from the list of platforms.  
   
      By default, the Visual Basic and C# compilers default produce code to run on any CPU. On a 64-bit computer, these binaries run as 64-bit processes. To run on a 32-bit process, you must choose **Win32**, not **AnyCPU**.  
   
 ### To change the platform to 32-bit (C/C++)  
   
-1.  In **Solution Explorer**, right-click your project, then click **Properties**.  
+1. In **Solution Explorer**, right-click your project, then click **Properties**.  
   
-2.  In the Property Pages, click **Platform** and select Win32 from the list of platforms.  
+2. In the Property Pages, click **Platform** and select Win32 from the list of platforms.  
   
 ### To correct this error  
   

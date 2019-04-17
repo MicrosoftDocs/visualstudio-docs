@@ -20,7 +20,7 @@ ms.workload:
 
 ### To execute a SharePoint command
 
-1.  In your SharePoint tools extension, get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. The way you get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object depends on the type of extension you are creating:
+1. In your SharePoint tools extension, get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. The way you get an <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object depends on the type of extension you are creating:
 
     -   In an extension of the SharePoint project system, use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.SharePointConnection%2A> property.
 
@@ -34,7 +34,7 @@ ms.workload:
 
          For more information about retrieving the project service, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).
 
-2.  Call one of the ExecuteCommand methods of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. Pass the name of the command you want to execute to the first argument of the ExecuteCommand method. If your command has a custom parameter, pass that parameter to the second argument of the ExecuteCommand method.
+2. Call one of the ExecuteCommand methods of the <xref:Microsoft.VisualStudio.SharePoint.ISharePointConnection> object. Pass the name of the command you want to execute to the first argument of the ExecuteCommand method. If your command has a custom parameter, pass that parameter to the second argument of the ExecuteCommand method.
 
      There is a different ExecuteCommand overload for each supported command signature. The following table lists the supported signatures and which overload to use for each signature.
 

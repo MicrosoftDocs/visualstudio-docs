@@ -70,23 +70,23 @@ Relationships between data tables appear as lines in the **Dataset Designer**, w
 
 #### To create a relationship between two data tables
 
-1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  Drag a **Relation** object from the **DataSet** toolbox onto the child data table in the relationship.
+2. Drag a **Relation** object from the **DataSet** toolbox onto the child data table in the relationship.
 
      The **Relation** dialog box opens, populating the **Child Table** box with the table that you dragged the **Relation** object onto.
 
-3.  Select the parent table from the **Parent Table** box. The parent table contains records on the "one" side of a one-to-many relationship.
+3. Select the parent table from the **Parent Table** box. The parent table contains records on the "one" side of a one-to-many relationship.
 
-4.  Verify that the correct child table is displayed in the **Child Table** box. The child table contains records on the "many" side of a one-to-many relationship.
+4. Verify that the correct child table is displayed in the **Child Table** box. The child table contains records on the "many" side of a one-to-many relationship.
 
-5.  Type a name for the relationship in the **Name** box, or leave the default name based on the selected tables. This is the name of the actual <xref:System.Data.DataRelation> object in code.
+5. Type a name for the relationship in the **Name** box, or leave the default name based on the selected tables. This is the name of the actual <xref:System.Data.DataRelation> object in code.
 
-6.  Select the columns that join the tables in the **Key Columns** and **Foreign Key Columns** lists.
+6. Select the columns that join the tables in the **Key Columns** and **Foreign Key Columns** lists.
 
-7.  Select whether to create a relation, constraint, or both.
+7. Select whether to create a relation, constraint, or both.
 
-8.  Select or clear the **Nested Relation** box. Selecting this option sets the <xref:System.Data.DataRelation.Nested%2A> property to `true`, and it causes the child rows of the relation to be nested within the parent column when those rows are written as XML data or synchronized with <xref:System.Xml.XmlDataDocument>. For more information, see [Nesting DataRelations](/dotnet/framework/data/adonet/dataset-datatable-dataview/nesting-datarelations).
+8. Select or clear the **Nested Relation** box. Selecting this option sets the <xref:System.Data.DataRelation.Nested%2A> property to `true`, and it causes the child rows of the relation to be nested within the parent column when those rows are written as XML data or synchronized with <xref:System.Xml.XmlDataDocument>. For more information, see [Nesting DataRelations](/dotnet/framework/data/adonet/dataset-datatable-dataview/nesting-datarelations).
 
 9. Set the rules to be enforced when you're making changes to records in these tables. For more information, see <xref:System.Data.Rule>.
 
@@ -94,9 +94,9 @@ Relationships between data tables appear as lines in the **Dataset Designer**, w
 
 #### To display a relation name in the Dataset Designer
 
-1.  Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open your dataset in the **Dataset Designer**. For more information, see [Walkthrough: Creating a Dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.
+2. From the **Data** menu, select the **Show Relation Labels** command to display the relation name. Clear that command to hide the relation name.
 
 ## See also
 

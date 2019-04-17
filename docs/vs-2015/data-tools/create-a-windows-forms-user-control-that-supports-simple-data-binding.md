@@ -61,11 +61,11 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, from the **File** menu, create a new **Project**.  
   
-2.  Name the project **SimpleControlWalkthrough**.  
+2. Name the project **SimpleControlWalkthrough**.  
   
-3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application** and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **SimpleControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -74,9 +74,9 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To add a user control to the project  
   
-1.  From the **Project** menu, choose **Add User Control**.  
+1. From the **Project** menu, choose **Add User Control**.  
   
-2.  Type `PhoneNumberBox` in the Name area, and click **Add**.  
+2. Type `PhoneNumberBox` in the Name area, and click **Add**.  
   
      The **PhoneNumberBox** control is added to **Solution Explorer**, and opens in the designer.  
   
@@ -85,50 +85,50 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To design the PhoneNumberBox control  
   
-1.  Drag a <xref:System.Windows.Forms.MaskedTextBox> from the **Toolbox** onto the user control's design surface.  
+1. Drag a <xref:System.Windows.Forms.MaskedTextBox> from the **Toolbox** onto the user control's design surface.  
   
-2.  Select the smart tag on the <xref:System.Windows.Forms.MaskedTextBox> you just dragged, and choose **Set Mask**.  
+2. Select the smart tag on the <xref:System.Windows.Forms.MaskedTextBox> you just dragged, and choose **Set Mask**.  
   
-3.  Select **Phone number** in the **Input Mask** dialog box, and click **OK** to set the mask.  
+3. Select **Phone number** in the **Input Mask** dialog box, and click **OK** to set the mask.  
   
 ## Add the required data-binding attribute  
  For simple controls that support databinding, implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>.  
   
 #### To implement the DefaultBindingProperty attribute  
   
-1.  Switch the `PhoneNumberBox` control to code view. (On the **View** menu, choose **Code**.)  
+1. Switch the `PhoneNumberBox` control to code view. (On the **View** menu, choose **Code**.)  
   
-2.  Replace the code in the `PhoneNumberBox` with the following:  
+2. Replace the code in the `PhoneNumberBox` with the following:  
   
      [!code-csharp[VbRaddataDisplaying#3](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/PhoneNumberBox.cs#3)]
      [!code-vb[VbRaddataDisplaying#3](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/PhoneNumberBox.vb#3)]  
   
-3.  From the **Build** menu, choose **Build Solution**.  
+3. From the **Build** menu, choose **Build Solution**.  
   
 ## Create a data source from your database  
  This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection.
   
 #### To create the data source  
   
-1.  On the **Data** menu, click **Show Data Sources**.  
+1. On the **Data** menu, click **Show Data Sources**.  
   
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.  
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.  
   
-3.  On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.  
+3. On the **Choose a Data Source Type** page, select **Database**, and then click **Next**.  
   
-4.  On the **Choose your Data Connection** page, do one of the following:  
+4. On the **Choose your Data Connection** page, do one of the following:  
   
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.  
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.  
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.  
   
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.  
+7. On the **Choose your Database Objects** page, expand the **Tables** node.  
   
-8.  Select the `Customers` table, and then click **Finish**.  
+8. Select the `Customers` table, and then click **Finish**.  
   
      The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.  
   
@@ -137,17 +137,17 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 #### To set the phone column to bind to the PhoneNumberBox control  
   
-1.  Open **Form1** in the designer.  
+1. Open **Form1** in the designer.  
   
-2.  Expand the **Customers** node in the **Data Sources** window.  
+2. Expand the **Customers** node in the **Data Sources** window.  
   
-3.  Click the drop-down arrow on the **Customers** node, and choose **Details** from the control list.  
+3. Click the drop-down arrow on the **Customers** node, and choose **Details** from the control list.  
   
-4.  Click the drop-down arrow on the **Phone** column, and choose **Customize**.  
+4. Click the drop-down arrow on the **Phone** column, and choose **Customize**.  
   
-5.  Select the **PhoneNumberBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.  
+5. Select the **PhoneNumberBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.  
   
-6.  Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.  
+6. Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.  
   
 ## Addcontrols to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto the form.  

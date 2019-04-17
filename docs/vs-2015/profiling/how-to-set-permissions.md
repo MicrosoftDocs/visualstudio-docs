@@ -36,25 +36,25 @@ This topic describes how an Administrator of a computer grants the security perm
   
 ### To create a user account that has User permissions  
   
-1.  Right-click **My Computer** and then click **Manage**.  
+1. Right-click **My Computer** and then click **Manage**.  
   
      The **Computer Management** window opens.  
   
-2.  Expand **Local Users and Groups**.  
+2. Expand **Local Users and Groups**.  
   
-3.  Right-click the **Users** folder and then click **New User**.  
+3. Right-click the **Users** folder and then click **New User**.  
   
      The **New User** dialog box appears.  
   
-4.  Complete the fields in this dialog box with the information for the user account you are creating. Specify a password. Optionally, select the check box that requires that the user change the password at the next logon.  
+4. Complete the fields in this dialog box with the information for the user account you are creating. Specify a password. Optionally, select the check box that requires that the user change the password at the next logon.  
   
-5.  Click **Create** and then click **Close**.  
+5. Click **Create** and then click **Close**.  
   
      The new user appears in the Users group, a group of users who do not have Administrator permissions.  
   
 ### To grant access to shared project files  
   
-1.  In Windows Explorer (or File Explorer), locate the root of the folder tree for project files used by this user and shared by the project team.  
+1. In Windows Explorer (or File Explorer), locate the root of the folder tree for project files used by this user and shared by the project team.  
   
      The path of this folder might resemble the following:  
   
@@ -62,17 +62,17 @@ This topic describes how an Administrator of a computer grants the security perm
     D:\ourProject  
     ```  
   
-2.  Right-click the folder and then click **Properties**.  
+2. Right-click the folder and then click **Properties**.  
   
      The **\<folder name> Properties** dialog box appears.  
   
-3.  Click the **Security** tab.  
+3. Click the **Security** tab.  
   
-4.  Click the name of the user's account in the **Group or user names** box.  
+4. Click the name of the user's account in the **Group or user names** box.  
   
-5.  In the **Permissions for \<user name>** box, select the check box for **Full Control**.  
+5. In the **Permissions for \<user name>** box, select the check box for **Full Control**.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
      This grants permissions to the user for the shared folder tree that begins with the folder selected in step 5.  
   

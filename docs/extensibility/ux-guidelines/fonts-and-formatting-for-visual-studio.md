@@ -24,9 +24,9 @@ ms.workload:
 
  When creating UI elements that appear in the editor but are not part of the *content*, it is important to use the environment font and not the text font so that elements resize in a predictable way.
 
-1.  For code text in the editor, resize with the code text font setting and respond to the editor text's zoom level.
+1. For code text in the editor, resize with the code text font setting and respond to the editor text's zoom level.
 
-2.  All other elements of the interface should be tied to the environment font setting and respond to any global changes in the environment. This includes (but is not limited to):
+2. All other elements of the interface should be tied to the environment font setting and respond to any global changes in the environment. This includes (but is not limited to):
 
     -   Text in context menus
 
@@ -359,9 +359,9 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ##### Sentence case
  Sentence case is the standard capitalization method for writing in which only the first word of the sentence is capitalized, along with any proper nouns and the pronoun "I." In general, sentence case is easier for a worldwide audience to read, especially when the content will be translated by a machine. Use sentence case for:
 
-1.  **Status bar messages.** These are simple, short, and provide only status information. Example: "Loading project file"
+1. **Status bar messages.** These are simple, short, and provide only status information. Example: "Loading project file"
 
-2.  **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: "Select all items in list"
+2. **All other UI elements**, including labels, check boxes, radio buttons, and list box items. Example: "Select all items in list"
 
 ### Text formatting
  Default text formatting in Visual Studio 2013 is controlled by [The environment font](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TheEnvironmentFont). This service helps ensure a consistent font appearance throughout the IDE (integrated development environment), and you must use it to guarantee a consistent experience for your users.

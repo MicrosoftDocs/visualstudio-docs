@@ -45,9 +45,9 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
 **To disable Just-In-Time debugging by editing the registry:**
 
-1.  From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
+1. From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
 
-2.  In the **Registry Editor** window, locate and delete the following registry entries:
+2. In the **Registry Editor** window, locate and delete the following registry entries:
 
     -   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 
@@ -55,7 +55,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
     ![JIT registry key](../debugger/media/dbg-jit-registry.png "JIT registry key")
 
-3.  If your computer is running a 64-bit operating system, also delete the following registry entries:
+3. If your computer is running a 64-bit operating system, also delete the following registry entries:
 
     -   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
@@ -63,7 +63,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
     Make sure not to delete or change any other registry keys.
 
-5.  Close the **Registry Editor** window.
+5. Close the **Registry Editor** window.
 
 ## Enable Just-In-Time debugging of a Windows Form
 

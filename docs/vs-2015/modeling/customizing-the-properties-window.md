@@ -63,29 +63,29 @@ You can customize the appearance and behavior of the properties window in your d
   
 ##### To forward a property from another element  
   
-1.  Create a [!INCLUDE[dsl](../includes/dsl-md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.  
+1. Create a [!INCLUDE[dsl](../includes/dsl-md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.  
   
      The multiplicity of the source role (the role at the **Book** side) should be 0..1 or 1..1, so that each **Book** has one **Author**.  
   
-2.  In **DSL Explorer**, right-click the **Book** domain class, and then click **Add New DomainTypeDescriptor**.  
+2. In **DSL Explorer**, right-click the **Book** domain class, and then click **Add New DomainTypeDescriptor**.  
   
      A node named **Paths of Custom Property Descriptors** appears under the **Custom Type Descriptor** node.  
   
-3.  Right-click the **Custom Type Descriptor** node, and then click **Add New PropertyPath**.  
+3. Right-click the **Custom Type Descriptor** node, and then click **Add New PropertyPath**.  
   
      A new property path appears under the **Paths Of Custom Property Descriptors** node.  
   
-4.  Select the new property path, and in the **Properties** window, set **Path to Property** to the path of the appropriate model element.  
+4. Select the new property path, and in the **Properties** window, set **Path to Property** to the path of the appropriate model element.  
   
      You can edit the path in a tree view by clicking the down arrow to the right of this property. For more information about domain paths, see [Domain Path Syntax](../modeling/domain-path-syntax.md). When you have edited it, the path should resemble **BookReferencesAuthor.Author/!Author**.  
   
-5.  Set **Property** to the **Name** domain property of **Author**.  
+5. Set **Property** to the **Name** domain property of **Author**.  
   
-6.  Set **Display Name** to **Author Name**.  
+6. Set **Display Name** to **Author Name**.  
   
-7.  Transform All Templates, build and run the DSL.  
+7. Transform All Templates, build and run the DSL.  
   
-8.  In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.  
+8. In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.  
   
 ## Custom Property Editors  
  The property window provides an appropriate default editing experience for the type of each domain property. For example, for an enumerated type, the user sees a drop-down list, and for a numeric property, the user can enter digits. This is only true for the built-in types. If you specify an external type, the user will be able to see the property’s values, but not edit it.  
@@ -143,9 +143,9 @@ You can customize the appearance and behavior of the properties window in your d
   
 ##### To define a file name domain property  
   
-1.  Add a domain property to a domain class in your DSL Definition.  
+1. Add a domain property to a domain class in your DSL Definition.  
   
-2.  Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:  
+2. Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:  
   
     ```  
     [System.ComponentModel.Editor (  
@@ -154,9 +154,9 @@ You can customize the appearance and behavior of the properties window in your d
   
     ```  
   
-3.  Leave the Type of the domain property at its default setting of **String**.  
+3. Leave the Type of the domain property at its default setting of **String**.  
   
-4.  To test the editor, verify that users can open the file name editor to edit your domain property.  
+4. To test the editor, verify that users can open the file name editor to edit your domain property.  
   
     1.  Press CTRL+F5 or F5. In the debugging solution, open a test file. Create an element of the domain class and select it.  
   

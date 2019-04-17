@@ -43,15 +43,15 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 ####  <a name="TFS2013"></a> Team Foundation Server 2013
  Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
 
-1.  [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts)
+1. [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts)
 
      ![View build pipeline in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
 
-2.  Choose the default template (TfvcTemplate.12.xaml) or your own custom template.
+2. Choose the default template (TfvcTemplate.12.xaml) or your own custom template.
 
      ![Choose build process template &#45; TFS 2013](../debugger/media/ffr_tfs2013buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")
 
-3.  Specify where to save the symbols (PDB) file so that your source is indexed automatically.
+3. Specify where to save the symbols (PDB) file so that your source is indexed automatically.
 
      If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.
 
@@ -59,13 +59,13 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
      For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols?view=vsts).
 
-4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:
+4. Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:
 
      **/p:IncludeServerNameInBuildInfo=True**
 
      Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.
 
-5.  If you use a custom template, add this MSBuild argument to specify where to save the symbols file:
+5. If you use a custom template, add this MSBuild argument to specify where to save the symbols file:
 
      **/p:BuildSymbolStorePath=**\<*path to symbols*>
 
@@ -81,20 +81,20 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
      Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.
 
-6.  Run a new build.
+6. Run a new build.
 
     Go to [Step 2: Release your app](#DeployRelease)
 
 ####  <a name="TFS2012_2010"></a> Team Foundation Server 2012 or 2010
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.
 
-1.  Install Visual Studio 2013 (any edition) on your Team Foundation build server.
+1. Install Visual Studio 2013 (any edition) on your Team Foundation build server.
 
-2.  In your build pipeline, specify where to save the symbols so that your source is indexed automatically.
+2. In your build pipeline, specify where to save the symbols so that your source is indexed automatically.
 
      If you use a custom template, make sure that the template has an activity to index your source.
 
-3.  Add these MSBuild arguments to your build pipeline:
+3. Add these MSBuild arguments to your build pipeline:
 
     -   **/p:VisualStudioVersion=12.0**
 
@@ -106,16 +106,16 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
     -   **/p:BuildSymbolStorePath=**\<*path to symbols*>
 
-4.  Run a new build.
+4. Run a new build.
 
     Go to [Step 2: Release your app](#DeployRelease)
 
 ###  <a name="ManualBuild"></a> Create the build manifest for a manual build using Visual Studio
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.
 
-1.  In **Solution Explorer**, unload your web project.
+1. In **Solution Explorer**, unload your web project.
 
-2.  Open the project file (.csproj, .vbproj). Add these lines:
+2. Open the project file (.csproj, .vbproj). Add these lines:
 
     ```xml
     <!-- **************************************************** -->
@@ -131,9 +131,9 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
     <!-- **************************************************** -->
     ```
 
-3.  Check in the updated project file.
+3. Check in the updated project file.
 
-4.  Run a new build.
+4. Run a new build.
 
     Go to [Step 2: Release your app](#DeployRelease)
 
@@ -159,9 +159,9 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 ### Open the IntelliTrace log and matching solution
 
-1.  Open the IntelliTrace log (.iTrace file) from Visual Studio Enterprise. Or just double-click the file if you have Visual Studio Enterprise on the same computer.
+1. Open the IntelliTrace log (.iTrace file) from Visual Studio Enterprise. Or just double-click the file if you have Visual Studio Enterprise on the same computer.
 
-2.  Choose **Open solution** to have Visual Studio automatically open the matching solution or project, if the project wasn't built as part of a solution. [Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?](#InvalidConfigFile)
+2. Choose **Open solution** to have Visual Studio automatically open the matching solution or project, if the project wasn't built as part of a solution. [Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?](#InvalidConfigFile)
 
      Visual Studio automatically shelves any pending changes when it opens the matching solution or project. To get more details about this shelveset, look in the **Output** window or **Team Explorer**.
 
@@ -185,13 +185,13 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 ### Diagnose a performance problem
 
-1.  Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.
+1. Under **Performance Violations**, review the recorded performance events, their total execution times, and other event information. Then dig deeper into the methods that were called during a specific performance event.
 
      ![View performance event details](../debugger/media/ffr_itsummarypageperformance.png "FFR_ITSummaryPagePerformance")
 
      You can also just double-click the event.
 
-2.  On the event page, review the execution times for these calls. Find a slow call in the execution tree.
+2. On the event page, review the execution times for these calls. Find a slow call in the execution tree.
 
      The slowest calls appear in their own section when you have multiple calls, nested or otherwise.
 
@@ -213,7 +213,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 ### Diagnose an exception
 
-1.  Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.
+1. Under **Exception Data**, review the recorded exception events, their types, messages, and when the exceptions happened. To dig deeper into the code, start debugging from the most recent event in a group of exceptions.
 
      ![Start debugging from exception event](../debugger/media/ffr_itsummarypageexception.png "FFR_ITSummaryPageException")
 
@@ -249,11 +249,11 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 ####  <a name="InvalidConfigFile"></a> Q: The IntelliTrace log is missing information about my deployed app. Why did this happen? What do I do?
  This might happen when you deploy from your development computer or you're not connected to TFS during deployment.
 
-1.  Go to your project's deployment folder.
+1. Go to your project's deployment folder.
 
-2.  Find and open the build manifest (BuildInfo.config file).
+2. Find and open the build manifest (BuildInfo.config file).
 
-3.  Make sure the file has the required information:
+3. Make sure the file has the required information:
 
 - **ProjectName**
 

@@ -26,11 +26,11 @@ A DCOM error occurred when the remote machine tried to communicate with the loca
 
 ### To correct this error
 
-1.  If the local machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.
+1. If the local machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.
 
-2.  Test Windows authentication by trying to open a file share on the local machine from the remote server.
+2. Test Windows authentication by trying to open a file share on the local machine from the remote server.
 
-3.  To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
+3. To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
 
 ## See Also
  [Remote Debugging](../debugger/remote-debugging.md)

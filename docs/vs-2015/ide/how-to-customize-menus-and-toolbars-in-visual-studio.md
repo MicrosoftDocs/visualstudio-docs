@@ -49,11 +49,11 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 ##  <a name="bkmk_addmenu"></a> Adding, removing, or moving a menu on the menu bar
 
-1.  On the menu bar, choose **Tools**, **Customize**.
+1. On the menu bar, choose **Tools**, **Customize**.
 
      The **Customize** dialog box opens.
 
-2.  On the **Commands** tab, leave the **Menu bar** option button selected, leave **Menu Bar** selected in the list next to that option, and then perform one of the following sets of steps:
+2. On the **Commands** tab, leave the **Menu bar** option button selected, leave **Menu Bar** selected in the list next to that option, and then perform one of the following sets of steps:
 
     -   To add a menu, choose the **Add New Menu** button, choose the **Modify Selection** button, and then name the menu that you want to add.
 
@@ -65,11 +65,11 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 ##  <a name="bkmk_addtoolbar"></a> Adding, removing, or moving a toolbar
 
-1.  On the menu bar, choose **Tools**, **Customize**.
+1. On the menu bar, choose **Tools**, **Customize**.
 
      The **Customize** dialog box opens.
 
-2.  On the **Toolbar** tab, perform one of the following sets of steps:
+2. On the **Toolbar** tab, perform one of the following sets of steps:
 
     -   To add a toolbar, choose the **New** button, specify a name for the toolbar that you want to add, and then choose the **OK** button.
 
@@ -89,13 +89,13 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 ##  <a name="bkmk_customize"></a> Customizing a menu or a toolbar
 
-1.  On the menu bar, choose **Tools**, **Customize**.
+1. On the menu bar, choose **Tools**, **Customize**.
 
      The **Customize** dialog box opens.
 
-2.  On the **Commands** tab, choose the option button for the type of element that you want to customize.
+2. On the **Commands** tab, choose the option button for the type of element that you want to customize.
 
-3.  In the list for that type of element, choose the menu or toolbar that you want to customize, and then perform one of the following sets of steps:
+3. In the list for that type of element, choose the menu or toolbar that you want to customize, and then perform one of the following sets of steps:
 
     -   To add a command, choose the **Add Command** button.
 
@@ -111,14 +111,14 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 ##  <a name="bkmk_reset"></a> Resetting a menu or a toolbar
 
-1.  On the menu bar, choose **Tools**, **Customize**.
+1. On the menu bar, choose **Tools**, **Customize**.
 
      The **Customize** dialog box opens.
 
-2.  On the **Commands** tab, choose the option button for the type of element that you want to reset.
+2. On the **Commands** tab, choose the option button for the type of element that you want to reset.
 
-3.  In the list for that type of element, choose the menu or toolbar that you want to reset.
+3. In the list for that type of element, choose the menu or toolbar that you want to reset.
 
-4.  Choose the **Modify Selection** button, and then choose **Reset** in the menu that appears.
+4. Choose the **Modify Selection** button, and then choose **Reset** in the menu that appears.
 
      You can also reset all menus and toolbars by choosing the **Reset All** button.

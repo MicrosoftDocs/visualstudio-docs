@@ -27,9 +27,9 @@ You can use comment shapes to annotate class diagrams. A comment shape has one p
   
 ### To add a comment  
   
-1.  Drag a comment from the **Class Designer Toolbox** onto the class diagram.  
+1. Drag a comment from the **Class Designer Toolbox** onto the class diagram.  
   
-2.  Click in the new comment shape on the diagram and type the text you want.  
+2. Click in the new comment shape on the diagram and type the text you want.  
   
 ## See Also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)   

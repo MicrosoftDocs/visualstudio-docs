@@ -50,7 +50,7 @@ ms.workload:
 
 ### To loop through items in a document-level customization
 
-1.  The following example shows the complete code for a document-level customization. To use this code, run it from the `ThisDocument` class in your project.
+1. The following example shows the complete code for a document-level customization. To use this code, run it from the `ThisDocument` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#78](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#78)]
      [!code-csharp[Trin_VstcoreWordAutomation#78](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#78)]
@@ -59,7 +59,7 @@ ms.workload:
 
 ### To loop through items in a VSTO Add-in
 
-1.  The following example shows the complete code for a VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.
+1. The following example shows the complete code for a VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#78](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#78)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#78](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#78)]

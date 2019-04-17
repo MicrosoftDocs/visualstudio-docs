@@ -28,13 +28,13 @@ To determine what proportion of your project's code is actually being tested by 
   
 ### To analyze code coverage on unit tests in Test Explorer  
   
-1.  On the **Test** menu, choose **Analyze Code Coverage**.  
+1. On the **Test** menu, choose **Analyze Code Coverage**.  
   
-2.  To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png "CodeCoverage-ShowColoringIcon")**Show Code Coverage Coloring**.  
+2. To see which lines have been run, choose ![Show Code Coverage Coloring Icon](../test/media/codecoverage-showcoloringicon.png "CodeCoverage-ShowColoringIcon")**Show Code Coverage Coloring**.  
   
      To alter the colors, or to use bold face, choose **Tools**, **Options**, **Environment**, **Fonts and Colors**, **Show settings for: Text Editor**. Under **Display Items**, adjust the Coverage items.  
   
-3.  If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.  
+3. If the results show low coverage, investigate which parts of the code are not being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.  
   
 > [!TIP]
 >  To get accurate results:  
@@ -261,11 +261,11 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 ## Analyzing Code Coverage in a Command Line  
  To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11).  
   
-1.  Launch the Visual Studio Developer Command Prompt:  
+1. Launch the Visual Studio Developer Command Prompt:  
   
      On the Windows **Start** menu, choose **All Programs**, **Microsoft Visual Studio**, **Visual Studio Tools**, **Developer Command Prompt**.  
   
-2.  Run:  
+2. Run:  
   
      `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`  
   

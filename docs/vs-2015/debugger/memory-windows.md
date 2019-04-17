@@ -39,9 +39,9 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To open a Memory window  
   
-1.  Start debugging, if you are not already in debug mode.  
+1. Start debugging, if you are not already in debug mode.  
   
-2.  In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
+2. In the **Debug** menu, point to **Windows**. Then, point to **Memory** and then click **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Lower-level editions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] have only a single **Memory** window. If you are using one of those editions, just click **Memory**.)  
   
 ## Paging in the Memory Window  
  The **Memory** window has a vertical scrollbar that operates in a nonstandard manner. The address space of a modern computer is very large, and you could easily get lost by grabbing the scrollbar thumb and dragging it to a random location. For that reason, the thumb is "spring-loaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely.  
@@ -50,33 +50,33 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To page up or down in memory  
   
-1.  To page down (move to a higher memory address), click under the thumb in the vertical scrollbar.  
+1. To page down (move to a higher memory address), click under the thumb in the vertical scrollbar.  
   
-2.  To page up (move to a lower memory address), click above the thumb the vertical scrollbar.  
+2. To page up (move to a lower memory address), click above the thumb the vertical scrollbar.  
   
 ## Selecting a Memory Location  
  If you want to move instantly to a selected location in memory, you can do so by using a drag-and-drop operation or by editing the value in the **Address** box. The **Address** box accepts not only numeric values but also expressions that evaluate to addresses. By default, the **Memory** window treats an **Address** expression as a live expression, which is reevaluated as your program executes. Live expressions can be very useful. For example, you can use them to view the memory that is touched by a pointer.  
   
 #### To select a memory location by dragging and dropping  
   
-1.  In any window, select a memory address or pointer variable that contains a memory address.  
+1. In any window, select a memory address or pointer variable that contains a memory address.  
   
-2.  Drag the address or pointer to the **Memory** window.  
+2. Drag the address or pointer to the **Memory** window.  
   
 #### To select a memory location by editing  
   
-1.  In the **Memory** window, select the **Address** box.  
+1. In the **Memory** window, select the **Address** box.  
   
-2.  Type or paste the address you want to see, and then press **ENTER**.  
+2. Type or paste the address you want to see, and then press **ENTER**.  
   
 ## Changing the Way the Memory Window Displays Information  
  You can customize the way the **Memory** window shows memory contents. By default, memory contents appear as one-byte integers in hexadecimal format, and the number of columns is determined automatically by the current width of the window.  
   
 #### To change the format of the memory contents  
   
-1.  Right-click the **Memory** window.  
+1. Right-click the **Memory** window.  
   
-2.  Choose the format that you want.  
+2. Choose the format that you want.  
   
 #### To change the number of columns in the Memory window  
   
@@ -98,9 +98,9 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To toggle the toolbar  
   
-1.  Right-click a **Memory** window.  
+1. Right-click a **Memory** window.  
   
-2.  On the shortcut menu, click **Show Toolbar**.  
+2. On the shortcut menu, click **Show Toolbar**.  
   
      The toolbar appears or disappears, depending on its previous state.  
   
@@ -109,9 +109,9 @@ The **Memory** window provides a view into the memory space that is used by your
   
 #### To follow a pointer through memory  
   
-1.  In the **Memory** window **Address** box, type a pointer expression. The pointer variable must be in the current scope. Depending on the language, you might have to dereference it.  
+1. In the **Memory** window **Address** box, type a pointer expression. The pointer variable must be in the current scope. Depending on the language, you might have to dereference it.  
   
-2.  Press **ENTER**.  
+2. Press **ENTER**.  
   
      Now, when you use an execution command such as **Step**, the memory address that is displayed will automatically change as the pointer changes.  
   

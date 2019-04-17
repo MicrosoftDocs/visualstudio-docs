@@ -32,9 +32,9 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 ##  <a name="BKMK_Access"></a> Accessing Visual Studio Tools
  You can more easily access the Developer Command Prompt or another tool if you pin it to the Start screen or the taskbar.
 
-1.  From the Start screen, enter `Visual Studio Tools`, and then choose the Enter key.
+1. From the Start screen, enter `Visual Studio Tools`, and then choose the Enter key.
 
-2.  In **File Explorer**, open the shortcut menu for the item that you want:
+2. In **File Explorer**, open the shortcut menu for the item that you want:
 
     -   Build Notifications
 
@@ -52,7 +52,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
 
     -   VS2013 x86 Native Tools Command Prompt
 
-3.  Choose **Pin to Start** or **Pin to Taskbar**.
+3. Choose **Pin to Start** or **Pin to Taskbar**.
 
 ##  <a name="BKMK_Writing"></a> Writing Code
  Write code more quickly by using the following features.

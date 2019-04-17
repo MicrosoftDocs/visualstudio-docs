@@ -26,9 +26,9 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
 ##### To create the file structure  
   
-1.  Add a .vsct file to your project by following the steps in [How to: Create a .Vsct File](../../extensibility/internals/how-to-create-a-dot-vsct-file.md).  
+1. Add a .vsct file to your project by following the steps in [How to: Create a .Vsct File](../../extensibility/internals/how-to-create-a-dot-vsct-file.md).  
   
-2.  Add the required namespaces to the `CommandTable` element, as shown in the following example.  
+2. Add the required namespaces to the `CommandTable` element, as shown in the following example.  
   
     ```xml  
     <CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable"   
@@ -36,7 +36,7 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
     ```  
   
-3.  In the `CommandTable` element, add a `Commands` element to host all of your custom menus, toolbars, command groups, and commands. So that your custom UI elements can load, the `Commands` element must have its `Package` attribute set to the name of the package.  
+3. In the `CommandTable` element, add a `Commands` element to host all of your custom menus, toolbars, command groups, and commands. So that your custom UI elements can load, the `Commands` element must have its `Package` attribute set to the name of the package.  
   
      After the `Commands` element, add a `Symbols` element to define the GUIDs for the package, and the names and command IDs for your UI elements.  
   
@@ -45,28 +45,28 @@ This document shows how to author a .vsct file to add menu items, toolbars, and 
   
 ##### To include Visual Studio resources  
   
-1.  At the top of the `CommandTable` element, add one `Extern` element for each external file to be referenced, and set the `href` attribute to the name of the file. You can reference the following header files to access Visual Studio resources:  
+1. At the top of the `CommandTable` element, add one `Extern` element for each external file to be referenced, and set the `href` attribute to the name of the file. You can reference the following header files to access Visual Studio resources:  
   
     -   Stdidcmd.h, defines IDs for all commands exposed by Visual Studio.  
   
     -   Vsshlids.h, contains command IDs for Visual Studio menus.  
   
-2.  If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call. For more information about how to find the GUIDs and IDs of Visual Studio commands, see [GUIDs and IDs of Visual Studio Commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md). To call commands from other packages, use the GUID and the ID of the command as defined in the .vsct file for those packages.  
+2. If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call. For more information about how to find the GUIDs and IDs of Visual Studio commands, see [GUIDs and IDs of Visual Studio Commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md). To call commands from other packages, use the GUID and the ID of the command as defined in the .vsct file for those packages.  
   
 ### Declaring UI Elements  
  Declare all new UI elements in the `Symbols` section of the .vsct file.  
   
 ##### To declare UI elements  
   
-1.  In the `Symbols` element, add three [GuidSymbol](../../extensibility/guidsymbol-element.md) elements. Each `GuidSymbol` element has a `name` attribute and a `value` attribute. Set the `name` attribute so that it reflects the purpose of the element. The `value` attribute takes a GUID. (To generate a GUID, on the **Tools** menu, click **Create GUID**, and then select **Registry Format**.)  
+1. In the `Symbols` element, add three [GuidSymbol](../../extensibility/guidsymbol-element.md) elements. Each `GuidSymbol` element has a `name` attribute and a `value` attribute. Set the `name` attribute so that it reflects the purpose of the element. The `value` attribute takes a GUID. (To generate a GUID, on the **Tools** menu, click **Create GUID**, and then select **Registry Format**.)  
   
      The first `GuidSymbol` element represents your package, and typically has no children. The second `GuidSymbol` element represents the command set, and will contain all of the symbols that define your menus, groups, and commands. The third `GuidSymbol` element represents your image store and contains symbols for all of the icons for your commands. If you have no commands that use icons, you can omit the third `GuidSymbol` element.  
   
-2.  In the `GuidSymbol` element that represents your command set, add one or more [IDSymbol](../../extensibility/idsymbol-element.md) elements. Each of these represent a menu, toolbar, group, or command you are adding to the UI.  
+2. In the `GuidSymbol` element that represents your command set, add one or more [IDSymbol](../../extensibility/idsymbol-element.md) elements. Each of these represent a menu, toolbar, group, or command you are adding to the UI.  
   
      For each `IDSymbol` element, set the `name` attribute to the name you will use to refer to the corresponding menu, group, or command, and then set the `value` element to a hexadecimal number that will represent its command id. No two `IDSymbol` elements that have the same parent can have the same value.  
   
-3.  If any of your UI elements require icons, add an `IDSymbol` element for each icon to the `GuidSymbol` element that represents your image store.  
+3. If any of your UI elements require icons, add an `IDSymbol` element for each icon to the `GuidSymbol` element that represents your image store.  
   
 ### Putting UI Elements in the IDE  
  The [Menus](../../extensibility/menus-element.md) element, [Groups](../../extensibility/groups-element.md) element, and [Buttons](../../extensibility/buttons-element.md) element contain the definitions for all of the menus, groups, and commands that are defined in your package. Put these menus, groups, and commands in the IDE either by using a [Parent](../../extensibility/parent-element.md) element, which is part of the UI element definition, or by using a [CommandPlacement](../../extensibility/commandplacement-element.md) element that is defined elsewhere.  

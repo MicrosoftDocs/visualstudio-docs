@@ -35,14 +35,14 @@ This document describes how to target a version of the .NET Framework when you c
   
 #### To target a version when you create a project  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1. On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the list at the top of the **New Project** dialog box, choose the version of the .NET Framework that you want your project to target.  
+2. In the list at the top of the **New Project** dialog box, choose the version of the .NET Framework that you want your project to target.  
   
     > [!NOTE]
     >  Typically, only one version of the .NET Framework is installed with Visual Studio. If you want to target another version, you must first make sure that it's installed. See [Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md).  
   
-3.  In the list of installed templates, choose the type of project that you want to create, name the project, and then choose the **OK** button.  
+3. In the list of installed templates, choose the type of project that you want to create, name the project, and then choose the **OK** button.  
   
      The list of templates shows only those projects that are supported by the version of the .NET Framework that you chose.  
   
@@ -51,23 +51,23 @@ This document describes how to target a version of the .NET Framework when you c
   
 #### To change the targeted version  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to change, and then choose **Properties**.  
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to change, and then choose **Properties**.  
   
      ![Visual Studio Solution Explorer Properties](../ide/media/vs-slnexplorer-properties.png "vs_slnExplorer_Properties")  
   
     > [!IMPORTANT]
     >  For information about how to change the target version for C++ projects, see [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe).  
   
-2.  In the left column of the properties window, choose the **Application** tab.  
+2. In the left column of the properties window, choose the **Application** tab.  
   
      ![Visual Studio App Properties Application tab](../ide/media/vs-slnexplorer-properties-applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")  
   
     > [!NOTE]
     >  After you create a Windows Store app, you can't change the targeted version of either Windows or the .NET Framework.  
   
-3.  In the **Target Framework** list, choose the version that you want.  
+3. In the **Target Framework** list, choose the version that you want.  
   
-4.  In the verification dialog box that appears, choose the **Yes** button.  
+4. In the verification dialog box that appears, choose the **Yes** button.  
   
      The project unloads. When it reloads, it targets the .NET Framework version that you just chose.  
   

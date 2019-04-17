@@ -46,19 +46,19 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 
 ### To display the GPU Threads window
 
-1.  In **Solution Explorer**, open the shortcut menu for the project and then choose **Properties**.
+1. In **Solution Explorer**, open the shortcut menu for the project and then choose **Properties**.
 
-2.  In the **Property Pages** window for the project, under **Configuration Properties**, choose **Debugging**.
+2. In the **Property Pages** window for the project, under **Configuration Properties**, choose **Debugging**.
 
-3.  In the **Debugger to launch** list, select **Local Windows Debugger**. In the **Debugger Type** list, select **GPU Only**. You must choose this debugger to break at breakpoints in code that runs on the GPU.
+3. In the **Debugger to launch** list, select **Local Windows Debugger**. In the **Debugger Type** list, select **GPU Only**. You must choose this debugger to break at breakpoints in code that runs on the GPU.
 
-4.  Choose the **OK** button.
+4. Choose the **OK** button.
 
-5.  Set a breakpoint in the GPU code.
+5. Set a breakpoint in the GPU code.
 
-6.  On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.
+6. On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.
 
-7.  One the menu bar, choose **Debug**, **Windows**, **GPU Threads**.
+7. One the menu bar, choose **Debug**, **Windows**, **GPU Threads**.
 
 ### To switch to a different thread
 
@@ -66,11 +66,11 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 
 ### To display a particular tile and thread
 
-1.  Choose the **Expand Thread Switcher** button in the GPU Threads window.
+1. Choose the **Expand Thread Switcher** button in the GPU Threads window.
 
-2.  Enter the tile and thread values in the text boxes.
+2. Enter the tile and thread values in the text boxes.
 
-3.  Choose the button that has the arrow on it.
+3. Choose the button that has the arrow on it.
 
 ### To display or hide a column
 

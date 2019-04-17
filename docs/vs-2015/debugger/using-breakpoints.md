@@ -80,9 +80,9 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## Setting a Breakpoint in the Disassembly Window  
  To set a breakpoint at an assembly instruction, the debugger must be in break mode.  
   
-1.  Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Disassembly** window (**Debug / Windows / Disassembly**, or **Ctrl + Alt + D**).  
+1. Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Disassembly** window (**Debug / Windows / Disassembly**, or **Ctrl + Alt + D**).  
   
-2.  Click in the left margin at the instruction that you want to break at, or set your cursor at the instruction and press **F9**.  
+2. Click in the left margin at the instruction that you want to break at, or set your cursor at the instruction and press **F9**.  
   
 ## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a> Setting a Data Breakpoint (native C++ only)  
  Data breakpoints break execution when a value that is stored at a specified memory address changes. If the value is read but not changed, execution doesn't break. To set data breakpoints, the debugger must be in break mode.  
@@ -112,13 +112,13 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  For example, given an object of type `my_class` with the address, you can set a function breakpoint on a method named `my_method` called from that instance.  
   
-1.  Set a breakpoint somewhere after that instance of the class is instantiated.  
+1. Set a breakpoint somewhere after that instance of the class is instantiated.  
   
-2.  Find the address of the instance (we'll say it's `0xcccccccc`).  
+2. Find the address of the instance (we'll say it's `0xcccccccc`).  
   
-3.  Click **Debug / New Breakpoint / Function Breakpoint** (or **ALT + F9, B**).  
+3. Click **Debug / New Breakpoint / Function Breakpoint** (or **ALT + F9, B**).  
   
-4.  Add the following text to the **Function Name** box:  
+4. Add the following text to the **Function Name** box:  
   
     ```cpp  
     ((my_class *) 0xcccccccc)->my_method  
@@ -239,9 +239,9 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ### The debugger can't locate the correct version of the source file for a breakpoint  
  If a source file has changed and the source no longer matches the code you are debugging, the debugger might locate the source file that corresponds to a breakpoint, even though the source file exists.  
   
-1.  If you want Visual Studio to display source code that doesn't match the version you are debugging, choose **Debug / Options and Settings**. On the **Debugging/General** page, clear the **Require source files that exactly match the original version** option.  
+1. If you want Visual Studio to display source code that doesn't match the version you are debugging, choose **Debug / Options and Settings**. On the **Debugging/General** page, clear the **Require source files that exactly match the original version** option.  
   
-2.  You can also bind the breakpoint to the source file. Select the breakpoint and choose **Conditions** on the context menu. Check **Allow the source code to be different from the original** in the **Breakpoint Settings** window.  
+2. You can also bind the breakpoint to the source file. Select the breakpoint and choose **Conditions** on the context menu. Check **Allow the source code to be different from the original** in the **Breakpoint Settings** window.  
   
 ### Breakpoints don't work in a DLL  
  You cannot set a breakpoint in a source file when the debugger hasn't loaded the debug information for the module where the code is located. Symptoms may include messages such as **the breakpoint will not be set**. The Warning breakpoint glyph appears at the breakpoint location. However, these Warning breakpoints become actual breakpoints when the code is loaded. For more information about loading symbols, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  

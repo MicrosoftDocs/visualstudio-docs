@@ -86,17 +86,17 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 ### To enable a DSL to consume references to an exposed DSL
 
-1.  In the DSL Definition diagram, right-click the main part of the diagram and then click **Enable Modelbus**.
+1. In the DSL Definition diagram, right-click the main part of the diagram and then click **Enable Modelbus**.
 
-2.  In the dialog box, select **I want to enable this model to consume model bus references**.
+2. In the dialog box, select **I want to enable this model to consume model bus references**.
 
-3.  In the Dsl project of the consuming DSL, add the following assemblies to the project references. You will find these assemblies (.dll files) in the ModelBusAdapter\bin\\* directory of the exposed DSL.
+3. In the Dsl project of the consuming DSL, add the following assemblies to the project references. You will find these assemblies (.dll files) in the ModelBusAdapter\bin\\* directory of the exposed DSL.
 
     -   The exposed DSL assembly, for example **Fabrikam.FamilyTree.Dsl.dll**
 
     -   The exposed model bus adapter assembly, for example **Fabrikam.FamilyTree.ModelBusAdapter.dll**
 
-4.  Add the following .NET assemblies to the project references of the consuming DSL project.
+4. Add the following .NET assemblies to the project references of the consuming DSL project.
 
     1.  **Microsoft.VisualStudio.Modeling.Sdk.Integration.11.0.dll**
 
@@ -114,39 +114,39 @@ To enable a DSL to use references to another DSL, you should first make it a *co
 
 ### To allow the user to set a Model Bus Reference in a domain property
 
-1.  Right-click the domain property and then click **Edit ModelBusReference specific properties**. A dialog box opens. This is the *Model Bus Picker*.
+1. Right-click the domain property and then click **Edit ModelBusReference specific properties**. A dialog box opens. This is the *Model Bus Picker*.
 
-2.  Select the appropriate **Kind of ModelBusReference**: to a model or to an element inside a model.
+2. Select the appropriate **Kind of ModelBusReference**: to a model or to an element inside a model.
 
-3.  In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Subsitute the file extension of your exposed DSL.
+3. In file dialog filter string, enter a string such as `Family Tree files |*.ftree`. Subsitute the file extension of your exposed DSL.
 
-4.  If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
+4. If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
 
-5.  Click **OK**, and then click **Transform All Templates** in the **Solution Explorer** toolbar.
+5. Click **OK**, and then click **Transform All Templates** in the **Solution Explorer** toolbar.
 
     > [!WARNING]
     > If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
 
-6.  If you specified a list of target types such as Company.FamilyTree.Person, then you must add an assembly reference to your DSL project, referencing the DLL of the target DSL, for example Company.FamilyTree.Dsl.dll
+6. If you specified a list of target types such as Company.FamilyTree.Person, then you must add an assembly reference to your DSL project, referencing the DLL of the target DSL, for example Company.FamilyTree.Dsl.dll
 
 ### To test a Model Bus Reference
 
-1.  Build both the exposed and consuming DSLs.
+1. Build both the exposed and consuming DSLs.
 
-2.  Run one of the DSLs in experimental mode by pressing F5 or CTRL+F5.
+2. Run one of the DSLs in experimental mode by pressing F5 or CTRL+F5.
 
-3.  In the Debugging project in the experimental instance of Visual Studio, add files that are instances of each DSL.
+3. In the Debugging project in the experimental instance of Visual Studio, add files that are instances of each DSL.
 
     > [!NOTE]
     > Visual Studio ModelBus can only resolve references to models that are items in the same Visual Studio solution. For example, you cannot create a reference to a model file in another part of your file system.
 
-4.  Create some elements and links in the instance of the exposed DSL, and save it.
+4. Create some elements and links in the instance of the exposed DSL, and save it.
 
-5.  Open an instance of the consuming DSL, and select a model element that has a model bus reference property.
+5. Open an instance of the consuming DSL, and select a model element that has a model bus reference property.
 
-6.  In Properties window, double-click the model bus reference property. The picker dialog opens.
+6. In Properties window, double-click the model bus reference property. The picker dialog opens.
 
-7.  Click **Browse** and select the instance of the exposed DSL.
+7. Click **Browse** and select the instance of the exposed DSL.
 
      The picker will also let you choose an item in the model, if you specified the element-specific kind of model bus reference.
 

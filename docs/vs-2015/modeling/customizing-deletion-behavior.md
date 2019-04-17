@@ -196,13 +196,13 @@ partial class Artist
 ##  <a name="rules"></a> Deletion Rules and Events  
  As an alternative  to  OnDelete handlers, you can define deletion rules and deletion events.  
   
-1.  **Deleting** and **Delete** rules are triggered only in a transaction, and not in an Undo or Redo. You can set them to be queued to execute at the end of the transaction in which the deletion is performed. Deleting rules are always executed before any Deleted rules that are in the queue.  
+1. **Deleting** and **Delete** rules are triggered only in a transaction, and not in an Undo or Redo. You can set them to be queued to execute at the end of the transaction in which the deletion is performed. Deleting rules are always executed before any Deleted rules that are in the queue.  
   
      Use rules to propagate changes that affect only elements in the store, including relationships, diagram elements and their properties. Typically, a Deleting rule is used to propagate deletion, and a Delete rule is used to create replacement elements and relationships.  
   
      For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
-2.  **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+2. **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
      For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   

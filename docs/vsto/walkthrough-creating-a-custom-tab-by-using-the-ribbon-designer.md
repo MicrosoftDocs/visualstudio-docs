@@ -55,40 +55,40 @@ ms.workload:
 
 ### To create actions panes
 
-1.  On the **Project** menu, choose **Add New Item**.
+1. On the **Project** menu, choose **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **ActionsPaneControl**, and then choose **Add**.
+2. In the **Add New Item** dialog box, select **ActionsPaneControl**, and then choose **Add**.
 
      The **ActionsPaneControl1.cs** or **ActionsPaneControl1.vb** file opens in the designer.
 
-3.  From the **Common Controls** tab of the **Toolbox**, add a label to the designer surface.
+3. From the **Common Controls** tab of the **Toolbox**, add a label to the designer surface.
 
-4.  In the **Properties** window, set the **Text** property of label1 to **Actions Pane 1**.
+4. In the **Properties** window, set the **Text** property of label1 to **Actions Pane 1**.
 
-5.  Repeat steps 1 through 5 to create a second actions pane and label. Set the **Text** property of the second label to **Actions Pane 2**.
+5. Repeat steps 1 through 5 to create a second actions pane and label. Set the **Text** property of the second label to **Actions Pane 2**.
 
 ##  <a name="BKMK_CreateCustomTab"></a> Create a custom tab
  One of the Office application design guidelines is that users should always have control of the Office application UI. To add this capability for the actions panes, you can add buttons that show and hide each actions pane from a custom tab on the ribbon. To create a custom tab, add a **Ribbon (Visual Designer)** item to the project. The designer helps you add and position controls, set control properties, and handle control events.
 
 ### To create a custom tab
 
-1.  On the **Project** menu, choose **Add New Item**.
+1. On the **Project** menu, choose **Add New Item**.
 
-2.  In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
+2. In the **Add New Item** dialog box, select **Ribbon (Visual Designer)**.
 
-3.  Change the name of the new ribbon to **MyRibbon**, and choose **Add**.
+3. Change the name of the new ribbon to **MyRibbon**, and choose **Add**.
 
      The **MyRibbon.cs** or **MyRibbon.vb** file opens in the Ribbon Designer and displays a default tab and group.
 
-4.  In the Ribbon Designer, choose the default tab.
+4. In the Ribbon Designer, choose the default tab.
 
-5.  In the **Properties** window, expand the **ControlId** property, and then set the **ControlIdType** property to **Custom**.
+5. In the **Properties** window, expand the **ControlId** property, and then set the **ControlIdType** property to **Custom**.
 
-6.  Set the **Label** property to **My Custom Tab**.
+6. Set the **Label** property to **My Custom Tab**.
 
-7.  In the Ribbon Designer, choose **group1**.
+7. In the Ribbon Designer, choose **group1**.
 
-8.  In the **Properties** window, set **Label** to **Actions Pane Manager**.
+8. In the **Properties** window, set **Label** to **Actions Pane Manager**.
 
 9. From the **Office Ribbon Controls** tab of the **Toolbox**, drag a button onto **group1**.
 
@@ -107,19 +107,19 @@ ms.workload:
 
 ### To hide and show actions panes by using buttons in the custom tab
 
-1.  In **Solution Explorer**, open the shortcut menu for *MyRibbon.cs* or *MyRibbon.vb*, and then choose **View Code**.
+1. In **Solution Explorer**, open the shortcut menu for *MyRibbon.cs* or *MyRibbon.vb*, and then choose **View Code**.
 
-2.  Add the following code to the top of the `MyRibbon` class. This code creates two actions pane objects.
+2. Add the following code to the top of the `MyRibbon` class. This code creates two actions pane objects.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab/MyRibbon.cs#1)]
      [!code-vb[Trin_Ribbon_Custom_Tab#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab/MyRibbon.vb#1)]
 
-3.  Replace the `MyRibbon_Load` method with the following code. This code adds the actions pane objects to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> collection and hides the objects from view. The Visual C# code also attaches delegates to several ribbon control events.
+3. Replace the `MyRibbon_Load` method with the following code. This code adds the actions pane objects to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> collection and hides the objects from view. The Visual C# code also attaches delegates to several ribbon control events.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab#2](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab/MyRibbon.cs#2)]
      [!code-vb[Trin_Ribbon_Custom_Tab#2](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab/MyRibbon.vb#2)]
 
-4.  Add the following three event handler methods to the `MyRibbon` class. These methods handle the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> events of the two buttons and the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. The event handlers for button1 and button2 show alternate actions panes. The event handler for toggleButton1 shows and hides the active actions pane.
+4. Add the following three event handler methods to the `MyRibbon` class. These methods handle the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> events of the two buttons and the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. The event handlers for button1 and button2 show alternate actions panes. The event handler for toggleButton1 shows and hides the active actions pane.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab#3](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab/MyRibbon.cs#3)]
      [!code-vb[Trin_Ribbon_Custom_Tab#3](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab/MyRibbon.vb#3)]
@@ -129,19 +129,19 @@ ms.workload:
 
 ### To test the custom tab
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Choose the **My Custom Tab** tab.
+2. Choose the **My Custom Tab** tab.
 
-3.  In the **Custom Actions Pane Manager** group, choose **Show Actions Pane 1**.
+3. In the **Custom Actions Pane Manager** group, choose **Show Actions Pane 1**.
 
      The actions pane appears and displays the label **Actions Pane 1**.
 
-4.  Choose **Show Actions Pane 2**.
+4. Choose **Show Actions Pane 2**.
 
      The actions pane appears and displays the label **Actions Pane 2**.
 
-5.  Choose **Hide Actions Pane**.
+5. Choose **Hide Actions Pane**.
 
      The actions panes are no longer visible.
 

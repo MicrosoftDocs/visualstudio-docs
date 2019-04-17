@@ -28,21 +28,21 @@ You can evaluate XPath expressions with the **QuickWatch** dialog box. The XPath
   
 ### To evaluate an XPath expression  
   
-1.  Insert a breakpoint at the `xsl:if` start tag.  
+1. Insert a breakpoint at the `xsl:if` start tag.  
   
-2.  Click the **Debug XSL** button on the XML Editor toolbar.  
+2. Click the **Debug XSL** button on the XML Editor toolbar.  
   
      The debugger starts and breaks on the `xsl:if` tag.  
   
-3.  Right-click and select **QuickWatch**.  
+3. Right-click and select **QuickWatch**.  
   
      The **QuickWatch** dialog box is displayed.  
   
-4.  Enter `./price/text()` in the **Expression** field of the **QuickWatch** dialog box and click **Reevaluate**.  
+4. Enter `./price/text()` in the **Expression** field of the **QuickWatch** dialog box and click **Reevaluate**.  
   
      The price of the current book node appears in the **Value** box.  
   
-5.  Change the XPath expression to `./price/text() < $bookAverage` and click **Reevaluate**.  
+5. Change the XPath expression to `./price/text() < $bookAverage` and click **Reevaluate**.  
   
      The **Value** box shows that the XPath expression evaluates to `true`.  
   

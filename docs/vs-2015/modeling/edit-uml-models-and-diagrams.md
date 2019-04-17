@@ -165,7 +165,7 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To search for text in a modeling diagram  
   
-1.  Press **CTRL+F**.  
+1. Press **CTRL+F**.  
   
      \- or -  
   
@@ -174,7 +174,7 @@ You can create and edit a UML model through the views provided by several differ
     > [!NOTE]
     >  In the **Find and Replace** dialog box, you must leave the **Look in** field set to **Current Document**. The other options are not supported.  
   
-2.  Type the text that you want to find, and then click **Find Next**.  
+2. Type the text that you want to find, and then click **Find Next**.  
   
     > [!NOTE]
     >  If the text you want to find is inside a collapsed shape, the shape will be highlighted. Expand the shape, and then click **Find Next** again.  
@@ -203,9 +203,9 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To add a new view of a model element by using UML Model Explorer  
   
-1.  To open **UML Model Explorer**, on the **Architecture** menu, point to **Windows**, and then click **UML Model Explorer**.  
+1. To open **UML Model Explorer**, on the **Architecture** menu, point to **Windows**, and then click **UML Model Explorer**.  
   
-2.  Drag the model element from **UML Model Explorer** to a compatible diagram in the same project.  
+2. Drag the model element from **UML Model Explorer** to a compatible diagram in the same project.  
   
      A shape providing a view of the model element appears, which may be in addition to the views on other diagrams or on the same diagram.  
   
@@ -214,11 +214,11 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To add a new view of a model element by using Paste Reference  
   
-1.  Right-click an existing element, and then click **Copy**.  
+1. Right-click an existing element, and then click **Copy**.  
   
     -   You can copy several elements at the same time. Hold down the CTRL key while you click each element, right-click one of them, and then click **Copy**.  
   
-2.  Right-click an empty part of a compatible diagram, and then click **Paste Reference**.  
+2. Right-click an empty part of a compatible diagram, and then click **Paste Reference**.  
   
      Another view of the same element appears.  
   
@@ -236,22 +236,22 @@ You can create and edit a UML model through the views provided by several differ
   
 #### To copy elements and their relationships  
   
-1.  In the diagram with the elements that you want to copy, select one or more elements.  
+1. In the diagram with the elements that you want to copy, select one or more elements.  
   
     > [!NOTE]
     >  You cannot copy relationships except as part of a group of elements.  
   
-2.  On the **Edit** menu, click **Copy**.  
+2. On the **Edit** menu, click **Copy**.  
   
-3.  If you want to copy the elements to another diagram, create the new diagram or open the existing diagram.  
+3. If you want to copy the elements to another diagram, create the new diagram or open the existing diagram.  
   
-4.  On the **Edit** menu, click **Paste**.  
+4. On the **Edit** menu, click **Paste**.  
   
     -   Copies of the elements appear, together with copies of any relationships that link between them.  
   
     -   Each new element will have a new automatically generated name.  
   
-5.  Adjust the positions, names, and other properties of the new elements and relationships.  
+5. Adjust the positions, names, and other properties of the new elements and relationships.  
   
 > [!NOTE]
 >  You cannot copy a model element from one model to another, for example if you have two models in the same solution. But you can copy elements from one diagram to another.  

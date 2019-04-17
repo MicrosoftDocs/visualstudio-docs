@@ -38,7 +38,7 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create an Excel Workbook project with the name **WinFormInput**, and select **Create a new document** in the wizard. For more information, see [How to: create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an Excel Workbook project with the name **WinFormInput**, and select **Create a new document** in the wizard. For more information, see [How to: create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      Visual Studio opens the new Excel workbook in the designer and adds the **WinFormInput** project to **Solution Explorer**.
 
@@ -46,13 +46,13 @@ ms.workload:
 
 ### To add a named range to Sheet1
 
-1.  Select cell **A1** on `Sheet1`.
+1. Select cell **A1** on `Sheet1`.
 
-2.  In the **Name** box, type **formInput**.
+2. In the **Name** box, type **formInput**.
 
      The **Name** box is located to the left of the formula bar, just above column **A** of the worksheet.
 
-3.  Press **Enter**.
+3. Press **Enter**.
 
      A <xref:Microsoft.Office.Tools.Excel.NamedRange> control is added to cell **A1**. There is no visible indication on the worksheet, but **formInput** appears in the **Name** box (just above the worksheet on the left side) and in the **Properties** window when cell **A1** is selected.
 
@@ -101,11 +101,11 @@ ms.workload:
 
 ### To send information to the worksheet
 
-1.  Right-click **GetInputString** in **Solution Explorer**, and then click **View Designer**.
+1. Right-click **GetInputString** in **Solution Explorer**, and then click **View Designer**.
 
-2.  Double-click the button to open the code file with the button's <xref:System.Windows.Forms.Control.Click> event handler added.
+2. Double-click the button to open the code file with the button's <xref:System.Windows.Forms.Control.Click> event handler added.
 
-3.  Add code to the event handler to take the input from the text box, send it to the function `WriteStringToCell`, and then close the form.
+3. Add code to the event handler to take the input from the text box, send it to the function `WriteStringToCell`, and then close the form.
 
      [!code-csharp[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs#3)]
      [!code-vb[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb#3)]
@@ -115,13 +115,13 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Confirm that the Windows Form appears.
+2. Confirm that the Windows Form appears.
 
-3.  Type **Hello World** in the text box, and then click **OK**.
+3. Type **Hello World** in the text box, and then click **OK**.
 
-4.  Confirm that **Hello World** appears in cell **A1** of the worksheet.
+4. Confirm that **Hello World** appears in cell **A1** of the worksheet.
 
 ## Next steps
  This walkthrough shows the basics of showing a Windows Form and passing data to a worksheet. Other tasks you may want to perform include:

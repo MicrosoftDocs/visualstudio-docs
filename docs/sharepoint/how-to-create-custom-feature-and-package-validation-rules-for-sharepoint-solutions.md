@@ -19,21 +19,21 @@ ms.workload:
 
 ### To create a custom package validation rule
 
-1.  Create a class library project.
+1. Create a class library project.
 
-2.  Add references to the following assemblies:
+2. Add references to the following assemblies:
 
     -   Microsoft.VisualStudio.SharePoint
 
     -   System.ComponentModel.Composition
 
-3.  Create a class that implements one of the following interfaces:
+3. Create a class that implements one of the following interfaces:
 
     -   To create a package validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> interface.
 
     -   To create a Feature validation rule, implement the <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> interface.
 
-4.  Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your validation rule. Pass the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> or <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> type to the attribute constructor.
+4. Add the <xref:System.ComponentModel.Composition.ExportAttribute> to the class. This attribute enables Visual Studio to discover and load your validation rule. Pass the <xref:Microsoft.VisualStudio.SharePoint.Validation.IPackageValidationRule> or <xref:Microsoft.VisualStudio.SharePoint.Validation.IFeatureValidationRule> type to the attribute constructor.
 
 ## Example
  The following code example demonstrates how to create a custom Feature validation rule.

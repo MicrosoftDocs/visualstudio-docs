@@ -94,9 +94,9 @@ The following example shows how to check a dataset named `NorthwindDataset1` to 
 ## To locate rows that have errors
 When working with individual columns and rows of data, you might encounter errors. You can check the `HasErrors` property to determine if errors exist in a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, or <xref:System.Data.DataRow>.
 
-1.  Check the `HasErrors` property to see if there are any errors in the dataset.
+1. Check the `HasErrors` property to see if there are any errors in the dataset.
 
-2.  If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.
+2. If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.
 
 [!code-csharp[VbRaddataEditing#23](../data-tools/codesnippet/CSharp/edit-data-in-datasets_7.cs)]
 [!code-vb[VbRaddataEditing#23](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_7.vb)]

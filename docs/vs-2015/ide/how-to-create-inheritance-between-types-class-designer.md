@@ -22,13 +22,13 @@ To create an inheritance relationship between two types on a class diagram using
   
 ### To create an inheritance between types  
   
-1.  From your project in Solution Explorer, open a class diagram (.cd) file.  
+1. From your project in Solution Explorer, open a class diagram (.cd) file.  
   
      If you don't have a class diagram, create it. See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).  
   
-2.  In the **Toolbox**, under **Class Designer**, click **Inheritance**.  
+2. In the **Toolbox**, under **Class Designer**, click **Inheritance**.  
   
-3.  On the class diagram, draw an inheritance line between the types that you want, starting from:  
+3. On the class diagram, draw an inheritance line between the types that you want, starting from:  
   
     -   A derived class to the base class  
   
@@ -36,7 +36,7 @@ To create an inheritance relationship between two types on a class diagram using
   
     -   An extending interface to the extended interface  
   
-4.  Optionally, when you have a derived type from a generic type, click the inheritance line. In the **Properties** window, set the **Type Arguments** property to match the type that you want for the generic type.  
+4. Optionally, when you have a derived type from a generic type, click the inheritance line. In the **Properties** window, set the **Type Arguments** property to match the type that you want for the generic type.  
   
     > [!NOTE]
     >  If a parent abstract class contains at least one abstract member, then all abstract members are implemented as non-abstract inheriting classes.   

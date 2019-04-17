@@ -44,19 +44,19 @@ ms.workload:
 
 #### To create a new Excel VSTO Add-in project in Visual Studio
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4.  Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
+4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
 
-5.  In the list of project templates, select **Excel 2010 Add-in** or **Excel 2013 Add-in**.
+5. In the list of project templates, select **Excel 2010 Add-in** or **Excel 2013 Add-in**.
 
-6.  In the **Name** box, type **FirstExcelAddIn**.
+6. In the **Name** box, type **FirstExcelAddIn**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstExcelAddIn** project and opens the ThisAddIn code file in the editor.
 
@@ -90,24 +90,24 @@ ms.workload:
 
 ### To test the project
 
-1.  Press **F5** to build and run your project.
+1. Press **F5** to build and run your project.
 
      When you build the project, the code is compiled into an assembly that is included in the build output folder for the project. Visual Studio also creates a set of registry entries that enable Excel to discover and load the VSTO Add-in, and it configures the security settings on the development computer to enable the VSTO Add-in to run. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
-2.  In Excel, save the workbook.
+2. In Excel, save the workbook.
 
-3.  Verify that the following text is added to the workbook.
+3. Verify that the following text is added to the workbook.
 
      **This text was added by using code.**
 
-4.  Close Excel.
+4. Close Excel.
 
 ## Clean up the project
  When you finish developing a project, remove the VSTO Add-in assembly, registry entries, and security settings from your development computer. Otherwise, the VSTO Add-in will continue to run every time that you open Excel on your development computer.
 
 ### To clean up the completed project on your development computer
 
-1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.
+1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
  Now that you have created a basic VSTO Add-in for Excel, you can learn more about how to develop VSTO Add-ins from these topics:

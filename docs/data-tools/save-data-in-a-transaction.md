@@ -26,9 +26,9 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **.NET desktop development** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -58,13 +58,13 @@ The first step is to create a **Windows Forms Application**.
 
 This step uses the **Data Source Configuration Wizard** to create a data source based on the `Customers` and `Orders` tables in the Northwind sample database.
 
-1.  To open the **Data Sources** window, on the **Data** menu, select **Show Data Sources**.
+1. To open the **Data Sources** window, on the **Data** menu, select **Show Data Sources**.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
-3.  On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.
+3. On the **Choose a Data Source Type** screen, select **Database**, and then select **Next**.
 
-4.  On the **Choose your Data Connection** screen do one of the following:
+4. On the **Choose your Data Connection** screen do one of the following:
 
     -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
@@ -72,13 +72,13 @@ This step uses the **Data Source Configuration Wizard** to create a data source 
 
     -   Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.
 
-5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
-6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.
+6. On the **Save connection string to the Application Configuration file** screen, select **Next**.
 
-7.  On the **Choose your Database Objects** screen, expand the **Tables** node.
+7. On the **Choose your Database Objects** screen, expand the **Tables** node.
 
-8.  Select the `Customers` and `Orders` tables, and then select **Finish**.
+8. Select the `Customers` and `Orders` tables, and then select **Finish**.
 
      The **NorthwindDataSet** is added to your project and the `Customers` and `Orders` tables appear in the **Data Sources** window.
 
@@ -102,9 +102,9 @@ Transactions use the <xref:System.Transactions> namespace. A project reference t
 
 ### To add a reference to the System.Transactions DLL file
 
-1.  On the **Project** menu, select **Add Reference**.
+1. On the **Project** menu, select **Add Reference**.
 
-2.  Select **System.Transactions** (on the **.NET** tab), and then select **OK**.
+2. Select **System.Transactions** (on the **.NET** tab), and then select **OK**.
 
      A reference to **System.Transactions** is added to the project.
 
@@ -114,9 +114,9 @@ For the first table dropped onto your form, code is added by default to the `cli
 
 ### To modify the auto-generated save code
 
-1.  Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).
+1. Select the **Save** button on the **CustomersBindingNavigator** (the button with the floppy disk icon).
 
-2.  Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:
+2. Replace the `CustomersBindingNavigatorSaveItem_Click` method with the following code:
 
      [!code-vb[VbRaddataSaving#4](../data-tools/codesnippet/VisualBasic/save-data-in-a-transaction_1.vb)]
      [!code-csharp[VbRaddataSaving#4](../data-tools/codesnippet/CSharp/save-data-in-a-transaction_1.cs)]

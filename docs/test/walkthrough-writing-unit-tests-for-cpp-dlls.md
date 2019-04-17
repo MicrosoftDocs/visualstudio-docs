@@ -12,25 +12,25 @@ author: mikeblome
 
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
-1.  [Create a native test project](#create_test_project). The test project is located in the same solution as the DLL project.
+1. [Create a native test project](#create_test_project). The test project is located in the same solution as the DLL project.
 
-2.  [Create a DLL project](#create_dll_project). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.
+2. [Create a DLL project](#create_dll_project). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.
 
-3.  [Make the DLL functions visible to the tests](#make_functions_visible).
+3. [Make the DLL functions visible to the tests](#make_functions_visible).
 
-4.  [Iteratively augment the tests](#iterate). We recommend a "red-green-refactor" cycle, in which development of the code is led by the tests.
+4. [Iteratively augment the tests](#iterate). We recommend a "red-green-refactor" cycle, in which development of the code is led by the tests.
 
-5.  [Debug failing tests](#debug). You can run tests in debug mode.
+5. [Debug failing tests](#debug). You can run tests in debug mode.
 
-6.  [Refactor while keeping the tests unchanged](#refactor). Refactoring means improving the structure of the code without changing its external behavior. You can do it to improve the performance, extensibility, or readability of the code. Because the intention is not to change the behavior, you do not change the tests while making a refactoring change to the code. The tests help make sure that you do not introduce bugs while you are refactoring.
+6. [Refactor while keeping the tests unchanged](#refactor). Refactoring means improving the structure of the code without changing its external behavior. You can do it to improve the performance, extensibility, or readability of the code. Because the intention is not to change the behavior, you do not change the tests while making a refactoring change to the code. The tests help make sure that you do not introduce bugs while you are refactoring.
 
-7.  [Check coverage](using-code-coverage-to-determine-how-much-code-is-being-tested.md). Unit tests are more useful when they exercise more of your code. You can discover which parts of your code have been used by the tests.
+7. [Check coverage](using-code-coverage-to-determine-how-much-code-is-being-tested.md). Unit tests are more useful when they exercise more of your code. You can discover which parts of your code have been used by the tests.
 
-8.  [Isolate units from external resources](using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md). Typically, a DLL is dependent on other components of the system that you are developing, such as other DLLs, databases, or remote subsystems. It is useful to test each unit in isolation from its dependencies. External components can make tests run slowly. During development, the other components might not be complete.
+8. [Isolate units from external resources](using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md). Typically, a DLL is dependent on other components of the system that you are developing, such as other DLLs, databases, or remote subsystems. It is useful to test each unit in isolation from its dependencies. External components can make tests run slowly. During development, the other components might not be complete.
 
 ##  <a name="create_test_project"></a> Create a native unit test project
 
-1.  On the **File** menu, choose **New** > **Project**.
+1. On the **File** menu, choose **New** > **Project**.
 
      In the dialog box, expand **Installed** > **Templates** > **Visual C++** > **Test**.
 
@@ -40,7 +40,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      ![Creating a C++ Unit Test Project](../test/media/utecpp01.png)
 
-2.  In the new project, inspect **unittest1.cpp**
+2. In the new project, inspect **unittest1.cpp**
 
      ![Test project with TEST&#95;CLASS and TEST&#95;METHOD](../test/media/utecpp2.png)
 
@@ -54,7 +54,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method.
 
-3.  Verify that the tests run in Test Explorer:
+3. Verify that the tests run in Test Explorer:
 
     1.  Insert some test code:
 
@@ -79,25 +79,25 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="create_dll_project"></a> Create a DLL project
 
-1.  Create a **Visual C++** project by using the **Win32 Project** template.
+1. Create a **Visual C++** project by using the **Win32 Project** template.
 
      In this walkthrough, the project is named `RootFinder`.
 
      ![Creating a C++ Win32 project](../test/media/utecpp05.png)
 
-2.  Select **DLL** and **Export Symbols** in the Win32 Application Wizard.
+2. Select **DLL** and **Export Symbols** in the Win32 Application Wizard.
 
      The **Export Symbols** option generates a convenient macro that you can use to declare exported methods.
 
      ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png)
 
-3.  Declare an exported function in the principal *.h* file:
+3. Declare an exported function in the principal *.h* file:
 
      ![New DLL code project and .h file with API macros](../test/media/utecpp07.png)
 
      The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).
 
-4.  In the principal *.cpp* file, add a minimal body for the function:
+4. In the principal *.cpp* file, add a minimal body for the function:
 
     ```cpp
         // Find the square root of a number.
@@ -159,7 +159,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="iterate"></a> Iteratively augment the tests and make them pass
 
-1.  Add a new test:
+1. Add a new test:
 
     ```cpp
     TEST_METHOD(RangeTest)
@@ -178,7 +178,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     >
     > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
-2.  Build the solution, and then in **Test Explorer**, choose **Run All**.
+2. Build the solution, and then in **Test Explorer**, choose **Run All**.
 
      The new test fails.
 
@@ -187,7 +187,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     > [!TIP]
     > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
 
-3.  Enhance your DLL code so that the new test passes:
+3. Enhance your DLL code so that the new test passes:
 
     ```cpp
     #include <math.h>
@@ -206,7 +206,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     }
     ```
 
-4.  Build the solution and then in **Test Explorer**, choose **Run All**.
+4. Build the solution and then in **Test Explorer**, choose **Run All**.
 
      Both tests pass.
 
@@ -217,7 +217,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="debug"></a> Debug a failing test
 
-1.  Add another test:
+1. Add another test:
 
     ```cpp
     #include <stdexcept>
@@ -250,15 +250,15 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     }
     ```
 
-2.  Build the solution and choose **Run All**.
+2. Build the solution and choose **Run All**.
 
-3.  Open (or double-click) the failed test.
+3. Open (or double-click) the failed test.
 
      The failed assertion is highlighted. The failure message is visible in the detail pane of **Test Explorer**.
 
      ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
 
-4.  To see why the test fails, step through the function:
+4. To see why the test fails, step through the function:
 
     1.  Set a breakpoint at the start of the SquareRoot function.
 
@@ -266,7 +266,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          When the run stops at the breakpoint, step through the code.
 
-5.  Insert code in the function that you are developing:
+5. Insert code in the function that you are developing:
 
     ```cpp
 
@@ -282,7 +282,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
     ```
 
-6.  All tests now pass.
+6. All tests now pass.
 
      ![All tests pass](../test/media/ute_ult_alltestspass.png)
 
@@ -291,7 +291,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="refactor"></a> Refactor the code without changing tests
 
-1.  Simplify the central calculation in the SquareRoot function:
+1. Simplify the central calculation in the SquareRoot function:
 
     ```cpp
     // old code:
@@ -301,7 +301,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
     ```
 
-2.  Build the solution and choose **Run All**, to make sure that you have not introduced an error.
+2. Build the solution and choose **Run All**, to make sure that you have not introduced an error.
 
     > [!TIP]
     > A good set of unit tests gives confidence that you have not introduced bugs when you change the code.

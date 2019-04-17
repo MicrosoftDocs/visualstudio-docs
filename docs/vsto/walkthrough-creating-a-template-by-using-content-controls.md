@@ -50,7 +50,7 @@ ms.workload:
 
 ### To create a new Word template project
 
-1.  Create a Word template project with the name **MyBuildingBlockTemplate**. In the wizard, create a new document in the solution. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create a Word template project with the name **MyBuildingBlockTemplate**. In the wizard, create a new document in the solution. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the new Word template in the designer and adds the **MyBuildingBlockTemplate** project to **Solution Explorer**.
 
@@ -131,14 +131,14 @@ ms.workload:
 
 ### To modify the UI of the content controls programmatically
 
-1.  In **Solution Explorer**, right-click **ThisDocument.cs** or **ThisDocument.vb**, and then click **View Code**.
+1. In **Solution Explorer**, right-click **ThisDocument.cs** or **ThisDocument.vb**, and then click **View Code**.
 
-2.  Add the following code to the `ThisDocument` class. This code declares several objects that you will use later in this walkthrough.
+2. Add the following code to the `ThisDocument` class. This code declares several objects that you will use later in this walkthrough.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#1](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#1)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#1](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#1)]
 
-3.  Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class. This code adds entries to the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> in the tables, and sets the placeholder text that is displayed in each of these controls before the user edits them.
+3. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class. This code adds entries to the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> in the tables, and sets the placeholder text that is displayed in each of these controls before the user edits them.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#2](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#2)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#2](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#2)]
@@ -148,7 +148,7 @@ ms.workload:
 
 ### To prevent users from editing the employee table
 
-1.  Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code prevents users from editing the employee table by putting the table inside the <xref:Microsoft.Office.Tools.Word.GroupContentControl> object that you declared earlier.
+1. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code prevents users from editing the employee table by putting the table inside the <xref:Microsoft.Office.Tools.Word.GroupContentControl> object that you declared earlier.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#3](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#3)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#3](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#3)]
@@ -158,12 +158,12 @@ ms.workload:
 
 ### To add the tables to the building blocks in the template
 
-1.  Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code adds new building blocks that contain the tables to the Microsoft.Office.Interop.Word.BuildingBlockEntries collection, which contains all the reusable building blocks in the template. The new building blocks are defined in a new category named **Employee and Customer Information** and are assigned the building block type `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`.
+1. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code adds new building blocks that contain the tables to the Microsoft.Office.Interop.Word.BuildingBlockEntries collection, which contains all the reusable building blocks in the template. The new building blocks are defined in a new category named **Employee and Customer Information** and are assigned the building block type `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#4](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#4)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#4](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#4)]
 
-2.  Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code deletes the tables from the template. The tables are no longer necessary, because you have added them to the gallery of reusable building blocks in the template. The code first puts the document into design mode so that the protected employee table can be deleted.
+2. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code deletes the tables from the template. The tables are no longer necessary, because you have added them to the gallery of reusable building blocks in the template. The code first puts the document into design mode so that the protected employee table can be deleted.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#5](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#5)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#5](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#5)]
@@ -173,7 +173,7 @@ ms.workload:
 
 ### To create a content control that displays the building blocks
 
-1.  Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code initializes the <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> object that you declared earlier. The <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> displays all building blocks that are defined in the category **Employee and Customer Information** and that have the building block type `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`.
+1. Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class, after the code that you added in the previous step. This code initializes the <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> object that you declared earlier. The <xref:Microsoft.Office.Tools.Word.BuildingBlockGalleryContentControl> displays all building blocks that are defined in the category **Employee and Customer Information** and that have the building block type `Microsoft.Office.Interop.Word.WdBuildingBlockTypes.wdTypeCustom1`.
 
      [!code-vb[Trin_ContentControlTemplateWalkthrough#6](../vsto/codesnippet/VisualBasic/ContentControlTemplateWalkthrough/ThisDocument.vb#6)]
      [!code-csharp[Trin_ContentControlTemplateWalkthrough#6](../vsto/codesnippet/CSharp/ContentControlTemplateWalkthrough/ThisDocument.cs#6)]
@@ -183,45 +183,45 @@ ms.workload:
 
 ### To test the employee table
 
-1.  Press **F5** to run the project.
+1. Press **F5** to run the project.
 
-2.  Click **Choose your first building block** to display the first building block gallery content control.
+2. Click **Choose your first building block** to display the first building block gallery content control.
 
-3.  Click the drop-down arrow next to the **Custom Gallery 1** heading in the control, and select **Employee Table**.
+3. Click the drop-down arrow next to the **Custom Gallery 1** heading in the control, and select **Employee Table**.
 
-4.  Click in the cell to the right of the **Employee Name** cell and type a name.
+4. Click in the cell to the right of the **Employee Name** cell and type a name.
 
      Verify that you can add only text to this cell. The <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> allows users to add only text, not other types of content such as art or a table.
 
-5.  Click in the cell to the right of the **Hire Date** cell and select a date in the date picker.
+5. Click in the cell to the right of the **Hire Date** cell and select a date in the date picker.
 
-6.  Click in the cell to the right of the **Title** cell and select one of the job titles in the combo box.
+6. Click in the cell to the right of the **Title** cell and select one of the job titles in the combo box.
 
      Optionally, type the name of a job title that is not in the list. This is possible because the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> enables users to select from a list of entries or to type their own entries.
 
-7.  Click the icon in the cell to the right of the **Picture** cell and browse to an image to display it.
+7. Click the icon in the cell to the right of the **Picture** cell and browse to an image to display it.
 
-8.  Try to add rows or columns to the table, and try to delete rows and columns from the table. Verify that you cannot modify the table. The <xref:Microsoft.Office.Tools.Word.GroupContentControl> prevents you from making any modifications.
+8. Try to add rows or columns to the table, and try to delete rows and columns from the table. Verify that you cannot modify the table. The <xref:Microsoft.Office.Tools.Word.GroupContentControl> prevents you from making any modifications.
 
 ### To test the customer feedback table
 
-1.  Click **Choose your second building block** to display the second building block gallery content control.
+1. Click **Choose your second building block** to display the second building block gallery content control.
 
-2.  Click the drop-down arrow next to the **Custom Gallery 1** heading in the control, and select **Customer Table**.
+2. Click the drop-down arrow next to the **Custom Gallery 1** heading in the control, and select **Customer Table**.
 
-3.  Click in the cell to the right of the **Customer Name** cell and type a name.
+3. Click in the cell to the right of the **Customer Name** cell and type a name.
 
-4.  Click in the cell to the right of the **Satisfaction Rating** cell and select one of the available options.
+4. Click in the cell to the right of the **Satisfaction Rating** cell and select one of the available options.
 
      Verify that you cannot type your own entry. The <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> allows users only to select from a list of entries.
 
-5.  Click in the cell to the right of the **Comments** cell and type some comments.
+5. Click in the cell to the right of the **Comments** cell and type some comments.
 
      Optionally, add some content other than text, such as art or an embedded table. This is possible because the <xref:Microsoft.Office.Tools.Word.RichTextContentControl> enables users to add content other than text.
 
-6.  Verify that you can add rows or columns to the table, and that you can delete rows and columns from the table. This is possible because you have not protected the table by putting it in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>.
+6. Verify that you can add rows or columns to the table, and that you can delete rows and columns from the table. This is possible because you have not protected the table by putting it in a <xref:Microsoft.Office.Tools.Word.GroupContentControl>.
 
-7.  Close the template.
+7. Close the template.
 
 ## Next steps
  You can learn more about how to use content controls from this topic:

@@ -37,11 +37,11 @@ The Visual Studio context determines which commands are available. The context c
 ## Defining Custom Context GUIDs  
  If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands.  
   
-1.  Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method.  
+1. Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method.  
   
-2.  Get the state of a context GUID by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method.  
+2. Get the state of a context GUID by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method.  
   
-3.  Turn context GUIDs on and off by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method.  
+3. Turn context GUIDs on and off by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method.  
   
     > [!CAUTION]
     >  Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.  

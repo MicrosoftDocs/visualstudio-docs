@@ -103,13 +103,13 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] build process is defined by a s
 
 #### To override a "DependsOn" property
 
-1.  Identify a predefined "DependsOn" property in Microsoft.Common.targets that you want to override. See the table below for a list of the commonly overridden "DependsOn" properties.
+1. Identify a predefined "DependsOn" property in Microsoft.Common.targets that you want to override. See the table below for a list of the commonly overridden "DependsOn" properties.
 
-2.  Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.
+2. Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.
 
-3.  Define your custom targets before or after the property definition.
+3. Define your custom targets before or after the property definition.
 
-4.  Build the project file.
+4. Build the project file.
 
 ### Commonly Overridden "DependsOn" Properties
 

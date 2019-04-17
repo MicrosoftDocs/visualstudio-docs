@@ -104,9 +104,9 @@ This implementation contains a common off-by-one error. Fortunately, the code au
 
 #### To use Visual Studio code analysis tools and SAL
 
-1.  In Visual Studio, open a C++ project that contains SAL annotations.
+1. In Visual Studio, open a C++ project that contains SAL annotations.
 
-2.  On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
+2. On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
 
      Consider the \_In\_ example in this section. If you run code analysis on it, this warning is displayed:
 

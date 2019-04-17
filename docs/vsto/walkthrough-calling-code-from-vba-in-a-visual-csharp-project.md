@@ -58,54 +58,54 @@ ms.workload:
 
 ### To create a workbook that contains VBA code
 
-1.  Start Excel.
+1. Start Excel.
 
-2.  Save the active document as an **Excel Macro-Enabled Workbook (\*.xlsm)** with the name **WorkbookWithVBA**. Save it to a convenient location, such as the desktop.
+2. Save the active document as an **Excel Macro-Enabled Workbook (\*.xlsm)** with the name **WorkbookWithVBA**. Save it to a convenient location, such as the desktop.
 
-3.  On the Ribbon, click the **Developer** tab.
+3. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-4.  In the **Code** group, click **Visual Basic**.
+4. In the **Code** group, click **Visual Basic**.
 
      The Visual Basic Editor opens.
 
-5.  In the **Project** window, double-click **ThisWorkbook**.
+5. In the **Project** window, double-click **ThisWorkbook**.
 
      The code file for the `ThisWorkbook` object opens.
 
-6.  Add the following VBA code to the code file. This code defines a simple function that does nothing. The only purpose of this function is to ensure that a VBA project exists in the workbook. This is required for later steps in this walkthrough.
+6. Add the following VBA code to the code file. This code defines a simple function that does nothing. The only purpose of this function is to ensure that a VBA project exists in the workbook. This is required for later steps in this walkthrough.
 
     ```vb
     Sub EmptySub()
     End Sub
     ```
 
-7.  Save the document and exit Excel.
+7. Save the document and exit Excel.
 
 ## Create the project
  Now you can create a document-level project for Excel that uses the macro-enabled workbook you created earlier.
 
 ### To create a new project
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual C#**, and then expand **Office/SharePoint**.
 
-4.  Select the **Office Add-ins** node.
+4. Select the **Office Add-ins** node.
 
-5.  In the list of project templates, select the **Excel 2010 Workbook** or **Excel 2013 Workbook** project.
+5. In the list of project templates, select the **Excel 2010 Workbook** or **Excel 2013 Workbook** project.
 
-6.  In the **Name** box, type **CallingCodeFromVBA**.
+6. In the **Name** box, type **CallingCodeFromVBA**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      The **Visual Studio Tools for Office Project Wizard** opens.
 
-8.  Select **Copy an existing document**, and, in the **Full path of the existing document** box, specify the location of the **WorkbookWithVBA** workbook that you created earlier. If you are using your own macro-enabled workbook, specify the location of that workbook instead.
+8. Select **Copy an existing document**, and, in the **Full path of the existing document** box, specify the location of the **WorkbookWithVBA** workbook that you created earlier. If you are using your own macro-enabled workbook, specify the location of that workbook instead.
 
 9. Click **Finish**.
 
@@ -116,21 +116,21 @@ ms.workload:
 
 ### To trust the location of the workbook
 
-1.  Start Excel.
+1. Start Excel.
 
-2.  Click the **File** tab.
+2. Click the **File** tab.
 
-3.  Click the **Excel Options** button.
+3. Click the **Excel Options** button.
 
-4.  In the categories pane, click **Trust Center**.
+4. In the categories pane, click **Trust Center**.
 
-5.  In the details pane, click **Trust Center Settings**.
+5. In the details pane, click **Trust Center Settings**.
 
-6.  In the categories pane, click **Trusted Locations**.
+6. In the categories pane, click **Trusted Locations**.
 
-7.  In the details pane, click **Add new location**.
+7. In the details pane, click **Add new location**.
 
-8.  In the **Microsoft Office Trusted Location** dialog box, browse to the folder that contains the **CallingCodeFromVBA** project.
+8. In the **Microsoft Office Trusted Location** dialog box, browse to the folder that contains the **CallingCodeFromVBA** project.
 
 9. Select **Subfolders of this location are also trusted**.
 
@@ -147,19 +147,19 @@ ms.workload:
 
 ### To add a method to the Sheet1 class
 
-1.  In **Solution Explorer**, right-click **Sheet1.cs**, and then click **View Code**.
+1. In **Solution Explorer**, right-click **Sheet1.cs**, and then click **View Code**.
 
      The **Sheet1.cs** file opens in the Code Editor.
 
-2.  Add the following code to the `Sheet1` class. The `CreateVstoNamedRange` method creates a new <xref:Microsoft.Office.Tools.Excel.NamedRange> object at the specified range. This method also creates an event handler for the <xref:Microsoft.Office.Tools.Excel.NamedRange.Selected> event of the <xref:Microsoft.Office.Tools.Excel.NamedRange>. Later in this walkthrough, you will call the `CreateVstoNamedRange` method from VBA code in the document.
+2. Add the following code to the `Sheet1` class. The `CreateVstoNamedRange` method creates a new <xref:Microsoft.Office.Tools.Excel.NamedRange> object at the specified range. This method also creates an event handler for the <xref:Microsoft.Office.Tools.Excel.NamedRange.Selected> event of the <xref:Microsoft.Office.Tools.Excel.NamedRange>. Later in this walkthrough, you will call the `CreateVstoNamedRange` method from VBA code in the document.
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#2](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#2)]
 
-3.  Add the following method to the `Sheet1` class. This method overrides the <xref:Microsoft.Office.Tools.Excel.Worksheet.GetAutomationObject%2A> method to return the current instance of the `Sheet1` class.
+3. Add the following method to the `Sheet1` class. This method overrides the <xref:Microsoft.Office.Tools.Excel.Worksheet.GetAutomationObject%2A> method to return the current instance of the `Sheet1` class.
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#3](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#3)]
 
-4.  Apply the following attributes before the first line of the `Sheet1` class declaration. These attributes make the class visible to COM, but without generating a class interface.
+4. Apply the following attributes before the first line of the `Sheet1` class declaration. These attributes make the class visible to COM, but without generating a class interface.
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#1](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#1)]
 
@@ -168,36 +168,36 @@ ms.workload:
 
 ### To extract an interface for the Sheet1 class
 
-1.  In the **Sheet1.cs** code file, click anywhere in the `Sheet1` class.
+1. In the **Sheet1.cs** code file, click anywhere in the `Sheet1` class.
 
-2.  On the **Refactor** menu, click **Extract Interface**.
+2. On the **Refactor** menu, click **Extract Interface**.
 
-3.  In the **Extract Interface** dialog box, in the **Select public members to form interface** box, click the entry for the `CreateVstoNamedRange` method.
+3. In the **Extract Interface** dialog box, in the **Select public members to form interface** box, click the entry for the `CreateVstoNamedRange` method.
 
-4.  Click **OK**.
+4. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] generates a new interface named `ISheet1`, and it modifies the definition of the `Sheet1` class so that it implements the `ISheet1` interface. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also opens the **ISheet1.cs** file in the Code Editor.
 
-5.  In the **ISheet1.cs** file, replace the `ISheet1` interface declaration with the following code. This code makes the `ISheet1` interface public, and it applies the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute to make the interface visible to COM.
+5. In the **ISheet1.cs** file, replace the `ISheet1` interface declaration with the following code. This code makes the `ISheet1` interface public, and it applies the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute to make the interface visible to COM.
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#4](../vsto/codesnippet/CSharp/CallingCodeFromVBA/ISheet1.cs#4)]
 
-6.  Build the project.
+6. Build the project.
 
 ## Expose the method to VBA code
  To expose the `CreateVstoNamedRange` method to VBA code in the workbook, set the **ReferenceAssemblyFromVbaProject** property for the `Sheet1` host item to **True**.
 
 ### To expose the method to VBA code
 
-1.  In **Solution Explorer**, double-click **Sheet1.cs**.
+1. In **Solution Explorer**, double-click **Sheet1.cs**.
 
      The **WorkbookWithVBA** file opens in the designer, with Sheet1 visible.
 
-2.  In the **Properties** window, select the **ReferenceAssemblyFromVbaProject** property, and change the value to **True**.
+2. In the **Properties** window, select the **ReferenceAssemblyFromVbaProject** property, and change the value to **True**.
 
-3.  Click **OK** in the message that is displayed.
+3. Click **OK** in the message that is displayed.
 
-4.  Build the project.
+4. Build the project.
 
 ## Call the method from VBA code
  You can now call the `CreateVstoNamedRange` method from VBA code in the workbook.
@@ -207,15 +207,15 @@ ms.workload:
 
 ### To call the method from VBA code
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  On the **Developer** tab, in the **Code** group, click **Visual Basic**.
+2. On the **Developer** tab, in the **Code** group, click **Visual Basic**.
 
      The Visual Basic Editor opens.
 
-3.  On the **Insert** menu, click **Module**.
+3. On the **Insert** menu, click **Module**.
 
-4.  Add the following code to the new module.
+4. Add the following code to the new module.
 
      This code calls the `CreateTable` method in the customization assembly. The macro accesses this method by using the global `GetManagedClass` method to access the `Sheet1` host item class that you exposed to VBA code. The `GetManagedClass` method was automatically generated when you set the **ReferenceAssemblyFromVbaProject** property earlier in this walkthrough.
 
@@ -227,11 +227,11 @@ ms.workload:
     End Sub
     ```
 
-5.  Press **F5**.
+5. Press **F5**.
 
-6.  In the open workbook, click cell **A1** on **Sheet1**. Verify that the message box appears.
+6. In the open workbook, click cell **A1** on **Sheet1**. Verify that the message box appears.
 
-7.  Exit Excel without saving your changes.
+7. Exit Excel without saving your changes.
 
 ## Next steps
  You can learn more about calling code in Office solutions from VBA in these topics:

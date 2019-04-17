@@ -118,28 +118,28 @@ When you create an application that manipulates data in a database, you perform 
   
  You can find the connection string in **SQL Server Object Explorer** by right-clicking the database, selecting **Properties**, and then finding the ConnectionString property. Use Ctrl+A to select the string.  
   
-1.  In **Solution Explorer**, select the **Properties** node under the project, and then select **Settings.settings**.  
+1. In **Solution Explorer**, select the **Properties** node under the project, and then select **Settings.settings**.  
   
-2.  In the **Name** column, enter `connString`.  
+2. In the **Name** column, enter `connString`.  
   
-3.  In the **Type** list, select **(Connection String)**.  
+3. In the **Type** list, select **(Connection String)**.  
   
-4.  In the **Scope** list, select **Application**.  
+4. In the **Scope** list, select **Application**.  
   
-5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
+5. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   
 > [!NOTE]
 >  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
   
 ##  <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
   
-1.  On the menu bar, select **Project** > **Add Reference**, and then add a reference to System.Configuration.dll.  
+1. On the menu bar, select **Project** > **Add Reference**, and then add a reference to System.Configuration.dll.  
   
-2.  On the menu bar, select **Project** > **Add Class** to add a class file to your project, and then name the file `Utility`.  
+2. On the menu bar, select **Project** > **Add Class** to add a class file to your project, and then name the file `Utility`.  
   
      Visual Studio creates the file and displays it in **Solution Explorer**.  
   
-3.  In the Utility file, replace the placeholder code with the following code. Notice the numbered comments (prefixed with Util-) that identify sections of the code. The table that follows the code calls out key points.  
+3. In the Utility file, replace the placeholder code with the following code. Notice the numbered comments (prefixed with Util-) that identify sections of the code. The table that follows the code calls out key points.  
   
     ```csharp  
     using System;  

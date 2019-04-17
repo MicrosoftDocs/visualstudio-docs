@@ -34,15 +34,15 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To create a basic isolated shell solution  
   
-1.  Open Visual Studio and create a new project.  
+1. Open Visual Studio and create a new project.  
   
-2.  In the **New Project** window, expand **Other Project Types** and then **Extensibility**. Select the **Visual Studio Shell Isolated** project template.  
+2. In the **New Project** window, expand **Other Project Types** and then **Extensibility**. Select the **Visual Studio Shell Isolated** project template.  
   
-3.  Name the project `MyVSShellStub` and specify a location. Make sure that **Create directory for solution** is checked, and then click **OK**.  
+3. Name the project `MyVSShellStub` and specify a location. Make sure that **Create directory for solution** is checked, and then click **OK**.  
   
      The new solution appears in **Solution Explorer**.  
   
-4.  Build the solution and start debugging the isolated shell application.  
+4. Build the solution and start debugging the isolated shell application.  
   
      The Visual Studio isolated shell appears. The title bar reads **MyVSShellStub**. The title bar icon is generated from \MyVSShellStub\Resource Files\ApplicationIcon.ico.  
   
@@ -51,13 +51,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To customize the application name and icon  
   
-1.  In the MyVSShellStub project, open \Shell Customization\MyVSShellStub.Application.pkgdef.  
+1. In the MyVSShellStub project, open \Shell Customization\MyVSShellStub.Application.pkgdef.  
   
-2.  Change the `AppName` element value to **"AppName"="Fabrikam Music Editor"**  
+2. Change the `AppName` element value to **"AppName"="Fabrikam Music Editor"**  
   
-3.  To change the application icon, copy a different icon to the \MyVSShellStub\MyVSShellStub\MyVSShellStub\ directory. Rename the existing ApplicationIcon.ico file to ApplicationIcon1.ico. Rename the new file to ApplicationIcon.ico.  
+3. To change the application icon, copy a different icon to the \MyVSShellStub\MyVSShellStub\MyVSShellStub\ directory. Rename the existing ApplicationIcon.ico file to ApplicationIcon1.ico. Rename the new file to ApplicationIcon.ico.  
   
-4.  Build the solution and start debugging. The isolated shell IDE appears. The title bar has your new icon next to the words **Fabrikam Music Editor**.  
+4. Build the solution and start debugging. The isolated shell IDE appears. The title bar has your new icon next to the words **Fabrikam Music Editor**.  
   
 ## Customizing the Default Web Browser Home Page  
  This section shows how to change the default home page of the **Web Browser** window by changing the package definition file.  
@@ -81,19 +81,19 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To remove the print command  
   
-1.  Verify that the **Print** command appears on the **File** menu in the isolated shell application.  
+1. Verify that the **Print** command appears on the **File** menu in the isolated shell application.  
   
-2.  In the MyVSShellStubUI project, open \Resource Files\MyVSShellStubUI.vsct for editing.  
+2. In the MyVSShellStubUI project, open \Resource Files\MyVSShellStubUI.vsct for editing.  
   
-3.  Uncomment this line:  
+3. Uncomment this line:  
   
     ```  
     <!-- <Define name="No_PrintChildrenCommand"/> -->  
     ```  
   
-4.  This removes the print command.  
+4. This removes the print command.  
   
-5.  Start debugging the isolated shell application. Verify that the **File / Print** command is gone.  
+5. Start debugging the isolated shell application. Verify that the **File / Print** command is gone.  
   
 ## Removing Features from the Isolated Shell  
  You can remove some of the packages that are loaded with Visual Studio by editing the .pkgundef file if you do not want those features in your custom isolated shell application. You specify the package in one of the subkeys of the $RootKey$\Packages registry key.  
@@ -105,22 +105,22 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To remove the XML editor  
   
-1.  Open the MyVSShellStub.pkgundef file in the Shell Customization folder of the MyVSShellStub project.  
+1. Open the MyVSShellStub.pkgundef file in the Shell Customization folder of the MyVSShellStub project.  
   
-2.  Uncomment the following line:  
+2. Uncomment the following line:  
   
      [$RootKey$\Packages\\{87569308-4813-40a0-9cd0-d7a30838ca3f}]  
   
-3.  Rebuild the solution and start debugging the isolated shell. Open an XML file,for example, \MyVSShellStub\MyVSShellStub\MyVSShellStubUI\MyVSShellStubUI.vsct. Verify that the XML keywords in the file are not colorized and that typing "<" on a line does not bring up XML tooltips.  
+3. Rebuild the solution and start debugging the isolated shell. Open an XML file,for example, \MyVSShellStub\MyVSShellStub\MyVSShellStubUI\MyVSShellStubUI.vsct. Verify that the XML keywords in the file are not colorized and that typing "<" on a line does not bring up XML tooltips.  
   
 ## Customizing the Help/About box  
  You can customize the Help/About box, which is created as part of the isolated shell project template.  
   
 #### To customize the company name  
   
-1.  The company name, copyright information, product version, and product description are found in the MyVSShellStub.AboutBoxPackage project, in the \Properties\AssemblyInfo.cs file. Open this file.  
+1. The company name, copyright information, product version, and product description are found in the MyVSShellStub.AboutBoxPackage project, in the \Properties\AssemblyInfo.cs file. Open this file.  
   
-2.  Change the `AssemblyCompany` value to **Fabrikam**, the `AssemblyProduct` and `AssemblyTitle` values to **Fabrikam Music Editor**, and the `AssemblyCopyright` value to **Copyright © Fabrikam 2015**:  
+2. Change the `AssemblyCompany` value to **Fabrikam**, the `AssemblyProduct` and `AssemblyTitle` values to **Fabrikam Music Editor**, and the `AssemblyCopyright` value to **Copyright © Fabrikam 2015**:  
   
     ```  
     [assembly: AssemblyTitle("Fabrikam Music Editor")]  
@@ -133,15 +133,15 @@ This walkthrough shows how to create an isolated shell solution, customize the H
     [assembly: AssemblyCopyright("Copyright © Fabrikam 2015”)]  
     ```  
   
-3.  To add a description of the product, change the `AssemblyDescription` value to **The description of Fabrikam Music editor.**:  
+3. To add a description of the product, change the `AssemblyDescription` value to **The description of Fabrikam Music editor.**:  
   
     ```  
     [assembly: AssemblyDescription("The description of Fabrikam Music editor.”)]  
     ```  
   
-4.  Start debugging and in the isolated shell application, open the **Help / About** box. You should see the changed strings. The title of the Help/About box is the same as the `AssemblyTitle` value in AssemblyInfo.cs.  
+4. Start debugging and in the isolated shell application, open the **Help / About** box. You should see the changed strings. The title of the Help/About box is the same as the `AssemblyTitle` value in AssemblyInfo.cs.  
   
-5.  The properties of the **Help/About** box itself are found in the MyVSShellStub.AboutBoxPackage\AboutBox.xaml file. To change the width of the Help/About box, go to the `AboutDialogStyle` block and set the `Width` property to 200:  
+5. The properties of the **Help/About** box itself are found in the MyVSShellStub.AboutBoxPackage\AboutBox.xaml file. To change the width of the Help/About box, go to the `AboutDialogStyle` block and set the `Width` property to 200:  
   
     ```  
     <Style x:Key="AboutDialogStyle" TargetType="Window">  
@@ -154,7 +154,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
     </Style>  
     ```  
   
-6.  Rebuild the solution and start debugging the isolated shell. The Help/About box should be approximately square.  
+6. Rebuild the solution and start debugging the isolated shell. The Help/About box should be approximately square.  
   
 ## Before You Deploy the Isolated Shell Application  
  Your isolated shell application can be installed on any computer that has the Visual Studio Shell (Isolated) Redistributable Package. For more information about the redistributable package, see the [Visual Studio Extensibility Downloads](http://go.microsoft.com/fwlink/?LinkID=119298) website.  
@@ -188,13 +188,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To configure the setup project  
   
-1.  In the **Solution Explorer**, under the **MySetup** project, choose **Project Assistant**. On the bottom row of the **Project Assistant** window, choose **Application Information**. Enter **Fabrikam** as your company name and **Fabrikam Music Editor** as your application name. Choose the forward arrow at the bottom right of the **Project Assistant**.  
+1. In the **Solution Explorer**, under the **MySetup** project, choose **Project Assistant**. On the bottom row of the **Project Assistant** window, choose **Application Information**. Enter **Fabrikam** as your company name and **Fabrikam Music Editor** as your application name. Choose the forward arrow at the bottom right of the **Project Assistant**.  
   
-2.  Select **Yes** under **Does your application require any software to be installed on the machine?** and then select **Microsoft .NET Framework 4.5 Full Package**.  
+2. Select **Yes** under **Does your application require any software to be installed on the machine?** and then select **Microsoft .NET Framework 4.5 Full Package**.  
   
-3.  Choose the **Application Files** button at the bottom of the window, and make sure that the **Fabrikam Music Editor** folder is selected.  
+3. Choose the **Application Files** button at the bottom of the window, and make sure that the **Fabrikam Music Editor** folder is selected.  
   
-4.  Choose the **Add Files** button. In the **Add Files** dialog box, add the following files from the **MyVSShellStub\Release** folder:  
+4. Choose the **Add Files** button. In the **Add Files** dialog box, add the following files from the **MyVSShellStub\Release** folder:  
   
     1.  MyVSShellStub.exe.config  
   
@@ -210,13 +210,13 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
     7.  Splash.bmp  
   
-5.  Click the **Add Project Outputs** button and add **MyVSShellStub/Primary Output**. Click **OK**.  
+5. Click the **Add Project Outputs** button and add **MyVSShellStub/Primary Output**. Click **OK**.  
   
-6.  In the left pane, under **Destination Computer**, right-click the **Fabrikam Music Editor [INSTALLDIR]** node and add a **New Folder** named **Extensions**.  
+6. In the left pane, under **Destination Computer**, right-click the **Fabrikam Music Editor [INSTALLDIR]** node and add a **New Folder** named **Extensions**.  
   
-7.  Right-click the **Extensions** node in the left pane and add a new folder named **Application**.  
+7. Right-click the **Extensions** node in the left pane and add a new folder named **Application**.  
   
-8.  Select the **Application** folder and click the **Add Project Outputs** button, then select the primary output from the MyVSShellStub.AboutBoxPackage project.  
+8. Select the **Application** folder and click the **Add Project Outputs** button, then select the primary output from the MyVSShellStub.AboutBoxPackage project.  
   
 9. Click the **Add Files** button and from the \MyVSShellStub\Release\Extensions\Application\ folder add the following files:  
   

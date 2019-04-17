@@ -24,11 +24,11 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
 
 ### To open the WPF Tree visualizer
 
-1.  In a DataTip, **Watch** window, **Autos** window, or **Locals** window, next to a WPF object name, click the arrow adjacent to the magnifying glass icon.
+1. In a DataTip, **Watch** window, **Autos** window, or **Locals** window, next to a WPF object name, click the arrow adjacent to the magnifying glass icon.
 
      A list of visualizers is displayed.
 
-2.  Click **WPF Tree Visualizer**.
+2. Click **WPF Tree Visualizer**.
 
 ### To search the visual tree
 

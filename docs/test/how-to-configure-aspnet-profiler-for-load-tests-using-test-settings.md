@@ -29,18 +29,18 @@ For more information, see [How to: Create a test setting for a distributed load 
 
 Before you perform the steps in this procedure, you must open your test settings from Visual Studio and select the **Data and Diagnostics** page.
 
-1.  Select the role to use to collect the ASP.NET profiler data.
+1. Select the role to use to collect the ASP.NET profiler data.
 
     > [!WARNING]
     > This role must be a web server.
 
-2.  Select **ASP.NET Profiler** to enable collecting ASP.NET profiling data, and then choose **Configure**.
+2. Select **ASP.NET Profiler** to enable collecting ASP.NET profiling data, and then choose **Configure**.
 
      The dialog box to configure ASP.NET profiling data collection is displayed.
 
-3.  In **Profiler Sampling interval**, type a value that indicates how many non-halted CPU clock cycles to wait between taking ASP.NET profiling samples.
+3. In **Profiler Sampling interval**, type a value that indicates how many non-halted CPU clock cycles to wait between taking ASP.NET profiling samples.
 
-4.  To enable tier interaction profiling, select **Enable Tier Interaction Profiling**.
+4. To enable tier interaction profiling, select **Enable Tier Interaction Profiling**.
 
      Tier interaction profiling counts the number of requests that are sent to the web server for each artifact (for example, *MyPage.aspx* or *CompanyLogo.gif*) and the time it took to service each request. Additionally, tier interaction profiling collects which ADO.NET connections were used as a part of the page request, and how many queries and stored procedure calls were executed as a part of servicing that request.
 

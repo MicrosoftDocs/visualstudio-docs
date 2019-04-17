@@ -43,11 +43,11 @@ ms.workload:
 ## Modify data in the cache
  To modify a cached data object, you typically perform the following steps:
 
-1.  Deserialize the XML representation of the cached object into a new instance of the object. You can access the XML by using the <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem.Xml%2A> property of the <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem> that represents the cached data object.
+1. Deserialize the XML representation of the cached object into a new instance of the object. You can access the XML by using the <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem.Xml%2A> property of the <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem> that represents the cached data object.
 
-2.  Make the changes to this copy.
+2. Make the changes to this copy.
 
-3.  Serialize the changed object back into the data cache by using one of the following options:
+3. Serialize the changed object back into the data cache by using one of the following options:
 
     -   If you want to automatically serialize the changes, use the <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem.SerializeDataInstance%2A> method. This method uses the **DiffGram** format for serializing <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, and typed dataset objects in the data cache. The **DiffGram** format ensures that changes to the data cache in an offline document are sent to the server correctly.
 

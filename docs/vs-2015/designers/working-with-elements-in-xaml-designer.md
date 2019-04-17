@@ -58,11 +58,11 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To align two or more elements by using menu commands  
   
-1.  Select the elements that you want to align. You can select more than one element by pressing and holding the Ctrl key while you select the elements.  
+1. Select the elements that you want to align. You can select more than one element by pressing and holding the Ctrl key while you select the elements.  
   
-2.  Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.  
+2. Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.  
   
-3.  Select one of the following properties under **VerticalAlignment** in the **Layout** section of the Properties window: **Top**, **Center**, **Bottom**, or **Stretch**.  
+3. Select one of the following properties under **VerticalAlignment** in the **Layout** section of the Properties window: **Top**, **Center**, **Bottom**, or **Stretch**.  
   
 #### To align two or more elements by using snaplines  
   
@@ -75,9 +75,9 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To change an element's margins in the Properties window  
   
-1.  Select the element whose margins you want to change.  
+1. Select the element whose margins you want to change.  
   
-2.  Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).  
+2. Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).  
   
 #### To change an element's margins in the artboard  
   
@@ -95,9 +95,9 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
 #### To group elements into a new layout container  
   
-1.  Select the elements that you want to group. (To select multiple elements, press and hold the Ctrl key while you click them.)  
+1. Select the elements that you want to group. (To select multiple elements, press and hold the Ctrl key while you click them.)  
   
-2.  Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.  
+2. Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.  
   
     > [!TIP]
     >  If you select <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> to group your elements, the elements are placed in a new <xref:Windows.UI.Xaml.Controls.Grid> panel within the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer>. If you ungroup elements in one of these layout containers, only the <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border>, or <xref:Windows.UI.Xaml.Controls.ScrollViewer> is deleted, and the <xref:Windows.UI.Xaml.Controls.Grid> panel remains. To delete the `Grid` panel, ungroup the elements again.  

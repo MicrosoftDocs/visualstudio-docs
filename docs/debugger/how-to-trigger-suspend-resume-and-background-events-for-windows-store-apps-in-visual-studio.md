@@ -30,11 +30,11 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
  In the Visual Studio debugger, you can manually suspend, resume, and terminate your apps to debug process lifecycle events. To debug a process lifecycle event:
 
-1.  Set a breakpooint in the handler of the event that you want to debug.
+1. Set a breakpooint in the handler of the event that you want to debug.
 
-2.  Press **F5** to start debugging.
+2. Press **F5** to start debugging.
 
-3.  On the **Debug Location** toolbar, choose the event that you want to fire:
+3. On the **Debug Location** toolbar, choose the event that you want to fire:
 
      ![Suspend, resume, terminate, and background tasks](../debugger/media/dbg_suspendresumebackground.png "DBG_SuspendResumeBackground")
 
@@ -52,23 +52,23 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
 ###  <a name="BKMK_Trigger_a_background_task_event_from_a_standard_debug_session"></a> Trigger a background task event from a standard debug session
 
-1.  Set a breakpoint in the background task code that you want to debug.
+1. Set a breakpoint in the background task code that you want to debug.
 
-2.  Press **F5** to start debugging.
+2. Press **F5** to start debugging.
 
-3.  From the events list on the **Debug Location** toolbar, choose the background task that you want to start.
+3. From the events list on the **Debug Location** toolbar, choose the background task that you want to start.
 
      ![Suspend, resume, terminate, and background tasks](../debugger/media/dbg_suspendresumebackground.png "DBG_SuspendResumeBackground")
 
 ###  <a name="BKMK_Trigger_a_background_task_when_the_app_is_not_running"></a> Trigger a background task when the app is not running
 
-1.  Set a breakpoint in the background task code that you want to debug.
+1. Set a breakpoint in the background task code that you want to debug.
 
-2.  Open the debug property page for the start-up project. In Solution Explorer, select the project. On the **Debug** menu, choose **Properties**.
+2. Open the debug property page for the start-up project. In Solution Explorer, select the project. On the **Debug** menu, choose **Properties**.
 
      For C++ projects, expand **Configuration Properties** and then choose **Debugging**.
 
-3.  Do one of the following:
+3. Do one of the following:
 
     -   For Visual C# and Visual Basic projects, choose **Do not launch, but debug my code when it starts**
 
@@ -78,11 +78,11 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 
          ![C&#43;&#43;&#47;VB Launch application debug property](../debugger/media/dbg_cppjs_dontlaunchapp.png "DBG_CppJs_DontLaunchApp")
 
-4.  Press **F5** to put the app in debug mode. Note the **Process** list on the **Debug Location** toolbar displays the app package name to indicate that you are in debug mode.
+4. Press **F5** to put the app in debug mode. Note the **Process** list on the **Debug Location** toolbar displays the app package name to indicate that you are in debug mode.
 
      ![Background task Process list](../debugger/media/dbg_backgroundtask_processlist.png "DBG_BackgroundTask_ProcessList")
 
-5.  From the events list on the **Debug Location** toolbar, choose the background task that you want to start.
+5. From the events list on the **Debug Location** toolbar, choose the background task that you want to start.
 
      ![Suspend, resume, terminate, and background tasks](../debugger/media/dbg_suspendresumebackground.png "DBG_SuspendResumeBackground")
 
@@ -94,13 +94,13 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 ##  <a name="BKMK_Diagnosing_background_task_activation_errors"></a> Diagnosing background task activation errors
  The diagnostic logs in Windows Event Viewer for the background infrastructure contains detailed information that you can use to diagnose and troubleshoot background task errors. To view the log:
 
-1.  Open the Event Viewer application.
+1. Open the Event Viewer application.
 
-2.  In the **Actions** pane, choose **View** and make sure **Show Analytic and Debug Logs** is checked.
+2. In the **Actions** pane, choose **View** and make sure **Show Analytic and Debug Logs** is checked.
 
-3.  On the **Event Viewer (Local)** tree, expand the nodes **Applications and Services Logs** > **Microsoft** > **Windows** > **BackgroundTasksInfrastructure**.
+3. On the **Event Viewer (Local)** tree, expand the nodes **Applications and Services Logs** > **Microsoft** > **Windows** > **BackgroundTasksInfrastructure**.
 
-4.  Choose the **Diagnostic** log.
+4. Choose the **Diagnostic** log.
 
 ## See Also
 - [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)

@@ -33,16 +33,16 @@ Other users of Visual Studio can install layer modeling extensions that you crea
   
 #### To uninstall the extension  
   
-1.  In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.  
+1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.  
   
-2.  Click the name of the extension and then click **Uninstall**.  
+2. Click the name of the extension and then click **Uninstall**.  
   
 ## Installing an Extension on a Team Foundation Build Server  
  [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] servers do not normally have Visual Studio installed, and so you cannot install the VSIX by double-clicking it. The installation of [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] includes some components that allow a VSIX extension to run, but you must install the extension manually.  
   
 #### To install your layer extension on a [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] Server  
   
-1.  Copy the **.vsix** files from your development computer to the [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] computer.  
+1. Copy the **.vsix** files from your development computer to the [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] computer.  
   
      Place the VSIX file in one of the following locations:  
   
@@ -61,7 +61,7 @@ Other users of Visual Studio can install layer modeling extensions that you crea
         > [!NOTE]
         >  %LocalAppData% is typically *DriveName*:Users*UserName*AppDataLocal.  
   
-2.  Expand each VSIX file into a folder in the same location:  
+2. Expand each VSIX file into a folder in the same location:  
   
     1.  Change the file name extension from **.vsix** to **.zip**.  
   
@@ -69,4 +69,4 @@ Other users of Visual Studio can install layer modeling extensions that you crea
   
     3.  Delete the .zip file  
   
-3.  Restart [!INCLUDE[esprbuild](../includes/esprbuild-md.md)].
+3. Restart [!INCLUDE[esprbuild](../includes/esprbuild-md.md)].

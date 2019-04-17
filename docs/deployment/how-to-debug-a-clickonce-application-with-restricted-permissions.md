@@ -26,31 +26,31 @@ As a developer, you most likely are running your development computer with Full 
 
 ### To enable debugging with restricted permissions
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  In the **Project Designer**, click the **Security** tab.
+2. In the **Project Designer**, click the **Security** tab.
 
-3.  Select the **Enable ClickOnce Security Setting** check box, and then click the **This is a partial trust application** option button.
+3. Select the **Enable ClickOnce Security Setting** check box, and then click the **This is a partial trust application** option button.
 
-4.  Click the **Advanced** button.
+4. Click the **Advanced** button.
 
-5.  Select the **Debug this application with the selected permission set** check box, and then click **OK**.
+5. Select the **Debug this application with the selected permission set** check box, and then click **OK**.
 
      When you debug the application, any attempts to access a permission that isn't part of the permission set will raise a security exception.
 
 ### To specify a URL for debugging
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  In the **Project Designer**, click the **Security** tab.
+2. In the **Project Designer**, click the **Security** tab.
 
-3.  Select the **Enable ClickOnce Security Setting** check box, and then click the **This is a partial trust application** option button.
+3. Select the **Enable ClickOnce Security Setting** check box, and then click the **This is a partial trust application** option button.
 
-4.  Click the **Advanced** button.
+4. Click the **Advanced** button.
 
-5.  Select the **Debug this application with the selected permission set** check box, and then click **OK**.
+5. Select the **Debug this application with the selected permission set** check box, and then click **OK**.
 
-6.  In the **Debug this application as if it were downloaded from the following URL** text box, enter a URL or network path.
+6. In the **Debug this application as if it were downloaded from the following URL** text box, enter a URL or network path.
 
 ## See Also
 - [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)

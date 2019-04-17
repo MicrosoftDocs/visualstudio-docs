@@ -138,9 +138,9 @@ You can customize the appearance and behavior of the properties window in your d
 
 ##### To define a file name domain property
 
-1.  Add a domain property to a domain class in your DSL Definition.
+1. Add a domain property to a domain class in your DSL Definition.
 
-2.  Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:
+2. Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:
 
     ```csharp
     [System.ComponentModel.Editor (
@@ -149,9 +149,9 @@ You can customize the appearance and behavior of the properties window in your d
 
     ```
 
-3.  Leave the Type of the domain property at its default setting of **String**.
+3. Leave the Type of the domain property at its default setting of **String**.
 
-4.  To test the editor, verify that users can open the file name editor to edit your domain property.
+4. To test the editor, verify that users can open the file name editor to edit your domain property.
 
     1.  Press CTRL+F5 or F5. In the debugging solution, open a test file. Create an element of the domain class and select it.
 

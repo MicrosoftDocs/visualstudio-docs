@@ -92,11 +92,11 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 ### Step 2 - Create a data set
 
-1.  Add a text file to the dataDrivenSample project named *data.csv*.
+1. Add a text file to the dataDrivenSample project named *data.csv*.
 
      ![Add a comma seperated value file to the project](../test/media/cuit_datadriven_addcsvfile.png)
 
-2.  Populate the *.csv* file with the following data:
+2. Populate the *.csv* file with the following data:
 
     |Num1|Num2|Sum|
     |-|-|-|
@@ -108,9 +108,9 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
      ![Populate the .csv file with data](../test/media/cuit_datadriven_adddatatocsvfile.png)
 
-3.  It is important to save the *.csv* file using the correct encoding. On the **File** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.
+3. It is important to save the *.csv* file using the correct encoding. On the **File** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.
 
-4.  The *.csv* file, must be copied to the output directory, or the test can't run. Use the **Properties** window to copy it.
+4. The *.csv* file, must be copied to the output directory, or the test can't run. Use the **Properties** window to copy it.
 
      ![Deploy the .csv file](../test/media/cuit_datadriven_deploycsvfile.png)
 
@@ -118,7 +118,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 ### Step 3 - Add data source binding
 
-1.  To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.
+1. To bind the data source, add a `DataSource` attribute within the existing `[TestMethod]` attribute that is immediately above the test method.
 
     ```csharp
     [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]
@@ -134,7 +134,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
     > [!TIP]
     > See [data source attribute samples](#CreateDataDrivenCUIT_QA_DataSourceAttributes) in the Q & A section for samples of using other data source types such as XML, SQL Express and Excel.
 
-2.  Run the test.
+2. Run the test.
 
      Notice that the test runs through three iterations. This is because the data source that was bound contains three rows of data. However, you will also notice that the test is still using the constant parameter values and is adding 1 + 2 with a sum of 3 each time.
 
@@ -185,7 +185,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
          ![Use the search properties to assist in coding](../test/media/cuit_datadriven_searchproperties.png)
 
-3.  Save the solution.
+3. Save the solution.
 
 ### Step 5 - Run the data-driven test
 

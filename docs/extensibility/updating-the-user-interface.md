@@ -19,7 +19,7 @@ After you implement a command, you can add code to update the user interface wit
 
 ### To update the UI
 
-1.  Perform one of the following steps:
+1. Perform one of the following steps:
 
     -   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.UpdateCommandUI%2A> method.
 

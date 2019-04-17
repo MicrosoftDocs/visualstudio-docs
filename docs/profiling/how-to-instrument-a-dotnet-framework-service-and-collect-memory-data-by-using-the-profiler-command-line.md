@@ -102,19 +102,19 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Stop the service from Service Control Manager.
+1. Stop the service from Service Control Manager.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd /shutdown**
 
-3.  When you have completed all profiling, clear the profiling environment variables. Type:
+3. When you have completed all profiling, clear the profiling environment variables. Type:
 
      **VSPerfClrEnv /globaloff**
 
      Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.
 
-4.  Restart the computer.
+4. Restart the computer.
 
 ## See also
 - [Profile services](../profiling/command-line-profiling-of-services.md)

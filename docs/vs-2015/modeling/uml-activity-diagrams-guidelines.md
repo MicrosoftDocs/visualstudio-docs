@@ -55,24 +55,24 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 #### To draw an activity diagram  
   
-1.  On the **Architecture** menu, click **New UML or Layer Diagram**.  
+1. On the **Architecture** menu, click **New UML or Layer Diagram**.  
   
-2.  Under **Templates**, click **UML Activity Diagram**.  
+2. Under **Templates**, click **UML Activity Diagram**.  
   
-3.  Name the diagram.  
+3. Name the diagram.  
   
-4.  In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**.  
+4. In **Add to Modeling Project**, select an existing modeling project in your solution, or **Create a New Modeling Project**.  
   
 #### To draw elements on an activity diagram  
   
-1.  Drag elements from the toolbox onto the diagram.  
+1. Drag elements from the toolbox onto the diagram.  
   
      Start by placing the main activities on the diagram, connecting them, and then adding final touches such as the initial and final nodes.  
   
     > [!NOTE]
     >  You cannot drag existing elements onto the diagram from UML Model Explorer.  
   
-2.  To connect the elements, follow these steps:  
+2. To connect the elements, follow these steps:  
   
     1.  In the **Activity Diagram** toolbox, click **Connector**.  
   
@@ -248,20 +248,20 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 ##### To describe a sub-activity with a Call Behavior Action  
   
-1.  To create the diagram for the sub-activity, in **Solution Explorer**, right-click your modeling project, point to **Add**, and then click **New Item**.  
+1. To create the diagram for the sub-activity, in **Solution Explorer**, right-click your modeling project, point to **Add**, and then click **New Item**.  
   
-2.  In the **Add New Item** dialog box, under **Templates** click **Activity Diagram** and in the **Name** box type the name that you plan to give your **Call Behavior Action**.  
+2. In the **Add New Item** dialog box, under **Templates** click **Activity Diagram** and in the **Name** box type the name that you plan to give your **Call Behavior Action**.  
   
-3.  Draw the detailed work flow for the sub-activity. This is the called behavior.  
+3. Draw the detailed work flow for the sub-activity. This is the called behavior.  
   
     -   In the called sub-activity diagram, the **Initial Node** indicates where control starts when the called behavior is invoked. The **Activity Final Node** shows where control should return to the parent activity.  
   
-4.  Set the **Behavior** property of the **Call Behavior Action** to refer to the called behavior diagram.  
+4. Set the **Behavior** property of the **Call Behavior Action** to refer to the called behavior diagram.  
   
     > [!NOTE]
     >  The sub-activity diagram must have some elements on it or the diagram will not be available in the drop-down list for the **Behavior** property. Also, the trident icon will not appear on your **Call Behavior Action** shape until you set its **Behavior** property.  
   
-5.  Set the **Is Synchronous** property of the action to indicate whether your activity waits for the called activity to complete.  
+5. Set the **Is Synchronous** property of the action to indicate whether your activity waits for the called activity to complete.  
   
     -   If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called activity finishes. You should not define output pins or outgoing data flows from the action.  
   

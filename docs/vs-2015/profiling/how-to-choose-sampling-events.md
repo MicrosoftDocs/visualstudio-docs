@@ -38,22 +38,22 @@ By default, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools col
   
 ### To select a sample event  
   
-1.  In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+1. In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
-2.  In the **Property Pages**, click the **Sampling** properties.  
+2. In the **Property Pages**, click the **Sampling** properties.  
   
-3.  From the **Sample event** drop-down list, select the sample event you want to use to profile your application.  
+3. From the **Sample event** drop-down list, select the sample event you want to use to profile your application.  
   
     > [!NOTE]
     >  The **Available performance counters** are enabled only if you select **Performance counter** from the **Sample event** drop-down list.  
   
-4.  If you select **Performance counter**, select a specific CPU counter from the **Available performance counters** tree view control.  
+4. If you select **Performance counter**, select a specific CPU counter from the **Available performance counters** tree view control.  
   
     -   Counters in the **Portable Events** node are available on all types of processors.  
   
     -   Counters in the **Platform Events** node are specific to the processor on the current computer and might not be available on other types of processors.  
   
-5.  When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.  
+5. When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

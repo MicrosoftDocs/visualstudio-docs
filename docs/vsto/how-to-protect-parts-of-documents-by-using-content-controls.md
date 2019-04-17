@@ -35,19 +35,19 @@ ms.workload:
 
 ### To protect a content control at design time
 
-1.  In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the content control that you want to protect.
+1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the content control that you want to protect.
 
-2.  In the **Properties** window, set one or both of the following properties:
+2. In the **Properties** window, set one or both of the following properties:
 
     -   To prevent users from editing the control, set **LockContents** to **True**.
 
     -   To prevent users from deleting the control, set **LockContentControl** to **True**.
 
-3.  Click **OK**.
+3. Click **OK**.
 
 ### To protect a content control at runtime
 
-1.  Set the `LockContents` property of the content control to **true** to prevent users from editing the control, and set the `LockContentControl` property to **true** to prevent users from deleting the control.
+1. Set the `LockContents` property of the content control to **true** to prevent users from editing the control, and set the `LockContentControl` property to **true** to prevent users from deleting the control.
 
      The following code example demonstrates using the <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContents%2A> and <xref:Microsoft.Office.Tools.Word.RichTextContentControl.LockContentControl%2A> properties of two different <xref:Microsoft.Office.Tools.Word.RichTextContentControl> objects in a document-level project. To run this code, add the code to the `ThisDocument` class in your project, and call the `AddProtectedContentControls` method from the `ThisDocument_Startup` event handler.
 
@@ -71,20 +71,20 @@ ms.workload:
 
 ### To protect an area of a document at design time
 
-1.  In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the area that you want to protect.
+1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the area that you want to protect.
 
-2.  On the Ribbon, click the **Developer** tab.
+2. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-3.  In the **Controls** group, click the **Group** drop-down button, and then click **Group**.
+3. In the **Controls** group, click the **Group** drop-down button, and then click **Group**.
 
      A <xref:Microsoft.Office.Tools.Word.GroupContentControl> that contains the protected region is automatically generated in the `ThisDocument` class in your project. A border that represents the group control is visible at design time, but there is no visible border at runtime.
 
 ### To protect an area of a document at runtime
 
-1.  Programmatically select the area that you want to protect, and then call the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddGroupContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.GroupContentControl>.
+1. Programmatically select the area that you want to protect, and then call the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddGroupContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.GroupContentControl>.
 
      The following code example for a document-level project adds text to the first paragraph in the document, selects the first paragraph, and then instantiates a <xref:Microsoft.Office.Tools.Word.GroupContentControl>. To run this code, add the code to the `ThisDocument` class in your project, and call the `ProtectFirstParagraph` method from the `ThisDocument_Startup` event handler.
 

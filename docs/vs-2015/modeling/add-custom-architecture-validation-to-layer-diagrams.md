@@ -61,15 +61,15 @@ In Visual Studio, users can validate the source code in a project against a laye
   
 #### To add layer validation to a separate VSIX  
   
-1.  Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain the layer validation class.  
+1. Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain the layer validation class.  
   
-2.  Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. If you have to add a VSIX project, follow these steps:  
+2. Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. If you have to add a VSIX project, follow these steps:  
   
     1.  In the **New Project** dialog box, choose **Visual C#**, **Extensibility**, **VSIX Project**.  
   
     2.  In **Solution Explorer**, on the shortcut menu of the VSIX project, **Set as Startup Project**.  
   
-3.  In **source.extension.vsixmanifest**, under **Assets**, add the layer validation project as a MEF component:  
+3. In **source.extension.vsixmanifest**, under **Assets**, add the layer validation project as a MEF component:  
   
     1.  Choose **New**.  
   
@@ -81,7 +81,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
          **Project** = *your validator project*  
   
-4.  You must also add it as a layer validation:  
+4. You must also add it as a layer validation:  
   
     1.  Choose **New**.  
   
@@ -93,7 +93,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
          **Project** = *your validator project*  
   
-5.  Return to the layer validation project, and add the following project references:  
+5. Return to the layer validation project, and add the following project references:  
   
     |**Reference**|**What this allows you to do**|  
     |-------------------|------------------------------------|  
@@ -104,14 +104,14 @@ In Visual Studio, users can validate the source code in a project against a laye
     |System.ComponentModel.Composition|Define the validation component using Managed Extensibility Framework (MEF)|  
     |Microsoft.VisualStudio.Modeling.Sdk.[version]|Define modeling extensions|  
   
-6.  Copy the example code at the end of this topic into the class file in the validator library project to contain the code for your validation. For more information, see [Programming Validation](#programming).  
+6. Copy the example code at the end of this topic into the class file in the validator library project to contain the code for your validation. For more information, see [Programming Validation](#programming).  
   
-7.  To test the extension, see [Debugging Layer Validation](#debugging).  
+7. To test the extension, see [Debugging Layer Validation](#debugging).  
   
     > [!NOTE]
     >  Your method will be called only in specific circumstances, and breakpoints will not work automatically. For more information, see [Debugging Layer Validation](#debugging).  
   
-8.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer. (File Explorer in Windows 8.)  
+8. To install the VSIX in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer. (File Explorer in Windows 8.)  
   
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   

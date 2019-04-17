@@ -111,11 +111,11 @@ Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to b
   
 #### To postpone profiling from the start of the app:  
   
-1.  In the main menu, choose **Debug**, then **Performance and Diagnostics** (Keyboard: Press Alt+F2).  
+1. In the main menu, choose **Debug**, then **Performance and Diagnostics** (Keyboard: Press Alt+F2).  
   
-2.  In the Performance and Diagnostics hub, follow the **settings** link next to **GPU Usage**.  
+2. In the Performance and Diagnostics hub, follow the **settings** link next to **GPU Usage**.  
   
-3.  Under **GPU Profiling Configuration**, on the **General** property page, clear the **Begin profiling at app start** checkbox to postpone profiling.  
+3. Under **GPU Profiling Configuration**, on the **General** property page, clear the **Begin profiling at app start** checkbox to postpone profiling.  
   
      ![Configure when GPU Usage collection starts](../debugger/media/gfx-diag-gpu-usage-config.png "gfx_diag_gpu_usage_config")  
   

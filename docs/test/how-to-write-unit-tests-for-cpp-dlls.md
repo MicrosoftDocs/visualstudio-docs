@@ -119,9 +119,9 @@ author: mikeblome
 
 ##  <a name="addTests"></a> Write the unit tests
 
-1.  In each unit test code file, add an `#include` statement for the headers of the project under test.
+1. In each unit test code file, add an `#include` statement for the headers of the project under test.
 
-2.  Add test classes and methods to the unit test code files. For example:
+2. Add test classes and methods to the unit test code files. For example:
 
     ```cpp
     #include "stdafx.h"
@@ -143,11 +143,11 @@ author: mikeblome
 
 ## Run the tests
 
-1.  On the **Test** menu, choose **Windows** > **Test Explorer**.
+1. On the **Test** menu, choose **Windows** > **Test Explorer**.
 
 1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-1.  In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
 
 ## See also
 

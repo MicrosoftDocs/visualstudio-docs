@@ -55,7 +55,7 @@ To see an existing type and its members, add its shape to a class diagram.
   
 ### To display the contents of a project in a class diagram  
   
-1.  In Solution Explorer or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.  
+1. In Solution Explorer or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.  
   
      An auto-populated Class Diagram is created.  
   

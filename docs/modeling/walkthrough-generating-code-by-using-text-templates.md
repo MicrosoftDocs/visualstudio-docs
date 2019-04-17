@@ -77,9 +77,9 @@ In this project, a single template file is used to generate the classes that mak
 
 You can apply this technique to any code project. This walkthrough uses a C# project, and for the purposes of testing we use a console application.
 
-1.  On the **File** menu click **New** and then click **Project**.
+1. On the **File** menu click **New** and then click **Project**.
 
-2.  Click the **Visual C#** node, and then in the **Templates** pane, click **Console Application.**
+2. Click the **Visual C#** node, and then in the **Templates** pane, click **Console Application.**
 
 ### Add a prototype XML file to the project
 
@@ -87,13 +87,13 @@ The purpose of this file is to provide samples of the XML node types that you wa
 
 The file should be part of the project so that the template can read it, but it will not be built into the compiled application.
 
-1.  In **Solution Explorer**, right-click the project, click **Add** and then Click **New Item**.
+1. In **Solution Explorer**, right-click the project, click **Add** and then Click **New Item**.
 
-2.  In the **Add New Item** dialog box, select **XML File** from the **Templates** pane.
+2. In the **Add New Item** dialog box, select **XML File** from the **Templates** pane.
 
-3.  Add your sample content to the file.
+3. Add your sample content to the file.
 
-4.  For this walkthrough, name the file `exampleXml.xml`. Set the content of the file to be the XML shown in the previous section.
+4. For this walkthrough, name the file `exampleXml.xml`. Set the content of the file to be the XML shown in the previous section.
 
 ### Add a test code file
 
@@ -125,20 +125,20 @@ A more comprehensive test could check the output of this test function against t
 
 Add a text template file, and set the output extension to *.cs*.
 
-1.  In **Solution Explorer**, right-click the project, click **Add**, and then click **New Item**.
+1. In **Solution Explorer**, right-click the project, click **Add**, and then click **New Item**.
 
-2.  In the **Add New Item** dialog box select **Text Template** from the **Templates** pane.
+2. In the **Add New Item** dialog box select **Text Template** from the **Templates** pane.
 
     > [!NOTE]
     > Make sure that you add a Text Template, and not a Preprocessed Text Template.
 
-3.  In the file, in the template directive, change the `hostspecific` attribute to `true`.
+3. In the file, in the template directive, change the `hostspecific` attribute to `true`.
 
      This change will enable the template code to gain access to the Visual Studio services.
 
-4.  In the output directive, change the extension attribute to ".cs", so that the template generates a C# file. In a Visual Basic project, you would change it to ".vb".
+4. In the output directive, change the extension attribute to ".cs", so that the template generates a C# file. In a Visual Basic project, you would change it to ".vb".
 
-5.  Save the file. At this stage, the text template file should contain these lines:
+5. Save the file. At this stage, the text template file should contain these lines:
 
     ```
     <#@ template debug="false" hostspecific="true" language="C#" #>

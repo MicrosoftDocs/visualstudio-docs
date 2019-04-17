@@ -19,7 +19,7 @@ When you created a new solution, you actually built a program that runs. It does
   
 ### To run your program  
   
-1.  Use one of the following methods to run your program.  
+1. Use one of the following methods to run your program.  
   
     -   Choose the **F5** key.  
   
@@ -30,17 +30,17 @@ When you created a new solution, you actually built a program that runs. It does
          ![Start Debugging toolbar button](../ide/media/express-icondebug.png "Express_IconDebug")  
 Start Debugging toolbar button  
   
-2.  Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you will soon add to it.  
+2. Visual Studio runs your program, and a window called **Form1** appears. The following diagram shows the program you just built. The program is running, and you will soon add to it.  
   
      ![Windows Form application program running](../ide/media/express-firstrun.png "Express_FirstRun")  
 Windows Form Application program running  
   
-3.  Go back to the Visual Studio integrated development environment (IDE), and look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.  
+3. Go back to the Visual Studio integrated development environment (IDE), and look at the new toolbar. Additional buttons appear on the toolbar when you run a program. These buttons let you do things like stop and start your program, and help you track down any errors (bugs) it may have. For this example, we're just using it to start and stop the program.  
   
      ![Debugging toolbar](../ide/media/express-debugtoolbar.png "Express_DebugToolbar")  
 Debugging toolbar  
   
-4.  Use one of the following methods to stop your program.  
+4. Use one of the following methods to stop your program.  
   
     -   On the toolbar, choose the **Stop Debugging** button.  
   

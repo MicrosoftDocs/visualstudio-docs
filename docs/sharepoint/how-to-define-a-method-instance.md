@@ -23,15 +23,15 @@ ms.workload:
 
 ### To define a method instance
 
-1.  In the **BDC Method Details** window, expand the node of a method, and then expand the **Instances** node.
+1. In the **BDC Method Details** window, expand the node of a method, and then expand the **Instances** node.
 
-2.  In the **Add a Method Instance** list, choose **Create Finder Instance**.
+2. In the **Add a Method Instance** list, choose **Create Finder Instance**.
 
      A new method instance appears beneath the **Instances** node.
 
-3.  On the menu bar, choose **View** > **Properties Window**.
+3. On the menu bar, choose **View** > **Properties Window**.
 
-4.  In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
+4. In the **Properties** window, set the properties of the method instance. For more information about each property, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
 
 ## See also
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)

@@ -99,9 +99,9 @@ You edit data in data tables much like you edit the data in a table in any datab
 ## To locate rows that have errors  
  When working with individual columns and rows of data, you might encounter errors. You can check the `HasErrors` property to determine if errors exist in a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, or <xref:System.Data.DataRow>.  
   
-1.  Check the `HasErrors` property to see if there are any errors in the dataset.  
+1. Check the `HasErrors` property to see if there are any errors in the dataset.  
   
-2.  If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.  
+2. If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.  
   
      [!code-csharp[VbRaddataEditing#23](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#23)]
      [!code-vb[VbRaddataEditing#23](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#23)]

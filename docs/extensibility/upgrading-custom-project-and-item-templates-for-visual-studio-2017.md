@@ -26,17 +26,17 @@ For other (non-user) locations, you must include a manifest(.vstman) file that s
 
 ## How to Update a VSIX Extension with Project or Item Templates
 
-1.  Open the solution in Visual Studio 2017. You will be asked to upgrade the code. Click **OK**.
+1. Open the solution in Visual Studio 2017. You will be asked to upgrade the code. Click **OK**.
 
-2.  After the upgrade completes, you may need to change the version of the install target. In the VSIX project, open the source.extension.vsixmanifest file and select the **Install Targets** tab. If the **Version Range** field is **[14.0]**, click **Edit** and change it to include Visual Studio 2017. For example, you can set it to **[14.0,15.0]** to install the extension to either Visual Studio 2015 or Visual Studio 2017, or to **[15.0]** to install it to just Visual Studio 2017.
+2. After the upgrade completes, you may need to change the version of the install target. In the VSIX project, open the source.extension.vsixmanifest file and select the **Install Targets** tab. If the **Version Range** field is **[14.0]**, click **Edit** and change it to include Visual Studio 2017. For example, you can set it to **[14.0,15.0]** to install the extension to either Visual Studio 2015 or Visual Studio 2017, or to **[15.0]** to install it to just Visual Studio 2017.
 
-3.  Recompile the code.
+3. Recompile the code.
 
-4.  Close Visual Studio.
+4. Close Visual Studio.
 
-5.  Install the VSIX.
+5. Install the VSIX.
 
-6.  You can test the update by doing the following:
+6. You can test the update by doing the following:
 
     1.  The file scanning change is activated by the following registry key:
 

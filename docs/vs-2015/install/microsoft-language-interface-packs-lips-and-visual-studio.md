@@ -67,16 +67,16 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
 
 ##### To correctly display characters that are not included in the current code page
 
-1.  Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../includes/win8-md.md)]).
+1. Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../includes/win8-md.md)]).
 
     > [!NOTE]
     >  You must be an administrator on the computer to follow these steps.
 
-2.  Click the **Advanced** tab.
+2. Click the **Advanced** tab.
 
-3.  In the **Select a language to match the language version of the non-Unicode programs you want to use** list, select the language you are currently using.
+3. In the **Select a language to match the language version of the non-Unicode programs you want to use** list, select the language you are currently using.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ## Changing the Language Used for the UI Text in Visual Studio
  When you install multiple language versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on the same computer, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] UI defaults to **Same as Microsoft Windows**. This setting indicates that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will display the UI text in the language that is specified as the display language for the operating system.

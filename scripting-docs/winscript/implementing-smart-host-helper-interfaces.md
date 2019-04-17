@@ -36,13 +36,13 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
   
 #### To create an application object  
   
-1.  Create an instance of the process debug manager using `CoCreateInstance`.  
+1. Create an instance of the process debug manager using `CoCreateInstance`.  
   
-2.  Call [IProcessDebugManager::CreateApplication](../winscript/reference/iprocessdebugmanager-createapplication.md).  
+2. Call [IProcessDebugManager::CreateApplication](../winscript/reference/iprocessdebugmanager-createapplication.md).  
   
-3.  Set the name on the application by using [IDebugApplication::SetName](../winscript/reference/idebugapplication-setname.md).  
+3. Set the name on the application by using [IDebugApplication::SetName](../winscript/reference/idebugapplication-setname.md).  
   
-4.  Add the application object to the list of debuggable applications by using [IProcessDebugManager::AddApplication](../winscript/reference/iprocessdebugmanager-addapplication.md).  
+4. Add the application object to the list of debuggable applications by using [IProcessDebugManager::AddApplication](../winscript/reference/iprocessdebugmanager-addapplication.md).  
   
      The code below outlines the process, but it does not include error checking or other robust programming techniques.  
   
@@ -60,15 +60,15 @@ The [IDebugDocumentHelper Interface](../winscript/reference/idebugdocumenthelper
   
 #### To use the helper (minimal sequence of steps)  
   
-1.  For each host document, create a helper using [IProcessDebugManager::CreateDebugDocumentHelper](../winscript/reference/iprocessdebugmanager-createdebugdocumenthelper.md).  
+1. For each host document, create a helper using [IProcessDebugManager::CreateDebugDocumentHelper](../winscript/reference/iprocessdebugmanager-createdebugdocumenthelper.md).  
   
-2.  Call [IDebugDocumentHelper::Init](../winscript/reference/idebugdocumenthelper-init.md) on the helper, giving the name, document attributes, and so on.  
+2. Call [IDebugDocumentHelper::Init](../winscript/reference/idebugdocumenthelper-init.md) on the helper, giving the name, document attributes, and so on.  
   
-3.  Call [IDebugDocumentHelper::Attach](../winscript/reference/idebugdocumenthelper-attach.md) with parent helper for the document (or NULL if the document is the root) to define the position of the document in the tree and make it visible to the debugger.  
+3. Call [IDebugDocumentHelper::Attach](../winscript/reference/idebugdocumenthelper-attach.md) with parent helper for the document (or NULL if the document is the root) to define the position of the document in the tree and make it visible to the debugger.  
   
-4.  Call [IDebugDocumentHelper::AddDBCSText](../winscript/reference/idebugdocumenthelper-adddbcstext.md) or [IDebugDocumentHelper::AddUnicodeText](../winscript/reference/idebugdocumenthelper-addunicodetext.md) to define the text of the document. (These can be called multiple times if document is downloaded incrementally, as in the case of a browser.)  
+4. Call [IDebugDocumentHelper::AddDBCSText](../winscript/reference/idebugdocumenthelper-adddbcstext.md) or [IDebugDocumentHelper::AddUnicodeText](../winscript/reference/idebugdocumenthelper-addunicodetext.md) to define the text of the document. (These can be called multiple times if document is downloaded incrementally, as in the case of a browser.)  
   
-5.  Call [IDebugDocumentHelper::DefineScriptBlock](../winscript/reference/idebugdocumenthelper-definescriptblock.md) to define the ranges for each script block and the associated script engines.  
+5. Call [IDebugDocumentHelper::DefineScriptBlock](../winscript/reference/idebugdocumenthelper-definescriptblock.md) to define the ranges for each script block and the associated script engines.  
   
 ## Implementing IActiveScriptSiteDebug  
  To implement [IActiveScriptSiteDebug::GetDocumentContextFromPosition](../winscript/reference/iactivescriptsitedebug-getdocumentcontextfromposition.md), get the helper corresponding to the given site, and then get the starting document offset for the given source context, as follows:  

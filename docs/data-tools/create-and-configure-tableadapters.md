@@ -74,16 +74,16 @@ The following example shows you how to call an additional query named `FillByCit
 
 ### To start the TableAdapter Query Configuration Wizard with a new query
 
-1.  Open your dataset in the **Dataset Designer**.
+1. Open your dataset in the **Dataset Designer**.
 
-2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.
+2. If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.
 
-3.  On the **Choose Your Data Connection** screen, select or create the connection that the query will use.
+3. On the **Choose Your Data Connection** screen, select or create the connection that the query will use.
 
     > [!NOTE]
     > This screen only appears when the designer can't determine the proper connection to use, or when no connections are available.
 
-4.  On the **Choose a Command Type** screen, select from the following methods of fetching data from the database:
+4. On the **Choose a Command Type** screen, select from the following methods of fetching data from the database:
 
     - **Use SQL statements** enables you to type a SQL statement to select the data from your database.
 

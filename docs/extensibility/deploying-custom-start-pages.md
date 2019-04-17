@@ -56,9 +56,9 @@ If your Start Page package includes assemblies, you must add binding path regist
 
 ### To create an All-Users deployment
 
-1.  Open the *extension.vsixmanifest* file in code view.
+1. Open the *extension.vsixmanifest* file in code view.
 
-2.  In the `Identifier` element of the vsix manifest, add an `AllUsers` element that has a value of `true`.
+2. In the `Identifier` element of the vsix manifest, add an `AllUsers` element that has a value of `true`.
 
     ```
     <AllUsers>true</AllUsers>
@@ -66,9 +66,9 @@ If your Start Page package includes assemblies, you must add binding path regist
 
      This causes the vsix installer to prompt for administrator permissions, and then install the files to *\Common7\IDE\Extensions*.
 
-3.  Open the *.pkgdef* file.
+3. Open the *.pkgdef* file.
 
-4.  Modify the *.pkgdef* to set the default start page under HKLM by adding the following, where *MyStartPage.xaml* is the name of the *.xaml* file that contains your Start Page.
+4. Modify the *.pkgdef* to set the default start page under HKLM by adding the following, where *MyStartPage.xaml* is the name of the *.xaml* file that contains your Start Page.
 
      [$RootKey$\StartPage\Default]
 
@@ -83,11 +83,11 @@ If your Start Page package includes assemblies, you must add binding path regist
 
 ### To manually install a custom Start Page
 
-1.  Copy the *.xaml* file that contains the Start Page markup, together with any supporting files other than assemblies, and paste them in the user's *\StartPages\* folder.
+1. Copy the *.xaml* file that contains the Start Page markup, together with any supporting files other than assemblies, and paste them in the user's *\StartPages\* folder.
 
-2.  If the Start Page requires assemblies, copy them and paste them in *..\\{Visual Studio installation folder}\Common7\IDE\PrivateAssemblies\\*.
+2. If the Start Page requires assemblies, copy them and paste them in *..\\{Visual Studio installation folder}\Common7\IDE\PrivateAssemblies\\*.
 
-3.  In the **Customize Start Page** list on the **Startup** options page, select the new Start Page. For more information, see [Customize the Start Page](../ide/customizing-the-start-page-for-visual-studio.md).
+3. In the **Customize Start Page** list on the **Startup** options page, select the new Start Page. For more information, see [Customize the Start Page](../ide/customizing-the-start-page-for-visual-studio.md).
 
 ## See also
 

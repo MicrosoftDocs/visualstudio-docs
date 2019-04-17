@@ -35,9 +35,9 @@ Also, note that `xs:base64Binary` content will be generated only if enumerations
 
 ## To generate an XML instance document based on the XSD file
 
-1.  Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
+1. Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 
-2.  In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.
+2. In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.
 
      When you select this option, the PurchaseOrder.*xml* file with the following sample XML content will be generated and opened in the XML editor:
 

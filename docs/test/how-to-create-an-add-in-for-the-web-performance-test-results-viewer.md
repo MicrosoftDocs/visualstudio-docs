@@ -103,11 +103,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 ### To create a control to be used in the Web Test Results Viewer
 
-1.  In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
+1. In **Solution Explorer**, right-click the solution, choose **Add**, and then select **New Project**.
 
 2. Create a new **Windows Forms Control Library** project.
 
-3.  From the **Toolbox**, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
+3. From the **Toolbox**, drag a <xref:System.Windows.Forms.DataGridView> onto the surface of userControl1.
 
 4. Click the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.DataGridView> and follow these steps:
 
@@ -127,7 +127,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
     7.  Choose **Close**.
 
-5.  In the **Properties** window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
+5. In the **Properties** window, change the **(Name)** property of the <xref:System.Windows.Forms.DataGridView> to **resultControlDataGridView**.
 
 6. Right-click the design surface and select **View Code**.
 
@@ -152,21 +152,21 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 ## Add code to the WebPerfTestResultsViewerAddin
 
-1.  In **Solution Explorer**, right-click the **References** node in the WebPerfTestResultsViewerAddin project and select **Add Reference**.
+1. In **Solution Explorer**, right-click the **References** node in the WebPerfTestResultsViewerAddin project and select **Add Reference**.
 
-2.  In the **Add Reference** dialog box, choose the **.NET** tab.
+2. In the **Add Reference** dialog box, choose the **.NET** tab.
 
-3.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and **System.Windows.Forms**.
+3. Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and **System.Windows.Forms**.
 
-4.  Choose **OK**.
+4. Choose **OK**.
 
-5.  Right-click the **References** node again, and select **Add Reference**.
+5. Right-click the **References** node again, and select **Add Reference**.
 
-6.  In the **Add Reference** dialog box, choose the **Browse** tab.
+6. In the **Add Reference** dialog box, choose the **Browse** tab.
 
-7.  Choose the drop-down for **Look in** and navigate to *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* and select the *Microsoft.VisualStudio.QualityTools.LoadTestPackage.dll* file.
+7. Choose the drop-down for **Look in** and navigate to *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* and select the *Microsoft.VisualStudio.QualityTools.LoadTestPackage.dll* file.
 
-8.  Choose **OK**.
+8. Choose **OK**.
 
 9. Right-click the WebPerfTestResultsViewerAddin project node, and select **Add Reference**.
 
@@ -248,28 +248,28 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 ## Add Code to the WebPerfTestResultsViewerControl
 
-1.  In **Solution Explorer**, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
+1. In **Solution Explorer**, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
 
-2.  Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the **Properties**.
+2. Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the **Properties**.
 
      This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
 
-3.  In **Solution Explorer**, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
+3. In **Solution Explorer**, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
 
-4.  In the **Add Reference** dialog box, click the **.NET** tab.
+4. In the **Add Reference** dialog box, click the **.NET** tab.
 
-5.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework**.
+5. Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework**.
 
-6.  Choose **OK**.
+6. Choose **OK**.
 
-7.  In the *UserControl1.cs* file, add the following Using statements:
+7. In the *UserControl1.cs* file, add the following Using statements:
 
     ```csharp
     using Microsoft.VisualStudio.TestTools.WebTesting;
     using Microsoft.VisualStudio.TestTools.WebTesting.Rules;
     ```
 
-8.  Add the Update method that is called and passed a WebTestRequestResult from the WebPerfTestResultsViewerAddin WebTestResultViewer_SelectedChanged method in the *Connect.cs* file. The Update method populates the DataGridView with various properties passed to it in the WebTestRequestResult.
+8. Add the Update method that is called and passed a WebTestRequestResult from the WebPerfTestResultsViewerAddin WebTestResultViewer_SelectedChanged method in the *Connect.cs* file. The Update method populates the DataGridView with various properties passed to it in the WebTestRequestResult.
 
     ```csharp
     public void Update(WebTestRequestResult WebTestResults)
@@ -304,21 +304,21 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 ### To register the add-in using the Add-in Manager
 
-1.  On the **Tools** menu, select **Add-in Manager**.
+1. On the **Tools** menu, select **Add-in Manager**.
 
-2.  The **Add-in Manager** dialog box is displayed.
+2. The **Add-in Manager** dialog box is displayed.
 
-3.  Select the check box for the WebPerfTestResultsViewerAddin add-in in the **Available Add-ins** column and clear the check boxes underneath the **Startup** and **Command Line** columns.
+3. Select the check box for the WebPerfTestResultsViewerAddin add-in in the **Available Add-ins** column and clear the check boxes underneath the **Startup** and **Command Line** columns.
 
-4.  Choose **OK**.
+4. Choose **OK**.
 
 ## Run the web performance test using the Build the WebPerfTestResultsViewerAddin add-in
 
 ### To run the new VS add-in for the Web Test Results Viewer
 
-1.  Run your web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the **Web Performance Test Results Viewer**.
+1. Run your web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the **Web Performance Test Results Viewer**.
 
-2.  Choose the tab to see the properties presented in the DataGridView.
+2. Choose the tab to see the properties presented in the DataGridView.
 
 ## .NET Framework Security
 

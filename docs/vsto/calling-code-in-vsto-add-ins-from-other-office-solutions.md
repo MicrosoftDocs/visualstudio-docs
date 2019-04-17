@@ -45,9 +45,9 @@ ms.workload:
 ## Expose objects to other solutions
  To expose an object in your VSTO Add-in to other solutions, perform the following steps in your VSTO Add-in:
 
-1.  Define a class that you want to expose to other solutions.
+1. Define a class that you want to expose to other solutions.
 
-2.  Override the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in the `ThisAddIn` class. Return an instance of the class that you want to expose to other solutions.
+2. Override the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in the `ThisAddIn` class. Return an instance of the class that you want to expose to other solutions.
 
 ### Define the class you want to expose to other solutions
  At a minimum, the class you want to expose must be public, it must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**, and it must expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface.

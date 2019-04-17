@@ -22,9 +22,9 @@ manager: jillfra
   
  This implementation of `IDebugProperty2::EnumChildren` performs the following tasks:  
   
-1.  Ensures this is representing a method.  
+1. Ensures this is representing a method.  
   
-2.  Uses the `guidFilter` argument to determine which method to call on the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) object. If `guidFilter` equals:  
+2. Uses the `guidFilter` argument to determine which method to call on the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) object. If `guidFilter` equals:  
   
     1.  `guidFilterLocals`, call [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) to obtain an [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object.  
   
@@ -32,9 +32,9 @@ manager: jillfra
   
     3.  `guidFilterLocalsPlusArgs`, synthesize an enumeration that combines the results from `IDebugMethodField::EnumLocals` and `IDebugMethodField::EnumArguments`. This synthesis is represented by the class `CEnumMethodField`.  
   
-3.  Instantiates a class (called `CEnumPropertyInfo` in this example) that implements the `IEnumDebugPropertyInfo2` interface and contains the `IEnumDebugFields` object.  
+3. Instantiates a class (called `CEnumPropertyInfo` in this example) that implements the `IEnumDebugPropertyInfo2` interface and contains the `IEnumDebugFields` object.  
   
-4.  Returns the `IEnumDebugProperty2Info2` interface from the `CEnumPropertyInfo` object.  
+4. Returns the `IEnumDebugProperty2Info2` interface from the `CEnumPropertyInfo` object.  
   
 ## Managed Code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in managed code.  

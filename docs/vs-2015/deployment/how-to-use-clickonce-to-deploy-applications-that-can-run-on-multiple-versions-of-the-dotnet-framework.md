@@ -28,17 +28,17 @@ You can deploy an application that targets multiple versions of the .NET Framewo
   
  This process requires the following steps:  
   
-1.  Generate the application and deployment manifests.  
+1. Generate the application and deployment manifests.  
   
-2.  Change the deployment manifest to list the multiple .NET Framework versions.  
+2. Change the deployment manifest to list the multiple .NET Framework versions.  
   
-3.  Change the app.config file to list the compatible .NET Framework runtime versions.  
+3. Change the app.config file to list the compatible .NET Framework runtime versions.  
   
-4.  Change the application manifest to mark dependent assemblies as .NET Framework assemblies.  
+4. Change the application manifest to mark dependent assemblies as .NET Framework assemblies.  
   
-5.  Sign the application manifest.  
+5. Sign the application manifest.  
   
-6.  Update and sign the deployment manifest.  
+6. Update and sign the deployment manifest.  
   
 ### To generate the application and deployment manifests  
   
@@ -46,9 +46,9 @@ You can deploy an application that targets multiple versions of the .NET Framewo
   
 ### To change the deployment manifest to list the multiple .NET Framework versions  
   
-1.  In the publish directory, open the deployment manifest by using the XML Editor in Visual Studio. The deployment manifest has the .application file name extension.  
+1. In the publish directory, open the deployment manifest by using the XML Editor in Visual Studio. The deployment manifest has the .application file name extension.  
   
-2.  Replace the XML code between the `<compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">` and `</compatibleFrameworks>` elements with XML that lists the supported .NET Framework versions for your application.  
+2. Replace the XML code between the `<compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">` and `</compatibleFrameworks>` elements with XML that lists the supported .NET Framework versions for your application.  
   
      The following table shows some of the available .NET Framework versions and the corresponding XML that you can add to the deployment manifest.  
   
@@ -62,9 +62,9 @@ You can deploy an application that targets multiple versions of the .NET Framewo
   
 ### To change the app.config file to list the compatible .NET Framework runtime versions  
   
-1.  In Solution Explorer, open the App.config file by using the XML Editor in Visual Studio.  
+1. In Solution Explorer, open the App.config file by using the XML Editor in Visual Studio.  
   
-2.  Replace (or add) the XML code between the `<startup>` and `</startup>` elements with XML that lists the supported .NET Framework runtimes for your application.  
+2. Replace (or add) the XML code between the `<startup>` and `</startup>` elements with XML that lists the supported .NET Framework runtimes for your application.  
   
      The following table shows some of the available .NET Framework versions and the corresponding XML that you can add to the deployment manifest.  
   
@@ -77,15 +77,15 @@ You can deploy an application that targets multiple versions of the .NET Framewo
   
 ### To change the application manifest to mark dependent assemblies as .NET Framework assemblies  
   
-1.  In the publish directory, open the application manifest by using the XML Editor in Visual Studio. The deployment manifest has the .manifest file name extension.  
+1. In the publish directory, open the application manifest by using the XML Editor in Visual Studio. The deployment manifest has the .manifest file name extension.  
   
-2.  Add `group="framework"` to the dependency XML for the sentinel assemblies (`System.Core`, `WindowsBase`, `Sentinel.v3.5Client`, and `System.Data.Entity`). For example, the XML should look like the following:  
+2. Add `group="framework"` to the dependency XML for the sentinel assemblies (`System.Core`, `WindowsBase`, `Sentinel.v3.5Client`, and `System.Data.Entity`). For example, the XML should look like the following:  
   
     ```  
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" group="framework">  
     ```  
   
-3.  Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)], use the 2.0.50727.0 version number and the XML should look like the following:  
+3. Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)], use the 2.0.50727.0 version number and the XML should look like the following:  
   
     ```  
     <dependency>  

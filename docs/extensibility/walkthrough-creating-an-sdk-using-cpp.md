@@ -23,27 +23,27 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 ##  <a name="createClassLibrary"></a> To create the native and Windows Runtime libraries
 
-1.  On the menu bar, choose **File** > **New** > **Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
-2.  In the list of templates, expand **Visual C++** > **Windows Universal**, and then select the **DLL (Windows Universal apps)** template. In the **Name** box, specify `NativeMath`, and then choose the **OK** button.
+2. In the list of templates, expand **Visual C++** > **Windows Universal**, and then select the **DLL (Windows Universal apps)** template. In the **Name** box, specify `NativeMath`, and then choose the **OK** button.
 
-3.  Update *NativeMath.h* to match the following code.
+3. Update *NativeMath.h* to match the following code.
 
      [!code-cpp[CreatingAnSDKUsingCpp#1](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_1.h)]
 
-4.  Update *NativeMath.cpp* to match this code:
+4. Update *NativeMath.cpp* to match this code:
 
      [!code-cpp[CreatingAnSDKUsingCpp#2](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_2.cpp)]
 
-5.  In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add** > **New Project**.
+5. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add** > **New Project**.
 
-6.  In the list of templates, expand **Visual C++**, and then select the **Windows Runtime Component** template. In the **Name** box, specify `NativeMathWRT`, and then choose the **OK** button.
+6. In the list of templates, expand **Visual C++**, and then select the **Windows Runtime Component** template. In the **Name** box, specify `NativeMathWRT`, and then choose the **OK** button.
 
-7.  Update *Class1.h* to match this code:
+7. Update *Class1.h* to match this code:
 
      [!code-cpp[CreatingAnSDKUsingCpp#3](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_3.h)]
 
-8.  Update *Class1.cpp* to match this code:
+8. Update *Class1.cpp* to match this code:
 
      [!code-cpp[CreatingAnSDKUsingCpp#4](../extensibility/codesnippet/CPP/walkthrough-creating-an-sdk-using-cpp_4.cpp)]
 
@@ -51,21 +51,21 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
 ##  <a name="createVSIX"></a> To create the NativeMathVSIX extension project
 
-1.  In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add** > **New Project**.
+1. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Add** > **New Project**.
 
-2.  In the list of templates, expand **Visual C#** > **Extensibility**, and then select **VSIX Project**. In the **Name** box, specify **NativeMathVSIX**, and then choose the **OK** button.
+2. In the list of templates, expand **Visual C#** > **Extensibility**, and then select **VSIX Project**. In the **Name** box, specify **NativeMathVSIX**, and then choose the **OK** button.
 
-3.  In **Solution Explorer**, open the shortcut menu for **source.extension.vsixmanifest**, and then choose **View Code**.
+3. In **Solution Explorer**, open the shortcut menu for **source.extension.vsixmanifest**, and then choose **View Code**.
 
-4.  Use the following XML to replace the existing XML.
+4. Use the following XML to replace the existing XML.
 
     [!code-xml[CreatingAnSDKUsingCpp#6](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_6.xml)]
 
-5.  In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add** > **New Item**.
+5. In **Solution Explorer**, open the shortcut menu for the **NativeMathVSIX** project, and then choose **Add** > **New Item**.
 
-6.  In the list of **Visual C# Items**, expand **Data**, and then select **XML File**. In the **Name** box, specify `SDKManifest.xml`, and then choose the **OK** button.
+6. In the list of **Visual C# Items**, expand **Data**, and then select **XML File**. In the **Name** box, specify `SDKManifest.xml`, and then choose the **OK** button.
 
-7.  Use this XML to replace the contents of the file:
+7. Use this XML to replace the contents of the file:
 
      [!code-xml[CreatingAnSDKUsingCpp#5](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_5.xml)]
 

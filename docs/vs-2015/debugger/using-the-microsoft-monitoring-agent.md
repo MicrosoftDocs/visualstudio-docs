@@ -24,18 +24,18 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
  Before you start, check that you have the matching source and symbols for the built and deployed code. This helps you go directly to the application code when you start debugging and browsing diagnostic events in the IntelliTrace log. [Set up your builds](../debugger/diagnose-problems-after-deployment.md) so that Visual Studio can automatically find and open the matching source for your deployed code.  
   
-1.  [Step 1: Set up Microsoft Monitoring Agent](#SetUpMonitoring)  
+1. [Step 1: Set up Microsoft Monitoring Agent](#SetUpMonitoring)  
   
-2.  [Step 2: Start monitoring your app](#MonitorEvents)  
+2. [Step 2: Start monitoring your app](#MonitorEvents)  
   
-3.  [Step 3: Save recorded events](#SaveEvents)  
+3. [Step 3: Save recorded events](#SaveEvents)  
   
 ##  <a name="SetUpMonitoring"></a> Step 1: Set up Microsoft Monitoring Agent  
  Set up the standalone agent on your web server to perform local monitoring without changing your application. If you use System Center 2012, see [Installing Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465156.aspx).  
   
 ###  <a name="SetUpStandaloneMMA"></a> Set up the standalone agent  
   
-1.  Make sure that:  
+1. Make sure that:  
   
     -   Your web server is running [supported versions of Internet Information Services (IIS)](http://technet.microsoft.com/library/dn465154.aspx).  
   
@@ -47,31 +47,31 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
     -   You've uninstalled any earlier versions of Microsoft Monitoring Agent.  
   
-2.  [Download the free Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.  
+2. [Download the free Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384), either the 32-bit version **MMASetup-i386.exe** or 64-bit version **MMASetup-AMD64.exe**, from the Microsoft Download Center to your web server.  
   
-3.  Run the downloaded executable to start the installation wizard.  
+3. Run the downloaded executable to start the installation wizard.  
   
-4.  Create a secure directory on your web server to store the IntelliTrace logs, for example, **C:\IntelliTraceLogs**.  
+4. Create a secure directory on your web server to store the IntelliTrace logs, for example, **C:\IntelliTraceLogs**.  
   
      Make sure that you create this directory before you start monitoring. To avoid slowing down your app, choose a location on a local high-speed disk that’s not very active.  
   
     > [!IMPORTANT]
     >  IntelliTrace logs might contain personal and sensitive data. Restrict this directory to only those identities that must work with the files. Check your company's privacy policies.  
   
-5.  To run detailed, function-level monitoring or to monitor SharePoint applications, give the application pool that hosts your web app or SharePoint application read and write permissions to the IntelliTrace log directory. [Q: How do I set up permissions for the application pool?](#FullPermissionsITLog)  
+5. To run detailed, function-level monitoring or to monitor SharePoint applications, give the application pool that hosts your web app or SharePoint application read and write permissions to the IntelliTrace log directory. [Q: How do I set up permissions for the application pool?](#FullPermissionsITLog)  
   
 ### Q & A  
   
 ####  <a name="PowerShell2"></a> Q: What if I have Windows PowerShell 2.0?  
  **A:** We strongly recommend that you use PowerShell 3.0. Otherwise, you'll have to import the Microsoft Monitoring Agent PowerShell cmdlets each time you run PowerShell. You also won't have access to downloadable Help content.  
   
-1.  Open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.  
+1. Open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.  
   
-2.  Import the Microsoft Monitoring Agent PowerShell module from the default installation location:  
+2. Import the Microsoft Monitoring Agent PowerShell module from the default installation location:  
   
      **PS C:>Import-Module "C:\Program Files\Microsoft Monitoring Agent\Agent\PowerShell\Microsoft.MonitoringAgent.PowerShell\Microsoft.MonitoringAgent.PowerShell.dll"**  
   
-3.  [Visit TechNet](http://technet.microsoft.com/systemcenter/default) to get the most recent Help content.  
+3. [Visit TechNet](http://technet.microsoft.com/systemcenter/default) to get the most recent Help content.  
   
 ####  <a name="FullPermissionsITLog"></a> Q: How do I set up permissions for the application pool?  
  **A:** Use the Windows **icacls** command or use Windows Explorer (or File Explorer). For example:  
@@ -107,11 +107,11 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 ##  <a name="MonitorEvents"></a> Step 2: Start monitoring your app  
  Use the Windows PowerShell [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. If you use System Center 2012, see [Monitoring Web Applications with Microsoft Monitoring Agent](http://technet.microsoft.com/library/dn465157.aspx).  
   
-1.  On your web server, open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.  
+1. On your web server, open a **Windows PowerShell** or **Windows PowerShell ISE** command prompt window as an administrator.  
   
      ![Open Windows PowerShell as administrator](../debugger/media/ffr-powershellrunadmin.png "FFR_PowerShellRunAdmin")  
   
-2.  Run the [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. This will restart all the web apps on your web server.  
+2. Run the [Start-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313686) command to start monitoring your app. This will restart all the web apps on your web server.  
   
      Here's the short syntax:  
   
@@ -139,7 +139,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
   
      For the more information about the full syntax and other examples, run the **get-help Start-WebApplicationMonitoring –detailed** command or the **get-help Start-WebApplicationMonitoring –examples** command.  
   
-3.  To check the status of all monitored web apps, run the [Get-WebApplicationMonitoringStatus](http://go.microsoft.com/fwlink/?LinkID=313685) command.  
+3. To check the status of all monitored web apps, run the [Get-WebApplicationMonitoringStatus](http://go.microsoft.com/fwlink/?LinkID=313685) command.  
   
 ### Q & A  
   

@@ -48,13 +48,13 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 ##### To deploy and run an app from Visual Studio  
   
-1.  In Visual Studio, open a Windows Phone project.  
+1. In Visual Studio, open a Windows Phone project.  
   
-2.  On the **Standard** toolbar, select one of the emulator options.  
+2. On the **Standard** toolbar, select one of the emulator options.  
   
      ![List of Windows Phone Emulator images](../debugger/media/wp-emulator-list.png "WP_Emulator_list")  
   
-3.  To deploy and run your app with debugging, on the **Debug** menu, click **Start Debugging**, or press F5.  
+3. To deploy and run your app with debugging, on the **Debug** menu, click **Start Debugging**, or press F5.  
   
      To deploy and run your app without debugging, on the **Debug** menu, click **Start without Debugging**, or press Ctrl+F5.  
   
@@ -74,19 +74,19 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 ##### To restart an app without debugging  
   
-1.  In the emulator, on the Start screen, swipe left to view the app list.  
+1. In the emulator, on the Start screen, swipe left to view the app list.  
   
-2.  In the app list, tap the app icon. The app restarts without debugging.  
+2. In the app list, tap the app icon. The app restarts without debugging.  
   
 ##### To deactivate a running app  
   
-1.  Before you run your app, in Visual Studio, right-click the project in Solution Explorer, and then select **Properties** to open **Project Designer**.  
+1. Before you run your app, in Visual Studio, right-click the project in Solution Explorer, and then select **Properties** to open **Project Designer**.  
   
-2.  In **Project Designer**, on the **Debug** page, leave the **Tombstone upon deactivation while debugging** check box unchecked if you want the app to go into a dormant state when deactivated. Check the check box if you want the app to be tombstoned when deactivated.  
+2. In **Project Designer**, on the **Debug** page, leave the **Tombstone upon deactivation while debugging** check box unchecked if you want the app to go into a dormant state when deactivated. Check the check box if you want the app to be tombstoned when deactivated.  
   
-3.  On the **Debug** menu, click **Start Debugging**, or press F5 to run the app.  
+3. On the **Debug** menu, click **Start Debugging**, or press F5 to run the app.  
   
-4.  In the emulator, press the **Start** button. The Start screen appears and the app is deactivated. The app either goes into a dormant state or it is tombstoned, depending on the setting of the **Tombstone upon deactivation while debugging** check box.  
+4. In the emulator, press the **Start** button. The Start screen appears and the app is deactivated. The app either goes into a dormant state or it is tombstoned, depending on the setting of the **Tombstone upon deactivation while debugging** check box.  
   
 ##### To reactivate a dormant or tombstoned app  
   

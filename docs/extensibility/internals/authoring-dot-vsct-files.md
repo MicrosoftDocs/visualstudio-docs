@@ -24,7 +24,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
 #### To create the file structure
 
-1.  Add a *.vsct* file to your project by following the steps in [How to: Create a .vsct file](../../extensibility/internals/how-to-create-a-dot-vsct-file.md).
+1. Add a *.vsct* file to your project by following the steps in [How to: Create a .vsct file](../../extensibility/internals/how-to-create-a-dot-vsct-file.md).
 
 2. Add the required namespaces to the `CommandTable` element, as shown in the following example:
 
@@ -34,7 +34,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
     ```
 
-3.  In the `CommandTable` element, add a `Commands` element to host all of your custom menus, toolbars, command groups, and commands. So that your custom UI elements can load, the `Commands` element must have its `Package` attribute set to the name of the package.
+3. In the `CommandTable` element, add a `Commands` element to host all of your custom menus, toolbars, command groups, and commands. So that your custom UI elements can load, the `Commands` element must have its `Package` attribute set to the name of the package.
 
      After the `Commands` element, add a `Symbols` element to define the GUIDs for the package, and the names and command IDs for your UI elements.
 
@@ -58,15 +58,15 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 
 #### To declare UI elements
 
-1.  In the `Symbols` element, add three [GuidSymbol](../../extensibility/guidsymbol-element.md) elements. Each `GuidSymbol` element has a `name` attribute and a `value` attribute. Set the `name` attribute so that it reflects the purpose of the element. The `value` attribute takes a GUID. (To generate a GUID, on the **Tools** menu, select **Create GUID**, and then select **Registry Format**.)
+1. In the `Symbols` element, add three [GuidSymbol](../../extensibility/guidsymbol-element.md) elements. Each `GuidSymbol` element has a `name` attribute and a `value` attribute. Set the `name` attribute so that it reflects the purpose of the element. The `value` attribute takes a GUID. (To generate a GUID, on the **Tools** menu, select **Create GUID**, and then select **Registry Format**.)
 
      The first `GuidSymbol` element represents your package, and typically has no children. The second `GuidSymbol` element represents the command set, and will contain all of the symbols that define your menus, groups, and commands. The third `GuidSymbol` element represents your image store and contains symbols for all of the icons for your commands. If you have no commands that use icons, you can omit the third `GuidSymbol` element.
 
-2.  In the `GuidSymbol` element that represents your command set, add one or more [IDSymbol](../../extensibility/idsymbol-element.md) elements. Each of these represent a menu, toolbar, group, or command you are adding to the UI.
+2. In the `GuidSymbol` element that represents your command set, add one or more [IDSymbol](../../extensibility/idsymbol-element.md) elements. Each of these represent a menu, toolbar, group, or command you are adding to the UI.
 
      For each `IDSymbol` element, set the `name` attribute to the name you will use to refer to the corresponding menu, group, or command, and then set the `value` element to a hexadecimal number that will represent its command ID. No two `IDSymbol` elements that have the same parent can have the same value.
 
-3.  If any of your UI elements require icons, add an `IDSymbol` element for each icon to the `GuidSymbol` element that represents your image store.
+3. If any of your UI elements require icons, add an `IDSymbol` element for each icon to the `GuidSymbol` element that represents your image store.
 
 ### Put UI elements in the IDE
  The [Menus](../../extensibility/menus-element.md), [Groups](../../extensibility/groups-element.md), and [Buttons](../../extensibility/buttons-element.md) elements contain the definitions for all of the menus, groups, and commands that are defined in your package. Put these menus, groups, and commands in the IDE either by using a [Parent](../../extensibility/parent-element.md) element, which is part of the UI element definition, or by using a [CommandPlacement](../../extensibility/commandplacement-element.md) element that is defined elsewhere.

@@ -28,9 +28,9 @@ Tool windows are typically opened from a command on a menu, or an equivalent key
   
 ### To open a dynamic tool window  
   
-1.  Create a VSIX project named **DynamicToolWindow** and add a tool window item template named **DynamicWindowPane.cs**. For more information, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
+1. Create a VSIX project named **DynamicToolWindow** and add a tool window item template named **DynamicWindowPane.cs**. For more information, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
-2.  In the DynamicWindowPanePackage.cs file, find the DynamicWindowPanePackage declaration. Add the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and T:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute attributes to register the tool window.  
+2. In the DynamicWindowPanePackage.cs file, find the DynamicWindowPanePackage declaration. Add the <xref:Microsoft.VisualStudio.Shell.ProvideToolWindowAttribute> and T:Microsoft.VisualStudio.Shell.ProvideToolWindowVisibilityAttribute attributes to register the tool window.  
   
     ```vb  
     [[ProvideToolWindow(typeof(DynamicWindowPane)]  
@@ -46,6 +46,6 @@ Tool windows are typically opened from a command on a menu, or an equivalent key
   
      This registers the tool window named DynamicWindowPane as a transient window that is not persisted when Visual Studio is closed and reopened. DynamicWindowPane is opened whenever <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_string> applies, and closed otherwise.  
   
-3.  Build the project and start debugging. The experimental instance should appear. You should not see the tool window.  
+3. Build the project and start debugging. The experimental instance should appear. You should not see the tool window.  
   
-4.  Open a project in the experimental instance. The tool window should appear.
+4. Open a project in the experimental instance. The tool window should appear.

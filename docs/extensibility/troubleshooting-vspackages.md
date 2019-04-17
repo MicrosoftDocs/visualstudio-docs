@@ -50,7 +50,7 @@ Following are common problems that you might have with your VSPackage and tips t
 
 ### To troubleshoot a VSPackage that does not register
 
-1.  Make sure that the VSPackage assembly resides in a trusted location. RegPkg cannot register assemblies in an untrusted or partially trusted location, such as a network share in the default .net security configuration. Although a warning appears whenever a user creates a project in an untrusted location, the "do not show this message again" checkbox can prevent this warning from reoccurring.
+1. Make sure that the VSPackage assembly resides in a trusted location. RegPkg cannot register assemblies in an untrusted or partially trusted location, such as a network share in the default .net security configuration. Although a warning appears whenever a user creates a project in an untrusted location, the "do not show this message again" checkbox can prevent this warning from reoccurring.
 
 ### To troubleshoot a command that is not visible or that generates an error when you click a command
 
@@ -66,7 +66,7 @@ Following are common problems that you might have with your VSPackage and tips t
 
 ### To troubleshoot a VSPackage that behaves unexpectedly
 
-1.  Set breakpoints in your code.
+1. Set breakpoints in your code.
 
      Good starting points for debugging are the constructor and the initialization method. You can also set breakpoints in the area you want to evaluate, such as a menu command. To enable breakpoints, you must run under the debugger.
 
@@ -81,11 +81,11 @@ Following are common problems that you might have with your VSPackage and tips t
         > [!NOTE]
         >  If you are debugging a project, create or load an existing instance of your project now.
 
-2.  Use the activity log.
+2. Use the activity log.
 
      Trace VSPackage behavior by writing information to the activity log at key points. This technique is especially useful when you run a VSPackage in a retail environment. For more information, see [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).
 
-3.  Use public symbols.
+3. Use public symbols.
 
      To improve readability while debugging, you can attach symbols to the debugger.
 

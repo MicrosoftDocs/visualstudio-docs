@@ -30,15 +30,15 @@ You can instrument binaries from the [!INCLUDE[vs_current_short](../includes/vs-
   
 ### To specify additional instrumentation option  
   
-1.  In **Performance Explorer**, select the **Performance Session** and then right-click and select **Properties**.  
+1. In **Performance Explorer**, select the **Performance Session** and then right-click and select **Properties**.  
   
-2.  In the **Properties Pages**, click the **Advanced** properties.  
+2. In the **Properties Pages**, click the **Advanced** properties.  
   
-3.  Type options in the **Additional instrumentation options** box.  
+3. Type options in the **Additional instrumentation options** box.  
   
      For example, use /CONTROL:THREAD to specify the profiling level. For a complete list of options, see [VSInstr](../profiling/vsinstr.md).  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

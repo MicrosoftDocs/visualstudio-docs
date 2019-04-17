@@ -30,7 +30,7 @@ Windows file sharing has been configured so that you will connect to the remote 
   
 ### To correct this error  
   
-1.  Log onto your local machine, the machine you are debugging from, using the other account name.  
+1. Log onto your local machine, the machine you are debugging from, using the other account name.  
   
      —or—  
   

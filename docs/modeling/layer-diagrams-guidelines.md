@@ -33,21 +33,21 @@ The following steps provide an overview of how to use dependency diagrams within
 > [!NOTE]
 > These steps appear in approximate order. You will probably want to overlap the tasks, reorder them to suit your own situation, and revisit them at the start of each iteration in your project.
 
-1.  [Create a dependency diagram](#Create) for the whole application, or for a layer within it.
+1. [Create a dependency diagram](#Create) for the whole application, or for a layer within it.
 
-2.  [Define layers to represent primary functional areas or components](#CreateLayers) of your application. Name these layers according to their function, for example, "Presentation" or "Services". If you have a Visual Studio solution, you can associate each layer with a collection of *artifacts*, such as projects, namespaces, files, and so on.
+2. [Define layers to represent primary functional areas or components](#CreateLayers) of your application. Name these layers according to their function, for example, "Presentation" or "Services". If you have a Visual Studio solution, you can associate each layer with a collection of *artifacts*, such as projects, namespaces, files, and so on.
 
-3.  [Discover the existing dependencies](#Generate) between layers.
+3. [Discover the existing dependencies](#Generate) between layers.
 
-4.  [Edit the layers and dependencies](#EditArchitecture) to show the updated design that you want the code to reflect.
+4. [Edit the layers and dependencies](#EditArchitecture) to show the updated design that you want the code to reflect.
 
-5.  [Design new areas of your application](#NewAreas) by creating layers to represent the principal architectural blocks or components and defining dependencies to show how each layer uses the others.
+5. [Design new areas of your application](#NewAreas) by creating layers to represent the principal architectural blocks or components and defining dependencies to show how each layer uses the others.
 
-6.  [Edit the layout and appearance of the diagram](#EditLayout) to help you discuss it with colleagues.
+6. [Edit the layout and appearance of the diagram](#EditLayout) to help you discuss it with colleagues.
 
-7.  [Validate the code against the dependency diagram](#Validate) to highlight the conflicts between the code and the architecture you require.
+7. [Validate the code against the dependency diagram](#Validate) to highlight the conflicts between the code and the architecture you require.
 
-8.  [Update the code to conform to your new architecture](#UpdateCode). Iteratively develop and refactor code until the validation shows no conflicts.
+8. [Update the code to conform to your new architecture](#UpdateCode). Iteratively develop and refactor code until the validation shows no conflicts.
 
 9. [Include layer validation in the build process](#BuildValidation) to ensure that the code continues to adhere to your design.
 

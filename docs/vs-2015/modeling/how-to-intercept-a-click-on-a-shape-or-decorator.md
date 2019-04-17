@@ -41,11 +41,11 @@ public partial class MyShape // change
   
 #### To intercept a click on an icon decorator  
   
-1.  Open or create a DSL solution.  
+1. Open or create a DSL solution.  
   
-2.  Choose or create a shape that has an icon decorator, and map it to a domain class.  
+2. Choose or create a shape that has an icon decorator, and map it to a domain class.  
   
-3.  In a code file that is separate from the files in the `GeneratedCode` folder, create the new subclass of ImageField:  
+3. In a code file that is separate from the files in the `GeneratedCode` folder, create the new subclass of ImageField:  
   
     ```  
     using Microsoft.VisualStudio.Modeling;  
@@ -83,7 +83,7 @@ public partial class MyShape // change
   
      You should set Handled to true if you do not want the event to be passed to the containing shape.  
   
-4.  Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.  
+4. Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.  
   
     ```  
     public partial class MyShape // change  
@@ -110,9 +110,9 @@ public partial class MyShape // change
     }  
     ```  
   
-1.  Build and run the solution.  
+1. Build and run the solution.  
   
-2.  Double-click the icon on an instance of the shape. Your test message should appear.  
+2. Double-click the icon on an instance of the shape. Your test message should appear.  
   
 ## Intercepting clicks and drags on CompartmentShape lists  
  The following sample allows users to re-order items in a compartment shape by dragging them. To run this code:  

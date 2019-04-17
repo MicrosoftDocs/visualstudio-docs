@@ -67,16 +67,16 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To add a diagram to an existing modeling project  
   
-1.  In **Solution Explorer**, click the modeling project node.  
+1. In **Solution Explorer**, click the modeling project node.  
   
     > [!NOTE]
     >  The modeling project contains a model definition folder named **ModelDefinition**.  
   
-2.  On the **Project** menu, click **Add New Item**.  
+2. On the **Project** menu, click **Add New Item**.  
   
-3.  In the **Add New Item -** *\<project name>* dialog box, under **Templates**, click the modeling diagram type, for example, **UML Component Diagram**.  
+3. In the **Add New Item -** *\<project name>* dialog box, under **Templates**, click the modeling diagram type, for example, **UML Component Diagram**.  
   
-4.  Type a name for the diagram, and then click **Add**.  
+4. Type a name for the diagram, and then click **Add**.  
   
      The modeling diagram opens and appears in the modeling project.  
   
@@ -85,15 +85,15 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To create a blank modeling project  
   
-1.  On the **File** menu, point to **New**, and then click **Project**.  
+1. On the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, under **Installed Templates**, click **Modeling Projects**.  
+2. In the **New Project** dialog box, under **Installed Templates**, click **Modeling Projects**.  
   
-3.  In the middle window, click **Modeling Project**.  
+3. In the middle window, click **Modeling Project**.  
   
-4.  Name the project and specify a location in the **Name** and **Location** boxes.  
+4. Name the project and specify a location in the **Name** and **Location** boxes.  
   
-5.  In the **Solution** box, select **Add to Solution** to add the new project to a solution you already have open; or **Create new Solution** to close any open solution and add the project to a new solution.  
+5. In the **Solution** box, select **Add to Solution** to add the new project to a solution you already have open; or **Create new Solution** to close any open solution and add the project to a new solution.  
   
 ##  <a name="RemovingModelingDiagrams"></a> Removing Modeling Diagrams from a Project  
  You can permanently delete a diagram, or you can temporarily exclude a diagram from a project and then restore it.  
@@ -118,14 +118,14 @@ UML models help you understand, discuss, and design software systems. Visual Stu
   
 #### To restore a temporarily excluded diagram to a project  
   
-1.  In **Solution Explorer**, click the modeling project node.  
+1. In **Solution Explorer**, click the modeling project node.  
   
     > [!NOTE]
     >  The modeling project contains a model definition folder named **ModelDefinition**.  
   
-2.  On the **Project** menu, click **Add Existing Item**.  
+2. On the **Project** menu, click **Add Existing Item**.  
   
-3.  In the **Add Existing Item** dialog box, locate the diagram file, select the file, and then click **Add**.  
+3. In the **Add Existing Item** dialog box, locate the diagram file, select the file, and then click **Add**.  
   
      The modeling diagram opens and appears in the modeling project.  
   

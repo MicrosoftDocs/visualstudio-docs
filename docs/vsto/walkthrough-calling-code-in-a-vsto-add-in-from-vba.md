@@ -48,7 +48,7 @@ ms.workload:
 
 ### To create a new project
 
-1.  Create an Excel VSTO Add-in project with the name **ExcelImportData**, using the Excel VSTO Add-in project template. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an Excel VSTO Add-in project with the name **ExcelImportData**, using the Excel VSTO Add-in project template. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **ExcelImportData** project to **Solution Explorer**.
 
@@ -59,18 +59,18 @@ ms.workload:
 
 ### To define a class that you can expose to other Office solutions
 
-1.  On the **Project** menu, click **Add Class**.
+1. On the **Project** menu, click **Add Class**.
 
-2.  In the **Add New Item** dialog box, change the name of the new class to **AddInUtilities**, and click **Add**.
+2. In the **Add New Item** dialog box, change the name of the new class to **AddInUtilities**, and click **Add**.
 
      The **AddInUtilities.cs** or **AddInUtilities.vb** file opens in the Code Editor.
 
-3.  Add the following statements to the top of the file.
+3. Add the following statements to the top of the file.
 
      [!code-csharp[Trin_AddInInteropWalkthrough#2](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#2)]
      [!code-vb[Trin_AddInInteropWalkthrough#2](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#2)]
 
-4.  Replace the `AddInUtilities` class with the following code.
+4. Replace the `AddInUtilities` class with the following code.
 
      [!code-csharp[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
      [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]
@@ -82,16 +82,16 @@ ms.workload:
 
 ### To expose the AddInUtilities class to other Office Solutions
 
-1.  In **Solution Explorer**, expand **Excel**.
+1. In **Solution Explorer**, expand **Excel**.
 
-2.  Right-click **ThisAddIn.cs** or **ThisAddIn.vb**, and then click **View Code**.
+2. Right-click **ThisAddIn.cs** or **ThisAddIn.vb**, and then click **View Code**.
 
-3.  Add the following code to the `ThisAddIn` class.
+3. Add the following code to the `ThisAddIn` class.
 
      [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
      [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]
 
-4.  On the **Build** menu, click **Build Solution**.
+4. On the **Build** menu, click **Build Solution**.
 
      Verify that the solution builds without errors.
 
@@ -100,24 +100,24 @@ ms.workload:
 
 ### To test your VSTO Add-in
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  In Excel, save the active workbook as an Excel Macro-Enabled Workbook (*.xlsm). Save it in a convenient location, such as the desktop.
+2. In Excel, save the active workbook as an Excel Macro-Enabled Workbook (*.xlsm). Save it in a convenient location, such as the desktop.
 
-3.  On the Ribbon, click the **Developer** tab.
+3. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-4.  In the **Code** group, click **Visual Basic**.
+4. In the **Code** group, click **Visual Basic**.
 
      The Visual Basic Editor opens.
 
-5.  In the **Project** window, double-click **ThisWorkbook**.
+5. In the **Project** window, double-click **ThisWorkbook**.
 
      The code file for the `ThisWorkbook` object opens.
 
-6.  Add the following VBA code to the code file. This code first gets a COMAddIn object that represents the **ExcelImportData** VSTO Add-in. Then, the code uses the Object property of the COMAddIn object to call the `ImportData` method.
+6. Add the following VBA code to the code file. This code first gets a COMAddIn object that represents the **ExcelImportData** VSTO Add-in. Then, the code uses the Object property of the COMAddIn object to call the `ImportData` method.
 
     ```vb
     Sub CallVSTOMethod()
@@ -129,9 +129,9 @@ ms.workload:
     End Sub
     ```
 
-7.  Press **F5**.
+7. Press **F5**.
 
-8.  Verify that a new **Imported Data** sheet has been added to the workbook. Also verify that cell A1 contains the string **This is my data**.
+8. Verify that a new **Imported Data** sheet has been added to the workbook. Also verify that cell A1 contains the string **This is my data**.
 
 9. Exit Excel.
 

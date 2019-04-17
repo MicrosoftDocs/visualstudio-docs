@@ -21,7 +21,7 @@ ms.workload:
 
 #### To localize ASPX markup
 
-1.  Add separate resource files: one for the default language and one for each localized language.
+1. Add separate resource files: one for the default language and one for each localized language.
 
      If you are localizing only markup and not code, add a Global Resources File project item. If you are localizing code and markup, add a Resources File project item.
 
@@ -32,15 +32,15 @@ ms.workload:
     > [!NOTE]
     >  Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution does not have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
 
-2.  Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, name a German localized resource *MyAppResources.de-DE.resx*.
+2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, name a German localized resource *MyAppResources.de-DE.resx*.
 
-3.  Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause them to deploy to the server's App_GlobalResources folder.
+3. Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause them to deploy to the server's App_GlobalResources folder.
 
-4.  If you are using the resources to localize code in addition to ASPX markup, leave the value of the **Build Action** property of each file as **Embedded Resource**. If you are using the resource files only to localize markup, you can optionally change the property value of the files to **Content**. For more information, see [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).
+4. If you are using the resources to localize code in addition to ASPX markup, leave the value of the **Build Action** property of each file as **Embedded Resource**. If you are using the resource files only to localize markup, you can optionally change the property value of the files to **Content**. For more information, see [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).
 
-5.  Open each resource file and add localized strings, using the same string IDs in each file.
+5. Open each resource file and add localized strings, using the same string IDs in each file.
 
-6.  In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] markup for the ASPX page or control, replace the hard-coded strings with values that use the following format:
+6. In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] markup for the ASPX page or control, replace the hard-coded strings with values that use the following format:
 
     ```aspx-csharp
     <%$Resources:Resource File Name, String ID%>
@@ -62,9 +62,9 @@ ms.workload:
     </asp:Content>
     ```
 
-7.  Choose the **F5** key to build and run the application.
+7. Choose the **F5** key to build and run the application.
 
-8.  In SharePoint, change the display language from the default.
+8. In SharePoint, change the display language from the default.
 
      The localized strings appear in the application. To display localized resources, the SharePoint server must have a language pack installed that matches the resource file's culture.
 

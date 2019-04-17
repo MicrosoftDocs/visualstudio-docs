@@ -24,7 +24,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
 ##  <a name="CreateType"></a> Create a new type
 
-1.  In the **Toolbox**, under **Class Designer**, drag one of these onto a class diagram:
+1. In the **Toolbox**, under **Class Designer**, drag one of these onto a class diagram:
 
     -   **Class** or **Abstract Class**
 
@@ -38,9 +38,9 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
     -   **Module** (VB only)
 
-2.  Name the type. Then select its access level.
+2. Name the type. Then select its access level.
 
-3.  Select the file where you want to add the initial code for the type:
+3. Select the file where you want to add the initial code for the type:
 
     -   To create a new file and add it to the current project, select **Create new file** and name the file.
 
@@ -48,7 +48,7 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
          If your solution has a project that shares code across multiple apps, you can add a new type to a class diagram in the app project, but only if the corresponding class file is in the same app project or is in the shared project.
 
-4.  Now add other items to define the type:
+4. Now add other items to define the type:
 
     |||
     |-|-|

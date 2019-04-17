@@ -33,9 +33,9 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 To generate unit tests, your types must be public. Otherwise, [create unit tests](#NoRun) first before you generate them.
 
-1.  Open your solution in Visual Studio. Then open the class file that has methods you want to test.
+1. Open your solution in Visual Studio. Then open the class file that has methods you want to test.
 
-2.  Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
+2. Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
 
      ![Right&#45;click in your method to generate unit tests](../test/media/runpex.png)
 
@@ -51,7 +51,7 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
 ## Persist: Save the unit tests as a regression suite
 
-1.  Select the data rows that you want to save with the parameterized unit test into a test project.
+1. Select the data rows that you want to save with the parameterized unit test into a test project.
 
      ![Select tests; right&#45;click and choose Save](../test/media/savepextests.png)
 
@@ -65,13 +65,13 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
 ## Assist: Use IntelliTest to focus code exploration
 
-1.  If you have more complex code, IntelliTest assists you with focusing exploration of your code. For example, if you have a method that has an interface as a parameter, and there is more than one class that implements that interface, IntelliTest discovers those classes and reports a warning.
+1. If you have more complex code, IntelliTest assists you with focusing exploration of your code. For example, if you have a method that has an interface as a parameter, and there is more than one class that implements that interface, IntelliTest discovers those classes and reports a warning.
 
      View the warnings to decide what you want to do.
 
      ![View warnings](../test/media/pexviewwarning.png)
 
-2.  After you investigate the code and understand what you want to test, you can fix the warning to choose which classes to use to test the interface.
+2. After you investigate the code and understand what you want to test, you can fix the warning to choose which classes to use to test the interface.
 
      ![Right&#45;click the warning and choose Fix](../test/media/pexfixwarning.png)
 
@@ -79,7 +79,7 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
      `[assembly: PexUseType(typeof(Camera))]`
 
-3.  Now you can rerun IntelliTest to generate a parameterized unit test and test data just using the class that you fixed.
+3. Now you can rerun IntelliTest to generate a parameterized unit test and test data just using the class that you fixed.
 
      ![Rerun IntelliTest to generate the test data](../test/media/pexwarningsfixed.png)
 

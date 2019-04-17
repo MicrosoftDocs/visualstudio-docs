@@ -20,10 +20,10 @@ By using InstallShield Limited Edition, you can create a setup file and distribu
   
 ### To enable InstallShield Limited Edition  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1. On the menu bar, choose **File**, **New**, **Project**.  
   
-2.  In the **New Project** dialog box, expand the **Other Project Types** node, and then choose the **Setup and Deployment** node.  
+2. In the **New Project** dialog box, expand the **Other Project Types** node, and then choose the **Setup and Deployment** node.  
   
-3.  In the template list, choose **Enable InstallShield Limited Edition**, and then choose the **OK** button.  
+3. In the template list, choose **Enable InstallShield Limited Edition**, and then choose the **OK** button.  
   
-4.  In the browser window that opens, read the instructions, and then choose the **Go to the download web site** link.
+4. In the browser window that opens, read the instructions, and then choose the **Go to the download web site** link.
