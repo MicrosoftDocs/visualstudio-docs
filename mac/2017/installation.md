@@ -16,7 +16,7 @@ ms.custom: video
 
 ## Downgrading from Visual Studio 2019 for Mac?
 
-For the best experience, before you downgrade you should ensure that you [uninstall](uninstall.md) Visual Studio 2019 for Mac. If you have issues that are causing you to download, make sure to let us know by [Reporting a problem](report-a-problem.md).
+For the best experience, before you downgrade you should ensure that you [uninstall](uninstall.md) Visual Studio 2019 for Mac. If you have issues that are causing you to download, make sure to let us know by [reporting a problem](report-a-problem.md).
  
 ## Requirements
 
@@ -30,7 +30,7 @@ For working with iOS in Visual Studio you need the following pieces:
 
 ## Install
 
-1. Download Visual Studio for Mac from [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019%20for%20Mac)
+1. Download Visual Studio for Mac from [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac)
 
 2. Once the installer package is downloaded, click the **VisualStudioForMacInstaller.dmg** file to mount the installer and then run it by double-clicking the logo, as illustrated by the following image:
 
