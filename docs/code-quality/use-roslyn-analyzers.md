@@ -102,7 +102,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 There are multiple ways to suppress rule violations:
 
-- From the **Analyze** menu.
+- From the **Analyze** menu
 
    Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 
@@ -116,7 +116,7 @@ There are multiple ways to suppress rule violations:
 
 - From the **code editor**
 
-   To suppress a violation from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAxxxx** > **In Source/In Suppression File**.
+   To suppress a violation from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAXXXX** > **in Source/in Suppression File**.
 
    ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
@@ -124,7 +124,7 @@ There are multiple ways to suppress rule violations:
 
    You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source/In Suppression File**.
 
-   - If you supress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
+   - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
       ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
 
