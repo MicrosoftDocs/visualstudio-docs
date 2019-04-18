@@ -21,7 +21,9 @@ ms.technology: vs-installation
 ---
 # Import or export configurations
 
-Now, you can export selected workloads and components to a Visual Studio installation configuration file, and then import them later into new or existing installations. To share the configuration files with others, simply check them into your source repos. 
+You configure Visual Studio across your organization by using an installation configuration file. Simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations. 
+
+Here's how.
 
 ::: moniker range="vs-2017"
 
@@ -30,29 +32,63 @@ Now, you can export selected workloads and components to a Visual Studio install
 
 ::: moniker-end
 
+### Export a configuration 
+
+The following procedure assumes you are using a computer on which you've previously installed the workloads and components that you want to share.  
+
+1. Open the Visual Studio Installer.
+
+1. Choose the **More** button, and then select **Export configuration**.
+
+   ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-vs-installer.png)
+
+1. Browse to or type the location where you want to save your .vconfig file, and then choose **Review details**.
+
+   ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-confirmation.png)
+
+1. Make sure you've got the workloads and components that you want, and then choose **Export**.
+
+### Import a configuration
+
+1. Open the Visual Studio Installer.
+
+1. Choose the **More** button, and then select **Import configuration**.
+
+1. Browse to or type the location where of .vconfig file that you want to import, and then choose **Review details**.
+
+1. Make sure you've got the workloads and components that you want, and then choose **Close**.
+
 ::: moniker range="vs-2019"
 
+### Automatically install missing components
+
+When you save a .vsconfig file to your solution root directory and then open a solution, Visual Studio will automatically detect which components are missing and prompt you to install them.
+
+![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
+
+You can also create a .vsconfig file right from Solution Explorer. Here's how.
+
+1. Right-click on your solution file.
+
+1. Choose **Add** > **Installation Configuration File**. 
+
+1. Confirm the location where you want to save the .vsconfig file, and then choose **Review details**. 
+
+1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
 ::: moniker-end
 
-In Visual Studio 2017 Update 15.9 we added the ability to export and import workload and component selection to a Visual Studio installation configuration file. Developers can import these files into new or existing installations. Checking these files into your source repos makes them easy to share. However, developers still need to import these to get the features they need.
+> [!NOTE]
+> For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
 
-## Automatically install missing components
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-New in Visual Studio 2019: you can save these files as .vsconfig files in your solution root directory and when the solution (or solution directory) is opened, Visual Studio will automatically detect which components are missing and prompt you to install them.
+## See also
 
-![Name](../install/media/vs-2019/config-file-recommend-install.png)
-![Name](../install/media/vs-2019/solution-explorer-config-file.png)
-
-
-Exporting your configuration
-In Visual Studio 2019, you can create a .vsconfig file right from Solution Explorer:
-Right-click on your solution.
-Click Add > Installation Configuration File
-Confirm the location where you want to save the .vsconfig file (defaults to your solution root directory).
-Click Review details
-Select or deselect any changes you want to make and click Export
-To help keep the installation footprint minimal, only export those components you know you need to build, test, and possibly publish your solution. One way you can do this is to install a second instance of Visual Studio or install into a virtual machine, add those workloads and optional components you know are necessary, and build and test your solution. Add components as needed until the solution builds successfully, then export your configuration.
+* [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
+* [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Set defaults for enterprise deployments](set-defaults-for-enterprise-deployments.md)
 
 
-https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/
+
