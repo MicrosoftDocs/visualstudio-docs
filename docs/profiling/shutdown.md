@@ -23,8 +23,8 @@ VSPerfCmd.exe /Shutdown[:Timeout]
 ```
 
 #### Parameters
- `Timeout`
- - (Optional) If specified, the option returns after the specified number of seconds without turning off the profiler or closing the profiling data file.
+`Timeout`
+- (Optional) If specified, the option returns after the specified number of seconds without turning off the profiler or closing the profiling data file.
 
 ## See also
 - [VSPerfCmd](../profiling/vsperfcmd.md)

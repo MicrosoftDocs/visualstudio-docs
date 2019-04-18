@@ -79,9 +79,9 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
 ## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
 
- Different code languages display different variables in the **Autos** window.
+Different code languages display different variables in the **Autos** window.
 
- - In C# and Visual Basic, the **Autos** window displays any variable used on the current or preceding line. For example, in C# or Visual Basic code, declare the following four variables:
+- In C# and Visual Basic, the **Autos** window displays any variable used on the current or preceding line. For example, in C# or Visual Basic code, declare the following four variables:
 
    ```csharp
        public static void Main()
@@ -100,7 +100,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
- - In C++, the **Autos** window displays the variables used in at least three lines before the current line where execution is paused. For example, in C++ code, declare six variables:
+- In C++, the **Autos** window displays the variables used in at least three lines before the current line where execution is paused. For example, in C++ code, declare six variables:
 
    ```C++
        void main() {

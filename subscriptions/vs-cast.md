@@ -43,32 +43,32 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
 
 0. You will also receive the following email from CAST, confirming the receipt of your request.
 
-   *Thank you for your request to activate the 30 day access to CAST Highlight - an exclusive offer for Microsoft Visual Studio Enterprise customers!*
-
-   *We are currently reviewing your request for activation and access to CAST Highlight. You will hear back from me in no more than 48 hours.*
-
-   *Best,*
-   *Greg*
+   > *Thank you for your request to activate the 30 day access to CAST Highlight - an exclusive offer for Microsoft Visual Studio Enterprise customers!*
+   >
+   > *We are currently reviewing your request for activation and access to CAST Highlight. You will hear back from me in no more than 48 hours.*
+   >
+   > *Best,*
+   > *Greg*
 
 Upon approval of your request, you'll receive a second email confirming successful creation of your account, and asking you to click on the activation link to complete the activation process.
 
-   *We have successfully verified and validated your request to access CAST Highlight. Welcome aboard!*
-
-   *There is one last step that is needed from your end to complete the activation. You will have received an email from noreply@casthighlight.com with an activation link. Check your spam box if you do not see the email.*
-
-   *Please click the activation link provided in the email and complete your activation process.*
-
-   *Once activated, you will have a 30 day access to the CAST Highlight platform and can onboard up to 5 applications. Please note that this is an exclusive offer available to Microsoft Visual Studio Enterprise customers only.*
-
-   *I will be in touch to ensure that everything moves smoothly for you. In the meantime, here’s some useful content to get you started:*
-
-   - [CAST Highlight - CloudReadiness Demo](https://www.youtube.com/watch?v=wFUpAzn1Iu8&feature=youtu.be)
-   - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
-   - Video Tutorial - [Configure your Portfolio](https://www.youtube.com/watch?v=MDm8ln4vuGE)
-   - Video Tutorial - [Onboard your apps](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
-
-   *Best,*
-   *Greg*
+   > *We have successfully verified and validated your request to access CAST Highlight. Welcome aboard!*
+   >
+   > *There is one last step that is needed from your end to complete the activation. You will have received an email from noreply@casthighlight.com with an activation link. Check your spam box if you do not see the email.*
+   >
+   > *Please click the activation link provided in the email and complete your activation process.*
+   >
+   > *Once activated, you will have a 30 day access to the CAST Highlight platform and can onboard up to 5 applications. Please note that this is an exclusive offer available to Microsoft Visual Studio Enterprise customers only.*
+   >
+   > *I will be in touch to ensure that everything moves smoothly for you. In the meantime, here’s some useful content to get you started:*
+   >
+   > - [CAST Highlight - CloudReadiness Demo](https://www.youtube.com/watch?v=wFUpAzn1Iu8&feature=youtu.be)
+   > - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
+   > - Video Tutorial - [Configure your Portfolio](https://www.youtube.com/watch?v=MDm8ln4vuGE)
+   > - Video Tutorial - [Onboard your apps](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
+   >
+   > *Best,*
+   > *Greg*
 
    > [!NOTE]
    > Be sure to click on the activation link in the email you receive.  Otherwise, you will not be able to access your CAST Highlight subscription. If you don't see the email in your inbox, be sure to check your spam folders.
