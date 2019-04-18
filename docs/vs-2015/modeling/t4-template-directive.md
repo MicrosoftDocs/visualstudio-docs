@@ -49,7 +49,8 @@ A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts w
   
 ## debug attribute  
  Example:  
- ```  
+
+```  
 debug="true"  
 ```  
   
@@ -64,7 +65,8 @@ debug="true"
   
 ## hostspecific attribute  
  Example:  
- ```  
+
+```  
 hostspecific="true"  
 ```  
   
@@ -138,7 +140,8 @@ Squares of numbers:
  More typically, you specify another preprocessed template as the base class. The base template provides common blocks of text, which can be interleaved with text from the derived templates. You can use class feature blocks `<#+ ... #>` to define methods that contain text fragments. For example, you can place the framework of the output text in the base template, providing virtual methods that can be overridden in derived templates:  
   
  Run-time (preprocessed) text template BaseTemplate.tt:  
- ```scr  
+
+```scr  
 This is the common header.  
 <#   
   SpecificFragment1();   
@@ -157,7 +160,8 @@ This is the common footer.
 ```  
   
  Run-time (preprocessed) text template DerivedTemplate1.tt:  
- ```csharp  
+
+```csharp  
 <#@ template language="C#" inherits="BaseTemplate" #>  
 <#   
   // Run the base template:  
@@ -182,12 +186,14 @@ protected override void SpecificFragment2()
 ```  
   
  Application code to invoke DerivedTemplate1:  
- ```csharp  
+
+```csharp  
 Console.WriteLine(new DerivedTemplate().TransformText());  
 ```  
   
  Resulting output:  
- ```  
+
+```  
 This is the common header.  
    Fragment 1 for DerivedTemplate1  
 A common central text.  

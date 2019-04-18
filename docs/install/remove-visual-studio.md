@@ -39,6 +39,7 @@ In the following instructions, you can run the tool with different command-line 
    * Type **cmd** in the "Type here to search" box.
    * Right-click **Command Prompt**, and then click **Run as administrator**.
 3. Type the full path of the `InstallCleanup.exe` utility and pass whichever command-line switch you desire. By default, the path of the utility is as follows:
+
    ```
    C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe
    ```
