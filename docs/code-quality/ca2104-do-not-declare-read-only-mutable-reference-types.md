@@ -29,7 +29,7 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 > [!NOTE]
-> Rule CA2104 is obsolete and will be removed in a future version of Visual Studio.
+> Rule CA2104 is obsolete and will be removed in a future version of Visual Studio. It will not be implemented as an [analyzer](roslyn-analyzers-overview.md) due to the complicated analysis that's required to determine the actual immutability of a type.
 
 ## Cause
 
