@@ -24,23 +24,23 @@ You can deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applicat
   
 ### To customize a permission  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Security** tab.  
+2. Click the **Security** tab.  
   
-3.  Select the **Enable ClickOnce Security Settings** check box.  
+3. Select the **Enable ClickOnce Security Settings** check box.  
   
-4.  Select the **This is a partial trust application** option button.  
+4. Select the **This is a partial trust application** option button.  
   
      The controls in the **ClickOnce security permissions** section are enabled.  
   
-5.  From the **Zone your application will be installed from** drop-down list, click **(Custom)**.  
+5. From the **Zone your application will be installed from** drop-down list, click **(Custom)**.  
   
-6.  Click **Edit Permissions XML**.  
+6. Click **Edit Permissions XML**.  
   
      The app.manifest file opens in the XML Editor.  
   
-7.  Before the `</applicationRequestMinimum>` element, add XML code for permissions that your application requires.  
+7. Before the `</applicationRequestMinimum>` element, add XML code for permissions that your application requires.  
   
     > [!NOTE]
     >  You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method. For more information about the structure of the permission set XML, see [NIB: How to: Import a Permission Set by Using an XML File](http://msdn.microsoft.com/dea16b54-c108-408a-ac36-cdc05f746236).  

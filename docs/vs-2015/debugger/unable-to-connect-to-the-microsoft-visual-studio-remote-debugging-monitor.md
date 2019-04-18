@@ -32,11 +32,11 @@ This error message appears when you enter an invalid Visual Studio Remote Debugg
   
 ## To correct this error  
   
--   Make sure the Visual Studio Remote Debugging Monitor is installed and running on the remote machine. For information about the remote debugger and how to install it, see [Remote Debugging](../debugger/remote-debugging.md).  
+- Make sure the Visual Studio Remote Debugging Monitor is installed and running on the remote machine. For information about the remote debugger and how to install it, see [Remote Debugging](../debugger/remote-debugging.md).  
   
--   In Visual Studio, look at the project properties (**Project / Properties / Debugging**). Make sure the **Remote Server Name** is correct.  
+- In Visual Studio, look at the project properties (**Project / Properties / Debugging**). Make sure the **Remote Server Name** is correct.  
   
--   Verify that the remote machine is accessible on the network.  
+- Verify that the remote machine is accessible on the network.  
   
 ## The remote machine is not reachable  
  Try to [ping](https://technet.microsoft.com/library/ee624059\(v=ws.10\).aspx) the remote machine. If it doesn’t reply to the ping, the remote tools won’t be able to connect either. Try rebooting the remote machine and otherwise making sure that it is correctly configured on the network.  
@@ -52,13 +52,13 @@ This error message appears when you enter an invalid Visual Studio Remote Debugg
 ## The remote debugger is running under a different user account  
  You can solve this in one of the following ways:  
   
--   You can stop the remote debugger and restart it with the account you are using on the local computer.  
+- You can stop the remote debugger and restart it with the account you are using on the local computer.  
   
--   You can start the remote debugger from the command line with the **/allow \<username>** parameter: `msvsmon /allow <username@computer>`  
+- You can start the remote debugger from the command line with the **/allow \<username>** parameter: `msvsmon /allow <username@computer>`  
   
--   You can add the user to the remote debugger's permissions (in the remote debugger window, **Tools / Permissions**).  
+- You can add the user to the remote debugger's permissions (in the remote debugger window, **Tools / Permissions**).  
   
--   If you can't use the methods in the preceding steps, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools /Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should use this option only if you have no choice, or if you are on a private network.  
+- If you can't use the methods in the preceding steps, you can allow any user to do remote debugging. In the remote debugger window, go to the **Tools /Options** dialog. When you select   **No Authentication**, you can then check **Allow any user to debug**. However, you should use this option only if you have no choice, or if you are on a private network.  
   
 ## The firewall on the remote machine doesn’t allow incoming connections to the remote debugger  
  The firewall on the Visual Studio machine and the firewall on the remote machine must be configured to allow communication between Visual Studio and the remote debugger. For information about the ports the remote debugger is using, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md). For information about configuring the Windows firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).  

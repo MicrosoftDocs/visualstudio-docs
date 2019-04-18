@@ -21,11 +21,11 @@ ms.workload:
 
 ### To add a dialog box launcher to a Ribbon group
 
-1.  Select the Ribbon code file (*.vb* or *.cs* file) in **Solution Explorer**.
+1. Select the Ribbon code file (*.vb* or *.cs* file) in **Solution Explorer**.
 
-2.  On the **View** menu, click **Designer**.
+2. On the **View** menu, click **Designer**.
 
-3.  In the Ribbon Designer, right-click any group, and then click **Add DialogBoxLauncher**.
+3. In the Ribbon Designer, right-click any group, and then click **Add DialogBoxLauncher**.
 
      Add code to the <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup.DialogLauncherClick> event of the group to open a custom or built-in dialog box.
 

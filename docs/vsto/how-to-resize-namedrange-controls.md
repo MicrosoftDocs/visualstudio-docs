@@ -24,32 +24,32 @@ ms.workload:
 
  This topic describes the following tasks:
 
--   [Resize NamedRange controls at design time](#designtime)
+- [Resize NamedRange controls at design time](#designtime)
 
--   [Resize NamedRange controls at runtime in a document-level project](#runtimedoclevel)
+- [Resize NamedRange controls at runtime in a document-level project](#runtimedoclevel)
 
--   [Resize NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)
+- [Resize NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)
 
-##  <a name="designtime"></a> Resize NamedRange controls at design time
+## <a name="designtime"></a> Resize NamedRange controls at design time
  You can resize a named range by redefining its size in the **Define Name** dialog box.
 
 ### To resize a named range by using the Define Name dialog box
 
-1.  Right-click a <xref:Microsoft.Office.Tools.Excel.NamedRange> control.
+1. Right-click a <xref:Microsoft.Office.Tools.Excel.NamedRange> control.
 
-2.  Click **Manage Named Ranges** on the shortcut menu.
+2. Click **Manage Named Ranges** on the shortcut menu.
 
      The **Define Name** dialog box appears.
 
-3.  Select the named range you want to resize.
+3. Select the named range you want to resize.
 
-4.  Clear the **Refers to** box.
+4. Clear the **Refers to** box.
 
-5.  Select the cells you want to use to define the size of the named range.
+5. Select the cells you want to use to define the size of the named range.
 
-6.  Click **OK**.
+6. Click **OK**.
 
-##  <a name="runtimedoclevel"></a> Resize NamedRange controls at runtime in a document-level project
+## <a name="runtimedoclevel"></a> Resize NamedRange controls at runtime in a document-level project
  You can resize a named range programmatically by using the <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> property.
 
 > [!NOTE]
@@ -57,27 +57,27 @@ ms.workload:
 
 ### To resize a named range programmatically
 
-1.  Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on cell **A1** of `Sheet1`.
+1. Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on cell **A1** of `Sheet1`.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#4)]
      [!code-vb[Trin_VstcoreHostControlsExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#4)]
 
-2.  Resize the named range to include cell **B1**.
+2. Resize the named range to include cell **B1**.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#5)]
      [!code-vb[Trin_VstcoreHostControlsExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#5)]
 
-##  <a name="runtimeaddin"></a> Resize NamedRange controls at runtime in a VSTO Add-in project
+## <a name="runtimeaddin"></a> Resize NamedRange controls at runtime in a VSTO Add-in project
  You can resize a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on any open worksheet at runtime. For more information about how to add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet by using a VSTO Add-in, see [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md).
 
 ### To resize a named range programmatically
 
-1.  Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on cell **A1** of `Sheet1`.
+1. Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on cell **A1** of `Sheet1`.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#10](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#10)]
      [!code-vb[Trin_Excel_Dynamic_Controls#10](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#10)]
 
-2.  Resize the named range to include cell **B1**.
+2. Resize the named range to include cell **B1**.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#11](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#11)]
      [!code-vb[Trin_Excel_Dynamic_Controls#11](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#11)]

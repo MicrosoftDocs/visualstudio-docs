@@ -17,10 +17,10 @@ You can configure Code Analysis to run before each build of a managed code proje
   
 ### To enable or disable automatic code analysis  
   
-1.  In **Solution Explorer**, right-click the project, and then click **Properties**.  
+1. In **Solution Explorer**, right-click the project, and then click **Properties**.  
   
-2.  In the properties dialog box for the project, click **Code Analysis**.  
+2. In the properties dialog box for the project, click **Code Analysis**.  
   
-3.  Specify the build type in **Configuration** and the target platform in **Platform**.  
+3. Specify the build type in **Configuration** and the target platform in **Platform**.  
   
-4.  To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** check box.
+4. To enable or disable automatic code analysis, select or clear the **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** check box.

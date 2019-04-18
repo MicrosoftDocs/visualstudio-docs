@@ -37,12 +37,12 @@ You can use IntelliTrace to record events and method calls your application, whi
 > [!NOTE]
 >  The scope of all settings on the **IntelliTrace** options page is Visual Studio as a whole, not individual projects or solutions. A change in these settings applies to all instances of Visual Studio, all debugging sessions and all projects or solutions.  
   
-##  <a name="ChooseEvents"></a> Choose the events that IntelliTrace records  
+## <a name="ChooseEvents"></a> Choose the events that IntelliTrace records  
  You can turn on or off recording for specific IntelliTrace events.  
   
  If you're debugging, stop debugging. Go to **Tools / Options / IntelliTrace / IntelliTrace Events**. Choose the events you want IntelliTrace to record.  
   
-##  <a name="GoingFurther"></a> Collect IntelliTrace events and call information  
+## <a name="GoingFurther"></a> Collect IntelliTrace events and call information  
  This isn’t enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools / Options / IntelliTrace / General**, and select **IntelliTrace events and call information**.  
   
  This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as method names, method entry and exit points, and certain parameter values and return values.  
@@ -69,14 +69,14 @@ You can use IntelliTrace to record events and method calls your application, whi
 ### Search for a line or method in IntelliTrace  
  You can search methods only when method call information has been enabled. You can search IntelliTrace history for a specific line or method. While debugger execution is halted, right-click inside the body of the function to see the context menu, and click either **Search For This LIne In IntelliTrace** or **Search For This Method In IntelliTrace**.  
   
-###  <a name="ControlCallData"></a> Control how much call information IntelliTrace records  
+### <a name="ControlCallData"></a> Control how much call information IntelliTrace records  
  By default IntelliTrace records information for all the modules used by your solution. You can set IntelliTrace to record call information only for the modules that interest you. In **Tools / Options / IntelliTrace / Modules**, You can specify the modules to include or the modules to exclude from IntelliTrace. IntelliTrace will collect only the events that originated from the modules you have specified, and the method calls that happened within the modules you are interested in.  
   
  To add multiple modules, use the wildcard character * at the start or the end of the string. For module names, use file names, not assembly names. File paths are not accepted.  
   
  Try to keep the number of modules to a minimum. You get better performance because there is less data to be collected. You also get less noise in the UI because there is less data to go through.  
   
-##  <a name="SaveSession"></a> Saving IntelliTrace data to file  
+## <a name="SaveSession"></a> Saving IntelliTrace data to file  
  You can save the data that IntelliTrace has collected going to **Debug / IntelliTrace / Save IntelliTrace Session** while you are debugging and the application is in a break state. The menu item is disabled and you will not be able to save the data IntelliTrace has collected if the application is still running or if you have stopped debugging.  
   
  You can configure IntelliTrace to automatically save to a file by going to **Tools / Options / IntelliTrace / Advanced** and selecting **Store IntelliTrace recordings in this directory**. You can also configure a set size for the generated file, which causes IntelliTrace to write over older data when it runs out of space. Visual Studio creates two files for each IntelliTrace session when they are saved automatically and the Visual Studio hosting process (vshost.exe) is turned on.  

@@ -17,15 +17,15 @@ This document demonstrates how to use the Image Editor to create a basic texture
   
  This document demonstrates these activities:  
   
--   Setting the size of the texture  
+- Setting the size of the texture  
   
--   Setting the foreground and background colors  
+- Setting the foreground and background colors  
   
--   Using the alpha channel (transparency)  
+- Using the alpha channel (transparency)  
   
--   Using the **Fill** and **Ellipse** tools  
+- Using the **Fill** and **Ellipse** tools  
   
--   Setting tool properties  
+- Setting tool properties  
   
 ## Creating a basic texture  
  You can use the Image Editor to create and modify images and textures for your game or app.  

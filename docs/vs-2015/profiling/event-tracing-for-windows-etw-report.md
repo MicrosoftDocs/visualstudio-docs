@@ -21,11 +21,11 @@ The Event Tracing for Windows (ETW) report lists the ETW events that were record
 > [!NOTE]
 >  You cannot display ETW reports in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface.  
   
--   For information about how to collect ETW by using the Profiling Tools from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface, see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md).  
+- For information about how to collect ETW by using the Profiling Tools from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface, see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md).  
   
--   For information about how to collect ETW data by using the [VSPerfCmd](../profiling/vsperfcmd.md) command line tools, see [Events](../profiling/events-vsperfcmd.md).  
+- For information about how to collect ETW data by using the [VSPerfCmd](../profiling/vsperfcmd.md) command line tools, see [Events](../profiling/events-vsperfcmd.md).  
   
--   You generate the ETW report by using the **VSReport/Summary:ETW** command. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
+- You generate the ETW report by using the **VSReport/Summary:ETW** command. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
   
 |Column|Description|  
 |------------|-----------------|  

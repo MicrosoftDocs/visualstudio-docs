@@ -77,9 +77,9 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
 4. In **source.extension.vsixmanifest**, under **Assets**, add the layer validation project as a MEF component:
 
-    1.  Choose **New**.
+    1. Choose **New**.
 
-    2.  In the **Add New Asset** dialog box, set:
+    2. In the **Add New Asset** dialog box, set:
 
          **Type** = **Microsoft.VisualStudio.MefComponent**
 
@@ -89,9 +89,9 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
 5. You must also add it as a layer validation:
 
-    1.  Choose **New**.
+    1. Choose **New**.
 
-    2.  In the **Add New Asset** dialog box, set:
+    2. In the **Add New Asset** dialog box, set:
 
          **Type** = **Microsoft.VisualStudio.ArchitectureTools.Layer.Validator**. This is not one of the options in the drop-down list. You must enter it from the keyboard.
 
@@ -119,7 +119,7 @@ If you want to create one VSIX that contains layer validators, commands, and oth
 
 9. To install the VSIX in the main instance of Visual Studio, or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer.
 
-##  <a name="programming"></a> Programming Validation
+## <a name="programming"></a> Programming Validation
 
 To define a layer validation extension, you define a class that has the following characteristics:
 
@@ -188,7 +188,7 @@ Each Node and each Link has one or more Categories which specify the type of ele
 
 Links from layers to elements in the code have the category "Represents".
 
-##  <a name="debugging"></a> Debugging Validation
+## <a name="debugging"></a> Debugging Validation
 
 To debug your layer validation extension, press CTRL+F5. An experimental instance of Visual Studio opens. In this instance, open or create a layer model. This model must be associated with code, and must have at least one dependency.
 
@@ -220,7 +220,7 @@ Always start the experimental instance by pressing CTRL+F5 (**Start without Debu
 
 To install your validation extension on a computer on which a suitable version of Visual Studio is installed, open the VSIX file on the target computer.
 
-##  <a name="example"></a> Example code
+## <a name="example"></a> Example code
 
 ```csharp
 using System;

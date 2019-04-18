@@ -20,7 +20,7 @@ The structure of your search string violates one or more of the grammatical rule
   
 ### To correct this error  
   
--   Ensure the structure of your regular expression search string adheres to the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] regular expression syntax.  
+- Ensure the structure of your regular expression search string adheres to the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] regular expression syntax.  
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   

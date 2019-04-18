@@ -18,7 +18,7 @@ ms.workload:
 
 You can use Visual Studio to run, debug, profile, and test a Universal Windows Platform (UWP) app on another computer or device. Running the UWP app on a remote machine is especially helpful when the Visual Studio computer does not support UWP-specific functionality like touch, geo-location, or physical orientation.
 
-##  <a name="BKMK_Prerequisites"></a> Prerequisites
+## <a name="BKMK_Prerequisites"></a> Prerequisites
 
 To debug a UWP app on a remote device from Visual Studio:
 
@@ -29,7 +29,7 @@ To debug a UWP app on a remote device from Visual Studio:
   - Some Windows 10 versions start and run the remote tools automatically. Otherwise, [install and run the Remote Tools for Visual Studio](#BKMK_download).
   - Windows Mobile 10 devices don't require or support the remote tools.
 
-##  <a name="BKMK_ConnectVS"></a> Configure a Visual Studio project for remote debugging
+## <a name="BKMK_ConnectVS"></a> Configure a Visual Studio project for remote debugging
 <a name="BKMK_DirectConnect"></a>
 You use the project **Properties** to specify the remote device to connect to. The settings differ depending on the programming language.
 
@@ -38,27 +38,27 @@ You use the project **Properties** to specify the remote device to connect to. T
 >
 >If you choose **Windows Authentication** for the **Authentication Type**, you will need to sign in to the remote machine when debugging. The remote debugger must also be running under **Windows Authentication** mode, with the same user account as on the Visual Studio machine.
 
-###  <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging
+### <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Configure a C# or Visual Basic project for remote debugging
 
 1. Select the C# or Visual Basic project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
-1.  Select the **Debug** tab.
+1. Select the **Debug** tab.
 
-1.  Under **Target device**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
+1. Under **Target device**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
 
-1.  For a remote machine, enter the network name or IP address in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections).
+1. For a remote machine, enter the network name or IP address in the **Remote machine** field, or select **Find** to search for the device in the [Remote Connections dialog box](#remote-connections).
 
     ![Managed project properties for remote debugging](../debugger/media/vsrun_managed_projprop_remote.png "Managed Debug project properties")
 
-###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a C++ project for remote debugging
+### <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> Configure a C++ project for remote debugging
 
-1.  Select the C++ project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
+1. Select the C++ project in Visual Studio **Solution Explorer** and select the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
-1.  Select the **Debugging** tab.
+1. Select the **Debugging** tab.
 
-3.  Under **Debugger to launch**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
+3. Under **Debugger to launch**, select **Remote Machine** for a remote computer, or **Device** for a direct-connected Windows Mobile 10 device.
 
-1.  For a remote machine, enter or select the network name or IP address in the **Machine Name** field, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections).
+1. For a remote machine, enter or select the network name or IP address in the **Machine Name** field, or drop down and select **Locate** to search for the device in the [Remote Connections dialog box](#remote-connections).
 
     ![C++ project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "C++ Debugging project properties")
 
@@ -87,7 +87,7 @@ For Visual Studio to debug apps on a remote computer, the remote computer must b
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
-##  <a name="BKMK_RunRemoteDebug"></a> Debug UWP apps remotely
+## <a name="BKMK_RunRemoteDebug"></a> Debug UWP apps remotely
 
 Remote debugging works the same as local debugging.
 

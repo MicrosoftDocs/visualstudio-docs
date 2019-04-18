@@ -23,7 +23,7 @@ You did not end your string constant with a closing quotation mark. String const
   
 ### To correct this error  
   
--   Add the closing quotation mark to the end of the string.  
+- Add the closing quotation mark to the end of the string.  
   
 ## See Also  
  [String Object](../../javascript/reference/string-object-javascript.md)   

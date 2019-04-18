@@ -27,9 +27,9 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
 
 You can filter the TOC to narrow the scope of topics that appear in the **Contents** tab. Titles appear in the list only if they contain the root of the term that you specify. For example, if you specify "troubleshooting" as a filter, only titles that contain "troubleshoot" or "troubleshooting" appear. Nodes whose titles don't contain the term are collapsed to a single node with an ellipsis (**...**).
 
-1.  Choose the **Contents** tab.
+1. Choose the **Contents** tab.
 
-2.  In the **Filter Contents** text box, enter a term.
+2. In the **Filter Contents** text box, enter a term.
 
 > [!NOTE]
 > If the filter takes a long time to run, you might display results more quickly by using the `title:` advanced search operator.
@@ -38,9 +38,9 @@ You can filter the TOC to narrow the scope of topics that appear in the **Conten
 
 If you have opened a topic using the index or full-text search features, you can determine where this topic is in the TOC by synchronizing the TOC with the topic window.
 
-1.  View a topic.
+1. View a topic.
 
-2.  Click the **Show Topic in Contents** button on the toolbar, or press **Ctrl**+**S**.
+2. Click the **Show Topic in Contents** button on the toolbar, or press **Ctrl**+**S**.
 
      The **Contents** tab opens and displays the topic's location in the TOC.
 

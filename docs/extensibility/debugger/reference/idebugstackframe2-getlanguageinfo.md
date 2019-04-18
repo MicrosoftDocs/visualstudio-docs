@@ -41,17 +41,17 @@ int GetLanguageInfo ( 
 
  [out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:
 
--   `guidVBScriptLang`
+- `guidVBScriptLang`
 
--   `guidJScriptLang`
+- `guidJScriptLang`
 
--   `guidCPPLang`
+- `guidCPPLang`
 
--   `guidVBLang`
+- `guidVBLang`
 
--   `guidSQLLang`
+- `guidSQLLang`
 
--   `guidScriptLang`
+- `guidScriptLang`
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

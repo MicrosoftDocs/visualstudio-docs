@@ -18,10 +18,19 @@ Use Visual Studio to define and run unit tests to maintain code health, ensure c
 
 This section describes at a high level how to create a unit test project.
 
-> [!TIP]
-> The project under test, "HelloWorldCore", is an example project and no code for it is intended to be shown. If you want to create a "Hello World" project to test, see [Create your first C# console app](../ide/quickstart-csharp-console.md). For a complete walkthrough article, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
-
 1. Open the project that you want to test in Visual Studio.
+
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" project. The sample code for such a project is as follows:
+
+   ```csharp
+   public class Program
+   {
+       public static void Main()
+       {
+           Console.WriteLine("Hello World!");
+       }
+   }
+   ```
 
 1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
 
@@ -56,6 +65,9 @@ This section describes at a high level how to create a unit test project.
 1. Add code to the unit test method.
 
    ![Add code to your unit test method in Visual Studio](media/vs-2019/unit-test-method.png)
+
+> [!TIP]
+> For a more detailed walkthrough of creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
 ## Run unit tests
 

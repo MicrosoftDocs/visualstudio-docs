@@ -35,17 +35,17 @@ ms.workload:
 ### SharePoint 2010 project
  The contents of a *SharePoint 2010 Project* are included in every SharePoint project template. A SharePoint 2010 Project contains:
 
--   A project file.
+- A project file.
 
--   A project properties page.
+- A project properties page.
 
--   A **References** folder listing all of the assembly references in the project.
+- A **References** folder listing all of the assembly references in the project.
 
--   A **Features** folder that contains a *.feature* configuration file, used to deploy features to SharePoint server.
+- A **Features** folder that contains a *.feature* configuration file, used to deploy features to SharePoint server.
 
--   A **Package** folder that contains a *Package.package* file, used to deploy the solution to SharePoint.
+- A **Package** folder that contains a *Package.package* file, used to deploy the solution to SharePoint.
 
--   A key.snk (strong-name key) file that is used to sign the assembly with a strong name, for enhanced security.
+- A key.snk (strong-name key) file that is used to sign the assembly with a strong name, for enhanced security.
 
 ### SharePoint 2010 Silverlight web part
  *SharePoint 2010 Silverlight Web Part* projects enable you to Create web parts for SharePoint that display Silverlight applications. When you create this project, you can specify whether to add a new Silverlight application to it or reference an existing one. For more information, see [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md) and [Walkthrough: Create a Silverlight web part that displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md).

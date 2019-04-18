@@ -25,7 +25,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-##  <a name="Signing"></a> Trust the solution by signing the application and deployment manifests
+## <a name="Signing"></a> Trust the solution by signing the application and deployment manifests
  All application and deployment manifests for Office solutions must be signed with a certificate that identifies the publisher. Certificates provide a basis for making trust decisions.
 
  A temporary certificate is created for you and granted trust at build time so the solution will run while you debug it. If you publish a solution that is signed with a temporary certificate, the end user will be prompted to make a trust decision.
@@ -34,7 +34,7 @@ ms.workload:
 
  If a developer signs the solution with a temporary certificate, an administrator can re-sign the customization with a known and trusted certificate by using the Manifest Generation and Editing Tool (*mage.exe*), which is one of the Microsoft .NET Framework tools. For more information about signing solutions, see [How to: Sign Office solutions](../vsto/how-to-sign-office-solutions.md) and [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md).
 
-##  <a name="TrustPrompt"></a>Trust the solution by using the ClickOnce trust prompt
+## <a name="TrustPrompt"></a>Trust the solution by using the ClickOnce trust prompt
  [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] prompts the end user to make the trust decision if there is no organization-wide policy that trusts the solution's certificate. If the end user grants trust to the solution, an inclusion list entry is created that contains a URL and a public key to store this trust decision. When a trusted customization is run later, the end user is not prompted again.
 
  Administrators can disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt or require that the prompt occur only for solutions that are signed with an Authenticode certificate. For more information about how to change these settings for the MyComputer, LocalIntranet, Internet, TrustedSites, and UntrustedSites zones, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).

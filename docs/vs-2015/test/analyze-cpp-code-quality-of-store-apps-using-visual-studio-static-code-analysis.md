@@ -22,7 +22,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 > [!NOTE]
 > In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
 
-##  <a name="BKMK_Run"></a> Running code analysis
+## <a name="BKMK_Run"></a> Running code analysis
  To run code analysis on your Visual Studio solution:
 
 - On the **Build** menu, choose **Run Code Analysis on Solution**.
@@ -37,7 +37,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
    ![Code Analysis window](../test/media/ca-cpp-collapsed.png "CA_CPP_Collapsed")
 
-##  <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings
+## <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings
  To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display detailed information about the issue. When possible, code analysis displays the line number and analysis logic that led to the warning.
 
  ![Expanded code analysis warning](../test/media/ca-cpp-expanded-callout.png "CA_CPP_Expanded_Callout")
@@ -51,7 +51,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 > [!TIP]
 >  You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and then choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.
 
-##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings
+## <a name="BKMK_Suppress"></a> Suppressing code analysis warnings
  There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.
 
  To suppress a warning:
@@ -64,12 +64,12 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
    Suppressing a message inserts `#pragma(warning:`*WarningId*`)` that suppresses the warning for the line of code.
 
-##  <a name="BKMK_Search"></a> Searching and filtering code analysis results
+## <a name="BKMK_Search"></a> Searching and filtering code analysis results
  You can search long lists of warning messages and you can filter warnings in multi-project solutions.
 
  ![Search and filter the code analysis window](../test/media/ca-searchfilter.png "CA_SearchFilter")
 
-##  <a name="Warnings"></a> C++ code analysis warnings
+## <a name="Warnings"></a> C++ code analysis warnings
  Code analysis raises the following warnings for C++ code:
 
 |                                      Rule                                      |                                                  Description                                                  |

@@ -103,21 +103,21 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
 
 #### To change the schema cache location  
 
-1.  From the **Tools** menu, select **Options**.  
+1. From the **Tools** menu, select **Options**.  
 
-2.  Expand **Text Editor**, expand **XML**, and then click **Miscellaneous**.  
+2. Expand **Text Editor**, expand **XML**, and then click **Miscellaneous**.  
 
-3.  Click the **Browse** button on the **Schemas** field.  
+3. Click the **Browse** button on the **Schemas** field.  
 
-4.  Select the folder for the schema cache and click **OK**.  
+4. Select the folder for the schema cache and click **OK**.  
 
 #### To add another directory of common schemas  
 
-1.  Edit the catalog.xml file in the XML editor schema cache directory.  
+1. Edit the catalog.xml file in the XML editor schema cache directory.  
 
-2.  Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
+2. Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
 
-3.  Save your changes.  
+3. Save your changes.  
 
      The catalog is automatically reloaded.  
 

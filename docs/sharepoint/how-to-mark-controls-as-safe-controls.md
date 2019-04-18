@@ -27,47 +27,47 @@ ms.workload:
 
 #### To mark controls as safe or unsafe in the safe control entries property
 
-1.  Create a SharePoint solution with a Visual Web Part project.
+1. Create a SharePoint solution with a Visual Web Part project.
 
-2.  Add two controls to the Web part: a text box and a button. Leave the names at their default values, TextBox1 and Button1, respectively.
+2. Add two controls to the Web part: a text box and a button. Leave the names at their default values, TextBox1 and Button1, respectively.
 
-3.  Add two entries to the Web part's **Safe Control Entries** property. To do this, choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to the **Safe Control Entries** property in the **Properties** window.
+3. Add two entries to the Web part's **Safe Control Entries** property. To do this, choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to the **Safe Control Entries** property in the **Properties** window.
 
      The **Safe Control Entries** dialog box appears.
 
-4.  In the **Safe Control Entries** dialog box, choose the **Add** button twice to add two safe control entries to the **Members** pane: one for the button and one for the text box.
+4. In the **Safe Control Entries** dialog box, choose the **Add** button twice to add two safe control entries to the **Members** pane: one for the button and one for the text box.
 
-5.  Choose the first safe control entry, and then change the value of its **Safe** property to **False**, its **Type Name** property to **Button1**, and its **Safe Against Script** property to **False**.
+5. Choose the first safe control entry, and then change the value of its **Safe** property to **False**, its **Type Name** property to **Button1**, and its **Safe Against Script** property to **False**.
 
      This step identifies the button control as an unsafe control.
 
-6.  Choose the second safe control entry in the list. Leave the value of its **Safe** property as **True** and set its **Type Name** property to **TextBox1** and its **Safe Against Script** property to **True**.
+6. Choose the second safe control entry in the list. Leave the value of its **Safe** property as **True** and set its **Type Name** property to **TextBox1** and its **Safe Against Script** property to **True**.
 
      The text box control is now marked as a control that is safe against script injection.
 
-7.  Choose the **OK** button to close the dialog box.
+7. Choose the **OK** button to close the dialog box.
 
 ## Marking Safe Controls in the Package Designer
 
 #### To mark controls as safe or unsafe in the Package Designer
 
-1.  Create a SharePoint solution with a Visual Web Part project.
+1. Create a SharePoint solution with a Visual Web Part project.
 
-2.  Add two controls to the Web part: a text box and a button. Leave the names at their default values, TextBox1 and Button1, respectively.
+2. Add two controls to the Web part: a text box and a button. Leave the names at their default values, TextBox1 and Button1, respectively.
 
      Take note of the namespace of the control because it is used later.
 
-3.  On the menu bar, choose **Build** > **Build Solution** to build the project.
+3. On the menu bar, choose **Build** > **Build Solution** to build the project.
 
-4.  Create another SharePoint solution.
+4. Create another SharePoint solution.
 
-5.  In **Solution Explorer**, open the shortcut menu for the *Package.Package* file, and then choose **Open** to open the **Package Designer**.
+5. In **Solution Explorer**, open the shortcut menu for the *Package.Package* file, and then choose **Open** to open the **Package Designer**.
 
-6.  In the **Package Designer**, choose the **Advanced** tab.
+6. In the **Package Designer**, choose the **Advanced** tab.
 
-7.  Under **Additional Assemblies**, choose the **Add** button, and then choose **Add Existing Assembly** from the list.
+7. Under **Additional Assemblies**, choose the **Add** button, and then choose **Add Existing Assembly** from the list.
 
-8.  In the **Add Existing Assembly** dialog box, choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to **Source Path**.
+8. In the **Add Existing Assembly** dialog box, choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) button next to **Source Path**.
 
 9. Choose the assembly from the SharePoint solution that you created in Step 1, and then choose the **Open** button.
 

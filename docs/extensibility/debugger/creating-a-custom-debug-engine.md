@@ -23,15 +23,15 @@ A debug engine (DE) is a component that allows debugging of particular run-time 
 
  Creating a DE consists of the following steps:
 
-1.  Register a DE with Visual Studio
+1. Register a DE with Visual Studio
 
-2.  Enable a program to be debugged
+2. Enable a program to be debugged
 
-3.  Implement execution control and state evaluation
+3. Implement execution control and state evaluation
 
-4.  Send events
+4. Send events
 
-5.  Set up termination and detaching
+5. Set up termination and detaching
 
 ## In this section
  [Register a custom debug engine](../../extensibility/debugger/registering-a-custom-debug-engine.md)

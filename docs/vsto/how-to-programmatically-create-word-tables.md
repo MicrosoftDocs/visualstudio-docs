@@ -45,7 +45,7 @@ ms.workload:
 
 ### To apply a style to a table
 
-1.  Use the <xref:Microsoft.Office.Interop.Word.Table.Style%2A> property to apply one of the Word built-in styles to a table.
+1. Use the <xref:Microsoft.Office.Interop.Word.Table.Style%2A> property to apply one of the Word built-in styles to a table.
 
      To use the following code example, run it from the `ThisDocument` class in your project.
 
@@ -78,7 +78,7 @@ ms.workload:
 
 ### To apply a style to a table
 
-1.  Use the <xref:Microsoft.Office.Interop.Word.Table.Style%2A> property to apply one of the Word built-in styles to a table.
+1. Use the <xref:Microsoft.Office.Interop.Word.Table.Style%2A> property to apply one of the Word built-in styles to a table.
 
      The following code example uses the active document. To use this example, run it from the `ThisAddIn` class in your project.
 

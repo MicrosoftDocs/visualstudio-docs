@@ -22,25 +22,25 @@ You can make extensions to the designer that you use to edit DSL Definitions. Ty
   
 #### To create a DSL Designer Extension Solution  
   
-1.  Create a new project using the Class Library project template. In the **New Project** dialog box, click **Visual C#** and then in the middle window click **Class Library**.  
+1. Create a new project using the Class Library project template. In the **New Project** dialog box, click **Visual C#** and then in the middle window click **Class Library**.  
   
      This project will contain the code of your extensions.  
   
-2.  Create a new project using the VSIX project template. In the **New Project** dialog box, expand **Visual C#**, click **Extensibility**, and then in the middle window select **VSIX Project**.  
+2. Create a new project using the VSIX project template. In the **New Project** dialog box, expand **Visual C#**, click **Extensibility**, and then in the middle window select **VSIX Project**.  
   
      Select **Add to Solution**.  
   
      Source.extension.vsixmanifest opens in the VSIX manifest editor.  
   
-3.  Above the Content field, click **Add Content**.  
+3. Above the Content field, click **Add Content**.  
   
-4.  In the **Add Content** dialog box, set **Select a Content Type** to **MEF Component**, and set **Project** to your class library project.  
+4. In the **Add Content** dialog box, set **Select a Content Type** to **MEF Component**, and set **Project** to your class library project.  
   
-5.  Click **Select Editions** and make sure that **Visual Studio Enterprise** is checked.  
+5. Click **Select Editions** and make sure that **Visual Studio Enterprise** is checked.  
   
-6.  Make sure that the VSIX project is the Startup project of the solution.  
+6. Make sure that the VSIX project is the Startup project of the solution.  
   
-7.  In the class library project, add references to the following assemblies:  
+7. In the class library project, add references to the following assemblies:  
   
      Microsoft.VisualStudio.CoreUtility  
   

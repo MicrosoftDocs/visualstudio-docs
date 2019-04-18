@@ -16,7 +16,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 > [!WARNING]
 >  In versions prior to Internet Explorer 10, it was possible to run coded UI tests in a higher privilege level compared to that of the Internet Explorer process. When running coded UI tests on Internet Explorer 10, both the coded UI test and the Internet Explorer process must be at the same privilege level. This is because of more secure AppContainer features in Internet Explorer 10.  
@@ -27,13 +27,13 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 ## Supported HTML5 Controls  
  Coded UI tests include support for record, playback, and validation of the following HTML5 controls:  
   
--   [Audio Control](#audio-control)  
+- [Audio Control](#audio-control)  
   
--   [Video Control](#video-control)  
+- [Video Control](#video-control)  
   
--   [Slider](#slider)  
+- [Slider](#slider)  
   
--   [ProgressBar](#progressbar)  
+- [ProgressBar](#progressbar)  
   
 ### Audio Control  
  **Audio control:** Actions on the HTML5 Audio control are correctly recorded and played back.  

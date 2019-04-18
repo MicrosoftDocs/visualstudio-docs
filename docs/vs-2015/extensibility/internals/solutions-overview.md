@@ -31,9 +31,9 @@ A solution is a grouping of one or more projects that work together to create an
   
 3. If a VSPackage is loaded, the environment calls `QueryInterface` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface, for the interface that the VSPackage requires.  
   
-   1.  When reading from an .sln file, the environment calls `QueryInterface` for `IVsPersistSolutionProps`.  
+   1. When reading from an .sln file, the environment calls `QueryInterface` for `IVsPersistSolutionProps`.  
   
-   2.  When reading from an .suo file, the environment calls `QueryInterface` for `IVsPersistSolutionOpts`.  
+   2. When reading from an .suo file, the environment calls `QueryInterface` for `IVsPersistSolutionOpts`.  
   
    Specific information relating to the use of these files can be found in [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md) and [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).  
   

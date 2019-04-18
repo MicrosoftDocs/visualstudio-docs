@@ -26,30 +26,30 @@ ms.workload:
 
 ## To map an XML schema to a Word document in Visual Studio
 
-1.  Open the Word document or template project inside Visual Studio.
+1. Open the Word document or template project inside Visual Studio.
 
-2.  Click in the document to move the focus to the designer.
+2. Click in the document to move the focus to the designer.
 
-3.  On the ribbon, click the **Developer** tab.
+3. On the ribbon, click the **Developer** tab.
 
     > [!NOTE]
     >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-4.  In the **XML** group, click **Schema**.
+4. In the **XML** group, click **Schema**.
 
      The **Templates and Add-ins** dialog box opens.
 
-5.  Click the **XML Schema** tab.
+5. Click the **XML Schema** tab.
 
-6.  Click **Add Schema**.
+6. Click **Add Schema**.
 
      The **Add Schema** dialog box opens.
 
-7.  Browse to your schema file, select it, and then click **Open**.
+7. Browse to your schema file, select it, and then click **Open**.
 
      The **Schema Settings** dialog box opens.
 
-8.  Assign an alias or click **OK** to add the schema without an alias.
+8. Assign an alias or click **OK** to add the schema without an alias.
 
 9. Click **OK**.
 

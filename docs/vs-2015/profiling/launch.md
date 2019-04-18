@@ -60,15 +60,15 @@ VSPerfCmd.exe /Launch:AppName [Options]
  **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**`Events`]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]**GC**[:**allocation**&#124;**lifetime**]  
  Specifies the number and type of sampling interval.  
   
--   **Timer** - Samples every `Cycles` non-halted processor clock cycles. If `Cycles` is not specified, 10,000,000 cycles are used.  
+- **Timer** - Samples every `Cycles` non-halted processor clock cycles. If `Cycles` is not specified, 10,000,000 cycles are used.  
   
--   **PF** - Samples every `Events` page faults. If `Events` is not specified, 10 page faults.  
+- **PF** - Samples every `Events` page faults. If `Events` is not specified, 10 page faults.  
   
--   **Sys** - Samples every `Events` calls to the operating system. If `Events` is not specified, 10 system calls are used.  
+- **Sys** - Samples every `Events` calls to the operating system. If `Events` is not specified, 10 system calls are used.  
   
--   **Counter** - Samples every `Reload` number of the CPU performance counter specified by `Name`. Optionally, `FriendlyName` can specify a string to use as the column header in profiler reports.  
+- **Counter** - Samples every `Reload` number of the CPU performance counter specified by `Name`. Optionally, `FriendlyName` can specify a string to use as the column header in profiler reports.  
   
--   **GC** - Collects .NET memory data. By default (**allocation**), data is collected at every memory allocation event. When the **lifetime** parameter is specified, data is also collected at each garbage collection event.  
+- **GC** - Collects .NET memory data. By default (**allocation**), data is collected at every memory allocation event. When the **lifetime** parameter is specified, data is also collected at each garbage collection event.  
   
 ## Example  
  This example demonstrates the use of **Launch** to start an application.  

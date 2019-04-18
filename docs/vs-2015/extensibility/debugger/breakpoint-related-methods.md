@@ -17,11 +17,11 @@ manager: jillfra
 
 A debug engine (DE) must support the setting of breakpoints. Visual Studio debugging supports the following types of breakpoints:  
   
--   Bound  
+- Bound  
   
      Requested through the UI and successfully bound to a specified code location  
   
--   Pending  
+- Pending  
   
      Requested through the UI but not yet bound to actual instructions  
   

@@ -25,9 +25,9 @@ This article demonstrates a simple way to get data out of a database in a fast m
 
 To create the application, you'll need:
 
--   Visual Studio.
+- Visual Studio.
 
--   SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
+- SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
 
 This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting started with Visual C# and Visual Basic](../ide/quickstart-visual-basic-console.md) topic before you start this walkthrough.
 
@@ -63,11 +63,11 @@ Create the sample database by following these steps:
 
 2. Add two Windows forms to your project so that it has three forms, and then give them the following names:
 
-   -   **Navigation**
+   - **Navigation**
 
-   -   **NewCustomer**
+   - **NewCustomer**
 
-   -   **FillOrCancel**
+   - **FillOrCancel**
 
 3. For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.
 
@@ -118,21 +118,21 @@ Create the sample database by following these steps:
 
  You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
 
-1.  If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.
+1. If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.
     If you're using Visual Basic, in **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.
 
-2.  In the **Name** column, enter `connString`.
+2. In the **Name** column, enter `connString`.
 
-3.  In the **Type** list, select **(Connection String)**.
+3. In the **Type** list, select **(Connection String)**.
 
-4.  In the **Scope** list, select **Application**.
+4. In the **Scope** list, select **Application**.
 
-5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
+5. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
 
 > [!NOTE]
 > In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
 
-##  Write the code for the forms
+## Write the code for the forms
 
 This section contains brief overviews of what each form does. It also provides the code that defines the underlying logic when a button on the form is clicked.
 

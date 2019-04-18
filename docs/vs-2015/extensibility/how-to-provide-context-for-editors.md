@@ -26,44 +26,44 @@ For an editor, the context is active only when the editor has focus or had focus
   
 ### To create a context bag for an editor or a designer  
   
-1.  Call `QueryService` on your <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface for the <xref:Microsoft.VisualStudio.Shell.Interop.SVsMonitorUserContext> service.  
+1. Call `QueryService` on your <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface for the <xref:Microsoft.VisualStudio.Shell.Interop.SVsMonitorUserContext> service.  
   
      A pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorUserContext> interface is returned.  
   
-2.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorUserContext.CreateEmptyContext%2A> method to create a new context or subcontext bag.  
+2. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorUserContext.CreateEmptyContext%2A> method to create a new context or subcontext bag.  
   
      A pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> interface is returned.  
   
-3.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> method to add attributes, lookup keywords, or F1 keywords to the context or subcontext bag.  
+3. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> method to add attributes, lookup keywords, or F1 keywords to the context or subcontext bag.  
   
-4.  If you are creating a subcontext bag, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddSubcontext%2A> method to link the subcontext bag to the parent context bag.  
+4. If you are creating a subcontext bag, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddSubcontext%2A> method to link the subcontext bag to the parent context bag.  
   
-5.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A> to receive notification when the **Dynamic Help** window is about to update.  
+5. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A> to receive notification when the **Dynamic Help** window is about to update.  
   
      Having the **Dynamic Help** window call your editor when it is ready to update gives you the opportunity to delay changing the context until the update occurs. Doing this can improve performance because it allows you to delay running time-consuming algorithms until system idle time is available.  
   
 ### To publish the context bag to the SEID  
   
-1.  Call `QueryService` on the <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx> service to return a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> interface.  
+1. Call `QueryService` on the <xref:Microsoft.VisualStudio.Shell.Interop.SVsTrackSelectionEx> service to return a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> interface.  
   
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>, specifying an element identifier (`elementid` parameter) value of SEID_UserContext to indicate that you are passing context to the global level.  
+2. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>, specifying an element identifier (`elementid` parameter) value of SEID_UserContext to indicate that you are passing context to the global level.  
   
-3.  When the editor or designer becomes active, the values in its <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> object are propagated to the global selection. You only need to complete this process once per session, and then store the pointer to the global context created when you called <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>.  
+3. When the editor or designer becomes active, the values in its <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> object are propagated to the global selection. You only need to complete this process once per session, and then store the pointer to the global context created when you called <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx.OnElementValueChange%2A>.  
   
 ### To maintain the context bag  
   
-1.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> to ensure that the **Dynamic Help** window calls the editor or designer before it updates.  
+1. Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext> to ensure that the **Dynamic Help** window calls the editor or designer before it updates.  
   
      For each context bag that has called <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AdviseUpdate%2A> after the context bag is created and has implemented <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate>, the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> to notify the context provider that the context bag will be updated. You can use this call to change the attributes and keywords in the context bag, and in any subcontext bags, before the **Dynamic Help** window update occurs.  
   
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A> on the context bag to indicate that the editor or designer has new context.  
+2. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A> on the context bag to indicate that the editor or designer has new context.  
   
      When the **Dynamic Help** window calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> to indicate that it is updating, the editor or designer can update the context appropriately for both the parent context bag and any subcontext bags at that time.  
   
     > [!NOTE]
     >  The `SetDirty` flag is automatically set to `true` whenever context is added or removed from the context bag. The **Dynamic Help** window only calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> on the context bag if the `SetDirty` flag is set to `true`. It is reset to `false` after the update.  
   
-3.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> to add context to the active context collection or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> to remove context.  
+3. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> to add context to the active context collection or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> to remove context.  
   
 ## Robust Programming  
  If you are writing your own editor, then you must complete all three of the procedures in this topic to provide context for the editor.  

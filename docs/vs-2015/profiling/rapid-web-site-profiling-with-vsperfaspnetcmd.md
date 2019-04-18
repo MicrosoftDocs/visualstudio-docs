@@ -76,7 +76,7 @@ The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUD
   
  **vsperfaspnetcmd /memory**[**:lifetime**] **/tip**_websiteUrl_  
   
-##  <a name="UsingNoWait"></a> Using the /NoWait option  
+## <a name="UsingNoWait"></a> Using the /NoWait option  
  By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the following syntax option to force the command prompt to return. You can then perform other operations in the command prompt window. To end profiling, use the **/shutdown** option in a separate **vsperfaspnetcmd** command.  
   
  To begin profiling:  

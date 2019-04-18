@@ -34,11 +34,14 @@ Refer to the [High DPI Desktop Application Development on Windows](https://docs.
 
 ## Enabling PMA
 To enable PMA in Visual Studio, the following requirements need to be met:
-1)  Windows 10 April 2018 Update (v1803, RS4) or later
-2)  .NET Framework 4.8 RTM or greater (currently ships as standalone preview or bundle with recent Windows Insider builds)
-3)  Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) option enabled
+1) Windows 10 April 2018 Update (v1803, RS4) or later
+2) .NET Framework 4.8 RTM or greater
+3) Visual Studio 2019 with the ["Optimize rendering for screens with different pixel densities"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) option enabled
 
 Once these requirements are met, Visual Studio will automatically enable PMA mode across the process.
+
+> [!NOTE]
+> Windows Forms content in VS (for example Property Browser) will support PMA only when you have Visual Studio 2019 Update #1.
 
 ## Testing your extensions for PMA issues
 
@@ -101,12 +104,18 @@ Whenever inside mixed-mode DPI scenarios (e.g. different UI elements rendering i
 #### Out-of-process UI
 Some UI is created out-of-process and if the creating external process is in a different DPI awareness mode than Visual Studio, this can introduce any of the previous rendering issues.
 
-#### Windows Forms controls, images, or windows not displaying
+#### Windows Forms controls, images or layouts rendered incorrectly
+Not all of the Windows Forms content support PMA mode. As a result, you may see rendering issue with incorrect layouts or scaling. A possible solution in this case is to explicitly render Windows Forms content in "System Aware"  DpiAwarenessContext ( refer to [Forcing a control into a specific DpiAwarenessContext](#forcing-a-control-into-a-specific-dpiawarenesscontext)).
+
+#### Windows Forms controls or windows not displaying
 One of the main causes for this issue is developers trying to reparent a control or window with one DpiAwarenessContext to a window with a different DpiAwarenessContext.
 
-The following pictures show the current Windows operating system restrictions in parenting windows:
+The following pictures show the current **default** Windows operating system restrictions in parenting windows:
 
 ![A screenshot of the correct parenting behavior](../../extensibility/ux-guidelines/media/PMA-parenting-behavior.PNG)
+
+> [!Note]
+> You can change this behaviour by setting the Thread Hosting Behaviour (refer to [DpiHostinBehaviour](https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior)).
 
 As a result, if you set parent-child relationship between unsupported modes, it will fail, and the control or window may not be rendered as expected.
 

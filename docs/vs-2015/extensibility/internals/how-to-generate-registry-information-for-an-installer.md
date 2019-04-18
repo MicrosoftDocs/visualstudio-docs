@@ -23,7 +23,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To create a registration manifest  
   
--   Run RegPkg with the **/regfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
+- Run RegPkg with the **/regfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
   
      For example, at the command prompt, you would type something like the following:  
   
@@ -33,7 +33,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To view a registration manifest  
   
--   Open the registration manifest in any text editor.  
+- Open the registration manifest in any text editor.  
   
      The following example is the registration manifest that RegPkg creates for the IronPython language service:  
   
@@ -94,7 +94,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To create a Windows Installer XML Toolset include file  
   
--   Run RegPkg with the **/wixfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
+- Run RegPkg with the **/wixfile** switch. Provide any other switches, the name of the output file, and the path of the VSPackage.  
   
      For example, at the command prompt, you would type something like the following:  
   
@@ -104,7 +104,7 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
   
 ### To view a Windows Installer XML Toolset include file  
   
--   Open the Windows Installer XML Toolset include file in any text editor.  
+- Open the Windows Installer XML Toolset include file in any text editor.  
   
      The following example is the include file that RegPkg creates for the IronPython language service:  
   

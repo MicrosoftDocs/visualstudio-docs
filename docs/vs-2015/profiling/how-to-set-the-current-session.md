@@ -31,7 +31,7 @@ You can open multiple performance sessions in the **Performance Explorer**, and 
   
 ### To set current performance session  
   
--   In **Performance Explorer**, right-click the performance session, and then click **Set as Current Session**.  
+- In **Performance Explorer**, right-click the performance session, and then click **Set as Current Session**.  
   
      The session name appears in bold.  
   

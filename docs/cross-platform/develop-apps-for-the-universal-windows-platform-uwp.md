@@ -32,11 +32,25 @@ The Universal Windows App development tools come with emulators that you can use
 
 Here is the list of software that you need:
 
+::: moniker range="vs-2017"
+
 - [Windows 10](http://windows.microsoft.com/windows/downloads). Visual Studio 2017 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs) and [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
 
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017). You will also need the optional Universal Windows Platform development workload.
+- [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). You will also need the optional Universal Windows Platform development workload.
 
      ![UWP workload](media/uwp_workload.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [Windows 10](http://windows.microsoft.com/windows/downloads). Visual Studio 2019 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/releases/2019/compatibility/) and [System requirements](/visualstudio/releases/2019/system-requirements/).
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019). You will also need the optional Universal Windows Platform development workload.
+
+     ![UWP workload](media/uwp_workload.png)
+
+::: moniker-end
 
 After installing this software, you need to enable your Windows 10 device for development. See [Enable your device for development](/windows/uwp/get-started/enable-your-device-for-development). You no longer need a developer license for each Windows 10 device.
 

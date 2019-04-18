@@ -34,19 +34,19 @@ ms.workload:
 
  For more information about the object models of specific Microsoft Office applications, see the following topics:
 
--   [Excel object model overview](../vsto/excel-object-model-overview.md)
+- [Excel object model overview](../vsto/excel-object-model-overview.md)
 
--   [Word object model overview](../vsto/word-object-model-overview.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
 
--   [Outlook object model overview](../vsto/outlook-object-model-overview.md)
+- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
 
--   [InfoPath solutions](../vsto/infopath-solutions.md)
+- [InfoPath solutions](../vsto/infopath-solutions.md)
 
--   [PowerPoint solutions](../vsto/powerpoint-solutions.md)
+- [PowerPoint solutions](../vsto/powerpoint-solutions.md)
 
--   [Project solutions](../vsto/project-solutions.md)
+- [Project solutions](../vsto/project-solutions.md)
 
--   [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
 
 ## Customize the user interface of applications
  There are several different ways to customize the UI of the host application by using a VSTO Add-in:

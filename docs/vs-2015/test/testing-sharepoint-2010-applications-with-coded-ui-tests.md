@@ -16,16 +16,16 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
   
  **Requirements**  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ## What else should I know about coded UI tests?  
  To learn more about the benefits of using coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196).  
   
  **Notes**  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Coded UI tests for SharePoint applications are supported only with SharePoint 2010.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") Coded UI tests for SharePoint applications are supported only with SharePoint 2010.  
   
--   ![Prerequsite](../test/media/prereq.png "Prereq") Support for Visio and PowerPoint 2010 controls in your SharePoint application is not supported.  
+- ![Prerequsite](../test/media/prereq.png "Prereq") Support for Visio and PowerPoint 2010 controls in your SharePoint application is not supported.  
   
 ## Creating a coded UI test for your SharePoint app  
  [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) for your SharePoint 2010 applications is the same as creating tests for other types of applications. Record and Playback is supported for all controls on the Web Editing interface. The interface for selecting categories and web parts are all standard web controls.  
@@ -56,14 +56,14 @@ uiGridKeyboardInputEdit.Text=value;
   
  If you are recording actions on a non-empty cell, then recording gets a little more complicated, because the moment you add text to a cell, a new \<div> control is added as a child of the cell. The new \<div> control contains the text that you just entered. The recorder needs to record actions on the new \<div> control; however, it can’t because the new \<div> control does not exist until after the test is entered. You must manually make the following code changes to accommodate this issue.  
   
-1.  Go to cell initialization and make `RowIndex` and `ColumnIndex` primary properties:  
+1. Go to cell initialization and make `RowIndex` and `ColumnIndex` primary properties:  
   
     ```csharp  
     this.mUIItemCell.SearchProperties[HtmlCell.PropertyNames. RowIndex] = "3";   
     this.mUIItemCell.SearchProperties[HtmlCell.PropertyNames. ColumnIndex] = "3";  
     ```  
   
-2.  Find the `HtmlDiv` child of the cell:  
+2. Find the `HtmlDiv` child of the cell:  
   
     ```csharp  
     private UITestControl getControlToDoubleClick(HtmlCell cell)   
@@ -79,13 +79,13 @@ uiGridKeyboardInputEdit.Text=value;
   
     ```  
   
-3.  Add code for a mouse double-click action on `HtmlDiv`:  
+3. Add code for a mouse double-click action on `HtmlDiv`:  
   
     ```csharp  
     Mouse.DoubleClick(uIItemPane, new Point(31, 14)); )  
     ```  
   
-4.  Add code to set text on `TextArea`:  
+4. Add code to set text on `TextArea`:  
   
     ```csharp  
     uIGridKeyboardInputEdit.Text = value; }  
@@ -108,15 +108,15 @@ uiGridKeyboardInputEdit.Text=value;
   
 #### Testing Silverlight web parts  
   
-1.  Start Fiddler.  
+1. Start Fiddler.  
   
-2.  Clear the browser cache. This is necessary because the XAP file, which contains the Silverlight UI Automation Helper DLL, is typically cached. We have to make sure that the modified XAP file is picked up, so we clear the browser cache.  
+2. Clear the browser cache. This is necessary because the XAP file, which contains the Silverlight UI Automation Helper DLL, is typically cached. We have to make sure that the modified XAP file is picked up, so we clear the browser cache.  
   
-3.  Open the web page.  
+3. Open the web page.  
   
-4.  Start the recorder and generate code like you would for a regular web application testing.  
+4. Start the recorder and generate code like you would for a regular web application testing.  
   
-5.  You should confirm that the generated code references the Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll.  
+5. You should confirm that the generated code references the Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll.  
   
      For more information, see [UI Testing SharePoint 2010 with Visual Studio 2012](http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/01/ui-testing-sharepoint-2010-with-visual-studio-2012.aspx)  
   

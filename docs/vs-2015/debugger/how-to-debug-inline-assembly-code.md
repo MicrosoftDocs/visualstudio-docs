@@ -34,9 +34,9 @@ NOTE]
   
 #### To debug inline assembly code  
   
-1.  Use the **Disassembly** window to view the assembly instructions.  
+1. Use the **Disassembly** window to view the assembly instructions.  
   
-2.  Use the **Registers** window to view register contents.  
+2. Use the **Registers** window to view register contents.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

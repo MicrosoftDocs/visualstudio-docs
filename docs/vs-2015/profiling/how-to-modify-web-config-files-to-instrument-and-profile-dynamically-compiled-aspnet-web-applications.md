@@ -32,27 +32,27 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
   
 ### To add the ASPNetHelper assembly as a configuration/runtime/assemblyBinding/dependentAssembly element  
   
-1.  If necessary, add the **runtime** element as a child element of the **configuration** element; otherwise, go to the next step.  
+1. If necessary, add the **runtime** element as a child element of the **configuration** element; otherwise, go to the next step.  
   
      The **runtime** element has no attributes. The **configuration** element can have only one **runtime** child element.  
   
-2.  If necessary, add the **assemblyBinding** element as a child element of the **runtime** element; otherwise, go to the next step.  
+2. If necessary, add the **assemblyBinding** element as a child element of the **runtime** element; otherwise, go to the next step.  
   
      The **runtime** element can have only one **assemblyBinding** element.  
   
-3.  Add the following attribute name and value to the **assemblyBinding** element:  
+3. Add the following attribute name and value to the **assemblyBinding** element:  
   
     |Attribute Name|Attribute Value|  
     |--------------------|---------------------|  
     |**Xmlns**|**urn:schemas-microsoft-com:asm.v1**|  
   
-4.  Add a **dependentAssembly** element as a child element of the **assemblyBinding** element.  
+4. Add a **dependentAssembly** element as a child element of the **assemblyBinding** element.  
   
      The **dependentAssembly** element has no attributes.  
   
-5.  Add an **assemblyIdentity** element as a child of the **dependentAssembly** element.  
+5. Add an **assemblyIdentity** element as a child of the **dependentAssembly** element.  
   
-6.  Add the following attribute names and values to the **assemblyIdentity** element:  
+6. Add the following attribute names and values to the **assemblyIdentity** element:  
   
     |Attribute Name|Attribute Value|  
     |--------------------|---------------------|  
@@ -60,9 +60,9 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
     |**PublicKeyToken**|**b03f5f7f11d50a3a**|  
     |**culture**|**Neutral**|  
   
-7.  Add a **codeBase** element as a child of the **dependentAssembly** element.  
+7. Add a **codeBase** element as a child of the **dependentAssembly** element.  
   
-8.  Add the following attribute names and values to the **codeBase** element:  
+8. Add the following attribute names and values to the **codeBase** element:  
   
     |Attribute Name|Attribute Value|  
     |--------------------|---------------------|  
@@ -92,15 +92,15 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
   
 ### To add the Profiler post-process step to the configuration/system.web/compilation element  
   
-1.  If necessary, add the **system.web** element as a child element of the **configuration** element; otherwise, go to the next step.  
+1. If necessary, add the **system.web** element as a child element of the **configuration** element; otherwise, go to the next step.  
   
      The **system.web** element has no attributes. The **configuration** element can have only one **system.web** child element.  
   
-2.  If necessary, add the **compilation** element as a child element of the **system.web** element; otherwise, go to the next step.  
+2. If necessary, add the **compilation** element as a child element of the **system.web** element; otherwise, go to the next step.  
   
      The **system.web** element can have only one **compilation** child element.  
   
-3.  Remove any existing attributes from the **compilation** element, and add the following attribute name and value:  
+3. Remove any existing attributes from the **compilation** element, and add the following attribute name and value:  
   
     |Attribute Name|Attribute Value|  
     |--------------------|---------------------|  
@@ -124,22 +124,22 @@ You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools ins
   
 ### To add Profiler location settings to the configuration/appSettings element  
   
-1.  If necessary, add the **appSettings** element as a child element of the **configuration** element; otherwise, go to the next step.  
+1. If necessary, add the **appSettings** element as a child element of the **configuration** element; otherwise, go to the next step.  
   
      The **appSettings** element has no attributes. The **configuration** element can have only one **appSettings** child element.  
   
-2.  Add an **add** element as a child of the **appSettings** element.  
+2. Add an **add** element as a child of the **appSettings** element.  
   
-3.  Add the following attribute names and values to the **add** element:  
+3. Add the following attribute names and values to the **add** element:  
   
     |Attribute Name|Attribute Value|  
     |--------------------|---------------------|  
     |**key**|**Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation**|  
     |**value**|`PerformanceToolsFolder` **\VSInstr.Exe**|  
   
-4.  Add another **add** element as a child of the **appSettings** element.  
+4. Add another **add** element as a child of the **appSettings** element.  
   
-5.  Add the following attribute names and values to this **add** element:  
+5. Add the following attribute names and values to this **add** element:  
   
     |Attribute Name|Attribute Value|  
     |--------------------|---------------------|  

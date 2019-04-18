@@ -26,7 +26,7 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   Contacts whose last names contain the string "**Na"** (for example, Tzipi Butnaru) in the **Contacts** folder.
+- Contacts whose last names contain the string "**Na"** (for example, Tzipi Butnaru) in the **Contacts** folder.
 
 ## See also
 - [Work with contact items](../vsto/working-with-contact-items.md)

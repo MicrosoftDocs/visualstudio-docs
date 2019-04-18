@@ -55,11 +55,11 @@ A *snapline* is a visual cue that helps you align an element relative to other e
 
 To align two or more elements by using menu commands:
 
-1.  Select the elements that you want to align. You can select more than one element by pressing and holding the **Ctrl** key while you select the elements.
+1. Select the elements that you want to align. You can select more than one element by pressing and holding the **Ctrl** key while you select the elements.
 
-2.  Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.
+2. Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.
 
-3.  Select one of the following properties under **VerticalAlignment** in the **Layout** section of the Properties window: **Top**, **Center**, **Bottom**, or **Stretch**.
+3. Select one of the following properties under **VerticalAlignment** in the **Layout** section of the Properties window: **Top**, **Center**, **Bottom**, or **Stretch**.
 
 To align two or more elements by using snaplines, in XAML Designer, in a layout that contains at least two elements, drag or resize one of the elements so that the edge is aligned with another element.
 
@@ -71,9 +71,9 @@ The margins in XAML Designer determine the amount of empty space that is around 
 
 To change an element's margins in the Properties window:
 
-1.  Select the element whose margins you want to change.
+1. Select the element whose margins you want to change.
 
-2.  Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).
+2. Under **Layout** in the Properties window, change the value (in pixels or device-independent units, which are approximately 1/96 inch) for any of the **Margin** properties (**Top**, **Left**, **Right**, or **Bottom**).
 
 In the artboard, to change an element's margins relative to the element's layout container, click the *margin adorners* that appear around the element when the element is selected and is within a layout container. For an illustration that shows margin adorners, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 

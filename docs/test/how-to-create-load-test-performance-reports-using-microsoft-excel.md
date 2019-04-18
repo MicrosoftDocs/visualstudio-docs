@@ -18,9 +18,9 @@ You can generate Microsoft Excel load test reports that are based on two or more
 
 Two types of load test reports are available:
 
--   **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.
+- **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.
 
--   **Trend** You can generate trend analysis on two or more load test results. The results are displayed using line charts, but the data is available in pivot tables.
+- **Trend** You can generate trend analysis on two or more load test results. The results are displayed using line charts, but the data is available in pivot tables.
 
 > [!TIP]
 > You can also manually create Microsoft Word reports by copying and pasting data from the summary view, graphs view, and tables view. See [How to: Manually create a load test performance report using Microsoft Word](../test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md).

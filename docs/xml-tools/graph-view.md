@@ -114,11 +114,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  The undo/redo capability is enabled in the Graph View for the following actions:
 
--   Adding a single node by dragging and dropping.
+- Adding a single node by dragging and dropping.
 
--   Adding multiple nodes from the search results window in Schema Explorer or Start View queries.
+- Adding multiple nodes from the search results window in Schema Explorer or Start View queries.
 
--   Deleting single or multiple nodes.
+- Deleting single or multiple nodes.
 
 ## Zoom
 
@@ -126,9 +126,9 @@ The Graph View provides a graphic representation of global schema nodes and the 
 
  Zoom can be controlled in the following ways:
 
--   By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.
+- By holding the **Ctrl** key and spinning the mouse wheel when the mouse is hovering over the Graph View surface.
 
--   By using the slider control. The slider shows the current zoom level.
+- By using the slider control. The slider shows the current zoom level.
 
 The Zoom slider is opaque when you select it, hover over it, or use **Ctrl** with the mouse wheel to zoom; at all other times, it is transparent.
 

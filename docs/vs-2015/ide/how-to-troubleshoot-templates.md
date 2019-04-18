@@ -22,24 +22,24 @@ If a template fails to load in the development environment, there are several wa
   
 #### To validate the .vstemplate file  
   
-1.  Locate the .zip file that contains the template.  
+1. Locate the .zip file that contains the template.  
   
-2.  Extract the .zip file.  
+2. Extract the .zip file.  
   
-3.  On the **File** menu in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], click **Open**, and then click **File**.  
+3. On the **File** menu in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], click **Open**, and then click **File**.  
   
-4.  Select the .vstemplate file for the template, and click **Open**.  
+4. Select the .vstemplate file for the template, and click **Open**.  
   
-5.  Verify that the XML of the .vstemplate file adheres to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] template schema. For more information on the .vstemplate schema, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).  
+5. Verify that the XML of the .vstemplate file adheres to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] template schema. For more information on the .vstemplate schema, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).  
   
     > [!NOTE]
     >  To get IntelliSense support while authoring the .vstemplate file, add a `xmlns` attribute to the `VSTemplate` element and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.  
   
-6.  Save and close the .vstemplate file.  
+6. Save and close the .vstemplate file.  
   
-7.  Select the files included in your template, right-click, select **Send To**, and click **Compressed (zipped) Folder**. The files that you selected are compressed into a .zip file.  
+7. Select the files included in your template, right-click, select **Send To**, and click **Compressed (zipped) Folder**. The files that you selected are compressed into a .zip file.  
   
-8.  Place the new .zip file in the same directory as the old .zip file.  
+8. Place the new .zip file in the same directory as the old .zip file.  
   
 9. Delete the extracted template files and the old template .zip file.  
   
@@ -48,13 +48,13 @@ If a template fails to load in the development environment, there are several wa
   
 #### To locate template errors in Event Viewer  
   
-1.  In Windows, click **Start**, click **Control Panel**, double-click **Administrative Tools**, and then double-click **Event Viewer**.  
+1. In Windows, click **Start**, click **Control Panel**, double-click **Administrative Tools**, and then double-click **Event Viewer**.  
   
-2.  In the left pane, click **Application**.  
+2. In the left pane, click **Application**.  
   
-3.  Look for events with a **Source** value of `Visual Studio - VsTemplate`.  
+3. Look for events with a **Source** value of `Visual Studio - VsTemplate`.  
   
-4.  Double-click on a template event to view the error.  
+4. Double-click on a template event to view the error.  
   
 ## See Also  
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   

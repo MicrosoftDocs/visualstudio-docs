@@ -35,17 +35,17 @@ You can use the **Data Sources** window to bind an image in a database to a cont
   
 ## Bind a picture in a database to a control  
   
-1.  Make sure that the design surface you want to add the control to is open in the WPF Designer or the Windows Forms Designer.  
+1. Make sure that the design surface you want to add the control to is open in the WPF Designer or the Windows Forms Designer.  
   
-2.  In the **Data Sources** window, expand the desired table or object to display its columns or properties.  
+2. In the **Data Sources** window, expand the desired table or object to display its columns or properties.  
   
-3.  Select the column or property that contains your image data, and select one of the following controls from its drop-down control list:  
+3. Select the column or property that contains your image data, and select one of the following controls from its drop-down control list:  
   
-    -   If the WPF designer is open, select **Image**.  
+    - If the WPF designer is open, select **Image**.  
   
-    -   If the Windows Forms designer is open, select **PictureBox**.  
+    - If the Windows Forms designer is open, select **PictureBox**.  
   
-    -   Alternatively, you can select a different control that supports data binding and that can display images. If the control that you want to use is not in the list of available controls, you can add it to the list and then select it. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
+    - Alternatively, you can select a different control that supports data binding and that can display images. If the control that you want to use is not in the list of available controls, you can add it to the list and then select it. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
 ## See Also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)

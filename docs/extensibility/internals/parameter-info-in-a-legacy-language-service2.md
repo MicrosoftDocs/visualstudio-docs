@@ -105,10 +105,10 @@ testfunc("a string",3);
 
  The steps that the parser takes are outlined below:
 
-1.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartName%2A> with the text "testfunc".
+1. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartName%2A> with the text "testfunc".
 
-2.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartParameters%2A>.
+2. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartParameters%2A>.
 
-3.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>.
+3. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>.
 
-4.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>.
+4. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>.

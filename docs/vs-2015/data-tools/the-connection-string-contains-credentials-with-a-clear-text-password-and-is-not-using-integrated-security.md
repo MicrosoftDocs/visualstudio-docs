@@ -22,13 +22,13 @@ Do you want to save the connection string to the current DBML file and applicati
   
 ### To save the connection string with the sensitive information in the project's application settings  
   
--   Click **Yes**.  
+- Click **Yes**.  
   
      The connection string is stored as an application setting. The connection string includes the sensitive information in plain text. The DBML file does not contain the sensitive information.  
   
 ### To save the connection string without the sensitive information in the project's application settings  
   
--   Click **No**.  
+- Click **No**.  
   
      The connection string is stored as an application setting, but the password is not included.  
   

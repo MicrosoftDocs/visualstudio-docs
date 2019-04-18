@@ -54,18 +54,18 @@ Depending on your scenario, use one of the following methods to enable the log:
 
 When you run a coded UI test with the modifications to the *QTAgent32.exe.config* file in place, you see an output link in the **Test Explorer** results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to "verbose."
 
-1.  On the **Test** menu, choose **Windows** and then select **Test Explorer**.
+1. On the **Test** menu, choose **Windows** and then select **Test Explorer**.
 
-2.  On the **Build** menu, choose **Build Solution**.
+2. On the **Build** menu, choose **Build Solution**.
 
-3.  In **Test Explorer**, select the coded UI test you want to run, open its shortcut menu, and then choose **Run Select Tests**.
+3. In **Test Explorer**, select the coded UI test you want to run, open its shortcut menu, and then choose **Run Select Tests**.
 
      The automated tests run and indicate if they passed or failed.
 
     > [!TIP]
     > To view **Test Explorer**, choose **Test** > **Windows**, and then choose **Test Explorer**.
 
-4.  Choose the **Output** link in the **Test Explorer** results.
+4. Choose the **Output** link in the **Test Explorer** results.
 
      ![Output link in the Test Explorer](../test/media/cuit_htmlactionlog1.png)
 
@@ -73,7 +73,7 @@ When you run a coded UI test with the modifications to the *QTAgent32.exe.config
 
      ![Results and output links from coded UI test](../test/media/cuit_htmlactionlog2.png)
 
-5.  Choose the *UITestActionLog.html* link.
+5. Choose the *UITestActionLog.html* link.
 
      The log is displayed in your web browser.
 

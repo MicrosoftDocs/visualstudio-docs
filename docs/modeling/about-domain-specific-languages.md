@@ -18,11 +18,11 @@ Well-known DSLs include regular expressions and SQL. Each DSL is much better tha
 
 Your business and your project also deal with special sets of concepts that could be described with a DSL. For example, you could define a DSL for one of these applications:
 
--   Plan of navigation paths in a website.
+- Plan of navigation paths in a website.
 
--   Wiring diagrams for electronic components.
+- Wiring diagrams for electronic components.
 
--   Networks of conveyor belts and baggage handling equipment for an airport.
+- Networks of conveyor belts and baggage handling equipment for an airport.
 
 When you design a DSL, you define a *domain class* for each of the important concepts in the domain, such as a web page, lamp, or airport check-in desk. You define *domain relationships* such as hyperlink, wire, or a conveyor belt to link the concepts together.
 
@@ -108,12 +108,12 @@ A domain-specific language can provide the following benefits:
 
 Most software development teams that use domain-specific languages follow these steps to create and use their models:
 
--   The team distinguishes the variable parts of the domain from the parts that never change.
+- The team distinguishes the variable parts of the domain from the parts that never change.
 
--   The developers write code for the fixed parts and leave extension points for the variable parts.
+- The developers write code for the fixed parts and leave extension points for the variable parts.
 
--   The lead software developer or the architect creates a domain-specific language that incorporates the design patterns of the fixed parts of the domain and the extension points for the variable parts.
+- The lead software developer or the architect creates a domain-specific language that incorporates the design patterns of the fixed parts of the domain and the extension points for the variable parts.
 
--   The lead software developer or the architect deploys the domain-specific language to the developers of the various applications that the team produces.
+- The lead software developer or the architect deploys the domain-specific language to the developers of the various applications that the team produces.
 
--   Every developer creates a model that applies to the specific application.
+- Every developer creates a model that applies to the specific application.

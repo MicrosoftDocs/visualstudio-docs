@@ -134,27 +134,27 @@ This article describes typical uses of annotations for simple function parameter
 
  **Annotations and Descriptions**
 
--   `_In_`
+- `_In_`
 
      Annotates input parameters that are scalars, structures, pointers to structures and the like.  Explicitly may be used on simple scalars.  The parameter must be valid in pre-state and will not be modified.
 
--   `_Out_`
+- `_Out_`
 
      Annotates output parameters that are scalars, structures, pointers to structures and the like.  Do not apply this to an object that cannot return a value—for example, a scalar that's passed by value.  The parameter does not have to be valid in pre-state but must be valid in post-state.
 
--   `_Inout_`
+- `_Inout_`
 
      Annotates a parameter that will be changed by the function.  It must be valid in both pre-state and post-state, but is assumed to have different values before and after the call. Must apply to a modifiable value.
 
--   `_In_z_`
+- `_In_z_`
 
      A pointer to a null-terminated string that's used as input.  The string must be valid in pre-state.  Variants of `PSTR`, which already have the correct annotations, are preferred.
 
--   `_Inout_z_`
+- `_Inout_z_`
 
      A pointer to a null-terminated character array that will be modified.  It must be valid before and after the call, but the value is assumed to have changed.  The null terminator may be moved, but only the elements up to the original null terminator may be accessed.
 
--   `_In_reads_(s)`
+- `_In_reads_(s)`
 
      `_In_reads_bytes_(s)`
 
@@ -162,15 +162,15 @@ This article describes typical uses of annotations for simple function parameter
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
--   `_In_reads_z_(s)`
+- `_In_reads_z_(s)`
 
      A pointer to an array that is null-terminated and has a known size. The elements up to the null terminator—or `s` if there is no null terminator—must be valid in pre-state.  If the size is known in bytes, scale `s` by the element size.
 
--   `_In_reads_or_z_(s)`
+- `_In_reads_or_z_(s)`
 
      A pointer to an array that is null-terminated or has a known size, or both. The elements up to the null terminator—or `s` if there is no null terminator—must be valid in pre-state.  If the size is known in bytes, scale `s` by the element size.  (Used for the `strn` family.)
 
--   `_Out_writes_(s)`
+- `_Out_writes_(s)`
 
      `_Out_writes_bytes_(s)`
 
@@ -182,11 +182,11 @@ This article describes typical uses of annotations for simple function parameter
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
--   `_Out_writes_z_(s)`
+- `_Out_writes_z_(s)`
 
      A pointer to an array of `s` elements.  The elements do not have to be valid in pre-state.  In post-state, the elements up through the null terminator—which must be present—must be valid.  If the size is known in bytes, scale `s` by the element size.
 
--   `_Inout_updates_(s)`
+- `_Inout_updates_(s)`
 
      `_Inout_updates_bytes_(s)`
 
@@ -194,11 +194,11 @@ This article describes typical uses of annotations for simple function parameter
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
--   `_Inout_updates_z_(s)`
+- `_Inout_updates_z_(s)`
 
      A pointer to an array that is null-terminated and has a known size. The elements up through the null terminator—which must be present—must be valid in both pre-state and post-state.  The value in the post-state is presumed to be different from the value in the pre-state; this includes the location of the null terminator. If the size is known in bytes, scale `s` by the element size.
 
--   `_Out_writes_to_(s,c)`
+- `_Out_writes_to_(s,c)`
 
      `_Out_writes_bytes_to_(s,c)`
 
@@ -214,7 +214,7 @@ This article describes typical uses of annotations for simple function parameter
 
      `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`
 
--   `_Inout_updates_to_(s,c)`
+- `_Inout_updates_to_(s,c)`
 
      `_Inout_updates_bytes_to_(s,c)`
 
@@ -222,11 +222,11 @@ This article describes typical uses of annotations for simple function parameter
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
--   `_Inout_updates_z_(s)`
+- `_Inout_updates_z_(s)`
 
      A pointer to an array that is null-terminated and has a known size. The elements up through the null terminator—which must be present—must be valid in both pre-state and post-state.  The value in the post-state is presumed to be different from the value in the pre-state; this includes the location of the null terminator. If the size is known in bytes, scale `s` by the element size.
 
--   `_Out_writes_to_(s,c)`
+- `_Out_writes_to_(s,c)`
 
      `_Out_writes_bytes_to_(s,c)`
 
@@ -242,7 +242,7 @@ This article describes typical uses of annotations for simple function parameter
 
      `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`
 
--   `_Inout_updates_to_(s,c)`
+- `_Inout_updates_to_(s,c)`
 
      `_Inout_updates_bytes_to_(s,c)`
 
@@ -250,7 +250,7 @@ This article describes typical uses of annotations for simple function parameter
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
--   `_Inout_updates_all_(s)`
+- `_Inout_updates_all_(s)`
 
      `_Inout_updates_bytes_all_(s)`
 
@@ -262,19 +262,19 @@ This article describes typical uses of annotations for simple function parameter
 
      The `_bytes_` variant gives the size in bytes instead of elements. Use this only when the size cannot be expressed as elements.  For example, `char` strings would use the `_bytes_` variant only if a similar function that uses `wchar_t` would.
 
--   `_In_reads_to_ptr_(p)`
+- `_In_reads_to_ptr_(p)`
 
      A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.
 
--   `_In_reads_to_ptr_z_(p)`
+- `_In_reads_to_ptr_z_(p)`
 
      A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.
 
--   `_Out_writes_to_ptr_(p)`
+- `_Out_writes_to_ptr_(p)`
 
      A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
 
--   `_Out_writes_to_ptr_z_(p)`
+- `_Out_writes_to_ptr_z_(p)`
 
      A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
 
@@ -382,59 +382,59 @@ This article describes typical uses of annotations for simple function parameter
 
  **Annotations and Descriptions**
 
--   `_Outref_`
+- `_Outref_`
 
      Result must be valid in post-state and cannot be null.
 
--   `_Outref_result_maybenull_`
+- `_Outref_result_maybenull_`
 
      Result must be valid in post-state, but may be null in post-state.
 
--   `_Outref_result_buffer_(s)`
+- `_Outref_result_buffer_(s)`
 
      Result must be valid in post-state and cannot be null. Points to valid buffer of size `s` elements.
 
--   `_Outref_result_bytebuffer_(s)`
+- `_Outref_result_bytebuffer_(s)`
 
      Result must be valid in post-state and cannot be null. Points to valid buffer of size `s` bytes.
 
--   `_Outref_result_buffer_to_(s, c)`
+- `_Outref_result_buffer_to_(s, c)`
 
      Result must be valid in post-state and cannot be null. Points to buffer of `s` elements, of which the first `c` are valid.
 
--   `_Outref_result_bytebuffer_to_(s, c)`
+- `_Outref_result_bytebuffer_to_(s, c)`
 
      Result must be valid in post-state and cannot be null. Points to buffer of `s` bytes of which the first `c` are valid.
 
--   `_Outref_result_buffer_all_(s)`
+- `_Outref_result_buffer_all_(s)`
 
      Result must be valid in post-state and cannot be null. Points to valid buffer of size `s` valid elements.
 
--   `_Outref_result_bytebuffer_all_(s)`
+- `_Outref_result_bytebuffer_all_(s)`
 
      Result must be valid in post-state and cannot be null. Points to valid buffer of `s` bytes of valid elements.
 
--   `_Outref_result_buffer_maybenull_(s)`
+- `_Outref_result_buffer_maybenull_(s)`
 
      Result must be valid in post-state, but may be null in post-state. Points to valid buffer of size `s` elements.
 
--   `_Outref_result_bytebuffer_maybenull_(s)`
+- `_Outref_result_bytebuffer_maybenull_(s)`
 
      Result must be valid in post-state, but may be null in post-state. Points to valid buffer of size `s` bytes.
 
--   `_Outref_result_buffer_to_maybenull_(s, c)`
+- `_Outref_result_buffer_to_maybenull_(s, c)`
 
      Result must be valid in post-state, but may be null in post-state. Points to buffer of `s` elements, of which the first `c` are valid.
 
--   `_Outref_result_bytebuffer_to_maybenull_(s,c)`
+- `_Outref_result_bytebuffer_to_maybenull_(s,c)`
 
      Result must be valid in post-state, but may be null in post state. Points to buffer of `s` bytes of which the first `c` are valid.
 
--   `_Outref_result_buffer_all_maybenull_(s)`
+- `_Outref_result_buffer_all_maybenull_(s)`
 
      Result must be valid in post-state, but may be null in post state. Points to valid buffer of size `s` valid elements.
 
--   `_Outref_result_bytebuffer_all_maybenull_(s)`
+- `_Outref_result_bytebuffer_all_maybenull_(s)`
 
      Result must be valid in post-state, but may be null in post state. Points to valid buffer of `s` bytes of valid elements.
 
@@ -448,7 +448,7 @@ This article describes typical uses of annotations for simple function parameter
 ## Other Common Annotations
  **Annotations and Descriptions**
 
--   `_In_range_(low, hi)`
+- `_In_range_(low, hi)`
 
      `_Out_range_(low, hi)`
 
@@ -467,13 +467,13 @@ This article describes typical uses of annotations for simple function parameter
     > [!IMPORTANT]
     >  Although the names contain "in" and "out", the semantics of `_In_` and `_Out_` do **not** apply to these annotations.
 
--   `_Pre_equal_to_(expr)`
+- `_Pre_equal_to_(expr)`
 
      `_Post_equal_to_(expr)`
 
      The annotated value is exactly `expr`.  Equivalent to `_Satisfies_(_Curr_ == expr)` that is applied to the annotated object together with the appropriate pre-state or post-state conditions.
 
--   `_Struct_size_bytes_(size)`
+- `_Struct_size_bytes_(size)`
 
      Applies to a struct or class declaration.  Indicates that a valid object of that type may be larger than the declared type, with the number of bytes being given by `size`.  For example:
 

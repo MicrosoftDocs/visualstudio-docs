@@ -36,9 +36,9 @@ You can define validation constraints that test whether the model meets a condit
 ## Defining a Validation Extension  
  To create a validation extension for a UML designer, you must create a class that defines the validation constraints, and embed the class in a Visual Studio Integration Extension (VSIX). The VSIX acts as a container that can install the constraint. There are two alternative methods of defining a validation extension:  
   
--   **Create a validation extension in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your validation constraints with other types of extension such as menu commands, custom toolbox items, or gesture handlers. You can define several constraints in one class.  
+- **Create a validation extension in its own VSIX using a project template.** This is the quicker method. Use it if you do not want to combine your validation constraints with other types of extension such as menu commands, custom toolbox items, or gesture handlers. You can define several constraints in one class.  
   
--   **Create separate validation class and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your menu command expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
+- **Create separate validation class and VSIX projects.** Use this method if you want to combine several types of extension into the same VSIX. For example, if your menu command expects the model to observe specific constraints, you could embed it into the same VSIX as a validation method.  
   
 #### To create a validation extension in its own VSIX  
   
@@ -75,29 +75,29 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 #### To create a separate validation constraint in a class library project  
   
-1.  Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
+1. Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
   
-    1.  On the **File** menu, choose **New**, **Project**.  
+    1. On the **File** menu, choose **New**, **Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, and then in the middle column choose **Class Library**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, and then in the middle column choose **Class Library**.  
   
-2.  Unless your solution already contains one, create a VSIX project:  
+2. Unless your solution already contains one, create a VSIX project:  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the solution, choose  **Add**, **New Project**.  
+    1. In **Solution Explorer**, on the shortcut menu of the solution, choose  **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then choose **Extensibility**. In the middle column, click **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then choose **Extensibility**. In the middle column, click **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
-4.  In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component:  
+4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component:  
   
-    1.  On the **MetaData** tab, set a name for the VSIX.  
+    1. On the **MetaData** tab, set a name for the VSIX.  
   
-    2.  On the **Install Targets** tab, set the Visual Studio versions as the targets.  
+    2. On the **Install Targets** tab, set the Visual Studio versions as the targets.  
   
-    3.  On the **Assets** tab, choose a **New**, and in the dialog box, set:  
+    3. On the **Assets** tab, choose a **New**, and in the dialog box, set:  
   
          **Type** = **MEF Component**  
   
@@ -107,9 +107,9 @@ using Microsoft.VisualStudio.Uml.Classes;
   
 #### To define the Validation Class  
   
-1.  You do not need this procedure if you have created a validation class with its own VSIX from the validation project template.  
+1. You do not need this procedure if you have created a validation class with its own VSIX from the validation project template.  
   
-2.  In the validation class project, add references to the following [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] assemblies:  
+2. In the validation class project, add references to the following [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] assemblies:  
   
      `Microsoft.VisualStudio.Modeling.Sdk.[version]`  
   
@@ -119,11 +119,11 @@ using Microsoft.VisualStudio.Uml.Classes;
   
      `System.ComponentModel.Composition`  
   
-3.  Add a file to the class library project containing code that is similar to the following example.  
+3. Add a file to the class library project containing code that is similar to the following example.  
   
-    -   Each validation constraint is contained within a method that is marked with a specific attribute. The method accepts a parameter of a model element type. When validation is invoked, the validation framework will apply every validation method to every model element that conforms to its parameter type.  
+    - Each validation constraint is contained within a method that is marked with a specific attribute. The method accepts a parameter of a model element type. When validation is invoked, the validation framework will apply every validation method to every model element that conforms to its parameter type.  
   
-    -   You can place these methods in any classes and namespaces. Change them to your preference.  
+    - You can place these methods in any classes and namespaces. Change them to your preference.  
   
     ```  
     using System.Collections.Generic;  
@@ -172,48 +172,48 @@ using Microsoft.VisualStudio.Uml.Classes;
     }  
     ```  
   
-##  <a name="Executing"></a> Executing a Validation Constraint  
+## <a name="Executing"></a> Executing a Validation Constraint  
  For test purposes, execute your validation methods in debug mode.  
   
 #### To test the validation constraint  
   
-1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
+1. Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
      An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts.  
   
      **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start:  
   
-    -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
+    - If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
+    - In Solution Explorer, on the shortcut menu of the startup or only project, choose **Properties**. In the project properties editor, select the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], typically:  
   
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
-2.  In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
+2. In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
   
-3.  To set up a test for the sample constraint given in the previous section:  
+3. To set up a test for the sample constraint given in the previous section:  
   
-    1.  Open a class diagram.  
+    1. Open a class diagram.  
   
-    2.  Create a class, and add two attributes that have the same name.  
+    2. Create a class, and add two attributes that have the same name.  
   
-4.  On the shortcut menu anywhere on the diagram, choose **Validate**.  
+4. On the shortcut menu anywhere on the diagram, choose **Validate**.  
   
-5.  Any errors in the model will be reported in the errors window.  
+5. Any errors in the model will be reported in the errors window.  
   
-6.  Double-click the error report. If the elements mentioned in the report are visible on the screen, they will be highlighted.  
+6. Double-click the error report. If the elements mentioned in the report are visible on the screen, they will be highlighted.  
   
      **Troubleshooting**: If the **Validate** command does not appear on the menu, make sure that:  
   
-    -   The validation project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
+    - The validation project is listed as a MEF component in the **Assets** tab in **source.extensions.manifest** in the VSIX project.  
   
-    -   The correct `Export` and `ValidationMethod` attributes are attached to the validation methods.  
+    - The correct `Export` and `ValidationMethod` attributes are attached to the validation methods.  
   
-    -   `ValidationCategories.Menu` is included in the argument for the `ValidationMethod` attribute, and it is composed with other values using Logical OR (&#124;).  
+    - `ValidationCategories.Menu` is included in the argument for the `ValidationMethod` attribute, and it is composed with other values using Logical OR (&#124;).  
   
-    -   The parameters of all the `Import` and `Export` attributes are valid.  
+    - The parameters of all the `Import` and `Export` attributes are valid.  
   
-##  <a name="Implementing"></a> Evaluating the Constraint  
+## <a name="Implementing"></a> Evaluating the Constraint  
  The validation method should determine whether the validation constraint that you want to apply is true or false. If true, it should do nothing. If false, it should report an error using the methods provided by the `ValidationContext` parameter.  
   
 > [!NOTE]
@@ -343,7 +343,7 @@ IUseCase useCase = useCaseShape.Element;
 context.LogError(... , usecase);  
 ```  
   
-###  <a name="ContextCache"></a> Coordinating Multiple Validations  
+### <a name="ContextCache"></a> Coordinating Multiple Validations  
  When validation is invoked, for example by the user from a diagram menu, each validation method is applied to each model element. This means that, in a single invocation of the validation framework, the same method may be applied many times to different elements.  
   
  This presents a problem for validations that deal with the relationships between elements. For example, you might write a validation that starts from, say, a use case, and traverses the **include** relationships to verify that there are no loops. But when the method is applied to each use case in a model that has many **include** links, it is likely to repeatedly process the same areas of the model.  
@@ -357,26 +357,26 @@ context.LogError(... , usecase);
 |`context.GetValue<T>(name)`|Get a value.|  
 |`Context.GetValue<T>()`|Get a value of the specified type.|  
   
-##  <a name="Installing"></a> Installing and uninstalling an extension  
+## <a name="Installing"></a> Installing and uninstalling an extension  
  You can install a [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension both on your own computer and on other computers.  
   
 #### To install an extension  
   
-1.  On your computer, find the **.vsix** file that was built by your VSIX project.  
+1. On your computer, find the **.vsix** file that was built by your VSIX project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
+    1. In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
+    2. Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
-2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
+2. Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
+    - The target computer must have one of the editions of [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] that you specified in **source.extension.vsixmanifest**.  
   
-3.  On the target computer, open the **.vsix** file.  
+3. On the target computer, open the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+4. Start or restart [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
 #### To uninstall an extension  
   
@@ -390,7 +390,7 @@ context.LogError(... , usecase);
   
    *%LocalAppData%* **\Microsoft\VisualStudio\\[version]\Extensions**  
   
-##  <a name="Example"></a> Example  
+## <a name="Example"></a> Example  
  This example finds loops in the Dependency relationship between elements.  
   
  It will validate both on save and on the validate menu command.  

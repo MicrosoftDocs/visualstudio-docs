@@ -39,13 +39,13 @@ This topic addresses some problems that you might encounter when you create laye
   
 #### An old version of my validation results appears, or my validation method is not called.  
   
-1.  In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], on the **Build** menu, click **Clean Solution**. This clears the cached results of the previous validation analysis.  
+1. In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], on the **Build** menu, click **Clean Solution**. This clears the cached results of the previous validation analysis.  
   
-2.  Make sure that the layers in your model are associated with code elements, and that there is at least one dependency link in the model. Validation is not invoked if there is nothing to validate.  
+2. Make sure that the layers in your model are associated with code elements, and that there is at least one dependency link in the model. Validation is not invoked if there is nothing to validate.  
   
-3.  Regular breakpoints might not work in a validation method, because it runs in a separate process. You must insert a call to `System.Diagnostics.Debugger.Launch()` if you want to step through your method.  
+3. Regular breakpoints might not work in a validation method, because it runs in a separate process. You must insert a call to `System.Diagnostics.Debugger.Launch()` if you want to step through your method.  
   
-4.  In **source.extension.vsixmanifest** in your layer validation project, make sure that you have added both a **MEF Component** item and a **Custom Extension Type** item under **Content**.  
+4. In **source.extension.vsixmanifest** in your layer validation project, make sure that you have added both a **MEF Component** item and a **Custom Extension Type** item under **Content**.  
   
 ## See Also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)

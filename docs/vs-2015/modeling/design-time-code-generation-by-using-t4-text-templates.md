@@ -36,17 +36,17 @@ Design-time T4 text templates let you generate program code and other files in y
   
 #### To create a design-time T4 template in Visual Studio  
   
-1.  Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project, or open an existing one.  
+1. Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project, or open an existing one.  
   
      For example, on the **File** menu, choose **New**, **Project**.  
   
-2.  Add a text template file to your project and give it a name that has the extension **.tt**.  
+2. Add a text template file to your project and give it a name that has the extension **.tt**.  
   
      To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add**, **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.  
   
      Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.  
   
-3.  Open the file. It will already contain the following directives:  
+3. Open the file. It will already contain the following directives:  
   
     ```  
     <#@ template hostspecific="false" language="C#" #>  
@@ -55,17 +55,17 @@ Design-time T4 text templates let you generate program code and other files in y
   
      If you added the template to a [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] project, the language attribute will be "`VB`".  
   
-4.  Add some text at the end of the file. For example:  
+4. Add some text at the end of the file. For example:  
   
     ```  
     Hello, world!  
     ```  
   
-5.  Save the file.  
+5. Save the file.  
   
      You might see a **Security Warning** message box that asks you to confirm that you want to run the template. Click **OK**.  
   
-6.  In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.  
+6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.  
   
     > [!NOTE]
     >  If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.  
@@ -144,9 +144,9 @@ Design-time T4 text templates let you generate program code and other files in y
   
 #### To generate program code or resources  
   
-1.  Change the output directive to generate a file of the appropriate type, such as .cs, .vb, .resx, or .xml.  
+1. Change the output directive to generate a file of the appropriate type, such as .cs, .vb, .resx, or .xml.  
   
-2.  Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:  
+2. Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:  
   
     ```csharp  
   
@@ -179,7 +179,7 @@ Design-time T4 text templates let you generate program code and other files in y
   
     ```  
   
-3.  Save the file and inspect the generated file, which now contains the following code:  
+3. Save the file and inspect the generated file, which now contains the following code:  
   
     ```  
     class MyGeneratedClass {  
@@ -289,7 +289,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 > [!TIP]
 >  A text template runs in its own app domain, and services are accessed by marshaling. In this circumstance, GetCOMService() is more reliable than GetService().  
   
-##  <a name="Regenerating"></a> Regenerating the code automatically  
+## <a name="Regenerating"></a> Regenerating the code automatically  
  Typically, several files in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution are generated with one input model. Each file is generated from its own template, but the templates all refer to the same model.  
   
  If the source model changes, you should re-run all the templates in the solution. To do this manually, choose **Transform All Templates** on the **Build** menu.  
@@ -314,25 +314,25 @@ Error("An error message");
 Warning("A warning message");  
 ```  
   
-##  <a name="Converting"></a> Converting an existing file to a template  
+## <a name="Converting"></a> Converting an existing file to a template  
  A useful feature of templates is that they look very much like the files that they generate, together with some inserted program code. This suggests a useful method of creating a template. First create an ordinary file as a prototype, such as a [!INCLUDE[csprcs](../includes/csprcs-md.md)] file, and then gradually introduce generation code that varies the resulting file.  
   
 #### To convert an existing file to a design-time template  
   
-1.  To your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project, add a file of the type that you want to generate, such as a `.cs`, `.vb`, or `.resx` file.  
+1. To your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project, add a file of the type that you want to generate, such as a `.cs`, `.vb`, or `.resx` file.  
   
-2.  Test the new file to make sure that it works.  
+2. Test the new file to make sure that it works.  
   
-3.  In Solution Explorer, change the file name extension to **.tt**.  
+3. In Solution Explorer, change the file name extension to **.tt**.  
   
-4.  Verify the following properties of the **.tt** file:  
+4. Verify the following properties of the **.tt** file:  
   
     |||  
     |-|-|  
     |**Custom Tool =**|**TextTemplatingFileGenerator**|  
     |**Build Action =**|**None**|  
   
-5.  Insert the following lines at the beginning of the file:  
+5. Insert the following lines at the beginning of the file:  
   
     ```  
     <#@ template debug="false" hostspecific="false" language="C#" #>  
@@ -343,13 +343,13 @@ Warning("A warning message");
   
      Set the `extension` attribute to the file name extension for the type of file that you want to generate, for example `.cs`, `.resx`, or `.xml`.  
   
-6.  Save the file.  
+6. Save the file.  
   
      A subsidiary file is created, with the specified extension. Its properties are correct for the type of file. For example, the **Build Action** property of a .cs file would be **Compile**.  
   
      Verify that the generated file contains the same content as the original file.  
   
-7.  Identify a part of the file that you want to vary. For example, a part that appears only under certain conditions, or a part that is repeated, or where the specific values vary. Insert generating code. Save the file and verify that the subsidiary file is correctly generated. Repeat this step.  
+7. Identify a part of the file that you want to vary. For example, a part that appears only under certain conditions, or a part that is repeated, or where the specific values vary. Insert generating code. Save the file and verify that the subsidiary file is correctly generated. Repeat this step.  
   
 ## Guidelines for Code Generation  
  Please see [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md).  

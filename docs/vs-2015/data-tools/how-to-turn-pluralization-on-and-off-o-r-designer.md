@@ -22,18 +22,18 @@ By default, when you drag database objects that have names ending in s or ies fr
   
 ### To turn pluralization on and off  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, expand **Database Tools**.  
+2. In the **Options** dialog box, expand **Database Tools**.  
   
 > [!NOTE]
 >  Select **Show all settings** if the **Database Tools** node is not visible.  
   
-1.  Click **O/R Designer**.  
+1. Click **O/R Designer**.  
   
-2.  Set **Pluralization of names** to **Enabled** = **False** to set the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] so that it does not change class names.  
+2. Set **Pluralization of names** to **Enabled** = **False** to set the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] so that it does not change class names.  
   
-3.  Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+3. Set **Pluralization of names** to **Enabled** = **True** to apply pluralization rules to the class names of objects added to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

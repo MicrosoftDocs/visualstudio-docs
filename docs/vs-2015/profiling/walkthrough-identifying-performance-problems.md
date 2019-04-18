@@ -24,13 +24,13 @@ This walkthrough demonstrates how to profile an application to identify performa
   
  In this walkthrough, you will follow these steps:  
   
--   Profile an application by using the sampling method.  
+- Profile an application by using the sampling method.  
   
--   Analyze sampled profiling results to locate and fix a performance issue.  
+- Analyze sampled profiling results to locate and fix a performance issue.  
   
--   Profile an application by using the instrumentation method.  
+- Profile an application by using the instrumentation method.  
   
--   Analyze instrumented profiling results to locate and fix a performance issue.  
+- Analyze instrumented profiling results to locate and fix a performance issue.  
   
 ## Prerequisites  
   
@@ -45,29 +45,29 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 #### To profile an application by using the sampling method  
   
-1.  Open [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] with Administrator privileges. Running as an administrator is required for profiling.  
+1. Open [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] with Administrator privileges. Running as an administrator is required for profiling.  
   
-2.  Open the PeopleTrax solution.  
+2. Open the PeopleTrax solution.  
   
      The PeopleTrax solution now populates Solution Explorer.  
   
-3.  Set the project configuration setting to **Release**.  
+3. Set the project configuration setting to **Release**.  
   
      You should use a release build to detect performance problems in your application. A release build is recommended for profiling because a debug build has additional information compiled into it that might adversely affect performance and do not illustrate performance issues accurately.  
   
-4.  On the **Analyze** menu, click **Launch Performance Wizard**.  
+4. On the **Analyze** menu, click **Launch Performance Wizard**.  
   
      The Performance Wizard appears.  
   
-5.  Make sure **CPU Sampling (recommended)** is selected and then click **Next**.  
+5. Make sure **CPU Sampling (recommended)** is selected and then click **Next**.  
   
-6.  In **Which application would you like to target for profiling**, select PeopleTrax, and then click **Next**.  
+6. In **Which application would you like to target for profiling**, select PeopleTrax, and then click **Next**.  
   
      [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] builds the project and starts to profile the application. The **PeopleTrax** application window appears.  
   
-7.  Click **Get People**.  
+7. Click **Get People**.  
   
-8.  Click **ExportData**.  
+8. Click **ExportData**.  
   
      Notepad opens and displays a new file that contains the exported data from **PeopleTrax**.  
   
@@ -77,23 +77,23 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 #### To analyze sampled profiling results  
   
-1.  The Summary view displays a timeline of the CPU utilization over the course of the profiling run, the **Hot Path** list that represents the branch of the application's call tree that was most active, and a list of the **Functions Doing Most Individual Work** that shows the functions that were most heavily sampled while executing code in their own function body.  
+1. The Summary view displays a timeline of the CPU utilization over the course of the profiling run, the **Hot Path** list that represents the branch of the application's call tree that was most active, and a list of the **Functions Doing Most Individual Work** that shows the functions that were most heavily sampled while executing code in their own function body.  
   
      Examine the **Hot Path** list and notice that the PeopleNS.People.GetNames method is the PeopleTrax function closest to the end of the list. Its position makes it a good candidate for analysis. Click the function name to display details of GetNames in the **Function Details** view.  
   
-2.  The **Function Details** view contains two windows. The cost distribution window provides a graphical view of the work done by the function, the work done by the functions that it called, and the contribution of functions that called the function to the number of instances that were sampled. You can change the function that is the focus of the view by clicking a function name. For example, you can click PeopleNS.People.GetPeople to make GetPeople the selected function.  
+2. The **Function Details** view contains two windows. The cost distribution window provides a graphical view of the work done by the function, the work done by the functions that it called, and the contribution of functions that called the function to the number of instances that were sampled. You can change the function that is the focus of the view by clicking a function name. For example, you can click PeopleNS.People.GetPeople to make GetPeople the selected function.  
   
      The **Function Code View** window shows you the source code for the function if it is available and highlights the most expensive lines in the selected function. When GetNames is selected, you can see that this function reads a string from the application resources and then uses a <xref:System.IO.StringReader> to add each line in the string to an <xref:System.Collections.ArrayList>. There is no obvious way to optimize this function.  
   
-3.  Because PeopleNS.People.GetPeople is the only caller of GetNames, click GetPeople in the cost distribution window to examine its code. This method returns an <xref:System.Collections.ArrayList> of PersonInformationNS.PersonInformation objects from the names of people and companies produced by GetNames. However, GetNames is called twice every time that a PersonInformation object is created. You can see that the method can be easily optimized by creating the lists only once at the start of the method and indexing into those lists during the PersonInformation creation loop.  
+3. Because PeopleNS.People.GetPeople is the only caller of GetNames, click GetPeople in the cost distribution window to examine its code. This method returns an <xref:System.Collections.ArrayList> of PersonInformationNS.PersonInformation objects from the names of people and companies produced by GetNames. However, GetNames is called twice every time that a PersonInformation object is created. You can see that the method can be easily optimized by creating the lists only once at the start of the method and indexing into those lists during the PersonInformation creation loop.  
   
-4.  An alternative version of GetPeople is provided with the sample application code and you can call the optimized function by adding a conditional compilation symbol to the build properties. In the Solution Explorer window, right-click the People project and then click **Properties**. Click **Build** on the property page menu and then type **OPTIMIZED_GETPEOPLE** in the Conditional compilation symbol text box. The optimized version of GetPeople replaces the original method in the next build.  
+4. An alternative version of GetPeople is provided with the sample application code and you can call the optimized function by adding a conditional compilation symbol to the build properties. In the Solution Explorer window, right-click the People project and then click **Properties**. Click **Build** on the property page menu and then type **OPTIMIZED_GETPEOPLE** in the Conditional compilation symbol text box. The optimized version of GetPeople replaces the original method in the next build.  
   
-5.  Rerun the performance session. On the Performance Explorer toolbar, click **Launch with Profiling**. Click **Get People** and then click **Export Data**. Close the Notepad window that appears and then close the People Trax application.  
+5. Rerun the performance session. On the Performance Explorer toolbar, click **Launch with Profiling**. Click **Get People** and then click **Export Data**. Close the Notepad window that appears and then close the People Trax application.  
   
      A new profiling data file is generated, and a **Summary** view for the new data appears in the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] main window.  
   
-6.  To compare the two profiling runs, select the two data files in the Performance Explorer, right-click the files, and then click **Compare Performance Reports**. A Comparison Report window appears in the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] main window. The **Delta** column shows the change in the performance value of functions from the earlier **Baseline** value to the later **Comparison** value. You can select the values to compare from the **Column** drop down list. Select **Inclusive Samples %**.  
+6. To compare the two profiling runs, select the two data files in the Performance Explorer, right-click the files, and then click **Compare Performance Reports**. A Comparison Report window appears in the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] main window. The **Delta** column shows the change in the performance value of functions from the earlier **Baseline** value to the later **Comparison** value. You can select the values to compare from the **Column** drop down list. Select **Inclusive Samples %**.  
   
      Notice that the GetPeople and GetNames methods show considerable performance gains.  
   
@@ -104,25 +104,25 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 #### To profile an existing application by using the instrumentation method  
   
-1.  If necessary, open the PeopleTrax application in Visual Studio.  
+1. If necessary, open the PeopleTrax application in Visual Studio.  
   
      Make sure that you are running as Administrator and that the build configuration for the solution is set to **Release**.  
   
-2.  In Performance Explorer, click **Instrumentation**.  
+2. In Performance Explorer, click **Instrumentation**.  
   
-3.  On the Performance Explorer toolbar, click the **Launch with Profiling**.  
+3. On the Performance Explorer toolbar, click the **Launch with Profiling**.  
   
      The profiler builds the project and starts to profile the application. The PeopleTrax application window appears.  
   
-4.  Click **Get People**.  
+4. Click **Get People**.  
   
      The PeopleTrax data grid populates with data.  
   
-5.  Wait for about 10 seconds and then click **Export Data**.  
+5. Wait for about 10 seconds and then click **Export Data**.  
   
      **Notepad** starts and displays a new file that contains a list of people from PeopleTrax. Waiting enables you to more easily identify the data export procedure for filtering.  
   
-6.  Close **Notepad**, and then close **PeopleTrax** application.  
+6. Close **Notepad**, and then close **PeopleTrax** application.  
   
      [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] generates a performance session report (*.vsp).  
   

@@ -43,26 +43,26 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
   
 ### To obtain query string information from a ClickOnce application  
   
-1.  Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` statements for System.Web, System.Collections.Specialized, and System.Deployment.Application.  
+1. Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` statements for System.Web, System.Collections.Specialized, and System.Deployment.Application.  
   
      [!code-csharp[ClickOnceQueryString#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnceQueryString/CS/Form1.cs#1)]
      [!code-vb[ClickOnceQueryString#1](../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceQueryString/VB/Form1.vb#1)]  
   
-2.  Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.  
+2. Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.  
   
 ### To enable query string passing in a ClickOnce application with MageUI.exe  
   
-1.  Open the .NET Command Prompt and type:  
+1. Open the .NET Command Prompt and type:  
   
     ```  
     MageUI  
     ```  
   
-2.  From the **File** menu, select **Open**, and open the deployment manifest for your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, which is the file ending in the `.application` extension.  
+2. From the **File** menu, select **Open**, and open the deployment manifest for your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, which is the file ending in the `.application` extension.  
   
-3.  Select the **Deployment Options** panel in the left-hand navigation window, and select the **Allow URL parameters to be passed to application** check box.  
+3. Select the **Deployment Options** panel in the left-hand navigation window, and select the **Allow URL parameters to be passed to application** check box.  
   
-4.  From the **File** menu, select **Save**.  
+4. From the **File** menu, select **Save**.  
   
 > [!NOTE]
 >  Alternately, you can enable query string passing in [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]. Select the **Allow URL parameters to be passed to application** check box, which can be found by opening the **Project Properties**, selecting the **Publish** tab, clicking the **Options** button, and then selecting **Manifests**.  

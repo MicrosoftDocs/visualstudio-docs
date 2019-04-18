@@ -25,34 +25,34 @@ You can also create plug-ins for load tests. For more information, see [How to: 
 
 ## To use the WebTesting namespace
 
-1.  Open a web performance and load test project that contains a web performance test.
+1. Open a web performance and load test project that contains a web performance test.
 
-2.  Add a Visual C# or a Visual Basic class library project to your test solution.
+2. Add a Visual C# or a Visual Basic class library project to your test solution.
 
-3.  Add a reference in the web performance and load test project to the class library project.
+3. Add a reference in the web performance and load test project to the class library project.
 
-4.  Add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework DLL in the class library project.
+4. Add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework DLL in the class library project.
 
-5.  In the class file that is located in the class library project, add a `using` statement for the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace.
+5. In the class file that is located in the class library project, add a `using` statement for the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace.
 
-6.  Create a class that implements the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin> interface.
+6. Create a class that implements the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin> interface.
 
-7.  Build the project.
+7. Build the project.
 
-8.  Add the new web performance test plug-in by using the Web Performance Test Editor:
+8. Add the new web performance test plug-in by using the Web Performance Test Editor:
 
-    1.  Choose **Add Web Test Plug-in** on the toolbar.
+    1. Choose **Add Web Test Plug-in** on the toolbar.
 
          The **Add Web Test Plug-in** dialog box is displayed.
 
-    2.  Under **Select a plug-in**, select your web performance test plug-in class.
+    2. Under **Select a plug-in**, select your web performance test plug-in class.
 
-    3.  In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
+    3. In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
 
         > [!NOTE]
         > You can expose as many properties as you want from your plug-ins; just make them public, settable, and of a base type such as Integer, Boolean, or String. You can also edit the web performance test plug-in properties later by using the Properties window.
 
-    4.  Choose **OK**.
+    4. Choose **OK**.
 
 9. Run your web performance test.
 

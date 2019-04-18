@@ -47,7 +47,7 @@ ms.workload:
 > [!NOTE]
 > The Office development tools are included with certain editions of Visual Studio. For more information, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
-##  <a name="DocLevel"></a> Document-level customizations
+## <a name="DocLevel"></a> Document-level customizations
  The **Office** node in the **New Project** dialog box provides the following project templates to get you started creating document-level customizations for Word and Excel:
 
 - **Word 2013 and 2016 VSTO Document**
@@ -75,17 +75,17 @@ ms.workload:
 
  For information about getting started with these project types, see the following topics:
 
--   [Program document-level customizations](../vsto/programming-document-level-customizations.md)
+- [Program document-level customizations](../vsto/programming-document-level-customizations.md)
 
--   [Word solutions](../vsto/word-solutions.md)
+- [Word solutions](../vsto/word-solutions.md)
 
--   [Excel solutions](../vsto/excel-solutions.md)
+- [Excel solutions](../vsto/excel-solutions.md)
 
--   [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
+- [Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)
 
--   [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
+- [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)
 
-##  <a name="AppLevel"></a> VSTO Add-ins
+## <a name="AppLevel"></a> VSTO Add-ins
  The **Office/SharePoint** node in the **New Project** dialog box provides the following project templates to get you started creating VSTO Add-ins.
 
 - **Excel 2013 and 2016 VSTO Add-in**
@@ -151,7 +151,7 @@ ms.workload:
 |Users can open and modify a document, unless it is set to be read-only. Any saved changes are kept in the original.|Users can open a template to create a local copy as a new document. They cannot modify the original unless they are given special permissions.|
 |When opened, the document raises the <xref:Microsoft.Office.Tools.Word.Document.Open> event.|When opened, the template raises the <xref:Microsoft.Office.Tools.Word.Document.New> event.|
 
-##  <a name="Limitations"></a> Limitations of global templates and Excel Add-ins (.xla Files)
+## <a name="Limitations"></a> Limitations of global templates and Excel Add-ins (.xla Files)
  Documents, workbooks, and templates might not work correctly as global templates or Excel VSTO Add-ins (.xla files).
 
 ## Word templates

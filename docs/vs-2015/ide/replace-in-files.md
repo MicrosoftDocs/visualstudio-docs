@@ -29,9 +29,9 @@ Replace in Files** allows you to search the code of a specified set of files for
   
 ### To display Replace in Files  
   
-1.  On the **Edit** menu, expand **Find and Replace**.  
+1. On the **Edit** menu, expand **Find and Replace**.  
   
-2.  Choose **Replace in Files**.  
+2. Choose **Replace in Files**.  
   
      — or —  
   

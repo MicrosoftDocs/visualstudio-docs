@@ -36,7 +36,7 @@ ms.workload:
 
 ### To update the in-memory data source at runtime
 
--   Call the <xref:System.Windows.Forms.Binding.WriteValue%2A> method of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source.
+- Call the <xref:System.Windows.Forms.Binding.WriteValue%2A> method of the <xref:System.Windows.Forms.Binding> object that binds the control to the data source.
 
      The following example saves changes made to a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on an Excel worksheet to the data source. This example assumes that you have a <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `namedRange1` with its <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property bound to a field in a data source.
 
@@ -64,31 +64,31 @@ ms.workload:
 
 #### To set a control to automatically update the in-memory data source by using the designer
 
-1.  In Visual Studio, open the Word document or Excel workbook in the designer.
+1. In Visual Studio, open the Word document or Excel workbook in the designer.
 
-2.  Click the control that you want to automatically update the data source.
+2. Click the control that you want to automatically update the data source.
 
-3.  In the **Properties** window, expand the **(DataBindings)** property.
+3. In the **Properties** window, expand the **(DataBindings)** property.
 
-4.  Next to the **(Advanced)** property, click the ellipsis button (![VisualStudioEllipsesButton screenshot](../vsto/media/vbellipsesbutton.png "VisualStudioEllipsesButton screenshot")).
+4. Next to the **(Advanced)** property, click the ellipsis button (![VisualStudioEllipsesButton screenshot](../vsto/media/vbellipsesbutton.png "VisualStudioEllipsesButton screenshot")).
 
-5.  In the **Formatting and Advanced Binding** dialog box, click the **Data Source Update Mode** drop-down list and select one of the following values:
+5. In the **Formatting and Advanced Binding** dialog box, click the **Data Source Update Mode** drop-down list and select one of the following values:
 
-    -   To update the data source when the control is validated, select **OnValidation**.
+    - To update the data source when the control is validated, select **OnValidation**.
 
-    -   To update the data source when the value of the data-bound property of the control changes, select **OnPropertyChanged**.
+    - To update the data source when the value of the data-bound property of the control changes, select **OnPropertyChanged**.
 
         > [!NOTE]
         >  The **OnPropertyChanged** option does not apply to Word host controls, because Word does not offer document-change or control-change notifications. However, this option can be used for Windows Forms controls on Word documents.
 
-6.  Close the **Formatting and Advanced Binding** dialog box.
+6. Close the **Formatting and Advanced Binding** dialog box.
 
 ## Update the database
  If the in-memory data source is associated with a database, you must update the database with the changes to the data source. For more information about updating a database, see [Save data back to the database](../data-tools/save-data-back-to-the-database.md)  and [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md) .
 
 ### To update the database
 
-1.  Call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method of the <xref:System.Windows.Forms.BindingSource> for the control.
+1. Call the <xref:System.Windows.Forms.BindingSource.EndEdit%2A> method of the <xref:System.Windows.Forms.BindingSource> for the control.
 
      The <xref:System.Windows.Forms.BindingSource> is automatically generated when you add a data-bound control to a document or workbook at design time. The <xref:System.Windows.Forms.BindingSource> connects the control to the typed dataset in your project. For more information, see [BindingSource component overview](/dotnet/framework/winforms/controls/bindingsource-component-overview).
 
@@ -97,7 +97,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreDataExcel#20](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#20)]
      [!code-vb[Trin_VstcoreDataExcel#20](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#20)]
 
-2.  Call the `Update` method of the generated TableAdapter in your project.
+2. Call the `Update` method of the generated TableAdapter in your project.
 
      The TableAdapter is automatically generated when you add a data-bound control to a document or workbook at design time. The TableAdapter connects the typed dataset in your project to the database. For more information, see [TableAdapter overview](../data-tools/fill-datasets-by-using-tableadapters.md#tableadapter-overview).
 

@@ -21,30 +21,30 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
 ## Prerequisites  
  To use Visual Studio Tools for Unity, you'll need:  
   
--   A version of **Visual Studio** that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. You can download Visual Studio Community for free.  
+- A version of **Visual Studio** that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. You can download Visual Studio Community for free.  
   
      [Download Visual Studio Community](http://www.visualstudio.com/downloads/download-visual-studio-vs)  
   
--   **Unity** version 4.0.0 or higher; **Unity** version 5.2.0 or higher to take advantage of built-in support for Visual Studio Tools for Unity version 2.1 or higher.  
+- **Unity** version 4.0.0 or higher; **Unity** version 5.2.0 or higher to take advantage of built-in support for Visual Studio Tools for Unity version 2.1 or higher.  
   
      [Download Unity](https://unity3d.com/get-unity/download)  
   
 ## Install Visual Studio Tools for Unity  
  Download and install Visual Studio Tools for Unity from the Visual Studio Gallery. You'll need to install the right package for your version of Visual Studio. Make sure to install Visual Studio Tools for Unity version 2.1 or higher to take advantage of built-in support for VSTU in Unity 5.2 or higher.  
   
--   For Visual Studio 2015 Community, Visual Studio 2015 Professional, or Visual Studio 2015 Enterprise:  
+- For Visual Studio 2015 Community, Visual Studio 2015 Professional, or Visual Studio 2015 Enterprise:  
   
      [Download Visual Studio 2015 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)  
   
--   For Visual Studio 2013 Community, Visual Studio 2013 Professional, or Visual Studio 2013 Premium:  
+- For Visual Studio 2013 Community, Visual Studio 2013 Professional, or Visual Studio 2013 Premium:  
   
      [Download Visual Studio 2013 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2)  
   
--   For Visual Studio 2012 Professional or Visual Studio 2012 Premium:  
+- For Visual Studio 2012 Professional or Visual Studio 2012 Premium:  
   
      [Download Visual Studio 2012 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/7ab11d2a-f413-4ed6-b3de-ff1d05157714)  
   
--   For Visual Studio 2010 Professional or Visual Studio 2010 Premium:  
+- For Visual Studio 2010 Professional or Visual Studio 2010 Premium:  
   
      [Download Visual Studio 2010 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/6e536faa-ce73-494a-a746-6a14753015f1)  
   

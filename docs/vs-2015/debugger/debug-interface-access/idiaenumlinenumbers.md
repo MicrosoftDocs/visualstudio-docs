@@ -43,15 +43,15 @@ IDiaEnumLineNumbers : IUnknown
 ## Notes for Callers  
  This interface is obtained by calling one of the following methods in the [IDiaSession](../../debugger/debug-interface-access/idiasession.md) interface:  
   
--   [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)  
+- [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)  
   
--   [IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)  
+- [IDiaSession::findLinesByAddr](../../debugger/debug-interface-access/idiasession-findlinesbyaddr.md)  
   
--   [IDiaSession::findLinesByRVA](../../debugger/debug-interface-access/idiasession-findlinesbyrva.md)  
+- [IDiaSession::findLinesByRVA](../../debugger/debug-interface-access/idiasession-findlinesbyrva.md)  
   
--   [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)  
+- [IDiaSession::findLinesByVA](../../debugger/debug-interface-access/idiasession-findlinesbyva.md)  
   
--   [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
+- [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)  
   
 ## Example  
  This example shows how to obtain the `IDiaEnumLineNumbers` interface from a session. In this case, the example shows how to get the line number enumeration for a function (represented by `pSymbol`). For a more complete example of using line numbers, see the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) interface.  

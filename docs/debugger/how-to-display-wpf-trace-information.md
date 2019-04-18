@@ -24,23 +24,23 @@ ms.workload:
 
 ### To enable or customize WPF trace information
 
-1.  On the **Tools** menu, select **Options**.
+1. On the **Tools** menu, select **Options**.
 
-2.  In the **Options** dialog box, in the box on the left, open the **Debugging** node.
+2. In the **Options** dialog box, in the box on the left, open the **Debugging** node.
 
-3.  Under **Debugging**, click **Output Window**.
+3. Under **Debugging**, click **Output Window**.
 
-4.  Under **General Output Settings**, select **All debug output**.
+4. Under **General Output Settings**, select **All debug output**.
 
-5.  In the box on the right, look for **WPF Trace Settings**.
+5. In the box on the right, look for **WPF Trace Settings**.
 
-6.  Open the **WPF Trace Settings** node.
+6. Open the **WPF Trace Settings** node.
 
-7.  Under **WPF Trace Settings**, click the category of settings that you want to enable (for example, **Data Binding**).
+7. Under **WPF Trace Settings**, click the category of settings that you want to enable (for example, **Data Binding**).
 
      A drop-down list control appears in the Settings column next to **Data Binding** or whatever category you clicked.
 
-8.  Click the drop-down list and select the type of trace information that you want to see: **All**, **Critical**, **Error**, **Warning**, **Information**, **Verbose**, or **ActivityTracing**.
+8. Click the drop-down list and select the type of trace information that you want to see: **All**, **Critical**, **Error**, **Warning**, **Information**, **Verbose**, or **ActivityTracing**.
 
      **Critical** enables tracing of Critical events only.
 
@@ -60,23 +60,23 @@ ms.workload:
 
 ### To disable WPF trace information
 
-1.  On the **Tools** menu, select **Options**.
+1. On the **Tools** menu, select **Options**.
 
-2.  In the **Options** dialog box, in the box on the left, open the **Debugging** node.
+2. In the **Options** dialog box, in the box on the left, open the **Debugging** node.
 
-3.  Under **Debugging**, click **Output Window**.
+3. Under **Debugging**, click **Output Window**.
 
-4.  In the box on the right, look for **WPF Trace Settings**.
+4. In the box on the right, look for **WPF Trace Settings**.
 
-5.  Open the **WPF Trace Settings** node.
+5. Open the **WPF Trace Settings** node.
 
-6.  Under **WPF Trace Settings**, click the category of settings that you want to enable (for example, **Data Binding**).
+6. Under **WPF Trace Settings**, click the category of settings that you want to enable (for example, **Data Binding**).
 
      A drop-down list control appears in the Settings column next to **Data Binding** or whatever category you clicked.
 
-7.  Click the drop-down list and select **Off**.
+7. Click the drop-down list and select **Off**.
 
-8.  Click **OK**.
+8. Click **OK**.
 
 ## See Also
 - [Debugging WPF](../debugger/debugging-wpf.md)

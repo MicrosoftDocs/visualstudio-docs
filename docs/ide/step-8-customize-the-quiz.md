@@ -14,14 +14,14 @@ In the last part of the tutorial, you'll explore some ways to customize the quiz
 
 ## To customize the quiz
 
--   When only five seconds remain in a quiz, turn the **timeLabel** control red by setting its **BackColor** property (`timeLabel.BackColor = Color.Red;`). Reset the color when the quiz is over.
+- When only five seconds remain in a quiz, turn the **timeLabel** control red by setting its **BackColor** property (`timeLabel.BackColor = Color.Red;`). Reset the color when the quiz is over.
 
--   Give the quiz taker a hint by playing a sound when the correct answer is entered into a <xref:System.Windows.Forms.NumericUpDown> control. (You must write an event handler for each control's <xref:System.Windows.Forms.NumericUpDown.ValueChanged> event, which fires whenever the quiz taker changes the control's value.)
+- Give the quiz taker a hint by playing a sound when the correct answer is entered into a <xref:System.Windows.Forms.NumericUpDown> control. (You must write an event handler for each control's <xref:System.Windows.Forms.NumericUpDown.ValueChanged> event, which fires whenever the quiz taker changes the control's value.)
 
 ## To continue or review
 
--   To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
+- To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
--   To go to the next tutorial, see [Tutorial 3: Create a matching game](../ide/tutorial-3-create-a-matching-game.md).
+- To go to the next tutorial, see [Tutorial 3: Create a matching game](../ide/tutorial-3-create-a-matching-game.md).
 
--   To return to the previous tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).
+- To return to the previous tutorial step, see [Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md).

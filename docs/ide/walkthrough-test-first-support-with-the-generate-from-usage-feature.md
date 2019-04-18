@@ -44,13 +44,13 @@ This topic demonstrates how to use the [Generate From Usage](../ide/visual-cshar
 
 ### Add a reference to the Class Library project
 
-1.  In **Solution Explorer**, under your unit test project, right-click the **References** entry and choose **Add Reference**.
+1. In **Solution Explorer**, under your unit test project, right-click the **References** entry and choose **Add Reference**.
 
-2.  In the **Reference Manager** dialog box, select **Projects** and then select the class library project.
+2. In the **Reference Manager** dialog box, select **Projects** and then select the class library project.
 
-3.  Choose **OK** to close the **Reference Manager** dialog box.
+3. Choose **OK** to close the **Reference Manager** dialog box.
 
-4.  Save your solution. You are now ready to begin writing tests.
+4. Save your solution. You are now ready to begin writing tests.
 
 ### Generate a new class from a unit test
 
@@ -101,11 +101,11 @@ Now we'll create a test method that will generate a constructor stub to initiali
      [!code-csharp[VbTDDWalkthrough#2](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.cs)]
      [!code-vb[VbTDDWalkthrough#2](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.vb)]
 
-2.  Click the **Quick Actions** error light bulb under the red squiggle, and then click **Generate constructor in 'Automobile'**.
+2. Click the **Quick Actions** error light bulb under the red squiggle, and then click **Generate constructor in 'Automobile'**.
 
      In the `Automobile` class file, notice that the new constructor has examined the names of the local variables that are used in the constructor call, found properties that have the same names in the `Automobile` class, and supplied code in the constructor body to store the argument values in the `Model` and `TopSpeed` properties.
 
-3.  After you generate the new constructor, a wavy underline appears under the call to the default constructor in `DefaultAutomobileIsInitializedCorrectly`. The error message states that the `Automobile` class has no constructor that takes zero arguments. To generate an explicit default constructor that does not have parameters, click the **Quick Actions** error light bulb, and then click **Generate constructor in 'Automobile'**.
+3. After you generate the new constructor, a wavy underline appears under the call to the default constructor in `DefaultAutomobileIsInitializedCorrectly`. The error message states that the `Automobile` class has no constructor that takes zero arguments. To generate an explicit default constructor that does not have parameters, click the **Quick Actions** error light bulb, and then click **Generate constructor in 'Automobile'**.
 
 ### Generate a stub for a method
 Assume that the specification states that a new `Automobile` can be put into a `IsRunning` state if its `Model` and `TopSpeed` properties are set to something other than the default values.
@@ -115,15 +115,15 @@ Assume that the specification states that a new `Automobile` can be put into a `
      [!code-csharp[VbTDDWalkthrough#3](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.cs)]
      [!code-vb[VbTDDWalkthrough#3](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.vb)]
 
-2.  Click the **Quick Actions** error light bulb for the `myAuto.Start` method call and then click **Generate method 'Automobile.Start'**.
+2. Click the **Quick Actions** error light bulb for the `myAuto.Start` method call and then click **Generate method 'Automobile.Start'**.
 
-3.  Click the **Quick Actions** light bulb for the `IsRunning` property and then click **Generate property 'Automobile.IsRunning'**.
+3. Click the **Quick Actions** light bulb for the `IsRunning` property and then click **Generate property 'Automobile.IsRunning'**.
 
      The `Automobile` class now contains a method named `Start()` and a property named `IsRunning`.
 
 ### Run the tests
 
-1.  On the **Test** menu, choose **Run** > **All Tests**.
+1. On the **Test** menu, choose **Run** > **All Tests**.
 
      The **Run** > **All Tests** command runs all the tests in any test frameworks that are written for the current solution. In this case, there are two tests, and they both fail, as expected. The `DefaultAutomobileIsInitializedCorrectly` test fails because the `Assert.IsTrue` condition returns `False`. The `AutomobileWithModelNameCanStart` test fails because the `Start` method in the `Automobile` class throws an exception.
 
@@ -131,16 +131,16 @@ Assume that the specification states that a new `Automobile` can be put into a `
 
      ![Test results that failed](../ide/media/testsfailed.png)
 
-2.  In the **Test Results** window, double-click on each test result row to go to the location of each test.
+2. In the **Test Results** window, double-click on each test result row to go to the location of each test.
 
 ### Implement the source code
 
-1.  Add the following code to the default constructor so that the `Model`, `TopSpeed` and `IsRunning` properties are all initialized to their correct default values of `"Not specified"`, `-1`, and `False` (or `false` for C#).
+1. Add the following code to the default constructor so that the `Model`, `TopSpeed` and `IsRunning` properties are all initialized to their correct default values of `"Not specified"`, `-1`, and `False` (or `false` for C#).
 
      [!code-csharp[VbTDDWalkthrough#5](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.cs)]
      [!code-vb[VbTDDWalkthrough#5](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.vb)]
 
-2.  When the `Start` method is called, it should set the `IsRunning` flag to true only if the `Model` or `TopSpeed` properties are set to something other than their default value. Remove the `NotImplementedException` from the method body and add the following code.
+2. When the `Start` method is called, it should set the `IsRunning` flag to true only if the `Model` or `TopSpeed` properties are set to something other than their default value. Remove the `NotImplementedException` from the method body and add the following code.
 
      [!code-csharp[VbTDDWalkthrough#6](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.cs)]
      [!code-vb[VbTDDWalkthrough#6](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.vb)]

@@ -26,11 +26,11 @@ This section lists all the source control VSPackage-related interfaces in the [!
   
  Interfaces are:  
   
--   Required: The appropriate entity (source control VSPackage, Source Control Stub, project) must implement the interface.  
+- Required: The appropriate entity (source control VSPackage, Source Control Stub, project) must implement the interface.  
   
--   Recommended: The entity should implement this interface; otherwise, source control functionality may be limited.  
+- Recommended: The entity should implement this interface; otherwise, source control functionality may be limited.  
   
--   Optional: the entity can implement this interface to provide a richer feature set.  
+- Optional: the entity can implement this interface to provide a richer feature set.  
   
 |Interface|Purpose|Implemented by|Implement?|  
 |---------------|-------------|--------------------|----------------|  

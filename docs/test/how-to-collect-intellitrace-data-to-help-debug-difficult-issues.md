@@ -45,11 +45,11 @@ Before you perform the steps in this procedure, you must open your test settings
 
 ### To configure the data to collect with the IntelliTrace diagnostic data adapter
 
-1.  Select the role to use to collect IntelliTrace data.
+1. Select the role to use to collect IntelliTrace data.
 
-2.  Select **IntelliTrace**.
+2. Select **IntelliTrace**.
 
-3.  If you are adding IntelliTrace for a web client role or for an ASP.NET web application, you must also select **ASP.NET Client Proxy for IntelliTrace and Test Impact**.
+3. If you are adding IntelliTrace for a web client role or for an ASP.NET web application, you must also select **ASP.NET Client Proxy for IntelliTrace and Test Impact**.
 
      This proxy enables you to collect information about the http calls from a client to a web server for the IntelliTrace and Test Impact diagnostic data adapters.
 
@@ -58,22 +58,22 @@ Before you perform the steps in this procedure, you must open your test settings
     >
     > **runas /user:domain\name /profile cmd.exe**
 
-4.  Choose **Configure** for **IntelliTrace** to modify default IntelliTrace settings.
+4. Choose **Configure** for **IntelliTrace** to modify default IntelliTrace settings.
 
      The dialog box to configure the data that will be collected is displayed.
 
     > [!WARNING]
     > If you enable collecting IntelliTrace data, collecting code coverage data will not work.
 
-5.  Choose the **General** tab. Select **IntelliTrace events only** to record significant diagnostic events that have minimal impact on performance when you test.
+5. Choose the **General** tab. Select **IntelliTrace events only** to record significant diagnostic events that have minimal impact on performance when you test.
 
      -or-
 
      Select **IntelliTrace events and call information** to record diagnostic events and method level tracing that shows call information. This level of tracing might have performance impact when you run your tests.
 
-6.  To collect data from your ASP.NET application that is running on Internet Information Services, select **Collect data from ASP.NET applications that are running on Internet Information Services**. Set up and configure your test agent on the web server role. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+6. To collect data from your ASP.NET application that is running on Internet Information Services, select **Collect data from ASP.NET applications that are running on Internet Information Services**. Set up and configure your test agent on the web server role. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
-7.  Choose the **Modules** tab. Select either **Collect data from all modules except for the following** and use **Add** to add to the list of modules and **Remove** to remove a module. This option lets you include all the modules that are running on the system except the modules that you specify.
+7. Choose the **Modules** tab. Select either **Collect data from all modules except for the following** and use **Add** to add to the list of modules and **Remove** to remove a module. This option lets you include all the modules that are running on the system except the modules that you specify.
 
      -or-
 
@@ -82,7 +82,7 @@ Before you perform the steps in this procedure, you must open your test settings
     > [!NOTE]
     > If possible, select the specific processes that you want to monitor. This is recommended for optimum performance.
 
-8.  Choose the **Processes** tab. Select **Collect data from all processes except for the following** and use **Add** to add to the list of processes and **Remove** to remove a process. This option lets you include all the processes that are running on the system except the processes that you specify.
+8. Choose the **Processes** tab. Select **Collect data from all processes except for the following** and use **Add** to add to the list of processes and **Remove** to remove a process. This option lets you include all the processes that are running on the system except the processes that you specify.
 
      -or-
 

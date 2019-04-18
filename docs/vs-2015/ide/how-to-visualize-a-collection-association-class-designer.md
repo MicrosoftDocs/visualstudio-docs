@@ -24,11 +24,11 @@ Properties and fields that are collections of other types can be displayed on th
   
 ### To create a collection association  
   
-1.  In code, create a property or field whose type is itself a strongly-typed collection.  
+1. In code, create a property or field whose type is itself a strongly-typed collection.  
   
-2.  In the class diagram, expand the class so that properties and fields are shown.  
+2. In the class diagram, expand the class so that properties and fields are shown.  
   
-3.  In the class, right-click the field or property and choose **Show as Collection Association**.  
+3. In the class, right-click the field or property and choose **Show as Collection Association**.  
   
      The property or field is shown as an association line linking to the collected type.  
   

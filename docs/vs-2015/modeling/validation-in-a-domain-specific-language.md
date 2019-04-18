@@ -52,13 +52,13 @@ As the author of a domain-specific language (DSL), you can define validation con
   
 1. Enable validation in the **Editor\Validation** node:  
   
-   1.  Open **Dsl\DslDefinition.dsl**.  
+   1. Open **Dsl\DslDefinition.dsl**.  
   
-   2.  In DSL Explorer, expand the **Editor** node and select **Validation**.  
+   2. In DSL Explorer, expand the **Editor** node and select **Validation**.  
   
-   3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.  
+   3. In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.  
   
-   4.  Click **Transform All Templates** in the Solution Explorer toolbar.  
+   4. Click **Transform All Templates** in the Solution Explorer toolbar.  
   
 2. Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.  
   
@@ -68,7 +68,7 @@ As the author of a domain-specific language (DSL), you can define validation con
    [ValidationState(ValidationState.Enabled)]  
    ```  
   
-   -   By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
+   - By default, this attribute will also enable validation for derived classes. If you want to disable validation for a specific derived class, you can use `ValidationState.Disabled`.  
   
 4. Add validation methods to the classes. Each validation method can have any name, but have one parameter of type <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationContext>.  
   
@@ -298,7 +298,7 @@ namespace Company.FamilyTree
   
  The handlers are also called after Undo or Redo operations that affect the links or elements.  
   
-##  <a name="custom"></a> Custom Validation Categories  
+## <a name="custom"></a> Custom Validation Categories  
  In addition to the standard validation categories, such as Menu and Open, you can define your own categories. You can invoke these categories from program code. The user cannot invoke them directly.  
   
  A typical use for custom categories is to define a category that tests whether the model satisfies the preconditions of a particular tool.  
@@ -326,7 +326,7 @@ validationController.ValidateCustom
    "PreconditionsForGeneratePartsList");  
 ```  
   
-##  <a name="alternatives"></a> Alternatives to Validation  
+## <a name="alternatives"></a> Alternatives to Validation  
  Validation constraints report errors, but do not change the model. If, instead, you want to prevent the model becoming invalid, you can use other techniques.  
   
  However, these techniques are not recommended. It is usually better to let the user decide how to correct an invalid model.  

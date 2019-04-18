@@ -17,13 +17,13 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Removing nodes from a graph  
+- Removing nodes from a graph  
   
--   Adding nodes to a graph  
+- Adding nodes to a graph  
   
--   Setting node properties  
+- Setting node properties  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## Creating a flat color shader  
  You can implement a flat color shader by writing the color value of an RGB color constant to the final output color.  

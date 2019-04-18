@@ -16,7 +16,7 @@ Visual Studio Test Explorer can run any unit test framework that has developed a
   
  **Requirements**  
   
--   Visual Studio Enterprise, Visual Studio Professional  
+- Visual Studio Enterprise, Visual Studio Professional  
   
 ## Acquiring third-party frameworks  
  You can download and install many third-party unit test frameworks by using the Visual Studio Extension Manager, or from the Visual Studio Gallery on the MSDN website. Frameworks can also be downloaded from other sites such as the website of the framework.  

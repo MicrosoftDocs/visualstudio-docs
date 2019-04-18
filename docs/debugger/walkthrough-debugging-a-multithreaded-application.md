@@ -58,18 +58,18 @@ In the **Threads** window, you can examine and work with threads in the applicat
 
 ### To display the Threads window in break mode or run mode
 
--   While Visual Studio is in debug mode, select the **Debug** menu, point to **Windows**, and then select **Threads**.
+- While Visual Studio is in debug mode, select the **Debug** menu, point to **Windows**, and then select **Threads**.
 
 ### To display or hide a column
 
--   In the toolbar at the top of the **Threads** window, select **Columns**. Then, select or clear the name of the column that you want to display or hide.
+- In the toolbar at the top of the **Threads** window, select **Columns**. Then, select or clear the name of the column that you want to display or hide.
 
 ## Display flagged threads
  You can flag a thread that you want to give special attention by marking it with an icon in the **Threads** window. For more information, see [How to: Flag and Unflag threads](../debugger/how-to-flag-and-unflag-threads.md). In the **Threads** window, you can choose to display all the threads or only the flagged threads.
 
 ### To display only flagged threads
 
--   Choose **Show Flagged Threads Only** in the toolbar at the top of the **Threads** window. (If it's dimmed, you'll need to flag some threads first.)
+- Choose **Show Flagged Threads Only** in the toolbar at the top of the **Threads** window. (If it's dimmed, you'll need to flag some threads first.)
 
 ## Freeze and thaw threads
  When you freeze a thread, the system won't start execution of the thread even if resources are available.
@@ -83,7 +83,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
 
 ### To freeze or thaw execution of a thread
 
--   In the toolbar at the top of the **Threads** window, select **Freeze Threads** or **Thaw Threads**.
+- In the toolbar at the top of the **Threads** window, select **Freeze Threads** or **Thaw Threads**.
 
      This action affects only threads that are selected in the **Threads** window.
 
@@ -93,11 +93,11 @@ A yellow arrow indicates the current thread (and the location of the execution p
 
 #### To switch to another thread
 
--   Follow either of the following steps:
+- Follow either of the following steps:
 
-    -   Double-click any thread.
+    - Double-click any thread.
 
-    -   Right-click a thread and select **Switch To Thread**.
+    - Right-click a thread and select **Switch To Thread**.
 
 ## Group and sort threads
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as **Worker Thread** or **Unflagged Threads**, and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, use the tree control to collapse the group.
@@ -106,29 +106,29 @@ A yellow arrow indicates the current thread (and the location of the execution p
 
 ### To sort threads
 
-1.  In the toolbar at the top of the **Threads** window, select the button at the top of any column.
+1. In the toolbar at the top of the **Threads** window, select the button at the top of any column.
 
      The threads are now sorted by the values in that column.
 
-2.  If you want to reverse the sort order, select the same button again.
+2. If you want to reverse the sort order, select the same button again.
 
      Threads that appeared at the top of the list now appear on the bottom.
 
 ### To group threads
 
--   In the **Threads** window toolbar, select the **Group by** list, then select the criteria that you want to group threads by.
+- In the **Threads** window toolbar, select the **Group by** list, then select the criteria that you want to group threads by.
 
 ### To sort threads within groups
 
-1.  In the toolbar at the top of the **Threads** window, select the **Group by** list, then select the criteria that you want to group threads by.
+1. In the toolbar at the top of the **Threads** window, select the **Group by** list, then select the criteria that you want to group threads by.
 
-2.  In the **Threads** window, select the button at the top of any column.
+2. In the **Threads** window, select the button at the top of any column.
 
      The threads are now sorted by the values in that column.
 
 ### To expand or collapse all groups
 
--   In the toolbar at the top of the **Threads** window, select **Expand groups** or **Collapse groups**.
+- In the toolbar at the top of the **Threads** window, select **Expand groups** or **Collapse groups**.
 
 ## Search for specific threads
  You can search for threads that match a specified string in the **Threads** window. When you search for threads, the window displays all the threads matching the search string in any column. This information includes the thread location that appears at the top of the call stack in the **Location** column. By default, the full call stack isn't searched.
@@ -153,13 +153,13 @@ In a multithreaded program, each thread has its own call stack. The **Threads** 
 
 ### To view the call stack of a thread
 
--   In the **Location** column, select the inverted triangle next to the thread location.
+- In the **Location** column, select the inverted triangle next to the thread location.
 
      The location expands to show the call stack for the thread.
 
 ### To view or collapse the call stacks of all threads
 
--   In the toolbar at the top of the **Threads** window, select **Expand Call Stacks** or **Collapse Call Stacks**.
+- In the toolbar at the top of the **Threads** window, select **Expand Call Stacks** or **Collapse Call Stacks**.
 
 ## See also
 - [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

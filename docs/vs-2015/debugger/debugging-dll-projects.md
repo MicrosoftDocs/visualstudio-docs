@@ -67,29 +67,29 @@ The following templates create DLLs:
   
 - [The Immediate Window](#vxtskdebuggingdllprojectstheimmediatewindow)  
   
-##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Building a Debug Version  
+## <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Building a Debug Version  
  No matter how you start debugging, make sure that you build the Debug version of the DLL first and make sure that the Debug version is in the location where the application expects to find it. This may seem obvious, but if you forget this step, the application might find a different version of the DLL and load it. The program will then continue to run, while you wonder why your breakpoint was never hit. When you are debugging, you can verify which DLLs your program has loaded by opening the debugger's **Modules** window. The **Modules** window lists each DLL or EXE loaded in the process you are debugging. For more information, see [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md).  
   
  For the debugger to attach to code written in C++, the code must emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](http://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982) linker option.  
   
-##  <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-Mode Debugging  
+## <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-Mode Debugging  
  The calling application that calls your DLL can be written in managed code or native code. If your managed DLL is called by native code and you want to debug both, managed and native debuggers must both be enabled. You can select this in the **\<Project>Property Pages** dialog box or window. How you do this depends on whether you start debugging from the DLL project or the calling application project. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  
   
-##  <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> Changing Default Configurations  
+## <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> Changing Default Configurations  
  When you create a console application project with the project template, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change those settings. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md), [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md), [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), and [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md).  
   
-##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to Debug the DLL  
+## <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to Debug the DLL  
  Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047). The calling application might fit any one of the following criteria:  
   
--   An application built in another project in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains the class library.  
+- An application built in another project in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains the class library.  
   
--   An existing application already deployed on a test or production computer.  
+- An existing application already deployed on a test or production computer.  
   
--   Located on the Web and accessed through a URL.  
+- Located on the Web and accessed through a URL.  
   
--   A Web application that contains a Web page which embeds the DLL.  
+- A Web application that contains a Web page which embeds the DLL.  
   
-###  <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Debugging the Calling Application  
+### <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Debugging the Calling Application  
  To debug a DLL, start by debugging the calling application, typically either an EXE or a Web application. There are several ways to debug it.  
   
 - If you have a project for the calling application, you can open that project and start execution from the **Debug** menu. For more information, see [How to: Start Execution](http://msdn.microsoft.com/b0fe0ce5-900e-421f-a4c6-aa44ddae453c).  
@@ -102,17 +102,17 @@ The following templates create DLLs:
   
   Before you start debugging the calling application, you will usually want to set a breakpoint in the class library. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583). When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Code Stepping Overview](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9).  
   
-###  <a name="vxtskdebuggingdllprojectscontrolsonawebpage"></a> Controls on a Web Page  
+### <a name="vxtskdebuggingdllprojectscontrolsonawebpage"></a> Controls on a Web Page  
  To debug a Web page control, create an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] page that embeds it if such a page does not already exist. You then place breakpoints in the Web page code as well as the control code. You then invoke the Web page from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
  Before you start debugging the calling application, you will usually want to set a breakpoint in the DLL. When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
-###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> The Immediate Window  
+### <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> The Immediate Window  
  You can evaluate functions or methods in the DLL without having a calling application. You do design-time debugging and you use the **Immediate** window. To debug in this manner, do the follow these steps while the DLL project is open:  
   
-1.  Open the Debugger **Immediate** window.  
+1. Open the Debugger **Immediate** window.  
   
-2.  To test a method named `Test` in class `Class1`, instantiate an object of type `Class1` by typing the following C# code in the Immediate window. This managed code works for Visual Basic and C++, with appropriate syntax changes:  
+2. To test a method named `Test` in class `Class1`, instantiate an object of type `Class1` by typing the following C# code in the Immediate window. This managed code works for Visual Basic and C++, with appropriate syntax changes:  
   
     ```  
     Class1 obj = new Class1();  
@@ -120,7 +120,7 @@ The following templates create DLLs:
   
      In C#, all names must be fully qualified. In addition, any methods or variables must be in the current scope and context of the debugging session.  
   
-3.  Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
+3. Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
   
     ```  
     ?obj.Test(10)  
@@ -128,7 +128,7 @@ The following templates create DLLs:
   
      The result will be printed in the **Immediate** window.  
   
-4.  You can continue to debug `Test` by placing a breakpoint inside it and then evaluating the function again:  
+4. You can continue to debug `Test` by placing a breakpoint inside it and then evaluating the function again:  
   
     ```  
     ?obj.Test(10);  

@@ -28,39 +28,39 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
 ### Create the CppDemo solution and the CodeDefects project  
   
-1.  Click the **File** menu, point to **New**, and then click **New Project**.  
+1. Click the **File** menu, point to **New**, and then click **New Project**.  
   
-2.  In the **Project types** tree list, if Visual C++ is not your default language in VS expand **Other Languages**.  
+2. In the **Project types** tree list, if Visual C++ is not your default language in VS expand **Other Languages**.  
   
-3.  Expand **Visual C++**, and then click **General**.  
+3. Expand **Visual C++**, and then click **General**.  
   
-4.  In **Templates**, click **Empty Project**.  
+4. In **Templates**, click **Empty Project**.  
   
-5.  In the **Name** text box, type **CodeDefects**.  
+5. In the **Name** text box, type **CodeDefects**.  
   
-6.  Select the **Create directory for solution** check box.  
+6. Select the **Create directory for solution** check box.  
   
-7.  In the **Solution Name** text box, type **CppDemo**.  
+7. In the **Solution Name** text box, type **CppDemo**.  
   
 ### Configure the CodeDefects project as a static library  
   
-1.  In Solution Explorer, right-click **CodeDefects** and then click **Properties**.  
+1. In Solution Explorer, right-click **CodeDefects** and then click **Properties**.  
   
-2.  Expand **Configuration Properties** and then click **General**.  
+2. Expand **Configuration Properties** and then click **General**.  
   
-3.  In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.  
+3. In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.  
   
-4.  In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.  
+4. In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.  
   
 ### Add the header and source file to the CodeDefects project  
   
-1.  In Solution Explorer, expand **CodeDefects**, right-click **Header Files**, click **Add**, and then click **New Item**.  
+1. In Solution Explorer, expand **CodeDefects**, right-click **Header Files**, click **Add**, and then click **New Item**.  
   
-2.  In the **Add New Item** dialog box, click **Code**, and then click **Header File (.h)**.  
+2. In the **Add New Item** dialog box, click **Code**, and then click **Header File (.h)**.  
   
-3.  In the **Name** box, type **Bug.cpp** and then click **Add**.  
+3. In the **Name** box, type **Bug.cpp** and then click **Add**.  
   
-4.  Copy the following code and paste it into the **Bug.cpp** file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
+4. Copy the following code and paste it into the **Bug.cpp** file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
   
     ```  
     #include <windows.h>  
@@ -82,13 +82,13 @@ This following procedures show you how to create the sample for [Walkthrough: An
     const int ACCOUNT_DOMAIN_LEN = 128;  
     ```  
   
-5.  In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.  
+5. In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.  
   
-6.  In the **Add New Item** dialog box, click **C++ File (.cpp)**  
+6. In the **Add New Item** dialog box, click **C++ File (.cpp)**  
   
-7.  In the **Name** box, type **Bug.cpp** and then click **Add**.  
+7. In the **Name** box, type **Bug.cpp** and then click **Add**.  
   
-8.  Copy the following code and paste it into the Bug.h file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
+8. Copy the following code and paste it into the Bug.h file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
   
     ```  
     #include <stdlib.h>  
@@ -152,29 +152,29 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
 ### Add the Annotations project and configure it as a static library  
   
-1.  In Solution Explorer, click **CppDemo**, point to **Add**, and then click **New Project**.  
+1. In Solution Explorer, click **CppDemo**, point to **Add**, and then click **New Project**.  
   
-2.  In the **Add New Project** dialog box, expand Visual C++, click **General**, and then click **Empty Project**.  
+2. In the **Add New Project** dialog box, expand Visual C++, click **General**, and then click **Empty Project**.  
   
-3.  In the **Name** text box, type **Annotations**, and then click **Add**.  
+3. In the **Name** text box, type **Annotations**, and then click **Add**.  
   
-4.  In Solution Explorer, right-click **Annotations** and then click **Properties**.  
+4. In Solution Explorer, right-click **Annotations** and then click **Properties**.  
   
-5.  Expand **Configuration Properties** and then click **General**.  
+5. Expand **Configuration Properties** and then click **General**.  
   
-6.  In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.  
+6. In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.  
   
-7.  In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.  
+7. In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.  
   
 ### Add the header file and source file to the Annotations project  
   
-1.  In Solution Explorer, expand **Annotations**, right-click **Header Files**, click **Add**, and then click **New Item**.  
+1. In Solution Explorer, expand **Annotations**, right-click **Header Files**, click **Add**, and then click **New Item**.  
   
-2.  In the **Add New Item** dialog box, click **Header File (.h)**.  
+2. In the **Add New Item** dialog box, click **Header File (.h)**.  
   
-3.  In the **Name** box, type **annotations.h** and then click **Add**.  
+3. In the **Name** box, type **annotations.h** and then click **Add**.  
   
-4.  Copy the following code and paste it into the **annotations.h** file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
+4. Copy the following code and paste it into the **annotations.h** file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
   
     ```  
     #include <CodeAnalysis/SourceAnnotations.h>  
@@ -191,13 +191,13 @@ This following procedures show you how to create the sample for [Walkthrough: An
   
     ```  
   
-5.  In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.  
+5. In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.  
   
-6.  In the **Add New Item** dialog box, click **Code** and then click **C++ File (.cpp)**  
+6. In the **Add New Item** dialog box, click **Code** and then click **C++ File (.cpp)**  
   
-7.  In the **Name** box, type **annotations.cpp** and then click **Add**.  
+7. In the **Name** box, type **annotations.cpp** and then click **Add**.  
   
-8.  Copy the following code and paste it into the **annotations.cpp** file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
+8. Copy the following code and paste it into the **annotations.cpp** file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] editor.  
   
     ```  
     #include <CodeAnalysis/SourceAnnotations.h>  

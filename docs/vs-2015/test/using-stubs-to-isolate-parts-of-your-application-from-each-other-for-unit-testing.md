@@ -26,11 +26,11 @@ Stub types* are one of two technologies that the Microsoft Fakes framework provi
   
  **Requirements**  
   
--   Visual Studio Enterprise
+- Visual Studio Enterprise
   
-##  <a name="How"></a> How to use stubs  
+## <a name="How"></a> How to use stubs  
   
-###  <a name="Dependency"></a> Design for dependency injection  
+### <a name="Dependency"></a> Design for dependency injection  
  To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don’t use stubs. If you are writing new code, it’s easy to follow the [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.  
   
  Let’s start this discussion with a motivating example, the one in the diagram. The class StockAnalyzer reads share prices and generates some interesting results. It has some public methods, which we want to test. To keep things simple, let’s just look at one of those methods, a very simple one that reports the current price of a particular share. We want to write a unit test of that method. Here’s the first draft of a test:  
@@ -138,7 +138,7 @@ analyzer = new StockAnalyzer(new StockFeed())
   
  There are more flexible ways of performing this connection. For example, StockAnalyzer could accept a factory object that can instantiate different implementations of IStockFeed in different conditions.  
   
-###  <a name="GeneratingStubs"></a> Generate stubs  
+### <a name="GeneratingStubs"></a> Generate stubs  
  You’ve decoupled the class you want to test from the other components that it uses. As well as making the application more robust and flexible, the decoupling allows you to connect the component under test to stub implementations of the interfaces for test purposes.  
   
  You could simply write the stubs as classes in the usual way. But Microsoft Fakes provides you with a more dynamic way to create the most appropriate stub for every test.  
@@ -147,15 +147,15 @@ analyzer = new StockAnalyzer(new StockFeed())
   
 ##### Adding a Fakes Assembly  
   
-1.  In Solution Explorer, expand your unit test project’s **References**.  
+1. In Solution Explorer, expand your unit test project’s **References**.  
   
-    -   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.  
+    - If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.  
   
-2.  Select the assembly that contains the interface definitions for which you want to create stubs.  
+2. Select the assembly that contains the interface definitions for which you want to create stubs.  
   
-3.  On the shortcut menu, choose **Add Fakes Assembly**.  
+3. On the shortcut menu, choose **Add Fakes Assembly**.  
   
-###  <a name="WriteTest"></a> Write your test with stubs  
+### <a name="WriteTest"></a> Write your test with stubs  
   
 ```csharp  
 [TestClass]  
@@ -217,7 +217,7 @@ End Class
   
  Stubs are also generated for the getters and setters of properties, for events, and for generic methods.  
   
-###  <a name="mocks"></a> Verifying parameter values  
+### <a name="mocks"></a> Verifying parameter values  
  You can verify that when your component makes a call to another component, it passes the correct values. You can either place an assertion in the stub, or you can store the value and verify it in the main body of the test. For example:  
   
 ```csharp  
@@ -295,9 +295,9 @@ Class TestMyComponent
 End Class  
 ```  
   
-##  <a name="BKMK_Stub_basics"></a> Stubs for different kinds of type members  
+## <a name="BKMK_Stub_basics"></a> Stubs for different kinds of type members  
   
-###  <a name="BKMK_Methods"></a> Methods  
+### <a name="BKMK_Methods"></a> Methods  
  As described in the example, methods can be stubbed by attaching a delegate to an instance of the stub class. The name of the stub type is derived from the names of the method and parameters. For example, given the following `IMyInterface` interface and method `MyMethod`:  
   
 ```csharp  
@@ -319,7 +319,7 @@ interface IMyInterface
   
  If you do not provide a stub for a function, Fakes will generate a function that returns the default value of the return type. For numbers, the default value is 0, and for class types it is `null` (C#) or `Nothing` (Visual Basic).  
   
-###  <a name="BKMK_Properties"></a> Properties  
+### <a name="BKMK_Properties"></a> Properties  
  Property getters and setters are exposed as separate delegates and can be stubbed separately. For example, consider the `Value` property of `IMyInterface`:  
   
 ```csharp  
@@ -344,7 +344,7 @@ stub.ValueSet = (value) => i = value;
   
  If you do not provide stub methods for either the setter or the getter of a property, Fakes will generate a stub that stores values, so that the stub property works like a simple variable.  
   
-###  <a name="BKMK_Events"></a> Events  
+### <a name="BKMK_Events"></a> Events  
  Events are exposed as delegate fields. As a result, any stubbed event can be raised simply by invoking the event backing field. Let’s consider the following interface to stub:  
   
 ```csharp  
@@ -365,7 +365,7 @@ interface IWithEvents
   
 ```  
   
-###  <a name="BKMK_Generic_methods"></a> Generic methods  
+### <a name="BKMK_Generic_methods"></a> Generic methods  
  It’s possible to stub generic methods by providing a delegate for each desired instantiation of the method. For example, given the following interface containing a generic method:  
   
 ```csharp  
@@ -393,7 +393,7 @@ public void TestGetValue()
   
  If the code were to call `GetValue<T>` with any other instantiation, the stub would simply call the behavior.  
   
-###  <a name="BKMK_Partial_stubs"></a> Stubs of virtual classes  
+### <a name="BKMK_Partial_stubs"></a> Stubs of virtual classes  
  In the previous examples, the stubs have been generated from interfaces. You can also generate stubs from a class that has virtual or abstract members. For example:  
   
 ```csharp  
@@ -432,16 +432,16 @@ stub.CallBase = true;
 Assert.AreEqual(43,stub.DoVirtual(1));  
 ```  
   
-##  <a name="BKMK_Debugging_stubs"></a> Debugging stubs  
+## <a name="BKMK_Debugging_stubs"></a> Debugging stubs  
  The stub types are designed to provide a smooth debugging experience. By default, the debugger is instructed to step over any generated code, so it should step directly into the custom member implementations that were attached to the stub.  
   
-##  <a name="BKMK_Stub_limitation"></a> Stub limitations  
+## <a name="BKMK_Stub_limitation"></a> Stub limitations  
   
-1.  Method signatures with pointers aren’t supported.  
+1. Method signatures with pointers aren’t supported.  
   
-2.  Sealed classes or static methods can’t be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)  
+2. Sealed classes or static methods can’t be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)  
   
-##  <a name="BKMK_Changing_the_default_behavior_of_stubs"></a> Changing the default behavior of stubs  
+## <a name="BKMK_Changing_the_default_behavior_of_stubs"></a> Changing the default behavior of stubs  
  Each generated stub type holds an instance of the `IStubBehavior` interface (through the `IStub.InstanceBehavior` property). The behavior is called whenever a client calls a member with no attached custom delegate. If the behavior has not been set, it will use the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.  
   
  The behavior can be changed at any time by setting the `InstanceBehavior` property on any stub instance. For example, the following snippet changes a behavior that does nothing or returns the default value of the return type: `default(T)`:  

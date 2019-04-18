@@ -36,13 +36,13 @@ ms.workload:
 
 ### To add a feature resource file to a SharePoint feature
 
-1.  If the SharePoint solution is not already open in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the solution.
+1. If the SharePoint solution is not already open in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the solution.
 
-2.  In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.
+2. In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.
 
      This step adds a resource file to the feature in the format, _ResourceFileName_**.**_culture_**.resx**, such as, *Feature1.en-US.resx*.
 
-3.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.
+3. When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.
 
 ## See also
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)

@@ -18,25 +18,25 @@ To enable your program to open picture files and choose a background color, in t
 
 ## To add dialog components to your form
 
-1.  Choose the **Windows Forms Designer** (**Form1.cs [Design]** or **Form1.vb [Design]**) and then open the **Dialogs** group in the **Toolbox**.
+1. Choose the **Windows Forms Designer** (**Form1.cs [Design]** or **Form1.vb [Design]**) and then open the **Dialogs** group in the **Toolbox**.
 
     > [!NOTE]
     >  The **Dialogs** group in the **Toolbox** has components that open many useful dialog boxes for you, which can be used for opening and saving files, browsing folders, and choosing fonts and colors. You use two dialog components in this project: OpenFileDialog and ColorDialog.
 
-2.  To add a component called **openFileDialog1** to your form, double-click **OpenFileDialog**. To add a component called **colorDialog1** to your form, double-click **ColorDialog** in the **Toolbox**. (You use that one in the next tutorial step.) You should see an area at the bottom of **Windows Forms Designer** (beneath the **Picture Viewer** form) that has an icon for each of the two dialog components that you added, as shown in the following picture.
+2. To add a component called **openFileDialog1** to your form, double-click **OpenFileDialog**. To add a component called **colorDialog1** to your form, double-click **ColorDialog** in the **Toolbox**. (You use that one in the next tutorial step.) You should see an area at the bottom of **Windows Forms Designer** (beneath the **Picture Viewer** form) that has an icon for each of the two dialog components that you added, as shown in the following picture.
 
      ![Dialog components](../ide/media/express_dialogsadded.png)
 **Dialog** components
 
-3.  Choose the **openFileDialog1** icon in the area at the bottom of the **Windows Forms Designer**. Set two properties:
+3. Choose the **openFileDialog1** icon in the area at the bottom of the **Windows Forms Designer**. Set two properties:
 
-    -   Set the **Filter** property to the following (you can copy and paste it):
+    - Set the **Filter** property to the following (you can copy and paste it):
 
         ```
         JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All files (*.*)|*.*
         ```
 
-    -   Set the **Title** property to the following: **Select a picture file**
+    - Set the **Title** property to the following: **Select a picture file**
 
          The **Filter** property settings specify the kinds of file types that will display in the **Select a picture** file dialog box.
 
@@ -45,6 +45,6 @@ To enable your program to open picture files and choose a background color, in t
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
+- To go to the next tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
 
--   To return to the previous tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).
+- To return to the previous tutorial step, see [Step 6: Name your button controls](../ide/step-6-name-your-button-controls.md).

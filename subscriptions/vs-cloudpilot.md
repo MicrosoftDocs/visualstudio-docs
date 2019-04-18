@@ -44,9 +44,9 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Product Page](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
 
-0.  That's it!  You'll see the CloudPilot portal, and you'll be ready to start using your CloudPilot subscription to move your applications to Microsoft Azure.
+0. That's it!  You'll see the CloudPilot portal, and you'll be ready to start using your CloudPilot subscription to move your applications to Microsoft Azure.
 
-0.  As soon as your account is successfully created, you will receive an email from UnifyCloud VSS Support confirming the successful creation of your account.
+0. As soon as your account is successfully created, you will receive an email from UnifyCloud VSS Support confirming the successful creation of your account.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Confirmation Email](_img/vs-cloudpilot/vs-cloudpilot-email.png)
@@ -71,13 +71,13 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
--  Need help with using CloudPilot?  Check out these resources:
+- Need help with using CloudPilot?  Check out these resources:
     - [Contact UnifyCloud](https://www.unifycloud.com/contacts/) for inquiries about UnifyCloud products.
     - [CloudPilot User Manual](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
     - [Submit a support request](https://support.datacamp.com/hc/requests/new)
 
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
 

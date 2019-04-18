@@ -80,7 +80,7 @@ For C/C++ projects, you can set header and LIB file locations in the project pro
 
 For more information on C++ project settings, see [Property pages (Visual C++)](/cpp/ide/property-pages-visual-cpp).
 
-##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version
+## <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version
 
 Make sure to build a Debug version of the DLL before you start debugging. To debug a DLL, a calling app must be able to find its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and any other files the DLL requires.
 
@@ -88,7 +88,7 @@ You can create a custom build task to copy the DLL files to your *\<calling proj
 
 Make sure to call the DLL in its correct location. This may seem obvious, but if a calling app finds and loads a different copy of the DLL, the debugger will never hit the breakpoints you set.
 
-##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Debug a DLL
+## <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Debug a DLL
 
 You can't run a DLL directly. It must be called by an app, usually an *.exe* file. For more information, see [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects).
 
@@ -117,7 +117,7 @@ Before you start debugging the calling app, set a breakpoint in the DLL. See [Us
 
 During debugging, you can use the **Modules** window to verify the DLLs and *.exe* files the app loads. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. For more information, see [How to: Use the Modules window](../debugger/how-to-use-the-modules-window.md).
 
-###  <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> Use the Immediate window
+### <a name="vxtskdebuggingdllprojectstheimmediatewindow"></a> Use the Immediate window
 
 You can use the **Immediate** window to evaluate DLL functions or methods at design time. The **Immediate** window plays the role of a calling app.
 
@@ -148,7 +148,7 @@ For example, to test a method named `Test` in class `Class1`:
 
    The breakpoint will be hit, and you can step through `Test`. After execution has left `Test`, the debugger will be back in design mode.
 
-##  <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-mode debugging
+## <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-mode debugging
 
 You can write a calling app for a DLL in managed or native code. If your native app calls a managed DLL and you want to debug both, you can enable both the managed and native debuggers in the project properties. The exact process depends on whether you want to start debugging from the DLL project or the calling app project. For more information, see [How to: Debug in mixed mode](../debugger/how-to-debug-in-mixed-mode.md).
 

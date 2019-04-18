@@ -22,13 +22,13 @@ manager: jillfra
   
  This functionality of retrieving the value of a local is encapsulated in a helper function that performs the following tasks:  
   
-1.  Binds the `IDebugField` object to memory to obtain an `IDebugObject` object.  
+1. Binds the `IDebugField` object to memory to obtain an `IDebugObject` object.  
   
-2.  Gets the value from memory. This value is represented as a series of bytes.  
+2. Gets the value from memory. This value is represented as a series of bytes.  
   
-3.  Formats the value based on the local's type.  
+3. Formats the value based on the local's type.  
   
-4.  Returns a generic object that contains the local's value. In C#, this is an `object`, and in C++, this is a `VARIANT`.  
+4. Returns a generic object that contains the local's value. In C#, this is an `object`, and in C++, this is a `VARIANT`.  
   
 ## Managed Code  
  This is an implementation of a function that retrieves the value of a local in managed code.  

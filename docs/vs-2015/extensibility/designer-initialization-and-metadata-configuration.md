@@ -25,15 +25,15 @@ Manipulation of the metadata and filter attributes associated with a designer or
 ### Customizing Initialization  
  Customizing a designer, a component, or a designer surface, involves:  
   
-1.  Modifying the designer metadata and effectively changing how a certain <xref:System.Type> is accessed or converted.  
+1. Modifying the designer metadata and effectively changing how a certain <xref:System.Type> is accessed or converted.  
   
      This is typically done through the <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.TypeConverter> mechanisms.  
   
      For example, when <xref:System.Windows.Forms>-based designers are initialized, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] environment modifies the <xref:System.Drawing.Design.UITypeEditor> for <xref:System.Web.UI.WebControls.Image> objects used with the designer to use the resource manager to obtain bitmaps rather than the file system.  
   
-2.  Integrating with the environment, for example, by subscribing to events or obtaining project configuration information. You can obtain project configuration information and subscribe to events by obtaining the <xref:System.ComponentModel.Design.ITypeResolutionService> interface.  
+2. Integrating with the environment, for example, by subscribing to events or obtaining project configuration information. You can obtain project configuration information and subscribe to events by obtaining the <xref:System.ComponentModel.Design.ITypeResolutionService> interface.  
   
-3.  Modification of the user environment by activating appropriate **Toolbox** categories or by restricting the designer's applicability by applying an instance of the <xref:System.ComponentModel.ToolboxItemFilterAttribute> class to the designer.  
+3. Modification of the user environment by activating appropriate **Toolbox** categories or by restricting the designer's applicability by applying an instance of the <xref:System.ComponentModel.ToolboxItemFilterAttribute> class to the designer.  
   
 ### Designer Initialization by a VSPackage  
  A VSPackage should handle designer initialization by:  
