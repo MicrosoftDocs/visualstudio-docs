@@ -32,7 +32,7 @@ Here's how.
 
 ::: moniker-end
 
-### Export a configuration
+## Export a configuration
 
 The following procedure assumes you are using a computer on which you've previously installed the workloads and components that you want to share.  
 
@@ -48,21 +48,23 @@ The following procedure assumes you are using a computer on which you've previou
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
-### Import a configuration
+## Import a configuration
+
+When you're ready to import an installation configuration file
 
 1. Open the Visual Studio Installer.
 
 1. Choose the **More** button, and then select **Import configuration**.
 
-1. Browse to or type the location where of .vconfig file that you want to import, and then choose **Review details**.
+1. Locate the .vconfig file that you want to import, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
 ::: moniker range="vs-2019"
 
-### Automatically install missing components
+## Automatically install missing components
 
-When you save a .vsconfig file to your solution root directory and then open a solution, Visual Studio will automatically detect which components are missing and prompt you to install them.
+When you save a .vsconfig file to your solution root directory and then open a solution, Visual Studio automatically detects which components are missing and prompts you to install them.
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 
