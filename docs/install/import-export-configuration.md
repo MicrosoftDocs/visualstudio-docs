@@ -21,18 +21,18 @@ ms.technology: vs-installation
 ---
 # Import or export configurations
 
-You configure Visual Studio across your organization by using an installation configuration file. Simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations. 
+You configure Visual Studio across your organization by using an installation configuration file. Simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations.
 
 Here's how.
 
 ::: moniker range="vs-2017"
 
 > [!NOTE]
-> This functionality is available only in Visual Studio 2017 version 15.9 and later. 
+> This functionality is available only in Visual Studio 2017 version 15.9 and later.
 
 ::: moniker-end
 
-### Export a configuration 
+### Export a configuration
 
 The following procedure assumes you are using a computer on which you've previously installed the workloads and components that you want to share.  
 
@@ -70,9 +70,9 @@ You can also create a .vsconfig file right from Solution Explorer. Here's how.
 
 1. Right-click on your solution file.
 
-1. Choose **Add** > **Installation Configuration File**. 
+1. Choose **Add** > **Installation Configuration File**.
 
-1. Confirm the location where you want to save the .vsconfig file, and then choose **Review details**. 
+1. Confirm the location where you want to save the .vsconfig file, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
@@ -89,6 +89,3 @@ You can also create a .vsconfig file right from Solution Explorer. Here's how.
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Set defaults for enterprise deployments](set-defaults-for-enterprise-deployments.md)
-
-
-
