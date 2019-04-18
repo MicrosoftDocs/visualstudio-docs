@@ -128,7 +128,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
     ![Example of the Properties dialog box in an unattended installation of Visual Studio](../install/media/unattended-install-properties-dialog-box.PNG "Unattended Install - Properties Dialog Box")
 
 3. ###### If the product version is 14.0.24720.0 or 14.0.24720.1, follow these steps:
-4. 1.  Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run: `vs_enterprise.exe /Layout d:\IDEinstall`.)
+   1. Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run: `vs_enterprise.exe /Layout d:\IDEinstall`.)
 
    2. After the /Layout is complete, copy the new image to a new location.
 
@@ -138,7 +138,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
         For example, run: `\\server1\IDEinstall_Updated_1\vs_enterprise.exe /adminfile \\server1\IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart`
 5. ###### For other product version values, follow these steps:
-6. 1.  Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run `vs-enterprise.exe /Layout d:\IDEinstall`.)
+   1. Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run `vs-enterprise.exe /Layout d:\IDEinstall`.)
 
    2. After the /Layout is complete, copy the new image to a new location. (Or, you can override the existing network image instead.)
 
@@ -149,8 +149,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
         For example, run: `\\server1\IDEinstall_Updated_1\vs_enterprise.exe /adminfile \\server1\IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart`
 
    5. If you override the existing network image, you can run the command as listed in the previous step, or you can do the following:
-
-   6. 1.  Open **Control Panel**, and then choose **Programs and Features**.
+       1. Open **Control Panel**, and then choose **Programs and Features**.
 
        2. Choose **Visual Studio**, and then choose **Change**.
 

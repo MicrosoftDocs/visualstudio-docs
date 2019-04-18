@@ -34,24 +34,24 @@ Insert introduction here.
   
  ![Menus redline](../extensibility/ux-guidelines/media/0303-000-menuredline.png "0303-000_MenuRedline")  
   
- Use …  
- - whenever you need to create a custom menu.  
+Use …  
+- whenever you need to create a custom menu.  
   
 - when you have a new UI component that you want to match the Visual Studio menus.  
   
-  Do not use …  
-  the background color alone. Always use the background/foreground combination as specified.  
+Do not use …  
+the background color alone. Always use the background/foreground combination as specified.  
   
 ##### Menu title  
  Menu titles consist of a background, a border, and the title text, as well as an optional glyph, usually when the menu is found in a command bar.  
   
  ![Menu title redline](../extensibility/ux-guidelines/media/0303-001-menutitleredline.png "0303-001_MenuTitleRedline")  
   
- Use…  
- whenever you are creating a custom menu title.  
+Use…  
+whenever you are creating a custom menu title.  
   
- Do not use…  
- - for anything that you don't want to always match the menu title.  
+Do not use…  
+- for anything that you don't want to always match the menu title.  
   
 - in any background/foreground combination other than specified.  
   
@@ -102,7 +102,7 @@ Insert introduction here.
  Do not use…  
  - for any drop-down list that occurs in another context.  
   
-- in any background/foreground combination other than specified.  
+ - in any background/foreground combination other than specified.  
   
   **Default**  
   
@@ -156,7 +156,7 @@ Insert introduction here.
  Do not use…  
  - for UI elements that are not similar to a command bar.  
   
-- for command bar components other than the ones for which token names are specified.  
+ - for command bar components other than the ones for which token names are specified.  
   
 ##### Command bar group  
  A command bar group consists of a related set of command bar controls and might contain any number of buttons, split buttons, drop-down menus, combo boxes, or menus. Colors for those controls are regulated by separate token names and are discussed individually elsewhere in this guide. A separator line is used to divide a command bar group into related subgroups.  
@@ -169,7 +169,7 @@ Insert introduction here.
  Do not use…  
  - for UI elements that are not similar to a command bar.  
   
-- for command bar components other than the ones for which token names are specified.  
+ - for command bar components other than the ones for which token names are specified.  
   
   **Default** (no other states)  
   
@@ -191,7 +191,7 @@ Insert introduction here.
  Do not use…  
  - for controls that have their own token names.  
   
-- in any background/foreground combination other than specified.  
+ - in any background/foreground combination other than specified.  
   
   **Default**  
   
@@ -241,12 +241,12 @@ Insert introduction here.
  Use …  
  - when building custom combo boxes.  
   
-- when creating a command bar control that is similar to a combo box.  
+ - when creating a command bar control that is similar to a combo box.  
   
-  Do not use …  
-  - for anything you don’t want always to match the command bar UI.  
+ Do not use …  
+ - for anything you don’t want always to match the command bar UI.  
   
-- when you have access to a styled combo box.  
+ - when you have access to a styled combo box.  
   
   **Default**  
   
@@ -322,7 +322,7 @@ Insert introduction here.
  Do not use …  
  - for anything that is not similar to a drop-down list.  
   
-- for combo boxes or split buttons.  
+ - for combo boxes or split buttons.  
   
   **Default**  
   
@@ -386,7 +386,7 @@ Insert introduction here.
  Do not use …  
  - for other kinds of buttons.  
   
-- in any background/foreground combination other than specified.  
+ - in any background/foreground combination other than specified.  
   
   **Default**  
   
@@ -600,7 +600,7 @@ Insert introduction here.
  Do not use …  
  - for any kind of document or tab that is not provisional (preview).  
   
-- for any UI that you don't want to change automatically if the shell has a theme update.  
+ - for any UI that you don't want to change automatically if the shell has a theme update.  
   
   **Selected preview tab: Focused**  
   
@@ -647,7 +647,7 @@ Insert introduction here.
  Do not use …  
  - for UI that is not similar to an overflow button.  
   
-- for command bar overflow buttons.  
+ - for command bar overflow buttons.  
   
   **Default**  
   
@@ -754,7 +754,7 @@ Insert introduction here.
  Do not use …  
  - for buttons that appear in other locations.  
   
-- in any background/foreground combination other than specified.  
+ - in any background/foreground combination other than specified.  
   
   **Default**  
   
@@ -958,12 +958,12 @@ Insert introduction here.
  Use …  
  - when you are creating a custom search dropdown list.  
   
-- the correct token names for the correct list components.  
+ - the correct token names for the correct list components.  
   
-  Do not use …  
-  - for dropdown lists that appear in other contexts.  
+ Do not use …  
+ - for dropdown lists that appear in other contexts.  
   
-- in any background/foreground combination other than specified.  
+ - in any background/foreground combination other than specified.  
   
   **Default (no other states)**  
   
@@ -1122,7 +1122,7 @@ Insert introduction here.
  Do not use …  
  - for anything that is not similar to a tree view.  
   
-- in any background/foreground combination other than specified.  
+ - in any background/foreground combination other than specified.  
   
   **Default**  
   
@@ -1284,7 +1284,7 @@ Insert introduction here.
  Do not use …  
  - for any UI that is not a drop-down or combo box.  
   
-- for a [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
+ - for a [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown) or [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox) in the command bar.  
   
   **Default**  
   
@@ -1417,12 +1417,12 @@ Insert introduction here.
  Use …  
  - for designers that are similar to the Manifest Designer.  
   
-- in place of using common tab controls at the top of an editor within the document well.  
+ - in place of using common tab controls at the top of an editor within the document well.  
   
-  Do not use …  
-  - if you have more than six tabs.  
+ Do not use …  
+ - if you have more than six tabs.  
   
-- for any UI that is not structured like the Manifest Designer.  
+ - for any UI that is not structured like the Manifest Designer.  
   
 |State|Component|Element|Token name: Category.color|  
 |-----------|---------------|-------------|--------------------------------|  
@@ -1518,7 +1518,7 @@ Insert introduction here.
  Do not use …  
  - as a fill for places that are not background surfaces.  
   
-- as a background on which you wish to place foreground elements.  
+ - as a background on which you wish to place foreground elements.  
   
 |Component|Element|Token name: Category.color|  
 |---------------|-------------|--------------------------------|  
@@ -1539,7 +1539,7 @@ Insert introduction here.
  Use …  
  - for areas where you place menus or toolbars.  
   
-- with the correct background/ foreground token name combination.  
+ - with the correct background/ foreground token name combination.  
   
   Do not use …  
   for areas that are not similar to a command shelf.  

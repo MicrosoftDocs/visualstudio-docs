@@ -34,7 +34,7 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
    > [!NOTE]
    > Activations of the CAST Highlight benefit are limited to ten per organization.  If your organization's ten activations have already been consumed, you will be unable to activate the CAST Highlight benefit and you'll receive an email with further information.
 
- 0. After you submit your information, you'll see a page confirming receipt of your request.
+0. After you submit your information, you'll see a page confirming receipt of your request.
 
     > [!div class="mx-imgBorder"]
     > ![CAST Highlight Thank You Page](_img/vs-cast-highlight/vs-cast-highlight-thankyou.png)
@@ -63,9 +63,9 @@ Upon approval of your request, you'll receive a second email confirming successf
    *I will be in touch to ensure that everything moves smoothly for you. In the meantime, here’s some useful content to get you started:*
 
    - [CAST Highlight - CloudReadiness Demo](https://www.youtube.com/watch?v=wFUpAzn1Iu8&feature=youtu.be)
-    - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
-    - Video Tutorial - [Configure your Portfolio](https://www.youtube.com/watch?v=MDm8ln4vuGE)
-    - Video Tutorial - [Onboard your apps](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
+   - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
+   - Video Tutorial - [Configure your Portfolio](https://www.youtube.com/watch?v=MDm8ln4vuGE)
+   - Video Tutorial - [Onboard your apps](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
 
    *Best,*
    *Greg*
