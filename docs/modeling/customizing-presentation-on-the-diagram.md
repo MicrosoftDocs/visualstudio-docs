@@ -10,8 +10,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Customizing Presentation on the Diagram
-The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following topics.
+# Customize presentation on the diagram
+
+The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following articles:
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 
@@ -23,10 +24,8 @@ The diagram is the main presentation area of a domain-specific language designer
 
 - [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)
 
-- [Nesting Shapes](../modeling/nesting-shapes.md)
-
 - [Embedding a Diagram in a Windows Form](../modeling/embedding-a-diagram-in-a-windows-form.md)
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
