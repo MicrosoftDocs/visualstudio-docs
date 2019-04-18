@@ -1,6 +1,6 @@
 ---
 title: Code Analysis Warnings for Managed Code by CheckId
-ms.date: 11/04/2016
+ms.date: 04/18/2019
 ms.topic: reference
 f1_keywords:
   - "CA1000"
@@ -160,6 +160,7 @@ f1_keywords:
   - "CA2003"
   - "CA2004"
   - "CA2006"
+  - "CA2007"
   - "CA2100"
   - "CA2101"
   - "CA2102"
@@ -411,6 +412,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2003 |[CA2003: Do not treat fibers as threads](../code-quality/ca2003-do-not-treat-fibers-as-threads.md) | A managed thread is being treated as a [!INCLUDE[TLA2#tla_win32](../code-quality/includes/tla2sharptla_win32_md.md)] thread. |
 | CA2004 | [CA2004: Remove calls to GC.KeepAlive](../code-quality/ca2004-remove-calls-to-gc-keepalive.md) | If you convert to SafeHandle usage, remove all calls to GC.KeepAlive (object). In this case, classes should not have to call GC.KeepAlive. This assumes they do not have a finalizer but rely on SafeHandle to finalize the OS handle for them. |
 | CA2006 | [CA2006: Use SafeHandle to encapsulate native resources](../code-quality/ca2006-use-safehandle-to-encapsulate-native-resources.md) | Use of IntPtr in managed code might indicate a potential security and reliability problem. All uses of IntPtr must be reviewed to determine whether use of a SafeHandle, or similar technology, is required in its place. |
+| CA2007 | [CA2007: Do not directly await a Task](ca2007-do-not-directly-await-task.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100-review-sql-queries-for-security-vulnerabilities.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
 | CA2102 | [CA2102: Catch non-CLSCompliant exceptions in general handlers](../code-quality/ca2102-catch-non-clscompliant-exceptions-in-general-handlers.md) | A member in an assembly that is not marked by using the RuntimeCompatibilityAttribute or is marked RuntimeCompatibility(WrapNonExceptionThrows = false) contains a catch block that handles System.Exception and does not contain an immediately following general catch block. |
