@@ -15,7 +15,7 @@ ms.workload:
 
 Designers, like editors, typically need to support undo operations so that users can reverse their recent changes when modifying a code element.
 
-Most designers implemented in Visual Studio have undo support automatically provided by the environment.
+Most designers implemented in Visual Studio have "undo" support automatically provided by the environment.
 
 Designer implementations that need to provide support for the undo feature:
 
@@ -63,11 +63,11 @@ Any designer created in Visual Studio has automatic and full undo support if, th
 
 The Environment SDK provides CodeDOM and persistence support by supplying:
 
-- <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> as an implementations of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>
+- <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> as an implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>
 
 - A <xref:System.ComponentModel.Design.IComponentChangeService> provided by the Visual Studio design host.
 
-## Usie the Environment SDK Features to Supply Undo Support
+## Use the Environment SDK Features to Supply Undo Support
 
 To obtain undo support, an object implementing a designer must instantiate and initialize an instance of the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> class with a valid <xref:System.IServiceProvider> implementation. This <xref:System.IServiceProvider> class must provide the following services:
 
