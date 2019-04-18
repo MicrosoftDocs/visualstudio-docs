@@ -22,7 +22,9 @@ You can create a load test plug-in to run code at different times while the load
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
+<!-- markdownlint-disable MD003 MD020 -->
 ## To create a load test plug-in in C#
+<!-- markdownlint-enable MD003 MD020 -->
 
 1. Open a web performance and load test project that contains a web performance test.
 

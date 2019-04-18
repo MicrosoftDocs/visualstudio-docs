@@ -34,7 +34,7 @@ ms.workload:
 
      Visual Studio creates the event handler and moves the insertion point to the newly created event handler. If the event handler already exists, the insertion point moves to the existing event handler.
 
-### To create an event handler in C#
+### To create an event handler in C\#
 
 1. Create the event delegate in the **Startup** event of the class by typing the qualified event name followed by a space, and then typing **+=** with no space afterwards. For example:
 
