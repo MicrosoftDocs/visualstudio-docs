@@ -90,7 +90,7 @@ Instead of directly editing the manifest XML, you can use the new **Prerequisite
    ![add vsix prerequisite](media/add-vsix-prerequisite.png)
 
 * Click on the dropdown for **Name** and select the desired prerequisite.
-* Update the version if required.
+* Update the version if necessary.
 
    > [!Note]
    > The version field will be pre-populated with the version of the currently installed component, with a range spanning up to (but not including) the next major version of the component.
@@ -164,7 +164,7 @@ When looking up your dependencies, you will find that one dependency could map t
 
 To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
 
-Extension Type | Display Name | Id
+Extension Type | Display Name | ID
 --- | --- | ---
 Editor | Visual Studio core editor | Microsoft.VisualStudio.Component.CoreEditor
 Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
@@ -181,7 +181,7 @@ If you are unsure which component contains a specific binary, download the [Comp
 
 There are four columns in the Excel sheet: **Component Name**, **ComponentId**, **Version**, and **Binary / File Names**.  You can use the filters to search and find specific components and binaries.
 
-For all your references, first determine which ones are in the core editor (Microsoft.VisualStudio.Component.CoreEditor) component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in core editor, add filters in the **Binaries / Files Names** section to find components that have any of the subset of those references.
+For all your references, first determine which ones are in the core editor (Microsoft.VisualStudio.Component.CoreEditor) component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in core editor, add filters in the **Binaries / Files Names** section to find components that have any of the subsets of those references.
 
 Examples:
 
