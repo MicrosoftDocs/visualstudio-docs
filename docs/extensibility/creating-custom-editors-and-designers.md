@@ -13,6 +13,7 @@ ms.workload:
   - "vssdk"
 ---
 # Create custom editors and designers
+
 The Visual Studio integrated development environment (IDE) can host different types of editor:
 
 - The Visual Studio core editor
@@ -23,10 +24,11 @@ The Visual Studio integrated development environment (IDE) can host different ty
 
 - Designers
 
-  The following information helps you choose the type of editor you need.
+The following information helps you choose the type of editor you need.
 
 ## Types of editor
- For information about the Visual Studio core editor, see [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md).
+
+For information about the Visual Studio core editor, see [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md).
 
 ### Custom editors
  A custom editor is one that is designed to work in specialized circumstances. For example, you might create an editor whose function is to read and write data to a specific repository, such as a Microsoft Exchange server. Choose a custom editor if you want an editor that works with your project type only or if you want an editor that has only a few specific commands. Note, however, that users will not be able to use a custom editor to edit standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects.
@@ -64,33 +66,36 @@ The Visual Studio integrated development environment (IDE) can host different ty
    If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.
 
 ## In This Section
-- [Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md)
- Explains how to create a custom editor.
 
-- [Walkthrough: Add features to a custom editor](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)
- Explains how to add features to a custom editor.
+[Walkthrough: Create a custom editor](../extensibility/walkthrough-creating-a-custom-editor.md)\
+Explains how to create a custom editor.
 
-- [Designer initialization and metadata configuration](../extensibility/designer-initialization-and-metadata-configuration.md)
- Explains how to initialize a designer.
+[Walkthrough: Add features to a custom editor](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)\
+Explains how to add features to a custom editor.
 
-- [Supply undo support to designers](../extensibility/supplying-undo-support-to-designers.md)
- Explains how to provide undo support for designers.
+[Designer initialization and metadata configuration](../extensibility/designer-initialization-and-metadata-configuration.md)\
+Explains how to initialize a designer.
 
-- [Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)
- Explains the difference between syntax coloring in the core editor and in custom editors.
+[Supply undo support to designers](../extensibility/supplying-undo-support-to-designers.md)\
+Explains how to provide undo support for designers.
 
-- [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)
- Explains how to implement document data and document views in custom editors.
+[Syntax coloring in custom editors](../extensibility/syntax-coloring-in-custom-editors.md)\
+Explains the difference between syntax coloring in the core editor and in custom editors.
+
+[Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)\
+Explains how to implement document data and document views in custom editors.
 
 ## Related sections
-- [Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)
- Explains how to access the core editor by means of the legacy API.
 
-- [Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)
- Explains how to implement a language service.
+[Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)\
+Explains how to access the core editor by means of the legacy API.
 
-- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
- Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+[Develop a legacy language service](../extensibility/internals/developing-a-legacy-language-service.md)\
+Explains how to implement a language service.
+
+[Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)\
+Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
 ## See also
+
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
