@@ -47,6 +47,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
         ' to the CustomersDataTable.
     End Class
     ```
+
     ```csharp
     partial class CustomersDataTable
     {

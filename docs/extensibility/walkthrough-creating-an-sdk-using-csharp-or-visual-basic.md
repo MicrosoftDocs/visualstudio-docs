@@ -77,6 +77,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 12. Replace the contents of the file with the following XML:
 
     **C#**
+
     ```xml
     <FileList
       DisplayName="WinRT Math Library (CS)"
@@ -89,6 +90,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
     ```
 
     **Visual Basic**
+
     ```xml
     <FileList
       DisplayName="WinRT Math Library (VB)"
@@ -170,6 +172,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 10. In **Solution Explorer**, open **MainPage.xaml**, and replace its contents with the following XAML:
 
     **C#**
+
     ```xml
     <Page
         x:Class="WinRTMathTestCS.MainPage"
@@ -195,6 +198,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
     ```
 
     **Visual Basic**
+
     ```xml
     <Page
         x:Class="WinRTMathTest.MainPage"

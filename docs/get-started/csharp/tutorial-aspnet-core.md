@@ -216,6 +216,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
      Message = String.Format("Your directory is {0}.", directory);
      }
     ```
+
 1. Notice that two wavy underlines appear under **Environment** and **String**. The wavy underlines appear because these types are not in scope.
 
    ![Errors marked with wavy underlines in OnGet method](media/csharp-aspnet-razor-add-new-on-get-method.png)
