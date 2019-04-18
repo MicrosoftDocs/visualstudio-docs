@@ -21,7 +21,7 @@ ms.technology: vs-installation
 ---
 # Import or export configurations
 
-You can configure Visual Studio across your organization by using an installation configuration file. Simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations.
+You can configure Visual Studio across your organization by using an installation configuration file. To do so, simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations.
 
 Here's how.
 
