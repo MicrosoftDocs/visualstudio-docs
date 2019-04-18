@@ -78,23 +78,23 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
 
 ## In This Section
 
--   [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md)
+- [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md)
 
--   [Adding and Removing Project Items](../ide/adding-and-removing-project-items.md)
+- [Adding and Removing Project Items](../ide/adding-and-removing-project-items.md)
 
--   [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md)
+- [Managing Project and Solution Properties](../ide/managing-project-and-solution-properties.md)
 
--   [Managing references in a project](../ide/managing-references-in-a-project.md)
+- [Managing references in a project](../ide/managing-references-in-a-project.md)
 
--   [Application Properties](../ide/application-properties.md)
+- [Application Properties](../ide/application-properties.md)
 
--   [Managing Assembly and Manifest Signing](../ide/managing-assembly-and-manifest-signing.md)
+- [Managing Assembly and Manifest Signing](../ide/managing-assembly-and-manifest-signing.md)
 
--   [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)
+- [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)
 
--   [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)
+- [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)
 
--   [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
 
 ## See Also
  [Visual Studio IDE](../ide/visual-studio-ide.md)

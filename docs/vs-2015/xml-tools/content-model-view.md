@@ -85,13 +85,13 @@ The Content Model View provides a graphic representation of local and global sch
 ## Undo/Redo  
  The undo/redo capability is enabled in the Content Model View for the following actions:  
   
--   Adding a single node by dragging and dropping.  
+- Adding a single node by dragging and dropping.  
   
--   Adding multiple nodes from the search results window in Schema Explorer.  
+- Adding multiple nodes from the search results window in Schema Explorer.  
   
--   Adding nodes from the Start View.  
+- Adding nodes from the Start View.  
   
--   Deleting single or multiple nodes.  
+- Deleting single or multiple nodes.  
   
 ## Zoom  
  Zoom is available in the in the lower right corner of the Content Model View.  

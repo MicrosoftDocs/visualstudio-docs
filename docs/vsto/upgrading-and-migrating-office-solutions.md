@@ -29,22 +29,22 @@ ms.workload:
 ## Changes to upgraded projects
  When you upgrade a Microsoft Office project, Visual Studio modifies the project to target the following items:
 
--   The Visual Studio 2010 Tools for Office runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
+- The Visual Studio 2010 Tools for Office runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
--   The current assembly references.
+- The current assembly references.
 
--   A version of the .NET Framework that is supported by the project type (When you upgrade to Visual Studio 2013 only).
+- A version of the .NET Framework that is supported by the project type (When you upgrade to Visual Studio 2013 only).
 
--   A version of Microsoft Office that is supported by the project type (When you upgrade to Visual Studio 2013 only).
+- A version of Microsoft Office that is supported by the project type (When you upgrade to Visual Studio 2013 only).
 
 ## Assembly references
  Visual Studio upgrades the following assembly references in the project:
 
--   Microsoft Office primary interop assemblies (PIAs).
+- Microsoft Office primary interop assemblies (PIAs).
 
--   Assemblies in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. For more information about these assemblies, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
+- Assemblies in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. For more information about these assemblies, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
--   New or updated versions of dependent assemblies.
+- New or updated versions of dependent assemblies.
 
 ## Targeted .NET Framework
  When you upgrade a project to Visual Studio 2013, Visual Studio modifies the project to target either the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] or the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. The version of the .NET framework targeted by the project depends on what version of Office is installed on your computer. If [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] is installed, Visual Studio modifies the project to target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. Otherwise, Visual Studio modifies the project to target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].

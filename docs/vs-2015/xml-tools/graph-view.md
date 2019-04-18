@@ -109,11 +109,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 ## Undo/Redo  
  The undo/redo capability is enabled in the Graph View for the following actions:  
   
--   Adding a single node by dragging and dropping.  
+- Adding a single node by dragging and dropping.  
   
--   Adding multiple nodes from the search results window in Schema Explorer or Start View queries.  
+- Adding multiple nodes from the search results window in Schema Explorer or Start View queries.  
   
--   Deleting single or multiple nodes.  
+- Deleting single or multiple nodes.  
   
 ## Zoom  
  Zoom is available in the lower right corner of the Graph View.  

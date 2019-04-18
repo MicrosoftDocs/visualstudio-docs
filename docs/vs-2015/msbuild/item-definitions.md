@@ -19,15 +19,15 @@ manager: jillfra
   
  The *ItemDefinitionGroup* element appears immediately after the [Project](../msbuild/project-element-msbuild.md) element of the project file. Item definitions provide the following functionality:  
   
--   You can define global default metadata for items outside a target. That is, the same metadata applies to all items of the specified type.  
+- You can define global default metadata for items outside a target. That is, the same metadata applies to all items of the specified type.  
   
--   Item types can have multiple definitions. When additional metadata specifications are added to the type, the last specification takes precedence. \(The metadata follows the same import order as properties follow.\)  
+- Item types can have multiple definitions. When additional metadata specifications are added to the type, the last specification takes precedence. \(The metadata follows the same import order as properties follow.\)  
   
--   Metadata can be additive. For example, CDefines values are accumulated conditionally, depending on the properties that are being set. For example, `MT;STD_CALL;DEBUG;UNICODE`.  
+- Metadata can be additive. For example, CDefines values are accumulated conditionally, depending on the properties that are being set. For example, `MT;STD_CALL;DEBUG;UNICODE`.  
   
--   Metadata can be removed.  
+- Metadata can be removed.  
   
--   Conditions can be used to control the inclusion of metadata.  
+- Conditions can be used to control the inclusion of metadata.  
   
 ## Item Metadata Default Values  
  Item metadata that is defined in an ItemDefinitionGroup is just a declaration of default metadata. The metadata does not apply unless you define an Item that uses an ItemGroup to contain the metadata values.  
@@ -60,21 +60,21 @@ manager: jillfra
 ## Value Sources  
  The values for metadata that is defined in an ItemDefinitionGroup can come from many different sources, as follows:  
   
--   PropertyGroup Property  
+- PropertyGroup Property  
   
--   Item from an ItemDefinitionGroup  
+- Item from an ItemDefinitionGroup  
   
--   Item transform on an ItemDefinitionGroup Item  
+- Item transform on an ItemDefinitionGroup Item  
   
--   Environment variable  
+- Environment variable  
   
--   Global property \(from the MSBuild.exe command line\)  
+- Global property \(from the MSBuild.exe command line\)  
   
--   Reserved property  
+- Reserved property  
   
--   Well\-known metadata on an Item from an ItemDefinitionGroup  
+- Well\-known metadata on an Item from an ItemDefinitionGroup  
   
--   CDATA section \<\!\[CDATA\[anything here is not parsed\]\]\>  
+- CDATA section \<\!\[CDATA\[anything here is not parsed\]\]\>  
   
 > [!NOTE]
 >  Item metadata from an ItemGroup is not useful in an ItemDefinitionGroup metadata declaration because ItemDefinitionGroup elements are processed before ItemGroup elements.  

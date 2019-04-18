@@ -16,11 +16,11 @@ We recommend that you create unit tests to help keep your code working correctly
   
  Test Explorer supersedes the unit test windows found in earlier editions of Visual Studio. Its benefits include:  
   
--   Run .NET, unmanaged, database and other kinds of tests using a single interface.  
+- Run .NET, unmanaged, database and other kinds of tests using a single interface.  
   
--   Use the unit test framework of your choice, such as NUnit or MSTest frameworks.  
+- Use the unit test framework of your choice, such as NUnit or MSTest frameworks.  
   
--   See in one window all the information that you need.  
+- See in one window all the information that you need.  
   
 ## Using Test Explorer  
  ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta.png "UnitTestExplorer(beta)")  
@@ -31,13 +31,13 @@ We recommend that you create unit tests to help keep your code working correctly
   
     For example, to create a test that uses the MSTest Framework:  
   
-   1.  Create a test project.  
+   1. Create a test project.  
   
         In the **New Project** dialog box, expand **Visual Basic**, **Visual C#**, or **Visual C++**, and then choose **Test**.  
   
         Select **Unit Test Project**.  
   
-   2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.  
+   2. Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.  
   
 2. If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
   
@@ -61,7 +61,7 @@ We recommend that you create unit tests to help keep your code working correctly
 > [!NOTE]
 >  If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Use a different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework).  
   
-##  <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method  
+## <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method  
  This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Usa different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework).  
   
 #### Creating the Test and Method  
@@ -70,7 +70,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 2. Create a Test project.  
   
-   -   In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.  
+   - In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.  
   
         ![New code and test projects](../test/media/unittestexplorerwalk1.png "UnitTestExplorerWalk1")  
   
@@ -96,15 +96,15 @@ We recommend that you create unit tests to help keep your code working correctly
   
 4. Generate the method from the test.  
   
-   1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate**, **New Type**.  
+   1. Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate**, **New Type**.  
   
-   2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.  
+   2. In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.  
   
-   3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate**, **Method Stub**.  
+   3. Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate**, **Method Stub**.  
   
 5. Run the unit test.  
   
-   1.  On the **Test** menu, choose **Run Unit Tests**, **All Tests**.  
+   1. On the **Test** menu, choose **Run Unit Tests**, **All Tests**.  
   
         The solution builds and runs.  
   
@@ -124,7 +124,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 #### After every change, make all the tests pass  
   
-1.  In `MyMath\Rooter.cs`, improve the code of `SquareRoot`:  
+1. In `MyMath\Rooter.cs`, improve the code of `SquareRoot`:  
   
     ```csharp  
     public double SquareRoot(double input)  
@@ -133,7 +133,7 @@ We recommend that you create unit tests to help keep your code working correctly
      }  
     ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
      The code builds and the test runs.  
   
@@ -143,7 +143,7 @@ We recommend that you create unit tests to help keep your code working correctly
   
 #### Add tests to extend the range of inputs  
   
-1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
+1. To improve your confidence that your code works in all cases, add tests that try a broader range of input values.  
   
     > [!TIP]
     >  Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps ensure that you don’t lose existing functionality as you work to extend the code.  
@@ -174,13 +174,13 @@ We recommend that you create unit tests to help keep your code working correctly
     }  
     ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
      The new test fails, although the first test still passes.  
   
      To find the point of failure, select the failing test and then in the lower part of Test Explorer, select the top item of the **Stack Trace**.  
   
-3.  Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:  
+3. Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:  
   
     ```  
     public double SquareRoot(double input)  
@@ -196,13 +196,13 @@ We recommend that you create unit tests to help keep your code working correctly
     }  
     ```  
   
-4.  In Test Explorer, choose **Run All**.  
+4. In Test Explorer, choose **Run All**.  
   
      Both tests now pass.  
   
 #### Add tests for exceptional cases  
   
-1.  Add a test for negative inputs:  
+1. Add a test for negative inputs:  
   
     ```csharp  
     [TestMethod]  
@@ -221,15 +221,15 @@ We recommend that you create unit tests to help keep your code working correctly
      }  
     ```  
   
-2.  In Test Explorer, choose **Run All**.  
+2. In Test Explorer, choose **Run All**.  
   
      The method under test loops, and must be canceled manually.  
   
-3.  Choose **Cancel**.  
+3. Choose **Cancel**.  
   
      The test stops after 10 seconds.  
   
-4.  Fix the method code:  
+4. Fix the method code:  
   
     ```csharp  
   
@@ -242,13 +242,13 @@ We recommend that you create unit tests to help keep your code working correctly
     ...  
     ```  
   
-5.  In Test Explorer, choose **Run All**.  
+5. In Test Explorer, choose **Run All**.  
   
      All the tests pass.  
   
 #### Refactor without changing tests  
   
-1.  Simplify the code, but do not change the tests.  
+1. Simplify the code, but do not change the tests.  
   
     > [!TIP]
     >  A *refactoring* is a change that is intended to make the code perform better or to make the code easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.  
@@ -277,7 +277,7 @@ We recommend that you create unit tests to help keep your code working correctly
     }  
     ```  
   
-2.  Choose **Run All**.  
+2. Choose **Run All**.  
   
      All the tests still pass.  
   

@@ -83,7 +83,7 @@ manager: "wpickett"
 
    **To sign your assembly with a strong name outside Visual Studio**
 
--   Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6).
+- Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6).
 
 ## When to Suppress Warnings
  Only suppress a warning from this rule if the assembly is used in an environment where tampering with the contents is not a concern.

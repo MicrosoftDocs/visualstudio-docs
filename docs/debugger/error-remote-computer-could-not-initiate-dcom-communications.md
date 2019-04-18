@@ -20,17 +20,17 @@ A DCOM error occurred when the remote machine tried to communicate with the loca
 
  running Visual Studio. This error can occur for several reasons:
 
--   The local machine has a firewall enabled.
+- The local machine has a firewall enabled.
 
--   Windows authentication from the remote machine to the local machine is not working.
+- Windows authentication from the remote machine to the local machine is not working.
 
 ### To correct this error
 
-1.  If the local machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.
+1. If the local machine has Windows Firewall enabled, see [Remote Debugging](../debugger/remote-debugging.md) for instructions about how to configure the firewall for local debugging.
 
-2.  Test Windows authentication by trying to open a file share on the local machine from the remote server.
+2. Test Windows authentication by trying to open a file share on the local machine from the remote server.
 
-3.  To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
+3. To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
 
 ## See Also
  [Remote Debugging](../debugger/remote-debugging.md)

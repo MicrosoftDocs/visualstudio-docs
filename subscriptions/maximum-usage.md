@@ -26,7 +26,7 @@ To see the peak number of subscriptions assigned for any agreement and subscript
     > [!div class="mx-imgBorder"]
     > ![Maximum Usage Summary](_img/maximum-usage/maximum-usage-summary.png)
 
-4.  To see the maximum number of subscriptions assigned for the life of the agreement, click the **Full-Term** tab.
+4. To see the maximum number of subscriptions assigned for the life of the agreement, click the **Full-Term** tab.
 
 ## Viewing assignment history
 

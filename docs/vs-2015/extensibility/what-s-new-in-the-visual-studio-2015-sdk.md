@@ -23,9 +23,9 @@ Starting in Visual Studio 2017, scanning for custom project and item templates w
 
  These topics are under the [VSSDK Utilities](../extensibility/internals/vssdk-utilities.md) section:
 
--   The [Color Theming Tools](../extensibility/internals/color-theming-tools.md) help you create and edit custom colors for Visual Studio.
+- The [Color Theming Tools](../extensibility/internals/color-theming-tools.md) help you create and edit custom colors for Visual Studio.
 
--   The [Image Service Tools](../extensibility/internals/image-service-tools.md) let you work with Visual Studio image manifest files.
+- The [Image Service Tools](../extensibility/internals/image-service-tools.md) let you work with Visual Studio image manifest files.
 
 ## New Way to Add the Visual Studio SDK to Visual Studio
  Starting in Visual Studio 2015, you don't need to download the Visual Studio SDK separately. Instead, you can install it as part of the normal installation process, or you can choose to install it later on. When you open or create  a VSIX solution, Visual Studio will ask you to install the Visual Studio Extensibility Tools. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
@@ -36,13 +36,13 @@ Starting in Visual Studio 2017, scanning for custom project and item templates w
 ### Visual C# and Visual Basic
  For C# and Visual Basic, there is a full range of project item templates that allow you to create VSPackages, menu commands, tool windows, editor classifiers, editor adornments, and editor margin extensions. You can add any or all of these to the standard VSIX project. For more information, see:
 
--   [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
+- [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
--   [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md)
+- [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md)
 
--   [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md)
+- [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md)
 
--   [Creating an Extension with a VSPackage](../extensibility/creating-an-extension-with-a-vspackage.md)
+- [Creating an Extension with a VSPackage](../extensibility/creating-an-extension-with-a-vspackage.md)
 
      The VSPackage Wizard no longer creates extensions in C# or Visual Basic.
 

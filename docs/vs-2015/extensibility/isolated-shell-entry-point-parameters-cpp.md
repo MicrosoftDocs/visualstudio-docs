@@ -73,17 +73,17 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
   
  For boolean settings, the following strings represent the value true; all other strings represent the value false. These strings are case-insensitive.  
   
--   \+  
+- \+  
   
--   1  
+- 1  
   
--   -1  
+- -1  
   
--   on  
+- on  
   
--   true  
+- true  
   
--   yes  
+- yes  
   
 ## Example  
  To disable add-ins and change the default projects location for your application, you can set the last parameter to "AddinsAllowed=false;DefaultProjectsLocation=%USERPROFILE%\temp".  

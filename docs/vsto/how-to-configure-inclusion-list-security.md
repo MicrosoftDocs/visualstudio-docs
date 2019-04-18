@@ -21,30 +21,30 @@ ms.workload:
 
  For solutions that are in each of five zones, you can set the following options:
 
--   Enable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to grant trust to Office solutions that are signed with any certificate.
+- Enable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to grant trust to Office solutions that are signed with any certificate.
 
--   Restrict the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to install Office solutions that are signed with a certificate that identifies the publisher, but that is not already trusted.
+- Restrict the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can allow end users to install Office solutions that are signed with a certificate that identifies the publisher, but that is not already trusted.
 
--   Disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can prevent end users from installing any Office solution that is not signed with an explicitly trusted certificate.
+- Disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can prevent end users from installing any Office solution that is not signed with an explicitly trusted certificate.
 
 ## Enable the inclusion list
  Enable the inclusion list for a zone when you want end users to be presented with the option of installing and running any Office solution that comes from that zone.
 
 ### To enable the inclusion list by using the registry editor
 
-1.  Open the registry editor:
+1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type **regedt32.exe**, and then click **OK**.
+    2. In the **Open** box, type **regedt32.exe**, and then click **OK**.
 
-2.  Find the following registry key:
+2. Find the following registry key:
 
      **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**
 
      If the key does not exist, create it.
 
-3.  Add the following subkeys as **String Value**, if they do not already exist, with the associated values.
+3. Add the following subkeys as **String Value**, if they do not already exist, with the associated values.
 
     |String Value subkey|Value|
     |-------------------------|-----------|
@@ -58,9 +58,9 @@ ms.workload:
 
 ### To enable the inclusion list programmatically
 
-1.  Create a Visual Basic or Visual C# console application.
+1. Create a Visual Basic or Visual C# console application.
 
-2.  Open the *Program.vb* or *Program.cs* file for editing and add the following code.
+2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
     ```vb
     Dim key As Microsoft.Win32.RegistryKey
@@ -84,26 +84,26 @@ ms.workload:
     key.Close();
     ```
 
-3.  Build and run the application.
+3. Build and run the application.
 
 ## Restrict the inclusion list
  Restrict the inclusion list so that solutions must be signed with Authenticode certificates that have known identity before users are prompted for a trust decision.
 
 ### To restrict the inclusion list
 
-1.  Open the registry editor:
+1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type **regedt32.exe**, and then click **OK**.
+    2. In the **Open** box, type **regedt32.exe**, and then click **OK**.
 
-2.  Find the following registry key:
+2. Find the following registry key:
 
      **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**
 
      If the key does not exist, create it.
 
-3.  Add the following subkeys as **String Value**, if they do not already exist, with the associated values.
+3. Add the following subkeys as **String Value**, if they do not already exist, with the associated values.
 
     |String Value subkey|Value|
     |-------------------------|-----------|
@@ -117,9 +117,9 @@ ms.workload:
 
 ### To restrict the inclusion list programmatically
 
-1.  Create a Visual Basic or Visual C# console application.
+1. Create a Visual Basic or Visual C# console application.
 
-2.  Open the *Program.vb* or *Program.cs* file for editing and add the following code.
+2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
     ```vb
     Dim key As Microsoft.Win32.RegistryKey
@@ -143,24 +143,24 @@ ms.workload:
     key.Close();
     ```
 
-3.  Build and run the application.
+3. Build and run the application.
 
 ## Disable the inclusion list
  You can disable the inclusion list so that end users can only install solutions that are signed with a trusted and known certificate.
 
 ### To disable the inclusion list
 
-1.  Open the registry editor:
+1. Open the registry editor:
 
-    1.  Click **Start**, and then click **Run**.
+    1. Click **Start**, and then click **Run**.
 
-    2.  In the **Open** box, type **regedt32.exe**, and then click **OK**.
+    2. In the **Open** box, type **regedt32.exe**, and then click **OK**.
 
-2.  Create the following registry key if this does not already exist:
+2. Create the following registry key if this does not already exist:
 
      **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**
 
-3.  Add the following subkeys as **String Value**, if they do not already exist, with the associated values.
+3. Add the following subkeys as **String Value**, if they do not already exist, with the associated values.
 
     |String Value subkey|Value|
     |-------------------------|-----------|
@@ -172,9 +172,9 @@ ms.workload:
 
 ### To disable the inclusion list programmatically
 
-1.  Create a Visual Basic or Visual C# console application.
+1. Create a Visual Basic or Visual C# console application.
 
-2.  Open the *Program.vb* or *Program.cs* file for editing and add the following code.
+2. Open the *Program.vb* or *Program.cs* file for editing and add the following code.
 
     ```vb
     Dim key As Microsoft.Win32.RegistryKey
@@ -199,7 +199,7 @@ ms.workload:
 
     ```
 
-3.  Build and run the application.
+3. Build and run the application.
 
 ## See also
 - [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)

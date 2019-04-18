@@ -34,28 +34,28 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 ## To build, rebuild, or clean an entire solution
 
-1.  In **Solution Explorer**, choose or open the solution.
+1. In **Solution Explorer**, choose or open the solution.
 
-2.  On the menu bar, choose **Build**, and then choose one of the following commands:
+2. On the menu bar, choose **Build**, and then choose one of the following commands:
 
-    -   Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
+    - Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
         >  The **Build** command becomes **Build Solution** when a solution includes more than one project.
 
-    -   Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
+    - Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
 
-    -   Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
+    - Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
 
 ## To build or rebuild a single project
 
-1.  In **Solution Explorer**, choose or open the project.
+1. In **Solution Explorer**, choose or open the project.
 
-2.  On the menu bar, choose **Build**, and then choose either **Build** _ProjectName_ or **Rebuild** _ProjectName_.
+2. On the menu bar, choose **Build**, and then choose either **Build** _ProjectName_ or **Rebuild** _ProjectName_.
 
-    -   Choose **Build** _ProjectName_ to build only those project components that have changed since the most recent build.
+    - Choose **Build** _ProjectName_ to build only those project components that have changed since the most recent build.
 
-    -   Choose **Rebuild** _ProjectName_ to "clean" the project and then build the project files and all project components.
+    - Choose **Rebuild** _ProjectName_ to "clean" the project and then build the project files and all project components.
 
 ## To build only the startup project and its dependencies
 
@@ -91,17 +91,17 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
 
 ## To compile multiple C++ project items
 
-1.  In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.
+1. In **Solution Explorer**, choose multiple files that have can be compiled actions, open the shortcut menu for one of those files, and then choose **Compile**.
 
      If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn’t available when you compile. The compile operation uses the current active solution configuration.
 
 ## To stop a build
 
-1.  Perform either of the following steps:
+1. Perform either of the following steps:
 
-    -   On the menu bar, choose **Build**, **Cancel**.
+    - On the menu bar, choose **Build**, **Cancel**.
 
-    -   Choose the Ctrl + Break keys.
+    - Choose the Ctrl + Break keys.
 
 ## See also
  [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)

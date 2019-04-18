@@ -21,7 +21,7 @@ This message occurs when you attempt SQL debugging on a machine where SQL debugg
 
 ### To correct this error
 
--   See [Setting Up SQL Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
+- See [Setting Up SQL Debugging](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
 ## See Also
 - [Debugging SQL](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/zefbf0t6(v=vs.100))

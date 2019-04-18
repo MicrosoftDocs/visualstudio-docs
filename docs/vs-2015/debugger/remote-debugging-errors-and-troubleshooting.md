@@ -31,13 +31,13 @@ manager: jillfra
 
 You may encounter the following errors when attempting to debug remotely.  
   
--   [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)  
+- [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)  
   
--   [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.](/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running?view=vs-2015)  
+- [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.](/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running?view=vs-2015)  
   
--   [Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor](../debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md)  
+- [Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor](../debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md)  
   
--   [Error: Remote machine does not appear in a Remote Connections dialog](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md)  
+- [Error: Remote machine does not appear in a Remote Connections dialog](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md)  
   
 ## See Also  
  [Remote Debugging](../debugger/remote-debugging.md)

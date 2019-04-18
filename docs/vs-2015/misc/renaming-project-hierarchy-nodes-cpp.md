@@ -18,7 +18,7 @@ You can rename a project folder hierarchy node by using the HierUtil7 project fr
   
 #### To expand the hierarchy node and rename the folder  
   
-1.  Select the hierarchy node by using the following method:  
+1. Select the hierarchy node by using the following method:  
   
     ```  
     IfFailGo(pNode->ExtExpand(EXPF_SelectItem, GUID_MacroExplorer));  
@@ -32,7 +32,7 @@ You can rename a project folder hierarchy node by using the HierUtil7 project fr
   
      You can find the Hu_node.h file in the folder, \<installation root>\Program Files\VSIP 8.0\EnvSDK\common\hierutil7:  
   
-2.  Rename the folder by posting the rename command by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.PostExecCommand%2A>  
+2. Rename the folder by posting the rename command by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.PostExecCommand%2A>  
   
     ```  
     IfFailGo(srpVsUIShell->PostExecCommand(&guidVSStd97, cmdidRename, 0, NULL));  

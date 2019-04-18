@@ -58,7 +58,7 @@ This release of Visual Studio includes the following improvements to help you be
 
 - **Architecture Explorer**. You can no longer use Architecture Explorer to create diagrams. But you can still use Solution Explorer.
 
-##  <a name="VersionSupport"></a> Edition support for architecture and modeling tools
+## <a name="VersionSupport"></a> Edition support for architecture and modeling tools
 
 Visual Studio 2015 is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.
 

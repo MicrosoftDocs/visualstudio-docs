@@ -43,13 +43,13 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
   
 ### To register a category using built-in fonts and colors  
   
-1.  Construct a special type of category registry entry in the following location:  
+1. Construct a special type of category registry entry in the following location:  
   
      [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<Category>*]  
   
      *\<Category>* is the non-localized name of the category.  
   
-2.  Populate the registry to use the stock fonts and color scheme with four values:  
+2. Populate the registry to use the stock fonts and color scheme with four values:  
   
     |Name|Type|Data|Description|  
     |----------|----------|----------|-----------------|  
@@ -58,7 +58,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
     |NameID|REG_DWORD|ID|The resource ID of a localizable category name in the VSPackage.|  
     |ToolWindowPackage|REG_SZ|GUID|The GUID of the VSPackage implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.|  
   
-3.  
+3. 
   
 ### To initiate the use of system-provided fonts and colors  
   

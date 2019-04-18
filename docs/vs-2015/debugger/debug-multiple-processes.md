@@ -26,7 +26,7 @@ manager: jillfra
 
 Here’s how to start debugging processes, switch between processes, break and continue execution, step through source, stop debugging, and terminate or detach from processes.  
   
-##  <a name="BKMK_Contents"></a> Contents  
+## <a name="BKMK_Contents"></a> Contents  
  [Configure the execution behavior of multiple processes](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
   
  [Find the source and symbol (.pdb) files](#BKMK_Find_the_source_and_symbol___pdb__files)  
@@ -37,7 +37,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  [Stop debugging, terminate or detach from processes](#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
   
-##  <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a> Configure the execution behavior of multiple processes  
+## <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a> Configure the execution behavior of multiple processes  
  By default, when multiple processes are running in the debugger, the breaking, stepping, and stopping debugger commands usually affect all the processes. For example, when one process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior to gain more control over the targets of execution commands.  
   
 1. On the **Debug** menu, choose **Options and Settings**.  
@@ -46,16 +46,16 @@ Here’s how to start debugging processes, switch between processes, break and c
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> Find the source and symbol (.pdb) files  
+## <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> Find the source and symbol (.pdb) files  
  To navigate the source code of a process, the debugger needs access to the source files and symbol files of the process. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
  If you can’t access the files for a process, you can navigate by using the Disassemby window. See [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger"></a> Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger  
+## <a name="BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger"></a> Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger  
   
--   [Start debugging multiple processes in a Visual Studio solution](#BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution) • [Change the startup project](#BKMK_Change_the_startup_project) • [Start a specific project in a solution](#BKMK_Start_a_specific_project_in_a_solution) • [Start multiple projects in a solution](#BKMK_Start_multiple_projects_in_a_solution) • [Attach to a process](#BKMK_Attach_to_a_process) • [Automatically start a process in the debugger](#BKMK_Automatically_start_an_process_in_the_debugger)  
+- [Start debugging multiple processes in a Visual Studio solution](#BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution) • [Change the startup project](#BKMK_Change_the_startup_project) • [Start a specific project in a solution](#BKMK_Start_a_specific_project_in_a_solution) • [Start multiple projects in a solution](#BKMK_Start_multiple_projects_in_a_solution) • [Attach to a process](#BKMK_Attach_to_a_process) • [Automatically start a process in the debugger](#BKMK_Automatically_start_an_process_in_the_debugger)  
   
 > [!NOTE]
 >  The debugger does not automatically attach to a child process that is started by a debugged process, even if the child project is in the same solution. To debug a child process:  
@@ -63,24 +63,24 @@ Here’s how to start debugging processes, switch between processes, break and c
 > - Attach to the child process after it has been started.  
 > 
 >   -or-  
->   -   Configure Windows to automatically start the child process in a new instance of the debugger.  
+>   - Configure Windows to automatically start the child process in a new instance of the debugger.  
   
-###  <a name="BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution"></a> Start debugging multiple processes in a Visual Studio solution  
+### <a name="BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution"></a> Start debugging multiple processes in a Visual Studio solution  
  When you have more than one project in a Visual Studio solution that can run independently (projects that run in separate processes), you can select which projects the debugger starts.  
   
  ![Changing the startup type for a project](../debugger/media/dbg-execution-startmultipleprojects.png "DBG_Execution_StartMultipleProjects")  
   
-####  <a name="BKMK_Change_the_startup_project"></a> Change the startup project  
+#### <a name="BKMK_Change_the_startup_project"></a> Change the startup project  
  To change the startup project for a solution, select the project in Solution Explorer and then choose **Set as Startup Project** from the context menu.  
   
-####  <a name="BKMK_Start_a_specific_project_in_a_solution"></a> Start a specific project in a solution  
+#### <a name="BKMK_Start_a_specific_project_in_a_solution"></a> Start a specific project in a solution  
  To start a project for a solution without changing the default startup project, select the project in Solution Explorer and then choose **Debug** from the context menu. You can then choose **Start new instance** or **Step Into new instance**.  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Start multiple processes in a VS solution, attach to a process, automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-####  <a name="BKMK_Start_multiple_projects_in_a_solution"></a> Start multiple projects in a solution  
+#### <a name="BKMK_Start_multiple_projects_in_a_solution"></a> Start multiple projects in a solution  
   
 1. Select the solution in Solution Explorer and then choose **Properties** on the context menu.  
   
@@ -92,7 +92,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Attach_to_a_process"></a> Attach to a process  
+### <a name="BKMK_Attach_to_a_process"></a> Attach to a process  
  The debugger can also to *attach* to programs that are running in processes outside of Visual Studio, including programs that are running on a remote device. After you attach to a program, you can use debugger execution commands, inspect the program state, and so on. Your ability to inspect the program might be limited, depending on whether the program was built with debug information and whether you have access to the program's source code, and whether the common language runtime JIT compiler is tracking debug information.  
   
  See [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) for more information.  
@@ -105,7 +105,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> Automatically start a process in the debugger  
+### <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> Automatically start a process in the debugger  
  Sometimes, you might need to debug the startup code for a program that is launched by another process. Examples include services and custom setup actions. In these scenarios, you can have the debugger launch and automatically attach when your application starts.  
   
 1. Start the Registry Editor (**regedit.exe**).  
@@ -130,11 +130,11 @@ Here’s how to start debugging processes, switch between processes, break and c
   
    ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Switch processes, break and continue execution, step through source  
+## <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Switch processes, break and continue execution, step through source  
   
--   [Switch between processes](#BKMK_Switch_between_processes) • [Break, step, and continue commands](#BKMK_Break__step__and_continue_commands)  
+- [Switch between processes](#BKMK_Switch_between_processes) • [Break, step, and continue commands](#BKMK_Break__step__and_continue_commands)  
   
-###  <a name="BKMK_Switch_between_processes"></a> Switch between processes  
+### <a name="BKMK_Switch_between_processes"></a> Switch between processes  
  You can attach to multiple processes when you are debugging, but only one process is active in the debugger at any given time. You can set the active or *current* process in the Debug Location toolbar or in the **Processes** window. To switch between processes, both processes must be in break mode.  
   
  **To set the current process**  
@@ -157,7 +157,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-###  <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands  
+### <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands  
   
 > [!NOTE]
 >  By default, the break, continue and step debugger commands affect all processes that are being debugged. To change this behavior, see [Configure the execution behavior of multiple processes](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
@@ -178,7 +178,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Stop_debugging__terminate_or_detach_from_processes"></a> Stop debugging, terminate or detach from processes  
+## <a name="BKMK_Stop_debugging__terminate_or_detach_from_processes"></a> Stop debugging, terminate or detach from processes  
   
 - [Stop, terminate, and detach commands](#BKMK_Stop__terminate__and_detach_commands)  
   
@@ -195,9 +195,9 @@ Here’s how to start debugging processes, switch between processes, break and c
   
  **To change how Stop Debugging affects an individual process**  
   
--   Open the **Processes** window (shortcut **Ctrl+Alt+Z**). Select a process and then select or clear the **Detach when debugging stopped** check box.  
+- Open the **Processes** window (shortcut **Ctrl+Alt+Z**). Select a process and then select or clear the **Detach when debugging stopped** check box.  
   
-###  <a name="BKMK_Stop__terminate__and_detach_commands"></a> Stop, terminate, and detach commands  
+### <a name="BKMK_Stop__terminate__and_detach_commands"></a> Stop, terminate, and detach commands  
   
 |||  
 |-|-|  

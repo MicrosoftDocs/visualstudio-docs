@@ -26,7 +26,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
 > [!NOTE]
 >  This walkthrough is based on Visual Studio Professional, which offers the WPF Application template on which you'll build the project for this walkthrough. Visual Studio Express for Windows Desktop also offers that template, but Visual Studio Express for Windows and Visual Studio Express for Web don't. For introductory information about how to use Visual Studio Express for Windows, see the [Developer Center for Windows Store apps](http://msdn.microsoft.com/windows/apps/br229519). For introductory information about how to use Visual Studio Express for Web, see [Get Started with ASP.NET](http://www.asp.net/get-started). In addition, your edition of Visual Studio and the settings that you use determine the names and locations of some elements of the user interface. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
+## <a name="BKMK_ConfigureIDE"></a> Configure the IDE  
  When you start Visual Studio for the first time, Visual Studio prompts you to sign in with a Microsoft Service Account (MSA), [Sign into Visual Studio](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx). You do not need to sign in and can do that later.  
   
  On your Visual Studio launch, you next must choose a settings combination that applies a set of pre-defined customizations to the IDE. Each settings combination has been designed to make it easier for you to develop applications.  
@@ -63,7 +63,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
    The color theme used for pictures in the rest of this walkthrough is the light theme. For more information about customizing the IDE, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
-##  <a name="BKMK_CreateApp"></a> Create a simple application  
+## <a name="BKMK_CreateApp"></a> Create a simple application  
   
 ### Create the project  
  When you create an application in Visual Studio, you first create a project and a solution. For this example, you’ll create a Windows Presentation Foundation (WPF) project.  
@@ -193,7 +193,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### Add code to display message boxes  
   
-1.  On the design surface, double-click the **Display** button.  
+1. On the design surface, double-click the **Display** button.  
   
      Greetings.xaml.vb or Greetings.xaml.cs opens, with the cursor in the Button_Click event. You can also add a click event handler as follows (if the pasted code has a red squiggle under any names, then you probably did not select the RadioButton controls on the design surface and rename them):  
   
@@ -214,7 +214,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
     }  
     ```  
   
-2.  For Visual Basic, enter the following code:  
+2. For Visual Basic, enter the following code:  
   
     ```vb  
     If RadioButton1.IsChecked = True Then  
@@ -239,9 +239,9 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
     }  
     ```  
   
-3.  Save the application.  
+3. Save the application.  
   
-##  <a name="BKMK_DebugTest"></a> Debug and test the application  
+## <a name="BKMK_DebugTest"></a> Debug and test the application  
  Next, you’ll debug the application to look for errors and test that both message boxes appear correctly. The following instructions tell you how to build and launch the debugger, but later you might read [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) and [Debugging WPF](../debugger/debugging-wpf.md) for more information.  
   
 ### Find and fix errors  
@@ -274,29 +274,29 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
   
 ##### To add breakpoints  
   
-1.  Open Greetings.xaml.vb or Greetings.xaml.cs, and select the following line: `MessageBox.Show("Hello.")`  
+1. Open Greetings.xaml.vb or Greetings.xaml.cs, and select the following line: `MessageBox.Show("Hello.")`  
   
-2.  Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.  
+2. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.  
   
      ![Toggle Breakpoint command on the Debug menu](../ide/media/exploreide-togglebreakpoint.png "ExploreIDE-ToggleBreakpoint")  
   
      A red circle appears next to the line of code in the far left margin of the editor window.  
   
-3.  Select the following line: `MessageBox.Show("Goodbye.")`.  
+3. Select the following line: `MessageBox.Show("Goodbye.")`.  
   
-4.  Press the F9 key to add a breakpoint, and then press the F5 key to start debugging.  
+4. Press the F9 key to add a breakpoint, and then press the F5 key to start debugging.  
   
-5.  In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.  
+5. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.  
   
      The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side, and the Call Stack, Breakpoints, Command, Immediate, and Output windows are docked together on the right side.  
   
-6.  On the menu bar, choose **Debug**, **Step Out**.  
+6. On the menu bar, choose **Debug**, **Step Out**.  
   
      The application resumes execution, and a message box with the word “Hello” appears.  
   
-7.  Choose the **OK** button on the message box to close it.  
+7. Choose the **OK** button on the message box to close it.  
   
-8.  In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.  
+8. In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.  
   
      The line `MessageBox.Show("Goodbye.")` is highlighted in yellow.  
   

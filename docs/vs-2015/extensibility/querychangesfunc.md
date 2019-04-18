@@ -46,7 +46,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 |SCC_I_OPERATIONCANCELED|Stop processing.|  
 |SCC_E_xxx|Any appropriate SCC error should stop processing.|  
   
-##  <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA Structure  
+## <a name="LinkQUERYCHANGESDATA"></a> QUERYCHANGESDATA Structure  
  The structure passed in for each file looks like the following:  
   
 ```cpp#  

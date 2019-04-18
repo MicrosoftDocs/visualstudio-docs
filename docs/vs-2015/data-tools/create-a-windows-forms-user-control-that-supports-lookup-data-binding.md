@@ -38,35 +38,35 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
  During this walkthrough, you will learn how to:  
   
--   Create a new **Windows Application**.  
+- Create a new **Windows Application**.  
   
--   Add a new **User Control** to your project.  
+- Add a new **User Control** to your project.  
   
--   Visually design the user control.  
+- Visually design the user control.  
   
--   Implement the `LookupBindingProperty` attribute.  
+- Implement the `LookupBindingProperty` attribute.  
   
--   Create a dataset with the **Data Source Configuration** wizard.  
+- Create a dataset with the **Data Source Configuration** wizard.  
   
--   Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.  
+- Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.  
   
--   Create a form to display data in the new control.  
+- Create a form to display data in the new control.  
   
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database.  
+- Access to the Northwind sample database.  
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, from the **File** menu, create a new **Project**.  
+1. In Visual Studio, from the **File** menu, create a new **Project**.  
   
-2.  Name the project **LookupControlWalkthrough**.  
+2. Name the project **LookupControlWalkthrough**.  
   
-3.  Select **Windows  Forms Application**, and click **OK**.  
+3. Select **Windows  Forms Application**, and click **OK**.  
   
      The **LookupControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -75,9 +75,9 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To add a user control to the project  
   
-1.  From the **Project** menu, select **Add User Control**.  
+1. From the **Project** menu, select **Add User Control**.  
   
-2.  Type `LookupBox` in the **Name** area, and then click **Add**.  
+2. Type `LookupBox` in the **Name** area, and then click **Add**.  
   
      The **LookupBox** control is added to **Solution Explorer**, and opens in the designer.  
   
@@ -85,46 +85,46 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To design the LookupBox control  
   
--   Drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.  
+- Drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.  
   
 ## Add the required data-binding attribute  
  For lookup controls that support data binding, you can implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>.  
   
 #### To implement the LookupBindingProperties attribute  
   
-1.  Switch the **LookupBox** control to code view. (On the **View** menu, choose **Code**.)  
+1. Switch the **LookupBox** control to code view. (On the **View** menu, choose **Code**.)  
   
-2.  Replace the code in the `LookupBox` with the following:  
+2. Replace the code in the `LookupBox` with the following:  
   
      [!code-csharp[VbRaddataDisplaying#5](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDisplaying/CS/LookupBox.cs#5)]
      [!code-vb[VbRaddataDisplaying#5](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDisplaying/VB/LookupBox.vb#5)]  
   
-3.  From the **Build** menu, choose **Build Solution**.  
+3. From the **Build** menu, choose **Build Solution**.  
   
 ## Create a data source from your database  
  This step creates a data source using the **Data Source Configuration** wizard, based on the `Customers` and `Orders` tables in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [Install SQL Server sample databases](../data-tools/install-sql-server-sample-databases.md).  
   
 #### To create the data source  
   
-1.  On the **Data** menu, click **Show Data Sources**.  
+1. On the **Data** menu, click **Show Data Sources**.  
   
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.  
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.  
   
-3.  Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.  
+3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.  
   
-4.  On the **Choose your Data Connection** page do one of the following:  
+4. On the **Choose your Data Connection** page do one of the following:  
   
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.  
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.  
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.  
   
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.  
+7. On the **Choose your Database Objects** page, expand the **Tables** node.  
   
-8.  Select the `Customers` and `Orders` tables, and then click **Finish**.  
+8. Select the `Customers` and `Orders` tables, and then click **Finish**.  
   
      The **NorthwindDataSet** is added to your project, and the `Customers` and `Orders` tables appear in the **Data Sources** window.  
   
@@ -133,34 +133,34 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To set the CustomerID column to bind to the LookupBox control  
   
-1.  Open **Form1** in the designer.  
+1. Open **Form1** in the designer.  
   
-2.  Expand the **Customers** node in the **Data Sources** window.  
+2. Expand the **Customers** node in the **Data Sources** window.  
   
-3.  Expand the **Orders** node (the one in the **Customers** node below the **Fax** column).  
+3. Expand the **Orders** node (the one in the **Customers** node below the **Fax** column).  
   
-4.  Click the drop-down arrow on the **Orders** node, and choose **Details** from the control list.  
+4. Click the drop-down arrow on the **Orders** node, and choose **Details** from the control list.  
   
-5.  Click the drop-down arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.  
+5. Click the drop-down arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.  
   
-6.  Select the **LookupBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.  
+6. Select the **LookupBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.  
   
-7.  Click **OK**.  
+7. Click **OK**.  
   
-8.  Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.  
+8. Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.  
   
 ## Addcontrols to the form  
  You can create the data-bound controls by dragging items from the **Data Sources** window onto **Form1**.  
   
 #### To create data-bound controls on the Windows Form  
   
--   Drag the **Orders** node from the **Data Sources** window onto the Windows Form, and verify that the **LookupBox** control is used to display the data in the `CustomerID` column.  
+- Drag the **Orders** node from the **Data Sources** window onto the Windows Form, and verify that the **LookupBox** control is used to display the data in the `CustomerID` column.  
   
 ## Bind the control to look up CompanyName from the Customers table  
   
 #### To setup the lookup bindings  
   
--   Select the main **Customers** node in the **Data Sources** window, and drag it onto the combo box in the **CustomerIDLookupBox** on **Form1**.  
+- Select the main **Customers** node in the **Data Sources** window, and drag it onto the combo box in the **CustomerIDLookupBox** on **Form1**.  
   
      This sets up the data binding to display the `CompanyName` from the `Customers` table, while maintaining the `CustomerID` value from the `Orders` table.  
   
@@ -168,9 +168,9 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To run the application  
   
--   Press F5 to run the application.  
+- Press F5 to run the application.  
   
--   Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.  
+- Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)

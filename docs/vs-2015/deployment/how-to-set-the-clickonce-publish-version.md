@@ -30,11 +30,11 @@ The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` pro
   
 ### To change the Publish Version  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  In **Publish Version** field, increment the **Major**, **Minor**, **Build**, or **Revision** version numbers.  
+3. In **Publish Version** field, increment the **Major**, **Minor**, **Build**, or **Revision** version numbers.  
   
     > [!NOTE]
     >  You should never decrement a version number; doing so could cause unpredictable update behavior.  

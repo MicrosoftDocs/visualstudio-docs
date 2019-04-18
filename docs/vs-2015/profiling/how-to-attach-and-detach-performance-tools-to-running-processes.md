@@ -38,7 +38,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 ### To attach to a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
+1. On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
   
      \- or -  
   
@@ -46,13 +46,13 @@ The profiler can be used to attach to or detach from a running process to make s
   
      The **Attach Profiler to Process** dialog box appears.  
   
-2.  Click the name of the process that you want to attach to.  
+2. Click the name of the process that you want to attach to.  
   
-3.  Click **Attach**.  
+3. Click **Attach**.  
   
 ### To detach from a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
+1. On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
   
      \- or -  
   
@@ -60,9 +60,9 @@ The profiler can be used to attach to or detach from a running process to make s
   
      The **Attach Profiler to Process** dialog box appears.  
   
-2.  Click the image name from which you want to detach.  
+2. Click the image name from which you want to detach.  
   
-3.  Click **Detach**.  
+3. Click **Detach**.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   

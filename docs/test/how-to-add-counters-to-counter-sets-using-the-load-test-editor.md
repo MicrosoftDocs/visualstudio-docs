@@ -24,34 +24,34 @@ You manage your counters in the **Load Test Editor**. The counter sets that are 
 
 ## To add counters to a counter set
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  Expand the **Counter Sets** node. All the counter sets that have been added to the load test are visible.
+2. Expand the **Counter Sets** node. All the counter sets that have been added to the load test are visible.
 
     > [!NOTE]
     > The load test hierarchy tree also contains the **Run Settings** node. This node contains the **Counter Set Mappings** node, which shows all the computers and the counter sets that are mapped to those computers.
 
-3.  Right-click an existing counter set and then choose **Add Counters**.
+3. Right-click an existing counter set and then choose **Add Counters**.
 
      The **Pick Performance Counters** dialog box is displayed.
 
-4.  In the **Computer** drop-down combo box, type the name of the computer you want to map to. Alternatively, select one of the computers in the drop-down list.
+4. In the **Computer** drop-down combo box, type the name of the computer you want to map to. Alternatively, select one of the computers in the drop-down list.
 
     > [!NOTE]
     > Because counter sets must be mapped to a computer before performance data is collected, you must specify a computer on which to collect performance data.
 
-5.  Select a **Performance category** to filter the categories of performance data counters. You will see two columns of data from which to select performance counters.
+5. Select a **Performance category** to filter the categories of performance data counters. You will see two columns of data from which to select performance counters.
 
     > [!NOTE]
     > Some counter categories will require that you select an instance also. For example, if you select a SQL counter, you must select a SQL instance because there may be more than one instance of SQL installed on the target computer.
 
-6.  Select a counter and an instance to add to your custom counter set.
+6. Select a counter and an instance to add to your custom counter set.
 
      \- or -
 
      Select the **All counters** radio button to select all available counters.
 
-7.  Choose **OK**.
+7. Choose **OK**.
 
     > [!NOTE]
     > It is also possible to add counters to a counter set by choosing an existing counter or counter category, choosing copy, and then pasting it to a different counter set node. Extra counters that are copied, but not needed, can be deleted.

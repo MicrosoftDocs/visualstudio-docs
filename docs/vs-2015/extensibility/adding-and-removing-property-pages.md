@@ -24,7 +24,7 @@ The Project Designer provides a centralized location for managing project proper
   
 #### To remove a property page in Project Designer  
   
-1.  Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages and obtain a `clsids` list.  
+1. Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages and obtain a `clsids` list.  
   
     ```vb  
     Protected Overrides int GetProperty(uint itemId, int propId, out object property)  
@@ -69,7 +69,7 @@ The Project Designer provides a centralized location for managing project proper
     }  
     ```  
   
-2.  Remove the **Build Events** page from obtained `clsids` list.  
+2. Remove the **Build Events** page from obtained `clsids` list.  
   
     ```vb  
     Private buildEventsPageGuid As String = "{1E78F8DB-6C07-4D61-A18F-7514010ABD56}"  
@@ -105,7 +105,7 @@ The Project Designer provides a centralized location for managing project proper
   
 #### To add a property page in Project Designer  
   
-1.  Create a property page you want to add.  
+1. Create a property page you want to add.  
   
     ```vb  
     Class DeployPropertyPage  
@@ -150,7 +150,7 @@ The Project Designer provides a centralized location for managing project proper
     }  
     ```  
   
-2.  Register your new property page.  
+2. Register your new property page.  
   
     ```vb  
     <MSVSIP.ProvideObject(GetType(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)>  
@@ -160,7 +160,7 @@ The Project Designer provides a centralized location for managing project proper
     [MSVSIP.ProvideObject(typeof(DeployPropertyPage), RegisterUsing = RegistrationMethod.CodeBase)]  
     ```  
   
-3.  Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages, obtain a `clsids` list and add a new property page.  
+3. Override the `GetProperty(uint itemId, int propId, out object property)` method to filter property pages, obtain a `clsids` list and add a new property page.  
   
     ```vb  
     Protected Overrides Function GetProperty(ByVal itemId As UInteger, ByVal propId As Integer, ByRef [property] As Object) As Integer  

@@ -69,11 +69,11 @@ public sealed class TestPackage : AsyncPackage
 ## Convert an existing VSPackage to AsyncPackage  
  The majority of the work is the same as creating a new **AsyncPackage**. You need to follow steps 1 through 5 above. You also need to take extra caution on the following:  
   
-1.  Remember to remove the **Initialize** override you had in your package.  
+1. Remember to remove the **Initialize** override you had in your package.  
   
-2.  Avoid deadlocks: There could be hidden RPCs in your code which now happen on a background thread. You need to ensure that if you are making an RPC (e.g. **GetService**), you need to either (1) switch to the main thread or (2) use the asynchronous version of the API if one exists (e.g. **GetServiceAsync**).  
+2. Avoid deadlocks: There could be hidden RPCs in your code which now happen on a background thread. You need to ensure that if you are making an RPC (e.g. **GetService**), you need to either (1) switch to the main thread or (2) use the asynchronous version of the API if one exists (e.g. **GetServiceAsync**).  
   
-3.  Do not switch between threads too frequently. Try to localize the work that can happen in a background thread. This reduces the load time.  
+3. Do not switch between threads too frequently. Try to localize the work that can happen in a background thread. This reduces the load time.  
   
 ## Querying Services from AsyncPackage  
  An **AsyncPackage** may or may not load asynchronously depending on the caller. For instance,  

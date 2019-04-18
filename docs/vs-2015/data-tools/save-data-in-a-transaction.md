@@ -34,11 +34,11 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the new Windows project  
   
-1.  In Visual Studio, on the **File** menu, create a new **Project**.  
+1. In Visual Studio, on the **File** menu, create a new **Project**.  
   
-2.  Name the project **SavingDataInATransactionWalkthrough**.  
+2. Name the project **SavingDataInATransactionWalkthrough**.  
   
-3.  Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and then select **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **SavingDataInATransactionWalkthrough** project is created and added to **Solution Explorer**.  
   
@@ -47,27 +47,27 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create the data source  
   
-1.  On the **Data** menu, select**Show Data Sources**.  
+1. On the **Data** menu, select**Show Data Sources**.  
   
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
-3.  On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
+3. On the **Choose a Data Source Type**screen, select **Database**, and then select **Next**.  
   
-4.  On the **Choose your Data Connection**screen do one of the following:  
+4. On the **Choose your Data Connection**screen do one of the following:  
   
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.  
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.  
   
          -or-  
   
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.  
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box and create a connection to the Northwind database.  
   
-5.  If your database requires a password, select the option to include sensitive data, and then select **Next**.  
+5. If your database requires a password, select the option to include sensitive data, and then select **Next**.  
   
-6.  On the **Save connection string to the Application Configuration file** screen, select **Next**.  
+6. On the **Save connection string to the Application Configuration file** screen, select **Next**.  
   
-7.  On the **Choose your Database Objects** screen, expand the **Tables** node.  
+7. On the **Choose your Database Objects** screen, expand the **Tables** node.  
   
-8.  Select the `Customers` and `Orders` tables, and then select **Finish**.  
+8. Select the `Customers` and `Orders` tables, and then select **Finish**.  
   
      The **NorthwindDataSet** is added to your project and the `Customers` and `Orders` tables appear in the **Data Sources** window.  
   
@@ -76,13 +76,13 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To create data bound controls on the Windows form  
   
--   In the **Data Sources** window, expand the **Customers** node.  
+- In the **Data Sources** window, expand the **Customers** node.  
   
--   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
+- Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
      A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
--   Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.  
+- Drag the related **Orders** node (not the main **Orders** node, but the related child-table node below the **Fax** column) onto the form below the **CustomersDataGridView**.  
   
      A <xref:System.Windows.Forms.DataGridView> appears on the form. An OrdersTableAdapter and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
@@ -91,9 +91,9 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To add a reference to the System.Transactions DLL file  
   
-1.  On the **Project** menu, select**Add Reference**.  
+1. On the **Project** menu, select**Add Reference**.  
   
-2.  Select **System.Transactions**(on the **.NET** tab), and then select **OK**.  
+2. Select **System.Transactions**(on the **.NET** tab), and then select **OK**.  
   
      A reference to **System.Transactions** is added to the project.  
   
@@ -111,38 +111,38 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
    The order for reconciling changes to related data is as follows:  
   
--   Delete child records. (In this case, delete records from the `Orders` table.)  
+- Delete child records. (In this case, delete records from the `Orders` table.)  
   
--   Delete parent records. (In this case, delete records from the `Customers` table.)  
+- Delete parent records. (In this case, delete records from the `Customers` table.)  
   
--   Insert parent records.(In this case, insert records in the `Customers` table.)  
+- Insert parent records.(In this case, insert records in the `Customers` table.)  
   
--   Insert child records. (In this case, insert records in the `Orders` table.)  
+- Insert child records. (In this case, insert records in the `Orders` table.)  
   
 #### To delete existing orders  
   
--   Add the following `DeleteOrders` method to **Form1**:  
+- Add the following `DeleteOrders` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#5](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#5)]
      [!code-vb[VbRaddataSaving#5](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#5)]  
   
 #### To delete existing customers  
   
--   Add the following `DeleteCustomers` method to **Form1**:  
+- Add the following `DeleteCustomers` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#6)]
      [!code-vb[VbRaddataSaving#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#6)]  
   
 #### To add new customers  
   
--   Add the following `AddNewCustomers` method to **Form1**:  
+- Add the following `AddNewCustomers` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#7)]
      [!code-vb[VbRaddataSaving#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#7)]  
   
 #### To add new orders  
   
--   Add the following `AddNewOrders` method to **Form1**:  
+- Add the following `AddNewOrders` method to **Form1**:  
   
      [!code-csharp[VbRaddataSaving#8](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form2.cs#8)]
      [!code-vb[VbRaddataSaving#8](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form2.vb#8)]  
@@ -151,7 +151,7 @@ This walkthrough demonstrates how to save data in a transaction by using the <xr
   
 #### To run the application  
   
--   Select **F5** to run the application.  
+- Select **F5** to run the application.  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

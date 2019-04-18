@@ -17,7 +17,7 @@ This message typically appears when an object in **Server Explorer/Database Expl
   
 ### To correct this error  
   
--   Click **OK** to dismiss the dialog box.  
+- Click **OK** to dismiss the dialog box.  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

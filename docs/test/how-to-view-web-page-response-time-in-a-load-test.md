@@ -19,15 +19,15 @@ The time it takes for each web page to load is known as *response time*. When yo
 
 If you run your web performance test under stress in a load test, you will be able to analyze the following information for each page:
 
--   The average response time for the page.
+- The average response time for the page.
 
--   The percent of test iterations that meet the response time goal for the page.
+- The percent of test iterations that meet the response time goal for the page.
 
--   You can analyze web page response times by using the Tables view or the Graphs view in the **Load Test Analyzer**:
+- You can analyze web page response times by using the Tables view or the Graphs view in the **Load Test Analyzer**:
 
--   Analyzing web page response times in the tables view
+- Analyzing web page response times in the tables view
 
--   Analyzing web page response times in the graphs view
+- Analyzing web page response times in the graphs view
 
 ## View response time data in a table
 

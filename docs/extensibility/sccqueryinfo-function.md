@@ -61,13 +61,13 @@ SCCRTN SccQueryInfo(
 
  When using this function to check out files, note the following `MSSCCI` status requirements:
 
--   `SCC_STATUS_OUTBYUSER` is set when the current user has checked out the file.
+- `SCC_STATUS_OUTBYUSER` is set when the current user has checked out the file.
 
--   `SCC_STATUS_CHECKEDOUT` cannot be set unless `SCC_STATUS_OUTBYUSER` is set.
+- `SCC_STATUS_CHECKEDOUT` cannot be set unless `SCC_STATUS_OUTBYUSER` is set.
 
--   `SCC_STATUS_CHECKEDOUT` is only set when the file is checked-out into the designated working directory.
+- `SCC_STATUS_CHECKEDOUT` is only set when the file is checked-out into the designated working directory.
 
--   If the file is checked-out by the current user into a directory other than the working directory, `SCC_STATUS_OUTBYUSER` is set but `SCC_STATUS_CHECKEDOUT` is not.
+- If the file is checked-out by the current user into a directory other than the working directory, `SCC_STATUS_OUTBYUSER` is set but `SCC_STATUS_CHECKEDOUT` is not.
 
 ## See Also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

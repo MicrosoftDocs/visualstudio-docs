@@ -17,13 +17,13 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
  This walkthrough illustrates these tasks:  
   
--   Using the **Graphics Event List** to locate potential sources of the problem.  
+- Using the **Graphics Event List** to locate potential sources of the problem.  
   
--   Using the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.  
+- Using the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.  
   
--   Using the **HLSL Debugger** to examine the vertex shader.  
+- Using the **HLSL Debugger** to examine the vertex shader.  
   
--   Using the **Graphics Event Call Stack** to help find the source of an incorrect HLSL constant.  
+- Using the **Graphics Event Call Stack** to help find the source of an incorrect HLSL constant.  
   
 ## Scenario  
  One of the common causes of a missing object in a 3-D app occurs when the vertex shader transforms the object's vertices in an incorrect or unexpected way—for example, the object might be scaled to a very small size, or transformed such that it appears behind the camera, rather than in front of it.  

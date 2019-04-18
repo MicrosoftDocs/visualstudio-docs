@@ -38,6 +38,7 @@ In addition, the [Setup Configuration API](<xref:Microsoft.VisualStudio.Setup.Co
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
+
 ::: moniker range="vs-2017"
 
 > [!TIP]
@@ -58,6 +59,7 @@ As these entries are not stored in the global registry, there are special instru
 1. Select the `HKEY_LOCAL_MACHINE` node.
 
 1. From the Regedit main menu, select **File** > **Load Hive...** and then select the private registry file, which is stored in the **AppData\Local** folder. For example:
+
    ```
    %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
    ```

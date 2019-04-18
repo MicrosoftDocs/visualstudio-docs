@@ -87,12 +87,12 @@ ms.workload:
 ## Add multiple Ribbon items to a project
  You can add more than one Ribbon item to a single project. This is useful if you want to perform either of the following two tasks:
 
--   Create ribbons for Outlook *Inspectors*. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+- Create ribbons for Outlook *Inspectors*. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
     > [!NOTE]
     >  An Inspector is a window that opens when users perform certain tasks, such as creating an e-mail message.
 
--   Select which ribbon to display at runtime.
+- Select which ribbon to display at runtime.
 
 ### Select which ribbons to display at runtime
  Because a project can contain more than one ribbon, you can select which ribbon to display at runtime.

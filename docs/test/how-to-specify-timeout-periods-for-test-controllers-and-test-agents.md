@@ -20,7 +20,7 @@ Both the test controller and the test agent have several timeout settings that s
 
 To edit a test controller or a test agent’s various timeout settings, modify the following configuration files using the key names and values in the tables:
 
--   Test controller: *QTController.exe.config*
+- Test controller: *QTController.exe.config*
 
     |Key name|Description|Value|
     |-|-----------------|-|
@@ -29,7 +29,7 @@ To edit a test controller or a test agent’s various timeout settings, modify t
     |AgentInitializeTimeout|Number of seconds to wait for all agents and their data collectors to initialize at the beginning of a test run, before aborting the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
     |AgentCleanupTimeout|Number of seconds to wait for all agents and their data collectors to clean up, before completing the test run. This value should be reasonably large if using data collectors.|"n" seconds. Default: "120" (two minutes).|
 
--   Test Agent: *QTAgentService.exe.config*
+- Test Agent: *QTAgentService.exe.config*
 
     |Key name|Description|Value|
     |-|-----------------|-|

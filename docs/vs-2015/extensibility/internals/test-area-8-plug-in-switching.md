@@ -20,9 +20,9 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development envir
 ## Command Menu Access  
  The following [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment menu paths are used in the test cases.  
   
--   Current source control plug-in: **Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.  
+- Current source control plug-in: **Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.  
   
--   Change source control binding: **File** -> **Source Control** -> **Change Source Control**…  
+- Change source control binding: **File** -> **Source Control** -> **Change Source Control**…  
   
 ## Common Expected Behavior  
  Changing the source control plug-in for a solution is possible without exiting Visual Studio or reloading the solution. In addition, the current source control plug-in automatically changes to the one used by a solution when that solution is loaded.  

@@ -35,9 +35,9 @@ Designers, like editors, typically need to support undo operations so that users
 ## Obtaining Undo Support Automatically  
  Any designer created in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] has automatic and full undo support if, the designer:  
   
--   Makes use of a <xref:System.Windows.Forms.Control> based class for its user interface.  
+- Makes use of a <xref:System.Windows.Forms.Control> based class for its user interface.  
   
--   Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
+- Employs standard CodeDOM-based code generation and parsing system for code generation and persistence.  
   
      For more information on working with Visual Studio CodeDOM support, see [Dynamic Source Code Generation and Compilation](http://msdn.microsoft.com/library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
   
@@ -74,15 +74,15 @@ Designers, like editors, typically need to support undo operations so that users
   
 - This <xref:System.IServiceProvider> class must provide the following services:  
   
-  -   <xref:System.ComponentModel.Design.IDesignerHost>.  
+  - <xref:System.ComponentModel.Design.IDesignerHost>.  
   
-  -   <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
+  - <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>  
   
        Designers using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] CodeDOM serialization may choose to use <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> provided with the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] as its implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>.  
   
        In this case, the <xref:System.IServiceProvider> class provided to the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> constructor should return this object as an implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> class.  
   
-  -   <xref:System.ComponentModel.Design.IComponentChangeService>  
+  - <xref:System.ComponentModel.Design.IComponentChangeService>  
   
        Designers using the default <xref:System.ComponentModel.Design.DesignSurface> provided by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design host are guaranteed to have a default implementation of the <xref:System.ComponentModel.Design.IComponentChangeService> class.  
   

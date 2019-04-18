@@ -23,21 +23,21 @@ You can extend Visual Studio with a UML profile. A profile lets you add stereoty
   
 ### To install a UML Profile on your computer  
   
-1.  The profile should have been given to you in the form of a Visual Studio Extension (`.vsix`) file. There might be other features in the same file.  
+1. The profile should have been given to you in the form of a Visual Studio Extension (`.vsix`) file. There might be other features in the same file.  
   
      Move the `.vsix` file to a convenient location on your computer.  
   
-2.  Double-click the `.vsix` file in Windows Explorer (or File Explorer), or open it within [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
+2. Double-click the `.vsix` file in Windows Explorer (or File Explorer), or open it within [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)].  
   
-3.  Click **Install** in the dialog box that appears.  
+3. Click **Install** in the dialog box that appears.  
   
-4.  To uninstall or temporarily disable the extension, open **Extension Manager** from the **Tools** menu.  
+4. To uninstall or temporarily disable the extension, open **Extension Manager** from the **Tools** menu.  
   
 ### To uninstall or disable a profile extension  
   
-1.  On the Visual Studio **Tools** menu, click **Extension Manager**.  
+1. On the Visual Studio **Tools** menu, click **Extension Manager**.  
   
-2.  Click the extension that you want to remove, and then click **Disable** or **Uninstall**.  
+2. Click the extension that you want to remove, and then click **Disable** or **Uninstall**.  
   
 ## See Also  
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)   

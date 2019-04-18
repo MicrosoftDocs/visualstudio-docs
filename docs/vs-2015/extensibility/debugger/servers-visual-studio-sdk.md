@@ -17,11 +17,11 @@ manager: jillfra
 
 In terms of the debugger architecture, a **server**:  
   
--   Is a container of ports and port suppliers and is used to communicate ports and port suppliers to the session debug manager (SDM) and debug engines.  
+- Is a container of ports and port suppliers and is used to communicate ports and port suppliers to the session debug manager (SDM) and debug engines.  
   
--   Can identify itself by name, and enumerate its ports and port suppliers.  
+- Can identify itself by name, and enumerate its ports and port suppliers.  
   
--   Is represented by an [IDebugCoreServer2](../../extensibility/debugger/reference/idebugcoreserver2.md) interface, which is only implemented by Visual Studio (one instance of a server for each instance of Visual Studio running).  
+- Is represented by an [IDebugCoreServer2](../../extensibility/debugger/reference/idebugcoreserver2.md) interface, which is only implemented by Visual Studio (one instance of a server for each instance of Visual Studio running).  
   
 ## See Also  
  [Ports](../../extensibility/debugger/ports.md)   

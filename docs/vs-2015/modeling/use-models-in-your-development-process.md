@@ -46,25 +46,25 @@ In Visual Studio, you can use a model to help you understand and change a system
   
  Other aspects of specification that are ordinarily used together with models include the following. Depending on the scale and style of your project, you might use several of these aspects or not use any at all:  
   
--   User stories. A user story is a short description, discussed with users and other stakeholders, of an aspect of the system's behavior that will be delivered in one of the project's iterations. A typical user story begins "The customer will be able to…." A user story might introduce a group of use cases, or can define extensions of use cases that have been previously developed. Defining or extending the use cases helps make the user story clearer.  
+- User stories. A user story is a short description, discussed with users and other stakeholders, of an aspect of the system's behavior that will be delivered in one of the project's iterations. A typical user story begins "The customer will be able to…." A user story might introduce a group of use cases, or can define extensions of use cases that have been previously developed. Defining or extending the use cases helps make the user story clearer.  
   
--   Change Requests. A change request in a more formal project is very similar to a user story in an agile project. The agile approach treats all requirements as changes to what was developed in previous iterations.  
+- Change Requests. A change request in a more formal project is very similar to a user story in an agile project. The agile approach treats all requirements as changes to what was developed in previous iterations.  
   
--   Use case description. A use case represents one way in which a user interacts with the system to achieve a particular goal. A full description includes the goal, main and alternative sequences of events, and exceptional outcomes. A use case diagram helps summarize and provide an overview of the use cases.  
+- Use case description. A use case represents one way in which a user interacts with the system to achieve a particular goal. A full description includes the goal, main and alternative sequences of events, and exceptional outcomes. A use case diagram helps summarize and provide an overview of the use cases.  
   
--   Scenarios. A scenario is a fairly detailed description of a sequence of events showing how the system, users and other systems work together to provide value to the stakeholders. It might take the form of a slide show of the user interface or a prototype of the user interface. It can describe one use case or a sequence of use cases.  
+- Scenarios. A scenario is a fairly detailed description of a sequence of events showing how the system, users and other systems work together to provide value to the stakeholders. It might take the form of a slide show of the user interface or a prototype of the user interface. It can describe one use case or a sequence of use cases.  
   
--   Glossary. The project's requirements glossary describes the words with which customers discuss their world. The user interface and requirements models should also use these terms. A class diagram can help clarify the relationships between most of these terms. Creating the diagrams and glossary not only reduces misunderstandings between users and developers, but also almost always exposes misunderstandings between different business stakeholders.  
+- Glossary. The project's requirements glossary describes the words with which customers discuss their world. The user interface and requirements models should also use these terms. A class diagram can help clarify the relationships between most of these terms. Creating the diagrams and glossary not only reduces misunderstandings between users and developers, but also almost always exposes misunderstandings between different business stakeholders.  
   
--   Business rules. Many business rules can be expressed as invariant constraints on the associations and attributes in the requirements class model, and as constraints on sequence diagrams.  
+- Business rules. Many business rules can be expressed as invariant constraints on the associations and attributes in the requirements class model, and as constraints on sequence diagrams.  
   
--   High-level design. Describes the major parts and how they fit together. Component, sequence and interface diagrams are a major part of a high-level design.  
+- High-level design. Describes the major parts and how they fit together. Component, sequence and interface diagrams are a major part of a high-level design.  
   
--   Design patterns. Describe the rules of design that are shared across the different parts of the system.  
+- Design patterns. Describe the rules of design that are shared across the different parts of the system.  
   
--   Test specifications. Test scripts and the designs for test code can make good use of activity and sequence diagrams to describe sequences of test steps. System tests should be expressed in terms of the requirements model so that they can easily be changed when the requirements change.  
+- Test specifications. Test scripts and the designs for test code can make good use of activity and sequence diagrams to describe sequences of test steps. System tests should be expressed in terms of the requirements model so that they can easily be changed when the requirements change.  
   
--   Project plan. The project plan or backlog defines when each feature will be delivered. You can define each feature by stating what use cases and business rules it implements or extends. You can either refer to the use cases and business rules directly in the plan, or you can define a set of features in a separate document, and use the feature titles in the plan.  
+- Project plan. The project plan or backlog defines when each feature will be delivered. You can define each feature by stating what use cases and business rules it implements or extends. You can either refer to the use cases and business rules directly in the plan, or you can define a set of features in a separate document, and use the feature titles in the plan.  
   
 ### Use Models in Iteration Planning  
  Although all projects are different in their scale and organization, a typical project is planned as a series of iterations of between two and six weeks. It is important to plan enough iterations to allow feedback from early iterations to be used to adjust the scope and plans for later iterations.  
@@ -74,28 +74,28 @@ In Visual Studio, you can use a model to help you understand and change a system
 #### Sharpen Focus as each Iteration Approaches  
  As each iteration approaches, use models to help define what is to be delivered at the end of the iteration.  
   
--   Do not model everything in detail in the early iterations. In the first iteration, create a class diagram for the main items in the user glossary, draw a diagram of the major use cases, and draw a diagram of the major components. Do not describe any of these in fine detail, because the detail will change later in the project. Use the terms defined in this model to create a list of features or major user stories. Assign the features to iterations so as to approximately balance the estimated workload throughout the project. These assignments will change later in the project.  
+- Do not model everything in detail in the early iterations. In the first iteration, create a class diagram for the main items in the user glossary, draw a diagram of the major use cases, and draw a diagram of the major components. Do not describe any of these in fine detail, because the detail will change later in the project. Use the terms defined in this model to create a list of features or major user stories. Assign the features to iterations so as to approximately balance the estimated workload throughout the project. These assignments will change later in the project.  
   
--   Try to implement simplified versions of all the most important use cases in an early iteration. Extend those use cases in later iterations. This approach helps reduce the risk of discovering a flaw in the requirements or the architecture too late in the project to do anything about it.  
+- Try to implement simplified versions of all the most important use cases in an early iteration. Extend those use cases in later iterations. This approach helps reduce the risk of discovering a flaw in the requirements or the architecture too late in the project to do anything about it.  
   
--   Near the end of each iteration, hold a requirements workshop to define in detail the requirements or user stories that will be developed in the next iteration. Invite users and business stakeholders who can decide priorities, as well as developers and system testers. Allow three hours to define requirements for a 2-week iteration.  
+- Near the end of each iteration, hold a requirements workshop to define in detail the requirements or user stories that will be developed in the next iteration. Invite users and business stakeholders who can decide priorities, as well as developers and system testers. Allow three hours to define requirements for a 2-week iteration.  
   
--   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../includes/esprfound-md.md)] and test suites in [!INCLUDE[TCMext](../includes/tcmext-md.md)].  
+- The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../includes/esprfound-md.md)] and test suites in [!INCLUDE[TCMext](../includes/tcmext-md.md)].  
   
--   In the requirements workshop, discuss the design only insofar as you need to determine estimates for the development tasks. Otherwise, keep discussion to system behavior that users can experience directly. Keep the requirements model separate from the architectural model.  
+- In the requirements workshop, discuss the design only insofar as you need to determine estimates for the development tasks. Otherwise, keep discussion to system behavior that users can experience directly. Keep the requirements model separate from the architectural model.  
   
--   Nontechnical stakeholders usually have no problems understanding UML diagrams, with some guidance from you.  
+- Nontechnical stakeholders usually have no problems understanding UML diagrams, with some guidance from you.  
   
 #### Link Model to Work Items  
  After the requirements workshop, elaborate the details of the requirements model, and link the model to development tasks. You can do this by linking work items in [!INCLUDE[esprfound](../includes/esprfound-md.md)] to elements in the model. To learn how to do this, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
   
  You can link any element to work items, but the most useful elements are as follows:  
   
--   Use cases. You can link a use case to the development tasks that will implement it.  
+- Use cases. You can link a use case to the development tasks that will implement it.  
   
--   Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
+- Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
   
--   Comments describing business rules or quality of service requirements. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
+- Comments describing business rules or quality of service requirements. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   
 #### Link Model to Tests  
  Use the requirements model to guide the design of the acceptance tests. Create these tests concurrently with the development work.  

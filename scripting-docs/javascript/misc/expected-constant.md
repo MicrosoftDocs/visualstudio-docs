@@ -20,9 +20,9 @@ You attempted to use a (non-conditional compilation) variable in a conditional c
   
 ### To correct this error  
   
--   Replace the variable with a literal.  
+- Replace the variable with a literal.  
   
--   Replace the variable with a conditional compilation variable.  
+- Replace the variable with a conditional compilation variable.  
   
 ## See Also  
  [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   

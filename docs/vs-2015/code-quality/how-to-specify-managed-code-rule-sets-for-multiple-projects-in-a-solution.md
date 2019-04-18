@@ -22,18 +22,18 @@ By default, all the managed projects of a solution are assigned the Microsoft Mi
   
 ### To specify a rule set for multiple projects in a managed code  solution  
   
-1.  In [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]. [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)] open the solution.  
+1. In [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]. [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)] open the solution.  
   
-2.  On the **Analyze** menu, click **Configure Code Analysis for Solution**.  
+2. On the **Analyze** menu, click **Configure Code Analysis for Solution**.  
   
-3.  If necessary, expand **Common Properties**, and then click **Code Analysis Settings**.  
+3. If necessary, expand **Common Properties**, and then click **Code Analysis Settings**.  
   
-4.  You can specify a rule set for one or more projects.  
+4. You can specify a rule set for one or more projects.  
   
-    -   To specify a rule set for an individual project, click the project name.  
+    - To specify a rule set for an individual project, click the project name.  
   
-    -   To specify a rule set for multiple projects, hold down CTRL and click the project names.  
+    - To specify a rule set for multiple projects, hold down CTRL and click the project names.  
   
-    -   To specify all the projects in the solution, hold down SHIFT and click in the project list.  
+    - To specify all the projects in the solution, hold down SHIFT and click in the project list.  
   
-5.  Click the **Rule Set** field of a project and then click the name of the rule set that you want to apply.
+5. Click the **Rule Set** field of a project and then click the name of the rule set that you want to apply.

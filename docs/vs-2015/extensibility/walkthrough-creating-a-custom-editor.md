@@ -24,21 +24,21 @@ The VSPackage project template can create a simple custom editor in C++.  The VS
   
 ### To create a VSPackage using the Visual Studio Package template  
   
-1.  Create a project with the Visual Studio Package template.  
+1. Create a project with the Visual Studio Package template.  
   
-2.  Select the **Custom Editor** option and click **Next**. The **Editor Options** page is displayed.  
+2. Select the **Custom Editor** option and click **Next**. The **Editor Options** page is displayed.  
   
-3.  Type the name of your editor in the **Editor Name** box. Type the file extension that you want to be associated with your editor in the **File Extension** box. Your editor is available for files with this extension. The file extension is registered for Visual Studio only, not for Windows. Type the default file name for new documents created with your editor in the **Default File Name** box.  
+3. Type the name of your editor in the **Editor Name** box. Type the file extension that you want to be associated with your editor in the **File Extension** box. Your editor is available for files with this extension. The file extension is registered for Visual Studio only, not for Windows. Type the default file name for new documents created with your editor in the **Default File Name** box.  
   
-4.  Click **Finish** to create your VSPackage in the folder that you specified.  
+4. Click **Finish** to create your VSPackage in the folder that you specified.  
   
 ### To test your custom editor  
   
-1.  On the **File** menu, point to **New** and then click **File**.  
+1. On the **File** menu, point to **New** and then click **File**.  
   
-2.  In the **Installed Templates** pane of the **New File** dialog box, select the file template, then the file type you just registered.  
+2. In the **Installed Templates** pane of the **New File** dialog box, select the file template, then the file type you just registered.  
   
-3.  Click **Open** to view and edit the document.  
+3. Click **Open** to view and edit the document.  
   
      The editor supports cut-and-paste, find-and-replace, and open-and-load operations.  
   

@@ -56,53 +56,53 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To display the Call Stack window in break mode or in run mode  
   
--   On the **Debug** menu, select **Windows** and then click **Call Stack**.  
+- On the **Debug** menu, select **Windows** and then click **Call Stack**.  
   
 ### To change the optional information displayed  
   
--   Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
+- Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
 ### To display non-user code frames in the Call Stack window  
   
--   Right-click the **Call Stack** window and select **Show External Code**.  
+- Right-click the **Call Stack** window and select **Show External Code**.  
   
 ### To switch to another stack frame  
   
-1.  In the **Call Stack** window, right-click the frame whose code and data that you want to view.  
+1. In the **Call Stack** window, right-click the frame whose code and data that you want to view.  
   
-2.  Select **Switch to Frame**.  
+2. Select **Switch to Frame**.  
   
      A green arrow with a curly tail appears next to the frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.  
   
 ### To display calls to or from another thread  
   
--   Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.  
+- Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.  
   
 ### To view the source code for a function on the call stack  
   
--   In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.  
+- In the **Call Stack** window, right-click the function whose source code you want to see and select **Go To Source Code**.  
   
 ### To visually trace the call stack  
   
-1.  In the **Call Stack** window, open the shortcut menu. Choose **Show Call Stack on Code Map**. (Keyboard: **CTRL** + **SHIFT** + **`**)  
+1. In the **Call Stack** window, open the shortcut menu. Choose **Show Call Stack on Code Map**. (Keyboard: **CTRL** + **SHIFT** + **`**)  
   
      See [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md).  
   
 ### To view the disassembly code for a function on the call stack  
   
--   In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.  
+- In the **Call Stack** window, right-click the function whose disassembly code you want to see and select **Go To Disassembly**.  
   
 ### To run to a specific function from the Call Stack window  
   
--  In the **Call Stack** window, select the function, right-click and  choose **Run to Cursor**.  
+- In the **Call Stack** window, select the function, right-click and  choose **Run to Cursor**.  
   
 ### To set a breakpoint on the exit point of a function call  
   
--   See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).  
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).  
   
 ### To load symbols for a module  
   
--   In the **Call Stack** window, right-click the frame that shows the module whose symbols you want to reload and select **Load Symbols**.  
+- In the **Call Stack** window, right-click the frame that shows the module whose symbols you want to reload and select **Load Symbols**.  
   
 ## Loading Symbols  
  In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers or symbols in a symbol path on the computer that you are debugging.  
@@ -111,25 +111,25 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 #### To load symbols  
   
-1.  In the **Call Stack** window, right-click the frame for which symbols are not loaded. The frame will be dimmed.  
+1. In the **Call Stack** window, right-click the frame for which symbols are not loaded. The frame will be dimmed.  
   
-2.  Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
+2. Point to **Load Symbols From** and then click **Microsoft Symbol Servers** or **Symbol Path**.  
   
 #### To set the symbol path  
   
-1.  In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.  
+1. In the **Call Stack** window, choose **Symbol Settings** from the shortcut menu.  
   
      The **Options** dialog box opens and the **Symbols** page is displayed.  
   
-2.  Click **Symbol Settings**.  
+2. Click **Symbol Settings**.  
   
-3.  In the **Options** dialog box, click the Folder icon.  
+3. In the **Options** dialog box, click the Folder icon.  
   
      In the **Symbol file (.pdb) locations** box, a cursor appears.  
   
-4.  Type a directory pathname to the symbol location on the computer that you are debugging. For local debugging, this is your local computer. For remote debugging, it is the remote computer.  
+4. Type a directory pathname to the symbol location on the computer that you are debugging. For local debugging, this is your local computer. For remote debugging, it is the remote computer.  
   
-5.  Click **OK** to close the **Options** dialog box.  
+5. Click **OK** to close the **Options** dialog box.  
   
 ## See Also  
  [Mixed Code and Missing Information in the Call Stack Window](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)   

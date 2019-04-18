@@ -114,11 +114,11 @@ In Visual Studio you can customize the position, size and behavior of windows to
 ### Reset, name, and switch between window layouts
  You can return the IDE to the original window layout for your settings collection by using the **Reset Window Layout** command. When you run this command, the following actions occur:
 
--   All windows are moved to their default positions.
+- All windows are moved to their default positions.
 
--   Windows that are closed in the default window layout are closed.
+- Windows that are closed in the default window layout are closed.
 
--   Windows that are open in the default window layout are opened.
+- Windows that are open in the default window layout are opened.
 
 ### Create and save custom layouts
  Visual Studio 2015 enables you to save up to 10 custom window layouts and quickly switch between them. The following steps show how to create, save, invoke, and manage custom layouts that take advantage of multiple monitors with both docked and floating tool windows.
@@ -127,29 +127,29 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 ##### Create a UI project and customize the layout
 
-1.  In the **New Project** dialog, create a Visual C# WPF Desktop Application and call it whatever you like. Pretend that this is the project where we’ll be working on the user interface, so we want to maximize the space for the designer window and move other tool windows out of the way.
+1. In the **New Project** dialog, create a Visual C# WPF Desktop Application and call it whatever you like. Pretend that this is the project where we’ll be working on the user interface, so we want to maximize the space for the designer window and move other tool windows out of the way.
 
-2.  If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
+2. If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
 
-3.  Press **Ctrl + Alt + X** to display the Toolbox. If the window is docked, drag it so that it floats somewhere where you’d like to position it, on either monitor.
+3. Press **Ctrl + Alt + X** to display the Toolbox. If the window is docked, drag it so that it floats somewhere where you’d like to position it, on either monitor.
 
-4.  Press F5 to put Visual Studio into debugging mode. Adjust the position of the Autos, Call Stack and Output debugging windows the way you want them. The layout you are about to create will apply to both editing mode and debugging mode.
+4. Press F5 to put Visual Studio into debugging mode. Adjust the position of the Autos, Call Stack and Output debugging windows the way you want them. The layout you are about to create will apply to both editing mode and debugging mode.
 
-5.  When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window > Save Window Layout**. Call this layout “Designer.”
+5. When your layouts in both debugging mode and editing mode are how you want them, from the main menu choose **Window > Save Window Layout**. Call this layout “Designer.”
 
      Note that your new layout is assigned the next Keyboard shortcut from the reserved list of Ctrl + Alt + 1...0.
 
 ##### Create a database project and layout
 
-1.  Add a new **SQL Server Database** project to the solution.
+1. Add a new **SQL Server Database** project to the solution.
 
-2.  Right-click on the new project in Solution Explorer and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it’s not necessary for this walkthrough.
+2. Right-click on the new project in Solution Explorer and choose **View in Object Explorer**. This displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it’s not necessary for this walkthrough.
 
-3.  When your layout is how you want it, from the main menu choose **Window > Save Window Layout**. Call this layout “DB Project.” (We won’t bother with a debug mode layout for this project.)
+3. When your layout is how you want it, from the main menu choose **Window > Save Window Layout**. Call this layout “DB Project.” (We won’t bother with a debug mode layout for this project.)
 
 ##### Switch between the layouts
 
-1.  To switch between layouts, use the Keyboard shortcuts, or from the main menu choose **Window > Apply Window Layout**.
+1. To switch between layouts, use the Keyboard shortcuts, or from the main menu choose **Window > Apply Window Layout**.
 
      ![Apply window layout menu](../ide/media/vs2015-applywindowlayout.png "VS2015_ApplyWindowLayout")
 
@@ -161,7 +161,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
 
 ##### Manage and roam your layouts
 
-1.  You can remove, rename or reorder your custom layout by choosing **Window > Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.
+1. You can remove, rename or reorder your custom layout by choosing **Window > Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.
 
      ![Manage window layouts](../ide/media/managewindowlayouts.png "ManageWindowLayouts")
 

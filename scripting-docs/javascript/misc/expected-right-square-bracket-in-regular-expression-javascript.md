@@ -20,7 +20,7 @@ You attempted to create a character class for a regular expression match, but di
   
 ### To correct this error  
   
--   Add the right bracket to the regular expression.  
+- Add the right bracket to the regular expression.  
   
     > [!NOTE]
     >  If you want to match a single bracket, escape it with a backslash - \\[ - so it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  

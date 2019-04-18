@@ -30,15 +30,15 @@ To leverage this new functionality, you'll need:
 ::: moniker range="vs-2017"
 - If you wish to publish to AKS from Visual Studio (*not* required for debugging in AKS using Azure Dev Spaces):
 
-    1.  The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
+    1. The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
 
-    1.  An Azure Kubernetes Service cluster. For more information, see
+    1. An Azure Kubernetes Service cluster. For more information, see
         [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
 
-    1.  Helm CLI installed on your development workstation. For more information
+    1. Helm CLI installed on your development workstation. For more information
         see [Installing Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md).
 
-    1.  Helm configured against your AKS cluster by using the `helm init` command. For more information on how to do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
+    1. Helm configured against your AKS cluster by using the `helm init` command. For more information on how to do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
 ::: moniker-end
 
 ## Create a new Kubernetes project

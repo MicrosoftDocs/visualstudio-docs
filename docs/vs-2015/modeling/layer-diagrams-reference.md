@@ -57,7 +57,7 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
 |4|**Comment**|Use to add general notes to the diagram or elements on the diagram.|  
 |5|**Comment Link**|Use to link comments to elements on the diagram.|  
   
-##  <a name="Explorer"></a> Layer Explorer  
+## <a name="Explorer"></a> Layer Explorer  
  You can link each layer to artifacts in your solution, such as projects, classes, namespaces, project files, and other parts of your software. The number on a layer shows the number of artifacts that are linked to the layer. However, when reading the number of artifacts on a layer, remember the following:  
   
 - If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.  
@@ -74,7 +74,7 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
   
 #### To examine the linked artifacts  
   
--   On the layer diagram, open the shortcut menu for one or more layers, and then choose **View Links**.  
+- On the layer diagram, open the shortcut menu for one or more layers, and then choose **View Links**.  
   
      **Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.  
   

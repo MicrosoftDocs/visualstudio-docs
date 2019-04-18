@@ -26,13 +26,13 @@ ms.workload:
 
 ### To specify verbose log files
 
-1.  Open *Regedit.exe*.
+1. Open *Regedit.exe*.
 
-2.  Navigate to the node **HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment**.
+2. Navigate to the node **HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment**.
 
-3.  If necessary, create a new string value named `LogVerbosityLevel`.
+3. If necessary, create a new string value named `LogVerbosityLevel`.
 
-4.  Set the `LogVerbosityLevel` value to `1`.
+4. Set the `LogVerbosityLevel` value to `1`.
 
 ## See also
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

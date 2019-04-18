@@ -32,7 +32,7 @@ ms.workload:
 
   For more information about <xref:Microsoft.Office.Tools.Word.Bookmark> controls, see [Bookmark control](../vsto/bookmark-control.md).
 
-##  <a name="designtime"></a> Add Bookmark controls at Design Time
+## <a name="designtime"></a> Add Bookmark controls at Design Time
  There are several ways to add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to the document in a document-level project at design time:
 
 - From the Visual Studio **Toolbox**.
@@ -51,27 +51,27 @@ ms.workload:
 
 #### To add a Bookmark control to a document from the Toolbox
 
-1.  Open the **Toolbox** and click the **Word Controls** tab.
+1. Open the **Toolbox** and click the **Word Controls** tab.
 
-2.  Drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to the document.
+2. Drag a <xref:Microsoft.Office.Tools.Word.Bookmark> control to the document.
 
      The **Add Bookmark** dialog box appears.
 
-3.  Select the text or other items you want to include in the bookmark.
+3. Select the text or other items you want to include in the bookmark.
 
-4.  Click **OK**.
+4. Click **OK**.
 
      If you do not want to keep the default bookmark name, you can change the name in the **Properties** window.
 
 #### To add a Bookmark control to a document in Word
 
-1.  In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the bookmark, or select the text that you want the bookmark to enclose.
+1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the bookmark, or select the text that you want the bookmark to enclose.
 
-2.  On the **Insert** tab of the Ribbon, in the **Links** group, click the **Bookmark** button.
+2. On the **Insert** tab of the Ribbon, in the **Links** group, click the **Bookmark** button.
 
-3.  In the **Bookmark** dialog box, type the name of the new bookmark, and click **Add**.
+3. In the **Bookmark** dialog box, type the name of the new bookmark, and click **Add**.
 
-##  <a name="runtimedoclevel"></a> Add Bookmark controls at runtime in a document-level project
+## <a name="runtimedoclevel"></a> Add Bookmark controls at runtime in a document-level project
  You can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls programmatically to your document at runtime by using methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of the `ThisDocument` class in your project. There are two method overloads that you can use to add a <xref:Microsoft.Office.Tools.Word.Bookmark> control in the following ways:
 
 - Add a <xref:Microsoft.Office.Tools.Word.Bookmark> at a specified range.
@@ -82,7 +82,7 @@ ms.workload:
 
 #### To add a Bookmark control to a document programmatically
 
-1.  In the `ThisDocument_Startup` event handler in your project, insert the following code to add the <xref:Microsoft.Office.Tools.Word.Bookmark> control to the first paragraph in the document.
+1. In the `ThisDocument_Startup` event handler in your project, insert the following code to add the <xref:Microsoft.Office.Tools.Word.Bookmark> control to the first paragraph in the document.
 
      [!code-csharp[Trin_VstcoreHostControlsWord#1](../vsto/codesnippet/CSharp/trin_vstcorehostcontrolsword/ThisDocument.cs#1)]
      [!code-vb[Trin_VstcoreHostControlsWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsWordVB/ThisDocument.vb#1)]
@@ -90,7 +90,7 @@ ms.workload:
     > [!NOTE]
     >  If you want create a <xref:Microsoft.Office.Tools.Word.Bookmark> control from an existing <xref:Microsoft.Office.Interop.Word.Bookmark>, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method and pass in the existing <xref:Microsoft.Office.Interop.Word.Bookmark>.
 
-##  <a name="runtimeaddin"></a> Add Bookmark controls at runtime in a VSTO Add-in project
+## <a name="runtimeaddin"></a> Add Bookmark controls at runtime in a VSTO Add-in project
  You can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls programmatically to any open document at runtime by using a VSTO Add-in. To do this, generate a <xref:Microsoft.Office.Tools.Word.Document> host item that is based on an open document, and then use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of this host item. There are two method overloads that you can use to add a <xref:Microsoft.Office.Tools.Word.Bookmark> control in the following ways:
 
 - Add a <xref:Microsoft.Office.Tools.Word.Bookmark> at a specified range.
@@ -103,7 +103,7 @@ ms.workload:
 
 #### To add a Bookmark control at a specified range
 
-1.  Use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method, and pass in the <xref:Microsoft.Office.Interop.Word.Range> where you want to add the <xref:Microsoft.Office.Tools.Word.Bookmark>.
+1. Use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method, and pass in the <xref:Microsoft.Office.Interop.Word.Range> where you want to add the <xref:Microsoft.Office.Tools.Word.Bookmark>.
 
      The following code example adds a new <xref:Microsoft.Office.Tools.Word.Bookmark> to the beginning of the active document. To use this example, run the code from the `ThisAddIn_Startup` event handler in a Word VSTO Add-in project.
 
@@ -112,7 +112,7 @@ ms.workload:
 
 #### To add a Bookmark control that is based on a native Bookmark control
 
-1.  Use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method, and pass in the existing <xref:Microsoft.Office.Interop.Word.Bookmark> that you want to use as the basis for the new <xref:Microsoft.Office.Tools.Word.Bookmark>.
+1. Use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddBookmark%2A> method, and pass in the existing <xref:Microsoft.Office.Interop.Word.Bookmark> that you want to use as the basis for the new <xref:Microsoft.Office.Tools.Word.Bookmark>.
 
      The following code example creates a new <xref:Microsoft.Office.Tools.Word.Bookmark> that is based on the first <xref:Microsoft.Office.Interop.Word.Bookmark> in the active document. To use this example, run the code from the `ThisAddIn_Startup` event handler in a Word VSTO Add-in project.
 

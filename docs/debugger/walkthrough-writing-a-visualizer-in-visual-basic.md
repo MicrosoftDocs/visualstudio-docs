@@ -100,15 +100,15 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To add System.Windows.Forms
 
-1.  In **Solution Explorer**, right-click **References**, and on the shortcut menu, click **Add Reference**.
+1. In **Solution Explorer**, right-click **References**, and on the shortcut menu, click **Add Reference**.
 
 2. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse**, and find the System.Windows.Forms.DLL.
 
     You can find the DLL in *C:\Windows\Microsoft.NET\Framework\v4.0.30319*.
 
-3.  Click **OK**.
+3. Click **OK**.
 
-4.  In DebuggerSide.cs, add the following statement to the `Imports` statements:
+4. In DebuggerSide.cs, add the following statement to the `Imports` statements:
 
     ```vb
     Imports System.Windows.Forms
@@ -119,7 +119,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To show the visualizer output in a dialog box
 
-1.  In the `Show` method, add the following line of code:
+1. In the `Show` method, add the following line of code:
 
     ```vb
     MessageBox.Show(objectProvider.GetObject().ToString())
@@ -127,20 +127,20 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
      This example code does not include error handling. You should include error handling in a real visualizer, or any other kind of application.
 
-2.  On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
+2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Add the Necessary Attribute
  That is the end of the debugger-side code. There is one more step, however: the attribute that tells the debuggee side which collection of classes comprises the visualizer.
 
 ### To add the debugee-side code
 
-1.  Add the following attribute code to DebuggerSide.vb, after the `Imports` statements but before `namespace MyFirstVisualizer`:
+1. Add the following attribute code to DebuggerSide.vb, after the `Imports` statements but before `namespace MyFirstVisualizer`:
 
     ```vb
     <Assembly: System.Diagnostics.DebuggerVisualizer(GetType(MyFirstVisualizer.DebuggerSide), GetType(VisualizerObjectSource), Target:=GetType(System.String), Description:="My First Visualizer")>
     ```
 
-2.  On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
+2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Create a Test Harness
  At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
@@ -177,17 +177,17 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To add necessary references to MyTestConsole
 
-1.  In **Solution Explorer**, right-click **MyTestConsole**, and on the shortcut menu, click **Add Reference**.
+1. In **Solution Explorer**, right-click **MyTestConsole**, and on the shortcut menu, click **Add Reference**.
 
-2.  In the **Add Reference** dialog box, on the **Browse** tab, click Microsoft.VisualStudio.DebuggerVisualizers.
+2. In the **Add Reference** dialog box, on the **Browse** tab, click Microsoft.VisualStudio.DebuggerVisualizers.
 
-3.  Click **OK**.
+3. Click **OK**.
 
-4.  Right-click **MyTestConsole**, and then click **Add Reference** again.
+4. Right-click **MyTestConsole**, and then click **Add Reference** again.
 
-5.  In the **Add Reference** dialog box, click the **Projects** tab, and then select MyFirstVisualizer.
+5. In the **Add Reference** dialog box, click the **Projects** tab, and then select MyFirstVisualizer.
 
-6.  Click **OK**.
+6. Click **OK**.
 
 ## Finish Your Test Harness and Test Your Visualizer
  Now, you will add the code to finish the test harness.

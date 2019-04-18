@@ -21,13 +21,13 @@ Follow these steps to view or modify properties that are associated with workflo
   
 ### To view or modify workflow project properties  
   
-1.  If **Solution Explorer** window is not visible, select **Solution Explorer** on the **View** menu.  
+1. If **Solution Explorer** window is not visible, select **Solution Explorer** on the **View** menu.  
   
-2.  In **Solution Explorer**, select a project.  
+2. In **Solution Explorer**, select a project.  
   
-3.  If **Properties** window is not visible, select **Properties Window** on the **View** menu.  
+3. If **Properties** window is not visible, select **Properties Window** on the **View** menu.  
   
-4.  In the project **Properties** window, view and modify the properties that you want to change.  
+4. In the project **Properties** window, view and modify the properties that you want to change.  
   
 ## See Also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)

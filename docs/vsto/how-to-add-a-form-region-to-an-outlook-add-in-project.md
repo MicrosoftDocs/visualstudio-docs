@@ -27,26 +27,26 @@ ms.workload:
 
 ### To add a new form region to an Outlook project
 
-1.  Open or create an Outlook VSTO Add-in project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Open or create an Outlook VSTO Add-in project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  In **Solution Explorer**, select the Outlook VSTO Add-in project node.
+2. In **Solution Explorer**, select the Outlook VSTO Add-in project node.
 
-3.  On the **Project** menu, click **Add New Item**.
+3. On the **Project** menu, click **Add New Item**.
 
-4.  In the **Add New Item** dialog box, select **Outlook Form Region**.
+4. In the **Add New Item** dialog box, select **Outlook Form Region**.
 
-5.  Type a name for the form region in the **Name** box, and then click **Add**.
+5. Type a name for the form region in the **Name** box, and then click **Add**.
 
      The **NewOutlook Form Region** wizard starts.
 
-6.  On the **Select how you want to create the form region** page, select whether you want to design the form region by dragging managed controls onto a visual designer or import a form region that was designed in Outlook.
+6. On the **Select how you want to create the form region** page, select whether you want to design the form region by dragging managed controls onto a visual designer or import a form region that was designed in Outlook.
 
     > [!NOTE]
     >  If you choose to import a form region that was designed in Outlook, then you must specify the location of an Outlook Form Storage (*.ofs*) file. You cannot add managed controls to a form region that you design in Outlook; you can only add code behind the existing UI. For more information, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
-7.  On the **Select the type of form region you want to create** page, review the form region types and select one, and then click **Next**. For more information about form region types, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
+7. On the **Select the type of form region you want to create** page, review the form region types and select one, and then click **Next**. For more information about form region types, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
-8.  On the **Supply descriptive text and select your display preferences** page, in the **Name** box, type a name for the form region. For the replacement and replace-all form region types, the **Title** and **Description** boxes are also available.
+8. On the **Supply descriptive text and select your display preferences** page, in the **Name** box, type a name for the form region. For the replacement and replace-all form region types, the **Title** and **Description** boxes are also available.
 
      For information about where the name, title, and description appear in Outlook when you deploy the form region, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 

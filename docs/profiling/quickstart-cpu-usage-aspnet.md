@@ -147,30 +147,30 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     }
     ```
 
-##  Step 1: Collect profiling data
+## Step 1: Collect profiling data
 
-1.  First, set a breakpoint in your app on this line of code in the `Simple` constructor:
+1. First, set a breakpoint in your app on this line of code in the `Simple` constructor:
 
     `for (int i = 0; i < 200; i++)`
 
     Set a breakpoint by clicking in the gutter to the left of the line of code.
 
-1.  Next, set a second breakpoint on the closing brace at the end of the `Simple` constructor:
+1. Next, set a second breakpoint on the closing brace at the end of the `Simple` constructor:
 
      ![Set breakpoints for profiling](../profiling/media/quickstart-cpu-usage-breakpoints-aspnet.png)
 
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+1. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-1.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
+1. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
-1.  When the app finishes loading, click the **About** link at the top of the web page to start running the new code.
+1. When the app finishes loading, click the **About** link at the top of the web page to start running the new code.
 
-1.  Look at the **Summary** view of the Diagnostics Tools appears.
+1. Look at the **Summary** view of the Diagnostics Tools appears.
 
-1.  While the debugger is paused, enable the collection of the CPU Usage data by choosing **Record CPU Profile**, and then open the **CPU Usage** tab.
+1. While the debugger is paused, enable the collection of the CPU Usage data by choosing **Record CPU Profile**, and then open the **CPU Usage** tab.
 
      ![Diagnostics Tools Enable CPU Profiling](../profiling/media/quickstart-cpu-usage-summary.png)
 
@@ -178,7 +178,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute, and also provides a timeline graph you can use to focus on specific segments of the sampling session.You can only view this collected data when your application is halted at a breakpoint.
 
-6.  Hit F5 to run the app to your second breakpoint.
+6. Hit F5 to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 

@@ -65,7 +65,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To start and stop data collection
 
-1.  The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
+1. The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -78,15 +78,15 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application.
+1. Do one of the following to detach the profiler from the target application.
 
-    -   Close the target application.
+    - Close the target application.
 
          -or-
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
-2.  Shut down the profiler
+2. Shut down the profiler
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 

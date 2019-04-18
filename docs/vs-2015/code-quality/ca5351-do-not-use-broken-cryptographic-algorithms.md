@@ -41,9 +41,9 @@ manager: "wpickett"
 ## How to Fix Violations  
  Use cryptographically stronger options:  
   
--   For MD5, use hashes in the [SHA-2](https://msdn.microsoft.com/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
+- For MD5, use hashes in the [SHA-2](https://msdn.microsoft.com/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
   
--   For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.  
+- For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule, unless it's been reviewed by a cryptographic expert.  

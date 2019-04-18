@@ -14,9 +14,9 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
 ### To use C++
 
-1.  Add Concurrency Visualizer SDK support to your application. For more information, see [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md).
+1. Add Concurrency Visualizer SDK support to your application. For more information, see [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md).
 
-2.  Add an `include` statement and a `using` statement for the SDK.
+2. Add an `include` statement and a `using` statement for the SDK.
 
     ```C++
 
@@ -25,7 +25,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
     ```
 
-3.  Add code to create three spans in the default marker series and write a flag, a message, and an alert, one to each span. The methods to write flags, messages, and alerts are members of the [marker_series](../profiling/marker-series-class.md) class. The constructor for the [span](../profiling/span-class.md) class requires a `marker_series` object, so that each span is associated with a specific marker series. A `span` ends when it is deleted.
+3. Add code to create three spans in the default marker series and write a flag, a message, and an alert, one to each span. The methods to write flags, messages, and alerts are members of the [marker_series](../profiling/marker-series-class.md) class. The constructor for the [span](../profiling/span-class.md) class requires a `marker_series` object, so that each span is associated with a specific marker series. A `span` ends when it is deleted.
 
     ```C++
 
@@ -44,11 +44,11 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
     ```
 
-4.  On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Start with Current Project** to run the app and display the Concurrency Visualizer. The following illustration shows the three spans and three markers in the Concurrency Visualizer.
+4. On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Start with Current Project** to run the app and display the Concurrency Visualizer. The following illustration shows the three spans and three markers in the Concurrency Visualizer.
 
      ![Concurrency Visualizer with 3 markers and alerts](../profiling/media/cvmarkersnative.png "CvMarkersNative")
 
-5.  Add code to create additional, custom marker series by calling the constructor for `marker_series` that takes a string name for the marker series.
+5. Add code to create additional, custom marker series by calling the constructor for `marker_series` that takes a string name for the marker series.
 
     ```C++
 
@@ -68,15 +68,15 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
 
     ```
 
-6.  Start the current project to display the Concurrency Visualizer. The two marker series appear in their own lanes in Threads View. The following illustration shows the two new spans.
+6. Start the current project to display the Concurrency Visualizer. The two marker series appear in their own lanes in Threads View. The following illustration shows the two new spans.
 
      ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesnative.png "CvMarkerSeriesNative")
 
 ### To Use Visual Basic or C\#
 
-1.  Add Concurrency Visualizer SDK support to your application. For more information, see [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md).
+1. Add Concurrency Visualizer SDK support to your application. For more information, see [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md).
 
-2.  Add a `using` or `Imports` statement for the SDK.
+2. Add a `using` or `Imports` statement for the SDK.
 
     ```VB
     Imports Microsoft.ConcurrencyVisualizer.Instrumentation
@@ -87,7 +87,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
 
-3.  Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.
+3. Add code to create three spans on the default marker series and write a flag, a message, and an alert, one to each span. You create a <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> object by calling the static `EnterSpan` method. To write to the default series, you use the static write methods of the <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> class.
 
     ```VB
 
@@ -128,11 +128,11 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     alertSpan.Leave();
     ```
 
-4.  On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Start with Current Project** to run the app and display the Concurrency Visualizer. The following illustration shows the three spans and three markers in the Threads View of the Concurrency Visualizer.
+4. On the menu bar, choose **Analyze**, **Concurrency Visualizer**, **Start with Current Project** to run the app and display the Concurrency Visualizer. The following illustration shows the three spans and three markers in the Threads View of the Concurrency Visualizer.
 
      ![Concurrency Visualizer with markers and alerts](../profiling/media/cvmarkersmanaged.png "CvMarkersManaged")
 
-5.  Add code to create customer marker series by using the static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries%2A> method. The <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> class contains methods for creating spans and writing flags, messages, and alerts.
+5. Add code to create customer marker series by using the static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries%2A> method. The <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> class contains methods for creating spans and writing flags, messages, and alerts.
 
     ```VB
 
@@ -166,7 +166,7 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
     messageSeriesSpan.Leave();
     ```
 
-6.  Start the current project to display the Concurrency Visualizer. The three marker series appear in their own lanes in the Threads View. The following illustration shows the three new spans.
+6. Start the current project to display the Concurrency Visualizer. The three marker series appear in their own lanes in the Threads View. The following illustration shows the three new spans.
 
      ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")
 

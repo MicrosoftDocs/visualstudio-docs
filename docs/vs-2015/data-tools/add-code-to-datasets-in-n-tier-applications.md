@@ -32,15 +32,15 @@ By default, after you separate the dataset and `TableAdapter` code, the result i
 
 ## Add code to datasets in n-tier applications
 
-1.  Locate the project that contains the .xsd file (the dataset).
+1. Locate the project that contains the .xsd file (the dataset).
 
-2.  Select the **.xsd** file to open the dataset.
+2. Select the **.xsd** file to open the dataset.
 
-3.  Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
+3. Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
 
      A partial class is created and opens in the Code Editor.
 
-4.  Add code inside the partial class declaration.
+4. Add code inside the partial class declaration.
 
      The following example shows where to add code to the CustomersDataTable in the NorthwindDataSet:
 

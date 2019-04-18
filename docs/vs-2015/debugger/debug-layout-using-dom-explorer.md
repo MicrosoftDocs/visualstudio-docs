@@ -36,11 +36,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To fix the layout issue  
   
-1.  In Visual Studio, create a new Store app that uses the Hub/Pivot project template.  
+1. In Visual Studio, create a new Store app that uses the Hub/Pivot project template.  
   
-2.  In the shared pages\hub folder, open hub.css.  
+2. In the shared pages\hub folder, open hub.css.  
   
-3.  Replace the following CSS code:  
+3. Replace the following CSS code:  
   
     ```css  
     .hubpage .hub .section4 .sub-image-row img {  
@@ -59,22 +59,22 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     }  
     ```  
   
-4.  Select either the appName.WindowsPhone project or the appName.Windows project in Solution Explorer, and then choose **Set as Startup Project** from the shortcut menu for the project.  
+4. Select either the appName.WindowsPhone project or the appName.Windows project in Solution Explorer, and then choose **Set as Startup Project** from the shortcut menu for the project.  
   
-5.  Depending on your startup project, choose either **Emulator 8.1 WVGA 4 inch 512MB** or **Simulator** in the drop-down list on the Debug toolbar (**Local Machine** is the default value).  
+5. Depending on your startup project, choose either **Emulator 8.1 WVGA 4 inch 512MB** or **Simulator** in the drop-down list on the Debug toolbar (**Local Machine** is the default value).  
   
      ![Selecting a debug target](../debugger/media/js-dom-debug-target-emu.png "JS_DOM_Debug_Target_Emu")  
   
-6.  Press F5 to run your app in debug mode.  
+6. Press F5 to run your app in debug mode.  
   
-7.  Open Section 4 by scrolling or flicking.  
+7. Open Section 4 by scrolling or flicking.  
   
     > [!TIP]
     >  Position the Phone Emulator or Simulator right next to the Visual Studio window, so you can immediately see the results of your selections and changes you make to CSS styles.  
   
      When Section 4 loads, you can see that the lower images don't look right. Each item image appears cut in half (with the left half missing).  
   
-8.  Switch to Visual Studio and choose **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click.  
+8. Switch to Visual Studio and choose **Select Element** in DOM Explorer (or press Ctrl+B). This changes the selection mode so that you can select an item by clicking it, and brings the app into the foreground. The mode reverts back after a single click.  
   
     > [!TIP]
     >  You can also use arrow keys or other methods to select HTML elements directly in DOM Explorer. For more info on selecting elements, see [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md).  
@@ -99,11 +99,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
      This view provides some useful information about the element:  
   
-    -   Colors correspond to the box highlighting that appears in the Simulator when hovering over elements. The blue color represents the \<img> element dimensions. The tan color represents margin values.  
+    - Colors correspond to the box highlighting that appears in the Simulator when hovering over elements. The blue color represents the \<img> element dimensions. The tan color represents margin values.  
   
-    -   The left margin (margin-left) is set, which hints at the cause of the problem because it matches the symptom (black on the left side of images).  
+    - The left margin (margin-left) is set, which hints at the cause of the problem because it matches the symptom (black on the left side of images).  
   
-    -   The boxes that show values of 0 pixels (for example, Border and Padding) suggest that the corresponding CSS properties are probably not set.  
+    - The boxes that show values of 0 pixels (for example, Border and Padding) suggest that the corresponding CSS properties are probably not set.  
   
 11. To see how the margin-left rule is applied, choose the **Computed** tab and look under the margin-left rule. You can see that this rule is set with a 5em value, but the computed value is either 66.66px or 146.66px, depending on your target device.  
   

@@ -51,15 +51,15 @@ Here is a list of elements in the model:
   
  Notice the following points about this template:  
   
--   The template can use the domain classes, properties, and relationships that you defined in the DSL Definition.  
+- The template can use the domain classes, properties, and relationships that you defined in the DSL Definition.  
   
--   The template loads the model file that you specify in the `requires` property.  
+- The template loads the model file that you specify in the `requires` property.  
   
--   A property in `this` contains the root element. From there, your code can navigate to other elements of the model. The name of the property is usually the same as the root domain class of your DSL. In this example, it is `this.ExampleModel`.  
+- A property in `this` contains the root element. From there, your code can navigate to other elements of the model. The name of the property is usually the same as the root domain class of your DSL. In this example, it is `this.ExampleModel`.  
   
--   Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] by adding the property `language="VB"` to the `template` directive.  
+- Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] by adding the property `language="VB"` to the `template` directive.  
   
--   To debug the template, add `debug="true"` to the `template` directive. The template will open in another instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] if an exception occurs. If you want to break into the debugger at a specific point in the code, insert the statement `System.Diagnostics.Debugger.Break();`  
+- To debug the template, add `debug="true"` to the `template` directive. The template will open in another instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] if an exception occurs. If you want to break into the debugger at a specific point in the code, insert the statement `System.Diagnostics.Debugger.Break();`  
   
      For more information, see [Debugging a T4 Text Template](../modeling/debugging-a-t4-text-template.md).  
   
@@ -74,9 +74,9 @@ Here is a list of elements in the model:
   
  The DSL directive processor performs two principal tasks:  
   
--   It effectively inserts assembly and import directives into the template that references your DSL. This lets you use your domain classes in the template code.  
+- It effectively inserts assembly and import directives into the template that references your DSL. This lets you use your domain classes in the template code.  
   
--   It loads the file that you specify in the `requires` parameter, and sets a property in `this` that refers to the root element of the loaded model.  
+- It loads the file that you specify in the `requires` parameter, and sets a property in `this` that refers to the root element of the loaded model.  
   
 ## Validating the model before running the template  
  You can cause the model to be validated before the template is executed.  
@@ -94,7 +94,7 @@ Here is a list of elements in the model:
   
    If an error is found, it will be reported in the errors window, and the result file will contain an error message.  
   
-##  <a name="Multiple"></a> Accessing multiple models from a text template  
+## <a name="Multiple"></a> Accessing multiple models from a text template  
   
 > [!NOTE]
 >  This method lets you read multiple models in the same template but does not support ModelBus references. To read models that are interlinked by ModelBus References, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).  

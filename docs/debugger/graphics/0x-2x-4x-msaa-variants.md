@@ -27,13 +27,13 @@ Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and s
 
 - The `D3D11_TEXTURE2D_DESC` object passed in `pDesc` describes a render target; that is:
 
-  -   The BindFlags member has either the D3D11_BIND_TARGET flag or D3D11_BIND_DEPTH_STENCIL flag set.
+  - The BindFlags member has either the D3D11_BIND_TARGET flag or D3D11_BIND_DEPTH_STENCIL flag set.
 
-  -   The Usage member is set to D3D11_USAGE_DEFAULT.
+  - The Usage member is set to D3D11_USAGE_DEFAULT.
 
-  -   The CPUAccessFlags member is set to 0.
+  - The CPUAccessFlags member is set to 0.
 
-  -   The MipLevels member is set to 1.
+  - The MipLevels member is set to 1.
 
 - The device supports the requested sample count (0, 2, or 4) and sample quality (0) for the requested render target format (D3D11_TEXTURE2D_DESC::Format member), as determined by `ID3D11Device::CheckMultisampleQualityLevels`.
 

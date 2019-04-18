@@ -119,7 +119,7 @@ ms.workload:
 |Run code after the content control is added to the document as a result of a redo or undo operation.|Handle the <xref:Microsoft.Office.Tools.Word.ContentControlBase.Added> event of the control.|
 |Run code just before the content control is deleted from the document.|Handle the <xref:Microsoft.Office.Tools.Word.ContentControlBase.Deleting> event of the control.|
 
-##  <a name="Protection"></a> Protect parts of documents by using content controls
+## <a name="Protection"></a> Protect parts of documents by using content controls
  When you protect a part of a document, you prevent users from changing or deleting the content in that part of the document. There are several ways you can protect parts of a document by using content controls.
 
  If the area you want to protect is inside a content control, you can use properties of the content control to prevent users from editing or deleting the control:
@@ -135,7 +135,7 @@ ms.workload:
 
  For more information about how to use content controls to protect parts of documents, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
 
-##  <a name="DataBinding"></a> Bind data to content controls
+## <a name="DataBinding"></a> Bind data to content controls
  You can display data in documents by binding a content control to a data source. When the data source is updated, the content control reflects the changes. You can also save changes back to the data source.
 
  Content controls provide the following data binding options:
@@ -185,15 +185,15 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 
  You can bind the following types of content controls to custom XML parts:
 
--   <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>
+- <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>
+- <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>
+- <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.PictureContentControl>
+- <xref:Microsoft.Office.Tools.Word.PictureContentControl>
 
--   <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>
+- <xref:Microsoft.Office.Tools.Word.PlainTextContentControl>
 
 ### Data bind events for content controls
  All content controls provide a set of events that you can handle to perform data-related tasks, such as validating that the text in a control meets certain criteria before the data source is updated. The following table lists the content control events that are related to data binding.
@@ -222,7 +222,7 @@ plainTextContentControl1.XMLMapping.SetMapping("/Product/Price", String.Empty, n
 
  To determine when a user edits the contents of a content control, you can bind the control to a custom XML part, and then handle the <xref:Microsoft.Office.Tools.Word.ContentControlBase.StoreUpdating> event. This event is raised when the user changes the contents of a control that is bound to a custom XML part. For a walkthrough that demonstrates how to bind a content control to a custom XML part, see [Walkthrough: Bind content controls to custom XML parts](../vsto/walkthrough-binding-content-controls-to-custom-xml-parts.md).
 
-###  <a name="checkbox"></a> Check box content controls in Word projects
+### <a name="checkbox"></a> Check box content controls in Word projects
  Word 2010 introduced a new type of content control that represents a check box. However, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not provide a corresponding CheckBoxContentControl type for you to use in Office projects. To create a check box content control in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010 project, use the <xref:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl%2A> method to create a <xref:Microsoft.Office.Tools.Word.ContentControl> object, and pass the <xref:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox> value to the method to specify a check box content control. The following code example demonstrates how to do this.
 
  [!code-vb[Trin_ContentControlReference#800](../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/checkbox.vb#800)]

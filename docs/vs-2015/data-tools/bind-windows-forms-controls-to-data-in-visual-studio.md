@@ -35,21 +35,21 @@ You can display data to users of your application by binding data to Windows For
 
 ## In this section
 
--   [Bind Windows Forms controls to data](../data-tools/bind-windows-forms-controls-to-data.md)
+- [Bind Windows Forms controls to data](../data-tools/bind-windows-forms-controls-to-data.md)
 
--   [Commit in-process edits on data-bound controls before saving data](../data-tools/commit-in-process-edits-on-data-bound-controls-before-saving-data.md)
+- [Commit in-process edits on data-bound controls before saving data](../data-tools/commit-in-process-edits-on-data-bound-controls-before-saving-data.md)
 
--   [Create lookup tables in Windows Forms applications](../data-tools/create-lookup-tables-in-windows-forms-applications.md)
+- [Create lookup tables in Windows Forms applications](../data-tools/create-lookup-tables-in-windows-forms-applications.md)
 
--   [Create a Windows Form to search data](../data-tools/create-a-windows-form-to-search-data.md)
+- [Create a Windows Form to search data](../data-tools/create-a-windows-form-to-search-data.md)
 
--   [Create a Windows Forms user control that supports simple data binding](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md)
+- [Create a Windows Forms user control that supports simple data binding](../data-tools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md)
 
--   [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md)
+- [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md)
 
--   [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md)
+- [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md)
 
--   [Pass data between forms](../data-tools/pass-data-between-forms.md)
+- [Pass data between forms](../data-tools/pass-data-between-forms.md)
 
 ## BindingSource component
  The <xref:System.Windows.Forms.BindingSource> component serves two purposes. First, it provides a layer of abstraction when binding the controls on your form to data. Controls on the form are bound to the <xref:System.Windows.Forms.BindingSource> component (instead of being bound directly to a data source).
@@ -58,11 +58,11 @@ You can display data to users of your application by binding data to Windows For
 
  For more information about the <xref:System.Windows.Forms.BindingSource> component, see:
 
--   [BindingSource Component](http://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)
+- [BindingSource Component](http://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)
 
--   [BindingSource Component Overview](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)
+- [BindingSource Component Overview](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)
 
--   [BindingSource Component Architecture](http://msdn.microsoft.com/library/7bc69c90-8a11-48b1-9336-3adab5b41591)
+- [BindingSource Component Architecture](http://msdn.microsoft.com/library/7bc69c90-8a11-48b1-9336-3adab5b41591)
 
 ## BindingNavigator control
  This component provides a user interface for navigating through data displayed by a Windows application. For more information, see [BindingNavigator Control](http://msdn.microsoft.com/library/18c1e2a5-9834-40d3-9b2e-2b545e4e769e).

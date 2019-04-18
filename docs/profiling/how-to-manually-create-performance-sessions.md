@@ -20,13 +20,13 @@ You can manually create a performance session. You are not required to open a pr
 
 ### To manually create a performance session
 
-1.  On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **New Performance Session**.
+1. On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **New Performance Session**.
 
      An empty performance session is added to **Performance Explorer**.
 
-2.  Right-click **Targets**, and then click **Add Target Binary**.
+2. Right-click **Targets**, and then click **Add Target Binary**.
 
-3.  In the **Add Target Binary** dialog box, select the file name, and then click **Open**.
+3. In the **Add Target Binary** dialog box, select the file name, and then click **Open**.
 
      A new binary is added.
 

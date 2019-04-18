@@ -32,17 +32,17 @@ For the latest documentation on Visual Studio, see [CA1801: Review unused parame
 ## Cause  
  A method signature includes a parameter that is not used in the method body. This rule does not examine the following methods:  
   
--   Methods referenced by a delegate.  
+- Methods referenced by a delegate.  
   
--   Methods used as event handlers.  
+- Methods used as event handlers.  
   
--   Methods declared with the `abstract` (`MustOverride` in Visual Basic) modifier.  
+- Methods declared with the `abstract` (`MustOverride` in Visual Basic) modifier.  
   
--   Methods declared with the `virtual` (`Overridable` in Visual Basic) modifier.  
+- Methods declared with the `virtual` (`Overridable` in Visual Basic) modifier.  
   
--   Methods declared with the `override` (`Overrides` in Visual Basic) modifier.  
+- Methods declared with the `override` (`Overrides` in Visual Basic) modifier.  
   
--   Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.  
+- Methods declared with the `extern` (`Declare` statement in Visual Basic) modifier.  
   
 ## Rule Description  
  Review parameters in non-virtual methods that are not used in the method body to make sure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs.  

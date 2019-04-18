@@ -37,9 +37,9 @@ int GetBreakpointResolution( 
  `ppBPResolution`  
  [out] Returns the [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) interface that represents one of the following:  
   
--   The breakpoint resolution object that describes the location in code where a code breakpoint has been bound.  
+- The breakpoint resolution object that describes the location in code where a code breakpoint has been bound.  
   
--   The data location where a data breakpoint has bound.  
+- The data location where a data breakpoint has bound.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the state of the bound breakpoint object is set to `BPS_DELETED` (part of the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration).  

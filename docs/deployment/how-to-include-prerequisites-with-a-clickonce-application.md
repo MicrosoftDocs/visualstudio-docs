@@ -15,7 +15,7 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
 > [!NOTE]
 >  To add an installer package for the .NET Framework, see [.NET Framework Deployment Guide for Developers](/dotnet/framework/deployment/deployment-guide-for-developers).
 
-##  <a name="Package"></a> To add an installer package by using Package.xml
+## <a name="Package"></a> To add an installer package by using Package.xml
 
 1. In File Explorer, open the **Packages** folder.
 

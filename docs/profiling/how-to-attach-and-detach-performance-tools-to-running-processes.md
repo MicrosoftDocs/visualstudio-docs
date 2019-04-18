@@ -36,23 +36,23 @@ The profiler can be used to attach to or detach from a running process to make s
 
 ### To attach to a running process
 
-1.  On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Attach**.
+1. On the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Attach**.
 
      The **Attach Profiler to Process** dialog box appears.
 
-2.  Click the name of the process that you want to attach to.
+2. Click the name of the process that you want to attach to.
 
-3.  Click **Attach**.
+3. Click **Attach**.
 
 ### To detach from a running process
 
-1.  n the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Detach**.
+1. n the **Debug** menu, point to **Profiler**, then **Performance Explorer**, and then click **Detach**.
 
      The **Attach Profiler to Process** dialog box appears.
 
-2.  Click the image name from which you want to detach.
+2. Click the image name from which you want to detach.
 
-3.  Click **Detach**.
+3. Click **Detach**.
 
 ## See also
 - [Control data collection](../profiling/controlling-data-collection.md)

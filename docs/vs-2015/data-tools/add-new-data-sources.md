@@ -25,15 +25,15 @@ manager: jillfra
 
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and expose the data to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:  
   
--   A class in an Entity Framework model that is associated with some kind of database.  
+- A class in an Entity Framework model that is associated with some kind of database.  
   
--   A dataset that is associated with some kind of database.  
+- A dataset that is associated with some kind of database.  
   
--   A class that represents a network service such as a Windows Communication Foundation (WCF) data service or a REST service.  
+- A class that represents a network service such as a Windows Communication Foundation (WCF) data service or a REST service.  
   
--   A class that represents a SharePoint service.  
+- A class that represents a SharePoint service.  
   
--   A class or collection in your solution.  
+- A class or collection in your solution.  
   
 > [!NOTE]
 >  If you are not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.  
@@ -71,11 +71,11 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
   
  You can create a data source from the following types of services:  
   
--   WCF Data Services. For more information, see [Overview](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb).  
+- WCF Data Services. For more information, see [Overview](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb).  
   
--   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
+- WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
   
--   Web services.  
+- Web services.  
   
     > [!NOTE]
     >  The items that appear in the **Data Sources** window are dependent on the data that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items will appear in the **Data Sources** window when you complete the wizard. This is because untyped datasets do not provide a schema, and therefore the wizard does not have enough information to create the data source.  

@@ -17,7 +17,7 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
 ## Create a new Visual Basic project
 
-1.  Open Visual Studio.
+1. Open Visual Studio.
 
 2. Create a new Visual Basic **Console App** project named **XMLLiterals**.
 
@@ -25,11 +25,11 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
 ## Add an existing XSD file
 
-1.  Open a new text file in Notepad. Copy the XML Schema sample code from [purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it in to the file.
+1. Open a new text file in Notepad. Copy the XML Schema sample code from [purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it in to the file.
 
-2.  Save the file in some location with the name *PurchaseOrderSchema.xsd*.
+2. Save the file in some location with the name *PurchaseOrderSchema.xsd*.
 
-3.  In **Solution Explorer**, right-click the project's name, select **Add**, and then select **Existing Item**. The **AddExisting Item** dialog box appears. Browse to the *PurchaseOrderSchema.xsd* file, select it, and then click **Add**.
+3. In **Solution Explorer**, right-click the project's name, select **Add**, and then select **Existing Item**. The **AddExisting Item** dialog box appears. Browse to the *PurchaseOrderSchema.xsd* file, select it, and then click **Add**.
 
      The XMLLiterals project now contains two files: *Module1.vb* and *PurchaseOrderSchema.xsd*.
 

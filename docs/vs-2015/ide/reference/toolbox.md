@@ -32,17 +32,17 @@ The **Toolbox** displays icons for controls and other items that you can add to 
 ## Help on Toolbox Tabs  
  The following documents provide more information about specific **Toolbox** tabs.  
   
--   [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.110\))  
+- [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.110\))  
   
--   [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.110\))  
+- [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.110\))  
   
--   [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.110\))  
+- [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.110\))  
   
--   [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.120\))  
+- [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.120\))  
   
--   [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.120\))  
+- [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.120\))  
   
--   [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.120\))  
+- [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.120\))  
   
 ## See Also  
  [Using the Toolbox](../../ide/using-the-toolbox.md)

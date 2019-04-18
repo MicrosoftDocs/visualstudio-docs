@@ -91,15 +91,15 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 
 ### To add the profiler post-process step to the configuration/system.web/compilation element
 
-1.  If necessary, add the **system.web** element as a child element of the **configuration** element; otherwise, go to the next step.
+1. If necessary, add the **system.web** element as a child element of the **configuration** element; otherwise, go to the next step.
 
      The **system.web** element has no attributes. The **configuration** element can have only one **system.web** child element.
 
-2.  If necessary, add the **compilation** element as a child element of the **system.web** element; otherwise, go to the next step.
+2. If necessary, add the **compilation** element as a child element of the **system.web** element; otherwise, go to the next step.
 
      The **system.web** element can have only one **compilation** child element.
 
-3.  Remove any existing attributes from the **compilation** element, and add the following attribute name and value:
+3. Remove any existing attributes from the **compilation** element, and add the following attribute name and value:
 
     |Attribute Name|Attribute Value|
     |--------------------|---------------------|

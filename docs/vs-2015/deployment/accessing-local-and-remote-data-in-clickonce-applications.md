@@ -25,11 +25,11 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
 ## Local Data  
  With [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], you can load and store data locally by using any one of the following methods:  
   
--   [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Data Directory  
+- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Data Directory  
   
--   Isolated Storage  
+- Isolated Storage  
   
--   Other Local Files  
+- Other Local Files  
   
 ### ClickOnce Data Directory  
  Every [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application installed on a local computer has a data directory, stored in the user's Documents and Settings folder. Any file included in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and marked as a "data" file is copied to this directory when an application is installed. Data files can be of any file type, the most frequently used being text, XML, and database files such as Microsoft Access .mdb files.  

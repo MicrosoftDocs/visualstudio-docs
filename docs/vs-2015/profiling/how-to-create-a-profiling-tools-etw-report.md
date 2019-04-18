@@ -26,7 +26,7 @@ The Event Tracing for Windows (ETW) report lists the ETW events that are recorde
   
 ### To generate an ETW report  
   
--   In a **Command Prompt** window, type the following command line:  
+- In a **Command Prompt** window, type the following command line:  
   
      *ToolsPath* **VSPerfReport** *VSPFile*  **/Summary:ETW [/Xml]**  
   

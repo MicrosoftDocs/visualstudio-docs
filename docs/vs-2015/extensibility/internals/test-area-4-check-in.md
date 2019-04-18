@@ -29,11 +29,11 @@ This source-control plug-in test area covers sending updated items to the versio
   
 ## Common Expected Behavior  
   
--   Projects and files added to a solution or project under source control appear in the **Check In** dialog box and the **Pending Checkins** window.  
+- Projects and files added to a solution or project under source control appear in the **Check In** dialog box and the **Pending Checkins** window.  
   
--   After the check in, added items appear in source control.  
+- After the check in, added items appear in source control.  
   
--   After the check in, updated items are properly versioned in the store.  
+- After the check in, updated items are properly versioned in the store.  
   
 ## Test Cases  
  The following are specific test cases for the Checkin test area.  

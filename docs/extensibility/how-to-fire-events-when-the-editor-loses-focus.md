@@ -16,14 +16,14 @@ Sometimes it is necessary to know when an editor loses focus on the window frame
 
 ## To fire an event in response to an editor losing focus
 
-1.  Monitor selection events by obtaining an <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection> object from <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection>.
+1. Monitor selection events by obtaining an <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection> object from <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection>.
 
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.AdviseSelectionEvents%2A> and provide it your <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents> object.
+2. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.AdviseSelectionEvents%2A> and provide it your <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents> object.
 
-3.  In your call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents.OnElementValueChanged%2A>, look for `elementid==SEID_WindowFrame`.
+3. In your call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents.OnElementValueChanged%2A>, look for `elementid==SEID_WindowFrame`.
 
-4.  Test the `varValueNew` parameter for two things:
+4. Test the `varValueNew` parameter for two things:
 
-    1.  The window frame you are looking for.
+    1. The window frame you are looking for.
 
-    2.  The point at which your program loses the selection to that window frame.
+    2. The point at which your program loses the selection to that window frame.

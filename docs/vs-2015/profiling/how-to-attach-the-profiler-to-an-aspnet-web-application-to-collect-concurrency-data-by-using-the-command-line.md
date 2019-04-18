@@ -45,16 +45,16 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 3. Attach the profiler to the ASP.NET worker process by typing the following command:**VSPerfCmd /attach:**`PID` [**/targetclr:**`Version`]  
 
-   -   `PID` specifies the ID or name of the ASP.NET worker process. You can view the process IDs of all running processes in Windows Task Manager.  
+   - `PID` specifies the ID or name of the ASP.NET worker process. You can view the process IDs of all running processes in Windows Task Manager.  
 
-   -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. This parameter is optional.  
+   - [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. This parameter is optional.  
 
 ## Controlling Data Collection  
  While the application is running, you can control data collection by starting and stopping the writing of data to the file by using VSPerfCmd.exe options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.  
 
 #### To start and stop data collection  
 
--   The pairs of VSPerfCmd options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The pairs of VSPerfCmd options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -67,11 +67,11 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Detach the profiler from the target application by closing it or by typing the following at a command prompt:  
+1. Detach the profiler from the target application by closing it or by typing the following at a command prompt:  
 
      **VSPerfCmd /detach**  
 
-2.  Shut down the profiler by typing the following command at a command prompt:  
+2. Shut down the profiler by typing the following command at a command prompt:  
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)  
 

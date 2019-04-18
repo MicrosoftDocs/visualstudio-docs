@@ -19,7 +19,7 @@ This message appears when you drag items that do not use the .NET Framework Data
   
 ### To correct this error  
   
--   Add only items from data connections that use the .NET Framework Data Provider for SQL Server to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+- Add only items from data connections that use the .NET Framework Data Provider for SQL Server to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
 ## See Also  
  <xref:System.Data.SqlClient>   

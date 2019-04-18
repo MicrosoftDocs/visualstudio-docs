@@ -18,15 +18,15 @@ Visual Studio provides two ways of implementing Find/Replace. One way is to pass
   
 ### To implement Find/Replace  
   
-1.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget> interface on one of the objects returned by the frame properties <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> or <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>. If you are creating a custom editor, you should implement this interface as part of the custom editor class.  
+1. Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget> interface on one of the objects returned by the frame properties <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> or <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>. If you are creating a custom editor, you should implement this interface as part of the custom editor class.  
   
-2.  Use the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetCapabilities%2A> method to specify the options that your editor supports and to indicate whether it implements text image searching.  
+2. Use the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetCapabilities%2A> method to specify the options that your editor supports and to indicate whether it implements text image searching.  
   
      If your editor supports text image searching, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetSearchImage%2A>.  
   
      Otherwise, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A>.  
   
-3.  If you implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A> methods, you can simplify your searching tasks by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> interface.  
+3. If you implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find%2A> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace%2A> methods, you can simplify your searching tasks by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> interface.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper>   

@@ -23,11 +23,11 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To create a network image
 
-1.  Create a folder on the server (for example, *Drive*:\IDEinstall\\).
+1. Create a folder on the server (for example, *Drive*:\IDEinstall\\).
 
-2.  Download the installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015), and then run *Product*.exe /Layout *Drive*:\IDEinstall\
+2. Download the installer from [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015), and then run *Product*.exe /Layout *Drive*:\IDEinstall\
 
-3.  Share the IDEinstall folder on the network, and then set the appropriate security settings.
+3. Share the IDEinstall folder on the network, and then set the appropriate security settings.
 
      The network path of the installation application for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] resembles \\\\*ServerName*\IDEinstall\\*Product*.exe.
 
@@ -69,11 +69,11 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To create an unattended installation of Visual Studio
 
-1.  In *Drive*:\IDEinstall\AdminDeployment.xml file, change the value of the NoWeb attribute of the BundleCustomizations element from "default" to "yes" as the following example shows:
+1. In *Drive*:\IDEinstall\AdminDeployment.xml file, change the value of the NoWeb attribute of the BundleCustomizations element from "default" to "yes" as the following example shows:
 
      Change `<BundleCustomizations TargetDir="default" NoWeb="default"/>` to `<BundleCustomizations TargetDir="default" NoWeb="yes"/>`
 
-2.  Change the SelectableItemCustomization attribute as needed for optional components, and then save the file.
+2. Change the SelectableItemCustomization attribute as needed for optional components, and then save the file.
 
 ## Running Unattended Setup
  You can run unattended setup either by automatically running the installation application for Visual Studio on client computers or by allowing users to run the application themselves using settings that you define.
@@ -86,9 +86,9 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To enable clients to manually install Visual Studio with pre-defined settings
 
-1.  Copy the customized AdminDeployment.xml file to a network share that is read-only (for example, \\\\*ServerName*\IDEinstall\packages\AdminDeployment.xml).
+1. Copy the customized AdminDeployment.xml file to a network share that is read-only (for example, \\\\*ServerName*\IDEinstall\packages\AdminDeployment.xml).
 
-2.  Enable users to install from that share.
+2. Enable users to install from that share.
 
 ## Maintaining an Installation
  If you open **Control Panel** and rerun the installation application, you can modify features of Visual Studio, uninstall programming languages, and repair or uninstall Visual Studio.
@@ -98,9 +98,9 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 
 #### To maintain an installation on a client computer
 
--   Open **Control Panel**, and then choose **Programs and Features**.
+- Open **Control Panel**, and then choose **Programs and Features**.
 
--   Choose [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and then choose **Change**.
+- Choose [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], and then choose **Change**.
 
 #### To change AdminDeployment settings on a client computer after Visual Studio has been installed
 
@@ -130,42 +130,42 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 3. ###### If the product version is 14.0.24720.0 or 14.0.24720.1, follow these steps:
 4. 1.  Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run: `vs_enterprise.exe /Layout d:\IDEinstall`.)
 
-   2.  After the /Layout is complete, copy the new image to a new location.
+   2. After the /Layout is complete, copy the new image to a new location.
 
-   3.  Create and modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
+   3. Create and modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
 
-   4.  On the client machine, run the following  command to update the copy of Visual Studio that you previously installed: "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
+   4. On the client machine, run the following  command to update the copy of Visual Studio that you previously installed: "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
 
         For example, run: `\\server1\IDEinstall_Updated_1\vs_enterprise.exe /adminfile \\server1\IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart`
 5. ###### For other product version values, follow these steps:
 6. 1.  Run *Product.exe* /Layout *Drive:*\IDEinstall on a machine that has Internet access. (For example, run `vs-enterprise.exe /Layout d:\IDEinstall`.)
 
-   2.  After the /Layout is complete, copy the new image to a new location. (Or, you can override the existing network image instead.)
+   2. After the /Layout is complete, copy the new image to a new location. (Or, you can override the existing network image instead.)
 
-   3.  Create and then modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
+   3. Create and then modify the AdminDeployment.xml file. To do this,  use the `/CreateAdminFile`*\<file location>* command-line parameter. (For more information, see the "Deploying Visual Studio in unattended mode" section of this article.)
 
-   4.  If you copy the image to a new location, you must run the following command on the client machine to update the copy of Visual Studio that you previously installed:  "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
+   4. If you copy the image to a new location, you must run the following command on the client machine to update the copy of Visual Studio that you previously installed:  "\\\\*server1*\IDEinstall_Updated_1\\*Product.exe* /adminfile \\\server1\ IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart".
 
         For example, run: `\\server1\IDEinstall_Updated_1\vs_enterprise.exe /adminfile \\server1\IDEinstall_Updated_1\AdminDeployment.xml /quiet /norestart`
 
-   5.  If you override the existing network image, you can run the command as listed in the previous step, or you can do the following:
+   5. If you override the existing network image, you can run the command as listed in the previous step, or you can do the following:
 
-   6.  1.  Open **Control Panel**, and then choose **Programs and Features**.
+   6. 1.  Open **Control Panel**, and then choose **Programs and Features**.
 
-       2.  Choose **Visual Studio**, and then choose **Change**.
+       2. Choose **Visual Studio**, and then choose **Change**.
 
-       3.  After Visual Studio starts in maintenance mode, click **Modify**.
+       3. After Visual Studio starts in maintenance mode, click **Modify**.
 
-       4.  The latest Update should appear on the Features page. Select the other features that you want to install, click **Next**, and then click **Update** to install both the update and the new features.
+       4. The latest Update should appear on the Features page. Select the other features that you want to install, click **Next**, and then click **Update** to install both the update and the new features.
 
 ## Registering the product
  After installation is complete, you can register your copy of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] from within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].
 
 #### To register
 
-1.  Open the **Help** menu, and then choose **Register Product**.
+1. Open the **Help** menu, and then choose **Register Product**.
 
-2.  Enter the product key.
+2. Enter the product key.
 
      (For more information, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and the [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md) topics.)
 

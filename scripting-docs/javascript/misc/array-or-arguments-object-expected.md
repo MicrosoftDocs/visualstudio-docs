@@ -20,7 +20,7 @@ You did not supply an array as an argument. This error applies to the **Function
   
 ### To correct this error  
   
--   Specify either an `Array` or an **Arguments** object as the second argument.  
+- Specify either an `Array` or an **Arguments** object as the second argument.  
   
 ## See Also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)   

@@ -27,66 +27,66 @@ ms.workload:
 ## Project Templates
  Web site project templates are used to build new Web sites in response to the **New Web Site** command on the **File** menu. Three Web site project types are currently supported:
 
--   Empty Web site projects
+- Empty Web site projects
 
--   Web site projects
+- Web site projects
 
--   Web service projects
+- Web service projects
 
 ### Empty Web Site Projects
  These files create a new empty Web site in response to the **Empty Web Site** command, which is available after choosing **File** > **New Web Site**:
 
--   EmptyWeb.vstemplate
+- EmptyWeb.vstemplate
 
      The template file that guides the creation of the new empty Web site.
 
--   EmptyWeb.webproj
+- EmptyWeb.webproj
 
      This file is an artifact of the project template system. It satisfies the project file reference in the EmptyWeb.vstemplate file.
 
 ### Web Site Projects
  These files create a new Web site in response to the **ASP.NET Web Site** command, which is available after choosing **File** > **New Web Site**:
 
--   Default.aspx
+- Default.aspx
 
      The default home page for the new Web site. The Language attribute specifies the codebehind language, and the CodeFile attribute specifies the dependent file that contains the codebehind code associated with this page.
 
--   Default.aspx.*extension*
+- Default.aspx.*extension*
 
      The dependent file that contains the codebehind code for the default home page. The codebehind language determines the *extension* of this file.
 
--   web.config
+- web.config
 
      The root web.site configuration file.
 
--   WebApplication.vstemplate
+- WebApplication.vstemplate
 
      The template file that determines the content of the Web site solution and forces the creation of the App_Data folder.
 
--   WebApplication.webproj
+- WebApplication.webproj
 
      This file is an artifact of the project template system. It satisfies the project file reference in the WebApplication.vstemplate file.
 
 ### Web Service Projects
  These files create a new Web site in response to the **ASP.NET Web Service** command, which is available after choosing **File** > **New Web Site**:
 
--   Service.asmx
+- Service.asmx
 
      The HTML page for the new Web service. The Language attribute specifies the codebehind language, and the CodeBehind attribute specifies the dependent file that contains the codebehind code associated with this service.
 
--   Service. *extension*
+- Service. *extension*
 
      The dependent file that implements the service class. The codebehind language determines the *extension* of this file.
 
--   web.config
+- web.config
 
--   The root web.site configuration file.
+- The root web.site configuration file.
 
--   WebService.vstemplate
+- WebService.vstemplate
 
      The template file that determines the content of the Web site solution and forces the creation of the App_Data and App_Code folders. The service.*extension* file is copied to the App_Code folder.
 
--   WebService.webproj
+- WebService.webproj
 
      This file is an artifact of the project template system. It satisfies the project file reference in the WebService.vstemplate file.
 
@@ -96,33 +96,33 @@ ms.workload:
 ## Project Item Templates
  Web site project item templates are used to add new Web pages to a Web site in response to the **Add Existing Item** command. These kinds of Web pages are currently supported:
 
--   New class
+- New class
 
--   New HTML page
+- New HTML page
 
--   New Web Form
+- New Web Form
 
--   New master page
+- New master page
 
 ### New Class
  This template creates a new source file that defines an empty class in response to the **Add New Class** command.
 
--   Class. *extension*
+- Class. *extension*
 
      The source file that implements the empty class. The codebehind language determines the *extension* of this file.
 
--   Class.vstemplate
+- Class.vstemplate
 
      The template file that creates the source file and determines its contents.
 
 ### New HTML Page
  This template creates a new Web page in response to the **Add New HTML Page** command.
 
--   HTMLPage.htm
+- HTMLPage.htm
 
      The starting content of the Web page. This Web page typically has no associated codebehind dependent file. To create a smart page with an associated codebehind file, use the Web Form template instead.
 
--   HTMLPage.vstemplate
+- HTMLPage.vstemplate
 
      The template file that creates the Web page and determines its contents.
 
@@ -133,27 +133,27 @@ ms.workload:
 
  To create a content page for a selected master page, select **Select master page**.
 
--   WebForm.aspx
+- WebForm.aspx
 
      The starting content of the Web page. This Web page has no associated codebehind dependent file.
 
--   WebForm_cb.aspx
+- WebForm_cb.aspx
 
      The starting content of the Web page. This Web page has an associated codebehind dependent file.
 
--   Codebehind. *extension*
+- Codebehind. *extension*
 
      The dependent file that implements the webform class. The codebehind language determines the *extension* of this file.
 
--   ContentPage.aspx
+- ContentPage.aspx
 
      The starting content of the Web page as a content page. This Web page has no associated codebehind dependent file.
 
--   ContentPage_cb.aspx
+- ContentPage_cb.aspx
 
      The starting content of the Web page as a content page. This Web page has an associated codebehind dependent file.
 
--   WebForm.vstemplate
+- WebForm.vstemplate
 
      The template file that determines the contents of the new web page and its dependent file, if any.
 
@@ -162,19 +162,19 @@ ms.workload:
 
  To create a dependent codebehind source file, select **Place code in separate file**. Otherwise a single Web page is created that has an empty scripting block and no \<% Page %> directives to hook up a dependent file.
 
--   MasterPage.master
+- MasterPage.master
 
      The starting content of the master page. This master page has no associated codebehind dependent file.
 
--   MasterPage_cb.master
+- MasterPage_cb.master
 
      The starting content of the master page. This master page has an associated codebehind dependent file.
 
--   Codebehind.*extension*
+- Codebehind.*extension*
 
      The dependent file that implements the master page class. The codebehind language determines the *extension* of this file.
 
--   MasterPage.vstemplate
+- MasterPage.vstemplate
 
      The template file that determines the contents of the new master page and its dependent file, if any.
 

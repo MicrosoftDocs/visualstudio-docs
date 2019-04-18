@@ -85,21 +85,21 @@ Excel.Workbook newWorkbook = Globals.ThisAddIn.Application.Workbooks.Add(System.
 
  For more information about the object models of specific Microsoft Office applications, see the following topics:
 
--   [Excel object model overview](../vsto/excel-object-model-overview.md)
+- [Excel object model overview](../vsto/excel-object-model-overview.md)
 
--   [Word object model overview](../vsto/word-object-model-overview.md)
+- [Word object model overview](../vsto/word-object-model-overview.md)
 
--   [Outlook object model overview](../vsto/outlook-object-model-overview.md)
+- [Outlook object model overview](../vsto/outlook-object-model-overview.md)
 
--   [InfoPath solutions](../vsto/infopath-solutions.md)
+- [InfoPath solutions](../vsto/infopath-solutions.md)
 
--   [PowerPoint solutions](../vsto/powerpoint-solutions.md)
+- [PowerPoint solutions](../vsto/powerpoint-solutions.md)
 
--   [Project solutions](../vsto/project-solutions.md)
+- [Project solutions](../vsto/project-solutions.md)
 
--   [Visio object model overview](../vsto/visio-object-model-overview.md)
+- [Visio object model overview](../vsto/visio-object-model-overview.md)
 
-###  <a name="AccessingDocuments"></a> Access a document when the Office application starts
+### <a name="AccessingDocuments"></a> Access a document when the Office application starts
  Not all [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] applications automatically open a document when you start them, and none of the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications open a document when you start them. Therefore, don't add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. That way, you can guarantee that a document is open before your code performs operations on it.
 
  The following code example works with a document in Word only when the user creates a document or opens an existing document.

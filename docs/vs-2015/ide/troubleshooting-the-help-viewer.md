@@ -26,15 +26,15 @@ This topic discusses issues that you might encounter with the Help Viewer.
   
 #### To activate Windows Search service  
   
-1.  Start Server Manager.  
+1. Start Server Manager.  
   
-2.  In the left navigation pane, choose **Roles**.  
+2. In the left navigation pane, choose **Roles**.  
   
-3.  In the Roles Summary pane, choose **Add Role**.  
+3. In the Roles Summary pane, choose **Add Role**.  
   
-4.  Choose the File Services role, and then choose the **Next** button.  
+4. Choose the File Services role, and then choose the **Next** button.  
   
-5.  Choose the Windows Search role service.  
+5. Choose the Windows Search role service.  
   
 ## Additional Resources  
  You can get more information and provide feedback on the Help Viewer by using the following resources:  

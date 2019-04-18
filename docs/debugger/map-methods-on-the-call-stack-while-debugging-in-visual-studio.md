@@ -46,7 +46,7 @@ Here's a quick look at a code map:
 
  ![Debugging with call stacks on code maps](../debugger/media/debuggermap_overview.png "DebuggerMap_Overview")
 
-##  <a name="MapStack"></a> Map the call stack
+## <a name="MapStack"></a> Map the call stack
 
 1. In a Visual Studio Enterprise C#, Visual Basic, C++, or JavaScript project, start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
 
@@ -84,11 +84,11 @@ To control the map's layout, select the **Layout** menu on the map toolbar.
 
 In the **Layout** menu, you can:
 
--   Change the default layout.
--   Stop rearranging the map automatically, by deselecting **Automatically Layout when Debugging**.
--   Rearrange the map as little as possible when you add items, by deselecting **Incremental Layout**.
+- Change the default layout.
+- Stop rearranging the map automatically, by deselecting **Automatically Layout when Debugging**.
+- Rearrange the map as little as possible when you add items, by deselecting **Incremental Layout**.
 
-##  <a name="MakeNotes"></a> Make notes about the code
+## <a name="MakeNotes"></a> Make notes about the code
 
 You can add comments to track what's happening in the code.
 
@@ -98,7 +98,7 @@ To add a new line in a comment, press **Shift**+**Enter**.
 
  ![Add comment to call stack on code map](../debugger/media/debuggermap_addcomment.png "DebuggerMap_AddComment")
 
-##  <a name="UpdateMap"></a> Update the map with the next call stack
+## <a name="UpdateMap"></a> Update the map with the next call stack
 
 As you run your app to the next breakpoint or step into a function, the map adds new call stacks automatically.
 
@@ -106,7 +106,7 @@ As you run your app to the next breakpoint or step into a function, the map adds
 
 To stop the map from adding new call stacks automatically, select ![Show call stack on code map automatically](../debugger/media/debuggermap_automaticupdateicon.gif "Show call stack on code map automatically") on the code map toolbar. The map continues to highlight existing call stacks. To manually add the current call stack to the map, press **Ctrl**+**Shift**+**`**.
 
-##  <a name="AddRelatedCode"></a> Add related code to the map
+## <a name="AddRelatedCode"></a> Add related code to the map
 
 Now that you've got a map, in C# or Visual Basic, you can add items like fields, properties, and other methods, to track what's happening in the code.
 
@@ -129,7 +129,7 @@ Continue building the map to see more code.
 
  ![Methods that use a field on call stack code map](../debugger/media/debuggermap_foundallreferences.png "DebuggerMap_FoundAllReferences")
 
-##  <a name="FindBugs"></a> Find bugs using the map
+## <a name="FindBugs"></a> Find bugs using the map
  Visualizing your code can help you find bugs faster. For example, suppose you're investigating a bug in a drawing app. When you draw a line and try to undo it, nothing happens until you draw another line.
 
  So you set breakpoints in the `clear`, `undo`, and `Repaint` methods, start debugging, and build a map like this one:

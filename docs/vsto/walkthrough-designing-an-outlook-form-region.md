@@ -20,15 +20,15 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
--   Creating a new Outlook VSTO Add-in project.
+- Creating a new Outlook VSTO Add-in project.
 
--   Adding a form region to the VSTO Add-in project.
+- Adding a form region to the VSTO Add-in project.
 
--   Designing the layout of the form region.
+- Designing the layout of the form region.
 
--   Customizing the behavior of the form region.
+- Customizing the behavior of the form region.
 
--   Testing the Outlook form region.
+- Testing the Outlook form region.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -47,11 +47,11 @@ ms.workload:
 
 ### To create a new Outlook VSTO Add-in project
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **MapItAddIn**.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **MapItAddIn**.
 
-2.  In the **New Project** dialog box, select **Create directory for solution**.
+2. In the **New Project** dialog box, select **Create directory for solution**.
 
-3.  Save the project to any directory.
+3. Save the project to any directory.
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -60,27 +60,27 @@ ms.workload:
 
 ### To add a form region to the Outlook VSTO Add-in project
 
-1.  In **Solution Explorer**, select the **MapItAddIn** project.
+1. In **Solution Explorer**, select the **MapItAddIn** project.
 
-2.  On the **Project** menu, click **Add New Item**.
+2. On the **Project** menu, click **Add New Item**.
 
-3.  In the **Add New Item** dialog box, select **Outlook Form Region**, name the file **MapIt**, and then click **Add**.
+3. In the **Add New Item** dialog box, select **Outlook Form Region**, name the file **MapIt**, and then click **Add**.
 
      The **NewOutlook Form Region** wizard starts.
 
-4.  On the **Select how you want to create the form region** page, click **Design a new form region**, and then click **Next**.
+4. On the **Select how you want to create the form region** page, click **Design a new form region**, and then click **Next**.
 
-5.  On the **Select the type of form region you want to create** page, click **Separate**, and then click **Next**.
+5. On the **Select the type of form region you want to create** page, click **Separate**, and then click **Next**.
 
      A *separate* form region adds a new page to an Outlook form. For more information about form region types, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
-6.  On the **Supply descriptive text and select your display preferences** page, type **Map It** in the **Name** box.
+6. On the **Supply descriptive text and select your display preferences** page, type **Map It** in the **Name** box.
 
      This name appears on the Ribbon of the Inspector window when the contact item is open.
 
-7.  Select **Inspectors that are in compose mode** and **Inspectors that are in read mode**, and then click **Next**.
+7. Select **Inspectors that are in compose mode** and **Inspectors that are in read mode**, and then click **Next**.
 
-8.  On the **Identify the message classes that will display this form region** page, clear **Mail Message**, select **Contact**, and then click **Finish**.
+8. On the **Identify the message classes that will display this form region** page, clear **Mail Message**, select **Contact**, and then click **Finish**.
 
      A *MapIt.cs* or *MapIt.vb* file is added to your project.
 
@@ -89,17 +89,17 @@ ms.workload:
 
 ### To design the layout of the form region
 
-1.  In **Solution Explorer**, expand the **MapItAddIn** project, and then double-click *MapIt.cs* or *MapIt.vb* to open the Form Region Designer.
+1. In **Solution Explorer**, expand the **MapItAddIn** project, and then double-click *MapIt.cs* or *MapIt.vb* to open the Form Region Designer.
 
-2.  Right-click the designer, and then click **Properties**.
+2. Right-click the designer, and then click **Properties**.
 
-3.  In the **Properties** window, set **Size** to **664, 469**.
+3. In the **Properties** window, set **Size** to **664, 469**.
 
      This ensures that the form region will be large enough to display a map.
 
-4.  On the **View** menu, click **Toolbox**.
+4. On the **View** menu, click **Toolbox**.
 
-5.  From the **Common Controls** tab of the **Toolbox**, add a **WebBrowser** to the form region.
+5. From the **Common Controls** tab of the **Toolbox**, add a **WebBrowser** to the form region.
 
      The **WebBrowser** will display a map of each address that is listed for the contact.
 
@@ -137,13 +137,13 @@ ms.workload:
 
 ### To test the Map It form region
 
-1.  Press **F5** to run the project.
+1. Press **F5** to run the project.
 
      Outlook opens.
 
-2.  In Outlook, on the **Home** tab, click **New Items**, and then click **Contact**.
+2. In Outlook, on the **Home** tab, click **New Items**, and then click **Contact**.
 
-3.  In the contact form, type **Ann Beebe** as the contact name, and then specify the following three addresses.
+3. In the contact form, type **Ann Beebe** as the contact name, and then specify the following three addresses.
 
     |Address Type|Address|
     |------------------|-------------|
@@ -151,20 +151,20 @@ ms.workload:
     |**Home**|**1234 North St. Buffalo, NY**|
     |**Other**|**3456 Main St. Seattle, WA**|
 
-4.  Save and close the contact item.
+4. Save and close the contact item.
 
-5.  Reopen the **Ann Beebe** contact item.
+5. Reopen the **Ann Beebe** contact item.
 
     In Outlook, this can be done in the **Find** group by either opening the Address Book for Contacts or typing Ann Beebe into **Search People**.
 
-6.  In the **Show** group of the item's Ribbon, click **Map It** to open the Map It form region.
+6. In the **Show** group of the item's Ribbon, click **Map It** to open the Map It form region.
 
      The Map It form region appears, and displays the Local Search Web site. The **Business**, **Home**, and **Other** addresses appear in the scratch pad. In the scratch pad, select an address that you want to map.
 
 ## Next steps
  You can learn more about how to customize the UI of an Outlook application from these topics:
 
--   To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+- To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
 ## See also
 - [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)

@@ -20,21 +20,21 @@ This walkthrough shows how to use code analysis tools that have been configured 
   
  In this walkthrough, you will step through these processes:  
   
--   Create a class library.  
+- Create a class library.  
   
--   Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.  
+- Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.  
   
--   Add your own code to the class.  
+- Add your own code to the class.  
   
--   Run Code Analysis.  
+- Run Code Analysis.  
   
--   Customize the rule set.  
+- Customize the rule set.  
   
--   Run Code Analysis and see how the rule set customization behavior works.  
+- Run Code Analysis and see how the rule set customization behavior works.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 ## Using Rule Sets with Code Analysis  
  First, create a simple class library.  
@@ -142,9 +142,9 @@ This walkthrough shows how to use code analysis tools that have been configured 
   
 #### Run Code Analysis on the RuleSetSample project for the second time  
   
-1.  On the **Analyze** menu, click **Run Code Analysis on RuleSetSample**.  
+1. On the **Analyze** menu, click **Run Code Analysis on RuleSetSample**.  
   
-2.  In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.  
+2. In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.  
   
 ## See Also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   

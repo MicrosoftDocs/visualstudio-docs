@@ -48,19 +48,19 @@ For a complete example diagnostic data adapter project, including a custom confi
 
 2. Add the assembly **Microsoft.VisualStudio.QualityTools.ExecutionCommon**.
 
-   1.  In **Solution Explorer**, right-click **References** and choose the **Add Reference** command.
+   1. In **Solution Explorer**, right-click **References** and choose the **Add Reference** command.
 
-   2.  Choose **.NET** and locate **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**.
+   2. Choose **.NET** and locate **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**.
 
-   3.  Choose **OK**.
+   3. Choose **OK**.
 
 3. Add the assembly **Microsoft.VisualStudio.QualityTools.Common**.
 
-   1.  In **Solution Explorer**, right-click **References** and select the **Add Reference** command.
+   1. In **Solution Explorer**, right-click **References** and select the **Add Reference** command.
 
-   2.  Choose **/.NET**, locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
+   2. Choose **/.NET**, locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
 
-   3.  Choose **OK**.
+   3. Choose **OK**.
 
 4. Add the following `using` statements to your class file:
 

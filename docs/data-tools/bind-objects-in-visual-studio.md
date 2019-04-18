@@ -34,25 +34,25 @@ Generally, custom objects do not require any specific interfaces, constructors, 
 
 While there are countless ways to implement your application logic when working with objects as a data source, for SQL databases there are a few standard operations that can be simplified by using the Visual Studio-generated TableAdapter objects. This page explains how to implement these standard processes using TableAdapters. It is not intended as a guide for creating your custom objects. For example, you will typically perform the following standard operations regardless of the specific implementation of your objects, or application's logic:
 
--   Loading data into objects (typically from a database).
+- Loading data into objects (typically from a database).
 
--   Creating a typed collection of objects.
+- Creating a typed collection of objects.
 
--   Adding objects to and removing objects from a collection.
+- Adding objects to and removing objects from a collection.
 
--   Displaying the object data to users on a form.
+- Displaying the object data to users on a form.
 
--   Changing/editing the data in an object.
+- Changing/editing the data in an object.
 
--   Saving data from objects back to the database.
+- Saving data from objects back to the database.
 
 ### Load data into objects
 
 For this example, you load data into your objects by using TableAdapters. By default, TableAdapters are created with two kinds of methods that fetch data from a database and populate data tables.
 
--   The `TableAdapter.Fill` method fills an existing data table with the data returned.
+- The `TableAdapter.Fill` method fills an existing data table with the data returned.
 
--   The `TableAdapter.GetData` method returns a new data table populated with data.
+- The `TableAdapter.GetData` method returns a new data table populated with data.
 
 The easiest way to load your custom objects with data is to call the `TableAdapter.GetData` method, loop through the collection of rows in the returned data table, and populate each object with the values in each row. You can create a `GetData` method that returns a populated data table for any query added to a TableAdapter.
 

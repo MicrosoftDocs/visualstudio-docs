@@ -81,7 +81,7 @@ manager: jillfra
 
 This topic provides a detailed look at the CRT debug heap.  
   
-##  <a name="BKMK_Contents"></a> Contents  
+## <a name="BKMK_Contents"></a> Contents  
  [Find buffer overruns with debug heap](#BKMK_Find_buffer_overruns_with_debug_heap)  
   
  [Types of blocks on the debug heap](#BKMK_Types_of_blocks_on_the_debug_heap)  
@@ -96,7 +96,7 @@ This topic provides a detailed look at the CRT debug heap.
   
  [Track Heap Allocation Requests](#BKMK_Track_Heap_Allocation_Requests)  
   
-##  <a name="BKMK_Find_buffer_overruns_with_debug_heap"></a> Find buffer overruns with debug heap  
+## <a name="BKMK_Find_buffer_overruns_with_debug_heap"></a> Find buffer overruns with debug heap  
  Two of the most common and intractable problems that programmers encounter are overwriting the end of an allocated buffer and memory leaks (failing to free allocations after they are no longer needed). The debug heap provides powerful tools to solve memory allocation problems of this kind.  
   
  The Debug versions of the heap functions call the standard or base versions used in Release builds. When you request a memory block, the debug heap manager allocates from the base heap a slightly larger block of memory than requested and returns a pointer to your portion of that block. For example, suppose your application contains the call: `malloc( 10 )`. In a Release build, [malloc](http://msdn.microsoft.com/library/144fcee2-be34-4a03-bb7e-ed6d4b99eea0) would call the base heap allocation routine requesting an allocation of 10 bytes. In a Debug build, however, `malloc` would call [_malloc_dbg](http://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb), which would then call the base heap allocation routine requesting an allocation of 10 bytes plus approximately 36 bytes of additional memory. All the resulting memory blocks in the debug heap are connected in a single linked list, ordered according to when they were allocated.  
@@ -143,7 +143,7 @@ typedef struct _CrtMemBlockHeader
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> Types of blocks on the debug heap  
+## <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> Types of blocks on the debug heap  
  Every memory block in the debug heap is assigned to one of five allocation types. These types are tracked and reported differently for purposes of leak detection and state reporting. You can specify a block's type by allocating it using a direct call to one of the debug heap allocation functions such as [_malloc_dbg](http://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb). The five types of memory blocks in the debug heap (set in the **nBlockUse** member of the **_CrtMemBlockHeader** structure) are as follows:  
   
  **_NORMAL_BLOCK**  
@@ -177,7 +177,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Check_for_heap_integrity_and_memory_leaks"></a> Check for heap integrity and memory leaks  
+## <a name="BKMK_Check_for_heap_integrity_and_memory_leaks"></a> Check for heap integrity and memory leaks  
  Many of the debug heap's features must be accessed from within your code. The following section describes some of the features and how to use them.  
   
  `_CrtCheckMemory`  
@@ -198,7 +198,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Configure_the_debug_heap"></a> Configure the debug heap  
+## <a name="BKMK_Configure_the_debug_heap"></a> Configure the debug heap  
  All calls to heap functions such as `malloc`, `free`, `calloc`, `realloc`, `new`, and `delete` resolve to debug versions of those functions that operate in the debug heap. When you free a memory block, the debug heap automatically checks the integrity of the buffers on either side of your allocated area and issues an error report if overwriting has occurred.  
   
  **To use the debug heap**  
@@ -233,7 +233,7 @@ _CrtSetDbgFlag( tmpFlag );
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> new, delete, and _CLIENT_BLOCKs in the C++ debug heap  
+## <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> new, delete, and _CLIENT_BLOCKs in the C++ debug heap  
  The debug versions of the C run-time library contain debug versions of the C++ `new` and `delete` operators. If you use the `_CLIENT_BLOCK` allocation type, you must call the debug version of the `new` operator directly or create macros that replace the `new` operator in debug mode, as shown in the following example:  
   
 ```  
@@ -271,7 +271,7 @@ int main( )   {
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions  
+## <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions  
  **_CrtMemState**  
   
  To capture a summary snapshot of the state of the heap at a given time, use the _CrtMemState structure defined in CRTDBG.H:  
@@ -308,7 +308,7 @@ typedef struct _CrtMemState
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Track_Heap_Allocation_Requests"></a> Track Heap Allocation Requests  
+## <a name="BKMK_Track_Heap_Allocation_Requests"></a> Track Heap Allocation Requests  
  Although pinpointing the source file name and line number at which an assert or reporting macro executes is often very useful in locating the cause of a problem, the same is not as likely to be true of heap allocation functions. While macros can be inserted at many appropriate points in an application's logic tree, an allocation is often buried in a special routine that is called from many different places at many different times. The question is usually not what line of code made a bad allocation, but rather which one of the thousands of allocations made by that line of code was bad and why.  
   
  **Unique Allocation Request Numbers and _crtBreakAlloc**  

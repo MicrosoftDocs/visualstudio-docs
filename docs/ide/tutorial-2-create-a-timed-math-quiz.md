@@ -13,13 +13,13 @@ ms.workload:
 
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:
 
--   Generate random numbers by using the <xref:System.Random> class.
+- Generate random numbers by using the <xref:System.Random> class.
 
--   Trigger events to occur at a specific time by using a <xref:System.Windows.Forms.Timer> control.
+- Trigger events to occur at a specific time by using a <xref:System.Windows.Forms.Timer> control.
 
--   Control program flow by using `if else` statements.
+- Control program flow by using `if else` statements.
 
--   Perform basic arithmetic operations in code.
+- Perform basic arithmetic operations in code.
 
 When you finish, your quiz will look like the following picture, except with different numbers:
 

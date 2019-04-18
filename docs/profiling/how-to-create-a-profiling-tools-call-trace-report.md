@@ -20,9 +20,9 @@ The  *call trace report* for the [!INCLUDE[vsprvs](../code-quality/includes/vspr
 
 ### To create a call trace report
 
-1.  Open a **Command Prompt** window.
+1. Open a **Command Prompt** window.
 
-2.  At the command prompt, type the following command:
+2. At the command prompt, type the following command:
 
      *ToolsPath* **VSPerfReport** *VSPFile*  **/CallTrace [/Xml]**
 

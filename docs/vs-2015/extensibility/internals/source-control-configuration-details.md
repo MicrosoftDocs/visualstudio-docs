@@ -16,11 +16,11 @@ manager: jillfra
 
 In order to implement source control, you need to properly configure your project system or editor to do the following:  
   
--   Request permission to transition to changed state  
+- Request permission to transition to changed state  
   
--   Request permission to save a file  
+- Request permission to save a file  
   
--   Request permission to add, remove, or rename files in the project  
+- Request permission to add, remove, or rename files in the project  
   
 ## Request Permission to Transition to Changed State  
  A project or editor must request permission to transition to the changed (dirty) state by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>. Each editor that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData.IsDocDataDirty%2A> must call <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> and receive approval to change the document from the environment before returning `True` for `M:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData.IsDocDataDirty(System.Int32@)`. A project is essentially an editor for a project file, and as a result, has the same responsibility for implementing changed-state tracking for the project file as a text editor does for its files. The environment handles the changed state of the solution, but you must handle the changed state of any object the solution references but does not store, like a project file or its items. In general, if your project or editor is responsible for managing persistence for an item, then it is responsible for implementing changed-state tracking.  

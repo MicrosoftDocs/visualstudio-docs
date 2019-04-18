@@ -19,15 +19,15 @@ If the user sets a breakpoint, perhaps by pressing F9, the IDE formulates the re
 ## Setting a Breakpoint  
  Setting a breakpoint is a two-step process, because the code or data affected by the breakpoint might not yet be available. First, the breakpoint must be described, and then, as code or data becomes available, it must be bound to that code or data, as follows:  
   
-1.  The breakpoint is requested from the relevant debug engines (DEs), and then the breakpoint is bound to the code or data as it becomes available.  
+1. The breakpoint is requested from the relevant debug engines (DEs), and then the breakpoint is bound to the code or data as it becomes available.  
   
-2.  The breakpoint request is sent to the debug session, which sends it to all relevant DEs. Any DE that chooses to handle the breakpoint creates a corresponding pending breakpoint.  
+2. The breakpoint request is sent to the debug session, which sends it to all relevant DEs. Any DE that chooses to handle the breakpoint creates a corresponding pending breakpoint.  
   
-3.  The debug session collects the pending breakpoints and sends them back to the debug package (the debugging component of Visual Studio).  
+3. The debug session collects the pending breakpoints and sends them back to the debug package (the debugging component of Visual Studio).  
   
-4.  The debug package prompts the debug session to bind the pending breakpoint to code or data. The debug session sends this request to all relevant DEs.  
+4. The debug package prompts the debug session to bind the pending breakpoint to code or data. The debug session sends this request to all relevant DEs.  
   
-5.  If the DE is able to bind the breakpoint, it sends a breakpoint bound event back to the debug session. If not, it sends a breakpoint error event instead.  
+5. If the DE is able to bind the breakpoint, it sends a breakpoint bound event back to the debug session. If not, it sends a breakpoint error event instead.  
   
 ## Pending Breakpoints  
  A pending breakpoint can bind to multiple code locations. For example, a line of source code for a C++ template can bind to every code sequence generated from the template. The debug session can use a breakpoint bound event to enumerate the code contexts bound to a breakpoint at the time the event was sent. More code contexts can be bound later, so the DE may send multiple breakpoint bound events for each bind request. However, a DE should send only one breakpoint error event per bind request.  

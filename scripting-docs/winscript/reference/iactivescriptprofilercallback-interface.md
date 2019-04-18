@@ -33,7 +33,7 @@ Provides methods that are used by the scripting engine to notify a profiler obje
 >  To add the ability to start and stop profiling when a script is running, call the following methods. By using these methods, you can obtain the complete call stack if [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] is running when you start or stop profiling.  
 > 
 > - Call [IActiveScriptProfilerControl2::CompleteProfilerStart](../../winscript/reference/iactivescriptprofilercontrol2-completeprofilerstart.md) to notify the profiler that you have started profiling.  
->   -   Call [IActiveScriptProfilerControl2::PrepareProfilerStop](../../winscript/reference/iactivescriptprofilercontrol2-prepareprofilerstop.md) to notify the profiler that you will soon stop profiling.  
+>   - Call [IActiveScriptProfilerControl2::PrepareProfilerStop](../../winscript/reference/iactivescriptprofilercontrol2-prepareprofilerstop.md) to notify the profiler that you will soon stop profiling.  
   
 ## See Also  
  [Active Script Profiler Interfaces](../../winscript/reference/active-script-profiler-interfaces.md)

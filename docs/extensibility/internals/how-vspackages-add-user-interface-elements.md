@@ -21,11 +21,11 @@ A VSPackage can add user interface (UI) elements, for example, menus, toolbars, 
 ## The Visual Studio command table architecture
  As noted, the command table architecture supports the foregoing architectural principles. The tenets behind the abstractions, data structures, and tools of the command table architecture are as follows:
 
--   There are three basic kinds of items: menus, commands, and groups. Menus can be exposed in the UI as menus, submenus, toolbars, or tool windows. Commands are procedures that the user can execute in the IDE, and they can be exposed as menu items, buttons, list boxes, or other controls. Groups are containers for both menus and commands.
+- There are three basic kinds of items: menus, commands, and groups. Menus can be exposed in the UI as menus, submenus, toolbars, or tool windows. Commands are procedures that the user can execute in the IDE, and they can be exposed as menu items, buttons, list boxes, or other controls. Groups are containers for both menus and commands.
 
--   Each item is specified by a definition that describes the item, its priority relative to other items, and the flags that modify its behavior.
+- Each item is specified by a definition that describes the item, its priority relative to other items, and the flags that modify its behavior.
 
--   Each item has a placement that describes the parent of the item. An item can have multiple parents, so that it can appear in multiple locations in the UI.
+- Each item has a placement that describes the parent of the item. An item can have multiple parents, so that it can appear in multiple locations in the UI.
 
      Every command must have a group as its parent, even if it is the only child in that group. Every standard menu must also have a parent group. Toolbars and tool windows act as their own parents. A group can have as its parent the main Visual Studio menu bar, or any menu, toolbar, or tool window.
 
@@ -68,15 +68,15 @@ A VSPackage can add user interface (UI) elements, for example, menus, toolbars, 
 ### Menus, groups, and commands
  When a menu, group, or command has a GUID and ID, it can be added to the IDE. Every UI element must have the following things:
 
--   A `guid` attribute that matches the name of the `GuidSymbol` element that the UI element is defined under.
+- A `guid` attribute that matches the name of the `GuidSymbol` element that the UI element is defined under.
 
--   An `id` attribute that matches the name of the associated `IDSymbol` element.
+- An `id` attribute that matches the name of the associated `IDSymbol` element.
 
      Together, the `guid` and `id` attributes compose the *signature* of the UI element.
 
--   A `priority` attribute that determines the placement of the UI element in its parent menu or group.
+- A `priority` attribute that determines the placement of the UI element in its parent menu or group.
 
--   A [Parent element](../../extensibility/parent-element.md) that has `guid` and `id` attributes that specify the signature of the parent menu or group.
+- A [Parent element](../../extensibility/parent-element.md) that has `guid` and `id` attributes that specify the signature of the parent menu or group.
 
 #### Menus
  Each menu is defined as a [Menu element](../../extensibility/menu-element.md) in the `Menus` section. Menus must have `guid`, `id`, and `priority` attributes, and a `Parent` element, and also the following additional attributes and children:
@@ -263,17 +263,17 @@ priority="0x0100" type="Menu">
 #### General requirements
  Your command must pass the following series of tests before it can be displayed and enabled:
 
--   The command is positioned correctly.
+- The command is positioned correctly.
 
--   The `DefaultInvisible` flag is not set.
+- The `DefaultInvisible` flag is not set.
 
--   The parent menu or toolbar is visible.
+- The parent menu or toolbar is visible.
 
--   The command is not invisible because of a context entry in the [VisibilityConstraints element](../../extensibility/visibilityconstraints-element.md) section.
+- The command is not invisible because of a context entry in the [VisibilityConstraints element](../../extensibility/visibilityconstraints-element.md) section.
 
--   VSPackage code that implements the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface displays and enables your command. No interface code intercepted it and acted on it.
+- VSPackage code that implements the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface displays and enables your command. No interface code intercepted it and acted on it.
 
--   When a user clicks your command, it becomes subject to the procedure that is outlined in [Routing algorithm](../../extensibility/internals/command-routing-algorithm.md).
+- When a user clicks your command, it becomes subject to the procedure that is outlined in [Routing algorithm](../../extensibility/internals/command-routing-algorithm.md).
 
 ## Call pre-defined commands
  The [UsedCommands element](../../extensibility/usedcommands-element.md) enables VSPackages to access commands that are provided by other VSPackages or by the IDE. To do this, create a [UsedCommand element](../../extensibility/usedcommand-element.md) that has the GUID and ID of the command to use. This ensures that the command will be loaded by Visual Studio, even if it is not part of the current Visual Studio configuration. For more information, see [UsedCommand element](../../extensibility/usedcommand-element.md).

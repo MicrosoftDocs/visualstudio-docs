@@ -56,7 +56,7 @@ Projects are the logical containers for everything that's needed to build your a
 ## Adding single files at the solution level  
  Sometimes you might have a file that multiple projects refer to, or that contains text or miscellaneous data that logically belongs at the solution level rather than under a specific project.  To add a single item to a solution:  
   
-1.  Right-click on the solution node in **Solution Explorer** and choose **Add &#124; New Item** or **Add &#124; Existing Item**.  
+1. Right-click on the solution node in **Solution Explorer** and choose **Add &#124; New Item** or **Add &#124; Existing Item**.  
   
 ## Creating Empty Solutions  
  Although a project must reside in a solution, you can create a solution that has no projects.  
@@ -81,11 +81,11 @@ Projects are the logical containers for everything that's needed to build your a
   
 ##### To delete a solution  
   
-1.  In **Solution Explorer**, right-click the solution to delete, and select **Open folder in File Explorer**.  
+1. In **Solution Explorer**, right-click the solution to delete, and select **Open folder in File Explorer**.  
   
-2.  In File Explorer, navigate up one level.  
+2. In File Explorer, navigate up one level.  
   
-3.  Select the directory containing the solution and press Delete.  
+3. Select the directory containing the solution and press Delete.  
   
 ## See Also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   

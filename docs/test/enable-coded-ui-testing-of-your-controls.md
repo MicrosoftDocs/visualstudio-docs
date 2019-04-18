@@ -31,7 +31,7 @@ The coded UI test builder captures information about the controls that it encoun
 
  ![CUIT&#95;Accessible](../test/media/cuit_accessible.png)
 
-1.  Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.
+1. Implement a class that derives from <xref:System.Windows.Forms.Control.ControlAccessibleObject>, and override the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return an object of your class.
 
     ```csharp
     public partial class ChartControl : UserControl
@@ -56,11 +56,11 @@ The coded UI test builder captures information about the controls that it encoun
     }
     ```
 
-2.  Override the accessible object's <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.
+2. Override the accessible object's <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.GetChild%2A> and <xref:System.Windows.Forms.AccessibleObject.GetChildCount%2A> properties and methods.
 
-3.  Implement another accessibility object for the child control and override the child control's <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return the accessibility object.
+3. Implement another accessibility object for the child control and override the child control's <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property to return the accessibility object.
 
-4.  Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control's accessibility object.
+4. Override the <xref:System.Windows.Forms.AccessibleObject.Bounds%2A>, <xref:System.Windows.Forms.AccessibleObject.Name%2A>, <xref:System.Windows.Forms.AccessibleObject.Parent%2A>, <xref:System.Windows.Forms.AccessibleObject.Role%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, <xref:System.Windows.Forms.AccessibleObject.Navigate%2A>, and <xref:System.Windows.Forms.AccessibleObject.Select%2A> properties and methods for the child control's accessibility object.
 
 > [!NOTE]
 > This topic starts with the accessibility sample in <xref:System.Windows.Forms.AccessibleObject>, and then builds on that sample in the remaining procedures. If you want to create a working version of the accessibility sample, create a console application and then replace the code in *Program.cs* with the sample code. Add references to Accessibility, System.Drawing, and System.Windows.Forms. Change the **Embed Interop Types** for Accessibility to **False** to eliminate a build warning. You can change the project's output type from **Console Application** to **Windows Application** so that a console window doesn't appear when you run the application.
@@ -176,19 +176,19 @@ Your property provider and action filter are implemented in an extension package
 
 ### To debug your property provider or action filter
 
-1.  Build the debug version of your extension package copy the *.dll* and *.pdb* files to *%ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages*.
+1. Build the debug version of your extension package copy the *.dll* and *.pdb* files to *%ProgramFiles%\Common Files\Microsoft Shared\VSTT\10.0\UITestExtensionPackages*.
 
-2.  Run your application (not in the debugger).
+2. Run your application (not in the debugger).
 
-3.  Run the coded UI test builder.
+3. Run the coded UI test builder.
 
      `codedUITestBuilder.exe  /standalone`
 
-4.  Attach the debugger to the codedUITestBuilder process.
+4. Attach the debugger to the codedUITestBuilder process.
 
-5.  Set breakpoints in your code.
+5. Set breakpoints in your code.
 
-6.  In the coded UI test builder, create asserts to exercise your property provider, and record actions to exercise your action filters.
+6. In the coded UI test builder, create asserts to exercise your property provider, and record actions to exercise your action filters.
 
 ## See also
 

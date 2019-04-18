@@ -22,23 +22,23 @@ A VSPackage declares its menu items and establishes a default item state via the
 
 A source control VSPackage is deeply integrated into Visual Studio. The VSPackage semantics include:
 
--   Interface to be implemented by virtue of being a VSPackage (the `IVsPackage` interface)
+- Interface to be implemented by virtue of being a VSPackage (the `IVsPackage` interface)
 
--   UI Command implementation (.vsct file and implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface)
+- UI Command implementation (.vsct file and implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface)
 
--   Registration of the VSPackage with Visual Studio.
+- Registration of the VSPackage with Visual Studio.
 
 The source control VSPackage must communicate with these other Visual Studio entities:
 
--   Projects
+- Projects
 
--   Editors
+- Editors
 
--   Solutions
+- Solutions
 
--   Windows
+- Windows
 
--   The running document table
+- The running document table
 
 ### Visual Studio Environment Services That May Be Consumed
 

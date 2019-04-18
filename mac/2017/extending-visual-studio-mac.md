@@ -76,10 +76,10 @@ Command Extensions are defined by adding entries to the `/MonoDevelop/Ide/Comman
 
 The extension node contains a path attribute that specifies the extension point that it is plugging into, in this case `/MonoDevelop/Ide/Commands/Edit`. Additionally, it acts as a parent node to the Command. The Command node has the following attributes:
 
-*   **id** - Specifies the identifier for this Command. Command Identifiers must be declared as enumeration members, and are used to connect Commands to CommandItems.
-*   **_label** - The text to be shown in menus.
-*   **_description** - The text to be shown as a tooltip for toolbar buttons.
-*   **defaultHandler** - Specifies the `CommandHandler` class that powers the Command
+* **id** - Specifies the identifier for this Command. Command Identifiers must be declared as enumeration members, and are used to connect Commands to CommandItems.
+* **_label** - The text to be shown in menus.
+* **_description** - The text to be shown as a tooltip for toolbar buttons.
+* **defaultHandler** - Specifies the `CommandHandler` class that powers the Command
 
 <!--To invoke the command from the Edit Menu, the walkthrough creates a CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` extension point:-->
 
@@ -132,27 +132,27 @@ This ties together the Command and CommandItem - the CommandItem calls the Comma
 
 For information on the scope of areas that are available for development, see the [Extension Tree Reference](http://monodevelop.com/Developers/Articles/Extension_Tree_Reference) and the [API Overview](http://monodevelop.com/Developers/Articles/API_Overview). When building advanced extension packages, also refer to [Developer Articles](http://monodevelop.com/Developers/Articles). Below is a partial list of areas for customization:
 
-*   Pads
-*   Key Binding Schemes
-*   Policies
-*   Code formatters
-*   Project file formats
-*   Preferences panels
-*   Options Panels
-*   Debugger Protocols
-*   Debugger visualizers
-*   Workspace layouts
-*   Solution pad tree nodes
-*   Source editor margins
-*   Unit test engines
-*   Code generators
-*   Code snippets
-*   Target frameworks
-*   Target runtime
-*   VCS back-ends
-*   Refactoring
-*   Execution handlers
-*   Syntax highlighting
+* Pads
+* Key Binding Schemes
+* Policies
+* Code formatters
+* Project file formats
+* Preferences panels
+* Options Panels
+* Debugger Protocols
+* Debugger visualizers
+* Workspace layouts
+* Solution pad tree nodes
+* Source editor margins
+* Unit test engines
+* Code generators
+* Code snippets
+* Target frameworks
+* Target runtime
+* VCS back-ends
+* Refactoring
+* Execution handlers
+* Syntax highlighting
 
 ## Additional Information
 

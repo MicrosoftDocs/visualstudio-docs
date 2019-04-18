@@ -30,7 +30,7 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
 ### To create a property from a field  
   
-1.  Create a console application named `EncapsulateFieldExample`, and then replace `Program` with the following example code.  
+1. Create a console application named `EncapsulateFieldExample`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class Square  
@@ -52,13 +52,13 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
     }  
     ```  
   
-2.  In the [Code Editor](../ide/writing-code-in-the-code-and-text-editor.md), place the cursor in the declaration, on the name of the field that you want to encapsulate. In the example below, place the cursor on the word `width`:  
+2. In the [Code Editor](../ide/writing-code-in-the-code-and-text-editor.md), place the cursor in the declaration, on the name of the field that you want to encapsulate. In the example below, place the cursor on the word `width`:  
   
     ```csharp  
     public int width, height;  
     ```  
   
-3.  On the **Refactor** menu, click **Encapsulate Field**.  
+3. On the **Refactor** menu, click **Encapsulate Field**.  
   
      The **Encapsulate Field** dialog box appears.  
   
@@ -66,11 +66,11 @@ The **Encapsulate Field** refactoring operation enables you to quickly create a 
   
      You can also right-click the cursor, point to **Refactor**, and then click **Encapsulate Field** to display the **Encapsulate Field** dialog box.  
   
-4.  Specify settings.  
+4. Specify settings.  
   
-5.  Press ENTER, or click the **OK** button.  
+5. Press ENTER, or click the **OK** button.  
   
-6.  If you selected the **Preview reference changes** option, then the **Preview Reference Changes** window opens. Click the **Apply** button.  
+6. If you selected the **Preview reference changes** option, then the **Preview Reference Changes** window opens. Click the **Apply** button.  
   
      The following `get` and `set` accessor code is displayed in your source file:  
   

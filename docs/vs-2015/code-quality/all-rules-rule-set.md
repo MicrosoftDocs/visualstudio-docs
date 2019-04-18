@@ -15,6 +15,6 @@ manager: "wpickett"
 
 The All Rules rule set contains all of the rules for both native and managed code. The rule set includes all the rules that are described  in the following topics:  
   
-1.  [Code Analysis for C/C++ Warnings](../code-quality/code-analysis-for-c-cpp-warnings.md)  
+1. [Code Analysis for C/C++ Warnings](../code-quality/code-analysis-for-c-cpp-warnings.md)  
   
-2.  [Code Analysis for Managed Code Warnings](../code-quality/code-analysis-for-managed-code-warnings.md)
+2. [Code Analysis for Managed Code Warnings](../code-quality/code-analysis-for-managed-code-warnings.md)

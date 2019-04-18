@@ -31,11 +31,11 @@ IDebugFunctionObject2 : IUnknown
 ## Notes for Callers  
  Methods of this interface defer those of **IDebugFunctionObject** in the following ways:  
   
--   The **IDebugEvaluate** method takes flags.  
+- The **IDebugEvaluate** method takes flags.  
   
--   The **CreateObject** method takes flags and a timeout.  
+- The **CreateObject** method takes flags and a timeout.  
   
--   The **CreateStringObjectWithLength** method takes a length.  
+- The **CreateStringObjectWithLength** method takes a length.  
   
 ## Methods  
  This interface implements the following methods:  

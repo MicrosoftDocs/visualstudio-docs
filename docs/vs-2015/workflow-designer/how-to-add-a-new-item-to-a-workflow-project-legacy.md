@@ -31,15 +31,15 @@ After you have created a workflow project using the legacy [!INCLUDE[wfd1](../in
   
 ### To add a new item to a workflow project  
   
-1.  On the **Project** menu, click **Add a New Item**.  
+1. On the **Project** menu, click **Add a New Item**.  
   
      The **Add a New Item** dialog box opens.  
   
-2.  Select an item.  
+2. Select an item.  
   
      The previous table lists the available Windows Workflow Foundation selections.  
   
-3.  Click **Add** to add the item to the workflow project.  
+3. Click **Add** to add the item to the workflow project.  
   
 ## See Also  
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)
