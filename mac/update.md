@@ -49,7 +49,7 @@ Depending on the components that need to be installed, you may need to accept ad
 
 ## Troubleshooting
 
-If you have issues with the updater, try following the steps in the [Updater Troubleshooting](updater-troubleshooting.md)guide.
+If you have issues with the updater, try following the steps in the [Updater Troubleshooting](updater-troubleshooting.md) guide.
 
 ## See also
 
