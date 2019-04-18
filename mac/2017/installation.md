@@ -12,7 +12,7 @@ ms.custom: video
 # Install Visual Studio 2017 for Mac
 
 > [!NOTE]
-> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202019%20for%20Mac).
+> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac).
 
 ## Downgrading from Visual Studio 2019 for Mac?
 
