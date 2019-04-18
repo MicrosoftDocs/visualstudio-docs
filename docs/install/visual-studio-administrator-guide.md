@@ -2,7 +2,7 @@
 title: "Visual Studio administrator guide"
 titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
-ms.date: 03/30/2019
+ms.date: 04/02/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -93,3 +93,4 @@ For more information about customer feedback settings, see the [Visual Studio Cu
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
+* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
