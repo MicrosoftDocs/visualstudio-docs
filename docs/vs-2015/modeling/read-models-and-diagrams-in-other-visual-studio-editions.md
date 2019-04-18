@@ -29,16 +29,16 @@ When you open a model in a version of Visual Studio that does not support model 
   
  To read a UML diagram or a layer diagram, the minimum set of files that you need is as follows:  
   
--   The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.  
+- The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.  
   
     > [!NOTE]
     >  For Layer diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.  
   
--   The modeling project file (**MyModel.modelproj**)  
+- The modeling project file (**MyModel.modelproj**)  
   
--   The root model file (**ModelDefinition\MyModel.uml**)  
+- The root model file (**ModelDefinition\MyModel.uml**)  
   
--   The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)  
+- The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)  
   
 ## Changes that you can Make in Read-Only Mode  
  If you open a model and its diagrams in a version of Visual Studio that does not support model creation, you cannot change the model. That is, you cannot change the elements and relationships that are displayed on the diagrams or in the model explorer. However, you can make some changes to the layout of the diagrams:  
@@ -49,7 +49,7 @@ When you open a model in a version of Visual Studio that does not support model 
   
   You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.  
   
-##  <a name="RelatedTopics"></a> Related Topics  
+## <a name="RelatedTopics"></a> Related Topics  
   
 |Title|Description|  
 |-----------|-----------------|  

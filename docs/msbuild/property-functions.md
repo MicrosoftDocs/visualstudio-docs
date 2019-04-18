@@ -171,7 +171,7 @@ Here is a list of MSBuild property functions:
 |string MakeRelative(string basePath, string path)|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
 |string ValueOrDefault(string conditionValue, string defaultValue)|Return the string in parameter 'defaultValue' only if parameter 'conditionValue' is empty, else, return the value conditionValue.|
 
-##  Nested property functions
+## Nested property functions
 
 You can combine property functions to form more complex functions, as the following example shows.
 

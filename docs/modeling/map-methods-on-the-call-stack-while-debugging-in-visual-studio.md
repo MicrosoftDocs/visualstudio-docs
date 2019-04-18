@@ -30,13 +30,24 @@ ms.workload:
   - "multiple"
 ---
 # Map methods on the call stack while debugging in Visual Studio
+
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing so you can focus on finding bugs.
 
  ![Debugging with call stacks on code maps](../debugger/media/debuggermap_overview.png)
 
  You'll need:
 
-- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)
+ ::: moniker range="vs-2017"
+
+- [Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+
+::: moniker-end
 
 - Code that you can debug, such as Visual C#, Visual Basic, C++, JavaScript, or X++
 
@@ -60,9 +71,9 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 ## <a name="MapStack"></a> Map the call stack
 
-1.  Start debugging. (Keyboard: **F5**)
+1. Start debugging. (Keyboard: **F5**)
 
-2.  After your app enters break mode or you step into a function, choose **Code Map**. (Keyboard: **Ctrl** + **Shift** + **`**)
+2. After your app enters break mode or you step into a function, choose **Code Map**. (Keyboard: **Ctrl** + **Shift** + **`**)
 
      ![Choose Code Map to start mapping call stack](../debugger/media/debuggermap_choosecodemap.png)
 
@@ -73,16 +84,19 @@ Create a code map to visually trace the call stack while you're debugging. You c
      The map will update automatically while you continue debugging. See [Update the map with the next call stack](#UpdateMap).
 
 ## <a name="MakeNotes"></a> Make notes about the code
+
  Add comments to track what's happening in the code. To add a new line in a comment, press **Shift + Return**.
 
  ![Add comment to call stack on code map](../debugger/media/debuggermap_addcomment.png)
 
 ## <a name="UpdateMap"></a> Update the map with the next call stack
+
  Run your app to the next breakpoint or step into a function. The map adds a new call stack.
 
  ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png)
 
 ## <a name="AddRelatedCode"></a> Add related code to the map
+
  Now you've got a map - what next? If you're working with C# or Visual Basic, add items, such as fields, properties, and other methods, to track what's happening in the code.
 
  Double-click a method to see its code definition, or use the shortcut menu for the method. (Keyboard: Select the method on the map and press **F12**)
@@ -107,6 +121,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
  ![Methods that use a field on call stack code map](../debugger/media/debuggermap_foundallreferences.png)
 
 ## <a name="FindBugs"></a> Find bugs using the map
+
  Visualizing your code can help you find bugs faster. For example, suppose you're investigating a bug in a drawing program. When you draw a line and try to undo it, nothing happens until you draw another line.
 
  So you set breakpoints in the `clear`, `undo`, and `Repaint` methods, start debugging, and build a map like this one:
@@ -143,11 +158,11 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
    Open the **Layout** menu on the map toolbar:
 
-  -   Change the default layout.
+  - Change the default layout.
 
-  -   To stop rearranging the map automatically, turn off **Automatically Layout when Debugging**.
+  - To stop rearranging the map automatically, turn off **Automatically Layout when Debugging**.
 
-  -   To rearrange the map as little as possible when you add items, turn off **Incremental Layout**.
+  - To rearrange the map as little as possible when you add items, turn off **Incremental Layout**.
 
 - **Can I share the map with others?**
 
@@ -179,7 +194,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 - [Find bugs using the map](#FindBugs)
 
-## See Also
+## See also
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

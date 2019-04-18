@@ -34,13 +34,13 @@ There are three ways that you can begin debugging a WCF service:
 ## Limitations on Stepping Into a Service  
  To step into a service from a client applications that you are debugging, the following conditions must be met:  
   
--   The client must call the service by using a synchronous client object.  
+- The client must call the service by using a synchronous client object.  
   
--   The contract operation cannot be one-way.  
+- The contract operation cannot be one-way.  
   
--   If the server is asynchronous, you cannot view the full call stack while you are executing code inside the service.  
+- If the server is asynchronous, you cannot view the full call stack while you are executing code inside the service.  
   
--   Debugging must be enabled with the following code in the app.config or Web.config file:  
+- Debugging must be enabled with the following code in the app.config or Web.config file:  
   
     ```  
     <system.web>  
@@ -56,13 +56,13 @@ There are three ways that you can begin debugging a WCF service:
 ## Limitations on Automatic Attach to a Service  
  Automatically attaching to a service has the following limitations:  
   
--   The service must be part of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution you are debugging.  
+- The service must be part of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution you are debugging.  
   
--   The service must be hosted. It may be part of a Web Site Project (File System and HTTP), Web Application Project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
+- The service must be hosted. It may be part of a Web Site Project (File System and HTTP), Web Application Project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
   
--   The service must be invoked from a WCF client.  
+- The service must be invoked from a WCF client.  
   
--   Debugging must be enabled with the following code in the app.config or Web.config file:  
+- Debugging must be enabled with the following code in the app.config or Web.config file:  
   
     ```  
     <system.web>  

@@ -33,7 +33,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv** {**/tracegc** &#124; **/tracegclife**}
 
-   -   The **/tracegc** and **/tracegclife** options initialize the environment variables to collect only memory allocation data, or to collect both memory allocation and object lifetime data.
+   - The **/tracegc** and **/tracegclife** options initialize the environment variables to collect only memory allocation data, or to collect both memory allocation and object lifetime data.
 
        |Option|Description|
        |------------|-----------------|
@@ -67,7 +67,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To start and stop data collection
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -80,13 +80,13 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Close the target application.
+1. Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd /shutdown**
 
-3.  (Optional) Clear the profiling environment variables. Type:
+3. (Optional) Clear the profiling environment variables. Type:
 
      **VSPerfCmd /off**
 

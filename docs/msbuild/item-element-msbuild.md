@@ -103,6 +103,7 @@ The following code example shows how to declare two items of type `CSFile`. The 
     </CSFile>
 </ItemGroup>
 ```
+
 The following code example shows how to use the `Update` attribute to modify the metadata in a file called *somefile.cs* that was included via a glob. (Available only for .NET Core projects in Visual Studio 2017 or later.)
 
 ```xml

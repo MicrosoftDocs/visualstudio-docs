@@ -25,22 +25,22 @@ ms.workload:
 
 ### To create an event handler in Visual Basic
 
-1.  From the **Class Name** drop-down list at the top of the Code Editor, select the object that you want to create an event handler for.
+1. From the **Class Name** drop-down list at the top of the Code Editor, select the object that you want to create an event handler for.
 
     > [!NOTE]
     >  If you want to create event handlers for `ThisDocument` or `ThisWorkbook`, you must select **(ThisDocument Events)** or **(ThisWorkbook Events)** in the **Class Name** drop-down list
 
-2.  From the **Method Name** drop-down list at the top of the Code Editor, select the event.
+2. From the **Method Name** drop-down list at the top of the Code Editor, select the event.
 
      Visual Studio creates the event handler and moves the insertion point to the newly created event handler. If the event handler already exists, the insertion point moves to the existing event handler.
 
-### To create an event handler in C#
+### To create an event handler in C\#
 
-1.  Create the event delegate in the **Startup** event of the class by typing the qualified event name followed by a space, and then typing **+=** with no space afterwards. For example:
+1. Create the event delegate in the **Startup** event of the class by typing the qualified event name followed by a space, and then typing **+=** with no space afterwards. For example:
 
      `this.<object name>.<event name> +=`
 
-2.  At the end of the line of code, press the TAB key twice.
+2. At the end of the line of code, press the TAB key twice.
 
      Visual Studio automatically completes the line of code, creates the event handler, and moves the insertion point to the newly created event handler.
 

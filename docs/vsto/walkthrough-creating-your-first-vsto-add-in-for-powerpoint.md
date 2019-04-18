@@ -36,36 +36,36 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   PowerPoint
+- PowerPoint
 
 ## Create the project
 
 ### To create a new project
 
-1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
-2.  On the **File** menu, point to **New**, and then click **Project**.
+2. On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
+3. In the templates pane, expand **Visual C#** or **Visual Basic**, and then expand **Office/SharePoint**.
 
-4.  Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
+4. Under the expanded **Office/SharePoint** node, select the **Office Add-ins** node.
 
-5.  In the list of project templates, select a PowerPoint VSTO Add-in project.
+5. In the list of project templates, select a PowerPoint VSTO Add-in project.
 
-6.  In the **Name** box, type **FirstPowerPointAddIn**.
+6. In the **Name** box, type **FirstPowerPointAddIn**.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstPowerPointAddIn** project and opens the **ThisAddIn** code file in the editor.
 
 ## Write code that adds text to each new slide
  Next, add code to the ThisAddIn code file. The new code uses the object model of PowerPoint to add a text box to each new slide. By default, the ThisAddIn code file contains the following generated code:
 
--   A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of PowerPoint. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
+- A partial definition of the `ThisAddIn` class. This class provides an entry point for your code and provides access to the object model of PowerPoint. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). The remainder of the `ThisAddIn` class is defined in a hidden code file that you should not modify.
 
--   The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when PowerPoint loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your VSTO Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+- The `ThisAddIn_Startup` and `ThisAddIn_Shutdown` event handlers. These event handlers are called when PowerPoint loads and unloads your VSTO Add-in. Use these event handlers to initialize your VSTO Add-in when it is loaded, and to clean up resources used by your VSTO Add-in when it is unloaded. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### To add a text box to each new slide
 
@@ -82,46 +82,46 @@ ms.workload:
 
    To modify each new slide, the previous code examples use the following objects:
 
--   The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.PowerPoint.Application> object, which represents the current instance of PowerPoint.
+- The `Application` field of the `ThisAddIn` class. The `Application` field returns an <xref:Microsoft.Office.Interop.PowerPoint.Application> object, which represents the current instance of PowerPoint.
 
--   The `Sld` parameter of the event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event. The `Sld` parameter is a <xref:Microsoft.Office.Interop.PowerPoint.Slide> object, which represents the new slide. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
+- The `Sld` parameter of the event handler for the [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationNewSlide](/previous-versions/office/developer/office-2010/ff762876(v%3doffice.14)) event. The `Sld` parameter is a <xref:Microsoft.Office.Interop.PowerPoint.Slide> object, which represents the new slide. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
 
 ## Test the project
  When you build and run the project, verify that the text box appears in new slides that you add to a presentation.
 
 ### To test the project
 
-1.  Press **F5** to build and run your project.
+1. Press **F5** to build and run your project.
 
      When you build the project, the code is compiled into an assembly that is put in the build output folder for the project. Visual Studio also creates a set of registry entries that enable PowerPoint to discover and load the VSTO Add-in, and it configures the security settings on the development computer to enable the VSTO Add-in to run. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
-2.  In PowerPoint, add a new slide to the active presentation.
+2. In PowerPoint, add a new slide to the active presentation.
 
-3.  Verify that the following text is added to a new text box at the top of the slide.
+3. Verify that the following text is added to a new text box at the top of the slide.
 
      **This text was added by using code.**
 
-4.  Close PowerPoint.
+4. Close PowerPoint.
 
 ## Clean up the project
  When you finish developing a project, remove the VSTO Add-in assembly, registry entries, and security settings from your development computer. Otherwise, the VSTO Add-in will run every time you open PowerPoint on the development computer.
 
 ### To clean up your project
 
-1.  In Visual Studio, on the **Build** menu, click **Clean Solution**.
+1. In Visual Studio, on the **Build** menu, click **Clean Solution**.
 
 ## Next steps
  Now that you have created a basic VSTO Add-in for PowerPoint, you can learn more about how to develop VSTO Add-ins from these topics:
 
--   General programming tasks that you can perform in VSTO Add-ins for PowerPoint. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
+- General programming tasks that you can perform in VSTO Add-ins for PowerPoint. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
--   Using the object model of PowerPoint. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
+- Using the object model of PowerPoint. For more information, see [PowerPoint solutions](../vsto/powerpoint-solutions.md).
 
--   Customizing the UI of PowerPoint, for example, by adding a custom tab to the Ribbon or creating your own custom task pane. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
+- Customizing the UI of PowerPoint, for example, by adding a custom tab to the Ribbon or creating your own custom task pane. For more information, see [Office UI customization](../vsto/office-ui-customization.md).
 
--   Building and debugging VSTO Add-ins for PowerPoint. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
+- Building and debugging VSTO Add-ins for PowerPoint. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
--   Deploying VSTO Add-ins for PowerPoint. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying VSTO Add-ins for PowerPoint. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
 ## See also
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)

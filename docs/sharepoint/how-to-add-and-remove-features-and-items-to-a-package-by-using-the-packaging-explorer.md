@@ -25,7 +25,7 @@ ms.workload:
 
 #### To open the Packaging Explorer
 
-1.  On the menu bar, choose **View** > **Other Windows** > **Packaging Explorer**.
+1. On the menu bar, choose **View** > **Other Windows** > **Packaging Explorer**.
 
      The **Packaging Explorer** appears in the **Toolbox**.
 
@@ -34,15 +34,15 @@ ms.workload:
 
 #### To add a SharePoint feature
 
-1.  Open the **Packaging Explorer**, open the shortcut menu for the project, and then choose **Add Feature**.
+1. Open the **Packaging Explorer**, open the shortcut menu for the project, and then choose **Add Feature**.
 
 #### To move an existing SharePoint Feature
 
-1.  Open the **Packaging Explorer**, and then perform one of the following steps:
+1. Open the **Packaging Explorer**, and then perform one of the following steps:
 
-    -   Drag a **Feature** from one project to another project.
+    - Drag a **Feature** from one project to another project.
 
-    -   Open the shortcut menu for a Feature, choose **Cut**, open the shortcut menu for the project to which you want to move the Feature, and then choose **Paste**.
+    - Open the shortcut menu for a Feature, choose **Cut**, open the shortcut menu for the project to which you want to move the Feature, and then choose **Paste**.
 
     > [!NOTE]
     >  Use this procedure if you have more than one SharePoint project in your solution.
@@ -52,9 +52,9 @@ ms.workload:
 
 #### To validate a SharePoint feature or package
 
-1.  Open the **Packaging Explorer**.
+1. Open the **Packaging Explorer**.
 
-2.  Open a shortcut menu for a Feature or package, and then choose **Validate**.
+2. Open a shortcut menu for a Feature or package, and then choose **Validate**.
 
 ## See also
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

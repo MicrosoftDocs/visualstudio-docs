@@ -18,9 +18,9 @@ A VSPackage may define one or more settings categories, which are groups of stat
 
  A registry entry that is referred to as a Custom Settings Point and a GUID defines a VSPackage's settings category. A VSPackage can support multiple settings categories, each defined by a Custom Settings Point.
 
--   Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).
+- Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).
 
--   Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.
+- Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.
 
      If a single VSPackage supports several Custom Settings Points, each Custom Settings Point is implemented by a separate class, and each is registered by a unique instance of the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> class. Consequently, a settings implementing class can support more than one settings category.
 

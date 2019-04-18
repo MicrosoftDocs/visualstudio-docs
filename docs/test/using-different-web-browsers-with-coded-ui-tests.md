@@ -18,13 +18,13 @@ First, install the [Selenium components for coded UI cross browser testing](http
 
 ## What's supported across all web browsers?
 
--   [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
+- [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
 
--   Pop-ups and dialog boxes
+- Pop-ups and dialog boxes
 
--   [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
+- [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
--   Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
+- Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## Why should I use coded UI tests across multiple web browser types?
 
@@ -72,17 +72,17 @@ For more information about creating and using coded UI tests, see [Create coded 
 
 To enable debugging your web application, you must complete the following configuration options:
 
-1.  Enable Just My Code:
+1. Enable Just My Code:
 
-    1.  On the **Tools** menu, choose **Options** and then choose **Debugging**.
+    1. On the **Tools** menu, choose **Options** and then choose **Debugging**.
 
-    2.  Select **Enable Just My Code**.
+    2. Select **Enable Just My Code**.
 
-2.  Disable CLR exceptions:
+2. Disable CLR exceptions:
 
-    1.  On the **Debug** menu, choose **Exceptions**.
+    1. On the **Debug** menu, choose **Exceptions**.
 
-    2.  For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
+    2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
 If don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
 

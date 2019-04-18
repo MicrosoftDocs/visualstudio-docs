@@ -44,7 +44,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfClrEnv** {**/globaltracegc** &#124; **/globaltracegclife**}  
 
-   -   **/globaltracegc** and **/globaltracegclife** enable the collection of memory allocation and object lifetime data.  
+   - **/globaltracegc** and **/globaltracegclife** enable the collection of memory allocation and object lifetime data.  
 
        |Option|Description|  
        |------------|-----------------|  
@@ -85,14 +85,14 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
      **VSPerfCmd /attach:** `PID`&#124;`ProcessName`  
 
-    -   Specify the process ID or process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.  
+    - Specify the process ID or process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.  
 
 ## Controlling Data Collection  
  While the service is running, you can control data collection by starting and stopping the writing of data to the file with **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -105,19 +105,19 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Stop the service from Service Control Manager.  
+1. Stop the service from Service Control Manager.  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  When you have completed all profiling, clear the profiling environment variables. Type:  
+3. When you have completed all profiling, clear the profiling environment variables. Type:  
 
      **VSPerfClrEnv /globaloff**  
 
      Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
 
-4.  Restart the computer.  
+4. Restart the computer.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

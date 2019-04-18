@@ -31,7 +31,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 ## Can I convert my add-in project to a VSIX project?
  An add-in project can't be converted directly to a VSIX project because the mechanisms used in VSIX projects are not the same as the ones in add-in projects. The VSIX project template, plus the right project item templates have a lot of code that makes it relatively easy to get up and running as a VSIX extension.
 
-##  <a name="BKMK_StartDeveloping"></a> How do I start developing VSIX extensions?
+## <a name="BKMK_StartDeveloping"></a> How do I start developing VSIX extensions?
  Here's how you make a VSIX that has a menu command:
 
 ### To make a VSIX extension that has a menu command
@@ -46,7 +46,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 
    On the **Tools** menu (in the experimental instance) you should see a button named **My Command name**. When you choose this button, a message should appear: **Inside TestVSPackagePackage.MenuItemCallback()**.
 
-##  <a name="BKMK_RunAddin"></a> How can I run my add-in code in a VSPackage?
+## <a name="BKMK_RunAddin"></a> How can I run my add-in code in a VSPackage?
 
 Add-in code usually runs in one of two ways:
 
@@ -152,24 +152,24 @@ You can do the same things in a VSPackage. Here's how to add some add-in code in
 
 #### To insert window-management code from an add-in into a VSPackage
 
-1.  Create a VSPackage that has a menu command, as in the [How do I start developing VSIX extensions?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) section.
+1. Create a VSPackage that has a menu command, as in the [How do I start developing VSIX extensions?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) section.
 
-2.  Open the file that contains the definition of the VSPackage. (In a C# project, it's *\<your project name>Package.cs*.)
+2. Open the file that contains the definition of the VSPackage. (In a C# project, it's *\<your project name>Package.cs*.)
 
-3.  Add these `using` statements:
+3. Add these `using` statements:
 
     ```csharp
     using EnvDTE;
     using EnvDTE80;
     ```
 
-4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:
+4. Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:
 
     ```csharp
     DTE2 dte = (DTE2)GetService(typeof(DTE));
     ```
 
-5.  Add the code from your add-in. For example, here is some code that adds new tasks to the **Task List**, lists the number of tasks, and then deletes one task.
+5. Add the code from your add-in. For example, here is some code that adds new tasks to the **Task List**, lists the number of tasks, and then deletes one task.
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -200,24 +200,24 @@ You can do the same things in a VSPackage. Here's how to add some add-in code in
 ## How do I manage projects and solutions in a VSPackage?
  If your add-in manages projects and solutions, the add-in code should work in a VSPackage. For example, this procedure shows how to add code that gets the startup project.
 
-1.  Create a VSPackage that has a menu command, as in the [How do I start developing VSIX extensions?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) section.
+1. Create a VSPackage that has a menu command, as in the [How do I start developing VSIX extensions?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_StartDeveloping) section.
 
-2.  Open the file that contains the definition of the VSPackage. (In a C# project, it's *\<your project name>Package.cs*.)
+2. Open the file that contains the definition of the VSPackage. (In a C# project, it's *\<your project name>Package.cs*.)
 
-3.  Add these `using` statements:
+3. Add these `using` statements:
 
     ```csharp
     using EnvDTE;
     using EnvDTE80;
     ```
 
-4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:
+4. Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> to get the <xref:EnvDTE80.DTE2> object:
 
     ```csharp
     DTE2 dte = (DTE2)GetService(typeof(DTE));
     ```
 
-5.  Add the code from your add-in. For example, the following code gets the name of the startup project in a solution. (A multi-project solution must be open when this package runs.)
+5. Add the code from your add-in. For example, the following code gets the name of the startup project in a solution. (A multi-project solution must be open when this package runs.)
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)

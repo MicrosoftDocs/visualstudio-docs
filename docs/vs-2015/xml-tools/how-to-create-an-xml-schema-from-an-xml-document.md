@@ -27,9 +27,9 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
   
 ### To create an XML Schema  
   
-1.  Load an XML instance document into the XML Editor.  
+1. Load an XML instance document into the XML Editor.  
   
-2.  Click the **Create Schema** button from the **Toolbar**.  
+2. Click the **Create Schema** button from the **Toolbar**.  
   
      An XML Schema document is created and opened for each namespace found in the XML instance document. Each schema is opened as a temporary miscellaneous file.  
   

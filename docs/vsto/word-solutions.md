@@ -37,20 +37,20 @@ ms.workload:
 
  This topic provides the following information:
 
--   [Automate Word](#automating).
+- [Automate Word](#automating).
 
--   [Develop document-level customizations for Word](#doclevel).
+- [Develop document-level customizations for Word](#doclevel).
 
--   [Develop VSTO Add-ins for Word](#applevel).
+- [Develop VSTO Add-ins for Word](#applevel).
 
--   [Customize the user interface of Word](#UI).
+- [Customize the user interface of Word](#UI).
 
-##  <a name="automating"></a> Automate Word
+## <a name="automating"></a> Automate Word
  The Word object model exposes many types that you can use to automate Word. For example, you can programmatically create tables, format documents, and set the text in ranges and paragraphs. For more information, see [Word object model overview](../vsto/word-object-model-overview.md).
 
  When developing Word solutions in Visual Studio, you can also use *host items* and *host controls* in your solutions. These are objects that extend certain commonly used objects in the Word object model, such as the <xref:Microsoft.Office.Interop.Word.Document> and <xref:Microsoft.Office.Interop.Word.ContentControl> objects. The extended objects behave like the Word objects they are based on, but they add additional events and data binding capabilities to the objects. For more information, see [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md).
 
-##  <a name="doclevel"></a> Develop document-level customizations for Word
+## <a name="doclevel"></a> Develop document-level customizations for Word
  A document-level customization for Microsoft Office Word consists of an assembly that is associated with a specific document. The assembly typically extends the document by customizing the UI and by automating Word. Unlike a VSTO Add-in, which is associated with Word itself, functionality that you implement in a customization is available only when the associated document is open in Word.
 
  To create a document-level customization project for Word, use the Word Document or Word Template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
@@ -62,7 +62,7 @@ ms.workload:
 
  For more information about the `ThisDocument` class and other features you can use in a document-level project, see [Program document-level customizations](../vsto/programming-document-level-customizations.md).
 
-##  <a name="applevel"></a> Develop VSTO Add-ins for Word
+## <a name="applevel"></a> Develop VSTO Add-ins for Word
  A VSTO Add-in for Microsoft Office Word consists of an assembly that is loaded by Word. The assembly typically extends Word by customizing the UI and by automating Word. Unlike a document-level customization, which is associated with a specific document, functionality that you implement in a VSTO Add-in is not restricted to any single document.
 
  To create a VSTO Add-in project for Word, use the Word Add-in project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
@@ -74,7 +74,7 @@ ms.workload:
 
  For more information about the `ThisAddIn` class and other features you can use in a VSTO Add-in, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
-##  <a name="UI"></a> Customize the user interface of Word
+## <a name="UI"></a> Customize the user interface of Word
  There are several different ways to customize the user interface of Word. Some options are available to all project types, and other options are available only to VSTO Add-ins or document-level customizations.
 
 ### Options for all project types

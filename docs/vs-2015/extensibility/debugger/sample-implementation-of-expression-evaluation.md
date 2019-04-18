@@ -23,11 +23,11 @@ manager: jillfra
   
  This implementation of `IDebugExpressionEvaluator::Parse` performs the following tasks:  
   
-1.  [C++ only] Parses the expression to look for errors.  
+1. [C++ only] Parses the expression to look for errors.  
   
-2.  Instantiates a class (called `CParsedExpression` in this example) that implements the `IDebugParsedExpression` interface and stores in the class the expression to be parsed.  
+2. Instantiates a class (called `CParsedExpression` in this example) that implements the `IDebugParsedExpression` interface and stores in the class the expression to be parsed.  
   
-3.  Returns the `IDebugParsedExpression` interface from the `CParsedExpression` object.  
+3. Returns the `IDebugParsedExpression` interface from the `CParsedExpression` object.  
   
 > [!NOTE]
 >  In the examples that follow and in the MyCEE sample, the expression evaluator does not separate the parsing from the evaluation.  

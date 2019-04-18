@@ -28,26 +28,26 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
 
 ## To define a category using built-in fonts and colors
 
-1.  Create an arbitrary GUID.
+1. Create an arbitrary GUID.
 
      This GUID is used to uniquely identify a category. This category reuses the IDE's default fonts and colors specification.
 
     > [!NOTE]
     >  When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.
 
-2.  The category's name must be added to a string table inside the VSPackage's resources (*.rc*) file, so that it can be localized as needed when displayed in the IDE.
+2. The category's name must be added to a string table inside the VSPackage's resources (*.rc*) file, so that it can be localized as needed when displayed in the IDE.
 
      For more information, see [Add or delete a string](/cpp/windows/adding-or-deleting-a-string).
 
 ### To register a category using built-in fonts and colors
 
-1.  Construct a special type of category registry entry in the following location:
+1. Construct a special type of category registry entry in the following location:
 
      *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio version>\FontAndColors\\\<Category>*]
 
      *\<Category>* is the non-localized name of the category.
 
-2.  Populate the registry to use the stock fonts and color scheme with four values:
+2. Populate the registry to use the stock fonts and color scheme with four values:
 
     |Name|Type|Data|Description|
     |----------|----------|----------|-----------------|

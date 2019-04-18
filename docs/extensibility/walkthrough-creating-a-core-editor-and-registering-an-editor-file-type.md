@@ -20,11 +20,11 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 ## Locations for the Visual Studio Package project template
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:
 
-1.  Under **Visual Basic Extensibility**. The default language of the project is Visual Basic.
+1. Under **Visual Basic Extensibility**. The default language of the project is Visual Basic.
 
-2.  Under **C# Extensibility**. The default language of the project is C#.
+2. Under **C# Extensibility**. The default language of the project is C#.
 
-3.  Under **Other Project Types Extensibility**. The default language of the project is C++.
+3. Under **Other Project Types Extensibility**. The default language of the project is C++.
 
 ### To create the VSPackage
 

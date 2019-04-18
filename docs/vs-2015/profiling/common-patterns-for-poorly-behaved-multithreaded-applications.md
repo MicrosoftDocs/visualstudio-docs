@@ -46,9 +46,9 @@ The Concurrency Visualizer helps developers to visualize the behavior of a multi
   
  You should consider the following when you evaluate this problem:  
   
--   The overall system may be oversubscribed. Consider that other processes on the system may be preempting your threads. When you pause over a preemption segment in the threads view, a tooltip will identify the thread and the process that preempted the thread. This process is not necessarily the one that executed during the whole time that your process was preempted, but it provides a hint about what created the preemption pressure against your process.  
+- The overall system may be oversubscribed. Consider that other processes on the system may be preempting your threads. When you pause over a preemption segment in the threads view, a tooltip will identify the thread and the process that preempted the thread. This process is not necessarily the one that executed during the whole time that your process was preempted, but it provides a hint about what created the preemption pressure against your process.  
   
--   Evaluate how your process determines the appropriate number of threads for execution during this phase of work. If your process directly calculates the number of active parallel threads, consider modifying that algorithm to better account for the number of available logical cores on the system. If you use the Concurrency Runtime, the Task Parallel Library, or PLINQ, these libraries perform the work of calculating the number of threads.  
+- Evaluate how your process determines the appropriate number of threads for execution during this phase of work. If your process directly calculates the number of active parallel threads, consider modifying that algorithm to better account for the number of available logical cores on the system. If you use the Concurrency Runtime, the Task Parallel Library, or PLINQ, these libraries perform the work of calculating the number of threads.  
   
 ## Inefficient I/O  
  ![Inefficient I&#47;O](../profiling/media/inefficient-io.png "Inefficient_IO")  

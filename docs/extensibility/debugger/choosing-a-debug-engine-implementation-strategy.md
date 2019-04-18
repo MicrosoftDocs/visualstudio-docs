@@ -21,9 +21,9 @@ Use the run-time architecture to determine your debug engine (DE) implementation
 
  Otherwise, you either create the DE in-process to the SDM or in-process to the program you're debugging. You'll need to consider if the expression evaluator of the DE requires frequent access to the program symbol store. Or, if the symbol store can be loaded into memory for rapid access. Also, consider the following approaches:
 
--   If there are not many calls between the expression evaluator and the symbol store, or if the symbol store can be read into the SDM memory space, create the DE in-process to the SDM. You must return the CLSID of the debug engine to the SDM when it attaches to your program. The SDM uses this CLSID to create an in-process instance of the DE.
+- If there are not many calls between the expression evaluator and the symbol store, or if the symbol store can be read into the SDM memory space, create the DE in-process to the SDM. You must return the CLSID of the debug engine to the SDM when it attaches to your program. The SDM uses this CLSID to create an in-process instance of the DE.
 
--   If the DE must call the program to access the symbol store, create the DE in-process with the program. In this case, the program creates the instance of the DE.
+- If the DE must call the program to access the symbol store, create the DE in-process with the program. In this case, the program creates the instance of the DE.
 
 ## See also
 - [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md)

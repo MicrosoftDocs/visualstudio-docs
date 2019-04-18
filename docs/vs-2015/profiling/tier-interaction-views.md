@@ -19,7 +19,7 @@ Tier interaction profiling provides additional information about the execution t
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
   
 ## In This Section  
  [Tier Interactions View](../profiling/tier-interactions-view.md)

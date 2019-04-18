@@ -21,7 +21,7 @@ Unable to connect to SQL Server on remote machine *name*. Access denied. Verify 
 
 ### To correct this error
 
--   See [Remote Debugging](../debugger/remote-debugging.md).
+- See [Remote Debugging](../debugger/remote-debugging.md).
 
 ## See Also
 - [Debugging SQL](/previous-versions/visualstudio/visual-studio-2010/zefbf0t6(v=vs.100))

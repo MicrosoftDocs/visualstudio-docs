@@ -46,7 +46,7 @@ To start debugging a project from **Solution Explorer** without making it the st
 
 1. Select **Apply**, or **OK** to apply and close the dialog.
 
-###  <a name="BKMK_Attach_to_a_process"></a> Attach to a process
+### <a name="BKMK_Attach_to_a_process"></a> Attach to a process
 
 The debugger can also *attach* to apps running in processes outside of Visual Studio, including on remote devices. After you attach to an app, you can use the Visual Studio debugger. Debugging features might be limited. It depends on whether the app was built with debug information, whether you have access to the app's source code, and whether the JIT compiler is tracking debug information.
 
@@ -63,7 +63,7 @@ For more information, see [Attach to running processes](../debugger/attach-to-ru
 >[!NOTE]
 >The debugger does not automatically attach to a child process that is started by a debugged process, even if the child project is in the same solution. To debug a child process, either attach to the child process after it starts, or configure the Windows Registry Editor to start the child process in a new debugger instance.
 
-###  <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> Use the Registry Editor to automatically start a process in the debugger
+### <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> Use the Registry Editor to automatically start a process in the debugger
 
 Sometimes, you might need to debug the startup code for an app that is launched by another process. Examples include services and custom setup actions. You can have the debugger launch and automatically attach to the app.
 
@@ -87,7 +87,7 @@ Sometimes, you might need to debug the startup code for an app that is launched 
 
    ![Automatic debugger start entry in regedit.exe](../debugger/media/dbg_execution_automaticstart_result.png "Automatic debugger start entry in regedit.exe")
 
-##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Debug with multiple processes
+## <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> Debug with multiple processes
 <a name="BKMK_Configure_the_execution_behavior_of_multiple_processes"></a>
 
 When debugging an app with several processes, the breaking, stepping, and continuing debugger commands affect all processes by default. For example, when a process is suspended at a breakpoint, the execution of all other processes is also suspended. You can change this default behavior, to gain more control over the targets of execution commands.
@@ -96,7 +96,7 @@ When debugging an app with several processes, the breaking, stepping, and contin
 
 - Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select or clear the **Break all processes when one process breaks** check box.
 
-###  <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands
+### <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands
 
 The following table describes the behaviors of debugging commands when the **Break all processes when one process breaks** check box is selected or deselected:
 
@@ -111,12 +111,12 @@ The following table describes the behaviors of debugging commands when the **Bre
 |**Processes** window > **Break Process**|N/A|Selected process breaks.<br />Other processes maintain their existing state (suspended or running).|
 |**Processes** window > **Continue Process**|N/A|Selected process resumes.<br />Other processes maintain their existing state (suspended or running).|
 
-###  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> Find the source and symbol (.pdb) files
+### <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> Find the source and symbol (.pdb) files
 To navigate the source code of a process, the debugger needs access to its source files and symbol files. For more information, see [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 If you can't access the files for a process, you can navigate by using the **Disassembly** window. For more information, see [How to: Use the Disassembly window](../debugger/how-to-use-the-disassembly-window.md).
 
-###  <a name="BKMK_Switch_between_processes"></a> Switch between processes
+### <a name="BKMK_Switch_between_processes"></a> Switch between processes
 
 You can attach to multiple processes when you're debugging, but only one process is active in the debugger at any given time. You can set the active or *current* process in the **Debug Location** toolbar, or in the **Processes** window. To switch between processes, both processes must be in break mode.
 

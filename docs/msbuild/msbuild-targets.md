@@ -39,15 +39,15 @@ Targets group tasks together in a particular order and allow the build process t
 ## Target build order
  Targets must be ordered if the input to one target depends on the output of another target. There are several ways to specify the order in which targets run.
 
--   Initial targets
+- Initial targets
 
--   Default targets
+- Default targets
 
--   First target
+- First target
 
--   Target dependencies
+- Target dependencies
 
--   `BeforeTargets` and `AfterTargets` (MSBuild 4.0)
+- `BeforeTargets` and `AfterTargets` (MSBuild 4.0)
 
 A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.
 

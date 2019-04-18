@@ -20,13 +20,13 @@ You can copy shapes from a .NET class diagram (.cd file) to other documents. You
   
 ### To copy a single element  
   
--   Right-click the shape and choose **Copy Image**.  
+- Right-click the shape and choose **Copy Image**.  
   
 ### To copy several elements  
   
-1.  Select the shapes on the diagram that you want to copy.  
+1. Select the shapes on the diagram that you want to copy.  
   
-2.  Right-click your selection and choose **Copy Image**.  
+2. Right-click your selection and choose **Copy Image**.  
   
 ### To copy all the elements in a class diagram  
   

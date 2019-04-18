@@ -27,13 +27,13 @@ ms.workload:
 
  For information about using the Word object model to perform specific tasks, see the following topics:
 
--   [Work with documents](../vsto/working-with-documents.md)
+- [Work with documents](../vsto/working-with-documents.md)
 
--   [Work with text in documents](../vsto/working-with-text-in-documents.md)
+- [Work with text in documents](../vsto/working-with-text-in-documents.md)
 
--   [Work with tables](../vsto/working-with-tables.md)
+- [Work with tables](../vsto/working-with-tables.md)
 
-##  <a name="understanding"></a> Understand the Word object model
+## <a name="understanding"></a> Understand the Word object model
  Word provides hundreds of objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the <xref:Microsoft.Office.Interop.Word.Application> object. This object represents the current instance of Word. The <xref:Microsoft.Office.Interop.Word.Application> object contains the <xref:Microsoft.Office.Interop.Word.Document>, <xref:Microsoft.Office.Interop.Word.Selection>, <xref:Microsoft.Office.Interop.Word.Bookmark>, and <xref:Microsoft.Office.Interop.Word.Range> objects. Each of these objects has many methods and properties that you can access to manipulate and interact with the object.
 
  The following illustration shows one view of these objects in the hierarchy of the Word object model.
@@ -109,7 +109,7 @@ ms.workload:
 
   Visual Studio extends the <xref:Microsoft.Office.Interop.Word.Bookmark> object by providing the <xref:Microsoft.Office.Tools.Word.Bookmark> host control. The <xref:Microsoft.Office.Tools.Word.Bookmark> host control behaves like a native <xref:Microsoft.Office.Interop.Word.Bookmark>, but has additional events and data-binding capabilities. You can bind data to a bookmark control on a document in the same way that you bind data to a text box control on a Windows Form. For more information, see [Bookmark control](../vsto/bookmark-control.md).
 
-##  <a name="WordOMDocumentation"></a> Use the Word object model documentation
+## <a name="WordOMDocumentation"></a> Use the Word object model documentation
  For complete information about the Word object model, you can refer to the Word primary interop assembly (PIA) reference and the Visual Basic for Applications (VBA) object model reference.
 
 ### Primary interop assembly reference

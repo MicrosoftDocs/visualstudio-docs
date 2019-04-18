@@ -33,7 +33,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 ## Parameters
  The following describes the parameters of the **MIDL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
--   **AdditionalIncludeDirectories**
+- **AdditionalIncludeDirectories**
 
      Optional **String[]** parameter.
 
@@ -41,7 +41,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/I** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **AdditionalOptions**
+- **AdditionalOptions**
 
      Optional **String** parameter.
 
@@ -49,7 +49,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ApplicationConfigurationMode**
+- **ApplicationConfigurationMode**
 
      Optional **Boolean** parameter.
 
@@ -57,7 +57,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/app_config** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ClientStubFile**
+- **ClientStubFile**
 
      Optional **String** parameter.
 
@@ -65,7 +65,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/cstub** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also see the **ServerStubFile** parameter in this table.
 
--   **CPreprocessOptions**
+- **CPreprocessOptions**
 
      Optional **String** parameter.
 
@@ -73,7 +73,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/cpp_opt** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **DefaultCharType**
+- **DefaultCharType**
 
      Optional **String** parameter.
 
@@ -89,7 +89,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/char** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **DllDataFileName**
+- **DllDataFileName**
 
      Optional **String** parameter.
 
@@ -97,7 +97,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/dlldata** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **EnableErrorChecks**
+- **EnableErrorChecks**
 
      Optional **String** parameter.
 
@@ -113,7 +113,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/error** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ErrorCheckAllocations**
+- **ErrorCheckAllocations**
 
      Optional **Boolean** parameter.
 
@@ -121,7 +121,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/error allocation** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ErrorCheckBounds**
+- **ErrorCheckBounds**
 
      Optional **Boolean** parameter.
 
@@ -129,7 +129,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/error bounds_check** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ErrorCheckEnumRange**
+- **ErrorCheckEnumRange**
 
      Optional **Boolean** parameter.
 
@@ -137,7 +137,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/error enum** option in command-line help (**/?**) for *midl.exe*.
 
--   **ErrorCheckRefPointers**
+- **ErrorCheckRefPointers**
 
      Optional **Boolean** parameter.
 
@@ -145,7 +145,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/error ref** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ErrorCheckStubData**
+- **ErrorCheckStubData**
 
      Optional **Boolean** parameter.
 
@@ -153,7 +153,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/error stub_data** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **GenerateClientFiles**
+- **GenerateClientFiles**
 
      Optional **String** parameter.
 
@@ -168,7 +168,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/client** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **GenerateServerFiles**
+- **GenerateServerFiles**
 
      Optional **String** parameter.
 
@@ -183,7 +183,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/server** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **GenerateStublessProxies**
+- **GenerateStublessProxies**
 
      Optional **Boolean** parameter.
 
@@ -191,7 +191,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/Oicf** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **GenerateTypeLibrary**
+- **GenerateTypeLibrary**
 
      Optional **Boolean** parameter.
 
@@ -199,7 +199,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/notlb** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **HeaderFileName**
+- **HeaderFileName**
 
      Optional **String** parameter.
 
@@ -207,7 +207,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/h** or **/header** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **IgnoreStandardIncludePath**
+- **IgnoreStandardIncludePath**
 
      Optional **Boolean** parameter.
 
@@ -215,7 +215,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/no_def_idir** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **InterfaceIdentifierFileName**
+- **InterfaceIdentifierFileName**
 
      Optional **String** parameter.
 
@@ -223,7 +223,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/iid** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **LocaleID**
+- **LocaleID**
 
      Optional **int** parameter.
 
@@ -231,7 +231,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/lcid** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also see [Locale identifiers](https://docs.microsoft.com/windows/desktop/intl/locale-identifiers).
 
--   **MkTypLibCompatible**
+- **MkTypLibCompatible**
 
      Optional **Boolean** parameter.
 
@@ -239,7 +239,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/mktyplib203** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also, see [ODL file syntax](/previous-versions/windows/desktop/automat/odl-file-syntax) on the MSDN website.
 
--   **OutputDirectory**
+- **OutputDirectory**
 
      Optional **String** parameter.
 
@@ -247,7 +247,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/out** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **PreprocessorDefinitions**
+- **PreprocessorDefinitions**
 
      Optional **String[]** parameter.
 
@@ -255,7 +255,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/D** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also, see the **UndefinePreprocessorDefinitions** parameter in this table.
 
--   **ProxyFileName**
+- **ProxyFileName**
 
      Optional **String** parameter.
 
@@ -263,7 +263,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/proxy** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **RedirectOutputAndErrors**
+- **RedirectOutputAndErrors**
 
      Optional **String** parameter.
 
@@ -271,7 +271,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/o** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **ServerStubFile**
+- **ServerStubFile**
 
      Optional **String** parameter.
 
@@ -279,13 +279,13 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/sstub** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also, see the **ClientStubFile** parameter in this table.
 
--   **Source**
+- **Source**
 
      Required `ITaskItem[]` parameter.
 
      Specifies a list of source files separated by spaces.
 
--   **StructMemberAlignment**
+- **StructMemberAlignment**
 
      Optional **String** parameter.
 
@@ -303,7 +303,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/Zp** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). The **/Zp** option is equivalent to the **/pack** option and the older **/align** option.
 
--   **SuppressCompilerWarnings**
+- **SuppressCompilerWarnings**
 
      Optional **Boolean** parameter.
 
@@ -311,7 +311,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/no_warn** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **SuppressStartupBanner**
+- **SuppressStartupBanner**
 
      Optional `Boolean` parameter.
 
@@ -319,7 +319,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/nologo** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **TargetEnvironment**
+- **TargetEnvironment**
 
      Optional **String** parameter.
 
@@ -336,13 +336,13 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/env** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **TrackerLogDirectory**
+- **TrackerLogDirectory**
 
      Optional `String` parameter.
 
      Specifies the intermediate directory where tracking logs for this task are stored.
 
--   **TypeLibFormat**
+- **TypeLibFormat**
 
      Optional **String** parameter.
 
@@ -357,7 +357,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/newtlb** and **/oldtlb** options in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **TypeLibraryName**
+- **TypeLibraryName**
 
      Optional **String** parameter.
 
@@ -365,7 +365,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/tlb** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **UndefinePreprocessorDefinitions**
+- **UndefinePreprocessorDefinitions**
 
      Optional **String[]** parameter.
 
@@ -373,7 +373,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/U** option in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also, see the **PreprocessorDefinitions** parameter in this table.
 
--   **ValidateAllParameters**
+- **ValidateAllParameters**
 
      Optional `Boolean` parameter.
 
@@ -381,7 +381,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/robust** and **/no_robust** options in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference).
 
--   **WarnAsError**
+- **WarnAsError**
 
      Optional `Boolean` parameter.
 
@@ -391,7 +391,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
 
      For more information, see the **/WX** options in [MIDL command-line reference](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference). Also, see the **WarningLevel** parameter in this table.
 
--   **WarningLevel**
+- **WarningLevel**
 
      Optional **String** parameter.
 

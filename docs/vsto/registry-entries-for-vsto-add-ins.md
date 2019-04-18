@@ -72,7 +72,7 @@ ms.workload:
 |**LoadBehavior**|REG_DWORD|Required. A value that specifies when the application attempts to load the VSTO Add-in and the current state of the VSTO Add-in (loaded or unloaded).<br /><br /> By default, this entry is set to 3, which specifies that the VSTO Add-in is loaded at startup. For more information, see [LoadBehavior values](#LoadBehavior). **Note:**  If a user disables the VSTO Add-in, that action modifies **LoadBehavior** value in the **HKEY_CURRENT_USER** registry hive. For each user, the value of the **LoadBehavior** value in the HKEY_CURRENT_USER hive overrides the default **LoadBehavior** defined in the **HKEY_LOCAL_MACHINE** hive.|
 |**Manifest**|REG_SZ|Required. The full path of the deployment manifest for the VSTO Add-in. The path can be a location on the local computer, a network share (UNC), or a Web server (HTTP).<br /><br /> If you use Windows Installer to deploy the solution, you must add the prefix **file:///** to the **manifest** path. You must also append the string **&#124;vstolocal** (that is, the pipe character **&#124;** followed by **vstolocal**) to the end of this path. This ensures that your solution is loaded from the installation folder, rather than the ClickOnce cache. For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md). **Note:**  When you build a VSTO Add-in on the development computer, Visual Studio automatically appends the **&#124;vstolocal** string to this registry entry.|
 
-###  <a name="OutlookEntries"></a> Registry entries for Outlook form regions
+### <a name="OutlookEntries"></a> Registry entries for Outlook form regions
  If you create a custom form region in a VSTO Add-in for Outlook, additional registry entries are used to register the form region with Outlook. These entries are created under a different registry key for each message class that the form region supports. These registry keys are in the following location, where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE**.
 
  *Root*\Software\Microsoft\Office\Outlook\FormRegions\\*message class*
@@ -81,7 +81,7 @@ ms.workload:
 
  For more information about the form region registry entries, see [Specify the location of a form region in a custom form](/office/vba/outlook/Concepts/Creating-Form-Regions/specify-the-location-of-a-form-region-in-a-custom-form). For more information about Outlook form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
-##  <a name="LoadBehavior"></a> LoadBehavior values
+## <a name="LoadBehavior"></a> LoadBehavior values
  The **LoadBehavior** entry under the *Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID* key contains a bitwise combination of values that specify the run time behavior of the VSTO Add-in. The lowest order bit (values 0 and 1) indicates whether the VSTO Add-in is currently unloaded or loaded. Other bits indicate when the application attempts to load the VSTO Add-in.
 
  Typically, the **LoadBehavior** entry is intended to be set to 0, 3, or 16 (in decimal) when the VSTO Add-in is installed on end-user computers. By default, Visual Studio sets the **LoadBehavior** entry of your VSTO Add-in to 3 when you build or publish it.

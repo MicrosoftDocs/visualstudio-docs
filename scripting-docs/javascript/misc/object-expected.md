@@ -20,11 +20,11 @@ You attempted to invoke a method or property on an object of a type other than `
   
 ### To correct this error  
   
--   Only invoke the method or property on objects of type `Object`.  
+- Only invoke the method or property on objects of type `Object`.  
   
--   If the error occurs for a non-object argument, pass an object of type `Object`.  
+- If the error occurs for a non-object argument, pass an object of type `Object`.  
   
--   Check whether an undefined or null reference is getting invoked instead of an object of type `Object`.  
+- Check whether an undefined or null reference is getting invoked instead of an object of type `Object`.  
   
      For example, if you get this error on myVar in the following code:  
   

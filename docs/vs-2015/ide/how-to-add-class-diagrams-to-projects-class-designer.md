@@ -22,17 +22,17 @@ To design, edit, and refactor classes and other types, add a class diagram to yo
   
 ### To add a blank class diagram to a project  
   
-1.  In Solution Explorer, right-click the project name. Then choose **Add New Item** or **Add**, **New Item**.  
+1. In Solution Explorer, right-click the project name. Then choose **Add New Item** or **Add**, **New Item**.  
   
-2.  From the template list, choose the **Class Diagram**. For Visual C++ projects, look under **Templates**, and then under **Utility** to find this template.  
+2. From the template list, choose the **Class Diagram**. For Visual C++ projects, look under **Templates**, and then under **Utility** to find this template.  
   
      The class diagram opens in Class Designer and appears as a file that has a .cd extension in Solution Explorer in the project hierarchy. Use the Class Designer toolbox to drag shapes and lines to the diagram.  
   
-3.  To add multiple class diagrams, repeat the steps in this procedure.  
+3. To add multiple class diagrams, repeat the steps in this procedure.  
   
 ### To add a class diagram based on existing types  
   
-1.  In Solution Explorer, open the class file context menu, then choose **View Class Diagram**.  
+1. In Solution Explorer, open the class file context menu, then choose **View Class Diagram**.  
   
      -or-  
   
@@ -40,7 +40,7 @@ To design, edit, and refactor classes and other types, add a class diagram to yo
   
 ### To display the contents of a complete project in a class diagram  
   
-1.  In Solution Explorer or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.  
+1. In Solution Explorer or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.  
   
      An auto-populated Class Diagram is created.  
   

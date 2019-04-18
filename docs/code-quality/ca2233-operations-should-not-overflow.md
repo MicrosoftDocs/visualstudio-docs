@@ -96,11 +96,11 @@ If you turn on checked arithmetic overflow/underflow in C#, it is equivalent to 
 
 To turn on checked arithmetic overflow/underflow in C#:
 
-1.  In **Solution Explorer**, right-click your project and choose **Properties**.
+1. In **Solution Explorer**, right-click your project and choose **Properties**.
 
-2.  Select the **Build** tab and click **Advanced**.
+2. Select the **Build** tab and click **Advanced**.
 
-3.  Select **Check for arithmetic overflow/underflow** and click **OK**.
+3. Select **Check for arithmetic overflow/underflow** and click **OK**.
 
 ## See also
 

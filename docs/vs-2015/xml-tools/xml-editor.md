@@ -40,13 +40,13 @@ The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] 
 ## Express Editions  
  The following XML Editor features are not available in the Visual Studio Express Editions:  
   
--   Creating an XML schema from an XML instance document.  
+- Creating an XML schema from an XML instance document.  
   
--   Viewing XSLT output from the XML Editor.  
+- Viewing XSLT output from the XML Editor.  
   
--   Smart validation while editing XSLT style sheets.  
+- Smart validation while editing XSLT style sheets.  
   
--   XML Schema Explorer.  
+- XML Schema Explorer.  
   
 ## In This Section  
  [XML Document Validation](../xml-tools/xml-document-validation.md)  

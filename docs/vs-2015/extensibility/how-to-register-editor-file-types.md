@@ -20,7 +20,7 @@ The easiest way to register editor file types is by using the registration attri
   
 #### To register editor file types using MPF classes  
   
-1.  Provide the <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> class with the appropriate parameters for your editor in the class of your VSPackage.  
+1. Provide the <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> class with the appropriate parameters for your editor in the class of your VSPackage.  
   
     ```  
     [Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute(typeof(EditorFactory), ".Sample", 32,   
@@ -37,7 +37,7 @@ The easiest way to register editor file types is by using the registration attri
   
      `NameResourceID` is defined in the Resources.h file of the BasicEditorUI project, and identifies the editor as "My Editor".  
   
-2.  Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
+2. Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
      In your implementation of the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method, call the <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory%2A> method and pass the instance of your editor factory as demonstrated below.  
   
@@ -55,7 +55,7 @@ The easiest way to register editor file types is by using the registration attri
   
      This step registers both the editor factory and the editor file extensions.  
   
-3.  Unregister the editor factories.  
+3. Unregister the editor factories.  
   
      Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the <xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
@@ -64,7 +64,7 @@ The easiest way to register editor file types is by using the registration attri
   
 #### To register editor file types using a registry script  
   
-1.  In your registry script, define the editor factory and the editor factory GUID string as shown in the `GUID_BscEditorFactory` section of the following registry script. Also, define the extension and the priority of the editor extension:  
+1. In your registry script, define the editor factory and the editor factory GUID string as shown in the `GUID_BscEditorFactory` section of the following registry script. Also, define the extension and the priority of the editor extension:  
   
     ```  
   
@@ -86,9 +86,9 @@ The easiest way to register editor file types is by using the registration attri
   
      The editor file extension in this example is identified as ".rtf" and its priority is "50". The GUID strings are defined in Resource.h file of the BscEdit sample project.  
   
-2.  Register the VSPackage.  
+2. Register the VSPackage.  
   
-3.  Register the editor factory.  
+3. Register the editor factory.  
   
      The editor factory is registered in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor%2A> implementation.  
   

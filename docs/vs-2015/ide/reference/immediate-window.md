@@ -112,9 +112,9 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
 #### To toggle first-chance exception notifications in the Immediate window  
   
-1.  On the **View** menu, click **Other Windows**, and click **Output**.  
+1. On the **View** menu, click **Other Windows**, and click **Output**.  
   
-2.  Right-click on the text area of the **Output** window, and select or deselect **Exception Messages**.  
+2. Right-click on the text area of the **Output** window, and select or deselect **Exception Messages**.  
   
 ## See Also  
  [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)   

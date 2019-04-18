@@ -208,7 +208,7 @@ private void WriteSquareLine(int i)
   
  For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).  
   
-###  <a name="Include"></a> Including code and text  
+### <a name="Include"></a> Including code and text  
  The `include` directive inserts text from another template file. For example, this directive inserts the content of `test.txt`.  
   
  `<#@ include file="c:\test.txt" #>`  

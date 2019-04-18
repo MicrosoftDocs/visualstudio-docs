@@ -57,15 +57,15 @@ The Windows Installer installs and uninstalls applications or software products 
   
 #### Installer-Enforced Rules  
   
--   All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.  
+- All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.  
   
--   There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.  
+- There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.  
   
 #### Component-Provider Responsibilities  
   
--   Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx).  
+- Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx).  
   
--   No versioned resource should ever ship in more than one WIC.  
+- No versioned resource should ever ship in more than one WIC.  
   
 ## See Also  
  [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)

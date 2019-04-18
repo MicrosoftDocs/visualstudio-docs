@@ -28,19 +28,19 @@ The `Install Mode` for a [!INCLUDE[ndptecclick](../deployment/includes/ndpteccli
 
 ### To make a ClickOnce application available online only
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  In the **Install Mode and Settings** area, click the **The application is available online only** option button.
+3. In the **Install Mode and Settings** area, click the **The application is available online only** option button.
 
 ### To make a ClickOnce application available online or offline
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  In the **Install Mode and Settings** area, click the **The application is available offline as well** option button.
+3. In the **Install Mode and Settings** area, click the **The application is available offline as well** option button.
 
      When installed, the application adds entries to the **Start** menu and to **Add or Remove Programs** in Control Panel.
 

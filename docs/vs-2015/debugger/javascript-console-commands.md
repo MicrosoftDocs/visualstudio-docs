@@ -87,7 +87,7 @@ if (console && console.log) {
 ## Examining objects in the JavaScript Console window  
  You can interact with any object that's in scope when you use the JavaScript Console window. To inspect an out-of-scope object in the console window, use `console.log` , `console.dir`, or other commands from your code. Alternatively, you can interact with the object from the console window while it is in scope by setting a breakpoint in your code (**Breakpoint** > **Insert Breakpoint**).  
   
-##  <a name="ConsoleLog"></a> Formatting console.log output  
+## <a name="ConsoleLog"></a> Formatting console.log output  
  If you pass multiple arguments to `console.log`, the console will treat the arguments as an array and concatenate the output.  
   
 ```javascript  

@@ -65,15 +65,15 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 
 ### To mark assemblies as optional in your ClickOnce application by using Visual Studio
 
-1.  Right-click the Windows Forms project in **Solution Explorer** and click **Properties**. Select the **Publish** tab.
+1. Right-click the Windows Forms project in **Solution Explorer** and click **Properties**. Select the **Publish** tab.
 
-2.  Click the **Application Files** button.
+2. Click the **Application Files** button.
 
-3.  Find the listing for *ClickOnceLibrary.dll*. Set the **Publish Status** drop-down box to **Include**.
+3. Find the listing for *ClickOnceLibrary.dll*. Set the **Publish Status** drop-down box to **Include**.
 
-4.  Expand the **Group** drop-down box and select **New**. Enter the name `ClickOnceLibrary` as the new group name.
+4. Expand the **Group** drop-down box and select **New**. Enter the name `ClickOnceLibrary` as the new group name.
 
-5.  Continue publishing your application as described in [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
+5. Continue publishing your application as described in [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
 
 ### To mark assemblies as optional in your ClickOnce application by using Manifest Generation and Editing Tool — Graphical Client (MageUI.exe)
 

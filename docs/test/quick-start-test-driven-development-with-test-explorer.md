@@ -88,15 +88,15 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
 
 4. Generate the method from the test.
 
-   1.  Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
+   1. Place the cursor on `Rooter`, and then on the shortcut menu choose **Generate** > **New Type**.
 
-   2.  In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
+   2. In the **Generate New Type** dialog box, set **Project** to the class library project. In this example, it is `MyMath`.
 
-   3.  Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
+   3. Place the cursor on `SquareRoot`, and then on the shortcut menu choose **Generate** > **Method Stub**.
 
 5. Run the unit test.
 
-   1.  On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
+   1. On the **Test** menu, choose **Run Unit Tests** > **All Tests**.
 
         The solution builds and runs.
 
@@ -116,7 +116,7 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
 
 #### After every change, make all the tests pass
 
-1.  In *MyMath\Rooter.cs*, improve the code of `SquareRoot`:
+1. In *MyMath\Rooter.cs*, improve the code of `SquareRoot`:
 
     ```csharp
     public double SquareRoot(double input)
@@ -125,7 +125,7 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
      }
     ```
 
-2.  In Test Explorer, choose **Run All**.
+2. In Test Explorer, choose **Run All**.
 
      The code builds and the test runs.
 
@@ -135,7 +135,7 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
 
 #### Add tests to extend the range of inputs
 
-1.  To improve your confidence that your code works in all cases, add tests that try a broader range of input values.
+1. To improve your confidence that your code works in all cases, add tests that try a broader range of input values.
 
     > [!TIP]
     > Avoid altering existing tests that pass. Instead, add new tests. Change existing tests only when the user requirements change. This policy helps to make sure that you don't lose existing functionality as you work to extend the code.
@@ -166,13 +166,13 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
     }
     ```
 
-2.  In Test Explorer, choose **Run All**.
+2. In Test Explorer, choose **Run All**.
 
      The new test fails, although the first test still passes.
 
      To find the point of failure, select the failing test and then in the lower part of Test Explorer, select the top item of the **Stack Trace**.
 
-3.  Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
+3. Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
 
     ```csharp
     public double SquareRoot(double input)
@@ -188,13 +188,13 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
     }
     ```
 
-4.  In Test Explorer, choose **Run All**.
+4. In Test Explorer, choose **Run All**.
 
      Both tests now pass.
 
 #### Add tests for exceptional cases
 
-1.  Add a test for negative inputs:
+1. Add a test for negative inputs:
 
     ```csharp
     [TestMethod]
@@ -213,15 +213,15 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
      }
     ```
 
-2.  In Test Explorer, choose **Run All**.
+2. In Test Explorer, choose **Run All**.
 
      The method under test loops, and must be canceled manually.
 
-3.  Choose **Cancel**.
+3. Choose **Cancel**.
 
      The test stops after 10 seconds.
 
-4.  Fix the method code:
+4. Fix the method code:
 
     ```csharp
 
@@ -234,13 +234,13 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
     ...
     ```
 
-5.  In Test Explorer, choose **Run All**.
+5. In Test Explorer, choose **Run All**.
 
      All the tests pass.
 
 #### Refactor without changing tests
 
-1.  Simplify the code, but do not change the tests.
+1. Simplify the code, but do not change the tests.
 
     > [!TIP]
     > A *refactoring* is a change that is intended to make the code perform better or to make the code easier to understand. It is not intended to alter the behavior of the code, and therefore the tests are not changed.
@@ -269,7 +269,7 @@ This walkthrough demonstrates how to develop a tested method in C# using the Mic
     }
     ```
 
-2.  Choose **Run All**.
+2. Choose **Run All**.
 
      All the tests still pass.
 

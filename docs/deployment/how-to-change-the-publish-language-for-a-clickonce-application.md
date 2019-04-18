@@ -28,15 +28,15 @@ The `Publish language` property can be set in the **Publish Options** dialog box
 
 ## To change the publish language
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Options** button to open the **Publish Options** dialog box.
+3. Click the **Options** button to open the **Publish Options** dialog box.
 
-4.  Click **Description**.
+4. Click **Description**.
 
-5.  In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
+5. In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
 
 ## See also
 

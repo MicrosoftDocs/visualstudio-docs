@@ -41,11 +41,11 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 
 4. In the **How will users install the application?** page, select the location where users will go to install the application:
 
-   -   If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)
+   - If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)
 
-   -   If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.)
+   - If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.)
 
-   -   If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.
+   - If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.
 
 5. On the **Will the application be available offline?** page, click the appropriate option:
 

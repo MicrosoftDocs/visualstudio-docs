@@ -164,6 +164,7 @@ The app's *\_\_init\_\_.py* file contains a line to
 ```python
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 ```
+
 In the *templates* folder, you see *.jade* files instead of *.html* templates, and the views in *views.py* refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
 
 Opening one of the *.jade* files, you can see the more succinct expression of a template. For example, here's the contents of *templates/layout.jade* as created by the "Flask/Jade Web Project" template:

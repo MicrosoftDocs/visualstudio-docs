@@ -71,7 +71,7 @@
     href: updating-the-user-interface.md
   - name: Localizing Menu Commands
     href: localizing-menu-commands.md
-- name: Adding Commands to Toolbars
+- name: Add Commands to Toolbars
   href: adding-commands-to-toolbars.md
   items:
   - name: Adding a Toolbar
@@ -162,13 +162,13 @@
   - name: Create Custom Editors and Designers
     href: creating-custom-editors-and-designers.md
     items:
-    - name: "Walkthrough: Create a Custom Editor"
+    - name: "Walkthrough: Creating a Custom Editor"
       href: walkthrough-creating-a-custom-editor.md
-    - name: "Walkthrough: Add Features to a Custom Editor"
+    - name: "Walkthrough: Adding Features to a Custom Editor"
       href: walkthrough-adding-features-to-a-custom-editor.md
     - name: Designer Initialization and Metadata Configuration
       href: designer-initialization-and-metadata-configuration.md
-    - name: Supply Undo Support to Designers
+    - name: Supplying Undo Support to Designers
       href: supplying-undo-support-to-designers.md
     - name: Syntax Coloring in Custom Editors
       href: syntax-coloring-in-custom-editors.md

@@ -253,7 +253,7 @@ The following code shows an example of how to write a text file to local storage
 
 To view the file created by the code in the previous section, follow these steps:
 
-1.  In the Windows notification area, right-click the Azure icon, and, from the context menu, select **Show Compute Emulator UI**.
+1. In the Windows notification area, right-click the Azure icon, and, from the context menu, select **Show Compute Emulator UI**.
 
     ![Show Azure compute emulator](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
 

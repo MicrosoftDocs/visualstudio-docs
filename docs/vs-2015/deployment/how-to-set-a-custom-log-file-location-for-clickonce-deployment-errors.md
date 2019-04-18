@@ -35,11 +35,11 @@ manager: jillfra
   
 ### To set a custom log file location  
   
-1.  Open **Regedit.exe**.  
+1. Open **Regedit.exe**.  
   
-2.  Navigate to the node `HKCU\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`.  
+2. Navigate to the node `HKCU\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`.  
   
-3.  Set the string value `LogFilePath` to the full path and filename of your preferred custom log location.  
+3. Set the string value `LogFilePath` to the full path and filename of your preferred custom log location.  
   
      This location must be in a directory to which the user has write access. For example, on Windows Vista, create the following folder structure and set `LogFilePath` to C:\Users\\<username\>\Documents\Logs\ClickOnce\installation.log.  
   

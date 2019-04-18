@@ -20,7 +20,7 @@ You did not include the `while` condition in a `do...while` loop. A **do** state
   
 ### To correct this error  
   
--   Include the `while` test statement after the closing curly brace.  
+- Include the `while` test statement after the closing curly brace.  
   
 ## See Also  
  [while Statement](../../javascript/reference/while-statement-javascript.md)   

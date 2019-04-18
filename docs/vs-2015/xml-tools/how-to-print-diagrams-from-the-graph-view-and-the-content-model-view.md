@@ -17,13 +17,13 @@ This topic describes how to print a diagram from the Graph View or the Content M
   
 ### To print diagrams from the XML Schema Designer  
   
-1.  Open an XSD file in Visual Studio and add some nodes to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md).  
+1. Open an XSD file in Visual Studio and add some nodes to the [XML Schema Designer Workspace](../xml-tools/xml-schema-designer-workspace.md).  
   
-2.  Export the diagram to an XPS file by using the **Export Diagram as Image…** context menu item in the design surface of the Graph View or the Content Model View.  
+2. Export the diagram to an XPS file by using the **Export Diagram as Image…** context menu item in the design surface of the Graph View or the Content Model View.  
   
      When you export a diagram from the Graph View, the whole design surface will be exported to the XPS file. When you export a diagram from the Content Model View and more than one node appears on the Content Model View's design surface, only the first node will be exported to the XPS file.  
   
-3.  Print the saved image in the XPS file by using an XPS viewer.  
+3. Print the saved image in the XPS file by using an XPS viewer.  
   
 ## See Also  
  [Graph View](../xml-tools/graph-view.md)   

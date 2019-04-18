@@ -51,9 +51,9 @@ Visual Studio projects have separate release and debug configurations for your p
   
 ### To change the build configuration  
   
-1.  From the Build menu: click **Build / Configuration Manager**, then select **Debug** or **Release**.  
+1. From the Build menu: click **Build / Configuration Manager**, then select **Debug** or **Release**.  
   
-2.  On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list box.  
+2. On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list box.  
   
      ![toolbar build configuration](../debugger/media/toolbarbuildconfiguration.png "ToolbarBuildConfiguration")  
   

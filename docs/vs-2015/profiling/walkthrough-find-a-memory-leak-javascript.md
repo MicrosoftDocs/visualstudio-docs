@@ -28,18 +28,18 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ### Running the JavaScript memory analyzer test app  
   
-1.  In Visual Studio, choose **File**, **New**, **Project**.  
+1. In Visual Studio, choose **File**, **New**, **Project**.  
   
-2.  Choose **JavaScript** in the left pane, and then choose **Windows**, **Windows 8**, then either **Universal** or **Windows Phone Apps**.  
+2. Choose **JavaScript** in the left pane, and then choose **Windows**, **Windows 8**, then either **Universal** or **Windows Phone Apps**.  
   
     > [!IMPORTANT]
     >  The memory usage results shown in this topic are tested against a Windows 8 app.  
   
-3.  Choose the **Blank App** project template in the middle pane.  
+3. Choose the **Blank App** project template in the middle pane.  
   
-4.  In the **Name** box, specify a name such as `JS_Mem_Tester`, and then choose **OK**.  
+4. In the **Name** box, specify a name such as `JS_Mem_Tester`, and then choose **OK**.  
   
-5.  In **Solution Explorer**, open default.html and paste the following code between the \<body> tags:  
+5. In **Solution Explorer**, open default.html and paste the following code between the \<body> tags:  
   
     ```html  
     <div class="wrapper">  
@@ -51,7 +51,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     > [!IMPORTANT]
     >  If you are using a Windows 8.1 universal app template, you need to update HTML and CSS code in both the .Windows and the .WindowsPhone projects.  
   
-6.  Open default.css and add the following CSS code:  
+6. Open default.css and add the following CSS code:  
   
     ```css  
     .memleak {  
@@ -59,7 +59,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     }  
     ```  
   
-7.  Open default.js and replace all the code with this code:  
+7. Open default.js and replace all the code with this code:  
   
     ```javascript  
     (function () {  
@@ -120,7 +120,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     })();  
     ```  
   
-8.  Choose the F5 key to start debugging. Verify that the **Leak Memory** button appears on the page.  
+8. Choose the F5 key to start debugging. Verify that the **Leak Memory** button appears on the page.  
   
 9. Switch back to Visual Studio (Alt+Tab), and then choose Shift+F5 to stop debugging.  
   
@@ -218,7 +218,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
     > [!TIP]
     >  Sometimes, locating an object in relation to the `Global` object may help identify that object. To do this, open the shortcut menu for the identifier, and then choose **Show in roots view**.  
   
-##  <a name="FixingMemory"></a> Fixing the memory issue  
+## <a name="FixingMemory"></a> Fixing the memory issue  
   
 1. Using data revealed by the profiler, you examine code that is responsible for removing DOM elements with an ID of "item". That occurs in the `initialize()` function.  
   

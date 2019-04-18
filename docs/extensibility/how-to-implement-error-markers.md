@@ -36,16 +36,16 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
 
   The parser, task provider, and filter provide the infrastructure necessary to make error markers possible. The following steps provide the process for displaying error markers.
 
-1.  In a view that is being filtered, the filter obtains a pointer to the task provider associated with that view's data.
+1. In a view that is being filtered, the filter obtains a pointer to the task provider associated with that view's data.
 
     > [!NOTE]
     >  You can use the same command filter for method tips, statement completion, error markers, and so on.
 
-2.  When the filter receives an event indicating that you have moved to another line, a task is created to check for errors.
+2. When the filter receives an event indicating that you have moved to another line, a task is created to check for errors.
 
-3.  The task handler checks if the line is dirty. If so, it parses the line for errors.
+3. The task handler checks if the line is dirty. If so, it parses the line for errors.
 
-4.  If errors are found, the task provider creates a task item instance. This instance creates the text marker that the environment uses as an error marker in the text view.
+4. If errors are found, the task provider creates a task item instance. This instance creates the text marker that the environment uses as an error marker in the text view.
 
 ## See also
 - [Use text markers with the legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)

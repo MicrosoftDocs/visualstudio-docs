@@ -82,18 +82,18 @@ if (performance && performance.mark) {
 
 ## Collect energy profile data for your app
 
-1.  On the **Debug** menu, choose **Start Diagnostics Without Debugging**.
+1. On the **Debug** menu, choose **Start Diagnostics Without Debugging**.
 
      ![Choose Energy Consumption in the diagnostics hub](../profiling/media/energyprof_diagnosticshub.png "ENERGYPROF_DiagnosticsHub")
 
-2.  Choose **Energy Consumption** and then choose **Start**.
+2. Choose **Energy Consumption** and then choose **Start**.
 
     > [!NOTE]
     > When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run *VsEtwCollector.exe*. Choose **Yes**.
 
-3.  Exercise your app to collect data.
+3. Exercise your app to collect data.
 
-4.  To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.
+4. To stop profiling, switch back to Visual Studio (Alt + Tab) and choose **Stop collection** on the Diagnostic hub page.
 
      ![Stop collecting data](../profiling/media/xamlprof_stopcollection.png "XAMLProf_StopCollection")
 

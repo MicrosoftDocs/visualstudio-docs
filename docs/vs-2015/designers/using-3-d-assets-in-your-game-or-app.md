@@ -29,9 +29,9 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To add the build customizations to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies**, **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box is displayed.  
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies**, **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box is displayed.  
   
-2.  Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in this table:  
+2. Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in this table:  
   
     |Asset type|Build customization Name|  
     |----------------|------------------------------|  
@@ -39,7 +39,7 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
     |3-D Models|**MeshContentTask(.targets, .props)**|  
     |Shaders|**ShaderGraphContentTask(.targets, .props)**|  
   
-3.  Choose the **OK** button.  
+3. Choose the **OK** button.  
   
 ## Including assets in your build  
  Now that your project knows about the different kinds of 3-D assets that you want to use, the next step is to tell it which files are 3-D assets, and which kinds of assets they are.  
@@ -70,13 +70,13 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
   
 #### To configure content pipeline properties  
   
-1.  In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
+1. In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box is displayed.  
   
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
+2. Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.  
   
-3.  Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.  
+3. Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.  
   
-4.  Choose the **OK** button.  
+4. Choose the **OK** button.  
   
 ### Image content pipeline configuration  
  When you use the image content pipeline tool to build a texture asset, you can compress the texture in various ways, indicate whether MIP levels should be generated at build time, and change the name of the output file.  

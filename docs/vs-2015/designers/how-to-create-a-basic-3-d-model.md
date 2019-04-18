@@ -17,15 +17,15 @@ This document demonstrates how to use the Model Editor to create a basic 3-D mod
   
  This document demonstrates these activities:  
   
--   Adding objects to a scene  
+- Adding objects to a scene  
   
--   Selecting faces and edges  
+- Selecting faces and edges  
   
--   Translating selections  
+- Translating selections  
   
--   Using the **Subdivide face** and **Extrude face** tools  
+- Using the **Subdivide face** and **Extrude face** tools  
   
--   Using the **Triangulate** command  
+- Using the **Triangulate** command  
   
 ## Creating a basic 3-D model  
  You can use the Model Editor to create and modify 3-D models and scenes for your game or app. The following steps show how to use the Model Editor to create a simplified 3-D model of a house. A simplified model can be used as a stand-in for final art assets that are still being created, as a mesh for collision detection, or as a low-detail model to be used when the object that it represents is too far away to benefit from more detailed rendering.  

@@ -46,7 +46,7 @@ To complete this walkthrough, you need:
 
 3. Select the **Application Configuration File** template and click **Add**.
 
-##  Define a custom configuration section
+## Define a custom configuration section
 
 Examine the *app.config* file. It contains at least the XML declaration and a root element.
 

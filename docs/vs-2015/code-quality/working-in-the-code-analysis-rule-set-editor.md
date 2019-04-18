@@ -25,11 +25,11 @@ The Code Analysis rule set editor enables you to specify the rules that are incl
   
  The editor displays the rules in a tree structure that groups the rules by a rule set field that you specify. To add or remove rules from a rule set, perform one or more of the following steps:  
   
--   Select or clear the check box of the group node to add or remove all the rules in the group. When you select a group, all rules are set to the **Warning** action.  
+- Select or clear the check box of the group node to add or remove all the rules in the group. When you select a group, all rules are set to the **Warning** action.  
   
--   Click the **Action** field of a group, and then specify the action to apply to all rules in the group.  
+- Click the **Action** field of a group, and then specify the action to apply to all rules in the group.  
   
--   Select or clear the check box for an individual rule. When you select the check box for a rule, the rule is set to the Warning action.  
+- Select or clear the check box for an individual rule. When you select the check box for a rule, the rule is set to the Warning action.  
   
 ## Rule Set Editor Toolbar  
  You can use the toolbar of the rule set editor to group, filter, and search the data that appears in the rule set grid.  
@@ -67,6 +67,6 @@ The Code Analysis rule set editor enables you to specify the rules that are incl
 ## Sorting and Filtering Rule Sets  
  From the column headers of the rule set grid, you can sort and filter the rules by the values of the field.  
   
--   To sort the rule set lists, click the column header of the field by which you want to sort. If the rule sets are grouped, each group is sorted individually.  
+- To sort the rule set lists, click the column header of the field by which you want to sort. If the rule sets are grouped, each group is sorted individually.  
   
--   To filter the rule sets by the value of a field, click the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.
+- To filter the rule sets by the value of a field, click the filter button on the column header of the field by which you want to filter. Select the check boxes of the values that you want to show, and clear the check boxes of the values that you want to hide.

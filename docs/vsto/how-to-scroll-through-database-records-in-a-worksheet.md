@@ -25,17 +25,17 @@ ms.workload:
 
 ## To scroll through database records in a worksheet
 
-1.  Open an Excel application project in Visual Studio.
+1. Open an Excel application project in Visual Studio.
 
-2.  Open the **Data Sources** window and create a data source from the database. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+2. Open the **Data Sources** window and create a data source from the database. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-3.  Expand the table that contains the data that you want to show, and select the specific column.
+3. Expand the table that contains the data that you want to show, and select the specific column.
 
-4.  Open the list of controls and select **NamedRange**.
+4. Open the list of controls and select **NamedRange**.
 
-5.  Drag the <xref:Microsoft.Office.Tools.Excel.NamedRange> control onto the cell where you want the data to appear.
+5. Drag the <xref:Microsoft.Office.Tools.Excel.NamedRange> control onto the cell where you want the data to appear.
 
-6.  From the **Windows Forms** tab of the **Toolbox**, add a <xref:System.Windows.Forms.BindingNavigator> control to your worksheet, and set up the controls you want to use. For more information, see [BindingNavigator control overview &#40;Windows Forms&#41;](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).
+6. From the **Windows Forms** tab of the **Toolbox**, add a <xref:System.Windows.Forms.BindingNavigator> control to your worksheet, and set up the controls you want to use. For more information, see [BindingNavigator control overview &#40;Windows Forms&#41;](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).
 
 ## See also
 - [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)

@@ -21,9 +21,9 @@ The Managed Package Framework (MPF) provides C# classes you can use or inherit f
 
  To add this project to your VSPackage solution, do the following:
 
-1.  Download the MPFProj files to *MPFProjectDir*.
+1. Download the MPFProj files to *MPFProjectDir*.
 
-2.  In the *MPFProjectDir*\Dev10\Src\CSharp\ProjectBase.file, change the following block:
+2. In the *MPFProjectDir*\Dev10\Src\CSharp\ProjectBase.file, change the following block:
 
 ```
 <!-- Provide a default value for $(ProjectBasePath) -->
@@ -32,11 +32,11 @@ The Managed Package Framework (MPF) provides C# classes you can use or inherit f
   </PropertyGroup>
 ```
 
-1.  Create a VSPackage project.
+1. Create a VSPackage project.
 
-2.  Unload the VSPackage project.
+2. Unload the VSPackage project.
 
-3.  Edit the VSPackage .csproj file by adding the following block before the other `<Import>` blocks:
+3. Edit the VSPackage .csproj file by adding the following block before the other `<Import>` blocks:
 
 ```
 <Import Project="MPFProjectDir\Dev10\Src\CSharp\ProjectBase.files" />
@@ -48,17 +48,17 @@ The Managed Package Framework (MPF) provides C# classes you can use or inherit f
   </PropertyGroup>
 ```
 
-1.  Save the project.
+1. Save the project.
 
-2.  Close and reopen the VSPackage solution.
+2. Close and reopen the VSPackage solution.
 
-3.  Reopen the VSPackage project. You should see a new directory named ProjectBase.
+3. Reopen the VSPackage project. You should see a new directory named ProjectBase.
 
-4.  Add the following reference to the VSPackage project:
+4. Add the following reference to the VSPackage project:
 
      Microsoft.Build.Tasks.4.0
 
-5.  Build the project.
+5. Build the project.
 
 ## Hierarchy Classes
  The following table summarizes the classes in the MPFProj that support project hierarchies. For more information, see [Hierarchies and Selection](../../extensibility/internals/hierarchies-and-selection.md).

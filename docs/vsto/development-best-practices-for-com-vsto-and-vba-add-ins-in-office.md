@@ -15,9 +15,9 @@ ms.workload:
 # Development best practices for COM, VSTO, and VBA add-ins in Office
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:
 
--  Compatibility of your add-ins across different versions and deployments of Office.
--  Reduced complexity of add-in deployment for your users and IT administrators.
--  Unintended installation or runtime failures of your add-in do not occur.
+- Compatibility of your add-ins across different versions and deployments of Office.
+- Reduced complexity of add-in deployment for your users and IT administrators.
+- Unintended installation or runtime failures of your add-in do not occur.
 
 >Note: Using the [Desktop Bridge](/windows/uwp/porting/desktop-to-uwp-root) to prepare your COM, VSTO or VBA add-in for the Windows Store is not supported. COM, VSTO and VBA add-ins cannot be distributed in the Windows Store or the Office Store.
 

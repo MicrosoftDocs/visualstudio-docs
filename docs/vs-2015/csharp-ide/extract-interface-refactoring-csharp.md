@@ -28,7 +28,7 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
 ### To use Extract Interface  
   
-1.  Create a console application named `ExtractInterface`, and then replace `Program` with the following code  
+1. Create a console application named `ExtractInterface`, and then replace `Program` with the following code  
   
     ```csharp  
     // Invoke Extract Interface on ProtoA.  
@@ -39,7 +39,7 @@ Extract Interface is a refactoring operation that provides an easy way to create
     }  
     ```  
   
-2.  With the cursor positioned in `MethodB`, and click **Extract Interface** on the **Refactor** menu.  
+2. With the cursor positioned in `MethodB`, and click **Extract Interface** on the **Refactor** menu.  
   
      The **Extract Interface** dialog box appears.  
   
@@ -47,9 +47,9 @@ Extract Interface is a refactoring operation that provides an easy way to create
   
      You can also right-click the mouse, point to **Refactor**, and then click **Extract Interface** to display the **Extract Interface** dialog box.  
   
-3.  Click **Select All**.  
+3. Click **Select All**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
      You see the new file, IProtoA.cs, and the following code:  
   

@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
   - "vssdk"
 ---
-# What's new in the Visual Studio 2019 SDK
+# What's New in the Visual Studio 2019 SDK
 
 The Visual Studio SDK has the following new and updated features for Visual Studio 2019.
 
@@ -21,7 +21,7 @@ Users will now see a warning if any of their installed extensions are synchronou
 
 You can now get all Visual Studio SDK assets through a single NuGet package [Microsoft.VisualStudio.SDK](https://www.nuget.org/packages/microsoft.visualstudio.sdk).
 
-## Editor registration enhancements
+## Editor Registration Enhancements
 
 Since its creation, Visual Studio has supported custom editor registration where an editor can declare its affinity for specific extensions (for example, .xaml and .rc), or that it is suitable for any extension (.*). Starting in Visual Studio 2019 version 16.1, we broaden the support for editor registration.
 

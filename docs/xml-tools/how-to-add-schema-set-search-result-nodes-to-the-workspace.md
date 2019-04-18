@@ -20,15 +20,15 @@ This topic explains how to add nodes that are highlighted in the **XML Schema Ex
 
 ## To add schema set result nodes
 
-1.  Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
+1. Follow the steps in [How to: Create and edit an XSD schema file](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).
 
-2.  Type "purchaseOrder" in the search text box of the [XML Explorer](../xml-tools/xml-schema-explorer.md) toolbar and click on the search button.
+2. Type "purchaseOrder" in the search text box of the [XML Explorer](../xml-tools/xml-schema-explorer.md) toolbar and click on the search button.
 
      ![XML Schema Explorer Keyword Search](../xml-tools/media/schemaexplorersearch.gif)
 
      The search results are highlighted in the **XML Schema Explorer** and marked by ticks on the vertical scroll bar.
 
-3.  Add the search results to the workspace by clicking the **Add highlighted nodes to Workspace** button on the summary results pane.
+3. Add the search results to the workspace by clicking the **Add highlighted nodes to Workspace** button on the summary results pane.
 
      ![XML Schema Explorer Search Result](../xml-tools/media/schemaexplorersearchresult.gif)
 

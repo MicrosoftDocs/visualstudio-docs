@@ -34,9 +34,9 @@ Different text templates can share the functionality that a single directive pro
 
 Some examples of custom directive processors could be:
 
--   A directive processor to return data from a database that accepts a user name and password as parameters.
+- A directive processor to return data from a database that accepts a user name and password as parameters.
 
--   A directive processor to open and read a file that accepts the name of the file as a parameter.
+- A directive processor to open and read a file that accepts the name of the file as a parameter.
 
 ### Principal parts of a custom directive processor
 
@@ -44,19 +44,19 @@ To develop a directive processor, you must create a class that inherits from eit
 
 The most important `DirectiveProcessor` methods that you must implement are as follows.
 
--   `bool IsDirectiveSupported(string directiveName)` - Return `true` if your directive processor can deal with the named directive.
+- `bool IsDirectiveSupported(string directiveName)` - Return `true` if your directive processor can deal with the named directive.
 
--   `void ProcessDirective (string directiveName, IDictionary<string, string> arguments)` - The template engine calls this method for each occurrence of a directive in the template. Your processor should save the results.
+- `void ProcessDirective (string directiveName, IDictionary<string, string> arguments)` - The template engine calls this method for each occurrence of a directive in the template. Your processor should save the results.
 
 After all calls to ProcessDirective() the templating engine will call these methods:
 
--   `string[] GetReferencesForProcessingRun()` - Return the names of assemblies that the template code requires.
+- `string[] GetReferencesForProcessingRun()` - Return the names of assemblies that the template code requires.
 
--   `string[] GetImportsForProcessingRun()` - Return the namespaces that can be used in the template code.
+- `string[] GetImportsForProcessingRun()` - Return the namespaces that can be used in the template code.
 
--   `string GetClassCodeForProcessingRun()` - Return the code of methods, properties, and other declarations that the template code can use. The easiest way to do this is to build a string containing the C# or Visual Basic code. To make your directive processor capable of being called from a template that uses any CLR language, you can construct the statements as a CodeDom tree and then return the result of serializing the tree in the language used by the template.
+- `string GetClassCodeForProcessingRun()` - Return the code of methods, properties, and other declarations that the template code can use. The easiest way to do this is to build a string containing the C# or Visual Basic code. To make your directive processor capable of being called from a template that uses any CLR language, you can construct the statements as a CodeDom tree and then return the result of serializing the tree in the language used by the template.
 
--   For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).
+- For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).
 
 ## See also
 

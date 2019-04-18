@@ -26,21 +26,21 @@ Stepping into a Web application or XML Web service failed because the IIS lockdo
 
 ### To enable debugging on a Web server with URLScan installed
 
-1.  Locate the Urlscan.ini file. Normally, you will find it in a directory that looks something like this:
+1. Locate the Urlscan.ini file. Normally, you will find it in a directory that looks something like this:
 
      C:\WINNT\System32\Inetsrv\urlscan
 
-2.  Create a copy of the file, and name it **Urlscan.old**.
+2. Create a copy of the file, and name it **Urlscan.old**.
 
-3.  Open the original copy of the Urlscan.ini file using Notepad or the text editor of your choice.
+3. Open the original copy of the Urlscan.ini file using Notepad or the text editor of your choice.
 
-4.  In Urlscan.ini, locate the [AllowVerbs] section. Add DEBUG to the [AllowVerbs] section. If you see ;DEBUG in the [AllowVerbs] section, remove the semicolon to uncomment the verb.
+4. In Urlscan.ini, locate the [AllowVerbs] section. Add DEBUG to the [AllowVerbs] section. If you see ;DEBUG in the [AllowVerbs] section, remove the semicolon to uncomment the verb.
 
-5.  Locate the [DenyVerbs] section. If DEBUG appears in the [DenyVerbs] section, remove it.
+5. Locate the [DenyVerbs] section. If DEBUG appears in the [DenyVerbs] section, remove it.
 
-6.  Save the file.
+6. Save the file.
 
-7.  Restart the server or restart IIS.
+7. Restart the server or restart IIS.
 
 ## See Also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

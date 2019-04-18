@@ -228,17 +228,17 @@ You'll first need a multithreaded application project. An example follows.
 
 ### <a name="ShowThreadsInSource"></a>Discover the thread marker  
 
-1.  In the Debug Toolbar, select the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
+1. In the Debug Toolbar, select the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
 
 2. Press **F11** once to advance the debugger one line of code.
 
-3.  Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two twisted threads. The thread marker indicates that a thread is stopped at this location.
+3. Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two twisted threads. The thread marker indicates that a thread is stopped at this location.
 
     A thread marker may be partially concealed by a breakpoint.
 
-4.  Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`.
+4. Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`.
 
-5.  Select the thread marker to see the available options on the shortcut menu.
+5. Select the thread marker to see the available options on the shortcut menu.
 
 ### <a name="ParallelStacks"></a>View the thread locations
 
@@ -254,7 +254,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the current thread (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
     - A new thread (on the right) is also starting but is stopped on `ThreadHelper.ThreadStart`.
 
-2.  Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
+2. Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
 
     You can take various actions from these right-click menus, but for this tutorial we will show more of these details in the **Parallel Watch** window (next sections).
 
@@ -286,14 +286,14 @@ You can flag threads to keep track of important threads and ignore the other thr
 
     All the selected threads are flagged. Now, you can filter to show only flagged threads.
 
-3.  In the **Parallel Watch** window, select the **Show Only Flagged Threads** button ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker").
+3. In the **Parallel Watch** window, select the **Show Only Flagged Threads** button ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "ThreadMarker").
 
     Only the flagged threads appear in the list.
 
     > [!TIP]
     > After you have flagged some threads, you can right-click a line of code in the code editor and choose **Run Flagged Threads to Cursor**. Make sure to choose code that all flagged threads will reach. Visual Studio will pause threads on the selected line of code, making it easier to control the order of execution by [freezing and thawing threads](#bkmk_freeze).
 
-4.  Select the **Show Only Flagged Threads** button again to toggle back to **Show All Threads** mode.
+4. Select the **Show Only Flagged Threads** button again to toggle back to **Show All Threads** mode.
 
 5. To unflag threads, right-click one or more flagged threads in the **Parallel Watch** window and select **Unflag**.
 
@@ -302,17 +302,17 @@ You can flag threads to keep track of important threads and ignore the other thr
 > [!TIP]
 > You can freeze and thaw (suspend and resume) threads to control the order in which threads perform work. This can help you resolve concurrency issues such as deadlocks and race conditions.
 
-1.  In the **Parallel Watch** window, with all the rows selected, right-click and select **Freeze**.
+1. In the **Parallel Watch** window, with all the rows selected, right-click and select **Freeze**.
 
     In the second column, a pause icon appears for each row. The pause icon indicates that the thread is frozen.
 
-2.  Deselect all other rows by selecting one row only.
+2. Deselect all other rows by selecting one row only.
 
-3.  Right-click a row and select **Thaw**.
+3. Right-click a row and select **Thaw**.
 
     The pause icon goes away on this row, indicating that the thread is no longer frozen.
 
-4.  Switch to the code editor and press **F11**. Only the unfrozen thread runs.
+4. Switch to the code editor and press **F11**. Only the unfrozen thread runs.
 
     The app may also instantiate some new threads. Any new threads are unflagged and are not frozen.
 

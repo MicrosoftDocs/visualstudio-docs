@@ -83,6 +83,7 @@ public sealed class MyClass
     }
 }
 ```
+
 The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes).
 
 ## Example
@@ -141,7 +142,7 @@ class MyHashtable
         hashtable = new Hashtable();
     }
 
-    private string DebuggerDisplay { get { return "Count = " + hashtable.Count); } }
+    private string DebuggerDisplay { get { return "Count = " + hashtable.Count; } }
 
     private class HashtableDebugView
     {

@@ -17,9 +17,9 @@ You can create a custom content editor that enables you to edit the string body 
 
 You can implement these kinds of editors:
 
--   **String content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface.
+- **String content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface.
 
--   **Binary content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface.
+- **Binary content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface.
 
 These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace.
 
@@ -204,7 +204,7 @@ When editing of the string body is completed and the user clicks **OK** in the p
 
 ### To add the IBinaryHttpBodyEditorPlugin to the class
 
--   Write or copy the following code under the XmlMessageEditor class added in the previous procedure to instantiate the Msbin1MessageEditor class from <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface and implement the required methods:
+- Write or copy the following code under the XmlMessageEditor class added in the previous procedure to instantiate the Msbin1MessageEditor class from <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface and implement the required methods:
 
     ```csharp
     /// <summary>

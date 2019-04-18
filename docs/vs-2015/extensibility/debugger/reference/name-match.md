@@ -49,13 +49,13 @@ public enum NameMatchOptions { 
 ## Remarks  
  Passed as an argument to the following methods:  
   
--   [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)  
+- [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)  
   
--   [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)  
+- [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)  
   
--   [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)  
+- [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)  
   
--   [GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname.md)  
+- [GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname.md)  
   
 ## Requirements  
  Header: sh.h  

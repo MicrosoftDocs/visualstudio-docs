@@ -23,18 +23,18 @@ Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility th
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ### To enable event trace providers  
   
-1.  In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+1. In **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
-2.  In the **Property Pages**, click the **Windows Events** properties.  
+2. In the **Property Pages**, click the **Windows Events** properties.  
   
-3.  In the **Select event trace provider to collect data from** list, select the event providers that you want to use to profile your application.  
+3. In the **Select event trace provider to collect data from** list, select the event providers that you want to use to profile your application.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)

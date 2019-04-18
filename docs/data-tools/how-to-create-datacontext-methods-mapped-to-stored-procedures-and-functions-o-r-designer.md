@@ -27,17 +27,17 @@ You can create <xref:System.Data.Linq.DataContext> methods by dragging stored pr
 
 ### To create DataContext methods that return automatically generated types
 
-1.  In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
+1. In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
 
-2.  Locate the desired stored procedure and drag it onto an empty area of the **O/R Designer**.
+2. Locate the desired stored procedure and drag it onto an empty area of the **O/R Designer**.
 
      The <xref:System.Data.Linq.DataContext> method is created with an automatically generated return type and appears in the **Methods** pane.
 
 ### To create DataContext methods that have the return type of an entity class
 
-1.  In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
+1. In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
 
-2.  Locate the desired stored procedure and drag it onto an existing entity class in the **O/R Designer**.
+2. Locate the desired stored procedure and drag it onto an existing entity class in the **O/R Designer**.
 
      The <xref:System.Data.Linq.DataContext> method is created with the return type of the selected entity class and appears in the **Methods** pane.
 

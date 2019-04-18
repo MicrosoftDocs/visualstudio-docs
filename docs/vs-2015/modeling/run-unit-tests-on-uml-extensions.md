@@ -44,20 +44,20 @@ To help keep your code stable through successive changes, we recommend that you 
   
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
-##  <a name="Host"></a> Setting up a Unit Test for VSIX Extensions  
+## <a name="Host"></a> Setting up a Unit Test for VSIX Extensions  
  The methods in your modeling extensions usually work with a diagram that is already open. The methods use MEF imports such as **IDiagramContext** and **ILinkedUndoContext**. Your test environment must set up this context before you run the tests.  
   
 #### To set up a unit test that executes in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]  
   
-1.  Create the UML extension project and the unit test project.  
+1. Create the UML extension project and the unit test project.  
   
-    1.  **A UML extension project.** Typically you create this by using the command, gesture, or validation project templates. For example, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
+    1. **A UML extension project.** Typically you create this by using the command, gesture, or validation project templates. For example, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
-    2.  **A unit test project.** For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
+    2. **A unit test project.** For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
   
-2.  Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains a UML modeling project. You will use this solution as the initial state of your tests. It should be separate from the solution in which you write the UML extension and its unit tests. For more information, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
+2. Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution that contains a UML modeling project. You will use this solution as the initial state of your tests. It should be separate from the solution in which you write the UML extension and its unit tests. For more information, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
-3.  **In the UML extension project**, edit the .csproj file as text and make sure that the following lines show `true`:  
+3. **In the UML extension project**, edit the .csproj file as text and make sure that the following lines show `true`:  
   
     ```  
     <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>  
@@ -66,33 +66,33 @@ To help keep your code stable through successive changes, we recommend that you 
   
      To edit the .csproj file as text, choose **Unload Project** on the shortcut menu of the project in Solution Explorer. Then choose **Edit ….csproj**. After you have edited the text, choose **Reload Project**.  
   
-4.  In your UML extension project, add the following line to **Properties\AssemblyInfo.cs**. This allows the unit tests to access the methods that you want to test:  
+4. In your UML extension project, add the following line to **Properties\AssemblyInfo.cs**. This allows the unit tests to access the methods that you want to test:  
   
     ```csharp  
     [assembly:InternalsVisibleTo("MyUnitTests")] // Name of unit tests assembly.  
     ```  
   
-5.  **In the unit test project**, add the following assembly References:  
+5. **In the unit test project**, add the following assembly References:  
   
-    -   *Your UML extension project*  
+    - *Your UML extension project*  
   
-    -   **EnvDTE.dll**  
+    - **EnvDTE.dll**  
   
-    -   **Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll**  
+    - **Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll**  
   
-    -   **Microsoft.VisualStudio.ComponentModelHost.dll**  
+    - **Microsoft.VisualStudio.ComponentModelHost.dll**  
   
-    -   **Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll**  
+    - **Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll**  
   
-    -   **Microsoft.VisualStudio.Uml.Interfaces.dll**  
+    - **Microsoft.VisualStudio.Uml.Interfaces.dll**  
   
-    -   **Microsoft.VSSDK.TestHostFramework.dll**  
+    - **Microsoft.VSSDK.TestHostFramework.dll**  
   
-6.  Prefix the attribute `[HostType("VS IDE")]` to each test method, including initialization methods.  
+6. Prefix the attribute `[HostType("VS IDE")]` to each test method, including initialization methods.  
   
      This will ensure that the test will run in an experimental instance of Visual Studio.  
   
-##  <a name="DTE"></a> Accessing DTE and ModelStore  
+## <a name="DTE"></a> Accessing DTE and ModelStore  
  Write a method to open a modeling project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Typically, you want to open a solution only once in each test run. To run the method only once, prefix the method with the `[AssemblyInitialize]` attribute. Don’t forget that you also need the [HostType("VS IDE")] attribute on each test method.  For example:  
   
 ```csharp  
@@ -160,7 +160,7 @@ namespace UnitTests
   
  If an instance of <xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
   
-##  <a name="Opening"></a> Opening a Model Diagram  
+## <a name="Opening"></a> Opening a Model Diagram  
  For each test or class of tests, you typically want to work with an open diagram. The following example uses the `[ClassInitialize]` attribute, which executes this method before other methods in this test class. Again, don’t forget that you also need the attribute [HostType("VS IDE")] on each test method:  
   
 ```csharp  
@@ -205,7 +205,7 @@ public class MyTestClass
   
 ```  
   
-##  <a name="UiThread"></a> Perform Model Changes in the UI Thread  
+## <a name="UiThread"></a> Perform Model Changes in the UI Thread  
  If your tests, or the methods under test, make changes to the model store, then you must execute them in the user interface thread. If you do not do this, you might see an `AccessViolationException`. Enclose the code of the test method in a call to Invoke:  
   
 ```  
@@ -225,7 +225,7 @@ using Microsoft.VSSDK.Tools.VsIdeTesting;
     }  
 ```  
   
-##  <a name="MEF"></a> Testing command, gesture and other MEF components  
+## <a name="MEF"></a> Testing command, gesture and other MEF components  
  MEF components use property declarations that have the `[Import]` attribute, and whose values are set by their hosts. Typically, such properties include IDiagramContext, SVsServiceProvider, and ILinkedUndoContext. When you test a method that uses any of these properties, you have to set their values before executing the method under test. For example, if you have written a command extension resembling this code:  
   
 ```  

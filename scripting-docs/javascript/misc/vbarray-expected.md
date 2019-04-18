@@ -26,7 +26,7 @@ new VBArray(safeArray);
   
 ### To correct this error  
   
--   Ensure you pass only **VBArray** objects to the **VBArray** constructor.  
+- Ensure you pass only **VBArray** objects to the **VBArray** constructor.  
   
 ## See Also  
  [VBArray Object](../../javascript/reference/vbarray-object-javascript.md)   

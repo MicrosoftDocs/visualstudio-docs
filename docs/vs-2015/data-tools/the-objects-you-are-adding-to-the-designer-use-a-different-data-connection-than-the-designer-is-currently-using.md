@@ -22,13 +22,13 @@ The objects you are adding to the designer use a different data connection than 
   
 ### To replace the existing connection with the connection used by the selected object  
   
--   Click **Yes**.  
+- Click **Yes**.  
   
      The selected object is added to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], and the DataContext.Connection is set to the new connection.  
   
 ### To continue to use the existing connection and cancel adding the selected object  
   
--   Click **No**.  
+- Click **No**.  
   
      The action is canceled. The DataContext.Connection remains set to the existing connection.  
   

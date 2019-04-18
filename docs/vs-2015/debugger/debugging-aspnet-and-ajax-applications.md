@@ -25,9 +25,9 @@ manager: jillfra
 
 Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
   
--   Keeping track of state is more complex in a Web application.  
+- Keeping track of state is more complex in a Web application.  
   
--   In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] code on the client.  
+- In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] code on the client.  
   
 ## In This Section  
  [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-aspnet.md)  

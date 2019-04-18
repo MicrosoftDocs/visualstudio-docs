@@ -18,13 +18,13 @@ This area shows data about the unhidden threads in the currently visible time ra
 
  If no information is visible, check the following settings:
 
--   Is the zoom level high? Try zooming out or scrolling to bring more thread activity in range.
+- Is the zoom level high? Try zooming out or scrolling to bring more thread activity in range.
 
--   Are too many threads hidden? If so, try showing all threads
+- Are too many threads hidden? If so, try showing all threads
 
--   If **Just My Code** is selected, you can only view data about your code. Try clearing the setting to ascertain whether there is any system thread activity.
+- If **Just My Code** is selected, you can only view data about your code. Try clearing the setting to ascertain whether there is any system thread activity.
 
--   Make sure that Noise Reduction is set to a low threshold.
+- Make sure that Noise Reduction is set to a low threshold.
 
 ## See also
 - [Threads View](../profiling/threads-view-parallel-performance.md)

@@ -29,11 +29,11 @@ manager: "wpickett"
 ## Cause
  The type implements the <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> interface, is not a delegate or interface, and one of the following conditions is true:
 
--   The type does not have a constructor that takes a <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName> object and a <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName> object (the signature of the serialization constructor).
+- The type does not have a constructor that takes a <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName> object and a <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName> object (the signature of the serialization constructor).
 
--   The type is unsealed and the access modifier for its serialization constructor is not protected (family).
+- The type is unsealed and the access modifier for its serialization constructor is not protected (family).
 
--   The type is sealed and the access modifier for its serialization constructor is not private.
+- The type is sealed and the access modifier for its serialization constructor is not private.
 
 ## Rule Description
  This rule is relevant for types that support custom serialization. A type supports custom serialization if it implements the <xref:System.Runtime.Serialization.ISerializable> interface. The serialization constructor is required to deserialize, or re-create objects that have been serialized using the <xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A?displayProperty=fullName> method.

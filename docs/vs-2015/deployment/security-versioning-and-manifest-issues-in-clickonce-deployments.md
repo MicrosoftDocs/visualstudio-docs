@@ -61,11 +61,11 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclic
   
  If you have manually edited your deployment or application manifests, you may have unintentionally corrupted them. Corrupted manifest will prevent a correct [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] installation. You can debug such errors at run time by clicking **Details** on the **ClickOnce Error** dialog box, and reading the error message in the log. The log will list one of the following messages:  
   
--   A description of the syntax error, and the line number and character position where the error occurred.  
+- A description of the syntax error, and the line number and character position where the error occurred.  
   
--   The name of an element or attribute used in violation of the manifest's schema. If you have added XML manually to your manifests, you will have to compare your additions to the manifest schemas. For more information, see [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) and [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
+- The name of an element or attribute used in violation of the manifest's schema. If you have added XML manually to your manifests, you will have to compare your additions to the manifest schemas. For more information, see [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) and [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
   
--   An ID conflict. Dependency references in deployment and application manifests must be unique in both their `name` and `publicKeyToken` attributes. If both attributes match between any two elements within a manifest, manifest parsing will not succeed.  
+- An ID conflict. Dependency references in deployment and application manifests must be unique in both their `name` and `publicKeyToken` attributes. If both attributes match between any two elements within a manifest, manifest parsing will not succeed.  
   
 ## Precautions When Manually Changing Manifests or Applications  
  When you update an application manifest, you must re-sign both the application manifest and the deployment manifest. The deployment manifest contains a reference to the application manifest that includes that file's hash and its digital signature.  
