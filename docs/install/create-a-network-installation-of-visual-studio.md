@@ -147,6 +147,7 @@ Here are a few examples of how to create a custom partial layout.
     ```cmd
     vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
     ```
+
 ::: moniker range="vs-2017"
 
 ### New in version 15.3
@@ -188,11 +189,13 @@ vs_enterprise.exe --layout c:\VSLayout --all
 Administrators can deploy Visual Studio onto client workstations as part of an installation script. Or, users who have administrator rights can run setup directly from the share to install Visual Studio on their machine.
 
 * Users can install by running the following command: <br>
+
     ```cmd
     \\server\products\VS\vs_enterprise.exe
     ```
 
 * Administrators can install in an unattended mode by running the following command:
+
     ```cmd
     \server\products\VS\vs_enterprise.exe --quiet --wait --norestart
     ```

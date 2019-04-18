@@ -250,6 +250,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
        return false;
    }
    ```
+
    7. Copy adornment layer definition from *KeyBindingTestTextViewCreationListener.cs* file to the *KeyBindingCommandHandler.cs* and then delete *KeyBindingTestTextViewCreationListener.cs* file:
 
    ```csharp

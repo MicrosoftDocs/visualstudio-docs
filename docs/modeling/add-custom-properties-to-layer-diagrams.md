@@ -31,6 +31,7 @@ If you just want your code to attach values to any element in a dependency diagr
 >     ```xml
 >     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>
 >     ```
+>
 > 3. Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**. Enter:
 >
 >      `devenv /rootSuffix /updateConfiguration`

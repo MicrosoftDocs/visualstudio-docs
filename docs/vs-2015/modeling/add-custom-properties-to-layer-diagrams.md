@@ -26,20 +26,23 @@ When you write extension code for layer diagrams, you can store values with any 
 > [!IMPORTANT]
 >  To make properties appear, you must make the following change on each computer where you want layer properties to be visible.  
 > 
-> 1. Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
->    2. Inside the `Content` element, add:  
+>  1. Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
+>  
+>  2. Inside the `Content` element, add:  
 > 
->    ```xml  
->    <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
->    ```  
->    3. Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
+>     ```xml  
+>     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
+>     ```  
+>
+>  3. Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
 > 
->    Enter:  
+>     Enter:  
 > 
->    `devenv /rootSuffix /updateConfiguration`  
+>     `devenv /rootSuffix /updateConfiguration`  
 > 
->    `devenv /rootSuffix Exp /updateConfiguration`  
->    4. Restart Visual Studio.  
+>     `devenv /rootSuffix Exp /updateConfiguration`  
+>    
+>  4. Restart Visual Studio.  
   
  **Make sure your code is in a VSIX project**  
   

@@ -141,6 +141,7 @@ To visually trace breakpoints during code execution, see [Map methods on the cal
     ```C++
     ((my_class *) 0xcccccccc)->my_method
     ```
+
 ::: moniker range=">= vs-2019"
 
 ## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.0 or higher)

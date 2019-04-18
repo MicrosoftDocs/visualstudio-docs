@@ -67,6 +67,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
         <VcpkgEnabled>true</VcpkgEnabled>
     </PropertyGroup>
     ```
+
    c. Save and close the *\*.vcxproj* file, and then reload the project.
 
    d. To open the **Property Pages**, right-click on the project node and choose **Properties**.
