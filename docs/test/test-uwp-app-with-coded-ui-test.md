@@ -130,6 +130,7 @@ The first step is to create a simple UWP app to run the test against.
         Assert.AreEqual(Me.AssertMethod1ExpectedValues.UITextBoxEditText, uITextBoxEdit.Text, "Textbox value is unexpected.")
     End Sub
     ```
+
 1. Next, we need to obtain the **AutomationId** of the UWP [app](#create-a-uwp-app-to-test) that we want to test. Open the Windows **Start** menu to see the tile for the app. Then, drag the cross-hair tool ![Target icon](media/target-icon.png) from the **Coded UI Test Builder** dialog to the tile for your app. When a blue box surrounds the tile, release your mouse.
 
    ![Cross-hair tool](media/cross-hair-tool.png)

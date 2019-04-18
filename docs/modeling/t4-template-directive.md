@@ -200,13 +200,15 @@ protected override void SpecificFragment2()
 #>
 ```
 
- Application code to invoke DerivedTemplate1:
- ```csharp
+Application code to invoke DerivedTemplate1:
+
+```csharp
 Console.WriteLine(new DerivedTemplate().TransformText());
 ```
 
- Resulting output:
- ```
+Resulting output:
+
+```
 This is the common header.
    Fragment 1 for DerivedTemplate1
 A common central text.
