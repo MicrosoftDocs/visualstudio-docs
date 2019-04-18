@@ -1,5 +1,5 @@
 ---
-title: "Import or export configurations"
+title: "Import or export installation configurations"
 titleSuffix: ""
 description: "Learn how to use the import/export configuration feature in Visual Studio"
 ms.date: 04/15/2019
@@ -19,7 +19,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Import or export configurations
+# Import or export installation configurations
 
 You can configure Visual Studio across your organization by using an installation configuration file. To do so, simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations.
 
@@ -64,11 +64,11 @@ When you're ready to import an installation configuration file
 
 ## Automatically install missing components
 
-When you save a .vsconfig file to your solution root directory and then open a solution, Visual Studio automatically detects which components are missing and prompts you to install them.
+**New in Visual Studio 2019**: When you save a .vsconfig file to your solution root directory and then open a solution, Visual Studio automatically detects which components are missing and prompts you to install them.
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 
-You can also create a .vsconfig file right from Solution Explorer. Here's how.
+You can also generate a .vsconfig file right from Solution Explorer. Here's how.
 
 1. Right-click on your solution file.
 
