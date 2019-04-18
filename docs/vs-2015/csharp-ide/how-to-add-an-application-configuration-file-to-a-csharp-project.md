@@ -26,13 +26,13 @@ By adding an application configuration file (app.config file) to a C# project, y
   
 ### To add an application configuration file to your C# project  
   
-1.  On the menu bar, choose **Project**, **Add New Item**.  
+1. On the menu bar, choose **Project**, **Add New Item**.  
   
      The **Add New Item** dialog box appears.  
   
-2.  Expand **Installed**, expand **Visual C# Items**, and then choose the **Application Configuration File** template.  
+2. Expand **Installed**, expand **Visual C# Items**, and then choose the **Application Configuration File** template.  
   
-3.  In the **Name** text box, enter a name, and then choose the **Add** button.  
+3. In the **Name** text box, enter a name, and then choose the **Add** button.  
   
      A file that's named app.config is added to your project.  
   

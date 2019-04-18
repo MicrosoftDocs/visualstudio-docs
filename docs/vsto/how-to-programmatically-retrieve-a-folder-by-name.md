@@ -24,7 +24,7 @@ ms.workload:
 ## Compile the code
  This example requires:
 
--   A folder named TestFolder.
+- A folder named TestFolder.
 
 ## See also
 - [Work with folders](../vsto/working-with-folders.md)

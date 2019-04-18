@@ -20,11 +20,11 @@ The [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCL
   
 ### To correct this error  
   
--   Click **OK** to continue designing the entity classes that map to the connection that uses the unsupported database provider. You might experience unexpected behavior when you use unsupported database providers.  
+- Click **OK** to continue designing the entity classes that map to the connection that uses the unsupported database provider. You might experience unexpected behavior when you use unsupported database providers.  
   
      -or-  
   
--   Click **Cancel**.  
+- Click **Cancel**.  
   
      The action is stopped. Create or use a data connection that uses the .NET Framework Provider for SQL Server.  
   

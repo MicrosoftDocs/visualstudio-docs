@@ -133,7 +133,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
  Frame Analysis limits the number of retries to 10. If your platform has aggressive power management or clock-gating, it might cause Frame Analysis to fail and report an error because it has exceeded the retry limit. You might be able to mitigate this problem by resetting your platform's power management and clock speed throttling to be less aggressive, if the platform enables it.  
   
-##  <a name="HardwareSupport"></a> Hardware support  
+## <a name="HardwareSupport"></a> Hardware support  
   
 ### Timestamps and occlusion queries  
  Timestamps are supported on all platforms that support Frame Analysis. Depth occlusion queries—required for the Pixels Occluded counter—are supported on platforms that support feature level 9.2 or higher.  
@@ -176,7 +176,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 > [!NOTE]
 >  This applies only to the Direct3D API calls that you're using, not feature levels. As long as you're using the Direct3D 11, Direct3D 11.1, or Direct3D 11.2 API, you can use whatever feature level you like and Frame Analysis will just work.  
   
-##  <a name="Variants"></a> Variants  
+## <a name="Variants"></a> Variants  
  Each change that Frame Analysis makes to the way a frame is rendered during playback is known as a *variant*. The variants that Frame Analysis examines correspond to common, relatively easy changes that you could make to improve the rendering performance or visual quality of your app—for example, reducing the size of textures, using texture compression, or enabling different kinds of anti-aliasing. Variants override the usual rendering context and parameters of your app. Here's a summary:  
   
 |Variant|Description|  

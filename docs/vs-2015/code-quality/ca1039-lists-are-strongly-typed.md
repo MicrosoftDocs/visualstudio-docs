@@ -29,17 +29,17 @@ manager: "wpickett"
 ## Cause
  The public or protected type implements <xref:System.Collections.IList?displayProperty=fullName> but does not provide a strongly typed method for one or more of the following:
 
--   IList.Item
+- IList.Item
 
--   IList.Add
+- IList.Add
 
--   IList.Contains
+- IList.Contains
 
--   IList.IndexOf
+- IList.IndexOf
 
--   IList.Insert
+- IList.Insert
 
--   IList.Remove
+- IList.Remove
 
 ## Rule Description
  This rule requires <xref:System.Collections.IList> implementations to provide strongly typed members so that users are not required to cast arguments to the <xref:System.Object?displayProperty=fullName> type when they use the functionality that is provided by the interface. The <xref:System.Collections.IList> interface is implemented by collections of objects that can be accessed by index. This rule assumes that the type that implements <xref:System.Collections.IList> does this to manage a collection of instances of a type that is stronger than <xref:System.Object>.

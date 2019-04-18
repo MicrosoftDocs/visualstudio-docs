@@ -33,9 +33,9 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 To generate unit tests, your types must be public. Otherwise, [create unit tests](#NoRun) first before you generate them.
 
-1.  Open your solution in Visual Studio. Then open the class file that has methods you want to test.
+1. Open your solution in Visual Studio. Then open the class file that has methods you want to test.
 
-2.  Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
+2. Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
 
      ![Right&#45;click in your method to generate unit tests](../test/media/runpex.png)
 
@@ -51,7 +51,7 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
 ## Persist: Save the unit tests as a regression suite
 
-1.  Select the data rows that you want to save with the parameterized unit test into a test project.
+1. Select the data rows that you want to save with the parameterized unit test into a test project.
 
      ![Select tests; right&#45;click and choose Save](../test/media/savepextests.png)
 
@@ -65,13 +65,13 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
 ## Assist: Use IntelliTest to focus code exploration
 
-1.  If you have more complex code, IntelliTest assists you with focusing exploration of your code. For example, if you have a method that has an interface as a parameter, and there is more than one class that implements that interface, IntelliTest discovers those classes and reports a warning.
+1. If you have more complex code, IntelliTest assists you with focusing exploration of your code. For example, if you have a method that has an interface as a parameter, and there is more than one class that implements that interface, IntelliTest discovers those classes and reports a warning.
 
      View the warnings to decide what you want to do.
 
      ![View warnings](../test/media/pexviewwarning.png)
 
-2.  After you investigate the code and understand what you want to test, you can fix the warning to choose which classes to use to test the interface.
+2. After you investigate the code and understand what you want to test, you can fix the warning to choose which classes to use to test the interface.
 
      ![Right&#45;click the warning and choose Fix](../test/media/pexfixwarning.png)
 
@@ -79,7 +79,7 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
      `[assembly: PexUseType(typeof(Camera))]`
 
-3.  Now you can rerun IntelliTest to generate a parameterized unit test and test data just using the class that you fixed.
+3. Now you can rerun IntelliTest to generate a parameterized unit test and test data just using the class that you fixed.
 
      ![Rerun IntelliTest to generate the test data](../test/media/pexwarningsfixed.png)
 
@@ -87,7 +87,7 @@ To generate unit tests, your types must be public. Otherwise, [create unit tests
 
 Specify the general relationship between inputs and outputs that you want the generated unit tests to validate. This specification is encapsulated in a method that looks like a test method but is universally quantified. This is the parameterized unit test method, and any assertions you make must hold for all possible input values that IntelliTest can generate.
 
-##  Q & A
+## Q & A
 
 ### Q: Can you use IntelliTest for unmanaged code?
 
@@ -99,13 +99,13 @@ Specify the general relationship between inputs and outputs that you want the ge
 
  If you have a test that can pass if certain exceptions are thrown, you can set one of the following attributes based on your requirements at the test method, test class or assembly level:
 
--   **PexAllowedExceptionAttribute**
+- **PexAllowedExceptionAttribute**
 
--   **PexAllowedExceptionFromTypeAttribute**
+- **PexAllowedExceptionFromTypeAttribute**
 
--   **PexAllowedExceptionFromTypeUnderTestAttribute**
+- **PexAllowedExceptionFromTypeUnderTestAttribute**
 
--   **PexAllowedExceptionFromAssemblyAttribute**
+- **PexAllowedExceptionFromAssemblyAttribute**
 
 ### Q: Can I add assumptions to the parameterized unit test?
 
@@ -123,7 +123,7 @@ Specify the general relationship between inputs and outputs that you want the ge
 
  If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it is not.
 
-###  <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
+### <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
 
 **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.
 

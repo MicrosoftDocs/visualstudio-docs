@@ -33,7 +33,7 @@ return [ expression ];
   
 ### To correct this error  
   
--   Remove the `return` statement from the main body of your code (the global scope).  
+- Remove the `return` statement from the main body of your code (the global scope).  
   
 ## See Also  
  [return Statement](../../javascript/reference/return-statement-javascript.md)   

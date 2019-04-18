@@ -563,11 +563,11 @@ Specifies how Visual Studio inserts the code snippet.
 
 The text value must be one of the following values:
 
--   `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
+- `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
 
--   `Expansion`: allows the code snippet to be inserted at the cursor.
+- `Expansion`: allows the code snippet to be inserted at the cursor.
 
--   `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
+- `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
 
 ## SnippetTypes element
 

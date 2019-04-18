@@ -20,11 +20,11 @@ ms.workload:
 
 ## To correct this error
 
-1.  Open the document or workbook.
+1. Open the document or workbook.
 
-2.  Remove the controls that were added at runtime. You can do this by selecting them in the document or workbook and pressing the **Delete** key.
+2. Remove the controls that were added at runtime. You can do this by selecting them in the document or workbook and pressing the **Delete** key.
 
-3.  Create a document-level solution based on the document or workbook.
+3. Create a document-level solution based on the document or workbook.
 
 ## See also
 - [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)

@@ -26,7 +26,7 @@ break labelname;
   
 ### To correct this error  
   
--   Make sure the **break** keyword appears inside an enclosing loop or switch statement.  
+- Make sure the **break** keyword appears inside an enclosing loop or switch statement.  
   
 ## See Also  
  [break Statement](../../javascript/reference/break-statement-javascript.md)   

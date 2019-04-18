@@ -66,11 +66,11 @@ The following settings enable you to set the compiler configuration options.
  **Option strict**
 Specifies whether to enforce strict type semantics. When **Option Strict** is **On**, the following conditions cause a compile-time error:
 
--   Implicit narrowing conversions
+- Implicit narrowing conversions
 
--   Late binding
+- Late binding
 
--   Implicit typing that results in an `Object` type
+- Implicit typing that results in an `Object` type
 
 Implicit narrowing conversion errors occur when there is an implicit data type conversion that is a narrowing conversion. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Implicit and Explicit Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions), and [Widening and Narrowing Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions).
 
@@ -87,11 +87,11 @@ When you create a project, the **Option Strict** setting on the **Compile page**
 **Option Strict Individual Warnings.**
 The **Warning configurations** section of the **Compile page** has settings that correspond to the three conditions that cause a compile-time error when `Option Strict` is on. Following are these settings:
 
--   **Implicit conversion**
+- **Implicit conversion**
 
--   **Late binding; call could fail at run time**
+- **Late binding; call could fail at run time**
 
--   **Implicit type; object assumed**
+- **Implicit type; object assumed**
 
 When you set **Option Strict** to **On**, all three of these warning configuration settings are set to **Error**. When you set **Option Strict** to **Off**, all three settings are set to **None**.
 
@@ -127,11 +127,11 @@ Running as a 64-bit application doubles the pointer size, and it can cause compa
 
 This check box is available only if all of the following conditions are true:
 
--   On the **Compile Page**, the **Target CPU** list is set to **Any CPU**.
+- On the **Compile Page**, the **Target CPU** list is set to **Any CPU**.
 
--   On the **Application Page**, the **Application type** list specifies that the project is an application.
+- On the **Application Page**, the **Application type** list specifies that the project is an application.
 
--   On the **Application Page**, the **Target framework** list specifies the .NET Framework 4.5.
+- On the **Application Page**, the **Target framework** list specifies the .NET Framework 4.5.
 
 **Warning configurations**
 This table lists build conditions and the corresponding notification level of **None**, **Warning**, or **Error** for each.

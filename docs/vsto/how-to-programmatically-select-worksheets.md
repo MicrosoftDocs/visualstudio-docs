@@ -26,7 +26,7 @@ ms.workload:
 
 ### To select the first worksheet in a workbook using a host item
 
-1.  Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> method of `Sheet1`.
+1. Call the <xref:Microsoft.Office.Tools.Excel.Worksheet.Select%2A> method of `Sheet1`.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#19](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#19)]
      [!code-vb[Trin_VstcoreExcelAutomation#19](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#19)]
@@ -36,7 +36,7 @@ ms.workload:
 
 ### To select the first worksheet in a workbook using the Sheets collection of the Excel workbook
 
-1.  Call the <xref:Microsoft.Office.Interop.Excel.Sheets.Select%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection to select the first worksheet of the active workbook.
+1. Call the <xref:Microsoft.Office.Interop.Excel.Sheets.Select%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection to select the first worksheet of the active workbook.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#20](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#20)]
      [!code-vb[Trin_VstcoreExcelAutomation#20](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#20)]

@@ -33,9 +33,9 @@ If your code has native frames that are invisible in the **Call Stack** window, 
 
 ## Step out of managed code when native frames are missing from the call stack display
 
-1.  In the native code, set a location breakpoint after the call to managed code.
+1. In the native code, set a location breakpoint after the call to managed code.
 
-2.  On the **Debug** menu, choose **Continue**.
+2. On the **Debug** menu, choose **Continue**.
 
      When the managed call is completed, execution will stop at the breakpoint in native code.
 

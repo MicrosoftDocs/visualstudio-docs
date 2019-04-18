@@ -106,7 +106,7 @@ Output message 5 (from top template).
   
 ```  
   
-##  <a name="msbuild"></a> Using project properties in MSBuild and Visual Studio  
+## <a name="msbuild"></a> Using project properties in MSBuild and Visual Studio  
  Although you can use Visual Studio macros like $(SolutionDir) in an include directive, they don’t work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
   
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myIncludeFolder`:  

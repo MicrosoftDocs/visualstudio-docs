@@ -24,33 +24,33 @@ This page describes how to install Visual Studio 2015 when you are not connected
 > [!IMPORTANT]
 > If your offline machine is running Windows 7 SP1 or Windows Server 2008 R2, please see the special instructions in the [Troubleshooting an offline installation](#BKMK_tshoot) section  of this topic.  You must follow these instructions *before* you install Visual Studio 2015.
 
-##  <a name="BKMK_Offline"></a> Installing by creating an offline installation
+## <a name="BKMK_Offline"></a> Installing by creating an offline installation
 
 #### To create an offline installation layout
 
-1.  Choose the edition of Visual Studio that you want to install from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20Enterprise%202015) download page.
+1. Choose the edition of Visual Studio that you want to install from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20Enterprise%202015) download page.
 
-2.  After you download the installer to a location on your file system, run "\<executable name> /layout".
+2. After you download the installer to a location on your file system, run "\<executable name> /layout".
 
      For example, run: `vs_enterprise.exe /layout D:\VisualStudio2015`
 
      By using the `/layout` switch, you can download almost all the installation packages, not just the ones that apply to the download machine. This approach gives you the files that you need to run this installer anywhere and it might be useful if you want to install components that weren't installed originally.
 
-3.  After you run this command, a dialog box will appear that allows you to change the folder where  you want the offline installation layout to reside.   Next, click the **Download** button.
+3. After you run this command, a dialog box will appear that allows you to change the folder where  you want the offline installation layout to reside.   Next, click the **Download** button.
 
      When the package download is successful, you should see a message that says **Setup Successful! All specified components have been acquired successfully.**
 
-4.  Locate the folder that you specified earlier. (For example, locate D:\VisualStudio2015.) This folder contains everything you need to copy to a shared location or install media.
+4. Locate the folder that you specified earlier. (For example, locate D:\VisualStudio2015.) This folder contains everything you need to copy to a shared location or install media.
 
     > [!CAUTION]
     > Currently, the Android SDK does not support an offline installation experience. If you install Android SDK Setup items on a computer that is not connected to the internet, the installation might fail. For more information, see the "Troubleshooting an offline installation" section in this topic.
 
-5.  Run the installation from the file location or from the install media.
+5. Run the installation from the file location or from the install media.
 
 ## Updating an offline installation
  Microsoft has released several Updates for Visual Studio 2015. To update your Visual Studio installation, simply download  the edition you want from the from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20Enterprise%202015) download page. Next, follow the steps outlined in this topic to create a new offline installation layout and then use it to update your copy of Visual Studio 2015.
 
-##  <a name="BKMK_tshoot"></a> Troubleshooting an offline installation
+## <a name="BKMK_tshoot"></a> Troubleshooting an offline installation
  When you install offline from your offline install cache, you might see warning messages about not being able to install some components and packages. The following table includes possible solutions for these scenarios.
 
 | Component or Package | Solution |

@@ -24,20 +24,20 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 
 ## Create an extension with a menu command
 
-1.  Create a VSIX project named `DynamicMenuItems`.
+1. Create a VSIX project named `DynamicMenuItems`.
 
-2.  When the project opens, add a custom command item template and name it **DynamicMenu**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
+2. When the project opens, add a custom command item template and name it **DynamicMenu**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
 ## Setting up the elements in the *.vsct* file
  To create a menu controller with dynamic menu items on a toolbar, you specify the following elements:
 
--   Two command groups, one that contains the menu controller and another that contains the menu items in the dropdown
+- Two command groups, one that contains the menu controller and another that contains the menu items in the dropdown
 
--   One menu element of type `MenuController`
+- One menu element of type `MenuController`
 
--   Two buttons, one that acts as the placeholder for the menu items and another that supplies the icon and the tooltip on the toolbar.
+- Two buttons, one that acts as the placeholder for the menu items and another that supplies the icon and the tooltip on the toolbar.
 
-1.  In *DynamicMenuPackage.vsct*, define the command IDs. Go to the Symbols section and replace the IDSymbol elements in the **guidDynamicMenuPackageCmdSet** GuidSymbol block. You need to define IDSymbol elements for the two groups, the menu controller, the placeholder command, and the anchor command.
+1. In *DynamicMenuPackage.vsct*, define the command IDs. Go to the Symbols section and replace the IDSymbol elements in the **guidDynamicMenuPackageCmdSet** GuidSymbol block. You need to define IDSymbol elements for the two groups, the menu controller, the placeholder command, and the anchor command.
 
     ```xml
     <GuidSymbol name="guidDynamicMenuPackageCmdSet" value="{ your GUID here }">
@@ -52,7 +52,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     </GuidSymbol>
     ```
 
-2.  In the Groups section, delete the existing groups and add the two groups you just defined:
+2. In the Groups section, delete the existing groups and add the two groups you just defined:
 
     ```xml
     <Groups>
@@ -85,7 +85,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     </Menus>
     ```
 
-3.  Add two buttons, one as a placeholder for the dynamic menu items and one as an anchor for the MenuController.
+3. Add two buttons, one as a placeholder for the dynamic menu items and one as an anchor for the MenuController.
 
      The parent of the placeholder button is the **MyMenuControllerGroup**. Add the DynamicItemStart, DynamicVisibility, and TextChanges command flags to the placeholder button. The ButtonText is not displayed.
 
@@ -122,9 +122,9 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     </Buttons>
     ```
 
-4.  Add an icon to the project (in the *Resources* folder), and then add the reference to it in the *.vsct* file. In this walkthrough, we use the Arrows icon that's included in the project template.
+4. Add an icon to the project (in the *Resources* folder), and then add the reference to it in the *.vsct* file. In this walkthrough, we use the Arrows icon that's included in the project template.
 
-5.  Add a VisibilityConstraints section outside the Commands section just before the Symbols section. (You may get a warning if you add it after Symbols.) This section makes sure that the menu controller appears only when a solution with multiple projects is loaded.
+5. Add a VisibilityConstraints section outside the Commands section just before the Symbols section. (You may get a warning if you add it after Symbols.) This section makes sure that the menu controller appears only when a solution with multiple projects is loaded.
 
     ```xml
     <VisibilityConstraints>
@@ -136,7 +136,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 ## Implement the dynamic menu command
  You create a dynamic menu command class that inherits from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>. In this implementation, the constructor specifies a predicate to be used for matching commands. You must override the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch%2A> method to use this predicate to set the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId%2A> property, which identifies the command to be invoked.
 
-1.  Create a new C# class file named *DynamicItemMenuCommand.cs*, and add a class named **DynamicItemMenuCommand** that inherits from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>:
+1. Create a new C# class file named *DynamicItemMenuCommand.cs*, and add a class named **DynamicItemMenuCommand** that inherits from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>:
 
     ```csharp
     class DynamicItemMenuCommand : OleMenuCommand
@@ -146,7 +146,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 
     ```
 
-2.  Add the following using statements:
+2. Add the following using statements:
 
     ```csharp
     using Microsoft.VisualStudio.Shell;
@@ -154,14 +154,14 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     using System.ComponentModel.Design;
     ```
 
-3.  Add a private field to store the match predicate:
+3. Add a private field to store the match predicate:
 
     ```csharp
     private Predicate<int> matches;
 
     ```
 
-4.  Add a constructor that inherits from the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> constructor and specifies a command handler and a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> handler. Add a predicate for matching the command:
+4. Add a constructor that inherits from the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> constructor and specifies a command handler and a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> handler. Add a predicate for matching the command:
 
     ```csharp
     public DynamicItemMenuCommand(CommandID rootId, Predicate<int> matches, EventHandler invokeHandler, EventHandler beforeQueryStatusHandler)
@@ -176,7 +176,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     }
     ```
 
-5.  Override the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch%2A> method so that it calls the matches predicate and sets the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId%2A> property:
+5. Override the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.DynamicItemMatch%2A> method so that it calls the matches predicate and sets the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.MatchedCommandId%2A> property:
 
     ```csharp
     public override bool DynamicItemMatch(int cmdId)
@@ -199,14 +199,14 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 ## Add the command
  The DynamicMenu constructor is where you set up menu commands, including dynamic menus and menu items.
 
-1.  In *DynamicMenuPackage.cs*, add the GUID of the command set and the command ID:
+1. In *DynamicMenuPackage.cs*, add the GUID of the command set and the command ID:
 
     ```csharp
     public const string guidDynamicMenuPackageCmdSet = "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file
     public const uint cmdidMyCommand = 0x104;
     ```
 
-2.  In the *DynamicMenu.cs* file, add the following using statements:
+2. In the *DynamicMenu.cs* file, add the following using statements:
 
     ```csharp
     using EnvDTE;
@@ -214,19 +214,19 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     using System.ComponentModel.Design;
     ```
 
-3.  In the `DynamicMenu` class, add a private field **dte2**.
+3. In the `DynamicMenu` class, add a private field **dte2**.
 
     ```csharp
     private DTE2 dte2;
     ```
 
-4.  Add a private rootItemId field:
+4. Add a private rootItemId field:
 
     ```csharp
     private int rootItemId = 0;
     ```
 
-5.  In the DynamicMenu constructor, add the menu command. In the next section we'll define the command handler, the `BeforeQueryStatus` event handler, and the match predicate.
+5. In the DynamicMenu constructor, add the menu command. In the next section we'll define the command handler, the `BeforeQueryStatus` event handler, and the match predicate.
 
     ```csharp
     private DynamicMenu(Package package)
@@ -257,7 +257,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 ## Implement the handlers
  To implement dynamic menu items on a menu controller, you must handle the command when a dynamic item is clicked. You must also implement the logic that sets the state of the menu item. Add the handlers to the `DynamicMenu` class.
 
-1.  To implement the **Set Startup Project** command, add the **OnInvokedDynamicItem** event handler. It looks for the project whose name is the same as the text of the command that has been invoked, and sets it as the startup project by setting its absolute path in the <xref:EnvDTE.SolutionBuild.StartupProjects%2A> property.
+1. To implement the **Set Startup Project** command, add the **OnInvokedDynamicItem** event handler. It looks for the project whose name is the same as the text of the command that has been invoked, and sets it as the startup project by setting its absolute path in the <xref:EnvDTE.SolutionBuild.StartupProjects%2A> property.
 
     ```csharp
     private void OnInvokedDynamicItem(object sender, EventArgs args)
@@ -280,7 +280,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     }
     ```
 
-2.  Add the `OnBeforeQueryStatusDynamicItem` event handler. This is the handler called before a `QueryStatus` event. It determines whether the menu item is a "real" item, that is, not the placeholder item, and whether the item is already checked (meaning that the project is already set as the startup project).
+2. Add the `OnBeforeQueryStatusDynamicItem` event handler. This is the handler called before a `QueryStatus` event. It determines whether the menu item is a "real" item, that is, not the placeholder item, and whether the item is already checked (meaning that the project is already set as the startup project).
 
     ```csharp
     private void OnBeforeQueryStatusDynamicItem(object sender, EventArgs args)
@@ -340,15 +340,15 @@ public sealed class DynamicMenuItemsPackage : Package
 ## Test the set startup project command
  Now you can test your code.
 
-1.  Build the project and start debugging. The experimental instance should appear.
+1. Build the project and start debugging. The experimental instance should appear.
 
-2.  In the experimental instance, open a solution that has more than one project.
+2. In the experimental instance, open a solution that has more than one project.
 
      You should see the arrow icon on the **Solution Explorer** toolbar. When you expand it, menu items that represent the different projects in the solution should appear.
 
-3.  When you check one of the projects, it becomes the startup project.
+3. When you check one of the projects, it becomes the startup project.
 
-4.  When you close the solution, or open a solution that has only one project, the toolbar icon should disappear.
+4. When you close the solution, or open a solution that has only one project, the toolbar icon should disappear.
 
 ## See also
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

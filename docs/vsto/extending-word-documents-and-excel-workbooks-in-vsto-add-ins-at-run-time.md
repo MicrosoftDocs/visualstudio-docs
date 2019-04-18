@@ -48,21 +48,21 @@ ms.workload:
 
 #### To generate a host item for a Word document
 
--   The following code example demonstrates how to generate a host item for the active document.
+- The following code example demonstrates how to generate a host item for the active document.
 
      [!code-vb[Trin_WordAddInDynamicControls#8](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#8)]
      [!code-csharp[Trin_WordAddInDynamicControls#8](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#8)]
 
 #### To generate a host item for an Excel workbook
 
--   The following code example demonstrates how to generate a host item for the active workbook.
+- The following code example demonstrates how to generate a host item for the active workbook.
 
      [!code-vb[Trin_ExcelAddInDynamicControls#2](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#2)]
      [!code-csharp[Trin_ExcelAddInDynamicControls#2](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#2)]
 
 #### To generate a host item for an Excel worksheet
 
--   The following code example demonstrates how to generate a host item for the active worksheet in a project.
+- The following code example demonstrates how to generate a host item for the active worksheet in a project.
 
      [!code-vb[Trin_ExcelAddInDynamicControls#1](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#1)]
      [!code-csharp[Trin_ExcelAddInDynamicControls#1](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#1)]
@@ -72,12 +72,12 @@ ms.workload:
 
 #### To generate a host control for a ListObject
 
--   The following code example demonstrates how to generate a <xref:Microsoft.Office.Tools.Excel.ListObject> for the first <xref:Microsoft.Office.Interop.Excel.ListObject> in the active worksheet in a project.
+- The following code example demonstrates how to generate a <xref:Microsoft.Office.Tools.Excel.ListObject> for the first <xref:Microsoft.Office.Interop.Excel.ListObject> in the active worksheet in a project.
 
      [!code-vb[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/VisualBasic/trin_exceladdindynamiccontrols4/ThisAddIn.vb#3)]
      [!code-csharp[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#3)]
 
-###  <a name="AddControls"></a> Add managed controls to documents and worksheets
+### <a name="AddControls"></a> Add managed controls to documents and worksheets
  After you generate a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>, you can add controls to the document or worksheet that these extended objects represent. To add controls, use the `Controls` property of the <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  You can add Windows Forms controls or *host controls*. A host control is a control provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that wraps a corresponding control in the Word or Excel primary interop assembly. A host control exposes all of the behavior of the underlying native Office object. It also raises events and can be bound to data by using the Windows Forms data binding model. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
@@ -107,7 +107,7 @@ ms.workload:
  [!code-vb[Trin_WordAddInDynamicControls #13](../vsto/codesnippet/VisualBasic/trin_wordaddindynamiccontrols/ThisAddIn.vb#13)]
  [!code-csharp[Trin_WordAddInDynamicControls#13](../vsto/codesnippet/CSharp/Trin_WordAddInDynamicControls/ThisAddIn.cs#13)]
 
-##  <a name="HasVstoObject"></a> Determine whether an Office object has been extended
+## <a name="HasVstoObject"></a> Determine whether an Office object has been extended
  To determine whether an extended object has already been generated for a particular native Office object, use the `HasVstoObject` method. This method returns **true** if an extended object has already been generated.
 
  Use the `Globals.Factory.HasVstoMethod` method. Pass in the native Word or Excel object, such as a <xref:Microsoft.Office.Interop.Word.Document> or <xref:Microsoft.Office.Interop.Excel.Worksheet>, that you want to test for an extended object.

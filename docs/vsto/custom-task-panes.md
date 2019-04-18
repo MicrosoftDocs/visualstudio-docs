@@ -120,7 +120,7 @@ ms.workload:
 
  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] automatically cleans up resources used by the custom task pane when the VSTO Add-in is unloaded. Do not call the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> or <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> methods in the `ThisAddIn_Shutdown` event handler in your project. These methods will throw an <xref:System.ObjectDisposedException>, because the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] cleans up resources used by the <xref:Microsoft.Office.Tools.CustomTaskPane> object before `ThisAddIn_Shutdown` is called. For more information about `ThisAddIn_Shutdown`, see [Events in Office projects](../vsto/events-in-office-projects.md)
 
-##  <a name="Managing"></a> Manage custom task panes in multiple application windows
+## <a name="Managing"></a> Manage custom task panes in multiple application windows
  When you create a custom task pane in an application that uses multiple windows to display documents and other items, you need to take extra steps to ensure that the task pane is visible when the user expects it to be.
 
  Custom task panes in all applications are associated with a document frame window, which presents a view of a document or item to the user. The task pane is visible only when the associated window is visible. However, not all applications use document frame windows the same way.
@@ -131,7 +131,7 @@ ms.workload:
 
 - [Word, InfoPath, and PowerPoint](#WordAndInfoPath)
 
-##  <a name="Outlook"></a> Outlook
+## <a name="Outlook"></a> Outlook
  When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an email message or a task.
 
  If you want to display a custom task pane with multiple Explorer or Inspector windows, you need to create a new instance of the custom task pane when an Explorer or Inspector window opens. To do this, handle an event that is raised when an Explorer or Inspector window is created, and then create the task pane in the event handler. You can also handle Explorer and Inspector events to hide or display task panes depending on which window is visible.
@@ -161,7 +161,7 @@ ms.workload:
 
  If you do not explicitly remove the custom task pane, Outlook windows might display multiple instances of the custom task pane. Outlook sometimes recycles windows, and recycled windows retain references to any custom task panes that were attached to them.
 
-##  <a name="WordAndInfoPath"></a> Word, InfoPath, and PowerPoint
+## <a name="WordAndInfoPath"></a> Word, InfoPath, and PowerPoint
  Word, InfoPath, and PowerPoint display each document in a different document frame window. When you create a custom task pane for these applications, the custom task pane is associated only with a specific document. If the user opens a different document, the custom task pane is hidden until the earlier document is visible again.
 
  If you want to display a custom task pane with multiple documents, create a new instance of the custom task pane when the user creates a new document or opens an existing document. To do this, handle events that are raised when a document is created or opened, and then create the task pane in the event handlers. You can also handle document events to hide or display task panes depending on which document is visible.
@@ -171,43 +171,43 @@ ms.workload:
 ### Word events
  To monitor the state of document windows in Word, you can handle the following events:
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeClose>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeClose>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.NewDocument>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.NewDocument>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowActivate>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowActivate>
 
--   <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowDeactivate>
+- <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.WindowDeactivate>
 
 ### InfoPath events
  To monitor the state of document windows in InfoPath, you can handle the following events:
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose>
 
--   <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen>
+- <xref:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen>
 
 ### PowerPoint events
  To monitor the state of document windows in PowerPoint, you can handle the following events:
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation](/previous-versions/office/developer/office-2010/ff761105(v%3doffice.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation](/previous-versions/office/developer/office-2010/ff761105(v%3doffice.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v%3doffice.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v%3doffice.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation](/previous-versions/office/developer/office-2010/ff761498(v%3doffice.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation](/previous-versions/office/developer/office-2010/ff761498(v%3doffice.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen](/previous-versions/office/developer/office-2010/ff760423(v=office.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen](/previous-versions/office/developer/office-2010/ff760423(v=office.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate](/previous-versions/office/developer/office-2010/ff761153(v=office.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate](/previous-versions/office/developer/office-2010/ff761153(v=office.14))
 
--   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
+- [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
 
 ## See also
 - [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)

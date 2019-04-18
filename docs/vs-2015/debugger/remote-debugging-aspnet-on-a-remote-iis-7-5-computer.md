@@ -70,6 +70,7 @@ Once it is installed, make sure the remote debugger is running on the target mac
       </system.web>
   
     ```
+
 1. Open the **Internet Information Services (IIS) Manager** and go to **Sites**.
 1. Right-click the **Default Web Site** node and select **Add Application**.
 1. Set the **Alias** field to **MyMVC** and the Application pool field to **ASP.NET v4.0** (ASP.NET 4.5 is not an option for the Application pool). Set the **Physical path** to **C:\Publish** (where you copied the ASP.NET project directory).

@@ -25,11 +25,11 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
   
 #### To switch text to upper case  
   
-1.  Select the text you want to convert.  
+1. Select the text you want to convert.  
   
-2.  On the **Edit** menu, select **Advanced**.  
+2. On the **Edit** menu, select **Advanced**.  
   
-3.  To convert text to all upper case, choose **Make Uppercase**, or press **CTRL**+**SHIFT**+**U**.  
+3. To convert text to all upper case, choose **Make Uppercase**, or press **CTRL**+**SHIFT**+**U**.  
   
      — or —  
   

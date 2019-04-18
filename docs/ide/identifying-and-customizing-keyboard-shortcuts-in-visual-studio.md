@@ -128,7 +128,7 @@ By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\V
 
 5. Choose the **Next** button.
 
-6.  Under **Which settings do you want to import?**, clear the **All Settings** check box, expand **Options**, and then expand **Environment**.
+6. Under **Which settings do you want to import?**, clear the **All Settings** check box, expand **Options**, and then expand **Environment**.
 
 7. Select the **Keyboard** check box, and then choose the **Finish** button.
 

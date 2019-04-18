@@ -47,14 +47,14 @@ End Sub
 
 #### To add validation during changes to individual column values
 
-1.  Open the dataset by double-clicking the *.xsd* file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open the dataset by double-clicking the *.xsd* file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.
+2. Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.
 
     > [!NOTE]
     >  The Dataset Designer does not automatically create an event handler for the C# event. The code that's necessary to handle the event in C# is included in the next section. `SampleColumnChangingEvent` is created and then hooked up to the <xref:System.Data.DataTable.ColumnChanging> event in the <xref:System.Data.DataTable.EndInit%2A> method.
 
-3.  Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.
+3. Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.
 
      The following code example validates that the **Quantity** column contains a value greater than 0. If **Quantity** is less than or equal to 0, the column is set to an error. The `Else` clause clears the error if **Quantity** is more than 0. The code in the column-changing event handler should resemble the following:
 
@@ -67,6 +67,7 @@ End Sub
         End If
     End If
     ```
+
     ```csharp
     // Add this code to the DataTable partial class.
 
@@ -103,18 +104,18 @@ End Sub
 
 #### To add validation during changes to whole rows
 
-1.  Open the dataset by double-clicking the *.xsd* file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
+1. Open the dataset by double-clicking the *.xsd* file in **Solution Explorer**. For more information, see [Walkthrough: Creating a dataset in the Dataset Designer](walkthrough-creating-a-dataset-with-the-dataset-designer.md).
 
-2.  Double-click the title bar of the data table on the designer.
+2. Double-click the title bar of the data table on the designer.
 
      A partial class is created with a `RowChanging` event handler and opens in the Code Editor.
 
     > [!NOTE]
     >  The Dataset Designer does not automatically create an event handler for the <xref:System.Data.DataTable.RowChanging> event in C# projects. You have to create a method to handle the <xref:System.Data.DataTable.RowChanging> event and run code then hook up the event in the table's initialization method.
 
-3.  Add user code inside the partial class declaration.
+3. Add user code inside the partial class declaration.
 
-4.  The following code shows where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event. The C# example also includes code to hook the event handler method up to the `OrdersRowChanging` event.
+4. The following code shows where to add user code to validate during the <xref:System.Data.DataTable.RowChanging> event. The C# example also includes code to hook the event handler method up to the `OrdersRowChanging` event.
 
     ```vb
     Partial Class OrdersDataTable
@@ -130,6 +131,7 @@ End Sub
         End Sub
     End Class
     ```
+
     ```csharp
     partial class OrdersDataTable
     {

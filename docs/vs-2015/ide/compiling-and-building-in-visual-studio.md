@@ -34,17 +34,17 @@ You can use Visual Studio to build applications and to create assemblies and exe
 
  From within the IDE, you can perform the following additional tasks:
 
--   [Change the build output directory](../ide/how-to-change-the-build-output-directory.md).
+- [Change the build output directory](../ide/how-to-change-the-build-output-directory.md).
 
--   [Identify projects that are dependent on the output from another project in order to build correctly](../ide/how-to-create-and-remove-project-dependencies.md).
+- [Identify projects that are dependent on the output from another project in order to build correctly](../ide/how-to-create-and-remove-project-dependencies.md).
 
--   [Change the amount of information included in the build log or Output window for builds](../ide/how-to-view-save-and-configure-build-log-files.md).
+- [Change the amount of information included in the build log or Output window for builds](../ide/how-to-view-save-and-configure-build-log-files.md).
 
--   [Hide specific compiler warnings for Visual C#, Visual C++, or Visual Basic](../ide/how-to-suppress-compiler-warnings.md).
+- [Hide specific compiler warnings for Visual C#, Visual C++, or Visual Basic](../ide/how-to-suppress-compiler-warnings.md).
 
--   [Specify custom pre-compile and post-compile actions for a build](../ide/specifying-custom-build-events-in-visual-studio.md).
+- [Specify custom pre-compile and post-compile actions for a build](../ide/specifying-custom-build-events-in-visual-studio.md).
 
--   Improve build performance by using parallel builds. For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) or the blog post [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx).
+- Improve build performance by using parallel builds. For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) or the blog post [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx).
 
 ## See Also
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)

@@ -51,7 +51,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
   For info on other JavaScript debugging features, such as using the JavaScript Console window and setting breakpoints, see [QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md) and [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
-##  <a name="InspectingDOM"></a> Inspecting the live DOM  
+## <a name="InspectingDOM"></a> Inspecting the live DOM  
  DOM Explorer shows you a view of the rendered page, and you can use DOM Explorer to change values and immediately see the results. This enables you to test changes without stopping and restarting the debugger. The source code in your project doesn't change when you interact with the page by using this method, so when you find the desired code corrections, you make the changes to your source code.  
   
 > [!TIP]
@@ -243,17 +243,17 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 #### To refresh your app while debugging  
   
-1.  While the app is still running, switch to Visual Studio.  
+1. While the app is still running, switch to Visual Studio.  
   
-2.  Open default.html and modify your source code by changing the height and width of the `"fView"` DIV element to 100%.  
+2. Open default.html and modify your source code by changing the height and width of the `"fView"` DIV element to 100%.  
   
-3.  Choose the **Refresh Windows app** button on the Debug toolbar (or press F4). The button looks like this: ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh").  
+3. Choose the **Refresh Windows app** button on the Debug toolbar (or press F4). The button looks like this: ![Refresh Windows app button](../debugger/media/js-refresh.png "JS_Refresh").  
   
      The app pages reload and the Simulator or Phone Emulator returns to the foreground.  
   
      For more info about the Refresh feature, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  
   
-##  <a name="SelectingElements"></a> Selecting elements  
+## <a name="SelectingElements"></a> Selecting elements  
  You can select DOM elements in three ways when debugging an app:  
   
 - By clicking on elements directly in the DOM Explorer window (or by using the arrow keys).  
@@ -279,7 +279,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  For an example that demonstrates how to select elements by using the **Select element** button, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
   
-##  <a name="BrowserSupport"></a> Browser and Platform Support  
+## <a name="BrowserSupport"></a> Browser and Platform Support  
  The Visual Studio tools for JavaScript, the DOM Explorer, and the JavaScript Console window are supported on the following platforms:  
   
 - [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] and Windows Phone Store apps using JavaScript and HTML  

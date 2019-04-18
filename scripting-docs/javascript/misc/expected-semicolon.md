@@ -20,11 +20,11 @@ You attempted to place more than one statement on a line, but did not separate t
   
 ### To correct this error  
   
--   Mark the end of each statement with a semicolon.  
+- Mark the end of each statement with a semicolon.  
   
--   Make sure your function calls use parentheses properly.  
+- Make sure your function calls use parentheses properly.  
   
--   Make sure you did not forget the semicolons inside the header of a **for** loop.  
+- Make sure you did not forget the semicolons inside the header of a **for** loop.  
   
 ## See Also  
  [Writing JavaScript Code](../../javascript/writing-javascript-code.md)

@@ -63,11 +63,11 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   
  You can find more information in the [VSX Arcana blog](http://blogs.msdn.com/b/vsx/) and an number of blogs written by Microsoft MVPs:  
   
--   [Favorite Visual Studio Extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)  
+- [Favorite Visual Studio Extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)  
   
--   [Visual Studio Extensibility](http://www.visualstudioextensibility.com/overview/vs/)  
+- [Visual Studio Extensibility](http://www.visualstudioextensibility.com/overview/vs/)  
   
--   [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
+- [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
   
 ## See Also  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)   

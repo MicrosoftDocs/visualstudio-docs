@@ -24,25 +24,25 @@ If you build any kind of project by using MSBuild, you can create a *.txt* file 
 
 ## To view the build log file for a C++ project
 
-1.  In **Windows Explorer** or **File Explorer**, open the following file: *\\...\Visual Studio \<Version\>\Projects\\<ProjectName\>\\<ProjectName\>\Debug\\<ProjectName\>.txt*
+1. In **Windows Explorer** or **File Explorer**, open the following file: *\\...\Visual Studio \<Version\>\Projects\\<ProjectName\>\\<ProjectName\>\Debug\\<ProjectName\>.txt*
 
 ## To create a build log file for a managed-code project
 
-1.  On the menu bar, choose **Build** > **Build Solution**.
+1. On the menu bar, choose **Build** > **Build Solution**.
 
-2.  In the **Output** window, click somewhere in the text.
+2. In the **Output** window, click somewhere in the text.
 
-3.  Press **Ctrl**+**S**.
+3. Press **Ctrl**+**S**.
 
    Visual Studio prompts you for a location to save the build output.
 
 ## To change the amount of information included in the build log
 
-1.  On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-2.  On the **Projects and Solutions** page, choose the **Build and Run** page.
+2. On the **Projects and Solutions** page, choose the **Build and Run** page.
 
-3.  In the **MSBuild project build output verbosity** list, choose one of the following values, and then choose the **OK** button.
+3. In the **MSBuild project build output verbosity** list, choose one of the following values, and then choose the **OK** button.
 
     |Verbosity level|Description|
     | - |-----------------|

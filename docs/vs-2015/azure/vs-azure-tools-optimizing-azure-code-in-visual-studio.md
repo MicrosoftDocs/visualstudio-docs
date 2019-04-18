@@ -210,6 +210,7 @@ while (true)
    }
 }
 ```
+
 ## Consider using asynchronous Service Bus methods
 ### ID
 AP2003

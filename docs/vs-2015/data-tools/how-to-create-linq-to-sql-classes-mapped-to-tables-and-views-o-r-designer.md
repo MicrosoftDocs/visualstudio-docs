@@ -26,9 +26,9 @@ LINQ to SQL classes that are mapped to database tables and views are called *ent
 
 #### To create LINQ to SQL classes that are mapped to database tables or views
 
-1.  In **Server**/**Database Explorer**, expand **Tables** or **Views** and locate the database table or view that you want to use in your application.
+1. In **Server**/**Database Explorer**, expand **Tables** or **Views** and locate the database table or view that you want to use in your application.
 
-2.  Drag the table or view onto the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].
+2. Drag the table or view onto the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].
 
      An entity class is created and appears on the design surface. The entity class has properties that map to the columns in the selected table or view.
 
@@ -37,22 +37,22 @@ LINQ to SQL classes that are mapped to database tables and views are called *ent
 
 #### To create an object data source based on LINQ to SQL entity classes
 
-1.  On the **Build** menu, click **Build Solution** to build your project.
+1. On the **Build** menu, click **Build Solution** to build your project.
 
-2.  On the **Data** menu, click **Show Data Sources**.
+2. On the **Data** menu, click **Show Data Sources**.
 
-3.  In the **Data Sources** window, click **Add New Data Source**.
+3. In the **Data Sources** window, click **Add New Data Source**.
 
-4.  Click **Object** on the **Choose a Data Source Type** page and then click **Next**.
+4. Click **Object** on the **Choose a Data Source Type** page and then click **Next**.
 
-5.  Expand the nodes and locate and select your class.
+5. Expand the nodes and locate and select your class.
 
     > [!NOTE]
     > If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.
 
-6.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.
+6. Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.
 
-7.  Drag items from the **Data Sources** window onto a form.
+7. Drag items from the **Data Sources** window onto a form.
 
 ## See also
 

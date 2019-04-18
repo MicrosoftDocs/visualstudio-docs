@@ -18,17 +18,17 @@ manager: "ghogen"
 # Expected identifier (JavaScript)
 You used something other than an identifier in a context where one was required. An identifier can be:  
   
--   a variable,  
+- a variable,  
   
--   a property,  
+- a property,  
   
--   an array,  
+- an array,  
   
--   or a function name.  
+- or a function name.  
   
 ### To correct this error  
   
--   Change the expression so an identifier appears to the left of the equal sign.  
+- Change the expression so an identifier appears to the left of the equal sign.  
   
 ## See Also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

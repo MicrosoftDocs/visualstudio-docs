@@ -24,7 +24,7 @@ ms.workload:
 
 ## To create a new document based on the Normal template
 
--   Use the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection to create a new document based on the Normal template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
+- Use the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection to create a new document based on the Normal template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#1)]
      [!code-csharp[Trin_VstcoreWordAutomation#1](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#1)]
@@ -34,7 +34,7 @@ ms.workload:
 
 ### To create a new document based on a custom template
 
--   Call the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection and specify the path to the template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
+- Call the <xref:Microsoft.Office.Interop.Word.Documents.Add%2A> method of the <xref:Microsoft.Office.Interop.Word.Documents> collection and specify the path to the template. To use this code example, run it from the `ThisDocument` or `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#2)]
      [!code-csharp[Trin_VstcoreWordAutomation#2](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#2)]

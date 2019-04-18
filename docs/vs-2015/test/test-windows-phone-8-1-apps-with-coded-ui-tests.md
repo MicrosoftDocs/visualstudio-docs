@@ -16,23 +16,23 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
 ## Create a simple Windows Phone app  
   
-1.  Create a new project for a blank Windows Phone app using either Visual C# or Visual Basic template.  
+1. Create a new project for a blank Windows Phone app using either Visual C# or Visual Basic template.  
   
      ![Create a new Windows Phone app](../test/media/cuit-phone-app-newproject.png "CUIT_Phone_App_NewProject")  
   
-2.  In Solution Explorer, open MainPage.xaml. From the Toolbox, drag a button control and a textbox control to the design surface.  
+2. In Solution Explorer, open MainPage.xaml. From the Toolbox, drag a button control and a textbox control to the design surface.  
   
      ![Add contols to MainPage.xaml](../test/media/cuit-phone-app-addcontrols.png "CUIT_Phone_App_AddControls")  
   
-3.  In the Properties window, name the button control.  
+3. In the Properties window, name the button control.  
   
      ![Name the button control](../test/media/cuit-phone-namebutton.png "CUIT_Phone_NameButton")  
   
-4.  Name the textbox control.  
+4. Name the textbox control.  
   
      ![Name the textbox control](../test/media/cuit-phone-nametesxtbox.png "CUIT_Phone_NameTesxtBox")  
   
-5.  On designer surface, double-click the button control and add the following code:  
+5. On designer surface, double-click the button control and add the following code:  
   
     ```csharp  
     private void button_Click_1(object sender, RoutedEventArgs e)  
@@ -52,15 +52,15 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
     End Class  
     ```  
   
-6.  Press F5 to run your Windows Phone app in the emulator and verify that it’s working.  
+6. Press F5 to run your Windows Phone app in the emulator and verify that it’s working.  
   
      ![Run the Windows Phone app](../test/media/cuit-phone-runapp.png "CUIt_Phone_RunApp")  
   
-7.  Exit the emulator.  
+7. Exit the emulator.  
   
 ## Deploy the Windows Phone app  
   
-1.  Before a coded UI test can map an app’s controls, you have to deploy the app.  
+1. Before a coded UI test can map an app’s controls, you have to deploy the app.  
   
      ![Deploy the Windows Phone app](../test/media/cuit-phone-deploy.png "CUIT_Phone_Deploy")  
   
@@ -281,7 +281,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
 ## Run the coded UI test  
   
-1.  Build your test and then run the test using the test explorer.  
+1. Build your test and then run the test using the test explorer.  
   
      ![Build and run the test using Test Explorer](../test/media/cuit-phone-runtestexplorer.png "CUIT_Phone_RunTestExplorer")  
   
@@ -293,7 +293,7 @@ Use this walkthrough for creating UI tests for UWP apps that run on mobile devic
   
      ![Test Explorer results](../test/media/cuit-phone-runtestexplorerresults.png "CUIT_Phone_RunTestExplorerResults")  
   
-##  <a name="TestingPhoneAppsCodedUI_DataDriven"></a> Use Data-driven coded UI tests on Windows Phone apps  
+## <a name="TestingPhoneAppsCodedUI_DataDriven"></a> Use Data-driven coded UI tests on Windows Phone apps  
  To test different conditions, a coded UI test can be run multiple times with different sets of data.  
   
  Data-driven Coded UI tests for Windows Phone are defined using the DataRow attribute on a test method. In the following example, x and y use the values of 1 and 2 for the first iteration and -1 and -2 for the second iteration of the test.  
@@ -311,7 +311,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ### Q: Do I have to deploy the Windows Phone app in the emulator in order to map UI controls?  
  **A**: Yes, the coded UI test builder requires that an emulator be running and the app be deployed to it. Otherwise, it will throw an error message saying that no running emulator could be found.  
   
-###  <a name="TestingPhoneAppsCodedUI_EmulatorDevice"></a> Q: Can tests be executed on the emulator only, or can I also use a physical device?  
+### <a name="TestingPhoneAppsCodedUI_EmulatorDevice"></a> Q: Can tests be executed on the emulator only, or can I also use a physical device?  
  **A**: Either option is supported. The target for test execution is selected by changing the emulator type or selecting device in the device toolbar. If Device is selected, a Phone Blue device needs to be connected to one of the machine’s USB ports.  
   
  ![Select the emulator version, or physcial device](../test/media/cuit-phone-testtarget.png "CUIT_Phone_TestTarget")  

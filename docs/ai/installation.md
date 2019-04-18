@@ -81,6 +81,7 @@ Deep learning frameworks rely on pip for their own installation.
 Then, we need to verify whether Python 3.5 is installed correctly, and upgrade pip to the latest version by executing the following commands in a terminal:
 
 - **Windows**
+
     ```cmd
     C:\Users\test>python -V
     Python 3.5.4
@@ -92,6 +93,7 @@ Then, we need to verify whether Python 3.5 is installed correctly, and upgrade p
     ```
 
 - **macOS**
+
     ```bash
     MyMac:~ test$ python3.5 -V
     Python 3.5.4
@@ -153,10 +155,13 @@ Visit [here](https://caffe2.ai/docs/getting-started.html) to build from source c
 To install MXNet, run the following command in a terminal:
 
 - With GPU
+
     ```bash
     pip3.5 install mxnet-cu80==0.12.0
     ```
+
 - Without GPU
+
     ```bash
     pip3.5 install mxnet==0.12.0
     ```

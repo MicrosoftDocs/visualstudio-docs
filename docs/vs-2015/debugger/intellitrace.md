@@ -47,7 +47,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 |**Collect IntelliTrace data from deployed applications**|-   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|  
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|-   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|  
   
-##  <a name="IntelliTraceSupport"></a> What apps can I debug with IntelliTrace?  
+## <a name="IntelliTraceSupport"></a> What apps can I debug with IntelliTrace?  
   
 |||  
 |-|-|  
@@ -58,7 +58,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 > [!NOTE]
 >  If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
   
-##  <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?  
+## <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?  
  Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.  
   
  IntelliTrace expands this traditional debugging experience by recording specific events and data at these points in time. This lets you see what happened in your application without restarting it, especially if you step past where the bug is. IntelliTrace is turned on by default during traditional debugging and collects data automatically and invisibly. This lets you switch easily between traditional debugging and IntelliTrace debugging to see the recorded information. See [IntelliTrace Features](../debugger/intellitrace-features.md) and [What data does IntelliTrace collect?](#WhatData)  
@@ -95,7 +95,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
    This is useful when you want to diagnose problems with apps in deployment. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).  
   
-##  <a name="WhatData"></a> What data does IntelliTrace collect?  
+## <a name="WhatData"></a> What data does IntelliTrace collect?  
  **Collecting event information**  
   
  By default, IntelliTrace records only IntelliTrace events: debugger events, exceptions, .NET Framework events, and other system events that can help you with debugging. You can choose the kinds of IntelliTrace events that you want to collect, except for debugger events and exceptions, which are always collected. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
@@ -106,27 +106,27 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
    To help with performance, IntelliTrace doesn't record every possible value for a debugger event. Instead, it records these values:  
   
-  -   Values in the **Locals** window. Keep the **Locals** window open to see these values.  
+  - Values in the **Locals** window. Keep the **Locals** window open to see these values.  
   
-  -   Values in the **Autos** window only if the **Autos** window is open  
+  - Values in the **Autos** window only if the **Autos** window is open  
   
-  -   Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.  
+  - Values in DataTips that appear when you move the mouse pointer on top of a variable in the source window to see its value. IntelliTrace doesn't collect values in pinned DataTips.  
   
 - **Exceptions**  
   
    IntelliTrace records the exception type and message for these kinds of exceptions:  
   
-  -   Handled exceptions where the exception is thrown and caught  
+  - Handled exceptions where the exception is thrown and caught  
   
-  -   Unhandled exceptions  
+  - Unhandled exceptions  
   
 - **.NET Framework events**  
   
    By default, IntelliTrace records the most common .NET Framework events. For example:  
   
-  -   For a File Access event, IntelliTrace collects the file name.  
+  - For a File Access event, IntelliTrace collects the file name.  
   
-  -   For a Check Checkbox event, IntelliTrace collects the checkbox state and text.  
+  - For a Check Checkbox event, IntelliTrace collects the checkbox state and text.  
   
 - **SharePoint 2010 and SharePoint 2013 application events**  
   
@@ -136,11 +136,11 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
    See:  
   
-  -   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  
+  - [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  
   
-  -   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
+  - [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
-  -   [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
+  - [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)  
   
   **Collecting function call information**  
   
@@ -163,7 +163,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
  To control how much call information that IntelliTrace collects, specify only those modules that you care about. This can help improve your application's performance during collection. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   
-##  <a name="AffectPerformance"></a> Will IntelliTrace slow down my application?  
+## <a name="AffectPerformance"></a> Will IntelliTrace slow down my application?  
  By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.  
   
  Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you’re saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  

@@ -37,17 +37,17 @@ NOTE]
   
 ### To find where a crash occurred using the Modules window  
   
-1.  Note the address where the crash occurred.  
+1. Note the address where the crash occurred.  
   
-2.  On the **Debug** menu, choose **Windows**, and click **Modules**.  
+2. On the **Debug** menu, choose **Windows**, and click **Modules**.  
   
-3.  In the **Modules** window, find the **Address** column. You may need to use the scrollbar to see it.  
+3. In the **Modules** window, find the **Address** column. You may need to use the scrollbar to see it.  
   
-4.  Click the **Address** button at the top of the column to sort the DLLs by address.  
+4. Click the **Address** button at the top of the column to sort the DLLs by address.  
   
-5.  Scan the sorted list to find the DLL whose address range contains the crash location.  
+5. Scan the sorted list to find the DLL whose address range contains the crash location.  
   
-6.  Look at the **Name** and **Path** columns to see the DLL name and path.  
+6. Look at the **Name** and **Path** columns to see the DLL name and path.  
   
 ## See Also  
  [How to: Debug Native DLLs](../debugger/how-to-debug-native-dlls.md)   

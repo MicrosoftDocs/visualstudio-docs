@@ -67,7 +67,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -80,13 +80,13 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Stop the service from Service Control Manager.  
+1. Stop the service from Service Control Manager.  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
+3. Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

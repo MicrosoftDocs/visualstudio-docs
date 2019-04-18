@@ -25,9 +25,9 @@ Outlining is used to expand or collapse different regions of text. The way outli
 
 ## To support outlining
 
-1.  Implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage> on your language service object.
+1. Implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage> on your language service object.
 
-2.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions%2A> on the current outlining session object to add new outline regions.
+2. Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions%2A> on the current outlining session object to add new outline regions.
 
 ## Robust programming
  When a user selects **Collapse To Definitions** on the **Outlining** menu, the IDE calls <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage.CollapseToDefinitions%2A> on your language service.

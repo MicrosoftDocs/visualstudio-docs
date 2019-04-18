@@ -21,11 +21,11 @@ Visual Studio can generate simulated load for your app by using physical or virt
 
 The load simulation architecture consists of a Visual Studio client, test controller, and test agents.
 
--   The client is used to develop tests, run tests, and view test results.
+- The client is used to develop tests, run tests, and view test results.
 
--   The test controller is used to administer the test agents and collect test results.
+- The test controller is used to administer the test agents and collect test results.
 
--   The test agents are used to run the tests, and collect data including system information and ASP.NET profiling data defined in the test setting.
+- The test agents are used to run the tests, and collect data including system information and ASP.NET profiling data defined in the test setting.
 
 This architecture provides the following benefits:
 

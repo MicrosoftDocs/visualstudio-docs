@@ -17,11 +17,11 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Adding nodes to a shader graph  
+- Adding nodes to a shader graph  
   
--   Disconnecting nodes  
+- Disconnecting nodes  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## The Lambert lighting model  
  The Lambert lighting model incorporates ambient and directional lighting to shade objects in a 3-D scene. The ambient components provide a base level of illumination in the 3-D scene. The directional components provide additional illumination from directional (far-away) light sources. Ambient illumination affects all surfaces in the scene equally, regardless of their orientation. For a given surface, it's a product of the ambient color of the surface and the color and intensity of ambient lighting in the scene. Directional lighting affects every surface in the scene differently, based on the orientation of the surface with respect to the direction of the light source. It's a product of the diffuse color and orientation of the surface, and the color, intensity, and direction of the light sources. Surfaces that face directly toward the light source receive the maximum contribution and surfaces that face directly away receive no contribution. Under the Lambert lighting model, the ambient component and one or more directional components are combined to determine the total diffuse color contribution for each point on the object.  

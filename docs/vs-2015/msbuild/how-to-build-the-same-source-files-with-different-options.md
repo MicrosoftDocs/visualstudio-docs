@@ -27,7 +27,7 @@ When you build projects, you frequently compile the same components with differe
   
 #### To set a group of properties based on another property  
   
--   Use a `Condition` attribute in a `PropertyGroup` element similar to the following:  
+- Use a `Condition` attribute in a `PropertyGroup` element similar to the following:  
   
     ```  
     <PropertyGroup Condition="'$(Flavor)'=='DEBUG'">  
@@ -38,7 +38,7 @@ When you build projects, you frequently compile the same components with differe
   
 #### To define a property based on another property  
   
--   Use a `Condition` attribute in a `Property` element similar to the following:  
+- Use a `Condition` attribute in a `Property` element similar to the following:  
   
     ```  
     <DebugType Condition="'$(Flavor)'=='DEBUG'">full</DebugType>  
@@ -49,7 +49,7 @@ When you build projects, you frequently compile the same components with differe
   
 #### To set a project property at the command line  
   
--   Use the **/property** switch with the property and property value. For example:  
+- Use the **/property** switch with the property and property value. For example:  
   
     ```  
     msbuild file.proj /property:Flavor=Debug  

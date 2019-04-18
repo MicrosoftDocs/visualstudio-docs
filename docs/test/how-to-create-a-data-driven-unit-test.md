@@ -21,27 +21,27 @@ Using the Microsoft unit test framework for managed code, you can set up a unit 
 
 Creating a data-driven unit test involves the following steps:
 
-1.  Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.
+1. Create a data source that contains the values that you use in the test method. The data source can be any type that is registered on the machine that runs the test.
 
-2.  Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.
+2. Add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public `TestContext` property to the test class.
 
-3.  Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.
+3. Create a unit test method and add a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> attribute to it.
 
-4.  Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.
+4. Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> indexer property to retrieve the values that you use in a test.
 
 ## The method under test
 
 As an example, let's assume that you have:
 
-1.  A solution called `MyBank` that accepts and processes transactions for different types of accounts.
+1. A solution called `MyBank` that accepts and processes transactions for different types of accounts.
 
-2.  A project in `MyBank` called `BankDb` that manages the transactions for accounts.
+2. A project in `MyBank` called `BankDb` that manages the transactions for accounts.
 
-3.  A class called `Maths` in the `DbBank` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.
+3. A class called `Maths` in the `DbBank` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.
 
-4.  A unit test project called `BankDbTests` to test the behavior of the `BankDb` component.
+4. A unit test project called `BankDbTests` to test the behavior of the `BankDb` component.
 
-5.  A unit test class called `MathsTests` to verify the behavior of the `Maths` class.
+5. A unit test class called `MathsTests` to verify the behavior of the `Maths` class.
 
 We will test a method in `Maths` that adds two integers using a loop:
 

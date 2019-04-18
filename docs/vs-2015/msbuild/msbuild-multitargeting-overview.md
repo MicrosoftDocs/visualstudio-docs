@@ -20,15 +20,15 @@ By using MSBuild, you can compile an application to run on any one of several ve
   
  These are some of the features of MSBuild targeting:  
   
--   You can develop an application that targets an earlier version of the .NET Framework, for example, versions 2.0, 3.5, or 4.  
+- You can develop an application that targets an earlier version of the .NET Framework, for example, versions 2.0, 3.5, or 4.  
   
--   You can target a framework other than the .NET Framework, for example, the Silverlight Framework.  
+- You can target a framework other than the .NET Framework, for example, the Silverlight Framework.  
   
--   You can target a *framework profile*, which is a predefined subset of a target framework.  
+- You can target a *framework profile*, which is a predefined subset of a target framework.  
   
--   If a service pack for the current version of the .NET Framework is released, you could target it.  
+- If a service pack for the current version of the .NET Framework is released, you could target it.  
   
--   MSBuild targeting guarantees that an application uses only the functionality that is available in the targeted framework and platform.  
+- MSBuild targeting guarantees that an application uses only the functionality that is available in the targeted framework and platform.  
   
 ## Target Framework and Platform  
  A *target framework* is the version of the .NET Framework that a project is built to run on, and a *target platform* is the system platform that the project is built to run on.  For example, you might want to target a .NET Framework 2.0 application to run on a 32-bit platform that is compatible with the 802x86 processor family (x86). The combination of target framework and target platform is known as the *target context*. For more information, see [Target Framework and Target Platform](../msbuild/msbuild-target-framework-and-target-platform.md).  

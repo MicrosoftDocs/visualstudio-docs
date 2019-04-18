@@ -27,11 +27,11 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
   The following sequence shows the typical course of selection tracking.
 
-1.  The IDE retrieves the selection context from the newly opened window and puts it in the global selection context. If the selection context uses HIERARCHY_DONTPROPAGATE or SELCONTAINER_DONTPROPAGATE, that information is not propagated to the global context. For more information, see [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md).
+1. The IDE retrieves the selection context from the newly opened window and puts it in the global selection context. If the selection context uses HIERARCHY_DONTPROPAGATE or SELCONTAINER_DONTPROPAGATE, that information is not propagated to the global context. For more information, see [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md).
 
-2.  Notification events are broadcast to any VSPackage that requested them.
+2. Notification events are broadcast to any VSPackage that requested them.
 
-3.  The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.
+3. The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.
 
 ## See Also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>

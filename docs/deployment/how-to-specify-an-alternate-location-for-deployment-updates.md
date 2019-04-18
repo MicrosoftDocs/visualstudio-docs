@@ -24,17 +24,17 @@ You can install your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_m
 
 ### Specify an alternate location for updates by using MageUI.exe (Windows Forms-based utility)
 
-1.  Open a .NET Framework command prompt and type:
+1. Open a .NET Framework command prompt and type:
 
      **mageui.exe**
 
-2.  On the **File** menu, choose **Open** to open your application's deployment manifest.
+2. On the **File** menu, choose **Open** to open your application's deployment manifest.
 
-3.  Select the **Deployment Options** tab.
+3. Select the **Deployment Options** tab.
 
-4.  In the text box named **Launch Location**, enter the URL to the directory that will contain the deployment manifest for application updates.
+4. In the text box named **Launch Location**, enter the URL to the directory that will contain the deployment manifest for application updates.
 
-5.  Save the deployment manifest.
+5. Save the deployment manifest.
 
 ### Specify an alternate location for updates by using Mage.exe
 

@@ -20,7 +20,7 @@ You created a new label, but gave it the name of an existing label. Labels can b
   
 ### To correct this error  
   
--   Ensure that all labels you use in your programs are unique within their respective scopes.  
+- Ensure that all labels you use in your programs are unique within their respective scopes.  
   
 ## See Also  
  [Labeled Statement](../../javascript/reference/labeled-statement-javascript.md)   

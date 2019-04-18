@@ -34,7 +34,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
 #### To register a library with the object manager  
   
-1.  Create a library.  
+1. Create a library.  
   
     ```vb  
     Private m_CallBrowserLibrary As CallBrowser.Library = Nothing  
@@ -51,7 +51,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
     ```  
   
-2.  Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> method.  
+2. Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A> method.  
   
     ```vb  
     Private Sub RegisterLibrary()  
@@ -107,7 +107,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
 #### To unregister a library with the object manager  
   
-1.  Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> method.  
+1. Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary%2A> method.  
   
     ```vb  
     Private Sub UnregisterLibrary()  

@@ -25,22 +25,22 @@ ms.workload:
 
 #### To open the Feature Designer
 
-1.  In **Solution Explorer**, expand **Features**.
+1. In **Solution Explorer**, expand **Features**.
 
-2.  Double-click the *Feature1* item, or open the shortcut menu for the *Feature1* item and then choose **View Designer**.
+2. Double-click the *Feature1* item, or open the shortcut menu for the *Feature1* item and then choose **View Designer**.
 
 ## View the packaged manifest file
  You can use the Feature Designer to modify and generate the packaged manifest file for the Feature (*feature.xml*). Then, you can view the XML code for this file in Visual Studio.
 
 #### To view the packaged manifest file
 
-1.  In the **Feature Designer**, choose the **Manifest** tab.
+1. In the **Feature Designer**, choose the **Manifest** tab.
 
 #### To view the packaged manifest file by using Solution Explorer
 
-1.  In **Solution Explorer**, choose the **Show All Files** icon.
+1. In **Solution Explorer**, choose the **Show All Files** icon.
 
-2.  Expand Features, expand FeatureName, expand FeatureName.feature, and then open the *\<FeatureName>.Template.xml* file.
+2. Expand Features, expand FeatureName, expand FeatureName.feature, and then open the *\<FeatureName>.Template.xml* file.
 
     > [!NOTE]
     >  When you open the Feature template manifest XML file, the files are automatically validated and the warnings that appear in the Error List window can be ignored.
@@ -50,13 +50,13 @@ ms.workload:
 
 #### To change the manifest template by using the XML Editor
 
-1.  In the **Feature Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then choose the **Open in XML Editor** link.
+1. In the **Feature Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then choose the **Open in XML Editor** link.
 
      Changes to the XML are merged into the packaged manifest file.
 
 #### To change the manifest template by using the Manifest Template pane
 
-1.  In the **Feature Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then change the XML that appears in the Manifest Template pane.
+1. In the **Feature Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then change the XML that appears in the Manifest Template pane.
 
      Changes to the XML appear in the **Preview of Packaged Manifest** pane.
 
@@ -68,9 +68,9 @@ ms.workload:
 
 #### To overwrite packaged manifest file by disabling the designer
 
-1.  In the **Feature Designer**, choose the **Manifest** tab.
+1. In the **Feature Designer**, choose the **Manifest** tab.
 
-2.  Expand the **Edit Options** node, choose the **Overwrite generated XML and edit manifest in the XML editor** link, and then choose the **Yes** button.
+2. Expand the **Edit Options** node, choose the **Overwrite generated XML and edit manifest in the XML editor** link, and then choose the **Yes** button.
 
      The template is updated with the current packaged manifest file.
 
@@ -79,9 +79,9 @@ ms.workload:
 
 #### To re-enable the designer
 
-1.  In the **Feature Designer**, choose the **Discard manifest edits and re-enable the designer** link, and then choose the **Yes** button.
+1. In the **Feature Designer**, choose the **Discard manifest edits and re-enable the designer** link, and then choose the **Yes** button.
 
-2.  The template is refreshed with the original text, and any changes to the XML are lost.
+2. The template is refreshed with the original text, and any changes to the XML are lost.
 
 ## See also
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

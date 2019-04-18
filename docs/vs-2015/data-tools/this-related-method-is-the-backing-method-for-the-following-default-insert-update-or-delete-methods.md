@@ -19,13 +19,13 @@ This related method is the backing method for the following default insert, upda
   
 ### To delete the selected method, causing the entity class to use runtime updates  
   
--   Click **Yes**.  
+- Click **Yes**.  
   
      The selected method is deleted and any classes that used this method for overriding update behavior are reverted to using the default LINQ to SQL runtime behavior.  
   
 ### To close the message box, leaving the selected method unchanged  
   
--   Click **No**.  
+- Click **No**.  
   
      The message box closes and no changes are made.  
   

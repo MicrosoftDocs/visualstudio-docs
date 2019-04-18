@@ -27,17 +27,17 @@ The Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic na
   
 ### To use the Microsoft symbol server  
   
-1.  Create a folder to contain the symbol file information, such as C:\SymbolCache.  
+1. Create a folder to contain the symbol file information, such as C:\SymbolCache.  
   
-2.  On the **Tools** menu, click **Options**.  
+2. On the **Tools** menu, click **Options**.  
   
      The **Options** dialog box appears.  
   
-3.  Expand the **Debugging** tree, and then click **Symbols**.  
+3. Expand the **Debugging** tree, and then click **Symbols**.  
   
-4.  In the **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers**  
+4. In the **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers**  
   
-5.  In the **Cache symbols from the symbol server to this directory**, type the path of the folder that was created in step 1, for example:  
+5. In the **Cache symbols from the symbol server to this directory**, type the path of the folder that was created in step 1, for example:  
   
      **C:\SymbolCache**  
   

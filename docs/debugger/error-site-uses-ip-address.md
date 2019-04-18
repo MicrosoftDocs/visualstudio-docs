@@ -24,11 +24,11 @@ This error occurs when the debugger tries to auto-attach to a Web application th
 
 ### To correct this error
 
-1.  Use manual attach instead (from the Debug menu, choose **Attach to Process**).
+1. Use manual attach instead (from the Debug menu, choose **Attach to Process**).
 
      —or—
 
-2.  Change the **IIS Web site identification** setting.
+2. Change the **IIS Web site identification** setting.
 
 ## See Also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

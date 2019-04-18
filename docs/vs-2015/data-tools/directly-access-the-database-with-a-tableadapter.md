@@ -39,7 +39,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 #### To insert new records directly into a database  
   
--   Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind databaseas an example.  
+- Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind databaseas an example.  
   
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
@@ -49,7 +49,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 #### To update records directly in a database  
   
--   Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.  
+- Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.  
   
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
@@ -59,7 +59,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
   
 #### To delete records directly from a database  
   
--   Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind databaseas an example.  
+- Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind databaseas an example.  
   
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  

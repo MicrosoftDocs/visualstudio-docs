@@ -22,13 +22,13 @@ This section elaborates the choices of source control plug-ins and source contro
 
  If you want to implement a source control solution that provides flexibility and richer control over the source control logic and UI, you may prefer the source control package integration route. You can:
 
-1.  Register your own source control VSPackage (see [Registration and selection](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)).
+1. Register your own source control VSPackage (see [Registration and selection](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)).
 
-2.  Replace the default source control UI with your custom UI (see [Custom user interface](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)).
+2. Replace the default source control UI with your custom UI (see [Custom user interface](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)).
 
-3.  Specify glyphs to be used and handle Solution Explorer glyph events (see [Glyph control](../../extensibility/internals/glyph-control-source-control-vspackage.md)).
+3. Specify glyphs to be used and handle Solution Explorer glyph events (see [Glyph control](../../extensibility/internals/glyph-control-source-control-vspackage.md)).
 
-4.  Handle Query Edit and Query Save events (see [Query Edit Query Save](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).
+4. Handle Query Edit and Query Save events (see [Query Edit Query Save](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)).
 
 ## See also
 - [Create a source control plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)

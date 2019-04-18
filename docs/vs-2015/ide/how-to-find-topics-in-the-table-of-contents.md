@@ -30,9 +30,9 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
   
 #### To filter the TOC  
   
-1.  Choose the **Contents** tab.  
+1. Choose the **Contents** tab.  
   
-2.  In the **Filter Contents** text box, enter a term.  
+2. In the **Filter Contents** text box, enter a term.  
   
 > [!NOTE]
 >  If the filter takes a long time to run, you might display results more quickly by using the `title:` advanced search operator.  
@@ -42,9 +42,9 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
   
 #### To synchronize the TOC with the topic window  
   
-1.  View a topic.  
+1. View a topic.  
   
-2.  Click the **Show Topic in Contents** button on the toolbar, or press Ctrl+S.  
+2. Click the **Show Topic in Contents** button on the toolbar, or press Ctrl+S.  
   
      The **Contents** tab opens and displays the topic's location in the TOC.  
   

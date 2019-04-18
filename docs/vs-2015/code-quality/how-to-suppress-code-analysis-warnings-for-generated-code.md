@@ -24,8 +24,8 @@ Managed code compilers often generate code that is added to a project to facilit
   
 ### To suppress warnings for generated code in a project  
   
-1.  Right-click the project in Solution Explorer, and then click **Properties**.  
+1. Right-click the project in Solution Explorer, and then click **Properties**.  
   
-2.  Click **Code Analysis**.  
+2. Click **Code Analysis**.  
   
-3.  Select the **Suppress results from generated code** check box.
+3. Select the **Suppress results from generated code** check box.

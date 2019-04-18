@@ -21,7 +21,7 @@ If you are using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] in [!INCLUD
 >  If multiple versions of Visual Studio have been installed and uninstalled on your machine, WF3 debugging can fail with one of the two following possibilities:  
 > 
 > - Your breakpoints are not hit.  
->   -   The following message is displayed:  
+>   - The following message is displayed:  
 > 
 >   **Unable to start debugging on the web server. The debugger is not properly installed.  Cannot debug the requested type of code.  Run setup to install or repair the debugger.**  
 > 

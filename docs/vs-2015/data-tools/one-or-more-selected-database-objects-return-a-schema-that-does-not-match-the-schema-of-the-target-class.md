@@ -19,9 +19,9 @@ One or more selected database objects return a schema that does not match the sc
   
 ### To correct this error  
   
-1.  Click **OK** to dismiss the dialog box.  
+1. Click **OK** to dismiss the dialog box.  
   
-2.  Select a database object that returns data that matches the schema of the target class (the class the database object is being dropped onto in the O/R Designer).  
+2. Select a database object that returns data that matches the schema of the target class (the class the database object is being dropped onto in the O/R Designer).  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

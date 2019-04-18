@@ -31,6 +31,7 @@ If you just want your code to attach values to any element in a dependency diagr
 >     ```xml
 >     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>
 >     ```
+>
 > 3. Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**. Enter:
 >
 >      `devenv /rootSuffix /updateConfiguration`
@@ -56,15 +57,15 @@ public class MyProperty : PropertyExtension<ILayerElement>
 
 You can define properties on <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> or any of its derived classes, which include:
 
--   `ILayerModel` - the model
+- `ILayerModel` - the model
 
--   `ILayer` - each layer
+- `ILayer` - each layer
 
--   `ILayerDependencyLink` - the links between layers
+- `ILayerDependencyLink` - the links between layers
 
--   `ILayerComment`
+- `ILayerComment`
 
--   `ILayerCommentLink`
+- `ILayerCommentLink`
 
 ## Example
 

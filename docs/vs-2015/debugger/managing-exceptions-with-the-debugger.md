@@ -41,11 +41,11 @@ An exception is an indication of an error state that occurs while a program is b
   
  When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases:  
   
--   when an exception is thrown and is not handled.  
+- when an exception is thrown and is not handled.  
   
--   when the debugger is set to break execution immediately when an exception is thrown, before any handler is invoked.  
+- when the debugger is set to break execution immediately when an exception is thrown, before any handler is invoked.  
   
--   if you have set [Just My Code](../debugger/just-my-code.md), and the debugger is set to break on any exception that is not handled in user code.  
+- if you have set [Just My Code](../debugger/just-my-code.md), and the debugger is set to break on any exception that is not handled in user code.  
   
 > [!NOTE]
 >  ASP.NET has a top-level exception handler that shows error pages in a browser. It does not break execution unless **Just My Code** is turned on. For an example, see [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) below.  
@@ -135,7 +135,7 @@ An exception is an indication of an error state that occurs while a program is b
   
    ![Restore defaults in Exception Settings](../debugger/media/restoredefaultexceptions.png "RestoreDefaultExceptions")  
   
-###  <a name="BKMK_UserUnhandled"></a> Setting the debugger to continue on user-unhandled exceptions  
+### <a name="BKMK_UserUnhandled"></a> Setting the debugger to continue on user-unhandled exceptions  
  If you are debugging .NET or JavaScript code with [Just My Code](../debugger/just-my-code.md), you can tell the debugger not to break on exceptions that are not handled in user code but are handled somewhere else.  
   
 1. In the **Exception Settings** window, open the context menu by right-clicking in window and then selecting **Show Columns**. (If you have turned off **Just My Code**, you will not see this command.)  

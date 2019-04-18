@@ -26,13 +26,13 @@ From the profiling session page window, you can control the collection of profil
   
 ### To pause,  resume, or stop profiling  
   
--   On the profiling session page:  
+- On the profiling session page:  
   
-    -   Choose **Pause Collection** to suspend data collection.  
+    - Choose **Pause Collection** to suspend data collection.  
   
-    -   Choose **Resume Collection** to restart data collection after it has been paused.  
+    - Choose **Resume Collection** to restart data collection after it has been paused.  
   
-    -   Choose **Stop profiling** to end the profiling session and generate reports.  
+    - Choose **Stop profiling** to end the profiling session and generate reports.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   

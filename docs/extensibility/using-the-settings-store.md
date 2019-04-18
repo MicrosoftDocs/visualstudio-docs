@@ -71,11 +71,11 @@ There are two kinds of settings stores:
 
 #### To use a registry editor to verify configuration settings
 
-1.  Open Regedit.exe.
+1. Open Regedit.exe.
 
-2.  Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts\\.
+2. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts\\.
 
     > [!NOTE]
     >  Make sure that you are looking at the key that contains \14.0Exp_Config\ and not \14.0_Config\\. When you run the experimental instance of Visual Studio, configuration settings are in the registry hive "14.0Exp_Config".
 
-3.  Expand the \Installed Products\ node. If the message in the previous steps is **Microsoft Windows Phone Developer Tools Installed: True**, then \Installed Products\ should contain a Microsoft Windows Phone Developer Tools node. If the message is **Microsoft Windows Phone Developer Tools Installed: False**, then \Installed Products\ should not contain a Microsoft Windows Phone Developer Tools node.
+3. Expand the \Installed Products\ node. If the message in the previous steps is **Microsoft Windows Phone Developer Tools Installed: True**, then \Installed Products\ should contain a Microsoft Windows Phone Developer Tools node. If the message is **Microsoft Windows Phone Developer Tools Installed: False**, then \Installed Products\ should not contain a Microsoft Windows Phone Developer Tools node.

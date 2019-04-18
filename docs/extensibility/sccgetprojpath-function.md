@@ -16,11 +16,11 @@ ms.workload:
 # SccGetProjPath function
 This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in. It is called when the user is:
 
--   Creating a new project
+- Creating a new project
 
--   Adding an existing project to version control
+- Adding an existing project to version control
 
--   Attempting to find an existing version control project
+- Attempting to find an existing version control project
 
 ## Syntax
 

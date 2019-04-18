@@ -35,15 +35,15 @@ Before you write code against an external component or connected service, your p
   
  You can make a reference to the following types of components/services:  
   
--   Windows Store app references  
+- Windows Store app references  
   
--   .NET Framework class libraries or assemblies  
+- .NET Framework class libraries or assemblies  
   
--   COM components  
+- COM components  
   
--   Other assemblies or class libraries of projects in the same solution  
+- Other assemblies or class libraries of projects in the same solution  
   
--   XML Web services  
+- XML Web services  
   
 ## Windows Store App References  
   
@@ -57,9 +57,9 @@ Before you write code against an external component or connected service, your p
   
  If you determine that the Extension SDK being referenced by your app is not supported, then you need to perform the following steps:  
   
-1.  Look at the name of the project that is causing the error. The platform your project is targeting is noted in parentheses next to the project name. For example, **MyProjectName (Windows 8.1)** means that your project **MyProjectName** is targeting platform version [!INCLUDE[win81](../includes/win81-md.md)].  
+1. Look at the name of the project that is causing the error. The platform your project is targeting is noted in parentheses next to the project name. For example, **MyProjectName (Windows 8.1)** means that your project **MyProjectName** is targeting platform version [!INCLUDE[win81](../includes/win81-md.md)].  
   
-2.  Go to the site of the vendor who owns the unsupported Extension SDK and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.  
+2. Go to the site of the vendor who owns the unsupported Extension SDK and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.  
   
     > [!NOTE]
     >  One way to find out whether an Extension SDK has dependencies on other Extension SDKs is to restart Visual Studio, create a new C# Windows Store project, right-click on the project and choose **Add Reference**, go to the **Windows** tab, go to the **Extensions** sub-tab, select the Extension SDK and look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.  
@@ -67,20 +67,20 @@ Before you write code against an external component or connected service, your p
     > [!IMPORTANT]
     >  If your project is targeting Windows 10, and the Extension SDK installed in the previous step has a dependency on the Microsoft Visual C++ Runtime Package, the version of Microsoft Visual C++ Runtime Package that is compatible with Windows 10 is v14.0 and is installed with Visual Studio 2015.  
   
-3.  If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the site(s) of the vendor(s) who own the dependencies and install the versions of these dependencies that are compatible with the version of the platform your project is targeting.  
+3. If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the site(s) of the vendor(s) who own the dependencies and install the versions of these dependencies that are compatible with the version of the platform your project is targeting.  
   
-4.  Restart Visual Studio and open your app.  
+4. Restart Visual Studio and open your app.  
   
-5.  Right-click on the **References** node in the project that caused the error and choose **Add Reference**  
+5. Right-click on the **References** node in the project that caused the error and choose **Add Reference**  
   
-6.  Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs and check the checkboxes for the new Extension SDKs. Click **OK**.  
+6. Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs and check the checkboxes for the new Extension SDKs. Click **OK**.  
   
 ## Adding a Reference at Design Time  
  When you make a reference to an assembly in your project, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] searches for the assembly in the following locations:  
   
--   The current project directory. (You can find these assemblies by using the **Browse** tab.)  
+- The current project directory. (You can find these assemblies by using the **Browse** tab.)  
   
--   Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)  
+- Other project directories in the same solution. (You can find these assemblies on the **Projects** tab.)  
   
 > [!NOTE]
 >  All projects contain an implied reference to mscorlib. Visual Basic projects contain an implied reference to `Microsoft.VisualBasic`.  

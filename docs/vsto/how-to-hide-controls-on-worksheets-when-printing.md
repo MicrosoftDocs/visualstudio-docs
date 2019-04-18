@@ -29,11 +29,11 @@ ms.workload:
 
 ## To hide controls when a worksheet is printed
 
-1.  Create or open an Excel project in Visual Studio and verify that **Sheet1** is visible in the designer. For information about creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create or open an Excel project in Visual Studio and verify that **Sheet1** is visible in the designer. For information about creating projects, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.Controls.Button> control to a cell on `Sheet1`.
+2. From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.Controls.Button> control to a cell on `Sheet1`.
 
-3.  In the **Properties** window, set the <xref:Microsoft.Office.Tools.Excel.Controls.Button.PrintObject%2A> property to **False**.
+3. In the **Properties** window, set the <xref:Microsoft.Office.Tools.Excel.Controls.Button.PrintObject%2A> property to **False**.
 
 ## See also
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

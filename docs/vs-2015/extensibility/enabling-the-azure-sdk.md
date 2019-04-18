@@ -23,11 +23,11 @@ The Azure SDK for .NET helps you create, configure, build, debug, run, and packa
   
 ### To enable the Azure SDK  
   
-1.  On the **File** menu, create a new project. (Click **New** and then click **Project**.)  
+1. On the **File** menu, create a new project. (Click **New** and then click **Project**.)  
   
-2.  Expand the node for either **Visual Basic** or **C#** and then click **Cloud**.  
+2. Expand the node for either **Visual Basic** or **C#** and then click **Cloud**.  
   
-3.  In the middle pane, select **Get Azure SDK for .NET**, and then click **OK**.  
+3. In the middle pane, select **Get Azure SDK for .NET**, and then click **OK**.  
   
      Follow the instructions in the installer.  
   

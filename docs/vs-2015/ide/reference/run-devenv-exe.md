@@ -38,9 +38,9 @@ devenv {/run|/r} {SolutionName|ProjectName}
 ## Remarks  
  Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch launches the integrated development environment (IDE) and leaves it active after the project or solution has completed running.  
   
--   Enclose strings that include spaces in double quotation marks.  
+- Enclose strings that include spaces in double quotation marks.  
   
--   Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
+- Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
   
 ## Example  
  This example runs the solution `MySolution` using the active deployment configuration.  

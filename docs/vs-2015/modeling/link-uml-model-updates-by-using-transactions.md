@@ -56,15 +56,15 @@ When you define an extension to the UML designers in Visual Studio, you can grou
   
  Notice the following:  
   
--   You must always include `Commit()` at the end of the transaction. If a transaction is disposed without being committed, the transaction will be rolled back. That is, the model will be restored to its state at the start of the transaction.  
+- You must always include `Commit()` at the end of the transaction. If a transaction is disposed without being committed, the transaction will be rolled back. That is, the model will be restored to its state at the start of the transaction.  
   
--   If an exception occurs that is not caught inside the transaction, the transaction will be rolled back. It is a frequent pattern to enclose the `using` block of the transaction inside a `try…catch` block.  
+- If an exception occurs that is not caught inside the transaction, the transaction will be rolled back. It is a frequent pattern to enclose the `using` block of the transaction inside a `try…catch` block.  
   
--   You can nest transactions.  
+- You can nest transactions.  
   
--   You can provide any non-blank name to `BeginTransaction()`.  
+- You can provide any non-blank name to `BeginTransaction()`.  
   
--   Only the UML Model Store is affected by these transactions. Modeling transactions do not affect: variables, external stores such as files and databases, layer diagrams, and code models.  
+- Only the UML Model Store is affected by these transactions. Modeling transactions do not affect: variables, external stores such as files and databases, layer diagrams, and code models.  
   
 ## Example  
   

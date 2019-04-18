@@ -18,9 +18,9 @@ The Zoom control is a slider that lets you zoom in and out on the timeline so th
 
 ## Other ways to zoom
 
--   Zooming in: Drag to select an area in the timeline view. When you release the mouse button, the timeline view zooms in on the selected range.
+- Zooming in: Drag to select an area in the timeline view. When you release the mouse button, the timeline view zooms in on the selected range.
 
--   Zooming in and out: Hover over the timeline and then press **Ctrl** while you move the mouse wheel.
+- Zooming in and out: Hover over the timeline and then press **Ctrl** while you move the mouse wheel.
 
 ## See also
 - [Cores View](../profiling/cores-view.md)

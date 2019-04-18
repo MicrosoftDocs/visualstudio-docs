@@ -24,11 +24,11 @@ NOTE]
   
 #### To toggle full solution analysis  
   
-1.  On the main menu in Visual Studio, choose **Tools** &#124; **Options** to view the **Options** dialog box.  
+1. On the main menu in Visual Studio, choose **Tools** &#124; **Options** to view the **Options** dialog box.  
   
-2.  In the **Options** dialog box, choose **Text Editor** &#124; **C#** or **Basic** &#124; **Advanced**.  
+2. In the **Options** dialog box, choose **Text Editor** &#124; **C#** or **Basic** &#124; **Advanced**.  
   
-3.  Select the **Enable full solution analysis** check box to enable full solution analysis, or clear the box to disable it. Choose the **OK** button when you're done.  
+3. Select the **Enable full solution analysis** check box to enable full solution analysis, or clear the box to disable it. Choose the **OK** button when you're done.  
   
      ![Enable full solution analysis check box.](../code-quality/media/fsa-toolsoptions.png "FSA_ToolsOptions")  
   

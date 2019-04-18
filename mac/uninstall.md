@@ -43,12 +43,14 @@ To run the script, do the following steps:
     ```bash
     cd /location/of/file
     ```
+
 3. Make the script executable and the run it with **sudo**:
 
     ```bash
     chmod +x ./uninstall-vsmac.sh
     sudo ./uninstall-vsmac.sh
     ```
+
 4. Finally, delete the uninstall script.
 
 ### .NET Core script
@@ -63,12 +65,14 @@ To run the script, do the following steps:
     ```bash
     cd /location/of/file
     ```
+
 3. Make the script executable and the run it with **sudo**:
 
     ```bash
     chmod +x ./dotnet-uninstall-pkgs.sh
     sudo ./dotnet-uninstall-pkgs.sh
     ```
+
 4. Finally, delete the .NET Core uninstall script.
 
 ## Uninstall Visual Studio for Mac

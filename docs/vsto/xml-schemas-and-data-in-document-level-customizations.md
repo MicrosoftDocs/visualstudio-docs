@@ -34,16 +34,16 @@ ms.workload:
 
  There are two main objects:
 
--   XML schema (XSD file). For every schema in the workbook, Visual Studio adds a schema to the project. This appears as a project item with an XSD extension in **Solution Explorer**.
+- XML schema (XSD file). For every schema in the workbook, Visual Studio adds a schema to the project. This appears as a project item with an XSD extension in **Solution Explorer**.
 
--   A typed <xref:System.Data.DataSet> class. This class is created based on the schema. This dataset class is visible in **Class View**.
+- A typed <xref:System.Data.DataSet> class. This class is created based on the schema. This dataset class is visible in **Class View**.
 
 ## Objects created when schema elements are mapped to Excel worksheets
  When you map a schema element from the **XML Source** task pane to a worksheet, Visual Studio automatically creates several objects and adds them to your project:
 
--   Controls. For every mapped object in the workbook, an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control (for non-repeating schema elements) or a <xref:Microsoft.Office.Tools.Excel.ListObject> control (for repeating schema elements) is created in the programming model. The <xref:Microsoft.Office.Tools.Excel.ListObject> control can be deleted only by deleting the mappings and the mapped objects from the workbook. For more information about controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
+- Controls. For every mapped object in the workbook, an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control (for non-repeating schema elements) or a <xref:Microsoft.Office.Tools.Excel.ListObject> control (for repeating schema elements) is created in the programming model. The <xref:Microsoft.Office.Tools.Excel.ListObject> control can be deleted only by deleting the mappings and the mapped objects from the workbook. For more information about controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
--   BindingSource. When you create an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> by mapping a non-repeating schema element to the worksheet, a <xref:System.Windows.Forms.BindingSource> is created and the <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is bound to the <xref:System.Windows.Forms.BindingSource>. You must bind the <xref:System.Windows.Forms.BindingSource> to an instance of the data source that matches the schema mapped to the document, such as an instance of the typed <xref:System.Data.DataSet> class that was created. Create the binding by setting the <xref:System.Windows.Forms.BindingSource.DataSource%2A> and <xref:System.Windows.Forms.BindingSource.DataMember%2A> properties, which are exposed in the **Properties** window.
+- BindingSource. When you create an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> by mapping a non-repeating schema element to the worksheet, a <xref:System.Windows.Forms.BindingSource> is created and the <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is bound to the <xref:System.Windows.Forms.BindingSource>. You must bind the <xref:System.Windows.Forms.BindingSource> to an instance of the data source that matches the schema mapped to the document, such as an instance of the typed <xref:System.Data.DataSet> class that was created. Create the binding by setting the <xref:System.Windows.Forms.BindingSource.DataSource%2A> and <xref:System.Windows.Forms.BindingSource.DataMember%2A> properties, which are exposed in the **Properties** window.
 
     > [!NOTE]
     >  The <xref:System.Windows.Forms.BindingSource> is not created for <xref:Microsoft.Office.Tools.Excel.ListObject> objects. You must manually bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to the data source by setting the <xref:System.Windows.Forms.BindingSource.DataSource%2A> and <xref:System.Windows.Forms.BindingSource.DataMember%2A> properties in the **Properties** window.

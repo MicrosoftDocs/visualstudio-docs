@@ -36,7 +36,7 @@ To include files for a build, they must be included in an item list in the [!INC
 
 #### To declare multiple items
 
--   Use the `Include` attributes similar to following:
+- Use the `Include` attributes similar to following:
 
     `<CSFile Include="form1.cs;form2.cs"/>`
 

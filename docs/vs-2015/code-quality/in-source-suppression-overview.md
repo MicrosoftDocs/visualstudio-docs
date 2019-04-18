@@ -48,27 +48,27 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
  Where:  
   
--   **Rule Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Code Analysis for Managed Code Warnings](../code-quality/code-analysis-for-managed-code-warnings.md).  
+- **Rule Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Code Analysis for Managed Code Warnings](../code-quality/code-analysis-for-managed-code-warnings.md).  
   
--   **Rule Id** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.  
+- **Rule Id** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.  
   
--   **Justification** - The text that is used to document the reason for suppressing the message.  
+- **Justification** - The text that is used to document the reason for suppressing the message.  
   
--   **Message Id** - Unique identifier of a problem for each message.  
+- **Message Id** - Unique identifier of a problem for each message.  
   
--   **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:  
+- **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:  
   
-    -   Module  
+    - Module  
   
-    -   Namespace  
+    - Namespace  
   
-    -   Resource  
+    - Resource  
   
-    -   Type  
+    - Type  
   
-    -   Member  
+    - Member  
   
--   **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully-qualified item name.  
+- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully-qualified item name.  
   
 ## SuppressMessage Usage  
  Code Analysis warnings are suppressed at the level to which an instance of the **SuppressMessage** attribute is applied. The purpose of this is to tightly couple the suppression information to the code where the violation occurs.  

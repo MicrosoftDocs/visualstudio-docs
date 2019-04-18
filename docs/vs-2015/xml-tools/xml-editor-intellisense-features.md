@@ -79,19 +79,19 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
  The XML editor does this for the following items:  
   
--   Matching start and end tags.  
+- Matching start and end tags.  
   
--   Any pair of "\<" or ">" angle brackets.  
+- Any pair of "\<" or ">" angle brackets.  
   
--   Start and end of comments.  
+- Start and end of comments.  
   
--   Start and end of processing instructions.  
+- Start and end of processing instructions.  
   
--   Start and end of CDATA blocks.  
+- Start and end of CDATA blocks.  
   
--   Start and end of DTD declarations.  
+- Start and end of DTD declarations.  
   
--   Opening and closing quotes on attributes.  
+- Opening and closing quotes on attributes.  
   
 ## Modifying the IntelliSense Options  
  The IntelliSense and auto-completion features are enabled by default. However, you can change this by modifying your Tools-Options settings.  
@@ -106,11 +106,11 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
 #### To change the auto-completion behavior  
   
-1.  Select **Options** from the **Tools** menu.  
+1. Select **Options** from the **Tools** menu.  
   
-2.  Expand **Text Editor**, expand **XML**, and select **Miscellaneous**.  
+2. Expand **Text Editor**, expand **XML**, and select **Miscellaneous**.  
   
-3.  Make any changes to the **Auto insert** section and click **OK**.  
+3. Make any changes to the **Auto insert** section and click **OK**.  
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)   

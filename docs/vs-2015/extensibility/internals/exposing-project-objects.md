@@ -23,7 +23,7 @@ Custom project types can provide automation objects in order to allow access to 
   
 ### To contribute a VSPackage-specific object for a project  
   
-1.  Add the appropriate keys to the .pkgdef file of your VSPackage.  
+1. Add the appropriate keys to the .pkgdef file of your VSPackage.  
   
      For example, here are the .pkgdef settings for the C++ language project:  
   
@@ -34,7 +34,7 @@ Custom project types can provide automation objects in order to allow access to 
     "VCProjectEngineEventsObject"=""  
     ```  
   
-2.  Implement the code in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> method, as in the following example.  
+2. Implement the code in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A> method, as in the following example.  
   
     ```cpp  
     STDMETHODIMP CVsPackage::GetAutomationObject(  

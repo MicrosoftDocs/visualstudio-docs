@@ -65,11 +65,11 @@ You can use the following resources to help you find answers to problems you enc
 
 For assistance with some common errors in Office solutions, see the following topics:
 
--   [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
+- [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
 
--   [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
+- [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
 
--   [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+- [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
 
 ## Other resources
 

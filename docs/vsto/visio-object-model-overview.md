@@ -23,9 +23,9 @@ ms.workload:
 
  This topic provides a brief overview of the Visio object model. For information about using the Visio object model to perform tasks in Office projects, see the following topics:
 
--   [Work with Visio documents](../vsto/working-with-visio-documents.md)
+- [Work with Visio documents](../vsto/working-with-visio-documents.md)
 
--   [Work with Visio shapes](../vsto/working-with-visio-shapes.md)
+- [Work with Visio shapes](../vsto/working-with-visio-shapes.md)
 
 ## Understand the Visio object model
  Visio provides many objects with which you can interact. These objects are organized in a hierarchy that closely follows the user interface. At the top of the hierarchy is the [Microsoft.Office.Interop.Visio.Application](/office/vba/api/Visio.Application) object. This object represents the current instance of Visio. The `Microsoft.Office.Interop.Visio.Application` object contains the `Microsoft.Office.Interop.Visio.Document` and `Microsoft.Office.Interop.Visio.Page` objects as well as the `Microsoft.Office.Interop.Visio.Documents` and `Microsoft.Office.Interop.Visio.Pages` collections. Each of these objects and collections has many methods and properties that you can access to manipulate and interact with it.
@@ -34,11 +34,11 @@ ms.workload:
 
  The following sections briefly describe the top-level objects and how they interact with each other. These objects include the following objects:
 
--   Application object
+- Application object
 
--   Document object
+- Document object
 
--   Page object
+- Page object
 
 ### Application object
  The Microsoft.Office.Interop.Visio.Application object represents the Visio application, and is the parent of all of the other objects. Its members usually apply to Visio as a whole. You can use the properties and methods of the Microsoft.Office.Interop.Visio.Application and the `Microsoft.Office.Interop.Visio.ApplicationSettings` objects to control the Visio environment.

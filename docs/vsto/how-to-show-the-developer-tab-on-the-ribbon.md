@@ -28,9 +28,9 @@ ms.workload:
 
 ## To show the Developer tab
 
-1.  Start any of the Office applications supported by this topic. See the **Applies to:** note earlier in this topic.
+1. Start any of the Office applications supported by this topic. See the **Applies to:** note earlier in this topic.
 
-2.  On the **File** tab, choose the **Options** button.
+2. On the **File** tab, choose the **Options** button.
 
      The following figure shows the **File** tab and **Options** button in Office 2010.
 
@@ -44,19 +44,19 @@ ms.workload:
 
      ![The Options button in Outlook 2013 Preview](../vsto/media/vsto-office2013-optionsbutton.png "The Options button in Outlook 2013 Preview")
 
-3.  In the _ApplicationName_**Options** dialog box, choose the **Customize Ribbon** button.
+3. In the _ApplicationName_**Options** dialog box, choose the **Customize Ribbon** button.
 
      The following figure shows the **Options** dialog box and the **Customize Ribbon** button in Excel 2010. The location of this button is similar in all other applications listed in the "Applies to" section near the top of this topic.
 
      ![The Customize Ribbon button](../vsto/media/vsto-office2010-customizeribbonbutton.png "The Customize Ribbon button")
 
-4.  In the list of main tabs, select the **Developer** check box.
+4. In the list of main tabs, select the **Developer** check box.
 
      The following figure shows the **Developer** check box in Word 2010 and [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. The location of this check box is similar in all other applications listed in the "Applies to" section near the top of this topic.
 
      ![The Developer check box in the Word Options dialog](../vsto/media/vsto-office2010-developercheckbox.png "The Developer check box in the Word Options dialog")
 
-5.  Choose the **OK** button to close the **Options** dialog box.
+5. Choose the **OK** button to close the **Options** dialog box.
 
 ## See also
 - [Office UI customization](../vsto/office-ui-customization.md)

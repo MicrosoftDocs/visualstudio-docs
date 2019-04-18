@@ -54,21 +54,21 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
 
 ### To modify the smart captioning behavior of the Data Sources window
 
-1.  Open a command window by clicking **Start** and then **Run**.
+1. Open a command window by clicking **Start** and then **Run**.
 
-2.  Type `regedit` in the **Run** dialog box, and click **OK**.
+2. Type `regedit` in the **Run** dialog box, and click **OK**.
 
-3.  Expand the **HKEY_CURRENT_USER** node.
+3. Expand the **HKEY_CURRENT_USER** node.
 
-4.  Expand the **Software** node.
+4. Expand the **Software** node.
 
-5.  Expand the **Microsoft** node.
+5. Expand the **Microsoft** node.
 
-6.  Expand the **VisualStudio** node.
+6. Expand the **VisualStudio** node.
 
-7.  Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
+7. Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
 
-8.  Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
+8. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
 
 9. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionReplacement`.
 
@@ -90,21 +90,21 @@ When you drag items from the [Data Sources Window](http://msdn.microsoft.com/lib
 
 ### To turn off the smart captioning feature
 
-1.  Open a command window by clicking **Start** and then **Run**.
+1. Open a command window by clicking **Start** and then **Run**.
 
-2.  Type `regedit` in the **Run** dialog box, and click **OK**.
+2. Type `regedit` in the **Run** dialog box, and click **OK**.
 
-3.  Expand the **HKEY_CURRENT_USER** node.
+3. Expand the **HKEY_CURRENT_USER** node.
 
-4.  Expand the **Software** node.
+4. Expand the **Software** node.
 
-5.  Expand the **Microsoft** node.
+5. Expand the **Microsoft** node.
 
-6.  Expand the **VisualStudio** node.
+6. Expand the **VisualStudio** node.
 
-7.  Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
+7. Right-click the **10.0** node, and create a new **Key** named `Data Designers`.
 
-8.  Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
+8. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionExpression`.
 
 9. Right-click the **Data Designers** node, and create a new **String Value** named `SmartCaptionReplacement`.
 

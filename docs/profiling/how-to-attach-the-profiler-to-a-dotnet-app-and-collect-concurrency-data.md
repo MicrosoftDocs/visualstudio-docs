@@ -22,9 +22,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To attach the profiler to a running .NET Framework application
 
-1.  Open a command prompt window.
+1. Open a command prompt window.
 
-2.  Start the profiler. Type:
+2. Start the profiler. Type:
 
      [VSPerfCmd](../profiling/vsperfcmd.md) **/start:concurrency  /output:** `OutputFile` [`Options`]
 
@@ -38,24 +38,24 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.|
     |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.|
 
-3.  Start the target application in the typical way.
+3. Start the target application in the typical way.
 
-4.  Attach the profiler to the target application. Type:
+4. Attach the profiler to the target application. Type:
 
      **VSPerfCmd /attach:** `PID` [**/lineoff**] [**/targetclr:**`Version`]
 
-    -   `PID` specifies the process ID of the target application. You can view the process IDs of all running processes in Windows Task Manager.
+    - `PID` specifies the process ID of the target application. You can view the process IDs of all running processes in Windows Task Manager.
 
-    -   [/lineoff](../profiling/lineoff.md) disables the collection of line number data.
+    - [/lineoff](../profiling/lineoff.md) disables the collection of line number data.
 
-    -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
+    - [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
 
 ## Control data collection
  While the target application is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as the starting or shutting down of the application.
 
 #### To start and stop data collection
 
--   The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
+- The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -68,14 +68,14 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application.
+1. Do one of the following to detach the profiler from the target application.
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
          -or-
 
-    -   Close the target application.
+    - Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      VSPerfCmd[/shutdown](../profiling/shutdown.md)

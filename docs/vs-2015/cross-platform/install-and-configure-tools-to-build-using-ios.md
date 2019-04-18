@@ -36,47 +36,47 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
  [Configure the remote agent on the Mac](#ConfigureMac)  
   
-##  <a name="Prerequisites"></a> Prerequisites  
+## <a name="Prerequisites"></a> Prerequisites  
  To install and use the remote agent to develop code for iOS, you must first have these prerequisites:  
   
--   A Mac computer running OS X Mavericks or later  
+- A Mac computer running OS X Mavericks or later  
   
--   An [Apple ID](https://appleid.apple.com/)  
+- An [Apple ID](https://appleid.apple.com/)  
   
--   An active [iOS Developer Program](https://developer.apple.com/programs/ios/) account with Apple  
+- An active [iOS Developer Program](https://developer.apple.com/programs/ios/) account with Apple  
   
--   [Xcode 6](https://developer.apple.com/xcode/downloads/)  
+- [Xcode 6](https://developer.apple.com/xcode/downloads/)  
   
      Xcode 6 can be downloaded from the App Store.  
   
--   Xcode command line tools  
+- Xcode command line tools  
   
      To install the Xcode command line tools, open the Terminal app on your Mac and enter the following command:  
   
      `xcode-select --install`  
   
--   An iOS signing identity configured in Xcode  
+- An iOS signing identity configured in Xcode  
   
      For detailed information on obtaining an iOS Signing Identity, see [Maintaining Your Signing Identities and Certificates](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in the iOS Developer Library. To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button.  
   
--   If you are using an iOS device for development, a Provisioning Profile configured in Xcode for your device  
+- If you are using an iOS device for development, a Provisioning Profile configured in Xcode for your device  
   
      For detailed information on creating provisioning Profiles, see [Creating Provisioning Profiles Using Member Center](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24) in the iOS Developer Library.  
   
--   [Node.js](http://nodejs.org/)  
+- [Node.js](http://nodejs.org/)  
   
--   An updated version of npm  
+- An updated version of npm  
   
      The version of npm that comes with Node.js may not be recent enough to install vcremote. To update npm, open the Terminal app on your Mac and enter the following command:  
   
      `sudo npm install -g npm@latest`  
   
-##  <a name="Install"></a> Install the remote agent for iOS  
+## <a name="Install"></a> Install the remote agent for iOS  
  When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.  
   
  Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#InstallTheTools).  
   
-###  <a name="DownloadInstall"></a> To download and install the remote agent  
+### <a name="DownloadInstall"></a> To download and install the remote agent  
   
 - From the Terminal app on your Mac, enter:  
   
@@ -91,10 +91,10 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
   If you update to a new version of Visual Studio, you must update to the current version of the remote agent as well. To update the remote agent, repeat the steps to download and install the remote agent.  
   
-##  <a name="Start"></a> Start the remote agent  
+## <a name="Start"></a> Start the remote agent  
  The remote agent must be running for Visual Studio to build and run your iOS code. Visual Studio must be paired with the remote agent before it can communicate. By default, the remote agent runs in secured connection mode, which requires a PIN to pair with Visual Studio.  
   
-###  <a name="RemoteAgentStartServer"></a> To start the remote agent  
+### <a name="RemoteAgentStartServer"></a> To start the remote agent  
   
 - From the Terminal app on your Mac, enter:  
   
@@ -114,7 +114,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
 #### To disable secured connection mode  
   
--   To disable secured connection mode in vcremote, enter this command in the Terminal app on your Mac:  
+- To disable secured connection mode in vcremote, enter this command in the Terminal app on your Mac:  
   
      `vcremote --secure false`  
   
@@ -128,9 +128,9 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
 #### To stop the remote agent  
   
--   In the Terminal window vcremote is running in, enter `Control+C`.  
+- In the Terminal window vcremote is running in, enter `Control+C`.  
   
-##  <a name="ConfigureVS"></a> Configure the remote agent in Visual Studio  
+## <a name="ConfigureVS"></a> Configure the remote agent in Visual Studio  
  To connect to the remote agent from Visual Studio, you must specify the remote configuration in the Visual Studio options.  
   
 #### To configure the remote agent from Visual Studio  
@@ -166,68 +166,68 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
    Visual Studio uses the same information to connect to the remote agent on your Mac each time you use it. You do not need to pair Visual Studio with the remote agent again unless you generate a new security certificate on your Mac, or its hostname or IP address changes.  
   
-##  <a name="GeneratePIN"></a> Generate a new security PIN  
+## <a name="GeneratePIN"></a> Generate a new security PIN  
  When you start the remote agent the first time, the generated PIN is valid for a limited amount of time—by default, 10 minutes. If you don't pair Visual Studio to the remote agent before the time expires, you will need to generate a new PIN.  
   
 #### To generate a new PIN  
   
-1.  Stop the agent, or open a second Terminal app window on your Mac and use that to enter the command.  
+1. Stop the agent, or open a second Terminal app window on your Mac and use that to enter the command.  
   
-2.  Enter this command in the Terminal app:  
+2. Enter this command in the Terminal app:  
   
      `vcremote generateClientCert`  
   
      The remote agent generates a new temporary PIN. To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).  
   
-##  <a name="GenerateCert"></a> Generate a new server certificate  
+## <a name="GenerateCert"></a> Generate a new server certificate  
  For security purposes, the server certificates that pair Visual Studio with the remote agent are tied to the IP address or host name of your Mac. If these values change, you must generate a new server certificate, and then reconfigure Visual Studio with the new values.  
   
 #### To generate a new server certificate  
   
-1.  Stop the vcremote agent.  
+1. Stop the vcremote agent.  
   
-2.  Enter this command in the Terminal app:  
+2. Enter this command in the Terminal app:  
   
      `vcremote resetServerCert`  
   
-3.  When prompted for confirmation, enter `Y`.  
+3. When prompted for confirmation, enter `Y`.  
   
-4.  Enter this command in the Terminal app:  
+4. Enter this command in the Terminal app:  
   
      `vcremote generateClientCert`  
   
      This generates a new temporary PIN.  
   
-5.  To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).  
+5. To pair Visual Studio by using the new PIN, repeat the steps in [Configure the remote agent in Visual Studio](#ConfigureVS).  
   
-##  <a name="ConfigureMac"></a> Configure the remote agent on the Mac  
+## <a name="ConfigureMac"></a> Configure the remote agent on the Mac  
  You can configure the remote agent using various command line options. For example, you can specify the port to listen for build requests and specify the maximum number of builds to maintain on the file system. By default, the limit is 10 builds. The remote agent will remove builds that exceed the maximum on shutdown.  
   
 #### To configure the remote agent  
   
--   To see a complete list of remote agent commands, in the Terminal app, enter:  
+- To see a complete list of remote agent commands, in the Terminal app, enter:  
   
      `vcremote --help`  
   
--   To disable secure mode and enable simple HTTP based connections, enter:  
+- To disable secure mode and enable simple HTTP based connections, enter:  
   
      `vcremote --secure false`  
   
      When you use this option, clear the **Secure** checkbox and leave the **Pin** field blank when configuring the agent in Visual Studio.  
   
--   To specify a location for remote agent files, enter:  
+- To specify a location for remote agent files, enter:  
   
      `vcremote --serverDir directory_path`  
   
      where *directory_path* is the location on your Mac to place log files, builds, and server certificates. By default, this location is /Users/*username*/vcremote. Builds are organized by build number in this location.  
   
--   To use a background process to capture `stdout` and `stderr` to a file named server.log, enter:  
+- To use a background process to capture `stdout` and `stderr` to a file named server.log, enter:  
   
      `vcremote > server.log 2>&1 &`  
   
      The server.log file can assist in troubleshooting build issues.  
   
--   To run the agent by using a configuration file instead of command-line parameters, enter:  
+- To run the agent by using a configuration file instead of command-line parameters, enter:  
   
      `vcremote --config config_file_path`  
   

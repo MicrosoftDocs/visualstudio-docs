@@ -31,33 +31,33 @@ ms.workload:
 
     Names cannot contain the following characters:
 
-   -   Pound (#)
+   - Pound (#)
 
-   -   Percent (%)
+   - Percent (%)
 
-   -   Ampersand (&)
+   - Ampersand (&)
 
-   -   Asterisk (*)
+   - Asterisk (*)
 
-   -   Vertical bar (|)
+   - Vertical bar (|)
 
-   -   Backslash (\\)
+   - Backslash (\\)
 
-   -   Colon (:)
+   - Colon (:)
 
-   -   Double quotation mark (")
+   - Double quotation mark (")
 
-   -   Less than (\<)
+   - Less than (\<)
 
-   -   Greater than (>)
+   - Greater than (>)
 
-   -   Question mark (?)
+   - Question mark (?)
 
-   -   Forward slash (/)
+   - Forward slash (/)
 
-   -   Leading or trailing spaces (' ')
+   - Leading or trailing spaces (' ')
 
-   -   Names reserved for Windows or DOS such as ("nul", "aux", "con", "com1", "lpt1", and so on)
+   - Names reserved for Windows or DOS such as ("nul", "aux", "con", "com1", "lpt1", and so on)
 
 4. Click **OK**.
 

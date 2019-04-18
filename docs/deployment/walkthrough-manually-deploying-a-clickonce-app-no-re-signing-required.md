@@ -34,9 +34,9 @@ When you create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 ## Prerequisites
  To perform the steps in this walkthrough you need the following:
 
--   A Windows Forms application that you are ready to deploy. This application will be referred to as *WindowsFormsApp1*.
+- A Windows Forms application that you are ready to deploy. This application will be referred to as *WindowsFormsApp1*.
 
--   Visual Studio or the Windows SDK.
+- Visual Studio or the Windows SDK.
 
 ### To deploy a ClickOnce application with multiple deployment and branding support using Mage.exe
 

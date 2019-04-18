@@ -19,46 +19,46 @@ This topic contains information to help you resolve issues that you may experien
 
  This topic contains the following sections.
 
--   [Before you start](#BeforeYouStart)
+- [Before you start](#BeforeYouStart)
 
--   [Emulator fails to install](#NoInstall)
+- [Emulator fails to install](#NoInstall)
 
--   [Cannot connect to network destinations on a domain or corporate network](#DomainNetwork)
+- [Cannot connect to network destinations on a domain or corporate network](#DomainNetwork)
 
--   [Cannot connect to network destinations when network settings require manual configuration](#ManualNetworkConfig)
+- [Cannot connect to network destinations when network settings require manual configuration](#ManualNetworkConfig)
 
--   [Emulator starts slowly, fails to start due to a timeout, or app deployment fails](#SlowStart)
+- [Emulator starts slowly, fails to start due to a timeout, or app deployment fails](#SlowStart)
 
--   [Emulator fails to start](#NoStart2)
+- [Emulator fails to start](#NoStart2)
 
--   [Emulator fails to start (first use)](#NoStart)
+- [Emulator fails to start (first use)](#NoStart)
 
--   [Computer fails to boot after installing the Emulator](#NoBoot)
+- [Computer fails to boot after installing the Emulator](#NoBoot)
 
--   [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
+- [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
 
--   [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
+- [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
 
--   [Cannot attach debugger to a Xamarin project](#Skylake)
+- [Cannot attach debugger to a Xamarin project](#Skylake)
 
--   [Emulator fails to run app that uses Google Play Services](#GooglePlay)
+- [Emulator fails to run app that uses Google Play Services](#GooglePlay)
 
--   [Drag and Drop of a file, APK, or flashable zip file does not work](#DragAndDrop)
+- [Drag and Drop of a file, APK, or flashable zip file does not work](#DragAndDrop)
 
--   [Resolution of screenshot is incorrect](#Resolution)
+- [Resolution of screenshot is incorrect](#Resolution)
 
--   [Emulator fails to render OpenGL content](#OpenGL)
+- [Emulator fails to render OpenGL content](#OpenGL)
 
--   [Emulator does not respond to multi-touch gestures](#Multitouch)
+- [Emulator does not respond to multi-touch gestures](#Multitouch)
 
--   [Support Resources](#Support)
+- [Support Resources](#Support)
 
-##  <a name="BeforeYouStart"></a> Before you start
+## <a name="BeforeYouStart"></a> Before you start
  Before you begin troubleshooting, it may be useful to review the following topics:
 
--   [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)
+- [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)
 
-##  <a name="NoInstall"></a> Emulator fails to install
+## <a name="NoInstall"></a> Emulator fails to install
  If you don't have Hyper-V installed, you will see the following message when you try to install the emulator. You must have a machine that supports HyperV and it must be enabled.
 
  ![Android&#95;Emu&#95;Install&#95;Issue](../cross-platform/media/android-emu-install-issue.png "Android_Emu_Install_Issue")
@@ -68,7 +68,7 @@ This topic contains information to help you resolve issues that you may experien
 
  If you see this message, check the [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) to see whether you can run the emulator.
 
-##  <a name="DomainNetwork"></a> Cannot connect to network destinations on a domain or corporate network
+## <a name="DomainNetwork"></a> Cannot connect to network destinations on a domain or corporate network
  The Visual Studio Emulator for Android appears on the network as a separate device with its own IP address. It is not joined to a Windows domain and it does not share domain or workgroup credentials with the host computer.
 
  If your network requires domain or workgroup authorization for basic network and Internet connectivity, contact your IT administrator for an exception. This exception allows your development computer to serve as a boundary machine and to accept connections from non-domain-joined network devices like the emulator.
@@ -77,15 +77,15 @@ This topic contains information to help you resolve issues that you may experien
 
 #### To view the emulator’s MAC addresses
 
-1.  Launch the emulator.
+1. Launch the emulator.
 
-2.  On the emulator toolbar, click the chevron button (>>) to open the Additional Tools window.
+2. On the emulator toolbar, click the chevron button (>>) to open the Additional Tools window.
 
-3.  In the Additional Tools window, click the Network tab.
+3. In the Additional Tools window, click the Network tab.
 
-4.  On the Network page, locate the Physical address entries.
+4. On the Network page, locate the Physical address entries.
 
-##  <a name="ManualNetworkConfig"></a> Cannot connect to network destinations when network settings require manual configuration
+## <a name="ManualNetworkConfig"></a> Cannot connect to network destinations when network settings require manual configuration
  To connect to network destinations from the emulator, your network must meet the following requirements:
 
 - DHCP. The emulator requires DHCP because it configures itself as a separate device on the network with its own IP address.
@@ -94,45 +94,45 @@ This topic contains information to help you resolve issues that you may experien
 
   If your network requires manually configured settings, check with your IT administrator to determine how you can enable network connectivity for the emulator.
 
-##  <a name="SlowStart"></a> Emulator starts slowly, fails to start due to a timeout, or app deployment fails
+## <a name="SlowStart"></a> Emulator starts slowly, fails to start due to a timeout, or app deployment fails
  Under certain conditions, the emulator takes several minutes to start or fails to start due to a timeout. When the emulator fails to start, you see the following message: `App deployment failed. Please try again`. The following conditions can result in this error.
 
--   Running the Visual Studio Emulator for Android from a bootable VHD. This configuration is not supported.
+- Running the Visual Studio Emulator for Android from a bootable VHD. This configuration is not supported.
 
--   A faulty hard drive. Consider running the chkdsk program.
+- A faulty hard drive. Consider running the chkdsk program.
 
--   A hard drive that needs to be defragmented. Consider defragmenting the drive.
+- A hard drive that needs to be defragmented. Consider defragmenting the drive.
 
--   A hard drive that is almost full. Check the space available on the drive.
+- A hard drive that is almost full. Check the space available on the drive.
 
--   Not enough memory is available because of other running applications. Reduce the number of applications that are consuming memory or increase the amount of memory.
+- Not enough memory is available because of other running applications. Reduce the number of applications that are consuming memory or increase the amount of memory.
 
--   Generally, any factor that is contributing to poor performance on the system. Begin troubleshooting with the component that has the lowest subscore in the Windows Experience Index, which you can find on the Performance Information and Tools page of Control Panel.
+- Generally, any factor that is contributing to poor performance on the system. Begin troubleshooting with the component that has the lowest subscore in the Windows Experience Index, which you can find on the Performance Information and Tools page of Control Panel.
 
-##  <a name="NoStart2"></a> Emulator fails to start
+## <a name="NoStart2"></a> Emulator fails to start
  If the emulator was working previously, but does not work now, go through the following tasks. If you are using the emulator for the first time, see [Emulator fails to start (first use)](#NoStart) before you try these steps.
 
--   Remove any other Hyper-V instances of the emulator.
+- Remove any other Hyper-V instances of the emulator.
 
-    1.  Close Visual Studio.
+    1. Close Visual Studio.
 
-    2.  Open Hyper-V Manager and stop any Hyper-V instances of the Emulator (Virtual Machines) that are already running and possibly in a corrupt state.
+    2. Open Hyper-V Manager and stop any Hyper-V instances of the Emulator (Virtual Machines) that are already running and possibly in a corrupt state.
 
-    3.  In Hyper-V Manager, delete any other emulator VMs.
+    3. In Hyper-V Manager, delete any other emulator VMs.
 
-    4.  Reboot your machine.
+    4. Reboot your machine.
 
--   Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes (for example, try closing any browser windows).
+- Make sure you have at least 4GB system memory and that it is not being consumed by other resource-intensive programs and processes (for example, try closing any browser windows).
 
--   In Hyper-V Manager, open the Virtual Switch Manager and check to see that you have two network switches; verify that the first one is the internal switch and the second is external.
+- In Hyper-V Manager, open the Virtual Switch Manager and check to see that you have two network switches; verify that the first one is the internal switch and the second is external.
 
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android-emu-v-switch-man.png "Android_Emu_V_Switch_Man")
 
      If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).
 
--   If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
+- If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
 
-##  <a name="NoStart"></a> Emulator fails to start (first use)
+## <a name="NoStart"></a> Emulator fails to start (first use)
  If the emulator does not start, go through the following tasks to identify and fix the issue.
 
 - Make sure that minimum hardware requirements are fulfilled and that BIOS settings are correct.
@@ -145,21 +145,21 @@ This topic contains information to help you resolve issues that you may experien
 
   3. Within the BIOS settings of your computer, make sure that all virtualization technology is enabled. The exact BIOS descriptions may vary for each hardware manufacturer. In general, enable features related to:
 
-     -   SLAT (Second Level Address Translation)
+     - SLAT (Second Level Address Translation)
 
-     -   EPT (Extended Page Tables) (Intel)
+     - EPT (Extended Page Tables) (Intel)
 
-     -   NPT (Nested Page Tables) (AMD)
+     - NPT (Nested Page Tables) (AMD)
 
-     -   RVI (Rapid Virtualization Indexing) (AMD)
+     - RVI (Rapid Virtualization Indexing) (AMD)
 
-     -   VMX (an Intel acronym indicating hardware assisted virtualization support)
+     - VMX (an Intel acronym indicating hardware assisted virtualization support)
 
-     -   SVM (an AMD acronym indicating hardware assisted virtualization support)
+     - SVM (an AMD acronym indicating hardware assisted virtualization support)
 
-     -   XD (Execute Disable) (Intel); this must be enabled
+     - XD (Execute Disable) (Intel); this must be enabled
 
-     -   NX (No Execute)(AMD); this must be enabled.
+     - NX (No Execute)(AMD); this must be enabled.
 
   4. If the following options are present in the BIOS, disable them.
 
@@ -211,21 +211,21 @@ This topic contains information to help you resolve issues that you may experien
 
   3. For this adapter, the only items that should be selected under **This connection uses the following items** should be the following:
 
-     -   Client for Microsoft Networks
+     - Client for Microsoft Networks
 
-     -   QoS Packet Scheduler
+     - QoS Packet Scheduler
 
-     -   File and Printer Sharing for Microsoft Networks
+     - File and Printer Sharing for Microsoft Networks
 
-     -   Microsoft LLDP Protocol Driver
+     - Microsoft LLDP Protocol Driver
 
-     -   Link-Layer Topology Discovery Mapper I/O Driver
+     - Link-Layer Topology Discovery Mapper I/O Driver
 
-     -   Link-Layer Topology Discovery Responder
+     - Link-Layer Topology Discovery Responder
 
-     -   Internet Protocol Version 6 (TCP/IPv6)
+     - Internet Protocol Version 6 (TCP/IPv6)
 
-     -   Internet Protocol Version 4 (TCP/IPv4)
+     - Internet Protocol Version 4 (TCP/IPv4)
 
   4. Deselect any other items.
 
@@ -239,7 +239,7 @@ This topic contains information to help you resolve issues that you may experien
 
     Now launch the emulator. It should work.
 
-##  <a name="NoBoot"></a> Computer fails to boot after installing the Emulator
+## <a name="NoBoot"></a> Computer fails to boot after installing the Emulator
  This problem can occur when the following conditions are true:
 
 - Your computer has a Gigabyte motherboard.
@@ -250,7 +250,7 @@ This topic contains information to help you resolve issues that you may experien
 
   For more info, see the following Knowledge Base article: [Boot failure after installation of Hyper-V role on Gigabyte systems](https://support.microsoft.com/kb/2693144).
 
-##  <a name="ADB"></a> Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs
+## <a name="ADB"></a> Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs
  If the emulator is running, but it does not appear to be connected to ADB (Android Debug Bridge) or it does not appear in Android tools that make use of ADB (for example, Android Studio or Eclipse), you may need to adjust where the emulator looks for ADB. The emulator uses a registry key to identify the base location of your Android SDK, and looks for the \platform-tools\adb.exe file under that directory. To modify the Android SDK path used by the emulator:
 
 - Open Registry Editor by selecting **Run** from the Start buttons context menu, typing `regedit` in the dialog box, and choosing **OK**.
@@ -261,50 +261,50 @@ This topic contains information to help you resolve issues that you may experien
 
   Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.
 
-##  <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port
+## <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port
  You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn’t set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
 
-1.  Uninstall Xamarin Player.
+1. Uninstall Xamarin Player.
 
-2.  Verify that virtual box has been removed (Xamarin Player runs on top of virtual box).
+2. Verify that virtual box has been removed (Xamarin Player runs on top of virtual box).
 
-3.  Go to device manager, select the option to show hidden devices, and then delete everything except the physical network cards.
+3. Go to device manager, select the option to show hidden devices, and then delete everything except the physical network cards.
 
-4.  You can try uninstalling/reinstalling Hyper-V after removing any non-physical network adapters.
+4. You can try uninstalling/reinstalling Hyper-V after removing any non-physical network adapters.
 
-##  <a name="Skylake"></a> Cannot attach debugger to a Xamarin project
+## <a name="Skylake"></a> Cannot attach debugger to a Xamarin project
  If you are running Windows 10 with Intel Skylake processors,  Xamarin apps might fail to run in the emulator or the Visual Studio debugger might not attach to them. This is due to an issue with Hyper-V and Skylake processors. Take the following steps as a workaround.
 
-1.  Open Hyper-V Manager and select the VM for the emulator profile that your are using.
+1. Open Hyper-V Manager and select the VM for the emulator profile that your are using.
 
-2.  Select **Delete Saved State** (lower right).
+2. Select **Delete Saved State** (lower right).
 
-3.  Choose **Settings...**
+3. Choose **Settings...**
 
-4.  Expand the processor node and choose **Compatibility**.
+4. Expand the processor node and choose **Compatibility**.
 
-5.  Enable **Migrate to a physical computer with a different processor version**.
+5. Enable **Migrate to a physical computer with a different processor version**.
 
-6.  Restart the service (under **Actions**) and try again.
+6. Restart the service (under **Actions**) and try again.
 
-##  <a name="GooglePlay"></a> Emulator fails to run app that uses Google Play Services
+## <a name="GooglePlay"></a> Emulator fails to run app that uses Google Play Services
  The emulator does not ship with the libraries for Google Play Services. However, the emulator does support drag-and-drop installation of flashable zip files.
 
-##  <a name="DragAndDrop"></a> Drag and Drop of a file, APK, or flashable zip file does not work
+## <a name="DragAndDrop"></a> Drag and Drop of a file, APK, or flashable zip file does not work
  The emulator uses ADB.exe to facilitate file transfer when you drag and drop a file onto the screen. If you encounter an error when you try to drag and drop a file, this probably indicates that the emulator is not connected to ADB.exe. To resolve, follow steps in [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB).
 
-##  <a name="Resolution"></a> Resolution of screenshot is incorrect
+## <a name="Resolution"></a> Resolution of screenshot is incorrect
  If you take a screenshot using the Screenshot tab in the **Additional Tools** window and the resulting image is of an unexpected size, you may need to adjust the zoom level of the screen before choosing **Capture**. The emulator takes screenshots at the resolution of the screen on your host PC monitor.
 
-##  <a name="OpenGL"></a> Emulator fails to render OpenGL content
+## <a name="OpenGL"></a> Emulator fails to render OpenGL content
  The emulator renders OpenGL content using your host machine’s GPU and uses the ANGLE project to convert these calls to and from DirectX. If your application renders correctly on a device but incorrectly on the emulator, it is likely that the device is mitigating an incorrect OpenGL call (for example, using shader variables that do not match).
 
-##  <a name="Multitouch"></a> Emulator does not respond to multi-touch gestures
+## <a name="Multitouch"></a> Emulator does not respond to multi-touch gestures
  In some cases, the emulator will start and not respond to multi-touch either through direct interaction from your touch-enabled display or using the Multi-Touch Tool on the emulator toolbar. If this is the case, choose the **Rotate** button on the emulator toolbar and attempt to use multi-touch again. If the issue persists, read the [Emulator fails to render OpenGL content](#OpenGL) issue.
 
-##  <a name="Support"></a> Support Resources
+## <a name="Support"></a> Support Resources
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:
 
--   Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
+- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
 
--   Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.
+- Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.

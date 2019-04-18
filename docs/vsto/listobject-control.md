@@ -73,33 +73,33 @@ ms.workload:
 ## Events
  The following events are available for the <xref:Microsoft.Office.Tools.Excel.ListObject> control:
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.Change>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.Change>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.DataBindingFailure>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.DataBindingFailure>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.DataMemberChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.DataMemberChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.DataSourceChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.DataSourceChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.Deselected>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.Deselected>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.ErrorAddDataBoundRow>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.ErrorAddDataBoundRow>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.OriginalDataRestored>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.OriginalDataRestored>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.Selected>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.Selected>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.SelectedIndexChanged>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.SelectedIndexChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.ListObject.SelectionChange>
+- <xref:Microsoft.Office.Tools.Excel.ListObject.SelectionChange>
 
 ## See also
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)

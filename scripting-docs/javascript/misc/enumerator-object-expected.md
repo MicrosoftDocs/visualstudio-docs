@@ -26,7 +26,7 @@ o.f();
   
 ### To correct this error  
   
--   Only invoke the **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**, **Enumerator.prototype.moveFirst**, or **Enumerator.prototype.moveNext** methods on objects of type `Enumerator`. To find out if your object is an `Enumerator` object, use:  
+- Only invoke the **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**, **Enumerator.prototype.moveFirst**, or **Enumerator.prototype.moveNext** methods on objects of type `Enumerator`. To find out if your object is an `Enumerator` object, use:  
   
     ```js
     if(x instanceof Enumerator)  

@@ -21,9 +21,9 @@ manager: jillfra
   
  Generally, you would use <xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS> when one of the following is true:  
   
--   When you want to open a document invisibly and read-only, but it is not yet established which <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> should own it.  
+- When you want to open a document invisibly and read-only, but it is not yet established which <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> should own it.  
   
--   When you want the user to be prompted to save a document that was invisibly opened before the user displayed it in the UI and then attempted to close it.  
+- When you want the user to be prompted to save a document that was invisibly opened before the user displayed it in the UI and then attempted to close it.  
   
 ## How to Manage Visible and Invisible Documents  
  When a user opens a document in the UI, an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> owner for the document must be established and an <xref:Microsoft.VisualStudio.Shell.Interop._VSRDTFLAGS> flag must be set. If no <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> owner can be established, then the document will not be saved when the user clicks **Save All** or closes the IDE. This means if a document is open invisibly where it is modified in memory, and the user is prompted to save the document on shutdown or saved if **Save All** is chosen, then an `RDT_ReadLock` cannot be used. Instead, you must use an `RDT_EditLock` and register a <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocumentLockHolder> when an <xref:Microsoft.VisualStudio.Shell.Interop.__VSREGDOCLOCKHOLDER> flag.  

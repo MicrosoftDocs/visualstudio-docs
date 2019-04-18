@@ -28,13 +28,13 @@ To deploy prerequisites for your application, you can use a bootstrapper package
 
 #### To create the package manifest
 
-1.  Create a directory for the bootstrapper package. This example uses *C:\package*.
+1. Create a directory for the bootstrapper package. This example uses *C:\package*.
 
-2.  Create a subdirectory with the name of the locale, such as *en* for English.
+2. Create a subdirectory with the name of the locale, such as *en* for English.
 
-3.  In Visual Studio, create an XML file that is named *package.xml*, and save it to the *C:\package\en* folder.
+3. In Visual Studio, create an XML file that is named *package.xml*, and save it to the *C:\package\en* folder.
 
-4.  Add XML to list the name of the bootstrapper package, the culture for this localized package manifest, and the optional license agreement. The following XML uses the variables `DisplayName` and `Culture`, which are defined in a later element.
+4. Add XML to list the name of the bootstrapper package, the culture for this localized package manifest, and the optional license agreement. The following XML uses the variables `DisplayName` and `Culture`, which are defined in a later element.
 
     ```xml
     <Package
@@ -44,7 +44,7 @@ To deploy prerequisites for your application, you can use a bootstrapper package
         LicenseAgreement="eula.txt">
     ```
 
-5.  Add XML to list all the files that are in the locale-specific directory. The following XML uses a file that is named *eula.txt* that is applicable for the **en** locale.
+5. Add XML to list all the files that are in the locale-specific directory. The following XML uses a file that is named *eula.txt* that is applicable for the **en** locale.
 
     ```xml
     <PackageFiles>
@@ -52,7 +52,7 @@ To deploy prerequisites for your application, you can use a bootstrapper package
     </PackageFiles>
     ```
 
-6.  Add XML to define localizable strings for the bootstrapper package. The following XML adds error strings for the **en** locale.
+6. Add XML to define localizable strings for the bootstrapper package. The following XML adds error strings for the **en** locale.
 
     ```xml
       <Strings>
@@ -65,7 +65,7 @@ To deploy prerequisites for your application, you can use a bootstrapper package
     </Strings>
     ```
 
-7.  Copy the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
+7. Copy the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.
 
 ## Example
  The package manifest contains locale-specific information, such as error messages, software license terms, and language packs.

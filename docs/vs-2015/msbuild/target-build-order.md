@@ -101,19 +101,19 @@ Targets must be ordered if the input to one target depends on the output of anot
 ## Determining the Target Build Order  
  MSBuild determines the target build order as follows:  
   
-1.  `InitialTargets` targets are run.  
+1. `InitialTargets` targets are run.  
   
-2.  Targets specified on the command line by the **/target** switch are run. If you specify no targets on the command line, then the `DefaultTargets` targets are run. If neither is present, then the first target encountered is run.  
+2. Targets specified on the command line by the **/target** switch are run. If you specify no targets on the command line, then the `DefaultTargets` targets are run. If neither is present, then the first target encountered is run.  
   
-3.  The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.  
+3. The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.  
   
-4.  Before a target is executed, its `DependsOnTargets` targets are run.  
+4. Before a target is executed, its `DependsOnTargets` targets are run.  
   
-5.  Before a target is executed, any target that lists it in a `BeforeTargets` attribute is run.  
+5. Before a target is executed, any target that lists it in a `BeforeTargets` attribute is run.  
   
-6.  Before a target is executed, its `Inputs` attribute and `Outputs` attribute are compared. If MSBuild determines that any output files are out of date with respect to the corresponding input file or files, then MSBuild executes the target. Otherwise, MSBuild skips the target.  
+6. Before a target is executed, its `Inputs` attribute and `Outputs` attribute are compared. If MSBuild determines that any output files are out of date with respect to the corresponding input file or files, then MSBuild executes the target. Otherwise, MSBuild skips the target.  
   
-7.  After a target is executed or skipped, any target that lists it in an `AfterTargets` attribute is run.  
+7. After a target is executed or skipped, any target that lists it in an `AfterTargets` attribute is run.  
   
 ## See Also  
  [Targets](../msbuild/msbuild-targets.md)

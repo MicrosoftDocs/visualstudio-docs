@@ -71,11 +71,11 @@ In Visual C++, you can use native [runtime_checks](http://msdn.microsoft.com/lib
   
 ### To enable native run-time checks in a debug build  
   
--   Use the **/RTC** option and link with the debug version of a C run-time library (/MDd, for example).  
+- Use the **/RTC** option and link with the debug version of a C run-time library (/MDd, for example).  
   
 ### To modify native run-time check behavior  
   
--   Use the `runtime_checks` pragma.  
+- Use the `runtime_checks` pragma.  
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   

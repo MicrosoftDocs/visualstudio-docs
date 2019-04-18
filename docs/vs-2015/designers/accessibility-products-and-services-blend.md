@@ -15,13 +15,13 @@ manager: jillfra
 
 Microsoft is committed to making its products and services easier for everyone to use. The following sections provide information about the features, products, and services that make Microsoft Windows more accessible for people with disabilities:  
   
--   "Accessibility features of Windows"  
+- "Accessibility features of Windows"  
   
--   "Documentation in alternative formats"  
+- "Documentation in alternative formats"  
   
--   "Customer service for people with hearing impairments"  
+- "Customer service for people with hearing impairments"  
   
--   "For more information"  
+- "For more information"  
   
 > [!NOTE]
 >  The information in this section may apply only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary information card that came with your software package or visit the [Microsoft Accessibility site](http://go.microsoft.com/fwlink/?LinkID=75069) for a list of Microsoft support services telephone numbers and addresses. You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.  

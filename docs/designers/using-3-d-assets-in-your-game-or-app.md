@@ -28,9 +28,9 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 
 ### To add the build customizations to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies** > **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box appears.
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies** > **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box appears.
 
-2.  Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in the following table:
+2. Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in the following table:
 
     |Asset type|Build customization Name|
     |----------------| - |
@@ -38,23 +38,23 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
     |3D Models|**MeshContentTask(.targets, .props)**|
     |Shaders|**ShaderGraphContentTask(.targets, .props)**|
 
-3.  Choose the **OK** button.
+3. Choose the **OK** button.
 
 ## Include assets in your build
  Now that your project knows about the different kinds of 3D assets that you want to use, the next step is to tell it which files are 3D assets, and which kinds of assets they are.
 
 ### To add an asset to your build
 
-1.  In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box appears.
+1. In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box appears.
 
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values to which you want your changes to apply.
+2. Make sure that the **Configuration** and **Platform** properties are set to the values to which you want your changes to apply.
 
-3.  Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.
+3. Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.
 
     > [!IMPORTANT]
     > By default, Visual Studio assumes that many kinds of image files should be categorized by using the **Image** item type that's built into Visual Studio. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3D models and visual shader graphics default to the correct **Item Type**.
 
-4.  Choose the **OK** button.
+4. Choose the **OK** button.
 
 Following are the three content pipeline item types and their associated source and output file types.
 
@@ -70,13 +70,13 @@ You can set the content pipeline properties of each asset file so that it will b
 
 ### To configure content pipeline properties
 
-1.  In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box appears.
+1. In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box appears.
 
-2.  Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.
+2. Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.
 
-3.  Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.
+3. Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.
 
-4.  Choose the **OK** button.
+4. Choose the **OK** button.
 
 ### Image content pipeline configuration
 

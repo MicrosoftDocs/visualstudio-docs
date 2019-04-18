@@ -21,15 +21,15 @@ The ActivAut.h header file provides the interfaces listed in this section.
 ## In This Section  
  The following interfaces enable Web page authoring:  
   
--   [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)  
+- [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)  
   
--   [IActiveScriptAuthorProcedure Interface](../../winscript/reference/iactivescriptauthorprocedure-interface.md)  
+- [IActiveScriptAuthorProcedure Interface](../../winscript/reference/iactivescriptauthorprocedure-interface.md)  
   
--   [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)  
+- [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)  
   
--   [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)  
+- [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)  
   
--   [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)  
+- [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)  
   
 ## See Also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

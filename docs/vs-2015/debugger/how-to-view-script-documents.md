@@ -30,17 +30,17 @@ In earlier versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], client-side
   
 ### To view a server-side script document  
   
-1.  In **Solution Explorer**, open the **\<Website Pathname>** node.  
+1. In **Solution Explorer**, open the **\<Website Pathname>** node.  
   
-2.  Double-click the script file that you want to view.  
+2. Double-click the script file that you want to view.  
   
      The server-side script file opens in a source window.  
   
 ### To view a client-side script document  
   
-1.  In **Solution Explorer**, open the **Script Documents** node.  
+1. In **Solution Explorer**, open the **Script Documents** node.  
   
-2.  Double-click the script file that you want to view.  
+2. Double-click the script file that you want to view.  
   
      The client-side script file opens in a source window.  
   

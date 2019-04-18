@@ -26,13 +26,13 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
 
 ### To upgrade from a trial edition of Visual Studio Professional or Enterprise
 
-1.  Start Visual Studio in **Run as Administrator** mode.
+1. Start Visual Studio in **Run as Administrator** mode.
 
-2.  On the menu bar, choose **Help**, **Register Product**.
+2. On the menu bar, choose **Help**, **Register Product**.
 
-3.  Choose the **Change my product license** link.
+3. Choose the **Change my product license** link.
 
-4.  Enter a valid product key, and then choose the **Apply** button.
+4. Enter a valid product key, and then choose the **Apply** button.
 
     > [!NOTE]
     >  Internet access is required to register and unlock any edition of Visual Studio. After Visual Studio is registered, though, an internet connection is optional.

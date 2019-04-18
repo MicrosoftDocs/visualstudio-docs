@@ -19,7 +19,7 @@ The connection property in the Application Settings file is missing or incorrect
   
 ### To respond to this message  
   
--   Click **OK**. The connection information that is contained in the .dbml file is added to application settings.  
+- Click **OK**. The connection information that is contained in the .dbml file is added to application settings.  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

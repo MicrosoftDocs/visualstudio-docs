@@ -79,7 +79,7 @@ An *activity diagram* shows a business process or a software process as a flow o
 |13|**Send Signal Action**|An action that sends a message or signal to another activity or to a concurrent thread in the same activity. The type and content of the message is implied by the action's title or specified in additional comments.<br /><br /> The action can send data in the signal, which can be passed to the action in an object flow or input pin (16).|  
 |14|**Accept Event Action**|An action that waits for a message or signal before the action can continue. The type of message the action can receive is implied by the title or specified in additional comments.<br /><br /> If the action has no incoming control flow, it produces a token whenever it receives a message.<br /><br /> The action can receive data in the signal, which can be passed on an object flow or output pin (17).<br /><br /> -   **IsUnmarshall** - If true, there can be several typed output pins, and data is unmarshalled onto them. If false, all data appears on one pin.|  
   
-###  <a name="DataFlow"></a> Data Flows  
+### <a name="DataFlow"></a> Data Flows  
  You can describe the flow of data from one action to another. For more information about the elements used in this section, see the Drawing Data Flows section of the topic Guidelines for Drawing an Activity Diagram.  
   
  ![Activity diagram showing data flow](../modeling/media/uml-actovdata.png "UML_ActOvData")  

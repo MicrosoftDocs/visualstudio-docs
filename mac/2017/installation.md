@@ -12,8 +12,12 @@ ms.custom: video
 # Install Visual Studio 2017 for Mac
 
 > [!NOTE]
-> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://visualstudio.microsoft.com/vs/older-downloads/).
+> Visual Studio 2019 for Mac is [now available](installation.md?view=vsmac-2019). For older versions of Visual Studio for Mac, see the Visual Studio [downloads page](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac).
 
+## Downgrading from Visual Studio 2019 for Mac?
+
+For the best experience, before you downgrade you should ensure that you [uninstall](uninstall.md) Visual Studio 2019 for Mac. If you have issues that are causing you to download, make sure to let us know by [reporting a problem](report-a-problem.md).
+ 
 ## Requirements
 
 To start developing native, cross-platform apps when you download Visual Studio for Mac there are a couple of things that you must install and set up in preparation.
@@ -26,7 +30,7 @@ For working with iOS in Visual Studio you need the following pieces:
 
 ## Install
 
-1. Download Visual Studio for Mac from [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)
+1. Download Visual Studio for Mac from [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac)
 
 2. Once the installer package is downloaded, click the **VisualStudioForMacInstaller.dmg** file to mount the installer and then run it by double-clicking the logo, as illustrated by the following image:
 

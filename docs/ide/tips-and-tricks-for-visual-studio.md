@@ -64,7 +64,7 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 |Find in Files|**Ctrl**+**Shift**+**F**|
 |Replace in Files|**Ctrl**+**Shift**+**H**|
 
-##  <a name="BKMK_CodeEditor"></a> Code Editor
+## <a name="BKMK_CodeEditor"></a> Code Editor
 
 |Command|Shortcut|When Introduced|
 |-|-|-|

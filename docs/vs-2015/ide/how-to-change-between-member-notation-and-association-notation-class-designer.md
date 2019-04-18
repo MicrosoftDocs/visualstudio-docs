@@ -25,9 +25,9 @@ In Class Designer, you can change the way the class diagram represents an associ
   
 ### To change member notation to association notation  
   
-1.  From the project node in Solution Explorer, open the class diagram (.cd) file.  
+1. From the project node in Solution Explorer, open the class diagram (.cd) file.  
   
-2.  In the type shape on the class diagram, right-click the member property or field representing the association, and choose **Show as Association**.  
+2. In the type shape on the class diagram, right-click the member property or field representing the association, and choose **Show as Association**.  
   
     > [!TIP]
     >  If no properties or fields are visible in the type shape, the compartments in the shape might be collapsed. To expand the type shape, double-click the compartment name or right-click the type shape, and choose **Expand**.  
@@ -36,7 +36,7 @@ In Class Designer, you can change the way the class diagram represents an associ
   
 ### To change association notation to member notation  
   
--   On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate.  
+- On the class diagram, right-click the association line, and choose **Show as Property** or **Show as Field** as appropriate.  
   
      The association line disappears, and the property displays in the appropriate compartment within its type shape on the diagram.  
   

@@ -18,9 +18,9 @@ You can print a class diagram using the print feature of Visual Studio.
 
 ## To print a class diagram
 
-1.  Open the class diagram.
+1. Open the class diagram.
 
-2.  Click **Print** on the **File** menu.
+2. Click **Print** on the **File** menu.
 
 The entire class diagram prints. You may need to adjust the settings in the **Page Setup** dialog box in order to print at an appropriate size.
 

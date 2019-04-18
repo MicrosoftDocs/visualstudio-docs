@@ -20,13 +20,13 @@ This test area covers test cases for retrieving items from the version store via
 
 ##### Get Latest Version:
 
--   **File**, **Source Control**, **Get Latest Version**.
+- **File**, **Source Control**, **Get Latest Version**.
 
--   **File**, **Get Latest Version**.
+- **File**, **Get Latest Version**.
 
--   Shortcut menu, **Get Latest Version**.
+- Shortcut menu, **Get Latest Version**.
 
--   Get: **File**, **Source Control**, **Get**.
+- Get: **File**, **Source Control**, **Get**.
 
 ## Expected Behavior
 

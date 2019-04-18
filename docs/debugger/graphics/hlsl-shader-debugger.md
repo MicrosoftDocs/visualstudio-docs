@@ -44,9 +44,9 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
 
 #### To start the HLSL debugger from the Graphics Pipeline Stages window
 
-1.  In the **Graphics Pipeline Stages** window, locate the pipeline stage that's associated with the shader that you want to debug.
+1. In the **Graphics Pipeline Stages** window, locate the pipeline stage that's associated with the shader that you want to debug.
 
-2.  Below the title of the pipeline stage, choose **Start Debugging**, which appears as a small green arrow.
+2. Below the title of the pipeline stage, choose **Start Debugging**, which appears as a small green arrow.
 
     > [!NOTE]
     >  This entry point into the HLSL debugger debugs only the first shader thread for the corresponding stage—that is, the first vertex or pixel that is processed. You can use Pixel History to access other threads of these shader stages.

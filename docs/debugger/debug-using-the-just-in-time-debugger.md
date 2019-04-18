@@ -20,7 +20,7 @@ Just-In-Time debugging works for Windows desktop apps. It does not work for Univ
 > [!TIP]
 > If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry).
 
-##  <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
+## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
 >[!NOTE]
 >To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
@@ -45,25 +45,25 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
 **To disable Just-In-Time debugging by editing the registry:**
 
-1.  From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
+1. From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
 
-2.  In the **Registry Editor** window, locate and delete the following registry entries:
+2. In the **Registry Editor** window, locate and delete the following registry entries:
 
-    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 
-    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
 
     ![JIT registry key](../debugger/media/dbg-jit-registry.png "JIT registry key")
 
-3.  If your computer is running a 64-bit operating system, also delete the following registry entries:
+3. If your computer is running a 64-bit operating system, also delete the following registry entries:
 
-    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
-    -   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger**
 
     Make sure not to delete or change any other registry keys.
 
-5.  Close the **Registry Editor** window.
+5. Close the **Registry Editor** window.
 
 ## Enable Just-In-Time debugging of a Windows Form
 
@@ -73,7 +73,7 @@ By default, Windows Form apps have a top-level exception handler that lets the a
 
 To enable Just-In-Time debugging instead of standard Windows Form error handling, add these settings:
 
--  In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
+- In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
 
     ```xml
     <configuration>
@@ -81,7 +81,7 @@ To enable Just-In-Time debugging instead of standard Windows Form error handling
     </configuration>
     ```
 
--  In a C++ Windows Form application, also set `DebuggableAttribute` to `true` in a *.config* file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set `DebuggableAttribute` by adding the following line in your app's *AssemblyInfo.cpp* file:
+- In a C++ Windows Form application, also set `DebuggableAttribute` to `true` in a *.config* file or in your code. If you compile with [/Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) and without [/Og](/cpp/build/reference/og-global-optimizations), the compiler sets this attribute for you. If you want to debug a non-optimized release build, however, you must set `DebuggableAttribute` by adding the following line in your app's *AssemblyInfo.cpp* file:
 
    ```cpp
    [assembly:System::Diagnostics::DebuggableAttribute(true, true)];
