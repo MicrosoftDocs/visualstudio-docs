@@ -13,9 +13,9 @@ ms.workload:
 ---
 # .NET naming conventions for EditorConfig
 
-Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the **Error List** or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
+Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the **Error List** or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 
-Naming conventions should be ordered from most-specific to least-specific in the *.editorconfig* file. The first rule encountered that can be applied is the only rule that is applied.
+Naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule *properties* with the same name, the most recently found property with that name takes precedence. For more information, see [File hierarchy and precedence](create-portable-custom-editor-options.md#file-hierarchy-and-precedence).
 
 For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention, using the properties described below. The order of the properties is not important.
 
