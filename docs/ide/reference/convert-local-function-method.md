@@ -1,5 +1,5 @@
 ---
-title: Convert a local function into a method
+title: Convert a local function to a method
 ms.date: 02/19/2019
 ms.topic: reference
 author: kendrahavens
@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Convert a local function into a method
+# Convert a local function to a method
 
 This refactoring applies to:
 
