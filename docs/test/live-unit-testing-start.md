@@ -28,7 +28,7 @@ The complete Visual Basic solution can be downloaded from the [MicrosoftDocs/vis
 
 ## Prerequisites
 
-This tutorial requires that you've installed Visual Studio Enterprise Edition with the .NET Core 2.0 workload.
+This tutorial requires that you've installed Visual Studio Enterprise edition with the .NET Core 2.0 workload.
 
 ## Create the solution and the class library project
 
@@ -88,11 +88,11 @@ Now that you've created the solution, you'll create a class library named `Strin
 
    `StringLibrary` has three static methods:
 
-      - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
+   - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
 
-      - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
+   - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
 
-      - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
+   - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 
 6. Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
@@ -134,11 +134,11 @@ Now that you've created the solution, you'll create a class library named `Strin
 
    `StringLibrary` has three static methods:
 
-      - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
+   - `StartsWithUpper` returns `true` if a string starts with an uppercase character; otherwise, it returns `false`.
 
-      - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
+   - `StartsWithLower`returns `true` if a string starts with a lowercase character; otherwise, it returns `false`.
 
-      - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
+   - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 
 6. Right-click on the StringLibrary project in **Solution Explorer** and select **Properties**. In the **Application** tab, delete the text in the **Root namespace** text box, as the following figure shows. The root namespace is defined by the [Namespace statement](/dotnet/visual-basic/language-reference/statements/namespace-statement) in the source code.
 
