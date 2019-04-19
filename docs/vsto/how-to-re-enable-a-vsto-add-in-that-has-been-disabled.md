@@ -47,7 +47,7 @@ ms.workload:
  Soft disabling can occur when a VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable a VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing.
 
 > [!NOTE]
->  When you re-enable a soft-disabled VSTO Add-in, the application immediately attempts to load the VSTO Add-in. If the problem that initially caused the application to soft disable the VSTO Add-in has not been fixed, the application will soft disable the VSTO Add-in again.
+> When you re-enable a soft-disabled VSTO Add-in, the application immediately attempts to load the VSTO Add-in. If the problem that initially caused the application to soft disable the VSTO Add-in has not been fixed, the application will soft disable the VSTO Add-in again.
 
 ### To re-enable a VSTO Add-in
 

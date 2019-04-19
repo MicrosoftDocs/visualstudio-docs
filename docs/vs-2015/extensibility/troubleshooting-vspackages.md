@@ -42,7 +42,7 @@ Following are common problems that you might have with your VSPackage and tips t
 4. Open the **Output** window of the instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that is failing to load the VSPackage. Information about why the VSPackage is failing to load may be displayed in that window.  
   
     > [!NOTE]
-    >  If you are starting the experimental version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] from the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE), inspect the **Output** window of both versions.  
+    > If you are starting the experimental version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] from the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE), inspect the **Output** window of both versions.  
   
 5. Examine the activity log.  
   
@@ -81,7 +81,7 @@ Following are common problems that you might have with your VSPackage and tips t
     4. On the **Debug** menu, click **Start Debugging** or press F5.  
   
         > [!NOTE]
-        >  If you are debugging a project, create or load an existing instance of your project now.  
+        > If you are debugging a project, create or load an existing instance of your project now.  
   
 2. Use the activity log.  
   

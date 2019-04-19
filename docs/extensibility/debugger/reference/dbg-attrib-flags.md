@@ -292,7 +292,7 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
 ## Remarks
 
 > [!NOTE]
->  The values in this enumeration are not actually defined in the assembly for C#. Instead, you must copy the definitions to your source file.
+> The values in this enumeration are not actually defined in the assembly for C#. Instead, you must copy the definitions to your source file.
 
  These flags are also used to filter children of an object, for example, when passed as an argument to [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md). The values may be combined with a bitwise `OR`.
 

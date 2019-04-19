@@ -18,7 +18,7 @@ manager: "wpickett"
 By default, all the managed projects of a solution are assigned the Microsoft Minimum Recommended Rules code analysis *rule set*. You can change the rule sets that are assigned to the projects of a solution in the properties dialog box for the solution.  
   
 > [!NOTE]
->  By default, project code analysis is not run as a build step. To enable code analysis as a build step, see [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md).  
+> By default, project code analysis is not run as a build step. To enable code analysis as a build step, see [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md).  
   
 ### To specify a rule set for multiple projects in a managed code  solution  
   

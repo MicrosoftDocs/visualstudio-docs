@@ -26,7 +26,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
     File name: `CommandExtensionVSCT.tt`  
   
    > [!IMPORTANT]
-   >  Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt  
+   > Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt  
   
    ```  
    <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>  

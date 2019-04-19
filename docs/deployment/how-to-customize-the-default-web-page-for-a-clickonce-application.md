@@ -22,14 +22,14 @@ ms.workload:
 When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.
 
 > [!NOTE]
->  The actual links that you see on the page depend on the computer where the page is being viewed and what prerequisites you are including.
+> The actual links that you see on the page depend on the computer where the page is being viewed and what prerequisites you are including.
 
  The default name for the Web page is *Publish.htm*; you can change the name in the **Project Designer**. For more information, see [How to: Specify a publish page for a ClickOnce application](../deployment/how-to-specify-a-publish-page-for-a-clickonce-application.md).
 
  The *Publish.htm* Web page is published only if a newer version is detected.
 
 > [!NOTE]
->  Changes that you make to your **Publish** settings will not affect the *Publish.htm* page, with one exception: if you add or remove prerequisites after initially publishing, the list of prerequisites will no longer be accurate. You will need to edit the text for the prerequisite link to reflect the changes.
+> Changes that you make to your **Publish** settings will not affect the *Publish.htm* page, with one exception: if you add or remove prerequisites after initially publishing, the list of prerequisites will no longer be accurate. You will need to edit the text for the prerequisite link to reflect the changes.
 
 ### To customize the publish Web page
 

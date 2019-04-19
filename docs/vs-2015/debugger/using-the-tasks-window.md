@@ -35,7 +35,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
  ![Parallel Tasks window](../debugger/media/parallel-tasks-window.png "Parallel_Tasks_Window")  
   
 > [!NOTE]
->  In managed code, a <xref:System.Threading.Tasks.Task> that has a status of <xref:System.Threading.Tasks.TaskStatus>, <xref:System.Threading.Tasks.TaskStatus>, or <xref:System.Threading.Tasks.TaskStatus> might not be displayed in the Tasks window when managed threads are in a sleep or join state.  
+> In managed code, a <xref:System.Threading.Tasks.Task> that has a status of <xref:System.Threading.Tasks.TaskStatus>, <xref:System.Threading.Tasks.TaskStatus>, or <xref:System.Threading.Tasks.TaskStatus> might not be displayed in the Tasks window when managed threads are in a sleep or join state.  
   
 ## Tasks Column Information  
  The columns in the **Tasks** window show the following information.  

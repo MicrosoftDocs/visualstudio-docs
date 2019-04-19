@@ -20,13 +20,13 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
  VSIX deployment supports VSPackages, assemblies, MEF components, project templates, item templates, toolbox controls, and custom extension types.  
   
 > [!NOTE]
->  To use VSIX projects, you must install the Visual Studio SDK. For more information about the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+> To use VSIX projects, you must install the Visual Studio SDK. For more information about the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ## Where to Find the VSIX Project Template  
  The VSIX Project template is available in the **New Project** dialog box. Expand either the **Visual Basic** node or the **Visual C#** node, and then choose **Extensibility**.  
   
 > [!TIP]
->  You should make sure that .NET Framework 4.5 or higher is specified in the dropdown at the top of the **New Project** dialog box.  
+> You should make sure that .NET Framework 4.5 or higher is specified in the dropdown at the top of the **New Project** dialog box.  
   
 ## Uses of the VSIX Project Template  
  The VSIX project template has two main uses:  

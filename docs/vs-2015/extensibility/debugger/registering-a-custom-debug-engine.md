@@ -17,7 +17,7 @@ manager: jillfra
 The debug engine must register itself as a class factory following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.  
   
 > [!NOTE]
->  An example of how to register a debug engine can be found in the TextInterpreter sample, which is built as part of the [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24).  
+> An example of how to register a debug engine can be found in the TextInterpreter sample, which is built as part of the [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24).  
   
 ## DLL Server process  
  Typically, a debug engine is implemented in its own DLL as a COM server. This means that the debug engine must register the CLSID of its class factory with COM before Visual Studio can access it. Then the debug engine must register itself with Visual Studio itself in order to establish any properties (otherwise known as metrics) the debug engine supports. The choice of metrics that are written to the Visual Studio registry subkey for the debug engine depends on the features the debug engine supports.  
@@ -28,7 +28,7 @@ The debug engine must register itself as a class factory following COM conventio
  The following is a typical example (from the TextInterpreter sample) showing how to use the `SetMetric` function (from dbgmetric.lib), to register a debug engine with Visual Studio. The metrics being passed are also defined in dbgmetric.lib.  
   
 > [!NOTE]
->  TextInterpreter is a basic debug engine; it does not implement—and therefore does not register—any other features. A more complete debug engine would have a whole list of `SetMetric` calls or their equivalent, one for each feature the debug engine supports.  
+> TextInterpreter is a basic debug engine; it does not implement—and therefore does not register—any other features. A more complete debug engine would have a whole list of `SetMetric` calls or their equivalent, one for each feature the debug engine supports.  
   
 ```  
 // Define base registry subkey to Visual Studio.  

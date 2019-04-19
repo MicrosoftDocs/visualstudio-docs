@@ -25,7 +25,7 @@ manager: jillfra
  To perform the `Reorder Parameters` operation, put the cursor on or next to a method, indexer, or delegate. When the cursor is in position, invoke the `Reorder Parameters` operation by pressing the keyboard shortcut, or by clicking the command from the shortcut menu.  
   
 > [!NOTE]
->  You cannot reorder the first parameter in an extension method.  
+> You cannot reorder the first parameter in an extension method.  
   
 ### To reorder parameters  
   

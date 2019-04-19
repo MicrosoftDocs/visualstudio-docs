@@ -22,7 +22,7 @@ To help ensure that your software system or application meets your users' needs,
  The purpose of a model is to reduce the ambiguities that occur in natural-language descriptions, and to help you and your colleagues to visualize the design and to discuss alternative designs. A model should be used together with other documents or discussions. By itself, a model does not represent a complete specification of the architecture.  
   
 > [!NOTE]
->  Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.  
+> Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.  
   
  The architecture of a system can be divided into two areas:  
   

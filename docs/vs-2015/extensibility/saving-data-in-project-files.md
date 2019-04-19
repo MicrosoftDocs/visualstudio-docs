@@ -202,7 +202,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
     ```  
   
 > [!NOTE]
->  All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../misc/vssdk-samples.md).  
+> All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../misc/vssdk-samples.md).  
   
 ## See Also  
  [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

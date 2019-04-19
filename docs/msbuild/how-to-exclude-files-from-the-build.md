@@ -67,7 +67,7 @@ In a project file you can use wildcards to include all the files in one director
     ```
 
     > [!NOTE]
-    >  You must specify the path for both attributes. If you use an absolute path to specify file locations in the `Include` attribute, you must also use an absolute path in the `Exclude` attribute; if you use a relative path in the `Include` attribute, you must also use a relative path in the `Exclude` attribute.
+    > You must specify the path for both attributes. If you use an absolute path to specify file locations in the `Include` attribute, you must also use an absolute path in the `Exclude` attribute; if you use a relative path in the `Include` attribute, you must also use a relative path in the `Exclude` attribute.
 
 ## Use conditions to exclude a file or directory from the inputs for a build
  If there are items that you want to include, for example, in a Debug build but not a Release build, you can use the `Condition` attribute to specify the conditions under which to include the item.

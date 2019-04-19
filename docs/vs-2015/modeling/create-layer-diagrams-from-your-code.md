@@ -28,9 +28,9 @@ To visualize your software system's high-level, logical architecture, create a *
  Before you create a layer diagram, make sure your solution has a modeling project. See [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   
 > [!IMPORTANT]
->  Don't add, drag, or copy an existing layer diagram from a modeling project to another modeling project or to another place in the solution. This preserves the references from the original diagram, even if you change the diagram. This also prevents layer validation from working correctly and might cause other issues, such as missing elements or other errors when you try to open the diagram.  
+> Don't add, drag, or copy an existing layer diagram from a modeling project to another modeling project or to another place in the solution. This preserves the references from the original diagram, even if you change the diagram. This also prevents layer validation from working correctly and might cause other issues, such as missing elements or other errors when you try to open the diagram.  
 >   
->  Instead, add a new layer diagram to the modeling project. Copy the elements from the source diagram to the new diagram. Save both the modeling project and the new layer diagram.  
+> Instead, add a new layer diagram to the modeling project. Copy the elements from the source diagram to the new diagram. Save both the modeling project and the new layer diagram.  
   
 #### To add a new layer diagram to a modeling project  
   
@@ -47,7 +47,7 @@ To visualize your software system's high-level, logical architecture, create a *
      Choose **Create a new modeling project** to add a new modeling project to the solution.  
   
     > [!NOTE]
-    >  The layer diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.  
+    > The layer diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.  
   
 5. Make sure to save both the modeling project and the layer diagram.  
   
@@ -100,7 +100,7 @@ To visualize your software system's high-level, logical architecture, create a *
  A dependency exists wherever an artifact that is associated with one layer has a reference to an artifact that is associated with another layer. For example, a class in one layer declares a variable that has a class in another layer. You can reverse-engineer existing dependencies for artifacts that are linked to layers on the diagram.  
   
 > [!NOTE]
->  Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, open the shortcut menu for one or multiple layers, and then choose **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.  
+> Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, open the shortcut menu for one or multiple layers, and then choose **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.  
   
 - Select one or multiple layers, open the shortcut menu for a selected layer, and then choose **Generate Dependencies**.  
   

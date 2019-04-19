@@ -60,7 +60,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 > [!NOTE]
 > The Technical Contact Role is required for Visual Studio subscriptions
->     - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
+> - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
 
 ## Need help?
 Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)

@@ -18,7 +18,7 @@ You can use the **Peek Definition** command to view and edit code without switch
  You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual Basic, **Peek Definition** shows a link to the **Object Browser** for symbols that don’t have definition metadata (for example, .NET Framework types that are built in).  
   
 > [!IMPORTANT]
->  You can't use this command in any Express version of Visual Studio 2013.  
+> You can't use this command in any Express version of Visual Studio 2013.  
   
 ## Working with Peek Definition  
   
@@ -70,7 +70,7 @@ You can use the **Peek Definition** command to view and edit code without switch
     |Toggle between the code editor window and the definition window|Shift+Esc|  
   
     > [!NOTE]
-    >  You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.  
+    > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.  
   
 ## See Also  
  [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)

@@ -49,7 +49,7 @@ When you use the same personalization account to sign in to Visual Studio on mul
  Settings can be synchronized across any edition of Visual Studio 2015, including Express and Community editions. Settings are also synchronized across Visual Studio family products, such as Blend. However, each of these family products may have its own settings that are not shared with Visual Studio. For example, settings specific to Blend on Computer A will be shared with Blend on Computer B, but not with Visual Studio on Computer A or B.
 
 > [!WARNING]
->  Settings are not synchronized between Visual Studio 2013 and Visual Studio 2015. The first time you open Visual Studio 2015, your settings from Visual Studio 2013 are migrated, but they cannot be migrated back to Visual Studio 2013 after that.
+> Settings are not synchronized between Visual Studio 2013 and Visual Studio 2015. The first time you open Visual Studio 2015, your settings from Visual Studio 2013 are migrated, but they cannot be migrated back to Visual Studio 2013 after that.
 
 ## See Also
  [Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md)

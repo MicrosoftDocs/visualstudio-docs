@@ -21,7 +21,7 @@ The **Status Bar** is a control bar located at the bottom of many application wi
 2. When the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A>, update the information in the **Status Bar** by calling the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser>.
 
     > [!NOTE]
-    >  The IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> only when your document window is initially activated. For the remainder of the time that your document window is active, you must update the **Status Bar** information as the state of your editor changes.
+    > The IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> only when your document window is initially activated. For the remainder of the time that your document window is active, you must update the **Status Bar** information as the state of your editor changes.
 
 ## Robust programming
  A **Status Bar** contains four separate fields:

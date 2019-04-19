@@ -72,10 +72,10 @@ ms.workload:
     - Drag a content control from the **Toolbox** to the document. The content control is added at the current selection in the document, not at the location of the mouse pointer.
 
 > [!NOTE]
->  You cannot add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> by using the **Toolbox**. You can only add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> in Word, or at runtime.
+> You cannot add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> by using the **Toolbox**. You can only add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> in Word, or at runtime.
 
 > [!NOTE]
->  Visual Studio does not provide a check box content control in the Toolbox. To add a check box content control to the document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object programmatically. For more information, see [Content controls](../vsto/content-controls.md).
+> Visual Studio does not provide a check box content control in the Toolbox. To add a check box content control to the document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object programmatically. For more information, see [Content controls](../vsto/content-controls.md).
 
 #### To add a content control to a document in Word
 
@@ -84,7 +84,7 @@ ms.workload:
 2. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
 3. In the **Controls** group, click the icon for the content control that you want to add.
 
@@ -100,7 +100,7 @@ ms.workload:
   Dynamically created content controls are not persisted in the document when the document is closed. However, a native content control remains in the document. You can recreate a content control that is based on a native content control the next time the document is opened. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 > [!NOTE]
->  To add a check box content control to a document in a Word 2010 project, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object. For more information, see [Content controls](../vsto/content-controls.md).
+> To add a check box content control to a document in a Word 2010 project, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object. For more information, see [Content controls](../vsto/content-controls.md).
 
 ### To add a content control at the current selection
 
@@ -143,7 +143,7 @@ ms.workload:
   For more information about generating host items in VSTO Add-in projects, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 > [!NOTE]
->  To add a check box content control to a document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object. For more information, see [Content controls](../vsto/content-controls.md).
+> To add a check box content control to a document, you must create a <xref:Microsoft.Office.Tools.Word.ContentControl> object. For more information, see [Content controls](../vsto/content-controls.md).
 
 ### To add a content control at the current selection
 

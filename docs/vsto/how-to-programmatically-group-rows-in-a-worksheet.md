@@ -37,7 +37,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#32](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#32)]
 
     > [!NOTE]
-    >  To ungroup rows, call the <xref:Microsoft.Office.Tools.Excel.NamedRange.Ungroup%2A> method.
+    > To ungroup rows, call the <xref:Microsoft.Office.Tools.Excel.NamedRange.Ungroup%2A> method.
 
 ## Use native Excel ranges
  The code assumes that you have three Excel ranges named `data2001`, `data2002`, and `dataAll` on a worksheet.
@@ -50,7 +50,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#33](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#33)]
 
     > [!NOTE]
-    >  To ungroup rows, call the <xref:Microsoft.Office.Interop.Excel.Range.Ungroup%2A> method.
+    > To ungroup rows, call the <xref:Microsoft.Office.Interop.Excel.Range.Ungroup%2A> method.
 
 ## See also
 - [Work with worksheets](../vsto/working-with-worksheets.md)

@@ -53,7 +53,7 @@ This article describes how you can use [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 3. Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
   
    > [!IMPORTANT]
-   >  By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
+   > By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
   
 4. Choose the **OK** button.  
   

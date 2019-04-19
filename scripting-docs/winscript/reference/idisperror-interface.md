@@ -18,7 +18,7 @@ manager: "ghogen"
 Provides detailed contextual error information.  
   
 > [!NOTE]
->  This interface is not implemented.  
+> This interface is not implemented.  
   
  In addition to the methods inherited from `IUnknown`, the `IDispError` interface exposes the following methods.  
   

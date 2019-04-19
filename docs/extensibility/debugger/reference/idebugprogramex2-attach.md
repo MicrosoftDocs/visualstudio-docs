@@ -54,7 +54,7 @@ int Attach( 
  The port that contains the program can use the value in `pSession` to determine which session is attempting to attach to the program. For example, if a port allows only one debug session to attach to a process at a time, the port can determine if the same session is already attached to other programs in the process.
 
 > [!NOTE]
->  The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this program; none of the methods on the supplied interface are functional.
+> The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this program; none of the methods on the supplied interface are functional.
 
 ## See Also
 - [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)

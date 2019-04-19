@@ -105,7 +105,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
  The hardware counter information provides a very detailed view of specific hardware-platform behavior for each draw call, which can help you identify the cause of performance bottlenecks very precisely.
 
 > [!NOTE]
->  Different hardware platforms support different counters; there is no standard. The counters and what they represent are determined solely by each GPU manufacturer.
+> Different hardware platforms support different counters; there is no standard. The counters and what they represent are determined solely by each GPU manufacturer.
 
 ### Marker regions and events
  Frame Analysis supports user-defined event markers and event groups. They are displayed in the Summary table and in the Detail tables.
@@ -132,7 +132,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
  Timestamps are supported on all platforms that support Frame Analysis. Depth occlusion queries—required for the Pixels Occluded counter—are supported on platforms that support feature level 9.2 or higher.
 
 > [!NOTE]
->  Although timestamps are supported on all platforms that support Frame Analysis, the accuracy and consistency of timestamps varies from platform to platform.
+> Although timestamps are supported on all platforms that support Frame Analysis, the accuracy and consistency of timestamps varies from platform to platform.
 
 ### GPU counters
  Support for GPU hardware counters is hardware-dependent.
@@ -144,7 +144,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   No other platform that supports Frame Analysis collects GPU hardware counters.
 
 > [!NOTE]
->  Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.
+> Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.
 
 ## Unsupported scenarios
  Certain ways of using frame analysis are unsupported or are just a bad idea.
@@ -153,13 +153,13 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
  In Graphics Analyzer, when you play back a graphics log file that uses a higher feature level than the playback machine supports, it automatically falls back to WARP. In Frame Analysis it explicitly does not fall back to WARP and it generates an error—WARP is useful for examining the correctness of your Direct3D app, but not for examining its performance.
 
 > [!NOTE]
->  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. The graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.
+> Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. The graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.
 
 ### Direct3D 10 and lower
  If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools.
 
 > [!NOTE]
->  This applies only to the Direct3D API calls that you're using, not feature levels.
+> This applies only to the Direct3D API calls that you're using, not feature levels.
 
 ### WARP
  Frame analysis is intended to be used to profile and improve rendering performance on real hardware. Running frame analysis on WARP devices isn't prevented, but it's not usually a worthwhile pursuit because WARP running on a high-end CPU is slower than even the least-capable modern GPUs, and because WARP performance can vary greatly depending on the particular CPU it's running on.

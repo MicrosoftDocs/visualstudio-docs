@@ -16,7 +16,7 @@ manager: jillfra
 Stay focused on your work while you find out what happened to your code - without leaving the editor. Find references and changes to your code, linked bugs, work items, code reviews, and unit tests.  
   
 > [!NOTE]
->  CodeLens is available only in Visual Studio Enterprise and Visual Studio Professional editions. It is not available in Visual Studio Community edition.  
+> CodeLens is available only in Visual Studio Enterprise and Visual Studio Professional editions. It is not available in Visual Studio Community edition.  
   
  See where and how the individual parts of your code are used in your solution:  
   

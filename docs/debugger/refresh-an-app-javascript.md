@@ -37,7 +37,7 @@ ms.workload:
 - Project and item property changes, such as changes to the selected debugging device, or changes to the package action for a file (in the Properties window).
 
 > [!IMPORTANT]
->  When you change references, change the package manifest, or make other changes specified in the preceding list, you have to stop and restart the debugger to update HTML, CSS, and JavaScript source files.
+> When you change references, change the package manifest, or make other changes specified in the preceding list, you have to stop and restart the debugger to update HTML, CSS, and JavaScript source files.
 
 ### To refresh an app
 

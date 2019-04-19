@@ -59,7 +59,7 @@ ms.workload:
   To get an instance of the <xref:Microsoft.Office.Interop.Outlook.Application> object, use the Application field of the `ThisAddIn` class in your project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).
 
 > [!NOTE]
->  To help avoid security warnings when you use properties and methods that are blocked by the Outlook object model guard, get Outlook objects from the Application field of the `ThisAddIn` class. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).
+> To help avoid security warnings when you use properties and methods that are blocked by the Outlook object model guard, get Outlook objects from the Application field of the `ThisAddIn` class. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).
 
 ### Explorer object
  The <xref:Microsoft.Office.Interop.Outlook.Explorer> object represents a window that displays the contents of a folder that contains items such as e-mail messages, tasks, or appointments. The <xref:Microsoft.Office.Interop.Outlook.Explorer> object includes methods and properties that you can use to modify the window, and events that are raised when the window changes.

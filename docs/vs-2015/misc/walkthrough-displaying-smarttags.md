@@ -18,7 +18,7 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
  Although smart tags are part of the IntelliSense implementation in the editor, you can implement smart tags by subclassing <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>, and then implementing the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> interface and the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider> interface.  
   
 > [!NOTE]
->  Other kinds of tags can be implemented in a similar manner.  
+> Other kinds of tags can be implemented in a similar manner.  
   
  The following walkthrough shows how to create a smart tag that appears on the current word and has two suggested actions: **Convert to upper case** and **Convert to lower case**.  
   

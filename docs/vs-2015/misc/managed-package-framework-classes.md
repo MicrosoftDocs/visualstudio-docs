@@ -17,7 +17,7 @@ manager: jillfra
 The managed package framework (MPF) classes can be used to create VSPackages using managed code. They provide default implementations for many VSPackage interfaces. By hiding implementation details and complexities, MPF enables you to create [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integration products with a minimum amount of code.  
   
 > [!WARNING]
->  Most of the assemblies that contain Managed Package Framework classes are shipped with the Visual Studio SDK. You can download the source code for the Managed Packaged Framework for Projects at [Managed Package Framework for Projects](http://mpfproj11.codeplex.com/).  
+> Most of the assemblies that contain Managed Package Framework classes are shipped with the Visual Studio SDK. You can download the source code for the Managed Packaged Framework for Projects at [Managed Package Framework for Projects](http://mpfproj11.codeplex.com/).  
   
 ## MPF Namespaces  
  The following table lists the MPF namespaces provided by the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)].  

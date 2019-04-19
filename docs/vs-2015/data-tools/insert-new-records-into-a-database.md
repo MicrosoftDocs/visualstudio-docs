@@ -59,7 +59,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
 - Call the TableAdapter's `Insert` method, passing in the values for each column as parameters.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter you want to use.  
   
      [!code-csharp[VbRaddataSaving#15](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#15)]
      [!code-vb[VbRaddataSaving#15](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#15)]  

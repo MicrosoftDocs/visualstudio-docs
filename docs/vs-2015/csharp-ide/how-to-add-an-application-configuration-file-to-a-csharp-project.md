@@ -20,7 +20,7 @@ manager: jillfra
 By adding an application configuration file (app.config file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files, see [How the Runtime Locates Assemblies](http://msdn.microsoft.com/library/772ac6f4-64d2-4cfb-92fd-58096dcd6c34).  
   
 > [!NOTE]
->  The Windows Store doesn’t support <xref:System.Configuration>. As a result, Store apps don’t contain an app.config template.  
+> The Windows Store doesn’t support <xref:System.Configuration>. As a result, Store apps don’t contain an app.config template.  
   
  When you build your project, the development environment automatically copies your app.config file, changes the file name of the copy to match your executable, and then moves the copy to the bin directory.  
   

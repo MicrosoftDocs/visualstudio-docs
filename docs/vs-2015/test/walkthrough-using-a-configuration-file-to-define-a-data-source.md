@@ -67,7 +67,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 ```  
   
 > [!NOTE]
->  The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.  
+> The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.  
   
 ## Define Connection Strings  
  The connection strings define provider specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.  
@@ -260,7 +260,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 4. Build your solution and run MyTestMethod and MyTestMethod2 tests.  
   
 > [!IMPORTANT]
->  Deploy items like data sources so that they are accessible to the test in the deployment directory.  
+> Deploy items like data sources so that they are accessible to the test in the deployment directory.  
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   

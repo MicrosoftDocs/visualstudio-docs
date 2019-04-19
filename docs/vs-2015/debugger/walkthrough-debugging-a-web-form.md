@@ -30,7 +30,7 @@ manager: jillfra
 The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.  
   
 > [!NOTE]
->  To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process, aspnet_wp.exe or w3wp.exe, runs as an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process. To debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] runs it. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
+> To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process, aspnet_wp.exe or w3wp.exe, runs as an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] process. To debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] runs it. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   

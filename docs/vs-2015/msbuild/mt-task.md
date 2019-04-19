@@ -35,7 +35,7 @@ Wraps the Microsoft Manifest Tool, mt.exe. For more information, see "Mt.exe" on
  The following table describes the parameters of the **MT** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  
   
 > [!NOTE]
->  The mt.exe documentation uses a hyphen (**-**) as the prefix for command-line options, but this topic uses a slash (**/**). Either prefix is acceptable.  
+> The mt.exe documentation uses a hyphen (**-**) as the prefix for command-line options, but this topic uses a slash (**/**). Either prefix is acceptable.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

@@ -35,7 +35,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
 - Capturing graphics information  
   
 > [!NOTE]
->  Previous implementations of programmatic capture relied on Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to provide capture functionality, Windows 8.1 supports capture directly through Direct3D 11.2. As a result, you no longer have to install the Remote Tools for programmatic capture on Windows 8.1.  
+> Previous implementations of programmatic capture relied on Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to provide capture functionality, Windows 8.1 supports capture directly through Direct3D 11.2. As a result, you no longer have to install the Remote Tools for programmatic capture on Windows 8.1.  
   
 ### Preparing your app to use programmatic capture  
  To use programmatic capture in your app, it must include the necessary headers. These headers are part of the Windows 8.1 SDK.  
@@ -52,10 +52,10 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
     ```  
   
     > [!IMPORTANT]
-    >  Do not include the header file vsgcapture.h—which supports programmatic capture on Windows 8.0 and earlier—to perform programmatic capture in your Windows 8.1 apps. This header is incompatible with DirectX 11.2. If this file is included after the d3d11_2.h header is included, the compiler issues a warning. If vsgcapture.h is included before d3d11_2.h, the app will not start.  
+    > Do not include the header file vsgcapture.h—which supports programmatic capture on Windows 8.0 and earlier—to perform programmatic capture in your Windows 8.1 apps. This header is incompatible with DirectX 11.2. If this file is included after the d3d11_2.h header is included, the compiler issues a warning. If vsgcapture.h is included before d3d11_2.h, the app will not start.  
   
     > [!NOTE]
-    >  If the June 2010 DirectX SDK is installed on your machine and your project's include path contains `%DXSDK_DIR%includex86`, move it to the end of the include path. Do the same for your library path.  
+    > If the June 2010 DirectX SDK is installed on your machine and your project's include path contains `%DXSDK_DIR%includex86`, move it to the end of the include path. Do the same for your library path.  
   
 #### Windows Phone 8.1  
  Because the Windows Phone 8.1 SDK doesn't include the DXProgrammableCapture.h header, you'll need to define the `IDXGraphicsAnalysis` interface yourself so that you can use the `BeginCapture()` and `EndCapture()` methods. Include the other headers as described in the previous section.  
@@ -79,7 +79,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
  Before you can capture graphics information from DirectX 11.2, you have to get the DXGI debug interface.  
   
 > [!IMPORTANT]
->  When using programmatic capture, you must still run your app under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]) or under the [Command-Line Capture Tool](../debugger/command-line-capture-tool.md).  
+> When using programmatic capture, you must still run your app under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]) or under the [Command-Line Capture Tool](../debugger/command-line-capture-tool.md).  
   
 ##### To get the IDXGraphicsAnalysis interface  
   
@@ -100,7 +100,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
     ```  
   
     > [!NOTE]
-    >  If `DXGIGetDebugInterface1` returns `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`), make sure the app is running under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]).  
+    > If `DXGIGetDebugInterface1` returns `E_NOINTERFACE` (`error: E_NOINTERFACE No such interface supported`), make sure the app is running under graphics diagnostics (Alt+F5 in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]).  
   
 ### Capturing graphics information  
  Now that you have a valid `IDXGraphicsAnalysis` interface, you can use `BeginCapture` and `EndCapture` to capture graphics information.  
@@ -144,7 +144,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
  Alternatively, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installs the necessary components to perform remote capture for 32-bit apps.  
   
 > [!NOTE]
->  Because most Windows desktop apps—including [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]—are not supported on [!INCLUDE[win8](../includes/win8-md.md)] for ARM devices, using Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] together with the programmatic capture API is the only way to capture graphics diagnostics on ARM devices.  
+> Because most Windows desktop apps—including [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]—are not supported on [!INCLUDE[win8](../includes/win8-md.md)] for ARM devices, using Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] together with the programmatic capture API is the only way to capture graphics diagnostics on ARM devices.  
   
 ### Preparing your app to use programmatic capture  
  To use the Graphics Diagnostics tools, you first have to capture the graphics information that it relies on. You can programmatically capture the information by using the `CaptureCurrentFrame` API.  
@@ -179,13 +179,13 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
   For [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, the location of the temp directory is specific to each user and app, and is typically found in a location such as C:\users\\*username*\AppData\Local\Packages\\*package family name*\TempState\\. For desktop apps, the location of the temp directory is specific to each user and is typically found in a location such as C:\Users\\*username*\AppData\Local\Temp\\.  
   
 > [!NOTE]
->  To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  
+> To write to a specific location, you must have permissions to write to that location; otherwise, an error occurs. Keep in mind that [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps are more restricted than desktop apps about where they can write data, and might require additional configuration to write to certain locations.  
   
 ### Capturing the graphics information  
  After you have prepared the app for programmatic capture and optionally configured the location and name of the graphics log file, build the app and then run or debug it to capture data; do not start graphics diagnostics from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] when you use the programmatic capture API. The graphics log is written to the location that you specified. If you want to keep this version of the log, move it to another location; otherwise, it will be overwritten when you run the app again.  
   
 > [!TIP]
->  You can still capture graphics information manually while you're using programmatic capture— with the app in focus, just press **Print Screen**. You can use this technique to capture additional graphics information that's not captured by the programmatic capture API.  
+> You can still capture graphics information manually while you're using programmatic capture— with the app in focus, just press **Print Screen**. You can use this technique to capture additional graphics information that's not captured by the programmatic capture API.  
   
 ## Next Steps  
  This walkthrough demonstrated how to capture graphics information programmatically. As a next step, consider this option:  

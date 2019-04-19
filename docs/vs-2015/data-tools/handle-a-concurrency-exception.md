@@ -49,7 +49,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 - Access to the Northwind sample database with permission to perform updates.
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a new project  
  You begin your walkthrough by creating a new Windows application.  
@@ -80,7 +80,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 3. Select a connection to the Northwind sample database from the list of available connections.If the connection is not available in the list of connections,select**New Connection**  
   
     > [!NOTE]
-    >  If you are connecting to a local database file, select **No** when asked if you would you like to add the file to your project.  
+    > If you are connecting to a local database file, select **No** when asked if you would you like to add the file to your project.  
   
 4. On the **Save connection string to the application configuration file**screen, select **Next**.  
   
@@ -143,7 +143,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
  In this section, you add code that  attempts to update the database.You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
   
 > [!NOTE]
->  The `CreateMessage` and `ProcessDialogResults` methods will be added later in this walkthrough.  
+> The `CreateMessage` and `ProcessDialogResults` methods will be added later in this walkthrough.  
   
 ##### To add error handling for the concurrency error  
   
@@ -195,7 +195,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 6. In the first record (`ALFKI`) change `ContactName` to `Maria Anders2`.  
   
     > [!NOTE]
-    >  Navigate to a different row to commit the change.  
+    > Navigate to a different row to commit the change.  
   
 7. Switch to the `ConcurrencyWalkthrough`'s running form.  
   

@@ -33,7 +33,7 @@ By default, all advanced build configuration options are hidden with [!INCLUDE[v
 2. Expand **Projects and Solutions**, and click **General**.  
   
     > [!NOTE]
-    >  The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.  
+    > The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.  
   
 3. Click **Show advanced build configurations**.  
   

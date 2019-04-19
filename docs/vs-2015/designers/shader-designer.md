@@ -78,7 +78,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
   
 > [!TIP]
->  You can choose the **Advanced** button to run the last command again.  
+> You can choose the **Advanced** button to run the last command again.  
   
 ### Working with nodes and connections  
  Use **Select** mode to add, remove, reposition, connect, and configure nodes. Here's how to perform these basic operations:  

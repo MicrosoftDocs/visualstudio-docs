@@ -26,7 +26,7 @@ To make it easy to create an element or group of elements according to a pattern
 - A pair of classes linked by an association to represent the Observer pattern.  
   
 > [!NOTE]
->  You can use this method to create element tools. That is, you can create tools that you drag from the toolbox onto a diagram. You cannot create connector tools.  
+> You can use this method to create element tools. That is, you can create tools that you drag from the toolbox onto a diagram. You cannot create connector tools.  
   
 ## <a name="DefineTool"></a> Defining a Custom Modeling Tool  
   
@@ -130,7 +130,7 @@ To make it easy to create an element or group of elements according to a pattern
  You can edit the bitmap file in Visual Studio, and set its height and width to 16 in the Properties window.  
   
 > [!NOTE]
->  If you start to use a .tbxinfo file after experimenting with using diagram files on their own, you might find that the toolbox contains both the old and the new versions of a toolbox item. This can also occur if the name of the diagram file was mistyped in the .tbxinfo file. If this occurs, on the shortcut menu of the toolbox choose **Reset Toolbox**. The custom toolbox items will disappear. Restart Visual Studio, and the correct custom items will appear.  
+> If you start to use a .tbxinfo file after experimenting with using diagram files on their own, you might find that the toolbox contains both the old and the new versions of a toolbox item. This can also occur if the name of the diagram file was mistyped in the .tbxinfo file. If this occurs, on the shortcut menu of the toolbox choose **Reset Toolbox**. The custom toolbox items will disappear. Restart Visual Studio, and the correct custom items will appear.  
   
 ## <a name="Extension"></a> How to Distribute Toolbox Items in a Visual Studio Extension  
  You can distribute toolbox items to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] users by packaging them into a Visual Studio Extension (VSIX). You can package commands, profiles, and other extensions into the same VSIX file. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
@@ -158,7 +158,7 @@ To make it easy to create an element or group of elements according to a pattern
     - In Solution Explorer, on the shortcut menu of the VSIX project, choose **Add**, **Existing Item**. In the dialog box, set **Objects of Type: All Files**. Locate the files, select them all, and then choose **Add**.  
   
         > [!NOTE]
-        >  In this project, you cannot open the diagram files in the model editor.  
+        > In this project, you cannot open the diagram files in the model editor.  
   
 5. Set the following properties of all the files that you have just added. You can set their properties at the same time by selecting them all in Solution Explorer. Be careful not to change the properties of the other files in the project.  
   
@@ -179,7 +179,7 @@ To make it easy to create an element or group of elements according to a pattern
     - Type = `Microsoft.VisualStudio.ArchitectureTools.CustomToolboxItems`  
   
         > [!NOTE]
-        >  This is not one of the options in the drop-down list. You have to enter it by using the keyboard.  
+        > This is not one of the options in the drop-down list. You have to enter it by using the keyboard.  
   
     - **Source** = **File on filesystem**.  
   

@@ -63,7 +63,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ```  
   
 > [!WARNING]
->  Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.  
+> Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.  
   
 ### Excluding and including  
  You can exclude specified assemblies from code coverage analysis. For example:  
@@ -128,7 +128,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ```  
   
 > [!WARNING]
->  If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.  
+> If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.  
   
 ### Other ways to include or exclude elements  
  See the [sample at the end of this topic](#sample) for examples.  

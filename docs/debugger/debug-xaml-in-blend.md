@@ -21,7 +21,7 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
  Syntax errors occur if the XAML or the code-behind files do not follow the formatting rules of the language. The description of the error can help you understand how to fix it. The list also specifies the name of the file and the line number where the error occurs. XAML errors are listed on the **Markup** tab in the **Results** panel.
 
 > [!TIP]
->  XAML is an XML-based markup language and follows XML syntax rules.
+> XAML is an XML-based markup language and follows XML syntax rules.
 
  Some common causes of XAML syntax errors are:
 

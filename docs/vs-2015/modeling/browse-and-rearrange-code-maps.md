@@ -97,7 +97,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 - An aggregate link represents all the relationships that point in the same direction between two groups.  
   
 > [!TIP]
->  By default, the map shows cross-group links only for selected nodes. To change this behavior to show or hide aggregated links between groups, click **Layout** on the code map toolbar and choose **Advanced**, then **Show All Cross-Group Links** or **Hide All Cross-Group Links**. See [Hide or show nodes and links](#HidingShowing) for more details.  
+> By default, the map shows cross-group links only for selected nodes. To change this behavior to show or hide aggregated links between groups, click **Layout** on the code map toolbar and choose **Advanced**, then **Show All Cross-Group Links** or **Hide All Cross-Group Links**. See [Hide or show nodes and links](#HidingShowing) for more details.  
   
 |**To**|**Perform these steps**|  
 |------------|-----------------------------|  
@@ -112,7 +112,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
  Hiding nodes keeps them from participating in layout algorithms. By default, cross-group links are hidden. Cross-group links are individual links that connect nodes across groups. When groups are collapsed, the map aggregates all cross-group links into single links between groups. When you expand a group and select nodes inside the group, cross-group links appear and show the dependencies in that group.  
   
 > [!CAUTION]
->  Before you share a map that was created in Visual Studio Enterprise with those who use Visual Studio Professional, make sure to unhide any nodes or cross-group links that you want others to see. Otherwise, those users won't be able to unhide those items.  
+> Before you share a map that was created in Visual Studio Enterprise with those who use Visual Studio Professional, make sure to unhide any nodes or cross-group links that you want others to see. Otherwise, those users won't be able to unhide those items.  
   
 ### To hide or show nodes  
   
@@ -147,7 +147,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
  You can display more or fewer items on a map in order to drill down or to simplify the map. You can also rename items, and add comments to items.  
   
 > [!CAUTION]
->  Before you share a map that was created using Visual Studio Enterprise with those who use Visual Professional, make sure any code elements you want others to see are visible on the map. Otherwise, those users won't be able to retrieve deleted code elements.  
+> Before you share a map that was created using Visual Studio Enterprise with those who use Visual Professional, make sure any code elements you want others to see are visible on the map. Otherwise, those users won't be able to retrieve deleted code elements.  
   
 ### Add a node for a code element  
   
@@ -261,7 +261,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
 3. If the list does not include the category or property, choose **+** in the **Legend** box, then choose **Node Property**, **Node Category**, **Link Property**, or **Link Category**. Then choose the property or category. The category or property now appears in the **Legend** box.  
   
     > [!NOTE]
-    >  To create and assign a category or a property to a code element, you can edit the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).  
+    > To create and assign a category or a property to a code element, you can edit the map's .dgml file; see [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md).  
   
 4. In the **Legend** box, click the icon next to the category or property you added or you want to change.  
   
@@ -284,7 +284,7 @@ Rearrange items on code maps to make them easier to read and improve their perfo
     |Specific color or icon|Open the category or property value list. Select a color or icon.|  
   
     > [!NOTE]
-    >  You can rearrange, delete, or temporarily inactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).  
+    > You can rearrange, delete, or temporarily inactivate styles in the **Legend** box. See [Edit the Legend box](#ModifyLegend).  
   
 ## <a name="ModifyLegend"></a> Edit the Legend box  
  You can rearrange, delete, or temporarily inactivate styles in the **Legend** box:  

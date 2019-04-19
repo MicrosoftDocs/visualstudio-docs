@@ -74,7 +74,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
 2. Right-click a package or a model to which you want to add a new package.  
   
    > [!NOTE]
-   >  You can nest a package inside another package.  
+   > You can nest a package inside another package.  
   
 3. Point to **Add** and then click **Package**.  
   
@@ -89,7 +89,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
 - Drag the package from UML Model Explorer onto the class diagram.  
   
     > [!NOTE]
-    >  This creates a view of the package on this diagram. It will not necessarily show all the elements that the package contains. To make sure that you see all of a package's contents, view it in UML Model Explorer.  
+    > This creates a view of the package on this diagram. It will not necessarily show all the elements that the package contains. To make sure that you see all of a package's contents, view it in UML Model Explorer.  
   
 ## <a name="Elements"></a> Creating Model Elements inside Packages  
  There are four ways in which you can place model elements inside a package:  
@@ -117,7 +117,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
 4. Type a name for the new element.  
   
     > [!NOTE]
-    >  The new element does not appear on any diagram. To create a view of the new element, you can drag it from UML Model Explorer onto a diagram. The diagram must be a type that will display this kind of element.  
+    > The new element does not appear on any diagram. To create a view of the new element, you can drag it from UML Model Explorer onto a diagram. The diagram must be a type that will display this kind of element.  
   
 #### To create an element in a package on a UML class diagram  
   
@@ -167,7 +167,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
      The qualified name of the element will change to show its new owning package.  
   
     > [!NOTE]
-    >  If you drag an element out of a package into a blank part of the diagram, its owning package does not change. This lets you make a diagram that shows elements from several packages without having to show the packages themselves.  
+    > If you drag an element out of a package into a blank part of the diagram, its owning package does not change. This lets you make a diagram that shows elements from several packages without having to show the packages themselves.  
   
 ## <a name="Pasting"></a> Pasting Elements into a Package  
  You can paste an element into a package. If you paste a group of related elements into a package, the relationships between them will also be pasted.  
@@ -179,7 +179,7 @@ In Visual Studio, a *package* is a container for the definitions of UML elements
 2. Right-click the package and then click **Paste**.  
   
     > [!NOTE]
-    >  The package can be on a different diagram.  
+    > The package can be on a different diagram.  
   
 ## <a name="Import"></a> Import Relationships between Packages  
  You can define an import relationship between packages, using the **Import** tool.  

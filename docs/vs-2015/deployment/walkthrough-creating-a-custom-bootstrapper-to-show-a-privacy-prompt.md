@@ -122,7 +122,7 @@ You can configure ClickOnce applications to automatically update when assemblies
     6. In the **Startup object** drop-down menu, select **Module1**.  
   
        > [!NOTE]
-       >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
+       > Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
        For Visual C# developers only:  
   
@@ -148,12 +148,12 @@ You can configure ClickOnce applications to automatically update when assemblies
 1. Create a directory named **UpdateConsentDialog** in the %PROGRAMFILES%\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages.  
   
     > [!NOTE]
-    >  You may need administrative privileges to create this folder.  
+    > You may need administrative privileges to create this folder.  
   
 2. In the UpdateConsentDialog directory, create a subdirectory named en.  
   
     > [!NOTE]
-    >  Create a new directory for each locale. For example, you can add subdirectories for the fr and de locales. These directories would contain the French and German strings and language packs, if necessary.  
+    > Create a new directory for each locale. For example, you can add subdirectories for the fr and de locales. These directories would contain the French and German strings and language packs, if necessary.  
   
 #### Step 2: To create the product.xml manifest file  
   
@@ -218,7 +218,7 @@ You can configure ClickOnce applications to automatically update when assemblies
 4. Create a document called eula.rtf for the software license terms.  
   
     > [!NOTE]
-    >  The software license terms should include information about licensing, warranties, liabilities, and local laws. These files should be locale-specific, so make sure that the file is saved in a format that supports MBCS or UNICODE characters. Consult your legal department about the content of the software license terms.  
+    > The software license terms should include information about licensing, warranties, liabilities, and local laws. These files should be locale-specific, so make sure that the file is saved in a format that supports MBCS or UNICODE characters. Consult your legal department about the content of the software license terms.  
   
 5. Save the document to the en subdirectory in the UpdateConsentDialog bootstrapper directory.  
   
@@ -238,7 +238,7 @@ You can configure ClickOnce applications to automatically update when assemblies
 4. Select **Update Consent Dialog**.  
   
     > [!NOTE]
-    >  You may have to close and reopen Visual Studio to see the Update Consent Dialog in the Prerequisites Dialog Box.  
+    > You may have to close and reopen Visual Studio to see the Update Consent Dialog in the Prerequisites Dialog Box.  
   
 5. Click **OK**.  
   

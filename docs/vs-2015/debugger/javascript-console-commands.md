@@ -29,7 +29,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.  
   
 > [!NOTE]
->  If the window is not available during a debugging session, make sure that the debugger type is set to **Script** in the Debug properties for the project.  
+> If the window is not available during a debugging session, make sure that the debugger type is set to **Script** in the Debug properties for the project.  
   
 ## console object commands  
  This table shows the syntax for the `console` object commands that you can use in the JavaScript Console window, or that you can use to send messages to the console from your code. This object provides a number of forms so that you can distinguish between informational messages and error messages, if you want to.  
@@ -37,7 +37,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  You can use the longer command form `window.console.[command]` if you need to avoid possible confusion with local objects named console.  
   
 > [!TIP]
->  Older versions of Visual Studio do not support the complete set of commands. Use IntelliSense on the console object to get quick information about supported commands.  
+> Older versions of Visual Studio do not support the complete set of commands. Use IntelliSense on the console object to get quick information about supported commands.  
   
 |Command|Description|Example|  
 |-------------|-----------------|-------------|  

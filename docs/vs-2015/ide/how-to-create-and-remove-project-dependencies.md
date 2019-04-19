@@ -33,7 +33,7 @@ When building a solution that contains multiple projects, it can be necessary to
     The **Project Dependencies** dialog box opens.  
   
    > [!NOTE]
-   >  The **Project Dependencies** option is only available in a solution with more than one project.  
+   > The **Project Dependencies** option is only available in a solution with more than one project.  
   
 3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.  
   
@@ -50,7 +50,7 @@ When building a solution that contains multiple projects, it can be necessary to
      The **Project Dependencies** dialog box opens.  
   
     > [!NOTE]
-    >  The **Project Dependencies** option is only available in a solution with more than one project.  
+    > The **Project Dependencies** option is only available in a solution with more than one project.  
   
 3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.  
   

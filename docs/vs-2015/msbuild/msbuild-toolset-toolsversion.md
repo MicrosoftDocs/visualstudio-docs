@@ -91,7 +91,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
  As described earlier in this topic, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  
   
 > [!NOTE]
->  If toolset property names collide, the value that's defined for the subkey path overrides the value that's defined for the root key path.  
+> If toolset property names collide, the value that's defined for the subkey path overrides the value that's defined for the root key path.  
   
  Sub-toolsets become active in the presence of the `VisualStudioVersion` build property. This property may take one of these values:  
   

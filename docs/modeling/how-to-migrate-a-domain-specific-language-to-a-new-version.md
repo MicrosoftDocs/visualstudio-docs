@@ -47,7 +47,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    - Select a project or solution to see a list of changes that the tool will make.
 
        > [!NOTE]
-       >  The checkboxes that appear next to folder names have no effect. You must expand the folders to inspect the projects and solutions.
+       > The checkboxes that appear next to folder names have no effect. You must expand the folders to inspect the projects and solutions.
 
 4. Convert the projects.
 
@@ -68,7 +68,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    2. Click the **Transform All Templates** button in the header of Solution Explorer.
 
        > [!NOTE]
-       >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
+       > You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
 
 6. Update your custom code in the converted projects.
 

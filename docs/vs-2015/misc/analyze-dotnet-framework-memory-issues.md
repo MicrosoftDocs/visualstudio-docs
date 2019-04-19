@@ -53,7 +53,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
  The memory analysis tool analyzes information in *dump files* that contain heap information. You can create dump files in Visual Studio, or you can use a tool like [ProcDump](http://technet.microsoft.com/sysinternals/dd996900.aspx) from [Windows Sysinternals](http://technet.microsoft.com/sysinternals). See [What is a dump, and how do I create one?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) on the Visual Studio Debugger Team blog.  
   
 > [!NOTE]
->  Most tools can collect dump information with or without complete heap memory data. The Visual Studio memory analyzer requires full heap information.  
+> Most tools can collect dump information with or without complete heap memory data. The Visual Studio memory analyzer requires full heap information.  
   
  **To collect a dump from Visual Studio**  
   

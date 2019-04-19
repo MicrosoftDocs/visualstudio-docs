@@ -15,7 +15,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
  This topic describes how to modify the *web.config* configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.
 
 > [!NOTE]
->  You are not required to modify the *web.config* file when you use the sampling profiling method, or when you want to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] module.
+> You are not required to modify the *web.config* file when you use the sampling profiling method, or when you want to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] module.
 
  The root of a *web.config* file is the **configuration** element. To instrument and profile a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, you must add or modify the following elements:
 

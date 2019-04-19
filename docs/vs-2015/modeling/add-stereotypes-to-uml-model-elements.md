@@ -38,14 +38,14 @@ You can add a stereotype to a UML model element to annotate it and provide it wi
 1. Right-click the model element or relationship, either on a diagram or in **UML Model Explorer**, and then click **Properties**.  
   
     > [!NOTE]
-    >  To add the same stereotypes to several elements, you can select several elements and then right-click one of them.  
+    > To add the same stereotypes to several elements, you can select several elements and then right-click one of them.  
   
 2. Click the **Stereotypes** property and select the stereotypes that you want to apply.  
   
      The selected stereotypes appear within «chevrons» in the model element, for most kinds of element and relationship.  
   
     > [!NOTE]
-    >  If you cannot see the **Stereotypes** property, or if the stereotype you want does not appear, verify that the model element is inside a package or a model to which the appropriate profile has been linked.  
+    > If you cannot see the **Stereotypes** property, or if the stereotype you want does not appear, verify that the model element is inside a package or a model to which the appropriate profile has been linked.  
   
 3. Some stereotypes allow you to set the values of additional properties for the model element. To see these properties, expand the **Stereotypes** property.  
   

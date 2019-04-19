@@ -31,7 +31,7 @@ You connect your application to the data returned from a service by running the 
  Upon completion of the wizard, a service reference is added to your project and is immediately available in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992).  
   
 > [!NOTE]
->  The items that appear in the **Data Sources** window are dependent on the information that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, then no items appear in the **Data Sources Window** upon completing the wizard. This is because untyped datasets do not provide schema, so the wizard does not have enough information to create the data source.  
+> The items that appear in the **Data Sources** window are dependent on the information that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, then no items appear in the **Data Sources Window** upon completing the wizard. This is because untyped datasets do not provide schema, so the wizard does not have enough information to create the data source.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
@@ -46,7 +46,7 @@ You connect your application to the data returned from a service by running the 
 4. Optionally, a new **Namespace** can be typed in place of the default value.  
   
     > [!NOTE]
-    >  Click **Advanced** to open the [Configure Service Reference Dialog Box](../data-tools/configure-service-reference-dialog-box.md).  
+    > Click **Advanced** to open the [Configure Service Reference Dialog Box](../data-tools/configure-service-reference-dialog-box.md).  
   
 5. Click **OK** to add a service reference to your project.  
   

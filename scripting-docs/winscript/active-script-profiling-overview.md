@@ -29,7 +29,7 @@ The [Active Script Profiler Interfaces](../winscript/reference/active-script-pro
  The language engine implements [IActiveScriptProfilerControl Interface](../winscript/reference/iactivescriptprofilercontrol-interface.md).  
   
 > [!NOTE]
->  The [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] language runtime checks the JS_PROFILER environment variable on creation to determine whether profiling should be enabled. If this variable is set to the CLSID of the profiler, the language runtime creates an instance of the profiler COM object, using the value of the variable to determine which profiler to create.  
+> The [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] language runtime checks the JS_PROFILER environment variable on creation to determine whether profiling should be enabled. If this variable is set to the CLSID of the profiler, the language runtime creates an instance of the profiler COM object, using the value of the variable to determine which profiler to create.  
   
 ## Host  
  The host creates the language engine and provides the language engine with scripts to be executed. A smart host also provides the document context that can be used by a debugger or profiler to provide better information when you are debugging or profiling.  

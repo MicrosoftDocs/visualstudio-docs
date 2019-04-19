@@ -43,7 +43,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a teapot model.  
   
 > [!NOTE]
->  To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader. A game or app can use this parameter to supply a unique color value for each object. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).  
+> To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader. A game or app can use this parameter to supply a unique color value for each object. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).  
   
  ![The shader graph and a preview of its effect.](../designers/media/digit-lambert-effect-graph.png "Digit-Lambert-Effect-Graph")  
   

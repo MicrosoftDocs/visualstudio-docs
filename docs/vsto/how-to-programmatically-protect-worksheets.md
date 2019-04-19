@@ -24,7 +24,7 @@ ms.workload:
  In document-level customizations, you can protect worksheets by using the Excel designer. You can also protect a worksheet programmatically at run time in any project type.
 
 > [!NOTE]
->  You cannot add Windows Forms controls to areas of a worksheet that are protected.
+> You cannot add Windows Forms controls to areas of a worksheet that are protected.
 
 ## Use the designer
 

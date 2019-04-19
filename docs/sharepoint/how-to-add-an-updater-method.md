@@ -44,7 +44,7 @@ ms.workload:
      For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
    > [!NOTE]
-   >  If the identifier of the entity type represents a field in a database table that's not automatically generated, set the **Pre-Updater Field** property to **True**.
+   > If the identifier of the entity type represents a field in a database table that's not automatically generated, set the **Pre-Updater Field** property to **True**.
 
 4. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.
 
@@ -53,7 +53,7 @@ ms.workload:
 5. Add code to the Update method to update data. The following example updates information for a contact in the AdventureWorks sample database for SQL Server.
 
    > [!NOTE]
-   >  Replace the value of the `ServerName` field with the name of your server.
+   > Replace the value of the `ServerName` field with the name of your server.
 
     [!code-csharp[SP_BDC#5](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#5)]
     [!code-vb[SP_BDC#5](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#5)]

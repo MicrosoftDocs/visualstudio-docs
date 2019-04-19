@@ -28,7 +28,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
 - For installation requirements, see [Visual Studio 2015 System Requirements](https://www.visualstudio.com/visual-studio-2015-system-requirements-vs).  
   
   > [!IMPORTANT]
-  >  If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Classic Windows applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Store or Universal Windows apps.  
+  > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Classic Windows applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Store or Universal Windows apps.  
   
   To build apps for specific device platforms, there are some additional requirements:  
   
@@ -69,12 +69,12 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
 4. When installation is complete, close the installer and then restart your computer. Some setup actions for the third-party components do not take effect until the computer is restarted.  
   
     > [!IMPORTANT]
-    >  You must restart to make sure everything is installed correctly.  
+    > You must restart to make sure everything is installed correctly.  
   
      If the Microsoft Visual Studio Emulator for Android component failed to install, your computer may not have Hyper-V enabled. Use the **Turn Windows features on or off** Control Panel app to enable Hyper-V, and then run the Visual Studio installer again.  
   
     > [!NOTE]
-    >  If your computer or your version of Windows does not support Hyper-V, you can't use the Microsoft Visual Studio Emulator for Android component. The Home Edition of Windows does not include Hyper-V support.  
+    > If your computer or your version of Windows does not support Hyper-V, you can't use the Microsoft Visual Studio Emulator for Android component. The Home Edition of Windows does not include Hyper-V support.  
   
 5. Open Visual Studio. If this is the first time that you have run Visual Studio, it may take some time to configure and sign in. When Visual Studio is ready, on the **Tools** menu, select **Extensions and Updates**, **Updates**. If there are Visual Studio updates available for Visual C++ for Cross-Platform Mobile Development or for Microsoft Visual Studio Emulator for Android, install them.  
   
@@ -85,7 +85,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
  If you decide not to install one or more third-party dependencies using the Visual Studio installer when you install the Visual C++ Mobile Development option, you can install them later by using the steps in [Install the tools](#InstallTheTools). You can also install or update them independently of Visual Studio.  
   
 > [!CAUTION]
->  You can install the dependencies in any order, except for Java. You must install and configure the JDK before you install the Android SDK.  
+> You can install the dependencies in any order, except for Java. You must install and configure the JDK before you install the Android SDK.  
   
  Read the following information and use these links to install dependencies manually.  
   

@@ -29,7 +29,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreExcelAutomation#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#1)]
 
     > [!NOTE]
-    >  You can create a workbook based on a template other than the default template: pass the template you want to use as a parameter to the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method.
+    > You can create a workbook based on a template other than the default template: pass the template you want to use as a parameter to the <xref:Microsoft.Office.Interop.Excel.Workbooks.Add%2A> method.
 
 ## See also
 - [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)

@@ -23,7 +23,7 @@ As the author of a domain-specific language (DSL), you can define validation con
  Validation is particularly important if you are writing text templates or other tools that process your users’ models. Validation ensures that the models fulfill the preconditions assumed by those tools.  
   
 > [!WARNING]
->  You can also allow validation constraints to be defined in separate extensions to your DSL, along with extension menu commands and gesture handlers. Users can choose to install these extensions in addition to your DSL. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).  
+> You can also allow validation constraints to be defined in separate extensions to your DSL, along with extension menu commands and gesture handlers. Users can choose to install these extensions in addition to your DSL. For more information, see [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).  
   
 ## Running Validation  
  When a user is editing a model, that is, an instance of your domain-specific language, the following actions can run validation:  
@@ -46,7 +46,7 @@ As the author of a domain-specific language (DSL), you can define validation con
  Each validation method reports any errors that it finds.  
   
 > [!NOTE]
->  Validation methods report errors, but do not change the model. If you want to adjust or prevent certain changes, see [Alternatives to Validation](#alternatives).  
+> Validation methods report errors, but do not change the model. If you want to adjust or prevent certain changes, see [Alternatives to Validation](#alternatives).  
   
 #### To define a validation constraint  
   
@@ -314,7 +314,7 @@ private void TestForCircularLinks(ValidationContext context)
 ```  
   
 > [!NOTE]
->  You can prefix a method with as many `[ValidationMethod()]` attributes as you want. You can add a method to both custom and standard categories.  
+> You can prefix a method with as many `[ValidationMethod()]` attributes as you want. You can add a method to both custom and standard categories.  
   
  To invoke a custom validation:  
   
@@ -336,7 +336,7 @@ validationController.ValidateCustom
  **Roll back the transaction if an invalid change is attempted.** You could also define a rule for this purpose, but in some cases it is possible to override a property handler **OnValueChanging()**, or to override a method such as `OnDeleted().` To roll back a transaction, use `this.Store.TransactionManager.CurrentTransaction.Rollback().` For more information, see [Domain Property Value Change Handlers](../modeling/domain-property-value-change-handlers.md).  
   
 > [!WARNING]
->  Make sure that the user knows that the change has been adjusted or rolled back. For example, use `System.Windows.Forms.MessageBox.Show("message").`  
+> Make sure that the user knows that the change has been adjusted or rolled back. For example, use `System.Windows.Forms.MessageBox.Show("message").`  
   
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   

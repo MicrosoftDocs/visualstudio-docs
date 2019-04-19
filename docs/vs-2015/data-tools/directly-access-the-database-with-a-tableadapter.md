@@ -42,7 +42,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
 - Call the TableAdapter's `Insert` method, passing in the values for each column as parameters. The following procedure uses the `Region` table in the Northwind databaseas an example.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
      [!code-csharp[VbRaddataSaving#15](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#15)]
      [!code-vb[VbRaddataSaving#15](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#15)]  
@@ -52,7 +52,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
 - Call the TableAdapter's `Update` method, passing in the new and original values for each column as parameters.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
      [!code-csharp[VbRaddataSaving#18](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#18)]
      [!code-vb[VbRaddataSaving#18](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#18)]  
@@ -62,7 +62,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
 - Call the TableAdapter's `Delete` method, passing in the values for each column as parameters of the `Delete` method. The following procedure uses the `Region` table in the Northwind databaseas an example.  
   
     > [!NOTE]
-    >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
+    > If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
      [!code-csharp[VbRaddataSaving#21](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs#21)]
      [!code-vb[VbRaddataSaving#21](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb#21)]  

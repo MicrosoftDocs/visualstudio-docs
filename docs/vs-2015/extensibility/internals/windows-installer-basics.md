@@ -53,7 +53,7 @@ The Windows Installer installs and uninstalls applications or software products 
  Two sets of rules determine the deployment of resources through your setup's components. One rule set is maintained by the Windows Installer itself, while you should enforce the second set as installation author.  
   
 > [!NOTE]
->  Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) and [Package Validation](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx).  
+> Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) and [Package Validation](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx).  
   
 #### Installer-Enforced Rules  
   

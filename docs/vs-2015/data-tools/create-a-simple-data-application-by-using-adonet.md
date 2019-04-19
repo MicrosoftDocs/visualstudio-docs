@@ -23,7 +23,7 @@ When you create an application that manipulates data in a database, you perform 
  This article demonstrates a simple way to get data out of a database in a very fast manner. If your application needs to modify data in non-trivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.  
   
 > [!IMPORTANT]
->  To keep the code simple, it doesn’t include production-ready exception handling.  
+> To keep the code simple, it doesn’t include production-ready exception handling.  
   
  **In this topic**  
   
@@ -72,7 +72,7 @@ When you create an application that manipulates data in a database, you perform 
 3. For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.  
   
    > [!NOTE]
-   >  The group box and the label controls add clarity but aren't used in the code.  
+   > The group box and the label controls add clarity but aren't used in the code.  
   
    **Navigation form**  
   
@@ -129,7 +129,7 @@ When you create an application that manipulates data in a database, you perform 
 5. In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.  
   
 > [!NOTE]
->  In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
+> In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8).  
   
 ## <a name="BKMK_retrievetheconnectionstring"></a> Retrieve the connection string  
   

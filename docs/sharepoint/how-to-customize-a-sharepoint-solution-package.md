@@ -41,7 +41,7 @@ ms.workload:
 2. Expand Package, expand Package.package, and then open the *Package.Template.xml* file.
 
     > [!NOTE]
-    >  When you open the manifest XML file for the package template, the files are automatically validated, and you can ignore the warnings that appear in the Error List window.
+    > When you open the manifest XML file for the package template, the files are automatically validated, and you can ignore the warnings that appear in the Error List window.
 
 ## Change the manifest template
  You can change the XML code for the packaged manifest file in the Visual Studio XML Editor or the Manifest Template pane. Any changes to the XML code are merged into the packaged manifest file for the package.
@@ -62,7 +62,7 @@ ms.workload:
  You can disable the Package Designer and create the *manifest.xml* file manually. The first time that you perform this procedure, the current settings in the Package Designer are saved to the package template XML file. Then, you can modify or overwrite the XML code.
 
 > [!NOTE]
->  If you add or remove SharePoint project items and Features in the XML file while the Package Designer is disabled, these project items and Features aren't packaged.
+> If you add or remove SharePoint project items and Features in the XML file while the Package Designer is disabled, these project items and Features aren't packaged.
 
 #### To overwrite packaged manifest file by disabling the designer
 

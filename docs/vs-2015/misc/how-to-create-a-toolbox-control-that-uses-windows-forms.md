@@ -16,7 +16,7 @@ manager: jillfra
 The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vssdk_dev11_long](../includes/vssdk-dev11-long-md.md)] lets you create Windows Forms controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users..  
   
 > [!NOTE]
->  To find out how to download the Visual Studio SDK, see [Visual Studio Extensibility Developer Center](http://go.microsoft.com/fwlink/?linkid=121964) on the MSDN Web site.  
+> To find out how to download the Visual Studio SDK, see [Visual Studio Extensibility Developer Center](http://go.microsoft.com/fwlink/?linkid=121964) on the MSDN Web site.  
   
 ## Creating a Toolbox Control  
  Use the Windows Forms Toolbox Control template to create the project, and then build a user interface (UI) in the designer.  

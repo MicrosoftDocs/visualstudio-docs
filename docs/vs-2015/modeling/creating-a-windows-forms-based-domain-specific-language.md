@@ -79,7 +79,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
      Give it additional domain properties named `Size` of type **Int32**, and `IsOrganic` of type **Boolean**.  
 
     > [!NOTE]
-    >  If you delete the root domain class and then create a new root, you will have to reset the Editor Root Class property. In **DSL Explorer**, select **Editor**. Then in the Properties window, set **Root Class** to `Farm`.  
+    > If you delete the root domain class and then create a new root, you will have to reset the Editor Root Class property. In **DSL Explorer**, select **Editor**. Then in the Properties window, set **Root Class** to `Farm`.  
 
 4. Use the **Named Domain Class** tool to create the following domain classes:  
 
@@ -104,7 +104,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 10. Build the **Dsl** project.  
 
     > [!NOTE]
-    >  At this stage, the other projects will not build without errors. However, we want to build the Dsl project so that its assembly is available to the Data Source Wizard.  
+    > At this stage, the other projects will not build without errors. However, we want to build the Dsl project so that its assembly is available to the Data Source Wizard.  
 
 ## Updating the UI Project  
  Now you can create a new user control that will display the information that is stored in the DSL model. The easiest way to connect the user control to the model is through data bindings. The data binding adaptor type named **ModelingBindingSource** is specifically designed to connect DSLs to non-VMSDK interfaces.  
@@ -148,7 +148,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 6. Using the toolbox, create two instances of **DataGridView**, and name them `AnimalGridView` and `FieldGridView`.  
 
    > [!NOTE]
-   >  An alternative step is to drag the Animals and Fields items from the Data Sources window onto the control. This action automatically creates data grids and bindings between the grid view and the data source. However, this binding does not work correctly for DSLs. Therefore it is better to create the data grids and bindings manually.  
+   > An alternative step is to drag the Animals and Fields items from the Data Sources window onto the control. This action automatically creates data grids and bindings between the grid view and the data source. However, this binding does not work correctly for DSLs. Therefore it is better to create the data grids and bindings manually.  
 
 7. If the Toolbox does not contain the **ModelingBindingSource** tool, add it. On the shortcut menu of the **Data** tab, choose **Choose Items**. In the **Choose Toolbox Items** dialog, select **ModelingBindingSource** from the **.NET Framework Tab**.  
 
@@ -221,7 +221,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
      `Goat1` appears in the **Animals** view.  
 
     > [!WARNING]
-    >  You must use the shortcut menu on the **Farm** node, not the **Animals** node.  
+    > You must use the shortcut menu on the **Farm** node, not the **Animals** node.  
 
 4. Select the **Farm** root node and view its properties.  
 

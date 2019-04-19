@@ -18,7 +18,7 @@ The process that renders or displays colorized text in user interface (UI) eleme
  Most implementations that display colorized text need the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> and associated interfaces for presenting, retrieving, and storing text display settings.
 
 > [!NOTE]
->  When customizing the core editor (which supports the **Text EditorCategory**), it is recommended that you use the coloring technology in the language service. For more information, see [Font and color overview](../extensibility/font-and-color-overview.md).
+> When customizing the core editor (which supports the **Text EditorCategory**), it is recommended that you use the coloring technology in the language service. For more information, see [Font and color overview](../extensibility/font-and-color-overview.md).
 
 ## Get default font and color information
  All the **Fonts and Colors** settings of any window displaying text should be specified in the **Display Items** of one **Category**. For more information, see [Fonts and colors, environment, Options Dialog box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).

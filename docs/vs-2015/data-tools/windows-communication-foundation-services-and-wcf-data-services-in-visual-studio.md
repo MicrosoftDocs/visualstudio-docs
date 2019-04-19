@@ -131,14 +131,14 @@ Visual Studio provides tools for working with Windows Communication Foundation (
     ```
 
     > [!NOTE]
-    >  Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
+    > Replace *ServiceReference* with the namespace for the service reference and replace *Service1Client* with the name of the service.
 
 3. An IntelliSense list will be displayed with the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
 4. Following the overload, type `=` *ConfigurationName*, where *ConfigurationName* is the name of the endpoint that you want to use.
 
     > [!NOTE]
-    >  If you do not know the names of the available endpoints, you can find them in the app.config file.
+    > If you do not know the names of the available endpoints, you can find them in the app.config file.
 
 #### To find the available endpoints for a WCF service
 
@@ -158,7 +158,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  By default, when a service reference is added to a project it is configured to call methods synchronously. You can change the behavior to call methods asynchronously by changing a setting in the **Configure Service Reference** dialog box.
 
 > [!NOTE]
->  This option is set on a per-service basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
+> This option is set on a per-service basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
 
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]
 

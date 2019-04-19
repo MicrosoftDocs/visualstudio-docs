@@ -55,7 +55,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
  The `Code` element defines the XML text that will be inserted when the snippet is invoked.  
   
 > [!NOTE]
->  The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.  
+> The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.  
   
  The following is the `Code` element that is created by the boilerplate snippet.  
   

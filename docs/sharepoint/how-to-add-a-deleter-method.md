@@ -52,10 +52,10 @@ ms.workload:
 5. Add code to the Deleter method to delete a record. The following example deletes a line item from a sales order by using the AdventureWorks sample database for SQL Server.
 
    > [!NOTE]
-   >  The method in this example uses two input parameters.
+   > The method in this example uses two input parameters.
 
    > [!NOTE]
-   >  Replace the value of the `ServerName` field with the name of your server.
+   > Replace the value of the `ServerName` field with the name of your server.
 
     [!code-csharp[SP_BDC#6](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderdetailservice.cs#6)]
     [!code-vb[SP_BDC#6](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb#6)]

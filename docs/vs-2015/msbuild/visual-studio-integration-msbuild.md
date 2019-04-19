@@ -58,7 +58,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ```  
   
 > [!NOTE]
->  Some item type names are special to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] but not listed in this dropdown.  
+> Some item type names are special to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] but not listed in this dropdown.  
   
 ## In-Process Compilers  
  When possible, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will attempt to use the in-process version of the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] compiler for increased performance. (Not applicable to [!INCLUDE[csprcs](../includes/csprcs-md.md)].) For this to work correctly, the following conditions must be met:  

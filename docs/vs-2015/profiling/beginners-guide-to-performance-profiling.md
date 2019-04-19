@@ -28,7 +28,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
  If **Sampling** does not give you the data that you need, other profiling tools collection methods provide different kinds of information that might be helpful to you. For more information about these other methods, see [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md).  
   
 > [!TIP]
->  If you profile code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
+> If you profile code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
   
 ## <a name="Step1"></a> Create and run a performance session  
  To get the data that you need to analyze, you must first create a performance session and then run the session. The **Performance Wizard** lets you do both.  
@@ -40,7 +40,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
 1. Open the solution in Visual Studio. Set the configuration to Release. (Find the **Solution Configurations** box on the toolbar, which is set to **Debug** by default. Change it to **Release**.)  
   
     > [!IMPORTANT]
-    >  If you are not an administrator on the computer that you are using, you should run Visual Studio as an administrator while you are using the profiler. (Right-click the Visual Studio application icon, and then click **Run as administrator**.  
+    > If you are not an administrator on the computer that you are using, you should run Visual Studio as an administrator while you are using the profiler. (Right-click the Visual Studio application icon, and then click **Run as administrator**.  
   
 2. On the **Debug** menu, click **Performance Profiler**.  
   

@@ -54,7 +54,7 @@ ms.workload:
 - Define the callback method in the Ribbon class.
 
 > [!NOTE]
->  Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+> Outlook requires an additional step. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
  For a walkthrough that demonstrates how to automate an application from the ribbon, see [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md).
 

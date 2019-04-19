@@ -21,7 +21,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
  You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, a domain-specific language, and commands for UML diagrams.  
   
 > [!NOTE]
->  You can also customize architecture validation, in which users’ source code is compared with layer diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
+> You can also customize architecture validation, in which users’ source code is compared with layer diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
   
 ## Requirements  
  See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).  
@@ -59,7 +59,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
 1. Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain command or gesture handler classes.  
   
     > [!NOTE]
-    >  You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.  
+    > You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.  
   
 2. Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:  
   

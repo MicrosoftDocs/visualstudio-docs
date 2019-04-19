@@ -288,7 +288,7 @@ Rename the existing domain classes and relationships. For example, starting from
          Set its name, for example **Town**.
 
         > [!NOTE]
-        >  Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.
+        > Every domain class except the root of the model must be the target of at least one embedding relationship, or it must inherit from a class that is the target of an embedding. For this reason, it is frequently convenient to create a domain class by using the Embedding Relationship tool.
 
     2. Add a domain property to the new class, for example **Name**.
 
@@ -299,7 +299,7 @@ Rename the existing domain classes and relationships. For example, starting from
          ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png)
 
         > [!NOTE]
-        >  Reference relationships represent cross-references from one part of the model tree to another.
+        > Reference relationships represent cross-references from one part of the model tree to another.
 
 3. Add a shape to represent towns on the model diagrams.
 

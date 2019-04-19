@@ -93,7 +93,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
 - You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
   
 - > [!NOTE]
-    >  In Visual Studio 2015, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
+    > In Visual Studio 2015, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
   
 #### To display an assembly in the Add Reference dialog box  
   
@@ -175,7 +175,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
  An SDK is a collection of files that Visual Studio treats as a single component. In the Extensions tab, SDKs that apply to the project from which the **Reference Manager** dialog box was invoked are listed as single entries. When added to a project, all of the SDK content is consumed by Visual Studio such that the user doesn’t need to take any further actions to leverage the SDK contents in IntelliSense, toolbox, designers, Object Browser, build, deployment, debugging, and packaging. For information about how to display your SDK in the Extensions tab, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
 > [!NOTE]
->  If a project references an SDK that depends on another SDK, Visual Studio won’t consume the second SDK unless the user manually adds a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the **Reference Manager** dialog box helps the user identify SDK dependencies by listing not only the name and version of the SDK but also the name of any SDK dependencies in the details pane. If a user doesn’t notice the dependencies and only adds that SDK, MSBuild will prompt the user to add the dependencies.  
+> If a project references an SDK that depends on another SDK, Visual Studio won’t consume the second SDK unless the user manually adds a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the **Reference Manager** dialog box helps the user identify SDK dependencies by listing not only the name and version of the SDK but also the name of any SDK dependencies in the details pane. If a user doesn’t notice the dependencies and only adds that SDK, MSBuild will prompt the user to add the dependencies.  
   
  If a project type doesn’t support **Extensions**, the tab doesn’t appear in the **Reference Manager** dialog box.  
   
@@ -201,7 +201,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
     ```  
   
     > [!NOTE]
-    >  If you add the property, the build might run slower.  
+    > If you add the property, the build might run slower.  
   
 ## Recent  
  Assemblies, COM, Windows, and Browse each support a Recent tab, which enumerates the list of components that were recently added to projects.  

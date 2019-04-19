@@ -23,7 +23,7 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
  To open the **VSIX Manifest Designer**, locate a *source.extension.vsixmanifest* file in **Solution Explorer**, and open the file. If the file does not contain valid XML, the manifest designer won't open.
 
 > [!NOTE]
->  The *source.extension.vsixmanifest* file is output to *extension.vsixmanifest* when the package is built.
+> The *source.extension.vsixmanifest* file is output to *extension.vsixmanifest* when the package is built.
 
 ## UIElement list
  The **VSIX Manifest Designer** contains four sections that correspond to these top-level elements of the schema:

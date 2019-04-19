@@ -47,7 +47,7 @@ By specifying a custom build event, you can automatically run commands before a 
      Example: `for %I in (*.txt *.doc *.html) do copy %I c:\`*mydirectory*`\`
 
     > [!NOTE]
-    >  `%I` in the code above should be `%%I` in batch scripts.
+    > `%I` in the code above should be `%%I` in batch scripts.
 
 ## See Also
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

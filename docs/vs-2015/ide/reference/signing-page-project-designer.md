@@ -80,7 +80,7 @@ Use the **Signing** page of the **Project Designer** to sign the application and
  Note that a delay signed project will not run and cannot be debugged. You can, however, use the [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6) with the `-Vr` option to skip verification during development.  
   
 > [!NOTE]
->  When you sign an assembly, you might not always have access to a private key. For example, an organization might have a closely guarded key pair that developers don’t have access to on a daily basis. The public key might be available, but access to the private key is restricted to a few individuals. In such a case, you can use *delayed* or *partial signing* to provide the public key, deferring the addition of the private key until the assembly is handed off.  
+> When you sign an assembly, you might not always have access to a private key. For example, an organization might have a closely guarded key pair that developers don’t have access to on a daily basis. The public key might be available, but access to the private key is restricted to a few individuals. In such a case, you can use *delayed* or *partial signing* to provide the public key, deferring the addition of the private key until the assembly is handed off.  
   
 ## See Also  
  [Project Properties Reference](../../ide/reference/project-properties-reference.md)   

@@ -242,7 +242,7 @@ This walkthrough shows how to add a tracking property to a domain model.
  Implement the `GetCustomProperties` method for the type descriptor for the `ExampleModel` domain class.  
   
 > [!NOTE]
->  The code that the DSL Tools generate for the custom type descriptor for `ExampleModel` calls `GetCustomProperties`; however, the DSL Tools do not generate code that implements the method.  
+> The code that the DSL Tools generate for the custom type descriptor for `ExampleModel` calls `GetCustomProperties`; however, the DSL Tools do not generate code that implements the method.  
   
  Defining this method creates the tracking property descriptor for the Namespace tracking property. Also, providing attributes for the tracking property enables the **Properties** window to display the property correctly.  
   
@@ -338,7 +338,7 @@ This walkthrough shows how to add a tracking property to a domain model.
  Implement the `GetCustomElementsValue` method for the `ExampleModel` domain class.  
   
 > [!NOTE]
->  The code that the DSL Tools generate for `ExampleModel` calls `GetCustomElementsValue`; however, the DSL Tools do not generate code that implements the method.  
+> The code that the DSL Tools generate for `ExampleModel` calls `GetCustomElementsValue`; however, the DSL Tools do not generate code that implements the method.  
   
  Defining the `GetCustomElementsValue` method provides the logic for the CustomElements calculated property of `ExampleModel`. This method counts the number of `ExampleElement` domain classes that have a Namespace tracking property that has a user-updated value, and returns a string that represents this count as a proportion of the total elements in the model.  
   
@@ -419,7 +419,7 @@ This walkthrough shows how to add a tracking property to a domain model.
  Also, add storage for, and methods to get and set, the Namespace custom storage property of the `ExampleElement` domain class.  
   
 > [!NOTE]
->  The code that the DSL Tools generate for `ExampleModel` calls the get and set methods; however, the DSL Tools do not generate code that implements the methods.  
+> The code that the DSL Tools generate for `ExampleModel` calls the get and set methods; however, the DSL Tools do not generate code that implements the methods.  
   
 #### To add the method for the custom type descriptor  
   
@@ -585,7 +585,7 @@ This walkthrough shows how to add a tracking property to a domain model.
  Add code to support the custom post-load behavior for XML serialization.  
   
 > [!NOTE]
->  The code that the DSL Tools generate calls the `OnPostLoadModel` and `OnPostLoadModelAndDiagram` methods; however, the DSL Tools do not generate code that implements these methods.  
+> The code that the DSL Tools generate calls the `OnPostLoadModel` and `OnPostLoadModelAndDiagram` methods; however, the DSL Tools do not generate code that implements these methods.  
   
 #### To add code to support the custom post-load behavior  
   

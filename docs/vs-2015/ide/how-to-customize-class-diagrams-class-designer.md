@@ -23,7 +23,7 @@ You can change the way that class diagrams display information. You can customiz
  For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.  
   
 > [!NOTE]
->  Customizing the way that shapes appear on the diagram doesn't change the underlying code for the types represented on the diagram.  
+> Customizing the way that shapes appear on the diagram doesn't change the underlying code for the types represented on the diagram.  
   
  The sections that contain type members, such as the Properties section in a class, are called compartments. You can hide or show individual compartments and type members.  
   
@@ -58,7 +58,7 @@ You can change the way that class diagrams display information. You can customiz
      Specify a particular zoom value. You can use the **Zoom** drop down list or type a valid zoom level (valid range is between 10% and 400%).  
   
     > [!NOTE]
-    >  Changing the zoom level does not affect the scale of your class diagram printout.  
+    > Changing the zoom level does not affect the scale of your class diagram printout.  
   
 ## <a name="CustomizeGroupingSorting"></a> Customize grouping and sorting of type members  
   

@@ -39,7 +39,7 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
  Both versions of this command will return the value of the variable `varA`.  
   
 > [!NOTE]
->  To issue a [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the **Command** window.  
+> To issue a [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the **Command** window.  
   
 ## Design Time Expression Evaluation  
  You can use the **Immediate** window to execute a function or subroutine at design time.  

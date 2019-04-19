@@ -24,7 +24,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
  You can also write program code for more advanced customization.  
   
 > [!NOTE]
->  If you want to save the model in a particular format, but you do not need to reload it from that form, consider using text templates to generate output from the model, instead of a custom serialization scheme. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
+> If you want to save the model in a particular format, but you do not need to reload it from that form, consider using text templates to generate output from the model, instead of a custom serialization scheme. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
   
 ## Model and Diagram Files  
  Each model is usually saved in two files:  

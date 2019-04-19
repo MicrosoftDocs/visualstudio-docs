@@ -16,7 +16,7 @@ manager: jillfra
 By default, when you drag database objects that have names ending in s or ies from **Server Explorer**/**Database Explorer** onto the [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md), the names of the generated entity classes are changed from plural to singular. This is done to more accurately represent the fact that the instantiated entity class maps to a single record of data. For example, adding a Customers table to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] results in an entity class named Customer because the class will hold data for only a single customer.  
   
 > [!NOTE]
->  Pluralization is on by default only in the English-language version of Visual Studio.  
+> Pluralization is on by default only in the English-language version of Visual Studio.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
@@ -27,7 +27,7 @@ By default, when you drag database objects that have names ending in s or ies fr
 2. In the **Options** dialog box, expand **Database Tools**.  
   
 > [!NOTE]
->  Select **Show all settings** if the **Database Tools** node is not visible.  
+> Select **Show all settings** if the **Database Tools** node is not visible.  
   
 1. Click **O/R Designer**.  
   

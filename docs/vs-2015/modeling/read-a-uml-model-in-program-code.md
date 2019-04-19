@@ -68,7 +68,7 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
  The example in the previous section will work in Visual Studio extensions. It is possible to read a model in a stand-alone application, but you must add some references to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
   
 > [!NOTE]
->  The details of how to read a model in a stand-alone application are likely to change in future versions of the product. Some features that are accessible in the current version might not be available in future versions.  
+> The details of how to read a model in a stand-alone application are likely to change in future versions of the product. Some features that are accessible in the current version might not be available in future versions.  
   
 #### To add references to read a model in a stand-alone application.  
   

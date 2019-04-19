@@ -19,7 +19,7 @@ manager: jillfra
 The Event Tracing for Windows (ETW) report lists the ETW events that were recorded in a performance session of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file.  
   
 > [!NOTE]
->  You cannot display ETW reports in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface.  
+> You cannot display ETW reports in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface.  
   
 - For information about how to collect ETW by using the Profiling Tools from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interface, see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md).  
   

@@ -18,7 +18,7 @@ Do you want to save the connection string to the current DBML file and applicati
  When working with data connections that include sensitive information (passwords that are included in the connection string), you are given the option of saving the connection string into a project's DBML file and application configuration file with or without the sensitive information.  
   
 > [!WARNING]
->  Explicitly setting the **Connection** properties **Application Settings** property to **False** will add the password to the DBML file.  
+> Explicitly setting the **Connection** properties **Application Settings** property to **False** will add the password to the DBML file.  
   
 ### To save the connection string with the sensitive information in the project's application settings  
   

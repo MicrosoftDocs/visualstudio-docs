@@ -50,7 +50,7 @@ manager: "wpickett"
  In the following example, `BadMethod` does not include a call to `GC.KeepAlive` and therefore violates the rule. `GoodMethod` contains the corrected code.
 
 > [!NOTE]
->  This example is pseudo-code Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.
+> This example is pseudo-code Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.
 
  [!code-csharp[FxCop.Security.IntptrAndFinalize#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Security.IntptrAndFinalize/cs/FxCop.Security.IntptrAndFinalize.cs#1)]
 

@@ -50,8 +50,10 @@ To download the IDE:
 14. Visual Studio opens. You're ready to start using Visual Studio!
 
     ::: moniker range="vs-2017"
+
     > [!div class="mx-imgBorder"]
     > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png)
+
     ::: moniker-end
 
 ## Eligibility

@@ -125,7 +125,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
   The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.
 
 > [!NOTE]
->  This is not the same as the root class of the model.
+> This is not the same as the root class of the model.
 
  Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes.
 
@@ -334,7 +334,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
  To customize this file, edit the `.tt` file.
 
 > [!WARNING]
->  If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
+> If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
 
  This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 

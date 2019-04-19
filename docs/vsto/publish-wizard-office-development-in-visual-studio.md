@@ -41,7 +41,7 @@ ms.workload:
   By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the publish\ directory if you do not have IIS installed.
 
 > [!NOTE]
->  There are more considerations if the target computer is running Windows Vista. You must be an administrator on the Windows Vista computer to use the local publish option. In addition, the default location is always the *publish\\* directory, regardless of whether you have IIS installed.
+> There are more considerations if the target computer is running Windows Vista. You must be an administrator on the Windows Vista computer to use the local publish option. In addition, the default location is always the *publish\\* directory, regardless of whether you have IIS installed.
 
 ## What is the default installation path on end-user computers?
  The installation path is optional. You can set the installation path later if you prefer. For details, see [How to: Change the installation path of an Office solution](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).

@@ -395,7 +395,7 @@ Visual Studio Tools for Unity change log.
 - Fix handling of parts of Visual Studio themes.
 
 > [!IMPORTANT]
->  C# being the predominant language in the Unity ecosystem - the new Sample Assets are in C#, the Unity documentation will default to C# - we removed our basic support for UnityScript and Boo to better focus on the C# experience. As a result, VSTU solutions are now C# only and are much faster to load.
+> C# being the predominant language in the Unity ecosystem - the new Sample Assets are in C#, the Unity documentation will default to C# - we removed our basic support for UnityScript and Boo to better focus on the C# experience. As a result, VSTU solutions are now C# only and are much faster to load.
 
 ## 1.8.2
  Released 2014-01-07
@@ -734,7 +734,7 @@ Visual Studio Tools for Unity change log.
 - Fixed the translation of .pdb symbols on Unity 4.
 
 > [!IMPORTANT]
->  Because of the Visual Studio 2012 support, we had to rename a few files and move some other around. The UnityVS package to import Unity is now named either UnityVS 2010 or UnityVS 2012, for respectively Visual Studio 2010 and Visual Studio 2012. This version also requires that the UnityVS project files are regenerated.
+> Because of the Visual Studio 2012 support, we had to rename a few files and move some other around. The UnityVS package to import Unity is now named either UnityVS 2010 or UnityVS 2012, for respectively Visual Studio 2010 and Visual Studio 2012. This version also requires that the UnityVS project files are regenerated.
 
 ## 1.0.6 - Internal build
  Released 2012-09-12

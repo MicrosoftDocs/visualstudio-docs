@@ -23,10 +23,10 @@ ms.workload:
  You can change this behavior for a specific client by using Registry Editor (**regedit.exe**) to set a custom log file path. In this case, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] logs activation successes and failures for all deployments in a single file.
 
 > [!CAUTION]
->  If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Use Registry Editor at your own risk.
+> If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Use Registry Editor at your own risk.
 
 > [!NOTE]
->  You will need to truncate or delete the log file occasionally to prevent it from growing too large.
+> You will need to truncate or delete the log file occasionally to prevent it from growing too large.
 
  The following procedure describes how to set a custom log file location for a single client.
 

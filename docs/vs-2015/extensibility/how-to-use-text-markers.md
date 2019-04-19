@@ -23,12 +23,12 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
 1. Obtain an instance of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> class.  
   
     > [!NOTE]
-    >  The core editor automatically applies standard text markers to any document that it is editing, and it should not be necessary to apply standard text markers explicitly.  
+    > The core editor automatically applies standard text markers to any document that it is editing, and it should not be necessary to apply standard text markers explicitly.  
   
 2. Obtain a marker type ID of the marker you are interested in by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> method with the `GUID` of the text marker you wish to work with.  
   
     > [!NOTE]
-    >  Do not use the `GUID` of the VSPackage or of the service that provides the text marker.  
+    > Do not use the `GUID` of the VSPackage or of the service that provides the text marker.  
   
 3. Use the marker type ID obtained by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> method as a parameter to call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> method or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> method to apply a text marker to a given region of text.  
   

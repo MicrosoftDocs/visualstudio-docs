@@ -34,7 +34,7 @@ After the debug engine has acquired a port, represented by an [IDebugPort2](../.
      The following example shows the debug engine launching the program and registering it with a port.  
   
     > [!NOTE]
-    >  This is not the only way to launch and resume a process; this is mainly an example of registering a program with a port.  
+    > This is not the only way to launch and resume a process; this is mainly an example of registering a program with a port.  
   
     ```cpp#  
     // This is an IDebugEngineLaunch2 method.  

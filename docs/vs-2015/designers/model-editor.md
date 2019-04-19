@@ -151,7 +151,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 2. In the **Properties** window, specify values for the **Rotation**, **Scale**, and **Translation** properties.  
   
    > [!IMPORTANT]
-   >  For the **Rotation** property, specify the degree of rotation around each of the three axes. Rotations are applied in order, so make sure to plan a rotation, first in terms of the x-axis rotation, then the y-axis, and then the z-axis.  
+   > For the **Rotation** property, specify the degree of rotation around each of the three axes. Rotations are applied in order, so make sure to plan a rotation, first in terms of the x-axis rotation, then the y-axis, and then the z-axis.  
   
    By using the modeling tools, you can create transformations quickly but not precisely. By setting the object properties, you can specify transformations precisely but not quickly. We recommend that you use the modeling tools to get "close enough" to the transformations you want, and then fine-tune the property values.  
   

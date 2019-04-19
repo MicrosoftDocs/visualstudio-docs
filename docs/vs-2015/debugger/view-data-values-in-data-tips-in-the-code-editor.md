@@ -36,7 +36,7 @@ DataTips provide a convenient way to view information about variables in your pr
     A DataTip appears.  
   
    > [!NOTE]
-   >  Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
+   > Data tips are always evaluated in the context where execution is suspended, and not where the cursor is hovering. If you hover over a variable in another function with the same name as a variable that is in the current context, the value of the variable in the other function is displayed as the value of the variable in the current context.  
   
 2. The DataTip disappears when you remove the mouse pointer. To pin the DataTip so that it remains open, click the **Pin to source** icon, or  
   

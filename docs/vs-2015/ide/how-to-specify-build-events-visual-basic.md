@@ -24,7 +24,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
  Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.  
   
 > [!NOTE]
->  Visual Basic Express does not support entry of build events. This is supported only in the full Visual Studio product.  
+> Visual Basic Express does not support entry of build events. This is supported only in the full Visual Studio product.  
   
 ## How to Specify Pre-Build and Post-Build Events  
   
@@ -39,10 +39,10 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
 4. Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.  
   
     > [!NOTE]
-    >  Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+    > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
   
     > [!NOTE]
-    >  If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
+    > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
   
 ## Example: How to Change Manifest Information Using a Post-Build Event  
  The following procedure shows how to set the minimum operating system version in the application manifest using an .exe command called from a post-build event (the .exe.manifest file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:  

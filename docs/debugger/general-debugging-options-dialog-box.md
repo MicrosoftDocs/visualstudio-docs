@@ -97,7 +97,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
 > [!IMPORTANT]
->  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
+> Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
 
 - **Fall back to Git Credential Manager authentication for all Source Link requests**:
     When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.

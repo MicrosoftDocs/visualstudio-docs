@@ -58,7 +58,7 @@ You can specify commands that run before or after the binaries in a performance 
 3. Type the command in the **Command line** text box under **Pre-Instrument events**.  
   
     > [!NOTE]
-    >  You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
+    > You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
   
 4. Click **OK**.  
   
@@ -77,7 +77,7 @@ You can specify commands that run before or after the binaries in a performance 
 3. Type the command in the **Command line** text box under **Post-Instrument events**.  
   
     > [!NOTE]
-    >  You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
+    > You can click the ellipsis button **(…)** that is adjacent to the **Command line** box to browse to and select the appropriate .exe, .cmd, or .bat file.  
   
 4. Click **OK**.  
   

@@ -17,7 +17,7 @@ manager: jillfra
 The .pkgdef file supports settings that you can use to customize an isolated shell application. It specifies values that are created when an application is installed on a computer and that are referenced by the Visual Studio shell when it starts the application. The settings are organized in the file based on the applicable registry keys.  
 
 > [!WARNING]
->  Note that .pkgdef files that are not declared in the .vsixmanifest file of the VSPackage are not scanned when Visual Studio starts.  
+> Note that .pkgdef files that are not declared in the .vsixmanifest file of the VSPackage are not scanned when Visual Studio starts.  
 
  The .pkgdef file contains sections that are each identified by a key, either `[$RootKey$]` or `[$RootKey$\`*subkey*`]`, where $RootKey$ is the root key for the application.  
 
@@ -47,7 +47,7 @@ The .pkgdef file supports settings that you can use to customize an isolated she
  The following sections describe specific registry values that affect the behavior of the Visual Studio shell in isolated mode. You can also define additional registry values for the application in this file.  
 
 > [!NOTE]
->  If a setting is not provided in the .pkgdef file, then no corresponding entry is made in the registry.  
+> If a setting is not provided in the .pkgdef file, then no corresponding entry is made in the registry.  
 
 ## Settings  
  The following table describes the values defined under [$RootKey$].  

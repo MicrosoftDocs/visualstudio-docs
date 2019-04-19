@@ -48,7 +48,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
    You should sign your deployment with an Authenticode certificate. You can generate a test certificate by using Visual Studio, *MageUI.exe*, or *MakeCert.exe* and *Pvk2Pfx.exe* tools, or you can obtain a certificate from a Certificate Authority (CA). If you choose to use Trusted Application Deployment, you must also perform a one-time installation of the certificate onto all client computers. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).
 
   > [!NOTE]
-  >  You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.
+  > You can also sign your deployment with a CNG certificate that you can obtain from a Certificate Authority.
 
 - Make sure that the application does not have a manifest with UAC information.
 
@@ -67,7 +67,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.
 
    > [!NOTE]
-   >  The version of your deployment can be distinct from the version of your application.
+   > The version of your deployment can be distinct from the version of your application.
 
 3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.
 
@@ -80,7 +80,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
    ```
 
    > [!NOTE]
-   >  Be sure to include the dot (.) after the `-FromDirectory` option, which indicates the current directory. If you do not include the dot, you must specify the path to your application files.
+   > Be sure to include the dot (.) after the `-FromDirectory` option, which indicates the current directory. If you do not include the dot, you must specify the path to your application files.
 
 6. Sign the application manifest with your Authenticode certificate. Replace *mycert.pfx* with the path to your certificate file. Replace *passwd* with the password for your certificate file.
 
@@ -115,7 +115,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.
 
    > [!NOTE]
-   >  The version of your deployment is probably distinct from the version of your application.
+   > The version of your deployment is probably distinct from the version of your application.
 
 3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.
 

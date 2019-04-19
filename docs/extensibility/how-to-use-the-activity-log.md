@@ -16,7 +16,7 @@ ms.workload:
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.
 
 > [!TIP]
->  The activity log is always turned on. Visual Studio keeps a rolling buffer of the last 100 entries as well as the first 10 entries, which have general configuration information.
+> The activity log is always turned on. Visual Studio keeps a rolling buffer of the last 100 entries as well as the first 10 entries, which have general configuration information.
 
 ## To write an entry to the activity log
 

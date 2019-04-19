@@ -84,7 +84,7 @@ This topic describes how to isolate performance problems in your apps using the 
 4. Optionally, add user marks to your code using [Mark code for analysis](#ProfileMark).  
   
     > [!TIP]
-    >  User marks can help you identify the responsiveness problem while you're viewing profiler data. For example, you can add a user mark at the beginning and end of a section of code that is causing a responsiveness issue.  
+    > User marks can help you identify the responsiveness problem while you're viewing profiler data. For example, you can add a user mark at the beginning and end of a section of code that is causing a responsiveness issue.  
   
 5. Run the UI Responsiveness Profiler by following the instructions in the previous section.  
   
@@ -121,7 +121,7 @@ This topic describes how to isolate performance problems in your apps using the 
     - Other events specified in [Profiler event reference](#ProfilerEvents).  
   
     > [!TIP]
-    >  Most of the usable information in the profiler appears in the timeline details graph.  
+    > Most of the usable information in the profiler appears in the timeline details graph.  
   
 12. With an area selected in the CPU utilization or visual throughput (FPS) graph, choose **Zoom in** (either the button or context menu) to get more detailed information. The timeline for the graph changes to show only the selected time period.  
   
@@ -147,7 +147,7 @@ if (performance && performance.mark) {
  The description of the event appears as a tooltip when you rest the mouse pointer over the user mark. You can add as many user marks as you need.  
   
 > [!NOTE]
->  `console.timeStamp`, a Chrome command, also appears as a user mark.  
+> `console.timeStamp`, a Chrome command, also appears as a user mark.  
   
  The following illustration shows the diagnostics ruler with a single user mark and its tooltip.  
   
@@ -192,7 +192,7 @@ if (performance.mark && performance.measure) {
  The CPU utilization graph shows the amount of time spent on all app threads, combining CPU utilization values for one or more CPUs into a single percentage value. The CPU utilization value might exceed 100 percent when more than one CPU is in use.  
   
 > [!NOTE]
->  GPU utilization does not appear in the graph.  
+> GPU utilization does not appear in the graph.  
   
  This example shows what the CPU utilization graph looks like:  
   
@@ -237,7 +237,7 @@ if (performance.mark && performance.measure) {
  The graph shows UI thread work and work on background threads that can contribute to slow visual updates. The graph doesn't show JavaScript JIT work, asynchronous GPU work, work performed outside the host process (such as RuntimeBroker.exe and dwm.exe work), or work for areas of the Windows Runtime that haven't yet been instrumented for profiling (such as disk I/O).  
   
 > [!TIP]
->  When an event occurs on a background thread, the thread ID appears in brackets next to the event name.  
+> When an event occurs on a background thread, the thread ID appears in brackets next to the event name.  
   
  This example shows what the timeline details graph looks like when the event listener for a DOM click event is selected:  
   
@@ -268,7 +268,7 @@ if (performance.mark && performance.measure) {
     - For timers, event listeners (DOM events), layout events, and animation frame callbacks, a color-coded summary of the selected event and all its children appear in the **Inclusive time summary** section (the color-coded ring). Each color-coded slice of the image represents an event type. Tooltips provide the event type name.  
   
     > [!TIP]
-    >  The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.  
+    > The timeline details graph and **Inclusive time summary** can help you identify areas for optimization. If either of these views shows large numbers of small tasks, the event may be a candidate for optimization. For example, an app may be refreshing DOM elements frequently, resulting in large numbers of layout and HTML parsing events. You may be able to optimize performance by batching this work.  
   
 ### <a name="FilterTimelineDetails"></a> Filter timeline details  
  You can filter the view in the timeline details to a particular event by selecting **Filter to event** from the context menu for a specific event. When you choose this option, the timeline and grid view are scoped to the selected event. The selection in the CPU utilization graph also scopes to the specific event.  
@@ -287,7 +287,7 @@ if (performance.mark && performance.measure) {
  To filter out UI thread activity, clear the **UI activity** option.  
   
 > [!TIP]
->  Clear this option and select the Network traffic option to investigate issues related to network latency.  
+> Clear this option and select the Network traffic option to investigate issues related to network latency.  
   
  To filter out user measures, clear the **User measures** option. User measures are top-level events with no children.  
   

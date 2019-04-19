@@ -36,7 +36,7 @@ The XML Editor allows you to create an XML Schema definition language (XSD) sche
      The schemas can be saved to disk, added to your project, or discarded.  
   
     > [!NOTE]
-    >  The **Create Schema** command is also available from the shortcut menu of the XML Editor and under the **XML** menu.  
+    > The **Create Schema** command is also available from the shortcut menu of the XML Editor and under the **XML** menu.  
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)

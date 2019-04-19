@@ -42,7 +42,7 @@ ms.workload:
 - Calling the method from VBA code.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
@@ -65,7 +65,7 @@ ms.workload:
 3. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
 4. In the **Code** group, click **Visual Basic**.
 
@@ -203,7 +203,7 @@ ms.workload:
  You can now call the `CreateVstoNamedRange` method from VBA code in the workbook.
 
 > [!NOTE]
->  In this walkthrough, you will add VBA code to the workbook while debugging the project. The VBA code you add to this document will be overwritten the next time that you build the project, because Visual Studio replaces the document in the build output folder with a copy of the document from the main project folder. If you want to save the VBA code, you can copy it into the document in the project folder. For more information, see [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).
+> In this walkthrough, you will add VBA code to the workbook while debugging the project. The VBA code you add to this document will be overwritten the next time that you build the project, because Visual Studio replaces the document in the build output folder with a copy of the document from the main project folder. If you want to save the VBA code, you can copy it into the document in the project folder. For more information, see [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).
 
 ### To call the method from VBA code
 

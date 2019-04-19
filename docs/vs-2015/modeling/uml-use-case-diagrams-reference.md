@@ -30,7 +30,7 @@ In Visual Studio, a *use case diagram* summarizes who uses your application or s
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 > [!NOTE]
->  This topic describes the elements that are available in use case diagrams. For more information about how to draw use case diagrams, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md). For more information about how to create and draw modeling diagrams, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> This topic describes the elements that are available in use case diagrams. For more information about how to draw use case diagrams, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md). For more information about how to create and draw modeling diagrams, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 ## Reading Use Case Diagrams  
  The tables in the following sections describe the elements that are available on a use case diagram, together with their main properties. For a full list of properties, see [Properties of elements on UML use case diagrams](../modeling/properties-of-elements-on-uml-use-case-diagrams.md).  

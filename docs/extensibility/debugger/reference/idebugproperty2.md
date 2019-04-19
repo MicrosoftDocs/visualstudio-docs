@@ -17,7 +17,7 @@ ms.workload:
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.
 
 > [!NOTE]
->  This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugProperty2` can represent such an entity.
+> This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugProperty2` can represent such an entity.
 
 ## Syntax
 

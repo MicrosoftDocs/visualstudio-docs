@@ -37,7 +37,7 @@ int CreateObjectID();
  Any unique ID created with `CreateObjectID` is destroyed when the [DestroyObjectID](../../../extensibility/debugger/reference/idebugproperty3-destroyobjectid.md) method is called; this also signals the end of the need for uniquely identifying this property.
 
 > [!NOTE]
->  There is no method to retrieve this unique ID, so the DE can do whatever it wants for unique IDs when the `CreateObjectID` method is called.
+> There is no method to retrieve this unique ID, so the DE can do whatever it wants for unique IDs when the `CreateObjectID` method is called.
 
 ## See Also
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

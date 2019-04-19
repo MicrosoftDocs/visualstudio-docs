@@ -17,14 +17,14 @@ manager: jillfra
 Tool windows are typically opened from a command on a menu, or an equivalent keyboard shortcut. At times, however, you might need a tool window that opens whenever a specific UI context applies, and closes when the UI context no longer applies. Tool windows like these are called *dynamic* or *auto-visible*.  
   
 > [!NOTE]
->  For a list of predefined UI contexts, see <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT>. For the  
+> For a list of predefined UI contexts, see <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT>. For the  
   
  If you want to open a dynamic tool window at startup, and it is possible for the creation to fail, you must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackageDynamicToolOwnerEx> interface and test the failure conditions in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackageDynamicToolOwnerEx.QueryShowTool%2A> method. In order for the shell to know that you have a dynamic tool window that should be opened at startup, you must add the `SupportsDynamicToolOwner` value (set to 1) to your package registration. This value is not part of the standard <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>, so you must create a custom attribute to add it. For more information about custom attributes, see [Using a Custom Registration Attribute to Register an Extension](../misc/using-a-custom-registration-attribute-to-register-an-extension.md).  
   
  Use <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> to open a tool window. The tool window is created as needed.  
   
 > [!NOTE]
->  A dynamic tool window can be closed by the user. If you want to create a menu command so the user can reopen the tool window, the menu command should be enabled in the same UI context that opens the tool window, and disabled otherwise.  
+> A dynamic tool window can be closed by the user. If you want to create a menu command so the user can reopen the tool window, the menu command should be enabled in the same UI context that opens the tool window, and disabled otherwise.  
   
 ### To open a dynamic tool window  
   

@@ -18,7 +18,7 @@ manager: jillfra
 Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.  
   
 > [!NOTE]
->  The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.  
+> The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.  
   
 ## In This Section  
  [Project Subtypes Design](../../extensibility/internals/project-subtypes-design.md)  

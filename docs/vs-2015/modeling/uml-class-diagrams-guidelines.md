@@ -28,7 +28,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 > [!NOTE]
->  This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
+> This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
   
 ## <a name="Using"></a> Using UML Class Diagrams  
  You can use a UML class diagram for a variety of purposes:  
@@ -76,7 +76,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
  For reference information about the elements on UML class diagrams, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
   
 > [!NOTE]
->  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 #### To create a UML Class diagram  
   
@@ -179,7 +179,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
   You can also write the name of a type that you have not yet defined in your model. The name will be listed under **Unspecified Types** in UML Model Explorer.  
   
 > [!NOTE]
->  If you subsequently define a class or interface of that name in your model, the older attributes and operations will still refer to the element in Unspecified Types. If you want to change them to refer to the new class, you must visit each attribute or operation and reset the type, selecting the new class from the drop-down menu.  
+> If you subsequently define a class or interface of that name in your model, the older attributes and operations will still refer to the element in Unspecified Types. If you want to change them to refer to the new class, you must visit each attribute or operation and reset the type, selecting the new class from the drop-down menu.  
   
 #### Multiple Types  
  You can set a multiplicity of any attribute, operation, or parameter type.  
@@ -267,9 +267,9 @@ visibility operation-name (parameter1 : Type1, ...) : Type
  Each type can be types that you have defined in the model, standard types such as Integer or String, or the name of a new type that you have not defined yet.  
   
 > [!NOTE]
->  If you write a name without a type in a parameter list, it indicates the name of the parameter, instead of its type. In this example, MenuItem and Integer become the names of two parameters with unspecified types:  
+> If you write a name without a type in a parameter list, it indicates the name of the parameter, instead of its type. In this example, MenuItem and Integer become the names of two parameters with unspecified types:  
 >   
->  `AddItem(MenuItem, Integer) /* parameter names, not types! */`  
+> `AddItem(MenuItem, Integer) /* parameter names, not types! */`  
   
  To set the multiplicity of a type in a signature, write the multiplicity in square brackets following the type name, for example:  
   

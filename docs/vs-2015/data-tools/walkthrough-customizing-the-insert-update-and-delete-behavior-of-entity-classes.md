@@ -57,7 +57,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 2. Name the project **UpdatingwithSProcsWalkthrough**.  
   
     > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] is supported in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] and C# projects. Therefore, create the new project in one of these languages.  
+    > The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] is supported in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] and C# projects. Therefore, create the new project in one of these languages.  
   
 3. Click the **Windows Forms Application** template and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
@@ -83,7 +83,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
      An entity class named **Customer** is created. It has properties that correspond to the columns in the Customers table. The entity class is named **Customer** (not **Customers**) because it represents a single customer from the Customers table.  
   
     > [!NOTE]
-    >  This renaming behavior is called *pluralization*. It can be turned on or off in the [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md). For more information, see [How to: Turn pluralization on and off (O/R Designer)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md).  
+    > This renaming behavior is called *pluralization*. It can be turned on or off in the [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md). For more information, see [How to: Turn pluralization on and off (O/R Designer)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md).  
   
 3. On the **Build** menu, click **Build UpdatingwithSProcsWalkthrough** to build the project.  
   
@@ -96,7 +96,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 7. Expand the **UpdatingwithSProcsWalkthrough** node and locate and select the **Customer** class.  
   
     > [!NOTE]
-    >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
+    > If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.  
   
 8. Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.  
   
@@ -110,7 +110,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 2. From the **Data Sources** window, drag the **Customer** node onto Form1.  
   
     > [!NOTE]
-    >  To display the **Data Sources** window, click **Show Data Sources** on the **Data** menu.  
+    > To display the **Data Sources** window, click **Show Data Sources** on the **Data** menu.  
   
 3. Open Form1 in the Code Editor.  
   
@@ -186,7 +186,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 9. Click **Apply** to save the configuration for the selected Class and Behavior.  
   
     > [!NOTE]
-    >  You can continue to configure the behavior for each class/behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box providing an opportunity to apply any changes will appear.  
+    > You can continue to configure the behavior for each class/behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box providing an opportunity to apply any changes will appear.  
   
 10. Select **Update** in the **Behavior** list.  
   
@@ -199,7 +199,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 13. Map the **Original_CustomerID** method argument to the **CustomerID (Original)** class property.  
   
     > [!NOTE]
-    >  By default, method arguments will map to class properties when the names match. If property names are changed and no longer match between the table and the entity class, you might have to select the equivalent class property to map to if the O/R Designer cannot determine the correct mapping. Additionally, if method arguments do not have valid class properties to map to, you can set the **Class Properties** value to **(None)**.  
+    > By default, method arguments will map to class properties when the names match. If property names are changed and no longer match between the table and the entity class, you might have to select the equivalent class property to map to if the O/R Designer cannot determine the correct mapping. Additionally, if method arguments do not have valid class properties to map to, you can set the **Class Properties** value to **(None)**.  
   
 14. Click **Apply** to save the configuration for the selected Class and Behavior.  
   
@@ -214,7 +214,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 19. Click **OK**.  
   
 > [!NOTE]
->  Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.  
+> Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.  
   
 ## Testing the Application  
  Run the application again to verify that the **UpdateCustomers** stored procedure correctly updates the customer record in the database.  

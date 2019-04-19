@@ -33,7 +33,7 @@ This topic describes how to set breakpoints in [!INCLUDE[wf](../includes/wf-md.m
      You can also use this option to set a new breakpoint while debugging, when the debugger stops at a breakpoint.  
   
     > [!NOTE]
-    >  Setting breakpoints on invoked workflows is not supported.  
+    > Setting breakpoints on invoked workflows is not supported.  
   
 ### To set a breakpoint using the New Breakpoint option on the Debug menu  
   
@@ -46,7 +46,7 @@ This topic describes how to set breakpoints in [!INCLUDE[wf](../includes/wf-md.m
 3. Specify the name of an activity in the **Function** text box using this syntax: `QualifiedActivityId[:[FullClassName][:InstanceId]]`.  
   
     > [!NOTE]
-    >  Optionally, instead of using the activity name in the **Function** text box, you can set a breakpoint by specifying the absolute path of the workflow activity. For example, suppose you have a workflow solution named **WorkflowConsoleApplication1** and a workflow in the solution named **Workflow1** that uses an activity called **Delay1**. You can use the activity name **Delay1** or specify the path as **Delay1:WorkflowConsoleApplication1.Workflow1** or **Delay1:WorkflowConsoleApplication1.Workflow1:{6614886A-608E-412B-BF98-99FF1559DDDF}**.  
+    > Optionally, instead of using the activity name in the **Function** text box, you can set a breakpoint by specifying the absolute path of the workflow activity. For example, suppose you have a workflow solution named **WorkflowConsoleApplication1** and a workflow in the solution named **Workflow1** that uses an activity called **Delay1**. You can use the activity name **Delay1** or specify the path as **Delay1:WorkflowConsoleApplication1.Workflow1** or **Delay1:WorkflowConsoleApplication1.Workflow1:{6614886A-608E-412B-BF98-99FF1559DDDF}**.  
   
 4. Select the **Use IntelliSense** check box to verify the function name.  
   

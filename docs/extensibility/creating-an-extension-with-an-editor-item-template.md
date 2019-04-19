@@ -57,7 +57,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
  The Editor Viewport Adornment template creates a viewport-relative adornment that adds a violet box that has a red outline to the top-right corner of the viewport.
 
 > [!NOTE]
->  The **viewport** is the area of the text view that is currently displayed.
+> The **viewport** is the area of the text view that is currently displayed.
 
 ### To create a viewport adornment extension by using the Editor Viewport Adornment template
 

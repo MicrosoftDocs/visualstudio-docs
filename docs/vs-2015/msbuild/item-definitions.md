@@ -33,7 +33,7 @@ manager: jillfra
  Item metadata that is defined in an ItemDefinitionGroup is just a declaration of default metadata. The metadata does not apply unless you define an Item that uses an ItemGroup to contain the metadata values.  
   
 > [!NOTE]
->  In many of the examples in this topic, an ItemDefinitionGroup element is shown but its corresponding ItemGroup definition is omitted for clarity.  
+> In many of the examples in this topic, an ItemDefinitionGroup element is shown but its corresponding ItemGroup definition is omitted for clarity.  
   
  Metadata explicitly defined in an ItemGroup takes precedence over metadata in ItemDefinitionGroup. Metadata in ItemDefinitionGroup is applied only for undefined metadata in an ItemGroup. For example:  
   
@@ -55,7 +55,7 @@ manager: jillfra
  In this example, the default metadata "m" is applied to Item "i" because metadata "m" is not explicitly defined by Item "i". However, default metadata "n" is not applied to Item "i" because metadata "n" is already defined by Item "i".  
   
 > [!NOTE]
->  XML Element and Parameter names are case\-sensitive. Item metadata and Item\/Property names are not case\-sensitive. Therefore, ItemDefinitionGroup items that have names that differ only by case should be treated as the same ItemGroup.  
+> XML Element and Parameter names are case\-sensitive. Item metadata and Item\/Property names are not case\-sensitive. Therefore, ItemDefinitionGroup items that have names that differ only by case should be treated as the same ItemGroup.  
   
 ## Value Sources  
  The values for metadata that is defined in an ItemDefinitionGroup can come from many different sources, as follows:  
@@ -77,7 +77,7 @@ manager: jillfra
 - CDATA section \<\!\[CDATA\[anything here is not parsed\]\]\>  
   
 > [!NOTE]
->  Item metadata from an ItemGroup is not useful in an ItemDefinitionGroup metadata declaration because ItemDefinitionGroup elements are processed before ItemGroup elements.  
+> Item metadata from an ItemGroup is not useful in an ItemDefinitionGroup metadata declaration because ItemDefinitionGroup elements are processed before ItemGroup elements.  
   
 ## Additive and Multiple Definitions  
  When you add definitions or use multiple ItemDefinitionGroups, remember the following:  
@@ -122,7 +122,7 @@ manager: jillfra
  In this example, the previously defined value for metadata "m" \(m1\) is added to the new value \(m2\), so that the final value is "m1;m2".  
   
 > [!NOTE]
->  This can also occur in the same ItemDefinitionGroup.  
+> This can also occur in the same ItemDefinitionGroup.  
   
  When you override the previously defined metadata, the last specification takes precedence. In the following example, the final value of metadata "m" goes from "m1" to "m1a".  
   
@@ -153,7 +153,7 @@ manager: jillfra
  In this case, the default metadata "m1" on item "i" is included only if the value of the "Configuration" property is "Debug".  
   
 > [!NOTE]
->  Only local metadata references are supported in conditions.  
+> Only local metadata references are supported in conditions.  
   
  References to metadata defined in an earlier ItemDefinitionGroup are local to the item, not the definition group. That is, the scope of the references are item\-specific. For example:  
   

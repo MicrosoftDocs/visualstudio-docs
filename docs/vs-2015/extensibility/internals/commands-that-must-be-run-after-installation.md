@@ -17,7 +17,7 @@ manager: jillfra
 If you deploy your extension through an .msi file, you must run `devenv /setup` as part of your installation in order for Visual Studio to discover your extensions.  
   
 > [!NOTE]
->  The information in this topic applies to finding DevEnv with Visual Studio 2008 and earlier. For information about how to discover DevEnv with later versions of Visual Studio, see [Detecting System Requirements](../../extensibility/internals/detecting-system-requirements.md).  
+> The information in this topic applies to finding DevEnv with Visual Studio 2008 and earlier. For information about how to discover DevEnv with later versions of Visual Studio, see [Detecting System Requirements](../../extensibility/internals/detecting-system-requirements.md).  
   
 ## Finding devenv.exe  
  You can locate each version's devenv.exe from registry values that [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] installers write, using the RegLocator Table and AppSearch Table to store the registry values as properties. For more information, see [Detecting System Requirements](../../extensibility/internals/detecting-system-requirements.md).  
@@ -63,7 +63,7 @@ If you deploy your extension through an .msi file, you must run `devenv /setup` 
  Custom actions must be authored into the InstallExecuteSequence table to schedule them for execution during the installation. Use the corresponding property in each row of the Condition column to prevent the custom action from being run if that version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] is not installed on the system.  
   
 > [!NOTE]
->  `Null` properties evaluate to `False` when used in conditions.  
+> `Null` properties evaluate to `False` when used in conditions.  
   
  The value of the Sequence column for each custom action depends on other sequence values in your Windows Installer package. Sequence values should be such that the devenv.exe custom actions run as close as possible to immediately prior to the InstallFinalize standard action.  
   

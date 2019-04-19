@@ -26,7 +26,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
  A combined fragment consists of one or more *interaction operands*, and each of these encloses one or more messages, interaction uses, or combined fragments.  
   
 > [!NOTE]
->  This topic is about fragments in sequence diagrams. For more information about how to read UML sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md). For more information about how to draw UML sequence diagrams, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
+> This topic is about fragments in sequence diagrams. For more information about how to read UML sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md). For more information about how to draw UML sequence diagrams, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
  ![Combined Fragment with two Interaction Operands](../modeling/media/uml-seqfragments.png "UML_SeqFragments")  
   
@@ -39,7 +39,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
 3. You can select each interaction operand separately by clicking inside it. In this example, the top interaction operand is selected, so that its boundary can be seen. Typically, only the dividing line between interaction operands is visible.  
   
     > [!NOTE]
-    >  To select the top interaction operand, you must not click too close to the top of the combined fragment.  
+    > To select the top interaction operand, you must not click too close to the top of the combined fragment.  
   
 4. Guards. You can give each interaction operand a guard. This describes the condition under which the messages inside the interaction operand will be performed.  
   
@@ -51,7 +51,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
 1. Select one message, or a sequence of messages, that all begin on the same lifeline or execution occurrence.  
   
    > [!NOTE]
-   >  If you select more than one message, they must form an uninterrupted sequence.  
+   > If you select more than one message, they must form an uninterrupted sequence.  
   
 2. Right-click one of the messages, point to **Surround With**, and then click the kind of combined fragment that you want, such as **Alt Combined Fragment**.  
   
@@ -94,7 +94,7 @@ In a UML sequence diagram, *combined fragments* let you show loops, branches, an
 - Right-click in the title of the combined fragment, and then click **Properties**.  
   
     > [!NOTE]
-    >  Different kinds of combined fragment have different properties.  
+    > Different kinds of combined fragment have different properties.  
   
 ## <a name="KindsOfFragment"></a> Kinds of Combined Fragment  
   

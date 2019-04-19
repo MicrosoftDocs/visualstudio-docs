@@ -30,12 +30,12 @@ The [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCL
 4. Click **Inheritance** in the **Object Relational Designer** tab of the **Toolbox**, and then click the subclass (the table you renamed) and connect it to the base class.  
   
     > [!NOTE]
-    >  Click the **Inheritance** item in the **Toolbox** and release the mouse button, click the second copy of the class you created in step 3, and then click the first class you created in step 2. The arrow on the inheritance line will point to the first class.  
+    > Click the **Inheritance** item in the **Toolbox** and release the mouse button, click the second copy of the class you created in step 3, and then click the first class you created in step 2. The arrow on the inheritance line will point to the first class.  
   
 5. In each class, delete any object properties that you do not want to appear and that are not used for associations. You will receive an error if you attempt to delete object properties used for associations: [The property \<property name> cannot be deleted because it is participating in the association \<association name>](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md).  
   
     > [!NOTE]
-    >  Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the Inheritance Modifier on the property in the base class. For more information, see [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213).  
+    > Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the Inheritance Modifier on the property in the base class. For more information, see [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213).  
   
 6. Select the inheritance line in the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   

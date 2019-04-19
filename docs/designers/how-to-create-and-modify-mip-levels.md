@@ -33,7 +33,7 @@ This document demonstrates how to use the **Image Editor** to generate and modif
 2. After you select the MIP level that you want to modify, you can use the drawing tools to modify it without changing the contents of other MIP levels. The drawing tools are available on the **Image Editor** toolbar. After you select a tool, you can change its properties in the **Properties** window. For information about the drawing tools and their properties, see [Image Editor](../designers/image-editor.md).
 
 > [!NOTE]
->  If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically. For more information on how to generate mipmaps at build time, see [How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md).
+> If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically. For more information on how to generate mipmaps at build time, see [How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md).
 
 ## See also
 

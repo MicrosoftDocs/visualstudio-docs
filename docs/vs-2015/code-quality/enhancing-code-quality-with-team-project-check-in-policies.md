@@ -29,7 +29,7 @@ When you use Team Foundation Version Control (TFVC), you can create check-in pol
 - **Work Items**: Requires that one or more work items be associated with the check- in.  
   
 > [!IMPORTANT]
->  To use check-in policies, you must be connected to [!INCLUDE[vststfsLong](../includes/vststfslong-md.md)].  
+> To use check-in policies, you must be connected to [!INCLUDE[vststfsLong](../includes/vststfslong-md.md)].  
   
 ## Common Tasks  
   

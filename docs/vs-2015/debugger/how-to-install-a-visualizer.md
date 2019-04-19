@@ -28,7 +28,7 @@ manager: jillfra
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Installing a visualizer is a simple process.  
   
 > [!NOTE]
->  In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
+> In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
   
 ### To install a visualizer  
   

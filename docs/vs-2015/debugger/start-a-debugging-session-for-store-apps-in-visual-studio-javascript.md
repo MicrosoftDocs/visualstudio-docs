@@ -26,7 +26,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  This topic describes how to start a debugging session for Windows Store apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.
 
 > [!NOTE]
->  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
+> For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 
 ## <a name="BKMK_In_this_topic"></a> In this topic
  [In this topic](#BKMK_In_this_topic)
@@ -111,7 +111,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
    ![Select Remote Debugger Connection](../debugger/media/vsrun-pro-selectremotedebuggerdlg.png "VSRUN_PRO_SelectRemoteDebuggerDlg")
 
   > [!NOTE]
-  >  The Select Remote Debugger Connection dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.
+  > The Select Remote Debugger Connection dialog box displays machines that are on the local sub-net and machines that are directly connected to the Visual Studio machine by an Ethernet cable. To specify another machine, enter the name in the **Machine Name** box.
 
   ![Applies to Windows Phone only](../debugger/media/phone-only-content.png "phone_only_content")
 
@@ -172,7 +172,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  To set an installed app to run in debug mode, do this:
 
 > [!NOTE]
->  The app must not be running when you start this procedure.
+> The app must not be running when you start this procedure.
 
 1. On the **Debug** menu, choose **Debug Installed App Package**
 
@@ -220,9 +220,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 ### <a name="BKMK_Attach_the_debugger"></a> Attach the debugger
 
 > [!TIP]
->  JavaScript apps run in an instance of the wwahost.exe process. If other JavaScript apps are running when you attach to the app, you will need to know the numeric process id (PID) of the wwahost.exe that the app is running in.
+> JavaScript apps run in an instance of the wwahost.exe process. If other JavaScript apps are running when you attach to the app, you will need to know the numeric process id (PID) of the wwahost.exe that the app is running in.
 >
->  The easiest way to deal with this situation is to close all of the other JavaScript apps. Otherwise, you can open Windows Task Manager before you start the app and note the ids of the wwahost.exe processes. When you specify the process to attach to in the **Available Processes**  dialog box, the wwahost.exe of the app will have an id that is different than the ones that you have noted.
+> The easiest way to deal with this situation is to close all of the other JavaScript apps. Otherwise, you can open Windows Task Manager before you start the app and note the ids of the wwahost.exe processes. When you specify the process to attach to in the **Available Processes**  dialog box, the wwahost.exe of the app will have an id that is different than the ones that you have noted.
 
  To attach the debugger:
 

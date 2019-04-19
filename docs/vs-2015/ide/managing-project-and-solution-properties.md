@@ -22,7 +22,7 @@ Projects have properties that govern many aspects of compilation, debugging, tes
  ![Properties node in Solution Explorer tree](../ide/media/vs2015-props-se.png "VS2015_Props_SE")  
   
 > [!TIP]
->  Solutions have a few properties, and so do project items; these properties are accessed in the [Properties Window](../ide/reference/properties-window.md), not **Project Designer**.  
+> Solutions have a few properties, and so do project items; these properties are accessed in the [Properties Window](../ide/reference/properties-window.md), not **Project Designer**.  
   
 ## Project Properties  
  Project Properties are organized into groups and each group has its own property page, and the pages might be different for different languages and project types.  
