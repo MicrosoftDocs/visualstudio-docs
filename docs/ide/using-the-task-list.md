@@ -78,6 +78,9 @@ To create a custom token:
 
 5. Choose **Add**.
 
+> [!TIP]
+> The **Add** button becomes enabled after you enter a name. You must enter a name before clicking **Add**.
+
 ### C++ TODO comments
 
 By default, C++ TODO comments are displayed in **Task List**.
