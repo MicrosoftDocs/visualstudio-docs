@@ -52,7 +52,7 @@ When you're ready to import an installation configuration file
 
 1. Open the Visual Studio Installer.
 
-1. Choose the **More** button, and then select **Import configuration**.
+1. On the product card, choose the **More** button, and then select **Import configuration**.
 
 1. Locate the .vconfig file that you want to import, and then choose **Review details**.
 
