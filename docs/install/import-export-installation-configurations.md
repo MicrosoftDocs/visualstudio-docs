@@ -34,13 +34,11 @@ Here's how.
 
 ## Export a configuration
 
-The following procedure assumes you're using a computer on which you've previously installed the workloads and components that you want to share.  
+You can choose to export an installation configuration file from either a previously installed instance of Visual Studio or one that you're currently installing.
 
 1. Open the Visual Studio Installer.
 
-1. Choose the **More** button, and then select **Export configuration**.
-
-   ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-vs-installer.png)
+1. On the product card, choose the **More** button, and then select **Export configuration**.
 
 1. Browse to or type the location where you want to save your .vconfig file, and then choose **Review details**.
 
