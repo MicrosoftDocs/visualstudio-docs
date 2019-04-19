@@ -47,11 +47,12 @@ ms.workload:
 ## Screen resolution
 
 ### Minimum resolution
- - The minimum resolution for Visual Studio Dev14 is **1280x720**. This means that it is *possible* to use Visual Studio at this resolution, although it might not be an optimal user experience. There is no guarantee that all aspects will be usable at resolutions lower than 1280x720.
 
- - The target resolution for Visual Studio is **1366x768**. This is the lowest resolution at which we promise a *good* user experience.
+- The minimum resolution for Visual Studio 2015 is **1280x720**. This means that it is *possible* to use Visual Studio at this resolution, although it might not be an optimal user experience. There is no guarantee that all aspects will be usable at resolutions lower than 1280x720.
 
- - Initial dialog height should be **smaller than 700 pixels**, so it fits within the minimum resolution of the IDE frame at 96 dpi.
+- The target resolution for Visual Studio is **1366x768**. This is the lowest resolution at which we promise a *good* user experience.
+
+- Initial dialog height should be **smaller than 700 pixels**, so it fits within the minimum resolution of the IDE frame at 96 dpi.
 
 ### High-density displays
  UI in Visual Studio must work well in all DPI scaling factors that Windows supports out of the box: 150%, 200%, and 250%.

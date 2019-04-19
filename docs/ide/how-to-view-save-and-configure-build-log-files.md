@@ -14,10 +14,10 @@ ms.workload:
 
 After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure. 
 
-  - For C++ projects, you can also view the same information in a *.txt* file that's created and saved automatically. 
+- For C++ projects, you can also view the same information in a *.txt* file that's created and saved automatically. 
 
-  - For managed code projects, you can click in the build output window and press **Ctrl**+**S**. Visual Studio prompts you for a location to save the information from the **Output** window into a *.txt* file. 
-  
+- For managed code projects, you can click in the build output window and press **Ctrl**+**S**. Visual Studio prompts you for a location to save the information from the **Output** window into a *.txt* file. 
+
 You can also use the IDE to specify what kinds of information you want to view about each build.
 
 If you build any kind of project by using MSBuild, you can create a *.txt* file to save information about the build. For more information, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).

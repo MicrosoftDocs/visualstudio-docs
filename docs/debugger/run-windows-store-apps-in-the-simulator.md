@@ -45,26 +45,26 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
 
 - ![Simulator two finger target](../debugger/media/simulator_twofinger.png "SIMULATOR_TwoFinger")
 
-     The double target icon indicates the location of two fingers on the device screen.
+    - The double target icon indicates the location of two fingers on the device screen.
 
     - Move the mouse to position the icons over the object on the device screen.
 
     - Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.
 
-- -   ![Pinch, zoom, and rotate targets](../debugger/media/simulator_twofingerengaged.png "SIMULATOR_TwoFingerEngaged")
+- ![Pinch, zoom, and rotate targets](../debugger/media/simulator_twofingerengaged.png "SIMULATOR_TwoFingerEngaged")
 
-         Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).
+    - Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).
 
     - Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).
 
 ## Object rotation
  The **Touch emulation rotate** button sets the interaction mode to rotation gestures using two fingers.
 
-- -   Move the mouse to position the icons over the object on the device screen.
+- Move the mouse to position the icons over the object on the device screen.
 
     - Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.
 
-- -   Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.
+- Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.
 
     - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.
 
