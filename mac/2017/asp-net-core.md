@@ -100,8 +100,8 @@ public class Startup
 
 This Startup class must always adhere to the following rules:
 
- - It must always be public
- - It must contain the two public methods: `ConfigureServices` and `Configure`
+- It must always be public
+- It must contain the two public methods: `ConfigureServices` and `Configure`
 
 The `ConfigureServices` method defines the services that will be used by your app.
 
