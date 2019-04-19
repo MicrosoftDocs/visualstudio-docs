@@ -98,8 +98,6 @@
           href: customizing-text-and-image-fields.md
         - name: Set a Background Image on a Diagram
           href: setting-a-background-image-on-a-diagram.md
-        - name: Nest Shapes
-          href: nesting-shapes.md
         - name: Embed a Diagram in a Windows Form
           href: embedding-a-diagram-in-a-windows-form.md
       - name: Customize Tools and the Toolbox

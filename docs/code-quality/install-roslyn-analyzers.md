@@ -18,14 +18,14 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 ## To install NuGet analyzer packages
 
-1. Find the analyzer package you want to install on www.nuget.org. For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) to check your code for security and performance issues, among others.
+1. Find the analyzer package you want to install on www.nuget.org.
+
+   For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) to check your code for security and performance issues, among others. Or, install [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
 
 2. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
    > [!NOTE]
    > The www.nuget.org page for each analyzer package shows you the command to paste into the **Package Manager Console**. There's even a handy button to copy the text to the clipboard.
-   >
-   > ![NuGet.org page showing Package Manager Console command](media/nuget-install-command.png)
 
    The analyzer assemblies are installed and appear in **Solution Explorer** under **References** > **Analyzers**.
 
