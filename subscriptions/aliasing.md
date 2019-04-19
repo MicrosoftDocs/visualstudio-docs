@@ -76,6 +76,7 @@ Please follow the below steps to update an existing subscriber with a directory 
 
 Since the Welcome Email will not successfully reach your subscriber, please copy and paste the below message into an email and send to your subscriber. Replace %WORD% with the appropriate information for each subscriber.
 
+```
 ----------- Copy Below (Ctrl+C) -----------
 
 Hello %SUBSCRIBER NAME%
@@ -91,6 +92,7 @@ At the bottom of the page, select the following:
    - Select the desired Assisted Support option
 
 ----------- End Copy -----------
+```
 
 ## Defining a work or school account as a personal account
 
@@ -121,6 +123,7 @@ After a subscription is  assigned to the Subscriber, they will receive an email 
 
 In the scenario outlined above, your subscriber will receive a “Welcome Email”, but due to aliasing they may find they are unable to sign in.  You can use the below text to notify your subscriber of the above steps, and recommend support options if required.  Replace %WORD% with the appropriate information for each subscriber.
 
+```
 ----------- Copy Below (Ctrl+C) -----------
 
 Hello %SUBSCRIBER NAME%
@@ -153,3 +156,4 @@ At the bottom of the page, select the following:
    - Select the desired Assisted Support option
 
 ----------- End Copy -----------
+```

@@ -337,7 +337,7 @@ You can define a *UML profile* to customize the standard model elements for spec
  You have to select your profile in a package or model. The stereotypes will then appear on elements inside the package or model. For more information, see [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md).  
   
  The following error appears when I open a UML model: **VS1707: The following profiles cannot be loaded because a serialization error occurred: MyProfile.profile**  
- 1. Verify that the basic XML syntax of the .profile is correct.  
+1. Verify that the basic XML syntax of the .profile is correct.  
   
 2. Ensure that each Moniker name is in the form /profileName/nodeName. The profileName is the value of the name attribute in the root profile node. The nodeName is the value of the name attribute of a metaclass, externalType, or enumerationType.  
   

@@ -39,7 +39,7 @@ CloudPilot, by UnifyCloud, is designed to help developers quickly and easily mov
    > [!NOTE]
    > Activations of the CloudPilot benefit are limited to ten per organization, redeemed from any combination of Visual Studio Enterprise or Visual Studio Professional subscriptions.  If your organization's ten activations have already been consumed, you will be unable to activate the CloudPilot benefit and you'll receive an email from UnifyCloud with further information.
 
- 0. Next, you'll see a product page designed to familiarize you with CloudPilot.  Click the **Navigate to CloudPilot** in the upper right corner to go to the CloudPilot portal.
+0. Next, you'll see a product page designed to familiarize you with CloudPilot.  Click the **Navigate to CloudPilot** in the upper right corner to go to the CloudPilot portal.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot Product Page](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
