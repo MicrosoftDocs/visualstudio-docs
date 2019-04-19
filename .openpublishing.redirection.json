@@ -2041,6 +2041,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/modeling/nesting-shapes.md",
+            "redirect_url": "/visualstudio/modeling/customizing-presentation-on-the-diagram",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/open-a-uml-model-by-using-the-visual-studio-api.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
@@ -2205,10 +2210,10 @@
             "redirect_url": "/visualstudio/port-migrate-and-upgrade-visual-studio-projects",
             "redirect_document_id": false
         },
-        { 
-            "source_path": "docs/porting/port-migrate-upgrade-visual-studio-projects-2019.md", 
-            "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects", 
-            "redirect_document_id": false 
+        {
+            "source_path": "docs/porting/port-migrate-upgrade-visual-studio-projects-2019.md",
+            "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/profiling/analyze-cpu-usage-in-a-windows-universal-app.md",

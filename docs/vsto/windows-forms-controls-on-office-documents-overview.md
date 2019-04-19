@@ -36,19 +36,20 @@ ms.workload:
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
 
 ## Use Windows Forms controls
- You can add Windows Forms controls to documents and to customizable user interface (UI) elements, including actions panes, custom task panes, and Windows Forms. Windows Forms controls generally have the same behavior on documents as on these other UI elements, but some differences do exist. For information, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).
 
- The decision whether to add Windows Forms controls to a document or some other UI element depends on several factors. When designing the UI of your solution, consider the uses of Windows Forms controls as described in the following table.
+You can add Windows Forms controls to documents and to customizable user interface (UI) elements, including actions panes, custom task panes, and Windows Forms. Windows Forms controls generally have the same behavior on documents as on these other UI elements, but some differences do exist. For information, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).
 
- On a document.
- - When you want to display the controls 100% of the time.
+The decision whether to add Windows Forms controls to a document or some other UI element depends on several factors. When designing the UI of your solution, consider the uses of Windows Forms controls as described in the following table.
+
+On a document.
+- When you want to display the controls 100% of the time.
 
 - When you want users to enter data directly in the document, for example, in forms-based documents where the editing surface is locked.
 
 - When you want the controls to display in line with the data in the document. For example, if you are adding buttons to each row of a list object, you would want them in line with each list item.
 
-  On the actions pane or a custom task pane.
-  - When you want to provide contextual information to the user.
+On the actions pane or a custom task pane.
+- When you want to provide contextual information to the user.
 
 - When you want only the results to appear in the document, and not the query controls and data.
 
@@ -56,8 +57,8 @@ ms.workload:
 
 - When you want to ensure that controls do not interfere with the view of the document.
 
-  On a Windows Form.
-  - When you want to control the size of the UI.
+On a Windows Form.
+- When you want to control the size of the UI.
 
 - When you want to prevent users from hiding or deleting the controls.
 

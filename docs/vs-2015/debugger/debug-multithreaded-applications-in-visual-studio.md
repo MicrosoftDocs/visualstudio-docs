@@ -85,8 +85,9 @@ A thread is a sequence of instructions to which the operating system allocates p
  Examine and work with threads that are running on the GPU during debugging.
 
 ## Related Sections
- [Using Breakpoints](../debugger/using-breakpoints.md)
- - Use breakpoint filters when you want to place a breakpoint on an individual thread.
+
+[Using Breakpoints](../debugger/using-breakpoints.md)
+- Use breakpoint filters when you want to place a breakpoint on an individual thread.
 
 - Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.
 
