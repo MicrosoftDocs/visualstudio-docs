@@ -60,7 +60,7 @@ Here are some examples:
 |Match a Unicode character|\uXXXX where XXXX specifies the Unicode character value.|`\u0065` matches the character "e".|
 |Match an identifier|\b[\_\w-[0-9]][\_\w]*\b|Matches "type1" but not "&type1" or "#define".|
 |Match a string inside quotes|((\\".+?\\")&#124;('.+?'))|Matches any string inside single or double quotes.|
-|Match a hexadecimal number|\b0[xX]([0-9a-fA-F]\)\b|Matches "0xc67f" but not "0xc67fc67f".|
+|Match a hexadecimal number|\b0[xX]([0-9a-fA-F]+)\b|Matches "0xc67f" but not "0xc67g".|
 |Match integers and decimals|\b[0-9]*\\.\*[0-9]+\b|Matches "1.333".|
 
 > [!TIP]
