@@ -1,6 +1,6 @@
 ---
 title: Analyzer rule sets
-ms.date: 07/20/2018
+ms.date: 04/22/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "analyzers, rule sets"
@@ -19,7 +19,7 @@ If you're migrating from legacy "FxCop" static code analysis to Roslyn analyzers
 
 ## Use analyzer rule sets
 
-After you [install a NuGet analyzer package](install-roslyn-analyzers.md), locate the predefined rule set in its *rulesets* directory, for example *%USERPROFILE%\\.nuget\packages\microsoft.codequality.analyzers\<version>\rulesets*. From there, you can drag and drop, or copy and paste, one or more of the rulesets to your Visual Studio project in **Solution Explorer**.
+After you [install a NuGet analyzer package](install-roslyn-analyzers.md), locate the predefined rule set in its *rulesets* directory. For example, if you referenced the `Microsoft.CodeAnalysis.FxCopAnalyzers` analyzer package then you can find its rulesets directory at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version>\rulesets*. From there, you can drag and drop, or copy and paste, one or more of the rulesets to your Visual Studio project in **Solution Explorer**.
 
 To make a rule set the active rule set for analysis, right-click on the project in **Solution Explorer** and choose **Properties**. In the project property pages, select the **Code Analysis** tab. Under **Run this rule set**, select **Browse**, and then select the desired rule set that you copied to the project directory. Now you only see rule violations for those rules that are enabled in the selected rule set.
 
