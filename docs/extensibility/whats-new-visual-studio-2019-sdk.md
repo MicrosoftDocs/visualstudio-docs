@@ -61,4 +61,4 @@ For example, if an editor is only available when a C# project is open, it can de
 
 ## XAML designer extensibility
 
-If you extend the XAML designer, see [XAML designer extensibility migration](../extensibility/xaml-designer-extensibility-migration.md) for information about a new architecture available in Visual Studio 2019 version 16.1 previews.
+If you extend the XAML designer, see [XAML designer extensibility migration](../extensibility/xaml-designer-extensibility-migration.md) for information about a new architecture available in Visual Studio 2019 version 16.1.
