@@ -84,7 +84,7 @@ ms.workload:
 - An Outlook Form Storage (*.ofs*) file.
 
     > [!NOTE]
-    >  This file is only added to the project if you import a form region that was designed in Outlook.
+    > This file is only added to the project if you import a form region that was designed in Outlook.
 
 #### Form region factory class
  The form region code file contains a partial class that implements the <xref:Microsoft.Office.Tools.Outlook.IFormRegionFactory> interface. This is the form region factory class. The form region factory class is responsible for creating new instances of the form region.
@@ -104,7 +104,7 @@ ms.workload:
  The form region designer helps you to design the layout and appearance of a form region. You can drag managed controls to the surface of the designer, double-click controls to open event handlers, and set properties in the **Properties** window.
 
 > [!NOTE]
->  You can find properties that affect the way the form region appears in Outlook beneath the **Manifest** node in the **Properties** window.
+> You can find properties that affect the way the form region appears in Outlook beneath the **Manifest** node in the **Properties** window.
 
  The form region designer is available only if you select **Design a New Form Region** in the **Select how you want to create the form region** page of the **New Outlook Form Region** wizard.
 
@@ -132,7 +132,7 @@ ms.workload:
  You can change form region properties in the `InitializeManifest` method of the form region factory class.
 
 > [!NOTE]
->  To import a form region, you must be working in a project that targets the same version of Outlook that you have installed on the development computer. For example, if you have Outlook 2010 installed, importing a form region will only work in a project was created by using the **Outlook 2010 Add-in** project template.
+> To import a form region, you must be working in a project that targets the same version of Outlook that you have installed on the development computer. For example, if you have Outlook 2010 installed, importing a form region will only work in a project was created by using the **Outlook 2010 Add-in** project template.
 
 ### Update an imported form region's design
  You can add, remove, or change controls on the form region. Before you do this, back up any code that you added to the form region code file. Then, open the *.ofs* file in Outlook, modify the form region, and then save the changes. Use the **New Outlook Form Region** wizard to import the modified *.ofs* file. You can then paste your code into the new form region code file.

@@ -17,7 +17,7 @@ manager: jillfra
 You can extend the Visual Studio isolated shell by adding a VSPackage, a Managed Extensibility Framework (MEF) component part, or a generic VSIX project to your isolated shell application.  
   
 > [!NOTE]
->  The following steps presuppose that you have created a basic isolated shell application by using the Visual Studio Shell Isolated project template. For more information about this project template, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
+> The following steps presuppose that you have created a basic isolated shell application by using the Visual Studio Shell Isolated project template. For more information about this project template, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ## Locations for the Visual Studio Package Project Template  
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:  

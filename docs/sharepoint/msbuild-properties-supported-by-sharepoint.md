@@ -43,7 +43,7 @@ ms.workload:
  For flexibility, instead of using hard-coded strings in the **Pre-deployment Command Line** and **Post-deployment Command Line** boxes on the SharePoint Properties page, you can use the SharePoint properties as arguments. For example, instead of specifying a specific [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] string for the SharePoint site, you can instead use `$(SharePointSiteUrl)`.
 
 > [!NOTE]
->  You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.
+> You can use either the [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] variable syntax `$(`*propertyName*`)` or the environment variable syntax `%`*propertyName*`%` to specify a property.
 
 ## See also
 

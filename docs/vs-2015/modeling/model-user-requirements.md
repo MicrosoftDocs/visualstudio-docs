@@ -40,7 +40,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   A requirements model provides greatest benefit if you use it to focus discussions with the users or their representatives, and revisit it at the beginning of each iteration. You do not have to complete it in detail before writing code. A partially working application, even if very much simplified, generally forms the most stimulating basis for discussion of the requirements with users. The model is an effective way to summarize the results of those discussions. For more information, see [Use models in your development process](../modeling/use-models-in-your-development-process.md).  
   
 > [!NOTE]
->  Throughout these topics, "system" means the system or the application that you are developing. It might be a large collection of many software and hardware components; or a single application; or a software component inside a larger system. In every case, the requirements model describes the behavior that is visible from outside your system, whether through a user interface or API.  
+> Throughout these topics, "system" means the system or the application that you are developing. It might be a large collection of many software and hardware components; or a single application; or a software component inside a larger system. In every case, the requirements model describes the behavior that is visible from outside your system, whether through a user interface or API.  
   
 ## Common Tasks  
  You can create several different views of the users' requirements.  Each view provides a particular type of information.  When you create these views, it is best to move frequently from one to another. You can start from any view.  

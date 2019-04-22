@@ -21,7 +21,7 @@ A *text template*<em>host</em> provides an environment that enables the *text te
  You can write a custom host if you want to use the *text template transformation* functionality from outside [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] or if you want to integrate that functionality into custom tools. To create a custom host, you must create a class that inherits from <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. For the documentation of the individual methods, see <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>.  
   
 > [!WARNING]
->  If you are writing a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension or package, consider using the text templating service instead of creating your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
+> If you are writing a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension or package, consider using the text templating service instead of creating your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
   
  Tasks illustrated in this walkthrough include the following:  
   
@@ -726,7 +726,7 @@ A *text template*<em>host</em> provides an environment that enables the *text te
 2. Add the following to the file:  
   
     > [!NOTE]
-    >  The programming language of the text template does not have to match that of the custom host.  
+    > The programming language of the text template does not have to match that of the custom host.  
   
     ```csharp  
     Text Template Host Test  
@@ -779,7 +779,7 @@ A *text template*<em>host</em> provides an environment that enables the *text te
      `<YOUR PATH>CustomHost\bin\Debug\CustomHost.exe`  
   
     > [!NOTE]
-    >  Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.  
+    > Instead of typing the address, you can browse to the file CustomHost.exe in **Windows Explorer** and then drag the file into the Command Prompt window.  
   
 3. Type a space.  
   
@@ -790,7 +790,7 @@ A *text template*<em>host</em> provides an environment that enables the *text te
      `C:\<YOUR PATH>TestTemplate.tt`  
   
     > [!NOTE]
-    >  Instead of typing the address, you can browse to the file TestTemplate.tt in **Windows Explorer** and then drag the file into the Command Prompt window.  
+    > Instead of typing the address, you can browse to the file TestTemplate.tt in **Windows Explorer** and then drag the file into the Command Prompt window.  
   
      The custom host application runs and completes the text template transformation process.  
   

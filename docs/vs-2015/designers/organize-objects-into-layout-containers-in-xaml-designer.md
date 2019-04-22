@@ -22,7 +22,7 @@ Imagine where you’d like objects to appear on a page; objects such as images, 
  This page describes layout panels and controls, and then directs you to short videos that help you get started with them.  
   
 > [!NOTE]
->  Some of the videos may refer to Blend or Expression Blend, which use the same XAML designer as Visual Studio and Blend for Visual Studio.  
+> Some of the videos may refer to Blend or Expression Blend, which use the same XAML designer as Visual Studio and Blend for Visual Studio.  
   
 ## Layout panels  
  Start your page by choosing one of these layout panels. Your page can have more than one. For example, you might start with a **Grid** layout panel, and then add a **StackPanel** to an area in the **Grid** so that you can arrange controls vertically in that element.  

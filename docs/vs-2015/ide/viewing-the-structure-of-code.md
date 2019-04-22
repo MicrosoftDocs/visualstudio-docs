@@ -49,7 +49,7 @@ You can examine the objects and members in Visual Studio projects, and the objec
  If you have Visual Studio Enterprise you can use code maps to visualize the structure of your code and its dependencies across the entire solution, and drill down to parts of the code that interest you. For more information, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
 > [!NOTE]
->  The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
+> The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
   
 ## <a name="BKMK_ClassView"></a> Class View (Visual Basic, C#, C++)  
  **Class View** is shown as part of **Solution Explorer** as well as in a separate window. The **Class View** window displays the elements of an application. The upper pane displays namespaces, types, interfaces, enumerations, and classes, and the lower pane displays the members that belong to the type selected in the upper pane. By using this window, you can move to member definitions in the source code (or in the **Object Browser** if the element is defined outside your solution).  

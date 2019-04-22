@@ -124,7 +124,7 @@ The Message task takes the string value of the Text attribute as input and displ
  Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined above. Use the -target or -t command line switch to select the target.
 
 > [!NOTE]
->  We will refer to the **Developer Command Prompt** as the **Command Window** in the sections below.
+> We will refer to the **Developer Command Prompt** as the **Command Window** in the sections below.
 
 **To build the target**
 
@@ -150,7 +150,7 @@ The Message task takes the string value of the Text attribute as input and displ
     ```
 
 > [!NOTE]
->  If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.
+> If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.
 
  By alternating between the code editor and the command window, you can change the project file and quickly see the results.
 
@@ -233,7 +233,7 @@ $(PropertyName)
     ::: moniker-end
 
 > [!NOTE]
->  If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.
+> If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.
 
 ### Conditional properties
 
@@ -331,7 +331,7 @@ For more information, see [MSBuild special characters](../msbuild/msbuild-specia
 For more information, see [Items](../msbuild/msbuild-items.md).
 
 > [!NOTE]
->  File paths are relative to the folder containing the MSBuild project file.
+> File paths are relative to the folder containing the MSBuild project file.
 
 ## Examine item type values
 

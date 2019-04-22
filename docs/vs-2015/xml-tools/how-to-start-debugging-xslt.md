@@ -34,7 +34,7 @@ The XSLT debugger can be used to debug an XSLT style sheet or an XSLT applicatio
  You can also step into XSLT while debugging an application. When you press F11 on an <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> call, the debugger can step into the XSLT code.  
   
 > [!NOTE]
->  Stepping into XSLT from the <xref:System.Xml.Xsl.XslTransform> class is not supported. The <xref:System.Xml.Xsl.XslCompiledTransform> class is the only XSLT processor that supports stepping into XSLT while debugging.  
+> Stepping into XSLT from the <xref:System.Xml.Xsl.XslTransform> class is not supported. The <xref:System.Xml.Xsl.XslCompiledTransform> class is the only XSLT processor that supports stepping into XSLT while debugging.  
   
 #### To start debugging an XSLT application  
   

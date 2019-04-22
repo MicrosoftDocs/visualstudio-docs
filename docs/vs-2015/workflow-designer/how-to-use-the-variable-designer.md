@@ -28,7 +28,7 @@ The variable designer is used to create variables for use in data-binding scenar
 4. Click the empty row labeled **Create Variable**. This will add a new row with a new variable using the following default values: variablex for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique variable names, **String** for the **Variable type**, and **Sequence** for the **Scope**. No value is added for **Default**. You can change these values at any time during the workflow design process.  
   
     > [!NOTE]
-    >  To delete a variable, select the variable by clicking it and then press the **Delete** key.  
+    > To delete a variable, select the variable by clicking it and then press the **Delete** key.  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)   

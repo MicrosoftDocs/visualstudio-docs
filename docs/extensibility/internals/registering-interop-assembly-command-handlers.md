@@ -25,7 +25,7 @@ A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsp
  A VSPackage acting as a handler for user interface (UI)-based commands requires a registry entry named after the VSPackage `GUID`. This registry entry specifies the location of the VSPackage's UI resource file and the menu resource within that file. The registry entry itself is located under HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\\*\<Version>*\Menus, where *\<Version>* is the version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], for example 9.0.
 
 > [!NOTE]
->  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is initialized. For more information about the root path, see [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md).
+> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is initialized. For more information about the root path, see [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md).
 
 ### The CTMENU Resource Registry Entry
  The structure of the registry entry is:

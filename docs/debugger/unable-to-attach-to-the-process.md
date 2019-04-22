@@ -49,7 +49,7 @@ Unable to attach to the process. Debugger component on server received access de
 6. In the **Network access: Sharing and security model for local accounts** dialog box, change the local security setting to **Classic**, and click **OK**.
 
     > [!CAUTION]
-    >  Changing the security model to Classic can result in unexpected access to shared files and DCOM components. If you make this change, a remote user can authenticate with your local user account rather than Guest. If a remote user matches your user name and password, that user will be able to access any folder or DCOM object you have shared out. If you use this security model, make sure that all user accounts on the machine have strong passwords or set up an isolated network island for the debugging and debugged machines to prevent unauthorized access.
+    > Changing the security model to Classic can result in unexpected access to shared files and DCOM components. If you make this change, a remote user can authenticate with your local user account rather than Guest. If a remote user matches your user name and password, that user will be able to access any folder or DCOM object you have shared out. If you use this security model, make sure that all user accounts on the machine have strong passwords or set up an isolated network island for the debugging and debugged machines to prevent unauthorized access.
 
 7. Close all windows.
 

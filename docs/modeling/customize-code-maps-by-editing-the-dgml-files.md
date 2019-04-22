@@ -111,7 +111,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
 - Groups of code elements and links based on certain conditions
 
 > [!TIP]
->  If you have repeating styles across many code elements or links, you might consider applying a category to those code elements or links, and then applying a style to that category. For more information, see [Assign Categories to Code elements and Links](#AssignCategories) and [Assign Properties to Code elements and Links](#AssignProperties).
+> If you have repeating styles across many code elements or links, you might consider applying a category to those code elements or links, and then applying a style to that category. For more information, see [Assign Categories to Code elements and Links](#AssignCategories) and [Assign Properties to Code elements and Links](#AssignProperties).
 
 ##### To apply a custom style to a single code element
 
@@ -549,7 +549,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
  You can link documents or URLs to code elements or to links by editing the map's .dgml file and adding a `Reference` attribute to the `<Node/>` element for a code element or the `<Link/>` element for a link. You can then open and view that content from the code element or link. The `Reference` attribute specifies the path of that content. This can be a path relative to the location of the .dgml file or an absolute path.
 
 > [!CAUTION]
->  If you use relative paths, and the .dgml file is moved to a different location, then those paths will no longer resolve. When you try to open and view the linked content, an error stating that the content cannot be viewed will occur.
+> If you use relative paths, and the .dgml file is moved to a different location, then those paths will no longer resolve. When you try to open and view the linked content, an error stating that the content cannot be viewed will occur.
 
  For example, you might want to link the following code elements:
 
@@ -574,7 +574,7 @@ Edit the code map's .dgml file in a text or XML editor. If the map is part of yo
    - In the `<Node/>` or `<Link/>` element, add a `Reference` attribute to specify the location of the code element.
 
      > [!NOTE]
-     >  You can have only one `Reference` attribute per element.
+     > You can have only one `Reference` attribute per element.
 
      For example:
 

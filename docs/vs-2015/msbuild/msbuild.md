@@ -43,7 +43,7 @@ The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] is a pl
   You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.  
   
 > [!NOTE]
->  You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
+> You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
   
  This topic provides an overview of MSBuild. For an introductory tutorial, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
@@ -77,7 +77,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  For more information about [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] command-line options, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!IMPORTANT]
->  Before you download a project, determine the trustworthiness of the code.  
+> Before you download a project, determine the trustworthiness of the code.  
   
 ## <a name="BKMK_ProjectFile"></a> Project File  
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] uses an XML-based project file format that's straightforward and extensible. The [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.  

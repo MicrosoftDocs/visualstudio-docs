@@ -18,7 +18,7 @@ In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design-time text template, the
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
 > [!NOTE]
->  You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
+> You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
   
 ## Using the Assembly Directive  
  The syntax of the directive is as follows:  

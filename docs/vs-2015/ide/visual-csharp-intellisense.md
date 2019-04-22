@@ -44,7 +44,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  In Visual C#, the completion list includes Extension Methods that are in scope.  
   
 > [!NOTE]
->  The completion list does not display all extension methods for <xref:System.String> objects.  
+> The completion list does not display all extension methods for <xref:System.String> objects.  
   
  Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.  
   
@@ -142,12 +142,12 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  ![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")  
   
 > [!NOTE]
->  If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the Code Editor. Otherwise, automatic event hookup is complete at this point.  
+> If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the Code Editor. Otherwise, automatic event hookup is complete at this point.  
   
  If you press TAB, IntelliSense stubs out a method with the correct signature and puts the cursor in the body of your event handler.  
   
 > [!NOTE]
->  Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
+> Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
   
  The following task shows how IntelliSense automatically hooks up an event handler named `button1_Click` to an event field named `button1.Click`.  
   

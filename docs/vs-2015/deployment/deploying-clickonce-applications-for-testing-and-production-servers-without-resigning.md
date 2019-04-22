@@ -27,7 +27,7 @@ manager: jillfra
 This topic discusses a new feature of ClickOnce introduced in the .NET Framework version 3.5 that enables the deployment of ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.  
   
 > [!NOTE]
->  Resigning is still the preferred method for deploying new versions of applications. Whenever possible, use the resigning method. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1).  
+> Resigning is still the preferred method for deploying new versions of applications. Whenever possible, use the resigning method. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1).  
   
  Third-party developers and ISVs can opt-in to this feature, making it easier for their customers to update their applications. This feature can be used in the following situations:  
   

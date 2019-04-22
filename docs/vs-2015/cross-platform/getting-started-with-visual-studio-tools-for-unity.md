@@ -16,7 +16,7 @@ manager: jillfra
 In this section, you'll learn how to install Visual Studio Tools for Unity and configure your Unity project to work with Visual Studio.  
   
 > [!IMPORTANT]
->  Unity 5.2 adds built-in support for Visual Studio Tools for Unity 2.1, which simplifies project setup. To take advantage of this, you'll need Unity version 5.2.0 or higher on Windows, and Visual Studio Tools for Unity version 2.1 or higher.  
+> Unity 5.2 adds built-in support for Visual Studio Tools for Unity 2.1, which simplifies project setup. To take advantage of this, you'll need Unity version 5.2.0 or higher on Windows, and Visual Studio Tools for Unity version 2.1 or higher.  
   
 ## Prerequisites  
  To use Visual Studio Tools for Unity, you'll need:  
@@ -49,7 +49,7 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
      [Download Visual Studio 2010 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/6e536faa-ce73-494a-a746-6a14753015f1)  
   
 > [!NOTE]
->  Express versions of Visual Studio don't support extensions such as Visual Studio Tools for Unity. Visual Studio Community is a free version of Visual Studio that supports Visual Studio Tools for Unity and other extensions. For most users, Visual Studio Community is a better choice than Express.  
+> Express versions of Visual Studio don't support extensions such as Visual Studio Tools for Unity. Visual Studio Community is a free version of Visual Studio that supports Visual Studio Tools for Unity and other extensions. For most users, Visual Studio Community is a better choice than Express.  
   
 ## Your first Unity project with Visual Studio Tools for Unity  
  Now that you have everything you need, you're ready for your first Unity project with Visual Studio. Setting up your Unity project is different depending on which versions of Unity and Visual Studio Tools for Unity are installed. Follow the steps below for the version of Unity and Visual Studio Tools for Unity that you have installed.  

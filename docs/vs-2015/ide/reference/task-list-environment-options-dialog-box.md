@@ -35,7 +35,7 @@ This Options page allows you to add, delete, and change the comment tokens that 
  When selected, a message box is displayed whenever a User Task is deleted from the **Task List**, allowing you to confirm the deletion. This option is selected by default.  
   
 > [!NOTE]
->  To delete a Task Comment, use the link to find the comment, and then remove it from your code.  
+> To delete a Task Comment, use the link to find the comment, and then remove it from your code.  
   
  Show file names only  
  When selected, the **File** column of the **Task List** displays only the names of files to be edited, not their full paths.  
@@ -47,7 +47,7 @@ This Options page allows you to add, delete, and change the comment tokens that 
  Displays a list of tokens, and allows you to add or remove custom tokens. Comment tokens are case sensitive in Visual C# and Visual C++, but not in Visual Basic.  
   
 > [!NOTE]
->  If you do not type the desired token exactly as it appears in the **Token List**, a comment task will not be displayed in the **Task List**.  
+> If you do not type the desired token exactly as it appears in the **Token List**, a comment task will not be displayed in the **Task List**.  
   
  Priority  
  Sets the priority of tasks that use the selected token. Task comments that begin with this token are automatically assigned the designated priority in the **Task List**.  
@@ -65,7 +65,7 @@ This Options page allows you to add, delete, and change the comment tokens that 
  Click to make changes to an existing token using the values entered in the **Name** and **Priority** fields.  
   
 > [!NOTE]
->  You cannot rename or delete the default comment token, but you can change its priority level.  
+> You cannot rename or delete the default comment token, but you can change its priority level.  
   
 ## See Also  
  [Using the Task List](../../ide/using-the-task-list.md)   

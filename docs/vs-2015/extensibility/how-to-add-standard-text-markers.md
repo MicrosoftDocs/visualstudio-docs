@@ -23,7 +23,7 @@ Use the following procedure to create one of the default text marker types provi
      In this method call, specify a marker type, a range of text to create the marker over, and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface. This method then returns a pointer to the newly created text marker. Marker types are taken from the <xref:Microsoft.VisualStudio.TextManager.Interop.MARKERTYPE> enumeration. Specify an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface if you want to be informed of marker events.  
   
     > [!NOTE]
-    >  Create text markers on the main UI thread only. The core editor relies on the contents of the text buffer to create text markers and the text buffer is not thread safe.  
+    > Create text markers on the main UI thread only. The core editor relies on the contents of the text buffer to create text markers and the text buffer is not thread safe.  
   
 ## Adding a Custom Command  
  Implementing the `IVsTextMarkerClient` interface and providing a pointer to it from a marker enhances marker behavior in several ways. First, this allows you to provide tips for your marker and to execute commands. This also allows you to receive event notifications for individual markers and to create a custom context menu over the marker. Use the following procedure to add a custom command to the marker context menu.  

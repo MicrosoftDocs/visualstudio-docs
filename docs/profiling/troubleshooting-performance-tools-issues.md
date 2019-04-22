@@ -39,4 +39,4 @@ You might experience one of the following issues when you use the Profiling Tool
 - Embed the symbol information in the profiling data (.*vsp*) file. For more information, see [Save symbol information with performance data files](../profiling/saving-symbol-information-with-performance-data-files.md).
 
 > [!NOTE]
->  The analysis engine requires that the .*pdb* file is the same version as the compiled application file. A .*pdb* file from an earlier or later build of the application file will not work.
+> The analysis engine requires that the .*pdb* file is the same version as the compiled application file. A .*pdb* file from an earlier or later build of the application file will not work.

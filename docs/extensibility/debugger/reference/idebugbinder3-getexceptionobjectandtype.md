@@ -45,7 +45,7 @@ int GetExceptionObjectAndType(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 > [!NOTE]
->  To verify whether there is an exception, check the value returned by `ppException`: if it is a null value, then no exception is associated with this object.
+> To verify whether there is an exception, check the value returned by `ppException`: if it is a null value, then no exception is associated with this object.
 
 ## See Also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

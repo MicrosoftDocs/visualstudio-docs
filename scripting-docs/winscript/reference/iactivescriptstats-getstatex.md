@@ -53,7 +53,7 @@ HRESULT GetStatEx(
  This method allows a custom script engine to return statistics meaningful to a custom host.  
   
 > [!NOTE]
->  This method is not currently implemented.  
+> This method is not currently implemented.  
   
 ## See Also  
  [IActiveScriptStats::GetStat](../../winscript/reference/iactivescriptstats-getstat.md)   

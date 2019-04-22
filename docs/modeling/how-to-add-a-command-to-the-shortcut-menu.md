@@ -112,7 +112,7 @@ Use the method in this topic if:
 5. Replace `{000...000}` with a GUID that identifies your groups and menu items. To obtain a new GUID, use the **Create GUID** tool on the **Tools** menu.
 
     > [!NOTE]
-    >  If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.
+    > If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.
 
 6. In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:
 
@@ -290,7 +290,7 @@ private const int cmdidMyContextMenuCommand = 1;
  Use the same GUID value as you inserted in **Commands.vsct**.
 
 > [!NOTE]
->  If you change the Symbols section of the VSCT file, you must also change these declarations to match. You should also increment the version number in Package.tt
+> If you change the Symbols section of the VSCT file, you must also change these declarations to match. You should also increment the version number in Package.tt
 
  Register your menu commands as part of this command set. `GetMenuCommands()` is called once when the diagram is initialized:
 

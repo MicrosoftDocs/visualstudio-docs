@@ -35,7 +35,7 @@ When you build a project that contains several files, you can list each file sep
      `<VBFile Include="form1.vb"/>`  
   
     > [!NOTE]
-    >  If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\form2.cs"`.  
+    > If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\form2.cs"`.  
   
 #### To declare multiple items  
   
@@ -94,9 +94,9 @@ When you build a project that contains several files, you can list each file sep
      `<VBC Sources="@(VBFile)">...</VBC>`  
   
 > [!NOTE]
->  You must use wildcards with items to specifiy the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:  
+> You must use wildcards with items to specifiy the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:  
 >   
->  `<CSC Sources="*.cs">...</CSC>`  
+> `<CSC Sources="*.cs">...</CSC>`  
   
 ## Example  
  The following code example shows a project that includes all of the input files separately.  

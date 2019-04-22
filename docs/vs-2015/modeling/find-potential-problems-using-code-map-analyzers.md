@@ -40,7 +40,7 @@ Run analyzers on code maps to help you identify code that might be overly comple
    Code map analyzers will continue to run after you apply them. If you change the map, any applied analyzers will automatically reprocess the updated map. To stop running an analyzer, on the map toolbar, choose **Layout**, **Analyzers**. Turn off the selected analyzer.  
   
 > [!TIP]
->  If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.  
+> If you have a very large map, running an analyzer might cause an out of memory exception. If this occurs, edit the map to reduce its scope or generate a smaller one, and then run the analyzer.  
   
 ## See Also  
  [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)   

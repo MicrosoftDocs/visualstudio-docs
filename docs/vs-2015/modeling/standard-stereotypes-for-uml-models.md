@@ -50,7 +50,7 @@ You can add stereotypes to UML model elements to provide additional information 
 2. In the Properties window, set the **Profiles** property to empty.  
   
     > [!NOTE]
-    >  You can unlink a profile only if none of the elements in the model or package use that profile's stereotypes.  
+    > You can unlink a profile only if none of the elements in the model or package use that profile's stereotypes.  
   
 #### To apply a stereotype to a model element  
   
@@ -61,7 +61,7 @@ You can add stereotypes to UML model elements to provide additional information 
      The selected stereotypes appear within «chevrons» in the model element, for most kinds of element.  
   
     > [!NOTE]
-    >  If you cannot see the **Stereotypes** property, or if the stereotype you want does not appear, verify that the model element is inside a package or a model to which the appropriate profile has been linked.  
+    > If you cannot see the **Stereotypes** property, or if the stereotype you want does not appear, verify that the model element is inside a package or a model to which the appropriate profile has been linked.  
   
 3. Some stereotypes allow you to set the values of additional properties for the model element. To see these properties, expand the **Stereotypes** property.  
   

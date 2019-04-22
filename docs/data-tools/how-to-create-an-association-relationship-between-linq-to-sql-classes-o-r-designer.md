@@ -15,7 +15,7 @@ Associations between entity classes in [!INCLUDE[vbtecdlinq](../data-tools/inclu
 You must select a parent class and child class when you use the **Association Editor** dialog box to create an association. The parent class is the entity class that contains the primary key; the child class is the entity class that contains the foreign-key. For example, if entity classes were created that map to the `Northwind Customers` and `Orders` tables, the `Customer` class would be the parent class and the `Order` class would be the child class.
 
 > [!NOTE]
->  When you drag tables from **Server Explorer** or **Database Explorer** onto the **Object Relational Designer** (**O/R Designer**), associations are automatically created based on the existing foreign-key relationships in the database.
+> When you drag tables from **Server Explorer** or **Database Explorer** onto the **Object Relational Designer** (**O/R Designer**), associations are automatically created based on the existing foreign-key relationships in the database.
 
 ## Association properties
 After you create an association, when you select the association in the **O/R Designer**, there are some configurable properties in the **Properties** window. (The association is the line between the related classes.) The following table provides descriptions for the properties of an association.

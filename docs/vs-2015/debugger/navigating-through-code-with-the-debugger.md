@@ -48,7 +48,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
  To stop on each line of code (each statement) while debugging, use the **F11** keyboard shortcut (or **Debug** / **Step Into** on the menu).  
   
 > [!TIP]
->  As you execute each line of code, you can hover over variables to see their values, or use the [Locals](../debugger/autos-and-locals-windows.md) and [Watch](../debugger/autos-and-locals-windows.md) windows to watch their values change.  
+> As you execute each line of code, you can hover over variables to see their values, or use the [Locals](../debugger/autos-and-locals-windows.md) and [Watch](../debugger/autos-and-locals-windows.md) windows to watch their values change.  
   
  Here are some details about the behavior of **Step Into**:  
   
@@ -81,7 +81,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 |**Shift+F11**|**Step Out**|**Step Out** continues running code and suspends execution when the current function returns (the debugger skips through the current function).|  
   
 > [!TIP]
->  If you need to find the entry point in your app, start with **F10** or **F11**. These commands are often helpful when you are inspecting your app state or trying to find out more about its execution flow.  
+> If you need to find the entry point in your app, start with **F10** or **F11**. These commands are often helpful when you are inspecting your app state or trying to find out more about its execution flow.  
   
 ## <a name="BKMK_Break_into_code_by_using_breakpoints_or_Break_All"></a> Run to a specific location or function  
  Often the preferred method of debugging code, these methods are useful when you know exactly what code you want to inspect, or at least you know where you want to start debugging.  
@@ -134,7 +134,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 - In the Disassembly window, set the cursor on the assembly instruction that you want to execute next, right-click an and choose **Set Next Statement**.  
   
 > [!CAUTION]
->  Setting the next statement causes the program counter to jump directly to the new location. Use this command with caution:  
+> Setting the next statement causes the program counter to jump directly to the new location. Use this command with caution:  
 > 
 > - Instructions between the old and new execution points are not executed.  
 >   - If you move the execution point backwards, intervening instructions are not undone.  
@@ -143,7 +143,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
 >   - When Edit and Continue is enabled, **Set Next Statement** fails if you have made edits that Edit and Continue cannot remap immediately. This can occur, for example, if you have edited code inside a catch block. When this happens, you’ll see an error message that tells you that the operation is not supported.  
 > 
 > [!NOTE]
->  In managed code, you cannot move the next statement under the following conditions:  
+> In managed code, you cannot move the next statement under the following conditions:  
 > 
 > - The next statement is in a different method than the current statement.  
 >   - Debugging was started by using Just-In-Time debugging.  
@@ -160,7 +160,7 @@ Get familiar with commands and shortcuts to navigate code in the debugger and th
  When Just My Code is disabled, the debugger can step into non-user code and non-user code appears in the debugger windows.  
   
 > [!NOTE]
->  Just My Code is not supported for device projects.  
+> Just My Code is not supported for device projects.  
   
  **Step into system calls**  
   

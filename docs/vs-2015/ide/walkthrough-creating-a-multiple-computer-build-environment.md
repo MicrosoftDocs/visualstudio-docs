@@ -87,7 +87,7 @@ You can create a build environment within your organization by installing Visual
   Notice that the name of the Program Files folder depends on the operating system that's installed. On an x86 computer, the name is \Program Files\\; on an x64 computer, the name is \Program Files (x86)\\. Irrespective of the system architecture, this walkthrough refers to the Program Files folder as %ProgramFiles%.  
   
 > [!NOTE]
->  On the build computer, all of the relevant files must be on the same drive; however, the drive letter for that drive can be different than the drive letter for the drive where Visual Studio is installed on the host computer. In any case, you must account for the location of files when you create registry entries as described later in this document.  
+> On the build computer, all of the relevant files must be on the same drive; however, the drive letter for that drive can be different than the drive letter for the drive where Visual Studio is installed on the host computer. In any case, you must account for the location of files when you create registry entries as described later in this document.  
   
 #### To copy the Windows SDK files to the build computer  
   
@@ -217,7 +217,7 @@ You can create a build environment within your organization by installing Visual
 1. Identify the parent folder for registry entries. All of the registry entries are created under the same parent key. On an x86 computer, the parent key is HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\. On an x64 computer the parent key is HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\. Irrespective of the system architecture, this walkthrough refers to the parent key as %RegistryRoot%.  
   
    > [!NOTE]
-   >  If the architecture of your host computer differs from that of your build computer, make sure to use the appropriate parent key on each computer. This is especially important if you're automating the export process.  
+   > If the architecture of your host computer differs from that of your build computer, make sure to use the appropriate parent key on each computer. This is especially important if you're automating the export process.  
    >   
    >  Also, if you're using a different drive letter on the build computer than the one that you're using on the host computer, make sure to change the values of the registry entries to match.  
   
@@ -328,7 +328,7 @@ You can create a build environment within your organization by installing Visual
      **gacutil -i \<file>**  
   
     > [!NOTE]
-    >  A reboot may be required for an assembly to fully install into the GAC.  
+    > A reboot may be required for an assembly to fully install into the GAC.  
   
 ## <a name="BuildingProjects"></a> Building projects  
  You can use Team Foundation Build to build [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects and solutions, or you can build them on the command line. When you use Team Foundation Build to build projects, it invokes the MSBuild executable that corresponds to the system architecture.  On the command line, you can use either 32-bit MSBuild or 64-bit MSBuild, and you can choose the architecture of MSBuild by setting the PATH environment variable or by directly invoking the architecture-specific MSBuild executable.  
@@ -340,17 +340,17 @@ You can create a build environment within your organization by installing Visual
  For more information about how to use MSBuild on the command line, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!NOTE]
->  To build [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects, you must use the "v110" Platform Toolset. If you don't want to edit the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] project files, you can set the Platform Toolset by using this command-line argument:  
+> To build [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects, you must use the "v110" Platform Toolset. If you don't want to edit the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] project files, you can set the Platform Toolset by using this command-line argument:  
 >   
->  **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
+> **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
   
 ## <a name="CreatingForSourceControl"></a> Creating the build environment so that it can be checked into source control  
  You can create a build environment that can be deployed to various computers and doesn’t require GAC’ing files or modifying registry settings. The following steps are just one way to accomplish this. Adapt these steps to the unique characteristics of your build environment.  
   
 > [!NOTE]
->  You must disable incremental building so that tracker.exe will not throw an error during a build. To disable incremental building, set this build parameter:  
+> You must disable incremental building so that tracker.exe will not throw an error during a build. To disable incremental building, set this build parameter:  
 >   
->  **msbuild** *solution.sln* **/p:TrackFileAccess=false**  
+> **msbuild** *solution.sln* **/p:TrackFileAccess=false**  
   
 #### To create a build environment that can be checked into source control  
   

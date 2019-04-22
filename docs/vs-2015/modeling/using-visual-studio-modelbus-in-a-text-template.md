@@ -22,7 +22,7 @@ If you write text templates that read a model that contains [!INCLUDE[vsprvs](..
 - The template must inherit from <xref:Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTransformation>.
 
 > [!NOTE]
->  If you want to read DSL models that do not contain ModelBus references, you can use the directive processors that are generated in your DSL projects. For more information, see [Accessing Models from Text Templates](../modeling/accessing-models-from-text-templates.md).
+> If you want to read DSL models that do not contain ModelBus references, you can use the directive processors that are generated in your DSL projects. For more information, see [Accessing Models from Text Templates](../modeling/accessing-models-from-text-templates.md).
 
  For more information about text templates, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 

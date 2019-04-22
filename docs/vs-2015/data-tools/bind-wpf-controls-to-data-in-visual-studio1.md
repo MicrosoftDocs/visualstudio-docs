@@ -92,7 +92,7 @@ You can display data to users of your application by binding data to [!INCLUDE[T
  When you drag an object or property from the **Data Sources** window to the designer, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] that creates a data-bound control (or binds an existing control to the object or property). However, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not generate code to fill the object with data. You must write this code yourself.
 
 > [!NOTE]
->  Custom classes must be public and, by default,  have a constructor without parameters. They can't be nested classes that have a "dot" in their syntax. For more information, see [XAML and Custom Classes for WPF](http://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a).
+> Custom classes must be public and, by default,  have a constructor without parameters. They can't be nested classes that have a "dot" in their syntax. For more information, see [XAML and Custom Classes for WPF](http://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a).
 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] that does the following:
 

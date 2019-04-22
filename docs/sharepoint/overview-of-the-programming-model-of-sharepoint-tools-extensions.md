@@ -44,7 +44,7 @@ ms.workload:
 - *Visual Studio automation and integration object models*. Use these object models to access Visual Studio features that are beyond the scope of the SharePoint tools object model.
 
     > [!NOTE]
-    >  You can convert some objects in the SharePoint tools object model to objects in the Visual Studio automation and integration object models, and vice versa, by using the SharePoint project service. For more information, see [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md).
+    > You can convert some objects in the SharePoint tools object model to objects in the Visual Studio automation and integration object models, and vice versa, by using the SharePoint project service. For more information, see [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md).
 
 - *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
 

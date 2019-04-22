@@ -33,7 +33,7 @@ This error reads:
 - If both the Visual Studio computer and the remote machine are on workgroups, this error may occur due to the default **Local Security Policy** setting on the remote machine. The default setting for the **Local Security Policy** setting is **Guest only - local users authenticate as Guest**. To debug on this setup, you must change the setting on the remote machine to **Classic - local users authenticate as themselves**.
 
 > [!NOTE]
->  You must be an administrator to carry out the following tasks.
+> You must be an administrator to carry out the following tasks.
 
 ### To open the Local Security Policy window
 

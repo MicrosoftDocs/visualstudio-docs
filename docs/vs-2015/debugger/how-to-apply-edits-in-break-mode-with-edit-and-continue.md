@@ -69,7 +69,7 @@ You can use Edit and Continue to edit your code in Break mode, and then continue
      For more information, see [Unsupported Edits in Visual Basic Edit and Continue](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md).  
   
     > [!NOTE]
-    >  If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You will not be able to continue code execution unless you undo the illegal code change.  
+    > If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You will not be able to continue code execution unless you undo the illegal code change.  
   
 3. On the **Debug** menu, click **Continue** to resume execution.  
   

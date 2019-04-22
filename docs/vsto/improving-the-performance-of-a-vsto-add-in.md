@@ -87,7 +87,7 @@ ms.workload:
 - Validating the digital signatures of the deployment manifests.
 
   > [!NOTE]
-  >  This approach isn't necessary if you deploy your VSTO Add-in to a secure location on the users' computers.
+  > This approach isn't necessary if you deploy your VSTO Add-in to a secure location on the users' computers.
 
   For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
 
@@ -105,7 +105,7 @@ ms.workload:
  Consider performing time-consuming tasks (such as long running tasks, database connections, or other sorts of network calls) in a separate thread. For more information, see [Threading support in Office](../vsto/threading-support-in-office.md).
 
 > [!NOTE]
->  All code that calls into the Office object model must execute in the main thread.
+> All code that calls into the Office object model must execute in the main thread.
 
 ## See also
 

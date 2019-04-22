@@ -23,7 +23,7 @@ You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../includes/vsprvs-md.
  To manually package an extension, add an extension.manifest file and a [Content_Types].xml file to the extension project, put them in a compressed file together with your build output, and rename the compressed file so that it has a .vsix file name extension. The extension to be packaged must be of a type that is supported by the [VSIX schema](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).  
   
 > [!NOTE]
->  The names of files in VSIX packages must not include spaces, nor characters that are reserved in Uniform Resource Identifiers (URI), as defined under [\[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339).  
+> The names of files in VSIX packages must not include spaces, nor characters that are reserved in Uniform Resource Identifiers (URI), as defined under [\[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339).  
   
 #### To manually create a VSIX package  
   

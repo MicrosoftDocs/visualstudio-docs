@@ -45,7 +45,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a cube.  
   
 > [!NOTE]
->  In the illustration, an orange color was specified to better demonstrate the effect of the shader.  
+> In the illustration, an orange color was specified to better demonstrate the effect of the shader.  
   
  ![Shader graph and its result on a 3&#45;D model](../designers/media/digit-flat-color-effect.png "Digit-Flat-Color-Effect")  
   

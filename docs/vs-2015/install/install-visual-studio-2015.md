@@ -47,7 +47,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
  Custom components include Visual C++, Visual F#, SQL Server Data Tools, Cross-platform mobile tools and SDKs, and third-party SDKs and extensions. You can install any of the custom components at a later time if you don't select them during the initial setup.
 
 > [!NOTE]
->  A Custom installation automatically includes the components that are in a Default installation.
+> A Custom installation automatically includes the components that are in a Default installation.
 
  The complete list of Custom components is as follows:
 
@@ -64,7 +64,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
  You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) website, or by creating an offline installation layout (see the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page for more details).
 
 > [!IMPORTANT]
->  You need administrator credentials to install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] after you install it.
+> You need administrator credentials to install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] after you install it.
 
  Your local administrator account must have the following privileges enabled to install everything in Visual Studio.
 

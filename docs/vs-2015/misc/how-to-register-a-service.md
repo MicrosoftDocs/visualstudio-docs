@@ -32,7 +32,7 @@ The managed package framework (MPF) provides attributes to control the registrat
  The <xref:System.Runtime.InteropServices.ComVisibleAttribute> is required to obtain the interface from unmanaged code.  
   
 > [!NOTE]
->  Although you could use the same type or GUID for both the service and the interface, we recommend that you separate the two because a service can expose different interfaces.  
+> Although you could use the same type or GUID for both the service and the interface, we recommend that you separate the two because a service can expose different interfaces.  
   
 ## See Also  
  [Registering VSPackages](../extensibility/internals/registering-vspackages.md)   

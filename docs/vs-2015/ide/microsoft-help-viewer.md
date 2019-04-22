@@ -27,7 +27,7 @@ manager: jillfra
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer.  
   
 > [!WARNING]
->  When you install Visual Studio, you get the Help Viewer. To start reading help topics in the Help Viewer rather than on the MSDN download site, go to the **Help** menu in Visual Studio, select **Set Help Preference**, and then select **Launch in Help Viewer**. The off-line help topics for a given version of Visual Studio are available only after the final release of that version.  
+> When you install Visual Studio, you get the Help Viewer. To start reading help topics in the Help Viewer rather than on the MSDN download site, go to the **Help** menu in Visual Studio, select **Set Help Preference**, and then select **Launch in Help Viewer**. The off-line help topics for a given version of Visual Studio are available only after the final release of that version.  
   
  You can do the following:  
   

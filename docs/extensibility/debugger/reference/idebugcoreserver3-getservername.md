@@ -36,7 +36,7 @@ int GetServerName(
  [out] Returns the name of the server.
 
 > [!NOTE]
->  The caller is responsible for freeing the string.
+> The caller is responsible for freeing the string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

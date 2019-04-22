@@ -53,7 +53,7 @@ ms.workload:
  You can resize a named range programmatically by using the <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> property.
 
 > [!NOTE]
->  In the **Properties** window, the <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> property is marked as read-only.
+> In the **Properties** window, the <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> property is marked as read-only.
 
 ### To resize a named range programmatically
 

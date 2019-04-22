@@ -54,7 +54,7 @@ TableAdapters provide communication between your application and a database. The
      Map parameters from the selected stored procedure to the corresponding columns in the data table. For example, if your stored procedure accepts a parameter named `@CompanyName` that it passes to the `CompanyName` column in the table, set the **Source Column** of the `@CompanyName` parameter to `CompanyName`.  
   
     > [!NOTE]
-    >  The stored procedure that's assigned to the SELECT command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the SELECT procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign,  and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).  
+    > The stored procedure that's assigned to the SELECT command is run by calling the method of the TableAdapter that you name in the next step of the wizard. The default method is `Fill`, so the code that's typically used to run the SELECT procedure is `TableAdapter.Fill(tableName)`. If you change the default name from `Fill`, substitute `Fill` with the name you assign,  and replace "TableAdapter" with the actual name of the TableAdapter (for example, `CustomersTableAdapter`).  
   
 - The **Advanced Options** in the wizard enable you to generate INSERT, UPDATE, and DELETE statements based on the SELECT statement that's defined on the **Generate SQL statements** page. Use optimistic concurrency, and specify whether to refresh the data table after INSERT and UPDATE statements are run.  
   
@@ -76,7 +76,7 @@ TableAdapters provide communication between your application and a database. The
 3. On the **Choose Your Data Connection** screen, select or create the connection that the query will use.  
   
     > [!NOTE]
-    >  This screen only appears when the designer can't determine the proper connection to use, or when no connections are available.  
+    > This screen only appears when the designer can't determine the proper connection to use, or when no connections are available.  
   
 4. On the **Choose a Command Type** screen, select from the following methods of fetching data from the database:  
   
@@ -91,7 +91,7 @@ TableAdapters provide communication between your application and a database. The
 - If you are editing an existing TableAdapter query, right-click the query, and then choose **Configure** from the shortcut menu.  
   
     > [!NOTE]
-    >  Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and <xref:System.Data.DataTable> schema. Right-clicking an additional query on a TableAdapter, however,  configures the selected query only. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition, while the TableAdapter Query Configuration Wizard reconfigures the selected query only.  
+    > Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and <xref:System.Data.DataTable> schema. Right-clicking an additional query on a TableAdapter, however,  configures the selected query only. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition, while the TableAdapter Query Configuration Wizard reconfigures the selected query only.  
   
 #### To add a global  query to a TableAdapter  
   
@@ -102,7 +102,7 @@ TableAdapters provide communication between your application and a database. The
 - Provide a query that performs the desired task, for example, `SELECT COUNT(*) AS CustomerCount FROM Customers`.  
   
     > [!NOTE]
-    >  Dragging a **Query** object directly onto the **Dataset Designer** creates a method that returns only a scalar (single) value. While the query or stored procedure you select might return more than a single value, the method that's created by the wizard  only returns a single value. For example, the query might return the first column of the first row of the returned data.  
+    > Dragging a **Query** object directly onto the **Dataset Designer** creates a method that returns only a scalar (single) value. While the query or stored procedure you select might return more than a single value, the method that's created by the wizard  only returns a single value. For example, the query might return the first column of the first row of the returned data.  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

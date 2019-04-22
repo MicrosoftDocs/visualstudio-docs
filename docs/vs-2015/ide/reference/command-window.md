@@ -56,7 +56,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
 |Scroll down the window.|Command window contents|DOWN ARROW or CTRL+DOWN ARROW|  
   
 > [!TIP]
->  You can copy all or part of a previous command to the input line by scrolling to it, highlighting all or part of it, and then pressing ENTER.  
+> You can copy all or part of a previous command to the input line by scrolling to it, highlighting all or part of it, and then pressing ENTER.  
   
 ## Mark Mode  
  When you click on any previous line in the **Command** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.  
@@ -98,7 +98,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 - `var[1-3]+` and `oldpar` are parameters  
   
   > [!NOTE]
-  >  Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
+  > Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.  
   
   The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.  
   

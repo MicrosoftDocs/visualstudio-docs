@@ -27,7 +27,7 @@ The following describes the process of creating a breakpoint.
 3. [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)  
   
     > [!NOTE]
-    >  **CanBind** is called only when a user makes a breakpoint from the Breakpoints window.  
+    > **CanBind** is called only when a user makes a breakpoint from the Breakpoints window.  
   
 4. [IDebugPendingBreakpoint2::Bind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)  
   

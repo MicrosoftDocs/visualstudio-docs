@@ -60,7 +60,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
    - Select **Minimal Language** in other cases, or if you are uncertain.  
   
        > [!NOTE]
-       >  If you want to create a class diagram or component diagram, consider using UML models. The UML modeling tools provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
+       > If you want to create a class diagram or component diagram, consider using UML models. The UML modeling tools provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
   
    - Select **Minimal WinForm Designer** or **Minimal WPF Designer** to create a DSL that is displayed on a Windows Forms or WPF surface. You will have to write code to define the editor. For more information, see the following topics:  
   
@@ -102,7 +102,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
  Close the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 > [!NOTE]
->  When you have modified the DSL, you will no longer be able to see the shapes on the Sample test file. However, you will be able to create new elements.  
+> When you have modified the DSL, you will no longer be able to see the shapes on the Sample test file. However, you will be able to create new elements.  
   
 ### Modifying the template DSL  
  Rename and keep some or all of the domain classes and shape classes in the template DSL definition. Your new class names should be valid CLR names, without spaces or punctuation.  
@@ -131,7 +131,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   The following sections describe how to construct the most useful kinds of DSL features. There are many other patterns with which a DSL can be constructed, but these are the most frequently used.  
   
 > [!NOTE]
->  After adding a feature, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before you build and running your DSL.  
+> After adding a feature, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before you build and running your DSL.  
   
  The following figure shows classes and relationships part of the DSL that is used as an example in this topic.  
   
@@ -142,7 +142,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
  ![Instance model of generated DSL](../modeling/media/music-instance.png "Music_Instance")  
   
 > [!NOTE]
->  "Model" refers to an instance of your DSL that users create, and typically is displayed as a diagram. This topic discusses both the DSL Definition diagram and the model diagrams that appear when your DSL is used.  
+> "Model" refers to an instance of your DSL that users create, and typically is displayed as a diagram. This topic discusses both the DSL Definition diagram and the model diagrams that appear when your DSL is used.  
   
 ## <a name="classes"></a> Defining Domain Classes  
  Domain Classes represent the concepts of your DSL. The instances are *model elements*. For example in a **MusicLibrary** DSL you might have Domain Classes named **Album** and **Song**.  
@@ -179,7 +179,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
  For more information, see [Properties of Domain Relationships](../modeling/properties-of-domain-relationships.md) and [Properties of Domain Roles](../modeling/properties-of-domain-roles.md).  
   
 > [!NOTE]
->  Embedding is not the same as inheritance. Children in an embedding relationship do not inherit features from their parents.  
+> Embedding is not the same as inheritance. Children in an embedding relationship do not inherit features from their parents.  
   
 ### Add Domain Properties to each Domain Class  
  Domain properties store values. Examples are: Name, Title, Publication Date.  
@@ -290,7 +290,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
    2. Right-click the node under **Toolbox Tabs** that has the same name as your DSL, for example MusicLibrary. Click **Add Element Tool**.  
   
        > [!NOTE]
-       >  If you right-click the **Tools** node, you will not see **Add Element Tool**. Instead, click the node above it.  
+       > If you right-click the **Tools** node, you will not see **Add Element Tool**. Instead, click the node above it.  
   
    3. In the Properties window with the new element tool selected, set **Class** to the domain class that you have recently added.  
   
@@ -458,7 +458,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
          Under **Display Property**, select the property that should be displayed in the list. In the example, this is Title.  
   
 > [!NOTE]
->  By using the Path fields in the Decorator Map and Compartment map fields, you can make more complex relationships between the domain classes and the compartment shape.  
+> By using the Path fields in the Decorator Map and Compartment map fields, you can make more complex relationships between the domain classes and the compartment shape.  
   
 #### To define a tool for creating the shape  
   
@@ -469,7 +469,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
 3. Right-click the node under **Toolbox Tabs** that has the same name as your DSL, for example MusicLibrary. Click **Add Element Tool**.  
   
     > [!NOTE]
-    >  If you right-click the **Tools** node, you will not see **Add Element Tool**. Instead, click the node above it.  
+    > If you right-click the **Tools** node, you will not see **Add Element Tool**. Instead, click the node above it.  
   
 4. In the Properties window with the new element tool selected, set **Class** to the domain class that you have recently added.  
   

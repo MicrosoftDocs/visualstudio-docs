@@ -29,7 +29,7 @@ You can modify the behavior of some of the standard commands that are defined au
    This topic explains this procedure.  
   
 > [!NOTE]
->  If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
+> If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
 ## <a name="what"></a> What commands can you modify?  
   
@@ -46,7 +46,7 @@ You can modify the behavior of some of the standard commands that are defined au
 5. Close the file without saving your edits.  
   
     > [!NOTE]
-    >  Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.  
+    > Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.  
   
 ## <a name="extend"></a> Extend the appropriate command set class  
  Create a new file that contains a partial declaration of the command set class.  
@@ -84,7 +84,7 @@ You can modify the behavior of some of the standard commands that are defined au
  The following example disables the Delete menu item when the user has selected more than one shape.  
   
 > [!NOTE]
->  This method does not affect whether the command is available through a keystroke. For example, disabling the Delete menu item does not prevent the command from being invoked through the Delete key.  
+> This method does not affect whether the command is available through a keystroke. For example, disabling the Delete menu item does not prevent the command from being invoked through the Delete key.  
   
 ```  
 /// <summary>  

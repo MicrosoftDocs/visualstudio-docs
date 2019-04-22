@@ -33,7 +33,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   You can distribute your own profiles to your team. Each team member can install your profile. This enables them to edit and create models that use its stereotypes.  
   
 > [!NOTE]
->  If you apply the stereotypes of a profile in a model that you are editing, and then share the model with other people, they should install the same profile on their own computers. Otherwise, they will not be able to see the stereotypes that you have used.  
+> If you apply the stereotypes of a profile in a model that you are editing, and then share the model with other people, they should install the same profile on their own computers. Otherwise, they will not be able to see the stereotypes that you have used.  
   
  A profile is often part of a larger [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension. For example, you could define a command that translates some parts of a model to code. You could define a profile that users must apply to packages that they want to translate. You would distribute your new command together with the profile in a single [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] extension.  
   
@@ -77,7 +77,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 1. Create a Visual Studio Extension project.  
   
    > [!NOTE]
-   >  You must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to use this procedure.  
+   > You must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] to use this procedure.  
   
    1. On the **File** menu, point to **New**, and then click **Project**.  
   
@@ -188,7 +188,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 2. Add a new directory in the same directory as your default profile file.  
   
     > [!NOTE]
-    >  If you are building the extension by using a Visual Studio Extension project, use Solution Explorer to add a new folder to the project.  
+    > If you are building the extension by using a Visual Studio Extension project, use Solution Explorer to add a new folder to the project.  
   
 3. Change the new directory's name to the ISO short code for the localized culture, such as `bg` for Bulgarian, or `fr` for French. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](http://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.  
   
@@ -205,7 +205,7 @@ You can define a *UML profile* to customize the standard model elements for spec
      `de\MyProfile.profile`  
   
     > [!NOTE]
-    >  You should not insert into `extension.vsixmanifest` a reference to the localized versions of the profiles. The copied profile files must have the same name as the profile in the parent folder.  
+    > You should not insert into `extension.vsixmanifest` a reference to the localized versions of the profiles. The copied profile files must have the same name as the profile in the parent folder.  
   
 5. Edit the new copy of the profile, translating to the target language all the parts that will be visible to the user, such as the `displayName` attributes.  
   
@@ -241,7 +241,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 ```  
   
 > [!NOTE]
->  The attribute called `name` must not contain spaces or punctuation. The attribute `displayName`, which appears in the user interface, should be a valid XML string.  
+> The attribute called `name` must not contain spaces or punctuation. The attribute `displayName`, which appears in the user interface, should be a valid XML string.  
   
  Every profile contains three main sections. In reverse order, they are as follows:  
   
@@ -304,7 +304,7 @@ You can define a *UML profile* to customize the standard model elements for spec
  The `name` attribute of `metaclassMoniker` is a link to an element in the `<metaClasses>` section.  
   
 > [!NOTE]
->  The moniker name must begin with `/yourProfileName/`, where `yourProfileName` is defined in the `name` attribute of the profile ("CSharpProfile" in this example). The moniker ends with the name of one of the entries in the metaclasses section.  
+> The moniker name must begin with `/yourProfileName/`, where `yourProfileName` is defined in the `name` attribute of the profile ("CSharpProfile" in this example). The moniker ends with the name of one of the entries in the metaclasses section.  
   
  Each stereotype can list zero or more properties that it adds to any model element to which it is applied. The `<propertyType>` contains a link to one of the types that are defined in the `<propertyTypes>` section. The link must be either an `<externalTypeMoniker>` to refer to an `<externalType>,` or an `<enumerationTypeMoniker>` to refer to an `<enumerationType>`. Again, the link begins with the name of your profile.  
   

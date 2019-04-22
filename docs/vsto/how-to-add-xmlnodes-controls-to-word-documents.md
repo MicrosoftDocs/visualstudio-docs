@@ -24,7 +24,7 @@ ms.workload:
  For information about mapping non-repeating XML schema elements, see [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md).
 
 > [!NOTE]
->  The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is not available from the **Toolbox** or the **Data Sources** window, nor can it be created programmatically.
+> The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is not available from the **Toolbox** or the **Data Sources** window, nor can it be created programmatically.
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
@@ -33,7 +33,7 @@ ms.workload:
 1. In the document in the Visual Studio designer, on the ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
 2. In the **XML** group, click **Schema**.
 

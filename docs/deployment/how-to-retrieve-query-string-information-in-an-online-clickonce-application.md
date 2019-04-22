@@ -24,19 +24,19 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
  The following two procedures show how to use a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to obtain query string information.
 
 > [!NOTE]
->  You can only pass information in a query string when your application is being launched using HTTP, instead of using a file share or the local file system.
+> You can only pass information in a query string when your application is being launched using HTTP, instead of using a file share or the local file system.
 
  The first procedure shows how your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application can use a small piece of code to read these values when the application launches.
 
  The next procedure shows how to configure your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application using MageUI.exe so that it can accept query string parameters. You will need to do this whenever you publish your application.
 
 > [!NOTE]
->  See the "Security" section later in this topic before you make a decision to enable this feature.
+> See the "Security" section later in this topic before you make a decision to enable this feature.
 
  For information about how to create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment using *Mage.exe* or *MageUI.exe*, see [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
 
 > [!NOTE]
->  Starting in .NET Framework 3.5 SP1, it is possible to pass command-line arguments to an offline [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. If you want to supply arguments to the application, you can pass in parameters to the shortcut file with the .APPREF-MS extension.
+> Starting in .NET Framework 3.5 SP1, it is possible to pass command-line arguments to an offline [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. If you want to supply arguments to the application, you can pass in parameters to the shortcut file with the .APPREF-MS extension.
 
 ### To obtain query string information from a ClickOnce application
 
@@ -62,7 +62,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
 4. From the **File** menu, select **Save**.
 
 > [!NOTE]
->  Alternately, you can enable query string passing in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Select the **Allow URL parameters to be passed to application** check box, which can be found by opening the **Project Properties**, selecting the **Publish** tab, clicking the **Options** button, and then selecting **Manifests**.
+> Alternately, you can enable query string passing in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Select the **Allow URL parameters to be passed to application** check box, which can be found by opening the **Project Properties**, selecting the **Publish** tab, clicking the **Options** button, and then selecting **Manifests**.
 
 ## Robust programming
  When you use query string parameters, you must give careful consideration to how your application is installed and activated. If your application is configured to install on the user's computer from the Web or from a network share, it is likely that the user will activate the application only once through the URL. After that, the user will usually activate your application using the shortcut in the **Start** menu. As a result, your application is guaranteed to receive query string arguments only once during its lifetime. If you choose to store these arguments on the user's machine for future use, you are responsible for storing them in a safe and secure manner.

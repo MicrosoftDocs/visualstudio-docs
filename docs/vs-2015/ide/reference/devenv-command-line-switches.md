@@ -28,10 +28,10 @@ manager: jillfra
 Devenv lets you set various options for the integrated development environment (IDE), and also build, debug, and deploy projects, from the command line. Use these switches to run the IDE from a script or a .bat file, for example, a nightly build script, or to start the IDE in a particular configuration.  
   
 > [!NOTE]
->  For build-related tasks, it is now recommended that you use MSBuild instead of devenv. For more information, see [Command-Line Reference](../../msbuild/msbuild-command-line-reference.md).  
+> For build-related tasks, it is now recommended that you use MSBuild instead of devenv. For more information, see [Command-Line Reference](../../msbuild/msbuild-command-line-reference.md).  
   
 > [!NOTE]
->  You must run devenv as an adminstrator in order to use the [/Setup (devenv.exe)](../../ide/reference/setup-devenv-exe.md) and [/InstallVSTemplates (devenv.exe)](../../ide/reference/installvstemplates-devenv-exe.md) switches.  
+> You must run devenv as an adminstrator in order to use the [/Setup (devenv.exe)](../../ide/reference/setup-devenv-exe.md) and [/InstallVSTemplates (devenv.exe)](../../ide/reference/installvstemplates-devenv-exe.md) switches.  
   
 ## Devenv Switch Syntax  
  By default, devenv commands pass switches to the devenv.com utility.  
@@ -51,7 +51,7 @@ Devenv lets you set various options for the integrated development environment (
 - When you supply a project file name instead of a solution file name, a `devenv` command will search the parent folder of the project file for a solution file that has the same name. For example, the command `devenv /build myproject1.vbproj` will search the parent folder for a solution file that is named "myproject1.sln".  
   
     > [!NOTE]
-    >  One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file will be created that is named for this project and references it.  
+    > One and only one solution file that references this project should be located in its parent folder. If the parent folder contains no solution file that references this project, or if the parent folder contains two or more solution files that reference it, then a temporary solution file will be created that is named for this project and references it.  
   
 - When file paths and file names include spaces, you must enclose them in double quotation marks (""). For example, "c:\project a\\".  
   

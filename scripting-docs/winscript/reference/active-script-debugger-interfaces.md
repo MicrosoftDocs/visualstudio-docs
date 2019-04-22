@@ -19,7 +19,7 @@ manager: "ghogen"
 The activdbg.h and activdbg100.h header files provide the interfaces, enumerations, and structures listed in this section. They are for debugging script.  
   
 > [!NOTE]
->  The `IJSDebug*` interfaces and the `IEnumJsStackFrames` interface were first released in Internet Explorer 11 for debugging native code with script. The header file for these interfaces is jscript9diag.h.  
+> The `IJSDebug*` interfaces and the `IEnumJsStackFrames` interface were first released in Internet Explorer 11 for debugging native code with script. The header file for these interfaces is jscript9diag.h.  
   
 ## In This Section  
  The following interfaces allow language-neutral, host-neutral debugging:  

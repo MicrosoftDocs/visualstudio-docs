@@ -39,7 +39,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
  Specifies the name of the assembly referenced by the code snippet.  
   
 > [!NOTE]
->  The `Assembly` element is only supported by Visual Basic code snippets.  
+> The `Assembly` element is only supported by Visual Basic code snippets.  
   
  The text value of the **Assembly** element is either the friendly text name of the assembly, such as `System.dll`, or its strong name, such as `System,Version=1.0.0.1,Culture=neutral,PublicKeyToken=9b35aa323c18d4fb1`.  
   
@@ -234,7 +234,7 @@ is a great color. I love Blue.
  Specifies a function to execute when the literal or object receives focus in Visual Studio.  
   
 > [!NOTE]
->  The `Function` element is only supported in Visual C# code snippets.  
+> The `Function` element is only supported in Visual C# code snippets.  
   
 ```xml  
 <Function>  
@@ -283,7 +283,7 @@ is a great color. I love Blue.
  Specifies a URL that provides more information about a code snippet.  
   
 > [!NOTE]
->  Visual Studio does not use the `HelpUrl` element. The element is part of the IntelliSense Code Snippet XML schema and any code snippet containing the element will validate, but the value of the element is never used.  
+> Visual Studio does not use the `HelpUrl` element. The element is part of the IntelliSense Code Snippet XML schema and any code snippet containing the element will validate, but the value of the element is never used.  
   
 ```xml  
 <HelpUrl>  
@@ -319,7 +319,7 @@ is a great color. I love Blue.
  Specifies the imported namespaces used by an IntelliSense Code Snippet.  
   
 > [!NOTE]
->  The `Import` element is only supported for Visual Basic projects.  
+> The `Import` element is only supported for Visual Basic projects.  
   
 ```xml  
 <Import>  
@@ -340,7 +340,7 @@ is a great color. I love Blue.
  Groups individual `Import` elements.  
   
 > [!NOTE]
->  The `Imports` element is only supported for Visual Basic projects.  
+> The `Imports` element is only supported for Visual Basic projects.  
   
 ```xml  
 <Imports>  
@@ -422,7 +422,7 @@ is a great color. I love Blue.
  Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to an `Imports` statement at the beginning of the code, if it does not already exist.  
   
 > [!NOTE]
->  The `Namespace` element is only supported for Visual Basic projects.  
+> The `Namespace` element is only supported for Visual Basic projects.  
   
 ```xml  
 <Namespace>  
@@ -469,7 +469,7 @@ is a great color. I love Blue.
  Specifies information about the assembly references required by the code snippet.  
   
 > [!NOTE]
->  The `Reference` element is only supported for Visual Basic projects.  
+> The `Reference` element is only supported for Visual Basic projects.  
   
 ```xml  
 <Reference>  
@@ -491,7 +491,7 @@ is a great color. I love Blue.
  Groups individual `Reference` elements.  
   
 > [!NOTE]
->  The `References` element is only supported for Visual Basic projects.  
+> The `References` element is only supported for Visual Basic projects.  
   
 ```xml  
 <References>  
@@ -511,7 +511,7 @@ is a great color. I love Blue.
  Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, hyphens ( - ), and underscores ( _ ).  
   
 > [!CAUTION]
->  _ and – are not supported characters in C++ snippet shortcuts.  
+> _ and – are not supported characters in C++ snippet shortcuts.  
   
 ```xml  
 <Shortcut>  
@@ -638,7 +638,7 @@ is a great color. I love Blue.
  Specifies a URL that provides more information about the referenced assembly.  
   
 > [!NOTE]
->  The `Url` element is only supported for Visual Basic projects.  
+> The `Url` element is only supported for Visual Basic projects.  
   
 ```xml  
 <Url>  

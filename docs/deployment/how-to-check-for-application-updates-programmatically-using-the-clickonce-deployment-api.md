@@ -24,7 +24,7 @@ ClickOnce provides two ways to update an application once it is deployed. In the
  In order to update a ClickOnce application programmatically, you must specify a location for updates. This is sometimes referred to as a deployment provider. For more information on setting this property, see [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md).
 
 > [!NOTE]
->  You can also use the technique described below to deploy your application from one location but update it from another. For more information, see [How to: Specify an alternate location for deployment updates](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md).
+> You can also use the technique described below to deploy your application from one location but update it from another. For more information, see [How to: Specify an alternate location for deployment updates](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md).
 
 ### To check for updates programmatically
 

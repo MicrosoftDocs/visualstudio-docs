@@ -18,7 +18,7 @@ manager: "ghogen"
 Used to provide new capabilities that can be called by script debuggers and in-process callers.  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IRemoteDebugApplication110` interface exposes the following methods.  

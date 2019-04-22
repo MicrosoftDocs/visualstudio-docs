@@ -71,7 +71,7 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
 3. Add a class file to the project and set its content to the following code.  
 
    > [!NOTE]
-   >  Change the namespace, class name, and the value returned by `Text` to your preference.  
+   > Change the namespace, class name, and the value returned by `Text` to your preference.  
    >   
    >  If you define multiple commands, they appear on the menu in alphabetical order of the class names.  
 

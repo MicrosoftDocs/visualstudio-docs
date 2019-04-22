@@ -72,7 +72,7 @@ The Visual Studio editor provides many features that make it easier for you to w
  The different Visual Studio languages offer different sets of features, and in some cases the features behave differently in different languages. Many of these differences are specified in the descriptions of the features, but for more information you can see the sections on specific Visual Studio languages.  
 
 > [!IMPORTANT]
->  The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
+> The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
 
 ## Editor Features  
 

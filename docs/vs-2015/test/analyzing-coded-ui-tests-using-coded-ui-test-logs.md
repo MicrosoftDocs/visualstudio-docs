@@ -70,7 +70,7 @@ Coded UI test logs filter and record important information about your coded UI t
      The automated tests will run and indicate if they passed or failed.  
   
     > [!TIP]
-    >  To view Test Explorer from the **Test menu**, point to **Windows** and then choose **Test Explorer**.  
+    > To view Test Explorer from the **Test menu**, point to **Windows** and then choose **Test Explorer**.  
   
 4. Choose the **Output** link in the Test Explorer results.  
   

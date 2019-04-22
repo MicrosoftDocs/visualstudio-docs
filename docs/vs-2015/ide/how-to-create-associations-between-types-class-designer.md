@@ -26,7 +26,7 @@ Association lines in Class Designer show how classes in a diagram are related. A
  While you could display all fields and properties as associations, it makes more sense to show only important members as associations, depending on what you intend to emphasize in the diagram. (You can show less important members as regular members or hide them altogether.)  
   
 > [!NOTE]
->  Class Designer supports only unidirectional associations.  
+> Class Designer supports only unidirectional associations.  
   
 ### To define an association line in the Class Diagram  
   

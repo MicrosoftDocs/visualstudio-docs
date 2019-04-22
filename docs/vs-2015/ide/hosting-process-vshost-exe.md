@@ -19,7 +19,7 @@ manager: jillfra
 The hosting process is a feature in Visual Studio that improves debugging performance, enables partial trust debugging, and enables design time expression evaluation. The hosting process files contain vshost in the file name and are placed in the output folder of your project. For more information, see [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md).  
   
 > [!NOTE]
->  Hosting process files (.vshost.exe) are for use by Visual Studio and should not be run directly or deployed with your application.  
+> Hosting process files (.vshost.exe) are for use by Visual Studio and should not be run directly or deployed with your application.  
   
 ## Improved Debugging Performance  
  The hosting process creates an application domain and associates the debugger with the application. Performing these tasks can introduce a noticeable delay between the time debugging is started and the time the application begins running. The hosting process helps increase performance by creating the application domain and associating the debugger in the background, and saving the application domain and debugger state between runs of the application. For more information on application domains, see [Application Domains](http://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8).  

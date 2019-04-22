@@ -20,7 +20,7 @@ manager: jillfra
 Specifies a target register.  
   
 > [!NOTE]
->  Because the `CV_HREG_e` enumeration is too large to duplicate in its entirety here, an abbreviated version is provided as a reference. Missing entries are notated in italics. The complete enumeration is available in the cvconst.h header file.  
+> Because the `CV_HREG_e` enumeration is too large to duplicate in its entirety here, an abbreviated version is provided as a reference. Missing entries are notated in italics. The complete enumeration is available in the cvconst.h header file.  
   
 ## Syntax  
   

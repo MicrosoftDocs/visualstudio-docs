@@ -32,7 +32,7 @@ ms.workload:
  **Applies to:** The information in this topic applies to document-level projects and VSTO Add-in projects for Excel, PowerPoint, and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).
 
 > [!NOTE]
->  Visual Studio also enables you to cache data objects in document-level customizations. This feature is different from custom XML parts, although there are some similarities. For more information, see [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md).
+> Visual Studio also enables you to cache data objects in document-level customizations. This feature is different from custom XML parts, although there are some similarities. For more information, see [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md).
 
 ## Understand custom XML parts
  Custom XML parts were introduced in the 2007 Microsoft Office system, along with the Open XML Formats. These formats include new XML-based file formats for Excel, PowerPoint, and Word (such as *.xlsx*, *.pptx*, and *.docx*). Documents in these formats consist of XML files (also named *XML parts*) that are organized in folders in a ZIP archive. Most of the XML parts are built-in parts that help to define the structure and the state of the document. However, documents can also contain custom XML parts, which you can use to store arbitrary XML data in the documents.
@@ -50,7 +50,7 @@ ms.workload:
 - [Build Word 2007 documents using Open XML formats](/previous-versions/office/developer/office-2007/bb264572(v=office.12))
 
 > [!NOTE]
->  Excel, Word, and PowerPoint also enable you to use custom XML parts in documents that are saved in the binary file formats. However, if a document is saved in a binary format, you cannot add or modify custom XML parts without starting the Microsoft Office application.
+> Excel, Word, and PowerPoint also enable you to use custom XML parts in documents that are saved in the binary file formats. However, if a document is saved in a binary format, you cannot add or modify custom XML parts without starting the Microsoft Office application.
 
 ## Create and modify custom XML parts
  You can create or modify custom XML parts when the document is open in the Office application, or when the document is closed—even if Microsoft Office is not installed.

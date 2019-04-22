@@ -47,7 +47,7 @@ For other (non-user) locations, you must include a manifest(.vstman) file that s
     3. Reopen Visual Studio. You should find your template in the expected location.
 
     > [!NOTE]
-    >  The Visual Studio Extensibility project templates are not available when the registry key is present. You must delete the registry key (and rerun **devenv /installvstemplates**) to use them.
+    > The Visual Studio Extensibility project templates are not available when the registry key is present. You must delete the registry key (and rerun **devenv /installvstemplates**) to use them.
 
 ## Other Recommendations for Deploying Project and Item Templates
 

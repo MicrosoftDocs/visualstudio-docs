@@ -92,7 +92,7 @@ Automated tests that drive your application through its user interface (UI) are 
     **To pause recording**, for example if you have to deal with incoming mail, choose **Pause**.
 
    > [!WARNING]
-   >  All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.
+   > All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.
 
     **To delete actions** that you recorded by mistake, choose **Edit Actions**.
 
@@ -107,7 +107,7 @@ Automated tests that drive your application through its user interface (UI) are 
     ![Coded UI test targeting element](../test/media/codedui-1.png "CodedUI_1")
 
    > [!TIP]
-   >  Alternate between recording actions and verifying values. Generate code at the end of each sequence of actions or verifications. If you want, you will be able to insert new actions and verifications later.
+   > Alternate between recording actions and verifying values. Generate code at the end of each sequence of actions or verifications. If you want, you will be able to insert new actions and verifications later.
 
     For more details, see [Validating Properties of Controls](#VerifyingCodeUsingCUITGenerateAssertions).
 
@@ -224,7 +224,7 @@ Automated tests that drive your application through its user interface (UI) are 
   To use the keyboard to select a UI control, hover over the control with the mouse. Then hold down the **Ctrl** key and the **I** key at the same time. Release the keys. The control is recorded by the Coded UT Test Builder.
 
 > [!WARNING]
->  If you use Microsoft Lync, you must close Lync before you start the Coded UI Test Builder. Microsoft Lync interferes with the **Ctrl+I** keyboard shortcut.
+> If you use Microsoft Lync, you must close Lync before you start the Coded UI Test Builder. Microsoft Lync interferes with the **Ctrl+I** keyboard shortcut.
 
  *I can’t record a mouse hover on a control. Is there a way around this?*
  **Manually recording mouse hovers**
@@ -249,7 +249,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
  If necessary, the default keyboard assignment of Ctrl+Shift+R that is used to apply mouse hovering events in your coded UI tests can be configured to use different keys.
 
 > [!WARNING]
->  You should not have to change the keyboard assignments for mouse hover events under ordinary circumstances. Use caution when reassigning the keyboard assignment. Your choice might already be in use elsewhere within Visual Studio or the application being tested.
+> You should not have to change the keyboard assignments for mouse hover events under ordinary circumstances. Use caution when reassigning the keyboard assignment. Your choice might already be in use elsewhere within Visual Studio or the application being tested.
 
  To change the keyboard assignments, you must modify the following configuration file:
 
@@ -350,7 +350,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   ```
 
   > [!WARNING]
-  >  You should not edit this file, because it will be regenerated when you create more tests.
+  > You should not edit this file, because it will be regenerated when you create more tests.
 
    You can make adapted versions of these methods by copying them to UIMap.cs. For example, you could make a parameterized version that you could call from a test method:
 

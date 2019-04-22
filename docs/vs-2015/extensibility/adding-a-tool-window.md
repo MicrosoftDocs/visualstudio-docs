@@ -35,7 +35,7 @@ In this walkthrough you learn how to create a tool window and integrate it into 
 1. Create a project named **FirstToolWin** using the VSIX template, and add a custom tool window item template named **FirstToolWindow**.  
   
     > [!NOTE]
-    >  For more information about creating an extension with a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
+    > For more information about creating an extension with a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
 ## Add a Control to the Tool Window  
   
@@ -258,7 +258,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
      The first named parameter is `Style` and its value is `Tabbed`, which means that the window will be a tab in an existing window. The docking position is specified by the `Window` parameter, n this case, the GUID of the **Solution Explorer**.  
   
     > [!NOTE]
-    >  For more information about the types of windows in the IDE, see <xref:EnvDTE.vsWindowType>.  
+    > For more information about the types of windows in the IDE, see <xref:EnvDTE.vsWindowType>.  
   
 ## Testing the Tool Window  
   

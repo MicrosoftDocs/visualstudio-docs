@@ -19,7 +19,7 @@ Outlining is used to expand or collapse different regions of text. The way outli
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement outlining, see [Walkthrough: Outlining](../../extensibility/walkthrough-outlining.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
  The following demonstrates how to support this command for your language service.
 
@@ -37,7 +37,7 @@ Outlining is used to expand or collapse different regions of text. The way outli
  You can call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions%2A> method for multiple outline regions by specifying these regions in the `rgOutlnReg` parameter. The `rgOutlnReg` parameter is a <xref:Microsoft.VisualStudio.TextManager.Interop.NewOutlineRegion> structure. This process lets you specify different characteristics of the hidden region, such as whether a particular region is expanded or collapsed.
 
 > [!NOTE]
->  Be careful about hiding new-line characters. Hidden text should extend from the start of the first line to the last character of the last line in a section, leaving the final new-line character visible.
+> Be careful about hiding new-line characters. Hidden text should extend from the start of the first line to the last character of the last line in a section, leaving the final new-line character visible.
 
 ## See also
 - [How to: Provide hidden text support in a legacy language service](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)

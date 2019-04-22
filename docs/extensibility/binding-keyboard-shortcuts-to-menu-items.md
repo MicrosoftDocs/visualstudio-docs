@@ -36,7 +36,7 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
 4. Try different combinations of keys until you find one that is not mapped.
 
    > [!NOTE]
-   >  Keyboard shortcuts that use **Alt** may open a menu and not directly execute a command. Therefore, the **Shortcut currently used by** box may be blank when you type a shortcut that includes **Alt**. You can verify that the shortcut does not open a menu by closing the **Options** dialog box and then pressing the keys.
+   > Keyboard shortcuts that use **Alt** may open a menu and not directly execute a command. Therefore, the **Shortcut currently used by** box may be blank when you type a shortcut that includes **Alt**. You can verify that the shortcut does not open a menu by closing the **Options** dialog box and then pressing the keys.
 
    The following procedure assumes that you have an existing VSPackage with a menu command. If you need help doing that, take a look at [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
@@ -47,7 +47,7 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
 2. Create an empty `<KeyBindings>` section after the `<Commands>` if it is not already present.
 
    > [!WARNING]
-   >  For more information about key bindings, see [Keybinding](../extensibility/keybinding-element.md).
+   > For more information about key bindings, see [Keybinding](../extensibility/keybinding-element.md).
 
     In the `<KeyBindings>` section, create a `<KeyBinding>` entry.
 

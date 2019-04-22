@@ -73,7 +73,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
 3. Add a class file to the project and set its content to the following code.  
   
    > [!NOTE]
-   >  Change the namespace and class name according to your preference.  
+   > Change the namespace and class name according to your preference.  
   
    ```  
    using System.ComponentModel.Composition;  

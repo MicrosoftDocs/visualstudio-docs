@@ -19,9 +19,9 @@ The Unit Testing Framework supports unit testing in [!INCLUDE[vsprvs](../include
 > [!NOTE]
 > Attribute elements, whose names conclude with the string Attribute, can be used either with or without the string Attribute. For example, the following two code examples function identically:
 >
->  `[TestClass()]`
+> `[TestClass()]`
 >
->  `[TestClassAttribute()]`
+> `[TestClassAttribute()]`
 
 ### Elements Used for Data-Driven Testing
  Use the following elements to set up data-driven unit tests. For more information, see [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md) and [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).

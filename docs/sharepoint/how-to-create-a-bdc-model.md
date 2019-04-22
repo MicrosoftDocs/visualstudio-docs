@@ -22,7 +22,7 @@ ms.workload:
 1. On the menu bar, choose **File** > **New** > **Project**.
 
     > [!NOTE]
-    >  If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.
+    > If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.
 
      The **New Project** dialog box opens.
 
@@ -37,7 +37,7 @@ ms.workload:
      You will test the model on the SharePoint site that you specified.
 
     > [!IMPORTANT]
-    >  You must deploy the project as a farm solution because BDC models support only farm solutions.
+    > You must deploy the project as a farm solution because BDC models support only farm solutions.
 
      An empty SharePoint project is created.
 

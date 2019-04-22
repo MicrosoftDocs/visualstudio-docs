@@ -312,7 +312,7 @@ This article describes typical uses of annotations for simple function parameter
   In the following table, additional substrings are inserted into the annotation name to further qualify the meaning of the annotation.  The various substrings are `_z`, `_COM_`, `_buffer_`, `_bytebuffer_`, and `_to_`.  
   
 > [!IMPORTANT]
->  If the interface that you are annotating is COM, use the COM form of these annotations. Do not use the COM annotations with any other type interface.  
+> If the interface that you are annotating is COM, use the COM form of these annotations. Do not use the COM annotations with any other type interface.  
   
  **Annotations and Descriptions**  
   
@@ -468,7 +468,7 @@ This article describes typical uses of annotations for simple function parameter
      The parameter, field, or result is in the range (inclusive) from `low` to `hi`.  Equivalent to `_Satisfies_(_Curr_ >= low && _Curr_ <= hi)` that is applied to the annotated object together with the appropriate pre-state or post-state conditions.  
   
     > [!IMPORTANT]
-    >  Although the names contain "in" and "out", the semantics of `_In_` and `_Out_` do **not** apply to these annotations.  
+    > Although the names contain "in" and "out", the semantics of `_In_` and `_Out_` do **not** apply to these annotations.  
   
 - `_Pre_equal_to_(expr)`  
   

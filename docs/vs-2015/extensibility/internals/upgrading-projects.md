@@ -40,7 +40,7 @@ Changes to the project model from one version of [!INCLUDE[vsprvs](../../include
  After updating all relevant global files, each project factory can choose to instantiate a project. The project implementation must support <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> method is then called to upgrade all relevant project items.  
   
 > [!NOTE]
->  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method does not provide the SVsUpgradeLogger service. This service can be obtained by calling <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>.  
+> The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> method does not provide the SVsUpgradeLogger service. This service can be obtained by calling <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>.  
   
 ## Best Practices  
  Use the <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave> service to check if you can edit a file before editing it, and can save it before saving it. This will help your backup and upgrade implementations handle project files under source control, files with insufficient permissions, and so forth.  

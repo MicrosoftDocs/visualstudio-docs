@@ -23,9 +23,9 @@ You can persist user settings for your start page. By following this walkthrough
 ## Prerequisites  
   
 > [!NOTE]
->  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
+> To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
 >   
->  You can download the Start Page project template by using **Extension Manager**.  
+> You can download the Start Page project template by using **Extension Manager**.  
   
 ## Setting Up the Project  
   

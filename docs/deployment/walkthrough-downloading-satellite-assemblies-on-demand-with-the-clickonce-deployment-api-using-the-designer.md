@@ -29,7 +29,7 @@ Windows Forms applications can be configured for multiple cultures through the u
  This walkthrough demonstrates how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings.
 
 > [!NOTE]
->  For testing purposes, the following code examples programmatically set the culture to `ja-JP`. See the "Next Steps" section later in this topic for information on how to adjust this code for a production environment.
+> For testing purposes, the following code examples programmatically set the culture to `ja-JP`. See the "Next Steps" section later in this topic for information on how to adjust this code for a production environment.
 
 ### To mark satellite assemblies as optional
 

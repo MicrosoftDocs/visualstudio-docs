@@ -31,7 +31,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
 - A configurable column that can display the machine, process, tile, task, and thread.  
   
   > [!TIP]
-  >  You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
+  > You must open the **Parallel Task** window to display the task information in the **Parallel Watch** window.  
   
 - The **\<Add Watch>** column, in which you can enter expressions to watch.  
   

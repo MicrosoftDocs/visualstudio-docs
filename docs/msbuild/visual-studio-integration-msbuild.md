@@ -57,7 +57,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ```
 
 > [!NOTE]
->  Some item type names are special to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] but not listed in this dropdown.
+> Some item type names are special to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] but not listed in this dropdown.
 
 ## In-process compilers
  When possible, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will attempt to use the in-process version of the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler for increased performance. (Not applicable to [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].) For this to work correctly, the following conditions must be met:

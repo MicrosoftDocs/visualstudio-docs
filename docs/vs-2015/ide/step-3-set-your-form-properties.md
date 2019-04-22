@@ -24,7 +24,7 @@ Next, you use the **Properties** window to change the way your form looks.
 2. Choose anywhere inside the form **Form1** to select it. Look at the **Properties** window, which should now be showing the properties for the form. Forms have various properties. For example, you can set the foreground and background color, title text that appears at the top of the form, size of the form, and other properties.  
   
    > [!NOTE]
-   >  If the **Properties** window doesn't appear, stop your program by choosing the square **Stop Debugging** button on the toolbar, or just close the window. If the program is stopped and you still don't see the **Properties** window, on the menu bar, choose **View**, **Properties Window**.  
+   > If the **Properties** window doesn't appear, stop your program by choosing the square **Stop Debugging** button on the toolbar, or just close the window. If the program is stopped and you still don't see the **Properties** window, on the menu bar, choose **View**, **Properties Window**.  
   
 3. After the form is selected, find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Choose **Text**, type **Picture Viewer**, and then choose ENTER.  Your form should now have the text **Picture Viewer** in its title bar, and the **Properties** window should look similar to the following picture.  
   
@@ -32,7 +32,7 @@ Next, you use the **Properties** window to change the way your form looks.
    Properties window  
   
    > [!NOTE]
-   >  Properties can be ordered by a Categorized or Alphabetical view. You can switch between these two views by using the buttons on the **Properties** window. In this tutorial, it's easier to find properties through the Alphabetical view.  
+   > Properties can be ordered by a Categorized or Alphabetical view. You can switch between these two views by using the buttons on the **Properties** window. In this tutorial, it's easier to find properties through the Alphabetical view.  
   
 4. Go back to Windows Forms Designer. Choose the form's lower-right drag handle, which is the small white square in the lower-right of the form and appears as follows.  
   

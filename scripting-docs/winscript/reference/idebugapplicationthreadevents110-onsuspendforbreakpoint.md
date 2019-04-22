@@ -18,7 +18,7 @@ manager: "ghogen"
 Determines whether the thread has fully suspended for a breakpoint and has not yet resumed normal execution.  
   
 > [!IMPORTANT]
->  [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

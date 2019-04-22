@@ -57,7 +57,7 @@ The following checklist summarizes the basic steps you must take in order to cre
     Commands that must be handled depend on the services that are provided. For more information, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).  
   
   > [!NOTE]
-  >  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
+  > The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
   
 - Statement completion  
   

@@ -28,7 +28,7 @@ Your program is finished and ready to run. You can run your program and set the 
 3. Choose a color to set the PictureBox background color. Look closely at the `backgroundButton_Click()` method to understand how it works.
 
     > [!NOTE]
-    >  You can load a picture from the Internet by pasting its URL into the **Open File** dialog box. Try to find an image with a transparent background, so your background color shows.
+    > You can load a picture from the Internet by pasting its URL into the **Open File** dialog box. Try to find an image with a transparent background, so your background color shows.
 
 4. Choose the **Clear the picture** button to make sure it clears. Then, exit the program by choosing the **Close** button.
 

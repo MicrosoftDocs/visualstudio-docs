@@ -25,7 +25,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  Natvis supersedes the **autoexp.dat** file that was used in earlier versions of Visual Studio and offers XML syntax, better diagnostics, versioning, and multiple file support.  
 
 > [!NOTE]
->  You cannot use the Natvis framework for visualizations when:  
+> You cannot use the Natvis framework for visualizations when:  
 > 
 > - You are debugging a C++ Windows desktop project with debugger type set to **mixed**.  
 >   - You are doing mixed mode debugging in a Windows desktop application in managed compatibility mode (**Tools / Options / Debugging / General / Use Managed Compatibility Mode**).  
@@ -298,7 +298,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  In the `DisplayString` expression, `x` and `y`, which are members of `CPoint`, are inside curly braces and so their values are evaluated. The expression also shows how you can escape a curly brace by using double curly braces ( `{{` or `}}` ).  
 
 > [!NOTE]
->  The `DisplayString` element is the only element that accepts arbitrary strings and curly brace syntax. All other visualization elements accept only expressions that are evaluated by the debugger.  
+> The `DisplayString` element is the only element that accepts arbitrary strings and curly brace syntax. All other visualization elements accept only expressions that are evaluated by the debugger.  
 
 ### <a name="BKMK_StringView"></a> StringView  
  The `StringView` element defines the expression whose value is going to be sent to the built-in text visualizer. For example, suppose we have the following visualization for the `ATL::CStringT` type:  
@@ -330,7 +330,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  ![CStringT data with StringView visualizer](../debugger/media/dbg-natvis-stringview-cstringt.png "DBG_NATVIS_StringView_CStringT")  
 
 > [!NOTE]
->  Note that the expression `{m_pszData,su}` includes a C++ format specifier `su` to display the value as a Unicode string. See [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) for more information.  
+> Note that the expression `{m_pszData,su}` includes a C++ format specifier `su` to display the value as a Unicode string. See [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md) for more information.  
 
 ### <a name="BKMK_Expand"></a> Expand  
  The `Expand` node is used to customize the children of the visualized type when the user expands it in the variable windows. It accepts a list of child nodes that define the child elements.  
@@ -362,7 +362,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
  The expressions specified in `Width` and `Height` elements are evaluated and shown in the value column. The `[Raw View]` node is automatically created by the debugger whenever a custom expansion is used. It is expanded in the screenshot above to show how the raw view of the object is different from its visualization. The Visual Studio default expansion creates a subtree for the base class and lists all the data members of the base class as children.  
 
 > [!NOTE]
->  If the expression of the item element points to a complex type, the `Item` node itself is expandable.  
+> If the expression of the item element points to a complex type, the `Item` node itself is expandable.  
 
 #### <a name="BKMK_ArrayItems_expansion"></a> ArrayItems expansion  
  Use the `ArrayItems` node to have the Visual Studio debugger interpret the type as an array and display its individual elements. The visualization for `std::vector` is a good example:  

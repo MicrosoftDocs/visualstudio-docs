@@ -62,7 +62,7 @@ manager: "wpickett"
 - Ensure that the Load() method takes an XmlReader instance in all InnerXml cases.
 
 > [!NOTE]
->  This rule might report false positives on some valid XmlSecureResolver instances. We're working on solving this issue by mid 2016.
+> This rule might report false positives on some valid XmlSecureResolver instances. We're working on solving this issue by mid 2016.
 
 ## When to Suppress Warnings
  Unless you're sure that the input is known to be from a trusted source, do not suppress a rule from this warning.

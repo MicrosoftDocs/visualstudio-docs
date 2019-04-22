@@ -36,7 +36,7 @@ You can create an XML-based .vsct file from an existing command table .ctc sourc
      This creates a new .vsct XML command table source file. You can compile the file by using Vsct.exe, the VSCT compiler, as you would any other .vsct file.  
   
     > [!NOTE]
-    >  You can improve the readability of the .vsct file by reformatting the XML comments.  
+    > You can improve the readability of the .vsct file by reformatting the XML comments.  
   
 ## See Also  
  [How to: Create a .Vsct File](../extensibility/internals/how-to-create-a-dot-vsct-file.md)   

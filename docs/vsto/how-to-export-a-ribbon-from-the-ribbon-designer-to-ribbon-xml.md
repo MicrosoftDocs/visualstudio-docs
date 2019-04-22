@@ -23,7 +23,7 @@ ms.workload:
   The **Ribbon (Visual Designer)** item does not support all possible types of Ribbon customization. To customize the ribbon in advanced ways, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
 
 > [!NOTE]
->  Not all property values appear in the Ribbon XML file. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).
+> Not all property values appear in the Ribbon XML file. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 

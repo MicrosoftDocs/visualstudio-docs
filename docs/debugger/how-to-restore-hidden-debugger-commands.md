@@ -41,7 +41,7 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
 7. Click **Close** when you have finished adding commands to the menu.
 
     > [!WARNING]
-    >  Some menu items only appear when the debugger is in specific modes, such as run mode or break mode. Therefore, an item you added may not be immediately visible when you complete these steps.
+    > Some menu items only appear when the debugger is in specific modes, such as run mode or break mode. Therefore, an item you added may not be immediately visible when you complete these steps.
 
 ## Restoring Commands Not Available from the Customize Dialog Box
  Some commands, especially those found in hierarchical menus, cannot be restored from the **Customize** dialog box. To restore these commands, you must import a new collection of IDE settings.

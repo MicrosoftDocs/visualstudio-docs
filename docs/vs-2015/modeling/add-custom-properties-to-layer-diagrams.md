@@ -24,7 +24,7 @@ When you write extension code for layer diagrams, you can store values with any 
  **Initial preparation**  
   
 > [!IMPORTANT]
->  To make properties appear, you must make the following change on each computer where you want layer properties to be visible.  
+> To make properties appear, you must make the following change on each computer where you want layer properties to be visible.  
 > 
 >  1. Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
 >  

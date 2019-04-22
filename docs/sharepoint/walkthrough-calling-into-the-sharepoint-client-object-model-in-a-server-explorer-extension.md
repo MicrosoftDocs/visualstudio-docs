@@ -30,7 +30,7 @@ ms.workload:
 - Debugging and testing the extension.
 
 > [!NOTE]
->  The extension that you create in this walkthrough resembles the extension that you create in [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md). That walkthrough uses the SharePoint server object model, but this walkthrough accomplishes the same tasks by using the client object model.
+> The extension that you create in this walkthrough resembles the extension that you create in [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md). That walkthrough uses the SharePoint server object model, but this walkthrough accomplishes the same tasks by using the client object model.
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:
@@ -63,7 +63,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 3. In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose **Extensibility**.
 
     > [!NOTE]
-    >  The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
+    > The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
 4. At the top of the dialog box, choose **.NET Framework 4.5** in the list of versions of the .NET Framework.
 
@@ -155,7 +155,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 1. Paste the following code into the **SiteNodeExtension** code file for the **WebPartNodeExtension** project.
 
     > [!NOTE]
-    >  After you add this code, the project will have some compile errors. These errors will go away when you add code in later steps.
+    > After you add this code, the project will have some compile errors. These errors will go away when you add code in later steps.
 
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNode#1](../sharepoint/codesnippet/CSharp/webpartnode/webpartnodeextension/sitenodeextension.cs#1)]
      [!code-vb[SPExtensibility.SPExplorer.WebPartNode#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnode.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
@@ -199,7 +199,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
 6. In the **Add New Asset** dialog box, in the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    > This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
 7. In the **Source** list, choose **A project in current solution**.
 

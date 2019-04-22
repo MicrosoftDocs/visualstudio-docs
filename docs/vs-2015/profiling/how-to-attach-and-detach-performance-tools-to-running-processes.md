@@ -24,7 +24,7 @@ manager: jillfra
 The profiler can be used to attach to or detach from a running process to make sampling and gathering performance data easier. You can use this method to profile a process when you want to avoid gathering data about application load time, or to monitor the performance of a process after it reaches a specific state.  
   
 > [!NOTE]
->  The following steps apply to attaching and detaching processes from within the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] integrated development environmnent (IDE). For information about how to use command line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md). For information about how to profile services, see [Profiling Services](../profiling/command-line-profiling-of-services.md).  
+> The following steps apply to attaching and detaching processes from within the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] integrated development environmnent (IDE). For information about how to use command line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md). For information about how to profile services, see [Profiling Services](../profiling/command-line-profiling-of-services.md).  
   
  The processes that are available to profile depend on the User Access Permissions that are set by an administrator of the computer. A User account may, for example, have permission for any of the following:  
   

@@ -21,7 +21,7 @@ You can invoke XML snippets by using the following two commands on the XML Edito
  The following procedures describe how to access the **Insert Snippet** command.  
   
 > [!NOTE]
->  The **Insert Snippet** command is also available through the keyboard shortcut (CTRL+K, then CTRL+X).  
+> The **Insert Snippet** command is also available through the keyboard shortcut (CTRL+K, then CTRL+X).  
   
 #### To insert snippets from the shortcut menu  
   
@@ -54,7 +54,7 @@ You can invoke XML snippets by using the following two commands on the XML Edito
 4. Press TAB, TAB to invoke the XML snippet.  
   
 > [!NOTE]
->  There may be cases when the XML snippet does not get invoked. For example, if you try to insert an `xs:complexType` element inside an `xs:element` node, the editor does not generate an XML snippet. When an `xs:complexType` element is used inside an `xs:element` node, there are no required attributes or subelements, so the editor does not have any data to insert.  
+> There may be cases when the XML snippet does not get invoked. For example, if you try to insert an `xs:complexType` element inside an `xs:element` node, the editor does not generate an XML snippet. When an `xs:complexType` element is used inside an `xs:element` node, there are no required attributes or subelements, so the editor does not have any data to insert.  
   
 #### To insert snippets using the shortcut name  
   
@@ -70,7 +70,7 @@ You can invoke XML snippets by using the following two commands on the XML Edito
  The following procedures describe how to access the **Surround With** command.  
   
 > [!NOTE]
->  The **Surround With** command is also available through the keyboard shortcut (CTRL+K, then CTRL+S).  
+> The **Surround With** command is also available through the keyboard shortcut (CTRL+K, then CTRL+S).  
   
 #### To use surround with from the context menu  
   

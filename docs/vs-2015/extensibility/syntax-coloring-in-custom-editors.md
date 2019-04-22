@@ -48,7 +48,7 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 3. Use the colorization information returned by <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> to repaint and display its text.  
   
 > [!NOTE]
->  In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
+> In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   
 ## See Also  
  [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   

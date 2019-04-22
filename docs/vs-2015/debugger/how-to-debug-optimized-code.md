@@ -28,12 +28,12 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!NOTE]
->  The [/Zo (Enhance Optimized Debugging)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](http://msdn.microsoft.com/library/77997af9-5555-4b3d-aa57-6615b27d4d5d)). This includes improved support for debugging local variables and inlined functions.  
+> The [/Zo (Enhance Optimized Debugging)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](http://msdn.microsoft.com/library/77997af9-5555-4b3d-aa57-6615b27d4d5d)). This includes improved support for debugging local variables and inlined functions.  
 >   
->  [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** ocompiler option is used.  
+> [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** ocompiler option is used.  
   
  When the compiler optimizes code, it repositions and reorganizes instructions. This results in more efficient compiled code. Because of this rearrangement, the debugger cannot always identify the source code that corresponds to a set of instructions.  
   
@@ -74,7 +74,7 @@ NOTE]
 9. Select the Configuration Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)`)` to the **Additional Options** text box.  
   
     > [!WARNING]
-    >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.  
+    > `/Zo` requires Visual Studio 2013 Update 3 or a later version.  
     >   
     >  Adding `/Zo` will disable [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md).  
   

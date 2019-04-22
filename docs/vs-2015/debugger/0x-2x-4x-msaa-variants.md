@@ -23,7 +23,7 @@ Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and s
  If your app doesn't already have MSAA enabled, then the 2x MSAA and 4x MSAA variants indicate the relative performance cost of enabling them in your app. When the cost is acceptably low, consider enabling MSAA to enhance the image quality of your app.  
   
 > [!NOTE]
->  Your hardware might not fully support MSAA for all formats. If any of these variants encounter a hardware limitation that can't be worked around, its column in the performance summary table is blank and an error message is produced.  
+> Your hardware might not fully support MSAA for all formats. If any of these variants encounter a hardware limitation that can't be worked around, its column in the performance summary table is blank and an error message is produced.  
   
 ## Remarks  
  These variants override the sample count and sample-quality arguments on calls to `ID3DDevice::CreateTexture2D` that create render targets. Specifically, these parameters are overridden when:  

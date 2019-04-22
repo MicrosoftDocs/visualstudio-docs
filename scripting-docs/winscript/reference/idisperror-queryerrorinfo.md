@@ -48,7 +48,7 @@ HRESULT QueryErrorInfo(
  The `QueryErrorInfo` method retrieves a particular type of error information.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
 ## See Also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

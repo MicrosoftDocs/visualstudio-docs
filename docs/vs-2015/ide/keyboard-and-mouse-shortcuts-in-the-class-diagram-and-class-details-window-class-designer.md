@@ -86,7 +86,7 @@ You can use the keyboard in addition to the mouse to perform navigational action
 ## <a name="KeyboardClassDetails"></a> Using the Keyboard in the Class Details Window  
   
 > [!NOTE]
->  The following key bindings were chosen to specifically to mimic the experience of typing code.  
+> The following key bindings were chosen to specifically to mimic the experience of typing code.  
   
  Use the following keys to navigate the Class Details window:  
   

@@ -51,7 +51,7 @@ The Image Content Pipeline can generate textures that are compatible with Direct
 3. Set the output format to one of the block-compressed formats. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Compress** property to **BC3_UNORM compression (/compress:BC3_UNORM)**. You could choose any of the other BC1, BC2, or BC3 formats, depending on your requirements. Direct2D doesn't currently support BC4, BC5, BC6, or BC7 textures. For more information about the different BC formats, see [Block Compression (Direct3D 10)](http://msdn.microsoft.com/library/windows/desktop/bb694531.aspx).  
   
    > [!NOTE]
-   >  The compression format that's specified determines the format of the file that's produced by the Image Content Pipeline. This is different than the **Format** property of the source image in the Image Editor, which determines the format of the source image file as stored on disk—that is, the *working format*. Typically, you don’t want a working format that's compressed.  
+   > The compression format that's specified determines the format of the file that's produced by the Image Content Pipeline. This is different than the **Format** property of the source image in the Image Editor, which determines the format of the source image file as stored on disk—that is, the *working format*. Typically, you don’t want a working format that's compressed.  
   
 4. Configure the Image Content Pipeline to produce output that uses premultiplied alpha. On the **Configuration Properties**, **Image Content Pipeline**, **General** page, set the **Convert to pre-multiplied alpha format** property to **Yes (/generatepremultipliedalpha)**.  
   

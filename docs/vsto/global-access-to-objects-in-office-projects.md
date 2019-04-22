@@ -68,7 +68,7 @@ ms.workload:
  Code that attempts to use the `Globals` class before the document or VSTO Add-in is initialized might throw a run time exception. For example, using `Globals` when declaring a class-level variable might fail because the `Globals` class might not be initialized with references to all of the host items before the declared object is instantiated.
 
 > [!NOTE]
->  The `Globals` class is never initialized at design time, but control instances are created by the designer. This means that if you create a user control that uses a property of the `Globals` class from inside a user control class, you must check whether the property returns **null** before you try to use the returned object.
+> The `Globals` class is never initialized at design time, but control instances are created by the designer. This means that if you create a user control that uses a property of the `Globals` class from inside a user control class, you must check whether the property returns **null** before you try to use the returned object.
 
 ## See also
 - [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)

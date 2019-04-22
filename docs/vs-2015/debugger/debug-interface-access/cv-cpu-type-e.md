@@ -20,7 +20,7 @@ manager: jillfra
 Specifies the target processor.  
   
 > [!NOTE]
->  The processor is identified in the enumeration element after the `CV_CFL_*` prefix.  
+> The processor is identified in the enumeration element after the `CV_CFL_*` prefix.  
   
 ## Syntax  
   

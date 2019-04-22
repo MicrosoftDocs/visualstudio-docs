@@ -117,7 +117,7 @@ ms.workload:
 You can change the project settings for a C or Visual C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
 
 > [!NOTE]
->  The debug project settings in the **Configuration Properties/Debugging** category are different for UWP apps and for components that are written in C++. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
+> The debug project settings in the **Configuration Properties/Debugging** category are different for UWP apps and for components that are written in C++. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
 
  Each debug property setting is automatically written and saved to the "per-user" file (.vcxproj.user) for your solution when you save your solution.
 

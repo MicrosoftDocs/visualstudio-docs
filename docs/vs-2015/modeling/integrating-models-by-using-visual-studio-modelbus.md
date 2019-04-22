@@ -18,7 +18,7 @@ manager: jillfra
  ModelBus lets you create a unique reference to a model or to a specific element inside a model. This reference can be stored outside the model, for example, in an element in another model. When, on a later occasion, a tool wants to obtain access to the element, the Model Bus infrastructure will load the appropriate model and return the element. If you want, you can display the model to the user. If the file cannot be accessed in its previous location, ModelBus will ask the user to find it. If the user finds the file, ModelBus will fix all the references to that file.
 
 > [!NOTE]
->  In the current [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] implementation of ModelBus, the linked models must be items in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.
+> In the current [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] implementation of ModelBus, the linked models must be items in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.
 
  For additional information and sample code, see:
 
@@ -124,7 +124,7 @@ manager: jillfra
 5. Click **OK**, and then click **Transform All Templates** in the solution explorer toolbar.
 
     > [!WARNING]
-    >  If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
+    > If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
 
 6. If you specified a list of target types such as Company.FamilyTree.Person, then you must add an assembly reference to your DSL project, referencing the DLL of the target DSL, for example Company.FamilyTree.Dsl.dll
 
@@ -137,7 +137,7 @@ manager: jillfra
 3. In the Debugging project in the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], add files that are instances of each DSL.
 
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.
+    > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.
 
 4. Create some elements and links in the instance of the exposed DSL, and save it.
 
@@ -157,7 +157,7 @@ manager: jillfra
  To create an element reference, you need an adapter for the model file, and the element you want to refer to.
 
 > [!NOTE]
->  With the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus, you can create references only to items in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.
+> With the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus, you can create references only to items in the same [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.
 
 ### Import the exposed DSL assemblies
  In the consuming project, add project references to the DSL and ModelBusAdapter assemblies of the exposed DSL.
@@ -191,7 +191,7 @@ using System.Linq;
  From the AdapterManager, you can obtain an Adapter, which provides access to individual elements in the model.
 
 > [!NOTE]
->  You must dispose an Adapter when you have finished with it. The most convenient way to achieve this is with a `using` statement. The following example illustrates this.
+> You must dispose an Adapter when you have finished with it. The most convenient way to achieve this is with a `using` statement. The following example illustrates this.
 
 ```
 // The file path of a model instance of the FamilyTree DSL:

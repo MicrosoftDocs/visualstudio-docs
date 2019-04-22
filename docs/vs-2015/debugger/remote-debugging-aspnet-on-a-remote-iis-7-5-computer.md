@@ -59,7 +59,7 @@ Once it is installed, make sure the remote debugger is running on the target mac
 1. Copy the ASP.NET project directory from the Visual Studio computer  to a local directory (which we'll call **C:\Publish**) on the Windows Server computer. You can copy the project manually, use Xcopy, Web Deploy, Robocopy, Powershell, or other options.
 
     > [!CAUTION]
-    >  If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.
+    > If you need to make changes to the code or rebuild, you must republish and repeat this step. The executable you copied to the remote machine must exactly match your local source and symbols.
 1. Make sure that the web.config file lists the correct version of the .NET Framework.  For example, the .NET Framework version installed  by default on Windows Server 2008 R2 is 4.0.30319, but we created an ASP.NET 4.5.2 version. If an ASP.NET 4.0 app is running on the Windows Server computer, you need to change the version:
   
     ```xml

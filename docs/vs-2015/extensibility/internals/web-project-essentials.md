@@ -31,7 +31,7 @@ Web projects create Web applications. You can use a Web project to create a Web 
 - The solution file for a Web project is located separately from the Web site itself. By default, solution files are located at \Documents and Settings\\*YourAccount*\My Documents\\*\<Visual Studio ####>*\Projects\\*YourWebSite*.  
   
     > [!NOTE]
-    >  If you want to keep the solution file with the Web site, just move it there and reopen it.  
+    > If you want to keep the solution file with the Web site, just move it there and reopen it.  
   
 - If you open a Web site that has no solution file in Visual Studio, a new solution file is automatically generated for it.  
   

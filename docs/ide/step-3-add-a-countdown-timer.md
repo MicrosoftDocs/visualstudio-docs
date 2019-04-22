@@ -13,7 +13,7 @@ ms.workload:
 In the third part of this tutorial, you'll add a countdown timer to track the number of seconds that remain for the quiz taker to finish.
 
 > [!NOTE]
->  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
+> This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
 ## To add a countdown timer
 
@@ -48,7 +48,7 @@ In the third part of this tutorial, you'll add a countdown timer to track the nu
      You just added an `if else` statement, which is how you tell programs to make decisions. An `if else` statement looks like the following.
 
     > [!NOTE]
-    >  The following example is for illustration only-don't add it to your project.
+    > The following example is for illustration only-don't add it to your project.
 
     ```vb
     If (something that your program will check) Then

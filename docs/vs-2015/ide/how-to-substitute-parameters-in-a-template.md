@@ -30,7 +30,7 @@ You may replace template parameters such as class names and namespaces when a fi
     ```  
   
     > [!NOTE]
-    >  Template parameters are written in the format $*parameter*$.  
+    > Template parameters are written in the format $*parameter*$.  
   
 2. In the .vstemplate file for the template, locate the `ProjectItem` element that includes this file.  
   

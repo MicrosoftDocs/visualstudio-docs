@@ -44,7 +44,7 @@ You can either download the remote tools directly on the device or server that y
 2. On the download page, choose the version of the tools that matches your operating system (x86, x64, or  ARM version) and download the remote tools.
   
     > [!IMPORTANT]
-    >  We recommend you install the most recent version of the remote tools that matches your version of Visual Studio. Mismatched versions are not recommended.  
+    > We recommend you install the most recent version of the remote tools that matches your version of Visual Studio. Mismatched versions are not recommended.  
     >   
     >  In addition, you must install the remote tools that have the same architecture as the operating system on which you want to install it. In other words, if you want to debug a 32-bit application on a remote computer running a 64-bit operating system, you must install the 64-bit version of the remote tools on the remote computer.  
   
@@ -139,7 +139,7 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
    For a listing of the port numbers used by default, see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).  
   
    > [!WARNING]
-  >  You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
+  > You can choose to run the remote tools in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk from malicious or hostile traffic.
 
 ## <a name="bkmk_configureService"></a> (Optional) Configure the remote debugger as a service
  For debugging in ASP.NET and other server environments, you must either run the remote debugger as an Administrator or, if you want it always running,  run the remote debugger as a service.
@@ -215,7 +215,7 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
 11. On the Visual Studio computer, you should see that execution is stopped at the breakpoint.  
   
     > [!TIP]
-    >  Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.  
+    > Alternatively, you can deploy the files as a separate step. In the **Solution Explorer,** right-click the **mymfc** node and then choose **Deploy**.  
   
     If you have non-code files that need to be used by the application, you need to include them in the Visual Studio project. Create a project folder for the additional files (in the **Solution Explorer**, click **Add / New Folder**.) Then add the files to the folder (in the **Solution Explorer**, click **Add / Existing Item**, then select the files.). On the **Properties** page for each file, set **Copy to Output Directory** to **Copy always**.  
   
@@ -247,7 +247,7 @@ You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Stu
 10. Copy the executable that you just built from your Visual Studio computer to the newly-created folder on the remote computer.
   
     > [!CAUTION]
-    >  Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
+    > Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
 
     You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
   

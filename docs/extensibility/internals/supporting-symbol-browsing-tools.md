@@ -40,7 +40,7 @@ ms.workload:
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetExpandable3%2A> method to determine if a given list item is expandable and has children items. If UI sends a request to expand an element, the object manager requests the child list of symbols by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetList2%2A> method. The process continues with different parts of the tree being built on demand.
 
 > [!NOTE]
->  To implement a native code symbol provider, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> interfaces.
+> To implement a native code symbol provider, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> interfaces.
 
 ## See Also
 - [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)

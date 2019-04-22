@@ -59,7 +59,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, however, provides two new reserved metadata items, Properties and AdditionalProperties, that provide you a flexible way to pass different properties for different projects being built using the [MSBuild task](../msbuild/msbuild-task.md).
 
 > [!NOTE]
->  These new metadata items are applicable only to items passed in the Projects attribute of the [MSBuild task](../msbuild/msbuild-task.md).
+> These new metadata items are applicable only to items passed in the Projects attribute of the [MSBuild task](../msbuild/msbuild-task.md).
 
 ## Multi-processor build benefits
  One of the major benefits of using this new metadata occurs when you build your projects in parallel on a multi-processor system. The metadata allows you to consolidate all projects into a single [MSBuild task](../msbuild/msbuild-task.md) call without having to perform any batching or conditional [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. And when you call only a single [MSBuild task](../msbuild/msbuild-task.md), all of the projects listed in the Projects attribute will be built in parallel. (Only, however, if the `BuildInParallel=true` attribute is present in the [MSBuild task](../msbuild/msbuild-task.md).) For more information, see [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).
@@ -68,7 +68,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
  A common scenario is when you are building multiple solution files using the [MSBuild task](../msbuild/msbuild-task.md), only using different build configurations. You may want to build solution a1 using the Debug configuration and solution a2 using the Release configuration. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, this project file would look like the following:
 
 > [!NOTE]
->  In the following example, "..." represents additional solution files.
+> In the following example, "..." represents additional solution files.
 
 ### a.proj
 

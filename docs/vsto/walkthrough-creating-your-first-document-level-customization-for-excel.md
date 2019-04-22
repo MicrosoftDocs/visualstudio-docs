@@ -100,7 +100,7 @@ ms.workload:
      **This text was added by using the designer.**
 
 > [!WARNING]
->  If you add this line of text to cell **A2**, it will be overwritten by other code in this example.
+> If you add this line of text to cell **A2**, it will be overwritten by other code in this example.
 
 ## Add text to a worksheet programmatically
  Next, add code to the Sheet1 code file. The new code uses the object model of Excel to add a second line of text to the workbook. By default, the Sheet1 code file contains the following generated code:

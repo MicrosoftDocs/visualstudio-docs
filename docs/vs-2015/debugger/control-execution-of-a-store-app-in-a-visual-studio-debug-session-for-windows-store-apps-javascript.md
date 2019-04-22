@@ -27,9 +27,9 @@ This quick start demonstrates how to navigate in the Visual Studio debugger and 
  **Debugger keyboard shortcuts.** Navigation in the Visual Studio debugger is optimized both for the mouse and the keyboard. Many of the steps in this topic include the keyboard accelerator or shortcut key in a parenthetical remark. For example, (Keyboard: F5) indicates that typing the key F5 starts or continues execution of the debugger.
 
 > [!NOTE]
->  **The Module pattern**
+> **The Module pattern**
 >
->  Windows Store apps often use the JavaScript *Module pattern* to encapsulate data and functions in a page. The Module pattern uses a single, self-executing, and anonymous closure to keep the page functionality separate from the global namespace. In this topic, we call that function the *module*.
+> Windows Store apps often use the JavaScript *Module pattern* to encapsulate data and functions in a page. The Module pattern uses a single, self-executing, and anonymous closure to keep the page functionality separate from the global namespace. In this topic, we call that function the *module*.
 
 ## In this topic
  You can learn how to:
