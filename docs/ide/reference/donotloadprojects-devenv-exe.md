@@ -34,7 +34,6 @@ The example opens ths solution MySln.sln without loading any projects.
 
 ```shell
 devenv /donotloadprojects MySln.sln
-
 ```
 
 ## See also
