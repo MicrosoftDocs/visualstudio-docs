@@ -26,15 +26,15 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  **In this topic**:
 
--   [Tour of the Tools panel](#Tools)
+- [Tour of the Tools panel](#Tools)
 
--   [Tour of the Assets panel](#Assets)
+- [Tour of the Assets panel](#Assets)
 
--   [Tour of the Objects and Timeline panel](#Objects)
+- [Tour of the Objects and Timeline panel](#Objects)
 
--   [Tour of the Properties panel](#Properties)
+- [Tour of the Properties panel](#Properties)
 
-##  <a name="Tools"></a> Tour of the Tools panel
+## <a name="Tools"></a> Tour of the Tools panel
  You can use the **Tools** panel in Blend for Visual Studio to create and modify objects in your application. You create the objects by selecting a tool and drawing on the artboard with your mouse.
 
  ![Tools panel](../designers/media/blend5toolspanel.png "Blend5Toolspanel")
@@ -50,7 +50,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [The Toolbar](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4).
 
-##  <a name="Assets"></a> Tour of the Assets panel
+## <a name="Assets"></a> Tour of the Assets panel
  You can find all controls in the **Assets** panel, similar to the **Toolbox** in Visual Studio. In addition to controls, you’ll find everything you can add to your artboard in the **Assets** panel, including styles, media, behaviors, and effects.
 
  ![Assets panel](../designers/media/blend5-assets-panel.png "Blend5_Assets_panel")
@@ -63,7 +63,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 |![](../designers/media/b1-4.png "B1_4")|**Styles** Show all the styles that are contained in the resource dictionary.|
 |![](../designers/media/b1-5.png "B1_5")|**Description** View a description of the selected assets category or subcategory.|
 
-##  <a name="Objects"></a> Tour of the Objects and Timeline panel
+## <a name="Objects"></a> Tour of the Objects and Timeline panel
  Use this panel to organize the objects on your artboard and, if you want, to animate them.
 
  ![Object and Timeline panel in animation mode](../designers/media/b5-object-timeline-animation.png "b5_object_timeline_animation")
@@ -87,13 +87,12 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 |![](../designers/media/b1-15.png "B1_15")|**Timeline zoom** Set the zoom resolution of the timeline. Zooming in lets you edit an animation with more detail, and zooming out shows more of an overview of what is happening over longer periods of time. If you zoom in but can't set a keyframe at the position in time that you want, verify that the snap resolution is set high enough.|
 |![Callout 16](../designers/media/b5-label-16.png "b5_label_16")|**Timeline composition area** View the timeline, and move keyframes around by dragging them or using their shortcut menus.|
 
-##  <a name="Properties"></a> Tour of the Properties panel
+## <a name="Properties"></a> Tour of the Properties panel
  Use this panel to view and modify the properties of an object. You can also set them directly on the artboard. If you do, the property changes will be reflected in the **Properties** panel.
 
  ![Properties panel](../designers/media/blend5-properties-panel.png "Blend5_properties_panel")
 
  **Categories** Expand and collapse categories of properties. Click **Expand** ![](../designers/media/6375953d-074c-421a-bbb3-6f5055b67b64.png "6375953d-074c-421a-bbb3-6f5055b67b64") and **Collapse** ![Collapse](../designers/media/b5-collapse-button.png "b5_collapse_button") to show or hide category details.
-
 
 |                                                                                                         |                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

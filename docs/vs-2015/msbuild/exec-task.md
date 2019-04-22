@@ -23,7 +23,6 @@ manager: jillfra
 # Exec Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Runs the specified program or command by using the specified arguments.  
   
 ## Parameters  

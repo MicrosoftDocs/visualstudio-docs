@@ -34,22 +34,22 @@ The sections in the following table include commands that are global in that you
 |[Debugger Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
 |[Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
 
-##  <a name="bkmk_global"></a> Global
+## <a name="bkmk_global"></a> Global
 
-###  <a name="bkmk_analyze"></a> Analyze
+### <a name="bkmk_analyze"></a> Analyze
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Analyze.NavigateBackward|**Shift+Alt+3**|
 |Analyze.NavigateForward|**Shift+Alt+4**|
 
-###  <a name="bkmk_architecture"></a> Architecture
+### <a name="bkmk_architecture"></a> Architecture
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Architecture.NewDiagram|**Ctrl+\\, Ctrl+N**|
 
-###  <a name="bkmk_build"></a> Build
+### <a name="bkmk_build"></a> Build
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -58,13 +58,13 @@ The sections in the following table include commands that are global in that you
 |Build.Compile|**Ctrl+F7**|
 |Build.RunCodeAnalysisonSolution|**Alt+F11**|
 
-###  <a name="bkmk_classview"></a> Class View context menus
+### <a name="bkmk_classview"></a> Class View context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties|**Alt+Enter**|
 
-###  <a name="bkmk_debug"></a> Debug
+### <a name="bkmk_debug"></a> Debug
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -132,7 +132,7 @@ The sections in the following table include commands that are global in that you
 |Debug.Watch3|**Ctrl+Alt+W, 3**|
 |Debug.Watch4|**Ctrl+Alt+W, 4**|
 
-###  <a name="bkmk_debugger"></a> Debugger context menus
+### <a name="bkmk_debugger"></a> Debugger context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -140,13 +140,13 @@ The sections in the following table include commands that are global in that you
 |DebuggerContextMenus.BreakpointsWindow.GoToDisassembly|**Alt+F9, A**|
 |DebuggerContextMenus.BreakpointsWindow.GoToSourceCode|**Alt+F9, S**|
 
-###  <a name="bkmk_diagnostics"></a> Diagnostics Hub
+### <a name="bkmk_diagnostics"></a> Diagnostics Hub
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |DiagnosticsHub.StopCollection|**Ctrl+Alt+F2**|
 
-###  <a name="bkmk_edit"></a> Edit
+### <a name="bkmk_edit"></a> Edit
 
 |Commands|Keyboard shortcuts|
 |--------------|-|
@@ -205,7 +205,7 @@ The sections in the following table include commands that are global in that you
 |Edit.SurroundWith|**Ctrl+K, Ctrl+S**|
 |Edit.Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**|
 
-###  <a name="bkmk_editorContext"></a> Editor context menus
+### <a name="bkmk_editorContext"></a> Editor context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -216,7 +216,7 @@ The sections in the following table include commands that are global in that you
 |EditorContextMenus.CodeWindow.ToggleHeaderCodeFile|**Ctrl+K, Ctrl+O** (letter 'O')|
 |EditorContextMenus.CodeWindow.ViewCallHierarchy|**Ctrl+K, Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+K, T**|
 
-###  <a name="bkmk_file"></a> File
+### <a name="bkmk_file"></a> File
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -232,7 +232,7 @@ The sections in the following table include commands that are global in that you
 |File.SaveSelectedItems|**Ctrl+S**|
 |File.ViewinBrowser|**Ctrl+Shift+W**|
 
-###  <a name="bkmk_help"></a> Help
+### <a name="bkmk_help"></a> Help
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -241,19 +241,19 @@ The sections in the following table include commands that are global in that you
 |Help.ViewHelp|**Ctrl+F1**|
 |Help.WindowHelp|**Shift+F1**|
 
-###  <a name="bkmk_loadtest"></a> Load test
+### <a name="bkmk_loadtest"></a> Load test
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |LoadTest.JumpToCounterPane|**Ctrl+R, Q**|
 
-###  <a name="bkmk_otherContext"></a> Other context menus
+### <a name="bkmk_otherContext"></a> Other context menus
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram|**Insert**|
 
-###  <a name="bkmk_project"></a> Project
+### <a name="bkmk_project"></a> Project
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -265,14 +265,14 @@ The sections in the following table include commands that are global in that you
 |Project.Publishselectedfiles|**Alt+;** then **Alt+P**|
 |Project.Replaceselectedfilesfromserver|**Alt+;** then **Alt+R**|
 
-###  <a name="bkmk_projectContext"></a> Project and solution context menus
+### <a name="bkmk_projectContext"></a> Project and solution context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |ProjectandSolutionContextMenus.Item.MoveDown|**Alt+Down Arrow**|
 |ProjectandSolutionContextMenus.Item.MoveUp|**Alt+Up Arrow**|
 
-###  <a name="bkmk_refactor"></a> Refactor
+### <a name="bkmk_refactor"></a> Refactor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -283,7 +283,7 @@ The sections in the following table include commands that are global in that you
 |Refactor.Rename|**Ctrl+R, Ctrl+R**|
 |Refactor.ReorderParameters|**Ctrl+R, Ctrl+O** (letter 'O')|
 
-###  <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
+### <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -291,7 +291,7 @@ The sections in the following table include commands that are global in that you
 |SolutionExplorer.PendingChangesFilter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**|
 |SolutionExplorer.SyncWithActiveDocument|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**|
 
-###  <a name="bkmk_team"></a> Team
+### <a name="bkmk_team"></a> Team
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -300,7 +300,7 @@ The sections in the following table include commands that are global in that you
 |Team.Git.GoToGitCommits|**Ctrl+0** (zero), **Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+0, O**|
 |Team.TeamExplorerSearch|**Ctrl+'**|
 
-###  <a name="bkmk_TFcontext"></a> Team Foundation context menus
+### <a name="bkmk_TFcontext"></a> Team Foundation context menus
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -315,14 +315,14 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.Commands.GoToWebAccess|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**|
 |TeamFoundationContextMenus.Commands.GoToWorkItems|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**|
 
-###  <a name="bkmk_test"></a> Test
+### <a name="bkmk_test"></a> Test
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Test.UseCodedUITestBuilder|**Ctrl+\\, Ctrl+C**|
 |Test.UseExistingActionRecording|**Ctrl+\\, Ctrl+A**|
 
-###  <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer
+### <a name="bkmk_testexplorerGLOBAL"></a> Test Explorer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -332,7 +332,7 @@ The sections in the following table include commands that are global in that you
 |TestExplorer.RunAllTests|**Ctrl+R, A**|
 |TestExplorer.RunAllTestsInContext|**Ctrl+R, T**|
 
-###  <a name="bkmk_tools"></a> Tools
+### <a name="bkmk_tools"></a> Tools
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -341,7 +341,7 @@ The sections in the following table include commands that are global in that you
 |Tools.ForceGC|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**|
 |Tools.GoToCommandLine|**Ctrl+/**|
 
-###  <a name="bkmk_view"></a> View
+### <a name="bkmk_view"></a> View
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -390,7 +390,7 @@ The sections in the following table include commands that are global in that you
 |View.ZoomIn|**Ctrl+Shift+.**|
 |View.ZoomOut|**Ctrl+Shift+,**|
 
-###  <a name="bkmk_window"></a> Window
+### <a name="bkmk_window"></a> Window
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -421,14 +421,14 @@ The sections in the following table include commands that are global in that you
 |Window.SolutionExplorerSearch|**Ctrl+;**|
 |Window.WindowSearch|**Alt+`**|
 
-###  <a name="bkmk_windowsazure"></a> Azure
+### <a name="bkmk_windowsazure"></a> Azure
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |WindowsAzure.RetryMobileServiceScriptOperation|**Ctrl+Num \*, Ctrl+R**|
 |WindowsAzure.ShowMobileServiceScriptErrorDetails|**Ctrl+Num \*, Ctrl+D**|
 
-##  ADO.NET Entity Data Model Designer
+## ADO.NET Entity Data Model Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -443,7 +443,7 @@ The sections in the following table include commands that are global in that you
 |View.EntityDataModelBrowser|**Ctrl+1**|
 |View.EntityDataModelMappingDetails|**Ctrl+2**|
 
-##  Class diagram
+## Class diagram
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -455,7 +455,7 @@ The sections in the following table include commands that are global in that you
 |Edit.RemovefromDiagram|**Delete**|
 |View.ViewCode|**Enter**|
 
-##  Coded UI Test Editor
+## Coded UI Test Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -466,14 +466,14 @@ The sections in the following table include commands that are global in that you
 |OtherContextMenus.UITestEditorContextMenu.Movecode|**Ctrl+Alt+C**|
 |OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod|**Ctrl+Shift+T**|
 
-##  DataSet Editor
+## DataSet Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |OtherContextMenus.ColumnContext.InsertColumn|**Insert**|
 |OtherContextMenus.DbTableContext.Add.Column|**Ctrl+L**|
 
-##  Difference Viewer
+## Difference Viewer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -489,7 +489,7 @@ The sections in the following table include commands that are global in that you
 |EditorContextMenus.CodeWindow.AddComment|**Ctrl+Shift+K**|
 |EditorContextMenus.CodeWindow.EditLocalFile|**Ctrl+Shift+P**|
 
-##  DOM Explorer
+## DOM Explorer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -497,13 +497,13 @@ The sections in the following table include commands that are global in that you
 |DOMExplorer.SelectElement|**Ctrl+B**|
 |DOMExplorer.ShowLayout|**Ctrl+Shift+I**|
 
-##  F# interactive
+## F# interactive
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation|**Ctrl+Break**|
 
-##  Graph Document Editor
+## Graph Document Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -515,7 +515,7 @@ The sections in the following table include commands that are global in that you
 |ArchitectureContextMenus.DirectedGraphContextMenu.Remove|**Delete**|
 |ArchitectureContextMenus.DirectedGraphContextMenu.Rename|**F2**|
 
-##  Graphics diagnostics
+## Graphics diagnostics
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -529,13 +529,13 @@ The sections in the following table include commands that are global in that you
 |Graphics.ZoomIn|**Shift+Alt+=**|
 |Graphics.ZoomOut|**Shift+Alt+-**|
 
-##  HTML Editor
+## HTML Editor
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.HTMLContext.GoToController|**Ctrl+M, Ctrl+G**|
 
-##  HTML Editor Design View
+## HTML Editor Design View
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -558,7 +558,7 @@ The sections in the following table include commands that are global in that you
 |View.ViewMarkup|**Shift+F7**|
 |Window.PreviousTab|**Ctrl+PgUp**|
 
-##  HTML Editor Source View
+## HTML Editor Source View
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -568,13 +568,13 @@ The sections in the following table include commands that are global in that you
 |View.ViewDesigner|**Shift+F7**|
 |Window.PreviousTab|**Ctrl+PgUp**|
 
-##  Layer diagram
+## Layer diagram
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.Delete|**Shift+Delete**|
 
-##  Managed Resources Editor
+## Managed Resources Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -589,7 +589,7 @@ The sections in the following table include commands that are global in that you
 |Resources.Other|**Ctrl+6**|
 |Resources.Strings|**Ctrl+1**|
 
-##  Merge Editor window
+## Merge Editor window
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -597,7 +597,7 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow|**Alt+2**|
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow|**Alt+3**|
 
-##  Microsoft SQL Server Data Tools, Schema Compare
+## Microsoft SQL Server Data Tools, Schema Compare
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -608,7 +608,7 @@ The sections in the following table include commands that are global in that you
 |SQL.SSDTSchemaCompareStop|**Alt+Break**|
 |SQL.SSDTSchemaCompareWriteUpdates|**Shift+Alt+U**|
 
-##  Microsoft SQL Server Data Tools, Table Designer
+## Microsoft SQL Server Data Tools, Table Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -619,7 +619,7 @@ The sections in the following table include commands that are global in that you
 |SQL.Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**|
 |ViewFileInScriptPanel|**Shift+Alt+PgDn**|
 
-##  Microsoft SQL Server Data Tools, T-SQL Editor
+## Microsoft SQL Server Data Tools, T-SQL Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -640,7 +640,7 @@ The sections in the following table include commands that are global in that you
 |TSqlEditorCloneQuery|**Ctrl+Alt+N**|
 |TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
-##  Microsoft SQL Server Data Tools, T-SQL PDW Editor
+## Microsoft SQL Server Data Tools, T-SQL PDW Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -655,13 +655,13 @@ The sections in the following table include commands that are global in that you
 |TSqlEditorCloneQuery|**Ctrl+Alt+N**|
 |TSqlEditorDatabaseCombo|**Shift+Alt+PgDn**|
 
-##  Page Inspector
+## Page Inspector
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |PageInspector.Minimize|**F12**|
 
-##  Query Designer
+## Query Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -674,7 +674,7 @@ The sections in the following table include commands that are global in that you
 |QueryDesigner.Results|**Ctrl+4**|
 |QueryDesigner.SQL|**Ctrl+3**|
 
-##  Query results
+## Query results
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -682,7 +682,7 @@ The sections in the following table include commands that are global in that you
 |SQL.QueryResultsRefresh|**Shift+Alt+R**|
 |SQL.QueryResultsStop|**Alt+Break**|
 
-##  Report Designer
+## Report Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -708,14 +708,14 @@ The sections in the following table include commands that are global in that you
 |Edit.TabLeft|**Shift+Tab**|
 |View.ReportData|**Ctrl+Alt+D**|
 
-##  Sequence diagram
+## Sequence diagram
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |ArchitectureDesigner.Sequence.NavigateToCode|**F12**|
 |Edit.Delete|**Shift+Del**|
 
-##  Settings Designer
+## Settings Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -724,13 +724,13 @@ The sections in the following table include commands that are global in that you
 |Edit.SelectionCancel|**Esc**|
 |View.ViewCode|**F7**|
 
-##  Solution Explorer
+## Solution Explorer
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector|**Ctrl+K, Ctrl+G**|
 
-##  Team Explorer
+## Team Explorer
 
 |Command|Keyboard Shortcut|
 |-------------| - |
@@ -755,13 +755,13 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
 |View.Refresh|**F5**|
 
-##  Test Explorer
+## Test Explorer
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |TestExplorer.OpenTest|**F12**|
 
-##  Text Editor
+## Text Editor
 
 | Commands | Keyboard shortcuts |
 | - | - |
@@ -878,38 +878,38 @@ The sections in the following table include commands that are global in that you
 | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion | **Alt+PgDn** |
 | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion | **Alt+PgUp** |
 
-##  UML activity diagram
+## UML activity diagram
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.Delete|**Shift+Del**|
 
-##  UML class diagram
+## UML class diagram
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.DeleteFromModel|**Shift+Del**|
 
-##  UML component diagram
+## UML component diagram
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.DeleteFromModel|**Shift+Del**|
 
-##  UML use case diagram
+## UML use case diagram
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.DeleteFromModel|**Shift+Del**|
 
-##  VC Accelerator Editor
+## VC Accelerator Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |Edit.NewAccelerator|**Insert**|
 |Edit.NextKeyTyped|**Ctrl+W**|
 
-##  VC Dialog Editor
+## VC Dialog Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -943,7 +943,7 @@ The sections in the following table include commands that are global in that you
 |Format.TestDialog|**Ctrl+T**|
 |Format.ToggleGuides|**Ctrl+G**|
 
-##  VC Image Editor
+## VC Image Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -985,13 +985,13 @@ The sections in the following table include commands that are global in that you
 |Image.ZoomIn|**Ctrl+Shift+.**<br /><br /> or<br /><br /> **Ctrl+Up Arrow**|
 |Image.ZoomOut|**Ctrl+Shift+,**<br /><br /> or<br /><br /> **Ctrl+Down Arrow**|
 
-##  VC String Editor
+## VC String Editor
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |Edit.NewString|**Insert**|
 
-##  View Designer
+## View Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1004,13 +1004,13 @@ The sections in the following table include commands that are global in that you
 |QueryDesigner.Results|**Ctrl+4**|
 |QueryDesigner.SQL|**Ctrl+3**|
 
-##  Visual Studio
+## Visual Studio
 
 |Command|Keyboard shortcut|
 |-------------| - |
 |OtherContextMenus.ORDesignerContext.HideMethodsPane|**Ctrl+1**|
 
-##  Windows Forms Designer
+## Windows Forms Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1039,7 +1039,7 @@ The sections in the following table include commands that are global in that you
 |Edit.SizeControlUp|**Ctrl+Shift+Up Arrow**|
 |Edit.TabLeft|**Shift+Tab**|
 
-##  Work Item Editor
+## Work Item Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1047,7 +1047,7 @@ The sections in the following table include commands that are global in that you
 |Edit.RefreshWorkItem|**F5**|
 |Team.NewLinkedWorkItem|**Shift+Alt+L**|
 
-##  Work Item Query View
+## Work Item Query View
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1058,7 +1058,7 @@ The sections in the following table include commands that are global in that you
 |Team.Refresh|**F5**|
 |Window.Toggle|**Shift+Alt+V**|
 
-##  Work Item Results View
+## Work Item Results View
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1071,7 +1071,7 @@ The sections in the following table include commands that are global in that you
 |Team.Refresh|**F5**|
 |Window.Toggle|**Shift+Alt+V**|
 
-##  Workflow Designer
+## Workflow Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1099,7 +1099,7 @@ The sections in the following table include commands that are global in that you
 |WorkflowDesigner.ZoomIn|**Ctrl+Num +**|
 |WorkflowDesigner.ZoomOut|**Ctrl+Num -**|
 
-##  XAML UI Designer
+## XAML UI Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
@@ -1121,14 +1121,14 @@ The sections in the following table include commands that are global in that you
 |View.EdgeRightMoveRight|**Ctrl+Shift+Alt+.**|
 |View.ShowPropertyMarkerMenu|**Ctrl+Spacebar**|
 
-##  XML (Text) Editor
+## XML (Text) Editor
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
 |XML.StartXSLTDebugging|**Alt+F5**|
 |XML.StartXSLTWithoutDebugging|**Ctrl+Alt+F5**|
 
-##  XML Schema Designer
+## XML Schema Designer
 
 |Commands|Keyboard shortcuts|
 |--------------| - |

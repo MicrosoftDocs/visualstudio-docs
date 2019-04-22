@@ -23,11 +23,11 @@ A settings category consists of a group of options that customize the integrated
   
  The managed package framework (MPF) supports creating settings categories with a minimum of additional code.  
   
--   You create a VSPackage to provide a container for the category by subclassing the <xref:Microsoft.VisualStudio.Shell.Package> class.  
+- You create a VSPackage to provide a container for the category by subclassing the <xref:Microsoft.VisualStudio.Shell.Package> class.  
   
--   You create the category itself by deriving it from the <xref:Microsoft.VisualStudio.Shell.DialogPage> class.  
+- You create the category itself by deriving it from the <xref:Microsoft.VisualStudio.Shell.DialogPage> class.  
   
--   You connect the two with the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.  
+- You connect the two with the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.  
   
 ## Support for Settings Categories  
  The <xref:Microsoft.VisualStudio.Shell.Package> class provides support for creating categories. The <xref:Microsoft.VisualStudio.Shell.DialogPage> class implements a category. The default implementation of <xref:Microsoft.VisualStudio.Shell.DialogPage> offers its public properties to a user as a category. For more information, see [Creating a Settings Category](../extensibility/creating-a-settings-category.md).  

@@ -44,10 +44,9 @@ N1
 
  To obtain the presentation form information, the object manager calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumPresentationNodes%2A> method.
 
-
 ## To obtain canonical and presentation forms information
 
-1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumCanonicalNodes%2A> method.
+1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumCanonicalNodes%2A> method.
 
      The object manager calls this method to obtain the list of nodes contained in the canonical path of the symbol.
 
@@ -70,7 +69,7 @@ N1
 
     ```
 
-2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumPresentationNodes%2A> method.
+2. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumPresentationNodes%2A> method.
 
      The object manager calls this method to obtain the list of nodes contained in the presentation path of the symbol.
 

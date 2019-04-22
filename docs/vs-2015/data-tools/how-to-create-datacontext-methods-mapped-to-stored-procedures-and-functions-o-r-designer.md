@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] as <xref:System.Data.Linq.DataContext> methods. Calling the method and passing in the required parameters runs the stored procedure or function on the database and returns the data in the return type of the <xref:System.Data.Linq.DataContext> method. For detailed information about <xref:System.Data.Linq.DataContext> methods, see [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).  
   
 > [!NOTE]
@@ -29,17 +28,17 @@ Stored procedures and functions can be added to the [!INCLUDE[vs_ordesigner_shor
   
 #### To create DataContext methods that return automatically generated types  
   
-1.  In **Server Explorer**/**Database Explorer**, expand the **Stored Procedures** node of the database you are working with.  
+1. In **Server Explorer**/**Database Explorer**, expand the **Stored Procedures** node of the database you are working with.  
   
-2.  Locate the desired stored procedure and drag it onto an empty area of the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+2. Locate the desired stored procedure and drag it onto an empty area of the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
      The <xref:System.Data.Linq.DataContext> method is created with an automatically generated return type and appears in the **Methods** pane.  
   
 #### To create DataContext methods that have the return type of an entity class  
   
-1.  In **Server Explorer**/**Database Explorer**, expand the **Stored Procedures** node of the database you are working with.  
+1. In **Server Explorer**/**Database Explorer**, expand the **Stored Procedures** node of the database you are working with.  
   
-2.  Locate the desired stored procedure and drag it onto an existing entity class in the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+2. Locate the desired stored procedure and drag it onto an existing entity class in the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
      The <xref:System.Data.Linq.DataContext> method is created with the return type of the selected entity class and appears in the **Methods** pane.  
   

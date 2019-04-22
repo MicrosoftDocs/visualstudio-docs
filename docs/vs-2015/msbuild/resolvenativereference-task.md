@@ -23,7 +23,6 @@ manager: jillfra
 # ResolveNativeReference Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure which is not intended to be used directly from your code.  
   
 ## Task Parameters  

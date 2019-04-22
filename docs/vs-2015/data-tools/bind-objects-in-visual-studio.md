@@ -23,7 +23,6 @@ manager: jillfra
 # Bind objects in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Frameworkautogenerates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object.    For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).
 
 > [!TIP]
@@ -37,17 +36,17 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ## Examples of using custom objects as data sources
  While there are countless ways to implement your application logic when working with objects as a data source, for SQL databases there are a few standard operations that can be simplified by using the Visual Studio–generated TableAdapter objects. This page explains how to implement these standard processes using TableAdapters.It is not intended as a guide for creating your custom objects. For example, you will typically perform the following standard operations regardless of the specific implementation of your objects, or application's logic:
 
--   Loading data into objects (typically from a database).
+- Loading data into objects (typically from a database).
 
--   Creating a typed collection of objects.
+- Creating a typed collection of objects.
 
--   Adding objects to and removing objects from a collection.
+- Adding objects to and removing objects from a collection.
 
--   Displaying the object data to users on a form.
+- Displaying the object data to users on a form.
 
--   Changing/editing the data in an object.
+- Changing/editing the data in an object.
 
--   Saving data from objects back to the database.
+- Saving data from objects back to the database.
 
 > [!NOTE]
 >  In order to better understand, and provide context for the examples on this page, we suggest that you complete the following: [Walkthrough: Connecting to Data in Objects (Windows Forms)](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05). That walkthrough creates the objects discussed here.

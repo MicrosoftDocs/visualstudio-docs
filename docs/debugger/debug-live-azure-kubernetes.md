@@ -29,9 +29,9 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* Snapshot Debugger for Azure Kubernetes Services is only available for Visual Studio 2019 Enterprise preview or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
+* Snapshot Debugger for Azure Kubernetes Services is only available for Visual Studio 2019 Enterprise or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    If it's not already installed, install [Visual Studio 2019 Enterprise preview](https://visualstudio.microsoft.com/vs/preview/).
+    If it's not already installed, install [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/).
 
 * Snapshot collection is available for the following Azure Kubernetes Services web apps:
   * ASP.NET Core applications running on .NET Core 2.2 or later on Debian 9.

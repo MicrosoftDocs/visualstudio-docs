@@ -78,21 +78,20 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                                  Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                                   |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                                     Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                                     |
 
-
 8. Attach the profiler to the service. Type:  
 
     **VSPerfCmd**  [/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [[/targetclr](../profiling/targetclr.md)**:**`Version`]  
 
-   -   Specify either the process ID or the process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.  
+   - Specify either the process ID or the process name of the service. You can view the process IDs and names of all running processes in Windows Task Manager.  
 
-   -   **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
+   - **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
 
 ## Controlling Data Collection  
  While the service is running, you can use **VSPerfCmd.exe** options to stop and start the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of the program execution, such as starting or shutting down the application.  
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -105,23 +104,23 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Do one of the following to detach the profiler from the target application:  
+1. Do one of the following to detach the profiler from the target application:  
 
-    -   Stop the service.  
+    - Stop the service.  
 
          -or-  
 
-    -   Type **VSPerfCmd /detach**  
+    - Type **VSPerfCmd /detach**  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  (Optional) Clear the profiling environment variables. Type:  
+3. (Optional) Clear the profiling environment variables. Type:  
 
      **VSPerfClrEnv /globaloff**  
 
-4.  Restart the computer.  
+4. Restart the computer.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

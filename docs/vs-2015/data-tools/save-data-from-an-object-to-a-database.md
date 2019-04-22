@@ -22,7 +22,6 @@ manager: jillfra
 # Save data from an object to a database
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can save data in objects to a database by passing the values from your object to one of the TableAdapter's DBDirect methods (for example, `TableAdapter.Insert`).
   
  To save data from a collection of objects, loop through the collection of objects (for example, a for-next loop), and send the values for each object to the database by using one of the TableAdapter's DBDirect methods.  
@@ -40,7 +39,7 @@ You can save data in objects to a database by passing the values from your objec
   
 ### To save new records from an object to a database  
   
--   Create the records by passing the values to the `TableAdapter.Insert` method.  
+- Create the records by passing the values to the `TableAdapter.Insert` method.  
   
      The following example creates a new customer record in the `Customers` table by passing the values in the `currentCustomer` object to the `TableAdapter.Insert` method.  
   
@@ -49,7 +48,7 @@ You can save data in objects to a database by passing the values from your objec
   
 ### To update existing records from an object to a database  
   
--   Modify the records by calling the `TableAdapter.Update` method, passing in the new values to update the record, and passing in the original values to locate the record.  
+- Modify the records by calling the `TableAdapter.Update` method, passing in the new values to update the record, and passing in the original values to locate the record.  
   
     > [!NOTE]
     >  Your object needs to maintain the original values in order to pass them to the `Update` method. This example uses properties with an `orig` prefix to store the original values.  
@@ -61,7 +60,7 @@ You can save data in objects to a database by passing the values from your objec
   
 ### To delete existing records from a database  
   
--   Delete the records by calling the `TableAdapter.Delete` method and passing in the original values to locate the record.  
+- Delete the records by calling the `TableAdapter.Delete` method and passing in the original values to locate the record.  
   
     > [!NOTE]
     >  Your object needs to maintain the original values in order to pass them to the `Delete` method. This example uses properties with an `orig` prefix to store the original values.  

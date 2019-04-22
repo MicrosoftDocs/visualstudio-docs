@@ -13,7 +13,6 @@ manager: jillfra
 # Graph View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.  
   
  The following image shows the Graph View with six global nodes on its design surface.  
@@ -110,11 +109,11 @@ The Graph View provides a graphic representation of global schema nodes and the 
 ## Undo/Redo  
  The undo/redo capability is enabled in the Graph View for the following actions:  
   
--   Adding a single node by dragging and dropping.  
+- Adding a single node by dragging and dropping.  
   
--   Adding multiple nodes from the search results window in Schema Explorer or Start View queries.  
+- Adding multiple nodes from the search results window in Schema Explorer or Start View queries.  
   
--   Deleting single or multiple nodes.  
+- Deleting single or multiple nodes.  
   
 ## Zoom  
  Zoom is available in the lower right corner of the Graph View.  

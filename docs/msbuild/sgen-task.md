@@ -25,7 +25,6 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 ## Parameters
  The following table describes the parameters of the `SGen` task.
 
-
 | Parameter | Description |
 |-----------------------------| - |
 | `BuildAssemblyName` | Required `String` parameter.<br /><br /> The assembly to generate serialization code for. |

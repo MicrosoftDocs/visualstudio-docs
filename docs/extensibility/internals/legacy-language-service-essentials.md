@@ -36,7 +36,6 @@ You must provide a language service to integrate a programming language into Vis
 
  The following features are related to support for programming languages but are not part of language services:
 
-
 | Feature | Description |
 |-----------------------| - |
 | Expression evaluators | Supports the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger by validating breakpoints and supplying a list of expressions to be displayed in the **Autos** debug window.<br /><br /> For more information, see [Language Service Support for Debugging](../../extensibility/internals/language-service-support-for-debugging.md). |

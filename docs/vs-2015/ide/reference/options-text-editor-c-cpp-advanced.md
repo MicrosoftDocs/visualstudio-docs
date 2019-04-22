@@ -19,7 +19,6 @@ manager: jillfra
 # Options, Text Editor, C/C++, Advanced
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  
   
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Advanced**.  
@@ -68,19 +67,19 @@ By changing these options, you can change the behavior related to IntelliSense a
   
  Set by using a sum of any of the following options:  
   
--   0 - None  
+- 0 - None  
   
--   1 - General  
+- 1 - General  
   
--   2 - Idle  
+- 2 - Idle  
   
--   4 - WorkItem  
+- 4 - WorkItem  
   
--   8 - IntelliSense  
+- 8 - IntelliSense  
   
--   16 - ACPerf  
+- 16 - ACPerf  
   
--   32 - ClassView  
+- 32 - ClassView  
   
 ## Fallback Location  
  The fallback location is where the SDF and IntelliSense support files (for example, iPCH) are put when the primary location (same directory as solution) isn't used. This situation could occur the user doesn't have the permissions to write to the solution directory or the solution directory is on a slow device. The default fallback location is in the user’s temp directory.  

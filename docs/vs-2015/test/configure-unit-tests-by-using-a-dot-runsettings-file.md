@@ -37,7 +37,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
   
    ![Enabling a run settings file](../test/media/runsettings-1.png "RunSettings-1")  
   
-##  <a name="example"></a> Copy this example .runsettings file  
+## <a name="example"></a> Copy this example .runsettings file  
  Here is a typical *.runsettings file. Each element of the file is optional, because every value has a default.  
   
 ```xml  

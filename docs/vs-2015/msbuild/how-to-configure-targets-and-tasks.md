@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Configure Targets and Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.  
   
 > [!NOTE]
@@ -22,11 +21,11 @@ Selected MSBuild tasks can be set to run in the environment they target, regardl
 ## UsingTask Attributes and Task Parameters  
  The following `UsingTask` attributes affect all operations of a task in a particular build process:  
   
--   The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, or `*` (any runtime).  
+- The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, or `*` (any runtime).  
   
--   The `Architecture` attribute, if present, sets the platform and bitness, and can take any one of these values: `x86`, `x64`, `CurrentArchitecture`, or `*` (any architecture).  
+- The `Architecture` attribute, if present, sets the platform and bitness, and can take any one of these values: `x86`, `x64`, `CurrentArchitecture`, or `*` (any architecture).  
   
--   The `TaskFactory` attribute, if present, sets the task factory that creates and runs the task instance, and takes only the value `TaskHostFactory`. For more information, see the Task Factories section later in this document.  
+- The `TaskFactory` attribute, if present, sets the task factory that creates and runs the task instance, and takes only the value `TaskHostFactory`. For more information, see the Task Factories section later in this document.  
   
 ```  
 <UsingTask TaskName="SimpleTask"   

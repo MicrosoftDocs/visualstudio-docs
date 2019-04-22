@@ -18,7 +18,6 @@ manager: jillfra
 # Debug Page, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 > [!WARNING]
 >  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Dev Center.  
   

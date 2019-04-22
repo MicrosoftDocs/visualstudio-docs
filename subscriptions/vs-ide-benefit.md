@@ -13,7 +13,6 @@ searchscope: VS Subscription
 
 As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.
 
-
 ## Activation steps
 
 *(Visual Studio Enterprise is used for this example.)*
@@ -70,12 +69,10 @@ To download the IDE:
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
-
 ## Support resources
--  Need help with Visual Studio IDE, check out these resources:
+- Need help with Visual Studio IDE, check out these resources:
     - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
     - [Documentation](/visualstudio/)
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).

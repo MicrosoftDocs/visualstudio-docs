@@ -22,13 +22,13 @@ manager: jillfra
   
  This implementation of `IDebugExpressionEvaluator::GetMethodProperty` performs the following tasks:  
   
-1.  Calls [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md), passing in the [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) object. The symbol provider (SP) returns an [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) representing the method that contains the specified address.  
+1. Calls [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md), passing in the [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) object. The symbol provider (SP) returns an [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) representing the method that contains the specified address.  
   
-2.  Obtains the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) from the `IDebugContainerField`.  
+2. Obtains the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) from the `IDebugContainerField`.  
   
-3.  Instantiates a class (called `CFieldProperty` in this example) that implements the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface and contains the `IDebugMethodField` object returned from the SP.  
+3. Instantiates a class (called `CFieldProperty` in this example) that implements the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface and contains the `IDebugMethodField` object returned from the SP.  
   
-4.  Returns the `IDebugProperty2` interface from the `CFieldProperty` object.  
+4. Returns the `IDebugProperty2` interface from the `CFieldProperty` object.  
   
 ## Managed Code  
  This example shows an implementation of `IDebugExpressionEvaluator::GetMethodProperty` in managed code.  

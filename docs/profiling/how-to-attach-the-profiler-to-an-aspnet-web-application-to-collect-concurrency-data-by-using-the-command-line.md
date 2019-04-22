@@ -39,21 +39,20 @@ To get the path to the profiling tools, see [Specify the path to command line to
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. The default value is 500. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
-
 2. Start the ASP.NET application in the typical way.
 
 3. Attach the profiler to the ASP.NET worker process by typing the following command:**VSPerfCmd /attach:**`PID` [**/targetclr:**`Version`]
 
-   -   `PID` specifies the ID or name of the ASP.NET worker process. You can view the process IDs of all running processes in Windows Task Manager.
+   - `PID` specifies the ID or name of the ASP.NET worker process. You can view the process IDs of all running processes in Windows Task Manager.
 
-   -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. This parameter is optional.
+   - [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. This parameter is optional.
 
 ## Control data collection
  While the application is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.
 
 #### To start and stop data collection
 
--   The pairs of VSPerfCmd options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The pairs of VSPerfCmd options in the following table start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -66,11 +65,11 @@ To get the path to the profiling tools, see [Specify the path to command line to
 
 #### To end a profiling session
 
-1.  Detach the profiler from the target application by closing it or by typing the following at a command prompt:
+1. Detach the profiler from the target application by closing it or by typing the following at a command prompt:
 
      **VSPerfCmd /detach**
 
-2.  Shut down the profiler by typing the following command at a command prompt:
+2. Shut down the profiler by typing the following command at a command prompt:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 

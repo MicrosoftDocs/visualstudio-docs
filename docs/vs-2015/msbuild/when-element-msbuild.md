@@ -23,7 +23,6 @@ manager: jillfra
 # When Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Specifies a possible block of code for the `Choose` element to select.  
   
  \<Project>  

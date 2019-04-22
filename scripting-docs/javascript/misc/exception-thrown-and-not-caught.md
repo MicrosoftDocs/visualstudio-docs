@@ -20,11 +20,11 @@ You included a `throw` statement in your code, but it was not enclosed within a 
   
 ### To correct this error  
   
--   Enclose code that can throw an exception in a **try** block, and ensure there is a corresponding **catch** block.  
+- Enclose code that can throw an exception in a **try** block, and ensure there is a corresponding **catch** block.  
   
--   Make sure your catch statement expects the correct form of exception.  
+- Make sure your catch statement expects the correct form of exception.  
   
--   If the exception is rethrown, make sure there is another corresponding catch statement.  
+- If the exception is rethrown, make sure there is another corresponding catch statement.  
   
 ## See Also  
  [Error Object](../../javascript/reference/error-object-javascript.md)   

@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Select the Files to Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you build a project that contains several files, you can list each file separately in the project file, or you can use wildcards to include all the files in one directory or a nested set of directories.  
   
 ## Specifying Inputs  
@@ -27,7 +26,7 @@ When you build a project that contains several files, you can list each file sep
   
 #### To declare items individually  
   
--   Use the `Include` attributes similar to following:  
+- Use the `Include` attributes similar to following:  
   
      `<CSFile Include="form1.cs"/>`  
   
@@ -40,7 +39,7 @@ When you build a project that contains several files, you can list each file sep
   
 #### To declare multiple items  
   
--   Use the `Include` attributes similar to following:  
+- Use the `Include` attributes similar to following:  
   
      `<CSFile Include="form1.cs;form2.cs"/>`  
   
@@ -61,19 +60,19 @@ When you build a project that contains several files, you can list each file sep
   
 #### To include all .jpg files in the Images directory and subdirectories  
   
--   Use the following `Include` attribute:  
+- Use the following `Include` attribute:  
   
      `Include="Images\**\*.jpg"`  
   
 #### To include all .jpg files starting with "img"  
   
--   Use the following `Include` attribute:  
+- Use the following `Include` attribute:  
   
      `Include="Images\**\img*.jpg"`  
   
 #### To include all files in directories with names ending in "jpgs"  
   
--   Use one of the following `Include` attributes:  
+- Use one of the following `Include` attributes:  
   
      `Include="Images\**\*jpgs\*.*"`  
   
@@ -86,7 +85,7 @@ When you build a project that contains several files, you can list each file sep
   
 #### To use all Visual C# or Visual Basic files as inputs  
   
--   Use the `Include` attributes similar to the following:  
+- Use the `Include` attributes similar to the following:  
   
      `<CSC Sources="@(CSFile)">...</CSC>`  
   

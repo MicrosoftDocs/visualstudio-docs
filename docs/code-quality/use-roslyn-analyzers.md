@@ -102,42 +102,42 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 There are multiple ways to suppress rule violations:
 
-- To suppress all current violations, select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. This is sometimes referred to as "baselining".
+- From the **Analyze** menu
 
-- To suppress a diagnostic from **Solution Explorer**, set its severity to **None**.
+   Select **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar to suppress all current violations. This is sometimes referred to as "baselining".
 
-- To suppress a diagnostic from the rule set editor, uncheck the box next to its name, or set **Action** to **None**.
+- From **Solution Explorer**
 
-- To suppress a diagnostic from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAxxxx** > **In Source** or **Suppress CAxxxx** > **In Suppression File**.
+   To suppress a violation in **Solution Explorer**, set the rule's severity to **None**.
+
+- From the **rule set editor**
+
+   To suppress a violation from the rule set editor, uncheck the box next to its name or set **Action** to **None**.
+
+- From the **code editor**
+
+   To suppress a violation from the code editor, place the cursor in the line of code with the violation and press **Ctrl**+**.** to open the **Quick Actions** menu. Select **Suppress CAXXXX** > **in Source/in Suppression File**.
 
    ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
-- To suppress a diagnostic from the **Error List**, see [Suppress violations from the Error List](#suppress-violations-from-the-error-list).
+- From the **Error List**
 
-### Suppress violations from the Error List
+   You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source/In Suppression File**.
 
-You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
+   - If you suppress **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
-- If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
+      ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
 
-   ![Preview of adding #pragma warning in code file](media/pragma-warning-preview.png)
+   - If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
 
-- If you select **In Suppression File**, the **Preview Changes** dialog opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute that's added to the global suppressions file.
+      ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
 
-   ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
+   In the **Preview Changes** dialog, select **Apply**.
 
-In the **Preview Changes** dialog, select **Apply**.
-
-The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. However, diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources, and can be suppressed from the **Error List**. If the suppression option is disabled in the right-click, or context, menu, it's likely because you have one or more build diagnostics in your selection. To exclude the build diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
-
-![Error List source filter in Visual Studio](media/error-list-filter.png)
-
-> [!NOTE]
-> In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project:
->
-> ```xml
-> <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
-> ```
+   > [!NOTE]
+   > If you don't see the **Suppress** menu option in **Solution Explorer**, the violation is likely coming from build and not live analysis. The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can be suppressed from the **Error List**. To exclude *build* diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
+   >
+   > ![Error List source filter in Visual Studio](media/error-list-filter.png)
 
 ## Command-line usage
 
@@ -163,6 +163,14 @@ msbuild myproject.csproj /target:rebuild /verbosity:minimal
 The following image shows the command-line build output from building a project that contains an analyzer rule violation:
 
 ![MSBuild output with rule violation](media/command-line-build-analyzers.png)
+
+## Dependent projects
+
+In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project by setting the **PrivateAssets** attribute:
+
+```xml
+<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.0" PrivateAssets="all" />
+```
 
 ## See also
 

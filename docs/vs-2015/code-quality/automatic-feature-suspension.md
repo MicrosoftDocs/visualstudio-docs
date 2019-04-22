@@ -23,11 +23,11 @@ If your available system memory falls to 200MB or less, Visual Studio displays t
 
  In a low memory condition, the following occurs:
 
--   Full solution analysis for Visual C# and Visual Basic is disabled.
+- Full solution analysis for Visual C# and Visual Basic is disabled.
 
--   [Garbage Collection](http://msdn.microsoft.com/library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) (GC) low-latency mode for Visual C# and Visual Basic are disabled.
+- [Garbage Collection](http://msdn.microsoft.com/library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) (GC) low-latency mode for Visual C# and Visual Basic are disabled.
 
--   Visual Studio caches are flushed.
+- Visual Studio caches are flushed.
 
 ## Improve Visual Studio performance
  For tips and tricks on how to improve Visual Studio performance when dealing with large solutions or low-memory conditions, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
@@ -42,11 +42,11 @@ If your available system memory falls to 200MB or less, Visual Studio displays t
 
 All Visual Studio caches are immediately emptied, but will begin to repopulate if you continue your current development session or restart Visual Studio. The caches flushed include caches for the following features.
 
--   Find all references
+- Find all references
 
--   Navigate To
+- Navigate To
 
--   Add Using
+- Add Using
 
 In addition, caches used for internal Visual Studio operations are also cleared.
 

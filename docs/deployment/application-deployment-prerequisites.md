@@ -65,7 +65,6 @@ To have your application to install and run successfully, first install all comp
 
  If you change any bootstrapper options, you must change the unsigned bootstrapper and then later sign the bootstrapper file.
 
-
 | Command-line argument | Description |
 | - | - |
 | **-?, -h, -help** | Displays a Help dialog box. |

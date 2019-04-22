@@ -26,9 +26,9 @@ When you use [!INCLUDE[wfd1](../includes/wfd1-md.md)], you can set breakpoints o
   
 ### To set a breakpoint on an activity in the Design View  
   
-1.  Select the activity you want the debugger to break on.  
+1. Select the activity you want the debugger to break on.  
   
-2.  On the **Debug** menu, select **Toggle Breakpoint**. A red icon will appear at the top left edge of the activity.  
+2. On the **Debug** menu, select **Toggle Breakpoint**. A red icon will appear at the top left edge of the activity.  
   
      Alternatively, you can also press the shortcut **F9** key after selecting the activity or you can right-click the activity and select **Breakpoint** then **Insert Breakpoint** from the context menu.  
   

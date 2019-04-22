@@ -17,19 +17,19 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
 
  A port supplier supplies ports and implements them. Therefore, it must run the following interfaces:
 
--   [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md)
+- [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md)
 
      Describes the port and enumerates all processes running on the port.
 
--   [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md)
+- [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md)
 
      Provides for launching and terminating processes on the port.
 
--   [IDebugPortNotify2](../../extensibility/debugger/reference/idebugportnotify2.md)
+- [IDebugPortNotify2](../../extensibility/debugger/reference/idebugportnotify2.md)
 
      Provides a mechanism for programs running within this port's context to notify it of program node creation and destruction. For more information, see [Program nodes](../../extensibility/debugger/program-nodes.md).
 
--   `IConnectionPointContainer`
+- `IConnectionPointContainer`
 
      Provides a connection point for [IDebugPortEvents2](../../extensibility/debugger/reference/idebugportevents2.md).
 
@@ -40,37 +40,37 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
 
  Because a port can launch and terminate both physical processes and logical programs, the following interfaces must also be implemented by the debug engine:
 
--   [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)
+- [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)
 
      Describes the physical process. At least the following methods must be implemented:
 
-    -   [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)
+    - [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)
 
-    -   [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)
+    - [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)
 
-    -   [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)
+    - [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)
 
-    -   [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
+    - [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)
 
-    -   [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)
+    - [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)
 
-    -   [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)
+    - [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)
 
--   [IDebugProcessEx2](../../extensibility/debugger/reference/idebugprocessex2.md)
+- [IDebugProcessEx2](../../extensibility/debugger/reference/idebugprocessex2.md)
 
      Provides a way for the SDM to attach and detach itself from a process.
 
--   [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)
+- [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)
 
      Describes the logical program. At least the following methods must be implemented:
 
-    -   [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)
+    - [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)
 
-    -   [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)
+    - [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)
 
-    -   [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)
+    - [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)
 
--   [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md)
+- [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md)
 
      Provides a way for the SDM to attach to this program.
 

@@ -32,9 +32,9 @@ manager: "wpickett"
 ## Rule Description
  Either of the following scenarios violates this rule occurs:
 
--   The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
+- The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
 
--   The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
+- The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
 
 ## How to Fix Violations
  You can fix this violation by using `IntPtr` or `UIntPtr` to represent handles instead of `Int32` or `UInt32`.

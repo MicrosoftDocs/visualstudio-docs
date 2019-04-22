@@ -34,7 +34,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv /sampleon** [**/samplelineoff**]
 
-   -   The **/samplelineoff** option disables the collection of source code line number data.
+   - The **/samplelineoff** option disables the collection of source code line number data.
 
 3. Start the profiler. Type:
 
@@ -54,18 +54,17 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
-
 4. If necessary, start the target application in the typical way.
 
 5. Attach the profiler to the target application. Type:
 
     **VSPerfCmd /attach:**{`PID`&#124;`ProcessName`} [`Sample Event`] [**/targetclr:**`Version`]
 
-   -   `PID` specifies the process ID of the target application. `ProcessName` specifies the name of the process. Note that if you specify `ProcessName` and multiple processes that have the same name are running, results are unpredictable. You can view the process IDs of all running processes in Windows Task Manager.
+   - `PID` specifies the process ID of the target application. `ProcessName` specifies the name of the process. Note that if you specify `ProcessName` and multiple processes that have the same name are running, results are unpredictable. You can view the process IDs of all running processes in Windows Task Manager.
 
-   -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
+   - [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
 
-   -   By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately one time every 10 seconds on a 1GH processor. You can specify one of the following options to change the clock cycle interval or to specify a different sampling event.[/targetclr](../profiling/targetclr.md)**:**`Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.
+   - By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately one time every 10 seconds on a 1GH processor. You can specify one of the following options to change the clock cycle interval or to specify a different sampling event.[/targetclr](../profiling/targetclr.md)**:**`Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.
 
    |||
    |-|-|
@@ -75,14 +74,12 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    |[/sys](../profiling/sys-vsperfcmd.md) [**:**`Interval`]|Changes the sampling event to system calls from the process to the operating system kernel (syscalls). If `Interval` is specified, sets the number of calls between samples. Default is 10.|
    |[/counter](../profiling/counter.md) **:** `Config`|Changes the sampling event and interval to the processor performance counter and interval that are specified in `Config`.|
 
-
-
 ## Control data collection
  When the target application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.
 
 #### To start and stop data collection
 
--   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -95,19 +92,19 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Perform one of the following steps to detach the profiler from the target application:
+1. Perform one of the following steps to detach the profiler from the target application:
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
          -or-
 
-    -   Close the target application.
+    - Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 
-3.  (Optional) Clear the profiling environment variables. Type:
+3. (Optional) Clear the profiling environment variables. Type:
 
      **VSPerfClrEnv /off**
 

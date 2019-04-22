@@ -44,7 +44,6 @@ HKEY_LOCAL_MACHINE\Software\VisualStudio\<Version>\
 
  The following table describes the fields of \<*Resource Information*>.
 
-
 | Element | Description |
 |---------------------------| - |
 | \<*Path to Resource DLL*> | This is the full path to the resource DLL that contains the menu resource or this is left blank, indicating that the VSPackage's resource DLL is to be used (as specified in the Packages subkey where the VSPackage itself is registered).<br /><br /> It is customary to leave this field blank. |

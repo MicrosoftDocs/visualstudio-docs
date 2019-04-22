@@ -24,23 +24,23 @@ You can use customized web performance test request plug-ins with the web perfor
 
 ## To create a request-level plug-in
 
-1.  In **Solution Explorer**, right-click the solution, select **Add** and then choose **New Project**.
+1. In **Solution Explorer**, right-click the solution, select **Add** and then choose **New Project**.
 
 2. Create a new **Class Library** project.
 
-3.  In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
+3. In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
 
      The **Add Reference** dialog box is displayed.
 
-4.  Choose the **.NET** tab, scroll down, select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**
+4. Choose the **.NET** tab, scroll down, select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**
 
      The reference to **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added to the **Reference** folder in **Solution Explorer**.
 
-5.  In **Solution Explorer**, right-click the top node of the web performance and load test project that contains the load test to which you want to add the web performance test request test plug-in. Select **Add Reference**.
+5. In **Solution Explorer**, right-click the top node of the web performance and load test project that contains the load test to which you want to add the web performance test request test plug-in. Select **Add Reference**.
 
      The **Add Reference dialog box is displayed**.
 
-6.  Choose the **Projects** tab, select the **Class Library Project** and then choose **OK** .
+6. Choose the **Projects** tab, select the **Class Library Project** and then choose **OK** .
 
 7. In the **Code Editor**, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>.
 

@@ -19,17 +19,17 @@ ms.workload:
 # Debug SharePoint solutions
   You can debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. When you start debugging, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the project files to the SharePoint server and then opens an instance of the SharePoint site in the Web browser. The following sections explain how to debug SharePoint applications in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
--   [Enable debugging](#enable-debugging)
+- [Enable debugging](#enable-debugging)
 
--   [F5 debug and deployment process](#f5-debug-and-deployment-process)
+- [F5 debug and deployment process](#f5-debug-and-deployment-process)
 
--   [SharePoint project features](#sharepoint-project-features)
+- [SharePoint project features](#sharepoint-project-features)
 
--   [Debug workflows](#debug-workflows)
+- [Debug workflows](#debug-workflows)
 
--   [Debug feature event receivers](#debug-feature-event-receivers)
+- [Debug feature event receivers](#debug-feature-event-receivers)
 
--   [Enable ehanced debugging information](#enable-enhanced-debugging-information)
+- [Enable ehanced debugging information](#enable-enhanced-debugging-information)
 
 ## Enable debugging
  When you first debug a SharePoint solution in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], a dialog box alerts you that the web.config file is not configured to enable debugging. (The web.config file is created when you install SharePoint server. For more information, see [Working with Web.config Files](http://go.microsoft.com/fwlink/?LinkID=149266).) The dialog box gives you the option of either running the project without debugging or modifying the web.config file to enable debugging. If you choose the first option, the project runs normally. If you choose the second option, the web.config file is configured to:
@@ -71,11 +71,11 @@ ms.workload:
 
  To reverse the changes and disable debugging, change the following [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] in the web.config file:
 
--   Turn off the call stack (`CallStack="false"`)
+- Turn off the call stack (`CallStack="false"`)
 
--   Enable custom errors in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (`<customErrors mode="On" />`)
+- Enable custom errors in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (`<customErrors mode="On" />`)
 
--   Disable compilation debugging (`<compilation debug="false">`)
+- Disable compilation debugging (`<compilation debug="false">`)
 
 ## F5 debug and deployment process
  When you run your SharePoint project in debug mode, the SharePoint deployment process performs the following tasks:

@@ -16,13 +16,13 @@ ms.workload:
 # IDebugProperty3
 This interface provides support for:
 
--   Retrieving an arbitrarily long string associated with the property.
+- Retrieving an arbitrarily long string associated with the property.
 
--   Associating a unique ID with the property.
+- Associating a unique ID with the property.
 
--   Retrieving a list of custom viewers for the property.
+- Retrieving a list of custom viewers for the property.
 
--   Setting the value of a property with the ability to report any resulting errors
+- Setting the value of a property with the ability to report any resulting errors
 
 ## Syntax
 

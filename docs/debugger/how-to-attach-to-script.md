@@ -28,21 +28,21 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
 
 2. In the **Attach to Process** dialog box, look at the **Available Processes** list and find the script process you want to attach to. You can identify script processes by looking at the **Type** column.
 
-   1.  If the process you want to debug is running on another computer, you must first select the remote computer.
+   1. If the process you want to debug is running on another computer, you must first select the remote computer.
 
-   2.  If the process is running under a different user account, select the **Show processes from all users** check box.
+   2. If the process is running under a different user account, select the **Show processes from all users** check box.
 
-   3.  If you are connected through **Remote Desktop Connection**, select the **Show processes in all sessions** check box.
+   3. If you are connected through **Remote Desktop Connection**, select the **Show processes in all sessions** check box.
 
 3. Click the process you want to attach to.
 
 4. In the **Attach to** box, you should see **Script code** or **Automatic: Script code**. If you see anything else, follow these steps:
 
-   1.  Click **Select**.
+   1. Click **Select**.
 
-   2.  In the **Select Code Type** dialog box, click **Debug these code types** and select **Script**.
+   2. In the **Select Code Type** dialog box, click **Debug these code types** and select **Script**.
 
-   3.  Click **OK**.
+   3. Click **OK**.
 
 5. Click **Attach**.
 

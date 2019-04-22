@@ -25,20 +25,20 @@ ms.workload:
 
 #### To open the Package Designer
 
--   In **Solution Explorer**, double-click **Package**, or choose **View Designer** on the shortcut menu for **Package**.
+- In **Solution Explorer**, double-click **Package**, or choose **View Designer** on the shortcut menu for **Package**.
 
 ## View the packaged manifestfFile
  You can use the Package Designer to modify and generate the packaged manifest file. Then, you can view the XML code for this file in Visual Studio.
 
 #### To view the XML source file
 
-1.  In the **Package Designer**, choose **Manifest**.
+1. In the **Package Designer**, choose **Manifest**.
 
 #### To view the packaged manifest file by using Solution Explorer
 
-1.  In **Solution Explorer**, choose **Show All Files**.
+1. In **Solution Explorer**, choose **Show All Files**.
 
-2.  Expand Package, expand Package.package, and then open the *Package.Template.xml* file.
+2. Expand Package, expand Package.package, and then open the *Package.Template.xml* file.
 
     > [!NOTE]
     >  When you open the manifest XML file for the package template, the files are automatically validated, and you can ignore the warnings that appear in the Error List window.
@@ -48,13 +48,13 @@ ms.workload:
 
 #### To change the manifest template by using the XML Editor
 
-1.  In the **Package Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then choose the **Open in XML Editor** link.
+1. In the **Package Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then choose the **Open in XML Editor** link.
 
      Changes to the XML are merged into the packaged manifest file.
 
 #### To change the manifest template by using the Manifest Template pane
 
-1.  In the **Package Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then change the XML that appears in the Manifest Template pane.
+1. In the **Package Designer**, choose the **Manifest** tab, expand the **Edit Options** node, and then change the XML that appears in the Manifest Template pane.
 
      Changes to the XML appear in the **Preview of Packaged Manifest** pane.
 
@@ -66,9 +66,9 @@ ms.workload:
 
 #### To overwrite packaged manifest file by disabling the designer
 
-1.  In the **Package Designer**, choose the **Manifest** tab.
+1. In the **Package Designer**, choose the **Manifest** tab.
 
-2.  Expand the **Edit Options** node, choose the **Overwrite generated XML and edit manifest in the XML editor** link, and then choose the **Yes** button.
+2. Expand the **Edit Options** node, choose the **Overwrite generated XML and edit manifest in the XML editor** link, and then choose the **Yes** button.
 
      The template is updated with the current packaged manifest file.
 
@@ -77,7 +77,7 @@ ms.workload:
 
 #### To re-enable the designer
 
-1.  In the **Package Designer**, choose the **Discard manifest edits and re-enable the designer** link, and then choose the **Yes** button.
+1. In the **Package Designer**, choose the **Discard manifest edits and re-enable the designer** link, and then choose the **Yes** button.
 
      The template is refreshed with the original text, and any changes to the XML are lost.
 

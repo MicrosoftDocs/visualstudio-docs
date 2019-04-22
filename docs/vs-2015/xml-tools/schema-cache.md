@@ -13,13 +13,11 @@ manager: jillfra
 # Schema Cache
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.  
 
  The XML editor can also find schemas located in the solution, schemas specified in the **Schemas** field of the document **Properties** window, and schemas identified by the `xsi:schemaLocation` and `xsi:noNamespaceSchemaLocation` attributes.  
 
  The following table describes the schemas that are installed with the XML Editor.  
-
 
 |     Filename      |                                                      Description                                                      |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -105,21 +103,21 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
 
 #### To change the schema cache location  
 
-1.  From the **Tools** menu, select **Options**.  
+1. From the **Tools** menu, select **Options**.  
 
-2.  Expand **Text Editor**, expand **XML**, and then click **Miscellaneous**.  
+2. Expand **Text Editor**, expand **XML**, and then click **Miscellaneous**.  
 
-3.  Click the **Browse** button on the **Schemas** field.  
+3. Click the **Browse** button on the **Schemas** field.  
 
-4.  Select the folder for the schema cache and click **OK**.  
+4. Select the folder for the schema cache and click **OK**.  
 
 #### To add another directory of common schemas  
 
-1.  Edit the catalog.xml file in the XML editor schema cache directory.  
+1. Edit the catalog.xml file in the XML editor schema cache directory.  
 
-2.  Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
+2. Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
 
-3.  Save your changes.  
+3. Save your changes.  
 
      The catalog is automatically reloaded.  
 

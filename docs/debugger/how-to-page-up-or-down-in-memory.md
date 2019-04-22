@@ -38,7 +38,7 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
 
 #### To move up or down one instruction
 
--   Click the arrow at the top or bottom of the vertical scrollbar.
+- Click the arrow at the top or bottom of the vertical scrollbar.
 
 ## See Also
 - [Memory Windows](../debugger/memory-windows.md)

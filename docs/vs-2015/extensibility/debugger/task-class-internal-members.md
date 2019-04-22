@@ -63,17 +63,17 @@ This topic describes the internal members of the <xref:System.Threading.Tasks.Ta
 ## Remarks  
  The following internal methods are useful to a debugger engine because they mark the entrance to <xref:System.Threading.Tasks.Task> code execution:  
   
--   `Execute`  
+- `Execute`  
   
--   `ExecuteEntry`  
+- `ExecuteEntry`  
   
--   `ExecuteWithThreadLocal`  
+- `ExecuteWithThreadLocal`  
   
--   `Finish`  
+- `Finish`  
   
--   `InnerInvoke`  
+- `InnerInvoke`  
   
--   `InternalWait`  
+- `InternalWait`  
   
 ## See Also  
  <xref:System.Threading.Tasks.Task?displayProperty=fullName>   

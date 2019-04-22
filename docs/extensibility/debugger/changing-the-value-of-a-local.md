@@ -24,13 +24,13 @@ ms.workload:
 
 2. `IDebugProperty2::SetValueAsString` performs the following tasks:
 
-   1.  Evaluates the string to produce a value.
+   1. Evaluates the string to produce a value.
 
-   2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to obtain an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.
+   2. Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to obtain an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.
 
-   3.  Converts the value to a series of bytes.
+   3. Converts the value to a series of bytes.
 
-   4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.
+   4. Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.
 
 3. Visual Studio refreshes the **Locals** display (see [Displaying locals](../../extensibility/debugger/displaying-locals.md) for details).
 

@@ -34,13 +34,13 @@ You can use remote procedure call (RPC) debugging to debug COM client/server app
   
 ### To enable RPC debugging  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, click the **Debugging** folder.  
+2. In the **Options** dialog box, click the **Debugging** folder.  
   
-3.  Click the **Native** page.  
+3. Click the **Native** page.  
   
-4.  Select the **RPC debugging** check box.  
+4. Select the **RPC debugging** check box.  
   
     > [!NOTE]
     >  To debug RPC calls, you must have Administrator or Power User privileges.  

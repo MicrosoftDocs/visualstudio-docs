@@ -19,19 +19,19 @@ The return type of a <xref:System.Data.Linq.DataContext> method (created based o
 
 ## To change the return type of a DataContext method from the auto-generated type to an entity class
 
-1.  Select the <xref:System.Data.Linq.DataContext> method in the methods pane.
+1. Select the <xref:System.Data.Linq.DataContext> method in the methods pane.
 
-2.  Select **Return Type** in the **Properties** window and then select an available entity class in the **Return Type** list. If the desired entity class is not in the list, add it to or create it in the **O/R Designer** to add it to the list.
+2. Select **Return Type** in the **Properties** window and then select an available entity class in the **Return Type** list. If the desired entity class is not in the list, add it to or create it in the **O/R Designer** to add it to the list.
 
-3.  Save the *.dbml* file.
+3. Save the *.dbml* file.
 
 ## To change the return type of a DataContext method from an entity class back to the auto-generated type
 
-1.  Select the <xref:System.Data.Linq.DataContext> method in the **Methods** pane and delete it.
+1. Select the <xref:System.Data.Linq.DataContext> method in the **Methods** pane and delete it.
 
-2.  Drag the database object from **Server Explorer** or **Database Explorer** onto an empty area of the **O/R Designer**.
+2. Drag the database object from **Server Explorer** or **Database Explorer** onto an empty area of the **O/R Designer**.
 
-3.  Save the *.dbml* file.
+3. Save the *.dbml* file.
 
 ## See also
 

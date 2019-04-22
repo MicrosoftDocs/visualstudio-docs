@@ -19,11 +19,11 @@ ms.workload:
 # Choose a ClickOnce deployment strategy
 There are three different strategies for deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application; the strategy that you choose depends primarily on the type of application that you are deploying. The three deployment strategies are as follows:
 
--   Install from the Web or a Network Share
+- Install from the Web or a Network Share
 
--   Install from a CD
+- Install from a CD
 
--   Start the application from the Web or a Network Share
+- Start the application from the Web or a Network Share
 
     > [!NOTE]
     >  In addition to selecting a deployment strategy, you will also want to select a strategy for providing application updates. For more information, see [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md).

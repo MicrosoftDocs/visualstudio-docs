@@ -31,13 +31,13 @@ Typically, a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application 
   
 #### To disable URL activation for your application  
   
-1.  Open your deployment manifest in MageUI.exe. If you have not yet created one, follow the steps in [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
+1. Open your deployment manifest in MageUI.exe. If you have not yet created one, follow the steps in [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
   
-2.  Select the **Deployment Options** tab.  
+2. Select the **Deployment Options** tab.  
   
-3.  Clear the **Automatically run application after installing** check box.  
+3. Clear the **Automatically run application after installing** check box.  
   
-4.  Save and sign the manifest.  
+4. Save and sign the manifest.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)

@@ -30,7 +30,7 @@ manager: jillfra
   
 ### To remove parameters  
   
-1.  Create a console application named `RemoveParameters`, and then replace `Program` with the following code.  
+1. Create a console application named `RemoveParameters`, and then replace `Program` with the following code.  
   
     ```csharp  
     class A  
@@ -49,19 +49,19 @@ manager: jillfra
     }  
     ```  
   
-2.  Place the cursor on method `A`, either in the method declaration or the method call.  
+2. Place the cursor on method `A`, either in the method declaration or the method call.  
   
-3.  From the **Refactor** menu, select **Remove Parameters** to display the **Remove Parameters** dialog box.  
+3. From the **Refactor** menu, select **Remove Parameters** to display the **Remove Parameters** dialog box.  
   
      You can also type the keyboard shortcut CTRL+R, V to display the **Remove Parameters** dialog box.  
   
      You can also right-click the cursor, point to **Refactor**, and then click **Remove Parameters** to display the **Remove Parameters** dialog box.  
   
-4.  Using the **Parameters** field, position the cursor on `int i`, and then click **Remove**.  
+4. Using the **Parameters** field, position the cursor on `int i`, and then click **Remove**.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
-6.  In the **Preview Changes — Remove Parameters** dialog box, click **Apply**.  
+6. In the **Preview Changes — Remove Parameters** dialog box, click **Apply**.  
   
 ## Remarks  
  You can remove parameters from a method declaration or a method call. Position the cursor in the method declaration or delegate name and invoke Remove Parameters.  

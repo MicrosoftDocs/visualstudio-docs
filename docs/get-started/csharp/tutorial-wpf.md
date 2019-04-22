@@ -20,7 +20,7 @@ ms.workload:
 By completing this tutorial, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ::: moniker range="vs-2017"
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
@@ -78,7 +78,6 @@ After you create the project, you can customize it. By using the **Properties** 
 1. On the start window, choose **Create new project**.
 
    ![View the 'Create a new project' window](../../get-started/media/vs-2019/start-window-create-new-project.png)
-
 
 2. On the **Create a new project** screen, search for "WPF," choose **WPF App (.NET Framework)**, and then choose **Next**.
 

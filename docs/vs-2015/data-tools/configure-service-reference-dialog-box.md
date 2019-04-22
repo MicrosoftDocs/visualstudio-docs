@@ -19,7 +19,6 @@ manager: jillfra
 # Configure Service Reference Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] services.  
   
 > [!NOTE]
@@ -29,17 +28,17 @@ The **Configure Service Reference** dialog box enables you to configure the beha
   
 ## Task List  
   
--   To change the address where a WCF service is hosted, enter the new address in the **Address** field.  
+- To change the address where a WCF service is hosted, enter the new address in the **Address** field.  
   
--   To change the access level for classes in a WCF client, select an access-level keyword in the **Access level for generated classes** list.  
+- To change the access level for classes in a WCF client, select an access-level keyword in the **Access level for generated classes** list.  
   
--   To call the methods of a WCF service asynchronously, select the **Generate asynchronous operations** check box.  
+- To call the methods of a WCF service asynchronously, select the **Generate asynchronous operations** check box.  
   
--   To generate message contract types in a WCF client, select the **Always generate message contracts** check box.  
+- To generate message contract types in a WCF client, select the **Always generate message contracts** check box.  
   
--   To specify list or dictionary collection types for a WCF client, select the types from the **Collection type** and **Dictionary collection type** lists.  
+- To specify list or dictionary collection types for a WCF client, select the types from the **Collection type** and **Dictionary collection type** lists.  
   
--   To disable type sharing, clear the **Reuse types in referenced assemblies** check box. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** check box, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.  
+- To disable type sharing, clear the **Reuse types in referenced assemblies** check box. To enable type sharing for a subset of referenced assemblies, select the **Reuse types in referenced assemblies** check box, select **Reuse types in specified referenced assemblies**, and select the desired references in the **Referenced assemblies list**.  
   
 ## UIElement List  
  **Address**  

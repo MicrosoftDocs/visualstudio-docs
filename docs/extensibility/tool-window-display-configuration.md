@@ -29,7 +29,6 @@ HKEY_LOCAL_MACHINE\
               (Default)       = reg_sz: <Package GUID>Name            = reg_sz: <name of tool window>Float           = reg_sz: <position>Style           = reg_sz: <dock style>Window          = reg_sz: <window GUID>Orientation     = reg_sz: <orientation>DontForceCreate = reg_dword: 0x00000000
 ```
 
-
 | Name | Type | Data | Description |
 |-----------------|-----------| - | - |
 | Name | REG_SZ | "Short name goes here" | A short name that describes the tool window. Used only for reference in the registry. |

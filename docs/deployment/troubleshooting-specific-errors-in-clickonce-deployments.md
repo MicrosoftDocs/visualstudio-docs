@@ -75,9 +75,9 @@ This article lists the following common errors that can occur when you deploy a 
 
  You should do the following:
 
--   Verify that the identity of the deployment manifest, identity of application manifest, and identity of the main application EXE are all unique.
+- Verify that the identity of the deployment manifest, identity of application manifest, and identity of the main application EXE are all unique.
 
--   Verify that your file paths are not longer than 100 characters. If your application contains file paths that are too long, you may exceed the limitations on the maximum path you can store. Try shortening the paths and reinstall.
+- Verify that your file paths are not longer than 100 characters. If your application contains file paths that are too long, you may exceed the limitations on the maximum path you can store. Try shortening the paths and reinstall.
 
 #### PrivatePath settings in application config file are not honored
  To use PrivatePath (Fusion probing paths), the application must request full trust permission. Try changing the application manifest to request full trust, and then try again.
@@ -106,16 +106,15 @@ This article lists the following common errors that can occur when you deploy a 
 #### You tried to sign with a certificate in your certificate store and a received blank message box
  In the **Signing** dialog box, you must:
 
--   Select **Sign with a stored certificate**, and
+- Select **Sign with a stored certificate**, and
 
--   Select a certificate from the list; the first certificate is not the default selection.
+- Select a certificate from the list; the first certificate is not the default selection.
 
 #### Clicking the "Don't Sign" button causes an exception
  This issue is a known bug. All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are required to be signed. Just select one of the signing options, and then click **OK**.
 
 ## Additional errors
  The following table shows some common error messages that a client-computer user may receive when the user installs a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Each error message is listed next to a description of the most probable cause for the error.
-
 
 | Error message | Description |
 | - | - |

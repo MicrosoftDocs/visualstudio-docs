@@ -41,15 +41,15 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  We strongly recommend that you do not edit the generated code directly, because your edits will be lost when you rebuild the solution. Instead, to customize your DSL:  
   
--   Adjust the many parameters in the DSL Definition.  
+- Adjust the many parameters in the DSL Definition.  
   
--   Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.  
+- Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.  
   
--   Set options in the DSL Definition that cause the generated code to provide ‘hooks’ for your own code.  
+- Set options in the DSL Definition that cause the generated code to provide ‘hooks’ for your own code.  
   
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.  
   
--   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates to set up projects that are initialized with your own file structure.  
+- Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates to set up projects that are initialized with your own file structure.  
   
 ## Generated Files in Dsl  
  The following generated files appear in the **Dsl** project.  

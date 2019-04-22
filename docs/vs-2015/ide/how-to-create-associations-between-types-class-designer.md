@@ -30,9 +30,9 @@ Association lines in Class Designer show how classes in a diagram are related. A
   
 ### To define an association line in the Class Diagram  
   
-1.  In the Toolbox, under Class Designer, select **Association**.  
+1. In the Toolbox, under Class Designer, select **Association**.  
   
-2.  Draw a line between the two shapes you want to link with an association.  
+2. Draw a line between the two shapes you want to link with an association.  
   
      A new property is created in the first class. This property displays as an association line (not as a property within a compartment in the shape) with a default name. Its type is the shape to which the association line points.  
   
@@ -42,11 +42,11 @@ Association lines in Class Designer show how classes in a diagram are related. A
   
   \- or -  
   
-1.  Click the shape that contains the property that is shown as an association.  
+1. Click the shape that contains the property that is shown as an association.  
   
      The shape obtains focus and its members display in the Class Details window and in the Properties window.  
   
-2.  In either the Class Details window or the Properties window, edit the name field for that property and press Enter.  
+2. In either the Class Details window or the Properties window, edit the name field for that property and press Enter.  
   
      The name is updated in the **Class Details** window, on the association line, in the Properties window, and in code.  
   

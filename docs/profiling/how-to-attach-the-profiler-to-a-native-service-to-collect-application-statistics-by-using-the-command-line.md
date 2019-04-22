@@ -51,7 +51,6 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file. |
 
-
 4. Attach the profiler to the service. Type:
 
     **VSPerfCmd /attach:** `PID` [`Sample Event`]
@@ -72,7 +71,7 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
 
 #### To start and stop data collection
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -85,15 +84,15 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application:
+1. Do one of the following to detach the profiler from the target application:
 
-    -   Stop the service.
+    - Stop the service.
 
          -or-
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd /shutdown**
 

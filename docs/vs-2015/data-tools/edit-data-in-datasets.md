@@ -21,7 +21,6 @@ manager: jillfra
 # Edit data in datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You edit data in data tables much like you edit the data in a table in any database. The process can include inserting, updating, and deleting records in the table. In a data-bound form, you can specify which fields are user-editable. In those cases, the data-binding infrastructure handles all the change tracking so that the changes can be sent back to the database later. If you programmatically make edits to data, and you intend to send those changes back to the database, you must use the objects and methods that do the change tracking for you.  
   
  In addition to changing the actual data, you can also query a <xref:System.Data.DataTable> to return specific rows of data. For example, you might query for individual rows, specific versions of rows (original and proposed),  rows that have changed, or rows that have errors.  
@@ -53,7 +52,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 #### To delete records from a data table  
   
--   Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.  
+- Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.  
   
      This method doesn't physically remove the record. Instead, it marks the record for deletion.  
   
@@ -78,7 +77,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 #### To determine if changes have been made to any rows  
   
--   Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.  
+- Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.  
   
      The following example shows how to check the return value from the <xref:System.Data.DataSet.HasChanges%2A> method to detect whether there are any changed rows in a dataset named `NorthwindDataset1`:  
   
@@ -90,7 +89,7 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 #### To determine what type of changes have been made to a row  
   
--   Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.  
+- Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.  
   
      The following example shows how to check a dataset named `NorthwindDataset1` to determine if any new rows have been added to it:  
   
@@ -100,9 +99,9 @@ You edit data in data tables much like you edit the data in a table in any datab
 ## To locate rows that have errors  
  When working with individual columns and rows of data, you might encounter errors. You can check the `HasErrors` property to determine if errors exist in a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, or <xref:System.Data.DataRow>.  
   
-1.  Check the `HasErrors` property to see if there are any errors in the dataset.  
+1. Check the `HasErrors` property to see if there are any errors in the dataset.  
   
-2.  If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.  
+2. If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.  
   
      [!code-csharp[VbRaddataEditing#23](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#23)]
      [!code-vb[VbRaddataEditing#23](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#23)]

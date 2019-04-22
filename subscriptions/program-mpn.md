@@ -40,7 +40,6 @@ Regardless of how many competencies a partner earns, the number of Visual Studio
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | 25 Visual Studio Enterprise subscriptions per country; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country; 150 worldwide         |
 
-
 ## Subscriptions for partners purchasing the Action Pack
 Partners with a competency are not eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
 

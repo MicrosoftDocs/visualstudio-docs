@@ -17,9 +17,9 @@ manager: jillfra
 
 Text templates have the following security concerns:  
   
--   Text templates are vulnerable to arbitrary code insertions.  
+- Text templates are vulnerable to arbitrary code insertions.  
   
--   If the mechanism that the host uses to find a directive processor is not secure, a malicious directive processor could be run.  
+- If the mechanism that the host uses to find a directive processor is not secure, a malicious directive processor could be run.  
   
 ## Arbitrary Code  
  When you write a template, you can put any code within the \<# #> tags. This allows arbitrary code to be executed from within a text template.  

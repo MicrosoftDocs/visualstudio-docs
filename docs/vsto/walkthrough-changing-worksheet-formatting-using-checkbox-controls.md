@@ -22,11 +22,11 @@ ms.workload:
 
  During this walkthrough, you will learn how to:
 
--   Add text and controls to a worksheet.
+- Add text and controls to a worksheet.
 
--   Format the text when an option is selected.
+- Format the text when an option is selected.
 
--   Test your project.
+- Test your project.
 
 > [!NOTE]
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -34,16 +34,16 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Create the project
  In this step, you will create an Excel Workbook project by using Visual Studio.
 
 ### To create a new project
 
-1.  Create an Excel Workbook project with the name **My Excel Formatting**. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an Excel Workbook project with the name **My Excel Formatting**. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      Visual Studio opens the new Excel workbook in the designer and adds the **My Excel Formatting** project to **Solution Explorer**.
 
@@ -52,36 +52,36 @@ ms.workload:
 
 ### To add three check boxes
 
-1.  Verify that the workbook is open in the Visual Studio designer and that `Sheet1` is open.
+1. Verify that the workbook is open in the Visual Studio designer and that `Sheet1` is open.
 
-2.  From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.Controls.CheckBox> control to or near cell **B2** in **Sheet1**.
+2. From the **Common Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.Controls.CheckBox> control to or near cell **B2** in **Sheet1**.
 
-3.  From the **View** menu, select **Properties** window.
+3. From the **View** menu, select **Properties** window.
 
-4.  Be sure that **Checkbox1** is visible in the object name list box of the **Properties** window, and change the following properties:
+4. Be sure that **Checkbox1** is visible in the object name list box of the **Properties** window, and change the following properties:
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**applyBoldFont**|
     |**Text**|**Bold**|
 
-5.  Drag a second check box on or near cell **B4** and change the following properties:
+5. Drag a second check box on or near cell **B4** and change the following properties:
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**applyItalicFont**|
     |**Text**|**Italic**|
 
-6.  Drag a third check box on or near cell **B6** and change the following properties:
+6. Drag a third check box on or near cell **B6** and change the following properties:
 
     |Property|Value|
     |--------------|-----------|
     |**Name**|**applyUnderlineFont**|
     |**Text**|**Underline**|
 
-7.  Select all three check box controls while holding the **Ctrl** key.
+7. Select all three check box controls while holding the **Ctrl** key.
 
-8.  In the Arrange Group of the Format tab in Excel, click **Align**, and then click **Align Left**.
+8. In the Arrange Group of the Format tab in Excel, click **Align**, and then click **Align Left**.
 
      The three check box controls are aligned on the left side, at the position of the first control you selected.
 
@@ -116,24 +116,24 @@ ms.workload:
 
 ### To change formatting when a check box is selected
 
-1.  Right-click **Sheet1**, and then click **View Code** on the shortcut menu.
+1. Right-click **Sheet1**, and then click **View Code** on the shortcut menu.
 
-2.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyBoldFont` check box:
+2. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyBoldFont` check box:
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#7](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#7)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#7)]
 
-3.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyItalicFont` check box:
+3. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyItalicFont` check box:
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#8](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#8)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#8](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#8)]
 
-4.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyUnderlineFont` check box:
+4. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the `applyUnderlineFont` check box:
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#9](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#9)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#9)]
 
-5.  In C#, you must add event handlers for the check boxes to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
+5. In C#, you must add event handlers for the check boxes to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#10)]
 
@@ -142,17 +142,17 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Select or clear a check box.
+2. Select or clear a check box.
 
-3.  Confirm that the text is formatted correctly.
+3. Confirm that the text is formatted correctly.
 
 ## Next steps
  This walkthrough shows the basics of using check boxes and formatting text on Excel worksheets. Here are some tasks that might come next:
 
--   Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
--   Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
+- Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).
+- Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
 
 ## See also
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

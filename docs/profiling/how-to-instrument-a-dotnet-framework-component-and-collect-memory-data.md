@@ -15,7 +15,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 > [!NOTE]
 >  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
-
  To collect memory data from a .NET Framework component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler by using the *VSPerfCmd.exe* tool.
 
  When the instrumented component is executed, memory data is automatically collected to a data file. You can pause and resume data collection during the profiling session.
@@ -34,7 +33,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv** {**/tracegc** &#124; **/tracegclife**}
 
-   -   The **/tracegc** and **/tracegclife** options initialize the environment variables to collect only memory allocation data, or to collect both memory allocation and object lifetime data.
+   - The **/tracegc** and **/tracegclife** options initialize the environment variables to collect only memory allocation data, or to collect both memory allocation and object lifetime data.
 
        |Option|Description|
        |------------|-----------------|
@@ -61,7 +60,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    | [/counter](../profiling/counter.md) **:** `Config` | Collects information from the processor performance counter that is specified in Config. Counter information is added to the data that is collected at each profiling event. |
    | [events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
 
-
 5. Start the target application from the Command Prompt window.
 
 ## Control data collection
@@ -69,7 +67,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To start and stop data collection
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -82,13 +80,13 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To end a profiling session
 
-1.  Close the target application.
+1. Close the target application.
 
-2.  Shut down the profiler. Type:
+2. Shut down the profiler. Type:
 
      **VSPerfCmd /shutdown**
 
-3.  (Optional) Clear the profiling environment variables. Type:
+3. (Optional) Clear the profiling environment variables. Type:
 
      **VSPerfCmd /off**
 

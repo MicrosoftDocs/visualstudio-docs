@@ -17,7 +17,6 @@ manager: jillfra
 # Advanced Compiler Settings Dialog Box (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to specify the project's advanced build-configuration properties. This dialog box applies to Visual Basic projects only.  
   
 ### To access this dialog box  

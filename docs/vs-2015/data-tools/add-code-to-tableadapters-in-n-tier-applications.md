@@ -21,7 +21,6 @@ manager: jillfra
 # Add code to TableAdapters in n-tier applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can extend the functionality of a `TableAdapter` by creating a partial class file for the `TableAdapter` and adding code to it (instead of adding code to the *DatasetName*.DataSet.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) or [partial (Type)](http://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334).  
   
  The code that defines a `TableAdapter` is generated every time changes are made to the `TableAdapter`. This code is also generated when changes are made during the running of any wizard that modifies the configuration of the `TableAdapter`. To prevent your code from being deleted during the regeneration of a `TableAdapter`, add code to the partial class file of the `TableAdapter`.  
@@ -38,17 +37,17 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
   
 ### To add user code to a TableAdapter in an n-tier application  
   
-1.  Locate the project that contains the .xsd file (the dataset).  
+1. Locate the project that contains the .xsd file (the dataset).  
   
-2.  Double click the **.xsd** file to open the dataset.  
+2. Double click the **.xsd** file to open the dataset.  
   
-3.  Right-click the `TableAdapter` that you want to add code to, and then select**View Code**.  
+3. Right-click the `TableAdapter` that you want to add code to, and then select**View Code**.  
   
      A partial class is created and opens in the Code Editor.  
   
-4.  Add code inside the partial class declaration.  
+4. Add code inside the partial class declaration.  
   
-5.  The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:  
+5. The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:  
   
     ```vb  
     Partial Public Class CustomersTableAdapter  

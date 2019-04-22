@@ -20,7 +20,7 @@ You attempted to use the **default** statement more than once within a switch st
   
 ### To correct this error  
   
--   Remove any extra **default** case statements from your `switch` statement (use at most one default case statement in your switch statement).  
+- Remove any extra **default** case statements from your `switch` statement (use at most one default case statement in your switch statement).  
   
 ## See Also  
  [switch Statement](../../javascript/reference/switch-statement-javascript.md)   

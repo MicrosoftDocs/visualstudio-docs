@@ -25,7 +25,7 @@ There is a conflict between dependencies; more than one distinct assembly files 
   
  **To correct this error**  
   
--   Copy one (or zero) assembly files to the bin directory, which can be done by putting the assembly files into the global assembly cache. The global assembly cache resolves file name conflicts. No local copies of the assembly file will be made because the common language runtime knows how to find assemblies in the global assembly cache. For more information, see [Working with Assemblies and the Global Assembly Cache](http://msdn.microsoft.com/library/8a18e5c2-d41d-49ef-abcb-7c27e2469433) and [Error: the dependency 'file' in project 'project' cannot be copied to the run directory because it would conflict with dependency 'file'](/visualstudio/misc/error-dependency-file?view=vs-2015).  
+- Copy one (or zero) assembly files to the bin directory, which can be done by putting the assembly files into the global assembly cache. The global assembly cache resolves file name conflicts. No local copies of the assembly file will be made because the common language runtime knows how to find assemblies in the global assembly cache. For more information, see [Working with Assemblies and the Global Assembly Cache](http://msdn.microsoft.com/library/8a18e5c2-d41d-49ef-abcb-7c27e2469433) and [Error: the dependency 'file' in project 'project' cannot be copied to the run directory because it would conflict with dependency 'file'](/visualstudio/misc/error-dependency-file?view=vs-2015).  
   
 ## See Also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)   

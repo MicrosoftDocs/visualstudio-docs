@@ -25,12 +25,12 @@ ms.workload:
 
 ### To apply color to a NamedRange control
 
-1.  Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control at cell A1.
+1. Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control at cell A1.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#65](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#65)]
      [!code-vb[Trin_VstcoreExcelAutomation#65](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#65)]
 
-2.  Set the color of the text in the <xref:Microsoft.Office.Tools.Excel.NamedRange> control.
+2. Set the color of the text in the <xref:Microsoft.Office.Tools.Excel.NamedRange> control.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#66](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#66)]
      [!code-vb[Trin_VstcoreExcelAutomation#66](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#66)]
@@ -39,7 +39,7 @@ ms.workload:
 
 ### To apply color to a native Excel range object
 
-1.  Create a range at cell A1 and then set the color of the text.
+1. Create a range at cell A1 and then set the color of the text.
 
      [!code-csharp[Trin_VstcoreExcelAutomation#67](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#67)]
      [!code-vb[Trin_VstcoreExcelAutomation#67](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#67)]

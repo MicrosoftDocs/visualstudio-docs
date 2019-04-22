@@ -40,25 +40,25 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 ### To profile a Web site project  
   
-1.  Open the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web project in [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] or [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)].  
+1. Open the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web project in [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] or [!INCLUDE[vsUltShort](../includes/vsultshort-md.md)].  
   
-2.  On the **Analyze** menu, click **Launch Performance Wizard**.  
+2. On the **Analyze** menu, click **Launch Performance Wizard**.  
   
-3.  On the first page of the wizard, select a profiling method, and then click **Next**. For more information about profiling methods, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md). Note that the concurrency visualizer profiling method is not available for web applications.  
+3. On the first page of the wizard, select a profiling method, and then click **Next**. For more information about profiling methods, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md). Note that the concurrency visualizer profiling method is not available for web applications.  
   
-4.  In the **Which application would you like to target for profiling?** drop-down list, make sure that the current project is selected, and then click **Next**.  
+4. In the **Which application would you like to target for profiling?** drop-down list, make sure that the current project is selected, and then click **Next**.  
   
-5.  On the third page of the wizard, you can choose to add tier interaction profiling (TIP) data, data from the JavaScript running in the Web pages, or both.  
+5. On the third page of the wizard, you can choose to add tier interaction profiling (TIP) data, data from the JavaScript running in the Web pages, or both.  
   
-    -   To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
+    - To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
   
-    -   To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
+    - To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
   
-6.  Click **Next**.  
+6. Click **Next**.  
   
-7.  On the fourth page of the wizard, click **Finish**.  
+7. On the fourth page of the wizard, click **Finish**.  
   
-8.  A performance session is created for the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application, and the Web site is started in the browser. Exercise the functionality that you want to profile, and then close the browser.  
+8. A performance session is created for the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] application, and the Web site is started in the browser. Exercise the functionality that you want to profile, and then close the browser.  
   
      The profiler generates the data file and displays the Summary view of the data in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] main window.  
   
@@ -84,9 +84,9 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
   
 6. On the third page of the wizard, you can choose to add tier interaction profiling (TIP) data, data from the JavaScript running in the Web pages, or both.  
   
-   -   To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
+   - To collect tier interaction, select the **Enable Tier Interaction Profiling** check box.  
   
-   -   To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
+   - To collect data from the JavaScript running in the Web pages, select the **Profile JavaScript** check box.  
   
 7. Click **Next**.  
   

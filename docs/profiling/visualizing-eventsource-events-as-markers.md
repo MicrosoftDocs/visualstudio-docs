@@ -17,11 +17,11 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 
 ### Marker type
 
-1.  Events that have [Opcode](/windows/desktop/WES/eventmanifestschema-opcodetype-complextype) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.
+1. Events that have [Opcode](/windows/desktop/WES/eventmanifestschema-opcodetype-complextype) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.
 
-2.  An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](/windows/desktop/WES/defining-severity-levels) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.
+2. An event whose Opcode is neither win:Start nor win:Stop is treated as a marker flag unless its [Level](/windows/desktop/WES/defining-severity-levels) (field of EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR) is win:Verbose or higher.
 
-3.  In all other cases, the event is treated as a message.
+3. In all other cases, the event is treated as a message.
 
 ### Importance
  The following table defines how the event level maps to the marker importance.

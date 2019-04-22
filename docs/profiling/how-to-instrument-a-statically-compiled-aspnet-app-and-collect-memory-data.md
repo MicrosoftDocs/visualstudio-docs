@@ -37,9 +37,9 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv /globaltracegclife**
 
-   -   **/globaltracegc** collects .NET memory allocation and timing data.
+   - **/globaltracegc** collects .NET memory allocation and timing data.
 
-   -   **/globaltracegclife** collects .NET memory allocation, object lifetime, and detailed timing data.
+   - **/globaltracegclife** collects .NET memory allocation, object lifetime, and detailed timing data.
 
 4. Restart the computer.
 
@@ -67,7 +67,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file. |
    | [/globaloff](../profiling/globalon-and-globaloff.md) | To start the profiler with data collection paused, add the **/globaloff** option to the **/start** command line. Use **/globalon** to resume profiling. |
 
-
 7. Open the web site that contains the instrumented component.
 
 ## Control data collection
@@ -75,7 +74,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To start and stop data collection
 
--   The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|

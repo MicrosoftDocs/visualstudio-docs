@@ -38,19 +38,19 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
 
 ### To verify that DNS on the target computer is correctly resolving the debugger host computer name
 
-1.  On the target computer, open the **Start** menu, point to **Accessories** and then click **Command Prompt**.
+1. On the target computer, open the **Start** menu, point to **Accessories** and then click **Command Prompt**.
 
-2.  In the **Command Prompt** window, type:
+2. In the **Command Prompt** window, type:
 
     ```cmd
     ping <debugger_host_computer_name>
     ```
 
-3.  The first line of the `ping` response shows the full computer name and IP address returned by DNS for the specified computer.
+3. The first line of the `ping` response shows the full computer name and IP address returned by DNS for the specified computer.
 
-4.  On the debugger host computer, open a **Command Prompt** window and run `ipconfig`.
+4. On the debugger host computer, open a **Command Prompt** window and run `ipconfig`.
 
-5.  Compare the IP address values.
+5. Compare the IP address values.
 
 ## See Also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

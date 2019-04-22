@@ -36,47 +36,47 @@ In the Parallel Watch window, you can simultaneously display the values that one
 
 ### To display the Parallel Watch window
 
-1.  Set a breakpoint in the code.
+1. Set a breakpoint in the code.
 
-2.  On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.
+2. On the menu bar, choose **Debug**, **Start Debugging**. Wait for the application to reach the breakpoint.
 
-3.  On the menu bar, choose **Debug**, **Windows**, **Parallel Watch**, and then choose a watch window. You can open as many as four windows.
+3. On the menu bar, choose **Debug**, **Windows**, **Parallel Watch**, and then choose a watch window. You can open as many as four windows.
 
 ### To add a watch expression
 
--   Select one of the blank *add watch* columns and then enter a watch expression.
+- Select one of the blank *add watch* columns and then enter a watch expression.
 
 ### To flag or unflag a thread
 
--   Select the flag column for the row (first column), or open the shortcut menu for the thread and choose **Flag** or **Unflag**.
+- Select the flag column for the row (first column), or open the shortcut menu for the thread and choose **Flag** or **Unflag**.
 
 ### To display only flagged threads
 
--   Choose the **Show Only Flagged** button in the upper-left corner of the **Parallel Watch** window.
+- Choose the **Show Only Flagged** button in the upper-left corner of the **Parallel Watch** window.
 
 ### To switch to another thread
 
--   Double-click the current thread column (second column). (Keyboard: Select the row and press Enter.)
+- Double-click the current thread column (second column). (Keyboard: Select the row and press Enter.)
 
 ### To sort a column
 
--   Select the column heading.
+- Select the column heading.
 
 ### To group threads
 
--   Open the shortcut menu for the Parallel Watch window, choose **Group By**, and then choose the appropriate submenu item.
+- Open the shortcut menu for the Parallel Watch window, choose **Group By**, and then choose the appropriate submenu item.
 
 ### To freeze or thaw threads
 
--   Open the shortcut menu for the row and choose **Freeze** or **Thaw**.
+- Open the shortcut menu for the row and choose **Freeze** or **Thaw**.
 
 ### To export the data in the Parallel Watch window
 
--   Choose the **Open in Excel** button and then choose **Open in Excel** or **Export to CSV**.
+- Choose the **Open in Excel** button and then choose **Open in Excel** or **Export to CSV**.
 
 ### To filter by a Boolean expression
 
--   Enter a Boolean expression in the **Filter by Boolean Expression** box. The debugger evaluates the expression for each thread context. Only rows where the value is `true` are displayed.
+- Enter a Boolean expression in the **Filter by Boolean Expression** box. The debugger evaluates the expression for each thread context. Only rows where the value is `true` are displayed.
 
 ## See Also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

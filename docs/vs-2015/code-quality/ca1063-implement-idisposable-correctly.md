@@ -53,23 +53,23 @@ manager: "wpickett"
 ## How to Fix Violations
  Examine your code and determine which of the following resolutions will fix this violation.
 
--   Remove IDisposable from the list of interfaces that are implemented by {0} and override the base class Dispose implementation instead.
+- Remove IDisposable from the list of interfaces that are implemented by {0} and override the base class Dispose implementation instead.
 
--   Remove the finalizer from type {0}, override Dispose(bool disposing), and put the finalization logic in the code path where 'disposing' is false.
+- Remove the finalizer from type {0}, override Dispose(bool disposing), and put the finalization logic in the code path where 'disposing' is false.
 
--   Remove {0}, override Dispose(bool disposing), and put the dispose logic in the code path where 'disposing' is true.
+- Remove {0}, override Dispose(bool disposing), and put the dispose logic in the code path where 'disposing' is true.
 
--   Ensure that {0} is declared as public and sealed.
+- Ensure that {0} is declared as public and sealed.
 
--   Rename {0} to 'Dispose' and make sure that it is declared as public and sealed.
+- Rename {0} to 'Dispose' and make sure that it is declared as public and sealed.
 
--   Make sure that {0} is declared as protected, virtual, and unsealed.
+- Make sure that {0} is declared as protected, virtual, and unsealed.
 
--   Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]), and then returns.
+- Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]), and then returns.
 
--   Modify {0} so that it calls Dispose(false) and then returns.
+- Modify {0} so that it calls Dispose(false) and then returns.
 
--   If you are writing an unsealed root IDisposable class, make sure that the implementation of IDisposable follows the pattern that is described earlier in this section.
+- If you are writing an unsealed root IDisposable class, make sure that the implementation of IDisposable follows the pattern that is described earlier in this section.
 
 ## When to Suppress Warnings
  Do not suppress a warning from this rule.

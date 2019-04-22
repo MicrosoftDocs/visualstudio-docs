@@ -23,14 +23,13 @@ manager: jillfra
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box lets you define [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] project settings related to build logging and supporting file types.  
   
 ### To access this dialog box  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  Select **Projects and Solutions**, and then select **VC++ Project Settings**.  
+2. Select **Projects and Solutions**, and then select **VC++ Project Settings**.  
   
 ## Build Customization Search Path  
  Specifies the list of directories that contain .rules files, which help you define build rules for your projects.  

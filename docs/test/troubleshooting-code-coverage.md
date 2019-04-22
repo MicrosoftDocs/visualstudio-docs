@@ -37,9 +37,9 @@ Resolution&mdash;In Test Explorer, choose **Run All** to verify that the tests r
 
 When you modify and rerun your tests, a previous code coverage result can still be visible, including the code coloring from that old run.
 
-1.  Run Analyze Code Coverage.
+1. Run Analyze Code Coverage.
 
-2.  Make sure that you have selected the most recent result set in the **Code Coverage Results** window.
+2. Make sure that you have selected the most recent result set in the **Code Coverage Results** window.
 
 ### .pdb (symbol) files are unavailable
 
@@ -85,17 +85,17 @@ Explanation&mdash;You can run your unit tests with a custom *.runsettings* file 
 
 Resolution&mdash;There are two possible types of faults:
 
--   **XML error**
+- **XML error**
 
      Open the *.runsettings* file in the Visual Studio XML editor. Look for error indications.
 
--   **Regular expression error**
+- **Regular expression error**
 
      Each string in the file is a regular expression. Review each one for errors, and in particular look for:
 
-    -   Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`
+    - Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`
 
-    -   Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`
+    - Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`
 
 ### Custom .runsettings file with incorrect exclusions
 

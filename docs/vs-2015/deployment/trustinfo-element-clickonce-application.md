@@ -75,28 +75,28 @@ Describes the minimum security permissions required for the application to run o
 ## PermissionSet  
  Required. This element is a child of the `applicationRequestMinimum` element and contains the `IPermission` element. This element has the following attributes.  
   
--   `ID`  
+- `ID`  
   
      Required. Identifies the permission set. This attribute can be any value. The ID is referenced in the `defaultAssemblyRequest` and `assemblyRequest` attributes.  
   
--   `version`  
+- `version`  
   
      Required. Identifies the version of the permission. Normally this value is `1`.  
   
 ## IPermission  
  Optional. This element is a child of the `PermissionSet` element. The `IPermission` element fully identifies a permission class in the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]. The `IPermission` element has the following attributes, but can have additional attributes that correspond to properties on the permission class. To find out the syntax for a specific permission, see the examples listed in the Security.config file.  
   
--   `class`  
+- `class`  
   
      Required. Identifies the permission class by strong name. For example, the following code identifies the `FileDialogPermission` type.  
   
      `System.Security.Permissions.FileDialogPermission, mscorlib, Version=1.2.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`  
   
--   `version`  
+- `version`  
   
      Required. Identifies the version of the permission. Usually this value is `1`.  
   
--   `Unrestricted`  
+- `Unrestricted`  
   
      Required. Identifies whether the application needs an unrestricted grant of this permission. If `true`, the permission grant is unconditional. If `false`, or if this attribute is undefined, it is restricted according to the permission-specific attributes defined on the `IPermission` tag. Take the following permissions:  
   
@@ -116,18 +116,18 @@ Describes the minimum security permissions required for the application to run o
 ## defaultAssemblyRequest  
  Optional. Identifies the set of permissions granted to all assemblies. This element is a child of the `applicationRequestMinimum` element and has the following attribute.  
   
--   `permissionSetReference`  
+- `permissionSetReference`  
   
      Required. Identifies the ID of the permission set that is the default permission. The permission set is declared in the `PermissionSet` element.  
   
 ## assemblyRequest  
  Optional. Identifies permissions for a specific assembly. This element is a child of the `applicationRequestMinimum` element and has the following attributes.  
   
--   `Name`  
+- `Name`  
   
      Required. Identifies the assembly name.  
   
--   `permissionSetReference`  
+- `permissionSetReference`  
   
      Required. Identifies the ID of the permission set that this assembly requires. The permission set is declared in the `PermissionSet` element.  
   
@@ -137,7 +137,7 @@ Describes the minimum security permissions required for the application to run o
 ## requestedExecutionLevel  
  Optional. Identifies the security level at which the application requests to be executed. This element has no children and has the following attributes.  
   
--   `Level`  
+- `Level`  
   
      Required. Indicates the security level the application is requesting. Possible values are:  
   
@@ -149,7 +149,7 @@ Describes the minimum security permissions required for the application to run o
   
      [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications will only install with a value of `asInvoker`. Installing with any other value will fail.  
   
--   `uiAccess`  
+- `uiAccess`  
   
      Optional. Indicates whether the application requires access to protected user interface elements. Values are either `true` or `false`, and the default is false. Only signed applications should have a value of true.  
   

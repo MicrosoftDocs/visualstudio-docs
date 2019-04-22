@@ -48,9 +48,9 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 
  If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.
 
--   To disable automatic updates for all extensions, click the **Change your Extensions and Updates settings** link on the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.
+- To disable automatic updates for all extensions, click the **Change your Extensions and Updates settings** link on the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.
 
--   To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension’s details pane on the right side of the **Extensions and Updates** dialog.
+- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension’s details pane on the right side of the **Extensions and Updates** dialog.
 
 > [!NOTE]
 >  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).

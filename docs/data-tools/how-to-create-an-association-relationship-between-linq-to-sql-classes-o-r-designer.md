@@ -30,15 +30,15 @@ After you create an association, when you select the association in the **O/R De
 
 ## To create an association between entity classes
 
-1.  Right-click the entity class that represents the parent class in the association, point to **Add**, and then click **Association**.
+1. Right-click the entity class that represents the parent class in the association, point to **Add**, and then click **Association**.
 
-2.  Verify that the correct **Parent Class** is selected in the **Association Editor** dialog box.
+2. Verify that the correct **Parent Class** is selected in the **Association Editor** dialog box.
 
-3.  Select the **Child Class** in the combo box.
+3. Select the **Child Class** in the combo box.
 
-4.  Select the **Association Properties** that relate the classes. Typically, this maps to the foreign-key relationship defined in the database. For example, in the `Customers` and `Orders` association, the **Association Properties** are the `CustomerID` for each class.
+4. Select the **Association Properties** that relate the classes. Typically, this maps to the foreign-key relationship defined in the database. For example, in the `Customers` and `Orders` association, the **Association Properties** are the `CustomerID` for each class.
 
-5.  Click **OK** to create the association.
+5. Click **OK** to create the association.
 
 ## See also
 

@@ -50,9 +50,9 @@ In native C++ code, you might have to qualify the context of a variable name. Fo
 >[!CAUTION]
 >Make sure you understand the consequences before you change values and expressions. Some possible issues are:
 >
->-   Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`. These expressions are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you are not aware of them.
+>- Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating `var1 = ++var2` changes the value of both `var1` and `var2`. These expressions are said to have [side effects](https://en.wikipedia.org/wiki/Side_effect_\(computer_science\)). Side effects can cause unexpected results if you are not aware of them.
 >
->-   Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.
+>- Editing floating-point values can result in minor inaccuracies because of decimal-to-binary conversion of fractional components. Even a seemingly harmless edit can result in changes to some of the bits in the floating-point variable.
 
 ::: moniker range=">= vs-2019" 
 ## Search in the Autos or Locals window
@@ -79,9 +79,9 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
 ## <a name="bkmk_whatvariables"></a> Variables in the Autos window (C#, C++, Visual Basic, Python)
 
- Different code languages display different variables in the **Autos** window.
+Different code languages display different variables in the **Autos** window.
 
- - In C# and Visual Basic, the **Autos** window displays any variable used on the current or preceding line. For example, in C# or Visual Basic code, declare the following four variables:
+- In C# and Visual Basic, the **Autos** window displays any variable used on the current or preceding line. For example, in C# or Visual Basic code, declare the following four variables:
 
    ```csharp
        public static void Main()
@@ -100,7 +100,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
- - In C++, the **Autos** window displays the variables used in at least three lines before the current line where execution is paused. For example, in C++ code, declare six variables:
+- In C++, the **Autos** window displays the variables used in at least three lines before the current line where execution is paused. For example, in C++ code, declare six variables:
 
    ```C++
        void main() {
@@ -120,7 +120,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
-##  <a name="bkmk_returnValue"></a> View return values of method calls
+## <a name="bkmk_returnValue"></a> View return values of method calls
  In .NET and C++ code, you can examine return values in the **Autos** window when you step over or out of a method call. Viewing method call return values can be useful when they are not stored in local variables. A method could be used as a parameter, or as the return value of another method.
 
  For example, the following C# code adds the return values of two functions:

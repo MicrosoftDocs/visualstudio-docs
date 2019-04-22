@@ -17,7 +17,6 @@ manager: jillfra
 # /ResetSettings (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Restores [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  
   
  The default settings are determined by the profile that was selected when [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] was first launched.  

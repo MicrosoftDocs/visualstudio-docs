@@ -20,7 +20,6 @@ manager: jillfra
 # Toolbox
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
   
  **Toolbox** icons can be dragged to a design view or pasted in a code editor. Either action adds the fundamental code to create an instance of the **Toolbox** item in the active project file.  
@@ -33,17 +32,17 @@ The **Toolbox** displays icons for controls and other items that you can add to 
 ## Help on Toolbox Tabs  
  The following documents provide more information about specific **Toolbox** tabs.  
   
--   [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.110\))  
+- [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.110\))  
   
--   [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.110\))  
+- [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.110\))  
   
--   [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.110\))  
+- [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.110\))  
   
--   [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.120\))  
+- [Toolbox, Data Tab](http://msdn.microsoft.com/library/8a41dyt7\(v=vs.120\))  
   
--   [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.120\))  
+- [Toolbox, Components Tab](http://msdn.microsoft.com/library/kb1cz7z9\(v=vs.120\))  
   
--   [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.120\))  
+- [Toolbox, HTML Tab](http://msdn.microsoft.com/library/w9ss7h1a\(v=vs.120\))  
   
 ## See Also  
  [Using the Toolbox](../../ide/using-the-toolbox.md)

@@ -165,7 +165,6 @@ Visual Studio's "Navigate To" command does a focused search of your code to help
     As you type, the results appear in a dropdown list below the text box.
 1. To go to an element, choose it in the list.
 
-
 ### Filter your search
 
 To limit your search to only code symbols, preface your Navigate To query with an "\@" character. For example, if you search for `@application`, Navigate To displays, for example, only classes that have the word "application" in them.
@@ -183,45 +182,45 @@ This feature is particularly helpful if your code has long names.
 
  For information about language-specific editor options, see the following:  
 
--   [Visual Basic Settings](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
+- [Visual Basic Settings](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
--   [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
+- [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 
--   [Options, Text Editor, JavaScript, Formatting](../ide/reference/options-text-editor-javascript-formatting.md)  
+- [Options, Text Editor, JavaScript, Formatting](../ide/reference/options-text-editor-javascript-formatting.md)  
 
 ## In this section  
 
--   [Finding and Replacing Text](../ide/finding-and-replacing-text.md)  
+- [Finding and Replacing Text](../ide/finding-and-replacing-text.md)  
 
--   [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md)  
+- [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md)  
 
--   [Outlining](../ide/outlining.md)  
+- [Outlining](../ide/outlining.md)  
 
--   [Refactoring](../ide/refactoring-in-visual-studio.md)  
+- [Refactoring](../ide/refactoring-in-visual-studio.md)  
 
--   [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)  
+- [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)  
 
--   [Using IntelliSense](../ide/using-intellisense.md)  
+- [Using IntelliSense](../ide/using-intellisense.md)  
 
--   [Customizing the Editor](../ide/customizing-the-editor.md)  
+- [Customizing the Editor](../ide/customizing-the-editor.md)  
 
--   [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
+- [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
 
--   [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
+- [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
 
--   [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md)  
+- [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md)  
 
--   [Code Snippets](../ide/code-snippets.md)  
+- [Code Snippets](../ide/code-snippets.md)  
 
--   [Using the Toolbox](../ide/using-the-toolbox.md)  
+- [Using the Toolbox](../ide/using-the-toolbox.md)  
 
--   [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md)  
+- [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md)  
 
--   [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md)  
+- [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md)  
 
--   [Using the Task List](../ide/using-the-task-list.md)  
+- [Using the Task List](../ide/using-the-task-list.md)  
 
--   [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)  
+- [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)  
 
 ## See Also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

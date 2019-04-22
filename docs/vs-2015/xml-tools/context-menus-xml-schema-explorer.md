@@ -13,7 +13,6 @@ manager: jillfra
 # Context Menus (XML Schema Explorer)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following context menu items are used to perform schema-specific searches and other operations.  
   
 ## Node Type: Schema Set  

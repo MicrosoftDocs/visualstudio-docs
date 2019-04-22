@@ -135,9 +135,9 @@ Text templates let you use program code to vary the content of the generated fil
 
 #### To generate program code or resources
 
-1.  Change the output directive to generate a file of the appropriate type, such as .cs, .vb, .resx, or .xml.
+1. Change the output directive to generate a file of the appropriate type, such as .cs, .vb, .resx, or .xml.
 
-2.  Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:
+2. Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:
 
     ```csharp
 
@@ -170,7 +170,7 @@ Text templates let you use program code to vary the content of the generated fil
 
     ```
 
-3.  Save the file and inspect the generated file, which now contains the following code:
+3. Save the file and inspect the generated file, which now contains the following code:
 
     ```csharp
     class MyGeneratedClass {
@@ -336,12 +336,10 @@ Warning("A warning message");
 
 4. Verify the following properties of the **.tt** file:
 
-
    | | |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |
-
 
 5. Insert the following lines at the beginning of the file:
 

@@ -31,8 +31,8 @@ For more information about accessibility and features, see [Accessibility at Mic
 
 Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../debugger/includes/blend_subs_md.md)] user interface to discover them. The following topics list shortcuts that modify the behavior of tools, or that modify an action, such as resizing an object:
 
--   [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
+- [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
 
--   [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)
+- [Pen tool modifier keys](../designers/pen-tool-modifier-keys-in-blend.md)
 
--   [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)
+- [Direct Selection tool modifier keys](../designers/direct-selection-tool-modifier-keys-in-blend.md)

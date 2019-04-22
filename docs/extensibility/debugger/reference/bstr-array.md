@@ -42,7 +42,6 @@ Array of strings.
 ## Remarks
 This structure is returned from the [EnumPersistedPorts](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md) method.
 
-
  [C++ only] Each individual string must be freed using `SysFreeString`, and the `Members` array must be freed with `CoTaskMemFree`.
 
 ## Requirements

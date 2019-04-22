@@ -21,7 +21,6 @@ manager: jillfra
 # WriteCodeFragment Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Generates a temporary code file from the specified generated code fragment. Does not delete the file.  
   
 ## Parameters  

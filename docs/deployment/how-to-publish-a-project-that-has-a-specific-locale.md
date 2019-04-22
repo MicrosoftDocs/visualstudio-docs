@@ -29,13 +29,13 @@ It is not uncommon for an application to contain components that have different 
 
 ### To create the publishing macro
 
-1.  To open the Macro Explorer, on the **Tools** menu, point to **Macros**, and then click **Macro Explorer**.
+1. To open the Macro Explorer, on the **Tools** menu, point to **Macros**, and then click **Macro Explorer**.
 
-2.  Create a new macro module. In the Macro Explorer, select **MyMacros**. On the **Tools** menu, point to **Macros**, and then click **New Macro Module**. Name the module **PublishSpecificCulture**.
+2. Create a new macro module. In the Macro Explorer, select **MyMacros**. On the **Tools** menu, point to **Macros**, and then click **New Macro Module**. Name the module **PublishSpecificCulture**.
 
-3.  In the Macro Explorer, expand the **MyMacros** node, and then open the **PublishAllProjects** module by double-clicking it (or, from the **Tools** menu, point to **Macros**, and then click **Macros IDE**).
+3. In the Macro Explorer, expand the **MyMacros** node, and then open the **PublishAllProjects** module by double-clicking it (or, from the **Tools** menu, point to **Macros**, and then click **Macros IDE**).
 
-4.  In the Macros IDE, add the following code to the module, after the `Import` statements:
+4. In the Macros IDE, add the following code to the module, after the `Import` statements:
 
     ```vb
     Module PublishSpecificCulture
@@ -129,31 +129,31 @@ It is not uncommon for an application to contain components that have different 
     End Module
     ```
 
-5.  Close the Macros IDE. The focus will return to Visual Studio.
+5. Close the Macros IDE. The focus will return to Visual Studio.
 
 ### To publish a project for a specific locale
 
-1.  To create a Visual Basic Windows Application project, on the **File** menu, point to **New**, and then click **Project**.
+1. To create a Visual Basic Windows Application project, on the **File** menu, point to **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, select **Windows Application** from the **Visual Basic** node. Name the project *PublishLocales*.
+2. In the **New Project** dialog box, select **Windows Application** from the **Visual Basic** node. Name the project *PublishLocales*.
 
-3.  Click Form1. In the **Properties** window, under **Design**, change the **Language** property from **(Default)** to **English**. Change the **Text** property of the form to **MyForm**.
+3. Click Form1. In the **Properties** window, under **Design**, change the **Language** property from **(Default)** to **English**. Change the **Text** property of the form to **MyForm**.
 
      Note that the localized resource DLLs are not created until they are needed. For example, they are created when you change the text of the form or one of its controls after you have specified the new locale.
 
-4.  Publish *PublishLocales* by using the Visual Studio IDE.
+4. Publish *PublishLocales* by using the Visual Studio IDE.
 
      In **Solution Explorer**, select *PublishLocales*. On the **Project** menu, select **Properties**. In the Project Designer, on the **Publish** page, specify a publishing location of **http://localhost/PublishLocales**, and then click **Publish Now**.
 
      When the publish Web page appears, close it. (For this step, you only have to publish the project; you do not have to install it.)
 
-5.  Publish *PublishLocales* again by invoking the macro in the Visual Studio Command Prompt window. To view the Command Prompt window, on the **View** menu, point to **Other Windows** and then click **Command Window**, or press **Ctrl**+**Alt**+**A**. In the Command Prompt window, type `macros`; auto-complete will provide a list of available macros. Select the following macro and press ENTER:
+5. Publish *PublishLocales* again by invoking the macro in the Visual Studio Command Prompt window. To view the Command Prompt window, on the **View** menu, point to **Other Windows** and then click **Command Window**, or press **Ctrl**+**Alt**+**A**. In the Command Prompt window, type `macros`; auto-complete will provide a list of available macros. Select the following macro and press ENTER:
 
      `Macros.MyMacros.PublishSpecificCulture.PublishProjectFirstProjectWithEnLocale`
 
-6.  When the publish process succeeds, it will generate a message that says "Publish succeeded for *PublishLocales\PublishLocales.vbproj*. Publish language was 'en'." Click **OK** in the message box. When the publish Web page appears, click **Install**.
+6. When the publish process succeeds, it will generate a message that says "Publish succeeded for *PublishLocales\PublishLocales.vbproj*. Publish language was 'en'." Click **OK** in the message box. When the publish Web page appears, click **Install**.
 
-7.  Look in *C:\Inetpub\wwwroot\PublishLocales\en*. You should see the installed files such as the manifests, *setup.exe*, and the publish Web page file, in addition to the localized resource DLL. (By default ClickOnce appends a *.deploy* extension on EXEs and DLLs; you can remove this extension after deployment.)
+7. Look in *C:\Inetpub\wwwroot\PublishLocales\en*. You should see the installed files such as the manifests, *setup.exe*, and the publish Web page file, in addition to the localized resource DLL. (By default ClickOnce appends a *.deploy* extension on EXEs and DLLs; you can remove this extension after deployment.)
 
 ## See also
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

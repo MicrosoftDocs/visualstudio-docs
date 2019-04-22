@@ -20,12 +20,12 @@ ms.workload:
 
  This Ribbon object model consists mainly of the [Ribbon class](#RibbonClass), [Ribbon events](#RibbonEvents), and [Ribbon control classes](#RibbonControlClasses).
 
-##  <a name="RibbonClass"></a> Ribbon class
+## <a name="RibbonClass"></a> Ribbon class
  When you add a new **Ribbon (Visual Designer)** item to a project, Visual Studio adds a **Ribbon** class to your project. The **Ribbon** class inherits from the <xref:Microsoft.Office.Tools.Ribbon.RibbonBase> class.
 
  This class appears as a partial class that is split between the Ribbon code file and the Ribbon Designer code file.
 
-##  <a name="RibbonEvents"></a> Ribbon events
+## <a name="RibbonEvents"></a> Ribbon events
  The **Ribbon** class contains the following three events:
 
 |Event|Description|
@@ -34,7 +34,7 @@ ms.workload:
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.LoadImage>|Enables you to cache images in the Ribbon customization when the ribbon loads. You can get a slight performance gain if you write code to cache the Ribbon images in this event handler. For more information, see <xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage>.|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonBase.Close>|Raised when the Ribbon instance closes.|
 
-##  <a name="RibbonControlClasses"></a> Ribbon controls
+## <a name="RibbonControlClasses"></a> Ribbon controls
  The <xref:Microsoft.Office.Tools.Ribbon> namespace contains a type for each control that you see in the **Office Ribbon Controls** group of the **Toolbox**.
 
  The following table shows the type for each `Ribbon` control. For a description of each control, see [Ribbon overview](../vsto/ribbon-overview.md).
@@ -83,7 +83,7 @@ ms.workload:
 |Get the groups on a <xref:Microsoft.Office.Tools.Ribbon.RibbonTab>.|Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonTab.Groups%2A> property.|
 |Specify the number of rows and columns that appear in a <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery>.|Use the <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.RowCount%2A> and <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ColumnCount%2A> properties.|
 
-##  <a name="SettingReadOnlyProperties"></a> Set properties that become read-only
+## <a name="SettingReadOnlyProperties"></a> Set properties that become read-only
  Some properties can only be set before the ribbon loads. There are three places to set these properties:
 
 - In the Visual Studio **Properties** window.
@@ -120,7 +120,7 @@ ms.workload:
  [!code-vb[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/VisualBasic/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.vb#2)]
  [!code-csharp[Trin_Ribbon_ObjectModel#2](../vsto/codesnippet/CSharp/trin_Ribbon_objectmodel_dotnet4/ThisWorkbook.cs#2)]
 
-###  <a name="ReadOnlyProperties"></a> Properties that become read-only
+### <a name="ReadOnlyProperties"></a> Properties that become read-only
  The following table shows properties that can only be set before the ribbon loads.
 
 > [!NOTE]

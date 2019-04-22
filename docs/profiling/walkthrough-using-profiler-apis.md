@@ -33,8 +33,6 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
 
  For managed code, the profiler APIs are in the *Microsoft.VisualStudio.Profiler.dll*. This DLL is found in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory. For 64-bit apps, the folder is *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*. For more information, see <xref:Microsoft.VisualStudio.Profiler>.
 
-
-
 ## Prerequisites
  This walkthrough assumes your choice of development environment is configured to support debugging and sampling. The following topics provide an overview of these prerequisites:
 
@@ -56,12 +54,12 @@ DataCollection.CurrentId);
 
 #### To create the code to profile
 
-1.  Create a new C# project in Visual Studio, or use a command line build, depending on your preference.
+1. Create a new C# project in Visual Studio, or use a command line build, depending on your preference.
 
     > [!NOTE]
     >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory.
 
-2.  Copy and paste the following code into your project:
+2. Copy and paste the following code into your project:
 
     ```csharp
     using System;
@@ -144,23 +142,23 @@ DataCollection.CurrentId);
 
 #### To collect and view data at the command line
 
-1.  Compile a debug version of the sample code you created in the "Creating Code to Profile" procedure, earlier in this walkthrough.
+1. Compile a debug version of the sample code you created in the "Creating Code to Profile" procedure, earlier in this walkthrough.
 
-2.  To profile a managed application, type the following command to set the appropriate environment variables:
+2. To profile a managed application, type the following command to set the appropriate environment variables:
 
      **VsPerfCLREnv /traceon**
 
-3.  Type the following command: **VSInstr \<filename>.exe**
+3. Type the following command: **VSInstr \<filename>.exe**
 
-4.  Type the following command: **VSPerfCmd /start:trace /output:\<filename>.vsp**
+4. Type the following command: **VSPerfCmd /start:trace /output:\<filename>.vsp**
 
-5.  Type the following command: **VSPerfCmd /globaloff**
+5. Type the following command: **VSPerfCmd /globaloff**
 
-6.  Execute your program.
+6. Execute your program.
 
-7.  Type the following command: **VSPerfCmd /shutdown**
+7. Type the following command: **VSPerfCmd /shutdown**
 
-8.  Type the following command: **VSPerfReport /calltrace:\<filename>.vsp**
+8. Type the following command: **VSPerfReport /calltrace:\<filename>.vsp**
 
      A .*csv* file is created in the current directory with the resulting performance data.
 

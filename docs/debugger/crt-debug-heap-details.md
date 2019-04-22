@@ -265,7 +265,7 @@ The Debug version of the `delete` operator works with all block types and requir
 
 ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)
 
-##  <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions
+## <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions
  **_CrtMemState**
 
  To capture a summary snapshot of the state of the heap at a given time, use the _CrtMemState structure defined in CRTDBG.H:

@@ -19,15 +19,15 @@ If you want to work with the **Properties** window or the **Property** pages, fo
   
 ### To announce selection to the environment  
   
-1.  Call `QueryInterface` for <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>.  
+1. Call `QueryInterface` for <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>.  
   
-    1.  To do this, use the site pointer passed to the view when it was created.  
+    1. To do this, use the site pointer passed to the view when it was created.  
   
-    2.  Call `QueryService` from the view for the `SID_STrackSelection` service.  
+    2. Call `QueryService` from the view for the `SID_STrackSelection` service.  
   
          This returns a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
   
-2.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> method every time your selection changes, and pass a pointer to an object that implements <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.  
+2. Call the <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> method every time your selection changes, and pass a pointer to an object that implements <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.  
   
      The selection container object can use either single or multiple selections and contains the selection information in an `IDispatch` object. Calling the <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange%2A> method notifies the **Properties** window that the selection has changed. The **Properties** window then uses the objects on <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> to determine whether single or multiple selections have occurred, and what the actual object selections are.  
   

@@ -17,7 +17,6 @@ manager: jillfra
 # /ResetAddin (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Removes commands and command UI associated with the specified Add-in.  
   
 ## Syntax  

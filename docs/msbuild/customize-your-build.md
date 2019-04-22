@@ -12,7 +12,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Customize your build (C#, F#, Visual Basic)
+# Customize your build
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 
@@ -45,6 +45,7 @@ For example, if you wanted to enable all of your projects to access the new Rosl
     </PropertyGroup>
    </Project>
    ```
+
 3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
 
 ### Search scope

@@ -70,7 +70,6 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                           Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                            |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                              Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                              |
 
-
 8. Start the service from Windows Service Control Manager.  
 
 ## Controlling Data Collection  
@@ -78,7 +77,7 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -93,19 +92,19 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
 
 #### To end a profiling session  
 
-1.  Stop the service from Service Control Manager.  
+1. Stop the service from Service Control Manager.  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  When you have completed all profiling, clear the profiling environment variables. Type:  
+3. When you have completed all profiling, clear the profiling environment variables. Type:  
 
      **VSPerfClrEnv /globaloff**  
 
-4.  Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
+4. Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
 
-5.  Restart the computer.  
+5. Restart the computer.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

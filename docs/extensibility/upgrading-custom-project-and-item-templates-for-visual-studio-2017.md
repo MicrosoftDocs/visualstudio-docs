@@ -26,36 +26,36 @@ For other (non-user) locations, you must include a manifest(.vstman) file that s
 
 ## How to Update a VSIX Extension with Project or Item Templates
 
-1.  Open the solution in Visual Studio 2017. You will be asked to upgrade the code. Click **OK**.
+1. Open the solution in Visual Studio 2017. You will be asked to upgrade the code. Click **OK**.
 
-2.  After the upgrade completes, you may need to change the version of the install target. In the VSIX project, open the source.extension.vsixmanifest file and select the **Install Targets** tab. If the **Version Range** field is **[14.0]**, click **Edit** and change it to include Visual Studio 2017. For example, you can set it to **[14.0,15.0]** to install the extension to either Visual Studio 2015 or Visual Studio 2017, or to **[15.0]** to install it to just Visual Studio 2017.
+2. After the upgrade completes, you may need to change the version of the install target. In the VSIX project, open the source.extension.vsixmanifest file and select the **Install Targets** tab. If the **Version Range** field is **[14.0]**, click **Edit** and change it to include Visual Studio 2017. For example, you can set it to **[14.0,15.0]** to install the extension to either Visual Studio 2015 or Visual Studio 2017, or to **[15.0]** to install it to just Visual Studio 2017.
 
-3.  Recompile the code.
+3. Recompile the code.
 
-4.  Close Visual Studio.
+4. Close Visual Studio.
 
-5.  Install the VSIX.
+5. Install the VSIX.
 
-6.  You can test the update by doing the following:
+6. You can test the update by doing the following:
 
-    1.  The file scanning change is activated by the following registry key:
+    1. The file scanning change is activated by the following registry key:
 
          **reg add hklm\software\microsoft\visualstudio\15.0\VSTemplate /v DisableTemplateScanning /t REG_DWORD /d 1 /reg:32**
 
-    2.  After you have added the key, run **devenv /installvstemplates**.
+    2. After you have added the key, run **devenv /installvstemplates**.
 
-    3.  Reopen Visual Studio. You should find your template in the expected location.
+    3. Reopen Visual Studio. You should find your template in the expected location.
 
     > [!NOTE]
     >  The Visual Studio Extensibility project templates are not available when the registry key is present. You must delete the registry key (and rerun **devenv /installvstemplates**) to use them.
 
 ## Other Recommendations for Deploying Project and Item Templates
 
--   Avoid using zipped template files. Zipped template files need to be uncompressed in order to retrieve resources and content, so they will be costlier to use. Instead, you should deploy project and item templates as individual files under their own directory to speed up template initialization. For VSIX extensions, SDK build tasks will automatically unzip any zipped template while creating the VSIX file.
+- Avoid using zipped template files. Zipped template files need to be uncompressed in order to retrieve resources and content, so they will be costlier to use. Instead, you should deploy project and item templates as individual files under their own directory to speed up template initialization. For VSIX extensions, SDK build tasks will automatically unzip any zipped template while creating the VSIX file.
 
--   Avoid using package/resource ID entries for the template name, description, icon, or preview in order to avoid unnecessary resource assembly loads during template discovery. Instead, you can use localized manifests to create a template entry for each locale, which uses localized names or properties.
+- Avoid using package/resource ID entries for the template name, description, icon, or preview in order to avoid unnecessary resource assembly loads during template discovery. Instead, you can use localized manifests to create a template entry for each locale, which uses localized names or properties.
 
--   If you are including templates as file items, manifest generation might not give you the expected results. In that case, you will have to add a manually generated manifest to the VSIX project.
+- If you are including templates as file items, manifest generation might not give you the expected results. In that case, you will have to add a manually generated manifest to the VSIX project.
 
 ## File Changes in Project and Item Templates
 We show the points of difference between the Visual Studio 2015 and Visual Studio 2017 versions of the template files, so that you can create the new files correctly.

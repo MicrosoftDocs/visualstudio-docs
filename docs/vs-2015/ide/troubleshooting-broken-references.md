@@ -48,11 +48,11 @@ If your application attempts to use a broken reference, an exception error is ge
   
 #### To fix a broken project reference by correcting the reference path  
   
-1.  In **Solution Explorer**, right-click your project node and click **Properties**.  
+1. In **Solution Explorer**, right-click your project node and click **Properties**.  
   
-2.  The **Project Designer** appears.  
+2. The **Project Designer** appears.  
   
-3.  If you are using Visual Basic, select the **References** page and click the **Reference Paths** button. In the **Reference Paths** dialog box, type the path of the folder that contains the item you want to reference in the **Folder** field, and then click the **Add Folder** button.  
+3. If you are using Visual Basic, select the **References** page and click the **Reference Paths** button. In the **Reference Paths** dialog box, type the path of the folder that contains the item you want to reference in the **Folder** field, and then click the **Add Folder** button.  
   
      -or-  
   
@@ -63,20 +63,20 @@ If your application attempts to use a broken reference, an exception error is ge
   
 #### To fix a broken project reference for a file that no longer exists on your drive  
   
--   Delete the reference.  
+- Delete the reference.  
   
--   If the reference exists in another location on your computer, read it from that location.  
+- If the reference exists in another location on your computer, read it from that location.  
   
--   For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+- For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 ## Referenced File Has Been Renamed  
  It is possible that the file being referenced has been renamed.  
   
 #### To fix a broken reference for a file that has been renamed  
   
--   Delete the reference, and then add a reference to the renamed file.  
+- Delete the reference, and then add a reference to the renamed file.  
   
--   If the reference exists in another location on your computer, you have to read it in from that location. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
+- If the reference exists in another location on your computer, you have to read it in from that location. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
 ## Network Connection or Authentication Has Failed  
  There can be many possible causes for inaccessible files: a failed network connection or a failed authentication, for example. Each cause might have a unique means of recovery; for example, you might have to contact the local administrator for access to the required resources. However, deleting the reference and fixing the code which used it is always an option. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  

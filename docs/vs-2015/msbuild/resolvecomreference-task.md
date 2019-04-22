@@ -23,7 +23,6 @@ manager: jillfra
 # ResolveComReference Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Takes a list of one or more type library names or .tlb files and resolves those type libraries to locations on disk.  
   
 ## Parameters  

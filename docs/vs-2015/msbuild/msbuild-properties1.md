@@ -15,7 +15,6 @@ manager: jillfra
 # MSBuild Properties1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Properties are name-value pairs that can be used to configure builds. Properties are useful for passing values to tasks, evaluating conditions, and storing values that will be referenced throughout the project file.  
   
 ## Defining and Referencing Properties in a Project File  
@@ -106,11 +105,11 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ## Creating Properties During Execution  
  Properties positioned outside `Target` elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, properties can be created or modified as follows:  
   
--   A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.  
+- A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.  
   
--   A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.  
+- A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.  
   
--   Starting in the .NET Framework 3.5, `Target` elements may contain `PropertyGroup` elements that may contain property declarations.  
+- Starting in the .NET Framework 3.5, `Target` elements may contain `PropertyGroup` elements that may contain property declarations.  
   
 ## Storing XML in Properties  
  Properties can contain arbitrary XML, which can help in passing values to tasks or displaying logging information. The following example shows the `ConfigTemplate` property, which has a value that contains XML and other property references. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] replaces the property references by using their respective property values. Property values are assigned in the order in which they appear. Therefore, in this example, `$(MySupportedVersion)`, `$(MyRequiredVersion)`, and `$(MySafeMode)` should have already been defined.  

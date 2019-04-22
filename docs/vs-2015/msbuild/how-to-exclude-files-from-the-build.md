@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Exclude Files from the Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 In a project file you can use wildcards to include all the files in one directory or a nested set of directories as inputs for a build. However, there might be one file in the directory or one directory in a nested set of directories that you do not want to include as input for a build. You can explicitly exclude that file or directory from the list of inputs. There may also be a file in a project that you only want to include under certain conditions. You can explicitly declare the conditions under which a file is included in a build.  
   
 ## Excluding a File or Directory from the Inputs for a Build  
@@ -34,7 +33,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include all .cs or .vb files except Form2  
   
--   Use one of the following `Include` and `Exclude` attributes:  
+- Use one of the following `Include` and `Exclude` attributes:  
   
     ```  
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
@@ -48,7 +47,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include all .cs or .vb files except Form2 and Form3  
   
--   Use one of the following `Include` and `Exclude` attributes:  
+- Use one of the following `Include` and `Exclude` attributes:  
   
     ```  
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
@@ -62,7 +61,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include all .jpg files in subdirectories of the Images directory except those in the Version2 directory  
   
--   Use the following `Include` and `Exclude` attributes:  
+- Use the following `Include` and `Exclude` attributes:  
   
     ```  
     <JPGFile  
@@ -78,7 +77,7 @@ In a project file you can use wildcards to include all the files in one director
   
 #### To include the file Formula.vb only in Release builds  
   
--   Use a `Condition` attribute similar to the following:  
+- Use a `Condition` attribute similar to the following:  
   
     ```  
     <Compile  

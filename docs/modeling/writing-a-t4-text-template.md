@@ -19,11 +19,11 @@ A text template contains the text that will be generated from it. For example, a
 
  Text templates are composed of the following parts:
 
--   **Directives** - elements that control how the template is processed.
+- **Directives** - elements that control how the template is processed.
 
--   **Text blocks** - content that is copied directly to the output.
+- **Text blocks** - content that is copied directly to the output.
 
--   **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
+- **Control blocks** - program code that inserts variable values into the text, and controls conditional or repeated parts of the text.
 
 To try the examples in this topic, copy them into a template file as described in [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). After editing the template file, save it, and then inspect the output **.txt** file.
 

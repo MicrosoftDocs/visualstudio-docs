@@ -29,7 +29,6 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 
  **SortPriority** = dword:00000064
 
-
 | Name | Type | Data (from *.rgs* file) | Description |
 |------------------|-----------| - | - |
 | @ (Default) | REG_SZ | #%IDS_ADDITEM_TEMPLATES_ENTRY% | Resource ID for **Add Item** templates. |

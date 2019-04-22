@@ -17,7 +17,6 @@ manager: jillfra
 # Task Writing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], see [Task Reference](../msbuild/msbuild-task-reference.md).  
   
 ## Tasks  

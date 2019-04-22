@@ -27,9 +27,9 @@ An instance of an editor window can be split into two separate views for easier 
 
 ### To split a pane
 
-1.  Click within the editor window to give it focus.
+1. Click within the editor window to give it focus.
 
-2.  From the **Window** menu, select **Split**.
+2. From the **Window** menu, select **Split**.
 
      The editing area divides into two panes separated by a splitter bar. You can scroll these panes independently to view and edit different parts of the active document at the same time. Any changes made in one pane are reflected in the other.
 
@@ -38,7 +38,7 @@ An instance of an editor window can be split into two separate views for easier 
 
 ### To return to single-pane view
 
--   From the **Window** menu, select **Remove Split**.
+- From the **Window** menu, select **Remove Split**.
 
 ## Create new windows
 

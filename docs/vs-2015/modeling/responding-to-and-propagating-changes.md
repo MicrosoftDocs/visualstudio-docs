@@ -39,13 +39,13 @@ When an element is created, deleted or updated, you can write code that propagat
   
  Use store events to synchronize the model with objects outside the Store, and rules to maintain consistency within the Store.  
   
--   **Creating Custom Rules** You create a custom rule as a derived class from an abstract rule. You must also notify the framework about the custom rule. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
+- **Creating Custom Rules** You create a custom rule as a derived class from an abstract rule. You must also notify the framework about the custom rule. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
--   **Subscribing to Events** Before you can subscribe to an event, create an event handler and delegate. Then use the <xref:Microsoft.VisualStudio.Modeling.Store.EventManagerDirectory%2A>property to subscribe to the event. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
+- **Subscribing to Events** Before you can subscribe to an event, create an event handler and delegate. Then use the <xref:Microsoft.VisualStudio.Modeling.Store.EventManagerDirectory%2A>property to subscribe to the event. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   
--   **Undoing Changes** When you undo a transaction, events are raised, but rules are not applied. If a rule changes a value and you undo that change, the value is reset to the original value during the undo action. When an event is raised, you must manually change the value back to its original value. To learn more about transactons and undo, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
+- **Undoing Changes** When you undo a transaction, events are raised, but rules are not applied. If a rule changes a value and you undo that change, the value is reset to the original value during the undo action. When an event is raised, you must manually change the value back to its original value. To learn more about transactons and undo, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
   
--   **Passing Event Arguments to Rules and Events** Both events and rules are passed an `EventArgs` parameter that has information about how the model changed.  
+- **Passing Event Arguments to Rules and Events** Both events and rules are passed an `EventArgs` parameter that has information about how the model changed.  
   
 ## See Also  
  [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)   

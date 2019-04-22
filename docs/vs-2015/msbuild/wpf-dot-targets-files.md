@@ -22,7 +22,6 @@ manager: jillfra
 # WPF .Targets Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[TLA#tla_winclient](../includes/tlasharptla-winclient-md.md)] extends the [!INCLUDE[TLA#tla_msbuild](../includes/tlasharptla-msbuild-md.md)] by adding a set of [!INCLUDE[TLA2#tla_wpf](../includes/tla2sharptla-wpf-md.md)]-specific tasks that are combined into a special .targets file, **Microsoft.WinFX.targets**. This file combines the set of [!INCLUDE[TLA2#tla_msbuild](../includes/tla2sharptla-msbuild-md.md)] tasks that are required to build an [!INCLUDE[TLA2#tla_msbuild](../includes/tla2sharptla-msbuild-md.md)] project in [!INCLUDE[TLA#tla_winclient](../includes/tlasharptla-winclient-md.md)].  
   
 ## See Also  

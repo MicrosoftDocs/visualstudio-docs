@@ -311,7 +311,6 @@ The [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) c
 
 Command-line .tlog files contain information about command lines used in the build. They are only used for incremental builds, not up-to-date checks, so the internal format is determined by the MSBuild task that produces them.
 
-
 ### Read .tlog format
 
 *Read* .tlog files (\*.read.\*.tlog) contain information about source files and their dependencies.

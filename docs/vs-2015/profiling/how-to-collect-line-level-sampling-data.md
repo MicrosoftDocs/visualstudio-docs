@@ -46,11 +46,11 @@ Line-level sampling is the ability of the profiler to determine where in the cod
 ### Turn Off Line-level Sampling for Managed Code  
  By default, line-level sampling is turned on. You can turn off line-level data collection for managed code by doing one of the following:  
   
--   Before profiling, type **VSPerfCLREnv /samplelineoff**. This affects both applications and services.  
+- Before profiling, type **VSPerfCLREnv /samplelineoff**. This affects both applications and services.  
   
      — or —  
   
--   When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
+- When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

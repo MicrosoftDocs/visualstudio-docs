@@ -58,6 +58,7 @@ public static void Main(string[] args)
     host.Run();
 }
 ```
+
 An ASP.NET Core app creates a web server in its main method by configuring and launching a host via an instance of [`WebHostBuilder`](/aspnet/core/fundamentals/hosting). This builder provides methods to allow the host to be configured. In the template app the following configurations are used:
 
 * `UseKestrel`: Specifies the Kestrel server will be used by the app
@@ -99,8 +100,8 @@ public class Startup
 
 This Startup class must always adhere to the following rules:
 
- - It must always be public
- - It must contain the two public methods: `ConfigureServices` and `Configure`
+- It must always be public
+- It must contain the two public methods: `ConfigureServices` and `Configure`
 
 The `ConfigureServices` method defines the services that will be used by your app.
 
@@ -213,7 +214,6 @@ To add a controller, do the following:
 9. Try to browse to `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy` (replacing `xxxx` with the correct port), you should see the following:
 
     ![Running app in browser with arguments](media/asp-net-core-image10.png)
-
 
 ## Troubleshooting
 

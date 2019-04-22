@@ -49,7 +49,7 @@ manager: jillfra
   
 #### To rename an identifier  
   
-1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
+1. Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -70,23 +70,23 @@ manager: jillfra
     }  
     ```  
   
-2.  Place the cursor on `MethodB`, either in the method declaration or the method call.  
+2. Place the cursor on `MethodB`, either in the method declaration or the method call.  
   
-3.  From the **Refactor** menu, select **Rename**. The **Rename** dialog box appears.  
+3. From the **Refactor** menu, select **Rename**. The **Rename** dialog box appears.  
   
      You can also right-click the cursor, point to **Refactor** on the context menu, and then click **Rename** to display the **Rename** dialog box.  
   
-4.  In the **New Name** field, type `MethodC`.  
+4. In the **New Name** field, type `MethodC`.  
   
-5.  Select the **Search in Comments** check box.  
+5. Select the **Search in Comments** check box.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-7.  In the **Preview Changes** dialog box, click **Apply**.  
+7. In the **Preview Changes** dialog box, click **Apply**.  
   
 #### To rename an identifier using smart tags  
   
-1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
+1. Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -107,18 +107,18 @@ manager: jillfra
     }  
     ```  
   
-2.  In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
+2. In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
   
     > [!NOTE]
     >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
   
-3.  Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
+3. Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
   
      -or-  
   
      Move the mouse pointer over the smart tag prompt to display the smart tag. Then move the mouse pointer over the smart tag and click the DOWN ARROW to display the smart tag menu.  
   
-4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
+4. Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
   
      -or-  
   

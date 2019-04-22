@@ -25,7 +25,6 @@ manager: jillfra
 # /ProjectConfig (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/project` argument.  
   
 ## Syntax  
@@ -61,11 +60,11 @@ devenv SolutionName {/build|/clean|/rebuild|/deploy} SolnConfigName [/project Pr
   
 ## Remarks  
   
--   Must be used with the `/project` switch as part of a `devenv /build`, /`clean`, `/rebuild`, or `/deploy` command.  
+- Must be used with the `/project` switch as part of a `devenv /build`, /`clean`, `/rebuild`, or `/deploy` command.  
   
--   Enclose strings that include spaces in double quotation marks.  
+- Enclose strings that include spaces in double quotation marks.  
   
--   Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
+- Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
   
 ## Example  
  This example builds the project `CSharpConsoleApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.  

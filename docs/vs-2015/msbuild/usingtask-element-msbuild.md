@@ -23,7 +23,6 @@ manager: jillfra
 # UsingTask Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.  
   
  \<Project>  

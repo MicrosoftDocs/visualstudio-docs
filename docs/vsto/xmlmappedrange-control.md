@@ -35,21 +35,21 @@ ms.workload:
 ## Events
  The events available for the <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control are:
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Change>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Change>
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Selected>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Selected>
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Deselected>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Deselected>
 
--   <xref:System.ComponentModel.Component.Disposed>
+- <xref:System.ComponentModel.Component.Disposed>
 
--   <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.SelectionChange>
+- <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.SelectionChange>
 
 ## See also
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)

@@ -37,11 +37,11 @@ public partial class MyShape // change
 
 #### To intercept a click on an icon decorator
 
-1.  Open or create a DSL solution.
+1. Open or create a DSL solution.
 
-2.  Choose or create a shape that has an icon decorator, and map it to a domain class.
+2. Choose or create a shape that has an icon decorator, and map it to a domain class.
 
-3.  In a code file that is separate from the files in the `GeneratedCode` folder, create the new subclass of ImageField:
+3. In a code file that is separate from the files in the `GeneratedCode` folder, create the new subclass of ImageField:
 
     ```csharp
     using Microsoft.VisualStudio.Modeling;
@@ -79,7 +79,7 @@ public partial class MyShape // change
 
      You should set Handled to true if you do not want the event to be passed to the containing shape.
 
-4.  Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.
+4. Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.
 
     ```csharp
     public partial class MyShape // change
@@ -106,9 +106,9 @@ public partial class MyShape // change
     }
     ```
 
-1.  Build and run the solution.
+1. Build and run the solution.
 
-2.  Double-click the icon on an instance of the shape. Your test message should appear.
+2. Double-click the icon on an instance of the shape. Your test message should appear.
 
 ## Intercepting clicks and drags on CompartmentShape lists
  The following sample allows users to re-order items in a compartment shape by dragging them. To run this code:
@@ -125,19 +125,19 @@ public partial class MyShape // change
 
    In summary, the code works as follows. In this example, `ClassShape` is the name of the compartment shape.
 
--   A set of mouse event handlers is attached to each compartment instance when it is created.
+- A set of mouse event handlers is attached to each compartment instance when it is created.
 
--   The `ClassShape.MouseDown` event stores the current item.
+- The `ClassShape.MouseDown` event stores the current item.
 
--   When the mouse moves out of the current item, an instance of MouseAction is created, which sets the cursor and captures the mouse until it is released.
+- When the mouse moves out of the current item, an instance of MouseAction is created, which sets the cursor and captures the mouse until it is released.
 
      To avoid interfering with other mouse actions, such as selecting the text of an item, the MouseAction is not created until the mouse has left the original item.
 
      An alternative to creating a MouseAction would be simply to listen for MouseUp. However, this would not work properly if the user releases the mouse after dragging it outside the compartment. The MouseAction is able to perform the appropriate action no matter where the mouse is released.
 
--   When the mouse is released, MouseAction.MouseUp rearranges the order of the links between the model elements.
+- When the mouse is released, MouseAction.MouseUp rearranges the order of the links between the model elements.
 
--   The change of role order fires a rule that updates the display. This behavior is already defined, and no additional code is required.
+- The change of role order fires a rule that updates the display. This behavior is already defined, and no additional code is required.
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;

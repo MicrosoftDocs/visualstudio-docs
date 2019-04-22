@@ -26,24 +26,24 @@ ms.workload:
 
 ### To add a custom task pane to an application
 
-1.  Open or create a VSTO Add-in project for one of the applications listed above. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Open or create a VSTO Add-in project for one of the applications listed above. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-2.  On the **Project** menu, click **Add User Control**.
+2. On the **Project** menu, click **Add User Control**.
 
-3.  In the **Add New Item** dialog box, change the name of the new user control to **MyUserControl**, and then click **Add**.
+3. In the **Add New Item** dialog box, change the name of the new user control to **MyUserControl**, and then click **Add**.
 
      The user control opens in the designer.
 
-4.  Add one or more Windows Forms controls from the **Toolbox** to the user control.
+4. Add one or more Windows Forms controls from the **Toolbox** to the user control.
 
-5.  Open the **ThisAddIn.cs** or **ThisAddIn.vb** code file.
+5. Open the **ThisAddIn.cs** or **ThisAddIn.vb** code file.
 
-6.  Add the following code to the `ThisAddIn` class. This code declares instances of `MyUserControl` and <xref:Microsoft.Office.Tools.CustomTaskPane> as members of the `ThisAddIn` class.
+6. Add the following code to the `ThisAddIn` class. This code declares instances of `MyUserControl` and <xref:Microsoft.Office.Tools.CustomTaskPane> as members of the `ThisAddIn` class.
 
      [!code-vb[Trin_TaskPaneBasic#1](../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb#1)]
      [!code-csharp[Trin_TaskPaneBasic#1](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#1)]
 
-7.  Add the following code to the `ThisAddIn_Startup` event handler. This code creates a new <xref:Microsoft.Office.Tools.CustomTaskPane> by adding the `MyUserControl` object to the `CustomTaskPanes` collection. The code also displays the task pane.
+7. Add the following code to the `ThisAddIn_Startup` event handler. This code creates a new <xref:Microsoft.Office.Tools.CustomTaskPane> by adding the `MyUserControl` object to the `CustomTaskPanes` collection. The code also displays the task pane.
 
      [!code-vb[Trin_TaskPaneBasic#2](../vsto/codesnippet/VisualBasic/Trin_TaskPaneBasic/ThisAddIn.vb#2)]
      [!code-csharp[Trin_TaskPaneBasic#2](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#2)]

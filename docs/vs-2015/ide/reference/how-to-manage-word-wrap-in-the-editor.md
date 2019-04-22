@@ -17,7 +17,6 @@ manager: jillfra
 # How to: Manage Word Wrap in the Editor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.  
   
  For more information, see [How to: Set General Editor Options](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2).  
@@ -29,19 +28,19 @@ You can set and clear the **Word wrap** option. When this option is set, the por
   
 #### To set word wrap preferences  
   
-1.  On the **Tools** menu, select **Options**.  
+1. On the **Tools** menu, select **Options**.  
   
-2.  In the **Text Editor** folder, choose the **General** options in the **All Languages** subfolder to set this option globally.  
+2. In the **Text Editor** folder, choose the **General** options in the **All Languages** subfolder to set this option globally.  
   
      — or —  
   
      Choose the **General** options in the subfolder for the language in which you are programming.  
   
-3.  Under **Settings**, select or clear the **Word wrap** option.  
+3. Under **Settings**, select or clear the **Word wrap** option.  
   
      When the **Word wrap** option is selected, the **Show visual glyphs for word wrap** option is enabled.  
   
-4.  Select the **Show visual glyphs for Word Wrap** option if you prefer to display a return-arrow indicator where a long line wraps onto a second line. Clear this option if you prefer not to display indicator arrows.  
+4. Select the **Show visual glyphs for Word Wrap** option if you prefer to display a return-arrow indicator where a long line wraps onto a second line. Clear this option if you prefer not to display indicator arrows.  
   
     > [!NOTE]
     >  These reminder arrows are not added to your code: they are for display purposes only.  

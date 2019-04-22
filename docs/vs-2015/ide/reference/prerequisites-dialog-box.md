@@ -21,7 +21,6 @@ manager: jillfra
 # Prerequisites Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.  
   
  To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Publish** tab. On the **Publish** page, click **Prerequisites**. For Setup projects, on the **Project** menu, click **Properties**. When the **Property Pages** dialog box appears, click **Prerequisites**.  

@@ -22,11 +22,11 @@ VSPackages that are written in managed code might have to call or be called by u
   
  The reference documentation for each method contains three relevant sections:  
   
--   The [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] COM function prototype.  
+- The [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] COM function prototype.  
   
--   The interop assembly method prototype.  
+- The interop assembly method prototype.  
   
--   A list of the COM parameters and a short description of each.  
+- A list of the COM parameters and a short description of each.  
   
 ##### Look for differences between the two prototypes  
  Most interoperability issues derive from mismatches between the definition of a particular type in a COM interface and the definition of the same type in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interop assemblies. For example, consider the difference in the ability to pass a `null` value in an [out] parameter. You must look for differences between the two prototypes and consider their ramifications for the data being passed.  
@@ -73,17 +73,17 @@ else
 > [!NOTE]
 >  The following methods are known to pass `IUnknown` object pointers as type <xref:System.IntPtr>. Handle them as described in this section.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>  
   
 ### Optional [out] Parameters  
  Look for parameters that are defined as an [out] data type (`int`, `object`, and so on) in the COM interface, but that are defined as arrays of the same data type in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interop assembly method prototype.  

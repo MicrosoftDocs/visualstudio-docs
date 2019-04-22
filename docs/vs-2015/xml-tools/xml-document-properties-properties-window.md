@@ -13,7 +13,6 @@ manager: jillfra
 # XML Document Properties, Properties Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Properties** window provides basic information about the document that is active in the XML Editor. The properties that are available vary depending on the type of XML document that is currently active.  
   
 > [!NOTE]

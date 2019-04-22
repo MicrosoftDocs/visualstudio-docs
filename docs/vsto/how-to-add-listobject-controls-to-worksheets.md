@@ -31,51 +31,51 @@ ms.workload:
 
   For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject control](../vsto/listobject-control.md).
 
-##  <a name="designtime"></a> Add ListObject controls at design time
+## <a name="designtime"></a> Add ListObject controls at design time
  There are several ways to add <xref:Microsoft.Office.Tools.Excel.ListObject> controls to a worksheet in a document-level project at design time: From within Excel, from the Visual Studio **Toolbox**, and from the **Data Sources** window.
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ### To use the Ribbon in Excel
 
-1.  On the **Insert** tab, in the **Tables** group, click **Table**.
+1. On the **Insert** tab, in the **Tables** group, click **Table**.
 
-2.  Select the cell or cells you want to include in the list and click **OK**.
+2. Select the cell or cells you want to include in the list and click **OK**.
 
 #### To use the Toolbox
 
-1.  From the **Excel Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.ListObject> to the worksheet.
+1. From the **Excel Controls** tab of the **Toolbox**, drag a <xref:Microsoft.Office.Tools.Excel.ListObject> to the worksheet.
 
      The **Add ListObject Control** dialog box appears.
 
-2.  Select the cell or cells you want to include in the list and click **OK**.
+2. Select the cell or cells you want to include in the list and click **OK**.
 
      If you do not want to keep the default name, you can change the name in the **Properties** window.
 
 #### To use the Data Sources window
 
-1.  Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
+1. Open the **Data Sources** window and create a data source for your project. For more information, see [Add new connections](../data-tools/add-new-connections.md).
 
-2.  Drag a table from the **Data Sources** window to your worksheet.
+2. Drag a table from the **Data Sources** window to your worksheet.
 
      A data-bound <xref:Microsoft.Office.Tools.Excel.ListObject> control is added to the worksheet. For more information, see [Data binding and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
-##  <a name="runtimedoclevel"></a> Add ListObject controls at runtime in a document-level project
+## <a name="runtimedoclevel"></a> Add ListObject controls at runtime in a document-level project
  You can add the <xref:Microsoft.Office.Tools.Excel.ListObject> control dynamically at runtime. This enables you to create the host controls in response to events. Dynamically created list objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 #### To add a ListObject control to a worksheet programmatically
 
-1.  In the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler of `Sheet1`, insert the following code to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
+1. In the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event handler of `Sheet1`, insert the following code to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
 
      [!code-csharp[Trin_VstcoreHostControlsExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#2)]
      [!code-vb[Trin_VstcoreHostControlsExcel#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#2)]
 
-##  <a name="runtimeaddin"></a> Add ListObject controls at runtime in a VSTO Add-in project
+## <a name="runtimeaddin"></a> Add ListObject controls at runtime in a VSTO Add-in project
  You can add a <xref:Microsoft.Office.Tools.Excel.ListObject> control programmatically to any open worksheet in a VSTO Add-in project. Dynamically created list objects are not persisted in the worksheet as host controls when the worksheet is saved and then closed. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 #### To add a ListObject control to a worksheet programmatically
 
-1.  The following code generates a worksheet host item that is based on the open worksheet, and then adds a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
+1. The following code generates a worksheet host item that is based on the open worksheet, and then adds a <xref:Microsoft.Office.Tools.Excel.ListObject> control to cells **A1** through **A4**.
 
      [!code-csharp[Trin_Excel_Dynamic_Controls#8](../vsto/codesnippet/CSharp/Trin_Excel_Dynamic_Controls/ThisAddIn.cs#8)]
      [!code-vb[Trin_Excel_Dynamic_Controls#8](../vsto/codesnippet/VisualBasic/Trin_Excel_Dynamic_Controls/ThisAddIn.vb#8)]

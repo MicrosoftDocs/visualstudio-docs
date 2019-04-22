@@ -72,7 +72,6 @@ Identifies the version of the application to install, and the location of the ap
 ## dependentAssembly
  Required. This element contains the `assemblyIdentity` element. The following table shows the attributes the `dependentAssembly` supports.
 
-
 | Attribute | Description |
 |------------------| - |
 | `preRequisite` | Optional. Specifies that this assembly should already exist in the GAC. Valid values are `true` and `false`. If `true`, and the specified assembly does not exist in the GAC, the application fails to run. |
@@ -104,14 +103,12 @@ Identifies the version of the application to install, and the location of the ap
 ## dsig:Transform
  The `dsig:Transform` element is a required child of the `dsig:Transforms` element. The following table shows the attributes of the `dsig:Transform` element.
 
-
 | Attribute | Description |
 |-------------| - |
 | `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
 
 ## dsig:DigestMethod
  The `dsig:DigestMethod` element is a required child of the `hash` element. The following table shows the attributes of the `dsig:DigestMethod` element.
-
 
 | Attribute | Description |
 |-------------| - |

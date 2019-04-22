@@ -19,16 +19,15 @@ manager: jillfra
 # Toolbox, HTML Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **HTML** tab of the Toolbox provides components that are useful on Web pages and Web forms. To view this tab, first open a document for editing in the HTML designer. On the **View** menu, click **Toolbox**, and then click the **HTML** tab of the Toolbox.  
   
  To create an instance of a tool on the **HTML** tab, either double-click the tool to add it to your document at the current insertion point, or select the tool and drag it to the desired position on the editing surface.  
   
 ## Tasks  
   
--   [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+- [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
   
--   [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)  
+- [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)  
   
 ## UI Elements  
  The following tools are available by default on the HTML tab.  

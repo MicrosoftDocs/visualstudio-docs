@@ -41,23 +41,23 @@ In theory, you can extend just about any part of Visual Studio: menus, toolbars,
 
 In practice, we have found that the features most people want to extend are commands, menus and toolbars, windows, IntelliSense, and projects. Here are links to the relevant sections:
 
--   [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md): add your own items to Visual Studio menus and toolbars. You can use them to launch new Visual Studio functionality or your own external helper applications. You can also provide custom shortcuts for your menu items.
+- [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md): add your own items to Visual Studio menus and toolbars. You can use them to launch new Visual Studio functionality or your own external helper applications. You can also provide custom shortcuts for your menu items.
 
--   [Extending and Customizing Tool Windows](../extensibility/extending-and-customizing-tool-windows.md): extend existing tool windows or create your own tool windows. For instance, you could add new properties to the **Properties**, or you could create a new tool window to add additional features.
+- [Extending and Customizing Tool Windows](../extensibility/extending-and-customizing-tool-windows.md): extend existing tool windows or create your own tool windows. For instance, you could add new properties to the **Properties**, or you could create a new tool window to add additional features.
 
--   [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md): add your own customizations the IntelliSense provided for Visual Studio languages, or create support for new programming languages. You can create new statement completions, suggestions, and new QuickInfo tooltips. With light bulbs, you can add refactoring suggestions and code fixes to support new programming languages.
+- [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md): add your own customizations the IntelliSense provided for Visual Studio languages, or create support for new programming languages. You can create new statement completions, suggestions, and new QuickInfo tooltips. With light bulbs, you can add refactoring suggestions and code fixes to support new programming languages.
 
--   [Extending Projects](../extensibility/extending-projects.md)
+- [Extending Projects](../extensibility/extending-projects.md)
 
--   [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md)
+- [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md)
 
--   [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)
+- [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)
 
--   [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 
--   [Visual Studio Isolated Shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
+- [Visual Studio Isolated Shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
 
-##  <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?
+## <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.
 
  For Visual C# and Visual Basic extensions, the VSSDK provides an empty VSIX project template that you can use together with the new item templates that create menu commands, tool windows, and editor extensions. You can also use this template to package project templates, code snippets, and other artifacts for distribution to other users.
@@ -66,15 +66,15 @@ In practice, we have found that the features most people want to extend are comm
 
  The Isolated Shell template is used to package an extension in a version of the Visual Studio shell that you can brand and distribute as your own. The following topics show you how to get started with each kind of extension:
 
--   Menu commands: [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
+- Menu commands: [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
--   Tool windows: [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md)
+- Tool windows: [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md)
 
--   Editor extensions: [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md)
+- Editor extensions: [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md)
 
--   Basic VSPackages: [Creating an Extension with a VSPackage](../extensibility/creating-an-extension-with-a-vspackage.md)
+- Basic VSPackages: [Creating an Extension with a VSPackage](../extensibility/creating-an-extension-with-a-vspackage.md)
 
--   VSIX project template: [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md)
+- VSIX project template: [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md)
 
 ## How do I get my extension to look like Visual Studio?
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).

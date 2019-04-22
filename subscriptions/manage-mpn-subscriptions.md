@@ -37,7 +37,6 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
     - Contact Email
 13. Sign-in is now complete, and the subscriber should have access to benefits
 
-
 ### Competency Partners
 1. Select **Requirements and Assets**
 2. Select **Privileges**

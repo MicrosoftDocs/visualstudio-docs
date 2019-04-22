@@ -13,7 +13,6 @@ manager: jillfra
 # Query datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 To search for specific records in a dataset,  use the FindBy method on the DataTable, write your own foreach loop over the table's rows collection, or use [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17). LINQ to DataSet.  
   
 ## Dataset case sensitivity  
@@ -28,7 +27,7 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
 #### To find a row in a typed dataset with a primary key value  
   
--   To locate a row, call the strongly typed `FindBy` method that uses the table's primary key.  
+- To locate a row, call the strongly typed `FindBy` method that uses the table's primary key.  
   
      In the following example, the `CustomerID` column is the primary key of the `Customers` table. This means that the generated `FindBy` method is `FindByCustomerID`. The example shows how to assign a specific <xref:System.Data.DataRow> to a variable by using the generated `FindBy` method.  
   
@@ -37,7 +36,7 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
 #### To find a row in an untyped dataset with a primary key value  
   
--   Call the <xref:System.Data.DataRowCollection.Find%2A> method of a <xref:System.Data.DataRowCollection> collection, passing the primary key as a parameter.  
+- Call the <xref:System.Data.DataRowCollection.Find%2A> method of a <xref:System.Data.DataRowCollection> collection, passing the primary key as a parameter.  
   
      The following example shows how to declare a new row called `foundRow` and assign it the return value of the <xref:System.Data.DataRowCollection.Find%2A> method. If the primary key is found, the contents of column index 1 are displayed in a message box.  
   
@@ -48,7 +47,7 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
 #### To find rows based on the values in any column  
   
--   Data tables are created with the<xref:System.Data.DataTable.Select%2A> method,which returns an array of <xref:System.Data.DataRow>s based on the expression passed to the <xref:System.Data.DataTable.Select%2A> method. For more information about creating valid expressions, see the "Expression Syntax" section of the page about the <xref:System.Data.DataColumn.Expression%2A> property.  
+- Data tables are created with the<xref:System.Data.DataTable.Select%2A> method,which returns an array of <xref:System.Data.DataRow>s based on the expression passed to the <xref:System.Data.DataTable.Select%2A> method. For more information about creating valid expressions, see the "Expression Syntax" section of the page about the <xref:System.Data.DataColumn.Expression%2A> property.  
   
      The following example shows how to use the <xref:System.Data.DataTable.Select%2A> method of the <xref:System.Data.DataTable> to locate specific rows.  
   
@@ -77,14 +76,14 @@ Additionally, both tables need to be filled with data for any records to be retu
   
 #### To return the child records of a selected parent record  
   
--   Call the <xref:System.Data.DataRow.GetChildRows%2A> method of a specific `Customers` data row, and return an array of rows from the `Orders` table:  
+- Call the <xref:System.Data.DataRow.GetChildRows%2A> method of a specific `Customers` data row, and return an array of rows from the `Orders` table:  
   
      [!code-csharp[VbRaddataDatasets#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs#6)]
      [!code-vb[VbRaddataDatasets#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb#6)]  
   
 #### To return the parent record of a selected child record  
   
--   Call the <xref:System.Data.DataRow.GetParentRow%2A> method of a specific `Orders` data row, and return a single row from the `Customers` table:  
+- Call the <xref:System.Data.DataRow.GetParentRow%2A> method of a specific `Orders` data row, and return a single row from the `Customers` table:  
   
      [!code-csharp[VbRaddataDatasets#7](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataDatasets/CS/Form1.cs#7)]
      [!code-vb[VbRaddataDatasets#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataDatasets/VB/Form1.vb#7)]

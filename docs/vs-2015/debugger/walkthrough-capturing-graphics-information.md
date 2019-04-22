@@ -17,18 +17,18 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
  This walkthrough illustrates these tasks:  
   
--   Hooking Graphics Diagnostics to your app  
+- Hooking Graphics Diagnostics to your app  
   
--   Capturing graphics information  
+- Capturing graphics information  
   
 ## Capturing graphics information  
  To use the Graphics Diagnostics tools, you first have to capture the graphics information that it relies on. To enable capture, use the **Start Diagnostics** command to hook Graphics Diagnostics to your app when it starts.  
   
 #### To enable the capture of graphics information after a project or solution is loaded  
   
-1.  In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], load a project or solution file for the app that you want to capture graphics information from.  
+1. In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], load a project or solution file for the app that you want to capture graphics information from.  
   
-2.  On the Graphics Diagnostics toolbar, choose **Start Diagnostics**.  
+2. On the Graphics Diagnostics toolbar, choose **Start Diagnostics**.  
   
 #### To enable the capture of graphics information without loading a project or solution  
   
@@ -53,7 +53,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
 ## Next Steps  
  This walkthrough demonstrated how to capture graphics information manually. As a next step, consider this option:  
   
--   Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
+- Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md).  
   
 ## See Also  
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)

@@ -23,7 +23,6 @@ manager: jillfra
 # ConvertToAbsolutePath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Converts a relative path, or reference, into an absolute path.  
   
 ## Task Parameters  

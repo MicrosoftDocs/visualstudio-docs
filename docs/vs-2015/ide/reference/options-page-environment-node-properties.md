@@ -16,7 +16,6 @@ manager: jillfra
 # Options Page, Environment Node Properties
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This document describes the pages (or properties collections) that are associated with the **Environment** category, `DTE.Properties("Environment", <Property Page>)`, of the **Options** dialog box. The title of each subsection is the call that is used to access the Properties collection, and the table in each subsection lists the properties in the collection.  
   
 ## General  
