@@ -16,6 +16,75 @@ ms.workload:
 
 If the steps described in this article do not resolve your issue, contact snaphelp@microsoft.com.
 
+## Issue: "Attach Snapshot Debugger" encounters an HTTP status code error
+
+If you see the following error in the Output window during Attach, it may be a known issue listed below. Try the solutions proposed and contact our alias above if the issue continues to persist.
+
+`[TIMESTAMP] Error --- Unable to Start Snapshot Debugger - Attach Snapshot Debugger failed: System.Net.WebException: The remote server returned an error: (###) XXXXXX`
+
+### (401) Unauthorized
+
+This error indicates the REST call we are issuing to Azure uses an invalid credential. There is a known bug with the Azure Active Directory Easy OAuth module which may produce this error.
+
+Take these steps:
+
+* Make sure your logged-in Visual Studio account has permissions to the Azure subscription and resource that you are attaching to. A quick way to determine this is through the dialog pop up from Debug > Attach Snapshot Debugger... > Azure Resource > Select Existing, or via Cloud Explorer.
+* Contact us at the above alias if this error continues to persist.
+
+### (403) Forbidden
+
+This error indicates that permission is denied. This can be caused by many different issues.
+
+Take these steps:
+* Verify your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](https://docs.microsoft.com/en-us/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
+* Verify the timestamp of your client machine is correct and up-to-date. Servers with timestamps off by more than 15 minutes of the request timestamp usually produce this error.
+* Contact us at the above alias if this error continues to persist.
+
+### (404) Not Found
+
+This error indicates the website couldn't be found on the server.
+
+Take these steps:
+* Verify you have a website deployed and running on the App Service resource you're attaching to.
+* Verify the site is available at https://\<resource\>.azurewebsites.net
+* Contact us at the above alias if this error continues to persist.
+
+### (406) Not Acceptable
+
+This error indicates the server is unable to respond to the type set in the Accept header of the request.
+
+Take these steps:
+* Verify your site is available at https://\<resource\>.azurewebsites.net
+* Verify your site has not migrated to new instances. Snapshot Debugger uses the notion of ARRAffinity for routing requests to specific instances which can produce this error intermittently.
+* Contact us at the above alias if this error continues to persist.
+
+### (409) Conflict
+
+This error indicates the request conflicts with the current server state.
+
+We have a known issue when users attempt to attach Snapshot Debugger against an AppService that has enabled ApplicationInsights. ApplicationInsights sets the AppSettings with a different casing than Visual Studio, causing this issue.
+::: moniker range=">= vs-2019"
+We have resolved this in the latest version of VS 2019.
+::: moniker-end
+
+Take these steps:
+::: moniker range="< vs-2019"
+* Verify in the Azure portal if the AppSettings for SnapshotDebugger (SNAPSHOTDEBUGGER_EXTENSION_VERSION) and InstrumentationEngine (INSTRUMENTATIONENGINE_EXTENSION_VERSION) are uppercase. This will need to be manually updated and will force a site restart.
+::: moniker-end
+* Contact us at the above alias if this error continues to persist.
+
+### (500) Internal Server Error
+
+This error indicates the site is completely down or the server cannot handle the request. Snapshot Debugger only functions on running applications. [Application Insights Snapshot Debugger](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger) provides snapshotting on exceptions and may be the tool for your needs.
+
+### (502) Bad Gateway
+
+This error indicates a server-side networking issue and may be temporary.
+
+Take these steps:
+* Try waiting a few minutes before attaching the Snapshot Debugger again.
+* Contact us at the above alias if this error continues to persist.
+
 ## Issue: Snappoint does not turn on
 
 If you see a warning icon ![Snappoint warning icon](../debugger/media/snapshot-troubleshooting-snappoint-warning-icon.png "Snappoint warning icon") with your snappoint instead of the regular snappoint icon, then the snappoint is not turned on.
