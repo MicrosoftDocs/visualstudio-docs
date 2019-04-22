@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev.langs:
+  - CPP
+  - CSharp
 ---
 # ATTACH_REASON
 Specifies the reason for the debug engine (DE) to attach to a program node.
@@ -35,14 +38,14 @@ public enum enum_ATTACH_REASON {
 };
 ```
 
-## Members
-ATTACH_REASON_AUTO
+## Fields
+`ATTACH_REASON_AUTO`\
 Attach because the process is currently in debug mode.
 
-ATTACH_REASON_LAUNCH
+`ATTACH_REASON_LAUNCH`\
 Attach because the process has been launched.
 
-ATTACH_REASON_USER
+`ATTACH_REASON_USER`\
 Attach because of a user request.
 
 ## Remarks
@@ -55,7 +58,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)
 - [Attach](../../../extensibility/debugger/reference/idebugprogramex2-attach.md)
