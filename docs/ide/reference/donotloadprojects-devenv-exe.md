@@ -14,7 +14,7 @@ ms.workload:
 ---
 # /DoNotLoadProjects (devenv.exe)
 
-Opens the specified solution without loading any projects.
+Opens the specified solution without loading any projects. For more information, see [Filtered solutions in Visual Studio](../filtered-solutions.md).
 
 ## Syntax
 
@@ -24,9 +24,9 @@ devenv /DoNotLoadProjects SolutionName
 
 ## Arguments
 
-- *SolutionName*
+*SolutionName*
 
-  Required. The full path and name of the solution to be opened.
+Required. The full path and name of the solution to be opened.
 
 ## Example
 
@@ -38,4 +38,5 @@ devenv /donotloadprojects MySln.sln
 
 ## See also
 
+- [Filtered solutions in Visual Studio](../filtered-solutions.md)
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
