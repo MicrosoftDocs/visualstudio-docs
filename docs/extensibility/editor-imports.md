@@ -17,7 +17,7 @@ You can import a number of editor services, factories, and brokers that provide 
  To use an editor import, you import it as a field or property of a class that exports a Managed Extensibility Framework component part.
 
 > [!NOTE]
->  For more information about the Managed Extensibility Framework, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
+> For more information about the Managed Extensibility Framework, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
 
 ## Import syntax
  The following example shows how to import the editor options factory service.

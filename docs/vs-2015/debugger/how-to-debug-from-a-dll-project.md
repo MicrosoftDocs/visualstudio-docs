@@ -29,7 +29,7 @@ To start debugging a DLL project, you must specify the calling application in th
  If a managed DLL is called by native code and you want to debug both, you can specify this in the project properties. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  
   
 > [!NOTE]
->  You cannot specify an external calling application in Express editions of Visual Studio. Instead, you need to add an executable project to the solution, set it as the startup project, and call methods in your DLL from the executable project.  
+> You cannot specify an external calling application in Express editions of Visual Studio. Instead, you need to add an executable project to the solution, set it as the startup project, and call methods in your DLL from the executable project.  
   
 ### To specify the calling application in a C++ project  
   

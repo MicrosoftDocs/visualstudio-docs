@@ -41,7 +41,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
      Notice that when you change the `<Window` tag to `<NavigationWindow`, Intellisense automatically changes the closing tag to `</NavigationWindow>` as well.  
   
     > [!NOTE]
-    >  After changing the tag, if the **Error List** window is open you may notice several errors. Don’t worry, the changes you make in the next few steps will make these go away.  
+    > After changing the tag, if the **Error List** window is open you may notice several errors. Don’t worry, the changes you make in the next few steps will make these go away.  
   
 3. Choose the `<Grid>` and `</Grid>` tags and delete them.  
   
@@ -301,14 +301,14 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
      ![Watermark image for walkthrough](../designers/media/wpf-watermark.png "WPF_watermark")  
   
     > [!NOTE]
-    >  Alternatively you can create your own image and save it as `watermark.png`.  
+    > Alternatively you can create your own image and save it as `watermark.png`.  
   
 2. In **Solution Explorer**, open the shortcut menu for the **ExpenseIt** node and choose **Add**, **Existing Item**.  
   
 3. In the **Add Existing Item** dialog, find the **watermark.png** image that you just added, choose it and then choose the **Add** button.  
   
     > [!NOTE]
-    >  You may need to expand the **File Types** list and choose **Image Files**.  
+    > You may need to expand the **File Types** list and choose **Image Files**.  
   
 4. Open the **ExpenseItHome.xaml** file and add the following XAML code just above the `</Grid>` tag to create a background image:  
   

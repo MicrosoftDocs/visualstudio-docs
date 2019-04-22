@@ -53,7 +53,7 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
 3. Under the primitive you're interested in, follow the shader title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.
 
     > [!TIP]
-    >  The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pipeline stages window.
+    > The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pipeline stages window.
 
 ##### To debug a shader
 

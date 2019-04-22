@@ -118,7 +118,7 @@ public void Withdraw(double amount)
 7. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.  
   
    > [!WARNING]
-   >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
+   > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
   
 8. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.  
   
@@ -232,7 +232,7 @@ public void My_Test ()
 ### <a name="BKMK_Running_tests_after_every_build"></a> Run tests after every build  
   
 > [!WARNING]
->  Running unit tests after every build is supported only in Visual Studio Enterprise.  
+> Running unit tests after every build is supported only in Visual Studio Enterprise.  
   
 |||  
 |-|-|  
@@ -257,7 +257,7 @@ public void My_Test ()
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
    > [!NOTE]
-   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.  
   
@@ -274,7 +274,7 @@ public void My_Test ()
    **A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.  
   
 > [!NOTE]
->  These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
+> These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
   
  For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.  
   

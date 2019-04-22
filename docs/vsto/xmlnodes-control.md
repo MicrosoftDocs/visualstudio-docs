@@ -24,7 +24,7 @@ ms.workload:
  After Visual Studio creates the collection of XML nodes, you can program against the control directly without having to traverse the Word object model. The <xref:Microsoft.Office.Tools.Word.XMLNodes> control can be deleted only by removing the element mapping from the document.
 
 > [!NOTE]
->  If you access a child element of the <xref:Microsoft.Office.Tools.Word.XMLNodes> control through the <xref:Microsoft.Office.Tools.Word.XMLNodes.Item%2A> property, it returns a <xref:Microsoft.Office.Interop.Word.XMLNode> object rather than a <xref:Microsoft.Office.Tools.Word.XMLNode> control. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
+> If you access a child element of the <xref:Microsoft.Office.Tools.Word.XMLNodes> control through the <xref:Microsoft.Office.Tools.Word.XMLNodes.Item%2A> property, it returns a <xref:Microsoft.Office.Interop.Word.XMLNode> object rather than a <xref:Microsoft.Office.Tools.Word.XMLNode> control. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
 
 ## Bind data to the control
  An <xref:Microsoft.Office.Tools.Word.XMLNodes> control does not support data binding. This is because the <xref:Microsoft.Office.Tools.Word.XMLNodes> control does not have complex data binding capabilities, and simple data binding cannot represent repeating data.

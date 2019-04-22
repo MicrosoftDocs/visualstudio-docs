@@ -15,14 +15,14 @@ manager: jillfra
 Add-ins are now deprecated. To make a new Visual Studio extension, you need to create a VSIX extension. Here are the answers to some frequently asked questions about how to convert a Visual Studio add-in to a VSIX extension.  
   
 > [!WARNING]
->  Starting in Visual Studio 2015, for C# and Visual Basic projects, you can use the VSIX project and add item templates for menu commands, tool windows, and VSPackages. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md).  
+> Starting in Visual Studio 2015, for C# and Visual Basic projects, you can use the VSIX project and add item templates for menu commands, tool windows, and VSPackages. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md).  
   
 > [!IMPORTANT]
->  In many cases you can simply transfer your add-in code to a VSIX project with a VSPackage project item. You can get the DTE automation object by calling <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
+> In many cases you can simply transfer your add-in code to a VSIX project with a VSPackage project item. You can get the DTE automation object by calling <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
 >   
->  `DTE2 dte = (DTE2)GetService(typeof(DTE));`  
+> `DTE2 dte = (DTE2)GetService(typeof(DTE));`  
 >   
->  For more information, see [How can I run my add-in code in a VSPackage?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_RunAddin) below.  
+> For more information, see [How can I run my add-in code in a VSPackage?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_RunAddin) below.  
   
 ## What software do I need to develop VSIX extensions?  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  

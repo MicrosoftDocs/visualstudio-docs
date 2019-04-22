@@ -99,7 +99,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
  You can remove some of the packages that are loaded with Visual Studio by editing the .pkgundef file if you do not want those features in your custom isolated shell application. You specify the package in one of the subkeys of the $RootKey$\Packages registry key.  
   
 > [!NOTE]
->  To find the GUIDs of Visual Studio features, see [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md).  
+> To find the GUIDs of Visual Studio features, see [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md).  
   
  The following procedure shows how to remove the XML editor from the isolated shell.  
   
@@ -179,12 +179,12 @@ This walkthrough shows how to create an isolated shell solution, customize the H
     If InstallShield Limited Edition is not already installed, the InstallShield download page appears. Follow the instructions to download and install the product, choosing the version of InstallShield that is compatible with your version of Visual Studio. You must decide whether to register your installation of InstallShield or use it as an evaluation. You must restart Visual Studio after you complete the installation.  
   
    > [!IMPORTANT]
-   >  You must start Visual Studio as an administrator before you create an InstallShield project. If you do not do so, you will get an error when you build the project.  
+   > You must start Visual Studio as an administrator before you create an InstallShield project. If you do not do so, you will get an error when you build the project.  
   
    The next steps show how to configure the setup project.  
   
 > [!IMPORTANT]
->  Make sure that you have built the release configuration of your isolated shell project at least once before you configure the setup project.  
+> Make sure that you have built the release configuration of your isolated shell project at least once before you configure the setup project.  
   
 #### To configure the setup project  
   

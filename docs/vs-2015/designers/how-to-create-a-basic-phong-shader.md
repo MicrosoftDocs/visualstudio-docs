@@ -47,7 +47,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a teapot model.  
   
 > [!NOTE]
->  To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader, and a metallic-looking finish has been specified by using the **MaterialSpecular** and **MaterialSpecularPower** parameters. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).  
+> To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader, and a metallic-looking finish has been specified by using the **MaterialSpecular** and **MaterialSpecularPower** parameters. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).  
   
  ![Shader graph and a preview of its effect](../designers/media/digit-lighting-graph.png "Digit-Lighting-Graph")  
   
@@ -56,9 +56,9 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
  The following illustration shows the shader that's described in this document applied to a 3-D model. The **MaterialSpecular** property is set to (1.00, 0.50, 0.20, 0.00), and its **MaterialSpecularPower** property is set to 16.  
   
 > [!NOTE]
->  The **MaterialSpecular** property determines the apparent finish of the surface material. A high-gloss surface such as glass or plastic tends to have a specular color that is a bright shade of white. A metallic surface tends to have a specular color that is close to its diffuse color. A satin-finish surface tends to have a specular color that is a dark shade of gray.  
+> The **MaterialSpecular** property determines the apparent finish of the surface material. A high-gloss surface such as glass or plastic tends to have a specular color that is a bright shade of white. A metallic surface tends to have a specular color that is close to its diffuse color. A satin-finish surface tends to have a specular color that is a dark shade of gray.  
 >   
->  The **MaterialSpecularPower** property determines how intense the specular highlights are. High specular powers simulate duller, more-localized highlights. Very low specular powers simulate intense, sweeping highlights that can oversaturate and conceal the color of the whole surface.  
+> The **MaterialSpecularPower** property determines how intense the specular highlights are. High specular powers simulate duller, more-localized highlights. Very low specular powers simulate intense, sweeping highlights that can oversaturate and conceal the color of the whole surface.  
   
  ![Phong lighting applied to a model](../designers/media/digit-lighting-model.png "Digit-Lighting-Model")  
   

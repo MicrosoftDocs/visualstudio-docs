@@ -54,7 +54,7 @@ This report is Company Confidential.
 3. Type a name for your template file.  
   
     > [!NOTE]
-    >  The template file name will be used as a class name in the generated code. Therefore, it should not have spaces or punctuation.  
+    > The template file name will be used as a class name in the generated code. Therefore, it should not have spaces or punctuation.  
   
 4. Choose **Add**.  
   
@@ -78,7 +78,7 @@ This report is Company Confidential.
 2. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.  
   
     > [!NOTE]
-    >  If the property is already set, make sure that it is **TextTemplatingFilePreprocessor** and not **TextTemplatingFileGenerator**. This can happen if you include a file that already has the extension **.tt**.  
+    > If the property is already set, make sure that it is **TextTemplatingFilePreprocessor** and not **TextTemplatingFileGenerator**. This can happen if you include a file that already has the extension **.tt**.  
   
 3. Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.  
   

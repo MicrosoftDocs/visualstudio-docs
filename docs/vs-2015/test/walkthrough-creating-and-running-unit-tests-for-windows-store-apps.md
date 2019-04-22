@@ -20,7 +20,7 @@ manager: jillfra
 Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps and includes unit test library templates for Visual C#, Visual Basic and Visual C++.  
   
 > [!TIP]
->  For more information about developing [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, see [Getting started with Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=241410).  
+> For more information about developing [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, see [Getting started with Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=241410).  
   
  Visual Studio provides the following unit testing functionality:  
   
@@ -48,7 +48,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 2. Under Templates, choose the programming language you want to create unit test in and then choose the associated [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] unit test library. For example, choose **Visual C#** , then choose **Windows Store**, and then choose **Unit Test Library (Windows Store apps)**.  
   
     > [!NOTE]
-    >  Visual Studio includes unit test library templates for Visual C#, Visual Basic and Visual C++.  
+    > Visual Studio includes unit test library templates for Visual C#, Visual Basic and Visual C++.  
   
 3. (Optional) In the **Name** textbox, enter the name you want to use for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)]unit test project.  
   
@@ -78,7 +78,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 3. In the list under **Capabilities**, select the capabilities that you need your unit test and the code that it testing to have. For example, select the **Internet** checkbox if the unit test needs and the code it is testing need to have the capability to access the internet.  
   
     > [!NOTE]
-    >  The capabilities you select should only include capabilities that are necessary for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] unit test to function correctly. The capabilities should never have to include capabilities that are not part of the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app being tested and generally should be a subset of the capabilities specified for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)]app under test.  
+    > The capabilities you select should only include capabilities that are necessary for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] unit test to function correctly. The capabilities should never have to include capabilities that are not part of the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app being tested and generally should be a subset of the capabilities specified for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)]app under test.  
   
      For more information about the Manifest Designer, see [Configure a Windows 8.1 app package by using the manifest designer](http://msdn.microsoft.com/library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d).  
   
@@ -105,22 +105,22 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
      Your unit test is now listed.  
   
     > [!NOTE]
-    >  You must build the solution to update the list of unit tests in Test Explorer.  
+    > You must build the solution to update the list of unit tests in Test Explorer.  
   
     > [!WARNING]
-    >  Visual Studio known issue: You must open Test Explorer prior to building the test project.  
+    > Visual Studio known issue: You must open Test Explorer prior to building the test project.  
   
 3. In Test Explorer, choose the unit test you created.  
   
     > [!TIP]
-    >  Test Explorer provides a link to the source code next to **Source:**.  
+    > Test Explorer provides a link to the source code next to **Source:**.  
   
 4. Choose **Run All**.  
   
      ![Unit Test Explorer &#45; run unit test](../test/media/unit-test-win8-unittestexplorer-contextmenurun.png "Unit_Test_Win8_UnitTestExplorer_ContextMenuRun")  
   
     > [!TIP]
-    >  You can select one or more unit tests listed in Explorer and then right-click and choose **Run Selected Tests**.  
+    > You can select one or more unit tests listed in Explorer and then right-click and choose **Run Selected Tests**.  
     >   
     >  Additionally, you can choose to **Debug Selected Tests**, **Open Test**, and use the **Properties** option.  
     >   

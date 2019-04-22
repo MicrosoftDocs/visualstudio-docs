@@ -26,7 +26,7 @@ ms.workload:
 - You need to install the runtime on a computer that already has all the other prerequisites for Office solutions installed.
 
     > [!NOTE]
-    >  You must be an administrator on the development computer to install the .NET Framework and the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+    > You must be an administrator on the development computer to install the .NET Framework and the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
 ## To install the Visual Studio Tools for Office runtime
 

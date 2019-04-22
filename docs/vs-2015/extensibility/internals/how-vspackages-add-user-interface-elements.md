@@ -59,7 +59,7 @@ A VSPackage can add user interface (UI) elements, for example, menus, toolbars, 
  The top-level element of the `Symbols` section is the [GuidSymbol Element](../../extensibility/guidsymbol-element.md). `GuidSymbol` elements map names to GUIDs that are used by the IDE to identify packages and their component parts.  
   
 > [!NOTE]
->  GUIDs are generated automatically by the Visual Studio Package Template. You can also create a unique GUID by clicking **Create GUID** on the **Tools** menu.  
+> GUIDs are generated automatically by the Visual Studio Package Template. You can also create a unique GUID by clicking **Create GUID** on the **Tools** menu.  
   
  The first `GuidSymbol` element, "guid[PackageName]Pkg", is the GUID of the package itself. This is the GUID that is used by Visual Studio to load the package. Typically, it does not have child elements.  
   

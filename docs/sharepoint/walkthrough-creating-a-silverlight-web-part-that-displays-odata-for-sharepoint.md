@@ -29,7 +29,7 @@ ms.workload:
  First, create a Silverlight application in Visual Studio. The Silverlight application retrieves data from the SharePoint Announcements list by using the ListData.svc service.
 
 > [!NOTE]
->  No versions of Silverlight before 4.0 support the required interfaces for referencing SharePoint list data.
+> No versions of Silverlight before 4.0 support the required interfaces for referencing SharePoint list data.
 
 #### To create a Silverlight application and Silverlight web part
 
@@ -67,7 +67,7 @@ ms.workload:
 2. In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Service Reference**.
 
     > [!NOTE]
-    >  If you're using Visual Basic, you must choose the **Show All Files** icon at the top of **Solution Explorer** to display the **References** node.
+    > If you're using Visual Basic, you must choose the **Show All Files** icon at the top of **Solution Explorer** to display the **References** node.
 
 3. In the Address box of the **Add Service Reference** dialog box, enter the URL of your SharePoint site, such as **http://MySPSite**, and then choose the **Go** button.
 
@@ -222,7 +222,7 @@ ms.workload:
      The Silverlight web part should now be displaying Announcement data from the SharePoint site. By default, the page is stored in the Site Pages list in SharePoint.
 
     > [!NOTE]
-    >  When accessing data in Silverlight across domains, Silverlight guards against security vulnerabilities that can be used to exploit web applications. If you encounter problems when accessing remote data in Silverlight, see [Making a Service Available Across Domain Boundaries](http://go.microsoft.com/fwlink/?LinkId=223276).
+    > When accessing data in Silverlight across domains, Silverlight guards against security vulnerabilities that can be used to exploit web applications. If you encounter problems when accessing remote data in Silverlight, see [Making a Service Available Across Domain Boundaries](http://go.microsoft.com/fwlink/?LinkId=223276).
 
 ## See also
 - [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)

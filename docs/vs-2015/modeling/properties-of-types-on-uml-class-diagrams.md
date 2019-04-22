@@ -20,7 +20,7 @@ manager: jillfra
 In a UML Class Diagram, a *type* is a class, an interface, or an enumeration.  
   
 > [!NOTE]
->  This topic is about the properties of types in UML Class Diagrams. For more information, see the following topics:  
+> This topic is about the properties of types in UML Class Diagrams. For more information, see the following topics:  
   
 - [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   

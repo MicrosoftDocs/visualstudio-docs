@@ -15,7 +15,7 @@ manager: jillfra
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.  
   
 > [!NOTE]
->  The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md).  
+> The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md).  
   
 ## To create a unit test project:  
   

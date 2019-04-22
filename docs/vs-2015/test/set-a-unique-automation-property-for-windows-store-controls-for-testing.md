@@ -74,7 +74,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
  **Blend for Visual Studio:** Use one of the following methods to do this from Blend for Visual Studio.  
   
 > [!NOTE]
->  You can only use this method for controls that are created statically using XAML.  
+> You can only use this method for controls that are created statically using XAML.  
   
  **To give a unique name to existing controls**  
   
@@ -130,7 +130,7 @@ If you want to run coded UI tests for your XAML-based Windows Store application,
  For both of these examples, you must then override the ToString() method of ItemSource, as shown using the following code. This code makes sure that the AutomationProperties.Name value is set and is unique, because you cannot set a unique automation property for each data bound list item using binding. Setting a unique value for the Automation Properties.Name is sufficient in this case.  
   
 > [!NOTE]
->  Using this approach, the inner contents of the list item can also be set to a string in the Employee class through binding. As shown in the example, the button control inside each list item is assigned a unique automation id which is the Employee ID.  
+> Using this approach, the inner contents of the list item can also be set to a string in the Employee class through binding. As shown in the example, the button control inside each list item is assigned a unique automation id which is the Employee ID.  
   
 ```  
   

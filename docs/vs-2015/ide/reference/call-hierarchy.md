@@ -49,7 +49,7 @@ Call Hierarchy window
 - The **Code Definition Window**, if open, displays the code for the selected member. This window is available in C# and C++. For more information about this window, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).  
   
 > [!NOTE]
->  Call Hierarchy does not find method group references, which includes places where a method is added as an event handler or is assigned to a delegate. To find all references to a method, you can use the **Find All References** command.  
+> Call Hierarchy does not find method group references, which includes places where a method is added as an event handler or is assigned to a delegate. To find all references to a method, you can use the **Find All References** command.  
   
 ## Shortcut Menu Items  
  The following table describes several shortcut menu options that are available when you right-click a node in the tree view pane.  

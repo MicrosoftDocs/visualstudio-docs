@@ -39,7 +39,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 1. In **Server Explorer**/**Database Explorer**, right-click the **Tables** node and click **Add New Table**.  
   
     > [!NOTE]
-    >  You can use the Northwind database or any other database that you can add a table to.  
+    > You can use the Northwind database or any other database that you can add a table to.  
   
 2. In the Table Designer, add the following columns to the table:  
   
@@ -90,7 +90,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 2. Name the project **InheritanceWalkthrough**.  
   
     > [!NOTE]
-    >  The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] is supported in Visual Basic and C# projects. Create the new project in one of these languages.  
+    > The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] is supported in Visual Basic and C# projects. Create the new project in one of these languages.  
   
 3. Click the **Windows Forms Application** template and then click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   

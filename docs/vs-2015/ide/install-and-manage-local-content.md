@@ -40,7 +40,7 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
 1. On the **Manage Content** tab, choose the **Disk** option button.  
   
     > [!NOTE]
-    >  The **Disk** option won't be available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
+    > The **Disk** option won't be available if your administrator has prevented you from modifying the content installation source. For more information, see the [Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md).  
   
 2. Perform one of the following steps:  
   
@@ -54,7 +54,7 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
  You can view topics without an Internet connection if you download and install content on your local computer.  
   
 > [!IMPORTANT]
->  To install content, you must log on with an account that has administrative permissions.  
+> To install content, you must log on with an account that has administrative permissions.  
   
  If the Visual Studio IDE is set to a language other than English, you can install English content, localized content, or both. However, no content will appear if you install only the English version and the **Include English content in all navigation tabs and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
   
@@ -74,7 +74,7 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
  You can save disk space by removing unwanted content from your computer.  
   
 > [!IMPORTANT]
->  You must have administrative permissions to remove content.  
+> You must have administrative permissions to remove content.  
   
  No content will appear if the Visual Studio IDE is set to a language other than English, you remove localized content, and the **Include English content in all navigation tab and F1 requests** check box in the **Viewer Options** dialog box is cleared.  
   
@@ -94,7 +94,7 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
  The status bar indicates when updates to your installed content are available.  
   
 > [!IMPORTANT]
->  If you want the Help Viewer to automatically check for online updates, you must open the **Viewer Options** dialog box and then select the **Go online to check for content updates** check box.  
+> If you want the Help Viewer to automatically check for online updates, you must open the **Viewer Options** dialog box and then select the **Go online to check for content updates** check box.  
   
 #### To update local content  
   
@@ -106,7 +106,7 @@ By using the Microsoft Help Viewer, you can add, remove, update, and move the He
  You can save disk space by moving installed content from your local computer to a network share or to another partition on your local computer.  
   
 > [!IMPORTANT]
->  To move content, you must log on with an account that has administrative permissions.  
+> To move content, you must log on with an account that has administrative permissions.  
   
 #### To move local content  
   

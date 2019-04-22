@@ -119,7 +119,7 @@ manager: jillfra
 You can change the project settings for a C or Visual C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
   
 > [!WARNING]
->  The debug project settings in the **Configuration Properties/Debugging** category for Windows Store apps and components that are written in C++ are different. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Development Center.  
+> The debug project settings in the **Configuration Properties/Debugging** category for Windows Store apps and components that are written in C++ are different. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Development Center.  
   
  Specify which debugger to use in the **Debugger to launch** list box. Your choice will affect which properties are visible.  
   

@@ -53,7 +53,7 @@ Template files must be placed in a location that Visual Studio recognizes so tha
  The categories in the **New Project** and **Add New Item** dialog boxes reflect the directory structures that exist in the installed and custom template locations. You can modify these directory structures to organize your templates in a way that makes sense to you.  
   
 > [!NOTE]
->  You cannot create a new category at the programming language level. New categories can only be created within each language.  
+> You cannot create a new category at the programming language level. New categories can only be created within each language.  
   
  If the directory structures for installed and custom templates for a particular language do not have the same structure (that is, there are directories under one folder that do not exist under the other) the set of categories that appear in the **New Project** dialog will be the merger of all categories.  
   

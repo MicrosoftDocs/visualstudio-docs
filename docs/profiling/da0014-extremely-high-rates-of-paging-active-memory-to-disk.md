@@ -35,7 +35,7 @@ ms.workload:
  Frequently, pages are read from the disk or written to the disk in bulk paging operations. The number of Pages Output/sec is frequently much larger than the number of Page Writes/sec, for example. Because Pages Output/sec also includes changed data pages from the system file cache. However, it is not always easy to determine which process is directly responsible for the paging or why.
 
 > [!NOTE]
->  This rule fires when levels of paging of active memory reach a very high rate. When the level of paging is significant, but not extreme, the informational rule [DA0017: High rates of paging active memory to disk](../profiling/da0017-high-rates-of-paging-active-memory-to-disk.md) fires instead.
+> This rule fires when levels of paging of active memory reach a very high rate. When the level of paging is significant, but not extreme, the informational rule [DA0017: High rates of paging active memory to disk](../profiling/da0017-high-rates-of-paging-active-memory-to-disk.md) fires instead.
 
 ## How to fix violations
  Double-click the message in the Error List window to navigate to the [Marks](../profiling/marks-view.md) view. Find the **Memory\Pages/sec** column. Determine if there are specific phases of program execution where paging IO activity is heavier than others.

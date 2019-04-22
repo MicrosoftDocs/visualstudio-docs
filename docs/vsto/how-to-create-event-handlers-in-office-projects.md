@@ -28,7 +28,7 @@ ms.workload:
 1. From the **Class Name** drop-down list at the top of the Code Editor, select the object that you want to create an event handler for.
 
     > [!NOTE]
-    >  If you want to create event handlers for `ThisDocument` or `ThisWorkbook`, you must select **(ThisDocument Events)** or **(ThisWorkbook Events)** in the **Class Name** drop-down list
+    > If you want to create event handlers for `ThisDocument` or `ThisWorkbook`, you must select **(ThisDocument Events)** or **(ThisWorkbook Events)** in the **Class Name** drop-down list
 
 2. From the **Method Name** drop-down list at the top of the Code Editor, select the event.
 

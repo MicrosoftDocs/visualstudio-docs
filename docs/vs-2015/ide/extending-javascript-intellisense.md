@@ -69,7 +69,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
  For additional examples, look in the \\\\*Visual Studio installation path*\JavaScript\References folder. The showPlainComments.js file in this folder provides examples of using other events to provide default IntelliSense support for standard JavaScript comment tags (//). Like underscorefilter.js, showPlainComments.js is already available as a working extension, and you can see the resulting IntelliSense information when using comment tags in your code for variables, functions, and objects. For additional examples, see [Code Examples](#CodeExamples).  
   
 > [!WARNING]
->  If you modify the extension files included with Visual Studio, you may disable JavaScript IntelliSense or the feature supported by the extension.  
+> If you modify the extension files included with Visual Studio, you may disable JavaScript IntelliSense or the feature supported by the extension.  
   
  In your extension code, you can create handlers for the following event types by using `addEventListener`:  
   
@@ -82,7 +82,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   For examples that show IntelliSense features such as statement completion, parameter information, and Quick Info, see [Using IntelliSense](../ide/using-intellisense.md).  
   
 > [!NOTE]
->  In JavaScript, Quick Info refers to the pop-up box that appears to the right of a completion list. You cannot manually invoke Quick Info.  
+> In JavaScript, Quick Info refers to the pop-up box that appears to the right of a completion list. You cannot manually invoke Quick Info.  
   
 ## <a name="intellisenseObject"></a> intellisense Object  
  The following table shows the functions that are available for the `intellisense` object. The `intellisense` object is available only at design time.  

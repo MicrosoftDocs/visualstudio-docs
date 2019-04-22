@@ -35,7 +35,7 @@ manager: jillfra
 You can customize Visual Studio not only by adding and removing toolbars and menus on the menu bar but also by adding and removing commands on any given toolbar or menu.
 
 > [!WARNING]
->  After you customize a toolbar or menu, make sure that its check box remains selected in the **Customize** dialog box. Otherwise, your changes won't persist after you close and reopen Visual Studio.
+> After you customize a toolbar or menu, make sure that its check box remains selected in the **Customize** dialog box. Otherwise, your changes won't persist after you close and reopen Visual Studio.
 
  **In this topic:**
 
@@ -78,14 +78,14 @@ You can customize Visual Studio not only by adding and removing toolbars and men
     - To remove a custom toolbar, choose it in the **Toolbars** list, and then choose the **Delete** button.
 
         > [!IMPORTANT]
-        >  You can delete toolbars that you create but not default toolbars.
+        > You can delete toolbars that you create but not default toolbars.
 
     - To move a toolbar to a different docking location, choose it in the **Toolbars** list, choose the **Modify Selection** button, and then choose a location in the list that appears.
 
          You can also drag a toolbar by its left edge to move it anywhere in the main docking area.
 
         > [!NOTE]
-        >  For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE Accessibility Options](../ide/reference/how-to-set-ide-accessibility-options.md).
+        > For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE Accessibility Options](../ide/reference/how-to-set-ide-accessibility-options.md).
 
 ## <a name="bkmk_customize"></a> Customizing a menu or a toolbar
 

@@ -90,7 +90,7 @@ ms.workload:
  You can also set security permissions for individual models or external content types. For more information about how to set the security permissions of a model, see [BDC model management](http://go.microsoft.com/fwlink/?LinkID=178884). For more information about how to set the security permissions of an external content type, see [External content type management](http://go.microsoft.com/fwlink/?LinkID=178885).
 
 > [!NOTE]
->  Use these settings to debug a solution on your local SharePoint Server. For more information about how to configure BDC-related security settings on production SharePoint server, see [Business Data Connectivity Services security overview](http://go.microsoft.com/fwlink/?LinkID=178886).
+> Use these settings to debug a solution on your local SharePoint Server. For more information about how to configure BDC-related security settings on production SharePoint server, see [Business Data Connectivity Services security overview](http://go.microsoft.com/fwlink/?LinkID=178886).
 
 ### Retract models that become corrupt
  The first time that you start the debugger, Visual Studio deploys the entire model to SharePoint. For each time thereafter, Visual Studio updates the model in SharePoint with any changes that you make between deployments.

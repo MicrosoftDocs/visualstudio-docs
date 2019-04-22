@@ -71,7 +71,7 @@ Deleting an element usually causes related elements to be deleted also. All rela
  The options in the DSL Definition file only let you choose whether deletion propagates to an immediate neighbor. To implement a more complex scheme of delete propagation, you can write program code.  
   
 > [!NOTE]
->  To add program code to your DSL definition, create a separate code file in the **Dsl** project and write partial definitions to augment the classes in the Generated Code folder. For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).  
+> To add program code to your DSL definition, create a separate code file in the **Dsl** project and write partial definitions to augment the classes in the Generated Code folder. For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).  
   
 ## <a name="closure"></a> Defining a Delete Closure  
  The deletion operation uses the class _YourModel_**DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link’s roles. It should return one of the following values:  
@@ -207,7 +207,7 @@ partial class Artist
      For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   
     > [!WARNING]
-    >  When an element has been deleted, you can access its domain property values, but you cannot navigate relationship links. However, if you set a deleted event on a relationship, you can also access the two elements that were its role players. Therefore, if you want to respond to the deletion of a model element but want to access an element to which it was linked, set a delete event on the relationship instead of the model element’s domain class.  
+    > When an element has been deleted, you can access its domain property values, but you cannot navigate relationship links. However, if you set a deleted event on a relationship, you can also access the two elements that were its role players. Therefore, if you want to respond to the deletion of a model element but want to access an element to which it was linked, set a delete event on the relationship instead of the model element’s domain class.  
   
 ### Example Deletion Rules  
   

@@ -32,7 +32,7 @@ There are three main ways to change the set of activities that are displayed in 
 2. When the state of the expansion state is changed by clicking the button, the new state of expansion is saved in XAML.  
   
     > [!WARNING]
-    >  Not all activities can be expanded in place. There are two cases when an activity cannot be expanded in place: either the parent of the activity does not allow its children to be expanded in place, (for example, activities in a flowchart cannot be expanded in place), or the activity designer does not allow itself to be expanded in place. Although none of the activity designers included in [!INCLUDE[wfd2](../includes/wfd2-md.md)] have the latter behavior, some custom activities may exhibit this behavior.  
+    > Not all activities can be expanded in place. There are two cases when an activity cannot be expanded in place: either the parent of the activity does not allow its children to be expanded in place, (for example, activities in a flowchart cannot be expanded in place), or the activity designer does not allow itself to be expanded in place. Although none of the activity designers included in [!INCLUDE[wfd2](../includes/wfd2-md.md)] have the latter behavior, some custom activities may exhibit this behavior.  
   
 ### Expanding all or collapsing all activities  
   
@@ -41,7 +41,7 @@ There are three main ways to change the set of activities that are displayed in 
 2. After you have applied an expand all or collapse all state, you can click the **Restore** button that appears to go back to looking at the state previously applied to each activity.  
   
     > [!WARNING]
-    >  If an activity, such as <xref:System.Activities.Statements.Flowchart>, has opted out of expand in place, the functionality associated with the **Expand All** and **Collapse All** buttons is disabled on the **Flowchart** designer. [!INCLUDE[crabout](../includes/crabout-md.md)] the **Flowchart** designer, see the [Flowchart](../workflow-designer/flowchart-activity-designer.md) topic.  
+    > If an activity, such as <xref:System.Activities.Statements.Flowchart>, has opted out of expand in place, the functionality associated with the **Expand All** and **Collapse All** buttons is disabled on the **Flowchart** designer. [!INCLUDE[crabout](../includes/crabout-md.md)] the **Flowchart** designer, see the [Flowchart](../workflow-designer/flowchart-activity-designer.md) topic.  
   
     > [!WARNING]
-    >  Expand all also has a special effect in **Switch** and **TryCatch** activity designers. When you click **Expand All**, all of the switch cases and all of the try/catch/finally blocks are displayed. Clicking **Restore** or **Collapse All** returns these designers to their default state, from which you can click an individual case/block to view its contents.
+    > Expand all also has a special effect in **Switch** and **TryCatch** activity designers. When you click **Expand All**, all of the switch cases and all of the try/catch/finally blocks are displayed. Clicking **Restore** or **Collapse All** returns these designers to their default state, from which you can click an individual case/block to view its contents.

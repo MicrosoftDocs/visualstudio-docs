@@ -37,7 +37,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  If you clear the **Root Namespace**, you can specify the namespace structure of your project in code.  
   
 > [!NOTE]
->  If you use the Global keyword in a [Namespace Statement](http://msdn.microsoft.com/library/a31fbd95-9ace-4c3d-bbb1-51222a2272b2), you can define a namespace out of the root namespace of your project. If you clear the **Root Namespace**, `Global` becomes the top-level namespace, which removes the need for the `Global` keyword in a `Namespace` statement. For more information, see "Global Keyword in Namespace Statements" in [Namespaces in Visual Basic](http://msdn.microsoft.com/library/cffac744-ab8c-4f1f-ba50-732c22ab4b88).  
+> If you use the Global keyword in a [Namespace Statement](http://msdn.microsoft.com/library/a31fbd95-9ace-4c3d-bbb1-51222a2272b2), you can define a namespace out of the root namespace of your project. If you clear the **Root Namespace**, `Global` becomes the top-level namespace, which removes the need for the `Global` keyword in a `Namespace` statement. For more information, see "Global Keyword in Namespace Statements" in [Namespaces in Visual Basic](http://msdn.microsoft.com/library/cffac744-ab8c-4f1f-ba50-732c22ab4b88).  
   
  For information about how to create namespaces in your code, see [Namespace Statement](http://msdn.microsoft.com/library/a31fbd95-9ace-4c3d-bbb1-51222a2272b2).  
   
@@ -51,7 +51,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  The default value matches the target framework that you specified in the **New Project** dialog box.  
   
 > [!NOTE]
->  The prerequisite packages that are listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically when you open the dialog box for the first time. If you subsequently change the project's target framework, you must specify the prerequisites manually to match the new target framework.  
+> The prerequisite packages that are listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically when you open the dialog box for the first time. If you subsequently change the project's target framework, you must specify the prerequisites manually to match the new target framework.  
   
  For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).  
   
@@ -63,7 +63,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can use the **WinMD File** option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](http://go.microsoft.com/fwlink/?LinkId=231895).  
   
 > [!NOTE]
->  The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
+> The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.  
   
  For more information about the **Application type** property, see [/target (Visual Basic)](http://msdn.microsoft.com/library/e0954147-548b-461f-9c4b-a8f88845616c). For information about how to access that property programmatically, see <xref:VSLangProj.ProjectProperties.OutputType%2A>.  
   

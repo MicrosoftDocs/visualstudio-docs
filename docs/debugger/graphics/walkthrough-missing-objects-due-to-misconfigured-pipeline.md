@@ -55,7 +55,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
     In the **Graphics Pipeline Stages** window, the **Input Assembler** stage shows the object's geometry before it's transformed, and the **Vertex Shader** stage shows the same object after it's transformed. In this scenario, notice that the **Graphics Pipeline Stages** window shows the **Input Assembler** and  **Vertex Shader** stages, but not the **Pixel Shader** stage for one of the draw calls.
 
    > [!NOTE]
-   >  If other pipeline stages—for example, the hull shader, domain shader, or geometry shader stages—process the object, any of them might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.
+   > If other pipeline stages—for example, the hull shader, domain shader, or geometry shader stages—process the object, any of them might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.
 
 4. Stop when you reach the draw call that corresponds to the missing object. In this scenario, the **Graphics Pipeline Stages** window indicates that the geometry was issued to the GPU (indicated by the presence of the **Input Assembler** stage) and transformed (indicated by the **Vertex Shader** stage), but doesn't appear in the render target because there doesn't seem to be an active pixel shader (indicated by the absence of the **Pixel Shader** stage). In this scenario, you can even see the silhouette of the missing object in the **Output Merger** stage:
 
@@ -78,7 +78,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
 1. Find the `PSSetShader` call that corresponds to the missing object. In the **Graphics Event List** window, enter "Draw;PSSetShader" in the **Search** box in the upper-right corner of the **Graphics Event List** window. This filters the list so that it only contains "PSSetShader" events, and events that have "Draw" in their titles. Choose the first `PSSetShader` call that appears before the draw call of the missing object.
 
    > [!NOTE]
-   >  `PSSetShader` won't appear in the **Graphics Event List** window if it was not set during this frame. Usually this occurs only if just one pixel shader is used for all objects, or if the `PSSetShader` call was unintentionally skipped during this frame. In either case, we recommend that you search the app's source code for `PSSetShader` calls, and use traditional debugging techniques to examine the behavior of these calls.
+   > `PSSetShader` won't appear in the **Graphics Event List** window if it was not set during this frame. Usually this occurs only if just one pixel shader is used for all objects, or if the `PSSetShader` call was unintentionally skipped during this frame. In either case, we recommend that you search the app's source code for `PSSetShader` calls, and use traditional debugging techniques to examine the behavior of these calls.
 
 2. Open the **Graphics Event Call Stack** window. On the **Graphics Diagnostics** toolbar, choose **Graphics Event Call Stack**.
 
@@ -87,7 +87,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
     ![The code that doesn't initialize the pixel shader](media/gfx_diag_demo_misconfigured_pipeline_step_5.png "gfx_diag_demo_misconfigured_pipeline_step_5")
 
    > [!NOTE]
-   >  If you can't locate the source of the null value just by examining the call stack, we recommend that you set a conditional breakpoint on the `PSSetShader` call, such that execution of the program breaks when the pixel shader will be set to null. Then restart the app in debug mode and use traditional debugging techniques to locate the source of the null value.
+   > If you can't locate the source of the null value just by examining the call stack, we recommend that you set a conditional breakpoint on the `PSSetShader` call, such that execution of the program breaks when the pixel shader will be set to null. Then restart the app in debug mode and use traditional debugging techniques to locate the source of the null value.
 
    To fix the problem, assign the correct pixel shader by using the first parameter of the `ID3D11DeviceContext::PSSetShader` API call.
 

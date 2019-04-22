@@ -214,7 +214,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
     ```  
   
     > [!TIP]
-    >  We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.  
+    > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.  
     >   
     >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.  
   
@@ -225,7 +225,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
      ![The RangeTest fails](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
-    >  Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.  
+    > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.  
   
 4. Enhance the code under test so that the new test passes. Add the following to **RooterLib.cpp**:  
   
@@ -253,7 +253,7 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
      Both tests pass.  
   
 > [!TIP]
->  Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
+> Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
   
 ## <a name="BKMK_Debug_a_failing_test"></a> Debug a failing test  
   
@@ -340,6 +340,6 @@ This topic describes one way to create unit tests for a C++ DLL for Windows Stor
 2. Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.  
   
     > [!TIP]
-    >  A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.  
+    > A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.  
     >   
     >  Keep refactoring separate from other changes.

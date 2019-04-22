@@ -29,7 +29,7 @@ IDiaSymbol : IUnknown
  The following table shows the methods of `IDiaSymbol`.  
   
 > [!NOTE]
->  Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.  
+> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.  
   
 |Method|Description|  
 |------------|-----------------|  
@@ -258,7 +258,7 @@ IDiaSymbol : IUnknown
  This example shows how to display the local variables for a function at a given relative virtual address. It also shows how symbols of different types are related to each other.  
   
 > [!NOTE]
->  `CDiaBSTR` is a class that wraps a `BSTR` and automatically handles freeing the string when the instantiation goes out of scope.  
+> `CDiaBSTR` is a class that wraps a `BSTR` and automatically handles freeing the string when the instantiation goes out of scope.  
   
 ```cpp#  
 void DumpLocalVars( DWORD rva, IDiaSession *pSession )  

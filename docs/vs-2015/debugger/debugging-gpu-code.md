@@ -24,7 +24,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
  Debugging is supported on [!INCLUDE[win7](../includes/win7-md.md)], [!INCLUDE[win8](../includes/win8-md.md)], [!INCLUDE[winsvr08_r2](../includes/winsvr08-r2-md.md)], and [!INCLUDE[winserver8](../includes/winserver8-md.md)]. For debugging on the software emulator, [!INCLUDE[win8](../includes/win8-md.md)], or [!INCLUDE[winserver8](../includes/winserver8-md.md)] is required. For debugging on the hardware, you must install the drivers for your graphics card. Not all hardware vendors implement all debugger features. See the vendor documentation for limitations.  
   
 > [!NOTE]
->  Independent hardware vendors who want to support GPU debugging in Visual Studio must create a DLL that implements the VSD3DDebug interface and targets their own drivers.  
+> Independent hardware vendors who want to support GPU debugging in Visual Studio must create a DLL that implements the VSD3DDebug interface and targets their own drivers.  
   
 ## Configuring GPU Debugging  
  The debugger cannot break on both CPU code and GPU code in the same app execution. By default, the debugger breaks on CPU code. To debug GPU code, use one of these two steps:  

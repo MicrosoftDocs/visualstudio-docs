@@ -20,12 +20,12 @@ This topic describes how use the **Rule Set Editor** dialog box in the legacy [!
  The **Rule Set Editor** dialog box is used to create and modify [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) rule sets, which are serialized to a .rules file.  
   
 > [!NOTE]
->  If you want to open the .rules file with the **XML Editor with encoding**, you must first close the associated designer window for the workflow or activity.  
+> If you want to open the .rules file with the **XML Editor with encoding**, you must first close the associated designer window for the workflow or activity.  
   
  For information about how to access the **Rule Set Editor** dialog box, see [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md).  
   
 > [!WARNING]
->  The Rules editor of the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] that is used to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] does not support Multitargeting.  
+> The Rules editor of the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] that is used to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] does not support Multitargeting.  
   
  The following table describes the user interface (UI) elements of the **Rule Set Editor** dialog box.  
   

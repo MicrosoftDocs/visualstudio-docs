@@ -39,7 +39,7 @@ int IsEncOutdated(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 > [!NOTE]
->  A custom expression evaluator should always return `E_NOTIMPL`.
+> A custom expression evaluator should always return `E_NOTIMPL`.
 
 ## See Also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

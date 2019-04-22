@@ -18,7 +18,7 @@ Statement completion is the process by which the language service helps users fi
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement statement completion, see [Walkthrough: Displaying Statement Completion](../../extensibility/walkthrough-displaying-statement-completion.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## Implementing Statement Completion
  In the core editor, statement completion activates a special UI that interactively helps you more easily and quickly write code. Statement completion helps by displaying pertinent objects or classes when they are needed, which avoids you having to remember specific elements or having to look them up in a Help reference topic.

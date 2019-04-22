@@ -31,7 +31,7 @@ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 - Performance counter - CPU counters for low-level performance problems.
 
 > [!IMPORTANT]
->  If you are collecting .NET memory data (allocations or object lifetimes, or both) by using the sampling method, all user-specified sampling events are ignored and the appropriate memory allocations or garbage collection events, or both, are used to collect data.
+> If you are collecting .NET memory data (allocations or object lifetimes, or both) by using the sampling method, all user-specified sampling events are ignored and the appropriate memory allocations or garbage collection events, or both, are used to collect data.
 
 ### To select a sample event
 
@@ -42,7 +42,7 @@ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 3. From the **Sample event** drop-down list, select the sample event you want to use to profile your application.
 
     > [!NOTE]
-    >  The **Available performance counters** are enabled only if you select **Performance counter** from the **Sample event** drop-down list.
+    > The **Available performance counters** are enabled only if you select **Performance counter** from the **Sample event** drop-down list.
 
 4. If you select **Performance counter**, select a specific CPU counter from the **Available performance counters** tree view control.
 

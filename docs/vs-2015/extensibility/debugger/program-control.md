@@ -29,7 +29,7 @@ In Visual Studio debugging, all of the following stepping and continuing routine
 - Resuming the threads contained by the program  
   
 > [!NOTE]
->  Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.  
+> Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.  
   
 ## Methods of Program Control  
  The following table shows the methods of [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) that must be implemented for a minimally functional debug engine (DE) and execution control.  

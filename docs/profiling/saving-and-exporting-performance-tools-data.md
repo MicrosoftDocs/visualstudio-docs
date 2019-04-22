@@ -41,7 +41,7 @@ This article describes how to save and export performance data files.
  You can export one or more report views from a .*vsp* file or a .*vsps* profiling data file as either a comma delimited or an XML file. You can filter the data in the Report view window before you export, or you can export report views of the entire data file from the **Performance Explorer** window.
 
 > [!NOTE]
->  You can also copy and paste selected rows from the Report view window as tab separated values.
+> You can also copy and paste selected rows from the Report view window as tab separated values.
 
 #### To export performance reports from the Performance Explorer window
 

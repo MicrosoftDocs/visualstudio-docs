@@ -50,7 +50,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 2. Change the name from Class1.vb to something meaningful, such as DebuggerSide.vb.
 
    > [!NOTE]
-   >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.
+   > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.
 
 3. In **Solution Explorer**, right-click **My First Visualizer**, and on the shortcut menu, click **Add Reference**.
 

@@ -16,7 +16,7 @@ ms.workload:
 A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn't understand.
 
 > [!IMPORTANT]
->  Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.
+> Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.
 
 ## Package manifest schema
  The root element of the manifest XML file is `<PackageManifest>`. It has a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format is changed. This article describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value of Version="2.0".

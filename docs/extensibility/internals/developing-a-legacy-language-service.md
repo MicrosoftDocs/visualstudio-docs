@@ -23,7 +23,7 @@ This section links to topics that help you create a legacy language service.
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and language service extensions](../../extensibility/editor-and-language-service-extensions.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
 ## In this section
 - [Model of a legacy language service](../../extensibility/internals/model-of-a-legacy-language-service.md)

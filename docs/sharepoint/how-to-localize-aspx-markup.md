@@ -30,7 +30,7 @@ ms.workload:
     2. To add a Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Under either the **Visual Basic** or **Visual C#** node, choose the **Resources File** template.
 
     > [!NOTE]
-    >  Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution does not have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
+    > Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution does not have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
 
 2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, name a German localized resource *MyAppResources.de-DE.resx*.
 

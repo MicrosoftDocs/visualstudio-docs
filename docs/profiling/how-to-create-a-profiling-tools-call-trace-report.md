@@ -16,7 +16,7 @@ ms.workload:
 The  *call trace report* for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools lists timing information for each entry and exit point to your application's functions and each call to other functions by your function. Call trace reports are available for profiling data only if it was collected with the instrumentation method.
 
 > [!NOTE]
->  You cannot display call trace reports in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You must use the **VSPerfReport** command-line tool to generate a comma-separated value (.*csv*) or .*xml* file. For more information about this tool, see [VSPerfReport](../profiling/vsperfreport.md).
+> You cannot display call trace reports in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You must use the **VSPerfReport** command-line tool to generate a comma-separated value (.*csv*) or .*xml* file. For more information about this tool, see [VSPerfReport](../profiling/vsperfreport.md).
 
 ### To create a call trace report
 

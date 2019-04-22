@@ -49,7 +49,7 @@ You can use IntelliTrace to collect information about specific events or categor
 5. Start debugging as usual. (Press **F5** or click **Debug / Start Debugging**.  
   
     > [!TIP]
-    >  Keep the **Locals** and **Autos** windows open while you’re debugging to see and record the values in those windows.  
+    > Keep the **Locals** and **Autos** windows open while you’re debugging to see and record the values in those windows.  
   
 6. Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug / Windows / IntelliTrace Events**.  
   
@@ -81,7 +81,7 @@ You can use IntelliTrace to collect information about specific events or categor
 1. Turn on call collection. (On **Tools / Options / IntelliTrace / General**, select **IntelliTrace events and call information**. IntelliTrace will start collecting this information when the next debugging session starts.  
   
     > [!TIP]
-    >  This might slow down your application and increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To get the most call data but minimize the effects, record data from only those modules that interest you. To change the maximum size of your .iTrace files, go to **Tools / Options / IntelliTrace / Advanced**, and specify the maximum amount of disk space. The default is 250 MB.  
+    > This might slow down your application and increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To get the most call data but minimize the effects, record data from only those modules that interest you. To change the maximum size of your .iTrace files, go to **Tools / Options / IntelliTrace / Advanced**, and specify the maximum amount of disk space. The default is 250 MB.  
   
 2. Start debugging the C# console application created in the previous section. Execution stops at the breakpoint. If you do not see the **Diagnostic Tools** window, click **Debug / Windows / IntelliTrace Events**.  
   
@@ -92,6 +92,6 @@ You can use IntelliTrace to collect information about specific events or categor
      Select one of the function calls and double-click it. You should see the function entry and exit points, as well as the calls that the current call made to other functions and the IntelliTrace events raised by the call. If you do not have historical debugging turned on, this action turns it on. To find out more about historical debugging, see [Historical Debugging](../debugger/historical-debugging.md).  
   
     > [!NOTE]
-    >  You may see that some calls are dimmed. This is because IntelliTrace didn't record data from the corresponding modules. To see this data, have IntelliTrace collect data from those modules. For information about specifying modules, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
+    > You may see that some calls are dimmed. This is because IntelliTrace didn't record data from the corresponding modules. To see this data, have IntelliTrace collect data from those modules. For information about specifying modules, see [IntelliTrace Features](../debugger/intellitrace-features.md).  
   
 ## Next Steps

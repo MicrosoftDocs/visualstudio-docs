@@ -45,7 +45,7 @@ After you create a custom editor, you can add more features to it.
     2. To respond to external file changes, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.  
   
         > [!NOTE]
-        >  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to obtain a pointer to `IVsFileChangeEx`.  
+        > Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to obtain a pointer to `IVsFileChangeEx`.  
   
 7. Coordinate document edit events with source code control. To do this:  
   
@@ -132,7 +132,7 @@ After you create a custom editor, you can add more features to it.
      <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>  
   
     > [!NOTE]
-    >  The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.  
+    > The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.  
   
      Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own .vsct file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it often is necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. To do this, your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus and toolbars in a .vsct file. If you create an in-place activation editor, then implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a .vsct file instead of using OLE 2 menu merging.  
   

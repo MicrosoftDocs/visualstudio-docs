@@ -23,7 +23,7 @@ ms.workload:
  To access this page, select the project in **Solution Explorer**, and then, on the **Project** menu, choose *Projectname* **Properties**. If the **Publish** page is not displayed, choose the **Publish** tab.
 
 > [!NOTE]
->  You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
+> You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
 
 ## UIElement list
  **Publishing Folder Location (web site, ftp server, or file path)**

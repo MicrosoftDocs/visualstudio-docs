@@ -55,7 +55,7 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
  These dynamic properties are special run-time properties that duplicate the functionality of existing methods and properties in the <xref:System.Xml.Linq.XAttribute> and <xref:System.Xml.Linq.XElement> classes. They were added to these classes solely to enable them to act as dynamic data sources for WPF. To meet this need, all these dynamic properties implement change notifications. A detailed reference for these dynamic properties is provided in the next section, [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md).  
   
 > [!NOTE]
->  Many of the standard public properties, found in the various classes in the <xref:System.Xml.Linq> namespace, can be used for one-time data binding. However, remember that neither the source nor the target will be dynamically updated under this scheme.  
+> Many of the standard public properties, found in the various classes in the <xref:System.Xml.Linq> namespace, can be used for one-time data binding. However, remember that neither the source nor the target will be dynamically updated under this scheme.  
   
 ### Accessing Dynamic Properties  
  The dynamic properties in the <xref:System.Xml.Linq.XAttribute> and <xref:System.Xml.Linq.XElement> classes cannot be accessed like standard properties. For example, in CLR-compliant languages such as C#, they cannot be:  

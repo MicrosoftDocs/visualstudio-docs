@@ -30,7 +30,7 @@ You can use a visualizer to display the contents of a variable or object in a wa
  Visualizers are not supported on the Compact Framework.  
   
 > [!NOTE]
->  In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
+> In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
   
 ### To open a visualizer  
   

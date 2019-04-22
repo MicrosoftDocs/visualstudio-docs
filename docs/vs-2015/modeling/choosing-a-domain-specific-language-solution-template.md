@@ -20,7 +20,7 @@ To create a domain-specific language solution, choose one of the solution templa
  The following solution templates are available in the Domain-Specific Language Designer Wizard.  
   
 > [!NOTE]
->  The purpose of the templates is to provide a starting DSL. The templates named Class and Component diagrams are not full UML diagrams. If you want to create a UML model, consider the UML modeling tools, which provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
+> The purpose of the templates is to provide a starting DSL. The templates named Class and Component diagrams are not full UML diagrams. If you want to create a UML model, consider the UML modeling tools, which provide a set of diagrams that are integrated around a single model. They are extensible and can be integrated with your DSL using ModelBus. For more information, see [Create models for your app](../modeling/create-models-for-your-app.md).  
   
 |Template|Features|Description|  
 |--------------|--------------|-----------------|  

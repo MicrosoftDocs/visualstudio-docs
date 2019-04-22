@@ -59,7 +59,7 @@ Other users of Visual Studio can install layer modeling extensions that you crea
          %LocalAppData%\Microsoft\VisualStudio\\[version]\Extensions\Microsoft  
   
         > [!NOTE]
-        >  %LocalAppData% is typically *DriveName*:Users*UserName*AppDataLocal.  
+        > %LocalAppData% is typically *DriveName*:Users*UserName*AppDataLocal.  
   
 2. Expand each VSIX file into a folder in the same location:  
   

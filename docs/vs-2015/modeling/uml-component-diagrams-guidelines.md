@@ -51,7 +51,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
  For more information about how to use component diagrams in the process of design, see [Model your app's architecture](../modeling/model-your-app-s-architecture.md).  
   
 > [!NOTE]
->  Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> Detailed steps for creating any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 #### To create a component diagram  
   
@@ -151,7 +151,7 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
          A provided interface appears on the component. An Action tag appears nearby.  
   
         > [!NOTE]
-        >  If you use **Paste** instead of **Paste Reference**, a new interface that has a new name will be created.  
+        > If you use **Paste** instead of **Paste Reference**, a new interface that has a new name will be created.  
   
     3. If you wanted to create a required interface, click the Action tag and then click **Convert to Required Interface**.  
   

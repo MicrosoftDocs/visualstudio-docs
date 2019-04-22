@@ -28,7 +28,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The list on the **Events** tab is dynamic. If you add an event listener while the app is running, the new event listener will appear there. For info on adding and removing event listeners, see [Tips for resolving issues with event listeners](#Tips) in this topic.
 
 > [!NOTE]
->  Event listeners for code elements that aren't DOM elements, such as `xhr`, don't appear on the **Events** tab.
+> Event listeners for code elements that aren't DOM elements, such as `xhr`, don't appear on the **Events** tab.
 
 ## View event listeners for DOM elements
  This example shows a Windows Phone Store app. The DOM Explorer features described here are also supported for Windows Store apps.

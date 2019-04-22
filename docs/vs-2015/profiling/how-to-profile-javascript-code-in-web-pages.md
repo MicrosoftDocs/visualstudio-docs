@@ -26,7 +26,7 @@ manager: jillfra
 - Internet Explorer 8 or later.  
   
 > [!WARNING]
->  To profile JavaScript in Windows Store apps, see one of the following topics:  
+> To profile JavaScript in Windows Store apps, see one of the following topics:  
 > 
 > - [JavaScript Function Timing](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03) [JavaScript Function Timing on a Remote Device](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
 >   - [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  

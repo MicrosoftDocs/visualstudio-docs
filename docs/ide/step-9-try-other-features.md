@@ -19,22 +19,22 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 - Replace the icons and colors with ones you choose.
 
     > [!TIP]
-    >  Try looking at the label's [Forecolor](<xref:System.Windows.Forms.Control.ForeColor%2A>) property.
+    > Try looking at the label's [Forecolor](<xref:System.Windows.Forms.Control.ForeColor%2A>) property.
 
 - Add a game timer that tracks how long it takes for the player to win.
 
     > [!TIP]
-    >  To do this, you can add a label to display the elapsed time on the form above the <xref:System.Windows.Forms.TableLayoutPanel>, and add another timer to the form to track the time. Use code to start the timer when the player starts the game, and stop the timer after they match the last two icons.
+    > To do this, you can add a label to display the elapsed time on the form above the <xref:System.Windows.Forms.TableLayoutPanel>, and add another timer to the form to track the time. Use code to start the timer when the player starts the game, and stop the timer after they match the last two icons.
 
 - Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.
 
     > [!TIP]
-    >  To play sounds, you can use the <xref:System.Media> namespace. See [Play sounds in Windows Forms app (C#)](http://youtu.be/qOh4ooHg1UU) or [How to play audio in Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.
+    > To play sounds, you can use the <xref:System.Media> namespace. See [Play sounds in Windows Forms app (C#)](http://youtu.be/qOh4ooHg1UU) or [How to play audio in Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.
 
 - Make the game more difficult by making the board bigger.
 
     > [!TIP]
-    >  You'll need to do more than just add rows and columns to the TableLayoutPanel - you'll also need to consider the number of icons you create.
+    > You'll need to do more than just add rows and columns to the TableLayoutPanel - you'll also need to consider the number of icons you create.
 
 - Make the game more challenging by hiding the first icon if the player is too slow to respond and doesn't choose the second icon before a certain amount of time.
 

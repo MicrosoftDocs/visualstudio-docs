@@ -19,7 +19,7 @@ manager: jillfra
 This interface represents a running process and its programs. This interface exists as a replacement to several methods in the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface. It provides control over all programs in the process.  
   
 > [!NOTE]
->  [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md), [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md), and [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md) methods are deprecated and should no longer be used. Use the corresponding methods on the `IDebugProcess3` interface instead.  
+> [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md), [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md), and [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md) methods are deprecated and should no longer be used. Use the corresponding methods on the `IDebugProcess3` interface instead.  
   
 ## Syntax  
   

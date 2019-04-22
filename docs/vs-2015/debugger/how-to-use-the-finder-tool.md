@@ -39,7 +39,7 @@ Finder Tool in the Find Window dialog box
      If you have the handle of the window you want to examine (for example, copied from the debugger), type it into the **Handle** text box.  
   
     > [!TIP]
-    >  To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
+    > To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
   
 4. Under **Show**, select either **Properties** or **Messages**.  
   

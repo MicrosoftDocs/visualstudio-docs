@@ -29,12 +29,12 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 - [Next steps](#next)
 
 > [!TIP]
->  You can find the complete source code for this project in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
+> You can find the complete source code for this project in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
 >
->   If you have difficulties or run into errors, please post questions on [forums.xamarin.com](http://forums.xamarin.com). Many errors can be resolved by updating to the latest SDKs required by Xamarin, which are described in the  [Xamarin Release Notes](https://developer.xamarin.com/releases/) for each platform.
+> If you have difficulties or run into errors, please post questions on [forums.xamarin.com](http://forums.xamarin.com). Many errors can be resolved by updating to the latest SDKs required by Xamarin, which are described in the  [Xamarin Release Notes](https://developer.xamarin.com/releases/) for each platform.
 >
 > [!NOTE]
->  Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected in the upper right of the page to see Visual Studio-specific walkthroughs.
+> Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected in the upper right of the page to see Visual Studio-specific walkthroughs.
 >
 > - Xamarin apps with native UI:
 >
@@ -224,7 +224,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 1. In **Solution Explorer**, expand the **WeatherApp.Droid**>**Resources**>**layout** folder and open **Main.axml**. This opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
 
     > [!TIP]
-    >  There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android topic on xamarin.com.
+    > There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android topic on xamarin.com.
 
 2. Select and delete the default button that appears in the designer.
 
@@ -233,7 +233,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 4. From the **Toolbox**, drag a **RelativeLayout** control onto the designer. You'll use this control as a parent container for other controls.
 
     > [!TIP]
-    >  If at any time the layout doesn't seem to display correctly, save the file and switching between the **Design** and **Source** tabs to refresh.
+    > If at any time the layout doesn't seem to display correctly, save the file and switching between the **Design** and **Source** tabs to refresh.
 
 5. In the **Properties** window, set the **background** property (in the Style group) to `#545454`.
 
@@ -250,7 +250,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     |**textStyle**|`bold`|
 
     > [!TIP]
-    >  Notice that many properties don’t contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](http://developer.android.com/reference/android/R.attr.html) class page.
+    > Notice that many properties don’t contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](http://developer.android.com/reference/android/R.attr.html) class page.
     >
     >  Also, a quick web search often leads to a page on [http://stackoverflow.com/](http://stackoverflow.com/) where others have used the same property.
 
@@ -517,7 +517,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
      ![Weather app for Android and Windows Phone](../cross-platform/media/xamarin-getstarted-results.png "Xamarin_GetStarted_Results")
 
 > [!TIP]
->  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
+> The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
 
 ## <a name="Windows"></a> Design UI for Windows Phone
  Now we’ll design the user interface for Windows Phone, connect it to your shared code, and then run the app.
@@ -623,7 +623,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
      ![Windows version of the running app](../cross-platform/media/xamarin-getstarted-results-windows.png "Xamarin_GetStarted_Results_Windows")
 
 > [!TIP]
->  The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
+> The complete source code for this project is in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
 
 ## <a name="next"></a> Next steps
  **Add UI for iOS to the solution**

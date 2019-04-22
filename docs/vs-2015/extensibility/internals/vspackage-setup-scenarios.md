@@ -39,13 +39,13 @@ Shared VSPackage installer
  As shown in the illustration, shared components are made part of the Feat_Common feature, which is always installed. By making the Feat_VS2002 and Feat_VS2003 features visible, users can choose at install-time into which versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] they want the VSPackage to integrate. Users can also use Windows Installer maintenance mode to add or remove features, which in this case adds or removes the VSPackage registration information from different versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 > [!NOTE]
->  Setting a feature's Display column to 0 hides it. A low Level column value, such as 1, ensures it will always be installed. For more information, see [INSTALLLEVEL Property](http://msdn.microsoft.com/library/aa369536\(VS.85\).aspx) and [Feature Table](http://msdn.microsoft.com/library/aa368585.aspx).  
+> Setting a feature's Display column to 0 hides it. A low Level column value, such as 1, ensures it will always be installed. For more information, see [INSTALLLEVEL Property](http://msdn.microsoft.com/library/aa369536\(VS.85\).aspx) and [Feature Table](http://msdn.microsoft.com/library/aa368585.aspx).  
   
 ## Scenario 2: Shared VSPackage Update  
  In this scenario, an updated version of the VSPackage installer in scenario 1 is shipped. For the sake of discussion, the update adds support for [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], but it could also be a simpler security patch or bug-fix service pack. Windows Installer's rules for installing newer components require that unchanged components already on the system are not recopied. In this case, a system with version 1.0 already present will overwrite the updated component Comp_MyVSPackage.dll and let users choose to add the new feature Feat_VS2005 with its component Comp_VS2005_Reg.  
   
 > [!CAUTION]
->  Whenever a VSPackage is shared among multiple versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], it is essential that subsequent releases of the VSPackage maintain backward compatibility with prior versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Where you cannot maintain backward compatibility, you must use side-by-side, private VSPackages. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md).  
+> Whenever a VSPackage is shared among multiple versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], it is essential that subsequent releases of the VSPackage maintain backward compatibility with prior versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Where you cannot maintain backward compatibility, you must use side-by-side, private VSPackages. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md).  
   
  ![VS Shared VS Package Update Image](../../extensibility/internals/media/vs-sharedpackageupdate.gif "VS_SharedPackageUpdate")  
 Shared VSPackage update installer  

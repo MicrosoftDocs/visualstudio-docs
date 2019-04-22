@@ -79,7 +79,7 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
      **Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.  
   
     > [!NOTE]
-    >  If you cannot see all of these properties, expand the **Layer Explorer** window.  
+    > If you cannot see all of these properties, expand the **Layer Explorer** window.  
   
     |**Column in Layer Explorer**|**Description**|  
     |----------------------------------|---------------------|  

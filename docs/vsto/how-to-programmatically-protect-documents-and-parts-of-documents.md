@@ -23,7 +23,7 @@ ms.workload:
  You can also mark certain areas of the document as exceptions so that specified users can edit only those areas of the document. For example, you might want to protect an entire document except for a particular bookmark. You can optionally add a password so that users cannot remove the document protection unless they know the password.
 
 > [!NOTE]
->  The following example does not use password protection; however, you might want to consider using a password when adding document protection. For more information, see the Document Protector Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
+> The following example does not use password protection; however, you might want to consider using a password when adding document protection. For more information, see the Document Protector Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
  You can also use content controls to protect parts of documents. For more information, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).
 

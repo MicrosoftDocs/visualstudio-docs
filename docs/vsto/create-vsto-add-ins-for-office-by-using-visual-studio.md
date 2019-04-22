@@ -19,7 +19,7 @@ ms.workload:
  The Office developer tools provide features that help you create Office solutions to suit a variety of business needs. The tools include project templates to help you create Office solutions by using Visual Basic or Visual C#, and visual designers that help you create custom user interfaces for your Office solutions.
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
  For the latest information about Office development, see the following development centers on MSDN:
 

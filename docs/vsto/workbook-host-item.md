@@ -43,7 +43,7 @@ ms.workload:
  The <xref:Microsoft.Office.Tools.Excel.Workbook> host item does not act as a container for host controls. Therefore, you cannot add any visible controls to the workbook, but you can add components, such as a <xref:System.Data.DataSet>, so that the components can be shared by all worksheets. In a document-level project, components available to the workbook can be found on the **Component** tab, **Data** tab, and **All Windows Forms** tab of the **Toolbox**.
 
 > [!NOTE]
->  The Office development tools in Visual Studio do not support shared workbooks.
+> The Office development tools in Visual Studio do not support shared workbooks.
 
 ## Understand workbook host items in VSTO Add-in projects
  In VSTO Add-in projects, you can generate a <xref:Microsoft.Office.Tools.Excel.Workbook> host item at runtime for any workbook that is open in Excel. To generate a <xref:Microsoft.Office.Tools.Excel.Workbook> host item, use the `GetVstoObject` method. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).

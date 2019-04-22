@@ -38,7 +38,7 @@ This error occurs when [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] is not i
      where *version* represents the version number of the .NET Framework installed on your computer, such as v1.0.370. You can determine the framework version by looking in the `\WINDOWS\Microsoft.NET\Framework` directory.  
   
     > [!NOTE]
-    >  With Windows Server 2003, you can install [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] by using **Add or Remove Programs** in Control Panel.  
+    > With Windows Server 2003, you can install [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] by using **Add or Remove Programs** in Control Panel.  
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

@@ -16,7 +16,7 @@ manager: jillfra
 The Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSL) and the UML tools are built.
 
 > [!NOTE]
->  For information about the UML modeling API, see [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md). For information about text transformation, see [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md).
+> For information about the UML modeling API, see [API Reference for UML Modeling Extensibility](../modeling/api-reference-for-uml-modeling-extensibility.md). For information about text transformation, see [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md).
 
  This section contains reference material for namespaces that have names that begin with "Microsoft.VisualStudio.Modeling".
 

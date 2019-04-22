@@ -21,7 +21,7 @@ manager: jillfra
 This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.  
   
 > [!NOTE]
->  Some bug fixes and improvements to the latest [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE may uncover problems with existing source control plug-ins that were previously not encountered while using previous versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. It is strongly recommended that you test your existing source control plug-in for the areas enumerated in this section, even if no changes have been made to the plug-in since the previous version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
+> Some bug fixes and improvements to the latest [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE may uncover problems with existing source control plug-ins that were previously not encountered while using previous versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. It is strongly recommended that you test your existing source control plug-in for the areas enumerated in this section, even if no changes have been made to the plug-in since the previous version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)].  
   
 ## Common Preparation  
  A machine with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] and the target source control plug-in installed, is required. A second machine similarly configured can be used for some of the Open from Source Control tests.  

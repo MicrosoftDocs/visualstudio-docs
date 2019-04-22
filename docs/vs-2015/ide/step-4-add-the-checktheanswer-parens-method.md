@@ -16,7 +16,7 @@ manager: jillfra
 In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, that determines whether the answers to the math problems are correct. This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
 > [!NOTE]
->  If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.  
+> If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.  
   
 ### To verify whether the answers are correct  
   
@@ -39,7 +39,7 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 3. Save your program, run it, start a quiz, and provide a correct answer to the addition problem.  
   
     > [!NOTE]
-    >  When you enter your answer, you must either select the default value before you start to enter your answer, or you must delete the zero manually. You'll correct this behavior later in this tutorial.  
+    > When you enter your answer, you must either select the default value before you start to enter your answer, or you must delete the zero manually. You'll correct this behavior later in this tutorial.  
   
      When you provide a correct answer, a message box opens, the **Start** button becomes available, and the timer stops.  
   

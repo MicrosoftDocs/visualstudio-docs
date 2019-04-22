@@ -16,7 +16,7 @@ manager: jillfra
 Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way Visual Studio performance tools collect data on these platforms. Windows Store apps also require new collection techniques. This topic describes the changes for performance tools on Windows 8 and Windows Server 2012 platforms.  
   
 > [!NOTE]
->  Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.  
+> Performance tools for other supported versions of Windows (Windows 7, Windows Server 2008 R2) have not changed.  
   
 ## <a name="BKMK_In_this_topic"></a> In this topic  
  [Collecting data on Windows Store apps from the Visual Studio IDE](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
@@ -99,7 +99,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
 - Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%* **\Team Tools\Performance Tools\Setups** folder. Choose the setup program for the operating system (x86/x64) of the remote computer.  
   
 > [!NOTE]
->  To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.  
+> To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.  
   
  These profiling features and options are not supported when profiling Windows 8 and Windows Server 2012 applications from the command line:  
   

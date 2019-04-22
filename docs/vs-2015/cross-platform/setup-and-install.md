@@ -21,7 +21,7 @@ To build native iOS, Android, and Windows apps from a common C#/.NET code base u
 If you have issues using Xamarin after doing this setup and install, post your question on [forums.xamarin.com](http://forums.xamarin.com/).
   
 > [!NOTE]
->  As of March 31, 2016, all of Xamarin is included with all editions of Visual Studio at no extra cost and does not need a separate license. Xamarin Studio Community for Mac is also free for students, OSS developers, and small teams. Note that for existing installations of Visual Studio that are configured with earlier Xamarin licenses, you must update Xamarin to version 4.0.3.214 or higher. To do this, go to **Tools > Options > Xamarin > Other**, click the **Check Now** link, and download the 4.0.3.214 update. When you restart Visual Studio, go to **Tools > Xamarin Account...** and you should see updated status.  
+> As of March 31, 2016, all of Xamarin is included with all editions of Visual Studio at no extra cost and does not need a separate license. Xamarin Studio Community for Mac is also free for students, OSS developers, and small teams. Note that for existing installations of Visual Studio that are configured with earlier Xamarin licenses, you must update Xamarin to version 4.0.3.214 or higher. To do this, go to **Tools > Options > Xamarin > Other**, click the **Check Now** link, and download the 4.0.3.214 update. When you restart Visual Studio, go to **Tools > Xamarin Account...** and you should see updated status.  
   
  **In this topic:**  
   
@@ -50,7 +50,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
 ## <a name="windows"></a> Windows setup (Visual Studio and Xamarin)  
   
 > [!TIP]
->  These instructions apply to Visual Studio 2015. To use Xamarin with Visual Studio 2013 (Update 2 is required),  follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).  
+> These instructions apply to Visual Studio 2015. To use Xamarin with Visual Studio 2013 (Update 2 is required),  follow the instructions for [direct Xamarin install](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install) (xamarin.com).  
   
 1. [Download and launch the installer for any edition of Visual Studio 2015](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional, or Enterprise). Visual Studio 2015 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days after which you'll need to purchase a license.  
   
@@ -77,7 +77,7 @@ If you have issues using Xamarin after doing this setup and install, post your q
     ![Checking for Xamarin updates in Visual Studio options](../cross-platform/media/cross-plat-xamarin-setup-3.png "Cross-Plat Xamarin Setup 3")  
   
    > [!NOTE]
-   >  As noted earlier, be sure to update Xamarin to version 4.0.3.214 or higher to avoid issues with earlier Xamarin licenses.  
+   > As noted earlier, be sure to update Xamarin to version 4.0.3.214 or higher to avoid issues with earlier Xamarin licenses.  
 
    If you don't see an option for Xamarin in **Tools > Options**, double-check your installation, or try restarting Visual Studio. You can also search for Xamarin in the Options dialog.
       

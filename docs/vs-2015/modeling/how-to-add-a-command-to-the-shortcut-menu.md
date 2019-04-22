@@ -29,7 +29,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
    For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).  
   
 > [!NOTE]
->  You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).  
+> You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).  
   
 ## Defining a Command using MEF  
  Managed Extension Framework (MEF) provides an alternative method of defining menu commands on the diagram menu. Its primary purpose is to enable a DSL to be extended by you or by other parties. Users can choose to install just the DSL, or can install both the DSL and extensions. However, MEF also reduces the work of defining shortcut menu commands, after the initial work to enable MEF on the DSL.  
@@ -84,7 +84,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
     ```  
   
     > [!NOTE]
-    >  Each button or group is identified by a GUID and an integer ID. You can create several groups and buttons with the same GUID. However, they must have different IDs. The GUID names and ID names are translated to actual GUIDs and numeric IDs in the `<Symbols>` node.  
+    > Each button or group is identified by a GUID and an integer ID. You can create several groups and buttons with the same GUID. However, they must have different IDs. The GUID names and ID names are translated to actual GUIDs and numeric IDs in the `<Symbols>` node.  
   
 3. Add a visibility constraint for the command so that it is loaded only in the context of your domain-specific language. For more information, see [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md).  
   
@@ -114,7 +114,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 5. Replace `{000...000}` with a GUID that identifies your groups and menu items. To obtain a new GUID, use the **Create GUID** tool on the **Tools** menu.  
   
     > [!NOTE]
-    >  If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.  
+    > If you add more groups or menu items, you can use the same GUID. However, you must use new values for the `IDSymbols`.  
   
 6. In the code you have copied from this procedure, replace each occurrence of the following strings with your own strings:  
   
@@ -292,7 +292,7 @@ private const int cmdidMyContextMenuCommand = 1;
  Use the same GUID value as you inserted in **Commands.vsct**.  
   
 > [!NOTE]
->  If you change the Symbols section of the VSCT file, you must also change these declarations to match. You should also increment the version number in Package.tt  
+> If you change the Symbols section of the VSCT file, you must also change these declarations to match. You should also increment the version number in Package.tt  
   
  Register your menu commands as part of this command set. `GetMenuCommands()` is called once when the diagram is initialized:  
   

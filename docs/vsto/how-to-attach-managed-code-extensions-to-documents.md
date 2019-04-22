@@ -22,7 +22,7 @@ ms.workload:
  To attach a customization to a Word or Excel document, use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization%2A> method of the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class. Because the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class is designed to be run on a computer that does not have Microsoft Office installed, you can use this method in solutions that are not directly related to Microsoft Office development (such as a console or Windows Forms application).
 
 > [!NOTE]
->  The customization will fail to load if the code expects controls that the specified document does not have.
+> The customization will fail to load if the code expects controls that the specified document does not have.
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Attach or detach a VSTO assembly from a Word document?](http://go.microsoft.com/fwlink/?LinkId=136782).
 

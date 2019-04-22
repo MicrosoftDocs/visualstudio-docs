@@ -15,7 +15,7 @@ manager: "crdun"
 This topic contains information to help you resolve issues that you may experience when you’re using the Visual Studio Emulator for Android.
 
 > [!WARNING]
->  When the emulator is installed, the setup program checks the prerequisites for running the software. It displays warnings if the prerequisites are not present, but it does not require them for installation.
+> When the emulator is installed, the setup program checks the prerequisites for running the software. It displays warnings if the prerequisites are not present, but it does not require them for installation.
 
  This topic contains the following sections.
 
@@ -64,7 +64,7 @@ This topic contains information to help you resolve issues that you may experien
  ![Android&#95;Emu&#95;Install&#95;Issue](../cross-platform/media/android-emu-install-issue.png "Android_Emu_Install_Issue")
 
 > [!NOTE]
->  This message applies both to the Visual Studio Emulator for Android and the Windows Phone Emulator. Windows 8.1 and Windows 10 support the emulator.
+> This message applies both to the Visual Studio Emulator for Android and the Windows Phone Emulator. Windows 8.1 and Windows 10 support the emulator.
 
  If you see this message, check the [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) to see whether you can run the emulator.
 

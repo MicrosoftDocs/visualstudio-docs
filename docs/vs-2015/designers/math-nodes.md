@@ -16,7 +16,7 @@ manager: jillfra
 In the Shader Designer, math nodes perform algebraic, logic, trigonometric, and other mathematical operations.  
   
 > [!NOTE]
->  When you work with math nodes in the Shader Designer, type promotion is especially evident. To learn how type promotion affects input parameters, see the "Promotion of inputs" section in [Shader Designer Nodes](../designers/shader-designer-nodes.md).  
+> When you work with math nodes in the Shader Designer, type promotion is especially evident. To learn how type promotion affects input parameters, see the "Promotion of inputs" section in [Shader Designer Nodes](../designers/shader-designer-nodes.md).  
   
 ## Math node reference  
   

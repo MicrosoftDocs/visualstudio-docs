@@ -40,7 +40,7 @@ int GetENCAvailableState(
  If successful, returns `S_OK`; otherwise, returns error code.  
   
 > [!NOTE]
->  A custom port supplier should always return `E_NOTIMPL`.  
+> A custom port supplier should always return `E_NOTIMPL`.  
   
 ## Remarks  
  This state can be affected by [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md).  

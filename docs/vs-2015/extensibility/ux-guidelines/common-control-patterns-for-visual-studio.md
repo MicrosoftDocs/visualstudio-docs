@@ -323,7 +323,7 @@ manager: jillfra
  Some buttons should always use a graphical image and never include text to conserve space and avoid localization problems. These are often used in field pickers and other sortable lists.
 
 > [!NOTE]
->  Users have to tab to these buttons (there are no access keys), so place them in a sensible order. Map the name property of the button to the action that it takes so that screen readers correctly interpret the button action.
+> Users have to tab to these buttons (there are no access keys), so place them in a sensible order. Map the name property of the button to the action that it takes so that screen readers correctly interpret the button action.
 
 |||
 |-|-|

@@ -33,7 +33,7 @@ ms.workload:
 - Open documents and workbooks from the **File** menu while holding down the **Shift** key to prevent Word and Excel from raising initialization events while the document is opening.
 
     > [!NOTE]
-    >  If you open a document or workbook from the **Getting Started** task pane, holding down **Shift** does not bypass the code. Also, holding down SHIFT does not prevent events from being raised after the document is open.
+    > If you open a document or workbook from the **Getting Started** task pane, holding down **Shift** does not bypass the code. Also, holding down SHIFT does not prevent events from being raised after the document is open.
 
      This method is useful if you want to open a document to make changes without the code running and altering the document first.
 

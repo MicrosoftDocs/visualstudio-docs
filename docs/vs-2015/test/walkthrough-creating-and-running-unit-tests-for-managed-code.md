@@ -41,10 +41,10 @@ This walkthrough will step you through creating, running, and customizing a seri
   [Use unit tests to improve your code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Use_unit_tests_to_improve_your_code)  
   
 > [!NOTE]
->  This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
+> This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
 > [!NOTE]
->  For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867).  
+> For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867).  
   
 ## Prerequisites  
   
@@ -65,12 +65,12 @@ This walkthrough will step you through creating, running, and customizing a seri
 5. In the **Name** box, type `Bank` and then click **OK**.  
   
    > [!NOTE]
-   >  If the name "Bank" is already used, choose another name for the project.  
+   > If the name "Bank" is already used, choose another name for the project.  
   
     The new Bank project is created and displayed in Solution Explorer with the Class1.cs file open in the Code Editor.  
   
    > [!NOTE]
-   >  If the Class1.cs file is not open in the Code Editor, double-click the file Class1.cs in Solution Explorer to open it.  
+   > If the Class1.cs file is not open in the Code Editor, double-click the file Class1.cs in Solution Explorer to open it.  
   
 6. Copy the source code from the [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).  
   

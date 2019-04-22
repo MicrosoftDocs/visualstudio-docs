@@ -97,7 +97,7 @@ ms.workload:
 8. For workflows, associates the workflow with the SharePoint library, list, or site that you selected in the **SharePoint Customization Wizard**.
 
    > [!NOTE]
-   >  This association occurs only if you selected **Automatically associate workflow** in the wizard.
+   > This association occurs only if you selected **Automatically associate workflow** in the wizard.
 
 9. Runs the customizable post-deployment commands.
 
@@ -120,7 +120,7 @@ ms.workload:
  When you debug workflow projects, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the workflow template (depending on its type) to a library or to a list. You can then start the workflow template manually or by adding or updating an item. You can then use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to debug the workflow.
 
 > [!NOTE]
->  If you add references to other assemblies, make sure that those assemblies are installed in the global assembly cache ( [!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](https://support.office.com/article/Manually-start-a-workflow-on-a-document-or-item-5C106E0E-6FF2-4A75-AF99-F01653BC7963).
+> If you add references to other assemblies, make sure that those assemblies are installed in the global assembly cache ( [!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](https://support.office.com/article/Manually-start-a-workflow-on-a-document-or-item-5C106E0E-6FF2-4A75-AF99-F01653BC7963).
 
  However, the deployment process does not start the workflow. You must start the workflow from the SharePoint Web site. You can also start the workflow by using a client application such as Microsoft Office Word 2010, or by using separate server-side code. Use one of the approaches specified in the **SharePoint Customization Wizard**.
 

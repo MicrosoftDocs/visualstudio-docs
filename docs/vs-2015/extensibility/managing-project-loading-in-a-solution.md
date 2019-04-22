@@ -59,7 +59,7 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
  If the solution load manager is meant to manage solution loading in general, it can be implemented as part of a VSPackage. The package should be set to autoload by adding the <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> on the VSPackage with a value of <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionOpening_guid>. The solution load manager can then be activated in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
 > [!NOTE]
->  For more information about autoloading packages, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+> For more information about autoloading packages, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
  Since Visual Studio recognizes only the last solution load manager to be activated, general solution load managers should always detect whether there is an existing load manager before activating themselves. If calling GetProperty() on the solution service for <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> returns `null`, there is no active solution load manager. If it does not return null, check whether the object is the same as your solution load manager.  
   
@@ -108,4 +108,4 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution4.EnsureProjectsAreLoaded%2A>: calling this method forces the project in `guidProjectID` to load before the method returns.  
   
 > [!NOTE]
->  . By default only the projects that have the demand load and background load priorities are loaded, but if the <xref:Microsoft.VisualStudio.Shell.Interop.__VSBSLFLAGS> flag is passed in to the method, all projects will be loaded except for the ones that are marked to load explicitly.
+> . By default only the projects that have the demand load and background load priorities are loaded, but if the <xref:Microsoft.VisualStudio.Shell.Interop.__VSBSLFLAGS> flag is passed in to the method, all projects will be loaded except for the ones that are marked to load explicitly.

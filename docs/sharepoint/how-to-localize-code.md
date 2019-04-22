@@ -26,7 +26,7 @@ ms.workload:
      Choose the **Resources File** template.
 
     > [!NOTE]
-    >  Be sure to add the resource file to a SharePoint project item so that the Deployment Type property is available. This property is required later in this procedure.
+    > Be sure to add the resource file to a SharePoint project item so that the Deployment Type property is available. This property is required later in this procedure.
 
 2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as *MyAppResources.resx*.
 

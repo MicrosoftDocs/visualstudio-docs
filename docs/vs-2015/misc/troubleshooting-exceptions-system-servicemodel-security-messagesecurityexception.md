@@ -29,7 +29,7 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
  If a remote user might run the Web site by using the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server and also work with a Web service or WCF service, you can either create a custom service binding or turn off NTLM security.  
   
 > [!IMPORTANT]
->  Turning off NTLM security is not recommended and could constitute a security threat.  
+> Turning off NTLM security is not recommended and could constitute a security threat.  
   
  If you create a custom service binding, you are still protected by NTLM authentication.  
   
@@ -68,7 +68,7 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
    You can follow these steps to disable NTLM security when you are working with a WCF service reference.  
   
 > [!IMPORTANT]
->  Turning off NTLM security is not recommended and could constitute a security threat.  
+> Turning off NTLM security is not recommended and could constitute a security threat.  
   
 #### To turn off NTLM security  
   

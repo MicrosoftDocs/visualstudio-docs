@@ -57,7 +57,7 @@ ms.workload:
 - The `TaskPaneUI` class provides the UI of the task pane. The attributes for the `TaskPaneUI` class make the class visible to COM, which enables Microsoft Office applications to discover the class. In this example, the UI is an empty <xref:System.Windows.Forms.UserControl>, but you can add controls by modifying the code.
 
   > [!NOTE]
-  >  To expose the `TaskPaneUI` class to COM, you must also set the **Register for COM Interop** property for the project.
+  > To expose the `TaskPaneUI` class to COM, you must also set the **Register for COM Interop** property for the project.
 
   [!code-vb[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/VisualBasic/Trin_SimpleExtensibilityInterface/ThisAddIn.vb#1)]
   [!code-csharp[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/CSharp/Trin_SimpleExtensibilityInterface/ThisAddIn.cs#1)]

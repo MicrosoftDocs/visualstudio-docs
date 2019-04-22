@@ -29,7 +29,7 @@ A VSPackage cannot function unless Visual Studio is installed. When you use Micr
    When a "higher" edition is installed, the registry keys for that edition as well as for "lower" editions are added. That is, if the Enterprise edition is installed, the Install key is set to 1 for Enterprise, as well as for Professional and Community editions. Therefore you need to check only for the "highest" edition you need.  
   
 > [!NOTE]
->  In the 64-bit version of the registry editor, 32-bit keys are displayed under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\. The Visual Studio keys are under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing\\.  
+> In the 64-bit version of the registry editor, 32-bit keys are displayed under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\. The Visual Studio keys are under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing\\.  
   
 |Product|Key|  
 |-------------|---------|  

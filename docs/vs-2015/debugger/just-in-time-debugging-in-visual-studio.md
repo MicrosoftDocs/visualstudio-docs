@@ -86,7 +86,7 @@ The actions you should take when you see the Visual Studio Just-in-Time debugger
 5. Close the **Registry Editor** window.
 
 > [!NOTE]
->  If you are trying to disable Just-In-Time debugging for a server-side app and these steps don't resolve the issue, turn off server-side debugging in the IIS application settings and retry.
+> If you are trying to disable Just-In-Time debugging for a server-side app and these steps don't resolve the issue, turn off server-side debugging in the IIS application settings and retry.
 
 #### To enable Just-In-Time debugging of a Windows Form
 
@@ -134,7 +134,7 @@ static void Main(string[] args)
 ```
 
 > [!IMPORTANT]
->  In order for this procedure to work in a [release configuration](../debugger/how-to-set-debug-and-release-configurations.md), you need to turn off [Just My Code](../debugger/just-my-code.md). In Visual Studio, click **Tools / Options**. In the **Options** dialog, select **Debugging**. Remove the check from **Enable Just My Code**.
+> In order for this procedure to work in a [release configuration](../debugger/how-to-set-debug-and-release-configurations.md), you need to turn off [Just My Code](../debugger/just-my-code.md). In Visual Studio, click **Tools / Options**. In the **Options** dialog, select **Debugging**. Remove the check from **Enable Just My Code**.
 
  Build the solution (in Visual Studio, choose **Build / Rebuild Solution**). You can choose either the Debug or the Release configuration. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).
 
@@ -151,7 +151,7 @@ static void Main(string[] args)
  Do not click **Cancel**! After a few seconds, you should see two buttons, **Debug** and **Close program**. Click **Debug**.
 
 > [!CAUTION]
->  If your application contains untrusted code, a dialog box with a security warning appears. This dialog box enables you to decide whether or not to proceed with debugging. Before you continue with debugging, decide whether you trust the code. Did you write the code yourself? Do you trust the coder? If the application is running on a remote machine, do you recognize the name of the process? Even if the application is running locally, that does not necessarily mean it can be trusted. Consider the possibility of malicious code running on your computer. If you decide that the code you are about to debug is trustworthy, click **Debug**. Otherwise, click **Don't Debug**.
+> If your application contains untrusted code, a dialog box with a security warning appears. This dialog box enables you to decide whether or not to proceed with debugging. Before you continue with debugging, decide whether you trust the code. Did you write the code yourself? Do you trust the coder? If the application is running on a remote machine, do you recognize the name of the process? Even if the application is running locally, that does not necessarily mean it can be trusted. Consider the possibility of malicious code running on your computer. If you decide that the code you are about to debug is trustworthy, click **Debug**. Otherwise, click **Don't Debug**.
 
  The **Visual Studio Just-In-Time Debugger** window appears:
 

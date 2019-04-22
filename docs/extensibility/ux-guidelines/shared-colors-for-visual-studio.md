@@ -1407,7 +1407,7 @@ A command bar group consists of a related set of command bar controls and might 
 #### <a name="BKMK_CommandDropDown"></a> Command bar drop-downs
 
 > [!IMPORTANT]
->  Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens for [command bar combo boxes](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox).
+> Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens for [command bar combo boxes](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox).
 
 ![Command bar drop-down (redline)](../../extensibility/ux-guidelines/media/0303-042_dropdownredline.png "0303-042_DropdownRedline")<br />Command bar drop-down (redline)
 

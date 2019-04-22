@@ -23,7 +23,7 @@ manager: jillfra
 By using advanced search operators, you can refine your search for content by creating more complicated search expressions from simpler ones. As the following table shows, these operators restrict the context in which a query runs.  
   
 > [!WARNING]
->  You must enter advanced search operators with a final colon and no intervening space before the colon for the search engine to recognize them.  
+> You must enter advanced search operators with a final colon and no intervening space before the colon for the search engine to recognize them.  
   
 |To search for|Use|Example|Result|  
 |-------------------|---------|-------------|------------|  

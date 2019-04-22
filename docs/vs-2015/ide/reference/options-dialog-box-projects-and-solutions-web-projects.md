@@ -20,7 +20,7 @@ Sets the Web server that Web projects will use for development within [!INCLUDE[
  By default, when you run a Web project in Visual Studio (for example, using F5 or Ctrl+F5), Visual Studio uses the Visual Studio Development Server. For more information, see [Web Servers in Visual Studio for ASP.NET Web Projects](http://msdn.microsoft.com/31d4f588-df59-4b7e-b9ea-e1f2dd204328).  
   
 > [!NOTE]
->  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **Web settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **Web settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Settings  
  **Use the 64-bit version of IIS Express for web sites and projects**  

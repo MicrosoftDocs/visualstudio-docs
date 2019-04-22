@@ -47,6 +47,7 @@ To quickly test Python support after following the installation steps, open the 
 
     > [!Note]
     > The Python and Data Science workloads are available only with Visual Studio 2017 version 15.2 and later.
+
     ::: moniker-end
 
     ::: moniker range=">=vs-2019"

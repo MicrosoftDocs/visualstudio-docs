@@ -60,7 +60,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
  By default, the remote debugger uses Windows Authentication.  
   
 > [!WARNING]
->  You can also choose to run the remote debugger in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk of from malicious or hostile traffic.  
+> You can also choose to run the remote debugger in No Authentication mode, but this mode is strongly discouraged. There is no network security when you run in this mode. Choose the No Authentication mode only if you are sure that the network is not at risk of from malicious or hostile traffic.  
   
 ## <a name="BKMK_DirectConnect"></a> How to connect directly to a remote device  
  To connect directly to a remote device, connect the Visual Studio computer to the device with a standard Ethernet cable. If the device does not have an Ethernet port, you can use a USB to Ethernet adapter to connect to the cable.  
@@ -68,15 +68,15 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 ## <a name="BKMK_Installing_the_Remote_Tools"></a> Installing the Remote Tools  
   
 > [!NOTE]
->  **Versions and updates**  
+> **Versions and updates**  
 >   
->  The **Remote Tools for Visual Studio 2015** are not supported for previous versions of Visual Studio.  
+> The **Remote Tools for Visual Studio 2015** are not supported for previous versions of Visual Studio.  
 >   
->  We recommend that you install the update version of the Remote Tools for Visual Studio 2015 that matches the update version of your Visual Studio installation.  
+> We recommend that you install the update version of the Remote Tools for Visual Studio 2015 that matches the update version of your Visual Studio installation.  
 >   
->  The VS debugger is compatible with any combination of versions of VS 2015 and the Remote Tools for VS 2015. However, the newest functionality in Visual Studio requires both Visual Studio and the Remote Tools to be on the most up to date version.  
+> The VS debugger is compatible with any combination of versions of VS 2015 and the Remote Tools for VS 2015. However, the newest functionality in Visual Studio requires both Visual Studio and the Remote Tools to be on the most up to date version.  
 >   
->  Other diagnostic tools might require the same versions of the remote tools and Visual Studio.  
+> Other diagnostic tools might require the same versions of the remote tools and Visual Studio.  
   
  **Installing the remote debugging components on a remote device**  
   
@@ -95,7 +95,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
 ## <a name="BKMK_Starting_the_Remote_Debugger_Monitor"></a> Starting the Remote Debugger Monitor  
   
 > [!NOTE]
->  Because the remote debugger configures the firewall to allow communication with the Visual Studio host, you must be an administrator on the remote device when you start the remote debugger for the first time.  
+> Because the remote debugger configures the firewall to allow communication with the Visual Studio host, you must be an administrator on the remote device when you start the remote debugger for the first time.  
   
  After you have installed the Remote Tools, choose **Remote Debugger** on the **Start** screen. The **Remote Debugging Configuration** appears the first time that you start the remote debugger.  
   
@@ -119,7 +119,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
    2. Choose **Permissions** to add or remove users that have permission for remote debugging.  
   
        > [!NOTE]
-       >  Permissions must be granted to every user account that debugs remotely.  
+       > Permissions must be granted to every user account that debugs remotely.  
   
    You use the **Remote Debugger Configuration Wizard** to set advanced options for the remote debugger. To open the wizard, choose **Remote Debugger Configuration Wizard** on the Start screen.  
   
@@ -135,7 +135,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
  The dialog box lists only those devices that are on the local subnet of the Visual Studio computer and that are running the remote debugger.  
   
 > [!TIP]
->  If you have trouble connecting to a remote device, try entering the IP address of the device. To determine the IP address of a device, open a command window and then type **ipconfig**. The IP address is listed as **IPv4 Address**.  
+> If you have trouble connecting to a remote device, try entering the IP address of the device. To determine the IP address of a device, open a command window and then type **ipconfig**. The IP address is listed as **IPv4 Address**.  
   
 ### <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> Choosing the remote device for C# and Visual Basic projects  
  ![Managed project properties for remote debugging](../debugger/media/vsrun-managed-projprop-remote.png "VSRUN_Managed_ProjProp_Remote")  

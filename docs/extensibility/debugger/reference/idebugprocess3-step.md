@@ -17,7 +17,7 @@ ms.workload:
 Causes the process to step one instruction or statement.
 
 > [!NOTE]
->  This method should be used instead of [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md).
+> This method should be used instead of [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md).
 
 ## Syntax
 

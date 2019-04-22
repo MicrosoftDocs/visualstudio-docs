@@ -61,7 +61,7 @@ For an editor, the context is active only when the editor has focus or had focus
      When the **Dynamic Help** window calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> to indicate that it is updating, the editor or designer can update the context appropriately for both the parent context bag and any subcontext bags at that time.  
   
     > [!NOTE]
-    >  The `SetDirty` flag is automatically set to `true` whenever context is added or removed from the context bag. The **Dynamic Help** window only calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> on the context bag if the `SetDirty` flag is set to `true`. It is reset to `false` after the update.  
+    > The `SetDirty` flag is automatically set to `true` whenever context is added or removed from the context bag. The **Dynamic Help** window only calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> on the context bag if the `SetDirty` flag is set to `true`. It is reset to `false` after the update.  
   
 3. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> to add context to the active context collection or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> to remove context.  
   
@@ -69,7 +69,7 @@ For an editor, the context is active only when the editor has focus or had focus
  If you are writing your own editor, then you must complete all three of the procedures in this topic to provide context for the editor.  
   
 > [!NOTE]
->  To properly activate an editor or designer window and to ensure that command routing is updated properly, you must call <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> on the component to make it the focus window.  
+> To properly activate an editor or designer window and to ensure that command routing is updated properly, you must call <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> on the component to make it the focus window.  
   
  The SEID is a collection of properties that change based on the selection. SEID information is available through the global selection. The global selection is wired into events triggered by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> interface, and has a list of everything that is selected (current editor, current tool window, current hierarchy, and so on).  
   

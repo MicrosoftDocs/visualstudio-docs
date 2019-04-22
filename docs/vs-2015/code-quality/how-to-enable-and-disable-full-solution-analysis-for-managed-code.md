@@ -16,7 +16,7 @@ manager: "wpickett"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  This topic applies only to Visual Studio 2015 Update 3 RC and later.  
+> This topic applies only to Visual Studio 2015 Update 3 RC and later.  
   
  *Full solution analysis* is a Visual Studio feature that enables you to choose whether you see code analysis issues only in open Visual C# or Visual Basic files in your solution, or in both open and closed Visual C# or Visual Basic files in your solution.  
   

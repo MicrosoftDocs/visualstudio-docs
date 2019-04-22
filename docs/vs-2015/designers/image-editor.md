@@ -76,7 +76,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
  Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#ImageProperties).  
   
 > [!NOTE]
->  Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.  
+> Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.  
   
 ## Working with the Image Editor  
  This section describes how to use the Image Editor to modify textures and images.  
@@ -160,7 +160,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |Depth Slice|The current depth slice. Only the first slice can be viewed; all other slices are lost when the image is saved.|  
   
 > [!NOTE]
->  Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool Properties](#ToolProperties).  
+> Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool Properties](#ToolProperties).  
   
 #### Resizing images  
  Here are two ways to resize an image. In both cases, the Image Editor uses bi-linear interpolation to resample the image.  

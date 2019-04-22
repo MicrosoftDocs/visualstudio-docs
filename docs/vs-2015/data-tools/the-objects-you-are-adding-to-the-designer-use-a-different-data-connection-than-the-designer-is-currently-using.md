@@ -18,7 +18,7 @@ The objects you are adding to the designer use a different data connection than 
  When you add items to the [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]), all items use one shared data connection. (The design surface represents the <xref:System.Data.Linq.DataContext>, which uses a single connection for all objects on the surface.) If you add an object to the designer that uses a data connection that differs from the data connection currently being used by the designer, this message appears. To resolve this error, you can choose to maintain the existing connection. If you make this choice, the selected object will not be added. Alternatively, you can choose to add the object and reset the <xref:System.Data.Linq.DataContext> connection to the new connection.  
   
 > [!NOTE]
->  If you click **Yes**, all entity classes on the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] are mapped to the new connection.  
+> If you click **Yes**, all entity classes on the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] are mapped to the new connection.  
   
 ### To replace the existing connection with the connection used by the selected object  
   

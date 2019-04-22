@@ -53,7 +53,7 @@ When you want to understand dependencies across your code, visualize them by cre
 - Visual Studio Professional: Open code maps, make limited edits, and navigate code.  
   
 > [!WARNING]
->  Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are made visible.  
+> Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are made visible.  
   
  **You can map dependencies for code in these languages**:  
   
@@ -136,7 +136,7 @@ When you want to understand dependencies across your code, visualize them by cre
     Or use the keyboard by selecting the item then pressing the plus key (**+**). To explore deeper levels of code, do the same for namespaces, types, and members.  
   
    > [!TIP]
-   >  For more details of working with code maps using the mouse, keyboard, and touch, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
+   > For more details of working with code maps using the mouse, keyboard, and touch, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).  
   
 5. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, you can hide all the Solution Folder and Assembly containers.  
   
@@ -151,7 +151,7 @@ When you want to understand dependencies across your code, visualize them by cre
     In this example, the purple links are calls, the dotted links are references, and the light blue links are field access. Green links can be inheritance, or they may be *aggregate links* that indicate more than one type of relationship (or *category*).  
   
    > [!TIP]
-   >  If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren’t interested in.  
+   > If you see a green link, it might not mean there's just an inheritance relationship. There might also be method calls, but these are hidden by the inheritance relationship. To see specific types of links, use the checkboxes in the **Filters** pane to hide the types you aren’t interested in.  
   
 7. To get more information about an item or link, move the pointer on top of it until a tooltip appears. This shows details of a code element or the categories that a link represents.  
   
@@ -190,7 +190,7 @@ When you want to understand dependencies across your code, visualize them by cre
 2. Drag the assemblies or binaries you want to map from outside Visual Studio onto the map. For example, drag assemblies or binaries from Windows Explorer or File Explorer.  
   
 > [!NOTE]
->  You can drag assemblies or binaries from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation. To work around this, make sure that both are running with the same permission level, or turn UAC off.  
+> You can drag assemblies or binaries from Windows Explorer or File Explorer only if you are running it and Visual Studio at the same User Access Control (UAC) permissions level. For example, if UAC is turned on and you are running Visual Studio as Administrator, Windows Explorer or File Explorer will block the dragging operation. To work around this, make sure that both are running with the same permission level, or turn UAC off.  
   
 ## <a name="SeeSpecificSource"></a> See specific dependencies  
  For example, suppose you have a code review to perform in some files with pending changes. To see the dependencies in those changes, you can create a code map from those files.  
@@ -212,7 +212,7 @@ When you want to understand dependencies across your code, visualize them by cre
      You can also drag items from Solution Explorer, Class View, or Object Browser to a blank or an existing code map. To create a blank map, see [Create an empty code map](#GetStarted). To include the parent hierarchy for your items, press and hold the **CTRL** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action.  
   
     > [!NOTE]
-    >  When you add items from a project that's shared across multiple apps, like Windows Phone or Windows Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.  
+    > When you add items from a project that's shared across multiple apps, like Windows Phone or Windows Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.  
   
 4. To explore items, expand them. Move the mouse pointer on top of an item, then click the chevron (down arrow) icon when it appears.  
   
@@ -347,13 +347,13 @@ When you want to understand dependencies across your code, visualize them by cre
  Visual Studio saves the map as a .dgml file that you can share with other users of Visual Studio Enterprise and Visual Studio Professional.  
   
 > [!NOTE]
->  Before you share a map with those who use Visual Studio Professional, make sure to expand any groups, show hidden nodes and cross-group links, and retrieve any deleted nodes that you want others to see on your map. Otherwise, other users won't be able to see these items.  
+> Before you share a map with those who use Visual Studio Professional, make sure to expand any groups, show hidden nodes and cross-group links, and retrieve any deleted nodes that you want others to see on your map. Otherwise, other users won't be able to see these items.  
 >   
->  The following error might occur when you save a map that is in a modeling project or was copied from a modeling project to another location:  
+> The following error might occur when you save a map that is in a modeling project or was copied from a modeling project to another location:  
 >   
->  "Cannot save *fileName* outside the project directory. Linked items are not supported."  
+> "Cannot save *fileName* outside the project directory. Linked items are not supported."  
 >   
->  Visual Studio shows the error, but creates the saved version anyway. To avoid the error, create the map outside the modeling project. You can then save it to the location that you want. Just copying the file to another location in the solution, and then trying to save it will not work.  
+> Visual Studio shows the error, but creates the saved version anyway. To avoid the error, create the map outside the modeling project. You can then save it to the location that you want. Just copying the file to another location in the solution, and then trying to save it will not work.  
   
 ### Export the map as an image so you can copy it into other applications, such as Microsoft Word or PowerPoint  
   

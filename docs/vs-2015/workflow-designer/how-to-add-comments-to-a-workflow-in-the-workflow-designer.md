@@ -29,7 +29,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
 - <xref:System.Activities.Argument>  
   
 > [!IMPORTANT]
->  The contents of an annotation are saved as plain text to the XAML file associated with the workflow, and could potentially be read by others. Be cautious when entering sensitive information into an annotation.  
+> The contents of an annotation are saved as plain text to the XAML file associated with the workflow, and could potentially be read by others. Be cautious when entering sensitive information into an annotation.  
   
 ### Adding an annotation to an activity in the designer  
   

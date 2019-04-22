@@ -29,7 +29,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
  To create a custom rule set for a team project, you first create a special folder for the check-in policy rule set in **Source Control Explorer**. Then you create the rule set file and add the file to version control. Finally, you specify the rule set as the code analysis check-in policy for the team project.  
   
 > [!NOTE]
->  To create a folder in a team project, you first must map the team project root to a location on the local computer. For more information, see [Create and work with workspaces (old)](http://msdn.microsoft.com/db4d5692-179a-44fe-ad31-0c1c900c9cb2).  
+> To create a folder in a team project, you first must map the team project root to a location on the local computer. For more information, see [Create and work with workspaces (old)](http://msdn.microsoft.com/db4d5692-179a-44fe-ad31-0c1c900c9cb2).  
   
 #### To create the version control folder for the check-in policy rule set  
   
@@ -66,7 +66,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
 4. In the **Check-in** dialog box, you  have the option to add a comment and then click **Check In**.  
   
     > [!NOTE]
-    >  If you have already configured a code analysis check-in policy for your team project and you have selected the **Enforce check-in to only contain files that are part of current solution**, you will trigger a policy failure warning. In the Policy Failure dialog box, select **Override policy failure and continue checkin**. Add a required comment, and then click **OK**.  
+    > If you have already configured a code analysis check-in policy for your team project and you have selected the **Enforce check-in to only contain files that are part of current solution**, you will trigger a policy failure warning. In the Policy Failure dialog box, select **Override policy failure and continue checkin**. Add a required comment, and then click **OK**.  
   
 #### To specify the rule set file as the check-in policy  
   
@@ -85,7 +85,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
      **$/** `TeamProjectName` **/** `VersionControlPath`  
   
     > [!NOTE]
-    >  You can copy the path by using one of the following procedures in **Source Control Explorer**:  
+    > You can copy the path by using one of the following procedures in **Source Control Explorer**:  
   
     - In the **Folders** pane, click the folder that contains the rule set file. Copy the version control path of the folder that appears in the **Source** box, and type the name of the rule set file manually.  
   

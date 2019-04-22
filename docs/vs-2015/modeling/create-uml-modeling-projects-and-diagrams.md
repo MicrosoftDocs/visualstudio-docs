@@ -34,7 +34,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
  UML modeling diagrams and layer diagrams can exist only inside a modeling project. Each modeling project contains a shared UML model and several UML diagrams. Each diagram is a partial view of the model. The UML model contains all the elements on the UML diagrams and can be viewed by using UML Model Explorer. For information about models and their relationship to diagrams, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md). For information about modeling projects under version control, see [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md) and [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)  
   
 > [!NOTE]
->  There is another kind of diagram, the .NET class diagram, which is used to visualize program code. For more information, see [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
+> There is another kind of diagram, the .NET class diagram, which is used to visualize program code. For more information, see [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).  
   
 ## <a name="CreatingModelingDiagrams"></a> Create a Diagram in a Modeling Project  
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
@@ -70,7 +70,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
 1. In **Solution Explorer**, click the modeling project node.  
   
     > [!NOTE]
-    >  The modeling project contains a model definition folder named **ModelDefinition**.  
+    > The modeling project contains a model definition folder named **ModelDefinition**.  
   
 2. On the **Project** menu, click **Add New Item**.  
   
@@ -81,7 +81,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
      The modeling diagram opens and appears in the modeling project.  
   
     > [!CAUTION]
-    >  Do not add, copy, or drag existing diagram files to other modeling projects or to other locations in the solution. This causes elements to disappear from the copied diagrams or errors to occur when you open the diagrams. You must open the diagram file from the modeling project in which it was created. This is because a UML diagram is a view of the model that is owned by its modeling project. To copy a diagram file, create a new diagram, and then copy the elements from the source diagram to the new diagram. For more information, see [Troubleshooting Modeling Projects and Diagrams](#TroubleshootingModelingProjects).  
+    > Do not add, copy, or drag existing diagram files to other modeling projects or to other locations in the solution. This causes elements to disappear from the copied diagrams or errors to occur when you open the diagrams. You must open the diagram file from the modeling project in which it was created. This is because a UML diagram is a view of the model that is owned by its modeling project. To copy a diagram file, create a new diagram, and then copy the elements from the source diagram to the new diagram. For more information, see [Troubleshooting Modeling Projects and Diagrams](#TroubleshootingModelingProjects).  
   
 #### To create a blank modeling project  
   
@@ -105,7 +105,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
      The diagram is removed from the project and the file system. The elements shown on the diagram are not removed from **UML Model Explorer**.  
   
     > [!NOTE]
-    >  Each diagram has two files, one subsidiary to the other. For example, if you have a component diagram with the name `CD1`, you should delete the file that is named `CD1.componentdiagram`. Its subsidiary file that is named `CD1.componentdiagram.layout` will be deleted automatically.  
+    > Each diagram has two files, one subsidiary to the other. For example, if you have a component diagram with the name `CD1`, you should delete the file that is named `CD1.componentdiagram`. Its subsidiary file that is named `CD1.componentdiagram.layout` will be deleted automatically.  
   
 #### To temporarily exclude a diagram from a project  
   
@@ -114,14 +114,14 @@ UML models help you understand, discuss, and design software systems. Visual Stu
      The diagram is removed from the project. It is not removed from the file system.  
   
     > [!NOTE]
-    >  The elements shown on the diagram are not removed from **UML Model Explorer**.  
+    > The elements shown on the diagram are not removed from **UML Model Explorer**.  
   
 #### To restore a temporarily excluded diagram to a project  
   
 1. In **Solution Explorer**, click the modeling project node.  
   
     > [!NOTE]
-    >  The modeling project contains a model definition folder named **ModelDefinition**.  
+    > The modeling project contains a model definition folder named **ModelDefinition**.  
   
 2. On the **Project** menu, click **Add Existing Item**.  
   
@@ -130,7 +130,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
      The modeling diagram opens and appears in the modeling project.  
   
     > [!NOTE]
-    >  Each diagram has a pair of files in the file system. Do not select a file that has the extension `.layout`. Also, Visual Studio does not support adding existing UML diagrams to multiple modeling projects. Each diagram file must be opened within the modeling project in which it was created. This is because a UML diagram shows a view of a model that is owned by its modeling project.  
+    > Each diagram has a pair of files in the file system. Do not select a file that has the extension `.layout`. Also, Visual Studio does not support adding existing UML diagrams to multiple modeling projects. Each diagram file must be opened within the modeling project in which it was created. This is because a UML diagram shows a view of a model that is owned by its modeling project.  
   
 ## <a name="NonModelDiagrams"></a> Diagrams that Do Not Require Modeling Projects  
  The following kinds of diagrams are not part of a modeling project:  

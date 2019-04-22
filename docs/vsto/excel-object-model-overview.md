@@ -74,7 +74,7 @@ ms.workload:
  The Excel <xref:Microsoft.Office.Interop.Excel.Application> object represents the Excel application itself. The <xref:Microsoft.Office.Interop.Excel.Application> object exposes a great deal of information about the running application, the options applied to that instance, and the current user objects open within the instance.
 
 > [!NOTE]
->  You should not set the <xref:Microsoft.Office.Interop.Excel.ApplicationClass.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to false prevents Excel from raising any events, including the events of host controls.
+> You should not set the <xref:Microsoft.Office.Interop.Excel.ApplicationClass.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to false prevents Excel from raising any events, including the events of host controls.
 
 ### Workbook object
  The <xref:Microsoft.Office.Interop.Excel.Workbook> object represents a single workbook within the Excel application.

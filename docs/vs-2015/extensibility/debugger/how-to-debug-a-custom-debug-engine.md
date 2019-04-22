@@ -18,10 +18,10 @@ manager: jillfra
 A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method. This means that the DE is launched under the control of the instance of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] controlling the project type. However, that instance of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] cannot debug the DE. What follows are the steps to allow you to debug your custom DE.  
   
 > [!NOTE]
->  :     In the "Debugging a Custom Debug Engine" procedure, you must wait for the DE to start before you can attach to it. If you place a message box near the beginning of your DE that appears when the DE starts, you can attach at that point and then clear the message box to continue. That way, you can catch all DE events.  
+> :     In the "Debugging a Custom Debug Engine" procedure, you must wait for the DE to start before you can attach to it. If you place a message box near the beginning of your DE that appears when the DE starts, you can attach at that point and then clear the message box to continue. That way, you can catch all DE events.  
   
 > [!WARNING]
->  You must have remote debugging installed before you attempt the following procedures. See [Remote Debugging](../../debugger/remote-debugging.md) for details.  
+> You must have remote debugging installed before you attempt the following procedures. See [Remote Debugging](../../debugger/remote-debugging.md) for details.  
   
 ### Debugging a Custom Debug Engine  
   

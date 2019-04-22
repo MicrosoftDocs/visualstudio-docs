@@ -20,7 +20,7 @@ You can start Spy++ either from Visual Studio or at a command prompt.
  When you start Spy++, if a message is displayed to ask permission to make changes to the computer, click **Yes**.  
   
 > [!NOTE]
->  You can run only one instance of Spy++. If you try to run another instance, it just causes the currently running instance to get the focus.  
+> You can run only one instance of Spy++. If you try to run another instance, it just causes the currently running instance to get the focus.  
   
 ### To start Spy++ from Visual Studio  
   
@@ -29,7 +29,7 @@ You can start Spy++ either from Visual Studio or at a command prompt.
      Because Spy++ runs independently, after you start it, you can close Visual Studio.  
   
     > [!NOTE]
-    >  When you log messages with Spy++, it may cause the operating system to perform more slowly.  
+    > When you log messages with Spy++, it may cause the operating system to perform more slowly.  
   
 ### To start Spy++ at a command prompt  
   

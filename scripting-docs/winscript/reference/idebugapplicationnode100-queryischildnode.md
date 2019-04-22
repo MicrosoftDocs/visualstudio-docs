@@ -18,7 +18,7 @@ manager: "ghogen"
 Determines whether the specified document belongs to one of the child nodes of this node.  
   
 > [!IMPORTANT]
->  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

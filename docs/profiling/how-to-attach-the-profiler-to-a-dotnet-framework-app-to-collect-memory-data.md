@@ -14,7 +14,7 @@ ms.workload:
 This article describes how to use Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect memory data.
 
 > [!NOTE]
->  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
 To attach to a .NET Framework application and collect memory data, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables before the target application starts. When the profiler is attached to the application, you can use the *VSPerfCmd.exe* tool to pause and resume data collection.
 

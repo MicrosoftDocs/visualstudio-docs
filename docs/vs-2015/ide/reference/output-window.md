@@ -24,7 +24,7 @@ manager: jillfra
 The **Output** window can display status messages for various features in the integrated development environment (IDE). To open the **Output** window, on the menu bar, choose **View/Output** (or click CTRL + ALT + O).  
   
 > [!WARNING]
->  The Output window does not appear on the View menu in Visual Studio Express editions. To bring it up, use the hotkey CTRL + ALT + O.  
+> The Output window does not appear on the View menu in Visual Studio Express editions. To bring it up, use the hotkey CTRL + ALT + O.  
   
 ## Toolbar  
  **Show output from**  

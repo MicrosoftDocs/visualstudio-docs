@@ -40,7 +40,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
    The Graphics Tools feature is also installed automatically when you install the Windows 10 SDK.
 
 > [!TIP]
->  The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](command-line-capture-tool.md) topic.
+> The optional Graphics Tools feature of Windows 10 provides lightweight capture and playback functionality—such as the command-line capture program **dxcap.exe**—that can be used in support, testing, and diagnostic scenarios on machines where developer tools aren't installed. For more information, see the [Command-Line Capture Tool](command-line-capture-tool.md) topic.
 
 ## Using Graphics Diagnostics for the first time
  Now that you have everything you need, you're ready to start using Graphics Diagnostics. Just follow these steps.
@@ -57,7 +57,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
  Now you're ready to start your first graphics diagnostics session. In Visual Studio, on the main menu, choose **Debug, Graphics, Start Graphics Debugging**, or just press **Alt+F5**. This starts your app under Graphics Diagnostics and displays the diagnostics session windows in Visual Studio.
 
 > [!IMPORTANT]
->  If you're running your app on Windows 10 and haven't installed the optional Graphics Tools feature yet, you'll be prompted to do so now. You must install it before you can use Graphics Diagnostics on Windows 10.
+> If you're running your app on Windows 10 and haven't installed the optional Graphics Tools feature yet, you'll be prompted to do so now. You must install it before you can use Graphics Diagnostics on Windows 10.
 
 ### 3 - Capture Frames
  You're ready to capture frames as soon as your app starts.

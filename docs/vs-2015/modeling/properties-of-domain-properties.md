@@ -18,7 +18,7 @@ manager: jillfra
 A *domain property* is a feature of a model element that can hold a value. For example, the `Person` domain class could have properties `Name` and `BirthDate`. In the DSL Definition, domain properties are listed in the domain class box on the diagram and under the domain class in DSL Explorer. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  
   
 > [!NOTE]
->  The word "property" has two uses. A *domain property* is a feature that you define on a domain class. By contrast, many elements of a DSL have *properties*, which are listed in the **Properties** window in the DSL Definition. For example, every domain property has a set of properties, which are described in this topic.  
+> The word "property" has two uses. A *domain property* is a feature that you define on a domain class. By contrast, many elements of a DSL have *properties*, which are listed in the **Properties** window in the DSL Definition. For example, every domain property has a set of properties, which are described in this topic.  
   
  At run time, when a user creates instances of the domain class, the values of the domain properties can be seen in the Properties window, and can be displayed on the shapes.  
   

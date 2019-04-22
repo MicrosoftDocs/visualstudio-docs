@@ -28,7 +28,7 @@ manager: jillfra
 You can write a custom visualizer for an object of any managed class except for <xref:System.Object> or <xref:System.Array>.  
   
 > [!NOTE]
->  In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
+> In **Store** apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.  
   
  The architecture of a debugger visualizer has two parts:  
   

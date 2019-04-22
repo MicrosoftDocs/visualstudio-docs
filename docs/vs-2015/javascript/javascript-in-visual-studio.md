@@ -28,7 +28,7 @@ JavaScript is a first-class language in Visual Studio. You can use most or all o
 - To create web sites and web apps, [see the ASP.NET site](http://www.asp.net/get-started/websites).
 
   > [!NOTE]
-  >  You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).
+  > You can create an empty ASP.Net Web site and use it for HTML, CSS, and JavaScript programming. The Webconfig file provided by ASP.NET enables debugging in Visual Studio (or you can use F12 tools when you run the app).
 
   The JavaScript editor in Visual Studio provides IntelliSense support. For more info, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).
 

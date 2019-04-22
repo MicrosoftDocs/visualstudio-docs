@@ -96,7 +96,7 @@ In this topic:
  `Context.CurrentDiagram as IClassDiagram;`  
   
 > [!NOTE]
->  An instance of `IDiagram` (and its subtypes such as `IClassDiagram`) is valid only within the command you are processing. It is not recommended to keep an `IDiagram` object in a variable that persists while control is returned to the user.  
+> An instance of `IDiagram` (and its subtypes such as `IClassDiagram`) is valid only within the command you are processing. It is not recommended to keep an `IDiagram` object in a variable that persists while control is returned to the user.  
   
  For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   

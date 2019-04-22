@@ -49,7 +49,7 @@ Debugging toolbar
     - Choose the X button in the upper corner of the **Form1** window.  
   
     > [!NOTE]
-    >  When you run your program from inside the IDE, it's called *debugging* because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [Debugger Basics](../debugger/debugger-basics.md).  
+    > When you run your program from inside the IDE, it's called *debugging* because you typically do it to locate and fix bugs (errors) in the program. Although this program is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [Debugger Basics](../debugger/debugger-basics.md).  
   
 ### To continue or review  
   

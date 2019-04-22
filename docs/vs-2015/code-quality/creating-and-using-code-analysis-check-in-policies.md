@@ -20,7 +20,7 @@ When you use Team Foundation Version Control (TFVC), you can create a code analy
  The policy passes when the local build is up to date and code analysis has been run on the most recent source files. At a minimum, the code analysis rules that are enabled in the code project must contain the same rules as those that are defined in the team project check-in policy. Rules that have been specified as errors in the Team Project Settings must also be specified as errors in the code project  
   
 > [!IMPORTANT]
->  Code analysis check-in policies cannot be applied to web site projects. They can be applied to web application projects.  
+> Code analysis check-in policies cannot be applied to web site projects. They can be applied to web application projects.  
   
  You create code analysis check-in policies by using the Team Project Settings of [!INCLUDE[esprscc](../includes/esprscc-md.md)]. Check-in policies are specified and enforced for a team project, but code analysis runs are configured and run for individual code projects on local development computers. This section describes how to specify code analysis check-in policies for a team project and how to implement custom code analysis policies for managed code.  
   

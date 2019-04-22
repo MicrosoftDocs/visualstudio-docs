@@ -28,7 +28,7 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  The following options enable you to select the configuration and platform to display or modify.  
   
 > [!NOTE]
->  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
+> With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  **Configuration**  
  Specifies which configuration settings to display or modify. The settings can be **Active (Debug)** (this is the default), **Debug**, **Release**, or **All Configurations**.  

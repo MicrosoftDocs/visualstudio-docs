@@ -24,7 +24,7 @@ manager: jillfra
 By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.  
   
 > [!NOTE]
->  Your application will have to run in full trust to use this procedure.  
+> Your application will have to run in full trust to use this procedure.  
   
 ## Prerequisites  
  You will need one of the following components to complete this walkthrough:  

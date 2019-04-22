@@ -18,7 +18,7 @@ ms.workload:
 Categorizes the project template so that it appears under the specified group in the **New Project** or **Add New Item** dialog box.
 
 > [!WARNING]
->  Project templates are supported for C++ starting in Visual Studio 2012. They are not supported for C++ in Visual Studio 2010 and earlier versions.
+> Project templates are supported for C++ starting in Visual Studio 2012. They are not supported for C++ in Visual Studio 2010 and earlier versions.
 
  \<VSTemplate>
  \<TemplateData>

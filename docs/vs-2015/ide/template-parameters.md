@@ -45,7 +45,7 @@ By using parameters in your templates, you can replace the values of key portion
  The following table lists the reserved template parameters that can be used by any template.  
   
 > [!NOTE]
->  Template parameters are case-sensitive.  
+> Template parameters are case-sensitive.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

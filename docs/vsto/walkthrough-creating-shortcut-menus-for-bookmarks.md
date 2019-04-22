@@ -73,7 +73,7 @@ ms.workload:
     `bookmark2` is added to the document.
 
    > [!NOTE]
-   >  The words "right-click the text" are in both `bookmark1` and `bookmark2`.
+   > The words "right-click the text" are in both `bookmark1` and `bookmark2`.
 
    When you add a bookmark to a document at design time, a <xref:Microsoft.Office.Tools.Word.Bookmark> control is created. You can program against several events of the bookmark. You can write code in the <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick> event of the bookmark so that when the user right-clicks the text in the bookmark, a shortcut menu appears.
 
@@ -158,7 +158,7 @@ ms.workload:
      [!code-vb[Trin_Word_Document_Menus#3](../vsto/codesnippet/VisualBasic/trin_word_document_menus.vb/thisdocument.vb#3)]
 
     > [!NOTE]
-    >  You must write code to handle the case where bookmarks overlap. If you do not, by default, the code will be called for all bookmarks in the selection.
+    > You must write code to handle the case where bookmarks overlap. If you do not, by default, the code will be called for all bookmarks in the selection.
 
 5. In C#, you must add event handlers for the bookmark controls to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 

@@ -30,7 +30,7 @@ ms.workload:
  Application pages cannot do these things. However an application page is the best type of page to create if you want the page to contain custom code. Although you can add custom code to a site page, the code stops running when the user customizes the page by using tools such as SharePoint Designer.
 
 > [!NOTE]
->  Visual Studio does not provide templates that help you create site pages for a SharePoint site. For more information, see [SharePoint Page Types](http://go.microsoft.com/fwlink/?LinkID=211584).
+> Visual Studio does not provide templates that help you create site pages for a SharePoint site. For more information, see [SharePoint Page Types](http://go.microsoft.com/fwlink/?LinkID=211584).
 
 ## Create an application page
  To create an application page, add an **Application Page** item to a SharePoint project. When you create an application page, Visual Studio adds the following folders to your project:
@@ -52,7 +52,7 @@ ms.workload:
  Design the contents of an application page by using the designer view in Visual Studio. This designer appears when you open the application page in your project (by double-clicking it or by opening its shortcut menu and then choosing **Open**) and then choose the **Design** button at the bottom of the editor.
 
 > [!NOTE]
->  You can design the page only in the **Source** view of the designer. The **Design** view of the designer is disabled for application pages.
+> You can design the page only in the **Source** view of the designer. The **Design** view of the designer is disabled for application pages.
 
  You can debug an application page just as you would debug other SharePoint project items in Visual Studio. When you start the Visual Studio debugger, Visual Studio opens the SharePoint site.
 

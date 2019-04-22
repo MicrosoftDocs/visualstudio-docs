@@ -30,7 +30,7 @@ Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 
 1. Create a C# project template project (in Visual Studio, **File / New / Project / Visual C# / Extensibility / C# Project Template**). Name it **MyProjectTemplate**.  
   
     > [!NOTE]
-    >  You may be asked to install the Visual Studio SDK. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+    > You may be asked to install the Visual Studio SDK. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
 2. Add a new VSIX project (**File / New / Project / Visual C# / Extensibility / VSIX Project**) in the same solution as the project template project (in the **Solution Explorer**, select the solution node, right-click, and select **Add / New Project**). Name it **MyProjectWizard.**  
   

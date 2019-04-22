@@ -142,7 +142,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
 ```  
   
 > [!NOTE]
->  This attribute is placed on the package class, not the directive processor class.  
+> This attribute is placed on the package class, not the directive processor class.  
   
  The .pkgdef file will be generated when you build the project. When you install the VSPackage, the .pkgdef file will register the directive processor.  
   
@@ -154,7 +154,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../includes/vsprvs-md.m
  This method of installing a custom directive processor is the least preferred. It does not provide a convenient way enable and disable the directive processor, and does not provide a method of distributing the directive processor to other users.  
   
 > [!CAUTION]
->  Incorrectly editing the registry can severely damage your system. Before making changes to the registry, be sure to back up any valued data on the computer.  
+> Incorrectly editing the registry can severely damage your system. Before making changes to the registry, be sure to back up any valued data on the computer.  
   
 #### To register a directive processor by setting a registry key  
   

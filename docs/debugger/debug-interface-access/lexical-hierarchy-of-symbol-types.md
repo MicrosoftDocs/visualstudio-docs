@@ -37,7 +37,7 @@ The following table shows the symbol types in the lexical hierarchy.
 |[UsingNameSpace](../../debugger/debug-interface-access/usingnamespace.md)|Specifies a `namespace`identifier.|
 
 > [!NOTE]
->  Additional symbol properties may be available depending on the symbol type. These properties are listed in the individual symbol topics.
+> Additional symbol properties may be available depending on the symbol type. These properties are listed in the individual symbol topics.
 
 ## See Also
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

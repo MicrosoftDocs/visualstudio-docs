@@ -74,12 +74,12 @@ In many cases, unhandled exceptions in the XAML designer can be caused by projec
      You can toggle the button again to re-enable project code.  
   
     > [!NOTE]
-    >  For projects that target ARM or X64 processors, Visual Studio cannot run project code in the designer, so the **Disable project code** button is disabled in the designer.  
+    > For projects that target ARM or X64 processors, Visual Studio cannot run project code in the designer, so the **Disable project code** button is disabled in the designer.  
   
 - Either option will cause the designer to reload, and will then disable all code for the associated project.  
   
     > [!NOTE]
-    >  Disabling project code can lead to a loss of design time data. An alternative is to debug the code running in the designer.  
+    > Disabling project code can lead to a loss of design time data. An alternative is to debug the code running in the designer.  
   
 ## See Also  
  [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)

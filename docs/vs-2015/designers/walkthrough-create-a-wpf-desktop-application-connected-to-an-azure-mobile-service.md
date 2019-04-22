@@ -50,14 +50,14 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 3. In the left pane, choose **WindowsAzure.MobileServices**, and then in the right pane choose the **Install** button.  
   
     > [!NOTE]
-    >  If a **Preview** dialog appears, review the proposed changes and then choose the **OK** button.  
+    > If a **Preview** dialog appears, review the proposed changes and then choose the **OK** button.  
   
 4. In the **License Acceptance** dialog, review the license terms and then accept them by choosing the **I Accept** button.  
   
      The necessary references will be added to **Solution Explorer**.  
   
     > [!NOTE]
-    >  If you don’t agree with the license terms, choose the **I Decline** button. You won’t be able to finish the rest of the walkthrough.  
+    > If you don’t agree with the license terms, choose the **I Decline** button. You won’t be able to finish the rest of the walkthrough.  
   
 ## Create the user interface  
  The next step is to create the user interface for the application. First you’ll create a reusable user control that displays a standard side-by-side two pane layout. You’ll add the user control to the main application window and add controls to enter and display data, then write some code to define the interaction with the mobile service backend.  
@@ -282,7 +282,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
      ![The MainWindow in the designer](../designers/media/wpfquickstart2.PNG "WPFQuickStart2")  
   
     > [!NOTE]
-    >  While following the next few procedures you might see errors in the **Error List** if it is open. Don’t worry; these errors will go away once you complete the remaining procedures.  
+    > While following the next few procedures you might see errors in the **Error List** if it is open. Don’t worry; these errors will go away once you complete the remaining procedures.  
   
 6. In **Solution Explorer**, expand the **MainWindow.xaml** node and open the **MainWindow.xaml.cs** or **MainWindow.xaml.vb** file.  
   
@@ -476,7 +476,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 3. In the **NEW MOBILE SERVICE** dialog, choose the **URL** textbox and enter `wpfquickstart01`.  
   
     > [!NOTE]
-    >  You may need to change the numeric portion of the URL. Microsoft Azure requires a unique URL for each mobile service.  
+    > You may need to change the numeric portion of the URL. Microsoft Azure requires a unique URL for each mobile service.  
   
      This sets the URL for the service to `https://wpfquickstart01.azure-mobile.net/`.  
   
@@ -485,7 +485,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
 5. In the **REGION** list, choose the data center where you want to deploy the mobile service, and then choose the **Next** (right arrow) button.  
   
     > [!NOTE]
-    >  For this service you will use the default **BACKEND** setting, **JavaScript**.  
+    > For this service you will use the default **BACKEND** setting, **JavaScript**.  
   
 6. If you are creating a new database, on the **Specify database settings** page, in the **SERVER** list choose **New SQL database server**, enter your **SQL LOGIN NAME** and **PASSWORD**, and then choose the **Complete** (checkmark) button.  
   
