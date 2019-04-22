@@ -9,7 +9,7 @@ monikerRange: vs-2019
 ---
 # XAML designer extensibility migration
 
-Starting in Visual Studio 2019 version 16.1 previews, the XAML designer supports two different architectures: the designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to the surface isolation architecture introduces breaking changes to the third-party extensibility model. This article outlines the changes.
+Starting in Visual Studio 2019 version 16.1, the XAML designer supports two different architectures: the designer isolation architecture and the more recent surface isolation architecture. This architecture transition is required to support target runtimes that can't be hosted in a .NET Framework process. Moving to the surface isolation architecture introduces breaking changes to the third-party extensibility model. This article outlines the changes.
 
 **Designer isolation** is used by the WPF designer for projects that target the .NET Framework and supports *.design.dll* extensions. User code, control libraries, and third-party extensions are loaded in an external process (*XDesProc.exe*) along with the actual designer code and designer panels.
 
