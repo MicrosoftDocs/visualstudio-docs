@@ -36,7 +36,7 @@ Take these steps:
 This error indicates that permission is denied. This can be caused by many different issues.
 
 Take these steps:
-* Verify your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](https://docs.microsoft.com/en-us/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
+* Verify your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](https://docs.microsoft.com/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
 * Verify the timestamp of your client machine is correct and up-to-date. Servers with timestamps off by more than 15 minutes of the request timestamp usually produce this error.
 * Contact us at the above alias if this error continues to persist.
 
