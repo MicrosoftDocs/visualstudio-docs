@@ -1,6 +1,6 @@
 ---
-title: "Talk to us"
-ms.date: 03/30/2019
+title: "Contact us: Visual Studio feedback options"
+ms.date: 04/24/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "product support [Visual Studio]"
@@ -14,25 +14,35 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Visual Studio product feedback
+# Visual Studio feedback options
 
-Talk to us! We're interested in your ideas for improving our products and documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.
+We're interested in your ideas for improving our products and documentation. It drives much of what we do. Here's how to contact us so that we can route your feedback to the right person or team.
 
-## I want to report a problem with Visual Studio
+## Report a problem 
 
 If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
-## I want to make a suggestion about Visual Studio features
+## Make a suggestion
 
-If there's something we can do better, tell us about it! In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+::: moniker range="vs-2019"
+
+If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+If there's something we can do better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+
+::: moniker-end
 
 ### Rate this product
 
 Pre-release versions of Visual Studio have a **Rate this Product** menu item that released versions of the product don't have. Use the **Rate this Product** menu item to send feedback on the quality of the pre-release build that you're running.
 
-## I want to contact Microsoft Support
+## Contact Microsoft Support
 
-For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/productinfo/vs-servicing-vs) page.
+For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/releases/2019/servicing/) page.
 
 For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 
@@ -45,16 +55,17 @@ If the product came installed with a new computer or device, the hardware manufa
 
 Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions can change without notice.
 
-## I want to get involved in the developer community
+## Join a developer community
 
-If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](https://social.msdn.microsoft.com/Forums/home), or [Stack Overflow](https://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
+If you want to share your questions and answers with other developers, use the [Visual Studio Developer Community](https://developercommunity.visualstudio.com) site, the [MSDN forums](https://social.msdn.microsoft.com/Forums/home), the [Visual Studio "subreddit"](https://www.reddit.com/r/VisualStudio/), or [Stack Overflow](https://stackoverflow.com/). You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
 
-## I want to help improve the Visual Studio documentation
+## Improve the documentation
 
 Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using your GitHub account; choose the **Send feedback about** > **This page** button, also at the bottom of the page.
 
 ## See also
 
 * [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
+* [Troubleshoot installation issues](troubleshooting-installation-issues.md)
 * [Developer Community](https://developercommunity.visualstudio.com)
 * [Developer Community data privacy](developer-community-privacy.md)
