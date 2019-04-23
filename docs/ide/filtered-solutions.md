@@ -63,15 +63,13 @@ You can choose to see either all the projects in the solution or just the loaded
 
 - Right-click on your solution and select **Show Unloaded Projects** or **Hide Unloaded Projects**.
 
-- Select the **Show All Files** button to toggle the visibility of unloaded projects.
+- Select the solution node to enable the **Show All Files** button; then, click the button to toggle the visibility of unloaded projects.
 
    ![Show All Files button in Visual Studio Solution Explorer](media/filtered-solutions/show-all-files.PNG)
 
 ## Load project dependencies
 
-(New in Visual Studio 2019 version 16.1.)
-
-You can load dependencies for *loaded* projects by right-clicking on one or more loaded projects in **Solution Explorer**, and then choosing **Load project dependencies**.
+In a solution where only selected projects are loaded, you may not have all of a project's project dependencies loaded. Use the **Load project dependencies** menu option to ensure that any projects that a project depends on are also loaded. Right-click on one or more loaded projects in **Solution Explorer** and choose **Load project dependencies**.
 
 ![Load project dependencies in Visual Studio 2019](media/filtered-solutions/load-project-dependencies.png)
 
