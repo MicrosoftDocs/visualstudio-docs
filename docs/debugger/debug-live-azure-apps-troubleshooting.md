@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting snapshot debugging | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "04/25/2019"
+ms.custom: ""
+ms.date: "04/24/2019"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "debugger"
@@ -146,6 +146,7 @@ Take these steps:
 
 - Snapshots take up little memory but do have a commit charge. If the Snapshot Debugger detects your server is under heavy memory load, it will not take snapshots. You can delete already captured snapshots by stopping the Snapshot Debugger session and trying again.
 
+::: moniker range=">= vs-2019"
 ## Issue: Snapshot debugging with multiple versions of the Visual Studio gives me errors
 
 Visual Studio 2019 requires a newer version of the Snapshot Debugger site extension on your Azure App Service.  This version is not compatible with the older version of the Snapshot Debugger site extension used by Visual Studio 2017.  You will get the following error if you try to attach the Snapshot Debugger in Visual Studio 2019 to an Azure App Service which has been previously debugged by the Snapshot Debugger in Visual Studio 2017:
@@ -160,6 +161,7 @@ To fix this, delete the following App settings in the Azure portal and attach th
 
 - INSTRUMENTATIONENGINE_EXTENSION_VERSION
 - SNAPSHOTDEBUGGER_EXTENSION_VERSION
+::: moniker-end
 
 ## Issue: I am having problems Snapshot Debugging and I need to enable more logging
 
