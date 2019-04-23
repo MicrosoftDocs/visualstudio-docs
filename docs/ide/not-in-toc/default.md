@@ -12,7 +12,7 @@ ms.author: gewarren
 ---
 # F1 help
 
-It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving [feedback](#feedback).
+It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving feedback through the buttons at the bottom of this page.
 
 ## Cursor position
 
