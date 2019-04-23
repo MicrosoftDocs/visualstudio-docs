@@ -10,7 +10,7 @@ ms.author: "corob"
 manager: jillfra
 ms.workload: ["vssdk"]
 ---
-# Visual Studio C++ project system extensibility and toolset integration
+# Visual Studio C++ Project system extensibility and toolset integration
 
 The Visual C++ project system is used for .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures, and target platforms.
 
@@ -386,7 +386,7 @@ Currently, the command line produced by the `CLCommandLine` task always uses CL 
 
 If you're adding a target that runs before compilation, whether regular or design-time, make sure it doesn't break design-time builds or affect performance. The simplest way to test your target is to open a Developer command prompt and run this command:
 
-```CMD
+```
 msbuild /p:SolutionDir=*solution-directory-with-trailing-backslash*;Configuration=Debug;Platform=Win32;BuildingInsideVisualStudio=true;DesignTimebuild=true /t:\_PerfIntellisenseInfo /v:d /fl /fileloggerparameters:PerformanceSummary \*.vcxproj
 ```
 
