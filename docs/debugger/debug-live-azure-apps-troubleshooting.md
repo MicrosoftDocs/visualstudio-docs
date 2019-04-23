@@ -67,13 +67,14 @@ Take these steps:
 This error indicates that the request conflicts with the current server state.
 
 This is a known issue that occurs when a user attempts to attach Snapshot Debugger against an AppService that has enabled ApplicationInsights. ApplicationInsights sets the AppSettings with a different casing than Visual Studio, causing this issue.
+
 ::: moniker range=">= vs-2019"
-We have resolved this in the latest version of Visual Studio 2019.
+We have resolved this in Visual Studio 2019.
 ::: moniker-end
 
 Take these steps:
 
-::: moniker range="< vs-2019"
+::: moniker range="vs-2017"
 
 * Verify in the Azure portal that the AppSettings for SnapshotDebugger (SNAPSHOTDEBUGGER_EXTENSION_VERSION) and InstrumentationEngine (INSTRUMENTATIONENGINE_EXTENSION_VERSION) are uppercase. If not, update the settings manually, which forces a site restart.
 ::: moniker-end
