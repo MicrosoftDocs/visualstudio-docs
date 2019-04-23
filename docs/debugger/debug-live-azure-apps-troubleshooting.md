@@ -30,7 +30,7 @@ This error indicates that the REST call issued by Visual Studio to Azure uses an
 Take these steps:
 
 * Make sure that your Visual Studio personalization account has permissions to the Azure subscription and resource that you are attaching to. A quick way to determine this is to check whether the resource is available in the dialog box from **Debug** > **Attach Snapshot Debugger...** > **Azure Resource** > **Select Existing**, or in  Cloud Explorer.
-* If this error continues to persist, contact us at the preceding alias.
+* If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (403) Forbidden
 
@@ -40,7 +40,7 @@ Take these steps:
 
 * Verify that your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](https://docs.microsoft.com/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
 * Verify the timestamp of your client machine is correct and up-to-date. Servers with timestamps off by more than 15 minutes of the request timestamp usually produce this error.
-* If this error continues to persist, contact us at the preceding alias.
+* If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (404) Not Found
 
@@ -50,7 +50,7 @@ Take these steps:
 
 * Verify that you have a website deployed and running on the App Service resource that you're attaching to.
 * Verify that the site is available at https://\<resource\>.azurewebsites.net
-* If this error continues to persist, contact us at the preceding alias.
+* If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (406) Not Acceptable
 
@@ -60,7 +60,7 @@ Take these steps:
 
 * Verify that your site is available at https://\<resource\>.azurewebsites.net
 * Verify that your site has not migrated to new instances. Snapshot Debugger uses the notion of ARRAffinity for routing requests to specific instances which can produce this error intermittently.
-* If this error continues to persist, contact us at the preceding alias.
+* If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (409) Conflict
 
@@ -78,7 +78,7 @@ Take these steps:
 
 * Verify in the Azure portal that the AppSettings for SnapshotDebugger (SNAPSHOTDEBUGGER_EXTENSION_VERSION) and InstrumentationEngine (INSTRUMENTATIONENGINE_EXTENSION_VERSION) are uppercase. If not, update the settings manually, which forces a site restart.
 ::: moniker-end
-* If this error continues to persist, contact us at the preceding alias.
+* If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (500) Internal Server Error
 
@@ -91,7 +91,7 @@ This error indicates a server-side networking issue and may be temporary.
 Take these steps:
 
 * Try waiting a few minutes before attaching the Snapshot Debugger again.
-* If this error continues to persist, contact us at the preceding alias.
+* If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ## Issue: Snappoint does not turn on
 
