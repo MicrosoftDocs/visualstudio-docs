@@ -33,7 +33,7 @@ ms.workload:
 4. In the **Available Deployment Steps** pane, choose the steps that you want to add to the deployment configuration, choose the (**>**) button, and then choose the **OK** button.
 
     > [!NOTE]
-    >  If you have configured a pre-deployment command or a post-deployment command, these steps run only if you add them to a customized deployment configuration.
+    > If you have configured a pre-deployment command or a post-deployment command, these steps run only if you add them to a customized deployment configuration.
 
 ## Change the active deployment configuration
 

@@ -22,7 +22,7 @@ manager: "ghogen"
 Allows the creation of objects in the debugger process by code that is out-of-process to the debugger.  
   
 > [!IMPORTANT]
->  This method should not be implemented, because it allows untrusted code to create arbitrary objects in a trusted debugger thread.  
+> This method should not be implemented, because it allows untrusted code to create arbitrary objects in a trusted debugger thread.  
   
 ## Syntax  
   

@@ -89,7 +89,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
      The **New Project** dialog box is displayed.  
   
     > [!WARNING]
-    >  To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio. For example, to target the .NET Framework 3.5, you must install [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] and [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] Service Pack 1.  
+    > To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio. For example, to target the .NET Framework 3.5, you must install [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] and [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] Service Pack 1.  
   
 2. Under **Installed Templates**, expand **Visual C ++**. Select **Test** and then select the **Test Project** template.  
   

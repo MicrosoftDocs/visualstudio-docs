@@ -32,7 +32,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
  Visual Studio uses a unified language pack. To install more than one language version of these products, you must install a full language product first and then install one or more language packs.
 
 > [!NOTE]
->  Visual Studio doesn't support installing multiple language versions of the full language product on the same computer. After you install one full language product, you must add language versions by using language packs. You can still install multiple full language products of the Express editions on the same computer.
+> Visual Studio doesn't support installing multiple language versions of the full language product on the same computer. After you install one full language product, you must add language versions by using language packs. You can still install multiple full language products of the Express editions on the same computer.
 
 ### Support for Code Pages
  Some Visual Studio tools do not display text correctly when the text contains characters that are not in the current code page. Instead, question marks appear or the text is corrupted. The following tools or areas are affected:
@@ -70,7 +70,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
 1. Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../includes/win8-md.md)]).
 
     > [!NOTE]
-    >  You must be an administrator on the computer to follow these steps.
+    > You must be an administrator on the computer to follow these steps.
 
 2. Click the **Advanced** tab.
 
@@ -82,7 +82,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
  When you install multiple language versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on the same computer, the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] UI defaults to **Same as Microsoft Windows**. This setting indicates that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will display the UI text in the language that is specified as the display language for the operating system.
 
 > [!NOTE]
->  If Visual Studio is set to use **Same as Microsoft Windows**, and the matching Visual Studio language pack is not installed, Visual Studio will use the language of the first Visual Studio installation.
+> If Visual Studio is set to use **Same as Microsoft Windows**, and the matching Visual Studio language pack is not installed, Visual Studio will use the language of the first Visual Studio installation.
 
 #### To set the language that is used for the UI text in Visual Studio
 

@@ -28,7 +28,7 @@ In Visual Studio, you can adapt the standard UML model elements, such as classes
  ![A UML class with a stereotype.](../modeling/media/uml-class-stereotype.png "UML_class_stereotype")  
   
 > [!NOTE]
->  If you use a profile to create a model, and then share the model with someone else, they will be unable to see the stereotypes unless they have installed the same profile on their computer.  
+> If you use a profile to create a model, and then share the model with someone else, they will be unable to see the stereotypes unless they have installed the same profile on their computer.  
   
 ## Related Topics  
   

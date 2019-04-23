@@ -79,7 +79,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
 6. WCF Service Configuration Editor: Allows you to create and modify configuration settings for WCF services.  
   
 > [!WARNING]
->  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Adding New Tools  
  You can add an external tool to the **Tools** menu. Open the **External Tools** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  
@@ -94,7 +94,7 @@ You can call external tools from inside Visual Studio. A few default tools are a
  The following arguments are Visual Studio variables that are assigned when you launch an external tool. Links to external tools such as Notepad or Spy++ can be listed on the **Tools** menu using the External Tools dialog box.  
   
 > [!NOTE]
->  The IDE status bar displays the Current Line and Current Column variables to indicate where the insertion point is located in the active Code Editor. The Current Text variable returns the text or code selected at that location.  
+> The IDE status bar displays the Current Line and Current Column variables to indicate where the insertion point is located in the active Code Editor. The Current Text variable returns the text or code selected at that location.  
   
 |Name|Argument|Description|  
 |----------|--------------|-----------------|  

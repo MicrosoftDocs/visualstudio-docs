@@ -118,7 +118,7 @@ Thread::Sleep(3000);
 2. Go to the **Debugging Location** toolbar and click the **Thread** list.  
   
     > [!NOTE]
-    >  You can recognize this toolbar by three prominent lists: **Process**, **Thread**, and **Stack Frame**.  
+    > You can recognize this toolbar by three prominent lists: **Process**, **Thread**, and **Stack Frame**.  
   
 3. Notice how many threads appear in the list.  
   

@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Troubleshooting RegPkg Package Registration
 > [!NOTE]
->  The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md).
+> The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md).
 
  To register a package by using RegPkg in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must use the version of RegPkg that is appropriate for your package.
 

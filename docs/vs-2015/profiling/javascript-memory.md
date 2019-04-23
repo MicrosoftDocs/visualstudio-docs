@@ -108,12 +108,12 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 - [View live memory usage summary](#LiveMemory). Use the memory usage graph to look for sudden increases in memory usage or continually increasing memory usage that results from particular actions. Use the live memory usage summary view to take snapshots of the heap. The snapshots appear as a collection under the memory usage graph.  
   
     > [!TIP]
-    >  You will see a spike in memory usage when you take a snapshot. Use the snapshot summaries for a more accurate indication of growth.  
+    > You will see a spike in memory usage when you take a snapshot. Use the snapshot summaries for a more accurate indication of growth.  
   
 - [View a snapshot summary](#SnapshotSummary). You can view snapshot summary info during or after a memory profiling session. Use the snapshot summaries to link to snapshot details and snapshot diff views.  
   
     > [!TIP]
-    >  Typically, the snapshot diff views will provide the most useful information about memory leaks.  
+    > Typically, the snapshot diff views will provide the most useful information about memory leaks.  
   
 - [View snapshot details](#SnapshotDetails). Shows detailed memory usage data for a single snapshot.  
   
@@ -131,7 +131,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 4. Repeat the scenario 1-4 additional times.  
   
    > [!TIP]
-   >  By repeating the test scenario several times, you can help make sure that initialization work can be filtered out of the results.  
+   > By repeating the test scenario several times, you can help make sure that initialization work can be filtered out of the results.  
   
 5. Switch to Visual Studio (press Alt+Tab).  
   
@@ -142,7 +142,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
     ![Baseline snapshot](../profiling/media/js-mem-leak-workflow-baseline.png "JS_Mem_Leak_Workflow_Baseline")  
   
    > [!TIP]
-   >  For more precise control over the timing of snapshots, you can use the [Associate source code with memory usage data](#JSConsoleCommands) command in your code.  
+   > For more precise control over the timing of snapshots, you can use the [Associate source code with memory usage data](#JSConsoleCommands) command in your code.  
   
 7. Switch to your app and repeat the scenario that you are testing (repeat once only).  
   
@@ -173,7 +173,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
     - **Objects added between Snapshot #2 and #3**  
   
     > [!TIP]
-    >  Use the filtered view of objects left over from the previous snapshot to investigate memory leaks. For example, if the differential object count is +205 / -195, this view will show the 10 objects left over, and these are likely candidates for memory leaks.  
+    > Use the filtered view of objects left over from the previous snapshot to investigate memory leaks. For example, if the differential object count is +205 / -195, this view will show the 10 objects left over, and these are likely candidates for memory leaks.  
   
      The following illustration shows a differential view of objects left over from Snapshot #2.  
   
@@ -200,7 +200,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
  To take a snapshot of the current state of your app's memory usage, choose **Take Heap Snapshot** from the memory graph. A snapshot summary tile, which appears in both the live memory usage summary (while the app is running) and the snapshot summary (when the app is stopped), provides info about the JavaScript heap and links to more detailed info. If you take two or more snapshots, a snapshot provides additional info comparing its data to that of the previous snapshot.  
   
 > [!NOTE]
->  The JavaScript memory analyzer forces a garbage collection before each snapshot. This helps ensure more consistent results among runs.  
+> The JavaScript memory analyzer forces a garbage collection before each snapshot. This helps ensure more consistent results among runs.  
   
  Here's an example of a snapshot summary when you take multiple snapshots.  
   
@@ -236,14 +236,14 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 - **Types**. Shows the instance count and total size of objects on the heap, grouped by object type. By default, these are sorted by instance count.  
   
   > [!TIP]
-  >  Typically, diff views of the types on the object heap are the most useful views for identifying a memory leak; these views provide a **Scope** filter to help identify left over objects.  
+  > Typically, diff views of the types on the object heap are the most useful views for identifying a memory leak; these views provide a **Scope** filter to help identify left over objects.  
   
 - **Roots**. Shows a hierarchical view of objects from root objects through child references. By default, the child nodes are sorted by the retained size column, with the largest at the top.  
   
 - **Dominators**. Shows a list of objects on the heap that have exclusive references to other objects. Dominators are sorted by retained size.  
   
   > [!TIP]
-  >  When you remove a dominator from memory, you reclaim all memory that the object retains. For a few apps, the Dominators view might help clarify retained memory sizes, because you can investigate the complete object reference chain.  
+  > When you remove a dominator from memory, you reclaim all memory that the object retains. For a few apps, the Dominators view might help clarify retained memory sizes, because you can investigate the complete object reference chain.  
   
   All three views show similar value types, including:  
   
@@ -279,7 +279,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 - **Objects left over from Snapshot #\<number>**. This filter shows the diff between the objects added to the heap and removed from the heap compared to the baseline snapshot and the previous snapshot. For example, if the snapshot summary shows +205 / -195 in the object count, this filter will show you the ten objects that were added but not removed.  
   
   > [!TIP]
-  >  To show the most useful info in this filter, follow the steps described in [Isolate a memory leak](#Isolate).  
+  > To show the most useful info in this filter, follow the steps described in [Isolate a memory leak](#Isolate).  
   
 - **Objects added between Snapshot #\<number> and #\<number>**. This filter shows all objects added to the heap from the previous snapshot.  
   
@@ -288,7 +288,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   To show object references that don't match the current **Scope** filter, select **Show non-matching references** in the settings list ![Settings drop&#45;down list in memory analyzer](../profiling/media/js-mem-settings.png "JS_Mem_Settings") in the upper-right corner of the pane. If you enable this setting, non-matching references are displayed with gray text.  
   
 > [!TIP]
->  We recommend that you follow the steps in [Isolate a memory leak](#Isolate) and then use the objects left over **Scope** filter to help identify objects that are leaking memory.  
+> We recommend that you follow the steps in [Isolate a memory leak](#Isolate) and then use the objects left over **Scope** filter to help identify objects that are leaking memory.  
   
 ## <a name="FoldObjects"></a> View objects by dominator  
  In the Types and Dominators views, you can choose whether to view objects folded into their dominators (this is the default view in the Dominators tab). When this view is selected, only dominators are shown in the top-level view of objects. (Objects that are descendants of non-Global objects are hidden from the top-level view.) For some apps, this can clarify which objects are causing a memory leak by reducing noise in the data.  
@@ -309,7 +309,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
  In the Types and Dominators views, the lower pane contains an Object references list that displays shared references. When you choose an object in the upper pane, the Object references list displays all objects that point to that object.  
   
 > [!NOTE]
->  Circular references are shown with an asterisk (*) and informational tooltip, and cannot be expanded. Otherwise, they would prevent you from walking up the reference tree and identifying objects that are retaining memory.  
+> Circular references are shown with an asterisk (*) and informational tooltip, and cannot be expanded. Otherwise, they would prevent you from walking up the reference tree and identifying objects that are retaining memory.  
   
  If you want additional help identifying equivalent objects, choose **Display object IDs** in the settings list ![Settings drop&#45;down list in memory analyzer](../profiling/media/js-mem-settings.png "JS_Mem_Settings") in the upper-right corner of the upper pane. This option displays object IDs next to object names in the **Identifier(s)** list (the IDs appear in all views, not just the Object references list). Objects that have the same ID are shared references.  
   
@@ -343,7 +343,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 - `performance.mark` sets a user mark (the inverted triangle) that appears in the timeline of the memory graph in the summary view while the app is running. This command takes one string argument that describes the event and appears as a tooltip in the memory graph. This description must not exceed 100 characters.  
   
 > [!TIP]
->  Use `console.takeHeapSnapshot` to speed up the analysis when repeating memory usage scenarios.  
+> Use `console.takeHeapSnapshot` to speed up the analysis when repeating memory usage scenarios.  
   
  These commands throw an exception if you add them to your app and run the app outside the JavaScript memory analyzer. However, you can test whether the commands exist before using them. (The commands do not exist early in the session startup phase.) To check whether you can safely call `takeHeapSnapshot`, use this code:  
   

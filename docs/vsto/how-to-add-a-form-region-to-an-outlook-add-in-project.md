@@ -42,7 +42,7 @@ ms.workload:
 6. On the **Select how you want to create the form region** page, select whether you want to design the form region by dragging managed controls onto a visual designer or import a form region that was designed in Outlook.
 
     > [!NOTE]
-    >  If you choose to import a form region that was designed in Outlook, then you must specify the location of an Outlook Form Storage (*.ofs*) file. You cannot add managed controls to a form region that you design in Outlook; you can only add code behind the existing UI. For more information, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
+    > If you choose to import a form region that was designed in Outlook, then you must specify the location of an Outlook Form Storage (*.ofs*) file. You cannot add managed controls to a form region that you design in Outlook; you can only add code behind the existing UI. For more information, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
 7. On the **Select the type of form region you want to create** page, review the form region types and select one, and then click **Next**. For more information about form region types, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 

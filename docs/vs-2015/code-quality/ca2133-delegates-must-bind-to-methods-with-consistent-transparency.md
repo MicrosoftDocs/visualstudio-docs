@@ -23,7 +23,7 @@ manager: "wpickett"
 |Breaking Change|Breaking|
 
 > [!NOTE]
->  This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
+> This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
 
 ## Cause
  This warning fires on a method that binds a delegate that is marked with the <xref:System.Security.SecurityCriticalAttribute> to a method that is transparent or that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The warning also fires a method that binds a delegate that is transparent or safe-critical to a critical method.

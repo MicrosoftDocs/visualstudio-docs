@@ -23,7 +23,7 @@ manager: jillfra
 You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can also add references and replacement parameters to your code. You can add the snippet to your Visual Studio installation by using the Import button on the Code Snippets Manager (**Tools/Code Snippets Manager**).  
   
 > [!TIP]
->  For information about how to write code snippets more easily, search the CodePlex website for community tools such as [Snippet Editor](http://go.microsoft.com/fwlink/?LinkId=251033).  
+> For information about how to write code snippets more easily, search the CodePlex website for community tools such as [Snippet Editor](http://go.microsoft.com/fwlink/?LinkId=251033).  
   
 ## Snippet Template  
  The following is the basic snippet template:  

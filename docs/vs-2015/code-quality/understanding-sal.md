@@ -240,7 +240,7 @@ void OutOptCaller()
  `_Inout_` is used to annotate a pointer parameter that may be changed by the function. The pointer must point to valid initialized data before the call, and even if it changes, it must still have a valid value on return. The annotation specifies that the function may freely read from and write to the one-element buffer. The caller must provide the buffer and initialize it.  
   
 > [!NOTE]
->  Like `_Out_`, `_Inout_` must apply to a modifiable value.  
+> Like `_Out_`, `_Inout_` must apply to a modifiable value.  
   
 ```cpp  
   

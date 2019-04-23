@@ -16,7 +16,7 @@ manager: jillfra
 This topic describes how to run unit tests by using the Test Explorer in Microsoft Visual Studio
 
 > [!NOTE]
->  The topics in this section describe the functionality of Visual Studio Express for Windows 8. Visual Studio Community, Enterprise, and Professional provide additional features for unit testing.
+> The topics in this section describe the functionality of Visual Studio Express for Windows 8. Visual Studio Community, Enterprise, and Professional provide additional features for unit testing.
 >
 > - Use any third-party or open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for your tests.
 >   - Run your tests after every build. You can also use Microsoft Fakes, an isolation framework for managed code to focus your tests on your own code by substituting test code for system and third-party functionality.
@@ -112,7 +112,7 @@ This topic describes how to run unit tests by using the Test Explorer in Microso
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
 
    > [!NOTE]
-   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
+   > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the shortcut menu.
 

@@ -25,7 +25,7 @@ Insert introduction here.
 - **Use control colors that are appropriate for their location.** In certain states, some Visual Studio controls do not have separate border and background colors. Instead, they pick up those colors from the surfaces behind them. Make sure that you always use the token names that are appropriate for the location where you are placing the control.  
   
 > [!IMPORTANT]
->  Do not use tokens found in the categories "Start Page" or "Cider"!  
+> Do not use tokens found in the categories "Start Page" or "Cider"!  
   
 ### Command structures  
   
@@ -234,7 +234,7 @@ Do not use…
 ##### <a name="BKMK_CommandComboBox"></a> Combo box  
   
 > [!IMPORTANT]
->  Combo boxes are similar to drop-downs, but include an editable text region. If your drop-down does not include an editable text region, use the color tokens found under [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown).  
+> Combo boxes are similar to drop-downs, but include an editable text region. If your drop-down does not include an editable text region, use the color tokens found under [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown).  
   
  ![Combo box redline](../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")  
   
@@ -312,7 +312,7 @@ Do not use …
 ##### <a name="BKMK_CommandDropDown"></a> Drop-down  
   
 > [!IMPORTANT]
->  Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens found under [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox).  
+> Drop-downs are similar to combo boxes, but lack editable text regions. If your drop-down includes an editable text region, use the color tokens found under [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox).  
   
  ![Drop&#45;down redline](../extensibility/ux-guidelines/media/0303-042-dropdownredline.png "0303-042_DropdownRedline")  
   

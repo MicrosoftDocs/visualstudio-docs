@@ -22,7 +22,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 3. Extend your modeling tools by using program code. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 > [!NOTE]
->  When you have updated the DSL Definitions file, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before rebuilding your solution.
+> When you have updated the DSL Definitions file, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before rebuilding your solution.
 
 ## <a name="customShapes"></a> In this Section
 

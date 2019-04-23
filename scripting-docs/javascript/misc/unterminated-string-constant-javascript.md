@@ -19,7 +19,7 @@ manager: "ghogen"
 You did not end your string constant with a closing quotation mark. String constants must be enclosed within a pair of quotation marks.  
   
 > [!NOTE]
->  You can use matching pairs of single or double quotation marks. Double quotation marks can be contained within strings surrounded by single quotation marks, and single quotation marks can be contained within strings surrounded by double quotation marks.  
+> You can use matching pairs of single or double quotation marks. Double quotation marks can be contained within strings surrounded by single quotation marks, and single quotation marks can be contained within strings surrounded by double quotation marks.  
   
 ### To correct this error  
   

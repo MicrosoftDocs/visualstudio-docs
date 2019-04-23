@@ -27,7 +27,7 @@ ms.workload:
  For more information about how the registry entries are used during the load process for VSTO Add-ins, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
 > [!NOTE]
->  In this topic, the text *add-in ID* represents a unique ID for your VSTO Add-in. By default, the ID is the name of your VSTO Add-in assembly.
+> In this topic, the text *add-in ID* represents a unique ID for your VSTO Add-in. By default, the ID is the name of your VSTO Add-in assembly.
 
 ## Register VSTO Add-ins for the current user vs. all users
  When a VSTO Add-in is installed, it can be registered in two ways:

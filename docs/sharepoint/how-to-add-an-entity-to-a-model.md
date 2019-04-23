@@ -34,7 +34,7 @@ ms.workload:
      A new identifier appears on the entity.
 
     > [!NOTE]
-    >  You can change the name of the entity and the identifier in the **Properties** window.
+    > You can change the name of the entity and the identifier in the **Properties** window.
 
 4. Define the fields of the entity in a class. You can either add a new class to the project or use an existing class created by using other tools such as the Object Relational Designer (O/R Designer). The following example shows an entity class named Contact.
 

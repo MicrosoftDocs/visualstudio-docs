@@ -32,7 +32,7 @@ ms.workload:
 - Show the actions pane when the application opens.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
@@ -72,7 +72,7 @@ ms.workload:
 1. If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.
 
    > [!NOTE]
-   >  If **Show Data Sources** is not available, click the Word document and then check again.
+   > If **Show Data Sources** is not available, click the Word document and then check again.
 
 2. Click **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
@@ -105,7 +105,7 @@ ms.workload:
 4. Select `SuppliersBindingNavigator` in the **Component** tray and press **Delete**. You will not use the `SuppliersBindingNavigator` in this walkthrough.
 
     > [!NOTE]
-    >  Deleting the `SuppliersBindingNavigator` does not remove all of the code that was generated for it. You can remove this code.
+    > Deleting the `SuppliersBindingNavigator` does not remove all of the code that was generated for it. You can remove this code.
 
 5. Move the combo box so that it is under the label and change the **Size** property to **171, 21**.
 

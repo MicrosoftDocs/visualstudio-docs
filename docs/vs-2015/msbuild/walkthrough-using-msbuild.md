@@ -126,7 +126,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
  Run MSBuild from the **Visual Studio Command Prompt** to build the HelloWorld target defined above. Use the /target or /t command line switch to select the target.  
   
 > [!NOTE]
->  We will refer to the **Visual Studio Command Prompt** as the **Command Window** in the sections below.  
+> We will refer to the **Visual Studio Command Prompt** as the **Command Window** in the sections below.  
   
 #### To build the target  
   
@@ -148,12 +148,12 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
     ```  
   
 > [!NOTE]
->  If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.  
+> If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.  
   
  By alternating between the code editor and the command window, you can change the project file and quickly see the results.  
   
 > [!NOTE]
->  If you run msbuild without the /t command switch, msbuild builds the target given by the DefaultTarget attribute of the Project element, in this case "Build". This builds the Windows Forms application BuildApp.exe.  
+> If you run msbuild without the /t command switch, msbuild builds the target given by the DefaultTarget attribute of the Project element, in this case "Build". This builds the Windows Forms application BuildApp.exe.  
   
 ## Build Properties  
  Build properties are name-value pairs that guide the build. Several build properties are already defined at the top of the project file:  
@@ -221,7 +221,7 @@ $(PropertyName)
     ```  
   
 > [!NOTE]
->  If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.  
+> If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.  
   
 ### Conditional Properties  
  Many properties like Configuration are defined conditionally, that is, the Condition attribute appears in the property element. Conditional properties are defined or redefined only if the condition evaluates to "true". Note that undefined properties are given the default value of an empty string. For example,  
@@ -313,7 +313,7 @@ $(PropertyName)
  For more information, see [Items](../msbuild/msbuild-items.md).  
   
 > [!NOTE]
->  File paths are relative to the folder containing the MSBuild project file.  
+> File paths are relative to the folder containing the MSBuild project file.  
   
 ## Examining Item Type Values  
  To get the values of an item type, use the following syntax, where ItemType is the name of the item type:  

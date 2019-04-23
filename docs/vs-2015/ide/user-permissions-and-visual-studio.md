@@ -21,7 +21,7 @@ manager: jillfra
 For reasons of security you should run Visual Studio as a normal user whenever possible.
 
 > [!WARNING]
->  You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
+> You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
 
  You can do nearly everything in the Visual Studio IDE as a normal user, but, you need administrator permissions to complete the following tasks:
 

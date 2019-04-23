@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Common language runtime and expression evaluation
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  Compilers, such as Visual Basic and C# (pronounced C-sharp), that target the Common Language Runtime (CLR), produce Microsoft Intermediate Language (MSIL), which is later compiled to native code. The CLR provides a debug engine (DE) to debug the resulting code. If you plan to integrate your proprietary programming language into the Visual Studio IDE, you can choose to compile to MSIL and therefore will not have to write your own DE. However, you will have to write an expression evaluator (EE) that is capable of evaluating expressions within the context of your programming language.
 

@@ -39,7 +39,7 @@ manager: "wpickett"
  Do not suppress a warning from this rule. Catching general exception types can hide run-time problems from the library user and can make debugging more difficult.
 
 > [!NOTE]
->  Starting with the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)], the common language runtime (CLR) no longer delivers corrupted state exceptions that occur in the operating system and managed code, such as access violations in [!INCLUDE[TLA#tla_mswin](../includes/tlasharptla-mswin-md.md)], to be handled by managed code. If you want to compile an application in the [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] or later versions and maintain handling of corrupted state exceptions, you can apply the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute to the method that handles the corrupted state exception.
+> Starting with the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)], the common language runtime (CLR) no longer delivers corrupted state exceptions that occur in the operating system and managed code, such as access violations in [!INCLUDE[TLA#tla_mswin](../includes/tlasharptla-mswin-md.md)], to be handled by managed code. If you want to compile an application in the [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] or later versions and maintain handling of corrupted state exceptions, you can apply the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute to the method that handles the corrupted state exception.
 
 ## Example
  The following example shows a type that violates this rule and a type that correctly implements the `catch` block.

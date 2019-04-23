@@ -34,7 +34,7 @@ ms.workload:
 5. In the list of SharePoint templates, choose **User Control (Farm Solution Only)**.
 
     > [!NOTE]
-    >  User controls work only in farm solutions.
+    > User controls work only in farm solutions.
 
 6. In the **Name** box, specify a name for the user control, and then choose the **Add** button.
 

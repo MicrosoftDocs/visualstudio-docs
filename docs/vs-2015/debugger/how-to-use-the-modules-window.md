@@ -32,7 +32,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  This feature is not available for SQL or script debugging.  
+> This feature is not available for SQL or script debugging.  
   
  The **Modules** window lists the DLLs and EXE that are used by your program and shows relevant information for each.  
   

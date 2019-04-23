@@ -18,7 +18,7 @@ manager: "ghogen"
 Determines whether this thread is in a state that will process calls made using the PDM's thread switching mechanisms, such as SynchronousCallInThread.  
   
 > [!IMPORTANT]
->  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

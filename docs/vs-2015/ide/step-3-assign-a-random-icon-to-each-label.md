@@ -30,7 +30,7 @@ If the icons show up in the same cells every game, it's not very challenging. To
      [!code-vb[VbExpressTutorial4Step2_3_4#14](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb#14)]  
   
     > [!NOTE]
-    >  The names "iconLabel" and "control" are used because they are descriptive. You can replace these names with any names, and the code will work exactly the same as long as you change the name in each statement inside the loop.  
+    > The names "iconLabel" and "control" are used because they are descriptive. You can replace these names with any names, and the code will work exactly the same as long as you change the name in each statement inside the loop.  
   
      The `AssignIconsToSquares()` method iterates through each label control in the TableLayoutPanel and executes the same statements for each of them. Those statements pull a random icon from the list that you added in [Step 2: Add a Random Object and a List of Icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md). (That's why you included two of each icon in the list, so there would be a pair of icons assigned to random label controls.)  
   
@@ -65,7 +65,7 @@ Matching game with random icons
      The icons are visible now because you haven't hidden them. To hide them from the player, you can set each label's `Forecolor` property to the same color as its `BackColor` property.  
   
     > [!TIP]
-    >  Another way to hide controls like labels is to set their **Visible** property to `False`.  
+    > Another way to hide controls like labels is to set their **Visible** property to `False`.  
   
 6. To hide the icons, stop the program and remove the comment marks for the commented line of code inside the `For Each` loop.  
   

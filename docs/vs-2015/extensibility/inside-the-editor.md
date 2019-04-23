@@ -86,7 +86,7 @@ The editor is composed of a number of different subsystems, which are designed t
  You can view the contents of a text snapshot as a sequence of characters or as a sequence of lines. Characters and lines are both indexed starting at zero. An empty text snapshot contains zero characters and one empty line. A line is delimited by any valid Unicode line-break character sequence, or by the beginning or end of the buffer. Line-break characters are explicitly represented in the text snapshot, and the line breaks in a text snapshot do not all have to be the same.  
   
 > [!NOTE]
->  For more information about line-break characters in the Visual Studio editor, see [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md).  
+> For more information about line-break characters in the Visual Studio editor, see [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md).  
   
  A line of text is represented by an <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> object, which can be obtained from a text snapshot for a particular line number or for a particular character position.  
   

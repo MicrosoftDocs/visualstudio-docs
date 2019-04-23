@@ -77,7 +77,7 @@ ms.workload:
 9. If your solution targets the .NET Framework 4.5, also select the **Visual Studio 2010 Tools for Office Runtime** check box.
 
     > [!NOTE]
-    >  By default, this check box doesn't appear. To show this check box, you must create a Bootstrapper package. See [Create a Bootstrapper package for an Office 2013 VSTO Add-in with Visual Studio 2012](create-vsto-add-ins-for-office-by-using-visual-studio.md).
+    > By default, this check box doesn't appear. To show this check box, you must create a Bootstrapper package. See [Create a Bootstrapper package for an Office 2013 VSTO Add-in with Visual Studio 2012](create-vsto-add-ins-for-office-by-using-visual-studio.md).
 
 10. Under **Specify the install location for prerequisites**, choose one of the options that appear, and then choose the **OK** button.
 
@@ -94,7 +94,7 @@ ms.workload:
 11. Choose the **Updates** button, specify how often you want each end user's VSTO Add-in or customization to check for updates, and then choose the **OK** button.
 
     > [!NOTE]
-    >  If you're deploying by using a CD or a removable drive, choose the **Never check for updates** option button.
+    > If you're deploying by using a CD or a removable drive, choose the **Never check for updates** option button.
 
      For information about how to publish an update, see [Publish an update](#Update).
 
@@ -123,7 +123,7 @@ ms.workload:
       ![Publish Folder Structure](../vsto/media/publishfolderstructure.png "Publish Folder Structure")
 
     > [!NOTE]
-    >  ClickOnce appends the *.deploy* extension to assemblies so that a secured installation of Internet Information Services (IIS) won't block the files because of an unsafe extension. When the user installs the solution, ClickOnce removes the *.deploy* extension.
+    > ClickOnce appends the *.deploy* extension to assemblies so that a secured installation of Internet Information Services (IIS) won't block the files because of an unsafe extension. When the user installs the solution, ClickOnce removes the *.deploy* extension.
 
 14. Copy the solution files to the installation location that you specified earlier in this procedure.
 
@@ -158,7 +158,7 @@ ms.workload:
 6. In the **MIME Type** window, enter **.vsto** as the extension, enter **application/x-ms-vsto** as the MIME type, and then apply the new settings.
 
     > [!NOTE]
-    >  For the changes to take effect, you must restart the World Wide Web Publishing Service or wait for the worker process to recycle. You must then flush the browser's disk cache and then try to open the *.vsto* file again.
+    > For the changes to take effect, you must restart the World Wide Web Publishing Service or wait for the worker process to recycle. You must then flush the browser's disk cache and then try to open the *.vsto* file again.
 
 ##### To add the .vsto MIME type to IIS 7.0
 
@@ -179,7 +179,7 @@ ms.workload:
     ```
 
     > [!NOTE]
-    >  For the changes to take effect, you must restart the World Wide Web Publishing Service, or you must wait for the worker process to recycle. You must then flush the browser's disk cache and then try to open the *.vsto* file again.
+    > For the changes to take effect, you must restart the World Wide Web Publishing Service, or you must wait for the worker process to recycle. You must then flush the browser's disk cache and then try to open the *.vsto* file again.
 
 ## <a name="Put"></a> Put the document of a solution onto the end user's computer (document-level customizations only)
  You can copy the document of your solution onto the end user's computer for them by creating a post-deployment action. That way, the user doesn't have to manually copy the document from the installation location to their computer after they install your solution. You'll have to create a class that defines the post-deployment action, build and publish the solution, modify the application manifest, and re-sign the application and deployment manifest.
@@ -294,7 +294,7 @@ ms.workload:
     ```
 
     > [!NOTE]
-    >  In the previous example, replace MostRecentVersionNumber with the version number of the most recently published version of your solution (for example, **1_0_0_4**).
+    > In the previous example, replace MostRecentVersionNumber with the version number of the most recently published version of your solution (for example, **1_0_0_4**).
 
      The message "ExcelWorkbook.vsto successfully signed" appears.
 
@@ -380,7 +380,7 @@ ms.workload:
   To change the installation path of a solution, you must update the setup program, and then users must run it. For document-level customizations, users must also update a property in their document to point to the new location.
 
 > [!NOTE]
->  If you don't want to ask users to update their document properties, you can ask users to get the updated document from the installation location.
+> If you don't want to ask users to update their document properties, you can ask users to get the updated document from the installation location.
 
 #### To change the installation path in the setup program
 
@@ -395,10 +395,10 @@ ms.workload:
    ```
 
    > [!NOTE]
-   >  If a message appears and state that the signature of the executable will be invalidated, the certificate that was used to sign the solution is no longer valid, and the publisher is unknown. As a result, users will need to confirm that they trust the source of the solution before they can install it.
+   > If a message appears and state that the signature of the executable will be invalidated, the certificate that was used to sign the solution is no longer valid, and the publisher is unknown. As a result, users will need to confirm that they trust the source of the solution before they can install it.
 
    > [!NOTE]
-   >  To display the current value of the URL, run `setup.exe /url`.
+   > To display the current value of the URL, run `setup.exe /url`.
 
    For document-level customizations, users must open the document and then update its _AssemblyLocation property. The following steps describe how users can perform this task.
 
@@ -448,7 +448,7 @@ ms.workload:
      The next time that a user opens the application or customized document, the deployment manifest change is detected. The earlier version of the Office solution runs from the ClickOnce cache.
 
 > [!NOTE]
->  Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
+> Local data is saved for only one previous version of a solution. If you roll back two versions, local data isn't retained. For more information about local data, see [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md).
 
 ## See also
 

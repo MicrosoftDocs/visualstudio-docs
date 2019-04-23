@@ -89,7 +89,7 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
 4. In the **Application Files** dialog box, select the **Group** field for a file that you wish to include in the new group.  
   
     > [!NOTE]
-    >  Files must have the **Build Action** property set to **Content** before the file names appear in the **Application Files** dialog box.  
+    > Files must have the **Build Action** property set to **Content** before the file names appear in the **Application Files** dialog box.  
   
 5. In the **Download Group** field, select **\<New...>** from the drop-down list.  
   
@@ -108,7 +108,7 @@ When publishing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applica
 5. In the **Download Group** field, select a group from the drop-down list.  
   
     > [!NOTE]
-    >  You cannot change the **Download Group** for files that are required for the application to run.  
+    > You cannot change the **Download Group** for files that are required for the application to run.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   

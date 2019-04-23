@@ -53,7 +53,7 @@ Coded UI tests can automate testing for web applications by recording your tests
  **Recording:** You must use the Coded UI Test Builder to record your web application test using Internet Explorer. You can optionally add validation and custom code for the tested controls using a predefined set of properties as you would normally do for coded UI tests. For more information, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).  
   
 > [!NOTE]
->  You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.  
+> You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.  
   
  **Play back with Internet Explorer:** When no browser is explicitly specified, tests will run on Internet Explorer by default. You can explicitly state the browser to be used by setting the **BrowserWindow.CurrentBrowser** property in your test code. For Internet Explorer, this property should be set to **IE** or **Internet Explorer**.  
   
@@ -70,7 +70,7 @@ Coded UI tests can automate testing for web applications by recording your tests
 3. Highlight the extension and choose **Download**.  
   
    > [!TIP]
-   >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
+   > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
    For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
   

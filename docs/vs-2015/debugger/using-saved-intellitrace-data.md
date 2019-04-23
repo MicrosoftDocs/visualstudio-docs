@@ -60,7 +60,7 @@ Go to specific points in your application's execution when you start debugging f
     - Under **Repro Steps**, choose the **IntelliTrace** link.  
   
 > [!TIP]
->  If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.  
+> If you closed the IntelliTrace file during debugging, you can reopen it easily. Go to the **Debug** menu, choose **IntelliTrace**, **Show Log Summary**. You can also choose **Show Log Summary** in the **IntelliTrace** window. This is available only while debugging with IntelliTrace.  
   
 ## <a name="Understand"></a> Understand the IntelliTrace log  
  Some of the following sections in the .iTrace file appear only if you collected data from a particular source, for example, from Test Manager or from SharePoint applications.  

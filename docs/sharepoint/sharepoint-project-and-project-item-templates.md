@@ -74,7 +74,7 @@ ms.workload:
  *Content Type* items let you create custom content types based on an existing (base) content type such as a document, announcement, or a task. A custom content type provides the same attributes and fields as the base content type together with any site columns (fields) you define. For example, you can create a custom Contact content type that is based on the base Contact content type that comes in SharePoint. You can customize the content type by changing the existing site columns or adding more site columns to the ones already included in the base content type.
 
 > [!NOTE]
->  Due to a SharePoint limitation, you cannot create a farm solution content type based on a sandboxed solution content type.
+> Due to a SharePoint limitation, you cannot create a farm solution content type based on a sandboxed solution content type.
 
  For more information, see [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md) and [Building Block: Content Type](http://go.microsoft.com/fwlink/?LinkId=179413).
 

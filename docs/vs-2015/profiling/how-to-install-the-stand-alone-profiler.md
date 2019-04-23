@@ -19,7 +19,7 @@ manager: jillfra
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production Web server.  
   
 > [!NOTE]
->  When you are using the stand-alone profiler to collect performance data for ASP.NET Web site, the [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) line tool is recommended over [VSPerfCmd](../profiling/vsperfcmd.md) tool.  
+> When you are using the stand-alone profiler to collect performance data for ASP.NET Web site, the [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) line tool is recommended over [VSPerfCmd](../profiling/vsperfcmd.md) tool.  
   
 ### To install the stand-alone profiler  
   
@@ -28,12 +28,12 @@ manager: jillfra
 2. Add the paths for vsintr.exe and msdis150.dll to the system path.  
   
     > [!NOTE]
-    >  In the default installation of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], vsinstr.exe and msdis150.dll are located in \Program Files\Visual Studio 10\Team Tools\Performance Tools.  
+    > In the default installation of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], vsinstr.exe and msdis150.dll are located in \Program Files\Visual Studio 10\Team Tools\Performance Tools.  
   
 3. At the command prompt, type **VSInstr**.  
   
     > [!NOTE]
-    >  If the usage information for vsinstr.exe is displayed, everything is set up correctly. If you see an error that states vsinstr.exe or one of its dependencies is not found, make sure that you have your paths set up correctly as described in step 2.  
+    > If the usage information for vsinstr.exe is displayed, everything is set up correctly. If you see an error that states vsinstr.exe or one of its dependencies is not found, make sure that you have your paths set up correctly as described in step 2.  
   
 4. Set up symbol server by setting your **_NT_SYMBOL_PATH** variable to **symsrv\*symsrv.dll\*c:\localcache\*http://msdl.microsoft.com/download/symbols**  
   
@@ -42,7 +42,7 @@ manager: jillfra
      **start %COMSPEC%**  
   
     > [!NOTE]
-    >  For detailed instructions about how to set up the symbol server package, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
+    > For detailed instructions about how to set up the symbol server package, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md).  
   
 6. Use the [VSPerfReport](../profiling/vsperfreport.md) tool to serialize your symbols into the profiling data (.vsp) file. Use the **VSPerfReport /summary:all /packsymbols** switches. If you do not have symbols inserted in your data file, make sure that you have the _NT_SYMBOL_PATH environment variable set.  
   

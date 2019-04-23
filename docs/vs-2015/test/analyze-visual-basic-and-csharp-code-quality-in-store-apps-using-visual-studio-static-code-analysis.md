@@ -21,7 +21,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The code analysis tool in  Visual Studio Express examines your code for a set of common defects and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because the code analysis tool searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.
 
 > [!NOTE]
->  In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
+> In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
 
 ## In this topic
  You can learn about:
@@ -63,7 +63,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  After you understand the issue, you can resolve it in your code. Then rerun code analysis to make sure that the warning no longer appears in the Code Analysis window, and that your fix has not raised new warnings.
 
 > [!TIP]
->  You can rerun code analysis from the Code Analysis window. Click the **Analyze** button and choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.
+> You can rerun code analysis from the Code Analysis window. Click the **Analyze** button and choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.
 
 ## <a name="BKMK_Suppress"></a> Suppressing code analysis warnings
  There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.

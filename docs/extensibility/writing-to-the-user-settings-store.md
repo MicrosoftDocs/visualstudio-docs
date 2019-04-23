@@ -21,7 +21,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
 3. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.
 
     > [!NOTE]
-    >  Make sure that you are looking at the key that contains \14.0Exp\ and not \14.0\\. When you run the experimental instance of Visual Studio, your user settings are in the registry hive "14.0Exp".
+    > Make sure that you are looking at the key that contains \14.0Exp\ and not \14.0\\. When you run the experimental instance of Visual Studio, your user settings are in the registry hive "14.0Exp".
 
 4. Right-click the \External Tools\ subkey, and then click **Export**. Make sure that **Selected branch** is selected.
 

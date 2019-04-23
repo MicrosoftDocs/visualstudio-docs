@@ -24,7 +24,7 @@ manager: jillfra
 Creates a new alias for a complete command, complete command and arguments, or another alias.  
   
 > [!TIP]
->  Typing `>alias` without any arguments displays the current list of aliases and their definitions.  
+> Typing `>alias` without any arguments displays the current list of aliases and their definitions.  
   
 ## Syntax  
   

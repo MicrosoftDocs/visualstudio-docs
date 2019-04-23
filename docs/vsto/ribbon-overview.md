@@ -43,7 +43,7 @@ ms.workload:
 - Add custom groups to a custom or built-in tab.
 
   > [!NOTE]
-  >  A built-in tab or group is one that already exists on the ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel. The **Connections** group is a built-in group on the **Data** tab.
+  > A built-in tab or group is one that already exists on the ribbon of a Microsoft Office application. For example, the **Data** tab is a built-in tab in Excel. The **Connections** group is a built-in group on the **Data** tab.
 
 - Add custom controls to a custom group.
 
@@ -90,7 +90,7 @@ ms.workload:
 - Create ribbons for Outlook *Inspectors*. For more information, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
     > [!NOTE]
-    >  An Inspector is a window that opens when users perform certain tasks, such as creating an e-mail message.
+    > An Inspector is a window that opens when users perform certain tasks, such as creating an e-mail message.
 
 - Select which ribbon to display at runtime.
 
@@ -100,7 +100,7 @@ ms.workload:
  To select a ribbon to display at runtime, override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project and return the ribbon that you want to display. The following example checks the value of a field named `myCondition` and returns the appropriate ribbon.
 
 > [!NOTE]
->  The syntax used in this example returns a ribbon that was created by using the **Ribbon (Visual Designer)** item. The syntax for returning a ribbon that is created by using a **Ribbon (XML)** item is slightly different. For more information about returning a **Ribbon (XML)** item, see [Ribbon XML](../vsto/ribbon-xml.md).
+> The syntax used in this example returns a ribbon that was created by using the **Ribbon (Visual Designer)** item. The syntax for returning a ribbon that is created by using a **Ribbon (XML)** item is slightly different. For more information about returning a **Ribbon (XML)** item, see [Ribbon XML](../vsto/ribbon-xml.md).
 
  Add the following code:
 

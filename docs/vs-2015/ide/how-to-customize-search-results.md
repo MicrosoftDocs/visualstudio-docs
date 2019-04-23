@@ -33,7 +33,7 @@ You can customize how search results appear in the **Search** tab in several way
  Documentation may include content in a language other than English. You can narrow your search results to content in a particular language. You can also include any content in English that matches your search query.  
   
 > [!WARNING]
->  This feature is enabled only if the primary language of installed content isn't English.  
+> This feature is enabled only if the primary language of installed content isn't English.  
   
 #### To include English content alongside content in another language  
   

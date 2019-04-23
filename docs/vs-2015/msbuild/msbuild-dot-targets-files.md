@@ -28,7 +28,7 @@ manager: jillfra
  The `$(MSBuildToolsPath)` value specifies the path of these common .targets files. If the `ToolsVersion` is 4.0, the files are in the following location: `WindowsInstallationPath\Microsoft.NET\Framework\v4.0.30319\`  
   
 > [!NOTE]
->  For information about how to create your own targets, see [Targets](../msbuild/msbuild-targets.md). For information about how to use the `Import` element to insert a project file into another project file, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).  
+> For information about how to create your own targets, see [Targets](../msbuild/msbuild-targets.md). For information about how to use the `Import` element to insert a project file into another project file, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).  
   
 ## Common .Targets Files  
   

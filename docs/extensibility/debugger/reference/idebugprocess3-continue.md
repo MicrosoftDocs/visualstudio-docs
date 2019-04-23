@@ -17,7 +17,7 @@ ms.workload:
 Continues running this process from a stopped state. Any previous execution state (such as a step) is preserved, and the process starts executing again.
 
 > [!NOTE]
->  This method should be used instead of [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md).
+> This method should be used instead of [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md).
 
 ## Syntax
 

@@ -26,7 +26,7 @@ You can use the full-text search feature to locate all topics that contain a par
 2. In the search query, specify which logical or advanced search operators to apply to the search, if any. To search all available Help, don't use operators.  
   
     > [!NOTE]
-    >  In the **Viewer Options** dialog box, you can specify additional preferences such as the maximum number of search results to display at a time and whether to include English content if your primary locale is not English.  
+    > In the **Viewer Options** dialog box, you can specify additional preferences such as the maximum number of search results to display at a time and whether to include English content if your primary locale is not English.  
   
 3. Choose the Enter key.  
   

@@ -40,7 +40,7 @@ ms.workload:
  When you install the Office developer tools in Visual Studio, the Office extensions for the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] and the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] are always installed on the development computer. The Office extensions for the .NET Framework 3.5 are installed only if the .NET Framework 3.5 is already present on the development computer. If you install the .NET Framework 3.5 after you install [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], the runtime automatically installs the Office extensions for the .NET Framework 3.5 the first time you create an Office project that targets the .NET Framework 3.5.
 
 > [!WARNING]
->  You cannot create an Office project that targets the .NET Framework 3.5 by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] or later.
+> You cannot create an Office project that targets the .NET Framework 3.5 by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] or later.
 
  For more information about how to install the Office developer tools, see [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md).
 

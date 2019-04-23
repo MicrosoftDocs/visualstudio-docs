@@ -56,7 +56,7 @@ typedef BOOL (*POPLISTFUNC) (
  For each file that the source control plug-in wants to add to or delete from the file list, it calls this function, passing in the `lpFileName`. The `fAddRemove` flag indicates a new file to add to the list or an old file to delete. The `nStatus` parameter gives the status of the file. When the SCC plug-in has finished adding and deleting files, it returns from the [SccPopulateList](../extensibility/sccpopulatelist-function.md) call.  
   
 > [!NOTE]
->  The `SCC_CAP_POPULATELIST` capability bit is required for Visual Studio.  
+> The `SCC_CAP_POPULATELIST` capability bit is required for Visual Studio.  
   
 ## See Also  
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   

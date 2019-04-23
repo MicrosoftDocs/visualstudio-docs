@@ -22,7 +22,7 @@ From the profiling session page window, you can control the collection of profil
  ![Profiling session page](../profiling/media/prof-profilingsessionpage.png "PROF_ProfilingSessionPage")  
   
 > [!NOTE]
->  You can also start the performance session with profiling paused, then resume profiling at a later point in the program execution. To start the performance session with profiling paused, choose **Start Performance Analysis with Profiling Paused** command on the **Debug** menu.  
+> You can also start the performance session with profiling paused, then resume profiling at a later point in the program execution. To start the performance session with profiling paused, choose **Start Performance Analysis with Profiling Paused** command on the **Debug** menu.  
   
 ### To pause,  resume, or stop profiling  
   

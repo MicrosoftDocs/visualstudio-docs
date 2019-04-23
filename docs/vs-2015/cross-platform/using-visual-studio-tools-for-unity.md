@@ -111,7 +111,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
      ![This icon shows VSTU is connected to Unity.](../cross-platform/media/vstu-connection-connected.png "vstu_connection_connected")  
   
 > [!TIP]
->  If the plug icon shows a checkmark, you're already connected to a Unity instance.  
+> If the plug icon shows a checkmark, you're already connected to a Unity instance.  
   
  The **Select Unity Instance** dialog displays some information about each Unity instance that you can connect to.  
   
@@ -130,7 +130,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
  The port number of the UDP socket that this instance of Unity is communicating over.  
   
 > [!IMPORTANT]
->  Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall might ask about it. If this happens, you'll have to authorize the connection so that VSTU and Unity can communicate.  
+> Because Visual Studio Tools for Unity and the Unity instance are communicating over a UDP network socket, your firewall might ask about it. If this happens, you'll have to authorize the connection so that VSTU and Unity can communicate.  
   
 ### <a name="debugging-your-project-in-a-unity-player"></a> Debugging your project in a Unity Player  
  You can connect Visual Studio Tools for Unity directly to your Unity app running in a stand-alone player when you are not running Unity Editor, or to debug problems that are platform specific.  
@@ -148,7 +148,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
 - In the Unity Web Player, on the context menu, choose **Release Channel** and make sure that the **Development** option is enabled.  
   
   > [!IMPORTANT]
-  >  In Unity 4.2 and later, the **Release Channel** context menu item is only available on the Web Player context menu when the **Alt** key is pressed as the context menu is opened. If the Web Player is running on Mac OS X, press the **Option** key instead.  
+  > In Unity 4.2 and later, the **Release Channel** context menu item is only available on the Web Player context menu when the **Alt** key is pressed as the context menu is opened. If the Web Player is running on Mac OS X, press the **Option** key instead.  
   
   Finally, make sure you're connected to the Unity instance that you want to debug. For information on how to do that, see the [Connecting Visual Studio to Unity](#connecting-visual-studio-to-unity) section.  
   
@@ -156,7 +156,7 @@ In this section, you'll learn how to use Visual Studio Tools for Unity's integra
  Many Unity developers are writing code components as external DLLs so that the functionality they develop can be easily shared with other projects. Visual Studio Tools for Unity makes it easy to debug code in these DLLs seamlessly with other code in your Unity project.  
   
 > [!NOTE]
->  At this time, Visual Studio Tools for Unity only supports managed DLLs. It does not support debugging of native code DLLs, such as those written in C++.  
+> At this time, Visual Studio Tools for Unity only supports managed DLLs. It does not support debugging of native code DLLs, such as those written in C++.  
   
  Note that the scenario described here assumes that you have the source code—that is, you are developing or re-using your own first-party code, or you have the source code to a third-party library, and plan to deploy it in your Unity project as a DLL. This scenario does not describe debugging a DLL for which you do not have the source code.  
   

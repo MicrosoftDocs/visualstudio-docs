@@ -57,7 +57,7 @@ You can change the appearance and behavior of the explorer for your domain-speci
      The Explorer should show three **Actor** nodes that have your icon.  
   
 > [!NOTE]
->  If you have set a node icon for any element that is displayed in the generated explorer, all explorer nodes will display the icon. If no icon has been set, the nodes will display the default icon.  
+> If you have set a node icon for any element that is displayed in the generated explorer, all explorer nodes will display the icon. If no icon has been set, the nodes will display the default icon.  
   
 ## Changing the Name Displayed on an Explorer Node  
  You can change how the names of model elements are displayed in your explorer. The following procedure shows how to display the name of the **Task** that is referenced by a **Comment** in the comment node.  

@@ -26,7 +26,7 @@ The Expression Editor is a [!INCLUDE[wfd1](../includes/wfd1-md.md)] control that
 - If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.  
   
 > [!NOTE]
->  IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../includes/vs2010-md.md)]. In both the [!INCLUDE[vs2010](../includes/vs2010-md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  
+> IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../includes/vs2010-md.md)]. In both the [!INCLUDE[vs2010](../includes/vs2010-md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.  
   
 ### Using the Expression editor  
   
@@ -35,7 +35,7 @@ The Expression Editor is a [!INCLUDE[wfd1](../includes/wfd1-md.md)] control that
 2. Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.  
   
     > [!NOTE]
-    >  Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The <xref:System.Activities.Statements.Assign> activity is used as an example.  
+    > Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The <xref:System.Activities.Statements.Assign> activity is used as an example.  
   
 3. Click the left expression editor in the activity designer for the <xref:System.Activities.Statements.Assign> activity.  
   

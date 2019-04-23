@@ -34,7 +34,7 @@ If your application attempts to use a broken reference, an exception error is ge
   The following are remedies to these problems.  
   
 > [!NOTE]
->  Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6).  
+> Files in assemblies are referenced with absolute paths in the project file. Therefore, it is possible for users who work in a multideveloper environment to be missing a referenced assembly in their local environment. To avoid these errors, it is better in these cases to add project-to-project references. For more information, see [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) and [Programming with Assemblies](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6).  
   
 ## Reference Path Is Incorrect  
  If projects are shared on different computers, some references might not be found when a component is located in a different directory on each computer. References are stored under the name of the component file (for example, MyComponent). When a reference is added to a project, the folder location of the component file (for example, C:\MyComponents\\) is appended to the **ReferencePath** project property.  
@@ -44,7 +44,7 @@ If your application attempts to use a broken reference, an exception error is ge
  To fix this problem, you can delete the broken reference and then replace it using the Add Reference dialog box. Another solution is to use the **Reference Path** item in the project's property pages and modify the folders in the list to point to the correct locations. The **Reference Path** property is persisted for each user on each computer. Therefore, modifying your reference path does not affect other users of the project.  
   
 > [!TIP]
->  Project-to-project references do not have these problems. For this reason, use them instead of file references, if you can.  
+> Project-to-project references do not have these problems. For this reason, use them instead of file references, if you can.  
   
 #### To fix a broken project reference by correcting the reference path  
   

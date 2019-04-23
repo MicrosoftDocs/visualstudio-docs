@@ -36,7 +36,7 @@ You might want to use the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] editor
  The Miscellaneous Files folder represents the files as links. Although this folder is not part of a solution, when you open a solution, some or all of the miscellaneous files that were opened when the solution was last closed are re-opened, depending upon the settings for the folder.  
   
 > [!NOTE]
->  Some of the files that do not appear in the Miscellaneous Files folder are files that you cannot modify within the IDE, such as .zip files and .doc files. The IDE will not track files that can only be modified through an external editor.  
+> Some of the files that do not appear in the Miscellaneous Files folder are files that you cannot modify within the IDE, such as .zip files and .doc files. The IDE will not track files that can only be modified through an external editor.  
   
 ## Commands Available in the IDE  
  The menus, toolbars, and the commands they contain change based on the format of the file you open. When you open a text file, for example, the Text Editor toolbar appears and its commands are available. If you then open an XML Schema file, the XML Schema toolbar appears. While editing your XML Schema, the Text Editor toolbar's commands (or the toolbar itself) are unavailable. The XML Schema is the active window and as such, has current selection context. When you switch between a project file and a miscellaneous file, all project-related commands disappear and only those that are directly related to the miscellaneous file appear.  

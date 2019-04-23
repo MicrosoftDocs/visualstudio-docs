@@ -20,7 +20,7 @@ manager: jillfra
 Registers project or item templates that are located in *\<Visual Studio installation path>*\Common7\IDE\ProjectTemplates\ or *\<Visual Studio installation path>*\Common7\IDE\ItemTemplates\ so that they can be accessed through the **New Project** and **Add New Item** dialog boxes.  
   
 > [!WARNING]
->  This switch is supported only for Visual Studio partner development, and is not available in Express editions. You must run devenv as an administrator in order to use the [/Setup (devenv.exe)](../../ide/reference/setup-devenv-exe.md) and [/InstallVSTemplates (devenv.exe)](../../ide/reference/installvstemplates-devenv-exe.md) switches. For more information, see [User Permissions](../../ide/user-permissions-and-visual-studio.md).  
+> This switch is supported only for Visual Studio partner development, and is not available in Express editions. You must run devenv as an administrator in order to use the [/Setup (devenv.exe)](../../ide/reference/setup-devenv-exe.md) and [/InstallVSTemplates (devenv.exe)](../../ide/reference/installvstemplates-devenv-exe.md) switches. For more information, see [User Permissions](../../ide/user-permissions-and-visual-studio.md).  
   
 ## Syntax  
   

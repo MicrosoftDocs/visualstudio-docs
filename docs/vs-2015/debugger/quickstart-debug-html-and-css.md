@@ -55,7 +55,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  DOM Explorer shows you a view of the rendered page, and you can use DOM Explorer to change values and immediately see the results. This enables you to test changes without stopping and restarting the debugger. The source code in your project doesn't change when you interact with the page by using this method, so when you find the desired code corrections, you make the changes to your source code.  
   
 > [!TIP]
->  To avoid stopping and restarting the debugger when you make changes to your source code, you can refresh your app by using the **Refresh Windows app** button on the Debug toolbar (or by pressing F4). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  
+> To avoid stopping and restarting the debugger when you make changes to your source code, you can refresh your app by using the **Refresh Windows app** button on the Debug toolbar (or by pressing F4). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app-javascript.md).  
   
  You can use DOM Explorer to:  
   
@@ -68,12 +68,12 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   When debugging apps, you often need to select elements in DOM Explorer. When you select an element, the values that appear on the tabs on the right side of the DOM Explorer automatically update to reflect the selected element in DOM Explorer. These are the tabs: **Styles**, **Computed**, **Layout**. Windows Store apps also support the **Events** and **Changes** tabs. For more info about selecting elements, see [Selecting elements](#SelectingElements).  
   
 > [!TIP]
->  If the DOM Explorer window is closed, choose **Debug**>**Windows** > **DOM Explorer** to re-open it. The window only appears during a script debugging session.  
+> If the DOM Explorer window is closed, choose **Debug**>**Windows** > **DOM Explorer** to re-open it. The window only appears during a script debugging session.  
   
  In the procedure that follows, we'll go through the process of interactively debugging an app by using DOM Explorer. We'll create an app that uses a `FlipView` control and then debug it. The app contains several errors.  
   
 > [!WARNING]
->  The following sample app is a Windows Store app. The same features are supported for Cordova, but the app would be different.  
+> The following sample app is a Windows Store app. The same features are supported for Cordova, but the app would be different.  
   
 #### To debug by inspecting the live DOM  
   
@@ -177,14 +177,14 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 10. Switch to Visual Studio and choose the **DOM Explorer** tab.  
   
     > [!TIP]
-    >  You can press Alt+Tab or F12 to switch between Visual Studio and the running app.  
+    > You can press Alt+Tab or F12 to switch between Visual Studio and the running app.  
   
 11. In the DOM Explorer window, select the DIV element for the section that has an ID of `"fView"`. Use the arrow keys to view and select the correct DIV element. (The right arrow key allows you to view an element’s children.)  
   
      ![DOM Explorer](../debugger/media/js-dom-explorer.png "JS_DOM_Explorer")  
   
     > [!TIP]
-    >  You can also select the DIV element in the lower left corner of the JavaScript Console window by typing `select(fView)` at the >> input prompt and then pressing Enter.  
+    > You can also select the DIV element in the lower left corner of the JavaScript Console window by typing `select(fView)` at the >> input prompt and then pressing Enter.  
   
      The values that appear on the tabs on the right side of the DOM Explorer window automatically update to reflect the current element in DOM Explorer.  
   
@@ -203,7 +203,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 15. Select `width: 100px;height: 100px;`, press the Delete key, and then press Enter. After you press Enter, the new values are immediately reflected in the Simulator or the Phone Emulator, although you haven't stopped your debugging session.  
   
     > [!IMPORTANT]
-    >  As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md) and [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md).  
+    > As you can update attributes in the DOM Explorer window, you can also update values that appear on the **Styles**, **Computed**, and **Layout** tabs. For more info, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md) and [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md).  
   
 16. Switch to the app by selecting the Simulator or the Phone Emulator, or by using Alt+Tab.  
   
@@ -275,7 +275,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   When you choose to highlight elements, elements that you hover over in the Simulator are highlighted. Colors for highlighted elements match the box model that appears in the **Layout** tab of DOM Explorer.  
   
 > [!NOTE]
->  Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.  
+> Highlighting elements by hovering over them is only partially supported in the Windows Phone Emulator.  
   
  For an example that demonstrates how to select elements by using the **Select element** button, see [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md).  
   

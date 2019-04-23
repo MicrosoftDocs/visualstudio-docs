@@ -31,7 +31,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
  For information about creating key files, see [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114).  
   
 > [!NOTE]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports only Personal Information Exchange (PFX) key files that have the .pfx extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.  
+> [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports only Personal Information Exchange (PFX) key files that have the .pfx extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.  
   
 ### To sign application and deployment manifests using a certificate  
   
@@ -42,7 +42,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
      The **Select a Certificate** dialog box appears and displays the contents of the Windows certificate store.  
   
     > [!TIP]
-    >  If you click **Click here to view certificate properties**, the **Certificate Details** dialog box appears. This dialog box includes detailed information about the certificate, and includes additional options. You can click **certificates** to view additional Help information.  
+    > If you click **Click here to view certificate properties**, the **Certificate Details** dialog box appears. This dialog box includes detailed information about the certificate, and includes additional options. You can click **certificates** to view additional Help information.  
   
 3. Select the certificate that you want to use to sign the manifests.  
   
@@ -59,7 +59,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
 3. In the **Select File dialog** box, browse to the location of the key file (.pfx) that you want to use, and then click **Open**.  
   
     > [!NOTE]
-    >  This option supports only files that have the .pfx extension. If you have a key file or certificate in another format, store it in the Windows certificate store and select the certificate is described in the previous procedure. The selected certificate's purpose should include code signing.  
+    > This option supports only files that have the .pfx extension. If you have a key file or certificate in another format, store it in the Windows certificate store and select the certificate is described in the previous procedure. The selected certificate's purpose should include code signing.  
   
      The **Enter password to open file** dialog box appears. (If the .pfx file is already stored in your Windows certificate store, or is not password protected, you will not be prompted to enter a password.)  
   
@@ -77,7 +77,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
  Signing the ClickOnce manifests is optional for .exe-based applications. The following procedures show how to generate unsigned ClickOnce manifests.  
   
 > [!IMPORTANT]
->  Unsigned manifests can simplify development and testing of your application. However, unsigned manifests introduce substantial security risks in a production environment. Only consider using unsigned manifests if your ClickOnce application runs on computers within an intranet that is completely isolated from the internet or other sources of malicious code.  
+> Unsigned manifests can simplify development and testing of your application. However, unsigned manifests introduce substantial security risks in a production environment. Only consider using unsigned manifests if your ClickOnce application runs on computers within an intranet that is completely isolated from the internet or other sources of malicious code.  
   
  By default, ClickOnce automatically generates signed manifests unless one or more files are specifically excluded from the generated hash. In other words, publishing the application results in signed manifests if all files are included in the hash, even when the **Sign the ClickOnce manifests** check box is cleared.  
   
@@ -98,7 +98,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
 2. Open the **Application Files** dialog box and set the **Hash** to **Exclude** for the files that you want to exclude from the generated hash.  
   
     > [!NOTE]
-    >  Excluding a file from the hash configures ClickOnce to disable automatic signing of the manifests, so you do not need to first publish with signed manifests as shown in the previous procedure.  
+    > Excluding a file from the hash configures ClickOnce to disable automatic signing of the manifests, so you do not need to first publish with signed manifests as shown in the previous procedure.  
   
 3. Publish the application.  
   

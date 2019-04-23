@@ -14,7 +14,7 @@ manager: jillfra
 It is possible to write code that is executed whenever a change occurs in a UML model in Visual Studio. It will respond equally to changes that are made directly by the user, and by other Visual Studio extensions. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 > [!WARNING]
->  These techniques are unsupported by the UML API. They might not work in future versions of Visual Studio.  
+> These techniques are unsupported by the UML API. They might not work in future versions of Visual Studio.  
   
  Sample code is available at [UML: Responding to Changes in a UML Model by using Events and Rules](http://code.msdn.microsoft.com/UML-Responding-to-changes-c024cd4b)  
   

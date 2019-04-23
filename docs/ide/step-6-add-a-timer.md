@@ -20,7 +20,7 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
 **Timer**
 
     > [!NOTE]
-    >  If the toolbox is empty, be sure to select the form designer, and not the code behind the form, before opening the toolbox.
+    > If the toolbox is empty, be sure to select the form designer, and not the code behind the form, before opening the toolbox.
 
 2. Choose the **Timer1** icon to select the timer. In the **Properties** window, switch from viewing events to viewing properties. Then, set the timer's **Interval** property to **750**, but leave its **Enabled** property set to **False**. The **Interval** property tells the timer how long to wait between *ticks*, or when it triggers its <xref:System.Windows.Forms.Timer.Tick> event. A value of 750 tells the timer to wait three quarters of a second (750 milliseconds) before it fires its Tick event. You'll call the <xref:System.Windows.Forms.Timer.Start> method to start the timer only after the player chooses the second label.
 
@@ -32,7 +32,7 @@ Next, you add a <xref:System.Windows.Forms.Timer> control to the matching game. 
      The Tick event handler does three things: First, it makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method. Then it uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again. Finally, it resets the `firstClicked` and `secondClicked` reference variables to `null` in Visual C# and `Nothing` in Visual Basic. This step is important because it's how the program resets itself. Now it's not keeping track of any <xref:System.Windows.Forms.Label> controls, and it's ready for the player to choose a label again.
 
     > [!NOTE]
-    >  A Timer object has a `Start()` method that starts the timer, and a `Stop()` method that stops it. When you set the timer's **Enabled** property to **True** in the **Properties** window, it starts ticking as soon as the program begins. But when you leave it set to **False**, it doesn't start ticking until its `Start()` method is called. Normally, a timer fires its Tick event over and over again, using the **Interval** property to determine how many milliseconds to wait between ticks. You may have noticed how the timer's `Stop()` method is called inside the Tick event. That puts the timer into *one shot mode*, meaning that when the `Start()` method is called, it waits for the specified interval, triggers a single Tick event, and then stops.
+    > A Timer object has a `Start()` method that starts the timer, and a `Stop()` method that stops it. When you set the timer's **Enabled** property to **True** in the **Properties** window, it starts ticking as soon as the program begins. But when you leave it set to **False**, it doesn't start ticking until its `Start()` method is called. Normally, a timer fires its Tick event over and over again, using the **Interval** property to determine how many milliseconds to wait between ticks. You may have noticed how the timer's `Stop()` method is called inside the Tick event. That puts the timer into *one shot mode*, meaning that when the `Start()` method is called, it waits for the specified interval, triggers a single Tick event, and then stops.
 
 4. To see the new timer in action, go to the code editor and add the following code to the top and bottom of the `label_Click()` event handler method. (You're adding an `if` statement to the top, and three statements to the bottom; the rest of the method stays the same.)
 

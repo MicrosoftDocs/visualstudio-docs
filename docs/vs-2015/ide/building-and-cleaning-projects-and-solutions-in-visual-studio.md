@@ -30,7 +30,7 @@ manager: jillfra
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).
 
 > [!NOTE]
->  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
 
 ## To build, rebuild, or clean an entire solution
 
@@ -41,7 +41,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
     - Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
-        >  The **Build** command becomes **Build Solution** when a solution includes more than one project.
+        > The **Build** command becomes **Build Solution** when a solution includes more than one project.
 
     - Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
 

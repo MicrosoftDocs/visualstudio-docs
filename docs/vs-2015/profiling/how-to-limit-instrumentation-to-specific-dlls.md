@@ -62,7 +62,7 @@ By using the instrumentation profiling method, you can limit the collection of p
 7. Optional. To add more .dll files, right-click **Targets** and then select **Add Target Binary**. Select the files from the **Add Target Binary** dialog box.  
   
     > [!NOTE]
-    >  Do not specify the executable (.exe) file that exercises the DLLs.  
+    > Do not specify the executable (.exe) file that exercises the DLLs.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   

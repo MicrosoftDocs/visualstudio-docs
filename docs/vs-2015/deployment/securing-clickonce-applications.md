@@ -68,7 +68,7 @@ manager: jillfra
  You should never pass arguments retrieved through a query string to a database or to the command line without checking the arguments to make sure that they are safe. Unsafe arguments are ones that include database or command line escape characters that could allow a malicious user to manipulate your application into executing arbitrary commands.  
   
 > [!NOTE]
->  Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application from the command line.  
+> Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application from the command line.  
   
 ## Deploying Obfuscated Assemblies  
  You might want to obfuscate your application by using Dotfuscator to prevent others from reverse engineering the code. However, assembly obfuscation is not integrated into the Visual Studio IDE or the ClickOnce deployment process. Therefore, you will have to perform the obfuscation outside of the deployment process, perhaps using a post-build step. After you build the project, you would perform the following steps manually, outside of Visual Studio:  

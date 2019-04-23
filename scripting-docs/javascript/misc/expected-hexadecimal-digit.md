@@ -27,7 +27,7 @@ z = "\u1A5F";
 - Be sure your Unicode hexadecimal digits begin with \u, contains only the numbers 0-9, the upper case letters A-F, the lower case letters a-f; and are grouped into four digits.  
   
     > [!NOTE]
-    >  If you want to use the literal text \u in a string, then use two backslashes - (\\\u) - one to escape the first backslash.  
+    > If you want to use the literal text \u in a string, then use two backslashes - (\\\u) - one to escape the first backslash.  
   
 ## See Also  
  [Data Types](../../javascript/data-types-javascript.md)

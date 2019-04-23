@@ -27,7 +27,7 @@ ms.workload:
 An allocation hook function, installed using [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook), is called every time memory is allocated, reallocated, or freed. You can use this type of hook for many different purposes. Use it to test how an application handles insufficient memory situations, such as to examine allocation patterns, or log allocation information for later analysis.
 
 > [!NOTE]
->  Be aware of the restriction about using C run-time library functions in an allocation hook function, described in [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md).
+> Be aware of the restriction about using C run-time library functions in an allocation hook function, described in [Allocation Hooks and C Run-Time Memory Allocations](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md).
 
  An allocation hook function should have a prototype like the following example:
 

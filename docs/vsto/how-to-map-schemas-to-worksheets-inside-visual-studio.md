@@ -24,7 +24,7 @@ ms.workload:
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
 > [!NOTE]
->  You cannot use multipart XML schemas in Excel solutions.
+> You cannot use multipart XML schemas in Excel solutions.
 
 ## To map an XML schema to an Excel worksheet in Visual Studio
 
@@ -35,7 +35,7 @@ ms.workload:
 3. On the Ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
 4. In the **XML** group, click **Source**.
 

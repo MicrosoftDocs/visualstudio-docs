@@ -57,7 +57,7 @@ DataCollection.CurrentId);
 1. Create a new C# project in Visual Studio, or use a command line build, depending on your preference.
 
     > [!NOTE]
-    >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory.
+    > Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* directory.
 
 2. Copy and paste the following code into your project:
 

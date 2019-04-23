@@ -38,7 +38,7 @@ ms.workload:
  If multiple VSTO Add-ins are installed for an application, each VSTO Add-in is loaded in a different application domain. This means that one VSTO Add-in that behaves incorrectly cannot cause other VSTO Add-ins to fail. It also helps to ensure that when the application is closed, all the VSTO Add-in assemblies are unloaded from memory. For more information about application domains, see [Application domains](/dotnet/framework/app-domains/application-domains).
 
 > [!NOTE]
->  VSTO Add-ins that you create by using the Office developer tools in Visual Studio are designed to be used only when the host Microsoft Office application is started by an end user. If the application is started programmatically (for example, by using Automation), the VSTO Add-in might not work as expected.
+> VSTO Add-ins that you create by using the Office developer tools in Visual Studio are designed to be used only when the host Microsoft Office application is started by an end user. If the application is started programmatically (for example, by using Automation), the VSTO Add-in might not work as expected.
 
 ## <a name="AddinComponents"></a> Components of VSTO Add-ins
  Although the VSTO Add-in assembly is the main component, there are several other components that play an important role in how Microsoft Office applications discover and load VSTO Add-ins.
@@ -64,7 +64,7 @@ ms.workload:
  ![2007 Office add-in architecture](../vsto/media/office07addin.png "2007 Office add-in architecture")
 
 > [!NOTE]
->  In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], solutions call into the object model of the host application by using PIA type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
+> In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], solutions call into the object model of the host application by using PIA type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
 ### Loading process
  The following steps occur when a user starts an application:
@@ -94,7 +94,7 @@ ms.workload:
      You can optionally override this method to extend a Microsoft Office feature by returning an object that implements an extensibility interface. For more information, see [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md).
 
     > [!NOTE]
-    >  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] makes separate calls to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method for each extensibility interface that is supported by the host application. Although the first call to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method usually happens before the call to the `ThisAddIn_Startup` method, your VSTO Add-in should not make any assumptions about when the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method will be called, or how many times it will be called.
+    > The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] makes separate calls to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method for each extensibility interface that is supported by the host application. Although the first call to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method usually happens before the call to the `ThisAddIn_Startup` method, your VSTO Add-in should not make any assumptions about when the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method will be called, or how many times it will be called.
 
 11. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the `ThisAddIn_Startup` method in your VSTO Add-in. This method is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Startup> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 

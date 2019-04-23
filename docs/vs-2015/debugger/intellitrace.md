@@ -56,7 +56,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 |**Not supported**|-   C++, other languages, and script<br />-   Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../includes/winmobile-md.md)] apps|  
   
 > [!NOTE]
->  If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
+> If you want to debug a process that is already running, you can’t use IntelliTrace. You must start IntelliTrace when the process starts.  
   
 ## <a name="IntelliTraceVSTraditional"></a> Why debug with IntelliTrace?  
  Traditional or *live* debugging shows only your application's current state, with limited data about past events. You either have to infer these events based on the application's current state, or you have to recreate these events by rerunning your application.  
@@ -155,7 +155,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 - Pointers to first-level child objects, but not their values other than if they were null or not  
   
 > [!NOTE]
->  IntelliTrace collects only the first 256 objects in arrays and the first 256 characters for strings.  
+> IntelliTrace collects only the first 256 objects in arrays and the first 256 characters for strings.  
   
  See [Configure IntelliTrace](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e).  
   

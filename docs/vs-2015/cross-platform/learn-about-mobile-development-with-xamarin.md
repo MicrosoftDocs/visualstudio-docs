@@ -13,9 +13,9 @@ manager: "crdun"
 This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
   
 > [!NOTE]
->  Unless otherwise noted, we suggest initially reading only those pages linked to directly here, and not subsidiary pages. If the installation process is still running after completing this list, feel free to go back and explore additional topics.  
+> Unless otherwise noted, we suggest initially reading only those pages linked to directly here, and not subsidiary pages. If the installation process is still running after completing this list, feel free to go back and explore additional topics.  
 >   
->  Also feel free to review the topics marked "Essentials" and come back to the "Deeper Dive" topics later.  
+> Also feel free to review the topics marked "Essentials" and come back to the "Deeper Dive" topics later.  
   
 ## Essentials: Introduction to Xamarin  
  *10-20 minutes*  

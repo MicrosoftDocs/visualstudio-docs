@@ -44,7 +44,7 @@ The Visual Studio context determines which commands are available. The context c
 3. Turn context GUIDs on and off by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method.  
   
     > [!CAUTION]
-    >  Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.  
+    > Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.  
   
 ## See Also  
  [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)   

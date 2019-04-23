@@ -31,7 +31,7 @@ You can search for a specific process in Processes view by using its process ID 
 4. Clear any fields for which you do not want to specify values.  
   
    > [!TIP]
-   >  To find all the processes owned by a module, clear the **Process** box and type the module name in the **Module** box. Then use **Find Next** to continue searching for processes.  
+   > To find all the processes owned by a module, clear the **Process** box and type the module name in the **Module** box. Then use **Find Next** to continue searching for processes.  
   
 5. Choose **Up** or **Down** for the initial direction of the search.  
   

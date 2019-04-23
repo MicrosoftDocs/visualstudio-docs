@@ -37,7 +37,7 @@ The State window in Visual Studio graphics Diagnostics helps you understand the 
     - **Show Pinned state view**
 
 > [!IMPORTANT]
->  You must pin state in the **Show API input state** or **Show Logical state** views for it to be displayed in the **Show Pinned state view**.
+> You must pin state in the **Show API input state** or **Show Logical state** views for it to be displayed in the **Show Pinned state view**.
 
 ### State table format
  The State window presents several columns of information.

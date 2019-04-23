@@ -16,7 +16,7 @@ manager: jillfra
 This topic explains how to add nodes that are highlighted in the XML Schema Explorer as the result of a keyword search in the workspace.  
   
 > [!NOTE]
->  Only global nodes can be added to the [workspace](../xml-tools/xml-schema-designer-workspace.md).  
+> Only global nodes can be added to the [workspace](../xml-tools/xml-schema-designer-workspace.md).  
   
  This example uses the sample [Purchase Order Schema](../xml-tools/sample-xsd-file-purchase-order-schema.md).  
   

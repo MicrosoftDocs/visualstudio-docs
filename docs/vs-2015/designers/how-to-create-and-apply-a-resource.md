@@ -57,7 +57,7 @@ Styles and templates for elements in the XAML Designer are stored in reusable en
    - Apply a style or control template resource to a control. Open the context menu for a control in the Document Outline window, choose **Edit Template** or **Edit Additional Templates**, choose **Apply Resource**, and then choose the name of the control template from the list that appears.  
   
      > [!NOTE]
-     >  **Edit Template** is used to apply control templates. **Edit Additional Templates** is used to apply other template types.  
+     > **Edit Template** is used to apply control templates. **Edit Additional Templates** is used to apply other template types.  
   
      Resources can be applied wherever they're compatible. For example, a brush resource can be applied to the **Foreground** property of a <xref:Windows.UI.Xaml.Controls.TextBox> control.  
   

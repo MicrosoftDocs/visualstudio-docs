@@ -19,7 +19,7 @@ ms.workload:
  For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://products.office.com/previous-versions/microsoft-sharepoint-2013) and [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 > [!NOTE]
->  Find out how to use the new [SharePoint add-in model](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) to extend the SharePoint experience for your users. These add-ins have very small footprints compared to SharePoint solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.
+> Find out how to use the new [SharePoint add-in model](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) to extend the SharePoint experience for your users. These add-ins have very small footprints compared to SharePoint solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.
 
 |||
 |-|-|

@@ -34,7 +34,7 @@ ms.workload:
      To use this code example, run it from the `ThisAddIn` class in your project.
 
     > [!NOTE]
-    >  The `Microsoft.Office.Interop.Visio.Document.Save` method throws an exception if a new Visio document has not yet been saved.
+    > The `Microsoft.Office.Interop.Visio.Document.Save` method throws an exception if a new Visio document has not yet been saved.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#11](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#11)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#11](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#11)]

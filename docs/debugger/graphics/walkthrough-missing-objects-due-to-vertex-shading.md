@@ -55,7 +55,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
     In the **Graphics Pipeline Stages** window, the **Input Assembler** stage shows the object's geometry before its transformed, and the **Vertex Shader** stage shows the same object after it's transformed. In this scenario, you know that you've found the missing object when it is displayed in the **Input Assembler** stage and nothing is displayed in the **Vertex Shader** stage.
 
    > [!NOTE]
-   >  If other geometry stages—for example, the Hull Shader, Domain Shader, or Geometry Shader stages—process the object, they might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.
+   > If other geometry stages—for example, the Hull Shader, Domain Shader, or Geometry Shader stages—process the object, they might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.
 
 4. Stop when you reach the draw call that corresponds to the missing object. In this scenario, the **Graphics Pipeline Stages** window indicates that the geometry was issued to the GPU (indicated by the Input Assembler thumbnail), but doesn't appear in the render target because something went wrong during the vertex shader stage (indicated by the Vertex Shader thumbnail):
 
@@ -98,7 +98,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
     ![The code that sets the object's constant buffer](media/gfx_diag_demo_missing_object_shader_step_7.png "gfx_diag_demo_missing_object_shader_step_7")
 
    > [!TIP]
-   >  If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.
+   > If you are simultaneously debugging your app, you can set a breakpoint at this location and it will be hit when the next frame is rendered. You can then inspect the members of `m_marbleConstantBufferData` to confirm that the value of the `projection` member is set to all zeros when the constant buffer is filled.
 
    After you find the location where the constant buffer is being filled and discover that its values come from the variable `m_marbleConstantBufferData`, the next step is to find out where the `m_marbleConstantBufferData.projection` member is set to all zeros. You can use **Find All References** to quickly scan for code that changes the value of `m_marbleConstantBufferData.projection`.
 

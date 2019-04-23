@@ -77,7 +77,7 @@ A command group is a collection of commands that always appear together on a men
     ```  
   
     > [!NOTE]
-    >  The value of the Priority field determines the position of the command in the new command group. Priorities set in the CommandPlacement element override those set in the item definition. Commands that have lower priority values are displayed before commands that have higher priority values. Duplicate priority values are permitted, but the relative position of commands that have the same priority value cannot be guaranteed because the order in which the **devenv /setup** command creates the final interface from the registry may not be consistent.  
+    > The value of the Priority field determines the position of the command in the new command group. Priorities set in the CommandPlacement element override those set in the item definition. Commands that have lower priority values are displayed before commands that have higher priority values. Duplicate priority values are permitted, but the relative position of commands that have the same priority value cannot be guaranteed because the order in which the **devenv /setup** command creates the final interface from the registry may not be consistent.  
   
 ### To put a reusable group of buttons on a menu  
   

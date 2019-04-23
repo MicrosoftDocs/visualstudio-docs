@@ -47,7 +47,7 @@ The steps in the [first procedure](#to-add-a-custom-project-item-template-to-the
      The files for the template are added to a .zip file and copied whatever directory you specify in the dialog. The default location is **..\Users\\<username\>\Documents\Visual Studio \<Version>\My Exported Templates\\** folder.  
   
     > [!WARNING]
-    >  In earlier versions of Visual Studio, the default location is **..\Users\\<username\>\Documents\Visual Studio \<Version>\Templates\ItemTemplates**.  
+    > In earlier versions of Visual Studio, the default location is **..\Users\\<username\>\Documents\Visual Studio \<Version>\Templates\ItemTemplates**.  
   
 ### To enable the item template to be used in a store project  
   

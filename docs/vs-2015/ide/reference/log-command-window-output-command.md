@@ -31,7 +31,7 @@ Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]
  Optional. The name of the log file. By default, the file is created in the user's profile folder. If the file name already exists, the log is appended to the end of the existing file. If no file is specified, the last file specified is used. If no previous file exists, a default log file is created, called cmdline.log.  
   
 > [!TIP]
->  To change the location where the log file is saved, enter the full path of the file, surrounded by quotation marks if the path contains any spaces.  
+> To change the location where the log file is saved, enter the full path of the file, surrounded by quotation marks if the path contains any spaces.  
   
 ## Switches  
  /on  

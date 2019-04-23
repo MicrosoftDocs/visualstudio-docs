@@ -18,7 +18,7 @@ manager: jillfra
 A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn’t understand.  
   
 > [!IMPORTANT]
->  Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.  
+> Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.  
   
 ## Package Manifest Schema  
  The root element of the manifest XML file is `<PackageManifest>`, with a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format will be changed. This topic describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value Version=”2.0”.  
@@ -123,7 +123,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
         - Single version # - only the specified version.  
   
         > [!IMPORTANT]
-        >  Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.  
+        > Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.  
   
     - `AnyAttribute*` – The `<InstallationTarget>` element allows an open-ended set of attributes that'll be exposed at runtime as a name-value pair dictionary.  
   

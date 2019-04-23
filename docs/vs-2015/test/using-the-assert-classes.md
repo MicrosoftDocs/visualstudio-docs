@@ -43,7 +43,7 @@ Use the Assert classes of the UnitTestingFramework namespace to verify specific 
  The AssertInconclusiveException is thrown whenever a test produces a result of Inconclusive. Typically, you add an Assert.Inconclusive statement to a test that you are still working on to indicate it is not yet ready to be run.  
   
 > [!NOTE]
->  An alternative strategy would be to mark a test that is not ready to run with the Ignore attribute. However, this has the disadvantage that you cannot easily generate a report on the number of tests you have left to implement.  
+> An alternative strategy would be to mark a test that is not ready to run with the Ignore attribute. However, this has the disadvantage that you cannot easily generate a report on the number of tests you have left to implement.  
   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>  
   

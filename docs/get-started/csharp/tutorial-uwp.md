@@ -64,7 +64,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
-   ![Enable the Developer Mode in the UWP Settings dialog box](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+   > ![Enable the Developer Mode in the UWP Settings dialog box](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
 
 ## Create the application
 

@@ -44,7 +44,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 8. In the **Configuration** column, verify that **SimpleMath** row is set to **Release**, and then choose the **Close** button to accept the change.
 
    > [!IMPORTANT]
-   >  The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the[!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].
+   > The SDK for the SimpleMath component includes only one configuration. This configuration must be the release build, or apps that use the component won't pass certification for the[!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].
 
 9. In **Solution Explorer**, open the shortcut menu for the **SimpleMath** project node, and then choose **Build**.
 

@@ -38,7 +38,7 @@ ms.workload:
     The **New Project** dialog box appears.
 
    > [!NOTE]
-   >  Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
+   > Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
 
 2. In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.
 
@@ -47,7 +47,7 @@ ms.workload:
 4. In the list of project templates, select a VSTO Add-in project template. For a list of available VSTO Add-in project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).
 
    > [!NOTE]
-   >  If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected in the combo box at the top of the dialog box. Office project templates are visible for both versions of the .NET Framework.
+   > If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected in the combo box at the top of the dialog box. Office project templates are visible for both versions of the .NET Framework.
 
 5. In the **Name** box, type a name for the project. By default, the project name is also used as the solution name.
 
@@ -141,7 +141,7 @@ ms.workload:
    - Percent sign (%)
 
    > [!NOTE]
-   >  If you use an existing document in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] project, only use documents that were created in or converted to [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010, on the **File** tab on the ribbon, choose **Info** > **Convert**.
+   > If you use an existing document in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] project, only use documents that were created in or converted to [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010, on the **File** tab on the ribbon, choose **Info** > **Convert**.
 
 8. Choose **Finish**.
 

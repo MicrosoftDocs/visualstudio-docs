@@ -241,7 +241,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
     ```  
   
     > [!TIP]
-    >  We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.  
+    > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.  
     >   
     >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.  
   
@@ -252,7 +252,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
      ![The RangeTest fails](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
-    >  Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.  
+    > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.  
   
 3. Enhance the code under test so that the new test passes:  
   
@@ -280,7 +280,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
      ![Unit Test Explorer &#45; Range Test passed](../test/media/utecpp12.png "UteCpp12")  
   
     > [!TIP]
-    >  Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
+    > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
   
 ### <a name="debug"></a> Debug a failing test  
   
@@ -355,7 +355,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
      ![All tests pass](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
   
 > [!TIP]
->  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
+> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
   
 ### <a name="refactor"></a> Refactor the code without changing tests  
   
@@ -372,7 +372,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
 2. Build the solution and choose **Run All**, to make sure that you have not introduced an error.  
   
     > [!TIP]
-    >  A good set of unit tests gives confidence that you have not introduced bugs when you change the code.  
+    > A good set of unit tests gives confidence that you have not introduced bugs when you change the code.  
     >   
     >  Keep refactoring separate from other changes.  
   

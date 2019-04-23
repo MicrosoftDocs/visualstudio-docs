@@ -28,7 +28,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
 ```  
   
 > [!NOTE]
->  You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML.  
+> You can specify a custom separator for a transformed item list in the same way you specify a separator for a standard item list. For example, to separate a transformed item list by using a comma (,) instead of the default semicolon (;), use the following XML.  
   
 ```  
 @(RESXFile->'Toolset\%(filename)%(extension)', ',')  

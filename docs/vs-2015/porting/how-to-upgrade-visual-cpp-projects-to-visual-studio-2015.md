@@ -35,7 +35,7 @@ When you first open a Visual C++ project that was created in an earlier version 
     - You can update the project by allowing [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to make the changes that are described later in this topic. If you have more than one Visual C++ project in your solution, you must update all of them.
 
         > [!NOTE]
-        >  If you decline the update when you're first prompted, you can update the project later by choosing **Update VC++ project** on the **Project** menu. If the command doesn't appear, then an update isn't required.
+        > If you decline the update when you're first prompted, you can update the project later by choosing **Update VC++ project** on the **Project** menu. If the command doesn't appear, then an update isn't required.
 
 ## Upgrading a Visual C++ Project
  If you allow [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] to automatically update the project, these changes are made:

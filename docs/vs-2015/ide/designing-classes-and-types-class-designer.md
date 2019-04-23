@@ -19,7 +19,7 @@ manager: jillfra
 Using **Class Designer**, you can not only visualize classes and types, but design them as well. The following topics describe how to do this.  
   
 > [!NOTE]
->  When working with the Class Designer, you should inspect the code it emits before executing it in order to verify that the code is appropriate for your security context.  
+> When working with the Class Designer, you should inspect the code it emits before executing it in order to verify that the code is appropriate for your security context.  
   
 ## In This Section  
  [How to: Create Types by using Class Designer](../ide/how-to-create-types-by-using-class-designer.md)  

@@ -50,12 +50,12 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
      `src=https://codepremium.msdn.microsoft.com/source/Visual%20Studio%202010/SP1/`  
   
    > [!NOTE]
-   >  Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
+   > Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
   
      Move these locations to the top of the list to ensure that these symbols are loaded first.  
   
    > [!NOTE]
-   >  These Code Center Premium locations must be listed first so that they are the first locations that are loaded. In Visual Studio 2010, you cannot move any servers above the **Microsoft Symbol Servers** entry, which is why you must clear the check box.  
+   > These Code Center Premium locations must be listed first so that they are the first locations that are loaded. In Visual Studio 2010, you cannot move any servers above the **Microsoft Symbol Servers** entry, which is why you must clear the check box.  
    > 
    >  To load symbols from the Microsoft symbols during a debug session, do this:  
    > 
@@ -107,7 +107,7 @@ With the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger, yo
     `https://codepremium.msdn.microsoft.com/source/Visual%20Studio%202010/SP1/`  
   
    > [!NOTE]
-   >  Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
+   > Be sure to include the trailing slash<strong>/</strong> at the end of the path.  
   
 4. For each managed project in your solution, do the following  
   

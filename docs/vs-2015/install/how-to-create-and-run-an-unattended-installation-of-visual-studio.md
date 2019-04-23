@@ -32,7 +32,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
      The network path of the installation application for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] resembles \\\\*ServerName*\IDEinstall\\*Product*.exe.
 
     > [!NOTE]
-    >  Installation may fail if any path and file name combination exceeds 260 characters. The maximum length of a path in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is 221 characters.  The local path name should not exceed 70 characters, and the network path name should not exceed 39 characters.
+    > Installation may fail if any path and file name combination exceeds 260 characters. The maximum length of a path in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is 221 characters.  The local path name should not exceed 70 characters, and the network path name should not exceed 39 characters.
 
      Installation may also fail if the folder names in the path include embedded spaces (for example, "\\\\*ServerName*\IDE install" or \\\\*ServerName*\Visual Studio\\).
 
@@ -40,16 +40,16 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
  To deploy [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in unattended mode, you must modify the AdminDeployment.xml file. To do this, you must first create the AdminDeployment.xml file by using the `/CreateAdminFile` *\<file location>* command-line parameter. Then, you can use this file to either push a deployment of Visual Studio to your network or pull it into an installation if you put that file in the *Drive*:\IDEinstall\packages directory. The AdminDeployment.xml file is not unique to an operating system, architecture, edition of Visual Studio, or operating-system language.
 
 > [!CAUTION]
->  Sometimes, items listed as selected in the AdminDeployment.xml file do not get installed. To resolve this issue, place the items marked “Selected="yes"” at the **end** of the AdminDeployment.xml file.
+> Sometimes, items listed as selected in the AdminDeployment.xml file do not get installed. To resolve this issue, place the items marked “Selected="yes"” at the **end** of the AdminDeployment.xml file.
 >
->  If you don’t want to install the optional dependencies of an item, then you must select the parent first and then deselect the optional dependencies after the parent, as shown in the following screenshot:
+> If you don’t want to install the optional dependencies of an item, then you must select the parent first and then deselect the optional dependencies after the parent, as shown in the following screenshot:
 >
->  ![Installation items at the end of the AdminDeployment.xml file](../install/media/vs2015-install-endoffileadmindeploy.PNG "vs2015_Install_EndOfFileAdminDeploy")
+> ![Installation items at the end of the AdminDeployment.xml file](../install/media/vs2015-install-endoffileadmindeploy.PNG "vs2015_Install_EndOfFileAdminDeploy")
 >
->  Another way to do this is to simply omit the optional children of a parent—in other words, do not include any “Selected=”no”” items—but you still must place all the “Selected=”yes”” items at the end of the AdminDeployment.xml file.
+> Another way to do this is to simply omit the optional children of a parent—in other words, do not include any “Selected=”no”” items—but you still must place all the “Selected=”yes”” items at the end of the AdminDeployment.xml file.
 
 > [!IMPORTANT]
->  During installation, the computer may automatically restart one or more times. After it restarts, you must log back in with the same user account with which you were logged on to perform the installation before the computer restarted. You can avoid automatic restarts by installing the prerequisite components before you run an unattended installation. For more information, see the section entitled "Avoid Restart During Setup" in the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).
+> During installation, the computer may automatically restart one or more times. After it restarts, you must log back in with the same user account with which you were logged on to perform the installation before the computer restarted. You can avoid automatic restarts by installing the prerequisite components before you run an unattended installation. For more information, see the section entitled "Avoid Restart During Setup" in the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).
 
  The AdminDeployment file schema contains the following elements:
 
@@ -65,7 +65,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
 |BundleCustomizations|NoCacheOnlyMode|yes&#124;default|Prevents pre-population of the package cache.|
 
 > [!WARNING]
->  The installation application will respect the Selected state of a SelectableItem even if it is hidden. For example, if you want to always install a selectable item, you can mark it as hidden and selected.
+> The installation application will respect the Selected state of a SelectableItem even if it is hidden. For example, if you want to always install a selectable item, you can mark it as hidden and selected.
 
 #### To create an unattended installation of Visual Studio
 
@@ -94,7 +94,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../includes/vsprv
  If you open **Control Panel** and rerun the installation application, you can modify features of Visual Studio, uninstall programming languages, and repair or uninstall Visual Studio.
 
 > [!NOTE]
->  You must have administrative credentials on the local computer to use maintenance mode.
+> You must have administrative credentials on the local computer to use maintenance mode.
 
 #### To maintain an installation on a client computer
 

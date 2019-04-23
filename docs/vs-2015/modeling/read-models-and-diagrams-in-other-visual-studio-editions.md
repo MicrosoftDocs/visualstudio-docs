@@ -25,14 +25,14 @@ When you open a model in a version of Visual Studio that does not support model 
  For this reason, if you want to read a UML diagram or layer diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../includes/esprscc-md.md)], or by obtaining a copy of the project files.  
   
 > [!NOTE]
->  This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.  
+> This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.  
   
  To read a UML diagram or a layer diagram, the minimum set of files that you need is as follows:  
   
 - The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.  
   
     > [!NOTE]
-    >  For Layer diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.  
+    > For Layer diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.  
   
 - The modeling project file (**MyModel.modelproj**)  
   

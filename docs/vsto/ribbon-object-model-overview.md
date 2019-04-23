@@ -124,7 +124,7 @@ ms.workload:
  The following table shows properties that can only be set before the ribbon loads.
 
 > [!NOTE]
->  You can set the properties of controls on dynamic menus at any time. This table does not apply in that case.
+> You can set the properties of controls on dynamic menus at any time. This table does not apply in that case.
 
 |Property|Ribbon control class|
 |--------------|--------------------------|
@@ -157,7 +157,7 @@ ms.workload:
  If you have conditional logic that sets any of these properties to a different value when other instances of the ribbon are created, this code will have no effect.
 
 > [!NOTE]
->  Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at runtime, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.
+> Ensure that the **Name** property is set for each control that you add to an Outlook Ribbon. If you add a control to an Outlook Ribbon at runtime, you must set this property in your code. If you add a control to an Outlook Ribbon at design time, the Name property is set automatically.
 
 ## Ribbon control events
  Each control class contains one or more events. The following table describes these events.

@@ -44,7 +44,7 @@ ms.workload:
      For more information about the document file formats that support macros, see [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).
 
     > [!NOTE]
-    >  This feature cannot be used in Word template projects.
+    > This feature cannot be used in Word template projects.
 
 2. Ensure that VBA code in the document is allowed to run without prompting the user to enable macros. You can trust VBA code to run by adding the location of the Office project to the list of trusted locations in the Trust Center settings for Word or Excel.
 
@@ -59,7 +59,7 @@ ms.workload:
      After you set this property, Visual Studio automatically sets the **ReferenceAssemblyFromVbaProject** property to **True**.
 
     > [!NOTE]
-    >  If the workbook or document does not already contain VBA code, or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
+    > If the workbook or document does not already contain VBA code, or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
 
 5. Click **OK** in the message that is displayed. This message reminds you that if you add VBA code to the workbook or document while you are running the project from [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the VBA code will be lost the next time you build the project. This is because the document in the build output folder is overwritten every time you build the project.
 
@@ -77,7 +77,7 @@ ms.workload:
      For more information about the document file formats that support macros, see [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).
 
     > [!NOTE]
-    >  This feature cannot be used in Word template projects.
+    > This feature cannot be used in Word template projects.
 
 2. Ensure that VBA code in the document is allowed to run without prompting the user to enable macros. You can trust VBA code to run by adding the location of the Office project to the list of trusted locations in the Trust Center settings for Word or Excel.
 
@@ -103,7 +103,7 @@ ms.workload:
 7. In the **Properties** window, select the **ReferenceAssemblyFromVbaProject** property, and change the value to **True**.
 
     > [!NOTE]
-    >  If the workbook or document does not already contain VBA code, or if VBA code in the document is not trusted to run, you will receive an error message when you set the **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
+    > If the workbook or document does not already contain VBA code, or if VBA code in the document is not trusted to run, you will receive an error message when you set the **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
 
 8. Click **OK** in the message that is displayed. This message reminds you that if you add VBA code to the workbook or document while you are running the project from [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the VBA code will be lost the next time you build the project. This is because the document in the build output folder is overwritten every time you build the project.
 

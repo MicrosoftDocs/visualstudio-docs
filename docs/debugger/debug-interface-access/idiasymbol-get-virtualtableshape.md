@@ -33,7 +33,7 @@ HRESULT get_virtualTableShape ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.
 
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.
+> A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## See Also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

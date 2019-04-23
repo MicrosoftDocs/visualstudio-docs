@@ -39,7 +39,7 @@ XML and its related technologies play a large role in the way data is handled in
  Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.  
   
 > [!NOTE]
->  XSLT debugging is available in the Professional and Team Editions.  
+> XSLT debugging is available in the Professional and Team Editions.  
   
 ## In This Section  
  [XML Editor](../xml-tools/xml-editor.md)  

@@ -33,7 +33,7 @@ This topic addresses some problems that you might encounter when you create laye
 2. Delete the following folder:  %LocalAppData%\Microsoft\VisualStudio\\[version]\ComponentModelCache  
   
    > [!NOTE]
-   >  %LocalAppData% is typically *DriveName*:\Users\\*UserName*\AppData\Local.  
+   > %LocalAppData% is typically *DriveName*:\Users\\*UserName*\AppData\Local.  
   
    Continue with the next procedure if necessary.  
   

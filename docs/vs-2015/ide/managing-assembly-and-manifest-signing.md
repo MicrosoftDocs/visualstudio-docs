@@ -53,7 +53,7 @@ Strong-name signing gives a software component a globally unique identity. Stron
  Specify a key file. If you choose to create a new key file, note that new key files are always created in the .pfx format. You need a name and password for the new file.  
   
 > [!WARNING]
->  You should always protect your key file with a password to prevent someone else from using it. You can also secure your keys by using providers or certificate stores.  
+> You should always protect your key file with a password to prevent someone else from using it. You can also secure your keys by using providers or certificate stores.  
   
  You can also point to a key you have already created. For more information about creating keys, see [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114).  
   

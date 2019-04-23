@@ -102,7 +102,7 @@ To install a Shell app you must perform the following steps.
 2. Identify the components that the Shell and your Shell application require, as the following example shows.  
   
     > [!NOTE]
-    >  Some elements may refer to definitions in other .wxs files.  
+    > Some elements may refer to definitions in other .wxs files.  
   
     ```xml  
     <Feature Id="ProductFeature" Title="$(var.ShortProductName)Shell" Level="1">  
@@ -153,7 +153,7 @@ To install a Shell app you must perform the following steps.
         ```  
   
     > [!NOTE]
-    >  Required dependencies for Shell (Isolated) applications are: DebuggerProxy, MasterPkgDef, Resources (especially the .winprf file), Application, and PkgDefs.  
+    > Required dependencies for Shell (Isolated) applications are: DebuggerProxy, MasterPkgDef, Resources (especially the .winprf file), Application, and PkgDefs.  
   
 ### Registry Entries  
  The Shell (Isolated) project template includes a *ProjectName*.reg file for registry keys to merge on installation. These registry entries must be part of the MSI for both installation and cleanup purposes. You must also create matching registry blocks in ApplicationRegistry.wxs.  
@@ -205,7 +205,7 @@ To install a Shell app you must perform the following steps.
  To determine whether the Visual Studio Shell (Isolated) must be installed, first determine whether it's already installed by checking the registry value of HKLM\Software\Microsoft\DevDiv\vs\Servicing\ShellVersion\isoshell\LCID\Install.  
   
 > [!NOTE]
->  These values are also read by the Shell detection block in Product.wxs.  
+> These values are also read by the Shell detection block in Product.wxs.  
   
  HKLM\Software\Microsoft\AppEnv\14.0\ShellFolder specifies the location where the Visual Studio Shell was installed, and you can check for files there.  
   

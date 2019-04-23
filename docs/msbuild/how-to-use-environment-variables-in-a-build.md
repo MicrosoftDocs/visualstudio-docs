@@ -20,7 +20,7 @@ When you build projects, it is often necessary to set build options using inform
  All environment variables are available to the [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) project file as properties.
 
 > [!NOTE]
->  If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.
+> If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.
 
 #### To use an environment variable in an MSBuild project
 
@@ -37,7 +37,7 @@ When you build projects, it is often necessary to set build options using inform
      `<ToolsPath Condition="'$(TOOLSPATH)' == ''">c:\tools</ToolsPath>`
 
     > [!NOTE]
-    >  Property names are not case-sensitive so both `$(ToolsPath)` and `$(TOOLSPATH)` reference the same property or environment variable.
+    > Property names are not case-sensitive so both `$(ToolsPath)` and `$(TOOLSPATH)` reference the same property or environment variable.
 
 ## Example
  The following project file uses environment variables to specify the location of directories.

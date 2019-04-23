@@ -24,7 +24,7 @@ ms.workload:
  The following code examples can be used in a document-level customization. To use these examples, run them from the `ThisDocument` class in your project. These examples assume that the document associated with your customization already has at least one table.
 
 > [!IMPORTANT]
->  This code runs only in projects that you create by using any of the following project templates:
+> This code runs only in projects that you create by using any of the following project templates:
 >
 > - Word 2013 Document
 > - Word 2013 Template
@@ -51,9 +51,9 @@ ms.workload:
  The following code examples can be used in a VSTO Add-in. To use the examples, run them from the `ThisAddIn` class in your project. These examples assume that the active document already has at least one table.
 
 > [!IMPORTANT]
->  This code runs only in projects that you create by using Word VSTO Add-in templates.
+> This code runs only in projects that you create by using Word VSTO Add-in templates.
 >
->  If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189588).
+> If you want to perform this task in any other type of project, you must add a reference to the **Microsoft.Office.Interop.Word** assembly, and then you must use classes from that assembly to add rows and columns to tables. For more information, see [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md) and [Word 2010 primary interop assembly reference](http://go.microsoft.com/fwlink/?LinkId=189588).
 
 ### To add a row to a table
 

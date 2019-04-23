@@ -40,7 +40,7 @@ ms.workload:
  You can save the specified workbook to a new location or with a new name, optionally specifying a file format, a password, an access mode, and more.
 
 > [!NOTE]
->  You might want to set the <xref:Microsoft.Office.Interop.Excel._Application.DisplayAlerts%2A> property to **False** before saving the workbook with a new path because saving in some formats requires interaction. Setting this property to **False** causes Excel to use all defaults.
+> You might want to set the <xref:Microsoft.Office.Interop.Excel._Application.DisplayAlerts%2A> property to **False** before saving the workbook with a new path because saving in some formats requires interaction. Setting this property to **False** causes Excel to use all defaults.
 
 ### To save a workbook associated with a document-level customization
 

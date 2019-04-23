@@ -17,7 +17,7 @@ ms.workload:
 This method gets the machine utilities for a server.
 
 > [!NOTE]
->  This method is obsolete: do not use ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called). It is retained for historical reasons.
+> This method is obsolete: do not use ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called). It is retained for historical reasons.
 
 ## Syntax
 

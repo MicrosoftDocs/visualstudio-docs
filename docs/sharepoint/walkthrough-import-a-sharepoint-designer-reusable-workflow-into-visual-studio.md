@@ -118,7 +118,7 @@ ms.workload:
  Because [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] can import only *.wsp* files, you must save the reusable workflow as a *.wsp* file and deploy it to SharePoint before importing it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
 > [!IMPORTANT]
->  If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
+> If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
 
 #### To save and deploy the reusable workflow
 
@@ -164,7 +164,7 @@ ms.workload:
 6. In the **Specify the new project source** page, browse to the location on the system where you previously saved the *.wsp* file, open the file, and then choose the **Next** button.
 
    > [!NOTE]
-   >  Choose the **Finish** button to import all available items in the *.wsp* file.
+   > Choose the **Finish** button to import all available items in the *.wsp* file.
 
     This displays a list of reusable workflows available for importing.
 
@@ -250,7 +250,7 @@ ms.workload:
 12. In the **Start a New Workflow** section, choose the link for **SPD Workflow Test**, and then choose the **Start** button to initiate the workflow.
 
     > [!NOTE]
-    >  Alternatively, you can auto-associate a workflow with a list by running the workflow settings wizard and setting the workflow to auto-associate.
+    > Alternatively, you can auto-associate a workflow with a list by running the workflow settings wizard and setting the workflow to auto-associate.
 
      Notice that two actions are performed by the workflow: your name appears in the task's **Assigned To** column, and an announcement appears in the **Announcements** list.
 

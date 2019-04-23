@@ -24,9 +24,9 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
  The Energy Consumption profiler captures the activities of the display, CPU, and network connections of a device during a profiling session. It then generates estimates of the power used for those activities and the total amount of energy for the profiling session.  
   
 > [!NOTE]
->  The energy profiler estimates power and energy use by using a software model of standard reference device hardware that is representative of the low powered tablet devices your application might run on. To provide the best estimates, we recommend that you collect the profile data on a low powered tablet device.  
+> The energy profiler estimates power and energy use by using a software model of standard reference device hardware that is representative of the low powered tablet devices your application might run on. To provide the best estimates, we recommend that you collect the profile data on a low powered tablet device.  
 >   
->  Although the model provides good estimates for a variety of low-powered devices, the actual values of the device you profile will likely be different. Use the values to find display, CPU, and network activities that are costly relative to other resource uses and so might be good candidates for optimization.  
+> Although the model provides good estimates for a variety of low-powered devices, the actual values of the device you profile will likely be different. Use the values to find display, CPU, and network activities that are costly relative to other resource uses and so might be good candidates for optimization.  
   
  The Energy Consumption profiler uses these definitions of *power* and *energy*:  
   
@@ -88,7 +88,7 @@ if (performance && performance.mark) {
 2. Choose **Energy Consumption** and then choose **Start**.  
   
     > [!NOTE]
-    >  When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
+    > When you start the **Energy Consumption** profiler, you might see a **User Account Control** window requesting your permission to run VsEtwCollector.exe. Choose **Yes**.  
   
 3. Exercise your app to collect data.  
   

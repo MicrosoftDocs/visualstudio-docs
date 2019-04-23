@@ -64,7 +64,7 @@ This walkthrough shows how to use code analysis tools that have been configured 
     On the File menu, click **Save Selected Items** to update the project file with information about the rule set that you selected and its settings.  
   
    > [!TIP]
-   >  In a real-world situation, a good practice to use for prioritizing which issues you want to target with code analysis is to start with the **Minimum Recommended Rules** rule set and correct the desired issues, and then incrementally add more rules or rule sets to find and correct the additional issues.  
+   > In a real-world situation, a good practice to use for prioritizing which issues you want to target with code analysis is to start with the **Minimum Recommended Rules** rule set and correct the desired issues, and then incrementally add more rules or rule sets to find and correct the additional issues.  
   
    Next, you will add some code to the class library which will be used to demonstrate violations of the CA1704 "Identifiers should be spelled correctly" Code Analysis rule. For more information, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).  
   

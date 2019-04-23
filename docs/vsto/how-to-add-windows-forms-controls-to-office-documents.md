@@ -43,7 +43,7 @@ ms.workload:
 2. In the **Common Controls** tab of the **Toolbox**, click the control you want to add, and drag it to the document.
 
     > [!NOTE]
-    >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
+    > When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
 ### To draw a Windows Forms control on the document
 
@@ -56,7 +56,7 @@ ms.workload:
      The control is added to the document with the specified location and size.
 
     > [!NOTE]
-    >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")**  in the **Formula Bar**. This text is necessary and should not be deleted.
+    > When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")**  in the **Formula Bar**. This text is necessary and should not be deleted.
 
 ### To add a Windows Forms control to the document by single-clicking the control
 
@@ -69,7 +69,7 @@ ms.workload:
      The control is added to the document with the default size.
 
     > [!NOTE]
-    >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
+    > When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
 ### To add a Windows Forms control to the document by double-clicking the control
 
@@ -80,7 +80,7 @@ ms.workload:
      The control is added to the document at the center of the document or active pane.
 
     > [!NOTE]
-    >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
+    > When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
 ### To add a Windows Forms control to the document by pressing the Enter key
 
@@ -91,7 +91,7 @@ ms.workload:
      The control is added to the document at the center of the document or active pane.
 
     > [!NOTE]
-    >  When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
+    > When you select a control in Excel, you will see **=EMBED("WinForms.Control.Host","")** in the **Formula Bar**. This text is necessary and should not be deleted.
 
 ## <a name="runtimedoclevel"></a> Add controls at runtime in document-level projects
  You can programmatically add Windows Forms controls to a document at runtime. In Word, use methods of the <xref:Microsoft.Office.Tools.Word.DocumentBase.Controls%2A> property of the `ThisDocument` class. In Excel, use methods of the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.Controls%2A> property of a `Sheet`*n* class. Each method has several overloads that enable you to specify the location of the control in different ways.
@@ -119,7 +119,7 @@ ms.workload:
 1. Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
 
     > [!NOTE]
-    >  In VSTO Add-in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.
+    > In VSTO Add-in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.
 
      The following code example demonstrates how to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> to the first paragraph of the active document by using a Word VSTO Add-in.
 

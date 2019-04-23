@@ -35,7 +35,7 @@ Performance reports can be configured for noise reduction by limiting the amount
     1. Select **Enable Trimming**. This is the default setting.
 
         > [!NOTE]
-        >  If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).
+        > If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).
 
     2. Configure the value setting by using the **Value** drop-down list and choosing the applicable setting.
 
@@ -58,7 +58,7 @@ Performance reports can be configured for noise reduction by limiting the amount
     1. Select **Enable Folding**. This is the default setting.
 
         > [!NOTE]
-        >  If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).
+        > If noise reduction is enabled, an information bar will display in the report. For more information, see [Call Tree View](../profiling/call-tree-view.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).
 
     2. Configure the value setting by using the **Value** drop-down list and selecting the applicable setting.
 

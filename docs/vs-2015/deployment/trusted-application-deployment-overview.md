@@ -26,7 +26,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
  Trusted Application Deployment, part of the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment technology, makes it easier for organizations of any size to grant additional permissions to a managed application in a safer, more secure manner without user prompting. With Trusted Application Deployment, an organization  can just configure a client computer to have a list of trusted publishers, who are identified using Authenticode certificates. Thereafter, any [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application signed by one of these trusted publishers receives a higher level of trust.  
   
 > [!NOTE]
->  Trusted Application Deployment requires one-time configuration of a user's computer. In managed desktop environments, this configuration can be performed by using global policy. If this is not what you want for your application, use permission elevation instead. For more information, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  
+> Trusted Application Deployment requires one-time configuration of a user's computer. In managed desktop environments, this configuration can be performed by using global policy. If this is not what you want for your application, use permission elevation instead. For more information, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  
   
 ## Trusted Application Deployment Basics  
  The following table shows the objects and roles that are involved in Trusted Application Deployment.  
@@ -85,7 +85,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
  After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) or [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)).  
   
 > [!CAUTION]
->  We do not recommend that the application be deployed with a test certificate.  
+> We do not recommend that the application be deployed with a test certificate.  
   
  You can also sign the application by using the Mage.exe or MageUI.exe SDK tools. For more information, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). For a full list of command-line options related to deployment signing, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1).  
   

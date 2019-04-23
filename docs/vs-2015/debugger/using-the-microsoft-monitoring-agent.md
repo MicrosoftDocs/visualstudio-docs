@@ -56,7 +56,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
      Make sure that you create this directory before you start monitoring. To avoid slowing down your app, choose a location on a local high-speed disk that’s not very active.  
   
     > [!IMPORTANT]
-    >  IntelliTrace logs might contain personal and sensitive data. Restrict this directory to only those identities that must work with the files. Check your company's privacy policies.  
+    > IntelliTrace logs might contain personal and sensitive data. Restrict this directory to only those identities that must work with the files. Check your company's privacy policies.  
   
 5. To run detailed, function-level monitoring or to monitor SharePoint applications, give the application pool that hosts your web app or SharePoint application read and write permissions to the IntelliTrace log directory. [Q: How do I set up permissions for the application pool?](#FullPermissionsITLog)  
   
@@ -253,7 +253,7 @@ You can locally monitor IIS-hosted ASP.NET web apps and SharePoint 2010 or 2013 
 3. Copy the log to a secure shared folder, and then open the log from a computer that has Visual Studio Enterprise (but not Professional or Community editions).  
   
    > [!IMPORTANT]
-   >  Be cautious when you share IntelliTrace logs because they might contain personal and sensitive data. Make sure that whoever can access these logs has permissions to look at that data. Check your company's privacy policies.  
+   > Be cautious when you share IntelliTrace logs because they might contain personal and sensitive data. Make sure that whoever can access these logs has permissions to look at that data. Check your company's privacy policies.  
   
    **Next:** [Diagnose recorded events in Visual Studio Enterprise](../debugger/diagnose-problems-after-deployment.md#InvestigateEvents)  
   

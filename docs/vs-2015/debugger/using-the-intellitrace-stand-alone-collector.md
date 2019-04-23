@@ -22,9 +22,9 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
  Watch IntelliTrace in action: [Collecting and analyzing IntelliTrace data in production for debugging (Channel 9 video)](http://go.microsoft.com/fwlink/?LinkID=251851)
 
 > [!NOTE]
->  You can also collect the same IntelliTrace data for web and SharePoint apps running on remote machines by using the **Microsoft Monitoring Agent** in **Trace** mode.
+> You can also collect the same IntelliTrace data for web and SharePoint apps running on remote machines by using the **Microsoft Monitoring Agent** in **Trace** mode.
 >
->  You can collect performance-related events in the IntelliTrace data by running the agent in **Monitor** mode. **Monitor** mode has less of a performance impact than **Trace** mode or the **IntelliTrace stand-alone collector**. Microsoft Monitoring Agent does alter the target system's environment when it is installed. See [Using the Microsoft Monitoring Agent](../debugger/using-the-microsoft-monitoring-agent.md).
+> You can collect performance-related events in the IntelliTrace data by running the agent in **Monitor** mode. **Monitor** mode has less of a performance impact than **Trace** mode or the **IntelliTrace stand-alone collector**. Microsoft Monitoring Agent does alter the target system's environment when it is installed. See [Using the Microsoft Monitoring Agent](../debugger/using-the-microsoft-monitoring-agent.md).
 
  **Requirements**
 
@@ -33,7 +33,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 - Visual Studio Enterprise (but not Professional or Community editions) on a development computer or other computer to open .iTrace files
 
   > [!NOTE]
-  >  Make sure to save your symbol (.pdb) files. To debug with IntelliTrace and step through code, you must have the matching source files and symbol files. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
+  > Make sure to save your symbol (.pdb) files. To debug with IntelliTrace and step through code, you must have the matching source files and symbol files. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
   **FAQ**
 
@@ -106,7 +106,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
         `expand  /f:* IntelliTraceCollection.cab .`
 
        > [!NOTE]
-       >  The period (**.**) preserves the subfolders that contain localized collection plans.
+       > The period (**.**) preserves the subfolders that contain localized collection plans.
 
 ## <a name="ConfigurePermissionsRunningCollector"></a> Set up permissions for the collector directory
 
@@ -211,7 +211,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
      `Start-IntelliTraceCollection` `"` *\<ApplicationPool>* `"` *\<PathToCollectionPlan>* *\<FullPathToITraceFileDirectory>*
 
     > [!IMPORTANT]
-    >  After you run this command, type **Y** to confirm that you want to start collecting data.
+    > After you run this command, type **Y** to confirm that you want to start collecting data.
 
      For example, to collect data from a SharePoint application in the **SharePoint - 80** application pool:
 
@@ -242,7 +242,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
      `Stop-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 
     > [!IMPORTANT]
-    >  After you run this command, type **Y** to confirm that you want to stop collecting data. Otherwise, the collector might continue collecting data, the iTrace file will remain locked, or the file might not contain any useful data.
+    > After you run this command, type **Y** to confirm that you want to stop collecting data. Otherwise, the collector might continue collecting data, the iTrace file will remain locked, or the file might not contain any useful data.
 
 6. [Open the .iTrace file in Visual Studio Enterprise](#BKMK_View_IntelliTrace_Log_Files)
 
@@ -270,7 +270,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 ## <a name="BKMK_View_IntelliTrace_Log_Files"></a> Open the .iTrace file in Visual Studio Enterprise
 
 > [!NOTE]
->  To debug with IntelliTrace and step through code, you must have the matching source files and symbol files. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
+> To debug with IntelliTrace and step through code, you must have the matching source files and symbol files. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
 1. Move the .iTrace file or copy it to a computer with Visual Studio Enterprise (but not Professional or Community editions).
 
@@ -279,7 +279,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
      Visual Studio shows the **IntelliTrace Summary** page. In most sections, you can review events or other items, choose an item, and start debugging with IntelliTrace at the point where and when an event happened. See [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
 
     > [!NOTE]
-    >  To debug with IntelliTrace and step through code, you must have the matching source files and symbol files on your development machine. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
+    > To debug with IntelliTrace and step through code, you must have the matching source files and symbol files on your development machine. See [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
 ## <a name="Minimizing"></a> How do I get the most data without slowing down my app?
  IntelliTrace can collect lots of data, so the impact on your app's performance depends on the data that IntelliTrace collects and the kind of code it analyzes. See [Optimizing IntelliTrace Collection on Production Servers](http://go.microsoft.com/fwlink/?LinkId=255233).
