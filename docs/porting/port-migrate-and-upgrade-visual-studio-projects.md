@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "asset compatibility"
   - "projects, conversion"
 ---
-# Project migration and upgrade reference for Visual Studio 
+# Project migration and upgrade reference for Visual Studio
 
 ::: moniker range="vs-2017"
 
@@ -37,7 +37,7 @@ This present article provides details only for project types that Visual Studio 
 
 The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](https://docs.microsoft.com/visualstudio/porting/porting-migrating-and-upgrading-visual-studio-projects?view=vs-2015) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](https://docs.microsoft.com/visualstudio/porting/porting-migrating-and-upgrading-visual-studio-projects?view=vs-2015) and use the **Send feeback about** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Is this page helpful?" control, we aren't able to respond to your feedback.)
 
 | Type of Project | Support |
 | --- | --- |
@@ -119,7 +119,7 @@ This article provides details for project types that Visual Studio 2019 can migr
 
 The following list describes support in Visual Studio 2019 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2017 version of this article](port-migrate-and-upgrade-visual-studio-projects.md) and then use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2017 version of this article](port-migrate-and-upgrade-visual-studio-projects.md) and then use the **Send feeback about** > **This page** button at the bottom of this page to provide details of your project. (If you use the anonymous "Is this page helpful?" control, we aren't able to respond to your feedback.)
 
 | Type of Project | Support |
 | --- | --- |
