@@ -30,7 +30,7 @@ Required. The full path and name of the solution to be opened.
 
 ## Example
 
-The example opens ths solution MySln.sln without loading any projects.
+The example opens the solution MySln.sln without loading any projects.
 
 ```shell
 devenv /donotloadprojects MySln.sln
