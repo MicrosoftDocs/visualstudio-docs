@@ -15,7 +15,7 @@ ms.workload:
 
 # Troubleshooting and known issues for snapshot debugging in Visual Studio
 
-If the steps described in this article do not resolve your issue, contact snaphelp@microsoft.com.
+If the steps described in this article do not resolve your issue, search for the problem on [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html) or report a new issue by choosing **Help** > **Send Feedback** > **Report a Problem** in Visual Studio.
 
 ## Issue: "Attach Snapshot Debugger" encounters an HTTP status code error
 
