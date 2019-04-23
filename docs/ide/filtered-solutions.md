@@ -25,7 +25,7 @@ The following features are available:
 
 ## Open a filtered solution
 
-You can open a solution without loading any of its projects using either the **Open Project** dialog or through the command line.
+You can open a solution without loading any of its projects directly from the **Open Project** dialog or through the [command line](#command-line).
 
 ### Open Project dialog
 
