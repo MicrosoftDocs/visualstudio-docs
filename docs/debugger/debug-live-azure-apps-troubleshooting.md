@@ -28,7 +28,7 @@ This error indicates the REST call we are issuing to Azure uses an invalid crede
 
 Take these steps:
 
-* Make sure your logged-in Visual Studio account has permissions to the Azure subscription and resource that you are attaching to. A quick way to determine this is through the dialog pop up from Debug > Attach Snapshot Debugger... > Azure Resource > Select Existing, or via Cloud Explorer.
+* Make sure your logged-in Visual Studio account has permissions to the Azure subscription and resource that you are attaching to. A quick way to determine this is by seeing if the resource is available in the dialog from Debug > Attach Snapshot Debugger... > Azure Resource > Select Existing, or in  Cloud Explorer.
 * Contact us at the above alias if this error continues to persist.
 
 ### (403) Forbidden
@@ -93,7 +93,7 @@ If you see a warning icon ![Snappoint warning icon](../debugger/media/snapshot-t
 
 Take these steps:
 
-1. Make sure you have the same version of source code that was used to build and deploy your app.isua1. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. The Snapshot Debugger will try to automatically download and use symbols for your deployment.
+1. Make sure you have the same version of source code that was used to build and deploy your app. Make sure you are loading the correct symbols for your deployment. To do this, view the **Modules** window while Snapshot Debugging and verify the Symbol File column shows a .pdb file loaded for the module you are debugging. The Snapshot Debugger will try to automatically download and use symbols for your deployment.
 
 ## Issue: Symbols do not load when I open a Snapshot
 
