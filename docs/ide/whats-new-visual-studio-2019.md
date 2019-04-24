@@ -164,7 +164,7 @@ For more information, see the [Debug live ASP.NET Azure apps using the Snapshot 
 
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out [The Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
+We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
 
 Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
 
@@ -172,9 +172,9 @@ Want to know more about what else is in the works for Visual Studio 2019? See th
 
 Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-* If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Provide a Suggestion](talk-to-us.md#i-want-to-make-a-suggestion-about-visual-studio-features) tool.
+* If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Suggest a Feature](suggest-a-feature.md) tool.
 
-* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](talk-to-us.md#i-want-to-report-a-problem-with-visual-studio) tool.
+* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
 ## See also
 
