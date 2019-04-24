@@ -51,7 +51,7 @@ If you want to share your questions and answers with other developers, use the [
 
 ## I want to help improve the Visual Studio documentation
 
-Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using your GitHub account; choose the **Sign in to give documentation feedback** button, also at the bottom of the page.
+Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using your GitHub account; choose the **Send feedback about** > **This page** button, also at the bottom of the page.
 
 ## See also
 
