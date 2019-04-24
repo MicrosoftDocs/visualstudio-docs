@@ -16,7 +16,7 @@ ms.technology: vs-ide-general
 ---
 # Visual Studio feedback options
 
-We're interested in your ideas for improving our products and documentation. It drives much of what we do. Here's how to contact us so that we can route your feedback to the right person or team.
+Why send feedback to us? Because we take customer feedback seriously. It drives much of what we do. Here's how to contact us so that we can route your feedback to the right person or team.
 
 ## Report a problem
 
