@@ -2,6 +2,7 @@
 title: "Contact us: Visual Studio feedback options"
 ms.date: 04/24/2019
 ms.topic: conceptual
+ms.custom: seoapril2019
 helpviewer_keywords:
   - "product support [Visual Studio]"
   - "Help [Visual Studio], product support"
