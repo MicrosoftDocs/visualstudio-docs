@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FIELD_KIND_EX
 Enumerates additional kinds of fields that an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object can contain. This enumeration extends the [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) enumeration.
@@ -35,14 +38,14 @@ public enum enum_FIELD_KIND_EX
 };
 ```
 
-## Members
-FIELD_KIND_EX_NONE
+## Fields
+`FIELD_KIND_EX_NONE`\
 Field does not contain an extended type.
 
-FIELD_TYPE_EX_METHODVAR
+`FIELD_TYPE_EX_METHODVAR`\
 Field contains a method variable.
 
-FIELD_TYPE_EX_CLASSVAR
+`FIELD_TYPE_EX_CLASSVAR`\
 Field contains a class variable.
 
 ## Requirements
@@ -52,6 +55,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetExtendedKind](../../../extensibility/debugger/reference/idebugextendedfield-getextendedkind.md)
