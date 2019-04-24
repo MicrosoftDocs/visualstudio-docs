@@ -88,6 +88,10 @@ Some of the popular features in Visual Studio that help you to be more productiv
     Starting in Visual Studio 2019, you can open a folder containing Python code to enjoy features like IntelliSense and debugging without having to create a Visual Studio project for the code.
 ::: moniker-end
 
+- [Collaborate using Visual Studio](https://docs.microsoft.com/visualstudio/liveshare/use/vs)
+  
+    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building. 
+
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 
     Visual Studio provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which improves upon the REPL you get with *python.exe* on the command line. In the **Interactive** window you can enter arbitrary Python code and see immediate results.
