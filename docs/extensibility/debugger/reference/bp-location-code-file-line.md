@@ -12,7 +12,7 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
-dev.langs:
+dev_langs:
   - CPP
 ---
 # BP_LOCATION_CODE_FILE_LINE

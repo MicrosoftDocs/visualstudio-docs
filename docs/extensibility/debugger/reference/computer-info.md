@@ -10,7 +10,7 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
-dev.langs:
+dev_langs:
   - CPP
   - CSharp
 ---
