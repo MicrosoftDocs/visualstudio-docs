@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev.langs:
+  - CPP
+  - CSharp
 ---
 # BP_PASSCOUNT_STYLE
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.
@@ -37,17 +40,17 @@ public enum enum_BP_PASSCOUNT_STYLE {
 };
 ```
 
-## Members
-BP_PASSCOUNT_NONE
+## Fields
+`BP_PASSCOUNT_NONE`\
 Specifies no breakpoint pass count style.
 
-BP_PASSCOUNT_EQUAL
+`BP_PASSCOUNT_EQUAL`\
 Sets the breakpoint pass count style to equal. The breakpoint fires when the number of times the breakpoint is hit equals the pass count.
 
-BP_PASSCOUNT_EQUAL_OR_GREATER
+`BP_PASSCOUNT_EQUAL_OR_GREATER`\
 Sets the breakpoint pass count style to equal or greater. The breakpoint fires when the number of times the breakpoint is hit is equal to or greater than the pass count.
 
-BP_PASSCOUNT_MOD
+`BP_PASSCOUNT_MOD`\
 Specifies a modulo pass count. For example, if the pass count is of the type `BP_PASSCOUNT_MOD` and the pass count value is 4, the breakpoint fires every time the hit count is a multiple of 4.
 
 ## Remarks
@@ -60,7 +63,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)

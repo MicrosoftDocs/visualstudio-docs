@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev.langs:
+  - CPP
+  - CSharp
 ---
 # BSTR_ARRAY
 A structure that describes an array of strings.
@@ -32,11 +35,11 @@ struct BSTR_ARRAY {
 }
 ```
 
-## Terms
-dwCount
+## Members
+`dwCount`\
 Number of strings in `Members` array.
 
-Members
+`Members`\
 Array of strings.
 
 ## Remarks
@@ -52,6 +55,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [EnumPersistedPorts](../../../extensibility/debugger/reference/idebugportsupplier3-enumpersistedports.md)

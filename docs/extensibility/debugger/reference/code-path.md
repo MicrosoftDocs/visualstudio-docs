@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev.langs:
+  - CPP
+  - CSharp
 ---
 # CODE_PATH
 Describes a method or function call.
@@ -33,10 +36,10 @@ public struct CODE_PATH {
 ```
 
 ## Members
-bstrName
+`bstrName`\
 The name of the code path.
 
-pCode
+`pCode`\
 The [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that identifies where in the code to step into a function.
 
 ## Remarks
@@ -49,7 +52,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
 - [EnumCodePaths](../../../extensibility/debugger/reference/idebugprogram2-enumcodepaths.md)

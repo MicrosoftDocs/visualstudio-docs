@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev.langs:
+  - CPP
+  - CSharp
 ---
 # BP_PASSCOUNT
 Describes the count and conditions upon which a conditional breakpoint is fired.
@@ -33,10 +36,10 @@ public struct BP_PASSCOUNT {
 ```
 
 ## Members
-`dwPassCount`
+`dwPassCount`\
 The number of times to pass over the breakpoint before firing it.
 
-`stylePassCount`
+`stylePassCount`\
 A value from the [BP_PASSCOUNT_STYLE](../../../extensibility/debugger/reference/bp-passcount-style.md) enumeration that specifies the style of the breakpoint pass count.
 
 ## Remarks
@@ -51,7 +54,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [SetPassCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setpasscount.md)

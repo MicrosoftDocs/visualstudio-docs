@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev.langs:
+  - CPP
+  - CSharp
 ---
 # BP_LOCATION_TYPE
 Specifies the location type of the breakpoint for a breakpoint request.
@@ -59,50 +62,50 @@ public enum enum_BP_LOCATION_TYPE {
 };
 ```
 
-## Members
-BPLT_NONE
+## Fields
+`BPLT_NONE`\
 Specifies no breakpoint location.
 
-BPLT_FILE_LINE
+`BPLT_FILE_LINE`\
 Specifies the location type of the breakpoint as a file line.
 
-BPLT_FUNC_OFFSET
+`BPLT_FUNC_OFFSET`\
 Specifies the location type of the breakpoint as a function offset.
 
-BPLT_CONTEXT
+`BPLT_CONTEXT`\
 Specifies the location type of the breakpoint as a context.
 
-BPLT_STRING
+`BPLT_STRING`\
 Specifies the location type of the breakpoint as a string.
 
-BPLT_ADDRESS
+`BPLT_ADDRESS`\
 Specifies the location type of the breakpoint as an address.
 
-BPLT_RESOLUTION
+`BPLT_RESOLUTION`\
 Specifies the location type of the breakpoint as a resolution.
 
-BPLT_CODE_FILE_LINE
+`BPLT_CODE_FILE_LINE`\
 Specifies the location type of the breakpoint as a line of source code.
 
-BPLT_CODE_FUNC_OFFSET
+`BPLT_CODE_FUNC_OFFSET`\
 Specifies the location type of the breakpoint as a code function offset.
 
-BPLT_CODE_CONTEXT
+`BPLT_CODE_CONTEXT`\
 Specifies the location type of the breakpoint as a code context.
 
-BPLT_CODE_STRING
+`BPLT_CODE_STRING`\
 Specifies the location type of the breakpoint as a code string.
 
-BPLT_CODE_ADDRESS
+`BPLT_CODE_ADDRESS`\
 Specifies the location type of the breakpoint as a code address.
 
-BPLT_DATA_STRING
+`BPLT_DATA_STRING`\
 Specifies the location type of the breakpoint as a data string.
 
-BPLT_TYPE_MASK
+`BPLT_TYPE_MASK`\
 Specifies a bit mask, so that the breakpoint type can be extracted out of the value.
 
-BPLT_LOCATION_TYPE_MASK
+`BPLT_LOCATION_TYPE_MASK`\
 Specifies a bit mask, so that the breakpoint location type can be extracted out of the value.
 
 ## Remarks
@@ -119,7 +122,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md)
 - [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
