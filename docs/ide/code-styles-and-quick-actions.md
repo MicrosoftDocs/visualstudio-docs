@@ -52,13 +52,33 @@ EditorConfig files are associated with a codebase rather than a Visual Studio pe
 
 For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **None**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **None**. The **Quick Actions** light bulb ![light bulb](media/light-bulb-dropdown.png), error light bulb ![error light bulb](media/error-bulb.png), or screwdriver ![screwdriver](media/screwdriver.png) icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 
-## Format Document command
+## Code cleanup
 
-You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to perform additional code cleanup on a file, such as remove and sort usings or apply code-style preferences. You can define which settings you want **Format Document** to apply on the [Formatting options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
+(C# only)
 
-Code cleanup respects settings configured in an *.editorconfig* file, or lacking that rule or file, those set in **Tools** > **Options** > **Text Editor** > **C#** > [**Code Style** or **Formatting**].
+::: moniker range="vs-2017"
+
+You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to perform additional code cleanup on a file, such as remove and sort usings or apply code-style preferences.
+
+Define which settings you want **Format Document** to apply on the [Formatting options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
 
 The first time you trigger the **Format Document** command in Visual Studio, a yellow info bar prompts you to configure your code cleanup settings.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+You can choose the **Code Cleanup** button at the bottom of the editor to apply code cleanup settings, for example, remove and sort usings. Configure which fixers you want to run (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**. Or, press **Ctrl**+**K**, **Ctrl**+**Q**.
+
+![Configure Code Cleanup in Visual Studio 2019](media/configure-code-cleanup.png)
+
+To run code cleanup, click the broom icon at the bottom of the editor or press **Ctrl**+**K**, **Ctrl**+**E**.
+
+![Execute code cleanup in Visual Studio 2019](media/execute-code-cleanup.png)
+
+::: moniker-end
+
+Code cleanup respects settings configured in an *.editorconfig* file, or lacking that rule or file, those set in **Tools** > **Options** > **Text Editor** > **C#** > [**Code Style** or **Formatting**].
 
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup, but can be individually applied via the **Quick Actions and Refactorings** menu.
