@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DEBUGREF_INFO_FLAGS
 Specifies what information to retrieve about a debug reference object.
@@ -47,32 +50,32 @@ public enum enum_DEBUGREF_INFO_FLAGS {
 };
 ```
 
-## Members
-DEBUGREF_INFO_NAME
+## Fields
+`DEBUGREF_INFO_NAME`\
 Initialize/use the `bstrName` field in the structure.
 
-DEBUGREF_INFO_TYPE
+`DEBUGREF_INFO_TYPE`\
 Initialize/use the `bstrType` field in the structure.
 
-DEBUGREF_INFO_VALUE
+`DEBUGREF_INFO_VALUE`\
 Initialize/use the `bstrValue` field in the structure.
 
-DEBUGREF_INFO_ATTRIB
+`DEBUGREF_INFO_ATTRIB`\
 Initialize/use the `dwAttrib` field in the structure.
 
-DEBUGREF_INFO_REFTYPE
+`DEBUGREF_INFO_REFTYPE`\
 Initialize/use the `dwRefType` field in the structure.
 
-DEBUGREF_INFO_REF
+`DEBUGREF_INFO_REF`\
 Initialize/use the `pReference` field in the structure.
 
-DEBUGREF_INFO_VALUE_AUTOEXPAND
+`DEBUGREF_INFO_VALUE_AUTOEXPAND`\
 The value field should contain the auto-expanded value, if available, for this type of object.
 
-DEBUGREF_INFO_NONE
+`DEBUGREF_INFO_NONE`\
 Indicates that no flags are set.
 
-DEBUGREF_INFO_ALL
+`DEBUGREF_INFO_ALL`\
 Indicates a mask of the flags.
 
 ## Remarks
@@ -89,7 +92,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
 - [EnumChildren](../../../extensibility/debugger/reference/idebugreference2-enumchildren.md)

@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext
 Gets the document context that describes the position in the document that is to be made active by the debug package.
@@ -32,7 +35,7 @@ int GetDocumentContext ( 
 ```
 
 #### Parameters
- `ppDocContext`
+ `ppDocContext`\
 
  [out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents a position in a source file document.
 
@@ -42,6 +45,6 @@ int GetDocumentContext ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
