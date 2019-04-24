@@ -42,7 +42,7 @@ You can choose to export an installation configuration file from either a previo
 
    ![Export configuration from the product card in the Visual Studio installer](../install/media/vs-2019/vs-installer-export-config.png)
 
-1. Browse to or type the location where you want to save your .vconfig file, and then choose **Review details**.
+1. Browse to or type the location where you want to save your .vsconfig file, and then choose **Review details**.
 
    ![Export configuration from the Visual Studio installer](../install/media/vs-2019/export-configuration-confirmation.png)
 
@@ -56,7 +56,7 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. On the product card, choose the **More** button, and then select **Import configuration**.
 
-1. Locate the .vconfig file that you want to import, and then choose **Review details**.
+1. Locate the .vsconfig file that you want to import, and then choose **Review details**.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
