@@ -18,7 +18,7 @@ ms.technology: vs-ide-general
 
 We're interested in your ideas for improving our products and documentation. It drives much of what we do. Here's how to contact us so that we can route your feedback to the right person or team.
 
-## Report a problem 
+## Report a problem
 
 If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
@@ -26,7 +26,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ::: moniker range="vs-2019"
 
-If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar. Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
 
