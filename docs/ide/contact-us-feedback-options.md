@@ -45,7 +45,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 ::: moniker range="vs-2019"
 
-If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose choose the feedback icon in the upper right-corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar. 
+If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper right-corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
 
 Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
@@ -53,7 +53,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 ::: moniker range="vs-2017"
 
-If there's something we can do better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar. 
+If there's something we can do better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar.
 
 Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
@@ -63,10 +63,16 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 Pre-release versions of Visual Studio have a **Rate this Product** menu item that released versions of the product don't have. Use the **Rate this Product** menu item to send feedback on the quality of the pre-release build that you're running.
 
-## Contact Microsoft Support
+## Improve the documentation
+
+There are two ways that you can help us improve the documentation:
+
+* Choose the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages.
+* Use your GitHub account to provide feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/). To do so, choose the **Send feedback about** > **This page** button, also at the bottom of the page.
+
+## Contact Microsoft support
 
 For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/releases/2019/servicing/) page.
-
 For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 
 > [!NOTE]
@@ -78,24 +84,18 @@ If the product came installed with a new computer or device, the hardware manufa
 
 Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions can change without notice.
 
-## Improve the documentation
-
-Please use the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages. Alternatively, you can add feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) by using your GitHub account; choose the **Send feedback about** > **This page** button, also at the bottom of the page.
-
 ## Connect with developers
 
-If you want to share questions and answers with other developers, consider connecting with them in the following venues:
+If you want to share questions and answers with other developers, consider connecting with them by using the following venues:
 
-* [Visual Studio Developer Community](https://developercommunity.visualstudio.com)
+* Visual Studio [Developer Community](https://developercommunity.visualstudio.com)
 * [MSDN forums](https://social.msdn.microsoft.com/Forums/home)
-* [Visual Studio on Reddit](https://www.reddit.com/r/VisualStudio/)
+* Visual Studio on [Reddit](https://www.reddit.com/r/VisualStudio/)
 * [Stack Overflow](https://stackoverflow.com/search?q=visual+studio+-code)
 
 You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
 
 ## See also
 
-* [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
-* [Troubleshoot installation issues](troubleshooting-installation-issues.md)
-* [Developer Community](https://developercommunity.visualstudio.com)
+* [Troubleshoot installation issues](../install/troubleshooting-installation-issues.md)
 * [Developer Community data privacy](developer-community-privacy.md)
