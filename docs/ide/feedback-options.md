@@ -1,5 +1,6 @@
 ---
-title: "Contact us: Visual Studio feedback options"
+title: "Feedback options"
+description: "We're interested in your ideas for improving our products and documentation; here's how to send us feedback."
 ms.date: 04/25/2019
 ms.topic: conceptual
 ms.custom: seoapril2019
@@ -15,7 +16,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ---
-# Contact us: Visual Studio feedback options
+# Visual Studio feedback options
 
 Why send feedback to us? Because we take customer feedback seriously; it drives much of what we do. Here's how to contact us so that we can route your feedback to the right person or team.
 
@@ -72,8 +73,7 @@ There are two ways that you can help us improve the documentation:
 
 ## Contact Microsoft support
 
-For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/releases/2019/servicing/) page.
-For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
+For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/releases/2019/servicing/) page. For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
 
 > [!NOTE]
 > Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft worldwide sites](https://www.microsoft.com/worldwide/).
@@ -84,9 +84,9 @@ If the product came installed with a new computer or device, the hardware manufa
 
 Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions can change without notice.
 
-## Connect with developers
+## Ask the community
 
-If you want to share questions and answers with other developers, consider connecting with them by using the following venues:
+If you want to share questions and answers with other developers, consider connecting with them on the following community sites:
 
 * Visual Studio [Developer Community](https://developercommunity.visualstudio.com)
 * [MSDN forums](https://social.msdn.microsoft.com/Forums/home)
@@ -97,5 +97,5 @@ You can also view code from other developers and share your own examples on the 
 
 ## See also
 
-* [Troubleshoot installation issues](../install/troubleshooting-installation-issues.md)
+* [Troubleshoot installation and upgrade issues](../install/troubleshooting-installation-issues.md)
 * [Developer Community data privacy](developer-community-privacy.md)

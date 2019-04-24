@@ -371,7 +371,7 @@ And don't forget to check out our newest version, [Visual Studio 2019](whats-new
 
 Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Contact us](contact-us-feedback-options.md) page.
+If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Send us feedback](feedback-options.md) page.
 
 ### Report a problem
 

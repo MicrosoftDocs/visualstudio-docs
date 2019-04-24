@@ -1192,6 +1192,6 @@
       href: ide/diagnostic-data-collection.md
   - name: Resources for troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
-  - name: Contact us
+  - name: Feedback
     displayName: Feedback
-    href: ide/contact-us-feedback-options.md
+    href: ide/feedback-options.md

@@ -1697,7 +1697,7 @@
         },
         {
             "source_path": "docs/ide/talk-to-us.md",
-            "redirect_url": "/visualstudio/ide/contact-us-feedback-options",
+            "redirect_url": "/visualstudio/ide/feedback-options",
             "redirect_document_id": false
         },
         {
