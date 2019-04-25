@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # GUID_ARRAY
 Describes an array of unique identifiers for available debug engines.
@@ -32,11 +35,11 @@ public struct GUID_ARRAY
 }
 ```
 
-## Terms
-dwCount
+## Members
+`dwCount`\
 Number of unique identifiers in the array.
 
-Members
+`Members`\
 Array that contains unique identifiers.
 
 ## Remarks
@@ -49,6 +52,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetEngineFilter](../../../extensibility/debugger/reference/idebugprocess3-getenginefilter.md)

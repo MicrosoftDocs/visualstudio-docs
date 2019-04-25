@@ -1696,6 +1696,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/talk-to-us.md",
+            "redirect_url": "/visualstudio/ide/feedback-options",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/targeting-a-specific-dotnet-framework-version.md",
             "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
             "redirect_document_id": false
