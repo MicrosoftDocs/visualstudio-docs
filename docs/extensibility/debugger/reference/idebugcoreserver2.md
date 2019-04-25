@@ -53,7 +53,7 @@ IDebugCoreServer2 : IUknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)
 - [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)

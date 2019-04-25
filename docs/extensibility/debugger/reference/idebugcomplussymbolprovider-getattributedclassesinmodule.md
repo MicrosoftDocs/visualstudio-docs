@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 Retrieves the classes with the specified attribute in a given module.
@@ -35,20 +38,20 @@ int GetAttributedClassesinModule (
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
-`pstrAttribute`
+`pstrAttribute`\
 
  [in] The attribute string.
 
-`ppEnum`
+`ppEnum`\
 
  [out] Returns an enumeration of the attributed classes.
 
@@ -146,5 +149,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)
