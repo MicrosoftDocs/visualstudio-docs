@@ -48,7 +48,7 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl**+**Q** | Search | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl**+**F5** | Run without Debug | Run your application locally without debugging |
-| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | [Format Document](code-styles-and-quick-actions.md#format-document-command) | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
+| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | [Format Document](code-styles-and-quick-actions.md#apply-code-styles) | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl**+**\\**,**Ctrl**+**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 | **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the previous/next error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
 

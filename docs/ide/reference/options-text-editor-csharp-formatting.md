@@ -41,7 +41,7 @@ These settings affect *when* the code editor applies formatting options to code.
 
 ### Format Document settings
 
-These settings configure the **Format Document** command to perform additional code cleanup on a file. For more information about how these settings are applied, see [Format Document command](../code-styles-and-quick-actions.md#format-document-command).
+These settings configure the **Format Document** command to perform additional code cleanup on a file. For more information about how these settings are applied, see [Format Document command](../code-styles-and-quick-actions.md#apply-code-styles).
 
 |Label|Description|Corresponding EditorConfig and Tools > Options rules|
 |-----------|-----------------|-----------------|-----------------|
