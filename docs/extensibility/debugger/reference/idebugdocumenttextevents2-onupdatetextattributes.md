@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentTextEvents2::onUpdateTextAttributes
 Notifies the debug package that text attributes have been updated in the document.
@@ -32,18 +35,18 @@ int onUpdateTextAttributes( 
 );
 ```
 
-#### Parameters
- `pos`
+## Parameters
+ `pos`\
 
  [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text attributes were updated.
 
- `dwNumToUpdate`
+ `dwNumToUpdate`\
 
  [in] Specifies the number of characters of text that were updated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
