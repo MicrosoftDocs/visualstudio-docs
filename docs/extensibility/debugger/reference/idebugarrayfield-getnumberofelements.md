@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugArrayField::GetNumberOfElements
 Gets the number of elements in the array.
@@ -30,8 +33,8 @@ int GetNumberOfElements(
 );
 ```
 
-#### Parameters
- `pdwNumElements`
+## Parameters
+ `pdwNumElements`\
 
  [out] Returns the number of elements in the array.
 
@@ -41,5 +44,5 @@ int GetNumberOfElements(
 ## Remarks
  The value returned is the total number of elements in the array, regardless of the number of dimensions.
 
-## See Also
+## See also
 - [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)

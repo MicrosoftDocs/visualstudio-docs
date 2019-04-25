@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder3::GetTypeArgumentCount
 This method returns the number of argument types associated with this object.
@@ -30,8 +33,8 @@ int GetTypeArgumentCount(
 );
 ```
 
-#### Parameters
- `uCount`
+## Parameters
+ `uCount`\
 
  [out] Number of argument types associated with this object.
 
@@ -41,6 +44,6 @@ int GetTypeArgumentCount(
 ## Remarks
  The value returned by this method can be used to allocate an array for use with the [GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md) method.
 
-## See Also
+## See also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
 - [GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md)

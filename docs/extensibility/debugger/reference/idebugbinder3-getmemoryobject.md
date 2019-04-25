@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder3::GetMemoryObject
 This method retrieves a memory object that represents the memory that this object is bound to.
@@ -34,23 +37,23 @@ int GetMemoryObject(
 );
 ```
 
-#### Parameters
- `pField`
+## Parameters
+ `pField`\
 
  [in] Specifies which field to get the memory object for.
 
- `uConstant`
+ `uConstant`\
 
  [in] Represents a memory address or value for a constant value.
 
- `ppObject`
+ `ppObject`\
 
  [out] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the memory that this object is bound to.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
