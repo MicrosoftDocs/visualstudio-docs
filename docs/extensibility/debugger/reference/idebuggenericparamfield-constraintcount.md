@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericParamField::ConstraintCount
 Returns the number of constraints that are associated with this generic parameter.
@@ -29,8 +32,8 @@ int ConstraintCount(
 );
 ```
 
-#### Parameters
-`pcConst`
+## Parameters
+`pcConst`\
 
  [in, out] Number of constraints that are associated with this field.
 
@@ -73,5 +76,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)
