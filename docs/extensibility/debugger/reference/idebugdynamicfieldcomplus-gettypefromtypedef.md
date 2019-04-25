@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef
 Retrieves a type given its token.
@@ -35,25 +38,25 @@ int GetTypeFromTypeDef(
 );
 ```
 
-#### Parameters
- `ulAppDomainID`
+## Parameters
+ `ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
- `guidModule`
+ `guidModule`\
 
  [in] Unique identifier of the module.
 
- `tokClass`
+ `tokClass`\
 
  [in] Token that represents the type.
 
- `ppType`
+ `ppType`\
 
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that contains the type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDynamicFieldCOMPlus](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus.md)

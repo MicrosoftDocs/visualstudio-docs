@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine2::CauseBreak
 Requests that all programs being debugged by this debug engine (DE) to stop execution the next time one of their threads attempts to run.
@@ -34,6 +37,6 @@ int CauseBreak();
 ## Remarks
  This method is asynchronous: an [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md) event is sent when the program next attempts to execute after this method is called.
 
-## See Also
+## See also
 - [CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
