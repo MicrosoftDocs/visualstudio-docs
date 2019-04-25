@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess3::Step
 Causes the process to step one instruction or statement.
@@ -37,16 +40,16 @@ int Step(
 );
 ```
 
-#### Parameters
- `pThread`
+## Parameters
+ `pThread`\
 
  [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
 
- `sk`
+ `sk`\
 
  [in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
 
- `step`
+ `step`\
 
  [in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
 
@@ -58,7 +61,7 @@ int Step(
 
  **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
 
-## See Also
+## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [STEPKIND](../../../extensibility/debugger/reference/stepkind.md)

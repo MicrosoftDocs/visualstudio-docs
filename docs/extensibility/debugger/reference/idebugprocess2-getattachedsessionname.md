@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess2::GetAttachedSessionName
 Gets the name of the session that is debugging this process. An IDE can display this information to a user who is debugging a particular process on a particular machine.
@@ -27,11 +30,11 @@ HRESULT GetAttachedSessionName(
 );
 ```
 
-#### Parameters
- `pbstrSessionName`
+## Parameters
+ `pbstrSessionName`\
 
 ## Return Value
  This method should always return `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
