@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetName
 Gets the name of the program.
@@ -30,8 +33,8 @@ int GetName( 
 );
 ```
 
-#### Parameters
- `pbstrName`
+## Parameters
+ `pbstrName`\
 
  [out] Returns the name of the program.
 
@@ -41,5 +44,5 @@ int GetName( 
 ## Remarks
  The name returned by this method is always a friendly, user-displayable name that describes the program.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

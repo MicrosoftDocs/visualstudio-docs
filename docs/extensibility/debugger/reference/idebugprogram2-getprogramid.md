@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetProgramId
 Gets a GUID for this program.
@@ -30,8 +33,8 @@ int GetProgramId( 
 );
 ```
 
-#### Parameters
- `pguidProgramId`
+## Parameters
+ `pguidProgramId`\
 
  [out] Returns the `GUID` for this program.
 
@@ -41,7 +44,7 @@ int GetProgramId( 
 ## Remarks
  A debug engine (DE) must return the program identifier originally passed to the [OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) or [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) methods. This allows identification of the program across debugger components.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md)
 - [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)

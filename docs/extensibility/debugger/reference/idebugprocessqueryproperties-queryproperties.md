@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcessQueryProperties::QueryProperties
 This method queries for a specified property values of the debugging process.
@@ -30,12 +33,12 @@ int QueryProperties(
    out object[ ]              rgtPropValues);
 ```
 
-#### Parameters
- `celt`
+## Parameters
+ `celt`\
 
  [in] Size of the arrays containing the property definitions and property values.
 
- `dwPropType`
+ `dwPropType`\
 
  [in] An array that contains definitions of the queried properties. The possible values are:
 
@@ -45,7 +48,7 @@ int QueryProperties(
 
 - PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3
 
-  `pvarPropValue`
+  `pvarPropValue`\
   [out] An array containing the property values.
 
 ## Return Value
@@ -54,5 +57,5 @@ int QueryProperties(
 ## Remarks
  This method is seldom used.
 
-## See Also
+## See also
 - [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)
