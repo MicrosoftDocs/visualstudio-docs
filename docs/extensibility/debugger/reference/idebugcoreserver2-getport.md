@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer2::GetPort
 Retrieves a specific port.
@@ -32,18 +35,18 @@ int GetPort( 
 );
 ```
 
-#### Parameters
- `guidPort`
+## Parameters
+ `guidPort`\
 
  [in] GUID of the port to be retrieved.
 
- `ppPort`
+ `ppPort`\
 
  [out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object representing the desired port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_PORTSUPPLIER_NO_PORT` if there is no port with the given identifier.
 
-## See Also
+## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymAttribute
 Retrieves the debug symbols with the given parent attribute for the specified module.
@@ -41,32 +44,32 @@ int GetSymAttribute (
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
-`tokParent`
+`tokParent`\
 
  [in] Token for the parent attribute.
 
-`pstrName`
+`pstrName`\
 
  [in] Name of the module.
 
-`cBuffer`
+`cBuffer`\
 
  [in] Number of bytes required for the output `buffer`.
 
-`pcBuffer`
+`pcBuffer`\
 
  [out] Length of the output `buffer`.
 
-`buffer`
+`buffer`\
 
  [out] Array that contains the symbols.
 
@@ -104,5 +107,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

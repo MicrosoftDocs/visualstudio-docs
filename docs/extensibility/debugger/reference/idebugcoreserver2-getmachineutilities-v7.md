@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
 This method gets the machine utilities for a server.
@@ -33,8 +36,8 @@ int GetMachineUtilities_V7(
 );
 ```
 
-#### Parameters
- `ppUtil`
+## Parameters
+ `ppUtil`\
 
  [out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
 
@@ -44,5 +47,5 @@ int GetMachineUtilities_V7(
 ## Remarks
  [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called.
 
-## See Also
+## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

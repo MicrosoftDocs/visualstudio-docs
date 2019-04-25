@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetLocalVariablelayout
 Retrieves the layout of local variables for a set of methods.
@@ -37,24 +40,24 @@ int GetLocalVariablelayout(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
-`cMethods`
+`cMethods`\
 
  [in] Number of method tokens in the `rgMethodTokens` array.
 
-`rgMethodTokens`
+`rgMethodTokens`\
 
  [in] Array of method tokens.
 
-`pStreamLayout`
+`pStreamLayout`\
 
  [out] A text stream that contains the variable layout.
 
@@ -109,5 +112,5 @@ HRESULT CDebugSymbolProvider::GetLocalVariablelayout(
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetArrayTypeFromAddress
 Retrieves type information about the specified array given its debug address.
@@ -35,20 +38,20 @@ int GetArrayTypeFromAddress(
 );
 ```
 
-#### Parameters
-`pAddress`
+## Parameters
+`pAddress`\
 
  [in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
-`pSig`
+`pSig`\
 
  [in] The array to examine.
 
-`dwSigLength`
+`dwSigLength`\
 
  [in] Length in bytes of the `pSig` array.
 
-`ppField`
+`ppField`\
 
  [out] Returns the array type as represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
@@ -91,5 +94,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

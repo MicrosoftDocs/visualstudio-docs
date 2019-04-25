@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols
 Loads the specified debug symbols in memory.
@@ -39,28 +42,28 @@ int LoadSymbols(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the mondule.
 
-`baseAddress`
+`baseAddress`\
 
  [in] Base memory address.
 
-`pUnkMetadataImport`
+`pUnkMetadataImport`\
 
  [in] Object that contains the symbol metadata.
 
-`bstrModuleName`
+`bstrModuleName`\
 
  [in] Name of the module.
 
-`bstrSymSearchPath`
+`bstrSymSearchPath`\
 
  [in] Path to search for the symbol file.
 
@@ -83,5 +86,5 @@ HRESULT CDebugSymbolProvider::LoadSymbols(
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 Maps a document position in the specified module to an array of debug addresses.
@@ -39,28 +42,28 @@ int GetAddressesInModuleFromPosition(
 );
 ```
 
-#### Parameters
- `ulAppDomainID`
+## Parameters
+ `ulAppDomainID`\
 
  [in] Application domain identifier.
 
- `guidModule`
+ `guidModule`\
 
  [in] Unique identifier of the module.
 
- `pDocPos`
+ `pDocPos`\
 
  [in] The document position.
 
- `fStatmentOnly`
+ `fStatmentOnly`\
 
  [in] If `TRUE`, limits the debug addresses to a single statement.
 
- `ppEnumBegAddresses`
+ `ppEnumBegAddresses`\
 
  [out] Returns an enumerator for the starting debug addresses that are associated with this statement or line.
 
- `ppEnumEndAddresses`
+ `ppEnumEndAddresses`\
 
  [out] Returns an enumerator for the ending debug addresses that are associated with this statement or line.
 
@@ -219,5 +222,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

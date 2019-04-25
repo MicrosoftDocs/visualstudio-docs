@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer3::EnableAutoAttach
 Enables automatic attaching for the specified debug engines.
@@ -36,20 +39,20 @@ int EnableAutoAttach(
 );
 ```
 
-#### Parameters
- `rgguidSpecificEngines`
+## Parameters
+ `rgguidSpecificEngines`\
 
  [in] Array of GUIDs for each debug engine to mark as auto-attaching.
 
- `celtSpecificEngines`
+ `celtSpecificEngines`\
 
  [in] The number of engines specified in `rgguidSpecificEngines`.
 
- `pszStartPageUrl`
+ `pszStartPageUrl`\
 
  [in] The starting URL to use when auto-attaching.
 
- `pbstrSessionID`
+ `pbstrSessionID`\
 
  [out] ID of the session that was auto-attached.
 
@@ -59,5 +62,5 @@ int EnableAutoAttach(
 ## Remarks
  When a program associated with the specified URL is started, the specified debug engines are automatically started and attached.
 
-## See Also
+## See also
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
