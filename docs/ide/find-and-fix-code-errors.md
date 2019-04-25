@@ -94,6 +94,18 @@ Quick Actions can be used wherever code analyzers determine there's an opportuni
 
 With experience, you can quickly use the arrow keys and **Ctrl**+**.** to check for easy refactoring opportunities and clean up your code!
 
+::: moniker range="vs-2019"
+
+## Run Code Cleanup
+
+Visual Studio provides [on-demand formatting of your C# code file](code-styles-and-quick-actions.md#apply-code-styles), including code style preferences, through the **Code Cleanup** button at the bottom of the editor.
+
+![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+
+In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies a set of code style conventions that you define. The preferences for each code style are read from your [EditorConfig file](code-styles-and-quick-actions.md#code-styles-in-editorconfig-files), if you have one for the project, or from your [code style settings](code-styles-and-quick-actions.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
+
+::: moniker-end
+
 ## Debug your running code
 
 Now that you've successfully built your code and performed a little clean up, run it by pressing **F5** or selecting **Debug** > **Start Debugging**. This starts your app in a debug environment so you can observe its behavior in detail. The Visual Studio IDE changes while your app is running: the **Output** window is replaced by two new ones (in the default window configuration), the **Autos/Locals/Watch** tabbed window and the **Call Stack/Breakpoints/Exception Settings/Output** tabbed window. These windows have multiple tabs that allow you to inspect and evaluate your app's variables, threads, call stacks, and various other behaviors as it runs.

@@ -39,7 +39,7 @@ These settings affect *when* the code editor applies formatting options to code.
 
 ::: moniker range="vs-2017"
 
-### Format Document settings
+### Format Document settings (experiment)
 
 These settings configure the **Format Document** command to perform additional code cleanup on a file. For more information about how these settings are applied, see [Format Document command](../code-styles-and-quick-actions.md#apply-code-styles).
 

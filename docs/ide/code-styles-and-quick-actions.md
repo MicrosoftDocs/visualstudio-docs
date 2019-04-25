@@ -15,23 +15,25 @@ ms.workload:
 
 You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio by setting preferences in the [**Options** dialog box](#code-styles-in-the-options-dialog-box). You can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
+
 ## Code styles in EditorConfig files
 
-Code style settings for .NET can also be specified by adding an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file to your project.
+[Code style settings](../ide/editorconfig-code-style-settings-reference.md) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
 ::: moniker range=">=vs-2019"
 
-Click **Generate .editorconfig file from settings** to automatically generate a coding style .editorconfig file based on the options you've set on this **Options** page.
+You can manually populate your EditorConfig file, or you can automatically generate the file based on code style settings you've set in the Visual Studio **Options** dialog box for the C# or Visual Basic text editor. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
+Click **Generate .editorconfig file from settings** to automatically generate a coding style .editorconfig file based on the settings on this **Options** page.
 
-![Generate editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file-small.png)
+![Generate editorconfig file from settings in Visual Studio 2019](media/vs-2019/generate-editorconfig-file-small.png)
 
 ::: moniker-end
 
-EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over options selected in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
-
 ## Code styles in the Options dialog box
 
-Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
+Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
 
 Each item in the list shows a preview of the preference when selected:
 
@@ -47,10 +49,7 @@ Each item in the list shows a preview of the preference when selected:
 
 ::: moniker-end
 
-Options set in this window are applicable to your Visual Studio personalization account and aren't associated with a particular project or codebase. In addition, they aren't enforced at build time, including in continuous integration (CI) builds. If you want to associate code style preferences with your project and have the styles enforced during build, specify the preferences in an [.editorconfig file](#code-styles-in-editorconfig-files).
-
-> [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Editor behavior in Visual Studio for Mac](/visualstudio/mac/editor-behavior).
+Options set in this window are applicable to your Visual Studio personalization account and aren't associated with a particular project or codebase. In addition, they aren't enforced at build time, including in continuous integration (CI) builds. If you want to associate code style preferences with your project and have the styles enforced during build, specify the preferences in an [.editorconfig file](#code-styles-in-editorconfig-files) that's associated with the project.
 
 ### Preference and severity
 
@@ -60,7 +59,7 @@ For each code style setting on this page, you can set the **Preference** and **S
 
 ::: moniker range="vs-2017"
 
-You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to apply your code style settings (from an EditorConfig file or **Code Style** options) along with the regular formatting that it does (such as indentation). If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+You can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to apply your code style settings (from an EditorConfig file or **Code Style** options) along with the regular formatting that it does (such as indentation). If an *.editorconfig* file exists for the project, those settings take precedence.
 
 > [!NOTE]
 > Applying code styles by using the **Format Document** command is only available for C# code files. This is an experimental feature.
@@ -76,7 +75,7 @@ Configure which settings you want **Format Document** to apply on the [Formattin
 
 ::: moniker range=">=vs-2019"
 
-For C# code files, Visual Studio 2019 has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or **Code Style** options. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
+For C# code files, Visual Studio 2019 has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an *.editorconfig* file exists for the project, those are the settings that take precedence.
 
 Configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**. Or, press **Ctrl**+**K**, **Ctrl**+**Q**.
 

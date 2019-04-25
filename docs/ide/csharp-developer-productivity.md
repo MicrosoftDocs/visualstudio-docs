@@ -4,7 +4,7 @@ description: "An overview of navigation, code analysis, unit testing, and other 
 author: kuhlenh
 ms.author: gewarren
 manager: jillfra
-ms.date: 03/26/2019
+ms.date: 04/25/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor"
@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Visual Studio productivity guide for C# developers
 
-Learn how Visual Studio makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
+Learn how Visual Studio makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
 ## I'm used to keyboard shortcuts from a different editor
 
@@ -48,7 +48,7 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl**+**Q** | Search | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl**+**F5** | Run without Debug | Run your application locally without debugging |
-| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | [Format Document](code-styles-and-quick-actions.md#apply-code-styles) | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
+| **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl**+**\\**,**Ctrl**+**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
 | **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the previous/next error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
 
@@ -68,7 +68,7 @@ Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). **Go To 
 
 ![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
 
-## Enforce code style rules on a codebase
+## Enforce code style rules
 
 You can use an *.editorconfig* file to codify coding conventions and have them travel with your source.
 
@@ -86,13 +86,29 @@ You can use an *.editorconfig* file to codify coding conventions and have them t
 
 ::: moniker-end
 
-- Try out the [IntelliCode extension for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). This experimental extension infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- Try out the [IntelliCode extension for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). IntelliCode infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
 
 - Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation.
 
 - See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example *.editorconfig* file.
 
 ![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
+
+::: moniker range="vs-2019"
+
+## Code Cleanup
+
+Visual Studio provides on-demand formatting of your code file, including code style preferences, through the **Code Cleanup** feature. To run Code Cleanup, press the broom icon button at the bottom of the editor or press **Ctrl**+**K**, **Ctrl**+**E**.
+
+![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
+
+In addition to formatting your file for spaces, indents, et cetera, **Code Cleanup** also applies code styles according to one of two profiles that you create by choosing **Configure Code Cleanup** (or pressing **Ctrl**+**K**, **Ctrl**+**Q**). In each profile, you can choose which code style conventions to apply.
+
+![Configure Code Cleanup in Visual Studio 2019](media/configure-code-cleanup.png)
+
+The preferences for each code style are read from the [EditorConfig file](code-styles-and-quick-actions.md#code-styles-in-editorconfig-files), if you have one for the project, or from your [code style settings](code-styles-and-quick-actions.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
+
+::: moniker-end
 
 ## Refactorings and code fixes
 
@@ -141,7 +157,7 @@ Visual Studio has many features to help you search and [navigate your code](../i
 
 ## Improved IntelliSense
 
-Download the [IntelliCode extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
+Download [IntelliCode for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
 
 ## Unit testing
 
