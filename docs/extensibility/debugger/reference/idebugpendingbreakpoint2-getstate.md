@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::GetState
 Gets the state of the pending breakpoint.
@@ -31,14 +34,14 @@ int GetState( 
 );
 ```
 
-#### Parameters
- `pState`
+## Parameters
+ `pState`\
 
  [in, out] A [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md) structure that is filled in with a description of this pending breakpoint.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md)

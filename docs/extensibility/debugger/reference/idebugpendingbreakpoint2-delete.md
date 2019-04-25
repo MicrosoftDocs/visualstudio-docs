@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::Delete
 Deletes this pending breakpoint and all breakpoints bound from it.
@@ -75,5 +78,5 @@ HRESULT CPendingBreakpoint::Delete(void)
 }
 ```
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
