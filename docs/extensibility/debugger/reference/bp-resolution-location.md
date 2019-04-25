@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_RESOLUTION_LOCATION
 Specifies the structure of the breakpoint resolution location.
@@ -40,34 +43,34 @@ public struct BP_RESOLUTION_LOCATION {
 ```
 
 ## Members
-`bpType`
+`bpType`\
 A value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that specifies how to interpret the `bpResLocation` union or `unionmemberX` members.
 
-`bpResLocation.bpresCode`
+`bpResLocation.bpresCode`\
 
  [C++ only] Contains the [BP_RESOLUTION_CODE](../../../extensibility/debugger/reference/bp-resolution-code.md) structure if `bpType` = `BPT_CODE`.
 
-`bpResLocation.bpresData`
+`bpResLocation.bpresData`\
 
  [C++ only] Contains the [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md) structure if `bpType` = `BPT_DATA`.
 
-`bpResLocation.unused`
+`bpResLocation.unused`\
 
  [C++ only] A placeholder.
 
-`unionmember1`
+`unionmember1`\
 
  [C# only] See Remarks on how to interpret.
 
-`unionmember2`
+`unionmember2`\
 
  [C# only] See Remarks on how to interpret.
 
-`unionmember3`
+`unionmember3`\
 
  [C# only] See Remarks on how to interpret.
 
-`unionmember4`
+`unionmember4`\
 
  [C# only] See Remarks on how to interpret.
 
@@ -118,7 +121,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
 - [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)

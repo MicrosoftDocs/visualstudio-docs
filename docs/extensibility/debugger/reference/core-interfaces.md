@@ -297,6 +297,6 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)|EE|Provides methods for getting access to data to be passed to a type visualizer.|
 |[IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)|EE|Represents a  property that provides access to [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) implementations.|
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 - [Creating a Custom Debug Engine](../../../extensibility/debugger/creating-a-custom-debug-engine.md)

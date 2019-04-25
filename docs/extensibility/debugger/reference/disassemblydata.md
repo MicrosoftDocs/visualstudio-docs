@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DisassemblyData
 Describes one disassembly instruction for the integrated development environment (IDE) to display.
@@ -55,44 +58,44 @@ public struct DisassemblyData { 
 ```
 
 ## Members
-`dwFields`
+`dwFields`\
 The [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) constant that specifies which fields are filled out.
 
-`bstrAddress`
+`bstrAddress`\
 The address as an offset from some starting point (usually the beginning of the associated function).
 
-`bstrCodeBytes`
+`bstrCodeBytes`\
 The code bytes for this instruction.
 
-`bstrOpcode`
+`bstrOpcode`\
 The opcode for this instruction.
 
-`bstrOperands`
+`bstrOperands`\
 The operands for this instruction.
 
-`bstrSymbol`
+`bstrSymbol`\
 The symbol name, if any, associated with the address (public symbol, label, and so on).
 
-`uCodeLocationId`
+`uCodeLocationId`\
 The code location identifier for this disassembled line. If the code context address of one line is greater than the code context address of another, then the disassembled code location identifier of the first will also be greater than the code location identifier of the second.
 
-`posBeg`
+`posBeg`\
 The [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) that corresponds to the position in a document where the disassembly data begins.
 
-`posEnd`
+`posEnd`\
 The [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) that corresponds to the position in a document where the disassembly data ends.
 
-`bstrDocumentUrl`
+`bstrDocumentUrl`\
 For text documents that can be represented as file names, the `bstrDocumentUrl` field is filled in with the file name where the source can be found, using the format `file://file name`.
 
 For text documents that cannot be represented as file names, `bstrDocumentUrl` is a unique identifier for the document, and the debug engine must implement the [GetDocument](../../../extensibility/debugger/reference/idebugdisassemblystream2-getdocument.md) method.
 
 This field can also contain additional information about checksums. See Remarks for details.
 
-`dwByteOffset`
+`dwByteOffset`\
 The number of bytes the instruction is from the beginning of the code line.
 
-`dwFlags`
+`dwFlags`\
 The [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md) constant that specifies which flags are active.
 
 ## Remarks
@@ -217,7 +220,7 @@ namespace MyNamespace
 }
 ```
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)
 - [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)

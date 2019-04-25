@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BPRESI_FIELDS
 Specifies the information to be retrieved about the successful resolution of a breakpoint.
@@ -37,17 +40,17 @@ public enum enum_BPRESI_FIELDS {
 };
 ```
 
-## Members
-BPRESI_BPRESLOCATION
+## Fields
+`BPRESI_BPRESLOCATION`\
 Initialize/use the `bpResLocation` (breakpoint resolution location) field of the [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) structure.
 
-BPRESI_PROGRAM
+`BPRESI_PROGRAM`\
 Initialize/use the `pProgram` field of the `BP_RESOLUTION_INFO` structure.
 
-BPRESI_THREAD
+`BPRESI_THREAD`\
 Initialize/use the `pThread` field of the `BP_RESOLUTION_INFO` structure.
 
-BPRESI_ALLFIELDS
+`BPRESI_ALLFIELDS`\
 Specifies all fields.
 
 ## Remarks
@@ -64,7 +67,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)
 - [GetResolutionInfo](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getresolutioninfo.md)

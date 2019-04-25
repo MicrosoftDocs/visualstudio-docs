@@ -244,5 +244,5 @@ Following are enumerations for the [!INCLUDE[vsprvs](../../../code-quality/inclu
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
