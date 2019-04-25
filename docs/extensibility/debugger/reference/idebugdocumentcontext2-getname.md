@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentContext2::GetName
 Gets the displayable name of the document that contains this document context.
@@ -32,12 +35,12 @@ int GetName(
 );
 ```
 
-#### Parameters
-`gnType`
+## Parameters
+`gnType`\
 
  [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies the type of name to return.
 
-`pbstrFileName`
+`pbstrFileName`\
 
  [out] Returns the name of the file.
 
@@ -87,6 +90,6 @@ HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)
 }
 ```
 
-## See Also
+## See also
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

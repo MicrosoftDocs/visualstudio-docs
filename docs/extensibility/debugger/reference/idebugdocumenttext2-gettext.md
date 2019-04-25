@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentText2::GetText
 Retrieves the text from the specified position in the document.
@@ -36,20 +39,20 @@ int GetText(
 );
 ```
 
-#### Parameters
-`pos`
+## Parameters
+`pos`\
 
  [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates the location of the text to be retrieved.
 
-`cMaxChars`
+`cMaxChars`\
 
  [in] The maximum number of characters of the text to be retrieved.
 
-`pText`
+`pText`\
 
  [in, out] A pointer to a buffer that is to be filled in with the desired text. This buffer must be able to contain at least `cMaxChars` number of wide characters.
 
-`pcNumChars`
+`pcNumChars`\
 
  [out] Returns the number of characters actually retrieved.
 
@@ -95,6 +98,6 @@ namespace Mynamespace
 }
 ```
 
-## See Also
+## See also
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)
