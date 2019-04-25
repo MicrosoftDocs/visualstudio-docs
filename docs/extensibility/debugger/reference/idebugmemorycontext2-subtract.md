@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMemoryContext2::Subtract
 Subtracts the specified value from the current context and returns a new context.
@@ -33,12 +36,12 @@ int Subtract(
 );
 ```
 
-#### Parameters
- `dwCount`
+## Parameters
+ `dwCount`\
 
  [in] The number of memory bytes to decrement.
 
- `ppMemCxt`
+ `ppMemCxt`\
 
  [out] Returns a new [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object.
 
@@ -50,5 +53,5 @@ int Subtract(
 
  This method must always produce a new context, even if the resulting address is outside the memory space associated with this context. The only exception to this is if no memory can be allocated for the new context or if `ppMemCxt` is a null value (which is an error).
 
-## See Also
+## See also
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

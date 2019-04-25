@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::GetAlias
 Gets the alias associated with this object, if any.
@@ -30,8 +33,8 @@ int GetAlias(
 );
 ```
 
-#### Parameters
- `ppAlias`
+## Parameters
+ `ppAlias`\
 
  [out] Returns an [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) object representing the alias for this object; otherwise, returns a null value.
 
@@ -41,6 +44,6 @@ int GetAlias(
 ## Remarks
  An alias for an object is created with a call to the [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md) method.
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
