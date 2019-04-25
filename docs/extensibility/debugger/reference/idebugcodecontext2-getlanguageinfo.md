@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCodeContext2::GetLanguageInfo
 Gets the language information for this code context.
@@ -32,12 +35,12 @@ int GetLanguageInfo( 
 );
 ```
 
-#### Parameters
- `pbstrLanguage`
+## Parameters
+ `pbstrLanguage`\
 
  [in, out] Returns a string that contains the name of the language, such as "C++."
 
- `pguidLanguage`
+ `pguidLanguage`\
 
  [in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
 
@@ -47,5 +50,5 @@ int GetLanguageInfo( 
 ## Remarks
  At least one of the parameters must return a non-null value.
 
-## See Also
+## See also
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

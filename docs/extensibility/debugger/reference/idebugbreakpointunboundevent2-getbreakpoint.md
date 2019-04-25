@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetBreakpoint
 Gets the breakpoint that became unbound.
@@ -30,8 +33,8 @@ int GetBreakpoint(
 );
 ```
 
-#### Parameters
-`ppBP`
+## Parameters
+`ppBP`\
 
  [out] Returns an [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) object that represents the breakpoint that became unbound.
 
@@ -68,6 +71,6 @@ STDMETHODIMP CBreakpointUnboundDebugEventBase::GetBreakpoint(
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)

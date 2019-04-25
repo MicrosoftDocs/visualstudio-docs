@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugClassField::EnumNestedEnums
 Creates an enumerator for the nested enumerators of this class.
@@ -30,8 +33,8 @@ int EnumNestedEnums(
 );
 ```
 
-#### Parameters
-`ppEnum`
+## Parameters
+`ppEnum`\
 
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of nested enumerations. Returns a null value if there are no nested enumerations.
 
@@ -51,7 +54,7 @@ class RootClass {
 
 The `EnumNestedEnums` method would return an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object that contains one [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md) object that represents the `NestedEnum` enumeration.
 
-## See Also
+## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
