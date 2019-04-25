@@ -112,7 +112,7 @@ Now that you've successfully built your code and performed a little clean up, ru
 
 ![Visual Studio Autos and Call Stack Windows](../ide/media/vs_ide_gs_debug_autos_and_call_stack.png)
 
-Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can simply close the app's main window (or command-line dialog).
+Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can just close the app's main window (or command-line dialog).
 
 If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
 

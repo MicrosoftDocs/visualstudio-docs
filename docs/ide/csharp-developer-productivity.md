@@ -64,7 +64,7 @@ Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). **Go To 
 - Change the location of this search bar or turn off the live navigation preview by using the **gear** icon.
 - Filter results using syntax such as `t mytype`.
 - Scope your search to just the current document.
-- Camelcase matching is supported.
+- Camel case matching is supported.
 
 ![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
 
@@ -112,7 +112,7 @@ The preferences for each code style are read from the [EditorConfig file](code-s
 
 ## Refactorings and code fixes
 
-Visual Studio comes with a lot of refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the light bulb or screwdriver icon, or by pressing **Ctrl**+**.** or **Alt**+**Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
+Visual Studio comes with numerous refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the light bulb or screwdriver icon, or by pressing **Ctrl**+**.** or **Alt**+**Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
 
 Popular quick fixes and refactorings include:
 
@@ -179,7 +179,7 @@ Some of Visual Studio's debugging capabilities include:
 
 - The ability to search for a string within the **Watch**, **Autos**, and **Locals** windows.
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
-- The **Exception Helper**, which puts the most important information at the top-level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
+- The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
 - [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
@@ -188,7 +188,7 @@ Some of Visual Studio's debugging capabilities include:
 ::: moniker range="vs-2017"
 
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
-- The **Exception Helper**, which puts the most important information at the top-level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
+- The **Exception Helper**, which puts the most important information at the top level in the dialog, for example, which variable is `null` in a `NullReferenceException`.
 - [Step back debugging](../debugger/view-historical-application-state.md), which lets you go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger), which lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
