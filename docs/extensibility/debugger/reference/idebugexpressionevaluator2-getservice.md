@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::GetService
 Retrieves a service object given its unique identifier.
@@ -31,12 +34,12 @@ int GetService (
 );
 ```
 
-#### Parameters
- `uid`
+## Parameters
+ `uid`\
 
  [in] Unique identifier of the service to retrieve.
 
- `ppService`
+ `ppService`\
 
  [out] Returns an object that represents the service.
 
@@ -46,5 +49,5 @@ int GetService (
 ## Remarks
  This can be consumed by a third-party expression evaluator to obtain services from another expression evaluator. For example, this method could be used to obtain the interface for the visualizer service from the default expression evaluator. Third-party expression evaluators are unlikely to need to implement this interface.
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)
