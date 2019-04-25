@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericParamField::GetOwner
 Retrieves the type or method owner of this generic parameter.
@@ -28,8 +31,8 @@ int GetOwner(
 );
 ```
 
-#### Parameters
-`ppOwner`
+## Parameters
+`ppOwner`\
 
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that owns this generic parameter.
 
@@ -87,5 +90,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

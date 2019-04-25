@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericFieldDefinition::GetFormalTypeParams
 Retrieves the type parameters given the number of parameters.
@@ -33,16 +36,16 @@ int GetFormalTypeParams(
 );
 ```
 
-#### Parameters
- `cParams`
+## Parameters
+ `cParams`\
 
  [in] Number of parameters.
 
- `ppParams`
+ `ppParams`\
 
  [out] Array of type parameters.
 
- `pcParams`
+ `pcParams`\
 
  [in, out] Number of parameters in the `ppParams` array.
 
@@ -52,5 +55,5 @@ int GetFormalTypeParams(
 ## Remarks
  Return the type parameters in order from left to right. For example, Dictionary\<K,V> returns IDebugFormalGenericParameters {K,V}.
 
-## See Also
+## See also
 - [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

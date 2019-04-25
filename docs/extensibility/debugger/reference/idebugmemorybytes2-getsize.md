@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMemoryBytes2::GetSize
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.
@@ -31,13 +34,13 @@ int GetSize(
 );
 ```
 
-#### Parameters
- `pqwSize`
+## Parameters
+ `pqwSize`\
 
  [out] Returns the size, in bytes of the memory space.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

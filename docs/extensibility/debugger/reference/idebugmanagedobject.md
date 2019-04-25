@@ -49,6 +49,6 @@ IDebugManagedObject : IDebugObject
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md)

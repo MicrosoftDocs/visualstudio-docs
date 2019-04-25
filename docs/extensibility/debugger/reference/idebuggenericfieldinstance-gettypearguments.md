@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericFieldInstance::GetTypeArguments
 Retrieves the type parameter arguments for this instance.
@@ -33,21 +36,21 @@ int GetTypeArguments(
 );
 ```
 
-#### Parameters
- `cArgs`
+## Parameters
+ `cArgs`\
 
  [in] Number of type parameters.
 
- `ppArgs`
+ `ppArgs`\
 
  [out] Returns an array of type parameters.
 
- `pcArgs`
+ `pcArgs`\
 
  [in, out] Number of members in the `ppArgs` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugGenericFieldInstance](../../../extensibility/debugger/reference/idebuggenericfieldinstance.md)
