@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomViewer::DisplayValue
 This method is called to display the specified value.
@@ -36,20 +39,20 @@ int DisplayValue(
 );
 ```
 
-#### Parameters
- `hwnd`
+## Parameters
+ `hwnd`\
 
  [in] Parent window
 
- `dwID`
+ `dwID`\
 
  [in] ID for custom viewers that support more than one type.
 
- `pHostServices`
+ `pHostServices`\
 
  [in] Reserved. Always set to null.
 
- `pDebugProperty`
+ `pDebugProperty`\
 
  [in] Interface that can be used to retrieve the value to be displayed.
 
@@ -61,7 +64,7 @@ int DisplayValue(
 
  To support changing the value on the given [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) object, you can use the [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md) method —if the value can be expressed as a string. Otherwise, it is necessary to create a custom interface—exclusive to the expression evaluator implementing this `DisplayValue` method—on the same object that implements the `IDebugProperty3` interface. This custom interface would supply methods for changing the data of an arbitrary size or complexity.
 
-## See Also
+## See also
 - [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
 - [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)

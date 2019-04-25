@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentPosition2::GetFileName
 Gets the file name of the source file that contains the document position.
@@ -30,8 +33,8 @@ int GetFileName( 
 );
 ```
 
-#### Parameters
- `pbstrFileName`
+## Parameters
+ `pbstrFileName`\
 
  [out] Returns the file name of the source file.
 
@@ -41,5 +44,5 @@ int GetFileName( 
 ## Remarks
  A source file may not always have a file name (the source file may not exist on disk, for example).
 
-## See Also
+## See also
 - [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)

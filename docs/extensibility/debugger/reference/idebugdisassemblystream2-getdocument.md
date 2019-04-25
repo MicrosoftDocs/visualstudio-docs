@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDisassemblyStream2::GetDocument
 Gets the source document associated with this input stream.
@@ -32,12 +35,12 @@ int GetDocument( 
 );
 ```
 
-#### Parameters
- `bstrDocumentUrl`
+## Parameters
+ `bstrDocumentUrl`\
 
  [in] The document URL.
 
- `ppDocument`
+ `ppDocument`\
 
  [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object representing the document.
 
@@ -47,6 +50,6 @@ int GetDocument( 
 ## Remarks
  This method is implemented by debug engines that have text documents that are not stored in an actual file.
 
-## See Also
+## See also
 - [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

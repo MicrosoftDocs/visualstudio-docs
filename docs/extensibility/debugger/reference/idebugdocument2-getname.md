@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocument2::GetName
 Gets the name of the document in one of several forms.
@@ -32,12 +35,12 @@ int GetName( 
 );
 ```
 
-#### Parameters
- `gnType`
+## Parameters
+ `gnType`\
 
  [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that determines the type of name to return.
 
- `pbstrFileName`
+ `pbstrFileName`\
 
  [out] Returns a string containing the document name.
 
@@ -47,6 +50,6 @@ int GetName( 
 ## Remarks
  This method can, for example, return the name of the document as a title or as a file name or even part of a file name.
 
-## See Also
+## See also
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
 - [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)
