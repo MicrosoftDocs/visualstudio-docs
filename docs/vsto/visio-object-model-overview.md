@@ -61,7 +61,7 @@ ms.workload:
  All of the objects and members in the VBA object model reference correspond to types and members in the Visio primary interop assembly (PIA). For example, the `Document` object in the VBA object model reference corresponds to the Microsoft.Office.Interop.Visio.Document type in the Visio PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Visio VSTO Add-in project that you create by using Visual Studio.
 
 > [!NOTE]
->  At this time, there is no reference documentation for the Visio primary interop assembly.
+> At this time, there is no reference documentation for the Visio primary interop assembly.
 
  For related code samples and additional tools for creating Visio solutions, see [Visio 2010 software development kit](http://go.microsoft.com/fwlink/?LinkId=196501).
 

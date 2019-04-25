@@ -79,7 +79,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
  In managed code, the suspended count changes when you freeze or thaw a thread. If you freeze a thread in managed code, its suspended count is 1. When you freeze a thread in native code, its suspended count is 0, unless you used the `SuspendThread` call.
 
 > [!NOTE]
->  When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.
+> When you debug a call from native code to managed code, the managed code runs in the same physical thread as the native code that called it. Suspending or freezing the native thread freezes the managed code also.
 
 ### To freeze or thaw execution of a thread
 

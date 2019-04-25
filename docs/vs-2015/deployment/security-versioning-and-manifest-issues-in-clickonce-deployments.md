@@ -82,7 +82,7 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclic
  If you want to move or copy an application, you must also update the `deploymentProvider` path, so that the client actually installs from the new location. Updating this path is mostly a concern if you have installed applications. For online applications that are always launched through the original URL, setting the `deploymentProvider` is optional. If `deploymentProvider` is set, it will be honored; otherwise, the URL used to start the application will be used as the base URL to download application files.  
   
 > [!NOTE]
->  Every time that you update the manifest you must also sign it again.  
+> Every time that you update the manifest you must also sign it again.  
   
 ## See Also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   

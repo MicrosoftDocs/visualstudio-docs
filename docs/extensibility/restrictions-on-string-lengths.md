@@ -24,7 +24,7 @@ The Source Control Plug-in API limits the lengths of strings used in various fun
 |`SCC_PRJPATH_LEN`|300|
 
 > [!NOTE]
->  Length does not include the terminating `null`. Other constants with a "_SIZE" suffix instead of "_LEN" do include space for the terminating `null`.
+> Length does not include the terminating `null`. Other constants with a "_SIZE" suffix instead of "_LEN" do include space for the terminating `null`.
 
 |Constant|Value|
 |--------------|-----------|

@@ -24,7 +24,7 @@ You can expand and collapse the Windows, Processes, and Threads views using two 
 |**Collapse**|Fully collapses the currently selected item.|
 
 > [!TIP]
->  If you expand a process, you see all the threads the process owns. If you expand a thread, you see a list of all the windows it owns.
+> If you expand a process, you see all the threads the process owns. If you expand a thread, you see a list of all the windows it owns.
 
 ### To expand or collapse Spy++ trees
 

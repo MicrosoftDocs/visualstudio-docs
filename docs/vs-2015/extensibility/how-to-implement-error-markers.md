@@ -41,7 +41,7 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
 1. In a view that is being filtered, the filter obtains a pointer to the task provider associated with that view's data.  
   
     > [!NOTE]
-    >  You can use the same command filter for method tips, statement completion, error markers, and so on.  
+    > You can use the same command filter for method tips, statement completion, error markers, and so on.  
   
 2. When the filter receives an event indicating that you have moved to another line, a task is created to check for errors.  
   

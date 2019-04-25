@@ -39,7 +39,7 @@ ms.workload:
  You can also specify the names of custom message classes. Custom message classes identify custom forms that you define in Outlook.
 
 > [!NOTE]
->  For replacement and replace-all form regions, you can specify a new custom message class name. You do not need to use the message class name of an existing custom form. The name of the custom message class must be unique. One way to ensure that the name is unique is to use a naming convention similar to the following: \<*StandardMessageClassName*>.\<*Company*>.\<*MessageClassName*> (for example: `IPM.Note.Contoso.MyMessageClass`).
+> For replacement and replace-all form regions, you can specify a new custom message class name. You do not need to use the message class name of an existing custom form. The name of the custom message class must be unique. One way to ensure that the name is unique is to use a naming convention similar to the following: \<*StandardMessageClassName*>.\<*Company*>.\<*MessageClassName*> (for example: `IPM.Note.Contoso.MyMessageClass`).
 
 ## Associate a form region with an Outlook message class
  There are two ways to associate a form region with a message class:
@@ -70,7 +70,7 @@ ms.workload:
   The **New Outlook Form Region** wizard validates the format of your input when you click **Finish**.
 
 > [!NOTE]
->  The **New Outlook Form Region** wizard does not verify that the message class names that you provide are correct or valid.
+> The **New Outlook Form Region** wizard does not verify that the message class names that you provide are correct or valid.
 
  When you complete the wizard, the **New Outlook Form Region** wizard applies attributes to the form region class that contain the specified message class names. You can also apply these attributes manually.
 
@@ -95,7 +95,7 @@ ms.workload:
   Visual Studio validates the format of the message class names when you build the project.
 
 > [!NOTE]
->  Visual Studio does not verify that the message class names that you provide are correct or valid.
+> Visual Studio does not verify that the message class names that you provide are correct or valid.
 
 ## See also
 - [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)

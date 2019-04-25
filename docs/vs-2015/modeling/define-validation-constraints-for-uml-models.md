@@ -49,7 +49,7 @@ You can define validation constraints that test whether the model meets a condit
     For more information, see [Evaluating the Validation Constraint](#Implementing).  
   
    > [!IMPORTANT]
-   >  Make sure that your **.cs** files contain the following `using` statement:  
+   > Make sure that your **.cs** files contain the following `using` statement:  
    >   
    >  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
   
@@ -217,7 +217,7 @@ using Microsoft.VisualStudio.Uml.Classes;
  The validation method should determine whether the validation constraint that you want to apply is true or false. If true, it should do nothing. If false, it should report an error using the methods provided by the `ValidationContext` parameter.  
   
 > [!NOTE]
->  Validation methods should not change the model. There is no guarantee when or in what order the constraints will be executed. If you have to pass information between successive executions of a validation method within a validation run, you can use the context cache described under [Coordinating Multiple Validations](#ContextCache).  
+> Validation methods should not change the model. There is no guarantee when or in what order the constraints will be executed. If you have to pass information between successive executions of a validation method within a validation run, you can use the context cache described under [Coordinating Multiple Validations](#ContextCache).  
   
  For example, if you want to ensure that every type (class, interface, or enumerator) has a name that is at least three characters long, you could use this method:  
   

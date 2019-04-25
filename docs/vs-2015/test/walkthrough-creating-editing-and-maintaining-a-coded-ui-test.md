@@ -117,7 +117,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 2. Create a desktop shortcut to the SimpleWPFApp application. Right-click SimpleWPFApp.exe and choose **Copy**. On your desktop, right-click and choose **Paste shortcut**.  
   
     > [!TIP]
-    >  A shortcut to the application makes it easier to add or modify Coded UI tests for your application because it lets you start the application quickly.  
+    > A shortcut to the application makes it easier to add or modify Coded UI tests for your application because it lets you start the application quickly.  
   
 3. In Solution Explorer, right-click the solution, choose **Add** and then select **New Project**.  
   
@@ -148,7 +148,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
      ![Pause the recording](../test/media/cuit.png "CUIT_")  
   
     > [!WARNING]
-    >  All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.  
+    > All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.  
   
 9. Launch the SimpleWPFApp using the desktop shortcut.  
   
@@ -197,7 +197,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 3. To correct this problem, you can make the coded UI test wait for the CheckBox control to be enabled before continuing on to this line using the `WaitForControlEnabled()` method.  
   
     > [!WARNING]
-    >  Do not modify the UIMap.Designer.cs file. Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
+    > Do not modify the UIMap.Designer.cs file. Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
   
 4. In Solution Explorer, locate **UIMap.uitest** in your coded UI test project.  
   
@@ -218,7 +218,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
      The updates to the test method are saved in the UIMap.Designer file.  
   
     > [!CAUTION]
-    >  Once you have moved the method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor.  
+    > Once you have moved the method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor.  
   
 10. Rename the method from `SimpleAppTest()` to `ModifiedSimpleAppTest()`  
   

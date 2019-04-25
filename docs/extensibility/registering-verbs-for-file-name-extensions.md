@@ -32,7 +32,7 @@ The association of a file name extension with an application generally has a pre
   Whenever possible, register a standard verb. The most common choice is the Open verb. Use the Edit verb only if there is a clear difference between opening the file and editing the file. For example, opening an *.htm* file displays it in the browser, whereas editing an *.htm* file starts an HTML editor. Standard verbs are localized with the operating system locale.
 
 > [!NOTE]
->  When registering standard verbs, do not set the default value for the Open key. The default value contains the display string on the menu. The operating system supplies this string for standard verbs.
+> When registering standard verbs, do not set the default value for the Open key. The default value contains the display string on the menu. The operating system supplies this string for standard verbs.
 
  Project files should be registered to start a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when a user opens the file. The following example illustrates a standard verb registration for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project.
 
@@ -103,7 +103,7 @@ The association of a file name extension with an application generally has a pre
  The default verb is the action that is executed when a user double-clicks a file in Windows Explorer. The default verb is the verb specified as the default value for the **HKEY_CLASSES_ROOT\\*progid*\Shell** key. If no value is specified, the default verb is the first verb specified in the **HKEY_CLASSES_ROOT\\*progid*\Shell** key list.
 
 > [!NOTE]
->  If you plan to change the default verb for an extension in a side-by-side deployment, consider the impact on installation and removal. During installation the original default value is overwritten.
+> If you plan to change the default verb for an extension in a side-by-side deployment, consider the impact on installation and removal. During installation the original default value is overwritten.
 
 ## See also
 - [Manage side-by-side file associations](../extensibility/managing-side-by-side-file-associations.md)

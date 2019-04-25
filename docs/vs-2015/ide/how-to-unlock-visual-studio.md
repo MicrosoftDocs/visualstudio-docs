@@ -28,7 +28,7 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
 2. Enter the credentials for either a Microsoft account or a work or school account. Visual Studio will find an MSDN subscription or Visual Studio Team Services subscription associated with your account.
 
 > [!IMPORTANT]
->  Visual Studio automatically looks for associated online subscriptions when you connect to a Visual Studio Team Services account from the Team Explorer tool window. When you connect to a Visual Studio Team Services account, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
+> Visual Studio automatically looks for associated online subscriptions when you connect to a Visual Studio Team Services account from the Team Explorer tool window. When you connect to a Visual Studio Team Services account, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
 
 ## To unlock Visual Studio with a product key
 
@@ -37,7 +37,7 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
 2. Enter the product key in the space provided.
 
 > [!TIP]
->  Prerelease versions of Visual Studio do not have product keys. You must sign in to the IDE to use prerelease versions.
+> Prerelease versions of Visual Studio do not have product keys. You must sign in to the IDE to use prerelease versions.
 
 ## Addressing License Problem States
 
@@ -57,7 +57,7 @@ You can evaluate Visual Studio for free up to 30 days. When you sign into the ID
    If you do not reenter your credentials the token starts to go stale. When this happens, the Account Settings dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.
 
 > [!IMPORTANT]
->  If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.
+> If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.
 
 ### Updating Expired Licenses
  If your subscription has expired completely, and you no longer have access rights to Visual Studio, you must:

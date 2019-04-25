@@ -229,7 +229,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     ```  
   
     > [!IMPORTANT]
-    >  If the user has opened a C++ universal Windows app project in the experimental instance, the code above throws an exception. This is a known issue. To avoid the exception, replace the `foreach` block above with the following:  
+    > If the user has opened a C++ universal Windows app project in the experimental instance, the code above throws an exception. This is a known issue. To avoid the exception, replace the `foreach` block above with the following:  
   
     ```csharp  
     var importingProjects = sharedAssetsProject.EnumImportingProjects();  
@@ -519,7 +519,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
 9. Modify the shared item. You can’t modify shared items in a platform project; instead, you must modify them in the shared project that is the actual owner of these items. You can get the corresponding item ID in the shared project with <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.IsDocumentInProject%2A>, giving it the shared item’s full path. Then you can modify the shared item. The change is propagated to the platform projects.  
   
     > [!IMPORTANT]
-    >  You should find out whether or not a project item is a shared item before modifying it.  
+    > You should find out whether or not a project item is a shared item before modifying it.  
   
      The following method modifies the name of a project item file.  
   

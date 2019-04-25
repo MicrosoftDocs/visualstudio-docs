@@ -37,7 +37,7 @@ Use the **References** page of the **Project Designer** to manage references, We
  Click this button to access the **Reference Paths** dialog box.  
   
 > [!NOTE]
->  When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
+> When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
 > 
 > 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
 >    2. Folders that are specified in the **Reference Paths** dialog box.  

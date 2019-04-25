@@ -37,7 +37,7 @@ The term *lookup table* describes controls that are bound to two related data ta
 2. Expand the nodes in the **Data Sources** window until you can see the parent table and all of its columns, and the related child table and all of its columns.  
   
     > [!NOTE]
-    >  The child table node is the node that appears as an expandable child node in the parent table.  
+    > The child table node is the node that appears as an expandable child node in the parent table.  
   
 3. Change the drop type of the child table to **Details** by selecting **Details** from the control list on the child table's node. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   

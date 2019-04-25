@@ -55,7 +55,7 @@ Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[v
 5. Start the executable by choosing an execution command, such as **Start**, from the **Debug** menu.  
   
     > [!NOTE]
-    >  Not all programming languages support EXE projects. Install [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] if you need to use this feature.  
+    > Not all programming languages support EXE projects. Install [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] if you need to use this feature.  
   
      When you are debugging an executable without the source code, the available debugging features are limited, whether you attach to a running executable or add the executable to a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution. If the executable was built without debug information in a compatible format, available features are further limited. If you have the source code, the best approach is to import the source code into [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and create a debug build of the executable in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   

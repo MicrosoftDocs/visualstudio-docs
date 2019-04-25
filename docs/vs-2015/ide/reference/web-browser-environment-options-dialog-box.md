@@ -31,10 +31,10 @@ manager: jillfra
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!IMPORTANT]
->  Opening certain files or components from the Web can execute code on your computer.  
+> Opening certain files or components from the Web can execute code on your computer.  
   
  Home page  
  Sets the page displayed when you open the IDE Web Browser.  
@@ -55,7 +55,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
   Click to change options for Internet Explorer in the **Internet Properties** dialog box. Changes made in this dialog box affect both the internal Web browser and instances of Internet Explorer initiated outside of the Visual Studio IDE (for example, from the Start menu).  
   
 > [!NOTE]
->  Use the Browse With dialog box to replace the Visual Studio internal Web browser, which is a version of Internet Explorer, by using a different, external Web browser.  
+> Use the Browse With dialog box to replace the Visual Studio internal Web browser, which is a version of Internet Explorer, by using a different, external Web browser.  
   
 ## See Also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   

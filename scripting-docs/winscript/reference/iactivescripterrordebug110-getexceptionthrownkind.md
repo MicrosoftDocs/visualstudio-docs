@@ -18,7 +18,7 @@ manager: "ghogen"
 Returns a value that indicates the kind of exception thrown.  
   
 > [!IMPORTANT]
->  [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md) is implemented by PDM version 11.0 and greater. Found in activdbg100.h.  
+> [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md) is implemented by PDM version 11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

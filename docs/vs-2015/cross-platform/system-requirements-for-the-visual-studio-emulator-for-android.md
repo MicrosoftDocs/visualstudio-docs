@@ -17,7 +17,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
  The setup program tries to configure these prerequisites for you silently when you install the emulator. When setup successfully configures the prerequisites, the emulator simply works as expected. Otherwise you may have to enable these prerequisites manually. If you have to configure the prerequisites manually, the steps and tools are the same steps described [here](https://msdn.microsoft.com/library/windows/apps/jj863509\(v=vs.105\).aspx) for the Windows Phone Emulator.
 
 > [!IMPORTANT]
->  The setup program for the emulator checks the prerequisites for running Visual Studio Emulator for Android. It displays warnings if the prerequisites are not present, but it does not require them.
+> The setup program for the emulator checks the prerequisites for running Visual Studio Emulator for Android. It displays warnings if the prerequisites are not present, but it does not require them.
 
  This topic contains the following sections.
 

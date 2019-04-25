@@ -18,7 +18,7 @@ manager: "ghogen"
 Determines whether diagnostics are supported on this application. If [SetSite](http://go.microsoft.com/fwlink/?LinkId=232439) has been called on the object implementing this interface with a non-NULL value, [DiagnosticsSupported](../../winscript/reference/iwebappdiagnosticssetup-diagnosticssupported.md) returns `true`. If not, it returns `false` and calls to [IWebAppDiagnosticsSetup::CreateObjectWithSiteAtWebApp](../../winscript/reference/iwebappdiagnosticssetup-createobjectwithsiteatwebapp.md) fail.  
   
 > [!IMPORTANT]
->  [IWebAppDiagnosticsSetup Interface](../../winscript/reference/iwebappdiagnosticssetup-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.  
+> [IWebAppDiagnosticsSetup Interface](../../winscript/reference/iwebappdiagnosticssetup-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.  
   
 ## Syntax  
   

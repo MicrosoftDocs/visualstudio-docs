@@ -146,7 +146,7 @@ namespace WorkItems
  For test purposes, execute your link handler in debug mode.  
   
 > [!WARNING]
->  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
+> You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
 #### To test the link handler  
   
@@ -215,7 +215,7 @@ public void OnWorkItemLinked
 ```  
   
 > [!NOTE]
->  To make this example work, you must add a project reference to `System.Drawing.dll`, and import the namespace `Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation`. However, these additions are not required for other implementations of `OnWorkItemLinked`.  
+> To make this example work, you must add a project reference to `System.Drawing.dll`, and import the namespace `Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation`. However, these additions are not required for other implementations of `OnWorkItemLinked`.  
   
 ### Listening for Link Removal  
  `OnWorkItemRemoved` is called once just before each work item link that is deleted. If a model element is deleted, all of its links will be removed.  

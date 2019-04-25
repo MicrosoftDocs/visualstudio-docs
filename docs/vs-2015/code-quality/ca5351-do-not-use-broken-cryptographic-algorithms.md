@@ -20,7 +20,7 @@ manager: "wpickett"
 |Breaking Change|Non Breaking|  
   
 > [!NOTE]
->  This warning was last updated on November 2015.  
+> This warning was last updated on November 2015.  
   
 ## Cause  
  Hashing functions such as <xref:System.Security.Cryptography.MD5> and encryption algorithms such as <xref:System.Security.Cryptography.DES> and <xref:System.Security.Cryptography.RC2> can expose significant risk and may result in the exposure of sensitive information through trivial attack techniques, such as brute force attacks and hash collisions.  

@@ -19,7 +19,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  Projects are defined in project files, for example a *.csproj* file for a Visual C# project. You can create your own project type that has your own project file name extension. For more information about project types, see [Project types](../extensibility/internals/project-types.md).
 
 > [!NOTE]
->  If you need to extend Visual Studio with a custom project type, we strongly recommend leveraging the [Visual Studio project system](https://github.com/Microsoft/VSProjectSystem) (VSPS) which has a number of advantages over building a project system from scratch:
+> If you need to extend Visual Studio with a custom project type, we strongly recommend leveraging the [Visual Studio project system](https://github.com/Microsoft/VSProjectSystem) (VSPS) which has a number of advantages over building a project system from scratch:
 >
 > - Easier onboarding.  Even a basic project system requires tens of thousands of lines of code.  Leveraging VSPS reduces the onboarding cost to a few clicks before you are ready to customize it to your needs.
 > - Easier maintenance.  By leveraging VSPS, you only need to maintain your own scenarios.  We handle the upkeep of all of the project system infrastructure.
@@ -29,7 +29,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  This walkthrough shows you how to create a project type that has the project file name extension *.myproj*. This walkthrough borrows from the existing Visual C# project system.
 
 > [!NOTE]
->  For more examples of extension projects, see [VSSDK samples](https://aka.ms/vs2015sdksamples).
+> For more examples of extension projects, see [VSSDK samples](https://aka.ms/vs2015sdksamples).
 
  This walkthrough teaches how to accomplish these tasks:
 
@@ -95,7 +95,7 @@ In Visual Studio, projects are the containers that developers use to organize so
    ```
 
    > [!IMPORTANT]
-   >  This is not the final form of the *Program.cs* code; the replacement parameters will be dealt with in a later step. You may see compile errors, but as long as the file's **BuildAction** is **Content**, you should be able to build and run the project as usual.
+   > This is not the final form of the *Program.cs* code; the replacement parameters will be dealt with in a later step. You may see compile errors, but as long as the file's **BuildAction** is **Content**, you should be able to build and run the project as usual.
 
 7. Save the file.
 
@@ -104,7 +104,7 @@ In Visual Studio, projects are the containers that developers use to organize so
 9. In the *Projects\SimpleProject* folder add an XML file named *SimpleProject.myproj*.
 
    > [!NOTE]
-   >  The file name extension for all projects of this type is *.myproj*. If you want to change it, you must change it everywhere it is mentioned in the walkthrough.
+   > The file name extension for all projects of this type is *.myproj*. If you want to change it, you must change it everywhere it is mentioned in the walkthrough.
 
 10. Replace the existing content with the following lines.
 
@@ -249,7 +249,7 @@ Templates
         ```
 
         > [!IMPORTANT]
-        >  Don't forget the backslash at the end of the path.
+        > Don't forget the backslash at the end of the path.
 
     3. Reload the project.
 

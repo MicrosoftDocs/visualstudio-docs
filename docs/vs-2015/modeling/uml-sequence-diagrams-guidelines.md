@@ -77,7 +77,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
  For a complete list of elements on sequence diagrams, see [UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md).  
   
 > [!NOTE]
->  Detailed steps for how to create any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+> Detailed steps for how to create any of the modeling diagrams are described in [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
   
 #### To create a sequence diagram  
   
@@ -98,7 +98,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 1. Drag **Lifelines** (1) from the **Toolbox** onto the diagram to represent instances of classes, components, actors, or devices.  
   
     > [!NOTE]
-    >  You can also create a lifeline by dragging an existing class, interface, actor or component from **UML Model Explorer** onto the diagram. This creates a lifeline representing an instance of the chosen type.  
+    > You can also create a lifeline by dragging an existing class, interface, actor or component from **UML Model Explorer** onto the diagram. This creates a lifeline representing an instance of the chosen type.  
   
 2. Draw messages to show how the lifelines collaborate to achieve a specific goal.  
   
@@ -109,7 +109,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 3. To show a message that comes from an unknown event source (9), or broadcasts to unknown recipients (10), draw an asynchronous message from or to blank space on the diagram. These messages are called *found messages* (9) and *lost messages* (10).  
   
     > [!NOTE]
-    >  To move a group of lifelines that have lost or found messages, follow these steps to select the lifelines before you move them: Draw a rectangle around those lifelines, or press and hold the **CTRL** key while you click each lifeline. If you use **Select All** or **CTRL**+**A** to select all lifelines, and then move them, any lost or found messages attached to these lifelines will not move. If this scenario occurs, you can move these messages separately.  
+    > To move a group of lifelines that have lost or found messages, follow these steps to select the lifelines before you move them: Draw a rectangle around those lifelines, or press and hold the **CTRL** key while you click each lifeline. If you use **Select All** or **CTRL**+**A** to select all lifelines, and then move them, any lost or found messages attached to these lifelines will not move. If this scenario occurs, you can move these messages separately.  
   
 4. Draw sequence diagrams for each major message to the same component or system.  
   
@@ -130,7 +130,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
      A copy of the message and all its subsidiary messages is added to the end of the execution occurrence, or to the end of the lifeline.  
   
     > [!NOTE]
-    >  The pasted message always appears at the end of the execution occurrence or lifeline. After you have pasted it, you can drag it up to an earlier position.  
+    > The pasted message always appears at the end of the execution occurrence or lifeline. After you have pasted it, you can drag it up to an earlier position.  
   
 #### To display and edit the signature text for a message  
   
@@ -155,7 +155,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 1. In **UML Model Explorer**, find the Interaction that the sequence diagram displays.  
   
     > [!NOTE]
-    >  The interaction will not appear in **UML Model Explorer** until you add the first lifeline to the sequence diagram.  
+    > The interaction will not appear in **UML Model Explorer** until you add the first lifeline to the sequence diagram.  
   
 2. Drag the Interaction into the Package.  
   
@@ -187,7 +187,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
  Using **Comment Links**, you can link a comment to lifelines, executions, interaction uses, and fragments.  
   
 > [!CAUTION]
->  When you want to attach a comment to a particular point in the sequence, link it to an execution occurrence, interaction use, or fragment. Do not link it to a lifeline, because in that case, it does not remain attached at the correct point in the sequence.  
+> When you want to attach a comment to a particular point in the sequence, link it to an execution occurrence, interaction use, or fragment. Do not link it to a lifeline, because in that case, it does not remain attached at the correct point in the sequence.  
   
  Use a comment to:  
   
@@ -262,7 +262,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
  You can create new lifelines from classes that you have already defined, for example on a class diagram.  
   
 > [!NOTE]
->  Make sure you have an existing sequence diagram before you perform this task.  
+> Make sure you have an existing sequence diagram before you perform this task.  
   
 ##### To create a lifeline from an existing type  
   
@@ -277,7 +277,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
      A new named-instance lifeline appears whose type is the type you dragged.  
   
   > [!NOTE]
-  >  You can repeat this action as many times as you like. This will create lifelines with different instance names.  
+  > You can repeat this action as many times as you like. This will create lifelines with different instance names.  
   
 ##### To change the type of a lifeline  
   
@@ -307,7 +307,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
          If your message included parameters in the form "(parameter : type)", they will appear in the parameter list of the new operation.  
   
         > [!NOTE]
-        >  You must repeat this step if you add new messages in the sequence diagram.  
+        > You must repeat this step if you add new messages in the sequence diagram.  
   
 3. To view the new class or interface in detail, add it to a class or component diagram.  
   
@@ -360,7 +360,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
      A new sequence diagram appears in your solution. It contains the lifelines that you used to create the interaction use.  
   
     > [!NOTE]
-    >  Only the lifelines you used to create the interaction use will be included. The new diagram will not include lifelines that you created after the interaction use, even if the interaction use now covers them.  
+    > Only the lifelines you used to create the interaction use will be included. The new diagram will not include lifelines that you created after the interaction use, even if the interaction use now covers them.  
   
 #### To create a reusable sequence from existing messages  
   
@@ -401,14 +401,14 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 3. To rename the group, click the name.  
   
     > [!NOTE]
-    >  The group name will be lost when you expand the group.  
+    > The group name will be lost when you expand the group.  
   
 #### To expand a collapsed group  
   
 - Right-click the collapsed lifeline, and then click **Expand**.  
   
     > [!NOTE]
-    >  The name of the group will be lost, together with any links from the group to comments or work items.  
+    > The name of the group will be lost, together with any links from the group to comments or work items.  
   
 ## <a name="Fragments"></a> Describing Control Structures with Fragments  
  You can use combined fragments (13) to define loops, branches and concurrent processing in a sequence diagram. Alternatively, consider using an activity diagram instead. The activity diagram is not as useful at showing messages between actors, but in some cases is better at showing loops, branches, and concurrency.  
@@ -420,7 +420,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
 1. Select a message, or a sequence of messages all starting on the same execution occurrence or lifeline.  
   
     > [!NOTE]
-    >  Select the message arrows, not the execution occurrences that the messages point to.  
+    > Select the message arrows, not the execution occurrences that the messages point to.  
   
 2. Right-click one of the messages, point to **Surround With**, and then click the type of fragment that you require.  
   

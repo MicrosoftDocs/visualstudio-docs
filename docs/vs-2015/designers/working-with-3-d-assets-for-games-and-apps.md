@@ -38,7 +38,7 @@ This document describes the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tools t
  You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer, which is a graph-based shader design tool, to create custom visual effects without knowing HLSL programming.  
   
 > [!NOTE]
->  For more information about how to start with DirectX programming, see [DirectX](http://go.microsoft.com/fwlink/p/?LinkId=224633). For more information about how to debug a DirectX-based app, see [Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md).  
+> For more information about how to start with DirectX programming, see [DirectX](http://go.microsoft.com/fwlink/p/?LinkId=224633). For more information about how to debug a DirectX-based app, see [Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md).  
   
 ## DirectX version compatibility  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses DirectX to render 2-D and 3-D assets. You can select either the DirectX 11 renderer, or the Windows Advanced Rasterization Platform (WARP) software renderer. The DirectX 11 renderer provides high-performance, hardware-accelerated rendering on DirectX 11 and DirectX 10 GPUs. The WARP renderer helps make sure that your assets work with a broad range of computers—this includes computers that don't have modern graphics hardware and computers that have integrated graphics hardware. For more information about WARP, see [Windows Advanced Rasterization Platform (WARP) Guide](http://go.microsoft.com/fwlink/p/?LinkId=224634).  

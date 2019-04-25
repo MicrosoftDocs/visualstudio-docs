@@ -40,7 +40,7 @@ To start this walkthrough, you must first complete the first section of [Create 
      This creates resources that name the category "My Category", the object "My Settings", and the category description "OptionInteger and OptionFloat".
 
     > [!NOTE]
-    >  Of these three, only the category name does not appear in the **Import and Export Settings** wizard.
+    > Of these three, only the category name does not appear in the **Import and Export Settings** wizard.
 
 3. In *MyToolsOptionsPackage.cs*, add a `float` property named `OptionFloat` to the `OptionPageGrid` class, as shown in the following example.
 
@@ -70,7 +70,7 @@ To start this walkthrough, you must first complete the first section of [Create 
     ```
 
     > [!NOTE]
-    >  The `OptionPageGrid` category named "My Category" now consists of the two properties, `OptionInteger` and `OptionFloat`.
+    > The `OptionPageGrid` category named "My Category" now consists of the two properties, `OptionInteger` and `OptionFloat`.
 
 4. Add a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the `MyToolsOptionsPackage` class and give it the CategoryName "My Category", give it the ObjectName "My Settings", and set isToolsOptionPage to true. Set the categoryResourceID, objectNameResourceID, and DescriptionResourceID to the corresponding string resource IDs created earlier.
 

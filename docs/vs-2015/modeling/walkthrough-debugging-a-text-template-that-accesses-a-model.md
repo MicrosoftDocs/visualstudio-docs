@@ -16,7 +16,7 @@ manager: jillfra
 When you modify or add text templates in a domain-specific language solution, you may get errors when the engine transforms the template to source code or when it compiles the generated code. The following walkthrough demonstrates some of the things you can do to debug a text template.  
   
 > [!NOTE]
->  For more information about text templates in general, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md). For more information about debugging text templates, see [Walkthrough: Debugging a Text Template](http://msdn.microsoft.com/library/5c3fd3b7-c110-4e86-a22f-d5756be6b94f).  
+> For more information about text templates in general, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md). For more information about debugging text templates, see [Walkthrough: Debugging a Text Template](http://msdn.microsoft.com/library/5c3fd3b7-c110-4e86-a22f-d5756be6b94f).  
   
 ## Creating a Domain-Specific Language Solution  
  In this procedure, you create a domain-specific language solution that has the following characteristics:  
@@ -52,7 +52,7 @@ When you modify or add text templates in a domain-specific language solution, yo
 1. Replace the code in DebugTest.tt with the following code:  
   
     > [!NOTE]
-    >  The code contains an error. You are introducing the error in order to debug it.  
+    > The code contains an error. You are introducing the error in order to debug it.  
   
     ```csharp  
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>  
@@ -116,7 +116,7 @@ When you modify or add text templates in a domain-specific language solution, yo
 1. Replace the code in DebugTest.tt with the following code:  
   
     > [!NOTE]
-    >  The code contains an error. You are introducing the error in order to debug it.  
+    > The code contains an error. You are introducing the error in order to debug it.  
   
     ```csharp  
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>  

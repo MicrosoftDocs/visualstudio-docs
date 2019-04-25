@@ -106,7 +106,7 @@ ms.workload:
 6. After the Content Type designer appears, in the **Columns** tab, add the three site columns that you defined previously: **Patient Name**, **Patient ID**, and **Doctor Name**. To add these columns, choose the first list box in the site columns list under **Display Name**, and then choose each site column in the list one at a time.
 
     > [!TIP]
-    >  To choose the site columns more quickly, filter the list by entering the first few letters of the name of the column.
+    > To choose the site columns more quickly, filter the list by entering the first few letters of the name of the column.
 
 7. In addition to the three custom site columns, add the **Comments** site column from the site columns list.
 
@@ -158,7 +158,7 @@ ms.workload:
      The custom list column applies only to this list. When you add a custom list column to a list, a new list content type, including all the columns added into the list, is created and set as the default list.
 
     > [!TIP]
-    >  If you choose a column from the list of site columns, an existing site column is used. However, if you enter a column name value without choosing any columns in the list, a custom list column is created, even if a column with the same name already exists in the list.
+    > If you choose a column from the list of site columns, an existing site column is used. However, if you enter a column name value without choosing any columns in the list, a custom list column is created, even if a column with the same name already exists in the list.
 
      Optionally, rather than setting the data type for the custom list column to **Single Line of Text**, you could instead set the data type for this column to Lookup, and its values would be retrieved from a table or another list. For information about Lookup columns, see [List Relationships in SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=224994) and [Lookups and List Relationships](http://go.microsoft.com/fwlink/?LinkID=224995).
 

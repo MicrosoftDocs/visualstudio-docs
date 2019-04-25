@@ -33,7 +33,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../incl
      ![The WCF Service Library project](../data-tools/media/wcf1.PNG "wcf1")  
   
     > [!NOTE]
-    >  This creates a working service that can be tested and accessed. The following two steps demonstrate how you might modify the default method to use a different data type. In a real application, you would also add your own functions to the service.  
+    > This creates a working service that can be tested and accessed. The following two steps demonstrate how you might modify the default method to use a different data type. In a real application, you would also add your own functions to the service.  
   
 3. ![The IService1 file](../data-tools/media/wcf2.png "wcf2")  
   

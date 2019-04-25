@@ -20,7 +20,7 @@ manager: jillfra
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.  
   
 > [!TIP]
->  Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Creating Data Applications with Visual Studio](http://msdn.microsoft.com/28edce21-220a-484c-b461-a75b0232d293).  
+> Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Creating Data Applications with Visual Studio](http://msdn.microsoft.com/28edce21-220a-484c-b461-a75b0232d293).  
   
 ## UI Element List  
  To go directly to the .NET Framework reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.  

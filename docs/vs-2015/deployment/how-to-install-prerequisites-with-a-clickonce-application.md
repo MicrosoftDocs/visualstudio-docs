@@ -26,12 +26,12 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require 
  Instead of packaging and publishing prerequisites, you can also specify a download location for the components. For example, rather than including prerequisites with every application that you publish, you might use a centralized file share or Web location that contains the installers for all of your prerequisites—at install time, the components will be downloaded and installed from that location.  
   
 > [!IMPORTANT]
->  You should add prerequisite installer packages to your development computer before you publish your first [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application. For more information, see [How to: Include Prerequisites with a ClickOnce Application](../deployment/how-to-include-prerequisites-with-a-clickonce-application.md).  
+> You should add prerequisite installer packages to your development computer before you publish your first [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application. For more information, see [How to: Include Prerequisites with a ClickOnce Application](../deployment/how-to-include-prerequisites-with-a-clickonce-application.md).  
   
  Prerequisites are managed in the **Prerequisites** dialog box, accessible from the **Publish** pane of the **Project Designer**.  
   
 > [!NOTE]
->  In addition to the predetermined list of prerequisites, you can add your own components to the list. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
+> In addition to the predetermined list of prerequisites, you can add your own components to the list. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
   
 ### To specify prerequisites to install with a ClickOnce application  
   
@@ -62,7 +62,7 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require 
 6. Select a location from the drop-down list, or enter a URL, file path, or FTP location, and then click **OK.**  
   
     > [!NOTE]
-    >  You must make sure that installers for the specified components exist at the specified location.  
+    > You must make sure that installers for the specified components exist at the specified location.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   

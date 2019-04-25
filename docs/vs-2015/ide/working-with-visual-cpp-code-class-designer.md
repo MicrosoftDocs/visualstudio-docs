@@ -42,7 +42,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 - Typedef  
   
 > [!NOTE]
->  This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
+> This is not the same as the UML class diagram, which you can create in a Modeling Project. For more information, see [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md).  
   
 ## Troubleshooting Type Resolution and Display Issues  
   

@@ -42,7 +42,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
    If the selected emulator is already running, your app is deployed and started in the running emulator. Only one instance of each emulator can run at a time.  
   
 > [!TIP]
->  When you’re testing your app on the emulator, leave the emulator open between debugging sessions so you can run your app again quickly.  
+> When you’re testing your app on the emulator, leave the emulator open between debugging sessions so you can run your app again quickly.  
   
 ### <a name="BKMK_vs"></a> Run an app from Visual Studio  
   

@@ -71,7 +71,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 ### <a name="BKMK_Run_tests_after_every_build"></a> Run tests after every build  
   
 > [!WARNING]
->  Running unit tests after every build is supported in Visual Studio Enterprise.  
+> Running unit tests after every build is supported in Visual Studio Enterprise.  
   
 |||  
 |-|-|  
@@ -195,7 +195,7 @@ TEST_METHOD(Method1)
    ![Filter tests in Test Explorer](../test/media/ute-filtertestlist.png "UTE_FilterTestList")  
   
 > [!NOTE]
->  Searches are case insensitive and match the specified string to any part of the criteria value.  
+> Searches are case insensitive and match the specified string to any part of the criteria value.  
   
 |Qualifier|Description|  
 |---------------|-----------------|  
@@ -247,7 +247,7 @@ FullName:"MyClass" - FullName:"PerfTest"
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
    > [!NOTE]
-   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the context menu.  
   
@@ -261,7 +261,7 @@ FullName:"MyClass" - FullName:"PerfTest"
 ### <a name="BKMK_Analyzeunit_test_code_coverage"></a> Analyze unit test code coverage  
   
 > [!NOTE]
->  Unit test code coverage is available only in Visual Studio Enterprise.  
+> Unit test code coverage is available only in Visual Studio Enterprise.  
   
  You can determine the amount of your product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool. You can run code coverage on selected tests or on all tests in a solution.  
   

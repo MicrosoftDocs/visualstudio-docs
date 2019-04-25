@@ -37,7 +37,7 @@ Capture graphics information from your Direct3D app so that you can use Visual S
 - On the keyboard, press Print Screen.  
   
   > [!NOTE]
-  >  While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.  
+  > While an app is running under **Graphics Diagnostics**, the Print Screen key can only be used to capture a frame of graphics information; it doesn't perform its regular function. This remains in effect until you have stopped capturing graphics information—usually by stopping debugging or exiting the app normally—even if another application is in focus.  
   
 - In the Visual Studio capture interface, chose the **Capture Frame** button located above the **Diagnostic session** timeline, or choose the large **Capture Frame** button located below the **Frames per second** swim-lane and to the right of any previously-captured frames. Both buttons are highlighted in the image below.  
   

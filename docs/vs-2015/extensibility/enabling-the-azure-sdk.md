@@ -32,7 +32,7 @@ The Azure SDK for .NET helps you create, configure, build, debug, run, and packa
      Follow the instructions in the installer.  
   
     > [!NOTE]
-    >  To install the Azure Tools, you must have Internet Information Services 7.0 and the ASP.NET Application Development components installed. If these components are not installed, Azure Tools Setup will prompt you to install them.  
+    > To install the Azure Tools, you must have Internet Information Services 7.0 and the ASP.NET Application Development components installed. If these components are not installed, Azure Tools Setup will prompt you to install them.  
   
 ## See Also  
  [Azure](https://azure.microsoft.com/)   

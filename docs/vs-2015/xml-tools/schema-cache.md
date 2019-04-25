@@ -43,7 +43,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
  The editor loads the schema cache directory when the XML editor package is loaded and watches for any changes while running. If a schema has been added, it is automatically loaded into an in-memory index of known schemas. If a schema has been removed, it is automatically removed from the in-memory index. If a schema has been updated, it automatically invalidates the in-memory cache of this schema.  
 
 > [!NOTE]
->  Because the schema cache directory is global to your computer, you should only add schemas here that are standard and useful to all the Visual Studio projects that may be created on your computer.  
+> Because the schema cache directory is global to your computer, you should only add schemas here that are standard and useful to all the Visual Studio projects that may be created on your computer.  
 
  The XML editor also supports any number of schema catalog files in the schema cache directory. Schema catalogs can point to other locations for schemas that you always want the editor to know about. The catalog.xsd file defines the format for the catalog file and is included in the schema cache directory. The catalog.xml file is the default catalog and it contains links to other schemas in the %InstallDir%. The following is a sampling of the catalog.xml file:  
 
@@ -99,7 +99,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
  You can customize the location for the schema cache using the **Miscellaneous** options page. If you have a directory of favorite schemas, the editor can be configured to use those schemas instead.  
 
 > [!NOTE]
->  This change affects only the current Visual Studio user.  
+> This change affects only the current Visual Studio user.  
 
 #### To change the schema cache location  
 

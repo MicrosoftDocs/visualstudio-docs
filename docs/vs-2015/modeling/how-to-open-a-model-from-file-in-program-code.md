@@ -29,7 +29,7 @@ You can open DSL models in any application.
 3. In the project properties window, on the **Application** tab, set the **Target framework** field to **.NET Framework 4**.  
   
 > [!NOTE]
->  You might need to do this even if you selected **.NET Framework 4** in the project creation dialog box. The target framework should not be **.NET Framework 4 Client Profile**.  
+> You might need to do this even if you selected **.NET Framework 4** in the project creation dialog box. The target framework should not be **.NET Framework 4 Client Profile**.  
   
 ## References  
  You have to add these references to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] application project:  

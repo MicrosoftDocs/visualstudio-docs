@@ -33,7 +33,7 @@ If a template fails to load in the development environment, there are several wa
 5. Verify that the XML of the .vstemplate file adheres to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] template schema. For more information on the .vstemplate schema, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).  
   
     > [!NOTE]
-    >  To get IntelliSense support while authoring the .vstemplate file, add a `xmlns` attribute to the `VSTemplate` element and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.  
+    > To get IntelliSense support while authoring the .vstemplate file, add a `xmlns` attribute to the `VSTemplate` element and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.  
   
 6. Save and close the .vstemplate file.  
   

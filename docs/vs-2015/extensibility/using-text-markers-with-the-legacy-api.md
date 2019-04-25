@@ -19,7 +19,7 @@ A text marker is a floating range of text in a buffer that can affect the displa
  Because of the performance overhead associated with text markers, do not create many markers for your text buffers. Each marker is updated every time that a user edits the buffer contents.  
   
 > [!NOTE]
->  Users can change the color of a visible marker type but not its shape and style. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
+> Users can change the color of a visible marker type but not its shape and style. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
   
 ## Related Topics  
   

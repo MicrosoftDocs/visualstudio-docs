@@ -289,7 +289,7 @@ ms.workload:
     ```
 
     > [!WARNING]
-    >  Be sure to replace "TestServer" in the code with the name of a valid server that's running SharePoint.
+    > Be sure to replace "TestServer" in the code with the name of a valid server that's running SharePoint.
 
 ## Test the application page
  Next, determine whether the application page displays the expense data correctly.

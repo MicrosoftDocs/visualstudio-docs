@@ -174,14 +174,14 @@ You can explore basic tasks, such as adding tables and defining columns, by usin
 6. Add data for at least three orders.  
   
     > [!IMPORTANT]
-    >  Make sure that all order IDs and order quantities are integers and that each customer ID  matches a value that you specified in the CustomerID column of the Customers table.  
+    > Make sure that all order IDs and order quantities are integers and that each customer ID  matches a value that you specified in the CustomerID column of the Customers table.  
   
 7. On the menu bar, select **File** > **Save All**.  
   
 8. On the menu bar, select **File** > **Close Solution**.  
   
     > [!NOTE]
-    >  As a best practice, you can back up the database file that you just created by copying it and then either pasting the copy in another location or giving the copy a different name.  
+    > As a best practice, you can back up the database file that you just created by copying it and then either pasting the copy in another location or giving the copy a different name.  
   
 ## Next Steps  
  Now that you have a local database file with some sample data, you can complete any of the walkthroughs that demonstrate database tasks.

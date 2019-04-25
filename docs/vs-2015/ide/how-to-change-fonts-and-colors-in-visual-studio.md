@@ -19,7 +19,7 @@ manager: jillfra
 You can customize the color of the IDE frame and tool windows in Visual Studio in several ways.
 
 > [!TIP]
->  For information about how to change the colors of the code editor, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
+> For information about how to change the colors of the code editor, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
 ### Change the Color Theme of the IDE
 
@@ -30,7 +30,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 3. In the **Color theme** list, choose either the default **Blue** theme, **Dark** or **Light**.
 
     > [!IMPORTANT]
-    >  When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes.
+    > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes.
     >
     >  If you have Visual Studio Professional, Visual Studio Premium, or Visual Studio Ultimate, you can install additional predefined color themes and create your own by downloading and installing the [Visual Studio 2013 Color Theme Editor](http://visualstudiogallery.msdn.microsoft.com/9e08e5d3-6eb4-4e73-a045-6ea2a5cbdabe).
 
@@ -39,7 +39,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 - Choose the Left Alt + Left Shift + Print Screen keys.
 
     > [!WARNING]
-    >  This option sets high contrast for all applications and UI on the current computer.
+    > This option sets high contrast for all applications and UI on the current computer.
 
 ## Change IDE Fonts
  You can change the font and text size for all windows and dialog boxes in the IDE. You can choose to customize only certain windows and other text elements.
@@ -53,7 +53,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 3. In the **Show settings for** list, choose **Environment Font**.
 
     > [!TIP]
-    >  If you want to change the font for tool windows only, in the **Show settings for** list, choose **[All Text Tool Windows]**.
+    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **[All Text Tool Windows]**.
 
 4. In the **Font** list, choose a font.
 

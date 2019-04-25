@@ -55,7 +55,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
      ![Change Data Provider to OLE DB](../data-tools/media/datachangedatasourceoledb.png "dataChangeDataSourceOLEDB")  
   
     > [!IMPORTANT]
-    >  Although a data source of **Microsoft Access Database File (OLE DB)** might seem like the right choice, you use that data-source type only for .mdb database files.  
+    > Although a data source of **Microsoft Access Database File (OLE DB)** might seem like the right choice, you use that data-source type only for .mdb database files.  
   
 8. In **OLE DB Provider**, select **Microsoft Office 12.0 Access Database Engine OLE DB Provider**.  
   
@@ -64,7 +64,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
 9. In **Server or file name**, specify the path and name of the .accdb file to which you want to connect, and then select **OK**.  
   
     > [!NOTE]
-    >  If the database file has a user name and password, specify them before you select **OK**.  
+    > If the database file has a user name and password, specify them before you select **OK**.  
   
 10. Select **Next** on the **Choose your Data Connection** page.  
   

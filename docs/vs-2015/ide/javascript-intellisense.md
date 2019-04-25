@@ -76,7 +76,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 - The [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)], if you are working in an AJAX-enabled ASP.NET Web application.
 
     > [!NOTE]
-    >  IntelliSense is not supported for script that is in event-handler attributes on HTML elements, or that is defined in `href` attributes.
+    > IntelliSense is not supported for script that is in event-handler attributes on HTML elements, or that is defined in `href` attributes.
 
 ## <a name="ProcessingIntelliSenseInformation"></a> Processing IntelliSense Information
  To provide JavaScript IntelliSense, the language service performs the following operations:
@@ -183,7 +183,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  `/// <reference path="~/Services/MyService.asmx" />`
 
 > [!NOTE]
->  JavaScript IntelliSense is not supported for script that is contained in Web service (.asmx) files in Web Application Projects (WAP).
+> JavaScript IntelliSense is not supported for script that is contained in Web service (.asmx) files in Web Application Projects (WAP).
 
  The following example shows how to reference page-based script.
 
@@ -227,18 +227,18 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).
 
 > [!TIP]
->  The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.
+> The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.
 
 ### Remote File References
  You can instruct Visual Studio to download remote JavaScript files that are referenced in a JavaScript file in order to provide IntelliSense support for the remote file or library. When you use this feature, files will download when you include them as a reference in your JavaScript file.
 
 > [!NOTE]
->  Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.
+> Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.
 
  For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).
 
 > [!WARNING]
->  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.
+> If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.
 
 ### <a name="XMLDocComments"></a> XML Documentation Comments
  XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).
@@ -257,7 +257,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  ASP.NET AJAX also supports JavaScript IntelliSense. ASP.NET AJAX includes a client framework that extends the standard types that are available in ECMAScript (JavaScript). To enable JavaScript IntelliSense to provide details about ASP.NET AJAX objects, XML documentation comments have been added throughout the [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)]. These XML documentation comments are displayed when you use types and members that are contained in the ASP.NET AJAX Library.
 
 > [!NOTE]
->  Private members are not displayed by JavaScript IntelliSense. Private members are denoted in ASP.NET AJAX as members that begin with an underscore (_).
+> Private members are not displayed by JavaScript IntelliSense. Private members are denoted in ASP.NET AJAX as members that begin with an underscore (_).
 
 ## <a name="Extensibility"></a> JavaScript IntelliSense Extensibility
  The JavaScript language service provides objects and functions that enable you to modify the IntelliSense experience for developers who use third-party libraries. These features are especially useful when the default language service isn't able to provide all the information that you want to provide to customers. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # CONSTRUCTOR_ENUM
 Selects different types of constructors.
@@ -34,14 +37,14 @@ public enum ConstructorMatchOptions {
 };
 ```
 
-## Members
-crAll
+## Fields
+`crAll`\
 Selects all constructors.
 
-crNonStatic
+`crNonStatic`\
 Selects non-static constructors.
 
-crStatic
+`crStatic`\
 Selects static constructors.
 
 ## Remarks
@@ -54,6 +57,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetReason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md)

@@ -60,7 +60,7 @@ HRESULT HandleRuntimeError(
  A language engine calls this method in the context of a thread that causes a run-time error. This method causes the current thread to block and sends an error notification to be sent to the debugger IDE. When the debugger IDE resumes the application, this method returns with the action to be taken.  
   
 > [!NOTE]
->  While in the run-time fault, the language engine may be called by the thread to do such tasks as enumerate stack frames or evaluate expressions.  
+> While in the run-time fault, the language engine may be called by the thread to do such tasks as enumerate stack frames or evaluate expressions.  
   
 ## See Also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   

@@ -47,9 +47,9 @@ When you are creating a new state machine workflow project in [!INCLUDE[vs2010](
  When you drag a new **StateActivity** onto the workflow design surface, you can add [EventDrivenActivity](http://go.microsoft.com/fwlink?LinkID=65029), [StateInitializationActivity](http://go.microsoft.com/fwlink?LinkID=65044), [StateFinalizationActivity](http://go.microsoft.com/fwlink?LinkID=65043), or additional **StateActivity** activities as child activities.  
   
 > [!CAUTION]
->  When you use the state machine workflow designer to create workflows, you must monitor the structure of the workflow you are designing with the **Document Outline** view window. The view of the structure of the state machine workflow in the **Document Outline** view window mirrors the logical layout of the activities in the workflow markup file. The physical layout of the workflow activities as they appear on the design surface might not mirror the logical layout of the activities in the workflow markup file.  
+> When you use the state machine workflow designer to create workflows, you must monitor the structure of the workflow you are designing with the **Document Outline** view window. The view of the structure of the state machine workflow in the **Document Outline** view window mirrors the logical layout of the activities in the workflow markup file. The physical layout of the workflow activities as they appear on the design surface might not mirror the logical layout of the activities in the workflow markup file.  
 >   
->  To open the **Document Outline** window, on the **View** menu, point to **Other Windows**, and then select **Document Outline**.  
+> To open the **Document Outline** window, on the **View** menu, point to **Other Windows**, and then select **Document Outline**.  
   
 ## See Also  
  [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)   

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_REQUEST_INFO
 Contains the information required to implement a breakpoint.
@@ -49,34 +52,34 @@ public struct BP_REQUEST_INFO {
 ```
 
 ## Members
-`dwFields`
+`dwFields`\
 A combination of flags from the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration that specifies which fields are filled out.
 
-`guidLanguage`
+`guidLanguage`\
 The language GUID.
 
-`bpLocation`
+`bpLocation`\
 The [BP_LOCATION](../../../extensibility/debugger/reference/bp-location.md) structure that specifies the type of the breakpoint location.
 
-`pProgram`
+`pProgram`\
 The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the application in which the breakpoint occurs.
 
-`bstrProgramName`
+`bstrProgramName`\
 The name of the application in which the breakpoint occurs.
 
-`pThread`
+`pThread`\
 The [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread in which the breakpoint occurs.
 
-`bstrThreadName`
+`bstrThreadName`\
 The name of the thread in which the breakpoint occurs.
 
-`bpCondition`
+`bpCondition`\
 The [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) structure that describes the conditions under which the breakpoint will fire.
 
-`bpPassCount`
+`bpPassCount`\
 The [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) structure that contains the pass count information of the breakpoint.
 
-`dwFlags`
+`dwFlags`\
 A combination of flags from the [BP_FLAGS](../../../extensibility/debugger/reference/bp-flags.md) enumeration that specifies the flags for the requested breakpoint.
 
 ## Remarks
@@ -91,7 +94,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
 - [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)

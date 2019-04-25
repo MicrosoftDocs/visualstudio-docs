@@ -20,9 +20,9 @@ manager: jillfra
 Welcome to Visual Studio! We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, and Windows in one IDE. Get great IntelliSense, easy code navigation, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.
 
 > [!NOTE]
->  Click here for release notes for [Visual Studio 2015 update 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs).
+> Click here for release notes for [Visual Studio 2015 update 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs).
 >
->  Click here for release notes for [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
+> Click here for release notes for [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
 
  Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](http://www.visualstudio.com/products/compare-visual-studio-products-vs).)
 

@@ -27,7 +27,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  See [Run Windows Phone apps in the emulator](../debugger/run-windows-phone-apps-in-the-emulator.md) for Windows Phone information.  
   
 > [!IMPORTANT]
->  The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation. If you need to do this kind of simulation, you can use the Visual Studio 2013 simulator on Windows 8.1 or earlier operating systems.  
+> The Visual Studio 2015 simulator does not include the geolocation button. This is because the Windows 10 simulator does not include geolocation simulation. If you need to do this kind of simulation, you can use the Visual Studio 2013 simulator on Windows 8.1 or earlier operating systems.  
   
 ## <a name="BKMK_Set_the_simulator_as_the_target"></a> Set the simulator as the target  
  To run your Windows Store app in the simulator, select **Simulator** from the drop-down list next to the **Start Debugging** button on the debugger **Standard** toolbar.  
@@ -80,10 +80,10 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  You can switch the device orientation between portrait and landscape by rotating the simulator 90 degrees in any direction.  
   
 > [!NOTE]
->  The simulator does not respect [DisplayProperties.AutoRotationPreferences](http://go.microsoft.com/fwlink/?LinkId=249460) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
+> The simulator does not respect [DisplayProperties.AutoRotationPreferences](http://go.microsoft.com/fwlink/?LinkId=249460) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
   
 > [!NOTE]
->  If you rotate the simulator so that one edge of the simulator is larger than the screen it is displayed on, the simulator is automatically resized to fit within the screen. The simulator is not resized to its original size if you rotate it again.  
+> If you rotate the simulator so that one edge of the simulator is larger than the screen it is displayed on, the simulator is automatically resized to fit within the screen. The simulator is not resized to its original size if you rotate it again.  
   
 ## <a name="BKMK_Change_the_simulated_screen_size_and_resolution"></a> Change the simulated screen size and resolution  
  To change the simulated screen size and resolution, choose the **Change Resolution** button  on the palette and choose a new size and resolution from the list.  
@@ -91,13 +91,13 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  The screen size and resolution are listed as *Screen width inches, pixel width X pixel height*. Note that both the screen size and the resolution are simulated. Location co-ordinates on the simulator are translated to the co-ordinates of the selected device size and resolution.  
   
 > [!NOTE]
->  You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Responsive Design 101](https://msdn.microsoft.com/library/windows/apps/dn958435.aspx). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.  
+> You can save scaled versions of bitmap images in your app and Windows will load the correct image for the current scale. For more information, see [Responsive Design 101](https://msdn.microsoft.com/library/windows/apps/dn958435.aspx). However, if you change the simulator resolution so that Windows picks a different image to fit the resolution, you have to stop and restart your debug session to view the new image.  
   
 ## <a name="BKMK_Capture_a_screenshot_of_your_app_for_submission_to_the_Microsoft_Store"></a> Capture a screenshot of your app for submission to the Windows Store  
  When you submit an app to the Windows app store, you must include screenshots of the app.  
   
 > [!NOTE]
->  The screenshot is saved at the current resolution of the simulator. To change the resolution, choose the **Change Resolution** button.  
+> The screenshot is saved at the current resolution of the simulator. To change the resolution, choose the **Change Resolution** button.  
   
 - To create screenshots of your app from the simulator, choose the **Capture screenshot to clipboard** button.  
   

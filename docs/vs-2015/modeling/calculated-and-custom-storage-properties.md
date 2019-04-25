@@ -48,7 +48,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
      Dsl\GeneratedCode\DomainClasses.cs or DomainRelationships.cs opens. Above the highlighted method call, a comment prompts you to provide an implementation for Get*YourProperty*().  
   
     > [!NOTE]
-    >  This file is generated from DslDefinition.dsl. If you edit this file, your changes will be lost the next time that you click **Transform All Templates**. Instead, add the required method in a separate file.  
+    > This file is generated from DslDefinition.dsl. If you edit this file, your changes will be lost the next time that you click **Transform All Templates**. Instead, add the required method in a separate file.  
   
 6. Create or open a class file in a separate folder, for example CustomCode\\*YourDomainClass*.cs.  
   

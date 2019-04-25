@@ -35,7 +35,7 @@ Applies to Windows and console applications.
  Later, you can go back and see which permissions you added during debugging. If you had to add a permission while debugging, it probably indicates that you need to add a User Consent Prompt at that point in your code.  
   
 > [!NOTE]
->  Debugger visualizers require greater privileges than are allowed by a partial trust application. Visualizers will not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.  
+> Debugger visualizers require greater privileges than are allowed by a partial trust application. Visualizers will not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.  
   
 ### To choose a zone for your partial-trust application  
   

@@ -34,7 +34,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 2. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.  
   
     > [!NOTE]
-    >  You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.  
+    > You should only reference services from a trusted source. Adding references from an untrusted source may compromise security.  
   
      You can also select the URL from the **Address** list, which stores the previous 15 URLs at which valid service metadata was found.  
   
@@ -85,7 +85,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
      The service client will be removed from the solution, and the metadata that describes the service will be removed from the app.config file.  
   
     > [!NOTE]
-    >  Any code that references the service reference will have to be removed manually.  
+    > Any code that references the service reference will have to be removed manually.  
   
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

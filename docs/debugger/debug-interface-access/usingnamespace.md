@@ -17,7 +17,7 @@ ms.workload:
 Some symbols might be referred to by namespace, and would subsequently be identified by a `SymTagUsingNameSpace` tag.
 
 > [!NOTE]
->  The UsingNamespace symbol tag appears only in managed code.
+> The UsingNamespace symbol tag appears only in managed code.
 
 ## Properties
  The following table shows the properties that are valid for this symbol type.

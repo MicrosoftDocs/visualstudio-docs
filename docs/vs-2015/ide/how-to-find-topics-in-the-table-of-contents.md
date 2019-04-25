@@ -23,7 +23,7 @@ manager: jillfra
 In the **Contents** tab, you can use the table of contents (TOC) to find information. The table of contents is an expandable list that contains all of the topics in the installed books. For accessibility information about how to navigate through the TOC, see [Shortcut Keys (Help Viewer)](../ide/shortcut-keys-help-viewer.md).  
   
 > [!IMPORTANT]
->  The scope of topics available in the TOC depends on the filter you have selected.  
+> The scope of topics available in the TOC depends on the filter you have selected.  
   
 ## Filter the TOC  
  You can filter the TOC to narrow the scope of topics that appear in the **Contents** tab. Titles appear in the list only if they contain the root of the term that you specify. For example, if you specify "troubleshooting" as a filter, only titles that contain "troubleshoot" or "troubleshooting" appear. Nodes whose titles don't contain the term are collapsed to a single node with an ellipsis (...).  
@@ -35,7 +35,7 @@ In the **Contents** tab, you can use the table of contents (TOC) to find informa
 2. In the **Filter Contents** text box, enter a term.  
   
 > [!NOTE]
->  If the filter takes a long time to run, you might display results more quickly by using the `title:` advanced search operator.  
+> If the filter takes a long time to run, you might display results more quickly by using the `title:` advanced search operator.  
   
 ## Synchronize a topic with the TOC  
  If you have opened a topic using the index or full-text search features, you can determine where this topic is in the TOC by synchronizing the TOC with the topic window.  

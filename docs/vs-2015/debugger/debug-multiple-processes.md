@@ -58,7 +58,7 @@ Here’s how to start debugging processes, switch between processes, break and c
 - [Start debugging multiple processes in a Visual Studio solution](#BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution) • [Change the startup project](#BKMK_Change_the_startup_project) • [Start a specific project in a solution](#BKMK_Start_a_specific_project_in_a_solution) • [Start multiple projects in a solution](#BKMK_Start_multiple_projects_in_a_solution) • [Attach to a process](#BKMK_Attach_to_a_process) • [Automatically start a process in the debugger](#BKMK_Automatically_start_an_process_in_the_debugger)  
   
 > [!NOTE]
->  The debugger does not automatically attach to a child process that is started by a debugged process, even if the child project is in the same solution. To debug a child process:  
+> The debugger does not automatically attach to a child process that is started by a debugged process, even if the child project is in the same solution. To debug a child process:  
 > 
 > - Attach to the child process after it has been started.  
 > 
@@ -160,7 +160,7 @@ Here’s how to start debugging processes, switch between processes, break and c
 ### <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands  
   
 > [!NOTE]
->  By default, the break, continue and step debugger commands affect all processes that are being debugged. To change this behavior, see [Configure the execution behavior of multiple processes](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
+> By default, the break, continue and step debugger commands affect all processes that are being debugged. To change this behavior, see [Configure the execution behavior of multiple processes](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
   
 ||||  
 |-|-|-|  
@@ -191,7 +191,7 @@ Here’s how to start debugging processes, switch between processes, break and c
   For example, if you start debugging a process from a Visual Studio solution, attach to another process that is already running, and then choose **Stop Debugging**, the debugging session ends, the process that was started in Visual Studio is terminated, while the process that you attached is left running. You can use the following procedures to control the way that you stop debugging.  
   
 > [!NOTE]
->  The **Break all processes when one process breaks** option does not affect stopping debugging or terminating and detaching from processes.  
+> The **Break all processes when one process breaks** option does not affect stopping debugging or terminating and detaching from processes.  
   
  **To change how Stop Debugging affects an individual process**  
   

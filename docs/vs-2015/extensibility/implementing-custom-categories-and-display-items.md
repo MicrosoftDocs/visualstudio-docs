@@ -84,7 +84,7 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
   - Display information for each member of **Category**.  
   
   > [!NOTE]
-  >  Every **Category** must contain at least one **Display item**.  
+  > Every **Category** must contain at least one **Display item**.  
   
 - The IDE uses the `T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup` interface to define a union of several categories.  
   
@@ -116,7 +116,7 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
      This can be done through the system-implemented <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface. Although primarily for support of persistence, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> method can be used to obtain font and color information for **Display items**. For more information, see [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md).  
   
     > [!NOTE]
-    >  To ensure that the results obtained by polling are correct, it may be useful to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.  
+    > To ensure that the results obtained by polling are correct, it may be useful to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>   

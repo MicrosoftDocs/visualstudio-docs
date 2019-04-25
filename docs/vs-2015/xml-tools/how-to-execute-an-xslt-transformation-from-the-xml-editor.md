@@ -34,7 +34,7 @@ The XML Editor allows you to associate an XSLT style sheet with an XML document,
 3. Click the **ShowXSL Output** button on the **XML Editor** toolbar.  
   
     > [!NOTE]
-    >  If there is no style sheet associated with the XML document, a dialog box prompts you to provide the style sheet to use.  
+    > If there is no style sheet associated with the XML document, a dialog box prompts you to provide the style sheet to use.  
     >   
     >  The resulting output from the XSLT transformation is displayed in a new document window.  
   
@@ -45,7 +45,7 @@ The XML Editor allows you to associate an XSLT style sheet with an XML document,
 2. Specify an XML document in the **Input** field of the document **Properties** window.  
   
     > [!NOTE]
-    >  The XML document is the input document used for transformation. If a document is not specified when the XSLT transformation is started, the **File Open** dialog box appears, and you can specify a document at that time.  
+    > The XML document is the input document used for transformation. If a document is not specified when the XSLT transformation is started, the **File Open** dialog box appears, and you can specify a document at that time.  
   
 3. Click the **ShowXSLT Output** button on the **XML Editor** toolbar.  
   

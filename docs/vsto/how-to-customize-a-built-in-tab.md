@@ -20,14 +20,14 @@ ms.workload:
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
 > [!NOTE]
->  You can add groups to a built-in tab, but you cannot remove built-in groups from a built-in tab.
+> You can add groups to a built-in tab, but you cannot remove built-in groups from a built-in tab.
 
 ### To add groups to a built-in tab
 
 1. Right-click the Ribbon code file in **Solution Explorer**, and then click **View Designer**.
 
     > [!NOTE]
-    >  If the Ribbon code file doesn't appear in **Solution Explorer**, you must add a **Ribbon item** to your project. See [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
+    > If the Ribbon code file doesn't appear in **Solution Explorer**, you must add a **Ribbon item** to your project. See [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).
 
 2. Right-click any tab in the Ribbon designer, and then click **Properties**.
 
@@ -42,7 +42,7 @@ ms.workload:
 5. From the **Office Ribbon Controls** tab of the **Toolbox**, drag groups onto the tab.
 
     > [!NOTE]
-    >  Built-in groups do not appear in the designer. Therefore, the only way to determine whether you are working with a built-in tab is to examine the **ControlId** property of the tab.
+    > Built-in groups do not appear in the designer. Therefore, the only way to determine whether you are working with a built-in tab is to examine the **ControlId** property of the tab.
 
 ### To position groups on a built-in tab
 

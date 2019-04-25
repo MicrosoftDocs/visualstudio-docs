@@ -42,7 +42,7 @@ SCCRTN SccBackgroundGet(
 [in, out] Array of names of files to be retrieved.
 
 > [!NOTE]
->  The names must be fully qualified local filenames.
+> The names must be fully qualified local filenames.
 
  dwFlags
 

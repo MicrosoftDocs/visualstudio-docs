@@ -53,7 +53,7 @@ You can customize the appearance and behavior of the properties window in your d
  To forward a property, you define a domain type descriptor. If you have a domain relationship between two domain classes, you can use a domain type descriptor to set a domain property in the first class to the value of a domain property in the second domain class. For example, if you have a relationship between a **Book** domain class and an **Author** domain class, you can use a domain type descriptor to make the **Name** property of a Book's **Author** appear in the Properties window when the user selects the Book.
 
 > [!NOTE]
->  Property forwarding affects only the Properties window when the user is editing a model. It does not define a domain property on the receiving class. If you want to access the forwarded domain property in other parts of the DSL Definition or in program code, you must access the forwarding element.
+> Property forwarding affects only the Properties window when the user is editing a model. It does not define a domain property on the receiving class. If you want to access the forwarded domain property in other parts of the DSL Definition or in program code, you must access the forwarding element.
 
  The following procedure assumes that you have created a DSL. The first few steps summarize the prerequisites.
 
@@ -111,7 +111,7 @@ You can customize the appearance and behavior of the properties window in your d
         A new entry appears under the **Domain Types** node.
 
        > [!WARNING]
-       >  The menu item is on the DSL root node, not the **Domain Types** node.
+       > The menu item is on the DSL root node, not the **Domain Types** node.
 
    2. Set the name and the namespace of the new type in the Properties window.
 
@@ -171,7 +171,7 @@ You can customize the appearance and behavior of the properties window in your d
   You can also provide a graphical representation of the property's value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.
 
 > [!NOTE]
->  Add the code in a separate code file in the **Dsl** project.
+> Add the code in a separate code file in the **Dsl** project.
 
  For example:
 
@@ -201,7 +201,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
  You can provide a list of values for a user to choose from.
 
 > [!NOTE]
->  This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.
+> This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.
 
  To define a list of standard values, you add to your domain property a CLR attribute that has the following form:
 

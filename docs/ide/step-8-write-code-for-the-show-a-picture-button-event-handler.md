@@ -73,7 +73,7 @@ The IDE has a powerful tool called IntelliSense that helps you write code. As yo
          To learn more about DialogResult, see [DialogResult](<xref:System.Windows.Forms.DialogResult>).
 
         > [!NOTE]
-        >  The first line of code should be complete. For Visual C#, it should be the following.
+        > The first line of code should be complete. For Visual C#, it should be the following.
         >
         >  `if (openFileDialog1.ShowDialog() == DialogResult.OK)`
         >

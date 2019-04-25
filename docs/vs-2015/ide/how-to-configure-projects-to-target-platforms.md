@@ -40,7 +40,7 @@ manager: jillfra
    2. In the **Type or select the new platform** list, choose **x64**.  
   
        > [!NOTE]
-       >  If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.  
+       > If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.  
   
    3. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.  
   

@@ -69,7 +69,7 @@ public class MySequenceDiagramCommand : ICommandExtension
  There are two kinds of sequence diagrams: those that are manually created in a UML modeling project, and those that were generated from program code. Use the `UmlMode` property to discover which sequence diagram you have.  
   
 > [!NOTE]
->  This property returns false only for sequence diagrams generated from code using Visual Studio 2013 and earlier. This includes code-generated sequence diagrams migrated from 2013 and earlier. This version of Visual Studio doesn't support generating new sequence diagrams.  
+> This property returns false only for sequence diagrams generated from code using Visual Studio 2013 and earlier. This includes code-generated sequence diagrams migrated from 2013 and earlier. This version of Visual Studio doesn't support generating new sequence diagrams.  
   
  For example, if you want to make a menu command that is only visible on UML sequence diagrams, then the `QueryStatus()` method could include the following statement:  
   

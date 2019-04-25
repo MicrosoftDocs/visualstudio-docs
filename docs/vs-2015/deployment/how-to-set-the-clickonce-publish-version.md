@@ -26,7 +26,7 @@ The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` pro
  The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.  
   
 > [!NOTE]
->  There is a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [How to: Automatically Increment the ClickOnce Publish Version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md).  
+> There is a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [How to: Automatically Increment the ClickOnce Publish Version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md).  
   
 ### To change the Publish Version  
   
@@ -37,7 +37,7 @@ The [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] `Publish Version` pro
 3. In **Publish Version** field, increment the **Major**, **Minor**, **Build**, or **Revision** version numbers.  
   
     > [!NOTE]
-    >  You should never decrement a version number; doing so could cause unpredictable update behavior.  
+    > You should never decrement a version number; doing so could cause unpredictable update behavior.  
   
 ## See Also  
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   

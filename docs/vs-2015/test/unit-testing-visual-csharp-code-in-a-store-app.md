@@ -20,7 +20,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
  This topic also creates a single Visual Studio solution and separate projects for the unit tests and the DLL that you want to test. You can also include the unit tests directly in the DLL project, or you can create separate solutions for the unit tests and the DLL.  
   
 > [!NOTE]
->  Visual Studio Community, Enterprise. and Professional provide additional features for unit testing.  
+> Visual Studio Community, Enterprise. and Professional provide additional features for unit testing.  
 > 
 > - Use any third-party and open source unit test framework that has created an add-on adapter for the Microsoft Test Explorer. You can also analyze and display code coverage information for the tests.  
 >   - Run your tests after every build.  
@@ -205,7 +205,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
     ```  
   
     > [!TIP]
-    >  We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.  
+    > We recommend that you do not change tests that have passed. Instead, add a new test, update the code so that the test passes, and then add another test, and so on.  
     >   
     >  When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.  
   
@@ -216,7 +216,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
      ![The RangeTest fails](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
-    >  Immediately after you have written it, verify that each test fails. This helps you avoid the easy mistake of writing a test that never fails.  
+    > Immediately after you have written it, verify that each test fails. This helps you avoid the easy mistake of writing a test that never fails.  
   
 4. Enhance the code under test so that the new test passes. Change the `SqareRoot` function in **Rooter.cs** to this:  
   
@@ -241,7 +241,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
      All three tests now pass.  
   
 > [!TIP]
->  Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
+> Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.  
   
 ## <a name="BKMK_Debug_a_failing_test"></a> Debug a failing test  
   
@@ -326,7 +326,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
 2. Choose **Run All** to test the refactored method and make sure that you haven't introduced a regression.  
   
 > [!TIP]
->  A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.  
+> A stable set of good unit tests gives confidence that you have not introduced bugs when you change the code.  
   
  **Refactor the test code to eliminate duplicated code.**  
   
@@ -359,4 +359,4 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
 2. Choose **Run All** to test the refactored method and make sure that you haven't introduced an error.  
   
 > [!NOTE]
->  To add a helper method to a test class, do not add the `[TestMethod]` attribute to the method. Test Explorer does not register the method to be run.
+> To add a helper method to a test class, do not add the `[TestMethod]` attribute to the method. Test Explorer does not register the method to be run.

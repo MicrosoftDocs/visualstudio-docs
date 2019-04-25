@@ -23,7 +23,7 @@ If an item file being opened by a project is intrinsically bound to the particul
 1. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> method (`RDT_EditLock`) to determine whether the file (document data object) is already open.
 
     > [!NOTE]
-    >  For more information about document data and document view objects, see [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md).
+    > For more information about document data and document view objects, see [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md).
 
 2. If the file is already open, resurface the file by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A> method and specifying a value of IDO_ActivateIfOpen for the `grfIDO` parameter.
 

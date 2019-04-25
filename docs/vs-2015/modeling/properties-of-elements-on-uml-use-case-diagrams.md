@@ -21,7 +21,7 @@ manager: jillfra
 In a UML Use Case Diagram, each element on the diagram has properties. To see the properties of an element, right-click the element on the diagram or in **UML Model Explorer** and then click **Properties**. The properties appear in the **Properties** window.  
   
 > [!NOTE]
->  This topic is about the properties of elements in UML Use Case Diagrams. For more information about how to read UML activity diagrams, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md). For more information about how to draw UML activity diagrams, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
+> This topic is about the properties of elements in UML Use Case Diagrams. For more information about how to read UML activity diagrams, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md). For more information about how to draw UML activity diagrams, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md).  
   
 ## Properties of Elements  
   

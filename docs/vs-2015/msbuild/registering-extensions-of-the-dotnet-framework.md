@@ -24,7 +24,7 @@ You can develop an assembly that extends a specific version of the .NET Framewor
  Register this folder by using this key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\. Give the key this default value: C:\TreyResearch\Extensions4.  
   
 > [!NOTE]
->  The build number of the .NET Framework version may be different.  
+> The build number of the .NET Framework version may be different.  
   
  To register a 32-bit assembly on a 64-bit computer, use the Wow6432 node, for example: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\v4.0.21006\AssemblyFoldersEx\TreyResearch\\.  
   

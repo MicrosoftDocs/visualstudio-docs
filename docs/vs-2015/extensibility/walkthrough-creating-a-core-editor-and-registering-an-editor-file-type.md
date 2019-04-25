@@ -321,7 +321,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 3. Open the VSPackage.resx file and add a new string, set the name to **101** and the value to `IDS_EDITORNAME`. This provides the package with a resource ID to access the string you just created.  
   
     > [!NOTE]
-    >  If the VSPackage.resx file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.  
+    > If the VSPackage.resx file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.  
   
 4. In **Solution Explorer**, open the MyPackagePackage.cs file.  
   

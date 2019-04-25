@@ -21,7 +21,7 @@ ms.workload:
   After you develop a SharePoint solution in Visual Studio, you can either deploy its package (.wsp) file to a local SharePoint server or publish it to a remote or local SharePoint server. If you deploy the files, you can customize how the package files (.wsp) are deployed.
 
 > [!NOTE]
->  Currently, only sandboxed solutions can be published to remote SharePoint servers. For more information, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
+> Currently, only sandboxed solutions can be published to remote SharePoint servers. For more information, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
 
 ## Deploy, publish, and upgrade
  *Deploying* refers to copying a SharePoint solution file built from a SharePoint project in Visual Studio to a local host. In a deployed solution, you can configure the deployment steps, such as recycling the Internet Information Services (IIS) pool, activating the solution after deployment, and so forth. To deploy, use the **Deploy** command on the **Build** menu. For more information, see [How to: Edit a SharePoint deployment configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md) and [How to: Deploy and publish a SharePoint solution to a Local SharePoint site](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md).

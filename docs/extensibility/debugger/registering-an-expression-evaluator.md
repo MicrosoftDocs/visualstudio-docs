@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Register an expression evaluator
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  The expression evaluator (EE) must register itself as a class factory with both the Windows COM environment and Visual Studio. An EE is set up as a DLL so that it's injected into either the debug engine (DE) address space or the Visual Studio address space, depending on which entity instantiates the EE.
 
@@ -95,7 +95,7 @@ namespace EEMC
  The EE DLL implements the `DllRegisterServer` function to register itself with the  COM environment as well as Visual Studio.
 
 > [!NOTE]
->  You can find the MyCEE code sample registry code in the file *dllentry.cpp*, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.
+> You can find the MyCEE code sample registry code in the file *dllentry.cpp*, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.
 
 ### DLL server process
  When registering the EE, the DLL server:
@@ -112,7 +112,7 @@ namespace EEMC
     |`metricEngine`|`GUID`s of the debug engines (DE) that work with this EE|
 
     > [!NOTE]
-    >  The `metricLanguage``GUID` identifies the language by name, but it is the `guidLang` argument to `SetEEMetric` that selects the language. When the compiler generates the debug information file, it should write the appropriate `guidLang` so that the DE knows which EE to use. The DE typically asks the symbol provider for this language `GUID`, which is stored in the debug information file.
+    > The `metricLanguage``GUID` identifies the language by name, but it is the `guidLang` argument to `SetEEMetric` that selects the language. When the compiler generates the debug information file, it should write the appropriate `guidLang` so that the DE knows which EE to use. The DE typically asks the symbol provider for this language `GUID`, which is stored in the debug information file.
 
 3. Registers with Visual Studio by creating keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the version of Visual Studio to register with.
 

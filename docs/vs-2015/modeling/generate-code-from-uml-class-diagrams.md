@@ -95,7 +95,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 2. In the **Properties** window, choose the drop-down arrow in the **Stereotypes** property, and then select the check box for the stereotype that you want to apply.  
 
    > [!TIP]
-   >  If the C# stereotypes do not appear, enable the C# Profile for the model or for a package that contains the model elements in which you are interested. Select the package or the root of the model in **UML Model Explorer**. Then in the **Properties** window, choose **Profile**, and then enable the C# Profile.  
+   > If the C# stereotypes do not appear, enable the C# Profile for the model or for a package that contains the model elements in which you are interested. Select the package or the root of the model in **UML Model Explorer**. Then in the **Properties** window, choose **Profile**, and then enable the C# Profile.  
 
 3. Expand the **Stereotypes** property to see the additional properties that you can set.  
 
@@ -138,7 +138,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
  More than one template can be applied to a model element. You can generate more than one file from each model element.  
 
 > [!NOTE]
->  The bindings attached to the root of the model act as defaults for all elements in the model. To see these default bindings, open **UML Model Explorer**. Open the modeling project's shortcut menu, then choose **Set Up Code Generation**. Alternatively, you can select the root of the model in UML Model Explorer. In the Properties window, choose **[…]** in the **Text Template Bindings** property. The bindings will not appear until you have used the **Generate Code** command at least once. Template bindings cannot be attached to a diagram.  
+> The bindings attached to the root of the model act as defaults for all elements in the model. To see these default bindings, open **UML Model Explorer**. Open the modeling project's shortcut menu, then choose **Set Up Code Generation**. Alternatively, you can select the root of the model in UML Model Explorer. In the Properties window, choose **[…]** in the **Text Template Bindings** property. The bindings will not appear until you have used the **Generate Code** command at least once. Template bindings cannot be attached to a diagram.  
 
 #### To attach text template bindings to a package or other model element  
 

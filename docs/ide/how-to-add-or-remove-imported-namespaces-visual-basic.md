@@ -30,7 +30,7 @@ Importing a namespace allows you to use elements from that namespace in your cod
 3. In the **Imported Namespaces** list, select the check box for the namespace that you wish to add.
 
     > [!NOTE]
-    >  In order to be imported, the namespace must be in a referenced component. If the namespace does not appear in the list, you will need to add a reference to the component that contains it. For more information, see [Managing references in a project](managing-references-in-a-project.md).
+    > In order to be imported, the namespace must be in a referenced component. If the namespace does not appear in the list, you will need to add a reference to the component that contains it. For more information, see [Managing references in a project](managing-references-in-a-project.md).
 
 ### To remove an imported namespace
 

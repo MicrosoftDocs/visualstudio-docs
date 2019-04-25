@@ -48,7 +48,7 @@ Refactoring is the process of improving your code after it has been written by c
  If the compiler does not have a complete understanding of your program, and it is possible that the refactoring engine might not update all the appropriate references, the warning dialog box is displayed. This warning dialog box also provides an opportunity for you to preview your code in the **Preview Changes** dialog box before you commit changes.  
   
 > [!NOTE]
->  If a method contains a syntax error (which the IDE indicates with a red wavy underline), then the refactoring engine will not update any references to an element within that method. The example below illustrates this behavior.  
+> If a method contains a syntax error (which the IDE indicates with a red wavy underline), then the refactoring engine will not update any references to an element within that method. The example below illustrates this behavior.  
   
  By default, if you execute a refactoring operation without previewing reference changes and a compilation error is detected in your program, then the development environment displays this warning dialog box.  
   

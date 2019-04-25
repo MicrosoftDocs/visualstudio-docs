@@ -22,7 +22,7 @@ Design-time T4 text templates let you generate program code and other files in y
  For example, you could have a model that defines a workflow, either as a table or a diagram. From the model, you can generate the software that executes the workflow. When your users' requirements change, it is easy to discuss the new workflow with the users. Regenerating the code from the workflow is more reliable than updating the code by hand.
 
 > [!NOTE]
->  A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It does not have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
+> A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It does not have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
 
  You are probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
 
@@ -126,9 +126,9 @@ Text templates let you use program code to vary the content of the generated fil
   The template will run and stop at the breakpoints. You can examine variables and step through the code in the usual way.
 
 > [!TIP]
->  `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.
+> `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.
 >
->  But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
+> But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
 
 ## Generating Code or Resources for Your Solution
  You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.

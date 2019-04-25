@@ -32,7 +32,7 @@ This topic describes how an Administrator of a computer grants the security perm
   Members of the Users group can run the profiling tools if an administrator grants them access to the software driver for the profiling tools. The last procedure, "To grant access to the profiling driver," describes how to grant access to that driver.  
   
 > [!NOTE]
->  You need administrator permissions to follow the steps in these procedures.  
+> You need administrator permissions to follow the steps in these procedures.  
   
 ### To create a user account that has User permissions  
   

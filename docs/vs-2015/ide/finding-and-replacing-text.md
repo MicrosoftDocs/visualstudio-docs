@@ -48,7 +48,7 @@ You can find and replace text in the Visual Studio code editor, and certain text
  To find and replace regular expressions, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).  
   
 > [!TIP]
->  The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**. For more information, see [Find/Command Box](../ide/find-command-box.md).  
+> The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**. For more information, see [Find/Command Box](../ide/find-command-box.md).  
   
 ## Find and Replace control  
  The **Find and Replace** control appears in the upper right corner of the code editor window. The **Find and Replace** control immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.  

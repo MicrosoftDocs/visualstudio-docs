@@ -27,7 +27,7 @@ The **Toolbox** displays icons for controls and other items that you can add to 
  The **Toolbox** displays only the items that are appropriate to the type of file you are working in. You can search within the Toolbox to further filter the items that appear. If your project requires a control that is not supported by the Client Profile, you can set your project to target the entire framework by editing the project properties.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Help on Toolbox Tabs  
  The following documents provide more information about specific **Toolbox** tabs.  

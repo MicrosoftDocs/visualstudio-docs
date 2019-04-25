@@ -26,7 +26,7 @@ You can instrument binaries from the [!INCLUDE[vs_current_short](../includes/vs-
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!IMPORTANT]
->  Every probe that is inserted modifies the behavior of the original program slightly. This modification causes overhead at analysis time. Even though an approximation of this overhead is subtracted, it still has subtle timing effects on multithreaded applications. The [VSInstr](../profiling/vsinstr.md) tool options help control data collection during profiling.  
+> Every probe that is inserted modifies the behavior of the original program slightly. This modification causes overhead at analysis time. Even though an approximation of this overhead is subtracted, it still has subtle timing effects on multithreaded applications. The [VSInstr](../profiling/vsinstr.md) tool options help control data collection during profiling.  
   
 ### To specify additional instrumentation option  
   

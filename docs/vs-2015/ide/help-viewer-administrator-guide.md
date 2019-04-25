@@ -45,7 +45,7 @@ The Help Viewer allows you to manage local Help installations for network enviro
 - The default source for Help will still be Online.  
   
   > [!TIP]
-  >  You can change the default source for Help by modifying the HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp registry key. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+  > You can change the default source for Help by modifying the HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp registry key. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
 - Clients will still be prompted to install the basic Help content on the first launch of Visual Studio. You can disable this prompt by modifying the HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection registry key.  
   
@@ -72,7 +72,7 @@ The Help Viewer allows you to manage local Help installations for network enviro
 - Users must have administrator rights to update, add, or remove the local Help content after it has been installed.  
   
   > [!TIP]
-  >  If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
+  > If users do not have administrator rights, it is recommended that you disable the Manage Content tab in the Help Viewer. For more information, see [Help Content Manager Overrides](../ide/help-content-manager-overrides.md).  
   
   Caveats:  
   

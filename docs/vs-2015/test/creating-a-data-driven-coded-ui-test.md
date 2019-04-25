@@ -134,7 +134,7 @@ To test different conditions, you can run your tests multiple times with differe
      The data source is now available for you to use in this test method.  
   
     > [!TIP]
-    >  See [data source attribute samples](#CreateDataDrivenCUIT_QA_DataSourceAttributes) in the Q & A section for samples of using other data source types such as XML, SQL Express and Excel.  
+    > See [data source attribute samples](#CreateDataDrivenCUIT_QA_DataSourceAttributes) in the Q & A section for samples of using other data source types such as XML, SQL Express and Excel.  
   
 2. Run the test.  
   

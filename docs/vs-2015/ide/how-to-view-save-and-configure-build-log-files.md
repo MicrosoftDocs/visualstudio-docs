@@ -48,7 +48,7 @@ After you build a project in the Visual Studio IDE, you can view information abo
      For more information, see [Options Dialog Box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.  
   
     > [!IMPORTANT]
-    >  You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *ProjectName*.txt file (C++ projects only).  
+    > You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *ProjectName*.txt file (C++ projects only).  
   
 ## See Also  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   

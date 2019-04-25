@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BP_RES_DATA_FLAGS
 Specifies whether the data breakpoint is being emulated or implemented in hardware.
@@ -31,8 +34,8 @@ public enum enum_BP_RES_DATA_FLAGS {
 };
 ```
 
-## Members
-BP_RES_DATA_EMULATED
+## Fields
+`BP_RES_DATA_EMULATED`\
 Specifies that the data breakpoint is being emulated.
 
 ## Remarks
@@ -45,6 +48,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md)

@@ -21,7 +21,7 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
  For more information about menus, toolbar commands, and *.vsct* files, see [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md).
 
 > [!NOTE]
->  Use XML Command Table (*.vsct*) files instead of command table configuration (*.ctc*) files to define how menus and commands appear in your VSPackages. For more information, see [Visual Studio Command Table (.Vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
+> Use XML Command Table (*.vsct*) files instead of command table configuration (*.ctc*) files to define how menus and commands appear in your VSPackages. For more information, see [Visual Studio Command Table (.Vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
 
 ## Prerequisites
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).

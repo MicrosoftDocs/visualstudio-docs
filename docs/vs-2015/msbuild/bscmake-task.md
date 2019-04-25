@@ -26,7 +26,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 IMPORTANT]
->  bscmake is no longer used by the Visual Studio IDE. Since Visual Studio 2008, browse information is stored automatically in an .sdf file in the Solution folder.  
+> bscmake is no longer used by the Visual Studio IDE. Since Visual Studio 2008, browse information is stored automatically in an .sdf file in the Solution folder.  
   
  Wraps the Microsoft Browse Information Maintenance Utility tool (bscmake.exe).  The bscmake.exe tool builds a browse information file (.bsc) from source browser files (.sbr) that are created during compilation. Use the **Object Browser** to view a .bsc file. For more information, see [BSCMAKE Reference](http://msdn.microsoft.com/library/b97ad994-1355-4809-98db-6abc12c6fb13).  
   

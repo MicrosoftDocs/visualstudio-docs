@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugAddress2::GetProcessID
 Retrieves the ID of the process that owns the object represented by this [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md) interface.
@@ -30,13 +33,13 @@ int GetProcessID (
 );
 ```
 
-#### Parameters
- `pProcID`
+## Parameters
+ `pProcID`\
 
  [out] The process ID.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md)

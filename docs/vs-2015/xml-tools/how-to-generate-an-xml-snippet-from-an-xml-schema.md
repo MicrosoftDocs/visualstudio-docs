@@ -41,7 +41,7 @@ The XML Editor has the ability to generate XML snippets from an XML Schema defin
  The steps in this section show you how use the schema-generated XML snippet feature of the XML Editor.  
   
 > [!NOTE]
->  Before starting these procedures, save the schema file to your local computer.  
+> Before starting these procedures, save the schema file to your local computer.  
   
 #### To create a new XML file and associate it with an XML Schema  
   

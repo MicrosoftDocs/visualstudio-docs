@@ -48,7 +48,7 @@ For limitations on using Edit and Continue while debugging, see [Supported Code 
      For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
     > [!NOTE]
-    >  If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You will not be able to continue code execution unless you undo the illegal code change.
+    > If you attempt to make a code change that is not allowed by Edit and Continue, your edit will be underlined by a purple wavy line and a task will appear in the Task List. You will not be able to continue code execution unless you undo the illegal code change.
 
 3. On the **Debug** menu, click **Continue** to resume execution.
 

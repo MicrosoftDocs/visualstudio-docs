@@ -40,7 +40,7 @@ ms.workload:
  This rule fires when measurements taken during a profiling run indicate there is an excessively high amount of lock contention. Lock contentions delay the execution of threads that are waiting for the lock. Even fairly small amounts of lock contention in unit tests or in load tests running on lower end hardware should be investigated.
 
 > [!NOTE]
->  When the rate of reported lock contentions in the profiling data is significant but not excessive, the [DA0038: High rate of lock contentions](../profiling/da0038-high-rate-of-lock-contentions.md) information message is fired instead of this warning message.
+> When the rate of reported lock contentions in the profiling data is significant but not excessive, the [DA0038: High rate of lock contentions](../profiling/da0038-high-rate-of-lock-contentions.md) information message is fired instead of this warning message.
 
 ## How to investigate a warning
  Double-click the message to navigate to the [Marks](../profiling/marks-view.md) view of the profiling data.  Find the **.NET CLR LocksAndThreads\Contention Rate / sec** column. Determine if there are specific phases of program execution where lock contention is heavier than other phases.

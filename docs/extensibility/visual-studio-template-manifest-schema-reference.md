@@ -15,7 +15,7 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.
 
 > [!IMPORTANT]
->  This manifest is available starting in Visual Studio 2017.
+> This manifest is available starting in Visual Studio 2017.
 
 ## VSTemplateManifest element
  The root element of the manifest.
@@ -116,7 +116,7 @@ This schema describes the format of the Visual Studio template manifest (*.vstma
  The following code is an example of an item template *.vstman* file.
 
 ```xml
-VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
   <VSTemplateContainer TemplateType="Item">
     <RelativePathOnDisk>CSharp\1033\ItemTemplate1</RelativePathOnDisk>
     <TemplateFileName>ItemTemplate1.vstemplate</TemplateFileName>

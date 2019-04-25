@@ -18,7 +18,7 @@ manager: "ghogen"
 Waits for any of the specified handles to be signaled while allowing cross-thread calls to be posted to this thread. This method must be called from the debugger thread.  
   
 > [!IMPORTANT]
->  [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

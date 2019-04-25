@@ -52,7 +52,7 @@ The **pass/fail bar** at the top of the **Test Explorer** window is animated as 
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the **Test Explorer** toolbar.|
 
 > [!NOTE]
-> Running unit tests after each build requires Visual Studio Enterprise edition.
+> Running unit tests after each build requires Visual Studio 2017 Enterprise or Visual Studio 2019. In Visual Studio 2019 it is included in Community and Professional as well as Enterprise.
 
 ## View test results
 

@@ -39,7 +39,7 @@ HRESULT DisableENC(
  If successful, returns `S_OK`; otherwise, returns error code.  
   
 > [!NOTE]
->  A custom port supplier should always return `E_NOTIMPL`.  
+> A custom port supplier should always return `E_NOTIMPL`.  
   
 ## Remarks  
  Once Edit and Continue is disabled for a process, it can be re-enabled only by restarting the process.  

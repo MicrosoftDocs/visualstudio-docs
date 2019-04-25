@@ -33,7 +33,7 @@ HRESULT get_liveRangeLength ( 
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 > [!NOTE]
->  A returned error code means that the symbol does not have live range information.
+> A returned error code means that the symbol does not have live range information.
 
 ## Remarks
 

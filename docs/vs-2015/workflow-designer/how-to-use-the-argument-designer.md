@@ -25,7 +25,7 @@ Compared to previous versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnsh
 3. Click the empty row labeled **Create Argument**. This will add a new row with a new argument using the following default values: argumentx for the **Name** where x is an integer with an initial value of 1 that is automatically incremented to create unique argument names, **In** for the **Direction**, and **String** for the **Argument type**. No value is added for **Default value**. You can change these values at any time during the workflow design process.  
   
     > [!NOTE]
-    >  To delete an argument, select the argument by clicking it and then press the **Delete** key.  
+    > To delete an argument, select the argument by clicking it and then press the **Delete** key.  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)   

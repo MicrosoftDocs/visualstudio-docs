@@ -19,7 +19,7 @@ ms.workload:
 Identifies the versions of the .NET Framework where this application can install and run.
 
 > [!NOTE]
->  [*MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [*MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client). Instead, you must use [*Mage.exe*](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
+> [*MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [*MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client). Instead, you must use [*Mage.exe*](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
 
 ## Syntax
 

@@ -18,7 +18,7 @@ manager: "ghogen"
 Represents an asynchronously evaluated expression. Script engines typically implement this interface. A debugger IDE typically uses this interface to enable an immediate execution window or watch window.  
   
 > [!NOTE]
->  The `IDebugExpression` interface is available only from a stack frame.  
+> The `IDebugExpression` interface is available only from a stack frame.  
   
  In addition to the methods inherited from `IUnknown`, the `IDebugExpression` interface exposes the following methods.  
   

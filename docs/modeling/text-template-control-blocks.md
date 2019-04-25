@@ -56,11 +56,11 @@ Found another one!
 ```
 
 > [!WARNING]
->  Always use {...} to delimit nested statements that contain embedded plain text. The following example might not work properly:
+> Always use {...} to delimit nested statements that contain embedded plain text. The following example might not work properly:
 >
->  `<# if (ShouldPrint) #> Some text. -- WRONG`
+> `<# if (ShouldPrint) #> Some text. -- WRONG`
 >
->  Instead, you should include {braces}, as follows:
+> Instead, you should include {braces}, as follows:
 
 ```
 
@@ -109,7 +109,7 @@ Some text.
 ```
 
 > [!NOTE]
->  A class feature control block must not be followed by standard control blocks in the same template file. However, this restriction does not apply to the result of using `<#@include#>` directives. Each included file can have standard blocks followed by class feature blocks.
+> A class feature control block must not be followed by standard control blocks in the same template file. However, this restriction does not apply to the result of using `<#@include#>` directives. Each included file can have standard blocks followed by class feature blocks.
 
  You can create a function that generates output by embedding text and expression blocks inside a class feature control block. For example:
 

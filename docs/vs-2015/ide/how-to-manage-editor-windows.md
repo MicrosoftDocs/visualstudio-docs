@@ -21,7 +21,7 @@ manager: jillfra
 You can work on code in several locations at once. Do this by splitting an Editor window, or by opening several instances of editor windows.  
   
 > [!NOTE]
->  Not all editor windows support multiple instances.  
+> Not all editor windows support multiple instances.  
   
 ## Splitting an editor window  
  An instance of an editor window can be split into two separate views for easier editing.  
@@ -35,7 +35,7 @@ You can work on code in several locations at once. Do this by splitting an Edito
      The editing area divides into two panes separated by a splitter bar. You can scroll these panes independently to view and edit different parts of the active document at the same time. Any changes made in one pane are reflected in the other.  
   
     > [!TIP]
-    >  To make one pane larger than the other, drag the splitter bar upward or downward.  
+    > To make one pane larger than the other, drag the splitter bar upward or downward.  
   
 #### To return to single-pane view  
   

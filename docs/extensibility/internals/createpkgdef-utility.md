@@ -18,7 +18,7 @@ ms.workload:
 Takes a .dll file for a Visual Studio extension as a parameter and creates a *.pkgdef* file to accompany the *.dll* file. The *.pkgdef* file contains all the information that would otherwise be written to the system registry when the extension is installed.
 
 > [!NOTE]
->  Most of the project templates that are included in the Visual Studio SDK automatically create *.pkgdef* files as part of the build process. This document is intended for those who want to create packages manually, or convert existing packages to use *.pkgdef*  deployment.
+> Most of the project templates that are included in the Visual Studio SDK automatically create *.pkgdef* files as part of the build process. This document is intended for those who want to create packages manually, or convert existing packages to use *.pkgdef*  deployment.
 
 ## Syntax
 
@@ -53,7 +53,7 @@ CreatePkgDef /out=<FileName> [/codebase] [/assembly] <AssemblyPath>
   If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
 
 > [!NOTE]
->  The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
+> The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
 
 ## See also
 - [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md)

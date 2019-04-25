@@ -16,7 +16,7 @@ manager: jillfra
 The **Properties** window provides basic information about the document that is active in the XML Editor. The properties that are available vary depending on the type of XML document that is currently active.  
   
 > [!NOTE]
->  All XML document properties are saved in the solution. As a result, you do not have to reenter these values the next time you open the solution.  
+> All XML document properties are saved in the solution. As a result, you do not have to reenter these values the next time you open the solution.  
   
  **Encoding**  
  The character encoding for the file. Changing this property also changes the encoding attribute on the XML declaration, and vice versa. The new encoding will be used to encode the file when you save the file.  

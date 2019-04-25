@@ -36,7 +36,7 @@ Applies to Windows only](../Image/windows_only_content.png "windows_only_content
    You can now debug, test, or analyze your app with the prefetched web resources.  
   
 > [!NOTE]
->  Repeat these steps whenever you add or modify the specified web content.  
+> Repeat these steps whenever you add or modify the specified web content.  
   
 ## See Also  
  [Blog post: Triggering Prefetch for Windows Store Apps in Visual Studio 2013 Update 2](http://blogs.msdn.com/b/visualstudioalm/archive/2014/02/06/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2.aspx)

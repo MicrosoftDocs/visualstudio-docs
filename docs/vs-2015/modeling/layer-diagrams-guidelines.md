@@ -29,7 +29,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
  The following steps provide an overview of how to use layer diagrams within the development process. Later sections in this topic describe more detail about each step. If you are developing a new design, omit the steps that refer to existing code.  
   
 > [!NOTE]
->  These steps appear in approximate order. You will probably want to overlap the tasks, reorder them to suit your own situation, and revisit them at the start of each iteration in your project.  
+> These steps appear in approximate order. You will probably want to overlap the tasks, reorder them to suit your own situation, and revisit them at the start of each iteration in your project.  
   
 1. [Create a layer diagram](#Create) for the whole application, or for a layer within it.  
   
@@ -53,7 +53,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
  A layer diagram must be created inside a modeling project. You can add a new layer diagram to an existing modeling project, create a new modeling project for the layer diagram, or copy an existing layer diagram within the same modeling project.  
   
 > [!IMPORTANT]
->  Do not add, drag, or copy an existing layer diagram from a modeling project to another modeling project or to another location in the solution. A layer diagram that is copied in this way will have the same references as the original diagram, even if you modify the diagram. This will prevent layer validation from working correctly and might cause other issues, such as missing elements or other errors when trying to open the diagram.  
+> Do not add, drag, or copy an existing layer diagram from a modeling project to another modeling project or to another location in the solution. A layer diagram that is copied in this way will have the same references as the original diagram, even if you modify the diagram. This will prevent layer validation from working correctly and might cause other issues, such as missing elements or other errors when trying to open the diagram.  
   
  See [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).  
   
@@ -63,7 +63,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
  As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](http://go.microsoft.com/fwlink/?LinkId=145794).  
   
 > [!TIP]
->  There are certain types of artifacts that you can link to layers but that do not support validation against the layer diagram. To see whether the artifact supports validation, open **Layer Explorer** to examine the **Supports Validation** property of the artifact link. See [Discover existing dependencies between layers](#Generate).  
+> There are certain types of artifacts that you can link to layers but that do not support validation against the layer diagram. To see whether the artifact supports validation, open **Layer Explorer** to examine the **Supports Validation** property of the artifact link. See [Discover existing dependencies between layers](#Generate).  
   
  When updating an unfamiliar application, you might also create code maps. These diagrams can help you discover patterns and dependencies while you explore the code. Use Solution Explorer to explore namespaces and classes, which often correspond well to existing layers. Assign these code artifacts to layers by dragging them from Solution Explorer to layer diagrams. You can then use layer diagrams to help you update the code and keep it consistent with your design.  
   
@@ -79,7 +79,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
  A dependency exists wherever an artifact that is associated with one layer has a reference to an artifact that is associated with another layer. For example, a class in one layer declares a variable that has a class in another layer. You can discover existing dependencies by reverse-engineering them.  
   
 > [!NOTE]
->  Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, right-click one or multiple layers, and then click **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.  
+> Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, right-click one or multiple layers, and then click **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.  
   
 #### To reverse-engineer existing dependencies between layers  
   
@@ -149,7 +149,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
 > [!NOTE]
->  As you develop or refactor the code, you might have new artifacts to link to the layer diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.  
+> As you develop or refactor the code, you might have new artifacts to link to the layer diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.  
   
  During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../includes/esprfound-md.md)]. To perform this task, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   

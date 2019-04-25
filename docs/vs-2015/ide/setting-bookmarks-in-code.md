@@ -23,7 +23,7 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
  To add a bookmark, place the cursor on the line you want to bookmark. Click the **Toggle** button, or press CTRL+K. This adds the bookmark. If you click the Toggle button (or press CTRL+K) again, the bookmark is removed. You can also delete bookmarks by clicking the **Delete** button in the bookmark window.  
   
 > [!IMPORTANT]
->  The bookmark is set to the line number, not to the code. If you modify the code, the bookmark is retained at the line number, and does not move with the code.  
+> The bookmark is set to the line number, not to the code. If you modify the code, the bookmark is retained at the line number, and does not move with the code.  
   
  You can navigate between bookmarks by using the **Next Bookmark** and **Previous Bookmark** buttons in the bookmark window.  
   

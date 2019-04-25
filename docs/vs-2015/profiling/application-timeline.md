@@ -32,13 +32,13 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 5. Windows 7  
   
 > [!NOTE]
->  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
+> You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
   
 ## <a name="BKMK_Collect_Timeline_data_for_your_app"></a> Collect Application Timeline data  
  You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Run profiling tools without debugging](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01).  
   
 > [!TIP]
->  If possible, run the app directly on the device. The application performance observed on the simulator or through a remote desktop connection might not be the same as the actual performance on the device. On the other hand, collecting the data by using the Visual Studio Remote Tools does not affect the performance data.  
+> If possible, run the app directly on the device. The application performance observed on the simulator or through a remote desktop connection might not be the same as the actual performance on the device. On the other hand, collecting the data by using the Visual Studio Remote Tools does not affect the performance data.  
   
  Here are the basic steps:  
   
@@ -49,7 +49,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 3. Select **Application Timeline** and then click **Start** at the bottom of the window.  
   
     > [!NOTE]
-    >  You might see a User Account Control window requesting your permission to run VsEtwCollector.exe. Click **Yes**.  
+    > You might see a User Account Control window requesting your permission to run VsEtwCollector.exe. Click **Yes**.  
   
 4. Run the scenario you are interested in profiling in your app to collect performance data.  
   
@@ -101,7 +101,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |**Xaml Other**|Time spent executing XAML runtime code.|  
   
 > [!TIP]
->  Choose the **CPU Usage** tool along with the **Application Timeline** tool when you start profiling to view app methods that execute on the UI thread. Moving long-running app code to a background thread can improve UI responsiveness.  
+> Choose the **CPU Usage** tool along with the **Application Timeline** tool when you start profiling to view app methods that execute on the UI thread. Moving long-running app code to a background thread can improve UI responsiveness.  
   
 #### <a name="BKMK_Customizing_Timeline_details_"></a> Customizing Timeline details  
  Use the **Timeline details** toolbar to sort, filter, and specify the annotations of **Timeline details** view entries.  

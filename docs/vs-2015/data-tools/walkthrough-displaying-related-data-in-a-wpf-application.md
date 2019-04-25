@@ -161,7 +161,7 @@ In this walkthrough, you will create a WPF application that displays data from d
 1. In the **Data Sources** window, locate the **SalesOrderDetails** node that is a child of the **SalesOrderHeaders** node.  
   
    > [!NOTE]
-   >  There is also a **SalesOrderDetails** node that is a peer of the **SalesOrderHeaders** node. Make sure that you select the child node of the **SalesOrderHeaders** node.  
+   > There is also a **SalesOrderDetails** node that is a peer of the **SalesOrderHeaders** node. Make sure that you select the child node of the **SalesOrderHeaders** node.  
   
 2. Expand the child **SalesOrderDetails** node.  
   

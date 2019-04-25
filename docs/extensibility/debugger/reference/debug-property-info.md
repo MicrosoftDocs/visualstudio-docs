@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DEBUG_PROPERTY_INFO
 Contains information about a debug property.
@@ -43,25 +46,25 @@ public struct DEBUG_PROPERTY_INFO {
 ```
 
 ## Members
-dwValidFields
+`dwValidFields`\
 A combination of flags from the [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) enumeration that specifies which fields are filled in.
 
-bstrFullName
+`bstrFullName`\
 The full name of the property.
 
-bstrName
+`bstrName`\
 The property name within a context.
 
-bstrType
+`bstrType`\
 The property type as a formatted string.
 
-bstrValue
+`bstrValue`\
 The property value as a formatted string.
 
-pProperty
+`pProperty`\
 The [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object described by this structure.
 
-dwAttrib
+`dwAttrib`\
 A combination of flags from the [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) enumeration describing the attributes of this property.
 
 ## Remarks
@@ -76,7 +79,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md)
 - [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md)

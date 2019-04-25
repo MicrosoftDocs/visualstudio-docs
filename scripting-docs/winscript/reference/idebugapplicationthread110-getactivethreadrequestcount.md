@@ -18,7 +18,7 @@ manager: "ghogen"
 Returns the number of thread requests from the PDM's thread switching mechanisms that are currently being processed. This number is usually 0 or 1. However, the number may be higher if one thread call starts processing but triggers a synchronous call out of thread, or otherwise suspends the thread and allows incoming calls to be processed again (for example, by triggering an [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md) event, which is issued on the debugger thread).  
   
 > [!IMPORTANT]
->  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

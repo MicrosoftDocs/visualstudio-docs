@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugAlias2::GetAppDomainId
 Retrieves the identifier for the application domain.
@@ -29,8 +32,8 @@ int GetAppDomainId (
 );
 ```
 
-#### Parameters
- `pappDomainId`
+## Parameters
+ `pappDomainId`\
 
  [out] Returns the application domain identifier.
 
@@ -40,5 +43,5 @@ int GetAppDomainId (
 ## Remarks
  The application domain identifier changes whenever the application is restarted and a new application domain is created.
 
-## See Also
+## See also
 - [IDebugAlias2](../../../extensibility/debugger/reference/idebugalias2.md)

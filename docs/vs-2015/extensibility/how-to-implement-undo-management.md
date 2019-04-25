@@ -71,7 +71,7 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
    The `OleUndoManager` class represents a single undo stack instance. Thus, there is one undo manager object per data entity being tracked for undo or redo.  
   
 > [!NOTE]
->  While the undo manager object is used extensively by the text editor, it is a general component that has no specific support for the text editor. If you want to support multi-level undo or redo, you can use this object to do so.  
+> While the undo manager object is used extensively by the text editor, it is a general component that has no specific support for the text editor. If you want to support multi-level undo or redo, you can use this object to do so.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>   

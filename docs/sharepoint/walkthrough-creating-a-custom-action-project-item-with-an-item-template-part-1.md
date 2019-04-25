@@ -38,7 +38,7 @@ ms.workload:
   This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the item template. For more information, see [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md).
 
 > [!NOTE]
->  You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.
+> You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:
@@ -75,7 +75,7 @@ ms.workload:
 4. In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.
 
     > [!NOTE]
-    >  The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
+    > The **Extensibility** node is available only if you install the Visual Studio SDK. For more information, see the prerequisites section earlier in this topic.
 
 5. Choose the **VSIX Project** template.
 
@@ -158,7 +158,7 @@ ms.workload:
 2. In the list of project items, choose the **Icon File** item.
 
     > [!NOTE]
-    >  In Visual Basic projects, you must choose the **General** node to display the **Icon File** item.
+    > In Visual Basic projects, you must choose the **General** node to display the **Icon File** item.
 
 3. In the **Name** box, enter **CustomAction_SolutionExplorer.ico**, and then choose the **Add** button.
 
@@ -191,7 +191,7 @@ ms.workload:
 3. Replace the contents of the file with the following XML, and then save and close the file.
 
     > [!NOTE]
-    >  The following XML is for a Visual C# item template. If you are creating a Visual Basic item template, replace the value of the `ProjectType` element with `VisualBasic`.
+    > The following XML is for a Visual C# item template. If you are creating a Visual Basic item template, replace the value of the `ProjectType` element with `VisualBasic`.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -304,7 +304,7 @@ ms.workload:
 6. In the **Type** list, choose **Microsoft.VisualStudio.ItemTemplate**.
 
     > [!NOTE]
-    >  This value corresponds to the `ItemTemplate` element in the extension.vsixmanifest file. This element identifies the subfolder in the VSIX package that contains the project item template. For more information, see [ItemTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\)).
+    > This value corresponds to the `ItemTemplate` element in the extension.vsixmanifest file. This element identifies the subfolder in the VSIX package that contains the project item template. For more information, see [ItemTemplate Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\)).
 
 7. In the **Source** list, choose **A project in current solution**.
 
@@ -317,7 +317,7 @@ ms.workload:
 10. In the **Type** list, choose **Microsoft.VisualStudio.MefComponent**.
 
     > [!NOTE]
-    >  This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
+    > This value corresponds to the `MefComponent` element in the extension.vsixmanifest file. This element specifies the name of an extension assembly in the VSIX package. For more information, see [MEFComponent Element (VSX Schema)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\)).
 
 11. In the **Source** list, choose **A project in current solution**.
 
@@ -419,7 +419,7 @@ ms.workload:
      The custom action is packaged and deployed to the SharePoint site that's specified in the **Site URL** property of the project. The web browser opens to the default page of this site.
 
     > [!NOTE]
-    >  If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
+    > If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button to continue to debug the project.
 
 4. On the **Site Actions** menu, choose **SharePoint Developer Center**, verify that the browser opens the website https://docs.microsoft.com/sharepoint/dev/, and then close the web browser.
 

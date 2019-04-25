@@ -33,7 +33,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
      This GUID is used to uniquely identify a category. This category reuses the IDE's default fonts and colors specification.
 
     > [!NOTE]
-    >  When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.
+    > When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.
 
 2. The category's name must be added to a string table inside the VSPackage's resources (*.rc*) file, so that it can be localized as needed when displayed in the IDE.
 

@@ -87,7 +87,7 @@ namespace Fabrikam.FirstJob
  For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
 > [!NOTE]
->  The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.  
+> The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.  
   
  The text template transformation feature is named *T4*.  
   

@@ -37,7 +37,7 @@ Entity Framework is an object-relational mapping technology that enables .NET de
 - You can use the **Update Model Wizard** to update your conceptual model, storage model, and mappings when changes have been made to the underlying database.
 
   > [!NOTE]
-  >  Starting with Visual Studio 2010, [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools do not support [!INCLUDE[ss2k](../includes/ss2k-md.md)].
+  > Starting with Visual Studio 2010, [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] Tools do not support [!INCLUDE[ss2k](../includes/ss2k-md.md)].
 
   The tools generate or modify an .edmx file. This file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://msdn.microsoft.com/data/jj650889.aspx).
 

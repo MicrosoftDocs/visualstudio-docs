@@ -41,7 +41,7 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
     - Objects. For more information, see [How to: Connect to Data in Objects](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b).  
   
     > [!NOTE]
-    >  Before you can create a lookup table, two related tables or objects must exist as a data source for the project.  
+    > Before you can create a lookup table, two related tables or objects must exist as a data source for the project.  
   
 2. Open the**WPF Designer**, and make sure that the designer contains a container that is a valid drop target for items in the **Data Sources** window.  
   
@@ -52,7 +52,7 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
 4. Expand the nodes in the **Data Sources** window, until you can see the parent table or object and the related child table or object.  
   
     > [!NOTE]
-    >  The related child table or object is the node that appears as an expandable child node under the parent table or object.  
+    > The related child table or object is the node that appears as an expandable child node under the parent table or object.  
   
 5. Click the drop-down menu for the child node, and select **Details**.  
   
@@ -67,12 +67,12 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
     - **ListView**  
   
         > [!NOTE]
-        >  If the **ListBox** or **ListView** control does not appear in the list, you can add these controls to the list. For information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
+        > If the **ListBox** or **ListView** control does not appear in the list, you can add these controls to the list. For information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
     - Any custom control that derives from <xref:System.Windows.Controls.Primitives.Selector>.  
   
         > [!NOTE]
-        >  For information about how to add custom controls to the list of controls you can select for items in the **Data Sources** window, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
+        > For information about how to add custom controls to the list of controls you can select for items in the **Data Sources** window, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
 8. Drag the child node from the **Data Sources** window onto a container in the WPF designer. (In the preceding example, the child node is the **Orders** node.)  
   

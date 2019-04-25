@@ -33,7 +33,7 @@ This source-control plug-in test area covers placing solutions or projects under
 - For [!INCLUDE[vsvss](../../includes/vsvss-md.md)], add from source control is also available from **File**, **Add**, **Existing Project**; look in the [!INCLUDE[vsvss](../../includes/vsvss-md.md)] location.  
   
     > [!NOTE]
-    >  A path of a local file or a local IIS (web server) can be used in this test.  
+    > A path of a local file or a local IIS (web server) can be used in this test.  
   
 ## Expected Behavior  
   

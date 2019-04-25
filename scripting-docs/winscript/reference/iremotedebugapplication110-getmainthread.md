@@ -18,7 +18,7 @@ manager: "ghogen"
 Returns the main thread for hosts that call [SetSite](http://go.microsoft.com/fwlink/?LinkId=232439), otherwise returns E_FAIL.  
   
 > [!IMPORTANT]
->  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

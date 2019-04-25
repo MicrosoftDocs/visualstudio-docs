@@ -22,13 +22,13 @@ Activities can be added to the **Toolbox** in your solution in several different
 3. Build the project. If the build was successful, a new category in the **Toolbox** named "\<*project name*>" with the custom activity included in that category is displayed.  
   
     > [!NOTE]
-    >  If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+    > If the toolbox is reset, custom activities will be removed, even if the solution is built again. To repopulate the toolbox with custom activities after it has been reset, restart [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
   
     > [!NOTE]
-    >  The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.  
+    > The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.  
   
     > [!NOTE]
-    >  The application domain is shared among editor instances; if static variables are used, they will be shared among editor instances as well. If this is not the desired behavior, a service should be used to track variable instances. See [Using the ModelItem Editing Context](http://msdn.microsoft.com/library/7f9f1ea5-0147-4079-8eca-be94f00d3aa1) for information on using services within the designer.  
+    > The application domain is shared among editor instances; if static variables are used, they will be shared among editor instances as well. If this is not the desired behavior, a service should be used to track variable instances. See [Using the ModelItem Editing Context](http://msdn.microsoft.com/library/7f9f1ea5-0147-4079-8eca-be94f00d3aa1) for information on using services within the designer.  
   
 ### To add an activity from within a different project  
   

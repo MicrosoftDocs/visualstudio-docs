@@ -19,19 +19,19 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 - Visual Studio Enterprise
 
 > [!NOTE]
->  Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type. For more information, see [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52).
+> Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type. For more information, see [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52).
 
 > [!WARNING]
->  [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] test projects that contain coded UI tests must be rebuilt when you open the test project in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] side-by-side with [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].
+> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] test projects that contain coded UI tests must be rebuilt when you open the test project in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] side-by-side with [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].
 
 > [!WARNING]
->  When a test project that was created in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] and contains only unit tests is opened in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], coded UI tests cannot be added to it. Similarly, you cannot add a coded UI test to a unit test project that was created in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].
+> When a test project that was created in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] and contains only unit tests is opened in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], coded UI tests cannot be added to it. Similarly, you cannot add a coded UI test to a unit test project that was created in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].
 
 ## Compatibility Issues between Visual Studio 2010 and Visual Studio 2012
  The following table lists issues to be aware of when migrating coded UI tests between [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] and [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].
 
 > [!CAUTION]
->  There is a known issue regarding references in coded UI test projects not appearing in Solution Explorer. For more information, see the ReadMe file included on the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] installation media.
+> There is a known issue regarding references in coded UI test projects not appearing in Solution Explorer. For more information, see the ReadMe file included on the [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] installation media.
 
 |Coded UI functionality|Issue|Solution|
 |----------------------------|-----------|--------------|

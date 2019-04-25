@@ -27,7 +27,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 - [Finish the UI with a native look and feel across platforms](#finish)
 
 > [!TIP]
->  You can find the complete source code for this project in the [xamarin-forms-samples repository on GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather).
+> You can find the complete source code for this project in the [xamarin-forms-samples repository on GitHub](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather).
 
 ## <a name="solution"></a> Set up your solution
  These steps create a Xamarin.Forms solution that contains a PCL for shared code and two added NuGet packages.
@@ -53,7 +53,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     - **WeatherApp.WinPhone (Windows Phone 8.1)**: the project that contains the native Windows Phone code.
 
     > [!NOTE]
-    >  You're free to delete any of the projects for a platform that you're not targeting. For the purposes of this walkthrough, we'll be referring to the Android, iOS, and Windows Phone 8.1 projects. Working with the UWP and Windows 8.1 projects is very similar to working with the Windows Phone 8.1 project.
+    > You're free to delete any of the projects for a platform that you're not targeting. For the purposes of this walkthrough, we'll be referring to the Android, iOS, and Windows Phone 8.1 projects. Working with the UWP and Windows 8.1 projects is very similar to working with the Windows Phone 8.1 project.
 
      Within each native project you have access to the native designer for the corresponding platform and can implement platform specific screens and functionality as needed.
 

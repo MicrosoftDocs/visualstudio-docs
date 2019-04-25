@@ -74,7 +74,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
      To select a different control, click the drop-down arrow next to the item and select a control. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
     > [!NOTE]
-    >  If you do not want to display a specific column or property, expand the item to display its children. Click the drop-down arrow next to the column or property that you do not want to display, and then click **None**.
+    > If you do not want to display a specific column or property, expand the item to display its children. Click the drop-down arrow next to the column or property that you do not want to display, and then click **None**.
 
 3. Drag the item to a valid container in the designer, such as a <xref:System.Windows.Controls.Grid>. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 
@@ -90,7 +90,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
 2. Click the drop-down arrow next to the item and select **Details**.
 
     > [!NOTE]
-    >  If you do not want to display a specific column or property, expand the item to display its children. Click the drop-down arrow next to the column or property that you do not want to display, and then click **None**.
+    > If you do not want to display a specific column or property, expand the item to display its children. Click the drop-down arrow next to the column or property that you do not want to display, and then click **None**.
 
 3. Drag the item to a valid container in the designer, such as a <xref:System.Windows.Controls.Grid>. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 
@@ -112,7 +112,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharp
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] and code to bind the control to the data. For more information, see [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md).
 
     > [!NOTE]
-    >  If the control is already bound to data, the data binding for the control is reset to the item that was dragged onto the control most recently.
+    > If the control is already bound to data, the data binding for the control is reset to the item that was dragged onto the control most recently.
 
 ## See Also
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)

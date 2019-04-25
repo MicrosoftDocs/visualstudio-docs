@@ -16,13 +16,13 @@ When you use [!INCLUDE[wfd1](../includes/wfd1-md.md)], you can set breakpoints o
  A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a breakpoint, it is Pending, and it is represented by a solid red icon. When the runtime has loaded the workflow type, it becomes Bound. If you specify an incorrect format for the breakpoint, such as an activity name that is not valid, an error window appears. The breakpoint is still added to the breakpoint window, but it is marked with a small "x".  
   
 > [!NOTE]
->  Setting breakpoints on invoked workflows is not supported.  
+> Setting breakpoints on invoked workflows is not supported.  
 > 
 > [!WARNING]
->  Ensure that you select the option **Enable Just My Code (Managed Only)** from the **Tools**, **Options**, **Debugging** menu before you debug. If you have two sequences nested within another sequence and you set a break point on the first inner sequence, pressing **F11** will not debug into the second inner sequence if the <strong>Enable Just My Code (Managed Only)</strong>option is not selected.  
+> Ensure that you select the option **Enable Just My Code (Managed Only)** from the **Tools**, **Options**, **Debugging** menu before you debug. If you have two sequences nested within another sequence and you set a break point on the first inner sequence, pressing **F11** will not debug into the second inner sequence if the <strong>Enable Just My Code (Managed Only)</strong>option is not selected.  
 > 
 > [!WARNING]
->  Breakpoints in a workflow will not get hit if the full path to XAML file property is not accurate.The full path to XAML file is not accurate after moving the project/solution to another folder or to another machine.Select Ctrl+S to save and update full path property.  
+> Breakpoints in a workflow will not get hit if the full path to XAML file property is not accurate.The full path to XAML file is not accurate after moving the project/solution to another folder or to another machine.Select Ctrl+S to save and update full path property.  
   
 ### To set a breakpoint on an activity in the Design View  
   

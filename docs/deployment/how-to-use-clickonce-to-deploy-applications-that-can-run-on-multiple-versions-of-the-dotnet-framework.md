@@ -21,7 +21,7 @@ ms.workload:
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.
 
 > [!NOTE]
->  Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
+> Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
 
  This process requires the following steps:
 

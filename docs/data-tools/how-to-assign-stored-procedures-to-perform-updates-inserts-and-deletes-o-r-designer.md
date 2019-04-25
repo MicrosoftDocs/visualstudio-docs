@@ -53,7 +53,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 10. Click **OK** or **Apply**.
 
     > [!NOTE]
-    >  You can continue to configure the behavior for each class and behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box appears and provides you an opportunity to apply your changes.
+    > You can continue to configure the behavior for each class and behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box appears and provides you an opportunity to apply your changes.
 
 To revert to using the default runtime logic for updates, click the ellipsis next to the **Insert**, **Update**, or **Delete** command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.
 
