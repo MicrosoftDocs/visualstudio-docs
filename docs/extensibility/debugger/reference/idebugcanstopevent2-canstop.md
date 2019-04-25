@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCanStopEvent2::CanStop
 Notifies the debug engine (DE) whether or not to stop at the current code location or just continue execution.
@@ -30,8 +33,8 @@ int CanStop ( 
 );
 ```
 
-#### Parameters
- `fCanStop`
+## Parameters
+ `fCanStop`\
 
  [in] Non-zero (`TRUE`) if the DE should stop at the current code location; otherwise, zero (`FALSE`).
 
@@ -43,7 +46,7 @@ int CanStop ( 
 
  If the DE stops, it sends an event that describes the reason for stopping. There are typically two events that are sent, a user or signal break represented by the [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md) interface, and a breakpoint event represented by the [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md) interface.
 
-## See Also
+## See also
 - [IDebugCanStopEvent2](../../../extensibility/debugger/reference/idebugcanstopevent2.md)
 - [IDebugBreakEvent2](../../../extensibility/debugger/reference/idebugbreakevent2.md)
 - [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md)
