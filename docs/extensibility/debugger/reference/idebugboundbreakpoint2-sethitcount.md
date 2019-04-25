@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBoundBreakpoint2::SetHitCount
 Sets the hit count for the bound breakpoint.
@@ -31,8 +34,8 @@ int SetHitCount( 
 );
 ```
 
-#### Parameters
- `dwHitCount`
+## Parameters
+ `dwHitCount`\
 
  [in] The hit count to set.
 
@@ -44,6 +47,6 @@ int SetHitCount( 
 
  This method is typically called by the debug engine to update the current hit count on this breakpoint.
 
-## See Also
+## See also
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

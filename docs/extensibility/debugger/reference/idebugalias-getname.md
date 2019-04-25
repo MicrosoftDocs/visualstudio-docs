@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugAlias::GetName
 Gets the name of this alias.
@@ -30,13 +33,13 @@ int GetName(
 );
 ```
 
-#### Parameters
- `pbstrName`
+## Parameters
+ `pbstrName`\
 
  [out] Name of the alias.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
