@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetDebugProperty
 Gets the program's properties.
@@ -30,8 +33,8 @@ int GetDebugProperty( 
 );
 ```
 
-#### Parameters
- `ppProperty`
+## Parameters
+ `ppProperty`\
 
  [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the program's properties.
 
@@ -43,7 +46,7 @@ int GetDebugProperty( 
 
  A program may expose any number and type of additional properties that can be described through the `IDebugProperty2` interface. An IDE might display the additional program properties through a generic property browser user interface.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md)

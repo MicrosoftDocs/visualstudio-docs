@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::Detach
 Detaches a debug engine from the program.
@@ -34,5 +37,5 @@ int Detach();
 ## Remarks
  A detached program continues running, but it is no longer part of the debug session. No more program debug events are sent once the debug engine is detached.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

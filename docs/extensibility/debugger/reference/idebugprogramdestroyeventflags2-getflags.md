@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramDestroyEventFlags2::GetFlags
 Retrieves the program destroy flags.
@@ -29,14 +32,14 @@ public int GetFlags(
 );
 ```
 
-#### Parameters
- `pdwFlags`
+## Parameters
+ `pdwFlags`\
 
  [out] Represents the program destroy flags.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramDestroyEventFlags2](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2.md)
 - [PROGRAM_DESTROY_FLAGS](../../../extensibility/debugger/reference/program-destroy-flags.md)

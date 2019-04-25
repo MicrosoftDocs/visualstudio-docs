@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetENCUpdate
 This method gets the Edit and Continue (ENC) update for this program. A custom debug engine always returns `E_NOTIMPL`.
@@ -30,8 +33,8 @@ int GetENCUpdate(
 );
 ```
 
-#### Parameters
- `ppUpdate`
+## Parameters
+ `ppUpdate`\
 
  [out] Returns an internal interface that can be used to update this program.
 
@@ -41,5 +44,5 @@ int GetENCUpdate(
 > [!NOTE]
 >  A custom debug engine should always return `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

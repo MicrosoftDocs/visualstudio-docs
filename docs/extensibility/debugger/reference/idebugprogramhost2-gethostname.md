@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramHost2::GetHostName
 Gets the title, friendly name, or file name of the hosting process of this program.
@@ -32,12 +35,12 @@ int GetHostName( 
 );
 ```
 
-#### Parameters
- `dwType`
+## Parameters
+ `dwType`\
 
  [in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration.
 
- `pbstrHostName`
+ `pbstrHostName`\
 
  [out] Returns the requested name of the hosting process.
 
@@ -47,6 +50,6 @@ int GetHostName( 
 ## Remarks
  In a typical implementation of this method, the `dwType` parameter is ignored and a friendly name of the host machine is returned. Another possible implementation is to pass the `dwType` parameter to a call to the [GetHostName](../../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md) method to get the name.
 
-## See Also
+## See also
 - [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)
 - [GetHostName](../../../extensibility/debugger/reference/idebugprogramnode2-gethostname.md)
