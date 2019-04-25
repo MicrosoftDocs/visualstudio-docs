@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FRAMEINFO
 Describes a stack frame.
@@ -55,43 +58,43 @@ public struct FRAMEINFO {
 ```
 
 ## Members
-m_dwValidFields
+`m_dwValidFields`\
 A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields are filled in.
 
-m_bstrFuncName
+`m_bstrFuncName`\
 The function name associated with the stack frame.
 
-m_bstrReturnType
+`m_bstrReturnType`\
 The return type associated with the stack frame.
 
-m_bstrArgs
+`m_bstrArgs`\
 The arguments to the function associated with the stack frame.
 
-m_bstrLanguage
+`m_bstrLanguage`\
 The language in which the function is implemented.
 
-m_bstrModule
+`m_bstrModule`\
 The module name associated with the stack frame.
 
-m_addrMin
+`m_addrMin`\
 The minimum physical stack address.
 
-m_addrMAX
+`m_addrMAX`\
 The maximum physical stack address.
 
-m_pFrame
+`m_pFrame`\
 The [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object that represents this stack frame.
 
-m_pFrame
+`m_pFrame`\
 The [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) object that represents the module that contains this stack frame.
 
-m_fHasDebugInfo
+`m_fHasDebugInfo`\
 Non-zero (`TRUE`) if debug information exists in the given frame.
 
-m_fHasDebugInfo
+`m_fHasDebugInfo`\
 Non-zero (`TRUE`) if the stack frame is associated with code that is no longer valid.
 
-m_fHasDebugInfo
+`m_fHasDebugInfo`\
 Non-zero (`TRUE`) if the stack frame is annotated by the session debug manager (SDM).
 
 ## Remarks
@@ -104,7 +107,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

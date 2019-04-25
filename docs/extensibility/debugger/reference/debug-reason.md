@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DEBUG_REASON
 Specifies why the process was launched for debugging.
@@ -39,20 +42,20 @@ public enum enum_DEBUG_REASON {
 };
 ```
 
-#### Parameters
-DEBUG_REASON_ERROR
+## Fields
+`DEBUG_REASON_ERROR`\
 A non-specific error occurred (this is used as a default condition when none of the other reasons fit).
 
-DEBUG_REASON_USER_LAUNCHED
+`DEBUG_REASON_USER_LAUNCHED`\
 The process was launched at the user's request.
 
-DEBUG_REASON_USER_ATTACHED
+`DEBUG_REASON_USER_ATTACHED`\
 The already-running process was attached to by the user.
 
-DEBUG_REASON_AUTO_ATTACHED
+`DEBUG_REASON_AUTO_ATTACHED`\
 The process was automatically attached to when it was launched.
 
-DEBUG_REASON_CAUSALITY
+`DEBUG_REASON_CAUSALITY`\
 The process was launched due to a *Just-In-Time* (JIT) debugging event.
 
 ## Remarks
@@ -65,6 +68,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetDebugReason](../../../extensibility/debugger/reference/idebugprocess3-getdebugreason.md)

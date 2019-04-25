@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # BPREQI_FIELDS
 Specifies the information to be retrieved about a breakpoint request.
@@ -57,47 +60,47 @@ public enum enum_BPREQI_FIELDS {
 };
 ```
 
-## Members
-BPREQI_BPLOCATION
+## Fields
+`BPREQI_BPLOCATION`\
 Initialize/use the `bpLocation` (breakpoint location) field of the [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) or [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) structure.
 
-BPREQI_LANGUAGE
+`BPREQI_LANGUAGE`\
 Initialize/use the `guidLanguage` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_PROGRAM
+`BPREQI_PROGRAM`\
 Initialize/use the `pProgram` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_PROGRAMNAME
+`BPREQI_PROGRAMNAME`\
 Initialize/use the `bstrProgramName` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_THREAD
+`BPREQI_THREAD`\
 Initialize/use the `pThread` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_THREADNAME
+`BPREQI_THREADNAME`\
 Initialize/use the `bstrThreadName` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_PASSCOUNT
+`BPREQI_PASSCOUNT`\
 Initialize/use the `bpPassCount` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_CONDITION
+`BPREQI_CONDITION`\
 Initialize/use the `bpCondition` (breakpoint condition) field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_FLAGS
+`BPREQI_FLAGS`\
 Initialize/use the `dwFlags` field of the `BP_REQUEST_INFO` or `BP_REQUEST_INFO2` structure.
 
-BPREQI_ALLOLDFIELDS
+`BPREQI_ALLOLDFIELDS`\
 Initialize/use all fields for the of the `BP_REQUEST_INFO` structure.
 
-BPREQI_VENDOR
+`BPREQI_VENDOR`\
 Initialize/use the `guidVendor` field of `BP_REQUEST_INFO2` structure.
 
-BPREQI_CONSTRAINT
+`BPREQI_CONSTRAINT`\
 Initialize/use the `bstrConstraint` field of `BP_REQUEST_INFO2` structure.
 
-BPREQI_TRACEPOINT
+`BPREQI_TRACEPOINT`\
 Initialize/use the `bstrTracepoint` field of `BP_REQUEST_INFO2` structure.
 
-BPREQI_ALLFIELDS
+`BPREQI_ALLFIELDS`\
 Specifies all fields for the `BP_REQUEST_INFO2` structure.
 
 ## Remarks
@@ -114,7 +117,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
