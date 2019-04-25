@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FIELD_KIND
 Specifies the kind of field contained in an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
@@ -115,104 +118,104 @@ public enum enum_FIELD_KIND {
 };
 ```
 
-## Members
-FIELD_KIND_TYPE
+## Fields
+`FIELD_KIND_TYPE`\
 Indicates that the field is a type only.
 
-FIELD_KIND_SYMBOL
+`FIELD_KIND_SYMBOL`\
 Indicates that the field is a symbol, with type, name, and other information.
 
-FIELD_TYPE_PRIMITIVE
+`FIELD_TYPE_PRIMITIVE`\
 Indicates that the field is a primitive data type.
 
-FIELD_TYPE_STRUCT
+`FIELD_TYPE_STRUCT`\
 Indicates that the field is a structure.
 
-FIELD_TYPE_CLASS
+`FIELD_TYPE_CLASS`\
 Indicates that the field is a class.
 
-FIELD_TYPE_INTERFACE
+`FIELD_TYPE_INTERFACE`\
 Indicates that the field is an interface.
 
-FIELD_TYPE_UNION
+`FIELD_TYPE_UNION`\
 Indicates that the field is a union.
 
-FIELD_TYPE_ARRAY
+`FIELD_TYPE_ARRAY`\
 Indicates that the field is an array.
 
-FIELD_TYPE_METHOD
+`FIELD_TYPE_METHOD`\
 Indicates that the field is a method.
 
-FIELD_TYPE_BLOCK
+`FIELD_TYPE_BLOCK`\
 Indicates that the field is a block.
 
-FIELD_TYPE_POINTER
+`FIELD_TYPE_POINTER`\
 Indicates that the field is a pointer.
 
-FIELD_TYPE_ENUM
+`FIELD_TYPE_ENUM`\
 Indicates that the field is an enumerated data type.
 
-FIELD_TYPE_LABEL
+`FIELD_TYPE_LABEL`\
 Indicates that the field is a label.
 
-FIELD_TYPE_TYPEDEF
+`FIELD_TYPE_TYPEDEF`\
 Indicates that the field is a typedef.
 
-FIELD_TYPE_BITFIELD
+`FIELD_TYPE_BITFIELD`\
 Indicates that the field is a bitfield.
 
-FIELD_TYPE_NAMESPACE
+`FIELD_TYPE_NAMESPACE`\
 Indicates that the field is a namespace.
 
-FIELD_TYPE_MODULE
+`FIELD_TYPE_MODULE`\
 Indicates that the field is a module.
 
-FIELD_TYPE_DYNAMIC
+`FIELD_TYPE_DYNAMIC`\
 Indicates that the field is dynamic.
 
-FIELD_TYPE_PROP
+`FIELD_TYPE_PROP`\
 Indicates that the field is a property.
 
-FIELD_TYPE_INNERCLASS
+`FIELD_TYPE_INNERCLASS`\
 Indicates that the field is an inner class.
 
-FIELD_TYPE_REFERENCE
+`FIELD_TYPE_REFERENCE`\
 Indicates that the field is a reference.
 
-FIELD_TYPE_EXTENDED
+`FIELD_TYPE_EXTENDED`\
 Reserved for future use.
 
-FIELD_SYM_MEMBER
+`FIELD_SYM_MEMBER`\
 Indicates that the field is a member.
 
-FIELD_SYM_LOCAL
+`FIELD_SYM_LOCAL`\
 Indicates that the field is local.
 
-FIELD_SYM_PARAMETER
+`FIELD_SYM_PARAMETER`\
 Indicates that the field is a parameter.
 
-FIELD_SYM_THIS
+`FIELD_SYM_THIS`\
 Indicates that the field is the "this" pointer.
 
-FIELD_SYM_GLOBAL
+`FIELD_SYM_GLOBAL`\
 Indicates that the field is global.
 
-FIELD_SYM_PROP_GETTER
+`FIELD_SYM_PROP_GETTER`\
 Indicates that the field retrieves properties.
 
-FIELD_SYM_PROP_SETTER
+`FIELD_SYM_PROP_SETTER`\
 Indicates that the field sets properties.
 
-FIELD_SYM_EXTENDED
+`FIELD_SYM_EXTENDED`\
 Reserved for future use.
 
-FIELD_KIND_MASK
+`FIELD_KIND_MASK`\
 Indicates a mask for field kinds.
 
-FIELD_TYPE_MASK
+`FIELD_TYPE_MASK`\
 Indicates a mask for field types.
 
-FIELD_SYM_MASK
+`FIELD_SYM_MASK`\
 Indicates a mask for symbol information.
 
 ## Remarks
@@ -227,7 +230,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)
 - [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)

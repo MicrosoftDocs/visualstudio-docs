@@ -36,7 +36,7 @@ The reference section includes a conceptual overview of the API, a guide that sh
 > [!NOTE]
 > Invalid or `NULL` [out] parameters may cause the IDE to crash.
 
-## See Also
+## See also
 - [Interfaces](../../../extensibility/debugger/reference/interfaces-visual-studio-debugging.md)
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)

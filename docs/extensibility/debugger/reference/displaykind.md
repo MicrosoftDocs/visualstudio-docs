@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DisplayKind
 Enumerates the valid values that represent the kinds of information to take from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.
@@ -35,14 +38,14 @@ public enum enum_DisplayKind
 };
 ```
 
-#### Parameters
-DisplayKind_Value
+## Fields
+`DisplayKind_Value`\
 Value of the field.
 
-DisplayKind_Name
+`DisplayKind_Name`\
 Name of the field.
 
-DisplayKind_Type
+`DisplayKind_Type`\
 Type of field.
 
 ## Requirements
@@ -52,6 +55,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetValueDisplayStringCount](../../../extensibility/debugger/reference/ieevisualizerservice-getvaluedisplaystringcount.md)

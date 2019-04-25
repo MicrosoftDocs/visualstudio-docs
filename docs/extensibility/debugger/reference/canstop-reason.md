@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # CANSTOP_REASON
 Used to determine if a program can stop execution after reaching a particular point in the execution.
@@ -33,11 +36,11 @@ public enum enum_CANSTOP_REASON {
 };
 ```
 
-## Members
-CANSTOP_ENTRYPOINT
+## Fields
+`CANSTOP_ENTRYPOINT`\
 Specifies the entry point of the given program.
 
-CANSTOP_STEPIN
+`CANSTOP_STEPIN`\
 Specifies stepping into a function.
 
 ## Remarks
@@ -50,6 +53,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetReason](../../../extensibility/debugger/reference/idebugcanstopevent2-getreason.md)
