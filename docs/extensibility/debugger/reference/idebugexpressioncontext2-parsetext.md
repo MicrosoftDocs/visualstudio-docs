@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionContext2::ParseText
 Parses an expression in text form for later evaluation.
@@ -40,28 +43,28 @@ int ParseText(
 );
 ```
 
-#### Parameters
-`pszCode`
+## Parameters
+`pszCode`\
 
  [in] The expression to be parsed.
 
-`dwFlags`
+`dwFlags`\
 
  [in] A combination of flags from the [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) enumeration that controls parsing.
 
-`nRadix`
+`nRadix`\
 
  [in] The radix to be used in parsing any numerical information in `pszCode`.
 
-`ppExpr`
+`ppExpr`\
 
  [out] Returns the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the parsed expression, which is ready for binding and evaluation.
 
-`pbstrError`
+`pbstrError`\
 
  [out] Returns the error message if the expression contains an error.
 
-`pichError`
+`pichError`\
 
  [out] Returns the character index of the error in `pszCode` if the expression contains an error.
 
@@ -122,7 +125,7 @@ HRESULT CEnvBlock::ParseText(
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)
 - [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)

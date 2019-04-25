@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::SetIDebugIDECallback
 Enables a debug engine to pass a callback to the expression evaluator during initialization.
@@ -29,13 +32,13 @@ int SetIDebugIDECallback (
 );
 ```
 
-#### Parameters
- `pCallback`
+## Parameters
+ `pCallback`\
 
  [in] Interface for the callback.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

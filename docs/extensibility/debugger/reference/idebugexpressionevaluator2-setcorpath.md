@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCorPath
 Sets the path to the common language runtime (CLR) loaded in the debugger.
@@ -29,8 +32,8 @@ int SetCorPath(
 );
 ```
 
-#### Parameters
- `pcstrCorPath`
+## Parameters
+ `pcstrCorPath`\
 
  [in] Path to the CLR loaded in the debugger.
 
@@ -118,5 +121,5 @@ STDMETHODIMP ExpressionEvaluatorPackage::SetCorPath(LPCOLESTR pcstrCorPath)
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

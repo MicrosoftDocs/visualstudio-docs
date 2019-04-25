@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator::SetLocale
 This method sets the language to use to create printable results.
@@ -30,8 +33,8 @@ int SetLocale(
 );
 ```
 
-#### Parameters
- `wLangID`
+## Parameters
+ `wLangID`\
 
  [in] The language identifier.
 
@@ -41,5 +44,5 @@ int SetLocale(
 ## Remarks
  This method may be called many times while the expression evaluator (EE) is loaded, so the EE must be able to switch languages on the fly. The EE uses this locale to return error messages and strings in the appropriate language.
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)
