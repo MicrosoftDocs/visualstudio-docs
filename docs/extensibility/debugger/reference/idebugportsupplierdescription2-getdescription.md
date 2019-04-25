@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplierDescription2::GetDescription
 Retrieves the description and description metadata for the port supplier.
@@ -30,17 +33,17 @@ public int GetDescription(
 );
 ```
 
-#### Parameters
- `pdwFlags`
+## Parameters
+ `pdwFlags`\
 
  [out] Metadata flags for the description.
 
- `pbstrText`
+ `pbstrText`\
 
  [out] Description of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPortSupplierDescription2](../../../extensibility/debugger/reference/idebugportsupplierdescription2.md)

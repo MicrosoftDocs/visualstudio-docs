@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplierEx2::SetServer
 Sets the core server for the port supplier.
@@ -28,12 +31,12 @@ int SetServer(
 );
 ```
 
-#### Parameters
- `pServer`
+## Parameters
+ `pServer`\
  Core server to set for the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPortSupplierEx2](../../../extensibility/debugger/reference/idebugportsupplierex2.md)

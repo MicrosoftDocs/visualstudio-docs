@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess2::GetInfo
 Gets a description of the process.
@@ -32,19 +35,19 @@ int GetInfo(
 );
 ```
 
-#### Parameters
- `Fields`
+## Parameters
+ `Fields`\
 
  [in] A combination of values from the [PROCESS_INFO_FIELDS](../../../extensibility/debugger/reference/process-info-fields.md) enumeration that specifies which fields of the `pProcessInfo` parameter are to be filled in.
 
- `pProcessInfo`
+ `pProcessInfo`\
 
  [out] A [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md) structure that is filled in with a description of the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [PROCESS_INFO_FIELDS](../../../extensibility/debugger/reference/process-info-fields.md)
 - [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)
