@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::GetICorDebugValue
 Gets a managed code object representing the value associated with this object.
@@ -30,8 +33,8 @@ int GetICorDebugValue(
 );
 ```
 
-#### Parameters
- `ppUnk`
+## Parameters
+ `ppUnk`\
 
  [out] `IUnknown` interface that represents this alias. This interface can be queried for the `ICorDebugValue` interface.
 
@@ -41,5 +44,5 @@ int GetICorDebugValue(
 ## Remarks
  The `ICorDebugValue` object is a Common Language Runtime interface that represents a value.
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

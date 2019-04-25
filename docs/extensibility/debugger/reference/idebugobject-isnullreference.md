@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::IsNullReference
 Tests whether this object is a null reference.
@@ -30,8 +33,8 @@ int IsNullReference(
 );
 ```
 
-#### Parameters
- `pfIsNull`
+## Parameters
+ `pfIsNull`\
 
  [out] Returns non-zero (`TRUE`) if this object is a null reference; otherwise, returns zero (`FALSE`).
 
@@ -41,5 +44,5 @@ int IsNullReference(
 ## Remarks
  A null reference means an empty object or an object that has not been assigned to.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

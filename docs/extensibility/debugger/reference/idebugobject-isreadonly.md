@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::IsReadOnly
 Determines if this object is read-only.
@@ -30,8 +33,8 @@ int IsReadOnly(
 );
 ```
 
-#### Parameters
- `pfIsReadOnly`
+## Parameters
+ `pfIsReadOnly`\
 
  [out] Returns non-zero (`TRUE`) if this object is read-only; otherwise, returns zero (`FALSE`).
 
@@ -41,5 +44,5 @@ int IsReadOnly(
 ## Remarks
  A read-only object cannot have its value changed after it is created.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
