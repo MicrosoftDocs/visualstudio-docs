@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::PreloadModules
 Preloads the modules designated by the specified symbol provider.
@@ -29,8 +32,8 @@ int PreloadModules (
 );
 ```
 
-#### Parameters
-`pSym`
+## Parameters
+`pSym`\
 
  [in] Symbol provider for which the modules will be preloaded.
 
@@ -69,5 +72,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

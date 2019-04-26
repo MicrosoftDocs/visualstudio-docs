@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcessQueryProperties::QueryProperty
 This method queries for a specified property value of the debugging process.
@@ -28,8 +31,8 @@ int QueryProperty(
    out object                 pvarPropValue);
 ```
 
-#### Parameters
- `dwPropType`
+## Parameters
+ `dwPropType`\
 
  [in] Definition of the property queried. The values are:
 
@@ -39,7 +42,7 @@ int QueryProperty(
 
 - PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3
 
-  `pvarPropValue`
+  `pvarPropValue`\
   [out] The value of the property.
 
 ## Return Value
@@ -48,5 +51,5 @@ int QueryProperty(
 ## Remarks
  This method is seldom used.
 
-## See Also
+## See also
 - [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)

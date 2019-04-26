@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplier3::CanPersistPorts
 This method determines whether the port supplier can persist ports (by writing them to disk) between invocations of the debugger.
@@ -26,7 +29,7 @@ HRESULT CanPersistPorts();
 int CanPersistPorts();
 ```
 
-#### Parameters
+## Parameters
  None.
 
 ## Return Value
@@ -35,5 +38,5 @@ int CanPersistPorts();
 ## Remarks
  If the port supplier can persist ports, it should do so when it is destroyed and then reload them when it is instantiated once again.
 
-## See Also
+## See also
 - [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md)

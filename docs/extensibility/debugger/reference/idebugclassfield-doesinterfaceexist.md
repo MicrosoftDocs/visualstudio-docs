@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugClassField::DoesInterfaceExist
 Determines if a specific interface is defined in the class.
@@ -30,8 +33,8 @@ int DoesInterfaceExist(
 );
 ```
 
-#### Parameters
- `pszInterfaceName`
+## Parameters
+ `pszInterfaceName`\
 
  [in] A string containing the interface name to look for.
 
@@ -41,5 +44,5 @@ int DoesInterfaceExist(
 ## Remarks
  This method in effect gets an enumeration of all interfaces and searches the list for a matching interface.
 
-## See Also
+## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetSize
 This method gets the size of a field, in bytes.
@@ -30,8 +33,8 @@ int GetSize(
 );
 ```
 
-#### Parameters
- `pdwSize`
+## Parameters
+ `pdwSize`\
 
  [out] Returns the size.
 
@@ -41,5 +44,5 @@ int GetSize(
 ## Remarks
  All fields have a type and all types have a size. For example, a field with a type of byte has a size of 1 byte.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPointerObject3::GetPointerAddress
 Retrieves the address of the pointer.
@@ -29,7 +32,7 @@ int GetPointerAddress (
 );
 ```
 
-#### Parameters
+## Parameters
  `puAddress`
 
  [out] Returns the address of the pointer.
@@ -37,5 +40,5 @@ int GetPointerAddress (
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPointerObject3](../../../extensibility/debugger/reference/idebugpointerobject3.md)

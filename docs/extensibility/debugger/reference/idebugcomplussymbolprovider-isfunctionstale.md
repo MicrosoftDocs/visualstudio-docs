@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsFunctionStale
 Determines if the function at the specified debug address is considered stale.
@@ -28,8 +31,8 @@ int IsFunctionStale(
 );
 ```
 
-#### Parameters
-`pAddress`
+## Parameters
+`pAddress`\
 
  [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
@@ -83,5 +86,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

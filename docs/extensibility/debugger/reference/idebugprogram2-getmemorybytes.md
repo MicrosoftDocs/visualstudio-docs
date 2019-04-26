@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::GetMemoryBytes
 Retrieves the memory bytes occupied by the program.
@@ -30,8 +33,8 @@ int GetMemoryBytes( 
 );
 ```
 
-#### Parameters
- `ppMemoryBytes`
+## Parameters
+ `ppMemoryBytes`\
 
  [out] Returns an [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object that represents the memory bytes of the program.
 
@@ -41,6 +44,6 @@ int GetMemoryBytes( 
 ## Remarks
  The memory bytes as represented by the [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object is for the program's image in memory and not any memory that was allocated when the program was executed.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

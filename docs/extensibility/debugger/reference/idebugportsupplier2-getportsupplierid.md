@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplier2::GetPortSupplierId
 Gets the port supplier identifier.
@@ -30,13 +33,13 @@ HRESULT GetPortSupplierId( 
 );
 ```
 
-#### Parameters
- `pguidPortSupplier`
+## Parameters
+ `pguidPortSupplier`\
 
  [out] Returns the GUID of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

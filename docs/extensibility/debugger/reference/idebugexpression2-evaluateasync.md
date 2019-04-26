@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpression2::EvaluateAsync
 This method evaluates the expression asynchronously.
@@ -32,12 +35,12 @@ int EvaluateAsync(
 );
 ```
 
-#### Parameters
-`dwFlags`
+## Parameters
+`dwFlags`\
 
  [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
 
-`pExprCallback`
+`pExprCallback`\
 
  [in] This parameter is always a null value.
 
@@ -68,7 +71,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
 - [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)
 - [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)

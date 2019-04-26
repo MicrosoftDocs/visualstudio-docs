@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttributeQuery::GetCustomAttributeByName
 Retrieves a custom attribute given its name.
@@ -33,16 +36,16 @@ int GetCustomAttributeByName(
 );
 ```
 
-#### Parameters
-`pszCustomAttributeName`
+## Parameters
+`pszCustomAttributeName`\
 
  [in] Name of the custom attribute.
 
-`ppBlob`
+`ppBlob`\
 
 [in,out] Array of bytes that contain the custom attribute data.
 
-`pdwLen`
+`pdwLen`\
 
  [out] Length in bytes of the `ppBlob` parameter.
 
@@ -87,5 +90,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

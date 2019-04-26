@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess2::GetServer
 Gets the server that this process is running on.
@@ -30,8 +33,8 @@ int GetServer( 
 );
 ```
 
-#### Parameters
- `ppServer`
+## Parameters
+ `ppServer`\
 
  [out] Returns an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the server on which this process is running.
 
@@ -41,6 +44,6 @@ int GetServer( 
 ## Remarks
  More than one server can be running on a single machine.
 
-## See Also
+## See also
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

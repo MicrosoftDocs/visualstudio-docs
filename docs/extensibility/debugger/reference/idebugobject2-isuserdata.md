@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::IsUserData
 Determines whether the object represents user data.
@@ -30,8 +33,8 @@ int IsUserData(
 );
 ```
 
-#### Parameters
- `pfUser`
+## Parameters
+ `pfUser`\
 
  [out] Returns nonzero (`TRUE`) if the object represents user data; zero (`FALSE`) if it does not.
 
@@ -41,5 +44,5 @@ int IsUserData(
 ## Remarks
  User data is any object that is part of a module designated as JustMyCode (a user-configurable option that marks a module as user code and therefore visible in a stack trace).
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

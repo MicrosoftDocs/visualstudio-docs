@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBoundBreakpoint2::SetPassCount
 Sets or changes the pass count associated with this bound breakpoint.
@@ -31,8 +34,8 @@ int SetPassCount( 
 );
 ```
 
-#### Parameters
- `bpPassCount`
+## Parameters
+ `bpPassCount`\
 
  [in] The [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) structure that specifies the pass count.
 
@@ -44,7 +47,7 @@ int SetPassCount( 
 
  Any pass count that was previously associated with this breakpoint is lost.
 
-## See Also
+## See also
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [GetHitCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-gethitcount.md)
 - [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)

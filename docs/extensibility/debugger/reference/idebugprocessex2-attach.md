@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcessEx2::Attach
 This method informs the process that a session is now debugging the process.
@@ -30,8 +33,8 @@ int Attach(
 );
 ```
 
-#### Parameters
- `pSession`
+## Parameters
+ `pSession`\
 
  [in] A value that uniquely identifies the session attaching to this process.
 
@@ -41,5 +44,5 @@ int Attach(
 ## Remarks
  The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this process; none of the methods on the supplied interface are functional.
 
-## See Also
+## See also
 - [IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)

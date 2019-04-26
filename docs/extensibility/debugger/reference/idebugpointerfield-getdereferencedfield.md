@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPointerField::GetDereferencedField
 This method returns the type of object to which this pointer object points.
@@ -30,8 +33,8 @@ int GetDereferencedField(
 );
 ```
 
-#### Parameters
- `ppField`
+## Parameters
+ `ppField`\
 
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the type of target object.
 
@@ -41,6 +44,6 @@ int GetDereferencedField(
 ## Remarks
  If, for example, the [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md) object points to an integer, the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) type returned by this method describes that integer type.
 
-## See Also
+## See also
 - [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

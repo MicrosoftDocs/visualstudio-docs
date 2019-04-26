@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::SetCondition
 Sets or changes the condition associated with the pending breakpoint.
@@ -31,8 +34,8 @@ int SetCondition( 
 );
 ```
 
-#### Parameters
- `bpCondition`
+## Parameters
+ `bpCondition`\
 
  [in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) structure that specifies the condition to set.
 
@@ -42,6 +45,6 @@ int SetCondition( 
 ## Remarks
  Any condition that was previously associated with the pending breakpoint is lost. All breakpoints bound from this pending breakpoint are called to set their condition to the value specified in the `bpCondition` parameter.
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)

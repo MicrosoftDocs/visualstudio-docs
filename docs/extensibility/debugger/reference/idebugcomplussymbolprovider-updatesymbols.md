@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::UpdateSymbols
 Updates the debug symbols in memory with those from the specified data stream.
@@ -33,16 +36,16 @@ int UpdateSymbols (
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
-`pUpdateStream`
+`pUpdateStream`\
 
  [in] Data stream that contains the updated debug symbols.
 
@@ -88,5 +91,5 @@ Error:
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

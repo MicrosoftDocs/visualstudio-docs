@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericParamField::GetNameOfFormalParam
 Retrieves the name of this generic parameter.
@@ -29,8 +32,8 @@ int GetNameOfFormalParam (
 );
 ```
 
-#### Parameters
-`pbstrName`
+## Parameters
+`pbstrName`\
 
  [out] Name of this generic parameter.
 
@@ -59,5 +62,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

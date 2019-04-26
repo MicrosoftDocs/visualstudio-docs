@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMemoryContext2::Compare
 Compares the memory context to each context in the given array in the manner indicated by compare flags, returning an index of the first context that matches.
@@ -37,20 +40,20 @@ int Compare(
 );
 ```
 
-#### Parameters
- `compare`
+## Parameters
+ `compare`\
 
  [in] A value from the [CONTEXT_COMPARE](../../../extensibility/debugger/reference/context-compare.md) enumeration that determines the type of comparison.
 
- `rgpMemoryContextSet`
+ `rgpMemoryContextSet`\
 
  [in] An array of references to the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) objects to compare against.
 
- `dwMemoryContextSetLen`
+ `dwMemoryContextSetLen`\
 
  [in] The number of contexts in the `rgpMemoryContextSet` array.
 
- `pdwMemoryContext`
+ `pdwMemoryContext`\
 
  [out] Returns the index of the first memory context that satisfies the comparison.
 
@@ -60,6 +63,6 @@ int Compare(
 ## Remarks
  A debug engine (DE) does not have to support all types of comparisons, but it must support at least `CONTEXT_EQUAL`, `CONTEXT_LESS_THAN`, `CONTEXT_GREATER_THAN` and `CONTEXT_SAME_SCOPE`.
 
-## See Also
+## See also
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
 - [CONTEXT_COMPARE](../../../extensibility/debugger/reference/context-compare.md)

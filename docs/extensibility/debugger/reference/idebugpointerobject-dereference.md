@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPointerObject::Dereference
 Gets the object pointed to.
@@ -32,12 +35,12 @@ int Dereference(
 );
 ```
 
-#### Parameters
- `dwIndex`
+## Parameters
+ `dwIndex`\
 
  [in] A simple byte offset from the beginning of the object pointed to.
 
- `ppObject`
+ `ppObject`\
 
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object pointed to, plus offset, if any.
 
@@ -47,5 +50,5 @@ int Dereference(
 ## Remarks
  The object pointed to can be a primitive or a more complex type such as a class or structure.
 
-## See Also
+## See also
 - [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)

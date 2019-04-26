@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugErrorBreakpointResolution2::GetBreakpointType
 Gets the breakpoint type.
@@ -30,8 +33,8 @@ int GetBreakpointType(
 );
 ```
 
-#### Parameters
-`pBPType`
+## Parameters
+`pBPType`\
 
  [out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that describes the type of breakpoint.
 
@@ -75,6 +78,6 @@ HRESULT CDebugErrorBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 }
 ```
 
-## See Also
+## See also
 - [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
 - [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)

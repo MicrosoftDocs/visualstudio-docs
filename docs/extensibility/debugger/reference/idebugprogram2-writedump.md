@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::WriteDump
 Writes a dump to a file.
@@ -32,12 +35,12 @@ int WriteDump( 
 );
 ```
 
-#### Parameters
- `DumpType`
+## Parameters
+ `DumpType`\
 
  [in] A value from the [DUMPTYPE](../../../extensibility/debugger/reference/dumptype.md) enumeration that specifies the type of dump, for example, short or long.
 
- `pszDumpUrl`
+ `pszDumpUrl`\
 
  [in] The URL to write the dump to. Typically, this is in the form of `file://c:\path\filename.ext`, but may be any valid URL.
 
@@ -47,5 +50,5 @@ int WriteDump( 
 ## Remarks
  A program dump would typically include the current stack frame, the stack itself, a list of the threads running in the program, and possibly any memory that the program owns.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

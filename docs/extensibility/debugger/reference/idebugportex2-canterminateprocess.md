@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortEx2::CanTerminateProcess
 Determines whether a process can be terminated.
@@ -30,14 +33,14 @@ HRESULT CanTerminateProcess( 
 );
 ```
 
-#### Parameters
- `pPortProcess`
+## Parameters
+ `pPortProcess`\
 
  [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process to be terminated.
 
 ## Return Value
  Returns `S_OK` if the process can be terminated; otherwise, returns `S_FALSE`.
 
-## See Also
+## See also
 - [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPointerObject::GetBytes
 Gets the value pointed to as a series of consecutive bytes.
@@ -36,20 +39,20 @@ int GetBytes(
 );
 ```
 
-#### Parameters
- `dwStart`
+## Parameters
+ `dwStart`\
 
  [in] An offset, in bytes, from the start of the object pointed to.
 
- `dwCount`
+ `dwCount`\
 
  [in] The number of bytes to retrieve.
 
- `pBytes`
+ `pBytes`\
 
  [in, out] An array that is filled in with the value as a series of consecutive bytes, starting at the given offset from the object pointed to.
 
- `pdwBytes`
+ `pdwBytes`\
 
  [out] Returns the number of bytes actually retrieved.
 
@@ -59,6 +62,6 @@ int GetBytes(
 ## Remarks
  This method is used if the pointer as represented by this [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md) points to a primitive type or a simple array of primitive types (that is, an array that can be represented by a simple sequence of bytes).
 
-## See Also
+## See also
 - [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)
 - [SetBytes](../../../extensibility/debugger/reference/idebugpointerobject-setbytes.md)

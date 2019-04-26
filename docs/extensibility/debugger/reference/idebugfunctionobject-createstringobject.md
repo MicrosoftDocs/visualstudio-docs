@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject::CreateStringObject
 Creates a string object.
@@ -32,12 +35,12 @@ int CreateStringObject(
 );
 ```
 
-#### Parameters
- `pcstrString`
+## Parameters
+ `pcstrString`\
 
  [in] The string value for the string object.
 
- `ppObject`
+ `ppObject`\
 
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object that represents the newly created string object.
 
@@ -47,5 +50,5 @@ int CreateStringObject(
 ## Remarks
  Call this method to create an object that represents a string that is a parameter to the function which is represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface.
 
-## See Also
+## See also
 - [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

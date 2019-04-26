@@ -48,7 +48,7 @@ IDebugExceptionEvent2 : IUnknown
 ## Remarks
  Before sending the event, the DE checks to see if this exception event has been designated a first-chance or second-chance exception by a previous call to [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md). If it has been designated to be a first-chance exception, the `IDebugExceptionEvent2` event is sent to the SDM. If not, the DE gives the application a chance to handle the exception. If no exception handler is provided, and if the exception has been designated as a second-chance exception, the `IDebugExceptionEvent2` event is sent to the SDM. Otherwise, the DE resumes execution of the program, and the operating system or runtime handles the exception.
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

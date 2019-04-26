@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine2::GetEngineID
 Gets the GUID of the debug engine (DE).
@@ -30,8 +33,8 @@ int GetEngineID(
 );
 ```
 
-#### Parameters
-`pguidEngine`
+## Parameters
+`pguidEngine`\
 
  [out] Returns the GUID of the DE.
 
@@ -58,5 +61,5 @@ HRESULT CEngine::GetEngineId(GUID *pguidEngine) {
 }
 ```
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
