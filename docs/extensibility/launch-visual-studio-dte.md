@@ -10,7 +10,7 @@ ms.workload:
 ---
 # Launch Visual Studio using DTE
 
-Starting with Visual Studio 2017, the mechanism to launch Visual Studio using DTE is different to launching previous versions of Visual Studio. This change is necessary because Visual Studio 2017 and later supports side-by-side installations of major releases (for example, you can have a preview and a release version installed side-by-side).
+Starting with Visual Studio 2017, the mechanism to launch Visual Studio using DTE is different to launching previous versions of Visual Studio. This change is necessary because Visual Studio 2017 and later supports side-by-side installations of major releases (for example, you can have a preview and a release version installed side by side).
 
 The remainder of this article shows the code you can use to launch Visual Studio 2019 using DTE.
 
