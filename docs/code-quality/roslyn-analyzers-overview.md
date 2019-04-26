@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Overview of .NET Compiler Platform analyzers
 
-.NET Compiler Platform ("Roslyn") analyzers analyze your code for style, quality and maintainability, design, and other issues. Visual Studio includes a built-in set of analyzers that analyze your C# or Visual Basic code as you type. You configure preferences for these built-in analyzers on the [text editor Options](../ide/code-styles-and-quick-actions.md) page or in an [.editorconfig file](../ide/editorconfig-code-style-settings-reference.md). You can install additional analyzers as a Visual Studio extension or a NuGet package.
+.NET Compiler Platform ("Roslyn") analyzers analyze your code for style, quality and maintainability, design, and other issues. Visual Studio includes a built-in set of analyzers that analyze your C# or Visual Basic code as you type. You configure preferences for these built-in analyzers on the [text editor Options](../ide/code-styles-and-code-cleanup.md) page or in an [.editorconfig file](../ide/editorconfig-code-style-settings-reference.md). You can install additional analyzers as a Visual Studio extension or a NuGet package.
 
 If rule violations are found by an analyzer, they are reported in the code editor (as a *squiggly* under the offending code) and in the **Error List** window.
 
