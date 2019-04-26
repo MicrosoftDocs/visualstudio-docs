@@ -102,7 +102,7 @@ A <xref:Microsoft.VisualStudio.Text.SnapshotPoint> represents a character positi
 
 #### Spans and NormalizedSpanCollections
 
-A <xref:Microsoft.VisualStudio.Text.Span> represents an interval that can be applied to a span of text in a text snapshot. Snapshot positions are zero-based, so spans can start at any position including zero. The `End` property of a span is equal to the sum of its `Start` property and its `Length` property. A `Span` does not include the character that is indexed by the `End` property. For example, a span that has Start=5 and Length=3 has End=8, and it includes the characters at positions 5, 6, and 7. The notation for this span is 5..8).
+A <xref:Microsoft.VisualStudio.Text.Span> represents an interval that can be applied to a span of text in a text snapshot. Snapshot positions are zero-based, so spans can start at any position including zero. The `End` property of a span is equal to the sum of its `Start` property and its `Length` property. A `Span` does not include the character that is indexed by the `End` property. For example, a span that has Start=5 and Length=3 has End=8, and it includes the characters at positions 5, 6, and 7. The notation for this span is [5..8).
 
 Two spans intersect if they have any positions in common, including the End position. Therefore, the intersection of [3, 5) and [2, 7) is [3, 5) and the intersection of [3, 5) and [5, 7) is [5, 5). (Notice that [5, 5) is an empty span.)
 
