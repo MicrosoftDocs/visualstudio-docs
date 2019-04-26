@@ -2,7 +2,7 @@
 title: "Use command-line parameters to install Visual Studio"
 titleSuffix: ""
 description: "Learn how to use command-line parameters to control or customize your Visual Studio installation."
-ms.date: 03/30/2019
+ms.date: 04/26/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -148,14 +148,7 @@ For a list of workload and component IDs sorted by Visual Studio product, see th
 
 Depending on the result of the operation, the `%ERRORLEVEL%` environment variable is set to one of the following values:
 
-| **Value** | **Result** |
-| --------- | ---------- |
-| 0 | Operation completed successfully |
-| 1602 | Operation was canceled |
-| 3010 | Operation completed successfully, but install requires reboot before it can be used |
-| 5004 | Operation was canceled |
-| 5007 | Operation was blocked - the computer does not meet the requirements |
-| Other | Failure condition occurred - check the logs for more information |
+[!INCLUDE[install_error_codes_md](includes/install_error_codes_md.md)]
 
 Each operation generates several log files in the `%TEMP%` directory that indicate the progress of the installation. Sort the folder by date and look for files that begin with `dd_bootstrapper`, `dd_client`, and `dd_setup` for the bootstrapper, the installer app, and the setup engine, respectively.
 
