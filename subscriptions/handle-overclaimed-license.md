@@ -31,17 +31,15 @@ To resolve overallocated licenses:
 
 ## Billing and true-up
 
-When your organization purchases Visual Studio subscriptions or Visual Studio with GitHub Enterprise subscriptions through an Enterprise Agreement (EA), admins are able to assign more subscriptions than were included in the purchase.  When you overallocate, your organization will be billed for the maximum number of subscriptions assigned to users during a reconciliation process called a "true-up".  This is true even if you no longer have the maximum number of subscriptions assigned at the time the true-up takes place.  To learn more about monitoring your maximum usage, visit the [Maximum Usage](maximum-usage.md) topic.
+If your organization has an Enterprise Agreement (EA), admins are able to assign subscriptions without purchasing them, and pay for them later through a reconciliation process known as a "true-up".  When you overallocate, your organization will be billed for the maximum number of subscriptions assigned to users during the "true-up".  This is true even if you no longer have the maximum number of subscriptions assigned at the time the true-up takes place.  To learn more about monitoring your maximum usage, visit the [Maximum Usage](maximum-usage.md) topic.
 
-## Visual Studio with GitHub Enterprise subscriptions
+> [!Important]
+> If Visual Studio Subscriptions with GitHub Enterprise are assigned by Visual Studio subscription admins and there has never been a purchase of those subscriptions, they will not be visible to GitHub Enterprise admins within the organization. To ensure GitHub Enterprise subscriptions are visible, a purchase including **at least one** Visual Studio Professional with GitHub Enterprise or Visual Studio Enterprise with GitHub Enterprise subscription should be made the first time the subscriptions are assigned.  
+>
+> It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
 
-Because subscription assignments for Visual Studio with GitHub Enterprise subscriptions work differently, there are a couple of unique scenarios to keep in mind:
 
-- If a Visual Studio subscriptions admin assigns more subscriptions than their organization purchased, the organization will be billed for the maximum number of subscriptions assigned during a true-up.  It's not necessary to place a purchase order to assign these subscriptions.  However, if no order is placed, the purchases will not be provisioned or visible to the GitHub Enterprise subscription admin(s).  So, the organization may be billed for subscriptions that the GitHub Enterprise admin(s) didn't know were available.
-
-- If a GitHub Enterprise subscription admin assigns more subscriptions than were purchased, these subscriptions are not automatically included in a true-up, so this may place the organization in a situation of being out of compliance with their license.  To avoid this problem, GitHub Enterprise admins should ensure that an order supporting the additional subscriptions is placed. 
-
-Learn more about managing [Visual Studio with GitHub Enterprise subscriptions](assign-github.md).
+Learn more about managing [Visual Studio Subscriptions with GitHub Enterprise](assign-github.md).
 
 ## Support resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).

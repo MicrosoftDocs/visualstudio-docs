@@ -9,14 +9,12 @@ description: Learn about the new Visual Studio + GitHub bundle
 searchscope: VS Subscription
 ---
 
-# Introducing Visual Studio with GitHub Enterprise subscriptions 
+# Introducing Visual Studio Subscriptions with GitHub Enterprise  
 
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription bundle that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
-- Innovate at scale with Visual Studio and GitHub by securely bringing open source code, community and best practices into your IDE and workflows. 
-
-- Use best in class development tools and services for developers with the most comprehensive set of resources to create, deploy and manage great applications.
-
+- Innovate at scale with Visual Studio and GitHub by securely bringing open source code, community and best practices into your IDE and workflows.
+- Use best in class development tools and services for developers with the most comprehensive set of resources to create, deploy and manage great applications. 
 - Collaborate, manage pull requests on GitHub Enterprise and review source code where it was written - in the editor. 
 
 ## What's available? 
@@ -66,6 +64,10 @@ A:  The process for setting up GitHub subscription can take a while.  If you've 
 ### Q:  How do I reach my GitHub administrator?
 
 A:  If you're using GitHub Enterprise Server, you can click on the **Support** link visible at the bottom of the client to be connected with your administrator.
+
+### Q: Do I get the full Visual Studio subscription (Professional or Enterprise) or do I just get the IDE with this offering?
+
+A:  Along with a GitHub Enterprise subscription, you receive a full Visual Studio subscription.  You receive all the benefits such as software downloads, cloud services, technical support and partner benefits included in those subscriptions, just as you would if the subscription was purchased separately.
 
 
 ## Support resources
