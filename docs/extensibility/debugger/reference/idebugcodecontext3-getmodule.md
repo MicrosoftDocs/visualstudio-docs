@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCodeContext3::GetModule
 Retrieves a reference to the interface of the debug module.
@@ -28,8 +31,8 @@ public int GetModule(
 );
 ```
 
-#### Parameters
-`ppModule`
+## Parameters
+`ppModule`\
 
  [out] Reference to the debug module interface.
 
@@ -57,5 +60,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)

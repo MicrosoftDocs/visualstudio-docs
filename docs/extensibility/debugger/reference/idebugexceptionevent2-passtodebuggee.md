@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExceptionEvent2::PassToDebuggee
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.
@@ -30,8 +33,8 @@ int PassToDebuggee(
 );
 ```
 
-#### Parameters
- `fPass`
+## Parameters
+ `fPass`\
 
  [in] Nonzero (`TRUE`) if the exception should be passed on to the program being debugged when execution resumes, or zero (`FALSE`) if the exception should be discarded.
 
@@ -43,7 +46,7 @@ int PassToDebuggee(
 
  The IDE may receive the [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md) event and call the [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md) method. The debug engine (DE) should have a default behavior to handle the case if the `PassToDebuggee` method is not called.
 
-## See Also
+## See also
 - [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)
 - [CanPassToDebuggee](../../../extensibility/debugger/reference/idebugexceptionevent2-canpasstodebuggee.md)
 - [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md)

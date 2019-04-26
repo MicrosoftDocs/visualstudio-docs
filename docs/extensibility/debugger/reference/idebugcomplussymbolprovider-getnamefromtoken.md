@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetNameFromToken
 Returns the name associated with the specified token given its metadata object.
@@ -33,16 +36,16 @@ int GetNameFromToken (
 );
 ```
 
-#### Parameters
-`pMetadataImport`
+## Parameters
+`pMetadataImport`\
 
  [in] Object that contains the metadata information.
 
-`dwToken`
+`dwToken`\
 
  [in] Token to be named.
 
-`pbstrName`
+`pbstrName`\
 
  [out] Name that corresponds to the token.
 
@@ -116,5 +119,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

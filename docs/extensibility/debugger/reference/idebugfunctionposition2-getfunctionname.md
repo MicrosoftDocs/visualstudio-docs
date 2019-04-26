@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionPosition2::GetFunctionName
 Gets the name of the function to which this position points.
@@ -30,13 +33,13 @@ int GetFunctionName(
 );
 ```
 
-#### Parameters
- `pbstrFunctionName`
+## Parameters
+ `pbstrFunctionName`\
 
  [out] Returns the name of the function.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugFunctionPosition2](../../../extensibility/debugger/reference/idebugfunctionposition2.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugOutputStringEvent2::GetString
 Gets the displayable message.
@@ -30,13 +33,13 @@ int GetString( 
 );
 ```
 
-#### Parameters
- `pbstrString`
+## Parameters
+ `pbstrString`\
 
  [out] Returns the displayable message.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugOutputStringEvent2](../../../extensibility/debugger/reference/idebugoutputstringevent2.md)

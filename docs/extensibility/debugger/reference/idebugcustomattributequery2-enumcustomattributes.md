@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
 Gets an enumerator for all custom attributes attached to this field.
@@ -30,7 +33,7 @@ int EnumCustomAttributes(
 );
 ```
 
-#### Parameters
+## Parameters
  `ppEnum`
 
  [out] Returns an [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) object representing the list of custom attributes; otherwise, returns a null value if there are no custom attributes.
@@ -41,6 +44,6 @@ int EnumCustomAttributes(
 ## Remarks
  A field can have multiple custom attributes.
 
-## See Also
+## See also
 - [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)
 - [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)

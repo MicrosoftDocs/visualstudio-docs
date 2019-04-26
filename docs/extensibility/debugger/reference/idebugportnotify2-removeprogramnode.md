@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortNotify2::RemoveProgramNode
 Unregisters a program that can be debugged from the port it is running on.
@@ -30,8 +33,8 @@ int RemoveProgramNode( 
 );
 ```
 
-#### Parameters
- `pProgramNode`
+## Parameters
+ `pProgramNode`\
 
  [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objecy that represents the program to be unregistered.
 
@@ -41,7 +44,7 @@ int RemoveProgramNode( 
 ## Remarks
  This method removes a program node that was added with a call to the [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) method.
 
-## See Also
+## See also
 - [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)

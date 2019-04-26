@@ -163,4 +163,7 @@ from System.Windows.Forms import *
 
 You can add references to WebPI product entries for deployment to Microsoft Azure Cloud Services where you can install additional components via the WebPI feed. By default, the feed displayed is Python-specific and includes Django, CPython, and other core components. You can also select your own feed as shown below. When publishing to Microsoft Azure, a setup task installs all of the referenced products.
 
+> [!IMPORTANT]
+> WebPI projects is not available in Visual Studio 2017 or Visual Studio 2019.
+
 ![WebPI References](media/projects-webPI-components.png)

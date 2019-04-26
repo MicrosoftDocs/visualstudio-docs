@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpression2::EvaluateSync
 This method evaluates the expression synchronously.
@@ -36,20 +39,20 @@ int EvaluateSync(
 );
 ```
 
-#### Parameters
-`dwFlags`
+## Parameters
+`dwFlags`\
 
  [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
 
-`dwTimeout`
+`dwTimeout`\
 
  [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
-`pExprCallback`
+`pExprCallback`\
 
  [in]This parameter is always a null value.
 
-`ppResult`
+`ppResult`\
 
  [out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that contains the result of the expression evaluation.
 
@@ -112,7 +115,7 @@ HRESULT CExpression::EvalExpression(BOOL bSynchronous,
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
 - [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

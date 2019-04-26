@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::Equal
 This method compares this field with the specified field for equality.
@@ -30,13 +33,13 @@ int Equal(
 );
 ```
 
-#### Parameters
- `pField`
+## Parameters
+ `pField`\
 
  [in] The field to compare to this one.
 
 ## Return Value
  If the fields are the same, returns `S_OK`. If the fields are different, returns `S_FALSE.` Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

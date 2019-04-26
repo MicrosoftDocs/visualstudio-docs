@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPendingBreakpoint2::Virtualize
 Toggles the virtualized state of this pending breakpoint. When a pending breakpoint is virtualized, the debug engine will attempt to bind it every time new code loads into the program.
@@ -31,8 +34,8 @@ int Virtualize(
 );
 ```
 
-#### Parameters
-`fVirtualize`
+## Parameters
+`fVirtualize`\
 
  [in] Set to nonzero (`TRUE`) to virtualize the pending breakpoint, or to zero (`FALSE`) to turn off virtualization.
 
@@ -77,5 +80,5 @@ HRESULT CPendingBreakpoint::Virtualize(BOOL fVirtualize)
 }
 ```
 
-## See Also
+## See also
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

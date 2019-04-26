@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject2::CreateObject
 Creates an object that uses a constructor given evaluation flag settings and a timeout value.
@@ -39,28 +42,28 @@ int CreateObject (
 );
 ```
 
-#### Parameters
- `pConstructor`
+## Parameters
+ `pConstructor`\
 
  [in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object that represents the constructor of the object to be created.
 
- `dwArgs`
+ `dwArgs`\
 
  [in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
 
- `pArgs`
+ `pArgs`\
 
  [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the parameters passed to the constructor.
 
- `dwEvalFlags`
+ `dwEvalFlags`\
 
  [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] Maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
 
- `ppObject`
+ `ppObject`\
 
  [out] Returns an **IDebugObject** representing the newly created object.
 
@@ -70,5 +73,5 @@ int CreateObject (
 ## Remarks
  Call this method to create an object that represents an instance of a class, or other complex type that requires a constructor, that is a parameter.
 
-## See Also
+## See also
 - [IDebugFunctionObject2](../../../extensibility/debugger/reference/idebugfunctionobject2.md)

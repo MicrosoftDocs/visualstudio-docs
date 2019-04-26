@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugModule3::IsUserCode
 Retrieves information on whether the module represents user code or not.
@@ -30,13 +33,13 @@ int IsUserCode(
 );
 ```
 
-#### Parameters
- `pfUser`
+## Parameters
+ `pfUser`\
 
  [out] Nonzero (`TRUE`) if module represents user code, zero (`FALSE`) if it does not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

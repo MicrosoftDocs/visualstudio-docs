@@ -45,5 +45,5 @@ IDebugEngineLaunch2 : IDebugEngine2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

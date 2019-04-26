@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugArrayField::GetElementType
 Gets the type of element in the array.
@@ -30,8 +33,8 @@ int GetElementType(
 );
 ```
 
-#### Parameters
- `ppType`
+## Parameters
+ `ppType`\
 
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
 
@@ -41,6 +44,6 @@ int GetElementType(
 ## Remarks
  The [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md) object assumes that all elements of the array are the same type.
 
-## See Also
+## See also
 - [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

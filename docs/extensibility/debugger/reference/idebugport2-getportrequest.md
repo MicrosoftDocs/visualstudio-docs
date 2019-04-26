@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPort2::GetPortRequest
 Gets the description of a port that was previously used to create the port (if available).
@@ -30,15 +33,15 @@ int GetPortRequest( 
 );
 ```
 
-#### Parameters
- `ppRequest`
+## Parameters
+ `ppRequest`\
 
  [out] Returns an [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) object representing the request that was used to create the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.  Returns `E_PORT_NO_REQUEST` if a port was not created using an [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) port request.
 
-## See Also
+## See also
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)
 - [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)

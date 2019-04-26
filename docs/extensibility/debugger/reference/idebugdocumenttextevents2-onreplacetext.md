@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentTextEvents2::onReplaceText
 Notifies the debug package that text has been replaced in the document.
@@ -32,18 +35,18 @@ int onReplaceText( 
 );
 ```
 
-#### Parameters
- `pos`
+## Parameters
+ `pos`\
 
  [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) indicates where the text was replaced.
 
- `dwNumToReplace`
+ `dwNumToReplace`\
 
  [in] Specifies the number of characters of text that were replaced.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 Determines whether the checksum is enabled for this document.
@@ -28,13 +31,13 @@ public int IsChecksumEnabled(
 );
 ```
 
-#### Parameters
- `pfChecksumEnabled`
+## Parameters
+ `pfChecksumEnabled`\
 
  [out] Returns TRUE if the checksum is enabled; otherwise, returns FALSE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugBreakpointChecksumRequest2](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2.md)

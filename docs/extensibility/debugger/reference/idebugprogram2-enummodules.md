@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::EnumModules
 Retrieves a list of the modules that this program has loaded and is executing.
@@ -30,8 +33,8 @@ int EnumModules( 
 );
 ```
 
-#### Parameters
- `ppEnum`
+## Parameters
+ `ppEnum`\
 
  [out] Returns an [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) object that contains a list of the modules.
 
@@ -41,6 +44,6 @@ int EnumModules( 
 ## Remarks
  A module is a DLL or assembly and is typically listed in the **Modules** debug window.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

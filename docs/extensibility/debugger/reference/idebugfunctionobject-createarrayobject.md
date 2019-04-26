@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject::CreateArrayObject
 Creates an array object. This array can contain either primitive or object instance values.
@@ -40,28 +43,28 @@ int CreateArrayObject(
 );
 ```
 
-#### Parameters
- `ot`
+## Parameters
+ `ot`\
 
  [in] Specifies a value from the [OBJECT_TYPE](../../../extensibility/debugger/reference/object-type.md) enumeration indicating the type of the new array object.
 
- `pClassField`
+ `pClassField`\
 
  [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing the class of an object, if creating an array of object instance values. If creating an array of primitive objects, this parameter is a null value.
 
- `dwRank`
+ `dwRank`\
 
  [in] The rank or number of dimensions of the array.
 
- `dwDims`
+ `dwDims`\
 
  [in] The sizes of each dimension of the array.
 
- `dwLowBounds`
+ `dwLowBounds`\
 
  [in] The origin of each dimension (typically 0 or 1).
 
- `ppObject`
+ `ppObject`\
 
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the newly created array. This is actually an [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md) object.
 
@@ -71,5 +74,5 @@ int CreateArrayObject(
 ## Remarks
  Call this method to create an object that represents an array parameter to the function which is represented by the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface.
 
-## See Also
+## See also
 - [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentContext2::GetLanguageInfo
 Gets the language associated with this document context.
@@ -32,12 +35,12 @@ int GetLanguageInfo(
 );
 ```
 
-#### Parameters
-`pbstrLanguage`
+## Parameters
+`pbstrLanguage`\
 
  [out] Returns the name of the language that implements the code at this document context.
 
-`pguidLanguage`
+`pguidLanguage`\
 
  [out] Returns the GUID of the language that implements the code at this document context. For example, `guidVBScriptLang` or `guidCPPLang`. This GUID is not limited to the languages supplied by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
 
@@ -76,5 +79,5 @@ HRESULT CDebugContext::GetLanguageInfo(BSTR* pbstrLanguage, GUID* pguidLanguage)
 }
 ```
 
-## See Also
+## See also
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

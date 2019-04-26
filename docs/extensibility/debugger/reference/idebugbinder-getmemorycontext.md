@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder::GetMemoryContext
 This method converts either an object location or a memory address to a memory context.
@@ -34,23 +37,23 @@ int GetMemoryContext(
 );
 ```
 
-#### Parameters
- `pField`
+## Parameters
+ `pField`\
 
  [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the object to locate. If `NULL`, then use `dwConstant` instead.
 
- `dwConstant`
+ `dwConstant`\
 
  [in] A constant memory address, such as 0x5000.
 
- `ppMemCxt`
+ `ppMemCxt`\
 
  [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) interface that represents the address of the object, or the address in memory.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

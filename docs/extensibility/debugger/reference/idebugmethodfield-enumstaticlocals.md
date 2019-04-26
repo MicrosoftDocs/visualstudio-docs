@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMethodField::EnumStaticLocals
 Creates an enumerator for static local variables of the method.
@@ -30,8 +33,8 @@ int EnumStaticLocals(
 );
 ```
 
-#### Parameters
- `ppLocals`
+## Parameters
+ `ppLocals`\
 
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of static locals. Returns a null value if there are no static locals.
 
@@ -41,7 +44,7 @@ int EnumStaticLocals(
 ## Remarks
  Each element is an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing different types of static locals. Call the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method on each object to determine exactly what kind of static local the object represents.
 
-## See Also
+## See also
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

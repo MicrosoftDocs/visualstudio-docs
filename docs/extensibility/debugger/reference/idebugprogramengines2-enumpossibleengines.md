@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramEngines2::EnumPossibleEngines
 Returns the GUIDs for all the possible debug engines (DE) that can debug this program.
@@ -34,16 +37,16 @@ int EnumPossibleEngines( 
 );
 ```
 
-#### Parameters
- `celtBuffer`
+## Parameters
+ `celtBuffer`\
 
  [in] The number of DE GUIDs to return. This also specifies the maximum size of the `rgguidEngines` array.
 
- `rgguidEngines`
+ `rgguidEngines`\
 
  [in, out] An array of DE GUIDs to be filled in.
 
- `pceltEngines`
+ `pceltEngines`\
 
  [out] Returns the actual number of DE GUIDs that are returned.
 
@@ -53,5 +56,5 @@ int EnumPossibleEngines( 
 ## Remarks
  In order to determine how many engines there are, call this method once with the `celtBuffer` parameter set to 0 and the `rgguidEngines` parameter set to a null value. This returns `HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)` (0x8007007A for C#), and the `pceltEngines` parameter returns the necessary size of the buffer.
 
-## See Also
+## See also
 - [IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetTypeInfo
 This method gets type-independent information about the symbol or type.
@@ -30,8 +33,8 @@ int GetTypeInfo(
 );
 ```
 
-#### Parameters
- `pTypeInfo`
+## Parameters
+ `pTypeInfo`\
 
  [out] Returns type information in the supplied [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure.
 
@@ -41,7 +44,7 @@ int GetTypeInfo(
 ## Remarks
  Type-independent information would include, for example, the AppDomain, the module, and the class that contains the symbol.
 
-## See Also
+## See also
 - [GetType](../../../extensibility/debugger/reference/idebugfield-gettype.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)

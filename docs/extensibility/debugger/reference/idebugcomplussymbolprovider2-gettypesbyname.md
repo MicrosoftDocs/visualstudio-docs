@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider2::GetTypesByName
 Retrieves a type given its name.
@@ -33,16 +36,16 @@ int GetTypesByName(
 );
 ```
 
-#### Parameters
-`pszClassName`
+## Parameters
+`pszClassName`\
 
  [in] Name of the type.
 
-`nameMatch`
+`nameMatch`\
 
  [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
-`ppEnum`
+`ppEnum`\
 
  [out] An enumerator that contains the type or types with the given name.
 
@@ -118,5 +121,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

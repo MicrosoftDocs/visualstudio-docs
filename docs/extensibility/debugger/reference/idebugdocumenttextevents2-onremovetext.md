@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentTextEvents2::onRemoveText
 Notifies the debug package that text has been removed from the document.
@@ -32,18 +35,18 @@ int onRemoveText( 
 );
 ```
 
-#### Parameters
- `pos`
+## Parameters
+ `pos`\
 
  [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was removed.
 
- `dwNumToRemove`
+ `dwNumToRemove`\
 
  [in] Specifies the number of characters of text that were removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

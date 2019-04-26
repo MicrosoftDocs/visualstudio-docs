@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine3::SetEngineGuid
 This method sets the debug engine's (DE) `GUID`.
@@ -30,13 +33,13 @@ int SetEngineGuid(
 );
 ```
 
-#### Parameters
- `guidEngine`
+## Parameters
+ `guidEngine`\
 
  [in] `GUID` of the engine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

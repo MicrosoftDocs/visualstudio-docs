@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugModule3::SetJustMyCodeState
 Marks the module as being user code or not.
@@ -30,13 +33,13 @@ int SetJustMyCodeState(
 );
 ```
 
-#### Parameters
- `fIsUserCode`
+## Parameters
+ `fIsUserCode`\
 
  [in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

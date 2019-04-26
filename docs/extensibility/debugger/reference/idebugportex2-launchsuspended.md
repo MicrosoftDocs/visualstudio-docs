@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortEx2::LaunchSuspended
 Launches an executable file.
@@ -44,36 +47,36 @@ int LaunchSuspended( 
 );
 ```
 
-#### Parameters
- `pszExe`
+## Parameters
+ `pszExe`\
 
  [in] The name of the executable to be launched. This can be a full path or relative to the working directory specified in the `pszDir` parameter.
 
- `pszArgs`
+ `pszArgs`\
 
  [in] The arguments to pass to the executable. May be a null value if there are no arguments.
 
- `pszDir`
+ `pszDir`\
 
  [in] The name of the working directory used by the executable. May be a null value if no working directory is required.
 
- `bstrEnv`
+ `bstrEnv`\
 
  [in] Environment block of null-terminated strings, followed by an additional NULL terminator.
 
- `hStdInput`
+ `hStdInput`\
 
  [in] Handle to an alternate input stream. May be 0 if redirection is not required.
 
- `hStdOutput`
+ `hStdOutput`\
 
  [in] Handle to an alternate output stream. May be 0 if redirection is not required.
 
- `hStdError`
+ `hStdError`\
 
  [in] Handle to an alternate error output stream. May be 0 if redirection is not required.
 
- `ppPortProcess`
+ `ppPortProcess`\
 
  [out] Returns an [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the launched process.
 
@@ -85,7 +88,7 @@ int LaunchSuspended( 
 
  A program can also be launched from a debug engine. For details, see [Launching a Program](../../../extensibility/debugger/launching-a-program.md).
 
-## See Also
+## See also
 - [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [ResumeProcess](../../../extensibility/debugger/reference/idebugportex2-resumeprocess.md)

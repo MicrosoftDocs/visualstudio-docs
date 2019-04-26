@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator2::Terminate
 Stops and cleans up the expression evaluator.
@@ -50,5 +53,5 @@ STDMETHODIMP ExpressionEvaluatorPackage::Terminate(void)
 }
 ```
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

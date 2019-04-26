@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPort2::GetPortName
 Gets the port name.
@@ -30,8 +33,8 @@ int GetPortName( 
 );
 ```
 
-#### Parameters
- `pbstrName`
+## Parameters
+ `pbstrName`\
 
  [out] Returns the name of the port.
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugAlias::GetICorDebugValue
 Retrieves a managed code interface that represents the value associated with this alias.
@@ -30,8 +33,8 @@ int GetICorDebugValue(
 );
 ```
 
-#### Parameters
- `ppUnk`
+## Parameters
+ `ppUnk`\
 
  [out] `IUnknown` interface that represents the value associated with this alias. This interface can be queried for the `ICorDebugValue` interface.
 
@@ -41,5 +44,5 @@ int GetICorDebugValue(
 ## Remarks
  This method applies only to managed values (the `ICorDebugValue` is an interface available in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] and is defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK in the cordebug.idl file).
 
-## See Also
+## See also
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

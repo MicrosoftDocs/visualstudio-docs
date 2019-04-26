@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject::CreateObjectNoConstructor
 Creates an object with no constructor.
@@ -32,12 +35,12 @@ int CreateObjectNoConstructor(
 );
 ```
 
-#### Parameters
- `pClassObject`
+## Parameters
+ `pClassObject`\
 
  [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing the type of the object to be created.
 
- `ppObject`
+ `ppObject`\
 
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the newly created object.
 
@@ -49,7 +52,7 @@ int CreateObjectNoConstructor(
 
  If the object parameter requires a constructor, call the [CreateObject](../../../extensibility/debugger/reference/idebugfunctionobject-createobject.md) method.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
 - [CreateObject](../../../extensibility/debugger/reference/idebugfunctionobject-createobject.md)

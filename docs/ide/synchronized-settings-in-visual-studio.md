@@ -35,7 +35,7 @@ By default, the following settings are synchronized:
 
    - All settings on the **Environment** > **StartUp** options page.
 
-   - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-quick-actions.md).
+   - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-code-cleanup.md).
 
    - All settings on the **XAML Designer** options pages.
 

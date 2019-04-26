@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator::GetMethodLocationProperty
 This method converts a method location and offset into a memory address.
@@ -38,24 +41,24 @@ int GetMethodLocationProperty(
 );
 ```
 
-#### Parameters
- `upstrFullyQualifiedMethodPlusOffset`
+## Parameters
+ `upstrFullyQualifiedMethodPlusOffset`\
 
  [in] The method location and offset, expressed as a string.
 
- `pSymbolProvider`
+ `pSymbolProvider`\
 
  [in] The symbol provider expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) object.
 
- `pAddress`
+ `pAddress`\
 
  [in] An address within the method, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object.
 
- `pBinder`
+ `pBinder`\
 
  [in] The binder expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
 
- `ppProperty`
+ `ppProperty`\
 
  [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface that represents the memory address.
 
@@ -67,7 +70,7 @@ int GetMethodLocationProperty(
 
  Despite the name `upstrFullyQualifiedMethodPlusOffset`, this parameter can be passed a partially qualified method name. In that case, the selected method is the one that encloses `pAddress`. How this parameter is interpreted is up to the implementation of the expression evaluator and the language it supports.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
