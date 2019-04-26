@@ -9,15 +9,15 @@ description: Managing subscriptions in the Visual Studio + GitHub bundle
 searchscope: VS Subscription
 ---
 
-# Managing Visual Studio with GitHub Enterprise subscriptions
+# Managing Visual Studio Subscriptions with GitHub Enterprise
 
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription bundle that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's the easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
-When your organization purchases Visual Studio with GitHub Enterprise subscriptions, they are provisioned and managed in two parts.
+When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, they are provisioned and managed in two parts.
 
 ## Managing Visual Studio subscriptions
 
-When your organization purchases Visual Studio with GitHub Enterprise subscriptions, the Visual Studio portion of the subscriptions is provisioned immediately and the subscriptions are available for assignment and management in the Visual Studio [Subscriptions Administration](https://manage.visualstudio.com) portal. 
+When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, the Visual Studio portion of the subscriptions is provisioned immediately and the subscriptions are available for assignment and management in the Visual Studio [Subscriptions Administration](https://manage.visualstudio.com) portal. 
 
 For more information about managing subscriptions, check out these topics:
 - [Using the Admin Portal](using-admin-portal.md)
@@ -27,7 +27,9 @@ For more information about managing subscriptions, check out these topics:
 - [Overallocations](handle-overclaimed-license.md)
 
 > [!Important]
-> If your organization has an Enterprise Agreement (EA), admins are able to assign subscriptions without having purchased them, and pay for them later through the "true-up" reconciliation process.  However, if Visual Studio with GitHub Enterprise subscriptions are assigned by Visual Studio subscription admins and there has never been a purchase of those subscriptions, they will not be visible to GitHub Enterprise admins within the organization. To ensure GitHub Enterprise subscriptions are visible, a purchase including **at least one** Visual Studio with GitHub Enterprise subscription should be made the first time the subscriptions are assigned.  
+> If Visual Studio Subscriptions with GitHub Enterprise are assigned by Visual Studio subscription admins and there has never been a purchase of those subscriptions, they will not be visible to GitHub Enterprise admins within the organization. To ensure GitHub Enterprise subscriptions are visible, a purchase including **at least one** Visual Studio Professional with GitHub Enterprise or Visual Studio Enterprise with GitHub Enterprise subscription should be made the first time the subscriptions are assigned.  
+>
+> It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
 
 ## Managing GitHub Enterprise subscriptions
 
@@ -72,4 +74,4 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 -  Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## Next steps
-For more information about managing Visual Studio with GitHub Enterprise subscriptions, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).
+For more information about managing Visual Studio Subscriptions with GitHub Enterprise, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).
