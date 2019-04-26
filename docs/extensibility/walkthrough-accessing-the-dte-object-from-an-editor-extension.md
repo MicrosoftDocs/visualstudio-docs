@@ -40,7 +40,7 @@ In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualS
 
     ```
 
-4. In the `GetDTEProvider` class and add the following `using` directives:
+4. In the `GetDTEProvider` class, add the following `using` directive:
 
     ```csharp
     using Microsoft.VisualStudio.Shell;
