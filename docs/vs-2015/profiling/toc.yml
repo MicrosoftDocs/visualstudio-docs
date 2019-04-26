@@ -22,14 +22,14 @@
   - name: JavaScript Memory
     href: javascript-memory.md
     items:
-    - name: Walkthrough: Find a memory leak (JavaScript)
+    - name: Find a memory leak (JavaScript)
       href: walkthrough-find-a-memory-leak-javascript.md
   - name: Network Usage
     href: network-usage.md
   - name: HTML UI responsiveness
     href: html-ui-responsiveness.md
     items:
-    - name: Walkthrough: Improving UI responsiveness (HTML)
+    - name: Improving UI responsiveness (HTML)
       href: walkthrough-improving-ui-responsiveness-html.md
   - name: Performance Explorer
     href: performance-explorer.md
@@ -64,42 +64,42 @@
       items:
       - name: Beginners Guide to Performance Profiling
         href: beginners-guide-to-performance-profiling.md
-      - name: How to: Collect Performance Data for a Web Site
+      - name: Collect Performance Data for a Web Site
         href: how-to-collect-performance-data-for-a-web-site.md
-      - name: How to: Manually Create Performance Sessions
+      - name: Manually Create Performance Sessions
         href: how-to-manually-create-performance-sessions.md
-      - name: Walkthrough: Identifying Performance Problems
+      - name: Identifying Performance Problems
         href: walkthrough-identifying-performance-problems.md
       - name: PeopleTrax Sample
         href: peopletrax-sample-profiling-tools.md
     - name: Configuring Performance Sessions
       href: configuring-performance-sessions.md
       items:
-      - name: How to: Reference Windows Symbol Information
+      - name: Reference Windows Symbol Information
         href: how-to-reference-windows-symbol-information.md
-      - name: How to: Choose Collection Methods
+      - name: Choose Collection Methods
         href: how-to-choose-collection-methods.md
       - name: Collecting Performance Statistics by Using Sampling
         href: collecting-performance-statistics-by-using-sampling.md
         items:
-        - name: How to: Choose Sampling Events
+        - name: Choose Sampling Events
           href: how-to-choose-sampling-events.md
-        - name: How to: Collect Line-Level Sampling Data
+        - name: Collect Line-Level Sampling Data
           href: how-to-collect-line-level-sampling-data.md
       - name: Collecting .NET Memory Allocation and Lifetime Data
         href: collecting-dotnet-memory-allocation-and-lifetime-data.md
       - name: Collecting Detailed Timing Data by Using Instrumentation
         href: collecting-detailed-timing-data-by-using-instrumentation.md
         items:
-        - name: How to: Collect CPU Counter Data
+        - name: Collect CPU Counter Data
           href: how-to-collect-cpu-counter-data.md
-        - name: How to: Relocate Instrumented Binaries
+        - name: Relocate Instrumented Binaries
           href: how-to-relocate-instrumented-binaries.md
-        - name: How to: Specify Pre- and Post-Instrument Commands
+        - name: Specify Pre- and Post-Instrument Commands
           href: how-to-specify-pre-and-post-instrument-commands.md
-        - name: How to: Specify Additional Instrumentation Options
+        - name: Specify Additional Instrumentation Options
           href: how-to-specify-additional-instrumentation-options.md
-      - name: How to: Profile JavaScript Code in Web Pages
+      - name: Profile JavaScript Code in Web Pages
         href: how-to-profile-javascript-code-in-web-pages.md
       - name: Collecting Thread and Process Concurrency Data
         href: collecting-thread-and-process-concurrency-data.md
@@ -108,38 +108,38 @@
       - name: Collecting Additional Performance Data
         href: collecting-additional-performance-data.md
         items:
-        - name: How to: Collect Windows Counter Data
+        - name: Collect Windows Counter Data
           href: how-to-collect-windows-counter-data.md
-        - name: How to: Collect Event Tracing for Windows (ETW) Data
+        - name: Collect Event Tracing for Windows (ETW) Data
           href: how-to-collect-event-tracing-for-windows-etw-data.md
-      - name: How to: Serialize Symbol Information
+      - name: Serialize Symbol Information
         href: how-to-serialize-symbol-information.md
       - name: Setting General Performance Session Options
         href: setting-general-performance-session-options.md
-      - name: How to: Set the Current Session
+      - name: Set the Current Session
         href: how-to-set-the-current-session.md
-      - name: How to: Set Permissions
+      - name: Set Permissions
         href: how-to-set-permissions.md
-      - name: How to: Specify the Binary to Start
+      - name: Specify the Binary to Start
         href: how-to-specify-the-binary-to-start.md
-      - name: How to: Set Performance Data File Name Options
+      - name: Set Performance Data File Name Options
         href: how-to-set-performance-data-file-name-options.md
-      - name: How to: Specify the .NET Framework Runtime
+      - name: Specify the .NET Framework Runtime
         href: how-to-specify-the-dotnet-framework-runtime.md
     - name: Controlling Data Collection
       href: controlling-data-collection.md
       items:
-      - name: How to: Start and End Performance Data Collection
+      - name: Start and End Performance Data Collection
         href: how-to-start-and-end-performance-data-collection.md
-      - name: How to: Attach and Detach Performance Tools to Running Processes
+      - name: Attach and Detach Performance Tools to Running Processes
         href: how-to-attach-and-detach-performance-tools-to-running-processes.md
-      - name: How to: Pause and Resume Performance Data Collection
+      - name: Pause and Resume Performance Data Collection
         href: how-to-pause-and-resume-performance-data-collection.md
-      - name: How to: Limit Instrumentation to Specific DLLs
+      - name: Limit Instrumentation to Specific DLLs
         href: how-to-limit-instrumentation-to-specific-dlls.md
-      - name: How to: Limit Instrumentation to Specific Functions
+      - name: Limit Instrumentation to Specific Functions
         href: how-to-limit-instrumentation-to-specific-functions.md
-      - name: How to: Exclude or Include Short Functions from Instrumentation
+      - name: Exclude or Include Short Functions from Instrumentation
         href: how-to-exclude-or-include-short-functions-from-instrumentation.md
     - name: Analyzing Performance Tools Data
       href: analyzing-performance-tools-data.md
@@ -147,9 +147,9 @@
       - name: Using Performance Rules to Analyze Data
         href: using-performance-rules-to-analyze-data.md
         items:
-        - name: How to: View Performance Warnings
+        - name: View Performance Warnings
           href: how-to-view-performance-warnings.md
-        - name: How to: Configure Performance Rules
+        - name: Configure Performance Rules
           href: how-to-configure-performance-rules.md
         - name: Performance Rules Reference
           href: performance-rules-reference.md
@@ -350,22 +350,22 @@
       - name: Customizing Performance Tools Report Views
         href: customizing-performance-tools-report-views.md
         items:
-        - name: How to: Customize Report View Columns
+        - name: Customize Report View Columns
           href: how-to-customize-report-view-columns.md
         - name: Filtering Report Views
           href: filtering-report-views.md
-        - name: How to: Filter Report Views from the Summary Timeline
+        - name: Filter Report Views from the Summary Timeline
           href: how-to-filter-report-views-from-the-summary-timeline.md
         - name: Performance Report View Filter
           href: performance-report-view-filter.md
-        - name: How to: Configure Noise Reduction in Report Views
+        - name: Configure Noise Reduction in Report Views
           href: how-to-configure-noise-reduction-in-report-views.md
-        - name: How to: Filter Profiling Tools Report Views to Display Just My Code
+        - name: Filter Profiling Tools Report Views to Display Just My Code
           href: how-to-filter-profiling-tools-report-views-to-display-just-my-code.md
     - name: Comparing Performance Data Files
       href: comparing-performance-data-files.md
       items:
-      - name: How to: Compare Performance Data Files
+      - name: Compare Performance Data Files
         href: how-to-compare-performance-data-files.md
     - name: Saving Symbol Information with Performance Data Files
       href: saving-symbol-information-with-performance-data-files.md
@@ -374,7 +374,7 @@
     - name: Profiling from the Command-Line
       href: using-the-profiling-tools-from-the-command-line.md
       items:
-      - name: How to: Specify Symbol File Locations from the Command Line
+      - name: Specify Symbol File Locations from the Command Line
         href: how-to-specify-symbol-file-locations-from-the-command-line.md
       - name: Specifying the Path to Command Line Tools
         href: specifying-the-path-to-profiling-tools-command-line-tools.md
@@ -388,42 +388,42 @@
         - name: Collecting Application Statistics Using Sampling
           href: collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Launch a Stand-Alone Application and Collect Application Statistics
+          - name: Launch a Stand-Alone Application and Collect Application Statistics
             href: how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a .NET Framework Application and Collect Application Statistics
+          - name: Attach the Profiler to a .NET Framework Application and Collect Application Statistics
             href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a Native Application and Collect Application Statistics
+          - name: Attach the Profiler to a Native Application and Collect Application Statistics
             href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md
         - name: Collecting Detailed Timing Data Using Instrumentation
           href: collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Instrument a .NET Component and Collect Detailed Timing Data
+          - name: Instrument a .NET Component and Collect Detailed Timing Data
             href: how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
-          - name: How to: Instrument a Native Component and Collect Detailed Timing Data
+          - name: Instrument a Native Component and Collect Detailed Timing Data
             href: how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
         - name: Collecting Concurrency Data
           href: collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Launch a .NET Framework Application to Collect Concurrency Data
+          - name: Launch a .NET Framework Application to Collect Concurrency Data
             href: how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md
-          - name: How to: Launch a Native Application to Collect Concurrency Data
+          - name: Launch a Native Application to Collect Concurrency Data
             href: how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a .NET Framework Application to Collect Concurrency Data
+          - name: Attach the Profiler to a .NET Framework Application to Collect Concurrency Data
             href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a Native Application and Collect Concurrency Data
+          - name: Attach the Profiler to a Native Application and Collect Concurrency Data
             href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md
         - name: Collecting .NET Framework Memory Data
           href: collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Launch a .NET Framework Application with the Profiler to Collect Memory Data
+          - name: Launch a .NET Framework Application with the Profiler to Collect Memory Data
             href: how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a .NET Framework Application to Collect Memory Data
+          - name: Attach the Profiler to a .NET Framework Application to Collect Memory Data
             href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler
+          - name: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler
             href: how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md
-        - name: Walkthrough: Command-Line Profiling Using Sampling
+        - name: Command-Line Profiling Using Sampling
           href: walkthrough-command-line-profiling-using-sampling.md
-        - name: Walkthrough: Command-Line Profiling Using Instrumentation
+        - name: Command-Line Profiling Using Instrumentation
           href: walkthrough-command-line-profiling-using-instrumentation.md
       - name: Profiling ASP.NET Web Applications
         href: command-line-profiling-of-aspnet-web-applications.md
@@ -433,30 +433,30 @@
         - name: Collecting Application Statistics Using Sampling
           href: collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md
           items:
-          - name: How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics
+          - name: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-application-statistics-by-using-the-command-line.md
         - name: Collecting Detailed Timing Data Using Instrumentation
           href: collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md
           items:
-          - name: How to: Instrument a Statically Compiled ASP.NET Application and Collect Detailed Timing Data
+          - name: Instrument a Statically Compiled ASP.NET Application and Collect Detailed Timing Data
             href: how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md
-          - name: How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data
+          - name: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data
             href: how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md
         - name: Collecting Concurrency Data
           href: collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md
           items:
-          - name: How to: Attach the Profiler to an ASP.NET Application to Collect Concurrency Data
+          - name: Attach the Profiler to an ASP.NET Application to Collect Concurrency Data
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line.md
         - name: Collecting Memory Data
           href: collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data
+          - name: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Instrument a Statically Compiled ASP.NET Application and Collect Memory Data
+          - name: Instrument a Statically Compiled ASP.NET Application and Collect Memory Data
             href: how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md
-          - name: How to: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data
+          - name: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data
             href: /visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data?view=vs-2015
-        - name: How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
+        - name: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
           href: how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications.md
       - name: Profiling Services
         href: command-line-profiling-of-services.md
@@ -464,47 +464,47 @@
         - name: Collecting Application Statistics Using Sampling
           href: collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md
           items:
-          - name: How to: Attach the Profiler to a .NET Service to Collect Application Statistics
+          - name: Attach the Profiler to a .NET Service to Collect Application Statistics
             href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a Native Service to Collect Application Statistics
+          - name: Attach the Profiler to a Native Service to Collect Application Statistics
             href: how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md
         - name: Collecting Detailed Timing Data Using Instrumentation
           href: collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md
           items:
-          - name: How to: Instrument a .NET Service and Collect Detailed Timing Data
+          - name: Instrument a .NET Service and Collect Detailed Timing Data
             href: how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
-          - name: How to: Instrument a Native Service and Collect Detailed Timing Data
+          - name: Instrument a Native Service and Collect Detailed Timing Data
             href: how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
         - name: Collecting Concurrency Data
           href: collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Attach the Profiler to a .NET Service to Collect Concurrency Data
+          - name: Attach the Profiler to a .NET Service to Collect Concurrency Data
             href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-concurrency-data-by-using-the-command-line.md
-          - name: How to: Attach the Profiler to a Native Service to Collect Concurrency Data
+          - name: Attach the Profiler to a Native Service to Collect Concurrency Data
             href: how-to-attach-the-profiler-to-a-native-service-to-collect-concurrency-data-by-using-the-command-line.md
         - name: Collecting .NET Memory Data
           href: collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md
           items:
-          - name: How to: Attach the Profiler to a .NET Service to Collect Memory Data
+          - name: Attach the Profiler to a .NET Service to Collect Memory Data
             href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-memory-data-by-using-the-command-line.md
-          - name: How to: Instrument a .NET Framework Service and Collect Memory Data
+          - name: Instrument a .NET Framework Service and Collect Memory Data
             href: how-to-instrument-a-dotnet-framework-service-and-collect-memory-data-by-using-the-profiler-command-line.md
       - name: Creating Profiler Reports from the Command Line
         href: creating-profiler-reports-from-the-command-line.md
         items:
         - name: Creating Basic Reports
           href: creating-basic-profiling-reports-from-the-command-line.md
-        - name: How to: Filter Reports from the Command Line
+        - name: Filter Reports from the Command Line
           href: how-to-filter-reports-from-the-command-line.md
-        - name: How to: Create a Profiler Comparison Report from a Command Prompt
+        - name: Create a Profiler Comparison Report from a Command Prompt
           href: how-to-create-a-profiler-comparison-report-from-a-command-prompt.md
-        - name: How to: Create a Call Trace Report
+        - name: Create a Call Trace Report
           href: how-to-create-a-profiling-tools-call-trace-report.md
         - name: Creating Portable Profiling Data Files
           href: creating-portable-profiling-data-files-from-the-command-line.md
-        - name: How to: Create an ETW Report
+        - name: Create an ETW Report
           href: how-to-create-a-profiling-tools-etw-report.md
-      - name: How to: Install the Stand-Alone Profiler
+      - name: Install the Stand-Alone Profiler
         href: how-to-install-the-stand-alone-profiler.md
       - name: Command-Line Profiling Tools Reference
         href: command-line-profiling-tools-reference.md
@@ -606,7 +606,7 @@
           href: suspendprofile.md
         - name: PROFILE_CURRENTID
           href: profile-currentid.md
-      - name: Walkthrough: Using Profiler APIs
+      - name: Using Profiler APIs
         href: walkthrough-using-profiler-apis.md
     - name: Profiling ASP.NET Load Tests
       href: profiling-aspnet-load-tests.md
@@ -726,7 +726,7 @@
     - name: Concurrency Visualizer SDK
       href: concurrency-visualizer-sdk.md
       items:
-      - name: How To: Use the Concurrency Visualizer Markers SDK
+      - name: Use the Concurrency Visualizer Markers SDK
         href: how-to-use-the-concurrency-visualizer-markers-sdk.md
       - name: C++ Library Reference
         href: cpp-library-reference.md

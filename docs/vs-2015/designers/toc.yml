@@ -13,7 +13,7 @@
         href: organize-objects-into-layout-containers-in-xaml-designer.md
       - name: How to create and apply a resource
         href: how-to-create-and-apply-a-resource.md
-      - name: Walkthrough: Binding to data in XAML Designer
+      - name: Binding to data in XAML Designer
         href: walkthrough-binding-to-data-in-xaml-designer.md
     - name: Creating a UI by using Blend for Visual Studio
       href: creating-a-ui-by-using-blend-for-visual-studio.md
@@ -55,9 +55,9 @@
       items:
       - name: Introduction to WPF
         href: introduction-to-wpf.md
-      - name: Walkthrough: My First WPF Desktop Application
+      - name: My First WPF Desktop Application
         href: walkthrough-my-first-wpf-desktop-application2.md
-      - name: Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service
+      - name: Create a WPF Desktop Application connected to an Azure Mobile Service
         href: walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md
       - name: WPF Community Resources
         href: wpf-community-resources.md
@@ -92,9 +92,9 @@
         - name: WPF Data Binding Using LINQ to XML Example
           href: wpf-data-binding-using-linq-to-xml-example.md
           items:
-          - name: How to: Build and Run the LinqToXmlDataBinding Example
+          - name: Build and Run the LinqToXmlDataBinding Example
             href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
-          - name: Walkthrough: LinqToXmlDataBinding Example
+          - name: LinqToXmlDataBinding Example
             href: walkthrough-linqtoxmldatabinding-example.md
             items:
             - name: L2DBForm.xaml Source Code
@@ -112,9 +112,9 @@
       - name: Image Editor Examples
         href: image-editor-examples.md
         items:
-        - name: How to: Create a Basic Texture
+        - name: Create a Basic Texture
           href: how-to-create-a-basic-texture.md
-        - name: How to: Create and Modify MIP Levels
+        - name: Create and Modify MIP Levels
           href: how-to-create-and-modify-mip-levels.md
     - name: Working with 3-D Models
       href: working-with-3-d-models.md
@@ -124,13 +124,13 @@
       - name: Model Editor Examples
         href: model-editor-examples.md
         items:
-        - name: How to: Create a Basic 3-D Model
+        - name: Create a Basic 3-D Model
           href: how-to-create-a-basic-3-d-model.md
-        - name: How to: Modify the Pivot Point of a 3-D Model
+        - name: Modify the Pivot Point of a 3-D Model
           href: how-to-modify-the-pivot-point-of-a-3-d-model.md
-        - name: How to: Model 3-D Terrain
+        - name: Model 3-D Terrain
           href: how-to-model-3-d-terrain.md
-        - name: How to: Apply a Shader to a 3-D Model
+        - name: Apply a Shader to a 3-D Model
           href: how-to-apply-a-shader-to-a-3-d-model.md
     - name: Working with Shaders
       href: working-with-shaders.md
@@ -155,30 +155,30 @@
       - name: Shader Designer Examples
         href: shader-designer-examples.md
         items:
-        - name: How to: Create a Basic Color Shader
+        - name: Create a Basic Color Shader
           href: how-to-create-a-basic-color-shader.md
-        - name: How to: Create a Basic Lambert Shader
+        - name: Create a Basic Lambert Shader
           href: how-to-create-a-basic-lambert-shader.md
-        - name: How to: Create a Basic Phong Shader
+        - name: Create a Basic Phong Shader
           href: how-to-create-a-basic-phong-shader.md
-        - name: How to: Create a Basic Texture Shader
+        - name: Create a Basic Texture Shader
           href: how-to-create-a-basic-texture-shader.md
-        - name: How to: Create a Grayscale Texture Shader
+        - name: Create a Grayscale Texture Shader
           href: how-to-create-a-grayscale-texture-shader.md
-        - name: How to: Create a Geometry-Based Gradient Shader
+        - name: Create a Geometry-Based Gradient Shader
           href: how-to-create-a-geometry-based-gradient-shader.md
-        - name: Walkthrough: Creating a Realistic 3-D Billiard Ball
+        - name: Creating a Realistic 3-D Billiard Ball
           href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
-        - name: How to: Export a Shader
+        - name: Export a Shader
           href: how-to-export-a-shader.md
     - name: Using 3-D Assets in Your Game or App
       href: using-3-d-assets-in-your-game-or-app.md
       items:
-      - name: How to: Export a Texture that Contains Mipmaps
+      - name: Export a Texture that Contains Mipmaps
         href: how-to-export-a-texture-that-contains-mipmaps.md
-      - name: How to: Export a Texture that has Premultiplied Alpha
+      - name: Export a Texture that has Premultiplied Alpha
         href: how-to-export-a-texture-that-has-premultiplied-alpha.md
-      - name: How to: Export a Texture for Use with Direct2D or Javascipt Apps
+      - name: Export a Texture for Use with Direct2D or Javascipt Apps
         href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
   - name: The Visual Studio Image Library
     href: the-visual-studio-image-library.md

@@ -3,7 +3,7 @@
   items:
   - name: Optimize Visual Studio Startup Time
     href: optimize-visual-studio-startup-time.md
-  - name: How to: Move Around in the IDE
+  - name: Move Around in the IDE
     href: how-to-move-around-in-the-visual-studio-ide.md
   - name: Finding and Using Visual Studio Extensions
     href: finding-and-using-visual-studio-extensions.md
@@ -13,7 +13,7 @@
     - name: Getting Started with Visual C# and Visual Basic
       href: getting-started-with-visual-csharp-and-visual-basic.md
       items:
-      - name: Walkthrough: Create a Simple Application
+      - name: Create a Simple Application
         href: walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
       - name: Tutorial 1: Create a Picture Viewer
         href: tutorial-1-create-a-picture-viewer.md
@@ -95,11 +95,11 @@
     - name: Managing references in a project
       href: managing-references-in-a-project.md
       items:
-      - name: How to: Add or Remove References By Using the Reference Manager
+      - name: Add or Remove References By Using the Reference Manager
         href: how-to-add-or-remove-references-by-using-the-reference-manager.md
       - name: Adding References Using NuGet Versus an Extension SDK
         href: adding-references-using-nuget-versus-an-extension-sdk.md
-      - name: How to: Add or Remove Imported Namespaces (Visual Basic)
+      - name: Add or Remove Imported Namespaces (Visual Basic)
         href: how-to-add-or-remove-imported-namespaces-visual-basic.md
       - name: Troubleshooting Broken References
         href: troubleshooting-broken-references.md
@@ -112,42 +112,42 @@
     - name: Managing Assembly and Manifest Signing
       href: managing-assembly-and-manifest-signing.md
       items:
-      - name: How to: Sign Application and Deployment Manifests
+      - name: Sign Application and Deployment Manifests
         href: how-to-sign-application-and-deployment-manifests.md
-    - name: How to: Specify an Application Icon (Visual Basic, C#)
+    - name: Specify an Application Icon (Visual Basic, C#)
       href: how-to-specify-an-application-icon-visual-basic-csharp.md
     - name: Targeting a Specific .NET Framework Version
       href: targeting-a-specific-dotnet-framework-version.md
       items:
       - name: Visual Studio Multi-Targeting Overview
         href: visual-studio-multi-targeting-overview.md
-      - name: How to: Target a Version of the .NET Framework
+      - name: Target a Version of the .NET Framework
         href: how-to-target-a-version-of-the-dotnet-framework.md
     - name: Creating Project and Item Templates
       href: creating-project-and-item-templates.md
       items:
-      - name: How to: Create Project Templates
+      - name: Create Project Templates
         href: how-to-create-project-templates.md
-      - name: How to: Create Multi-Project Templates
+      - name: Create Multi-Project Templates
         href: how-to-create-multi-project-templates.md
-      - name: How to: Create Item Templates
+      - name: Create Item Templates
         href: how-to-create-item-templates.md
-      - name: How to: Create Multi-file Item Templates
+      - name: Create Multi-file Item Templates
         href: how-to-create-multi-file-item-templates.md
-      - name: How to: Manually Create Web Templates
+      - name: Manually Create Web Templates
         href: how-to-manually-create-web-templates.md
-      - name: How to: Create Starter Kits
+      - name: Create Starter Kits
         href: how-to-create-starter-kits.md
-      - name: How to: Locate and Organize Templates
+      - name: Locate and Organize Templates
         href: how-to-locate-and-organize-project-and-item-templates.md
       - name: Customizing Templates
         href: customizing-project-and-item-templates.md
         items:
-        - name: How to: Update Existing Templates
+        - name: Update Existing Templates
           href: how-to-update-existing-templates.md
-        - name: How to: Substitute Parameters in a Template
+        - name: Substitute Parameters in a Template
           href: how-to-substitute-parameters-in-a-template.md
-        - name: How to: Troubleshoot Templates
+        - name: Troubleshoot Templates
           href: how-to-troubleshoot-templates.md
       - name: Visual Studio Template Reference
         href: visual-studio-template-reference.md
@@ -196,7 +196,7 @@
           href: filtered-completion-lists-in-visual-basic.md
       - name: Visual C# IntelliSense
         href: visual-csharp-intellisense.md
-      - name: Walkthrough: Test-First Support with the Generate From Usage Feature
+      - name: Test-First Support with the Generate From Usage Feature
         href: walkthrough-test-first-support-with-the-generate-from-usage-feature.md
       - name: JavaScript IntelliSense
         href: javascript-intellisense.md
@@ -239,24 +239,24 @@
     - name: Customizing the Editor
       href: customizing-the-editor.md
       items:
-      - name: How to: Change Text Case in the Editor
+      - name: Change Text Case in the Editor
         href: how-to-change-text-case-in-the-editor.md
-      - name: How to: Manage Editor Modes
+      - name: Manage Editor Modes
         href: how-to-manage-editor-modes.md
-      - name: How to: Manage Editor Windows
+      - name: Manage Editor Windows
         href: how-to-manage-editor-windows.md
-    - name: How to: Track Your Code by Customizing the Scrollbar
+    - name: Track Your Code by Customizing the Scrollbar
       href: how-to-track-your-code-by-customizing-the-scrollbar.md
-    - name: How to: View and Edit Code by Using Peek Definition (Alt+F12)
+    - name: View and Edit Code by Using Peek Definition (Alt+F12)
       href: how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md
     - name: Perform quick actions with light bulbs
       href: perform-quick-actions-with-light-bulbs.md
     - name: Code Snippets
       href: code-snippets.md
       items:
-      - name: Walkthrough: Creating a Code Snippet
+      - name: Creating a Code Snippet
         href: walkthrough-creating-a-code-snippet.md
-      - name: How to: Distribute Code Snippets
+      - name: Distribute Code Snippets
         href: how-to-distribute-code-snippets.md
       - name: Visual C# Code Snippets
         href: visual-csharp-code-snippets.md
@@ -264,9 +264,9 @@
         href: visual-cpp-code-snippets.md
       - name: Code Snippet Functions
         href: code-snippet-functions.md
-      - name: How to: Restore C# Refactoring Snippets
+      - name: Restore C# Refactoring Snippets
         href: how-to-restore-csharp-refactoring-snippets.md
-      - name: How to: Use Surround-with Code Snippets
+      - name: Use Surround-with Code Snippets
         href: how-to-use-surround-with-code-snippets.md
       - name: Best Practices for Using Code Snippets
         href: best-practices-for-using-code-snippets.md
@@ -290,28 +290,28 @@
           - name: Working with Class Diagrams (Class Designer)
             href: working-with-class-diagrams-class-designer.md
             items:
-            - name: How to: Add Class Diagrams to Projects (Class Designer)
+            - name: Add Class Diagrams to Projects (Class Designer)
               href: how-to-add-class-diagrams-to-projects-class-designer.md
-            - name: How to: Customize Class Diagrams (Class Designer)
+            - name: Customize Class Diagrams (Class Designer)
               href: how-to-customize-class-diagrams-class-designer.md
-            - name: How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)
+            - name: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)
               href: how-to-copy-class-diagram-elements-to-a-microsoft-office-document-class-designer.md
-            - name: How to: Export Class Diagrams As Images (Class Designer)
+            - name: Export Class Diagrams As Images (Class Designer)
               href: how-to-export-class-diagrams-as-images-class-designer.md
-            - name: How to: Print Class Diagrams (Class Designer)
+            - name: Print Class Diagrams (Class Designer)
               href: how-to-print-class-diagrams-class-designer.md
-            - name: How to: Add Comments to Class Diagrams (Class Designer)
+            - name: Add Comments to Class Diagrams (Class Designer)
               href: how-to-add-comments-to-class-diagrams-class-designer.md
           - name: Designing Classes and Types (Class Designer)
             href: designing-classes-and-types-class-designer.md
             items:
-            - name: How to: Create Types by using Class Designer
+            - name: Create Types by using Class Designer
               href: how-to-create-types-by-using-class-designer.md
-            - name: How to: Create Inheritance Between Types (Class Designer)
+            - name: Create Inheritance Between Types (Class Designer)
               href: how-to-create-inheritance-between-types-class-designer.md
-            - name: How to: Create Associations Between Types (Class Designer)
+            - name: Create Associations Between Types (Class Designer)
               href: how-to-create-associations-between-types-class-designer.md
-            - name: How to: Visualize a Collection Association (Class Designer)
+            - name: Visualize a Collection Association (Class Designer)
               href: how-to-visualize-a-collection-association-class-designer.md
             - name: Creating and Configuring Type Members (Class Designer)
               href: creating-and-configuring-type-members-class-designer.md
@@ -321,20 +321,20 @@
           - name: Viewing Types and Relationships (Class Designer)
             href: viewing-types-and-relationships-class-designer.md
             items:
-            - name: How to: View Existing Types (Class Designer)
+            - name: View Existing Types (Class Designer)
               href: how-to-view-existing-types-class-designer.md
-            - name: How to: View Inheritance Between Types (Class Designer)
+            - name: View Inheritance Between Types (Class Designer)
               href: how-to-view-inheritance-between-types-class-designer.md
-            - name: How to: Change Between Member Notation and Association Notation (Class Designer)
+            - name: Change Between Member Notation and Association Notation (Class Designer)
               href: how-to-change-between-member-notation-and-association-notation-class-designer.md
           - name: Refactoring Classes and Types (Class Designer)
             href: refactoring-classes-and-types-class-designer.md
             items:
-            - name: How to: Implement an Interface (Class Designer)
+            - name: Implement an Interface (Class Designer)
               href: how-to-implement-an-interface-class-designer.md
-            - name: How to: Split a Class into Partial Classes (Class Designer)
+            - name: Split a Class into Partial Classes (Class Designer)
               href: how-to-split-a-class-into-partial-classes-class-designer.md
-            - name: How to: Create a Nullable Type (Class Designer)
+            - name: Create a Nullable Type (Class Designer)
               href: how-to-create-a-nullable-type-class-designer.md
           - name: Working with Visual C++ Code (Class Designer)
             href: working-with-visual-cpp-code-class-designer.md
@@ -373,55 +373,55 @@
   - name: Compiling and Building
     href: compiling-and-building-in-visual-studio.md
     items:
-    - name: Walkthrough: Building an Application
+    - name: Building an Application
       href: walkthrough-building-an-application.md
     - name: Building and Cleaning Projects and Solutions in Visual Studio
       href: building-and-cleaning-projects-and-solutions-in-visual-studio.md
       items:
-      - name: How to: Change the Build Output Directory
+      - name: Change the Build Output Directory
         href: how-to-change-the-build-output-directory.md
-      - name: How to: Build to a Common Output Directory
+      - name: Build to a Common Output Directory
         href: how-to-build-to-a-common-output-directory.md
       - name: Specifying Custom Build Events in Visual Studio
         href: specifying-custom-build-events-in-visual-studio.md
-      - name: How to: Set Multiple Startup Projects
+      - name: Set Multiple Startup Projects
         href: how-to-set-multiple-startup-projects.md
-      - name: How to: Create and Remove Project Dependencies
+      - name: Create and Remove Project Dependencies
         href: how-to-create-and-remove-project-dependencies.md
-      - name: How to: View, Save, and Configure Build Log Files
+      - name: View, Save, and Configure Build Log Files
         href: how-to-view-save-and-configure-build-log-files.md
-      - name: How to: Exclude Projects from a Build
+      - name: Exclude Projects from a Build
         href: how-to-exclude-projects-from-a-build.md
-      - name: How to: Suppress Compiler Warnings
+      - name: Suppress Compiler Warnings
         href: how-to-suppress-compiler-warnings.md
     - name: Understanding Build Configurations
       href: understanding-build-configurations.md
       items:
-      - name: How to: Create and Edit Configurations
+      - name: Create and Edit Configurations
         href: how-to-create-and-edit-configurations.md
-      - name: How to: Manage Configurations with Visual Basic Developer Settings Applied
+      - name: Manage Configurations with Visual Basic Developer Settings Applied
         href: how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md
-      - name: How to: Build Multiple Configurations Simultaneously
+      - name: Build Multiple Configurations Simultaneously
         href: how-to-build-multiple-configurations-simultaneously.md
     - name: Understanding Build Platforms
       href: understanding-build-platforms.md
       items:
-      - name: How to: Configure Projects to Target Platforms
+      - name: Configure Projects to Target Platforms
         href: how-to-configure-projects-to-target-platforms.md
-      - name: How to: Configure Projects to Target Multiple Platforms
+      - name: Configure Projects to Target Multiple Platforms
         href: how-to-configure-projects-to-target-multiple-platforms.md
-    - name: How to: Specify Build Events (Visual Basic)
+    - name: Specify Build Events (Visual Basic)
       href: how-to-specify-build-events-visual-basic.md
-    - name: How to: Specify Build Events (C#)
+    - name: Specify Build Events (C#)
       href: how-to-specify-build-events-csharp.md
     - name: Configuring Warnings in Visual Basic
       href: configuring-warnings-in-visual-basic.md
-    - name: How to: Disable the Hosting Process
+    - name: Disable the Hosting Process
       href: how-to-disable-the-hosting-process.md
       items:
       - name: Hosting Process (vshost.exe)
         href: hosting-process-vshost-exe.md
-    - name: Walkthrough: Creating a Multiple-Computer Build Environment
+    - name: Creating a Multiple-Computer Build Environment
       href: walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Deploying Applications, Services, and Components
     href: ../deployment/deploying-applications-services-and-components.md
@@ -443,9 +443,9 @@
   - name: Personalizing the  IDE
     href: personalizing-the-visual-studio-ide.md
     items:
-    - name: How to: Change Fonts and Colors
+    - name: Change Fonts and Colors
       href: how-to-change-fonts-and-colors-in-visual-studio.md
-    - name: How to: Customize Menus and Toolbars
+    - name: Customize Menus and Toolbars
       href: how-to-customize-menus-and-toolbars-in-visual-studio.md
     - name: Customizing window layouts
       href: customizing-window-layouts-in-visual-studio.md
@@ -485,14 +485,14 @@
     - name: Locate Information
       href: locate-information.md
       items:
-      - name: How to: Find Topics in the Index
+      - name: Find Topics in the Index
         href: how-to-find-topics-in-the-index.md
         items:
         - name: Index Search Tips
           href: index-search-tips.md
-      - name: How to: Find Topics in the Table of Contents
+      - name: Find Topics in the Table of Contents
         href: how-to-find-topics-in-the-table-of-contents.md
-      - name: How to: Search for Topics
+      - name: Search for Topics
         href: how-to-search-for-topics.md
         items:
         - name: Full-Text Search Tips
@@ -501,7 +501,7 @@
           href: logical-operators-in-search-expressions.md
         - name: Advanced Search Operators in Search Expressions
           href: advanced-search-operators-in-search-expressions.md
-        - name: How to: Customize Search Results
+        - name: Customize Search Results
           href: how-to-customize-search-results.md
     - name: Manage the Help Viewer Window
       href: manage-the-help-viewer-window.md
@@ -540,7 +540,7 @@
     - name: Creating Applications in Bi-directional Languages
       href: creating-applications-in-bi-directional-languages.md
       items:
-      - name: How to: Save and Open Files with Encoding
+      - name: Save and Open Files with Encoding
         href: how-to-save-and-open-files-with-encoding.md
   - name: Adding Visual Studio editor support for other languages
     href: adding-visual-studio-editor-support-for-other-languages.md
@@ -611,13 +611,13 @@
       - name: Text Editor Options Dialog Box
         href: reference/text-editor-options-dialog-box.md
         items:
-        - name: How to: Change Fonts and Colors in the Editor
+        - name: Change Fonts and Colors in the Editor
           href: reference/how-to-change-fonts-and-colors-in-the-editor.md
-        - name: How to: Manage Word Wrap in the Editor
+        - name: Manage Word Wrap in the Editor
           href: reference/how-to-manage-word-wrap-in-the-editor.md
-        - name: How to: Display Line Numbers in the Editor
+        - name: Display Line Numbers in the Editor
           href: reference/how-to-display-line-numbers-in-the-editor.md
-        - name: How to: Display URLs as Links in the Editor
+        - name: Display URLs as Links in the Editor
           href: reference/how-to-display-urls-as-links-in-the-editor.md
         - name: Setting Language-Specific Editor Options
           href: reference/setting-language-specific-editor-options.md
@@ -877,9 +877,9 @@
       - name: Accessibility Features of Visual Studio
         href: reference/accessibility-features-of-visual-studio.md
         items:
-        - name: How to: Set IDE Accessibility Options
+        - name: Set IDE Accessibility Options
           href: reference/how-to-set-ide-accessibility-options.md
-        - name: How to: Use the Keyboard Exclusively
+        - name: Use the Keyboard Exclusively
           href: reference/how-to-use-the-keyboard-exclusively.md
         - name: Accessibility Tips and Tricks
           href: reference/accessibility-tips-and-tricks.md

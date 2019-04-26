@@ -278,15 +278,15 @@
         href: overriding-and-extending-the-generated-classes.md
       - name: Navigating and Updating a Model in Program Code
         href: navigating-and-updating-a-model-in-program-code.md
-      - name: How to: Use Transactions to Update the Model
+      - name: Use Transactions to Update the Model
         href: how-to-use-transactions-to-update-the-model.md
       - name: Integrating Models by using Visual Studio Modelbus
         href: integrating-models-by-using-visual-studio-modelbus.md
       - name: Extend your DSL by using MEF
         href: extend-your-dsl-by-using-mef.md
-      - name: How to: Open a Model from File in Program Code
+      - name: Open a Model from File in Program Code
         href: how-to-open-a-model-from-file-in-program-code.md
-      - name: How to: Set CLR Attributes on an Element
+      - name: Set CLR Attributes on an Element
         href: how-to-set-clr-attributes-on-an-element.md
       - name: Defining a Locking Policy to Create Read-Only Segments
         href: defining-a-locking-policy-to-create-read-only-segments.md
@@ -305,15 +305,15 @@
     - name: Writing User Commands and Actions
       href: writing-user-commands-and-actions.md
       items:
-      - name: How to: Modify a Standard Menu Command
+      - name: Modify a Standard Menu Command
         href: how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md
-      - name: How to: Add a Command to the Shortcut Menu
+      - name: Add a Command to the Shortcut Menu
         href: how-to-add-a-command-to-the-shortcut-menu.md
-      - name: How to: Add a Drag-and-Drop Handler
+      - name: Add a Drag-and-Drop Handler
         href: how-to-add-a-drag-and-drop-handler.md
-      - name: How to: Intercept a Click on a Shape or Decorator
+      - name: Intercept a Click on a Shape or Decorator
         href: how-to-intercept-a-click-on-a-shape-or-decorator.md
-      - name: How to: Access and Constrain the Current Selection
+      - name: Access and Constrain the Current Selection
         href: how-to-access-and-constrain-the-current-selection.md
       - name: Customizing Element Tools
         href: customizing-element-tools.md
@@ -339,9 +339,9 @@
         href: accessing-models-from-text-templates.md
       - name: Using Visual Studio ModelBus in a Text Template
         href: using-visual-studio-modelbus-in-a-text-template.md
-      - name: Walkthrough: Debugging a Text Template that Accesses a Model
+      - name: Debugging a Text Template that Accesses a Model
         href: walkthrough-debugging-a-text-template-that-accesses-a-model.md
-      - name: Walkthrough: Connecting a Host to a Generated Directive Processor
+      - name: Connecting a Host to a Generated Directive Processor
         href: walkthrough-connecting-a-host-to-a-generated-directive-processor.md
       - name: The DslTextTransform Command
         href: the-dsltexttransform-command.md
@@ -371,19 +371,19 @@
         href: overview-of-the-domain-specific-language-tools-user-interface.md
       - name: Choosing a Domain-Specific Language Solution Template
         href: choosing-a-domain-specific-language-solution-template.md
-      - name: How to: Create a Domain-Specific Language Solution
+      - name: Create a Domain-Specific Language Solution
         href: how-to-create-a-domain-specific-language-solution.md
       - name: Working with the DSL Definition Diagram
         href: working-with-the-dsl-definition-diagram.md
       - name: Working with the Domain-Specific Language Explorer
         href: working-with-the-domain-specific-language-explorer.md
-      - name: How to: Change the Namespace of a Domain-Specific Language
+      - name: Change the Namespace of a Domain-Specific Language
         href: how-to-change-the-namespace-of-a-domain-specific-language.md
-      - name: How to: Extend the Domain-Specific Language Designer
+      - name: Extend the Domain-Specific Language Designer
         href: how-to-extend-the-domain-specific-language-designer.md
     - name: Supported Visual Studio Editions for Visualization & Modeling SDK
       href: supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md
-    - name: How to: Migrate a Domain-Specific Language to a New Version
+    - name: Migrate a Domain-Specific Language to a New Version
       href: how-to-migrate-a-domain-specific-language-to-a-new-version.md
     - name: API Reference for Modeling SDK for Visual Studio
       href: api-reference-for-modeling-sdk-for-visual-studio.md
@@ -393,7 +393,7 @@
     - name: Design-Time Code Generation by using T4 Text Templates
       href: design-time-code-generation-by-using-t4-text-templates.md
       items:
-      - name: Walkthrough: Generating Code by using Text Templates
+      - name: Generating Code by using Text Templates
         href: walkthrough-generating-code-by-using-text-templates.md
       - name: Code Generation in a Build Process
         href: code-generation-in-a-build-process.md
@@ -432,7 +432,7 @@
       - name: Using Escape Sequences in Text Templates
         href: using-escape-sequences-in-text-templates.md
         items:
-        - name: How to: Generate Templates from Templates By Using Escape Sequences
+        - name: Generate Templates from Templates By Using Escape Sequences
           href: how-to-generate-templates-from-templates-by-using-escape-sequences.md
     - name: Debugging a T4 Text Template
       href: debugging-a-t4-text-template.md
@@ -450,14 +450,14 @@
         items:
         - name: Deploying a Custom Directive Processor
           href: deploying-a-custom-directive-processor.md
-        - name: Walkthrough: Creating a Custom Directive Processor
+        - name: Creating a Custom Directive Processor
           href: walkthrough-creating-a-custom-directive-processor.md
       - name: Invoking Text Transformation in a VS Extension
         href: invoking-text-transformation-in-a-vs-extension.md
       - name: Processing Text Templates by using a Custom Host
         href: processing-text-templates-by-using-a-custom-host.md
         items:
-        - name: Walkthrough: Creating a Custom Text Template Host
+        - name: Creating a Custom Text Template Host
           href: walkthrough-creating-a-custom-text-template-host.md
     - name: API Reference for T4 Text Templates
       href: api-reference-for-t4-text-templates.md

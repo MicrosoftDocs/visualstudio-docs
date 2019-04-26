@@ -9,22 +9,22 @@
     - name: Properties
       href: msbuild-properties1.md
       items:
-      - name: How to: Use Environment Variables in a Build
+      - name: Use Environment Variables in a Build
         href: how-to-use-environment-variables-in-a-build.md
-      - name: How to: Reference the Name or Location of the Project File
+      - name: Reference the Name or Location of the Project File
         href: how-to-reference-the-name-or-location-of-the-project-file.md
-      - name: How to: Build the Same Source Files with Different Options
+      - name: Build the Same Source Files with Different Options
         href: how-to-build-the-same-source-files-with-different-options.md
       - name: Property Functions
         href: property-functions.md
     - name: Items
       href: msbuild-items.md
       items:
-      - name: How to: Select the Files to Build
+      - name: Select the Files to Build
         href: how-to-select-the-files-to-build.md
-      - name: How to: Exclude Files from the Build
+      - name: Exclude Files from the Build
         href: how-to-exclude-files-from-the-build.md
-      - name: How to: Display an Item List Separated with Commas
+      - name: Display an Item List Separated with Commas
         href: how-to-display-an-item-list-separated-with-commas.md
       - name: Item Definitions
         href: item-definitions.md
@@ -58,38 +58,38 @@
         href: target-build-order.md
       - name: Incremental Builds
         href: incremental-builds.md
-      - name: How to: Specify Which Target to Build First
+      - name: Specify Which Target to Build First
         href: how-to-specify-which-target-to-build-first.md
-      - name: How to: Use the Same Target in Multiple Project Files
+      - name: Use the Same Target in Multiple Project Files
         href: how-to-use-the-same-target-in-multiple-project-files.md
-      - name: How to: Build Specific Targets in Solutions By Using MSBuild.exe
+      - name: Build Specific Targets in Solutions By Using MSBuild.exe
         href: how-to-build-specific-targets-in-solutions-by-using-msbuild-exe.md
-      - name: How to: Build Incrementally
+      - name: Build Incrementally
         href: how-to-build-incrementally.md
-      - name: How to: Clean a Build
+      - name: Clean a Build
         href: how-to-clean-a-build.md
     - name: Tasks
       href: msbuild-tasks.md
       items:
       - name: Task Writing
         href: task-writing.md
-      - name: How to: Ignore Errors in Tasks
+      - name: Ignore Errors in Tasks
         href: how-to-ignore-errors-in-tasks.md
-      - name: How to: Build a Project That Has Resources
+      - name: Build a Project That Has Resources
         href: how-to-build-a-project-that-has-resources.md
       - name: Inline Tasks
         href: msbuild-inline-tasks.md
         items:
-        - name: Walkthrough: Creating an Inline Task
+        - name: Creating an Inline Task
           href: walkthrough-creating-an-inline-task.md
     - name: Comparing Properties and Items
       href: comparing-properties-and-items.md
     - name: MSBuild Special Characters
       href: msbuild-special-characters.md
       items:
-      - name: How to: Escape Special Characters in MSBuild
+      - name: Escape Special Characters in MSBuild
         href: how-to-escape-special-characters-in-msbuild.md
-      - name: How to: Use Reserved XML Characters in Project Files
+      - name: Use Reserved XML Characters in Project Files
         href: how-to-use-reserved-xml-characters-in-project-files.md
   - name: Advanced Concepts
     href: msbuild-advanced-concepts.md
@@ -106,7 +106,7 @@
     - name: Visual Studio Integration
       href: visual-studio-integration-msbuild.md
       items:
-      - name: How to: Extend the Visual Studio Build Process
+      - name: Extend the Visual Studio Build Process
         href: how-to-extend-the-visual-studio-build-process.md
       - name: Starting a Build from within the IDE
         href: starting-a-build-from-within-the-ide.md
@@ -136,7 +136,7 @@
       - name: Configuring Targets and Tasks
         href: configuring-targets-and-tasks.md
         items:
-        - name: How to: Configure Targets and Tasks
+        - name: Configure Targets and Tasks
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshooting .NET Framework Targeting Errors
         href: troubleshooting-dotnet-framework-targeting-errors.md
@@ -155,9 +155,9 @@
       href: writing-multi-processor-aware-loggers.md
     - name: Creating Forwarding Loggers
       href: creating-forwarding-loggers.md
-  - name: Walkthrough: Using MSBuild
+  - name: Using MSBuild
     href: walkthrough-using-msbuild.md
-  - name: Walkthrough: Creating an MSBuild Project File from Scratch
+  - name: Creating an MSBuild Project File from Scratch
     href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
   - name: MSBuild Reference
     href: msbuild-reference.md

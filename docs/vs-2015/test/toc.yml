@@ -18,14 +18,14 @@
       items:
       - name: Run a unit test as a 64-bit process
         href: run-a-unit-test-as-a-64-bit-process.md
-      - name: Walkthrough: Creating and Running Unit Tests for Windows Store Apps
+      - name: Creating and Running Unit Tests for Windows Store Apps
         href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
     - name: Configure unit tests by using a .runsettings file
       href: configure-unit-tests-by-using-a-dot-runsettings-file.md
     - name: Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code
       href: writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md
       items:
-      - name: Walkthrough: Creating and Running Unit Tests for Managed Code
+      - name: Creating and Running Unit Tests for Managed Code
         href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
       - name: Quick Start: Test Driven Development with Test Explorer
         href: quick-start-test-driven-development-with-test-explorer.md
@@ -42,14 +42,14 @@
           href: using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md
         - name: Code generation, compilation, and naming conventions in Microsoft Fakes
           href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
-      - name: How To: Create a Data-Driven Unit Test
+      - name: Create a Data-Driven Unit Test
         href: how-to-create-a-data-driven-unit-test.md
         items:
-        - name: Walkthrough: Using a Configuration File to Define a Data Source
+        - name: Using a Configuration File to Define a Data Source
           href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
       - name: Unit tests for Generic Methods
         href: unit-tests-for-generic-methods.md
-      - name: How to: Target an Earlier Version of .NET
+      - name: Target an Earlier Version of .NET
         href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
       - name: Sample Project for Creating Unit Tests
         href: sample-project-for-creating-unit-tests.md
@@ -74,7 +74,7 @@
   - name: Use UI Automation To Test Your Code
     href: use-ui-automation-to-test-your-code.md
     items:
-    - name: Walkthrough: Creating, Editing and Maintaining a Coded UI Test
+    - name: Creating, Editing and Maintaining a Coded UI Test
       href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
     - name: Test Windows UWP and 8.1 Store Apps with Coded UI Tests
       href: test-windows-store-8-1-apps-with-coded-ui-tests.md

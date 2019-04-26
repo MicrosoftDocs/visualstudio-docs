@@ -28,31 +28,31 @@
           href: format-specifiers-in-csharp.md
         - name: Pseudovariables
           href: pseudovariables.md
-    - name: How to: Use the Disassembly Window
+    - name: Use the Disassembly Window
       href: how-to-use-the-disassembly-window.md
       items:
-      - name: How to: Page Up or Down in Memory
+      - name: Page Up or Down in Memory
         href: how-to-page-up-or-down-in-memory.md
-    - name: How to: Use the Call Stack Window
+    - name: Use the Call Stack Window
       href: how-to-use-the-call-stack-window.md
       items:
       - name: Mixed Code and Missing Information in the Call Stack Window
         href: mixed-code-and-missing-information-in-the-call-stack-window.md
-      - name: How to: Step out of Managed Code when Native Frames are Missing from the Call Stack Window
+      - name: Step out of Managed Code when Native Frames are Missing from the Call Stack Window
         href: how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md
-    - name: How to: Use the Registers Window
+    - name: Use the Registers Window
       href: how-to-use-the-registers-window.md
       items:
-      - name: Debugging Basics: Registers Window
+      - name: Registers Window
         href: debugging-basics-registers-window.md
-      - name: How to: Display and Hide Register Groups
+      - name: Display and Hide Register Groups
         href: how-to-display-and-hide-register-groups.md
-      - name: How to: Edit a Register Value
+      - name: Edit a Register Value
         href: how-to-edit-a-register-value.md
-    - name: How to: Use the Modules Window
+    - name: Use the Modules Window
       href: how-to-use-the-modules-window.md
       items:
-      - name: How to: Find Which DLL Your Program Crashed In
+      - name: Find Which DLL Your Program Crashed In
         href: how-to-find-which-dll-your-program-crashed-in.md
     - name: Memory Windows
       href: memory-windows.md
@@ -63,14 +63,14 @@
     items:
     - name: Continuing Execution After an Exception
       href: continuing-execution-after-an-exception.md
-    - name: How to: Examine System Code After an Exception
+    - name: Examine System Code After an Exception
       href: how-to-examine-system-code-after-an-exception.md
-    - name: How to: Use Native Run-Time Checks
+    - name: Use Native Run-Time Checks
       href: how-to-use-native-run-time-checks.md
       items:
       - name: Native Run-Time Checks Customization
         href: native-run-time-checks-customization.md
-      - name: How to: Write a Run-Time Error Reporting Function
+      - name: Write a Run-Time Error Reporting Function
         href: how-to-write-a-run-time-error-reporting-function.md
       - name: Using Run-Time Checks Without the C Run-Time Library
         href: using-run-time-checks-without-the-c-run-time-library.md
@@ -93,9 +93,9 @@
     - name: Debugger Project Settings
       href: debugger-project-settings.md
       items:
-      - name: How to: Specify Debugger Settings
+      - name: Specify Debugger Settings
         href: how-to-specify-debugger-settings.md
-      - name: How to: Set Debug and Release Configurations
+      - name: Set Debug and Release Configurations
         href: how-to-set-debug-and-release-configurations.md
       - name: Project Settings for a C++ Debug Configuration
         href: project-settings-for-a-cpp-debug-configuration.md
@@ -111,9 +111,9 @@
     - name: Debugging DLL Projects
       href: debugging-dll-projects.md
       items:
-      - name: How to: Debug from a DLL Project
+      - name: Debug from a DLL Project
         href: how-to-debug-from-a-dll-project.md
-      - name: How to: Debug in Mixed Mode
+      - name: Debug in Mixed Mode
         href: how-to-debug-in-mixed-mode.md
       - name: Web Control Library (Managed Code)
         href: web-control-library-managed-code.md
@@ -121,13 +121,13 @@
       href: debugging-preparation-console-projects.md
     - name: ASP.NET Web Applications
       href: debugging-preparation-aspnet-web-applications.md
-    - name: How to: Debug an Executable Not Part of a Visual Studio Solution
+    - name: Debug an Executable Not Part of a Visual Studio Solution
       href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
-    - name: How to: Debug with Code Center Premium Source
+    - name: Debug with Code Center Premium Source
       href: how-to-debug-with-code-center-premium-source.md
     - name: Debugging and the Hosting Process
       href: debugging-and-the-hosting-process.md
-    - name: How to: Specify a .NET Framework Version For Debugging
+    - name: Specify a .NET Framework Version For Debugging
       href: how-to-specify-a-dotnet-framework-version-for-debugging.md
   - name: Viewing Data in the Debugger
     href: viewing-data-in-the-debugger.md
@@ -146,37 +146,37 @@
     - name: Create Custom Visualizers
       href: create-custom-visualizers-of-data.md
       items:
-      - name: How to: Write a Visualizer
+      - name: Write a Visualizer
         href: how-to-write-a-visualizer.md
         items:
         - name: Visualizer Architecture
           href: visualizer-architecture.md
-        - name: Walkthrough: Writing a Visualizer in C#
+        - name: Writing a Visualizer in C#
           href: walkthrough-writing-a-visualizer-in-csharp.md
-        - name: Walkthrough: Writing a Visualizer in Visual Basic
+        - name: Writing a Visualizer in Visual Basic
           href: walkthrough-writing-a-visualizer-in-visual-basic.md
         - name: Visualizer Security Considerations
           href: visualizer-security-considerations.md
-      - name: How to: Install a Visualizer
+      - name: Install a Visualizer
         href: how-to-install-a-visualizer.md
-      - name: How to: Test and Debug a Visualizer
+      - name: Test and Debug a Visualizer
         href: how-to-test-and-debug-a-visualizer.md
       - name: Visualizer API Reference
         href: visualizer-api-reference.md
-    - name: How to: View Script Documents
+    - name: View Script Documents
       href: how-to-view-script-documents.md
     - name: Map methods on the call stack while debugging
       href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
   - name: Just-In-Time Debugging
     href: just-in-time-debugging-in-visual-studio.md
-  - name: Walkthrough: Debugging at Design Time
+  - name: Debugging at Design Time
     href: walkthrough-debugging-at-design-time.md
   - name: Edit and Continue
     href: edit-and-continue.md
     items:
-    - name: How to: Enable and Disable Edit and Continue
+    - name: Enable and Disable Edit and Continue
       href: how-to-enable-and-disable-edit-and-continue.md
-    - name: How to: Stop Code Changes
+    - name: Stop Code Changes
       href: how-to-stop-code-changes.md
     - name: Edit and Continue (Visual C++)
       href: edit-and-continue-visual-cpp.md
@@ -186,14 +186,14 @@
     - name: Edit and Continue (Visual C#)
       href: edit-and-continue-visual-csharp.md
       items:
-      - name: How to: Use Edit and Continue (C#)
+      - name: Use Edit and Continue (C#)
         href: how-to-use-edit-and-continue-csharp.md
       - name: Supported Code Changes (C#)
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md
       items:
-      - name: How to: Apply Edits in Break Mode with Edit and Continue
+      - name: Apply Edits in Break Mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
       - name: Unsupported Edits in Visual Basic Edit and Continue
         href: unsupported-edits-in-visual-basic-edit-and-continue.md
@@ -204,7 +204,7 @@
     items:
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
-  - name: How to: Restore Hidden Debugger Commands
+  - name: Restore Hidden Debugger Commands
     href: how-to-restore-hidden-debugger-commands.md
 - name: Remote Debugging
   href: remote-debugging.md
@@ -218,49 +218,49 @@
   - name: Remote Debugging Errors and Troubleshooting
     href: remote-debugging-errors-and-troubleshooting.md
     items:
-    - name: Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
+    - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
       href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md
     - name: A DCOM error occurred trying to contact the remote computer. Access is denied.
       href: a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md
-    - name: Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
+    - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
       href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md
-    - name: Error: Unable to Automatically Step Into the Server
+    - name: Unable to Automatically Step Into the Server
       href: error-unable-to-automatically-step-into-the-server.md
-    - name: Error: Workgroup Remote Logon Failure
+    - name: Workgroup Remote Logon Failure
       href: error-workgroup-remote-logon-failure.md
-    - name: Error: Kerberos Authentication Failed
+    - name: Kerberos Authentication Failed
       href: error-kerberos-authentication-failed.md
-    - name: Error: Ensure that DNS is Correctly Configured on the Target Computer
+    - name: Ensure that DNS is Correctly Configured on the Target Computer
       href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
-    - name: Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
+    - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
       href: error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md
     - name: Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
       href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
-    - name: Error: Unable to initiate DCOM communication
+    - name: Unable to initiate DCOM communication
       href: error-unable-to-initiate-dcom-communication.md
-    - name: Error: Remote computer could not initiate DCOM communications
+    - name: Remote computer could not initiate DCOM communications
       href: error-remote-computer-could-not-initiate-dcom-communications.md
-    - name: Error: Firewall on Local Machine
+    - name: Firewall on Local Machine
       href: error-firewall-on-local-machine.md
-    - name: Error: Firewall No Authentication
+    - name: Firewall No Authentication
       href: error-firewall-no-authentication.md
-    - name: Error: RPC Requires Authentication
+    - name: RPC Requires Authentication
       href: error-rpc-requires-authentication.md
-    - name: Error: You do not have permission to inspect the process's identity
+    - name: You do not have permission to inspect the process's identity
       href: error-you-do-not-have-permission-to-inspect-the-process-s-identity.md
-    - name: Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
+    - name: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
       href: error-the-visual-studio-remote-debugger-service-on-the-target-computer-cannot-connect-back-to-this-computer.md
-    - name: Error: Web site worker process has been terminated by IIS
+    - name: Web site worker process has been terminated by IIS
       href: error-web-site-worker-process-has-been-terminated-by-iis.md
-    - name: Error: Unable to connect to the machine \<name>. The machine cannot be found on the network.
+    - name: Unable to connect to the machine \<name>. The machine cannot be found on the network.
       href: error-unable-to-connect-to-the-machine-name-the-machine-cannot-be-found-on-the-network.md
-    - name: Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
+    - name: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
       href: error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md
-    - name: Error: Mixed mode debugging for IA64 processes is unsupported
+    - name: Mixed mode debugging for IA64 processes is unsupported
       href: error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md
-    - name: Error: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
+    - name: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
       href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
-    - name: Error: Remote machine does not appear in a Remote Connections dialog
+    - name: Remote machine does not appear in a Remote Connections dialog
       href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
 - name: Debug Multithreaded Applications
   href: debug-multithreaded-applications-in-visual-studio.md
@@ -269,19 +269,19 @@
     href: debug-threads-and-processes.md
   - name: Debug Multiple Processes
     href: debug-multiple-processes.md
-  - name: How to: Use the Threads Window
+  - name: Use the Threads Window
     href: how-to-use-the-threads-window.md
-  - name: How to: Switch to Another Thread While Debugging
+  - name: Switch to Another Thread While Debugging
     href: how-to-switch-to-another-thread-while-debugging.md
-  - name: How to: Flag and Unflag Threads
+  - name: Flag and Unflag Threads
     href: how-to-flag-and-unflag-threads.md
-  - name: How to: Set a Thread Name in Native Code
+  - name: Set a Thread Name in Native Code
     href: how-to-set-a-thread-name-in-native-code.md
-  - name: How to: Set a Thread Name in Managed Code
+  - name: Set a Thread Name in Managed Code
     href: how-to-set-a-thread-name-in-managed-code.md
-  - name: Walkthrough: Debugging a Multithreaded Application
+  - name: Debugging a Multithreaded Application
     href: walkthrough-debugging-a-multithreaded-application.md
-  - name: How to: Debug On a High-Performance Cluster
+  - name: Debug On a High-Performance Cluster
     href: how-to-debug-on-a-high-performance-cluster.md
   - name: Tips for Debugging Threads in Native Code
     href: tips-for-debugging-threads-in-native-code.md
@@ -289,16 +289,16 @@
     href: using-the-tasks-window.md
   - name: Using the Parallel Stacks Window
     href: using-the-parallel-stacks-window.md
-  - name: Walkthrough: Debugging a Parallel Application
+  - name: Debugging a Parallel Application
     href: walkthrough-debugging-a-parallel-application.md
-  - name: How to: Use the Parallel Watch Window
+  - name: Use the Parallel Watch Window
     href: how-to-use-the-parallel-watch-window.md
-  - name: How to: Use the GPU Threads Window
+  - name: Use the GPU Threads Window
     href: how-to-use-the-gpu-threads-window.md
 - name: IntelliTrace
   href: intellitrace.md
   items:
-  - name: Walkthrough: Using IntelliTrace
+  - name: Using IntelliTrace
     href: walkthrough-using-intellitrace.md
   - name: IntelliTrace Features
     href: intellitrace-features.md
@@ -343,7 +343,7 @@
         items:
         - name: Debugger navigation sample code (JavaScript)
           href: debugger-navigation-sample-code-javascript.md
-      - name: Quickstart: Debug HTML and CSS
+      - name: Debug HTML and CSS
         href: quickstart-debug-html-and-css.md
         items:
         - name: Debug CSS styles using DOM Explorer
@@ -360,7 +360,7 @@
           href: keyboard-shortcuts-html-and-javascript.md
         - name: Debug HTML, CSS, and JavaScript sample code
           href: debug-html-css-and-javascript-sample-code.md
-      - name: QuickStart: Debug JavaScript
+      - name: Debug JavaScript
         href: quickstart-debug-javascript-using-the-console.md
         items:
         - name: JavaScript Console commands
@@ -390,7 +390,7 @@
         href: debugging-preparation-windows-forms-applications.md
       - name: Windows Services
         href: debugging-preparation-windows-services.md
-    - name: How to: Debug a Partial Trust Application
+    - name: Debug a Partial Trust Application
       href: how-to-debug-a-partial-trust-application.md
     - name: Diagnostic Messages in the Output Window
       href: diagnostic-messages-in-the-output-window.md
@@ -398,9 +398,9 @@
       href: assertions-in-managed-code.md
     - name: Stop Statements in Visual Basic
       href: stop-statements-in-visual-basic.md
-    - name: Walkthrough: Debugging a Windows Form
+    - name: Debugging a Windows Form
       href: walkthrough-debugging-a-windows-form.md
-    - name: How to: Debug the OnStart Method
+    - name: Debug the OnStart Method
       href: how-to-debug-the-onstart-method.md
     - name: Debugging Mixed-Mode Applications
       href: debugging-mixed-mode-applications.md
@@ -408,16 +408,16 @@
       href: jit-optimization-and-debugging.md
     - name: Debugging LINQ
       href: debugging-linq.md
-    - name: Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System
+    - name: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System
       href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
-    - name: How to: Debug .NET Framework Source
+    - name: Debug .NET Framework Source
       href: how-to-debug-dotnet-framework-source.md
     - name: Debugging WPF
       href: debugging-wpf.md
       items:
-      - name: How to: Use the WPF Tree Visualizer
+      - name: Use the WPF Tree Visualizer
         href: how-to-use-the-wpf-tree-visualizer.md
-      - name: How to: Display WPF Trace Information
+      - name: Display WPF Trace Information
         href: how-to-display-wpf-trace-information.md
     - name: Debugging F#
       href: debugging-f-hash.md
@@ -426,13 +426,13 @@
     items:
     - name: Visual C++ Project Types
       href: debugging-preparation-visual-cpp-project-types.md
-    - name: How to: Debug Optimized Code
+    - name: Debug Optimized Code
       href: how-to-debug-optimized-code.md
     - name: DebugBreak and __debugbreak
       href: debugbreak-and-debugbreak.md
     - name: C/C++ Assertions
       href: c-cpp-assertions.md
-    - name: How to: Debug Inline Assembly Code
+    - name: Debug Inline Assembly Code
       href: how-to-debug-inline-assembly-code.md
     - name: MFC Debugging Techniques
       href: mfc-debugging-techniques.md
@@ -482,7 +482,7 @@
         href: how-can-i-use-debugger-windows-while-debugging-a-foreground-program-q.md
       - name: How Can I Debug Windows API Functions?
         href: how-can-i-debug-windows-api-functions-q.md
-      - name: How to: Get Back to the Function that Called MFC If Halted
+      - name: Get Back to the Function that Called MFC If Halted
         href: how-to-get-back-to-the-function-that-called-mfc-if-halted.md
     - name: COM and ActiveX Debugging
       href: com-and-activex-debugging.md
@@ -490,23 +490,23 @@
       - name: COM Server and Container Debugging
         href: com-server-and-container-debugging.md
         items:
-        - name: How to: Debug COM Servers
+        - name: Debug COM Servers
           href: how-to-debug-com-servers.md
           items:
           - name: SDI Server Applications
             href: sdi-server-applications.md
-        - name: How to: Debug COM Clients and Servers Using RPC Debugging
+        - name: Debug COM Clients and Servers Using RPC Debugging
           href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
-      - name: How to: Debug an ActiveX Control
+      - name: Debug an ActiveX Control
         href: how-to-debug-an-activex-control.md
         items:
         - name: Debugging a Data-Bound ActiveX Control
           href: debugging-a-data-bound-activex-control.md
       - name: COM Debugging Tools
         href: com-debugging-tools.md
-    - name: How to: Debug Native DLLs
+    - name: Debug Native DLLs
       href: how-to-debug-native-dlls.md
-    - name: How to: Debug Injected Code
+    - name: Debug Injected Code
       href: how-to-debug-injected-code.md
   - name: Debugging GPU Code
     href: debugging-gpu-code.md
@@ -559,23 +559,23 @@
     - name: Examples
       href: graphics-diagnostics-examples.md
       items:
-      - name: Walkthrough: Capturing Graphics Information
+      - name: Capturing Graphics Information
         href: walkthrough-capturing-graphics-information.md
-      - name: Walkthrough: Capturing Graphics Information Programmatically
+      - name: Capturing Graphics Information Programmatically
         href: walkthrough-capturing-graphics-information-programmatically.md
-      - name: Walkthrough: Missing Objects Due to Device State
+      - name: Missing Objects Due to Device State
         href: walkthrough-missing-objects-due-to-device-state.md
-      - name: Walkthrough: Missing Objects Due to Vertex Shading
+      - name: Missing Objects Due to Vertex Shading
         href: walkthrough-missing-objects-due-to-vertex-shading.md
-      - name: Walkthrough: Missing Objects Due to Misconfigured Pipeline
+      - name: Missing Objects Due to Misconfigured Pipeline
         href: walkthrough-missing-objects-due-to-misconfigured-pipeline.md
-      - name: Walkthrough: Debugging Rendering Errors Due to Shading
+      - name: Debugging Rendering Errors Due to Shading
         href: walkthrough-debugging-rendering-errors-due-to-shading.md
-      - name: Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader
+      - name: Using Graphics Diagnostics to Debug a Compute Shader
         href: walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md
-      - name: How to: Change the Graphics Diagnostics Playback Machine
+      - name: Change the Graphics Diagnostics Playback Machine
         href: how-to-change-the-graphics-diagnostics-playback-machine.md
-      - name: How to: Use Graphics Diagnostics with an ARM Device
+      - name: Use Graphics Diagnostics with an ARM Device
         href: how-to-use-graphics-diagnostics-with-an-arm-device.md
     - name: Reference
       href: reference-programmatic-capture.md
@@ -583,9 +583,9 @@
       - name: VsgDbg Class
         href: vsgdbg-class.md
         items:
-        - name: VsgDbg::VsgDbg (Constructor)
+        - name: "VsgDbg (Constructor)"
           href: vsgdbg-vsgdbg-constructor.md
-        - name: VsgDbg::~VsgDbg (Destructor)
+        - name: "~VsgDbg (Destructor)"
           href: vsgdbg-tilde-vsgdbg-destructor.md
         - name: AddMessage
           href: addmessage.md
@@ -620,20 +620,20 @@
         items:
         - name: System Requirements
           href: aspnet-debugging-system-requirements.md
-        - name: How to: Enable Debugging for ASP.NET Applications
+        - name: Enable Debugging for ASP.NET Applications
           href: how-to-enable-debugging-for-aspnet-applications.md
           items:
-          - name: How to: Run the Worker Process Under a User Account
+          - name: Run the Worker Process Under a User Account
             href: how-to-run-the-worker-process-under-a-user-account.md
         - name: Prerequistes for Remote Debugging Web Applications
           href: prerequistes-for-remote-debugging-web-applications.md
           items:
-          - name: How to: Find the Name of the ASP.NET Process
+          - name: Find the Name of the ASP.NET Process
             href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debugging Web Applications
         href: debugging-web-applications.md
         items:
-        - name: How to: Debug Web Applications
+        - name: Debug Web Applications
           href: how-to-debug-web-applications.md
         - name: Debugging Deployed Web Applications
           href: debugging-deployed-web-applications.md
@@ -642,50 +642,50 @@
           items:
           - name: Limitations on Script Debugging
             href: limitations-on-script-debugging.md
-          - name: How to: Attach to Script
+          - name: Attach to Script
             href: how-to-attach-to-script.md
             items:
-            - name: Warning: Script Debugging Disabled
+            - name: Script Debugging Disabled
               href: warning-script-debugging-disabled.md
-        - name: Walkthrough: Debugging a Web Form
+        - name: Debugging a Web Form
           href: walkthrough-debugging-a-web-form.md
-        - name: How to: Debug ASP.NET Exceptions
+        - name: Debug ASP.NET Exceptions
           href: how-to-debug-aspnet-exceptions.md
-    - name: Debugging Web Applications: Errors and Troubleshooting
+    - name: Errors and Troubleshooting
       href: debugging-web-applications-errors-and-troubleshooting.md
       items:
       - name: Troubleshooting
         href: debugging-web-applications-troubleshooting.md
         items:
-        - name: How to: Verify IIS Property Settings
+        - name: Verify IIS Property Settings
           href: how-to-verify-iis-property-settings.md
-      - name: Error: Site Uses IP Address
+      - name: Site Uses IP Address
         href: error-site-uses-ip-address.md
-      - name: Error: A Security Check Failed Because the IIS Admin Service Did Not Respond
+      - name: A Security Check Failed Because the IIS Admin Service Did Not Respond
         href: error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md
-      - name: Error: ASP.NET Not Installed
+      - name: ASP.NET Not Installed
         href: error-aspnet-not-installed.md
-      - name: Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
+      - name: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
         href: error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md
-      - name: Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
+      - name: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
         href: error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md
-      - name: Error: Timeout While Debugging Web Services
+      - name: Timeout While Debugging Web Services
         href: error-timeout-while-debugging-web-services.md
-      - name: Error: Unable to Start Debugging on the Web Server
+      - name: Unable to Start Debugging on the Web Server
         href: error-unable-to-start-debugging-on-the-web-server.md
         items:
-        - name: Error: The Web Server Could Not Find the Requested Resource
+        - name: The Web Server Could Not Find the Requested Resource
           href: error-the-web-server-could-not-find-the-requested-resource.md
-        - name: Error: The web server is not configured correctly
+        - name: The web server is not configured correctly
           href: error-the-web-server-is-not-configured-correctly.md
   - name: Debugging WCF Services
     href: debugging-wcf-services.md
     items:
     - name: Limitations on WCF Debugging
       href: limitations-on-wcf-debugging.md
-    - name: How to: Step into WCF Services
+    - name: Step into WCF Services
       href: how-to-step-into-wcf-services.md
-    - name: How to: Debug a Self-Hosted WCF Service
+    - name: Debug a Self-Hosted WCF Service
       href: how-to-debug-a-self-hosted-wcf-service.md
 - name: Debugging User Interface Reference
   href: debugging-user-interface-reference.md
@@ -746,23 +746,23 @@
       href: unable-to-attach-to-the-process.md
     - name: Edit and Continue Error Message Dialog Box
       href: edit-and-continue-error-message-dialog-box.md
-    - name: Error: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way
+    - name: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way
       href: error-evaluating-the-function-function-timed-out-and-needed-to-be-aborted-in-an-unsafe-way.md
-    - name: Error: Unable to connect to SQL Server on remote machine
+    - name: Unable to connect to SQL Server on remote machine
       href: error-unable-to-connect-to-sql-server-on-remote-machine.md
-    - name: Error: Unable to access the SQL Server debugging interface
+    - name: Unable to access the SQL Server debugging interface
       href: error-unable-to-access-the-sql-server-debugging-interface.md
-    - name: Error: SQL Can't Find SSDEBUGPS
+    - name: SQL Can't Find SSDEBUGPS
       href: error-sql-can-t-find-ssdebugps.md
-    - name: Error: Transact-SQL execution ended without debugging
+    - name: Transact-SQL execution ended without debugging
       href: error-transact-sql-execution-ended-without-debugging.md
-    - name: Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
+    - name: User Could Not Execute Stored Procedure sp_enable_sql_debug
       href: error-user-could-not-execute-stored-procedure-sp-enable-sql-debug.md
-    - name: Error: Windows file sharing has been configured...
+    - name: Windows file sharing has been configured...
       href: error-windows-file-sharing-has-been-configured-dot-dot-dot.md
-    - name: Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process
+    - name: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process
       href: /visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015
-    - name: Security Warning: Debugger Must Execute Untrusted Command
+    - name: Debugger Must Execute Untrusted Command
       href: security-warning-debugger-must-execute-untrusted-command.md
     - name: Source Server Security Alert
       href: source-server-security-alert.md
@@ -782,17 +782,17 @@
     items:
     - name: Introducing Spy++
       href: introducing-spy-increment.md
-    - name: How to: Start Spy++
+    - name: Start Spy++
       href: how-to-start-spy-increment.md
     - name: Spy++ Toolbar
       href: spy-increment-toolbar.md
-    - name: How to: Display Spy++ Views
+    - name: Display Spy++ Views
       href: how-to-display-spy-increment-views.md
-    - name: How to: Refresh the View
+    - name: Refresh the View
       href: how-to-refresh-the-view.md
-    - name: How to: Change Fonts
+    - name: Change Fonts
       href: how-to-change-fonts.md
-    - name: How to: Expand and Collapse Spy++ Trees
+    - name: Expand and Collapse Spy++ Trees
       href: how-to-expand-and-collapse-spy-increment-trees.md
   - name: Spy++ Views
     href: spy-increment-views.md
@@ -800,40 +800,40 @@
     - name: Windows View
       href: windows-view.md
       items:
-      - name: How to: Use the Finder Tool
+      - name: Use the Finder Tool
         href: how-to-use-the-finder-tool.md
-      - name: How to: Search for a Window in Windows View
+      - name: Search for a Window in Windows View
         href: how-to-search-for-a-window-in-windows-view.md
-      - name: How to: Display Window Properties
+      - name: Display Window Properties
         href: how-to-display-window-properties.md
     - name: Messages View
       href: messages-view.md
       items:
-      - name: How to: Control Messages View
+      - name: Control Messages View
         href: how-to-control-messages-view.md
-      - name: How to: Open Messages View from Find Window
+      - name: Open Messages View from Find Window
         href: how-to-open-messages-view-from-find-window.md
-      - name: How to: Search for a Message in Messages View
+      - name: Search for a Message in Messages View
         href: how-to-search-for-a-message-in-messages-view.md
-      - name: How to: Start and Stop the Message Log Display
+      - name: Start and Stop the Message Log Display
         href: how-to-start-and-stop-the-message-log-display.md
       - name: Message Codes
         href: message-codes.md
-      - name: How to: Display Message Properties
+      - name: Display Message Properties
         href: how-to-display-message-properties.md
     - name: Processes View
       href: processes-view.md
       items:
-      - name: How to: Search for a Process in Processes View
+      - name: Search for a Process in Processes View
         href: how-to-search-for-a-process-in-processes-view.md
-      - name: How to: Display Process Properties
+      - name: Display Process Properties
         href: how-to-display-process-properties.md
     - name: Threads View
       href: threads-view.md
       items:
-      - name: How to: Search for a Thread in Threads View
+      - name: Search for a Thread in Threads View
         href: how-to-search-for-a-thread-in-threads-view.md
-      - name: How to: Display Thread Properties
+      - name: Display Thread Properties
         href: how-to-display-thread-properties.md
   - name: Spy++ Reference
     href: spy-increment-reference.md

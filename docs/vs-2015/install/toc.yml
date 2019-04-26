@@ -12,20 +12,20 @@
   - name: Visual Studio Administrator Guide
     href: visual-studio-administrator-guide.md
     items:
-    - name: How to: Install a Specific Release of Visual Studio
+    - name: Install a Specific Release of Visual Studio
       href: how-to-install-a-specific-release-of-visual-studio.md
-    - name: How to: Create and Run an Unattended Installation of Visual Studio
+    - name: Create and Run an Unattended Installation of Visual Studio
       href: how-to-create-and-run-an-unattended-installation-of-visual-studio.md
-    - name: How to: Automatically apply product keys when deploying Visual Studio
+    - name: Automatically apply product keys when deploying Visual Studio
       href: how-to-automatically-apply-product-keys-when-deploying-visual-studio.md
   - name: Install Multiple Language Versions of Visual Studio
     href: install-multiple-language-versions-of-visual-studio.md
     items:
     - name: Microsoft Language Interface Packs (LIPs) and Visual Studio
       href: microsoft-language-interface-packs-lips-and-visual-studio.md
-  - name: How to: Upgrade from a Trial Edition of Visual Studio
+  - name: Upgrade from a Trial Edition of Visual Studio
     href: how-to-upgrade-from-a-trial-edition-of-visual-studio.md
-  - name: How to: Locate the Visual Studio Product Key
+  - name: Locate the Visual Studio Product Key
     href: how-to-locate-the-visual-studio-product-key.md
   - name: Visual Studio Lifecycle Policy Exceptions
     href: visual-studio-lifecycle-policy-exceptions.md
