@@ -1,0 +1,15 @@
+- name: Python
+  href: getting-started-with-python.md
+  items:
+  - name: Getting Started with PTVS: Setting up Visual Studio
+    href: getting-started-with-ptvs-setting-up-visual-studio.md
+  - name: Getting Started with PTVS: Start Coding (Projects)
+    href: getting-started-with-ptvs-start-coding-projects.md
+  - name: Getting Started with PTVS: Editing Code
+    href: getting-started-with-ptvs-editing-code.md
+  - name: Getting Started with PTVS: Debugging
+    href: getting-started-with-ptvs-debugging.md
+  - name: Getting Started with PTVS: Interactive Python
+    href: getting-started-with-ptvs-interactive-python.md
+  - name: Getting Started with PTVS: Building a Website in Azure
+    href: getting-started-with-ptvs-building-a-website-in-azure.md
