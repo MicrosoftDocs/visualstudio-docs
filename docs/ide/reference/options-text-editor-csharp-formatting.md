@@ -39,7 +39,7 @@ These settings affect *when* the code editor applies formatting options to code.
 
 ::: moniker range="vs-2019"
 
-If you previously applied code style settings for C# files using the **Format Document** command in Visual Studio 2017, that functionality is now available as [**Code Cleanup**](code-styles-and-code-cleanup.md#apply-code-styles).
+If you previously applied code style settings for C# files using the **Format Document** command in Visual Studio 2017, that functionality is now available as [**Code Cleanup**](../code-styles-and-code-cleanup.md#apply-code-styles).
 
 ::: moniker-end
 
