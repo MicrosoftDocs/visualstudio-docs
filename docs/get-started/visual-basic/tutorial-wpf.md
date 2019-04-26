@@ -306,7 +306,7 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ::: moniker range="vs-2019"
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio-2019.md)
+- [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
 - [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
 
 ::: moniker-end
