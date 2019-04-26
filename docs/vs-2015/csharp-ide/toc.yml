@@ -1,7 +1,7 @@
 - name: Using the Visual Studio Development Environment for C#
   href: using-the-visual-studio-development-environment-for-csharp.md
   items:
-  - name: "Add an Application Configuration File to a C# Project"
+  - name: Add an Application Configuration File to a C# Project
     href: how-to-add-an-application-configuration-file-to-a-csharp-project.md
   - name: Metadata as Source
     href: metadata-as-source.md
