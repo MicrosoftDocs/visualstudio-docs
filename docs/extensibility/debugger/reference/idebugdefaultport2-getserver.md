@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDefaultPort2::GetServer
 This method obtains an interface to the server that this port is on.
@@ -30,8 +33,8 @@ int GetServer(
 );
 ```
 
-#### Parameters
- `ppServer`
+## Parameters
+ `ppServer`\
 
  [out] Returns an object implementing the [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) interface.
 
@@ -41,6 +44,6 @@ int GetServer(
 ## Remarks
  The [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) is implemented by Visual Studio and represents the server that the port is located on.
 
-## See Also
+## See also
 - [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)

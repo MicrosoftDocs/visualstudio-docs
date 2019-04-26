@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBoundBreakpoint2::Enable
 Enables or disables the breakpoint.
@@ -31,8 +34,8 @@ int Enable( 
 );
 ```
 
-#### Parameters
-`fEnable`
+## Parameters
+`fEnable`\
 
  [in] Set to non-zero (`TRUE`) to enable or to zero (`FALSE`) to disable the breakpoint.
 
@@ -89,6 +92,6 @@ HRESULT CBoundBreakpoint::Enable(BOOL fEnable)
 }
 ```
 
-## See Also
+## See also
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

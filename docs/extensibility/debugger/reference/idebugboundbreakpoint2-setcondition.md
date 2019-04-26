@@ -13,6 +13,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBoundBreakpoint2::SetCondition
 Sets or changes the condition associated with this bound breakpoint.
@@ -31,8 +34,8 @@ int SetCondition( 
 );
 ```
 
-#### Parameters
- `bpCondition`
+## Parameters
+ `bpCondition`\
 
  [in] A value from the [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) enumeration that describes the condition.
 
@@ -42,7 +45,7 @@ int SetCondition( 
 ## Remarks
  Any condition that was previously associated with this breakpoint is lost.
 
-## See Also
+## See also
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

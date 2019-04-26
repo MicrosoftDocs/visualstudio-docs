@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 Retrieves the classes with the specified attribute that are implemented in the specified programming language.
@@ -33,16 +36,16 @@ int GetAttributedClassesForLanguage (
 );
 ```
 
-#### Parameters
-`guidLanguage`
+## Parameters
+`guidLanguage`\
 
  [in] Unique identifier for the language.
 
-`pstrAttribute`
+`pstrAttribute`\
 
  [in] The attribute string.
 
-`ppEnum`
+`ppEnum`\
 
  [out] Returns an enumeration of the attribute classes.
 
@@ -180,5 +183,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericFieldInstance::TypeArgumentCount
 Returns the number of type parameter arguments for this instance.
@@ -29,8 +32,8 @@ int TypeArgumentCount(
 );
 ```
 
-#### Parameters
- `pcArgs`
+## Parameters
+ `pcArgs`\
 
  [in, out] Number of type parameter arguments for this instance.
 
@@ -40,5 +43,5 @@ int TypeArgumentCount(
 ## Remarks
  For example, if List\<int>, this method returns 1, and, if List\<int,float2> this method returns 2. This method returns 0 if there are no type arguments.
 
-## See Also
+## See also
 - [IDebugGenericFieldInstance](../../../extensibility/debugger/reference/idebuggenericfieldinstance.md)

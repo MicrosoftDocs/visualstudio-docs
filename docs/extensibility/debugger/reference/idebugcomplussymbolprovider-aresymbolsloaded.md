@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.
@@ -31,12 +34,12 @@ int AreSymbolsLoaded (
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier for the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier for the module.
 
@@ -66,5 +69,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 Gets the pending breakpoint that is being bound.
@@ -30,8 +33,8 @@ int GetPendingBreakpoint(
 );
 ```
 
-#### Parameters
-`ppPendingBP`
+## Parameters
+`ppPendingBP`\
 
  [out] Returns the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the pending breakpoint being bound.
 
@@ -67,6 +70,6 @@ STDMETHODIMP CBreakpointSetDebugEventBase::GetPendingBreakpoint(
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md)
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)

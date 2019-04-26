@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.
@@ -32,12 +35,12 @@ int ReloadSymbols( 
 );
 ```
 
-#### Parameters
- `pszUrlToSymbols`
+## Parameters
+ `pszUrlToSymbols`\
 
  [in] The path to the symbol store.
 
- `pbstrDebugMessage`
+ `pbstrDebugMessage`\
 
  [out] Returns an informational message, such as a status or error message, that is displayed to the right of the module name in the Modules window.
 
@@ -47,6 +50,6 @@ int ReloadSymbols( 
 ## Remarks
  This method is no longer supported. Implement the [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md) method instead.
 
-## See Also
+## See also
 - [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
 - [LoadSymbols](../../../extensibility/debugger/reference/idebugmodule3-loadsymbols.md)

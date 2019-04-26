@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCanStopEvent2::GetDocumentContext
 Gets the document context that describes the location of this event.
@@ -30,8 +33,8 @@ int GetDocumentContext ( 
 );
 ```
 
-#### Parameters
- `ppDocCxt`
+## Parameters
+ `ppDocCxt`\
 
  [out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface that represents a position in a source file document corresponding to the current code location.
 
@@ -43,7 +46,7 @@ int GetDocumentContext ( 
 
  To get the code context, which is oriented towards code instructions, call the [GetCodeContext](../../../extensibility/debugger/reference/idebugcanstopevent2-getcodecontext.md) method.
 
-## See Also
+## See also
 - [IDebugCanStopEvent2](../../../extensibility/debugger/reference/idebugcanstopevent2.md)
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [GetCodeContext](../../../extensibility/debugger/reference/idebugcanstopevent2-getcodecontext.md)

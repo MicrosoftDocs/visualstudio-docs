@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymUnmanagedReader
 Retrieves the symbol reader to be used by unmanaged code.
@@ -33,16 +36,16 @@ int GetSymUnmanagedReader(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
-`ppSymUnmanagedReader`
+`ppSymUnmanagedReader`\
 
  [out] Returns the object that represents the symbol reader.
 
@@ -75,5 +78,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

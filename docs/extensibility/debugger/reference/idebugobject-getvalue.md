@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::GetValue
 Gets the value of the object as a consecutive series of bytes.
@@ -32,12 +35,12 @@ int GetValue(
 );
 ```
 
-#### Parameters
- `pValue`
+## Parameters
+ `pValue`\
 
  [in, out] An array that is filled in with a consecutive series of bytes representing the value of the object.
 
- `nSize`
+ `nSize`\
 
  [in] The maximum number of bytes to fetch.
 
@@ -47,5 +50,5 @@ int GetValue(
 ## Remarks
  Get the total number of value bytes that can be fetched by calling the [GetSize](../../../extensibility/debugger/reference/idebugobject-getsize.md) method.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

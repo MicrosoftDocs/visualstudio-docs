@@ -23,7 +23,7 @@ You can define and maintain consistent code style in your codebase with the use 
 
 > [!TIP]
 > - When you define coding conventions in an .editorconfig file, you're configuring how you want the [code style analyzers](../code-quality/roslyn-analyzers-overview.md) that are built into Visual Studio to analyze your code. The .editorconfig file is the configuration file for these analyzers.
-> - Code style preferences for Visual Studio can also be set in the [Text editor options](code-styles-and-quick-actions.md) dialog. However, .editorconfig settings take precedence and preferences you set in **Options** aren't associated with a particular project.
+> - Code style preferences for Visual Studio can also be set in the [Text editor options](code-styles-and-code-cleanup.md) dialog. However, .editorconfig settings take precedence and preferences you set in **Options** aren't associated with a particular project.
 
 The end of this article contains an [example .editorconfig file](#example-editorconfig-file).
 

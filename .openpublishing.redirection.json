@@ -1281,6 +1281,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/code-styles-and-quick-actions.md",
+            "redirect_url": "/visualstudio/ide/code-styles-and-code-cleanup",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
             "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
             "redirect_document_id": true

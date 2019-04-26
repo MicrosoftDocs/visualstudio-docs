@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugClassField::EnumConstructors
 Creates an enumerator for the constructors for this class.
@@ -32,12 +35,12 @@ int EnumConstructors(
 );
 ```
 
-#### Parameters
- `cMatch`
+## Parameters
+ `cMatch`\
 
  [in] A value from the [CONSTRUCTOR_ENUM](../../../extensibility/debugger/reference/constructor-enum.md) enumeration that specifies the type of constructors to enumeration.
 
- `ppEnum`
+ `ppEnum`\
 
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of constructors. Returns a null value if there are no constructors.
 
@@ -49,7 +52,7 @@ int EnumConstructors(
 
  The list of constructors typically does not include the default constructors supplied by a compiler.
 
-## See Also
+## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator::SetRegistryRoot
 This method sets the registry root. Used for side-by-side debugging.
@@ -30,8 +33,8 @@ int SetRegistryRoot(
 );
 ```
 
-#### Parameters
- `ustrRegistryRoot`
+## Parameters
+ `ustrRegistryRoot`\
 
  [in] The new registry root.
 
@@ -41,5 +44,5 @@ int SetRegistryRoot(
 ## Remarks
  The specified registry root is typically set when the expression evaluator is first instantiated and points to the registry key for a specific version of Visual Studio (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is a version number).
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)

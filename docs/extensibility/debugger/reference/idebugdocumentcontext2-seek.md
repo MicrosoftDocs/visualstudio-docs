@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentContext2::Seek
 Moves the document context by a given number of statements or lines.
@@ -32,17 +35,17 @@ int Seek( 
 );
 ```
 
-#### Parameters
- `nCount`
+## Parameters
+ `nCount`\
 
  [in] The number of statements or lines to move ahead, depending on the document context.
 
- `ppDocContext`
+ `ppDocContext`\
 
  [out] Returns a new [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object with the new position.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

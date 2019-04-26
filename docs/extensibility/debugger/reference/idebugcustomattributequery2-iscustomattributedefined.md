@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttributeQuery2::IsCustomAttributeDefined
 Determines whether a custom attribute exists by name.
@@ -30,8 +33,8 @@ int IsCustomAttributeDefined(
 );
 ```
 
-#### Parameters
- `pszCustomAttributeName`
+## Parameters
+ `pszCustomAttributeName`\
 
  [in] A string containing the name of the custom attribute to find.
 
@@ -41,5 +44,5 @@ int IsCustomAttributeDefined(
 ## Remarks
  To obtain the attribute bytes associated with the custom attribute, call the [GetCustomAttributeByName](../../../extensibility/debugger/reference/idebugcustomattributequery2-getcustomattributebyname.md) method.
 
-## See Also
+## See also
 - [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)

@@ -37,9 +37,17 @@ These settings affect *when* the code editor applies formatting options to code.
 |**Automatically format on return**|When selected, formats text when **Enter** is pressed, to fit the formatting options selected for the editor.|
 |**Automatically format on paste**|When selected, formats text that is pasted into the editor to fit the formatting options selected for the editor.|
 
+::: moniker range="vs-2019"
+
+If you previously applied code style settings for C# files using the **Format Document** command in Visual Studio 2017, that functionality is now available as [**Code Cleanup**](../code-styles-and-code-cleanup.md#apply-code-styles).
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 ### Format Document settings
 
-These settings configure the **Format Document** command to perform additional code cleanup on a file. For more information about how these settings are applied, see [Format Document command](../code-styles-and-quick-actions.md#format-document-command).
+These settings configure the **Format Document** command to perform additional code cleanup on a file. For more information about how these settings are applied, see [Format Document command](../code-styles-and-code-cleanup.md#apply-code-styles).
 
 |Label|Description|Corresponding EditorConfig and Tools > Options rules|
 |-----------|-----------------|-----------------|-----------------|
@@ -61,6 +69,8 @@ These settings configure the **Format Document** command to perform additional c
 |**Remove unused variables**|When selected, removes variables that are unused when **Edit.FormatDocument** is triggered.| N/A |
 
 ![Code cleanup settings for C# in Visual Studio](media/format-document-settings.png)
+
+::: moniker-end
 
 ## Preview windows
 

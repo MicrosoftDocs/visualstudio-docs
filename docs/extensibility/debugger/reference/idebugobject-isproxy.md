@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::IsProxy
 Determines if the object is a transparent proxy.
@@ -29,8 +32,8 @@ int IsProxy (
 );
 ```
 
-#### Parameters
- `pfIsProxy`
+## Parameters
+ `pfIsProxy`\
 
  [out] `TRUE` if the object is a transparent proxy; otherwise, `FALSE`.
 
@@ -40,5 +43,5 @@ int IsProxy (
 ## Remarks
  This method is implemented by the default C++ debug engine.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

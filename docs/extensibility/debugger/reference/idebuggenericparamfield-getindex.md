@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericParamField::GetIndex
 Retrieves the index of this generic parameter.
@@ -28,8 +31,8 @@ int GetIndex(
 );
 ```
 
-#### Parameters
-`pIndex`
+## Parameters
+`pIndex`\
 
  [out] Index value of this generic parameter.
 
@@ -60,5 +63,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

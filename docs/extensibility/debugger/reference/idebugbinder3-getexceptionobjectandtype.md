@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder3::GetExceptionObjectAndType
 This method retrieves the exception associated with an object, if any.
@@ -32,12 +35,12 @@ int GetExceptionObjectAndType(
 );
 ```
 
-#### Parameters
- `ppException`
+## Parameters
+ `ppException`\
 
  [out] Returns the object representing the exception.
 
- `ppField`
+ `ppField`\
 
  [out] Returns the object representing a specific field that may have caused the exception (this may be a null value).
 
@@ -47,5 +50,5 @@ int GetExceptionObjectAndType(
 > [!NOTE]
 > To verify whether there is an exception, check the value returned by `ppException`: if it is a null value, then no exception is associated with this object.
 
-## See Also
+## See also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

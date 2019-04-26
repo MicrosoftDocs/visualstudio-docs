@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::IsEqual
 Compares an object with this object.
@@ -32,12 +35,12 @@ int IsEqual(
 );
 ```
 
-#### Parameters
- `pObject`
+## Parameters
+ `pObject`\
 
  [in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object to compare to.
 
- `pfIsEqual`
+ `pfIsEqual`\
 
  [out] Returns non-zero (`TRUE`) if the values of the objects are equal; otherwise, returns zero (`FALSE`).
 
@@ -47,5 +50,5 @@ int IsEqual(
 ## Remarks
  Typically, this method can compare the addresses of the values represented by the `pObject` parameter and this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object; if the addresses are equal, then the objects can be considered equal.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

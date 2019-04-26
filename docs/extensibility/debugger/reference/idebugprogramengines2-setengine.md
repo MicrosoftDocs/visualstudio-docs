@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramEngines2::SetEngine
 Tells the program or program node which debug engine (DE) to use to debug this program.
@@ -30,13 +33,13 @@ int SetEngine( 
 );
 ```
 
-#### Parameters
- `guidEngine`
+## Parameters
+ `guidEngine`\
 
  [in] The GUID of the DE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramEngines2](../../../extensibility/debugger/reference/idebugprogramengines2.md)

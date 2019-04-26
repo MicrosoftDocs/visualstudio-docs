@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgram2::Execute
 Continues running this program from a stopped state. Any previous execution state (such as a step) is cleared, and the program starts executing again.
@@ -40,7 +43,7 @@ int Execute();
 > [!WARNING]
 > Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
 
-## See Also
+## See also
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
 - [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)

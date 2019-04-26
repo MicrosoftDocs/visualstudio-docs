@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttributeQuery::IsCustomAttributeDefined
 Determines if the specified custom attribute is defined.
@@ -29,8 +32,8 @@ int IsCustomAttributeDefined(
 );
 ```
 
-#### Parameters
-`pszCustomAttributeName`
+## Parameters
+`pszCustomAttributeName`\
 
  [in] Name of the custom attribute.
 
@@ -77,5 +80,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

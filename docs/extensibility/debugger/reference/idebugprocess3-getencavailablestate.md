@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess3::GetENCAvailableState
 This method gets the current Edit and Continue state of the process. A custom port supplier should always return `E_NOTIMPL`.
@@ -30,8 +33,8 @@ int GetENCAvailableState(
 );
 ```
 
-#### Parameters
- `pReason`
+## Parameters
+ `pReason`\
 
  [out] A value from the [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md) enumeration.
 
@@ -44,7 +47,7 @@ int GetENCAvailableState(
 ## Remarks
  This state can be affected by [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md).
 
-## See Also
+## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)
 - [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md)
