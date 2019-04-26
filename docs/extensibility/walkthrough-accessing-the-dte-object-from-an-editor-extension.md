@@ -86,3 +86,4 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 ## See also
 
 - [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)
+- [Launch Visual Studio using DTE](launch-visual-studio-dte.md)
