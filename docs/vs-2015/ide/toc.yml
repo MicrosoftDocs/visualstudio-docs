@@ -359,7 +359,27 @@
       - name: CodeIndex Command
         href: codeindex-command.md
     - name: Using the Visual Studio Development Environment for C#
-      href: ../csharp-ide/TOC.md
+      href: ../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md
+      items:
+      - name: Add an Application Configuration File to a C# Project
+        href: ../csharp-ide/how-to-add-an-application-configuration-file-to-a-csharp-project.md
+      - name: Metadata as Source
+        href: ../csharp-ide/metadata-as-source.md
+      - name: Refactoring (C#)
+        href: ../csharp-ide/refactoring-csharp.md
+        items:
+        - name: Extract Method Refactoring (C#)
+          href: ../csharp-ide/extract-method-refactoring-csharp.md
+        - name: Rename Refactoring (C#)
+          href: ../csharp-ide/rename-refactoring-csharp.md
+        - name: Encapsulate Field Refactoring (C#)
+          href: ../csharp-ide/encapsulate-field-refactoring-csharp.md
+        - name: Extract Interface Refactoring (C#)
+          href: ../csharp-ide/extract-interface-refactoring-csharp.md
+        - name: Remove Parameters Refactoring (C#)
+          href: ../csharp-ide/remove-parameters-refactoring-csharp.md
+        - name: Reorder Parameters Refactoring (C#)
+          href: ../csharp-ide/reorder-parameters-refactoring-csharp.md
   - name: Debugging in Visual Studio
     href: ../debugger/debugging-in-visual-studio.md
   - name: Profiling
