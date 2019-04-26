@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::CanSetNextStatement
 Determines whether the current instruction pointer can be set to the given stack frame.
@@ -32,11 +35,11 @@ int CanSetNextStatement ( 
 );
 ```
 
-#### Parameters
- `pStackFrame`
+## Parameters
+ `pStackFrame`\
  Reserved for future use; set to a null value. If this is a null value, use the current stack frame.
 
- `pCodeContext`
+ `pCodeContext`\
 
  [in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
 
@@ -46,7 +49,7 @@ int CanSetNextStatement ( 
 ## Remarks
  If this method returns `S_OK`, then call the [SetNextStatement](../../../extensibility/debugger/reference/idebugthread2-setnextstatement.md) method to actually set the next statement.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

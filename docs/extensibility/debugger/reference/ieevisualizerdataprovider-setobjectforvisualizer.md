@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 This method changes the object that the visualizer represents.
@@ -34,16 +37,16 @@ int SetObjectForVisualizer(
 );
 ```
 
-#### Parameters
- `pNewObject`
+## Parameters
+ `pNewObject`\
 
  [in] The object to set.
 
- `error`
+ `error`\
 
  [out] If there was an error setting the object, this string holds the error message.
 
- `pException`
+ `pException`\
 
  [out] If there was an error, this object holds the exception information.
 
@@ -53,6 +56,6 @@ int SetObjectForVisualizer(
 ## Remarks
  It is up to the implementer to determine how error information is returned. However, it is possible that some callers may only look to see if an exception object was returned to know there was an error, so this method should always return an exception object if there was an error. The error string should also be supplied in case the caller wants to make use of it.
 
-## See Also
+## See also
 - [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromContext
 This method maps a document context into an array of debug addresses.
@@ -36,20 +39,20 @@ int GetAddressesFromContext(
 );
 ```
 
-#### Parameters
- `pDocContext`
+## Parameters
+ `pDocContext`\
 
  [in] The document context.
 
- `fStatmentOnly`
+ `fStatmentOnly`\
 
  [in] If TRUE, limits the debug addresses to a single statement.
 
- `ppEnumBegAddresses`
+ `ppEnumBegAddresses`\
 
  [out] Returns an enumerator for the starting debug addresses associated with this statement or line.
 
- `ppEnumEndAddresses`
+ `ppEnumEndAddresses`\
 
  [out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
 
@@ -61,7 +64,7 @@ int GetAddressesFromContext(
 
  It is possible for a single statement to have multiple debug addresses, as in the case of templates.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [GetAddressesFromPosition](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition.md)
 - [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)
