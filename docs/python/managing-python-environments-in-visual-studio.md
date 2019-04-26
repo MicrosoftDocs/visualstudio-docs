@@ -34,7 +34,7 @@ If you're new to Python in Visual Studio, the following articles also provide fr
 > You can't manage environments for Python code that is opened only as a folder using the **File** > **Open** > **Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
 ::: moniker-end
 
-::: moniker range="vs-2017"
+::: moniker range=">=vs-2019"
 > [!Note]
 > You can manage environments for Python code that is opened as a folder using the **File** > **Open** > **Folder** command. The Python toolbar allows you switch between all detected environments, and also add a new environment. The environment information is stored in the PythonSettings.json file in the Workspace .vs folder.
 ::: moniker-end
