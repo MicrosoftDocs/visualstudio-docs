@@ -18,4 +18,4 @@ ms.topic: include
 | 5005 | Bootstrapper command-line parse error |
 | 5007 | Operation was blocked - the computer does not meet the requirements |
 | -1073741510 | Microsoft Visual Studio Installer was terminated (by the user or external process) |
-| Other | Failure condition occurred - check the logs for more information<br>(for example: -1, 1, 1603) |
+| Other<br>(for example:<br>-1, 1, 1603) | Failure condition occurred - check the logs for more information |
