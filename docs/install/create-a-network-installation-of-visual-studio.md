@@ -219,7 +219,7 @@ When you install from a layout, the content that is installed is acquired from t
 
 If you used the `--wait` parameter, then depending on the result of the operation, the `%ERRORLEVEL%` environment variable is set to one of the following values:
 
-[!INCLUDE[install_error_codes_md](includes/install_error_codes_md.md)]
+[!INCLUDE[install-error-codes-md](includes/install-error-codes-md.md)]
 
 ## Update a network install layout
 
