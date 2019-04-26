@@ -24,7 +24,7 @@ Why send feedback to us? Because we take customer feedback seriously; it drives 
 
 ::: moniker range="vs-2019"
 
-If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon in the upper right-corner, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar.
+If you experience problems with Visual Studio&mdash;such as crashes, sluggish performance, or unexpected behavior&mdash;let us know by using the **Report a Problem** tool. In Visual Studio, choose the feedback icon in the upper-right corner, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar.
 
 ![Send Feedback icon in the Visual Studio 2019 IDE](./media/vs-2019/send-feedback-icon.png)
 
@@ -46,7 +46,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 ::: moniker range="vs-2019"
 
-If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper right-corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
+If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper-right corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
 
 Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
@@ -69,7 +69,7 @@ Pre-release versions of Visual Studio have a **Rate this Product** menu item tha
 There are two ways that you can help us improve the documentation:
 
 * Choose the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages.
-* Use your GitHub account to provide feedback to any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/). To do so, choose the **Send feedback about** > **This page** button, also at the bottom of the page.
+* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](https://docs.microsoft.com/visualstudio/). To do so, choose the **Send feedback about** > **This page** button, also at the bottom of the page.
 
 ## Contact Microsoft support
 
