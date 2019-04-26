@@ -78,7 +78,7 @@ For more information about IntelliCode, see the [Code more, scroll less with Vis
 
 Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
 
-The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-quick-actions.md) and [.editorconfig files](create-portable-custom-editor-options.md).
+The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-code-cleanup.md) and [.editorconfig files](create-portable-custom-editor-options.md).
 
    ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile.png)
 
@@ -98,7 +98,7 @@ Something you'll notice when you open Visual Studio 2019 is its new start window
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/start-window-dark.png)
 
-The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.  
+The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.
 
    ![An animation of the 'Git-first' experience in Visual Studio 2019](media/vs-2019/git-first.gif)
 

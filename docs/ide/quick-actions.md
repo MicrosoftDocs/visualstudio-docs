@@ -56,6 +56,6 @@ To see potential fixes, select either the down arrow next to the light bulb or t
 
 - [Code generation in Visual Studio](../ide/code-generation-in-visual-studio.md)
 - [Common Quick Actions](../ide/common-quick-actions.md)
-- [Code styles and Quick Actions](../ide/code-styles-and-quick-actions.md)
+- [Code styles and Quick Actions](../ide/code-styles-and-code-cleanup.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
 - [Refactoring (Visual Studio for Mac)](/visualstudio/mac/refactoring)
