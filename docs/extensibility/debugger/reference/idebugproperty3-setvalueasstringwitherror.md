@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty3::SetValueAsStringWithError
 Sets the value of this property and returns an error message, if necessary.
@@ -36,20 +39,20 @@ int SetValueAsStringWithError(
 );
 ```
 
-#### Parameters
-`pszValue`
+## Parameters
+`pszValue`\
 
  [in] Value to set.
 
-`dwRadix`
+`dwRadix`\
 
  [in] The radix of the value being set.
 
-`dwTimeout`
+`dwTimeout`\
 
  [in] The length of time to wait for the value to be set (`INFINITE` means wait forever).
 
-`errorString`
+`errorString`\
 
  [out] If there was an error setting the value, this holds the reason for the failure.
 
@@ -164,5 +167,5 @@ HRESULT CProperty::SetValueAsStringWithError(
 }
 ```
 
-## See Also
+## See also
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

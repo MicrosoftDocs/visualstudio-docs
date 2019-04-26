@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramProvider2::SetLocale
 Establishes a locale to be used for any locale-specific resources.
@@ -30,13 +33,13 @@ int SetLocale(
 );
 ```
 
-#### Parameters
- `wLangID`
+## Parameters
+ `wLangID`\
 
  [in] Language ID to establish. For example, 1033 for English.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
