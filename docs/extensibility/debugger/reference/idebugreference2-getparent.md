@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetParent
 Gets the parent reference of a reference. Reserved for future use.
@@ -30,13 +33,13 @@ int GetParent ( 
 );
 ```
 
-#### Parameters
- `ppParent`
+## Parameters
+ `ppParent`\
 
  [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the parent of this property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

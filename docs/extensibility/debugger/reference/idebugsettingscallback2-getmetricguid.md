@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSettingsCallback2::GetMetricGuid
 Retrieves the unique identifier of a metric given its name.
@@ -34,25 +37,25 @@ private int GetMetricGuid(
 );
 ```
 
-#### Parameters
- `pszType`
+## Parameters
+ `pszType`\
 
  [in] Type of the metric.
 
- `guidSection`
+ `guidSection`\
 
  [in] Unique identifier of the section.
 
- `pszMetric`
+ `pszMetric`\
 
  [in] Name of the metric.
 
- `pguidValue`
+ `pguidValue`\
 
  [out] Returns the unique identifier of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

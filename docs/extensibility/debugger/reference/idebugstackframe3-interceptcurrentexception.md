@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame3::InterceptCurrentException
 Called by the debugger on the current stack frame when it wants to intercept the current exception.
@@ -32,12 +35,12 @@ int InterceptCurrentException(
 );
 ```
 
-#### Parameters
- `dwFlags`
+## Parameters
+ `dwFlags`\
 
  [in] Specifies different actions. Currently, only the [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) value `IEA_INTERCEPT` is supported and must be specified.
 
- `pqwCookie`
+ `pqwCookie`\
 
  [out] Unique value identifying a particular exception.
 
@@ -62,7 +65,7 @@ int InterceptCurrentException(
 
  After the interception is complete, an [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md) is signaled.
 
-## See Also
+## See also
 - [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md)
 - [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md)
 - [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md)
