@@ -9,7 +9,7 @@ description: Learn about the new Visual Studio + GitHub bundle
 searchscope: VS Subscription
 ---
 
-# Introducing Visual Studio Subscriptions with GitHub Enterprise  
+# Introducing Visual Studio subscriptions with GitHub Enterprise  
 
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription bundle that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 

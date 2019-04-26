@@ -36,7 +36,7 @@ If you don't see all your subscriptions, you may have one or more assigned to a 
 
 Learn more about Azure DevOps features:
 
-- [Azure Boards & Repos (Basic)](https://azure.microsoft.com/en-us/services/devops/compare-features/)
+- [Azure Boards & Repos (Basic)](https://azure.microsoft.com/services/devops/compare-features/)
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
