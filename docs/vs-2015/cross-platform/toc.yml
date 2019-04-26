@@ -32,9 +32,9 @@
     - name: Programming Visual Studio Tools for Unity
       href: programming-visual-studio-tools-for-unity.md
       items:
-      - name: Example: Project File Generation
+      - name: Example - Project File Generation
         href: customize-project-files-created-by-vstu.md
-      - name: Example: Log Callback
+      - name: Example - Log Callback
         href: share-the-unity-log-callback-with-vstu.md
     - name: Troubleshooting and Known Issues
       href: troubleshooting-and-known-issues-visual-studio-tools-for-unity.md

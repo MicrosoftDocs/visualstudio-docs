@@ -8,7 +8,7 @@
   href: what-s-new-in-the-visual-studio-2015-sdk.md
 - name: Migrate Extensibility Projects to Visual Studio 2015
   href: how-to-migrate-extensibility-projects-to-visual-studio-2015.md
-- name: FAQ: Converting Add-ins to VSPackage Extensions
+- name: FAQ - Converting Add-ins to VSPackage Extensions
   href: faq-converting-add-ins-to-vspackage-extensions.md
 - name: Visual Studio User Experience Guidelines
   href: ux-guidelines/visual-studio-user-experience-guidelines.md

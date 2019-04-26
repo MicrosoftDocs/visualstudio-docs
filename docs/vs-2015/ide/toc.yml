@@ -15,70 +15,70 @@
       items:
       - name: Create a Simple Application
         href: walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
-      - name: Tutorial 1: Create a Picture Viewer
+      - name: Tutorial 1 - Create a Picture Viewer
         href: tutorial-1-create-a-picture-viewer.md
         items:
-        - name: Step 1: Create a Windows Forms Application Project
+        - name: Step 1 - Create a Windows Forms Application Project
           href: step-1-create-a-windows-forms-application-project.md
-        - name: Step 2: Run Your Program
+        - name: Step 2 - Run Your Program
           href: step-2-run-your-program.md
-        - name: Step 3: Set Your Form Properties
+        - name: Step 3 - Set Your Form Properties
           href: step-3-set-your-form-properties.md
-        - name: Step 4: Lay Out Your Form with a TableLayoutPanel Control
+        - name: Step 4 - Lay Out Your Form with a TableLayoutPanel Control
           href: step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
-        - name: Step 5: Add Controls to Your Form
+        - name: Step 5 - Add Controls to Your Form
           href: step-5-add-controls-to-your-form.md
-        - name: Step 6: Name Your Button Controls
+        - name: Step 6 - Name Your Button Controls
           href: step-6-name-your-button-controls.md
-        - name: Step 7: Add Dialog Components to Your Form
+        - name: Step 7 - Add Dialog Components to Your Form
           href: step-7-add-dialog-components-to-your-form.md
-        - name: Step 8: Write Code for the Show a Picture Button Event Handler
+        - name: Step 8 - Write Code for the Show a Picture Button Event Handler
           href: step-8-write-code-for-the-show-a-picture-button-event-handler.md
-        - name: Step 9: Review, Comment, and Test Your Code
+        - name: Step 9 - Review, Comment, and Test Your Code
           href: step-9-review-comment-and-test-your-code.md
-        - name: Step 10: Write Code for Additional Buttons and a Check Box
+        - name: Step 10 - Write Code for Additional Buttons and a Check Box
           href: step-10-write-code-for-additional-buttons-and-a-check-box.md
-        - name: Step 11: Run Your Program and Try Other Features
+        - name: Step 11 - Run Your Program and Try Other Features
           href: step-11-run-your-program-and-try-other-features.md
-      - name: Tutorial 2: Create a Timed Math Quiz
+      - name: Tutorial 2 - Create a Timed Math Quiz
         href: tutorial-2-create-a-timed-math-quiz.md
         items:
-        - name: Step 1: Create a Project and Add Labels to Your Form
+        - name: Step 1 - Create a Project and Add Labels to Your Form
           href: step-1-create-a-project-and-add-labels-to-your-form.md
-        - name: Step 2: Create a Random Addition Problem
+        - name: Step 2 - Create a Random Addition Problem
           href: step-2-create-a-random-addition-problem.md
-        - name: Step 3: Add a Countdown Timer
+        - name: Step 3 - Add a Countdown Timer
           href: step-3-add-a-countdown-timer.md
-        - name: Step 4: Add the CheckTheAnswer() Method
+        - name: Step 4 - Add the CheckTheAnswer() Method
           href: step-4-add-the-checktheanswer-parens-method.md
-        - name: Step 5: Add Enter Event Handlers for the NumericUpDown Controls
+        - name: Step 5 - Add Enter Event Handlers for the NumericUpDown Controls
           href: step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
-        - name: Step 6: Add a Subtraction Problem
+        - name: Step 6 - Add a Subtraction Problem
           href: step-6-add-a-subtraction-problem.md
-        - name: Step 7: Add Multiplication and Division Problems
+        - name: Step 7 - Add Multiplication and Division Problems
           href: step-7-add-multiplication-and-division-problems.md
-        - name: Step 8: Customize the Quiz
+        - name: Step 8 - Customize the Quiz
           href: step-8-customize-the-quiz.md
-      - name: Tutorial 3: Create a Matching Game
+      - name: Tutorial 3 - Create a Matching Game
         href: tutorial-3-create-a-matching-game.md
         items:
-        - name: Step 1: Create a Project and Add a Table to Your Form
+        - name: Step 1 - Create a Project and Add a Table to Your Form
           href: step-1-create-a-project-and-add-a-table-to-your-form.md
-        - name: Step 2: Add a Random Object and a List of Icons
+        - name: Step 2 - Add a Random Object and a List of Icons
           href: step-2-add-a-random-object-and-a-list-of-icons.md
-        - name: Step 3: Assign a Random Icon to Each Label
+        - name: Step 3 - Assign a Random Icon to Each Label
           href: step-3-assign-a-random-icon-to-each-label.md
-        - name: Step 4: Add a Click Event Handler to Each Label
+        - name: Step 4 - Add a Click Event Handler to Each Label
           href: step-4-add-a-click-event-handler-to-each-label.md
-        - name: Step 5: Add Label References
+        - name: Step 5 - Add Label References
           href: step-5-add-label-references.md
-        - name: Step 6: Add a Timer
+        - name: Step 6 - Add a Timer
           href: step-6-add-a-timer.md
-        - name: Step 7: Keep Pairs Visible
+        - name: Step 7 - Keep Pairs Visible
           href: step-7-keep-pairs-visible.md
-        - name: Step 8: Add a Method to Verify Whether the Player Won
+        - name: Step 8 - Add a Method to Verify Whether the Player Won
           href: step-8-add-a-method-to-verify-whether-the-player-won.md
-        - name: Step 9: Try Other Features
+        - name: Step 9 - Try Other Features
           href: step-9-try-other-features.md
     - name: Getting Started with C++
       href: getting-started-with-cpp-in-visual-studio.md

@@ -3,7 +3,7 @@
   items:
   - name: What's new
     href: what-s-new-for-design-in-visual-studio.md
-  - name: Scenario: Change your design using visualization and modeling
+  - name: Scenario - Change your design using visualization and modeling
     href: scenario-change-your-design-using-visualization-and-modeling.md
   - name: Visualize code
     href: visualize-code.md
@@ -31,25 +31,25 @@
       href: create-uml-modeling-projects-and-diagrams.md
     - name: Edit UML models and diagrams
       href: edit-uml-models-and-diagrams.md
-    - name: Layer Diagrams: Reference
+    - name: Layer Diagrams - Reference
       href: layer-diagrams-reference.md
-    - name: Layer Diagrams: Guidelines
+    - name: Layer Diagrams - Guidelines
       href: layer-diagrams-guidelines.md
-    - name: UML Activity Diagrams: Reference
+    - name: UML Activity Diagrams - Reference
       href: uml-activity-diagrams-reference.md
       items:
       - name: Properties of elements on UML activity diagrams
         href: properties-of-elements-on-uml-activity-diagrams.md
-    - name: UML Activity Diagrams: Guidelines
+    - name: UML Activity Diagrams - Guidelines
       href: uml-activity-diagrams-guidelines.md
-    - name: UML Component Diagrams: Reference
+    - name: UML Component Diagrams - Reference
       href: uml-component-diagrams-reference.md
       items:
       - name: Properties of elements on UML component diagrams
         href: properties-of-elements-on-uml-component-diagrams.md
-    - name: UML Component Diagrams: Guidelines
+    - name: UML Component Diagrams - Guidelines
       href: uml-component-diagrams-guidelines.md
-    - name: UML Class Diagrams: Reference
+    - name: UML Class Diagrams - Reference
       href: uml-class-diagrams-reference.md
       items:
       - name: Properties of types on UML class diagrams
@@ -60,27 +60,27 @@
         href: properties-of-operations-on-uml-class-diagrams.md
       - name: Properties of associations on UML class diagrams
         href: properties-of-associations-on-uml-class-diagrams.md
-    - name: UML Class Diagrams: Guidelines
+    - name: UML Class Diagrams - Guidelines
       href: uml-class-diagrams-guidelines.md
     - name: Generate code from UML class diagrams
       href: generate-code-from-uml-class-diagrams.md
-    - name: UML Sequence Diagrams: Reference
+    - name: UML Sequence Diagrams - Reference
       href: uml-sequence-diagrams-reference.md
       items:
       - name: Properties of elements on UML sequence diagrams
         href: properties-of-elements-on-uml-sequence-diagrams.md
       - name: Describe control flow with fragments on UML sequence diagrams
         href: describe-control-flow-with-fragments-on-uml-sequence-diagrams.md
-    - name: UML Sequence Diagrams: Guidelines
+    - name: UML Sequence Diagrams - Guidelines
       href: uml-sequence-diagrams-guidelines.md
-    - name: UML Use Case Diagrams: Reference
+    - name: UML Use Case Diagrams - Reference
       href: uml-use-case-diagrams-reference.md
       items:
       - name: Properties of elements on UML use case diagrams
         href: properties-of-elements-on-uml-use-case-diagrams.md
       - name: Link a use case to documents and diagrams
         href: link-a-use-case-to-documents-and-diagrams.md
-    - name: UML Use Case Diagrams: Guidelines
+    - name: UML Use Case Diagrams - Guidelines
       href: uml-use-case-diagrams-guidelines.md
     - name: Define packages and namespaces
       href: define-packages-and-namespaces.md

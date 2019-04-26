@@ -159,74 +159,74 @@
           - name: .NET Framework Usage Performance Rules
             href: dotnet-framework-usage-performance-rules.md
             items:
-            - name: DA0001: Use StringBuilder for concatenations
+            - name: "DA0001: Use StringBuilder for concatenations"
               href: da0001-use-stringbuilder-for-concatenations.md
-            - name: DA0005: Frequent GC2 collections
+            - name: "DA0005: Frequent GC2 collections"
               href: da0005-frequent-gc2-collections.md
-            - name: DA0006: Override Equals() for value types
+            - name: "DA0006: Override Equals() for value types"
               href: da0006-override-equals-parens-for-value-types.md
-            - name: DA0007: Avoid using exceptions for control flow
+            - name: "DA0007: Avoid using exceptions for control flow"
               href: da0007-avoid-using-exceptions-for-control-flow.md
-            - name: DA0010: Expensive GetHashCode
+            - name: "DA0010: Expensive GetHashCode"
               href: da0010-expensive-gethashcode.md
-            - name: DA0011: Expensive CompareTo
+            - name: "DA0011: Expensive CompareTo"
               href: da0011-expensive-compareto.md
-            - name: DA0012: Significant amount of Reflection
+            - name: "DA0012: Significant amount of Reflection"
               href: da0012-significant-amount-of-reflection.md
-            - name: DA0013: High usage of String.Split or String.Substring
+            - name: "DA0013: High usage of String.Split or String.Substring"
               href: da0013-high-usage-of-string-split-or-string-substring.md
-            - name: DA0018: 32-bit Application running at process managed memory limits
+            - name: "DA0018: 32-bit Application running at process managed memory limits"
               href: da0018-32-bit-application-running-at-process-managed-memory-limits.md
-            - name: DA0021: High rate of Gen 1 garbage collections
+            - name: "DA0021: High rate of Gen 1 garbage collections"
               href: da0021-high-rate-of-gen-1-garbage-collections.md
-            - name: DA0022: High rate of Gen 2 garbage collections
+            - name: "DA0022: High rate of Gen 2 garbage collections"
               href: da0022-high-rate-of-gen-2-garbage-collections.md
-            - name: DA0023: High GC CPU time
+            - name: "DA0023: High GC CPU time"
               href: da0023-high-gc-cpu-time.md
-            - name: DA0024: Excessive GC CPU Time
+            - name: "DA0024: Excessive GC CPU Time"
               href: da0024-excessive-gc-cpu-time.md
-            - name: DA0038: High Rate of Lock contentions
+            - name: "DA0038: High Rate of Lock contentions"
               href: da0038-high-rate-of-lock-contentions.md
-            - name: DA0039: Very High Rate of Lock contentions
+            - name: "DA0039: Very High Rate of Lock contentions"
               href: da0039-very-high-rate-of-lock-contentions.md
           - name: Memory and Paging Performance Rules
             href: memory-and-paging-performance-rules.md
             items:
-            - name: DA0014: Extremely high rates of paging active memory to disk
+            - name: "DA0014: Extremely high rates of paging active memory to disk"
               href: da0014-extremely-high-rates-of-paging-active-memory-to-disk.md
-            - name: DA0017: High rates of paging active memory to disk
+            - name: "DA0017: High rates of paging active memory to disk"
               href: da0017-high-rates-of-paging-active-memory-to-disk.md
           - name: Profiling Tools Usage Rules
             href: profiling-tools-usage-rules.md
             items:
-            - name: DA0002: VSPerfCorProf.dll is missing
+            - name: "DA0002: VSPerfCorProf.dll is missing"
               href: da0002-vsperfcorprof-dll-is-missing.md
-            - name: DA0003: Many kernel samples
+            - name: "DA0003: Many kernel samples"
               href: da0003-many-kernel-samples.md
-            - name: DA0004: High processor usage
+            - name: "DA0004: High processor usage"
               href: da0004-high-processor-usage.md
-            - name: DA0008: Few samples collected
+            - name: "DA0008: Few samples collected"
               href: da0008-few-samples-collected.md
-            - name: DA0026: Excessive kernel CPU time processing
+            - name: "DA0026: Excessive kernel CPU time processing"
               href: da0026-excessive-kernel-cpu-time-processing.md
-            - name: DA0029: Unsupported CLR Version
+            - name: "DA0029: Unsupported CLR Version"
               href: da0029-unsupported-clr-version.md
-            - name: DA0030: Gather Tier Interaction measurements for database projects
+            - name: "DA0030: Gather Tier Interaction measurements for database projects"
               href: da0030-gather-tier-interaction-measurements-for-database-projects.md
           - name: Resource Monitoring Performance Rules
             href: resource-monitoring-performance-rules.md
             items:
-            - name: DA0501: Average CPU consumption by the Process being profiled.
+            - name: "DA0501: Average CPU consumption by the Process being profiled."
               href: da0501-average-cpu-consumption-by-the-process-being-profiled.md
-            - name: DA0502: Maximum CPU consumption by the Process being profiled
+            - name: "DA0502: Maximum CPU consumption by the Process being profiled"
               href: da0502-maximum-cpu-consumption-by-the-process-being-profiled.md
-            - name: DA0503: Average Working Set in Bytes for the Process being profiled
+            - name: "DA0503: Average Working Set in Bytes for the Process being profiled"
               href: da0503-average-working-set-in-bytes-for-the-process-being-profiled.md
-            - name: DA0504: Maximum Working Set in Bytes for the Process being profiled
+            - name: "DA0504: Maximum Working Set in Bytes for the Process being profiled"
               href: da0504-maximum-working-set-in-bytes-for-the-process-being-profiled.md
-            - name: DA0505: Average Private Bytes allocated for the Process being profiled
+            - name: "DA0505: Average Private Bytes allocated for the Process being profiled"
               href: da0505-average-private-bytes-allocated-for-the-process-being-profiled.md
-            - name: DA0506: Maximum Private Bytes allocated for the Process being profiled
+            - name: "DA0506: Maximum Private Bytes allocated for the Process being profiled"
               href: da0506-maximum-private-bytes-allocated-for-the-process-being-profiled.md
       - name: Performance Report Views
         href: performance-report-views.md
@@ -740,24 +740,24 @@
             - name: span Class
               href: span-class.md
               items:
-              - name: span::~span Destructor
+              - name: ~span Destructor
                 href: span-tilde-span-destructor.md
-              - name: span::span Constructor
+              - name: span Constructor
                 href: span-span-constructor.md
             - name: marker_series Class
               href: marker-series-class.md
               items:
-              - name: marker_series::~marker_series Destructor
+              - name: ~marker_series Destructor
                 href: marker-series-tilde-marker-series-destructor.md
-              - name: marker_series::is_enabled Method
+              - name: is_enabled Method
                 href: marker-series-is-enabled-method.md
-              - name: marker_series::marker_series Constructor
+              - name: marker_series Constructor
                 href: marker-series-marker-series-constructor.md
-              - name: marker_series::write_alert Method
+              - name: write_alert Method
                 href: marker-series-write-alert-method.md
-              - name: marker_series::write_flag Method
+              - name: write_flag Method
                 href: marker-series-write-flag-method.md
-              - name: marker_series::write_message Method
+              - name: write_message Method
                 href: marker-series-write-message-method.md
             - name: marker_importance Enumeration
               href: marker-importance-enumeration.md

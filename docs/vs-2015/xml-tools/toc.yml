@@ -104,11 +104,11 @@
         - name: Sample XSD Files
           href: sample-xsd-files.md
           items:
-          - name: Sample XSD File: Simple Schema
+          - name: Sample XSD File - Simple Schema
             href: sample-xsd-file-simple-schema.md
-          - name: Sample XSD File: Purchase Order Schema
+          - name: Sample XSD File - Purchase Order Schema
             href: sample-xsd-file-purchase-order-schema.md
-          - name: Sample XSD File: Relationships
+          - name: Sample XSD File - Relationships
             href: sample-xsd-file-relationships.md
     - name: Security Considerations when Working with XML Data
       href: security-considerations-when-working-with-xml-data.md

@@ -27,7 +27,7 @@
       items:
       - name: Creating and Running Unit Tests for Managed Code
         href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-      - name: Quick Start: Test Driven Development with Test Explorer
+      - name: Test Driven Development with Test Explorer
         href: quick-start-test-driven-development-with-test-explorer.md
       - name: Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests
         href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
