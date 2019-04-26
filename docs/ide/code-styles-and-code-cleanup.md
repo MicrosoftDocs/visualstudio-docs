@@ -1,6 +1,6 @@
 ---
-title: Code style preferences
-ms.date: 03/12/2019
+title: Code style options and code cleanup
+ms.date: 04/25/2019
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
