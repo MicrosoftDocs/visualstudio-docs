@@ -489,16 +489,16 @@
       href: the-structure-of-the-content-types-dot-xml-file.md
     - name: VSIX Manifest Designer
       href: vsix-manifest-designer.md
-  - name: Localizing VSIX Packages
+  - name: Localize VSIX Packages
     href: localizing-vsix-packages.md
     items:
     - name: VSIX Language Pack Schema 2.0 Reference
       href: vsix-language-pack-schema-2-0-reference.md
   - name: Update a Visual Studio Extension
     href: how-to-update-a-visual-studio-extension.md
-  - name: Preparing Extensions for Windows Installer Deployment
+  - name: Prepare Extensions for Windows Installer Deployment
     href: preparing-extensions-for-windows-installer-deployment.md
-  - name: Signing VSIX Packages
+  - name: Sign VSIX Packages
     href: signing-vsix-packages.md
   - name: Private Galleries
     href: private-galleries.md
@@ -507,7 +507,7 @@
       href: how-to-create-an-atom-feed-for-a-private-gallery.md
     - name: Manage a Private Gallery By Using Registry Settings
       href: how-to-manage-a-private-gallery-by-using-registry-settings.md
-  - name: Supporting Multiple Versions of Visual Studio
+  - name: Support Multiple Versions of Visual Studio
     href: supporting-multiple-versions-of-visual-studio.md
     items:
     - name: Choosing Between Shared and Versioned VSPackages
@@ -523,8 +523,10 @@
         href: registering-verbs-for-file-name-extensions.md
       - name: Managing Side-by-Side File Associations
         href: managing-side-by-side-file-associations.md
-  - name: Locating Visual Studio
+  - name: Locate Visual Studio
     href: locating-visual-studio.md
+  - name: Launch Visual Studio using DTE
+    href: launch-visual-studio-dte.md
 - name: Inside the Visual Studio SDK
   href: internals/toc.yml
 - name: Support for the Visual Studio SDK
