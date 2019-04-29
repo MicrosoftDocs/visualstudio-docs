@@ -64,14 +64,14 @@ Rule-based UI Context can be used in various ways:
 
    ```xml
    <VisibilityConstraints>
-       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="guidTestUIContext"/>
+       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="UIContextGuid"/>
    </VisibilityConstraints>
    ```
 
 4. In the Symbols section, add the definition of the UIContext:
 
    ```xml
-   <GuidSymbol name="guidTestUIContext" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />
+   <GuidSymbol name="UIContextGuid" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />
    ```
 
     Now, the context menu commands for *\*.config* files will be visible only when the selected item in the solution explorer is a *.config* file and the package will not be loaded until one of those commands is selected.
