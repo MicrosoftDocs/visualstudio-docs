@@ -1,12 +1,18 @@
 - name: Designing User Interfaces
-  href: designing-user-interfaces.md
+# Auto-expanded node
   items:
+  - name: Designing User Interfaces
+    href: designing-user-interfaces.md
   - name: Designing XAML in Visual Studio and Blend for Visual Studio
-    href: designing-xaml-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Designing XAML in Visual Studio and Blend for Visual Studio
+      href: designing-xaml-in-visual-studio.md
     - name: Creating a UI by using XAML Designer
-      href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Creating a UI by using XAML Designer
+        href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
       - name: Working with elements in XAML Designer
         href: working-with-elements-in-xaml-designer.md
       - name: Organize objects into layout containers
@@ -16,8 +22,10 @@
       - name: Binding to data in XAML Designer
         href: walkthrough-binding-to-data-in-xaml-designer.md
     - name: Creating a UI by using Blend for Visual Studio
-      href: creating-a-ui-by-using-blend-for-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Creating a UI by using Blend for Visual Studio
+        href: creating-a-ui-by-using-blend-for-visual-studio.md
       - name: Insert controls and modify their behavior
         href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
       - name: Insert images, videos, and audio clips
@@ -31,8 +39,10 @@
       - name: Display data
         href: display-data-in-blend.md
       - name: Keyboard shortcuts and modifier keys
-        href: keyboard-shortcuts-and-modifier-keys-in-blend.md
+# Auto-expanded node
         items:
+        - name: Keyboard shortcuts and modifier keys
+          href: keyboard-shortcuts-and-modifier-keys-in-blend.md
         - name: Keyboard shortcuts
           href: keyboard-shortcuts-in-blend.md
         - name: Artboard modifier keys
@@ -48,11 +58,15 @@
     - name: Debugging or Disabling Project Code in XAML Designer
       href: debugging-or-disabling-project-code-in-xaml-designer.md
   - name: Create Modern Desktop Applications with Windows Presentation Foundation
-    href: create-modern-desktop-applications-with-windows-presentation-foundation.md
+# Auto-expanded node
     items:
+    - name: Create Modern Desktop Applications with Windows Presentation Foundation
+      href: create-modern-desktop-applications-with-windows-presentation-foundation.md
     - name: Getting Started with WPF
-      href: getting-started-with-wpf.md
+# Auto-expanded node
       items:
+      - name: Getting Started with WPF
+        href: getting-started-with-wpf.md
       - name: Introduction to WPF
         href: introduction-to-wpf.md
       - name: My First WPF Desktop Application
@@ -62,21 +76,29 @@
       - name: WPF Community Resources
         href: wpf-community-resources.md
       - name: WPF Data Binding with LINQ to XML
-        href: wpf-data-binding-with-linq-to-xml.md
+# Auto-expanded node
         items:
+        - name: WPF Data Binding with LINQ to XML
+          href: wpf-data-binding-with-linq-to-xml.md
         - name: WPF Data Binding with LINQ to XML Overview
           href: wpf-data-binding-with-linq-to-xml-overview.md
         - name: LINQ to XML Dynamic Properties
-          href: linq-to-xml-dynamic-properties.md
+# Auto-expanded node
           items:
+          - name: LINQ to XML Dynamic Properties
+            href: linq-to-xml-dynamic-properties.md
           - name: XAttribute Class Dynamic Properties
-            href: xattribute-class-dynamic-properties.md
+# Auto-expanded node
             items:
+            - name: XAttribute Class Dynamic Properties
+              href: xattribute-class-dynamic-properties.md
             - name: Value
               href: value-xattribute-dynamic-property.md
           - name: XElement Class Dynamic Properties
-            href: xelement-class-dynamic-properties.md
+# Auto-expanded node
             items:
+            - name: XElement Class Dynamic Properties
+              href: xelement-class-dynamic-properties.md
             - name: Attribute
               href: attribute-xelement-dynamic-property.md
             - name: Element
@@ -90,40 +112,54 @@
             - name: Xml
               href: xml-xelement-dynamic-property.md
         - name: WPF Data Binding Using LINQ to XML Example
-          href: wpf-data-binding-using-linq-to-xml-example.md
+# Auto-expanded node
           items:
+          - name: WPF Data Binding Using LINQ to XML Example
+            href: wpf-data-binding-using-linq-to-xml-example.md
           - name: Build and Run the LinqToXmlDataBinding Example
             href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
           - name: LinqToXmlDataBinding Example
-            href: walkthrough-linqtoxmldatabinding-example.md
+# Auto-expanded node
             items:
+            - name: LinqToXmlDataBinding Example
+              href: walkthrough-linqtoxmldatabinding-example.md
             - name: L2DBForm.xaml Source Code
               href: l2dbform-xaml-source-code.md
             - name: L2DBForm.xaml.cs Source Code
               href: l2dbform-xaml-cs-source-code.md
   - name: Working with 3-D Assets for Games and Apps
-    href: working-with-3-d-assets-for-games-and-apps.md
+# Auto-expanded node
     items:
+    - name: Working with 3-D Assets for Games and Apps
+      href: working-with-3-d-assets-for-games-and-apps.md
     - name: Working with Textures and Images
-      href: working-with-textures-and-images.md
+# Auto-expanded node
       items:
+      - name: Working with Textures and Images
+        href: working-with-textures-and-images.md
       - name: Image Editor
         href: image-editor.md
       - name: Image Editor Examples
-        href: image-editor-examples.md
+# Auto-expanded node
         items:
+        - name: Image Editor Examples
+          href: image-editor-examples.md
         - name: Create a Basic Texture
           href: how-to-create-a-basic-texture.md
         - name: Create and Modify MIP Levels
           href: how-to-create-and-modify-mip-levels.md
     - name: Working with 3-D Models
-      href: working-with-3-d-models.md
+# Auto-expanded node
       items:
+      - name: Working with 3-D Models
+        href: working-with-3-d-models.md
       - name: Model Editor
         href: model-editor.md
       - name: Model Editor Examples
-        href: model-editor-examples.md
+# Auto-expanded node
         items:
+        - name: Model Editor Examples
+          href: model-editor-examples.md
         - name: Create a Basic 3-D Model
           href: how-to-create-a-basic-3-d-model.md
         - name: Modify the Pivot Point of a 3-D Model
@@ -133,13 +169,17 @@
         - name: Apply a Shader to a 3-D Model
           href: how-to-apply-a-shader-to-a-3-d-model.md
     - name: Working with Shaders
-      href: working-with-shaders.md
+# Auto-expanded node
       items:
+      - name: Working with Shaders
+        href: working-with-shaders.md
       - name: Shader Designer
         href: shader-designer.md
       - name: Shader Designer Nodes
-        href: shader-designer-nodes.md
+# Auto-expanded node
         items:
+        - name: Shader Designer Nodes
+          href: shader-designer-nodes.md
         - name: Constant Nodes
           href: constant-nodes.md
         - name: Parameter Nodes
@@ -153,8 +193,10 @@
         - name: Filter Nodes
           href: filter-nodes.md
       - name: Shader Designer Examples
-        href: shader-designer-examples.md
+# Auto-expanded node
         items:
+        - name: Shader Designer Examples
+          href: shader-designer-examples.md
         - name: Create a Basic Color Shader
           href: how-to-create-a-basic-color-shader.md
         - name: Create a Basic Lambert Shader
@@ -172,8 +214,10 @@
         - name: Export a Shader
           href: how-to-export-a-shader.md
     - name: Using 3-D Assets in Your Game or App
-      href: using-3-d-assets-in-your-game-or-app.md
+# Auto-expanded node
       items:
+      - name: Using 3-D Assets in Your Game or App
+        href: using-3-d-assets-in-your-game-or-app.md
       - name: Export a Texture that Contains Mipmaps
         href: how-to-export-a-texture-that-contains-mipmaps.md
       - name: Export a Texture that has Premultiplied Alpha

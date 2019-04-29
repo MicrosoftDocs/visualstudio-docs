@@ -1,6 +1,8 @@
 - name: Install Visual Studio 2015
-  href: install-visual-studio-2015.md
+# Auto-expanded node
   items:
+  - name: Install Visual Studio 2015
+    href: install-visual-studio-2015.md
   - name: Create an Offline Installation of Visual Studio
     href: create-an-offline-installation-of-visual-studio.md
   - name: Install Visual Studio Versions Side-by-Side
@@ -10,8 +12,10 @@
   - name: Uninstall Visual Studio
     href: uninstall-visual-studio.md
   - name: Visual Studio Administrator Guide
-    href: visual-studio-administrator-guide.md
+# Auto-expanded node
     items:
+    - name: Visual Studio Administrator Guide
+      href: visual-studio-administrator-guide.md
     - name: Install a Specific Release of Visual Studio
       href: how-to-install-a-specific-release-of-visual-studio.md
     - name: Create and Run an Unattended Installation of Visual Studio
@@ -19,8 +23,10 @@
     - name: Automatically apply product keys when deploying Visual Studio
       href: how-to-automatically-apply-product-keys-when-deploying-visual-studio.md
   - name: Install Multiple Language Versions of Visual Studio
-    href: install-multiple-language-versions-of-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Install Multiple Language Versions of Visual Studio
+      href: install-multiple-language-versions-of-visual-studio.md
     - name: Microsoft Language Interface Packs (LIPs) and Visual Studio
       href: microsoft-language-interface-packs-lips-and-visual-studio.md
   - name: Upgrade from a Trial Edition of Visual Studio

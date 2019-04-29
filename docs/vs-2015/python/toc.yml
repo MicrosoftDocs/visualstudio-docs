@@ -1,6 +1,8 @@
 - name: Python
-  href: getting-started-with-python.md
+# Auto-expanded node
   items:
+  - name: Python
+    href: getting-started-with-python.md
   - name: Setting up Visual Studio
     href: getting-started-with-ptvs-setting-up-visual-studio.md
   - name: Start Coding (Projects)
