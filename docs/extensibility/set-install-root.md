@@ -19,7 +19,7 @@ Starting with Visual Studio 2017 and VSIX v3 (version 3), there is now support f
 * [INSTALLDIR]\Licenses
 * [INSTALLDIR]\Common7\IDE\ReferenceAssemblies
 * [INSTALLDIR]\Common7\IDE\RemoteDebugger
-* [INSTALLDIR]\Common7\IDE\VC\VCTargets (only supported for VS2017, deprecated for VS2019+)
+* [INSTALLDIR]\Common7\IDE\VC\VCTargets (only supported for Visual Studio 2017, deprecated for Visual Studio 2019 and later)
 
 >**Note:** The VSIX format does not allow you to install outside the VS install folder structure. 
 
