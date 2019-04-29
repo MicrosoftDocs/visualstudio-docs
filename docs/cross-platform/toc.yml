@@ -6,10 +6,8 @@
 - name: Visual Studio Tools for Apache Cordova
   href: /visualstudio/cross-platform/tools-for-cordova/
 - name: Visual Studio Tools for Unity
-# Auto-expanded node
+  href: visual-studio-tools-for-unity.md
   items:
-  - name: Visual Studio Tools for Unity
-    href: visual-studio-tools-for-unity.md
   - name: Get Started with Visual Studio Tools for Unity
     href: getting-started-with-visual-studio-tools-for-unity.md
   - name: Use Visual Studio Tools for Unity
@@ -17,10 +15,8 @@
   - name: Use .NET 4.x in Unity
     href: unity-scripting-upgrade.md
   - name: Program Visual Studio Tools for Unity
-# Auto-expanded node
+    href: programming-visual-studio-tools-for-unity.md
     items:
-    - name: Program Visual Studio Tools for Unity
-      href: programming-visual-studio-tools-for-unity.md
     - name: Customize Project Files Created by VSTU
       href: customize-project-files-created-by-vstu.md
     - name: Share the Unity Log Callback with VSTU
@@ -36,15 +32,11 @@
   - name: DevOps with Unity Apps
     href: application-lifecycle-management-alm-with-unity-apps.md
 - name: Visual C++ for Cross-Platform Mobile Development
-# Auto-expanded node
+  href: visual-cpp-for-cross-platform-mobile-development.md
   items:
-  - name: Visual C++ for Cross-Platform Mobile Development
-    href: visual-cpp-for-cross-platform-mobile-development.md
   - name: Install Visual C++ for Cross-Platform Mobile Development
-# Auto-expanded node
+    href: install-visual-cpp-for-cross-platform-mobile-development.md
     items:
-    - name: Install Visual C++ for Cross-Platform Mobile Development
-      href: install-visual-cpp-for-cross-platform-mobile-development.md
     - name: Install And Configure Tools to Build using iOS
       href: install-and-configure-tools-to-build-using-ios.md
   - name: Create an Android Native Activity App
@@ -58,10 +50,8 @@
   - name: Cross-Platform Mobile Development Examples
     href: cross-platform-mobile-development-examples.md
   - name: C++ Cross-Platform Project Properties
-# Auto-expanded node
+    href: cross-platform-prop-pages.md
     items:
-    - name: C++ Cross-Platform Project Properties
-      href: cross-platform-prop-pages.md
     - name: General Project Properties (Android C++)
       href: general-android-prop-page.md
     - name: Android Debugger Properties
@@ -77,10 +67,8 @@
 - name: Develop apps for the Universal Windows Platform (UWP)
   href: develop-apps-for-the-universal-windows-platform-uwp.md
 - name: Visual Studio Emulator for Android
-# Auto-expanded node
+  href: visual-studio-emulator-for-android.md
   items:
-  - name: Visual Studio Emulator for Android
-    href: visual-studio-emulator-for-android.md
   - name: System Requirements for the Visual Studio Emulator for Android
     href: system-requirements-for-the-visual-studio-emulator-for-android.md
   - name: Troubleshoot the Visual Studio Emulator for Android

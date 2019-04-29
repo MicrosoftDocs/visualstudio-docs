@@ -1,8 +1,6 @@
 - name: Visual Studio Tools for AI
-# Auto-expanded node
+  href: index.yml
   items:
-  - name: Visual Studio Tools for AI
-    href: index.yml
     - name: Overview
       items:
         - name: About Visual Studio Tools for AI

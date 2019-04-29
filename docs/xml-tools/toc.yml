@@ -1,22 +1,16 @@
 - name: XML tools in Visual Studio
-# Auto-expanded node
+  href: xml-tools-in-visual-studio.md
   items:
-  - name: XML tools in Visual Studio
-    href: xml-tools-in-visual-studio.md
   - name: XML editor
-# Auto-expanded node
+    href: xml-editor.md
     items:
-    - name: XML editor
-      href: xml-editor.md
     - name: XML document validation
       href: xml-document-validation.md
     - name: XML editor IntelliSense features
       href: xml-editor-intellisense-features.md
     - name: XML snippets
-# Auto-expanded node
+      href: xml-snippets.md
       items:
-      - name: XML snippets
-        href: xml-snippets.md
       - name: Use XML snippets
         href: how-to-use-xml-snippets.md
       - name: Generate snippet from an XML schema
@@ -50,15 +44,11 @@
     - name: XML Schemas dialog box
       href: xml-schemas-dialog-box.md
   - name: XML Schema Designer
-# Auto-expanded node
+    href: xml-schema-designer.md
     items:
-    - name: XML Schema Designer
-      href: xml-schema-designer.md
     - name: XML Schema Explorer
-# Auto-expanded node
+      href: xml-schema-explorer.md
       items:
-      - name: XML Schema Explorer
-        href: xml-schema-explorer.md
       - name: Search the schema set
         href: searching-the-schema-set.md
       - name: Sort, filter, and group
@@ -68,10 +58,8 @@
       - name: Integration of XML literals
         href: integration-of-xml-literals-with-xml-schema-explorer.md
     - name: XML Schema Designer workspace
-# Auto-expanded node
+      href: xml-schema-designer-workspace.md
       items:
-      - name: XML Schema Designer workspace
-        href: xml-schema-designer-workspace.md
       - name: Start View
         href: start-view.md
       - name: Content Model View
@@ -103,10 +91,8 @@
       - name: Print diagrams
         href: how-to-print-diagrams-from-the-graph-view-and-the-content-model-view.md
       - name: Sample XSD files
-# Auto-expanded node
+        href: sample-xsd-files.md
         items:
-        - name: Sample XSD files
-          href: sample-xsd-files.md
         - name: Simple schema
           href: sample-xsd-file-simple-schema.md
         - name: Purchase Order schema
@@ -114,10 +100,8 @@
         - name: Relationships
           href: sample-xsd-file-relationships.md
   - name: XSLT debugging
-# Auto-expanded node
+    href: debugging-xslt.md
     items:
-    - name: XSLT debugging
-      href: debugging-xslt.md
     - name: "Walkthrough: Debug an XSLT style sheet"
       href: walkthrough-debug-an-xslt-style-sheet.md
     - name: Evaluate an XPath expression

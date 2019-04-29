@@ -19,19 +19,15 @@
 - name: How-to guides
   items:
   - name: R projects
-# Auto-expanded node
+    href: r-projects-in-visual-studio.md
     items:
-    - name: R projects
-      href: r-projects-in-visual-studio.md
     - name: Package manager
       href: r-package-manager-in-visual-studio.md
     - name: SQL Server integration
       href: integrating-sql-server-with-r.md
   - name: Editing code
-# Auto-expanded node
+    href: editing-r-code-in-visual-studio.md
     items:
-    - name: Editing code
-      href: editing-r-code-in-visual-studio.md
     - name: IntelliSense
       href: r-intellisense.md
     - name: Linting
@@ -39,10 +35,8 @@
     - name: Code snippets
       href: code-snippets-for-r.md
   - name: Workspaces (local and remote)
-# Auto-expanded node
+    href: r-workspaces-in-visual-studio.md
     items:
-    - name: Workspaces (local and remote)
-      href: r-workspaces-in-visual-studio.md
     - name: Setting up remote workspaces
       href: setting-up-remote-r-workspaces.md
     - name: Remote R Service for Linux

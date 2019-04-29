@@ -1,8 +1,6 @@
 - name: C# Tutorials
-# Auto-expanded node
+  href: index.yml
   items:
-  - name: C# Tutorials
-    href: index.yml
   - name: Overview
     items:
     - name: About Visual Studio

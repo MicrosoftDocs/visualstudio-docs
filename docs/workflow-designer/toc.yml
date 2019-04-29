@@ -1,13 +1,9 @@
 - name: Develop apps with the Workflow Designer
-# Auto-expanded node
+  href: developing-applications-with-the-workflow-designer.md
   items:
-  - name: Develop apps with the Workflow Designer
-    href: developing-applications-with-the-workflow-designer.md
   - name: Create a Workflow project
-# Auto-expanded node
+    href: creating-a-workflow-project.md
     items:
-    - name: Create a Workflow project
-      href: creating-a-workflow-project.md
     - name: Add a new item to a Workflow project
       href: how-to-add-a-new-item-to-a-workflow-project.md
   - name: Add activities to the Toolbox
@@ -29,15 +25,11 @@
   - name: Add comments to a workflow in the Workflow Designer
     href: how-to-add-comments-to-a-workflow-in-the-workflow-designer.md
   - name: Activity designers
-# Auto-expanded node
+    href: using-the-activity-designers.md
     items:
-    - name: Activity designers
-      href: using-the-activity-designers.md
     - name: Control Flow Activity Designers
-# Auto-expanded node
+      href: control-flow-activity-designers.md
       items:
-      - name: Control Flow Activity Designers
-        href: control-flow-activity-designers.md
       - name: DoWhile Activity Designer
         href: dowhile-activity-designer.md
       - name: ForEach<T> Activity Designer
@@ -59,10 +51,8 @@
       - name: While Activity Designer
         href: while-activity-designer.md
     - name: Flowchart Activity Designers
-# Auto-expanded node
+      href: flowchart-activity-designers.md
       items:
-      - name: Flowchart Activity Designers
-        href: flowchart-activity-designers.md
       - name: Flowchart Activity Designer
         href: flowchart-activity-designer.md
       - name: FlowDecision Activity Designer
@@ -70,10 +60,8 @@
       - name: FlowSwitch<T> Activity Designer
         href: flowswitch-t-activity-designer.md
     - name: State Machine Activity Designers
-# Auto-expanded node
+      href: state-machine-activity-designers.md
       items:
-      - name: State Machine Activity Designers
-        href: state-machine-activity-designers.md
       - name: StateMachine Activity Designer
         href: statemachine-activity-designer.md
       - name: State Activity Designer
@@ -83,10 +71,8 @@
       - name: Transition Activity Designer
         href: transition-activity-designer.md
     - name: Messaging Activity Designers
-# Auto-expanded node
+      href: messaging-activity-designers.md
       items:
-      - name: Messaging Activity Designers
-        href: messaging-activity-designers.md
       - name: CorrelationScope Activity Designer
         href: correlationscope-activity-designer.md
       - name: InitializeCorrelation Activity Designer
@@ -102,19 +88,15 @@
       - name: TransactedReceiveScope Activity Designer
         href: transactedreceivescope-activity-designer.md
     - name: Runtime Activity Designers
-# Auto-expanded node
+      href: runtime-activity-designers.md
       items:
-      - name: Runtime Activity Designers
-        href: runtime-activity-designers.md
       - name: Persist Activity Designer
         href: persist-activity-designer.md
       - name: TerminateWorkflow Activity Designer
         href: terminateworkflow-activity-designer.md
     - name: Primitives Activity Designers
-# Auto-expanded node
+      href: primitives-activity-designers.md
       items:
-      - name: Primitives Activity Designers
-        href: primitives-activity-designers.md
       - name: Assign Activity Designer
         href: assign-activity-designer.md
       - name: Delay Activity Designer
@@ -126,10 +108,8 @@
       - name: WriteLine Activity Designer
         href: writeline-activity-designer.md
     - name: Transaction Activity Designers
-# Auto-expanded node
+      href: transaction-activity-designers.md
       items:
-      - name: Transaction Activity Designers
-        href: transaction-activity-designers.md
       - name: CancellationScope Activity Designer
         href: cancellationscope-activity-designer.md
       - name: CompensableActivity Activity Designer
@@ -141,10 +121,8 @@
       - name: TransactionScope Activity Designer
         href: transactionscope-activity-designer.md
     - name: Collection Activity Designers
-# Auto-expanded node
+      href: collection-activity-designers.md
       items:
-      - name: Collection Activity Designers
-        href: collection-activity-designers.md
       - name: AddToCollection<T> Activity Designer
         href: addtocollection-t-activity-designer.md
       - name: ClearCollection<T> Activity Designer
@@ -154,10 +132,8 @@
       - name: RemoveFromCollection<T> Activity Designer
         href: removefromcollection-t-activity-designer.md
     - name: Error Handling Activity Designers
-# Auto-expanded node
+      href: error-handling-activity-designers.md
       items:
-      - name: Error Handling Activity Designers
-        href: error-handling-activity-designers.md
       - name: Rethrow Activity Designer
         href: rethrow-activity-designer.md
       - name: Throw Activity Designer
@@ -165,17 +141,13 @@
       - name: TryCatch Activity Designer
         href: trycatch-activity-designer.md
     - name: Migration Activity Designers
-# Auto-expanded node
+      href: migration-activity-designers.md
       items:
-      - name: Migration Activity Designers
-        href: migration-activity-designers.md
       - name: Interop Activity Designer
         href: interop-activity-designer.md
   - name: Debug workflows
-# Auto-expanded node
+    href: debugging-workflows-with-the-workflow-designer.md
     items:
-    - name: Debug workflows
-      href: debugging-workflows-with-the-workflow-designer.md
     - name: Set breakpoints in workflows
       href: how-to-set-breakpoints-in-workflows.md
     - name: Debug XAML with the Workflow Designer
@@ -183,10 +155,8 @@
     - name: Unsupported debugging scenarios
       href: unsupported-debugging-scenarios-in-the-workflow-designer.md
   - name: UI reference
-# Auto-expanded node
+    href: workflow-designer-ui-help.md
     items:
-    - name: UI reference
-      href: workflow-designer-ui-help.md
     - name: Browse and Select a .NET Type Dialog Box
       href: browse-and-select-a-dotnet-type-dialog-box.md
     - name: CorrelatesOn Definition Dialog Box

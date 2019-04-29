@@ -1,15 +1,11 @@
 - name: Docs
   tocHref: /
-# Auto-expanded node
+  topicHref: /
   items:
-    tocHref: /
-    topicHref: /
   - name: Visual Studio
     tocHref: /visualstudio/
-# Auto-expanded node
+    topicHref: /visualstudio/ide/
     items:
-      tocHref: /visualstudio/
-      topicHref: /visualstudio/ide/
     - name: Visual Basic
       tocHref: /visualstudio/visual-basic
       topicHref: /visualstudio/visual-basic/index
