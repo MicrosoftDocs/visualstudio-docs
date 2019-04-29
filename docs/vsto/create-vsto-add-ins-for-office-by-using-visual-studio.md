@@ -19,13 +19,13 @@ ms.workload:
  The Office developer tools provide features that help you create Office solutions to suit a variety of business needs. The tools include project templates to help you create Office solutions by using Visual Basic or Visual C#, and visual designers that help you create custom user interfaces for your Office solutions.
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
  For the latest information about Office development, see the following development centers on MSDN:
 
--   The [Office development with Visual Studio developer portal](http://go.microsoft.com/fwlink/?LinkId=123844) contains links to product information, code samples, videos, and community resources about using Visual Studio to customize Office applications as part of your solutions.
+- The [Office development with Visual Studio developer portal](http://go.microsoft.com/fwlink/?LinkId=123844) contains links to product information, code samples, videos, and community resources about using Visual Studio to customize Office applications as part of your solutions.
 
--   The [Microsoft Office developer center](http://go.microsoft.com/fwlink/?LinkId=83467) contains links to technical articles, code samples, downloads, community information, support, and other documentation about Office customizations and Office Business Applications (OBAs).
+- The [Microsoft Office developer center](http://go.microsoft.com/fwlink/?LinkId=83467) contains links to technical articles, code samples, downloads, community information, support, and other documentation about Office customizations and Office Business Applications (OBAs).
 
 ## In this section
 - [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)

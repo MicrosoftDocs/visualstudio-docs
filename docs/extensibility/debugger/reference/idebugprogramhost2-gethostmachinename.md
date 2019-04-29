@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramHost2::GetHostMachineName
 Gets the name of the machine that the process hosting this program is running on.
@@ -30,13 +33,13 @@ int GetHostMachineName( 
 );
 ```
 
-#### Parameters
- `pbstrHostMachineName`
+## Parameters
+ `pbstrHostMachineName`\
 
  [out] Returns the name of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)

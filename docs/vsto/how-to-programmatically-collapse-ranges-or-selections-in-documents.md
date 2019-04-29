@@ -66,7 +66,7 @@ ms.workload:
 
 ### To collapse a range in a document-level customization
 
-1.  The following example shows the complete method for a document-level customization. To use this code, run it from the `ThisDocument` class in your project.
+1. The following example shows the complete method for a document-level customization. To use this code, run it from the `ThisDocument` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#45](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#45)]
      [!code-csharp[Trin_VstcoreWordAutomation#45](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#45)]
@@ -75,7 +75,7 @@ ms.workload:
 
 ### To collapse a range in a VSTO Add-in
 
-1.  The following example shows the complete method for a VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.
+1. The following example shows the complete method for a VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#45](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#45)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#45](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#45)]

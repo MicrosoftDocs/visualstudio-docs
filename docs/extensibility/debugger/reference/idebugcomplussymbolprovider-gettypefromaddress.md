@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetTypeFromAddress
 Retrieves to a symbol type given its debug address.
@@ -31,12 +34,12 @@ int GetTypeFromAddress(
 );
 ```
 
-#### Parameters
-`pAddress`
+## Parameters
+`pAddress`\
 
  [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
-`ppField`
+`ppField`\
 
  [out] Returns the array type as it is represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
@@ -111,5 +114,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

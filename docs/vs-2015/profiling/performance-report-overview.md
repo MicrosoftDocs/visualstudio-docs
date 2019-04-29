@@ -20,9 +20,9 @@ manager: jillfra
 You can view the profiling data of a performance session in the **Performance Report** window of the Visual Studio Team System Development Edition integrated development environment (IDE). The profiling data is saved in .vsp and .vsps files. Report view windows enable you to view and analyze application performance issues.  
   
 > [!CAUTION]
->  A profiling data file contains sensitive information such as the computer name, the version of the operating system, file paths, memory information, and other computer setup information. You should maintain strict control over the distribution of the data, both in its native .vsp format and when it is exported to a .csv or an .xml file.  
+> A profiling data file contains sensitive information such as the computer name, the version of the operating system, file paths, memory information, and other computer setup information. You should maintain strict control over the distribution of the data, both in its native .vsp format and when it is exported to a .csv or an .xml file.  
 >   
->  If event tracing data is collected as part of the performance session, additional information might appear in the event tracing log (.etl) file. This information includes your domain and user name; therefore, you should maintain strict control over the distribution of the log file.  
+> If event tracing data is collected as part of the performance session, additional information might appear in the event tracing log (.etl) file. This information includes your domain and user name; therefore, you should maintain strict control over the distribution of the log file.  
   
 ## Performance Report Window  
  The Performance Report window is a tool window that is used to view, manage, and filter performance data and it includes a customizable query control.  
@@ -76,19 +76,19 @@ You can view the profiling data of a performance session in the **Performance Re
 ## Customizable Filter Control  
  The customizable filter control has the following options:  
   
--   **Import Filter** - retrieves a previously saved custom query.  
+- **Import Filter** - retrieves a previously saved custom query.  
   
--   **Export Filter** - saves the custom query to the specified location.  
+- **Export Filter** - saves the custom query to the specified location.  
   
--   **Execute Query** - runs the query as displayed in the custom query control.  
+- **Execute Query** - runs the query as displayed in the custom query control.  
   
--   **Stop Query** - stops execution of a query that is running. This button is not available if no query is running.  
+- **Stop Query** - stops execution of a query that is running. This button is not available if no query is running.  
   
--   **Show Query** - shows/hides the custom query control.  
+- **Show Query** - shows/hides the custom query control.  
   
--   **Save Analyzed** - saves the report together with its current analysis as a .vsps file.  
+- **Save Analyzed** - saves the report together with its current analysis as a .vsps file.  
   
--   **Export** - saves the current report in .CVS-formatted or .XML-formatted file, with options to save the different views.  
+- **Export** - saves the current report in .CVS-formatted or .XML-formatted file, with options to save the different views.  
   
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   

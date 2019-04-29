@@ -73,15 +73,15 @@ Multi-project templates act as containers for two or more projects. When a proje
   
 ### To create a multi-project template  
   
-1.  Create the projects to include in the multi-project template.  
+1. Create the projects to include in the multi-project template.  
   
-2.  Create .vstemplate files for every project. For more information, see [How to: Create Project Templates](../ide/how-to-create-project-templates.md).  
+2. Create .vstemplate files for every project. For more information, see [How to: Create Project Templates](../ide/how-to-create-project-templates.md).  
   
-3.  Create a root .vstemplate file that to contain the metadata for the multi-project template. For more information, see the first example in the following section.  
+3. Create a root .vstemplate file that to contain the metadata for the multi-project template. For more information, see the first example in the following section.  
   
-4.  Select the files and folders to include in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files and folders are compressed into a .zip file.  
+4. Select the files and folders to include in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files and folders are compressed into a .zip file.  
   
-5.  Put the .zip template file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\.  
+5. Put the .zip template file in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\.  
   
 ## Example  
  This example shows a basic multi-project root .vstemplate file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to assign this project. If the `ProjectName` attribute does not exist, the name of the .vstemplate file is used as the project name.  

@@ -23,19 +23,19 @@ By using parameters in your templates, you can replace the values of key portion
 ## Declaring and Enabling Template Parameters  
  Template parameters are declared in the format $*parameter*$. For example:  
   
--   $safeprojectname$  
+- $safeprojectname$  
   
--   $guid1$  
+- $guid1$  
   
--   $guid5$  
+- $guid5$  
   
 #### To enable parameter substitution in templates  
   
-1.  In the .vstemplate file of the template, locate the `ProjectItem` element that corresponds to the item for which you want to enable parameter replacement.  
+1. In the .vstemplate file of the template, locate the `ProjectItem` element that corresponds to the item for which you want to enable parameter replacement.  
   
-2.  Set the `ReplaceParameters` attribute of the `ProjectItem` element to `true`.  
+2. Set the `ReplaceParameters` attribute of the `ProjectItem` element to `true`.  
   
-3.  In the code file for the project item, include parameters where appropriate. For example, the following parameter specifies that the safe project name be used for the namespace in a file:  
+3. In the code file for the project item, include parameters where appropriate. For example, the following parameter specifies that the safe project name be used for the namespace in a file:  
   
     ```  
     namespace $safeprojectname$  
@@ -45,7 +45,7 @@ By using parameters in your templates, you can replace the values of key portion
  The following table lists the reserved template parameters that can be used by any template.  
   
 > [!NOTE]
->  Template parameters are case-sensitive.  
+> Template parameters are case-sensitive.  
   
 |Parameter|Description|  
 |---------------|-----------------|  

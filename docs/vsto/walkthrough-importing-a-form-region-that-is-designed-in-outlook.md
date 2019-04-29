@@ -32,12 +32,12 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].
+- [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)].
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create Outlook form regions using Visual Studio 2008?](http://go.microsoft.com/fwlink/?LinkID=130305).
 ## Design a form region by using the form region designer in Outlook
@@ -47,23 +47,23 @@ ms.workload:
 
 ### To design a form region by using the form region designer in Outlook
 
-1.  Start Microsoft Office Outlook.
+1. Start Microsoft Office Outlook.
 
-2.  In Outlook, on the **Developer** tab, click **Design a Form**. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+2. In Outlook, on the **Developer** tab, click **Design a Form**. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-3.  In the **Design Form** box, click **Task**, and then click **Open**.
+3. In the **Design Form** box, click **Task**, and then click **Open**.
 
-4.  In Outlook, on the **Developer** tab, in the **Design** group, click **New Form Region**.
+4. In Outlook, on the **Developer** tab, in the **Design** group, click **New Form Region**.
 
      A new form region opens. If the **Field Chooser** does not appear, click **Field Chooser** in the **Tools** group.
 
-5.  Drag the **Subject** field and the **% Complete** field from the **Field Chooser** to the form region.
+5. Drag the **Subject** field and the **% Complete** field from the **Field Chooser** to the form region.
 
-6.  In the **Tools** group, click **Control Toolbox** to open the **Toolbox**.
+6. In the **Tools** group, click **Control Toolbox** to open the **Toolbox**.
 
-7.  Drag a Label from the **Toolbox** to the form region. Position the label beneath the **Subject** and **% Complete** fields.
+7. Drag a Label from the **Toolbox** to the form region. Position the label beneath the **Subject** and **% Complete** fields.
 
-8.  Right-click the label, and then click **Advanced Properties**.
+8. Right-click the label, and then click **Advanced Properties**.
 
 9. In the **Properties** window, set the **Caption** property to **This task depends on the following tasks**, set the **Width** property to **200**, and then click **Apply**.
 
@@ -112,11 +112,11 @@ ms.workload:
 
 ### To create a new Outlook VSTO Add-in project
 
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **TaskAddIn**.
+1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **TaskAddIn**.
 
-2.  In the **New Project** dialog box, select **Create directory for solution**.
+2. In the **New Project** dialog box, select **Create directory for solution**.
 
-3.  Save the project to the default project directory.
+3. Save the project to the default project directory.
 
      For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
@@ -125,23 +125,23 @@ ms.workload:
 
 ### To import the form region into the Outlook VSTO Add-in project
 
-1.  In **Solution Explorer**, right-click the **TaskAddIn** project, point to **Add**, and then click **New Item**.
+1. In **Solution Explorer**, right-click the **TaskAddIn** project, point to **Add**, and then click **New Item**.
 
-2.  In the **Templates** pane, select **Outlook Form Region**, name the file **TaskFormRegion**, and then click **Add**.
+2. In the **Templates** pane, select **Outlook Form Region**, name the file **TaskFormRegion**, and then click **Add**.
 
      The **NewOutlook Form Region** wizard starts.
 
-3.  On the **Select how you want to create the form region** page, click **Import an Outlook Form Storage (.ofs) File**, and then click **Browse**.
+3. On the **Select how you want to create the form region** page, click **Import an Outlook Form Storage (.ofs) File**, and then click **Browse**.
 
-4.  In the **Existing Outlook Form Region File Location** dialog box, browse to the location of *TaskFormRegion.ofs*, select **TaskFormRegion.ofs**, click **Open**, and then click **Next**.
+4. In the **Existing Outlook Form Region File Location** dialog box, browse to the location of *TaskFormRegion.ofs*, select **TaskFormRegion.ofs**, click **Open**, and then click **Next**.
 
-5.  On the **Select the type of form region you want to create** page, click **Replace-all**, and then click **Next**.
+5. On the **Select the type of form region you want to create** page, click **Replace-all**, and then click **Next**.
 
      A *replace-all* form region replaces the entire Outlook form. For more information about form region types, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
-6.  On the **Supply descriptive text and select your display preferences** page, click **Next**.
+6. On the **Supply descriptive text and select your display preferences** page, click **Next**.
 
-7.  On the **Identify the message classes that will display this form region** page, in the **Which custom message classes will display this form region** field, type **IPM.Task.TaskFormRegion**, and then click **Finish**.
+7. On the **Identify the message classes that will display this form region** page, in the **Which custom message classes will display this form region** field, type **IPM.Task.TaskFormRegion**, and then click **Finish**.
 
      A *TaskFormRegion.cs* or *TaskFormRegion.vb* file is added to your project.
 
@@ -202,25 +202,25 @@ ms.workload:
 
 ### To test the form region
 
-1.  Press **F5** to run the project.
+1. Press **F5** to run the project.
 
      Outlook starts.
 
-2.  In Outlook, on the **Home** tab, click **New Items**, and then click **Task**.
+2. In Outlook, on the **Home** tab, click **New Items**, and then click **Task**.
 
-3.  In the task form, type **Dependent Task** in the **Subject** field.
+3. In the task form, type **Dependent Task** in the **Subject** field.
 
-4.  On the **Task** tab of the Ribbon, in the **Actions** group, click **Save & Close**.
+4. On the **Task** tab of the Ribbon, in the **Actions** group, click **Save & Close**.
 
-5.  In Outlook, on the **Home** tab, click **New Items**, click **More Items**, and then click **Choose Form**.
+5. In Outlook, on the **Home** tab, click **New Items**, click **More Items**, and then click **Choose Form**.
 
-6.  In the **Choose Form** dialog box, click **TaskFormRegion**, and then click **Open**.
+6. In the **Choose Form** dialog box, click **TaskFormRegion**, and then click **Open**.
 
      The **TaskFormRegion** form region appears. This form replaces the entire task form. The **Select a task to add to the list of dependent tasks** combo box is populated with other tasks in the Tasks folder.
 
-7.  On the task form, in the **Subject** field, type **Primary Task**.
+7. On the task form, in the **Subject** field, type **Primary Task**.
 
-8.  In the **Select a task to add to the list of dependent tasks** combo box, select **Dependent Task**, and then click **Add Dependent Task**.
+8. In the **Select a task to add to the list of dependent tasks** combo box, select **Dependent Task**, and then click **Add Dependent Task**.
 
      **0% Complete -- Dependent Task** appears in the **This task depends on the following tasks** list box. This demonstrates that you successfully handled the `Microsoft.Office.Interop.Outlook.OlkCommandButton.Click` event of the button.
 
@@ -239,11 +239,11 @@ ms.workload:
 ## Next steps
  You can learn more about how to customize the UI of an Outlook application from these topics:
 
--   To learn more about how to design the appearance of a form region by dragging managed controls onto a visual designer, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
+- To learn more about how to design the appearance of a form region by dragging managed controls onto a visual designer, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).
 
--   To learn about how to customize the Ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
+- To learn about how to customize the Ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
--   To learn more about how to add a custom task pane to Outlook, see [Custom task panes](../vsto/custom-task-panes.md).
+- To learn more about how to add a custom task pane to Outlook, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
 - [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)

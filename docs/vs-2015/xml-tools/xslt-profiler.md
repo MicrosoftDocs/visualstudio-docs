@@ -22,7 +22,7 @@ The XSLT Profiler is a performance analysis profiler tool that helps you develop
  The XSLT Profiler was first introduced as an add-in for Visual Studio 2008. For more information, see the Related Resources section on the [XSLT Profiler for Visual Studio Feb 08 Community Technology Preview](http://go.microsoft.com/fwlink/?LinkId=142987) page.  
   
 > [!NOTE]
->  Some screens might appear differently in Visual Studio 2010 than they do in these documents because some visual elements were changed since Visual Studio 2008.  
+> Some screens might appear differently in Visual Studio 2010 than they do in these documents because some visual elements were changed since Visual Studio 2008.  
   
 ## See Also  
  [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)

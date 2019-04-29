@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEventCallback2::Event
 Sends notification of debug events.
@@ -42,32 +45,32 @@ int Event( 
 );
 ```
 
-#### Parameters
- `pEngine`
+## Parameters
+ `pEngine`\
 
  [in] An [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) object that represents the debug engine (DE) that is sending this event. A DE is required to fill out this parameter.
 
- `pProcess`
+ `pProcess`\
 
  [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process in which the event occurs. This parameter is filled in by the session debug manager (SDM). A DE always passes a null value for this parameter.
 
- `pProgram`
+ `pProgram`\
 
  [in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program in which this event occurs. For most events, this parameter is not a null value.
 
- `pThread`
+ `pThread`\
 
  [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread in which this event occurs. For stopping events, this parameter cannot be a null value as the stack frame is obtained from this parameter.
 
- `pEvent`
+ `pEvent`\
 
  [in] An [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) object that represents the debug event.
 
- `riidEvent`
+ `riidEvent`\
 
  [in] GUID that identifies which event interface to obtain from the `pEvent` parameter.
 
- `dwAttrib`
+ `dwAttrib`\
 
  [in] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
 
@@ -79,7 +82,7 @@ int Event( 
 
  All debug events are posted asynchronously, regardless of whether an event itself is asynchronous or not. When a DE calls this method, the return value does not indicate whether the event was processed, only whether the event was received. In fact, under most circumstances, the event has not been processed when this method returns.
 
-## See Also
+## See also
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttribute::GetParentField
 Gets the field to which the custom attribute is attached.
@@ -30,8 +33,8 @@ int GetParentField(
 );
 ```
 
-#### Parameters
- `ppField`
+## Parameters
+ `ppField`\
 
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that represents the field to which the custom attribute is attached.
 
@@ -41,6 +44,6 @@ int GetParentField(
 ## Remarks
  Call the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method on the returned [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object to determine what kind of field the parent is.
 
-## See Also
+## See also
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

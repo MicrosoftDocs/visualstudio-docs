@@ -36,6 +36,8 @@ During debugging, register values change as code executes in your app. Values th
 
 To reduce clutter, the **Registers** window organizes registers into groups, which vary according to platform and processor type. You can display or hide register groups. For more information, see [How to: Display and hide register groups](../debugger/how-to-display-and-hide-register-groups.md).
 
+For info on the flags you see in the **Registers** window, see [About the Registers window](../debugger/debugging-basics-registers-window.md)
+
 You can edit register values. For more information, see [How to: Edit a register value](../debugger/how-to-edit-a-register-value.md).
 
 **To open the Registers window**

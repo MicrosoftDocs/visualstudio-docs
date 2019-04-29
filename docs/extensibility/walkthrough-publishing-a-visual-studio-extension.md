@@ -74,27 +74,27 @@ This article uses a default VSPackage extension, but the steps are valid for eve
 
     * **VSIX ID** is the unique identifier that Visual Studio uses for your extension. This identifier is required if you would like to have your extension auto-updated. This identifier is auto-populated from the *source.extension.vsixmanifest* file.
 
-   * **Logo** that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
+    * **Logo** that is used for your extension. This logo is auto-populated from the *source.extension.vsixmanifest* file if provided.
 
-     * **Short description** of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
+    * **Short description** of what your extension does. This description is auto-populated from the *source.extension.vsixmanifest* file.
 
-     * **Overview** is a good place to include screenshots and detailed information about what your extension does.
+    * **Overview** is a good place to include screenshots and detailed information about what your extension does.
 
-     * **Supported Visual Studio versions** lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
+    * **Supported Visual Studio versions** lets you choose which versions of Visual Studio your extension will work on. Your extension is only installed to those versions.
 
-     * **Supported Visual Studio edition lets you choose which editions of Visual Studio your extension will work on. Your extension is only installed to those editions.
+    * **Supported Visual Studio edition lets you choose which editions of Visual Studio your extension will work on. Your extension is only installed to those editions.
 
-     * **Type**. The most common type of extensions are **Tools**.
+    * **Type**. The most common type of extensions are **Tools**.
 
-     * **Categories**. Pick up to three that are a best fit for your extension.
+    * **Categories**. Pick up to three that are a best fit for your extension.
 
-     * **Tags** are keywords that help users find your extension. Tags can help increase the search relevance of your extensions in the Marketplace.
+    * **Tags** are keywords that help users find your extension. Tags can help increase the search relevance of your extensions in the Marketplace.
 
-     * **Pricing Category** is the cost of your extension.
+    * **Pricing Category** is the cost of your extension.
 
-     * **Source code repository** allows you to share a link to your source code with the community.
+    * **Source code repository** allows you to share a link to your source code with the community.
 
-     * **Allow Q&A for your extension** lets users leave questions on your extension entry page.
+    * **Allow Q&A for your extension** lets users leave questions on your extension entry page.
 
 9. Click **Save & Upload**. This option takes you back to your publisher manage page. Your extension has not yet been published. To publish your extension, right-click on your extension and select **Make Public**. You can view how your extension will look like on Marketplace by selecting **View Extension**. For acquisition numbers, click on **Reports**. To make changes to your extension, click on **Edit**.
 

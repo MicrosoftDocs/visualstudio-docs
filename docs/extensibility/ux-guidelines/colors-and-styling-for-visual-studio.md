@@ -79,7 +79,7 @@ Sometimes, you will want to allow the end user to customize your UI, like when y
 
 ![Tools &gt; Options dialog](../../extensibility/ux-guidelines/media/0301-a_toolsoptionsdialog.png "0301-a_ToolsOptionsDialog")<br />Tools &gt; Options dialog
 
-##  <a name="BKMK_TheVSColorService"></a> The VSColor Service
+## <a name="BKMK_TheVSColorService"></a> The VSColor Service
 
 Visual Studio provides an environment color service, also called the VSColor service or the shell color service. This service allows you to bind the color values of your UI elements to a name-value color set containing colors for each theme. The VSColor service must be used for all UI elements, so that colors automatically change to reflect the current user-selected theme, and so that UI bound to the environment color service will integrate with new themes in future versions of Visual Studio.
 
@@ -106,7 +106,6 @@ IVsUIShell2::GetVSSysColorEx(VSSYSCOLOR dwSysColIndex, DWORD *pdwRGBval)
 In the file VSShell80.idl, the enumeration `__VSSYSCOLOREX` has shell color constants. To use it, pass in as the index value either one of the values from the `enum __VSSYSCOLOREX` documented in MSDN or a regular index number that the Windows system API, `GetSysColor`, accepts. Doing this gets back the RGB value of the color that should be used in the second parameter.
 
 If storing a pen or brush with a new color, you must `AdviseBroadcastMessages` (off of the Visual Studio shell) and listen for `WM_SYSCOLORCHANGE` and `WM_THEMECHANGED` messages.
-
 
 To access the color service in native code, you'll make a call that resembles this:
 
@@ -262,7 +261,7 @@ protected override void Dispose(bool disposing)
 }
 ```
 
-##  <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
+## <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
 
 ### Overview
 
@@ -325,7 +324,7 @@ Many common UI elements already have High Contrast colors defined. You can refer
 | WindowFrame | - IDE border |
 | WindowText | - Auto-hide tab foreground<br />- Selected tool window tab foreground<br />- Unfocused document window tab and unfocused or unselected provisional tab foreground<br />- Tree view default foreground and hover over unselected glyph<br />- Tool window selected tab border<br />- Scroll bar thumb background, border, and glyph |
 
-##  <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
+## <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
 
 ### Overview
 

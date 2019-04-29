@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject2::CreateStringObjectWithLength
 Creates a string object that has the specified length.
@@ -33,21 +36,21 @@ int CreateStringObjectWithLength (
 );
 ```
 
-#### Parameters
- `pcstrString`
+## Parameters
+ `pcstrString`\
 
  [in] The string value for the string object.
 
- `uiLength`
+ `uiLength`\
 
  [in] The length of the string in bytes.
 
- `ppObject`
+ `ppObject`\
 
  [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object that represents the newly created string object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugFunctionObject2](../../../extensibility/debugger/reference/idebugfunctionobject2.md)

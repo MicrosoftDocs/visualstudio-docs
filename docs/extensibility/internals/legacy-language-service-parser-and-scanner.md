@@ -60,7 +60,7 @@ namespace MyNamespace
  Unlike a parser that is used as part of a compiler (where the tokens are converted to some form of executable code), a language service parser can be called for many different reasons and in many different contexts. How you implement this approach in the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method in the <xref:Microsoft.VisualStudio.Package.LanguageService> class is up to you. It is important to keep in mind that the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method might be called on a background thread.
 
 > [!CAUTION]
->  The <xref:Microsoft.VisualStudio.Package.ParseRequest> structure contains a reference to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> object. This <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> object cannot be used in the background thread. In fact, many of the base MPF classes cannot be used in the background thread. These include the <xref:Microsoft.VisualStudio.Package.Source>, <xref:Microsoft.VisualStudio.Package.ViewFilter>, <xref:Microsoft.VisualStudio.Package.CodeWindowManager> classes, and any other class that directly or indirectly communicates with the view.
+> The <xref:Microsoft.VisualStudio.Package.ParseRequest> structure contains a reference to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> object. This <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> object cannot be used in the background thread. In fact, many of the base MPF classes cannot be used in the background thread. These include the <xref:Microsoft.VisualStudio.Package.Source>, <xref:Microsoft.VisualStudio.Package.ViewFilter>, <xref:Microsoft.VisualStudio.Package.CodeWindowManager> classes, and any other class that directly or indirectly communicates with the view.
 
  This parser typically parses the whole source file the first time it is called or when the parse reason value of <xref:Microsoft.VisualStudio.Package.ParseReason> is given. Subsequent calls to the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method handle a small part of the parsed code and can be executed much more quickly by using the results of the previous full parse operation. The <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method communicates the results of the parsing operation through the <xref:Microsoft.VisualStudio.Package.AuthoringSink> and <xref:Microsoft.VisualStudio.Package.AuthoringScope> objects. The <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is used to collect information for a specific parsing reason, for example, information about the spans of matching braces or method signatures that have parameter lists. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> provides collections of declarations and method signatures and also support for the Go To advanced edit option (**Go to Definition**, **Go to Declaration**, **Go to Reference**).
 
@@ -74,29 +74,29 @@ namespace MyNamespace
 
  Assume that the language service supports matching braces.
 
-1.  The user types a closing curly brace (}).
+1. The user types a closing curly brace (}).
 
-2.  The curly brace is inserted at the cursor in the source file and the cursor is advanced by one.
+2. The curly brace is inserted at the cursor in the source file and the cursor is advanced by one.
 
-3.  The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class is called with the typed closing brace.
+3. The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class is called with the typed closing brace.
 
-4.  The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method calls the <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token at the position just before the current cursor position. This token corresponds to the typed closing brace).
+4. The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method calls the <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token at the position just before the current cursor position. This token corresponds to the typed closing brace).
 
-    1.  The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method on the <xref:Microsoft.VisualStudio.Package.Colorizer> object to obtain all tokens on the current line.
+    1. The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method on the <xref:Microsoft.VisualStudio.Package.Colorizer> object to obtain all tokens on the current line.
 
-    2.  The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.IScanner.SetSource%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object with the text of the current line.
+    2. The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method calls the <xref:Microsoft.VisualStudio.Package.IScanner.SetSource%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object with the text of the current line.
 
-    3.  The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method repeatedly calls the <xref:Microsoft.VisualStudio.Package.IScanner.ScanTokenAndProvideInfoAboutIt%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object to gather all tokens from the current line.
+    3. The <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method repeatedly calls the <xref:Microsoft.VisualStudio.Package.IScanner.ScanTokenAndProvideInfoAboutIt%2A> method on the <xref:Microsoft.VisualStudio.Package.IScanner> object to gather all tokens from the current line.
 
-    4.  The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls a private method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token that contains the desired position, and passes in the list of tokens obtained from the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method.
+    4. The <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method calls a private method in the <xref:Microsoft.VisualStudio.Package.Source> class to obtain the token that contains the desired position, and passes in the list of tokens obtained from the <xref:Microsoft.VisualStudio.Package.Colorizer.GetLineInfo%2A> method.
 
-5.  The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method looks for a token trigger flag of <xref:Microsoft.VisualStudio.Package.TokenTriggers> on the token that is returned from the <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method; that is, the token that represents the closing brace).
+5. The <xref:Microsoft.VisualStudio.Package.Source.OnCommand%2A> method looks for a token trigger flag of <xref:Microsoft.VisualStudio.Package.TokenTriggers> on the token that is returned from the <xref:Microsoft.VisualStudio.Package.Source.GetTokenInfo%2A> method; that is, the token that represents the closing brace).
 
-6.  If the trigger flag of <xref:Microsoft.VisualStudio.Package.TokenTriggers> is found, the <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class is called.
+6. If the trigger flag of <xref:Microsoft.VisualStudio.Package.TokenTriggers> is found, the <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> method in the <xref:Microsoft.VisualStudio.Package.Source> class is called.
 
-7.  The <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> method starts a parsing operation with the parse reason value of <xref:Microsoft.VisualStudio.Package.ParseReason>. This operation ultimately calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method on the <xref:Microsoft.VisualStudio.Package.LanguageService> class. If asynchronous parsing is enabled, this call to the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method occurs on a background thread.
+7. The <xref:Microsoft.VisualStudio.Package.Source.MatchBraces%2A> method starts a parsing operation with the parse reason value of <xref:Microsoft.VisualStudio.Package.ParseReason>. This operation ultimately calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method on the <xref:Microsoft.VisualStudio.Package.LanguageService> class. If asynchronous parsing is enabled, this call to the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method occurs on a background thread.
 
-8.  When the parsing operation is finished, an internal completion handler (also known as a callback method) named `HandleMatchBracesResponse` is called in the <xref:Microsoft.VisualStudio.Package.Source> class. This call is made automatically by the <xref:Microsoft.VisualStudio.Package.LanguageService> base class, not by the parser.
+8. When the parsing operation is finished, an internal completion handler (also known as a callback method) named `HandleMatchBracesResponse` is called in the <xref:Microsoft.VisualStudio.Package.Source> class. This call is made automatically by the <xref:Microsoft.VisualStudio.Package.LanguageService> base class, not by the parser.
 
 9. The `HandleMatchBracesResponse` method obtains a list of spans from the <xref:Microsoft.VisualStudio.Package.AuthoringSink> object that is stored in the <xref:Microsoft.VisualStudio.Package.ParseRequest> object. (A span is a <xref:Microsoft.VisualStudio.TextManager.Interop.TextSpan> structure that specifies a range of lines and characters in the source file.) This list of spans typically contains two spans, one each for the opening and closing braces.
 

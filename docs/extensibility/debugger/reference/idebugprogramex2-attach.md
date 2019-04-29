@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramEx2::Attach
 Attach a session to a program.
@@ -34,16 +37,16 @@ int Attach( 
 );
 ```
 
-#### Parameters
- `pCallback`
+## Parameters
+ `pCallback`\
 
  [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that represents the callback function that the attached debug engine sends events to.
 
- `dwReason`
+ `dwReason`\
 
  [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that describes the reason for the attach operation.
 
- `pSession`
+ `pSession`\
 
  [in] A value that uniquely identifies the session that is attaching to the program.
 
@@ -54,7 +57,7 @@ int Attach( 
  The port that contains the program can use the value in `pSession` to determine which session is attempting to attach to the program. For example, if a port allows only one debug session to attach to a process at a time, the port can determine if the same session is already attached to other programs in the process.
 
 > [!NOTE]
->  The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this program; none of the methods on the supplied interface are functional.
+> The interface passed in `pSession` is to be treated only as a cookie, a value that uniquely identifies the session debug manager attaching to this program; none of the methods on the supplied interface are functional.
 
-## See Also
+## See also
 - [IDebugProgramEx2](../../../extensibility/debugger/reference/idebugprogramex2.md)

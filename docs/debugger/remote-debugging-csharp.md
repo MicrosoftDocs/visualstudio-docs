@@ -82,7 +82,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 10. Copy the executable that you just built from your Visual Studio computer to the newly-created folder on the remote computer.
 
     > [!CAUTION]
-    >  Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
+    > Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
 
     You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
 

@@ -97,7 +97,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
 
 > [!IMPORTANT]
->  Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
+> Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
 
 - **Fall back to Git Credential Manager authentication for all Source Link requests**:
     When Source Link support is enabled, and a Source Link request fails authentication, Visual Studio then calls the Git Credential Manager.
@@ -190,7 +190,7 @@ Enables the Edit and Continue functionality while debugging.
     Get warnings about stale code.
 
 **Show Run to Click button in editor while debugging**:
-When this option is selected, the [Run to Click](debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
+When this option is selected, the [Run to Click](../debugger/debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button will be shown while debugging.
 
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
@@ -219,4 +219,4 @@ When this option is selected, the debugger uses the Visual Studio 2010 native de
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger feature tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

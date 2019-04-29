@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::GetField
 Gets the type of this object.
@@ -30,8 +33,8 @@ int GetField(
 );
 ```
 
-#### Parameters
- `ppField`
+## Parameters
+ `ppField`\
 
  [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object if not a null value.
 
@@ -41,6 +44,6 @@ int GetField(
 ## Remarks
  A field describes the type of the object.
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

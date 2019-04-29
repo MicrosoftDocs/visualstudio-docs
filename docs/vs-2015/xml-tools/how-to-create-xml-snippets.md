@@ -13,29 +13,28 @@ manager: jillfra
 # How to: Create XML Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor can be used to create new XML snippets. The editor includes an XML snippet, named "Snippet", that is a boilerplate snippet for creating new XML snippets.  
   
 ## To create a new XML snippet  
  To create a new XML code snippet create a new XML file and use the **Insert Snippet** feature.  
   
-1.  On the **File** menu, click **New** and then click **File**.  
+1. On the **File** menu, click **New** and then click **File**.  
   
-2.  Click **XML File** and then click **Open**.  
+2. Click **XML File** and then click **Open**.  
   
-3.  Right-click in the editor pane and select **Insert Snippet**.  
+3. Right-click in the editor pane and select **Insert Snippet**.  
   
-4.  Select **Snippet** from the list and press ENTER.  
+4. Select **Snippet** from the list and press ENTER.  
   
-5.  Make any changes to the new snippet.  
+5. Make any changes to the new snippet.  
   
-6.  From the **File** menu select **Save XMLFile.xml**.  
+6. From the **File** menu select **Save XMLFile.xml**.  
   
      The **Save File As** dialog box is displayed.  
   
-7.  Enter the name for the new snippet and select **Snippet Files** from the **Save as type** drop-down window.  
+7. Enter the name for the new snippet and select **Snippet Files** from the **Save as type** drop-down window.  
   
-8.  Use the **Save in** drop-down list to change the file location to the My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets folder and then press **Save**.  
+8. Use the **Save in** drop-down list to change the file location to the My Documents\Visual Studio 2005\Code Snippets\XML\My XML Snippets folder and then press **Save**.  
   
 ## Snippet Description  
  This section describes some of the key elements in the boilerplate snippet. For more information about schema elements used by the XML snippets, see [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md).  
@@ -56,7 +55,7 @@ The XML Editor can be used to create new XML snippets. The editor includes an XM
  The `Code` element defines the XML text that will be inserted when the snippet is invoked.  
   
 > [!NOTE]
->  The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.  
+> The XML snippet text must be enclosed in a `<![CDATA[...]]>` section.  
   
  The following is the `Code` element that is created by the boilerplate snippet.  
   

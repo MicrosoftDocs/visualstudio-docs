@@ -22,11 +22,11 @@ VSPackages that are written in managed code might have to call or be called by u
   
  The reference documentation for each method contains three relevant sections:  
   
--   The [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] COM function prototype.  
+- The [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] COM function prototype.  
   
--   The interop assembly method prototype.  
+- The interop assembly method prototype.  
   
--   A list of the COM parameters and a short description of each.  
+- A list of the COM parameters and a short description of each.  
   
 ##### Look for differences between the two prototypes  
  Most interoperability issues derive from mismatches between the definition of a particular type in a COM interface and the definition of the same type in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interop assemblies. For example, consider the difference in the ability to pass a `null` value in an [out] parameter. You must look for differences between the two prototypes and consider their ramifications for the data being passed.  
@@ -40,7 +40,7 @@ VSPackages that are written in managed code might have to call or be called by u
  Sometimes, a COM interface generates an `IUnknown` object, and the COM interface then passes it as type `void **`. These interfaces are especially important because if the variable is defined as [out] in the IDL, then the `IUnknown` object is reference-counted with the `AddRef` method. A memory leak occurs if the object is not handled correctly.  
   
 > [!NOTE]
->  An `IUnknown` object created by the COM interface and returned in an [out] variable causes a memory leak if it is not explicitly released.  
+> An `IUnknown` object created by the COM interface and returned in an [out] variable causes a memory leak if it is not explicitly released.  
   
  Managed methods that handle such objects should treat <xref:System.IntPtr> as a pointer to an `IUnknown` object, and call the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to obtain the object. The caller should then cast the return value to whatever type is appropriate. When the object is no longer needed, call <xref:System.Runtime.InteropServices.Marshal.Release%2A> to release it.  
   
@@ -71,19 +71,19 @@ else
 ```  
   
 > [!NOTE]
->  The following methods are known to pass `IUnknown` object pointers as type <xref:System.IntPtr>. Handle them as described in this section.  
+> The following methods are known to pass `IUnknown` object pointers as type <xref:System.IntPtr>. Handle them as described in this section.  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsOwnedProjectFactory.InitializeForOwner%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.CreateProject%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.QueryViewInterface%2A>  
   
--   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>  
+- <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType%2A>  
   
 ### Optional [out] Parameters  
  Look for parameters that are defined as an [out] data type (`int`, `object`, and so on) in the COM interface, but that are defined as arrays of the same data type in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] interop assembly method prototype.  

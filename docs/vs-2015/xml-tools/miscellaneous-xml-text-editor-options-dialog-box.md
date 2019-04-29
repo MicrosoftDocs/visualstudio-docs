@@ -13,11 +13,10 @@ manager: jillfra
 # Miscellaneous, XML, Text Editor, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to change the auto-completion and schema settings for the XML Editor. You can access the **Options** dialog box from the **Tools** menu.  
   
 > [!NOTE]
->  These settings are available when you select the **Text Editor** folder, the **XML** folder, and then the **Miscellaneous** option from the **Options** dialog box.  
+> These settings are available when you select the **Text Editor** folder, the **XML** folder, and then the **Miscellaneous** option from the **Options** dialog box.  
   
 ## Auto Insert  
  **Close tags**  

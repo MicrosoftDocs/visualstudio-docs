@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugAlias::GetObject
 Gets the object that this alias is for.
@@ -30,14 +33,14 @@ int GetObject(
 )
 ```
 
-#### Parameters
- `ppObject`
+## Parameters
+ `ppObject`\
 
  [out] The [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) this alias represents.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

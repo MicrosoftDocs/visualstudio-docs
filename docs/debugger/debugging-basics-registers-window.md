@@ -40,8 +40,24 @@ The **Registers** window is available only if address-level debugging is enabled
 
  The **Registers** window enables you to do more than just view the contents of a register. When you are in break mode in native code, you can click on the contents of a register and edit the value. This is not something you should do at random. Unless you understand the register you are editing, and the data it contains, the result of careless editing is likely to be a program crash or some other undesired consequence. Unfortunately, a detailed explanation of the register sets of the various Intel and Intel-compatible processors goes far beyond the scope of this brief introduction.
 
-## Register Groups
- To reduce clutter, the **Registers** window organizes registers into groups. If you right-click on the **Registers** window, you will see a shortcut menu containing a list of groups, which you can display or hide as you see fit.
+## Register groups
+
+To reduce clutter, the **Registers** window organizes registers into groups. If you right-click on the **Registers** window, you will see a shortcut menu containing a list of groups, which you can display or hide as you see fit.
+
+## Register flags
+
+For Intel x86 processors, you may see the following flags in the **Registers** window. During a debugging session, you can also edit these flags.
+
+|Flag|Set value|
+|-|-|
+|Overflow|OV = 1|
+|Direction|UP = 1|
+|Interrupt|EI = 1|
+|Sign|PL = 1|
+|Zero|ZR = 1|
+|Auxiliary carry|AC = 1|
+|Parity|PE = 1|
+|Carry|CY = 1|
 
 ## See Also
 - [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)

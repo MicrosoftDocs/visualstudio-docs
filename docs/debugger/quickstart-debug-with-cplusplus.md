@@ -132,4 +132,4 @@ For more information on using edit-and-continue and on feature limitations, see 
 In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
-> [Debugger feature tour](../debugger/debugger-feature-tour.md)
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

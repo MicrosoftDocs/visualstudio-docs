@@ -20,11 +20,11 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 ## Locations for the Visual Studio Package project template
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:
 
-1.  Under **Visual Basic Extensibility**. The default language of the project is Visual Basic.
+1. Under **Visual Basic Extensibility**. The default language of the project is Visual Basic.
 
-2.  Under **C# Extensibility**. The default language of the project is C#.
+2. Under **C# Extensibility**. The default language of the project is C#.
 
-3.  Under **Other Project Types Extensibility**. The default language of the project is C++.
+3. Under **Other Project Types Extensibility**. The default language of the project is C++.
 
 ### To create the VSPackage
 
@@ -319,7 +319,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
 3. Open the **VSPackage.resx** file, add a new string, set the name to **101**, and set the value to `IDS_EDITORNAME`. This step provides the package with a resource ID to access the string you created.
 
    > [!NOTE]
-   >  If the **VSPackage.resx** file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.
+   > If the **VSPackage.resx** file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.
 
 4. In **Solution Explorer**, open the **MyPackagePackage.cs** file.
 

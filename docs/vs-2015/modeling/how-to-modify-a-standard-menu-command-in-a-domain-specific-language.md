@@ -29,39 +29,39 @@ You can modify the behavior of some of the standard commands that are defined au
    This topic explains this procedure.  
   
 > [!NOTE]
->  If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
+> If you want to create your own menu commands, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
-##  <a name="what"></a> What commands can you modify?  
+## <a name="what"></a> What commands can you modify?  
   
 #### To discover what commands you can modify  
   
-1.  In the `DslPackage` project, open `GeneratedCode\CommandSet.cs`. This C# file can be found in Solution Explorer as a subsidiary of `CommandSet.tt`.  
+1. In the `DslPackage` project, open `GeneratedCode\CommandSet.cs`. This C# file can be found in Solution Explorer as a subsidiary of `CommandSet.tt`.  
   
-2.  Find classes in this file whose names end with "`CommandSet`", for example `Language1CommandSet` and `Language1ClipboardCommandSet`.  
+2. Find classes in this file whose names end with "`CommandSet`", for example `Language1CommandSet` and `Language1ClipboardCommandSet`.  
   
-3.  In each command set class, type "`override`" followed by a space. IntelliSense will show a list of the methods that you can override. Each command has a pair of methods whose names begin "`ProcessOnStatus`" and "`ProcessOnMenu`".  
+3. In each command set class, type "`override`" followed by a space. IntelliSense will show a list of the methods that you can override. Each command has a pair of methods whose names begin "`ProcessOnStatus`" and "`ProcessOnMenu`".  
   
-4.  Note which of the command set classes contains the command you want to modify.  
+4. Note which of the command set classes contains the command you want to modify.  
   
-5.  Close the file without saving your edits.  
+5. Close the file without saving your edits.  
   
     > [!NOTE]
-    >  Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.  
+    > Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.  
   
-##  <a name="extend"></a> Extend the appropriate command set class  
+## <a name="extend"></a> Extend the appropriate command set class  
  Create a new file that contains a partial declaration of the command set class.  
   
 #### To extend the Command Set class  
   
-1.  In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:  
+1. In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:  
   
      `namespace Company.Language1`  
   
      `{ ...  internal partial class Language1CommandSet : ...`  
   
-2.  In **DslPackage**, create a folder named **Custom Code**. In this folder, create a new class file named `CommandSet.cs`.  
+2. In **DslPackage**, create a folder named **Custom Code**. In this folder, create a new class file named `CommandSet.cs`.  
   
-3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:  
+3. In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:  
   
     ```  
     using System;  
@@ -73,7 +73,7 @@ You can modify the behavior of some of the standard commands that are defined au
   
      **Note** If you used the class file template to create the new file, you must correct both the namespace and the class name.  
   
-##  <a name="override"></a> Override the command methods  
+## <a name="override"></a> Override the command methods  
  Most commands have two associated methods: The method with a name like `ProcessOnStatus`... determines whether the command should be visible and enabled. It is called whenever the user right-clicks the diagram, and should execute quickly and make no changes. `ProcessOnMenu`... is called when the user clicks the command, and should perform the function of the command. You might want to override either one or both of these methods.  
   
 ### To change when the command appears on a menu  
@@ -84,7 +84,7 @@ You can modify the behavior of some of the standard commands that are defined au
  The following example disables the Delete menu item when the user has selected more than one shape.  
   
 > [!NOTE]
->  This method does not affect whether the command is available through a keystroke. For example, disabling the Delete menu item does not prevent the command from being invoked through the Delete key.  
+> This method does not affect whether the command is available through a keystroke. For example, disabling the Delete menu item does not prevent the command from being invoked through the Delete key.  
   
 ```  
 /// <summary>  

@@ -33,6 +33,10 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 1. Open the installer, choose **More**, and then choose **Repair**.
 
     ![Repair Visual Studio from the Visual Studio Installer](media/repair-visual-studio.png "Repair Visual Studio from the Visual Studio Installer")
+    
+   > [!NOTE]
+   > Repairing Visual Studio will reset the environment. Local customizations like per-user extensions installed without elevation, user settings, and profiles will be removed. Your synchronized settings such as themes, colors, key bindings will be restored.
+   >
 
    > [!TIP]
    > The **Repair** option appears only for installed instances of Visual Studio. If you do not see the **Repair** option, chances are that you've selected **More** in a version that's listed in the Visual Studio Installer as "Available" rather than "Installed".
@@ -58,11 +62,14 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
      ![Repair Visual Studio 2019](media/vs-2019/vs-installer-repair.png "Repair Visual Studio 2019")
 
+   > [!NOTE]
+   > Repairing Visual Studio will reset the environment. Local customizations like per-user extensions installed without elevation, user settings, and profiles will be removed. Your synchronized settings such as themes, colors, key bindings will be restored.
+   >
+
    > [!TIP]
    > The **Repair** option appears only for installed instances of Visual Studio. If you do not see the **Repair** option, chances are that you've selected **More** in a version that's listed in the Visual Studio Installer as "Available" rather than "Installed".
 
 ::: moniker-end
-
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

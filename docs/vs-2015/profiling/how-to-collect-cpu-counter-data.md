@@ -48,16 +48,16 @@ A CPU event counter is used to collect hardware-specific performance data. This 
   
 ### To collect CPU performance counter data when you profile by instrumentation  
   
-1.  On the performance session **Property Pages**, click **CPU Counters.**  
+1. On the performance session **Property Pages**, click **CPU Counters.**  
   
-2.  Select the **Collect CPU Counters** check box.  
+2. Select the **Collect CPU Counters** check box.  
   
-3.  Expand the **Available performance counters** tree until you find the sample events that you want to collect.  
+3. Expand the **Available performance counters** tree until you find the sample events that you want to collect.  
   
-4.  For each event that you want to collect, select the event and then click the right arrow to add the event to the **Selected Counters** list.  
+4. For each event that you want to collect, select the event and then click the right arrow to add the event to the **Selected Counters** list.  
   
     > [!NOTE]
-    >  **Available performance counters** is enabled only if you select the **Collect CPU counters** check box.  
+    > **Available performance counters** is enabled only if you select the **Collect CPU counters** check box.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

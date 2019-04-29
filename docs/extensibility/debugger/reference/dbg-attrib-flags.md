@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DBG_ATTRIB_FLAGS
 Describes various attributes for an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) or an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) interface. Member of the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure.
@@ -157,142 +160,142 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
 ```
 
 ## Members
- DBG_ATTRIB_NONE
+ `DBG_ATTRIB_NONE`\
  Indicates no attributes.
 
- DBG_ATTRIB_ALL
+ `DBG_ATTRIB_ALL`\
  Indicates all attributes.
 
- DBG_ATTRIB_OBJ_IS_EXPANDABLE
+ `DBG_ATTRIB_OBJ_IS_EXPANDABLE`\
  Indicates that the reference or property has children.
 
- DBG_ATTRIB_OBJ_HAS_ID
+ `DBG_ATTRIB_OBJ_HAS_ID`\
  Indicates that an ID for this object has been created.
 
- DBG_ATTRIB_OBJ_CAN_HAVE_ID
+ `DBG_ATTRIB_OBJ_CAN_HAVE_ID`\
  Indicates that an ID for this object can be created.
 
- DBG_ATTRIB_VALUE_READONLY
+ `DBG_ATTRIB_VALUE_READONLY`\
  Indicates that the value is read-only.
 
- DBG_ATTRIB_VALUE_ERROR
+ `DBG_ATTRIB_VALUE_ERROR`\
  Indicates that the value is an error.
 
- DBG_ATTRIB_VALUE_SIDE_EFFECT
+ `DBG_ATTRIB_VALUE_SIDE_EFFECT`\
  Indicates that the evaluation had a side effect.
 
- DBG_ATTRIB_OVERLOADED_CONTAINER
+ `DBG_ATTRIB_OVERLOADED_CONTAINER`\
  Indicates that this property is really a container of overloads.
 
- DBG_ATTRIB_VALUE_BOOLEAN
+ `DBG_ATTRIB_VALUE_BOOLEAN`\
  Indicates that the value in `DEBUG_PROPERTY_INFO::bstrValue` is Boolean.
 
- DBG_ATTRIB_VALUE_BOOLEAN_TRUE
+ `DBG_ATTRIB_VALUE_BOOLEAN_TRUE`\
  Indicates that the value in `DEBUG_PROPERTY_INFO::bstrValue` is Boolean and `TRUE`.
 
- DBG_ATTRIB_VALUE_INVALID
+ `DBG_ATTRIB_VALUE_INVALID`\
  Indicates that the value in `DEBUG_PROPERTY_INFO::bstrValue` is not valid.
 
- DBG_ATTRIB_VALUE_NAT
+ `DBG_ATTRIB_VALUE_NAT`\
  Indicates that the value in `DEBUG_PROPERTY_INFO::bstrValue` is "*not a thing*" (NAT). NAT describes a register flag in Intel 64-bit processors that indicates deferred speculative exceptions.
 
- DBG_ATTRIB_VALUE_AUTOEXPANDED
+ `DBG_ATTRIB_VALUE_AUTOEXPANDED`\
  Indicates that the value in `DEBUG_PROPERTY_INFO::bstrValue` has possibly been auto-expanded.
 
- DBG_ATTRIB_VALUE_TIMEOUT
+ `DBG_ATTRIB_VALUE_TIMEOUT`\
  Indicates that an evaluation has timed-out.
 
- DBG_ATTRIB_VALUE_RAW_STRING
+ `DBG_ATTRIB_VALUE_RAW_STRING`\
  Indicates that the value in `DEBUG_PROPERTY_INFO::bstrValue` can be represented by a raw string.
 
- DBG_ATTRIB_VALUE_CUSTOM_VIEWER
+ `DBG_ATTRIB_VALUE_CUSTOM_VIEWER`\
  Indicates that this property has at least one custom viewer associated with it.
 
- DBG_ATTRIB_ACCESS_NONE
+ `DBG_ATTRIB_ACCESS_NONE`\
  Indicates an object that has neither `public`, `private`, nor `protected` type access.
 
- DBG_ATTRIB_ACCESS_PUBLIC
+ `DBG_ATTRIB_ACCESS_PUBLIC`\
  Indicates an object that has public access.
 
- DBG_ATTRIB_ACCESS_PRIVATE
+ `DBG_ATTRIB_ACCESS_PRIVATE`\
  Indicates an object that has private access.
 
- DBG_ATTRIB_ACCESS_PROTECTED
+ `DBG_ATTRIB_ACCESS_PROTECTED`\
  Indicates an object that has protected access.
 
- DBG_ATTRIB_ACCESS_FINAL
+ `DBG_ATTRIB_ACCESS_FINAL`\
  Indicates an object that has final access.
 
- DBG_ATTRIB_ACCESS_ALL
+ `DBG_ATTRIB_ACCESS_ALL`\
  Mask to extract the access attributes from `DBG_ATTRIB_FLAGS`.
 
- DBG_ATTRIB_STORAGE_NONE
+ `DBG_ATTRIB_STORAGE_NONE`\
  Indicates that there is no storage type specified.
 
- DBG_ATTRIB_STORAGE_GLOBAL
+ `DBG_ATTRIB_STORAGE_GLOBAL`\
  Indicates global storage.
 
- DBG_ATTRIB_STORAGE_STATIC
+ `DBG_ATTRIB_STORAGE_STATIC`\
  Indicates static storage.
 
- DBG_ATTRIB_STORAGE_REGISTER
+ `DBG_ATTRIB_STORAGE_REGISTER`\
  Indicates storage in the register.
 
- DBG_ATTRIB_STORAGE_ALL
+ `DBG_ATTRIB_STORAGE_ALL`\
  Mask to extract the storage attributes from `DBG_ATTRIB_FLAGS`.
 
- DBG_ATTRIB_TYPE_NONE
+ `DBG_ATTRIB_TYPE_NONE`\
  Indicates that there is no type modifier.
 
- DBG_ATTRIB_TYPE_VIRTUAL
+ `DBG_ATTRIB_TYPE_VIRTUAL`\
  Indicates that the type of object is virtual.
 
- DBG_ATTRIB_TYPE_CONSTANT
+ `DBG_ATTRIB_TYPE_CONSTANT`\
  Indicates that the type of object is constant.
 
- DBG_ATTRIB_TYPE_SYNCHRONIZED
+ `DBG_ATTRIB_TYPE_SYNCHRONIZED`\
  Indicates that the type of object is synchronized.
 
- DBG_ATTRIB_TYPE_VOLATILE
+ `DBG_ATTRIB_TYPE_VOLATILE`\
  Indicates that the type of object is volatile.
 
- DBG_ATTRIB_TYPE_ALL
+ `DBG_ATTRIB_TYPE_ALL`\
  Mask to extract the type attributes from `DBG_ATTRIB_FLAGS`.
 
- DBG_ATTRIB_DATA
+ `DBG_ATTRIB_DATA`\
  Indicates that this object is a data field.
 
- DBG_ATTRIB_METHOD
+ `DBG_ATTRIB_METHOD`\
  Indicates that this object is a method.
 
- DBG_ATTRIB_PROPERTY
+ `DBG_ATTRIB_PROPERTY`\
  Indicates that this object is a property.
 
- DBG_ATTRIB_CLASS
+ `DBG_ATTRIB_CLASS`\
  Indicates that this object is a class.
 
- DBG_ATTRIB_BASECLASS
+ `DBG_ATTRIB_BASECLASS`\
  Indicates that this object is a base class.
 
- DBG_ATTRIB_INTERFACE
+ `DBG_ATTRIB_INTERFACE`\
  Indicates that this object is an interface.
 
- DBG_ATTRIB_INNERCLASS
+ `DBG_ATTRIB_INNERCLASS`\
  Indicates that this object is an inner class.
 
- DBG_ATTRIB_MOSTDERIVED
+ `DBG_ATTRIB_MOSTDERIVED`\
  Indicates that this object is '*most-derived*'. The term "*most-derived*" means the actual type of the object, and not the type of its reference.
 
- DBG_ATTRIB_CHILD_ALL
+ `DBG_ATTRIB_CHILD_ALL`\
  Indicates a mask of `DBG_ATTRIB_DATA` through `DBG_ATTRIB_MOSTDERIVED`.
 
- DBG_ATTRIB_MULTI_CUSTOM_VIEWERS
+ `DBG_ATTRIB_MULTI_CUSTOM_VIEWERS`\
  Indicates that the object has multiple custom viewers associated with it.
 
 ## Remarks
 
 > [!NOTE]
->  The values in this enumeration are not actually defined in the assembly for C#. Instead, you must copy the definitions to your source file.
+> The values in this enumeration are not actually defined in the assembly for C#. Instead, you must copy the definitions to your source file.
 
  These flags are also used to filter children of an object, for example, when passed as an argument to [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md). The values may be combined with a bitwise `OR`.
 
@@ -305,7 +308,7 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

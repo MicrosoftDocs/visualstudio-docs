@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentPosition2::IsPositionInDocument
 Determines if the document position is contained in the given document.
@@ -30,8 +33,8 @@ int IsPositionInDocument( 
 );
 ```
 
-#### Parameters
- `pDoc`
+## Parameters
+ `pDoc`\
 
  [in] The [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the containing document candidate.
 
@@ -41,6 +44,6 @@ int IsPositionInDocument( 
 ## Remarks
  This method is used primarily in setting breakpoints in [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) interfaces. As documents are loaded, the breakpoint position is called to determine if the document contains this position.
 
-## See Also
+## See also
 - [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

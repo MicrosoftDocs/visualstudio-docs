@@ -30,7 +30,7 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
 1. Once signed in, you will be able to see your **Problems** and **Activity** on the **Items I follow** screen
 
-	![Items I Follow](../ide/media/items-i-follow.png)
+   ![Items I Follow](../ide/media/items-i-follow.png)
 
 1. Visual Studio provides an interface to search for your problem and see if others have reported it. If someone has reported it, "up-vote" it to let us know.
    > [!NOTE]
@@ -117,7 +117,7 @@ If you don't have a problem to report but want to suggest a feature, there's a p
 
 ## See also
 
-* [Talk to us](../ide/talk-to-us.md)
+* [Visual Studio feedback options](../ide/feedback-options.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)

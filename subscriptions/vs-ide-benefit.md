@@ -1,18 +1,17 @@
 ---
 title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 04/03/2019
 ms.topic: conceptual
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 searchscope: VS Subscription
 ---
 
-# Using the Visual Studio 2017 benefit
+# Using the Visual Studio 2019 benefit
 
 As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.
-
 
 ## Activation steps
 
@@ -24,7 +23,7 @@ To download the IDE:
    > [!div class="mx-imgBorder"]
    > ![Visual Studio Enterprise tile](_img/vs-ide-experience/vs-ide-tile.png)
 
-3. Click on the You’ll be redirected to the Download Results page for Visual Studio Enterprise, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
+3. You’ll be redirected to the Download Results page for Visual Studio, where you’ll have the opportunity to download the IDE and obtain a product key to activate it. You may also claim a product key by clicking on the blue **Get Key** link, or claim a key later on the [Product keys](https://my.visualstudio.com/productkeys) page.
 4. On the Details tab of the Download Results page:
    - Select your desired architecture (x86, x64)
    - Select your language preference.
@@ -51,8 +50,10 @@ To download the IDE:
 14. Visual Studio opens. You're ready to start using Visual Studio!
 
     ::: moniker range="vs-2017"
+
     > [!div class="mx-imgBorder"]
     > ![Start Using Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-start-cropped.png)
+
     ::: moniker-end
 
 ## Eligibility
@@ -70,12 +71,10 @@ To download the IDE:
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
-
 ## Support resources
--  Need help with Visual Studio IDE, check out these resources:
+- Need help with Visual Studio IDE, check out these resources:
     - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
     - [Documentation](/visualstudio/)
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).

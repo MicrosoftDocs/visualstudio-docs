@@ -10,23 +10,22 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Customizing Presentation on the Diagram
-The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following topics.
+# Customize presentation on the diagram
 
--   [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
+The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following articles:
 
--   [Controlling Color, Line Style, and other Shape Properties](../modeling/controlling-color-line-style-and-other-shape-properties.md)
+- [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 
--   [Controlling the Visibility of an Icon or Decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md)
+- [Controlling Color, Line Style, and other Shape Properties](../modeling/controlling-color-line-style-and-other-shape-properties.md)
 
--   [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md)
+- [Controlling the Visibility of an Icon or Decorator](../modeling/controlling-the-visibility-of-an-icon-or-decorator.md)
 
--   [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)
+- [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md)
 
--   [Nesting Shapes](../modeling/nesting-shapes.md)
+- [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)
 
--   [Embedding a Diagram in a Windows Form](../modeling/embedding-a-diagram-in-a-windows-form.md)
+- [Embedding a Diagram in a Windows Form](../modeling/embedding-a-diagram-in-a-windows-form.md)
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)

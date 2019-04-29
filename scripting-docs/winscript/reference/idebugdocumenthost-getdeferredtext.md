@@ -61,7 +61,7 @@ HRESULT GetDeferredText(
  This method may return `E_NOTIMPL`, if the host does not call `IDebugDocumentHelper::AddDeferredText`.  
   
 > [!NOTE]
->  This method returns the text from the original document. The host does not keep track of edits or other changes to the document.  
+> This method returns the text from the original document. The host does not keep track of edits or other changes to the document.  
   
 ## See Also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)   

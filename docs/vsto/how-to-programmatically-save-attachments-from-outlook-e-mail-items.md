@@ -21,7 +21,7 @@ ms.workload:
   This example saves e-mail attachments to a specified folder when the mail is received in the inbox.
 
 > [!IMPORTANT]
->  This example works only if you add a folder named **TestFileSave** at the root of the C directory.
+> This example works only if you add a folder named **TestFileSave** at the root of the C directory.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::GetMemoryContext
 Gets the memory context that represents the address of the value of the object.
@@ -30,8 +33,8 @@ int GetMemoryContext(
 );
 ```
 
-#### Parameters
- `pContext`
+## Parameters
+ `pContext`\
 
  [out] Returns an [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object representing the address of the value of the object.
 
@@ -41,5 +44,5 @@ int GetMemoryContext(
 ## Remarks
  The returned memory context specifies the address of the value as represented by this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object.
 
-## See Also
+## See also
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

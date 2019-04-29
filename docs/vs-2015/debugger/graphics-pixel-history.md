@@ -32,7 +32,7 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
  You can expand each primitive to examine how the pixel shader output was merged with the existing pixel color to produce the result color. From here you can also examine or debug the pixel shader code that's associated with the primitive, and you can further expand the vertex shader node to examine the vertex shader input.  
   
-###  <a name="exclusion"></a> Primitive exclusion  
+### <a name="exclusion"></a> Primitive exclusion  
  If a primitive is excluded from affecting the pixel color, the exclusion could occur for a variety of reasons. Each reason is represented by an icon that's described in this table:  
   
 |Icon|Reason for exclusion|  
@@ -49,22 +49,22 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
   
 ##### To view a shader's source code  
   
-1.  In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.  
+1. In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.  
   
-2.  Under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.  
+2. Under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.  
   
-3.  Under the primitive you're interested in, follow the shader title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.  
+3. Under the primitive you're interested in, follow the shader title link—for example, follow the link **Vertex Shader obj:30** to view the vertex shader source code.  
   
     > [!TIP]
-    >  The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pipeline stages window.  
+    > The object number, **obj:30**, identifies this shader throughout the Graphics Analyzer interface such as in the object table and pipeline stages window.  
   
 ##### To debug a shader  
   
-1.  In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.  
+1. In the **Graphics Pixel History** window, locate the draw call that corresponds to the shader you want to examine and expand it.  
   
-2.  Then, under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.  
+2. Then, under the draw call you just expanded, select a primitive that demonstrates the problem you're interested in and expand it.  
   
-3.  Under the primitive you're interested in, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding primitive—that is, the first pixel or vertex that's processed by the shader. There's only one pixel associated with the primitive, but there's more than one vertex shader invocations for lines and triangles.  
+3. Under the primitive you're interested in, choose **Start Debugging**. This entry point into the HLSL debugger defaults to the first invocation of the shader for the corresponding primitive—that is, the first pixel or vertex that's processed by the shader. There's only one pixel associated with the primitive, but there's more than one vertex shader invocations for lines and triangles.  
   
      To debug the vertex shader invocation for a specific vertex, expand the VertexShader title link and locate the vertex you're interested in, then choose **Start Debugging** next to it.  
   

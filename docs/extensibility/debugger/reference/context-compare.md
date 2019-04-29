@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # CONTEXT_COMPARE
 Specifies the criteria for comparing two memory contexts.
@@ -47,32 +50,32 @@ public enum enum_CONTEXT_COMPARE {
 };
 ```
 
-## Members
-CONTEXT_EQUAL
+## Fields
+`CONTEXT_EQUAL`\
 Find the first memory context in the list that is equal to the target memory context.
 
-CONTEXT_LESS_THAN
+`CONTEXT_LESS_THAN`\
 Find the first memory context in the list that is less than the target memory context.
 
-CONTEXT_GREATER_THAN
+`CONTEXT_GREATER_THAN`\
 Find the first memory context in the list that is greater than the target memory context.
 
-CONTEXT_LESS_THAN_OR_EQUAL
+`CONTEXT_LESS_THAN_OR_EQUAL`\
 Find the first memory context in the list that is less than or equal to the target memory context.
 
-CONTEXT_GREATER_THAN_OR_EQUAL
+`CONTEXT_GREATER_THAN_OR_EQUAL`\
 Find the first memory context in the list that is greater than or equal to the target memory context.
 
-CONTEXT_SAME_SCOPE
+`CONTEXT_SAME_SCOPE`\
 Find the first memory context in the list that is in the same scope as the target memory context.
 
-CONTEXT_SAME_FUNCTION
+`CONTEXT_SAME_FUNCTION`\
 Find the first memory context in the list that is in the same function as the target memory scope.
 
-CONTEXT_SAME_MODULE
+`CONTEXT_SAME_MODULE`\
 Find the first memory context in the list that is in the same module as the target memory context.
 
-CONTEXT_SAME_PROCESS
+`CONTEXT_SAME_PROCESS`\
 Find the first memory context in the list that is in the same process as the target memory context.
 
 ## Remarks
@@ -87,6 +90,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Compare](../../../extensibility/debugger/reference/idebugmemorycontext2-compare.md)

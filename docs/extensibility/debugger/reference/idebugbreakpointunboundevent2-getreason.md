@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetReason
 Gets the reason the breakpoint was unbound.
@@ -30,8 +33,8 @@ int GetReason(
 );
 ```
 
-#### Parameters
-`pdwUnboundReason`
+## Parameters
+`pdwUnboundReason`\
 
  [out] Returns a value from the [BP_UNBOUND_REASON](../../../extensibility/debugger/reference/bp-unbound-reason.md) enumeration specifying the reason the breakpoint was unbound.
 
@@ -63,5 +66,5 @@ STDMETHODIMP CBreakpointUnboundDebugEventBase::GetReason(
 }
 ```
 
-## See Also
+## See also
 - [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)

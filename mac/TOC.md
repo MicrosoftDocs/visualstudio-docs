@@ -14,7 +14,6 @@
 # [Customizing the IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
 
-
 # [Projects and Solutions](projects-and-solutions.md)
 ## [Creating new Projects](create-new-projects.md)
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
@@ -78,3 +77,4 @@
 ## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
+## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)

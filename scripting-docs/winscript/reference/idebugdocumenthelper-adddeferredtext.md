@@ -51,7 +51,7 @@ HRESULT AddDeferredText(
  It is assumed that a single call to `IDebugDocumentText::GetText` can get characters from multiple calls to `AddDeferredText`. Helper classes may also ask for the same range of deferred characters more than once.  
   
 > [!NOTE]
->  Calls to `AddDeferredText` should not be mixed with calls to `AddUnicodeText` or `AddDBCSText`. If this occurs, `E_FAIL` is returned.  
+> Calls to `AddDeferredText` should not be mixed with calls to `AddUnicodeText` or `AddDBCSText`. If this occurs, `E_FAIL` is returned.  
   
 ## See Also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   

@@ -22,13 +22,13 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  `Method`
  Must be one of the following keywords:
 
--   **TRACE** - Specifies the instrumentation method.
+- **TRACE** - Specifies the instrumentation method.
 
--   **SAMPLE** - Specifies the sampling method.
+- **SAMPLE** - Specifies the sampling method.
 
--   **COVERAGE** - Specifies code coverage.
+- **COVERAGE** - Specifies code coverage.
 
--   **CONCURRENCY** - Specifies the resource contention method.
+- **CONCURRENCY** - Specifies the resource contention method.
 
 ## Required options
  The **Output** option must be specified when **Start** is specified on the command line.

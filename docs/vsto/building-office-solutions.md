@@ -31,7 +31,7 @@ ms.workload:
   In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md).
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
 ## Project output for Office projects
  The output location for Office projects is *projectname*\bin\release or *projectname*\bin\debug. You cannot build to a deployment directory.
@@ -39,18 +39,18 @@ ms.workload:
 ### Document-level projects
  When you build a document-level project, the following items are included in the project output:
 
--   A copy of the project document.
+- A copy of the project document.
 
--   The project assembly and all referenced assemblies that have their **Copy Local** property set to **true**.
+- The project assembly and all referenced assemblies that have their **Copy Local** property set to **true**.
 
--   The application manifest, which has the file name extension *.manifest*. For more information, see [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+- The application manifest, which has the file name extension *.manifest*. For more information, see [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
--   The deployment manifest, which has the file name extension *.vsto*. For more information, see [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).
+- The deployment manifest, which has the file name extension *.vsto*. For more information, see [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md).
 
--   A program database (*PDB*) file.
+- A program database (*PDB*) file.
 
 > [!NOTE]
->  If you build a document-level solution to a remote location instead of the local computer, add the fully qualified path to the Trusted Locations list in the application's Trust Center. For more information, see the section called Granting Trust to Documents in [Secure Office solutions](../vsto/securing-office-solutions.md).
+> If you build a document-level solution to a remote location instead of the local computer, add the fully qualified path to the Trusted Locations list in the application's Trust Center. For more information, see the section called Granting Trust to Documents in [Secure Office solutions](../vsto/securing-office-solutions.md).
 
 ### Application-level projects
  When you build a VSTO Add-in project, the following items are included in the project output:

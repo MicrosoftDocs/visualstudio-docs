@@ -17,15 +17,15 @@ This document demonstrates how to use the Image Editor to create a basic texture
   
  This document demonstrates these activities:  
   
--   Setting the size of the texture  
+- Setting the size of the texture  
   
--   Setting the foreground and background colors  
+- Setting the foreground and background colors  
   
--   Using the alpha channel (transparency)  
+- Using the alpha channel (transparency)  
   
--   Using the **Fill** and **Ellipse** tools  
+- Using the **Fill** and **Ellipse** tools  
   
--   Setting tool properties  
+- Setting tool properties  
   
 ## Creating a basic texture  
  You can use the Image Editor to create and modify images and textures for your game or app.  
@@ -49,7 +49,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 5. On the Image Editor toolbar, choose the **Fill** tool, and then press and hold the Shift key and choose any point in the image. Using the Shift key causes the alpha value of the fill color to replace the color in the image; otherwise, the alpha value is used to blend the fill color together with the color in the image.  
   
    > [!IMPORTANT]
-   >  This step, together with the color selection in the previous step, ensures that the base image is prepared for the "bullseye" target texture that you will draw. When the image is filled with transparent black—and because the border of the target is black—there will be no aliasing artifacts around the target.  
+   > This step, together with the color selection in the previous step, ensures that the base image is prepared for the "bullseye" target texture that you will draw. When the image is filled with transparent black—and because the border of the target is black—there will be no aliasing artifacts around the target.  
   
 6. On the Image Editor toolbar, choose the **Ellipse** tool.  
   
@@ -64,7 +64,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 11. Using the **Ellipse** tool, draw a circle from pixel coordinate `(3, 3)` to pixel coordinate `(508, 508)`. To draw the circle more easily, you can press and hold the Shift key while you draw.  
   
     > [!NOTE]
-    >  The pixel coordinates of the current pointer location are displayed on the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] status bar.  
+    > The pixel coordinates of the current pointer location are displayed on the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] status bar.  
   
 12. Change the background color. Set **R** to `44`, **G** to `165`, **B** to `211`, and **A** to `255`.  
   

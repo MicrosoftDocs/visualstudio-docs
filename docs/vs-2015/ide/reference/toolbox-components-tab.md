@@ -15,7 +15,6 @@ manager: jillfra
 # Toolbox, Components Tab
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays components you can add to [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] and [!INCLUDE[csprcs](../../includes/csprcs-md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] components that are included with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db).  
   
  To display this tab, from the **View** menu, select **Toolbox**. In the **Toolbox**, select the **Components** tab.  
@@ -63,7 +62,7 @@ Displays components you can add to [!INCLUDE[vbprvb](../../includes/vbprvb-md.md
  Creates a <xref:System.Windows.Forms.Timer> component instance you can use to add time-based functionality to your Windows-based applications. For more information, see [Timer Component](http://msdn.microsoft.com/library/6700e534-6382-43d5-98ed-14205435fff7).  
   
 > [!NOTE]
->  There is also a system-based <xref:System.Timers.Timer> that you can add to the **Toolbox** This <xref:System.Timers.Timer> is optimized for server applications, and the Windows Forms <xref:System.Windows.Forms.Timer> is best suited for use on Windows Forms.  
+> There is also a system-based <xref:System.Timers.Timer> that you can add to the **Toolbox** This <xref:System.Timers.Timer> is optimized for server applications, and the Windows Forms <xref:System.Windows.Forms.Timer> is best suited for use on Windows Forms.  
   
 ## See Also  
  [Programming with Components](http://msdn.microsoft.com/library/d4d4fcb4-e0b8-46b3-b679-7ee0026eb9e3)   

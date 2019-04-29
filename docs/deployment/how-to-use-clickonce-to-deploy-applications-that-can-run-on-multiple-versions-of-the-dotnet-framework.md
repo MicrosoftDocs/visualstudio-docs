@@ -21,31 +21,31 @@ ms.workload:
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.
 
 > [!NOTE]
->  Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
+> Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
 
  This process requires the following steps:
 
-1.  Generate the application and deployment manifests.
+1. Generate the application and deployment manifests.
 
-2.  Change the deployment manifest to list the multiple .NET Framework versions.
+2. Change the deployment manifest to list the multiple .NET Framework versions.
 
-3.  Change the *app.config* file to list the compatible .NET Framework runtime versions.
+3. Change the *app.config* file to list the compatible .NET Framework runtime versions.
 
-4.  Change the application manifest to mark dependent assemblies as .NET Framework assemblies.
+4. Change the application manifest to mark dependent assemblies as .NET Framework assemblies.
 
-5.  Sign the application manifest.
+5. Sign the application manifest.
 
-6.  Update and sign the deployment manifest.
+6. Update and sign the deployment manifest.
 
 ### To generate the application and deployment manifests
 
--   Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
+- Use the Publish Wizard or the Publish Page of the Project Designer to publish the application and generate the application and deployment manifest files. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) or [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md).
 
 ### To change the deployment manifest to list the multiple .NET Framework versions
 
-1.  In the publish directory, open the deployment manifest by using the XML Editor in Visual Studio. The deployment manifest has the *.application* file name extension.
+1. In the publish directory, open the deployment manifest by using the XML Editor in Visual Studio. The deployment manifest has the *.application* file name extension.
 
-2.  Replace the XML code between the `<compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">` and `</compatibleFrameworks>` elements with XML that lists the supported .NET Framework versions for your application.
+2. Replace the XML code between the `<compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">` and `</compatibleFrameworks>` elements with XML that lists the supported .NET Framework versions for your application.
 
      The following table shows some of the available .NET Framework versions and the corresponding XML that you can add to the deployment manifest.
 
@@ -59,9 +59,9 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 ### To change the app.config file to list the compatible .NET Framework runtime versions
 
-1.  In Solution Explorer, open the *app.config* file by using the XML Editor in Visual Studio.
+1. In Solution Explorer, open the *app.config* file by using the XML Editor in Visual Studio.
 
-2.  Replace (or add) the XML code between the `<startup>` and `</startup>` elements with XML that lists the supported .NET Framework runtimes for your application.
+2. Replace (or add) the XML code between the `<startup>` and `</startup>` elements with XML that lists the supported .NET Framework runtimes for your application.
 
      The following table shows some of the available .NET Framework versions and the corresponding XML that you can add to the deployment manifest.
 
@@ -94,7 +94,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
 
 ### To update and re-sign the application and deployment manifests
 
--   Update and re-sign the application and deployment manifests. For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
+- Update and re-sign the application and deployment manifests. For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
 
 ## See also
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

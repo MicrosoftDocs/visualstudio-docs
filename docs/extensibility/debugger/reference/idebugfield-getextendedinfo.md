@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetExtendedInfo
 This method gets extended information about a field.
@@ -34,8 +37,8 @@ int GetExtendedInfo(
 );
 ```
 
-#### Parameters
- `guidExtendedInfo`
+## Parameters
+ `guidExtendedInfo`\
 
  [in] Selects the information to be returned. Valid values are:
 
@@ -44,11 +47,11 @@ int GetExtendedInfo(
 |`guidConstantValue`|The value as a sequence of bytes.|
 |`guidConstantType`|The type as a type signature.|
 
- `prgBuffer`
+ `prgBuffer`\
 
  [out] Returns the extended information.
 
- `pdwLen`
+ `pdwLen`\
 
  [in, out] Returns the size of the extended information, in bytes.
 
@@ -58,5 +61,5 @@ int GetExtendedInfo(
 ## Remarks
  Currently, this method returns only the type or value of a constant. The caller must free the buffer returned in `prgBuffer` by calling COM's `CoTaskMemFree` function (C++) or <xref:System.Runtime.InteropServices.Marshal.FreeCoTaskMem%2A> (C#).
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

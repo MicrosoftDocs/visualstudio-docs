@@ -103,33 +103,33 @@ You can create code snippets and include them in an editor extension so that use
 
 ### To register code snippets for a specific GUID
 
-1.  Open the **CompletionTest** project. For information about how to create this project, see [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md).
+1. Open the **CompletionTest** project. For information about how to create this project, see [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md).
 
-2.  In the project, add references to the following assemblies:
+2. In the project, add references to the following assemblies:
 
-    -   Microsoft.VisualStudio.TextManager.Interop
+    - Microsoft.VisualStudio.TextManager.Interop
 
-    -   Microsoft.VisualStudio.TextManager.Interop.8.0
+    - Microsoft.VisualStudio.TextManager.Interop.8.0
 
-    -   microsoft.msxml
+    - microsoft.msxml
 
-3.  In the project, open the **source.extension.vsixmanifest** file.
+3. In the project, open the **source.extension.vsixmanifest** file.
 
-4.  Make sure that the **Assets** tab contains a **VsPackage** content type and that **Project** is set to the name of the project.
+4. Make sure that the **Assets** tab contains a **VsPackage** content type and that **Project** is set to the name of the project.
 
-5.  Select the CompletionTest project and in the Properties window set **Generate Pkgdef File** to **true**. Save the project.
+5. Select the CompletionTest project and in the Properties window set **Generate Pkgdef File** to **true**. Save the project.
 
-6.  Add a static `SnippetUtilities` class to the project.
+6. Add a static `SnippetUtilities` class to the project.
 
      [!code-csharp[VSSDKCompletionTest#22](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_1.cs)]
      [!code-vb[VSSDKCompletionTest#22](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_1.vb)]
 
-7.  In the SnippetUtilities class, define a GUID and give it the value that you used in the *SnippetsIndex.xml* file.
+7. In the SnippetUtilities class, define a GUID and give it the value that you used in the *SnippetsIndex.xml* file.
 
      [!code-csharp[VSSDKCompletionTest#23](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_2.cs)]
      [!code-vb[VSSDKCompletionTest#23](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_2.vb)]
 
-8.  Add the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute> to the `TestCompletionHandler` class. This attribute can be added to any public or internal (non-static) class in the project. (You may have to add a `using` statement for the Microsoft.VisualStudio.Shell namespace.)
+8. Add the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute> to the `TestCompletionHandler` class. This attribute can be added to any public or internal (non-static) class in the project. (You may have to add a `using` statement for the Microsoft.VisualStudio.Shell namespace.)
 
      [!code-csharp[VSSDKCompletionTest#24](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_3.cs)]
      [!code-vb[VSSDKCompletionTest#24](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_3.vb)]
@@ -141,14 +141,14 @@ You can create code snippets and include them in an editor extension so that use
 
 #### To add the Insert Snippet command to the shortcut menu
 
-1.  Open the `TestCompletionCommandHandler` class file.
+1. Open the `TestCompletionCommandHandler` class file.
 
      Because this class implements <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>, you can activate the **Insert Snippet** command in the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method. Before you enable the command, check that this method is not being called inside an automation function because when the **Insert Snippet** command is clicked, it displays the snippet picker user interface (UI).
 
      [!code-csharp[VSSDKCompletionTest#25](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_4.cs)]
      [!code-vb[VSSDKCompletionTest#25](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_4.vb)]
 
-2.  Build and run the project. In the experimental instance, open a file that has the *.zzz* file name extension and then right-click anywhere in it. The **Insert Snippet** command should appear on the shortcut menu.
+2. Build and run the project. In the experimental instance, open a file that has the *.zzz* file name extension and then right-click anywhere in it. The **Insert Snippet** command should appear on the shortcut menu.
 
 ## Implement snippet expansion in the Snippet Picker UI
  This section shows how to implement code snippet expansion so that the snippet picker UI is displayed when **Insert Snippet** is clicked on the shortcut menu. A code snippet is also expanded when a user types the code-snippet shortcut and then presses **Tab**.
@@ -159,42 +159,42 @@ You can create code snippets and include them in an editor extension so that use
 
 #### To implement snippet expansion
 
-1.  To the file that contains the `TestCompletionCommandHandler` class, add the following `using` statements.
+1. To the file that contains the `TestCompletionCommandHandler` class, add the following `using` statements.
 
      [!code-csharp[VSSDKCompletionTest#26](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_5.cs)]
      [!code-vb[VSSDKCompletionTest#26](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_5.vb)]
 
-2.  Make the `TestCompletionCommandHandler` class implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionClient> interface.
+2. Make the `TestCompletionCommandHandler` class implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionClient> interface.
 
      [!code-csharp[VSSDKCompletionTest#27](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_6.cs)]
      [!code-vb[VSSDKCompletionTest#27](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_6.vb)]
 
-3.  In the `TestCompletionCommandHandlerProvider` class, import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>.
+3. In the `TestCompletionCommandHandlerProvider` class, import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>.
 
      [!code-csharp[VSSDKCompletionTest#28](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_7.cs)]
      [!code-vb[VSSDKCompletionTest#28](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_7.vb)]
 
-4.  Add some private fields for the code expansion interfaces and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.
+4. Add some private fields for the code expansion interfaces and the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.
 
      [!code-csharp[VSSDKCompletionTest#29](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_8.cs)]
      [!code-vb[VSSDKCompletionTest#29](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_8.vb)]
 
-5.  In the constructor of the `TestCompletionCommandHandler` class, set the following fields.
+5. In the constructor of the `TestCompletionCommandHandler` class, set the following fields.
 
      [!code-csharp[VSSDKCompletionTest#30](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_9.cs)]
      [!code-vb[VSSDKCompletionTest#30](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_9.vb)]
 
-6.  To display the snippet picker when the user clicks the **Insert Snippet** command, add the following code to the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method. (To make this explanation more readable, the `Exec()`code that's used for statement completion is not shown; instead, blocks of code are added to the existing method.) Add the following block of code after the code that checks for a character.
+6. To display the snippet picker when the user clicks the **Insert Snippet** command, add the following code to the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method. (To make this explanation more readable, the `Exec()`code that's used for statement completion is not shown; instead, blocks of code are added to the existing method.) Add the following block of code after the code that checks for a character.
 
      [!code-csharp[VSSDKCompletionTest#31](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_10.cs)]
      [!code-vb[VSSDKCompletionTest#31](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_10.vb)]
 
-7.  If a snippet has fields that can be navigated, the expansion session is kept open until the expansion is explicitly accepted; if the snippet has no fields, the session is closed and is returned as `null` by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionManager.InvokeInsertionUI%2A> method. In the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method, after the snippet picker UI code that you added in the previous step, add the following code to handle snippet navigation (when the user presses **Tab** or **Shift**+**Tab** after snippet insertion).
+7. If a snippet has fields that can be navigated, the expansion session is kept open until the expansion is explicitly accepted; if the snippet has no fields, the session is closed and is returned as `null` by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsExpansionManager.InvokeInsertionUI%2A> method. In the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method, after the snippet picker UI code that you added in the previous step, add the following code to handle snippet navigation (when the user presses **Tab** or **Shift**+**Tab** after snippet insertion).
 
      [!code-csharp[VSSDKCompletionTest#32](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_11.cs)]
      [!code-vb[VSSDKCompletionTest#32](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_11.vb)]
 
-8.  To insert the code snippet when the user types the corresponding shortcut and then presses **Tab**, add code to the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method. The private method that inserts the snippet will be shown in a later step. Add the following code after the navigation code that you added in the previous step.
+8. To insert the code snippet when the user types the corresponding shortcut and then presses **Tab**, add code to the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method. The private method that inserts the snippet will be shown in a later step. Add the following code after the navigation code that you added in the previous step.
 
      [!code-csharp[VSSDKCompletionTest#33](../extensibility/codesnippet/CSharp/walkthrough-implementing-code-snippets_12.cs)]
      [!code-vb[VSSDKCompletionTest#33](../extensibility/codesnippet/VisualBasic/walkthrough-implementing-code-snippets_12.vb)]
@@ -217,13 +217,13 @@ You can create code snippets and include them in an editor extension so that use
 ## Build and test code snippet expansion
  You can test whether snippet expansion works in your project.
 
-1.  Build the solution. When you run this project in the debugger, a second instance of Visual Studio is started.
+1. Build the solution. When you run this project in the debugger, a second instance of Visual Studio is started.
 
-2.  Open a text file and type some text.
+2. Open a text file and type some text.
 
-3.  Right-click somewhere in the text and then click **Insert Snippet**.
+3. Right-click somewhere in the text and then click **Insert Snippet**.
 
-4.  The snippet picker UI should appear with a pop-up that says **Test replacement fields**. Double-click the pop-up.
+4. The snippet picker UI should appear with a pop-up that says **Test replacement fields**. Double-click the pop-up.
 
      The following snippet should be inserted.
 
@@ -234,10 +234,10 @@ You can create code snippets and include them in an editor extension so that use
 
      Don't press **Enter** or **Esc**.
 
-5.  Press **Tab** and **Shift**+**Tab** to toggle between "first" and "second".
+5. Press **Tab** and **Shift**+**Tab** to toggle between "first" and "second".
 
-6.  Accept the insertion by pressing either **Enter** or **Esc**.
+6. Accept the insertion by pressing either **Enter** or **Esc**.
 
-7.  In a different part of the text, type "test" and then press **Tab**. Because "test" is the code-snippet shortcut, the snippet should be inserted again.
+7. In a different part of the text, type "test" and then press **Tab**. Because "test" is the code-snippet shortcut, the snippet should be inserted again.
 
 ## Next steps

@@ -15,21 +15,21 @@ The XML editor checks XML 1.0 syntax and also performs data validation as you ty
 
  Schemas used in validation are found by matching the `targetNamespace` of a compiled schema with the element's xmlns declaration. Compiled schemas are loaded from one of the following locations, listed in order of priority:
 
--   From the file name specified in the **Schemas** field of the document **Properties** window.
+- From the file name specified in the **Schemas** field of the document **Properties** window.
 
--   An inline schema or DTD.
+- An inline schema or DTD.
 
--   An external DTD or an `xsd:schemaLocation` and `xsd:noNamespaceSchemaLocation` attribute
+- An external DTD or an `xsd:schemaLocation` and `xsd:noNamespaceSchemaLocation` attribute
 
--   An "x-schema" XDR schema namespace URI.
+- An "x-schema" XDR schema namespace URI.
 
 Schemas can also be found in the following additional locations when the schema has a non-empty target namespace:
 
--   Another editor window that contains the schema.
+- Another editor window that contains the schema.
 
--   A schema in the current solution.
+- A schema in the current solution.
 
--   A schema from the schema cache directory.
+- A schema from the schema cache directory.
 
 ## XSLT files
  When editing an XSLT file, the *xslt.xsd* file located in the schema cache is used for validation. Validation errors are shown as blue wavy underlines. Errors from the XSLT compiler are shown as red wavy underlines.

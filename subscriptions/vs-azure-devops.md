@@ -40,8 +40,6 @@ Learn more about Azure DevOps features:
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
-
-
 ## Support resources
 
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/).

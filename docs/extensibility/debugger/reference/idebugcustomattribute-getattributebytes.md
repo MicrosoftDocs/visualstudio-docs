@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttribute::GetAttributeBytes
 Gets the attribute information as a blob of bytes.
@@ -32,12 +35,12 @@ int GetAttributeBytes(
 );
 ```
 
-#### Parameters
- `ppBlob`
+## Parameters
+ `ppBlob`\
 
  [in, out] An array that is filled in with the attribute bytes.
 
- `pdwLen`
+ `pdwLen`\
 
  [in, out] Specifies the maximum number of bytes to return in the `ppBlob` array and returns the number of bytes actually written to the array.
 
@@ -49,5 +52,5 @@ int GetAttributeBytes(
 
  The attribute bytes represent the raw data of the custom attribute.
 
-## See Also
+## See also
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

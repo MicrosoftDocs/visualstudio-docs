@@ -23,7 +23,7 @@ manager: jillfra
 **Rename** is a refactoring feature in the Visual Studio integrated development environment (IDE) that provides an easy way to rename identifiers for code symbols such as fields, local variables, methods, namespaces, properties, and types. **Rename** can be used to change the names in comments and in strings and to change the declarations and calls of an identifier.  
   
 > [!NOTE]
->  When using Source Control for Visual Studio, get the latest version of sources before you try to perform rename refactoring.  
+> When using Source Control for Visual Studio, get the latest version of sources before you try to perform rename refactoring.  
   
  Rename refactoring is available from the following Visual Studio features:  
   
@@ -49,7 +49,7 @@ manager: jillfra
   
 #### To rename an identifier  
   
-1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
+1. Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -70,23 +70,23 @@ manager: jillfra
     }  
     ```  
   
-2.  Place the cursor on `MethodB`, either in the method declaration or the method call.  
+2. Place the cursor on `MethodB`, either in the method declaration or the method call.  
   
-3.  From the **Refactor** menu, select **Rename**. The **Rename** dialog box appears.  
+3. From the **Refactor** menu, select **Rename**. The **Rename** dialog box appears.  
   
      You can also right-click the cursor, point to **Refactor** on the context menu, and then click **Rename** to display the **Rename** dialog box.  
   
-4.  In the **New Name** field, type `MethodC`.  
+4. In the **New Name** field, type `MethodC`.  
   
-5.  Select the **Search in Comments** check box.  
+5. Select the **Search in Comments** check box.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-7.  In the **Preview Changes** dialog box, click **Apply**.  
+7. In the **Preview Changes** dialog box, click **Apply**.  
   
 #### To rename an identifier using smart tags  
   
-1.  Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
+1. Create a console application named `RenameIdentifier`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -107,18 +107,18 @@ manager: jillfra
     }  
     ```  
   
-2.  In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
+2. In the declaration for `MethodB`, type or backspace over the method identifier. A smart tag prompt will appear below this identifier.  
   
     > [!NOTE]
-    >  You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
+    > You can only invoke rename refactoring using smart tags at the declaration of an identifier.  
   
-3.  Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
+3. Type the keyboard shortcut SHIFT+ALT+F10, and then press the DOWN ARROW to display the smart tag menu.  
   
      -or-  
   
      Move the mouse pointer over the smart tag prompt to display the smart tag. Then move the mouse pointer over the smart tag and click the DOWN ARROW to display the smart tag menu.  
   
-4.  Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
+4. Select the **Rename '\<identifer1>' to '\<identifier2>'** menu item to invoke rename refactoring without a preview of the changes to your code. All references to **\<identifer1>** will automatically be updated to **\<identifier2>**.  
   
      -or-  
   
@@ -138,7 +138,7 @@ manager: jillfra
  If **Rename overloads** is checked, the refactor engine renames `Derived.Method(int i)` because it overloads `Derived.Method()`, `Base.Method(int i)` because it is overridden by `Derived.Method(int i)`, and `Base.Method()` because it is an overload of `Base.Method(int i)`.  
   
 > [!NOTE]
->  When you rename a member that was defined in a referenced assembly, a dialog box explains that renaming will cause build errors.  
+> When you rename a member that was defined in a referenced assembly, a dialog box explains that renaming will cause build errors.  
   
 ## Renaming Properties of Anonymous Types  
  When you rename a property in anonymous types, the rename operation will propagate to properties in other anonymous types that have the same properties. The following examples illustrate this behavior.  

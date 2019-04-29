@@ -19,19 +19,19 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
   
  **In this topic:**  
   
--   [Draw a shape](#Shape)  
+- [Draw a shape](#Shape)  
   
--   [Draw a path](#Path)  
+- [Draw a path](#Path)  
   
--   [Convert a shape to a path](#Convert)  
+- [Convert a shape to a path](#Convert)  
   
--   [Combine paths](#Combine)  
+- [Combine paths](#Combine)  
   
--   [Create a compound path](#Compound)  
+- [Create a compound path](#Compound)  
   
--   [Create a clipping path](#Clipping)  
+- [Create a clipping path](#Clipping)  
   
-##  <a name="Shape"></a> Draw a shape  
+## <a name="Shape"></a> Draw a shape  
  You can find shapes in the **Assets** panel.  
   
  ![Shapes category on the Assets panel](../designers/media/b4-shapes-assetspanel.png "b4_Shapes_AssetsPanel")  
@@ -40,7 +40,7 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
   
  ![](../designers/media/84261e83-3091-4490-ab58-4218b188439e.png "84261e83-3091-4490-ab58-4218b188439e")  
   
-##  <a name="Path"></a> Draw a path  
+## <a name="Path"></a> Draw a path  
  A path is a series of connected lines and curves. Use a path to create interesting shapes that are not available in the **Assets** panel.  
   
  You can draw a path by using a line, pen or pencil. You can find these tools in the **Tools** panel.  
@@ -90,12 +90,12 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
   
  Use the **Selection** tool  ![](../designers/media/2ff91340-477e-4efa-a0f7-af20851e4daa.png "2ff91340-477e-4efa-a0f7-af20851e4daa") to select the path. Use the **Pen** tool ![](../designers/media/894f8612-e0ed-4e00-84cf-a9bc8f38fc54.png "894f8612-e0ed-4e00-84cf-a9bc8f38fc54") to click anywhere on the path where you want to add the point.  
   
-##  <a name="Convert"></a> Convert a shape to a path  
+## <a name="Convert"></a> Convert a shape to a path  
  To modify a shape in the same ways that you modify a path, convert the shape to a path.  
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with paths: Convert a shape to a path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=147).  
   
-##  <a name="Combine"></a> Combine paths  
+## <a name="Combine"></a> Combine paths  
  You can combine paths and shapes into a single path.  
   
  ![](../designers/media/2df17a5d-a338-4ef4-96c5-dae51cc1ca8a.png "2df17a5d-a338-4ef4-96c5-dae51cc1ca8a")  
@@ -108,7 +108,7 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with paths: Combine paths](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195).  
   
-##  <a name="Compound"></a> Create a compound path  
+## <a name="Compound"></a> Create a compound path  
  When you create a compound path, any intersecting parts of the paths are subtracted from the result, and the resulting path takes on the visual properties of the bottommost path.  
   
  You can break apart a compound path any time after you create it.  
@@ -117,7 +117,7 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
   
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with paths: Create a compound path](https://www.youtube.com/watch?v=Io5bC0-nH6Q).  
   
-##  <a name="Clipping"></a> Create a clipping path  
+## <a name="Clipping"></a> Create a clipping path  
  A clipping path is a path or shape that is applied to another object, hiding the parts of the masked object that fall outside the clipping path.  
   
  ![](../designers/media/22471e98-a841-4f39-a3ef-36090cf5a625.png "22471e98-a841-4f39-a3ef-36090cf5a625")  

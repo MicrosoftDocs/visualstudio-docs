@@ -76,7 +76,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[How to: Customize the ClickOnce default Web page](../deployment/how-to-customize-the-default-web-page-for-a-clickonce-application.md)|Describes how to customize the Web page that is automatically generated and published along with the application.|
 |[How to: Enable AutoStart for CD installations](../deployment/how-to-enable-autostart-for-cd-installations.md)|Describes how to enable AutoStart so that the ClickOnce application is automatically launched when the media is inserted.|
 
-## Related tpics
+## Related topics
 
 |Title|Description|
 |-----------|-----------------|

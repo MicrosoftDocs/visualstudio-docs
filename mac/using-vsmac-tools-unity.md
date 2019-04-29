@@ -97,7 +97,6 @@ To start debugging:
 
 3. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio for Mac.
 
-
 ### Start Debugging in a Single Step
 
 Starting debugging and playing the Unity editor can be completed in a single step directly from Visual Studio for Mac by choosing the **Attach to Unity and Play** configuration.

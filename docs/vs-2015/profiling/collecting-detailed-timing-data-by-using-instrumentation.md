@@ -20,11 +20,11 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools instrumentation
   
  You can specify the instrumentation method by using one of the following procedures:  
   
--   On the first page of the Profiling Wizard, select **Instrumentation**.  
+- On the first page of the Profiling Wizard, select **Instrumentation**.  
   
--   On the **Performance Explorer** toolbar, in the **Method** list, click **Instrumentation**.  
+- On the **Performance Explorer** toolbar, in the **Method** list, click **Instrumentation**.  
   
--   On the **General** page of the properties dialog box for the performance session, select **Instrumentation**.  
+- On the **General** page of the properties dialog box for the performance session, select **Instrumentation**.  
   
 ## Common Tasks  
  You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:  

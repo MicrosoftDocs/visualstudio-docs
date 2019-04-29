@@ -43,7 +43,6 @@ The following pages and options appear in the **Property Pages**.
 > [!NOTE]
 > Some options are only available in UWP apps.
 
-
  **Output Path**
 
  Specifies the location of the output files for the project's configuration. The path is relative; if you enter an absolute path, the absolute path is saved in the project. The default path is bin\Debug.
@@ -60,16 +59,15 @@ The following pages and options appear in the **Property Pages**.
 > [!NOTE]
 > Some options are only available in UWP apps.
 
-
  **Debugger to Launch**
 
  Specifies the default host for the debugger.
 
--   Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
+- Select **Local Machine** to start the application on the Visual Studio host computer. For more information, see [Running apps on the local machine](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
 
--   Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](../../debugger/run-windows-store-apps-in-the-simulator.md).
+- Select **Simulator** to start the application in the Simulator. For more information, see [Running apps in the simulator](../../debugger/run-windows-store-apps-in-the-simulator.md).
 
--   Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md).
+- Select **Remote Machine** to start the application on a remote computer. For more information about remote debugging, see [Running apps on a remote machine](../../debugger/run-windows-store-apps-on-a-remote-machine.md).
 
 **Launch Application**
 

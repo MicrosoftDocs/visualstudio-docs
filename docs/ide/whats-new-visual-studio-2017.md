@@ -26,7 +26,7 @@ monikerRange: vs-2017
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
 >[!div class="button"]
->[Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+>[Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
 
 Here's a high-level recap of the changes that were made since the previous version, Visual Studio 2015:
 
@@ -365,11 +365,13 @@ We update Visual Studio 2017 often with new features that can make your developm
 
 Want to know more about what else is in the works for Visual Studio 2017? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs2018-roadmap) page.
 
+And don't forget to check out our newest version, [Visual Studio 2019](whats-new-visual-studio-2019.md).
+
 ## Contact us
 
- Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
+Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Talk to us](talk-to-us.md) page.
+If you want to make a suggestion about how we can improve Visual Studio, or learn more about product support options, please see the [Send us feedback](feedback-options.md) page.
 
 ### Report a problem
 

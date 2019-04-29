@@ -29,83 +29,83 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
  Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:
 
--   Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.
+- Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.
 
--   References to assemblies (*.dll* files) are designated as follows when you add the reference: If **Copy Local** is **False**, it is marked by default as a prerequisite assembly (**Prerequisite (Auto)**) that must be present in the GAC before the application is installed. If **Copy Local** is **True**, the assembly is marked by default as an application assembly (**Include (Auto)**) and will be copied into the application folder at installation. A COM reference will appear in the **Application Files** dialog box (as an *.ocx* file) only if its **Isolated** property is set to **True**. By default, it will be included.
+- References to assemblies (*.dll* files) are designated as follows when you add the reference: If **Copy Local** is **False**, it is marked by default as a prerequisite assembly (**Prerequisite (Auto)**) that must be present in the GAC before the application is installed. If **Copy Local** is **True**, the assembly is marked by default as an application assembly (**Include (Auto)**) and will be copied into the application folder at installation. A COM reference will appear in the **Application Files** dialog box (as an *.ocx* file) only if its **Isolated** property is set to **True**. By default, it will be included.
 
 ### To add files to the Application Files dialog box
 
-1.  Select a data file in **Solution Explorer**.
+1. Select a data file in **Solution Explorer**.
 
-2.  In the Properties window, change the **Build Action** property to the **Content** value.
+2. In the Properties window, change the **Build Action** property to the **Content** value.
 
 ### To exclude files from ClickOnce publishing
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Application Files** button to open the **Application Files** dialog box.
+3. Click the **Application Files** button to open the **Application Files** dialog box.
 
-4.  In the **Application Files** dialog box, select the file that you wish to exclude.
+4. In the **Application Files** dialog box, select the file that you wish to exclude.
 
-5.  In the **Publish Status** field, select **Exclude** from the drop-down list.
+5. In the **Publish Status** field, select **Exclude** from the drop-down list.
 
 ### To mark files as data files
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Application Files** button to open the **Application Files** dialog box.
+3. Click the **Application Files** button to open the **Application Files** dialog box.
 
-4.  In the **Application Files** dialog box, select the file that you wish to mark as data.
+4. In the **Application Files** dialog box, select the file that you wish to mark as data.
 
-5.  In the **Publish Status** field, select **Data File** from the drop-down list.
+5. In the **Publish Status** field, select **Data File** from the drop-down list.
 
 ### To mark files as prerequisites
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Application Files** button to open the **Application Files** dialog box.
+3. Click the **Application Files** button to open the **Application Files** dialog box.
 
-4.  In the **Application Files** dialog box, select the application assembly (*.dll* file) that you wish to mark as a prerequisite. Note that your application must have a reference to the application assembly in order for it to appear in the list.
+4. In the **Application Files** dialog box, select the application assembly (*.dll* file) that you wish to mark as a prerequisite. Note that your application must have a reference to the application assembly in order for it to appear in the list.
 
-5.  In the **Publish Status** field, select **Prerequisite** from the drop-down list.
+5. In the **Publish Status** field, select **Prerequisite** from the drop-down list.
 
 ### To add a new file group
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Application Files** button to open the **Application Files** dialog box.
+3. Click the **Application Files** button to open the **Application Files** dialog box.
 
-4.  In the **Application Files** dialog box, select the **Group** field for a file that you wish to include in the new group.
+4. In the **Application Files** dialog box, select the **Group** field for a file that you wish to include in the new group.
 
     > [!NOTE]
-    >  Files must have the **Build Action** property set to **Content** before the file names appear in the **Application Files** dialog box.
+    > Files must have the **Build Action** property set to **Content** before the file names appear in the **Application Files** dialog box.
 
-5.  In the **Download Group** field, select **\<New...>** from the drop-down list.
+5. In the **Download Group** field, select **\<New...>** from the drop-down list.
 
-6.  In the **New Group** dialog box, enter a name for the group, and then click **OK**.
+6. In the **New Group** dialog box, enter a name for the group, and then click **OK**.
 
 ### To add a file to a group
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Application Files** button to open the **Application Files** dialog box.
+3. Click the **Application Files** button to open the **Application Files** dialog box.
 
-4.  In the **Application Files** dialog box, select the **Group** field for a file that you wish to include in the new group.
+4. In the **Application Files** dialog box, select the **Group** field for a file that you wish to include in the new group.
 
-5.  In the **Download Group** field, select a group from the drop-down list.
+5. In the **Download Group** field, select a group from the drop-down list.
 
     > [!NOTE]
-    >  You cannot change the **Download Group** for files that are required for the application to run.
+    > You cannot change the **Download Group** for files that are required for the application to run.
 
 ## See also
 - [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)

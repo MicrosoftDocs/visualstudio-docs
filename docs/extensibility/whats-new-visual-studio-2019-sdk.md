@@ -6,7 +6,7 @@ ms.assetid: 4a07607b-0c87-4866-acd8-6d68358d6a47
 author: "gregvanl"
 ms.author: "gregvanl"
 manager: jillfra
-ms.workload: 
+ms.workload:
   - "vssdk"
 ---
 # What's New in the Visual Studio 2019 SDK

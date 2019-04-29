@@ -20,11 +20,11 @@ ms.workload:
 # Tips for Debugging Threads in Native Code
 Here are some tips you can use when debugging threads in native code:
 
--   You can view the contents of the Thread Information Block by typing `@TIB` in the **Watch** window or **QuickWatch** dialog box.
+- You can view the contents of the Thread Information Block by typing `@TIB` in the **Watch** window or **QuickWatch** dialog box.
 
--   You can view the last error code for the current thread by entering `@Err` in the **Watch** window or **QuickWatch** dialog box.
+- You can view the last error code for the current thread by entering `@Err` in the **Watch** window or **QuickWatch** dialog box.
 
--   C Run-Time Libraries (CRT) functions can be useful for debugging a multithreaded application. For more information, see [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg).
+- C Run-Time Libraries (CRT) functions can be useful for debugging a multithreaded application. For more information, see [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg).
 
 ## See Also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

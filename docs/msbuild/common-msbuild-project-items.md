@@ -75,7 +75,6 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Compile
  Represents the source files for the compiler.
 
-
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
@@ -86,7 +85,6 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 
 ### EmbeddedResource
  Represents resources to be embedded in the generated assembly.
-
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -102,7 +100,6 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Content
  Represents files that are not compiled into the project, but may be embedded or published together with it.
 
-
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
@@ -117,7 +114,6 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 
 ### None
  Represents files that should have no role in the build process.
-
 
 | Item metadata name | Description |
 |-----------------------| - |

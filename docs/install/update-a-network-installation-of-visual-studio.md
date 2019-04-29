@@ -99,7 +99,6 @@ Depending on how your network environment is configured, an update can either be
 
 ::: moniker-end
 
-
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
 >
@@ -169,3 +168,4 @@ When you execute this command, Setup analyzes your offline cache folder to find 
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)

@@ -19,7 +19,7 @@ ms.workload:
 Specifies a file that is included in the project template.
 
 > [!NOTE]
->  The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for project templates. For an explanation of the `ProjectItem` element for item templates, see [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md).
+> The `ProjectItem` element accepts different attributes depending on whether the template is for a project or an item. This topic explains the `ProjectItem` element for project templates. For an explanation of the `ProjectItem` element for item templates, see [ProjectItem Element (Visual Studio Item Templates)](../extensibility/projectitem-element-visual-studio-item-templates.md).
 
  \<VSTemplate>
  \<TemplateContent>

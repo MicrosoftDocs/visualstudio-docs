@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplier2::GetPort
 Gets a port from a port supplier.
@@ -32,18 +35,18 @@ int GetPort( 
 );
 ```
 
-#### Parameters
- `guidPort`
+## Parameters
+ `guidPort`\
 
  [in] Globally unique identifier (GUID) of the port.
 
- `ppPort`
+ `ppPort`\
 
  [out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_PORTSUPPLIER_NO_PORT` if no port exists with the given identifier.
 
-## See Also
+## See also
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

@@ -23,25 +23,25 @@ The [!INCLUDE[wfd1](../includes/wfd1-md.md)] is a visual designer and debugger f
   
  The following are several new design features that set this new version of the [!INCLUDE[wfd2](../includes/wfd2-md.md)] apart from older versions of the [!INCLUDE[wfd2](../includes/wfd2-md.md)]:  
   
--   The [!INCLUDE[wfd2](../includes/wfd2-md.md)] is built using [!INCLUDE[avalon1](../includes/avalon1-md.md)]. This enhances the activity designer experience and improves performance for large and complex workflows.  
+- The [!INCLUDE[wfd2](../includes/wfd2-md.md)] is built using [!INCLUDE[avalon1](../includes/avalon1-md.md)]. This enhances the activity designer experience and improves performance for large and complex workflows.  
   
--   Custom activities are now designed with [!INCLUDE[avalon2](../includes/avalon2-md.md)], using XAML and the programming model for creating activity designers has been simplified.  
+- Custom activities are now designed with [!INCLUDE[avalon2](../includes/avalon2-md.md)], using XAML and the programming model for creating activity designers has been simplified.  
   
--   A flowchart activity has been implemented, so you can visualize program flow using the familiar flowchart modeling style.  
+- A flowchart activity has been implemented, so you can visualize program flow using the familiar flowchart modeling style.  
   
--   The [!INCLUDE[wfd2](../includes/wfd2-md.md)] has a new variable designer that allows you to declare and scope variables within your workflows, binding them to activities.  
+- The [!INCLUDE[wfd2](../includes/wfd2-md.md)] has a new variable designer that allows you to declare and scope variables within your workflows, binding them to activities.  
   
--   In [!INCLUDE[vs2010](../includes/vs2010-md.md)], the [!INCLUDE[wfd2](../includes/wfd2-md.md)] provides full IntelliSense capabilities when authoring Visual Basic expressions within your [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] workflows.  
+- In [!INCLUDE[vs2010](../includes/vs2010-md.md)], the [!INCLUDE[wfd2](../includes/wfd2-md.md)] provides full IntelliSense capabilities when authoring Visual Basic expressions within your [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] workflows.  
   
--   The debugging experience now extends into XAML, allowing you to set breakpoints in your XAML workflow definition and to step into your XAML code at runtime, which provides an experience similar to that in managed code.  
+- The debugging experience now extends into XAML, allowing you to set breakpoints in your XAML workflow definition and to step into your XAML code at runtime, which provides an experience similar to that in managed code.  
   
--   Rehosting the [!INCLUDE[wfd2](../includes/wfd2-md.md)] outside of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is greatly simplified compared to previous versions, now requiring only a few lines of code.  
+- Rehosting the [!INCLUDE[wfd2](../includes/wfd2-md.md)] outside of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is greatly simplified compared to previous versions, now requiring only a few lines of code.  
   
--   The new <xref:System.Activities.Statements.Flowchart> activity and its [Flowchart](../workflow-designer/flowchart-activity-designer.md) allow you to visualize your program flow using the familiar flowchart modeling style.  
+- The new <xref:System.Activities.Statements.Flowchart> activity and its [Flowchart](../workflow-designer/flowchart-activity-designer.md) allow you to visualize your program flow using the familiar flowchart modeling style.  
   
--   The messaging activities have been enhanced, allowing you to write fully-declarative (no code) [!INCLUDE[indigo1](../includes/indigo1-md.md)] services.  
+- The messaging activities have been enhanced, allowing you to write fully-declarative (no code) [!INCLUDE[indigo1](../includes/indigo1-md.md)] services.  
   
--   The **Add Service Reference…** functionality allows you to generate activities automatically that access Web services.  
+- The **Add Service Reference…** functionality allows you to generate activities automatically that access Web services.  
   
 ## In This Section  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)  

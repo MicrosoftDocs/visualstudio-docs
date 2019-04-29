@@ -1,6 +1,6 @@
 ---
 title: Create multi-project templates
-ms.date: 01/02/2018
+ms.date: 04/17/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio templates, creating multi-project"
@@ -14,7 +14,7 @@ manager: jillfra
 
 Multi-project templates act as containers for two or more projects. When you create a project that's based on a multi-project template, every project in the template is added to the solution.
 
-A multi-project template has two or more project templates, and a root template of type **ProjectGroup**.
+A multi-project template has two or more project templates and a root template of type **ProjectGroup**.
 
 Multi-project templates behave differently than single project templates. They have the following unique characteristics:
 
@@ -62,6 +62,19 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
     </TemplateContent>
     ```
 
+> [!TIP]
+> If you only want the multi-project template to appear in the new project dialog box and not the individual projects it contains, mark the inner templates as [hidden](../extensibility/hidden-element-visual-studio-templates.md). For example:
+>
+> ```xml
+> <VSTemplate Type="Project" ... >
+>     <TemplateData>
+>         ...
+>         <Hidden>true</Hidden>
+>     </TemplateData>
+>     ...
+> </VSTemplate>
+> ```
+
 ## Create a multi-project template from an existing solution
 
 1. Create a solution and add two or more projects.
@@ -69,7 +82,11 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
 2. Customize the projects until they are ready to be exported to a template.
 
    > [!TIP]
-   > If you're using [template parameters](template-parameters.md) and you want to refer to variables from the parent template, prefix the name of the parameter with `ext_`. For example, `$ext_safeprojectname$`.
+   > If you're using [template parameters](template-parameters.md) and you want to refer to variables from the parent template, prefix the name of the parameter with `ext_`. For example, `$ext_safeprojectname$`. Also, set the **CopyParameters** attribute of the **ProjectTemplateLink** element to **true**.
+   >
+   > ```xml
+   > <ProjectTemplateLink ProjectName="MyProject" CopyParameters="true">...</ProjectTemplateLink>
+   > ```
 
 3. On the **Project** menu, choose **Export Template**.
 

@@ -166,6 +166,7 @@ The following procedures walk you through the steps necessary to configure conti
      ```
      -_artifactsLocation $(artifactsLocation) -_artifactsLocationSasToken (ConvertTo-SecureString -String "$(artifactsLocationSasToken)" -AsPlainText -Force)
      ```
+
      ![Configure Azure Resource Group Deployment Task](media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png)
 7. After you’ve added all the required items, save the build pipeline and choose **Queue new build** at the top.
 

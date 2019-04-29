@@ -72,9 +72,9 @@ Right-click on **Packages** to access the context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
 
-*   **Add Packages** - Opens the window to add more packages to the project.
-*   **Update** - Checks the source server for each package and downloads any newer versions.
-*   **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
+* **Add Packages** - Opens the window to add more packages to the project.
+* **Update** - Checks the source server for each package and downloads any newer versions.
+* **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 
@@ -82,9 +82,9 @@ You can also right-click on individual packages to access a context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackageMenu.png)
 
-*   **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
-*   **Update** - Checks the source server and downloads a newer version (if it exists).
-*   **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
+* **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
+* **Update** - Checks the source server and downloads a newer version (if it exists).
+* **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
 
 ## Adding Package Sources
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine3::SetAllExceptions
 This method sets the state of all outstanding exceptions.
@@ -30,14 +33,14 @@ int SetAllExceptions(
 );
 ```
 
-#### Parameters
- `dwState`
+## Parameters
+ `dwState`\
 
  [in] One of the [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md) values.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)
 - [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md)

@@ -15,7 +15,7 @@ Associations between entity classes in [!INCLUDE[vbtecdlinq](../data-tools/inclu
 You must select a parent class and child class when you use the **Association Editor** dialog box to create an association. The parent class is the entity class that contains the primary key; the child class is the entity class that contains the foreign-key. For example, if entity classes were created that map to the `Northwind Customers` and `Orders` tables, the `Customer` class would be the parent class and the `Order` class would be the child class.
 
 > [!NOTE]
->  When you drag tables from **Server Explorer** or **Database Explorer** onto the **Object Relational Designer** (**O/R Designer**), associations are automatically created based on the existing foreign-key relationships in the database.
+> When you drag tables from **Server Explorer** or **Database Explorer** onto the **Object Relational Designer** (**O/R Designer**), associations are automatically created based on the existing foreign-key relationships in the database.
 
 ## Association properties
 After you create an association, when you select the association in the **O/R Designer**, there are some configurable properties in the **Properties** window. (The association is the line between the related classes.) The following table provides descriptions for the properties of an association.
@@ -30,15 +30,15 @@ After you create an association, when you select the association in the **O/R De
 
 ## To create an association between entity classes
 
-1.  Right-click the entity class that represents the parent class in the association, point to **Add**, and then click **Association**.
+1. Right-click the entity class that represents the parent class in the association, point to **Add**, and then click **Association**.
 
-2.  Verify that the correct **Parent Class** is selected in the **Association Editor** dialog box.
+2. Verify that the correct **Parent Class** is selected in the **Association Editor** dialog box.
 
-3.  Select the **Child Class** in the combo box.
+3. Select the **Child Class** in the combo box.
 
-4.  Select the **Association Properties** that relate the classes. Typically, this maps to the foreign-key relationship defined in the database. For example, in the `Customers` and `Orders` association, the **Association Properties** are the `CustomerID` for each class.
+4. Select the **Association Properties** that relate the classes. Typically, this maps to the foreign-key relationship defined in the database. For example, in the `Customers` and `Orders` association, the **Association Properties** are the `CustomerID` for each class.
 
-5.  Click **OK** to create the association.
+5. Click **OK** to create the association.
 
 ## See also
 

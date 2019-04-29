@@ -44,7 +44,7 @@ In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capabili
  [HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] "DoNotCreateTemporaryFilesInSourceControl"=dword:00000001  
   
 > [!NOTE]
->  If this registry key is set to dword:00000000, it is equivalent to the key being nonexistent, and Visual Studio still attempts to create the temporary files. However, if the registry key is set to dword:00000001, Visual Studio does not attempt to create the temporary files. Instead it assumes that the source control plug-in does not support the MSSCCPRJ.SCC file and does not support shared checkouts.  
+> If this registry key is set to dword:00000000, it is equivalent to the key being nonexistent, and Visual Studio still attempts to create the temporary files. However, if the registry key is set to dword:00000001, Visual Studio does not attempt to create the temporary files. Instead it assumes that the source control plug-in does not support the MSSCCPRJ.SCC file and does not support shared checkouts.  
   
 ## See Also  
  [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

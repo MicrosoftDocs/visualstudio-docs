@@ -15,7 +15,7 @@ ms.workload:
 ---
 # IDebugManagedObject
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 
  This interface enables the expression evaluator (EE) to call properties or methods on value class instances (for example, `System.Decimal`) and to set their value without calling [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md) on the program being debugged.
 
@@ -49,6 +49,6 @@ IDebugManagedObject : IDebugObject
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md)

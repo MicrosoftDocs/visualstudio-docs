@@ -44,7 +44,7 @@ HRESULT GetHresult(
  This method retrieves the error code from the `IDispError` object.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
 ## See Also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

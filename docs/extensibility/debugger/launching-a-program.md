@@ -24,12 +24,12 @@ Users who want to debug a program can press **F5** to run the debugger from the 
     If a DE is not specified, the port calls the operating system to launch the program, which causes the program's run-time environment to load.
 
    > [!NOTE]
-   >  If a DE is used to launch a program, it is likely that the same DE will be attached to the program.
+   > If a DE is used to launch a program, it is likely that the same DE will be attached to the program.
 
 3. Depending on whether the DE or the port launched the program, the DE or the run-time environment then creates a program description, or node, and notifies the port that the program is running.
 
    > [!NOTE]
-   >  It is recommended that the run-time environment create the program node, because the program node is a lightweight representation of a program that can be debugged. There is no need to load up an entire DE just to create and register a program node. If the DE is designed to run in the process of the IDE, but no IDE is actually running, there needs to be a component that can add a program node to the port.
+   > It is recommended that the run-time environment create the program node, because the program node is a lightweight representation of a program that can be debugged. There is no need to load up an entire DE just to create and register a program node. If the DE is designed to run in the process of the IDE, but no IDE is actually running, there needs to be a component that can add a program node to the port.
 
    The newly created program, along with any other programs, related or unrelated, launched or attached to from the same IDE, compose a debug session.
 

@@ -44,64 +44,64 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
 ### Re-targeting to a specific version of the .NET Framework for Visual Basic Unit Test Projects  
   
-1.  Create a new Visual Basic unit test project. On the **File** menu, choose **New** and then choose **Project**.  
+1. Create a new Visual Basic unit test project. On the **File** menu, choose **New** and then choose **Project**.  
   
      The **New Project** dialog box is displayed.  
   
-2.  Under **Installed Templates**, expand **Visual Basic**. Select **Test** and then select the **Test Project** template.  
+2. Under **Installed Templates**, expand **Visual Basic**. Select **Test** and then select the **Test Project** template.  
   
-3.  In the **Name** text box, type a name for your Visual Basic test project and then choose **OK**.  
+3. In the **Name** text box, type a name for your Visual Basic test project and then choose **OK**.  
   
-4.  In Solution Explorer, choose **Properties** from the shortcut menu of the new Visual Basic test project.  
+4. In Solution Explorer, choose **Properties** from the shortcut menu of the new Visual Basic test project.  
   
      The properties for your Visual Basic test project are displayed.  
   
-5.  On the **Compile** tab choose **Advanced Compile Options** as shown in the following illustration.  
+5. On the **Compile** tab choose **Advanced Compile Options** as shown in the following illustration.  
   
      ![Advanced Compile Options](../test/media/howtoconfigureunittest35frameworka.png "HowToConfigureUnitTest35FrameworkA")  
   
-6.  Use the **Target framework (all configurations)** drop-down list to change the target framework to **.NET Framework 3.5** or a later version as shown in callout B in the following illustration. You should not specify a client version.  
+6. Use the **Target framework (all configurations)** drop-down list to change the target framework to **.NET Framework 3.5** or a later version as shown in callout B in the following illustration. You should not specify a client version.  
   
      ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png "HowToConfigureUniTest35FrameworkStepB")  
   
 ### Re-targeting to a specific version of the .NET Framework for Visual C# Unit Test Projects  
   
-1.  Create a new Visual C# unit-test project. On the **File** menu, choose **New** and then choose **Project**.  
+1. Create a new Visual C# unit-test project. On the **File** menu, choose **New** and then choose **Project**.  
   
      The **New Project** dialog box is displayed.  
   
-2.  Under **Installed Templates**, expand **Visual C#**. Select **Test** and then select the **Test Project** template.  
+2. Under **Installed Templates**, expand **Visual C#**. Select **Test** and then select the **Test Project** template.  
   
-3.  In the **Name** text box, type a name for your Visual C# test project and then choose **OK**.  
+3. In the **Name** text box, type a name for your Visual C# test project and then choose **OK**.  
   
-4.  In Solution Explorer, choose **Properties** from the shortcut menu of your new Visual C# test project.  
+4. In Solution Explorer, choose **Properties** from the shortcut menu of your new Visual C# test project.  
   
      The properties for your Visual C# test project are displayed.  
   
-5.  On the **Application** tab choose **Target framework** and then choose **.NET Framework 3.5** or a later version from the drop-down list to change the target framework.as shown in the following illustration. You should not specify a client version.  
+5. On the **Application** tab choose **Target framework** and then choose **.NET Framework 3.5** or a later version from the drop-down list to change the target framework.as shown in the following illustration. You should not specify a client version.  
   
      ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")  
   
 ### Re-targeting to a specific version of the .NET Framework for C++/CLI Unit Test Projects  
   
-1.  Create a new C++ unit-test project. On the **File** menu, select **New** and then click **Project**.  
+1. Create a new C++ unit-test project. On the **File** menu, select **New** and then click **Project**.  
   
      The **New Project** dialog box is displayed.  
   
     > [!WARNING]
-    >  To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio. For example, to target the .NET Framework 3.5, you must install [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] and [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] Service Pack 1.  
+    > To build C++/CLI unit tests for a previous version of the .NET framework for Visual C++, you must use the corresponding version of Visual Studio. For example, to target the .NET Framework 3.5, you must install [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] and [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] Service Pack 1.  
   
-2.  Under **Installed Templates**, expand **Visual C ++**. Select **Test** and then select the **Test Project** template.  
+2. Under **Installed Templates**, expand **Visual C ++**. Select **Test** and then select the **Test Project** template.  
   
-3.  In the **Name** text box, type a name for your Visual C++ test project and then click **OK**.  
+3. In the **Name** text box, type a name for your Visual C++ test project and then click **OK**.  
   
-4.  In Solution Explorer, choose **Unload Project** from your new Visual C++ test project.  
+4. In Solution Explorer, choose **Unload Project** from your new Visual C++ test project.  
   
-5.  In Solution Explorer, choose the unloaded Visual C++ test project and then choose **Edit \<project name>.vcxproj**.  
+5. In Solution Explorer, choose the unloaded Visual C++ test project and then choose **Edit \<project name>.vcxproj**.  
   
      The .vcxproj file opens in the editor.  
   
-6.  Set the `TargetFrameworkVersion` to version 3.5 or a later version in the `PropertyGroup` labeled `"Globals"`. You should not specify a client version:  
+6. Set the `TargetFrameworkVersion` to version 3.5 or a later version in the `PropertyGroup` labeled `"Globals"`. You should not specify a client version:  
   
     ```  
     <PropertyGroup Label="Globals">  
@@ -115,9 +115,9 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
     ```  
   
-7.  Save and close the .vcxproj file.  
+7. Save and close the .vcxproj file.  
   
-8.  In Solution Explorer, choose select **Reload Project** from the shortcut menu of your new Visual C++ test project.  
+8. In Solution Explorer, choose select **Reload Project** from the shortcut menu of your new Visual C++ test project.  
   
 ## See Also  
  [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   

@@ -23,7 +23,7 @@ ms.workload:
  To create a new model, create a **Business Data Connectivity Model** project or add a **Business Data Connectivity Model** item to an **Empty SharePoint Project**.
 
 > [!NOTE]
->  You must have [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] installed on your computer.
+> You must have [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] installed on your computer.
 
  Visual Studio adds a folder to the project. This folder has the name that you specify for the **Business Data Connectivity Model** item in the **Add New Item** dialog box. If you create a new **Business Data Connectivity Model** project, Visual Studio names the folder **BdcModel1**.
 
@@ -41,7 +41,7 @@ ms.workload:
  When you compile the project, Visual Studio creates an assembly. Ensure that you do not add other items to the project that add code to the project assembly (For example: a **Sequential Workflow** item or a **Web Part** item). The code for that item will not run when you deploy the solution because the solution package does not copy the assembly to the global assembly cache.  The solution package deploys the assembly to the BDC database in SharePoint only.
 
 > [!NOTE]
->  Visual Studio copies the assembly to both locations on your local computer when you debug the project.
+> Visual Studio copies the assembly to both locations on your local computer when you debug the project.
 
 ## Add an existing model
  You can import a model that was created by using other tools such as SharePoint Designer. You might choose to import an existing model to your project in the following situations:

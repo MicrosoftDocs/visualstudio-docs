@@ -1281,6 +1281,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/code-styles-and-quick-actions.md",
+            "redirect_url": "/visualstudio/ide/code-styles-and-code-cleanup",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/command-line-arguments-for-the-help-content-manager.md",
             "redirect_url": "/visualstudio/help-viewer/command-line-arguments",
             "redirect_document_id": true
@@ -1696,6 +1701,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/talk-to-us.md",
+            "redirect_url": "/visualstudio/ide/feedback-options",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/targeting-a-specific-dotnet-framework-version.md",
             "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
             "redirect_document_id": false
@@ -2041,6 +2051,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/modeling/nesting-shapes.md",
+            "redirect_url": "/visualstudio/modeling/customizing-presentation-on-the-diagram",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/open-a-uml-model-by-using-the-visual-studio-api.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
@@ -2205,10 +2220,10 @@
             "redirect_url": "/visualstudio/port-migrate-and-upgrade-visual-studio-projects",
             "redirect_document_id": false
         },
-        { 
-            "source_path": "docs/porting/port-migrate-upgrade-visual-studio-projects-2019.md", 
-            "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects", 
-            "redirect_document_id": false 
+        {
+            "source_path": "docs/porting/port-migrate-upgrade-visual-studio-projects-2019.md",
+            "redirect_url": "/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects",
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/profiling/analyze-cpu-usage-in-a-windows-universal-app.md",
@@ -7339,6 +7354,36 @@
             "source_path": "subscriptions/vscloud-renewals.md",
             "redirect_url": "/visualstudio/subscriptions/vscloud-overview",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/containers/docker-tools.md",
+            "redirect_url": "/visualstudio/containers/container-tools",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/visual-studio-tools-for-docker.md",
+            "redirect_url": "/visualstudio/containers/overview",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-edit-and-refresh.md",
+            "redirect_url": "/visualstudio/containers/edit-and-refresh",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
+            "redirect_url": "/visualstudio/containers/hosting-web-apps-in-docker",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/docker-deploy-app-service.md",
+            "redirect_url": "/visualstudio/containers/deploy-app-service",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/containers/vs-azure-tools-docker-troubleshooting-docker-errors.md",
+            "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
+            "redirect_document_id": true
         }
     ]
 }

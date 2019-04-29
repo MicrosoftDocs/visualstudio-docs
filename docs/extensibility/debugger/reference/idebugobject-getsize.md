@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject::GetSize
 Gets the size of the object in bytes.
@@ -30,8 +33,8 @@ int GetSize(
 );
 ```
 
-#### Parameters
- `pnSize`
+## Parameters
+ `pnSize`\
 
  [out] Returns the size in bytes.
 
@@ -41,6 +44,6 @@ int GetSize(
 ## Remarks
  Use the [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md) method to retrieve the value as a sequence of bytes.
 
-## See Also
+## See also
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

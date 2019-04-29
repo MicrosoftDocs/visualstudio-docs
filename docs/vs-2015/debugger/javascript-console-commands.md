@@ -29,7 +29,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  If the JavaScript Console window is closed, you can open it while you're debugging in Visual Studio by choosing **Debug** > **Windows** > **JavaScript Console**.  
   
 > [!NOTE]
->  If the window is not available during a debugging session, make sure that the debugger type is set to **Script** in the Debug properties for the project.  
+> If the window is not available during a debugging session, make sure that the debugger type is set to **Script** in the Debug properties for the project.  
   
 ## console object commands  
  This table shows the syntax for the `console` object commands that you can use in the JavaScript Console window, or that you can use to send messages to the console from your code. This object provides a number of forms so that you can distinguish between informational messages and error messages, if you want to.  
@@ -37,7 +37,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  You can use the longer command form `window.console.[command]` if you need to avoid possible confusion with local objects named console.  
   
 > [!TIP]
->  Older versions of Visual Studio do not support the complete set of commands. Use IntelliSense on the console object to get quick information about supported commands.  
+> Older versions of Visual Studio do not support the complete set of commands. Use IntelliSense on the console object to get quick information about supported commands.  
   
 |Command|Description|Example|  
 |-------------|-----------------|-------------|  
@@ -87,7 +87,7 @@ if (console && console.log) {
 ## Examining objects in the JavaScript Console window  
  You can interact with any object that's in scope when you use the JavaScript Console window. To inspect an out-of-scope object in the console window, use `console.log` , `console.dir`, or other commands from your code. Alternatively, you can interact with the object from the console window while it is in scope by setting a breakpoint in your code (**Breakpoint** > **Insert Breakpoint**).  
   
-##  <a name="ConsoleLog"></a> Formatting console.log output  
+## <a name="ConsoleLog"></a> Formatting console.log output  
  If you pass multiple arguments to `console.log`, the console will treat the arguments as an array and concatenate the output.  
   
 ```javascript  

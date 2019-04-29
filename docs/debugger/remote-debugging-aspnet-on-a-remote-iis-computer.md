@@ -169,14 +169,18 @@ For information on running the remote debugger as a service, see [Run the remote
     > [!TIP]
     > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
 
-3. Set the Qualifier field to **\<remote computer name>:port**.
+3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
+
+    Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
 
     ::: moniker range=">=vs-2019"
-    **\<remote computer name>:4024** on Visual Studio 2019
+    On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
     ::: moniker range="vs-2017"
-    **\<remote computer name>:4022** on Visual Studio 2017
+    On Visual Studio 2017, you should see **\<remote computer name>:4022**
     ::: moniker-end
+    The port is required. If you don't see the port number, add it manually.
+
 4. Click **Refresh**.
     You should see some processes appear in the **Available Processes** window.
 
@@ -185,9 +189,21 @@ For information on running the remote debugger as a service, see [Run the remote
     If you want to use the **Find** button, you may need to [open UDP port 3702](#bkmk_openports) on the server.
 
 5. Check  **Show processes from all users**.
-6. Type the first letter of a process name to quickly find **dotnet.exe** (for ASP.NET Core).
 
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg_attachtoprocess_aspnetcore.png "RemoteDBG_AttachToProcess")
+6. Type the first letter of your process name to quickly find your app.
+
+    * Select **dotnet.exe**.
+
+      If you have multiple processes showing **dotnet.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+
+    * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
+
+    ::: moniker range=">=vs-2019"
+    ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
+    ::: moniker-end
 
 7. Click **Attach**.
 

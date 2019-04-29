@@ -18,7 +18,7 @@ ms.workload:
  The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides partial methods that enable users to extend the designer-generated code that runs during Inserts, Updates, and Deletes of complete entities, and also during and after individual column changes.
 
 > [!NOTE]
->  This topic provides the basic steps for adding validation to entity classes by using the **O/R Designer**. Because it might be difficult to follow these generic steps without referring to a specific entity class, a walkthrough that uses actual data is provided.
+> This topic provides the basic steps for adding validation to entity classes by using the **O/R Designer**. Because it might be difficult to follow these generic steps without referring to a specific entity class, a walkthrough that uses actual data is provided.
 
 ## Add validation for changes to the value in a specific column
  This procedure shows how to validate data when the value in a column changes. Because the validation is performed inside the class definition (instead of in the user interface), an exception is thrown if the value causes validation to fail. Implement error handling for the code in your application that attempts to change the column values.
@@ -27,23 +27,23 @@ ms.workload:
 
 ### To validate data during a column's value change
 
-1.  Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
 
-2.  In the **O/R Designer**, right-click the class for which you want to add validation and then click **View Code**.
+2. In the **O/R Designer**, right-click the class for which you want to add validation and then click **View Code**.
 
      The Code Editor opens with a partial class for the selected entity class.
 
-3.  Place the cursor in the partial class.
+3. Place the cursor in the partial class.
 
-4.  For Visual Basic projects:
+4. For Visual Basic projects:
 
-    1.  Expand the **Method Name** list.
+    1. Expand the **Method Name** list.
 
-    2.  Locate the **OnCOLUMNNAMEChanging** method for the column you want to add validation to.
+    2. Locate the **OnCOLUMNNAMEChanging** method for the column you want to add validation to.
 
-    3.  An `OnCOLUMNNAMEChanging` method is added to the partial class.
+    3. An `OnCOLUMNNAMEChanging` method is added to the partial class.
 
-    4.  Add the following code to first verify that a value has been entered and then to ensure that the value entered for the column is acceptable for your application. The `value` argument contains the proposed value, so add logic to confirm that it is a valid value:
+    4. Add the following code to first verify that a value has been entered and then to ensure that the value entered for the column is acceptable for your application. The `value` argument contains the proposed value, so add logic to confirm that it is a valid value:
 
         ```vb
         If value.HasValue Then
@@ -69,27 +69,27 @@ ms.workload:
  In addition to checking values during changes, you can also validate data when an attempt is made to update a complete entity class. Validation during an attempted update enables you to compare values in multiple columns if business rules require this. The following procedure shows how to validate when an attempt is made to update a complete entity class.
 
 > [!NOTE]
->  Validation code for updates to complete entity classes is executed in the partial <xref:System.Data.Linq.DataContext> class (instead of in the partial class of a specific entity class).
+> Validation code for updates to complete entity classes is executed in the partial <xref:System.Data.Linq.DataContext> class (instead of in the partial class of a specific entity class).
 
 ### To validate data during an update to an entity class
 
-1.  Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open or create a new LINQ to SQL Classes file (**.dbml** file) in the **O/R Designer**. (Double-click the **.dbml** file in **Solution Explorer**.)
 
-2.  Right-click an empty area on the **O/R Designer** and click **View Code**.
+2. Right-click an empty area on the **O/R Designer** and click **View Code**.
 
      The Code Editor opens with a partial class for the `DataContext`.
 
-3.  Place the cursor in the partial class for the `DataContext`.
+3. Place the cursor in the partial class for the `DataContext`.
 
-4.  For Visual Basic projects:
+4. For Visual Basic projects:
 
-    1.  Expand the **Method Name** list.
+    1. Expand the **Method Name** list.
 
-    2.  Click **UpdateENTITYCLASSNAME**.
+    2. Click **UpdateENTITYCLASSNAME**.
 
-    3.  An `UpdateENTITYCLASSNAME` method is added to the partial class.
+    3. An `UpdateENTITYCLASSNAME` method is added to the partial class.
 
-    4.  Access individual column values by using the `instance` argument, as shown in the following code:
+    4. Access individual column values by using the `instance` argument, as shown in the following code:
 
         ```vb
         If (instance.COLUMNNAME = x) And (instance.COLUMNNAME = y) Then

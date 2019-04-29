@@ -43,7 +43,7 @@ IDebugProgram3 : IDebugProgram3
 ## Remarks
  A program is a thread container running in a particular run-time architecture, while a process is made up of one or more programs.
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)

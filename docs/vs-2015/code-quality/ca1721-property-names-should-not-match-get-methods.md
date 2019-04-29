@@ -41,7 +41,7 @@ manager: "wpickett"
  Do not suppress a warning from this rule.
 
 > [!NOTE]
->  This warning may be excluded if the Get method is caused by implementing IExtenderProvider interface.
+> This warning may be excluded if the Get method is caused by implementing IExtenderProvider interface.
 
 ## Example
  The following example contains a method and property that violate this rule.

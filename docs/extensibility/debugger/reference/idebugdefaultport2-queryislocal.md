@@ -31,5 +31,5 @@ int QueryIsLocal();
 ## Return Value
  Returns `S_OK` if this port is local (on the same machine as the caller) or `S_FALSE` if the port is on another machine.
 
-## See Also
+## See also
 - [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)

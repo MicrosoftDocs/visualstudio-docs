@@ -19,7 +19,6 @@ manager: jillfra
 # List Threads Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays a list of the threads in the current program.  
   
 ## Syntax  

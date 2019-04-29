@@ -33,7 +33,7 @@ manager: jillfra
 You can store different configurations of solution and project properties to use in different kinds of builds. To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build**, **Configuration Manager**, or just type **Configuration** in the **Quick Launch** box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.  
   
 > [!NOTE]
->  If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] development settings may be applied. For more information, see [How to: Manage Configurations with Visual Basic Developer Settings Applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).  
+> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] development settings may be applied. For more information, see [How to: Manage Configurations with Visual Basic Developer Settings Applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).  
   
  By default, Debug and Release configurations are included in projects that are created by using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] templates. A Debug configuration supports the debugging of an app, and a Release configuration builds a version of the app that can be deployed. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).  
   
@@ -43,9 +43,9 @@ You can store different configurations of solution and project properties to use
  Each entry in the **Project contexts** box in a solution configuration represents a project in the solution. For every combination of **Active solution configuration** and **Active solution platform**, you can set how each project is used. (For more information about solution platforms, see [Understanding Build Platforms](../ide/understanding-build-platforms.md).)  
   
 > [!NOTE]
->  When you define a new solution configuration and select the **Create new project configurations** check box, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically assigns the new configuration to all of the projects. Likewise, when you define a new solution platform and select the **Create new project platforms** check box, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically assigns the new platform to all of the projects. Also, if you add a project that targets a new platform, Visual Studio adds that platform to the list of solution platforms and assigns it to all of the projects.  
+> When you define a new solution configuration and select the **Create new project configurations** check box, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically assigns the new configuration to all of the projects. Likewise, when you define a new solution platform and select the **Create new project platforms** check box, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically assigns the new platform to all of the projects. Also, if you add a project that targets a new platform, Visual Studio adds that platform to the list of solution platforms and assigns it to all of the projects.  
 >   
->  You can still modify the settings for each project.  
+> You can still modify the settings for each project.  
   
  The active solution configuration also provides context to the IDE. For example, if you're working on a project and the configuration specifies that it will be built for a mobile device, the **Toolbox** displays only items that can be used in a mobile device project.  
   
@@ -63,20 +63,20 @@ You can store different configurations of solution and project properties to use
 ## How Visual Studio Assigns Project Configurations  
  When you define a new solution configuration and don't copy settings from an existing one, Visual Studio uses the following criteria to assign default project configurations. The criteria are evaluated in the order shown.  
   
-1.  If a project has a configuration name (*\<configuration name> \<platform name>*) that exactly matches the name of the new solution configuration, that configuration is assigned. Configuration names are not case-sensitive.  
+1. If a project has a configuration name (*\<configuration name> \<platform name>*) that exactly matches the name of the new solution configuration, that configuration is assigned. Configuration names are not case-sensitive.  
   
-2.  If the project has a configuration name in which the configuration-name part matches the new solution configuration, that configuration is assigned, whether the platform portion matches or not.  
+2. If the project has a configuration name in which the configuration-name part matches the new solution configuration, that configuration is assigned, whether the platform portion matches or not.  
   
-3.  If there is still no match, the first configuration that's listed in the project is assigned.  
+3. If there is still no match, the first configuration that's listed in the project is assigned.  
   
 ## How Visual Studio Assigns Solution Configurations  
  When you create a project configuration (in the **Configuration Manager**, by choosing **New** on the drop-down menu in the **Configuration** column for that project) and select the **Create new solution configurations** check box, Visual Studio looks for a like-named solution configuration to build the project on each platform it supports. In some cases, Visual Studio renames existing solution configurations or defines new ones.  
   
  Visual Studio uses the following criteria to assign solution configurations.  
   
--   If a project configuration doesn't specify a platform or specifies just one platform, then a solution configuration whose name matches that of the new project configuration is either found or added. The default name of this solution configuration does not include a platform name; it takes the form *\<project configuration name>*.  
+- If a project configuration doesn't specify a platform or specifies just one platform, then a solution configuration whose name matches that of the new project configuration is either found or added. The default name of this solution configuration does not include a platform name; it takes the form *\<project configuration name>*.  
   
--   If a project supports multiple platforms, a solution configuration is either found or added for each supported platform. The name of each solution configuration includes both the project configuration name and the platform name, and has the form *\<project configuration name> \<platform name>*.  
+- If a project supports multiple platforms, a solution configuration is either found or added for each supported platform. The name of each solution configuration includes both the project configuration name and the platform name, and has the form *\<project configuration name> \<platform name>*.  
   
 ## See Also  
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   

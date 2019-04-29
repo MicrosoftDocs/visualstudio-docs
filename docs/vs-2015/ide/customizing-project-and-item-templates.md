@@ -20,15 +20,15 @@ After project and item templates have been created, you still have the ability t
   
  For example, you can perform the following tasks:  
   
--   Modify and export an existing template as a custom template.  
+- Modify and export an existing template as a custom template.  
   
      For more information, see [How to: Update Existing Templates](../ide/how-to-update-existing-templates.md).  
   
--   Pass custom parameters into a template to replace existing values.  
+- Pass custom parameters into a template to replace existing values.  
   
      For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
   
--   Customize the wizards that create projects from templates.  
+- Customize the wizards that create projects from templates.  
   
      For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md).  
   

@@ -26,7 +26,7 @@ ms.workload:
  [!INCLUDE[appliesto_projallapp](../vsto/includes/appliesto-projallapp-md.md)]
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
 ## Automate project by using the project object model
  The Project object model exposes many types that you can use to automate Project. These types enable you to write code to accomplish common tasks such as programmatically creating and modifying tasks in a project.
@@ -41,7 +41,7 @@ ms.workload:
  All of the objects and members in the VBA object model reference correspond to types and members in the Project primary interop assembly (PIA). For example, the Calendar object in the VBA object model reference corresponds to the `Microsoft.Office.Interop.MSProject.Calendar` type in the Project PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Project VSTO Add-in project that you create by using Visual Studio.
 
 > [!NOTE]
->  At this time, there is no reference documentation for the Project primary interop assembly.
+> At this time, there is no reference documentation for the Project primary interop assembly.
 
 ### Infrastructure types in the project primary interop assembly
  As you write code that uses the Project PIA, you might notice many types that are not described in the VBA reference. These additional types help translate objects in the COM-based object model of Project to managed code, are not intended to be used directly in your code.

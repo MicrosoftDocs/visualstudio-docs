@@ -25,11 +25,11 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
 ## Local Data  
  With [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], you can load and store data locally by using any one of the following methods:  
   
--   [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Data Directory  
+- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Data Directory  
   
--   Isolated Storage  
+- Isolated Storage  
   
--   Other Local Files  
+- Other Local Files  
   
 ### ClickOnce Data Directory  
  Every [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application installed on a local computer has a data directory, stored in the user's Documents and Settings folder. Any file included in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and marked as a "data" file is copied to this directory when an application is installed. Data files can be of any file type, the most frequently used being text, XML, and database files such as Microsoft Access .mdb files.  
@@ -37,7 +37,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
  The data directory is intended for application-managed data, which is data that the application explicitly stores and maintains. All static, nondependency files not marked as "data" in the application manifest will instead reside in the Application Directory. This directory is where the application's executable (.exe) files and assemblies reside.  
   
 > [!NOTE]
->  When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is uninstalled, its Data Directory is also removed. Never use the Data Directory to store end-user–managed data, such as documents.  
+> When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is uninstalled, its Data Directory is also removed. Never use the Data Directory to store end-user–managed data, such as documents.  
   
 #### Marking Data Files in a ClickOnce Distribution  
  To put an existing file inside the Data Directory, you must mark the existing file as a data file in your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application's application manifest file. For more information, see [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).  
@@ -46,7 +46,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
  Reading from the Data Directory requires that your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application request Read permission; similarly, writing to the directory requires Write permission. Your application will automatically have this permission if it is configured to run with Full Trust. For more information about elevating permissions for your application by using either Permission Elevation or Trusted Application Deployment, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  
   
 > [!NOTE]
->  If your organization does not use Trusted Application Deployment and has turned off Permission Elevation, asserting permissions will fail.  
+> If your organization does not use Trusted Application Deployment and has turned off Permission Elevation, asserting permissions will fail.  
   
  After your application has these permissions, it can access the Data Directory by using method calls on classes within the <xref:System.IO>. You can obtain the path of the Data Directory within a Windows Forms [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application by using the <xref:System.Deployment.Application.ApplicationDeployment.DataDirectory%2A> property defined on the <xref:System.Deployment.Application.ApplicationDeployment.CurrentDeployment%2A> property of <xref:System.Deployment.Application.ApplicationDeployment>. This is the most convenient and recommended way to access your data. The following code example demonstrates how to do this for a text file named CSV.txt that you have included in your deployment as a data file.  
   

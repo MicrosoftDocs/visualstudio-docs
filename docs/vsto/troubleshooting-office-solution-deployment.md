@@ -37,11 +37,11 @@ ms.workload:
 
 #### To set the time-out value
 
-1.  In the registry, navigate to the following key:
+1. In the registry, navigate to the following key:
 
      **HKEY_CURRENT_USER\Software\Microsoft\VSTA**
 
-2.  In the **AddInTimeout** subkey, set the time-out value in milliseconds.
+2. In the **AddInTimeout** subkey, set the time-out value in milliseconds.
 
      If the **AddInTimeout** subkey doesn't exist, create it as a DWORD.
 

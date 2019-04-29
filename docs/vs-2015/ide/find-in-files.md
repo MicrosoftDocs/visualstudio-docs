@@ -38,7 +38,7 @@ Find in Files** allows you to search a specified set of files. The matches found
    To cancel a Find operation, press CTRL + BREAK.  
   
 > [!NOTE]
->  The Find and Replace tool does not search directories with the `Hidden` or `System` attribute set.  
+> The Find and Replace tool does not search directories with the `Hidden` or `System` attribute set.  
   
 ## Find what  
  To search for a new text string or expression, specify it in the box. To search for any of the 20 strings that you searched for most recently, open the list, and choose the string for which you want to search. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your search string. For more information, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).  
@@ -47,10 +47,10 @@ Find in Files** allows you to search a specified set of files. The matches found
  The option chosen from the **Look in** drop-down list determines whether **Find in Files** searches only in currently active files or in all files stored within certain folders. Select a search scope from the list or click the **Browse (...)** button to display the **Choose Search Folders** dialog box and to enter your own set of directories. You can also type a path directly into the **Look in** box.  
   
 > [!WARNING]
->  With the **Entire Solution** or **Current Project** options, project and solution files are not searched. If you want to look in project files, choose a search folder.  
+> With the **Entire Solution** or **Current Project** options, project and solution files are not searched. If you want to look in project files, choose a search folder.  
   
 > [!NOTE]
->  If the **Look in** option selected causes you to search a file that you have checked out from source code control, only the version of that file which has been downloaded to your local machine is searched.  
+> If the **Look in** option selected causes you to search a file that you have checked out from source code control, only the version of that file which has been downloaded to your local machine is searched.  
   
 ## Include subfolders  
  Specifies that subfolders of the **Look in** folder will be searched.  

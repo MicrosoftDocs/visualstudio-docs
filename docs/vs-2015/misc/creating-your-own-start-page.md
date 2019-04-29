@@ -22,22 +22,22 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 #### To create a custom Start Page by using the Start Page project template  
   
-1.  Download and install the [Start Page project template](http://go.microsoft.com/fwlink/?LinkId=186204) from Visual Studio Gallery.  
+1. Download and install the [Start Page project template](http://go.microsoft.com/fwlink/?LinkId=186204) from Visual Studio Gallery.  
   
     > [!WARNING]
-    >  At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  
+    > At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  
   
-2.  After you have installed the template, create a new start page project with it.  
+2. After you have installed the template, create a new start page project with it.  
   
-3.  In the left pane of the New Project dialog box, under **Installed Templates**, expand the **Other Project Types** node, and then click **Extensibility**.  
+3. In the left pane of the New Project dialog box, under **Installed Templates**, expand the **Other Project Types** node, and then click **Extensibility**.  
   
-4.  In the middle pane, click **Custom Start Page**, and then name your project and click **OK**.  
+4. In the middle pane, click **Custom Start Page**, and then name your project and click **OK**.  
   
      Visual Studio creates a Start Page project that is a complete copy of the Visual Studio Start Page.  
   
-5.  From **Solution Explorer**, open **StartPage.xaml**.  
+5. From **Solution Explorer**, open **StartPage.xaml**.  
   
-6.  Edit StartPage.xaml.  
+6. Edit StartPage.xaml.  
   
      You can view your work by pressing F5 to open an experimental instance of Visual Studio with the custom Start Page installed.  
   

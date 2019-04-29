@@ -28,9 +28,9 @@ In this walkthrough you create a Visual Studio settings category and use it to s
   
 #### To create a settings category  
   
-1.  Complete the [Creating an Options Page](../extensibility/creating-an-options-page.md).  
+1. Complete the [Creating an Options Page](../extensibility/creating-an-options-page.md).  
   
-2.  Open the VSPackage.resx file and add these three string resources:  
+2. Open the VSPackage.resx file and add these three string resources:  
   
     |Name|Value|  
     |----------|-----------|  
@@ -41,9 +41,9 @@ In this walkthrough you create a Visual Studio settings category and use it to s
      This creates resources that name the category "My Category", the object "My Settings", and the category description "OptionInteger and OptionFloat".  
   
     > [!NOTE]
-    >  Of these three, only the category name does not appear in the Import and Export Settings wizard.  
+    > Of these three, only the category name does not appear in the Import and Export Settings wizard.  
   
-3.  In MyToolsOptionsPackage.cs, add a `float` property named `OptionFloat` to the `OptionPageGrid` class, as shown in the following example.  
+3. In MyToolsOptionsPackage.cs, add a `float` property named `OptionFloat` to the `OptionPageGrid` class, as shown in the following example.  
   
     ```csharp  
     public class OptionPageGrid : DialogPage  
@@ -71,41 +71,41 @@ In this walkthrough you create a Visual Studio settings category and use it to s
     ```  
   
     > [!NOTE]
-    >  The `OptionPageGrid` category named "My Category" now consists of the two properties, `OptionInteger` and `OptionFloat`.  
+    > The `OptionPageGrid` category named "My Category" now consists of the two properties, `OptionInteger` and `OptionFloat`.  
   
-4.  Add a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the `MyToolsOptionsPackage` class and give it the CategoryName "My Category", give it the ObjectName "My Settings", and set isToolsOptionPage to true. Set the categoryResourceID, objectNameResourceID, and DescriptionResourceID to the corresponding string resource IDs created earlier.  
+4. Add a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the `MyToolsOptionsPackage` class and give it the CategoryName "My Category", give it the ObjectName "My Settings", and set isToolsOptionPage to true. Set the categoryResourceID, objectNameResourceID, and DescriptionResourceID to the corresponding string resource IDs created earlier.  
   
     ```csharp  
     [ProvideProfileAttribute(typeof(OptionPageGrid),   
         "My Category", "My Settings", 106, 107, isToolsOptionPage:true, DescriptionResourceID = 108)]  
     ```  
   
-5.  Build the project and start debugging. In the experimental instance you should see that **My Grid Page** now has both integer and float values.  
+5. Build the project and start debugging. In the experimental instance you should see that **My Grid Page** now has both integer and float values.  
   
 ## Examining the Settings File  
  In this section, you export property category values to a settings file. You examine the file and then import the values back into the property category.  
   
-1.  Start the project in debug mode by pressing F5. This starts the experimental instance.  
+1. Start the project in debug mode by pressing F5. This starts the experimental instance.  
   
-2.  Open the **Tools / Options** dialog.  
+2. Open the **Tools / Options** dialog.  
   
-3.  In the tree view in the left pane, expand **My Category** and then click **My Grid Page**.  
+3. In the tree view in the left pane, expand **My Category** and then click **My Grid Page**.  
   
-4.  Change the value of **OptionFloat** to 3.1416 and **OptionInteger** to 12. Click **OK**.  
+4. Change the value of **OptionFloat** to 3.1416 and **OptionInteger** to 12. Click **OK**.  
   
-5.  On the **Tools** menu, click **Import and Export Settings**.  
+5. On the **Tools** menu, click **Import and Export Settings**.  
   
      The **Import and Export Settings** wizard appears.  
   
-6.  Make sure **Export selected environment settings** is selected, and then click **Next**.  
+6. Make sure **Export selected environment settings** is selected, and then click **Next**.  
   
      The **Choose Settings to Export** page appears.  
   
-7.  Click **My Settings**.  
+7. Click **My Settings**.  
   
      The **Description** changes to **OptionInteger and OptionFloat**.  
   
-8.  Make sure that **My Settings** is the only category that is selected, and then click **Next**.  
+8. Make sure that **My Settings** is the only category that is selected, and then click **Next**.  
   
      The **Name Your Settings File** page appears.  
   

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine2::Attach
 Attaches a debug engine (DE) to a program or programs. Called by the session debug manager (SDM) when the DE is running in-process to the SDM.
@@ -38,24 +41,24 @@ int Attach( 
 );
 ```
 
-#### Parameters
- `pProgram`
+## Parameters
+ `pProgram`\
 
  [in] An array of [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) objects that represent programs to be attached to. These are port programs.
 
- `rgpProgramNodes`
+ `rgpProgramNodes`\
 
  [in] An array of [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objects that represent program nodes, one for each program. The program nodes in this array represent the same programs as in `pProgram`. The program nodes are given so that the DE can identify the programs to attach to.
 
- `celtPrograms`
+ `celtPrograms`\
 
  [in] Number of programs and/or program nodes in the `pProgram` and `rgpProgramNodes` arrays.
 
- `pCallback`
+ `pCallback`\
 
  [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used to send debug events to the SDM.
 
- `dwReason`
+ `dwReason`\
 
  [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching these programs. For more information, see the Remarks section.
 
@@ -85,7 +88,7 @@ int Attach( 
 
    Before calling the methods of a program node in the array given by `pProgram` or `rgpProgramNodes`, impersonation, if required, should be enabled on the `IDebugProgram2` interface that represents the program node. Normally, however, this step is not necessary. For more information, see [Security Issues](../../../extensibility/debugger/security-issues.md).
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

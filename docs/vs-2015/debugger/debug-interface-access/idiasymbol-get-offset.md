@@ -35,7 +35,7 @@ HRESULT get_offset ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
  The offset is from some known point previously determined. For example, the offset for a `LocIsBitField` location type is typically from the start of the containing class.  

@@ -1,7 +1,7 @@
 ---
 title: "Write a visualizer in Visual Basic | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "11/04/2016"
+ms.date: "04/12/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -30,15 +30,16 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To create a class library project
 
-1. On the **File** menu, choose **New** and click **New Project**.
+1. Create a new class library project.
 
-2. In the **New Project** dialog box, select **Visual Basic**.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Standard)**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
+    ::: moniker-end
 
-3. Under **.NET Standard**, click **Class Library**.
-
-4. In the **Name** box, type an appropriate name for the class library, such as **MyFirstVisualizer**.
-
-5. Click **OK**.
+2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
 
    When you have created the class library, you must add a reference to Microsoft.VisualStudio.DebuggerVisualizers.DLL, so that you can use the classes defined there. First, however, you give your project a meaningful name.
 
@@ -49,11 +50,13 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 2. Change the name from Class1.vb to something meaningful, such as DebuggerSide.vb.
 
    > [!NOTE]
-   >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.
+   > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.
 
 3. In **Solution Explorer**, right-click **My First Visualizer**, and on the shortcut menu, click **Add Reference**.
 
-4. In the **Add Reference** dialog box, on the **.NET** tab, click Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+4. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse** and find the Microsoft.VisualStudio.DebuggerVisualizers.DLL.
+
+    You can find the DLL in *\<Visual Studio Install Directory>\Common7\IDE\PublicAssemblies* subdirectory of Visual Studio's installation directory.
 
 5. Click **OK**.
 
@@ -97,13 +100,15 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To add System.Windows.Forms
 
-1.  In **Solution Explorer**, right-click **References**, and on the shortcut menu, click **Add Reference**.
+1. In **Solution Explorer**, right-click **References**, and on the shortcut menu, click **Add Reference**.
 
-2.  In the **Add Reference** dialog box, on the **.NET** tab, click **System.Windows.Forms**.
+2. In the **Add Reference** dialog box, on the **Browse** tab, select **Browse**, and find the System.Windows.Forms.DLL.
 
-3.  Click **OK**.
+    You can find the DLL in *C:\Windows\Microsoft.NET\Framework\v4.0.30319*.
 
-4.  In DebuggerSide.cs, add the following statement to the `Imports` statements:
+3. Click **OK**.
+
+4. In DebuggerSide.cs, add the following statement to the `Imports` statements:
 
     ```vb
     Imports System.Windows.Forms
@@ -114,7 +119,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To show the visualizer output in a dialog box
 
-1.  In the `Show` method, add the following line of code:
+1. In the `Show` method, add the following line of code:
 
     ```vb
     MessageBox.Show(objectProvider.GetObject().ToString())
@@ -122,20 +127,20 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
      This example code does not include error handling. You should include error handling in a real visualizer, or any other kind of application.
 
-2.  On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
+2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Add the Necessary Attribute
  That is the end of the debugger-side code. There is one more step, however: the attribute that tells the debuggee side which collection of classes comprises the visualizer.
 
 ### To add the debugee-side code
 
-1.  Add the following attribute code to DebuggerSide.vb, after the `Imports` statements but before `namespace MyFirstVisualizer`:
+1. Add the following attribute code to DebuggerSide.vb, after the `Imports` statements but before `namespace MyFirstVisualizer`:
 
     ```vb
     <Assembly: System.Diagnostics.DebuggerVisualizer(GetType(MyFirstVisualizer.DebuggerSide), GetType(VisualizerObjectSource), Target:=GetType(System.String), Description:="My First Visualizer")>
     ```
 
-2.  On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
+2. On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.
 
 ## Create a Test Harness
  At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
@@ -157,29 +162,32 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 ### To add a console application project to the solution
 
-1. On the **File** menu, click **Add**, and then click **New Project**.
+1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
-2. In the **Add New Project** dialog box, select **Visual Basic**, and then click **Console Application**.
+    ::: moniker range=">=vs-2019"
+    In the Search box, type **visual basic**, choose **Templates**, then choose **Create a new Console App (.NET Framework)**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+    ::: moniker-end
 
-3. In the **Name** box, type a meaningful name for the console application, such as **MyTestConsole**.
-
-4. Click **OK**.
+2. Type an appropriate name for the class library, such as `MyTestConsole`, and then click **Create** or **OK**.
 
    Now, you must add the necessary references so MyTestConsole can call MyFirstVisualizer.
 
 ### To add necessary references to MyTestConsole
 
-1.  In **Solution Explorer**, right-click **MyTestConsole**, and on the shortcut menu, click **Add Reference**.
+1. In **Solution Explorer**, right-click **MyTestConsole**, and on the shortcut menu, click **Add Reference**.
 
-2.  In the **Add Reference** dialog box, on the **.NET** tab, click Microsoft.VisualStudio.DebuggerVisualizers.
+2. In the **Add Reference** dialog box, on the **Browse** tab, click Microsoft.VisualStudio.DebuggerVisualizers.
 
-3.  Click **OK**.
+3. Click **OK**.
 
-4.  Right-click **MyTestConsole**, and then click **Add Reference** again.
+4. Right-click **MyTestConsole**, and then click **Add Reference** again.
 
-5.  In the **Add Reference** dialog box, click the **Projects** tab, and then select MyFirstVisualizer.
+5. In the **Add Reference** dialog box, click the **Projects** tab, and then select MyFirstVisualizer.
 
-6.  Click **OK**.
+6. Click **OK**.
 
 ## Finish Your Test Harness and Test Your Visualizer
  Now, you will add the code to finish the test harness.

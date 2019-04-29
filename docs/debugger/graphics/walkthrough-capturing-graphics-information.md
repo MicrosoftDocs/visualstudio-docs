@@ -14,9 +14,9 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
 
  This walkthrough illustrates these tasks:
 
--   Hooking Graphics Diagnostics to your app
+- Hooking Graphics Diagnostics to your app
 
--   Capturing graphics information
+- Capturing graphics information
 
 ## Capturing graphics information
  To use the Graphics Diagnostics tools, you first have to capture the graphics information that it relies on. To enable capture, use the **Start Diagnostics** command to hook Graphics Diagnostics to your app when it starts.
@@ -50,7 +50,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../../code-qualit
 ## Next Steps
  This walkthrough demonstrated how to capture graphics information manually. As a next step, consider this option:
 
--   Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
+- Learn how to analyze captured graphics information using the Graphics Diagnostics tools. See [Overview](overview-of-visual-studio-graphics-diagnostics.md).
 
 ## See Also
 - [Capturing Graphics Information](capturing-graphics-information.md)

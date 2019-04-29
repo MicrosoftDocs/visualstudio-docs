@@ -63,23 +63,23 @@ if ( null != mcs )
   
 - If your implementation of either method recognizes both the GUID and the command, then the method should set the command-flags field of every command (in the `prgCmds` parameter) by using the following flags:  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is supported.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is supported.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command should not be visible.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command should not be visible.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is toggled on and appears to have been checked.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is toggled on and appears to have been checked.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is enabled.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is enabled.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command should be hidden if it appears on a shortcut menu.  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command should be hidden if it appears on a shortcut menu.  
   
-  -   <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)  
+  - <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> if the command is a menu controller and is not enabled, but its drop-down menu list is not empty and is still available. (This flag is rarely used.)  
   
 - If the command was defined in the .vsct file with the `TextChanges` flag, set the following parameters:  
   
-  -   Set the `rgwz` element of the `pCmdText` parameter to the new text of the command.  
+  - Set the `rgwz` element of the `pCmdText` parameter to the new text of the command.  
   
-  -   Set the `cwActual` element of the `pCmdText` parameter to the size of the command string.  
+  - Set the `cwActual` element of the `pCmdText` parameter to the size of the command string.  
   
   Also make sure that the current context is not an automation function, unless your command is specifically intended to handle automation functions.  
   

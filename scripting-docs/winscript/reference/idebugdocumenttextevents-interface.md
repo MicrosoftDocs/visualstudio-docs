@@ -18,7 +18,7 @@ manager: "ghogen"
 Provides events indicating changes to the associated text document.  
   
 > [!NOTE]
->  The document text changes when the events on this interface fire. Event handlers may retrieve the new text using the `IDebugDocumentText` interface.  
+> The document text changes when the events on this interface fire. Event handlers may retrieve the new text using the `IDebugDocumentText` interface.  
   
  In addition to the methods inherited from `IUnknown`, the `IDebugDocumentTextEvents` interface exposes the following methods.  
   

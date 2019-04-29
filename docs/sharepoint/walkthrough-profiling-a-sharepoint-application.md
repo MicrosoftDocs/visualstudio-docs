@@ -34,9 +34,9 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   Supported editions of Microsoft Windows and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
--   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
+- [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
 
 ## Create a SharePoint project
  First, create a SharePoint project.
@@ -66,13 +66,13 @@ ms.workload:
 
 ### To add a feature and feature event receiver
 
-1.  In **Solution Explorer**, open the shortcut menu for the **Features** node, choose **Add Feature**, and leave the name at the default value, **Feature1**.
+1. In **Solution Explorer**, open the shortcut menu for the **Features** node, choose **Add Feature**, and leave the name at the default value, **Feature1**.
 
-2.  In **Solution Explorer**, open the shortcut menu for **Feature1**, and then choose **Add Event Receiver**.
+2. In **Solution Explorer**, open the shortcut menu for **Feature1**, and then choose **Add Event Receiver**.
 
      This adds a code file to the feature with several commented-out event handlers and opens the file for editing.
 
-3.  In the event receiver class, add the following variable declarations.
+3. In the event receiver class, add the following variable declarations.
 
     ```vb
     ' SharePoint site/subsite.
@@ -86,7 +86,7 @@ ms.workload:
     private string webUrl = "/";
     ```
 
-4.  Replace the `FeatureActivated` procedure with the following code.
+4. Replace the `FeatureActivated` procedure with the following code.
 
     ```vb
     Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
@@ -145,7 +145,7 @@ ms.workload:
     }
     ```
 
-5.  Add the following procedure below the `FeatureActivated`procedure.
+5. Add the following procedure below the `FeatureActivated`procedure.
 
     ```vb
 
@@ -172,11 +172,11 @@ ms.workload:
     }
     ```
 
-6.  In **Solution Explorer**, open the shortcut menu for the project (**ProfileTest**), and then choose **Properties**.
+6. In **Solution Explorer**, open the shortcut menu for the project (**ProfileTest**), and then choose **Properties**.
 
-7.  In the **Properties** dialog box, choose the **SharePoint** tab.
+7. In the **Properties** dialog box, choose the **SharePoint** tab.
 
-8.  In the **Active Deployment Configuration** list, choose **No Activation**.
+8. In the **Active Deployment Configuration** list, choose **No Activation**.
 
      Selecting this deployment configuration enables you to manually activate the feature later in SharePoint.
 
@@ -187,21 +187,21 @@ ms.workload:
 
 ### To configure and deploy the SharePoint application
 
-1.  On the **Analyze** menu, choose **Launch Performance Wizard**.
+1. On the **Analyze** menu, choose **Launch Performance Wizard**.
 
-2.  On page one of the **Performance Wizard**, leave the method of profiling as **CPU sampling** and choose the **Next** button.
+2. On page one of the **Performance Wizard**, leave the method of profiling as **CPU sampling** and choose the **Next** button.
 
      The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](/visualstudio/profiling/understanding-performance-collection-methods).
 
-3.  On page two of the **Performance Wizard**, leave the profile target as **ProfileTest** and choose the **Next** button.
+3. On page two of the **Performance Wizard**, leave the profile target as **ProfileTest** and choose the **Next** button.
 
      If a solution has multiple projects, they appear in this list.
 
-4.  On page three of the **Performance Wizard**, clear the **Enable Tier Interaction Profiling** check box, and then choose the **Next** button.
+4. On page three of the **Performance Wizard**, clear the **Enable Tier Interaction Profiling** check box, and then choose the **Next** button.
 
      The Tier Interaction Profiling (TIP) feature is useful for measuring the performance of applications that query databases and for showing you the number of times a web page is requested. Because that data is not required for this example, we will not enable this feature.
 
-5.  On page four of the **Performance Wizard**, leave the **Launch profiling after the wizard finishes** check box selected, and then choose the **Finish** button.
+5. On page four of the **Performance Wizard**, leave the **Launch profiling after the wizard finishes** check box selected, and then choose the **Finish** button.
 
      The wizard enables application profiling on the server, displays the **Performance Explorer** window, and then builds, deploys, and runs the SharePoint application.
 
@@ -210,19 +210,19 @@ ms.workload:
 
 ### To run the SharePoint application
 
-1.  In SharePoint, open the **Site Actions** menu, and then choose **Site Settings**.
+1. In SharePoint, open the **Site Actions** menu, and then choose **Site Settings**.
 
-2.  In the **Site Actions** list, choose the **Manage site features** link.
+2. In the **Site Actions** list, choose the **Manage site features** link.
 
-3.  In the **Features** list, choose the **Activate** button next to **ProfileTest Feature1**.
+3. In the **Features** list, choose the **Activate** button next to **ProfileTest Feature1**.
 
      There is a pause when you do this, due to the idle loop being called in the `FeatureActivated` function.
 
-4.  On the **Quick Launch** bar, choose **Lists** and then in the **Lists** list, choose **Announcements**.
+4. On the **Quick Launch** bar, choose **Lists** and then in the **Lists** list, choose **Announcements**.
 
      Notice that a new announcement has been added to the list stating that the feature was activated.
 
-5.  Close the SharePoint site.
+5. Close the SharePoint site.
 
      After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project's folder.
 
@@ -231,19 +231,19 @@ ms.workload:
 
 ### To view and interpret the profile results
 
-1.  In the **Functions Doing the Most Individual Work** section of the Sample Profiling Report, notice that `TimeCounter` is near the top of the list.
+1. In the **Functions Doing the Most Individual Work** section of the Sample Profiling Report, notice that `TimeCounter` is near the top of the list.
 
      This location indicates that `TimeCounter` was one of the functions with the highest number of samples, meaning it's one of the biggest performance bottlenecks in the application. This situation isn't surprising, however, because it was purposely designed that way for demonstration purposes.
 
-2.  In the **Functions Doing the Most Individual Work** section, choose the `ProcessRequest` link to display the cost distribution for the `ProcessRequest` function.
+2. In the **Functions Doing the Most Individual Work** section, choose the `ProcessRequest` link to display the cost distribution for the `ProcessRequest` function.
 
      In the **Called functions** section for `ProcessRequest`, notice that the **FeatureActiviated** function is listed as the most expensive called function.
 
-3.  In the **Called functions** section, choose the **FeatureActivated** button.
+3. In the **Called functions** section, choose the **FeatureActivated** button.
 
      In the **Called functions** section for **FeatureActivated**, the `TimeCounter` function is listed as the most expensive called function. In the **Function Code View** pane, the highlighted code (`TimeCounter`) is the hotspot and indicates where the correction is needed.
 
-4.  Close the Sample Profiling Report.
+4. Close the Sample Profiling Report.
 
      To view the report again at any time, open the .vsp file in the **Performance Explorer** window.
 
@@ -252,17 +252,17 @@ ms.workload:
 
 ### To fix the code and reprofile the application
 
-1.  In the feature event receiver code, comment out the `TimeCounter` method call in `FeatureActivated` to prevent it from being called.
+1. In the feature event receiver code, comment out the `TimeCounter` method call in `FeatureActivated` to prevent it from being called.
 
-2.  Save the project.
+2. Save the project.
 
-3.  In **Performance Explorer**, open the Targets folder, and then choose the **ProfileTest** node.
+3. In **Performance Explorer**, open the Targets folder, and then choose the **ProfileTest** node.
 
-4.  On the **Performance Explorer** toolbar, in the **Actions** tab, choose the **Start Profiling** button.
+4. On the **Performance Explorer** toolbar, in the **Actions** tab, choose the **Start Profiling** button.
 
      If you want to change any of the profiling properties prior to reprofiling the application, choose the **Launch Performance Wizard** button instead.
 
-5.  Follow the instructions in the **Running the SharePoint Application** section, previously in this topic.
+5. Follow the instructions in the **Running the SharePoint Application** section, previously in this topic.
 
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.
 

@@ -107,7 +107,7 @@ ms.workload:
   You can also use Windows Forms controls in your Office solutions by adding them directly to the Word and Excel document surface. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).
 
 > [!NOTE]
->  Adding host controls or Windows Forms controls to a Word subdocument is not supported.
+> Adding host controls or Windows Forms controls to a Word subdocument is not supported.
 
 ### Add host controls to your documents
  In document-level projects, you can add host controls to your Word documents or Excel worksheets at design time in the following ways:
@@ -142,7 +142,7 @@ ms.workload:
  When you drag a host control from the **Toolbox** to your document, the control is automatically named using the control type with an incremental number at the end. For example, bookmarks are named **bookmark1**, **bookmark2**, and so on. If you use the native functionality of Word or Excel to add the control, you can give it a specific name at the time that you create it. You can also rename your controls by changing the value of the **Name** property in the **Properties** window.
 
 > [!NOTE]
->  You cannot use reserved words to name host controls. For example, if you add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet and change the name to **System**, errors occur when you build the project.
+> You cannot use reserved words to name host controls. For example, if you add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet and change the name to **System**, errors occur when you build the project.
 
 ### Delete host controls
  In document-level projects, you can delete host controls at design time by selecting the control on the Excel worksheet or Word document and pressing the **Delete** key. However, you must use the **Define Name** dialog box in Excel to delete <xref:Microsoft.Office.Tools.Excel.NamedRange> controls.
@@ -154,13 +154,13 @@ ms.workload:
  If end users delete a host control from the document at runtime, the solution might fail in unexpected ways. You can use the document protection features in Word and Excel to protect the host controls from being deleted. For more information, see [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
 > [!NOTE]
->  Do not programmatically remove controls during the `Shutdown` event handler of the document or worksheet. The UI elements are no longer available when the `Shutdown` event occurs. If you want to remove controls before the application closes, add your code to another event handler such as `BeforeClose` or `BeforeSave`.
+> Do not programmatically remove controls during the `Shutdown` event handler of the document or worksheet. The UI elements are no longer available when the `Shutdown` event occurs. If you want to remove controls before the application closes, add your code to another event handler such as `BeforeClose` or `BeforeSave`.
 
 ### Program against host control events
  One way that host controls extend Office objects is by adding events. For example, the <xref:Microsoft.Office.Interop.Excel.Range> object in Excel and <xref:Microsoft.Office.Interop.Word.Bookmark> object in Word do not have events, but the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] extends these objects by adding programmable events. You can access and code against these events the same way you access events of controls on Windows Forms: through the event drop-down list in Visual Basic and the event property page in C#. For more information, see [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).
 
 > [!NOTE]
->  You should not set the <xref:Microsoft.Office.Interop.Excel._Application.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to **false** prevents Excel from raising any events, including the events of host controls.
+> You should not set the <xref:Microsoft.Office.Interop.Excel._Application.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to **false** prevents Excel from raising any events, including the events of host controls.
 
 ## See also
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

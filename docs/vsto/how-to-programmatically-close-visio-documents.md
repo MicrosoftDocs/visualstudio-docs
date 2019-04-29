@@ -23,7 +23,7 @@ ms.workload:
 
 ### To close the active document
 
--   Call the `Microsoft.Office.Interop.Visio.Document.Close` method to close the active document.
+- Call the `Microsoft.Office.Interop.Visio.Document.Close` method to close the active document.
 
      To use the following code example, run it in the `ThisAddIn` class in a VSTO Add-in project for Visio.
 

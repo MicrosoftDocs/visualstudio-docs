@@ -21,7 +21,7 @@ manager: jillfra
 For reasons of security you should run Visual Studio as a normal user whenever possible.
 
 > [!WARNING]
->  You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
+> You should also make sure not to compile, launch, or debug any Visual Studio solution that does not come from a trusted person or a trusted location.
 
  You can do nearly everything in the Visual Studio IDE as a normal user, but, you need administrator permissions to complete the following tasks:
 
@@ -50,17 +50,17 @@ For reasons of security you should run Visual Studio as a normal user whenever p
 
 #### To run Visual Studio with administrative permissions on [!INCLUDE[win8](../includes/win8-md.md)], [!INCLUDE[win81](../includes/win81-md.md)], [!INCLUDE[winserver8](../includes/winserver8-md.md)], or [!INCLUDE[winblue_server_2](../includes/winblue-server-2-md.md)]
 
-1.  On the **Start** screen, type **Visual Studio**. You should see the version or versions of Visual Studio you have installed.
+1. On the **Start** screen, type **Visual Studio**. You should see the version or versions of Visual Studio you have installed.
 
-2.  Select the version of Visual Studio you want to start, and then bring up the shortcut menu (it appears at the bottom of the screen). Choose **Run as administrator**.
+2. Select the version of Visual Studio you want to start, and then bring up the shortcut menu (it appears at the bottom of the screen). Choose **Run as administrator**.
 
      When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
 
 #### To run Visual Studio with administrative permissions on [!INCLUDE[win7](../includes/win7-md.md)] or [!INCLUDE[winsvr08_r2](../includes/winsvr08-r2-md.md)]
 
-1.  On the **Start** menu, choose **All Programs**.
+1. On the **Start** menu, choose **All Programs**.
 
-2.  In the **Microsoft Visual Studio** *Version* folder select  **Visual Studio** *Version* open the shortcut menu, and then choose **Run as administrator**.
+2. In the **Microsoft Visual Studio** *Version* folder select  **Visual Studio** *Version* open the shortcut menu, and then choose **Run as administrator**.
 
      When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.
 

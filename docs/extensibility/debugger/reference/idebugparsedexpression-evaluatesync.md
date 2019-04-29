@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugParsedExpression::EvaluateSync
 This method evaluates the parsed expression and optionally casts the result to another data type.
@@ -42,32 +45,32 @@ int EvaluateSync(
 );
 ```
 
-#### Parameters
- `dwEvalFlags`
+## Parameters
+ `dwEvalFlags`\
 
  [in] A combination of [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) constants that control how the expression is to be evaluated.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
- `pSymbolProvider`
+ `pSymbolProvider`\
 
  [in] The symbol provider, expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) interface.
 
- `pAddress`
+ `pAddress`\
 
  [in] The current execution location within a method, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- `pBinder`
+ `pBinder`\
 
  [in] The binder, expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface.
 
- `bstrResultType`
+ `bstrResultType`\
 
  [in] The type the result should be cast to. This argument can be a null value.
 
- `ppResult`
+ `ppResult`\
 
  [out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface that represents the results of evaluation.
 
@@ -77,7 +80,7 @@ int EvaluateSync(
 ## Remarks
  The expression evaluation context is given by `pAddress`, which makes it possible to determine the containing method and then use language scoping rules to determine the value of the symbols in the expression.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

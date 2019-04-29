@@ -20,13 +20,13 @@ You can provide automation for document and tool windows. Providing automation i
 
 The environment provides automation on a tool window by returning a standard <xref:EnvDTE.Window> object as explained in the following procedure:
 
-1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> method via the environment with [__VSFPROPID.VSFPROPID_ExtWindowObject](<xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID.VSFPROPID_ExtWindowObject>) as `VSFPROPID` parameter to get the `Window` object.
+1. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> method via the environment with [__VSFPROPID.VSFPROPID_ExtWindowObject](<xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID.VSFPROPID_ExtWindowObject>) as `VSFPROPID` parameter to get the `Window` object.
 
-2.  When a caller requests a VSPackage-specific automation object for your tool window through <xref:EnvDTE.Window.Object%2A>, the environment calls `QueryInterface` for `IExtensibleObject`, <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>, or the `IDispatch` interfaces. Both `IExtensibleObject` and `IVsExtensibleObject` provide a <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject.GetAutomationObject%2A> method.
+2. When a caller requests a VSPackage-specific automation object for your tool window through <xref:EnvDTE.Window.Object%2A>, the environment calls `QueryInterface` for `IExtensibleObject`, <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>, or the `IDispatch` interfaces. Both `IExtensibleObject` and `IVsExtensibleObject` provide a <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject.GetAutomationObject%2A> method.
 
-3.  When the environment then calls the `GetAutomationObject` method passing `NULL`, respond by passing back your VSPackage-specific object.
+3. When the environment then calls the `GetAutomationObject` method passing `NULL`, respond by passing back your VSPackage-specific object.
 
-4.  If calling `QueryInterface` for `IExtensibleObject` and `IVsExtensibleObject` fails, then the environment calls `QueryInterface` for `IDispatch`.
+4. If calling `QueryInterface` for `IExtensibleObject` and `IVsExtensibleObject` fails, then the environment calls `QueryInterface` for `IDispatch`.
 
 ## Automation for document windows
 

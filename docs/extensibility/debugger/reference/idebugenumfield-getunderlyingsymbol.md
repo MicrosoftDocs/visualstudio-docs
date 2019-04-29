@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEnumField::GetUnderlyingSymbol
 This method returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the name of the enumeration.
@@ -30,8 +33,8 @@ int GetUnderlyingSymbol(
 );
 ```
 
-#### Parameters
- `ppField`
+## Parameters
+ `ppField`\
 
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
 
@@ -41,7 +44,7 @@ int GetUnderlyingSymbol(
 ## Remarks
  The name of the enumeration also contains the type of the enumeration, which is bound to a memory location by using [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md).
 
-## See Also
+## See also
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)

@@ -14,23 +14,23 @@ ms.workload:
 # Language service and editor extension points
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:
 
--   Content types
+- Content types
 
--   Classification types and classification formats
+- Classification types and classification formats
 
--   Margins and scrollbars
+- Margins and scrollbars
 
--   Tags
+- Tags
 
--   Adornments
+- Adornments
 
--   Mouse processors
+- Mouse processors
 
--   Drop handlers
+- Drop handlers
 
--   Options
+- Options
 
--   IntelliSense
+- IntelliSense
 
 ## Extend content types
  Content types are the definitions of the kinds of text handled by the editor, for example, "text", "code", or "CSharp". You define a new content type by declaring a variable of the type <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> and giving the new content type a unique name. To register the content type with the editor, export it together with the following attributes:
@@ -107,7 +107,7 @@ internal IContentTypeRegistryService ContentTypeRegistryService { get; set; }
  To associate a content type with a file name extension, use <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition>.
 
 > [!NOTE]
->  In Visual Studio, file name extensions are registered by using the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> on a language service package. The <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> associates a MEF content type with a file name extension that has been registered in this manner.
+> In Visual Studio, file name extensions are registered by using the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> on a language service package. The <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> associates a MEF content type with a file name extension that has been registered in this manner.
 
  To export the file name extension to the content type definition, you must include the following attributes:
 
@@ -264,7 +264,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 - <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>: associated with an adornment.
 
   > [!NOTE]
-  >  For an example of a <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>, see the HighlightWordTag definition in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
+  > For an example of a <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>, see the HighlightWordTag definition in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
 
 - <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>: associated with regions that can be expanded or collapsed in outlining.
 
@@ -310,7 +310,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
  To apply this format definition to a tag, reference the name you set in the name attribute of the class (not the display name).
 
 > [!NOTE]
->  For an example of a <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>, see the HighlightWordFormatDefinition class in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
+> For an example of a <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>, see the HighlightWordFormatDefinition class in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).
 
 ## Extend adornments
  Adornments define visual effects that can be added either to the text that is displayed in a text view or to the text view itself. You can define your own adornment as any type of <xref:System.Windows.UIElement>.
@@ -395,21 +395,21 @@ internal sealed class TestMouseProcessorProvider : IMouseProcessorProvider
 
 - <xref:Microsoft.VisualStudio.Text.Editor.DragDrop.DropFormatAttribute>: the text format for which this drop handler is valid. The following formats are handled in priority order from highest to lowest:
 
-  1.  Any custom format
+  1. Any custom format
 
-  2.  FileDrop
+  2. FileDrop
 
-  3.  EnhancedMetafile
+  3. EnhancedMetafile
 
-  4.  WaveAudio
+  4. WaveAudio
 
-  5.  Riff
+  5. Riff
 
-  6.  Dif
+  6. Dif
 
-  7.  Locale
+  7. Locale
 
-  8.  Palette
+  8. Palette
 
   9. PenData
 
@@ -493,39 +493,39 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 ### Implement an IntelliSense Source
  To customize a source, you must implement one (or more) of the following source interfaces:
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSource>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSource>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>
 
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.
 
  In addition, you must implement a provider of the same kind:
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSourceProvider>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISignatureHelpSourceProvider>
 
--   <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>
+- <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>
 
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>.
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> has been deprecated in favor of <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>.
 
  You must export the provider together with the following attributes:
 
--   <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: the name of the source.
+- <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: the name of the source.
 
--   <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") to which the source applies.
+- <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") to which the source applies.
 
--   <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>: the order in which the source should appear (with respect to other sources).
+- <xref:Microsoft.VisualStudio.Utilities.OrderAttribute>: the order in which the source should appear (with respect to other sources).
 
--   The following example shows export attributes on a completion source provider.
+- The following example shows export attributes on a completion source provider.
 
 ```
 Export(typeof(ICompletionSourceProvider))]

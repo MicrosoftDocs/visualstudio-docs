@@ -29,7 +29,7 @@ You can customize the way Visual Studio displays data types in debugger variable
 
 ## Native Code
 
-For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of native object in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects). For C++/CLI code, you also can use attributes, described here in this article.
+For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of C++ objects in the debugger](/visualstudio/debugger/create-custom-views-of-native-objects). For C++/CLI code, you also can use attributes, described here in this article.
 
 ## Attributes
 
@@ -43,7 +43,7 @@ You can write a visualizer to display any managed data type. For more informatio
 
 ## See Also
 
-- [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
-- [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
+- [Tell the debugger what to show using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)
+- [Tell the debugger what type to show using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
 - [Enhancing Debugging with the Debugger Display Attributes](/dotnet/framework/debug-trace-profile/enhancing-debugging-with-the-debugger-display-attributes)

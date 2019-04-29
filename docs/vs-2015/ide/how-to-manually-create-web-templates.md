@@ -21,7 +21,7 @@ manager: jillfra
 Creating a Web template is different than creating other kinds of templates. Because Web project templates appear in the **Add New Web Site** dialog box, and Web project items are categorized by programming language, the .vstemplate file must specify the template as a Web template and identify the programming language.  
   
 > [!NOTE]
->  Web templates must contain a empty .webproj file that is specified by using the `File` attribute of the `Project` element. Although Web projects do not require project files, this file is required so that a Web template functions correctly.  
+> Web templates must contain a empty .webproj file that is specified by using the `File` attribute of the `Project` element. Although Web projects do not require project files, this file is required so that a Web template functions correctly.  
   
 ### To manually create a Web template  
   

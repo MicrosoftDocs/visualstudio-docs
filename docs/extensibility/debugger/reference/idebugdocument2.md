@@ -46,7 +46,7 @@ IDebugDocument2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IsPositionInDocument](../../../extensibility/debugger/reference/idebugdocumentposition2-ispositionindocument.md)
 - [GetDocument](../../../extensibility/debugger/reference/idebugactivatedocumentevent2-getdocument.md)
 - [GetDocument](../../../extensibility/debugger/reference/idebugdocumentcontext2-getdocument.md)

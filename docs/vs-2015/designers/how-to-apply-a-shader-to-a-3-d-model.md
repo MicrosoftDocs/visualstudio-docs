@@ -17,7 +17,7 @@ This document demonstrates how to use the Model Editor to apply a Directed Graph
   
  This document demonstrates this activity:  
   
--   Applying a shader to a 3-D model  
+- Applying a shader to a 3-D model  
   
 ## Applying a shader to a 3-D model  
  You can apply a shader effect to a 3-D model to give it an interesting appearance.  

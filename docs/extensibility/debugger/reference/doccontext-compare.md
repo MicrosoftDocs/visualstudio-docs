@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DOCCONTEXT_COMPARE
 Specifies the criteria for comparing two document contexts.
@@ -37,17 +40,17 @@ enum enum_DOCCONTEXT_COMPARE {
 };
 ```
 
-## Members
-DOCCONTEXT_EQUAL
+## Fields
+`DOCCONTEXT_EQUAL`\
 Find the first document context in the list that is equal to the target document context.
 
-DOCCONTEXT_LESS_THAN
+`DOCCONTEXT_LESS_THAN`\
 Find the first document context in the list that is less than the target document context.
 
-DOCCONTEXT_GREATER_THAN
+`DOCCONTEXT_GREATER_THAN`\
 Find the first document context in the list that is greater than the target document context.
 
-DOCCONTEXT_SAME_DOCUMENT
+`DOCCONTEXT_SAME_DOCUMENT`\
 Find the first document context in the list that is in the same document as the target document context.
 
 ## Remarks
@@ -62,6 +65,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Compare](../../../extensibility/debugger/reference/idebugdocumentcontext2-compare.md)

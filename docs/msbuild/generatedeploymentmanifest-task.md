@@ -26,7 +26,6 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] de
 
 The following table describes the parameters for the `GenerateDeploymentManifest` task.
 
-
 | Parameter | Description |
 |--------------------------| - |
 | `AssemblyName` | Optional `String` parameter.<br /><br /> Specifies the `Name` field of the assembly identity for the generated manifest. If this parameter is not specified, the name is inferred from the `EntryPoint` or `InputManifest` parameters. If the name cannot be inferred, the task throws an error. |

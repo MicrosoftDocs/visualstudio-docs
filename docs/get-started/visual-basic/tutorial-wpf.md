@@ -2,7 +2,7 @@
 title: "Tutorial: Hello World app with Windows Presentation Foundation (WPF) in Visual Basic"
 description: Create a simple Windows Desktop .NET app in Visual Basic with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "seodec18, get-started"
-ms.date: 03/14/2019
+ms.date: 04/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: conceptual
@@ -21,7 +21,7 @@ By completing this tutorial, you'll become familiar with many of the tools, dial
 
 ::: moniker range="vs-2017"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 
 ::: moniker-end
 
@@ -110,7 +110,7 @@ We will add three types of controls to this application: a <xref:System.Windows.
 
 ### Add a TextBlock control
 
-1.  Enter **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
+1. Enter **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
 2. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
 
@@ -125,7 +125,7 @@ Your window should resemble the following illustration:
 The XAML markup should look something like the following example:
 
 ```xaml
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+<TextBlock HorizontalAlignment="Left" Margin="381,100,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 ```
 
 ### Customize the text in the text block
@@ -297,5 +297,16 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ## See also
 
+::: moniker range="vs-2017"
+
 - [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio.md)
 - [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
+- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+
+::: moniker-end

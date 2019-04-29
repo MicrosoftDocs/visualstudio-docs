@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPointerObject::SetBytes
 Sets the value pointed to from a series of consecutive bytes.
@@ -36,20 +39,20 @@ int SetBytes(
 );
 ```
 
-#### Parameters
- `dwStart`
+## Parameters
+ `dwStart`\
 
  [in] An offset, in bytes, from the start of the object pointed to.
 
- `dwCount`
+ `dwCount`\
 
  [in] The number of bytes to set.
 
- `pBytes`
+ `pBytes`\
 
  [in] An array of bytes representing the new value. This value is stored into the object, starting at the given offset.
 
- `pdwBytes`
+ `pdwBytes`\
 
  [out] Returns the number of bytes actually set.
 
@@ -59,6 +62,6 @@ int SetBytes(
 ## Remarks
  This method is used if the pointer as represented by this [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md) points to a primitive type or a simple array of primitive types (that is, an array that can be represented by a simple sequence of bytes). This `IDebugPointerObject` object cannot be a null reference (it must point to an address in memory).
 
-## See Also
+## See also
 - [GetBytes](../../../extensibility/debugger/reference/idebugpointerobject-getbytes.md)
 - [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)

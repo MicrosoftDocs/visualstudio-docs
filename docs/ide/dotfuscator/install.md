@@ -34,7 +34,6 @@ These instructions explain how to install it.
 > If you want to download the **latest version** directly instead of installing from Visual Studio,
 > **[click here to go to the Dotfuscator Downloads page][download]**.
 
-
 ## Within Visual Studio
 
 ::: moniker range="vs-2019"
@@ -44,7 +43,7 @@ You can install Dotfuscator Community from the Visual Studio IDE:
 1. In the **Search Box** (Ctrl+Q), type `dotfuscator`. <br/> <br/> ![Search Box](media/install_in_vs19_12.png) <br/> <br/>
 
 2. In the search results shown, under the *Components* heading, select **Install PreEmptive Protection - Dotfuscator**.
-  * If you instead see, under the *Menus* heading, **PreEmptive Protection - Dotfuscator Community**, then Dotfuscator Community is already installed. Select that option to [get started][get-started].
+   * If you instead see, under the *Menus* heading, **PreEmptive Protection - Dotfuscator Community**, then Dotfuscator Community is already installed. Select that option to [get started][get-started].
 
 3. A Visual Studio Installer window will launch, pre-configured to install Dotfuscator Community.
    > [!NOTE]
@@ -72,7 +71,6 @@ You can install Dotfuscator Community from the Visual Studio IDE:
 ::: moniker-end
 
 Once the installation is complete, you can [start using Dotfuscator Community][get-started].
-
 
 ## During Visual Studio Installation
 

@@ -160,27 +160,27 @@ Each class has a set of properties and might have a base class. In the Component
 
 Every domain class (including relationships, shapes, connectors, and diagrams) can have these attributes and child nodes:
 
--   **Id.** This attribute is a GUID. If you do not provide a value in the file, the Domain-Specific Language Designer will create a value. (In illustrations in this document, this attribute is usually omitted to save space.)
+- **Id.** This attribute is a GUID. If you do not provide a value in the file, the Domain-Specific Language Designer will create a value. (In illustrations in this document, this attribute is usually omitted to save space.)
 
--   **Name and Namespace.** These attributes specify the name and namespace of the class in the generated code. Together they must be unique within the domain-specific language.
+- **Name and Namespace.** These attributes specify the name and namespace of the class in the generated code. Together they must be unique within the domain-specific language.
 
--   **InheritanceModifier.** This attribute is "abstract", "sealed", or none.
+- **InheritanceModifier.** This attribute is "abstract", "sealed", or none.
 
--   **DisplayName.** This attribute is the name that appears in the **Properties** window. The DisplayName attribute can contain spaces and other punctuation.
+- **DisplayName.** This attribute is the name that appears in the **Properties** window. The DisplayName attribute can contain spaces and other punctuation.
 
--   **GeneratesDoubleDerived.** If this attribute is set to true, two classes are generated, and one is a subclass of the other. All the generated methods are in the base, and the constructors are in the subclass. By setting this attribute, you can override any generated method in custom code.
+- **GeneratesDoubleDerived.** If this attribute is set to true, two classes are generated, and one is a subclass of the other. All the generated methods are in the base, and the constructors are in the subclass. By setting this attribute, you can override any generated method in custom code.
 
--   **HasCustomConstructor**. If this attribute is set to true, the constructor is omitted from the generated code so that you can write your own version.
+- **HasCustomConstructor**. If this attribute is set to true, the constructor is omitted from the generated code so that you can write your own version.
 
--   **Attributes**. This attribute contains the CLR Attributes of the generated class.
+- **Attributes**. This attribute contains the CLR Attributes of the generated class.
 
--   **BaseClass**. If you specify a base class, it must be of the same type. For example, a domain class must have another domain class as its base, and a compartment shape must have a compartment shape. If you do not specify a base class, the class in the generated code derives from a standard framework class. For example, a domain class derives from `ModelElement`.
+- **BaseClass**. If you specify a base class, it must be of the same type. For example, a domain class must have another domain class as its base, and a compartment shape must have a compartment shape. If you do not specify a base class, the class in the generated code derives from a standard framework class. For example, a domain class derives from `ModelElement`.
 
--   **Properties**. This attribute contains the properties that are maintained under transaction control and persisted when the model is saved.
+- **Properties**. This attribute contains the properties that are maintained under transaction control and persisted when the model is saved.
 
--   **ElementMergeDirectives**. Each element merge directive controls how a different instance of another class is added to an instance of the parent class. You can find more detail about element merge directives later in this topic.
+- **ElementMergeDirectives**. Each element merge directive controls how a different instance of another class is added to an instance of the parent class. You can find more detail about element merge directives later in this topic.
 
--   A C# class is generated for each domain class that is listed in the `Classes` section. The C# classes are generated in Dsl\GeneratedCode\DomainClasses.cs.
+- A C# class is generated for each domain class that is listed in the `Classes` section. The C# classes are generated in Dsl\GeneratedCode\DomainClasses.cs.
 
 ### Properties
 
@@ -198,17 +198,17 @@ The type must refer to one of those listed in the `Types` section. Generally, th
 
 Each domain property can also have these attributes:
 
--   **IsBrowsable**. This attribute determines whether the property appears in the **Properties** window when the user clicks an object of the parent class.
+- **IsBrowsable**. This attribute determines whether the property appears in the **Properties** window when the user clicks an object of the parent class.
 
--   **IsUIReadOnly**. This attribute determines whether the user can change the property in the **Properties** window or through a decorator in which the property is presented.
+- **IsUIReadOnly**. This attribute determines whether the user can change the property in the **Properties** window or through a decorator in which the property is presented.
 
--   **Kind**. You can set this attribute to Normal, Calculated, or CustomStorage. If you set this attribute to Calculated, you must provide custom code that determines the value, and the property will be read-only. If you set this attribute to CustomStorage, you must provide code that both gets and sets values.
+- **Kind**. You can set this attribute to Normal, Calculated, or CustomStorage. If you set this attribute to Calculated, you must provide custom code that determines the value, and the property will be read-only. If you set this attribute to CustomStorage, you must provide code that both gets and sets values.
 
--   **IsElementName**. If this attribute is set to true, its value is automatically set to a unique value when an instance of the parent class is created. This attribute can be set to true for only one property in each class, which must have a string type. In the Component Diagram example, the `Name` property in `NamedElement` has `IsElementName` set to true. Whenever a user creates a `Component` element (which inherits from `NamedElement`), the name is automatically initialized to something like "Component6."
+- **IsElementName**. If this attribute is set to true, its value is automatically set to a unique value when an instance of the parent class is created. This attribute can be set to true for only one property in each class, which must have a string type. In the Component Diagram example, the `Name` property in `NamedElement` has `IsElementName` set to true. Whenever a user creates a `Component` element (which inherits from `NamedElement`), the name is automatically initialized to something like "Component6."
 
--   `DefaultValue`. If you have specified this attribute, the value that you specified is assigned to this attribute for new instances of this class. If `IsElementName` is set, the DefaultValue attribute specifies the initial part of the new string.
+- `DefaultValue`. If you have specified this attribute, the value that you specified is assigned to this attribute for new instances of this class. If `IsElementName` is set, the DefaultValue attribute specifies the initial part of the new string.
 
--   **Category** is the header under which the property will appear in the **Properties** window.
+- **Category** is the header under which the property will appear in the **Properties** window.
 
 ## Relationships
 
@@ -220,11 +220,11 @@ For example, the Connection relationship links members of the OutPort class to m
 
 Each relationship contains source and target roles that have the following attributes:
 
--   The `RolePlayer` attribute references the domain class of the linked instances: OutPort for the source, InPort for the target.
+- The `RolePlayer` attribute references the domain class of the linked instances: OutPort for the source, InPort for the target.
 
--   The `Multiplicity` attribute has four possible values (ZeroMany, ZeroOne, One, and OneMany). This attribute refers to the number of links of this relationship that can be associated with one role player.
+- The `Multiplicity` attribute has four possible values (ZeroMany, ZeroOne, One, and OneMany). This attribute refers to the number of links of this relationship that can be associated with one role player.
 
--   The `PropertyName` attribute specifies the name that is used in the role playing class to access the objects at the other end. This name is used in template or custom code to traverse the relationship. For example, the `PropertyName` attribute of the source role is set to `Targets`. Therefore, the following code will work:
+- The `PropertyName` attribute specifies the name that is used in the role playing class to access the objects at the other end. This name is used in template or custom code to traverse the relationship. For example, the `PropertyName` attribute of the source role is set to `Targets`. Therefore, the following code will work:
 
     ```
     OutPort op = ...; foreach (InPort ip in op.Targets) ...
@@ -238,13 +238,13 @@ Each relationship contains source and target roles that have the following attri
     ComponentPort p = ...; Component c = p.Component; if (c != null) ...
     ```
 
--   The role's `Name` is the name that is used within the Relationship class to refer to that end of a link. By convention, a role name is always singular, because each link has only one instance at each end. The following code would work:
+- The role's `Name` is the name that is used within the Relationship class to refer to that end of a link. By convention, a role name is always singular, because each link has only one instance at each end. The following code would work:
 
     ``` 
     Connection connectionLink = ...; OutPort op = connectionLink.Source;
     ```
 
--   By default, the `IsPropertyGenerator` attribute is set to true. If it is set to false, no property is created on the Role Player class. (In that case, `op.Targets`, for example, would not work). However, it is still possible to use custom code to traverse the relationship or obtain access to the links themselves if the custom code uses the relationship explicitly:
+- By default, the `IsPropertyGenerator` attribute is set to true. If it is set to false, no property is created on the Role Player class. (In that case, `op.Targets`, for example, would not work). However, it is still possible to use custom code to traverse the relationship or obtain access to the links themselves if the custom code uses the relationship explicitly:
 
     ``` 
     OutPort op = ...; foreach (InPort ip in Connection.GetTargets(op)) ...
@@ -255,9 +255,9 @@ Each relationship contains source and target roles that have the following attri
 
 In addition to the attributes and child nodes that are available to all classes, each relationship has these attributes:
 
--   **IsEmbedding**. This Boolean attribute specifies whether the relationship is part of the embedding tree. Every model must form a tree with its embedding relationships. Every domain class must therefore be the target of at least one embedding relationship, unless it is the root of a model.
+- **IsEmbedding**. This Boolean attribute specifies whether the relationship is part of the embedding tree. Every model must form a tree with its embedding relationships. Every domain class must therefore be the target of at least one embedding relationship, unless it is the root of a model.
 
--   **AllowsDuplicates**. This Boolean attribute, which is false by default, applies only to relationships that have a "many" multiplicity at both source and target. It determines whether language users may connect a single pair of source and target elements by more than one link of the same relationship.
+- **AllowsDuplicates**. This Boolean attribute, which is false by default, applies only to relationships that have a "many" multiplicity at both source and target. It determines whether language users may connect a single pair of source and target elements by more than one link of the same relationship.
 
 ## Designer and Toolbox Tabs
 
@@ -356,23 +356,23 @@ Much of the generated code that `XmlSerializationBehavior` influences is in `Dsl
 
 Each `XmlClassData` node includes these child nodes and attributes:
 
--   A moniker node, which references the class to which the data applies.
+- A moniker node, which references the class to which the data applies.
 
--   **XmlPropertyData** for each property that is defined on the class.
+- **XmlPropertyData** for each property that is defined on the class.
 
--   **XmlRelationshipData** for each relationship that is sourced at the class. (Relationships also have their own XmlClassData nodes.)
+- **XmlRelationshipData** for each relationship that is sourced at the class. (Relationships also have their own XmlClassData nodes.)
 
--   **TypeName** string attribute, which determines the name of the serialization helper class in the generated code.
+- **TypeName** string attribute, which determines the name of the serialization helper class in the generated code.
 
--   **ElementName** string, which determines the XML tag of serialized instances of this class. By convention, ElementName is usually the same as the class name except the first letter is lowercase. For example, a sample model file starts with the following:
+- **ElementName** string, which determines the XML tag of serialized instances of this class. By convention, ElementName is usually the same as the class name except the first letter is lowercase. For example, a sample model file starts with the following:
 
     ```xml
     <componentModel ...
     ```
 
--   **MonikerElementName** in the user's serialized model files. This attribute introduces a moniker that references this class.
+- **MonikerElementName** in the user's serialized model files. This attribute introduces a moniker that references this class.
 
--   **MonikerAttributeName**, which identifies the name of the XML attribute within a moniker. In this fragment of a user's serialized file, the author of the domain-specific language defined **MonikerElementName** as "inPortMoniker" and **MonikerAttributeName** as "path":
+- **MonikerAttributeName**, which identifies the name of the XML attribute within a moniker. In this fragment of a user's serialized file, the author of the domain-specific language defined **MonikerElementName** as "inPortMoniker" and **MonikerAttributeName** as "path":
 
     ```xml
     <inPortMoniker path="//Component2/InPort1" />
@@ -472,9 +472,9 @@ If the **OmitElement** attribute is set to true, the relationship role name is o
 
 The DslDefinition.dsl file is itself a serialized file and conforms to a domain-specific language definition. The following are some examples of XML serialization definitions:
 
--   **Dsl** is the RootClass node and the class of the diagram. DomainClass, DomainRelationship, and other elements are embedded under `Dsl`.
+- **Dsl** is the RootClass node and the class of the diagram. DomainClass, DomainRelationship, and other elements are embedded under `Dsl`.
 
--   **Classes** is the **RoleElementName** of the relationship between Domain-Specific Language and DomainClass.
+- **Classes** is the **RoleElementName** of the relationship between Domain-Specific Language and DomainClass.
 
 ```xml
 <Dsl Name="CmptDsl5" ...>
@@ -482,7 +482,7 @@ The DslDefinition.dsl file is itself a serialized file and conforms to a domain-
     <DomainClass Name="NamedElement" InheritanceModifier="Abstract" ...
 ```
 
--   The **XmlSerializationBehavior** attribute is embedded under the `Dsl` attribute, but the **OmitElement** attribute has been set on the embedding relationship. Therefore, no `RoleElementName` attribute intervenes. By contrast, a **ClassData** attribute is the `RoleElementName` attribute of the embedding relationship between an **XmlSerializationBehavior** attribute and an **XmlClassData** attribute.
+- The **XmlSerializationBehavior** attribute is embedded under the `Dsl` attribute, but the **OmitElement** attribute has been set on the embedding relationship. Therefore, no `RoleElementName` attribute intervenes. By contrast, a **ClassData** attribute is the `RoleElementName` attribute of the embedding relationship between an **XmlSerializationBehavior** attribute and an **XmlClassData** attribute.
 
 ```xml
 <Dsl Name="CmptDsl5" ...> ...
@@ -492,7 +492,7 @@ The DslDefinition.dsl file is itself a serialized file and conforms to a domain-
       <XmlClassData ...>...</XmlClassData>
 ```
 
--   ConnectorHasDecorators is the embedding relationship between `Connector` and `Decorator`. `UseFullForm` has been set so that the name of the relationship appears with its list of properties for each link from the Connector object. However, `OmitElement` has also been set so that no `RoleElementName` encloses the multiple links that are embedded inside `Connector`:
+- ConnectorHasDecorators is the embedding relationship between `Connector` and `Decorator`. `UseFullForm` has been set so that the name of the relationship appears with its list of properties for each link from the Connector object. However, `OmitElement` has also been set so that no `RoleElementName` encloses the multiple links that are embedded inside `Connector`:
 
 ```xml
 <Connector Name="AssociationLink" ...>
@@ -509,11 +509,11 @@ The DslDefinition.dsl file is itself a serialized file and conforms to a domain-
 
 Shape and Connector definitions inherit attributes and child nodes from domain classes, in addition to the following:
 
--   `Color` and `Line``Style` attributes.
+- `Color` and `Line``Style` attributes.
 
--   **ExposesFillColorAsProperty** and several similar attributes. These Boolean attributes make the corresponding property variable by the user. Generally, when a language user clicks a shape on the diagram, the properties that appear in the **Properties** window are those of the domain class instance to which the shape is mapped. If `ExposesFillColorAsProperty` is set to true, a property of the shape itself also appears.
+- **ExposesFillColorAsProperty** and several similar attributes. These Boolean attributes make the corresponding property variable by the user. Generally, when a language user clicks a shape on the diagram, the properties that appear in the **Properties** window are those of the domain class instance to which the shape is mapped. If `ExposesFillColorAsProperty` is set to true, a property of the shape itself also appears.
 
--   **ShapeHasDecorators**. An instance of this attribute occurs for each text, icon, or expand/collapse decorator. (In the DslDefinition.dsl file, `ShapeHasDecorators` is a relationship with `UseFullForm` set to true.)
+- **ShapeHasDecorators**. An instance of this attribute occurs for each text, icon, or expand/collapse decorator. (In the DslDefinition.dsl file, `ShapeHasDecorators` is a relationship with `UseFullForm` set to true.)
 
 ## Shape Maps
 

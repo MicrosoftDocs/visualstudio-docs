@@ -46,7 +46,7 @@
     href: workspace-language-services.md
   - name: Build
     href: workspace-build.md
-- name: Extending Menus and Commands
+- name: Extend Menus and Commands
   href: extending-menus-and-commands.md
   items:
   - name: Creating an Extension with a Menu Command
@@ -71,7 +71,7 @@
     href: updating-the-user-interface.md
   - name: Localizing Menu Commands
     href: localizing-menu-commands.md
-- name: Adding Commands to Toolbars
+- name: Add Commands to Toolbars
   href: adding-commands-to-toolbars.md
   items:
   - name: Adding a Toolbar
@@ -84,7 +84,7 @@
     href: adding-a-menu-controller-to-a-toolbar.md
   - name: Dynamically Adding Menu Items
     href: dynamically-adding-menu-items.md
-- name: Extending and Customizing Tool Windows
+- name: Extend and Customizing Tool Windows
   href: extending-and-customizing-tool-windows.md
   items:
   - name: Creating an Extension with a Tool Window
@@ -103,9 +103,9 @@
     href: adding-search-to-a-tool-window.md
   - name: Subscribing to an Event
     href: subscribing-to-an-event.md
-  - name: Extending the Output Window
+  - name: Extend the Output Window
     href: extending-the-output-window.md
-  - name: Extending the Properties, Task List, Output, and Options Windows
+  - name: Extend the Properties, Task List, Output, and Options Windows
     href: extending-the-properties-task-list-output-and-options-windows.md
   - name: Creating and Managing Modal Dialog Boxes
     href: creating-and-managing-modal-dialog-boxes.md
@@ -114,7 +114,7 @@
   items:
   - name: Creating an Extension with an Editor Item Template
     href: creating-an-extension-with-an-editor-item-template.md
-  - name: Extending the Editor and Language Services
+  - name: Extend the Editor and Language Services
     href: extending-the-editor-and-language-services.md
     items:
     - name: Getting Started with Language Service and Editor Extensions
@@ -159,7 +159,7 @@
       href: walkthrough-using-a-shortcut-key-with-an-editor-extension.md
     - name: "Walkthrough: Accessing the DTE Object from an Editor Extension"
       href: walkthrough-accessing-the-dte-object-from-an-editor-extension.md
-  - name: Creating Custom Editors and Designers
+  - name: Create Custom Editors and Designers
     href: creating-custom-editors-and-designers.md
     items:
     - name: "Walkthrough: Creating a Custom Editor"
@@ -191,7 +191,9 @@
         href: how-to-open-standard-editors.md
       - name: Open Editors for Open Documents
         href: how-to-open-editors-for-open-documents.md
-- name: Extending Projects
+    - name: XAML Designer Extensibility Migration Guide
+      href: xaml-designer-extensibility-migration.md
+- name: Extend Projects
   href: extending-projects.md
   items:
   - name: Creating a Basic Project System, Part 1
@@ -210,14 +212,14 @@
     href: persisting-the-property-of-a-project-item.md
   - name: Managing Universal Windows Projects
     href: managing-universal-windows-projects.md
-- name: Extending Solutions
+- name: Extend Solutions
   href: extending-solutions.md
   items:
-  - name: Extending the Solution Explorer Filter
+  - name: Extend the Solution Explorer Filter
     href: extending-the-solution-explorer-filter.md
   - name: Managing Project Loading in a Solution
     href: managing-project-loading-in-a-solution.md
-- name: Creating Custom Project and Item Templates
+- name: Create Custom Project and Item Templates
   href: creating-custom-project-and-item-templates.md
   items:
   - name: Upgrading Custom Project and Item Templates for Visual Studio 2017
@@ -335,7 +337,7 @@
       href: wizardextension-element-visual-studio-templates.md
   - name: Visual Studio Template Manifest Schema Reference
     href: visual-studio-template-manifest-schema-reference.md
-- name: Extending User Settings and Options
+- name: Extend User Settings and Options
   href: extending-user-settings-and-options.md
   items:
   - name: Creating an Options Page
@@ -348,14 +350,14 @@
     href: getting-service-information-from-the-settings-store.md
   - name: Writing to the User Settings Store
     href: writing-to-the-user-settings-store.md
-- name: Extending Properties and the Property Window
+- name: Extend Properties and the Property Window
   href: extending-properties-and-the-property-window.md
   items:
   - name: Exposing Properties to the Properties Window
     href: exposing-properties-to-the-properties-window.md
   - name: Getting Project Properties
     href: getting-project-properties.md
-- name: Extending Other Parts of Visual Studio
+- name: Extend Other Parts of Visual Studio
   href: extending-other-parts-of-visual-studio.md
   items:
   - name: Creating an Extension with a VSPackage
@@ -364,7 +366,7 @@
     href: creating-a-wpf-toolbox-control.md
   - name: Creating a Windows Forms Toolbox Control
     href: creating-a-windows-forms-toolbox-control.md
-  - name: Extending the Status Bar
+  - name: Extend the Status Bar
     href: extending-the-status-bar.md
   - name: Creating a Custom Start Page
     href: creating-a-custom-start-page.md
@@ -423,11 +425,13 @@
     href: ux-guidelines/animations-for-visual-studio.md
   - name: Evaluation Tools
     href: ux-guidelines/evaluation-tools-for-visual-studio.md
-- name: Addressing DPI Issues
+  - name: Per-monitor-awareness support
+    href: ux-guidelines/per-monitor-awareness-extenders.md
+- name: Address DPI Issues
   href: addressing-dpi-issues2.md
 - name: Image Service and Catalog
   href: image-service-and-catalog.md
-- name: Using and Providing Services
+- name: Use and Provide Services
   href: using-and-providing-services.md
   items:
   - name: Get a Service
@@ -438,7 +442,7 @@
     href: how-to-provide-an-asynchronous-visual-studio-service.md
   - name: Troubleshoot Services
     href: how-to-troubleshoot-services.md
-- name: Managing VSPackages
+- name: Manage VSPackages
   href: managing-vspackages.md
   items:
   - name: The Experimental Instance
@@ -461,7 +465,7 @@
     href: troubleshooting-vspackages.md
 - name: Shell (Integrated or Isolated)
   href: https://vspartner.com/pages/vsshells
-- name: Shipping Visual Studio Extensions
+- name: Ship Visual Studio Extensions
   href: shipping-visual-studio-extensions.md
   items:
   - name: VSIX Project Template
@@ -485,16 +489,16 @@
       href: the-structure-of-the-content-types-dot-xml-file.md
     - name: VSIX Manifest Designer
       href: vsix-manifest-designer.md
-  - name: Localizing VSIX Packages
+  - name: Localize VSIX Packages
     href: localizing-vsix-packages.md
     items:
     - name: VSIX Language Pack Schema 2.0 Reference
       href: vsix-language-pack-schema-2-0-reference.md
   - name: Update a Visual Studio Extension
     href: how-to-update-a-visual-studio-extension.md
-  - name: Preparing Extensions for Windows Installer Deployment
+  - name: Prepare Extensions for Windows Installer Deployment
     href: preparing-extensions-for-windows-installer-deployment.md
-  - name: Signing VSIX Packages
+  - name: Sign VSIX Packages
     href: signing-vsix-packages.md
   - name: Private Galleries
     href: private-galleries.md
@@ -503,7 +507,7 @@
       href: how-to-create-an-atom-feed-for-a-private-gallery.md
     - name: Manage a Private Gallery By Using Registry Settings
       href: how-to-manage-a-private-gallery-by-using-registry-settings.md
-  - name: Supporting Multiple Versions of Visual Studio
+  - name: Support Multiple Versions of Visual Studio
     href: supporting-multiple-versions-of-visual-studio.md
     items:
     - name: Choosing Between Shared and Versioned VSPackages
@@ -519,8 +523,10 @@
         href: registering-verbs-for-file-name-extensions.md
       - name: Managing Side-by-Side File Associations
         href: managing-side-by-side-file-associations.md
-  - name: Locating Visual Studio
+  - name: Locate Visual Studio
     href: locating-visual-studio.md
+  - name: Launch Visual Studio using DTE
+    href: launch-visual-studio-dte.md
 - name: Inside the Visual Studio SDK
   href: internals/toc.yml
 - name: Support for the Visual Studio SDK
@@ -767,7 +773,7 @@
       href: vstextview-object.md
   - name: Visual Studio SDK Glossary
     href: visual-studio-sdk-glossary.md
-- name: Creating a Software Development Kit
+- name: Create a Software Development Kit
   href: creating-a-software-development-kit.md
   items:
   - name: "Walkthrough: Creating an SDK using C# or Visual Basic"

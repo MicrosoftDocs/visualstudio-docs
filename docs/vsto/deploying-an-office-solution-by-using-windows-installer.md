@@ -20,10 +20,10 @@ ms.workload:
   - "office"
 ---
 # Deploy an Office solution by using Windows Installer
+
 Learn how to create a Windows Installer for your Office solution by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)].
 
 By using Visual Studio to create a Windows Installer, you can deploy an Office solution that requires administrative access on the end user's computer. For example, you can use such a file to install a solution only once for all users of a computer. You can also deploy an Office solution by using ClickOnce, but that solution must be installed separately for each user of the computer.
-
 
 ## In this topic
 
@@ -53,11 +53,8 @@ For more information about how to deploy an Office solution by using ClickOnce, 
 
 For information about how to create a Windows Installer file by using [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], see [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](http://go.microsoft.com/fwlink/?LinkId=201807).
 
-
 ## <a name="Download"></a>Download samples
 This topic refers to the following downloadable samples.
-
-
 
 |Sample<br /><br />|Description<br /><br />|
 |----------|---------------|
@@ -67,7 +64,6 @@ This topic refers to the following downloadable samples.
 ## <a name="ApplySecurity"></a>Decide how to grant trust to the solution
 Before a solution can run on user computers, you must grant trust in either of the following ways, or users must respond to a trust prompt when they install the solution.
 
-
 - Sign the manifests by using a certificate that identifies a known and trusted publisher. For more information, see [Trust the solution by signing the application and deployment manifests](../vsto/granting-trust-to-office-solutions.md#Signing).
 
 - Install the solution to the Program Files directory on the user's computer.
@@ -75,10 +71,9 @@ Before a solution can run on user computers, you must grant trust in either of t
 > [!NOTE]
 > For document-level customizations, the location of the document must also be trusted. For more information, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).
 
-
 ## <a name="Obtain"></a>Get InstallShield Limited Edition
-You can create a Windows Installer file by using InstallShield Limited Edition (ISLE), which is free if you've installed Visual Studio. ISLE replaces the functionality of the project templates for setup and deployment that previous versions of Visual Studio offered.
 
+You can create a Windows Installer file by using InstallShield Limited Edition (ISLE), which is free if you've installed Visual Studio. ISLE replaces the functionality of the project templates for setup and deployment that previous versions of Visual Studio offered.
 
 ### To get InstallShield Limited Edition
 
@@ -98,7 +93,6 @@ You can create a Windows Installer file by using InstallShield Limited Edition (
 
    After you download, install, and activate the product, the **InstallShield Limited Edition Project** template appears in Visual Studio.
 
-
 ## <a name="Create"></a>Create a setup project
 
 1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the Office project that you want to deploy.
@@ -117,10 +111,9 @@ You can create a Windows Installer file by using InstallShield Limited Edition (
 
    The samples for this topic contain a setup project that's named **OfficeAddInSetup**. This topic will refer to the setup project in your solution by using the same name.
 
-
 ## <a name="Add"></a>Add the project output
-You configure the **OfficeAddInSetup** project to include the output of your Office project. For VSTO Add-in projects, the project output is the solution assembly only. For document-level customization projects, the project output includes not only the solution assembly but also the document itself.
 
+You configure the **OfficeAddInSetup** project to include the output of your Office project. For VSTO Add-in projects, the project output is the solution assembly only. For document-level customization projects, the project output includes not only the solution assembly but also the document itself.
 
 ### To add the project output
 
@@ -138,10 +131,8 @@ You configure the **OfficeAddInSetup** project to include the output of your Off
 
 5. In the **Visual Studio Output Selector** dialog box, select the **Primary Output** check box, and then choose the **OK** button.
 
-
 ## <a name="AddD"></a>Add the deployment and application manifests
 
-###
 1. In the **Application Files** page, choose the **Add Files** button.
 
 2. In the **Open** dialog box, browse to the output directory of the **ExcelAddIn** project.
@@ -154,15 +145,13 @@ You configure the **OfficeAddInSetup** project to include the output of your Off
 
    ![The output files of your setup project.](../vsto/media/installshield-outputfiles.png "The output files of your setup project.")
 
-
 ## <a name="Configure"></a>Configure the dependent components as prerequisites
-In your setup application, you must include not only the following components but also any other components that are required for your solution to run.
 
+In your setup application, you must include not only the following components but also any other components that are required for your solution to run.
 
 - The version of the .NET Framework that your Office solution targets.
 
 - The Microsoft Visual Studio 2010 Tools for Office Runtime.
-
 
 ### Add the .NET Framework 4 or the .NET Framework 4.5 as a prerequisite
 
@@ -180,15 +169,13 @@ In your setup application, you must include not only the following components bu
 
 4. If this dialog box appears, choose the **No** button.
 
-
 ### <a name="AddToolsForOffice"></a>Add the Visual Studio 2010 Tools for Office Runtime
-The **Redistributables** page contains an item that's named **Microsoft VSTO 2010 Runtime**, but it refers to an older version of the runtime. Therefore, you could manually create a configuration file that refers to the most recent version. You must then put that file into the same directory as the configuration files for all of the other items that appear in the **Redistributables** page.
 
+The **Redistributables** page contains an item that's named **Microsoft VSTO 2010 Runtime**, but it refers to an older version of the runtime. Therefore, you could manually create a configuration file that refers to the most recent version. You must then put that file into the same directory as the configuration files for all of the other items that appear in the **Redistributables** page.
 
 #### To add the Visual Studio 2010 Tools for Office runtime as a prerequisite
 
 1. Open Notepad, and then paste the following XML into a text file.
-
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -216,7 +203,6 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
 
    The **&lt;properties&gt;** element of your file resembles the following.
 
-
    ```xml
    <properties Id="{87989B73-21DC-4403-8FD1-0C68A41A6D8C}" Description="This prerequisite installs the most recent version of the Microsoft Visual Studio 2010 Tools for Office Runtime." >
    </properties>
@@ -231,7 +217,7 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
 8. In the **File name** box, enter **Visual Studio 2010 Tools for Office Runtime.prq**, and then choose the **Save** button.
 
    > [!NOTE]
-   >    Make sure that you add **.prq** at the end of the file name to identify this file as a prerequisite file.
+   > Make sure that you add **.prq** at the end of the file name to identify this file as a prerequisite file.
 
 9. Close Notepad.
 
@@ -251,7 +237,6 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
 
 13. If this dialog box appears, choose the **No** button.
 
-
 ## <a name="Location"></a>Specify where to install the solution on the user's computer
 
 1. In **Solution Explorer**, expand the **OfficeAddInSetup** node, expand the **Organize your Setup** node, and then choose the **General Information** file.
@@ -263,10 +248,10 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
 4. In the **Set INSTALLDIR** dialog box, choose a folder on the user's computer where you want to install the solution.
 
    > [!NOTE]
-   >    You can also create subdirectories in the **Set INSTALLDIR** dialog box by opening the shortcut menu for any folder in the list.
-
+   > You can also create subdirectories in the **Set INSTALLDIR** dialog box by opening the shortcut menu for any folder in the list.
 
 ## <a name="ConfigureRegistry"></a>Configure a VSTO Add-in
+
 You can specify whether you want your VSTO Add-in to be installed for all users of the computer (per-computer), or only for the user performing the installation (per-user).
 
 If you want to support per-computer installations, create two separate installers. You can split installers based on the Office version (32-bit and 64-bit) or on the Windows version (32-bit and 64-bit) that the user is running.
@@ -275,7 +260,6 @@ Per-user installations require only one installer regardless of Office or Window
 
 > [!NOTE]
 > This section applies only if you're deploying a VSTO Add-in. If you're deploying a document-level customization, you can immediately go to the [Configure a document-level customization](#ConfigureDocument) section.
-
 
 ### To specify whether you want to support per-user or per-computer installations
 
@@ -290,7 +274,6 @@ Per-user installations require only one installer regardless of Office or Window
    To install the VSTO Add-in for the current user, choose **ALLUSERS="" (Per-user installation)**. To install the VSTO Add-in for all users of the computer, choose **ALLUSERS=1 (Per-machine installation)**
 
    In the next procedure, you'll create registry keys to enable the Office application to discover and load the VSTO Add-in. See [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).
-
 
 ### To create registry keys
 
@@ -316,8 +299,6 @@ Per-user installations require only one installer regardless of Office or Window
 
    **Per-computer installers based on Office version**
 
-
-
 | Office version<br /><br /> | InstallShield Configuration Path<br /><br /> |
 |----------------------------| - |
 | 32-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
@@ -325,18 +306,16 @@ Per-user installations require only one installer regardless of Office or Window
 
    **Per-computer installers based on Windows version**
 
-
-
 | Windows version<br /><br /> | InstallShield Configuration Path<br /><br /> |
 |-----------------------------| - |
 | 32-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 | 64-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />**HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 
    > [!NOTE]
-   >    An installer for 64-bit Windows requires two registry paths because it's possible for users to run 32-bit and 64-bit versions of Office on a computer that runs 64-bit Windows.
+   > An installer for 64-bit Windows requires two registry paths because it's possible for users to run 32-bit and 64-bit versions of Office on a computer that runs 64-bit Windows.
 
    > [!NOTE]
-   >    As a best practice, start the name of your VSTO Add-in with the name of your company. This convention increases the chance that the key will be unique and decreases the chance of conflict with a VSTO Add-in from another supplier. Add-ins that have the same name can, for example, overwrite each other's registration keys. This approach can't guarantee that the key will be unique but can reduce potential name collisions.
+   > As a best practice, start the name of your VSTO Add-in with the name of your company. This convention increases the chance that the key will be unique and decreases the chance of conflict with a VSTO Add-in from another supplier. Add-ins that have the same name can, for example, overwrite each other's registration keys. This approach can't guarantee that the key will be unique but can reduce potential name collisions.
 
 5. After you've created the hierarchy of keys, open the shortcut menu for the **SampleCompany.ExcelAddIn** key, choose **New**, and then choose **String Value**.
 
@@ -345,8 +324,6 @@ Per-user installations require only one installer regardless of Office or Window
 6. Rename the value to **Description**.
 
 7. Repeat this process to create the following values.
-
-
 
 |Value Type<br /><br />|Name<br /><br />|
 |--------------|--------|
@@ -389,8 +366,8 @@ Per-user installations require only one installer regardless of Office or Window
 > [!IMPORTANT]
 > If you create a custom form region in a VSTO Add-in for Outlook, you must create more registry entries to register the region with Outlook. For more information, see [Registry entries for Outlook form regions](../vsto/registry-entries-for-vsto-add-ins.md#OutlookEntries).
 
-
 ## <a name="ConfigureDocument"></a>Configure a document-level customization
+
 This section applies only if you're deploying a document-level customization. If you're deploying a VSTO Add-in, you can go immediately to the [Build the setup project](#Build) section.
 
 Document-level customizations don't use registry keys. Instead, custom document properties contain the location of the deployment manifest.
@@ -413,7 +390,6 @@ To modify custom properties, you create a program that removes the document-leve
 
 6. In the **Reference Manager** dialog box, choose the **Extensions** tab, and then select the check box next to the following assemblies, and then choose the **OK** button.
 
-
    - Microsoft.VisualStudio.Tools.Applications.Runtime
 
    - Microsoft.VisualStudio.Tools.Applications.ServerDocument
@@ -428,7 +404,6 @@ To modify custom properties, you create a program that removes the document-leve
 [!code-csharp[Trin_CustomAction#1](../vsto/codesnippet/CSharp/setexceldocumentproperties/program.cs#1)]
 
 10. Compile the project.
-
 
 ### To add a custom action that runs your program
 
@@ -455,14 +430,14 @@ To modify custom properties, you create a program that removes the document-leve
    A list of events appear in a pane to the side of the screen.
 
    > [!NOTE]
-   >    Only a few events that appear in this list are available in InstallShield Limited Edition. In this procedure, you'll run the program by using the **After Setup Complete Success dialog** event.
+   > Only a few events that appear in this list are available in InstallShield Limited Edition. In this procedure, you'll run the program by using the **After Setup Complete Success dialog** event.
 
 8. In the list of events, under **Custom Actions During Installation**, open the shortcut menu for the **After Setup Complete Success dialog** event, and then choose **New EXE**.
 
    A custom action that's named **NewCustomAction1** appears under the **After Setup Complete Success dialog** event. A set of properties for the custom action appears in a pane next to the events.
 
    > [!IMPORTANT]
-   >    Two **After Setup Complete Success dialog** events appear in the list of events. Make sure that you choose the instance of the **After Setup Complete Success dialog** event that appears under the **Custom Actions During Installation** node.
+   > Two **After Setup Complete Success dialog** events appear in the list of events. Make sure that you choose the instance of the **After Setup Complete Success dialog** event that appears under the **Custom Actions During Installation** node.
 
 9. In the list for the **Source Location** property, choose **Installed with the Product**.
 
@@ -486,7 +461,6 @@ To modify custom properties, you create a program that removes the document-leve
 
 15. In the properties page of **NewCustomAction1**, set the **Command Line** property to the following line of text.
 
-
    ```cmd
    /assemblyLocation="[INSTALLDIR]ExcelWorkbook.dll" /deploymentManifestLocation="[INSTALLDIR]ExcelWorkbook.vsto" /documentLocation="[INSTALLDIR]ExcelWorkbook.xlsx" /solutionID="Your Solution ID"
    ```
@@ -494,8 +468,7 @@ To modify custom properties, you create a program that removes the document-leve
 16. Replace **Your Solution ID** with the solution ID that you copied to the Clipboard.
 
    > [!IMPORTANT]
-   >    Test your installer to verify that the console application that this custom action runs can access documents in the [INSTALLDIR] directory. Some directories on the user's computer might require administrative access (for example, the Program Files directory). If you're deploying your solution to a directory that requires administrative access, you should open the **Properties** dialog box of the *setup.exe* file, choose the **Compatibility** tab, and then select the **Run this program as administrator** check box before you distribute the installer. If you don't want users to run the setup program with administrative permissions, set the [INSTALLDIR] property to a directory to which the user probably has access already, such as the **Documents** directory. For more information, see the [Specify Where You Want to Install the Solution on the user's computer](#Location) section of this topic.
-
+   > Test your installer to verify that the console application that this custom action runs can access documents in the [INSTALLDIR] directory. Some directories on the user's computer might require administrative access (for example, the Program Files directory). If you're deploying your solution to a directory that requires administrative access, you should open the **Properties** dialog box of the *setup.exe* file, choose the **Compatibility** tab, and then select the **Run this program as administrator** check box before you distribute the installer. If you don't want users to run the setup program with administrative permissions, set the [INSTALLDIR] property to a directory to which the user probably has access already, such as the **Documents** directory. For more information, see the [Specify Where You Want to Install the Solution on the user's computer](#Location) section of this topic.
 
 ## <a name="Build"></a>Build the setup project
 

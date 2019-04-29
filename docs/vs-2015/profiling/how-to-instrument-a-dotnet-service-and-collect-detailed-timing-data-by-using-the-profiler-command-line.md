@@ -16,11 +16,11 @@ manager: jillfra
 This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service and collect detailed timing data.  
 
 > [!NOTE]
->  You cannot profile a service with the instrumentation method if the service cannot be restarted after the computer starts, such a service that starts only when the operating system starts.  
+> You cannot profile a service with the instrumentation method if the service cannot be restarted after the computer starts, such a service that starts only when the operating system starts.  
 >   
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
 >   
->  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
+> Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
 
  To collect detailed timing data from a [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] service by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then replace the non-instrumented version of the service with the instrumented version, making sure that the service is configured to start manually. You use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the global profiling environment variables and then restart the host computer. You then start the profiler.  
 
@@ -57,7 +57,7 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
      You can use any one of the following options with the **/start:trace** option.  
 
    > [!NOTE]
-   >  The **/user** and **/crosssession** options are usually required for profiling services.  
+   > The **/user** and **/crosssession** options are usually required for profiling services.  
 
    |                                 Option                                  |                                                                                                                                            Description                                                                                                                                             |
    |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,7 +70,6 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                           Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                            |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                              Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                              |
 
-
 8. Start the service from Windows Service Control Manager.  
 
 ## Controlling Data Collection  
@@ -78,7 +77,7 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -93,19 +92,19 @@ This topic describes how to use [!INCLUDE[vsPreShort](../includes/vspreshort-md.
 
 #### To end a profiling session  
 
-1.  Stop the service from Service Control Manager.  
+1. Stop the service from Service Control Manager.  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 
-3.  When you have completed all profiling, clear the profiling environment variables. Type:  
+3. When you have completed all profiling, clear the profiling environment variables. Type:  
 
      **VSPerfClrEnv /globaloff**  
 
-4.  Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
+4. Replace the instrumented module with the original. If necessary, reconfigure the Startup Type of the service.  
 
-5.  Restart the computer.  
+5. Restart the computer.  
 
 ## See Also  
  [Profiling Services](../profiling/command-line-profiling-of-services.md)   

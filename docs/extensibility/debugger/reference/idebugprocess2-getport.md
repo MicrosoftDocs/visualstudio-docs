@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProcess2::GetPort
 Gets the port that the process is running on.
@@ -30,14 +33,14 @@ int GetPort( 
 );
 ```
 
-#### Parameters
- `ppPort`
+## Parameters
+ `ppPort`\
 
  [out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port on which the process was launched.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

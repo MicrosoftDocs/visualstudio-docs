@@ -23,22 +23,22 @@ You can instrument binaries from the [!INCLUDE[vs_current_short](../includes/vs-
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!IMPORTANT]
->  Every probe that is inserted modifies the behavior of the original program slightly. This modification causes overhead at analysis time. Even though an approximation of this overhead is subtracted, it still has subtle timing effects on multithreaded applications. The [VSInstr](../profiling/vsinstr.md) tool options help control data collection during profiling.  
+> Every probe that is inserted modifies the behavior of the original program slightly. This modification causes overhead at analysis time. Even though an approximation of this overhead is subtracted, it still has subtle timing effects on multithreaded applications. The [VSInstr](../profiling/vsinstr.md) tool options help control data collection during profiling.  
   
 ### To specify additional instrumentation option  
   
-1.  In **Performance Explorer**, select the **Performance Session** and then right-click and select **Properties**.  
+1. In **Performance Explorer**, select the **Performance Session** and then right-click and select **Properties**.  
   
-2.  In the **Properties Pages**, click the **Advanced** properties.  
+2. In the **Properties Pages**, click the **Advanced** properties.  
   
-3.  Type options in the **Additional instrumentation options** box.  
+3. Type options in the **Additional instrumentation options** box.  
   
      For example, use /CONTROL:THREAD to specify the profiling level. For a complete list of options, see [VSInstr](../profiling/vsinstr.md).  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   

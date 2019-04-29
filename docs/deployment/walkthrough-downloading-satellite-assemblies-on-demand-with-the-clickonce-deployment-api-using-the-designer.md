@@ -29,43 +29,43 @@ Windows Forms applications can be configured for multiple cultures through the u
  This walkthrough demonstrates how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings.
 
 > [!NOTE]
->  For testing purposes, the following code examples programmatically set the culture to `ja-JP`. See the "Next Steps" section later in this topic for information on how to adjust this code for a production environment.
+> For testing purposes, the following code examples programmatically set the culture to `ja-JP`. See the "Next Steps" section later in this topic for information on how to adjust this code for a production environment.
 
 ### To mark satellite assemblies as optional
 
-1.  Build your project. This will generate satellite assemblies for all of the cultures you are localizing to.
+1. Build your project. This will generate satellite assemblies for all of the cultures you are localizing to.
 
-2.  Right-click on your project name in Solution Explorer, and click **Properties**.
+2. Right-click on your project name in Solution Explorer, and click **Properties**.
 
-3.  Click the **Publish** tab, and then click **Application Files**.
+3. Click the **Publish** tab, and then click **Application Files**.
 
-4.  Select the **Show all files** check box to display satellite assemblies. By default, all satellite assemblies will be included in your deployment and will be visible in this dialog box.
+4. Select the **Show all files** check box to display satellite assemblies. By default, all satellite assemblies will be included in your deployment and will be visible in this dialog box.
 
      A satellite assembly will have a name in the form *\<isoCode>\ApplicationName.resources.dll*, where \<isoCode> is a language identifier in RFC 1766 format.
 
-5.  Click **New** in the **Download Group** list for each language identifier. When prompted for a download group name, enter the language identifier. For example, for a Japanese satellite assembly, you would specify the download group name `ja-JP`.
+5. Click **New** in the **Download Group** list for each language identifier. When prompted for a download group name, enter the language identifier. For example, for a Japanese satellite assembly, you would specify the download group name `ja-JP`.
 
-6.  Close the **Application Files** dialog box.
+6. Close the **Application Files** dialog box.
 
 ### To download satellite assemblies on demand in C\#
 
-1.  Open the *Program.cs* file. If you do not see this file in Solution Explorer, select your project, and on the **Project** menu, click **Show All Files**.
+1. Open the *Program.cs* file. If you do not see this file in Solution Explorer, select your project, and on the **Project** menu, click **Show All Files**.
 
-2.  Use the following code to download the appropriate satellite assembly and start your application.
+2. Use the following code to download the appropriate satellite assembly and start your application.
 
      [!code-csharp[ClickOnce.SatelliteAssemblies#1](../deployment/codesnippet/CSharp/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_1.cs)]
 
 ### To download satellite assemblies on demand in Visual Basic
 
-1.  In the **Properties** window for the application, click the **Application** tab.
+1. In the **Properties** window for the application, click the **Application** tab.
 
-2.  At the bottom of the tab page, click **View Application Events**.
+2. At the bottom of the tab page, click **View Application Events**.
 
-3.  Add the following imports to the beginning of the *ApplicationEvents.VB* file.
+3. Add the following imports to the beginning of the *ApplicationEvents.VB* file.
 
      [!code-vb[ClickOnce.SatelliteAssembliesVB#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_2.vb)]
 
-4.  Add the following code to the `MyApplication` class.
+4. Add the following code to the `MyApplication` class.
 
      [!code-vb[ClickOnce.SatelliteAssembliesVB#2](../deployment/codesnippet/VisualBasic/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_3.vb)]
 

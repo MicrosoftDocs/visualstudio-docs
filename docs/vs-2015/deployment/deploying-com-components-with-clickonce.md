@@ -43,9 +43,9 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
  There are two ways that [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deploys COM components:  
   
--   Use the bootstrapper to deploy your COM components; this works on all supported platforms.  
+- Use the bootstrapper to deploy your COM components; this works on all supported platforms.  
   
--   Use native component isolation (also known as registration-free COM) deployment. However, this will only work on a Windows XP or higher operating system.  
+- Use native component isolation (also known as registration-free COM) deployment. However, this will only work on a Windows XP or higher operating system.  
   
 ### Example of Isolating and Deploying a Simple COM Component  
  In order to demonstrate registration-free COM component deployment, this example will create a Windows-based application in Visual Basic that references an isolated native COM component created using Visual Basic 6.0, and deploy it using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)].  
@@ -54,16 +54,16 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
 ##### To create a native COM component  
   
-1.  Using Visual Basic 6.0, from the **File** menu, click **New**, then **Project**.  
+1. Using Visual Basic 6.0, from the **File** menu, click **New**, then **Project**.  
   
-2.  In the **New Project** dialog box, select the **Visual Basic** node and select an **ActiveX DLL** project. In the **Name** box, type `VB6Hello`.  
+2. In the **New Project** dialog box, select the **Visual Basic** node and select an **ActiveX DLL** project. In the **Name** box, type `VB6Hello`.  
   
     > [!NOTE]
-    >  Only ActiveX DLL and ActiveX Control project types are supported with registration-free COM; ActiveX EXE and ActiveX Document project types are not supported.  
+    > Only ActiveX DLL and ActiveX Control project types are supported with registration-free COM; ActiveX EXE and ActiveX Document project types are not supported.  
   
-3.  In **Solution Explorer**, double-click **Class1.vb** to open the text editor.  
+3. In **Solution Explorer**, double-click **Class1.vb** to open the text editor.  
   
-4.  In Class1.vb, add the following code after the generated code for the `New` method:  
+4. In Class1.vb, add the following code after the generated code for the `New` method:  
   
     ```  
     Public Sub SayHello()  
@@ -71,10 +71,10 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
     End Sub  
     ```  
   
-5.  Build the component. From the **Build** menu, click **Build Solution**.  
+5. Build the component. From the **Build** menu, click **Build Solution**.  
   
 > [!NOTE]
->  Registration-free COM supports only DLLs and COM controls project types. You cannot use EXEs with registration-free COM.  
+> Registration-free COM supports only DLLs and COM controls project types. You cannot use EXEs with registration-free COM.  
   
  Now you can create a Windows-based application and add a reference to the COM component to it.  
   
@@ -122,7 +122,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
    Now, when you press F5, the application works as expected, but it is now running under registration-free COM. In order to prove this, try unregistering the VB6Hello.dll component and running RegFreeComDemo1.exe outside of the Visual Studio IDE. This time when the button is clicked, it still works. If you temporarily rename the application manifest, it will again fail.  
   
 > [!NOTE]
->  You can simulate the absence of a COM component by temporarily unregistering it. Open a command prompt, go to your system folder by typing `cd /d %windir%\system32`, then unregister the component by typing `regsvr32 /u VB6Hello.dll`. You can register it again by typing `regsvr32 VB6Hello.dll`.  
+> You can simulate the absence of a COM component by temporarily unregistering it. Open a command prompt, go to your system folder by typing `cd /d %windir%\system32`, then unregister the component by typing `regsvr32 /u VB6Hello.dll`. You can register it again by typing `regsvr32 VB6Hello.dll`.  
   
  The final step is to publish the application using [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]:  
   

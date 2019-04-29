@@ -43,7 +43,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 ```  
   
 > [!NOTE]
->  The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.  
+> The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.  
   
  You can set the value of the `Command` property to any command that can be accessed from the **Command** window. For a list of available commands, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).  
   
@@ -59,22 +59,22 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
  You can call commands from registered VSPackages by using the same syntax that is used to call other Visual Studio commands. For example, if an installed VSPackage adds a **Home Page** command to the **View** menu, you can call that command by setting `CommandParameter` to `View.HomePage`.  
   
 > [!NOTE]
->  If you call a command that is associated with a VSPackage, the package must be loaded when the command is invoked.  
+> If you call a command that is associated with a VSPackage, the package must be loaded when the command is invoked.  
   
 ## Adding Commands from Assemblies  
  To call a command from an assembly, or to access code in a VSPackage that is not associated with a menu command, you must create an alias for the assembly and then call the alias.  
   
 #### To call a command from an assembly  
   
-1.  In your solution, add a reference to the assembly.  
+1. In your solution, add a reference to the assembly.  
   
-2.  At the top of the StartPage.xaml file, add a namespace directive for the assembly, as shown in the following example.  
+2. At the top of the StartPage.xaml file, add a namespace directive for the assembly, as shown in the following example.  
   
     ```xml  
     xmlns:vsc="clr-namespace:WebUserControl;assembly=WebUserControl"  
     ```  
   
-3.  Invoke the command by setting the `Command` property of a XAML object, as shown in the following example.  
+3. Invoke the command by setting the `Command` property of a XAML object, as shown in the following example.  
   
      Xaml  
   
@@ -83,7 +83,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
     ```  
   
 > [!NOTE]
->  You must copy your assembly and then paste it in ..\\*Visual Studio installation folder*\Common7\IDE\PrivateAssemblies\ to make sure it is loaded before it is called.  
+> You must copy your assembly and then paste it in ..\\*Visual Studio installation folder*\Common7\IDE\PrivateAssemblies\ to make sure it is loaded before it is called.  
   
 ## Adding Commands with the DTE object  
  You can access the DTE object from a Start Page, both in markup and in code.  

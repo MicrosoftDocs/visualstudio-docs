@@ -51,7 +51,6 @@ To avoid impacts to your subscription access, use one of these techniques.
 - Deploy a single identity management system -- either MSA or AAD -- but not both.
 - Associate the AAD and MSA identities via the tenant.
 
-
 ## Next steps
 - Learn how to [link MSA and AAD accounts](/azure/active-directory/b2b/add-users-administrator) within AAD.
 - Learn more about [anonymization](anonymization.md).

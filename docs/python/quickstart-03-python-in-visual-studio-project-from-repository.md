@@ -3,8 +3,8 @@ title: Quickstart - Clone a repository of Python code
 description: In this quickstart, you create a Python project in Visual Studio by cloning the Python koans repository using Visual Studio Team Explorer.
 ms.date: 12/06/2018
 ms.topic: quickstart
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -78,5 +78,5 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 ## See also
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md)
+- [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md)
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations)

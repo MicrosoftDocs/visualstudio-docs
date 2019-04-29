@@ -40,12 +40,12 @@ You can use this capability to debug apps that are running on a local or remote 
 > [!TIP]
 > Not sure whether you need to use **Attach to Process** for your debugging scenario? See [Common debugging scenarios](#BKMK_Scenarios). If you want to debug ASP.NET applications that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
-##  <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on the local machine
+## <a name="BKMK_Attach_to_a_running_process"></a> Attach to a running process on the local machine
  In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names).
 
-1.  In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
+1. In Visual Studio, select **Debug / Attach to Process** (or press **CTRL+ALT+P**).
 
-2.  In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.
+2. In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.
 
      To quickly select the process you want, type the first letter of the process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
 
@@ -53,17 +53,17 @@ You can use this capability to debug apps that are running on a local or remote 
 
      If the process is running under a different user account, select the **Show processes from all users** check box.
 
-3.  In the **Attach to** box, make sure that the type of code you will debug is listed. The default **Automatic** setting tries to determine what type of code you want to debug. To set the type of code manually, do the following
+3. In the **Attach to** box, make sure that the type of code you will debug is listed. The default **Automatic** setting tries to determine what type of code you want to debug. To set the type of code manually, do the following
 
-    1.  In the **Attach to** box, click **Select**.
+    1. In the **Attach to** box, click **Select**.
 
-    2.  In the **Select Code Type** dialog box, click **Debug these code types** and select the types to debug.
+    2. In the **Select Code Type** dialog box, click **Debug these code types** and select the types to debug.
 
-    3.  Click **OK**.
+    3. Click **OK**.
 
-4.  Click **Attach**.
+4. Click **Attach**.
 
-##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
+## <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
  In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names). For more complete guidance for ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). For other apps, you may be able to find the name of the process in the Task Manager.
 
  When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
@@ -127,10 +127,10 @@ For some app types (like Windows Store apps), you don't attach directly to a pro
 |Debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|Use **Debug / Other Debug Targets / Debug Installed App Package** instead of **Attach to process**|
 
 > [!WARNING]
->  To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.
+> To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.
 
 > [!NOTE]
->  For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](http://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982) linker option.
+> For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](http://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982) linker option.
 
 ## What debugger features can I use?
 
@@ -140,7 +140,7 @@ For remote debugging scenarios, you must have the source code (or a copy of the 
 
 In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app (by default, this requires a debug build). For more info, see [Specify Symbol and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
-##  <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
+## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
  When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the **Select Code Type** dialog box.
 
  Sometimes, the debugger can successfully attach to one code type, but not to another code type. This might occur if you are trying to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others. It can also occur if you try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.

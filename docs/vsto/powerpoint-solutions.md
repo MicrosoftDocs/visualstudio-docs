@@ -26,7 +26,7 @@ ms.workload:
  [!INCLUDE[appliesto_pptallapp](../vsto/includes/appliesto-pptallapp-md.md)]
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create an Add-in for Microsoft PowerPoint?](http://go.microsoft.com/fwlink/?LinkId=132767).
 
@@ -43,7 +43,7 @@ ms.workload:
 
   When you call into the PowerPoint object model, you use types that are provided in the primary interop assembly for PowerPoint. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in PowerPoint. All types in the PowerPoint primary interop assembly are defined in the <xref:Microsoft.Office.Interop.PowerPoint> namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).
 
-##  <a name="WordOMDocumentation"></a> Use the PowerPoint object model documentation
+## <a name="WordOMDocumentation"></a> Use the PowerPoint object model documentation
  For complete information about the PowerPoint object model, you can refer to the PowerPoint primary interop assembly (PIA) reference and the VBA object model reference.
 
 ### Primary interop assembly reference

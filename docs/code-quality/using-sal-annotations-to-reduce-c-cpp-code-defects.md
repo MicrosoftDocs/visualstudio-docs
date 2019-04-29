@@ -18,35 +18,35 @@ SAL is the Microsoft source code annotation language. By using source code annot
 
  The articles in this section of the documentation discuss aspects of SAL, provide reference for SAL syntax, and give examples of its use.
 
--   [Understanding SAL](../code-quality/understanding-sal.md)
+- [Understanding SAL](../code-quality/understanding-sal.md)
 
      Provides information and examples that show the core SAL annotations.
 
--   [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
+- [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)
 
      Lists the SAL annotations for functions and function parameters.
 
--   [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
+- [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)
 
      Lists the SAL annotations for functions and function behavior.
 
--   [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
+- [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)
 
      Lists the SAL annotations for structures and classes.
 
--   [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
+- [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)
 
      Explains how to use SAL annotations with lock mechanisms.
 
--   [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
+- [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
 
      Lists the SAL annotations that specify the condition or scope (placement) of other SAL annotations.
 
--   [Intrinsic Functions](../code-quality/intrinsic-functions.md)
+- [Intrinsic Functions](../code-quality/intrinsic-functions.md)
 
      Lists the intrinsic SAL annotations.
 
--   [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
 
      Provides examples that show how to use SAL annotations. Also explains common pitfalls.
 

@@ -50,13 +50,13 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 **To examine the project file**
 
-1.  In **Solution Explorer**, click the project node **BuildApp**.
+1. In **Solution Explorer**, click the project node **BuildApp**.
 
-2.  In the **Properties** browser, notice that the **Project File** property is *BuildApp.csproj*. All project files are named with the suffix *proj*. If you had created a Visual Basic project, the project file name would be *BuildApp.vbproj*.
+2. In the **Properties** browser, notice that the **Project File** property is *BuildApp.csproj*. All project files are named with the suffix *proj*. If you had created a Visual Basic project, the project file name would be *BuildApp.vbproj*.
 
-3.  Right-click the project node, then click **Unload Project**.
+3. Right-click the project node, then click **Unload Project**.
 
-4.  Right-click the project node again, then click **Edit BuildApp.csproj**.
+4. Right-click the project node again, then click **Edit BuildApp.csproj**.
 
      The project file appears in the code editor.
 
@@ -124,7 +124,7 @@ The Message task takes the string value of the Text attribute as input and displ
  Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined above. Use the -target or -t command line switch to select the target.
 
 > [!NOTE]
->  We will refer to the **Developer Command Prompt** as the **Command Window** in the sections below.
+> We will refer to the **Developer Command Prompt** as the **Command Window** in the sections below.
 
 **To build the target**
 
@@ -150,7 +150,7 @@ The Message task takes the string value of the Text attribute as input and displ
     ```
 
 > [!NOTE]
->  If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.
+> If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.
 
  By alternating between the code editor and the command window, you can change the project file and quickly see the results.
 
@@ -216,20 +216,24 @@ $(PropertyName)
 4. Examine the output. You should see these two lines (your .NET Framework version may differ):
 
     ::: moniker range=">=vs-2019"
+
     ```
     Configuration is Debug
     MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2019\<Visual Studio SKU>\MSBuild\15.0\Bin
     ```
+
     ::: moniker-end
     ::: moniker range="vs-2017"
+
     ```
     Configuration is Debug
     MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2017\<Visual Studio SKU>\MSBuild\15.0\Bin
     ```
+
     ::: moniker-end
 
 > [!NOTE]
->  If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.
+> If you don't see these lines then you probably forgot to save the project file in the code editor. Save the file and try again.
 
 ### Conditional properties
 
@@ -257,13 +261,13 @@ $(PropertyName)
 
 **To set a property value from the command line**
 
-1.  From the **Command Window**, enter and execute this line:
+1. From the **Command Window**, enter and execute this line:
 
     ```cmd
     msbuild buildapp.csproj -t:HelloWorld -p:Configuration=Release
     ```
 
-2.  Examine the output. You should see this line:
+2. Examine the output. You should see this line:
 
     ```
     Configuration is Release.
@@ -327,7 +331,7 @@ For more information, see [MSBuild special characters](../msbuild/msbuild-specia
 For more information, see [Items](../msbuild/msbuild-items.md).
 
 > [!NOTE]
->  File paths are relative to the folder containing the MSBuild project file.
+> File paths are relative to the folder containing the MSBuild project file.
 
 ## Examine item type values
 
@@ -375,21 +379,21 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 
 **To display item type values one per line**
 
-1.  From the code editor, replace the Message task with this line:
+1. From the code editor, replace the Message task with this line:
 
     ```xml
     <Message Text="Compile item type contains @(Compile, '%0A%0D')" />
     ```
 
-2.  Save the project file.
+2. Save the project file.
 
-3.  From the **Command Window**, enter and execute this line:
+3. From the **Command Window**, enter and execute this line:
 
     ```cmd
     msbuild buildapp.csproj -t:HelloWorld
     ```
 
-4.  Examine the output. You should see these lines:
+4. Examine the output. You should see these lines:
 
     ```
     Compile item type contains Form1.cs
@@ -410,7 +414,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
  adds all files with the file extension *.jpeg* in the *images* folder to the Photos item type, while
 
 ```xml
-<Photos Include="images\**.jpeg" />
+<Photos Include="images\**\*.jpeg" />
 ```
 
  adds all files with the file extension *.jpeg* in the *images* folder, and all its subfolders, to the Photos item type. For more examples, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
@@ -422,7 +426,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 <Photos Include="images\*.gif" />
 ```
 
- creates an item type named Photo containing all files in the *image* folder with a file extension of either *.jpeg* or *.gif*. This is equivalent to the following line:
+ creates an item type named Photo containing all files in the *images* folder with a file extension of either *.jpeg* or *.gif*. This is equivalent to the following line:
 
 ```xml
 <Photos Include="images\*.jpeg;images\*.gif" />

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1900: Value type fields should be portable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1900: Value type fields should be portable](https://docs.microsoft.com/visualstudio/code-quality/ca1900-value-type-fields-should-be-portable) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1900: Value type fields should be portable](https://docs.microsoft.com/visualstudio/code-quality/ca1900-value-type-fields-should-be-portable).  
   
 |||  
 |-|-|  

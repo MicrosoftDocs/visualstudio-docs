@@ -18,7 +18,7 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
  Although smart tags are part of the IntelliSense implementation in the editor, you can implement smart tags by subclassing <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>, and then implementing the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> interface and the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider> interface.  
   
 > [!NOTE]
->  Other kinds of tags can be implemented in a similar manner.  
+> Other kinds of tags can be implemented in a similar manner.  
   
  The following walkthrough shows how to create a smart tag that appears on the current word and has two suggested actions: **Convert to upper case** and **Convert to lower case**.  
   
@@ -29,57 +29,57 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 #### To create a MEF project  
   
-1.  Create an Editor Classifier project. Name the solution `SmartTagTest`.  
+1. Create an Editor Classifier project. Name the solution `SmartTagTest`.  
   
-2.  Open the source.extension.vsixmanifest file in the VSIX Manifest Editor.  
+2. Open the source.extension.vsixmanifest file in the VSIX Manifest Editor.  
   
-3.  Make sure that the **Assets** section contains a `Microsoft.VisualStudio.MefComponent` type, the **Source** is set to `A project in current solution`, and **Project** is set to SmartTagTest.dll.  
+3. Make sure that the **Assets** section contains a `Microsoft.VisualStudio.MefComponent` type, the **Source** is set to `A project in current solution`, and **Project** is set to SmartTagTest.dll.  
   
-4.  Save and close source.extension.vsixmanifest.  
+4. Save and close source.extension.vsixmanifest.  
   
-5.  Add the following reference to the project, and set **CopyLocal** to `false`:  
+5. Add the following reference to the project, and set **CopyLocal** to `false`:  
   
      Microsoft.VisualStudio.Language.Intellisense  
   
-6.  Delete the existing class files.  
+6. Delete the existing class files.  
   
 ## Implementing a Tagger for Smart Tags  
   
 #### To implement a tagger for smart tags  
   
-1.  Add a class file and name it `TestSmartTag`.  
+1. Add a class file and name it `TestSmartTag`.  
   
-2.  Add the following imports:  
+2. Add the following imports:  
   
      [!code-csharp[VSSDKSmartTagTest#1](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#1)]
      [!code-vb[VSSDKSmartTagTest#1](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#1)]  
   
-3.  Add a class named `TestSmartTag` that inherits from <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>.  
+3. Add a class named `TestSmartTag` that inherits from <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>.  
   
      [!code-csharp[VSSDKSmartTagTest#2](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#2)]
      [!code-vb[VSSDKSmartTagTest#2](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#2)]  
   
-4.  Add a constructor for this class that calls the base constructor with a <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType> of <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>, which will cause a blue line to appear under the first character of a word. (If you use <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>, a red line will appear under the last character of the word.)  
+4. Add a constructor for this class that calls the base constructor with a <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType> of <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>, which will cause a blue line to appear under the first character of a word. (If you use <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>, a red line will appear under the last character of the word.)  
   
      [!code-csharp[VSSDKSmartTagTest#3](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#3)]
      [!code-vb[VSSDKSmartTagTest#3](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#3)]  
   
-5.  Add a class named `TestSmartTagger` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> of type `TestSmartTag`, and implements <xref:System.IDisposable>.  
+5. Add a class named `TestSmartTagger` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> of type `TestSmartTag`, and implements <xref:System.IDisposable>.  
   
      [!code-csharp[VSSDKSmartTagTest#4](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#4)]
      [!code-vb[VSSDKSmartTagTest#4](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#4)]  
   
-6.  Add the following private fields to the tagger class.  
+6. Add the following private fields to the tagger class.  
   
      [!code-csharp[VSSDKSmartTagTest#5](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#5)]
      [!code-vb[VSSDKSmartTagTest#5](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#5)]  
   
-7.  Add a constructor that sets the private fields, and subscribes to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> event.  
+7. Add a constructor that sets the private fields, and subscribes to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> event.  
   
      [!code-csharp[VSSDKSmartTagTest#6](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#6)]
      [!code-vb[VSSDKSmartTagTest#6](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#6)]  
   
-8.  Implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A> so that the tag is created for the current word. (This method also calls a private method `GetSmartTagActions` that is explained later.)  
+8. Implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601.GetTags%2A> so that the tag is created for the current word. (This method also calls a private method `GetSmartTagActions` that is explained later.)  
   
      [!code-csharp[VSSDKSmartTagTest#7](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#7)]
      [!code-vb[VSSDKSmartTagTest#7](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#7)]  
@@ -108,17 +108,17 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 #### To implement the smart tag tagger provider  
   
-1.  Add a class named `TestSmartTagTaggerProvider` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>. Export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text", a <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> of Before="default", and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>.  
+1. Add a class named `TestSmartTagTaggerProvider` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>. Export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text", a <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> of Before="default", and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>.  
   
      [!code-csharp[VSSDKSmartTagTest#12](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#12)]
      [!code-vb[VSSDKSmartTagTest#12](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#12)]  
   
-2.  Import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> as a property.  
+2. Import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> as a property.  
   
      [!code-csharp[VSSDKSmartTagTest#13](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#13)]
      [!code-vb[VSSDKSmartTagTest#13](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#13)]  
   
-3.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger%2A> method.  
+3. Implement the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger%2A> method.  
   
      [!code-csharp[VSSDKSmartTagTest#14](../snippets/csharp/VS_Snippets_VSSDK/vssdksmarttagtest/cs/testsmarttag.cs#14)]
      [!code-vb[VSSDKSmartTagTest#14](../snippets/visualbasic/VS_Snippets_VSSDK/vssdksmarttagtest/vb/testsmarttag.vb#14)]  
@@ -162,19 +162,19 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 #### To build and test the SmartTagTest solution  
   
-1.  Build the solution.  
+1. Build the solution.  
   
-2.  When you run this project in the debugger, a second instance of Visual Studio is instantiated.  
+2. When you run this project in the debugger, a second instance of Visual Studio is instantiated.  
   
-3.  Create a text file and type some text.  
+3. Create a text file and type some text.  
   
      A blue line should be displayed under the first letter of the first word of the text.  
   
-4.  Move the pointer over the blue line.  
+4. Move the pointer over the blue line.  
   
      A button should be displayed near the pointer.  
   
-5.  When you click the button, two suggested actions should be displayed: **Convert to upper case** and **Convert to lower case**. If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.  
+5. When you click the button, two suggested actions should be displayed: **Convert to upper case** and **Convert to lower case**. If you click the first action, all the text in the current word should be converted to upper case. If you click the second action, all the text should be converted to lower case.  
   
 ## See Also  
  [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

@@ -47,6 +47,10 @@ To start installing updates, select the **Restart and Install Updates** button:
 
 Depending on the components that need to be installed, you may need to accept additional licenses or enter your machine's administrator username and password.
 
+## Troubleshooting
+
+If you have issues with the updater, try following the steps in the [Updater Troubleshooting](updater-troubleshooting.md) guide.
+
 ## See also
 
 - [Update Visual Studio (on Windows)](/visualstudio/install/update-visual-studio)

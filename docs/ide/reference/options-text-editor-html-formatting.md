@@ -35,7 +35,6 @@ These options specify how the markup for Web server controls is capitalized.
 |**Lowercase**|Element names are reformatted to lowercase.|
 |**Assembly definition**|Element case is determined by how the element is defined in the corresponding type class.|
 
-
 **Client tag, Client attributes**
 
 These options specify whether automatic formatting changes the names of HTML attributes and properties to uppercase or lowercase, or keeps them as entered.
@@ -45,7 +44,6 @@ These options specify whether automatic formatting changes the names of HTML att
 |**As entered**|Attribute case is exactly as you enter it.|
 |**Uppercase**|Attribute names are reformatted to uppercase.|
 |**Lowercase**|Attribute names are reformatted to lowercase.|
-
 
 ## Automatic formatting options
 
@@ -59,7 +57,6 @@ These options cause the Source view editor to add or remove physical line breaks
 - **Insert attribute value quotes when typing**
 
    When this option is selected, the editor automatically puts quotation marks around attributes as you're typing (for example: ID="Select1"). Clear this option if you prefer to insert quotation marks into your markup manually.
-
 
    > [!NOTE]
    > Whether or not this option is selected, all existing quotation marks in your markup are retained; quotation marks are never removed.

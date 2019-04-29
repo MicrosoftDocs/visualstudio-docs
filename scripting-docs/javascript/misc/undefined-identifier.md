@@ -18,15 +18,15 @@ manager: "ghogen"
 # Undefined identifier
 You attempted to use an identifier that the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] compiler does not recognize. The undefined value is returned whenever you use:  
   
--   a variable that does not exist,  
+- a variable that does not exist,  
   
--   a variable that has been declared, but never had a value assigned to it,  
+- a variable that has been declared, but never had a value assigned to it,  
   
--   an object property that does not exist.  
+- an object property that does not exist.  
   
 ### To correct this error  
   
--   Declare the variable with a **var** statement (as in `var` x;).  
+- Declare the variable with a **var** statement (as in `var` x;).  
   
 ## See Also  
  [Variables](../../javascript/variables-javascript.md)   

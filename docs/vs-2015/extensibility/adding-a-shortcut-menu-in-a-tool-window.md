@@ -30,12 +30,12 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 ## Creating the Tool Window Shortcut Menu Package  
   
-1.  Create a VSIX project named `TWShortcutMenu` and add a tool window template named **ShortCutMenu** to it. For more information about creating a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
+1. Create a VSIX project named `TWShortcutMenu` and add a tool window template named **ShortCutMenu** to it. For more information about creating a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
 ## Specifying the Shortcut Menu  
  A shortcut menu such as the one shown in this walkthrough lets the user select from a list of colors that are used to fill the background of the tool window.  
   
-1.  In ShortcutMenuPackage.vsct, find in the GuidSymbol element named guidShortcutMenuPackageCmdSet, and declare the shortcut menu, shortcut menu group, and menu options. The GuidSymbol element should now look like this:  
+1. In ShortcutMenuPackage.vsct, find in the GuidSymbol element named guidShortcutMenuPackageCmdSet, and declare the shortcut menu, shortcut menu group, and menu options. The GuidSymbol element should now look like this:  
   
     ```xml  
     <GuidSymbol name="guidShortcutMenuPackageCmdSet" value="{00000000-0000-0000-0000-0000}"> // your GUID here  
@@ -48,7 +48,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     </GuidSymbol>  
     ```  
   
-2.  Just before the Buttons element, create a Menus element and then define the shortcut menu in it.  
+2. Just before the Buttons element, create a Menus element and then define the shortcut menu in it.  
   
     ```vb  
     <Menus>  
@@ -63,7 +63,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
      A shortcut menu does not have a parent because it is not part of a menu or toolbar.  
   
-3.  Create a Groups element with a Group element that contains the shortcut menu items, and associate the group with the shortcut menu.  
+3. Create a Groups element with a Group element that contains the shortcut menu items, and associate the group with the shortcut menu.  
   
     ```xml  
     <Groups>  
@@ -73,7 +73,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     </Groups>  
     ```  
   
-4.  In the Buttons element, define the individual commands that will appear on the shortcut menu. The Buttons element should look like this:  
+4. In the Buttons element, define the individual commands that will appear on the shortcut menu. The Buttons element should look like this:  
   
     ```xml  
     <Buttons>  
@@ -108,7 +108,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     </Buttons>  
     ```  
   
-5.  In ShortcutMenuPackageGuids.cs, add the definitions for the command set GUID, the shortcut menu, and the menu items.  
+5. In ShortcutMenuPackageGuids.cs, add the definitions for the command set GUID, the shortcut menu, and the menu items.  
   
     ```csharp  
     public const string guidShortcutMenuPackageCmdSet = "00000000-0000-0000-0000-00000000"; // your GUID will differ  
@@ -123,16 +123,16 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
 ## Implementing the Shortcut Menu  
  This section implements the shortcut menu and its commands.  
   
-1.  In ShortcutMenu.cs, the tool window can get the menu command service, but the control it contains cannot. The following steps show how to make the menu command service available to the user control.  
+1. In ShortcutMenu.cs, the tool window can get the menu command service, but the control it contains cannot. The following steps show how to make the menu command service available to the user control.  
   
-2.  In ShortcutMenu.cs, add the following using statements:  
+2. In ShortcutMenu.cs, add the following using statements:  
   
     ```csharp  
     using Microsoft.VisualStudio.Shell;  
     using System.ComponentModel.Design;  
     ```  
   
-3.  Override the tool window’s Initialize() method to get the menu command service and add the control, passing the menu command service to the contructor:  
+3. Override the tool window’s Initialize() method to get the menu command service and add the control, passing the menu command service to the contructor:  
   
     ```csharp  
     protected override void Initialize()  
@@ -142,7 +142,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-4.  In the ShortcutMenu tool window constructor, remove the line that adds the control. The constructor should now look like this:  
+4. In the ShortcutMenu tool window constructor, remove the line that adds the control. The constructor should now look like this:  
   
     ```csharp  
     public ShortcutMenu() : base(null)  
@@ -153,7 +153,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-5.  In ShortcutMenuControl.xaml.cs, add a private field for the menu command service and change the control constructor to take the menu command service. Then use the menu command service to add the context menu commands. The ShortcutMenuControl constructor should now look like the following code. The command handler will be defined later.  
+5. In ShortcutMenuControl.xaml.cs, add a private field for the menu command service and change the control constructor to take the menu command service. Then use the menu command service to add the context menu commands. The ShortcutMenuControl constructor should now look like the following code. The command handler will be defined later.  
   
     ```csharp  
     public ShortcutMenuControl(OleMenuCommandService service)  
@@ -179,7 +179,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-6.  In ShortcutMenuControl.xaml, add a <xref:System.Windows.UIElement.MouseRightButtonDown> event to the top level <xref:System.Windows.Controls.UserControl> element. The XAML file should now look like this:  
+6. In ShortcutMenuControl.xaml, add a <xref:System.Windows.UIElement.MouseRightButtonDown> event to the top level <xref:System.Windows.Controls.UserControl> element. The XAML file should now look like this:  
   
     ```vb  
     <UserControl x:Class="TWShortcutMenu.ShortcutMenuControl"  
@@ -201,7 +201,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     </UserControl>  
     ```  
   
-7.  In ShortcutMenuControl.xaml.cs, add a stub for the event handler.  
+7. In ShortcutMenuControl.xaml.cs, add a stub for the event handler.  
   
     ```csharp  
     private void MyToolWindow_MouseRightButtonDown(object sender, MouseButtonEventArgs e)  
@@ -210,7 +210,7 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
     }  
     ```  
   
-8.  Add the following using statements to the same file:  
+8. Add the following using statements to the same file:  
   
     ```csharp  
     using Microsoft.VisualStudio.Shell;  
@@ -264,13 +264,13 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
   
 ## Testing the Tool Window Features  
   
-1.  Build the project and start debugging. The experimental instance appears.  
+1. Build the project and start debugging. The experimental instance appears.  
   
-2.  In the experimental instance, click **View / Other Windows**, and then click **ShortcutMenu**. Doing this should display your tool window.  
+2. In the experimental instance, click **View / Other Windows**, and then click **ShortcutMenu**. Doing this should display your tool window.  
   
-3.  Right-click in the body of the tool window. A shortcut menu that has a list of colors should be displayed.  
+3. Right-click in the body of the tool window. A shortcut menu that has a list of colors should be displayed.  
   
-4.  Click a color on the shortcut menu. The tool window background color should be changed to the selected color.  
+4. Click a color on the shortcut menu. The tool window background color should be changed to the selected color.  
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   

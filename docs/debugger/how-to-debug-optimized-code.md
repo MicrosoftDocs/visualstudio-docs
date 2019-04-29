@@ -71,7 +71,7 @@ ms.workload:
 9. Select the Configuration Properties, C/C++, Command Line node of the project properties page, and add `(`[/Zo](/cpp/build/reference/zo-enhance-optimized-debugging)`)` to the **Additional Options** text box.
 
     > [!WARNING]
-    >  `/Zo` requires Visual Studio 2013 Update 3 or a later version.
+    > `/Zo` requires Visual Studio 2013 Update 3 or a later version.
     >
     >  Adding `/Zo` will disable [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md).
 

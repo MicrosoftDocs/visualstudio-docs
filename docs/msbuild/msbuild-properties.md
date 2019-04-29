@@ -48,7 +48,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
  To get the current value of environment variables from within a spawned tool, use the [Property functions](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable. The preferred method, however, is to use the task parameter <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables%2A>. Environment properties set in this string array can be passed to the spawned tool without affecting the system environment variables.
 
 > [!TIP]
->  Not all environment variables are read in to become initial properties. Any environment variable whose name is not a valid MSBuild property name, such as "386", is ignored.
+> Not all environment variables are read in to become initial properties. Any environment variable whose name is not a valid MSBuild property name, such as "386", is ignored.
 
  For more information, see [How to: Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md).
 
@@ -102,11 +102,11 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
 ## Create properties during execution
  Properties positioned outside `Target` elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, properties can be created or modified as follows:
 
--   A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.
+- A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.
 
--   A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.
+- A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.
 
--   Starting in the .NET Framework 3.5, `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
+- Starting in the .NET Framework 3.5, `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
 
 ## Store XML in properties
  Properties can contain arbitrary XML, which can help in passing values to tasks or displaying logging information. The following example shows the `ConfigTemplate` property, which has a value that contains XML and other property references. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] replaces the property references by using their respective property values. Property values are assigned in the order in which they appear. Therefore, in this example, `$(MySupportedVersion)`, `$(MyRequiredVersion)`, and `$(MySafeMode)` should have already been defined.

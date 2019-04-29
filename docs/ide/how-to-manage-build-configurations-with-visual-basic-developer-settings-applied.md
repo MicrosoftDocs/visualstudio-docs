@@ -23,16 +23,16 @@ By default, all advanced build configuration options are hidden when Visual Basi
 
 By default, the Visual Basic developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](../ide/reference/application-page-project-designer-visual-basic.md).
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  Expand **Projects and Solutions**, and click **General**.
+2. Expand **Projects and Solutions**, and click **General**.
 
     > [!NOTE]
     > The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.
 
-3.  Click **Show advanced build configurations**.
+3. Click **Show advanced build configurations**.
 
-4.  Click **OK**.
+4. Click **OK**.
 
      **Configuration Manager** is now available on the **Build** menu, and the **Configuration** and **Platform** lists are visible in the **Project Designer**.
 

@@ -12,11 +12,11 @@ author: mikeblome
 
 The Microsoft Unit Testing Framework for C++ is included by default in the **Desktop Development with C++** workload.
 
-##  <a name="separate_project"></a> To write unit tests in a separate project
+## <a name="separate_project"></a> To write unit tests in a separate project
 
 Typically, you run your test code in its own project in the same solution as the code you want to test. To set up and configure a new test project, see [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
 
-##  <a name="same_project"></a> To write unit tests in the same project
+## <a name="same_project"></a> To write unit tests in the same project
 
 In some cases, for example when testing non-exported functions in a DLL, you might need to create the tests in the same project as the program you are testing. To write unit tests in the same project:
 
@@ -26,16 +26,14 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
    2. Click on the down arrow in the following rows and choose **\<Edit>** :
 
-
       | Directory | Property |
       |-| - |
       | **Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
       | **Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
 
-
 2. Add a C++ Unit Test file:
 
-   -   Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Unit Test**.
+   - Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Unit Test**.
 
 ## Write the tests
 

@@ -25,7 +25,7 @@ var notGood = /[z-a]/;  // An invalid character range - z does not come before a
   
 ### To correct this error  
   
--   Use only single characters to compose your regular expression character set, and make sure they are in the correct order.  
+- Use only single characters to compose your regular expression character set, and make sure they are in the correct order.  
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   

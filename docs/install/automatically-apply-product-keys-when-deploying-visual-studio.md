@@ -1,7 +1,7 @@
 ---
 title: "Automatically apply product keys"
 description: "Learn how to apply product keys programmatically when you deploy Visual Studio."
-ms.date: 03/30/2019
+ms.date: 04/10/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
@@ -42,20 +42,22 @@ You can activate an installed version of Visual Studio with a product key by usi
 
 ::: moniker range="vs-2017"
 
- The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
- ```cmd
- "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
- ```
+```cmd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
+```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
- The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
- ```cmd
- "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
- ```
+```cmd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
+```
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -74,9 +76,8 @@ You can activate an installed version of Visual Studio with a product key by usi
 
 | Visual Studio Edition                | MPC   |
 |--------------------------------------|-------|
-| Visual Studio Enterprise 2019        | 08860 |
-| Visual Studio Professional 2019      | 08862 |
-| Visual Studio Test Professional 2019 | 08866 |
+| Visual Studio Enterprise 2019        | 09260 |
+| Visual Studio Professional 2019      | 09262 |
 
 ::: moniker-end
 

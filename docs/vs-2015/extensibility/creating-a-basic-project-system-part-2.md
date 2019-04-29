@@ -22,18 +22,18 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   
  This walkthrough teaches how to accomplish these tasks:  
   
--   Create a Visual Studio template.  
+- Create a Visual Studio template.  
   
--   Deploy a Visual Studio template.  
+- Deploy a Visual Studio template.  
   
--   Create a project type child node in the **New Project** dialog box.  
+- Create a project type child node in the **New Project** dialog box.  
   
--   Enable parameter substitution in the Visual Studio template.  
+- Enable parameter substitution in the Visual Studio template.  
   
--   Create a project property page.  
+- Create a project property page.  
   
 > [!NOTE]
->  The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.  
+> The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.  
   
 ## Creating a Visual Studio Template  
  [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md) shows how to create a basic project template and add it to the project system. It also shows how to register this template with Visual Studio by using the <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute, which writes the full path of the \Templates\Projects\SimpleProject\ folder in the system registry.  
@@ -94,7 +94,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
 - The \<ProjectType> element names the Project type in the **New Project** dialog box. This name replaces the project name parameter of the ProvideProjectFactory attribute.  
   
   > [!NOTE]
-  >  The \<ProjectType> element must match the `LanguageVsTemplate` argument of the `ProvideProjectFactory` attribute in the SimpleProjectPackage.cs file.  
+  > The \<ProjectType> element must match the `LanguageVsTemplate` argument of the `ProvideProjectFactory` attribute in the SimpleProjectPackage.cs file.  
   
   The \<TemplateContent> section describes these files that are generated when a new project is created:  
   
@@ -109,14 +109,14 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   For more information about the elements in the Visual Studio Template schema, see the [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).  
   
 > [!NOTE]
->  If a project has more than one Visual Studio template, every template is in a separate folder. Every file in that folder must have the **Build Action** set to **ZipProject**.  
+> If a project has more than one Visual Studio template, every template is in a separate folder. Every file in that folder must have the **Build Action** set to **ZipProject**.  
   
 ## Adding a Minimal .vsct File  
  Visual Studio must be run in setup mode to recognize a new or modified Visual Studio template. Setup mode requires a .vsct file to be present. Therefore, you must add a minimal .vsct file to the project.  
   
-1.  Add an XML file named SimpleProject.vsct to the SimpleProject project.  
+1. Add an XML file named SimpleProject.vsct to the SimpleProject project.  
   
-2.  Replace the contents of the SimpleProject.vsct file with the following code.  
+2. Replace the contents of the SimpleProject.vsct file with the following code.  
   
     ```  
     <?xml version="1.0" encoding="utf-8" ?>  
@@ -125,25 +125,25 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
     </CommandTable>  
     ```  
   
-3.  Set the **Build Action** of this file to **VSCTCompile**. You can do this only in the .csproj file, not in the **Properties** window. Make sure that the **Build Action** of this file is set to **None** at this point.  
+3. Set the **Build Action** of this file to **VSCTCompile**. You can do this only in the .csproj file, not in the **Properties** window. Make sure that the **Build Action** of this file is set to **None** at this point.  
   
-    1.  Right-click the SimpleProject node and then click **Edit SimpleProject.csproj**.  
+    1. Right-click the SimpleProject node and then click **Edit SimpleProject.csproj**.  
   
-    2.  In the .csproj file, locate the SimpleProject.vsct item.  
+    2. In the .csproj file, locate the SimpleProject.vsct item.  
   
         ```  
         <None Include="SimpleProject.vsct" />  
         ```  
   
-    3.  Change the build action to **VSCTCompile**.  
+    3. Change the build action to **VSCTCompile**.  
   
         ```  
         <VSCTCompile Include="SimpleProject.vsct" />  
         ```  
   
-    4.  the project file and close the editor.  
+    4. the project file and close the editor.  
   
-    5.  Save the SimpleProject node, and then in the **Solution Explorer** click **Reload Project**.  
+    5. Save the SimpleProject node, and then in the **Solution Explorer** click **Reload Project**.  
   
 ## Examining the Visual Studio Template Build Steps  
  The VSPackage project build system typically runs Visual Studio in setup mode when the .vstemplate file is changed or the project that contains the .vstemplate file is rebuilt. You can follow along by setting the verbosity level of MSBuild to Normal or higher.  
@@ -203,11 +203,11 @@ ZipProjects:
   
  This section shows how to create a Console child node for the SimpleProject project type.  
   
-1.  Rename the \Templates\Projects\SimpleProject\ folder to \Templates\Projects\ConsoleApp\\.  
+1. Rename the \Templates\Projects\SimpleProject\ folder to \Templates\Projects\ConsoleApp\\.  
   
-2.  In the **Properties** window, select all five files in the \Templates\Projects\ConsoleApp\ folder and make sure the **Build Action** is set to **ZipProject**.  
+2. In the **Properties** window, select all five files in the \Templates\Projects\ConsoleApp\ folder and make sure the **Build Action** is set to **ZipProject**.  
   
-3.  In the SimpleProject.vstemplate file, add the following line at the end of the \<TemplateData> section, just before the closing tag.  
+3. In the SimpleProject.vstemplate file, add the following line at the end of the \<TemplateData> section, just before the closing tag.  
   
     ```  
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>  
@@ -215,11 +215,11 @@ ZipProjects:
   
      This causes the Console Application template to appear both in the Console child node and in the SimpleProject parent node, which is one level above the child node.  
   
-4.  Save the SimpleProject.vstemplate file.  
+4. Save the SimpleProject.vstemplate file.  
   
-5.  In the .csproj file, add \<OutputSubPath> to each of the ZipProject elements. Unload the project, as before, and edit the project file.  
+5. In the .csproj file, add \<OutputSubPath> to each of the ZipProject elements. Unload the project, as before, and edit the project file.  
   
-6.  Locate the \<ZipProject> elements. To each \<ZipProject> element, add an \<OutputSubPath> element and give it the value Console. The ZipProject  
+6. Locate the \<ZipProject> elements. To each \<ZipProject> element, add an \<OutputSubPath> element and give it the value Console. The ZipProject  
   
     ```  
     <ZipProject Include="Templates\Projects\ConsoleApp\AssemblyInfo.cs">  
@@ -239,7 +239,7 @@ ZipProjects:
         </ZipProject>  
     ```  
   
-7.  Add this \<PropertyGroup> to the project file:  
+7. Add this \<PropertyGroup> to the project file:  
   
     ```  
     <PropertyGroup>  
@@ -247,7 +247,7 @@ ZipProjects:
     </PropertyGroup>  
     ```  
   
-8.  Save the project file and reload the project.  
+8. Save the project file and reload the project.  
   
 ## Testing the Project Type Child Node  
  Test the modified project file to see whether the **Console** child node appears in the **New Project** dialog box.  
@@ -279,15 +279,15 @@ ZipProjects:
   
 #### To substitute project template parameters  
   
-1.  In the SimpleProjectNode.cs file, remove the `AddFileFromTemplate` method.  
+1. In the SimpleProjectNode.cs file, remove the `AddFileFromTemplate` method.  
   
-2.  In the \Templates\Projects\ConsoleApp\SimpleProject.myproj file, locate the \<RootNamespace> property and change its value to $safeprojectname$.  
+2. In the \Templates\Projects\ConsoleApp\SimpleProject.myproj file, locate the \<RootNamespace> property and change its value to $safeprojectname$.  
   
     ```  
     <RootNamespace>$safeprojectname$</RootNamespace>  
     ```  
   
-3.  In the \Templates\Projects\SimpleProject\Program.cs file, replace the contents of the file with the following code:  
+3. In the \Templates\Projects\SimpleProject\Program.cs file, replace the contents of the file with the following code:  
   
     ```  
     using System;  
@@ -309,11 +309,11 @@ ZipProjects:
     }  
     ```  
   
-4.  Rebuild the SimpleProject project and start debugging. The experimental instance should appear.  
+4. Rebuild the SimpleProject project and start debugging. The experimental instance should appear.  
   
-5.  Create a new SimpleProject Console application. (In the **Project types** pane, select **SimpleProject**. Under **Visual Studio installed templates**, select **Console Application**.)  
+5. Create a new SimpleProject Console application. (In the **Project types** pane, select **SimpleProject**. Under **Visual Studio installed templates**, select **Console Application**.)  
   
-6.  In the newly-created project, open Program.cs. It should look something like the following (GUID values in your file will differ.):  
+6. In the newly-created project, open Program.cs. It should look something like the following (GUID values in your file will differ.):  
   
     ```  
     using System;  
@@ -342,11 +342,11 @@ ZipProjects:
   
  The property page you create in this section lets you alter and save these project properties:  
   
--   AssemblyName  
+- AssemblyName  
   
--   OutputType  
+- OutputType  
   
--   RootNamespace.  
+- RootNamespace.  
   
 1. In the SimpleProjectPackage.cs file, add this `ProvideObject` attribute to the `SimpleProjectPackage` class:  
   

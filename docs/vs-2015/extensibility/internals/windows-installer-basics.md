@@ -53,19 +53,19 @@ The Windows Installer installs and uninstalls applications or software products 
  Two sets of rules determine the deployment of resources through your setup's components. One rule set is maintained by the Windows Installer itself, while you should enforce the second set as installation author.  
   
 > [!NOTE]
->  Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) and [Package Validation](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx).  
+> Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) and [Package Validation](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx).  
   
 #### Installer-Enforced Rules  
   
--   All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.  
+- All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.  
   
--   There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.  
+- There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.  
   
 #### Component-Provider Responsibilities  
   
--   Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx).  
+- Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](http://msdn.microsoft.com/library/aa368269\(VS.85\).aspx).  
   
--   No versioned resource should ever ship in more than one WIC.  
+- No versioned resource should ever ship in more than one WIC.  
   
 ## See Also  
  [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx)

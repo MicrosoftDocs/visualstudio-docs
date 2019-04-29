@@ -28,26 +28,26 @@ The steps in the [first procedure](#to-add-a-custom-project-item-template-to-the
   
 ### To add a custom project item template to the Add New Item dialog box  
   
-1.  Create or open a project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
+1. Create or open a project in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
-2.  Add an item to the project and modify it if you want to.  
+2. Add an item to the project and modify it if you want to.  
   
-3.  Modify the code file to indicate where parameter replacement should take place. For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
+3. Modify the code file to indicate where parameter replacement should take place. For more information, see [How to: Substitute Parameters in a Template](../ide/how-to-substitute-parameters-in-a-template.md).  
   
-4.  On the **File** menu, click **Export Template**.  
+4. On the **File** menu, click **Export Template**.  
   
-5.  Click **Item Template**, select the project that contains the item, and click **Next**.  
+5. Click **Item Template**, select the project that contains the item, and click **Next**.  
   
-6.  Select the item for which you want to create a template, and click **Next**.  
+6. Select the item for which you want to create a template, and click **Next**.  
   
-7.  Select the assembly references to include in the template, and click **Next**.  
+7. Select the assembly references to include in the template, and click **Next**.  
   
-8.  Type the icon file name, preview image, template name, and template description, and click **Finish**.  
+8. Type the icon file name, preview image, template name, and template description, and click **Finish**.  
   
      The files for the template are added to a .zip file and copied whatever directory you specify in the dialog. The default location is **..\Users\\<username\>\Documents\Visual Studio \<Version>\My Exported Templates\\** folder.  
   
     > [!WARNING]
-    >  In earlier versions of Visual Studio, the default location is **..\Users\\<username\>\Documents\Visual Studio \<Version>\Templates\ItemTemplates**.  
+    > In earlier versions of Visual Studio, the default location is **..\Users\\<username\>\Documents\Visual Studio \<Version>\Templates\ItemTemplates**.  
   
 ### To enable the item template to be used in a store project  
   
@@ -135,21 +135,21 @@ The steps in the [first procedure](#to-add-a-custom-project-item-template-to-the
   
 ### To manually create an item template without using the Export Template wizard  
   
-1.  Create a project and project item.  
+1. Create a project and project item.  
   
-2.  Modify the project item until it is ready to be saved as a template.  
+2. Modify the project item until it is ready to be saved as a template.  
   
-3.  As appropriate, modify the code file to indicate where parameter replacement should occur. For more information about parameter replacement, see How to: Substitute Parameters in a Template.  
+3. As appropriate, modify the code file to indicate where parameter replacement should occur. For more information about parameter replacement, see How to: Substitute Parameters in a Template.  
   
-4.  Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your new item template.  
+4. Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your new item template.  
   
-5.  Author the .vstemplate XML file to provide item template metadata. For more information, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.  
+5. Author the .vstemplate XML file to provide item template metadata. For more information, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md) and the example in the previous section.  
   
-6.  Save the .vstemplate file and close it.  
+6. Save the .vstemplate file and close it.  
   
-7.  In Windows Explorer, select the files you want to include in your template, right-click the selection, click Send To, and then click Compressed (zipped) Folder. The files that you selected are compressed into a .zip file.  
+7. In Windows Explorer, select the files you want to include in your template, right-click the selection, click Send To, and then click Compressed (zipped) Folder. The files that you selected are compressed into a .zip file.  
   
-8.  Copy the .zip file and paste it in the user item template location. In Visual Studio 2015, the default directory is ..\Users\\<username\>\Documents\Visual Studio 2015\Templates\ItemTemplates\\. For more information, see How to: Locate and Organize Project and Item Templates.  
+8. Copy the .zip file and paste it in the user item template location. In Visual Studio 2015, the default directory is ..\Users\\<username\>\Documents\Visual Studio 2015\Templates\ItemTemplates\\. For more information, see How to: Locate and Organize Project and Item Templates.  
   
 ## See Also  
  [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   

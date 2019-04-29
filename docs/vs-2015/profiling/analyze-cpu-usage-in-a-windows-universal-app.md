@@ -24,31 +24,31 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing code. To focus on specific scenarios, CPU Usage can be run with the [XAML UI Responsiveness](http://msdn.microsoft.com/library/4ff84cd1-4e63-4fda-b34f-3ef862a6e480) tool, the [Energy Consumption](../profiling/analyze-energy-use-in-store-apps.md) tool, or both tools in a single diagnostic session.  
   
 > [!NOTE]
->  The **CPU Usage** tool cannot be used with Windows Phone Silverlight 8.1 apps.  
+> The **CPU Usage** tool cannot be used with Windows Phone Silverlight 8.1 apps.  
   
  This walkthrough takes you through collecting and analyzing CPU usage for a simple Windows Universal XAML app.  
   
-##  <a name="BKMK_Create_the_CpuUseDemo_project"></a> Create the CpuUseDemo project  
+## <a name="BKMK_Create_the_CpuUseDemo_project"></a> Create the CpuUseDemo project  
  **CpuUseDemo** is an app that was created to demonstrate how to collect and analyze CPU usage data. The buttons generate a number by calling a method that selects the maximum value from multiple calls to a function. The called function creates a very large number of random values and then returns the last one. The data is displayed in a text box.  
   
-1.  Create a new C# Windows Universal app project named **CpuUseDemo** using the **BlankApp** template.  
+1. Create a new C# Windows Universal app project named **CpuUseDemo** using the **BlankApp** template.  
   
      ![Create the CpuUseDemoProject](../profiling/media/cpu-use-newproject.png "CPU_USE_NewProject")  
   
-2.  Replace MainPage.xaml with [this code](#BKMK_MainPage_xaml).  
+2. Replace MainPage.xaml with [this code](#BKMK_MainPage_xaml).  
   
-3.  Replace MainPage.xaml.cs with [this code](#BKMK_MainPage_xaml_cs).  
+3. Replace MainPage.xaml.cs with [this code](#BKMK_MainPage_xaml_cs).  
   
-4.  Build the app and try it out. The app is simple enough to show you some common cases of CPU Usage data analysis.  
+4. Build the app and try it out. The app is simple enough to show you some common cases of CPU Usage data analysis.  
   
-##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
+## <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
  ![Run a release build of the app in the simulator](../profiling/media/cpu-use-wt-setsimulatorandretail.png "CPU_USE_WT_SetSimulatorAndRetail")  
   
 1. In Visual Studio, set the deployment target to **Simulator** and the solution configuration to **Release**.  
   
-   -   Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
+   - Running the app in the simulator lets you switch easily between the app and the Visual Studio IDE.  
   
-   -   Running this app in **Release** mode gives you a better view of the actual performance of your app.  
+   - Running this app in **Release** mode gives you a better view of the actual performance of your app.  
   
 2. On the **Debug** menu, choose **Performance Profiler...**.  
   
@@ -66,14 +66,14 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
    ![CpuUsage report](../profiling/media/cpu-use-wt-report.png "CPU_USE_WT_Report")  
   
-##  <a name="BKMK_Analyze_the_CPU_Usage_report"></a> Analyze the CPU Usage report  
+## <a name="BKMK_Analyze_the_CPU_Usage_report"></a> Analyze the CPU Usage report  
   
-###  <a name="BKMK_CPU_utilization_timeline_graph"></a> CPU utilization timeline graph  
+### <a name="BKMK_CPU_utilization_timeline_graph"></a> CPU utilization timeline graph  
  ![CpuUtilization &#40;%&#41; timeline graph](../profiling/media/cpu-use-wt-timelinegraph.png "CPU_USE_WT_TimelineGraph")  
   
  The CPU utilization graph shows the CPU activity of the app as a percent of all CPU time from all the processor cores on the device. The data of this report was collected on a dual-core machine. The two large spikes represent the CPU activity of the two button clicks. `GetMaxNumberButton_Click` performs synchronously on a single core, so that it makes sense that method’s graph height never exceeds 50%. `GetMaxNumberAsycButton_Click` runs asynchronously across both cores, so it so it again looks right that its spike gets closer to utilizing all of the CPU resources on both cores.  
   
-####  <a name="BKMK_Select_timeline_segments_to_view_details"></a> Select timeline segments to view details  
+#### <a name="BKMK_Select_timeline_segments_to_view_details"></a> Select timeline segments to view details  
  Use the selection bars on the **Diagnostic session** timeline to focus on the GetMaxNumberButton_Click data:  
   
  ![GetMaxNumberButton&#95;Click selected](../profiling/media/cpu-use-wt-getmaxnumberreport.png "CPU_USE_WT_GetMaxNumberReport")  
@@ -86,10 +86,10 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  This method completes about a second faster than `GetMaxNumberButton_Click`, but the meaning of the call tree entries are less obvious.  
   
-###  <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree  
+### <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree  
  To get started understanding call tree information, reselect the `GetMaxNumberButton_Click` segment, and look at the call tree details.  
   
-####  <a name="BKMK_Call_tree_structure"></a> Call tree structure  
+#### <a name="BKMK_Call_tree_structure"></a> Call tree structure  
  ![GetMaxNumberButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumbercalltree-annotated.png "CPU_USE_WT_GetMaxNumberCallTree_annotated")  
   
 |||  
@@ -99,7 +99,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |![Step 3](../profiling/media/procguid-3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|  
 |![Step 4](../profiling/media/procguid-4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|  
   
-####  <a name="BKMK_External_Code"></a> External Code  
+#### <a name="BKMK_External_Code"></a> External Code  
  External code consists of functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won’t be interested in external code, and so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
   
  When you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
@@ -114,7 +114,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  ![Search for nested external code](../profiling/media/cpu-use-wt-showexternalcodetoowide-found.png "CPU_USE_WT_ShowExternalCodeTooWide_Found")  
   
-###  <a name="BKMK_Call_tree_data_columns"></a> Call tree data columns  
+### <a name="BKMK_Call_tree_data_columns"></a> Call tree data columns  
   
 |||  
 |-|-|  
@@ -124,7 +124,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |**Self CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function.|  
 |**Module**|The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.|  
   
-###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU Usage call tree  
+### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU Usage call tree  
  When the compiler encounters an asynchronous method, it creates a hidden class to control the method’s execution. Conceptually, the class is a state machine that includes a list of compiler-generated functions that call operations of the original method asynchronously, and the callbacks, scheduler, and iterators required to them correctly. When the original method is called by a parent method, the runtime removes the method from the execution context of the parent, and runs the methods of the hidden class in the context of the system and framework code that control the app’s execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code is shown in the CPU Usage call tree as children of the **[External Code]** node immediately below the top node of the tree.  
   
  To see this in our example, re-select the `GetMaxNumberAsyncButton_Click` segment in the timeline.  
@@ -135,22 +135,22 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
  ![Expanded GetMaxNumberAsyncButton&#95;Click call tree](../profiling/media/cpu-use-wt-getmaxnumberasync-expandedcalltree.png "CPU_USE_WT_GetMaxNumberAsync_ExpandedCallTree")  
   
--   `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
+- `MainPage::GetMaxNumberAsyncButton_Click` does very little; it manages a list of the task values, computes the maximum of the results, and displays the output.  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
+- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.  
   
--   `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.  
+- `MainPage::<GetNumberAsync>b__b` shows you the activity of the tasks that call `GetNumber`.  
   
-##  <a name="BKMK_Next_steps"></a> Next steps  
+## <a name="BKMK_Next_steps"></a> Next steps  
  The CpuUseDemo app is not the most brilliant of apps, but you can extend its utility by using it to experiment with asynchronous operation and other tools in the Performance and Diagnostics hub.  
   
--   Note that `MainPage::<GetNumberAsync>b__b` spends more time in [External Code] than it does executing the GetNumber method. Much of this time is the overhead of the asynchronous operations. Try increasing the number of tasks (set in the `NUM_TASKS` constant of MainPage.xaml.cs) and reducing the number of iterations in `GetNumber` (change the `MIN_ITERATIONS` value). Run the collection scenario and compare the CPU activity of `MainPage::<GetNumberAsync>b__b`to that in the original CPU Usage diagnostic session. Try reducing the tasks and increasing the iterations.  
+- Note that `MainPage::<GetNumberAsync>b__b` spends more time in [External Code] than it does executing the GetNumber method. Much of this time is the overhead of the asynchronous operations. Try increasing the number of tasks (set in the `NUM_TASKS` constant of MainPage.xaml.cs) and reducing the number of iterations in `GetNumber` (change the `MIN_ITERATIONS` value). Run the collection scenario and compare the CPU activity of `MainPage::<GetNumberAsync>b__b`to that in the original CPU Usage diagnostic session. Try reducing the tasks and increasing the iterations.  
   
--   Users often don’t care about the real performance of your app; they do care about the perceived performance and responsiveness of the app. The XAML UI Responsive tool shows you details of activity on the UI thread that effect perceived responsiveness.  
+- Users often don’t care about the real performance of your app; they do care about the perceived performance and responsiveness of the app. The XAML UI Responsive tool shows you details of activity on the UI thread that effect perceived responsiveness.  
   
      Create a new session in the Diagnostic and Performance hub, and add both the XAML UI Responsive tool and the CPU Usage tool. Run the collection scenario. If you’ve read this far, the report probably doesn’t tell you anything that you haven’t already figured out, but the differences in the **UI Thread utilization** timeline graph for the two methods is striking. In complex, real-world apps, the combination of tools can be very helpful.  
   
-##  <a name="BKMK_MainPage_xaml"></a> MainPage.xaml  
+## <a name="BKMK_MainPage_xaml"></a> MainPage.xaml  
   
 ```csharp  
 <Page  
@@ -185,7 +185,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
   
 ```  
   
-##  <a name="BKMK_MainPage_xaml_cs"></a> MainPage.xaml.cs  
+## <a name="BKMK_MainPage_xaml_cs"></a> MainPage.xaml.cs  
   
 ```csharp  
 using System;  

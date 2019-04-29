@@ -10,24 +10,24 @@ ms.workload:
   - "vssdk"
 ---
 # Notifications and Progress for Visual Studio
-##  <a name="BKMK_NotificationSystems"></a> Notification systems
+## <a name="BKMK_NotificationSystems"></a> Notification systems
 
 ### Overview
  There are several ways to inform the user what is happening in Visual Studio regarding their software development tasks.
 
  When implementing any kind of notification:
 
--   **Keep the number of notifications to the minimum** effective number. Notification messages should apply to a majority of Visual Studio users or to users of a specific feature/feature area. Excessive use of notifications may sidetrack the user or diminish perceived ease of use of the system.
+- **Keep the number of notifications to the minimum** effective number. Notification messages should apply to a majority of Visual Studio users or to users of a specific feature/feature area. Excessive use of notifications may sidetrack the user or diminish perceived ease of use of the system.
 
--   **Ensure you are presenting clear, actionable messages** that the user can use to invoke the appropriate context for making more complex choices and taking further action.
+- **Ensure you are presenting clear, actionable messages** that the user can use to invoke the appropriate context for making more complex choices and taking further action.
 
--   **Present synchronous and asynchronous messages appropriately.** Synchronous notifications indicate that something needs immediate attention, such as when a web service crashes or a code exception is thrown. The user should be informed of those situations right away in a manner that requires their input, such as in a modal dialog. Asynchronous notifications are ones that the user should know about but not be required to act upon immediately, such as when a build operation completes or a web site deployment finishes. Those messages should be more ambient and not interrupt the user's task flow.
+- **Present synchronous and asynchronous messages appropriately.** Synchronous notifications indicate that something needs immediate attention, such as when a web service crashes or a code exception is thrown. The user should be informed of those situations right away in a manner that requires their input, such as in a modal dialog. Asynchronous notifications are ones that the user should know about but not be required to act upon immediately, such as when a build operation completes or a web site deployment finishes. Those messages should be more ambient and not interrupt the user's task flow.
 
--   **Use modal dialogs only when necessary to prevent the user from taking further action** before acknowledging the message or making a decision presented in the dialog.
+- **Use modal dialogs only when necessary to prevent the user from taking further action** before acknowledging the message or making a decision presented in the dialog.
 
--   **Remove ambient notifications when they are no longer valid.** Do not require the user to dismiss a notification if they have already taken action to address the issue they were notified about.
+- **Remove ambient notifications when they are no longer valid.** Do not require the user to dismiss a notification if they have already taken action to address the issue they were notified about.
 
--   **Be aware that notifications can lead to false correlations.** Users might believe that one or more of their actions has triggered a notification when in fact there was no causal relationship. Be clear in the notification message about the context, the trigger, and the source of the notification.
+- **Be aware that notifications can lead to false correlations.** Users might believe that one or more of their actions has triggered a notification when in fact there was no causal relationship. Be clear in the notification message about the context, the trigger, and the source of the notification.
 
 ### Choosing the right method
  Use this table to assist you in choosing the right method to notify the user of your message.
@@ -49,14 +49,14 @@ ms.workload:
 
 ### Notification methods
 
-####  <a name="BKMK_ModalErrorMessageDialogs"></a> Modal error message dialogs
+#### <a name="BKMK_ModalErrorMessageDialogs"></a> Modal error message dialogs
  A modal error message dialog is used to display an error message that requires the user's confirmation or action.
 
  ![Modal error message](../../extensibility/ux-guidelines/media/0901-01_modalerrormessage.png "0901-01_ModalErrorMessage")
 
  **A modal error message dialog alerting the user of an invalid connection string to a database**
 
-####  <a name="BKMK_IDEStatusBar"></a> IDE status bar
+#### <a name="BKMK_IDEStatusBar"></a> IDE status bar
  The likelihood that users notice status bar text correlates to their all-around computer experience and specific experience with the Windows platform. The Visual Studio customer base tends to be experienced in both areas, though even knowledgeable Windows users might miss changes in the status bar. Therefore, the status bar is best used for informational purposes or as a redundant cue for information presented elsewhere. Any kind of critical information that the user must resolve immediately should be provided in a dialog or in the Notifications tool window.
 
  The Visual Studio status bar is designed to allow for several types of information to be displayed. It is divided into regions for feedback, designer, progress bar, animation, and client.
@@ -69,24 +69,24 @@ ms.workload:
 
  **IDE status bar colors**
 
-####  <a name="BKMK_EmbeddedInfobar"></a> Embedded infobar
+#### <a name="BKMK_EmbeddedInfobar"></a> Embedded infobar
  An infobar can be used at the top of a document window or tool window to inform the user of a state or condition. It can also offer commands so that the user can have a way to easily take action. The Infobar is a standard shell control. Avoid creating your own, which will act and appear inconsistent with others in the IDE. See [Infobars](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars) for implementation details and usage guidance.
 
  ![Embedded infobar](../../extensibility/ux-guidelines/media/0901-03_embeddedinfobar.png "0901-03_EmbeddedInfobar")
 
  **An infobar embedded in a document window, alerting the user that the IDE is in historical debugging mode and the editor will not respond in the same way as it does in standard debugging mode.**
 
-####  <a name="BKMK_MouseCursorChanges"></a> Mouse cursor changes
+#### <a name="BKMK_MouseCursorChanges"></a> Mouse cursor changes
  When changing the mouse cursor, use colors that are tied to the VSColor service and are already associated with the cursor. Cursor changes can be used for indicating an ongoing operation, as well as hit zones where the user is hovering over a target that can be dragged, dropped onto, or used to select an object.
 
  Use the busy/wait mouse cursor only when all available CPU time must be reserved for an operation, preventing the user from expressing any further input. In most cases with well-written applications using multithreading, times when users are prevented from doing other operations should be rare.
 
  Keep in mind that cursor changes are useful as a redundant cue for information presented elsewhere. Do not rely on a cursor change as the sole way of communicating with the user especially when trying to convey something that is critical that the user must address.
 
-####  <a name="BKMK_NotSysProgressIndicators"></a> Progress indicators
+#### <a name="BKMK_NotSysProgressIndicators"></a> Progress indicators
  Progress indicators are important for giving the user feedback during processes that take more than a few seconds to complete. Progress indicators can be shown in-place (near the launching point of the action in progress), in an embedded status bar, in a modal dialog, or in the Visual Studio status bar. Follow the guidance in [Progress indicators](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_ProgressIndicators) regarding their use and implementation.
 
-####  <a name="BKMK_VSNotificationsToolWindow"></a> Visual Studio Notifications window
+#### <a name="BKMK_VSNotificationsToolWindow"></a> Visual Studio Notifications window
  The Visual Studio Notifications window notifies developers about licensing, environment (Visual Studio), extensions, and updates. Users can dismiss individual notifications or can choose to ignore certain types of notifications. The list of ignored notifications is managed in a **Tools > Options** page.
 
  The Notifications window is not currently extensible.
@@ -95,33 +95,33 @@ ms.workload:
 
  **Visual Studio Notifications tool window**
 
-####  <a name="BKMK_ErrorList"></a> Error list
+#### <a name="BKMK_ErrorList"></a> Error list
  A notification within the error list indicate errors and warnings that occurred during compilation and or build process, and allows the user to navigate in code to that specific code error.
 
  ![Error list](../../extensibility/ux-guidelines/media/0901-08_errorlist.png "0901-08_ErrorList")
 
  **Error list in Visual Studio**
 
-####  <a name="BKMK_EmbeddedStatusBars"></a> Embedded status bars
+#### <a name="BKMK_EmbeddedStatusBars"></a> Embedded status bars
  Because the IDE status bar is dynamic, with its client region context set to the active document window and information updating on the user's context and/or system responses, it is difficult to maintain a continuous display of information or give status on long-term asynchronous processes. For example, the IDE status bar is not appropriate for notifications of test run results for multiple runs and/or immediately actionable item selections. It is important to retain such status information in the context of the document or tool window where the user makes a selection or starts a process.
 
  ![Embedded status bar](../../extensibility/ux-guidelines/media/0901-09_embeddedstatusbar.png "0901-09_EmbeddedStatusBar")
 
  **Embedded status bar in Visual Studio**
 
-####  <a name="BKMK_WindowsTray"></a> Windows tray notifications
+#### <a name="BKMK_WindowsTray"></a> Windows tray notifications
  The Windows notification area is next to the system clock on the Windows taskbar. Many utilities and software components provide icons in this area so that the user can obtain a context menu for system-wide tasks, like changing screen resolution or obtaining software updates.
 
  Environment-level notifications should be surfaced in the Visual Studio Notifications hub, not the Windows notification area.
 
-####  <a name="BKMK_NotificationBubbles"></a> Notification bubbles
+#### <a name="BKMK_NotificationBubbles"></a> Notification bubbles
  Notification bubbles can appear as informational within an editor/designer or as part of the Windows Notification area. The user perceives these bubbles as issues that they can resolve later, which is a benefit for noncritical notifications. Bubbles are inappropriate for critical information that the user must solve right away. If you do use notification bubbles in Visual Studio, follow the [Windows Desktop guidance for notification bubbles](/windows/desktop/uxguide/mess-notif).
 
  ![Notification bubble](../../extensibility/ux-guidelines/media/0901-07_notificationbubbles.png "0901-07_NotificationBubbles")
 
  **Notification bubble in the Windows Notification area used for Visual Studio**
 
-##  <a name="BKMK_ProgressIndicators"></a> Progress indicators
+## <a name="BKMK_ProgressIndicators"></a> Progress indicators
 
 ### Overview
  Progress indicators are an important part of a notification system for giving the user feedback. They tell the user when processes and operations will complete. Familiar indicator types include progress bars, spinning cursors, and animated icons. The type and placement of a progress indicator depends on the context, including what is being reported and how long the process or operation will take to complete.
@@ -129,17 +129,17 @@ ms.workload:
 #### Factors
  In order to determine which indicator type is appropriate, you need to determine the following factors.
 
-1.  **Timing:** length of time the operation will take
+1. **Timing:** length of time the operation will take
 
-2.  **Modality:** whether the operation is modal to the environment (locks the UI until the process is complete)
+2. **Modality:** whether the operation is modal to the environment (locks the UI until the process is complete)
 
-3.  **Persistent/Transient:** whether the final result of the progress needs to be reported and/or viewable at a later time
+3. **Persistent/Transient:** whether the final result of the progress needs to be reported and/or viewable at a later time
 
-4.  **Determinate/Indeterminate:** whether the operation end time and progress can be calculated
+4. **Determinate/Indeterminate:** whether the operation end time and progress can be calculated
 
-5.  **Graphic/Textual location:** whether the progress or process is captured inline, in the body of a message, or a specific control, such as the Tree control
+5. **Graphic/Textual location:** whether the progress or process is captured inline, in the body of a message, or a specific control, such as the Tree control
 
-6.  **Proximity:** whether the progress should be in close proximity to the UI that it is related to. (For example, can it be in the status bar, which might be far away, or does it have to be near the button that launched the process?)
+6. **Proximity:** whether the progress should be in close proximity to the UI that it is related to. (For example, can it be in the status bar, which might be far away, or does it have to be near the button that launched the process?)
 
 #### Determinate progress
 
@@ -275,7 +275,7 @@ ms.workload:
 
  **Output Window with ongoing process status and wait messaging**
 
-##  <a name="BKMK_Infobars"></a> Infobars
+## <a name="BKMK_Infobars"></a> Infobars
 
 ### Overview
  Infobars give the user an indicator close to their point of attention and using the shared infobar control ensures consistency in visual appearance and interaction.
@@ -286,31 +286,31 @@ ms.workload:
 
 #### Appropriate uses for an infobar
 
--   To give the user a non-blocking but important message relevant to the current context
+- To give the user a non-blocking but important message relevant to the current context
 
--   To indicate that the UI is in a certain state or condition that carries some interaction implications, such as historical debugging
+- To indicate that the UI is in a certain state or condition that carries some interaction implications, such as historical debugging
 
--   To notify the user that the system has detected problems, such as when an extension is causing performance issues
+- To notify the user that the system has detected problems, such as when an extension is causing performance issues
 
--   To provide the user a way to easily take action, such as when the editor detects that a file has mixed tabs and spaces
+- To provide the user a way to easily take action, such as when the editor detects that a file has mixed tabs and spaces
 
 ##### Do:
 
--   Keep the infobar message text short and to the point.
+- Keep the infobar message text short and to the point.
 
--   Keep the text on links and buttons succinct.
+- Keep the text on links and buttons succinct.
 
--   Ensure the "action" options you provide to users are minimal, showing only required actions.
+- Ensure the "action" options you provide to users are minimal, showing only required actions.
 
 ##### Don't:
 
--   Use an infobar to offer standard commands that should be placed in a toolbar.
+- Use an infobar to offer standard commands that should be placed in a toolbar.
 
--   Use an infobar in place of a modal dialog.
+- Use an infobar in place of a modal dialog.
 
--   Create a floating message outside a window.
+- Create a floating message outside a window.
 
--   Use multiple infobars in several locations within the same window.
+- Use multiple infobars in several locations within the same window.
 
 #### Can multiple infobars show at the same time?
  Yes, multiple infobars can show at the same time. They will be displayed in first-come, first-served order with the first infobar showing on top and additional infobars showing below.
@@ -320,13 +320,13 @@ ms.workload:
 ### Creating an infobar
  The infobar has four sections, from left to right:
 
--   **Icon:** This is where you'd add any icon you'd like to display for the infobar, such as a warning icon.
+- **Icon:** This is where you'd add any icon you'd like to display for the infobar, such as a warning icon.
 
--   **Text:** You can add text to describe the scenario/situation user is in, along with links within the text, if required. Remember to keep the text succinct.
+- **Text:** You can add text to describe the scenario/situation user is in, along with links within the text, if required. Remember to keep the text succinct.
 
--   **Actions:** This section should contain links and buttons for actions that the user can take in your infobar.
+- **Actions:** This section should contain links and buttons for actions that the user can take in your infobar.
 
--   **Close button:** The last section to the right can have a close button.
+- **Close button:** The last section to the right can have a close button.
 
 #### Creating a standard infobar in managed code
  The InfoBarModel class can be used to create a data source for an infobar. Use one of these four constructors:
@@ -406,12 +406,12 @@ private bool TryCreateInfoBarUI(IVsInfoBar infoBar, out IVsInfoBarUIElement uiEl
 ### Placement
  Infobars can be shown in one or more of the following locations:
 
--   Tool windows
+- Tool windows
 
--   Within a document tab
+- Within a document tab
 
 > [!IMPORTANT]
->  It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.
+> It's possible to position an infobar to give a message about global context. This would appear between toolbars and the document well. This is not recommended because it causes problems with "jump and jerk" of the IDE and should be avoided unless absolutely necessary and appropriate.
 
 #### Placing an infobar in a ToolWindowPane
  The ToolWindowPane.AddInfoBar(IVsInfoBar) method can be used to add an infobar to a tool window. This API can either add an IVsInfoBar (of which InfoBarModel is a default implementation), or an IVsUIElement.
@@ -464,7 +464,7 @@ public interface IVsInfoBarUIEvents
 
 ```
 
-##  <a name="BKMK_ErrorValidation"></a> Error validation
+## <a name="BKMK_ErrorValidation"></a> Error validation
  When a user enters information that is not acceptable, such as when a required field is skipped or when data is entered in the incorrect format, it is better to use control validation or feedback near the control instead of using a blocking popup error dialog.
 
 ### Field validation

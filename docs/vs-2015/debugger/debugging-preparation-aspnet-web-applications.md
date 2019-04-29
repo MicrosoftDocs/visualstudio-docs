@@ -27,19 +27,19 @@ The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web site template creates a 
   
 ### To create a Web Forms application  
   
-1.  On the **File** menu, choose **New Web Site**.  
+1. On the **File** menu, choose **New Web Site**.  
   
-2.  In the **New Web Site** dialog box, select [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]**Web Site**.  
+2. In the **New Web Site** dialog box, select [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]**Web Site**.  
   
-3.  Click **OK**.  
+3. Click **OK**.  
   
 ### To debug your Web form  
   
-1.  Set one or more breakpoints in your functions and event handlers.  
+1. Set one or more breakpoints in your functions and event handlers.  
   
      For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
-2.  When a breakpoint is hit, step through code inside the function. Observe the execution of your code until you isolate the problem.  
+2. When a breakpoint is hit, step through code inside the function. Observe the execution of your code until you isolate the problem.  
   
      For more information, see [Stepping](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) and [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).  
   
@@ -48,13 +48,13 @@ The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web site template creates a 
   
 #### To change the default debug configuration  
   
-1.  In **Solution Explorer**, right-click the Web site, and select **Property Pages** to open the **Property Pages** dialog box.  
+1. In **Solution Explorer**, right-click the Web site, and select **Property Pages** to open the **Property Pages** dialog box.  
   
-2.  Click **Start Options**.  
+2. Click **Start Options**.  
   
-3.  Set **Start Action** to the Web page that should be displayed first.  
+3. Set **Start Action** to the Web page that should be displayed first.  
   
-4.  Under **Debuggers**, make sure **ASP.NET debugging** is selected.  
+4. Under **Debuggers**, make sure **ASP.NET debugging** is selected.  
   
      For more information, see [Property Pages Settings for Web Projects](../debugger/property-pages-settings-for-web-projects.md).  
   

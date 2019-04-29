@@ -22,22 +22,22 @@ The code that defines a dataset is generated every time changes are made to the 
 By default, after you separate the dataset and TableAdapter code, the result is a discrete class file in each project. The original project has a file named *DatasetName.Designer.vb* (or *DatasetName.Designer.cs*) that contains the TableAdapter code. The project that's designated in the **Dataset Project** property has a file that's named *DatasetName.DataSet.Designer.vb* (or *DatasetName.DataSet.Designer.cs*).This file contains the dataset code.
 
 > [!NOTE]
->  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.
+> When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.
 
 > [!NOTE]
->  When validation code needs to be added, the typed dataset provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers. For more information, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).
+> When validation code needs to be added, the typed dataset provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers. For more information, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).
 
 ## To add code to datasets in n-tier applications
 
-1.  Locate the project that contains the *.xsd* file.
+1. Locate the project that contains the *.xsd* file.
 
-2.  Select the **.xsd** file to open the dataset.
+2. Select the **.xsd** file to open the dataset.
 
-3.  Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
+3. Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
 
      A partial class is created and opens in the Code Editor.
 
-4.  Add code inside the partial class declaration.
+4. Add code inside the partial class declaration.
 
      The following example shows where to add code to the CustomersDataTable in the NorthwindDataSet:
 
@@ -47,6 +47,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
         ' to the CustomersDataTable.
     End Class
     ```
+
     ```csharp
     partial class CustomersDataTable
     {

@@ -10,7 +10,6 @@ searchscope: VS Subscription
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
 
-
 You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://visualstudio.microsoft.com/subscriptions/) from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are called **"cloud subscriptions"**.
 
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
@@ -61,12 +60,12 @@ If you purchased more than one subscription, proceed to the
 
 ## <a name="manage-subscriptions"></a>Cancel renewals of cloud subscriptions you've purchased
 
-*   To change the number of purchased subscriptions:
+* To change the number of purchased subscriptions:
 
 > [!div class="mx-imgBorder"]
 > ![Change subscriptions](_img/buy-vs-subscriptions/manage-subscriptions.png)
 
-*   To cancel these subscriptions, reduce the number of subscriptions to zero (0). They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
+* To cancel these subscriptions, reduce the number of subscriptions to zero (0). They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
 
 ## Buy cloud subscriptions now
 

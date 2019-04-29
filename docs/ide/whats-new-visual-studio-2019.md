@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 04/04/2019
+ms.date: 04/23/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -28,10 +28,10 @@ With Visual Studio 2019, you'll get best-in-class tools and services for any dev
 Here's a high-level recap of what's new:
 
 * **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, and better search results.
-* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a cloud-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
+* **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
 * **[Debug](#debug)**: Highlight and navigate to specific values, optimize memory use, and take automatic snapshots of your application's execution.
 
-For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/). 
+For a complete list of everything that's new in this version, see the [release notes](/visualstudio/releases/2019/release-notes/).
 
 ## Develop
 
@@ -49,11 +49,11 @@ The new fuzzy search logic will find anything you need, regardless of typos. So,
 
 ### Refactorings
 
-New C# refactorings make it easier to organize your code. Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action you want to take. 
+There are lots of new and highly useful refactorings in C# that make it easier to organize your code. They show up as suggestions in the light bulb and include actions such as moving members to interface or base class, adjusting namespaces to match folder structure, convert foreach-loops to Linq queries, and more.
 
    ![An animation of the refactorings experience in Visual Studio 2019](media/vs-2019/refactorings.gif)
 
-We've added many new refactorings, including one that lets you wrap method parameters.
+Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action you want to take.
 
 ### IntelliCode
 
@@ -72,13 +72,13 @@ We initially supported only C# when we first previewed the IntelliCode extension
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post. 
+For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post.
 
 ### Code cleanup
 
 Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
 
-The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-quick-actions.md), [.editorconfig files](create-portable-custom-editor-options.md), or [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-code-cleanup.md) and [.editorconfig files](create-portable-custom-editor-options.md).
 
    ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile.png)
 
@@ -98,7 +98,7 @@ Something you'll notice when you open Visual Studio 2019 is its new start window
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/start-window-dark.png)
 
-The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.  
+The start window presents you with several options to get you to code quickly. We've placed the option to clone or check out code from a repo, first.
 
    ![An animation of the 'Git-first' experience in Visual Studio 2019](media/vs-2019/git-first.gif)
 
@@ -136,7 +136,7 @@ We've taken the once-exclusive C++ data breakpoints and adapted them for .NET Co
 
    ![An animation that shows the debug data breakpoints in Visual Studio 2019](media/vs-2019/debug-data-breakpoints.gif)
 
-So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list. 
+So whether you're coding in C++ or .NET Core, data breakpoints can be a good alternative to just placing regular breakpoints. Data breakpoints are also great for scenarios such as finding where a global object is being modified or being added or removed from a list.
 
 And, if you're a C++ developer who develops large applications, Visual Studio 2019 has made symbols out of proc, which allows you to debug those applications without experiencing memory-related issues.
 
@@ -162,13 +162,19 @@ We've added support for targeting ASP.NET (Core and desktop) applications that r
 
 For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) page, and the [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/) blog post.
 
+## What's next
+
+We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
+
+Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
+
 ## Give us feedback
 
 Why send feedback to the Visual Studio team? Because we take customer feedback seriously. It drives much of what we do.
 
-* If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Provide a Suggestion](talk-to-us.md#i-want-to-make-a-suggestion-about-visual-studio-features) tool.
+* If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Suggest a Feature](suggest-a-feature.md) tool.
 
-* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](talk-to-us.md#i-want-to-report-a-problem-with-visual-studio) tool.
+* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
 ## See also
 

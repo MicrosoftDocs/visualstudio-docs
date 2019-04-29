@@ -3,8 +3,8 @@ title: Python environments window reference
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
 ms.date: 03/18/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -55,7 +55,7 @@ As you use interactive windows in your everyday workflow, you likely develop hel
 
 Startup scripts contain code that the **Interactive** window loads and runs automatically, including imports, function definitions, and literally anything else. Such scripts are referenced in two ways:
 
-1. When you install an environment, Visual Studio creates a folder *Documents\Visual Studio <version>\Python Scripts\\\<environment>* where &lt;version&gt; is the Visual Studio version (such as 2017 or 2019) and &lt;environment&gt; matches the name of the environment. You can easily navigate to the environment-specific folder with the **Explore interactive scripts** command. When you start the **Interactive** window for that environment, it loads and runs whatever *.py* files are found here in alphabetical order.
+1. When you install an environment, Visual Studio creates a folder *Documents\Visual Studio \<version>\Python Scripts\\\<environment>* where &lt;version&gt; is the Visual Studio version (such as 2017 or 2019) and &lt;environment&gt; matches the name of the environment. You can easily navigate to the environment-specific folder with the **Explore interactive scripts** command. When you start the **Interactive** window for that environment, it loads and runs whatever *.py* files are found here in alphabetical order.
 
 1. The **Scripts** control in **Tools** > **Options** > **Python** > **Interactive Windows** tab (see [Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options)) is intended to specify an additional folder for startup scripts that are loaded and run in all environments. However, this feature doesn't work at present.
 

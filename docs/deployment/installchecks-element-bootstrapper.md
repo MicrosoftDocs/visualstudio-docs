@@ -91,7 +91,6 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 
  `FileCheck` contains no elements, and has the following attributes.
 
-
 | Attribute | Description |
 |-----------------| - |
 | `Property` | Required. The name of the property to store the result. This property can be referenced from a test underneath the `InstallConditions` element, which is a child of the `Command` element. For more information, see [\<Commands> Element](../deployment/commands-element-bootstrapper.md). |

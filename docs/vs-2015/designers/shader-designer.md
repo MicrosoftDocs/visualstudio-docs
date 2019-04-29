@@ -35,13 +35,13 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 #### To add a DGSL shader to your project  
   
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.  
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.  
+2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.  
   
-3.  Specify the **Name** of the shader file, and the **Location** where you want it to be created.  
+3. Specify the **Name** of the shader file, and the **Location** where you want it to be created.  
   
-4.  Choose the **Add** button.  
+4. Choose the **Add** button.  
   
 ### The default shader  
  Each time that you create a DGSL shader, it begins as a minimal shader that has just a **Point Color** node that's connected to the **Final Color** node. Although this shader is complete and functional, it doesn't do much. Therefore, the first step in creating a working shader is often to delete the **Point Color** node or disconnect it from the **Final Color** node to make room for other nodes.  
@@ -78,26 +78,26 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
 |**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
   
 > [!TIP]
->  You can choose the **Advanced** button to run the last command again.  
+> You can choose the **Advanced** button to run the last command again.  
   
 ### Working with nodes and connections  
  Use **Select** mode to add, remove, reposition, connect, and configure nodes. Here's how to perform these basic operations:  
   
 ##### To perform basic operations in Select mode  
   
--   Here's how:  
+- Here's how:  
   
-    -   To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.  
+    - To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.  
   
-    -   To remove a node from the graph, select it and then press Delete.  
+    - To remove a node from the graph, select it and then press Delete.  
   
-    -   To reposition a node, select it and then move it to a new location.  
+    - To reposition a node, select it and then move it to a new location.  
   
-    -   To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.  
+    - To connect two nodes, move an output terminal of one node to an input terminal of the other node. Only terminals that have compatible types can be connected. A line between the terminals shows the connection.  
   
-    -   To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.  
+    - To remove a connection, on the shortcut menu for either one of the connected terminals, choose **Break Links**.  
   
-    -   To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.  
+    - To configure the properties of a node, select the node, and then, in the **Properties** window, specify new values for the properties.  
   
 ### Previewing shaders  
  To help you understand how a shader will appear in your app, you can configure how your effect is previewed. To approximate your app, you can choose one of several shapes to render, configure textures and other material parameters, enable animation of time-based effects, and examine the preview from different angles.  
@@ -107,9 +107,9 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ###### To choose a preview shape  
   
--   On the **Shader Designer Modes** toolbar, choose the shape that you want.  
+- On the **Shader Designer Modes** toolbar, choose the shape that you want.  
   
-####  <a name="WWS_MaterialParameters"></a> Textures and material parameters  
+#### <a name="WWS_MaterialParameters"></a> Textures and material parameters  
  Many shaders rely on textures and material properties to produce a unique appearance for each kind of object in your app. To see what your shader will look like in your app, you can set the textures and material properties that are used to render the preview to match the textures and parameters that you might use in your app.  
   
 ###### To bind a different texture to a texture register, or to modify other material parameters  
@@ -134,14 +134,14 @@ This document describes how to work with the [!INCLUDE[vsprvs](../includes/vsprv
   
 ###### To enable real-time rendering  
   
--   On the Shader Designer toolbar, choose **Real time Rendering**.  
+- On the Shader Designer toolbar, choose **Real time Rendering**.  
   
 #### Examining the effect  
  Many shaders are affected by variables such as viewing angle or directional lighting. To examine how the effect responds as these variables change, you can rotate the preview shape freely and observe how the shader behaves.  
   
 ###### To rotate the shape  
   
--   Press and hold Alt, and then select any point on the design surface and move it.  
+- Press and hold Alt, and then select any point on the design surface and move it.  
   
 ### Exporting shaders  
  Before you can use a shader in your app, you have to export it in a format that DirectX understands.  

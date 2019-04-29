@@ -20,9 +20,9 @@ A VSPackage may define one or more settings categories, which are groups of stat
   
  A registry entry that is referred to as a Custom Settings Point and a GUID defines a VSPackage's settings category. A VSPackage can support multiple settings categories, each defined by a Custom Settings Point.  
   
--   Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35).  
+- Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35).  
   
--   Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.  
+- Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.  
   
      If a single VSPackage supports several Custom Settings Points, each Custom Settings Point is implemented by a separate class, and each is registered by a unique instance of the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> class. Consequently, a settings implementing class can support more than one settings category.  
   
@@ -30,7 +30,7 @@ A VSPackage may define one or more settings categories, which are groups of stat
  Custom Settings Points are created in a registry entry in the following location: HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\\`<CSPName>`, where `<CSPName>` is the name of the Custom Settings Point the VSPackage supports and *\<Version>* is the version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], for example 8.0.  
   
 > [!NOTE]
->  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).  
+> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).  
   
  The structure of the registry entry is illustrated below:  
   

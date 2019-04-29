@@ -18,7 +18,7 @@ manager: "ghogen"
 Initializes objects created with [IWebAppDiagnosticsSetup::CreateObjectWithSiteAtWebApp](../../winscript/reference/iwebappdiagnosticssetup-createobjectwithsiteatwebapp.md).  
   
 > [!IMPORTANT]
->  [IWebAppDiagnosticsObjectInitialization Interface](../../winscript/reference/iwebappdiagnosticsobjectinitialization-interface.md) is found in activdbg100.h.  
+> [IWebAppDiagnosticsObjectInitialization Interface](../../winscript/reference/iwebappdiagnosticsobjectinitialization-interface.md) is found in activdbg100.h.  
   
 ## Syntax  
   

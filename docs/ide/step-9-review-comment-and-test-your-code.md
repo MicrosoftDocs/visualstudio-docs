@@ -40,22 +40,22 @@ You next add a comment to your code. A comment is a note that doesn't change the
 
 ## To add comments
 
-1.  Add the following comment to your code.
+1. Add the following comment to your code.
 
      [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
      [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]
 
     > [!NOTE]
-    >  Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
+    > Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your program, "Check this one thing, and if it's true, do these actions." In this case, you tell your program to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
 
     > [!TIP]
-    >  The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.
+    > The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.
     >
     >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For Visual C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Conditionals and Loops** > **Code Patterns**. You can use this manager to browse existing snippets or add your own snippets.
     >
     >  To activate a snippet when typing code, type it and choose the **Tab** key. Many snippets appear in the **IntelliSense** window, which is why you choose the **Tab** key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)
 
-2.  Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.
+2. Before you run your program, save your program by choosing the **Save All** toolbar button, which appears as follows.
 
      ![Save All toolbar button](../ide/media/express_iconsaveall.png)
 **Save All** button
@@ -69,19 +69,19 @@ You next add a comment to your code. A comment is a note that doesn't change the
 
 ## To test your program
 
-1.  Choose the **F5** key or choose the **Start Debugging** toolbar button.
+1. Choose the **F5** key or choose the **Start Debugging** toolbar button.
 
-2.  Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.
+2. Choose the **Show a picture** button to run the code you just wrote. First, the program opens an **Open File** dialog box. Verify that your filters appear in the **Files of type** drop-down list at the bottom of the dialog box. Then navigate to a picture and open it. You can usually find sample pictures that ship with the Windows operating system in your *My Documents* folder, inside the *My Pictures\Sample Pictures* folder.
 
     > [!NOTE]
-    >  If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*.\*)** filter is selected in the drop-down list on the lower right side of the dialog box.
+    > If you don't see any images in the **Select a picture file** dialog box, be sure that the **All files (*.\*)** filter is selected in the drop-down list on the lower right side of the dialog box.
 
-3.  Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the <xref:System.Windows.Forms.TableLayoutPanel> and <xref:System.Windows.Forms.FlowLayoutPanel> containers: They keep your form sized correctly when the user resizes it.
+3. Load a picture, and it appears in your PictureBox. Then try resizing your form by dragging its borders. Because you have your PictureBox docked inside a TableLayoutPanel, which itself is docked inside the form, your picture area will resize itself so that it's as wide as the form, and fills the top 90 percent of the form. That's why you used the <xref:System.Windows.Forms.TableLayoutPanel> and <xref:System.Windows.Forms.FlowLayoutPanel> containers: They keep your form sized correctly when the user resizes it.
 
      Right now, larger pictures go beyond the borders of your picture viewer. In the next step, you'll add code to make pictures fit in the window.
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md).
+- To go to the next tutorial step, see [Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md).
 
--   To return to the previous tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).
+- To return to the previous tutorial step, see [Step 8: Write code for the show a picture button event handler](../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md).

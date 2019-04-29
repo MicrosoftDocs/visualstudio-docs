@@ -46,7 +46,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 You can set breakpoints when you want to stop debugger execution, perhaps to see the state of code variables or to look at the call stack. They are one of the most important debugging techniques in a developer's toolbox.
   
-##  <a name="BKMK_Overview"></a> Setting a function breakpoint in source code  
+## <a name="BKMK_Overview"></a> Setting a function breakpoint in source code  
  You set a function breakpoint in source code by clicking in the left margin of a source code file, or by putting your cursor on a line of code and pressing F9. The breakpoint appears as a red dot in the left margin, and the line of code is colored as well:  
   
  ![Set a breakpoint](../debugger/media/basicbreakpoint.png "BasicBreakpoint")  
@@ -61,7 +61,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  You can set a breakpoint on any line of executable code. For example, in the C# code above you can set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop, but you cannot set a breakpoint on the namespace or class declarations or the method signature.  
   
-##  <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Setting Other Kinds of Breakpoints  
+## <a name="BKMK_Set_a_breakpoint_in_a_source_file"></a> Setting Other Kinds of Breakpoints  
  You can also set breakpoints in the call stack, in the Disassembly window, and, in native C++ code, at a data condition or a memory address.  
   
 ## <a name="BKMK_Set_a_breakpoint_in_the_call_stack_window"></a> Setting a Breakpoint in the Call Stack Window  
@@ -80,9 +80,9 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ## Setting a Breakpoint in the Disassembly Window  
  To set a breakpoint at an assembly instruction, the debugger must be in break mode.  
   
-1.  Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Disassembly** window (**Debug / Windows / Disassembly**, or **Ctrl + Alt + D**).  
+1. Start debugging the application, and wait execution is stopped (for example, at a breakpoint). Open the **Disassembly** window (**Debug / Windows / Disassembly**, or **Ctrl + Alt + D**).  
   
-2.  Click in the left margin at the instruction that you want to break at, or set your cursor at the instruction and press **F9**.  
+2. Click in the left margin at the instruction that you want to break at, or set your cursor at the instruction and press **F9**.  
   
 ## <a name="BKMK_set_a_data_breakpoint_native_cplusplus_only"></a> Setting a Data Breakpoint (native C++ only)  
  Data breakpoints break execution when a value that is stored at a specified memory address changes. If the value is read but not changed, execution doesn't break. To set data breakpoints, the debugger must be in break mode.  
@@ -112,26 +112,26 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  For example, given an object of type `my_class` with the address, you can set a function breakpoint on a method named `my_method` called from that instance.  
   
-1.  Set a breakpoint somewhere after that instance of the class is instantiated.  
+1. Set a breakpoint somewhere after that instance of the class is instantiated.  
   
-2.  Find the address of the instance (we'll say it's `0xcccccccc`).  
+2. Find the address of the instance (we'll say it's `0xcccccccc`).  
   
-3.  Click **Debug / New Breakpoint / Function Breakpoint** (or **ALT + F9, B**).  
+3. Click **Debug / New Breakpoint / Function Breakpoint** (or **ALT + F9, B**).  
   
-4.  Add the following text to the **Function Name** box:  
+4. Add the following text to the **Function Name** box:  
   
     ```cpp  
     ((my_class *) 0xcccccccc)->my_method  
     ```  
   
-##  <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Managing Breakpoints  
+## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Managing Breakpoints  
  You can use the **Breakpoints** window (**Debug / Windows / Breakpoints**, or **CTRL + ALT + B**) to see all the breakpoints you have set in your solution:  
   
  ![Breakpoints window](../debugger/media/breakpointswindow.png "BreakpointsWindow")  
   
  The **Breakpoints** window gives you a central place to manage all your breakpoints, which can be especially helpful in a large solution or a complex debugging scenario where breakpoints are critical. If you need to save or share the state and location of a set of breakpoints, you can export and import breakpoints only from the **Breakpoints** window.  
   
-##  <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a> Advanced Breakpoints  
+## <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a> Advanced Breakpoints  
   
 ## Breakpoint conditions  
  You can control when and where a breakpoint executes by setting conditions.  
@@ -203,7 +203,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
   Enclose string values in double quotes. You can combine clauses using `&` (AND), `||` (OR), `!` (NOT), and parentheses.  
   
-##  <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint Actions and Tracepoints  
+## <a name="BKMK_Print_to_the_Output_window_with_tracepoints"></a> Breakpoint Actions and Tracepoints  
  A tracepoint is a breakpoint that prints a message to the Output window. A tracepoint can act like a temporary trace statement in the programming language.  
   
  In the **Breakpoint Settings** window, check the **Actions** box. Choose **Log a message to Output window** in the **Action** group. You can print a generic string, such as **this is a test**. To include the value of a variable or expression, enclose it in curly braces.  
@@ -225,7 +225,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 |**$TICK**||  
 |**$TNAME**||  
   
-##  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels  
+## <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels  
  Breakpoint labels are used only in the **Breakpoints** window to sort and filter the list of breakpoints. To add a label to a breakpoint, choose the breakpoint row and then choose **Label** on the context menu.  
   
 ## Export and Import Breakpoints  
@@ -239,9 +239,9 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 ### The debugger can't locate the correct version of the source file for a breakpoint  
  If a source file has changed and the source no longer matches the code you are debugging, the debugger might locate the source file that corresponds to a breakpoint, even though the source file exists.  
   
-1.  If you want Visual Studio to display source code that doesn't match the version you are debugging, choose **Debug / Options and Settings**. On the **Debugging/General** page, clear the **Require source files that exactly match the original version** option.  
+1. If you want Visual Studio to display source code that doesn't match the version you are debugging, choose **Debug / Options and Settings**. On the **Debugging/General** page, clear the **Require source files that exactly match the original version** option.  
   
-2.  You can also bind the breakpoint to the source file. Select the breakpoint and choose **Conditions** on the context menu. Check **Allow the source code to be different from the original** in the **Breakpoint Settings** window.  
+2. You can also bind the breakpoint to the source file. Select the breakpoint and choose **Conditions** on the context menu. Check **Allow the source code to be different from the original** in the **Breakpoint Settings** window.  
   
 ### Breakpoints don't work in a DLL  
  You cannot set a breakpoint in a source file when the debugger hasn't loaded the debug information for the module where the code is located. Symptoms may include messages such as **the breakpoint will not be set**. The Warning breakpoint glyph appears at the breakpoint location. However, these Warning breakpoints become actual breakpoints when the code is loaded. For more information about loading symbols, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  

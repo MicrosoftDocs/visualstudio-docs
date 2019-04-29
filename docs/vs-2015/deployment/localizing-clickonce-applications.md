@@ -32,11 +32,11 @@ Localization is the process of making your application appropriate for a specifi
   
  This topic describes three ways to deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application for other cultures:  
   
--   Include all satellite assemblies in a single deployment.  
+- Include all satellite assemblies in a single deployment.  
   
--   Generate one deployment for each culture, with a single satellite assembly included in each.  
+- Generate one deployment for each culture, with a single satellite assembly included in each.  
   
--   Download satellite assemblies on demand.  
+- Download satellite assemblies on demand.  
   
 ## Including All Satellite Assemblies in a Deployment  
  Instead of publishing multiple [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployments, you can publish a single [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment that contains all of the satellite assemblies.  
@@ -48,7 +48,7 @@ Localization is the process of making your application appropriate for a specifi
  The benefit of this approach is that it creates a single deployment and simplifies your localized deployment story. At run time, the appropriate satellite assembly will be used, depending on the default culture of the user's Windows operating system. A drawback of this approach is that it downloads all satellite assemblies whenever the application is installed or updated on a client computer. If your application has a large number of strings, or your customers have a slow network connection, this process can affect performance during application update.  
   
 > [!NOTE]
->  This approach assumes that your application adjusts the height, width, and position of controls automatically to accommodate different text string sizes in different cultures. Windows Forms contains a variety of controls and technologies that enable you to design your form to make it easily localizable, including the <xref:System.Windows.Forms.FlowLayoutPanel> and <xref:System.Windows.Forms.TableLayoutPanel> controls as well as the <xref:System.Windows.Forms.Control.AutoSize%2A> property.  Also see [How to: Support Localization on Windows Forms Using AutoSize and the TableLayoutPanel Control](http://msdn.microsoft.com/library/1zkt8b33\(v=vs.110\)).  
+> This approach assumes that your application adjusts the height, width, and position of controls automatically to accommodate different text string sizes in different cultures. Windows Forms contains a variety of controls and technologies that enable you to design your form to make it easily localizable, including the <xref:System.Windows.Forms.FlowLayoutPanel> and <xref:System.Windows.Forms.TableLayoutPanel> controls as well as the <xref:System.Windows.Forms.Control.AutoSize%2A> property.  Also see [How to: Support Localization on Windows Forms Using AutoSize and the TableLayoutPanel Control](http://msdn.microsoft.com/library/1zkt8b33\(v=vs.110\)).  
   
 ## Generate One Deployment for Each Culture  
  In this deployment strategy, you generate multiple deployments. In each deployment, you include only the satellite assembly needed for a specific culture, and you mark the deployment as specific to that culture.  
@@ -71,9 +71,9 @@ Localization is the process of making your application appropriate for a specifi
   
  You have three options for testing localized deployments before you make your application available to customers:  
   
--   You can run your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application on the appropriate localized versions of Windows.  
+- You can run your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application on the appropriate localized versions of Windows.  
   
--   You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)  
+- You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)  
   
 ## See Also  
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)   

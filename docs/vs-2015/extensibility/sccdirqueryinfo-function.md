@@ -58,7 +58,7 @@ LPLONG  lpStatus
  The IDE uses this function before a directory is renamed to check whether the directory is under source control by querying whether it has a corresponding project. If the directory is not under source control, the IDE can provide the proper warning to the user.  
   
 > [!NOTE]
->  If a source control plug-in chooses to not implement one or more of the status values, unimplemented bits should be set to zero.  
+> If a source control plug-in chooses to not implement one or more of the status values, unimplemented bits should be set to zero.  
   
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   

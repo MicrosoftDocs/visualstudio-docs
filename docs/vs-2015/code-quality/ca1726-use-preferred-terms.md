@@ -18,7 +18,7 @@ manager: "wpickett"
 # CA1726: Use preferred terms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1726: Use preferred terms](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1726: Use preferred terms](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms).  
   
 |||  
 |-|-|  
@@ -35,30 +35,30 @@ For the latest documentation on Visual Studio, see [CA1726: Use preferred terms]
   
 |Obsolete term|Preferred term|  
 |-------------------|--------------------|  
-|Arent|AreNot|  
-|Cancelled|Canceled|  
-|Cant|Cannot|  
-|ComPlus|EnterpriseServices|  
-|Couldnt|CouldNot|  
-|Didnt|DidNot|  
-|Doesnt|DoesNot|  
-|Dont|DoNot|  
-|Flag or Flags|There is no replacement term. Do not use.|  
-|Hadnt|HadNot|  
-|Hasn’t|HasNot|  
-|Havent|HaveNot|  
-|Indices|Indexes|  
-|Isnt|IsNot|  
-|LogIn|LogOn|  
-|LogOut|LogOff|  
-|Shouldnt|ShouldNot|  
-|SignOn|SignIn|  
-|SignOff|SignOut|  
-|Wasnt|WasNot|  
-|Werent|WereNot|  
-|Wont|WillNot|  
-|Wouldnt|WouldNot|  
-|Writeable|Writable|  
+|`Arent`|`AreNot`|
+|`Cancelled`|`Canceled`|
+|`Cant`|`Cannot`|
+|`ComPlus`|`EnterpriseServices`|
+|`Couldnt`|`CouldNot`|
+|`Didnt`|`DidNot`|
+|`Doesnt`|`DoesNot`|
+|`Dont`|`DoNot`|
+|`Flag` or `Flags`|There is no replacement term. Do not use.|
+|`Hadnt`|`HadNot`|
+|`Hasnt`|`HasNot`|
+|`Havent`|`HaveNot`|
+|`Indices`|`Indexes`|
+|`Isnt`|`IsNot`|
+|`LogIn`|`LogOn`|
+|`LogOut`|`LogOff`|
+|`Shouldnt`|`ShouldNot`|
+|`SignOn`|`SignIn`|
+|`SignOff`|`SignOut`|
+|`Wasnt`|`WasNot`|
+|`Werent`|`WereNot`|
+|`Wont`|`WillNot`|
+|`Wouldnt`|`WouldNot`|
+|`Writeable`|`Writable`|
   
 ## How to Fix Violations  
  To fix a violation of this rule, replace the term with the preferred alternative term.  

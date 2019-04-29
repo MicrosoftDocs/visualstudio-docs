@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMethodField::IsCustomAttributeDefined
 Determines whether a specific custom attribute has been defined.
@@ -30,13 +33,13 @@ int IsCustomAttributeDefined(
 );
 ```
 
-#### Parameters
- `pszCustomAttributeName`
+## Parameters
+ `pszCustomAttributeName`\
 
  [in] A string containing the name of the custom attribute to find.
 
 ## Return Value
  Returns S_OK if the custom attribute is defined on this method, otherwise returns S_FALSE.
 
-## See Also
+## See also
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

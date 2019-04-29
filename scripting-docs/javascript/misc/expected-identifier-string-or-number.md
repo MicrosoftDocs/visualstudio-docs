@@ -24,7 +24,7 @@ var point = {x:1.2, y:-3.4};
   
 ### To correct this error  
   
--   Ensure you use the proper literal syntax.  
+- Ensure you use the proper literal syntax.  
   
 ## See Also  
  [Comma Operator (,)](../../javascript/reference/comma-operator-decrement-javascript.md)

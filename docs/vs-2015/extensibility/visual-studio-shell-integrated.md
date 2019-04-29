@@ -20,7 +20,7 @@ The Visual Studio integrated shell includes the integrated development environme
  The Visual Studio integrated shell is actually a combination of the Visual Studio isolated shell plus an additional install which include integrated shell specific components.  Your integrated shell application should include both the isolated shell redistributable package from [Microsoft Visual Studio Shell (Isolated) Redistributable Package](http://go.microsoft.com/fwlink/?LinkId=616022) as well as the integrated shell redistributable package from [Microsoft Visual Studio Shell (Integrated) Redistributable Package](http://go.microsoft.com/fwlink/?LinkId=616021).  
   
 > [!NOTE]
->  Before you can access the isolated and integrated shell redistributable packages, you will be asked to fill out a brief customer survey.  After filling out the survey, you’ll be directed to a Visual Studio Connect page with redistributable package download links.  You can find the download links on subsequent visits to the Visual Studio Connect site under the **PROGRAMS &#124; VISUAL STUDIO 2015 INTEGRATED AND ISOLATED SHELL** tab.  
+> Before you can access the isolated and integrated shell redistributable packages, you will be asked to fill out a brief customer survey.  After filling out the survey, you’ll be directed to a Visual Studio Connect page with redistributable package download links.  You can find the download links on subsequent visits to the Visual Studio Connect site under the **PROGRAMS &#124; VISUAL STUDIO 2015 INTEGRATED AND ISOLATED SHELL** tab.  
   
  If you install your integrated shell application on the same computer as a full version of Visual Studio, your application’s components will be integrated directly into Visual Studio.  
   
@@ -62,15 +62,15 @@ The Visual Studio integrated shell includes the integrated development environme
 ## Features Not Included in the Integrated Shell  
  The following is a list of features that are not included in the integrated shell:  
   
--   Class Designer  
+- Class Designer  
   
--   PreEmptive Protection - Dotfuscator  
+- PreEmptive Protection - Dotfuscator  
   
--   Language features  
+- Language features  
   
--   VSHost  
+- VSHost  
   
--   No Visual Studio languages or their associated project templates or project item templates, are included in the integrated shell. No language-specific implementations of other features are included, for example Visual Basic code snippets.  
+- No Visual Studio languages or their associated project templates or project item templates, are included in the integrated shell. No language-specific implementations of other features are included, for example Visual Basic code snippets.  
   
 ## See Also  
  [Extending Visual Studio Overview](http://msdn.microsoft.com/library/3e9078d7-2763-4cc4-8e20-fac69d747f59)

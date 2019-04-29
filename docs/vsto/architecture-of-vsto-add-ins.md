@@ -30,7 +30,7 @@ ms.workload:
 
   For general information about creating VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md).
 
-##  <a name="UnderstandingAddIns"></a> Understand VSTO Add-ins
+## <a name="UnderstandingAddIns"></a> Understand VSTO Add-ins
  When you use the Office developer tools in Visual Studio to build a VSTO Add-in, you create a managed code assembly that is loaded by a Microsoft Office application. After the assembly is loaded, the VSTO Add-in can respond to events that are raised in the application (for example, when a user clicks a menu item). The VSTO Add-in can also call into the object model to automate and extend the application, and it can use any of the classes in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].
 
  The assembly communicates with the application's COM components through the primary interop assembly of the application. For more information, see [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md) and [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
@@ -38,9 +38,9 @@ ms.workload:
  If multiple VSTO Add-ins are installed for an application, each VSTO Add-in is loaded in a different application domain. This means that one VSTO Add-in that behaves incorrectly cannot cause other VSTO Add-ins to fail. It also helps to ensure that when the application is closed, all the VSTO Add-in assemblies are unloaded from memory. For more information about application domains, see [Application domains](/dotnet/framework/app-domains/application-domains).
 
 > [!NOTE]
->  VSTO Add-ins that you create by using the Office developer tools in Visual Studio are designed to be used only when the host Microsoft Office application is started by an end user. If the application is started programmatically (for example, by using Automation), the VSTO Add-in might not work as expected.
+> VSTO Add-ins that you create by using the Office developer tools in Visual Studio are designed to be used only when the host Microsoft Office application is started by an end user. If the application is started programmatically (for example, by using Automation), the VSTO Add-in might not work as expected.
 
-##  <a name="AddinComponents"></a> Components of VSTO Add-ins
+## <a name="AddinComponents"></a> Components of VSTO Add-ins
  Although the VSTO Add-in assembly is the main component, there are several other components that play an important role in how Microsoft Office applications discover and load VSTO Add-ins.
 
 ### Registry entries
@@ -58,32 +58,32 @@ ms.workload:
 
  For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-##  <a name="HowAddinsWork"></a> How VSTO Add-ins work with Microsoft Office applications
+## <a name="HowAddinsWork"></a> How VSTO Add-ins work with Microsoft Office applications
  When a user starts a Microsoft Office application, the application uses the deployment manifest and the application manifest to locate and load the most current version of the VSTO Add-in assembly. The following illustration shows the basic architecture of these VSTO Add-ins.
 
  ![2007 Office add-in architecture](../vsto/media/office07addin.png "2007 Office add-in architecture")
 
 > [!NOTE]
->  In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], solutions call into the object model of the host application by using PIA type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
+> In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], solutions call into the object model of the host application by using PIA type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
 ### Loading process
  The following steps occur when a user starts an application:
 
-1.  The application checks the registry for entries that identify VSTO Add-ins that were created by using the Office developer tools in Visual Studio.
+1. The application checks the registry for entries that identify VSTO Add-ins that were created by using the Office developer tools in Visual Studio.
 
-2.  If the application finds these registry entries, the application loads VSTOEE.dll, which loads VSTOLoader.dll. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
+2. If the application finds these registry entries, the application loads VSTOEE.dll, which loads VSTOLoader.dll. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office Runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-3.  *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+3. *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
 
-4.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] checks for manifest updates, and downloads the most recent application and deployment manifests.
+4. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] checks for manifest updates, and downloads the most recent application and deployment manifests.
 
-5.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
+5. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-6.  If the VSTO Add-in is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+6. If the VSTO Add-in is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-7.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the VSTO Add-in assembly.
+7. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the VSTO Add-in assembly.
 
-8.  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the VSTO Add-in assembly into the application domain.
+8. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the VSTO Add-in assembly into the application domain.
 
 9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in your VSTO Add-in, if you have overridden it.
 
@@ -94,7 +94,7 @@ ms.workload:
      You can optionally override this method to extend a Microsoft Office feature by returning an object that implements an extensibility interface. For more information, see [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md).
 
     > [!NOTE]
-    >  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] makes separate calls to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method for each extensibility interface that is supported by the host application. Although the first call to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method usually happens before the call to the `ThisAddIn_Startup` method, your VSTO Add-in should not make any assumptions about when the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method will be called, or how many times it will be called.
+    > The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] makes separate calls to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method for each extensibility interface that is supported by the host application. Although the first call to the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method usually happens before the call to the `ThisAddIn_Startup` method, your VSTO Add-in should not make any assumptions about when the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method will be called, or how many times it will be called.
 
 11. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the `ThisAddIn_Startup` method in your VSTO Add-in. This method is the default event handler for the <xref:Microsoft.Office.Tools.AddInBase.Startup> event. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 

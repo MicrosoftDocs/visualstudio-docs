@@ -18,7 +18,7 @@ With the release of Unity 2017.1, Unity introduced an experimental version of it
 ## Prerequisites
 
 * [Unity 2017.1 or above](https://unity3d.com/) (2018.2 recommended)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)
+* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
 
 ## Enabling the .NET 4.x scripting runtime in Unity
 

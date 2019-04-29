@@ -35,7 +35,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
     This GUID is used to uniquely identify a category<strong>.</strong> This category reuses the IDE's default fonts and colors specification.  
   
    > [!NOTE]
-   >  When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.  
+   > When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.  
   
 2. The category's name must be added to a string table inside the VSPackage's resources (.rc) file, so that it can be localized as needed when displayed in the IDE.  
   
@@ -43,13 +43,13 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
   
 ### To register a category using built-in fonts and colors  
   
-1.  Construct a special type of category registry entry in the following location:  
+1. Construct a special type of category registry entry in the following location:  
   
      [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<Category>*]  
   
      *\<Category>* is the non-localized name of the category.  
   
-2.  Populate the registry to use the stock fonts and color scheme with four values:  
+2. Populate the registry to use the stock fonts and color scheme with four values:  
   
     |Name|Type|Data|Description|  
     |----------|----------|----------|-----------------|  
@@ -58,7 +58,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
     |NameID|REG_DWORD|ID|The resource ID of a localizable category name in the VSPackage.|  
     |ToolWindowPackage|REG_SZ|GUID|The GUID of the VSPackage implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.|  
   
-3.  
+3. 
   
 ### To initiate the use of system-provided fonts and colors  
   

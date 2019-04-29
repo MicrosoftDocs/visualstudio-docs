@@ -32,7 +32,7 @@ Projects in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] can support multiple
 |MyConfig|N/A|\<MyConfig Win64 settings>|  
   
 > [!NOTE]
->  You cannot create a "MyConfig" solution configuration that excludes a "Win32" platform unless the project you are targeting does not support Win32.  
+> You cannot create a "MyConfig" solution configuration that excludes a "Win32" platform unless the project you are targeting does not support Win32.  
   
  Changing the active configuration for a solution selects the set of project configurations that are built, run, debugged or deployed in that solution. For example, if you change the active solution configuration from Release to Debug, all projects within that solution are automatically built with the projects' configuration indicated in the solution's Debug configuration. The projects' configurations are usually also named Debug unless the user has made manual changes in the environment's Configuration Manager.  
   

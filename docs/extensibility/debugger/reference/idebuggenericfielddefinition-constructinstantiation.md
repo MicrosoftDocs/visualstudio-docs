@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericFieldDefinition::ConstructInstantiation
 Constructs a field instance given an array of type arguments.
@@ -33,16 +36,16 @@ int ConstructInstantiation(
 );
 ```
 
-#### Parameters
- `cArgs`
+## Parameters
+ `cArgs`\
 
  [in] Number of arguments in the `ppArgs` array.
 
- `ppArgs`
+ `ppArgs`\
 
  [in] Array that contains the type arguments. The type arguments must be closed types (non-generic or fully instantiated generics).
 
- `ppConstructedField`
+ `ppConstructedField`\
 
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents the new field.
 
@@ -52,5 +55,5 @@ int ConstructInstantiation(
 ## Remarks
  Constraints are not checked.
 
-## See Also
+## See also
 - [IDebugGenericFieldDefinition](../../../extensibility/debugger/reference/idebuggenericfielddefinition.md)

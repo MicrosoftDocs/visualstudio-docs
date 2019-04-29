@@ -23,21 +23,21 @@ Font and color information is stored by category in the following registry locat
 
 Therefore, to initiate persistence, a VSPackage must:
 
--   Obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface by calling `QueryService` against the global service provider.
+- Obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface by calling `QueryService` against the global service provider.
 
      `QueryService` must be called by using a service ID argument of `SID_SVsFontAndColorStorage` and an interface ID argument of `IID_IVsFontAndColorStorage`.
 
--   Use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> method to open a category to be persisted by using the category's GUID and a mode flag as arguments.
+- Use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> method to open a category to be persisted by using the category's GUID and a mode flag as arguments.
 
      The mode, specified by the `fFlags` argument, is constructed from values in the <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> enumeration. This mode controls:
 
-    -   The settings that can be accessed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
+    - The settings that can be accessed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
-    -   Either all settings or only those settings that users modify and that are retrievable through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
+    - Either all settings or only those settings that users modify and that are retrievable through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
-    -   The manner of propagating the changes to user settings.
+    - The manner of propagating the changes to user settings.
 
-    -   The format of color values that are used.
+    - The format of color values that are used.
 
 ## To use state persistence of fonts and colors
 

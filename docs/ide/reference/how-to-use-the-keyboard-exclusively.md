@@ -49,19 +49,19 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ### To set dialog box options from the keyboard
 
-1.  Use **Tab** or **Shift** + **Tab** to move up and down through the controls in the dialog box.
+1. Use **Tab** or **Shift** + **Tab** to move up and down through the controls in the dialog box.
 
-2.  To change option settings:
+2. To change option settings:
 
-    -   For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.
+    - For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.
 
-    -   For check boxes, use **SPACEBAR** to select or unselect.
+    - For check boxes, use **SPACEBAR** to select or unselect.
 
-    -   For drop-down lists, use **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
+    - For drop-down lists, use **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
 
-    -   For buttons, press **Enter** to invoke.
+    - For buttons, press **Enter** to invoke.
 
-    -   For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
+    - For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
 
 ## Window and file navigation
 
@@ -69,29 +69,29 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ### To navigate among windows and files in the IDE from the keyboard
 
--   To move among files in an editor or designer, choose CTRL + TAB keys to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
+- To move among files in an editor or designer, choose CTRL + TAB keys to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
 
--   To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
+- To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
 
 ### To move and dock tool windows from the keyboard
 
-1.  Navigate to the tool window you intend to move and give it focus.
+1. Navigate to the tool window you intend to move and give it focus.
 
-2.  On the **Window** menu, select the  **Dockable** option.
+2. On the **Window** menu, select the  **Dockable** option.
 
-3.  Press **ALT** + **Space** and then choose **Move**.
+3. Press **ALT** + **Space** and then choose **Move**.
 
      The docking guide diamond appears.
 
-4.  Use the **ARROW** keys to move the window to a new location.
+4. Use the **ARROW** keys to move the window to a new location.
 
      The mouse pointer moves with the window as you use the **ARROW** keys.
 
-5.  When you have reached the new location, use the **ARROW** keys to move the mouse pointer over the correct portion of the guide diamond.
+5. When you have reached the new location, use the **ARROW** keys to move the mouse pointer over the correct portion of the guide diamond.
 
      An outline of the tool window appears in the new docking location.
 
-6.  Press **ENTER**.
+6. Press **ENTER**.
 
      The tool window snaps into place at the new docking location.
 

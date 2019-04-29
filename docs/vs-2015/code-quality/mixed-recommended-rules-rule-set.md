@@ -15,7 +15,6 @@ manager: "wpickett"
 
 The Microsoft Mixed Recommended Rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime. This ruleset is designed to be configured with the Visual Studio Professional edition and higher.  
 
-
 |                                                              Rule                                                              |                                                             Description                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 |                                               [C6001](../code-quality/c6001.md)                                                |                                                     Using Uninitialized Memory                                                      |

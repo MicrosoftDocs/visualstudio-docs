@@ -47,6 +47,6 @@ IDebugDefaultPort2 : IDebugPort2
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)

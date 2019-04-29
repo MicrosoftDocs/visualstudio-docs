@@ -24,7 +24,7 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
  You can use the **Extensions and Updates** dialog box to install Visual Studio extensions and samples from websites and other locations, and then enable, disable, update, or uninstall them. (**Tools / Extensions and Updates**, or type **Extensions** in the **Quick Launch** window). The dialog box also shows updates for installed samples and extensions. You can also download extensions from websites, or get them from other developers.
 
 > [!NOTE]
->  Starting in Visual Studio 2015, extensions hosted on the Visual Studio Gallery will be automatically updated.  You can change this setting through the **Extensions and Updates** dialog.  See the section on **Automatic Extension Updates** below for details.
+> Starting in Visual Studio 2015, extensions hosted on the Visual Studio Gallery will be automatically updated.  You can change this setting through the **Extensions and Updates** dialog.  See the section on **Automatic Extension Updates** below for details.
 
 ## Finding Visual Studio Extensions
  You can install extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the [Sample Gallery](https://code.msdn.microsoft.com/vstudio) on the Microsoft website. Extensions may be controls, samples, templates, tools, or other components that add functionality to Visual Studio. Visual Studio supports extensions in the VSIX package format—these include project templates, item templates, **Toolbox** items, Managed Extension Framework (MEF) components, and VSPackages. You can also download and install MSI-based extensions, but the **Extensions and Updates** dialog box can't enable or disable them. The Visual Studio Gallery contains both VSIX and MSI extensions.
@@ -48,12 +48,12 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
 
  If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.
 
--   To disable automatic updates for all extensions, click the **Change your Extensions and Updates settings** link on the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.
+- To disable automatic updates for all extensions, click the **Change your Extensions and Updates settings** link on the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.
 
--   To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension’s details pane on the right side of the **Extensions and Updates** dialog.
+- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension’s details pane on the right side of the **Extensions and Updates** dialog.
 
 > [!NOTE]
->  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
+> Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
 
 ## Sample Master Copies and Working Copies
  When you install an online sample, the solution is stored in two locations:
@@ -83,4 +83,4 @@ Visual Studio extensions are code packages that run inside Visual Studio and pro
  Visual Studio continues to support extensions that are installed by the Microsoft Installer (MSI) but not through the **Extensions and Updates** dialog box without modification.
 
 > [!TIP]
->  If an MSI-based extension includes an extension.vsixmanifest file, the extension will appear in the **Extensions and Updates** dialog box.
+> If an MSI-based extension includes an extension.vsixmanifest file, the extension will appear in the **Extensions and Updates** dialog box.

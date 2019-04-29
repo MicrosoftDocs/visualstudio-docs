@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericParamField::GetConstraints
 Retrieves the constraints that are associated with this generic parameter.
@@ -33,16 +36,16 @@ int GetConstraints(
 );
 ```
 
-#### Parameters
-`cConstraints`
+## Parameters
+`cConstraints`\
 
  [in] Number of constraints.
 
-`ppConstraints`
+`ppConstraints`\
 
  [out] Returns an array that contains the constraints associated with this field.
 
-`pcConstraints`
+`pcConstraints`\
 
  [in, out] Number of constraints in the `ppConstraints` array.
 
@@ -145,5 +148,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

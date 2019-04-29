@@ -19,22 +19,22 @@ To start exploring the nodes you are interested in, you must add them to the wor
 
 You can add nodes to the workspace in the following ways:
 
--   In the "Schema Set Details" section of the [Start View](../xml-tools/start-view.md), click the **add** link next to the global node type.
+- In the "Schema Set Details" section of the [Start View](../xml-tools/start-view.md), click the **add** link next to the global node type.
 
--   Drag and drop global nodes, file nodes, and namespace nodes from the **XML Schema Explorer** onto any of the three views. For more information, see the "Dragging and Dropping Nodes" section in [XML Schema Explorer](../xml-tools/xml-schema-explorer.md).
+- Drag and drop global nodes, file nodes, and namespace nodes from the **XML Schema Explorer** onto any of the three views. For more information, see the "Dragging and Dropping Nodes" section in [XML Schema Explorer](../xml-tools/xml-schema-explorer.md).
 
--   Use the context (right-click) menu in the **XML Schema Explorer**. For more information, see [Context menus](../xml-tools/context-menus-xml-schema-explorer.md).
+- Use the context (right-click) menu in the **XML Schema Explorer**. For more information, see [Context menus](../xml-tools/context-menus-xml-schema-explorer.md).
 
--   Perform a search in the XSD Explorer and click the **Add highlighted nodes to Workspace** button on the summary results pane. For more information, see [Searching the schema set](../xml-tools/searching-the-schema-set.md).
+- Perform a search in the XSD Explorer and click the **Add highlighted nodes to Workspace** button on the summary results pane. For more information, see [Searching the schema set](../xml-tools/searching-the-schema-set.md).
 
 ## Switch views
 
 To switch views, use one of the following:
 
--   The XSD Designer toolbar.
+- The XSD Designer toolbar.
 
--   The context (right-click) menus of the Content Model View and the Graph View.
+- The context (right-click) menus of the Content Model View and the Graph View.
 
--   The watermarks on the Start View page or the watermark on the blank Content Model View or the Graph View.
+- The watermarks on the Start View page or the watermark on the blank Content Model View or the Graph View.
 
--   Hotkeys: **Ctrl**+**1** for the Start View, **Ctrl**+**2** for the Graph View, and **Ctrl**+**3** for the Content Model View.
+- Hotkeys: **Ctrl**+**1** for the Start View, **Ctrl**+**2** for the Graph View, and **Ctrl**+**3** for the Content Model View.

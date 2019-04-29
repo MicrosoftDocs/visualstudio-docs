@@ -21,9 +21,9 @@ Tasks provide the code that runs during the build process. Tasks are contained i
 
  There are two approaches you can use when implementing a task:
 
--   Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.
+- Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.
 
--   Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.
+- Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the *Microsoft.Build.Utilities.dll* assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.
 
 In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and returns `true`.
 
@@ -91,7 +91,7 @@ namespace MyTasks
  The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file *Microsoft.Common.Tasks* is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. This file is automatically included when building every project. If a task that is registered in *Microsoft.Common.Tasks* is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.
 
 > [!TIP]
->  You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] by viewing the contents of *Microsoft.Common.Tasks*.
+> You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] by viewing the contents of *Microsoft.Common.Tasks*.
 
 ## Raise events from a task
  If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that will be caught and displayed by any registered loggers:

@@ -18,7 +18,6 @@ manager: jillfra
 # /Build (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Builds a solution using a specified solution configuration file.  
   
 ## Syntax  

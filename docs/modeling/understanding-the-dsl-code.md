@@ -39,15 +39,15 @@ Press **F5** and experiment if you are not familiar with this solution template.
 
  We strongly recommend that you do not edit the generated code directly, because your edits will be lost when you rebuild the solution. Instead, to customize your DSL:
 
--   Adjust the many parameters in the DSL Definition.
+- Adjust the many parameters in the DSL Definition.
 
--   Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.
+- Write partial classes in separate code files, to override methods that are defined in, or inherited by, the generated classes. In some cases, you have to set the **Generates Double Derived** option of a class in the DSL Definition, in order to be able to override a generated method.
 
--   Set options in the DSL Definition that cause the generated code to provide 'hooks' for your own code.
+- Set options in the DSL Definition that cause the generated code to provide 'hooks' for your own code.
 
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.
 
--   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create Visual Studio project templates to set up projects that are initialized with your own file structure.
+- Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create Visual Studio project templates to set up projects that are initialized with your own file structure.
 
 ## Generated Files in Dsl
  The following generated files appear in the **Dsl** project.
@@ -125,7 +125,7 @@ Press **F5** and experiment if you are not familiar with this solution template.
   The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.
 
 > [!NOTE]
->  This is not the same as the root class of the model.
+> This is not the same as the root class of the model.
 
  Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes.
 
@@ -334,7 +334,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
  To customize this file, edit the `.tt` file.
 
 > [!WARNING]
->  If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
+> If you edit the .tt file to include resources such as icons or images, make sure that the resource is included in the VSIX build. In Solution Explorer, select the file and make sure that the **Include in VSIX** property is `True`.
 
  This file controls how the DSL is packaged into a Visual Studio Integration Extension (VSIX). For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
 

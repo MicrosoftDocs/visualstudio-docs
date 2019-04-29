@@ -16,7 +16,7 @@ ms.workload:
 ---
 # How to: Configure Code Analysis for a Managed Code Project
 
-In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md)) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
+In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
 > [!TIP]
 > For information about how to configure a rule set for ASP.NET web applications, see [How to: Configure Code Analysis for an ASP.NET web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md).

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetEntryPoint
 Retrieves the application entry point.
@@ -33,16 +36,16 @@ int GetEntryPoint(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier for the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier for the module.
 
-`ppAddress`
+`ppAddress`\
 
  [out] Returns the entry point represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
@@ -84,5 +87,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

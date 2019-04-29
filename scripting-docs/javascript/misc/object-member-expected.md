@@ -20,7 +20,7 @@ You attempted to perform an operation on an object's data member, but the member
   
 ### To correct this error  
   
--   Ensure you typed the name of the data member correctly.  
+- Ensure you typed the name of the data member correctly.  
   
 ## See Also  
  [Object Object](../../javascript/reference/object-object-javascript.md)   

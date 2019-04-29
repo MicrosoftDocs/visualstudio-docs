@@ -66,35 +66,35 @@ You can call external tools from inside Visual Studio. A few default tools are a
 ## Tools Available on the Visual Studio Tools Menu  
  You can call the following tools from the **Tools** menu in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. You can also call them by name from the **Quick Launch** window. For example, to call GuidGen.exe, type **Create GUID**.  
   
-1.  Create GUID: generates a GUID.  
+1. Create GUID: generates a GUID.  
   
-2.  Error Lookup: gets an error message from the value entered. For more information, see [ERRLOOK Reference](http://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91).  
+2. Error Lookup: gets an error message from the value entered. For more information, see [ERRLOOK Reference](http://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91).  
   
-3.  ATL/MFC Trace Tool: shows debug trace messages in the ATL and MFC sources.  
+3. ATL/MFC Trace Tool: shows debug trace messages in the ATL and MFC sources.  
   
-4.  PreEmptive Protection - Dotfuscator: Protects .NET programs against reverse engineering.  
+4. PreEmptive Protection - Dotfuscator: Protects .NET programs against reverse engineering.  
   
-5.  SPY++: Displays processes, threads, windows, and window messages graphically.  
+5. SPY++: Displays processes, threads, windows, and window messages graphically.  
   
-6.  WCF Service Configuration Editor: Allows you to create and modify configuration settings for WCF services.  
+6. WCF Service Configuration Editor: Allows you to create and modify configuration settings for WCF services.  
   
 > [!WARNING]
->  You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> You may see a different list of external tools, depending on which Visual Studio edition you have installed and the settings profile you have applied. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Adding New Tools  
  You can add an external tool to the **Tools** menu. Open the **External Tools** dialog box and click **Add**, then fill in the information. For example, the following entry causes Windows Explorer to open at the directory of the file you currently have open in Visual Studio:  
   
-1.  Title: Open File Location  
+1. Title: Open File Location  
   
-2.  Command: explorer.exe  
+2. Command: explorer.exe  
   
-3.  Arguments: /root, "$(ItemDir)"  
+3. Arguments: /root, "$(ItemDir)"  
   
 ## Arguments for external tools  
  The following arguments are Visual Studio variables that are assigned when you launch an external tool. Links to external tools such as Notepad or Spy++ can be listed on the **Tools** menu using the External Tools dialog box.  
   
 > [!NOTE]
->  The IDE status bar displays the Current Line and Current Column variables to indicate where the insertion point is located in the active Code Editor. The Current Text variable returns the text or code selected at that location.  
+> The IDE status bar displays the Current Line and Current Column variables to indicate where the insertion point is located in the active Code Editor. The Current Text variable returns the text or code selected at that location.  
   
 |Name|Argument|Description|  
 |----------|--------------|-----------------|  

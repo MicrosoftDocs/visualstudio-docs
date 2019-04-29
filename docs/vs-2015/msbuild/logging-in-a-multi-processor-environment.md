@@ -16,7 +16,6 @@ manager: jillfra
 # Logging in a Multi-Processor Environment
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The ability of MSBuild to use multiple processors can greatly decrease project building time, but it also adds complexity to logging. In a single-processor environment, the logger can handle incoming events, messages, warnings, and errors in a predictable, sequential manner. However, in a multi-processor environment, events from several sources can arrive simultaneously or out of sequence. MSBuild provides a new multi-processor-aware logger and enables the creation of custom "forwarding loggers."  
   
 ## Logging Multiple-Processor Builds  
