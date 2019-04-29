@@ -3,8 +3,10 @@
 - name: Test scenarios
   href: developer-testing-scenarios.md
 - name: Unit testing
-  href: unit-test-your-code.md
+# Auto-expanded node
   items:
+  - name: Unit testing
+    href: unit-test-your-code.md
   - name: Get started
     href: getting-started-with-unit-testing.md
   - name: Unit test basics
@@ -14,8 +16,10 @@
   - name: Create Unit Tests command
     href: create-unit-tests-menu.md
   - name: IntelliTest
-    href: generate-unit-tests-for-your-code-with-intellitest.md
+# Auto-expanded node
     items:
+    - name: IntelliTest
+      href: generate-unit-tests-for-your-code-with-intellitest.md
     - name: Overview
       href: intellitest-manual/introduction.md
     - name: Getting started
@@ -39,8 +43,10 @@
   - name: Install third-party unit test frameworks
     href: install-third-party-unit-test-frameworks.md
   - name: Run unit tests with Test Explorer
-    href: run-unit-tests-with-test-explorer.md
+# Auto-expanded node
     items:
+    - name: Run unit tests with Test Explorer
+      href: run-unit-tests-with-test-explorer.md
     - name: Test Explorer FAQ
       href: test-explorer-faq.md
   - name: Run tests from the command line
@@ -60,8 +66,10 @@
     - name: Use the assert classes
       href: using-the-assert-classes.md
     - name: Isolate code under test with Microsoft Fakes
-      href: isolating-code-under-test-with-microsoft-fakes.md
+# Auto-expanded node
       items:
+      - name: Isolate code under test with Microsoft Fakes
+        href: isolating-code-under-test-with-microsoft-fakes.md
       - name: Use stubs to isolate parts of your application from each other for unit testing
         href: using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md
       - name: Use shims to isolate your application from other assemblies for unit testing
@@ -69,8 +77,10 @@
       - name: Code generation, compilation, and naming conventions in Microsoft Fakes
         href: code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md
     - name: Create a data-driven Unit test
-      href: how-to-create-a-data-driven-unit-test.md
+# Auto-expanded node
       items:
+      - name: Create a data-driven Unit test
+        href: how-to-create-a-data-driven-unit-test.md
       - name: "Walkthrough: Use a configuration file to define a data source"
         href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
     - name: Unit tests for generic methods
@@ -80,8 +90,10 @@
     - name: Sample project for creating unit tests
       href: sample-project-for-creating-unit-tests.md
   - name: Write unit tests for C/C++ code
-    href: writing-unit-tests-for-c-cpp.md
+# Auto-expanded node
     items:
+    - name: Write unit tests for C/C++ code
+      href: writing-unit-tests-for-c-cpp.md
     - name: Use the Microsoft Unit Testing Framework for C++
       href: how-to-use-microsoft-test-framework-for-cpp.md
     - name: Use Google C++ Testing Framework
@@ -105,15 +117,19 @@
     - name: "Walkthrough: Create and run unit tests for UWP apps"
       href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
   - name: Use code coverage to determine how much code is being tested
-    href: using-code-coverage-to-determine-how-much-code-is-being-tested.md
+# Auto-expanded node
     items:
+    - name: Use code coverage to determine how much code is being tested
+      href: using-code-coverage-to-determine-how-much-code-is-being-tested.md
     - name: Customize code coverage analysis
       href: customizing-code-coverage-analysis.md
     - name: Troubleshoot code coverage
       href: troubleshooting-code-coverage.md
 - name: Live unit testing
-  href: live-unit-testing-intro.md
+# Auto-expanded node
   items:
+  - name: Live unit testing
+    href: live-unit-testing-intro.md
   - name: What's new in Live Unit Testing
     href: live-unit-testing-whats-new.md
   - name: Get started with Live Unit Testing
@@ -127,18 +143,24 @@
   - name: "Quickstart: Create a load test project"
     href: quickstart-create-a-load-test-project.md
   - name: Configure load tests
-    href: edit-load-tests.md
+# Auto-expanded node
     items:
+    - name: Configure load tests
+      href: edit-load-tests.md
     - name: Edit scenarios
-      href: edit-load-test-scenarios.md
+# Auto-expanded node
       items:
+      - name: Edit scenarios
+        href: edit-load-test-scenarios.md
       - name: Scenario properties
         href: load-test-scenario-properties.md
       - name: Test mix
         href: edit-the-test-mix-in-a-load-test-scenario.md
       - name: Test mix model
-        href: emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md
+# Auto-expanded node
         items:
+        - name: Test mix model
+          href: emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md
         - name: Edit test mix models
           href: edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md
       - name: Browser mix
@@ -148,8 +170,10 @@
       - name: Think profile
         href: edit-think-times-in-load-test-scenarios.md
       - name: Load patterns
-        href: edit-load-patterns-to-model-virtual-user-activities.md
+# Auto-expanded node
         items:
+        - name: Load patterns
+          href: edit-load-patterns-to-model-virtual-user-activities.md
         - name: Step ramp time property
           href: how-to-specify-the-step-ramp-time-property-for-a-step-load-pattern.md
       - name: Start delays
@@ -161,8 +185,10 @@
       - name: Pacing delay distribution
         href: how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md
     - name: Edit counter sets
-      href: specify-counter-sets-and-threshold-rules-for-load-testing.md
+# Auto-expanded node
       items:
+      - name: Edit counter sets
+        href: specify-counter-sets-and-threshold-rules-for-load-testing.md
       - name: Add counters
         href: how-to-add-counters-to-counter-sets-using-the-load-test-editor.md
       - name: Custom counter sets
@@ -172,8 +198,10 @@
       - name: Add a threshold rule
         href: how-to-add-a-threshold-rule-using-the-load-test-editor.md
     - name: Edit run settings
-      href: configure-load-test-run-settings.md
+# Auto-expanded node
       items:
+      - name: Edit run settings
+        href: configure-load-test-run-settings.md
       - name: Run settings properties
         href: load-test-run-settings-properties.md
       - name: Add additional run settings
@@ -181,8 +209,10 @@
       - name: Context parameters
         href: how-to-add-context-parameters-to-a-load-test-run-setting.md
       - name: Logging settings
-        href: modify-load-test-logging-settings.md
+# Auto-expanded node
         items:
+        - name: Logging settings
+          href: modify-load-test-logging-settings.md
         - name: Maximum log size
           href: how-to-specify-the-maximum-size-for-the-log-file.md
         - name: Failed tests
@@ -194,8 +224,10 @@
       - name: Sample rate
         href: how-to-specify-the-sample-rate-for-a-load-test.md
       - name: Select a run setting
-        href: how-to-select-the-active-run-setting-for-a-load-test.md
+# Auto-expanded node
         items:
+        - name: Select a run setting
+          href: how-to-select-the-active-run-setting-for-a-load-test.md
         - name: Command line
           href: how-to-select-a-load-test-run-setting-from-the-command-line.md
   - name: "Walkthrough: Create and run a load test"
@@ -211,8 +243,10 @@
     - name: Dynamic parameters
       href: fix-non-detectable-dynamic-parameters-in-a-web-performance-test.md
   - name: Test controllers and test agents
-    href: configure-test-agents-and-controllers-for-load-tests.md
+# Auto-expanded node
     items:
+    - name: Test controllers and test agents
+      href: configure-test-agents-and-controllers-for-load-tests.md
     - name: Requirements
       href: test-controller-and-test-agent-requirements-for-load-testing.md
     - name: Manage test controllers and test agents
@@ -242,8 +276,10 @@
     - name: Create a custom validation rule
       href: code-a-custom-validation-rule-for-a-web-performance-test.md
     - name: Create custom code and plug-ins
-      href: create-custom-code-and-plug-ins-for-load-tests.md
+# Auto-expanded node
       items:
+      - name: Create custom code and plug-ins
+        href: create-custom-code-and-plug-ins-for-load-tests.md
       - name: Create a Web performance test plug-in
         href: how-to-create-a-web-performance-test-plug-in.md
       - name: Create a request level plug-in
@@ -257,13 +293,17 @@
   - name: Diagnostics for load tests
     items:
     - name: Create a diagnostic data adapter
-      href: create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md
+# Auto-expanded node
       items:
+      - name: Create a diagnostic data adapter
+        href: create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md
       - name: How to create
         href: how-to-create-a-diagnostic-data-adapter.md
     - name: Collect diagnostics using test settings
-      href: collect-diagnostic-information-using-test-settings.md
+# Auto-expanded node
       items:
+      - name: Collect diagnostics using test settings
+        href: collect-diagnostic-information-using-test-settings.md
       - name: Create test settings
         href: how-to-create-a-test-setting-for-a-distributed-load-test.md
       - name: Configure ASP.NET profiler
@@ -275,20 +315,26 @@
     - name: Screen and voice recordings
       href: how-to-include-recordings-of-the-screen-and-voice-during-tests.md
   - name: Analyze results
-    href: analyze-load-test-results-using-the-load-test-analyzer.md
+# Auto-expanded node
     items:
+    - name: Analyze results
+      href: analyze-load-test-results-using-the-load-test-analyzer.md
     - name: Access results
       href: how-to-access-load-test-results-for-analysis.md
     - name: Summary overview
       href: load-test-results-summary-overview.md
     - name: Tables view
-      href: analyze-load-test-results-and-errors-in-the-tables-view.md
+# Auto-expanded node
       items:
+      - name: Tables view
+        href: analyze-load-test-results-and-errors-in-the-tables-view.md
       - name: Web page response time
         href: how-to-view-web-page-response-time-in-a-load-test.md
     - name: Graphs view
-      href: analyze-load-test-results-in-the-graphs-view.md
+# Auto-expanded node
       items:
+      - name: Graphs view
+        href: analyze-load-test-results-in-the-graphs-view.md
       - name: Add and delete counters
         href: how-to-add-and-delete-counters-on-graphs-in-load-test-results.md
       - name: Create custom graphs
@@ -298,8 +344,10 @@
       - name: How to zoom in
         href: how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md
     - name: Details view
-      href: analyze-load-test-virtual-user-activity-in-the-details-view.md
+# Auto-expanded node
       items:
+      - name: Details view
+        href: analyze-load-test-virtual-user-activity-in-the-details-view.md
       - name: Analyze virtual user activity
         href: how-to-analyze-virtual-user-activity-during-a-load-test.md
       - name: "Walkthrough: Use the activity chart"
@@ -313,8 +361,10 @@
     - name: Create a report in Word
       href: how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md
     - name: Results repositories
-      href: manage-load-test-results-in-the-load-test-results-repository.md
+# Auto-expanded node
       items:
+      - name: Results repositories
+        href: manage-load-test-results-in-the-load-test-results-repository.md
       - name: Select a repository
         href: how-to-select-a-load-test-results-repository.md
       - name: Import results
@@ -326,8 +376,10 @@
     - name: Create an add-in for the results viewer
       href: how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md
 - name: UI test automation
-  href: use-ui-automation-to-test-your-code.md
+# Auto-expanded node
   items:
+  - name: UI test automation
+    href: use-ui-automation-to-test-your-code.md
   - name: "Walkthrough: Create, Edit and Maintain a Coded UI Test"
     href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
   - name: Test UWP Apps with Coded UI Tests
@@ -359,8 +411,10 @@
   - name: Extend the Coded UI Test Framework
     href: extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md
 - name: Test lab management
-  href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
+# Auto-expanded node
   items:
+  - name: Test lab management
+    href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
   - name: Use build or release management for automated testing
     href: lab-management/use-build-or-rm-instead-of-lab-management.md
   - name: Install test agents and test controllers
