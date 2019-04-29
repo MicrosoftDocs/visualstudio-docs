@@ -1,17 +1,13 @@
 - name: Analyzing and Modeling Architecture
-# Auto-expanded node
+  href: analyze-and-model-your-architecture.md
   items:
-  - name: Analyzing and Modeling Architecture
-    href: analyze-and-model-your-architecture.md
   - name: What's new
     href: what-s-new-for-design-in-visual-studio.md
   - name: Scenario - Change your design using visualization and modeling
     href: scenario-change-your-design-using-visualization-and-modeling.md
   - name: Visualize code
-# Auto-expanded node
+    href: visualize-code.md
     items:
-    - name: Visualize code
-      href: visualize-code.md
     - name: Map dependencies across your solutions
       href: map-dependencies-across-your-solutions.md
     - name: Use code maps to debug your applications
@@ -29,10 +25,8 @@
     - name: Create layer diagrams from your code
       href: create-layer-diagrams-from-your-code.md
   - name: Create models for your app
-# Auto-expanded node
+    href: create-models-for-your-app.md
     items:
-    - name: Create models for your app
-      href: create-models-for-your-app.md
     - name: Create UML modeling projects and diagrams
       href: create-uml-modeling-projects-and-diagrams.md
     - name: Edit UML models and diagrams
@@ -42,28 +36,22 @@
     - name: Layer Diagrams - Guidelines
       href: layer-diagrams-guidelines.md
     - name: UML Activity Diagrams - Reference
-# Auto-expanded node
+      href: uml-activity-diagrams-reference.md
       items:
-      - name: UML Activity Diagrams - Reference
-        href: uml-activity-diagrams-reference.md
       - name: Properties of elements on UML activity diagrams
         href: properties-of-elements-on-uml-activity-diagrams.md
     - name: UML Activity Diagrams - Guidelines
       href: uml-activity-diagrams-guidelines.md
     - name: UML Component Diagrams - Reference
-# Auto-expanded node
+      href: uml-component-diagrams-reference.md
       items:
-      - name: UML Component Diagrams - Reference
-        href: uml-component-diagrams-reference.md
       - name: Properties of elements on UML component diagrams
         href: properties-of-elements-on-uml-component-diagrams.md
     - name: UML Component Diagrams - Guidelines
       href: uml-component-diagrams-guidelines.md
     - name: UML Class Diagrams - Reference
-# Auto-expanded node
+      href: uml-class-diagrams-reference.md
       items:
-      - name: UML Class Diagrams - Reference
-        href: uml-class-diagrams-reference.md
       - name: Properties of types on UML class diagrams
         href: properties-of-types-on-uml-class-diagrams.md
       - name: Properties of attributes on UML class diagrams
@@ -77,10 +65,8 @@
     - name: Generate code from UML class diagrams
       href: generate-code-from-uml-class-diagrams.md
     - name: UML Sequence Diagrams - Reference
-# Auto-expanded node
+      href: uml-sequence-diagrams-reference.md
       items:
-      - name: UML Sequence Diagrams - Reference
-        href: uml-sequence-diagrams-reference.md
       - name: Properties of elements on UML sequence diagrams
         href: properties-of-elements-on-uml-sequence-diagrams.md
       - name: Describe control flow with fragments on UML sequence diagrams
@@ -88,10 +74,8 @@
     - name: UML Sequence Diagrams - Guidelines
       href: uml-sequence-diagrams-guidelines.md
     - name: UML Use Case Diagrams - Reference
-# Auto-expanded node
+      href: uml-use-case-diagrams-reference.md
       items:
-      - name: UML Use Case Diagrams - Reference
-        href: uml-use-case-diagrams-reference.md
       - name: Properties of elements on UML use case diagrams
         href: properties-of-elements-on-uml-use-case-diagrams.md
       - name: Link a use case to documents and diagrams
@@ -101,10 +85,8 @@
     - name: Define packages and namespaces
       href: define-packages-and-namespaces.md
     - name: Customize your model with profiles and stereotypes
-# Auto-expanded node
+      href: customize-your-model-with-profiles-and-stereotypes.md
       items:
-      - name: Customize your model with profiles and stereotypes
-        href: customize-your-model-with-profiles-and-stereotypes.md
       - name: Add stereotypes to UML model elements
         href: add-stereotypes-to-uml-model-elements.md
       - name: Standard stereotypes for UML models
@@ -114,10 +96,8 @@
     - name: Link model elements and work items
       href: link-model-elements-and-work-items.md
     - name: Share models and exporting diagrams
-# Auto-expanded node
+      href: share-models-and-exporting-diagrams.md
       items:
-      - name: Share models and exporting diagrams
-        href: share-models-and-exporting-diagrams.md
       - name: Manage models and diagrams under version control
         href: manage-models-and-diagrams-under-version-control.md
       - name: Read models and diagrams in other Visual Studio editions
@@ -125,10 +105,8 @@
       - name: Export diagrams as images
         href: export-diagrams-as-images.md
   - name: Use models in your development process
-# Auto-expanded node
+    href: use-models-in-your-development-process.md
     items:
-    - name: Use models in your development process
-      href: use-models-in-your-development-process.md
     - name: Model user requirements
       href: model-user-requirements.md
     - name: Model your app's architecture
@@ -140,10 +118,8 @@
     - name: Visual Studio Architecture Tooling Guidance
       href: visual-studio-architecture-tooling-guidance.md
   - name: Validate your system during development
-# Auto-expanded node
+    href: validate-your-system-during-development.md
     items:
-    - name: Validate your system during development
-      href: validate-your-system-during-development.md
     - name: Validate your UML model
       href: validate-your-uml-model.md
     - name: Develop tests from a model
@@ -151,10 +127,8 @@
     - name: Validate code with layer diagrams
       href: validate-code-with-layer-diagrams.md
   - name: Extend UML models and diagrams
-# Auto-expanded node
+    href: extend-uml-models-and-diagrams.md
     items:
-    - name: Extend UML models and diagrams
-      href: extend-uml-models-and-diagrams.md
     - name: Define and install a modeling extension
       href: define-and-install-a-modeling-extension.md
     - name: Define a profile to extend UML
@@ -182,10 +156,8 @@
     - name: Export UML diagrams to image files
       href: export-uml-diagrams-to-image-files.md
     - name: Programming with the UML API
-# Auto-expanded node
+      href: programming-with-the-uml-api.md
       items:
-      - name: Programming with the UML API
-        href: programming-with-the-uml-api.md
       - name: Navigate the UML model
         href: navigate-the-uml-model.md
       - name: Navigate relationships with the UML API
@@ -211,10 +183,8 @@
     - name: API Reference for UML Modeling Extensibility
       href: api-reference-for-uml-modeling-extensibility.md
   - name: Extend layer diagrams
-# Auto-expanded node
+    href: extend-layer-diagrams.md
     items:
-    - name: Extend layer diagrams
-      href: extend-layer-diagrams.md
     - name: Add commands and gestures to layer diagrams
       href: add-commands-and-gestures-to-layer-diagrams.md
     - name: Add custom architecture validation to layer diagrams
@@ -228,10 +198,8 @@
     - name: Troubleshoot extensions for layer diagrams
       href: troubleshoot-extensions-for-layer-diagrams.md
   - name: Modeling SDK for Visual Studio - Domain-Specific Languages
-# Auto-expanded node
+    href: modeling-sdk-for-visual-studio-domain-specific-languages.md
     items:
-    - name: Modeling SDK for Visual Studio - Domain-Specific Languages
-      href: modeling-sdk-for-visual-studio-domain-specific-languages.md
     - name: Getting Started with Domain-Specific Languages
       href: getting-started-with-domain-specific-languages.md
     - name: Understanding Models, Classes and Relationships
@@ -239,15 +207,11 @@
     - name: How to Define a Domain-Specific Language
       href: how-to-define-a-domain-specific-language.md
     - name: Customizing and Extending a Domain-Specific Language
-# Auto-expanded node
+      href: customizing-and-extending-a-domain-specific-language.md
       items:
-      - name: Customizing and Extending a Domain-Specific Language
-        href: customizing-and-extending-a-domain-specific-language.md
       - name: Customizing Presentation on the Diagram
-# Auto-expanded node
+        href: customizing-presentation-on-the-diagram.md
         items:
-        - name: Customizing Presentation on the Diagram
-          href: customizing-presentation-on-the-diagram.md
         - name: Defining Shapes and Connectors
           href: defining-shapes-and-connectors.md
         - name: Controlling Color, Line Style, and other Shape Properties
@@ -277,10 +241,8 @@
       - name: Domain Path Syntax
         href: domain-path-syntax.md
       - name: Properties of Model Elements
-# Auto-expanded node
+        href: properties-of-model-elements.md
         items:
-        - name: Properties of Model Elements
-          href: properties-of-model-elements.md
         - name: Properties of a DSL Definition
           href: properties-of-a-dsl-definition.md
         - name: Properties of Domain Classes
@@ -310,10 +272,8 @@
       - name: Sharing Classes between DSLs by using a DSL Library
         href: sharing-classes-between-dsls-by-using-a-dsl-library.md
     - name: Writing Code to Customise a Domain-Specific Language
-# Auto-expanded node
+      href: writing-code-to-customise-a-domain-specific-language.md
       items:
-      - name: Writing Code to Customise a Domain-Specific Language
-        href: writing-code-to-customise-a-domain-specific-language.md
       - name: Overriding and Extending the Generated Classes
         href: overriding-and-extending-the-generated-classes.md
       - name: Navigating and Updating a Model in Program Code
@@ -343,10 +303,8 @@
     - name: Validation in a Domain-Specific Language
       href: validation-in-a-domain-specific-language.md
     - name: Writing User Commands and Actions
-# Auto-expanded node
+      href: writing-user-commands-and-actions.md
       items:
-      - name: Writing User Commands and Actions
-        href: writing-user-commands-and-actions.md
       - name: Modify a Standard Menu Command
         href: how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md
       - name: Add a Command to the Shortcut Menu
@@ -360,10 +318,8 @@
       - name: Customizing Element Tools
         href: customizing-element-tools.md
     - name: Responding to and Propagating Changes
-# Auto-expanded node
+      href: responding-to-and-propagating-changes.md
       items:
-      - name: Responding to and Propagating Changes
-        href: responding-to-and-propagating-changes.md
       - name: Calculated and Custom Storage Properties
         href: calculated-and-custom-storage-properties.md
       - name: Domain Property Value Change Handlers
@@ -377,10 +333,8 @@
       - name: Updating Shapes and Connectors to Reflect the Model
         href: updating-shapes-and-connectors-to-reflect-the-model.md
     - name: Generating Code from a Domain-Specific Language
-# Auto-expanded node
+      href: generating-code-from-a-domain-specific-language.md
       items:
-      - name: Generating Code from a Domain-Specific Language
-        href: generating-code-from-a-domain-specific-language.md
       - name: Accessing Models from Text Templates
         href: accessing-models-from-text-templates.md
       - name: Using Visual Studio ModelBus in a Text Template
@@ -394,10 +348,8 @@
     - name: Customizing File Storage and XML Serialization
       href: customizing-file-storage-and-xml-serialization.md
     - name: Deploying Domain-Specific Language Solutions
-# Auto-expanded node
+      href: deploying-domain-specific-language-solutions.md
       items:
-      - name: Deploying Domain-Specific Language Solutions
-        href: deploying-domain-specific-language-solutions.md
       - name: MSI and VSIX Deployment of a DSL
         href: msi-and-vsix-deployment-of-a-dsl.md
       - name: Multiple DSLs in One Solution
@@ -409,10 +361,8 @@
     - name: Creating a WPF-Based Domain-Specific Language
       href: creating-a-wpf-based-domain-specific-language.md
     - name: Working with Domain-Specific Language Solutions
-# Auto-expanded node
+      href: working-with-domain-specific-language-solutions.md
       items:
-      - name: Working with Domain-Specific Language Solutions
-        href: working-with-domain-specific-language-solutions.md
       - name: About Domain-Specific Languages
         href: about-domain-specific-languages.md
       - name: Overview of Domain-Specific Language Tools
@@ -438,15 +388,11 @@
     - name: API Reference for Modeling SDK for Visual Studio
       href: api-reference-for-modeling-sdk-for-visual-studio.md
   - name: Code Generation and T4 Text Templates
-# Auto-expanded node
+    href: code-generation-and-t4-text-templates.md
     items:
-    - name: Code Generation and T4 Text Templates
-      href: code-generation-and-t4-text-templates.md
     - name: Design-Time Code Generation by using T4 Text Templates
-# Auto-expanded node
+      href: design-time-code-generation-by-using-t4-text-templates.md
       items:
-      - name: Design-Time Code Generation by using T4 Text Templates
-        href: design-time-code-generation-by-using-t4-text-templates.md
       - name: Generating Code by using Text Templates
         href: walkthrough-generating-code-by-using-text-templates.md
       - name: Code Generation in a Build Process
@@ -458,15 +404,11 @@
     - name: Run-Time Text Generation with T4 Text Templates
       href: run-time-text-generation-with-t4-text-templates.md
     - name: Writing a T4 Text Template
-# Auto-expanded node
+      href: writing-a-t4-text-template.md
       items:
-      - name: Writing a T4 Text Template
-        href: writing-a-t4-text-template.md
       - name: T4 Text Template Directives
-# Auto-expanded node
+        href: t4-text-template-directives.md
         items:
-        - name: T4 Text Template Directives
-          href: t4-text-template-directives.md
         - name: T4 Template Directive
           href: t4-template-directive.md
         - name: T4 Parameter Directive
@@ -488,10 +430,8 @@
       - name: Accessing Visual Studio or other Hosts from a Text Template
         href: accessing-visual-studio-or-other-hosts-from-a-text-template.md
       - name: Using Escape Sequences in Text Templates
-# Auto-expanded node
+        href: using-escape-sequences-in-text-templates.md
         items:
-        - name: Using Escape Sequences in Text Templates
-          href: using-escape-sequences-in-text-templates.md
         - name: Generate Templates from Templates By Using Escape Sequences
           href: how-to-generate-templates-from-templates-by-using-escape-sequences.md
     - name: Debugging a T4 Text Template
@@ -501,17 +441,13 @@
     - name: How to ... with Text Templates
       href: how-to-dot-dot-dot-with-text-templates.md
     - name: Customizing T4 Text Transformation
-# Auto-expanded node
+      href: customizing-t4-text-transformation.md
       items:
-      - name: Customizing T4 Text Transformation
-        href: customizing-t4-text-transformation.md
       - name: The Text Template Transformation Process
         href: the-text-template-transformation-process.md
       - name: Creating Custom T4 Text Template Directive Processors
-# Auto-expanded node
+        href: creating-custom-t4-text-template-directive-processors.md
         items:
-        - name: Creating Custom T4 Text Template Directive Processors
-          href: creating-custom-t4-text-template-directive-processors.md
         - name: Deploying a Custom Directive Processor
           href: deploying-a-custom-directive-processor.md
         - name: Creating a Custom Directive Processor
@@ -519,10 +455,8 @@
       - name: Invoking Text Transformation in a VS Extension
         href: invoking-text-transformation-in-a-vs-extension.md
       - name: Processing Text Templates by using a Custom Host
-# Auto-expanded node
+        href: processing-text-templates-by-using-a-custom-host.md
         items:
-        - name: Processing Text Templates by using a Custom Host
-          href: processing-text-templates-by-using-a-custom-host.md
         - name: Creating a Custom Text Template Host
           href: walkthrough-creating-a-custom-text-template-host.md
     - name: API Reference for T4 Text Templates

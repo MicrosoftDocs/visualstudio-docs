@@ -1,8 +1,6 @@
 - name: Welcome to Visual Studio 2015
-# Auto-expanded node
+  href: welcome-to-visual-studio-2015.md
   items:
-  - name: Welcome to Visual Studio 2015
-    href: welcome-to-visual-studio-2015.md
   - name: What's New in Visual Studio 2015
     href: what-s-new-in-visual-studio-2015.md
   - name: Install Visual Studio 2015
@@ -30,9 +28,7 @@
   - name: Visual F#
     href: /dotnet/fsharp/
   - name: Talk to Us
-# Auto-expanded node
+    href: ide/talk-to-us.md
     items:
-    - name: Talk to Us
-      href: ide/talk-to-us.md
     - name: How to Report a Problem with Visual Studio 2015
       href: ide/how-to-report-a-problem-with-visual-studio-2015.md

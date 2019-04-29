@@ -1,13 +1,9 @@
 - name: Cross-Platform Mobile Development
-# Auto-expanded node
+  href: cross-platform-mobile-development-in-visual-studio.md
   items:
-  - name: Cross-Platform Mobile Development
-    href: cross-platform-mobile-development-in-visual-studio.md
   - name: Visual Studio and Xamarin
-# Auto-expanded node
+    href: visual-studio-and-xamarin.md
     items:
-    - name: Visual Studio and Xamarin
-      href: visual-studio-and-xamarin.md
     - name: Setup and install
       href: setup-and-install.md
     - name: Learn about mobile development with Xamarin
@@ -25,10 +21,8 @@
   - name: Visual Studio Tools for Apache Cordova
     href: visual-studio-tools-for-apache-cordova.md
   - name: Visual Studio Tools for Unity
-# Auto-expanded node
+    href: visual-studio-tools-for-unity.md
     items:
-    - name: Visual Studio Tools for Unity
-      href: visual-studio-tools-for-unity.md
     - name: Overview
       href: overview-of-visual-studio-tools-for-unity.md
     - name: Getting Started
@@ -36,10 +30,8 @@
     - name: Using Visual Studio Tools for Unity
       href: using-visual-studio-tools-for-unity.md
     - name: Programming Visual Studio Tools for Unity
-# Auto-expanded node
+      href: programming-visual-studio-tools-for-unity.md
       items:
-      - name: Programming Visual Studio Tools for Unity
-        href: programming-visual-studio-tools-for-unity.md
       - name: Example - Project File Generation
         href: customize-project-files-created-by-vstu.md
       - name: Example - Log Callback
@@ -51,15 +43,11 @@
     - name: Application Lifecycle Management (ALM) with Unity Apps
       href: application-lifecycle-management-alm-with-unity-apps.md
   - name: Visual C++ for Cross-Platform Mobile Development
-# Auto-expanded node
+    href: visual-cpp-for-cross-platform-mobile-development.md
     items:
-    - name: Visual C++ for Cross-Platform Mobile Development
-      href: visual-cpp-for-cross-platform-mobile-development.md
     - name: Install Visual C++ for Cross-Platform Mobile Development
-# Auto-expanded node
+      href: install-visual-cpp-for-cross-platform-mobile-development.md
       items:
-      - name: Install Visual C++ for Cross-Platform Mobile Development
-        href: install-visual-cpp-for-cross-platform-mobile-development.md
       - name: Install And Configure Tools to Build using iOS
         href: install-and-configure-tools-to-build-using-ios.md
     - name: Create an Android Native Activity App
@@ -75,10 +63,8 @@
   - name: Develop apps for the Universal Windows Platform (UWP)
     href: develop-apps-for-the-universal-windows-platform-uwp.md
   - name: Visual Studio Emulator for Android
-# Auto-expanded node
+    href: visual-studio-emulator-for-android.md
     items:
-    - name: Visual Studio Emulator for Android
-      href: visual-studio-emulator-for-android.md
     - name: System Requirements for the Visual Studio Emulator for Android
       href: system-requirements-for-the-visual-studio-emulator-for-android.md
     - name: Troubleshooting the Visual Studio Emulator for Android

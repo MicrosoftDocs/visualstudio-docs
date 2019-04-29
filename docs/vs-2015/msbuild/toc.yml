@@ -1,20 +1,14 @@
 - name: MSBuild
-# Auto-expanded node
+  href: msbuild.md
   items:
-  - name: MSBuild
-    href: msbuild.md
   - name: What's New in MSBuild 12.0
     href: what-s-new-in-msbuild-12-0.md
   - name: MSBuild Concepts
-# Auto-expanded node
+    href: msbuild-concepts.md
     items:
-    - name: MSBuild Concepts
-      href: msbuild-concepts.md
     - name: Properties
-# Auto-expanded node
+      href: msbuild-properties1.md
       items:
-      - name: Properties
-        href: msbuild-properties1.md
       - name: Use Environment Variables in a Build
         href: how-to-use-environment-variables-in-a-build.md
       - name: Reference the Name or Location of the Project File
@@ -24,10 +18,8 @@
       - name: Property Functions
         href: property-functions.md
     - name: Items
-# Auto-expanded node
+      href: msbuild-items.md
       items:
-      - name: Items
-        href: msbuild-items.md
       - name: Select the Files to Build
         href: how-to-select-the-files-to-build.md
       - name: Exclude Files from the Build
@@ -39,10 +31,8 @@
       - name: Item Functions
         href: item-functions.md
       - name: File Tracking
-# Auto-expanded node
+        href: file-tracking.md
         items:
-        - name: File Tracking
-          href: file-tracking.md
         - name: EndTrackingContext
           href: endtrackingcontext.md
         - name: ResumeTracking
@@ -62,10 +52,8 @@
         - name: WriteContextTLogs
           href: writecontexttlogs.md
     - name: Targets
-# Auto-expanded node
+      href: msbuild-targets.md
       items:
-      - name: Targets
-        href: msbuild-targets.md
       - name: Target Build Order
         href: target-build-order.md
       - name: Incremental Builds
@@ -81,10 +69,8 @@
       - name: Clean a Build
         href: how-to-clean-a-build.md
     - name: Tasks
-# Auto-expanded node
+      href: msbuild-tasks.md
       items:
-      - name: Tasks
-        href: msbuild-tasks.md
       - name: Task Writing
         href: task-writing.md
       - name: Ignore Errors in Tasks
@@ -92,33 +78,25 @@
       - name: Build a Project That Has Resources
         href: how-to-build-a-project-that-has-resources.md
       - name: Inline Tasks
-# Auto-expanded node
+        href: msbuild-inline-tasks.md
         items:
-        - name: Inline Tasks
-          href: msbuild-inline-tasks.md
         - name: Creating an Inline Task
           href: walkthrough-creating-an-inline-task.md
     - name: Comparing Properties and Items
       href: comparing-properties-and-items.md
     - name: MSBuild Special Characters
-# Auto-expanded node
+      href: msbuild-special-characters.md
       items:
-      - name: MSBuild Special Characters
-        href: msbuild-special-characters.md
       - name: Escape Special Characters in MSBuild
         href: how-to-escape-special-characters-in-msbuild.md
       - name: Use Reserved XML Characters in Project Files
         href: how-to-use-reserved-xml-characters-in-project-files.md
   - name: Advanced Concepts
-# Auto-expanded node
+    href: msbuild-advanced-concepts.md
     items:
-    - name: Advanced Concepts
-      href: msbuild-advanced-concepts.md
     - name: Batching
-# Auto-expanded node
+      href: msbuild-batching.md
       items:
-      - name: Batching
-        href: msbuild-batching.md
       - name: Item Metadata in Task Batching
         href: item-metadata-in-task-batching.md
       - name: Item Metadata in Target Batching
@@ -126,10 +104,8 @@
     - name: Transforms
       href: msbuild-transforms.md
     - name: Visual Studio Integration
-# Auto-expanded node
+      href: visual-studio-integration-msbuild.md
       items:
-      - name: Visual Studio Integration
-        href: visual-studio-integration-msbuild.md
       - name: Extend the Visual Studio Build Process
         href: how-to-extend-the-visual-studio-build-process.md
       - name: Starting a Build from within the IDE
@@ -137,24 +113,18 @@
       - name: Registering Extensions of the .NET Framework
         href: registering-extensions-of-the-dotnet-framework.md
     - name: Building Multiple Projects in Parallel
-# Auto-expanded node
+      href: building-multiple-projects-in-parallel-with-msbuild.md
       items:
-      - name: Building Multiple Projects in Parallel
-        href: building-multiple-projects-in-parallel-with-msbuild.md
       - name: Using Multiple Processors to Build Projects
         href: using-multiple-processors-to-build-projects.md
       - name: Using Memory Efficiently When You Build Large Projects
         href: using-memory-efficiently-when-you-build-large-projects.md
     - name: Multitargeting
-# Auto-expanded node
+      href: msbuild-multitargeting-overview.md
       items:
-      - name: Multitargeting
-        href: msbuild-multitargeting-overview.md
       - name: Toolset (ToolsVersion)
-# Auto-expanded node
+        href: msbuild-toolset-toolsversion.md
         items:
-        - name: Toolset (ToolsVersion)
-          href: msbuild-toolset-toolsversion.md
         - name: Standard and Custom Toolset Configurations
           href: standard-and-custom-toolset-configurations.md
         - name: Overriding ToolsVersion Settings
@@ -164,10 +134,8 @@
       - name: Resolving Assemblies at Design Time
         href: resolving-assemblies-at-design-time.md
       - name: Configuring Targets and Tasks
-# Auto-expanded node
+        href: configuring-targets-and-tasks.md
         items:
-        - name: Configuring Targets and Tasks
-          href: configuring-targets-and-tasks.md
         - name: Configure Targets and Tasks
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshooting .NET Framework Targeting Errors
@@ -175,10 +143,8 @@
     - name: Best Practices
       href: msbuild-best-practices.md
   - name: Logging in MSBuild
-# Auto-expanded node
+    href: logging-in-msbuild.md
     items:
-    - name: Logging in MSBuild
-      href: logging-in-msbuild.md
     - name: Obtaining Build Logs
       href: obtaining-build-logs-with-msbuild.md
     - name: Build Loggers
@@ -194,15 +160,11 @@
   - name: Creating an MSBuild Project File from Scratch
     href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
   - name: MSBuild Reference
-# Auto-expanded node
+    href: msbuild-reference.md
     items:
-    - name: MSBuild Reference
-      href: msbuild-reference.md
     - name: Project File Schema Reference
-# Auto-expanded node
+      href: msbuild-project-file-schema-reference.md
       items:
-      - name: Project File Schema Reference
-        href: msbuild-project-file-schema-reference.md
       - name: Choose Element (MSBuild)
         href: choose-element-msbuild.md
       - name: Import Element (MSBuild)
@@ -246,15 +208,11 @@
       - name: When Element (MSBuild)
         href: when-element-msbuild.md
     - name: Task Reference
-# Auto-expanded node
+      href: msbuild-task-reference.md
       items:
-      - name: Task Reference
-        href: msbuild-task-reference.md
       - name: Visual C++ Tasks
-# Auto-expanded node
+        href: msbuild-tasks-specific-to-visual-cpp.md
         items:
-        - name: Visual C++ Tasks
-          href: msbuild-tasks-specific-to-visual-cpp.md
         - name: BscMake Task
           href: bscmake-task.md
         - name: CL Task
@@ -424,17 +382,13 @@
     - name: Additional Resources
       href: additional-resources-for-msbuild.md
     - name: WPF MSBuild Reference
-# Auto-expanded node
+      href: wpf-msbuild-reference.md
       items:
-      - name: WPF MSBuild Reference
-        href: wpf-msbuild-reference.md
       - name: .Targets Files
         href: wpf-dot-targets-files.md
       - name: Task Reference
-# Auto-expanded node
+        href: wpf-msbuild-task-reference.md
         items:
-        - name: Task Reference
-          href: wpf-msbuild-task-reference.md
         - name: FileClassifier
           href: fileclassifier-task.md
         - name: GenerateTemporaryTargetAssembly

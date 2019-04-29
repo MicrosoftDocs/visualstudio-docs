@@ -1,18 +1,12 @@
 - name: XML Tools in Visual Studio
-# Auto-expanded node
+  href: xml-tools-in-visual-studio.md
   items:
-  - name: XML Tools in Visual Studio
-    href: xml-tools-in-visual-studio.md
   - name: Working with XML Data
-# Auto-expanded node
+    href: working-with-xml-data.md
     items:
-    - name: Working with XML Data
-      href: working-with-xml-data.md
     - name: XML Editor
-# Auto-expanded node
+      href: xml-editor.md
       items:
-      - name: XML Editor
-        href: xml-editor.md
       - name: XML Document Validation
         href: xml-document-validation.md
       - name: XML Editor IntelliSense Features
@@ -24,10 +18,8 @@
       - name: Schema Cache
         href: schema-cache.md
       - name: XML Editor Components
-# Auto-expanded node
+        href: xml-editor-components.md
         items:
-        - name: XML Editor Components
-          href: xml-editor-components.md
         - name: Miscellaneous, XML, Text Editor, Options Dialog Box
           href: miscellaneous-xml-text-editor-options-dialog-box.md
         - name: XML Document Properties, Properties Window
@@ -37,10 +29,8 @@
         - name: XML Schemas Dialog Box
           href: xml-schemas-dialog-box.md
       - name: XML Editor Tasks
-# Auto-expanded node
+        href: xml-editor-tasks.md
         items:
-        - name: XML Editor Tasks
-          href: xml-editor-tasks.md
         - name: Using XML Editor Features
           href: walkthrough-using-xml-editor-features.md
         - name: Select the XML Schemas to Use
@@ -64,15 +54,11 @@
         - name: XSLT Profiler
           href: walkthrough-xslt-profiler.md
     - name: XML Schema Designer
-# Auto-expanded node
+      href: xml-schema-designer.md
       items:
-      - name: XML Schema Designer
-        href: xml-schema-designer.md
       - name: XML Schema Explorer
-# Auto-expanded node
+        href: xml-schema-explorer.md
         items:
-        - name: XML Schema Explorer
-          href: xml-schema-explorer.md
         - name: Searching the Schema Set
           href: searching-the-schema-set.md
         - name: Sorting, Filtering, and Grouping
@@ -82,10 +68,8 @@
         - name: Integration of XML Literals with XML Schema Explorer
           href: integration-of-xml-literals-with-xml-schema-explorer.md
       - name: XML Schema Designer Workspace
-# Auto-expanded node
+        href: xml-schema-designer-workspace.md
         items:
-        - name: XML Schema Designer Workspace
-          href: xml-schema-designer-workspace.md
         - name: Start View
           href: start-view.md
         - name: Content Model View
@@ -95,10 +79,8 @@
       - name: Integration with XML Editor
         href: integration-with-xml-editor.md
       - name: XML Schema Designer Tasks
-# Auto-expanded node
+        href: xml-schema-designer-tasks.md
         items:
-        - name: XML Schema Designer Tasks
-          href: xml-schema-designer-tasks.md
         - name: Create and Edit an XSD Schema File
           href: how-to-create-and-edit-an-xsd-schema-file.md
         - name: Create an XML Document Based on an XSD Schema
@@ -120,10 +102,8 @@
         - name: Print Diagrams from the Graph View and the Content Model View
           href: how-to-print-diagrams-from-the-graph-view-and-the-content-model-view.md
         - name: Sample XSD Files
-# Auto-expanded node
+          href: sample-xsd-files.md
           items:
-          - name: Sample XSD Files
-            href: sample-xsd-files.md
           - name: Sample XSD File - Simple Schema
             href: sample-xsd-file-simple-schema.md
           - name: Sample XSD File - Purchase Order Schema
@@ -133,10 +113,8 @@
     - name: Security Considerations when Working with XML Data
       href: security-considerations-when-working-with-xml-data.md
   - name: Debugging XSLT
-# Auto-expanded node
+    href: debugging-xslt.md
     items:
-    - name: Debugging XSLT
-      href: debugging-xslt.md
     - name: Start Debugging XSLT
       href: how-to-start-debugging-xslt.md
     - name: Use Breakpoints with XSLT

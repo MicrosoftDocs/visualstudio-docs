@@ -1,10 +1,8 @@
 - name: Debugging in Visual Studio
   href: debugging-in-visual-studio.md
 - name: Debugger Basics
-# Auto-expanded node
+  href: debugger-basics.md
   items:
-  - name: Debugger Basics
-    href: debugger-basics.md
   - name: Getting Started with the Debugger
     href: getting-started-with-the-debugger.md
   - name: Navigating through Code with the Debugger
@@ -12,22 +10,16 @@
   - name: Using Breakpoints
     href: using-breakpoints.md
   - name: Debugger Windows
-# Auto-expanded node
+    href: debugger-windows.md
     items:
-    - name: Debugger Windows
-      href: debugger-windows.md
     - name: Autos and Locals Windows
       href: autos-and-locals-windows.md
     - name: Watch and QuickWatch Windows
-# Auto-expanded node
+      href: watch-and-quickwatch-windows.md
       items:
-      - name: Watch and QuickWatch Windows
-        href: watch-and-quickwatch-windows.md
       - name: Expressions in the Debugger
-# Auto-expanded node
+        href: expressions-in-the-debugger.md
         items:
-        - name: Expressions in the Debugger
-          href: expressions-in-the-debugger.md
         - name: Format Specifiers in C++
           href: format-specifiers-in-cpp.md
         - name: Context Operator (C++)
@@ -37,26 +29,20 @@
         - name: Pseudovariables
           href: pseudovariables.md
     - name: Use the Disassembly Window
-# Auto-expanded node
+      href: how-to-use-the-disassembly-window.md
       items:
-      - name: Use the Disassembly Window
-        href: how-to-use-the-disassembly-window.md
       - name: Page Up or Down in Memory
         href: how-to-page-up-or-down-in-memory.md
     - name: Use the Call Stack Window
-# Auto-expanded node
+      href: how-to-use-the-call-stack-window.md
       items:
-      - name: Use the Call Stack Window
-        href: how-to-use-the-call-stack-window.md
       - name: Mixed Code and Missing Information in the Call Stack Window
         href: mixed-code-and-missing-information-in-the-call-stack-window.md
       - name: Step out of Managed Code when Native Frames are Missing from the Call Stack Window
         href: how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md
     - name: Use the Registers Window
-# Auto-expanded node
+      href: how-to-use-the-registers-window.md
       items:
-      - name: Use the Registers Window
-        href: how-to-use-the-registers-window.md
       - name: Registers Window
         href: debugging-basics-registers-window.md
       - name: Display and Hide Register Groups
@@ -64,10 +50,8 @@
       - name: Edit a Register Value
         href: how-to-edit-a-register-value.md
     - name: Use the Modules Window
-# Auto-expanded node
+      href: how-to-use-the-modules-window.md
       items:
-      - name: Use the Modules Window
-        href: how-to-use-the-modules-window.md
       - name: Find Which DLL Your Program Crashed In
         href: how-to-find-which-dll-your-program-crashed-in.md
     - name: Memory Windows
@@ -75,19 +59,15 @@
   - name: Just My Code
     href: just-my-code.md
   - name: Managing Exceptions with the Debugger
-# Auto-expanded node
+    href: managing-exceptions-with-the-debugger.md
     items:
-    - name: Managing Exceptions with the Debugger
-      href: managing-exceptions-with-the-debugger.md
     - name: Continuing Execution After an Exception
       href: continuing-execution-after-an-exception.md
     - name: Examine System Code After an Exception
       href: how-to-examine-system-code-after-an-exception.md
     - name: Use Native Run-Time Checks
-# Auto-expanded node
+      href: how-to-use-native-run-time-checks.md
       items:
-      - name: Use Native Run-Time Checks
-        href: how-to-use-native-run-time-checks.md
       - name: Native Run-Time Checks Customization
         href: native-run-time-checks-customization.md
       - name: Write a Run-Time Error Reporting Function
@@ -103,31 +83,23 @@
   - name: Debugger Security
     href: debugger-security.md
 - name: More Debugging Features
-# Auto-expanded node
+  href: more-debugging-features.md
   items:
-  - name: More Debugging Features
-    href: more-debugging-features.md
   - name: Inspect XAML properties while debugging
     href: inspect-xaml-properties-while-debugging.md
   - name: Debugger Settings and Preparation
-# Auto-expanded node
+    href: debugger-settings-and-preparation.md
     items:
-    - name: Debugger Settings and Preparation
-      href: debugger-settings-and-preparation.md
     - name: Debugger Project Settings
-# Auto-expanded node
+      href: debugger-project-settings.md
       items:
-      - name: Debugger Project Settings
-        href: debugger-project-settings.md
       - name: Specify Debugger Settings
         href: how-to-specify-debugger-settings.md
       - name: Set Debug and Release Configurations
         href: how-to-set-debug-and-release-configurations.md
       - name: Project Settings for a C++ Debug Configuration
-# Auto-expanded node
+        href: project-settings-for-a-cpp-debug-configuration.md
         items:
-        - name: Project Settings for a C++ Debug Configuration
-          href: project-settings-for-a-cpp-debug-configuration.md
         - name: Enabling Debug Features in Visual C++ (/D_DEBUG)
           href: enabling-debug-features-in-visual-cpp-d-debug.md
       - name: Property Pages Settings for Web Projects
@@ -137,10 +109,8 @@
       - name: Project Settings for a Visual Basic Debug Configuration
         href: project-settings-for-a-visual-basic-debug-configuration.md
     - name: Debugging DLL Projects
-# Auto-expanded node
+      href: debugging-dll-projects.md
       items:
-      - name: Debugging DLL Projects
-        href: debugging-dll-projects.md
       - name: Debug from a DLL Project
         href: how-to-debug-from-a-dll-project.md
       - name: Debug in Mixed Mode
@@ -160,33 +130,25 @@
     - name: Specify a .NET Framework Version For Debugging
       href: how-to-specify-a-dotnet-framework-version-for-debugging.md
   - name: Viewing Data in the Debugger
-# Auto-expanded node
+    href: viewing-data-in-the-debugger.md
     items:
-    - name: Viewing Data in the Debugger
-      href: viewing-data-in-the-debugger.md
     - name: View data values in Data Tips
       href: view-data-values-in-data-tips-in-the-code-editor.md
     - name: Create Custom Views of Native Objects
       href: create-custom-views-of-native-objects.md
     - name: Create Custom Views of Managed Objects
-# Auto-expanded node
+      href: create-custom-views-of-dot-managed-objects.md
       items:
-      - name: Create Custom Views of Managed Objects
-        href: create-custom-views-of-dot-managed-objects.md
       - name: Using DebuggerTypeProxy Attribute
         href: using-debuggertypeproxy-attribute.md
       - name: Using the DebuggerDisplay Attribute
         href: using-the-debuggerdisplay-attribute.md
     - name: Create Custom Visualizers
-# Auto-expanded node
+      href: create-custom-visualizers-of-data.md
       items:
-      - name: Create Custom Visualizers
-        href: create-custom-visualizers-of-data.md
       - name: Write a Visualizer
-# Auto-expanded node
+        href: how-to-write-a-visualizer.md
         items:
-        - name: Write a Visualizer
-          href: how-to-write-a-visualizer.md
         - name: Visualizer Architecture
           href: visualizer-architecture.md
         - name: Writing a Visualizer in C#
@@ -210,35 +172,27 @@
   - name: Debugging at Design Time
     href: walkthrough-debugging-at-design-time.md
   - name: Edit and Continue
-# Auto-expanded node
+    href: edit-and-continue.md
     items:
-    - name: Edit and Continue
-      href: edit-and-continue.md
     - name: Enable and Disable Edit and Continue
       href: how-to-enable-and-disable-edit-and-continue.md
     - name: Stop Code Changes
       href: how-to-stop-code-changes.md
     - name: Edit and Continue (Visual C++)
-# Auto-expanded node
+      href: edit-and-continue-visual-cpp.md
       items:
-      - name: Edit and Continue (Visual C++)
-        href: edit-and-continue-visual-cpp.md
       - name: Supported Code Changes (C++)
         href: supported-code-changes-cpp.md
     - name: Edit and Continue (Visual C#)
-# Auto-expanded node
+      href: edit-and-continue-visual-csharp.md
       items:
-      - name: Edit and Continue (Visual C#)
-        href: edit-and-continue-visual-csharp.md
       - name: Use Edit and Continue (C#)
         href: how-to-use-edit-and-continue-csharp.md
       - name: Supported Code Changes (C#)
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
-# Auto-expanded node
+      href: edit-and-continue-visual-basic.md
       items:
-      - name: Edit and Continue (Visual Basic)
-        href: edit-and-continue-visual-basic.md
       - name: Apply Edits in Break Mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
       - name: Unsupported Edits in Visual Basic Edit and Continue
@@ -246,19 +200,15 @@
     - name: Edit and Continue Not Supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: Using Dump Files
-# Auto-expanded node
+    href: using-dump-files.md
     items:
-    - name: Using Dump Files
-      href: using-dump-files.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
   - name: Restore Hidden Debugger Commands
     href: how-to-restore-hidden-debugger-commands.md
 - name: Remote Debugging
-# Auto-expanded node
+  href: remote-debugging.md
   items:
-  - name: Remote Debugging
-    href: remote-debugging.md
   - name: Configure the Windows Firewall for Remote Debugging
     href: configure-the-windows-firewall-for-remote-debugging.md
   - name: Remote Debugger Port Assignments
@@ -266,10 +216,8 @@
   - name: Remote Debugging ASP.NET on a Remote IIS Computer
     href: remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md
   - name: Remote Debugging Errors and Troubleshooting
-# Auto-expanded node
+    href: remote-debugging-errors-and-troubleshooting.md
     items:
-    - name: Remote Debugging Errors and Troubleshooting
-      href: remote-debugging-errors-and-troubleshooting.md
     - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
       href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md
     - name: A DCOM error occurred trying to contact the remote computer. Access is denied.
@@ -315,10 +263,8 @@
     - name: Remote machine does not appear in a Remote Connections dialog
       href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
 - name: Debug Multithreaded Applications
-# Auto-expanded node
+  href: debug-multithreaded-applications-in-visual-studio.md
   items:
-  - name: Debug Multithreaded Applications
-    href: debug-multithreaded-applications-in-visual-studio.md
   - name: Debug Threads and Processes
     href: debug-threads-and-processes.md
   - name: Debug Multiple Processes
@@ -350,10 +296,8 @@
   - name: Use the GPU Threads Window
     href: how-to-use-the-gpu-threads-window.md
 - name: IntelliTrace
-# Auto-expanded node
+  href: intellitrace.md
   items:
-  - name: IntelliTrace
-    href: intellitrace.md
   - name: Using IntelliTrace
     href: walkthrough-using-intellitrace.md
   - name: IntelliTrace Features
@@ -371,20 +315,14 @@
   - name: API Reference for IntelliTrace Extensibility
     href: api-reference-for-intellitrace-extensibility.md
 - name: Debugging Applications
-# Auto-expanded node
+  href: debugging-applications.md
   items:
-  - name: Debugging Applications
-    href: debugging-applications.md
   - name: Debugging Windows Store and Windows Universal apps
-# Auto-expanded node
+    href: debugging-windows-store-and-windows-universal-apps.md
     items:
-    - name: Debugging Windows Store and Windows Universal apps
-      href: debugging-windows-store-and-windows-universal-apps.md
     - name: Run apps from Visual Studio
-# Auto-expanded node
+      href: run-store-apps-from-visual-studio.md
       items:
-      - name: Run apps from Visual Studio
-        href: run-store-apps-from-visual-studio.md
       - name: Run Windows Store apps on the local machine
         href: run-windows-store-apps-on-the-local-machine.md
       - name: Run Windows Store apps in the simulator
@@ -396,24 +334,18 @@
       - name: Deploy Windows Store apps from Visual Studio
         href: deploy-windows-store-apps-from-visual-studio.md
     - name: Debug apps in Visual Studio
-# Auto-expanded node
+      href: debug-store-apps-in-visual-studio.md
       items:
-      - name: Debug apps in Visual Studio
-        href: debug-store-apps-in-visual-studio.md
       - name: Start a debug session  (JavaScript)
         href: start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md
       - name: Control execution in a debug session (JavaScript)
-# Auto-expanded node
+        href: control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md
         items:
-        - name: Control execution in a debug session (JavaScript)
-          href: control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md
         - name: Debugger navigation sample code (JavaScript)
           href: debugger-navigation-sample-code-javascript.md
       - name: Debug HTML and CSS
-# Auto-expanded node
+        href: quickstart-debug-html-and-css.md
         items:
-        - name: Debug HTML and CSS
-          href: quickstart-debug-html-and-css.md
         - name: Debug CSS styles using DOM Explorer
           href: debug-css-styles-using-dom-explorer.md
         - name: View DOM event listeners
@@ -429,10 +361,8 @@
         - name: Debug HTML, CSS, and JavaScript sample code
           href: debug-html-css-and-javascript-sample-code.md
       - name: Debug JavaScript
-# Auto-expanded node
+        href: quickstart-debug-javascript-using-the-console.md
         items:
-        - name: Debug JavaScript
-          href: quickstart-debug-javascript-using-the-console.md
         - name: JavaScript Console commands
           href: javascript-console-commands.md
       - name: Start a debug session (VB, C#, C++ and XAML)
@@ -440,10 +370,8 @@
       - name: Debug XAML in Blend for Visual Studio
         href: debug-xaml-in-blend.md
       - name: Navigate a debug session  (Xaml and C#)
-# Auto-expanded node
+        href: navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md
         items:
-        - name: Navigate a debug session  (Xaml and C#)
-          href: navigate-a-debugging-session-in-visual-studio-xaml-and-csharp.md
         - name: Debugger navigation sample code (Xaml and C#)
           href: debugger-navigation-sample-code-xaml-and-csharp.md
       - name: Trigger suspend, resume, and background events for Windows Store)
@@ -451,15 +379,11 @@
     - name: Prefetch content for Windows Store apps
       href: prefetch-content-for-windows-store-apps.md
   - name: Debugging Managed Code
-# Auto-expanded node
+    href: debugging-managed-code.md
     items:
-    - name: Debugging Managed Code
-      href: debugging-managed-code.md
     - name: C#, F#, and Visual Basic Project Types
-# Auto-expanded node
+      href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
       items:
-      - name: C#, F#, and Visual Basic Project Types
-        href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
       - name: Recommended Property Settings
         href: managed-debugging-recommended-property-settings.md
       - name: Windows Forms Applications
@@ -489,10 +413,8 @@
     - name: Debug .NET Framework Source
       href: how-to-debug-dotnet-framework-source.md
     - name: Debugging WPF
-# Auto-expanded node
+      href: debugging-wpf.md
       items:
-      - name: Debugging WPF
-        href: debugging-wpf.md
       - name: Use the WPF Tree Visualizer
         href: how-to-use-the-wpf-tree-visualizer.md
       - name: Display WPF Trace Information
@@ -500,10 +422,8 @@
     - name: Debugging F#
       href: debugging-f-hash.md
   - name: Debugging Native Code
-# Auto-expanded node
+    href: debugging-native-code.md
     items:
-    - name: Debugging Native Code
-      href: debugging-native-code.md
     - name: Visual C++ Project Types
       href: debugging-preparation-visual-cpp-project-types.md
     - name: Debug Optimized Code
@@ -517,10 +437,8 @@
     - name: MFC Debugging Techniques
       href: mfc-debugging-techniques.md
     - name: CRT Debugging Techniques
-# Auto-expanded node
+      href: crt-debugging-techniques.md
       items:
-      - name: CRT Debugging Techniques
-        href: crt-debugging-techniques.md
       - name: CRT Debug Library Use
         href: crt-debug-library-use.md
       - name: Macros for Reporting
@@ -530,17 +448,13 @@
       - name: CRT Debug Heap Details
         href: crt-debug-heap-details.md
       - name: Debug Hook Function Writing
-# Auto-expanded node
+        href: debug-hook-function-writing.md
         items:
-        - name: Debug Hook Function Writing
-          href: debug-hook-function-writing.md
         - name: Client Block Hook Functions
           href: client-block-hook-functions.md
         - name: Allocation Hook Functions
-# Auto-expanded node
+          href: allocation-hook-functions.md
           items:
-          - name: Allocation Hook Functions
-            href: allocation-hook-functions.md
           - name: Allocation Hooks and C Run-Time Memory Allocations
             href: allocation-hooks-and-c-run-time-memory-allocations.md
         - name: Report Hook Functions
@@ -548,10 +462,8 @@
       - name: Finding Memory Leaks Using the CRT Library
         href: finding-memory-leaks-using-the-crt-library.md
     - name: Debugging Native Code FAQs
-# Auto-expanded node
+      href: debugging-native-code-faqs.md
       items:
-      - name: Debugging Native Code FAQs
-        href: debugging-native-code-faqs.md
       - name: How Can I Debug an Access Violation?
         href: how-can-i-debug-an-access-violation-q.md
       - name: How Can I Debug Access Violations When Running My Program Outside the Debugger?
@@ -573,29 +485,21 @@
       - name: Get Back to the Function that Called MFC If Halted
         href: how-to-get-back-to-the-function-that-called-mfc-if-halted.md
     - name: COM and ActiveX Debugging
-# Auto-expanded node
+      href: com-and-activex-debugging.md
       items:
-      - name: COM and ActiveX Debugging
-        href: com-and-activex-debugging.md
       - name: COM Server and Container Debugging
-# Auto-expanded node
+        href: com-server-and-container-debugging.md
         items:
-        - name: COM Server and Container Debugging
-          href: com-server-and-container-debugging.md
         - name: Debug COM Servers
-# Auto-expanded node
+          href: how-to-debug-com-servers.md
           items:
-          - name: Debug COM Servers
-            href: how-to-debug-com-servers.md
           - name: SDI Server Applications
             href: sdi-server-applications.md
         - name: Debug COM Clients and Servers Using RPC Debugging
           href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
       - name: Debug an ActiveX Control
-# Auto-expanded node
+        href: how-to-debug-an-activex-control.md
         items:
-        - name: Debug an ActiveX Control
-          href: how-to-debug-an-activex-control.md
         - name: Debugging a Data-Bound ActiveX Control
           href: debugging-a-data-bound-activex-control.md
       - name: COM Debugging Tools
@@ -607,10 +511,8 @@
   - name: Debugging GPU Code
     href: debugging-gpu-code.md
   - name: Graphics Diagnostics (Debugging DirectX Graphics)
-# Auto-expanded node
+    href: visual-studio-graphics-diagnostics.md
     items:
-    - name: Graphics Diagnostics (Debugging DirectX Graphics)
-      href: visual-studio-graphics-diagnostics.md
     - name: Overview
       href: overview-of-visual-studio-graphics-diagnostics.md
     - name: Getting Started
@@ -622,10 +524,8 @@
     - name: Graphics Log Document
       href: graphics-log-document.md
     - name: Frame Analysis
-# Auto-expanded node
+      href: graphics-frame-analysis.md
       items:
-      - name: Frame Analysis
-        href: graphics-frame-analysis.md
       - name: 1x1 Viewport Size Variant
         href: 1x1-viewport-size-variant.md
       - name: 0x/2x/4x MSAA Variants
@@ -657,10 +557,8 @@
     - name: Command-Line Capture Tool
       href: command-line-capture-tool.md
     - name: Examples
-# Auto-expanded node
+      href: graphics-diagnostics-examples.md
       items:
-      - name: Examples
-        href: graphics-diagnostics-examples.md
       - name: Capturing Graphics Information
         href: walkthrough-capturing-graphics-information.md
       - name: Capturing Graphics Information Programmatically
@@ -680,15 +578,11 @@
       - name: Use Graphics Diagnostics with an ARM Device
         href: how-to-use-graphics-diagnostics-with-an-arm-device.md
     - name: Reference
-# Auto-expanded node
+      href: reference-programmatic-capture.md
       items:
-      - name: Reference
-        href: reference-programmatic-capture.md
       - name: VsgDbg Class
-# Auto-expanded node
+        href: vsgdbg-class.md
         items:
-        - name: VsgDbg Class
-          href: vsgdbg-class.md
         - name: "VsgDbg (Constructor)"
           href: vsgdbg-vsgdbg-constructor.md
         - name: "~VsgDbg (Destructor)"
@@ -716,57 +610,41 @@
       - name: VSG_NODEFAULT_INSTANCE
         href: vsg-nodefault-instance.md
   - name: Debugging Web Applications and Script
-# Auto-expanded node
+    href: debugging-web-applications-and-script.md
     items:
-    - name: Debugging Web Applications and Script
-      href: debugging-web-applications-and-script.md
     - name: Debugging ASP.NET and AJAX Applications
-# Auto-expanded node
+      href: debugging-aspnet-and-ajax-applications.md
       items:
-      - name: Debugging ASP.NET and AJAX Applications
-        href: debugging-aspnet-and-ajax-applications.md
       - name: Preparing to Debug ASP.NET
-# Auto-expanded node
+        href: preparing-to-debug-aspnet.md
         items:
-        - name: Preparing to Debug ASP.NET
-          href: preparing-to-debug-aspnet.md
         - name: System Requirements
           href: aspnet-debugging-system-requirements.md
         - name: Enable Debugging for ASP.NET Applications
-# Auto-expanded node
+          href: how-to-enable-debugging-for-aspnet-applications.md
           items:
-          - name: Enable Debugging for ASP.NET Applications
-            href: how-to-enable-debugging-for-aspnet-applications.md
           - name: Run the Worker Process Under a User Account
             href: how-to-run-the-worker-process-under-a-user-account.md
         - name: Prerequistes for Remote Debugging Web Applications
-# Auto-expanded node
+          href: prerequistes-for-remote-debugging-web-applications.md
           items:
-          - name: Prerequistes for Remote Debugging Web Applications
-            href: prerequistes-for-remote-debugging-web-applications.md
           - name: Find the Name of the ASP.NET Process
             href: how-to-find-the-name-of-the-aspnet-process.md
       - name: Debugging Web Applications
-# Auto-expanded node
+        href: debugging-web-applications.md
         items:
-        - name: Debugging Web Applications
-          href: debugging-web-applications.md
         - name: Debug Web Applications
           href: how-to-debug-web-applications.md
         - name: Debugging Deployed Web Applications
           href: debugging-deployed-web-applications.md
         - name: Client-Side Script Debugging
-# Auto-expanded node
+          href: client-side-script-debugging.md
           items:
-          - name: Client-Side Script Debugging
-            href: client-side-script-debugging.md
           - name: Limitations on Script Debugging
             href: limitations-on-script-debugging.md
           - name: Attach to Script
-# Auto-expanded node
+            href: how-to-attach-to-script.md
             items:
-            - name: Attach to Script
-              href: how-to-attach-to-script.md
             - name: Script Debugging Disabled
               href: warning-script-debugging-disabled.md
         - name: Debugging a Web Form
@@ -774,15 +652,11 @@
         - name: Debug ASP.NET Exceptions
           href: how-to-debug-aspnet-exceptions.md
     - name: Errors and Troubleshooting
-# Auto-expanded node
+      href: debugging-web-applications-errors-and-troubleshooting.md
       items:
-      - name: Errors and Troubleshooting
-        href: debugging-web-applications-errors-and-troubleshooting.md
       - name: Troubleshooting
-# Auto-expanded node
+        href: debugging-web-applications-troubleshooting.md
         items:
-        - name: Troubleshooting
-          href: debugging-web-applications-troubleshooting.md
         - name: Verify IIS Property Settings
           href: how-to-verify-iis-property-settings.md
       - name: Site Uses IP Address
@@ -798,19 +672,15 @@
       - name: Timeout While Debugging Web Services
         href: error-timeout-while-debugging-web-services.md
       - name: Unable to Start Debugging on the Web Server
-# Auto-expanded node
+        href: error-unable-to-start-debugging-on-the-web-server.md
         items:
-        - name: Unable to Start Debugging on the Web Server
-          href: error-unable-to-start-debugging-on-the-web-server.md
         - name: The Web Server Could Not Find the Requested Resource
           href: error-the-web-server-could-not-find-the-requested-resource.md
         - name: The web server is not configured correctly
           href: error-the-web-server-is-not-configured-correctly.md
   - name: Debugging WCF Services
-# Auto-expanded node
+    href: debugging-wcf-services.md
     items:
-    - name: Debugging WCF Services
-      href: debugging-wcf-services.md
     - name: Limitations on WCF Debugging
       href: limitations-on-wcf-debugging.md
     - name: Step into WCF Services
@@ -818,19 +688,15 @@
     - name: Debug a Self-Hosted WCF Service
       href: how-to-debug-a-self-hosted-wcf-service.md
 - name: Debugging User Interface Reference
-# Auto-expanded node
+  href: debugging-user-interface-reference.md
   items:
-  - name: Debugging User Interface Reference
-    href: debugging-user-interface-reference.md
   - name: Choose Breakpoints Dialog Box
     href: choose-breakpoints-dialog-box.md
   - name: Configure Firewall for Remote Debugging Dialog Box
     href: configure-firewall-for-remote-debugging-dialog-box.md
   - name: Debugging, Options Dialog Box
-# Auto-expanded node
+    href: debugging-options-dialog-box.md
     items:
-    - name: Debugging, Options Dialog Box
-      href: debugging-options-dialog-box.md
     - name: General, Debugging, Options Dialog Box
       href: general-debugging-options-dialog-box.md
     - name: Just-In-Time, Debugging, Options Dialog Box
@@ -856,10 +722,8 @@
   - name: When Breakpoint Is Hit Dialog Box
     href: when-breakpoint-is-hit-dialog-box.md
   - name: Debugging Errors and Warning Dialog Boxes
-# Auto-expanded node
+    href: debugging-errors-and-warning-dialog-boxes.md
     items:
-    - name: Debugging Errors and Warning Dialog Boxes
-      href: debugging-errors-and-warning-dialog-boxes.md
     - name: Assertion Failed Dialog Box
       href: assertion-failed-dialog-box.md
     - name: Cannot Change Value Dialog Box
@@ -911,15 +775,11 @@
 - name: Debug Interface Access SDK
   href: debug-interface-access\TOC.md
 - name: Spy++ Help
-# Auto-expanded node
+  href: spy-increment-help.md
   items:
-  - name: Spy++ Help
-    href: spy-increment-help.md
   - name: Using Spy++
-# Auto-expanded node
+    href: using-spy-increment.md
     items:
-    - name: Using Spy++
-      href: using-spy-increment.md
     - name: Introducing Spy++
       href: introducing-spy-increment.md
     - name: Start Spy++
@@ -935,15 +795,11 @@
     - name: Expand and Collapse Spy++ Trees
       href: how-to-expand-and-collapse-spy-increment-trees.md
   - name: Spy++ Views
-# Auto-expanded node
+    href: spy-increment-views.md
     items:
-    - name: Spy++ Views
-      href: spy-increment-views.md
     - name: Windows View
-# Auto-expanded node
+      href: windows-view.md
       items:
-      - name: Windows View
-        href: windows-view.md
       - name: Use the Finder Tool
         href: how-to-use-the-finder-tool.md
       - name: Search for a Window in Windows View
@@ -951,10 +807,8 @@
       - name: Display Window Properties
         href: how-to-display-window-properties.md
     - name: Messages View
-# Auto-expanded node
+      href: messages-view.md
       items:
-      - name: Messages View
-        href: messages-view.md
       - name: Control Messages View
         href: how-to-control-messages-view.md
       - name: Open Messages View from Find Window
@@ -968,33 +822,25 @@
       - name: Display Message Properties
         href: how-to-display-message-properties.md
     - name: Processes View
-# Auto-expanded node
+      href: processes-view.md
       items:
-      - name: Processes View
-        href: processes-view.md
       - name: Search for a Process in Processes View
         href: how-to-search-for-a-process-in-processes-view.md
       - name: Display Process Properties
         href: how-to-display-process-properties.md
     - name: Threads View
-# Auto-expanded node
+      href: threads-view.md
       items:
-      - name: Threads View
-        href: threads-view.md
       - name: Search for a Thread in Threads View
         href: how-to-search-for-a-thread-in-threads-view.md
       - name: Display Thread Properties
         href: how-to-display-thread-properties.md
   - name: Spy++ Reference
-# Auto-expanded node
+    href: spy-increment-reference.md
     items:
-    - name: Spy++ Reference
-      href: spy-increment-reference.md
     - name: Menu Commands
-# Auto-expanded node
+      href: menu-commands.md
       items:
-      - name: Menu Commands
-        href: menu-commands.md
       - name: Spy Menu Commands
         href: spy-menu-commands.md
       - name: Tree Menu Commands
@@ -1012,10 +858,8 @@
     - name: Font Dialog Box (Microsoft Spy++ Help)
       href: font-dialog-box-microsoft-spy-increment-help.md
     - name: Search Tools for Spy++ Views
-# Auto-expanded node
+      href: search-tools-for-spy-increment-views.md
       items:
-      - name: Search Tools for Spy++ Views
-        href: search-tools-for-spy-increment-views.md
       - name: Find Window Dialog Box
         href: find-window-dialog-box.md
       - name: Window Search Dialog Box
@@ -1027,10 +871,8 @@
       - name: Thread Search Dialog Box
         href: thread-search-dialog-box.md
     - name: Window Properties Dialog Box
-# Auto-expanded node
+      href: window-properties-dialog-box.md
       items:
-      - name: Window Properties Dialog Box
-        href: window-properties-dialog-box.md
       - name: General Tab, Window Properties Dialog Box
         href: general-tab-window-properties-dialog-box.md
       - name: Styles Tab, Window Properties Dialog Box
@@ -1042,10 +884,8 @@
       - name: Process Tab, Window Properties Dialog Box
         href: process-tab-window-properties-dialog-box.md
     - name: Message Options Dialog Box
-# Auto-expanded node
+      href: message-options-dialog-box.md
       items:
-      - name: Message Options Dialog Box
-        href: message-options-dialog-box.md
       - name: Windows Tab, Message Options Dialog Box
         href: windows-tab-message-options-dialog-box.md
       - name: Messages Tab, Message Options Dialog Box
@@ -1055,10 +895,8 @@
     - name: Message Properties Dialog Box
       href: message-properties-dialog-box.md
     - name: Process Properties Dialog Box
-# Auto-expanded node
+      href: process-properties-dialog-box.md
       items:
-      - name: Process Properties Dialog Box
-        href: process-properties-dialog-box.md
       - name: General Tab, Process Properties Dialog Box
         href: general-tab-process-properties-dialog-box.md
       - name: Memory Tab, Process Properties Dialog Box
@@ -1068,17 +906,13 @@
       - name: Space Tab, Process Properties Dialog Box
         href: space-tab-process-properties-dialog-box.md
     - name: Thread Properties Dialog Box
-# Auto-expanded node
+      href: thread-properties-dialog-box.md
       items:
-      - name: Thread Properties Dialog Box
-        href: thread-properties-dialog-box.md
       - name: General Tab, Thread Properties Dialog Box
         href: general-tab-thread-properties-dialog-box.md
     - name: Other Dialog Boxes
-# Auto-expanded node
+      href: other-dialog-boxes.md
       items:
-      - name: Other Dialog Boxes
-        href: other-dialog-boxes.md
       - name: About Microsoft Spy++
         href: about-microsoft-spy-increment.md
       - name: Copyright Notice for Spy++ Help
