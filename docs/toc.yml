@@ -273,7 +273,7 @@
       displayName: Open folder
 # Auto-expanded node
       items:
-        displayName: Open folder
+      - name: Open folder
         href: ide/develop-code-in-visual-studio-without-projects-or-solutions.md
       - name: Customize build and debug tasks
         displayName: makefile tasks.vs.json
