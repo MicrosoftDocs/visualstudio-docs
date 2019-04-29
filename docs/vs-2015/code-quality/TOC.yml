@@ -3,8 +3,10 @@
   expanded: true
   items:
     - name: Analyzing Managed Code Quality
-      href: analyzing-managed-code-quality-by-using-code-analysis.md
+# Auto-expanded node
       items:
+      - name: Analyzing Managed Code Quality
+        href: analyzing-managed-code-quality-by-using-code-analysis.md
         - name: Code Analysis for Managed Code Overview
           href: code-analysis-for-managed-code-overview.md
         - name: "How to: Enable and Disable Automatic Code Analysis"
@@ -18,8 +20,10 @@
         - name: "Walkthrough: Analyzing Managed Code for Code Defects"
           href: walkthrough-analyzing-managed-code-for-code-defects.md
         - name: Suppress Warnings By Using the SuppressMessage Attribute
-          href: suppress-warnings-by-using-the-suppressmessage-attribute.md
+# Auto-expanded node
           items:
+          - name: Suppress Warnings By Using the SuppressMessage Attribute
+            href: suppress-warnings-by-using-the-suppressmessage-attribute.md
             - name: In Source Suppression Overview
               href: in-source-suppression-overview.md
             - name: "How to: Suppress Warnings by Using the Menu Item"
@@ -35,20 +39,26 @@
         - name: "How to: Create a Work Item for a Managed Code Defect"
           href: how-to-create-a-work-item-for-a-managed-code-defect.md
         - name: Code Analysis for Managed Code Warnings
-          href: code-analysis-for-managed-code-warnings.md
+# Auto-expanded node
           items:
+          - name: Code Analysis for Managed Code Warnings
+            href: code-analysis-for-managed-code-warnings.md
             - name: Warnings By CheckId
               href: code-analysis-warnings-for-managed-code-by-checkid.md
             - name: Cryptography Warnings
-              href: cryptography-warnings.md
+# Auto-expanded node
               items:
+              - name: Cryptography Warnings
+                href: cryptography-warnings.md
                 - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
                   href: ca5350-do-not-use-weak-cryptographic-algorithms.md
                 - name: CA5351 Do Not Use Broken Cryptographic Algorithms
                   href: ca5351-do-not-use-broken-cryptographic-algorithms.md
             - name: Design Warnings
-              href: design-warnings.md
+# Auto-expanded node
               items:
+              - name: Design Warnings
+                href: design-warnings.md
                 - name: "CA1000: Do not declare static members on generic types"
                   href: ca1000-do-not-declare-static-members-on-generic-types.md
                 - name: "CA1001: Types that own disposable fields should be disposable"
@@ -174,8 +184,10 @@
                 - name: "CA2210: Assemblies should have valid strong names"
                   href: ca2210-assemblies-should-have-valid-strong-names.md
             - name: Globalization Warnings
-              href: globalization-warnings.md
+# Auto-expanded node
               items:
+              - name: Globalization Warnings
+                href: globalization-warnings.md
                 - name: "CA1300: Specify MessageBoxOptions"
                   href: ca1300-specify-messageboxoptions.md
                 - name: "CA1301: Avoid duplicate accelerators"
@@ -199,8 +211,10 @@
                 - name: "CA2101: Specify marshaling for P/Invoke string arguments"
                   href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
             - name: Interoperability Warnings
-              href: interoperability-warnings.md
+# Auto-expanded node
               items:
+              - name: Interoperability Warnings
+                href: interoperability-warnings.md
                 - name: "CA1400: P/Invoke entry points should exist"
                   href: ca1400-p-invoke-entry-points-should-exist.md
                 - name: "CA1401: P/Invokes should not be visible"
@@ -234,8 +248,10 @@
                 - name: "CA1415: Declare P/Invokes correctly"
                   href: ca1415-declare-p-invokes-correctly.md
             - name: Maintainability Warnings
-              href: maintainability-warnings.md
+# Auto-expanded node
               items:
+              - name: Maintainability Warnings
+                href: maintainability-warnings.md
                 - name: "CA1500: Variable names should not match field names"
                   href: ca1500-variable-names-should-not-match-field-names.md
                 - name: "CA1501: Avoid excessive inheritance"
@@ -249,15 +265,19 @@
                 - name: "CA1506: Avoid excessive class coupling"
                   href: ca1506-avoid-excessive-class-coupling.md
             - name: Mobility Warnings
-              href: mobility-warnings.md
+# Auto-expanded node
               items:
+              - name: Mobility Warnings
+                href: mobility-warnings.md
                 - name: "CA1600: Do not use idle process priority"
                   href: ca1600-do-not-use-idle-process-priority.md
                 - name: "CA1601: Do not use timers that prevent power state changes"
                   href: ca1601-do-not-use-timers-that-prevent-power-state-changes.md
             - name: Naming Warnings
-              href: naming-warnings.md
+# Auto-expanded node
               items:
+              - name: Naming Warnings
+                href: naming-warnings.md
                 - name: "CA1700: Do not name enum values 'Reserved'"
                   href: ca1700-do-not-name-enum-values-reserved.md
                 - name: "CA1701: Resource string compound words should be cased correctly"
@@ -305,8 +325,10 @@
                 - name: "CA1726: Use preferred terms"
                   href: ca1726-use-preferred-terms.md
             - name: Performance Warnings
-              href: performance-warnings.md
+# Auto-expanded node
               items:
+              - name: Performance Warnings
+                href: performance-warnings.md
                 - name: "CA1800: Do not cast unnecessarily"
                   href: ca1800-do-not-cast-unnecessarily.md
                 - name: "CA1802: Use Literals Where Appropriate"
@@ -340,8 +362,10 @@
                 - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
                   href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
             - name: Portability Warnings
-              href: portability-warnings.md
+# Auto-expanded node
               items:
+              - name: Portability Warnings
+                href: portability-warnings.md
                 - name: "CA1900: Value type fields should be portable"
                   href: ca1900-value-type-fields-should-be-portable.md
                 - name: "CA1901: P/Invoke declarations should be portable"
@@ -349,8 +373,10 @@
                 - name: "CA1903: Use only API from targeted framework"
                   href: ca1903-use-only-api-from-targeted-framework.md
             - name: Reliability Warnings
-              href: reliability-warnings.md
+# Auto-expanded node
               items:
+              - name: Reliability Warnings
+                href: reliability-warnings.md
                 - name: "CA2000: Dispose objects before losing scope"
                   href: ca2000-dispose-objects-before-losing-scope.md
                 - name: "CA2001: Avoid calling problematic methods"
@@ -364,8 +390,10 @@
                 - name: "CA2006: Use SafeHandle to encapsulate native resources"
                   href: ca2006-use-safehandle-to-encapsulate-native-resources.md
             - name: Security Warnings
-              href: security-warnings.md
+# Auto-expanded node
               items:
+              - name: Security Warnings
+                href: security-warnings.md
                 - name: "CA2100: Review SQL queries for security vulnerabilities"
                   href: ca2100-review-sql-queries-for-security-vulnerabilities.md
                 - name: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
@@ -463,8 +491,10 @@
                 - name: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader"
                   href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
             - name: Usage Warnings
-              href: usage-warnings.md
+# Auto-expanded node
               items:
+              - name: Usage Warnings
+                href: usage-warnings.md
                 - name: "CA1801: Review unused parameters"
                   href: ca1801-review-unused-parameters.md
                 - name: "CA1806: Do not ignore method results"
@@ -554,8 +584,10 @@
             - name: Code Analysis Policy Errors
               href: code-analysis-policy-errors.md
     - name: Analyzing C/C++ Code Quality
-      href: analyzing-c-cpp-code-quality-by-using-code-analysis.md
+# Auto-expanded node
       items:
+      - name: Analyzing C/C++ Code Quality
+        href: analyzing-c-cpp-code-quality-by-using-code-analysis.md
         - name: "Quick Start: Code Analysis for C/C++"
           href: quick-start-code-analysis-for-c-cpp.md
         - name: Using Rule Sets to Specify the C++ Rules to Run
@@ -567,13 +599,17 @@
         - name: "How to: Set Code Analysis Properties for C/C++ Projects"
           href: how-to-set-code-analysis-properties-for-c-cpp-projects.md
         - name: "Walkthrough: Analyzing C/C++ Code for Defects"
-          href: walkthrough-analyzing-c-cpp-code-for-defects.md
+# Auto-expanded node
           items:
+          - name: "Walkthrough: Analyzing C/C++ Code for Defects"
+            href: walkthrough-analyzing-c-cpp-code-for-defects.md
             - name: Demo Sample
               href: demo-sample.md
         - name: Using SAL Annotations to Reduce C/C++ Code Defects
-          href: using-sal-annotations-to-reduce-c-cpp-code-defects.md
+# Auto-expanded node
           items:
+          - name: Using SAL Annotations to Reduce C/C++ Code Defects
+            href: using-sal-annotations-to-reduce-c-cpp-code-defects.md
             - name: Understanding SAL
               href: understanding-sal.md
             - name: Annotating Function Parameters and Return Values
@@ -593,8 +629,10 @@
         - name: "How to: Specify Additional Code Information by Using __analysis_assume"
           href: how-to-specify-additional-code-information-by-using-analysis-assume.md
         - name: Code Analysis for C/C++ Warnings
-          href: code-analysis-for-c-cpp-warnings.md
+# Auto-expanded node
           items:
+          - name: Code Analysis for C/C++ Warnings
+            href: code-analysis-for-c-cpp-warnings.md
             - name: C1250
               href: c1250.md
             - name: C1251
@@ -1168,8 +1206,10 @@
             - name: C28351
               href: c28351.md
     - name: Using Rule Sets to Group Code Analysis Rules
-      href: using-rule-sets-to-group-code-analysis-rules.md
+# Auto-expanded node
       items:
+      - name: Using Rule Sets to Group Code Analysis Rules
+        href: using-rule-sets-to-group-code-analysis-rules.md
         - name: "Walkthrough: Configuring and Using a Custom Rule Set"
           href: walkthrough-configuring-and-using-a-custom-rule-set.md
         - name: "How to: Configure Code Analysis for a Managed Code Project"
@@ -1181,15 +1221,19 @@
         - name: "How to: Specify Rule Sets for Multiple Projects in a Solution"
           href: how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md
         - name: Creating Custom Rule Sets
-          href: creating-custom-code-analysis-rule-sets.md
+# Auto-expanded node
           items:
+          - name: Creating Custom Rule Sets
+            href: creating-custom-code-analysis-rule-sets.md
             - name: "How to: Create a Custom Rule Set"
               href: how-to-create-a-custom-rule-set.md
             - name: Working in the Rule Set Editor
               href: working-in-the-code-analysis-rule-set-editor.md
         - name: Code analysis rule set reference
-          href: code-analysis-rule-set-reference.md
+# Auto-expanded node
           items:
+          - name: Code analysis rule set reference
+            href: code-analysis-rule-set-reference.md
             - name: All Rules rule set
               href: all-rules-rule-set.md
             - name: Basic Correctness Rules rule set for managed code
@@ -1217,8 +1261,10 @@
             - name: Security Rules rule set for managed code
               href: security-rules-rule-set-for-managed-code.md
     - name: Code Analysis Application Errors
-      href: code-analysis-application-errors.md
+# Auto-expanded node
       items:
+      - name: Code Analysis Application Errors
+        href: code-analysis-application-errors.md
         - name: CA0001
           href: ca0001.md
         - name: CA0051
@@ -1274,11 +1320,15 @@
         - name: FxCopCmd Errors
           href: fxcopcmd-errors.md
     - name: Enhancing Code Quality with Team Project Check-in Policies
-      href: enhancing-code-quality-with-team-project-check-in-policies.md
+# Auto-expanded node
       items:
+      - name: Enhancing Code Quality with Team Project Check-in Policies
+        href: enhancing-code-quality-with-team-project-check-in-policies.md
         - name: Creating and Using Code Analysis Check-In Policies
-          href: creating-and-using-code-analysis-check-in-policies.md
+# Auto-expanded node
           items:
+          - name: Creating and Using Code Analysis Check-In Policies
+            href: creating-and-using-code-analysis-check-in-policies.md
             - name: "How to: Create or Update Standard Code Analysis Check-in Policies"
               href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
             - name: Implementing Custom Check-in Policies for Managed Code
@@ -1288,8 +1338,10 @@
             - name: Version Compatibility for Code Analysis Check-In Policies
               href: version-compatibility-for-code-analysis-check-in-policies.md
 - name: Measuring Complexity and Maintainability of Managed Code
-  href: measuring-complexity-and-maintainability-of-managed-code.md
+# Auto-expanded node
   items:
+  - name: Measuring Complexity and Maintainability of Managed Code
+    href: measuring-complexity-and-maintainability-of-managed-code.md
     - name: Code Metrics Values
       href: code-metrics-values.md
     - name: "How to: Generate Code Metrics Data"
@@ -1297,8 +1349,10 @@
     - name: Working with Code Metrics Data
       href: working-with-code-metrics-data.md
 - name: Troubleshooting Quality Tools
-  href: troubleshooting-quality-tools.md
+# Auto-expanded node
   items:
+  - name: Troubleshooting Quality Tools
+    href: troubleshooting-quality-tools.md
     - name: Troubleshooting Code Analysis Issues
       href: troubleshooting-code-analysis-issues.md
     - name: Troubleshooting Code Metrics Issues

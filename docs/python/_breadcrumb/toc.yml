@@ -1,11 +1,15 @@
 - name: Docs
   tocHref: /
-  topicHref: /
+# Auto-expanded node
   items:
+    tocHref: /
+    topicHref: /
   - name: Visual Studio
     tocHref: /visualstudio/
-    topicHref: /visualstudio/ide/
+# Auto-expanded node
     items:
+      tocHref: /visualstudio/
+      topicHref: /visualstudio/ide/
     - name: Python
       tocHref: /visualstudio/ide/quickstart-python
       topicHref: /visualstudio/python/overview-of-python-tools-for-visual-studio

@@ -1,7 +1,9 @@
 - name: Docs
   tocHref: /
-  topicHref: /
+# Auto-expanded node
   items:
+    tocHref: /
+    topicHref: /
   - name: Visual Studio
     tocHref: /visualstudio/
     topicHref: /visualstudio/

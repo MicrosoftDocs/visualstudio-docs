@@ -1,11 +1,15 @@
 - name: Docs
   tocHref: /
-  topicHref: /
+# Auto-expanded node
   items:
+    tocHref: /
+    topicHref: /
   - name: Visual Studio
     tocHref: /visualstudio/
-    topicHref: /visualstudio/ide/
+# Auto-expanded node
     items:
+      tocHref: /visualstudio/
+      topicHref: /visualstudio/ide/
     - name: Code Quality
       tocHref: /visualstudio/code-quality/
       topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
@@ -17,8 +21,10 @@
       topicHref: /visualstudio/data-tools/index
     - name: Debugging
       tocHref: /visualstudio/debugger/ 
-      topicHref: /visualstudio/debugger/index
+# Auto-expanded node
       items:
+        tocHref: /visualstudio/debugger/ 
+        topicHref: /visualstudio/debugger/index
       - name: Debug Interface Access SDK
         tocHref: /visualstudio/debugger/debug-interface-access/
         topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
@@ -33,15 +39,19 @@
       topicHref: /visualstudio/designers/designing-user-interfaces
     - name: Extensibility
       tocHref: /visualstudio/extensibility/
-      topicHref: /visualstudio/extensibility/index
+# Auto-expanded node
       items:
+        tocHref: /visualstudio/extensibility/
+        topicHref: /visualstudio/extensibility/index
       - name: Inside the Visual Studio SDK
         tocHref: /visualstudio/extensibility/internals/
         topicHref: /visualstudio/extensibility/internals/inside-the-visual-studio-sdk
       - name: Debugger Extensibility
         tocHref: /visualstudio/extensibility/debugger/
-        topicHref: /visualstudio/extensibility/debugger/visual-studio-debugger-extensibility
+# Auto-expanded node
         items:
+          tocHref: /visualstudio/extensibility/debugger/
+          topicHref: /visualstudio/extensibility/debugger/visual-studio-debugger-extensibility
         - name: Reference
           tocHref: /visualstudio/extensibility/debugger/reference/
           topicHref: /visualstudio/extensibility/debugger/reference/reference-visual-studio-debugging-apis
@@ -71,8 +81,10 @@
       topicHref: /visualstudio/rtvs/index
     - name: Office and SharePoint
       tocHref: /visualstudio/vsto/
-      topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio      
+# Auto-expanded node
       items:
+        tocHref: /visualstudio/vsto/
+        topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio      
       - name: SharePoint
         tocHref: /visualstudio/sharepoint/
         topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
