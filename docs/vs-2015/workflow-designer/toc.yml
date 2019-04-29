@@ -1,12 +1,18 @@
 - name: Developing Applications with the Workflow Designer
-  href: developing-applications-with-the-workflow-designer.md
+# Auto-expanded node
   items:
+  - name: Developing Applications with the Workflow Designer
+    href: developing-applications-with-the-workflow-designer.md
   - name: Using the Workflow Designer
-    href: using-the-workflow-designer.md
+# Auto-expanded node
     items:
+    - name: Using the Workflow Designer
+      href: using-the-workflow-designer.md
     - name: Creating a Workflow Project
-      href: creating-a-workflow-project.md
+# Auto-expanded node
       items:
+      - name: Creating a Workflow Project
+        href: creating-a-workflow-project.md
       - name: Create a Workflow Console Application
         href: how-to-create-a-workflow-console-application.md
       - name: Create a WCF Workflow Service Application
@@ -36,11 +42,15 @@
     - name: Add comments to a workflow in the Workflow Designer
       href: how-to-add-comments-to-a-workflow-in-the-workflow-designer.md
   - name: Using the Activity Designers
-    href: using-the-activity-designers.md
+# Auto-expanded node
     items:
+    - name: Using the Activity Designers
+      href: using-the-activity-designers.md
     - name: Control Flow
-      href: control-flow-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Control Flow
+        href: control-flow-activity-designers.md
       - name: DoWhile
         href: dowhile-activity-designer.md
       - name: ForEach\<T>
@@ -62,8 +72,10 @@
       - name: While
         href: while-activity-designer.md
     - name: Flowchart
-      href: flowchart-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Flowchart
+        href: flowchart-activity-designers.md
       - name: Flowchart
         href: flowchart-activity-designer.md
       - name: FlowDecision
@@ -71,8 +83,10 @@
       - name: FlowSwitch\<T>
         href: flowswitch-t-activity-designer.md
     - name: State Machine
-      href: state-machine-activity-designers.md
+# Auto-expanded node
       items:
+      - name: State Machine
+        href: state-machine-activity-designers.md
       - name: StateMachine
         href: statemachine-activity-designer.md
       - name: State
@@ -82,8 +96,10 @@
       - name: Transition
         href: transition-activity-designer.md
     - name: Messaging
-      href: messaging-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Messaging
+        href: messaging-activity-designers.md
       - name: CorrelationScope
         href: correlationscope-activity-designer.md
       - name: InitializeCorrelation
@@ -99,15 +115,19 @@
       - name: TransactedReceiveScope
         href: transactedreceivescope-activity-designer.md
     - name: Runtime
-      href: runtime-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Runtime
+        href: runtime-activity-designers.md
       - name: Persist
         href: persist-activity-designer.md
       - name: TerminateWorkflow
         href: terminateworkflow-activity-designer.md
     - name: Primitives
-      href: primitives-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Primitives
+        href: primitives-activity-designers.md
       - name: Assign
         href: assign-activity-designer.md
       - name: Delay
@@ -119,8 +139,10 @@
       - name: WriteLine
         href: writeline-activity-designer.md
     - name: Transaction
-      href: transaction-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Transaction
+        href: transaction-activity-designers.md
       - name: CancellationScope
         href: cancellationscope-activity-designer.md
       - name: CompensableActivity
@@ -132,8 +154,10 @@
       - name: TransactionScope
         href: transactionscope-activity-designer.md
     - name: Collection
-      href: collection-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Collection
+        href: collection-activity-designers.md
       - name: AddToCollection\<T>
         href: addtocollection-t-activity-designer.md
       - name: ClearCollection\<T>
@@ -143,8 +167,10 @@
       - name: RemoveFromCollection\<T>
         href: removefromcollection-t-activity-designer.md
     - name: Error Handling
-      href: error-handling-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Error Handling
+        href: error-handling-activity-designers.md
       - name: Rethrow
         href: rethrow-activity-designer.md
       - name: Throw
@@ -152,13 +178,17 @@
       - name: TryCatch
         href: trycatch-activity-designer.md
     - name: Migration
-      href: migration-activity-designers.md
+# Auto-expanded node
       items:
+      - name: Migration
+        href: migration-activity-designers.md
       - name: Interop
         href: interop-activity-designer.md
   - name: Debugging Workflows with the Workflow Designer
-    href: debugging-workflows-with-the-workflow-designer.md
+# Auto-expanded node
     items:
+    - name: Debugging Workflows with the Workflow Designer
+      href: debugging-workflows-with-the-workflow-designer.md
     - name: Invoke the Workflow Debugger
       href: how-to-invoke-the-workflow-debugger.md
     - name: Set Breakpoints in Workflows
@@ -168,8 +198,10 @@
     - name: Unsupported debugging scenarios in the Workflow Designer
       href: unsupported-debugging-scenarios-in-the-workflow-designer.md
   - name: Workflow Designer UI Help
-    href: workflow-designer-ui-help.md
+# Auto-expanded node
     items:
+    - name: Workflow Designer UI Help
+      href: workflow-designer-ui-help.md
     - name: Browse and Select a .NET Type Dialog Box
       href: browse-and-select-a-dotnet-type-dialog-box.md
     - name: CorrelatesOn Definition Dialog Box
@@ -193,11 +225,15 @@
     - name: Error Messages
       href: error-messages-in-workflow-designer.md
   - name: Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework
-    href: developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md
+# Auto-expanded node
     items:
+    - name: Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework
+      href: developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md
     - name: Debugging Legacy Workflows
-      href: debugging-legacy-workflows.md
+# Auto-expanded node
       items:
+      - name: Debugging Legacy Workflows
+        href: debugging-legacy-workflows.md
       - name: Debug ASP.NET-Based Workflows (Legacy)
         href: how-to-debug-aspnet-based-workflows-legacy.md
       - name: Set Breakpoints in Workflows (Legacy)
@@ -213,13 +249,17 @@
       - name: Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)
         href: invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md
     - name: Using the Legacy Workflow Designer
-      href: using-the-legacy-workflow-designer.md
+# Auto-expanded node
       items:
+      - name: Using the Legacy Workflow Designer
+        href: using-the-legacy-workflow-designer.md
       - name: Visual Studio Workflow Windows (Legacy)
         href: visual-studio-workflow-windows-legacy.md
       - name: Creating Legacy Workflow Projects
-        href: creating-legacy-workflow-projects.md
+# Auto-expanded node
         items:
+        - name: Creating Legacy Workflow Projects
+          href: creating-legacy-workflow-projects.md
         - name: Create a Workflow Activity Library (Legacy)
           href: how-to-create-a-workflow-activity-library-legacy.md
         - name: Create an Empty Workflow Project (Legacy)
@@ -241,8 +281,10 @@
       - name: Sequential Workflow Views (Legacy)
         href: sequential-workflow-views-legacy.md
       - name: Legacy Workflow Activities
-        href: legacy-workflow-activities.md
+# Auto-expanded node
         items:
+        - name: Legacy Workflow Activities
+          href: legacy-workflow-activities.md
         - name: Create a Declarative Rule Condition (Legacy)
           href: how-to-create-a-declarative-rule-condition-legacy.md
         - name: Create a PolicyActivity Rule Set (Legacy)
@@ -262,8 +304,10 @@
       - name: Using the Legacy Activity Designer
         href: using-the-legacy-activity-designer.md
       - name: Legacy Designer for Windows Workflow Foundation UI Help
-        href: legacy-designer-for-windows-workflow-foundation-ui-help.md
+# Auto-expanded node
         items:
+        - name: Legacy Designer for Windows Workflow Foundation UI Help
+          href: legacy-designer-for-windows-workflow-foundation-ui-help.md
         - name: Bind to an Activity's Property Dialog Box (Legacy)
           href: bind-to-an-activity-s-property-dialog-box-legacy.md
         - name: Browse and Select a .NET Type Dialog Box (Legacy)
