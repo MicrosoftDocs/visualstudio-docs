@@ -7384,6 +7384,26 @@
             "source_path": "docs/containers/vs-azure-tools-docker-troubleshooting-docker-errors.md",
             "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/vs-2015/index.md",
+            "redirect_url": "/visualstudio/welcome-to-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/install/install-visual-studio.md",
+            "redirect_url": "/visualstudio/install/install-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/ide/index.md",
+            "redirect_url": "/visualstudio/welcome-to-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/ide/whats-new-in-visual-studio.md",
+            "redirect_url": "/visualstudio/what-s-new-in-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
         }
     ]
 }
