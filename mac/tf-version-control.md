@@ -3,7 +3,7 @@ title: "Team Foundation Version Control (TFVC)"
 description: "Connecting from Visual Studio for Mac to Team Foundation Server/Azure DevOps with Team Foundation Version Control (TFVC)."
 author: conceptdev
 ms.author: crdun
-ms.date: 04/04/2019
+ms.date: 04/28/2019
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
@@ -17,7 +17,7 @@ Git is supported in Visual Studio for Mac and is the default option for reposito
 
 Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops) (TFVC), a centralized version control system.
 
-Visual Studio for Mac provides full support for Git repositories, but requires some workarounds to work with TFVC. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC.
+Visual Studio for Mac provides full support for Git repositories, but requires some workarounds to work with TFVC. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC:
 
 * [Use Visual Studio Code and the Azure Repos extension, for a graphical UI](#use-visual-studio-code-and-the-azure-repos-extension)
 * [Connect to your repo using the Team Explorer Everywhere Command Line Client (TEE-CLC)](#connecting-using-the-team-explorer-everywhere-command-line-client)
@@ -27,7 +27,7 @@ The rest of this article walks you through the options listed above.
 
 ## Requirements
 
-* Visual Studio Community, Professional, or Enterprise for Mac version 7.8 or later.
+* Visual Studio Community, Professional, or Enterprise for Mac version 7.8 and later.
 * Azure DevOps Services, Team Foundation Server 2013 and later, or Azure DevOps Server 2018 and later.
 * A project in Azure DevOps Services or Team Foundation Server/Azure DevOps Server, configured to use Team Foundation Version Control.
 
@@ -78,7 +78,7 @@ tf workspace -new MyWorkspace -collection:https://dev.azure.com/MyOrganization
 
 The `TF_AUTO_SAVE_CREDENTIALS` environment setting is used to save your credentials so you aren't prompted to enter them multiple times. When prompted for a user name, use the personal access token you created in the previous section and use a blank password.
 
-Now, to create a mapping of your source files to a local folder, you'll use the `tf workfold` command. The following example will map a folder named "WebApp.Services" from the "MyRepository" TFVC project and set it up to be copied into the local ~/Projects/ folder (i.e. a "Projects" folder in the current users's home folder).
+To create a mapping of your source files to a local folder, you'll use the `tf workfold` command. The following example will map a folder named "WebApp.Services" from the "MyRepository" TFVC project and set it up to be copied into the local ~/Projects/ folder (i.e. a "Projects" folder in the current users's home folder).
 
 ```bash
 tf workfold -map $/MyRepository/WebApp.Services -workspace:MyWorkspace ~/Projects/
