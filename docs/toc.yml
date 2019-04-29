@@ -616,12 +616,9 @@
       href: xml-tools/xml-tools-in-visual-studio.md
     - name: Develop international apps
       displayName: Globalization localization world-ready
-# Auto-expanded node
-      items:
-        displayName: Globalization localization world-ready
-        href: ide/globalizing-and-localizing-applications.md
-      - name: Bidirectional languages
-        href: ide/creating-applications-in-bi-directional-languages.md
+      href: ide/globalizing-and-localizing-applications.md
+    - name: Bidirectional languages
+      href: ide/creating-applications-in-bi-directional-languages.md
     - name: Additional tutorials
       items:
       - name: Create a WPF app with C# or Visual Basic
