@@ -20,7 +20,8 @@ ms.workload:
 ---
 # CustomBuild task
 
-Wraps the Visual C++ compiler tool, cmd.exe.
+Wraps the Visual C++ compiler tool, cmd.exe. 
+This class derives from [TrackedVCToolTask](../msbuild/trackedvctooltask-base-class.md).
 
 ## Parameters
 
