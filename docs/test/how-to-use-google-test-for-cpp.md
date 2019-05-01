@@ -1,6 +1,6 @@
 ---
 title: "How to use Google Test for C++"
-ms.date: 04/26/2019
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: markl
@@ -23,7 +23,7 @@ In Visual Studio 2017 and later, Google Test is integrated into the Visual Studi
 2. Set **Language** to **C++** and type **test** in the search box. From the results list, choose **Google Test Project**.
 3. Give the test project a name and click **OK**.
 
-![New Google Test Project](media/cpp-gtest-new-project-vs2019.png)
+![New Google Test Project](media/vs-2019/cpp-gtest-new-project-vs2019.png)
 
 ::: moniker-end
 

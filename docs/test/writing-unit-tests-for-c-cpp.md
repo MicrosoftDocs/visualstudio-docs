@@ -1,6 +1,6 @@
 ---
 title: "Write unit tests for C/C++"
-ms.date: 04/26/2019
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: "mblome"
 manager: markl
@@ -111,7 +111,7 @@ For best practices related to unit testing, see [Unit test basics](unit-test-bas
 
 ## Use CodeLens
 
-**Visual Studio 2017 version 15.7 and later (Professional and Enterprise editions only)**
+**Visual Studio 2017 and later (Professional and Enterprise editions)**
 
 [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to quickly see the status of a unit test without leaving the code editor. You can initialize CodeLens for a C++ unit test project in any of these ways:
 

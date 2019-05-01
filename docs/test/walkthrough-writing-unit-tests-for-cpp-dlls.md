@@ -1,9 +1,9 @@
 ---
 title: "How to: Write unit tests for C++ DLLs"
-ms.date: 11/04/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -32,7 +32,8 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 1. On the **File** menu, choose **New** > **Project**.
 
-     In the dialog box, expand **Installed** > **Templates** > **Visual C++** > **Test**.
+     **Visual Studio 2017 and earlier**: Expand **Installed** > **Templates** > **Visual C++** > **Test**.
+     **Visual Studio 2019**: Set **Language** to C++ and type "test" into the search box.
 
      Choose the **Native Unit Test Project** template, or whatever installed framework you prefer. If you choose another template such as Google Test or Boost.Test, the basic principles are the same although some details will differ.
 
@@ -79,7 +80,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## <a name="create_dll_project"></a> Create a DLL project
 
-1. Create a **Visual C++** project by using the **Win32 Project** template.
+1. Create a C++ project by using the **Win32 Project** template. (Visual Studio 2019: Use **Console App**.)
 
      In this walkthrough, the project is named `RootFinder`.
 
