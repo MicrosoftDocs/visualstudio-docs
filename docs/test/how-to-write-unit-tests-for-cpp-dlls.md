@@ -58,6 +58,8 @@ author: mikeblome
 
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
 
+      ::: moniker-end
+
       ::: moniker range="vs-2017"
 
       1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.
@@ -90,6 +92,8 @@ author: mikeblome
 
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
 
+      ::: moniker-end
+      
       ::: moniker range="vs-2017"
 
       1. On the **File** menu, choose **New** > **Project** > **Visual C++** > **Test** > **C++ Unit Test Project**.

@@ -77,7 +77,7 @@ Start by creating a new test project. On the **File** menu, choose **New** > **P
 
 In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **New Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "DLL" into the search box. From the results list, choose **Unit Test App (Universal Windows - C++/CX)**.
 
-![Create the RooterLib project](../test/media/vs-2019/cpp-new-uwp-test-project-vs2019.png.png)
+![Create the RooterLib project](../test/media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
 
 ::: moniker-end
 
