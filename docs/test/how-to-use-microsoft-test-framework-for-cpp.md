@@ -1,9 +1,9 @@
 ---
 title: "Use the Microsoft Unit Testing Framework for C++"
-ms.date: 11/15/2017
+ms.date: 04/26/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome

@@ -1,9 +1,9 @@
 ---
 title: "Write unit tests for C/C++"
-ms.date: 10/09/2018
+ms.date: 04/26/2019
 ms.topic: conceptual
 ms.author: "mblome"
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -24,11 +24,11 @@ Visual Studio includes these C++ test frameworks with no additional downloads re
 
 In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
-**Visual Studio 2017 version 15.7 and later (Professional and Enterprise)**
+**Visual Studio 2017 and later (Professional and Enterprise)**
 
 C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md).
 
-**Visual Studio 2017 version 15.5 and later**
+**Visual Studio 2017 and later (all editions)**
 
 - **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution via the **Add New Project** right-click menu on the solution node in **Solution Explorer**, and options you can configure via **Tools** > **Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
 
