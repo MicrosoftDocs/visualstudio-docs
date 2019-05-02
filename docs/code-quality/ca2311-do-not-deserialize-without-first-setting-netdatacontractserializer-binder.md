@@ -100,26 +100,34 @@ public class ExampleClass
 ```vb
 Imports System
 Imports System.IO
-Imports System.Runtime.Serialization.Formatters.Binary
+Imports System.Runtime.Serialization
 
-<Serializable()>
+<DataContract()>
 Public Class BookRecord
+    <DataMember()>
     Public Property Title As String
+
+    <DataMember()>
     Public Property Author As String
+
+    <DataMember()>
     Public Property Location As AisleLocation
 End Class
 
-<Serializable()>
+<DataContract()>
 Public Class AisleLocation
+    <DataMember()>
     Public Property Aisle As Char
+
+    <DataMember()>
     Public Property Shelf As Byte
 End Class
 
 Public Class ExampleClass
     Public Function DeserializeBookRecord(bytes As Byte()) As BookRecord
-        Dim formatter As BinaryFormatter = New BinaryFormatter()
+        Dim serializer As NetDataContractSerializer = New NetDataContractSerializer()
         Using ms As MemoryStream = New MemoryStream(bytes)
-            Return CType(formatter.Deserialize(ms), BookRecord)
+            Return CType(serializer.Deserialize(ms), BookRecord)
         End Using
     End Function
 End Class
