@@ -10,19 +10,20 @@ monikerRange: vs-2019
 ---
 # How to: View and diagnose containers in Visual Studio
 
-You can view what's going on inside the containers that host your app by using the **Containers** window. If you're used to using the command prompt to run Docker commands to view and diagnose what's going on with your containers, this window provides a more convenient way to monitor your containers without leaving the VS IDE.
+You can view what's going on inside the containers that host your app by using the **Containers** window. If you're used to using the command prompt to run Docker commands to view and diagnose what's going on with your containers, this window provides a more convenient way to monitor your containers without leaving the Visual Studio IDE.
 
 > [!NOTE]
 > The Containers window is currently available as a Preview extension that you can [download](https://aka.ms/vscontainerspreview) for Visual Studio 2019.
 
 ## Prerequisities
 
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload
-- Install the [Containers window extension](https://aka.ms/vscontainerspreview).
+- Install the [Containers window extension](https://aka.ms/vscontainerspreview)
 
 ## View information about your containers
 
-To view your containers in Visual Studio, open the **Containers** window (from the main menu, that's **View** > **Other Windows** > **Containers**).  The **Containers** window appears.
+The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose **View > Other Windows > Containers**. You can also open the **Containers** window from the main menu. Use the menu path  **View** > **Other Windows** > **Containers**.  
 
 ![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-environment-vars.png)
 
@@ -33,12 +34,12 @@ On the left side, you see the list of containers, where you can see the friendly
 
 ## View environment variables
 
-The environment variables shown here reflect the environment on the container. For your app's container, you can set these variables in the Dockerfile, in a .env file, or by using the -e option when you start a container using a Docker command.
+The **Environment** tab shows the environment variables in the container. For your app's container, you can set these variables in the Dockerfile, in a .env file, or by using the -e option when you start a container using a Docker command.
 
 ![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-environment-vars.png)
 
 > [!NOTE]
-> Any changes to the environment variables ... 
+> Any changes to the environment variables aren't reflected in real time. To refresh the environment variable pane, use the **Refresh** button on the **Containers** window.
 
 ## View port mappings
 
@@ -46,17 +47,15 @@ On the **Ports** tab, you can check the port mappings that are in effect for you
 
 ![Screenshot of Ports tab in Containers window](media/view-and-diagnose-containers/container-ports.png)
 
+Well-known ports are linked, so if there's content available on a port, you can click on them to open the browser.
+
 ## View logs
 
-To view the output of your app running in the container, set the Configuration to **Release**, right-click on the Dockerfile in **Solution Explorer**, open a command prompt, and start the container by using the docker command:
-
-```cmd
-docker run -d --name <container-name> <image-repository:image-tag>
-```
-
-The `container-name` in the command can be anything of your choosing. The `image-repository` and `image-tag` values specify the image to use. For example, if the project is `LogIt`, and you used **Build Docker Image** to build the image, the repository name and tag are `logit:latest`. You can use the command `docker image list` to view available images and find the one you want.
+The **Logs** tab shows the stdout and stderr streams on a container.  By default, it streams the logs, but you can disable that by choosing the **Stop** button on the tab.
 
 ![Screenshot of Logs tab in Containers window](media/view-and-diagnose-containers/containers-logs.jpg)
+
+To clear the logs, use the **Clear** button on the **Logs** tab.  To get all the logs, use the **Refresh** button.
 
 ## View the filesystem
 
@@ -64,9 +63,9 @@ On the **Files** tab, you can view the container's filesystem, including the app
 
 ![Screenshot of Files tab in Containers window](media/view-and-diagnose-containers/container-filesystem.png)
 
-To open files in Visual Studio, browse to the file and double-click it. Visual Studio opens files in read-only mode.
+To open files in Visual Studio, browse to the file and double-click it, or right-click and choose **Open**. Visual Studio opens files in read-only mode.
 
-By viewing the folders and files in the container, you can investigate issues with your Dockerfile, your container images, and any other configuration that affects your container's file structure.
+Using the Files tab, you can view application logs such as IIS logs, configuration files, and other content files in your container's filesystem.
 
 ## Start, stop, and remove containers
 
