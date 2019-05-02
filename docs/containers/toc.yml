@@ -24,6 +24,8 @@
       href: hosting-web-apps-in-docker.md
     - name: Deploy to Azure App Service
       href: deploy-app-service.md
+    - name: View and diagnose containers
+      href: view-and-diagnose-containers.md
     - name: Configure Container Tools
       href: container-tools-configure.md
   - name: Troubleshooting
