@@ -117,9 +117,9 @@ Targets must be ordered if the input to one target depends on the output of anot
 4. Before the target is executed or skipped, its `DependsOnTargets` targets are run, unless the `Condition` attribute is applied to the target and evaluates to `false`.
 
    > [!NOTE]
-   > A target is considered skipped if it's not executed because its output items are up-to-date (see [incremental build](../msbuild/incremental-builds.md)).
+   > A target is considered skipped if it is not executed because its output items are up-to-date (see [incremental build](../msbuild/incremental-builds.md)). This check is done just before executing the tasks inside target, and does not affect the order of execution of targets.
 
-5. Before the target is executed or skipped, any other target that lists the current target in a `BeforeTargets` attribute is run.
+5. Before the target is executed or skipped, any other target that lists the target in a `BeforeTargets` attribute is run.
 
 6. Before the target is executed, its `Inputs` attribute and `Outputs` attribute are compared. If MSBuild determines that any output files are out of date with respect to the corresponding input file or files, then MSBuild executes the target. Otherwise, MSBuild skips the target.
 
