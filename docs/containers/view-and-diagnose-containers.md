@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.topic: conceptual
 ms.date: 05/06/2019
 ms.technology: vs-azure
+monikerRange: vs-2019
 ---
 # How to: View and diagnose containers in Visual Studio
 
@@ -45,13 +46,25 @@ On the **Ports** tab, you can check the port mappings that are in effect for you
 
 ![Screenshot of Ports tab in Containers window](media/view-and-diagnose-containers/container-ports.png)
 
+## View logs
+
+To view the output of your app running in the container, set the Configuration to **Release**, right-click on the Dockerfile in **Solution Explorer**, open a command prompt, and start the container by using the docker command:
+
+```cmd
+docker run -d --name <container-name> <image-repository:image-tag>
+```
+
+The `container-name` in the command can be anything of your choosing. The `image-repository` and `image-tag` values specify the image to use. For example, if the project is `LogIt`, and you used **Build Docker Image** to build the image, the repository name and tag are `logit:latest`. You can use the command `docker image list` to view available images and find the one you want.
+
 ## View the filesystem
 
 On the **Files** tab, you can view the container's filesystem, including the app folder that contains your project.
 
 ![Screenshot of Files tab in Containers window](media/view-and-diagnose-containers/container-filesystem.png)
 
-You can use this information to investigate problems with the Dockerfile, your container images, and any other configuration that affects your container.
+To open files in Visual Studio, browse to the file and double-click it. Visual Studio opens files in read-only mode.
+
+By viewing the folders and files in the container, you can investigate issues with your Dockerfile, your container images, and any other configuration that affects your container's file structure.
 
 ## Start, stop, and remove containers
 
