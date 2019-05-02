@@ -10,6 +10,9 @@ dev_langs:
  - VB
 ms.workload:
   - "multiple"
+f1_keywords:
+  - "CA2315"
+  - "DoNotUseInsecureDeserializerObjectStateFormatter"
 ---
 # CA2315: Do not use insecure deserializer ObjectStateFormatter
 

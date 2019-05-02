@@ -10,6 +10,9 @@ dev_langs:
  - VB
 ms.workload:
   - "multiple"
+f1_keywords:
+  - "CA2311"
+  - "DoNotDeserializeWithoutFirstSettingNetDataContractSerializerBinder"
 ---
 # CA2311: Do not deserialize without first setting NetDataContractSerializer.Binder
 
@@ -39,8 +42,8 @@ This rule finds <xref:System.Runtime.Serialization.NetDataContractSerializer?dis
   - <xref:System.Xml.Serialization.XmlSerializer?displayProperty=nameWithType>
   - Newtonsoft Json.NET - Use TypeNameHandling.None. If you must use another value for TypeNameHandling, restrict deserialized types to an expected list with a custom ISerializationBinder.
   - Protocol Buffers
-- Make the serialized data tamper-proof. After serialization, cryptographically sign the serialized data. Before deserialization, validate the cryptographic signature. Protect the cryptographic key from being disclosed, and design for key rotations.
-- Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with <xref:System.Runtime.Serialization.NetDataContractSerializer>, set the <xref:System.Runtime.Serialization.NetDataContractSerializer.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> method, if the type is unexpected then throw an exception.
+- Make the serialized data tamper-proof. After serialization, cryptographically sign the serialized data. Before deserialization, validate the cryptographic signature. Protect the cryptographic key from being disclosed and design for key rotations.
+- Restrict deserialized types. Implement a custom <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>. Before deserializing with <xref:System.Runtime.Serialization.NetDataContractSerializer>, set the <xref:System.Runtime.Serialization.NetDataContractSerializer.Binder> property to an instance of your custom <xref:System.Runtime.Serialization.SerializationBinder>. In the overridden <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> method, if the type is unexpected, throw an exception.
 
 ## When to suppress warnings
 

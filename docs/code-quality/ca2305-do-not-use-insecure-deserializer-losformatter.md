@@ -10,6 +10,9 @@ dev_langs:
  - VB
 ms.workload:
   - "multiple"
+f1_keywords:
+  - "CA2305"
+  - "DoNotUseInsecureDeserializerLosFormatter"
 ---
 # CA2305: Do not use insecure deserializer LosFormatter
 

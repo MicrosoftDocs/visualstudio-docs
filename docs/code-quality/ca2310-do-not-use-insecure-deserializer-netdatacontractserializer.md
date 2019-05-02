@@ -10,6 +10,9 @@ dev_langs:
  - VB
 ms.workload:
   - "multiple"
+f1_keywords:
+  - "CA2310"
+  - "DoNotUseInsecureDeserializerNetDataContractSerializer"
 ---
 # CA2310: Do not use insecure deserializer NetDataContractSerializer
 
