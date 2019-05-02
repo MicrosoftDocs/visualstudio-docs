@@ -106,7 +106,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 
     Targets that list the conditional target in `BeforeTargets` or `AfterTargets` still execute in the prescribed order
 
-4. Before a target is executed or skipped, if its `Condition` attribute was absent or did not evaluate to `false`, its `DependsOnTargets` targets are run.
+4. Before a target is executed (or skipped if it's [up to date](../msbuild/incremental-builds.md)), if its `Condition` attribute was absent or did not evaluate to `false`, its `DependsOnTargets` targets are run.
 
 5. Before a target is executed or skipped, any target that lists it in a `BeforeTargets` attribute is run.
 
