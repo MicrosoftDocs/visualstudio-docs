@@ -56,6 +56,8 @@ docker run -d --name <container-name> <image-repository:image-tag>
 
 The `container-name` in the command can be anything of your choosing. The `image-repository` and `image-tag` values specify the image to use. For example, if the project is `LogIt`, and you used **Build Docker Image** to build the image, the repository name and tag are `logit:latest`. You can use the command `docker image list` to view available images and find the one you want.
 
+![Screenshot of Logs tab in Containers window](media/view-and-diagnose-containers/containers-logs.jpg)
+
 ## View the filesystem
 
 On the **Files** tab, you can view the container's filesystem, including the app folder that contains your project.
