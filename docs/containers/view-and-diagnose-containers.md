@@ -25,9 +25,9 @@ You can view what's going on inside the containers that host your app by using t
 
 The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose **View > Other Windows > Containers**. You can also open the **Containers** window from the main menu. Use the menu path  **View** > **Other Windows** > **Containers**.  
 
-![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-environment-vars.png)
+![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-window.png)
 
-On the left side, you see the list of containers, where you can see the friendly name that Docker chose for your container. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
+On the left side, you see the list of containers. The containers associated with your solution are shown under **Solution Containers**, where you can see the friendly name that Docker chose for your container. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
 
 > [!TIP]
 > You can easily customize where the **Containers** tool window is docked in Visual Studio. See [Customizing window layouts in Visual Studio](/visualstudio/ide/customizing-window-layouts-in-visual-studio). By default, the **Containers** window is docked with the **Watch** window when the debugger is running.
