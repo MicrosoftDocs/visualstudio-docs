@@ -35,7 +35,7 @@ Visual Studio for Mac will open your project in the Code layout.
 
 * Run the project without debugging using **Cmd-Opt-F5**
 
-Visual Studio will start [Kestral](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel) and launch a browser to `https://localhost:5001` and display your first Razor web app:
+Visual Studio will start [Kestral](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel) and launch a browser to `https://localhost:5001` and display your first Razor web app:
 
 ![Razor web app in Safari](media/razor-webapp.png)
 
@@ -49,7 +49,7 @@ The Pages folder within the project is where the web pages can be found, along w
 *    A **.cshtml* file for the HTML markup and Razor syntax.
 *    A **.cshtml.cs* file for your C# code-behind for handling page events.
 
-Supporting files have names that begin with an underscore. For example, the _Layout.cshtml file configures UI elements common to all pages. This file sets up the navigation menu at the top of the page and the copyright notice at the bottom of the page. For more information, see [Layout in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout).
+Supporting files have names that begin with an underscore. For example, the _Layout.cshtml file configures UI elements common to all pages. This file sets up the navigation menu at the top of the page and the copyright notice at the bottom of the page. For more information, see [Layout in ASP.NET Core](https://docs.microsoft.com/aspnet/core/mvc/views/layout).
 
 ### Launch settings
 
@@ -59,20 +59,20 @@ The *launchSettings.json* file contains the IIS settings, application URL and ot
 
 The *appSettings,json* file contains configuration data such as connection strings.
 
-For more information about configuration see the [Configuration in ASP.NET guide](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/index).
+For more information about configuration see the [Configuration in ASP.NET guide](https://docs.microsoft.com/aspnet/core/fundamentals/configuration/index).
 
 ### wwwroot folder
 
-Contains static files, such as HTML files, JavaScript files, and CSS files. For more information, see [Static files in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files).
+Contains static files, such as HTML files, JavaScript files, and CSS files. For more information, see [Static files in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/static-files).
 
 ### Program.cs
 
-Contains the entry point for the program. For more information, see [ASP.NET Core Web Host](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/web-host).
+Contains the entry point for the program. For more information, see [ASP.NET Core Web Host](https://docs.microsoft.com/aspnet/core/fundamentals/host/web-host).
 
 ### Startup.cs
 
-Contains code that configures app behavior, such as whether it requires consent for cookies. For more information, see [App startup in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup).
+Contains code that configures app behavior, such as whether it requires consent for cookies. For more information, see [App startup in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/startup).
 
 ## See aso
 
-For a more comprehensive guide on creating Razor web apps see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/index).
+For a more comprehensive guide on creating Razor web apps see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
