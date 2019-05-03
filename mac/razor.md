@@ -76,16 +76,3 @@ Contains code that configures app behavior, such as whether it requires consent 
 ## See aso
 
 For a more comprehensive guide on creating Razor web apps see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/index).
-
-<!--
-## Getting Started with Razor in Visual Studio for Mac
-
-There are two options to consider when getting started with Razor in Visual Studio for Mac: Razor Pages in ASP.NET Core and ASP.NET Core MVC. For tutorials and more information on both options, visit one of the guides below:
-
-- [Get started with Razor Pages in ASP.NET Core on macOS with Visual Studio for Mac](/aspnet/core/tutorials/razor-pages-mac/razor-pages-start?view=aspnetcore-2.1)
-- [Get started with ASP.NET Core MVC and Visual Studio for Mac](/aspnet/core/tutorials/first-mvc-app-mac/start-mvc?view=aspnetcore-2.1)
-
-## See also
-
-- [Get started with C# and ASP.NET Core in Visual Studio (on Windows)](/visualstudio/ide/tutorial-csharp-aspnet-core)
-- -->
