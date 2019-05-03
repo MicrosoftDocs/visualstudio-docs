@@ -47,7 +47,7 @@ On the **Ports** tab, you can check the port mappings that are in effect for you
 
 ![Screenshot of Ports tab in Containers window](media/view-and-diagnose-containers/container-ports.png)
 
-Well-known ports are linked, so if there's content available on a port, you can click on them to open the browser.
+Well-known ports are linked, so if there's content available on a port, you can click on the link to open the browser.
 
 ## View logs
 
