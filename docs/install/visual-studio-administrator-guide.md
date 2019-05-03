@@ -76,6 +76,20 @@ Value = (DWORD)
 
 For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
 
+## Specify synchronous autoload settings
+
+Starting Visual Studio 16.1, by default, the Visual Studio installation blocks synchronous autoload. When you enable Group Policy, you can configure Visual Studio to allow syncrhonous autoload on indivual computers. To do so, set a registry-based policy on the following key:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SynchronousAutoload**
+
+Entry = **Allowed**
+
+Value = (DWORD)
+* **0** is synchronous autoload not allowed
+* **1** is synchronous autoload allowed
+
+For more information about customer feedback settings, see the [Synchronous autoload behavior](to do) page.
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
