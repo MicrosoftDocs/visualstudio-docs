@@ -23,11 +23,11 @@ You can view what's going on inside the containers that host your app by using t
 
 ## View information about your containers
 
-The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose **View > Other Windows > Containers**. You can also open the **Containers** window from the main menu. Use the menu path  **View** > **Other Windows** > **Containers**.  
+The **Containers** window opens automatically when you start a containerized .NET project. To view your containers in Visual Studio at any time, use **Ctrl**+**Q** to activate the Visual Studio Search box, and type `Containers` and choose the first item. You can also open the **Containers** window from the main menu. Use the menu path  **View** > **Other Windows** > **Containers**.  
 
 ![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-window.png)
 
-On the left side, you see the list of containers. The containers associated with your solution are shown under **Solution Containers**. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
+On the left side, you see the list of containers on your local machine. The containers associated with your solution are shown under **Solution Containers**. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
 
 > [!TIP]
 > You can easily customize where the **Containers** tool window is docked in Visual Studio. See [Customizing window layouts in Visual Studio](/visualstudio/ide/customizing-window-layouts-in-visual-studio). By default, the **Containers** window is docked with the **Watch** window when the debugger is running.
@@ -39,7 +39,7 @@ The **Environment** tab shows the environment variables in the container. For yo
 ![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-environment-vars.png)
 
 > [!NOTE]
-> Any changes to the environment variables aren't reflected in real time. To refresh the environment variable pane, use the **Refresh** button on the **Containers** window.
+> Any changes to the environment variables aren't reflected in real time. Also, the environment variables in this tab are the system environment variables on the container, and do not reflect user environment variables local to the app.
 
 ## View port mappings
 
@@ -51,11 +51,14 @@ Well-known ports are linked, so if there's content available on a port, you can 
 
 ## View logs
 
-The **Logs** tab shows the stdout and stderr streams on a container.  By default, it streams the logs, but you can disable that by choosing the **Stop** button on the tab.
+The **Logs** tab shows the results of the `docker logs` command. By default, the tab shows stdout and stderr streams on a container, but you can configure the output. For details, see [Docker logging](https://docs.docker.com/config/containers/logging/).  By default, the **Logs** tab streams the logs, but you can disable that by choosing the **Stop** button on the tab.
 
 ![Screenshot of Logs tab in Containers window](media/view-and-diagnose-containers/containers-logs.jpg)
 
 To clear the logs, use the **Clear** button on the **Logs** tab.  To get all the logs, use the **Refresh** button.
+
+> [!NOTE]
+> Visual Studio automatically redirects stdout and stderr to the **Output** window, so containers started from Visual Studio (that is, the containers in the **Solution Containers** section) will not display logs in this tab; use the **Output** window instead.
 
 ## View the filesystem
 
