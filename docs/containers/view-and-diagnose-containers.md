@@ -18,7 +18,7 @@ You can view what's going on inside the containers that host your app by using t
 ## Prerequisities
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload
+- Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
 - Install the [Containers window extension](https://aka.ms/vscontainerspreview)
 
 ## View information about your containers
@@ -27,14 +27,14 @@ The **Containers** window opens automatically when you start a containerized .NE
 
 ![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-window.png)
 
-On the left side, you see the list of containers. The containers associated with your solution are shown under **Solution Containers**, where you can see the friendly name that Docker chose for your container. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
+On the left side, you see the list of containers. The containers associated with your solution are shown under **Solution Containers**. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
 
 > [!TIP]
 > You can easily customize where the **Containers** tool window is docked in Visual Studio. See [Customizing window layouts in Visual Studio](/visualstudio/ide/customizing-window-layouts-in-visual-studio). By default, the **Containers** window is docked with the **Watch** window when the debugger is running.
 
 ## View environment variables
 
-The **Environment** tab shows the environment variables in the container. For your app's container, you can set these variables in the Dockerfile, in a .env file, or by using the -e option when you start a container using a Docker command.
+The **Environment** tab shows the environment variables in the container. For your app's container, you can set these variables in many ways, for example, in the Dockerfile, in a .env file, or by using the -e option when you start a container using a Docker command.
 
 ![Screenshot of Environment tab in Containers window](media/view-and-diagnose-containers/container-environment-vars.png)
 
@@ -65,7 +65,9 @@ On the **Files** tab, you can view the container's filesystem, including the app
 
 To open files in Visual Studio, browse to the file and double-click it, or right-click and choose **Open**. Visual Studio opens files in read-only mode.
 
-Using the Files tab, you can view application logs such as IIS logs, configuration files, and other content files in your container's filesystem.
+![Screenshot of file open for viewing in Visual Studio](media/view-and-diagnose-containers/container-file-open.png)
+
+Using the **Files** tab, you can view application logs such as IIS logs, configuration files, and other content files in your container's filesystem.
 
 ## Start, stop, and remove containers
 
