@@ -8,14 +8,14 @@ ms.date: 05/06/2019
 ms.technology: vs-azure
 monikerRange: vs-2019
 ---
-# How to: View and diagnose containers in Visual Studio
+# How to view and diagnose containers in Visual Studio
 
 You can view what's going on inside the containers that host your app by using the **Containers** window. If you're used to using the command prompt to run Docker commands to view and diagnose what's going on with your containers, this window provides a more convenient way to monitor your containers without leaving the Visual Studio IDE.
 
 > [!NOTE]
 > The Containers window is currently available as a Preview extension that you can [download](https://aka.ms/vscontainerspreview) for Visual Studio 2019.
 
-## Prerequisities
+## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
