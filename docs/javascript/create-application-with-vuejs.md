@@ -66,10 +66,10 @@ For this example, you use an empty ASP.NET Core Application (C#). However, you c
 1. Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, then choose **Create a new ASP.NET Core Web Application**. In the dialog box that appears, type the name **client-app**, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, type the name **client-app**, and then choose **OK**.
     ::: moniker-end
 
     If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
@@ -95,14 +95,14 @@ To install the vue-cli npm module, open a command prompt and type `npm install -
 
 1. Go to your command prompt and change the current directory to your project root folder.
 
-1. Type `vue init webpack ClientApp` and follow steps when prompted to answer additional questions.
+1. Type `vue init webpack client-app` and follow steps when prompted to answer additional questions.
 
     > [!NOTE]
     > For *.vue* files, you need to use WebPack or a similar framework with a loader to do the conversion. TypeScript and Visual Studio does not know how to compile *.vue* files. The same is true for bundling; TypeScript doesn't know how to convert ES2015 modules (that is, `import` and `export` statements) into a single final *.js* file to load in the browser. Again, WebPack is the best choice here. To drive this process from within Visual Studio using MSBuild, you need to do start from a Visual Studio template. At present, there is no ASP.NET template for Vue.js development in-the-box.
 
 #### Modify the webpack configuration to output the built files to wwwroot
 
-* Open the file *./ClientApp/config/index.js*, and change the `build.index` and `build.assetsRoot` to wwwroot path:
+* Open the file *./client-app/config/index.js*, and change the `build.index` and `build.assetsRoot` to wwwroot path:
 
     ```js
     // Template for index.html
@@ -112,15 +112,15 @@ To install the vue-cli npm module, open a command prompt and type `npm install -
     assetsRoot: path.resolve(__dirname, '../../wwwroot'),
     ```
 
-#### Indicate the project to build the ClientApp each time that a build is triggered
+#### Indicate the project to build the client app each time that a build is triggered
 
 1. In Visual Studio, go to **Project** > **Properties** > **Build Events**.
 
-1. On **Pre-build event command line**, type `npm --prefix ./ClientApp run build`.
+1. On **Pre-build event command line**, type `npm --prefix ./client-app run build`.
 
 #### Configure webpack's output module names
 
-* Open the file *./ClientApp/build/webpack.base.conf.js*, and add the following properties to the output property:
+* Open the file *./client-app/build/webpack.base.conf.js*, and add the following properties to the output property:
 
     ```js
     devtoolModuleFilenameTemplate: '[absolute-resource-path]',
@@ -133,7 +133,7 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 1. Go to your command prompt and change the current directory to the project root folder.
 
-1. Type `vue create ClientApp`, and then choose **Manually select features**.
+1. Type `vue create client-app`, and then choose **Manually select features**.
 
 1. Choose **Typescript**, and then select other desired options.
 
@@ -141,11 +141,11 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 #### Configure a Vue.js project for TypeScript
 
-1. Open the file *./ClientApp/tsconfig.json* and add `noEmit:true` to the compiler options.
+1. Open the file *./client-app/tsconfig.json* and add `noEmit:true` to the compiler options.
 
     By setting this option, you avoid cluttering your project each time that you build in Visual Studio.
 
-1. Next, create a *vue.config.js* file in *./ClientApp/* and add the following code.
+1. Next, create a *vue.config.js* file in *./client-app/* and add the following code.
 
     ```js
     module.exports = {
@@ -164,7 +164,7 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 #### Build with vue-cli 3.0
 
-An unknown issue with the vue-cli 3.0 prevents automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the ClientApp folder.
+An unknown issue with the vue-cli 3.0 prevents automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the client-app folder.
 
 ## Limitations
 
@@ -174,7 +174,7 @@ An unknown issue with the vue-cli 3.0 prevents automating the build process. Eac
 * TypeScript doesn't recognize *.vue* files as modules. You need a file that contains code such as the following to tell TypeScript what *.vue* files look like (vue-cli 3.0 template already includes this file).
 
     ```js
-    // ./ClientApp/vue-shims.d.ts
+    // ./client-app/vue-shims.d.ts
     declare module "*.vue" {
         import Vue from "vue";
         export default Vue;
