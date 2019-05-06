@@ -44,7 +44,7 @@ C:\>cl /analyze Sample.cpp
 
 ## #pragma support
 
-You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Set Code Analysis Properties for C/C++ Projects](how-to-set-code-analysis-properties-for-c-cpp-projects.md).
+You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [Pragma Directives and the __Pragma Keyword](https://docs.microsoft.com/cpp/preprocessor/pragma-directives-and-the-pragma-keyword).
 
 ## Annotation support
 

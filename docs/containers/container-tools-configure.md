@@ -56,8 +56,8 @@ The following table describes **Single Project** and **Docker Compose** settings
 | Name | Default Setting | Applies To | Description |
 | -----|:---------------:|:----------:| ----------- |
 | Pull required Docker images on project open | True | Single Project, Docker Compose | For increased performance when loading projects, Visual Studio will start a Docker pull operation in the background so that when you're ready to run your code, the image is already downloaded or in the process of downloading. If you're just loading projects and browsing code, you can set to **False** to avoid downloading container images you don't need. |
-| Run containers on project open | True | Single Project, Docker Compose | Again for increased performance, Visual Studio creates a container with volume mounts ready for when you build and run your container. If you want to control when your container is created, set to **False**. |
-| Kill containers on project close | True | Single Project and Docker Compose | Set to **False** if you would like containers for your solution to continue to run after closing the solution or closing Visual Studio. |
+| Run containers on project open | True | Single Project, Docker Compose | Again for increased performance, Visual Studio creates a container ahead of time so that it's ready for when you build and run your container. If you want to control when your container is created, set to **False**. |
+| Stop containers on project close | True | Single Project and Docker Compose | Set to **False** if you would like containers for your solution to continue to run after closing the solution or closing Visual Studio. |
 
 ::: moniker-end
 > [!WARNING]
