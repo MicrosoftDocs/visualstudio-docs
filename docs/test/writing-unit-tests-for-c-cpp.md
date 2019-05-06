@@ -1,6 +1,7 @@
 ---
 title: "Write unit tests for C/C++"
-ms.date: 05/01/2019
+description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test and Google Test.
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.author: "mblome"
 manager: markl

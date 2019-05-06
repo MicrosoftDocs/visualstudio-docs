@@ -60,6 +60,11 @@ You should include the Microsoft Security Rules rule set to maximize the number 
 |[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)|Do not use insecure deserializer BinaryFormatter|
 |[CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md)|Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder|
 |[CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)|Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize|
+|[CA2305](ca2305-do-not-use-insecure-deserializer-losformatter.md)|Do not use insecure deserializer LosFormatter|
+|[CA2310](ca2310-do-not-use-insecure-deserializer-netdatacontractserializer.md)|Do not use insecure deserializer NetDataContractSerializer|
+|[CA2311](ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md)|Do not deserialize without first setting NetDataContractSerializer.Binder|
+|[CA2312](ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md)|Ensure NetDataContractSerializer.Binder is set before deserializing|
+|[CA2315](ca2315-do-not-use-insecure-deserializer-objectstateformatter.md)|Do not use insecure deserializer ObjectStateFormatter|
 |[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|Review code for SQL injection vulnerabilities|
 |[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|Review code for XSS vulnerabilities|
 |[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|Review code for file path injection vulnerabilities|
