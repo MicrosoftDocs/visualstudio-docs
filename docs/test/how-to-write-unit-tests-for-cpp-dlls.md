@@ -176,4 +176,4 @@ author: mikeblome
 - [Debug native code](../debugger/debugging-native-code.md)
 - [Walkthrough: Creating and using a dynamic link library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
 - [Import and export](/cpp/build/importing-and-exporting)
-- [Quick start: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+- [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
