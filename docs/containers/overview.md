@@ -19,7 +19,7 @@ The tools included in Visual Studio for developing with containers are easy to u
 
 ## Docker support in Visual Studio
 
-Docker support is available for some .NET project types.  It is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
+Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
 
 The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.  
 
@@ -40,13 +40,9 @@ With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fab
 > If you are using the full .NET Framework console project template, when you add Docker support, support for orchestration using Docker Compose is added automatically.
 ::: moniker-end
 
-The **Add > Docker Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
+### Adding Docker support
 
-![Add Docker Support menu option in Visual Studio](./media/overview/add-docker-support-menu.png)
-
-### Adding Docker support (without orchestration)
-
-You can add Docker support to an existing project by selecting **Add** > **Docker Support** in **Solution Explorer**. You can also enable Docker support during project creation by selecting **Enable Docker Support** when creating a new project, as shown in the following screenshot:
+You can enable Docker support during project creation by selecting **Enable Docker Support** when creating a new project, as shown in the following screenshot:
 
 ::: moniker range="vs-2017"
 ![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/overview/enable-docker-support-visual-studio.png)
@@ -54,6 +50,13 @@ You can add Docker support to an existing project by selecting **Add** > **Docke
 ::: moniker range=">=vs-2019"
 ![Enable Docker Support for new ASP.NET Core web app in Visual Studio](./media/overview/vs-2019/enable-docker-support-visual-studio.png)
 ::: moniker-end
+
+> [!NOTE]
+> For .NET Framework projects (not .NET Core), only Windows containers are available.
+
+You can add Docker support to an existing project by selecting **Add** > **Docker Support** in **Solution Explorer**. The **Add > Docker Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
+
+![Add Docker Support menu option in Visual Studio](./media/overview/add-docker-support-menu.png)
 
 When you add or enable Docker support, Visual Studio adds the following to the project:
 

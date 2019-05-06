@@ -1,6 +1,6 @@
 ---
 title: -DoNotLoadProjects (devenv.exe)
-ms.date: 03/11/2019
+ms.date: 04/30/2019
 ms.topic: reference
 helpviewer_keywords:
   - "Devenv, /DoNotLoadProjects switch"
@@ -13,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # /DoNotLoadProjects (devenv.exe)
+
+**New for Visual Studio 2019 version 16.1**
 
 Opens the specified solution without loading any projects. For more information, see [Filtered solutions in Visual Studio](../filtered-solutions.md).
 
