@@ -12,8 +12,6 @@ ms.technology: vs-azure
 ---
 # Debugging apps in a local Docker container
 
-## Overview
-
 Visual Studio provides a consistent way to develop in a Docker container and validate your application locally.
 You don't have to restart the container each time you make a code change.
 This article illustrates how to use the "Edit and Refresh" feature to start an ASP.NET Core Web app in a local Docker container,
@@ -42,7 +40,9 @@ or you can use [Docker for Windows](https://www.docker.com/get-docker), which us
 
 If using Docker Toolbox, you'll need to configure the Docker client.
 
-## 1. Create a web app
+Docker containers are available for .NET Framework and .NET Core projects. Let's look at two example, first a .NET Core web app, and second, a .NET Framework console app.
+
+## Create a web app
 
 ::: moniker range="vs-2017"
 [!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
@@ -51,7 +51,7 @@ If using Docker Toolbox, you'll need to configure the Docker client.
 [!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)
 ::: moniker-end
 
-## 2. Edit your code and refresh
+### Edit your code and refresh
 
 To quickly iterate changes, you can start your application within a container, and continue to make changes, viewing them as you would with IIS Express.
 
@@ -76,7 +76,7 @@ To quickly iterate changes, you can start your application within a container, a
 
 6. Your changes have been applied!
 
-## 3. Debug with breakpoints
+### Debug with breakpoints
 
 Often, changes will need further inspection, leveraging the debugging features of Visual Studio.
 
