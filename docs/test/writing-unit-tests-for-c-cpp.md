@@ -1,10 +1,10 @@
 ---
 title: "Write unit tests for C/C++"
-description: Create C++ unit tests in Visual Studio using the Microsoft Unit Testing Framework, Boost.test, Google Test and CTest.
-ms.date: 05/03/2019
+description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test and Google Test.
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.author: "mblome"
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -25,11 +25,11 @@ Visual Studio includes these C++ test frameworks with no additional downloads re
 
 In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
-**Visual Studio 2017 version 15.7 and later (Professional and Enterprise)**
+**Visual Studio 2017 and later (Professional and Enterprise)**
 
 C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md).
 
-**Visual Studio 2017 version 15.5 and later**
+**Visual Studio 2017 and later (all editions)**
 
 - **Google Test Adapter** is included as a default component of the **Desktop development with C++** workload. It has a project template that you can add to a solution via the **Add New Project** right-click menu on the solution node in **Solution Explorer**, and options you can configure via **Tools** > **Options**. For more information, see [How to: use Google Test in Visual Studio](how-to-use-google-test-for-cpp.md).
 
@@ -45,11 +45,25 @@ You can download the Google Test adapter and Boost.Test Adapter extensions on th
 
 The following sections show the basic steps to get you started with C++ unit testing. The basic configuration is very similar for the Microsoft and Google Test frameworks. Boost.Test requires that you manually create a test project.
 
-### Create a test project
+::: moniker range="vs-2019"
+
+### Create a test project in Visual Studio 2019
+
+You define and run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add** > **New Project**. Set **Language** to C++ and type "test" into the search box. The following illustration shows the test projects that are available when the **Desktop Development with C++** and the **UWP Development** workload are installed:
+
+![C++ Test Projects in VIsual Studio 2019](media/vs-2019/cpp-new-test-project-vs2019.png)
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+### Create a test project in Visual Studio 2017
 
 You define and run tests inside one or more test projects that are in the same solution as the code you want to test. To add a new test project to an existing solution, right-click on the Solution node in **Solution Explorer** and choose **Add** > **New Project**. Then in the left pane choose **Visual C++ Test** and choose one of the project types from the center pane. The following illustration shows the test projects that are available when the **Desktop Development with C++** workload is installed:
 
 ![C++ Test Projects](media/cpp-new-test-project.png)
+
+::: moniker-end
 
 ### Create references to other projects in the solution
 
@@ -112,7 +126,7 @@ For best practices related to unit testing, see [Unit test basics](unit-test-bas
 
 ## Use CodeLens
 
-**Visual Studio 2017 version 15.7 and later (Professional and Enterprise editions only)**
+**Visual Studio 2017 and later (Professional and Enterprise editions)**
 
 [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to quickly see the status of a unit test without leaving the code editor. You can initialize CodeLens for a C++ unit test project in any of these ways:
 

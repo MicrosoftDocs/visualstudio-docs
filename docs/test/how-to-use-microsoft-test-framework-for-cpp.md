@@ -1,9 +1,9 @@
 ---
 title: "Use the Microsoft Unit Testing Framework for C++"
-ms.date: 11/15/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -39,7 +39,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
 Any *.cpp* file with test classes must include "CppUnitTest.h" and have a using statement for `using namespace Microsoft::VisualStudio::CppUnitTestFramework`. The test project is already configured for you. It also includes a namespace definition, and a TEST_CLASS with a TEST_METHOD to get you started. You can modify the namespace name as well as the names in parentheses in the class and method macros.
 
-Special macros are defined for initializing test modules, classes and methods, and for cleanup of resoures when tests are completed. These macros generate code that is executed before a class or method is first accessed, and after the last test has run. For more information, see [Initialize and cleanup](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md#Initialize_and_cleanup).
+Special macros are defined for initializing test modules, classes and methods, and for cleanup of resources when tests are completed. These macros generate code that is executed before a class or method is first accessed, and after the last test has run. For more information, see [Initialize and cleanup](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md#Initialize_and_cleanup).
 
 Use the static methods in the [Assert](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md#general_asserts) class to define test conditions. Use the [Logger](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md#logger) class to write messages to the **Output Window**. Add attributes to test methods
 
