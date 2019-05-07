@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MACHINE_INFO
 Describes a particular machine.
@@ -35,13 +38,13 @@ public struct MACHINE_INFO { 
 ```
 
 ## Members
- `Fields`
+ `Fields`\
  A combination of flags from the [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) enumeration that specify which fields of the structure are initialized.
 
- `bstrName`
+ `bstrName`\
  The machine name. Equivalent to calling [GetMachineName](../../../extensibility/debugger/reference/idebugcoreserver2-getmachinename.md).
 
- `Flags`
+ `Flags`\
  A combination of flags from the [MACHINE_INFO_FLAGS](../../../extensibility/debugger/reference/machine-info-flags.md) enumeration describing the machine attributes.
 
 ## Remarks
@@ -54,7 +57,7 @@ public struct MACHINE_INFO { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md)
 - [GetMachineInfo](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineinfo.md)

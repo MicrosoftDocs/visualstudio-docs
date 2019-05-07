@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MACHINE_INFO_FIELDS
 Specifies what kind of information to retrieve for a particular machine.
@@ -35,14 +38,14 @@ public enum enum_MACHINE_INFO_FIELDS { 
 };
 ```
 
-## Members
- MCIF_NAME
+## Fields
+ `MCIF_NAME`\
  Initialize/use the `bstrName` field in the structure.
 
- MCIF_FLAGS
+ `MCIF_FLAGS`\
  Initialize/use the `Flags` field in the structure.
 
- MIF_ALL
+ `MIF_ALL`\
  Initialize/use all of the fields in the structure.
 
 ## Remarks
@@ -59,7 +62,7 @@ public enum enum_MACHINE_INFO_FIELDS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MACHINE_INFO](../../../extensibility/debugger/reference/machine-info.md)
 - [GetMachineInfo](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineinfo.md)
