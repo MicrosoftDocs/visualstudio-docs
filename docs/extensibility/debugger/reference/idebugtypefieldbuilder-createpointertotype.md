@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePointerToType
 Creates a pointer to the specified type.
@@ -31,17 +34,17 @@ int CreatePointerToType(
 );
 ```
 
-#### Parameters
- `pTypeField`
+## Parameters
+ `pTypeField`\
 
  [in] Type to point to. It is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
 
- `pPtrToTypeField`
+ `pPtrToTypeField`\
 
  [out] Returns the pointer represented by a new **IDebugField** object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugTypeFieldBuilder](../../../extensibility/debugger/reference/idebugtypefieldbuilder.md)

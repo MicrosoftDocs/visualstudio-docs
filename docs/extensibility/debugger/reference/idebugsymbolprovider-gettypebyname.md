@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetTypeByName
 This method maps a symbol name to a symbol type.
@@ -34,16 +37,16 @@ int GetTypeByName(
 );
 ```
 
-#### Parameters
- `pszClassName`
+## Parameters
+ `pszClassName`\
 
  [in] The symbol name.
 
- `nameMatch`
+ `nameMatch`\
 
  [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
- `ppField`
+ `ppField`\
 
  [out] Returns the symbol type as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
@@ -53,7 +56,7 @@ int GetTypeByName(
 ## Remarks
  This method is a generic version of [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md).
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md)
