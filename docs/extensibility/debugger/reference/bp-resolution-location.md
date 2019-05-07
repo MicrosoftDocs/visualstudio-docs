@@ -47,32 +47,25 @@ public struct BP_RESOLUTION_LOCATION {
 A value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that specifies how to interpret the `bpResLocation` union or `unionmemberX` members.
 
 `bpResLocation.bpresCode`\
-
- [C++ only] Contains the [BP_RESOLUTION_CODE](../../../extensibility/debugger/reference/bp-resolution-code.md) structure if `bpType` = `BPT_CODE`.
+[C++ only] Contains the [BP_RESOLUTION_CODE](../../../extensibility/debugger/reference/bp-resolution-code.md) structure if `bpType` = `BPT_CODE`.
 
 `bpResLocation.bpresData`\
-
- [C++ only] Contains the [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md) structure if `bpType` = `BPT_DATA`.
+[C++ only] Contains the [BP_RESOLUTION_DATA](../../../extensibility/debugger/reference/bp-resolution-data.md) structure if `bpType` = `BPT_DATA`.
 
 `bpResLocation.unused`\
-
- [C++ only] A placeholder.
+[C++ only] A placeholder.
 
 `unionmember1`\
-
- [C# only] See Remarks on how to interpret.
+[C# only] See Remarks on how to interpret.
 
 `unionmember2`\
-
- [C# only] See Remarks on how to interpret.
+[C# only] See Remarks on how to interpret.
 
 `unionmember3`\
-
- [C# only] See Remarks on how to interpret.
+[C# only] See Remarks on how to interpret.
 
 `unionmember4`\
-
- [C# only] See Remarks on how to interpret.
+[C# only] See Remarks on how to interpret.
 
 ## Remarks
 This structure is a member of the [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) and [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) structures.

@@ -36,8 +36,7 @@ int Enable( 
 
 ## Parameters
 `fEnable`\
-
- [in] Set to non-zero (`TRUE`) to enable or to zero (`FALSE`) to disable the breakpoint.
+[in] Set to non-zero (`TRUE`) to enable or to zero (`FALSE`) to disable the breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the state of the bound breakpoint object is set to `BPS_DELETED` (part of the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration).

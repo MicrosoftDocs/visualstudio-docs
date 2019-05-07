@@ -36,13 +36,11 @@ int ResolveRuntimeType(
 ```
 
 ## Parameters
- `pObject`\
+`pObject`\
+[in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) to be resolved.
 
- [in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) to be resolved.
-
- `ppResolved`\
-
- [out] Returns the type of the object as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
+`ppResolved`\
+[out] Returns the type of the object as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
