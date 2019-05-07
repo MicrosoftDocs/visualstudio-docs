@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugModules2::Clone
 Returns a copy of the current enumeration as a separate object.
@@ -30,8 +33,8 @@ int Clone(
 );
 ```
 
-#### Parameters
- `ppEnum`
+## Parameters
+ `ppEnum`\
 
  [out] Returns a copy of this enumeration as a separate object.
 
@@ -41,5 +44,5 @@ int Clone(
 ## Remarks
  The copy of the enumeration has the same state as the original at the time this method is called. However, the copy's and the original's states are separate and can be changed individually.
 
-## See Also
+## See also
 - [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

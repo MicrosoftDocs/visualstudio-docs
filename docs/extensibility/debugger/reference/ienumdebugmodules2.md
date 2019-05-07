@@ -51,7 +51,7 @@ IEnumDebugModules2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md)
