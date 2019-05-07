@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::GetLogicalThread
 Debug engines do not implement this method.
@@ -32,17 +35,17 @@ int GetLogicalThread( 
 );
 ```
 
-#### Parameters
- `pStackFrame`
+## Parameters
+ `pStackFrame`\
 
  [in] An [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object that represents the stack frame.
 
- `ppLogicalThread`
+ `ppLogicalThread`\
 
  [out] Returns an `IDebugLogicalThread2` interface that represents the associated logical thread. A debug engine implementation should set this to a null value.
 
 ## Return Value
  Debug engine implementations always return `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

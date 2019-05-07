@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerService::GetCustomViewerList
 This method returns a list of type visualizers that this service knows about.
@@ -36,20 +39,20 @@ int GetCustomViewerList(
 );
 ```
 
-#### Parameters
- `celtSkip`
+## Parameters
+ `celtSkip`\
 
  [in] Number of visualizers to skip over.
 
- `celRequested`
+ `celRequested`\
 
  [in] Number of visualizers to retrieve (also specifies size of the `rgViewers` array).
 
- `rgViewers`
+ `rgViewers`\
 
  [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
 
- `pceltFetched`
+ `pceltFetched`\
 
  [out] Number of visualizers actually retrieved.
 
@@ -61,7 +64,7 @@ int GetCustomViewerList(
 
  See [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md) for details on the differences between visualizers and viewers.
 
-## See Also
+## See also
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
 - [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)

@@ -36,7 +36,7 @@ The table below details what Pluralsight subscription benefits are available to 
    - Click the checkbox to accept the terms of use and privacy policy
    - Click **I agree, activate benefit**.
      > [!div class="mx-imgBorder"]
-     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)
+     > ![Pluralsight Benefit Activation](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)  
      > [!div class="mx-imgBorder"]
      > ![Pluralsight Benefit Terms](_img/vs-pluralsight/vs-pluralsight-terms.png)
 

@@ -1,9 +1,9 @@
 ---
 title: "How to: Write unit tests for C++ DLLs"
-ms.date: 11/04/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
   - "cplusplus"
 author: mikeblome
@@ -32,13 +32,12 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 1. On the **File** menu, choose **New** > **Project**.
 
-     In the dialog box, expand **Installed** > **Templates** > **Visual C++** > **Test**.
+     **Visual Studio 2017 and earlier**: Expand **Installed** > **Templates** > **Visual C++** > **Test**.
+     **Visual Studio 2019**: Set **Language** to C++ and type "test" into the search box.
 
      Choose the **Native Unit Test Project** template, or whatever installed framework you prefer. If you choose another template such as Google Test or Boost.Test, the basic principles are the same although some details will differ.
 
      In this walkthrough, the test project is named `NativeRooterTest`.
-
-     ![Creating a C++ Unit Test Project](../test/media/utecpp01.png)
 
 2. In the new project, inspect **unittest1.cpp**
 
@@ -79,11 +78,45 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## <a name="create_dll_project"></a> Create a DLL project
 
-1. Create a **Visual C++** project by using the **Win32 Project** template.
+::: moniker range="vs-2019"
+
+The following steps show how to create a DLL project in Visual Studio 2019.
+
+1. Create a C++ project by using the **Windows Desktop Wizard**: Right-click on the solution name in **Solution Explorer** and choose **Add** > **New Project**. Set the **Language** to C++ and then type "windows" in the search box. Choose **Windows Desktop Wizard** from the results list. 
 
      In this walkthrough, the project is named `RootFinder`.
 
-     ![Creating a C++ Win32 project](../test/media/utecpp05.png)
+2. Press **Create**. In the next dialog, under **Application type** choose **Dynamic Link Library (dll)** and also check **Export Symbols**.
+
+     The **Export Symbols** option generates a convenient macro that you can use to declare exported methods.
+
+     ![C++ project wizard set for DLL and Export Symbols](../test/media/vs-2019/windows-desktop-project-dll.png)
+
+3. Declare an exported function in the principal *.h* file:
+
+     ![New DLL code project and .h file with API macros](../test/media/utecpp07.png)
+
+     The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).
+
+4. In the principal *.cpp* file, add a minimal body for the function:
+
+    ```cpp
+        // Find the square root of a number.
+        double CRootFinder::SquareRoot(double v)
+        {
+            return 0.0;
+        }
+    ```
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+The following steps show how to create a DLL project in Visual Studio 2017.
+
+1. Create a C++ project by using the **Win32 Project** template.
+
+     In this walkthrough, the project is named `RootFinder`.
 
 2. Select **DLL** and **Export Symbols** in the Win32 Application Wizard.
 
@@ -106,6 +139,8 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
             return 0.0;
         }
     ```
+
+::: moniker-end
 
 ## <a name="make_functions_visible"></a> Couple the test project to the DLL project
 

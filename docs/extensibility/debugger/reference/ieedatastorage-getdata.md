@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEDataStorage::GetData
 Retrieves the specified number of bytes from the object.
@@ -34,16 +37,16 @@ int GetData(
 );
 ```
 
-#### Parameters
- `dataSize`
+## Parameters
+ `dataSize`\
 
  [in] The number of bytes to retrieve (the `data` array must hold at least this number of bytes).
 
- `sizeGotten`
+ `sizeGotten`\
 
  [out] Returns the number of bytes actually retrieved.
 
- `data`
+ `data`\
 
  [in, out] Array to be filled in with the requested data.
 
@@ -53,6 +56,6 @@ int GetData(
 ## Remarks
  The recommended use of this method is to retrieve all the data bytes into a local array, since there is no way to skip over bytes in the retrieval process. In this case, the parameter `dataSize` should be the value returned by the [GetSize](../../../extensibility/debugger/reference/ieedatastorage-getsize.md) method.
 
-## See Also
+## See also
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
 - [GetSize](../../../extensibility/debugger/reference/ieedatastorage-getsize.md)

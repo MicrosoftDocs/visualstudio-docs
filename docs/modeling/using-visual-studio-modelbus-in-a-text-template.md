@@ -29,7 +29,7 @@ To resolve a ModelBus reference in a text template, the target DSL must have a c
 
 1. If the target DSL solution does not have a **ModelBusAdapter** project, create one by using the Modelbus Extension wizard:
 
-    1. Download and install the Visual Studio ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+    1. Download and install the Visual Studio ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
     2. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
 
