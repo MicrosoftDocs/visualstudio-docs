@@ -20,7 +20,7 @@
     href: visual-studio-data-tools-for-dotnet.md
   - name: Entity Framework tools
     href: entity-data-model-tools-in-visual-studio.md
-  - name: Dataset tools
+  - name: Datasets
 # Auto-expanded node
     items:
     - name: Dataset tools
@@ -39,7 +39,7 @@
   items:
   - name: Create a database
     href: create-a-sql-database-by-using-a-designer.md
-  - name: Add connections
+  - name: Connections
 # Auto-expanded node
     items:
     - name: Add connections
@@ -50,10 +50,10 @@
       href: connect-to-data-in-an-access-database-windows-forms.md
   - name: Add .NET data sources
     href: add-new-data-sources.md
-  - name: Use LINQ to SQL Tools
+  - name: LINQ to SQL tools
 # Auto-expanded node
     items:
-    - name: Use LINQ to SQL Tools
+    - name: Overview
       href: linq-to-sql-tools-in-visual-studio2.md
     - name: Change the return type of a DataContext method
       href: how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md
@@ -75,20 +75,20 @@
       href: how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md
     - name: Turn pluralization on and off
       href: how-to-turn-pluralization-on-and-off-o-r-designer.md
-  - name: Using Dataset tools
+  - name: Use DataSet tools
     items:
-    - name: Create and configure datasets in Visual Studio
+    - name: Create DataSets
 # Auto-expanded node
       items:
-      - name: Create and configure datasets in Visual Studio
+      - name: Create and configure DataSets
         href: create-and-configure-datasets-in-visual-studio.md
-      - name: Create relationships between datasets
+      - name: Create relationships between DataSets
         href: relationships-in-datasets.md
       - name: Create a DataSet by using the Dataset Designer
         href: walkthrough-creating-a-dataset-with-the-dataset-designer.md
       - name: Create a DataTable by using the Dataset Designer
         href: walkthrough-creating-a-datatable-in-the-dataset-designer.md
-    - name: TableAdapters
+    - name: Configure TableAdapters
       items:
       - name: Create and configure TableAdapters
         href: create-and-configure-tableadapters.md
@@ -109,7 +109,7 @@
     - name: Save data back to the database
 # Auto-expanded node
       items:
-      - name: Save data back to the database
+      - name: Overview
         href: save-data-back-to-the-database.md
       - name: Insert new records into a database
         href: insert-new-records-into-a-database.md
@@ -119,7 +119,7 @@
         href: hierarchical-update.md
       - name: Handle a concurrency exception
         href: handle-a-concurrency-exception.md
-      - name: Save data by using a transaction
+      - name: Transactions
 # Auto-expanded node
         items:
         - name: Save data by using a transaction
@@ -146,7 +146,7 @@
         href: add-code-to-tableadapters-in-n-tier-applications.md
       - name: Separate datasets and TableAdapters into different projects
         href: separate-datasets-and-tableadapters-into-different-projects.md
-  - name: Bind controls to data sources
+  - name: Controls
 # Auto-expanded node
     items:
     - name: Bind controls to data sources
@@ -155,7 +155,7 @@
       href: set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md
     - name: Add custom controls to the Data Sources window
       href: add-custom-controls-to-the-data-sources-window.md
-    - name: Bind WPF controls to data
+    - name: WPF controls
 # Auto-expanded node
       items:
       - name: Bind WPF controls to data
@@ -170,7 +170,7 @@
         href: display-related-data-in-wpf-applications.md
       - name: Bind controls to pictures from a database
         href: bind-controls-to-pictures-from-a-database.md
-    - name: Bind Windows Forms controls to data
+    - name: Windows Forms controls
 # Auto-expanded node
       items:
       - name: Bind Windows Forms controls to data
@@ -198,7 +198,7 @@
   - name: Windows Communication Foundation Services and WCF Data Services
 # Auto-expanded node
     items:
-    - name: Windows Communication Foundation Services and WCF Data Services
+    - name: Overview of WCF in Visual Studio
       href: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
     - name: Work with a conceptual model
       href: working-with-a-conceptual-model-wcf-data-services.md
@@ -227,10 +227,7 @@
     - name: Data class inheritance
       href: data-class-inheritance-o-r-designer.md
     - name: O/R Designer messages
-# Auto-expanded node
       items:
-      - name: O/R Designer messages
-        href: o-r-designer-messages.md
       - name: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
         href: the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods.md
       - name: The connection string contains credentials with a clear text password and is not using integrated security

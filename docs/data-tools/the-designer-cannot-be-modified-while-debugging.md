@@ -17,5 +17,4 @@ To correct this error, select **Stop Debugging** on the **Debug** menu. The appl
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
