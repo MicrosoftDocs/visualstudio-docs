@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
 Retrieves the expression evaluator metric file given the name or the metric.
@@ -34,25 +37,25 @@ private int GetEEMetricFile(
 );
 ```
 
-#### Parameters
- `guidLang`
+## Parameters
+ `guidLang`\
 
  [in] Unique identifier of the programming language.
 
- `guidVendor`
+ `guidVendor`\
 
  [in] Unique identifier of the vendor.
 
- `pszMetric`
+ `pszMetric`\
 
  [in] Name of the metric.
 
- `pbstrValue`
+ `pbstrValue`\
 
  [out] Returns the contents of the metric file as a string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSourceServerModule::GetSourceServerData
 Retrieves an array of source server information.
@@ -30,12 +33,12 @@ public int GetSourceServerData(
 );
 ```
 
-#### Parameters
-`pDataByteCount`
+## Parameters
+`pDataByteCount`\
 
  [out] Number of bytes in the data array.
 
-`ppData`
+`ppData`\
 
  [out] Reference to the data array.
 
@@ -67,5 +70,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugSourceServerModule](../../../extensibility/debugger/reference/idebugsourceservermodule.md)

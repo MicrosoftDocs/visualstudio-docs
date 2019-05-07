@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricGuid
 Retrieves the unique identifier for a expression evaluator metric given its name.
@@ -34,25 +37,25 @@ HRESULT GetEEMetricGuid(
 );
 ```
 
-#### Parameters
- `guidLang`
+## Parameters
+ `guidLang`\
 
  [in] Unique identifier of the programming language.
 
- `guidVendor`
+ `guidVendor`\
 
  [in] Unique identifier of the vendor.
 
- `pszMetric`
+ `pszMetric`\
 
  [in] Name of the metric.
 
- `pguidValue`
+ `pguidValue`\
 
  [out] Returns the unique identifier of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

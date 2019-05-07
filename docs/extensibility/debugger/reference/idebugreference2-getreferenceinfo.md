@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetReferenceInfo
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.
@@ -40,35 +43,35 @@ int GetReferenceInfo ( 
 );
 ```
 
-#### Parameters
- `dwFields`
+## Parameters
+ `dwFields`\
 
  [in] A combination of flags from the [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md) enumeration that determine the fields to be filled out in the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure.
 
- `nRadix`
+ `nRadix`\
 
  [in] The radix to be used in formatting any numerical information.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
- `rgpArgs`
+ `rgpArgs`\
 
  [in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects. Reserved for future use; set to a null value.
 
- `dwArgCount`
+ `dwArgCount`\
 
  [in] The number of reference arguments in the `rgpArgs` array. Reserved for future use; set to 0.
 
- `pReferenceInfo`
+ `pReferenceInfo`\
 
  [out] A [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that is filled in with a description of the property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
 - [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetDerivedMostReference
 Gets the derived-most reference of a reference. Reserved for future use.
@@ -30,8 +33,8 @@ int GetDerivedMostReference( 
 );
 ```
 
-#### Parameters
- `ppDerivedMost`
+## Parameters
+ `ppDerivedMost`\
 
  [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
 
@@ -41,5 +44,5 @@ int GetDerivedMostReference( 
 ## Remarks
  For example, if this property describes an object that implements `ClassRoot` but which is actually an instantiation of `ClassDerived` that is derived from `ClassRoot`, then this method returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object representing a reference to the `ClassDerived` object.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
