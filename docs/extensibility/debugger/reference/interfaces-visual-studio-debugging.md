@@ -32,5 +32,5 @@ Methods are listed alphabetically under each interface in the table of contents 
 
  Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

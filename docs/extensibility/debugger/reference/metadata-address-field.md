@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # METADATA_ADDRESS_FIELD
 
@@ -31,9 +34,9 @@ public struct METADATA_ADDRESS_FIELD {
 }
 ```
 
-## Terms
+## Members
 
-`tokField`
+`tokField`\
 
 The ID of the field token.
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PDB_TYPE
 
@@ -35,17 +38,17 @@ public struct PDB_TYPE {
 };
 ```
 
-## Parameters
+## Members
 
-`ulAppDomainID`
+`ulAppDomainID`\
 
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
-`guidModule`
+`guidModule`\
 
 The GUID of the module that contains this field.
 
-`symid`
+`symid`\
 
 The ID of the symbol that corresponds to this field.
 

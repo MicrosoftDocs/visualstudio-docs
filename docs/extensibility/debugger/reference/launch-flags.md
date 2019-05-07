@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # LAUNCH_FLAGS
 Specifies the debug launch flags.
@@ -37,17 +40,17 @@ public enum enum_LAUNCH_FLAGS {
 };
 ```
 
-## Members
-LAUNCH_DEBUG
+## Fields
+`LAUNCH_DEBUG`\
 Launches the process for debugging.
 
-LAUNCH_NODEBUG
+`LAUNCH_NODEBUG`\
 Launches the process without debugging it.
 
-LAUNCH_ENABLE_ENC
+`LAUNCH_ENABLE_ENC`\
 DEPRECATED, DO NOT USE.
 
-LAUNCH_MERGE_ENV
+`LAUNCH_MERGE_ENV`\
 Launches the process and merges the environment with the launching host.
 
 ## Remarks
@@ -62,6 +65,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)
