@@ -49,7 +49,7 @@ If you have network trouble while installing in a corporate environment, review 
 Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes).
 
 > [!NOTE]
-> If you chose not install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.
+> If you chose not to install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.
 
 ## Install Visual Studio for Mac behind a firewall or proxy server
 
