@@ -85,6 +85,7 @@
       "ms.prod": "visual-studio-windows",
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio",
+      "toc_preview": true,
       "searchScope": [
         "VS IDE"
       ],

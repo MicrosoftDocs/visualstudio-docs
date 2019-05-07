@@ -1,6 +1,8 @@
 - name: Visual Basic Tutorials
-  href: index.yml
+# Auto-expanded node
   items:
+  - name: Visual Basic Tutorials
+    href: index.yml
   - name: Overview
     items:
     - name: About Visual Studio
