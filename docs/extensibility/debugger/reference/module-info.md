@@ -56,7 +56,7 @@ public struct MODULE_INFO { 
 ```
 
 ## Members
- `dwValidFields
+ `dwValidFields`\
  A combination of flags from the [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) enumeration that specifies which fields are filled out.
 
  `m_bstrName`\
