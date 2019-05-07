@@ -1,12 +1,12 @@
 - name: XML tools in Visual Studio
 # Auto-expanded node
   items:
-  - name: XML tools in Visual Studio
+  - name: Overview
     href: xml-tools-in-visual-studio.md
   - name: XML editor
 # Auto-expanded node
     items:
-    - name: XML editor
+    - name: Overview
       href: xml-editor.md
     - name: XML document validation
       href: xml-document-validation.md
@@ -15,7 +15,7 @@
     - name: XML snippets
 # Auto-expanded node
       items:
-      - name: XML snippets
+      - name: Overview
         href: xml-snippets.md
       - name: Use XML snippets
         href: how-to-use-xml-snippets.md
@@ -52,7 +52,7 @@
   - name: XML Schema Designer
 # Auto-expanded node
     items:
-    - name: XML Schema Designer
+    - name: Overview
       href: xml-schema-designer.md
     - name: XML Schema Explorer
 # Auto-expanded node
@@ -67,10 +67,10 @@
         href: context-menus-xml-schema-explorer.md
       - name: Integration of XML literals
         href: integration-of-xml-literals-with-xml-schema-explorer.md
-    - name: XML Schema Designer workspace
+    - name: Workspace
 # Auto-expanded node
       items:
-      - name: XML Schema Designer workspace
+      - name: Views overview
         href: xml-schema-designer-workspace.md
       - name: Start View
         href: start-view.md
@@ -105,8 +105,6 @@
       - name: Sample XSD files
 # Auto-expanded node
         items:
-        - name: Sample XSD files
-          href: sample-xsd-files.md
         - name: Simple schema
           href: sample-xsd-file-simple-schema.md
         - name: Purchase Order schema
@@ -116,7 +114,7 @@
   - name: XSLT debugging
 # Auto-expanded node
     items:
-    - name: XSLT debugging
+    - name: Overview
       href: debugging-xslt.md
     - name: "Walkthrough: Debug an XSLT style sheet"
       href: walkthrough-debug-an-xslt-style-sheet.md

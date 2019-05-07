@@ -3536,6 +3536,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/xml-tools/sample-xsd-files.md",
+            "redirect_url": "/visualstudio/xml-tools/sample-xsd-file-simple-schema",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/xml-tools/formatting-xml-text-editor-options-dialog-box.md",
             "redirect_url": "/visualstudio/ide/reference/options-text-editor-xml-formatting",
             "redirect_document_id": false
