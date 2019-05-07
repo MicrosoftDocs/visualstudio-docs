@@ -14,7 +14,7 @@ ms.workload:
   - "vssdk"
 ---
 # IEnumDebugThreads2
-This interfac enumerates the threads running in the current debug session.
+This interface enumerates the threads running in the current debug session.
 
 ## Syntax
 
