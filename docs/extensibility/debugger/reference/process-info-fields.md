@@ -12,9 +12,10 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
----dev_langs:
+dev_langs:
   - CPP
   - CSharp
+---
 # PROCESS_INFO_FIELDS
 Specified what kind of information to retrieve for a process.
 
