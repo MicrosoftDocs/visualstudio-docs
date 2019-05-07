@@ -100,11 +100,20 @@ When using .NET Framework console app projects, the option to add Docker support
 1. Create a new .NET Framework Console app project.
 1. In **Solution Explorer**, right-click on the project node, and choose **Add** > **Container Orchestration Support**.  In the dialog that appears, choose **Docker Compose**. A Dockerfile is added to your project, and a Docker Compose project is added with associated support files.
 
-### Edit your code and refresh
-
-
-
 ### Debug with breakpoints
+
+1. In **Solution Explorer**, open `Program.cs`.
+2. Replace the contents of the `Main` method with the following:
+
+   ```csharp
+       System.Console.WriteLine("Hello, world!");
+   ```
+
+3. Set a breakpoint to the left of the code line.
+4. Hit F5 to start debugging and hit the breakpoint.
+5. Switch to Visual Studio to view the breakpoint, inspect values, and so on.
+
+   ![Breakpoint](media/edit-and-refresh/breakpoint-console.png)
 
 ## Summary
 
