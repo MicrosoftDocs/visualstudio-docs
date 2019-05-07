@@ -20,19 +20,19 @@ Coded UI tests can automate testing for web applications by recording your tests
   
 - Operating systems:  
   
-  -   Microsoft Windows 7  
+  - Microsoft Windows 7  
   
-  -   Microsoft Windows 8  
+  - Microsoft Windows 8  
   
-  -   Microsoft Windows Server 2008 R2 SP1  
+  - Microsoft Windows Server 2008 R2 SP1  
   
 - Web browser versions:  
   
-  -   Windows Internet Explorer 9  
+  - Windows Internet Explorer 9  
   
-  -   Windows Internet Explorer 10  
+  - Windows Internet Explorer 10  
   
-  -   For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)  
+  - For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)  
   
 - Install the [Selenium components for Coded UI Cross Browser Testing](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
@@ -53,7 +53,7 @@ Coded UI tests can automate testing for web applications by recording your tests
  **Recording:** You must use the Coded UI Test Builder to record your web application test using Internet Explorer. You can optionally add validation and custom code for the tested controls using a predefined set of properties as you would normally do for coded UI tests. For more information, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).  
   
 > [!NOTE]
->  You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.  
+> You cannot record coded UI tests using Google Chrome or Mozilla Firefox browsers.  
   
  **Play back with Internet Explorer:** When no browser is explicitly specified, tests will run on Internet Explorer by default. You can explicitly state the browser to be used by setting the **BrowserWindow.CurrentBrowser** property in your test code. For Internet Explorer, this property should be set to **IE** or **Internet Explorer**.  
   
@@ -70,26 +70,26 @@ Coded UI tests can automate testing for web applications by recording your tests
 3. Highlight the extension and choose **Download**.  
   
    > [!TIP]
-   >  You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
+   > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).  
   
    For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
   
 ### Enable debugging  
  To enable debugging your web application, you must complete the following configuration options:  
   
-1.  Enable Just My Code:  
+1. Enable Just My Code:  
   
-    1.  On the **Tools** menu, choose **Options** and then choose **Debugging**.  
+    1. On the **Tools** menu, choose **Options** and then choose **Debugging**.  
   
-    2.  Select **Enable Just My Code**.  
+    2. Select **Enable Just My Code**.  
   
-2.  Disable CLR exceptions:  
+2. Disable CLR exceptions:  
   
-    1.  On the **Debug** menu, choose **Exceptions**.  
+    1. On the **Debug** menu, choose **Exceptions**.  
   
-    2.  For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.  
+    2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.  
   
-##  <a name="generate"></a> *I don't see the option to change BrowserWindow.CurrentBrowser in the coded UI test.*  
+## <a name="generate"></a> *I don't see the option to change BrowserWindow.CurrentBrowser in the coded UI test.*  
  You might be using a version of [!INCLUDE[vs2011_first](../includes/vs2011-first-md.md)] that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise.  
   
  *What else should I know?*  

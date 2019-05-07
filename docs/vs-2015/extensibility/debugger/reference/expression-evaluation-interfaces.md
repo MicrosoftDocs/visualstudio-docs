@@ -15,7 +15,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  The following are the Expression Evaluation Interfaces for the [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] Debugging SDK.  
   
@@ -24,11 +24,11 @@ manager: jillfra
   
  Each interface in the table shows the component that can implement it from the following list:  
   
--   Debug Engine (DE)  
+- Debug Engine (DE)  
   
--   Expression Evaluator (EE)  
+- Expression Evaluator (EE)  
   
--   Visual Studio (VS)  
+- Visual Studio (VS)  
   
 |Interface|Implemented by|Description|  
 |---------------|--------------------|-----------------|  

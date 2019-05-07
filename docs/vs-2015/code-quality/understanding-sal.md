@@ -118,15 +118,15 @@ wchar_t * wmemcpy(
 ### Example: The \_In\_ Annotation  
  The `_In_` annotation indicates that:  
   
--   The parameter must be valid and will not be modified.  
+- The parameter must be valid and will not be modified.  
   
--   The function will only read from the single-element buffer.  
+- The function will only read from the single-element buffer.  
   
--   The caller must provide the buffer and initialize it.  
+- The caller must provide the buffer and initialize it.  
   
--   `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.  
+- `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.  
   
--   `_In_` is allowed but ignored by the analyzer on non-pointer scalars.  
+- `_In_` is allowed but ignored by the analyzer on non-pointer scalars.  
   
 ```cpp  
 void InCallee(_In_ int *pInt)  
@@ -240,7 +240,7 @@ void OutOptCaller()
  `_Inout_` is used to annotate a pointer parameter that may be changed by the function. The pointer must point to valid initialized data before the call, and even if it changes, it must still have a valid value on return. The annotation specifies that the function may freely read from and write to the one-element buffer. The caller must provide the buffer and initialize it.  
   
 > [!NOTE]
->  Like `_Out_`, `_Inout_` must apply to a modifiable value.  
+> Like `_Out_`, `_Inout_` must apply to a modifiable value.  
   
 ```cpp  
   

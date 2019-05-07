@@ -30,7 +30,7 @@ From within Visual Studio, applications can be published directly to the followi
 - [Azure App Service](#azure-app-service)
 - [Azure Virtual Machines](#azure-virtual-machines)
 - [File system](#file-system)
-- [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
+- [Custom targets (IIS, FTP, etc.)](#custom-targets-iis-ftp), which includes all arbitrary web servers.
 
 On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 

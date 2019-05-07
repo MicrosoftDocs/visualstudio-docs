@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetType
 This method gets the type of field.
@@ -30,13 +33,13 @@ int GetType(
 );
 ```
 
-#### Parameters
- `ppType`
+## Parameters
+ `ppType`\
 
  [out] Returns the field type as another [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

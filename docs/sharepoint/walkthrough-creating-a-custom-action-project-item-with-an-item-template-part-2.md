@@ -19,16 +19,16 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
--   Creating a wizard for a custom SharePoint project item type that is associated with an item template.
+- Creating a wizard for a custom SharePoint project item type that is associated with an item template.
 
--   Defining a custom wizard UI that resembles the built-in wizards for SharePoint project items in Visual Studio.
+- Defining a custom wizard UI that resembles the built-in wizards for SharePoint project items in Visual Studio.
 
--   Using replaceable parameters to initialize SharePoint project files with data that you collect in the wizard.
+- Using replaceable parameters to initialize SharePoint project files with data that you collect in the wizard.
 
--   Debugging and testing the wizard.
+- Debugging and testing the wizard.
 
 > [!NOTE]
->  You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.
+> You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.
 
 ## Prerequisites
  To perform this walkthrough, you must first create the CustomActionProjectItem solution by completing [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).
@@ -50,48 +50,48 @@ ms.workload:
 
 #### To create the wizard project
 
-1.  In Visual Studio, open the CustomActionProjectItem solution
+1. In Visual Studio, open the CustomActionProjectItem solution
 
-2.  In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.
+2. In **Solution Explorer**, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**.
 
-3.  In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Windows** node.
+3. In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Windows** node.
 
-4.  At the top of the **New Project** dialog box, make sure that **.NET Framework 4.5** is chosen in the list of versions of the .NET Framework.
+4. At the top of the **New Project** dialog box, make sure that **.NET Framework 4.5** is chosen in the list of versions of the .NET Framework.
 
-5.  Choose the **WPF User Control Library** project template, name the project **ItemTemplateWizard**, and then choose the **OK** button.
+5. Choose the **WPF User Control Library** project template, name the project **ItemTemplateWizard**, and then choose the **OK** button.
 
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **ItemTemplateWizard** project to the solution.
 
-6.  Delete the UserControl1 item from the project.
+6. Delete the UserControl1 item from the project.
 
 ## Configure the wizard project
  Before you create the wizard, you must add a Windows Presentation Foundation (WPF) window, a code file, and assembly references to the project.
 
 #### To configure the wizard project
 
-1.  In **Solution Explorer**, open the shortcut menu from the **ItemTemplateWizard** project node, and then choose **Properties**.
+1. In **Solution Explorer**, open the shortcut menu from the **ItemTemplateWizard** project node, and then choose **Properties**.
 
-2.  In the **Project Designer**, make sure that the target framework is set to .NET Framework 4.5.
+2. In the **Project Designer**, make sure that the target framework is set to .NET Framework 4.5.
 
      For Visual C# projects, you can set this value on the **Application** tab. For Visual Basic projects, you can set this value on the **Compile** tab. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
-3.  In the **ItemTemplateWizard** project, add a **Window (WPF)** item to the project, and then name the item **WizardWindow**.
+3. In the **ItemTemplateWizard** project, add a **Window (WPF)** item to the project, and then name the item **WizardWindow**.
 
-4.  Add two code files that are named CustomActionWizard and Strings.
+4. Add two code files that are named CustomActionWizard and Strings.
 
-5.  Open the shortcut menu for the **ItemTemplateWizard** project,  and then choose **Add Reference**.
+5. Open the shortcut menu for the **ItemTemplateWizard** project,  and then choose **Add Reference**.
 
-6.  In the **Reference Manager - ItemTemplateWizard** dialog box, under the **Assemblies** node, choose the **Extensions** node.
+6. In the **Reference Manager - ItemTemplateWizard** dialog box, under the **Assemblies** node, choose the **Extensions** node.
 
-7.  Select the check boxes next to the following assemblies, and then choose the **OK** button:
+7. Select the check boxes next to the following assemblies, and then choose the **OK** button:
 
-    -   EnvDTE
+    - EnvDTE
 
-    -   Microsoft.VisualStudio.Shell.11.0
+    - Microsoft.VisualStudio.Shell.11.0
 
-    -   Microsoft.VisualStudio.TemplateWizardInterface
+    - Microsoft.VisualStudio.TemplateWizardInterface
 
-8.  In **Solution Explorer**, in the **References** folder for the ItemTemplateWizard project, choose the **EnvDTE** reference.
+8. In **Solution Explorer**, in the **References** folder for the ItemTemplateWizard project, choose the **EnvDTE** reference.
 
 9. In the **Properties** window, change the value of the **Embed Interop Types** property to **False**.
 
@@ -102,9 +102,9 @@ ms.workload:
 
 #### To define the default location and ID strings
 
-1.  open.
+1. open.
 
-2.  In the **ItemTemplateWizard** project, replace the code in the Strings code file with the following code.
+2. In the **ItemTemplateWizard** project, replace the code in the Strings code file with the following code.
 
      [!code-csharp[SPExtensibility.ProjectItem.CustomAction#6](../sharepoint/codesnippet/CSharp/customactionprojectitem/itemtemplatewizard/strings.cs#6)]
      [!code-vb[SPExtensibility.ProjectItem.CustomAction#6](../sharepoint/codesnippet/VisualBasic/customactionprojectitem/itemtemplatewizard/strings.vb#6)]
@@ -114,25 +114,25 @@ ms.workload:
 
 #### To create the wizard UI
 
-1.  In the **ItemTemplateWizard** project, open the shortcut menu for the **WizardWindow.xaml** file, and then choose **Open** to open the window in the designer.
+1. In the **ItemTemplateWizard** project, open the shortcut menu for the **WizardWindow.xaml** file, and then choose **Open** to open the window in the designer.
 
-2.  In the XAML view, replace the current XAML with the following XAML. The XAML defines a UI that includes a heading, controls for specifying the behavior of the custom action, and navigation buttons at the bottom of the window.
+2. In the XAML view, replace the current XAML with the following XAML. The XAML defines a UI that includes a heading, controls for specifying the behavior of the custom action, and navigation buttons at the bottom of the window.
 
     > [!NOTE]
-    >  Your project will have some compile errors after you add this code. These errors will go away when you add code in later steps.
+    > Your project will have some compile errors after you add this code. These errors will go away when you add code in later steps.
 
      [!code-xml[SPExtensibility.ProjectItem.CustomAction#9](../sharepoint/codesnippet/Xaml/customactionprojectitem/itemtemplatewizard/wizardwindow.xaml#9)]
 
     > [!NOTE]
-    >  The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other dialog boxes in Visual Studio and to avoid issues that might otherwise occur with modal dialog boxes. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
+    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other dialog boxes in Visual Studio and to avoid issues that might otherwise occur with modal dialog boxes. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
 
-3.  If you're developing a Visual Basic project, remove the `ItemTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should resemble the following code:
+3. If you're developing a Visual Basic project, remove the `ItemTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should resemble the following code:
 
     ```xml
     <Window x:Class="WizardWindow"
     ```
 
-4.  In the code-behind file for the WizardWindow.xaml file, replace the current code with the following code.
+4. In the code-behind file for the WizardWindow.xaml file, replace the current code with the following code.
 
      [!code-vb[SPExtensibility.ProjectItem.CustomAction#7](../sharepoint/codesnippet/VisualBasic/customactionprojectitem/itemtemplatewizard/wizardwindow.xaml.vb#7)]
      [!code-csharp[SPExtensibility.ProjectItem.CustomAction#7](../sharepoint/codesnippet/CSharp/customactionprojectitem/itemtemplatewizard/wizardwindow.xaml.cs#7)]
@@ -142,7 +142,7 @@ ms.workload:
 
 #### To implement the wizard
 
-1.  In the **ItemTemplateWizard** project, open the **CustomActionWizard** code file, and then replace the current code in this file with the following code:
+1. In the **ItemTemplateWizard** project, open the **CustomActionWizard** code file, and then replace the current code in this file with the following code:
 
      [!code-csharp[SPExtensibility.ProjectItem.CustomAction#8](../sharepoint/codesnippet/CSharp/customactionprojectitem/itemtemplatewizard/customactionwizard.cs#8)]
      [!code-vb[SPExtensibility.ProjectItem.CustomAction#8](../sharepoint/codesnippet/VisualBasic/customactionprojectitem/itemtemplatewizard/customactionwizard.vb#8)]
@@ -152,32 +152,32 @@ ms.workload:
 
 #### To build your project
 
-1.  On the menu bar, choose **Build** > **Build Solution**.
+1. On the menu bar, choose **Build** > **Build Solution**.
 
 ## Associate the wizard with the item template
  Now that you have implemented the wizard, you must associate it with the **Custom Action** item template by completing three main steps:
 
-1.  Sign the wizard assembly with a strong name.
+1. Sign the wizard assembly with a strong name.
 
-2.  Get the public key token for the wizard assembly.
+2. Get the public key token for the wizard assembly.
 
-3.  Add a reference to the wizard assembly in the .vstemplate file for the **Custom Action** item template.
+3. Add a reference to the wizard assembly in the .vstemplate file for the **Custom Action** item template.
 
 #### To sign the wizard assembly with a strong name
 
-1.  In **Solution Explorer**, open the shortcut menu from the **ItemTemplateWizard** project node, and then choose **Properties**.
+1. In **Solution Explorer**, open the shortcut menu from the **ItemTemplateWizard** project node, and then choose **Properties**.
 
-2.  On the **Signing** tab, select the **Sign the assembly** check box.
+2. On the **Signing** tab, select the **Sign the assembly** check box.
 
-3.  In the **Choose a strong name key file** list, choose **\<New...>**.
+3. In the **Choose a strong name key file** list, choose **\<New...>**.
 
-4.  In the **Create Strong Name Key** dialog box, enter a name, clear the **Protect my key file with a password** check box, and then choose the **OK** button.
+4. In the **Create Strong Name Key** dialog box, enter a name, clear the **Protect my key file with a password** check box, and then choose the **OK** button.
 
-5.  On the menu bar, choose **Build** > **Build Solution**.
+5. On the menu bar, choose **Build** > **Build Solution**.
 
 #### To get the public key token for the wizard assembly
 
-1.  In a Visual Studio Command Prompt window, run the following command, replacing *PathToWizardAssembly* with the full path to the built ItemTemplateWizard.dll assembly for the ItemTemplateWizard project on your development computer.
+1. In a Visual Studio Command Prompt window, run the following command, replacing *PathToWizardAssembly* with the full path to the built ItemTemplateWizard.dll assembly for the ItemTemplateWizard project on your development computer.
 
     ```xml
     sn.exe -T PathToWizardAssembly
@@ -185,13 +185,13 @@ ms.workload:
 
      The public key token for the *ItemTemplateWizard.dll* assembly is written to the Visual Studio Command Prompt window.
 
-2.  Keep the Visual Studio Command Prompt window open. You'll need the public key token to complete the next procedure.
+2. Keep the Visual Studio Command Prompt window open. You'll need the public key token to complete the next procedure.
 
 #### To add a reference to the wizard assembly in the .vstemplate file
 
-1.  In **Solution Explorer**, expand the **ItemTemplate** project node, and then open the *ItemTemplate.vstemplate* file.
+1. In **Solution Explorer**, expand the **ItemTemplate** project node, and then open the *ItemTemplate.vstemplate* file.
 
-2.  Near the end of the file, add the following `WizardExtension` element between the `</TemplateContent>` and `</VSTemplate>` tags. Replace the *YourToken* value of the `PublicKeyToken` attribute with the public key token that you obtained in the previous procedure.
+2. Near the end of the file, add the following `WizardExtension` element between the `</TemplateContent>` and `</VSTemplate>` tags. Replace the *YourToken* value of the `PublicKeyToken` attribute with the public key token that you obtained in the previous procedure.
 
     ```xml
     <WizardExtension>
@@ -202,7 +202,7 @@ ms.workload:
 
      For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](/visualstudio/extensibility/wizardextension-element-visual-studio-templates).
 
-3.  Save and close the file.
+3. Save and close the file.
 
 ## Add replaceable parameters to the *Elements.xml* file in the item template
  Add several replaceable parameters to the *Elements.xml* file in the ItemTemplate project. These parameters are initialized in the `PopulateReplacementDictionary` method in the `CustomActionWizard` class that you defined earlier. When a user adds a Custom Action project item to a project, Visual Studio automatically replaces these parameters in the *Elements.xml* file in the new project item with the values that they specified in the wizard.
@@ -211,7 +211,7 @@ ms.workload:
 
 #### To add replaceable parameters to the *Elements.xml* file
 
-1.  In the ItemTemplate project, replace the contents of the *Elements.xml* file with the following XML.
+1. In the ItemTemplate project, replace the contents of the *Elements.xml* file with the following XML.
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -229,61 +229,61 @@ ms.workload:
 
      The new XML changes the values of the `Id`, `GroupId`, `Location`, `Description`, and `Url` attributes to replaceable parameters.
 
-2.  Save and close the file.
+2. Save and close the file.
 
 ## Add the wizard to the VSIX package
  In the source.extension.vsixmanifest file in the VSIX project, add a reference to the wizard project so that it's deployed with the VSIX package that contains the project item.
 
 #### To add the wizard to the VSIX package
 
-1.  In **Solution Explorer**, open the shortcut menu from the **source.extension.vsixmanifest** file in the CustomActionProjectItem project, and then choose **Open** to open the file in the manifest editor.
+1. In **Solution Explorer**, open the shortcut menu from the **source.extension.vsixmanifest** file in the CustomActionProjectItem project, and then choose **Open** to open the file in the manifest editor.
 
-2.  In the manifest editor, choose the **Assets** tab, then choose the **New** button.
+2. In the manifest editor, choose the **Assets** tab, then choose the **New** button.
 
      The **Add New Asset** dialog box appears.
 
-3.  In the **Type** list, choose **Microsoft.VisualStudio.Assembly**.
+3. In the **Type** list, choose **Microsoft.VisualStudio.Assembly**.
 
-4.  In the **Source** list, choose **A project in current solution**.
+4. In the **Source** list, choose **A project in current solution**.
 
-5.  In the **Project** list, choose **ItemTemplateWizard**, and then choose the **OK** button.
+5. In the **Project** list, choose **ItemTemplateWizard**, and then choose the **OK** button.
 
-6.  On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution compiles without errors.
+6. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution compiles without errors.
 
 ## Test the wizard
  You are now ready to test the wizard. First, start to debug the CustomActionProjectItem solution in the experimental instance of Visual Studio. Then test the wizard for the Custom Action project item in a SharePoint project in the experimental instance of Visual Studio. Finally, build and run the SharePoint project to verify that the custom action works as expected.
 
 #### To start to debug the solution
 
-1.  Restart Visual Studio with administrative credentials, and then open the CustomActionProjectItem solution.
+1. Restart Visual Studio with administrative credentials, and then open the CustomActionProjectItem solution.
 
-2.  In the ItemTemplateWizard project, open the CustomActionWizard code file, and then add a breakpoint to the first line of code in the `RunStarted` method.
+2. In the ItemTemplateWizard project, open the CustomActionWizard code file, and then add a breakpoint to the first line of code in the `RunStarted` method.
 
-3.  On the menu bar, choose **Debug** > **Exceptions**.
+3. On the menu bar, choose **Debug** > **Exceptions**.
 
-4.  In the **Exceptions** dialog box, make sure that the **Thrown** and **User-unhandled** check boxes for **Common Language Runtime Exceptions** are cleared, and then choose the **OK** button.
+4. In the **Exceptions** dialog box, make sure that the **Thrown** and **User-unhandled** check boxes for **Common Language Runtime Exceptions** are cleared, and then choose the **OK** button.
 
-5.  Start debugging by choosing the **F5** key, or, on the menu bar, choosing **Debug** > **Start Debugging**.
+5. Start debugging by choosing the **F5** key, or, on the menu bar, choosing **Debug** > **Start Debugging**.
 
      Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Custom Action Project Item\1.0 and starts an experimental instance of Visual Studio. You'll test the project item in this instance of Visual Studio.
 
 #### To test the wizard in Visual Studio
 
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.
+1. In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.
 
-2.  Expand the **Visual C#** or **Visual Basic** node (depending on the language that your item template supports), expand the **SharePoint** node, and then choose the **2010** node.
+2. Expand the **Visual C#** or **Visual Basic** node (depending on the language that your item template supports), expand the **SharePoint** node, and then choose the **2010** node.
 
-3.  In the list of project templates, choose **SharePoint 2010 Project**, name the project **CustomActionWizardTest**, and then choose the **OK** button.
+3. In the list of project templates, choose **SharePoint 2010 Project**, name the project **CustomActionWizardTest**, and then choose the **OK** button.
 
-4.  In the **SharePoint Customization Wizard**, enter the URL of the site that you want to use for debugging, and then choose the **Finish** button.
+4. In the **SharePoint Customization Wizard**, enter the URL of the site that you want to use for debugging, and then choose the **Finish** button.
 
-5.  In **Solution Explorer**, open the shortcut menu for the project node, choose **Add**, and then choose **New Item**.
+5. In **Solution Explorer**, open the shortcut menu for the project node, choose **Add**, and then choose **New Item**.
 
-6.  In the **Add New Item - CustomItemWizardTest** dialog box, expand the **SharePoint** node, and then expand the **2010** node.
+6. In the **Add New Item - CustomItemWizardTest** dialog box, expand the **SharePoint** node, and then expand the **2010** node.
 
-7.  In the list of project items, choose the **Custom Action** item, and then choose the **Add** button.
+7. In the list of project items, choose the **Custom Action** item, and then choose the **Add** button.
 
-8.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `RunStarted` method.
+8. Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `RunStarted` method.
 
 9. Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Continue**.
 
@@ -303,37 +303,37 @@ ms.workload:
 
 #### To test the custom action in SharePoint
 
-1.  In the experimental instance of Visual Studio, choose the **F5** key or, on the menu bar, choose **Debug** > **Start Debugging**.
+1. In the experimental instance of Visual Studio, choose the **F5** key or, on the menu bar, choose **Debug** > **Start Debugging**.
 
      The custom action is packaged and deployed to the SharePoint site specified by the **Site URL** property of the project, and the web browser opens to the default page of this site.
 
     > [!NOTE]
-    >  If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button.
+    > If the **Script Debugging Disabled** dialog box appears, choose the **Yes** button.
 
-2.  In the Lists area of the SharePoint site, choose the **Tasks** link.
+2. In the Lists area of the SharePoint site, choose the **Tasks** link.
 
      The **Tasks - All Tasks** page appears.
 
-3.  On the **List Tools** tab of the ribbon, choose the **List** tab, and then, in the **Settings** group, choose **List Settings**.
+3. On the **List Tools** tab of the ribbon, choose the **List** tab, and then, in the **Settings** group, choose **List Settings**.
 
      The **List Settings** page appears.
 
-4.  Under the **Communications** heading near the top of the page, choose the **SharePoint Developer Center** link, verify that the browser opens the website https://docs.microsoft.com/sharepoint/dev/, and then close the browser.
+4. Under the **Communications** heading near the top of the page, choose the **SharePoint Developer Center** link, verify that the browser opens the website https://docs.microsoft.com/sharepoint/dev/, and then close the browser.
 
 ## Cleaning up the development computer
  After you finish testing the project item, remove the project item template from the experimental instance of Visual Studio.
 
 #### To clean up the development computer
 
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.
+1. In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.
 
      The **Extensions and Updates** dialog box opens.
 
-2.  In the list of extensions, choose the **Custom Action Project Item** extension, and then choose the **Uninstall** button.
+2. In the list of extensions, choose the **Custom Action Project Item** extension, and then choose the **Uninstall** button.
 
-3.  In the dialog box that appears, choose the **Yes** button to confirm that you want to uninstall the extension, and then choose the **Restart Now** button to complete the uninstallation.
+3. In the dialog box that appears, choose the **Yes** button to confirm that you want to uninstall the extension, and then choose the **Restart Now** button to complete the uninstallation.
 
-4.  Close both instances of Visual Studio (the experimental instance and the instance of Visual Studio in which the CustomActionProjectItem solution is open).
+4. Close both instances of Visual Studio (the experimental instance and the instance of Visual Studio in which the CustomActionProjectItem solution is open).
 
 ## See also
 - [Walkthrough: Create a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)

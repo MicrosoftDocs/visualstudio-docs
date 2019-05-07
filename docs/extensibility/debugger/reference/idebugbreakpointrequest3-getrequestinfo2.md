@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointRequest3::GetRequestInfo2
 This method gets the breakpoint request information that describes this breakpoint request.
@@ -32,12 +35,12 @@ int GetRequestInfo2(
 );
 ```
 
-#### Parameters
- `dwFields`
+## Parameters
+ `dwFields`\
 
  [in] A combination of flags from the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration that determine which fields of `pBPRequestInfo` are to be filled in.
 
- `bBPRequestInfo`
+ `bBPRequestInfo`\
 
  [out] The [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) structure to be filled in.
 
@@ -47,7 +50,7 @@ int GetRequestInfo2(
 ## Remarks
  There is more information in this request than is returned from the [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md) method.
 
-## See Also
+## See also
 - [IDebugBreakpointRequest3](../../../extensibility/debugger/reference/idebugbreakpointrequest3.md)
 - [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)
 - [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)

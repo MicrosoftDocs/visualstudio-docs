@@ -38,11 +38,11 @@ A method has an excessive cyclomatic complexity.
 
 cyclomatic complexity = the number of edges - the number of nodes + 1
 
-where a node represents a logic branch point and an edge represents a line between nodes.
+A *node* represents a logic branch point and an *edge* represents a line between nodes.
 
 The rule reports a violation when the cyclomatic complexity is more than 25.
 
-You can learn more about code metrics at [Measuring Complexity and Maintainability of Managed Code](../code-quality/code-metrics-values.md),
+You can learn more about code metrics at [Measure complexity of managed code](../code-quality/code-metrics-values.md).
 
 ## How to fix violations
 
@@ -52,7 +52,7 @@ To fix a violation of this rule, refactor the method to reduce its cyclomatic co
 
 It is safe to suppress a warning from this rule if the complexity cannot easily be reduced and the method is easy to understand, test, and maintain. In particular, a method that contains a large `switch` (`Select` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) statement is a candidate for exclusion. The risk of destabilizing the code base late in the development cycle or introducing an unexpected change in runtime behavior in previously shipped code might outweigh the maintainability benefits of refactoring the code.
 
-## How Cyclomatic Complexity is Calculated
+## How Cyclomatic complexity is calculated
 
 The cyclomatic complexity is calculated by adding 1 to the following:
 
@@ -64,7 +64,7 @@ The cyclomatic complexity is calculated by adding 1 to the following:
 
 The following examples show methods that have varying cyclomatic complexities.
 
-**Cyclomatic Complexity of 1**
+**Cyclomatic complexity of 1**
 
 [!code-cpp[FxCop.Maintainability.AvoidExcessiveComplexity#1](../code-quality/codesnippet/CPP/ca1502-avoid-excessive-complexity_1.cpp)]
 [!code-vb[FxCop.Maintainability.AvoidExcessiveComplexity#1](../code-quality/codesnippet/VisualBasic/ca1502-avoid-excessive-complexity_1.vb)]
@@ -72,7 +72,7 @@ The following examples show methods that have varying cyclomatic complexities.
 
 ## Example
 
-**Cyclomatic Complexity of 2**
+**Cyclomatic complexity of 2**
 
 [!code-cpp[FxCop.Maintainability.AvoidExcessiveComplexity#2](../code-quality/codesnippet/CPP/ca1502-avoid-excessive-complexity_2.cpp)]
 [!code-vb[FxCop.Maintainability.AvoidExcessiveComplexity#2](../code-quality/codesnippet/VisualBasic/ca1502-avoid-excessive-complexity_2.vb)]
@@ -80,7 +80,7 @@ The following examples show methods that have varying cyclomatic complexities.
 
 ## Example
 
-**Cyclomatic Complexity of 3**
+**Cyclomatic complexity of 3**
 
 [!code-cpp[FxCop.Maintainability.AvoidExcessiveComplexity#3](../code-quality/codesnippet/CPP/ca1502-avoid-excessive-complexity_3.cpp)]
 [!code-vb[FxCop.Maintainability.AvoidExcessiveComplexity#3](../code-quality/codesnippet/VisualBasic/ca1502-avoid-excessive-complexity_3.vb)]
@@ -88,7 +88,7 @@ The following examples show methods that have varying cyclomatic complexities.
 
 ## Example
 
-**Cyclomatic Complexity of 8**
+**Cyclomatic complexity of 8**
 
 [!code-cpp[FxCop.Maintainability.AvoidExcessiveComplexity#4](../code-quality/codesnippet/CPP/ca1502-avoid-excessive-complexity_4.cpp)]
 [!code-vb[FxCop.Maintainability.AvoidExcessiveComplexity#4](../code-quality/codesnippet/VisualBasic/ca1502-avoid-excessive-complexity_4.vb)]

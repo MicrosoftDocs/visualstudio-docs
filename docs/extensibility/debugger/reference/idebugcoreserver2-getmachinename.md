@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer2::GetMachineName
 Gets the name of the machine the core server is running on.
@@ -30,13 +33,13 @@ int GetName( 
 );
 ```
 
-#### Parameters
- `pbstrName`
+## Parameters
+ `pbstrName`\
 
  [out] Returns a string containing the name of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

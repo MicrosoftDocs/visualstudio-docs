@@ -16,18 +16,18 @@ The performance warnings of th Visual Studio Profiling Tools indicate issues in 
 
 ### To configure profiler performance warnings
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  Expand **Performance Tools**, and then click **Rules**.
+2. Expand **Performance Tools**, and then click **Rules**.
 
-3.  To enable or disable a warning, select or clear the check box next to the warning **ID** and name.
+3. To enable or disable a warning, select or clear the check box next to the warning **ID** and name.
 
-4.  To specify the warring level of a rule, click the **Action** cell next to the rule and then click the warning level.
+4. To specify the warring level of a rule, click the **Action** cell next to the rule and then click the warning level.
 
-    -   **Disabled** - disables the rule (this is the same as clearing the check box next to the rule ID).
+    - **Disabled** - disables the rule (this is the same as clearing the check box next to the rule ID).
 
-    -   **Warning** - displays rule as a warning.
+    - **Warning** - displays rule as a warning.
 
-    -   **Error** - halts profiling execution and displays rule as a error.
+    - **Error** - halts profiling execution and displays rule as a error.
 
-    -   **Information** - displays rule as information only.
+    - **Information** - displays rule as information only.

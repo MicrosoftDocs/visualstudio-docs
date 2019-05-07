@@ -18,18 +18,17 @@ manager: jillfra
 # Choose Toolbox Items, WPF Components
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This tab of the **Choose Toolbox Items** dialog box displays a list of Windows Presentation Foundation (WPF) controls available on your local computer. To display this list, select **Choose Toolbox Items** from the **Tools** menu to display the **Choose Toolbox Items** dialog box, and then select its **WPF Components** tab. To sort the components listed, select any column heading.  
   
 - When the check box next to a component is selected, an icon for that component will be displayed in the **Toolbox**.  
   
   > [!TIP]
-  >  To add an instance of a WPF control to a project document open for editing, drag its **Toolbox** icon onto the Design view surface. Default markup and code for the component are inserted into your project, ready for you to modify. For more information, see [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) and [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db).  
+  > To add an instance of a WPF control to a project document open for editing, drag its **Toolbox** icon onto the Design view surface. Default markup and code for the component are inserted into your project, ready for you to modify. For more information, see [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) and [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db).  
   
 - When the check box next to a component is cleared, the corresponding icon will be removed from the **Toolbox.**  
   
   > [!NOTE]
-  >  The .NET Framework components installed on your computer remain available whether or not icons for them are displayed in the **Toolbox**.  
+  > The .NET Framework components installed on your computer remain available whether or not icons for them are displayed in the **Toolbox**.  
   
   The columns on the **WPF Components** tab contain the following information:  
   

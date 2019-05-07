@@ -18,13 +18,13 @@ The CPU Utilization graph shows the level of utilization in an app over time. Th
 
 ## CPU Utilization graph colors
 
--   Green indicates the utilization of the logical cores in the system by the current process.
+- Green indicates the utilization of the logical cores in the system by the current process.
 
--   Light gray indicates the utilization of logical cores by other processes on the system. A high percentage of light gray in the CPU graph indicates that the system is heavily loaded by other processes and that your process is likely to be pre-empted by them. To reduce the consumption of logical cores by other processes, reduce the number of them running on the system.
+- Light gray indicates the utilization of logical cores by other processes on the system. A high percentage of light gray in the CPU graph indicates that the system is heavily loaded by other processes and that your process is likely to be pre-empted by them. To reduce the consumption of logical cores by other processes, reduce the number of them running on the system.
 
--   Dark gray indicates the consumption of logical cores by the system process. You can't directly control this, but it's useful to know when it's occurring because it can affect the availability of logical cores for your process.
+- Dark gray indicates the consumption of logical cores by the system process. You can't directly control this, but it's useful to know when it's occurring because it can affect the availability of logical cores for your process.
 
--   White indicates the availability of unused logical cores on the system. Those cores are available for your process if you can find more opportunities for parallelism.
+- White indicates the availability of unused logical cores on the system. Those cores are available for your process if you can find more opportunities for parallelism.
 
 ## See also
 - [Utilization View](../profiling/utilization-view.md)

@@ -20,7 +20,7 @@ You attempted to invoke the **Number.prototype.toString** or **Number.prototype.
   
 ### To correct this error  
   
--   Only invoke the **Number.prototype.toString** or **Number.prototype.valueOf** methods on objects of type **Number**.  
+- Only invoke the **Number.prototype.toString** or **Number.prototype.valueOf** methods on objects of type **Number**.  
   
 ## See Also  
  [Number Object](../../javascript/reference/number-object-javascript.md)   

@@ -14,10 +14,10 @@ Follow the Visual Studio User Experience Guidelines if you design new features f
 
 If you develop software for Microsoft products, learn to use these resources:
 
--   The [Windows User Experience Interaction Guidelines](https://developer.microsoft.com/windows/desktop) are the basics for Windows desktop behavior and appearance.
+- The [Windows User Experience Interaction Guidelines](https://developer.microsoft.com/windows/desktop) are the basics for Windows desktop behavior and appearance.
 
--   These Visual Studio guidelines, which are platform-specific guidelines that supersede the general Windows guidelines wherever appropriate to our environment.
+- These Visual Studio guidelines, which are platform-specific guidelines that supersede the general Windows guidelines wherever appropriate to our environment.
 
--   The [patterns and guides for Windows Store apps](https://dev.windows.com/en-us/design/interaction-ux) are a reference for emerging patterns that may be used in some instances within Visual Studio.
+- The [controls and patterns for UWP apps](/windows/uwp/design/controls-and-patterns) are a reference for emerging patterns that may be used in some instances within Visual Studio.
 
 These guidelines give you information about what to do when designing for Visual Studio, and in some cases information regarding how to do it is also included. For more detailed implementation information and to learn about specific application programming interfaces (APIs) that allow you to write code for solutions that integrate into the Visual Studio integrated development environment (IDE), use the [Visual Studio Software Development Kit (SDK)](../visual-studio-sdk.md).

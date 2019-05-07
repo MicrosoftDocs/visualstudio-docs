@@ -33,7 +33,7 @@ IDebugProcessEx2 : IUnknown
 
 ## Notes for Callers
 
--   The SDM calls [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProcess2` interface to obtain this interface.
+- The SDM calls [QueryInterface](/cpp/atl/queryinterface) on an `IDebugProcess2` interface to obtain this interface.
 
 ## Methods in Vtable Order
  The following table shows the methods of `IDebugProcessEx2`.
@@ -54,6 +54,6 @@ IDebugProcessEx2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

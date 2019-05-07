@@ -18,4 +18,4 @@ Web Deploy 3.6 for Hosting Servers provides additional configuration features th
 
 4. (Optional) Verify that Web Deploy is running correctly by opening  **Control Panel > System and Security > Administrative Tools > Services** and make sure that **Web Deployment Agent Service** is running (the service name is different in older versions).
 
-    If the agent service is not running, start it. If it is not present at all, go to **Control Panel > Programs > Uninstall a program**, find **Microsoft Web Deploy <version>**. Choose to **Change** the installation and make sure that you choose  **Will be installed to the local hard drive** for the Web Deploy components. Complete the change installation steps.
+    If the agent service is not running, start it. If it is not present at all, go to **Control Panel > Programs > Uninstall a program**, find **Microsoft Web Deploy \<version>**. Choose to **Change** the installation and make sure that you choose  **Will be installed to the local hard drive** for the Web Deploy components. Complete the change installation steps.

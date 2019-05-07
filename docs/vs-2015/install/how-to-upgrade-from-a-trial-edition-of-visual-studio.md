@@ -20,22 +20,22 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
  For example, if you download and use [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] for 10 days and then register it, you can use it for an additional 80 days. To continue to use the product after 90 days, you must either provide a valid product key, or sign into Visual Studio with a Microsoft account, or an organizational account, that is associated with an MSDN subscription or a Visual Studio Online subscription. For information about how to locate or obtain a product key, see [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and [How to buy Visual Studio](http://www.visualstudio.com/products/how-to-buy-vs).
 
 > [!IMPORTANT]
->  The trial period for release versions of Express editions of Visual Studio is also 30 days. To indefinitely extend the trial period for Express editions of Visual Studio, sign in to Visual Studio or register the product.
+> The trial period for release versions of Express editions of Visual Studio is also 30 days. To indefinitely extend the trial period for Express editions of Visual Studio, sign in to Visual Studio or register the product.
 
  Before you upgrade, it's recommend that you download and review the [Visual Studio and MSDN Licensing White Paper](http://www.microsoft.com/download/details.aspx?id=13350) from the Microsoft website. For additional assistance, see [Support for Visual Studio](http://support.microsoft.com/ph/1117/en-us).
 
 ### To upgrade from a trial edition of Visual Studio Professional or Enterprise
 
-1.  Start Visual Studio in **Run as Administrator** mode.
+1. Start Visual Studio in **Run as Administrator** mode.
 
-2.  On the menu bar, choose **Help**, **Register Product**.
+2. On the menu bar, choose **Help**, **Register Product**.
 
-3.  Choose the **Change my product license** link.
+3. Choose the **Change my product license** link.
 
-4.  Enter a valid product key, and then choose the **Apply** button.
+4. Enter a valid product key, and then choose the **Apply** button.
 
     > [!NOTE]
-    >  Internet access is required to register and unlock any edition of Visual Studio. After Visual Studio is registered, though, an internet connection is optional.
+    > Internet access is required to register and unlock any edition of Visual Studio. After Visual Studio is registered, though, an internet connection is optional.
 
 ## See Also
  [Install Visual Studio](../install/install-visual-studio-2015.md)

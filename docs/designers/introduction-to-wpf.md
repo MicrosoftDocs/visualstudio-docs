@@ -218,9 +218,9 @@ The following figure shows the result of the XAML markup in the preceding exampl
 
 Most applications are created to provide users with the means to view and edit data. For WPF applications, the work of storing and accessing data is already provided for by technologies such as SQL Server and ADO .NET. After the data is accessed and loaded into an application's managed objects, the hard work for WPF applications begins. Essentially, this involves two things:
 
-1.  Copying the data from the managed objects into controls, where the data can be displayed and edited.
+1. Copying the data from the managed objects into controls, where the data can be displayed and edited.
 
-2.  Ensuring that changes made to data by using controls are copied back to the managed objects.
+2. Ensuring that changes made to data by using controls are copied back to the managed objects.
 
 To simplify application development, WPF provides a data binding engine to automatically perform these steps. The core unit of the data binding engine is the <xref:System.Windows.Data.Binding> class, whose job is to bind a control (the binding target) to a data object (the binding source). This relationship is illustrated by the following figure:
 
@@ -569,11 +569,11 @@ The following example defines a common background color that is shared by a <xre
 
 This example implements a background color resource by using the `Window.Resources` property element. This resource is available to all children of the <xref:System.Windows.Window>. There are a variety of resource scopes, including the following, listed in the order in which they are resolved:
 
-1.  An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
+1. An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
 
-2.  A <xref:System.Windows.Window> or a <xref:System.Windows.Controls.Page> (also using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
+2. A <xref:System.Windows.Window> or a <xref:System.Windows.Controls.Page> (also using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
 
-3.  An <xref:System.Windows.Application> (using the <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> property).
+3. An <xref:System.Windows.Application> (using the <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> property).
 
 The variety of scopes gives you flexibility with respect to the way in which you define and share your resources.
 

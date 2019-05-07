@@ -8,6 +8,7 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
   - data-science
+monikerRange: vs-2017
 ---
 
 # How to install R Tools for Visual Studio
@@ -15,8 +16,8 @@ ms.workload:
 In this article:
 
 - [Supported versions of Visual Studio](#supported-versions-of-visual-studio)
-- [Install RTVS in Visual Studio 2017](#installing-rtvs-in-visual-studio-2017)
-- [Install RTVS in Visual Studio 2015](#installing-rtvs-in-visual-studio-2015)
+- [Install RTVS in Visual Studio 2017](#install-rtvs-in-visual-studio-2017)
+- [Install RTVS in Visual Studio 2015](#install-rtvs-in-visual-studio-2015)
 - [Offline installation](#offline-installation-of-visual-studio-and-rtvs)
 
 > [!Note]
@@ -24,7 +25,7 @@ In this article:
 
 ## Supported versions of Visual Studio
 
-R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
+R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
 
 RTVS is not presently supported on Visual Studio for Mac.
 
@@ -61,7 +62,7 @@ Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Micro
 Download the current RTVS for Visual Studio 2015 from [https://aka.ms/rtvs-current](https://aka.ms/rtvs-current). RTVS checks for a suitable version of Visual Studio and helps you install an R interpreter if you haven't already.
 
 > [!Note]
-> The standalone RTVS installer works only with Visual Studio 2015; with Visual Studio 2017, install R support through the [Data Science and Analytical Applications workload](#installing-rtvs-in-visual-studio-2017) as described earlier.
+> The standalone RTVS installer works only with Visual Studio 2015; with Visual Studio 2017, install R support through the [Data Science and Analytical Applications workload](#install-rtvs-in-visual-studio-2017) as described earlier.
 
 RTVS for Visual Studio 2015 is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio 14\Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio`
 

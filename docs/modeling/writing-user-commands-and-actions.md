@@ -13,17 +13,15 @@ You can customize a domain-specific language by adding commands to the diagram, 
 
 ## User actions
 
--   [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md) - You can customize the behavior of commands such as copy and print.
+- [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md) - You can customize the behavior of commands such as copy and print.
 
--   [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md) - Create your own commands that can update your model or external resources.
+- [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md) - Create your own commands that can update your model or external resources.
 
--   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md) - Allow the user to move items from one diagram to another, including UML diagrams. You can store references to one model in another.
+- [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md) - Allow the user to move items from one diagram to another, including UML diagrams. You can store references to one model in another.
 
--   [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) - Allow your user to click through from an item to another item that it references.
+- [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md) - Allow your user to click through from an item to another item that it references.
 
--   [How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)
-
--   [Customizing Element Tools](../modeling/customizing-element-tools.md)
+- [How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)
 
 ## See Also
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEngine2::DestroyProgram
 Informs a debug engine (DE) that the program specified has been atypically terminated and that the DE should clean up all references to the program and send a program destroy event.
@@ -30,8 +33,8 @@ int DestroyProgram( 
 );
 ```
 
-#### Parameters
- `pProgram`
+## Parameters
+ `pProgram`\
 
  [in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program that has been atypically terminated.
 
@@ -43,7 +46,7 @@ int DestroyProgram( 
 
  This method is not implemented (returns `E_NOTIMPL`) if the DE runs in the same process as the program being debugged. This method is implemented only if the DE runs in the same process as the SDM.
 
-## See Also
+## See also
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProgramDestroyEvent2](../../../extensibility/debugger/reference/idebugprogramdestroyevent2.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

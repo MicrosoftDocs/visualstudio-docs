@@ -28,7 +28,7 @@ ms.workload:
  You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at runtime in a VSTO Add-in. For more information, see [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).
 
 > [!NOTE]
->  Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+> Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
 ## Formatting
  All formatting that can be applied to a <xref:Microsoft.Office.Interop.Excel.Chart> can also be applied to a <xref:Microsoft.Office.Tools.Excel.Chart> control. This includes borders, fonts, chart type, gridlines, legend, and data labels.
@@ -36,35 +36,35 @@ ms.workload:
 ## Events
  The following events are available for the <xref:Microsoft.Office.Tools.Excel.Chart> control:
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.ActivateEvent>
+- <xref:Microsoft.Office.Tools.Excel.Chart.ActivateEvent>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Excel.Chart.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Calculate>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Calculate>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Deactivate>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Deactivate>
 
--   <xref:System.ComponentModel.Component.Disposed>
+- <xref:System.ComponentModel.Component.Disposed>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.DragOver>
+- <xref:Microsoft.Office.Tools.Excel.Chart.DragOver>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.DragPlot>
+- <xref:Microsoft.Office.Tools.Excel.Chart.DragPlot>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseDown>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseDown>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseMove>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseMove>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.MouseUp>
+- <xref:Microsoft.Office.Tools.Excel.Chart.MouseUp>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.Resize>
+- <xref:Microsoft.Office.Tools.Excel.Chart.Resize>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.SelectEvent>
+- <xref:Microsoft.Office.Tools.Excel.Chart.SelectEvent>
 
--   <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
+- <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>
 
 ## See also
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

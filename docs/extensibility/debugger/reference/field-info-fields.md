@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FIELD_INFO_FIELDS
 Specifies what information to retrieve about an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
@@ -41,17 +44,17 @@ public enum enum_FIELD_INFO_FIELDS {
 };
 ```
 
-## Members
-FIF_FULLNAME
+## Fields
+`FIF_FULLNAME`\
 Initialize/use the `bstrFullName` field in the [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) structure.
 
-FIF_NAME
+`FIF_NAME`\
 Initialize/use the `bstrName` field in the `FIELD_INFO` structure.
 
-FIF_TYPE
+`FIF_TYPE`\
 Initialize/use the `bstrType` field in the `FIELD_INFO` structure.
 
-FIF_MODIFIERS
+`FIF_MODIFIERS`\
 Initialize/use the `bstrModifiers` field in the `FIELD_INFO` structure.
 
 ## Remarks
@@ -68,7 +71,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

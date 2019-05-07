@@ -25,27 +25,27 @@ ms.workload:
 
 ### To add a parameter to a method
 
-1.  Add a method to an entity.
+1. Add a method to an entity.
 
-2.  On the menu bar, choose **View** > **Other Windows** > **BDC Method Details**.
+2. On the menu bar, choose **View** > **Other Windows** > **BDC Method Details**.
 
      The **BDC Method Details** window opens. For more information, see [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md).
 
-3.  In the **BDC Method Details** window, expand the node of the method, and then expand the **Parameters** node.
+3. In the **BDC Method Details** window, expand the node of the method, and then expand the **Parameters** node.
 
-4.  In the **Add a Parameter** list, choose **Create Parameter**.
+4. In the **Add a Parameter** list, choose **Create Parameter**.
 
      A new parameter appears beneath the **Parameters** node.
 
-5.  On the menu bar, choose **View** > **Properties Window**.
+5. On the menu bar, choose **View** > **Properties Window**.
 
-6.  In the **Properties** window, set the **Name** property to any name that makes sense. For example, if the method will return customers, you might name the method **GetCustomers**.
+6. In the **Properties** window, set the **Name** property to any name that makes sense. For example, if the method will return customers, you might name the method **GetCustomers**.
 
-7.  In the **BDC Method Details** window, open the list that appears for the direction of the parameter, and then choose **In**, **InOut**, **Out**, or **Return**.
+7. In the **BDC Method Details** window, open the list that appears for the direction of the parameter, and then choose **In**, **InOut**, **Out**, or **Return**.
 
      For more information about which direction to choose for the type method that you are creating, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
-8.  Modify the type descriptor of the parameter. For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
+8. Modify the type descriptor of the parameter. For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 
 ## See also
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)

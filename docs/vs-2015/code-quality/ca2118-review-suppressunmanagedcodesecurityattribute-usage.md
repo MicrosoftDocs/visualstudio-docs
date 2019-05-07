@@ -38,11 +38,11 @@ manager: "wpickett"
 
  The default security policy does not grant unmanaged code permission to an assembly unless it is executing from the local computer or is a member of one of the following groups:
 
--   My Computer Zone Code Group
+- My Computer Zone Code Group
 
--   Microsoft Strong Name Code Group
+- Microsoft Strong Name Code Group
 
--   ECMA Strong Name Code Group
+- ECMA Strong Name Code Group
 
 ## How to Fix Violations
  Carefully review your code to ensure that this attribute is absolutely necessary. If you are unfamiliar with managed code security, or do not understand the security implications of using this attribute, remove it from your code. If the attribute is required, you must ensure that callers cannot use your code maliciously. If your code does not have permission to execute unmanaged code, this attribute has no effect and should be removed.

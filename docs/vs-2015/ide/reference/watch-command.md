@@ -18,7 +18,6 @@ manager: jillfra
 # Watch Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.  
   
 ## Syntax  

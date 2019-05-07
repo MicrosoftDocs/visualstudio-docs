@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::Attach_V7
 
@@ -36,17 +39,17 @@ int Attach_V7 (
 );
 ```
 
-#### Parameters
+## Parameters
 
-`pMDMProgram`
+`pMDMProgram`\
 
  [in] The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface that represents the program to attach to.
 
- `pCallback`
+ `pCallback`\
 
  [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) interface to be used to send debug events to the SDM.
 
- `dwReason`
+ `dwReason`\
 
  [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching.
 
@@ -67,7 +70,7 @@ When this method is called, the DE must send the [IDebugEngineCreateEvent2](../.
 
 The DE must call the [GetProgramId](../../../extensibility/debugger/reference/idebugprogram2-getprogramid.md) method on the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object supplied by the [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md) event object, and must store that program's GUID in the instance data for the `IDebugProgram2` object implemented by the DE.
 
-## See Also
+## See also
 
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [IDebugProgramNodeAttach2](../../../extensibility/debugger/reference/idebugprogramnodeattach2.md)

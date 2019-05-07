@@ -10,48 +10,50 @@ ms.workload:
   - "vssdk"
 ---
 # UX Essentials for Visual Studio
+
 ## Best practices
 
 ### 1. Be consistent within the Visual Studio environment.
 
--   Follow existing [interaction patterns](interaction-patterns-for-visual-studio.md) within the shell.
+- Follow existing [interaction patterns](interaction-patterns-for-visual-studio.md) within the shell.
 
--   Design features to be consistent with the shell's visual language and [craftsmanship requirements](evaluation-tools-for-visual-studio.md).
+- Design features to be consistent with the shell's visual language and [craftsmanship requirements](evaluation-tools-for-visual-studio.md).
 
--   Use shared commands and controls when they exist.
+- Use shared commands and controls when they exist.
 
--   Understand the Visual Studio hierarchy and how it establishes context and drives the UI.
+- Understand the Visual Studio hierarchy and how it establishes context and drives the UI.
 
 ### 2. Use the environment service for fonts and colors.
 
--   UI should respect the current [environment font](fonts-and-formatting-for-visual-studio.md) setting unless it is exposed for customization in the Fonts and Colors page in the Options dialog.
+- UI should respect the current [environment font](fonts-and-formatting-for-visual-studio.md) setting unless it is exposed for customization in the Fonts and Colors page in the Options dialog.
 
--   UI elements must use the [VSColor Service](colors-and-styling-for-visual-studio.md), using shared environment tokens or feature-specific tokens.
+- UI elements must use the [VSColor Service](colors-and-styling-for-visual-studio.md), using shared environment tokens or feature-specific tokens.
 
 ### 3. Make all imagery consistent with the new VS style.
 
--   Follow Visual Studio design principles for icons, glyphs, and other graphics.
+- Follow Visual Studio design principles for icons, glyphs, and other graphics.
 
--   Do not place text in graphic elements.
+- Do not place text in graphic elements.
 
 ### 4. Design from a user-centric perspective.
 
--   Create the task flow before the individual features within it.
+- Create the task flow before the individual features within it.
 
--   Be familiar with your users and make that knowledge explicit in your spec.
+- Be familiar with your users and make that knowledge explicit in your spec.
 
--   When reviewing the UI, evaluate the complete experience as well as the details.
+- When reviewing the UI, evaluate the complete experience as well as the details.
 
--   Design your UI so that it remains functional and attractive regardless of locale or language.
+- Design your UI so that it remains functional and attractive regardless of locale or language.
 
 ## Screen resolution
 
 ### Minimum resolution
- - The minimum resolution for Visual Studio Dev14 is **1280x720**. This means that it is *possible* to use Visual Studio at this resolution, although it might not be an optimal user experience. There is no guarantee that all aspects will be usable at resolutions lower than 1280x720.
 
- - The target resolution for Visual Studio is **1366x768**. This is the lowest resolution at which we promise a *good* user experience.
+- The minimum resolution for Visual Studio 2015 is **1280x720**. This means that it is *possible* to use Visual Studio at this resolution, although it might not be an optimal user experience. There is no guarantee that all aspects will be usable at resolutions lower than 1280x720.
 
- - Initial dialog height should be **smaller than 700 pixels**, so it fits within the minimum resolution of the IDE frame at 96 dpi.
+- The target resolution for Visual Studio is **1366x768**. This is the lowest resolution at which we promise a *good* user experience.
+
+- Initial dialog height should be **smaller than 700 pixels**, so it fits within the minimum resolution of the IDE frame at 96 dpi.
 
 ### High-density displays
  UI in Visual Studio must work well in all DPI scaling factors that Windows supports out of the box: 150%, 200%, and 250%.
@@ -63,9 +65,9 @@ ms.workload:
 
 #### Feature team goals
 
--   Warn users that they have added an element that must be configured.
+- Warn users that they have added an element that must be configured.
 
--   Draw the user's attention to the areas that need input.
+- Draw the user's attention to the areas that need input.
 
 #### Anti-pattern solution
  As soon as the user has initiated an action and before they have completed the task, immediately place critical-stop icons next to the areas that need configuration.
@@ -78,13 +80,14 @@ ms.workload:
  ![Placing UI in an error state by default is a Visual Studio anti-pattern.](../../extensibility/ux-guidelines/media/manifestdesignererrordeclarationsanti-pattern.png "ManifestDesignererrordeclarationsanti-pattern")<br />Placing UI in an error state by default is a Visual Studio anti-pattern.
 
 #### Alternatives
- A much better solution to this problem would be to:
 
--   Allow the user to add a declaration without warning and then move immediately to set properties on the item.
+A better solution to this problem is to:
 
--   Add the warning icon (gold triangle) when focus moves from the item, such as to add another declaration to the list or to attempt to change tabs within the designer.
+- Allow the user to add a declaration without warning and then move immediately to set properties on the item.
 
--   If the user attempts to change tabs before setting properties on any declarations, pop a dialog explaining that the application will not build (or whatever the implications) until the warnings are resolved. If the user dismisses the dialog and changes tabs anyway then an icon (critical or warning, as appropriate) is added to the Declarations tab.
+- Add the warning icon (gold triangle) when focus moves from the item, such as to add another declaration to the list or to attempt to change tabs within the designer.
+
+- If the user attempts to change tabs before setting properties on any declarations, pop a dialog explaining that the application will not build (or whatever the implications) until the warnings are resolved. If the user dismisses the dialog and changes tabs anyway then an icon (critical or warning, as appropriate) is added to the Declarations tab.
 
 ### Multiple clicks to dismiss UI
 
@@ -94,32 +97,30 @@ ms.workload:
 #### Anti-pattern
  The team inserting the video links into various places within the VS UI decided against the common pattern of the "&times;" close button and tooltip explanation as specified by UX, and instead implemented a drop-down and "Don't show again" link.
 
-#### Example: video links in Team Explorer
+#### Example: Video links in Team Explorer
 Forcing the user to read explanatory text before dismissing UI is an anti-pattern within Visual Studio. Correctly designed, video links should display a tooltip with additional information on hover, and clicking the "&times;" should dismiss the message without need for further interaction.
-
 
  ![Explanatory text anti&#45;pattern &#45; incorrect](../../extensibility/ux-guidelines/media/incorrectuseofmultipleclicks.png "Incorrectuseofmultipleclicks")<br />Incorrect video link pattern
 
-#### Result
- Instead of a simple close button (one click), the user is forced to use two clicks to simply dismiss the UI in every place that the video links appear.
+Instead of a simple close button (one click), the user is forced to use two clicks to simply dismiss the UI in every place that the video links appear.
 
-#### Alternatives
- The correct design for this situation would be to follow the pattern common to Internet Explorer, Office, and Visual Studio: on hover, the user can see the tooltip description and one click hides the UI.
+The correct design for this situation is to follow the pattern common to Internet Explorer, Office, and Visual Studio: on hover, the user can see the tooltip description and one click hides the UI.
 
  ![Explanatory text anti&#45;pattern &#45; correct](../../extensibility/ux-guidelines/media/explanatorytextanti-pattern-correct.png "Explanatorytextanti-pattern-correct")<br />Correct video link pattern
 
 ### Using command bars for settings
- **Figure A** represents this anti-pattern: putting a setting underneath a command button that applies to more than just the command. In this sketch, there are commands besides Start Debugging — like View in Browser, Start Without Debugging, and Step Into — that will respect the selected setting.
 
-  ![Figure A: Command bar anti-pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figurea.png "Commandbaranti-pattern-FigureA")<br />Figure A: Command bar anti-pattern
+**Figure A** represents this anti-pattern: putting a setting underneath a command button that applies to more than just the command. In this sketch, there are commands besides Start Debugging — like View in Browser, Start Without Debugging, and Step Into — that will respect the selected setting.
 
- Slightly better, but still undesirable, is putting settings of this type in the toolbars, as shown in **Figure B**. While split buttons take less space and are therefore an improvement over drop-downs, both designs are still using a toolbar to promote something that isn't really a command.
+![Figure A: Command bar anti-pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figurea.png "Commandbaranti-pattern-FigureA")<br />Figure A: Command bar anti-pattern
 
- ![Figure B: Better, but still a command bar anti-pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figureb.png "Commandbaranti-pattern-FigureB")<br />Figure B: Better, but still a command bar anti-pattern
+Slightly better, but still undesirable, is putting settings of this type in the toolbars, as shown in **Figure B**. While split buttons take less space and are therefore an improvement over drop-downs, both designs are still using a toolbar to promote something that isn't really a command.
 
-  In the correct approach shown in **Figure C**, the setting is tied to a series of commands. There is no global setting being set and we're just switching between four commands. This is the only situation in which commands in the toolbar are acceptable.
+![Figure B: Better, but still a command bar anti-pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figureb.png "Commandbaranti-pattern-FigureB")<br />Figure B: Better, but still a command bar anti-pattern
 
- ![Figure C: Correct use of Visual Studio command bar pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figurec.png "Commandbaranti-pattern-FigureC")<br />Figure C: Correct use of Visual Studio command bar pattern
+In the correct approach shown in **Figure C**, the setting is tied to a series of commands. There is no global setting being set and we're just switching between four commands. This is the only situation in which commands in the toolbar are acceptable.
+
+![Figure C: Correct use of Visual Studio command bar pattern](../../extensibility/ux-guidelines/media/commandbaranti-pattern-figurec.png "Commandbaranti-pattern-FigureC")<br />Figure C: Correct use of Visual Studio command bar pattern
 
 ### Control anti-patterns
  Some anti-patterns are simply incorrect usage or presentation of a control or group of controls.
@@ -127,10 +128,10 @@ Forcing the user to read explanatory text before dismissing UI is an anti-patter
 #### Underlining used as a group label, not a hyperlink
  Underlining text should be used only for hyperlinks.
 
- **Bad:**
+ **Bad:**\
  ![Underlined text that is not a hyperlink is a Visual Studio anti-pattern.](../../extensibility/ux-guidelines/media/0102-g_grouplabelincorrect.png "0102-g_GroupLabelIncorrect")<br />Underlined text that is not a hyperlink is a Visual Studio anti-pattern.
 
- **Good:**
+ **Good:**\
  ![Styled correctly, non-hyperlink text appears unadorned in the environment font.](../../extensibility/ux-guidelines/media/0102-h_grouplabelcorrect.png "0102-h_GroupLabelCorrect")<br />Styled correctly, non-hyperlink text appears unadorned in the environment font.
 
 #### Clicking on a check box results in a pop-up dialog
@@ -139,7 +140,7 @@ Forcing the user to read explanatory text before dismissing UI is an anti-patter
  ![Bringing up a dialog after clicking a check box is a Visual Studio anti-pattern.](../../extensibility/ux-guidelines/media/0102-i_checkboxpopup.png "0102-i_CheckboxPopup")<br />Bringing up a dialog after clicking a check box is a Visual Studio anti-pattern.
 
 ### Hyperlink anti-patterns
- The following example contains two anti-patterns.
+ The following example contains two anti-patterns:
 
 1. The foreground turning red on hover means that the correct shared color from the font service is not being used.
 
@@ -147,11 +148,11 @@ Forcing the user to read explanatory text before dismissing UI is an anti-patter
 
    ![Ignoring the color service and using "Learn more" for hyperlinks are Visual Studio anti-patterns.](../../extensibility/ux-guidelines/media/0102-j_hyperlinkincorrect.png "0102-j_HyperlinkIncorrect")<br />Ignoring the color service and using "Learn more" for hyperlinks are Visual Studio anti-patterns.
 
-   **Better solution:** Pose the question the user would be asking by clicking the link.
+**Better solution:** Pose the question the user would be asking by clicking the link. For example:
 
--   How do Windows Azure services work?
+- How do Windows Azure services work?
 
--   When do I need a Windows Azure Mobile Services project?
+- When do I need a Windows Azure Mobile Services project?
 
 #### Using "Click here" for links
  Hyperlinks should be self-descriptive. It is an anti-pattern to use "Click here" or any similar variation.

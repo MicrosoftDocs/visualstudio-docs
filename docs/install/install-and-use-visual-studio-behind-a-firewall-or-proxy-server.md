@@ -1,7 +1,7 @@
 ---
 title: "Install and use behind a firewall or proxy server"
 description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
-ms.date: 07/10/2018
+ms.date: 03/30/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +15,8 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
@@ -94,7 +96,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | GitHub repository information | api.github.com | https | 443 | Required for getting additional information about bower packages |
 | Web Linters | Eslint.org<br><br>www.Bing.com <br><br>www.coffeelint.org | http | 80 | |
 | Cookiecutter<br>Explorer template<br>discovery <br><br>Cookiecutter <br>Explorer project<br> creation | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https | 443<br> | Used to discover online templates from our recommended feed and from GitHub repositories <br><br>Used to create a project from a cookiecutter template that requires a one-time on-demand installation of a cookiecutter Python package from the Python package index (PyPI) |
-| Python package <br>discovery<br><br>Python package <br>management<br><br>Python <br>New Project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br> Used to create the <br><br>Used to resolve the following Python project templates in the New Project dialog to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
+| Python package <br>discovery<br><br>Python package <br>management<br><br>New <br>Python <br> project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br>Used to resolve the following new Python project templates to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https | 443 | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com | https | 443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
 | Workflow Manager <br>Test Service<br> Host | | http | 12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
@@ -133,6 +135,7 @@ Here are a few more support options:
 
 ## See also
 
+* [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)

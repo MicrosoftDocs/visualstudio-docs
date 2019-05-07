@@ -20,11 +20,11 @@ By using the information in this section, you can use IntelliTrace extensibility
 ## In This Section  
  This IntelliTrace extensibility APIs are contained in one namespace  
   
--   <xref:Microsoft.VisualStudio.IntelliTrace>  
+- <xref:Microsoft.VisualStudio.IntelliTrace>  
   
 ## Related Sections  
  [IntelliTrace](../debugger/intellitrace.md)  
  Provides information about how to debug with IntelliTrace.  
   
- [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=166091)  
+ [MSDN Code Gallery](https://code.msdn.microsoft.com/)  
  Hosts a sample application showing how to use IntelliTrace extensibility.

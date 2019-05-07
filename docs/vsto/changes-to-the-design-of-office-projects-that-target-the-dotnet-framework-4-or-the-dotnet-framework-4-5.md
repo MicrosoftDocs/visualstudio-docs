@@ -6,7 +6,7 @@ dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
-  - "Office development in Visual Studio, what's new"
+  - "Office development in Visual Studio 2010, what's new"
   - "what's new [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
@@ -24,11 +24,11 @@ ms.workload:
 
  For any types that you could instantiate directly in previous versions of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], you now use methods of the `Globals.Factory` object to get instances of these types. For example, to get an object that implements the <xref:Microsoft.Office.Tools.Excel.SmartTag> interface, use the `Globals.Factory.CreateSmartTag` method. For more information, see the following topics:
 
--   [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
+- [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
 
--   [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5)
+- [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5)
 
--   [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
+- [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
 
 ### New base classes in Office projects
  The new interface-based design of the Visual Studio 2010 Tools for Office runtime affects the generated classes in Office projects, such as `ThisDocument`, `ThisWorkbook`, and `ThisAddIn`. In Office projects that target the .NET Framework 3.5 and previous versions of the framework, these generated classes derive from classes in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] such as `Microsoft.Office.Tools.Word.Document`, `Microsoft.Office.Tools.Excel.Worksheet`, and `Microsoft.Office.Tools.AddIn`. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] classes are now interfaces. Therefore the generated classes in Office projects can no longer derive their implementation from them. Instead, the generated classes derive from new base classes such as <xref:Microsoft.Office.Tools.Word.DocumentBase>, <xref:Microsoft.Office.Tools.Excel.WorksheetBase>, and <xref:Microsoft.Office.Tools.AddInBase>. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md) and [Program document-level customizations](../vsto/programming-document-level-customizations.md).

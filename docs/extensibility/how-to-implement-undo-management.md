@@ -21,9 +21,9 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
 
 ### To support undo management for a single-view editor
 
-1.  Call `QueryInterface` on the `IServiceProvider` interface on the window frame for `IOleUndoManager`, from the document view object to access the undo manager (`IID_IOLEUndoManager`).
+1. Call `QueryInterface` on the `IServiceProvider` interface on the window frame for `IOleUndoManager`, from the document view object to access the undo manager (`IID_IOLEUndoManager`).
 
-2.  When a view is sited into a window frame, it gets a site pointer, which it can use to call `QueryInterface` for `IServiceProvider`.
+2. When a view is sited into a window frame, it gets a site pointer, which it can use to call `QueryInterface` for `IServiceProvider`.
 
 ## Cases where an editor supports multiple views
  If you have document and view separation, then there is normally one undo manager associated with the document itself. All undo units are placed on one undo manager associated with the document data object.
@@ -40,17 +40,17 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
 
 3. Relay your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> calls into the stored `IOleCommandTarget` interface for the following StandardCommandSet97 commands:
 
-   -   cmdidUndo
+   - cmdidUndo
 
-   -   cmdidMultiLevelUndo
+   - cmdidMultiLevelUndo
 
-   -   cmdidRedo
+   - cmdidRedo
 
-   -   cmdidMultiLevelRedo
+   - cmdidMultiLevelRedo
 
-   -   cmdidMultiLevelUndoList
+   - cmdidMultiLevelUndoList
 
-   -   cmdidMultiLevelRedoList
+   - cmdidMultiLevelRedoList
 
 4. Call `QueryInterface` on `IOleUndoManager` for `IID_IVsChangeTrackingUndoManager`. Store the pointer to <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>.
 
@@ -69,7 +69,7 @@ The primary interface used for undo management is <xref:Microsoft.VisualStudio.O
    The `OleUndoManager` class represents a single undo stack instance. Thus, there is one undo manager object per data entity being tracked for undo or redo.
 
 > [!NOTE]
->  While the undo manager object is used extensively by the text editor, it is a general component that has no specific support for the text editor. If you want to support multi-level undo or redo, you can use this object to do so.
+> While the undo manager object is used extensively by the text editor, it is a general component that has no specific support for the text editor. If you want to support multi-level undo or redo, you can use this object to do so.
 
 ## See also
 - <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>

@@ -35,7 +35,7 @@ HRESULT get_frontEndMinor ( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
  A compiler is typically composed of two primary elements: the front end (the parser), which handles parsing the source code into an intermediate form, and a back end (code generator), which converts the intermediate form into assembly. It is not uncommon for the front end to have a different version than the back end.  

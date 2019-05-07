@@ -15,7 +15,7 @@ ms.workload:
 # Windows Installer Basics
 The Windows Installer installs and uninstalls applications or software products on a user's computer, performing these tasks in units called Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups using Windows Installer.
 
- For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](http://msdn.microsoft.com/library/aa372866.aspx).
+ For comprehensive documentation of the Windows Installer, see the Platform SDK topic, [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).
 
 ## Authoring a VSPackage
  Windows Installer uses installation packages, which contain information that Windows Installer needs to install, uninstall, or repair a product and to run the setup user interface (UI). Each installation package includes an .msi file, which contains an installation database, a summary information stream, and data streams for various parts of the installation. To use the installer, you must author an installation. Because the installer organizes installations around the concept of components and stores information about the installation in a relational database, the process of authoring an installation package broadly entails the following steps:
@@ -51,19 +51,19 @@ The Windows Installer installs and uninstalls applications or software products 
  Two sets of rules determine the deployment of resources through your setup's components. One rule set is maintained by the Windows Installer itself, while you should enforce the second set as installation author.
 
 > [!NOTE]
->  Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](/windows/desktop/Msi/validating-an-installation-database) and [Package Validation](/windows/desktop/Msi/package-validation).
+> Enforcement of Windows Installer rules occurs only if you run a validation of your .msi file. Nevertheless, you are cautioned to treat these rules as best practices. For more information, see [Validating an Installation Database](/windows/desktop/Msi/validating-an-installation-database) and [Package Validation](/windows/desktop/Msi/package-validation).
 
 #### Installer-Enforced Rules
 
--   All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.
+- All files in a given component must be installed to the same directory. Conversely, files installed to separate folders must belong to separate components.
 
--   There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.
+- There can be only one key path per component. The key path is simply a file or registry key that represents the entire component.
 
 #### Component-Provider Responsibilities
 
--   Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](/windows/desktop/Msi/defining-installer-components).
+- Any two resources that might ship separately in subsequent versions should exist in separate components. Resources should be grouped into the same component only when you are certain that these resources will never ship separately. In fact, it is recommended that all primary resources (DLLs, for example) always exist in separate WICs. For more information, see [Defining Installer Components](/windows/desktop/Msi/defining-installer-components).
 
--   No versioned resource should ever ship in more than one WIC.
+- No versioned resource should ever ship in more than one WIC.
 
 ## See Also
 - [What Happens if the Component Rules Are Broken?](/windows/desktop/Msi/what-happens-if-the-component-rules-are-broken)

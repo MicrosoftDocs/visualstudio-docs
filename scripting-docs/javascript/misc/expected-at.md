@@ -15,12 +15,12 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# Expected '@'
+# Expected '\@'
 You attempted to create a variable to be used with conditional compilation statements using the `@set` statement, but did not place an at sign "**@**" before the variable name.  
   
 ### To correct this error  
   
--   Add an at sign "**@**" immediately before the variable name. For example:  
+- Add an at sign "**@**" immediately before the variable name. For example:  
   
     ```JavaScript  
     @set @myvar = 1  

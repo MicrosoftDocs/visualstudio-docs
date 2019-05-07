@@ -19,6 +19,7 @@ Visual Studio subscriptions is a comprehensive set of resources for you to creat
 Administrators sign in to [https://manage.visualstudio.com](https://manage.visualstudio.com) to assign subscriptions to your team.<br>
 Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com) to access your subscription benefits.
 
+<!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/azure/">
@@ -150,7 +151,7 @@ To make your subscription even more useful, we add and update the subscription b
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li>Team Foundation Server and TFS CAL</li>
+                            <li>Azure DevOps Server and CAL</li>
                         </ul>
                     </div>
                 </div>

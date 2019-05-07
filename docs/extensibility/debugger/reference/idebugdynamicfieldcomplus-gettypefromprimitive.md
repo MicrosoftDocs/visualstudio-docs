@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 Retrieves a type given its primitive type.
@@ -31,17 +34,17 @@ int GetTypeFromPrimitive(
 );
 ```
 
-#### Parameters
- `dwCorElementType`
+## Parameters
+ `dwCorElementType`\
 
  [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
- `ppType`
+ `ppType`\
 
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugDynamicFieldCOMPlus](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus.md)

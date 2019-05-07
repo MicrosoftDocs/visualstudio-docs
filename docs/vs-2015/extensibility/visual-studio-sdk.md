@@ -32,7 +32,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   
 - Add a custom project type  
   
-- Reach millions of developers via the Visual Studio Gallery  
+- Reach millions of developers via the Visual Studio Marketplace  
   
   If you’ve never written a Visual Studio extension before, you should find more information about these features and at [Starting to Develop Visual Studio Extensions](../extensibility/starting-to-develop-visual-studio-extensions.md).  
   
@@ -50,7 +50,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  Take advantage of the [Image Service and Catalog](../extensibility/image-service-and-catalog.md) for great image management and support for high DPI and theming.  
   
 ## Finding and Installing Existing Visual Studio Extensions  
- You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/)  
+ You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)  
   
 ## Visual Studio SDK Reference  
  You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).  
@@ -63,11 +63,11 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   
  You can find more information in the [VSX Arcana blog](http://blogs.msdn.com/b/vsx/) and an number of blogs written by Microsoft MVPs:  
   
--   [Favorite Visual Studio Extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)  
+- [Favorite Visual Studio Extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)  
   
--   [Visual Studio Extensibility](http://www.visualstudioextensibility.com/overview/vs/)  
+- [Visual Studio Extensibility](http://www.visualstudioextensibility.com/overview/vs/)  
   
--   [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
+- [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
   
 ## See Also  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)   

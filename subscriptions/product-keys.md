@@ -48,7 +48,6 @@ Some keys are provided automatically, such as “static” keys, which you can u
 
 A variety of key types are available, depending on the product.
 
-
 ### Product key types
 
 |    Key Type           |    Description                                                                                                                                                                                                           |
@@ -69,7 +68,6 @@ You can claim a key from the download page for the product, or you can search fo
 
 ### Claiming product keys
 Only subscribers with active subscriptions can download products and claim product keys.  You can export your claimed keys from the [Product Keys](https://my.visualstudio.com/productkeys) page while your subscription is active.
-
 
 To claim a product key:
 1. Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys.

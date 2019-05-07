@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetAddress
 This method gets the debug address of a field.
@@ -30,14 +33,14 @@ int GetAddress(
 );
 ```
 
-#### Parameters
- `ppAddress`
+## Parameters
+ `ppAddress`\
 
  [out] Returns the address as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, return an error code.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

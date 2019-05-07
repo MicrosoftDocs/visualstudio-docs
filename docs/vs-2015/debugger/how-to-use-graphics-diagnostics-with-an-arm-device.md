@@ -22,22 +22,22 @@ Graphics Diagnostics supports remote debugging of Direct3D apps on ARM-based dev
   
 #### To enable remote debugging on your ARM-based device  
   
-1.  Install the [ARM Kits Policy](http://msdn.microsoft.com/windows/desktop/dn469188) on your ARM-based device.  
+1. Install the [ARM Kits Policy](http://msdn.microsoft.com/windows/desktop/dn469188) on your ARM-based device.  
   
-2.  Install the [Remote Debugging Tools](http://go.microsoft.com/fwlink/?LinkId=393086) on your ARM-based device.  
+2. Install the [Remote Debugging Tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) on your ARM-based device.  
   
 > [!IMPORTANT]
->  For Windows Phone 8.1 devices, you might have to register your phone for development. To do so, you must be a registered developer. For more information, see [How to deploy and run an app for Windows Phone 8](http://msdn.microsoft.com/library/windowsphone/develop/ff402565.aspx).  
+> For Windows Phone 8.1 devices, you might have to register your phone for development. To do so, you must be a registered developer. For more information, see [How to deploy and run an app for Windows Phone 8](http://msdn.microsoft.com/library/windowsphone/develop/ff402565.aspx).  
   
  After you've enabled remote debugging on your device, make it your debug target and start Graphics Diagnostics.  
   
 #### To configure and start Graphics Diagnostics on your device  
   
-1.  On the **Solution Platforms** drop-down list, select **ARM** so that your ARM-based device will be available as a remote debugging target.  
+1. On the **Solution Platforms** drop-down list, select **ARM** so that your ARM-based device will be available as a remote debugging target.  
   
-2.  On the **Debug Target** drop-down list, select your ARM device.  
+2. On the **Debug Target** drop-down list, select your ARM device.  
   
-3.  On the menu, choose **Debug**, **Graphics**, **Start Diagnostics**. (Keyboard: Alt+F5)  
+3. On the menu, choose **Debug**, **Graphics**, **Start Diagnostics**. (Keyboard: Alt+F5)  
   
 ## See Also  
  [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)   

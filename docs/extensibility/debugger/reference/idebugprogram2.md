@@ -65,7 +65,7 @@ IDebugProgram2 : IUnknown
 ## Remarks
  A program is a thread container running in a particular run-time architecture, while a process is made up of one or more programs.
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)
 - [Next](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)

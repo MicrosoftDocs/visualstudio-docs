@@ -66,6 +66,18 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_csharp.svg
       title: Learn the C# language
+- title: Video tutorials 
+  items:
+  - type: list
+    style: cards
+    classname: cardsM
+    columns: 3
+    items:
+    - href: tutorial-aspnet-core-ef-step-01.md
+      html: <p>Use Visual Studio 2019 to create a web app that uses data and exposes a web API, and deploy it to Azure.</p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_video.svg
+      title: Create your first ASP.NET Core app
 - title: Learn Visual Studio
   items:
   - type: paragraph
@@ -75,6 +87,11 @@ sections:
     className: cardsM
     columns: 3
     items:
+    - href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_pull-request.svg
+      title: Open code from a repo
     - href: tutorial-editor.md
       html: <p></p>
       image:

@@ -18,19 +18,19 @@ By default, the Profiling tools exclude *small functions* from instrumentation. 
 
 ### To exclude or include short functions from instrumentation
 
-1.  In **Performance Explorer**, select **Performance Session** and then right-click and select **Properties**.
+1. In **Performance Explorer**, select **Performance Session** and then right-click and select **Properties**.
 
      The **Property Pages** dialog box is displayed.
 
-2.  In the **Property Pages**, click the **Instrumentation** properties.
+2. In the **Property Pages**, click the **Instrumentation** properties.
 
-3.  To exclude short functions from instrumentation, select **Exclude short functions from Instrumentation**. This is the default setting.
+3. To exclude short functions from instrumentation, select **Exclude short functions from Instrumentation**. This is the default setting.
 
      -or-
 
      To include short functions in instrumentation, clear **Exclude short functions from Instrumentation**.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ## See also
 - [Control data collection](../profiling/controlling-data-collection.md)

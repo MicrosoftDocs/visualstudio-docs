@@ -24,7 +24,6 @@ manager: jillfra
 # XDCMake Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Wraps the XML Documentation tool (xdcmake.exe), which merges XML document comment (.xdc) files into an .xml file.  
   
  An .xdc file is created when you provide documentation comments in your Visual C++ source code and compile by using the [/doc](http://msdn.microsoft.com/library/b54f7e2c-f28f-4f46-9ed6-0db09be2cc63) compiler option. For more information, see [XDCMake Reference](http://msdn.microsoft.com/library/14e65747-d000-4343-854b-8393bf01cbac), [XML Document Generator Tool Property Pages](http://msdn.microsoft.com/library/645912b5-197a-4c36-ba58-64df09444ca0), and command-line help option (**/?**) for xdcmake.exe.  

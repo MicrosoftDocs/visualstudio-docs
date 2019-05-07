@@ -33,16 +33,16 @@ manager: jillfra
   
 2. In the **Active solution platform** list, choose a 64-bit platform for the solution to target, and then choose the **Close** button.  
   
-   1.  If the platform that you want doesn’t appear in the **Active solution platform** list, choose **New**.  
+   1. If the platform that you want doesn’t appear in the **Active solution platform** list, choose **New**.  
   
         The **New Solution Platform** dialog box appears.  
   
-   2.  In the **Type or select the new platform** list, choose **x64**.  
+   2. In the **Type or select the new platform** list, choose **x64**.  
   
        > [!NOTE]
-       >  If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.  
+       > If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.  
   
-   3.  If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.  
+   3. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.  
   
    The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.  
   
@@ -51,11 +51,11 @@ manager: jillfra
   
  Performing this task varies based on the programming language you are using. See the following links for more information:  
   
--   For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects, see [/platform (Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1).  
+- For [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects, see [/platform (Visual Basic)](http://msdn.microsoft.com/library/f9bc61e6-e854-4ae1-87b9-d6244de23fd1).  
   
--   For [!INCLUDE[csprcs](../includes/csprcs-md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
+- For [!INCLUDE[csprcs](../includes/csprcs-md.md)] projects, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).  
   
--   For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c).  
+- For [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] projects, see [/clr (Common Language Runtime Compilation)](http://msdn.microsoft.com/library/fec5a8c0-40ec-484c-a213-8dec918c1d6c).  
   
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   

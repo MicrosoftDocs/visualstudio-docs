@@ -28,7 +28,7 @@ ms.workload:
   You can deploy Office solutions by using ClickOnce or Windows Installer. By using ClickOnce, you reduce the number of steps that deploying and updating your solution requires. If you use Windows Installer, you gain control of how a solution is installed and what pages the setup program displays when users install your solution.
 
 > [!NOTE]
->  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO Add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
 
 ## Deploy a solution by using ClickOnce
  When you deploy a solution by using ClickOnce, you publish it to a central location where users can install and run it. You can update the solution without having to distribute a new setup program to users.  This deployment option is simpler, but you can't show users custom setup pages. Also, solutions must be installed multiple times on any computer that has more than one user. See [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).

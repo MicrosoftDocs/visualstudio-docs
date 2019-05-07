@@ -34,7 +34,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 1. Create a new Windows Forms project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. On the **File** menu, point to **Add**, and then click **New Project**. Choose a **Class Library** project in the dialog box and name it `ClickOnceLibrary`.
 
    > [!NOTE]
-   >  In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are in the same namespace.
+   > In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are in the same namespace.
 
 2. Define a class named `DynamicClass` with a single property named `Message`.
 
@@ -44,7 +44,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 3. Select the Windows Forms project in **Solution Explorer**. Add a reference to the <xref:System.Deployment.Application> assembly and a project reference to the `ClickOnceLibrary` project.
 
    > [!NOTE]
-   >  In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are located in the same namespace.
+   > In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are located in the same namespace.
 
 4. Right-click the form, click **View Code** from the menu, and add the following references to the form.
 
@@ -65,15 +65,15 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 
 ### To mark assemblies as optional in your ClickOnce application by using Visual Studio
 
-1.  Right-click the Windows Forms project in **Solution Explorer** and click **Properties**. Select the **Publish** tab.
+1. Right-click the Windows Forms project in **Solution Explorer** and click **Properties**. Select the **Publish** tab.
 
-2.  Click the **Application Files** button.
+2. Click the **Application Files** button.
 
-3.  Find the listing for *ClickOnceLibrary.dll*. Set the **Publish Status** drop-down box to **Include**.
+3. Find the listing for *ClickOnceLibrary.dll*. Set the **Publish Status** drop-down box to **Include**.
 
-4.  Expand the **Group** drop-down box and select **New**. Enter the name `ClickOnceLibrary` as the new group name.
+4. Expand the **Group** drop-down box and select **New**. Enter the name `ClickOnceLibrary` as the new group name.
 
-5.  Continue publishing your application as described in [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
+5. Continue publishing your application as described in [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).
 
 ### To mark assemblies as optional in your ClickOnce application by using Manifest Generation and Editing Tool — Graphical Client (MageUI.exe)
 

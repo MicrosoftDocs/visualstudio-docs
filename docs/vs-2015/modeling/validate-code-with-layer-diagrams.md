@@ -50,52 +50,52 @@ To make sure that code doesn't conflict with its design, validate your code with
   You can validate code manually from an open layer diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Team Foundation Build. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).  
   
 > [!IMPORTANT]
->  If you want to run layer validation with Team Foundation Build, you must also install the same version of Visual Studio on your build server.  
+> If you want to run layer validation with Team Foundation Build, you must also install the same version of Visual Studio on your build server.  
   
--   [See if an item supports validation](#SupportsValidation)  
+- [See if an item supports validation](#SupportsValidation)  
   
--   [Include other .NET assemblies and projects for validation](#IncludeReferences)  
+- [Include other .NET assemblies and projects for validation](#IncludeReferences)  
   
--   [Validate code manually](#ValidateManually)  
+- [Validate code manually](#ValidateManually)  
   
--   [Validate code automatically](#ValidateAuto)  
+- [Validate code automatically](#ValidateAuto)  
   
--   [Troubleshoot layer validation issues](#TroubleshootingValidation)  
+- [Troubleshoot layer validation issues](#TroubleshootingValidation)  
   
--   [Understand and resolve layer validation errors](#UnderstandingValidationErrors)  
+- [Understand and resolve layer validation errors](#UnderstandingValidationErrors)  
   
-##  <a name="SupportsValidation"></a> See if an item supports validation  
+## <a name="SupportsValidation"></a> See if an item supports validation  
  You can link layers to Web sites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.  
   
-1.  On the layer diagram, select one or more layers, right-click your selection, and then click **View Links**.  
+1. On the layer diagram, select one or more layers, right-click your selection, and then click **View Links**.  
   
-2.  In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.  
+2. In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.  
   
-##  <a name="IncludeReferences"></a> Include other .NET assemblies and projects for validation  
+## <a name="IncludeReferences"></a> Include other .NET assemblies and projects for validation  
  When you drag items to the layer diagram, references to the corresponding .NET assemblies or projects are added automatically to the **Layer References** folder in the modeling project. This folder contains references to the assemblies and projects that are analyzed during validation. You can include other .NET assemblies and projects for validation without manually dragging them to the layer diagram.  
   
-1.  In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.  
+1. In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.  
   
-2.  In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.  
+2. In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.  
   
-##  <a name="ValidateManually"></a> Validate code manually  
+## <a name="ValidateManually"></a> Validate code manually  
  If you have an open layer diagram that is linked to solution items, you can run the **Validate** shortcut command from the diagram. You can also use the command prompt to run the **msbuild** command with the **/p:ValidateArchitecture** custom property set to **True**. For example, as you make changes in the code, perform layer validation regularly so that you can catch dependency conflicts early.  
   
 #### To validate code from an open layer diagram  
   
-1.  Right-click the diagram surface, and then click **Validate Architecture**.  
+1. Right-click the diagram surface, and then click **Validate Architecture**.  
   
     > [!NOTE]
-    >  By default, the **Build Action** property on the layer diagram (.layerdiagram) file is set to **Validate** so that the diagram is included in the validation process.  
+    > By default, the **Build Action** property on the layer diagram (.layerdiagram) file is set to **Validate** so that the diagram is included in the validation process.  
   
      The **Error List** window reports any errors that occur. For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
-2.  To view the source of each error, double-click the error in the **Error List** window.  
+2. To view the source of each error, double-click the error in the **Error List** window.  
   
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the layer diagram, or the code is missing a dependency that is specified by the layer diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
+    > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the layer diagram, or the code is missing a dependency that is specified by the layer diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
-3.  To manage errors, see [Manage validation errors](#ManageErrors).  
+3. To manage errors, see [Manage validation errors](#ManageErrors).  
   
 #### To validate code at the command prompt  
   
@@ -135,11 +135,11 @@ To make sure that code doesn't conflict with its design, validate your code with
   
    For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
-###  <a name="ManageErrors"></a> Manage validation errors  
+### <a name="ManageErrors"></a> Manage validation errors  
  During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../includes/esprfound-md.md)].  
   
 > [!WARNING]
->  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
+> You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
 ##### To create a work item for a validation error  
   
@@ -154,12 +154,12 @@ To make sure that code doesn't conflict with its design, validate your code with
 |Restore all suppressed errors in the **Error List** window|Right-click anywhere in the **Error List** window, point to **Manage Validation Errors**, and then click **Show All Suppressed Errors**.|  
 |Hide all suppressed errors from the **Error List** window|Right-click anywhere in the **Error List** window, point to **Manage Validation Errors**, and then click **Hide All Suppressed Errors**.|  
   
-##  <a name="ValidateAuto"></a> Validate code automatically  
+## <a name="ValidateAuto"></a> Validate code automatically  
  You can perform layer validation every time that you run a local build. If your team uses Team Foundation Build, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).  
   
 #### To validate code automatically during a local build  
   
--   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:  
+- Use a text editor to open the modeling project (.modelproj) file, and then include the following property:  
   
 ```  
 <ValidateArchitecture>true</ValidateArchitecture>  
@@ -191,24 +191,24 @@ To make sure that code doesn't conflict with its design, validate your code with
   
    For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../includes/esprbuild-md.md)], see:  
   
--   [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
--   [Use the Default Template for your build process](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
+- [Use the Default Template for your build process](http://msdn.microsoft.com/library/43930b12-c21b-4599-a980-2995e3d16e31)  
   
--   [Modify a Legacy Build that is Based on UpgradeTemplate.xaml](http://msdn.microsoft.com/library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)  
+- [Modify a Legacy Build that is Based on UpgradeTemplate.xaml](http://msdn.microsoft.com/library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)  
   
--   [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [Customize your build process template](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
--   [Monitor Progress of a Running Build](http://msdn.microsoft.com/library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)  
+- [Monitor Progress of a Running Build](http://msdn.microsoft.com/library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)  
   
-##  <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues  
+## <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues  
  The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
 |**Issue**|**Possible Cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
 |Validation errors do not occur as expected.|Validation does not work on layer diagrams that are copied from other layer diagrams in Solution Explorer and that are in the same modeling project. Layer diagrams that are copied in this way contain the same references as the original layer diagram.|Add a new layer diagram to the modeling project.<br /><br /> Copy the elements from the source layer diagram to the new diagram.|  
   
-##  <a name="UnderstandingValidationErrors"></a> Understanding and Resolving Layer Validation Errors  
+## <a name="UnderstandingValidationErrors"></a> Understanding and Resolving Layer Validation Errors  
  When you validate code against a layer diagram, validation errors occur when the code conflicts with the design. For example, the following conditions might cause validation errors to occur:  
   
 - An artifact is assigned to the wrong layer. In this case, move the artifact.  

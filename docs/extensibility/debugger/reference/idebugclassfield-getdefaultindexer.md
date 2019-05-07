@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugClassField::GetDefaultIndexer
 Gets the name of the default indexer.
@@ -30,7 +33,7 @@ int GetDefaultIndexer(
 );
 ```
 
-#### Parameters
+## Parameters
  `pbstrIndexer`
 
  [out] Returns a string containing the name of the default indexer.
@@ -71,5 +74,5 @@ Function GetItem(Index as Integer) as Integer
 End Function
 ```
 
-## See Also
+## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

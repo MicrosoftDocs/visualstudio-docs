@@ -17,7 +17,6 @@ The table below details what Pluralsight subscription benefits are available to 
 
  Depending on the type of subscription they have, not all subscribers who have previously used a Pluralsight subscription provided through a Visual Studio subscription will be able to redeem new Pluralsight benefit offers. If you are not eligible to redeem additional Pluralsight training benefits, you'll receive a notification when you attempt to activate the benefit on the Pluralsight website.
 
-
 ## Activation steps
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get code** link on the Pluralsight benefit tile, located in the Professional Development section.
    > [!div class="mx-imgBorder"]
@@ -79,7 +78,6 @@ The table below details what Pluralsight subscription benefits are available to 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
@@ -96,14 +94,13 @@ A: Yes, as a Visual Studio subscriber you get access to expert channels as part 
 
 •   James Montemagno (Mobility) - [http://go.pluralsight.com/james-montemagno](http://go.pluralsight.com/james-montemagno)
 
-
 ### Q: What happens when my Pluralsight subscription runs out?
 A:  At the end of your free Pluralsight subscription, you may choose to purchase a subscription directly from Pluralsight.  Please contact [Pluralsight](http://www.pluralsight.com) for full details.
 
 ## Support resources
--  [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website.
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website.
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
 Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](http://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.

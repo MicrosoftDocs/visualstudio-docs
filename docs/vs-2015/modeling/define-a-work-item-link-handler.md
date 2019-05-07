@@ -20,39 +20,39 @@ You can create a Visual Studio Integration Extension that responds when the user
 ## Set up a UML Extension Solution  
  This will allow you to develop handlers and then distribute them to other users. You need to set up two Visual Studio projects:  
   
--   A class library project containing the code of the link handler.  
+- A class library project containing the code of the link handler.  
   
--   A VSIX project, which acts as a container for installing the command. If you want, you can include other components in the same VSIX.  
+- A VSIX project, which acts as a container for installing the command. If you want, you can include other components in the same VSIX.  
   
 #### To set up the Visual Studio solution  
   
-1.  Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
+1. Create a class library project, either adding it to an existing VSIX solution, or creating a new solution.  
   
-    1.  On the **File** menu, choose **New**, **Project**.  
+    1. On the **File** menu, choose **New**, **Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column click **Class Library**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then in the middle column click **Class Library**.  
   
-    3.  Set **Solution** to indicate whether you want to create a new solution or to add a component to a VSIX solution that you have already opened.  
+    3. Set **Solution** to indicate whether you want to create a new solution or to add a component to a VSIX solution that you have already opened.  
   
-    4.  Set the project Name and Location and click OK.  
+    4. Set the project Name and Location and click OK.  
   
-2.  Unless your solution already contains one, create a VSIX project.  
+2. Unless your solution already contains one, create a VSIX project.  
   
-    1.  In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
+    1. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add**, **New Project**.  
   
-    2.  Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
+    2. Under **Installed Templates**, expand **Visual C#** or **Visual Basic**, then select **Extensibility**. In the middle column, choose **VSIX Project**.  
   
-3.  Set the VSIX project as the startup project of the solution.  
+3. Set the VSIX project as the startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
+    - In Solution Explorer, on the shortcut menu of the VSIX project choose **Set as StartUp project**.  
   
-4.  In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component.  
+4. In **source.extension.vsixmanifest**, under **Content**, add the class library project as a MEF Component.  
   
-    1.  On the **MetaData** tab, set a name for the VSIX.  
+    1. On the **MetaData** tab, set a name for the VSIX.  
   
-    2.  On the **Install Targets** tab, set the Visual Studio versions as the targets.  
+    2. On the **Install Targets** tab, set the Visual Studio versions as the targets.  
   
-    3.  On the **Assets** tab, choose a **New**, and in the dialog box, set:  
+    3. On the **Assets** tab, choose a **New**, and in the dialog box, set:  
   
          **Type** = **MEF Component**  
   
@@ -146,41 +146,41 @@ namespace WorkItems
  For test purposes, execute your link handler in debug mode.  
   
 > [!WARNING]
->  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
+> You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
   
 #### To test the link handler  
   
-1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
+1. Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
      An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts.  
   
      **Troubleshooting**: If a new [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] does not start, ensure that the VSIX project is set as the Startup project of the solution.  
   
-2.  In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
+2. In the experimental [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a modeling project, and open or create a modeling diagram.  
   
-3.  Create a model element such as UML class, and set its name.  
+3. Create a model element such as UML class, and set its name.  
   
-4.  Right-click the element and then click **Create Work Item**.  
+4. Right-click the element and then click **Create Work Item**.  
   
-    -   If the submenu shows **Open Team Foundation Server Connection**, you will need to close the project, connect to the appropriate TFS, and restart this procedure.  
+    - If the submenu shows **Open Team Foundation Server Connection**, you will need to close the project, connect to the appropriate TFS, and restart this procedure.  
   
-    -   If the submenu shows a list of work item types, click one.  
+    - If the submenu shows a list of work item types, click one.  
   
          A new work item form opens.  
   
-5.  Verify that the title of the work item is the same as the model element, if you have used the sample code in the previous section. This demonstrates `OnWorkItemCreated()` has worked.  
+5. Verify that the title of the work item is the same as the model element, if you have used the sample code in the previous section. This demonstrates `OnWorkItemCreated()` has worked.  
   
-6.  Complete the form, save and close the work item.  
+6. Complete the form, save and close the work item.  
   
-7.  Verify that the work item is now colored red. This demonstrates `OnWorkItemLinked()` in the sample code.  
+7. Verify that the work item is now colored red. This demonstrates `OnWorkItemLinked()` in the sample code.  
   
      **Troubleshooting**: If the handler methods have not run, verify that:  
   
-    -   The class library project is listed as a MEF component in the **Content** list in **source.extensions.manifest** in the VSIX project.  
+    - The class library project is listed as a MEF component in the **Content** list in **source.extensions.manifest** in the VSIX project.  
   
-    -   The correct `Export` attribute is attached to the handler class, and the class implements `ILinkedWorkItemExtension`.  
+    - The correct `Export` attribute is attached to the handler class, and the class implements `ILinkedWorkItemExtension`.  
   
-    -   The parameters of all `Import` and `Export` attributes are valid.  
+    - The parameters of all `Import` and `Export` attributes are valid.  
   
 ## About the Work Item Handler Code  
   
@@ -215,7 +215,7 @@ public void OnWorkItemLinked
 ```  
   
 > [!NOTE]
->  To make this example work, you must add a project reference to `System.Drawing.dll`, and import the namespace `Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation`. However, these additions are not required for other implementations of `OnWorkItemLinked`.  
+> To make this example work, you must add a project reference to `System.Drawing.dll`, and import the namespace `Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation`. However, these additions are not required for other implementations of `OnWorkItemLinked`.  
   
 ### Listening for Link Removal  
  `OnWorkItemRemoved` is called once just before each work item link that is deleted. If a model element is deleted, all of its links will be removed.  
@@ -231,9 +231,9 @@ public void OnWorkItemRemoved
   
  To use the following example, add these .NET assemblies to your project's References:  
   
--   Microsoft.TeamFoundation.Client.dll  
+- Microsoft.TeamFoundation.Client.dll  
   
--   Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
+- Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
   
 ```  
   

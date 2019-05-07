@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::IsFunctionDeleted
 Determines that the function at the specified debug address is deleted.
@@ -28,8 +31,8 @@ int IsFunctionDeleted(
 );
 ```
 
-#### Parameters
-`pAddress`
+## Parameters
+`pAddress`\
 
  [in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
@@ -84,5 +87,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

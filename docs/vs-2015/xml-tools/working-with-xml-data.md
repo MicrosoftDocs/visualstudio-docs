@@ -13,7 +13,6 @@ manager: jillfra
 # Working with XML Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 XML and its related technologies play a large role in the way data is handled in [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio. Visual Studio includes tools and features that make it easier to work with XML, XSLT, and XML schemas.  
   
 ## XML Editor  
@@ -21,17 +20,17 @@ XML and its related technologies play a large role in the way data is handled in
   
  Additional features include:  
   
--   XML snippet support, including schema-generated snippets.  
+- XML snippet support, including schema-generated snippets.  
   
--   Document outlining so that elements can be expanded and collapsed.  
+- Document outlining so that elements can be expanded and collapsed.  
   
--   The ability to execute XSLT transformations and to view the results as text, XML, or HTML.  
+- The ability to execute XSLT transformations and to view the results as text, XML, or HTML.  
   
--   The ability to generate XML Schema definition language (XSD) schemas from the XML instance document.  
+- The ability to generate XML Schema definition language (XSD) schemas from the XML instance document.  
   
--   Support for editing XSLT style sheets, including IntelliSense support.  
+- Support for editing XSLT style sheets, including IntelliSense support.  
   
--   XML Schema Explorer  
+- XML Schema Explorer  
   
 ## XML Schema Designer  
  The XML Schema Designer is integrated with Microsoft Visual Studio 2010 and the XML Editor to enable you to work with XML Schema definition language (XSD) schemas.  
@@ -40,7 +39,7 @@ XML and its related technologies play a large role in the way data is handled in
  Visual Studio supports debugging XSLT style sheets. Using the debugger, you can set break points in an XSLT style sheet, step into an XSLT style sheet from code, and so on.  
   
 > [!NOTE]
->  XSLT debugging is available in the Professional and Team Editions.  
+> XSLT debugging is available in the Professional and Team Editions.  
   
 ## In This Section  
  [XML Editor](../xml-tools/xml-editor.md)  

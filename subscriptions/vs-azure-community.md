@@ -23,8 +23,6 @@ Get help directly from the Azure team within select support forums via Azure Com
 | [Azure Management Portal](https://social.msdn.microsoft.com/Forums/home?forum=windowsazuremanagement&filter=alltypes&sort=lastpostdesc)               | [Azure Backup](https://social.msdn.microsoft.com/forums/home?forum=windowsazureonlinebackup&filter=alltypes&sort=lastpostdesc)                                       | [Azure Stack](https://social.msdn.microsoft.com/forums/home?forum=AzureStack&filter=alltypes&sort=lastpostdesc)                          |
 | [Azure Virtual Machines](https://social.msdn.microsoft.com/Forums/home?forum=WAVirtualMachinesforWindows&filter=alltypes&sort=lastpostdesc)                | [Azure Site Recovery](https://social.msdn.microsoft.com/forums/home?forum=hypervrecovmgr&filter=alltypes&sort=lastpostdesc)                                | [Azure Marketplace](https://social.msdn.microsoft.com/forums/home?forum=DataMarket&filter=alltypes&sort=lastpostdesc)                    |
 
-
-
 ## Activation Steps
 Getting started with Azure Community is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -37,13 +35,12 @@ Getting started with Azure Community is easy.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png)
 
-4.  Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
+4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png)
 
 ## Eligibility
 Availability of the Azure Community benefit depends on your subscription level as shown below:
-
 
 |                                          Subscription Level                                           |     Channels      |    Benefit    | Renewable? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
@@ -60,11 +57,10 @@ Availability of the Azure Community benefit depends on your subscription level a
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support Resources
--  For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
--  [Azure documentation](/azure/).
--  Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
+- [Azure documentation](/azure/).
+- Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

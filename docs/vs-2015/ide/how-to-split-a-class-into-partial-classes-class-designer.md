@@ -27,7 +27,7 @@ You can divide the declaration of a class or structure among several declaration
  The following examples split the definition of class `Employee` into two declarations, each of which defines a different procedure. The two partial definitions in the examples could be in one source file or in two different source files.  
   
 > [!NOTE]
->  Visual Basic uses partial-class definitions to separate Visual Studio—generated code from user-authored code. The code is separated into discrete source files. For example, the **Windows Form Designer** defines partial classes for controls such as `Form`. You should not modify the generated code in these controls.  
+> Visual Basic uses partial-class definitions to separate Visual Studio—generated code from user-authored code. The code is separated into discrete source files. For example, the **Windows Form Designer** defines partial classes for controls such as `Form`. You should not modify the generated code in these controls.  
   
  For more information about partial types in Visual Basic, see [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448).  
   

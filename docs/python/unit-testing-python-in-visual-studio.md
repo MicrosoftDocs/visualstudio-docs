@@ -3,8 +3,8 @@ title: Unit test Python code
 description: Setting up unit testing for Python code in Visual Studio takes full advantage of Test Explorer features to discover, run, and debug tests.
 ms.date: 11/12/2018
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -81,7 +81,7 @@ To start debugging, set an initial breakpoint in your code, then right-click the
 
 ![Debugging a test](media/unit-test-debugging.png)
 
-You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands, depending on your version of Visual Studio (see the [Features matrix](overview-of-python-tools-for-visual-studio.md#features-matrix)).
+You can also use the **Analyze Code Coverage for Selected Tests** and **Profile Test** commands.
 
 ### Known issues
 

@@ -32,5 +32,4 @@ The **Receive** activity designer can be dragged from **Toolbox** and dropped on
 
 - <xref:System.ServiceModel.Activities.Receive>
 - [Add CorrelationInitializers Dialog Box](../workflow-designer/add-correlationinitializers-dialog-box.md)
-- [Add Correlation Dialog Box](http://msdn.microsoft.com/en-us/9e41a149-e8ab-41b1-8886-ea06a63041b6)
 - [Initialize Correlation Dialog Box](../workflow-designer/initialize-correlation-dialog-box.md)

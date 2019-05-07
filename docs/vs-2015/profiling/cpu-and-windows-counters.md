@@ -22,10 +22,10 @@ The Visual Studio Profiler enables you to collect performance data that was gene
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ## Windows Counters  
  Windows counters are part of the Windows diagnostic infrastructure that provides information about the performance of the operating system or an application, a service, or a driver. Windows counters depend on the configuration of the current computer and might not be available on other computers. Windows performance counters are collected in profiling data files as profiling marks, which can then be used to filter views and reports.  
@@ -98,13 +98,13 @@ The Visual Studio Profiler enables you to collect performance data that was gene
   
 ##### To view a list of a list of Window counters that are supported on the current platform  
   
-1.  In Performance Explorer, right-click the performance session and then click **Properties**.  
+1. In Performance Explorer, right-click the performance session and then click **Properties**.  
   
-2.  Click **Windows Counters**.  
+2. Click **Windows Counters**.  
   
-3.  Select **Collect Windows Counters**.  
+3. Select **Collect Windows Counters**.  
   
-4.  From the **Counter Category** list, select a counter group. The Windows counter for the group is displayed in the list box.  
+4. From the **Counter Category** list, select a counter group. The Windows counter for the group is displayed in the list box.  
   
      **Note:** Click **Cancel** to return to the previous counter collection configuration.  
   
@@ -113,9 +113,9 @@ The Visual Studio Profiler enables you to collect performance data that was gene
   
 ##### To list of CPU counters that are supported on the current platform  
   
-1.  Open a command prompt window.  
+1. Open a command prompt window.  
   
-2.  Type  
+2. Type  
   
      **\<Visual Studio Performance Tools Directory>\VSPerfCmd /querycounters**  
   

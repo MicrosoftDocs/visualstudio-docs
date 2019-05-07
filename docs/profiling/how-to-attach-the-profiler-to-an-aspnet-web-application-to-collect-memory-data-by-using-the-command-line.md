@@ -14,7 +14,7 @@ ms.workload:
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and collect data about the number and size of .NET Framework memory allocations. You can also collect data about the lifetime of .NET Framework memory objects.
 
 > [!NOTE]
->  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
  To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables on the computer that hosts the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application. You must then restart the computer to configure the Web server for profiling.
 
@@ -32,7 +32,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
     **VSPerfClrEnv** {**/globalsamplegc** &#124; **/globalsamplegclife**} [**/samplelineoff**]
 
-   -   The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.
+   - The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.
 
         Specify one and only one of the following options.
 
@@ -41,7 +41,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
        |**/globalsamplegc**|Enables the collection of memory allocation data.|
        |**/globalsamplegclife**|Enables the collection of both memory allocation data and object lifetime data.|
 
-   -   The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.
+   - The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.
 
 3. Restart the computer to set the new environment configuration.
 
@@ -58,7 +58,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
      You can use any of the following options with the **/start:sample** option.
 
    > [!NOTE]
-   >  The **/user** and **/crosssession** options are usually required for ASP.NET applications.
+   > The **/user** and **/crosssession** options are usually required for ASP.NET applications.
 
    | Option | Description |
    | - | - |
@@ -68,7 +68,6 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file. |
-
 
 6. Start the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application in the typical way.
 
@@ -85,7 +84,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
 #### To start and stop data collection
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|

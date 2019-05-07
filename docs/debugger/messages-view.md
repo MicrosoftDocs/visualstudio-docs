@@ -25,21 +25,21 @@ Spy++ Messages View
 
 #### To open a Messages view for a window, process, or thread
 
-1.  Move the focus to a [Windows View](../debugger/windows-view.md), [Processes View](../debugger/processes-view.md), or [Threads View](../debugger/threads-view.md) window.
+1. Move the focus to a [Windows View](../debugger/windows-view.md), [Processes View](../debugger/processes-view.md), or [Threads View](../debugger/threads-view.md) window.
 
-2.  Find the node for the item whose messages you want to examine, and select it.
+2. Find the node for the item whose messages you want to examine, and select it.
 
-3.  From the **Spy** menu, choose **Log Messages**.
+3. From the **Spy** menu, choose **Log Messages**.
 
      The [Message Options Dialog Box](../debugger/message-options-dialog-box.md) opens.
 
-4.  Select the options for the message you want to display.
+4. Select the options for the message you want to display.
 
-5.  Press **OK** to begin logging messages.
+5. Press **OK** to begin logging messages.
 
      A Messages view window opens, and a **Messages** menu is added to the Spy++ toolbar. Depending upon the options selected, messages begin streaming into the active Messages view window.
 
-6.  When you have enough messages, choose **Stop Logging** from the **Messages** menu.
+6. When you have enough messages, choose **Stop Logging** from the **Messages** menu.
 
 ## In This Section
  [Controlling Messages View](../debugger/how-to-control-messages-view.md)

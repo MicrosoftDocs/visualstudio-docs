@@ -12,8 +12,6 @@ ms.workload:
 
 In some cases, you might need to manually configure your C++ project to get IntelliSense working properly. For MSBuild projects (based on .vcxproj files), you can adjust settings in project properties. For non-MSBuild projects, you adjust settings in the CppProperties.json file in the root directory of the project. In some cases, you may need to create a hint file to help IntelliSense understand macro definitions. The Visual Studio IDE helps you identify and fix IntelliSense problems.
 
-
-
 ## Single-file IntelliSense
 
 When you open a file that is not included in a project, Visual Studio provides some IntelliSense support but by default no error squiggles are shown. If the **Navigation Bar** says *Miscellaneous Files*, then that probably explains why you are not seeing error squiggles under incorrect code, or why a preprocessor macro is not defined.
@@ -46,7 +44,7 @@ For more information, see [How to: Enable IntelliSense for Makefile Projects](/c
 
 ### Open Folder projects
 
-For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/ide/non-msbuild-projects#cppproperties). Make sure that the paths are correct for each configuration that is defined in the file.
+For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-intellisense-and-browsing-hints-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
 
 If there is a syntax error in the CppProperties.json file, IntelliSense in the affected files will be incorrect. Visual Studio will display the error in the Output Window.
 
@@ -66,7 +64,7 @@ There are two common ways in which this problem manifests in Visual Studio:
 
    ![Tag parser offers to define existing function](media/vcpp-intellisense-tag-parser-function.png)
 
-To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/ide/hint-files).
+To fix these kinds of problems, add a file named **cpp.hint** to the root of your solution directory. For more information, see [Hint Files](/cpp/build/reference/hint-files).
 
 Tag parser errors appear in the **Error List** window.
 

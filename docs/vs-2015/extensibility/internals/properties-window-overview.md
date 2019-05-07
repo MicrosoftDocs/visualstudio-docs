@@ -16,9 +16,9 @@ manager: jillfra
 
 The **Properties** window is used to display properties for objects selected in the two main types of windows available in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE). These two types of windows are:  
   
--   Tool windows such as Solution Explorer, Class View, and Object browser  
+- Tool windows such as Solution Explorer, Class View, and Object browser  
   
--   Document windows containing such editors and designers as the forms designer, XML editor, and HTML editor  
+- Document windows containing such editors and designers as the forms designer, XML editor, and HTML editor  
   
 ## Using the Properties Window  
  The **Properties** window displays the properties of single or multiple selected items. If multiple items are selected, the intersection of all properties for all selected objects is displayed.  

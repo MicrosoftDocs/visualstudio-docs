@@ -1,6 +1,6 @@
 ---
 title: "Image Service and Catalog | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "04/01/2019"
 ms.topic: "conceptual"
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 author: "gregvanl"
@@ -210,78 +210,88 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 ### First steps (managed)
  To use the image service, you need to add references to some or all of the following assemblies to your project:
 
--   *Microsoft.VisualStudio.ImageCatalog.dll*
+- *Microsoft.VisualStudio.ImageCatalog.dll*
 
-    -   Required if you use the built-in image catalog **KnownMonikers**.
+    - Required if you use the built-in image catalog **KnownMonikers**.
 
--   *Microsoft.VisualStudio.Imaging.dll*
+- *Microsoft.VisualStudio.Imaging.dll*
 
-    -   Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI.
+    - Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI.
 
--   *Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll*
+- *Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll*
 
-    -   Required if you use the **ImageMoniker** and **ImageAttributes** types.
+    - Required if you use the **ImageMoniker** and **ImageAttributes** types.
 
-    -   **EmbedInteropTypes** should be set to true.
+    - **EmbedInteropTypes** should be set to true.
 
--   *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime*
+- *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime*
 
-    -   Required if you use the **IVsImageService2** type.
+    - Required if you use the **IVsImageService2** type.
 
-    -   **EmbedInteropTypes** should be set to true.
+    - **EmbedInteropTypes** should be set to true.
 
--   *Microsoft.VisualStudio.Utilities.dll*
+- *Microsoft.VisualStudio.Utilities.dll*
 
-    -   Required if you use the **BrushToColorConverter** for the **ImageThemingUtilities.ImageBackgroundColor** in your WPF UI.
+    - Required if you use the **BrushToColorConverter** for the **ImageThemingUtilities.ImageBackgroundColor** in your WPF UI.
 
--   *Microsoft.VisualStudio.Shell.\<VSVersion>.0*
+- *Microsoft.VisualStudio.Shell.\<VSVersion>.0*
 
-    -   Required if you use the **IVsUIObject** type.
+    - Required if you use the **IVsUIObject** type.
 
--   *Microsoft.VisualStudio.Shell.Interop.10.0.dll*
+- *Microsoft.VisualStudio.Shell.Interop.10.0.dll*
 
-    -   Required if you use the WinForms-related UI helpers.
+    - Required if you use the WinForms-related UI helpers.
 
-    -   **EmbedInteropTypes** should be set to true
+    - **EmbedInteropTypes** should be set to true
 
 ### First steps (native)
  To use the image service, you need to include some or all of the following headers to your project:
 
--   **KnownImageIds.h**
+- **KnownImageIds.h**
 
-    -   Required if you use the built-in image catalog **KnownMonikers**, but cannot use the **ImageMoniker** type, such as when returning values from **IVsHierarchy GetGuidProperty** or **GetProperty** calls.
+    - Required if you use the built-in image catalog **KnownMonikers**, but cannot use the **ImageMoniker** type, such as when returning values from **IVsHierarchy GetGuidProperty** or **GetProperty** calls.
 
--   **KnownMonikers.h**
+- **KnownMonikers.h**
 
-    -   Required if you use the built-in image catalog **KnownMonikers**.
+    - Required if you use the built-in image catalog **KnownMonikers**.
 
--   **ImageParameters140.h**
+- **ImageParameters140.h**
 
-    -   Required if you use the **ImageMoniker** and **ImageAttributes** types.
+    - Required if you use the **ImageMoniker** and **ImageAttributes** types.
 
--   **VSShell140.h**
+- **VSShell140.h**
 
-    -   Required if you use the **IVsImageService2** type.
+    - Required if you use the **IVsImageService2** type.
 
--   **ImageThemingUtilities.h**
+- **ImageThemingUtilities.h**
 
-    -   Required if you are unable to let the image service handle theming for you.
+    - Required if you are unable to let the image service handle theming for you.
 
-    -   Do not use this header if the image service can handle your image theming.
+    - Do not use this header if the image service can handle your image theming.
 
--   **VSUIDPIHelper.h**
+::: moniker range="vs-2017"
+- **VSUIDPIHelper.h**
 
-    -   Required if you use the DPI helpers to get the current DPI.
+    - Required if you use the DPI helpers to get the current DPI.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+- **VsDpiAwareness.h**  
+
+    - Required if you use the DPI awareness helpers to get the current DPI.  
+
+::: moniker-end
 
 ## How do I write new WPF UI?
 
-1.  Start by adding the assembly references required in the above first steps section to your project. You don't need to add all of them, so add just the references you need. (Note: if you are using or have access to **Colors** instead of **Brushes**, then you can skip the reference to **Utilities**, since you won't need the converter.)
+1. Start by adding the assembly references required in the above first steps section to your project. You don't need to add all of them, so add just the references you need. (Note: if you are using or have access to **Colors** instead of **Brushes**, then you can skip the reference to **Utilities**, since you won't need the converter.)
 
-2.  Select the desired image and get its moniker. Use a **KnownMoniker**, or use your own if you have your own custom images and monikers.
+2. Select the desired image and get its moniker. Use a **KnownMoniker**, or use your own if you have your own custom images and monikers.
 
-3.  Add **CrispImages** to your XAML. (See below example.)
+3. Add **CrispImages** to your XAML. (See below example.)
 
-4.  Set the **ImageThemingUtilities.ImageBackgroundColor** property in your UI hierarchy. (This should be set at the location where the background color is known, not necessarily on the **CrispImage**.) (See below example.)
+4. Set the **ImageThemingUtilities.ImageBackgroundColor** property in your UI hierarchy. (This should be set at the location where the background color is known, not necessarily on the **CrispImage**.) (See below example.)
 
 ```xaml
 <Window
@@ -307,19 +317,19 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
  Updating existing WPF UI is a relatively simple process that consists of three basic steps:
 
-1.  Replace all \<Image> elements in your UI with \<CrispImage> elements.
+1. Replace all \<Image> elements in your UI with \<CrispImage> elements.
 
-2.  Change all the Source attributes to Moniker attributes.
+2. Change all the Source attributes to Moniker attributes.
 
-    -   If the image never changes and you are using **KnownMonikers**, then statically bind that property to the **KnownMoniker**. (See the above example.)
+    - If the image never changes and you are using **KnownMonikers**, then statically bind that property to the **KnownMoniker**. (See the above example.)
 
-    -   If the image never changes and you are using your own custom image, then statically bind to your own moniker.
+    - If the image never changes and you are using your own custom image, then statically bind to your own moniker.
 
-    -   If the image can change, bind the Moniker attribute to a code property that notifies on property changes.
+    - If the image can change, bind the Moniker attribute to a code property that notifies on property changes.
 
-3.  Somewhere in the UI hierarchy, set **ImageThemingUtilities.ImageBackgroundColor** to make sure color inversion works correctly.
+3. Somewhere in the UI hierarchy, set **ImageThemingUtilities.ImageBackgroundColor** to make sure color inversion works correctly.
 
-    -   This might require the use of the **BrushToColorConverter** class. (See the above example.)
+    - This might require the use of the **BrushToColorConverter** class. (See the above example.)
 
 ## How do I update Win32 UI?
  Add the following to your code wherever appropriate to replace the raw loading of images. Switch values for returning HBITMAPs versus HICONs versus HIMAGELIST as needed.
@@ -333,24 +343,53 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
 
  **Requesting the image**
 
-```cpp
-ImageAttributes attr = { 0 };
-attr.StructSize      = sizeof(attributes);
-attr.Format          = DF_Win32;
-// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST
-attr.ImageType       = IT_Bitmap;
-attr.LogicalWidth    = 16;
-attr.LogicalHeight   = 16;
-attr.Dpi             = VsUI::DpiHelper::GetDeviceDpiX();
-attr.Background      = 0xFFFFFFFF;
-// Desired RGBA color, if you don't use this, don't set IAF_Background below
-attr.Flags           = IAF_RequiredFlags | IAF_Background;
+::: moniker range="vs-2017"
 
-CComPtr<IVsUIObject> spImg;
-// Replace this KnownMoniker with your desired ImageMoniker
-spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
+```cpp  
+ImageAttributes attr = { 0 };  
+attr.StructSize      = sizeof(attributes);  
+attr.Format          = DF_Win32;  
+// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST  
+attr.ImageType       = IT_Bitmap;  
+attr.LogicalWidth    = 16;  
+attr.LogicalHeight   = 16;  
+attr.Dpi             = VsUI::DpiHelper::GetDeviceDpiX();  
+// Desired RGBA color, if you don't use this, don't set IAF_Background below  
+attr.Background      = 0xFFFFFFFF;  
+attr.Flags           = IAF_RequiredFlags | IAF_Background;  
 
-```
+CComPtr<IVsUIObject> spImg;  
+// Replace this KnownMoniker with your desired ImageMoniker  
+spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);  
+```  
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+```cpp 
+UINT dpiX, dpiY;
+HWND hwnd = // get the HWND where the image will be displayed
+VsUI::CDpiAwareness::GetDpiForWindow(hwnd, &dpiX, &dpiY);
+ 
+ImageAttributes attr = { 0 };  
+attr.StructSize      = sizeof(attributes);  
+attr.Format          = DF_Win32;  
+// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST  
+attr.ImageType       = IT_Bitmap;  
+attr.LogicalWidth    = 16;  
+attr.LogicalHeight   = 16;  
+attr.Dpi             = dpiX;
+// Desired RGBA color, if you don't use this, don't set IAF_Background below  
+attr.Background      = 0xFFFFFFFF;  
+attr.Flags           = IAF_RequiredFlags | IAF_Background;  
+
+CComPtr<IVsUIObject> spImg;  
+// Replace this KnownMoniker with your desired ImageMoniker  
+spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);  
+```  
+
+::: moniker-end
 
 ## How do I update WinForms UI?
  Add the following to your code wherever appropriate to replace the raw loading of images. Switch values for returning Bitmaps versus Icons as needed.
@@ -371,27 +410,59 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
 
  **Request the image**
 
-```csharp
-ImageAttributes attributes = new ImageAttributes
-{
-    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),
-    // IT_Bitmap for Bitmap, IT_Icon for Icon
-    ImageType     = (uint)_UIImageType.IT_Bitmap,
-    Format        = (uint)_UIDataFormat.DF_WinForms,
-    LogicalWidth  = 16,
-    LogicalHeight = 16,
-    // Desired RGBA color, if you don't use this, don't set IAF_Background below
-    Background    = 0xFFFFFFFF,
-    Flags = (uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background,
-};
+::: moniker range="vs-2017"
 
-// Replace this KnownMoniker with your desired ImageMoniker
-IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
+```csharp  
+ImageAttributes attributes = new ImageAttributes  
+{  
+    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),  
+    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList  
+    ImageType     = (uint)_UIImageType.IT_Bitmap,  
+    Format        = (uint)_UIDataFormat.DF_WinForms,  
+    LogicalWidth  = 16,  
+    LogicalHeight = 16,  
+    Dpi           = (int)DpiHelper.DeviceDpiX;  
+    // Desired RGBA color, if you don't use this, don't set IAF_Background below  
+    Background    = 0xFFFFFFFF,  
+    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background), 
+};  
 
-Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap
-// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj); // Use this if you need an icon
+// Replace this KnownMoniker with your desired ImageMoniker  
+IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);  
 
-```
+Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap  
+// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon  
+```  
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+```csharp  
+Control control = // get the control where the image will be displayed
+
+ImageAttributes attributes = new ImageAttributes  
+{  
+    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),  
+    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList  
+    ImageType     = (uint)_UIImageType.IT_Bitmap,  
+    Format        = (uint)_UIDataFormat.DF_WinForms,  
+    LogicalWidth  = 16,  
+    LogicalHeight = 16,  
+    Dpi           = (int)DpiAwareness.GetWindowDpi(control.Handle);  
+    // Desired RGBA color, if you don't use this, don't set IAF_Background below  
+    Background    = 0xFFFFFFFF,  
+    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),  
+};  
+
+// Replace this KnownMoniker with your desired ImageMoniker  
+IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);  
+
+Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap  
+// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon  
+```  
+
+::: moniker-end
 
 ## How do I use image monikers in a new tool window?
  The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select **Add** > **New Item** (**Ctrl**+**Shift**+**A**). Under the Extensibility node for the project language, select **Custom Tool Window**, give the tool window a name, and press the **Add** button.
@@ -432,18 +503,18 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 3. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
 
-   1.  Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
+   1. Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
 
        ```csharp
        this.BitmapResourceID = <Value>;
        this.BitmapIndex = <Value>;
        ```
 
-   2.  See step #1 of the "How do I use image monikers in a new tool window?" section above.
+   2. See step #1 of the "How do I use image monikers in a new tool window?" section above.
 
 4. The command to open the tool window.
 
-   -   See step #2 of the "How do I use image monikers in a new tool window?" section above.
+   - See step #2 of the "How do I use image monikers in a new tool window?" section above.
 
 ## How do I use image monikers in a .vsct file?
  Update your *.vsct* file as indicated by the commented lines below:
@@ -561,27 +632,27 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 1. Run the **ManifestFromResources** tool, passing it the image strip. This will generate a manifest for the strip.
 
-   -   Recommended: provide a non default name for the manifest to suit its usage.
+   - Recommended: provide a non default name for the manifest to suit its usage.
 
 2. If you are using only **KnownMonikers**, then do the following:
 
-   -   Replace the \<Images> section of the manifest with \<Images/>.
+   - Replace the \<Images> section of the manifest with \<Images/>.
 
-   -   Remove all the subimage IDs (anything with \<imagestrip name>_##).
+   - Remove all the subimage IDs (anything with \<imagestrip name>_##).
 
-   -   Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.
+   - Recommended: rename the AssetsGuid symbol and image strip symbol to suit its usage.
 
-   -   Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**
+   - Replace each **ContainedImage**'s GUID with $(ImageCatalogGuid), replace each **ContainedImage**'s ID with $(\<moniker>), and add the External="true" attribute to each **ContainedImage**
 
-       -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.
+       - \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.
 
-   -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.
+   - Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.
 
-       -   The relative path is determined by the deployment location defined in the setup authoring for the manifest.
+       - The relative path is determined by the deployment location defined in the setup authoring for the manifest.
 
 3. Run the **ManifestToCode** tool to generate wrappers so that the existing code has a moniker it can use to query the image service for the image strip.
 
-   -   Recommended: provide nondefault names for the wrappers and namespaces to suit their usage.
+   - Recommended: provide nondefault names for the wrappers and namespaces to suit their usage.
 
 4. Do all the adds, setup authoring/deployment, and other code changes to work with the image service and the new files.
 
@@ -638,11 +709,11 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
  **I don't need to support HIMAGELISTs**
 
-1.  Determine the set of **KnownMonikers** that match the images in your image strip, or create your own monikers for the images in your image strip.
+1. Determine the set of **KnownMonikers** that match the images in your image strip, or create your own monikers for the images in your image strip.
 
-2.  Update whatever mapping you used to get the image at the required index in the image strip to use the monikers instead.
+2. Update whatever mapping you used to get the image at the required index in the image strip to use the monikers instead.
 
-3.  Update your code to use the image service to request monikers via the updated mapping. (This might mean updating to **CrispImages** for managed code, or requesting HBITMAPs or HICONs from the image service and passing them around for native code.)
+3. Update your code to use the image service to request monikers via the updated mapping. (This might mean updating to **CrispImages** for managed code, or requesting HBITMAPs or HICONs from the image service and passing them around for native code.)
 
 ## Testing your images
  You can use the Image Library Viewer tool to test your image manifests to make sure everything is authored correctly. You can find the tool in the [Visual Studio 2015 SDK](visual-studio-sdk.md). Documentation for this tool and others can be found [here](https://aka.ms/VSImageThemeTools).
@@ -671,19 +742,19 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
 ## FAQ
 
--   Are there any dependencies that you must include when loading \<Reference Include="Microsoft.VisualStudio.*.Interop.14.0.DesignTime" />?
+- Are there any dependencies that you must include when loading \<Reference Include="Microsoft.VisualStudio.*.Interop.14.0.DesignTime" />?
 
-    -   Set EmbedInteropTypes="true" on all interop DLLs.
+    - Set EmbedInteropTypes="true" on all interop DLLs.
 
--   How do I deploy an image manifest with my extension?
+- How do I deploy an image manifest with my extension?
 
-    -   Add the *.imagemanifest* file to your project.
+    - Add the *.imagemanifest* file to your project.
 
-    -   Set "Include in VSIX" to True.
+    - Set "Include in VSIX" to True.
 
--   I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?
+- I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?
 
-    -   These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:
+    - These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:
 
         |||
         |-|-|
@@ -751,7 +822,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |ImageName.CSharpCodeFile|KnownImageIds.CSFileNode|
         |ImageName.VisualBasicCodeFile|KnownImageIds.VBFileNode|
 
-    -   I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
+    - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?
 
         ||||
         |-|-|-|
@@ -761,12 +832,12 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphGroupClass|GlyphItemProtected|ClassProtected|
         |GlyphGroupClass|GlyphItemPrivate|ClassPrivate|
         |GlyphGroupClass|GlyphItemShortcut|ClassShortcut|
-        |GlyphGroupConstant|GlyphItemPublic|ClassPublic|
-        |GlyphGroupConstant|GlyphItemInternal|ClassInternal|
-        |GlyphGroupConstant|GlyphItemFriend|ClassInternal|
-        |GlyphGroupConstant|GlyphItemProtected|ClassProtected|
-        |GlyphGroupConstant|GlyphItemPrivate|ClassPrivate|
-        |GlyphGroupConstant|GlyphItemShortcut|ClassShortcut|
+        |GlyphGroupConstant|GlyphItemPublic|ConstantPublic|  
+        |GlyphGroupConstant|GlyphItemInternal|ConstantInternal|  
+        |GlyphGroupConstant|GlyphItemFriend|ConstantInternal|  
+        |GlyphGroupConstant|GlyphItemProtected|ConstantProtected|  
+        |GlyphGroupConstant|GlyphItemPrivate|ConstantPrivate|  
+        |GlyphGroupConstant|GlyphItemShortcut|ConstantShortcut|  
         |GlyphGroupDelegate|GlyphItemPublic|DelegatePublic|
         |GlyphGroupDelegate|GlyphItemInternal|DelegateInternal|
         |GlyphGroupDelegate|GlyphItemFriend|DelegateInternal|
@@ -779,12 +850,12 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphGroupEnum|GlyphItemProtected|EnumerationProtected|
         |GlyphGroupEnum|GlyphItemPrivate|EnumerationPrivate|
         |GlyphGroupEnum|GlyphItemShortcut|EnumerationShortcut|
-        |GlyphGroupEnumMember|GlyphItemPublic|EnumerationMemberPublic|
-        |GlyphGroupEnumMember|GlyphItemInternal|EnumerationMemberInternal|
-        |GlyphGroupEnumMember|GlyphItemFriend|EnumerationMemberInternal|
-        |GlyphGroupEnumMember|GlyphItemProtected|EnumerationMemberProtected|
-        |GlyphGroupEnumMember|GlyphItemPrivate|EnumerationMemberPrivate|
-        |GlyphGroupEnumMember|GlyphItemShortcut|EnumerationMemberShortcut|
+        |GlyphGroupEnumMember|GlyphItemPublic|EnumerationItemPublic|  
+        |GlyphGroupEnumMember|GlyphItemInternal|EnumerationItemInternal|  
+        |GlyphGroupEnumMember|GlyphItemFriend|EnumerationItemInternal|  
+        |GlyphGroupEnumMember|GlyphItemProtected|EnumerationItemProtected|  
+        |GlyphGroupEnumMember|GlyphItemPrivate|EnumerationItemPrivate|  
+        |GlyphGroupEnumMember|GlyphItemShortcut|EnumerationItemShortcut|  
         |GlyphGroupEvent|GlyphItemPublic|EventPublic|
         |GlyphGroupEvent|GlyphItemInternal|EventInternal|
         |GlyphGroupEvent|GlyphItemFriend|EventInternal|

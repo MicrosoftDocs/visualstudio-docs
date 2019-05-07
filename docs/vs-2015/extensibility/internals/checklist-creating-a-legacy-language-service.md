@@ -19,13 +19,13 @@ The following checklist summarizes the basic steps you must take in order to cre
   
 ## Steps for Creating a Language Service  
   
-1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
+1. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
   
-    -   In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
+    - In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
   
-    -   Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.  
+    - Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite%2A> implementation.  
   
-2.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
+2. Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
   
      The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface is the starting point of interaction between the core editor and the language service.  
   
@@ -57,7 +57,7 @@ The following checklist summarizes the basic steps you must take in order to cre
     Commands that must be handled depend on the services that are provided. For more information, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).  
   
   > [!NOTE]
-  >  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
+  > The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
   
 - Statement completion  
   
@@ -115,7 +115,7 @@ The following checklist summarizes the basic steps you must take in order to cre
   
    Provide context to the editor in one of the following ways:  
   
-  -   Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
+  - Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
   
   Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
   

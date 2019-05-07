@@ -59,13 +59,13 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
  To rearrange the DSL Definition diagram, you can:  
   
--   Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.  
+- Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.  
   
--   Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.  
+- Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.  
   
--   Collapse or expand classes using the icon at the upper-right of each shape.  
+- Collapse or expand classes using the icon at the upper-right of each shape.  
   
--   Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.  
+- Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.  
   
 ## Inheritance  
  Domain classes can be defined using inheritance. To create an inheritance derivation, click the Inheritance tool, click the derived class, and then click the base class. A model element has all the properties that are defined on its own domain class, together with all the properties inherited from the base class. It also inherits its roles in relationships.  
@@ -91,7 +91,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  When a model is saved to file in XML form, embedded elements are nested inside their parents, unless you have customized the serialization.  
   
 > [!NOTE]
->  Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.  
+> Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.  
   
 ### Embedding rules  
  Every element in an instance model must be the target of exactly one embedding link, except for the root of the model.  

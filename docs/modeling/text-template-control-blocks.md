@@ -13,11 +13,11 @@ ms.workload:
 # Text Template Control Blocks
 Control blocks let you write code in your text template in order to vary the output. There are three kinds of control blocks, which are distinguished by their opening brackets:
 
--   `<# Standard control blocks #>` can contain statements.
+- `<# Standard control blocks #>` can contain statements.
 
--   `<#= Expression control blocks #>` can contain expressions.
+- `<#= Expression control blocks #>` can contain expressions.
 
--   `<#+ Class feature control blocks #>` can contain methods, fields and properties.
+- `<#+ Class feature control blocks #>` can contain methods, fields and properties.
 
 ## Standard control block
  Standard control blocks contain statements. For example, the following standard block gets the names of all the attributes in the XML document:
@@ -56,11 +56,11 @@ Found another one!
 ```
 
 > [!WARNING]
->  Always use {...} to delimit nested statements that contain embedded plain text. The following example might not work properly:
+> Always use {...} to delimit nested statements that contain embedded plain text. The following example might not work properly:
 >
->  `<# if (ShouldPrint) #> Some text. -- WRONG`
+> `<# if (ShouldPrint) #> Some text. -- WRONG`
 >
->  Instead, you should include {braces}, as follows:
+> Instead, you should include {braces}, as follows:
 
 ```
 
@@ -109,7 +109,7 @@ Some text.
 ```
 
 > [!NOTE]
->  A class feature control block must not be followed by standard control blocks in the same template file. However, this restriction does not apply to the result of using `<#@include#>` directives. Each included file can have standard blocks followed by class feature blocks.
+> A class feature control block must not be followed by standard control blocks in the same template file. However, this restriction does not apply to the result of using `<#@include#>` directives. Each included file can have standard blocks followed by class feature blocks.
 
  You can create a function that generates output by embedding text and expression blocks inside a class feature control block. For example:
 
@@ -139,17 +139,17 @@ Some text.
 
  You should keep in mind the following considerations when you use control blocks:
 
--   **Language.** You can use either C# or Visual Basic code in a text template. The default language is C#, but you can specify Visual Basic with the `language` parameter of the `template` directive. (For more information about the `template` directive, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).)
+- **Language.** You can use either C# or Visual Basic code in a text template. The default language is C#, but you can specify Visual Basic with the `language` parameter of the `template` directive. (For more information about the `template` directive, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).)
 
      The language you use in control blocks has nothing to do with the language or format of the text you generate in a text template. You can generate C# by using Visual Basic code or vice versa.
 
      You can use only one language in a given text template, including all the text templates you include with the `include` directive.
 
--   **Local variables.** Since all the code in the standard and expression control blocks in a text template is generated as a single method, you should make certain that there are no conflicts with the names of local variables. If you are including other text templates, you must make sure that variable names are unique across all included templates. One way to ensure this is to add a string to each local variable name identifying the text template in which it was declared.
+- **Local variables.** Since all the code in the standard and expression control blocks in a text template is generated as a single method, you should make certain that there are no conflicts with the names of local variables. If you are including other text templates, you must make sure that variable names are unique across all included templates. One way to ensure this is to add a string to each local variable name identifying the text template in which it was declared.
 
      It is also a good idea to initialize your local variables to sensible values when you declare them, particularly when you are including multiple text templates.
 
--   **Nesting of control blocks.** Control blocks may not be nested inside each other. You must always terminate a given control block before you open another one. For example, the following shows how to print some text in an expression block as part of a standard control block.
+- **Nesting of control blocks.** Control blocks may not be nested inside each other. You must always terminate a given control block before you open another one. For example, the following shows how to print some text in an expression block as part of a standard control block.
 
     ```
     <#
@@ -161,4 +161,4 @@ Some text.
     <# } #>
     ```
 
--   **Refactoring.** In order to keep your text templates short and easy to understand, it is strongly recommended that you avoid repetitive code either by factoring the reusable code into helper functions in class feature blocks or by creating your own text template class that inherits from the Microsoft.VisualStudio.TextTemplating.TextTransformation class.
+- **Refactoring.** In order to keep your text templates short and easy to understand, it is strongly recommended that you avoid repetitive code either by factoring the reusable code into helper functions in class feature blocks or by creating your own text template class that inherits from the Microsoft.VisualStudio.TextTemplating.TextTransformation class.

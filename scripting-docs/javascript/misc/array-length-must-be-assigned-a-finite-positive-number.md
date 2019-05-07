@@ -20,7 +20,7 @@ When setting the **length** property of an existing **Array** object, you specif
   
 ### To correct this error  
   
--   Assign a positive whole number to the length property. There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion). The following example demonstrates the correct way to set the **length** property of an **Array** object.  
+- Assign a positive whole number to the length property. There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion). The following example demonstrates the correct way to set the **length** property of an **Array** object.  
   
     ```JavaScript  
     var my_array = new Array();  

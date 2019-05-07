@@ -13,6 +13,8 @@ ms.workload:
 
 Learn how to use data tools in Visual Studio to develop and test data solutions using SQL Server, Azure Data Lake, or Hadoop.
 
+<!-- markdownlint-disable MD033 -->
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/visualstudio/data-tools/visual-studio-data-tools-for-dotnet">
@@ -117,7 +119,7 @@ Learn how to use data tools in Visual Studio to develop and test data solutions 
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p><Access data in Visual Studio></p>
+                        <p>Access data in Visual Studio</p>
                     </div>
                 </div>
             </div>

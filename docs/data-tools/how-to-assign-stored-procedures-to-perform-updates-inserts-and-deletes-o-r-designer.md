@@ -27,23 +27,23 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 
 ### To assign stored procedures to override the default behavior of an entity class
 
-1.  Open the **LINQ to SQL** file in the designer. (Double-click the **.dbml** file in **Solution Explorer**.)
+1. Open the **LINQ to SQL** file in the designer. (Double-click the **.dbml** file in **Solution Explorer**.)
 
-2.  In **Server Explorer** or **Database Explorer**, expand **Stored Procedures** and locate the stored procedures that you want to use for the Insert, Update, and/or Delete commands of the entity class.
+2. In **Server Explorer** or **Database Explorer**, expand **Stored Procedures** and locate the stored procedures that you want to use for the Insert, Update, and/or Delete commands of the entity class.
 
-3.  Drag the stored procedure onto the **O/R Designer**.
+3. Drag the stored procedure onto the **O/R Designer**.
 
      The stored procedure is added to the methods pane as a <xref:System.Data.Linq.DataContext> method. For more information, see [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).
 
-4.  Select the entity class for which you want to use the stored procedure for performing updates.
+4. Select the entity class for which you want to use the stored procedure for performing updates.
 
-5.  In the **Properties** window, select the command to override (**Insert**, **Update**, or **Delete**).
+5. In the **Properties** window, select the command to override (**Insert**, **Update**, or **Delete**).
 
-6.  Click the ellipsis (...) next to the words **Use Runtime** to open the **Configure Behavior** dialog box.
+6. Click the ellipsis (...) next to the words **Use Runtime** to open the **Configure Behavior** dialog box.
 
-7.  Select **Customize**.
+7. Select **Customize**.
 
-8.  Select the desired stored procedure in the **Customize** list.
+8. Select the desired stored procedure in the **Customize** list.
 
 9. Inspect the list of **Method Arguments** and **Class Properties** to verify that the **Method Arguments** map to the appropriate **Class Properties**. Map the original method arguments (`Original_<ArgumentName>`) to the original properties (`<PropertyName> (Original)`) for the `Update` and `Delete` commands.
 
@@ -53,7 +53,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 10. Click **OK** or **Apply**.
 
     > [!NOTE]
-    >  You can continue to configure the behavior for each class and behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box appears and provides you an opportunity to apply your changes.
+    > You can continue to configure the behavior for each class and behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box appears and provides you an opportunity to apply your changes.
 
 To revert to using the default runtime logic for updates, click the ellipsis next to the **Insert**, **Update**, or **Delete** command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.
 

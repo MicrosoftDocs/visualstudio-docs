@@ -24,16 +24,15 @@ manager: jillfra
 # Options, Text Editor, All Languages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to change the default behavior of the Code Editor. These settings also apply to other editors based upon the Code Editor, such as the HTML Designer's Source view. To open this dialog box, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder and then choose **General**.  
   
 > [!CAUTION]
->  This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the General options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.  
+> This page sets default options for all development languages. Remember that resetting an option in this dialog will reset the General options in all languages to whatever choices are selected here. To change Text Editor options for just one language, expand the subfolder for that language and select its option pages.  
   
  A grayed checkmark is displayed when an option has been selected on the General options pages for some programming languages, but not for others.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Statement Completion  
  Auto list members  
@@ -53,7 +52,7 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  When selected, any portion of a line that extends horizontally beyond the viewable editor area is automatically displayed on the next line. Selecting this option enables the **Show visual glyphs for word wrap** option.  
   
 > [!NOTE]
->  The **Virtual Space** feature is turned off while **Word Wrap** is on.  
+> The **Virtual Space** feature is turned off while **Word Wrap** is on.  
   
  Show visual glyphs for word wrap  
  When selected, a return-arrow indicator is displayed where a long line wraps onto a second line.  
@@ -63,7 +62,7 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
  Clear this option if you prefer not to display these indicators.  
   
 > [!NOTE]
->  These reminder arrows are not added to your code, and do not print. They are for reference only.  
+> These reminder arrows are not added to your code, and do not print. They are for reference only.  
   
  Apply Cut or Copy commands to blank lines when there is no selection  
  This option sets the behavior of the editor when you place the insertion point on a blank line, select nothing, and then Copy or Cut.  
@@ -75,14 +74,14 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
   This setting has no effect on Copy or Cut when a line is not blank. If nothing is selected, the entire line is copied or cut. If you then Paste, the text of the entire line and its endline character are pasted.  
   
 > [!TIP]
->  To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.  
+> To display indicators for spaces, tabs, and line ends, and thus distinguish indented lines from lines that are entirely blank, select **Advanced** from the **Edit** menu and choose **View White Space**.  
   
 ## Display  
  Line numbers  
  When selected, a line number appears next to each line of code.  
   
 > [!NOTE]
->  These line numbers are not added to your code, and do not print. They are for reference only.  
+> These line numbers are not added to your code, and do not print. They are for reference only.  
   
  Enable single-click URL navigation  
  When selected, the mouse cursor changes to a pointing hand as it passes over a URL in the editor. You can click the URL to display the indicated page in your Web browser.  

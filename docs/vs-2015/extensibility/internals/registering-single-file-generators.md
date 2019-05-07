@@ -19,7 +19,7 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
   
 ### To register a custom tool  
   
-1.  Register the custom tool DLL either in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] local registry or in the system registry, under HKEY_CLASSES_ROOT.  
+1. Register the custom tool DLL either in the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] local registry or in the system registry, under HKEY_CLASSES_ROOT.  
   
      For example, here's the registration information for the managed MSDataSetGenerator custom tool, which comes with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]:  
   
@@ -32,22 +32,22 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md
     "Assembly"="Microsoft.VSDesigner, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=b03f5f7f11d50a3a"  
     ```  
   
-2.  Create a registry key in the desired [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:  
+2. Create a registry key in the desired [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:  
   
-    -   (Default)  
+    - (Default)  
   
          Optional. Provides a user-friendly description of the custom tool. This parameter is optional, but recommended.  
   
-    -   CLSID  
+    - CLSID  
   
          Required. Specifies the identifier of the class library of the COM component that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>.  
   
-    -   GeneratesDesignTimeSource  
+    - GeneratesDesignTimeSource  
   
          Required. Indicates whether types from files produced by this custom tool are made available to visual designers. The value of this parameter needs to be (zero) 0 for types not available to visual designers or (one) 1 for types available to visual designers.  
   
     > [!NOTE]
-    >  You must register the custom tool separately for each language for which you want the custom tool to be available.  
+    > You must register the custom tool separately for each language for which you want the custom tool to be available.  
   
      For example, the MSDataSetGenerator registers itself once for each language:  
   

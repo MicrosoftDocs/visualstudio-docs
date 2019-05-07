@@ -26,7 +26,6 @@ robots: noindex,nofollow
 # Accessing data in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
  For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources,  create object models to store and manipulate data in memory, and bind data to the user interface.     Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
@@ -65,14 +64,14 @@ In Visual Studio, you can create applications that connect to data in virtually 
  Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension.   You can browse these offerings in the Visual Studio Gallery by navigating to **Tools** > **Extensions and Updates** and then selecting **Online** in the left pane of the dialog box.  For more information, see [Installing database systems, tools, and samples](../data-tools/installing-database-systems-tools-and-samples.md).
 
 > [!NOTE]
->  Extended support for SQL Server 2005 ended on April 12, 2016.   There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005 after this date. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/server-cloud/products/sql-server-2005/).
+> Extended support for SQL Server 2005 ended on April 12, 2016.   There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005 after this date. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/sql-server/sql-server-2005).
 
 ### .NET languages
  All .NET data access, including in .NET Core,  is based on ADO.NET, a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx\(v=vs.110\).aspx) in the MSDN Library.
 
  For data-access documentation specifically related to ASP.NET, see  [Working with Data](http://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](http://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 
- Universal Windows Platform (UWP) apps in C# or Visual Basic can use the      Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx.)
+ Universal Windows Platform (UWP) apps in C# or Visual Basic can use the      Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx).
 
  For data storage on the local machine, the recommended approach is to use SQLite, which runs in the same process as the app. If an object-relational mapping (ORM) layer is required, you can use Entity Framework. For more information, see [Data access](https://msdn.microsoft.com/windows/uwp/data-access/index) in the Windows Developer Center.
 
@@ -124,7 +123,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [Data, Devices, and Analytics](https://msdn.microsoft.com/data-and-devices)
  Provides an introduction to the Microsoft intelligent cloud, including Cortana Analytics Suite and support for Internet of Things.
 
- [Microsoft Azure Storage](https://azure.microCsoft.com/documentation/services/storage/)
+ [Microsoft Azure Storage](/azure/storage/)
  Describes Azure Storage, and how to create applications by  using Azure blobs, tables, queues, and files.
 
  [Azure SQL Database](https://azure.microsoft.com/documentation/services/sql-database/)

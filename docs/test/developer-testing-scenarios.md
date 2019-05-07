@@ -39,7 +39,6 @@ Whether you choose best of breed Coded UI Tests or generic browser-based UI test
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
-* [Test SharePoint applications with coded UI tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
 
 ## Effective unit testing with Visual Studio code coverage

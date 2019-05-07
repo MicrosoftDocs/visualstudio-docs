@@ -63,39 +63,39 @@ Code maps help you see the organization and relationships in your code.
 
 **Typical uses:**
 
--   Examine program code so you can better understand its structure and its dependencies, how to update it, and estimate the cost of proposed changes.
+- Examine program code so you can better understand its structure and its dependencies, how to update it, and estimate the cost of proposed changes.
 
 **See:**
 
--   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
--   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
--   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
+- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
+- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
+- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
 ### Dependency diagram
 Dependency diagrams let you define the structure of an application as a set of layers or blocks with explicit dependencies. You can run validation to discover conflicts between dependencies in the code and dependencies described on a dependency diagram.
 
 **Typical uses:**
 
--   Stabilize the structure of the application through numerous changes over its life.
--   Discover unintentional dependency conflicts before checking in changes to the code.
+- Stabilize the structure of the application through numerous changes over its life.
+- Discover unintentional dependency conflicts before checking in changes to the code.
 
 **See:**
 
--   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
--   [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
--   [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
+- [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
+- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
+- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 ### Domain-specific language (DSL)
 A DSL is a notation that you design for a specific purpose. In Visual Studio, it is usually graphical.
 
 **Typical uses:**
 
--   Generate or configure parts of the application. Work is required to develop the notation and tools. The result can be a better fit to your domain than a UML customization.
--   For large projects or in product lines where the investment in developing the DSL and its tools is returned by its use in more than one project.
+- Generate or configure parts of the application. Work is required to develop the notation and tools. The result can be a better fit to your domain than a UML customization.
+- For large projects or in product lines where the investment in developing the DSL and its tools is returned by its use in more than one project.
 
 **See:**
 
--   [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
 ## Where can I get more information?
 
@@ -103,5 +103,5 @@ A DSL is a notation that you design for a specific purpose. In Visual Studio, it
 
 ## See also
 
-- [What's new](../modeling/what-s-new-for-design-in-visual-studio.md)
+- [What's new for modeling in Visual Studio 2017](../modeling/what-s-new-for-design-in-visual-studio.md)
 - [DevOps and Application Lifecycle Management](/azure/devops/user-guide/devops-alm-overview)

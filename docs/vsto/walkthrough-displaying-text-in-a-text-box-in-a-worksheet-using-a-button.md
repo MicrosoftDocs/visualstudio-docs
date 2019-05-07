@@ -23,28 +23,28 @@ ms.workload:
 
  During this walkthrough, you will learn how to:
 
--   Add controls to a worksheet.
+- Add controls to a worksheet.
 
--   Populate a text box when a button is clicked.
+- Populate a text box when a button is clicked.
 
--   Test your project.
+- Test your project.
 
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
+- [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
--   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+- [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
 
 ## Create the project
  In this step, you will create an Excel Workbook project using Visual Studio.
 
 ### To create a new project
 
-1.  Create an Excel Workbook project with the name **My Excel Button**. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. Create an Excel Workbook project with the name **My Excel Button**. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
      Visual Studio opens the new Excel workbook in the designer and adds the **My Excel Button** project to **Solution Explorer**.
 
@@ -75,14 +75,14 @@ ms.workload:
 
 ### To write to the text box when the button is clicked
 
-1.  In **Solution Explorer**, right-click **Sheet1**, and then click **View Code** on the shortcut menu.
+1. In **Solution Explorer**, right-click **Sheet1**, and then click **View Code** on the shortcut menu.
 
-2.  Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the button:
+2. Add the following code to the <xref:System.Windows.Forms.Control.Click> event handler of the button:
 
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#11](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#11)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#11](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#11)]
 
-3.  In C#, you must add an event handler to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
+3. In C#, you must add an event handler to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).
 
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#12](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#12)]
 
@@ -91,18 +91,18 @@ ms.workload:
 
 ### To test your workbook
 
-1.  Press **F5** to run your project.
+1. Press **F5** to run your project.
 
-2.  Click the button.
+2. Click the button.
 
-3.  Confirm that **Hello World!** appears in the text box.
+3. Confirm that **Hello World!** appears in the text box.
 
 ## Next steps
  This walkthrough shows the basics of using buttons and text boxes on Excel worksheets. Here are some tasks that might come next:
 
--   Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+- Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
--   Using check boxes to change formatting. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
+- Using check boxes to change formatting. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
 
 ## See also
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)

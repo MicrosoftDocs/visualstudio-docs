@@ -17,17 +17,26 @@ On the remote device or server that you want to debug on, rather than the Visual
 
 ::: moniker range=">=vs-2019"
 
-> [!NOTE]
-> Until the standalone Remote tools for Visual Studio 2019 are available, if you need to use the remote debugger with Visual Studio 2019, [find the remote debugger](https://docs.microsoft.com/visualstudio/debugger/remote-debugging?view=vs-2017#fileshare_msvsmon) in your own installation of Visual Studio 2019, and either copy and run it on your remote machine or run it from a fileshare.
+|Version|Link|Notes|
+|-|-|-|
+|Visual Studio 2019|[Remote tools](https://visualstudio.microsoft.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2019)|Compatible with all Visual Studio 2019 versions. Download the version matching your device operating system (x86, x64, or ARM64). On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
+|Visual Studio 2017|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|Compatible with all Visual Studio 2017 versions. Download the version matching your device operating system (x86, x64, or ARM64). On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
+|Visual Studio 2015|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|Remote tools for Visual Studio 2015 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
+|Visual Studio 2013|[Remote tools](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#installing-the-remote-tools)|Download page in Visual Studio 2013 documentation|
+|Visual Studio 2012|[Remote tools](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#installing-the-remote-tools)|Download page in Visual Studio 2012 documentation|
 
 ::: moniker-end
 
+::: moniker range="vs-2017"
+
 |Version|Link|Notes|
 |-|-|-|
-|Visual Studio 2017 (latest version)|[Remote tools](https://visualstudio.microsoft.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|Compatible with all Visual Studio 2017 versions. Download the version matching your device operating system (x86, x64, or ARM64). On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
+|Visual Studio 2017|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|Compatible with all Visual Studio 2017 versions. Download the version matching your device operating system (x86, x64, or ARM64). On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools. For the most recent version of the remote tools, open the [Visual Studio 2019 doc](../../debugger/remote-debugging.md?view=vs-2019).|
 |Visual Studio 2015|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|Remote tools for Visual Studio 2015 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. On Windows Server, see [Unblock the file download](../../debugger/remote-debugging-unblock-file-download.md) for help downloading the remote tools.|
-|Visual Studio 2013|[Remote tools](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
-|Visual Studio 2012|[Remote tools](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|
+|Visual Studio 2013|[Remote tools](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#installing-the-remote-tools)|Download page in Visual Studio 2013 documentation|
+|Visual Studio 2012|[Remote tools](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#installing-the-remote-tools)|Download page in Visual Studio 2012 documentation|
+
+::: moniker-end
 
 You can run the remote debugger by copying *msvsmon.exe* to the remote computer, rather than installing the remote tools. However, the Remote Debugger Configuration Wizard (*rdbgwiz.exe*) is available only when you install the remote tools. You may need to use the wizard for configuration if you want to run the remote debugger as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
 

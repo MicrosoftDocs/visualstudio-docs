@@ -45,7 +45,7 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
 
 ##### To change the event list view mode
 
--   In the **Graphics Event List** window, above the list of events, locate the **View** dropdown and chose either the **Timeline** view or the **GPU Work** view.
+- In the **Graphics Event List** window, above the list of events, locate the **View** dropdown and chose either the **Timeline** view or the **GPU Work** view.
 
 ### Filtering events
  You can use the Search box—located in the upper-right corner of the **Graphics Event List** window—to filter the events list to include only events whose names contain specific keywords. You can specify single keywords like `Vertex`—as shown in the previous illustration—or multiple keywords by using a semicolon-delimited list like `Draw;Primitive`—which matches events that have either `Draw` or `Primitive` in their names. Searches are sensitive to whitespace—for example, `VSSet` and `VS Set` are different searches—so make sure to form searches carefully.
@@ -100,7 +100,6 @@ Visual Studio 2017 and greater contain the **Resource History** window.  Selecti
 ![Resource History](media/gfx_diag_resource_history.png)
 
 This window allows you to view the history of the selected item in the event list.  The dropdown at the top can be used to select other items to view the history of.  The top half of the window contains the **Frame Setup Events**.  These are the events which fall into the *Create* type category and are calls that typically initialize and create the resource.  The bottom half of the window contains the **Frame Events** section.  These are the normal read and write events that occur during the usage of the resource.
-
 
 | Column | Description |
 |-----------| - |

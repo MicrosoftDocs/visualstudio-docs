@@ -65,7 +65,7 @@
     - name: View data values in DataTips
       href: view-data-values-in-data-tips-in-the-code-editor.md
     - name: View string values in a visualizer
-      href: string-visualizer-dialog-box.md
+      href: view-strings-visualizer.md
     - name: View disassembly code
       href: how-to-use-the-disassembly-window.md
       items:
@@ -115,6 +115,8 @@
       items:
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
+    - name: Write and debug running XAML code
+      href: xaml-hot-reload.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data
@@ -199,7 +201,7 @@
     - name: Create custom views of data
       href: viewing-data-in-the-debugger.md
       items:
-      - name: Create custom views of native objects
+      - name: Create custom views of C++ objects
         href: create-custom-views-of-native-objects.md
         items:
         - name: "Visual C++ custom visualizer compatibility"
@@ -207,10 +209,10 @@
       - name: Create custom views of managed objects
         href: create-custom-views-of-dot-managed-objects.md
         items:
-        - name: Use DebuggerTypeProxy attribute
-          href: using-debuggertypeproxy-attribute.md
-        - name: Use the DebuggerDisplay attribute
+        - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md
+        - name: Tell the debugger what type to show
+          href: using-debuggertypeproxy-attribute.md
       - name: Create custom visualizers of data
         href: create-custom-visualizers-of-data.md
         items:
@@ -369,6 +371,8 @@
       href: debug-live-azure-apps-faq.md
     - name: Troubleshooting snapshot debugging
       href: debug-live-azure-apps-troubleshooting.md
+    - name: Time Travel Debugging live Azure virtual machine app
+      href: debug-live-azure-virtual-machines-time-travel-debugging.md      
   - name: Debug specific application types
     href: debugging-applications.md
     items:
@@ -397,15 +401,10 @@
           href: refresh-an-app-javascript.md
         - name: Debug a WebView control
           href: debug-a-webview-control.md
-        - name: Keyboard shortcuts (HTML and JavaScript)
-          href: keyboard-shortcuts-html-and-javascript.md
         - name: Debug HTML and CSS sample code
           href: debug-html-css-and-javascript-sample-code.md
       - name: Debug JavaScript using the console
         href: quickstart-debug-javascript-using-the-console.md
-        items:
-        - name: JavaScript Console commands
-          href: javascript-console-commands.md
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
       - name: Prefetch content for Microsoft Store apps
@@ -580,6 +579,10 @@
     - name: Debug Web applications
       href: debugging-web-applications.md
       items:
+      - name: JavaScript Console commands
+        href: javascript-console-commands.md
+      - name: Keyboard shortcuts (HTML and JavaScript)
+        href: keyboard-shortcuts-html-and-javascript.md
       - name: Client-side script debugging
         href: client-side-script-debugging.md
         items:
@@ -634,6 +637,8 @@
       href: select-code-type-dialog-box.md
     - name: Stop Debugging In Progress dialog box
       href: stop-debugging-in-progress-dialog-box.md
+    - name: String Visualizer dialog box
+      href: string-visualizer-dialog-box.md
     - name: Symbol Load Information dialog box
       href: symbol-load-information-dialog-box.md
     - name: When Breakpoint Is Hit dialog box

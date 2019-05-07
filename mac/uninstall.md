@@ -43,12 +43,14 @@ To run the script, do the following steps:
     ```bash
     cd /location/of/file
     ```
+
 3. Make the script executable and the run it with **sudo**:
 
     ```bash
     chmod +x ./uninstall-vsmac.sh
     sudo ./uninstall-vsmac.sh
     ```
+
 4. Finally, delete the uninstall script.
 
 ### .NET Core script
@@ -63,12 +65,14 @@ To run the script, do the following steps:
     ```bash
     cd /location/of/file
     ```
+
 3. Make the script executable and the run it with **sudo**:
 
     ```bash
     chmod +x ./dotnet-uninstall-pkgs.sh
     sudo ./dotnet-uninstall-pkgs.sh
     ```
+
 4. Finally, delete the .NET Core uninstall script.
 
 ## Uninstall Visual Studio for Mac
@@ -91,6 +95,7 @@ rm -rf ~/Library/VisualStudio
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf ~/Library/Application\ Support/VisualStudio
 rm -rf ~/Library/Application\ Support/VisualStudio/7.0/LocalInstall/Addins/
+rm -rf ~/Library/Application\ Support/VisualStudio/8.0/LocalInstall/Addins/
 ```
 
 You may also want to remove the following directory containing various Xamarin files and folders. However, before you do you should be aware that this directory contains the Android signing keys. For more information refer to the section **[Uninstalling Android SDK and Java SDK](#uninstall-android-sdk-and-java-sdk)**:
@@ -98,7 +103,6 @@ You may also want to remove the following directory containing various Xamarin f
 ```bash
 rm -rf ~/Library/Developer/Xamarin
 ```
-
 
 ## Uninstall Mono SDK (MDK)
 
@@ -211,6 +215,22 @@ rm -rf ~/Library/Logs/XamarinInstaller/
 rm -rf ~/Library/Logs/VisualStudioInstaller/
 rm -rf ~/Library/Preferences/Xamarin/
 rm -rf "~/Library/Preferences/Visual Studio/"
+```
+
+## Uninstall Visual Studio 2019 for Mac Preview
+
+Visual Studio 2019 for Mac Preview was launched as a separate preview, allowing you to continue to work with your Visual Studio 2017 for Mac install side-by-side.
+
+Now that Visual Studio 2019 for Mac has been released, you can now safely remove the Visual Studio 2019 for Mac Preview application.
+
+To uninstall the preview application bundle, select **Visual Studio (Preview)** from your **Applications** folder and click **Move to Trash**, as depicted in the following image:
+
+![selecting "move to trash" option in finder](media/uninstall-remove-vspreview.png)
+
+You can also remove the Preview plist file with the following command:
+
+```bash
+rm -rf ~/Library/Preferences/com.microsoft.visual-studio-preview.plist
 ```
 
 ## See also

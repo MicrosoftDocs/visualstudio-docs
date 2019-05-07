@@ -4,10 +4,8 @@ author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen
 ms.date: 02/21/2019
-ms.prod: visual-studio-dev15
 ms.technology: vs-azure
 ms.topic: include
-monikerRange: ">= vs-2017"
 ---
 # Tutorial: Create a multi-container app with Docker Compose
 
@@ -17,12 +15,12 @@ In this tutorial, you'll learn how to manage more than one container and communi
 
 ::: moniker range="vs-2017"
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) with the **Web Development**, **Azure Tools** workload, or **.NET Core cross-platform development** workload installed
+* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the **Web Development**, **Azure Tools** workload, or **.NET Core cross-platform development** workload installed
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+rc) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 * [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
 ::: moniker-end
 

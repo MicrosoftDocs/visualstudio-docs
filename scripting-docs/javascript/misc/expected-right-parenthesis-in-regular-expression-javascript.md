@@ -20,10 +20,10 @@ You attempted to create a regular expression capture, assertion, or group, but d
   
 ### To correct this error  
   
--   Add the rightmost closing parentheses.  
+- Add the rightmost closing parentheses.  
   
     > [!NOTE]
-    >  If you want to match a single parenthesis, escape it with a backslash - \\( - so that it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
+    > If you want to match a single parenthesis, escape it with a backslash - \\( - so that it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   

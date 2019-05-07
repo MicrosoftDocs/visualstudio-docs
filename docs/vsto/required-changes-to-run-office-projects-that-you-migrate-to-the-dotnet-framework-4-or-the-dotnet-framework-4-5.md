@@ -33,14 +33,14 @@ ms.workload:
 
 #### To remove the SecurityTransparentAttribute
 
-1.  With the project open in Visual Studio, open **Solution Explorer**.
+1. With the project open in Visual Studio, open **Solution Explorer**.
 
-2.  Under the **Properties** node (for C#) or the **My Project** node (for Visual Basic), double-click the AssemblyInfo code file to open it in the code editor.
+2. Under the **Properties** node (for C#) or the **My Project** node (for Visual Basic), double-click the AssemblyInfo code file to open it in the code editor.
 
     > [!NOTE]
-    >  In Visual Basic projects, you must click the **Show All Files** button in **Solution Explorer** to see the AssemblyInfo code file.
+    > In Visual Basic projects, you must click the **Show All Files** button in **Solution Explorer** to see the AssemblyInfo code file.
 
-3.  Locate the <xref:System.Security.SecurityTransparentAttribute> and either remove it from the file or comment it out.
+3. Locate the <xref:System.Security.SecurityTransparentAttribute> and either remove it from the file or comment it out.
 
     ```vb
     <Assembly: SecurityTransparent()>

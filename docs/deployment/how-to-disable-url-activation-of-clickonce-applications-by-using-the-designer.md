@@ -28,17 +28,17 @@ Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] a
 
 #### To disable URL activation for your application
 
-1.  Right-click your project name in **Solution Explorer**, and click **Properties**.
+1. Right-click your project name in **Solution Explorer**, and click **Properties**.
 
-2.  On the **Properties** page, click the **Publish** tab.
+2. On the **Properties** page, click the **Publish** tab.
 
-3.  Click **Options**.
+3. Click **Options**.
 
-4.  Click **Manifests**.
+4. Click **Manifests**.
 
-5.  Select the check box labeled **Block application from being activated via a URL**.
+5. Select the check box labeled **Block application from being activated via a URL**.
 
-6.  Deploy your application.
+6. Deploy your application.
 
 ## See also
 - [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)

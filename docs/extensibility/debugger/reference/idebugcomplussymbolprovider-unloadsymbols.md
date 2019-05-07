@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider::UnloadSymbols
 Unloads the debug symbols for the specified module from memory.
@@ -31,12 +34,12 @@ int UnloadSymbols(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
@@ -85,5 +88,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

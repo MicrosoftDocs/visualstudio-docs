@@ -31,7 +31,7 @@ You can open code into Visual Studio in any of the following ways:
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-- Choose the **Open Folder** link on the Start window.
+- Choose the **Open Folder** link on the start window.
 ::: moniker-end
 
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
@@ -97,7 +97,7 @@ If your codebase contains Python or JavaScript code, you don't have to configure
 
 ### Codebases that contain C++ code
 
-For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
+For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp).
 
 ### Codebases that contain a Visual Studio project
 
@@ -112,6 +112,6 @@ The **Start** button's text changes to reflect that the project is the startup i
 ## See also
 
 - [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
-- [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
-- [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
+- [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)
+- [CMake projects in C++](/cpp/build/cmake-projects-in-visual-studio)
 - [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)

@@ -13,7 +13,6 @@ manager: jillfra
 # How to: Create an XML Document Based on an XSD Schema
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The **Generate Sample XML** feature generates a sample XML file based on your XML Schema (XSD) file.  
   
  You can use this option for the following scenarios:  
@@ -38,9 +37,9 @@ The **Generate Sample XML** feature generates a sample XML file based on your XM
   
 ### To generate an XML instance document based on the XSD file  
   
-1.  Follow the steps in [How to: Create and Edit an XSD Schema File](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).  
+1. Follow the steps in [How to: Create and Edit an XSD Schema File](../xml-tools/how-to-create-and-edit-an-xsd-schema-file.md).  
   
-2.  In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.  
+2. In the [XML Schema Explorer](../xml-tools/xml-schema-explorer.md), right-click the `PurchaseOrder` global element. Select **Generate Sample XML**.  
   
      When you select this option, the PurchaseOrder.xml file with the following sample XML content will be generated and opened in the XML Editor:  
   

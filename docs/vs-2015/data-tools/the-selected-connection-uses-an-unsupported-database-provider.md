@@ -13,14 +13,13 @@ manager: jillfra
 # The selected connection uses an unsupported database provider
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This message appears when you drag items that do not use the .NET Framework Data Provider for SQL Server from **Server Explorer**/**Database Explorer** onto the [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md).  
   
  The [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] supports only data connections that use the .NET Framework Provider for SQL Server. Only connections to Microsoft SQL Server or Microsoft SQL Server Database File are valid.  
   
 ### To correct this error  
   
--   Add only items from data connections that use the .NET Framework Data Provider for SQL Server to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
+- Add only items from data connections that use the .NET Framework Data Provider for SQL Server to the [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)].  
   
 ## See Also  
  <xref:System.Data.SqlClient>   

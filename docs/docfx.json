@@ -115,7 +115,7 @@
         "help-viewer/**/**.md": "vs-help-viewer",
         "ide/**/**.md": "vs-ide-general",
         "install/**/**.md": "vs-installation",
-        "javascript/**/**.md": "vs-nodejs",
+        "javascript/**/**.md": "vs-javascript",
         "modeling/**/**.md": "vs-ide-modeling",
         "msbuild/**/**.md": "msbuild",
         "profiling/**/**.md": "vs-ide-debug",

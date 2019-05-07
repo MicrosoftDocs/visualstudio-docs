@@ -17,7 +17,6 @@ manager: jillfra
 # /SafeMode (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Starts [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] in safe mode, loading only the default environment and services.  
   
 ## Syntax  

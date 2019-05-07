@@ -1,7 +1,7 @@
 ---
 title: "Command-line parameter examples for installation"
 description: "Customize these examples to create your own command-line installation of Visual Studio."
-ms.date: 01/16/2019
+ms.date: 03/30/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
@@ -10,8 +10,10 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Command-line parameter examples for Visual Studio 2017 installation
+# Command-line parameter examples for Visual Studio installation
 
 To illustrate how to [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md), here are several examples that you can customize to match your needs.
 
@@ -30,17 +32,17 @@ For lists of the workloads and components that you can install by using the comm
 * Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
 
   ```cmd
-  vs_enterprise.exe --installPath C:\minVS ^
+   vs_enterprise.exe --installPath C:\minVS ^
    --add Microsoft.VisualStudio.Workload.CoreEditor ^
    --passive --norestart
   ```
 
 * Update a Visual Studio instance by using the command line, with no interactive prompts but progress displayed:
 
-  ```cmd
-  vs_enterprise.exe --update --quiet --wait
-  vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
-  ```
+   ```cmd
+   vs_enterprise.exe --update --quiet --wait
+   vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
+   ```
 
   > [!NOTE]
   > Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
@@ -48,21 +50,28 @@ For lists of the workloads and components that you can install by using the comm
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 
   ```cmd
-  vs_enterprise.exe --installPath C:\desktopVS ^
+   vs_enterprise.exe --installPath C:\desktopVS ^
    --addProductLang fr-FR ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
    --includeRecommended --quiet --wait
   ```
 
-  > [!NOTE]
-  > The `--wait` parameter is designed for use in a batch file. In a batch file, execution of the next command will not continue until the installation has completed. The `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+## Using --wait
+
+* Use in batch files or scripts to wait for the Visual Studio installer to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. The following is an example of the additional parameters used with the PowerShell script command 'Start-Process':
+
+   ```cmd
+   $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "install", "--quiet", "--wait" -Wait -PassThru
+   ```
+
+* The first '--wait' is used by the Visual Studio Installer, and the second '-Wait' is used by 'Start-Process' to wait for completion. The '-PassThru' parameter is used by 'Start-Process' to use the installer's exit code for its return value.
 
 ## Using --layout
 
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
 
   ```cmd
-  vs_community.exe --layout C:\VS2017
+   vs_community.exe --layout C:\VS
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
   ```
@@ -70,7 +79,7 @@ For lists of the workloads and components that you can install by using the comm
 * Download the .NET desktop and .NET web workloads along with all recommended components and the GitHub extension. Only include the English language pack:
 
   ```cmd
-  vs_community.exe --layout C:\VS2017 ^
+   vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.NetWeb ^
    --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
@@ -80,35 +89,56 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Using --all
 
-* Start an interactive installation of all workloads and components that are available in the Visual Studio 2017 Enterprise edition:
+* Start an interactive installation of all workloads and components that are available in the Visual Studio Enterprise edition:
 
-  ```cmd
-  vs_enterprise.exe --all
-  ```
+   ```cmd
+   vs_enterprise.exe --all
+   ```
 
 ## Using --includeRecommended
 
-* Install a second, named instance of Visual Studio 2017 Professional on a machine with Visual Studio 2017 Community edition already installed, with support for Node.js development:
+* Install a second, named instance of Visual Studio Professional on a machine with Visual Studio Community edition already installed, with support for Node.js development:
 
-  ```cmd
-  vs_professional.exe --installPath C:\VSforNode ^
+   ```cmd
+   vs_professional.exe --installPath C:\VSforNode ^
    --add Microsoft.VisualStudio.Workload.Node --includeRecommended --nickname VSforNode
   ```
 
 ## Using --remove
 
+::: moniker range="vs-2017"
+
 * Remove the Profiling Tools component from the default installed Visual Studio instance:
 
   ```cmd
-  vs_enterprise.exe modify ^
+   vs_enterprise.exe modify ^
    --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
   ```
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+* Remove the Profiling Tools component from the default installed Visual Studio instance:
+
+  ```cmd
+   vs_enterprise.exe modify ^
+   --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" ^
+   --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
+   --passive
+  ```
+
+::: moniker-end
+
 ## Using --path
 
+::: moniker range="vs-2017"
+
 These command-line parameters are **new in 15.7**. For more information about them, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+
+::: moniker-end
 
 * Using the install, cache, and shared paths:
 
@@ -128,36 +158,43 @@ These command-line parameters are **new in 15.7**. For more information about th
 
 ## Using export
 
+::: moniker range="vs-2017"
+
 This command-line command is **new in 15.9**. For more information about it, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+
+::: moniker-end
 
 * Using export to save the selection from an installation:
 
-```cmd
-"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
-```
+  ```cmd
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
+  ```
 
 * Using export to save custom selection from scratch:
 
-```cmd
-"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
-```
+  ```cmd
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+  ```
 
 ## Using --config
 
+::: moniker range="vs-2017"
+
 This command-line parameter is **new in 15.9**. For more information about it, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page.
+
+::: moniker-end
 
 * Using --config to install the workloads and components from a previously saved installation configuration file:
 
-```cmd
-vs_enterprise.exe --config "C:\.vsconfig" --installPath "C:\VS"
-```
+  ```cmd
+  vs_enterprise.exe --config "C:\.vsconfig" --installPath "C:\VS"
+  ```
 
 * Using --config to add workloads and components to an existing installation:
 
-```cmd
-vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
-```
-
+  ```cmd
+  vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
+  ```
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -165,5 +202,5 @@ vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
 
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
+* [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)

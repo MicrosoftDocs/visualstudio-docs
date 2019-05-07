@@ -15,26 +15,26 @@ manager: jillfra
   
 ### To create a WCF workflow service application  
   
-1.  Start [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
+1. Start [!INCLUDE[vs2010](../includes/vs2010-md.md)].  
   
-2.  On the **File** menu, point to **New**, and then select **Project…**.  
+2. On the **File** menu, point to **New**, and then select **Project…**.  
   
      The **New Project** dialog box opens.  
   
-3.  In the **Installed Templates** pane, select **WCF** or **Workflow** from either the **Visual C#** or **Visual Basic** groupings depending on you language of choice.  
+3. In the **Installed Templates** pane, select **WCF** or **Workflow** from either the **Visual C#** or **Visual Basic** groupings depending on you language of choice.  
   
-4.  In the middle pane, select **WCF Workflow Service Application**.  
+4. In the middle pane, select **WCF Workflow Service Application**.  
   
-5.  In the **Name** box, enter a descriptive name for your project to make it easy to identify.  
+5. In the **Name** box, enter a descriptive name for your project to make it easy to identify.  
   
-6.  In the **Location** box, enter the directory in which you want to save your project, or click **Browse** to navigate to it.  
+6. In the **Location** box, enter the directory in which you want to save your project, or click **Browse** to navigate to it.  
   
-7.  In the **Solution** box, select to either create a new solution and then click **OK**.  
+7. In the **Solution** box, select to either create a new solution and then click **OK**.  
   
     > [!NOTE]
-    >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../includes/vs2010-md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
+    > If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../includes/vs2010-md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
-8.  The project template creates a service definition as XAML. The [!INCLUDE[wfd1](../includes/wfd1-md.md)] opens to the design view with a <xref:System.Activities.Statements.Sequence> activity that contains a set of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities.  
+8. The project template creates a service definition as XAML. The [!INCLUDE[wfd1](../includes/wfd1-md.md)] opens to the design view with a <xref:System.Activities.Statements.Sequence> activity that contains a set of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities.  
   
 ## See Also  
  [How to: Create an Activity](http://msdn.microsoft.com/library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   

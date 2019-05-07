@@ -26,19 +26,19 @@ manager: jillfra
   
  **Extract Method** has the following benefits:  
   
--   Encourages best coding practices by emphasizing discrete, reusable methods.  
+- Encourages best coding practices by emphasizing discrete, reusable methods.  
   
--   Encourages self-documenting code through good organization.  
+- Encourages self-documenting code through good organization.  
   
      When descriptive names are used, high-level methods can read more like a series of comments.  
   
--   Encourages the creation of finer-grained methods to simplify overriding.  
+- Encourages the creation of finer-grained methods to simplify overriding.  
   
--   Reduces code duplication.  
+- Reduces code duplication.  
   
 ### To use Extract Method  
   
-1.  Create a console application named `ExtractMethod`, and then replace `Program` with the following example code.  
+1. Create a console application named `ExtractMethod`, and then replace `Program` with the following example code.  
   
     ```csharp  
     class A  
@@ -62,13 +62,13 @@ manager: jillfra
     }  
     ```  
   
-2.  Select the code fragment you want to extract:  
+2. Select the code fragment you want to extract:  
   
     ```csharp  
     double area = PI * radius * radius;  
     ```  
   
-3.  On the **Refactor** menu, click **Extract Method**.  
+3. On the **Refactor** menu, click **Extract Method**.  
   
      The **Extract Method** dialog box appears.  
   
@@ -76,11 +76,11 @@ manager: jillfra
   
      You can also right-click the selected code, point to **Refactor**, and then click **Extract Method** to display the **Extract Method** dialog box.  
   
-4.  Specify a name for the new method, such as `CircleArea`, in the **New Method Name** box.  
+4. Specify a name for the new method, such as `CircleArea`, in the **New Method Name** box.  
   
      A preview of the new method signature displays under **Preview Method Signature**.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ## Remarks  
  When you use the **Extract Method** command, the new method is inserted following the source member in the same class.  

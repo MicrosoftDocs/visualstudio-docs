@@ -21,7 +21,6 @@ manager: jillfra
 # MSBuild Well-known Item Metadata
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file `C:\MyProject\Source\Program.cs` in the project.  
   
 ```  

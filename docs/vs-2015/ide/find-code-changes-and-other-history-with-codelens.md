@@ -16,7 +16,7 @@ manager: jillfra
 Stay focused on your work while you find out what happened to your code - without leaving the editor. Find references and changes to your code, linked bugs, work items, code reviews, and unit tests.  
   
 > [!NOTE]
->  CodeLens is available only in Visual Studio Enterprise and Visual Studio Professional editions. It is not available in Visual Studio Community edition.  
+> CodeLens is available only in Visual Studio Enterprise and Visual Studio Professional editions. It is not available in Visual Studio Community edition.  
   
  See where and how the individual parts of your code are used in your solution:  
   
@@ -28,7 +28,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
  To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
-##  <a name="FindReferences"></a> Find references to your code  
+## <a name="FindReferences"></a> Find references to your code  
  You'll need:  
   
 - Visual Studio Enterprise or Visual Studio Professional  
@@ -49,7 +49,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
   ![CodeLens &#45; References on code map](../ide/media/codelensmappedreferences.png "CodeLensMappedReferences")  
   
-##  <a name="FindCodeHistory"></a> Find your code's history and linked items  
+## <a name="FindCodeHistory"></a> Find your code's history and linked items  
  Review your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.  
   
  You'll need:  
@@ -169,38 +169,38 @@ Stay focused on your work while you find out what happened to your code - withou
   
  ![Contact options for an item](../ide/media/codelensitemcontactmenu.png "CodeLensItemContactMenu")  
   
-##  <a name="FindRunUnitTests"></a> Find unit tests for your code  
+## <a name="FindRunUnitTests"></a> Find unit tests for your code  
  Find out more about unit tests that exist for your code without opening Test Explorer. You'll need:  
   
--   Visual Studio Enterprise or Visual Studio Professional  
+- Visual Studio Enterprise or Visual Studio Professional  
   
--   Visual C# .NET or Visual Basic .NET code  
+- Visual C# .NET or Visual Basic .NET code  
   
--   A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
+- A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
   
-1.  Go to application code that has unit tests.  
+1. Go to application code that has unit tests.  
   
-2.  Review the tests for that code (**Alt + 3**).  
+2. Review the tests for that code (**Alt + 3**).  
   
      ![CodeLens &#45; Choose test status in code editor](../ide/media/codelenschoosetestindicator.png "CodeLensChooseTestIndicator")  
   
-3.  If you see a warning icon ![CodeLens &#45; Unit tests not yet run warning](../ide/media/codelenstestwarningicon.png "CodeLensTestWarningIcon"), run the tests.  
+3. If you see a warning icon ![CodeLens &#45; Unit tests not yet run warning](../ide/media/codelenstestwarningicon.png "CodeLensTestWarningIcon"), run the tests.  
   
      ![CodeLens &#45; View unit tests not run yet](../ide/media/codelenstestsnotyetrun.png "CodeLensTestsNotYetRun")  
   
-4.  To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.  
+4. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.  
   
      ![CodeLens &#45; Go to unit test definition](../ide/media/codelensunittestdefinition.png "CodeLensUnitTestDefinition")  
   
-5.  Review the test’s results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
+5. Review the test’s results. Choose the test status indicator (![CodeLens &#45; Unit test failed icon](../ide/media/codelenstestfailedicon.png "CodeLensTestFailedIcon") or ![CodeLens &#45; Unit test passed icon](../ide/media/codelenstestpassedicon.png "CodeLensTestPassedIcon")), or press **Alt + 1**.  
   
      ![CodeLens &#45; See unit test result](../ide/media/codelensunittestresult.png "CodeLensUnitTestResult")  
   
-6.  To see how many people changed this test, who changed this test, or how many changes were made to this test, [Find your code's history and linked items](#FindCodeHistory).  
+6. To see how many people changed this test, who changed this test, or how many changes were made to this test, [Find your code's history and linked items](#FindCodeHistory).  
   
-##  <a name="QA"></a> Q & A  
+## <a name="QA"></a> Q & A  
   
-###  <a name="ChangeOrTurnOff"></a> Q: How do I turn CodeLens off or on? Or choose which indicators to see?  
+### <a name="ChangeOrTurnOff"></a> Q: How do I turn CodeLens off or on? Or choose which indicators to see?  
  **A:**  You can turn indicators off or on, except for the references indicator. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
  When the indicators are turned on, you can also open the CodeLens options from the indicators.  
@@ -211,21 +211,21 @@ Stay focused on your work while you find out what happened to your code - withou
   
  ![Turn file&#45;level indicators on and off](../ide/media/codelensfilelevelonandoff.png "CodeLensFileLevelOnAndOff")  
   
-###  <a name="NoIndicators"></a> Q: Where is CodeLens?  
+### <a name="NoIndicators"></a> Q: Where is CodeLens?  
  **A:** CodeLens appears in Visual C# .NET and Visual Basic .NET code at the method, class, indexer, and property level. CodeLens appears at the file level for all other types of files.  
   
--   Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
+- Make sure CodeLens is turned on. Go to **Tools**, **Options**, **Text Editor**, **All Languages**, **CodeLens**.  
   
--   If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62).  
+- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62).  
   
--   TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](http://msdn.microsoft.com/f58805de-ba61-4d09-8f2d-d3ab9662ecfd)  
+- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. [Confirm that you have team member permissions.](/azure/devops/organizations/security/view-permissions)  
   
--   Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).  
+- Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl + Shift + B**).  
   
 ### Q: Why don't I see the work item details for a commit?  
  **A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the team project that has those work items and that you have permissions to see those work items. This might also happen if the commit description has incorrect information about the work item IDs in TFS.  
   
-###  <a name="NoLync"></a> Q: Why don't I see the Lync or Skype indicators?  
+### <a name="NoLync"></a> Q: Why don't I see the Lync or Skype indicators?  
  **A:** They don't appear if you're not signed into Lync or Skype for Business, don't have one of these installed, or don't have a supported configuration. But you can still send mail:  
   
  ![CodeLens &#45; Contact changeset owner by mail](../ide/media/codelenscodesendmailchangesetnolync1.png "CodeLensCodeSendMailChangesetNoLync1")  
@@ -245,13 +245,13 @@ Stay focused on your work while you find out what happened to your code - withou
   
  To use the keyboard:  
   
-1.  Press **Alt + T + O** to open the **Options** box.  
+1. Press **Alt + T + O** to open the **Options** box.  
   
-2.  Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.  
+2. Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.  
   
-3.  Press **Down Arrow** to go to **Fonts and Colors**.  
+3. Press **Down Arrow** to go to **Fonts and Colors**.  
   
-4.  Press **TAB** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.  
+4. Press **TAB** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.  
   
 ### Q: Can I move the CodeLens heads-up display?  
  **A:** Yes, choose ![CodeLens &#45; Dock as a window](../ide/media/codelensdockwindow.png "CodeLensDockWindow") to dock CodeLens as a window.  
@@ -263,17 +263,17 @@ Stay focused on your work while you find out what happened to your code - withou
 ### Q: How do I refresh the indicators?  
  **A:** This depends on the indicator:  
   
--   **References**: This indicator updates automatically when the code changes. If you have this indicator docked as a separate window, refresh the indicator manually here:  
+- **References**: This indicator updates automatically when the code changes. If you have this indicator docked as a separate window, refresh the indicator manually here:  
   
      ![CodeLens &#45; Dock as window](../ide/media/codelensviewreferencesdocked.png "CodeLensViewReferencesDocked")  
   
--   **Team**: Refresh these indicators manually here:  
+- **Team**: Refresh these indicators manually here:  
   
      ![CodeLens &#45; Refresh indicators](../ide/media/codelensrefreshindicatorsfromcode.png "CodeLensRefreshIndicatorsFromCode")  
   
--   **Test**: [Find unit tests for your code](#FindRunUnitTests) to refresh this indicator.  
+- **Test**: [Find unit tests for your code](#FindRunUnitTests) to refresh this indicator.  
   
-###  <a name="LocalVersion"></a> Q: What's "Local Version"?  
+### <a name="LocalVersion"></a> Q: What's "Local Version"?  
  **A:** The **Local Version** arrow points at the most recent changeset in your local version of this file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.  
   
 ### Q: Can I manage how CodeLens processes code to show history and linked items?  

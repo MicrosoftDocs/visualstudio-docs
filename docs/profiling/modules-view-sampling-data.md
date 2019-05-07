@@ -16,7 +16,7 @@ ms.workload:
 The Modules view of sampling data displays performance data that is grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The sampled functions of the module are listed underneath the module node.
 
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).
 
  If the function was executing when samples were collected (that is, the function was at the top of the call stack), the source lines and instruction addresses that were executing are listed underneath the function node. Because data is collected for a source line or an instruction pointer when the line or instruction is executing, inclusive and exclusive values are always the same for both line data and instruction data.
 

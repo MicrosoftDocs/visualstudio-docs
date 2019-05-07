@@ -57,13 +57,13 @@ ms.workload:
  As you choose nodes in the **BDC Explorer**, the properties of each node that you choose appear in the **Properties** window. Many of these properties correspond to attributes in the model file. You can search the model by using the search box at the top of the **BDC Explorer**.
 
 > [!NOTE]
->  The **BDC Explorer** does not display identifiers, custom properties, localized strings, association groups, actions, filter descriptors, action control lists, and the default parameter values.
+> The **BDC Explorer** does not display identifiers, custom properties, localized strings, association groups, actions, filter descriptors, action control lists, and the default parameter values.
 
 ### Define type descriptors
  Use the **BDC Explorer** to define type descriptors. The BDC Explorer enables you to define a type descriptor one time and then reuse that type descriptor elsewhere in your model. To accomplish this, copy a type descriptor and paste it onto any other parameter or type descriptor.
 
 > [!NOTE]
->  Changes to an original type descriptor do not affect the copies of that type descriptor.
+> Changes to an original type descriptor do not affect the copies of that type descriptor.
 
  For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).
 

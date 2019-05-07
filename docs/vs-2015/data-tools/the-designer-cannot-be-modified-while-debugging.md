@@ -13,12 +13,11 @@ manager: jillfra
 # The designer cannot be modified while debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This message appears when an attempt is made to modify items on the O/R Designer when the application is running in debug mode. When the application is running in debug mode, the O/R Designer is read-only.  
   
 ### To correct this error  
   
--   Click **Stop Debugging** on the **Debug** menu.  
+- Click **Stop Debugging** on the **Debug** menu.  
   
      The application stops debugging, and items in the O/R Designer can be modified.  
   

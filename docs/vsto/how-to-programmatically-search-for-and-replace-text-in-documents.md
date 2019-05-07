@@ -95,20 +95,20 @@ ms.workload:
 
 ### To search for and replace text in documents
 
-1.  Add the following example code to the `ThisDocument` or `ThisAddIn` class in your project.
+1. Add the following example code to the `ThisDocument` or `ThisAddIn` class in your project.
 
      [!code-vb[Trin_VstcoreWordAutomation#75](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#75)]
      [!code-csharp[Trin_VstcoreWordAutomation#75](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#75)]
 
      The <xref:Microsoft.Office.Interop.Word.Find> class has a <xref:Microsoft.Office.Interop.Word.Find.ClearFormatting%2A> method, and the <xref:Microsoft.Office.Interop.Word.Replacement> class also has its own <xref:Microsoft.Office.Interop.Word.Replacement.ClearFormatting%2A> method. When you are performing find-and-replace operations, you must use the ClearFormatting method of both objects. If you use it only on the <xref:Microsoft.Office.Interop.Word.Find> object, you might get unanticipated results in the replacement text.
 
-2.  Use the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method of the <xref:Microsoft.Office.Interop.Word.Find> object to replace each found item. To specify which items to replace, use the *Replace* parameter. This parameter can be one of the following <xref:Microsoft.Office.Interop.Word.WdReplace> values:
+2. Use the <xref:Microsoft.Office.Interop.Word.Find.Execute%2A> method of the <xref:Microsoft.Office.Interop.Word.Find> object to replace each found item. To specify which items to replace, use the *Replace* parameter. This parameter can be one of the following <xref:Microsoft.Office.Interop.Word.WdReplace> values:
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll> replaces all found items.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll> replaces all found items.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone> replaces none of the found items.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone> replaces none of the found items.
 
-    -   <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne> replaces the first found item.
+    - <xref:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne> replaces the first found item.
 
 ## See also
 - [How to: Programmatically set search options in Word](../vsto/how-to-programmatically-set-search-options-in-word.md)

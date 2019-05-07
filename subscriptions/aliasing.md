@@ -23,7 +23,7 @@ Aliasing can be encountered when a company has a Microsoft Online Service for th
 
 As an administrator, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 - The first option (recommended), is to leverage the directory account as the assigned address in the Volume Licensing Service Center (VLSC). Refer to [Assigning Subscribers to a Directory Account](#assigning-subscribers-to-a-directory-account) section in this article for more details.
-- The second option (less secure), is to allow your subscribers to associate their “Work or School” email address to a “Personal” account (a.k.a. Microsoft Account or MSA). Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.
+- The second option (less secure), is to allow your subscribers to associate their “Work or School” email address to a “Personal” account (a.k.a. Microsoft Account or MSA). Refer to [Defining a Work or School Account as a Personal Account](#defining-a-work-or-school-account-as-a-personal-account) section in this article for more details.
 
 > [!NOTE]
 > Once your company is migrated to the new Visual Studio subscriptions [management portal](https://manage.visualstudio.com), you will be able to take advantage of the new administration experience which allows both Directory and email addresses to be provided as part of the subscriber’s profile. Learn more about [the migration](https://support.microsoft.com/help/4013930/visual-studio-subscriptions-administrator-migration-details).
@@ -45,7 +45,6 @@ Please follow these steps to add a new subscriber with a directory account.
 
     > [!div class="mx-imgBorder"]
     > ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
-
 
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
 
@@ -77,6 +76,7 @@ Please follow the below steps to update an existing subscriber with a directory 
 
 Since the Welcome Email will not successfully reach your subscriber, please copy and paste the below message into an email and send to your subscriber. Replace %WORD% with the appropriate information for each subscriber.
 
+```
 ----------- Copy Below (Ctrl+C) -----------
 
 Hello %SUBSCRIBER NAME%
@@ -92,6 +92,7 @@ At the bottom of the page, select the following:
    - Select the desired Assisted Support option
 
 ----------- End Copy -----------
+```
 
 ## Defining a work or school account as a personal account
 
@@ -122,6 +123,7 @@ After a subscription is  assigned to the Subscriber, they will receive an email 
 
 In the scenario outlined above, your subscriber will receive a “Welcome Email”, but due to aliasing they may find they are unable to sign in.  You can use the below text to notify your subscriber of the above steps, and recommend support options if required.  Replace %WORD% with the appropriate information for each subscriber.
 
+```
 ----------- Copy Below (Ctrl+C) -----------
 
 Hello %SUBSCRIBER NAME%
@@ -154,3 +156,4 @@ At the bottom of the page, select the following:
    - Select the desired Assisted Support option
 
 ----------- End Copy -----------
+```

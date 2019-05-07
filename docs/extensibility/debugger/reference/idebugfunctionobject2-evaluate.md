@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugFunctionObject2::Evaluate
 Calls the function and returns the resulting value as an object.
@@ -36,29 +39,29 @@ int Evaluate (
 );
 ```
 
-#### Parameters
- `ppParams`
+## Parameters
+ `ppParams`\
 
  [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the input parameters. Each of these parameters was created by using one of the Create methods in this interface.
 
- `dwParams`
+ `dwParams`\
 
  [in] The number of parameters in the `ppParams` array.
 
- `dwEvalFlags`
+ `dwEvalFlags`\
 
  [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
 
- `ppResult`
+ `ppResult`\
 
  [out] Returns an **IDebugObject** that represents the value of the function as an object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugFunctionObject2](../../../extensibility/debugger/reference/idebugfunctionobject2.md)

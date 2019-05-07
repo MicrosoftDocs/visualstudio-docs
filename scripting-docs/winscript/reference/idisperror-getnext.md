@@ -2,7 +2,6 @@
 title: "IDispError::GetNext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -45,7 +44,7 @@ HRESULT GetNext(
  This method retrieves the next `IDispError` object. If this is the last `IDispError` object, this method returns NULL.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
 ## See Also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

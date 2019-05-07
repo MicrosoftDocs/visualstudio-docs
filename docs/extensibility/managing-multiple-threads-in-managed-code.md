@@ -15,11 +15,11 @@ If you have a managed VSPackage extension that calls asynchronous methods or has
  In general, you can switch from the UI thread to a different thread, or vice versa. When the method returns, the current thread is the thread from which it was originally called.
 
 > [!IMPORTANT]
->  The following guidelines use the APIs in the <xref:Microsoft.VisualStudio.Threading> namespace, in particular, the <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> class. The APIs in this namespace are new in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]. You can get an instance of a <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> from the <xref:Microsoft.VisualStudio.Shell.ThreadHelper> property `ThreadHelper.JoinableTaskFactory`.
+> The following guidelines use the APIs in the <xref:Microsoft.VisualStudio.Threading> namespace, in particular, the <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> class. The APIs in this namespace are new in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]. You can get an instance of a <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> from the <xref:Microsoft.VisualStudio.Shell.ThreadHelper> property `ThreadHelper.JoinableTaskFactory`.
 
 ## Switch from the UI thread to a background thread
 
-1.  If you are on the UI thread and you want to do asynchronous work on a background thread, use `Task.Run()`:
+1. If you are on the UI thread and you want to do asynchronous work on a background thread, use `Task.Run()`:
 
     ```csharp
     await Task.Run(async delegate{
@@ -29,7 +29,7 @@ If you have a managed VSPackage extension that calls asynchronous methods or has
 
     ```
 
-2.  If you are on the UI thread and you want to synchronously block while you are performing work on a background thread, use the <xref:System.Threading.Tasks.TaskScheduler> property `TaskScheduler.Default` inside <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run%2A>:
+2. If you are on the UI thread and you want to synchronously block while you are performing work on a background thread, use the <xref:System.Threading.Tasks.TaskScheduler> property `TaskScheduler.Default` inside <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run%2A>:
 
     ```csharp
     // using Microsoft.VisualStudio.Threading;
@@ -43,7 +43,7 @@ If you have a managed VSPackage extension that calls asynchronous methods or has
 
 ## Switch from a background thread to the UI thread
 
-1.  If you're on a background thread and you want to do something on the UI thread, use <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:
+1. If you're on a background thread and you want to do something on the UI thread, use <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync%2A>:
 
     ```csharp
     // Switch to main thread

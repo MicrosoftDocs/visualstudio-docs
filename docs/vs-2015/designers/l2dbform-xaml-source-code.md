@@ -81,7 +81,7 @@ Text="{Binding Path=Attribute[id].Value}"...Text="{Binding Path=Value}"
 ### Description  
   
 > [!NOTE]
->  We recommend that you copy the following code below into a code editor, such as the C# source code editor in Visual Studio, so that line numbers will be easier to track.  
+> We recommend that you copy the following code below into a code editor, such as the C# source code editor in Visual Studio, so that line numbers will be easier to track.  
   
 ### Code  
   

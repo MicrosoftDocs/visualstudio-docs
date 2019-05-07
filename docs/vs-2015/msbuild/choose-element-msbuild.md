@@ -23,7 +23,6 @@ manager: jillfra
 # Choose Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Evaluates child elements to select one set of `ItemGroup` elements and/or `PropertyGroup` elements to evaluate.  
   
  \<Project>  

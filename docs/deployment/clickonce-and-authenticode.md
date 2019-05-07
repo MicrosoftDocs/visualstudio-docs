@@ -52,11 +52,11 @@ ms.workload:
 ### Update expired certificates
  In earlier versions of the .NET Framework, updating an application whose certificate had expired could cause that application to stop functioning. To resolve this problem, use one of the following methods:
 
--   Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.
+- Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.
 
--   Uninstall the application, and reinstall a new version with a valid certificate.
+- Uninstall the application, and reinstall a new version with a valid certificate.
 
--   Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).
+- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).
 
 ### Store certificates
 

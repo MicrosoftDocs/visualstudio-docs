@@ -24,11 +24,11 @@ The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] provides the information t
   
  To best use the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], you should be familiar with the following:  
   
--   The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE)  
+- The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE)  
   
--   The C++ programming language  
+- The C++ programming language  
   
--   ATL COM  
+- ATL COM  
   
 ## In This Section  
  [Roadmap for Extending the Debugger](../../extensibility/debugger/roadmap-for-extending-the-debugger.md)  

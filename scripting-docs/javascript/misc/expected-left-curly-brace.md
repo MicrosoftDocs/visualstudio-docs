@@ -20,7 +20,7 @@ You did not include the left brace that marks the beginning of the function body
   
 ### To correct this error  
   
--   Add the left brace that marks the beginning of the function body.  
+- Add the left brace that marks the beginning of the function body.  
   
 ## See Also  
  [Function Object](../../javascript/reference/function-object-javascript.md)

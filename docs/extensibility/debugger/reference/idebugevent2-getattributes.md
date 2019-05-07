@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEvent2::GetAttributes
 Gets the attributes for this debug event.
@@ -30,8 +33,8 @@ int GetAttribute( 
 );
 ```
 
-#### Parameters
- `pdwAttrib`
+## Parameters
+ `pdwAttrib`\
 
  [out] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
 
@@ -41,6 +44,6 @@ int GetAttribute( 
 ## Remarks
  The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface is common to all events. This method describes the type of event; for example, is the event synchronous or asynchronous and is it a stopping event.
 
-## See Also
+## See also
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md)

@@ -29,29 +29,29 @@ The [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] debugger supports
   
 ### To specify a .NET Framework version for debugging  
   
-1.  Look in the directory Windows\Microsoft.NET\Framework to find the versions of the .NET Framework installed on your machine. The version numbers look something like this:  
+1. Look in the directory Windows\Microsoft.NET\Framework to find the versions of the .NET Framework installed on your machine. The version numbers look something like this:  
   
      `V1.1.4322`  
   
      Identify the correct version number and make a note of it.  
   
-2.  Start the **Registry Editor** (regedit).  
+2. Start the **Registry Editor** (regedit).  
   
-3.  In the **Registry Editor**, open the HKEY_LOCAL_MACHINE folder.  
+3. In the **Registry Editor**, open the HKEY_LOCAL_MACHINE folder.  
   
-4.  Navigate to: HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}  
+4. Navigate to: HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine\\{449EC4CC-30D2-4032-9256-EE18EB41B62B}  
   
      If the key does not exist, right-click HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\10.0\AD7Metrics\Engine, and click **New Key**. Name the new key `{449EC4CC-30D2-4032-9256-EE18EB41B62B}`.  
   
-5.  After navigating to {449EC4CC-30D2-4032-9256-EE18EB41B62B}, look in the **Name** column, and find the CLRVersionForDebugging key.  
+5. After navigating to {449EC4CC-30D2-4032-9256-EE18EB41B62B}, look in the **Name** column, and find the CLRVersionForDebugging key.  
   
-    1.  If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.  
+    1. If the key does not exist, right-click {449EC4CC-30D2-4032-9256-EE18EB41B62B}, and click **New String Value**. Then right-click the new string value, click **Rename**, and type `CLRVersionForDebugging`.  
   
-6.  Double-click **CLRVersionForDebugging**.  
+6. Double-click **CLRVersionForDebugging**.  
   
-7.  In the **Edit String** box, type the .NET Framework version number in the **Value** box. For example: V1.1.4322  
+7. In the **Edit String** box, type the .NET Framework version number in the **Value** box. For example: V1.1.4322  
   
-8.  Click **OK**.  
+8. Click **OK**.  
   
 9. Close the **Registry Editor**.  
   

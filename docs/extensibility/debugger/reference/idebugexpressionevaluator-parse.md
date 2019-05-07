@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionEvaluator::Parse
 This method converts an expression string to a parsed expression.
@@ -40,28 +43,28 @@ int Parse(
 );
 ```
 
-#### Parameters
- `upstrExpression`
+## Parameters
+ `upstrExpression`\
 
  [in] The expression string to be parsed.
 
- `dwFlags`
+ `dwFlags`\
 
  [in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
 
- `nRadix`
+ `nRadix`\
 
  [in] Radix to be used to interpret any numerical information.
 
- `pbstrError`
+ `pbstrError`\
 
  [out] Returns the  error as human-readable text.
 
- `pichError`
+ `pichError`\
 
  [out] Returns the character position of the start of the error in the expression string.
 
- `ppParsedExpression`
+ `ppParsedExpression`\
 
  [out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
@@ -71,7 +74,7 @@ int Parse(
 ## Remarks
  This method produces a parsed expression, not an actual value. A parsed expression is ready to be evaluated, that is, converted to a value.
 
-## See Also
+## See also
 - [IDebugExpressionEvaluator](../../../extensibility/debugger/reference/idebugexpressionevaluator.md)
 - [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)
 - [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)

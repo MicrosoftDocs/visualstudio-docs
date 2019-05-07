@@ -61,7 +61,7 @@ int InterceptCurrentException(
  When the debugger wants to know if the exception should be intercepted, it calls this method on the current stack frame object. This method is responsible for handling all details of the exception. If the [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md) interface is not implemented or the `InterceptStackException` method returns any error, then the debugger continues processing the exception normally.
 
 > [!NOTE]
->  Exceptions can be intercepted only in managed code, that is, when the program being debugged is running under the .NET run time. Of course, third-party language implementers can implement `InterceptStackException` in their own debug engines if they so choose.
+> Exceptions can be intercepted only in managed code, that is, when the program being debugged is running under the .NET run time. Of course, third-party language implementers can implement `InterceptStackException` in their own debug engines if they so choose.
 
  After the interception is complete, an [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md) is signaled.
 

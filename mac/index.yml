@@ -1,11 +1,11 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: Visual Studio for Mac documentation
+title: Visual Studio 2019 for Mac documentation
 metadata:
   description: This article introduces the features of Visual Studio for Mac.
   author: conceptdev
   ms.author: crdun
-  ms.date: 02/06/2019
+  ms.date: 04/02/2019
   ms.topic: landing-page
   ms.prod: visual-studio-mac
   ms.technology: vs-ide-general
@@ -17,7 +17,7 @@ sections:
   - type: list
     style: cards
     className: cardsM
-    columns: 3
+    columns: 2
     items:
     - href: ~/installation.md
       html: <p></p>
@@ -29,11 +29,6 @@ sections:
       image:
         src: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
       title: Tour Visual Studio for Mac
-    - href: ~/installation.md?view=vsmac-2019
-      html: <p></p>
-      image:
-        src: ~/media/index-2019-preview.png
-      title: Try 2019 Preview!
 - title: What apps can I build?
   items:
   - type: paragraph

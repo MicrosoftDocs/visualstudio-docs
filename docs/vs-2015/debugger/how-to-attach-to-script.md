@@ -31,21 +31,21 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
   
 2. In the **Attach to Process** dialog box, look at the **Available Processes** list and find the script process you want to attach to. You can identify script processes by looking at the **Type** column.  
   
-   1.  If the process you want to debug is running on another computer, you must first select the remote computer. For more information, see [How to: Select a Remote Computer](http://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba).  
+   1. If the process you want to debug is running on another computer, you must first select the remote computer. For more information, see [How to: Select a Remote Computer](http://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba).  
   
-   2.  If the process is running under a different user account, select the **Show processes from all users** check box.  
+   2. If the process is running under a different user account, select the **Show processes from all users** check box.  
   
-   3.  If you are connected through **Remote Desktop Connection**, select the **Show processes in all sessions** check box.  
+   3. If you are connected through **Remote Desktop Connection**, select the **Show processes in all sessions** check box.  
   
 3. Click the process you want to attach to.  
   
 4. In the **Attach to** box, you should see **Script code** or **Automatic: Script code**. If you see anything else, follow these steps:  
   
-   1.  Click **Select**.  
+   1. Click **Select**.  
   
-   2.  In the **Select Code Type** dialog box, click **Debug these code types** and select **Script**.  
+   2. In the **Select Code Type** dialog box, click **Debug these code types** and select **Script**.  
   
-   3.  Click **OK**.  
+   3. Click **OK**.  
   
 5. Click **Attach**.  
   
@@ -58,9 +58,9 @@ This topic explains how to manually attach the Visual Studio debugger to a scrip
    All **Debug** menu execution commands affect the active program. You can break any debugged program from the Processes dialog box.See [Using Breakpoints](../debugger/using-breakpoints.md).  
   
 > [!NOTE]
->  If you try to attach to a process that is owned by an untrusted user account, a security warning dialog confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015).  
+> If you try to attach to a process that is owned by an untrusted user account, a security warning dialog confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015).  
   
- In some cases, when you are debugging in a Terminal Services (Remote Desktop) session, the Available Processes list will not display all available processes. On [!INCLUDE[WinXPSvr](../includes/winxpsvr-md.md)] or later versions, if you are running Visual Studio as a limited user, the Available Processes list will not show processes running in Session 0, which is used for services and other server processes, including w3wp.exe. You can solve the problem by running Visual Studio under an administrator account or by running Visual Studio from the server console rather than a Terminal Services session. If neither of those workarounds is possible, a third option is to attach to the process by typing vsjitdebugger.exe -p ProcessId at the Windows command line. You can determine the process id by using tlist.exe. To obtain tlist.exe, download and install Debugging Tools for Windows, available at [Windows Hardware Developer Central](http://go.microsoft.com/fwlink/?linkid=1651).  
+ In some cases, when you are debugging in a Terminal Services (Remote Desktop) session, the Available Processes list will not display all available processes. On [!INCLUDE[WinXPSvr](../includes/winxpsvr-md.md)] or later versions, if you are running Visual Studio as a limited user, the Available Processes list will not show processes running in Session 0, which is used for services and other server processes, including w3wp.exe. You can solve the problem by running Visual Studio under an administrator account or by running Visual Studio from the server console rather than a Terminal Services session. If neither of those workarounds is possible, a third option is to attach to the process by typing vsjitdebugger.exe -p ProcessId at the Windows command line. You can determine the process id by using tlist.exe. To obtain tlist.exe, download and install Debugging Tools for Windows, available at [Windows Hardware Developer Central](https://developer.microsoft.com/windows/hardware).  
   
 ## See Also  
  [Client-Side Script Debugging](../debugger/client-side-script-debugging.md)   

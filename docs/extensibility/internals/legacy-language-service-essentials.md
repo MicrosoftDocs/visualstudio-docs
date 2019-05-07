@@ -20,7 +20,7 @@ You must provide a language service to integrate a programming language into Vis
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).
 
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.
 
  Legacy language services  provide the following features:
 
@@ -35,7 +35,6 @@ You must provide a language service to integrate a programming language into Vis
  Many of these features require the language service to parse source code. You often can reuse the tokenizing and parsing code for your compiler or interpreter.
 
  The following features are related to support for programming languages but are not part of language services:
-
 
 | Feature | Description |
 |-----------------------| - |

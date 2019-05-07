@@ -38,8 +38,8 @@ In This Section
 ### Code Analysis for Drivers  
  Code analysis tools can help improve the stability and reliability of your driver by systematically analyzing the driver source code.  
   
- [Analyzing Driver Quality by Using Code Analysis Tools](http://go.microsoft.com/fwlink/?LinkId=227618)  
- Code Analysis for Drivers is a compile-time static verification tool that detects basic coding errors in C and C++ programs and includes a specialized module that is designed to detect errors in (primarily) kernel-mode driver code.. Static Driver Verifier (SDV) is a static verification tool that systematically analyzes the source code of Windows kernel-mode drivers. SDV determines whether the driver correctly interacts with the Windows operating system kernel.  
+ [Analyzing Driver Quality by Using Code Analysis Tools](/windows-hardware/drivers/devtest/tools-for-verifying-drivers)  
+ Code Analysis for Drivers is a compile-time static verification tool that detects basic coding errors in C and C++ programs and includes a specialized module that is designed to detect errors in (primarily) kernel-mode driver code. Static Driver Verifier (SDV) is a static verification tool that systematically analyzes the source code of Windows kernel-mode drivers. SDV determines whether the driver correctly interacts with the Windows operating system kernel.  
   
  [Code Analysis for Drivers Warnings](http://go.microsoft.com/fwlink/?LinkId=225920)  
  Describes the warnings that the Code Analysis for Drivers reports when it detects a possible error in driver code.  

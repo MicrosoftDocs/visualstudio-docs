@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCanStopEvent2::GetReason
 Gets the reason why the debug engine (DE) wants to stop.
@@ -30,8 +33,8 @@ int GetReason( 
 );
 ```
 
-#### Parameters
- `pcr`
+## Parameters
+ `pcr`\
 
  [out] Returns a value from the [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) enumeration that describes the reason for this event.
 
@@ -43,7 +46,7 @@ int GetReason( 
 
  The reason for stopping can be either `CANSTOP_ENTRYPOINT`, which means the DE has reached an entry point, or `CANSTOP_STEPIN`, which means the DE has stepped into a function.
 
-## See Also
+## See also
 - [IDebugCanStopEvent2](../../../extensibility/debugger/reference/idebugcanstopevent2.md)
 - [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md)
 - [CanStop](../../../extensibility/debugger/reference/idebugcanstopevent2-canstop.md)

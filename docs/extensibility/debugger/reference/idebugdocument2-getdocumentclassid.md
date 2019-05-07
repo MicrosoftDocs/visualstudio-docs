@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocument2::GetDocumentClassID
 Gets the class identifier of the document.
@@ -30,7 +33,7 @@ int GetDocumentClassID( 
 );
 ```
 
-#### Parameters
+## Parameters
  `pclsid`
 
  [out] Returns a GUID that is the class ID of the document.
@@ -41,5 +44,5 @@ int GetDocumentClassID( 
 ## Remarks
  The class GUID can be used to instantiate individual classes each of which represents a document.
 
-## See Also
+## See also
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

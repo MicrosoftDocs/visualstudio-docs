@@ -24,17 +24,17 @@ ms.workload:
 # Troubleshoot errors in Office solutions
   You might encounter issues when you perform the following tasks while you develop Office solutions in Visual Studio:
 
--   [Create, upgrade, and open projects](#creating)
+- [Create, upgrade, and open projects](#creating)
 
--   [Use the designers](#designers)
+- [Use the designers](#designers)
 
--   [Write code](#code)
+- [Write code](#code)
 
--   [Build projects](#building)
+- [Build projects](#building)
 
--   [Debug projects](#debugging)
+- [Debug projects](#debugging)
 
-##  <a name="creating"></a> Create, upgrade, and open projects
+## <a name="creating"></a> Create, upgrade, and open projects
  You might encounter the following errors when you create or open Office projects.
 
 ### The project cannot be created
@@ -54,13 +54,13 @@ ms.workload:
 
  These errors can occur you try to create a project that is based on a workbook that had its personal information removed by using the Document Inspector. To avoid this error, perform the following steps before creating the project.
 
-1.  Open the workbook in Excel.
+1. Open the workbook in Excel.
 
-2.  In Excel, open the Trust Center.
+2. In Excel, open the Trust Center.
 
-3.  On the **Privacy Options** tab clear the **Remove personal information from file properties on save** check box.
+3. On the **Privacy Options** tab clear the **Remove personal information from file properties on save** check box.
 
-4.  Save the workbook and close Excel.
+4. Save the workbook and close Excel.
 
 ### Cannot open a project after migration
  After an Office solution is migrated to Microsoft Office 2010, the project cannot be opened on a development computer with only the 2007 Microsoft Office system installed. You may see the following errors.
@@ -78,17 +78,17 @@ ms.workload:
 
  After you finish upgrading the project, you can uninstall the Visual Studio 2005 Tools for Office Second Edition Runtime from the development computer if it is not being used by any other Office solutions.
 
-##  <a name="designers"></a> Use the designers
+## <a name="designers"></a> Use the designers
  You might encounter the following errors when you work with the document, workbook, or worksheet designer in document-level projects.
 
 ### Designer failed to load correctly
  Visual Studio cannot open the designer in the following cases:
 
--   Excel or Word is already open and is displaying a modal dialog box. To open the designer, check to see if Excel or Word has a modal dialog box open, and close any open modal dialog boxes. If there are no modal dialog boxes open, there might be some other action required before Excel or Word responds.
+- Excel or Word is already open and is displaying a modal dialog box. To open the designer, check to see if Excel or Word has a modal dialog box open, and close any open modal dialog boxes. If there are no modal dialog boxes open, there might be some other action required before Excel or Word responds.
 
--   The project is currently being debugged. To open the designer, stop or finish debugging.
+- The project is currently being debugged. To open the designer, stop or finish debugging.
 
--   An Excel VSTO Add-in that is installed on the development computer is displaying a dialog box when Excel starts. To create an Excel document-level project, you must first disable the VSTO Add-in.
+- An Excel VSTO Add-in that is installed on the development computer is displaying a dialog box when Excel starts. To create an Excel document-level project, you must first disable the VSTO Add-in.
 
 ### Controls appear as black rectangles on the document or worksheet
  If you group controls on a document or worksheet, Visual Studio no longer recognizes the controls. Grouped controls cannot be accessed in the **Properties** window and they appear as black rectangles on the document or worksheet. You must ungroup the controls in order to restore their functionality.
@@ -99,10 +99,10 @@ ms.workload:
 ### Insert clip art command does nothing in the Visual Studio designer
  When Excel or Word is open in the Visual Studio designer, clicking the **Clip Art** button on the **Illustrations** tab in the ribbon does not open the **Clip Art** task pane. To add clip art, you must open the copy of the workbook or document that is in the main project folder (not the copy that is in the *\bin* folder) outside of Visual Studio, add the clip art, and then save the workbook or document.
 
-##  <a name="code"></a> Write code
+## <a name="code"></a> Write code
  You might encounter the following errors when you write code in Office projects.
 
-### Some events of Office objects are not accessible when using C#
+### Some events of Office objects are not accessible when using C\#
  In some cases, you might see a compiler error like the following when you try to access a particular event of an instance of an Office primary interop assembly (PIA) type in a Visual C# project.
 
  "Ambiguity between 'Microsoft.Office.Interop.Excel._Application.NewWorkbook' and 'Microsoft.Office.Interop.Excel.AppEvents_Event.NewWorkbook'"
@@ -164,7 +164,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 
  Even though you have imported the Word or Excel namespace and have access to all the classes inside it, you must fully qualify all the types with Word or Excel to remove namespace ambiguity.
 
-##  <a name="building"></a> Build projects
+## <a name="building"></a> Build projects
  You might encounter the following errors when you build Office projects.
 
 ### Cannot build a document-level project that is based on a document with restricted permissions
@@ -177,7 +177,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 ### Compiler errors occur after a NamedRange control is deleted
  If you delete a <xref:Microsoft.Office.Tools.Excel.NamedRange> control from a worksheet that is not the active worksheet in the designer, the auto-generated code might not be removed from your project and compiler errors might occur. To make sure the code is removed, you should always select the worksheet that contains the <xref:Microsoft.Office.Tools.Excel.NamedRange> control to make it the active worksheet before deleting the control. If auto-generated code is not deleted when you delete the control, you can cause the designer to delete the code by activating the worksheet and making a change so that the worksheet becomes marked as modified. When you rebuild the project, the code is removed.
 
-##  <a name="debugging"></a> Debug projects
+## <a name="debugging"></a> Debug projects
  You might encounter the following errors when you debug Office projects.
 
 ### Prompt to uninstall appears when you publish and install a solution on the development computer

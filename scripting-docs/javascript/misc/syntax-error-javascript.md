@@ -20,9 +20,9 @@ You created a statement that violates one or more of the grammatical rules of [!
   
 ### To correct this error  
   
--   Double-check the syntax of your program on the line number indicated.  
+- Double-check the syntax of your program on the line number indicated.  
   
--   Look for misdirected parentheses or braces.  
+- Look for misdirected parentheses or braces.  
   
 ## See Also  
  [Error Object](../../javascript/reference/error-object-javascript.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugEnumField::GetValueFromStringCaseInsensitive
 This method uses a case-insensitive search to return the value associated with the name of an enumeration constant.
@@ -32,12 +35,12 @@ int GetValueFromStringCaseInsensitive(
 );
 ```
 
-#### Parameters
- `pszValue`
+## Parameters
+ `pszValue`\
 
  [in] A string specifying the name for which to get the value. Note that for C++, this is a wide character string.
 
- `pValue`
+ `pValue`\
 
  [out] Returns the associated numerical value.
 
@@ -47,6 +50,6 @@ int GetValueFromStringCaseInsensitive(
 ## Remarks
  This method is case-insensitive. If a case-sensitive search is needed (for example, in a language such as C++ where names are case-sensitive), use [GetValueFromString](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md).
 
-## See Also
+## See also
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
 - [GetValueFromString](../../../extensibility/debugger/reference/idebugenumfield-getvaluefromstring.md)

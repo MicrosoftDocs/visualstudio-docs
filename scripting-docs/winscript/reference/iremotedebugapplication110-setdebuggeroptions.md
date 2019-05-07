@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication110::SetDebuggerOptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Called to update debugger options. This method should be called after [IRemoteDebugApplication::ConnectDebugger](../../winscript/reference/iremotedebugapplication-connectdebugger.md). The [IRemoteDebugApplication::DisconnectDebugger](../../winscript/reference/iremotedebugapplication-disconnectdebugger.md) method automatically resets to the default options. The options default to 0 (SDO_NONE).  
   
 > [!IMPORTANT]
->  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

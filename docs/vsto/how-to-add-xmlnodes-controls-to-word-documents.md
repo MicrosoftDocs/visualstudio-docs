@@ -24,40 +24,40 @@ ms.workload:
  For information about mapping non-repeating XML schema elements, see [How to: Add XMLNode controls to Word documents](../vsto/how-to-add-xmlnode-controls-to-word-documents.md).
 
 > [!NOTE]
->  The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is not available from the **Toolbox** or the **Data Sources** window, nor can it be created programmatically.
+> The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is not available from the **Toolbox** or the **Data Sources** window, nor can it be created programmatically.
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ### To add an XMLNodes control to a document
 
-1.  In the document in the Visual Studio designer, on the ribbon, click the **Developer** tab.
+1. In the document in the Visual Studio designer, on the ribbon, click the **Developer** tab.
 
     > [!NOTE]
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
+    > If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).
 
-2.  In the **XML** group, click **Schema**.
+2. In the **XML** group, click **Schema**.
 
      The **Templates and Add-ins** dialog box opens.
 
-3.  Click the **XML Schema** tab.
+3. Click the **XML Schema** tab.
 
-4.  Click **Add Schema**.
+4. Click **Add Schema**.
 
      The **Add Schema** dialog box opens.
 
-5.  Select an XML schema that contains repeating schema elements and click **Open**.
+5. Select an XML schema that contains repeating schema elements and click **Open**.
 
      The **Schema Settings** dialog box appears.
 
-6.  Assign an alias or click **OK** to add the schema without an alias.
+6. Assign an alias or click **OK** to add the schema without an alias.
 
      The schema is added to the **Add Schema** dialog box.
 
-7.  In the **Add Schema** dialog box, click **OK**.
+7. In the **Add Schema** dialog box, click **OK**.
 
      The **XML Structure** task pane opens.
 
-8.  Click the repeating schema element on the **XML Structure** task pane to add it to the document.
+8. Click the repeating schema element on the **XML Structure** task pane to add it to the document.
 
      An <xref:Microsoft.Office.Tools.Word.XMLNodes> control is created and added to the project.
 

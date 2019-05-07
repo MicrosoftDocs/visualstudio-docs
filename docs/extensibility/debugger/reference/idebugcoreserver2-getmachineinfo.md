@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer2::GetMachineInfo
 Retrieves a description of the machine the core server is running on.
@@ -32,19 +35,19 @@ int GetMachineInfo( 
 );
 ```
 
-#### Parameters
- `Fields`
+## Parameters
+ `Fields`\
 
  [in] A combination of flags from the [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) enumeration that specify which fields of `pMachineInfo` are to be filled out.
 
- `pMachineInfo`
+ `pMachineInfo`\
 
  [in, out] A [MACHINE_INFO](../../../extensibility/debugger/reference/machine-info.md) structure that is filled in with a description of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md)
 - [MACHINE_INFO](../../../extensibility/debugger/reference/machine-info.md)

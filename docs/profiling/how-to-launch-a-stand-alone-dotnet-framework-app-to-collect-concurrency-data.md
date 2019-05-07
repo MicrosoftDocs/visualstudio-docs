@@ -13,7 +13,7 @@ ms.workload:
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a .NET Framework stand-alone (client) application and collect process and thread concurrency data
 
 > [!NOTE]
->  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
  While the profiler is attached to the application, you can pause and resume data collection. To end a profiling session, the Profiler must no longer be attached to the application and the Profiler must be explicitly shut down.
 
@@ -30,13 +30,11 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
    - The [/start](../profiling/start.md) option initializes the profiler.
 
-
      | | |
      |-------------------------------------| - |
      | **/start:concurrency** | Enables collecting both resource contention and thread execution data. |
      | **/start:concurrency,resourceonly** | Enables collecting only resource contention data. |
      | **/start:concurrency,threadonly** | Enables collecting only thread execution data. |
-
 
    - The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.
 
@@ -49,7 +47,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
    | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
-
 
 3. Start the target application. Type:
 
@@ -68,7 +65,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To start and stop data collection
 
-1.  The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
+1. The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.
 
     |Option|Description|
     |------------|-----------------|
@@ -81,15 +78,15 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 
 #### To end a profiling session
 
-1.  Do one of the following to detach the profiler from the target application.
+1. Do one of the following to detach the profiler from the target application.
 
-    -   Close the target application.
+    - Close the target application.
 
          -or-
 
-    -   Type **VSPerfCmd /detach**
+    - Type **VSPerfCmd /detach**
 
-2.  Shut down the profiler
+2. Shut down the profiler
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 

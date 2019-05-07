@@ -18,10 +18,10 @@ manager: jillfra
 If you are using the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)] in [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)] to build [!INCLUDE[wf](../includes/wf-md.md)] applications that target.NET Framework 3.0 or 3.5, you can debug your workflows like any other program by setting breakpoints, attaching to processes, and examining threads and the call stack. You also have the option of debugging remotely.  
   
 > [!NOTE]
->  If multiple versions of Visual Studio have been installed and uninstalled on your machine, WF3 debugging can fail with one of the two following possibilities:  
+> If multiple versions of Visual Studio have been installed and uninstalled on your machine, WF3 debugging can fail with one of the two following possibilities:  
 > 
 > - Your breakpoints are not hit.  
->   -   The following message is displayed:  
+>   - The following message is displayed:  
 > 
 >   **Unable to start debugging on the web server. The debugger is not properly installed.  Cannot debug the requested type of code.  Run setup to install or repair the debugger.**  
 > 

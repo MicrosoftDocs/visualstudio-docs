@@ -18,17 +18,17 @@ Like the [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040), Cloud 
 
 ## Prerequisites
 
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) with the **Azure workload** selected, or an earlier version of Visual Studio with the [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657).
+* Visual Studio 2017 or later (see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)) with the **Azure workload** selected. You can also use an earlier version of Visual Studio with the [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657).
 * Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](http://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](http://go.microsoft.com/fwlink/?LinkId=623901).
 
 > [!NOTE]
-> To view Cloud Explorer, select **View** > **Cloud Explorer** on the menu bar.
+> To view Cloud Explorer, press **Ctrl**+**Q** to activate the search box, and then enter **Cloud Explorer**.
 
 ## Add an Azure account to Cloud Explorer
 
-To view the resources associated with an Azure account, you must first add the account to Cloud Explorer.
+To view the resources associated with an Azure account, you must first add the account to **Cloud Explorer**.
 
-1. In **Cloud Explorer**, select **Azure account settings**.
+1. In **Cloud Explorer**, choose the **Account Management** button.
 
    ![Cloud Explorer Azure account settings icon](./media/vs-azure-tools-resources-managing-with-cloud-explorer/azure-account-settings.png)
 

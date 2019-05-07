@@ -16,7 +16,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
  **Requirements**
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
 > [!WARNING]
 > In versions prior to Internet Explorer 10, it was possible to run coded UI tests in a higher privilege level compared to that of the Internet Explorer process. When running coded UI tests on Internet Explorer 10, both the coded UI test and the Internet Explorer process must be at the same privilege level. This is because of more secure AppContainer features in Internet Explorer 10.
@@ -47,7 +47,6 @@ See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioEleme
 
 > [!NOTE]
 > The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
-
 
 ## Video Control
  **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.

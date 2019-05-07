@@ -28,16 +28,16 @@ By default, all advanced build configuration options are hidden with [!INCLUDE[v
   
 #### To enable advanced build configurations  
   
-1.  On the **Tools** menu, click **Options**.  
+1. On the **Tools** menu, click **Options**.  
   
-2.  Expand **Projects and Solutions**, and click **General**.  
+2. Expand **Projects and Solutions**, and click **General**.  
   
     > [!NOTE]
-    >  The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.  
+    > The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.  
   
-3.  Click **Show advanced build configurations**.  
+3. Click **Show advanced build configurations**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
      On the **Build** menu, **Configuration Manager** is now available, and the **Configuration** and **Platform** lists are visible in the Project Designer.  
   

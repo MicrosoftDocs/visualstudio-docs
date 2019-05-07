@@ -31,31 +31,31 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
 ### To open the Breakpoint Filter dialog box
 
-1.  Right-click a breakpoint glyph in a source window, the **Disassembly** window, the **Call Stack** window, or the **Breakpoints** window.
+1. Right-click a breakpoint glyph in a source window, the **Disassembly** window, the **Call Stack** window, or the **Breakpoints** window.
 
-2.  On the shortcut menu, click **Filter**. This option may appear at the top level or in the submenu under **Breakpoints**.
+2. On the shortcut menu, click **Filter**. This option may appear at the top level or in the submenu under **Breakpoints**.
 
 ### To set a breakpoint on a specific computer
 
-1.  Get the computer name from the **Processes** window.
+1. Get the computer name from the **Processes** window.
 
-2.  Select a breakpoint, and open the **Breakpoint Filter** dialog box as described in the previous procedure.
+2. Select a breakpoint, and open the **Breakpoint Filter** dialog box as described in the previous procedure.
 
-3.  In the **Breakpoint Filter** dialog box, type:
+3. In the **Breakpoint Filter** dialog box, type:
 
      MachineName =*yourmachinename*
 
      To create a more complex filter, you can combine clauses using `&`, the AND operator, `||`, the OR operator, `!`, the NOT operator, and parentheses.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ### To set a breakpoint on a specific process
 
-1.  Get the process name or process ID number from the **Processes** window.
+1. Get the process name or process ID number from the **Processes** window.
 
-2.  Select a breakpoint, and open the **Breakpoint Filter** dialog box as in the first procedure.
+2. Select a breakpoint, and open the **Breakpoint Filter** dialog box as in the first procedure.
 
-3.  In the **Breakpoint Filter** dialog box, type:
+3. In the **Breakpoint Filter** dialog box, type:
 
      `ProcessName =`  *yourprocessname*
 
@@ -65,15 +65,15 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
      To create a more complex filter, you can combine clauses using `&`, the AND operator, `||`, the OR operator, `!`, the NOT operator, and parentheses.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ### To set a breakpoint on a specific thread
 
-1.  Get the thread name or thread ID number from the **Threads** window.
+1. Get the thread name or thread ID number from the **Threads** window.
 
-2.  Select a breakpoint, and open the **Breakpoint Filter** dialog box as described in the first procedure.
+2. Select a breakpoint, and open the **Breakpoint Filter** dialog box as described in the first procedure.
 
-3.  In the **Breakpoint Filter** dialog box, type:
+3. In the **Breakpoint Filter** dialog box, type:
 
      `ThreadName =` *yourthreadname*
 
@@ -83,13 +83,12 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
      To create a more complex filter, you can combine clauses using `&`, the AND operator, `||`, the OR operator, `!`, the NOT operator, and parentheses.
 
-4.  Click **OK**.
+4. Click **OK**.
 
 ## Example
  The following example shows how to create a filter for a breakpoint on a computer named `marvin` and a thread named `fourier1`.
 
 `(MachineName = marvin) & (ThreadName = fourier1)`
-
 
 ## See Also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)

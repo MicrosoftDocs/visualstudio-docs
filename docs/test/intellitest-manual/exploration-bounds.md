@@ -23,17 +23,17 @@ public partial class FooTest {...}
 
 * **Constraint solving bounds**
   * [MaxConstraintSolverTime](#maxconstraintsolvertime) - The number of seconds the [constraint solver](input-generation.md#constraint-solver) has to discover inputs that will cause a new and different execution path to be followed.
-  * [MaxConstraintSolverMemory](#maxconstraintsolvermemory) - The size in Megabytes that the [constraint solver](input-generation.md#constraint-solver) may use to discover inputs.<p />
+  * [MaxConstraintSolverMemory](#maxconstraintsolvermemory) - The size in Megabytes that the [constraint solver](input-generation.md#constraint-solver) may use to discover inputs.
 * **Exploration Path Bounds**
   * [MaxBranches](#maxbranches) - The maximum number of branches that may be taken along a single execution path.
   * [MaxCalls](#maxcalls) - The maximum number of calls that may be made during a single execution path.
   * [MaxStack](#maxstack) - The maximum size of the stack at any time during a single execution path, measured as the number of active call frames.
-  * [MaxConditions](#maxconditions) - The maximum number of conditions over the inputs that may be checked during a single execution path.<p />
+  * [MaxConditions](#maxconditions) - The maximum number of conditions over the inputs that may be checked during a single execution path.
 * **Exploration Bounds**
   * [MaxRuns](#maxruns) - The maximum number of runs that will be attempted during an exploration.
   * [MaxRunsWithoutNewTests](#maxrunswithoutnewtests) - The maximum number of consecutive runs without a new test being emitted.
   * [MaxRunsWithUniquePaths](#maxrunswithuniquepaths) - The maximum number of runs with unique execution paths that will be attempted during an exploration.
-  * [MaxExceptions](#maxexceptions) - The maximum number of exceptions that may be found for a combination of all discovered execution paths.<p />
+  * [MaxExceptions](#maxexceptions) - The maximum number of exceptions that may be found for a combination of all discovered execution paths.
 * **Test Suite Code Generation Settings**
   * [TestExcludePathBoundsExceeded](#testexcludepathboundsexceeded) - When true, execution paths which exceed any of the path bounds ([MaxCalls](#maxcalls), [MaxBranches](#maxbranches), [MaxStack](#maxstack), [MaxConditions](#maxconditions)) are ignored.
   * [TestEmissionFilter](#testemissionfilter) - Indicates under which circumstances IntelliTest should emit tests.

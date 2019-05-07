@@ -1,44 +1,36 @@
 ---
 title: "How to report a problem with Visual Studio"
-titleSuffix: ""
-description: "Find out how to report a problem with Visual Studio to Microsoft so that we can diagnose and fix it."
+description: "Find out how to report a problem with Visual Studio"
 ms.date: 03/11/2018
-ms.custom: "seodec18"
 ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
-author: TerryGLee
-ms.author: tglee
+ms.author: seiyer
+author: seaniyer
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# How to report a problem with Visual Studio
-
-If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
+# How to report a problem with Visual Studio or Visual Studio Installer
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
+> For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
 
-## Report a problem by using Visual Studio
+You can report a problem from either Visual Studio or its installer by using the Feedback Tool included in them. The Feedback Tool enables you to easily include diagnostic information in your feedback and helps Visual Studio teams to diagnose and fix issues much more effectively. Here are the steps to report a problem.
 
-To report a problem for Visual Studio, you must initiate the report from Visual Studio or the Visual Studio Installer. You can't do it directly through the [Developer Community](https://developercommunity.visualstudio.com/) website. Reporting through Visual Studio allows for diagnostic information to be automatically included in the report.
+1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
+![Report an issue pop-up on Visual Studio Developer Community](media/vsfeedbackentry.png)
+Alternatively, report a problem in **Visual Studio Installer** if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
+![Report an issue pop-up on Visual Studio Developer Community](media/installer.png)
 
-![Report an issue pop-up on Visual Studio Developer Community](media/report-an-issue.png)
-
-1. In Visual Studio, select **Help** > **Send Feedback** > **Report a Problem**.
-
-   > [!TIP]
-   > If you can't complete the Visual Studio installation or you can't access the feedback tool within Visual Studio, you can report a problem by using the **Visual Studio Installer**. To do so, choose the feedback icon in the upper-right corner of the **Visual Studio Installer**.
-
-1. If you are not signed in, select **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot. Follow the instructions on-screen to sign in.
+1. If not signed in, select **Sign In** as shown in the following screenshot. Follow the instructions on-screen to sign in.
 
    ![Sign in to report a problem](../ide/media/sign-in-new-ux.png)
 
-   When you sign in, you can report a problem that you're experiencing. You can also vote or comment on any other problem that you see posted.
+   Not only can you report a problem when you are signed in, but you can also vote and comment on any existing feedback.
 
-1. Once signed in, you will be able to see your **Problems** and **Activity** in the **Items I follow** screen
+1. Once signed in, you will be able to see your **Problems** and **Activity** on the **Items I follow** screen
 
-    ![Items I Follow](../ide/media/items-i-follow.png)
+   ![Items I Follow](../ide/media/items-i-follow.png)
 
 1. Visual Studio provides an interface to search for your problem and see if others have reported it. If someone has reported it, "up-vote" it to let us know.
    > [!NOTE]
@@ -119,13 +111,13 @@ Starting in Visual Studio 2017 Version 15.5, there's a new workflow to help user
 
 ## Search for solutions or provide feedback
 
-If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
+If you don't want to or can't use Visual Studio to report a problem, there's a chance the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
 If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=8) page.
 
 ## See also
 
-* [Talk to us](../ide/talk-to-us.md)
+* [Visual Studio feedback options](../ide/feedback-options.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
 * [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)

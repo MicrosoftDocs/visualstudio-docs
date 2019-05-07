@@ -17,11 +17,11 @@ manager: jillfra
 
 In terms of the debugger architecture, a **module**:  
   
--   Is a physical container of code, such as an executable file or a DLL.  
+- Is a physical container of code, such as an executable file or a DLL.  
   
--   Can reload its symbols and describe itself. Module descriptions are displayed in the Modules window of the IDE.  
+- Can reload its symbols and describe itself. Module descriptions are displayed in the Modules window of the IDE.  
   
--   Is represented by an [IDebugModule2](../../extensibility/debugger/reference/idebugmodule2.md) interface, created by a debug engine to describe the module.  
+- Is represented by an [IDebugModule2](../../extensibility/debugger/reference/idebugmodule2.md) interface, created by a debug engine to describe the module.  
   
 ## See Also  
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   

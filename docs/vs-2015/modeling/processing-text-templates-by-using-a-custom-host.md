@@ -19,12 +19,12 @@ manager: jillfra
 The *text template transformation* process takes a *text template* file as the input and produces a text file as the output. You can call the text transformation engine from a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extension, or from a standalone application running on a machine on which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed. However, you must provide a *text templating host*. This class connects the template to the environment, finding resources such as assemblies and include files, and dealing with the output and error messages.  
   
 > [!TIP]
->  If you are writing a package or extension that will run within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], consider using the text templating service, instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
+> If you are writing a package or extension that will run within [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], consider using the text templating service, instead of writing your own host. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md).  
   
 > [!NOTE]
->  We do not recommend using text template transformations in server applications. We do not recommend using text template transformations except in a single thread. This is because the text templating Engine re-uses a single AppDomain to translate, compile, and execute templates. The translated code is not designed to be thread-safe. The Engine is designed to process files serially, as they are in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project at design time.  
+> We do not recommend using text template transformations in server applications. We do not recommend using text template transformations except in a single thread. This is because the text templating Engine re-uses a single AppDomain to translate, compile, and execute templates. The translated code is not designed to be thread-safe. The Engine is designed to process files serially, as they are in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project at design time.  
 >   
->  For run-time applications, consider using preprocessed text templates: see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
+> For run-time applications, consider using preprocessed text templates: see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
  If your application uses a set of templates that are fixed at compile time, it is easier to use Preprocessed Text Templates. You can also use that approach if your application will run on a machine on which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is not installed. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   

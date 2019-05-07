@@ -45,47 +45,47 @@ You can customize the appearance and behavior of the properties window in your d
 ### Default Property Forwarding Cases  
  When the user selects a shape or connector, or an element in the Explorer, the following properties are displayed in the Properties window:  
   
--   The domain properties that are defined on the domain class of the model element, including those that are defined in base classes. An exception is domain properties for which you have set **Is Browsable** to `False`.  
+- The domain properties that are defined on the domain class of the model element, including those that are defined in base classes. An exception is domain properties for which you have set **Is Browsable** to `False`.  
   
--   The names of elements that are linked through relationships that have a multiplicity of 0..1. This provides a convenient method of seeing optionally linked elements, even if you have not defined a connector mapping for the relationship.  
+- The names of elements that are linked through relationships that have a multiplicity of 0..1. This provides a convenient method of seeing optionally linked elements, even if you have not defined a connector mapping for the relationship.  
   
--   Domain properties of the embedding relationship that targets the element. Because embedding relationships are usually not displayed explicitly, this lets the user see their properties.  
+- Domain properties of the embedding relationship that targets the element. Because embedding relationships are usually not displayed explicitly, this lets the user see their properties.  
   
--   Domain properties that are defined on the selected shape or connector.  
+- Domain properties that are defined on the selected shape or connector.  
   
 ### Adding Property Forwarding  
  To forward a property, you define a domain type descriptor. If you have a domain relationship between two domain classes, you can use a domain type descriptor to set a domain property in the first class to the value of a domain property in the second domain class. For example, if you have a relationship between a **Book** domain class and an **Author** domain class, you can use a domain type descriptor to make the **Name** property of a Book's **Author** appear in the Properties window when the user selects the Book.  
   
 > [!NOTE]
->  Property forwarding affects only the Properties window when the user is editing a model. It does not define a domain property on the receiving class. If you want to access the forwarded domain property in other parts of the DSL Definition or in program code, you must access the forwarding element.  
+> Property forwarding affects only the Properties window when the user is editing a model. It does not define a domain property on the receiving class. If you want to access the forwarded domain property in other parts of the DSL Definition or in program code, you must access the forwarding element.  
   
  The following procedure assumes that you have created a DSL. The first few steps summarize the prerequisites.  
   
 ##### To forward a property from another element  
   
-1.  Create a [!INCLUDE[dsl](../includes/dsl-md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.  
+1. Create a [!INCLUDE[dsl](../includes/dsl-md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.  
   
      The multiplicity of the source role (the role at the **Book** side) should be 0..1 or 1..1, so that each **Book** has one **Author**.  
   
-2.  In **DSL Explorer**, right-click the **Book** domain class, and then click **Add New DomainTypeDescriptor**.  
+2. In **DSL Explorer**, right-click the **Book** domain class, and then click **Add New DomainTypeDescriptor**.  
   
      A node named **Paths of Custom Property Descriptors** appears under the **Custom Type Descriptor** node.  
   
-3.  Right-click the **Custom Type Descriptor** node, and then click **Add New PropertyPath**.  
+3. Right-click the **Custom Type Descriptor** node, and then click **Add New PropertyPath**.  
   
      A new property path appears under the **Paths Of Custom Property Descriptors** node.  
   
-4.  Select the new property path, and in the **Properties** window, set **Path to Property** to the path of the appropriate model element.  
+4. Select the new property path, and in the **Properties** window, set **Path to Property** to the path of the appropriate model element.  
   
      You can edit the path in a tree view by clicking the down arrow to the right of this property. For more information about domain paths, see [Domain Path Syntax](../modeling/domain-path-syntax.md). When you have edited it, the path should resemble **BookReferencesAuthor.Author/!Author**.  
   
-5.  Set **Property** to the **Name** domain property of **Author**.  
+5. Set **Property** to the **Name** domain property of **Author**.  
   
-6.  Set **Display Name** to **Author Name**.  
+6. Set **Display Name** to **Author Name**.  
   
-7.  Transform All Templates, build and run the DSL.  
+7. Transform All Templates, build and run the DSL.  
   
-8.  In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.  
+8. In a model diagram, create a book, an author, and link them using the reference relationship. Select the book element, and in the Properties window you should see Author Name in addition to the properties of the book. Change the name of the linked author, or link the book to a different author, and observe that the Author Name of the book changes.  
   
 ## Custom Property Editors  
  The property window provides an appropriate default editing experience for the type of each domain property. For example, for an enumerated type, the user sees a drop-down list, and for a numeric property, the user can enter digits. This is only true for the built-in types. If you specify an external type, the user will be able to see the property’s values, but not edit it.  
@@ -110,14 +110,14 @@ You can customize the appearance and behavior of the properties window in your d
   
 2. Add the type to the **Domain Types** list, unless you have already done so.  
   
-   1.  Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.  
+   1. Open DslDefinition.dsl, and in **DSL Explorer**, right-click the root node, and then click **Add New External Type**.  
   
         A new entry appears under the **Domain Types** node.  
   
        > [!WARNING]
-       >  The menu item is on the DSL root node, not the **Domain Types** node.  
+       > The menu item is on the DSL root node, not the **Domain Types** node.  
   
-   2.  Set the name and the namespace of the new type in the Properties window.  
+   2. Set the name and the namespace of the new type in the Properties window.  
   
 3. Add a domain property to a domain class in the usual manner.  
   
@@ -143,9 +143,9 @@ You can customize the appearance and behavior of the properties window in your d
   
 ##### To define a file name domain property  
   
-1.  Add a domain property to a domain class in your DSL Definition.  
+1. Add a domain property to a domain class in your DSL Definition.  
   
-2.  Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:  
+2. Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:  
   
     ```  
     [System.ComponentModel.Editor (  
@@ -154,15 +154,15 @@ You can customize the appearance and behavior of the properties window in your d
   
     ```  
   
-3.  Leave the Type of the domain property at its default setting of **String**.  
+3. Leave the Type of the domain property at its default setting of **String**.  
   
-4.  To test the editor, verify that users can open the file name editor to edit your domain property.  
+4. To test the editor, verify that users can open the file name editor to edit your domain property.  
   
-    1.  Press CTRL+F5 or F5. In the debugging solution, open a test file. Create an element of the domain class and select it.  
+    1. Press CTRL+F5 or F5. In the debugging solution, open a test file. Create an element of the domain class and select it.  
   
-    2.  In the Properties window, select the domain property. The value field shows an ellipsis **[...]**.  
+    2. In the Properties window, select the domain property. The value field shows an ellipsis **[...]**.  
   
-    3.  Click the ellipsis. A file dialog box appears. Select a file and close the dialog box. The file path is now the value of the domain property.  
+    3. Click the ellipsis. A file dialog box appears. Select a file and close the dialog box. The file path is now the value of the domain property.  
   
 ### Defining your own property editor  
  You can define your own editor. You would do this to  allow the user either to edit a type that you have defined, or to edit a standard type in a special way. For example, you could allow the user to input a string that represents a formula.  
@@ -176,7 +176,7 @@ You can customize the appearance and behavior of the properties window in your d
   You can also provide a graphical representation of the property’s value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.  
   
 > [!NOTE]
->  Add the code in a separate code file in the **Dsl** project.  
+> Add the code in a separate code file in the **Dsl** project.  
   
  For example:  
   
@@ -208,7 +208,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
  You can provide a list of values for a user to choose from.  
   
 > [!NOTE]
->  This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.  
+> This technique provides a list of values that can change at runtime. If you want to provide a list that does not change, consider instead using an enumerated type as the type of your domain property.  
   
  To define a list of standard values, you add to your domain property a CLR attribute that has the following form:  
   

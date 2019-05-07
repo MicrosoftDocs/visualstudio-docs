@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugObject2::CreateAlias
 Creates a unique ID or alias for this object or returns an existing alias.
@@ -30,8 +33,8 @@ int CreateAlias(
 );
 ```
 
-#### Parameters
- `ppAlias`
+## Parameters
+ `ppAlias`\
 
  [out] The new (or existing) alias.
 
@@ -41,6 +44,6 @@ int CreateAlias(
 ## Remarks
  An alias is a label that represents a particular object while the object is in memory.
 
-## See Also
+## See also
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

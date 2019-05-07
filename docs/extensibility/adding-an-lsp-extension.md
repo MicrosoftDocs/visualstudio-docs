@@ -254,7 +254,6 @@ namespace MockLanguageExtension
         [BaseDefinition(CodeRemoteContentDefinition.CodeRemoteContentTypeName)]
         internal static ContentTypeDefinition BarContentTypeDefinition;
 
-
         [Export]
         [FileExtension(".bar")]
         [ContentType("bar")]
@@ -292,6 +291,7 @@ Follow these steps below to add support for settings to your LSP language servic
         "foo.maxNumberOfProblems": -1
     }
     ```
+
 2. Right-click on the JSON file and select **Properties**. Change the **Build** action to "Content" and the "Include in VSIX' property to true.
 
 3. Implement ConfigurationSections and return the list of prefixes for the settings defined in the JSON file (In Visual Studio Code, this would map to the configuration section name in package.json):
@@ -314,6 +314,7 @@ Follow these steps below to add support for settings to your LSP language servic
     ```
 
     Sample:
+
     ```
     [$RootKey$\OpenFolder\Settings\VSWorkspaceSettings\MockLanguageExtension]
     @="$PackageFolder$\MockLanguageExtensionSettings.json"

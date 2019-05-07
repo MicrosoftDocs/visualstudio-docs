@@ -13,6 +13,8 @@ manager: jillfra
 
 Visual Studio provides several different tools to help you create apps using JavaScript or TypeScript.
 
+<!-- markdownlint-disable MD033 -->
+
 <h2>Learn to use JavaScript in Visual Studio with 5-minute Quickstarts</h2>
 
 <ul class="panelContent cardsFTitle">
@@ -219,5 +221,3 @@ Visual Studio provides several different tools to help you create apps using Jav
         </a>
     </li>
 </ul><p>
-
----

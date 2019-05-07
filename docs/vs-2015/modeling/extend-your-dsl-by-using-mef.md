@@ -26,7 +26,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
     File name: `CommandExtensionVSCT.tt`  
   
    > [!IMPORTANT]
-   >  Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt  
+   > Set the GUID in this file to be the same as the GUID CommandSetId that is defined in DslPackage\GeneratedCode\Constants.tt  
   
    ```  
    <#@ Dsl processor="DslDirectiveProcessor" requires="fileName='..\..\Dsl\DslDefinition.dsl'" #>  
@@ -131,15 +131,15 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
   
 3. Add references to the following .NET assemblies:  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.11.0.dll  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll  
   
-   -   Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll  
+   - Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll  
   
-   -   System.ComponentModel.Composition.dll  
+   - System.ComponentModel.Composition.dll  
   
-   -   System.Windows.Forms.dll  
+   - System.Windows.Forms.dll  
   
 4. Create a VSIX project in the same solution. To do this, in the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, click **Extensibility**, and then select **VSIX project**.  
   

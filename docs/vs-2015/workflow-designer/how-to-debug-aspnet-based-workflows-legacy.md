@@ -22,25 +22,25 @@ This topic describes how to debug [!INCLUDE[vstecasp](../includes/vstecasp-md.md
   
 ### To debug an ASP.NET-based workflow  
   
-1.  Enable debugging for the ASP.NET application by setting **debug = true** in the web.config file.  
+1. Enable debugging for the ASP.NET application by setting **debug = true** in the web.config file.  
   
-2.  Set the workflow library as the startup project, and set breakpoints on the workflow.  
+2. Set the workflow library as the startup project, and set breakpoints on the workflow.  
   
-3.  Enter the URL of the default Web page in the workflow project properties **Debug** option **Start browser with external URL** text box.  
+3. Enter the URL of the default Web page in the workflow project properties **Debug** option **Start browser with external URL** text box.  
   
-4.  Select **Attach to process** on the **Debug** menu.  
+4. Select **Attach to process** on the **Debug** menu.  
   
-5.  Select the process to attach to from the **Available Processes** list.  
+5. Select the process to attach to from the **Available Processes** list.  
   
      Attach to the w3wp.exe, webdev.webserver, or aspnet_wp process in which the workflow is hosted.  
   
-6.  Click **Select** next to the **Attach To** text box.  
+6. Click **Select** next to the **Attach To** text box.  
   
      The **Select Code Type** dialog box appears.  
   
-7.  Select **Debug these code types** and select **Workflow**.  
+7. Select **Debug these code types** and select **Workflow**.  
   
-8.  Click **OK**.  
+8. Click **OK**.  
   
 9. Click **Attach**.  
   

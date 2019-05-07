@@ -24,13 +24,13 @@ Finder Tool in the Find Window dialog box
   
 ### To display window properties or messages  
   
-1.  Arrange your windows so that both Spy++ and the target window are visible.  
+1. Arrange your windows so that both Spy++ and the target window are visible.  
   
-2.  From the **Spy** menu, choose **Find Window**.  
+2. From the **Spy** menu, choose **Find Window**.  
   
      The [Find Window Dialog Box](../debugger/find-window-dialog-box.md) opens.  
   
-3.  Drag the **Finder Tool** over the target window.  
+3. Drag the **Finder Tool** over the target window.  
   
      As you drag the tool, the **Find Window** dialog box displays details on the selected window.  
   
@@ -39,11 +39,11 @@ Finder Tool in the Find Window dialog box
      If you have the handle of the window you want to examine (for example, copied from the debugger), type it into the **Handle** text box.  
   
     > [!TIP]
-    >  To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
+    > To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
   
-4.  Under **Show**, select either **Properties** or **Messages**.  
+4. Under **Show**, select either **Properties** or **Messages**.  
   
-5.  Press **OK**.  
+5. Press **OK**.  
   
      If you selected **Properties**, the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages View](../debugger/messages-view.md) window opens.  
   

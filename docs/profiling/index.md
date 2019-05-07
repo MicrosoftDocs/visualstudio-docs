@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
 title: Measuring app performance using profiling | Microsoft Docs
-description: Learn how use Visual Studio 2017 to profile the performance of your applications, services, and tools in the language of your choice.
+description: Learn how use Visual Studio to profile the performance of your applications, services, and tools in the language of your choice.
 ms.custom: "seodec18"
 ms.topic: landing-page
 author: "mikejo5000"
@@ -11,6 +11,8 @@ manager: jillfra
 # Measure app performance in Visual Studio
 
 Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate data (such as variable values, function calls, and events) over the time you run your application in the debugger. You can view the state of your application at different points during the execution of your code.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsFTitle">
     <li>

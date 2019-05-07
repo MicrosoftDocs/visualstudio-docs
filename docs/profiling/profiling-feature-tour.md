@@ -2,7 +2,7 @@
 title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: "mvc"
-ms.date: "05/18/2017"
+ms.date: "05/18/2018"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "diagnostic tools"
@@ -113,6 +113,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
+::: moniker range="vs-2017"
 ## Analyze performance (JavaScript UWP)
 
 For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
@@ -124,6 +125,7 @@ The JavaScript Memory tool is similar to the Memory Usage tool available for oth
 To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP apps, use the HTML UI Responsiveness tool. Usage is similar to the Application Timeline tool for other app types. For more information, see [HTML UI responsiveness](../profiling/html-ui-responsiveness.md).
 
 ![HTML UI Responsiveness profiling tool](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
+::: moniker-end
 
 ## Analyze network usage (UWP)
 

@@ -18,7 +18,6 @@ manager: jillfra
 # How to: Clean a Build
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] includes an [Exec](../msbuild/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task Reference](../msbuild/msbuild-task-reference.md).  
   
 ## Creating a Directory for Output Items  
@@ -26,11 +25,11 @@ When you clean a build, all intermediate and output files are deleted, leaving o
   
 #### To create a directory for output items  
   
-1.  Use the `Property` element to define the location and name of the directory. For example, create a directory named `BuiltApp` in the directory that contains the project and source files:  
+1. Use the `Property` element to define the location and name of the directory. For example, create a directory named `BuiltApp` in the directory that contains the project and source files:  
   
      `<builtdir>BuiltApp</builtdir>`  
   
-2.  Use the [MakeDir](../msbuild/makedir-task.md) task to create the directory if the directory does not exist. For example:  
+2. Use the [MakeDir](../msbuild/makedir-task.md) task to create the directory if the directory does not exist. For example:  
   
      `<MakeDir Directories = "$(builtdir)"`  
   
@@ -41,7 +40,7 @@ When you clean a build, all intermediate and output files are deleted, leaving o
   
 #### To remove a directory and all files contained in the directory  
   
--   Use the `RemoveDir` task to remove the directory. For example:  
+- Use the `RemoveDir` task to remove the directory. For example:  
   
      `<RemoveDir Directories="$(builtdir)" />`  
   

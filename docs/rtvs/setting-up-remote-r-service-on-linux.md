@@ -161,5 +161,6 @@ In each case, the remote computer must have one of the following R interpreters 
     ```bash
     az container create --image myimage:latest --name myaz-container --resource-group myaz-container-res --ip-address public --port 5444 --cpu 2 --memory 4 --command-line "rtvsd"
     ```
+
 1. Use the `az container list` command to check the status. Look for `provisioningState`: `Succeeded`.
 1. If the provisioning succeeded, you can now connect to the container. Look for the public IP address, in the `ipAddress` field, which you use with the credentials in the docker file to connect to the container from RTVS.

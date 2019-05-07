@@ -17,36 +17,36 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 
  This walkthrough shows how to create and run these inline tasks:
 
--   A task that has no input or output parameters.
+- A task that has no input or output parameters.
 
--   A task that has one input parameter and no output parameters.
+- A task that has one input parameter and no output parameters.
 
--   A task that has two input parameters, and one output parameter that returns an MSBuild property.
+- A task that has two input parameters, and one output parameter that returns an MSBuild property.
 
--   A task that has two input parameters, and one output parameter that returns an MSBuild item.
+- A task that has two input parameters, and one output parameter that returns an MSBuild item.
 
 To create and run the tasks, use Visual Studio and the **Visual Studio Command Prompt Window**, as follows:
 
-1.   Create an MSBuild project file by using Visual Studio.
+1. Create an MSBuild project file by using Visual Studio.
 
-2.   Modify the project file in Visual Studio to create the inline task.
+2. Modify the project file in Visual Studio to create the inline task.
 
-3.   Use the **Command Prompt Window** to build the project and examine the results.
+3. Use the **Command Prompt Window** to build the project and examine the results.
 
 ## Create and modify an MSBuild project
  The Visual Studio project system is based on MSBuild. Therefore, you can create a build project file by using Visual Studio. In this section, you create a Visual C# project file. (You can create a Visual Basic project file instead. In the context of this tutorial, the difference between the two project files is minor.)
 
 #### To create and modify a project file
 
-1.  In Visual Studio, on the **File** menu, click **New** and then click **Project**.
+1. In Visual Studio, on the **File** menu, click **New** and then click **Project**.
 
-2.  In the **New Project** dialog box, select the **Visual C#** project type, and then select the **Windows Forms Application** template. In the **Name** box, type `InlineTasks`. Type a **Location** for the solution, for example, *D:\\*. Ensure that **Create directory for solution** is selected, **Add to Source Control** is cleared, and **Solution Name** is **InlineTasks**.
+2. In the **New Project** dialog box, select the **Visual C#** project type, and then select the **Windows Forms Application** template. In the **Name** box, type `InlineTasks`. Type a **Location** for the solution, for example, *D:\\*. Ensure that **Create directory for solution** is selected, **Add to Source Control** is cleared, and **Solution Name** is **InlineTasks**.
 
-3.  Click **OK** to create the project file.
+3. Click **OK** to create the project file.
 
-3.  In **Solution Explorer**, right-click the **InlineTasks** project node, and then click **Unload Project**.
+3. In **Solution Explorer**, right-click the **InlineTasks** project node, and then click **Unload Project**.
 
-4.  Right-click the project node again, and then click **Edit InlineTasks.csproj**.
+4. Right-click the project node again, and then click **Edit InlineTasks.csproj**.
 
      The project file appears in the code editor.
 
@@ -97,7 +97,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
     `Hello, world!`
 
    > [!NOTE]
-   >  If you do not see the hello message, try saving the project file again and then run the Hello task.
+   > If you do not see the hello message, try saving the project file again and then run the Hello task.
 
    By alternating between the code editor and the **Command Prompt Window**, you can change the project file and quickly see the results.
 

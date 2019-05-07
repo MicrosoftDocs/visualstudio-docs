@@ -63,7 +63,15 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 5. Make sure the **Working directory** text box is empty.
 
-6. Choose **Use remote machine**, and type **MJO-DL:4022** in the text box. (4022 is the port number shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
+6. Choose **Use remote machine**, and type **yourmachinename:port** in the text box. (The port number is shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
+
+    In this example, use:
+    ::: moniker range=">=vs-2019"
+    **MJO-DL:4024** on Visual Studio 2019
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    **MJO-DL:4022** on Visual Studio 2017
+    ::: moniker-end
 
 7. Make sure that **Enable native code debugging** is not selected.
 
@@ -74,7 +82,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 10. Copy the executable that you just built from your Visual Studio computer to the newly-created folder on the remote computer.
 
     > [!CAUTION]
-    >  Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
+    > Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
 
     You can copy the project manually, use Xcopy, Robocopy, Powershell, or other options.
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints
 Creates an enumerator for all the breakpoints that fired at the current code location.
@@ -30,8 +33,8 @@ int EnumBreakpoints(
 );
 ```
 
-#### Parameters
- `ppEnum`
+## Parameters
+ `ppEnum`\
 
  [out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates all the breakpoints associated with the current code location.
 
@@ -41,6 +44,6 @@ int EnumBreakpoints(
 ## Remarks
  Not all breakpoints at a particular location may fire at a particular time (for example, a breakpoint with a condition will not fire until that condition is met).
 
-## See Also
+## See also
 - [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md)
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

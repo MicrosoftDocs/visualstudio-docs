@@ -3,8 +3,8 @@ title: Python interactive window (REPL)
 description: Use the interactive window (REPL) for rapid Python code development in Visual Studio.
 ms.date: 02/11/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.custom: seodec18
 ms.workload:
@@ -51,7 +51,7 @@ Finally, you can select code in file and use the [**Send to Interactive** comman
 
 ## Interactive window options
 
-You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python Tools** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
+You can control various aspects of the **Interactive** window through **Tools** > **Options** > **Python** > **Interactive Windows** (see [Options](python-support-options-and-settings-in-visual-studio.md)):
 
 ![Python interactive window options](media/options-interactive-windows.png)
 
@@ -117,4 +117,4 @@ Visual Studio also detects code cells starting with comments like `# In[1]:`, wh
 
 The **Interactive** window includes IntelliSense based on the live objects, unlike the code editor in which IntelliSense is based on source code analysis only. These suggestions are more correct in the **Interactive** window, especially with dynamically generated code. The drawback is that functions with side-effects (such as logging messages) may impact your development experience.
 
-If this behavior is a problem, change the settings under **Tools** > **Options** > **Python Tools** > **Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).
+If this behavior is a problem, change the settings under **Tools** > **Options** > **Python** > **Interactive Windows** in the **Completion Mode** group, as described on [Options - Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options).

@@ -22,19 +22,15 @@ Design-time T4 text templates let you generate program code and other files in y
  For example, you could have a model that defines a workflow, either as a table or a diagram. From the model, you can generate the software that executes the workflow. When your users' requirements change, it is easy to discuss the new workflow with the users. Regenerating the code from the workflow is more reliable than updating the code by hand.
 
 > [!NOTE]
->  A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It does not have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
+> A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It does not have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
 
  You are probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
 
- A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code and allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
+ A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
 
-## Creating a Design-Time T4 Text Template
+## Create a Design-Time T4 Text Template
 
-#### To create a design-time T4 template in Visual Studio
-
-1. Create a Visual Studio project, or open an existing one.
-
-    For example, on the **File** menu, choose **New** > **Project**.
+1. Create a new Visual Studio project, or open an existing one.
 
 2. Add a text template file to your project and give it a name that has the extension **.tt**.
 
@@ -64,10 +60,11 @@ Design-time T4 text templates let you generate program code and other files in y
 6. In **Solution Explorer**, expand the template file node and you will find a file that has the extension **.txt**. The file contains the text generated from the template.
 
    > [!NOTE]
-   >  If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
+   > If your project is a Visual Basic project, you must click **Show All Files** in order to see the output file.
 
-### Regenerating the code
- A template will be executed, generating the subsidiary file, in any of the following cases:
+### Regenerate the code
+
+A template will be executed, generating the subsidiary file, in any of the following cases:
 
 - Edit the template and then change focus to a different Visual Studio window.
 
@@ -77,12 +74,11 @@ Design-time T4 text templates let you generate program code and other files in y
 
 - In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.
 
-  You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
+You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
 
-## Generating Variable Text
- Text templates let you use program code to vary the content of the generated file.
+## Generate Variable Text
 
-#### To generate text by using program code
+Text templates let you use program code to vary the content of the generated file.
 
 1. Change the content of the `.tt` file:
 
@@ -130,18 +126,18 @@ Design-time T4 text templates let you generate program code and other files in y
   The template will run and stop at the breakpoints. You can examine variables and step through the code in the usual way.
 
 > [!TIP]
->  `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.
+> `debug="true"` makes the generated code map more accurately to the text template, by inserting more line numbering directives into the generated code. If you leave it out, breakpoints might stop the run in the wrong state.
 >
->  But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
+> But you can leave the clause in the template directive even when you are not debugging. This causes only a very small drop in performance.
 
 ## Generating Code or Resources for Your Solution
- You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files are from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.
+ You can generate program files that vary, depending on a model. A model is an input such as a database, configuration file, UML model, DSL model, or other source. You usually generate several program files from the same model. To achieve this, you create a template file for each generated program file, and have all the templates read the same model.
 
 #### To generate program code or resources
 
-1.  Change the output directive to generate a file of the appropriate type, such as .cs, .vb, .resx, or .xml.
+1. Change the output directive to generate a file of the appropriate type, such as .cs, .vb, .resx, or .xml.
 
-2.  Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:
+2. Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:
 
     ```csharp
 
@@ -174,7 +170,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
     ```
 
-3.  Save the file and inspect the generated file, which now contains the following code:
+3. Save the file and inspect the generated file, which now contains the following code:
 
     ```csharp
     class MyGeneratedClass {
@@ -340,12 +336,10 @@ Warning("A warning message");
 
 4. Verify the following properties of the **.tt** file:
 
-
    | | |
    |-|-|
    | **Custom Tool =** | **TextTemplatingFileGenerator** |
    | **Build Action =** | **None** |
-
 
 5. Insert the following lines at the beginning of the file:
 

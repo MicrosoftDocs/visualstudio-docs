@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugMethodField::EnumAllLocals
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.
@@ -32,12 +35,12 @@ int EnumAllLocals(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+ `pAddress`\
 
  [in] An [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object representing a debug address within the method, pointing to a particular scope or context.
 
- `ppLocals`
+ `ppLocals`\
 
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of all locals in the specified scope; otherwise, returns a null value indicating no locals.
 
@@ -49,7 +52,7 @@ int EnumAllLocals(
 
  A method can contain multiple scoping contexts or blocks.
 
-## See Also
+## See also
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

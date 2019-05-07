@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugGenericParamField::GetFlags
 Retrieves the flags for this generic parameter.
@@ -29,8 +32,8 @@ int GetFlags(
 );
 ```
 
-#### Parameters
-`pdwFlags`
+## Parameters
+`pdwFlags`\
 
  [out] Returns the flags for this generic parameter.
 
@@ -61,5 +64,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

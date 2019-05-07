@@ -18,7 +18,7 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
 
 ### To enable your DSL to be extended by MEF
 
-1.  Create a new folder named **MefExtension** inside the **DslPackage** project. Add the following files to it:
+1. Create a new folder named **MefExtension** inside the **DslPackage** project. Add the following files to it:
 
      File name: `CommandExtensionVSCT.tt`
 
@@ -66,7 +66,7 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
     <#@ include file="DslPackage\PackageExtensionEnablement.tt" #>
     ```
 
-2.  Create a new folder named **MefExtension** inside the **Dsl** project. Add the following files to it:
+2. Create a new folder named **MefExtension** inside the **Dsl** project. Add the following files to it:
 
      File name: `DesignerExtensionMetaDataAttribute.tt`
 
@@ -89,7 +89,7 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
     <#@ include file="Dsl\GestureExtensionController.tt" #>
     ```
 
-3.  Add the following line to the existing file that is named **DslPackage\Commands.vsct**:
+3. Add the following line to the existing file that is named **DslPackage\Commands.vsct**:
 
     ```xml
     <Include href="MefExtension\CommandExtensionVSCT.vsct"/>
@@ -97,29 +97,29 @@ For more information about MEF, see [Managed Extensibility Framework (MEF)](/dot
 
     Insert the line after the existing `<Include>` directive.
 
-4.  Open *DslDefinition.dsl*.
+4. Open *DslDefinition.dsl*.
 
-5.  In DSL Explorer, select **Editor\Validation**.
+5. In DSL Explorer, select **Editor\Validation**.
 
-6.  In the Properties window, make sure that at least one of the properties named **Uses** is `true`.
+6. In the Properties window, make sure that at least one of the properties named **Uses** is `true`.
 
-7.  In the **Solution Explorer** toolbar, click **Transform All Templates**.
+7. In the **Solution Explorer** toolbar, click **Transform All Templates**.
 
      Subsidiary files appear underneath each of the files that you added.
 
-8.  Build and run the solution to verify that it is still working.
+8. Build and run the solution to verify that it is still working.
 
 Your DSL is now MEF-enabled. You can write menu commands, gestures handlers, and validation constraints as MEF extensions. You can write these extensions in your DSL solution together with other custom code. In addition, you or other developers can write separate Visual Studio extensions that extend your DSL.
 
-## Creating an extension for a MEF-enabled DSL
+## Create an extension for a MEF-enabled DSL
 
 If you have access to a MEF-enabled DSL created by yourself or someone else, you can write extensions for it. The extensions can be used to add menu commands, gestures handlers, or validation constraints. To author these extensions, you use a Visual Studio extension (VSIX) solution. The solution has two parts: a class library project that builds the code assembly, and a VSIX project that packages the assembly.
 
-#### To create a DSL extension VSIX
+### To create a DSL extension VSIX
 
-1. Create a new class library project. To do this, in the **New Project** dialog box, select **Visual Basic** or **Visual C#** and then select **Class Library**.
+1. Create a new **Class Library** project.
 
-2. In the new class library project, add a reference to the assembly of the DSL.
+2. In the new project, add a reference to the assembly of the DSL.
 
    - This assembly usually has a name that ends with ".Dsl.dll".
 
@@ -129,19 +129,19 @@ If you have access to a MEF-enabled DSL created by yourself or someone else, you
 
 3. Add references to the following .NET assemblies:
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.11.0.dll
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.Diagrams.11.0.dll
 
-   -   Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll
+   - Microsoft.VisualStudio.Modeling.Sdk.Shell.11.0.dll
 
-   -   System.ComponentModel.Composition.dll
+   - System.ComponentModel.Composition.dll
 
-   -   System.Windows.Forms.dll
+   - System.Windows.Forms.dll
 
-4. Create a VSIX project in the same solution. To do this, in the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, click **Extensibility**, and then select **VSIX project**.
+4. Create a new **VSIX project** project.
 
-5. In Solution Explorer, right-click the VSIX project and then click **Set as StartUp Project**.
+5. In **Solution Explorer**, right-click the VSIX project and choose **Set as StartUp Project**.
 
 6. In the new project, open **source.extension.vsixmanifest**.
 

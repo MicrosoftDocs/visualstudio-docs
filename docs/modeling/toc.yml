@@ -1,7 +1,7 @@
 - name: Analyze and model your architecture
   href: analyze-and-model-your-architecture.md
   items:
-  - name: What's new for design in Visual Studio
+  - name: What's new for design in Visual Studio 2017
     href: what-s-new-for-design-in-visual-studio.md
   - name: Change your design using visualization and modeling
     href: scenario-change-your-design-using-visualization-and-modeling.md
@@ -73,12 +73,6 @@
       href: add-custom-architecture-validation-to-layer-diagrams.md
     - name: Add custom properties to dependency diagrams
       href: add-custom-properties-to-layer-diagrams.md
-    - name: Navigate and update dependency models in program code
-      href: navigate-and-update-layer-models-in-program-code.md
-    - name: Deploy a dependency model extension
-      href: deploy-a-layer-model-extension.md
-    - name: Troubleshoot extensions for dependency diagrams
-      href: troubleshoot-extensions-for-layer-diagrams.md
   - name: Modeling SDK for Visual Studio - Domain-Specific Languages
     href: modeling-sdk-for-visual-studio-domain-specific-languages.md
     items:
@@ -104,8 +98,6 @@
           href: customizing-text-and-image-fields.md
         - name: Set a Background Image on a Diagram
           href: setting-a-background-image-on-a-diagram.md
-        - name: Nest Shapes
-          href: nesting-shapes.md
         - name: Embed a Diagram in a Windows Form
           href: embedding-a-diagram-in-a-windows-form.md
       - name: Customize Tools and the Toolbox
@@ -114,8 +106,6 @@
         href: customizing-element-creation-and-movement.md
       - name: Customize Copy Behavior
         href: customizing-copy-behavior.md
-      - name: Customize Deletion Behavior
-        href: customizing-deletion-behavior.md
       - name: Customize the Properties Window
         href: customizing-the-properties-window.md
       - name: Customize the Model Explorer
@@ -176,8 +166,6 @@
         href: adding-extensions-to-dsl-definitions.md
       - name: Add a Tracking Property to a Domain-Specific Language Definition
         href: adding-a-tracking-property-to-a-domain-specific-language-definition.md
-      - name: Debug by Using the Store Viewer
-        href: debugging-by-using-the-store-viewer.md
       - name: The DslDefinition.dsl File
         href: the-dsldefinition-dsl-file.md
       - name: Understand the DSL Code
@@ -197,8 +185,6 @@
         href: how-to-intercept-a-click-on-a-shape-or-decorator.md
       - name: Access and Constrain the Current Selection
         href: how-to-access-and-constrain-the-current-selection.md
-      - name: Customize Element Tools
-        href: customizing-element-tools.md
     - name: Respond to and Propagate Changes
       href: responding-to-and-propagating-changes.md
       items:
@@ -210,8 +196,6 @@
         href: rules-propagate-changes-within-the-model.md
       - name: Event Handlers Propagate Changes Outside the Model
         href: event-handlers-propagate-changes-outside-the-model.md
-      - name: BoundsRules Constrain Shape Location and Size
-        href: boundsrules-constrain-shape-location-and-size.md
       - name: Update Shapes and Connectors to Reflect the Model
         href: updating-shapes-and-connectors-to-reflect-the-model.md
     - name: Generate Code from a Domain-Specific Language

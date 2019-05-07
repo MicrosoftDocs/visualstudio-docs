@@ -31,7 +31,7 @@ manager: jillfra
 
 Dump files with or without heaps; create a dump file; open a dump file; find the binaries, pdbs, and source file for a dump file. 
   
-##  <a name="BKMK_Contents"></a> Contents  
+## <a name="BKMK_Contents"></a> Contents  
  [What is a dump file?](#BKMK_What_is_a_dump_file_)  
   
  [Dump files, with or without heaps](#BKMK_Dump_files__with_or_without_heaps)  
@@ -44,14 +44,14 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
  [Find binaries, symbol (.pdb) files, and source files](#BKMK_Find_binaries__symbol___pdb__files__and_source_files)  
   
-##  <a name="BKMK_What_is_a_dump_file_"></a> What is a dump file?  
+## <a name="BKMK_What_is_a_dump_file_"></a> What is a dump file?  
  A *dump file* is a snapshot of an app at the point in time the dump is taken. It shows what process was executing and what modules were loaded. If the dump was saved with heap information, the dump file contains a snapshot of what was in the app's memory at that point in time. Opening a dump file with a heap in Visual Studio is like stopping at a breakpoint in a debug session. Although you cannot continue execution, you can examine the stacks, threads, and variable values of the app at the time the dump occurred.  
   
  Dumps are primarily used for debugging issues that occur on machines that the developer doesn’t have access to. For example, you can use a dump file from a customer's machine when you can’t reproduce the customer's crash or hang on your machine. Dumps are also created by testers to save crash or hang data so that the test machine can be used for more testing. The Visual Studio debugger can save dump files for managed or native code. The debugger can load dump files that were created by Visual Studio or by other programs that save files in the *minidump* format.  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Dump_files__with_or_without_heaps"></a> Dump files, with or without heaps  
+## <a name="BKMK_Dump_files__with_or_without_heaps"></a> Dump files, with or without heaps  
  You can create dump files with or without heap information.  
   
 - **Dump files with heaps** contain a snapshot of the app's memory. This includes the values of variables at the time the dump was created. If you load a dump file that was saved with a heap, Visual Studio can load the symbols even if the application binary is not found. Visual Studio also saves the binaries of loaded native modules in the dump file, which can make debugging much easier.  
@@ -60,7 +60,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations  
+## <a name="BKMK_Requirements_and_limitations"></a> Requirements and limitations  
   
 - Debugging dump files of optimized code can be confusing. For example, compiler inlining of functions can result in unexpected call stacks and other optimizations might change the lifetime of variables.  
   
@@ -72,13 +72,13 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
 - To debug [kernel-mode](http://msdn.microsoft.com/library/windows/hardware/ff551880.aspx) dump files in Visual Studio 2013, download the [Windows 8.1 Version of Debugging Tools for Windows](http://msdn.microsoft.com/windows/hardware/gg463009). See [Kernel Debugging in Visual Studio](http://msdn.microsoft.com/library/windows/hardware/jj149675.aspx).  
   
-- Visual Studio can't debug dump files saved in the older dump format known as a [full user-mode dump](http://msdn.microsoft.com/library/windows/hardware/ff545506.aspx). Note that a full user-mode dump is not the same a dump with heap.  
+- Visual Studio can't debug dump files saved in the older dump format known as a [full user-mode dump](/windows-hardware/drivers/debugger/user-mode-dump-files#full). Note that a full user-mode dump is not the same a dump with heap.  
   
 - To debug with the [SOS.dll (SOS Debugging Extension)](http://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498) in Visual Studio, you must install the Debugging Tools for Windows that is part of the Windows Driver Kit (WDK). See [Windows 8.1 Preview: Download kits, bits, and tools](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx).  
   
   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Create_a_dump_file"></a> Create a dump file  
+## <a name="BKMK_Create_a_dump_file"></a> Create a dump file  
  To create a dump file with Visual Studio:  
   
 - While you are debugging a process in Visual Studio, you can save a dump file when the debugger has stopped at an exception or at a breakpoint. Choose **Save Dump As**, **Debug**. In the **Save Dump As** dialog box, in the **Save as type** list, you can select **Minidump** or **Minidump with Heap** (the default).  
@@ -89,19 +89,19 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
   ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Open_a_dump_file"></a> Open a dump file  
+## <a name="BKMK_Open_a_dump_file"></a> Open a dump file  
   
-1.  In Visual Studio, choose **File**, **Open**, **File**.  
+1. In Visual Studio, choose **File**, **Open**, **File**.  
   
-2.  In the **Open File** dialog box, locate and select the dump file. It will usually have a .dmp extension. Then choose **OK**.  
+2. In the **Open File** dialog box, locate and select the dump file. It will usually have a .dmp extension. Then choose **OK**.  
   
-3.  The **Dump File Summary** window appears. In this window, you can view debugging summary information for the dump file, set the symbol path, start debugging, and copy the summary information to the clipboard.  
+3. The **Dump File Summary** window appears. In this window, you can view debugging summary information for the dump file, set the symbol path, start debugging, and copy the summary information to the clipboard.  
   
      ![Minidump summary page](../debugger/media/dbg-dump-summarypage.png "DBG_DUMP_SummaryPage")  
   
-4.  To start debugging, go to the **Actions** section, and choose either **Debug with Native Only** or **Debug with Mixed**.  
+4. To start debugging, go to the **Actions** section, and choose either **Debug with Native Only** or **Debug with Mixed**.  
   
-##  <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find binaries, symbol (.pdb) files, and source files  
+## <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find binaries, symbol (.pdb) files, and source files  
  To use the full features of Visual Studio to debug a dump file, you need access to:  
   
 - The .exe file for which the dump was taken and other binaries (DLLs, etc.) that were used in the dump process.  

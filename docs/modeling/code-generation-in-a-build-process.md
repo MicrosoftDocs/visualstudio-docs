@@ -22,7 +22,7 @@ There are some differences in what the build tasks can do, depending on which bu
 
 This means that you can't access things like project file names in the same way when you build a text template in MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).
 
-##  <a name="buildserver"></a> Configure your machines
+## <a name="buildserver"></a> Configure your machines
 
 To enable build tasks on your development computer, install Modeling SDK for Visual Studio.
 
@@ -210,7 +210,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 </PropertyGroup>
 ```
 
-##  <a name="parameters"></a> Pass build context data into the templates
+## <a name="parameters"></a> Pass build context data into the templates
 
 You can set parameter values in the project file. For example, you can pass [build](../msbuild/msbuild-properties.md) properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):
 
@@ -244,7 +244,7 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters will have default values.
 
-##  <a name="msbuild"></a> Use project properties in assembly and include directives
+## <a name="msbuild"></a> Use project properties in assembly and include directives
 
 Visual Studio macros like **$(SolutionDir)** don't work in MSBuild. You can use project properties instead.
 

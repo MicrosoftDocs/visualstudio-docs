@@ -29,7 +29,7 @@ To display symbol information such as function names and line numbers, the VSPer
   You can also use both of these methods.
 
 > [!NOTE]
->  If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed on the local computer, a location for the Windows symbol files probably has been specified already. For more information, see [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md). You must still configure VSPerfReport to use the location and server as described later in this topic.
+> If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed on the local computer, a location for the Windows symbol files probably has been specified already. For more information, see [How to: Reference Windows symbol information](../profiling/how-to-reference-windows-symbol-information.md). You must still configure VSPerfReport to use the location and server as described later in this topic.
 
 ## Specify Windows symbol files
 

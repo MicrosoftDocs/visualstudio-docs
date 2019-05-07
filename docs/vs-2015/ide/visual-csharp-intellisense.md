@@ -34,17 +34,17 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
   The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
-###  <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
+### <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
  In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
   
-###  <a name="Keywords"></a> Language Keywords in Completion Lists  
+### <a name="Keywords"></a> Language Keywords in Completion Lists  
  In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](http://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad).  
   
-###  <a name="ExtensionMethods"></a> Extension Methods in Completion Lists  
+### <a name="ExtensionMethods"></a> Extension Methods in Completion Lists  
  In Visual C#, the completion list includes Extension Methods that are in scope.  
   
 > [!NOTE]
->  The completion list does not display all extension methods for <xref:System.String> objects.  
+> The completion list does not display all extension methods for <xref:System.String> objects.  
   
  Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.  
   
@@ -53,23 +53,23 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
  Visual C# filters the completion lists that appear for these items:  
   
--   **Interfaces and base classes.** IntelliSense automatically removes items from the interface and base class completion lists, in both class declaration base and interface lists and constraint lists. For example, enums do not appear in the completion list for base classes, because enums cannot be used for base classes. The completion list of base classes only contains interfaces and namespaces. If you select an item in the list and then type a comma, IntelliSense removes base classes from the completion list because Visual C# does not support multiple inheritance. The same behavior occurs for constraint clauses also.  
+- **Interfaces and base classes.** IntelliSense automatically removes items from the interface and base class completion lists, in both class declaration base and interface lists and constraint lists. For example, enums do not appear in the completion list for base classes, because enums cannot be used for base classes. The completion list of base classes only contains interfaces and namespaces. If you select an item in the list and then type a comma, IntelliSense removes base classes from the completion list because Visual C# does not support multiple inheritance. The same behavior occurs for constraint clauses also.  
   
--   **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as <xref:System.Attribute>.  
+- **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as <xref:System.Attribute>.  
   
--   `as` and `is` operators.  
+- `as` and `is` operators.  
   
--   **Catch clauses.**  
+- **Catch clauses.**  
   
--   **Object Initializers:** Only members that can be initialized will appear in the completion list.  
+- **Object Initializers:** Only members that can be initialized will appear in the completion list.  
   
--   **new keyword**: When you type `new` and then press the SPACEBAR, a completion list appears. An item is automatically selected in the list, based on the context in your code. For example, items are automatically selected in the completion list for declarations and for return statements in methods.  
+- **new keyword**: When you type `new` and then press the SPACEBAR, a completion list appears. An item is automatically selected in the list, based on the context in your code. For example, items are automatically selected in the completion list for declarations and for return statements in methods.  
   
--   **as and is Operators:** A filtered completion list is displayed automatically when you press the SPACEBAR after you have typed the `as` or `is` keyword.  
+- **as and is Operators:** A filtered completion list is displayed automatically when you press the SPACEBAR after you have typed the `as` or `is` keyword.  
   
--   Events: When you type the keyword `event`, the completion list only contains delegate types.  
+- Events: When you type the keyword `event`, the completion list only contains delegate types.  
   
--   Parameter help automatically sorts to the first method overload that matches the parameters as you enter them. If multiple method overloads are available, you can use the up and down arrows to navigate to the next possible overload in the list.  
+- Parameter help automatically sorts to the first method overload that matches the parameters as you enter them. If multiple method overloads are available, you can use the up and down arrows to navigate to the next possible overload in the list.  
   
 ## Most recently used members  
  IntelliSense remembers the members that you have recently selected in the pop-up [List Members](../ide/using-intellisense.md) box for automatic object name completion. The next time you use Member List, the most recently used members are shown at the top. The history of most recently used members is cleared between each session in the IDE.  
@@ -142,12 +142,12 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  ![Generate Event Handler](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")  
   
 > [!NOTE]
->  If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the Code Editor. Otherwise, automatic event hookup is complete at this point.  
+> If a new delegate that is created by IntelliSense references an existing event handler, IntelliSense communicates this information in the tooltip. You can then modify this reference; the text is already selected in the Code Editor. Otherwise, automatic event hookup is complete at this point.  
   
  If you press TAB, IntelliSense stubs out a method with the correct signature and puts the cursor in the body of your event handler.  
   
 > [!NOTE]
->  Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
+> Use the **Navigate Backward** command on the **View** menu (CTRL+-) to go back to the event hookup statement.  
   
  The following task shows how IntelliSense automatically hooks up an event handler named `button1_Click` to an event field named `button1.Click`.  
   

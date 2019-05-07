@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugArrayObject2::HasBaseIndices
 Determines if the array has base indices (lower bounds) defined.
@@ -29,8 +32,8 @@ int HasBaseIndices (
 );
 ```
 
-#### Parameters
- `pfHasBaseIndices`
+## Parameters
+ `pfHasBaseIndices`\
 
  [out] TRUE to specify that the array has base indices (lower bounds); otherwise, FALSE.
 

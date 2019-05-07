@@ -23,7 +23,7 @@ manager: jillfra
 # Porting, Migrating, and Upgrading Visual Studio Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see [Port, Migrate, and Upgrade Visual Studio Projects](https://docs.microsoft.com/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects).
+For the latest documentation on Visual Studio, see [Project migration and upgrade reference for Visual Studio](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects).
 
 When you are considering whether you should move to a newer version of Visual Studio, you can use this document to find out which solutions, projects, files, and other assets that you created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1 will run without modification in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] and [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]. Or, you might have reached this page if you encountered an error message when trying to open a project that isn't supported in the version of Visual Studio you opened it in, or requires an SDK or extension, such as the Azure SDK for .NET.
 
@@ -31,8 +31,8 @@ When you are considering whether you should move to a newer version of Visual St
 
  If you use [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] together with [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)],[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1, you can create and modify projects and files in any of the versions. You can transfer projects and files among the versions as long as you don't add features that are not supported by one of the versions.
 
-##  <a name="project"></a> Projects
- The following list describes support in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] and [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] for projects that were created in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1. You can use this list to help determine whether you can open a project as-is in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)],  [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or Visual Studio 2010 SP1, or whether you have to modify it to ensure compatibility.
+## <a name="project"></a> Projects
+ The following list describes support in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] and [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] for projects that were created in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1. Use this list to help determine whether you can open a project "as is" in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)],  [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or Visual Studio 2010 SP1, or whether you have to modify it to ensure compatibility.
 
 |Type of Project|Compatibility|
 |---------------------|-------------------|
@@ -55,7 +55,7 @@ When you are considering whether you should move to a newer version of Visual St
 |Office 2007 VSTO|If you upgrade the project to target Office 2013 and the .NET Framework 4, you can open this project in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], or Visual Studio 2010 SP1.|
 |Office 2010 VSTO|If the project targets the .NET Framework 4, you can open it in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], and Visual Studio 2010 SP1. All other projects require a one-way upgrade.|
 |Rich Internet Applications|If you upgrade the project, you can open it in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], and Visual Studio 2010 SP1.|
-|SharePoint 2007|This project can't be opened in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. However, if you manually upgrade the project to SharePoint 2010, you can open it in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], and Visual Studio 2010 SP1. For more information about how to upgrade SharePoint 2007, see [Migrating from SharePoint 2007 to SharePoint 2010 for the IT Pro](http://go.microsoft.com/fwlink/?LinkId=238224), [Migrating a 2007 Workflow to Visual Studio & SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=238225), and [SharePoint Enterprise Search Migration Tool for SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=238226).|
+|SharePoint 2007|This project can't be opened in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. However, if you manually upgrade the project to SharePoint 2010, you can open it in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], and Visual Studio 2010 SP1. For more information about how to upgrade SharePoint 2007, see [Migrating from SharePoint 2007 to SharePoint 2010 for the IT Pro](http://go.microsoft.com/fwlink/?LinkId=238224) and [SharePoint Enterprise Search Migration Tool for SharePoint Server 2010](https://docs.microsoft.com/previous-versions/office/developer/sharepoint-2010/ee556856(v%3Doffice.14)).|
 |SharePoint 2010|You can open the project in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], and Visual Studio 2010 SP1.|
 |SketchFlow|If you allow Visual Studio to upgrade the project to WPF 4.5/Silverlight 5, you can open it in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)].|
 |[!INCLUDE[ssKatmai_exp](../includes/sskatmai-exp-md.md)] database|You can open the project in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], and Visual Studio 2010 SP1. If you have a database file (.mdf) that was created in an earlier version of SQL Server, you must upgrade it to [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] before you can use it with SQL Server Express LocalDB, but the database is no longer compatible with earlier versions of SQL Server. If you don’t upgrade, you can continue to work with the database in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] by installing and using [!INCLUDE[ssKatmai_exp](../includes/sskatmai-exp-md.md)] on the same computer. For more information, see [Upgrade .mdf files](../data-tools/upgrade-dot-mdf-files.md).|
@@ -85,7 +85,7 @@ When you are considering whether you should move to a newer version of Visual St
 
 - If you try to open a project for a desktop app in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)], an error occurs and one of these messages is displayed: "This edition of Visual Studio only supports [!INCLUDE[win81](../includes/win81-md.md)] apps" or "This project is incompatible with the current edition of Visual Studio." [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] is restricted to the development, testing, and deployment of Windows Store apps designed for Windows 8.1. To open a desktop app project, you must use an edition of Visual Studio that supports that project type.
 
-   For more information about the Visual Studio editions, see [Microsoft Visual Studio Products](http://go.microsoft.com/fwlink/?LinkId=254332)
+   For more information about the Visual Studio editions, see [Microsoft Visual Studio Products](https://visualstudio.microsoft.com/products/)
 
 - If you try to open a Windows Store App project in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop, an error occurs. [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)] Desktop cannot be used to build Windows Store apps. If you want to build Windows Store apps, you can also install [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]. Or, to develop apps for all Microsoft platforms and the web, try Visual Studio Professional 2013.
 
@@ -95,7 +95,7 @@ When you are considering whether you should move to a newer version of Visual St
 
   For additional troubleshooting information, see the [Visual Studio 2013 Compatibility](http://support.microsoft.com/kb/2863286) KB article.
 
-##  <a name="file"></a> Files
+## <a name="file"></a> Files
  The following list identifies whether [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] supports each type of file, whether you can open the file in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and Visual Studio 2010 SP1, and whether you have to modify it to ensure compatibility.
 
 |Type of File|Compatibility|
@@ -115,7 +115,7 @@ When you are considering whether you should move to a newer version of Visual St
 |IntelliTrace log files from [!INCLUDE[vs2010](../includes/vs2010-md.md)]|You can open these files in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], and Visual Studio 2010 SP1.|
 |JavaScript Memory Analyzer (.diagsession) files|Files created by older versions of Visual Studio can be viewed in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]. However, depending on the information gathered, files created in [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] may not open in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] or Visual Studio 2010 SP1.|
 
-##  <a name="integration"></a> Integration assets
+## <a name="integration"></a> Integration assets
  You might encounter compatibility issues if you use clients and servers from different versions of Visual Studio Team Foundation Server.
 
 |Kind of Integration|Compatibility|
@@ -124,4 +124,5 @@ When you are considering whether you should move to a newer version of Visual St
 |[!INCLUDE[vs_dev11_expwin_long](../includes/vs-dev11-expwin-long-md.md)]|A 64-bit environment such as MSBuild or [!INCLUDE[esprbuild](../includes/esprbuild-md.md)] can't be used to build [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps that are created in [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)].|
 
 ## See Also
- [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md)
+
+- [Making Custom Projects Version-Aware](../misc/making-custom-projects-version-aware.md)

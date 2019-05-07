@@ -16,9 +16,9 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox** provides a collecti
   
  There are two basic ways in which a VSPackage works with the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox**:  
   
--   A VSPackage can add new data items and controls to the **Toolbox**.  
+- A VSPackage can add new data items and controls to the **Toolbox**.  
   
--   A VSPackage can be a target or consumer of existing **Toolbox** functionality, supporting the drag-and-drop operations and configuring the **Toolbox**'s appearance.  
+- A VSPackage can be a target or consumer of existing **Toolbox** functionality, supporting the drag-and-drop operations and configuring the **Toolbox**'s appearance.  
   
 ## In This Section  
  [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md)  

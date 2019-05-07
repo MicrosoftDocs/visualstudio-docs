@@ -51,11 +51,18 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the Node.js development workload.
+* You must have Visual Studio installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+    ::: moniker range=">=vs-2019"
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+    ::: moniker-end
 
-    If you need to install the workload but already have Visual Studio, select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
+
+    ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 
@@ -67,13 +74,17 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 First, create a Node.js web application project.
 
-1. Open Visual Studio 2017.
+1. Open Visual Studio.
 
-1. From the top menu bar, choose **File** > **New** > **Project**.
+1. Create a new project.
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.
-
-     If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Blank Node.js Web Application** (JavaScript). In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
+    ::: moniker-end
+    If you don't see the **Blank Node.js Web Application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
     Visual Studio creates the new solution and opens your project.
 
@@ -307,7 +318,12 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
 1. Select Chrome as the current debug target.
 
+    ::: moniker range=">=vs-2019"
+    ![Select Chrome as debug target](../javascript/media/vs-2019/tutorial-nodejs-react-debug-target.png)
+    ::: moniker-end
+    ::: moniker range="vs-2017"
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
+    ::: moniker-end
 
     If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
@@ -353,6 +369,13 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     This starts Chrome with debugging enabled.
 
+    ::: moniker range=">=vs-2019"
+
+    > [!NOTE]
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview#browser-cli-params-support).
+
+    ::: moniker-end
+
 3. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
@@ -371,7 +394,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
-    You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
+    You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Microsoft Edge.
 
     > [!NOTE]
     > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state.", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.

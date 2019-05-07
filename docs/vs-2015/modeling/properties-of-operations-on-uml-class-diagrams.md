@@ -43,7 +43,6 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
 
  To see the properties of an operation, right-click the operation in the class or interface on the diagram, and then click **Properties**. The properties appear in the **Properties** window.  
 
-
 |      Property       |   Default    |                                                                                                                                                                                 Description                                                                                                                                                                                 |
 |---------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      **Name**       | (a new name) |                                                                                                                                                                Should be unique within the containing type.                                                                                                                                                                 |

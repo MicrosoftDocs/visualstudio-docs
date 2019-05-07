@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortSupplier2::RemovePort
 Removes a port.
@@ -30,8 +33,8 @@ int RemovePort( 
 );
 ```
 
-#### Parameters
- `pPort`
+## Parameters
+ `pPort`\
 
  [in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port to be removed.
 
@@ -41,6 +44,6 @@ int RemovePort( 
 ## Remarks
  This method removes the port from the port supplier's internal list of active ports.
 
-## See Also
+## See also
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

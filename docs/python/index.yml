@@ -5,13 +5,13 @@ metadata:
   title: Python Development with Visual Studio
   titleSuffix: ""
   meta.description: Tutorials and conceptual articles about developing Python apps with Visual Studio.
-  author: kraigb
+  author: JoshuaPartlow
   manager: jillfra
   ms.prod: visual-studio-windows
   ms.technology: vs-python
   ms.topic: landing-page
   ms.date: 12/14/2018
-  ms.author: kraigb
+  ms.author: joshuapa
   dev_langs:
     - Python
 sections:

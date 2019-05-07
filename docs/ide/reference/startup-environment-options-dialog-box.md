@@ -1,6 +1,6 @@
 ---
 title: Startup, Environment, Options Dialog Box
-ms.date: 11/04/2016
+ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Startup, Environment, Options dialog box
+# Options dialog box: Environment \> Startup
 
 ::: moniker range="vs-2017"
 

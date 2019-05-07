@@ -46,7 +46,7 @@ IDebugStackFrame3 : IDebugStackFrame2
  By intercepting an exception, the debugger can allow the user to make changes to the state of the program being debugged and then resume execution at the point where the exception was thrown.  
   
 > [!NOTE]
->  Intercepted exceptions are allowed only in managed code, that is, in a program that is running under the Common Language Runtime (CLR).  
+> Intercepted exceptions are allowed only in managed code, that is, in a program that is running under the Common Language Runtime (CLR).  
   
  A debug engine indicates that it supports intercepting exceptions by setting "metricExceptions" to a value of 1 at run time by using the `SetMetric` function. For more information, see [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md).  
   

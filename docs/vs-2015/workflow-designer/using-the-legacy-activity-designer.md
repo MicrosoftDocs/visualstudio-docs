@@ -29,9 +29,9 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
   
 2. Select the **Activity** or **Activity (with code separation)** template.  
   
-   1.  Use the **Activity** template to create an activity with the activity definition and the user code in same code file.  
+   1. Use the **Activity** template to create an activity with the activity definition and the user code in same code file.  
   
-   2.  Use the **Activity (with code separation)** template to create an activity with the activity definition expressed as workflow markup and the user code in a separate code file.  
+   2. Use the **Activity (with code separation)** template to create an activity with the activity definition expressed as workflow markup and the user code in a separate code file.  
   
 3. Type an activity name or keep the default name, and then click **Add**.  
   

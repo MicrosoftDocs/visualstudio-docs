@@ -1,7 +1,7 @@
 # [Visual Studio for Mac](index.yml)
-# [IDE Tour](/visualstudio/mac/ide-tour/)
+# [IDE Tour](ide-tour.md)
 
-# [Installation](/visualstudio/mac/installation/)
+# [Installation](installation.md)
 ## [Install and use behind a firewall or proxy](install-behind-a-firewall-or-proxy-server.md)
 ## [Install a preview release](install-preview.md)
 ## [Update](update.md)
@@ -13,7 +13,6 @@
 
 # [Customizing the IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
-
 
 # [Projects and Solutions](projects-and-solutions.md)
 ## [Creating new Projects](create-new-projects.md)
@@ -33,7 +32,7 @@
 ## [Block Selection](block-selection.md)
 ## [Editor Themes](editor-themes.md)
 ## [EditorConfig](editorconfig.md)
-## [Common Keyboard Shortcuts](keyboard-shortcuts.md)
+## [Default Keyboard Shortcuts](keyboard-shortcuts.md)
 
 # [Debugging](debugging.md)
 ## [Data Visualizations](data-visualizations.md)
@@ -77,3 +76,5 @@
 # [Troubleshooting](troubleshooting.md)
 ## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)
+## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
+## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)

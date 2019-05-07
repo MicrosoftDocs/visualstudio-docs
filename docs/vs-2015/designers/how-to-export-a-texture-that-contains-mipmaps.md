@@ -17,9 +17,9 @@ The Image Content Pipeline can generate mipmaps from a source image as part of y
   
  This document demonstrates these activities:  
   
--   Configuring the source image to be processed by the Image Content Pipeline.  
+- Configuring the source image to be processed by the Image Content Pipeline.  
   
--   Configuring the Image Content Pipeline to generate mipmaps.  
+- Configuring the Image Content Pipeline to generate mipmaps.  
   
 ## Exporting Mipmaps  
  Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces in a 3D game or app. It enhances the rendering performance of a game or app by pre-computing down-sampled versions of a texture so that the entire texture does not have to be down-sampled each time it is sampled.  

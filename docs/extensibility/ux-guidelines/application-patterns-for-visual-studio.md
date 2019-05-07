@@ -10,7 +10,7 @@ ms.workload:
   - "vssdk"
 ---
 # Application Patterns for Visual Studio
-##  <a name="BKMK_WindowInteractions"></a> Window interactions
+## <a name="BKMK_WindowInteractions"></a> Window interactions
 
 ### Overview
 The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This section covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
@@ -32,37 +32,37 @@ Think carefully about which container type you need. Common usage pattern consid
 | **Instances** | *Multi-instance*<br /><br /> Several editors can be open at the same time and editing different files, while some editors also allow the same file to be open in more than one editor (using the **Window &gt; New Window** command).<br /><br /> A single editor may be editing one or multiple files at the same time (Project Designer). | *Single- or multi-instance*<br /><br /> Contents change to reflect context (as in the Property Browser) or push focus/context to other windows (Task List, Solution Explorer).<br /><br /> Both single-instance and multi-instance tool windows should be associated with the active document window unless there is a compelling reason not to. | *Single-instance* |
 | **Examples** | **Text editors**, like the code editor<br /><br /> **Design surfaces**, like a form designer or a modeling surface<br /><br /> **Control layouts similar to dialogs**, like the Manifest Designer | The **Solution Explorer** provides a solution and projects contained within the solution<br /><br /> The **Server Explorer** provides a hierarchical view of servers and data connections that the user chooses to open in the window. Opening an object from the database hierarchy, like a query, opens a document window and allows the user to edit the query.<br /><br /> The **Property Browser** displays properties for the object selected either in a document window or another tool window. The properties are presented either in a hierarchical grid view or in complex dialog-like controls and allow the user to set the values for those properties. | |
 
-##  <a name="BKMK_ToolWindows"></a> Tool windows
+## <a name="BKMK_ToolWindows"></a> Tool windows
 
 ### Overview
 Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
 
 When considering a new tool window in the IDE, authors should:
 
--   Use task-appropriate existing tool windows and not create new ones with similar functionality. New tool windows should only be created if they offer a significantly different "tool" or functionality that can't be integrated into a similar window, or by turning an existing window into a pivoting hub.
+- Use task-appropriate existing tool windows and not create new ones with similar functionality. New tool windows should only be created if they offer a significantly different "tool" or functionality that can't be integrated into a similar window, or by turning an existing window into a pivoting hub.
 
--   Use a standard command bar, if needed, at the top of the tool window.
+- Use a standard command bar, if needed, at the top of the tool window.
 
--   Be consistent with patterns already present in other tool windows for control presentation and keyboard navigation.
+- Be consistent with patterns already present in other tool windows for control presentation and keyboard navigation.
 
--   Be consistent with control presentation in other tool windows.
+- Be consistent with control presentation in other tool windows.
 
--   Make document-specific tool windows auto-visible when possible, so that they appear only when the parent document is activated.
+- Make document-specific tool windows auto-visible when possible, so that they appear only when the parent document is activated.
 
--   Ensure their window content is navigable by the keyboard (support arrow keys).
+- Ensure their window content is navigable by the keyboard (support arrow keys).
 
 #### Tool window states
 Visual Studio tool windows have different states, some of which are user-activated (like the auto-hide feature). Other states, like auto-visible, allow tool windows to appear in the correct context and hide when not needed. There are five tool window states in total.
 
--   **Docked/pinned** tool windows can be attached to any of the four sides of the document area. The pushpin icon appears in the tool window title bar. The tool window can be docked horizontally or vertically along the edge of the shell and other tool windows, and can also be tab-linked.
+- **Docked/pinned** tool windows can be attached to any of the four sides of the document area. The pushpin icon appears in the tool window title bar. The tool window can be docked horizontally or vertically along the edge of the shell and other tool windows, and can also be tab-linked.
 
--   **Auto-hidden** tool windows are unpinned. The window can slide out of sight, leaving a tab (with the name of the tool window and its icon) on the edge of the document area. The tool window slides out when a user hovers over the tab.
+- **Auto-hidden** tool windows are unpinned. The window can slide out of sight, leaving a tab (with the name of the tool window and its icon) on the edge of the document area. The tool window slides out when a user hovers over the tab.
 
--   **Auto-visible** tool windows automatically appear when another piece of UI, like an editor, is launched or gains focus.
+- **Auto-visible** tool windows automatically appear when another piece of UI, like an editor, is launched or gains focus.
 
--   **Floating** tool windows hover outside the IDE. This is useful for multi-monitor configurations.
+- **Floating** tool windows hover outside the IDE. This is useful for multi-monitor configurations.
 
--   **Tabbed document** tool windows can be docked within the document well. This is useful for large tool windows, like the Object Browser, that need more real estate than docking to the edges of the frame allows.
+- **Tabbed document** tool windows can be docked within the document well. This is useful for large tool windows, like the Object Browser, that need more real estate than docking to the edges of the frame allows.
 
 ![Tool window states in Visual Studio](../../extensibility/ux-guidelines/media/0702-01_toolwindowstates.png "0702-01_ToolWindowStates")<br />Tool window states in Visual Studio
 
@@ -157,7 +157,7 @@ Examples of navigable list tool windows are the Solution Explorer and the Find R
 | Registers ||
 | Threads ||
 
-##  <a name="BKMK_DocumentEditorConventions"></a> Document editor conventions
+## <a name="BKMK_DocumentEditorConventions"></a> Document editor conventions
 
 ### Document interactions
 The "document well" is the largest space within the IDE and is where the user generally has focused their attention in order to complete their tasks, assisted by supplemental tool windows. Document editors represent the fundamental units of work that the user opens and saves within Visual Studio. They retain a strong sense of selection tied to Solution Explorer or other active hierarchy windows. The user should be able to point to one of those hierarchy windows and know where the document is contained and its relationship to either the solution, the project, or another root object provided by a Visual Studio package.
@@ -166,117 +166,117 @@ Document editing requires a consistent user experience. To allow the user to foc
 
 #### Common interactions for the document well
 
--   Maintain a consistent interaction model in the common **New File** and **Open File** experiences.
+- Maintain a consistent interaction model in the common **New File** and **Open File** experiences.
 
--   Update related functionality in related windows and menus when the document window opens.
+- Update related functionality in related windows and menus when the document window opens.
 
--   Menu commands are appropriately integrated into common menus like **Edit**, **Format**, and **View** menus. If a substantial amount of specialized commands are available, then a new menu can be created. This new menu should be visible only when the document has focus.
+- Menu commands are appropriately integrated into common menus like **Edit**, **Format**, and **View** menus. If a substantial amount of specialized commands are available, then a new menu can be created. This new menu should be visible only when the document has focus.
 
--   An embedded toolbar may be placed at the top of the editor. This is preferable to having a separate toolbar that appears outside the editor.
+- An embedded toolbar may be placed at the top of the editor. This is preferable to having a separate toolbar that appears outside the editor.
 
--   Always maintain a selection in the Solution Explorer or similar active hierarchy window.
+- Always maintain a selection in the Solution Explorer or similar active hierarchy window.
 
--   Double-clicking a document in the Solution Explorer should perform the same action as **Open**.
+- Double-clicking a document in the Solution Explorer should perform the same action as **Open**.
 
--   If more than one editor can be used on a document type, the user should be able to override or reset the default action on a given document type using the **Open With** dialog box by right-clicking on the file and selecting **Open With** from the shortcut menu.
+- If more than one editor can be used on a document type, the user should be able to override or reset the default action on a given document type using the **Open With** dialog box by right-clicking on the file and selecting **Open With** from the shortcut menu.
 
--   Don't build a wizard in a document well.
+- Don't build a wizard in a document well.
 
 ### User expectations for specific document types
 There are several different basic types of document editors and each has a set of interactions that are consistent with others of the same type.
 
--   **Text-based editor:** code editor, log files
+- **Text-based editor:** code editor, log files
 
--   **Design surface:** WPF forms designer, Windows forms
+- **Design surface:** WPF forms designer, Windows forms
 
--   **Dialog-style editor:** Manifest Designer, project properties
+- **Dialog-style editor:** Manifest Designer, project properties
 
--   **Model designer:** workflow designer, codemap, architecture diagram, progression
+- **Model designer:** workflow designer, codemap, architecture diagram, progression
 
 There are also several non-editor types that use the document well. While they don't edit documents themselves, they do need to follow standard interactions for document windows.
 
--   **Reports:** IntelliTrace report, Hyper-V report, profiler report
+- **Reports:** IntelliTrace report, Hyper-V report, profiler report
 
--   **Dashboard:** Diagnostics Hub
+- **Dashboard:** Diagnostics Hub
 
 #### Text-based editors
 
--   The document participates in the preview tab model, allowing for previewing the document without opening it.
+- The document participates in the preview tab model, allowing for previewing the document without opening it.
 
--   The structure of the document may be represented within a companion tool window, such as a document outline.
+- The structure of the document may be represented within a companion tool window, such as a document outline.
 
--   IntelliSense (if appropriate) will behave consistently with other code editors.
+- IntelliSense (if appropriate) will behave consistently with other code editors.
 
--   Pop-ups or assistive UI follow similar styles and patterns for existing similar UI, such as CodeLens.
+- Pop-ups or assistive UI follow similar styles and patterns for existing similar UI, such as CodeLens.
 
--   Messages regarding document status will be presented in an infobar control at the top of the document or in the status bar.
+- Messages regarding document status will be presented in an infobar control at the top of the document or in the status bar.
 
--   The user must be able to customize the appearance of fonts and colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
+- The user must be able to customize the appearance of fonts and colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
 
 #### Design surfaces
 
--   An empty designer should have a watermark on the surface indicating how to get started.
+- An empty designer should have a watermark on the surface indicating how to get started.
 
--   View-switching mechanisms will follow existing patterns such as double-click to open a code editor, or tabs within the document window allowing interaction with both panes.
+- View-switching mechanisms will follow existing patterns such as double-click to open a code editor, or tabs within the document window allowing interaction with both panes.
 
--   Adding elements to the design surface should be done via the Toolbox, unless a highly specific tool window is required.
+- Adding elements to the design surface should be done via the Toolbox, unless a highly specific tool window is required.
 
--   Items on the surface will follow a consistent selection model.
+- Items on the surface will follow a consistent selection model.
 
--   Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
+- Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
 
 #### Dialog-style editors
 
--   Control layout should follow normal dialog layout conventions.
+- Control layout should follow normal dialog layout conventions.
 
--   Tabs within the editor should not match the appearance of the document tabs, they should match one of the two allowed interior tab styles.
+- Tabs within the editor should not match the appearance of the document tabs, they should match one of the two allowed interior tab styles.
 
--   Users must be able to interact with the controls using keyboard only; either by activating the editor and tabbing through controls or by using standard mnemonics.
+- Users must be able to interact with the controls using keyboard only; either by activating the editor and tabbing through controls or by using standard mnemonics.
 
--   The designer should use the common Save model. No overall Save or commit buttons should be placed on the surface, although other buttons may be appropriate.
+- The designer should use the common Save model. No overall Save or commit buttons should be placed on the surface, although other buttons may be appropriate.
 
 #### Model designers
 
--   An empty designer should have a watermark on the surface indicating how to get started.
+- An empty designer should have a watermark on the surface indicating how to get started.
 
--   Adding elements to the design surface should be done via the Toolbox.
+- Adding elements to the design surface should be done via the Toolbox.
 
--   Items on the surface will follow a consistent selection model.
+- Items on the surface will follow a consistent selection model.
 
--   Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
+- Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
 
--   A legend may appear on the surface, either indicative or a watermark.
+- A legend may appear on the surface, either indicative or a watermark.
 
--   The user must be able to customize the appearance of the fonts/colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
+- The user must be able to customize the appearance of the fonts/colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
 
 #### Reports
 
--   Reports are typically information-only and don't participate in the Save model. However, they may include interaction such as links to other relevant information or sections that expand and collapse.
+- Reports are typically information-only and don't participate in the Save model. However, they may include interaction such as links to other relevant information or sections that expand and collapse.
 
--   Most commands on the surface should be hyperlinks, not buttons.
+- Most commands on the surface should be hyperlinks, not buttons.
 
--   Layout should include a header and follow the standard report layout guidelines.
+- Layout should include a header and follow the standard report layout guidelines.
 
 #### Dashboards
 
--   Dashboards don't have an interaction model themselves, but serve as a means to offer a variety of other tools.
+- Dashboards don't have an interaction model themselves, but serve as a means to offer a variety of other tools.
 
--   They do not participate in the Save model.
+- They do not participate in the Save model.
 
--   Users must be able to interact with the controls using keyboard only, either by activating the editor and tabbing through controls or by using standard mnemonics.
+- Users must be able to interact with the controls using keyboard only, either by activating the editor and tabbing through controls or by using standard mnemonics.
 
-##  <a name="BKMK_Dialogs"></a> Dialogs
+## <a name="BKMK_Dialogs"></a> Dialogs
 
 ### Introduction
 Dialogs in Visual Studio should typically support one discrete unit of the user's work and then be dismissed.
 
 If you have determined that you need a dialog, you have three choices, in order of preference:
 
-1.  Integrate your features into one of the shared dialogs in Visual Studio.
+1. Integrate your features into one of the shared dialogs in Visual Studio.
 
-2.  Create your own dialog using a pattern found in an existing similar dialog.
+2. Create your own dialog using a pattern found in an existing similar dialog.
 
-3.  Create a new dialog, following interaction and layout guidelines.
+3. Create a new dialog, following interaction and layout guidelines.
 
 This section describes how to choose the correct dialog pattern within Visual Studio workflows and the common conventions for dialog design.
 
@@ -289,44 +289,44 @@ The majority of dialogs are standard utility dialogs and should be unthemed. Do 
 #### Themed
 Specialty "signature" dialogs may be themed. Themed dialogs have a distinct appearance, which also has some special interaction patterns associated with the style. Theme your dialog only if it meets these requirements:
 
--   The dialog is a common experience that will be seen and used often or by many users (for example, the **New Project** dialog.
+- The dialog is a common experience that will be seen and used often or by many users (for example, the **New Project** dialog.
 
--   The dialog contains prominent product brand elements (for example, the **Account Settings** dialog).
+- The dialog contains prominent product brand elements (for example, the **Account Settings** dialog).
 
--   The dialog appears as an integral part of a larger flow that includes other themed dialogs (for example, the **Add Connected Service** dialog).
+- The dialog appears as an integral part of a larger flow that includes other themed dialogs (for example, the **Add Connected Service** dialog).
 
--   The dialog is an important part of an experience that plays a strategic role in promoting or differentiating a product version.
+- The dialog is an important part of an experience that plays a strategic role in promoting or differentiating a product version.
 
 When creating a themed dialog, use the appropriate environment colors and follow the correct layout and interaction patterns. (See [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md).)
 
 ### Dialog design
 Well-designed dialogs take the following elements into consideration:
 
--   The user task being supported
+- The user task being supported
 
--   The dialog text style, language, and terminology
+- The dialog text style, language, and terminology
 
--   Control choice and UI conventions
+- Control choice and UI conventions
 
--   Visual layout specification and control alignment
+- Visual layout specification and control alignment
 
--   Keyboard access
+- Keyboard access
 
 #### Content organization
 Consider the differences between these basic types of dialogs:
 
--   [Simple dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_SimpleDialogs) present controls in a single modal window. The presentation might include variations of complex control patterns, including a field picker or an icon bar.
+- [Simple dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_SimpleDialogs) present controls in a single modal window. The presentation might include variations of complex control patterns, including a field picker or an icon bar.
 
--   [Layered dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_LayeredDialogs) are used to make the most of screen real estate when a single piece of UI comprises multiple groups of controls. The dialog's groupings are "layered" through tab controls, navigation list controls, or buttons so that the user can choose which grouping to see at any given moment.
+- [Layered dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_LayeredDialogs) are used to make the most of screen real estate when a single piece of UI comprises multiple groups of controls. The dialog's groupings are "layered" through tab controls, navigation list controls, or buttons so that the user can choose which grouping to see at any given moment.
 
--   [Wizards](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Wizards) are useful for directing the user through a logical sequence of steps toward the completion of a task. A series of choices are offered in sequential panels, sometimes introducing different workflows ("branches") dependent on a choice made in the previous panel.
+- [Wizards](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Wizards) are useful for directing the user through a logical sequence of steps toward the completion of a task. A series of choices are offered in sequential panels, sometimes introducing different workflows ("branches") dependent on a choice made in the previous panel.
 
-####  <a name="BKMK_SimpleDialogs"></a> Simple dialogs
+#### <a name="BKMK_SimpleDialogs"></a> Simple dialogs
 A simple dialog is a presentation of controls in a single modal window. This presentation might include variations of complex control patterns, such as a field picker. For simple dialogs, follow the standard general layout as well as any specific layout required for complex control groupings.
 
 ![>Create Strong Name Key is an example of a simple dialog in Visual Studio.](../../extensibility/ux-guidelines/media/0704-01_createstrongnamekey.png "0704-01_CreateStrongNameKey")<br />Create Strong Name Key is an example of a simple dialog in Visual Studio.
 
-####  <a name="BKMK_LayeredDialogs"></a> Layered dialogs
+#### <a name="BKMK_LayeredDialogs"></a> Layered dialogs
 Layered dialogs include tabs, dashboards, and embedded trees. They are used to maximize real estate when there are multiple groups of controls offered in a single piece of UI. The groupings are layered so that the user can choose which grouping to see at any one time.
 
 In the most straightforward case, the mechanism for switching between groupings is a tab control. There are several alternatives available. See Prioritizing and layering for how to choose the most appropriate style.
@@ -335,18 +335,18 @@ The **Tools &gt; Options** dialog is an example of a layered dialog using an emb
 
 ![Tools > Options is an example of a layered dialog in Visual Studio.](../../extensibility/ux-guidelines/media/0704-02_toolsoptions.png "0704-02_ToolsOptions")<br />Tools > Options is an example of a layered dialog in Visual Studio.
 
-####  <a name="BKMK_Wizards"></a> Wizards
+#### <a name="BKMK_Wizards"></a> Wizards
 Wizards are useful for directing the user through a logical sequence of steps in the completion of a task. A series of choices are offered in sequential panels, and the user must continue through each step before proceeding to the next. Once sufficient defaults are available, the **Finish** button is enabled.
 
  Modal wizards are used for tasks that:
 
--   Contain branching, where different paths are offered depending on user choices
+- Contain branching, where different paths are offered depending on user choices
 
--   Contain dependencies between steps, where subsequent steps depend on user input from the preceding step(s)
+- Contain dependencies between steps, where subsequent steps depend on user input from the preceding step(s)
 
--   Are sufficiently complex that the UI should be used to explain the choices offered and the possible outcomes in each step
+- Are sufficiently complex that the UI should be used to explain the choices offered and the possible outcomes in each step
 
--   Are transactional, requiring a set of steps to be completed in its entirety before any changes are committed
+- Are transactional, requiring a set of steps to be completed in its entirety before any changes are committed
 
 ### Common conventions
 To achieve optimal design and functionality with your dialogs, follow these conventions on dialog size, position, standards, control configuration and alignment, UI text, title bars, control buttons, and access keys.
@@ -358,9 +358,9 @@ Dialogs should fit within a minimum 1024x768 screen resolution, and initial dial
 
 There are two recommendations for resizable dialogs:
 
-1.  That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
+1. That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
 
-2.  That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
+2. That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
 
 #### Position
 Dialogs must appear centered within the IDE on first launch. The last position of non-resizable dialogs doesn't need to be persisted, so they will appear centered on subsequent launches.
@@ -398,9 +398,9 @@ In general, **OK**, **Cancel**, and **Help** buttons should be arranged horizont
 
 The dialog must include a default control button. To determine the best command to use as the default, choose from the following options (listed in order of precedence):
 
--   Choose the safest and most secure command as the default. This means choosing the command most likely to prevent data loss and avoid unintended system access.
+- Choose the safest and most secure command as the default. This means choosing the command most likely to prevent data loss and avoid unintended system access.
 
--   If data loss and security aren't factors, then choose the default command based on convenience. Including the most likely command as the default will improve the user's workflow when the dialog supports frequent or repetitive tasks.
+- If data loss and security aren't factors, then choose the default command based on convenience. Including the most likely command as the default will improve the user's workflow when the dialog supports frequent or repetitive tasks.
 
 Avoid choosing a permanently destructive action for the default command. If such a command is present, choose a safer command as the default instead.
 
@@ -416,7 +416,7 @@ Do not use access keys for **OK**, **Cancel**, or **Help** buttons. These button
 #### Imagery
 Use images sparingly in dialogs. Don't use large icons in dialogs merely to use up space. Use images only if they are an important part of conveying the message to the user, like warning icons or status animations.
 
-###  <a name="BKMK_PrioritizingAndLayering"></a> Prioritizing and layering
+### <a name="BKMK_PrioritizingAndLayering"></a> Prioritizing and layering
 
 #### Prioritizing your UI
 It might be necessary to bring certain UI elements to the forefront and place more advanced behavior and options (including obscure commands) into dialogs. Bring commonly used functionality to the forefront by making room for it, and by making it visible by default in the UI with a text label when the dialog is shown.
@@ -445,49 +445,49 @@ Alternatively, a UI that offers all available functionality in a single collecti
 ##### Adaptive UI
 Showing or hiding UI based on usage or a user's self-reported experience is another way of presenting necessary UI while hiding other portions. This is not recommended in Visual Studio, as the algorithms for deciding when to show or hide UI can be tricky, and the rules will always be wrong for some set of cases.
 
-##  <a name="BKMK_Projects"></a> Projects
+## <a name="BKMK_Projects"></a> Projects
 
 ### Projects in the Solution Explorer
 Most projects are classified as reference-based, directory-based, or mixed. All three types of projects are supported simultaneously in the Solution Explorer. The root of the user experience in working with projects takes place inside this window. Although different project nodes are reference, directory, or mixed-mode type projects, there is a common interaction pattern that should be applied as a starting point before diverging into project-specific user patterns.
 
 Projects should always:
 
--   Support the ability to add project folders to organize project contents
+- Support the ability to add project folders to organize project contents
 
--   Maintain a consistent model for project persistence
+- Maintain a consistent model for project persistence
 
 Projects should also maintain consistent interaction models for:
 
--   Removing project items
+- Removing project items
 
--   Saving documents
+- Saving documents
 
--   Project property editing
+- Project property editing
 
--   Editing the project in an alternate view
+- Editing the project in an alternate view
 
--   Drag-and-drop operations
+- Drag-and-drop operations
 
 ### Drag-and-drop interaction model
 Projects typically classify themselves as reference-based (able to persist only references to project items in storage), directory-based (able to persist only project items physically stored within a project's hierarchy), or mixed (able to persist references or physical items). The IDE accommodates all three types of projects simultaneously within the **Solution Explorer**.
 
 From a drag-and-drop perspective, the following characteristics should apply to each type of project within the **Solution Explorer**:
 
--   **Reference-based project:** The key point is that the project is dragging around a reference to an item in storage. When a reference-based project acts as a source for a move operation, it should only remove the reference to the item from the project. The item should not actually be deleted from the hard drive. When a reference-based project acts as a target for a move (or copy) operation, it should add a reference to the original source item without making a private copy of the item.
+- **Reference-based project:** The key point is that the project is dragging around a reference to an item in storage. When a reference-based project acts as a source for a move operation, it should only remove the reference to the item from the project. The item should not actually be deleted from the hard drive. When a reference-based project acts as a target for a move (or copy) operation, it should add a reference to the original source item without making a private copy of the item.
 
--   **Directory-based project:** From a drag-and-drop point of view, the project is dragging around the physical item rather than a reference. When a directory-based project acts as a source for a move operation, it should end up deleting the physical item from the hard drive as well as removing it from the project. When a directory-based project acts as a target for a move (or copy) operation, it should make a copy of the source item in its target location.
+- **Directory-based project:** From a drag-and-drop point of view, the project is dragging around the physical item rather than a reference. When a directory-based project acts as a source for a move operation, it should end up deleting the physical item from the hard drive as well as removing it from the project. When a directory-based project acts as a target for a move (or copy) operation, it should make a copy of the source item in its target location.
 
--   **Mixed-target project:** From a drag-and-drop point of view, the behavior of this type of project is based on the nature of the item being dragged (either a reference to an item in storage or the item itself). The correct behavior for references and physical items are described above.
+- **Mixed-target project:** From a drag-and-drop point of view, the behavior of this type of project is based on the nature of the item being dragged (either a reference to an item in storage or the item itself). The correct behavior for references and physical items are described above.
 
 If there were only one type of project in the **Solution Explorer**, then drag-and-drop operations would be straightforward. Because each project system has the ability to define its own drag-and-drop behavior, certain guidelines (based on the Windows Explorer drag-and-drop behavior) should be followed to ensure a predictable user experience:
 
--   An unmodified drag operation in the **Solution Explorer** (when neither Ctrl nor Shift keys are held down) should result in a move operation.
+- An unmodified drag operation in the **Solution Explorer** (when neither Ctrl nor Shift keys are held down) should result in a move operation.
 
--   Shift-drag operation should also result in a move operation.
+- Shift-drag operation should also result in a move operation.
 
--   Ctrl-drag operation should result in a copy operation.
+- Ctrl-drag operation should result in a copy operation.
 
--   Reference-based and mixed project systems support the notion of adding a link (or reference) to the source item. When these projects are the target of a drag-and-drop operation (when **Ctrl + Shift** is held down), it should result in a reference to the item being added to the project
+- Reference-based and mixed project systems support the notion of adding a link (or reference) to the source item. When these projects are the target of a drag-and-drop operation (when **Ctrl + Shift** is held down), it should result in a reference to the item being added to the project
 
 Not all drag-and-drop operations are sensible across combinations of reference-based, directory-based, and mixed projects. In particular, it is problematic to pretend to allow a move operation between a directory-based source project and reference-based target project because the source directory-based project will have to delete the source item upon completion of the move. The target reference-based project would then end up with a reference to a deleted item.
 
@@ -541,7 +541,6 @@ The user should always be able to determine the effect of a drag-and-drop operat
 
 #### Directory-based projects
 The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for directory-based target projects:
-
 
 | Modifier | Category | Source item: Reference/Link | Source item: Physical item or file system (`CF_HDROP`) |
 |-----------------|----------| - | - |
@@ -598,21 +597,21 @@ The following table summarizes the drag-and-drop (as well as cut/copy/paste) ope
 
 These details should be taken into consideration when implementing dragging in the **Solution Explorer**:
 
--   Design for multiple selection scenarios.
+- Design for multiple selection scenarios.
 
--   File names (full path) must be unique across the target project or the drop should not be allowed.
+- File names (full path) must be unique across the target project or the drop should not be allowed.
 
--   Folder names must be unique (case-insensitive) at the level they are being dropped.
+- Folder names must be unique (case-insensitive) at the level they are being dropped.
 
--   There are behavior differences between files that are open or closed at time of drag (not mentioned in scenarios above).
+- There are behavior differences between files that are open or closed at time of drag (not mentioned in scenarios above).
 
--   Top-level files behave slightly differently than files in folders.
+- Top-level files behave slightly differently than files in folders.
 
 Another issue to be aware of is how to handle move operations on items that have open designers or editors. The expected behavior is as follows (this applies to all project types):
 
-1.  If the open editor/designer does not have any unsaved changes, then the editor/designer window should be silently closed.
+1. If the open editor/designer does not have any unsaved changes, then the editor/designer window should be silently closed.
 
-2.  If the open editor/designer does have unsaved changes, then the source of the drag should wait for the drop to occur and then ask the user to save the uncommitted changes in the open documents before closing the window with a prompt similar to the following:
+2. If the open editor/designer does have unsaved changes, then the source of the drag should wait for the drop to occur and then ask the user to save the uncommitted changes in the open documents before closing the window with a prompt similar to the following:
 
     ```
     ==========================================================

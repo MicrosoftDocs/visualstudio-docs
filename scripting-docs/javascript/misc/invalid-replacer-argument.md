@@ -21,7 +21,7 @@ An attempt has been made to invoke `JSON.stringify` with an argument that is not
   
 ### To correct this error  
   
--   Change the `replacer` argument to a function or an array.  
+- Change the `replacer` argument to a function or an array.  
   
 ## Example  
  The code in this example causes a runtime error because `memberfilter` is an object instead of a function or array.  

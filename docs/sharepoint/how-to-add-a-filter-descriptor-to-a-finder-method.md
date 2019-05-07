@@ -23,25 +23,25 @@ ms.workload:
 
 ### To add a filter descriptor to a Finder method
 
-1.  In the **BDC Method Details** window, expand the node of a Finder method, expand the **Parameters** node, and then add an input parameter. For more information, see [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md).
+1. In the **BDC Method Details** window, expand the node of a Finder method, expand the **Parameters** node, and then add an input parameter. For more information, see [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md).
 
-2.  In the **Method Details** window, choose the type descriptor of the parameter.
+2. In the **Method Details** window, choose the type descriptor of the parameter.
 
-3.  On the menu bar, choose **View** > **Properties Window**.
+3. On the menu bar, choose **View** > **Properties Window**.
 
-4.  In the **Properties** window, set the **Type Name** property to a data type that is appropriate for the filter.
+4. In the **Properties** window, set the **Type Name** property to a data type that is appropriate for the filter.
 
      For example, a filter might use an order date to limit the number of sales orders returned by the method. To support that filter, the **Type Name** property of the type descriptor must be set to **System.DateTime**.
 
-5.  In the **Method Details** window, expand the **Filter Descriptors** node.
+5. In the **Method Details** window, expand the **Filter Descriptors** node.
 
-6.  In **Add a Filter Descriptor** list, choose **Create Filter Descriptor**.
+6. In **Add a Filter Descriptor** list, choose **Create Filter Descriptor**.
 
      A new filter descriptor appears underneath the **Filter Descriptors** node.
 
-7.  On the menu bar, choose **View** > **Properties Window**.
+7. On the menu bar, choose **View** > **Properties Window**.
 
-8.  In the **Properties** window, choose the **Type** property.
+8. In the **Properties** window, choose the **Type** property.
 
 9. In the list that appears for the **Type** property, choose the filtering pattern that you want.
 
@@ -56,7 +56,7 @@ ms.workload:
      The following example returns sales orders that have the specified order date.
 
     > [!NOTE]
-    >  Replace the value of the `ServerName` field with the name of your server.
+    > Replace the value of the `ServerName` field with the name of your server.
 
      [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
      [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]

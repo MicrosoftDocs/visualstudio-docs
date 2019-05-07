@@ -41,17 +41,17 @@ An exception is an indication of an error state that occurs while a program is b
   
  When an exception occurs, the debugger writes an exception message to the Output window. It may break execution in the following cases:  
   
--   when an exception is thrown and is not handled.  
+- when an exception is thrown and is not handled.  
   
--   when the debugger is set to break execution immediately when an exception is thrown, before any handler is invoked.  
+- when the debugger is set to break execution immediately when an exception is thrown, before any handler is invoked.  
   
--   if you have set [Just My Code](../debugger/just-my-code.md), and the debugger is set to break on any exception that is not handled in user code.  
-  
-> [!NOTE]
->  ASP.NET has a top-level exception handler that shows error pages in a browser. It does not break execution unless **Just My Code** is turned on. For an example, see [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) below.  
+- if you have set [Just My Code](../debugger/just-my-code.md), and the debugger is set to break on any exception that is not handled in user code.  
   
 > [!NOTE]
->  In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error–style error handlers.  
+> ASP.NET has a top-level exception handler that shows error pages in a browser. It does not break execution unless **Just My Code** is turned on. For an example, see [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) below.  
+  
+> [!NOTE]
+> In a Visual Basic application, the debugger manages all errors as exceptions, even if you use On Error–style error handlers.  
   
 ## Managing Exceptions with the Exception Settings Window  
  You can use the **Exception Settings** window to specify which exceptions (or sets of exceptions) will cause the debugger to break, and at which point you want it to break. You can add or delete exceptions, or specify exceptions to break on. Open this window when a solution is open by clicking **Debug / Windows / Exception Settings**.  
@@ -135,7 +135,7 @@ An exception is an indication of an error state that occurs while a program is b
   
    ![Restore defaults in Exception Settings](../debugger/media/restoredefaultexceptions.png "RestoreDefaultExceptions")  
   
-###  <a name="BKMK_UserUnhandled"></a> Setting the debugger to continue on user-unhandled exceptions  
+### <a name="BKMK_UserUnhandled"></a> Setting the debugger to continue on user-unhandled exceptions  
  If you are debugging .NET or JavaScript code with [Just My Code](../debugger/just-my-code.md), you can tell the debugger not to break on exceptions that are not handled in user code but are handled somewhere else.  
   
 1. In the **Exception Settings** window, open the context menu by right-clicking in window and then selecting **Show Columns**. (If you have turned off **Just My Code**, you will not see this command.)  
@@ -156,7 +156,7 @@ An exception is an indication of an error state that occurs while a program is b
  If you want to add an exception to the GPU Memory Access Exceptions, JavaScript Runtime Exceptions, or Win32 Exceptions categories, you need to include the error code as well as the description.  
   
 > [!TIP]
->  Check your spelling! The **Exception Settings** window doesn’t check for the existence of an added exception. So if you type **Sytem.UriTemplateMatchException**, you’ll get an entry for that exception (and not for **System.UriTemplateMatchException**).  
+> Check your spelling! The **Exception Settings** window doesn’t check for the existence of an added exception. So if you type **Sytem.UriTemplateMatchException**, you’ll get an entry for that exception (and not for **System.UriTemplateMatchException**).  
   
  Exception settings are persisted in the solution’s .suo file, so they apply to a particular solution. You can’t reuse specific exception settings across solutions. At this point, only added exceptions are persisted; deleted exceptions are not. In other words, you can add an exception, close and reopen the solution, and the exception will still be there. But if you delete an exception and close/reopen the solution, the exception will reappear.  
   

@@ -15,7 +15,6 @@ manager: jillfra
 # Startup, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use this page to customize the Visual Studio start page or set a different default action when Visual Studio starts up. For more information, see [Customizing the Start Page](../../ide/customizing-the-start-page-for-visual-studio.md).  
   
 ## See Also  

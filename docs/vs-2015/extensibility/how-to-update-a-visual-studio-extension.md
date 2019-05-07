@@ -24,37 +24,37 @@ You can update a Visual Studio extension on your system by using **Extensions an
 
 ### To update an extension on your system
 
-1.  On the **Tools** menu, click **Extensions and Updates**.
+1. On the **Tools** menu, click **Extensions and Updates**.
 
-2.  In the left pane, click **Updates**.
+2. In the left pane, click **Updates**.
 
-3.  In the middle pane, click the update you want to install.
+3. In the middle pane, click the update you want to install.
 
      The version number of the updated extension is displayed in the right pane, together with other information.
 
-4.  At the bottom of the right pane, click **Update**.
+4. At the bottom of the right pane, click **Update**.
 
 ### To publish an update of an extension
 
-1.  In Visual Studio, open the solution for the extension you want to update. Make the changes.
+1. In Visual Studio, open the solution for the extension you want to update. Make the changes.
 
     > [!IMPORTANT]
-    >  Unsigned all user extensions do not get updated automatically. You should always sign your extensions.
+    > Unsigned all user extensions do not get updated automatically. You should always sign your extensions.
 
-2.  In **Solution Explorer**, open source.extension.manifest.
+2. In **Solution Explorer**, open source.extension.manifest.
 
-3.  In the manifest designer, increase the value of the number in the **Version** field.
+3. In the manifest designer, increase the value of the number in the **Version** field.
 
-4.  Save the solution and build it.
+4. Save the solution and build it.
 
-5.  Upload the new .vsix file (in the \bin\Debug\ folder of the project) to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.
+5. Upload the new .vsix file (in the \bin\Debug\ folder of the project) to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) Web site.
 
      When a user who has an earlier version of the extension opens **Extensions and Updates**, the new version will appear in the **Updates** list, provided that the tool is set to automatically look for updates.
 
      You can enable or disable automatic checking for updates at the bottom of the **Updates** pane (**Enable/disable automatic detection of available updates**), which changes the **Check for updates** setting in **Tools / Options / Environment / Extensions and Updates**.
 
     > [!NOTE]
-    >  Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
+    > Starting in Visual Studio 2015 Update 2, you can specify (in **Tools / Options / Environment / Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
 
 ## See Also
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)

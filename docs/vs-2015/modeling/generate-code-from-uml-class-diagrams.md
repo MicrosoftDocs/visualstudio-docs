@@ -47,11 +47,11 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
 2. On a class diagram or in **UML Model Explorer**, select elements from which you want to generate code. You can select one of the following:  
 
-   -   A specific set of elements.  
+   - A specific set of elements.  
 
-   -   A package or the model, to generate code from its contents.  
+   - A package or the model, to generate code from its contents.  
 
-   -   The diagram, to select all the elements on the diagram.  
+   - The diagram, to select all the elements on the diagram.  
 
 3. Open the shortcut menu for a selected element, and then choose **Generate Code**.  
 
@@ -65,7 +65,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
    Some validation tests are applied to the model to ensure that it can be translated to C#. If these tests fail, an error message is displayed and code generation is not performed. If you have created a validation menu command, code is not generated for any element for which your validation command fails. For more information, see [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md).  
 
-##  <a name="default"></a> Default Code Generation Transforms  
+## <a name="default"></a> Default Code Generation Transforms  
  This section summarizes the results that are produced by the **Generate Code** command, unless you customize the command. For more information, see [Customizing the Generate Code Command](#custom).  
 
 - One C# type is produced for each type that you have selected in the UML model. Each type is placed in a separate code file under the **GeneratedCode** folder.  
@@ -95,7 +95,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 2. In the **Properties** window, choose the drop-down arrow in the **Stereotypes** property, and then select the check box for the stereotype that you want to apply.  
 
    > [!TIP]
-   >  If the C# stereotypes do not appear, enable the C# Profile for the model or for a package that contains the model elements in which you are interested. Select the package or the root of the model in **UML Model Explorer**. Then in the **Properties** window, choose **Profile**, and then enable the C# Profile.  
+   > If the C# stereotypes do not appear, enable the C# Profile for the model or for a package that contains the model elements in which you are interested. Select the package or the root of the model in **UML Model Explorer**. Then in the **Properties** window, choose **Profile**, and then enable the C# Profile.  
 
 3. Expand the **Stereotypes** property to see the additional properties that you can set.  
 
@@ -120,7 +120,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
   Each attribute and operation also has stereotype properties that you can set. If you do not see the properties on a new attribute, run **Generate Code**.  
 
-##  <a name="custom"></a> Customizing the Generate Code Command  
+## <a name="custom"></a> Customizing the Generate Code Command  
  The **Generate Code** command works by transforming your model elements using a set of text templates. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
 
  The templates are specified in a set of *text template bindings*. A text template binding specifies what template should be applied, where the generated output should be placed, and other parameters of the **Generate Code** command.  
@@ -138,7 +138,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
  More than one template can be applied to a model element. You can generate more than one file from each model element.  
 
 > [!NOTE]
->  The bindings attached to the root of the model act as defaults for all elements in the model. To see these default bindings, open **UML Model Explorer**. Open the modeling project's shortcut menu, then choose **Set Up Code Generation**. Alternatively, you can select the root of the model in UML Model Explorer. In the Properties window, choose **[…]** in the **Text Template Bindings** property. The bindings will not appear until you have used the **Generate Code** command at least once. Template bindings cannot be attached to a diagram.  
+> The bindings attached to the root of the model act as defaults for all elements in the model. To see these default bindings, open **UML Model Explorer**. Open the modeling project's shortcut menu, then choose **Set Up Code Generation**. Alternatively, you can select the root of the model in UML Model Explorer. In the Properties window, choose **[…]** in the **Text Template Bindings** property. The bindings will not appear until you have used the **Generate Code** command at least once. Template bindings cannot be attached to a diagram.  
 
 #### To attach text template bindings to a package or other model element  
 
@@ -158,7 +158,6 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 
 4. In the dialog box, set the properties of the text template binding.  
 
-
    |    **Property**    |                                                                                                                                                                                                                                                                                                                    **Description**                                                                                                                                                                                                                                                                                                                    |
    |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |        Name        |                                                                                                                                                                                                                                                  A name for this binding. To override a binding inherited from a containing package or model, use the same name as the binding you want to override.                                                                                                                                                                                                                                                  |
@@ -168,10 +167,9 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
    |  Target Directory  |                                                                                          The folder in which the target file is generated. The path is relative to the project folder.<br /><br /> You can use the `{PackageStructure}` expression to insert a path that corresponds to the names of the containing packages. The default value is `\GeneratedCode\{PackageStructure}`. You can also include environment variables such as %TEMP% or %HomePath%. **Important:**  `{PackageStructure}` can be used only in the **Target Directory** property.                                                                                          |
    | Template File Path |                                                                                                                                                           The template that will perform the transform.<br /><br /> You can either use the provided templates or create your own. You can find the provided templates in the following location:<br /><br /> …\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Architecture Tools\Extensibility\Templates\Text\                                                                                                                                                           |
 
-
 5. You can attach as many bindings to an element as you want.  
 
-##  <a name="writing"></a> Writing a Text Template  
+## <a name="writing"></a> Writing a Text Template  
  You can write your own text templates. Text templates can generate program code or any other kind of text file.  
 
  We recommend that you start by modifying copies of the standard templates. You can copy the templates from the following locations:  

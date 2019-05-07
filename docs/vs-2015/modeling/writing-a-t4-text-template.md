@@ -94,7 +94,7 @@ Hello!
  You can insert a text block wherever a `Write();` statement would be allowed in the code.  
   
 > [!NOTE]
->  When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.  
+> When you embed a text block within a compound statement such as a loop or conditional, always use braces {...} to contain the text block.  
   
 ### Expression control blocks  
  An expression control block evaluates an expression and converts it to a string. This is inserted into the output file.  
@@ -208,7 +208,7 @@ private void WriteSquareLine(int i)
   
  For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).  
   
-###  <a name="Include"></a> Including code and text  
+### <a name="Include"></a> Including code and text  
  The `include` directive inserts text from another template file. For example, this directive inserts the content of `test.txt`.  
   
  `<#@ include file="c:\test.txt" #>`  

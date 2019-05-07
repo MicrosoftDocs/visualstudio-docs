@@ -18,7 +18,7 @@ Visual Studio's modular installer enables you to choose and install *workloads*.
 
 ::: moniker range="vs-2017"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
 
 ::: moniker-end
 
@@ -36,9 +36,13 @@ Visual Studio offers a suite of tools that enable you to easily create cloud-ena
 
 ![Azure development workload](../data-tools/media/azure-development-workload.png)
 
+::: moniker range="vs-2017"
+
 After you install the **Azure development** workload, the following **Cloud** templates for C# are available in the **New Project** dialog:
 
 ![Cloud project templates for Visual Studio](media/cloud-project-templates.png)
+
+::: moniker-end
 
 Visual Studio's [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) lets you view and manage your Azure-based cloud resources within Visual Studio. These resources may include virtual machines, tables, SQL databases, and more. **Cloud Explorer** shows the Azure resources in all the accounts managed under the Azure subscription you're logged into. And if a particular operation requires the Azure portal, **Cloud Explorer** provides links that take you to the place in the portal where you need to go.
 
@@ -90,7 +94,7 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 ## Debug, test, and improve your code
 
-When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting-edge debugging system enables you to debug code running in your local project, on a remote device, or on a [device emulator](../cross-platform/visual-studio-emulator-for-android.md). You can step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. Debug options can be managed in the code editor itself, so that you don't have to leave your code. To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
+When you write code, you need to run it and test it for bugs and performance. Visual Studio's cutting-edge debugging system enables you to debug code running in your local project, on a remote device, or on a [device emulator](../cross-platform/visual-studio-emulator-for-android.md). You can step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. Debug options can be managed in the code editor itself, so that you don't have to leave your code. To get more details about debugging in Visual Studio, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 To learn more about improving the performance of your apps, checkout out Visual Studio's [profiling](../profiling/profiling-feature-tour.md) feature.
 
@@ -108,7 +112,7 @@ Azure DevOps Services are cloud-based services to plan, host, automate, and depl
 
 Team Foundation Server (TFS) is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
 
-If you have an Azure DevOps organization or a Team Foundation Server on your network, you connect to it through the **Team Explorer** window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open **Team Explorer** from the **Quick Launch** box, or on the main menu from **View** > **Team Explorer** or from **Team** > **Manage Connections**.
+If you have an Azure DevOps organization or a Team Foundation Server on your network, you connect to it through the **Team Explorer** window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open **Team Explorer** from the search box, or on the main menu from **View** > **Team Explorer** or from **Team** > **Manage Connections**.
 
 The following image shows the **Team Explorer** window for a solution that is hosted in Azure DevOps Services.
 

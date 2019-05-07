@@ -31,17 +31,16 @@ manager: jillfra
 # General, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use this page to change color themes, status bar settings, and file extension associations, among other options, for the integrated development environment (IDE). You can access the **Options** dialog box by opening the **Tools** menu, choosing **Options**, opening the **Environment** folder and then choosing the **General** page. If this page does not appear in the list, select the **Show all settings** check box in the **Options** dialog box.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Visual Experience  
  **Color theme**  
  Choose the **Blue**, **Light** or **Dark** color theme for the IDE.  
   
- You can install additional predefined  themes, and create custom themes, by downloading and installing the **Visual Studio 2015 Color Theme Editor** from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/site/search?f%5B0%5D.Type=RootCategory&f%5B0%5D.Value=tools). After you install this tool, additional color themes appear in the Color theme list box.  
+ You can install additional predefined  themes, and create custom themes, by downloading and installing the **Visual Studio 2015 Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). After you install this tool, additional color themes appear in the Color theme list box.  
   
  Apply title casing in menu bar  
  Menus are in **Title Casing** by default in Visual Studio 2015. Un-check this option to set them to **ALL CAPS**.  

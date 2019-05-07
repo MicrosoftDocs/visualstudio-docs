@@ -18,9 +18,9 @@ However, subscriptions are now managed via a new portal called the Visual Studio
 
 You might encounter one of several scenarios:
 
-1. [The primary contact didn’t complete the onboarding process.](#Onboarding-not-completed-by-Primary-Contact)<sup>1</sup> 
-2. [The primary contact completed onboarding, but didn’t add you as an administrator. Your credentials were listed in VLSC.](#Primary-Contact-did-not-provide-you-administrator-access) 
-3. [The primary contact completed onboarding, but didn’t add you as an administrator. Your credentials were not listed in the VLSC.](#Your-credentials-were-not-listed-in-VLSC-prior-to-migration)  
+1. [The primary contact didn’t complete the onboarding process.](#onboarding-not-completed-by-primary-contact)
+2. [The primary contact completed onboarding, but didn’t add you as an administrator. Your credentials were listed in VLSC.](#primary-contact-did-not-provide-you-administrator-access)
+3. [The primary contact completed onboarding, but didn’t add you as an administrator. Your credentials were not listed in the VLSC.](#your-credentials-were-not-listed-in-vlsc-prior-to-migration)
 
 <sup>1</sup> If you are the primary or notices contact and didn’t complete the onboarding process, you will need to follow the steps in scenario one in order to set up your organization.
 

@@ -21,15 +21,15 @@ You can modify the registry settings, run-time settings, and application entry p
   
  When the application is run, the registry settings are defined in the following sequence:  
   
-1.  The registry key for the application is created.  
+1. The registry key for the application is created.  
   
-2.  The registry is updated from the .pkgdef file of the application by defining specified keys and entries.  
+2. The registry is updated from the .pkgdef file of the application by defining specified keys and entries.  
   
-3.  For every package that is part of your application, the registry is updated from the .pkgdef file of that package. Each package is defined in the .pkgdef file of the application by the $RootKey$\Packages\\{*vsPackageGuid*} key for the package.  
+3. For every package that is part of your application, the registry is updated from the .pkgdef file of that package. Each package is defined in the .pkgdef file of the application by the $RootKey$\Packages\\{*vsPackageGuid*} key for the package.  
   
-4.  The registry is updated from the AppEnvConfig.pkgdef and BaseConfig.pkgdef in the *Visual Studio SDK installation path*\Common7\IDE\ShellExtensions\Platform directory. These files are part of Visual Studio and also part of the Visual Studio Shell (isolated mode) redistributable package.  
+4. The registry is updated from the AppEnvConfig.pkgdef and BaseConfig.pkgdef in the *Visual Studio SDK installation path*\Common7\IDE\ShellExtensions\Platform directory. These files are part of Visual Studio and also part of the Visual Studio Shell (isolated mode) redistributable package.  
   
-5.  The registry is updated from the .pkgundef file of the application by removing specified keys and entries.  
+5. The registry is updated from the .pkgundef file of the application by removing specified keys and entries.  
   
 ## Run-Time Settings  
  When a user starts the isolated shell application, it calls the Start entry point of the Visual Studio shell. Application settings are defined when your application starts, as follows:  

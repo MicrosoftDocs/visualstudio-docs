@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCustomAttribute::GetAttributeTypeField
 Gets the custom attribute class type.
@@ -30,8 +33,8 @@ int GetAttributeTypeField(
 );
 ```
 
-#### Parameters
- `ppCAType`
+## Parameters
+ `ppCAType`\
 
  [out] Returns the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that represents the class of which the custom attribute is an instance.
 
@@ -41,6 +44,6 @@ int GetAttributeTypeField(
 ## Remarks
  A custom attribute is always a class. This method provides access to an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that describes that class.
 
-## See Also
+## See also
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

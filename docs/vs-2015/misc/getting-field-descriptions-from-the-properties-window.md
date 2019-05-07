@@ -20,7 +20,7 @@ At the bottom of the **Properties** window, a description area displays informat
 1. Add the `helpstringdll` attribute to the library statement in the type library (`typelib`).  
   
    > [!NOTE]
-   >  This step is optional if the type library is in an object library (.olb) file.  
+   > This step is optional if the type library is in an object library (.olb) file.  
   
 2. Specify `helpstringcontext` attributes for the strings. You can also specify `helpstring` attributes.  
   

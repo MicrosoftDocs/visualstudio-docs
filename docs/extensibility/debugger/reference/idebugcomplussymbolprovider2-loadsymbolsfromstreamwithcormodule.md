@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 Load debug symbols from a data stream given the **ICorDebugModule** object.
@@ -39,28 +42,28 @@ int LoadSymbolsFromStreamWithCorModule(
 );
 ```
 
-#### Parameters
-`ulAppDomainID`
+## Parameters
+`ulAppDomainID`\
 
  [in] Identifier of the application domain.
 
-`guidModule`
+`guidModule`\
 
  [in] Unique identifier of the module.
 
-`baseAddress`
+`baseAddress`\
 
  [in] Base memory address.
 
-`pUnkMetadataImport`
+`pUnkMetadataImport`\
 
  [in] Object that contains the symbol metadata.
 
-`pUnkCorDebugModule`
+`pUnkCorDebugModule`\
 
  [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
-`pStream`
+`pStream`\
 
  [in] Data stream that contains the debug symbols to load.
 
@@ -140,5 +143,5 @@ Error:
 }
 ```
 
-## See Also
+## See also
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

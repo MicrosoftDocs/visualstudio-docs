@@ -57,12 +57,11 @@ If you run an application as a 64-bit application, the pointer size doubles, and
 
 This check box is available only if all of the following conditions are true:
 
--   On the **Build Page**, the **Platform target** list is set to **Any CPU**.
+- On the **Build Page**, the **Platform target** list is set to **Any CPU**.
 
--   On the **Application Page**, the **Output type** list specifies that the project is an application.
+- On the **Application Page**, the **Output type** list specifies that the project is an application.
 
--   On the **Application Page**, the **Target framework** list specifies the .NET Framework 4.5.
-
+- On the **Application Page**, the **Target framework** list specifies the .NET Framework 4.5.
 
 **Allow unsafe code**
 Allows code that uses the [unsafe](/dotnet/csharp/language-reference/keywords/unsafe) keyword to compile. For more information, see [/unsafe (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/unsafe-compiler-option).

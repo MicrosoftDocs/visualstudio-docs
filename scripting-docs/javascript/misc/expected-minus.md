@@ -20,7 +20,7 @@ You attempted to create a regular expression literal, but did not include one of
   
 ### To correct this error  
   
--   Insert a terminating forward slash to mark the end of the regular expression.  
+- Insert a terminating forward slash to mark the end of the regular expression.  
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   

@@ -23,7 +23,6 @@ manager: jillfra
 # Common MSBuild Project Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in .targets files that MSBuild provides.  
   
  Project files in Visual Studio (.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more .targets files to define their build process. For more information, see [.Targets Files](../msbuild/msbuild-dot-targets-files.md).  

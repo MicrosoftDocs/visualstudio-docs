@@ -8,7 +8,7 @@ ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 searchscope: VS Subscription
 ---
-#  WhiteSource Bolt in Visual Studio subscriptions
+# WhiteSource Bolt in Visual Studio subscriptions
 
 Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. Some Visual Studio subscriptions include six months of free access.
 
@@ -31,7 +31,6 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 5. In the **Activate your account** section of the page, you’ll be guided through four steps:
 
    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, see [Install free extensions for Azure DevOps Services](/azure/devops/marketplace/install-vsts-extension?view=vsts).
-
 
 Click the green **Install** button if you are using Azure DevOps Services, or the **Download** button for Team Foundation Server.  For this example, we will use Azure DevOps Services.
 > [!div class="mx-imgBorder"]
@@ -78,15 +77,13 @@ Click the green **Install** button if you are using Azure DevOps Services, or th
 
 <sup>1</sup>  *Includes:  Microsoft Partner Network (Enterprise).  Excludes: Other Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Microsoft Partner Network (Professional).*
 
-
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
 
--  Need help with WhiteSource Bolt?  Chat with a WhiteSource Bolt representative live at https://www.whitesourcesoftware.com/vse_whitesource_bolt/
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- Need help with WhiteSource Bolt?  Chat with a WhiteSource Bolt representative live at https://www.whitesourcesoftware.com/vse_whitesource_bolt/
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

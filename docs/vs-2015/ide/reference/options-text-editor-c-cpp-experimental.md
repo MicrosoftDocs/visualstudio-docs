@@ -15,7 +15,6 @@ manager: jillfra
 # Options, Text Editor, C/C++, Experimental
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.  
   
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then choose **Experimental**.  
@@ -23,7 +22,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  These features are available in a Visual Studio 2015 Update 1 RC installation.  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Browsing/Navigation  
  **Enable New Database Engine**  

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugDocumentPosition2::GetRange
 Gets the range for this document position.
@@ -32,12 +35,12 @@ int GetRange( 
 );
 ```
 
-#### Parameters
- `pBegPosition`
+## Parameters
+ `pBegPosition`\
 
  [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the starting position. Set this argument to a null value if this information is not needed.
 
- `pEndPosition`
+ `pEndPosition`\
 
  [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the ending position. Set this argument to a null value if this information is not needed.
 
@@ -54,6 +57,6 @@ Line 6: x = 1;
 
  Line 5 contributes no code to the program being debugged. If the debugger that sets the breakpoint on line 5 wants the DE to search forward a certain amount for the first line that contributes code, the debugger would specify a range that includes additional candidate lines where a breakpoint might be properly placed. The DE would then search forward through those lines until it found a line that could accept a breakpoint.
 
-## See Also
+## See also
 - [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

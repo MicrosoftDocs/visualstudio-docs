@@ -20,16 +20,16 @@ When you use Team Foundation Version Control (TFVC), you can create check-in pol
   
  You can specify these team project check-in policies:  
   
--   **Builds**: Requires that build breaks that were created during a build must be fixed before a new check-in.  
+- **Builds**: Requires that build breaks that were created during a build must be fixed before a new check-in.  
   
--   **Changeset Comments**: Requires that users provide comments when checking in changes.  
+- **Changeset Comments**: Requires that users provide comments when checking in changes.  
   
--   **Code Analysis**: Requires that code analysis is run before check-in.  
+- **Code Analysis**: Requires that code analysis is run before check-in.  
   
--   **Work Items**: Requires that one or more work items be associated with the check- in.  
+- **Work Items**: Requires that one or more work items be associated with the check- in.  
   
 > [!IMPORTANT]
->  To use check-in policies, you must be connected to [!INCLUDE[vststfsLong](../includes/vststfslong-md.md)].  
+> To use check-in policies, you must be connected to [!INCLUDE[vststfsLong](../includes/vststfslong-md.md)].  
   
 ## Common Tasks  
   

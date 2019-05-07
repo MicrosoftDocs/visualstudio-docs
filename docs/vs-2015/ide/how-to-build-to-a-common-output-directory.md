@@ -21,13 +21,13 @@ By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] builds each project in 
   
 ### To place all solution outputs in a common directory  
   
-1.  Click on one project in the solution.  
+1. Click on one project in the solution.  
   
-2.  On the **Project** menu, click **Properties**.  
+2. On the **Project** menu, click **Properties**.  
   
-3.  Depending on the type of project, click on either the **Compile** tab or the **Build** tab, and set the **Output path** to a folder to use for all projects in the solution.  
+3. Depending on the type of project, click on either the **Compile** tab or the **Build** tab, and set the **Output path** to a folder to use for all projects in the solution.  
   
-4.  Repeat steps 1-3 for all projects in the solution.  
+4. Repeat steps 1-3 for all projects in the solution.  
   
 ## See Also  
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   

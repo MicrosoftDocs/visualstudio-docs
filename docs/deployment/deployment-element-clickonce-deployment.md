@@ -54,7 +54,6 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ## Elements and attributes
  The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. The element has the following attributes.
 
-
 | Attribute | Description |
 |--------------------------| - |
 | `install` | Required. Specifies whether this application defines a presence on the Windows **Start** menu and in the Control Panel **Add or Remove Programs** application. Valid values are `true` and `false`. If `false`, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will always run the latest version of this application from the network, and will not recognize the `subscription` element. |
@@ -90,7 +89,6 @@ Identifies the attributes used for the deployment of updates and exposure to the
  For the .NET Framework 2.0, this element is required if the deployment manifest contains a `subscription` section. For the .NET Framework 3.5 and later, this element is optional, and will default to the server and file path in which the deployment manifest was discovered.
 
  This element is a child of the `deployment` element and has the following attribute.
-
 
 | Attribute | Description |
 |------------| - |

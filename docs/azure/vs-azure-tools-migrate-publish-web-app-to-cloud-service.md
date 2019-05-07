@@ -25,7 +25,7 @@ To take advantage of the hosting services and scaling ability of Azure, you migh
 1. Visual Studio also sets the **Copy Local** property to true for any assemblies that are required for MVC 2, MVC 3, MVC 4, and Silverlight Business Applications. This property adds these assemblies to the service package that is used for deployment.
 
    > [!Important]
-   > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](#include-files-in-the-service-package).
+   > If you have other assemblies or files that are required for this web application, you must manually set the properties for these files. For information about how to set these properties, see [Include Files in the Service Package](vs-azure-tools-publishing-a-cloud-service.md#include-files-in-the-service-package).
 
 ### Errors and warnings
 

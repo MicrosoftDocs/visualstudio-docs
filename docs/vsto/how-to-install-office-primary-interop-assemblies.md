@@ -19,12 +19,12 @@ ms.workload:
 
 ## To install the PIAs when you install Office
 
-1.  Ensure that you have a version of the .NET Framework that is no older than 2.0.
+1. Ensure that you have a version of the .NET Framework that is no older than 2.0.
 
-2.  Install Microsoft Office and make sure that the **.NET Programmability Support** feature is selected for the applications you want to extend (this feature is included in the default installation).
+2. Install Microsoft Office and make sure that the **.NET Programmability Support** feature is selected for the applications you want to extend (this feature is included in the default installation).
 
     > [!WARNING]
-    >  By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.
+    > By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.
 
 ## See also
 - [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)

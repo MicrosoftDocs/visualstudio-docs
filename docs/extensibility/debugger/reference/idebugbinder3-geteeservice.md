@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder3::GetEEService
 This method returns a requested service.
@@ -36,20 +39,20 @@ Int GetEEService(
 );
 ```
 
-#### Parameters
- `vendor`
+## Parameters
+ `vendor`\
 
  [in] `GUID` of a vendor (a null value is acceptable).
 
- `language`
+ `language`\
 
  [in] `GUID` of a language (a null value is acceptable).
 
- `iid`
+ `iid`\
 
  [in] `IID` of the service to obtain.
 
- `ppService`
+ `ppService`\
 
  [out] An interface to the requested service.
 
@@ -59,7 +62,7 @@ Int GetEEService(
 ## Remarks
  Pass the `IID` for the [IEEVisualizerServiceProvider](../../../extensibility/debugger/reference/ieevisualizerserviceprovider.md) interface (`IID_IEEVisualizerServiceProvider`) to see if the Type Visualizer service is available. If so, the expression evaluator can obtain the [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md) interface to support type visualizers. See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for details.
 
-## See Also
+## See also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
 - [IEEVisualizerServiceProvider](../../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)

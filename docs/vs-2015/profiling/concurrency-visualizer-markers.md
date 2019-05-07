@@ -20,11 +20,11 @@ In the Concurrency Visualizer, markers are icons that represent events in an app
 ## Kinds of Markers  
  The Concurrency Visualizer uses three kinds of markers to represent application events: flags, messages, and spans.  
   
-1.  Use a *flag* to indicate an interesting point in time in your app.  For example, you might use a flag to represent that a variable value has reached a certain threshold or that an exception was thrown.  
+1. Use a *flag* to indicate an interesting point in time in your app.  For example, you might use a flag to represent that a variable value has reached a certain threshold or that an exception was thrown.  
   
-2.  A *message* also marks a point in time, but you can use it for log-style tracing.  For example, what might have been dumped to a log file you can now wrap in a message call so that you can trace it and view it in the Concurrency Visualizer. You can also use the Concurrency Visualizer to export this data to a CSV file.  
+2. A *message* also marks a point in time, but you can use it for log-style tracing.  For example, what might have been dumped to a log file you can now wrap in a message call so that you can trace it and view it in the Concurrency Visualizer. You can also use the Concurrency Visualizer to export this data to a CSV file.  
   
-3.  A *span* represents an interval of time in your app, for example, one of its phases.  
+3. A *span* represents an interval of time in your app, for example, one of its phases.  
   
 ## Marker Linkage to Threads  
  Each thread that generates markers has a separate timeline channel.  The ID of the thread that's responsible for generating the marker events is shown next to the description of the marker channel.  The ID that's shown on the left side of the marker channel matches the ID of another thread in the current process.  

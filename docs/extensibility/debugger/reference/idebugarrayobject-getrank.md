@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugArrayObject::GetRank
 Gets the rank of the array, that is, the number of dimensions.
@@ -30,8 +33,8 @@ int GetRank(
 );
 ```
 
-#### Parameters
- `pdwRank`
+## Parameters
+ `pdwRank`\
 
  [out] Returns the rank.
 
@@ -41,5 +44,5 @@ int GetRank(
 ## Remarks
  Use the [GetDimensions](../../../extensibility/debugger/reference/idebugarrayobject-getdimensions.md) method to retrieve the size of each dimension of the array object.
 
-## See Also
+## See also
 - [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

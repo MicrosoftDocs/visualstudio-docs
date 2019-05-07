@@ -13,7 +13,6 @@ manager: jillfra
 # Cannot create an association &lt;association name&gt; - property listed twice
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Cannot create an association \<association name>. The same property is listed more than once: \<property name>.  
   
  Associations are defined by the selected **Association Properties** in the **Association Editor** dialog box. Properties can be listed only one time for each class in the association.  
@@ -22,13 +21,13 @@ Cannot create an association \<association name>. The same property is listed mo
   
 ### To resolve this condition  
   
--   Examine the message and note the property specified in the message.  
+- Examine the message and note the property specified in the message.  
   
--   Click **OK** to dismiss the message box.  
+- Click **OK** to dismiss the message box.  
   
--   Inspect the **Association Properties** and remove the duplicate entries.  
+- Inspect the **Association Properties** and remove the duplicate entries.  
   
--   Click **OK**.  
+- Click **OK**.  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](http://msdn.microsoft.com/library/a57e82d5-f7e4-4894-8add-3d9ba4fce186)   

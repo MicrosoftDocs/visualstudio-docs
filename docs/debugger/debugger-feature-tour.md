@@ -1,8 +1,8 @@
 ---
-title: "Debug apps using Visual Studio"
+title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "mvc"
-ms.date: "01/09/2019"
+ms.custom: "seoapril2019"
+ms.date: "04/08/2019"
 ms.topic: "quickstart"
 helpviewer_keywords:
   - "debugger"
@@ -182,7 +182,7 @@ In this example, the `DirectoryInfo` call gave the error on the empty string sto
 The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
 
 > [!NOTE]
-> The Exception Helper replaced the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> The Exception Helper replaced the Exception Assistant starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
 

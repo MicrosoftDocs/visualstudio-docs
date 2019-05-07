@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # DISASSEMBLY_FLAGS
 Specifies the flags for disassembly.
@@ -41,23 +44,23 @@ public enum enum_DISASSEMBLY_FLAGS {
 };
 ```
 
-## Members
-DF_DOCUMENTCHANGE
+## Fields
+`DF_DOCUMENTCHANGE`\
 Indicates that this instruction is in a different document than the previous one.
 
-DF_DISABLED
+`DF_DISABLED`\
 Indicates that this instruction will not be executed.
 
-DF_INSTRUCTION_ACTIVE
+`DF_INSTRUCTION_ACTIVE`\
 Indicates that this instruction is one of the next instructions to be executed (there may be more than one).
 
-DF_DATA
+`DF_DATA`\
 Indicates that this instruction is really data (not code).
 
-DF_HASSOURCE
+`DF_HASSOURCE`\
 Indicates that this instruction has source. Some instructions, such as profiling or garbage collection code, have no corresponding source.
 
-DF_DOCUMENT_CHECKSUM
+`DF_DOCUMENT_CHECKSUM`\
 Indicates that `bstrDocumentUrl` field contains checksum data after the document URL. See the Remarks section for the [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md) structure for how the checksum data is stored.
 
 ## Remarks
@@ -72,6 +75,6 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [DisassemblyData](../../../extensibility/debugger/reference/disassemblydata.md)

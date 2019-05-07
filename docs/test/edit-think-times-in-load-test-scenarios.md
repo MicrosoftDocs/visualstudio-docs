@@ -42,13 +42,13 @@ Think times are used, but varied on a normal curve. Provides a more realistic si
 
 ### To change a think profile in a load test scenario
 
-1.  From the web performance and load test project, open a load test.
+1. From the web performance and load test project, open a load test.
 
-2.  In the **Load Test Editor**, choose the scenario node where you want to change the **Think Profile**. The **Think Profile** is displayed in the **Properties** window. Press **F4** to display the **Properties** window.
+2. In the **Load Test Editor**, choose the scenario node where you want to change the **Think Profile**. The **Think Profile** is displayed in the **Properties** window. Press **F4** to display the **Properties** window.
 
-3.  Change the **Think Profile** property in the **Properties** window.
+3. Change the **Think Profile** property in the **Properties** window.
 
-4.  After you have finished changing the properties, choose **Save** on the **File** menu. You can then run your load test with the new think profile.
+4. After you have finished changing the properties, choose **Save** on the **File** menu. You can then run your load test with the new think profile.
 
 ## See also
 

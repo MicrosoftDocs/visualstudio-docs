@@ -29,9 +29,9 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-* Snapshot Debugger for Azure Kubernetes Services is only available for Visual Studio 2019 Enterprise preview or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
+* Snapshot Debugger for Azure Kubernetes Services is only available for Visual Studio 2019 Enterprise or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-    If it's not already installed, install [Visual Studio 2019 Enterprise preview](https://visualstudio.microsoft.com/vs/preview/).
+    If it's not already installed, install [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/).
 
 * Snapshot collection is available for the following Azure Kubernetes Services web apps:
   * ASP.NET Core applications running on .NET Core 2.2 or later on Debian 9.
@@ -48,24 +48,13 @@ In this tutorial, you will:
     > [!IMPORTANT]
     > To snapshot debug, you need to open the *same version of source code* that is published to your Azure Kubernetes service.
 
-1. Attach the Snapshot Debugger. You can use one of several different methods:
-
-    * Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
+1. Choose **Debug > Attach Snapshot Debugger...**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
 
       ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-    * Right click on your project and select **Publish**, and then on the Publish page click **Attach Snapshot Debugger**. Select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
-    ![Launch the snapshot debugger from the Publish page](../debugger/media/snapshot-publish-attach.png)
+      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-aks.png)
 
-    * In the Debug target drop-down menu select **Snapshot Debugger**, hit **F5** and if necessary select the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach**.
-    ![Launch the snapshot debugger from the F5 drop-down menu](../debugger/media/snapshot-F5-dropdown-attach.png)
-
-    * Using the Cloud Explorer (**View > Cloud Explorer**), right-click the AKS resource your web app is deployed to and an Azure storage account, and then click **Attach Snapshot Debugger**.
-
-      ![Launch the snapshot debugger from the Cloud Explorer](../debugger/media/snapshot-launch.png)
-
-    > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+Visual Studio is now in snapshot debugging mode.
 
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
 
@@ -140,7 +129,7 @@ In addition to taking a snapshot when a snappoint is hit, you can also configure
 
     If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window.
 
-    ![Logpoint data in the diagsession window](../debugger/media/snapshot-logpoint-output.png)
+    ![Logpoint data in the Diagnostic Tools window](../debugger/media/snapshot-logpoint-output.png)
 
     If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs).
 

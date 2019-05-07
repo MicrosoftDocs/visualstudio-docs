@@ -20,25 +20,23 @@ Set up a project that contains the code of your extension, and a VSIX project th
 
 ### To create a DSL Designer Extension Solution
 
-1.  Create a new project using the Class Library project template. In the **New Project** dialog box, click **Visual C#** and then in the middle window click **Class Library**.
+1. Create a new project using the **Class Library** project template. This project will contain the code of your extensions.
 
-     This project will contain the code of your extensions.
-
-2.  Create a new project using the VSIX project template. In the **New Project** dialog box, expand **Visual C#**, click **Extensibility**, and then in the middle window select **VSIX Project**.
+2. Create a new **VSIX Project** project.
 
      Select **Add to Solution**.
 
-     Source.extension.vsixmanifest opens in the VSIX manifest editor.
+     *Source.extension.vsixmanifest* opens in the VSIX manifest editor.
 
-3.  Above the Content field, click **Add Content**.
+3. Above the Content field, click **Add Content**.
 
-4.  In the **Add Content** dialog box, set **Select a Content Type** to **MEF Component**, and set **Project** to your class library project.
+4. In the **Add Content** dialog box, set **Select a Content Type** to **MEF Component**, and set **Project** to your class library project.
 
-5.  Click **Select Editions** and make sure that **Visual Studio Enterprise** is checked.
+5. Click **Select Editions** and make sure that **Visual Studio Enterprise** is checked.
 
-6.  Make sure that the VSIX project is the Startup project of the solution.
+6. Make sure that the VSIX project is the Startup project of the solution.
 
-7.  In the class library project, add references to the following assemblies:
+7. In the class library project, add references to the following assemblies:
 
      Microsoft.VisualStudio.CoreUtility
 
@@ -64,17 +62,17 @@ To test any of the extensions in this topic, build and run the solution. An expe
 
 To deploy the extensions to the main Visual Studio, and to other computers, follow these steps:
 
-1.  Find the VSIX installation file, in your VSIX project in bin\\*\\\*.vsix
+1. Find the VSIX installation file, in your VSIX project in bin\\*\\\*.vsix
 
-2.  Copy this file to the target computer, and then in Windows Explorer (or File Explorer), double-click it.
+2. Copy this file to the target computer, and then in Windows Explorer (or File Explorer), double-click it.
 
      The Visual Studio Extension Manager opens to confirm that the extension has been installed.
 
 To uninstall the extension, follow these steps:
 
-1.  in Visual Studio, on the **Tools** menu, click **Extension Manager**.
+1. in Visual Studio, on the **Tools** menu, click **Extension Manager**.
 
-2.  Select the extension and delete it.
+2. Select the extension and delete it.
 
 ## Add a Shortcut Menu Command
 

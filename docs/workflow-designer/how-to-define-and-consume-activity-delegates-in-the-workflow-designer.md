@@ -15,12 +15,10 @@ author: gewarren
 
 ## Define an activity delegate
 
-1. In Visual Studio, select **File** > **New** > **Project**.
-
-2. In the **New Project** dialog box, select the **Workflow** category on the left, and then select the **Workflow Console Application** project template. Name the project (if desired) and click **Ok**.
+1. Create a new **Workflow Console Application** project.
 
    > [!NOTE]
-   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+   > If you don't see the **Workflow** project templates, first install the **Windows Workflow Foundation** component of Visual Studio. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
 3. Right-click on the project in **Solution Explorer** and select **Add** > **New Item**. Select the **Workflow** category, and then select the **Activity** item template. Name the new activity **MyForEach.xaml** and then select **OK**.
 
@@ -66,17 +64,17 @@ author: gewarren
 
 ## Use the custom activity in a workflow
 
-1.  Build the project by pressing **Ctrl**+**Shift**+**B**.
+1. Build the project by pressing **Ctrl**+**Shift**+**B**.
 
-2.  In **Solution Explorer**, open **Workflow1.xaml** in the designer.
+2. In **Solution Explorer**, open **Workflow1.xaml** in the designer.
 
-3.  Drag a **MyForEach** activity from the toolbox to the designer surface. The activity is in a section of the toolbox with the same name as the project.
+3. Drag a **MyForEach** activity from the toolbox to the designer surface. The activity is in a section of the toolbox with the same name as the project.
 
-4.  Set the **Items** property of the **MyForEach** activity to **new Object[] {1, "abc"}**.
+4. Set the **Items** property of the **MyForEach** activity to **new Object[] {1, "abc"}**.
 
-5.  Drag a <xref:System.Activities.Statements.WriteLine> activity from the **Primitives** section of the toolbox to the **Delegate:Body** section of the **MyForEach** activity.
+5. Drag a <xref:System.Activities.Statements.WriteLine> activity from the **Primitives** section of the toolbox to the **Delegate:Body** section of the **MyForEach** activity.
 
-6.  Set the **Text** property of the <xref:System.Activities.Statements.WriteLine> activity to **Argument.ToString()**.
+6. Set the **Text** property of the <xref:System.Activities.Statements.WriteLine> activity to **Argument.ToString()**.
 
 When the workflow is executed, the console shows the following output:
 

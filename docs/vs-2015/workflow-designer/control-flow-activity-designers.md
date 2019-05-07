@@ -17,7 +17,7 @@ manager: jillfra
  [DoWhile](../workflow-designer/dowhile-activity-designer.md)  
  Executes the activity contained in its body at least once, until a specified condition evaluates to **true**.  
   
- [ForEach\<T>](http://msdn.microsoft.com/a680cddd-2760-497a-b27b-c023fcbc6f33)  
+ [ForEach\<T>](foreach-t-activity-designer.md)  
  Executes the activity contained in its body for each item in a specified collection.  
   
  [If](../workflow-designer/if-activity-designer.md)  
@@ -38,7 +38,7 @@ manager: jillfra
  [Sequence](../workflow-designer/sequence-activity-designer.md)  
  Contains an ordered collection of child activities that it executes in order.  
   
- [Switch\<T>](http://msdn.microsoft.com/ce1aa634-c4db-4475-a1c8-a88478a57212)  
+ [Switch\<T>](switch-t-activity-designer.md)  
  Evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.  
   
  [While](../workflow-designer/while-activity-designer.md)  

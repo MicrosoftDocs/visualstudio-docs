@@ -35,7 +35,6 @@ manager: jillfra
 # Link Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (.exe) file or a dynamic-link library (DLL). For more information, see [Linker Options](http://msdn.microsoft.com/library/c1d51b8a-bd23-416d-81e4-900e02b2c129).  
   
 ## Parameters  

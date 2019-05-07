@@ -47,7 +47,7 @@ You can add these members to types on a class diagram and configure those member
 |Module (VB Only)|method, property, field, event, constructor, constant|  
   
 > [!NOTE]
->  Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu, choose **Change Members Format**, **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7).  
+> Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu, choose **Change Members Format**, **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7).  
   
 ## Common Tasks  
   
@@ -56,7 +56,7 @@ You can add these members to types on a class diagram and configure those member
 |**Get started:** Before you create and configure type members, you must open the Class Details window.|-   [Opening the Class Details Window](../ide/creating-and-configuring-type-members-class-designer.md#OpenClassDetails)<br />-   [Class Details Usage Notes](../ide/creating-and-configuring-type-members-class-designer.md#ClassDetailsUsageNotes)<br />-   [Display of Read-Only Information](../ide/creating-and-configuring-type-members-class-designer.md#ReadOnlyInfo)<br />-   [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md)|  
 |**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the Class Details window.|-   [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers)<br />-   [Modifying Type Members](../ide/creating-and-configuring-type-members-class-designer.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](../ide/creating-and-configuring-type-members-class-designer.md#AddMethodParams)|  
   
-##  <a name="OpenClassDetails"></a> Opening the Class Details Window  
+## <a name="OpenClassDetails"></a> Opening the Class Details Window  
  By default, the Class Details Window appears automatically when you open a new class diagram (see [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)). You can also open the Class Details window explicitly, in the following ways.  
   
 #### To open the Class Details window  
@@ -67,64 +67,64 @@ You can add these members to types on a class diagram and configure those member
   
    – or -  
   
--   Point to **Other Windows** on the View menu and then click **Class Details**.  
+- Point to **Other Windows** on the View menu and then click **Class Details**.  
   
-##  <a name="CreateMembers"></a> Creating Members  
+## <a name="CreateMembers"></a> Creating Members  
  You can create a member using any of the following tools:  
   
--   Class Designer  
+- Class Designer  
   
--   Class Details window toolbar  
+- Class Details window toolbar  
   
--   Class Details window  
-  
-> [!NOTE]
->  You can also create constructors and destructors using the procedures in this section. Please bear in mind that constructors and destructors are special kinds of methods, and as such, they appear in the **Methods** compartment in class diagram shapes and in the **Methods** section of the Class Details window grid.  
+- Class Details window  
   
 > [!NOTE]
->  The only entity you can add to a delegate is parameter. Note that the procedure entitled 'To Create a member using the Class Details Window toolbar' is not valid for this action.  
+> You can also create constructors and destructors using the procedures in this section. Please bear in mind that constructors and destructors are special kinds of methods, and as such, they appear in the **Methods** compartment in class diagram shapes and in the **Methods** section of the Class Details window grid.  
+  
+> [!NOTE]
+> The only entity you can add to a delegate is parameter. Note that the procedure entitled 'To Create a member using the Class Details Window toolbar' is not valid for this action.  
   
 #### To create a member using Class Designer  
   
-1.  Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.  
+1. Right-click the type to which you want to add a member, point to **Add**, and then choose the type of member you want to add.  
   
      A new member signature is created and added to the type. It is given a default name that you can change in **Class Designer**, the **Class Details** window, or in the **Properties** window.  
   
-2.  Optionally, specify other details about the member, such as its type.  
+2. Optionally, specify other details about the member, such as its type.  
   
 #### To create a member using the Class Details Window toolbar  
   
-1.  On the diagram surface, select the type to which you want to add a member.  
+1. On the diagram surface, select the type to which you want to add a member.  
   
      The type obtains focus and its contents are displayed in the Class Details window.  
   
-2.  In the Class Details window toolbar, click the top icon and select **New \<member>** from the drop-list.  
+2. In the Class Details window toolbar, click the top icon and select **New \<member>** from the drop-list.  
   
      The cursor moves to the **Name** field in a row for the kind of member you want to add. For example, if you clicked **New Property**, the cursor moves to a new row in the **Properties** section of the Class Details window.  
   
-3.  Type the name of the member you want to create and press Enter (or otherwise move focus, such as by pressing Tab).  
+3. Type the name of the member you want to create and press Enter (or otherwise move focus, such as by pressing Tab).  
   
      A new member signature is created and added to the type. The member now exists in code and is displayed in **Class Designer**, the Class Details window, and the Properties window.  
   
-4.  Optionally, specify other details about the member, such as its type.  
+4. Optionally, specify other details about the member, such as its type.  
   
 #### To create a member using the Class Details Window  
   
-1.  On the diagram surface, select the type to which you want to add a member.  
+1. On the diagram surface, select the type to which you want to add a member.  
   
      The type obtains focus and its contents are displayed in the Class Details window.  
   
-2.  In the Class Details window, in the section that contains the kind of member you want to add, click **\<add member>**. For example, if you want to add a field, click **\<add field>**.  
+2. In the Class Details window, in the section that contains the kind of member you want to add, click **\<add member>**. For example, if you want to add a field, click **\<add field>**.  
   
-3.  Type the name of the member you want to create and press Enter.  
+3. Type the name of the member you want to create and press Enter.  
   
      A new member signature is created and added to the type. The member now exists in code and is displayed in the **Class Designer**, the Class Details window, and the Properties window.  
   
-4.  Optionally, specify other details about the member, such as its type.  
+4. Optionally, specify other details about the member, such as its type.  
   
      **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md).  
   
-##  <a name="ModifyTypeMembers"></a> Modifying Type Members  
+## <a name="ModifyTypeMembers"></a> Modifying Type Members  
  Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
   
  All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
@@ -133,52 +133,52 @@ You can add these members to types on a class diagram and configure those member
   
  Each member row displays the following elements:  
   
--   **Member Icon**  
+- **Member Icon**  
   
      Each kind of member is represented by its own icon. Point the mouse at the member icon to display the member’s signature. Click the member icon or the whitespace to the left of the member icon to select the row.  
   
--   **Member Name**  
+- **Member Name**  
   
      The **Name** column in a member row displays the name of the member. This name is also displayed in the **Name** property in the Properties window. Use this cell to change the name of any member that has read-write permissions.  
   
      If the **Name** column is too narrow to show the whole name, pointing the mouse on the member name displays the entire name.  
   
--   **Member Type**  
+- **Member Type**  
   
      The **MemberType** cell uses IntelliSense, which lets you select from a list of all the types available in the current project or referenced projects.  
   
--   **Member Modifier**  
+- **Member Modifier**  
   
      Change the visibility modifier of a member to either `Public` (`public`), `Private` (`private`), `Friend` (`internal`) `Protected` (`protected`), `Protected``Friend` (`protected``internal`), or `Default`.  
   
--   **\<add member>**  
+- **\<add member>**  
   
      The last row in the Class Details window contains the text **\<add member>** in the **Name** cell. If you click this cell, you can create a new member. For more information, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
   
--   **Member properties in the Properties window**  
+- **Member properties in the Properties window**  
   
      The Class Details window displays a subset of the member properties that are displayed in the Properties window. Changing a property in one location will update the value of the property globally. This includes the display of its value in the other location.  
   
--   **Summary**  
+- **Summary**  
   
      The **Summary** cell exposes a summary of information about the member. Click the ellipsis in the **Summary** cell to view or edit information about the **Summary**, **Return Type**, and **Remarks** for the member.  
   
--   **Hide**  
+- **Hide**  
   
      When the **Hide** check box is selected, the member is not displayed in the type.  
   
 #### To modify a type member  
   
-1.  Using Class Designer, select a type.  
+1. Using Class Designer, select a type.  
   
-2.  If the Class Details window is not displayed, click the **Class Details Window** button on the Class Designer toolbar.  
+2. If the Class Details window is not displayed, click the **Class Details Window** button on the Class Designer toolbar.  
   
-3.  Edit the values in the fields of the Class Details window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.  
+3. Edit the values in the fields of the Class Details window grid. After each edit, press ENTER, or otherwise move focus away from the edited field, for example, by pressing TAB. Your edits reflect immediately in code.  
   
     > [!NOTE]
-    >  If you want to modify only the name of a member, you can do so by using in-place editing.  
+    > If you want to modify only the name of a member, you can do so by using in-place editing.  
   
-##  <a name="AddMethodParams"></a> Adding Parameters to Methods  
+## <a name="AddMethodParams"></a> Adding Parameters to Methods  
  Add parameters to methods using the Class Details window. Parameters can be configured to be required or optional. Providing a value for the **Optional Default** property of a parameter instructs the designer to generate code as an optional parameter.  
   
  Parameter rows contain the following items:  
@@ -203,54 +203,54 @@ You can add these members to types on a class diagram and configure those member
   
 - **\<add parameter>**  
   
-   The last parameter row of a member contains the text **<add parameter>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
+   The last parameter row of a member contains the text **<add parameter\>** in the **Name** cell. Clicking this cell lets you create a new parameter. For more information, see [To add a parameter to a method](../ide/creating-and-configuring-type-members-class-designer.md#HowToAddParameterToMethod).  
   
   **Parameter properties in the Properties window**  
   
   The Properties window displays the same parameter properties displayed in the Class Details window: **Name**, **Type**, **Modifier**, **Summary**, as well as the **Optional Default** property. Changing a property in one location updates the value of the property globally, including the display of its value in the other location.  
   
 > [!NOTE]
->  To add a parameter to a delegate, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
+> To add a parameter to a delegate, see [Creating Members](../ide/creating-and-configuring-type-members-class-designer.md#CreateMembers).  
   
 > [!NOTE]
->  Although a destructor is a method, it cannot have parameters.  
+> Although a destructor is a method, it cannot have parameters.  
   
-###  <a name="HowToAddParameterToMethod"></a> To add a parameter to a method  
+### <a name="HowToAddParameterToMethod"></a> To add a parameter to a method  
   
-1.  On the diagram surface, click the type containing the method to which you want to add a parameter.  
+1. On the diagram surface, click the type containing the method to which you want to add a parameter.  
   
      The type obtains focus and its contents display in the Class Details window.  
   
-2.  In the Class Details window, expand the row of the method to which you want to add a parameter.  
+2. In the Class Details window, expand the row of the method to which you want to add a parameter.  
   
      An indented parameter row appears, containing only a pair of parentheses and the words **\<add parameter>.**  
   
-3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
+3. Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
   
      The new parameter is added to the method and the method’s code. It displays in the Class Details window and the Properties window.  
   
-4.  Optionally, specify other details about the parameter, such as its type.  
+4. Optionally, specify other details about the parameter, such as its type.  
   
 ### To add an optional parameter to a method  
   
-1.  On the diagram surface, click the type containing the method to which you want to add an optional parameter.  
+1. On the diagram surface, click the type containing the method to which you want to add an optional parameter.  
   
      The type obtains focus and its contents display in the Class Details window.  
   
-2.  In the Class Details window, expand the row of the method to which you want to add an optional parameter.  
+2. In the Class Details window, expand the row of the method to which you want to add an optional parameter.  
   
      An indented parameter row appears, containing only a pair of parentheses and the words **\<add parameter>.**  
   
-3.  Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
+3. Click **\<add parameter>**, type the name of the new parameter, and press **Enter**.  
   
      The new parameter is added to the method and the method’s code. It displays in the Class Details window and the Properties window.  
   
-4.  In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.  
+4. In the Properties window, type a value for the **Optional Default** property. Setting a parameter's Optional Default property makes that parameter optional.  
   
     > [!NOTE]
-    >  Optional parameters must be the last parameters in the parameter list.  
+    > Optional parameters must be the last parameters in the parameter list.  
   
-##  <a name="ClassDetailsUsageNotes"></a> Class Details Usage Notes  
+## <a name="ClassDetailsUsageNotes"></a> Class Details Usage Notes  
  Please note the following tips for using the Class Details window.  
   
  **Editable and non-editable cells**  
@@ -279,7 +279,7 @@ You can add these members to types on a class diagram and configure those member
   
   You can copy or cut fields or rows from the Class Details window and paste them into another type. You can cut a row only if it is not read-only. When you paste the row, Class Details window assigns a new name (derived from the name of the copied row) to avoid a conflict.  
   
-##  <a name="ReadOnlyInfo"></a> Display of Read-Only Information  
+## <a name="ReadOnlyInfo"></a> Display of Read-Only Information  
  Class Designer and the Class Details window can display the types (and members of types) for the following:  
   
 - a project that contains a class diagram  

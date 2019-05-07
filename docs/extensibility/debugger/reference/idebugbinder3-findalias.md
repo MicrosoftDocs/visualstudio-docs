@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugBinder3::FindAlias
 This method locates an alias, given a name. This will search all aliases in the program.
@@ -32,12 +35,12 @@ int FindAlias(
 );
 ```
 
-#### Parameters
- `pcstrName`
+## Parameters
+ `pcstrName`\
 
  [in] Name of alias to find.
 
- `ppAlias`
+ `ppAlias`\
 
  [out] Alias found (if any) represented by the [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) interface.
 
@@ -47,6 +50,6 @@ int FindAlias(
 ## Remarks
  This method initializes the destination object to null before calling; then it tests for a null value afterward to determine whether or not the alias was found.
 
-## See Also
+## See also
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

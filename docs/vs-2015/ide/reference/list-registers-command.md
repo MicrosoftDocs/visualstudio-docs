@@ -19,7 +19,6 @@ manager: jillfra
 # List Registers Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays the value of the selected registers and lets you modify the list of registers to show.  
   
 ## Syntax  

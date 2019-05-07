@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugField::GetKind
 This method gets the kind of field.
@@ -30,14 +33,14 @@ int GetKind(
 );
 ```
 
-#### Parameters
- `pdwKind`
+## Parameters
+ `pdwKind`\
 
  [out] Returns the kind of field as a combination of [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) constants.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md)

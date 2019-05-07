@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugModOpt::GetModOpts
 Retrieves a list of optional modifiers.
@@ -33,21 +36,21 @@ int GetModOpts(
 );
 ```
 
-#### Parameters
- `celt`
+## Parameters
+ `celt`\
 
  [in] Number of elements to be returned.
 
- `rgelt`
+ `rgelt`\
 
  [out] Returns an array that contains the options.
 
- `pceltFetched`
+ `pceltFetched`\
 
  [in, out] Number of elements returned in the `rgelt` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugModOpt](../../../extensibility/debugger/reference/idebugmodopt.md)

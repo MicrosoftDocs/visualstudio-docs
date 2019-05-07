@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # FIELD_MODIFIERS
 Specifies modifiers for a field type.
@@ -95,83 +98,83 @@ public enum enum_FIELD_MODIFIERS {
 };
 ```
 
-## Members
-FIELD_MOD_ACCESS_TYPE
+## Fields
+`FIELD_MOD_ACCESS_TYPE`\
 Indicates that the field cannot be accessed.
 
-FIELD_MOD_ACCESS_PUBLIC
+`FIELD_MOD_ACCESS_PUBLIC`\
 Indicates that the field has public access.
 
-FIELD_MOD_ACCESS_PROTECTED
+`FIELD_MOD_ACCESS_PROTECTED`\
 Indicates that the field has protected access.
 
-FIELD_MOD_ACCESS_PRIVATE
+`FIELD_MOD_ACCESS_PRIVATE`\
 Indicates that the field has private access.
 
-FIELD_MOD_NOMODIFIERS
+`FIELD_MOD_NOMODIFIERS`\
 Indicates that the field has no modifiers.
 
-FIELD_MOD_STATIC
+`FIELD_MOD_STATIC`\
 Indicates that the field is static.
 
-FIELD_MOD_CONSTANT
+`FIELD_MOD_CONSTANT`\
 Indicates that the field is a constant.
 
-FIELD_MOD_TRANSIENT
+`FIELD_MOD_TRANSIENT`\
 Indicates that the field is transient.
 
-FIELD_MOD_VOLATILE
+`FIELD_MOD_VOLATILE`\
 Indicates that the field is volatile.
 
-FIELD_MOD_ABSTRACT
+`FIELD_MOD_ABSTRACT`\
 Indicates that the field is abstract.
 
-FIELD_MOD_NATIVE
+`FIELD_MOD_NATIVE`\
 Indicates that the field is native.
 
-FIELD_MOD_SYNCHRONIZED
+`FIELD_MOD_SYNCHRONIZED`\
 Indicates that the field is synchronized.
 
-FIELD_MOD_VIRTUAL
+`FIELD_MOD_VIRTUAL`\
 Indicates that the field is virtual.
 
-FIELD_MOD_INTERFACE
+`FIELD_MOD_INTERFACE`\
 Indicates that the field is an interface.
 
-FIELD_MOD_FINAL
+`FIELD_MOD_FINAL`\
 Indicates that the field is final.
 
-FIELD_MOD_SENTINEL
+`FIELD_MOD_SENTINEL`\
 Indicates that the field is a sentinel.
 
-FIELD_MOD_INNERCLASS
+`FIELD_MOD_INNERCLASS`\
 Indicates that the field is an inner class.
 
-FIELD_TYPE_OPTIONAL
+`FIELD_TYPE_OPTIONAL`\
 Indicates that the field is optional.
 
-FIELD_MOD_BYREF
+`FIELD_MOD_BYREF`\
 Indicates that the field is a reference argument. This is specifically for method arguments.
 
-FIELD_MOD_HIDDEN
+`FIELD_MOD_HIDDEN`\
 Indicates that the field must be hidden or presented in another context; for example, [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] static locals.
 
-FIELD_MOD_MARSHALASOBJECT
+`FIELD_MOD_MARSHALASOBJECT`\
 Indicates that the field represents an object with an `IUnknown` interface.
 
-FIELD_MOD_SPECIAL_NAME
+`FIELD_MOD_SPECIAL_NAME`\
 Indicates that the field has a special name, for example, `.ctor` for a constructor ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] only).
 
-FIELD_MOD_HIDEBYSIG
+`FIELD_MOD_HIDEBYSIG`\
 Indicates that the field has the `Overloads` keyword applied to it ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] only).
 
-FIELD_MOD_WRITEONLY
+`FIELD_MOD_WRITEONLY`\
 Indicates that the field is write-only. This value is not included in `FIELD_MOD_ALL`, as the only use of such write-only fields is for function evaluation. A user must explicitly ask for `FIELD_MOD_WRITEONLY` fields.
 
-FIELD_MOD_ACCESS_MASK
+`FIELD_MOD_ACCESS_MASK`\
 Indicates a mask for field access.
 
-FIELD_MOD_MASK
+`FIELD_MOD_MASK`\
 Indicates a mask for field modifiers.
 
 ## Remarks
@@ -186,7 +189,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)
 - [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)

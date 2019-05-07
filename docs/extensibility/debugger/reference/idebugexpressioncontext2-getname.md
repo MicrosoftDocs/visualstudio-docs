@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExpressionContext2::GetName
 Retrieves the name of the evaluation context.
@@ -30,8 +33,8 @@ int GetName( 
 );
 ```
 
-#### Parameters
- `pbstrName`
+## Parameters
+ `pbstrName`\
 
  [out] Returns the name of the evaluation context.
 
@@ -45,5 +48,5 @@ int GetName( 
 "{ function-name, source-file-name, module-file-name }"
 ```
 
-## See Also
+## See also
 - [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)

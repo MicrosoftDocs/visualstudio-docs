@@ -32,7 +32,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 ## The MyBank solution example
 
-In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
+In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
 ![MyBank Solution](../test/media/ute_mybanksolution.png)
 
@@ -72,17 +72,20 @@ Now that we have some code, it's time for testing.
 
 ## Create unit test projects and test methods
 
-It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements.
+It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator).
 
 ### Generate unit test project and unit test stubs
 
-1. From the code editor window, right-click and choose **Create Unit Tests** from the right-click menu.
+1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
 
-    ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
+   ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
+
+   > [!NOTE]
+   > The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
-    ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png)
+    ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
 
 3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
@@ -96,30 +99,42 @@ A unit test project usually mirrors the structure of a single code project. In t
 
 **To add a unit test project to a solution:**
 
-1. On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
+1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
-2. On the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+::: moniker range="vs-2017"
+
+2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
 3. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
-   > [!WARNING]
+   > [!NOTE]
    > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. Use the project template search box to find a unit test project template for the test framework that you want to use.
+
+3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
+
+::: moniker-end
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
    To create the reference to the code project:
 
-   1.  Select the project in **Solution Explorer**.
+   1. Select the project in **Solution Explorer**.
 
-   2.  On the **Project** menu, choose **Add Reference**.
+   2. On the **Project** menu, choose **Add Reference**.
 
-   3.  On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
+   3. On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
 
 Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
+- `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
 
--   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
+- `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
 
 ## Write your tests
 
@@ -167,11 +182,11 @@ Note that `Withdraw_ValidAmount_ChangesBalance` uses an explicit `Assert` statem
 
 For more information about the Microsoft unit testing frameworks, see one of the following topics:
 
--   [Unit test your code](unit-test-your-code.md)
+- [Unit test your code](unit-test-your-code.md)
 
--   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
--   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 ## Set timeouts for unit tests
 
@@ -242,12 +257,12 @@ For more information, see [Run unit tests with Test Explorer](../test/run-unit-t
 
 **A:** Use **Test Explorer** to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
 
-1.  In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
+1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
+2. In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
 Learn more details about [debugging unit tests](../debugger/debugger-feature-tour.md).
 
@@ -309,9 +324,9 @@ Learn more about [code coverage](../test/using-code-coverage-to-determine-how-mu
 
 Microsoft Fakes uses two approaches to create substitute classes for external dependencies:
 
-1.  *Stubs* generate substitute classes derived from the parent interface of the target dependency class. Stub methods can be substituted for public virtual methods of the target class.
+1. *Stubs* generate substitute classes derived from the parent interface of the target dependency class. Stub methods can be substituted for public virtual methods of the target class.
 
-2.  *Shims* use runtime instrumentation to divert calls to a target method to a substitute shim method for non-virtual methods.
+2. *Shims* use runtime instrumentation to divert calls to a target method to a substitute shim method for non-virtual methods.
 
 In both approaches, you use the generated delegates of calls to the dependency method to specify the behavior that you want in the test method.
 

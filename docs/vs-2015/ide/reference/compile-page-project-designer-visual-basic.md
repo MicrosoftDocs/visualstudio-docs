@@ -23,7 +23,6 @@ manager: jillfra
 # Compile Page, Project Designer (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.  
   
  To access the **Compile** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Compile** tab.  
@@ -34,7 +33,7 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
  The following settings enable you to select the configuration and platform to display or modify.  
   
 > [!NOTE]
->  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
+> With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
  **Configuration**  
  Specifies which configuration settings to display or modify. The settings are **Debug** (default), **Release**, or **All Configurations**. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e) and [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md).  

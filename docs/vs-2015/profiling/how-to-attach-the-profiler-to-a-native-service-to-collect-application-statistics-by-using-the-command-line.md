@@ -16,10 +16,10 @@ manager: jillfra
 This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a native service and collect performance statistics by using the sampling method.  
 
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
 
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
 
  While the profiler is attached to the service, you can pause and resume data collection.  
 
@@ -45,7 +45,7 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
      You can use any of the following options with the **/start:sample** option.  
 
    > [!NOTE]
-   >  The **/user** and **/crosssession** options are usually required for services.  
+   > The **/user** and **/crosssession** options are usually required for services.  
 
    |                                 Option                                  |                                                                                                                                            Description                                                                                                                                             |
    |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -54,7 +54,6 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
    |    [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`     |                                                                                                             Specifies a Windows performance counter to be collected during profiling.                                                                                                              |
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                           Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                            |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                              Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                              |
-
 
 4. Attach the profiler to the service. Type:  
 
@@ -76,7 +75,7 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -89,15 +88,15 @@ This topic describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
 #### To end a profiling session  
 
-1.  Do one of the following to detach the profiler from the target application:  
+1. Do one of the following to detach the profiler from the target application:  
 
-    -   Stop the service.  
+    - Stop the service.  
 
          -or-  
 
-    -   Type **VSPerfCmd /detach**  
+    - Type **VSPerfCmd /detach**  
 
-2.  Shut down the profiler. Type:  
+2. Shut down the profiler. Type:  
 
      **VSPerfCmd /shutdown**  
 

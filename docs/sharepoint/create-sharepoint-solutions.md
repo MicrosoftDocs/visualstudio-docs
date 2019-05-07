@@ -16,10 +16,10 @@ ms.workload:
 # Create SharePoint solutions
   You can create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer. Visual Studio promotes rapid SharePoint development by providing such features as advanced debugging tools, IntelliSense, statement completion, and project templates. Visual Studio also takes advantage of advanced .NET Framework-based tools and languages. You can develop SharePoint projects by using either Visual Basic or Visual C#, and you can develop app for SharePoint projects by using JavaScript.
 
- For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://msdn.microsoft.com/library/jj162979.aspx) and [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+ For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://products.office.com/previous-versions/microsoft-sharepoint-2013) and [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 > [!NOTE]
->  Find out how to use the new [SharePoint add-in model](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) to extend the SharePoint experience for your users. These add-ins have very small footprints compared to SharePoint solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.
+> Find out how to use the new [SharePoint add-in model](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) to extend the SharePoint experience for your users. These add-ins have very small footprints compared to SharePoint solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.
 
 |||
 |-|-|

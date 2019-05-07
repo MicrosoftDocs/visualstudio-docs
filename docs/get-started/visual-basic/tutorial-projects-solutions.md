@@ -16,8 +16,19 @@ ms.workload:
 
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
 
+::: moniker range="vs-2017"
+
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
@@ -32,17 +43,35 @@ Despite its name, a solution is not an "answer". A solution is simply a containe
 
 We'll start our exploration by creating an empty solution. After you get to know Visual Studio, you probably won't find yourself creating empty solutions very often. When you create a new project, Visual Studio automatically creates a solution to house the project if there's not a solution already open.
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio.
 
-1. On the menu bar, which is the row of menus such as **File** and **Edit**, choose **File** > **New** > **Project**.
+1. On the menu bar, choose **File** > **New** > **Project**.
 
    The **New Project** dialog box opens.
 
-1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, then choose the **OK** button.
+1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, and then choose **OK**.
 
    ![Blank solution template in Visual Studio](../media/tutorial-projects-new-solution.png)
 
    The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio.
+
+2. On the start window, choose **Create a new project**.
+
+3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
+
+4. Name the solution **QuickSolution**, and then choose **Create**.
+
+   A solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
+
+::: moniker-end
 
 ### Add a project
 

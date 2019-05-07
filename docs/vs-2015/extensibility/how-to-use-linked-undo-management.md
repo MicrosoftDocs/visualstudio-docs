@@ -18,14 +18,14 @@ Linked undo allows the user to simultaneously undo the same edits in multiple fi
   
 ### To use linked undo  
   
-1.  Call `QueryService` on `SVsLinkedUndoManager` to get a pointer to `IVsLinkedUndoTransactionManager`.  
+1. Call `QueryService` on `SVsLinkedUndoManager` to get a pointer to `IVsLinkedUndoTransactionManager`.  
   
-2.  Create the initial parent linked undo unit by calling <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager.OpenLinkedUndo%2A>. This sets the starting point for a set of undo stacks to be grouped into linked undo stacks. In the `OpenLinkedUndo` method you will also need to specify whether you want the linked undo to be strict or non-strict. Non-strict linked undo behavior means that some of the documents with linked undo siblings can close and still leave the other linked undo siblings on their stacks. Strict linked undo behavior specifies that all the linked undo sibling stacks have to be undone together or not at all. Add the subsequent linked undo stacks by calling [IOleUndoManager::Add](/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add) method.  
+2. Create the initial parent linked undo unit by calling <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager.OpenLinkedUndo%2A>. This sets the starting point for a set of undo stacks to be grouped into linked undo stacks. In the `OpenLinkedUndo` method you will also need to specify whether you want the linked undo to be strict or non-strict. Non-strict linked undo behavior means that some of the documents with linked undo siblings can close and still leave the other linked undo siblings on their stacks. Strict linked undo behavior specifies that all the linked undo sibling stacks have to be undone together or not at all. Add the subsequent linked undo stacks by calling [IOleUndoManager::Add](/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-add) method.  
   
-3.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager.CloseLinkedUndo%2A> to roll back all of the linked undo units as one.  
+3. Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager.CloseLinkedUndo%2A> to roll back all of the linked undo units as one.  
   
     > [!NOTE]
-    >  To implement linked undo management in an editor, add undo management. For more information on implementing linked undo management, see [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md).  
+    > To implement linked undo management in an editor, add undo management. For more information on implementing linked undo management, see [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>   

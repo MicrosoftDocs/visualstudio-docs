@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugCoreServer3::CreateInstanceInServer
 Creates an instance of a debug engine on the server.
@@ -38,30 +41,30 @@ int CreateInstanceInServer(
 );
 ```
 
-#### Parameters
- `szDll`
+## Parameters
+ `szDll`\
 
  [in] Path to the dll that implements the CLSID specified in the `clsidObject` parameter. If this is `NULL`, then COM's `CoCreateInstance` function is called.
 
- `wLangId`
+ `wLangId`\
 
  [in] Locale of the debug engine. This can be 0 if the [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md) method should not be called.
 
- `clsidObject`
+ `clsidObject`\
 
  [in] CLSID of the debug engine to create.
 
- `riid`
+ `riid`\
 
  [in] Interface ID of the specific interface to retrieve from the class object.
 
- `ppvObject`
+ `ppvObject`\
 
  [out] `IUnknown` interface from the instantiated object. Cast or marshal this object to the desired interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
 - [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md)

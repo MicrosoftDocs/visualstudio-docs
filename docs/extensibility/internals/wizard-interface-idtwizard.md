@@ -32,23 +32,23 @@ STDMETHOD(Execute)(THIS_
 
  The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute%2A> method on the wizard, passing it the following:
 
--   The DTE object
+- The DTE object
 
      The DTE object is the root of the Automation model.
 
--   The handle to the window dialog box as shown in the code segment, `hwndOwner ([in] long)`.
+- The handle to the window dialog box as shown in the code segment, `hwndOwner ([in] long)`.
 
      The wizard uses this `hwndOwner` as the parent for the wizard dialog box.
 
--   Context parameters passed to the interface as variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* ContextParams`.
+- Context parameters passed to the interface as variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* ContextParams`.
 
      Context parameters contain an array of values that are specific to the kind of wizard being started and the current state of the project. The IDE passes  the context parameters to the wizard. For more information, see [Context Parameters](../../extensibility/internals/context-parameters.md).
 
--   Custom parameters passed to the interface as a variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* CustomParams`.
+- Custom parameters passed to the interface as a variant for SAFEARRAY as shown in the code segment, `[in] SAFEARRAY (VARIANT)* CustomParams`.
 
      Custom parameters contain an array of user-defined parameters. A .vsz file passes custom parameters to the IDE. The values are determined by the `Param=` statements. For more information, see [Custom Parameters](../../extensibility/internals/custom-parameters.md).
 
--   Return values for the interface are
+- Return values for the interface are
 
     ```
     wizardResultSuccess = -1,

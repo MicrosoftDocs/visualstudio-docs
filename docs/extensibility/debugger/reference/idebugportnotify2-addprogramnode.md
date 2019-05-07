@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPortNotify2::AddProgramNode
 Registers a program that can be debugged with the port it is running on.
@@ -30,8 +33,8 @@ int AddProgramNode( 
 );
 ```
 
-#### Parameters
- `pProgramNode`
+## Parameters
+ `pProgramNode`\
 
  [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program to be registered.
 
@@ -41,7 +44,7 @@ int AddProgramNode( 
 ## Remarks
  A program node can be unregistered from the port by calling the [RemoveProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) method.
 
-## See Also
+## See also
 - [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [RemoveProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md)

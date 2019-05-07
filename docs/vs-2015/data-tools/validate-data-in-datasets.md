@@ -28,7 +28,6 @@ manager: jillfra
 # Validate data in datasets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Validating data is the process of confirming that the values being entered into data objects conform to the constraints within a dataset's schema. The validation process also confirms that these values are following the rules that have been established for your application. It's a good practice to validate data prior to sending updates to the underlying database. This reduces errors as well as the potential number of round trips between an application and the database.  
   
  You can confirm that data that's being written to a dataset is valid by building validation checks into the dataset itself. The dataset can check the data no matter how the update is being performed — whether directly by controls in a form, within a component, or in some other way. Because the dataset is part of your application (unlike the database backend), it's a logical place to build application-specific validation.  
@@ -55,7 +54,7 @@ Validating data is the process of confirming that the values being entered into 
   By default, each change to a column therefore raises four events. The first is the <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.ColumnChanged> events for the specific column that's being changed. Next are the <xref:System.Data.DataTable.RowChanging> and <xref:System.Data.DataTable.RowChanged> events. If multiple changes are being made to the row, the events will be raised for each change.  
   
 > [!NOTE]
->  The data row's <xref:System.Data.DataRow.BeginEdit%2A> method turns off the <xref:System.Data.DataTable.RowChanging> and <xref:System.Data.DataTable.RowChanged> events after each individual column change. In that case, the event is not raised until the <xref:System.Data.DataRow.EndEdit%2A> method has been called, when the <xref:System.Data.DataTable.RowChanging> and <xref:System.Data.DataTable.RowChanged> events are raised just once. For more information, see [Turn off constraints while filling a dataset](../data-tools/turn-off-constraints-while-filling-a-dataset.md).  
+> The data row's <xref:System.Data.DataRow.BeginEdit%2A> method turns off the <xref:System.Data.DataTable.RowChanging> and <xref:System.Data.DataTable.RowChanged> events after each individual column change. In that case, the event is not raised until the <xref:System.Data.DataRow.EndEdit%2A> method has been called, when the <xref:System.Data.DataTable.RowChanging> and <xref:System.Data.DataTable.RowChanged> events are raised just once. For more information, see [Turn off constraints while filling a dataset](../data-tools/turn-off-constraints-while-filling-a-dataset.md).  
   
  The event you choose depends on how granular you want the validation to be. If it's important that you catch an error immediately when a column changes, build validation by using the <xref:System.Data.DataTable.ColumnChanging> event. Otherwise, use the <xref:System.Data.DataTable.RowChanging> event, which might result in catching several errors at once. Additionally, if your data is structured  so that the value of one column is validated based on the contents of another column, then perform your validation during the <xref:System.Data.DataTable.RowChanging> event.  
   
@@ -81,7 +80,7 @@ Validating data is the process of confirming that the values being entered into 
 ## Validate data during column changes  
   
 > [!NOTE]
->  The **Dataset Designer** creates a partial class in which validation logic can be added to a dataset. The designer-generated dataset doesn't delete or change any code in the partial class.  
+> The **Dataset Designer** creates a partial class in which validation logic can be added to a dataset. The designer-generated dataset doesn't delete or change any code in the partial class.  
   
  You can validate data when the value in a data column changes by responding to the <xref:System.Data.DataTable.ColumnChanging> event. When raised, this event passes an event argument (<xref:System.Data.DataColumnChangeEventArgs.ProposedValue%2A>) that contains the value that's being proposed for the current column. Based on the contents of `e.ProposedValue`, you can:  
   
@@ -98,25 +97,25 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To validate data when a row changes (Visual Basic)  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1. Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
-2.  Double-click the title bar of the table you want to validate. This action automatically creates the <xref:System.Data.DataTable.RowChanging> event handler of the <xref:System.Data.DataTable> in the dataset's partial-class file.  
+2. Double-click the title bar of the table you want to validate. This action automatically creates the <xref:System.Data.DataTable.RowChanging> event handler of the <xref:System.Data.DataTable> in the dataset's partial-class file.  
   
     > [!TIP]
-    >  Double-click to the left of the table name to create the row-changing event handler. If you double-click the table name, you can edit it.  
+    > Double-click to the left of the table name to create the row-changing event handler. If you double-click the table name, you can edit it.  
   
      [!code-vb[VbRaddataValidating#3](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataValidating/VB/NorthwindDataSet.vb#3)]  
   
 #### To validate data when a row changes (C#)  
   
-1.  Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
+1. Open your dataset in the **Dataset Designer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
-2.  Double-click the title bar of the table you want to validate. This action creates a partial-class file for the <xref:System.Data.DataTable>.  
+2. Double-click the title bar of the table you want to validate. This action creates a partial-class file for the <xref:System.Data.DataTable>.  
   
     > [!NOTE]
-    >  The **Dataset Designer** does not automatically create an event handler for the <xref:System.Data.DataTable.RowChanging> event. You have to create a method to handle the <xref:System.Data.DataTable.RowChanging> event, and run code to hook up the event in the table's initialization method.  
+    > The **Dataset Designer** does not automatically create an event handler for the <xref:System.Data.DataTable.RowChanging> event. You have to create a method to handle the <xref:System.Data.DataTable.RowChanging> event, and run code to hook up the event in the table's initialization method.  
   
-3.  Copy the following code into the partial class:  
+3. Copy the following code into the partial class:  
   
     ```  
     public override void EndInit()  
@@ -142,7 +141,7 @@ Validating data is the process of confirming that the values being entered into 
  Each row in a data table has a <xref:System.Data.DataRow.RowState%2A> property that keeps track of the current state of that row by using the values in the <xref:System.Data.DataRowState> enumeration. You can return changed rows from a dataset or data table by calling the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable>. You can verify that changes exist prior to calling `GetChanges` by calling the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset. For more information about <xref:System.Data.DataSet.HasChanges%2A>, see [How to: Check for Changed Rows](http://msdn.microsoft.com/library/af160d20-472b-4c13-8f15-75480c39a653).  
   
 > [!NOTE]
->  After you commit changes to a dataset or data table (by calling the <xref:System.Data.DataSet.AcceptChanges%2A> method), the `GetChanges` method returns no data. If your application needs to process changed rows, you must process the changes before calling the `AcceptChanges` method.  
+> After you commit changes to a dataset or data table (by calling the <xref:System.Data.DataSet.AcceptChanges%2A> method), the `GetChanges` method returns no data. If your application needs to process changed rows, you must process the changes before calling the `AcceptChanges` method.  
   
  Calling the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset or data table returns a new dataset or data table that contains only records that have been changed. If you want to get specific records — for example, only new records or only modified records — you can pass a value from the <xref:System.Data.DataRowState> enumeration as a parameter to the `GetChanges` method.  
   
@@ -150,7 +149,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get all changed records from a dataset  
   
--   Call the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset.  
+- Call the <xref:System.Data.DataSet.GetChanges%2A> method of a dataset.  
   
      The following example creates a new dataset called `changedRecords` and populates it with all the changed records from another dataset called `dataSet1`.  
   
@@ -159,7 +158,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get all changed records from a data table  
   
--   Call the <xref:System.Data.DataTable.GetChanges%2A> method of a DataTable.  
+- Call the <xref:System.Data.DataTable.GetChanges%2A> method of a DataTable.  
   
      The following example creates a new data table called `changedRecordsTable` and populates it with all the changed records from another data table called `dataTable1`.  
   
@@ -168,14 +167,14 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get all records that have a specific row state  
   
--   Call the `GetChanges` method of a dataset or data table and pass a <xref:System.Data.DataRowState> enumeration value as an argument.  
+- Call the `GetChanges` method of a dataset or data table and pass a <xref:System.Data.DataRowState> enumeration value as an argument.  
   
      The following example shows how to create a new dataset called `addedRecords` and populate it only with records that have been added to the `dataSet1` dataset.  
   
      [!code-csharp[VbRaddataEditing#16](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#16)]
      [!code-vb[VbRaddataEditing#16](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#16)]  
   
--   The following example shows how to return all records that were recently added to the `Customers` table:  
+- The following example shows how to return all records that were recently added to the `Customers` table:  
   
      [!code-csharp[VbRaddataEditing#17](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataEditing/CS/Form1.cs#17)]
      [!code-vb[VbRaddataEditing#17](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#17)]  
@@ -184,13 +183,13 @@ Validating data is the process of confirming that the values being entered into 
  When changes are made to data rows, the dataset retains both the original (<xref:System.Data.DataRowVersion>) and new (<xref:System.Data.DataRowVersion>) versions of the row. For example, before calling the `AcceptChanges` method, your application can access the different versions of a record (as defined in the <xref:System.Data.DataRowVersion> enumeration) and process the changes accordingly.  
   
 > [!NOTE]
->  Different versions of a row exist only after it has been edited and before it the `AcceptChanges` method has been called. After the `AcceptChanges` method has been called, the current and original versions are the same.  
+> Different versions of a row exist only after it has been edited and before it the `AcceptChanges` method has been called. After the `AcceptChanges` method has been called, the current and original versions are the same.  
   
  Passing the <xref:System.Data.DataRowVersion> value along with the column index (or column name as a string) returns the value from that column's particular row version. The changed column is identified during the <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.ColumnChanged> events. This is a good time to inspect the different row versions for validation purposes. However, if you have temporarily suspended constraints, those events won't be raised, and you will need to programmatically identify which columns have changed. You can do this by iterating through the <xref:System.Data.DataTable.Columns%2A> collection and comparing the different <xref:System.Data.DataRowVersion> values.  
   
 #### To get the original version of a record  
   
--   Access the value of a column by passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
+- Access the value of a column by passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
   
      The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
@@ -201,7 +200,7 @@ Validating data is the process of confirming that the values being entered into 
   
 #### To get the current version of a record  
   
--   Access the value of a column, and then add a parameter to the index that indicates which version of a row you want to return.  
+- Access the value of a column, and then add a parameter to the index that indicates which version of a row you want to return.  
   
      The following example shows how to use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   

@@ -312,10 +312,7 @@ A text value is required. This text specifies the unique identifier for the obje
 
 ## Import element
 
-Specifies the imported namespaces used by an IntelliSense Code Snippet.
-
-> [!NOTE]
-> The `Import` element is only supported for Visual Basic projects.
+Specifies the imported namespaces used by an IntelliSense code snippet.
 
 ```xml
 <Import>
@@ -334,9 +331,6 @@ Specifies the imported namespaces used by an IntelliSense Code Snippet.
 ## Imports element
 
 Groups individual `Import` elements.
-
-> [!NOTE]
-> The `Imports` element is only supported for Visual Basic projects.
 
 ```xml
 <Imports>
@@ -419,10 +413,7 @@ Literals and objects cannot contain an **ID** element with a value of selected o
 
 ## Namespace element
 
-Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to an `Imports` statement at the beginning of the code, if it does not already exist.
-
-> [!NOTE]
-> The `Namespace` element is only supported for Visual Basic projects.
+Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to a `using` directive or `Imports` statement at the beginning of the code if it doesn't already exist.
 
 ```xml
 <Namespace>
@@ -563,11 +554,11 @@ Specifies how Visual Studio inserts the code snippet.
 
 The text value must be one of the following values:
 
--   `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
+- `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
 
--   `Expansion`: allows the code snippet to be inserted at the cursor.
+- `Expansion`: allows the code snippet to be inserted at the cursor.
 
--   `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
+- `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
 
 ## SnippetTypes element
 

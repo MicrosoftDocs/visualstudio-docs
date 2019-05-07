@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::AddDBCSText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -46,7 +45,7 @@ HRESULT AddDBCSText(
  This method generates `IDebugDocumentTextEvents` notifications.  
   
 > [!NOTE]
->  If this method is called after `IDebugDocumentHelper::AddDeferredText` has been called, `E_FAIL` is returned.  
+> If this method is called after `IDebugDocumentHelper::AddDeferredText` has been called, `E_FAIL` is returned.  
   
 ## See Also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
