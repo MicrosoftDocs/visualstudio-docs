@@ -2736,6 +2736,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/developer-testing-scenarios.md",
+            "redirect_url": "/visualstudio/code-quality/improve-code-quality",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
             "redirect_url": "/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp",
             "redirect_document_id": false
