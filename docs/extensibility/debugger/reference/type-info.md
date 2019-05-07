@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # TYPE_INFO
 This structure specifies various kinds of information about a field's type.
@@ -37,29 +40,29 @@ public struct TYPE_INFO {
 };
 ```
 
-#### Parameters
- dwKind
+## Members
+ `dwKind`\
  A value from the [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) enumeration that determines how to interpret the union.
 
- type.typeMeta
+ `type.typeMeta`\
 
  [C++ only] Contains a [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) structure if `dwKind` is `TYPE_KIND_METADATA`.
 
- type.typePdb
+ `type.typePdb`\
 
  [C++ only] Contains a [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) structure if `dwKind` is `TYPE_KIND_PDB`.
 
- type.typeBuilt
+ `type.typeBuilt`\
 
  [C++ only] Contains a [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) structure if `dwKind` is `TYPE_KIND_BUILT`.
 
- type.unused
+ `type.unused`\
  Unused padding.
 
- type
+ `type`\
  Name of the union.
 
- unionmember
+ `unionmember`\
 
  [C# only] Marshal this to the appropriate structure type based on `dwKind`.
 
@@ -109,7 +112,7 @@ namespace MyPackage
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
 - [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROVIDER_FLAGS
 Specifies desired properties to be obtained from a program provider.
@@ -43,26 +46,26 @@ public enum enum_PROVIDER_FLAGS {
 };
 ```
 
-## Members
- PFLAG_NONE
+## Fields
+ `PFLAG_NONE`\
  No flags specified.
 
- PFLAG_REMOTE_PORT
+ `PFLAG_REMOTE_PORT`\
  Caller wants a list of programs on a different machine than [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
 
- PFLAG_DEBUGGEE
+ `PFLAG_DEBUGGEE`\
  The process is currently being debugged by this instance of [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
 
- PFLAG_ATTACH_TODEBUGGEE
+ `PFLAG_ATTACH_TODEBUGGEE`\
  [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] is attached to the program being debugged but did not launch it.
 
- PFLAG_REASON_WATCH
+ `PFLAG_REASON_WATCH`\
  [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] is watching for events.
 
- PFLAG_GET_PROGRAM_NODES
+ `PFLAG_GET_PROGRAM_NODES`\
  Caller wants the `ProgramNodes` field of the [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) structure.
 
- PFLAG_GET_IS_DEBUGGER_PRESENT
+ `PFLAG_GET_IS_DEBUGGER_PRESENT`\
  Caller wants the `fIsTheDebuggerPresent` field of the `PROVIDER_PROCESS_DATA` structure.
 
 ## Remarks
@@ -83,7 +86,7 @@ public enum enum_PROVIDER_FLAGS {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)
 - [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # TEXT_DOC_ATTR_2
 Describes the attributes of a document.
@@ -28,7 +31,7 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 ```
 
 ## Members
- TEXT_DOC_ATTR_READONLY_2
+ `TEXT_DOC_ATTR_READONLY_2`\
  Indicates that the document is read-only.
 
 ## Remarks
@@ -45,6 +48,6 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [onUpdateDocumentAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatedocumentattributes.md)

@@ -418,5 +418,5 @@ HRESULT EnumMetricSections(
 
  Library: libs\ad2de.lib, libs\dbgmetric.lib
 
-## See Also
+## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
