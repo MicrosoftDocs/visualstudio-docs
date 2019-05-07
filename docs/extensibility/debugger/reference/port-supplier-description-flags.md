@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 
@@ -32,9 +35,9 @@ public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 };
 ```
 
-## Terms
+## Fields
 
-`PSDFLAG_SHOW_WARNING_ICON`
+`PSDFLAG_SHOW_WARNING_ICON`\
 
 If selected, the warning icon will be displayed in the UI.
 

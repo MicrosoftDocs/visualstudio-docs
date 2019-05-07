@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MODULE_INFO
 Describes a particular module (DLL, EXE, or assembly).
@@ -53,40 +56,40 @@ public struct MODULE_INFO { 
 ```
 
 ## Members
- dwValidFields
+ `dwValidFields
  A combination of flags from the [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) enumeration that specifies which fields are filled out.
 
- m_bstrName
+ `m_bstrName`\
  The module name.
 
- m_bstrUrl
+ `m_bstrUrl`\
  The module URL.
 
- m_bstrVersion
+ `m_bstrVersion`\
  The module version.
 
- m_bstrDebugMessage
+ `m_bstrDebugMessage`\
  An optional message about the module, for example, "Symbols cannot be loaded."
 
- m_addrLoadAddress
+ `m_addrLoadAddress`\
  The module load address.
 
- m_addrPreferredLoadAddress
+ `m_addrPreferredLoadAddress`\
  The preferred load address of the module.
 
- m_dwSize
+ `m_dwSize`\
  The module size.
 
- m_dwLoadOrder
+ `m_dwLoadOrder`\
  The module load order.
 
- m_TimeStamp
+ `m_TimeStamp`\
  The time the symbol file was last modified.
 
- m_bstrUrlSymbolLocation
+ `m_bstrUrlSymbolLocation`\
  The location of the symbol file (for example, ".\\") specified in the module. Used as a starting location to find symbols for a module.
 
- m_dwModuleFlags
+ `m_dwModuleFlags`\
  A combination of flags from the [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md) enumeration that describes the module.
 
 ## Remarks
@@ -101,7 +104,7 @@ public struct MODULE_INFO { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
 - [MODULE_FLAGS](../../../extensibility/debugger/reference/module-flags.md)
