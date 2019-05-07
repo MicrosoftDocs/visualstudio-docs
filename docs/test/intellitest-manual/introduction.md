@@ -104,7 +104,7 @@ Once compiled and executed, IntelliTest generates a set of tests such as the fol
 7. "Hello\0World!"
 8. "Hello World!"
 
-Read [Generate unit tests with Intellitest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following code:
+Read [Generate unit tests with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following code:
 
 ```csharp
 [TestMethod]
