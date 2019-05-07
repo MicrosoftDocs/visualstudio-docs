@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugObjects::Reset
 This method resets the enumeration to the first element.
@@ -26,7 +29,7 @@ HRESULT Reset(void);
 int Reset();
 ```
 
-#### Parameters
+## Parameters
  None
 
 ## Return Value
@@ -35,6 +38,6 @@ int Reset();
 ## Remarks
  After this method is called, the next call to [Next](../../../extensibility/debugger/reference/ienumdebugobjects-next.md) returns the first element of the enumeration.
 
-## See Also
+## See also
 - [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)
 - [Next](../../../extensibility/debugger/reference/ienumdebugobjects-next.md)

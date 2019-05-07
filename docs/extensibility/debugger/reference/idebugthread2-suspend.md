@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::Suspend
 Suspends a thread.
@@ -30,8 +33,8 @@ HRESULT Suspend ( 
 );
 ```
 
-#### Parameters
- `pdwSuspendCount`
+## Parameters
+ `pdwSuspendCount`\
 
  [out] Returns the suspend count after the suspend operation.
 
@@ -43,6 +46,6 @@ HRESULT Suspend ( 
 
  For each call to this method, there must be a later call to the [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md) method.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)

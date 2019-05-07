@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetContextFromAddress
 This method maps a debug address into a document context.
@@ -32,19 +35,19 @@ int GetContextFromAddress(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+ `pAddress`\
 
  [in] The debug address as represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- `ppDocContext`
+ `ppDocContext`\
 
  [out] Returns a document context as represented by an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

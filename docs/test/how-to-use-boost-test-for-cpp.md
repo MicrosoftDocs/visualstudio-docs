@@ -1,6 +1,7 @@
 ---
 title: "How to use Boost.Test for C++"
-ms.date: 01/29/2018
+description: Use Boost.Test to create unit tests in Visual Studio.
+ms.date: 05/06/2019
 ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
@@ -10,11 +11,11 @@ ms.workload:
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
-In **Visual Studio 2017 version 15.5** and later, the Boost.Test test adapter is integrated into the Visual Studio IDE as a component of the **Desktop development with C++** workload.
+In Visual Studio 2017 and later, the Boost.Test test adapter is integrated into the Visual Studio IDE as a component of the **Desktop development with C++** workload.
 
 ![Test Adapter for Boost.Test](media/cpp-boost-component.png)
 
-If you don't have the **Desktop development with C++** workload installed, open **Visual Studio Installer** and select **Modify**. Select the **Desktop development with C++** workload, then choose the **Modify** button.
+If you don't have the **Desktop development with C++** workload installed, open **Visual Studio Installer**. Select the **Desktop development with C++** workload, then choose the **Modify** button.
 
 ## Install Boost
 
@@ -42,7 +43,7 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add-include-directives).
 
-## Create a test project (Visual Studio 2017 version 15.5)
+## Create a test project
 
 In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests.
 

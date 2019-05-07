@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::GetThreadProperties
 Gets the properties that describe this thread.
@@ -32,12 +35,12 @@ int GetThreadProperties (
 );
 ```
 
-#### Parameters
-`dwFields`
+## Parameters
+`dwFields`\
 
  [in] A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration that determines which fields of `ptp` are to be filled in.
 
-`ptp`
+`ptp`\
 
  [in, out] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure that is filled in with the properties of the thread.
 
@@ -86,7 +89,7 @@ HRESULT CProgram::GetThreadProperties(THREADPROPERTY_FIELDS dwFields,
 }
 ```
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)
 - [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md)

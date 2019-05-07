@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugTypeFieldBuilder2::CreateArrayOfType
 Creates an array of the specified type and size.
@@ -33,21 +36,21 @@ int CreateArrayOfType (
 );
 ```
 
-#### Parameters
- `pTypeField`
+## Parameters
+ `pTypeField`\
 
  [in] Type of elements the array will hold.
 
- `rank`
+ `rank`\
 
  [in] Number of elements in the array.
 
- `pArrayOfTypeField`
+ `pArrayOfTypeField`\
 
  [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) objects that represent the new array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugTypeFieldBuilder2](../../../extensibility/debugger/reference/idebugtypefieldbuilder2.md)
