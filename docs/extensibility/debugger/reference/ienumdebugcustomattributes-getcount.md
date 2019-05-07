@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugCustomAttributes::GetCount
 Gets the number of custom attributes in an enumerator.
@@ -30,8 +33,8 @@ int GetCount(
 );
 ```
 
-#### Parameters
- `pcelt`
+## Parameters
+ `pcelt`\
 
  [out] Returns the number of elements in the enumeration.
 
@@ -41,5 +44,5 @@ int GetCount(
 ## Remarks
  This method is not part of the customary COM enumeration interface which specifies that only `Next`, `Clone`, `Skip`, and `Reset` need to be implemented.
 
-## See Also
+## See also
 - [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)
