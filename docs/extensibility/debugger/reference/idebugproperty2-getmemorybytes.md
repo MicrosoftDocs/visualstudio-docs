@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty2::GetMemoryBytes
 Gets the memory bytes that compose the value of a property.
@@ -30,14 +33,14 @@ int GetMemoryBytes ( 
 );
 ```
 
-#### Parameters
- `ppMemoryBytes`
+## Parameters
+ `ppMemoryBytes`\
 
  [out] Returns an [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object that can be used to retrieve the memory that contains the value of the property.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code. Returns `S_GETMEMORYBYTES_NO_MEMORY_BYTES` if there are no memory bytes to retrieve.
 
-## See Also
+## See also
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

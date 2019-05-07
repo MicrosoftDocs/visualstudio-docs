@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty2::SetValueAsString
 Sets the value of a property from a given string.
@@ -34,16 +37,16 @@ int SetValueAsString ( 
 );
 ```
 
-#### Parameters
- `pszValue`
+## Parameters
+ `pszValue`\
 
  [in] A string containing the value to be set.
 
- `nRadix`
+ `nRadix`\
 
  [in] A radix to be used in interpreting any numerical information. This can be 0 to attempt to determine the radix automatically.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
@@ -55,5 +58,5 @@ int SetValueAsString ( 
 |`E_SETVALUE_VALUE_CANNOT_BE_SET`|The string could not be converted into a property value, or the property value could not be set.|
 |`E_SETVALUE_VALUE_IS_READONLY`|The property is read-only.|
 
-## See Also
+## See also
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

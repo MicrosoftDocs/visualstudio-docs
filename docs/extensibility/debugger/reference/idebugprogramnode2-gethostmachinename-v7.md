@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::GetHostMachineName_V7
 
@@ -32,9 +35,9 @@ int GetHostMachineName_V7 (
 );
 ```
 
-#### Parameters
+## Parameters
 
-`pbstrHostMachineName`
+`pbstrHostMachineName`\
 
  [out] Returns the name of the machine in which the program is running.
 
@@ -47,6 +50,6 @@ An implementation should always return `E_NOTIMPL`.
 > [!WARNING]
 > As of Visual Studio 2005, this method is no longer used and should always return `E_NOTIMPL`.
 
-## See Also
+## See also
 
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

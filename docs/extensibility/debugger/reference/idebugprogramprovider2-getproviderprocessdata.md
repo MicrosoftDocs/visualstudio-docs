@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramProvider2::GetProviderProcessData
 Retrieves a list of running programs from a specified process.
@@ -38,8 +41,8 @@ int GetProviderProcessData(
 );
 ```
 
-#### Parameters
- `Flags`
+## Parameters
+ `Flags`\
 
  [in] A combination of flags from the [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) enumeration. The following flags are typical for this call:
 
@@ -50,19 +53,19 @@ int GetProviderProcessData(
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|Caller was attached to but not launched by the debugger.|
 |`PFLAG_GET_PROGRAM_NODES`|Caller is asking for a list of program nodes to be returned.|
 
- `pPort`
+ `pPort`\
 
  [in] The port the calling process is running on.
 
- `processId`
+ `processId`\
 
  [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure holding the ID of the process that contains the program in question.
 
- `EngineFilter`
+ `EngineFilter`\
 
  [in] An array of GUIDs for debug engines assigned to debug this process (these will be used to filter the programs that are actually returned based on what the supplied engines support; if no engines are specified, then all programs will be returned).
 
- `pProcess`
+ `pProcess`\
 
  [out] A [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) structure that is filled in with the requested information.
 
@@ -72,7 +75,7 @@ int GetProviderProcessData(
 ## Remarks
  This method is normally called by a process to obtain a list of programs running in that process. The returned information is a list of [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objects.
 
-## See Also
+## See also
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
 - [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

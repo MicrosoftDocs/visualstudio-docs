@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent
 Tells the program publisher that a debugger is present and running.
@@ -30,8 +33,8 @@ int SetDebuggerPresent(
 );
 ```
 
-#### Parameters
- `fDebuggerPresent`
+## Parameters
+ `fDebuggerPresent`\
 
  [in] Non-zero (`TRUE`) if a debugger is present, zero (`FALSE`) if it is not.
 
@@ -41,6 +44,6 @@ int SetDebuggerPresent(
 ## Remarks
  The presence or absence of a debugger is reflected in the data returned from the [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) method: the value returned there is set or cleared by a prior call to the `SetDebuggerPresent` method.
 
-## See Also
+## See also
 - [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
 - [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)
