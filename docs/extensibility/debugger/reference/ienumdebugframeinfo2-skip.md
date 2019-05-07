@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugFrameInfo2::Skip
 Skips over the specified number of elements.
@@ -30,8 +33,8 @@ int Skip(
 );
 ```
 
-#### Parameters
- `celt`
+## Parameters
+ `celt`\
 
  [in] Number of elements to skip.
 
@@ -41,5 +44,5 @@ int Skip(
 ## Remarks
  If `celt` specifies a value greater than the number of remaining elements, the enumeration is set to the end and `S_FALSE` is returned.
 
-## See Also
+## See also
 - [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)
