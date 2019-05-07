@@ -93,6 +93,19 @@ Often, changes will need further inspection, leveraging the debugging features o
 
    ![Breakpoint](media/edit-and-refresh/breakpoint.png)
 
+## Create a .NET Framework Console App
+
+When using .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you are only using a single Docker project.
+
+1. Create a new .NET Framework Console app project.
+1. In **Solution Explorer**, right-click on the project node, and choose **Add** > **Container Orchestration Support**.  In the dialog that appears, choose **Docker Compose**. A Dockerfile is added to your project, and a Docker Compose project is added with associated support files.
+
+### Edit your code and refresh
+
+
+
+### Debug with breakpoints
+
 ## Summary
 
 With Docker support in Visual Studio, you can get the productivity of working locally,
