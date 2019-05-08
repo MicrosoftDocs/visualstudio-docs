@@ -62,7 +62,7 @@ On Visual Studio 2017 version 15.5 and later, you can install the [Microsoft Cod
 
 3. In the search box, type "code analysis", and look for the **Microsoft Code Analysis 2017** extension.
 
-   ![Microsoft Code Analysis extension](media/extensions-and-updates-code-analysis.png)
+   ![Microsoft Code Analysis 2017 extension](media/extensions-and-updates-code-analysis.png)
 
 ::: moniker-end
 
@@ -81,6 +81,8 @@ The [Microsoft Code Analysis 2019](https://marketplace.visualstudio.com/items?it
 
 3. In the search box, type "code analysis", and look for the **Microsoft Code Analysis 2019** extension.
 
+   ![Microsoft Code Analysis 2019 extension](media/manage-extensions-code-analysis.png)
+
 ::: moniker-end
 
 4. Select **Download**.
@@ -91,13 +93,17 @@ The [Microsoft Code Analysis 2019](https://marketplace.visualstudio.com/items?it
 
    The **VSIX Installer** dialog box opens.
 
+   ::: moniker range="vs-2017"
+
    ![VSIX installer for Microsoft Code Analysis](media/vsix-installer-code-analysis.png)
+
+   ::: moniker-end
 
 6. Select **Modify** to start the installation.
 
-7. After a minute or two, the installation completes. Select **Close**.
+   After a minute or two, the installation completes.
 
-8. Open Visual Studio again.
+7. Select **Close**, then open Visual Studio again.
 
 ::: moniker range="vs-2017"
 
