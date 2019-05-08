@@ -10,9 +10,9 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# Emulate expected real-world usage of a website or application in a load test using a test mix model
+# Test mix models overview
 
-You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.
+You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load testing. It's important to do this because a load test that's not based on an accurate load model can generate misleading results.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
@@ -34,7 +34,8 @@ You can specify one of the following test mix model options for your load test s
 - **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete. For more information, see [Sequential order](#SequentialOrder).
 
 ### <a name="BasedOnTestsStarted"></a> Percentage based on tests started
- For each test in the mix, you can specify a percentage that determines how frequently the test is selected as the next test to run. For example, you might assign the following percentage values to three tests:
+
+For each test in the mix, you can specify a percentage that determines how frequently the test is selected as the next test to run. For example, you might assign the following percentage values to three tests:
 
 - TestA (50%)
 
@@ -42,13 +43,14 @@ You can specify one of the following test mix model options for your load test s
 
 - TestC (15%)
 
-  If you use this setting, the next test to start is based on the assigned percentages. You do this without taking into account the number of virtual users who are currently running each test.
+If you use this setting, the next test to start is based on the assigned percentages. You do this without taking into account the number of virtual users who are currently running each test.
 
 ### <a name="PercentageBasedonVirtualUsers"></a> Percentage based on virtual users
  This model of test mix determines the percentage of virtual users who will run a particular test. If you use this model of test mix, the next test to start is based not only on the assigned percentages but also on the percentage of virtual users who are currently running a particular test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution as closely as possible.
 
 ### <a name="PacingTestMix"></a> Pacing test mix
- If you specify a pacing test mix, you set a rate of test execution for each virtual user for each test in the test mix. For each test, this rate is expressed as tests run per virtual user per hour. For example, you might assign the following pacing test mix to the following tests:
+
+If you specify a pacing test mix, you set a rate of test execution for each virtual user for each test in the test mix. For each test, this rate is expressed as tests run per virtual user per hour. For example, you might assign the following pacing test mix to the following tests:
 
 - TestA: 4 tests per user per hour
 
@@ -56,9 +58,9 @@ You can specify one of the following test mix model options for your load test s
 
 - TestC: 0.125 tests per user per hour
 
-  If you use the pacing test mix model, the load test runtime engine guarantees that the actual rate at which tests are started is less than or equal to the specified rate. If the tests run too long for the assigned number to be completed, an error is returned.
+If you use the pacing test mix model, the load test runtime engine guarantees that the actual rate at which tests are started is less than or equal to the specified rate. If the tests run too long for the assigned number to be completed, an error is returned.
 
-  The **Think Time Between Test Iterations** setting does not apply when you use a pacing test mix.
+The **Think Time Between Test Iterations** setting does not apply when you use a pacing test mix.
 
 #### Apply distribution to pacing delay
  The value for the **Apply Distribution to Pacing Delay** property in a load test scenario can be set to either true or false:
