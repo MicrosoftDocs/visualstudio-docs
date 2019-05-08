@@ -110,7 +110,7 @@ Both teams also use dependency validation to make sure that code under developme
 
 There is no prescribed order for using the Visual Studio modeling diagrams, so you can use them as they fit with your needs or approach. Usually, teams revisit their models iteratively and frequently throughout a project. Each diagram offers particular strengths to help you understand, describe, and communicate different aspects of the system under development.
 
-Dinner Now and Lucerne communicate with each another and with project stakeholders by using diagrams as their common language. For example, Dinner Now uses diagrams to perform these tasks:
+Dinner Now and Lucerne communicate with each other and with project stakeholders by using diagrams as their common language. For example, Dinner Now uses diagrams to perform these tasks:
 
 - Visualize existing code.
 
@@ -200,7 +200,7 @@ Visual Studio modeling diagrams are integrated with Team Foundation Server so th
 
 As their work progresses, the teams update their work items to reflect the time that they spent on their tasks. They also monitor and report status on their work by using the following Team Foundation Server features:
 
-- Daily *burndown reports* that show whether they will complete the planned work in the expected time. They generate other similar reports from Team Foundation Server to track the progress of bugs.
+- Daily *burn down reports* that show whether they will complete the planned work in the expected time. They generate other similar reports from Team Foundation Server to track the progress of bugs.
 
 - An *iteration worksheet* that uses Microsoft Excel to help the team monitor and balance the workload between its members. This worksheet is linked to Team Foundation Server and provides focus for discussion during their regular progress meetings.
 
@@ -323,7 +323,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 
 |**Diagram**|**Describes**|
 |-|-|
-|Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencys or intended dependencys, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
+|Dependency diagram|The logical architecture of the system. Use dependency validation to make sure that the code stays consistent with the design.<br /><br /> To help you identify existing dependencies or intended dependencies, create a code map and group related items. To create a dependency diagram, see:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)|
 |Class diagram (code-based)|Existing classes in code for a specific project.<br /><br /> To visualize and modify an existing class in code, use Class Designer.<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).|
 
 ### <a name="DefineClasses"></a> Define a Glossary of Types: Class Diagrams
