@@ -16,7 +16,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Use 3D assets in your game or app
+# How to: Use 3D assets in your game or app
 
 This article describes how you can use Visual Studio to process 3D assets and include them in your builds.
 
@@ -28,7 +28,9 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 
 ### To add the build customizations to your project
 
-1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies** > **Build Customizations**. The **Visual C++ Build Customizations Files** dialog box appears.
+1. In **Solution Explorer**, open the shortcut menu for the project, and then choose **Build Dependencies** > **Build Customizations**.
+
+   The **Visual C++ Build Customizations Files** dialog box appears.
 
 2. Under **Available Build Customization Files**, select the check boxes that correspond to the asset types that you want to use in your project, as described in the following table:
 
@@ -41,11 +43,14 @@ Before you can deploy your 3D assets as part of your build, Visual Studio has to
 3. Choose the **OK** button.
 
 ## Include assets in your build
- Now that your project knows about the different kinds of 3D assets that you want to use, the next step is to tell it which files are 3D assets, and which kinds of assets they are.
+
+Now that your project knows about the different kinds of 3D assets that you want to use, the next step is to tell it which files are 3D assets and what kinds of assets they are.
 
 ### To add an asset to your build
 
-1. In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**. The asset's **Property Page** dialog box appears.
+1. In **Solution Explorer**, in your project, open the shortcut menu of an asset, and then choose **Properties**.
+
+   The asset's **Property Page** dialog box appears.
 
 2. Make sure that the **Configuration** and **Platform** properties are set to the values to which you want your changes to apply.
 
@@ -70,11 +75,13 @@ You can set the content pipeline properties of each asset file so that it will b
 
 ### To configure content pipeline properties
 
-1. In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**. The asset's **Property Page** dialog box appears.
+1. In **Solution Explorer**, in your project, open the shortcut menu for the asset file, and then choose **Properties**.
+
+   The asset's **Property Page** dialog box appears.
 
 2. Make sure that the **Configuration** and **Platform** properties are set to the values that you want your changes to apply to.
 
-3. Under **Configuration Properties**, choose the content pipeline node—for example, **Image Content Pipeline** for texture and image assets—and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.
+3. Under **Configuration Properties**, choose the content pipeline node (for example, **Image Content Pipeline** for texture and image assets), and then in the property grid, set the properties to the appropriate values. For example, to generate mipmaps for a texture asset at build time, set the **Generate Mips** property to **Yes**.
 
 4. Choose the **OK** button.
 
@@ -202,6 +209,6 @@ cbuffer MiscVars : register(b3)
 |-----------|-----------------|
 |[How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|
 |[How to: Export a texture that has premultiplied alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|
-|[How to: Export a texture for use with Direct2D or Javascipt apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|
+|[How to: Export a texture for use with Direct2D or JavaScript apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|
 |[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3D assets, which include textures and images, 3D models, and shaders.|
 |[How to: Export a shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|

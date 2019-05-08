@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # OBJECT_TYPE
 Specifies the type of an object from the expression evaluator.
@@ -59,50 +62,50 @@ public enum enum_OBJECT_TYPE { 
 };
 ```
 
-## Members
- OBJECT_TYPE_BOOLEAN
+## Fields
+ `OBJECT_TYPE_BOOLEAN`\
  Indicates that the object is a Boolean.
 
- OBJECT_TYPE_CHAR
+ `OBJECT_TYPE_CHAR`\
  Indicates that the object is a character.
 
- OBJECT_TYPE_I1
+ `OBJECT_TYPE_I1`\
  Indicates that the object is a one-byte signed integer.
 
- OBJECT_TYPE_U1
+ `OBJECT_TYPE_U1`\
  Indicates that the object is a one-byte unsigned integer.
 
- OBJECT_TYPE_I2
+ `OBJECT_TYPE_I2`\
  Indicates that the object is a two-byte signed integer.
 
- OBJECT_TYPE_U2
+ `OBJECT_TYPE_U2`\
  Indicates that the object is a two-byte unsigned integer.
 
- OBJECT_TYPE_I4
+ `OBJECT_TYPE_I4`\
  Indicates that the object is a four-byte signed integer.
 
- OBJECT_TYPE_U4
+ `OBJECT_TYPE_U4`\
  Indicates that the object is a four-byte unsigned integer.
 
- OBJECT_TYPE_I8
+ `OBJECT_TYPE_I8`\
  Indicates that the object is an eight-byte signed integer.
 
- OBJECT_TYPE_U8
+ `OBJECT_TYPE_U8`\
  Indicates that the object is an eight-byte unsigned integer.
 
- OBJECT_TYPE_R4
+ `OBJECT_TYPE_R4`\
  Indicates that the object is a four-byte floating-point number.
 
- OBJECT_TYPE_R8
+ `OBJECT_TYPE_R8`\
  Indicates that the object is an eight-byte floating-point number.
 
- OBJECT_TYPE_OBJECT
+ `OBJECT_TYPE_OBJECT`\
  Indicates that the object is an object.
 
- OBJECT_TYPE_NULL
+ `OBJECT_TYPE_NULL`\
  Indicates that the object is NULL.
 
- OBJECT_TYPE_CLASS
+ `OBJECT_TYPE_CLASS`\
  Indicates that the object is a class.
 
 ## Remarks
@@ -115,7 +118,7 @@ public enum enum_OBJECT_TYPE { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [CreatePrimitiveObject](../../../extensibility/debugger/reference/idebugfunctionobject-createprimitiveobject.md)
 - [CreateArrayObject](../../../extensibility/debugger/reference/idebugfunctionobject-createarrayobject.md)

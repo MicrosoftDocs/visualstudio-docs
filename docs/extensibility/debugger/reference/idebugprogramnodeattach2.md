@@ -49,7 +49,7 @@ IDebugProgramNodeAttach2 : IUnknown
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)

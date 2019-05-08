@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty3::GetCustomViewerCount
 Gets the number of custom viewers that might be available for this property.
@@ -30,8 +33,8 @@ int GetCustomViewerCount(
 );
 ```
 
-#### Parameters
-`pcelt`
+## Parameters
+`pcelt`\
 
  [out] The number of custom viewers available for this property.
 
@@ -65,7 +68,7 @@ STDMETHODIMP CProperty::GetCustomViewerCount(ULONG* pcelt)
 }
 ```
 
-## See Also
+## See also
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
 - [GetCustomViewerCount](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewercount.md)
 - [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

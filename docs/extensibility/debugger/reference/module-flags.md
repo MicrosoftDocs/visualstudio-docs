@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MODULE_FLAGS
 Used to describe a module.
@@ -41,23 +44,23 @@ public enum enum_MODULE_FLAGS { 
 };
 ```
 
-## Members
- MODULE_FLAG_NONE
+## Fields
+ `MODULE_FLAG_NONE`\
  Specifies no module.
 
- MODULE_FLAG_SYSTEM
+ `MODULE_FLAG_SYSTEM`\
  Specifies a system module.
 
- MODULE_FLAG_SYMBOLS
+ `MODULE_FLAG_SYMBOLS`\
  Specifies a symbol module.
 
- MODULE_FLAG_64BIT
+ `MODULE_FLAG_64BIT`\
  Specifies a 64-bit module.
 
- MODULE_FLAG_OPTIMIZED
+ `MODULE_FLAG_OPTIMIZED`\
  Specifies the module has been optimized. This state is reflected in the **Modules** window.
 
- MODULE_FLAG_UNOPTIMIZED
+ `MODULE_FLAG_UNOPTIMIZED`\
  Specifies the module has not been optimized. This state is reflected in the **Modules** window. This is the default state.
 
 ## Remarks
@@ -72,6 +75,6 @@ public enum enum_MODULE_FLAGS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)

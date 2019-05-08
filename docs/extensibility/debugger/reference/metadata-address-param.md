@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # METADATA_ADDRESS_PARAM
 This structure represents a parameter of a method or function.
@@ -34,14 +37,14 @@ public struct METADATA_ADDRESS_PARAM {
 }
 ```
 
-## Terms
- tokMethod
+## Members
+ `tokMethod`\
  The ID of the method the parameter is part of.
 
- tokParam
+ `tokParam`\
  The ID of the parameter.
 
- dwIndex
+ `dwIndex`\
  The index of the parameter in a list of parameters.
 
 ## Remarks
@@ -54,7 +57,7 @@ public struct METADATA_ADDRESS_PARAM {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
 - [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

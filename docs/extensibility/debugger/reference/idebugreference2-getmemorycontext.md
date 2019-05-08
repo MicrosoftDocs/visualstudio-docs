@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetMemoryContext
 Gets a memory context of a reference. Reserved for future use.
@@ -30,14 +33,14 @@ int GetMemoryContext ( 
 );
 ```
 
-#### Parameters
- `ppMemory`
+## Parameters
+ `ppMemory`\
 
  [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that represents the memory associated with the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

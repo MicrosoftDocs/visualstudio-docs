@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # STEPKIND
 Specifies the step kind for stepping.
@@ -37,17 +40,17 @@ public enum enum_STEPKIND { 
 };
 ```
 
-## Members
- STEP_INTO
+## Fields
+ `STEP_INTO`\
  Steps into a function.
 
- STEP_OVER
+ `STEP_OVER`\
  Steps over a function.
 
- STEP_OUT
+ `STEP_OUT`\
  Steps out of a function.
 
- STEP_BACKWARDS
+ `STEP_BACKWARDS`\
  Steps backward into a function.
 
 ## Remarks
@@ -60,6 +63,6 @@ public enum enum_STEPKIND { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

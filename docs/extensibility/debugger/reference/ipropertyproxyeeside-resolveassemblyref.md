@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
 Determines the location of the specified managed assembly reference.
@@ -38,24 +41,24 @@ int ResolveAssemblyRef(
 );
 ```
 
-#### Parameters
- `assemName`
+## Parameters
+ `assemName`\
 
  [in] Name of the assembly to resolve.
 
- `assemBytes`
+ `assemBytes`\
 
  [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the assembly bytes associated with the reference.
 
- `assemPdb`
+ `assemPdb`\
 
  [out] Returns an `IEEDataStorage` object containing the symbol store data associated with this reference.
 
- `assemLocation`
+ `assemLocation`\
 
  [out] Returns the path location of this reference.
 
- `alr`
+ `alr`\
 
  [out] Returns a value from the [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md) enumeration indicating the location of this reference's assembly.
 
@@ -65,7 +68,7 @@ int ResolveAssemblyRef(
 ## Remarks
  This method is not typically implemented by a custom expression evaluator.
 
-## See Also
+## See also
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
 - [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md)

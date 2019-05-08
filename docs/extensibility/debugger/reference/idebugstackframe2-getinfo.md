@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame2::GetInfo
 Gets a description of the stack frame.
@@ -34,23 +37,23 @@ int GetInfo ( 
 );
 ```
 
-#### Parameters
- `dwFieldSpec`
+## Parameters
+ `dwFieldSpec`\
 
  [in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the `pFrameInfo` parameter are to be filled in.
 
- `nRadix`
+ `nRadix`\
 
  [in] The radix to be used in formatting any numerical information.
 
- `pFrameInfo`
+ `pFrameInfo`\
 
  [out] A [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure that is filled in with the description of the stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)
 - [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)

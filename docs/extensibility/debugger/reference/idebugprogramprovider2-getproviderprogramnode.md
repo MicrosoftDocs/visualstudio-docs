@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramProvider2::GetProviderProgramNode
 Retrieves the program node for a specific program.
@@ -40,8 +43,8 @@ int GetProviderProgramNode(
 );
 ```
 
-#### Parameters
- `Flags`
+## Parameters
+ `Flags`\
 
  [in] A combination of flags from the [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) enumeration. The following flags are typical for this call:
 
@@ -51,30 +54,30 @@ int GetProviderProgramNode(
 |`PFLAG_DEBUGGEE`|Caller is currently being debugged (additional information about marshalling will be returned for each node).|
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|Caller was attached to but not launched by the debugger.|
 
- `pPort`
+ `pPort`\
 
  [in] The port the calling process is running on.
 
- `processId`
+ `processId`\
 
  [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure holding the ID of the process that contains the program in question.
 
- `guidEngine`
+ `guidEngine`\
 
  [in] GUID of the debug engine that the program is attached to (if any).
 
- `programId`
+ `programId`\
 
  [in] ID of the program for which to get the program node.
 
- `ppProgramNode`
+ `ppProgramNode`\
 
  [out] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object representing the requested program node.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
 - [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)
