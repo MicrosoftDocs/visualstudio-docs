@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSettingsCallback2::GetMetricDword
 Retrieves the value of a metric given its name.
@@ -34,25 +37,25 @@ private int GetMetricDword(
 );
 ```
 
-#### Parameters
- `pszType`
+## Parameters
+ `pszType`\
 
  [in] Type of the metric.
 
- `guidSection`
+ `guidSection`\
 
  [in] Unique identifier of the section.
 
- `pszMetric`
+ `pszMetric`\
 
  [in] Name of the metric.
 
- `pdwValue`
+ `pdwValue`\
 
  [out] Returns the value of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

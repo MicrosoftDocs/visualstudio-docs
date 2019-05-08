@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # THREADSTATE
 Specifies the state of the thread.
@@ -39,20 +42,20 @@ public enum enum_THREADSTATE { 
 };
 ```
 
-## Members
- THREADSTATE_RUNNING
+## Fields
+ `THREADSTATE_RUNNING`\
  Indicates that the thread is running.
 
- THREADSTATE_STOPPED
+ `THREADSTATE_STOPPED`\
  Indicates that the thread is stopped because of a breakpoint.
 
- THREADSTATE_FRESH
+ `THREADSTATE_FRESH`\
  Indicates that the thread has been created, but is not yet running code.
 
- THREADSTATE_DEAD
+ `THREADSTATE_DEAD`\
  Indicates that the thread is dead.
 
- THREADSTATE_FROZEN
+ `THREADSTATE_FROZEN`\
  Indicates that the thread is frozen (no execution can be performed).
 
 ## Remarks

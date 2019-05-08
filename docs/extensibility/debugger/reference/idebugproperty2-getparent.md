@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty2::GetParent
 Gets the parent property of a property.
@@ -30,13 +33,13 @@ int GetParent ( 
 );
 ```
 
-#### Parameters
- `ppParent`
+## Parameters
+ `ppParent`\
 
  [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the parent of the property.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code. Returns `S_GETPARENT_NO_PARENT` if there is no parent.
 
-## See Also
+## See also
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

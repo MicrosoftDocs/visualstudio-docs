@@ -471,6 +471,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/data-tools/o-r-designer-messages.md",
+            "redirect_url": "/visualstudio/data-tools/the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/data-tools/bind-windows-forms-controls-to-data.md",
             "redirect_url": "/visualstudio/data-tools/bind-windows-forms-controls-to-data-in-visual-studio",
             "redirect_document_id": false
@@ -938,6 +943,31 @@
         {
             "source_path": "docs/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
             "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/xelement-class-dynamic-properties.md",
+            "redirect_url": "/visualstudio/designers/attribute-xelement-dynamic-property",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/xattribute-class-dynamic-properties.md",
+            "redirect_url": "/visualstudio/designers/value-xattribute-dynamic-property",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/image-editor-examples.md",
+            "redirect_url": "/visualstudio/designers/how-to-create-a-basic-texture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/model-editor-examples.md",
+            "redirect_url": "/visualstudio/designers/how-to-create-a-basic-3-d-model",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/shader-designer-examples.md",
+            "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
             "redirect_document_id": false
         },
         {
@@ -2736,6 +2766,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/developer-testing-scenarios.md",
+            "redirect_url": "/visualstudio/test/improve-code-quality",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
             "redirect_url": "/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp",
             "redirect_document_id": false
@@ -3533,6 +3568,11 @@
         {
             "source_path": "docs/workflow-designer/visual-studio-workflow-windows-legacy.md",
             "redirect_url": "/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/xml-tools/sample-xsd-files.md",
+            "redirect_url": "/visualstudio/xml-tools/sample-xsd-file-simple-schema",
             "redirect_document_id": false
         },
         {

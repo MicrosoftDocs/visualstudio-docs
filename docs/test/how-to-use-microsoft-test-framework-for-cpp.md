@@ -18,7 +18,7 @@ Typically, you run your test code in its own project in the same solution as the
 
 ## <a name="same_project"></a> To write unit tests in the same project
 
-In some cases, for example when testing non-exported functions in a DLL, you might need to create the tests in the same project as the program you are testing. To write unit tests in the same project:
+In some cases, for example when testing non-exported functions in a DLL, you might need to create the tests in the same project as the program you're testing. To write unit tests in the same project:
 
 1. Modify the project properties to include the headers and library files that are required for unit testing.
 
@@ -46,10 +46,12 @@ Use the static methods in the [Assert](microsoft-visualstudio-testtools-cppunitt
 ## Run the tests
 
 1. On the **Test** menu, choose **Windows** > **Test Explorer**.
-2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-3. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
-4. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
+1. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
+
+1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+
+1. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
 
    ![C++ Output Window showing test messages](media/cpp-test-output-window.png)
 

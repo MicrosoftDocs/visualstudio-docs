@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugPropertyField::GetPropertySetter
 Gets the method that sets the property.
@@ -30,8 +33,8 @@ int GetPropertySetter(
 );
 ```
 
-#### Parameters
- `ppField`
+## Parameters
+ `ppField`\
 
  [out] Returns an [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) object representing the method that sets the property.
 
@@ -41,7 +44,7 @@ int GetPropertySetter(
 ## Remarks
  To get the method that gets the property, call the [GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertygetter.md) method.
 
-## See Also
+## See also
 - [IDebugPropertyField](../../../extensibility/debugger/reference/idebugpropertyfield.md)
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertygetter.md)

@@ -29,6 +29,6 @@ Contains documentation for the interfaces, enumerators, and structures of the Vi
 
 Provides a list of debugging-related terms and their definitions.
 
-## See Also
+## See also
 
 - [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

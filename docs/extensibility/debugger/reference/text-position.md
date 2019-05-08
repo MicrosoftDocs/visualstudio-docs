@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # TEXT_POSITION
 Describes the line and column location in the given text.
@@ -34,11 +37,11 @@ public struct TEXT_POSITION { 
 
 ## Members
 
-dwLine
+`dwLine`\
 
 Index of line in source file.
 
-dwColumn
+`dwColumn`\
 
 Character offset into line.
 
@@ -76,7 +79,7 @@ This structure is passed as a parameter to the following methods:
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetStatementRange](../../../extensibility/debugger/reference/idebugdocumentcontext2-getstatementrange.md)

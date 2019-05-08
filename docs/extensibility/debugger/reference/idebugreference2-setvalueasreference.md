@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::SetValueAsReference
 Sets the value of a reference from another reference. Reserved for future use.
@@ -36,25 +39,25 @@ int SetValueAsReference ( 
 );
 ```
 
-#### Parameters
- `rgpArgs`
+## Parameters
+ `rgpArgs`\
 
  [in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects used to determine how to set the reference value.
 
- `dwArgCount`
+ `dwArgCount`\
 
  [in] The number of references in the array.
 
- `pValue`
+ `pValue`\
 
  [in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object from which to set the property value.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

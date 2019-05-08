@@ -71,6 +71,10 @@ To enable your test code to access the functions in the project to be tested, ad
 
 ![Add reference](media/cpp-add-ref-test-project.png)
 
+### Link to object or library files
+
+If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. See [To link the tests to the object or library files](https://docs.microsoft.com/visualstudio/test/unit-testing-existing-cpp-applications-with-test-explorer?view=vs-2015#objectRef).
+
 ### Add #include directives for header files
 
 Next, in your unit test *.cpp* file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "` and then IntelliSense will activate to help you choose. Repeat for any additional headers.

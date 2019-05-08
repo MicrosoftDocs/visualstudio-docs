@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # REFERENCE_TYPE
 Specifies the reference type.
@@ -33,11 +36,11 @@ public enum enum_REFERENCE_TYPE { 
 };
 ```
 
-## Members
- REF_TYPE_WEAK
+## Fields
+ `REF_TYPE_WEAK`\
  Specifies a weak reference. Cannot be combined with `REF_TYPE_STRONG`.
 
- REF_TYPE_STRONG
+ `REF_TYPE_STRONG`\
  Specifies a strong reference. Cannot be combined with `REF_TYPE_WEAK`.
 
 ## Remarks
@@ -52,7 +55,7 @@ public enum enum_REFERENCE_TYPE { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
 - [SetReferenceType](../../../extensibility/debugger/reference/idebugreference2-setreferencetype.md)

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty3::GetStringCharLength
 Returns the number of characters in the associated property's string.
@@ -30,7 +33,7 @@ int GetStringCharLength(
 );
 ```
 
-#### Parameters
+## Parameters
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -85,6 +88,6 @@ STDMETHODIMP CProperty::GetStringCharLength(ULONG *pLen)
 }
 ```
 
-## See Also
+## See also
 - [GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

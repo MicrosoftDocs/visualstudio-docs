@@ -1,12 +1,15 @@
 - name: Design user interfaces
-  href: designing-user-interfaces.md
   items:
-  - name: Design XAML in Visual Studio
-    href: designing-xaml-in-visual-studio.md
+  - name: Tool orientation
+    href: designing-user-interfaces.md
+  - name: XAML
     items:
+    - name: Design XAML in Visual Studio
+      href: designing-xaml-in-visual-studio.md
     - name: XAML Designer
-      href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
       items:
+      - name: Overview
+        href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
       - name: Work with elements
         href: working-with-elements-in-xaml-designer.md
       - name: Organize objects into layout containers
@@ -22,8 +25,9 @@
       - name: XAML errors and warnings
         href: xaml-errors-warnings.md
     - name: Blend for Visual Studio
-      href: creating-a-ui-by-using-blend-for-visual-studio.md
       items:
+      - name: Overview
+        href: creating-a-ui-by-using-blend-for-visual-studio.md
       - name: Insert controls and modify their behavior
         href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
       - name: Insert images, videos, and audio clips
@@ -37,8 +41,9 @@
       - name: Display data
         href: display-data-in-blend.md
       - name: Keyboard shortcuts and modifier keys
-        href: keyboard-shortcuts-and-modifier-keys-in-blend.md
         items:
+        - name: Overview
+          href: keyboard-shortcuts-and-modifier-keys-in-blend.md
         - name: Keyboard shortcuts
           href: keyboard-shortcuts-in-blend.md
         - name: Artboard modifier keys
@@ -50,70 +55,74 @@
       - name: Accessibility products and services for Blend
         href: accessibility-products-and-services-blend.md
   - name: Windows Presentation Foundation (WPF)
-    href: getting-started-with-wpf.md
     items:
-      - name: WPF overview
-        href: introduction-to-wpf.md
+    - name: Get started
+      href: getting-started-with-wpf.md
+    - name: WPF overview
+      href: introduction-to-wpf.md
+    - name: Data binding
+      items:
       - name: WPF data binding with LINQ to XML
         href: wpf-data-binding-with-linq-to-xml-overview.md
+      - name: LINQ to XML dynamic properties
         items:
-        - name: LINQ to XML dynamic properties
+        - name: Overview
           href: linq-to-xml-dynamic-properties.md
+        - name: XAttribute class dynamic properties
           items:
-          - name: XAttribute class dynamic properties
-            href: xattribute-class-dynamic-properties.md
-            items:
-            - name: Value (XAttribute dynamic property)
-              href: value-xattribute-dynamic-property.md
-          - name: XElement class dynamic properties
-            href: xelement-class-dynamic-properties.md
-            items:
-            - name: Attribute (XElement dynamic property)
-              href: attribute-xelement-dynamic-property.md
-            - name: Element (XElement dynamic property)
-              href: element-xelement-dynamic-property.md
-            - name: Elements (XElement dynamic property)
-              href: elements-xelement-dynamic-property.md
-            - name: Descendants (XElement dynamic property)
-              href: descendants-xelement-dynamic-property.md
-            - name: Value (XElement dynamic property)
-              href: value-xelement-dynamic-property.md
-            - name: Xml (XElement dynamic property)
-              href: xml-xelement-dynamic-property.md
-          - name: Example
+          - name: Value (XAttribute dynamic property)
+            href: value-xattribute-dynamic-property.md
+        - name: XElement class dynamic properties
+          items:
+          - name: Attribute (XElement dynamic property)
+            href: attribute-xelement-dynamic-property.md
+          - name: Element (XElement dynamic property)
+            href: element-xelement-dynamic-property.md
+          - name: Elements (XElement dynamic property)
+            href: elements-xelement-dynamic-property.md
+          - name: Descendants (XElement dynamic property)
+            href: descendants-xelement-dynamic-property.md
+          - name: Value (XElement dynamic property)
+            href: value-xelement-dynamic-property.md
+          - name: Xml (XElement dynamic property)
+            href: xml-xelement-dynamic-property.md
+        - name: Examples
+          items:
+          - name: WPF data binding using LINQ to XML
             href: wpf-data-binding-using-linq-to-xml-example.md
-            items:
-            - name: Build and run the LinqToXmlDataBinding example
-              href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
-            - name: "Walkthrough: LINQ to XML data binding"
-              href: walkthrough-linqtoxmldatabinding-example.md
-              items:
-              - name: L2DBForm.xaml source code
-                href: l2dbform-xaml-source-code.md
-              - name: L2DBForm.xaml.cs source code
-                href: l2dbform-xaml-cs-source-code.md
-  - name: Work with 3D assets for games and apps
-    href: working-with-3-d-assets-for-games-and-apps.md
+          - name: Build and run the LinqToXmlDataBinding example
+            href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
+          - name: "Walkthrough: LINQ to XML data binding"
+            href: walkthrough-linqtoxmldatabinding-example.md
+          - name: L2DBForm.xaml source code
+            href: l2dbform-xaml-source-code.md
+          - name: L2DBForm.xaml.cs source code
+            href: l2dbform-xaml-cs-source-code.md
+  - name: 3D assets
     items:
-    - name: Work with textures and images
-      href: working-with-textures-and-images.md
+    - name: Work with 3D assets for games and apps
+      href: working-with-3-d-assets-for-games-and-apps.md
+    - name: "How to: Use 3D assets in your game or app"
+      href: using-3-d-assets-in-your-game-or-app.md
+    - name: Textures and images
       items:
+      - name: Work with textures and images
+        href: working-with-textures-and-images.md
       - name: Image editor
         href: image-editor.md
       - name: Image editor examples
-        href: image-editor-examples.md
         items:
         - name: Create a basic texture
           href: how-to-create-a-basic-texture.md
         - name: Create and modify MIP levels
           href: how-to-create-and-modify-mip-levels.md
-    - name: Work with 3D models
-      href: working-with-3-d-models.md
+    - name: 3D models
       items:
+      - name: Work with 3D models
+        href: working-with-3-d-models.md
       - name: Model editor
         href: model-editor.md
       - name: Model editor examples
-        href: model-editor-examples.md
         items:
         - name: Create a basic 3D model
           href: how-to-create-a-basic-3-d-model.md
@@ -123,14 +132,16 @@
           href: how-to-model-3-d-terrain.md
         - name: Apply a shader to a 3D model
           href: how-to-apply-a-shader-to-a-3-d-model.md
-    - name: Work with shaders
-      href: working-with-shaders.md
+    - name: Shaders
       items:
+      - name: Work with shaders
+        href: working-with-shaders.md
       - name: Shader designer
         href: shader-designer.md
       - name: Shader designer nodes
-        href: shader-designer-nodes.md
         items:
+        - name: Overview
+          href: shader-designer-nodes.md
         - name: Constant nodes
           href: constant-nodes.md
         - name: Parameter nodes
@@ -144,7 +155,6 @@
         - name: Filter nodes
           href: filter-nodes.md
       - name: Shader designer examples
-        href: shader-designer-examples.md
         items:
         - name: Create a basic color shader
           href: how-to-create-a-basic-color-shader.md
@@ -162,8 +172,7 @@
           href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
         - name: Export a shader
           href: how-to-export-a-shader.md
-    - name: Use 3D assets in your game or app
-      href: using-3-d-assets-in-your-game-or-app.md
+    - name: Export textures
       items:
       - name: Export a texture that contains mipmaps
         href: how-to-export-a-texture-that-contains-mipmaps.md

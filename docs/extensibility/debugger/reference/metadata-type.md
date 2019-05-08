@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # METADATA_TYPE
 This structure specifies information about a field type taken from metadata.
@@ -34,16 +37,16 @@ public struct METADATA_TYPE {
 };
 ```
 
-#### Parameters
- ulAppDomainID
+## Parameters
+ `ulAppDomainID`\
 
  ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
- guidModule
+ `guidModule`\
 
  The GUID of the module that contains this field.
 
- tokClass
+ `tokClass`\
 
  The metadata token ID of this type.
 
@@ -61,7 +64,7 @@ public struct METADATA_TYPE {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)

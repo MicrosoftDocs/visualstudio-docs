@@ -10,7 +10,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Generate unit tests for your code with IntelliTest
+# How to: Generate unit tests by using IntelliTest
 
 IntelliTest explores your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code. For example, `if` statements, assertions, and all operations that can throw exceptions are analyzed. This analysis is used to generate test data for a parameterized unit test for each of your methods, creating unit tests with high code coverage.
 
@@ -20,34 +20,33 @@ When you run IntelliTest, you can easily see which tests are failing and add any
 
 The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
-* Are available only in the Enterprise Edition of Visual Studio 2015 and later.
+* Are available only in the Enterprise Edition of Visual Studio.
 
 * Support only C# code that targets the .NET Framework.
 
-* Are [extensible](#extend-framework), and support emitting tests in MSTest,
-  MSTest V2, NUnit, xUnit format.
+* Are [extensible](#extend-framework) and support emitting tests in MSTest, MSTest V2, NUnit, and xUnit format.
 
 * Do not support x64 configuration.
 
 ## Explore: Use IntelliTest to explore your code and generate unit tests
 
-To generate unit tests, your types must be public. Otherwise, [create unit tests](#NoRun) first before you generate them.
+To generate unit tests, your types must be public.
 
-1. Open your solution in Visual Studio. Then open the class file that has methods you want to test.
+1. Open your solution in Visual Studio and then open the class file that has methods you want to test.
 
-2. Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
+2. Right-click on a method and choose **Run IntelliTest** to generate unit tests for the code in your method.
 
-     ![Right&#45;click in your method to generate unit tests](../test/media/runpex.png)
+   ![Right&#45;click in your method to generate unit tests](../test/media/runpex.png)
 
-     IntelliTest runs your code many times with different inputs. Each run is represented in the table showing the input test data and the resulting output or exception.
+   IntelliTest runs your code many times with different inputs. Each run is represented in the table showing the input test data and the resulting output or exception.
 
-     ![Exploration Results window is displayed with tests](../test/media/pexexplorationresults.png)
+   ![Exploration Results window is displayed with tests](../test/media/pexexplorationresults.png)
 
-     To generate unit tests for all the public methods in a class, simply right-click in the class rather than a specific method. Then choose **Run IntelliTest**. Use the drop-down list in the **Exploration Results** window to display the unit tests and the input data for each method in the class.
+To generate unit tests for all the public methods in a class, simply right-click in the class rather than a specific method, and then choose **Run IntelliTest**. Use the drop-down list in the **Exploration Results** window to display the unit tests and the input data for each method in the class.
 
-     ![Select the test results to view from the list](../test/media/selectpextest.png)
+![Select the test results to view from the list](../test/media/selectpextest.png)
 
-     For tests that pass, check that the reported results in the result column match your expectations for your code. For tests that fail, fix your code as appropriate. Then rerun IntelliTest to validate the fixes.
+For tests that pass, check that the reported results in the result column match your expectations for your code. For tests that fail, fix your code as appropriate. Then rerun IntelliTest to validate the fixes.
 
 ## Persist: Save the unit tests as a regression suite
 
@@ -97,7 +96,7 @@ Specify the general relationship between inputs and outputs that you want the ge
 
 **A:** It passes like any other unit test if no exceptions occur. It fails if any assertion fails, or if the code under test throws an unhandled exception.
 
- If you have a test that can pass if certain exceptions are thrown, you can set one of the following attributes based on your requirements at the test method, test class or assembly level:
+If you have a test that can pass if certain exceptions are thrown, you can set one of the following attributes based on your requirements at the test method, test class or assembly level:
 
 - **PexAllowedExceptionAttribute**
 
@@ -109,29 +108,29 @@ Specify the general relationship between inputs and outputs that you want the ge
 
 ### Q: Can I add assumptions to the parameterized unit test?
 
-**A:** Yes, use assumptions to specify which test data is not required for the unit test for a specific method. Use the <xref:Microsoft.Pex.Framework.PexAssume> class to add assumptions. For example, you can add an assumption that the lengths variable is not null like this.
+**A:** Yes, use assumptions to specify which test data is not required for the unit test for a specific method. Use the <xref:Microsoft.Pex.Framework.PexAssume> class to add assumptions. For example, you can add an assumption that the `lengths` variable is not null like this:
 
- `PexAssume.IsNotNull(lengths);`
+`PexAssume.IsNotNull(lengths);`
 
- If you add an assumption and rerun IntelliTest, the test data that is no longer relevant will be removed.
+If you add an assumption and rerun IntelliTest, the test data that is no longer relevant will be removed.
 
 ### Q: Can I add assertions to the parameterized unit test?
 
 **A:** Yes, IntelliTest will check that what you are asserting in your statement is in fact correct when it runs the unit tests. Use the <xref:Microsoft.Pex.Framework.PexAssert> class or the assertion API that comes with the test framework to add assertions. For example, you can add an assertion that two variables are equal.
 
- `PexAssert.AreEqual(a, b);`
+`PexAssert.AreEqual(a, b);`
 
- If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it is not.
+If you add an assertion and rerun IntelliTest, it will check that your assertion is valid and the test fails if it's not.
 
 ### <a name="NoRun"></a> Q: Can I generate parameterized unit tests without running IntelliTest first?
 
 **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.
 
- ![Right&#45;click editor, choose Create IntelliTest](../test/media/pexcreateintellitest.png)
+![Right&#45;click editor, choose Create IntelliTest](../test/media/pexcreateintellitest.png)
 
- Accept the default format to generate your tests, or change how your project and tests are named. You can create a new test project or save your tests to an existing project.
+Accept the default format to generate your tests, or change how your project and tests are named. You can create a new test project or save your tests to an existing project.
 
- ![Create IntelliTest with MSTest default](../test/media/pexcreateintellitestmstest.png)
+![Create IntelliTest with MSTest default](../test/media/pexcreateintellitestmstest.png)
 
 <a name="extend-framework"></a>
 ### Q: Can I use other unit test frameworks with IntelliTest?

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MESSAGETYPE
 Specifies the message type and reason.
@@ -41,23 +44,23 @@ public enum enum_MESSAGETYPE { 
 };
 ```
 
-## Members
- MT_OUTPUTSTRING
+## Fields
+ `MT_OUTPUTSTRING`\
  Indicates that the message should be sent to the output window. This is mutually exclusive from `MT_MESSAGEBOX`.
 
- MT_MESSAGEBOX
+ `MT_MESSAGEBOX`\
  Indicates that the message should be shown in a message box. This is mutually exclusive from `MT_OUTPUTSTRING`.
 
- MT_TYPE_MASK
+ `MT_TYPE_MASK`\
  A mask value to isolate the destination for the message.
 
- MT_REASON_EXCEPTION
+ `MT_REASON_EXCEPTION`\
  Indicates that a message box is being shown as a result of an exception. This is mutually exclusive from `MT_REASON_TRACEPOINT`.
 
- MT_REASON_TRACEPOINT
+ `MT_REASON_TRACEPOINT`\
  Indicates that a message box is being shown as a result of hitting a tracepoint. This is mutually exclusive to `MT_REASON_EXCEPTION`.
 
- MT_REASON_MASK
+ `MT_REASON_MASK`\
  A mask value to isolate the reason for the message being shown.
 
 ## Remarks
@@ -72,7 +75,7 @@ public enum enum_MESSAGETYPE { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)
 - [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md)
