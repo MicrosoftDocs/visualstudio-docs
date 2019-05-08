@@ -209,6 +209,6 @@ cbuffer MiscVars : register(b3)
 |-----------|-----------------|
 |[How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|
 |[How to: Export a texture that has premultiplied alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|
-|[How to: Export a texture for use with Direct2D or Javascipt apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|
+|[How to: Export a texture for use with Direct2D or JavaScript apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|
 |[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3D assets, which include textures and images, 3D models, and shaders.|
 |[How to: Export a shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|
