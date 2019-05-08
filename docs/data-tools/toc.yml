@@ -20,16 +20,15 @@
     href: visual-studio-data-tools-for-dotnet.md
   - name: Entity Framework tools
     href: entity-data-model-tools-in-visual-studio.md
-  - name: Datasets
-# Auto-expanded node
+  - name: DataSets
     items:
-    - name: Dataset tools
+    - name: DataSet tools
       href: dataset-tools-in-visual-studio.md
-    - name: Typed vs. untyped datasets
+    - name: Typed vs. untyped DataSets
       href: typed-vs-untyped-datasets.md
     - name: TableAdapters overview
       href: fill-datasets-by-using-tableadapters.md
-    - name: Work with datasets in n-tier applications
+    - name: Work with DataSets in n-tier applications
       href: work-with-datasets-in-n-tier-applications.md
   - name: Database projects and data-tier applications (DAC)
     href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
@@ -40,7 +39,6 @@
   - name: Create a database
     href: create-a-sql-database-by-using-a-designer.md
   - name: Connections
-# Auto-expanded node
     items:
     - name: Add connections
       href: add-new-connections.md
@@ -51,7 +49,6 @@
   - name: Add .NET data sources
     href: add-new-data-sources.md
   - name: LINQ to SQL tools
-# Auto-expanded node
     items:
     - name: Overview
       href: linq-to-sql-tools-in-visual-studio2.md
@@ -78,15 +75,14 @@
   - name: Use DataSet tools
     items:
     - name: Create DataSets
-# Auto-expanded node
       items:
       - name: Create and configure DataSets
         href: create-and-configure-datasets-in-visual-studio.md
       - name: Create relationships between DataSets
         href: relationships-in-datasets.md
-      - name: Create a DataSet by using the Dataset Designer
+      - name: Create a DataSet by using the DataSet Designer
         href: walkthrough-creating-a-dataset-with-the-dataset-designer.md
-      - name: Create a DataTable by using the Dataset Designer
+      - name: Create a DataTable by using the DataSet Designer
         href: walkthrough-creating-a-datatable-in-the-dataset-designer.md
     - name: Configure TableAdapters
       items:
@@ -96,18 +92,17 @@
         href: create-parameterized-tableadapter-queries.md
       - name: Directly access the database with a TableAdapter
         href: directly-access-the-database-with-a-tableadapter.md
-      - name: Turn off constraints while filling a dataset
+      - name: Turn off constraints while filling a DataSet
         href: turn-off-constraints-while-filling-a-dataset.md
       - name: Extend the functionality of a TableAdapter
         href: extend-the-functionality-of-a-tableadapter.md
-    - name: Read XML data into a dataset
+    - name: Read XML data into a DataSet
       href: read-xml-data-into-a-dataset.md
-    - name: Edit data in datasets
+    - name: Edit data in DataSets
       href: edit-data-in-datasets.md
-    - name: Validate data in datasets
+    - name: Validate data in DataSets
       href: validate-data-in-datasets.md
     - name: Save data back to the database
-# Auto-expanded node
       items:
       - name: Overview
         href: save-data-back-to-the-database.md
@@ -120,7 +115,6 @@
       - name: Handle a concurrency exception
         href: handle-a-concurrency-exception.md
       - name: Transactions
-# Auto-expanded node
         items:
         - name: Save data by using a transaction
           href: save-data-by-using-a-transaction.md
@@ -132,22 +126,21 @@
         href: save-data-from-an-object-to-a-database.md
       - name: Save data with the TableAdapter DBDirect methods
         href: save-data-with-the-tableadapter-dbdirect-methods.md
-      - name: Save a dataset as XML
+      - name: Save a DataSet as XML
         href: save-a-dataset-as-xml.md
-    - name: Query datasets
+    - name: Query DataSets
       href: query-datasets.md
     - name: n-Tier applications
       items:
-      - name: Add validation to an n-tier dataset
+      - name: Add validation to an n-tier DataSet
         href: add-validation-to-an-n-tier-dataset.md
-      - name: Add code to datasets in n-tier applications
+      - name: Add code to DataSets in n-tier applications
         href: add-code-to-datasets-in-n-tier-applications.md
       - name: Add code to TableAdapters in n-tier applications
         href: add-code-to-tableadapters-in-n-tier-applications.md
-      - name: Separate datasets and TableAdapters into different projects
+      - name: Separate DataSets and TableAdapters into different projects
         href: separate-datasets-and-tableadapters-into-different-projects.md
   - name: Controls
-# Auto-expanded node
     items:
     - name: Bind controls to data sources
       href: bind-controls-to-data-in-visual-studio.md
@@ -156,11 +149,10 @@
     - name: Add custom controls to the Data Sources window
       href: add-custom-controls-to-the-data-sources-window.md
     - name: WPF controls
-# Auto-expanded node
       items:
       - name: Bind WPF controls to data
         href: bind-wpf-controls-to-data-in-visual-studio.md
-      - name: Bind WPF controls to a dataset
+      - name: Bind WPF controls to a DataSet
         href: bind-wpf-controls-to-a-dataset.md
       - name: Bind WPF controls to a WCF data service
         href: bind-wpf-controls-to-a-wcf-data-service.md
@@ -171,7 +163,6 @@
       - name: Bind controls to pictures from a database
         href: bind-controls-to-pictures-from-a-database.md
     - name: Windows Forms controls
-# Auto-expanded node
       items:
       - name: Bind Windows Forms controls to data
         href: bind-windows-forms-controls-to-data-in-visual-studio.md
@@ -196,7 +187,6 @@
     - name: Customize how Visual Studio creates captions for data-bound controls
       href: customize-how-visual-studio-creates-captions-for-data-bound-controls.md
   - name: Windows Communication Foundation Services and WCF Data Services
-# Auto-expanded node
     items:
     - name: Overview of WCF in Visual Studio
       href: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
