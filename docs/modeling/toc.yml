@@ -89,7 +89,7 @@
     - name: Understand Models, Classes and Relationships
       href: understanding-models-classes-and-relationships.md
     - name: How to Define a Domain-Specific Language
-      href: how-to-define-a-domain-specific-language.mdisu
+      href: how-to-define-a-domain-specific-language.md
     - name: Customize and Extend a Domain-Specific Language
       items:
       - name: Overview and article reference
@@ -150,9 +150,9 @@
           href: properties-of-connectors.md
       - name: Share Classes between DSLs by using a DSL Library
         href: sharing-classes-between-dsls-by-using-a-dsl-library.md
-    - name: Write Code to Customize a Domain-Specific Language
+    - name: Customize a Domain-Specific Language
       items:
-      - name: Overview
+      - name: Write Code to Customize a DSL
         href: writing-code-to-customise-a-domain-specific-language.md
       - name: Override and Extend the Generated Classes
         href: overriding-and-extending-the-generated-classes.md
@@ -306,9 +306,9 @@
         href: text-template-utility-methods.md
       - name: Access Visual Studio or other Hosts from a Text Template
         href: accessing-visual-studio-or-other-hosts-from-a-text-template.md
-      - name: Use Escape Sequences in Text Templates
+      - name: Escape Sequences
         items:
-        - name: "How to: Use escape sequences"
+        - name: Use Escape Sequences in Text Templates
           href: using-escape-sequences-in-text-templates.md
         - name: Generate Templates from Templates By Using Escape Sequences
           href: how-to-generate-templates-from-templates-by-using-escape-sequences.md

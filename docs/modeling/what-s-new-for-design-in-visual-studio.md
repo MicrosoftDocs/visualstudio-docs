@@ -38,7 +38,7 @@ For more details, see [this blog post](https://devblogs.microsoft.com/devops/liv
 
 ## UML designers have been removed
 
-The UML designers have been removed Visual Studio.
+The UML designers have been removed from Visual Studio.
 
 * UML diagrams are now presented as XML files
 * The UML Model Explorer no longer exists
