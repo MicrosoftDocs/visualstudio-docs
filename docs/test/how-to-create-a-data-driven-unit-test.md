@@ -1,6 +1,6 @@
 ---
 title: Create Data-Driven Unit Tests
-ms.date: 11/04/2016
+ms.date: 05/08/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.test.testresults.unittest.datadriven"
@@ -17,7 +17,7 @@ author: gewarren
 ---
 # How to: Create a data-driven unit test
 
-Using the Microsoft unit test framework for managed code, you can set up a unit test method to retrieve values used in the test method from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
+You can use the Microsoft unit test framework for managed code to set up a unit test method to retrieve values from a data source. The method is run successively for each row in the data source, which makes it easy to test a variety of input by using a single method.
 
 Creating a data-driven unit test involves the following steps:
 
@@ -37,13 +37,13 @@ As an example, let's assume that you have:
 
 2. A project in `MyBank` called `BankDb` that manages the transactions for accounts.
 
-3. A class called `Maths` in the `DbBank` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.
+3. A class called `Maths` in the `BankDb` project that performs the mathematical functions to ensure that any transaction is advantageous to the bank.
 
 4. A unit test project called `BankDbTests` to test the behavior of the `BankDb` component.
 
 5. A unit test class called `MathsTests` to verify the behavior of the `Maths` class.
 
-We will test a method in `Maths` that adds two integers using a loop:
+We'll test a method in `Maths` that adds two integers using a loop:
 
 ```csharp
 public int AddIntegers(int first, int second)
@@ -103,8 +103,11 @@ public void AddIntegers_FromDataSourceTest()
         new object[] {x, y});
 }
 ```
+> [!NOTE]
+> If you get a message saying there is no definition for 'DataRow', then you need to add a reference to 'System.Data'.
 
-The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values, `expected` and `actual`, are already included in the details of a failed test.
+
+The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values - `expected` and `actual` - are already included in failed test details.
 
 ### Specify the DataSourceAttribute
 
