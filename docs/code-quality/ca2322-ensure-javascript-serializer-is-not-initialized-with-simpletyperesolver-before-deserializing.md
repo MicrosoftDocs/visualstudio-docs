@@ -35,14 +35,8 @@ This rule finds <xref:System.Web.Script.Serialization.JavaScriptSerializer?displ
 
 ## How to fix violations
 
-- Ensure <xref:System.Web.Script.Serialization.JavaScriptTypeResolver?displayPropertyName=nameWithType> objects are not initialized with a <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>.
+- Ensure <xref:System.Web.Script.Serialization.JavaScriptTypeResolver?displayPropertyName=nameWithType> objects aren't initialized with a <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>.
 - If your code needs to read data serialized using a <xref:System.Web.Script.Serialization.SimpleTypeResolver>, restrict deserialized types to an expected list by implementing a custom <xref:System.Web.Script.Serialization.JavaScriptTypeResolver>.
-- If possible, use a secure serializer instead, and **don't allow an attacker to specify an arbitrary type to deserialize**. Some safer serializers include:
-  - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>
-  - <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=nameWithType>
-  - <xref:System.Xml.Serialization.XmlSerializer?displayProperty=nameWithType>
-  - Newtonsoft Json.NET - Use TypeNameHandling.None. If you must use another value for TypeNameHandling, restrict deserialized types to an expected list with a custom ISerializationBinder.
-  - Protocol Buffers
 - Make the serialized data tamper-proof. After serialization, cryptographically sign the serialized data. Before deserialization, validate the cryptographic signature. Protect the cryptographic key from being disclosed and design for key rotations.
 
 ## When to suppress warnings
@@ -107,7 +101,7 @@ End Class
 
 ### Violation
 
-```cs
+```csharp
 using System.Web.Script.Serialization;
 
 public class BookRecord
@@ -160,7 +154,7 @@ End Class
 
 ### Solution
 
-```cs
+```csharp
 using System;
 using System.Web.Script.Serialization;
 
