@@ -259,4 +259,4 @@ End Class
 
 ## Related rules
 
-[CA2321: Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver](ca2321-do-not-deserialize-with-javascriptserializer-using-a-simpletyperesolver.md)
+[CA2321: Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver](ca2321-do-not-deserialize-with-javascriptserializer-using-simpletyperesolver.md)
