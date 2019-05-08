@@ -103,7 +103,7 @@ Public Class ExampleClass
 End Class
 ```
 
-#### Violation
+### Violation
 
 ```cs
 using System.Web.Script.Serialization;
@@ -154,7 +154,7 @@ Public Class ExampleClass
 End Class
 ```
 
-#### Solution
+### Solution
 
 ```cs
 using System;
