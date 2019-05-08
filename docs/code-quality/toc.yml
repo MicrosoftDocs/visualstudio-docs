@@ -597,6 +597,10 @@
         href: ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md
       - name: "CA2315: Do not use insecure deserializer ObjectStateFormatter"
         href: ca2315-do-not-use-insecure-deserializer-objectstateformatter.md
+      - name: "CA2321: Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver"
+        href: ca2321-do-not-deserialize-with-javascriptserializer-using-a-simpletyperesolver.md
+      - name: "CA2322: Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing"
+        href: ca2322-ensure-javascript-serializer-is-not-initialized-with-simpletyperesolver-before-deserializing.md
       - name: "CA3001: Review code for SQL injection vulnerabilities"
         href: ca3001-review-code-for-sql-injection-vulnerabilities.md
       - name: "CA3002: Review code for XSS vulnerabilities"

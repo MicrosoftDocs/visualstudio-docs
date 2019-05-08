@@ -65,6 +65,8 @@ You should include the Microsoft Security Rules rule set to maximize the number 
 |[CA2311](ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md)|Do not deserialize without first setting NetDataContractSerializer.Binder|
 |[CA2312](ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md)|Ensure NetDataContractSerializer.Binder is set before deserializing|
 |[CA2315](ca2315-do-not-use-insecure-deserializer-objectstateformatter.md)|Do not use insecure deserializer ObjectStateFormatter|
+|[CA2321](ca2321-do-not-deserialize-with-javascriptserializer-using-a-simpletyperesolver.md)|Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver|
+|[CA2322](ca2322-ensure-javascript-serializer-is-not-initialized-with-simpletyperesolver-before-deserializing.md)|Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing|
 |[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|Review code for SQL injection vulnerabilities|
 |[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|Review code for XSS vulnerabilities|
 |[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|Review code for file path injection vulnerabilities|
