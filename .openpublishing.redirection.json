@@ -946,6 +946,31 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/designers/xelement-class-dynamic-properties.md",
+            "redirect_url": "/visualstudio/designers/attribute-xelement-dynamic-property",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/xattribute-class-dynamic-properties.md",
+            "redirect_url": "/visualstudio/designers/value-xattribute-dynamic-property",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/image-editor-examples.md",
+            "redirect_url": "/visualstudio/designers/how-to-create-a-basic-texture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/model-editor-examples.md",
+            "redirect_url": "/visualstudio/designers/how-to-create-a-basic-3-d-model",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/designers/shader-designer-examples.md",
+            "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/create-modern-desktop-applications-with-windows-presentation-foundation.md",
             "redirect_url": "/visualstudio/designers/getting-started-with-wpf",
             "redirect_document_id": false
