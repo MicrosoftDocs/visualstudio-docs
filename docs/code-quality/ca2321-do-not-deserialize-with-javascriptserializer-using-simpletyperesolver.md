@@ -255,4 +255,4 @@ End Class
 
 ## Related rules
 
-[CA2322: Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing](ca2322-ensure-javascript-serializer-is-not-initialized-with-simpletyperesolver-before-deserializing.md)
+[CA2322: Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing](ca2322-ensure-javascriptserializer-is-not-initialized-with-simpletyperesolver-before-deserializing.md)
