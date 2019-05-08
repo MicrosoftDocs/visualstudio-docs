@@ -21,8 +21,10 @@
   - name: Entity Framework tools
     href: entity-data-model-tools-in-visual-studio.md
   - name: Dataset tools
-    href: dataset-tools-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Dataset tools
+      href: dataset-tools-in-visual-studio.md
     - name: Typed vs. untyped datasets
       href: typed-vs-untyped-datasets.md
     - name: TableAdapters overview
@@ -38,8 +40,10 @@
   - name: Create a database
     href: create-a-sql-database-by-using-a-designer.md
   - name: Add connections
-    href: add-new-connections.md
+# Auto-expanded node
     items:
+    - name: Add connections
+      href: add-new-connections.md
     - name: Save and edit connection strings
       href: how-to-save-and-edit-connection-strings.md
     - name: Connect to data in an Access database
@@ -47,8 +51,10 @@
   - name: Add .NET data sources
     href: add-new-data-sources.md
   - name: Use LINQ to SQL Tools
-    href: linq-to-sql-tools-in-visual-studio2.md
+# Auto-expanded node
     items:
+    - name: Use LINQ to SQL Tools
+      href: linq-to-sql-tools-in-visual-studio2.md
     - name: Change the return type of a DataContext method
       href: how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md
     - name: Create DataContext methods mapped to stored procedures
@@ -72,8 +78,10 @@
   - name: Using Dataset tools
     items:
     - name: Create and configure datasets in Visual Studio
-      href: create-and-configure-datasets-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Create and configure datasets in Visual Studio
+        href: create-and-configure-datasets-in-visual-studio.md
       - name: Create relationships between datasets
         href: relationships-in-datasets.md
       - name: Create a DataSet by using the Dataset Designer
@@ -99,8 +107,10 @@
     - name: Validate data in datasets
       href: validate-data-in-datasets.md
     - name: Save data back to the database
-      href: save-data-back-to-the-database.md
+# Auto-expanded node
       items:
+      - name: Save data back to the database
+        href: save-data-back-to-the-database.md
       - name: Insert new records into a database
         href: insert-new-records-into-a-database.md
       - name: Update data by using a TableAdapter
@@ -110,8 +120,10 @@
       - name: Handle a concurrency exception
         href: handle-a-concurrency-exception.md
       - name: Save data by using a transaction
-        href: save-data-by-using-a-transaction.md
+# Auto-expanded node
         items:
+        - name: Save data by using a transaction
+          href: save-data-by-using-a-transaction.md
         - name: "Walkthrough: Save data in a transaction"
           href: save-data-in-a-transaction.md
       - name: Save data to a database (multiple tables)
@@ -135,15 +147,19 @@
       - name: Separate datasets and TableAdapters into different projects
         href: separate-datasets-and-tableadapters-into-different-projects.md
   - name: Bind controls to data sources
-    href: bind-controls-to-data-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Bind controls to data sources
+      href: bind-controls-to-data-in-visual-studio.md
     - name: Set the control to be created when dragging from the Data Sources window
       href: set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md
     - name: Add custom controls to the Data Sources window
       href: add-custom-controls-to-the-data-sources-window.md
     - name: Bind WPF controls to data
-      href: bind-wpf-controls-to-data-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Bind WPF controls to data
+        href: bind-wpf-controls-to-data-in-visual-studio.md
       - name: Bind WPF controls to a dataset
         href: bind-wpf-controls-to-a-dataset.md
       - name: Bind WPF controls to a WCF data service
@@ -155,8 +171,10 @@
       - name: Bind controls to pictures from a database
         href: bind-controls-to-pictures-from-a-database.md
     - name: Bind Windows Forms controls to data
-      href: bind-windows-forms-controls-to-data-in-visual-studio.md
+# Auto-expanded node
       items:
+      - name: Bind Windows Forms controls to data
+        href: bind-windows-forms-controls-to-data-in-visual-studio.md
       - name: Filter and sort data in a Windows Forms application
         href: filter-and-sort-data-in-a-windows-forms-application.md
       - name: Commit in-process edits on data-bound controls before saving data
@@ -178,8 +196,10 @@
     - name: Customize how Visual Studio creates captions for data-bound controls
       href: customize-how-visual-studio-creates-captions-for-data-bound-controls.md
   - name: Windows Communication Foundation Services and WCF Data Services
-    href: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
+# Auto-expanded node
     items:
+    - name: Windows Communication Foundation Services and WCF Data Services
+      href: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
     - name: Work with a conceptual model
       href: working-with-a-conceptual-model-wcf-data-services.md
     - name: Connect to data in a service
@@ -207,8 +227,10 @@
     - name: Data class inheritance
       href: data-class-inheritance-o-r-designer.md
     - name: O/R Designer messages
-      href: o-r-designer-messages.md
+# Auto-expanded node
       items:
+      - name: O/R Designer messages
+        href: o-r-designer-messages.md
       - name: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
         href: the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods.md
       - name: The connection string contains credentials with a clear text password and is not using integrated security

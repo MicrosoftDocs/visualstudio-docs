@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PARSEFLAGS
 Specifies how to parse an expression.
@@ -35,14 +38,14 @@ public enum enum_PARSEFLAGS { 
 };
 ```
 
-## Members
- PARSE_EXPRESSION
+## Fields
+ `PARSE_EXPRESSION`\
  Indicates that the expression is not a statement.
 
- PARSE_FUNCTION_AS_ADDRESS
+ `PARSE_FUNCTION_AS_ADDRESS`\
  Indicates that the expression is to be parsed (and later evaluated) as an address.
 
- PARSE_DESIGN_TIME_EXPR_EVAL
+ `PARSE_DESIGN_TIME_EXPR_EVAL`\
  Indicates that the expression is being parsed during design time (that is, when a designer is open).
 
 ## Remarks
@@ -55,7 +58,7 @@ public enum enum_PARSEFLAGS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)
 - [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md)

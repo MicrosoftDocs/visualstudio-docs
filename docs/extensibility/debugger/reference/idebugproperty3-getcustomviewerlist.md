@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProperty3::GetCustomViewerList
 Gets a list of custom viewers associated with this property.
@@ -36,20 +39,20 @@ int GetCustomViewerList(
 );
 ```
 
-#### Parameters
-`celtSkip`
+## Parameters
+`celtSkip`\
 
  [in] The number of viewers to skip over.
 
-`celtRequested`
+`celtRequested`\
 
  [in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
 
-`rgViewers`
+`rgViewers`\
 
  [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
 
-`pceltFetched`
+`pceltFetched`\
 
  [out] The actual number of viewers returned.
 
@@ -83,7 +86,7 @@ STDMETHODIMP CProperty::GetCustomViewerList(ULONG celtSkip, ULONG celtRequested,
 }
 ```
 
-## See Also
+## See also
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
 - [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)

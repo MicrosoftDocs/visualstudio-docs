@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # NATIVE_ADDRESS
 
@@ -31,9 +34,9 @@ public struct NATIVE_ADDRESS {
 }
 ```
 
-## Terms
+## Members
 
-`unknown`
+`unknown`\
 
 The native address (the meaning of this depends on the runtime and operating system).
 

@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetSize
 Gets the size, in bytes, of the value of the reference. Reserved for future use.
@@ -30,13 +33,13 @@ int GetSize ( 
 );
 ```
 
-#### Parameters
- `pdwSize`
+## Parameters
+ `pdwSize`\
 
  [out] Returns the size, in bytes, of the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

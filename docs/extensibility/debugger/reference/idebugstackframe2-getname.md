@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame2::GetName
 Gets the name of the stack frame.
@@ -30,8 +33,8 @@ int GetName ( 
 );
 ```
 
-#### Parameters
- `pbstrName`
+## Parameters
+ `pbstrName`\
 
  [out] Returns the name of the stack frame.
 
@@ -41,5 +44,5 @@ int GetName ( 
 ## Remarks
  The name of a stack frame is typically the name of the method being executed.
 
-## See Also
+## See also
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

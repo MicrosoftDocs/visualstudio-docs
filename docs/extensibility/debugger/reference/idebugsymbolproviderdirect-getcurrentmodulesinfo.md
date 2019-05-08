@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProviderDirect::GetCurrentModulesInfo
 Retrieves information about the modules in the symbol group.
@@ -37,29 +40,29 @@ int GetCurrentModulesInfo(
 );
 ```
 
-#### Parameters
- `pCount`
+## Parameters
+ `pCount`\
 
  [in] Number of modules in the `ppGuids` array.
 
- `ppGuids`
+ `ppGuids`\
 
  [in] Array that contains the unique identifiers for the modules.
 
- `pADIds`
+ `pADIds`\
 
  [in] Identifiers for the application domains.
 
- `pCurrentState`
+ `pCurrentState`\
 
  [in] Current state of the symbol group.
 
- `ppCDModItfs`
+ `ppCDModItfs`\
 
  [out] Returns an object that contains the modules in the symbol group.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

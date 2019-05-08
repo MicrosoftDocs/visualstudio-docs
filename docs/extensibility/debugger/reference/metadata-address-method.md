@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # METADATA_ADDRESS_METHOD
 This structure represents the address of a method of a class.
@@ -34,18 +37,18 @@ public struct METADATA_ADDRESS_METHOD {
 }
 ```
 
-## Terms
- tokMethod
+## Members
+ `tokMethod`\
 
  The ID of the method.
 
  [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
- dwOffset
+ `dwOffset`\
 
  The offset from the class start to this method (can represent the offset into the vtable).
 
- dwVersion
+ `dwVersion`\
 
  The version of the method (this value is unique to the symbol provider).
 
@@ -59,7 +62,7 @@ public struct METADATA_ADDRESS_METHOD {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
 - [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

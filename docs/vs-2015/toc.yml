@@ -1,0 +1,38 @@
+- name: Welcome to Visual Studio 2015
+# Auto-expanded node
+  items:
+  - name: Welcome to Visual Studio 2015
+    href: welcome-to-visual-studio-2015.md
+  - name: What's New in Visual Studio 2015
+    href: what-s-new-in-visual-studio-2015.md
+  - name: Install Visual Studio 2015
+    href: install/install-visual-studio-2015.md
+  - name: Porting, Migrating, and Upgrading Visual Studio Projects
+    href: porting/porting-migrating-and-upgrading-visual-studio-projects.md
+  - name: Visual Studio IDE
+    href: ide/visual-studio-ide.md
+  - name: Extensibility
+    href: extensibility/visual-studio-sdk.md
+  - name: Data Access
+    href: data-tools/accessing-data-in-visual-studio.md
+  - name: Cross-Platform Mobile Development
+    href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
+  - name: Visual Basic
+    href: /dotnet/visual-basic
+  - name: Visual C#
+    href: /dotnet/csharp
+  - name: Visual C++
+    href: /cpp/visual-cpp-in-visual-studio
+  - name: JavaScript
+    href: javascript/javascript-in-visual-studio.md
+  - name: Python
+    href: python/getting-started-with-python.md
+  - name: Visual F#
+    href: /dotnet/fsharp/
+  - name: Talk to Us
+# Auto-expanded node
+    items:
+    - name: Talk to Us
+      href: ide/talk-to-us.md
+    - name: How to Report a Problem with Visual Studio 2015
+      href: ide/how-to-report-a-problem-with-visual-studio-2015.md

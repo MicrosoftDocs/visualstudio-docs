@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROVIDER_FIELDS
 Specifies properties associated with a program provider.
@@ -33,11 +36,11 @@ public enum enum_PROVIDER_FIELDS {
 };
 ```
 
-## Members
- PFIELD_PROGRAM_NODES
+## Fields
+ `PFIELD_PROGRAM_NODES`\
  The `ProgramNodes` field is valid.
 
- PFIELD_IS_DEBUGGER_PRESENT
+ `PFIELD_IS_DEBUGGER_PRESENT`\
  The `fIsDebuggerPresent` field is valid.
 
 ## Remarks
@@ -52,6 +55,6 @@ public enum enum_PROVIDER_FIELDS {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)

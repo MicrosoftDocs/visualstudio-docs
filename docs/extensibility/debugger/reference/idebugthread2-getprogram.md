@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::GetProgram
 Gets the program in which a thread is running.
@@ -30,14 +33,14 @@ int GetProgram ( 
 );
 ```
 
-#### Parameters
- `ppProgram`
+## Parameters
+ `ppProgram`\
 
  [out] Returns an [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program this thread is running in.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

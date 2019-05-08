@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PENDING_BP_STATE_FLAGS
 Specifies the pending breakpoint state flags.
@@ -33,11 +36,11 @@ public enum enum_PENDING_BP_STATE_FLAGS { 
 };
 ```
 
-## Members
- PBPSF_NONE
+## Fields
+ `PBPSF_NONE`
  Placeholder.
 
- PBPSF_VIRTUALIZED
+ `PBPSF_VIRTUALIZED`
  Specifies a virtualized pending breakpoint, one that is to be bound every time new code is loaded.
 
 ## Remarks
@@ -50,6 +53,6 @@ public enum enum_PENDING_BP_STATE_FLAGS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md)

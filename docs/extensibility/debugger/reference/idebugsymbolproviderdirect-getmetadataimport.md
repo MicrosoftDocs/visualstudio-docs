@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProviderDirect::GetMetaDataImport
 Retrieves the metadata import information.
@@ -33,21 +36,21 @@ int GetMetaDataImport (
 );
 ```
 
-#### Parameters
- `guid`
+## Parameters
+ `guid`\
 
  [in] Unique identifier for the module.
 
- `appID`
+ `appID`\
 
  [in] Identifier for the application domain.
 
- `ppImport`
+ `ppImport`\
 
  [out] Returns an object that contains the metadata import information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

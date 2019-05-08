@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROCESS_INFO_FLAGS
 
@@ -37,18 +40,18 @@ enum enum_PROCESS_INFO_FLAGS { 
 };
 ```
 
-## Members
+## Fields
 
-PIFLAG_SYSTEM_PROCESS
+`PIFLAG_SYSTEM_PROCESS`\
 Indicates that the process is a system process.
 
-PIFLAG_DEBUGGER_ATTACHED
+`PIFLAG_DEBUGGER_ATTACHED`\
 Indicates that the process is being debugged by a debugger. It may be a [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger, or it may be some other debugger, for example, WinDbg.
 
-PIFLAG_PROCESS_STOPPED
+`PIFLAG_PROCESS_STOPPED`\
 Indicates the process is stopped. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in Visual Studio 2005 and later.
 
-PIFLAG_PROCESS_RUNNING
+`PIFLAG_PROCESS_RUNNING`\
 Indicates the process is running. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in Visual Studio 2005 and later.
 
 ## Remarks
@@ -65,7 +68,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PROCESS_INFO](../../../extensibility/debugger/reference/process-info.md)

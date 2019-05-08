@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # NAME_MATCH
 Selects the case option for matching names.
@@ -34,14 +37,14 @@ public enum NameMatchOptions { 
 }
 ```
 
-## Members
- nmNone
+## Fields
+ `nmNone`\
  No options are specified.
 
- nmCaseSensitive
+ `nmCaseSensitive`\
  Indicates that names to be matched are case-sensitive.
 
- nmCaseInsensitive
+ `nmCaseInsensitive`\
  Indicates that names to be matched are not case-sensitive.
 
 ## Remarks
@@ -62,7 +65,7 @@ public enum NameMatchOptions { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)
 - [GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)

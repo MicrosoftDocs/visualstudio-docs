@@ -91,5 +91,5 @@ If you want to move or copy an application, you must also update the `deployment
 ## See also
 
 [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
-[Securw ClickOnce applications](../deployment/securing-clickonce-applications.md)
+[Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
