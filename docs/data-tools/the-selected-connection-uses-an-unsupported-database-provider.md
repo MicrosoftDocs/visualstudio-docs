@@ -20,5 +20,4 @@ To correct this error, add only items from data connections that use the .NET Fr
 ## See also
 
 - <xref:System.Data.SqlClient>
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

@@ -471,6 +471,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/data-tools/o-r-designer-messages.md",
+            "redirect_url": "/visualstudio/data-tools/the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/data-tools/bind-windows-forms-controls-to-data.md",
             "redirect_url": "/visualstudio/data-tools/bind-windows-forms-controls-to-data-in-visual-studio",
             "redirect_document_id": false
