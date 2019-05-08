@@ -62,7 +62,7 @@ The easiest way to create a new project is to start from a project template for 
 
 You can also create custom project and item templates. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
-When you create a new project, it is saved by default at `%USERPROFILE%\source\repos`. You can cutomize this location in the **Projects location:** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
+When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can customize this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
 
 ## Manage projects in Solution Explorer
 
