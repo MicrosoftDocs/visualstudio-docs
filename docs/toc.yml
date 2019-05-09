@@ -19,6 +19,7 @@
   - name: Personalization accounts
     items:
     - name: Sign in to Visual Studio
+      displayName: peronalization accounts
       href: ide/signing-in-to-visual-studio.md
     - name: Work with multiple user accounts
       href: ide/work-with-multiple-user-accounts.md
@@ -257,9 +258,9 @@
       - name: 64-bit support
         href: ide/visual-studio-ide-64-bit-support.md
     - name: Develop without projects or solutions
-      displayName: Open folder
       items:
       - name: "How to: Develop without a project"
+        displayName: Open folder
         href: ide/develop-code-in-visual-studio-without-projects-or-solutions.md
       - name: Customize build and debug tasks
         displayName: makefile tasks.vs.json
@@ -440,7 +441,7 @@
           href: ide/visual-cpp-intellisense.md
         - name: Configure a C++ project for IntelliSense
           href: ide/visual-cpp-intellisense-configuration.md
-      - name: Navigation
+      - name: Move around in code
         items:
         - name: Navigate your code
           href: ide/navigating-code.md
@@ -591,6 +592,7 @@
         - name: "Tutorial 1: Create a picture viewer (C#)"
           items:
           - name: Overview
+            displayName: Tutorial 1 Picture viewer
             href: ide/tutorial-1-create-a-picture-viewer.md
           - name: "Step 1: Create a Windows Forms Application Project"
             href: ide/step-1-create-a-windows-forms-application-project.md
@@ -617,6 +619,7 @@
         - name: "Tutorial 2: Create a timed math quiz (C#)"
           items:
           - name: Overview
+            displayName: Tutorial 2 Timed math quiz
             href: ide/tutorial-2-create-a-timed-math-quiz.md
           - name: "Step 1: Create a Project and Add Labels to Your Form"
             href: ide/step-1-create-a-project-and-add-labels-to-your-form.md
@@ -637,6 +640,7 @@
         - name: "Tutorial 3: Create a matching game (C#)"
           items:
           - name: Overview
+            displayName: Tutorial 3 Matching game
             href: ide/tutorial-3-create-a-matching-game.md
           - name: "Step 1: Create a Project and Add a Table to Your Form"
             href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
@@ -665,12 +669,14 @@
   - name: Compile and build
     items:
     - name: Overview
+      displayName: Compile build
       href: ide/compiling-and-building-in-visual-studio.md
     - name: "Walkthrough: Build an application"
       href: ide/walkthrough-building-an-application.md
     - name: Build and clean projects and solutions
       items:
       - name: Overview
+        displayName: Build clean
         href: ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md
       - name: Change the build output directory
         href: ide/how-to-change-the-build-output-directory.md
@@ -742,6 +748,7 @@
   - name: Personalize
     items:
     - name: Customize the IDE
+      displayName: Personalize
       href: ide/personalizing-the-visual-studio-ide.md
     - name: "Quickstart: Personalize theme and text colors"
       href: ide/quickstart-personalize-the-ide.md
@@ -875,7 +882,7 @@
         - name: Text Editor - Basic (Visual Basic), Advanced
           href: ide/reference/options-text-editor-basic-visual-basic.md
         - name: Text Editor - Basic (Visual Basic), Code Style
-          href: /visualstudio/ide/code-styles-and-code-cleanup
+          href: ide/code-styles-and-code-cleanup.md
         - name: Text Editor - Basic (Visual Basic), IntelliSense
           href: ide/visual-basic-specific-intellisense.md
         - name: Text Editor - C/C++, Formatting
@@ -947,6 +954,7 @@
     - name: Project Properties
       items:
       - name: Reference
+        displayName: Project properties
         href: ide/reference/project-properties-reference.md
       - name: Application Page, Project Designer (UWP)
         href: ide/reference/application-page-project-designer-uwp.md
@@ -1017,6 +1025,7 @@
     - name: Toolbox
       items:
       - name: Reference
+        displayName: Toolbox
         href: ide/reference/toolbox.md
       - name: Toolbox, Components Tab
         href: ide/reference/toolbox-components-tab.md
@@ -1027,6 +1036,7 @@
   - name: Devenv Command Line Switches
     items:
     - name: Reference
+      displayName: devenv command-line switches
       href: ide/reference/devenv-command-line-switches.md
     - name: -? (devenv.exe)
       href: ide/reference/q-devenv-exe.md
@@ -1075,6 +1085,7 @@
   - name: Visual Studio Commands
     items:
     - name: Reference
+      displayName: Visual Studio commands
       href: ide/reference/visual-studio-commands.md
     - name: Visual Studio Command Aliases
       href: ide/reference/visual-studio-command-aliases.md
@@ -1157,6 +1168,7 @@
   - name: Microsoft Help Viewer
     items:
     - name: Overview
+      displayName: Help Viewer
       href: help-viewer/overview.md
     - name: Install and Manage Local Content
       displayName: Offline books docs
@@ -1182,6 +1194,7 @@
   - name: Dotfuscator Community
     items:
     - name: Overview
+      displayName: Dotfuscator Community
       href: ide/dotfuscator/index.md
     - name: Capabilities of Dotfuscator
       href: ide/dotfuscator/capabilities.md
@@ -1246,6 +1259,7 @@
   - name: Customer Experience Improvement Program
     items:
     - name: Overview
+      displayName: Customer Experience Improvement Program
       href: ide/visual-studio-experience-improvement-program.md
     - name: System-generated logs
       href: ide/diagnostic-data-collection.md
