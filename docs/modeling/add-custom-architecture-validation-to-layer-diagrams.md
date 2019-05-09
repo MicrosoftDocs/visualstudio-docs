@@ -26,7 +26,7 @@ You can package your layer validation extension into a Visual Studio Integration
 
 ## Requirements
 
-See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).
+See [Requirements](../modeling/extend-layer-diagrams.md#requirements).
 
 ## Defining a Layer Validator in a New VSIX
 

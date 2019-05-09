@@ -35,38 +35,3 @@ You can customize and extend all of these features. Your extensions are integrat
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 [Related blog posts](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)
-
-For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](http://go.microsoft.com/fwlink/?LinkID=186074).
-
-## In This Section
- [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)
-
- [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
-
- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-
- [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)
-
- [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
-
- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
- [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
-
- [Understanding the DSL Code](../modeling/understanding-the-dsl-code.md)
-
- [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)
-
- [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
-
- [Creating a Windows Forms-Based Domain-Specific Language](../modeling/creating-a-windows-forms-based-domain-specific-language.md)
-
- [Creating a WPF-Based Domain-Specific Language](../modeling/creating-a-wpf-based-domain-specific-language.md)
-
- [How to: Extend the Domain-Specific Language Designer](../modeling/how-to-extend-the-domain-specific-language-designer.md)
-
- [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md)
-
- [How to: Migrate a Domain-Specific Language to a New Version](../modeling/how-to-migrate-a-domain-specific-language-to-a-new-version.md)
-
- [API Reference for Modeling SDK for Visual Studio](../modeling/api-reference-for-modeling-sdk-for-visual-studio.md)
