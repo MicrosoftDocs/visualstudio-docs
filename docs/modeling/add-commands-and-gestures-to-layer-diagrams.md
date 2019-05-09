@@ -22,7 +22,7 @@ You can define several command and gesture handlers in the same Visual Studio pr
 
 ## Requirements
 
-See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).
+See [Requirements](../modeling/extend-layer-diagrams.md#requirements).
 
 ## Define a Command or Gesture in a New VSIX
 

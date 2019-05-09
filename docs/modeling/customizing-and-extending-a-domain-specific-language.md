@@ -10,31 +10,30 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Customizing and Extending a Domain-Specific Language
+# Customize and extend a domain-specific language
+
 Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools:
 
-1. Define a domain-specific language (DSL) using the DSL Definition diagram. You can quickly create a DSL with a diagrammatic notation, a readable XML form, and the basic tools that are required to generate code and other artifacts.
-
-     For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
+1. Define a domain-specific language (DSL) using the DSL Definition diagram. You can quickly create a DSL with a diagrammatic notation, a readable XML form, and the basic tools that are required to generate code and other artifacts. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).
 
 2. Fine-tune the DSL by using more advanced features of the DSL Definition. For example, you can make additional links appear when the user creates an element. These techniques are mostly achieved in the DSL Definition, and some require a few lines of program code.
 
-3. Extend your modeling tools by using program code. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition.  For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
+3. Extend your modeling tools by using program code. VMSDK is designed specifically to make it easy to integrate your extensions with the code that is generated from the DSL Definition. For more information, see [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 > [!NOTE]
-> When you have updated the DSL Definitions file, do not forget to click **Transform All Templates** in the toolbar of Solution Explorer before rebuilding your solution.
+> When you have updated the DSL Definitions file, don't forget to click **Transform All Templates** in the toolbar of **Solution Explorer** before rebuilding your solution.
 
-## <a name="customShapes"></a> In this Section
+## Article reference
 
 |To achieve this effect|Refer to this topic|
 |-|-|
-|Allow the user to set the color and style properties of a shape.|Right-click the shape or connector class, point to **Add Exposed**, and click an item.<br /><br /> See [Customizing Presentation on the Diagram](../modeling/customizing-presentation-on-the-diagram.md).|
+|Allow the user to set the color and style properties of a shape.|Right-click the shape or connector class, point to **Add Exposed**, and click an item.|
 |Different classes of model element look similar on the diagram, sharing properties such as initial height and width, color, tooltips.|Use inheritance between shapes or connector classes. Mappings between derived shapes and derived domain classes inherit the mapping details of the parents.<br /><br /> Or, map different domain classes to the same shape class.|
 |A class of model element is displayed by different shapes contexts.|Map more than one shape class to the same domain class. When you build the solution, follow the error report and provide the requested code to decide what shape to use.|
 |Shape color or other features such as font indicate current state.|See [Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md).<br /><br /> Create a rule that updates the exposed properties. See [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).<br /><br /> Or, use OnAssociatedPropertyChanged() to update non-exposed features such as link arrows or font.|
 |Icon on shape changes to indicate state.|Set the visibility of the decorator mapping in the DSL Details window. Locate several image decorators on the same position. See  [Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md).<br /><br /> Or, override `ImageField.GetDisplayImage()`. See example in <xref:Microsoft.VisualStudio.Modeling.Diagrams.ImageField>.|
-|Set a background image on any shape|Override InitializeInstanceResources() to add an anchored ImageField. See [Customizing Presentation on the Diagram](../modeling/customizing-presentation-on-the-diagram.md).|
-|Nest shapes to any depth|Set up a recursive embedding tree. Define BoundsRules to contain the shapes. See [Customizing Presentation on the Diagram](../modeling/customizing-presentation-on-the-diagram.md).|
+|Set a background image on any shape|Override InitializeInstanceResources() to add an anchored ImageField.|
+|Nest shapes to any depth|Set up a recursive embedding tree. Define BoundsRules to contain the shapes.|
 |Attach connectors at fixed points on an element's boundary.|Define embedded terminal elements, represented by small ports on the diagram. Use BoundsRules to fix the ports in place. See the Circuit Diagram sample at [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128).|
 |Text field displays a value derived from other values.|Map the text decorator to a Calculated or Custom Storage domain property. For more information, see [Calculated and Custom Storage Properties](../modeling/calculated-and-custom-storage-properties.md).|
 |Propagate changes between model elements, or between shapes|See [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).|
