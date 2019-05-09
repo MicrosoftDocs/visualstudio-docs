@@ -31,6 +31,7 @@
     - name: Control Flow Activity Designers
       items:
       - name: Overview and reference
+        displayName: Control flow activity designers
         href: control-flow-activity-designers.md
       - name: DoWhile Activity Designer
         href: dowhile-activity-designer.md
@@ -55,6 +56,7 @@
     - name: Flowchart Activity Designers
       items:
       - name: Overview and reference
+        displayName: Flow chart activity designers
         href: flowchart-activity-designers.md
       - name: Flowchart Activity Designer
         href: flowchart-activity-designer.md
@@ -65,6 +67,7 @@
     - name: State Machine Activity Designers
       items:
       - name: Overview and reference
+        displayName: State machine activity designers
         href: state-machine-activity-designers.md
       - name: StateMachine Activity Designer
         href: statemachine-activity-designer.md
@@ -77,6 +80,7 @@
     - name: Messaging Activity Designers
       items:
       - name: Overview and reference
+        displayName: Messaging activity designers
         href: messaging-activity-designers.md
       - name: CorrelationScope Activity Designer
         href: correlationscope-activity-designer.md
@@ -95,6 +99,7 @@
     - name: Runtime Activity Designers
       items:
       - name: Overview and reference
+        displayName: Run-time activity designers
         href: runtime-activity-designers.md
       - name: Persist Activity Designer
         href: persist-activity-designer.md
@@ -103,6 +108,7 @@
     - name: Primitives Activity Designers
       items:
       - name: Overview and reference
+        displayName: Primitives activity designers
         href: primitives-activity-designers.md
       - name: Assign Activity Designer
         href: assign-activity-designer.md
@@ -117,6 +123,7 @@
     - name: Transaction Activity Designers
       items:
       - name: Overview and reference
+        displayName: Transaction activity designers
         href: transaction-activity-designers.md
       - name: CancellationScope Activity Designer
         href: cancellationscope-activity-designer.md
@@ -131,6 +138,7 @@
     - name: Collection Activity Designers
       items:
       - name: Overview and reference
+        displayName: Collection activity designers
         href: collection-activity-designers.md
       - name: AddToCollection<T> Activity Designer
         href: addtocollection-t-activity-designer.md
@@ -143,6 +151,7 @@
     - name: Error Handling Activity Designers
       items:
       - name: Overview and reference
+        displayName: Error handling activity designers
         href: error-handling-activity-designers.md
       - name: Rethrow Activity Designer
         href: rethrow-activity-designer.md
@@ -153,12 +162,13 @@
     - name: Migration Activity Designers
       items:
       - name: Overview and reference
+        displayName: Migration activity designers
         href: migration-activity-designers.md
       - name: Interop Activity Designer
         href: interop-activity-designer.md
-  - name: Debug workflows
+  - name: Debug
     items:
-    - name: Debugging overview
+    - name: Debug workflows
       href: debugging-workflows-with-the-workflow-designer.md
     - name: Set breakpoints in workflows
       href: how-to-set-breakpoints-in-workflows.md
@@ -166,7 +176,7 @@
       href: how-to-debug-xaml-with-the-workflow-designer.md
     - name: Unsupported debugging scenarios
       href: unsupported-debugging-scenarios-in-the-workflow-designer.md
-  - name: Reference
+  - name: UI Reference
     items:
     - name: Browse and Select a .NET Type Dialog Box
       href: browse-and-select-a-dotnet-type-dialog-box.md
