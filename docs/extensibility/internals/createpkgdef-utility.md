@@ -27,28 +27,28 @@ CreatePkgDef /out=<FileName> [/codebase] [/assembly] <AssemblyPath>
 ```
 
 ## Arguments
- **/out=&lt;FileName&gt;**
- Required. Sets the name of the *.pkgdef* output file to &lt;FileName&gt;.
+**/out=&lt;FileName&gt;**
+Required. Sets the name of the *.pkgdef* output file to &lt;FileName&gt;.
 
- **/codebase**
- Optional. Forces registration with the **CodeBase** utility.
+**/codebase**
+Optional. Forces registration with the **CodeBase** utility.
 
- **/assembly**
- Forces registration with the **Assembly** utility.
+**/assembly**
+Forces registration with the **Assembly** utility.
 
- **&lt;AssemblyPath&gt;**
- The path of the *.dll* file from which you want to generate the *.pkgdef*.
+**&lt;AssemblyPath&gt;**
+The path of the *.dll* file from which you want to generate the *.pkgdef*.
 
 ## Remarks
- Extension deployment by using *.pkgdef* files replaces the registry requirements of earlier versions of Visual Studio.
+Extension deployment by using *.pkgdef* files replaces the registry requirements of earlier versions of Visual Studio.
 
- The *.pkgdef* files must be installed in one of the following locations:
+The *.pkgdef* files must be installed in one of the following locations:
 
-- *%localappdata%\Microsoft\Visual Studio\14.0\Extensions\\*
+- *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*
 
 - *%vsinstalldir%\Common7\IDE\Extensions\\*
 
-  If the installation folder is *%localappdata%\Microsoft\Visual Studio\14.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Extensions and Updates**.
+  If the installation folder is *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Extensions and Updates**.
 
   If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
 
