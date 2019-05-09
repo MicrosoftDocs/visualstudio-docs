@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the keyboard exclusively"
 description: "Learn how to use default shortcut key combinations to make it easy to navigate and code within the Visual Studio integrated development environment (IDE)."
-ms.date: 08/22/2016
+ms.date: 05/10/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "Toolbox, shortcut keys"
@@ -19,13 +19,17 @@ ms.workload:
 ---
 # How to: Use the keyboard exclusively
 
+::: moniker range="vs-2017"
+
 > [!TIP]
 > To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400).
+::: moniker-end
+
+[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/en-us/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> Depending on your active settings or the edition of Visual Studio that you are using, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Toolbox controls
 
@@ -35,11 +39,11 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 1. On the menu bar, choose **View** > **Toolbox**.
 
-2. Use the Ctrl + Up Arrow or Ctrl + Down Arrow keys to move among the sections in the current Toolbox tab.
+2. Use the Ctrl+Up arrow or Ctrl+Down arrow keyboard shortcuts to move among the sections in the current Toolbox tab.
 
-3. Use the Up Arrow or **Down Arrow** keys to move among the controls.
+3. Use the Up arrow key or Down arrow keys to move among the controls.
 
-4. After the control is selected, use the Enter key.
+4. After the control is selected, use the **Enter** key.
 
    The control is added to the form or designer.
 
@@ -53,15 +57,15 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 2. To change option settings:
 
-    - For radio buttons, use **UP ARROW** and **DOWN ARROW** to change the selection.
+    - For radio buttons, use **Up arrow** and **Down arrow** keys to change the selection.
 
-    - For check boxes, use **SPACEBAR** to select or unselect.
+    - For check boxes, use the **Spacebar** to select or unselect.
 
-    - For drop-down lists, use **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
+    - For drop-down lists, use **Alt** + **Down arrow** key to display items and then use **Up arrow** and **Down arrow** keys to change the selected item.
 
-    - For buttons, press **Enter** to invoke.
+    - For buttons, select **Enter** to invoke.
 
-    - For grids, use the Arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **DOWNARROW** to display items and then use **UPARROW** and **DOWNARROW** to change the selected item.
+    - For grids, use the arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **Down arrow key** to display items and then use **Up arrow** and **Down arrow** keys to change the selected item.
 
 ## Window and file navigation
 
@@ -69,29 +73,29 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ### To navigate among windows and files in the IDE from the keyboard
 
-- To move among files in an editor or designer, choose CTRL + TAB keys to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
+- To move among files in an editor or designer, choose the Ctrl+Tab keyboard shortcut to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
 
-- To move among docked tool windows, choose Alt + F7 to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
+- To move among docked tool windows, choose the Alt+F7 keyboard shortcut to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
 
 ### To move and dock tool windows from the keyboard
 
 1. Navigate to the tool window you intend to move and give it focus.
 
-2. On the **Window** menu, select the  **Dockable** option.
+2. On the **Window** menu, select the **Dockable** option.
 
-3. Press **ALT** + **Space** and then choose **Move**.
+3. Use the **Alt**+**Spacebar** keyboard shortcut, and then choose **Move**.
 
      The docking guide diamond appears.
 
-4. Use the **ARROW** keys to move the window to a new location.
+4. Use the arrow keys to move the window to a new location.
 
-     The mouse pointer moves with the window as you use the **ARROW** keys.
+     The mouse pointer moves with the window as you use the arrow keys.
 
-5. When you have reached the new location, use the **ARROW** keys to move the mouse pointer over the correct portion of the guide diamond.
+5. When you have reached the new location, use the arrow keys to move the mouse pointer over the correct portion of the guide diamond.
 
      An outline of the tool window appears in the new docking location.
 
-6. Press **ENTER**.
+6. Select **Enter**.
 
      The tool window snaps into place at the new docking location.
 
