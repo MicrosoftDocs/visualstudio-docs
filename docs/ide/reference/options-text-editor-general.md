@@ -90,5 +90,5 @@ When selected, vertical lines appear in the editor that line up with structured 
 - [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
 - [Options, Text Editor, File Extension](../../ide/reference/options-text-editor-file-extension.md)
 - [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
-- [Customizing the Editor](../../ide/customizing-the-editor.md)
+- [Customizing the Editor](/visualstudio/ide/how-to-change-text-case-in-the-editor)
 - [Using IntelliSense](../../ide/using-intellisense.md)

@@ -111,5 +111,5 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 
 ## See also
 
-- [Customize the editor](../ide/customizing-the-editor.md)
+- [Customize the editor](/visualstudio/ide/how-to-change-text-case-in-the-editor)
 - [Visual Studio IDE Overview](../get-started/visual-studio-ide.md)

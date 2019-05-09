@@ -114,4 +114,4 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 ## See also
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
-- [Customize the editor](../ide/customizing-the-editor.md)
+- [Customize the editor](/visualstudio/ide/how-to-change-text-case-in-the-editor)
