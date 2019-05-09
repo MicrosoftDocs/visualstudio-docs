@@ -38,9 +38,9 @@ This refactoring applies to:
 3. Select **Convert to LINQ** or **Convert to Linq (call form)**.
 
    ![LINQ query result sample](media/convert-foreach-to-LINQ-result.png)
-   
+
    ![LINQ call form result sample](media/convert-foreach-to-LINQ-callform-result.png)
-   
+
 ### Sample code
 
 ```csharp
@@ -73,4 +73,4 @@ public class Class1
 
 - [Refactoring](../refactoring-in-visual-studio.md)
 - [Preview Changes window](../../ide/preview-changes.md)
-- [Tips for .NET Developers](/visualstudio/ide/csharp-developer-productivity)
+- [Tips for .NET Developers](../csharp-developer-productivity.md)

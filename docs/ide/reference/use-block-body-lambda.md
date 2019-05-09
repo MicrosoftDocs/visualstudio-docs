@@ -18,7 +18,7 @@ This refactoring applies to:
 
 **What:** Lets you refactor a lambda expression to use an expression body or a block body.
 
-**When:** You prefer lambda expressions to use either an expression body or a block body. 
+**When:** You prefer lambda expressions to use either an expression body or a block body.
 
 **Why:** Lambda expressions can be refactored to improve readability according to your user preference.
 
@@ -34,4 +34,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](/visualstudio/ide/csharp-developer-productivity)
+- [Tips for .NET Developers](../csharp-developer-productivity.md)

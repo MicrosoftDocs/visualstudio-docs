@@ -39,4 +39,4 @@ Selecting or unselecting **Show all settings** applies all changes you have made
 
 ## See also
 
-- [Customizing the Editor](/visualstudio/ide/how-to-change-text-case-in-the-editor)
+- [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)

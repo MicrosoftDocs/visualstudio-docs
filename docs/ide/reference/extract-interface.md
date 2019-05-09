@@ -77,4 +77,4 @@ This refactoring applies to:
 ## See also
 
 - [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](/visualstudio/ide/csharp-developer-productivity)
+- [Tips for .NET Developers](../csharp-developer-productivity.md)
