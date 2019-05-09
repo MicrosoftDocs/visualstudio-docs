@@ -3351,6 +3351,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/workflow-designer/workflow-designer-ui-help.md",
+            "redirect_url": "/visualstudio/workflow-designer/browse-and-select-a-dotnet-type-dialog-box",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/using-the-activity-designers.md",
+            "redirect_url": "/visualstudio/workflow-designer/control-flow-activity-designers",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/workflow-designer/activity-views-legacy.md",
             "redirect_url": "/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer",
             "redirect_document_id": false
