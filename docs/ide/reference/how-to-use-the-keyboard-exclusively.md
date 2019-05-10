@@ -21,7 +21,7 @@ ms.workload:
 
 Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to code. We'll explore a few ways you can use keyboard shortcuts more effectively.
 
-For a full listing of shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/en-us/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
+For a full listing of shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
 
 ::: moniker range="vs-2017"
 
