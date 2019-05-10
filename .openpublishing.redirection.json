@@ -1266,6 +1266,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/customizing-the-editor.md",
+            "redirect_url": "/visualstudio/ide/how-to-change-text-case-in-the-editor",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/accessibility-features-of-the-help-viewer.md",
             "redirect_url": "/visualstudio/help-viewer/accessibility-features",
             "redirect_document_id": true

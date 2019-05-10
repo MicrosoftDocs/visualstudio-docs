@@ -31,6 +31,5 @@ You can display or hide line numbering in your code.
 
 ## See also
 
-- [Customizing the Editor](../../ide/customizing-the-editor.md)
 - [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
