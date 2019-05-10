@@ -76,7 +76,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
   <!-- Configurations that affect the Test Framework -->
   <RunConfiguration>
     <MaxCpuCount>1</MaxCpuCount>
-    <!-- Path relative to solution directory -->
+    <!-- Path relative to directory that contains .runsettings file-->
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
     <!-- x86 or x64 -->
