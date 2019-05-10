@@ -26,30 +26,30 @@ ms.workload:
 
 ::: moniker-end
 
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/en-us/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
+There are many default shortcut key combinations in Visual Studio that make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/en-us/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
 
 > [!NOTE]
-> Depending on your active settings or the edition of Visual Studio that you are using, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Toolbox controls
 
-You can add a control on the Toolbox to a form or designer using the keyboard.
+You can add a control on the Toolbox to a form or designer by using the keyboard.
 
 ### To add controls from the Toolbox to a designer from the keyboard
 
 1. On the menu bar, choose **View** > **Toolbox**.
 
-2. Use the Ctrl+Up arrow or Ctrl+Down arrow keyboard shortcuts to move among the sections in the current Toolbox tab.
+2. Use the **Ctrl+Up arrow** or **Ctrl+Down arrow** keyboard shortcuts to move among the sections in the **Toolbox** tab.
 
-3. Use the Up arrow key or Down arrow keys to move among the controls.
+3. Use the **Up arrow** key or **Down arrow** keys to move among the controls.
 
-4. After the control is selected, use the **Enter** key.
+4. After you select the control, use the **Enter** key.
 
-   The control is added to the form or designer.
+   Visual Studio adds the control to the form or designer.
 
 ## Dialog box options
 
- You can move among the options in a dialog and change option settings using the keyboard.
+ You can move among the options in a dialog and change option settings by using the keyboard.
 
 ### To set dialog box options from the keyboard
 
@@ -61,7 +61,7 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
     - For check boxes, use the **Spacebar** to select or unselect.
 
-    - For drop-down lists, use **Alt** + **Down arrow** key to display items and then use **Up arrow** and **Down arrow** keys to change the selected item.
+    - For drop-down lists, use **Alt+Down arrow** key to display items and then use **Up arrow** and **Down arrow** keys to change the selected item.
 
     - For buttons, select **Enter** to invoke.
 
@@ -69,13 +69,13 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
 ## Window and file navigation
 
- The IDE provides several ways for you to move among open tool and document windows using the keyboard. You can also move and dock tool windows in different locations using the keyboard.
+ There are several ways that you can use the keyboard to move between open tool and document windows. You can also move and dock tool windows in different locations by using the keyboard.
 
 ### To navigate among windows and files in the IDE from the keyboard
 
-- To move among files in an editor or designer, choose the Ctrl+Tab keyboard shortcut to display the IDE Navigator with **Active Files** selected. Choose the Enter key to navigate to the highlighted file.
+- To move among files in an editor or designer, choose the **Ctrl+Tab** keyboard shortcut to display the IDE Navigator with **Active Files** selected. Choose the **Enter** key to navigate to the highlighted file.
 
-- To move among docked tool windows, choose the Alt+F7 keyboard shortcut to display the IDE Navigator with **Active Tool Windows** selected. Choose the Enter key to navigate to the highlighted window.
+- To move among docked tool windows, choose the **Alt+F7** keyboard shortcut to display the IDE Navigator with **Active Tool Windows** selected. Choose the **Enter** key to navigate to the highlighted window.
 
 ### To move and dock tool windows from the keyboard
 
@@ -91,7 +91,7 @@ You can add a control on the Toolbox to a form or designer using the keyboard.
 
      The mouse pointer moves with the window as you use the arrow keys.
 
-5. When you have reached the new location, use the arrow keys to move the mouse pointer over the correct portion of the guide diamond.
+5. When you've reached the new location, use the arrow keys to move the mouse pointer over the correct portion of the guide diamond.
 
      An outline of the tool window appears in the new docking location.
 
