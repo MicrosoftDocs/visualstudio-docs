@@ -198,8 +198,6 @@
         items:
         - name: Modify logging settings
           href: modify-load-test-logging-settings.md
-        - name: Maximum log size
-          href: how-to-specify-the-maximum-size-for-the-log-file.md
         - name: Failed tests
           href: how-to-specify-if-test-failures-are-saved-to-test-logs.md
       - name: Timing details storage
