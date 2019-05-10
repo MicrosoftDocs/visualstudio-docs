@@ -47,4 +47,4 @@ Cube maps can contain different types of dataâ€”for example, colors or normalsâ€
 |Title|Description|
 |-----------|-----------------|
 |[Image Editor](../designers/image-editor.md)|Describes how to use the Image Editor to work with textures and images.|
-|[Image Editor examples](../designers/image-editor-examples.md)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|
+|[Image Editor examples](/visualstudio/designers/how-to-create-a-basic-texture)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|

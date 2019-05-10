@@ -299,7 +299,7 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ::: moniker range="vs-2017"
 
-- [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio.md)
+- [What's new in Visual Studio 2017](/visualstudio/ide/whats-new-visual-studio-2019)
 - [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
 
 ::: moniker-end

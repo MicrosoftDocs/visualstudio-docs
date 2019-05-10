@@ -33,5 +33,5 @@ This property is equivalent to <xref:System.Xml.Linq.XContainer.Element%2A> meth
 ## See also
 
 - <xref:System.Xml.Linq.XContainer.Element%2A?displayProperty=fullName>
-- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](/visualstudio/designers/attribute-xelement-dynamic-property)
 - [Elements](../designers/elements-xelement-dynamic-property.md)

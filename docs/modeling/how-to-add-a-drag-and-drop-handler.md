@@ -568,6 +568,6 @@ namespace Company.CompartmentDrag  // EDIT.
 ## See also
 
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
-- [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
+- [Deploying Domain-Specific Language Solutions](/visualstudio/modeling/msi-and-vsix-deployment-of-a-dsl)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

@@ -328,7 +328,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 **Command does not appear in menu:**
 
-- The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+- The command will appear only in debugging instances of Visual Studio, until you install the DSL package. For more information, see [Deploying Domain-Specific Language Solutions](/visualstudio/modeling/msi-and-vsix-deployment-of-a-dsl).
 
 - Make sure that your experimental sample has the correct file name extension for this DSL. To check the file name extension, open DslDefinition.dsl in the main instance of Visual Studio. Then in DSL Explorer, right-click the Editor node, and then click Properties. In the Properties window, examine the FileExtension property.
 
@@ -356,7 +356,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
-- [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
+- [Deploying Domain-Specific Language Solutions](/visualstudio/modeling/msi-and-vsix-deployment-of-a-dsl)
 - [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

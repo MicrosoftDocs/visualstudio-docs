@@ -386,7 +386,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
  You can use the same procedure to install the DSL on your own computer so that you do not have to use the experimental instance of Visual Studio.
 
- For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ For more information, see [Deploying Domain-Specific Language Solutions](/visualstudio/modeling/msi-and-vsix-deployment-of-a-dsl).
 
 ## <a name="Reset"></a> Removing old Experimental DSLs
  If you have created experimental DSLs that you no longer want, you can remove them from your computer by resetting the Visual Studio Experimental instance.
