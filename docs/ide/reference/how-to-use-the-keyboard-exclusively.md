@@ -19,14 +19,16 @@ ms.workload:
 ---
 # How to: Use the keyboard exclusively
 
+Keyboard shortcuts can make it easier to navigate the Visual Studio IDE and to code. We'll explore a few ways you can use keyboard shortcuts more effectively.
+
+For a full listing of shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/en-us/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
+
 ::: moniker range="vs-2017"
 
 > [!TIP]
-> To learn more about recent accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
+> To learn more about accessibility updates, see the [Accessibility improvements in Visual Studio 2017 version 15.3](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) blog post.
 
 ::: moniker-end
-
-There are many default shortcut key combinations in Visual Studio that make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys in Visual Studio, see [Default keyboard shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [https://www.microsoft.com/en-us/accessibility/](http://go.microsoft.com/fwlink/?LinkID=40400).
 
 > [!NOTE]
 > Depending on your settings or the edition of Visual Studio you use, the dialog boxes and menu commands you see might differ from those described in Help. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
@@ -53,7 +55,7 @@ You can add a control on the Toolbox to a form or designer by using the keyboard
 
 ### To set dialog box options from the keyboard
 
-1. Use **Tab** or **Shift** + **Tab** to move up and down through the controls in the dialog box.
+1. Use **Tab** or **Shift**+**Tab** to move up and down through the controls in the dialog box.
 
 2. To change option settings:
 
@@ -61,15 +63,15 @@ You can add a control on the Toolbox to a form or designer by using the keyboard
 
     - For check boxes, use the **Spacebar** to select or unselect.
 
-    - For drop-down lists, use **Alt+Down arrow** key to display items and then use **Up arrow** and **Down arrow** keys to change the selected item.
+    - For drop-down lists, use **Alt+Down arrow** key to display items, and then use **Up arrow** and **Down arrow** keys to change the selected item.
 
     - For buttons, select **Enter** to invoke.
 
-    - For grids, use the arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **Down arrow key** to display items and then use **Up arrow** and **Down arrow** keys to change the selected item.
+    - For grids, use the arrow keys to navigate. For drop-down lists in grids, use **Shift** + **Alt** + **Down arrow key** to display items, and then use **Up arrow** and **Down arrow** keys to change the selected item.
 
 ## Window and file navigation
 
- There are several ways that you can use the keyboard to move between open tool and document windows. You can also move and dock tool windows in different locations by using the keyboard.
+There are several ways that you can use the keyboard to move between open tool and document windows. You can also move and dock tool windows in different locations by using the keyboard.
 
 ### To navigate among windows and files in the IDE from the keyboard
 
