@@ -51,6 +51,7 @@
   - name: LINQ to SQL tools
     items:
     - name: Overview
+      displayName: LINQ to SQL tools
       href: linq-to-sql-tools-in-visual-studio2.md
     - name: Change the return type of a DataContext method
       href: how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md
@@ -105,6 +106,7 @@
     - name: Save data back to the database
       items:
       - name: Overview
+        displayName: Save data to database
         href: save-data-back-to-the-database.md
       - name: Insert new records into a database
         href: insert-new-records-into-a-database.md
@@ -189,6 +191,7 @@
   - name: Windows Communication Foundation Services and WCF Data Services
     items:
     - name: Overview of WCF in Visual Studio
+      displayName: Windows Communication Foundation Services and WCF Data Services
       href: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
     - name: Work with a conceptual model
       href: working-with-a-conceptual-model-wcf-data-services.md
@@ -219,6 +222,7 @@
     - name: O/R Designer messages
       items:
       - name: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
+        displayName: O/R Designer messages
         href: the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods.md
       - name: The connection string contains credentials with a clear text password and is not using integrated security
         href: the-connection-string-contains-credentials-with-a-clear-text-password-and-is-not-using-integrated-security.md

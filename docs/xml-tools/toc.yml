@@ -1,21 +1,20 @@
 - name: XML tools in Visual Studio
-# Auto-expanded node
   items:
   - name: Overview
     href: xml-tools-in-visual-studio.md
   - name: XML editor
-# Auto-expanded node
     items:
     - name: Overview
+      displayName: XML editor
       href: xml-editor.md
     - name: XML document validation
       href: xml-document-validation.md
     - name: XML editor IntelliSense features
       href: xml-editor-intellisense-features.md
     - name: XML snippets
-# Auto-expanded node
       items:
       - name: Overview
+        displayName: XML snippets overview
         href: xml-snippets.md
       - name: Use XML snippets
         href: how-to-use-xml-snippets.md
@@ -50,12 +49,11 @@
     - name: XML Schemas dialog box
       href: xml-schemas-dialog-box.md
   - name: XML Schema Designer
-# Auto-expanded node
     items:
     - name: Overview
+      displayName: XML Schema Designer overview
       href: xml-schema-designer.md
     - name: XML Schema Explorer
-# Auto-expanded node
       items:
       - name: XML Schema Explorer
         href: xml-schema-explorer.md
@@ -68,7 +66,6 @@
       - name: Integration of XML literals
         href: integration-of-xml-literals-with-xml-schema-explorer.md
     - name: Workspace
-# Auto-expanded node
       items:
       - name: Views overview
         href: xml-schema-designer-workspace.md
@@ -103,18 +100,18 @@
       - name: Print diagrams
         href: how-to-print-diagrams-from-the-graph-view-and-the-content-model-view.md
       - name: Sample XSD files
-# Auto-expanded node
         items:
         - name: Simple schema
+          displayName: Sample XSD files
           href: sample-xsd-file-simple-schema.md
         - name: Purchase Order schema
           href: sample-xsd-file-purchase-order-schema.md
         - name: Relationships
           href: sample-xsd-file-relationships.md
   - name: XSLT debugging
-# Auto-expanded node
     items:
     - name: Overview
+      displayName: XSLT debugging
       href: debugging-xslt.md
     - name: "Walkthrough: Debug an XSLT style sheet"
       href: walkthrough-debug-an-xslt-style-sheet.md
