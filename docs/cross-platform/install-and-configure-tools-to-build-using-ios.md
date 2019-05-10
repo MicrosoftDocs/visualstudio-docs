@@ -26,13 +26,15 @@ Once you have installed the tools to build using iOS, refer to this topic for wa
 
 To install and use the remote agent to develop code for iOS, you must first have these prerequisites:
 
-- A Mac computer running OS X Mavericks (version 10.9) or later
+- A Mac computer running macOS Mojave version 10.14 or later
 
 - An [Apple ID](https://appleid.apple.com/)
 
-- An active [iOS Developer Program](https://developer.apple.com/programs/ios/) account with Apple
+- An active [Apple Developer Program](https://developer.apple.com/programs/) account
 
-- [Xcode](https://developer.apple.com/xcode/downloads/) version 6 or later.
+   You can get a free account that allows sideloading apps to an iOS device for testing only but not for distribution.
+
+- [Xcode](https://developer.apple.com/xcode/downloads/) version 10.2.1 or later
 
    Xcode can be downloaded from the App Store.
 
@@ -42,23 +44,22 @@ To install and use the remote agent to develop code for iOS, you must first have
 
    `xcode-select --install`
 
-- An iOS signing identity configured in Xcode
+- An Apple ID account configured in Xcode as a signing identity to sign apps
 
-   For detailed information on obtaining an iOS Signing Identity, see [Maintain your signing identities and certificates](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in the iOS Developer Library. To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button.
+   To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button. See [Add your Apple ID account](https://help.apple.com/xcode/mac/current/#/devaf282080a) for detailed instructions.
+   
+   For detailed information on signing requirements, see [What is app signing](https://help.apple.com/xcode/mac/current/#/dev3a05256b8). 
 
-- If you are using an iOS device for development, a Provisioning Profile configured in Xcode for your device
+- If you are using an iOS device for development, a provisioning Profile configured in Xcode for your device
 
-   For detailed information on creating provisioning Profiles, see [Create provisioning profiles using Member Center](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24) in the iOS Developer Library.
+   Xcode provides automatic signing where it creates signing certificates for you as needed. For detailed information about Xcode automatic signing see [automatic signing](https://help.apple.com/xcode/mac/current/#/dev80cc24546).
 
-- [Node.js](https://nodejs.org/)
+   If you want to do manual signing, you need to create a provisioning Profile for your app. For detailed information on creating provisioning Profiles, see [Create a development provisioning profile](https://help.apple.com/developer-account/#/devf2eb157f8). 
 
-   Install the latest Long Term Support (LTS) version 8.x of Node.js on your Mac. Note that other latest release versions may not support some modules used in vcremote and can cause vcremote installation to fail.
+- [Node.js](https://nodejs.org/) version 8.11.3 and npm version 5.6.0
 
-- An updated version of npm
+   Install version 8.11.3 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 5.6.0. Note that other versions of Node.js and npm may not support some modules used in the remote agent vcremote, which can cause vcremote installation to fail.
 
-   The version of npm that comes with Node.js may not be recent enough to install vcremote. To update npm, open the Terminal app on your Mac and enter the following command:
-
-   `sudo npm install -g npm@latest`
 
 ## <a name="Install"></a> Install the remote agent for iOS
 
@@ -227,6 +228,50 @@ You can configure the remote agent using various command line options. For examp
    `vcremote --config config_file_path`
 
    where *config_file_path* is the path to a configuration file in JSON format. The startup options and their values must not include dashes.
+
+## Troubleshoot the remote agent
+
+#### Debugging on an iOS device
+
+If debugging on an iOS device does not work, there could be issues with the tool [ideviceinstaller](https://github.com/libimobiledevice/ideviceinstaller), which is used to communicate with an iOS device. This tool is typically installed from Homebrew during the installation of vcremote. Follow the steps below as a workaround.
+
+Open the Terminal app and update ideviceinstaller and its dependencies by running the following in order:
+
+1. Ensure Homebrew is updated
+   
+   `brew update`
+   
+2. Uninstall libimobiledevice and usbmuxd
+   
+   `brew uninstall --ignore-dependencies libimobiledevice`
+   
+   `brew uninstall --ignore-dependencies usbmuxd`
+   
+3. Install the latest version of libimobiledevice and usbmuxd
+   
+   `brew install --HEAD usbmuxd`
+   
+   `brew unlink usbmuxd`
+   
+   `brew link usbmuxd`
+   
+   `brew install --HEAD libimobiledevice`
+   
+4. Uninstall and re-install ideviceinstaller
+   
+   `brew uninstall ideviceinstaller`
+   
+   `brew install ideviceinstaller`
+   
+Verify that ideviceinstaller can communicate with the device by trying to list the apps installed on the device:
+
+`ideviceinstaller -l`
+
+If ideviceinstaller errors that it cannot access the folder `/var/db/lockdown`, change the privilege on the folder with:
+
+`sudo chmod 777 /var/db/lockdown`
+    
+Then verify again if ideviceinstaller can communicate with the device.
 
 ## See also
 
