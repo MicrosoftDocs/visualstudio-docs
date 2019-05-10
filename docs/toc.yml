@@ -16,7 +16,7 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
-  - name: Personalization accounts
+  - name: Accounts
     items:
     - name: Sign in to Visual Studio
       displayName: peronalization accounts
@@ -102,9 +102,9 @@
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
-        # Auto-expanded node
         items:
-        - name: Visual Studio workload and component IDs
+        - name: Overview
+          displayName: Workload and component IDs
           href: install/workload-and-component-ids.md
         - name: Visual Studio Enterprise
           href: install/workload-component-id-vs-enterprise.md
