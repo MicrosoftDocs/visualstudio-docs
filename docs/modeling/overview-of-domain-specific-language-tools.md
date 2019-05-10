@@ -66,7 +66,7 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, l
 ## Distributing Your DSL Solution
  DSL Tools generates a package that is hosted in Visual Studio. The package displays a toolbox, a DSL explorer, and other UI elements that let users create models by using your domain-specific language.
 
- When you build and run the DSL Tools solution in Visual Studio, a second instance of Visual Studio shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a Visual Studio extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](/visualstudio/modeling/msi-and-vsix-deployment-of-a-dsl).
+ When you build and run the DSL Tools solution in Visual Studio, a second instance of Visual Studio shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a Visual Studio extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
 ## See Also
 

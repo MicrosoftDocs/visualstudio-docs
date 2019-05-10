@@ -111,7 +111,8 @@ Project types must register the directories where their project and project-item
  \WizardFiles
 
 ## See Also
+
 - [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
 - [Wizards](../../extensibility/internals/wizards.md)
-- [Localizing Applications](/visualstudio/ide/globalizing-and-localizing-applications)
+- [Localizing Applications](../ide/globalizing-and-localizing-applications.md)
 - [CATIDs for Objects That Are Typically Used to Extend Projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)
