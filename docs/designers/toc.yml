@@ -9,6 +9,7 @@
     - name: XAML Designer
       items:
       - name: Overview
+        displayName: XAML Designer
         href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
       - name: Work with elements
         href: working-with-elements-in-xaml-designer.md
@@ -27,6 +28,7 @@
     - name: Blend for Visual Studio
       items:
       - name: Overview
+        displayName: Blend for Visual Studio
         href: creating-a-ui-by-using-blend-for-visual-studio.md
       - name: Insert controls and modify their behavior
         href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
@@ -57,6 +59,7 @@
   - name: Windows Presentation Foundation (WPF)
     items:
     - name: Get started
+      displayName: Windows Presentation Foundation (WPF)
       href: getting-started-with-wpf.md
     - name: WPF overview
       href: introduction-to-wpf.md
@@ -67,6 +70,7 @@
       - name: LINQ to XML dynamic properties
         items:
         - name: Overview
+          displayName: LINQ to XML dynamic properties
           href: linq-to-xml-dynamic-properties.md
         - name: XAttribute class dynamic properties
           items:
@@ -141,6 +145,7 @@
       - name: Shader designer nodes
         items:
         - name: Overview
+          displayName: Shader designer nodes
           href: shader-designer-nodes.md
         - name: Constant nodes
           href: constant-nodes.md
@@ -157,6 +162,7 @@
       - name: Shader designer examples
         items:
         - name: Create a basic color shader
+          displayName: Shader designer example
           href: how-to-create-a-basic-color-shader.md
         - name: Create a basic Lambert shader
           href: how-to-create-a-basic-lambert-shader.md

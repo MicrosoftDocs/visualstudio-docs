@@ -7,6 +7,7 @@
 # Auto-expanded node
     items:
     - name: Overview
+      displayName: XML editor
       href: xml-editor.md
     - name: XML document validation
       href: xml-document-validation.md
@@ -16,6 +17,7 @@
 # Auto-expanded node
       items:
       - name: Overview
+        displayName: XML snippets overview
         href: xml-snippets.md
       - name: Use XML snippets
         href: how-to-use-xml-snippets.md
@@ -53,6 +55,7 @@
 # Auto-expanded node
     items:
     - name: Overview
+      displayName: XML Schema Designer overview
       href: xml-schema-designer.md
     - name: XML Schema Explorer
 # Auto-expanded node
@@ -106,6 +109,7 @@
 # Auto-expanded node
         items:
         - name: Simple schema
+          displayName: Sample XSD files
           href: sample-xsd-file-simple-schema.md
         - name: Purchase Order schema
           href: sample-xsd-file-purchase-order-schema.md
@@ -115,6 +119,7 @@
 # Auto-expanded node
     items:
     - name: Overview
+      displayName: XSLT debugging
       href: debugging-xslt.md
     - name: "Walkthrough: Debug an XSLT style sheet"
       href: walkthrough-debug-an-xslt-style-sheet.md

@@ -127,6 +127,7 @@
 # Auto-expanded node
   items:
   - name: Introduction
+    displayName: Live Unit Testing introduction
     href: live-unit-testing-intro.md
   - name: What's new in Live Unit Testing
     href: live-unit-testing-whats-new.md
@@ -158,6 +159,7 @@
 # Auto-expanded node
         items:
         - name: Overview
+          displayName: Test mix models
           href: emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md
         - name: Edit test mix models
           href: edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md
@@ -244,6 +246,7 @@
 # Auto-expanded node
     items:
     - name: Overview
+      displayName: Test controllers and test agents
       href: configure-test-agents-and-controllers-for-load-tests.md
     - name: Requirements
       href: test-controller-and-test-agent-requirements-for-load-testing.md
@@ -377,6 +380,7 @@
 # Auto-expanded node
   items:
   - name: Overview
+    displayName: UI test automation
     href: use-ui-automation-to-test-your-code.md
   - name: "Walkthrough: Create, Edit and Maintain a Coded UI Test"
     href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
