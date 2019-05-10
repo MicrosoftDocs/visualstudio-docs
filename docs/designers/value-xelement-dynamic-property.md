@@ -30,5 +30,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XElement.Value%2A> prop
 ## See also
 
 - <xref:System.Xml.Linq.XElement.Value%2A?displayProperty=fullName>
-- [XElement class dynamic properties](/visualstudio/designers/attribute-xelement-dynamic-property)
+- [XElement class dynamic properties](../designers/attribute-xelement-dynamic-property.md)
 - [Xml](../designers/xml-xelement-dynamic-property.md)

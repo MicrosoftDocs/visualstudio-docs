@@ -36,6 +36,6 @@ This property uses deferred execution.
 
 ## See also
 
-- [XElement class dynamic properties](/visualstudio/designers/attribute-xelement-dynamic-property)
+- [XElement class dynamic properties](../designers/attribute-xelement-dynamic-property.md)
 - [Element](../designers/element-xelement-dynamic-property.md)
 - [Descendants](../designers/descendants-xelement-dynamic-property.md)
