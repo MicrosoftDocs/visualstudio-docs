@@ -184,7 +184,7 @@
         href: how-to-export-a-texture-that-contains-mipmaps.md
       - name: Export a texture that has premultiplied alpha
         href: how-to-export-a-texture-that-has-premultiplied-alpha.md
-      - name: Export a texture for use with Direct2D or Javascipt apps
+      - name: Export a texture for use with Direct2D or JavaScript apps
         href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
   - name: The Visual Studio image library
     href: the-visual-studio-image-library.md
