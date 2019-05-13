@@ -61,4 +61,4 @@ Information about individual support requests can be found at [Individual Suppor
 
 ## See Also
 
-- [Talk to Us](../ide/talk-to-us.md)
+- [Talk to Us](../ide/feedback-options.md)
