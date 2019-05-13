@@ -42,6 +42,25 @@ The path of the *.dll* file from which you want to generate the *.pkgdef*.
 ## Remarks
 Extension deployment by using *.pkgdef* files replaces the registry requirements of earlier versions of Visual Studio.
 
+::: moniker range=">=vs-2019"
+
+The *.pkgdef* files must be installed in one of the following locations:
+
+- *%localappdata%\Microsoft\Visual Studio\16.0\Extensions\\*
+
+- *%vsinstalldir%\Common7\IDE\Extensions\\*
+
+  If the installation folder is *%localappdata%\Microsoft\Visual Studio\16.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Manage Extensions**.
+
+  If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
+
+> [!NOTE]
+> The **Manage Extensions** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
 The *.pkgdef* files must be installed in one of the following locations:
 
 - *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*
@@ -54,6 +73,8 @@ The *.pkgdef* files must be installed in one of the following locations:
 
 > [!NOTE]
 > The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
+
+::: moniker-end
 
 ## See also
 - [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md)
