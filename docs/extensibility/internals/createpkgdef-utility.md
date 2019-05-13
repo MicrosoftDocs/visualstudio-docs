@@ -27,7 +27,7 @@ CreatePkgDef /out=<FileName> [/codebase] [/assembly] <AssemblyPath>
 ```
 
 ## Arguments
-**/out=&lt;FileName&gt;**
+**/out=&lt;FileName&gt;**\
 Required. Sets the name of the *.pkgdef* output file to &lt;FileName&gt;.
 
 **/codebase**
