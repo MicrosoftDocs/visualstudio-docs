@@ -36,8 +36,7 @@ int GetState( 
 
 ## Parameters
 `pState`\
-
- [out] Returns a value from the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration that describes the state of the breakpoint.
+[out] Returns a value from the [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) enumeration that describes the state of the breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

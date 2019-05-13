@@ -10,9 +10,6 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
-dev_langs:
-  - CPP
-  - CSharp
 ---
 # IDebugArrayObject2
 > [!IMPORTANT]

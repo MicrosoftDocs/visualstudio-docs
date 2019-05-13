@@ -34,10 +34,9 @@ int GetDocumentContext ( 
 );
 ```
 
-#### Parameters
- `ppDocContext`\
-
- [out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents a position in a source file document.
+## Parameters
+`ppDocContext`\
+[out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents a position in a source file document.
 
 ## Remarks
  This position might be used to show the caret, for example.
