@@ -34,8 +34,7 @@ int IsAddressSequencePoint(
 
 ## Parameters
 `pAddress`\
-
- [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+[in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 ## Return Value
 If the debug address is a sequence point, returns `S_OK`; otherwise, returns `S_FALSE`.

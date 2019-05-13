@@ -34,9 +34,8 @@ int EnumCustomAttributes(
 ```
 
 ## Parameters
- `ppEnum`
-
- [out] Returns an [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) object representing the list of custom attributes; otherwise, returns a null value if there are no custom attributes.
+`ppEnum`\
+[out] Returns an [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) object representing the list of custom attributes; otherwise, returns a null value if there are no custom attributes.
 
 ## Return Value
  If successful, returns S_OK or S_FALSE if there are no custom attributes on this field. Otherwise, returns an error code;

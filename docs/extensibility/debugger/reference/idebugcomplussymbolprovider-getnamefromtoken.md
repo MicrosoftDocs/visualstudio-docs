@@ -38,16 +38,13 @@ int GetNameFromToken (
 
 ## Parameters
 `pMetadataImport`\
-
- [in] Object that contains the metadata information.
+[in] Object that contains the metadata information.
 
 `dwToken`\
-
- [in] Token to be named.
+[in] Token to be named.
 
 `pbstrName`\
-
- [out] Name that corresponds to the token.
+[out] Name that corresponds to the token.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -40,20 +40,16 @@ int GetArrayTypeFromAddress(
 
 ## Parameters
 `pAddress`\
-
- [in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+[in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
 `pSig`\
-
- [in] The array to examine.
+[in] The array to examine.
 
 `dwSigLength`\
-
- [in] Length in bytes of the `pSig` array.
+[in] Length in bytes of the `pSig` array.
 
 `ppField`\
-
- [out] Returns the array type as represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
+[out] Returns the array type as represented by an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

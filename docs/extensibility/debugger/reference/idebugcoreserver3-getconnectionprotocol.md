@@ -34,9 +34,8 @@ int GetConnectionProtocol(
 ```
 
 ## Parameters
- `pProtocol`\
-
- [out] Returns one of the values from the [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md) enumeration.
+`pProtocol`\
+[out] Returns one of the values from the [CONNECTION_PROTOCOL](../../../extensibility/debugger/reference/connection-protocol.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

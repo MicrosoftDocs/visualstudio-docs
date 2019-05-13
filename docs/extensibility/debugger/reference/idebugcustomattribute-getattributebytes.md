@@ -36,13 +36,11 @@ int GetAttributeBytes(
 ```
 
 ## Parameters
- `ppBlob`\
+`ppBlob`\
+[in, out] An array that is filled in with the attribute bytes.
 
- [in, out] An array that is filled in with the attribute bytes.
-
- `pdwLen`\
-
- [in, out] Specifies the maximum number of bytes to return in the `ppBlob` array and returns the number of bytes actually written to the array.
+`pdwLen`\
+[in, out] Specifies the maximum number of bytes to return in the `ppBlob` array and returns the number of bytes actually written to the array.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

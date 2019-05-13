@@ -34,9 +34,8 @@ int GetServerFriendlyName(
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns a friendly name for the server.
+`pbstrName`\
+[out] Returns a friendly name for the server.
 
 > [!NOTE]
 > The caller is responsible for freeing the string.

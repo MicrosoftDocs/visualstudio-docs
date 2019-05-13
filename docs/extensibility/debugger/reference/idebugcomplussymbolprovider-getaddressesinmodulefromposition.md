@@ -43,29 +43,23 @@ int GetAddressesInModuleFromPosition(
 ```
 
 ## Parameters
- `ulAppDomainID`\
+`ulAppDomainID`\
+[in] Application domain identifier.
 
- [in] Application domain identifier.
+`guidModule`\
+[in] Unique identifier of the module.
 
- `guidModule`\
+`pDocPos`\
+[in] The document position.
 
- [in] Unique identifier of the module.
+`fStatmentOnly`\
+[in] If `TRUE`, limits the debug addresses to a single statement.
 
- `pDocPos`\
+`ppEnumBegAddresses`\
+[out] Returns an enumerator for the starting debug addresses that are associated with this statement or line.
 
- [in] The document position.
-
- `fStatmentOnly`\
-
- [in] If `TRUE`, limits the debug addresses to a single statement.
-
- `ppEnumBegAddresses`\
-
- [out] Returns an enumerator for the starting debug addresses that are associated with this statement or line.
-
- `ppEnumEndAddresses`\
-
- [out] Returns an enumerator for the ending debug addresses that are associated with this statement or line.
+`ppEnumEndAddresses`\
+[out] Returns an enumerator for the ending debug addresses that are associated with this statement or line.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
