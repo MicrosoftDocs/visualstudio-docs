@@ -30,13 +30,13 @@ CreatePkgDef /out=<FileName> [/codebase] [/assembly] <AssemblyPath>
 **/out=&lt;FileName&gt;**\
 Required. Sets the name of the *.pkgdef* output file to &lt;FileName&gt;.
 
-**/codebase**
+**/codebase**\
 Optional. Forces registration with the **CodeBase** utility.
 
-**/assembly**
+**/assembly**\
 Forces registration with the **Assembly** utility.
 
-**&lt;AssemblyPath&gt;**
+**&lt;AssemblyPath&gt;**\
 The path of the *.dll* file from which you want to generate the *.pkgdef*.
 
 ## Remarks
@@ -50,9 +50,9 @@ The *.pkgdef* files must be installed in one of the following locations:
 
 - *%vsinstalldir%\Common7\IDE\Extensions\\*
 
-  If the installation folder is *%localappdata%\Microsoft\Visual Studio\16.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Manage Extensions**.
+If the installation folder is *%localappdata%\Microsoft\Visual Studio\16.0\Extensions\\*, the extension is recognized by Visual Studio but is disabled by default. The user can enable the extension by using **Manage Extensions**.
 
-  If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
+If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
 
 > [!NOTE]
 > The **Manage Extensions** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
@@ -67,9 +67,9 @@ The *.pkgdef* files must be installed in one of the following locations:
 
 - *%vsinstalldir%\Common7\IDE\Extensions\\*
 
-  If the installation folder is *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*, the extension will be recognized by Visual Studio, but will be disabled by default. The user can enable the extension by using **Extensions and Updates**.
+If the installation folder is *%localappdata%\Microsoft\Visual Studio\15.0\Extensions\\*, the extension is recognized by Visual Studio but is disabled by default. The user can enable the extension by using **Extensions and Updates**.
 
-  If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
+If the installation folder is *%vsinstalldir%\Common7\IDE\Extensions\\*, the extension is enabled by default.
 
 > [!NOTE]
 > The **Extensions and Updates** tool cannot be used to access an extension unless it is installed as part of a VSIX package.
