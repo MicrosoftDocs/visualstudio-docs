@@ -39,5 +39,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value%2A> pr
 ## See also
 
 - <xref:System.Xml.Linq.XAttribute.Value%2A?displayProperty=fullName>
-- [XAttribute class dynamic properties](../designers/xattribute-class-dynamic-properties.md)
+- [XAttribute class dynamic properties](../designers/value-xattribute-dynamic-property.md)
 - [Attribute](../designers/attribute-xelement-dynamic-property.md)

@@ -26,4 +26,4 @@ You can also use the Model Editor to view existing 3D models that have been crea
 |Title|Description|
 |-----------|-----------------|
 |[Model Editor](../designers/model-editor.md)|Describes how to use the Model Editor to work with 3D models.|
-|[Model Editor examples](../designers/model-editor-examples.md)|Provides links to topics that demonstrate how to use the Model Editor to perform common 3D modeling tasks.|
+|[Model Editor examples](../designers/how-to-create-a-basic-3-d-model.md)|Provides links to topics that demonstrate how to use the Model Editor to perform common 3D modeling tasks.|

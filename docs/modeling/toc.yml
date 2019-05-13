@@ -73,6 +73,7 @@
   - name: Extend dependency diagrams
     items:
     - name: Overview and requirements
+      displayName: Extend dependency diagrams
       href: extend-layer-diagrams.md
     - name: Add commands and gestures to dependency diagrams
       href: add-commands-and-gestures-to-layer-diagrams.md
@@ -83,6 +84,7 @@
   - name: Modeling SDK for Visual Studio - Domain-Specific Languages
     items:
     - name: Overview
+      displayName: Modeling SDK for Visual Studio
       href: modeling-sdk-for-visual-studio-domain-specific-languages.md
     - name: Get Started with Domain-Specific Languages
       href: getting-started-with-domain-specific-languages.md
@@ -93,10 +95,12 @@
     - name: Customize and Extend a Domain-Specific Language
       items:
       - name: Overview and article reference
+        displayName: Customize and Extend a Domain-Specific Language
         href: customizing-and-extending-a-domain-specific-language.md
       - name: Customize Presentation on the Diagram
         items:
         - name: Define Shapes and Connectors
+          displayName: Customize presentation on the diagram
           href: defining-shapes-and-connectors.md
         - name: Control Color, Line Style, and other Shape Properties
           href: controlling-color-line-style-and-other-shape-properties.md
@@ -123,6 +127,7 @@
       - name: Properties of Model Elements
         items:
         - name: Properties of a DSL Definition
+          displayName: Model element properties
           href: properties-of-a-dsl-definition.md
         - name: Properties of Domain Classes
           href: properties-of-domain-classes.md
@@ -153,6 +158,7 @@
     - name: Customize a Domain-Specific Language
       items:
       - name: Write Code to Customize a DSL
+        displayName: Customize a Domain-Specific Language
         href: writing-code-to-customise-a-domain-specific-language.md
       - name: Override and Extend the Generated Classes
         href: overriding-and-extending-the-generated-classes.md
@@ -183,6 +189,7 @@
     - name: Write User Commands and Actions
       items:
       - name: Modify a Standard Menu Command in a Domain-Specific Language
+        displayName: Write User Commands and Actions
         href: how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md
       - name: Add a Command to the Shortcut Menu
         href: how-to-add-a-command-to-the-shortcut-menu.md
@@ -195,6 +202,7 @@
     - name: Respond to and Propagate Changes
       items:
       - name: Overview and reference
+        displayName: Respond to and Propagate Changes
         href: responding-to-and-propagating-changes.md
       - name: Calculated and Custom Storage Properties
         href: calculated-and-custom-storage-properties.md
@@ -209,6 +217,7 @@
     - name: Generate Code from a Domain-Specific Language
       items:
       - name: Overview
+        displayName: Generate Code from a Domain-Specific Language
         href: generating-code-from-a-domain-specific-language.md
       - name: Access Models from Text Templates
         href: accessing-models-from-text-templates.md
@@ -225,6 +234,7 @@
     - name: Deploy Domain-Specific Language Solutions
       items:
       - name: MSI and VSIX Deployment of a DSL
+        displayName: Deploy Domain-Specific Language Solutions
         href: msi-and-vsix-deployment-of-a-dsl.md
       - name: Multiple DSLs in One Solution
         href: multiple-dsls-in-one-solution.md
@@ -263,6 +273,7 @@
   - name: Code Generation and T4 Text Templates
     items:
     - name: Overview
+      displayName: Code Generation and T4 Text Templates
       href: code-generation-and-t4-text-templates.md
     - name: Design-Time Code Generation by using T4 Text Templates
       items:
@@ -281,10 +292,12 @@
     - name: Write a T4 Text Template
       items:
       - name: Overview
+        displayName: Write a T4 Text Template
         href: writing-a-t4-text-template.md
       - name: T4 Text Template Directives
         items:
         - name: Directives overview and reference
+          displayName: T4 Text Template Directives
           href: t4-text-template-directives.md
         - name: T4 Template Directive
           href: t4-template-directive.md
@@ -321,6 +334,7 @@
     - name: Customize T4 Text Transformation
       items:
       - name: Overview and article reference
+        displayName: Customize T4 Text Transformation
         href: customizing-t4-text-transformation.md
       - name: The Text Template Transformation Process
         href: the-text-template-transformation-process.md
