@@ -20,7 +20,7 @@ If you're looking for F1 help on a keyword or API name, be sure the cursor is po
 
 ## Useful links
 
-- Search for reference documentation on [].NET API browser](/dotnet/api/).
+- Search for reference documentation on [.NET API browser](/dotnet/api/).
 - For C# help, see the [C# guide](/dotnet/csharp/index).
 - For Visual Basic help, see the [Visual Basic guide](/dotnet/visual-basic/).
 - For F# help, see the [F# guide](/dotnet/fsharp/).
