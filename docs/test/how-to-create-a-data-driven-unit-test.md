@@ -106,9 +106,6 @@ public void AddIntegers_FromDataSourceTest()
         new object[] {x, y});
 }
 ```
-> [!NOTE]
-> If you get a message saying there is no definition for 'DataRow', then you need to add a reference to 'System.Data'.
-
 
 The `Assert` method includes a message that displays the `x` and `y` values of a failed iteration. By default, the asserted values - `expected` and `actual` - are already included in failed test details.
 
