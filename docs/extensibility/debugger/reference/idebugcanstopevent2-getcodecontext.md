@@ -34,9 +34,8 @@ int GetCodeContext( 
 ```
 
 ## Parameters
- `ppCodeContext`\
-
- [out] Returns the [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the current code location.
+`ppCodeContext`\
+[out] Returns the [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the current code location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -35,12 +35,10 @@ public int GetChecksum(
 
 ## Parameters
 `guidAlgorithm`\
-
- [in] Unique identifier of the checksum algorithm.
+[in] Unique identifier of the checksum algorithm.
 
 `pChecksumData`\
-
- [out] Document checksum for the breakpoint request.
+[out] Document checksum for the breakpoint request.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

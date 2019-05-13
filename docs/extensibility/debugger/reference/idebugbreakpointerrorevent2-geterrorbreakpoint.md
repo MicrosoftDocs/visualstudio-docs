@@ -35,8 +35,7 @@ int GetErrorBreakpoint( 
 
 ## Parameters
 `ppErrorBP`\
-
- [out] Returns an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the warning or error.
+[out] Returns an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the warning or error.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
