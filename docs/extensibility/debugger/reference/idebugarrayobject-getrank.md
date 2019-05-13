@@ -34,9 +34,8 @@ int GetRank(
 ```
 
 ## Parameters
- `pdwRank`\
-
- [out] Returns the rank.
+`pdwRank`\
+[out] Returns the rank.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

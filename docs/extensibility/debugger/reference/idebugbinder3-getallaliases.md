@@ -38,17 +38,14 @@ int GetAllAliases(
 ```
 
 ## Parameters
- `uRequest`\
+`uRequest`\
+[in] The maximum number of aliases to return (specifies the length of the array passed into `ppAliases`).
 
- [in] The maximum number of aliases to return (specifies the length of the array passed into `ppAliases`).
+`ppAliases`\
+[in, out] Array to fill in with aliases (if this is a null value and `uRequest` is 0, the count of aliases that can be returned will be returned by `puFetched`).
 
- `ppAliases`\
-
- [in, out] Array to fill in with aliases (if this is a null value and `uRequest` is 0, the count of aliases that can be returned will be returned by `puFetched`).
-
- `puFetched`\
-
- [out] Returns the number of aliases obtained.
+`puFetched`\
+[out] Returns the number of aliases obtained.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

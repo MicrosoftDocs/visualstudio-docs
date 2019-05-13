@@ -34,9 +34,8 @@ int GetObject(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] The [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) this alias represents.
+`ppObject`\
+[out] The [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) this alias represents.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
