@@ -67,9 +67,6 @@ To test the `AddIntegers` method, create a data source that specifies a range of
 |1|1|2|
 |2|-3|-1|
 
-> [!NOTE]
-> .NET Core does not support the [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute) attribute. If you try to access test data in this way in a .NET Core or UWP unit test project, you'll see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
-
 ## Add a TestContext to the test class
 
 The unit test framework creates a `TestContext` object to store the data source information for a data-driven test. The framework then sets this object as the value of the `TestContext` property that you create.
@@ -84,6 +81,9 @@ public TestContext TestContext
 ```
 
 In your test method, you access the data through the `DataRow` indexer property of the `TestContext`.
+
+> [!NOTE]
+> .NET Core does not support the [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute) attribute. If you try to access test data in this way in a .NET Core or UWP unit test project, you'll see an error similar to **"'TestContext' does not contain a definition for 'DataRow' and no accessible extension method 'DataRow' accepting a first argument of type 'TestContext' could be found (are you missing a using directive or an assembly reference?)"**.
 
 ## Write the test method
 
