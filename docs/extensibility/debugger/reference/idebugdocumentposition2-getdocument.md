@@ -34,9 +34,8 @@ int GetDocument( 
 ```
 
 ## Parameters
- `ppDoc`\
-
- [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document containing this position.
+`ppDoc`\
+[out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the document containing this position.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

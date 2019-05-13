@@ -34,9 +34,8 @@ int EnumPrograms( 
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md) object that contains a list of all programs being debugged by a DE.
+`ppEnum`\
+[out] Returns an [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md) object that contains a list of all programs being debugged by a DE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

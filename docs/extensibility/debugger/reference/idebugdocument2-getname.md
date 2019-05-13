@@ -36,13 +36,11 @@ int GetName( 
 ```
 
 ## Parameters
- `gnType`\
+`gnType`\
+[in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that determines the type of name to return.
 
- [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that determines the type of name to return.
-
- `pbstrFileName`\
-
- [out] Returns a string containing the document name.
+`pbstrFileName`\
+[out] Returns a string containing the document name.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

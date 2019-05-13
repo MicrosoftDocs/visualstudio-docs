@@ -36,13 +36,11 @@ int onInsert( 
 ```
 
 ## Parameters
- `pos`\
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was inserted.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was inserted.
-
- `dwNumToInsert`\
-
- [in] Specifies the number of characters of text that were inserted.
+`dwNumToInsert`\
+[in] Specifies the number of characters of text that were inserted.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

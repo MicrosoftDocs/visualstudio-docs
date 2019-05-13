@@ -35,13 +35,11 @@ int GetTypeFromPrimitive(
 ```
 
 ## Parameters
- `dwCorElementType`\
+`dwCorElementType`\
+[in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
- [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
-
- `ppType`\
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the type.
+`ppType`\
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

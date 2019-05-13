@@ -36,13 +36,11 @@ int onReplaceText( 
 ```
 
 ## Parameters
- `pos`\
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) indicates where the text was replaced.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) indicates where the text was replaced.
-
- `dwNumToReplace`\
-
- [in] Specifies the number of characters of text that were replaced.
+`dwNumToReplace`\
+[in] Specifies the number of characters of text that were replaced.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
