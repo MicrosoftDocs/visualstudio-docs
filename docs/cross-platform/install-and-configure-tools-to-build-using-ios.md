@@ -1,7 +1,7 @@
 ---
 title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/21/2018"
+ms.date: "05/13/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -126,7 +126,7 @@ Once you have started the remote agent, you can use it from Visual Studio until 
 
 To connect to the remote agent from Visual Studio, you must specify the remote configuration in the Visual Studio options.
 
-#### To configure the remote agent from Visual Studio
+### To configure the remote agent from Visual Studio
 
 1. If the agent is not already running on your Mac, follow the steps in [Start the remote agent](#Start). Your Mac must be running vcremote for Visual Studio to successfully pair, connect and build your project.
 
@@ -163,7 +163,7 @@ Visual Studio uses the same information to connect to the remote agent on your M
 
 When you start the remote agent the first time, the generated PIN is valid for a limited amount of time—by default, 10 minutes. If you don't pair Visual Studio to the remote agent before the time expires, you will need to generate a new PIN.
 
-#### To generate a new PIN
+### To generate a new PIN
 
 1. Stop the agent, or open a second Terminal app window on your Mac and use that to enter the command.
 
@@ -177,7 +177,7 @@ When you start the remote agent the first time, the generated PIN is valid for a
 
 For security purposes, the server certificates that pair Visual Studio with the remote agent are tied to the IP address or host name of your Mac. If these values change, you must generate a new server certificate, and then reconfigure Visual Studio with the new values.
 
-#### To generate a new server certificate
+### To generate a new server certificate
 
 1. Stop the vcremote agent.
 
@@ -199,7 +199,7 @@ For security purposes, the server certificates that pair Visual Studio with the 
 
 You can configure the remote agent using various command line options. For example, you can specify the port to listen for build requests and specify the maximum number of builds to maintain on the file system. By default, the limit is 10 builds. The remote agent will remove builds that exceed the maximum on shutdown.
 
-#### To configure the remote agent
+### To configure the remote agent
 
 - To see a complete list of remote agent commands, in the Terminal app, enter:
 
@@ -231,38 +231,38 @@ You can configure the remote agent using various command line options. For examp
 
 ## Troubleshoot the remote agent
 
-#### Debugging on an iOS device
+### Debugging on an iOS device
 
 If debugging on an iOS device does not work, there could be issues with the tool [ideviceinstaller](https://github.com/libimobiledevice/ideviceinstaller), which is used to communicate with an iOS device. This tool is typically installed from Homebrew during the installation of vcremote. Follow the steps below as a workaround.
 
 Open the Terminal app and update ideviceinstaller and its dependencies by running the following in order:
 
 1. Ensure Homebrew is updated
-   
+
    `brew update`
-   
-2. Uninstall libimobiledevice and usbmuxd
-   
+
+1. Uninstall libimobiledevice and usbmuxd
+
    `brew uninstall --ignore-dependencies libimobiledevice`
-   
+
    `brew uninstall --ignore-dependencies usbmuxd`
-   
-3. Install the latest version of libimobiledevice and usbmuxd
-   
+
+1. Install the latest version of libimobiledevice and usbmuxd
+
    `brew install --HEAD usbmuxd`
-   
+
    `brew unlink usbmuxd`
-   
+
    `brew link usbmuxd`
-   
+
    `brew install --HEAD libimobiledevice`
-   
-4. Uninstall and re-install ideviceinstaller
-   
+
+1. Uninstall and re-install ideviceinstaller
+
    `brew uninstall ideviceinstaller`
-   
+
    `brew install ideviceinstaller`
-   
+
 Verify that ideviceinstaller can communicate with the device by trying to list the apps installed on the device:
 
 `ideviceinstaller -l`
