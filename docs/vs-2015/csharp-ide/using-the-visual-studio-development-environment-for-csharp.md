@@ -30,7 +30,7 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 |-----------|-----------------|
 |[Walkthrough: Create a Simple Application](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)|Provides an overview of many of the features and tools included in Visual Studio for application development.|
 |[Creating Solutions and Projects](../ide/creating-solutions-and-projects.md)|Describes how to create a project that contains all the source code files, resource files such as icons, references to external files, and configuration data such as compiler settings.|
-|[Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)|Provides an overview of the Project Designer, which provides a centralized location for managing project properties, settings, and resources.|
+|[Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)|Provides an overview of the Project Designer, which provides a centralized location for managing project properties, settings, and resources.|
 |[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|Describes Visual Studio tools that help you modify and manipulate text, code, and markup, insert and configure controls and other objects and namespaces, and add references to external components and resources.|
 |[Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)|Provides links to topics that describe Visual C#–specific features, such as automatic code generation and IntelliSense for most recently used members.|
 |[Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)|Provides an overview of using Code Snippets in Visual C# to automatically add common code constructs to your application|
@@ -45,6 +45,6 @@ The Visual Studio integrated development environment (IDE) is a collection of de
 
 ## See Also
 
-- [C#](http://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc)
-- [Getting Started with C#](http://msdn.microsoft.com/library/d6ec050f-3956-4737-8030-a4fa3521d29f)
-- [C# Reference](http://msdn.microsoft.com/library/06de3167-c16c-4e1a-b3c5-c27841d4569a)
+- [C#](https://msdn.microsoft.com/library/7f4f8103-7068-4f1d-92c7-3c4519b6edbc)
+- [Getting Started with C#](https://msdn.microsoft.com/library/d6ec050f-3956-4737-8030-a4fa3521d29f)
+- [C# Reference](https://msdn.microsoft.com/library/06de3167-c16c-4e1a-b3c5-c27841d4569a)
