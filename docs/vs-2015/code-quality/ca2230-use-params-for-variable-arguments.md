@@ -35,7 +35,7 @@ manager: "wpickett"
  In C#, the `VarArgs` calling convention is used when a method's parameter list ends with the `__arglist` keyword. Visual Basic does not support the `VarArgs` calling convention, and Visual C++  allows its use only in unmanaged code that uses the ellipse `...` notation.
 
 ## How to Fix Violations
- To fix a violation of this rule in C#, use the [params](http://msdn.microsoft.com/library/1690815e-b52b-4967-8380-5780aff08012) keyword instead of `__arglist`.
+ To fix a violation of this rule in C#, use the [params](https://msdn.microsoft.com/library/1690815e-b52b-4967-8380-5780aff08012) keyword instead of `__arglist`.
 
 ## When to Suppress Warnings
  Do not suppress a warning from this rule.
@@ -47,4 +47,4 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Reflection.CallingConventions?displayProperty=fullName>
- [Language Independence and Language-Independent Components](http://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
+ [Language Independence and Language-Independent Components](https://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

@@ -53,4 +53,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.EventArgs?displayProperty=fullName>
  <xref:System.Object?displayProperty=fullName>
- [NIB: Events and Delegates](http://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)
+ [NIB: Events and Delegates](https://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)
