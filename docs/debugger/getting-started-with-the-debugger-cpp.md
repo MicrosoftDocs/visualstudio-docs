@@ -2,15 +2,15 @@
 title: "Learn to debug C++ using the Visual Studio debugger"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment"
-ms.date: "08/01/2018"
-ms.topic: "tutorial"
+ms.date: 08/01/2018
+ms.topic: tutorial
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

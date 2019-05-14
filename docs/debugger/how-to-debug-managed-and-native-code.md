@@ -2,15 +2,15 @@
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
 ms.custom: "seodec18"
-ms.date: "11/02/2018"
-ms.topic: "tutorial"
+ms.date: 11/02/2018
+ms.topic: tutorial
 dev_langs:
   - "CSharp"
   - "C++"
 helpviewer_keywords:
   - "mixed mode debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "dotnet"

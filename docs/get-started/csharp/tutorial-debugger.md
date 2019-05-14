@@ -2,16 +2,16 @@
 title: "Tutorial: Debug C# code"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment, seodec18, get-started"
-ms.date: "11/27/2018"
+ms.date: 11/27/2018
 ms.technology: "vs-ide-debug"
-ms.topic: "tutorial"
+ms.topic: tutorial
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
