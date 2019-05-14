@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Use Coded UI test to test your code
 
-Coded UI tests (CUITs) drive your application through its user interface (UI). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI tests are particularly useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
+Coded UI tests (CUITs) drive your application through its user interface (UI). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI tests are useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
 
 Creating a Coded UI test in Visual Studio is easy. You simply perform the test manually while **Coded UI Test Builder** runs in the background. You can also specify what values should appear in specific fields. **Coded UI Test Builder** records your actions and generates code from them. After the test is created, you can edit it in a specialized editor that lets you modify the sequence of actions.
 
@@ -75,7 +75,7 @@ To access the Coded UI test tools and templates, install the **Coded UI test** c
 
 3. Record a sequence of actions.
 
-     **To start recording**, choose the **Record** icon. Perform the actions that you want to test in your application, including starting the application if that is required. For example, if you are testing a web application, you might start a browser, navigate to the website, and log in to the application.
+     **To start recording**, choose the **Record** icon. Perform the actions that you want to test in your application, including starting the application if that is required. For example, if you are testing a web application, you might start a browser, navigate to the website, and sign in to the application.
 
      **To pause recording**, for example if you have to deal with incoming mail, choose **Pause**.
 
@@ -136,7 +136,7 @@ To access the Coded UI test tools and templates, install the **Coded UI test** c
 
 The remaining sections in this topic provide more detail about the steps in this procedure.
 
-For a more detailed example, see [Walkthrough: Creating, editing and maintaining a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a Coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.
+For a more detailed example, see [Walkthrough: Creating, editing, and maintaining a Coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a Coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.
 
 ## Start and stop the application under test
 
@@ -262,7 +262,7 @@ To enable the recording of implicit hovers in a web browser, open the configurat
 
 *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CodedUITestBuilder.exe.config*
 
-Verify that the configuration file has the key `RecordImplicitiHovers` set to a to a value of `true` as shown in the following sample:
+Verify that the configuration file has the key `RecordImplicitiHovers` set to a value of `true` as shown in the following sample:
 
 ```xml
 <!--Use this to enable/disable recording of implicit hovers.-->

@@ -46,10 +46,7 @@ You can also create a new rule set file from the **New File** dialog:
 
 ### Create a custom rule set from multiple rule sets
 
-> [!NOTE]
-> The following procedure does not apply to .NET Core projects, which don't have a **Code Analysis** property tab.
-
-1. In **Solution Explorer**, right-click the project and then select **Properties**.
+1. In Solution Explorer, right-click the project and then select **Properties**.
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
@@ -109,7 +106,7 @@ To change the display name of a rule set that's open in the editor, open the **P
 
 ## Next steps
 
-Now that you have a rule set, the next step is to customize the rules by adding or removing rules or modifying the severity of rule violations.
+Now that you have a rule set, the next step is to customize the rules by adding or removing rules, or modifying the severity of rule violations.
 
 > [!div class="nextstepaction"]
 > [Modify rules in the rule set editor](../code-quality/working-in-the-code-analysis-rule-set-editor.md)
