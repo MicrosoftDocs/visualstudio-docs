@@ -16,7 +16,7 @@ manager: jillfra
 You can add elements—controls, layouts, and shapes—to your app in XAML, in code, or by using XAML Designer. This topic describes how to work with elements in XAML Designer in Visual Studio or Blend for Visual Studio.  
   
 ## Adding an element to a layout  
- *Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.panel.aspx). A  `Panel` has a child property which is a collection of [FrameworkElement](http://msdn.microsoft.com/library/windows/apps/br208706.aspx) types. You can use various  `Panel` child elements, such as [Canvas](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.canvas.aspx), [StackPanel](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel.aspx), and [Grid](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx), to serve as layout containers and to position and arrange the elements on a page.  
+ *Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.panel.aspx). A  `Panel` has a child property which is a collection of [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/br208706.aspx) types. You can use various  `Panel` child elements, such as [Canvas](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.canvas.aspx), [StackPanel](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel.aspx), and [Grid](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx), to serve as layout containers and to position and arrange the elements on a page.  
   
  By default, a `Grid` panel is used as the top-level layout container within a page or form. You can add layout panels, controls, or other elements within the top-level page layout.  
   
@@ -28,7 +28,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
   
     - Drag an element from the **Toolbox** to the artboard.  
   
-    - In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.  
+    - In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.  
   
 ## Changing the layering order of elements  
  When there are two elements on the artboard in XAML Designer, one element will appear in front of the other in the layering order. At the bottom of the list of elements in the Document Outline window is the front-most element (except for when the **ZIndex** property for an element is set). When you insert an element into a page, form, or layout container, the element is automatically placed in front of other elements in the active container element. To change the order of elements, you can use the **Order** commands or drag the elements in the object tree in the Document Outline window.  

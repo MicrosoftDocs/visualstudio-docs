@@ -22,7 +22,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
 - An active Microsoft Azure account.  
   
-    - You can sign up for a free trial account [here](http://azure.microsoft.com/pricing/free-trial/).  
+    - You can sign up for a free trial account [here](https://azure.microsoft.com/pricing/free-trial/).  
   
     - You can activate [MSDN subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F). Your MSDN subscription gives you credits every month that you can use for paid Azure services.  
   
@@ -560,7 +560,7 @@ You can use Windows Presentation Foundation (WPF) to quickly create a modern des
   
  You can make the user interface more appealing by adding color, shapes, graphics, and even animations. See [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).  
   
- You can connect to existing SQL databases or other sources of data using Azure Mobile Services. See [Mobile Services documentation](http://azure.microsoft.com/services/app-service/mobile/).  
+ You can connect to existing SQL databases or other sources of data using Azure Mobile Services. See [Mobile Services documentation](https://azure.microsoft.com/services/app-service/mobile/).  
   
 ## See Also  
  [Walkthrough: My First WPF Desktop Application](../designers/walkthrough-my-first-wpf-desktop-application2.md)   
