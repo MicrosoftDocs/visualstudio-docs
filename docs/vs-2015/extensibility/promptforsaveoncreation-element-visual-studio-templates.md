@@ -51,7 +51,7 @@ Specifies whether the user is prompted for a project save location via the **New
 ## Remarks  
  `PromptForSaveOnCreation` is an optional element. The default value is `false`.  
   
- Temporary projects are projects that you can create and modify without saving the contents of that project on disk. For more information, see [NIB Temporary Projects](http://msdn.microsoft.com/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
+ Temporary projects are projects that you can create and modify without saving the contents of that project on disk. For more information, see [NIB Temporary Projects](https://msdn.microsoft.com/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
   
 ## Example  
  The following example sets the value of `PromptForSaveOnCreation` equal to `false`, which specifies to allow the project to be created as a temporary project.  

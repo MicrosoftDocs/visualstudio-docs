@@ -275,7 +275,7 @@ ZipProjects:
   
 - $safeprojectname$ is the name provided by a user in the **New Project** dialog box, modified to remove all unsafe characters and spaces.  
   
-  For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](http://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
+  For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](https://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
   
 #### To substitute project template parameters  
   

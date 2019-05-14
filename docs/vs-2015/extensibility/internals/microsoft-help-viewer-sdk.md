@@ -814,7 +814,7 @@ some F# code
 
 ### Additional Resources
 
-For the Runtime API, see [Windows Help API](http://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).
+For the Runtime API, see [Windows Help API](https://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).
 
 For more information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e).
 

@@ -28,7 +28,7 @@ IDebugProgramEngines2 : IUnknown
  A DE or a custom port supplier implements this interface on the same object that implements [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) to support establishing a specific DE to use for a particular program.  
   
 ## Notes for Callers  
- Call [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProgramNode2` interface to obtain this interface.  
+ Call [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugProgramNode2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramEngines2`.  
