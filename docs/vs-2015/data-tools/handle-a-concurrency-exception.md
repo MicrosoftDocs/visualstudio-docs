@@ -37,7 +37,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 4. Fill a dataset with data from the `Customers` table in the Northwind database.  
   
-5. Use the [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
+5. Use the [Visual Database Tools](https://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
   
 6. Change the same record to a different value, update the dataset, and attempt to write the changes to the database, which results in a concurrency error being raised.  
   
@@ -49,7 +49,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 - Access to the Northwind sample database with permission to perform updates.
   
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a new project  
  You begin your walkthrough by creating a new Windows application.  
@@ -73,7 +73,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 1. On the **Data** menu, choose **Add New Data source**.  
   
-     The [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) opens.  
+     The [Data Source Configuration Wizard](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) opens.  
   
 2. On the **Choose a Data Source Type**screen, select **Database**.  
   
