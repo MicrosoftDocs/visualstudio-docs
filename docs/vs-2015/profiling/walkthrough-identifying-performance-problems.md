@@ -155,4 +155,4 @@ This walkthrough demonstrates how to profile an application to identify performa
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
- [/Z7, /Zi, /ZI (Debug Information Format)](http://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)
+ [/Z7, /Zi, /ZI (Debug Information Format)](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)
