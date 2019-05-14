@@ -1,7 +1,7 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to IIS"
-ms.date:"01/31/2019
+ms.date: 01/31/2019
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
