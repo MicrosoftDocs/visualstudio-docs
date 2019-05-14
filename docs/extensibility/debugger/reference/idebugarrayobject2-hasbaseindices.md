@@ -33,9 +33,8 @@ int HasBaseIndices (
 ```
 
 ## Parameters
- `pfHasBaseIndices`\
-
- [out] TRUE to specify that the array has base indices (lower bounds); otherwise, FALSE.
+`pfHasBaseIndices`\
+[out] TRUE to specify that the array has base indices (lower bounds); otherwise, FALSE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

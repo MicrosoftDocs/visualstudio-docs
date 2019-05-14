@@ -35,14 +35,12 @@ int GetElement(
 );
 ```
 
-#### Parameters
- `dwIndex`\
+## Parameters
+`dwIndex`\
+[in] The element index.
 
- [in] The element index.
-
- `ppElement`\
-
- [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface that represents the element.
+`ppElement`\
+[out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface that represents the element.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

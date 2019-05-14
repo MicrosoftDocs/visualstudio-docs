@@ -40,21 +40,17 @@ int GetTypeArguments(
 ```
 
 ## Parameters
- `skip`\
+`skip`\
+[in]Number of fields to skip before getting argument types.
 
- [in]Number of fields to skip before getting argument types.
+`count`\
+[in] The number of argument fields to return (also specifies the size of the `ppFields` array).
 
- `count`\
+`ppFields`\
+[in, out] An array of fields that will be filled in on return of this method.
 
- [in] The number of argument fields to return (also specifies the size of the `ppFields` array).
-
- `ppFields`\
-
- [in, out] An array of fields that will be filled in on return of this method.
-
- `pFetched`\
-
- [out] \(optional) The number of argument type fields actually returned.
+`pFetched`\
+[out] \(optional) The number of argument type fields actually returned.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

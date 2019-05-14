@@ -76,7 +76,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
-For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
+For other Workloads, refer to the [Workloads](workloads.md) page.
 
 ## Related Video
 

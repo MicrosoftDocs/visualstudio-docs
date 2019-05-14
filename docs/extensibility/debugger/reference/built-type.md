@@ -37,7 +37,7 @@ public struct BUILT_TYPE {
 };
 ```
 
-#### Members
+## Members
 `ulAppDomainID`\
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 

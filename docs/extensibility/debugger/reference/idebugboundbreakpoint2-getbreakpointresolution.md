@@ -36,8 +36,7 @@ int GetBreakpointResolution( 
 
 ## Parameters
 `ppBPResolution`\
-
- [out] Returns the [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) interface that represents one of the following:
+[out] Returns the [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) interface that represents one of the following:
 
 - The breakpoint resolution object that describes the location in code where a code breakpoint has been bound.
 
