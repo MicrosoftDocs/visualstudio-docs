@@ -52,8 +52,8 @@ You can debug a 64-bit application that is running on the local computer or on a
 - You are running into a hang or performance problem with Visual Studio. If the problem happens regularly, you can collect dumps of Visual Studio (devenv.exe) and the worker process (msvsmon.exe) and send them to Microsoft. 
   
 ## See Also  
- [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
- [Configuring Programs for 64-Bit](http://msdn.microsoft.com/library/cb99f72b-8c74-48f4-846a-8921b37b97e9)   
+ [64-bit Applications](https://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181)   
+ [Configuring Programs for 64-Bit](https://msdn.microsoft.com/library/cb99f72b-8c74-48f4-846a-8921b37b97e9)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)   
  [Using Dump Files](../debugger/using-dump-files.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

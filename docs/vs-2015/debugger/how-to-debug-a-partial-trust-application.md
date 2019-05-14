@@ -24,7 +24,7 @@ manager: jillfra
 
 Applies to Windows and console applications.  
   
- [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md) makes it easy to deploy partial trust applications that take advantage of [Code Access Security](http://msdn.microsoft.com/library/859af632-c80d-4736-8d6f-1e01b09ce127) to limit access to resources on a machine.  
+ [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md) makes it easy to deploy partial trust applications that take advantage of [Code Access Security](https://msdn.microsoft.com/library/859af632-c80d-4736-8d6f-1e01b09ce127) to limit access to resources on a machine.  
   
  Debugging a partial-trust application can be a challenge, because partial trust applications have different security permissions (and therefore behave differently) depending on where they are installed from. If installed from the internet, a partial trust application will have few permissions. If installed from a local intranet, it will have more permissions, and if installed from the local computer, it will have full permissions. You may also have custom zones, with custom permissions. You may need to debug a partial trust application under any or all of these conditions. Fortunately, Visual Studio makes this easy as well.  
   
