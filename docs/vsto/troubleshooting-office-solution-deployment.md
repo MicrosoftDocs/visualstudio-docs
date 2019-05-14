@@ -112,7 +112,7 @@ ms.workload:
 ## Can't install a ClickOnce solution by opening the deployment manifest from the web
  Users can install Office solutions by opening the deployment manifest from the web. However, some installations of Internet Information Services (IIS) block the *.vsto* file name extension. You must define the MIME type in IIS before you use it to deploy an Office solution.
 
- For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](http://technet.microsoft.com/library/cc725608(WS.10).aspx).
+ For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](https://technet.microsoft.com/library/cc725608(WS.10).aspx).
 
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.
 
