@@ -2,13 +2,13 @@
 title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: "mvc"
-ms.date: "05/18/2018"
-ms.topic: "quickstart"
+ms.date: 05/18/2018
+ms.topic: quickstart
 helpviewer_keywords:
   - "diagnostic tools"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
