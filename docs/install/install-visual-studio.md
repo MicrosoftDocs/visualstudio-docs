@@ -197,7 +197,7 @@ By default, the installer program tries to match the language of the operating s
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
-## Step 7 - Change the installation location (Optional)
+## Step 7 - Select the installation location (Optional)
 
 ::: moniker range="vs-2017"
 
@@ -211,7 +211,7 @@ Another way that you can change the default language is by running the installer
 
 You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
-  ![Visual Studio 2019 - Change installation locations](media/vs-2019/vs-installer-installation-locations.png "Change the installation location")
+  ![Visual Studio 2019 - Select installation locations](media/vs-2019/vs-installer-installation-locations.png "Select the installation location")
 
 ::: moniker-end
 
