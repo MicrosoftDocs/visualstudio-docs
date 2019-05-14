@@ -44,4 +44,4 @@ You can set properties that specify how diagrams will appear in the generated de
 |Help Keyword|The keyword that is used to index F1 help for this diagram.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -543,6 +543,6 @@ ComponentHasPorts . Component / ! Component /    ComponentModelHasComponents . C
  Connector maps can also contain decorator maps.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
