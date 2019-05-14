@@ -16,7 +16,7 @@ manager: jillfra
 The **Type Collection Editor** dialog box is used to add known types to the **Send** and **Receive** activities. This dialog is also used to add generic type arguments to the **InvokeMethod** activity. When used for the **Send** and **Receive** activities to add known types, the **Type Collection Editor** dialog box requires the type additions to be unique. If a duplicate type is added and the change is committed by clicking **OK**, an error message is returned. When used for the **InvokeMethod** activity to add generic type arguments, the **Type Collection Editor** dialog box allows the addition of duplicate types.  
   
 > [!NOTE]
-> [!INCLUDE[crabout](../includes/crabout-md.md)] known types, see [Data Contract Known Types](http://msdn.microsoft.com/library/1a0baea1-27b7-470d-9136-5bbad86c4337).  
+> [!INCLUDE[crabout](../includes/crabout-md.md)] known types, see [Data Contract Known Types](https://msdn.microsoft.com/library/1a0baea1-27b7-470d-9136-5bbad86c4337).  
   
  The following table describes the user interface (UI) elements of the **Type Collection** dialog box.  
   
