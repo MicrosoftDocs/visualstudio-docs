@@ -26,7 +26,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
 >   - Run your tests after every build.  
 >   - VS Enterprise also contains Microsoft Fakes, an isolation framework for managed code that helps you to focus your tests on your own code by substituting test code for system and third-party functionality.  
 > 
->   For more information, see [Verifying Code by Using Unit Tests](http://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
+>   For more information, see [Verifying Code by Using Unit Tests](https://msdn.microsoft.com/library/dd264975.aspx) in the MSDN Library.  
   
 ## <a name="BKMK_In_this_topic"></a> In this topic  
  [Create the solution and the unit test project](#BKMK_Create_the_solution_and_the_unit_test_project)  
