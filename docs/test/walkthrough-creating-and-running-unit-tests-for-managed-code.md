@@ -16,7 +16,7 @@ author: gewarren
 ---
 # Walkthrough: Create and run unit tests for managed code
 
-This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and rerun the tests.
+This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests.
 
 ## Create a project to test
 
@@ -28,7 +28,7 @@ This article steps you through creating, running, and customizing a series of un
 
    The **New Project** dialog box appears.
 
-3. Choose the C# **Console App (.NET Framework)** project template.
+3. Under the **Visual C#** > **.NET Core** category, choose the **Console App (.NET Core)** project template.
 
 4. Name the project **Bank**, and then click **OK**.
 
