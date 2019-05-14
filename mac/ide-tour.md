@@ -110,7 +110,7 @@ For more information on using version control in Visual Studio, see the [Version
 ## Next steps
 
 - [Install Visual Studio for Mac](installation.md)
-- [Review the available workloads](/mac/workloads.md)
+- [Review the available workloads](workloads.md)
 
 ## Related Video
 
