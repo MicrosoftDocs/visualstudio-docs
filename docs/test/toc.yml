@@ -347,17 +347,18 @@
         href: how-to-delete-load-test-results-from-a-repository.md
     - name: Create an add-in for the results viewer
       href: how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md
-- name: UI test automation
+- name: UI automation using Coded UI test
   items:
   - name: Overview
-    displayName: UI test automation
+    displayName: Coded UI test
     href: use-ui-automation-to-test-your-code.md
   - name: "Walkthrough: Create, Edit and Maintain a Coded UI Test"
     href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
   - name: Test UWP Apps with Coded UI Tests
     href: test-uwp-app-with-coded-ui-test.md
-  - name: Set a Unique Automation Property for UWP Controls
-    href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
+    items:
+    - name: Set a Unique Automation Property for UWP Controls
+      href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
   - name: Use HTML5 Controls in Coded UI Tests
     href: using-html5-controls-in-coded-ui-tests.md
   - name: Create a Data-Driven Coded UI Test
