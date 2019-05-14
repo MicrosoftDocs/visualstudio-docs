@@ -80,8 +80,6 @@
       href: unit-tests-for-generic-methods.md
     - name: Configure unit tests to target An earlier version of the .NET Framework
       href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
-    - name: Sample project for creating unit tests
-      href: sample-project-for-creating-unit-tests.md
   - name: Unit tests for C/C++ code
     items:
     - name: Write unit tests for C/C++ code

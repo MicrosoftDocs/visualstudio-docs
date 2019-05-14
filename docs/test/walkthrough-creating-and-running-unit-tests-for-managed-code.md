@@ -1,6 +1,6 @@
 ---
-title: "Create and run unit tests for managed code"
-ms.date: 11/04/2016
+title: C# unit test tutorial
+ms.date: 05/14/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests, walkthrough"
@@ -18,15 +18,6 @@ author: gewarren
 
 This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you can change your project code and rerun the tests.
 
-> [!NOTE]
-> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** also can run tests from third party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
-
-For information about how to run tests from a command line, see [VSTest.Console.exe command-line options](vstest-console-options.md).
-
-## Prerequisites
-
-- The Bank project. See [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md).
-
 ## Create a project to test
 
 ::: moniker range="vs-2017"
@@ -37,14 +28,14 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
    The **New Project** dialog box appears.
 
-3. Choose the C# **Class Library** project template.
+3. Choose the C# **Console App (.NET Framework)** project template.
 
 4. Name the project **Bank**, and then click **OK**.
 
-   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+   The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
    > [!NOTE]
-   > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+   > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
 
 ::: moniker-end
 
@@ -54,42 +45,92 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 2. On the start window, choose **Create a new project**.
 
-3. Search for and select the C# **Class Library** project template, and then click **Next**.
+3. Search for and select the C# **Console App (.NET Core)** project template, and then click **Next**.
 
 4. Name the project **Bank**, and then click **Create**.
 
-   The Bank project is created and displayed in **Solution Explorer** with the *Class1.cs* file open in the code editor.
+   The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
    > [!NOTE]
-   > If *Class1.cs* is not open in the Code Editor, double-click the file *Class1.cs* in **Solution Explorer** to open it.
+   > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
 
 ::: moniker-end
 
-5. Copy the source code from the [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md), and replace the original contents of *Class1.cs* with the copied code.
+5. Replace the contents of *Program.cs* with the following C# code that defines a class, *BankAccount*:
 
-6. Save the file as *BankAccount.cs*.
+   ```csharp
+   using System;
+
+   namespace BankAccountNS
+   {
+       /// <summary>
+       /// Bank account demo class.
+       /// </summary>
+       public class BankAccount
+       {
+           private readonly string m_customerName;
+           private double m_balance;
+
+           private BankAccount() { }
+
+           public BankAccount(string customerName, double balance)
+           {
+               m_customerName = customerName;
+               m_balance = balance;
+           }
+
+           public string CustomerName
+           {
+               get { return m_customerName; }
+           }
+
+           public double Balance
+           {
+               get { return m_balance; }
+           }
+
+           public void Debit(double amount)
+           {
+               if (amount > m_balance)
+               {
+                   throw new ArgumentOutOfRangeException("amount");
+               }
+
+               if (amount < 0)
+               {
+                   throw new ArgumentOutOfRangeException("amount");
+               }
+
+               m_balance += amount; // intentionally incorrect code
+           }
+
+           public void Credit(double amount)
+           {
+               if (amount < 0)
+               {
+                   throw new ArgumentOutOfRangeException("amount");
+               }
+
+               m_balance += amount;
+           }
+
+           public static void Main()
+           {
+               BankAccount ba = new BankAccount("Mr. Bryan Walton", 11.99);
+
+               ba.Credit(5.77);
+               ba.Debit(11.22);
+               Console.WriteLine("Current balance is ${0}", ba.Balance);
+           }
+       }
+   }
+   ```
+
+6. Rename the file to *BankAccount.cs* by right-clicking and choosing **Rename** in **Solution Explorer**.
 
 7. On the **Build** menu, click **Build Solution**.
 
-You now have a project named Bank. It contains source code to test and tools to test it with. The namespace for Bank, BankAccountNS, contains the public class BankAccount, whose methods you'll test in the following procedures.
-
-In this article, the tests focus on the Debit method. The Debit method is called when money is withdrawn from an account. Here is the method definition:
-
-```csharp
-// Method to be tested.
-public void Debit(double amount)
-{
-    if(amount > m_balance)
-    {
-        throw new ArgumentOutOfRangeException("amount");
-    }
-    if (amount < 0)
-    {
-        throw new ArgumentOutOfRangeException("amount");
-    }
-    m_balance += amount;
-}
-```
+You now have a project with methods you can test. In this article, the tests focus on the `Debit` method. The `Debit` method is called when money is withdrawn from an account.
 
 ## Create a unit test project
 
@@ -102,7 +143,7 @@ public void Debit(double amount)
 
 2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
-3. From the list of templates, select **Unit Test Project**.
+3. From the list of templates, select **MSTest Test Project (.NET Core)**.
 
 4. In the **Name** box, enter `BankTests`, and then select **OK**.
 
@@ -112,9 +153,9 @@ public void Debit(double amount)
 
 ::: moniker range=">=vs-2019"
 
-2. Search for and select the C# **Unit Test Project** project template, and then click **Next**.
+2. Search for and select the C# **MSTest Test Project (.NET Core)** project template, and then click **Next**.
 
-3. Name the project `BankTests`.
+3. Name the project **BankTests**.
 
 4. Click **Create**.
 
@@ -124,22 +165,31 @@ public void Debit(double amount)
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the right-click menu.
+   In **Solution Explorer**, select **Dependencies** under the **BankTests** project and then choose **Add Reference** from the right-click menu.
 
-6. In the **Reference Manager** dialog box, expand **Solution** and then check the **Bank** item.
+6. In the **Reference Manager** dialog box, expand **Projects**, select **Solution**, and then check the **Bank** item.
+
+7. Choose **OK**.
 
 ## Create the test class
 
 Create a test class to verify the `BankAccount` class. You can use the *UnitTest1.cs* file that was generated by the project template, but give the file and class more descriptive names. You can do that in one step by renaming the file in **Solution Explorer**.
 
-### Rename a class file
+### Rename a file and class
 
-In **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*. Choose **Yes** on the dialog that asks if you want to rename all references to the code element `UnitTest1` in the project.
+1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename**, and then rename the file to *BankAccountTests.cs*.
 
-This step changes the name of the class to `BankAccountTests`. The *BankAccountTests.cs* file now contains the following code:
+   ::: moniker range="vs-2017"
+
+   In the dialog box that pops up, choose **No**.
+
+   ::: moniker-end
+
+2. To rename the class, position the cursor on `UnitTest1` in the code editor and press **F2** (or right-click and choose **Rename**). Type in **BankAccountTests** and then press **Enter**.
+
+The *BankAccountTests.cs* file now contains the following code:
 
 ```csharp
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BankTests
@@ -155,9 +205,9 @@ namespace BankTests
 }
 ```
 
-### Add a using statement to the project under test
+### Add a using statement
 
-You can also add a `using` statement to the class to be able to call into the project under test without using fully qualified names. At the top of the class file, add:
+Add a [`using` statement](/dotnet/csharp/language-reference/keywords/using-statement) to the test class to be able to call into the project under test without using fully qualified names. At the top of the class file, add:
 
 ```csharp
 using BankAccountNS;
@@ -167,15 +217,15 @@ using BankAccountNS;
 
 The minimum requirements for a test class are:
 
-- The `[TestClass]` attribute is required in the Microsoft unit testing framework for managed code for any class that contains unit test methods that you want to run in Test Explorer.
+- The `[TestClass]` attribute is required on any class that contains unit test methods that you want to run in Test Explorer.
 
-- Each test method that you want Test Explorer to run must have the `[TestMethod]` attribute.
+- Each test method that you want Test Explorer to recognize must have the `[TestMethod]` attribute.
 
-You can have other classes in a unit test project that do not have the `[TestClass]` attribute, and you can have other methods in test classes that do not have the `[TestMethod]` attribute. You can use these other classes and methods in your test methods.
+You can have other classes in a unit test project that do not have the `[TestClass]` attribute, and you can have other methods in test classes that do not have the `[TestMethod]` attribute. You can call these other classes and methods from your test methods.
 
 ## Create the first test method
 
-In this procedure, you'll write unit test methods to verify the behavior of the `Debit` method of the `BankAccount` class. The `Debit` method is shown previously in this article.
+In this procedure, you'll write unit test methods to verify the behavior of the `Debit` method of the `BankAccount` class.
 
 There are at least three behaviors that need to be checked:
 
@@ -211,7 +261,7 @@ public void Debit_WithValidAmount_UpdatesBalance()
 }
 ```
 
-The method is straightforward: it sets up a new `BankAccount` object with a beginning balance, and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A> method to verify that the ending balance is as expected.
+The method is straightforward: it sets up a new `BankAccount` object with a beginning balance and then withdraws a valid amount. It uses the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A?displayProperty=nameWithType> method to verify that the ending balance is as expected.
 
 ### Test method requirements
 
@@ -227,26 +277,25 @@ A test method must meet the following requirements:
 
 1. On the **Build** menu, choose **Build Solution**.
 
-   If there are no errors, **Test Explorer** appears with **Debit_WithValidAmount_UpdatesBalance** listed in the **Not Run Tests** group.
+2. If **Test Explorer** is not open, open it by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar.
 
-   > [!TIP]
-   > If **Test Explorer** does not appear after a successful build, choose **Test** on the menu, then choose **Windows**, and then choose  **Test Explorer**.
+3. Choose **Run All** to run the test.
 
-2. Choose **Run All** to run the test. While the test is running, the status bar at the top of the window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.
+   While the test is running, the status bar at the top of the **Test Explorer** window is animated. At the end of the test run, the bar turns green if all the test methods pass, or red if any of the tests fail.
 
-3. In this case, the test fails. The test method is moved to the **Failed Tests** group. Select the method in **Test Explorer** to view the details at the bottom of the window.
+   In this case, the test fails.
+
+4. Select the method in **Test Explorer** to view the details at the bottom of the window.
 
 ## Fix your code and rerun your tests
 
-### Analyze the test results
-
-The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected and what was actually received. You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
 
 The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 
 ### Correct the bug
 
-To correct the error, replace the line:
+To correct the error, in the *BankAccount.cs* file, replace the line:
 
 ```csharp
 m_balance += amount;
@@ -260,7 +309,9 @@ m_balance -= amount;
 
 ### Rerun the test
 
-In **Test Explorer**, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed, and the test is moved to the **Passed Tests** group.
+In **Test Explorer**, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed.
+
+![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
 
 ## Use unit tests to improve your code
 
@@ -273,7 +324,7 @@ You've created a test method to confirm that a valid amount is correctly deducte
 - greater than the balance, or
 - less than zero.
 
-### Create the test methods
+### Create and run new test methods
 
 Create a test method to verify correct behavior when the debit amount is less than zero:
 
@@ -304,8 +355,6 @@ To test the case when the amount withdrawn is greater than the balance, do the f
 
 3. Set the `debitAmount` to a number greater than the balance.
 
-### Run the tests
-
 Running the two test methods demonstrates that the tests work correctly.
 
 ### Continue the analysis
@@ -322,7 +371,7 @@ There is a constructor you can use that reports far richer information: <xref:Sy
 
 ### Refactor the code under test
 
-First, define two constants for the error messages at class scope. Put these in the class under test, BankAccount:
+First, define two constants for the error messages at class scope. Put these in the class under test, `BankAccount`:
 
 ```csharp
 public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
@@ -373,11 +422,11 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### Retest, rewrite, and reanalyze
 
-Assume there's a bug in the method under test and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException>, never mind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
+Assume there's a bug in the method under test and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException> nevermind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance but greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
 
 This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
 
-But rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
+Rerunning the test shows that the test now *fails* if the correct exception is caught. The `catch` block catches the exception, but the method continues to execute and it fails at the new <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert. To resolve this problem, add a `return` statement after the `StringAssert` in the `catch` block. Rerunning the test confirms that you've fixed this problem. The final version of the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` looks like this:
 
 ```csharp
 [TestMethod]
@@ -404,4 +453,13 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 }
 ```
 
+### Conclusion
+
 The improvements to the test code led to more robust and informative test methods. But more importantly, they also improved the code under test.
+
+> [!TIP]
+> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** can also run tests from third-party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
+
+## See also
+
+For information about how to run tests from a command line, see [VSTest.Console.exe command-line options](vstest-console-options.md).
