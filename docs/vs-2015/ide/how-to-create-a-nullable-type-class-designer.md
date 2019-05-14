@@ -30,7 +30,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
   Class Designer displays a nullable type just as it displays its underlying type.  
   
-  For more information about nullable types in Visual C#, see [Nullable Types](http://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6). For more information about nullable types in Visual Basic, see [Nullable Value Types](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6).  
+  For more information about nullable types in Visual C#, see [Nullable Types](https://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6). For more information about nullable types in Visual Basic, see [Nullable Value Types](https://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6).  
   
   [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
@@ -77,7 +77,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
 ## See Also  
  <xref:System.Nullable%601>   
- [Nullable Types](http://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)   
- [Using Nullable Types](http://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)   
- [How to: Identify a Nullable Type](http://msdn.microsoft.com/library/d4b67ee2-66e8-40c1-ae9d-545d32c71387)   
- [Nullable Value Types](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)
+ [Nullable Types](https://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)   
+ [Using Nullable Types](https://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)   
+ [How to: Identify a Nullable Type](https://msdn.microsoft.com/library/d4b67ee2-66e8-40c1-ae9d-545d32c71387)   
+ [Nullable Value Types](https://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)

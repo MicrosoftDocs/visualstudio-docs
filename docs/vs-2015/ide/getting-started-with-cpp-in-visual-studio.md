@@ -76,7 +76,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools 
 
      The error message also appears in the **Error List** window. You can display the window by, on the menu bar, choosing **View**, **Error List**.
 
-     [cout](http://msdn.microsoft.com/library/d87db6c3-e4e1-4d09-9ec5-458f55018257) is included in the \<iostream\> header file.
+     [cout](https://msdn.microsoft.com/library/d87db6c3-e4e1-4d09-9ec5-458f55018257) is included in the \<iostream\> header file.
 
 2. To include the iostream header, enter the following code after `#include "stdafx.h"`:
 

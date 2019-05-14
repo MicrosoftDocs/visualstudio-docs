@@ -25,7 +25,7 @@ manager: jillfra
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:  
   
  **Automatic insertion of end constructs**  
- When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](http://msdn.microsoft.com/library/f5fc0d51-67ce-4c36-9f09-31c9a91c94e9) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.  
+ When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](https://msdn.microsoft.com/library/f5fc0d51-67ce-4c36-9f09-31c9a91c94e9) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.  
   
  **Pretty Listing (reformatting) of code**  
  The text editor reformats your code as appropriate. When this option is selected, the code editor will:  
