@@ -34,9 +34,8 @@ int GetAddress(
 ```
 
 ## Parameters
- `pAddress`\
-
- [in, out] A [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) structure that is filled in by this method.
+`pAddress`\
+[in, out] A [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) structure that is filled in by this method.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

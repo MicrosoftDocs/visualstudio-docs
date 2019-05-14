@@ -34,9 +34,8 @@ int GetCount(
 ```
 
 ## Parameters
- `pdwElements`\
-
- [out] Returns the count.
+`pdwElements`\
+[out] Returns the count.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

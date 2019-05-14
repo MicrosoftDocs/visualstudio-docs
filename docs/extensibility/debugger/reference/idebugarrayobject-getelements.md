@@ -34,9 +34,8 @@ int GetElements(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md) object that allows enumerating over all elements.
+`ppEnum`\
+[out] Returns an [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md) object that allows enumerating over all elements.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

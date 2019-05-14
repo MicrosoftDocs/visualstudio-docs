@@ -34,9 +34,8 @@ int GetElementType(
 ```
 
 ## Parameters
- `ppType`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
+`ppType`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

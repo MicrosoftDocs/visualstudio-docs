@@ -33,9 +33,8 @@ int GetAppDomainId (
 ```
 
 ## Parameters
- `pappDomainId`\
-
- [out] Returns the application domain identifier.
+`pappDomainId`\
+[out] Returns the application domain identifier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

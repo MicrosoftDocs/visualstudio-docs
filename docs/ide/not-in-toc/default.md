@@ -20,10 +20,11 @@ If you're looking for F1 help on a keyword or API name, be sure the cursor is po
 
 ## Useful links
 
-- For general information about Visual Studio, see [Visual Studio overview](../../get-started/visual-studio-ide.md).
-- For help on the Visual Studio text editor, see [Use the code editor](../../ide/writing-code-in-the-code-and-text-editor.md).
+- Search for reference documentation on [.NET API browser](/dotnet/api/).
 - For C# help, see the [C# guide](/dotnet/csharp/index).
 - For Visual Basic help, see the [Visual Basic guide](/dotnet/visual-basic/).
 - For F# help, see the [F# guide](/dotnet/fsharp/).
 - For Python help, see [Python in Visual Studio](../../python/overview-of-python-tools-for-visual-studio.md).
 - For C++ help, see [C++ in Visual Studio](/cpp/visual-cpp-in-visual-studio).
+- For information about Visual Studio, see [Visual Studio overview](../../get-started/visual-studio-ide.md).
+- For help on the Visual Studio text editor, see [Use the code editor](../../ide/writing-code-in-the-code-and-text-editor.md).

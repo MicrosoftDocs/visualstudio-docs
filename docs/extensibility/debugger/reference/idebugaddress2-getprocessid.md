@@ -34,9 +34,8 @@ int GetProcessID (
 ```
 
 ## Parameters
- `pProcID`\
-
- [out] The process ID.
+`pProcID`\
+[out] The process ID.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
