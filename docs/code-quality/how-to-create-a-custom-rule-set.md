@@ -35,7 +35,7 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 4. Select **Open** to display the rules in the rule set editor.
 
 > [!NOTE]
-> If you have a .NET Core or .NET Standard project, the process is a little different because there's no **Code Analysis** property tab. Follow the steps to [copy a predefined rule set to your project and set it as the active rule set](analyzer-rule-sets). After you've copied over a rule set, you can [edit it in the Visual Studio rule set editor](working-in-the-code-analysis-rule-set-editor.md) by opening it from **Solution Explorer**.
+> If you have a .NET Core or .NET Standard project, the process is a little different because there's no **Code Analysis** property tab. Follow the steps to [copy a predefined rule set to your project and set it as the active rule set](analyzer-rule-sets.md). After you've copied over a rule set, you can [edit it in the Visual Studio rule set editor](working-in-the-code-analysis-rule-set-editor.md) by opening it from **Solution Explorer**.
 
 ## Create a new rule set
 
