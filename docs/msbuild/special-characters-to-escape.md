@@ -31,7 +31,7 @@ Special characters must be escaped only if they have special meaning in the cont
 |@|At sign, used to reference item lists.|
 |(|Open parenthesis, used in lists.|
 |)|Close parenthesis, used in lists.|
-|\`|Apostrophe (or tick mark), used in conditions and other expressions.|
+|&#96;|Apostrophe (or tick mark), used in conditions and other expressions.|
 |;|Semicolon, a list separator.|
 |?|Question mark, a wildcard character when describing a file spec in an item's Include/Exclude section.|
 |*|Asterisk, a wildcard character when describing a file spec in an item's Include/Exclude section.|
