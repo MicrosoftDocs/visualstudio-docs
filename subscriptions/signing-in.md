@@ -11,13 +11,13 @@ searchscope: VS Subscription
 
 # Signing in to your Visual Studio subscription
 
-The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.
+The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
 
-Four different sign-in methods are covered in this article:
+Four different sign-in methods are covered in this article:.  Use the links to the right to jump to any of these sections.
 1. Signing in with your Microsoft Account (MSA)
-2. [Signing in with your work/school account](#signing-in-with-your-work-or-school-account)
-3. [Using a Microsoft Account to sign in to a work/school account](#using-your-microsoft-account-to-sign-in-to-a-work-or-school-account)
-4. [Signing in with your GitHub account](#signing-in-with-your-GitHub-account)
+2. Signing in with your work/school account
+3. Using a Microsoft Account to sign in to a work/school account
+4. Signing in with your GitHub account
 
 ## Signing in with your Microsoft Account (MSA)
 1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
@@ -34,6 +34,7 @@ Four different sign-in methods are covered in this article:
 When you access your Visual Studio Dev Essentials subscription for the first time, you will see a welcome dialog.  Click **Confirm** to accept the program's terms and conditions.
 
 ## Signing in with your work or school account
+
 1. Please visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 2. Enter the email address to which the new Visual Studio subscription was assigned.
 
