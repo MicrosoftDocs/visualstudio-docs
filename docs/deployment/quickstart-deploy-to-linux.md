@@ -1,7 +1,7 @@
 ---
 title: Publish to App Service on Linux
 ms.date: 01/29/2019
-ms.topic: "quickstart"
+ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, website"
 author: mikejo5000

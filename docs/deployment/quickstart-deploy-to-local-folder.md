@@ -1,7 +1,7 @@
 ---
 title: Deploy to a local folder
 ms.date: 01/29/2019
-ms.topic: "quickstart"
+ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, local folder"
 ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9
