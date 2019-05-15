@@ -36,11 +36,11 @@ The **Status Bar** is a control bar located at the bottom of many application wi
   
 - Editor information  
   
-  For more information, see [Status Bars](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e).  
+  For more information, see [Status Bars](https://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e).  
   
   The IDE automatically calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> method of your <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> implementation when your document window is activated.  
   
   The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.  
   
 ## See Also  
- [Status Bars](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)
+ [Status Bars](https://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)

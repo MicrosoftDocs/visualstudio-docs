@@ -36,4 +36,4 @@ This topic discusses security issues that you need to know about when working wi
 - The XSLT expression evaluator is loaded by the managed debug engine. The managed debug engine assumes that all code is run from the user's local computer. Accordingly, the <xref:System.Xml.Xsl.XslCompiledTransform> class downloads the XSLT file to the user's local computer. The possibility that an elevation in execution privilege could occur is mitigated by executing all XSLT transformations in a new application domain with restricted permissions  
   
 ## See Also  
- [Application Domains](http://msdn.microsoft.com/39e57d07-a740-4cd4-ae82-e119ea3856c1)
+ [Application Domains](https://msdn.microsoft.com/39e57d07-a740-4cd4-ae82-e119ea3856c1)

@@ -672,7 +672,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 ## Testing the Directive Processor  
  To test the directive processor, you need to write a text template that calls it.  
 
- In this example, the text template calls the directive and passes in the name of an XML file that contains documentation for a class file. For more information, see [XML Documentation Comments](http://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199).  
+ In this example, the text template calls the directive and passes in the name of an XML file that contains documentation for a class file. For more information, see [XML Documentation Comments](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199).  
 
  The text template then uses the <xref:System.Xml.XmlDocument> property that the directive creates to navigate the XML and print the documentation comments.  
 

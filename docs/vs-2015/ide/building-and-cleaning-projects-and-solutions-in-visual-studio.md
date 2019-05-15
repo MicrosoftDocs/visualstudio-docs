@@ -30,7 +30,7 @@ manager: jillfra
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).
 
 > [!NOTE]
-> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
 
 ## To build, rebuild, or clean an entire solution
 
@@ -108,7 +108,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)
- [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)
- [C/C++ Building Reference](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)
+ [Debug and Release Project Configurations](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)
+ [C/C++ Building Reference](https://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

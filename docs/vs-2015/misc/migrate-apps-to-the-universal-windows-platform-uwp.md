@@ -23,7 +23,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 - [Changes required for existing unit test projects for Universal Windows apps created with Visual Studio 2015 RC](#MigrateUnitTest).  
   
-  If you don’t want to make all these changes, learn how to [port your existing apps](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) into a new Universal Windows project.  
+  If you don’t want to make all these changes, learn how to [port your existing apps](https://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) into a new Universal Windows project.  
   
 ## <a name="MigrateCSharp"></a> Migrate your C#/VB Windows Store 8.1 or Windows Phone 8.1 apps to use the Universal Windows Platform  
   
@@ -104,7 +104,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     6. Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: **true**.  
   
-    7. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    7. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
          Now your \<PropertyGroup> element should look similar to this example:  
   
@@ -266,7 +266,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
     4. Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to: true.  
   
-    5. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    5. The default asset scale for Universal Windows apps is 200. If your project includes assets not scaled at 200, you will need to add a \<UapDefaultAssetScale> element with the value of the scale of your assets to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
     6. For Windows Phone projects only, change the value of \<ApplicationType> from Windows Phone to Windows Store.  
   
@@ -645,7 +645,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
 4. Find the \<PropertyGroup> element that contains the \<TargetPlatformVersion> and \<TargetPlatformMinVersion> elements. Change the existing value of the \<TargetPlatformVersion> and \<TargetPlatformMinVersion> elements to be the same version of the Universal Windows Platform that you have installed.  
   
-    The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+    The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
 5. If you added any references to UWP Extension SDKs (for example: the Windows Mobile SDK), you will need to update the SDK version. For example this \<SDKReference> element:  
   
@@ -755,7 +755,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
   
      Add an \<EnableDotNetNativeCompatibleProfile> element and set its value to true if the element does not already exist.  
   
-     The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](http://msdn.microsoft.com/library/jj679352.aspx).  
+     The default asset scale for Universal Windows apps is 200. Projects created with Visual Studio 2015 RC included assets scaled at 100, you will need to add a \<UapDefaultAssetScale> element with a value of 100 to this PropertyGroup. Learn more about [assets and scales](https://msdn.microsoft.com/library/jj679352.aspx).  
   
      So this \<PropertyGroup> element will now be similar to this:  
   

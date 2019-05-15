@@ -30,7 +30,7 @@ Data drives the Windows Installer model. Rather than writing a procedural script
   
 - Integrate the VSPackage in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] by calling **devenv.exe /setup** (using the CustomAction table).  
   
-  For more information, see [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx).  
+  For more information, see [Windows Installer](https://msdn.microsoft.com/library/cc185688\(VS.85\).aspx).  
   
 ## Setup Tools  
  A variety of third-party setup tools provide a development environment for Windows Installer packages. Two free tools are the following:  

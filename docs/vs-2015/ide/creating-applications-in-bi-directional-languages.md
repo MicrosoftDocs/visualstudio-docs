@@ -24,9 +24,9 @@ You can use Visual Studio to create applications that correctly display text in 
   
 ## Types of Application that Support Bi-Directional Languages  
   
-1. Windows applications. You can create fully bi-directional applications that include support for bi-directional text, right-to-left reading order, and mirroring (reversing the layout of windows, menus, dialog boxes, and so on). Except for mirroring, these features are available by default or as property settings. Mirroring is supported inherently for some features, such as message boxes. However, in other cases you must implement mirroring in code. For more information, see [Bi-Directional Support for Windows Forms Applications](http://msdn.microsoft.com/library/7b622fa4-f390-4e4d-b624-83a1917cccf2).  
+1. Windows applications. You can create fully bi-directional applications that include support for bi-directional text, right-to-left reading order, and mirroring (reversing the layout of windows, menus, dialog boxes, and so on). Except for mirroring, these features are available by default or as property settings. Mirroring is supported inherently for some features, such as message boxes. However, in other cases you must implement mirroring in code. For more information, see [Bi-Directional Support for Windows Forms Applications](https://msdn.microsoft.com/library/7b622fa4-f390-4e4d-b624-83a1917cccf2).  
   
-2. Web applications. Web services support and receiving sending UTF-8 and Unicode text, making them suitable for applications involving bi-directional languages. Web client applications rely on browsers for their user interface, so the degree of bi-directional support in a Web application is dependent on how well the user's browser supports those bi-directional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional Support for ASP.NET Web Applications](http://msdn.microsoft.com/library/5576f9b1-9b86-41ef-8354-092d366bcd03).  
+2. Web applications. Web services support and receiving sending UTF-8 and Unicode text, making them suitable for applications involving bi-directional languages. Web client applications rely on browsers for their user interface, so the degree of bi-directional support in a Web application is dependent on how well the user's browser supports those bi-directional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional Support for ASP.NET Web Applications](https://msdn.microsoft.com/library/5576f9b1-9b86-41ef-8354-092d366bcd03).  
   
 3. Console applications. Console applications do not include text support for bi-directional languages. This is a consequence of how Windows works with console applications.  
   
@@ -73,7 +73,7 @@ You can use Visual Studio to create applications that correctly display text in 
 - Code and literal text. In the code editor (which is also the text editor), you can use Arabic or Hebrew to name classes, functions, variables, properties, string literals, attributes, and so on. However, the editor does not support right-to-left reading order; text always starts at the left margin.  
   
     > [!TIP]
-    > It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](http://msdn.microsoft.com/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
+    > It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](https://msdn.microsoft.com/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
   
     > [!NOTE]
     > You must be consistent in how you refer to objects named in these languages. For example, if you use Kashida in naming an Arabic variable, you must always use Kashida when referring to that variable, or errors will result.  
@@ -81,7 +81,7 @@ You can use Visual Studio to create applications that correctly display text in 
 - Code comments. You can create comments in Arabic or Hebrew. You can also use these languages in the comment builder tool.  
   
 ## See Also  
- [Bi-Directional Support for Windows Forms Applications](http://msdn.microsoft.com/library/7b622fa4-f390-4e4d-b624-83a1917cccf2)   
- [Bidirectional Support for ASP.NET Web Applications](http://msdn.microsoft.com/library/5576f9b1-9b86-41ef-8354-092d366bcd03)   
+ [Bi-Directional Support for Windows Forms Applications](https://msdn.microsoft.com/library/7b622fa4-f390-4e4d-b624-83a1917cccf2)   
+ [Bidirectional Support for ASP.NET Web Applications](https://msdn.microsoft.com/library/5576f9b1-9b86-41ef-8354-092d366bcd03)   
  [Globalizing Applications](../ide/globalizing-applications.md)   
  [Localizing Applications](../ide/localizing-applications.md)

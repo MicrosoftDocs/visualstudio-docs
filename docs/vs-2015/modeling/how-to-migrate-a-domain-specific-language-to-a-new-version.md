@@ -72,7 +72,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
    2. Click the **Transform All Templates** button in the header of Solution Explorer.  
   
        > [!NOTE]
-       > You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+       > You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](https://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 6. Update your custom code in the converted projects.  
   

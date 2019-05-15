@@ -98,7 +98,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 1. Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.  
   
    > [!NOTE]
-   > Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+   > Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](https://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2. Press F5, or on the **Debug** menu, click **Start Debugging**.  
   

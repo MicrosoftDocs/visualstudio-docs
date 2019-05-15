@@ -25,7 +25,7 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   
  **What exactly is the Universal Windows Platform?**  
   
- It’s simply a collection of contracts and versions. These allow you to target where your app can run. You no longer target an operating system. Now you target your app to one or more device families. Learn more details from this [platform guide](http://msdn.microsoft.com/library/windows/apps/dn894631.aspx).  
+ It’s simply a collection of contracts and versions. These allow you to target where your app can run. You no longer target an operating system. Now you target your app to one or more device families. Learn more details from this [platform guide](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx).  
   
 ## Requirements  
  The Universal Windows App Development tools come with emulators that you can use to see how your app looks on different devices. If you want to use these emulators, you need to install this software on a physical machine. The physical machine must run Windows 8.1 (x64) Professional edition or higher, and have a processor that supports Client Hyper-V and Second Level Address Translation (SLAT). The emulators cannot be used when Visual Studio is installed on a virtual machine.  
@@ -49,8 +49,8 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   You can only use the XAML designer if your development platform is Windows 10.  
   
 ## Universal Windows apps  
- Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](http://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). Or, watch [this getting started video](http://channel9.msdn.com/Series/ConnectOn-Demand/229).  
+ Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](https://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). Or, watch [this getting started video](http://channel9.msdn.com/Series/ConnectOn-Demand/229).  
   
- If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps created with Visual Studio 2015 RC, [port these existing apps](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) to use the latest Universal Windows Platform.  
+ If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps created with Visual Studio 2015 RC, [port these existing apps](https://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) to use the latest Universal Windows Platform.  
   
  After you create your Universal Windows app, you must [package your app](https://msdn.microsoft.com/library/windows/apps/hh454036.aspx) to install it on a Windows 10 device or submit it to the Windows Store.

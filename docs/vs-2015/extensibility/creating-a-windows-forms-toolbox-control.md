@@ -208,4 +208,4 @@ The Windows Forms Toolbox Control item template that is included in the Visual S
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
- [Windows Forms Control Development Basics](http://msdn.microsoft.com/library/6277bb81-90f7-4c5b-9f4b-b02bb42dd316)
+ [Windows Forms Control Development Basics](https://msdn.microsoft.com/library/6277bb81-90f7-4c5b-9f4b-b02bb42dd316)

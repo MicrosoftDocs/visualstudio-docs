@@ -134,7 +134,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
 1. In **Team Explorer**, make sure you're connected to the team project where the model elements are linked to the work item.  
   
     > [!NOTE]
-    > You can only use Team Explorer, not Team Web Access, to view linked model elements. Make sure your workspace is mapped to the modeling project that contains the modeling diagrams or elements. If you don't have a workspace, you must create it. See [Troubleshooting](#Troubleshooting) and [Create and work with workspaces](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).  
+    > You can only use Team Explorer, not Team Web Access, to view linked model elements. Make sure your workspace is mapped to the modeling project that contains the modeling diagrams or elements. If you don't have a workspace, you must create it. See [Troubleshooting](#Troubleshooting) and [Create and work with workspaces](https://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).  
   
 2. Open the work item, choose **Links**. Under **Model Link**, open the shortcut menu for the linked model element. Choose **Open Linked Item**.  
   
@@ -162,7 +162,7 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
-|Can't find the model element that you want to link.|The element might be on a diagram in a modeling project that is in [!INCLUDE[esprscc](../includes/esprscc-md.md)]. You might not have a workspace that maps to the diagram.|Map your workspace to the modeling project and diagram. If you do not have a workspace, then you must create it.<br /><br /> The error message that appears for this issue contains the path that you can use to map your workspace.<br /><br /> See [Create and work with workspaces](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).|  
+|Can't find the model element that you want to link.|The element might be on a diagram in a modeling project that is in [!INCLUDE[esprscc](../includes/esprscc-md.md)]. You might not have a workspace that maps to the diagram.|Map your workspace to the modeling project and diagram. If you do not have a workspace, then you must create it.<br /><br /> The error message that appears for this issue contains the path that you can use to map your workspace.<br /><br /> See [Create and work with workspaces](https://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a).|  
 |Can't find the linked model element.|The linked element might be on a diagram that has been moved, renamed, or deleted.|1.  In the work item, delete the link to the model element.<br />2.  Create a new link from the work item to the model element.|  
 |The work item doesn't have the linked model elements that you expect.|A work item shows a linked layer element only if the link was created from the work item. If your team does not use [!INCLUDE[esprscc](../includes/esprscc-md.md)], the local path of the diagrams will be used to create the links. If the modeling project and its diagrams are in [!INCLUDE[esprscc](../includes/esprscc-md.md)], all team members who can access the project can view linked elements in work items.|Try refreshing the work item.|  
 |Deleting a link to a model element from a work item doesn't delete the link from the model element to the work item.||Delete the link to the work item starting from the model element.|  

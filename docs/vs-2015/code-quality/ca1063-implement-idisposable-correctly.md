@@ -45,7 +45,7 @@ manager: "wpickett"
 
   Violation of any one of these patterns will trigger this warning.
 
-  Every unsealed root IDisposable type must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true) and Finalize should call Dispose(false). If you are creating an unsealed root IDisposable type, you must define Dispose(bool) and call it. For more information, see [Cleaning Up Unmanaged Resources](http://msdn.microsoft.com/library/a17b0066-71c2-4ba4-9822-8e19332fc213) in the [Framework Design Guidelines](http://msdn.microsoft.com/library/5fbcaf4f-ea2a-4d20-b0d6-e61dee202b4b) section of the .NET Framework documentation.
+  Every unsealed root IDisposable type must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true) and Finalize should call Dispose(false). If you are creating an unsealed root IDisposable type, you must define Dispose(bool) and call it. For more information, see [Cleaning Up Unmanaged Resources](https://msdn.microsoft.com/library/a17b0066-71c2-4ba4-9822-8e19332fc213) in the [Framework Design Guidelines](https://msdn.microsoft.com/library/5fbcaf4f-ea2a-4d20-b0d6-e61dee202b4b) section of the .NET Framework documentation.
 
 ## Rule Description
  All IDisposable types should implement the Dispose pattern correctly.

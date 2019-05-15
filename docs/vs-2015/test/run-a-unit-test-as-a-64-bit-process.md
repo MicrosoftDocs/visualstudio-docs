@@ -35,4 +35,4 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
 ## See Also  
  [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Specifying Test Settings for Visual Studio Tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901)
+ [Specifying Test Settings for Visual Studio Tests](https://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901)

@@ -2796,6 +2796,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/test/sample-project-for-creating-unit-tests.md",
+            "redirect_url": "/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/test/developer-testing-scenarios.md",
             "redirect_url": "/visualstudio/test/improve-code-quality",
             "redirect_document_id": false

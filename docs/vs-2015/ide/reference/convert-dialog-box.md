@@ -34,5 +34,5 @@ The **Convert** dialog box allows you to select a conversion tool to create a ne
 2. Select the tool that is appropriate for your application.  
   
 ## See Also  
- [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](http://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
+ [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](https://msdn.microsoft.com/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

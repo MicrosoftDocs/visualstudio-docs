@@ -315,8 +315,8 @@ The following example shows how this function is used.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <PropertyGroup>
-        <Value1>$([MSBuild]::ValueOrDefault(`$(UndefinedValue)`, `a`))</Value1>
-        <Value2>$([MSBuild]::ValueOrDefault(`b`, `$(Value1)`))</Value2>
+        <Value1>$([MSBuild]::ValueOrDefault('$(UndefinedValue)', 'a'))</Value1>
+        <Value2>$([MSBuild]::ValueOrDefault('b', '$(Value1)'))</Value2>
     </PropertyGroup>
 
     <Target Name="MyTarget">

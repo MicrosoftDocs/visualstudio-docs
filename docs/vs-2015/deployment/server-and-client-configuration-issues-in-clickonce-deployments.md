@@ -36,7 +36,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
 - .deploy  
   
-  However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](http://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
+  However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](https://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
   
   You will have to configure .manifest, .application, and .deploy, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], or if you are using another Web server (for example, Apache).  
   
@@ -48,7 +48,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
  You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see http://go.microsoft.com/fwlink/?LinkId=158730.  
   
- For more information, see [\<defaultProxy> Element (Network Settings)](http://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f).  
+ For more information, see [\<defaultProxy> Element (Network Settings)](https://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f).  
   
 ## ClickOnce and Web Browser Compatibility  
  Currently, [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] installations will launch only if the URL to the deployment manifest is opened using Internet Explorer. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.  
@@ -86,7 +86,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 |`.msp`|`application/octet-stream`|  
   
 ## ClickOnce and Mapped Drives  
- If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14).  
+ If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14).  
   
 ## FTP Protocol Not Supported for Installing Applications  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:  

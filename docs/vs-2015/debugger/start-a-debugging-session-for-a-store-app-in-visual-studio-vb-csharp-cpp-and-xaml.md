@@ -279,7 +279,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
 #### <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> Set the app to run in debug mode
 
-1. Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
+1. Install the Visual Studio Remote Tools on the device where the app is installed. See [Installing the Remote Tools](https://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools).
 
 2. On the Start screen, search for `Debuggable Package Manager` and then start it.
 

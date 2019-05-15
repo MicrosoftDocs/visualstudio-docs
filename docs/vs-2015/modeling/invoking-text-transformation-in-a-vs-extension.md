@@ -13,7 +13,7 @@ manager: jillfra
 # Invoking Text Transformation in a VS Extension
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-If you are writing a [Visual Studio extension](http://msdn.microsoft.com/library/5b1b5db3-6005-44cf-83b0-e608d7764d14) such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), you can use the text templating service to transform text templates. Get the <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> service and cast it to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.  
+If you are writing a [Visual Studio extension](https://msdn.microsoft.com/library/5b1b5db3-6005-44cf-83b0-e608d7764d14) such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), you can use the text templating service to transform text templates. Get the <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> service and cast it to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.  
   
 ## Getting the text templating service  
   

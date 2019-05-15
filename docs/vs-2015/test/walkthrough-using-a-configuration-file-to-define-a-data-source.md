@@ -213,7 +213,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 1. Add a unit test to the test project.  
   
-     For more information, see [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173).  
+     For more information, see [Creating and Running Unit Tests for Existing Code](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173).  
   
 2. Replace the auto-generated contents of the unit test with the following code:  
   
@@ -264,6 +264,6 @@ This walkthrough illustrates how to use a data source defined in an app.config f
   
 ## See Also  
  [Unit Test Your Code](../test/unit-test-your-code.md)   
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)   
+ [Creating and Running Unit Tests for Existing Code](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [Testing the application](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)   
  [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)

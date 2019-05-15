@@ -34,5 +34,5 @@ The <xref:System.Activities.Statements.Pick> activity provides event-based contr
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
- [Pick Activity](http://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
- [Using the Pick Activity](http://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)
+ [Pick Activity](https://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
+ [Using the Pick Activity](https://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)

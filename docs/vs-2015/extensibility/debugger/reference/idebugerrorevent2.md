@@ -25,7 +25,7 @@ IDebugErrorEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The debug engine (DE) implements this interface to report errors as human-readable messages. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM  uses [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to access the `IDebugEvent2` interface.  
+ The debug engine (DE) implements this interface to report errors as human-readable messages. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM  uses [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to access the `IDebugEvent2` interface.  
   
 ## Notes for Callers  
  The DE creates and sends this event object to report an error. The event is sent by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it attached to the program being debugged.  

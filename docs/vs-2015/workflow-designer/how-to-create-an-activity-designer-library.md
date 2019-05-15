@@ -34,7 +34,7 @@ Custom activity designers allow you to create a user interface for a standard or
   
 8. The project template creates an activity designer definition in XAML and the code-behind implementation file in source code. The [!INCLUDE[wfd1](../includes/wfd1-md.md)] opens and displays the canvas for your activity designer.  
   
-9. Drag [!INCLUDE[avalon1](../includes/avalon1-md.md)] controls from the **Toolbox** to the design surface to use them in your custom activity designer.  For an example of how to implement a custom activity designer, see [How to: Create a Custom Activity Designer](http://msdn.microsoft.com/library/2f3aade6-facc-44ef-9657-a407ef8b9b31).  
+9. Drag [!INCLUDE[avalon1](../includes/avalon1-md.md)] controls from the **Toolbox** to the design surface to use them in your custom activity designer.  For an example of how to implement a custom activity designer, see [How to: Create a Custom Activity Designer](https://msdn.microsoft.com/library/2f3aade6-facc-44ef-9657-a407ef8b9b31).  
   
     > [!WARNING]
     > Custom activity designers can be used for custom activities as well as for default [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]activities.  

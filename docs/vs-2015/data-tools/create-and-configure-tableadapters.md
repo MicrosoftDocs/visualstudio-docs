@@ -28,9 +28,9 @@ TableAdapters provide communication between your application and a database. The
   
  TableAdapters are created for you when you perform one of the following actions:  
   
-- Run the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) and select either the **Database** or **Web Service** data source type.  
+- Run the [Data Source Configuration Wizard](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) and select either the **Database** or **Web Service** data source type.  
   
-- Drag database objects from [Server Explorer](http://msdn.microsoft.com/library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) into the **Dataset Designer**.  
+- Drag database objects from [Server Explorer](https://msdn.microsoft.com/library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) into the **Dataset Designer**.  
   
   You can create a new TableAdapter and configure it with a data source by dragging a TableAdapter from the Toolbox to an empty region in the **Dataset Designer** surface.  
   

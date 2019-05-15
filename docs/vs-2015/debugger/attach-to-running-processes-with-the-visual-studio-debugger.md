@@ -66,7 +66,7 @@ You can use this capability to debug apps that are running on a local or remote 
 ## <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer
  In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names). For more complete guidance for ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). For other apps, you may be able to find the name of the process in the Task Manager.
 
- When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
+ When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
 
  **To select a remote computer:**
 
@@ -100,7 +100,7 @@ You can use this capability to debug apps that are running on a local or remote 
 
 ## Additional info
 
-You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the **Debug Location** toolbar or the **Processes** window. For more information, see [How to: Set the Current Program](http://msdn.microsoft.com/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).
+You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the **Debug Location** toolbar or the **Processes** window. For more information, see [How to: Set the Current Program](https://msdn.microsoft.com/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).
 
 If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015).
 
@@ -130,7 +130,7 @@ For some app types (like Windows Store apps), you don't attach directly to a pro
 > To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.
 
 > [!NOTE]
-> For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](http://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982) linker option.
+> For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](https://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982) linker option.
 
 ## What debugger features can I use?
 

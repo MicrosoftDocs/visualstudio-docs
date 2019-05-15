@@ -31,7 +31,7 @@ devenv /command CommandName
 ## Remarks  
  After startup is complete, the IDE executes the named command. If you use this switch, the IDE does not display the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Start Page on startup.  
   
- If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control Add-Ins By Using the Add-In Manager](http://msdn.microsoft.com/library/4f60444a-cb48-4cdb-8df4-941f6419aeeb).  
+ If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control Add-Ins By Using the Add-In Manager](https://msdn.microsoft.com/library/4f60444a-cb48-4cdb-8df4-941f6419aeeb).  
   
 ## Example  
  This example launches [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] and automatically runs the macro Open Favorite Files.  

@@ -42,4 +42,4 @@ Depending on the [!INCLUDE[wiprlhext](../includes/wiprlhext-md.md)] User Access 
 ## See Also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [How to: Attach to a Running Process](http://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [How to: Attach to a Running Process](https://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)

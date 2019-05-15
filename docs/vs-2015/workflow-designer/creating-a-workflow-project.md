@@ -38,7 +38,7 @@ Workflows, [!INCLUDE[indigo1](../includes/indigo1-md.md)] workflow services, cus
  Describes how to add additional workflow activities or designers and other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] items such as code activities to an existing project.  
   
 ## Related Sections  
- [Designing Workflows](http://msdn.microsoft.com/library/41f727b5-b142-4c1b-b046-492b96135ae6)  
+ [Designing Workflows](https://msdn.microsoft.com/library/41f727b5-b142-4c1b-b046-492b96135ae6)  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)

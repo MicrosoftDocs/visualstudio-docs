@@ -26,7 +26,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
   
   **Testing SharePoint Applications**  
   
-  The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. [!INCLUDE[crabout](../includes/crabout-md.md)] how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) and [Verifying and Debugging SharePoint Code](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c).  
+  The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. [!INCLUDE[crabout](../includes/crabout-md.md)] how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](https://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [Building and Debugging SharePoint Solutions](https://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) and [Verifying and Debugging SharePoint Code](https://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c).  
   
   **Limitations**  
   
@@ -120,7 +120,7 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
 8. In Solution Explorer, choose select **Reload Project** from the shortcut menu of your new Visual C++ test project.  
   
 ## See Also  
- [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
- [Create SharePoint Solutions](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
- [Building and Debugging SharePoint Solutions](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
+ [Creating and Running Unit Tests for Existing Code](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [Create SharePoint Solutions](https://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
+ [Building and Debugging SharePoint Solutions](https://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
  [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)
