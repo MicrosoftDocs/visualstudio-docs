@@ -2,13 +2,13 @@
 title: "Debug managed code | Microsoft Docs"
 description: "Debug C# or Visual Basic using the Visual Studio debugger"
 ms.custom: "mvc"
-ms.date: "03/18/2018"
-ms.topic: "quickstart"
+ms.date: 03/18/2018
+ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "dotnet"

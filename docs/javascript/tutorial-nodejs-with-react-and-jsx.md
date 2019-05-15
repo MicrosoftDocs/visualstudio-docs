@@ -2,11 +2,11 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: "11/01/2018"
-ms.topic: "tutorial"
+ms.date: 11/01/2018
+ms.topic: tutorial
 ms.devlang: javascript
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 dev_langs:
   - JavaScript

@@ -1,12 +1,12 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
-ms.date: "07/06/2018"
-ms.topic: "tutorial"
+ms.date: 07/06/2018
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

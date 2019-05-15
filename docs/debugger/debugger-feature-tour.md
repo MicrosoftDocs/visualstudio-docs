@@ -2,13 +2,13 @@
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.custom: "seoapril2019"
-ms.date: "04/08/2019"
-ms.topic: "quickstart"
+ms.date: 04/08/2019
+ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
