@@ -83,7 +83,7 @@ textDocument/rename | yes
 ## Get started
 
 > [!NOTE]
-> Starting with Visual Studio version 15.8, support for the common Language Server Protocol is built into Visual Studio. If you've built LSP extensions using the preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once you upgrade to version 15.8 or higher. You will need to do the following to get your LSP extensions working again:
+> Starting with Visual Studio 2017 version 15.8, support for the common Language Server Protocol is built into Visual Studio. If you've built LSP extensions using the preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once you upgrade to version 15.8 or higher. You will need to do the following to get your LSP extensions working again:
 >
 > 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX.
 >
@@ -93,7 +93,7 @@ textDocument/rename | yes
 >
 > 3. Remove the dependency to the Microsoft Visual Studio Language Server Protocol Preview VSIX in your VSIX manifest.
 >
-> 4. Make sure your VSIX specifies Visual Studio version 15.8 Preview 3 as the lower bound for install target.
+> 4. Make sure your VSIX specifies Visual Studio 2017 version 15.8 Preview 3 as the lower bound for install target.
 >
 > 5. Rebuild and redeploy.
 
