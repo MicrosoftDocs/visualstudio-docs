@@ -46,7 +46,7 @@ Once the package has been downloaded, it will be added to your project. The solu
 
 * The **References** node will contain a list of all the assemblies that are part of a NuGet package.
 * The **Packages** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
-* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](http://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
+* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](https://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
 
 ## Using NuGet Packages
 

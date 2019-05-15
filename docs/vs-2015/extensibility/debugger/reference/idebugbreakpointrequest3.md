@@ -28,7 +28,7 @@ IDebugBreakpointRequest3 : IDebugBreakpointRequest2
  The session debug manager (SDM) typically implements this interface.  
   
 ## Notes for Callers  
- The debug engine (DE) accesses this interface by calling [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the IDebugBreakpointRequest2 interface received in a call to [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md).  
+ The debug engine (DE) accesses this interface by calling [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the IDebugBreakpointRequest2 interface received in a call to [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md).  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md), the `IDebugBreakpointRequest3` interface exposes the following method.  

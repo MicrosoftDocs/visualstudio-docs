@@ -64,7 +64,7 @@ Signs the specified file using the specified certificate.
 ```  
   
 > [!NOTE]
-> The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 Hash of a Trusted Root CA Certificate](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87).  
+> The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 Hash of a Trusted Root CA Certificate](https://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87).  
   
 ## Example  
  The following example uses the `Exec` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property. You can use this to sign Windows Installer files during the build process.  

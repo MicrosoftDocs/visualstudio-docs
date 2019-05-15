@@ -89,12 +89,12 @@ The easiest way to customize an object is to set properties in the **Properties*
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create a style](https://www.youtube.com/watch?v=W8YdXDPeKdc).  
   
 ### Apply a style or template to a control  
- Right-click an object in the [Objects and Timeline](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
+ Right-click an object in the [Objects and Timeline](https://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, choose **Edit Template**, and then choose **Apply Resource**.  
   
  ![](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png "dc12debc-7711-47d9-84ce-10322a384397")  
   
 ### Restore the default style or template of a control  
- Select the control, and in the [Properties](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
+ Select the control, and in the [Properties](https://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) panel, locate the **Style** or **Template** property. Then, click **Advanced options** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb"), and then click **Reset** on the shortcut menu.  
   
 ## <a name="Visual"></a> Visual States: Change the appearance of a control based on its state  
  Controls can have different visual appearances based on user interactions. For example, you can make a button turn green when a user clicks it or you could run an animation. You shorten or lengthen the time between visual states by using transitions.  

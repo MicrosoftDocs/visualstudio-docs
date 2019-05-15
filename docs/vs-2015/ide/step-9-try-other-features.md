@@ -22,7 +22,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 - Replace the icons and colors with ones you choose.  
   
     > [!TIP]
-    > Try looking at the label's [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) property.  
+    > Try looking at the label's [Forecolor](https://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) property.  
   
 - Add a game timer that tracks how long it takes for the player to win.  
   

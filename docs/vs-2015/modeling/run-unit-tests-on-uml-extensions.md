@@ -134,7 +134,7 @@ namespace UnitTests
       // Find the ModelingProject and IModelStore:  
       foreach (Project project in ModelSolution.Projects)  
       {  
-        // http://msdn.microsoft.com/library/ee791691.aspx  
+        // https://msdn.microsoft.com/library/ee791691.aspx  
         ModelingProject = project as IModelingProject;  
         if (ModelingProject != null)  
         {  
@@ -376,6 +376,6 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
  This is the way that we recommend least. Older versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provided a utility that automatically created an accessor method for each private method. Although this is convenient, our experience suggests that it tends to result in unit tests that are very strongly coupled to the internal structure of the application that they are testing. This results in extra work when the requirements or architecture change, because the tests have to be changed along with the implementation. Also, any erroneous assumptions in the design of the implementation are also built into the tests, so that the tests do not find errors.  
   
 ## See Also  
- [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)   
+ [Anatomy of a Unit Test](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)

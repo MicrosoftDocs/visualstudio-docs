@@ -47,11 +47,11 @@ Color dialog box
   
 ### To continue or review  
   
-- To learn more about programming in Visual Studio, see [Programming Concepts](http://msdn.microsoft.com/library/65c12cca-af4f-4017-886e-2dbc00a189d6).  
+- To learn more about programming in Visual Studio, see [Programming Concepts](https://msdn.microsoft.com/library/65c12cca-af4f-4017-886e-2dbc00a189d6).  
   
-- To learn more about Visual Basic, see [Developing Applications with Visual Basic](http://msdn.microsoft.com/library/1e1c0c81-6d95-4167-a98b-44b1efb6d25f).  
+- To learn more about Visual Basic, see [Developing Applications with Visual Basic](https://msdn.microsoft.com/library/1e1c0c81-6d95-4167-a98b-44b1efb6d25f).  
   
-- To learn more about Visual C#, see [Introduction to the C# Language and the .NET Framework](http://msdn.microsoft.com/library/0a2dff4e-cd84-42ff-8141-e89889b24081).  
+- To learn more about Visual C#, see [Introduction to the C# Language and the .NET Framework](https://msdn.microsoft.com/library/0a2dff4e-cd84-42ff-8141-e89889b24081).  
   
 - To go to the next tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   

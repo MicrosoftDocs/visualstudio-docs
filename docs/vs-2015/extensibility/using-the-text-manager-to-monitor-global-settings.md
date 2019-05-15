@@ -36,4 +36,4 @@ If you implement a core editor, you must monitor the changes that are made to gl
   
 ## See Also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
- [Editor Features](http://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)
+ [Editor Features](https://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

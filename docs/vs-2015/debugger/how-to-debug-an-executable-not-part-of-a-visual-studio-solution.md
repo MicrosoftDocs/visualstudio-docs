@@ -62,4 +62,4 @@ Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[v
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [DBG Files](http://msdn.microsoft.com/91e449e9-8b65-4123-960f-2107cd1f1cfd)
+ [DBG Files](https://msdn.microsoft.com/91e449e9-8b65-4123-960f-2107cd1f1cfd)

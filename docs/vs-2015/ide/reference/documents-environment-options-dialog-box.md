@@ -40,7 +40,7 @@ manager: jillfra
 Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files. You can access this dialog box by clicking **Options** on the **Tools** menu and then selecting **Documents** in the **Environment** node. If **Documents** does not appear in the list, select **Show all settings** in the **Options** dialog box.  
   
 > [!NOTE]
-> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  **Reuse current document window, if saved**  
  When selected, closes your current document if it has been saved, and opens a new document in the same window. If your current document has not been saved, it remains open and the new document is opened in a separate window. When this option is cleared, new documents always open in separate windows.  

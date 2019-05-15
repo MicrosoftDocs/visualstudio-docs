@@ -82,5 +82,5 @@ You can store different configurations of solution and project properties to use
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [C/C++ Building Reference](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)   
+ [C/C++ Building Reference](https://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

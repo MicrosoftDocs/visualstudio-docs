@@ -41,7 +41,7 @@ When trying to do remote debugging, you may get the following error message:
 > [!CAUTION]
 > Granting other users permission to connect allows the possibility of accidentally connecting to the wrong remote debugging session. Debugging in **No Authentication** mode is never secure and should be used with caution.  
   
- For more information, see [Start  the Remote Debugging Monitor](http://msdn.microsoft.com/library/55b60ce7-834b-4e83-a10e-fe4248260a4c).  
+ For more information, see [Start  the Remote Debugging Monitor](https://msdn.microsoft.com/library/55b60ce7-834b-4e83-a10e-fe4248260a4c).  
   
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   

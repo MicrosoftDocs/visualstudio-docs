@@ -70,7 +70,7 @@ This topic describes how use the **Rule Set Editor** dialog box in the legacy [!
   
   Expression operator precedence follows C# operator precedence rules.  
   
-  For more information about conditions, see [Using Conditions in Workflows](http://msdn.microsoft.com/541211f5-d382-4810-894f-71f00b34fa77).  
+  For more information about conditions, see [Using Conditions in Workflows](https://msdn.microsoft.com/541211f5-d382-4810-894f-71f00b34fa77).  
   
 ### Halt and Update Functions  
  **Then Actions:** and **Else Actions:** expressions support **Halt** and **Update** functions. To use the **Halt** function, type **Halt** into a **Then Action:** or **Else Action:** text box. The **Halt** action causes rule set execution to stop immediately, and control returns to the calling code. You use the **Update** function with forward chaining.  

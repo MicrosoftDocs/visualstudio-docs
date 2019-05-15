@@ -31,10 +31,10 @@ The [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **Toolbox** provides a collecti
  Describes how a VSPackage can manage the content and appearance of the **Toolbox**.  
   
 ## Related Sections  
- [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+ [How to: Manage the Toolbox Window](https://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
  Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated development environment (IDE).  
   
- [How to: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)  
+ [How to: Control the Toolbox](https://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)  
  Describes how to manage the **Toolbox** using the automation programming model.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  

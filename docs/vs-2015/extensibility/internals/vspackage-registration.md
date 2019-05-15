@@ -20,7 +20,7 @@ VSPackages must advise [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] that they
 > [!NOTE]
 > It is an accepted practice during VSPackage development to use self-registration. However, [!INCLUDE[vsipprvsip](../../includes/vsipprvsip-md.md)] partners cannot ship their products using self-registration as part of setup.  
   
- Registry entries in a Windows Installer package are generally made in the Registry table. You can also register file extensions in the Registry table. However, Windows Installer provides built-in support through the programmatic identifier (ProgId), class, extension, and verb tables. For more information, see [Database Tables](http://msdn.microsoft.com/library/aa368259\(VS.85\).aspx).  
+ Registry entries in a Windows Installer package are generally made in the Registry table. You can also register file extensions in the Registry table. However, Windows Installer provides built-in support through the programmatic identifier (ProgId), class, extension, and verb tables. For more information, see [Database Tables](https://msdn.microsoft.com/library/aa368259\(VS.85\).aspx).  
   
  Be sure that your registry entries are associated with the component that is appropriate for your chosen side-by-side strategy. For example, registry entries for a shared file should be associated with that file's Windows Installer component. Likewise, registry entries for a version-specific file should be associated with that file's component. Otherwise, installing or uninstalling your VSPackage for one version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] could break your VSPackage in other versions. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)  
   
@@ -52,5 +52,5 @@ VSPackages must advise [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] that they
 - Self-registration code can be denied access to network resources, such as type libraries, if a component is both specified as run-from-source and is listed in the SelfReg table. This can cause the installation of the component to fail during an administrative installation.  
   
 ## See Also  
- [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
- [Managed Package Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Windows Installer](https://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
+ [Managed Package Registration](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

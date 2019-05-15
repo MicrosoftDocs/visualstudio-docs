@@ -96,7 +96,7 @@ If you have another active Visual Studio subscription at a **different** subscri
 
 If your subscription has a spending limit and you take no action before it expires, the Azure subscription(s) your Azure subscription will be disabled. To convert it to a pay-as-you-go offer and continue to use it, add a payment instrument and [remove your spending limit](/azure/billing/billing-spending-limit/).
 
-If you prefer not to continue this Visual Studio Azure subscription, you may transfer your resources such as virtual machines and databases to another Azure subscription and [cancel](http://azure.microsoft.com/support/cancel-account/) this subscription any time.
+If you prefer not to continue this Visual Studio Azure subscription, you may transfer your resources such as virtual machines and databases to another Azure subscription and [cancel](https://azure.microsoft.com/support/cancel-account/) this subscription any time.
 
 If you believe you’ve received this email in error, please contact [Azure customer support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 

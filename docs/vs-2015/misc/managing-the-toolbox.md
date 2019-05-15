@@ -14,7 +14,7 @@ manager: jillfra
 # Managing the Toolbox
 The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] allows a VSPackage, such as an editor or designer, to manage the membership and appearance of the **Toolbox**.  
   
- In addition, The **Toolbox** itself can be managed using automation. For more information on managing a Toolbox through automation, see [How to: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599).  
+ In addition, The **Toolbox** itself can be managed using automation. For more information on managing a Toolbox through automation, see [How to: Control the Toolbox](https://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599).  
   
 ## Automatic Toolbox Tab Selection  
  A particular **Toolbox** tab or category can be automatically made active based on which editor or designer is currently active. For example, if a forms designer is activated, you may want the **All Windows Forms** tab selected.  
@@ -45,7 +45,7 @@ The [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] allows a VSPackage, such as a
   
 - A VSPackage must either use <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> to add controls or host the control in a wrapper control that derives from <xref:System.Windows.Forms.AxHost>.  
   
-   Visual Studio provides the `Aximp.exe` tool for automating the wrapping of an ActiveX control in a control derived from <xref:System.Windows.Forms.AxHost>. For more information, see [Aximp.exe (Windows Forms ActiveX Control Importer)](http://msdn.microsoft.com/library/482c0d83-7144-4497-b626-87d2351b78d0).  
+   Visual Studio provides the `Aximp.exe` tool for automating the wrapping of an ActiveX control in a control derived from <xref:System.Windows.Forms.AxHost>. For more information, see [Aximp.exe (Windows Forms ActiveX Control Importer)](https://msdn.microsoft.com/library/482c0d83-7144-4497-b626-87d2351b78d0).  
   
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox>, <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> are COM-based interfaces available through the interop assemblies.  
   

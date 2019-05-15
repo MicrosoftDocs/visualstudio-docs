@@ -41,5 +41,5 @@ An exception has occurred in your program. This dialog box reports the kind of e
   
 ## See Also  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
- [Best Practices for Exceptions](http://msdn.microsoft.com/library/f06da765-235b-427a-bfb6-47cd219af539)   
- [Exception Handling](http://msdn.microsoft.com/library/ccb11fe8-6938-41ac-b477-a183e85865b9)
+ [Best Practices for Exceptions](https://msdn.microsoft.com/library/f06da765-235b-427a-bfb6-47cd219af539)   
+ [Exception Handling](https://msdn.microsoft.com/library/ccb11fe8-6938-41ac-b477-a183e85865b9)

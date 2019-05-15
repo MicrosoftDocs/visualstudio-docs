@@ -44,7 +44,7 @@ This walkthrough will step you through creating, running, and customizing a seri
 > This walkthrough uses the Microsoft unit test framework for managed code. Test Explorer also can run tests from third party unit test frameworks that have adapters for Test Explorer. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
 > [!NOTE]
-> For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867).  
+> For information about how to run tests from a command line, see [Walkthrough: using the command-line test utility](https://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867).  
   
 ## Prerequisites  
   

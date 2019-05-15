@@ -36,5 +36,5 @@ Devenv.exe /updateconfiguration
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)

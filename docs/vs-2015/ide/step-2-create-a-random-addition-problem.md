@@ -35,7 +35,7 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
   
      `Random` is known as an object. You've probably heard that word before, and you learn more about what it means for programming in the next tutorial. For now, just remember that you can use `new` statements to create buttons, labels, panels, OpenFileDialogs, ColorDialogs, SoundPlayers, Randoms, and even forms, and those items are referred to as objects. When you run your program, the form is started, and the code behind it creates a `Random` object and names it **randomizer**.  
   
-     Soon you'll build a method to check the answers, so your quiz must use variables to store the random numbers that it generates for each problem. See [Variables](http://msdn.microsoft.com/library/4cfaa06d-4ae3-4307-897b-cf599dc24caa) or [Types](http://msdn.microsoft.com/library/f782d7cc-035e-4500-b1b1-36a9881130ad). To properly use variables, you must declare them, which means listing their names and data types.  
+     Soon you'll build a method to check the answers, so your quiz must use variables to store the random numbers that it generates for each problem. See [Variables](https://msdn.microsoft.com/library/4cfaa06d-4ae3-4307-897b-cf599dc24caa) or [Types](https://msdn.microsoft.com/library/f782d7cc-035e-4500-b1b1-36a9881130ad). To properly use variables, you must declare them, which means listing their names and data types.  
   
 4. Add two integer variables to the form, and name them **addend1** and **addend2**.  
   

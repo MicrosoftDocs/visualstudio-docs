@@ -40,4 +40,4 @@ The `Icon` property for a project specifies the icon file (.ico) that will be di
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [Managing Application Properties](../ide/application-properties.md)  
- [How to: Add or Remove Resources](http://msdn.microsoft.com/7b77bc06-3952-4799-b029-def3f8f7f88d)
+ [How to: Add or Remove Resources](https://msdn.microsoft.com/7b77bc06-3952-4799-b029-def3f8f7f88d)

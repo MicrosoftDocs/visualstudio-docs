@@ -21,7 +21,7 @@ Project types in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] use a *project 
   
  You can implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> interface in a class in your project. Typically, it resides in its own module.  
   
- For an example of an implementation of the `IVsProjectFactory` interface, see PrjFac.cpp that is contained in the [Basic Project](http://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) sample directory.  
+ For an example of an implementation of the `IVsProjectFactory` interface, see PrjFac.cpp that is contained in the [Basic Project](https://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) sample directory.  
   
  Projects that support being aggregated by an owner must persist an owner key in their project file. When the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A> method is called on a project with an owner key, the owned project converts its owner key to a project factory GUID then calls the `CreateProject` method on this project factory to do the actual creation.  
   

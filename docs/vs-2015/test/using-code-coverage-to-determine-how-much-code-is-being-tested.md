@@ -242,7 +242,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  You can exercise more control over which assemblies and elements are selected for code coverage analysis by writing a .runsettings file. For example, you can exclude assemblies of particular kinds without having to add attributes to their classes. For more information, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).  
   
 ## Analyzing code coverage in the build service  
- When you check in your code, your tests will run on the build server, along with all the other tests from other team members. (If you haven’t already set this up, see [Run tests in your build process](http://msdn.microsoft.com/library/d05743a1-c5cf-447e-bed9-bed3cb595e38).) It’s useful to analyze code coverage on the build service, because that gives the most up-to-date and comprehensive picture of coverage in the whole project. It will also include automated system tests and other coded tests that you don’t usually run on the development machines.  
+ When you check in your code, your tests will run on the build server, along with all the other tests from other team members. (If you haven’t already set this up, see [Run tests in your build process](https://msdn.microsoft.com/library/d05743a1-c5cf-447e-bed9-bed3cb595e38).) It’s useful to analyze code coverage on the build service, because that gives the most up-to-date and comprehensive picture of coverage in the whole project. It will also include automated system tests and other coded tests that you don’t usually run on the development machines.  
   
 1. In Team Explorer, open **Builds**, and then add or edit a build definition.  
   
@@ -259,7 +259,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
    After the build runs, the code coverage results are attached to the test run and appear in the build summary.  
   
 ## Analyzing Code Coverage in a Command Line  
- To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11).  
+ To run tests from the command line, use vstest.console.exe. Code coverage is an option of this utility. For more information, see [VSTest.Console.exe command-line options](https://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11).  
   
 1. Launch the Visual Studio Developer Command Prompt:  
   

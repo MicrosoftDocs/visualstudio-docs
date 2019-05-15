@@ -28,7 +28,7 @@ IDebugStackFrame3 : IDebugStackFrame2
  The debug engine (DE) implements this interface on the same object that implements the [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) interface to support intercepted exceptions.  
   
 ## Notes for Callers  
- Call [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugStackFrame2` interface to obtain this interface.  
+ Call [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugStackFrame2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md), `IDebugStackFrame3` exposes the following methods.  

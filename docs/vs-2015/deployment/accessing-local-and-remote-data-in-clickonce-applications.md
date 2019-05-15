@@ -71,7 +71,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
   
  Isolated Storage works in all versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]. Isolated Storage also works in partially trusted applications without the need for additional permission grants. You should use Isolated Storage if your application must run in partial trust, but must maintain application-specific data.  
   
- For more information, see [Isolated Storage](http://msdn.microsoft.com/library/aff939d7-9e49-46f2-a8cd-938d3020e94e).  
+ For more information, see [Isolated Storage](https://msdn.microsoft.com/library/aff939d7-9e49-46f2-a8cd-938d3020e94e).  
   
 ### Other Local Files  
  If your application must work with or save end-user data such as reports, images, music, and so on, your application will require <xref:System.Security.Permissions.FileIOPermission> to read and write data to the local file system.  
@@ -80,7 +80,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
  At some point, your application will likely have to retrieve information from a remote Web site, such as customer data or market information. This section discusses the most common techniques for retrieving remote data.  
   
 ### Accessing Files by Using HTTP  
- You can access data from a Web server by using either the <xref:System.Net.WebClient> or the <xref:System.Net.HttpWebRequest> class in the <xref:System.Net> namespace. The data can be either static files or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications that return raw text or XML data. If your data is in XML format, the fastest way to retrieve the data is by using the <xref:System.Xml.XmlDocument> class, whose <xref:System.Xml.XmlDocument.Load%2A> method takes a URL as an argument. For an example, see [Reading an XML Document into the DOM](http://msdn.microsoft.com/library/a4fb291f-5630-49ba-a49a-5b66c3b71e49).  
+ You can access data from a Web server by using either the <xref:System.Net.WebClient> or the <xref:System.Net.HttpWebRequest> class in the <xref:System.Net> namespace. The data can be either static files or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications that return raw text or XML data. If your data is in XML format, the fastest way to retrieve the data is by using the <xref:System.Xml.XmlDocument> class, whose <xref:System.Xml.XmlDocument.Load%2A> method takes a URL as an argument. For an example, see [Reading an XML Document into the DOM](https://msdn.microsoft.com/library/a4fb291f-5630-49ba-a49a-5b66c3b71e49).  
   
  You have to consider security when your application accesses remote data over HTTP. By default, your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application's access to network resources may be restricted, depending on how your application was deployed. These restrictions are applied to prevent malicious programs from gaining access to privileged remote data or from using a user's computer to attack other computers on the network.  
   

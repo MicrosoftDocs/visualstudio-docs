@@ -100,7 +100,7 @@ You can hide specific compiler warnings for Visual Basic by editing the .vbproj 
 
     The **Output** window no longer shows the warnings that you specified.
 
-   For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).
+   For more information, see [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).
 
 ## See Also
 

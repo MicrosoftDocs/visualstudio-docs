@@ -1154,5 +1154,5 @@ You can more easily access a variety of commands and windows in Visual Studio by
 |XsdDesigner.ShowStartView|Ctrl+1|
 
 ## See Also
- [Image Editor for Icons](http://msdn.microsoft.com/library/586d2b8b-0348-4883-a85d-1ff0ddbf14dd)
+ [Image Editor for Icons](https://msdn.microsoft.com/library/586d2b8b-0348-4883-a85d-1ff0ddbf14dd)
  [Using IntelliSense](../ide/using-intellisense.md)

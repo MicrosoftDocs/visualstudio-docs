@@ -32,7 +32,7 @@ Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink
   
   To build apps for specific device platforms, there are some additional requirements:  
   
-- Windows Phone emulators and the Microsoft Visual Studio Emulator for Android require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](http://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf).  
+- Windows Phone emulators and the Microsoft Visual Studio Emulator for Android require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](https://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf).  
   
 - The x86 Android emulators that come with the Android SDK work best on computers that can run the Intel HAXM driver. This driver requires an Intel x64 processor with VT-x and Execute Disable Bit support. For more information, see [Installation Instructions for Intel® Hardware Accelerated Execution Manager - Microsoft Windows](http://go.microsoft.com/fwlink/p/?LinkId=536385).  
   
