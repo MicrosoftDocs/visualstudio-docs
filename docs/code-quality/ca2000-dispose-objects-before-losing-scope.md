@@ -40,12 +40,12 @@ If a disposable object is not explicitly disposed before all references to it ar
 
 Rule CA2000 does not fire for local objects of the following types even if the object is not disposed:
 
-- <xref:System.IO.Stream>
-- <xref:System.IO.TextReader>
-- <xref:System.IO.TextWriter>
-- <xref:System.Resources.IResourceReader>
+- <xref:System.IO.Stream?displayProperty=nameWithType>
+- <xref:System.IO.TextReader?displayProperty=nameWithType>
+- <xref:System.IO.TextWriter?displayProperty=nameWithType>
+- <xref:System.Resources.IResourceReader?displayProperty=nameWithType>
 
-Passing an object of one of these types to a constructor and then assigning it to a field indicates a *dispose ownership transfer* to the newly constructed type. That means, the newly constructed type is now responsible for disposing of the object. If your code passes an object of one of these types to a constructor, no violation of rule CA2000 occurs even if the object is not disposed before all references to it are out of scope.
+Passing an object of one of these types to a constructor and then assigning it to a field indicates a *dispose ownership transfer* to the newly constructed type. That is, the newly constructed type is now responsible for disposing of the object. If your code passes an object of one of these types to a constructor, no violation of rule CA2000 occurs even if the object is not disposed before all references to it are out of scope.
 
 ## How to fix violations
 

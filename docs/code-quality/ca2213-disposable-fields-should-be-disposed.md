@@ -38,10 +38,10 @@ A type is responsible for disposing of all its unmanaged resources. Rule CA2213 
 
 Rule CA2213 can also fire for fields of the following types even if the object they're assigned isn't created locally:
 
-- <xref:System.IO.Stream>
-- <xref:System.IO.TextReader>
-- <xref:System.IO.TextWriter>
-- <xref:System.Resources.IResourceReader>
+- <xref:System.IO.Stream?displayProperty=nameWithType>
+- <xref:System.IO.TextReader?displayProperty=nameWithType>
+- <xref:System.IO.TextWriter?displayProperty=nameWithType>
+- <xref:System.Resources.IResourceReader?displayProperty=nameWithType>
 
 Passing an object of one of these types to a constructor and then assigning it to a field indicates a *dispose ownership transfer* to the newly constructed type. That means, the newly constructed type is now responsible for disposing of the object. If the object is not disposed, a violation of CA2213 occurs.
 
