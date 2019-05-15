@@ -83,7 +83,7 @@ textDocument/rename | yes
 ## Get started
 
 > [!NOTE]
-> Starting with Visual Studio 15.8, support for the common Language Server Protocol is built into Visual Studio. If you've built LSP extensions using the preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once you upgrade to version 15.8 or higher. You will need to do the following to get your LSP extensions working again:
+> Starting with Visual Studio version 15.8, support for the common Language Server Protocol is built into Visual Studio. If you've built LSP extensions using the preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once you upgrade to version 15.8 or higher. You will need to do the following to get your LSP extensions working again:
 >
 > 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX.
 >
@@ -93,7 +93,7 @@ textDocument/rename | yes
 >
 > 3. Remove the dependency to the Microsoft Visual Studio Language Server Protocol Preview VSIX in your VSIX manifest.
 >
-> 4. Make sure your VSIX specifies Visual Studio 15.8 Preview 3 as the lower bound for install target.
+> 4. Make sure your VSIX specifies Visual Studio version 15.8 Preview 3 as the lower bound for install target.
 >
 > 5. Rebuild and redeploy.
 
@@ -122,7 +122,7 @@ The LSP does not include specification on how to provide text colorization for l
 2. Inside the *Grammars* folder, include any *\*.tmlanguage*, *\*.plist*, *\*.tmtheme*, or *\*.json* files you’d like that provide custom colorization.
 
    > [!TIP]
-   > A *tmtheme* file defines how the scopes map to Visual Studio classifications (named color keys). For guidance, you can reference the global *tmtheme* file in the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<SKU>\Common7\IDE\CommonExtensions\Microsoft\TextMate\Starterkit\Themesg* directory.
+   > A *.tmtheme* file defines how the scopes map to Visual Studio classifications (named color keys). For guidance, you can reference the global *.tmtheme* file in the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<SKU>\Common7\IDE\CommonExtensions\Microsoft\TextMate\Starterkit\Themesg* directory.
 
 3. Create a *.pkgdef* file and add a line similar to this:
 
@@ -491,3 +491,7 @@ Yes, but not all features will work properly. The ultimate goal for LSP language
 **Where do I publish my completed LSP language server VSIX?**
 
 See the Marketplace instructions [here](walkthrough-publishing-a-visual-studio-extension.md).
+
+## See also
+
+- [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md)
