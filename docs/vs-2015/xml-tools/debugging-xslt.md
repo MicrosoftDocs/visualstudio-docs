@@ -48,5 +48,5 @@ You can use the Visual Studio debugger to debug XSLT. The debugger supports sett
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Introduces the Visual Studio debugger.  
   
- [XSLT Reference](http://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
+ [XSLT Reference](https://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
  Provides reference material for XSLT elements and functions.

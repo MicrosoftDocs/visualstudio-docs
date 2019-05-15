@@ -151,7 +151,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 </asp:ScriptManager>
 ```
 
- IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](http://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89).
+ IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](https://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89).
 
 #### <a name="ReferenceDirectives"></a> Reference Directives
  A `reference` directive enables [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.
@@ -278,5 +278,5 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 - [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)
 - [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
 - [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)
-- [List Members](http://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
+- [List Members](https://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
 - [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)

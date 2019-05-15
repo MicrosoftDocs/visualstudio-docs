@@ -88,7 +88,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
 - A component that uses [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../includes/net-v45-md.md)].  
   
-     When you create a new application, some projects target the [!INCLUDE[net_v45](../includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).  
+     When you create a new application, some projects target the [!INCLUDE[net_v45](../includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).  
   
 - You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
   
@@ -167,7 +167,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
 </PropertyGroup>  
 ```  
   
- Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add System.Runtime, in which the Windows Runtime defines some standard classes and interfaces, such as IEnumerable, that are used throughout the Windows Runtime libraries. For information about how to add System.Runtime, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).  
+ Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add System.Runtime, in which the Windows Runtime defines some standard classes and interfaces, such as IEnumerable, that are used throughout the Windows Runtime libraries. For information about how to add System.Runtime, see [Managed desktop apps and Windows Runtime](https://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).  
   
 ### Extensions Subgroup  
  Extensions lists the user SDKs that extend the targeted Windows platform. This tab appears for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app projects only. Desktop projects won’t show this tab because they can consume only first-party .winmd files.  
@@ -210,5 +210,5 @@ You can use the **Reference Manager** dialog box to add and manage references to
  The search bar in the **Reference Manager** dialog box operates over the tab that’s in focus. For example, if a user types “System” in the search bar while the **Solution** tab is in focus, the search won’t return any results unless the solution consists of a project name that contains “System”.  
   
 ## See Also  
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)

@@ -31,4 +31,4 @@ A code window is a specialized document window that can include one or more text
   
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>   
- [Figures Edit](http://msdn.microsoft.com/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)
+ [Figures Edit](https://msdn.microsoft.com/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)

@@ -20,7 +20,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The code analysis tool in Visual Studio express editions examines your code for a set of common problems and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.
 
 > [!NOTE]
-> In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
+> In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](https://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
 
 ## <a name="BKMK_Run"></a> Running code analysis
  To run code analysis on your Visual Studio solution:
@@ -110,7 +110,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                       [C6504](../code-quality/c6504.md)                        |                                              Null On Non-Pointer                                              |
 |                       [C6505](../code-quality/c6505.md)                        |                                               MustCheck On Void                                               |
 |                       [C6506](../code-quality/c6506.md)                        |                                      Buffer Size On Non-Pointer Or Array                                      |
-| [C6507](http://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)        |                                       Null Mismatch At Dereference Zero                                       |
+| [C6507](https://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)        |                                       Null Mismatch At Dereference Zero                                       |
 |                       [C6508](../code-quality/c6508.md)                        |                                           Write Access On Constant                                            |
 |                       [C6509](../code-quality/c6509.md)                        |                                          Return Used On Precondition                                          |
 |                       [C6510](../code-quality/c6510.md)                        |                                        Null Terminated On Non-Pointer                                         |
@@ -121,11 +121,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                       [C6516](../code-quality/c6516.md)                        |                                          No Properties On Attribute                                           |
 |                       [C6517](../code-quality/c6517.md)                        |                                       Valid Size On Non-Readable Buffer                                       |
 |                       [C6518](../code-quality/c6518.md)                        |                                     Writable Size On Non-Writable Buffer                                      |
-| [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        Invalid Size String Dereference                                        |
+| [C6521](https://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        Invalid Size String Dereference                                        |
 |                       [C6522](../code-quality/c6522.md)                        |                                           Invalid Size String Type                                            |
-| [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         Invalid Size String Parameter                                         |
+| [C6523](https://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         Invalid Size String Parameter                                         |
 |                       [C6525](../code-quality/c6525.md)                        |                                   Invalid Size String Unreachable Location                                    |
-| [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        Invalid Size String Buffer Type                                        |
+| [C6526](https://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        Invalid Size String Buffer Type                                        |
 |                       [C6527](../code-quality/c6527.md)                        |              Invalid annotation: 'NeedsRelease' property may not be used on values of void type               |
 |                       [C6530](../code-quality/c6530.md)                        |                                       Unrecognized Format String Style                                        |
 |                       [C6540](../code-quality/c6540.md)                        | The use of attribute annotations on this function will invalidate all of its existing __declspec annotations  |

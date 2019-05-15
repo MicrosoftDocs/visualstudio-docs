@@ -53,5 +53,5 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
   
 ## See Also  
  [MSBuild Reference](../../msbuild/msbuild-reference.md)   
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
+ [MSBuild](https://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
  [Custom Tools](../../extensibility/internals/custom-tools.md)

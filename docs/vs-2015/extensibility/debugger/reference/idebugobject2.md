@@ -31,7 +31,7 @@ IDebugObject2 : IDebugObject
  The expression evaluator implements this interface to offer support for aliases and access to information about the object.  
   
 ## Notes for Callers  
- An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3). Also, [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md) returns this interface.  
+ An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3). Also, [GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md) returns this interface.  
   
 ## Methods in Vtable order  
  In addition to the methods on the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface, the `IDebugObject2` interface implements the following:  

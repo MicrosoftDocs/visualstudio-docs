@@ -38,7 +38,7 @@ In Class Designer, you can implement an interface on the class diagram by connec
 2. Open Class View and locate the interface.  
   
     > [!TIP]
-    > If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](http://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
+    > If Class View is not open, open Class View from the **View** menu. For more information about Class View, see [Viewing Classes and Their Members](https://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333).  
   
 3. Drag the interface node to the class shape on the diagram.  
   

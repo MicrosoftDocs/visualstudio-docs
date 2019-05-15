@@ -35,17 +35,17 @@ When you use Team Foundation Version Control (TFVC), you can create check-in pol
   
 |Task|Supporting Content|  
 |----------|------------------------|  
-|**Create and use check-in policies:** You create check-in policies by using the Team Project Settings of [!INCLUDE[esprscc](../includes/esprscc-md.md)].|[Set and Enforce Quality Gates](http://msdn.microsoft.com/library/bdc5666e-6cf0-45b2-a0a1-133c3f61e852)|  
+|**Create and use check-in policies:** You create check-in policies by using the Team Project Settings of [!INCLUDE[esprscc](../includes/esprscc-md.md)].|[Set and Enforce Quality Gates](https://msdn.microsoft.com/library/bdc5666e-6cf0-45b2-a0a1-133c3f61e852)|  
 |**Create and use code analysis check-in policies:** You can choose from a standard set of code analysis rules, or you can create a custom set.|[Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)|  
   
 ## Related Tasks  
   
 |Task|Supporting Content|  
 |----------|------------------------|  
-|**Set up your development environment:** Before you can create or modify code, you must set up your development and test environments by using the appropriate source code. If you are working with databases, you must also have access to their offline representation.|[Setting Up Development Environments](http://msdn.microsoft.com/7b686610-d379-4ca0-9608-73ef0e576e3a)|  
+|**Set up your development environment:** Before you can create or modify code, you must set up your development and test environments by using the appropriate source code. If you are working with databases, you must also have access to their offline representation.|[Setting Up Development Environments](https://msdn.microsoft.com/7b686610-d379-4ca0-9608-73ef0e576e3a)|  
 |**Use Code Analysis in development process:** Team members run code analysis on their development computers. In Visual Studio, developers configure and run code analysis runs for individual code projects, view and analyze issues found by the runs, and create work items for warnings.|[Analyzing Application Quality](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|  
 |**Create and run unit tests:** Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in C#, Visual Basic .NET, and C++ projects. A unit test can be created one time and run every time that source code is changed to make sure that no bugs are introduced.|[Unit Test Your Code](../test/unit-test-your-code.md)|  
-|**Track work items and defects:** You can use work items to track and manage both your work and information about your team project. A work item is a database record that [!INCLUDE[esprfound](../includes/esprfound-md.md)] uses to track the assignment and progress of work. You can use different types of work items to track different types of work, such as customer requirements, product bugs, and development tasks.|[Track work and manage workflow &#91;redirected&#93;](http://msdn.microsoft.com/d2d8637d-0ef8-4ca3-874e-a04713344032)|  
+|**Track work items and defects:** You can use work items to track and manage both your work and information about your team project. A work item is a database record that [!INCLUDE[esprfound](../includes/esprfound-md.md)] uses to track the assignment and progress of work. You can use different types of work items to track different types of work, such as customer requirements, product bugs, and development tasks.|[Track work and manage workflow &#91;redirected&#93;](https://msdn.microsoft.com/d2d8637d-0ef8-4ca3-874e-a04713344032)|  
   
 ## External resources  
   

@@ -16,7 +16,7 @@ manager: jillfra
 Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren’t in the **Packages** folder.  
   
 > [!NOTE]
-> To add an installer package for the .NET Framework, see [.NET Framework Deployment Guide for Developers](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).  
+> To add an installer package for the .NET Framework, see [.NET Framework Deployment Guide for Developers](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).  
   
 ## <a name="Package"></a> To add an installer package by using Package.xml  
   

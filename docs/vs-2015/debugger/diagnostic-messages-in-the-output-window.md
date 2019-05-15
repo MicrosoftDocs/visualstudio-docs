@@ -57,7 +57,7 @@ You can write run-time messages to the Output window using the Debug class or th
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Output Window](../ide/reference/output-window.md)   
- [Tracing and Instrumenting Applications](http://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
+ [Tracing and Instrumenting Applications](https://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
+ [Introduction to Instrumentation and Tracing](https://msdn.microsoft.com/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

@@ -132,7 +132,7 @@ for (int i = length - 1; i >= 0; i--)
 }  
 ```  
   
- The **rfor** snippet provides a [range-based](http://msdn.microsoft.com/library/5750ba1d-ba48-4236-a923-e32de8345c2d) for loop (link):  
+ The **rfor** snippet provides a [range-based](https://msdn.microsoft.com/library/5750ba1d-ba48-4236-a923-e32de8345c2d) for loop (link):  
   
 ```cpp  
 for (auto& i : v)  

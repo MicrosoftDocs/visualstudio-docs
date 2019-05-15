@@ -27,7 +27,7 @@ manager: jillfra
 Use this dialog box to modify the settings for editor formatting, code refactoring, and XML documentation comments for Visual C#. To access this dialog box, click **Options** on the **Tools** menu, expand the **Text Editor** folder, expand **C#**, and then click **Advanced**.  
   
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Outlining  
  Enter outlining mode when files open  
@@ -62,7 +62,7 @@ Use this dialog box to modify the settings for editor formatting, code refactori
   
 ## XML Documentation Comments  
  Generate XML documentation comments for ///  
- When selected, inserts the \<summary> start and end tags automatically for XML documentation comments after you type the /// comment introduction. For more information about XML documentation, see [XML Documentation Comments](http://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199).  
+ When selected, inserts the \<summary> start and end tags automatically for XML documentation comments after you type the /// comment introduction. For more information about XML documentation, see [XML Documentation Comments](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199).  
   
 ## Implement Interface  
  Surround generated code with #region  
@@ -73,6 +73,6 @@ Use this dialog box to modify the settings for editor formatting, code refactori
  When selected, `System` using directives appear before other using directives. For more information, see [Sort Usings](../../misc/sort-usings.md).  
   
 ## See Also  
- [XML Documentation Comments](http://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)   
+ [XML Documentation Comments](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)   
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)   
  [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md)

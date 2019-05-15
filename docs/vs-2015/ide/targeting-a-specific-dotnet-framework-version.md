@@ -30,7 +30,7 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  Details how to specify a particular [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] for your Visual Basic, Visual C# or Visual F# project.  
   
 ## Related Sections  
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
+ [.NET Framework Multi-Targeting for ASP.NET Web Projects](https://msdn.microsoft.com/library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
  Explains how to use this version of Visual Studio to develop Web applications that run under earlier versions of the .NET Framework.  
   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)  
@@ -39,5 +39,5 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
  Describes the **Target Framework** control in the Project Designer for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] projects.  
   
- [How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
+ [How to: Modify the Target Framework and Platform Toolset](https://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
  Describes how to change settings for Visual C++ projects to target different versions of the .NET Framework and to use different platform toolsets.

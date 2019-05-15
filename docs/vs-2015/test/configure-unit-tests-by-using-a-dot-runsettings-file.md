@@ -19,7 +19,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 > [!NOTE]
 > **.runsettings and .testsettings**  
 >   
-> There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901), web performance and load tests, and for customizing some types of diagnostic data adapters such as IntelliTrace and event log adapters.  
+> There are two types of file for configuring tests. *.runsettings are used for unit tests. And \*.testsettings for [lab environment tests](https://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901), web performance and load tests, and for customizing some types of diagnostic data adapters such as IntelliTrace and event log adapters.  
 >   
 > In previous editions of Visual Studio up to 2010, unit tests were also customized by using *.testsettings files. You can still do that, but the tests will run more slowly than if you use the equivalent configurations in a \*.runsettings file.  
   
@@ -135,7 +135,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 #### Other diagnostic data adapters  
  The code coverage adapter is currently the only adapter that can be customized by using the run settings file.  
   
- To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901).  
+ To customize any other type of diagnostic data adapter, you must use a test settings file. For more information, see [Specifying Test Settings for Visual Studio Tests](https://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901).  
   
 #### TestRunParameters  
  TestRunParameters provides a way to define variables and values that are available to the tests at runtime.  
@@ -146,7 +146,7 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
 |Configuration|Default|Values|  
 |-------------------|-------------|------------|  
 |ForcedLegacyMode|false|In Visual Studio 2012, the MSTest adapter has been optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set this value `true` to use the older test adapter.<br /><br /> For example, you might use this if you have an app.config file specified   for a unit test.<br /><br /> We recommend that you consider refactoring your tests to allow you to use the newer adapter.|  
-|IgnoreTestImpact|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager. This setting deactivates the feature. For more   information, see [How to: Collect Data to Check Which Tests Should be Run After Code Changes](http://msdn.microsoft.com/library/2f921ea1-9bb0-4870-a30f-0521fc22cb47).|  
+|IgnoreTestImpact|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager. This setting deactivates the feature. For more   information, see [How to: Collect Data to Check Which Tests Should be Run After Code Changes](https://msdn.microsoft.com/library/2f921ea1-9bb0-4870-a30f-0521fc22cb47).|  
 |SettingsFile||You can specify a test settings file to use with the MS Test adapter here. You can also specify a test settings file using the menu **Test**, **Test Settings**, **Select Test Settings File**.<br /><br /> If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br /> `<RunSettings>   <MSTest>     <SettingsFile>my.testsettings</SettingsFile>      <ForcedLegacyMode>true</ForcedLegacyMode>    </MSTest> </RunSettings>`|  
 |KeepExecutorAliveAfterLegacyRun|false|After a test run is completed, MSTest is shut down. Any process that is launched as part of the test will also be killed at this time. If you want to keep the test executor alive, turn this configuration to true.<br /><br /> For example, you could use this to keep the browser running between coded UI tests.|  
 |DeploymentEnabled|true|If you set this to false, deployment items that you have specified in your test method will not be copied to the deployment directory.|  
@@ -158,4 +158,4 @@ Unit tests in Visual Studio can be configured by using a *.runsettings file. (Th
   
 ## See Also  
  [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)   
- [Specifying Test Settings for Visual Studio Tests](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901)
+ [Specifying Test Settings for Visual Studio Tests](https://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901)

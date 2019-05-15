@@ -50,6 +50,6 @@ The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] Code Editor provides a **Cod
   
 ## See Also  
  [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
- [Visual Basic IntelliSense Code Snippets](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
+ [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
  [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)

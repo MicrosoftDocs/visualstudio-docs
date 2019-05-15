@@ -35,7 +35,7 @@ N-tier* data applications are applications that access data and are separated in
   
 - Create a typed dataset by using the **Data Source Configuration Wizard**.  
   
-- Separate the generated [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset code into discrete projects.  
+- Separate the generated [TableAdapters](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) and dataset code into discrete projects.  
   
 - Create a Windows Communication Foundation (WCF) service to call into the data access tier.  
   
@@ -375,7 +375,7 @@ N-tier* data applications are applications that access data and are separated in
 ## Next Steps  
  Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:  
   
-- Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265).  
+- Add validation to the dataset. For information, see [Walkthrough: Adding Validation to an N-Tier Data Application](https://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265).  
   
 - Add additional methods to the service for updating data back to the database.  
   

@@ -31,7 +31,7 @@ manager: jillfra
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.  
   
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 > [!IMPORTANT]
 > Opening certain files or components from the Web can execute code on your computer.  
@@ -47,7 +47,7 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
   
 - **Source editor** Select to view source in the [Writing Code](../../ide/writing-code-in-the-code-and-text-editor.md).  
   
-- **HTML editor** Select to view source in the [HTML Designer](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.  
+- **HTML editor** Select to view source in the [HTML Designer](https://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.  
   
 - **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.  
   
@@ -60,4 +60,4 @@ Sets options for both the internal Web browser and Internet Explorer. To access 
 ## See Also  
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   
- [HTML Designer](http://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477)
+ [HTML Designer](https://msdn.microsoft.com/library/640043cc-3657-4677-a091-bc315e636477)

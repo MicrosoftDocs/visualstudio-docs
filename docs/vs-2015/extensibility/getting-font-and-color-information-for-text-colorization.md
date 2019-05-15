@@ -40,6 +40,6 @@ The process that renders or displays colorized text in user interface (UI) eleme
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
- [Using Fonts and Text](http://msdn.microsoft.com/library/d43640f3-da94-4df2-a29d-a9d021a1c069)   
- [Working with Color](http://msdn.microsoft.com/library/d34ff96f-241d-494f-abdd-13811ada8cd3)   
- [GDI (graphics device interface)](http://msdn.microsoft.com/7e1d4540-bb2e-4257-8eee-eee376acba83)
+ [Using Fonts and Text](https://msdn.microsoft.com/library/d43640f3-da94-4df2-a29d-a9d021a1c069)   
+ [Working with Color](https://msdn.microsoft.com/library/d34ff96f-241d-494f-abdd-13811ada8cd3)   
+ [GDI (graphics device interface)](https://msdn.microsoft.com/7e1d4540-bb2e-4257-8eee-eee376acba83)

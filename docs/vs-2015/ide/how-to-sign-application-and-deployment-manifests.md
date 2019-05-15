@@ -28,7 +28,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
   
  Signing the ClickOnce manifests is optional for .exe-based applications. For more information, see the "Generating Unsigned Manifests" section of this document.  
   
- For information about creating key files, see [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114).  
+ For information about creating key files, see [How to: Create a Public-Private Key Pair](https://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114).  
   
 > [!NOTE]
 > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports only Personal Information Exchange (PFX) key files that have the .pfx extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.  
@@ -103,7 +103,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
 3. Publish the application.  
   
 ## See Also  
- [Strong-Named Assemblies](http://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
- [How to: Create a Public-Private Key Pair](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)   
+ [Strong-Named Assemblies](https://msdn.microsoft.com/library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
+ [How to: Create a Public-Private Key Pair](https://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)   
  [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)

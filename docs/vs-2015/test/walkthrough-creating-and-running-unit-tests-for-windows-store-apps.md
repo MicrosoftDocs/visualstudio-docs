@@ -80,7 +80,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
     > [!NOTE]
     > The capabilities you select should only include capabilities that are necessary for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] unit test to function correctly. The capabilities should never have to include capabilities that are not part of the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app being tested and generally should be a subset of the capabilities specified for the [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)]app under test.  
   
-     For more information about the Manifest Designer, see [Configure a Windows 8.1 app package by using the manifest designer](http://msdn.microsoft.com/library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d).  
+     For more information about the Manifest Designer, see [Configure a Windows 8.1 app package by using the manifest designer](https://msdn.microsoft.com/library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d).  
   
      ![Unit Test Manifest](../test/media/unit-test-win8.png "Unit_Test_Win8_")  
   
@@ -143,4 +143,4 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
   
 ## See Also  
  [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)   
- [Build and test a Windows Store app using Team Foundation Build](http://msdn.microsoft.com/library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)
+ [Build and test a Windows Store app using Team Foundation Build](https://msdn.microsoft.com/library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)

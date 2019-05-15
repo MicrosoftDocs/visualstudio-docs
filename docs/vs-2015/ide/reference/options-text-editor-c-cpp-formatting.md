@@ -25,7 +25,7 @@ Lets you change the default behavior of the Code Editor when you are programming
  To access this page, in the **Options** dialog box, in the left pane, expand **Text Editor**, expand **C/C++**, and then click **Formatting**.  
   
 > [!NOTE]
-> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## C/C++ Options  
  **Enable automatic Quick Info ToolTips**  
@@ -60,16 +60,16 @@ Lets you change the default behavior of the Code Editor when you are programming
  When you bring a file into the text editor, you can enable the outlining feature. For more information, see [Outlining](../../ide/outlining.md). When this option is selected, the outlining feature is enabled when you open a file.  
   
  **Automatic outlining of #pragma region blocks**  
- When this option is selected, automatic outlining for [pragma directives](http://msdn.microsoft.com/library/9867b438-ac64-4e10-973f-c3955209873f) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
+ When this option is selected, automatic outlining for [pragma directives](https://msdn.microsoft.com/library/9867b438-ac64-4e10-973f-c3955209873f) is enabled. This lets you expand or collapse pragma region blocks in outlining mode.  
   
  **Automatic outlining of statement blocks**  
  When this option is selected, automatic outlining is enabled for the following statement constructs:  
   
-- [if-else](http://msdn.microsoft.com/library/d9a1d562-8cf5-4bd4-9ba7-8ad970cd25b2)  
+- [if-else](https://msdn.microsoft.com/library/d9a1d562-8cf5-4bd4-9ba7-8ad970cd25b2)  
   
-- [switch Statement (C++)](http://msdn.microsoft.com/library/6c3f3ed3-5593-463c-8f4b-b33742b455c6)  
+- [switch Statement (C++)](https://msdn.microsoft.com/library/6c3f3ed3-5593-463c-8f4b-b33742b455c6)  
   
-- [while Statement (C++)](http://msdn.microsoft.com/library/358dbe76-5e5e-4af5-b575-c2293c636899)  
+- [while Statement (C++)](https://msdn.microsoft.com/library/358dbe76-5e5e-4af5-b575-c2293c636899)  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)   

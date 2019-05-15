@@ -37,5 +37,5 @@ By default, when you drag database objects that have names ending in s or ies fr
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
+ [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
