@@ -30,7 +30,7 @@ ms.workload:
 
 ## Cause
 
-A local object of a <xref:System.IDisposable> type is created but the object is not disposed before all references to the object are out of scope.
+A local object of an <xref:System.IDisposable> type is created, but the object is not disposed before all references to the object are out of scope.
 
 ## Rule description
 
@@ -51,34 +51,33 @@ Passing an object of one of these types to a constructor and then assigning it t
 
 To fix a violation of this rule, call <xref:System.IDisposable.Dispose%2A> on the object before all references to it are out of scope.
 
-Note that you can use the `using` statement (`Using` in Visual Basic) to wrap objects that implement `IDisposable`. Objects that are wrapped in this manner are automatically disposed at the close of the `using` block.
+You can use the [`using` statement](/dotnet/csharp/language-reference/keywords/using-statement) ([`Using`](/dotnet/visual-basic/language-reference/statements/using-statement) in Visual Basic) to wrap objects that implement <xref:System.IDisposable>. Objects that are wrapped in this manner are automatically disposed at the end of the `using` block. However, the following situations should not or cannot be handled with a `using` statement:
 
-The following are some situations where the `using` statement is not enough to protect IDisposable objects and can cause CA2000 to occur.
+- To return a disposable object, the object must constructed in a `try/finally` block outside of a `using` block.
 
-- Returning a disposable object requires that the object is constructed in a try/finally block outside a using block.
+- Do not initialize members of a disposable object in the constructor of a `using` statement.
 
-- Initializing members of a disposable object should not be done in the constructor of a using statement.
-
-- Nesting constructors that are protected only by one exception handler. For example,
+- When constructors that are protected by only one exception handler are nested in the [acquisition part of a `using` statement](/dotnet/csharp/language-reference/language-specification/statements#the-using-statement), a failure in the outer constructor can result in the object created by the nested constructor never being closed. In the following example, a failure in the <xref:System.IO.StreamReader> constructor can result in the <xref:System.IO.FileStream> object never being closed. CA2000 flags a violation of the rule in this case.
 
    ```csharp
    using (StreamReader sr = new StreamReader(new FileStream("C:\myfile.txt", FileMode.Create)))
    { ... }
    ```
 
-   raises CA2000 because a failure in the construction of the StreamReader object can result in the FileStream object never being closed.
-
-- Dynamic objects should use a shadow object to implement the Dispose pattern of IDisposable objects.
+- Dynamic objects should use a shadow object to implement the dispose pattern of <xref:System.IDisposable> objects.
 
 ## When to suppress warnings
 
-Do not suppress a warning from this rule unless you have called a method on your object that calls `Dispose`, such as <xref:System.IO.Stream.Close%2A>, or if the method that raised the warning returns an IDisposable object wraps your object.
+Do not suppress a warning from this rule unless:
+
+- You've called a method on your object that calls `Dispose`, such as <xref:System.IO.Stream.Close%2A>
+- The method that raised the warning returns an <xref:System.IDisposable> object that wraps your object
+- The allocating method does not have dispose ownership; that is, the responsibility to dispose the object is transferred to another object or wrapper that's created in the method and returned to the caller
 
 ## Related rules
 
-[CA2213: Disposable fields should be disposed](../code-quality/ca2213-disposable-fields-should-be-disposed.md)
-
-[CA2202: Do not dispose objects multiple times](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)
+- [CA2213: Disposable fields should be disposed](../code-quality/ca2213-disposable-fields-should-be-disposed.md)
+- [CA2202: Do not dispose objects multiple times](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)
 
 ## Example
 

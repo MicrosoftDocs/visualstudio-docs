@@ -29,6 +29,7 @@ ms.workload:
 A type that implements <xref:System.IDisposable?displayProperty=fullName> declares fields that are of types that also implement <xref:System.IDisposable>. The <xref:System.IDisposable.Dispose%2A> method of the field is not called by the <xref:System.IDisposable.Dispose%2A> method of the declaring type.
 
 ## Rule description
+
 A type is responsible for disposing of all its unmanaged resources. Rule CA2213 checks to see whether a disposable type (that is, one that implements <xref:System.IDisposable>) `T` declares a field `F` that is an instance of a disposable type `FT`. For each field `F` that's assigned a locally created object within the methods or initializers of the containing type `T`, the rule attempts to locate a call to `FT.Dispose`. The rule searches the methods called by `T.Dispose` and one level lower (that is, the methods called by the methods called by `T.Dispose`).
 
 > [!NOTE]
@@ -43,7 +44,7 @@ Rule CA2213 can also fire for fields of the following types even if the object t
 - <xref:System.IO.TextWriter?displayProperty=nameWithType>
 - <xref:System.Resources.IResourceReader?displayProperty=nameWithType>
 
-Passing an object of one of these types to a constructor and then assigning it to a field indicates a *dispose ownership transfer* to the newly constructed type. That means, the newly constructed type is now responsible for disposing of the object. If the object is not disposed, a violation of CA2213 occurs.
+Passing an object of one of these types to a constructor and then assigning it to a field indicates a *dispose ownership transfer* to the newly constructed type. That is, the newly constructed type is now responsible for disposing of the object. If the object is not disposed, a violation of CA2213 occurs.
 
 ## How to fix violations
 
@@ -51,7 +52,10 @@ To fix a violation of this rule, call <xref:System.IDisposable.Dispose%2A> on fi
 
 ## When to suppress warnings
 
-It's safe to suppress a warning from this rule if the flagged type is not responsible for releasing the resource held by the field, or if the call to <xref:System.IDisposable.Dispose%2A> occurs at a deeper calling level than the rule checks.
+It's safe to suppress a warning from this rule if:
+
+- The flagged type is not responsible for releasing the resource held by the field (that is, the type does not have *dispose ownership*)
+- The call to <xref:System.IDisposable.Dispose%2A> occurs at a deeper calling level than the rule checks
 
 ## Example
 
