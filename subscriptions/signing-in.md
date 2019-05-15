@@ -79,19 +79,19 @@ GitHub identity support lets you use your existing GitHub account as a credentia
 
 When you sign in with GitHub, Microsoft checks whether any email addresses associated with your GitHub account match an existing personal or enterprise Microsoft account. If the address matches your enterprise account, you'll be prompted to sign in to that account instead. If the address matches a personal account, we’ll add your GitHub account as a sign-in method to that personal account.
 
-After your GitHub and Microsoft account credentials are linked, you can use that single sign-in anywhere a personal Microsoft account can be used, like on Azure sites, Office apps, and Xbox. These accounts can also be used for Azure Active Directory guest logins as a Microsoft account, assuming the email address matches the one on the invite.
+After your GitHub and Microsoft account credentials are linked, you can use that single sign-in anywhere a personal Microsoft account can be used, like on Azure sites, Office apps, and Xbox. These accounts can also be used for Azure Active Directory guest sign ins as a Microsoft account, assuming the email address matches the one on the invite.
 
 > [!NOTE]
 > Linking a GitHub identity to a Microsoft account doesn't give Microsoft any code access. When apps such as Azure DevOps and Visual Studio require access to your code repositories, you'll be prompted to grant specific consent for this access. 
 
 ### Frequently asked questions
-The following FAQs address questions you may encounter regarding the use of your GitHub account credentials to log in to Visual Studio subscriptions.
+The following FAQs address questions you may encounter regarding the use of your GitHub account credentials to sign in to Visual Studio subscriptions.
 
 #### Q: I forgot my GitHub password.  How can I access my account now?
 A:  You can recover your GitHub account by going to [Reset your password](https://github.com/password_reset). Or, you can recover your GitHub-linked Microsoft account by entering your GitHub account’s email address at [Recover your account](https://account.live.com/password/reset).
 
 #### Q: I deleted my GitHub account.  How can I access my Microsoft account (MSA) now?
-A: If you don’t have any other credentials on your MSA (like a password, Authenticator app, or security key), you can recover your Microsoft account by using the email address attached to it. To get started, go to [Recover your account](https://account.live.com/password/reset). You’ll have to add a password to your account so we'll know how to log you in later. 
+A: If you don’t have any other credentials on your MSA (like a password, Authenticator app, or security key), you can recover your Microsoft account by using the email address attached to it. To get started, go to [Recover your account](https://account.live.com/password/reset). You’ll have to add a password to your account so we'll know how to sign you in later. 
 
 #### Q: There's no "Sign in with GitHub" option on the sign-in page.  How can I use my GitHub credentials to sign in?
 A:  Type the GitHub account email address you chose when you created your GitHub-linked Microsoft account. We’ll look you up and send you to GitHub for sign-in. Or, if there’s a Sign-in options link on the sign in page, use the **Sign in with GitHub** button that's shown after you click that link. 
