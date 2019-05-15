@@ -37,7 +37,7 @@
   items:
   - name: Language Server Protocol
     href: language-server-protocol.md
-  - name: Adding a Language Server Protocol extension
+  - name: Add a Language Server Protocol extension
     href: adding-an-lsp-extension.md
 - name: Open Folder
 # Auto-expanded node

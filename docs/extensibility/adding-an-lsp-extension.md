@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Add a Language Server Protocol extension
 
-The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC v2.0, used to provide language service features to various code editors. Using the protocol, developers can write a single language server to provide language service features like IntelliSense, error diagnostics, find all references, and so on to various code editors that support the LSP. Traditionally, language services in Visual Studio can be added by using TextMate grammar files to provide basic functionalities such as syntax highlighting or by writing custom language services that use the full set of Visual Studio extensibility APIs to provide richer data. With Visual Studio support for LSP, there's a third option.
+The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC v2.0, used to provide language service features to various code editors. Using the protocol, developers can write a single language server to provide language service features like IntelliSense, error diagnostics, find all references, and so on, to various code editors that support the LSP. Traditionally, language services in Visual Studio can be added by using TextMate grammar files to provide basic functionalities such as syntax highlighting or by writing custom language services that use the full set of Visual Studio extensibility APIs to provide richer data. With Visual Studio support for LSP, there's a third option.
 
 ![language server protocol service in Visual Studio](media/lsp-service-in-VS.png)
 
@@ -21,7 +21,7 @@ The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC
 
 This article describes how to create a Visual Studio extension that uses an LSP-based language server. It assumes that you've already developed an LSP-based language server and just want to integrate it into Visual Studio.
 
-For support within Visual Studio, language servers can communicate with the client (Visual Studio) via any stream based transmission mechanism, for example:
+For support within Visual Studio, language servers can communicate with the client (Visual Studio) via any stream-based transmission mechanism, for example:
 
 * Standard input/output streams
 * Named pipes
@@ -478,7 +478,7 @@ To see the source code of a sample extension using the LSP client API in Visual 
 
 **I would like to build a custom project system to supplement my LSP language server to provide richer feature support in Visual Studio, how do I go about doing that?**
 
-Support for LSP-based language servers in Visual Studio relies on the [open folder feature](https://devblogs.microsoft.com/visualstudio/open-any-folder-with-visual-studio-15-preview/) and is specifically designed to not require a custom project system. You can build your own custom project system following instructions [here](https://github.com/Microsoft/VSProjectSystem), but some features, such as settings, may not work. The default initialization logic for LSP language servers is to pass in the root folder location of the folder currently being opened, so if you use a custom project system, you may need to provide custom logic during initialization to ensure your language server can start properly.
+Support for LSP-based language servers in Visual Studio relies on the [open folder feature](https://devblogs.microsoft.com/visualstudio/open-any-folder-with-visual-studio-15-preview/) and is designed to not require a custom project system. You can build your own custom project system following instructions [here](https://github.com/Microsoft/VSProjectSystem), but some features, such as settings, may not work. The default initialization logic for LSP language servers is to pass in the root folder location of the folder currently being opened, so if you use a custom project system, you may need to provide custom logic during initialization to ensure your language server can start properly.
 
 **How do I add debugger support?**
 
