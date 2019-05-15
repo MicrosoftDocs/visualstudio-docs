@@ -78,7 +78,7 @@ For more information about customer feedback settings, see the [Visual Studio Cu
 
 ## Specify synchronous autoload settings
 
-Starting Visual Studio 16.1, by default, the Visual Studio installation blocks synchronous autoload. When you enable Group Policy, you can configure Visual Studio to allow syncrhonous autoload on indivual computers. To do so, set a registry-based policy on the following key:
+Starting Visual Studio 16.1, by default, the Visual Studio installation blocks synchronous autoload. When you enable Group Policy, you can configure Visual Studio to allow synchronous autoload on individual computers. To do so, set a registry-based policy on the following key:
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SynchronousAutoload**
 
@@ -88,7 +88,7 @@ Value = (DWORD)
 * **0** is synchronous autoload not allowed
 * **1** is synchronous autoload allowed
 
-For more information about customer feedback settings, see the [Synchronous autoload behavior](to do) page.
+For more information about synchronous autoload settings, see the [Synchronous Autoload Behavior](https://aka.ms/AA52xzw) page.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
