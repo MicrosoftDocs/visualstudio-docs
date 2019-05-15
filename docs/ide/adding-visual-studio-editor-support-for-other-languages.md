@@ -27,7 +27,7 @@ Features in the Visual Studio editor such as syntax colorization, statement comp
 
 ![Syntax colorization in Perl script](../ide/media/vside_perledit.png)
 
-Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry - you can add it.
+Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry&mdash;you can add it.
 
 |||||||
 |-|-|-|-|-|-|
@@ -40,21 +40,21 @@ Visual Studio currently provides syntax colorization and basic statement complet
 
 In addition to syntax colorization and basic statement completion, Visual Studio also has a feature called [Navigate To](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/). This feature enables you to quickly search code files, file paths, and code symbols. Visual Studio provides Navigate To support for the following languages.
 
+- C#
+
+- C++
+
+- TypeScript
+
+- JavaScript
+
+- Visual Basic
+
 - Go
 
 - Java
 
-- JavaScript
-
 - PHP
-
-- TypeScript
-
-- Visual Basic
-
-- Visual C++
-
-- C#
 
 All of these file types have the features described earlier even if support for a given language hasn't yet been installed. Installing specialized support for some languages may provide additional language support, such as IntelliSense or other advanced language features like light bulbs.
 
@@ -83,5 +83,6 @@ For details about how to create TextMate Grammars, see [TextMate - Introduction 
 
 ## See also
 
+- [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
 - [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
 - [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
