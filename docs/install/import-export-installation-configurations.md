@@ -1,8 +1,8 @@
 ---
 title: "Import or export installation configurations"
 titleSuffix: ""
-description: "Learn how to use the import/export configuration feature to share .vsconfig files in Visual Studio"
-ms.date: 05/17/2019
+description: "Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone."
+ms.date: 05/18/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.about"
