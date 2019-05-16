@@ -93,45 +93,74 @@ The solution created by the template sets the Android app as the default project
 
    Visual Studio builds Android Native Activity projects by using the Android NDK, which uses Clang as the platform toolset. Visual Studio maps the properties in the NativeActivity project to the command-line switches and options that are used to compile, link, and debug on the target platform. For details, open the **Property Pages** dialog for the MyOpenGLESApp.Android.NativeActivity project. For more information about the command line switches, see the [Clang Compiler User's Manual](http://clang.llvm.org/docs/UsersManual.html).
 
-## Build and run the iOS app
+## Build and run the iOS app on an iOS device
 
 The iOS app project is created and edited in Visual Studio, but because of licensing restrictions, it must be built and deployed from a Mac. Visual Studio communicates with a remote agent running on the Mac to transfer project files and execute build, deployment, and debugging commands. You must set up and configure your Mac and Visual Studio to communicate before you can build the iOS app. For detailed instructions, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). Once the remote agent is running and Visual Studio is paired with your Mac, you can build and run the iOS app to verify your installation and setup.
 
-### To build and run the iOS app
+In addition, you must also set up automatic signing on Xcode on the Mac in order to deploy an iOS app to an iOS device. Automatic signing will automatically manage signing and create a provisioning profile to sign a build of the app.
+
+### To set up automatic signing on Xcode
+
+1. Ensure you have [Xcode](https://developer.apple.com/xcode/downloads/) version 10.2.1 or later on your Mac.
+
+2. Open the Xcode app on your Mac.
+
+3. Create a new **Single View Application** Xcode project. Fill in the required fields during project creation. The values can be arbitrary as the project will only be used to create a provisioning profile to use later for signing a build of the app.
+
+4. Add your Apple ID that is enrolled to an [Apple Developer Program](https://developer.apple.com/programs/) account to Xcode. Your Apple ID will be used as a signing identity to sign apps. To add your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and add your Apple ID by clicking on the Add button (+). See [Add your Apple ID account](https://help.apple.com/xcode/mac/current/#/devaf282080a) for detailed instructions.
+
+5. From the Xcode project's "General" settings, change the value of **Bundle Identifier** to `com.<NameOfVSProject>` where the value of `<NameOfVSProject>` is the same name of the Visual Studio solution project you created. For example, if you created a project called `MyOpenGLESApp` on Visual Studio, then set **Bundle Identifier** with `com.MyOpenGLESApp`.
+
+    ![Xcode bundle identifier](../cross-platform/media/cppmdd_opengles_iosxcodeid.png "CPPMDD_OpenGLES_iOSXcodeId")
+
+6. Ensure automatic signging is enabled by checking **Automatically manage signing**.
+
+    ![Xcode automatic signing](../cross-platform/media/cppmdd_opengles_iosxcodesign.png "CPPMDD_OpenGLES_iOSXcodeSign")
+
+7. Select the team name of the Apple ID you added from **step #4** as the development **Team**.
+
+    ![Xcode team](../cross-platform/media/cppmdd_opengles_iosxcodeteam.png "CPPMDD_OpenGLES_iOSXcodeTeam")
+
+### To build and run the iOS app on an iOS device
 
 1. Verify that the remote agent is running on your Mac, and that Visual Studio is paired to the remote agent. To start the remote agent, open a Terminal app window and enter `vcremote`. For more information, see [Configure the remote agent in Visual Studio](../cross-platform/install-and-configure-tools-to-build-using-ios.md#ConfigureVS).
 
     ![Mac Terminal window running vcremote](../cross-platform/media/cppmdd_common_vcremote.png "CPPMDD_common_vcremote")
 
-2. If it is not already selected, choose **x86** from the **Solution Platforms** drop-down list.
+2. Attach an iOS device to your Mac. When you attach your device to a computer for the first time, an alert will ask whether you trust the computer to access your device. Enable the device to trust the Mac computer.
 
-    ![Set the Solution Platform to x86](../cross-platform/media/cppmdd_opengles_solutionplat.png "CPPMDD_OpenGLES_SolutionPlat")
+3. On Visual Studio, if it is not already selected, choose the solution platform from the **Solution Platforms** drop-down list based on your device processor. For this example it is an **ARM64** processor.
 
-    Use x86 to target the iOS Simulator. If you are targeting an iOS device, choose the solution platform based on the device processor (usually an ARM processor). If the **Solution Platforms** list isn't displayed, choose **Solution Platforms** from the **Add/Remove Buttons** list, and then choose your platform.
+    ![Set the Solution Platform to ARM64](../cross-platform/media/cppmdd_opengles_pickplatformarm64.png "CPPMDD_OpenGLES_SolutionPlatARM64")
 
-3. In Solution Explorer, open the shortcut menu for the MyOpenGLESApp.iOS.Application project and choose **Build**.
+4. In Solution Explorer, open the shortcut menu for the MyOpenGLESApp.iOS.Application project and choose **Unload Project** to unload the project.
+
+5. Again, open the shortcut menu for the unloaded MyOpenGLESApp.iOS.Application project and choose **Edit project.pbxproj** to edit the project file. In the `project.pbxproj` file, look for the `buildSettings` attribute and add `DEVELOPMENT_TEAM` with your Apple Team ID. The screehsnot below shows an example value of `123456ABC` for the Apple Team ID. You can find the value of your Apple Team ID from Xcode by going to **Build Settings** and hover over your development team name to show a tooltip. The tooltip will show your team ID.
+
+    ![Set development team](../cross-platform/media/cppmdd_opengles_iosdevelopmentteam.png "CPPMDD_OpenGLES_iOSDevelopmentTeam")
+
+6. Close the `project.pbxproj` file, then open the shortcut menu for the unloaded MyOpenGLESApp.iOS.Application project and choose **Reload Project** to reload the project.
+
+7. Now build the MyOpenGLESApp.iOS.Application project by opening the shortcut menu for the project and choosing **Build**.
 
     ![Build iOS Application project](../cross-platform/media/cppmdd_opengles_iosbuild.png "CPPMDD_OpenGLES_iOSBuild")
 
     The Output window displays the output of the build process for the iOS static library and the iOS app. On the Mac, the Terminal window running the remote agent shows the command and file transfer activity.
 
-    On your Mac computer, you may be prompted at accept a code signing request. Choose **Allow** to continue.
+    On your Mac computer, you may be prompted to allow codesign to access your keychain. Choose **Allow** to continue.
 
-4. Choose **iOS Simulator** on the toolbar to run the app in the iOS Simulator on your Mac. It may take a moment to start the simulator. You may have to bring the simulator to the foreground on your Mac to see its output.
-
-    ![App running on iOS Simulator](../cross-platform/media/cppmdd_opengles_iossimulator.png "CPPMDD_OpenGLES_iOSSimulator")
+8. Choose your iOS device on the toolbar to run the app on your device attached to your Mac. If the app does not start, ensure the device gives permission for your deployed application to execute on the device. This can be done by going to device's **Settings** > **General** > **Device Management**. Select your Developer App account and trust your account and verify the app. Try to run the app again from Visual Studio.
 
     Once your app has started, you can set breakpoints and use the Visual Studio debugger to examine locals, see the call stack, and watch values.
 
     ![Debugger at breakpoint in iOS app](../cross-platform/media/cppmdd_opengles_iosdebug.png "CPPMDD_OpenGLES_iOSDebug")
 
-5. Press **Shift**+**F5** to stop debugging.
 
-    The iOS Simulator is a separate process that continues to run on your Mac. You can edit, compile, and deploy your code multiple times to the same iOS Simulator instance. You can also run your code directly in the simulator after it has been deployed.
+9. Press **Shift**+**F5** to stop debugging.
 
    The generated iOS app and library projects put the C++ code in a static library that implements only the shared code. Most of the application code is in the `Application` project. The calls to the shared library code in this template project are made in the *GameViewController.m* file. To build your iOS app, Visual Studio uses the Xcode platform toolset, which requires communication with a remote client that is running on a Mac.
 
-   Visual Studio transfers the project files and sends commands to the remote client to build the app using Xcode. The remote client sends build status information back to Visual Studio. When the app has built successfully, you can use Visual Studio to send commands to run and debug the app. The debugger in Visual Studio controls the app running in the iOS Simulator running on your Mac, or on an attached iOS device. Visual Studio maps the properties in the StaticLibrary project to the command-line switches and options that are used to build, link, and debug on the target iOS platform. For compiler command-line option details, open the **Property Pages** dialog for the MyOpenGLESApp.iOS.StaticLibrary project.
+   Visual Studio transfers the project files and sends commands to the remote client to build the app using Xcode. The remote client sends build status information back to Visual Studio. When the app has built successfully, you can use Visual Studio to send commands to run and debug the app. The debugger in Visual Studio controls the app running on your iOS device attached to your Mac. Visual Studio maps the properties in the StaticLibrary project to the command-line switches and options that are used to build, link, and debug on the target iOS platform. For compiler command-line option details, open the **Property Pages** dialog for the MyOpenGLESApp.iOS.StaticLibrary project.
 
 ## Customize your apps
 
