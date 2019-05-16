@@ -22,6 +22,46 @@ ms.technology: vs-installation
 
 In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
+## Before you begin
+
+Before you deploy Visual Studio across your organization, consider the following tasks.
+
+::: moniker range="vs-2017"
+
+* Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/).
+
+* Decide on your servicing needs.
+
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page.
+
+  If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits. 
+
+* Decide on the update model
+ 
+  Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. 
+
+::: moniker-end
+
+* Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements/).
+
+* Decide on your servicing needs.
+
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page.
+
+  If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits. 
+
+* Decide on the update model
+ 
+  Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. 
+
+* Decide which [workloads and components](workload-and-component-ids.md) your company needs.
+ 
+* Decide whether to use a [response file]((automated-installation-with-response-file.md)) (that simplifies managing details in the script file)
+ 
+* Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
+
+::: moniker range="vs-2019"
+
 ## Deploy Visual Studio in an enterprise environment
 
 ::: moniker range="vs-2017"
