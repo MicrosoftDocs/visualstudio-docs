@@ -20,8 +20,8 @@ ms.workload:
 ---
 # CustomBuild task
 
-Wraps the Visual C++ compiler tool, cmd.exe. 
-This class derives from [TrackedVCToolTask](../msbuild/trackedvctooltask-base-class.md).
+Wraps the Visual C++ compiler tool, cmd.exe. This class derives from [TrackedVCToolTask](../msbuild/trackedvctooltask-base-class.md), but does not use file tracking to discover file dependencies. All dependencies should be explicitly specified as AdditionalDependencies for incremental build working properly.
+
 
 ## Parameters
 
