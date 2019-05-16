@@ -34,7 +34,7 @@ This rule attempts to find input from HTTP requests reaching a path in a file op
 > This rule can't track data across assemblies. For example, if one assembly reads the HTTP request input and then passes it to another assembly that writes to a file, this rule won't produce a warning.
 
 > [!NOTE]
-> There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in `.editorconfig` files.
+> There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in an EditorConfig file.
 
 ## How to fix violations
 
@@ -71,7 +71,7 @@ public partial class WebForm : System.Web.UI.Page
         //   wwwroot\secret\allsecrets.txt
         // There is nothing wrong if the user inputs:
         //   user1.txt
-        // However, if the user input is: 
+        // However, if the user input is:
         //   ..\secret\allsecrets.txt
         // Then an attacker can now see all the secrets.
 
@@ -79,8 +79,8 @@ public partial class WebForm : System.Web.UI.Page
         using (File.Open(userInput, FileMode.Open))
         {
             // Read a file with the name supplied by user
-            // Input through request's query string and display 
-            // The content to the webpage. 
+            // Input through request's query string and display
+            // The content to the webpage.
         }
     }
 }
@@ -90,7 +90,7 @@ public partial class WebForm : System.Web.UI.Page
 Imports System
 Imports System.IO
 
-Partial Public Class WebForm 
+Partial Public Class WebForm
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(sender As Object, e As EventArgs)
@@ -101,15 +101,15 @@ Partial Public Class WebForm
         '   wwwroot\secret\allsecrets.txt
         ' There is nothing wrong if the user inputs:
         '   user1.txt
-        ' However, if the user input is: 
+        ' However, if the user input is:
         '   ..\secret\allsecrets.txt
         ' Then an attacker can now see all the secrets.
 
         ' Avoid this:
         Using File.Open(userInput, FileMode.Open)
             ' Read a file with the name supplied by user
-            ' Input through request's query string and display 
-            ' The content to the webpage. 
+            ' Input through request's query string and display
+            ' The content to the webpage.
         End Using
     End Sub
 End Class
