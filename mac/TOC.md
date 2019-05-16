@@ -84,7 +84,7 @@
 # [Accessibility](accessibility.md)
 
 # Troubleshooting
-# [Logs and Exceptions](troubleshooting.md)
+## [Logs and Exceptions](troubleshooting.md)
 ## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
