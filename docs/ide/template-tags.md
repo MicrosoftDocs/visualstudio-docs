@@ -25,15 +25,17 @@ Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) 
 
    ![Search and filter in the new project dialog](media/npd-search-and-filter.png)
 
-You can add tags by updating the *.vstemplate* XML file using template tags built into Visual Studio or by creating custom template tags. Template tags only appear in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)'s new project dialog. They don't affect the template item rendering in previous versions of Visual Studio.
+You can add tags by updating the *.vstemplate* XML file using template tags built into Visual Studio or by creating custom template tags. Template tags only appear in the Visual Studio 2019 new project dialog. They don't affect the template rendering in previous versions of Visual Studio.
 
-## Add or edit tags to your project templates
+## Add or edit tags
 
-Access your project template's *.vstemplate* XML to add or edit tags when you:
+You may want to add or edit tags in your project template's *.vstemplate* XML when you:
 
-* Use the [Export Template wizard](/visualstudio/ide/how-to-create-project-templates) to create a new project template
-* Use the [VSIX Project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template) to create a new VSIX project template
-* Update your [existing project template](/visualstudio/ide/how-to-update-existing-templates)
+* [Create a new project template](/visualstudio/ide/how-to-create-project-templates) by using the Export Template wizard
+
+* [Update your existing project template](/visualstudio/ide/how-to-update-existing-templates)
+
+* [Create a new VSIX project template](/visualstudio/extensibility/getting-started-with-the-vsix-project-template)
 
 ## Syntax
 
@@ -43,22 +45,24 @@ Access your project template's *.vstemplate* XML to add or edit tags when you:
 <ProjectTypeTag> Project Type </ProjectTypeTag>
 ```
 
+## Attributes
+
+The following attributes are optional and for advanced user scenarios.
+
+|Attribute|Description|
+|---------------|-----------------|
+|`Package`|A GUID that specifies the Visual Studio package ID.|
+|`ID`|Specifies the Visual Studio resource ID.|
+
+Syntax:
+
 ```xml
 <LanguageTag Package="{PackageID}" ID="ResourceID" />
 <PlatformTag Package="{PackageID}" ID="ResourceID" />
 <ProjectTypeTag Package="{PackageID}" ID="ResourceID" />
 ```
 
-## Attributes and elements
-
-The following sections describe attributes, child elements, and parent elements.
-
-### Attributes
-
-|Attribute|Description|
-|---------------|-----------------|
-|`Package`|Optional attribute, for advanced user scenarios.<br /><br />A GUID that specifies the Visual Studio package ID.|
-|`ID`|Optional attribute, for advanced user scenarios.<br /><br />Specifies the Visual Studio resource ID.|
+## Elements
 
 ### Child elements
 
@@ -68,7 +72,7 @@ None.
 
 |Element|Description|
 |-------------|-----------------|
-|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
+|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|(Required) Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
 
 ## Text value
 
