@@ -1,20 +1,24 @@
 # [Visual Studio for Mac](index.yml)
 # [IDE Tour](ide-tour.md)
 
-# [Installation](installation.md)
+# Installation
+## [Installing Visual Studio 2019 for Mac](installation.md)
 ## [Install and use behind a firewall or proxy](install-behind-a-firewall-or-proxy-server.md)
 ## [Install a preview release](install-preview.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
 
-# [User Accounts](user-accounts.md)
+# User Accounts
+## [Overview](user-accounts.md)
 ## [Signing In](signing-in.md)
 ## [Enable Subscription](enable-subscription.md)
 
-# [Customizing the IDE](customizing-the-ide.md)
+# Customizing the IDE
+## [Customizing the look and feel of IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
 
-# [Projects and Solutions](projects-and-solutions.md)
+# Projects and Solutions
+## [Overview](projects-and-solutions.md)
 ## [Creating new Projects](create-new-projects.md)
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
 ## [Managing Solutions and Project properties](managing-solutions-and-project-properties.md)
@@ -23,7 +27,8 @@
 ## [Managing App Resources](managing-app-resources.md)
 ## [How to: Open multiple solutions or instances](open-multiple-solutions.md)
 
-# [Source Editor](source-editor.md)
+# Source Editor
+## [Editor Features](source-editor.md)
 ## [Refactoring](refactoring.md)
 ## [Comments](comments.md)
 ## [Editor Behavior](editor-behavior.md)
@@ -34,10 +39,12 @@
 ## [EditorConfig](editorconfig.md)
 ## [Default Keyboard Shortcuts](keyboard-shortcuts.md)
 
-# [Debugging](debugging.md)
+# Debugging
+## [Overview](debugging.md)
 ## [Data Visualizations](data-visualizations.md)
 
-# [Compiling and Building](compiling-and-building.md)
+# Compiling and Building
+## [Overview](compiling-and-building.md)
 ## [Building and Cleaning Projects and Solutions](building-and-cleaning-projects-and-solutions.md)
 ## [Build Actions](build-actions.md)
 ## [How to: Set multiple startup projects](set-startup-projects.md)
@@ -45,18 +52,21 @@
 ## [Configurations](configurations.md)
 ### [Create and Edit configurations](create-and-edit-configurations.md)
 
-# [Version Control](version-control.md)
+# Version Control
+## [Overview](version-control.md)
 ## [TF Version Control](tf-version-control.md)
 ## [Setting Up a Git Repository](set-up-git-repository.md)
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
 ## [Working with Subversion](working-with-subversion.md)
 
-# [Web App Deployment](web-app-deployment.md)
+# Web App Deployment
+## [Overview](web-app-deployment.md)
 ## [Publish to Azure App Service](publish-app-svc.md)
 ## [Publish to Folder](publish-folder.md)
 
-# [Workloads](workloads.md)
+# Workloads
+## [Available Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
@@ -73,7 +83,8 @@
 
 # [Accessibility](accessibility.md)
 
-# [Troubleshooting](troubleshooting.md)
+# Troubleshooting
+# [Logs and Exceptions](troubleshooting.md)
 ## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
