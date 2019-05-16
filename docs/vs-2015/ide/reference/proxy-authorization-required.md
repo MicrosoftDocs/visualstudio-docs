@@ -19,7 +19,7 @@ This error generally occurs when users are connected to Visual Studio Online thr
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials in the dialog.
 
-- If the above step does not solve the problem, this may be because your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for *.visualStudio.com addresses. For these servers, you need to add the following URLs to the approved list to unblock all sign-in scenarios in Visual Studio:
+- If the above step does not solve the problem, this may be because your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for *.visualStudio.com addresses. For these servers, you need to add the following URLs to the allow list to unblock all sign-in scenarios in Visual Studio:
 
     - *.windows.net
 
@@ -31,7 +31,7 @@ This error generally occurs when users are connected to Visual Studio Online thr
 
     - *.live.com
 
-- You can otherwise remove the http://go.microsoft.com address from the approved list so that the proxy authentication dialog shows up for both the http://go.microsoft.com address and the server endpoints when Visual Studio is restarted.
+- You can otherwise remove the http://go.microsoft.com address from the allow list so that the proxy authentication dialog shows up for both the http://go.microsoft.com address and the server endpoints when Visual Studio is restarted.
 
 - OR
 
