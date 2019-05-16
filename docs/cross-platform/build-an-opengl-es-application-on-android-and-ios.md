@@ -151,6 +151,8 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 1. Choose your iOS device on the toolbar to run the app on your device attached to your Mac. If the app doesn't start, verify that the device gives permission for your deployed application to execute on the device. This permission can be set by going to **Settings** > **General** > **Device Management** on the device. Select your Developer App account, trust your account, and verify the app. Try to run the app again from Visual Studio.
 
+   ![iOS app on iOS device](../cross-platform/media/cppmdd_opengles_iosdevice.png "CPPMDD_OpenGLES_iOSDevice")
+   
    Once your app has started, you can set breakpoints and use the Visual Studio debugger to examine locals, see the call stack, and watch values.
 
    ![Debugger at breakpoint in iOS app](../cross-platform/media/cppmdd_opengles_iosdebug.png "CPPMDD_OpenGLES_iOSDebug")
