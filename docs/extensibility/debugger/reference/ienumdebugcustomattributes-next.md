@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugCustomAttributes::Next
 Retrieves a specified number of custom attributes in an enumeration sequence.
@@ -34,22 +37,22 @@ int Next(
 );
 ```
 
-#### Parameters
- `celt`
+## Parameters
+ `celt`\
 
  [in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
 
- `rgelt`
+ `rgelt`\
 
  [out] An array of [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md) objects to be filled in.
 
- `pceltFetched`
+ `pceltFetched`\
 
  [out] Returns the number of elements actually returned in `rgelt`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

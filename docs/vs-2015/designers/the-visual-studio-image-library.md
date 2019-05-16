@@ -28,4 +28,4 @@ The Visual Studio Image Library contains application images that appear in Micro
  The image library is divided into five categories: Common Elements, Actions, Annotations, Icons and Objects. Readme files are included in the PDF format for the Common Elements and Icon types. They contain information about how to use these images appropriately in your applications.
 
 ## See Also
- [Images, Bitmaps, and Metafiles](http://msdn.microsoft.com/library/7152b45b-a55c-49bc-8c78-ae002a844f71)
+ [Images, Bitmaps, and Metafiles](https://msdn.microsoft.com/library/7152b45b-a55c-49bc-8c78-ae002a844f71)

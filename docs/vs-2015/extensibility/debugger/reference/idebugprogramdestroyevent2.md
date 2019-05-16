@@ -25,7 +25,7 @@ IDebugProgramDestroyEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The DE or the custom port supplier implements this interface to report that a program has been terminated and is no longer available for debugging. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to access the `IDebugEvent2` interface.  
+ The DE or the custom port supplier implements this interface to report that a program has been terminated and is no longer available for debugging. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to access the `IDebugEvent2` interface.  
   
 ## Notes for Callers  
  The DE or the custom port supplier creates and sends this event object to report the termination of a program. The DE sends this event by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it attached to the program being debugged. The custom port supplier sends this event using the [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) interface.  

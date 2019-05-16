@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerDataProvider::GetNewObjectForVisualizer
 This method gets a new object for the visualizer. This method will always create a new object from the existing object.
@@ -30,8 +33,8 @@ int GetNewObjectForVisualizer(
 );
 ```
 
-#### Parameters
- `ppObject`
+## Parameters
+ `ppObject`\
 
  [out] The new object.
 
@@ -41,6 +44,6 @@ int GetNewObjectForVisualizer(
 ## Remarks
  `This method` re-evaluates the object it currently represents and returns the result as a new object. The existing object will be updated as a result of the evaluation.
 
-## See Also
+## See also
 - [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

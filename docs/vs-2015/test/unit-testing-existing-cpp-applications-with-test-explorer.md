@@ -152,7 +152,7 @@ We recommend that, before you change an existing application, you make sure that
    }  
    ```  
   
-   For more information, see [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c).  
+   For more information, see [Unit testing native code with Test Explorer](https://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c).  
   
 ## Run the tests  
   

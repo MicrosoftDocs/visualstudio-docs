@@ -20,7 +20,7 @@ The Visual Basic source code editor offers the following IntelliSense features:
   
 - Syntax tips  
   
-     Syntax tips display the syntax of the statement that you are typing. This is useful for statements such as [Declare](http://msdn.microsoft.com/library/d3f21fb0-b804-4c99-97ed-583b23894cf1).  
+     Syntax tips display the syntax of the statement that you are typing. This is useful for statements such as [Declare](https://msdn.microsoft.com/library/d3f21fb0-b804-4c99-97ed-583b23894cf1).  
   
 ## Automatic Completion  
   

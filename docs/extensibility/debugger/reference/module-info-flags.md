@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MODULE_INFO_FLAGS
 Specifies the state of symbols for a module.
@@ -31,8 +34,8 @@ public enum enum_MODULE_INFO_FLAGS {
 };
 ```
 
-## Members
- MIF_SYMBOLS_LOADED
+## Fields
+ `MIF_SYMBOLS_LOADED`\
  At least one set of symbols was loaded by the module (otherwise no symbols were loaded).
 
 ## Remarks
@@ -45,6 +48,6 @@ public enum enum_MODULE_INFO_FLAGS {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md)

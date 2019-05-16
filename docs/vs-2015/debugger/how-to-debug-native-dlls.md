@@ -28,7 +28,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  When you debug a DLL, you can start debugging from:  
   
@@ -38,7 +38,7 @@ manager: jillfra
   
 - The project used to create the DLL itself.  
   
-  If you have the project used to create the executable, start debugging from that project. You can then open a source file for the DLL and set breakpoints in that file, even though it is not a part of the project used to create the executable. For more information, see [Breakpoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
+  If you have the project used to create the executable, start debugging from that project. You can then open a source file for the DLL and set breakpoints in that file, even though it is not a part of the project used to create the executable. For more information, see [Breakpoints](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
   If you start debugging from the project that creates the DLL, you must specify the executable you want to use in debugging the DLL.  
   

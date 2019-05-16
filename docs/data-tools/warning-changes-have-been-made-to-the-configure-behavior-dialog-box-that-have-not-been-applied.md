@@ -23,5 +23,4 @@ The **Configure Behavior** dialog box enables you to configure `Insert`, `Update
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

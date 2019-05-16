@@ -39,7 +39,7 @@ You can find open source examples of VS SDK extensions on GitHub at [Visual Stud
 ## Included Support
 
 ### Visual Studio Product Support
- Some support is included with the purchase of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility.
+ Some support is included with the purchase of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility.
 
 ### MSDN Subscription Support
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).
@@ -61,4 +61,4 @@ Information about individual support requests can be found at [Individual Suppor
 
 ## See Also
 
-- [Talk to Us](../ide/talk-to-us.md)
+- [Talk to Us](../ide/feedback-options.md)

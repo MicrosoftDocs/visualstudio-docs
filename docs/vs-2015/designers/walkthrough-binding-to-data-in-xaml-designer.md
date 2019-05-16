@@ -15,7 +15,7 @@ manager: jillfra
 # Walkthrough: Binding to data in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dependencyproperty.aspx) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx) control.  
+In XAML Designer, you can set data binding properties by using the artboard and the Properties window. The example in this walkthrough shows how to bind data to a control. Specifically, the walkthrough shows how to create a simple shopping cart class that has a [DependencyProperty](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dependencyproperty.aspx) named `ItemCount`, and then bind the `ItemCount` property to the **Text** property of a [TextBlock](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx) control.  
   
 ### To create a class to use as a data source  
   
@@ -60,7 +60,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
     End Class  
     ```  
   
-     This code sets a value of 0 as the default item count by using the [PropertyMetadata](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.propertymetadata.aspx) object.  
+     This code sets a value of 0 as the default item count by using the [PropertyMetadata](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.propertymetadata.aspx) object.  
   
 5. On the **File** menu, choose **Build**, **Build Solution**.  
   
@@ -68,7 +68,7 @@ In XAML Designer, you can set data binding properties by using the artboard and 
   
 1. In Solution Explorer, open the shortcut menu for MainWindow.xaml and choose **View Designer**.  
   
-2. In the Toolbox, choose a [Grid](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) control and add it to the form.  
+2. In the Toolbox, choose a [Grid](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) control and add it to the form.  
   
 3. With the `Grid` selected, in the Properties window, choose the **New** button next to the **DataContext** property.  
   
@@ -94,4 +94,4 @@ In XAML Designer, you can set data binding properties by using the artboard and 
   
 ## See Also  
  [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)   
- [NIB: Add Value Converter dialog box](http://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)
+ [NIB: Add Value Converter dialog box](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)

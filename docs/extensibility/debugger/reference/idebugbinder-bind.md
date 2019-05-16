@@ -38,17 +38,14 @@ int Bind(
 ```
 
 ## Parameters
- `pContainer`\
+`pContainer`\
+[in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) that contains the child referenced by `pField`.
 
- [in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) that contains the child referenced by `pField`.
+`pField`\
+[in] The [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the symbol.
 
- `pField`\
-
- [in] The [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that represents the symbol.
-
- `ppObject`\
-
- [out] Returns the `IDebugObject` that represents the instance of the symbol.
+`ppObject`\
+[out] Returns the `IDebugObject` that represents the instance of the symbol.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

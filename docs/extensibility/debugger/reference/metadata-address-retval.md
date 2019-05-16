@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # METADATA_ADDRESS_RETVAL
 This structure represents a return value from a method or function.
@@ -36,17 +39,17 @@ public struct METADATA_ADDRESS_RETVAL {
 }
 ```
 
-## Terms
- tokMethod
+## Members
+ `tokMethod`\
  The ID of the method this return value is for.
 
- dwCorType
+ `dwCorType`\
  The base type of return value. This is a value from the `CorElementType` enumeration defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h file.
 
- dwSigSize
+ `dwSigSize`\
  The size of the return value signature (as stored in `rgSig`).
 
- rgSig
+ `rgSig`\
  An array of bytes forming the signature of the return value.
 
 ## Remarks
@@ -59,7 +62,7 @@ public struct METADATA_ADDRESS_RETVAL {
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
 - [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

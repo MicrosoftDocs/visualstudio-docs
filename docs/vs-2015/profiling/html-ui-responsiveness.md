@@ -318,7 +318,7 @@ if (performance.mark && performance.measure) {
   
 - **Image decoding.** Indicates time spent decompressing and decoding images.  
   
-  For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [Analyze JavaScript Function Timing data](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b).  
+  For the script and styling categories, the UI Responsiveness Profiler might provide data that you can act on in the timeline details graph. If you identify scripting issues as a problem, you can run the CPU Sampling profiler with the UI Responsiveness Profiler. Alternatively, you could use the Visual Studio function profiler to obtain more detailed data. For more info, see [Analyze JavaScript Function Timing data](https://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b).  
   
   For the other event categories, you might be able to identify platform side effects that result from adding features to your app, but in these cases you might not be able to resolve the particular performance issues by using the UI Responsiveness Profiler.  
   
@@ -352,9 +352,9 @@ if (performance.mark && performance.measure) {
   
 - Watch [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
   
-- Read performance tips for Windows Store apps built for Windows using JavaScript. For more info, see [Performance best practices for Windows Store apps using JavaScript](http://msdn.microsoft.com/library/windows/apps/hh465194.aspx).  
+- Read performance tips for Windows Store apps built for Windows using JavaScript. For more info, see [Performance best practices for Windows Store apps using JavaScript](https://msdn.microsoft.com/library/windows/apps/hh465194.aspx).  
   
-- For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
+- For info on the single-threaded code execution model and performance, see [Executing code](https://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
 ## See Also  
- [Analyze app performance](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)
+ [Analyze app performance](https://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)

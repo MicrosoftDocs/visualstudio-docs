@@ -19,11 +19,28 @@ If you're migrating from legacy "FxCop" static code analysis to Roslyn analyzers
 
 ## Use analyzer rule sets
 
-After you [install a NuGet analyzer package](install-roslyn-analyzers.md), locate the predefined rule set in its *rulesets* directory. For example, if you referenced the `Microsoft.CodeAnalysis.FxCopAnalyzers` analyzer package then you can find its rulesets directory at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets*. From there, you can drag and drop, or copy and paste, one or more of the rulesets to your Visual Studio project in **Solution Explorer**.
+After you [install a NuGet analyzer package](install-roslyn-analyzers.md), locate the predefined rule set in its *rulesets* directory. For example, if you referenced the `Microsoft.CodeAnalysis.FxCopAnalyzers` analyzer package, then you can find its *rulesets* directory at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets*. From there, copy one or more of the rulesets and paste them in the directory that contains your Visual Studio project or directly into **Solution Explorer**.
 
-To make a rule set the active rule set for analysis, right-click on the project in **Solution Explorer** and choose **Properties**. In the project property pages, select the **Code Analysis** tab. Under **Run this rule set**, select **Browse**, and then select the desired rule set that you copied to the project directory. Now you only see rule violations for those rules that are enabled in the selected rule set.
+You can also [customize a predefined rule set](how-to-create-a-custom-rule-set.md) to your preference. For example, you can change the severity of one or more rules so that violations appear as errors or warnings in the **Error List**.
 
-You can also [customize a predefined rule set](how-to-create-a-custom-rule-set.md#create-a-custom-rule-set) to your preference. For example, you can change the severity of one or more rules so that violations appear as errors or warnings in the **Error List**.
+## Set the active rule set
+
+The process for setting the active rule set is a little different depending on whether you have a .NET Core/.NET Standard project or a .NET Framework project.
+
+### .NET Core
+
+To make a rule set the active rule set for analysis in .NET Core or .NET Standard projects, manually add the **CodeAnalysisRuleSet** property to your project file. For example, the following code snippet sets `HelloWorld.ruleset` as the active rule set.
+
+```xml
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  ...
+  <CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+</PropertyGroup>
+```
+
+### .NET Framework
+
+To make a rule set the active rule set for analysis in .NET Framework projects, right-click on the project in **Solution Explorer** and choose **Properties**. In the project property pages, select the **Code Analysis** tab. Under **Run this rule set**, select **Browse**, and then select the desired rule set that you copied to the project directory. Now you only see rule violations for those rules that are enabled in the selected rule set.
 
 ## Available rule sets
 

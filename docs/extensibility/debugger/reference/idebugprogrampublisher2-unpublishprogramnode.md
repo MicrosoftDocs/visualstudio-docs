@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgramNode
 Removes a specified program node from availability to debug engines (DEs) and the session debug manager (SDM).
@@ -30,8 +33,8 @@ int UnpublishProgramNode(
 );
 ```
 
-#### Parameters
- `pProgramNode`
+## Parameters
+ `pProgramNode`\
 
  [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object representing the program node being removed.
 
@@ -43,7 +46,7 @@ int UnpublishProgramNode(
 
  To make a program node available, call the [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md) method.
 
-## See Also
+## See also
 - [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md)

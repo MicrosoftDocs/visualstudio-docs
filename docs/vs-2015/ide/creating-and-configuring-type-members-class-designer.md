@@ -47,7 +47,7 @@ You can add these members to types on a class diagram and configure those member
 |Module (VB Only)|method, property, field, event, constructor, constant|  
   
 > [!NOTE]
-> Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu, choose **Change Members Format**, **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7).  
+> Make property declaration more concise when a property's get and set accessors don't need additional logic by using auto-implemented properties (C# only). To show the full signature, from the **Class Diagram** menu, choose **Change Members Format**, **Display Full Signature**. For more information about auto-implemented properties, see [Auto-Implemented Properties](https://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7).  
   
 ## Common Tasks  
   
@@ -125,7 +125,7 @@ You can add these members to types on a class diagram and configure those member
      **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md).  
   
 ## <a name="ModifyTypeMembers"></a> Modifying Type Members  
- Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
+ Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](https://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  
   
  All the members displayed in the Class Details window represent the members of the types on the class diagram. There are four kinds of members: methods, properties, fields, and events.  
   
@@ -257,7 +257,7 @@ You can add these members to types on a class diagram and configure those member
   
  All cells in the Class Details window are editable with a few exceptions:  
   
-- The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
+- The entire type is read-only, when, for example, it resides in a referenced assembly (see [Display of Read-Only Information (Class Designer)](https://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) When you select the shape in the Class Designer, the Class Details window displays its details in a read-only state.  
   
 - For indexers, the name is read-only and the rest (type, modifier, summary) are editable.  
   

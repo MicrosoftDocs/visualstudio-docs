@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugThread2::GetThreadId
 Gets the system thread identifier.
@@ -30,8 +33,8 @@ int GetThreadId (
 );
 ```
 
-#### Parameters
-`pdwThreadId`
+## Parameters
+`pdwThreadId`\
 
  [out] Returns the system thread identifier.
 
@@ -51,5 +54,5 @@ HRESULT CProgram::GetThreadId(DWORD* pdwThreadId) {
 }
 ```
 
-## See Also
+## See also
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

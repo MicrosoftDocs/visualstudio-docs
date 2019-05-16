@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROCESS_INFO
 Contains information about a process.
@@ -47,31 +50,31 @@ public struct PROCESS_INFO { 
 ```
 
 ## Members
- Fields
+ `Fields`\
  A combination of flags from the [PROCESS_INFO_FIELDS](../../../extensibility/debugger/reference/process-info-fields.md) enumeration that specify which fields are filled out.
 
- bstrFileName
+ `bstrFileName`\
  The full path name of the process. Equivalent to calling the [GetName](../../../extensibility/debugger/reference/idebugprocess2-getname.md) method with the parameter `GN_FILENAME`.
 
- bstrBaseName
+ `bstrBaseName`\
  The file name and extension of the process. Equivalent to calling the `IDebugProcess2::Getname` method with the parameter `GN_BASENAME`.
 
- bstrTitle
+ `bstrTitle`\
  The title of the process, if one exists. Equivalent to calling the `IDebugProcess2::Getname` method with the parameter `GN_TITLE`.
 
- ProcessId
+ `ProcessId`\
  The [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that identifies the process. Equivalent to calling the [GetPhysicalProcessId](../../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md) method.
 
- dwSessionId
+ `dwSessionId`\
  The identifier of the debug session that this process is running in.
 
- bstrAttachedSessionName
+ `bstrAttachedSessionName`\
  The attached session name. Equivalent to calling the [GetAttachedSessionName](../../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md) method.
 
- CreationTime
+ `CreationTime`\
  The time the process was created.
 
- Flags
+ `Flags`\
  A combination of flags from the [PROCESS_INFO_FLAGS](../../../extensibility/debugger/reference/process-info-flags.md) enumeration that specify properties of the process.
 
 ## Remarks
@@ -84,7 +87,7 @@ public struct PROCESS_INFO { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PROCESS_INFO_FIELDS](../../../extensibility/debugger/reference/process-info-fields.md)
 - [PROCESS_INFO_FLAGS](../../../extensibility/debugger/reference/process-info-flags.md)

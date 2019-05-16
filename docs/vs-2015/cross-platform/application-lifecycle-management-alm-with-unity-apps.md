@@ -20,7 +20,7 @@ Developing apps for modern platforms involves many more activities than just wri
  The tables below identifies how Visual Studio ALM features apply or don’t apply when working with Unity. Refer to the linked documentation for details on the features themselves.  
   
 ## Agile tools  
- Reference link: **[Work](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)** (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)  
+ Reference link: **[Work](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)** (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)  
   
  General Comment: all planning and tracking features are independent of project type and coding languages.  
   
@@ -52,9 +52,9 @@ Developing apps for modern platforms involves many more activities than just wri
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
-|[Use Team Foundation Version Control](http://msdn.microsoft.com/library/1d629052-c65d-4c5d-81eb-eaa4413fe285) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|  
-|[Getting started with Git in Team Services](http://msdn.microsoft.com/library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|Yes|See notes after the table.|  
-|[Code analysis/Improve code quality (references, suggested changes, etc.)](http://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|Yes||  
+|[Use Team Foundation Version Control](https://msdn.microsoft.com/library/1d629052-c65d-4c5d-81eb-eaa4413fe285) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|  
+|[Getting started with Git in Team Services](https://msdn.microsoft.com/library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|Yes|See notes after the table.|  
+|[Code analysis/Improve code quality (references, suggested changes, etc.)](https://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|Yes||  
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||  
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||  
   
@@ -67,18 +67,18 @@ Developing apps for modern platforms involves many more activities than just wri
 3. Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don’t need to be versioned along with source code changes. Developers also typically set the project editor’s Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).  
   
 ## Build  
- Reference link: **[Build](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
+ Reference link: **[Build](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
 |On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|  
-|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build server](http://msdn.microsoft.com/library/2d258a0a-f178-4e93-9da1-eba61151af3c) for instructions.|  
+|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build server](https://msdn.microsoft.com/library/2d258a0a-f178-4e93-9da1-eba61151af3c) for instructions.|  
 |Hosted controller service of Visual Studio Team Services|No|Unity builds are not presently supported.|  
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
   
 ## Testing  
- Reference link: **[Testing the application](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)**  
+ Reference link: **[Testing the application](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
@@ -90,12 +90,12 @@ Developing apps for modern platforms involves many more activities than just wri
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app’s UI; Unity apps are graphical in nature and so content isn’t readable by the Coded UI test tools.|  
   
 ## Improve code quality  
- Reference link: **[Improve Code Quality](http://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
+ Reference link: **[Improve Code Quality](https://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
 |[Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes|Can analyze the C# script code within Visual Studio.|  
-|[Finding Duplicate Code by using Code Clone Detection](http://msdn.microsoft.com/library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes|Can analyze the C# script code within Visual Studio.|  
+|[Finding Duplicate Code by using Code Clone Detection](https://msdn.microsoft.com/library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes|Can analyze the C# script code within Visual Studio.|  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes|Can analyze the C# script code within Visual Studio.|  
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity website).|  
 |[Analyze .NET Framework memory issues](../misc/analyze-dotnet-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|  

@@ -11,6 +11,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 Retrieves information about the method at the specified debug address.
@@ -41,37 +44,37 @@ int GetMethodFromAddress(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+ `pAddress`\
 
  [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- `pGuid`
+ `pGuid`\
 
  [out] Unique identifier of the module.
 
- `pAppID`
+ `pAppID`\
 
  [out] Identifier of the application domain.
 
- `pTokenClass`
+ `pTokenClass`\
 
  [out] Token that represents the containing class.
 
- `pTokenMethod`
+ `pTokenMethod`\
 
  [out] Token that represents the module.
 
- `pdwOffset`
+ `pdwOffset`\
 
  [out] An offset in bytes from the start of the `pAddress` parameter.
 
- `pdwVersion`
+ `pdwVersion`\
 
  [out] Version number of the method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

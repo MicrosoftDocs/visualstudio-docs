@@ -50,7 +50,7 @@ To edit the active rule set in the rule set editor, right-click on the **Referen
 To change the active rule set for a project, navigate to the **Code Analysis** tab of a project's properties. Select the rule set from the list under **Run this rule set**. To open the rule set, select **Open**.
 
 > [!NOTE]
-> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property to the project file](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project). You can configure the rules within the rule set in the Visual Studio rule set editor UI.
+> .NET Core and .NET Standard projects do not support the menu commands for rule sets in **Solution Explorer**, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the Visual Studio rule set editor UI.
 
 ## Rule severity
 

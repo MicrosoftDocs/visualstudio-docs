@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugReference2::GetMemoryBytes
 Gets the memory bytes that physically contain the value of a reference. Reserved for future use.
@@ -30,14 +33,14 @@ int GetMemoryBytes ( 
 );
 ```
 
-#### Parameters
- `ppMemoryBytes`
+## Parameters
+ `ppMemoryBytes`\
 
  [out] Returns an [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object that can be used to retrieve the memory that contains the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
 
-## See Also
+## See also
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
 - [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

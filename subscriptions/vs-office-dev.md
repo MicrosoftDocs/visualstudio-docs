@@ -62,7 +62,7 @@ To learn more about the Office 365 Developer subscription, check out the [Office
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included      |  Yes          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                            |NA         |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Dev Essentials | NA  | Not available |NA |

@@ -26,7 +26,7 @@ This code generation applies to:
 
 1. Copy code from a file and paste it into a new one without including the necessary `using` statements. The resulting error is accompanied by a code fix that adds the missing `using` statements.
 
-    > [!NOTE] 
+    > [!NOTE]
     > You need to enable this suggestion in **Tools > Options > Text Editor > C# > Advanced > Using Directives**.
 
 2. Select Ctrl+. to open the **Quick Actions and Refactorings** menu.
@@ -41,4 +41,4 @@ This code generation applies to:
 
 - [Code generation](../code-generation-in-visual-studio.md)
 - [Preview Changes](../../ide/preview-changes.md)
-- [Tips for .NET developers](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [Tips for .NET developers](../csharp-developer-productivity.md)

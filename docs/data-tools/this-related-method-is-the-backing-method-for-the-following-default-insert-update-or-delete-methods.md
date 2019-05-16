@@ -27,5 +27,4 @@ The selected `DataContext` method is currently used as one of the `Insert`, `Upd
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

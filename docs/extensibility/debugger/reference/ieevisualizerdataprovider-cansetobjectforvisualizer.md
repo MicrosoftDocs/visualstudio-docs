@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 This method determines whether the visualizer can have the data object it represents updated.
@@ -30,8 +33,8 @@ int CanSetObjectForVisualizer(
 );
 ```
 
-#### Parameters
- `b`
+## Parameters
+ `b`\
 
  [out] Nonzero (`TRUE`) if the object on the visualizer can be updated, zero (`FALSE`) if it cannot.
 
@@ -41,5 +44,5 @@ int CanSetObjectForVisualizer(
 ## Remarks
  An object might not be changeable if it is bound to read-only memory, for example.
 
-## See Also
+## See also
 - [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)

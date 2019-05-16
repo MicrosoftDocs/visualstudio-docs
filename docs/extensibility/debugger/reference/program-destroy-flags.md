@@ -10,6 +10,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # PROGRAM_DESTROY_FLAGS
 Enumerates the valid values of the program destroy flags.
@@ -31,7 +34,7 @@ public enum enum_PPROGRAM_DESTROY_FLAGS
 };
 ```
 
-## Terms
+## Fields
  PROGRAM_DESTROY_CONTINUE_DEBUGGING
  Destroy program, but continue to debug.
 
@@ -45,6 +48,6 @@ public enum enum_PPROGRAM_DESTROY_FLAGS
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md)

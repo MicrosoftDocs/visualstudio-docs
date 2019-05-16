@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugStackFrame2::GetThread
 Gets the thread associated with a stack frame.
@@ -30,14 +33,14 @@ int GetThread ( 
 );
 ```
 
-#### Parameters
- `ppThread`
+## Parameters
+ `ppThread`\
 
  [out] Returns an [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

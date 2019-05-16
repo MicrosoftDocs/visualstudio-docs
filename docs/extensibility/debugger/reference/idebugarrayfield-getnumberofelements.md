@@ -34,9 +34,8 @@ int GetNumberOfElements(
 ```
 
 ## Parameters
- `pdwNumElements`\
-
- [out] Returns the number of elements in the array.
+`pdwNumElements`\
+[out] Returns the number of elements in the array.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

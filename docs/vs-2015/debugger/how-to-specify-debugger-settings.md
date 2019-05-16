@@ -43,6 +43,6 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify various setting
   
 ## See Also  
  [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Common Macros for Build Commands and Properties](http://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b)
+ [Common Macros for Build Commands and Properties](https://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b)

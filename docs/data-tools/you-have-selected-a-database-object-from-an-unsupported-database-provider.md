@@ -24,5 +24,4 @@ The **O/R Designer** supports only the .NET Framework Data Provider for SQL Serv
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

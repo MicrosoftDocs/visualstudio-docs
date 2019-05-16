@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # MACHINE_INFO_FLAGS
 Used to describe a machine.
@@ -31,8 +34,8 @@ public enum enum_MACHINE_INFO_FLAGS { 
 };
 ```
 
-## Members
- MCIFLAG_TERMINAL_SERVICES_AVAILABLE
+## Fields
+ `MCIFLAG_TERMINAL_SERVICES_AVAILABLE`\
  Indicates that terminal services are available.
 
 ## Remarks
@@ -45,6 +48,6 @@ public enum enum_MACHINE_INFO_FLAGS { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md)

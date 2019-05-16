@@ -34,9 +34,8 @@ int GetName(
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Name of the alias.
+`pbstrName`\
+[out] Name of the alias.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

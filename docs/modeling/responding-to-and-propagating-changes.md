@@ -10,11 +10,13 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Responding to and Propagating Changes
+# Respond to and propagate changes
+
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.
 
-## In This Section
- As a guideline, consider these techniques in the following order:
+## Reference
+
+As a guideline, consider these techniques in the following order:
 
 |Technique|Scenarios|For more information|
 |-|-|-|
@@ -28,12 +30,13 @@ When an element is created, deleted or updated, you can write code that propagat
 |Selection rules|Selection rules specifically constrain what the user can select.|[How to: Access and Constrain the Current Selection](../modeling/how-to-access-and-constrain-the-current-selection.md)|
 |OnAssocatedPropertyChanged|Indicate the model elements' states using features of shapes and connectors such as shadow, arrowheads, color, and line widths and style.|[Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)|
 
-## **Comparing Rules and Store Events**
- Change notifiers, rules, and events are run when changes occur in a model.
+## Compare rules and store events
 
- Rules are usually applied at the end transaction in which the change has occurred, and events are applied after changes in a transaction are committed.
+Change notifiers, rules, and events are run when changes occur in a model.
 
- Use store events to synchronize the model with objects outside the Store, and rules to maintain consistency within the Store.
+Rules are usually applied at the end transaction in which the change has occurred, and events are applied after changes in a transaction are committed.
+
+Use store events to synchronize the model with objects outside the Store, and rules to maintain consistency within the Store.
 
 - **Creating Custom Rules** You create a custom rule as a derived class from an abstract rule. You must also notify the framework about the custom rule. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).
 
@@ -43,7 +46,7 @@ When an element is created, deleted or updated, you can write code that propagat
 
 - **Passing Event Arguments to Rules and Events** Both events and rules are passed an `EventArgs` parameter that has information about how the model changed.
 
-## See Also
+## See also
 
 - [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)
 - [Writing Code to Customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

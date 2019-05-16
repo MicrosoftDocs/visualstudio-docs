@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
 This method creates an enumerator for namespaces associated with the debug address.
@@ -32,12 +35,12 @@ int GetNamespacesUsedAtAddress(
 );
 ```
 
-#### Parameters
- `pAddress`
+## Parameters
+ `pAddress`\
 
  [in] The debug address.
 
- `ppEnum`
+ `ppEnum`\
 
  [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
 
@@ -47,6 +50,6 @@ int GetNamespacesUsedAtAddress(
 ## Remarks
  There may be several namespaces associated with a given debug address, for example, nested namespaces or multiple `using` statements.
 
-## See Also
+## See also
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

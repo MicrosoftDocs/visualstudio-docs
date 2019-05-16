@@ -60,4 +60,4 @@ manager: "wpickett"
  [CA1003: Use generic event handler instances](../code-quality/ca1003-use-generic-event-handler-instances.md)
 
 ## See Also
- [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)
+ [Generics](https://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)

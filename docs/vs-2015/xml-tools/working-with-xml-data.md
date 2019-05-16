@@ -52,10 +52,10 @@ XML and its related technologies play a large role in the way data is handled in
  [Debugging XSLT](../xml-tools/debugging-xslt.md)  
  Discusses how to debug style sheets using the Visual Studio debugger.  
   
- [XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ [XML Standards Reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.
   
- [XML Web Services in Managed Code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
+ [XML Web Services in Managed Code](https://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
  Discusses how to create and deploy XML Web services and how to access XML Web services.  
   
 ## See Also  

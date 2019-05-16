@@ -1,0 +1,17 @@
+- name: Python
+# Auto-expanded node
+  items:
+  - name: Python
+    href: getting-started-with-python.md
+  - name: Setting up Visual Studio
+    href: getting-started-with-ptvs-setting-up-visual-studio.md
+  - name: Start Coding (Projects)
+    href: getting-started-with-ptvs-start-coding-projects.md
+  - name: Editing Code
+    href: getting-started-with-ptvs-editing-code.md
+  - name: Debugging
+    href: getting-started-with-ptvs-debugging.md
+  - name: Interactive Python
+    href: getting-started-with-ptvs-interactive-python.md
+  - name: Building a Website in Azure
+    href: getting-started-with-ptvs-building-a-website-in-azure.md

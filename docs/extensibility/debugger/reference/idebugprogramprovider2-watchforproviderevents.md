@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramProvider2::WatchForProviderEvents
 Allows the process to be notified of port events.
@@ -40,8 +43,8 @@ int WatchForProviderEvents(
 );
 ```
 
-#### Parameters
- `Flags`
+## Parameters
+ `Flags`\
 
  [in] A combination of flags from the [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) enumeration. The following flags are typical for this call:
 
@@ -52,23 +55,23 @@ int WatchForProviderEvents(
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|Caller was attached to but not launched by the debugger.|
 |`PFLAG_REASON_WATCH`|Caller wants to watch for events. If this flag is not set. then the callback event is removed and the caller no longer receives notifications.|
 
- `pPort`
+ `pPort`\
 
  [in] The port the calling process is running on.
 
- `processId`
+ `processId`\
 
  [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure holding the ID of the process that contains the program in question.
 
- `EngineFilter`
+ `EngineFilter`\
 
  [in] An array of GUIDs of debug engines associated with the process.
 
- `guidLaunchingEngine`
+ `guidLaunchingEngine`\
 
  [in] GUID of the debug engine that launched this process (if any).
 
- `pEventCallback`
+ `pEventCallback`\
 
  [in] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object that receives the event notifications.
 
@@ -207,7 +210,7 @@ STDMETHODIMP CDebugEngine::WatchForProviderEvents(
 }
 ```
 
-## See Also
+## See also
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
 - [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

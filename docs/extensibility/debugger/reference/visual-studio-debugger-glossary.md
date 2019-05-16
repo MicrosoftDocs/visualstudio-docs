@@ -78,5 +78,5 @@ The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/incl
   warning breakpoint
   An abstraction for describing a warning in a pending breakpoint. A warning breakpoint describes a reason why the pending breakpoint has not yet bound to a code location. This may be that the code has not loaded yet for the location described by the pending breakpoint, or for some other reason.
 
-## See Also
+## See also
 - [Visual Studio Debugger Extensibility](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

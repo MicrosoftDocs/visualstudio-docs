@@ -84,5 +84,5 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
 ## See Also  
  [Managed VSPackages](../../misc/managed-vspackages.md)   
  [Managing VSPackages](../../extensibility/managing-vspackages.md)   
- [Localized Resources in MFC Applications: Satellite DLLs](http://msdn.microsoft.com/library/3a1100ae-a9c8-47b5-adbd-cbedef5992ef)   
+ [Localized Resources in MFC Applications: Satellite DLLs](https://msdn.microsoft.com/library/3a1100ae-a9c8-47b5-adbd-cbedef5992ef)   
  [Managed VSPackages](../../misc/managed-vspackages.md)

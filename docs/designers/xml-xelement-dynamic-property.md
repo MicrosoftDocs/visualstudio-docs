@@ -31,5 +31,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString(System.X
 
 ## See also
 
-- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/attribute-xelement-dynamic-property.md)
 - [Value](../designers/value-xelement-dynamic-property.md)
