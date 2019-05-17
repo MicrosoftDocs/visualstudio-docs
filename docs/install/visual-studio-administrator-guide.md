@@ -24,23 +24,9 @@ In enterprise environments, it's common for system administrators to deploy inst
 
 ## Before you begin
 
-Before you deploy Visual Studio across your organization, consider the following tasks.
+Before you deploy Visual Studio across your organization, there are a few decisions to make and tasks to complete:
 
-::: moniker range="vs-2017"
-
-* Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/).
-
-* Decide on your servicing needs.
-
-  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page.
-
-  If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits. 
-
-* Decide on the update model
- 
-  Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. 
-
-::: moniker-end
+::: moniker range="vs-2019"
 
 * Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements/).
 
@@ -54,43 +40,66 @@ Before you deploy Visual Studio across your organization, consider the following
  
   Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically. 
 
-* Decide which [workloads and components](workload-and-component-ids.md) your company needs.
+* Decide which [workloads and components](workload-and-component-ids.md?view=vs-2019) your company needs.
  
-* Decide whether to use a [response file]((automated-installation-with-response-file.md)) (that simplifies managing details in the script file)
+* Decide whether to use a [response file]((automated-installation-with-response-file.md?view=vs-2019)) (that simplifies managing details in the script file)
  
 * Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
-::: moniker range="vs-2019"
-
-## Deploy Visual Studio in an enterprise environment
+::: moniker-end
 
 ::: moniker range="vs-2017"
 
-You can deploy Visual Studio to client workstations as long as each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+* Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/).
+
+* Decide on your servicing needs.
+
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) page.
+
+  If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits. 
+
+* Decide on the update model
+ 
+  Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
+
+* Decide which [workloads and components](workload-and-component-ids.md?view=vs-2017) your company needs.
+ 
+* Decide whether to use a [response file]((automated-installation-with-response-file.md?view=vs-2017)) (that simplifies managing details in the script file)
+ 
+* Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-You can deploy Visual Studio to client workstations as long as each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements/). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+## Step 1 - Download Visual Studio product files
 
-::: moniker-end
+[Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md?view=vs-2019) to a network location.
 
-1. [Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md) to a network location.
 
-2. [Select the workloads and components](workload-and-component-ids.md) you want to install.
 
-3. [Create a response file](automated-installation-with-response-file.md) that contains default installation options. Or alternatively, [build an installation script](use-command-line-parameters-to-install-visual-studio.md) that uses command-line parameters to control the installation.
+2. [Select the workloads and components](workload-and-component-ids.md?view=vs-2019) you want to install.
 
-4. Optionally, [apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md) as part of the installation script so that users don't need to activate the software separately.
+3. [Create a response file](automated-installation-with-response-file.md?view=vs-2019) that contains default installation options. Or alternatively, [build an installation script](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) that uses command-line parameters to control the installation.
 
-5. Update the network layout to [control when product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md).
+4. Optionally, [apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2019) as part of the installation script so that users don't need to activate the software separately.
 
-6. Optionally, set registry keys to [control what is cached on client workstations](set-defaults-for-enterprise-deployments.md).
+5. Update the network layout to [control when product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2019).
+
+6. Optionally, set registry keys to [control what is cached on client workstations](set-defaults-for-enterprise-deployments.md?view=vs-2019).
 
 7. Use your deployment technology of choice to execute the script generated in the previous steps on your target developer workstations.
 
-8. [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
+8. [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2019) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+[Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md?view=vs-2017) to a network location.
+
+::: moniker-end
+
+
 
 > [!IMPORTANT]
 > Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio clients running in your organization.
