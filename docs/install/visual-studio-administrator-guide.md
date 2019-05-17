@@ -2,7 +2,7 @@
 title: "Visual Studio administrator guide"
 titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
-ms.date: 04/02/2019
+ms.date: 05/22/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
