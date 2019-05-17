@@ -34,7 +34,7 @@ This rule attempts to find an exception message, stack trace, or string represen
 > This rule can't track data across assemblies. For example, if one assembly catches an exception and then passes it to another assembly that outputs the exception, this rule won't produce a warning.
 
 > [!NOTE]
-> There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in `.editorconfig` files.
+> There is a configurable limit to how deep this rule will analyze data flow across method calls. See [Analyzer Configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) for how to configure the limit in an EditorConfig file.
 
 ## How to fix violations
 
@@ -71,7 +71,7 @@ public partial class WebForm : System.Web.UI.Page
 ```vb
 Imports System
 
-Partial Public Class WebForm 
+Partial Public Class WebForm
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(sender As Object, eventArgs As EventArgs)
@@ -110,7 +110,7 @@ public partial class WebForm : System.Web.UI.Page
 ```vb
 Imports System
 
-Partial Public Class WebForm 
+Partial Public Class WebForm
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(sender As Object, eventArgs As EventArgs)
