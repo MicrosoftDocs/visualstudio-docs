@@ -16,10 +16,10 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
-  - name: Accounts
+  - name: Personalization accounts
     items:
     - name: Sign in to Visual Studio
-      displayName: peronalization accounts
+      displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
     - name: Work with multiple user accounts
       href: ide/work-with-multiple-user-accounts.md
@@ -43,8 +43,6 @@
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
     href: install/modify-visual-studio.md
-  - name: Install Help Viewer
-    href: help-viewer/installation.md
   - name: Repair Visual Studio
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
@@ -138,6 +136,8 @@
       href: install/advanced-build-tools-container.md
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
+  - name: Install Help Viewer
+    href: help-viewer/installation.md      
 - name: Quickstarts
   items:
   - name: Visual Studio orientation
