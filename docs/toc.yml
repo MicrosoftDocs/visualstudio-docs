@@ -51,7 +51,7 @@
     href: install/uninstall-visual-studio.md
   - name: Visual Studio administrator guide
     items:
-    - name: Administrator guide
+    - name: Overview
       href: install/visual-studio-administrator-guide.md
     - name: Use the command line
       items:
