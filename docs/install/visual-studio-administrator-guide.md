@@ -20,7 +20,9 @@ ms.technology: vs-installation
 ---
 # Visual Studio administrator guide
 
-In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
+In enterprise environments, system administrators typically deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment by giving system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. 
+
+This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
 ## Before you begin
 
@@ -42,7 +44,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide which [workloads and components](workload-and-component-ids.md?view=vs-2019) your company needs.
 
-* Decide whether to use a [response file]((automated-installation-with-response-file.md?view=vs-2019)) (that simplifies managing details in the script file)
+* Decide whether to use a [response file](automated-installation-with-response-file.md?view=vs-2019) (that simplifies managing details in the script file).
 
 * Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
@@ -64,7 +66,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide which [workloads and components](workload-and-component-ids.md?view=vs-2017) your company needs.
 
-* Decide whether to use a [response file]((automated-installation-with-response-file.md?view=vs-2017)) (that simplifies managing details in the script file)
+* Decide whether to use a [response file](automated-installation-with-response-file.md?view=vs-2017) (that simplifies managing details in the script file).
 
 * Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
@@ -74,13 +76,13 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 ## Step 1 - Download Visual Studio product files
 
-* [Select the workloads and components](docs\install\workload-and-component-ids.md?view=vs-2019) that you want to install.
+* [Select the workloads and components](workload-and-component-ids.md?view=vs-2019) that you want to install.
 
 * [Create a network share for the Visual Studio product files](create-a-network-installation-of-visual-studio.md?view=vs-2019).
 
 ## Step 2 - Build an installation script
 
-* Build an installation script that uses [command-line parameters](docs\install\use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) to control the installation.
+* Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) to control the installation.
 
   >![NOTE]
   > You can simplify scripts by using a [response file](automated-installation-with-response-file.md?view=vs-2019). Make sure to create a response file that contains your default installation option.
@@ -113,7 +115,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2019) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
-  You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) command-line parameter .
+  You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) command-line parameter.
 
 ## Step 5 - (Optional) Use Visual Studio tools
 
@@ -128,13 +130,13 @@ We have several tools available to help you [detect and manage installed Visual 
 
 ## Step 1 - Download Visual Studio product files
 
-* [Select the workloads and components](docs\install\workload-and-component-ids.md?view=vs-2017) that you want to install.
+* [Select the workloads and components](workload-and-component-ids.md?view=vs-2017) that you want to install.
 
 * [Create a network share for the Visual Studio product files](create-a-network-installation-of-visual-studio.md?view=vs-2017).
 
 ## Step 2 - Build an installation script
 
-* Build an installation script that uses [command-line parameters](docs\install\use-command-line-parameters-to-install-visual-studio.md?view=vs-2017) to control the installation.
+* Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md?view=vs-2017) to control the installation.
 
   >![NOTE]
   > You can simplify scripts by using a [response file](automated-installation-with-response-file.md?view=vs-2017). Make sure to create a response file that contains your default installation option.
@@ -167,7 +169,7 @@ We have several tools available to help you [detect and manage installed Visual 
 
 * [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2017) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
 
-  You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) command-line parameter .
+  You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) command-line parameter.
 
 ## Step 5 - (Optional) Use Visual Studio tools
 
