@@ -20,7 +20,7 @@ ms.technology: vs-installation
 ---
 # Visual Studio administrator guide
 
-In enterprise environments, system administrators typically deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment by giving system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. 
+In enterprise environments, system administrators typically deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment by giving system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout.
 
 This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
@@ -38,7 +38,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
   If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
-* Decide on the update model
+* Decide on the update model.
 
   Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
 
@@ -60,7 +60,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
   If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
-* Decide on the update model
+* Decide on the update model.
 
   Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
 
@@ -84,7 +84,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019) to control the installation.
 
-  >![NOTE]
+  >[!NOTE]
   > You can simplify scripts by using a [response file](automated-installation-with-response-file.md?view=vs-2019). Make sure to create a response file that contains your default installation option.
 
 * (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2019) as part of the installation script so that users don't need to activate the software separately.
@@ -93,19 +93,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * (Optional) Set registry policies that affect the deployment of Visual Studio such as where some packages shared with other versions or instances are installed, [where packages are cached](set-defaults-for-enterprise-deployments.md?view=vs-2019) or [whether packages are cached](disable-or-move-the-package-cache.md?view=vs-2019).
 
-* (Optional) Set Group Policy. You can also configure Visual Studio to disable customer feedback on individual computers.
-
-    To disable customer feedback on individual computers, set a registry-based policy on the following key:
-
-    **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
-
-    Entry = **OptIn**
-
-    Value = (DWORD)
-    * **0** is opted out
-    * **1** is opted in
-
-   For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
+* (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
 
 ## Step 3 - Deploy
 
@@ -121,9 +109,6 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2019) on client machines.
 
-> [!TIP]
-> In addition to the documentation in this administrator's guide, a good source of information on Visual Studio setup is the [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/).
-
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -138,7 +123,7 @@ We have several tools available to help you [detect and manage installed Visual 
 
 * Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md?view=vs-2017) to control the installation.
 
-  >![NOTE]
+  >[!NOTE]
   > You can simplify scripts by using a [response file](automated-installation-with-response-file.md?view=vs-2017). Make sure to create a response file that contains your default installation option.
 
 * (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2017) as part of the installation script so that users don't need to activate the software separately.
@@ -147,19 +132,7 @@ We have several tools available to help you [detect and manage installed Visual 
 
 * (Optional) Set registry policies that affect the deployment of Visual Studio such as where some packages shared with other versions or instances are installed, [where packages are cached](set-defaults-for-enterprise-deployments.md?view=vs-2019) or [whether packages are cached](disable-or-move-the-package-cache.md?view=vs-2017).
 
-* (Optional) Set Group Policy. You can also configure Visual Studio to disable customer feedback on individual computers.
-
-    To disable customer feedback on individual computers, set a registry-based policy on the following key:
-
-    **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
-
-    Entry = **OptIn**
-
-    Value = (DWORD)
-    * **0** is opted out
-    * **1** is opted in
-
-   For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
+* (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
 
 ## Step 3 - Deploy
 
@@ -175,9 +148,6 @@ We have several tools available to help you [detect and manage installed Visual 
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2017) on client machines.
 
-> [!TIP]
-> In addition to the documentation in this administrator's guide, a good source of information on Visual Studio setup is the [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/).
-
 ::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
@@ -186,4 +156,5 @@ We have several tools available to help you [detect and manage installed Visual 
 
 * [Command-line parameter examples](command-line-parameter-examples.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
+* [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
