@@ -156,5 +156,6 @@ We have several tools available to help you [detect and manage installed Visual 
 
 * [Command-line parameter examples](command-line-parameter-examples.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
+* [Import or export installation configurations](import-export-installation-configurations.md)
 * [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
