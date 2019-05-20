@@ -1,6 +1,6 @@
 ---
 title: "Use the Microsoft Unit Testing Framework for C++"
-ms.date: 05/01/2019
+ms.date: 05/20/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: markl
@@ -24,16 +24,16 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
    1. In **Solution Explorer**, right-click on project node for the program you are testing, then choose **Properties** > **Configuration Properties** > **VC++ Directories**.
 
-   2. Click on the down arrow in the following rows and choose **\<Edit>** :
+   2. Click on the down arrow in the following rows and choose **\<Edit>**. Add these paths:
 
       | Directory | Property |
       |-| - |
-      | **Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
-      | **Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
+      | **Include Directories** | **$(VCInstallDir)Auxiliary\VS\UnitTest\include** |
+      | **Library Directories** | **$(VCInstallDir)Auxiliary\VS\UnitTest\lib** |
 
 2. Add a C++ Unit Test file:
 
-   - Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Unit Test**.
+   - Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ File (.cpp)**.
 
 ## Write the tests
 
