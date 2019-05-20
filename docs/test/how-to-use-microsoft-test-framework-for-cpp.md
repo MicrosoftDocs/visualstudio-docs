@@ -33,7 +33,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
 2. Add a C++ Unit Test file:
 
-   - Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Source File**.
+   - Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ File (.cpp)**.
 
 ## Write the tests
 
