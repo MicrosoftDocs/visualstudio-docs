@@ -396,6 +396,8 @@
         href: ca1505-avoid-unmaintainable-code.md
       - name: "CA1506: Avoid excessive class coupling"
         href: ca1506-avoid-excessive-class-coupling.md
+      - name: "CA1507: Use nameof in place of string"
+        href: ca1507.md
     - name: Mobility warnings
 # Auto-expanded node
       items:
