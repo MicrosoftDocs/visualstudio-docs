@@ -17,9 +17,7 @@ ms.workload:
 ---
 # Reliability warnings
 
-Reliability warnings support library and application reliability, such as correct memory and thread usage.
-
-## In This Section
+Reliability warnings support library and application reliability, such as correct memory and thread usage. The reliability rules include:
 
 |Rule|Description|
 |----------|-----------------|
