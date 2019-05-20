@@ -11,7 +11,7 @@ searchscope: VS Subscription
 
 # The Office 365 Developer subscription benefit in Visual Studio subscriptions
 
-Subscribers with selected Visual Studio Enterprise subscriptions receive the Office 365 Developer Subscription benefit.  The Office 365 Developer Subscription allows you to develop, test, and deploy add-ins for Microsoft Office and Microsoft SharePoint.  This benefit allows for one tenant and up to 25 users.
+Subscribers with selected Visual Studio subscriptions receive the Office 365 Developer Subscription benefit.  The Office 365 Developer Subscription allows you to develop, test, and deploy add-ins for Microsoft Office and Microsoft SharePoint.  This benefit allows for one tenant and up to 25 users.
 
 ## Activation steps
 
