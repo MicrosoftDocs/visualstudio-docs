@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 04/23/2019
+ms.date: 05/22/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.0 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.1 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
@@ -57,7 +57,7 @@ Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action y
 
 ### IntelliCode
 
-[Visual Studio IntelliCode](/visualstudio/intellicode/) is an extension that enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
+[Visual Studio IntelliCode](/visualstudio/intellicode/) enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
  ![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
 
@@ -68,11 +68,11 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
 
-We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
+We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, **new in 16.1**, we've added support for C# and XAML "in-the-box". (Support for C++ and TypeScript/JavaScript are still in preview, however.)
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post.
+For more information about IntelliCode, see the [Announcing the general availability of IntelliCode plus a sneak peek](https://devblogs.microsoft.com/visualstudio/announcing-the-general-availability-of-intellicode-plus-a-sneak-peek/) and [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog posts.
 
 ### Code cleanup
 
@@ -85,6 +85,16 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
    ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
+
+### Per-monitor aware (PMA) rendering
+
+If you use monitors that are configured with different display scale factors, or connect remotely to a machine with display scale factors that are different from your main device, you might notice that Visual Studio looks blurry or renders at the wrong scale.
+
+With the release of Visual Studio 2019, we're making Visual Studio a per-monitor aware (PMA) application. Now, Visual Studio renders correctly regardless of the display scale factors you use.
+
+   ![Per-monitor aware (PMA) rendering in Visual Studio 2019](media/vs-2019/pma-dpi-scaling.png)
+
+For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
 ## Collaborate
 
@@ -122,7 +132,7 @@ We're introducing a new extension that you can download to use with Visual Studi
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
-To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
+For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post.
 
 ## Debug
 
@@ -182,4 +192,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)
+* [Microsoft Build 2019 conference](https://www.microsoft.com/build)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
