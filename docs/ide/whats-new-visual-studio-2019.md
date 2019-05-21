@@ -68,11 +68,11 @@ Here are a few ways that Visual Studio IntelliCode can help enhance your product
 * Find difficult-to-catch code issues
 * Focus code reviews by drawing attention to areas that really matter
 
-We initially supported only C# when we first previewed the IntelliCode extension for Visual Studio. Now, we've added support for C++ and XAML in Visual Studio, too.
+We initially supported only C# when we first previewed the IntelliCode as an extension for Visual Studio. Now, **new in 16.1**, we've added support for C# and XAML "in-the-box". (Support for C++ and TypeScript/JavaScript are still in preview, however.)
 
 And if you're using C#, we've also added the ability to train a custom model on your own code.
 
-For more information about IntelliCode, see the [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog post.
+For more information about IntelliCode, see the [Announcing the general availability of IntelliCode plus a sneak peek](https://devblogs.microsoft.com/visualstudio/announcing-the-general-availability-of-intellicode-plus-a-sneak-peek/) and [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) blog posts.
 
 ### Code cleanup
 
@@ -132,7 +132,7 @@ We're introducing a new extension that you can download to use with Visual Studi
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
-To get started now, download the [Pull Requests for Visual Studio](https://aka.ms/pr4vs) extension from the Visual Studio Marketplace.
+For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post. 
 
 ## Debug
 
@@ -192,4 +192,6 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)
+* [What's new in Azure DevOps Server](/azure/devops/server/whats-new?view=azure-devops)
+* [Microsoft Build 2019 conference](https://www.microsoft.com/build)
 * [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
