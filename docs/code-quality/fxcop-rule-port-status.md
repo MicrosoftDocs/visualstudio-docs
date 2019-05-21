@@ -1,6 +1,6 @@
 ---
 title: FxCop rule port status
-ms.date: 05/20/2019
+ms.date: 05/21/2019
 ms.topic: reference
 helpviewer_keywords:
   - fxcop rules
@@ -201,7 +201,7 @@ CA9999 | Analyzer version mismatch
 
 ## Unported rules
 
-The set of rules that hasn't been ported to [FxCop analyzers](install-fxcop-analyzers.md) consists of rules that haven't yet but still may be ported, and those that are deprecated and won't be ported.
+The set of rules that hasn't been ported to [FxCop analyzers](install-fxcop-analyzers.md) consists of rules that haven't yet but [still may be ported](#rules-to-be-ported), and those that are deprecated and [won't be ported](#deprecated-rules).
 
 ### Rules to be ported
 
@@ -258,16 +258,15 @@ Rule ID | Tracking issue
 [CA2205](ca2205-use-managed-equivalents-of-win32-api.md) | [https://github.com/dotnet/roslyn-analyzers/issues/530](https://github.com/dotnet/roslyn-analyzers/issues/530)
 [CA2212](ca2212-do-not-mark-serviced-components-with-webmethod.md) | [https://github.com/dotnet/roslyn-analyzers/issues/534](https://github.com/dotnet/roslyn-analyzers/issues/534)
 [CA2215](ca2215-dispose-methods-should-call-base-class-dispose.md) | [https://github.com/dotnet/roslyn-analyzers/issues/535](https://github.com/dotnet/roslyn-analyzers/issues/535)
-[CA2222](ca2222-do-not-decrease-inherited-member-visibility.md) | Ported??
 [CA2232](ca2232-mark-windows-forms-entry-points-with-stathread.md) | [https://github.com/dotnet/roslyn-analyzers/issues/545](https://github.com/dotnet/roslyn-analyzers/issues/545)
 [CA2236](ca2236-call-base-class-methods-on-iserializable-types.md) | [https://github.com/dotnet/roslyn-analyzers/issues/548](https://github.com/dotnet/roslyn-analyzers/issues/548)
 [CA2238](ca2238-implement-serialization-methods-correctly.md) | [https://github.com/dotnet/roslyn-analyzers/issues/549](https://github.com/dotnet/roslyn-analyzers/issues/549)
 [CA2239](ca2239-provide-deserialization-methods-for-optional-fields.md) | [https://github.com/dotnet/roslyn-analyzers/issues/550](https://github.com/dotnet/roslyn-analyzers/issues/550)
 [CA2240](ca2240-implement-iserializable-correctly.md) | [https://github.com/dotnet/roslyn-analyzers/issues/551](https://github.com/dotnet/roslyn-analyzers/issues/551)
 
-### Rules that won't be ported
+### Deprecated rules
 
-Rule ID
+The following FxCop static code analysis rules are deprecated and won't be implemented as analyzers. For further information, you can search by rule ID (for example, **CA1009**) on the [roslyn-analyzers GitHub issues page](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port).
 
 - [CA1009](ca1009-declare-event-handlers-correctly.md)
 - [CA1020](ca1020-avoid-namespaces-with-few-types.md)
@@ -333,6 +332,7 @@ Rule ID
 - [CA2210](ca2210-assemblies-should-have-valid-strong-names.md)
 - [CA2220](ca2220-finalizers-should-call-base-class-finalizer.md)
 - [CA2221](ca2221-finalizers-should-be-protected.md)
+- [CA2222](ca2222-do-not-decrease-inherited-member-visibility.md) ([justification](https://github.com/dotnet/roslyn-analyzers/issues/1378))
 - [CA2223](ca2223-members-should-differ-by-more-than-return-type.md)
 - [CA2228](ca2228-do-not-ship-unreleased-resource-formats.md)
 - [CA2230](ca2230-use-params-for-variable-arguments.md)
