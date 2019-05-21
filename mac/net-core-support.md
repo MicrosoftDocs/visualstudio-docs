@@ -13,12 +13,12 @@ The following table describes the versions of .NET Core supported by the stable 
 
 .Net Core Version  |Visual Studio for Mac 8.0 (Stable)  |Visual Studio for Mac 8.1 (Preview)  |
 |---------|---------|---------|
-|v2.1.0 - v2.1.5    |✔|✖︎|
-|v2.1.6 +     |✖︎|✔︎|
-|v2.2.0 - v2.2.1|✔︎|✖︎|
-|v2.2.1 + |✖︎| ✔︎ |
-|v3.0 < Preview 4 |✖︎|✖︎|
-|v3.0 Preview 4 + |✖︎|✔︎ |
+|v2.1.0 - v2.1.5    |✔|✗|
+|v2.1.6 +     |✗|✔︎|
+|v2.2.0 - v2.2.1|✔︎|✗|
+|v2.2.1 + |✗| ✔︎ |
+|v3.0 < Preview 4 |✗|✗|
+|v3.0 Preview 4 + |✗|✔︎ |
 
 * .NET Core v2.1.505 is installed by default with the installer.
 * To download any other version of .NET Core, visit the [dotnet page](https://dotnet.microsoft.com/download/dotnet-core).
