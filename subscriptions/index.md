@@ -164,7 +164,7 @@ To make your subscription even more useful, we add and update the subscription b
                 <div class="card">
                     <div class="cardText">
                         <h3>Cloud Services</h3>
-                        <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit and free access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
+                        <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit for access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>
