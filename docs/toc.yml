@@ -128,6 +128,8 @@
           href: install/workload-component-id-vs-feedback-client.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
+      - name: Changed Payloads
+        href: install/changed-payloads.md
   - name: Use Visual Studio from an Azure virtual machine
     href: install/using-visual-studio-vm.md
   - name: Containers
