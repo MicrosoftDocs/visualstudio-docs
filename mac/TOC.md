@@ -68,6 +68,7 @@
 # Workloads
 ## [Available Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
+### [.NET Core Support](net-core-support.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
 ## [Azure](azure-workload.md)
