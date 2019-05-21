@@ -70,7 +70,7 @@ CA1200 | Avoid using cref tags with a prefix
 [CA1305](ca1305-specify-iformatprovider.md) | Specify IFormatProvider
 [CA1307](ca1307-specify-stringcomparison.md) | Specify StringComparison
 [CA1308](ca1308-normalize-strings-to-uppercase.md) | Normalize strings to uppercase
-[CA1309](ca1309-use-ordinal-stringcomparison.md) | Use ordinal stringcomparison
+[CA1309](ca1309-use-ordinal-stringcomparison.md) | Use ordinal string comparison
 [CA1401](ca1401-p-invokes-should-not-be-visible.md) | P/Invokes should not be visible
 [CA1501](ca1501-avoid-excessive-inheritance.md) | Avoid excessive inheritance
 [CA1502](ca1502-avoid-excessive-complexity.md) | Avoid excessive complexity
@@ -168,7 +168,7 @@ CA2244 | Do not duplicate indexed element initializations
 CA3061 | Do Not Add Schema By URL
 [CA3075](ca3075-insecure-dtd-processing.md) | Insecure DTD processing in XML
 [CA3076](ca3076-insecure-xslt-script-execution.md) | Insecure XSLT script processing.
-[CA3077](ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md) | Insecure Processing in API Design, XmlDocument and XmlTextReader
+[CA3077](ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md) | Insecure Processing in API Design, XmlDocument, and XmlTextReader
 [CA3147](ca3147-mark-verb-handlers-with-validateantiforgerytoken.md) | Mark Verb Handlers With Validate Antiforgery Token
 [CA5350](ca5350-do-not-use-weak-cryptographic-algorithms.md) | Do Not Use Weak Cryptographic Algorithms
 [CA5351](ca5351-do-not-use-broken-cryptographic-algorithms.md) | Do Not Use Broken Cryptographic Algorithms
