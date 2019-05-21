@@ -201,9 +201,11 @@ CA9999 | Analyzer version mismatch
 
 ## Unported rules
 
-The set of rules that hasn't been ported to [FxCop analyzers](install-fxcop-analyzers.md) consists of rules that haven't yet but [still may be ported](#rules-to-be-ported), and those that are deprecated and [won't be ported](#deprecated-rules).
+The set of rules that hasn't been ported to [FxCop analyzers](install-fxcop-analyzers.md) consists of rules that haven't yet but still [may be ported](#rules-that-may-be-ported), and those that are deprecated and [won't be ported](#deprecated-rules).
 
-### Rules to be ported
+### Rules that may be ported
+
+The following FxCop static code analysis rules haven't yet been implemented as analyzers, but still may be. This could be because of a blocking technical reason or simply that the rule is lower priority. For more information about the porting status of each rule, click the link in the **Tracking issue** column.
 
 Rule ID | Tracking issue
 --- | ---
