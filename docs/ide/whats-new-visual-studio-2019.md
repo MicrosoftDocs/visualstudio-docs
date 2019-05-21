@@ -132,7 +132,7 @@ We're introducing a new extension that you can download to use with Visual Studi
 
    ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
-For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post. 
+For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post.
 
 ## Debug
 
