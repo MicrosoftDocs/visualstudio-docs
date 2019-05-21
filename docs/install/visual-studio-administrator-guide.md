@@ -94,4 +94,4 @@ For more information about customer feedback settings, see the [Visual Studio Cu
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
-* [Synchronous autoload settings](..\extensibility\synchronously-autoloaded-extensions.md)
+* [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
