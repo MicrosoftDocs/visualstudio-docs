@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 05/14/2019
+ms.date: 05/22/2019
 ms.topic: reference
 helpviewer_keywords:
 ms.custom: "seodec18"
@@ -25,6 +25,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.1.0 | Release | May 21, 2019 | 16.1.28917.181 |
+| 16.2.0 | Preview 1 | May 21, 2019 | 16.2.28917.182 |
 | 16.0.4 | Release | May 14, 2019 | 16.0.28803.452 |
 | 16.1.0 | Preview 3 | May 6, 2019 | 16.1.28902.138 |
 | 16.0.3 | Release | April 30, 2019 | 16.0.28803.352 |
