@@ -1,7 +1,7 @@
 ---
 title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
-ms.topic: overview
+ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis FAQ"
 author: gewarren
@@ -42,6 +42,10 @@ If you've installed FxCop analyzers but continue to get warning CA0507 **""Run C
 ```xml
 <RunCodeAnalysis>false</RunCodeAnalysis>
 ```
+
+## Which rules have been ported to FxCop analyzers?
+
+For information about which static code analysis rules have been ported to [FxCop analyzers](install-fxcop-analyzers.md), see [Fxcop rule port status](fxcop-rule-port-status.md).
 
 ## See also
 

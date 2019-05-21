@@ -45,6 +45,8 @@
           href: fxcop-analyzer-options.md
       - name: Migrate from static code analysis
         href: fxcop-analyzers.yml
+      - name: Ported rules
+        href: fxcop-rule-port-status.md
     - name: Analyzers FAQ
       href: analyzers-faq.md
     - name: Install Roslyn analyzers
