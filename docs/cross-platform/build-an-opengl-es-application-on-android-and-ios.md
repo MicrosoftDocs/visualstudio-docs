@@ -111,15 +111,15 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 1. From the Xcode project's "General" settings, change the value of **Bundle Identifier** to `com.<NameOfVSProject>`, where `<NameOfVSProject>` is the same name as the Visual Studio solution project you created. For example, if you created a project called `MyOpenGLESApp` on Visual Studio, then set **Bundle Identifier** to `com.MyOpenGLESApp`.
 
-   ![Xcode bundle identifier](../cross-platform/media/cppmdd_opengles_iosxcodeid.png "CPPMDD_OpenGLES_iOSXcodeId")
+   ![Xcode bundle identifier](../cross-platform/media/cppmdd-opengles-iosxcodeid.png "CPPMDD_OpenGLES_iOSXcodeId")
 
 1. To enable automatic signing, check. Automatically manage signing**.
 
-   ![Xcode automatic signing](../cross-platform/media/cppmdd_opengles_iosxcodesign.png "CPPMDD_OpenGLES_iOSXcodeSign")
+   ![Xcode automatic signing](../cross-platform/media/cppmdd-opengles-iosxcodesign.png "CPPMDD_OpenGLES_iOSXcodeSign")
 
 1. Select the team name of the Apple ID you added as the development **Team**.
 
-   ![Xcode team](../cross-platform/media/cppmdd_opengles_iosxcodeteam.png "CPPMDD_OpenGLES_iOSXcodeTeam")
+   ![Xcode team](../cross-platform/media/cppmdd-opengles-iosxcodeteam.png "CPPMDD_OpenGLES_iOSXcodeTeam")
 
 ### To build and run the iOS app on an iOS device
 
@@ -131,13 +131,13 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 1. On Visual Studio, if it isn't already selected, choose the solution platform from the **Solution Platforms** drop-down list based on your device processor. In this example, it's an **ARM64** processor.
 
-   ![Set the Solution Platform to ARM64](../cross-platform/media/cppmdd_opengles_pickplatformarm64.png "CPPMDD_OpenGLES_SolutionPlatARM64")
+   ![Set the Solution Platform to ARM64](../cross-platform/media/cppmdd-opengles-pickplatformarm64.png "CPPMDD_OpenGLES_SolutionPlatARM64")
 
 1. In Solution Explorer, open the shortcut menu for the MyOpenGLESApp.iOS.Application project and choose **Unload Project** to unload the project.
 
 1. Again, open the shortcut menu for the unloaded MyOpenGLESApp.iOS.Application project and choose **Edit project.pbxproj** to edit the project file. In the `project.pbxproj` file, look for the `buildSettings` attribute and add `DEVELOPMENT_TEAM` using your Apple Team ID. The screenshot below shows an example value of `123456ABC` for the Apple Team ID. You can find the value of your Apple Team ID from Xcode. Go to **Build Settings** and hover over your development team name to show a tooltip. The tooltip shows your team ID.
 
-   ![Set development team](../cross-platform/media/cppmdd_opengles_iosdevelopmentteam.png "CPPMDD_OpenGLES_iOSDevelopmentTeam")
+   ![Set development team](../cross-platform/media/cppmdd-opengles-iosdevelopmentteam.png "CPPMDD_OpenGLES_iOSDevelopmentTeam")
 
 1. Close the `project.pbxproj` file, then open the shortcut menu for the unloaded MyOpenGLESApp.iOS.Application project and choose **Reload Project** to reload the project.
 
@@ -151,7 +151,7 @@ To deploy an iOS app to an iOS device, you must also set up automatic signing on
 
 1. Choose your iOS device on the toolbar to run the app on your device attached to your Mac. If the app doesn't start, verify that the device gives permission for your deployed application to execute on the device. This permission can be set by going to **Settings** > **General** > **Device Management** on the device. Select your Developer App account, trust your account, and verify the app. Try to run the app again from Visual Studio.
 
-   ![iOS app on iOS device](../cross-platform/media/cppmdd_opengles_iosdevice.png "CPPMDD_OpenGLES_iOSDevice")
+   ![iOS app on iOS device](../cross-platform/media/cppmdd-opengles-iosdevice.png "CPPMDD_OpenGLES_iOSDevice")
    
    Once your app has started, you can set breakpoints and use the Visual Studio debugger to examine locals, see the call stack, and watch values.
 
