@@ -16,7 +16,7 @@ The following table describes the versions of .NET Core supported by the stable 
 |v2.1.0 - v2.1.5    |✔|✗|
 |v2.1.6 +     |✗|✔︎|
 |v2.2.0 - v2.2.1|✔︎|✗|
-|v2.2.1 + |✗| ✔︎ |
+|v2.2.2 + |✗| ✔︎ |
 |v3.0 < Preview 4 |✗|✗|
 |v3.0 Preview 4 + |✗|✔︎ |
 
