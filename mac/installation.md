@@ -12,6 +12,9 @@ ms.custom: video
 
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
 
+ > [!div class="button"]
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vsmac2019)
+
 ## Requirements
 
 - A Mac with macOS High Sierra 10.12 or above.

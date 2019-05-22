@@ -1,7 +1,7 @@
 ---
 author: TerryGLee
 ms.author: tglee
-ms.date: 03/02/2019
+ms.date: 05/21/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
