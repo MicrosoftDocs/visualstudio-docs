@@ -36,13 +36,11 @@ int FindAlias(
 ```
 
 ## Parameters
- `pcstrName`\
+`pcstrName`\
+[in] Name of alias to find.
 
- [in] Name of alias to find.
-
- `ppAlias`\
-
- [out] Alias found (if any) represented by the [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) interface.
+`ppAlias`\
+[out] Alias found (if any) represented by the [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` (if alias is not found) or an error code.

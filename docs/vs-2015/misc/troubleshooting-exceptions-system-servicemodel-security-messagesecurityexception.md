@@ -80,4 +80,4 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
   
 ## See Also  
  <xref:System.ServiceModel.Security.MessageSecurityException>   
- [Use the Exception Assistant](http://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)
+ [Use the Exception Assistant](https://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)

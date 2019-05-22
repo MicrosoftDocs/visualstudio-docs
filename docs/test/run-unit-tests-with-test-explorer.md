@@ -194,7 +194,7 @@ You can determine the amount of your product code that is actually being tested 
 
 To run code coverage for test methods in a solution:
 
-1. Choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.
+1. Choose **Test** on the top menu bar and then choose **Analyze code coverage**.
 
 2. Choose one of the following commands from the sub-menu:
 

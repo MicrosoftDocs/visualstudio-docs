@@ -36,13 +36,11 @@ int GetExceptionObjectAndType(
 ```
 
 ## Parameters
- `ppException`\
+`ppException`\
+[out] Returns the object representing the exception.
 
- [out] Returns the object representing the exception.
-
- `ppField`\
-
- [out] Returns the object representing a specific field that may have caused the exception (this may be a null value).
+`ppField`\
+[out] Returns the object representing a specific field that may have caused the exception (this may be a null value).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

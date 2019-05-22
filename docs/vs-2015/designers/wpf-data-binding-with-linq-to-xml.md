@@ -31,4 +31,4 @@ This section provides information about how to use LINQ to XML as the data sourc
  <xref:System.Xml.Linq.XAttribute>  
   
 ## See Also  
- [Advanced LINQ to XML Programming](http://msdn.microsoft.com/library/88c4a6ea-700b-4468-9a29-0ea18fc63dd0)
+ [Advanced LINQ to XML Programming](https://msdn.microsoft.com/library/88c4a6ea-700b-4468-9a29-0ea18fc63dd0)

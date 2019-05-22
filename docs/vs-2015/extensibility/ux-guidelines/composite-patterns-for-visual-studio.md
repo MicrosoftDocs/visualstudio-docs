@@ -525,4 +525,4 @@ Composite patterns combine interaction and design elements in distinct configura
 |Other considerations|||Custom onscreen keyboard|
 
 #### Gestures
- Gestures provide users a shortcut to commands that might otherwise require a more complicated interaction. Refer to the Windows guidelines on [common touch gestures for Desktop Applications](http://msdn.microsoft.com/library/windows/desktop/dd940543\(v=vs.85\).aspx), and follow this guidance for most gestures, including simple gestures such as panning and zooming.
+ Gestures provide users a shortcut to commands that might otherwise require a more complicated interaction. Refer to the Windows guidelines on [common touch gestures for Desktop Applications](https://msdn.microsoft.com/library/windows/desktop/dd940543\(v=vs.85\).aspx), and follow this guidance for most gestures, including simple gestures such as panning and zooming.

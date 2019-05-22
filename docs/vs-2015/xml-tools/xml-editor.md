@@ -68,10 +68,10 @@ The XML Editor is based on the [!INCLUDE[msCoName](../includes/msconame-md.md)] 
  Describes the XML Editor user interface components.  
   
 ## Related Sections  
- [Editing Text, Code, and Markup](http://msdn.microsoft.com/0d9c00d7-5df4-48a3-b185-2a265f055439)  
+ [Editing Text, Code, and Markup](https://msdn.microsoft.com/0d9c00d7-5df4-48a3-b185-2a265f055439)  
  Provides information about the Text Editor.  
   
- [XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ [XML Standards Reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
   
 ## See Also  

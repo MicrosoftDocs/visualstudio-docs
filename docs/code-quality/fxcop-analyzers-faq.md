@@ -1,7 +1,7 @@
 ---
 title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
-ms.topic: overview
+ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis FAQ"
 author: gewarren
@@ -37,11 +37,15 @@ To run FxCop analyzers, first [install the NuGet package](install-fxcop-analyzer
 
 ## I get warning CA0507 even after I've installed the FxCop analyzers NuGet package
 
-If you've installed FxCop analyzers but continue to get warning CA0507 **"Run Code Analysis" has been deprecated in favor of FxCop analyzers, which run during build**, you may need to set the **RunCodeAnalysis** msbuild property in your project file to **false**. Otherwise, static code analysis will execute after each build.
+If you've installed FxCop analyzers but continue to get warning CA0507 **""Run Code Analysis" has been deprecated in favor of FxCop analyzers, which run during build"**, you may need to set the **RunCodeAnalysis** msbuild property in your project file to **false**. Otherwise, static code analysis will execute after each build.
 
 ```xml
 <RunCodeAnalysis>false</RunCodeAnalysis>
 ```
+
+## Which rules have been ported to FxCop analyzers?
+
+For information about which static code analysis rules have been ported to [FxCop analyzers](install-fxcop-analyzers.md), see [Fxcop rule port status](fxcop-rule-port-status.md).
 
 ## See also
 

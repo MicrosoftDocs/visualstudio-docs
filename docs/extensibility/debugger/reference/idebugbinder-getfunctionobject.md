@@ -34,9 +34,8 @@ int GetFunctionObject(
 ```
 
 ## Parameters
- `ppFunction`\
-
- [out] Returns the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface that is used to create function parameters.
+`ppFunction`\
+[out] Returns the [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) interface that is used to create function parameters.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

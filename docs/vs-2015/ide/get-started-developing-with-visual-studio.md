@@ -59,6 +59,6 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 |||
 |-|-|
-|[Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)|[Writing JavaScript Code](http://msdn.microsoft.com/library/cte3c772\(v=vs.94\).aspx)|
-|[Visual C++ for Cross-Platform Mobile Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)|[Introduction to Functional Programming with F#](http://msdn.microsoft.com/library/vstudio/dd233147.aspx)|
+|[Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)|[Writing JavaScript Code](https://msdn.microsoft.com/library/cte3c772\(v=vs.94\).aspx)|
+|[Visual C++ for Cross-Platform Mobile Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)|[Introduction to Functional Programming with F#](https://msdn.microsoft.com/library/vstudio/dd233147.aspx)|
 |[Getting Started with C++](../ide/getting-started-with-cpp-in-visual-studio.md)|[Getting Started with Debugging in Visual Studio 2015](../ide/getting-started-with-debugging-in-visual-studio-2015.md)|

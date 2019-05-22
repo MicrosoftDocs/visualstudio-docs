@@ -73,7 +73,7 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 1. Edit the file as desired, for example:
 
-   ```EditorConfig
+   ```ini
    root = true
 
    [*.{cs,vb}]
@@ -104,7 +104,7 @@ To override some or all of the EditorConfig settings, add an *.editorconfig* fil
 
 If you want to override some but not all of the settings, specify just those settings in the *.editorconfig* file. Only those properties that you explicitly list in the lower-level file are overridden. Other settings from higher-level *.editorconfig* files continue to apply. If you want to ensure that _no_ settings from _any_ higher-level *.editorconfig* files are applied to this part of the codebase, add the ```root=true``` property to the lower-level *.editorconfig* file:
 
-```EditorConfig
+```ini
 # top-most EditorConfig file
 root = true
 ```
@@ -135,7 +135,7 @@ As expected, pressing the **Tab** key on the next line indents the line by addin
 
 Add a new file called *.editorconfig* to the project, with the following contents. The `[*.cs]` setting means that this change applies only to C# code files in the project.
 
-```EditorConfig
+```ini
 # Top-most EditorConfig file
 root = true
 

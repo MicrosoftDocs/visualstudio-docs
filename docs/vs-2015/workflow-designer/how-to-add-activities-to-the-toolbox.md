@@ -28,7 +28,7 @@ Activities can be added to the **Toolbox** in your solution in several different
     > The toolbox can only show one activity of a given name. If two activities from different assemblies have the same class name, only one will display.  
   
     > [!NOTE]
-    > The application domain is shared among editor instances; if static variables are used, they will be shared among editor instances as well. If this is not the desired behavior, a service should be used to track variable instances. See [Using the ModelItem Editing Context](http://msdn.microsoft.com/library/7f9f1ea5-0147-4079-8eca-be94f00d3aa1) for information on using services within the designer.  
+    > The application domain is shared among editor instances; if static variables are used, they will be shared among editor instances as well. If this is not the desired behavior, a service should be used to track variable instances. See [Using the ModelItem Editing Context](https://msdn.microsoft.com/library/7f9f1ea5-0147-4079-8eca-be94f00d3aa1) for information on using services within the designer.  
   
 ### To add an activity from within a different project  
   

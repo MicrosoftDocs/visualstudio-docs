@@ -19,11 +19,16 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Options, Text Editor, C#, Code Style, Formatting
+# Options dialog box: Text Editor \> C# \> Code Style \> Formatting
 
-Use the **Formatting** options page to set options for formatting code in the code editor. To access this options page, choose **Tools** > **Options**. In the **Options** dialog box, choose **Text Editor** > **C#** > **Code Style** > **Formatting**.
+Use the **Formatting** options page and its subpages ([**Indentation**](#indentation-page), **New Lines**, **Spacing**, and **Wrapping**) to set options for formatting code in the code editor.
 
-## General page
+To access this options page, choose **Tools** > **Options** from the menu bar. In the **Options** dialog box, choose **Text Editor** > **C#** > **Code Style** > **Formatting**.
+
+> [!TIP]
+> The **Indentation**, **New Lines**, **Spacing**, and **Wrapping** subpages each display a preview window at the bottom that shows the effect of each option. To use the preview window, select a formatting option. The preview window shows an example of the selected option. When you change a setting by selecting a radio button or check box, the preview window updates to show the effect of the new setting.
+
+## Formatting (General) page
 
 ### General settings
 
@@ -72,13 +77,16 @@ These settings configure the **Format Document** command to perform additional c
 
 ::: moniker-end
 
-## Preview windows
+## Indentation page
 
-The **Indentation**, **New Lines**, **Spacing**, and **Wrapping** subpages each display a preview window at the bottom. The preview window shows the effect of each option. To use the preview window, select a formatting option. The preview window shows an example of the selected option. When you change a setting by selecting a radio button or check box, the preview window updates to show the effect of the new setting.
+The indentation options on this page apply when code is formatted automatically. One example of when code is automatically formatted is when you paste code into the file while **Automatically format on paste** is selected. (The **Automatically format on paste** option is under **Formatting** > **General**.)
 
-## Indentation remarks
+![C# text editor indentation options in Visual Studio](media/csharp-indentation-options.png)
 
-Indentation options on the **Tabs** pages for each language only determine where the code editor places the cursor when you press **Enter** at the end of a line. Indentation options under **Formatting** apply when code is formatted automatically, for example, when you paste code into the file while **Automatically format on paste** is selected, and when the block being formatted is typed manually.
+> [!TIP]
+> There are also indentation options on the **Text Editor** > **C#** > **Tabs** options page. Those options only determine where the code editor places the cursor when you press **Enter** at the end of a line.
+>
+> ![C# text editor tabs options in Visual Studio](media/csharp-tabs-options.png)
 
 ## See also
 

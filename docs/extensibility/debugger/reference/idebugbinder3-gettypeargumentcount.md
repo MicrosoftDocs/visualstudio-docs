@@ -34,9 +34,8 @@ int GetTypeArgumentCount(
 ```
 
 ## Parameters
- `uCount`\
-
- [out] Number of argument types associated with this object.
+`uCount`\
+[out] Number of argument types associated with this object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

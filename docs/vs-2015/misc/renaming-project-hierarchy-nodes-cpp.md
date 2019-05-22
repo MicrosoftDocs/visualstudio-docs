@@ -12,7 +12,7 @@ caps.latest.revision: 12
 manager: jillfra
 ---
 # Renaming Project Hierarchy Nodes (C++)
-You can rename a project folder hierarchy node by using the HierUtil7 project framework for unmanaged C++. For more information, see [HierUtil7 Sample](http://msdn.microsoft.com/29c15184-a70c-4813-86c2-fb1d47442d11).  
+You can rename a project folder hierarchy node by using the HierUtil7 project framework for unmanaged C++. For more information, see [HierUtil7 Sample](https://msdn.microsoft.com/29c15184-a70c-4813-86c2-fb1d47442d11).  
   
 ## Expanding the Hierarchy node  
   

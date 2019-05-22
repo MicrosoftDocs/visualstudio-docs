@@ -180,5 +180,5 @@ public class GenericException<T> : Exception
  [How to: Examine System Code After an Exception](../debugger/how-to-examine-system-code-after-an-exception.md)   
  [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)   
  [Using Run-Time Checks Without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)   
- [Exception Assistant](http://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)   
+ [Exception Assistant](https://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)   
  [Debugger Basics](../debugger/debugger-basics.md)

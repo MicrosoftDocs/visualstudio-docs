@@ -34,14 +34,12 @@ int GetBaseIndices (
 );
 ```
 
-#### Parameters
- `dwRank`\
+## Parameters
+`dwRank`\
+[in] The number of dimensions (rank) of the array.
 
- [in] The number of dimensions (rank) of the array.
-
- `dwIndices`\
-
- [out] The base indices (lower bounds) for the array.
+`dwIndices`\
+[out] The base indices (lower bounds) for the array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

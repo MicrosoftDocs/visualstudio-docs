@@ -42,4 +42,4 @@ This warning dialog box appears when you are using Source Server. It indicates t
 ## See Also  
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [Source Server](http://msdn.microsoft.com/library/windows/desktop/ms680641\(v=vs.85\).aspx)
+ [Source Server](https://msdn.microsoft.com/library/windows/desktop/ms680641\(v=vs.85\).aspx)

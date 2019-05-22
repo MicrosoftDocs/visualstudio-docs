@@ -33,13 +33,11 @@ int GetDimensions(
 ```
 
 ## Parameters
- `dwCount`\
+`dwCount`\
+[in] The number of dimensions to retrieve.
 
- [in] The number of dimensions to retrieve.
-
- `dwDimensions`\
-
- [in, out] An array that is filled in with the sizes of each dimension. `dwCount` specifies the maximum size of the `dwDimensions` array.
+`dwDimensions`\
+[in, out] An array that is filled in with the sizes of each dimension. `dwCount` specifies the maximum size of the `dwDimensions` array.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

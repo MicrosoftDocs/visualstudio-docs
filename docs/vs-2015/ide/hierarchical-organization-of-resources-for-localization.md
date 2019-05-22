@@ -48,5 +48,5 @@ In Visual Studio, localized resources (data such as strings and images appropria
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)   
- [How to: Set the Culture and UI Culture for Windows Forms Globalization](http://msdn.microsoft.com/694e049f-0b91-474a-9789-d35124f248f0)   
- [How to: Set the Culture and UI Culture for ASP.NET Web Page Globalization](http://msdn.microsoft.com/library/76091f86-f967-4687-a40f-de87bd8cc9a0)
+ [How to: Set the Culture and UI Culture for Windows Forms Globalization](https://msdn.microsoft.com/694e049f-0b91-474a-9789-d35124f248f0)   
+ [How to: Set the Culture and UI Culture for ASP.NET Web Page Globalization](https://msdn.microsoft.com/library/76091f86-f967-4687-a40f-de87bd8cc9a0)

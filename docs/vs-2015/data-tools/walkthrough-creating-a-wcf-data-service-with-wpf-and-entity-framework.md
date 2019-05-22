@@ -39,7 +39,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 - The Northwind sample database.  
   
-     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](http://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).  
+     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](https://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).  
   
 ## Creating the Service  
  To create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)], and then create the service from the model.  

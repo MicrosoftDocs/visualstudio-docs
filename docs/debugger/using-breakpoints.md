@@ -261,7 +261,7 @@ When you select **Conditional Expression**, you can choose between two condition
 
 2. Start debugging, and when execution pauses at the breakpoint, select **Debug** > **Windows** > **Locals** or **Alt**+**4** to open the **Locals** window.
 
-   Find the breakpoint in the **Locals** window, right-click it, and select **Make Object ID**.
+   Find the specific object instance in the **Locals** window, right-click it, and select **Make Object ID**.
 
    You should see a **$** plus a number in the **Locals** window. This is the object ID.
 

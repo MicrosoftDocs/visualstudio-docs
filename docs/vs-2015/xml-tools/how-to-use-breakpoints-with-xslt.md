@@ -15,7 +15,7 @@ manager: jillfra
 
 You can set breakpoints in an XSLT style sheet or in the XML source document. If you set a breakpoint on a tag, when execution starts the breakpoint will move to the next statement that has source line information.  
   
- For more information, see [Debugging Basics: Breakpoints](http://msdn.microsoft.com/752a02c2-0ac7-4c8b-aa1b-4b2b3b21152e).  
+ For more information, see [Debugging Basics: Breakpoints](https://msdn.microsoft.com/752a02c2-0ac7-4c8b-aa1b-4b2b3b21152e).  
   
 ## Set a Breakpoint in a Style Sheet  
  Breakpoints can be set on start tags, end tags, and text nodes of an XSLT style sheet. Breakpoints can also be set on code in a script block.  

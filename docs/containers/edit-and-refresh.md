@@ -93,6 +93,28 @@ Often, changes will need further inspection, leveraging the debugging features o
 
    ![Breakpoint](media/edit-and-refresh/breakpoint.png)
 
+## Create a .NET Framework Console App
+
+When using .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you are only using a single Docker project.
+
+1. Create a new .NET Framework Console app project.
+1. In **Solution Explorer**, right-click on the project node, and choose **Add** > **Container Orchestration Support**.  In the dialog that appears, choose **Docker Compose**. A Dockerfile is added to your project, and a Docker Compose project is added with associated support files.
+
+### Debug with breakpoints
+
+1. In **Solution Explorer**, open `Program.cs`.
+2. Replace the contents of the `Main` method with the following:
+
+   ```csharp
+       System.Console.WriteLine("Hello, world!");
+   ```
+
+3. Set a breakpoint to the left of the code line.
+4. Hit F5 to start debugging and hit the breakpoint.
+5. Switch to Visual Studio to view the breakpoint, inspect values, and so on.
+
+   ![Breakpoint](media/edit-and-refresh/breakpoint-console.png)
+
 ## Summary
 
 With Docker support in Visual Studio, you can get the productivity of working locally,
