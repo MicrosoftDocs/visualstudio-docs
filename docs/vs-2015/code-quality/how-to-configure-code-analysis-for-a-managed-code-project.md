@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure code analysis for a managed code project"
+title: "How to: Configure Code Analysis for a Managed Code Project | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: vs-ide-code-analysis

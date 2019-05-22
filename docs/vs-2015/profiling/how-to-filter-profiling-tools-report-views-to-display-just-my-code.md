@@ -1,5 +1,5 @@
 ---
-title: "Filter profiling tools report views to show my code only"
+title: "How to: Filter Profiling Tools Report Views to Display Just My Code | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "vs-ide-debug"

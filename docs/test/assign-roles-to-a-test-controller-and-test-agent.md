@@ -1,5 +1,5 @@
 ---
-title: "Assign test controller/test agent roles - automated tests"
+title: "Test controller and test agent roles for automated tests"
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
