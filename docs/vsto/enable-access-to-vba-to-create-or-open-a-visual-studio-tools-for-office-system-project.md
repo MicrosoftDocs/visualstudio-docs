@@ -1,5 +1,5 @@
 ---
-title: "Access for VBA to create/open system project"
+title: "VBA access to create/open a VSTO system project"
 decsprition: "You must explicitly enable access to the Office VBA project system before you can create or open a Visual Studio Tools for Office system project"
 titleSuffix: "Visual Studio Tools for Microsoft Office"
 ms.custom: "seodec18"
