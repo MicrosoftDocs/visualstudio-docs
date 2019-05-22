@@ -1,5 +1,5 @@
 ---
-title: "CA2134: Methods must keep consistent transparency when overriding base methods"
+title: "CA2134: Method transparency in base method overrides is inconsistent"
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

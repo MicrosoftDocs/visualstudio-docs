@@ -1,5 +1,5 @@
 ---
-title: "CA2231: Overload operator equals on overriding ValueType.Equals"
+title: "CA2231: Implement equality operator when overriding ValueType.Equals"
 ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
