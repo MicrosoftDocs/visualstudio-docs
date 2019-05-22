@@ -1,5 +1,5 @@
 ---
-title: "Register file name extensions for side-by-side deployments"
+title: "Registering File Name Extensions for Side-By-Side Deployments | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "vs-ide-sdk"

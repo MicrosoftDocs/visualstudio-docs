@@ -1,5 +1,5 @@
 ---
-title: "Enable/disable automatic code analysis for managed code"
+title: "How to: Enable and Disable Automatic Code Analysis for Managed Code | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: vs-ide-code-analysis

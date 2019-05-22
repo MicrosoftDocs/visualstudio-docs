@@ -1,5 +1,5 @@
 ---
-title: "Custom permissions for ClickOnce application"
+title: "How to: Set Custom Permissions for a ClickOnce Application | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "vs-ide-deployment"

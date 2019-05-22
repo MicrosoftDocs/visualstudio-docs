@@ -1,5 +1,5 @@
 ---
-title: "Migrate domain-specific language to new version"
+title: "How to: Migrate a Domain-Specific Language to a New Version | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-modeling

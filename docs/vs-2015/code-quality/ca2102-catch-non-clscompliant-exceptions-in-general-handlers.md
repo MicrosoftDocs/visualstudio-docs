@@ -1,5 +1,5 @@
 ---
-title: "CA2102: Non-CLS compliant exceptions in general handlers"
+title: "CA2102: Catch non-CLSCompliant exceptions in general handlers | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: vs-ide-code-analysis
