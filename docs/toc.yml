@@ -81,8 +81,6 @@
         href: install/disable-or-move-the-package-cache.md
       - name: Control updates to Visual Studio deployments
         href: install/controlling-updates-to-visual-studio-deployments.md
-    - name: Use a servicing baseline for updates
-      items:
       - name: Update Visual Studio while on a servicing baseline
         href: install/admin-update-with-servicingBaseline.md
     - name: Manage installations
