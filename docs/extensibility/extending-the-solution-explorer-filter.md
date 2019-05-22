@@ -28,18 +28,15 @@ You can extend **Solution Explorer** filter functionality to show or hide differ
 
 4. Change the `<Button>` block to the following:
 
-   ```xml
-   <Button guid="guidFileFilterPackageCmdSet" id="FileFilterId" priority="0x0400" type="Button">
-     <Parent guid="guidSHLMainMenu" id="IDG_VS_TOOLBAR_PROJWIN_FILTERS" />
-     <Icon guid="guidImages" id="bmpPic1" />
-     <CommandFlag>DynamicVisibility</CommandFlag>
-     <CommandFlag>DefaultInvisible</CommandFlag>
-     <CommandFlag>DefaultDisabled</CommandFlag>
-     <Strings>
-       <ButtonText>FileNameFilter</ButtonText>
-     </Strings>
-   </Button>
-   ```
+    ```xml
+    <Button guid="guidFileFilterPackageCmdSet" id="FileFilterId" priority="0x0400" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_TOOLBAR_PROJWIN_FILTERS" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <Strings>
+            <ButtonText>FileNameFilter</ButtonText>
+        </Strings>
+    </Button>
+    ```
 
 ### Update the manifest file
 
