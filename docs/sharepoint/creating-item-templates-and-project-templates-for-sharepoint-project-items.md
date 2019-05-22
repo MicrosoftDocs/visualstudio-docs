@@ -1,5 +1,5 @@
 ---
-title: "Creating Item Templates and Project Templates for SharePoint Project Items | Microsoft Docs"
+title: "Creating Item Templates and Project Templates for SharePoint Project Items"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

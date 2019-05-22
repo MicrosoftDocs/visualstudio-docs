@@ -1,5 +1,5 @@
 ---
-title: Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project
+title: "Let VBA create/open Visual Studio Tools for Microsoft Office system project"
 decsprition: "You must explicitly enable access to the Office VBA project system before you can create or open a Visual Studio Tools for Office system project"
 titleSuffix: ""
 ms.custom: "seodec18"

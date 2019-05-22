@@ -1,5 +1,5 @@
 ---
-title: "Changes to the design of Office projects that target the .NET Framework"
+title: "Changes to design of Office projects that target .NET Framework"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
