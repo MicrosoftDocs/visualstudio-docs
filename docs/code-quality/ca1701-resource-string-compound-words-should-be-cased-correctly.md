@@ -1,5 +1,5 @@
 ---
-title: "CA1701: Resource string compound words are cased incorrectly"
+title: "CA1701: Resource string compound words cased incorrectly"
 ms.date: 03/28/2018
 ms.topic: reference
 f1_keywords:
