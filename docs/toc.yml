@@ -82,7 +82,7 @@
       - name: Control updates to Visual Studio deployments
         href: install/controlling-updates-to-visual-studio-deployments.md
       - name: Update Visual Studio while on a servicing baseline
-        href: install/admin-update-with-servicingBaseline.md
+        href: install/update-servicing-baseline.md
     - name: Manage installations
       items:
       - name: Tools for detecting and managing Visual Studio instances
