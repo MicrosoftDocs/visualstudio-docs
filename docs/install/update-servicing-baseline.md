@@ -47,8 +47,8 @@ For administrators using a network layout install, update the [layout location](
 
 If it is an internet based install, run the new fixed version bootstrapper with the `--channelUri` parameter pointing to a non-existent channel manifest on the client. If the update is deployed in quiet or passive mode, use two separate commands:
 
-  * First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
-  * Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart --channelUri c:\doesnotexist.chman```
+1. First, update the Visual Studio installer: <br>```vs_enterprise.exe --quiet --update```
+2. Then, update the Visual Studio application itself: <br>```vs_enterprise.exe update --installPath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" --quiet --wait --norestart --channelUri c:\doesnotexist.chman```
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
