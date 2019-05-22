@@ -159,3 +159,4 @@ We have several tools available to help you [detect and manage installed Visual 
 * [Import or export installation configurations](import-export-installation-configurations.md)
 * [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
