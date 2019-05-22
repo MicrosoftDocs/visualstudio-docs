@@ -22,7 +22,8 @@
 ## [Creating new Projects](create-new-projects.md)
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
 ## [Managing Solutions and Project properties](managing-solutions-and-project-properties.md)
-## [Managing references in a project](managing-references-in-a-project.md)
+## Managing references in a project
+### [Overview](managing-references-in-a-project.md)
 ### [Walkthrough - Including a NuGet package in your project](nuget-walkthrough.md)
 ## [Managing App Resources](managing-app-resources.md)
 ## [How to: Open multiple solutions or instances](open-multiple-solutions.md)
@@ -49,7 +50,8 @@
 ## [Build Actions](build-actions.md)
 ## [How to: Set multiple startup projects](set-startup-projects.md)
 ## [Customizing the Build System](customizing-build-system.md)
-## [Configurations](configurations.md)
+## Configurations
+### [Understanding build configurations](configurations.md)
 ### [Create and Edit configurations](create-and-edit-configurations.md)
 
 # Version Control
@@ -67,14 +69,18 @@
 
 # Workloads
 ## [Available Workloads](workloads.md)
-## [ASP.NET Core](asp-net-core.md)
+## ASP.NET Core
+### [.NET Core Support](net-core-support.md)
+### [Building Your First ASP.NET Core App](asp-net-core.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
-## [Azure](azure-workload.md)
+## Azure
+### [Overview](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
 ### [Tutorial: Azure Functions](azure-functions-lab.md)
 ### [Connected Services](connected-services.md)
-## [Unity Game Development](unity-tools.md)
+## Unity Game Development
+### [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
 ### [Using .NET 4.x in Unity](/visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)

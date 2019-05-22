@@ -231,6 +231,8 @@
         items:
         - name: Create project and item templates
           href: ide/creating-project-and-item-templates.md
+        - name: Add tags to a template
+          href: ide/template-tags.md
         - name: Create project templates
           href: ide/how-to-create-project-templates.md
         - name: Create multi-project templates
