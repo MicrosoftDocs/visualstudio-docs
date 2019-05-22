@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically associate a web page with an Outlook folder"
+title: "Associate web page with Outlook folder programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

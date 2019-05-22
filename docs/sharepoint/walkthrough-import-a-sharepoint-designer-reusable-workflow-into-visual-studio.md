@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
+title: "Import SharePoint Designer reusable workflow"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

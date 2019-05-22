@@ -1,5 +1,5 @@
 ---
-title: Manage build configurations with Visual Basic developer settings
+title: Build configurations with Visual Basic developer settings
 ms.date: 11/21/2018
 ms.technology: vs-ide-compile
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Profiler Comparison Report from a Command Prompt | Microsoft Docs"
+title: "Create profiler comparison report from command prompt"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 00548d16-eb5b-46f7-8a65-862f98a43831
