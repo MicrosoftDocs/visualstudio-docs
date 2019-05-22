@@ -1,7 +1,7 @@
 ---
-title: "Payloads modified after a release"
-description: "Learn how to determine if payloads were modified after a release when creating a layout."
-ms.date: 05/21/2019
+title: "When package payloads change after a release"
+description: "When creating a layout, learn how to determine if package payloads changed after a release has already shipped."
+ms.date: 05/22/2019
 ms.topic: conceptual
 author: et13
 ms.author: tglee
@@ -11,24 +11,23 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Payloads modified after a release
+# Package payloads changed after a release has already shipped
 
-When creating a layout, some payloads are allowed to change after the release was shipped. This behavior can result in different layout content depending on when the layout was created.
+Some package payloads are allowed to change after a release has already shipped. When you or someone else creates a layout, this behavior might result in different layout content, depending on when a layout was created.
 
-Here's how to determine if the layout creation acquired payloads that were modified after the release shipped:
+Here's how to determine if the layout creation acquired package payloads that were modified after the release shipped:
 
 1. Open the setup log. The log is typically at `%TEMP%\dd_setup_[date].log` where `[date]` is when the layout operation started in `yyyyMMddHHmmss` format.
 
-2. Look for a line in the log structured like
+2. Look for a line in the log that is structured like the following text:
 
     `Falling back to signature and signer check because hash verification returned HashMismatch for path: [path]`
 
-3. Then look for lines later in the log indicting that the download succeeded for the `[path]`
+3. Then, look for lines later in the log that indicate that the download succeeded for the [path]. They might look similar to the following text:
 
     `Download of [url] succeeded using engine 'WebClient'`
 
     `END: Downloading [url] to [path]`
-
 
 ## See also
 
