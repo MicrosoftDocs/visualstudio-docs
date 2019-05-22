@@ -23,7 +23,7 @@ Users can:
 
 - Click on **Don't show this message again** to dismiss the notification. Choosing this option also prevents all future notifications from synchronously autoloaded extensions. Users will continue to get notifications about other Visual Studio features.
 
-### Performance Manager dialog
+## Performance Manager dialog
 
 ![performance manager dialog](media/performance-manager.png)
 
