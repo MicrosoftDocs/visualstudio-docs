@@ -34,9 +34,8 @@ HRESULT GetPortSupplierId( 
 ```
 
 ## Parameters
- `pguidPortSupplier`\
-
- [out] Returns the GUID of the port supplier.
+`pguidPortSupplier`\
+[out] Returns the GUID of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

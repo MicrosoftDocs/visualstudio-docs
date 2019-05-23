@@ -34,9 +34,8 @@ int Detach(
 ```
 
 ## Parameters
- `pSession`\
-
- [in] A value that uniquely identifies the session to detach this process from.
+`pSession`\
+[in] A value that uniquely identifies the session to detach this process from.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

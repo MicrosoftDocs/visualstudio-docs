@@ -36,13 +36,11 @@ int EnumCodeContexts( 
 ```
 
 ## Parameters
- `pDocPos`\
+`pDocPos`\
+[in] An [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) object representing an abstract position in a source file known to the IDE.
 
- [in] An [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) object representing an abstract position in a source file known to the IDE.
-
- `ppEnum`
-
- [out] Returns an [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md) object that contains a list of the code contexts.
+`ppEnum`
+[out] Returns an [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md) object that contains a list of the code contexts.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
