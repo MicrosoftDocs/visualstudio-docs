@@ -34,9 +34,8 @@ int PassToDebuggee(
 ```
 
 ## Parameters
- `fPass`\
-
- [in] Nonzero (`TRUE`) if the exception should be passed on to the program being debugged when execution resumes, or zero (`FALSE`) if the exception should be discarded.
+`fPass`\
+[in] Nonzero (`TRUE`) if the exception should be passed on to the program being debugged when execution resumes, or zero (`FALSE`) if the exception should be discarded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

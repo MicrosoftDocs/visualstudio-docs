@@ -36,13 +36,11 @@ int GetStringFromValue(
 ```
 
 ## Parameters
- `value`\
+`value`\
+[in] The value for which to get the name of the enumeration constant.
 
- [in] The value for which to get the name of the enumeration constant.
-
- `pbstrValue`\
-
- [out] Returns the name of the enumeration constant.
+`pbstrValue`\
+[out] Returns the name of the enumeration constant.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if the value has no associated name, or returns an error code.

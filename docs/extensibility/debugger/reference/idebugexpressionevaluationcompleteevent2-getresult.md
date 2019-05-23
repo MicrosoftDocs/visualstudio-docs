@@ -34,9 +34,8 @@ int GetResult( 
 ```
 
 ## Parameters
- `ppResult`
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the result of the expression evaluation.
+`ppResult`
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the result of the expression evaluation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

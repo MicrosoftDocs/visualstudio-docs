@@ -41,20 +41,16 @@ int EvaluateSync(
 
 ## Parameters
 `dwFlags`\
-
- [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
+[in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
 
 `dwTimeout`\
-
- [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+[in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 `pExprCallback`\
-
- [in]This parameter is always a null value.
+[in]This parameter is always a null value.
 
 `ppResult`\
-
- [out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that contains the result of the expression evaluation.
+[out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that contains the result of the expression evaluation.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code. Some typical error codes are:
