@@ -28,7 +28,7 @@ A software development kit (SDK) is a collection of APIs that you can reference 
  Platform SDKs are required to develop apps for a platform. For example, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is required to develop apps for [!INCLUDE[win81](../debugger/includes/win81_md.md)].
 
 ### Installation
- All platform SDKs will be installed at*HKLM\Software\Microsoft\Microsoft SDKs\\[TPI]\v[TPV]\\@InstallationFolder = [SDK root]*. Accordingly, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is installed at *HKLM\Software\Microsoft\Microsoft SDKs\Windows\v8.1*.
+ All platform SDKs will be installed at *HKLM\Software\Microsoft\Microsoft SDKs\\[TPI]\v[TPV]\\@InstallationFolder = [SDK root]*. Accordingly, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is installed at *HKLM\Software\Microsoft\Microsoft SDKs\Windows\v8.1*.
 
 ### Layout
  Platform SDKs will have the following layout:
@@ -155,7 +155,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
 
 2. ProductFamilyName: The overall SDK product name. For example, the [!INCLUDE[winjs_long](../debugger/includes/winjs_long_md.md)] SDK is named "Microsoft.WinJS.1.0" and "Microsoft.WinJS.2.0", which belong to the same family of SDK products family, "Microsoft.WinJS". This attribute allows Visual Studio and MSBuild to make that connection. If this attribute doesn't exist, the SDK Name is used as the product family name.
 
-3. FrameworkIdentity: Specifies a dependency on one or more Windows component libraries The value of this attribute is put into the consuming app's manifest. This attribute is applicable only to Windows component libraries.
+3. FrameworkIdentity: Specifies a dependency on one or more Windows component libraries. The value of this attribute is put into the consuming app's manifest. This attribute is applicable only to Windows component libraries.
 
 4. TargetFramework: Specifies the SDKs that are available in the Reference Manager and the toolbox. This is a semicolon-delimited list of target framework monikers, for example ".NET Framework, version=v2.0; .NET Framework, version=v4.5.1". If several versions of the same target framework are specified, the Reference Manager uses the lowest specified version for filtering purposes. For example, if ".NET Framework, version=v2.0; .NET Framework, version=v4.5.1" is specified, Reference Manager will use ".NET Framework, version=v2.0". If a specific target framework profile is specified, only that profile will be used by the Reference Manager for filtering purposes. For example, when "Silverlight, version=v4.0, profile=WindowsPhone" is specified, Reference Manager filters on only the Windows Phone profile; a project targeting the full Silverlight 4.0 Framework does not see the SDK in the Reference Manager.
 
