@@ -7,6 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for your platforms and devices.
    ms.topic: hub-page
+   monikerRange: ">=vs-2017"
 
 highlightedContent:
    items:
