@@ -27,7 +27,11 @@ To start using a servicing baseline, download a fixed version Visual Studio Inst
 > [!NOTE]
 > Be careful to distinguish between the fixed version bootstrapper and the normal bootstrappers. The normal bootstrappers are configured to use the latest available release of Visual Studio. They have a number in the filename (for example: vs_enterprise__123456789-123456789.exe) when downloaded from my.visualstudio.com.
 
-During install, enterprise administrators need to configure their clients to prevent them from updating to the latest release. This can be done by [modifying the channelUri through command-line execution](update-servicing-baseline.md#install-a-servicing-baseline-via-the-internet) to use a non-existent file, by [changing the channelUri setting in the response configuration file](update-servicing-baseline.md#install-a-servicing-baseline-on-a-network) to use a channel manifest in the layout or local folder, or by [setting policies on the client system to disable updates](update-servicing-baseline.md#use-policy-settings-to-disable-clients-from-updating) to prevent clients from self-updating. 
+During install, enterprise administrators need to configure their clients to prevent them from updating to the latest release. This can be done by [changing the channelUri setting in the response configuration file](update-servicing-baseline.md#install-a-servicing-baseline-on-a-network) to use a channel manifest in the layout or local folder, by [modifying the channelUri through command-line execution](update-servicing-baseline.md#install-a-servicing-baseline-via-the-internet) to use a non-existent file, or by [setting policies on the client system to disable updates](update-servicing-baseline.md#use-policy-settings-to-disable-clients-from-updating) to prevent clients from self-updating. 
+
+### Install a servicing baseline on a network
+
+For administrators using a network layout install, modify the channelUri value in `response.json` in the layout to use the channelmanifest.json that is in the same folder. See [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) for step-by-step guidance. Changing the channelUri enables clients to look for updates in the layout location. 
 
 ### Install a servicing baseline via the internet
 
@@ -36,10 +40,6 @@ If it is an internet based install, add `--channelUri` with a non-existent chann
   ```cmd
    vs_enterprise.exe --channelUri c:\doesnotexist.chman 
   ```
-
-### Install a servicing baseline on a network
-
-For administrators using a network layout install, modify the channelUri value in `response.json` in the layout to use the channelmanifest.json that is in the same folder. See [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) for step-by-step guidance. Changing the channelUri enables clients to look for updates in the layout location. 
 
 ### Use policy settings to disable clients from updating
 
