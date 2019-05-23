@@ -1,5 +1,5 @@
 ---
-title: "How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy"
+title: "Code project rule sets+Azure DevOps project check-in policy"
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

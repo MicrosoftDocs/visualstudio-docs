@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Additional Code Information by Using _Analysis_assume"
+title: "Additional code information using _Analysis_assume"
 ms.date: 11/04/2016
 ms.topic: "conceptual"
 f1_keywords:
