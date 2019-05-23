@@ -15,7 +15,7 @@ ms.technology: vs-installation
 
 Some package payloads are allowed to change after a release has already shipped. When you or someone else creates a layout, this behavior might result in different layout content, depending on when a layout was created.
 
-Here's how to determine if the layout that was previously created has acquired the payloads that were modified after the release shipped:
+Here's how to determine if the layout that was previously created has acquired the package payloads that were modified after the release shipped:
 
 1. Open the setup log. The log is typically at `%TEMP%\dd_setup_[date].log` where `[date]` is when the layout operation started in `yyyyMMddHHmmss` format.
 
