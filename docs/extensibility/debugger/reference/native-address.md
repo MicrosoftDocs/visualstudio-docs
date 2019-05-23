@@ -37,7 +37,6 @@ public struct NATIVE_ADDRESS {
 ## Members
 
 `unknown`\
-
 The native address (the meaning of this depends on the runtime and operating system).
 
 ## Remarks
