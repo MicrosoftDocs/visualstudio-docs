@@ -1,5 +1,5 @@
 ---
-title: NumberOfParentCategoriesToRollUp element (Visual Studio Templates)
+title: NumberOfParentCategoriesToRollUp element (templates)
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
 ms.topic: reference
