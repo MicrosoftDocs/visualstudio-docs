@@ -36,13 +36,11 @@ int GetProgram( 
 ```
 
 ## Parameters
- `pProgramNode`
+`pProgramNode`
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object representing the program node.
 
- [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object representing the program node.
-
- `ppProgram`
-
- [out] Returns an [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program associated with the program node.
+`ppProgram`
+[out] Returns an [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program associated with the program node.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

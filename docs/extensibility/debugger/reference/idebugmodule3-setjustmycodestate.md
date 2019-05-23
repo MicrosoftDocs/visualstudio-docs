@@ -34,9 +34,8 @@ int SetJustMyCodeState(
 ```
 
 ## Parameters
- `fIsUserCode`\
-
- [in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
+`fIsUserCode`\
+[in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

@@ -36,13 +36,11 @@ int SetValue(
 ```
 
 ## Parameters
- `pValue`\
+`pValue`\
+[in] An array of bytes representing the new value.
 
- [in] An array of bytes representing the new value.
-
- `nSize`\
-
- [in] The size of the value in bytes.
+`nSize`\
+[in] The size of the value in bytes.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

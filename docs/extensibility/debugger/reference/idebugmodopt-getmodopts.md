@@ -37,17 +37,14 @@ int GetModOpts(
 ```
 
 ## Parameters
- `celt`\
+`celt`\
+[in] Number of elements to be returned.
 
- [in] Number of elements to be returned.
+`rgelt`\
+[out] Returns an array that contains the options.
 
- `rgelt`\
-
- [out] Returns an array that contains the options.
-
- `pceltFetched`\
-
- [in, out] Number of elements returned in the `rgelt` array.
+`pceltFetched`\
+[in, out] Number of elements returned in the `rgelt` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

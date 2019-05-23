@@ -34,9 +34,8 @@ int IsUserData(
 ```
 
 ## Parameters
- `pfUser`\
-
- [out] Returns nonzero (`TRUE`) if the object represents user data; zero (`FALSE`) if it does not.
+`pfUser`\
+[out] Returns nonzero (`TRUE`) if the object represents user data; zero (`FALSE`) if it does not.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
