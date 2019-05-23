@@ -42,25 +42,20 @@ int Attach( 
 ```
 
 ## Parameters
- `pProgram`\
+`pProgram`\
+[in] An array of [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) objects that represent programs to be attached to. These are port programs.
 
- [in] An array of [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) objects that represent programs to be attached to. These are port programs.
+`rgpProgramNodes`\
+[in] An array of [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objects that represent program nodes, one for each program. The program nodes in this array represent the same programs as in `pProgram`. The program nodes are given so that the DE can identify the programs to attach to.
 
- `rgpProgramNodes`\
+`celtPrograms`\
+[in] Number of programs and/or program nodes in the `pProgram` and `rgpProgramNodes` arrays.
 
- [in] An array of [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objects that represent program nodes, one for each program. The program nodes in this array represent the same programs as in `pProgram`. The program nodes are given so that the DE can identify the programs to attach to.
+`pCallback`\
+[in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used to send debug events to the SDM.
 
- `celtPrograms`\
-
- [in] Number of programs and/or program nodes in the `pProgram` and `rgpProgramNodes` arrays.
-
- `pCallback`\
-
- [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used to send debug events to the SDM.
-
- `dwReason`\
-
- [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching these programs. For more information, see the Remarks section.
+`dwReason`\
+[in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching these programs. For more information, see the Remarks section.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

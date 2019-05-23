@@ -36,13 +36,11 @@ int onRemoveText( 
 ```
 
 ## Parameters
- `pos`\
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was removed.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text was removed.
-
- `dwNumToRemove`\
-
- [in] Specifies the number of characters of text that were removed.
+`dwNumToRemove`\
+[in] Specifies the number of characters of text that were removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

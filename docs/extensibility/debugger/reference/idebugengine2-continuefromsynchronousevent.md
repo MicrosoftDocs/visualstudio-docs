@@ -35,8 +35,7 @@ HRESULT ContinueFromSynchronousEvent(
 
 ## Parameters
 `pEvent`\
-
- [in] An [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) object that represents the previously sent synchronous event from which the debugger should now continue.
+[in] An [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) object that represents the previously sent synchronous event from which the debugger should now continue.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

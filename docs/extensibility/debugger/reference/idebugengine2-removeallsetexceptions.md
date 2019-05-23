@@ -34,9 +34,8 @@ int RemoveAllSetExceptions( 
 ```
 
 ## Parameters
- `guidType`\
-
- [in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.
+`guidType`\
+[in] Either the GUID for the language or the GUID for the debug engine that is specific to a run-time architecture.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
