@@ -1,5 +1,5 @@
 ---
-title: Container Tools multicontainer: Docker Compose & ASP.NET Core
+title: "Container Tools multicontainer: Docker Compose & ASP.NET Core"
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen
