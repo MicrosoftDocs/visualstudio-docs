@@ -36,13 +36,11 @@ int GetProcess( 
 ```
 
 ## Parameters
- `ProcessId`\
+`ProcessId`\
+[in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that specifies the process identifier.
 
- [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that specifies the process identifier.
-
- `ppProcess`\
-
- [out] Returns an [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process.
+`ppProcess`\
+[out] Returns an [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

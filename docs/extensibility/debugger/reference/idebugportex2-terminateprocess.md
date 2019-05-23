@@ -34,9 +34,8 @@ int TerminateProcess( 
 ```
 
 ## Parameters
- `pPortProcess`\
-
- [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process to be terminated.
+`pPortProcess`\
+[in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process to be terminated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

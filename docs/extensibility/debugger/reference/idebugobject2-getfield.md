@@ -34,9 +34,8 @@ int GetField(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object if not a null value.
+`ppField`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object if not a null value.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

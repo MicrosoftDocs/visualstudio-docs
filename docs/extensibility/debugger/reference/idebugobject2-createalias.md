@@ -34,9 +34,8 @@ int CreateAlias(
 ```
 
 ## Parameters
- `ppAlias`\
-
- [out] The new (or existing) alias.
+`ppAlias`\
+[out] The new (or existing) alias.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

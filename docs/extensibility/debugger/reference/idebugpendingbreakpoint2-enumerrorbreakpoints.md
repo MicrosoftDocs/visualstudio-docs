@@ -37,13 +37,11 @@ int EnumErrorBreakpoints( 
 ```
 
 ## Parameters
- `bpErrorType`\
+`bpErrorType`\
+[in] A combination of values from the [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) enumeration that selects the type of errors to enumerate.
 
- [in] A combination of values from the [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) enumeration that selects the type of errors to enumerate.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects.
+`ppEnum`\
+[out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

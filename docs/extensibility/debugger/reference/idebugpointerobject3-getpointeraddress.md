@@ -33,9 +33,8 @@ int GetPointerAddress (
 ```
 
 ## Parameters
- `puAddress`
-
- [out] Returns the address of the pointer.
+`puAddress`
+[out] Returns the address of the pointer.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int IsEncOutdated(
 ```
 
 ## Parameters
- `pfEncOutdated`\
-
- [out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
+`pfEncOutdated`\
+[out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

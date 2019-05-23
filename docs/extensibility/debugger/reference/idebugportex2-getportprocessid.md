@@ -34,9 +34,8 @@ int GetPortProcessId ( 
 ```
 
 ## Parameters
- `pdwProcessId`\
-
- [out] Returns the physical process ID of the port itself.
+`pdwProcessId`\
+[out] Returns the physical process ID of the port itself.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
