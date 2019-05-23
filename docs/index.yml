@@ -183,7 +183,6 @@ additionalContent:
         url: /visualstudio/liveshare/
       - title: Develop with containers
         summary: Use containers to isolate modular components and improve scalability.
-   footer: 
 
   conceptualContent:
     sections:
