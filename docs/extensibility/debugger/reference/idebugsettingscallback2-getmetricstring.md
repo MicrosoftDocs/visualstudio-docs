@@ -39,21 +39,17 @@ private int GetMetricString(
 ```
 
 ## Parameters
- `pszType`\
+`pszType`\
+[in] Type of the metric.
 
- [in] Type of the metric.
+`guidSection`\
+[in] Unique identifier of the section.
 
- `guidSection`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the section.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pbstrValue`\
-
- [out] Returns the value string of the metric.
+`pbstrValue`\
+[out] Returns the value string of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

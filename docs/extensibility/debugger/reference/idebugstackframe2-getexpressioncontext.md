@@ -34,9 +34,8 @@ int GetExpressionContext ( 
 ```
 
 ## Parameters
- `ppExprCxt`\
-
- [out] Returns an [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) object that represents a context for expression evaluation.
+`ppExprCxt`\
+[out] Returns an [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) object that represents a context for expression evaluation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

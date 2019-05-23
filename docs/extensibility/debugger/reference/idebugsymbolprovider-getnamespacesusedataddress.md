@@ -36,13 +36,11 @@ int GetNamespacesUsedAtAddress(
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] The debug address.
 
- [in] The debug address.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

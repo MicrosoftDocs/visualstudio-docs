@@ -38,21 +38,17 @@ private int GetMetricDword(
 ```
 
 ## Parameters
- `pszType`\
+`pszType`\
+[in] Type of the metric.
 
- [in] Type of the metric.
+`guidSection`\
+[in] Unique identifier of the section.
 
- `guidSection`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the section.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pdwValue`\
-
- [out] Returns the value of the metric.
+`pdwValue`\
+[out] Returns the value of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
