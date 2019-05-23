@@ -34,9 +34,8 @@ int GetPortName( 
 ```
 
 ## Parameters
- `pbstrPortName`\
-
- [out] Returns the name of the port.
+`pbstrPortName`\
+[out] Returns the name of the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

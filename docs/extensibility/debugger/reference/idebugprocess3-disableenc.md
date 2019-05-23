@@ -33,9 +33,8 @@ HRESULT DisableENC(
 ```
 
 ## Parameters
- `reason`\
-
- [in] A value from the [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md) enumeration.
+`reason`\
+[in] A value from the [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

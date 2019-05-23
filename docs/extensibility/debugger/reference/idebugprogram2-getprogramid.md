@@ -34,9 +34,8 @@ int GetProgramId( 
 ```
 
 ## Parameters
- `pguidProgramId`\
-
- [out] Returns the `GUID` for this program.
+`pguidProgramId`\
+[out] Returns the `GUID` for this program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

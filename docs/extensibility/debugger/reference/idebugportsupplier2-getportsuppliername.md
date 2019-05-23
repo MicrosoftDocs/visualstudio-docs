@@ -34,9 +34,8 @@ int GetPortSupplierName( 
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the port supplier.
+`pbstrName`\
+[out] Returns the name of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

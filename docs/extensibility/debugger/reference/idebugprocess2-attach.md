@@ -40,21 +40,17 @@ int Attach( 
 ```
 
 ## Parameters
- `pCallback`\
+`pCallback`\
+[in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that is used for debug event notification.
 
- [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that is used for debug event notification.
+`rgguidSpecificEngines`\
+[in] An array of GUIDs of debug engines to be used to debug programs running in the process. This parameter can be a null value. See Remarks for details.
 
- `rgguidSpecificEngines`\
+`celtSpecificEngines`\
+[in] The number of debug engines in the `rgguidSpecificEngines` array and the size of the `rghrEngineAttach` array.
 
- [in] An array of GUIDs of debug engines to be used to debug programs running in the process. This parameter can be a null value. See Remarks for details.
-
- `celtSpecificEngines`\
-
- [in] The number of debug engines in the `rgguidSpecificEngines` array and the size of the `rghrEngineAttach` array.
-
- `rghrEngineAttach`\
-
- [in, out] An array of HRESULT codes returned by the debug engines. The size of this array is specified in the `celtSpecificEngines` parameter. Each code is typically either `S_OK` or `S_ATTACH_DEFERRED`. The latter indicates that the DE is currently attached to no programs.
+`rghrEngineAttach`\
+[in, out] An array of HRESULT codes returned by the debug engines. The size of this array is specified in the `celtSpecificEngines` parameter. Each code is typically either `S_OK` or `S_ATTACH_DEFERRED`. The latter indicates that the DE is currently attached to no programs.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows other possible values.

@@ -34,9 +34,8 @@ int EnumModules( 
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) object that contains a list of the modules.
+`ppEnum`\
+[out] Returns an [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) object that contains a list of the modules.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
