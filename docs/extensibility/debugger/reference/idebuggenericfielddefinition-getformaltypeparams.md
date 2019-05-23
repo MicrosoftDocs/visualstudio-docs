@@ -37,17 +37,14 @@ int GetFormalTypeParams(
 ```
 
 ## Parameters
- `cParams`\
+`cParams`\
+[in] Number of parameters.
 
- [in] Number of parameters.
+`ppParams`\
+[out] Array of type parameters.
 
- `ppParams`\
-
- [out] Array of type parameters.
-
- `pcParams`\
-
- [in, out] Number of parameters in the `ppParams` array.
+`pcParams`\
+[in, out] Number of parameters in the `ppParams` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

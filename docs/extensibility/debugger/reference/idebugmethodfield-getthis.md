@@ -34,9 +34,8 @@ int GetThis(
 ```
 
 ## Parameters
- `ppClass`\
-
- [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the "this" pointer.
+`ppClass`\
+[out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the "this" pointer.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

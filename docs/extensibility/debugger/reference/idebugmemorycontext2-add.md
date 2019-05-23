@@ -37,13 +37,11 @@ int Add(
 ```
 
 ## Parameters
- `dwCount`\
+`dwCount`\
+[in] The value to add to the current context.
 
- [in] The value to add to the current context.
-
- `ppMemCxt`\
-
- [out] Returns a new [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object.
+`ppMemCxt`\
+[out] Returns a new [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

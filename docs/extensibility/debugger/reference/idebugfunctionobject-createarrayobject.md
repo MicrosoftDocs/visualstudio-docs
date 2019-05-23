@@ -44,29 +44,23 @@ int CreateArrayObject(
 ```
 
 ## Parameters
- `ot`\
+`ot`\
+[in] Specifies a value from the [OBJECT_TYPE](../../../extensibility/debugger/reference/object-type.md) enumeration indicating the type of the new array object.
 
- [in] Specifies a value from the [OBJECT_TYPE](../../../extensibility/debugger/reference/object-type.md) enumeration indicating the type of the new array object.
+`pClassField`\
+[in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing the class of an object, if creating an array of object instance values. If creating an array of primitive objects, this parameter is a null value.
 
- `pClassField`\
+`dwRank`\
+[in] The rank or number of dimensions of the array.
 
- [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing the class of an object, if creating an array of object instance values. If creating an array of primitive objects, this parameter is a null value.
+`dwDims`\
+[in] The sizes of each dimension of the array.
 
- `dwRank`\
+`dwLowBounds`\
+[in] The origin of each dimension (typically 0 or 1).
 
- [in] The rank or number of dimensions of the array.
-
- `dwDims`\
-
- [in] The sizes of each dimension of the array.
-
- `dwLowBounds`\
-
- [in] The origin of each dimension (typically 0 or 1).
-
- `ppObject`\
-
- [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the newly created array. This is actually an [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md) object.
+`ppObject`\
+[out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the newly created array. This is actually an [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md) object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

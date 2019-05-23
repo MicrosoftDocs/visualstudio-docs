@@ -34,8 +34,7 @@ int ConstraintCount(
 
 ## Parameters
 `pcConst`\
-
- [in, out] Number of constraints that are associated with this field.
+[in, out] Number of constraints that are associated with this field.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
