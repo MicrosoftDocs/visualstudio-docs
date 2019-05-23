@@ -1,5 +1,5 @@
 ---
-title: "Remote Debugging Monitor on remote computer lacks permission to connect"
+title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
