@@ -34,9 +34,8 @@ int Clone(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns a copy of this enumeration as a separate object.
+`ppEnum`\
+[out] Returns a copy of this enumeration as a separate object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

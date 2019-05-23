@@ -34,9 +34,8 @@ int Resume ( 
 ```
 
 ## Parameters
- `pdwSuspendCount`\
-
- [out] Returns the suspend count after the resume operation.
+`pdwSuspendCount`\
+[out] Returns the suspend count after the resume operation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
