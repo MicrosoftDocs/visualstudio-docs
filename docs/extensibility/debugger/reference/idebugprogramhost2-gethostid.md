@@ -34,9 +34,8 @@ int GetHostId( 
 ```
 
 ## Parameters
- `pdwId`\
-
- [in, out] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that is filled in with the process identifier information.
+`pdwId`\
+[in, out] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that is filled in with the process identifier information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

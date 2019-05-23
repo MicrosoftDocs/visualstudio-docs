@@ -36,13 +36,11 @@ int GetHostName( 
 ```
 
 ## Parameters
- `dwType`\
+`dwType`\
+[in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration.
 
- [in] A value from the [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) enumeration.
-
- `pbstrHostName`\
-
- [out] Returns the requested name of the hosting process.
+`pbstrHostName`\
+[out] Returns the requested name of the hosting process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

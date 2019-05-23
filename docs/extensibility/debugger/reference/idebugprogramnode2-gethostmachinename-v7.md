@@ -38,8 +38,7 @@ int GetHostMachineName_V7 (
 ## Parameters
 
 `pbstrHostMachineName`\
-
- [out] Returns the name of the machine in which the program is running.
+[out] Returns the name of the machine in which the program is running.
 
 ## Return Value
 
