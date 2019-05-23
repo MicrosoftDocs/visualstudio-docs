@@ -9,13 +9,13 @@ description:  Learn about the Office 365 benefit included in some Visual Studio 
 searchscope: VS Subscription
 ---
 
-# Office 365 Pro Plus in Visual Studio Subscriptions
+# Office 365 ProPlus in Visual Studio Subscriptions
 
-Create your best work. Work anywhere with apps that are always updated. Office 365 Pro Plus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. Office 365 also comes with services like 1TB of OneDrive storage, 60 Skype minutes per month, and Microsoft chat and phone support. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
+Create your best work. Work anywhere with apps that are always updated. Office 365 ProPlus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. Office 365 also comes with services like 1TB of OneDrive storage, 60 Skype minutes per month, and Microsoft chat and phone support. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
-## Getting started with Office 365 Pro Plus
+## Getting started with Office 365 ProPlus
 
-Follow these steps to download and activate Office 365 Pro Plus:
+Follow these steps to download and activate Office 365 ProPlus:
 1. Sign in to your Visual Studio Enterprise subscription.
 2. Click on **Downloads** tab.
 3. You'll see a list of featured downloads. In the Office list, choose **Office 365**.
