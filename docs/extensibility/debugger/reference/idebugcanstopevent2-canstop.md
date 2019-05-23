@@ -34,9 +34,8 @@ int CanStop ( 
 ```
 
 ## Parameters
- `fCanStop`\
-
- [in] Non-zero (`TRUE`) if the DE should stop at the current code location; otherwise, zero (`FALSE`).
+`fCanStop`\
+[in] Non-zero (`TRUE`) if the DE should stop at the current code location; otherwise, zero (`FALSE`).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

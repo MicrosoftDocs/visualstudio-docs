@@ -33,8 +33,7 @@ public int GetModule(
 
 ## Parameters
 `ppModule`\
-
- [out] Reference to the debug module interface.
+[out] Reference to the debug module interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
