@@ -34,9 +34,8 @@ int GetNewObjectForVisualizer(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] The new object.
+`ppObject`\
+[out] The new object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -38,17 +38,14 @@ int GetData(
 ```
 
 ## Parameters
- `dataSize`\
+`dataSize`\
+[in] The number of bytes to retrieve (the `data` array must hold at least this number of bytes).
 
- [in] The number of bytes to retrieve (the `data` array must hold at least this number of bytes).
+`sizeGotten`\
+[out] Returns the number of bytes actually retrieved.
 
- `sizeGotten`\
-
- [out] Returns the number of bytes actually retrieved.
-
- `data`\
-
- [in, out] Array to be filled in with the requested data.
+`data`\
+[in, out] Array to be filled in with the requested data.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

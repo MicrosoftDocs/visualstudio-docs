@@ -38,17 +38,14 @@ int SetObjectForVisualizer(
 ```
 
 ## Parameters
- `pNewObject`\
+`pNewObject`\
+[in] The object to set.
 
- [in] The object to set.
+`error`\
+[out] If there was an error setting the object, this string holds the error message.
 
- `error`\
-
- [out] If there was an error setting the object, this string holds the error message.
-
- `pException`\
-
- [out] If there was an error, this object holds the exception information.
+`pException`\
+[out] If there was an error, this object holds the exception information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
