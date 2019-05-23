@@ -38,7 +38,6 @@ public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 ## Fields
 
 `PSDFLAG_SHOW_WARNING_ICON`\
-
 If selected, the warning icon will be displayed in the UI.
 
 ## Remarks
