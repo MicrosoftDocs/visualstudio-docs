@@ -17,7 +17,7 @@ highlightedContent:
      itemType: overview
      url: /visualstudio/ide/visual-studio-ide
    - title: What's New in Visual Studio 2019
-     itemType: whats-new
+     itemType: get-started
      url: /visualstudio/ide/whats-new-visual-studio-2019
    - title: Improve your development skills
      itemType: learn
@@ -128,6 +128,7 @@ tools:
       url: /dotnet/csharp 
     - title: F# 
       imageSrc: https://docs.microsoft.com/media/logos/logo_Fsharp.svg
+      url: ide/quickstart-fsharp.md
     - title: Visual Basic
       imageSrc: https://docs.microsoft.com/media/logos/logo_VB.svg
       url: /dotnet/visual-basic 
@@ -142,7 +143,7 @@ tools:
       url: http://www.typescriptlang.org/docs/tutorial.html
     - title: R (Visual Studio 2017 only)
       imageSrc: https://docs.microsoft.com/media/logos/logo_R.svg
-
+      url: /visualstudio/rtvs/?view=vs-2017
 
 additionalContent:
    sections:
@@ -185,8 +186,8 @@ additionalContent:
         summary: Use containers to isolate modular components and improve scalability.
 
 conceptualContent:
-    sections:
     - title: Workloads
+      summary:  
       items:
         - title: Web and Cloud
           links:
