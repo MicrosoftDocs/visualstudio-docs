@@ -211,8 +211,8 @@ conceptualContent:
             - text: Office/Sharepoint development
               itemType: overview
               url: https://developer.microsoft.com/office/docs
-         - title: Windows
-           links:
+        - title: Windows
+          links:
             - text: .NET Desktop development
               itemType: overview
               url: /dotnet/framework/develop-client-apps
@@ -222,8 +222,8 @@ conceptualContent:
             - text: Windows development with C++
               itemType: overview
               url: /cpp/windows/desktop-applications-visual-cpp
-          - title: Mobile and gaming
-            links:
+        - title: Mobile and gaming
+          links:
             - text: Mobile development with .NET (Xamarin)
               itemType: overview
               url: /xamarin/
@@ -239,15 +239,16 @@ conceptualContent:
             - text: Game development with C++
               itemType: overview
               url: /windows/uwp/gaming/e2e
-          - title: Other toolsets
-            links:
-              - text: Visual Studio extension development
-                itemType: overview
-                url: extensibility/
-              - text: Linux development with C++
-                itemType: overview
-                url: /cpp/linux/
-              - text: .NET Core cross-platform development
-                itemType: overview
-                url: /dotnet/core/
+        - title: Other toolsets
+          links:
+            - text: Visual Studio extension development
+              itemType: overview
+              url: extensibility/
+            - text: Linux development with C++
+              itemType: overview
+              url: /cpp/linux/
+            - text: .NET Core cross-platform development
+              itemType: overview
+              url: /dotnet/core/
         footer: [Blog](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue reporting](ide/talk-to-us.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html)
+        
