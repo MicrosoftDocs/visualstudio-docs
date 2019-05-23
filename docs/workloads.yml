@@ -38,6 +38,7 @@ tools:
 
 conceptualContent:
      title: Workloads
+     summary: Workloads represent types of app development, including languages, frameworks, target platforms or target devices.
      items:
         - title: Web and Cloud
           links:
