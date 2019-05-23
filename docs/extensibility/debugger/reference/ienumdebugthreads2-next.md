@@ -38,17 +38,14 @@ int Next(
 ```
 
 ## Parameters
- `celt`\
+`celt`\
+[in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
 
- [in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
+`rgelt`\
+[in, out] Array of [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) elements to be filled in.
 
- `rgelt`\
-
- [in, out] Array of [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) elements to be filled in.
-
- `pceltFetched`\
-
- [out] Returns the number of elements actually returned in `rgelt`.
+`pceltFetched`\
+[out] Returns the number of elements actually returned in `rgelt`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.

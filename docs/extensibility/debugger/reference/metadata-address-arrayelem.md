@@ -39,13 +39,11 @@ public struct METADATA_ADDRESS_ARRAYELEM {
 ## Members
 
 `tokMethod`\
-
 The ID of the array this element is a part of.
 
 [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
 `dwIndex`\
-
 The index of this element within the array.
 
 ## Remarks
