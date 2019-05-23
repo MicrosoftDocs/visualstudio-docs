@@ -34,9 +34,8 @@ int SetEngine( 
 ```
 
 ## Parameters
- `guidEngine`\
-
- [in] The GUID of the DE.
+`guidEngine`\
+[in] The GUID of the DE.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

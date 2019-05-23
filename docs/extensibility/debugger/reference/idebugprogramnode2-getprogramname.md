@@ -35,8 +35,7 @@ int GetProgramName (
 
 ## Parameters
 `pbstrProgramName`\
-
- [out] Returns the name of the program.
+[out] Returns the name of the program.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
