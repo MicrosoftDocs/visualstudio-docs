@@ -186,11 +186,9 @@ additionalContent:
 #      - title: Develop with containers
 #        summary: Use containers to isolate modular components and improve scalability.
 #        url: containers/
-
-conceptualContent:
-    - title: Workloads
-      summary:  
-      items:
+   - title: Workloads
+     summary:  
+     items:
         - title: Web and Cloud
           links:
             - text: Web development
