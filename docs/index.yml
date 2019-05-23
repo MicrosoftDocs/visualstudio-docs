@@ -49,12 +49,11 @@ productDirectory:
 
 conceptualContent:
   title: Get started 
-  summary:
   items:
     - title: Learn how to use Visual Studio
       links:
         - text: Start a guided tour
-          url: 
+          url: ide/visual-studio-ide.md
           itemType: overview
         - text: Open code from a repo
           url: get-started/tutorial-open-project-from-repo.md
@@ -186,8 +185,9 @@ additionalContent:
 #      - title: Develop with containers
 #        summary: Use containers to isolate modular components and improve scalability.
 #        url: containers/
+
+conceptualContent:
    - title: Workloads
-     summary:  
      items:
         - title: Web and Cloud
           links:
