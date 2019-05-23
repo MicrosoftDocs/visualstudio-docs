@@ -34,9 +34,8 @@ HRESULT Suspend ( 
 ```
 
 ## Parameters
- `pdwSuspendCount`\
-
- [out] Returns the suspend count after the suspend operation.
+`pdwSuspendCount`\
+[out] Returns the suspend count after the suspend operation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -36,13 +36,11 @@ int GetPropertyProxy(
 ```
 
 ## Parameters
- `dwID`\
+`dwID`\
+[in] ID of the desired property proxy.
 
- [in] ID of the desired property proxy.
-
- `proxy`\
-
- [out] Returns an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) object.
+`proxy`\
+[out] Returns an [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

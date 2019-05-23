@@ -35,13 +35,11 @@ int CreatePrimitive (
 ```
 
 ## Parameters
- `dwElementType`\
+`dwElementType`\
+[in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
- [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
-
- `pTypeField`\
-
- [out] Returns the IDebugField interface for the new type.
+`pTypeField`\
+[out] Returns the IDebugField interface for the new type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -36,12 +36,11 @@ int CanSetNextStatement ( 
 ```
 
 ## Parameters
- `pStackFrame`\
- Reserved for future use; set to a null value. If this is a null value, use the current stack frame.
+`pStackFrame`\
+Reserved for future use; set to a null value. If this is a null value, use the current stack frame.
 
- `pCodeContext`\
-
- [in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
+`pCodeContext`\
+[in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -37,17 +37,14 @@ int GetValueDisplayStringCount (
 ```
 
 ## Parameters
- `displayKind`\
+`displayKind`\
+[in] Value from the [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) enumeration.
 
- [in] Value from the [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) enumeration.
+`propertyOrField`\
+[in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents a property or field.
 
- `propertyOrField`\
-
- [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface that represents a property or field.
-
- `pcelt`\
-
- [out] Returns the number of value strings to display.
+`pcelt`\
+[out] Returns the number of value strings to display.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

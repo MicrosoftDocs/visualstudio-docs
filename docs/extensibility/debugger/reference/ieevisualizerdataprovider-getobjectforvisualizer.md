@@ -34,9 +34,8 @@ int GetObjectForVisualizer(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] The object being represented by this visualizer
+`ppObject`\
+[out] The object being represented by this visualizer
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

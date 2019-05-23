@@ -34,9 +34,8 @@ int GetProgram ( 
 ```
 
 ## Parameters
- `ppProgram`\
-
- [out] Returns an [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program this thread is running in.
+`ppProgram`\
+[out] Returns an [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program this thread is running in.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

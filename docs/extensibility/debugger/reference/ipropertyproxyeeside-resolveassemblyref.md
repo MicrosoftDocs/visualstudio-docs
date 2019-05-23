@@ -42,25 +42,20 @@ int ResolveAssemblyRef(
 ```
 
 ## Parameters
- `assemName`\
+`assemName`\
+[in] Name of the assembly to resolve.
 
- [in] Name of the assembly to resolve.
+`assemBytes`\
+[out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the assembly bytes associated with the reference.
 
- `assemBytes`\
+`assemPdb`\
+[out] Returns an `IEEDataStorage` object containing the symbol store data associated with this reference.
 
- [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the assembly bytes associated with the reference.
+`assemLocation`\
+[out] Returns the path location of this reference.
 
- `assemPdb`\
-
- [out] Returns an `IEEDataStorage` object containing the symbol store data associated with this reference.
-
- `assemLocation`\
-
- [out] Returns the path location of this reference.
-
- `alr`\
-
- [out] Returns a value from the [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md) enumeration indicating the location of this reference's assembly.
+`alr`\
+[out] Returns a value from the [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md) enumeration indicating the location of this reference's assembly.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
