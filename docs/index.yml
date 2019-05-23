@@ -184,7 +184,7 @@ additionalContent:
       - title: Develop with containers
         summary: Use containers to isolate modular components and improve scalability.
 
-  conceptualContent:
+conceptualContent:
     sections:
     - title: Workloads
       items:
