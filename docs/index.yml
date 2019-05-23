@@ -28,19 +28,19 @@ productDirectory:
     items: 
     - title: Visual Studio
       summary: Build apps and games, using Windows, to reach every device with Android, iOS, Windows, web, or cloud.
-      imageSrc: https://docs.microsoft.com/visualstudio/products/images/vs-ide-2019.svg
+      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-ide.svg
       url: /visualstudio/ide 
     - title: Visual Studio for Mac 
       summary: Develop apps and games for iOS, Android, desktop, and web using .NET.
-      imageSrc: https://docs.microsoft.com/visualstudio/products/images/logo_vs-mac.svg
+      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
       url: /visualstudio/mac
     - title: Visual Studio Code 
       summary: Rich editing and debugging in hundreds of languages on MacOS, Linux, and Windows.
-      imageSrc: https://docs.microsoft.com/visualstudio/products/images/logo_vs-code.svg
+      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-code.svg
       url: https://code.visualstudio.com/docs
     - title: Visual Studio App Center 
       summary: Continuous integration, delivery, and learning for Android, iOS, macOS, and Windows apps. Ship 5-star, higher-quality apps faster and with confidence.
-      imageSrc: https://docs.microsoft.com/visualstudio/products/images/vs-mobile-center.svg
+      imageSrc: https://docs.microsoft.com/media/logos/vs-mobile-center.svg
       url: /appcenter
     - title: Visual Studio Subscriptions
       summary: Developer tools, cloud services, training and support all in one place.
@@ -174,16 +174,16 @@ additionalContent:
       - title: Measure performance
         summary: Identify bottlenecks and optimize code performance by using diagnostic tools.
         url: profiling/index.md
-#      - title: Extend
-#        summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
-#        url: extensibility/
-#      - title: Data
-#        summary: Create data apps that connect to any database or service, and anywhere&#8212;local or cloud.
-#        url: data-tools/accessing-data-in-visual-studio.md
-#      - title: Collaborate
-#        summary: Share, edit, and debug code in a collaborative, real-time environment.
-#        url: /visualstudio/liveshare/
-#      - title: Develop with containers
-#        summary: Use containers to isolate modular components and improve scalability.
-#        url: containers/
+      - title: Extend
+        summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
+        url: extensibility/
+      - title: Data
+        summary: Create data apps that connect to any database or service, and anywhere&#8212;local or cloud.
+        url: data-tools/accessing-data-in-visual-studio.md
+      - title: Collaborate
+        summary: Share, edit, and debug code in a collaborative, real-time environment.
+        url: /visualstudio/liveshare/
+      - title: Develop with containers
+        summary: Use containers to isolate modular components and improve scalability.
+        url: containers/
    footer: Find documentation for the type of development you are doing at the [Workloads](/visualstudio/workloads) page. 
