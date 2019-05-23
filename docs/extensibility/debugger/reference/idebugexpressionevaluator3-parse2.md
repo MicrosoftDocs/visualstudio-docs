@@ -47,36 +47,28 @@ HRESULT Parse2 (
 
 ## Parameters
 `upstrExpression`\
-
- [in] The expression string to be parsed.
+[in] The expression string to be parsed.
 
 `dwFlags`\
-
- [in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
+[in] A collection of [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) constants that determine how the expression is to be parsed.
 
 `nRadix`\
-
- [in] Radix to be used to interpret any numerical information.
+[in] Radix to be used to interpret any numerical information.
 
 `pSymbolProvider`\
-
- [in] Interface of the symbol provider.
+[in] Interface of the symbol provider.
 
 `pAddress`\
-
- [in] Address of the evaluating frame.
+[in] Address of the evaluating frame.
 
 `pbstrError`\
-
- [out] Returns the error as human-readable text.
+[out] Returns the error as human-readable text.
 
 `pichError`\
-
- [out] Returns the character position of the start of the error in the expression string.
+[out] Returns the character position of the start of the error in the expression string.
 
 `ppParsedExpression`\
-
- [out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
+[out] Returns the parsed expression in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

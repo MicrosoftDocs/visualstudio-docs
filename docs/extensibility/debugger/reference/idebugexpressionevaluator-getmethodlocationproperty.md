@@ -42,25 +42,20 @@ int GetMethodLocationProperty(
 ```
 
 ## Parameters
- `upstrFullyQualifiedMethodPlusOffset`\
+`upstrFullyQualifiedMethodPlusOffset`\
+[in] The method location and offset, expressed as a string.
 
- [in] The method location and offset, expressed as a string.
+`pSymbolProvider`\
+[in] The symbol provider expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) object.
 
- `pSymbolProvider`\
+`pAddress`\
+[in] An address within the method, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object.
 
- [in] The symbol provider expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) object.
+`pBinder`\
+[in] The binder expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
 
- `pAddress`\
-
- [in] An address within the method, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object.
-
- `pBinder`\
-
- [in] The binder expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
-
- `ppProperty`\
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface that represents the memory address.
+`ppProperty`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface that represents the memory address.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

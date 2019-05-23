@@ -34,9 +34,8 @@ int SetException( 
 ```
 
 ## Parameters
- `pException`\
-
- [in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception and how to debug it.
+`pException`\
+[in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception and how to debug it.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

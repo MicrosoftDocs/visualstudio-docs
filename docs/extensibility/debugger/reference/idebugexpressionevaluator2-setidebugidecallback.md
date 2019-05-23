@@ -33,9 +33,8 @@ int SetIDebugIDECallback (
 ```
 
 ## Parameters
- `pCallback`\
-
- [in] Interface for the callback.
+`pCallback`\
+[in] Interface for the callback.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

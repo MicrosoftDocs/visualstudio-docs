@@ -34,8 +34,7 @@ int SetCallback (
 
 ## Parameters
 `pCallback`\
-
- [in] Interface to use for the settings callback.
+[in] Interface to use for the settings callback.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.
