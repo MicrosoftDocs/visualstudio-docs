@@ -35,13 +35,11 @@ int CreatePointerToType(
 ```
 
 ## Parameters
- `pTypeField`\
+`pTypeField`\
+[in] Type to point to. It is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
 
- [in] Type to point to. It is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
-
- `pPtrToTypeField`\
-
- [out] Returns the pointer represented by a new **IDebugField** object.
+`pPtrToTypeField`\
+[out] Returns the pointer represented by a new **IDebugField** object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

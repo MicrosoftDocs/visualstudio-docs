@@ -34,9 +34,8 @@ int GetProgramNode( 
 ```
 
 ## Parameters
- `ppProgramNode`\
-
- [out] Returns an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node associated with this program.
+`ppProgramNode`\
+[out] Returns an [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node associated with this program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

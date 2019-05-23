@@ -34,9 +34,8 @@ int GetAlias(
 ```
 
 ## Parameters
- `ppAlias`\
-
- [out] Returns an [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) object representing the alias for this object; otherwise, returns a null value.
+`ppAlias`\
+[out] Returns an [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) object representing the alias for this object; otherwise, returns a null value.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

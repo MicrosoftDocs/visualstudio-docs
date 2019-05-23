@@ -34,9 +34,8 @@ int GetCurrentLocation( 
 ```
 
 ## Parameters
- `puCodeLocationId`\
-
- [out] Returns the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
+`puCodeLocationId`\
+[out] Returns the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

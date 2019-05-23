@@ -34,9 +34,8 @@ int DestroyProgram( 
 ```
 
 ## Parameters
- `pProgram`\
-
- [in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program that has been atypically terminated.
+`pProgram`\
+[in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program that has been atypically terminated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

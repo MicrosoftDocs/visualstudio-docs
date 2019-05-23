@@ -41,15 +41,12 @@ public struct PDB_TYPE {
 ## Members
 
 `ulAppDomainID`\
-
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
 `guidModule`\
-
 The GUID of the module that contains this field.
 
 `symid`\
-
 The ID of the symbol that corresponds to this field.
 
 ## Remarks

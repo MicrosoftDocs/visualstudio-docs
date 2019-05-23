@@ -34,9 +34,8 @@ int ResumeProcess ( 
 ```
 
 ## Parameters
- `pProcess`\
-
- [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be resumed.
+`pProcess`\
+[in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be resumed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code.

@@ -33,9 +33,8 @@ public int GetEngineFilter(
 ```
 
 ## Parameters
- `pEngineArray`\
-
- [out] Reference to a structure that contains unique identifiers for debug engines.
+`pEngineArray`\
+[out] Reference to a structure that contains unique identifiers for debug engines.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

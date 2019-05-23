@@ -36,13 +36,11 @@ int GetDocument( 
 ```
 
 ## Parameters
- `bstrDocumentUrl`\
+`bstrDocumentUrl`\
+[in] The document URL.
 
- [in] The document URL.
-
- `ppDocument`\
-
- [out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object representing the document.
+`ppDocument`\
+[out] Returns an [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object representing the document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

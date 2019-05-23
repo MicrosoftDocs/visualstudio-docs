@@ -35,8 +35,7 @@ int GetPendingBreakpoint(
 
 ## Parameters
 `ppPendingBP`\
-
- [out] Returns the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the pending breakpoint being bound.
+[out] Returns the [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the pending breakpoint being bound.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

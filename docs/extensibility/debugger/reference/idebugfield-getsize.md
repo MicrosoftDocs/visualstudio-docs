@@ -34,9 +34,8 @@ int GetSize(
 ```
 
 ## Parameters
- `pdwSize`\
-
- [out] Returns the size.
+`pdwSize`\
+[out] Returns the size.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

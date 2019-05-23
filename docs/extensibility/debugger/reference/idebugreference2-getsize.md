@@ -34,9 +34,8 @@ int GetSize ( 
 ```
 
 ## Parameters
- `pdwSize`\
-
- [out] Returns the size, in bytes, of the value of the reference.
+`pdwSize`\
+[out] Returns the size, in bytes, of the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

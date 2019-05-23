@@ -93,11 +93,14 @@ A:  This change will not impact existing subscribers.
 #### Q:  Do I need to do anything as a result of these changes?
 A:  No.  Your subscriptions will remain in place and you will be able to manage them as you do today.
 
-#### Q: What if I want to increase the number of subscriptions my company owns?
-A:  Your administrator can still increase the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to increase subscription counts.
+#### Q: What if I want to increase the number of subscriptions for my customers?
 
-#### Q: What if I want to decrease the number of subscriptions my company owns?
-A:  Your administrator can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts.
+A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your administrator can only modify the number of licenses in the current month of purchase (they will be valid for 1 year and charged for 1 year). Outside of the month of purchase it is no longer possible to increase the number of subscriptions.
+
+#### Q: What if I want to decrease the number of subscriptions for my customers?
+
+A: Your administrator can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
+
 
 #### Q: If I cancel my subscription, will I be able to buy another Annual Cloud subscription later?
 A:  Although you will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).

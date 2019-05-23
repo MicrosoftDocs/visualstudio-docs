@@ -34,13 +34,11 @@ public int GetRange(
 ```
 
 ## Parameters
- `pdwBegOffset`\
+`pdwBegOffset`\
+[in, out] Offset for the start position of the range. Set this parameter to a null value if this information is not needed.
 
- [in, out] Offset for the start position of the range. Set this parameter to a null value if this information is not needed.
-
- `pdwEndOffset`\
-
- [in, out] Offset for the end position of the range. Set this parameter to a null value if this information is not needed.
+`pdwEndOffset`\
+[in, out] Offset for the end position of the range. Set this parameter to a null value if this information is not needed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

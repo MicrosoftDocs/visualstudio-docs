@@ -34,9 +34,8 @@ int SetDebuggerPresent(
 ```
 
 ## Parameters
- `fDebuggerPresent`\
-
- [in] Non-zero (`TRUE`) if a debugger is present, zero (`FALSE`) if it is not.
+`fDebuggerPresent`\
+[in] Non-zero (`TRUE`) if a debugger is present, zero (`FALSE`) if it is not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int IsUserCode(
 ```
 
 ## Parameters
- `pfUser`\
-
- [out] Nonzero (`TRUE`) if module represents user code, zero (`FALSE`) if it does not.
+`pfUser`\
+[out] Nonzero (`TRUE`) if module represents user code, zero (`FALSE`) if it does not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

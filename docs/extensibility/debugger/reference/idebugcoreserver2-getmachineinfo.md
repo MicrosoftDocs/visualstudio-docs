@@ -36,9 +36,8 @@ int GetMachineInfo( 
 ```
 
 ## Parameters
- `Fields`\
-
- [in] A combination of flags from the [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) enumeration that specify which fields of `pMachineInfo` are to be filled out.
+`Fields`\
+[in] A combination of flags from the [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) enumeration that specify which fields of `pMachineInfo` are to be filled out.
 
  `pMachineInfo`\
 

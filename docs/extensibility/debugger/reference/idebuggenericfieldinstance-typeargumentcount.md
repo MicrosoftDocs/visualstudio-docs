@@ -33,9 +33,8 @@ int TypeArgumentCount(
 ```
 
 ## Parameters
- `pcArgs`\
-
- [in, out] Number of type parameter arguments for this instance.
+`pcArgs`\
+[in, out] Number of type parameter arguments for this instance.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

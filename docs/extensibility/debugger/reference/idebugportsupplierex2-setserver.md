@@ -32,8 +32,8 @@ int SetServer(
 ```
 
 ## Parameters
- `pServer`\
- Core server to set for the port supplier.
+`pServer`\
+Core server to set for the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -35,8 +35,7 @@ int GetBreakpointType(
 
 ## Parameters
 `pBPType`\
-
- [out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that describes the type of breakpoint.
+[out] Returns a value from the [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) enumeration that describes the type of breakpoint.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

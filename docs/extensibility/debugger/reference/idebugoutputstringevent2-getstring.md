@@ -34,9 +34,8 @@ int GetString( 
 ```
 
 ## Parameters
- `pbstrString`\
-
- [out] Returns the displayable message.
+`pbstrString`\
+[out] Returns the displayable message.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

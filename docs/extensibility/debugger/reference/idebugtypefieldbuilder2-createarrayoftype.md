@@ -37,17 +37,14 @@ int CreateArrayOfType (
 ```
 
 ## Parameters
- `pTypeField`\
+`pTypeField`\
+[in] Type of elements the array will hold.
 
- [in] Type of elements the array will hold.
+`rank`\
+[in] Number of elements in the array.
 
- `rank`\
-
- [in] Number of elements in the array.
-
- `pArrayOfTypeField`\
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) objects that represent the new array.
+`pArrayOfTypeField`\
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) objects that represent the new array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

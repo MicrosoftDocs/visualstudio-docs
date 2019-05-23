@@ -39,7 +39,6 @@ public enum enum_INTERCEPT_EXCEPTION_ACTION
 ## Parameters
 
 `IEA_INTERCEPT`\
-
 Enables intercepting the current exception. This is the only value supported at present and must be specified.
 
 ## Remarks

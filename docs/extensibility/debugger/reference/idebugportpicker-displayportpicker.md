@@ -35,13 +35,11 @@ public int DisplayPortPicker(
 ```
 
 ## Parameters
- `hwndParentDialog`\
+`hwndParentDialog`\
+[in] Handle for the parent dialog box.
 
- [in] Handle for the parent dialog box.
-
- `pbstrPortId`\
-
- [out] Port identifier string.
+`pbstrPortId`\
+[out] Port identifier string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. A return value of `S_FALSE` (or a return value of `S_OK` with the `BSTR` set to `NULL`) indicates that the user  clicked **Cancel**.

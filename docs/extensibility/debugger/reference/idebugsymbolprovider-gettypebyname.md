@@ -38,17 +38,14 @@ int GetTypeByName(
 ```
 
 ## Parameters
- `pszClassName`\
+`pszClassName`\
+[in] The symbol name.
 
- [in] The symbol name.
+`nameMatch`\
+[in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
- `nameMatch`\
-
- [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
-
- `ppField`\
-
- [out] Returns the symbol type as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
+`ppField`\
+[out] Returns the symbol type as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

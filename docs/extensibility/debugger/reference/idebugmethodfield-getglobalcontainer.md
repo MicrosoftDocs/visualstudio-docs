@@ -34,9 +34,8 @@ int GetGlobalContainer(
 ```
 
 ## Parameters
- `ppClass`\
-
- [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) representing the module in which this method is defined.
+`ppClass`\
+[out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) representing the module in which this method is defined.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

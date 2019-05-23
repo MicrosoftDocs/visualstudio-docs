@@ -34,9 +34,8 @@ int GetProcessId(
 ```
 
 ## Parameters
- `pguidProcessId`\
-
- [out] Returns the GUID for this process.
+`pguidProcessId`\
+[out] Returns the GUID for this process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

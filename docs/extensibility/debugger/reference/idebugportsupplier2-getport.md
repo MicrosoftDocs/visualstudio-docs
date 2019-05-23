@@ -36,13 +36,11 @@ int GetPort( 
 ```
 
 ## Parameters
- `guidPort`\
+`guidPort`\
+[in] Globally unique identifier (GUID) of the port.
 
- [in] Globally unique identifier (GUID) of the port.
-
- `ppPort`\
-
- [out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port.
+`ppPort`\
+[out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_PORTSUPPLIER_NO_PORT` if no port exists with the given identifier.

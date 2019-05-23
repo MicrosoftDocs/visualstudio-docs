@@ -34,9 +34,8 @@ int GetKind(
 ```
 
 ## Parameters
- `pdwKind`\
-
- [out] Returns the kind of field as a combination of [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) constants.
+`pdwKind`\
+[out] Returns the kind of field as a combination of [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) constants.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

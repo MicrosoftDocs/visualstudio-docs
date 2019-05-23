@@ -39,17 +39,14 @@ int WriteAt(
 ```
 
 ## Parameters
- `pStartContext`\
+`pStartContext`\
+[in] The [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that specifies where to start writing bytes.
 
- [in] The [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that specifies where to start writing bytes.
+`dwCount`\
+[in] The number of bytes to write.
 
- `dwCount`\
-
- [in] The number of bytes to write.
-
- `rgbMemory`\
-
- [in] The bytes to write. This array is assumed to be at least `dwCount` bytes in size.
+`rgbMemory`\
+[in] The bytes to write. This array is assumed to be at least `dwCount` bytes in size.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if not all bytes could be written or returns an error code (typically `E_FAIL`).

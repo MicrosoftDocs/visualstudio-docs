@@ -1,5 +1,5 @@
 ---
-title: "Resource file to specify localized names/properties/permissions"
+title: "How to: Use a Resource File to Specify Localized Names, Properties, and Permissions | Microsoft Docs"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

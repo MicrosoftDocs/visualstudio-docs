@@ -1,5 +1,5 @@
 ---
-title: "Copy class diagram elements to Microsoft Office document (Class Designer)"
+title: "How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -34,9 +34,8 @@ int EnumPorts( 
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) object containing a list of ports supplied.
+`ppEnum`\
+[out] Returns an [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) object containing a list of ports supplied.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

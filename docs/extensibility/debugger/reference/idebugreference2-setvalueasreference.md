@@ -40,21 +40,17 @@ int SetValueAsReference ( 
 ```
 
 ## Parameters
- `rgpArgs`\
+`rgpArgs`\
+[in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects used to determine how to set the reference value.
 
- [in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects used to determine how to set the reference value.
+`dwArgCount`\
+[in] The number of references in the array.
 
- `dwArgCount`\
+`pValue`\
+[in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object from which to set the property value.
 
- [in] The number of references in the array.
-
- `pValue`\
-
- [in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object from which to set the property value.
-
- `dwTimeout`\
-
- [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+`dwTimeout`\
+[in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
 ## Return Value
  Always returns `E_NOTIMPL`.
