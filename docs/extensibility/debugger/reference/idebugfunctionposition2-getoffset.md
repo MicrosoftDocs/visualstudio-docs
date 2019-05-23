@@ -34,9 +34,8 @@ int GetOffset(
 ```
 
 ## Parameters
- `pPosition`\
-
- [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the position of the function in a document.
+`pPosition`\
+[in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the position of the function in a document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

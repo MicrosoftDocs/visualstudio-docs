@@ -35,9 +35,8 @@ int GetSize(
 ```
 
 ## Parameters
- `pqwSize`\
-
- [out] Returns the size, in bytes of the memory space.
+`pqwSize`\
+[out] Returns the size, in bytes of the memory space.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

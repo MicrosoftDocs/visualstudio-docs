@@ -43,29 +43,23 @@ int CreateObject (
 ```
 
 ## Parameters
- `pConstructor`\
+`pConstructor`\
+[in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object that represents the constructor of the object to be created.
 
- [in] An [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object that represents the constructor of the object to be created.
+`dwArgs`\
+[in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
 
- `dwArgs`\
+`pArgs`\
+[in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the parameters passed to the constructor.
 
- [in] The number of parameters in the `pArg` array. Represents the number of parameters passed to the constructor.
+`dwEvalFlags`\
+[in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
 
- `pArgs`\
+`dwTimeout`\
+[in] Maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
 
- [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the parameters passed to the constructor.
-
- `dwEvalFlags`\
-
- [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
-
- `dwTimeout`\
-
- [in] Maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
-
- `ppObject`\
-
- [out] Returns an **IDebugObject** representing the newly created object.
+`ppObject`\
+[out] Returns an **IDebugObject** representing the newly created object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

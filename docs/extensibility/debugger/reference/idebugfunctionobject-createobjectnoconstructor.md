@@ -36,13 +36,11 @@ int CreateObjectNoConstructor(
 ```
 
 ## Parameters
- `pClassObject`\
+`pClassObject`\
+[in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing the type of the object to be created.
 
- [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object representing the type of the object to be created.
-
- `ppObject`\
-
- [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the newly created object.
+`ppObject`\
+[out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the newly created object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

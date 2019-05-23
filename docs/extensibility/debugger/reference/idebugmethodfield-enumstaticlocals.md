@@ -34,9 +34,8 @@ int EnumStaticLocals(
 ```
 
 ## Parameters
- `ppLocals`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of static locals. Returns a null value if there are no static locals.
+`ppLocals`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of static locals. Returns a null value if there are no static locals.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there are no static locals. Otherwise, returns an error code.

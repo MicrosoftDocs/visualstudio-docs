@@ -34,9 +34,8 @@ int GetInterceptCookie(
 ```
 
 ## Parameters
- `pqwCookie`\
-
- [out] Unique value that is associated with the exception that was intercepted.
+`pqwCookie`\
+[out] Unique value that is associated with the exception that was intercepted.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code.
