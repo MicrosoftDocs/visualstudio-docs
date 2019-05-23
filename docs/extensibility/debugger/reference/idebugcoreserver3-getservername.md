@@ -34,9 +34,8 @@ int GetServerName(
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the server.
+`pbstrName`\
+[out] Returns the name of the server.
 
 > [!NOTE]
 > The caller is responsible for freeing the string.

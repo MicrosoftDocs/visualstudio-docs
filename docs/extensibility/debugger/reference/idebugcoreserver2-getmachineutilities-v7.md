@@ -37,9 +37,8 @@ int GetMachineUtilities_V7(
 ```
 
 ## Parameters
- `ppUtil`\
-
- [out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
+`ppUtil`\
+[out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
 
 ## Return Value
  Always returns `E_NOTIMPL`, indicating that the method is not implemented.
