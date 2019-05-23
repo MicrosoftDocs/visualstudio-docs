@@ -216,7 +216,7 @@ conceptualContent:
             - text: .NET Desktop development
               itemType: overview
               url: /dotnet/framework/develop-client-apps
-             - text: Universal Windows platform development
+            - text: Universal Windows platform development
               itemType: overview
               url: cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md
             - text: Windows development with C++
@@ -251,4 +251,3 @@ conceptualContent:
               itemType: overview
               url: /dotnet/core/
         footer: [Blog](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue reporting](ide/talk-to-us.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html)
-        
