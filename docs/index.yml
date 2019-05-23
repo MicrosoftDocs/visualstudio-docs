@@ -16,12 +16,12 @@ highlightedContent:
    - title: Welcome to the Visual Studio IDE
      itemType: overview
      url: /visualstudio/ide/visual-studio-ide
-  - title: What's New in Visual Studio 2019
-    itemType: whats-new
-    url: /visualstudio/ide/whats-new-visual-studio-2019
-  - title: Improve your development skills
-    itemType: learn
-    url: /learn/
+   - title: What's New in Visual Studio 2019
+     itemType: whats-new
+     url: /visualstudio/ide/whats-new-visual-studio-2019
+   - title: Improve your development skills
+     itemType: learn
+     url: /learn/
 
 productDirectory:
     items: 
