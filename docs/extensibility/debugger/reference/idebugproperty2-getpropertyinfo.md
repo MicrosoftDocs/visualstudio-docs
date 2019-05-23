@@ -44,29 +44,23 @@ int GetPropertyInfo ( 
 ```
 
 ## Parameters
- `dwFields`\
+`dwFields`\
+[in] A combination of values from the [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) enumeration that specifies which fields are to be filled out in the `pPropertyInfo` structure.
 
- [in] A combination of values from the [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) enumeration that specifies which fields are to be filled out in the `pPropertyInfo` structure.
+`nRadix`\
+[in] Radix to be used in formatting any numerical information.
 
- `nRadix`\
+`dwTimeout`\
+[in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
- [in] Radix to be used in formatting any numerical information.
+`rgpArgs`\
+[in, out] Reserved for future use; set to a null value.
 
- `dwTimeout`\
+`dwArgCount`\
+[in] Reserved for future use; set to zero.
 
- [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
-
- `rgpArgs`\
-
- [in, out] Reserved for future use; set to a null value.
-
- `dwArgCount`\
-
- [in] Reserved for future use; set to zero.
-
- `pPropertyInfo`\
-
- [out] A [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure that is filled in with the description of the property.
+`pPropertyInfo`\
+[out] A [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure that is filled in with the description of the property.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code.
