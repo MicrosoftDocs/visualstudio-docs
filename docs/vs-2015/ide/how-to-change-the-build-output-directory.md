@@ -37,5 +37,5 @@ You can specify the location of output on a per-configuration basis (for debug, 
   
 ## See Also  
  [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md)   
- [General Property Page (Project)](http://msdn.microsoft.com/library/593b383c-cd0f-4dcd-ad65-9ec9b4b19c45)   
+ [General Property Page (Project)](https://msdn.microsoft.com/library/593b383c-cd0f-4dcd-ad65-9ec9b4b19c45)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

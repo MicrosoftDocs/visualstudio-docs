@@ -49,5 +49,5 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Runtime.InteropServices.RegistrationServices?displayProperty=fullName>
- [Registering Assemblies with COM](http://msdn.microsoft.com/library/87925795-a3ae-4833-b138-125413478551)
- [Regasm.exe (Assembly Registration Tool)](http://msdn.microsoft.com/library/e190e342-36ef-4651-a0b4-0e8c2c0281cb)
+ [Registering Assemblies with COM](https://msdn.microsoft.com/library/87925795-a3ae-4833-b138-125413478551)
+ [Regasm.exe (Assembly Registration Tool)](https://msdn.microsoft.com/library/e190e342-36ef-4651-a0b4-0e8c2c0281cb)

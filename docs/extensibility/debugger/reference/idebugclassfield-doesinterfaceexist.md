@@ -34,9 +34,8 @@ int DoesInterfaceExist(
 ```
 
 ## Parameters
- `pszInterfaceName`\
-
- [in] A string containing the interface name to look for.
+`pszInterfaceName`\
+[in] A string containing the interface name to look for.
 
 ## Return Value
  If successful, returns S_OK, returns S_FALSE if the interface does not exist; otherwise, returns an error code.

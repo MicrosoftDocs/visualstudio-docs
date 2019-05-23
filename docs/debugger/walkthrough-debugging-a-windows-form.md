@@ -159,6 +159,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
     ```cpp
     textBox1->Text = "Button was clicked!";
+    ```
 
 2. On the **Debug** menu, select **Start Without Debugging**.
 

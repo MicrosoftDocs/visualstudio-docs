@@ -32,9 +32,8 @@ int GetUserName (
 ```
 
 ## Parameters
- `pbstrUserName`\
-
- [out] A string containing the user name.
+`pbstrUserName`\
+[out] A string containing the user name.
 
 ## Return Value
  If the method succeeds, it returns `S_OK`. Otherwise it returns an error code.

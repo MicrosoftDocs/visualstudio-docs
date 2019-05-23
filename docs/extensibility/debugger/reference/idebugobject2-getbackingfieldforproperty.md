@@ -34,9 +34,8 @@ int GetBackingFieldForProperty(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] An [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) object describing the backing field.
+`ppObject`\
+[out] An [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) object describing the backing field.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

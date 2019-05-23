@@ -72,5 +72,5 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 
  Configures **Solution Explorer** to show files in the project and files on disk in the project folder.  
   
 ## See Also  
- [Building C/C++ Programs](http://msdn.microsoft.com/library/fa6ed4ff-334a-4d99-b5e2-a1f83d2b3008)   
- [C/C++ Building Reference](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)
+ [Building C/C++ Programs](https://msdn.microsoft.com/library/fa6ed4ff-334a-4d99-b5e2-a1f83d2b3008)   
+ [C/C++ Building Reference](https://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)

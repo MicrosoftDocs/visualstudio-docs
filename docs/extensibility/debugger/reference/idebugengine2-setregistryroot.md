@@ -34,9 +34,8 @@ int SetRegistryRoot( 
 ```
 
 ## Parameters
- `pszRegistryRoot`\
-
- [in] The registry root to use.
+`pszRegistryRoot`\
+[in] The registry root to use.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

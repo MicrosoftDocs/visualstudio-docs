@@ -34,9 +34,8 @@ int GetHostMachineName( 
 ```
 
 ## Parameters
- `pbstrHostMachineName`\
-
- [out] Returns the name of the machine.
+`pbstrHostMachineName`\
+[out] Returns the name of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

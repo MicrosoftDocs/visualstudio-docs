@@ -34,9 +34,8 @@ int GetName(
 ```
 
 ## Parameters
- `bstrName`\
-
- [out] Returns a string containing the name of the custom attribute.
+`bstrName`\
+[out] Returns a string containing the name of the custom attribute.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

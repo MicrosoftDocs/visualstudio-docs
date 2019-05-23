@@ -34,9 +34,8 @@ int GetUnderlyingSymbol(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
+`ppField`\
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the name of this enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -40,25 +40,20 @@ int Evaluate (
 ```
 
 ## Parameters
- `ppParams`\
+`ppParams`\
+[in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the input parameters. Each of these parameters was created by using one of the Create methods in this interface.
 
- [in] An array of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that represents the input parameters. Each of these parameters was created by using one of the Create methods in this interface.
+`dwParams`\
+[in] The number of parameters in the `ppParams` array.
 
- `dwParams`\
+`dwEvalFlags`\
+[in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
 
- [in] The number of parameters in the `ppParams` array.
+`dwTimeout`\
+[in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
 
- `dwEvalFlags`\
-
- [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that specify how the evaluation is to be performed.
-
- `dwTimeout`\
-
- [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use **INFINITE** to wait indefinitely.
-
- `ppResult`\
-
- [out] Returns an **IDebugObject** that represents the value of the function as an object.
+`ppResult`\
+[out] Returns an **IDebugObject** that represents the value of the function as an object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

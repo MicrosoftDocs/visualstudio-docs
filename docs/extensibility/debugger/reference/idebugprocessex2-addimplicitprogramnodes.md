@@ -38,17 +38,14 @@ int AddImplicitProgramNodes(
 ```
 
 ## Parameters
- `guidLaunchingEngine`\
+`guidLaunchingEngine`\
+[in] The `GUID` of a DE that is to be used to launch programs (and is assumed to add its own program nodes).
 
- [in] The `GUID` of a DE that is to be used to launch programs (and is assumed to add its own program nodes).
+`rgguidSpecificEngines`\
+[in] Array of `GUID`s of DEs for which program nodes will be added.
 
- `rgguidSpecificEngines`\
-
- [in] Array of `GUID`s of DEs for which program nodes will be added.
-
- `celtSpecificEngines`\
-
- [in] The number of `GUID`s in the `rgguidSpecificEngines` array.
+`celtSpecificEngines`\
+[in] The number of `GUID`s in the `rgguidSpecificEngines` array.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

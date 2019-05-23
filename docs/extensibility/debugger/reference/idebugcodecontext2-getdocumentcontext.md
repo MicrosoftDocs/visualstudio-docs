@@ -34,9 +34,8 @@ int GetDocumentContext( 
 ```
 
 ## Parameters
- `ppSrcCxt`\
-
- [out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context.
+`ppSrcCxt`\
+[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

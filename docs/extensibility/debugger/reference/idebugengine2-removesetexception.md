@@ -34,9 +34,8 @@ int RemoveSetException( 
 ```
 
 ## Parameters
- `pException`\
-
- [in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception to be removed.
+`pException`\
+[in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception to be removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

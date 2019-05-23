@@ -87,8 +87,8 @@ This section describes some user interface elements of the integrated developmen
  [Toolbox, HTML Tab](../../ide/reference/toolbox-html-tab.md)
  Allows you to add html tags to a design surface.
 
- [General, CSS, Text Editor, Options Dialog Box](http://msdn.microsoft.com/library/b33a7617-e69d-4a11-938e-2e218a34a10c)
+ [General, CSS, Text Editor, Options Dialog Box](https://msdn.microsoft.com/library/b33a7617-e69d-4a11-938e-2e218a34a10c)
  Allows you to specify options for CSS files.
 
- [Validation, HTML, Text Editor, Options Dialog Box](http://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)
+ [Validation, HTML, Text Editor, Options Dialog Box](https://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)
  Allows you to specify options for HTML pages.

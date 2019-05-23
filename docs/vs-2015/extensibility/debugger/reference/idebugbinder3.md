@@ -31,7 +31,7 @@ IDebugBinder3 : IDebugBinder
  A debug engine implements this interface to support aliases, custom visualizer services, and access to object type information.  
   
 ## Notes for Callers  
- An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3).  
+ An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3).  
   
 ## Methods in Vtable order  
  In addition to the methods provided by the [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface, this interface implements the following:  

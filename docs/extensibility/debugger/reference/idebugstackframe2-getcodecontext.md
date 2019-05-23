@@ -34,9 +34,8 @@ int GetCodeContext ( 
 ```
 
 ## Parameters
- `ppCodeCxt`\
-
- [out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the current instruction pointer in this stack frame.
+`ppCodeCxt`\
+[out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the current instruction pointer in this stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

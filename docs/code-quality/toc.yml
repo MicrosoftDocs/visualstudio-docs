@@ -45,6 +45,8 @@
           href: fxcop-analyzer-options.md
       - name: Migrate from static code analysis
         href: fxcop-analyzers.yml
+      - name: Ported rules
+        href: fxcop-rule-port-status.md
     - name: Analyzers FAQ
       href: analyzers-faq.md
     - name: Install Roslyn analyzers
@@ -108,13 +110,10 @@
       href: using-rule-sets-to-group-code-analysis-rules.md
     - name: Rule sets for analyzer packages
       href: analyzer-rule-sets.md
-    - name: Rule sets for managed code
-# Auto-expanded node
-      items:
-      - name: Rule sets for managed code
-        href: how-to-configure-code-analysis-for-a-managed-code-project.md
-      - name: Configure code analysis for an ASP.NET web app
-        href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
+    - name: Configure rule sets for static code analysis
+      href: how-to-configure-code-analysis-for-a-managed-code-project.md
+    - name: Configure code analysis for an ASP.NET web app
+      href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
     - name: Rule sets for C++ code
       href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
     - name: Create a custom rule set
@@ -399,6 +398,8 @@
         href: ca1505-avoid-unmaintainable-code.md
       - name: "CA1506: Avoid excessive class coupling"
         href: ca1506-avoid-excessive-class-coupling.md
+      - name: "CA1507: Use nameof in place of string"
+        href: ca1507.md
     - name: Mobility warnings
 # Auto-expanded node
       items:

@@ -34,9 +34,8 @@ int DiagnoseWebDebuggingError(
 ```
 
 ## Parameters
- `pszUrl`\
-
- [in] Not currently used; should always be set to a null value.
+`pszUrl`\
+[in] Not currently used; should always be set to a null value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following are other typical return codes:

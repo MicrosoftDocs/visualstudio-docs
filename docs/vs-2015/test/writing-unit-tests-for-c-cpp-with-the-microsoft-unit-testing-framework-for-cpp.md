@@ -26,7 +26,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
     - `#include` a `.h` file that contains declarations of the DLL’s externally-accessible functions.  
   
-         The `.h` file should contain function declarations marked with `_declspec(dllimport)`. Alternatively, you can export the methods using a DEF file. For more information, see [Importing and Exporting](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b).  
+         The `.h` file should contain function declarations marked with `_declspec(dllimport)`. Alternatively, you can export the methods using a DEF file. For more information, see [Importing and Exporting](https://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b).  
   
          Your unit tests can access only functions that are exported from the DLL under test.  
   
@@ -162,7 +162,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
   
      ![New DLL code project and .h file with API macros](../test/media/utecpp07.png "UteCpp07")  
   
-     The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](http://msdn.microsoft.com/library/8d7d1303-b9e9-47ca-96cc-67bf444a08a9).  
+     The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](https://msdn.microsoft.com/library/8d7d1303-b9e9-47ca-96cc-67bf444a08a9).  
   
 4. In the principal .cpp file, add a minimal body for the function:  
   
@@ -389,7 +389,7 @@ In Visual Studio, you can create unit tests for unmanaged code written in C++. U
 ## See Also  
  [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)   
  [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)   
- [An Overview of Managed/Unmanaged Code Interoperability](http://msdn.microsoft.com/library/ms973872.aspx)   
+ [An Overview of Managed/Unmanaged Code Interoperability](https://msdn.microsoft.com/library/ms973872.aspx)   
  [Debugging Native Code](../debugger/debugging-native-code.md)   
- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](http://msdn.microsoft.com/library/3ae94848-44e7-4955-bbad-7d40f493e941)   
- [Importing and Exporting](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)
+ [Walkthrough: Creating and Using a Dynamic Link Library (C++)](https://msdn.microsoft.com/library/3ae94848-44e7-4955-bbad-7d40f493e941)   
+ [Importing and Exporting](https://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)

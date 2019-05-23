@@ -34,9 +34,8 @@ int GetThread ( 
 ```
 
 ## Parameters
- `ppThread`\
-
- [out] Returns an [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread.
+`ppThread`\
+[out] Returns an [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

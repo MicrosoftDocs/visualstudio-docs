@@ -34,9 +34,8 @@ int IsPositionInDocument( 
 ```
 
 ## Parameters
- `pDoc`\
-
- [in] The [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the containing document candidate.
+`pDoc`\
+[in] The [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the containing document candidate.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

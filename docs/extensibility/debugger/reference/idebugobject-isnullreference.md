@@ -34,9 +34,8 @@ int IsNullReference(
 ```
 
 ## Parameters
- `pfIsNull`\
-
- [out] Returns non-zero (`TRUE`) if this object is a null reference; otherwise, returns zero (`FALSE`).
+`pfIsNull`\
+[out] Returns non-zero (`TRUE`) if this object is a null reference; otherwise, returns zero (`FALSE`).
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

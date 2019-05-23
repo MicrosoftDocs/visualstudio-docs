@@ -38,22 +38,19 @@ int GetExtendedInfo(
 ```
 
 ## Parameters
- `guidExtendedInfo`\
-
- [in] Selects the information to be returned. Valid values are:
+`guidExtendedInfo`\
+[in] Selects the information to be returned. Valid values are:
 
 |Value|Description|
 |-----------|-----------------|
 |`guidConstantValue`|The value as a sequence of bytes.|
 |`guidConstantType`|The type as a type signature.|
 
- `prgBuffer`\
+`prgBuffer`\
+[out] Returns the extended information.
 
- [out] Returns the extended information.
-
- `pdwLen`\
-
- [in, out] Returns the size of the extended information, in bytes.
+`pdwLen`\
+[in, out] Returns the size of the extended information, in bytes.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

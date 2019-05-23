@@ -36,7 +36,7 @@ If you are building localized versions of a project, all user interface elements
 ## Example  
  The following code example shows how the `Output` element specifies that the `OutputResources` attribute of the `GenerateResource` task will contain the compiled resource files `alpha.resources` and `beta.resources` and that those two files will be placed inside the `Resources` item list. By identifying those .resources files as a collection of items of the same name, you can easily use them as inputs for another task, such as the [Csc](../msbuild/csc-task.md) task.  
   
- This task is equivalent to using the **/compile** switch for [Resgen.exe](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4):  
+ This task is equivalent to using the **/compile** switch for [Resgen.exe](https://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4):  
   
  `Resgen.exe /compile alpha.resx,alpha.resources /compile beta.txt,beta.resources`  
   
@@ -77,4 +77,4 @@ If you are building localized versions of a project, all user interface elements
 [MSBuild](msbuild.md)  
  [GenerateResource Task](../msbuild/generateresource-task.md)   
  [Csc Task](../msbuild/csc-task.md)   
- [Resgen.exe (Resource File Generator)](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)
+ [Resgen.exe (Resource File Generator)](https://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)

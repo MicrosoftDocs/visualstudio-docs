@@ -35,9 +35,8 @@ int GetName(
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the memory context.
+`pbstrName`\
+[out] Returns the name of the memory context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -36,13 +36,11 @@ int Compare ( 
 ```
 
 ## Parameters
- `dwCompare`\
+`dwCompare`\
+[in] A value from the [REFERENCE_COMPARE](../../../extensibility/debugger/reference/reference-compare.md) enumeration that specifies the comparison operation, for example, equal to, less than, or greater than.
 
- [in] A value from the [REFERENCE_COMPARE](../../../extensibility/debugger/reference/reference-compare.md) enumeration that specifies the comparison operation, for example, equal to, less than, or greater than.
-
- `pReference`\
-
- [in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object representing the reference to be compared to.
+`pReference`\
+[in] An [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object representing the reference to be compared to.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

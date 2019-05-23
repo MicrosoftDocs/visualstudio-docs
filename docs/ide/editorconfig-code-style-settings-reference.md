@@ -233,7 +233,7 @@ AddHandler Elapsed, AddressOf Handler
 
 These rules could appear in an *.editorconfig* file as follows:
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_qualification_for_field = false:suggestion
@@ -301,7 +301,7 @@ Dim local = Int32.MaxValue
 
 These rules could appear in an *.editorconfig* file as follows:
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
@@ -402,7 +402,7 @@ End Class
 
 These rules could appear in an *.editorconfig* file as follows:
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_require_accessibility_modifiers = always:suggestion
@@ -524,7 +524,7 @@ Dim v = a.b.Length
 
 These rules could appear in an *.editorconfig* file as follows:
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:silent
@@ -816,7 +816,7 @@ End If
 
 These rules could appear in an *.editorconfig* file as follows:
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_object_initializer = true:suggestion
@@ -892,7 +892,7 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 
 These rules could appear in an *.editorconfig* file as follows:
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_coalesce_expression = true:suggestion
@@ -962,7 +962,7 @@ bool f = this.Init();
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_var_for_built_in_types = true:suggestion
@@ -1109,7 +1109,7 @@ public int Age { get { return _age; } set { _age = value; } }
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_expression_bodied_methods = false:silent
@@ -1164,7 +1164,7 @@ if (s != null) {...}
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
@@ -1199,7 +1199,7 @@ if (int.TryParse(value, out i) {...}
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_inlined_variable_declaration = true:suggestion
@@ -1281,7 +1281,7 @@ fibonacci = (int n) =>
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
@@ -1333,7 +1333,7 @@ if (func != null) { func(args); }
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_throw_expression = true:suggestion
@@ -1367,7 +1367,7 @@ if (test) this.Display();
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_braces = true:silent
@@ -1452,7 +1452,7 @@ using System.Threading.Tasks;
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_sort_system_directives_first = true
@@ -1480,7 +1480,7 @@ using Octokit;
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_separate_import_directive_groups = true
@@ -1677,7 +1677,7 @@ var q = from a in e from b in e
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_new_line_before_open_brace = methods, properties, control_blocks, types
@@ -1826,7 +1826,7 @@ class C
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_indent_case_contents = true
@@ -2121,7 +2121,7 @@ void Goo(int x)
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_space_after_cast = true
@@ -2184,7 +2184,7 @@ public int MyProperty
 
 Example *.editorconfig* file:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_preserve_single_line_statements = true
@@ -2195,7 +2195,7 @@ csharp_preserve_single_line_blocks = true
 
 To help you get started, here is an example *.editorconfig* file with the default options:
 
-```EditorConfig
+```ini
 ###############################
 # Core EditorConfig Options   #
 ###############################

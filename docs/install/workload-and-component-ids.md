@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 03/02/2019
+ms.date: 05/22/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -44,7 +44,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for [Visual Studio 2019 RC](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.1 release](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |

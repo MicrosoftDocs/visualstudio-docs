@@ -35,9 +35,8 @@ int EnumBoundBreakpoints( 
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates the bound breakpoints.
+`ppEnum`\
+[out] Returns an [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) object that enumerates the bound breakpoints.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

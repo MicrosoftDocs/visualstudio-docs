@@ -36,13 +36,11 @@ int GetCodeLocationId( 
 ```
 
 ## Parameters
- `pCodeContext`\
+`pCodeContext`\
+[in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object to be converted to an identifier.
 
- [in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object to be converted to an identifier.
-
- `puCodeLocationId`
-
- [out] Returns the code location identifier. See Remarks.
+`puCodeLocationId`
+[out] Returns the code location identifier. See Remarks.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_CODE_CONTEXT_OUT_OF_SCOPE` if the code context is valid but outside the scope.

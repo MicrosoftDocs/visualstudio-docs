@@ -11,7 +11,7 @@ searchscope: VS Subscription
 
 # The Office 365 Developer subscription benefit in Visual Studio subscriptions
 
-Subscribers with selected Visual Studio Enterprise subscriptions receive the Office 365 Developer Subscription benefit.  The Office 365 Developer Subscription allows you to develop, test, and deploy add-ins for Microsoft Office and Microsoft SharePoint.  This benefit allows for one tenant and up to 25 users.
+Subscribers with selected Visual Studio subscriptions receive the Office 365 Developer Subscription benefit.  The Office 365 Developer Subscription allows you to develop, test, and deploy add-ins for Microsoft Office and Microsoft SharePoint.  This benefit allows for one tenant and up to 25 users.
 
 ## Activation steps
 
@@ -62,7 +62,7 @@ To learn more about the Office 365 Developer subscription, check out the [Office
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included      |  Yes          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                            |NA         |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Dev Essentials | NA  | Not available |NA |

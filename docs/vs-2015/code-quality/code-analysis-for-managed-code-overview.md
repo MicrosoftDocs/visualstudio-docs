@@ -57,7 +57,7 @@ Code analysis for managed code analyzes managed assemblies and reports informati
   You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Team Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).  
   
 ## Team Build Integration  
- You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
+ You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build the application](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
   
 ## See Also  
  [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)   

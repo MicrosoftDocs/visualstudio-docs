@@ -53,7 +53,7 @@ You can view sample data in your designer as you customize the layout of your pa
  **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Create an XML data source](https://www.youtube.com/watch?v=RjQueappjqk&feature=youtube_gdata).  
   
 ## <a name="LiveStore"></a> Show live data in a Store or Phone app  
- See [Working with data and files (XAML)](http://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx).  
+ See [Working with data and files (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx).  
   
 ## See Also  
  [Creating a UI by using Blend for Visual Studio](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

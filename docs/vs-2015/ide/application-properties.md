@@ -53,10 +53,10 @@ You can set general application properties for Visual Basic, C#, and F# applicat
 ## See Also  
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
- [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [Introduction to the Project Designer](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Managing Debugging Properties](http://msdn.microsoft.com/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
- [Managing Compilation Properties](http://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
+ [Managing Debugging Properties](https://msdn.microsoft.com/92474d16-e7fe-4fac-9287-6bd6b3a7eb68)   
+ [Managing Compilation Properties](https://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [Managing Application Resources (.NET)](../ide/managing-application-resources-dotnet.md)   
  [Managing Application Settings (.NET)](../ide/managing-application-settings-dotnet.md)

@@ -37,9 +37,8 @@ int Continue(
 ```
 
 ## Parameters
- `pThread`\
-
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread to be continued.
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread to be continued.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

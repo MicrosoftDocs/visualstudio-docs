@@ -34,9 +34,8 @@ int GetUnwindCodeContext(
 ```
 
 ## Parameters
- `ppCodeContext`\
-
- [out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the code context location if a stack unwind occurred.
+`ppCodeContext`\
+[out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the code context location if a stack unwind occurred.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

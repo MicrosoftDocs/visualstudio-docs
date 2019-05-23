@@ -148,4 +148,4 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
 ## See Also  
  [Domain Relationships in the Generated API](../misc/domain-relationships-in-the-generated-api.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

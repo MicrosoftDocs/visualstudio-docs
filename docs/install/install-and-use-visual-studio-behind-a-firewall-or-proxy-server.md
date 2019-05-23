@@ -1,7 +1,7 @@
 ---
 title: "Install and use behind a firewall or proxy server"
-description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
-ms.date: 03/30/2019
+description: "Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server"
+ms.date: 05/22/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,20 +20,20 @@ ms.technology: vs-installation
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
-If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to "whitelist" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
+If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services.
 
-* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to whitelist so that you have access to all the components and workloads that you want.
+* **[Install Visual Studio](#install-visual-studio)**: These tables include the domain URLs to add to an allow list so that you have access to all the components and workloads that you want.
 
-* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to whitelist and the ports and protocols to open so that you have access to all the features and services that you want.
+* **[Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services)**: This table includes the domain URLs to add to an allow list and the ports and protocols to open so that you have access to all the features and services that you want.
 
 > [!NOTE]
 > This article was written for Visual Studio on Windows, but certain information is also applicable to [installing Visual Studio for Mac](/visualstudio/mac/install-behind-a-firewall-or-proxy-server) behind a firewall or proxy server.
 
 ## Install Visual Studio
 
-### URLs to whitelist
+### URLs to add to an allow list
 
-Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to whitelist as trusted in the UI or in your deployment scripts.
+Because the Visual Studio Installer downloads files from various domains and their download servers, here are the domain URLs that you might want to add to an allow list as trusted in the UI or in your deployment scripts.
 
 #### Microsoft domains
 
@@ -73,9 +73,9 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 ## Use Visual Studio and Azure Services
 
-### URLs to whitelist and ports and protocols to open
+### URLs to add to an allow list and ports and protocols to open
 
-To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should whitelist and the ports and protocols that you might want to open.
+To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | - | - | - | - | - |

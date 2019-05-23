@@ -34,9 +34,8 @@ int GetPort( 
 ```
 
 ## Parameters
- `ppPort`\
-
- [out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port on which the process was launched.
+`ppPort`\
+[out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port on which the process was launched.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

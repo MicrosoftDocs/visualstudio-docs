@@ -38,16 +38,13 @@ int GetSymUnmanagedReader(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `ppSymUnmanagedReader`\
-
- [out] Returns the object that represents the symbol reader.
+[out] Returns the object that represents the symbol reader.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetENCAvailableState(
 ```
 
 ## Parameters
- `pReason`\
-
- [out] A value from the [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md) enumeration.
+`pReason`\
+[out] A value from the [EncUnavailableReason](../../../extensibility/debugger/reference/encunavailablereason.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

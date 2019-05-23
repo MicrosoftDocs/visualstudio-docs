@@ -16,10 +16,10 @@
   items:
   - name: Install Visual Studio
     href: install/install-visual-studio.md
-  - name: Accounts
+  - name: Personalization accounts
     items:
     - name: Sign in to Visual Studio
-      displayName: peronalization accounts
+      displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
     - name: Work with multiple user accounts
       href: ide/work-with-multiple-user-accounts.md
@@ -43,15 +43,13 @@
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
     href: install/modify-visual-studio.md
-  - name: Install Help Viewer
-    href: help-viewer/installation.md
   - name: Repair Visual Studio
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
   - name: Visual Studio administrator guide
     items:
-    - name: Administrator guide
+    - name: Overview
       href: install/visual-studio-administrator-guide.md
     - name: Use the command line
       items:
@@ -138,6 +136,8 @@
       href: install/advanced-build-tools-container.md
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
+  - name: Install Help Viewer
+    href: help-viewer/installation.md      
 - name: Quickstarts
   items:
   - name: Visual Studio orientation
@@ -231,6 +231,8 @@
         items:
         - name: Create project and item templates
           href: ide/creating-project-and-item-templates.md
+        - name: Add tags to a template
+          href: ide/template-tags.md
         - name: Create project templates
           href: ide/how-to-create-project-templates.md
         - name: Create multi-project templates

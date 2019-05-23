@@ -177,21 +177,21 @@ namespace AlignCommand
   // This command will straighten them up.  
   
   // Place this file in a menu command extension project.  
-  // See http://msdn.microsoft.com/library/ee329481.aspx  
+  // See https://msdn.microsoft.com/library/ee329481.aspx  
   
   [Export(typeof(ICommandExtension))]  
   [ClassDesignerExtension] // TODO: Add other diagram types if needed  
   class CommandExtension : ICommandExtension  
   {  
     /// <summary>  
-    /// See http://msdn.microsoft.com/library/ee329481.aspx  
+    /// See https://msdn.microsoft.com/library/ee329481.aspx  
     /// </summary>  
     [Import]  
     IDiagramContext context { get; set; }  
   
     /// <summary>  
     /// Transaction context.  
-    /// See http://msdn.microsoft.com/library/ee330926.aspx  
+    /// See https://msdn.microsoft.com/library/ee330926.aspx  
     /// </summary>  
     [Import]  
     ILinkedUndoContext linkedUndo { get; set; }  

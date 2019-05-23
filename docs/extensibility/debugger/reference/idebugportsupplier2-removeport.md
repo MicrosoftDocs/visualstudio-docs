@@ -34,9 +34,8 @@ int RemovePort( 
 ```
 
 ## Parameters
- `pPort`\
-
- [in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port to be removed.
+`pPort`\
+[in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port to be removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -24,7 +24,7 @@ manager: jillfra
 
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>.  
   
- For more information on control authoring, see [Developing Windows Forms Controls at Design Time](http://msdn.microsoft.com/library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829).  
+ For more information on control authoring, see [Developing Windows Forms Controls at Design Time](https://msdn.microsoft.com/library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829).  
   
  When authoring controls for use in data-binding scenarios you need to implement one of the following data-binding attributes:  
   
@@ -46,9 +46,9 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 - Implement the `ComplexBindingProperty` attribute.  
   
-- Create a dataset with the [Data Source Configuration Wizard](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
+- Create a dataset with the [Data Source Configuration Wizard](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f).  
   
-- Set the **Customers** table in the [Data Sources Window](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) to use the new complex control.  
+- Set the **Customers** table in the [Data Sources Window](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) to use the new complex control.  
   
 - Add the new control by dragging it from the **Data Sources Window** onto **Form1**.  
   
@@ -66,7 +66,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 2. Name the project **ComplexControlWalkthrough**.  
   
-3. Select **Windows Application**, and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
+3. Select **Windows Application**, and click **OK**. For more information, see [Client Applications](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **ComplexControlWalkthrough** project is created, and added to **Solution Explorer**.  
   
@@ -167,4 +167,4 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)   
- [Windows Forms Controls](http://msdn.microsoft.com/library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)
+ [Windows Forms Controls](https://msdn.microsoft.com/library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)

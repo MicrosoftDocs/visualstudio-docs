@@ -34,9 +34,8 @@ int UnpublishProgram(
 ```
 
 ## Parameters
- `pDebuggeeInterface`\
-
- [in] An `IUnknown` interface to the program. This is the same value supplied to the [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md) method and uniquely identifies the program being removed (that is, it's used as a cookie).
+`pDebuggeeInterface`\
+[in] An `IUnknown` interface to the program. This is the same value supplied to the [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md) method and uniquely identifies the program being removed (that is, it's used as a cookie).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

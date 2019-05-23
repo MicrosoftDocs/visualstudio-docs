@@ -44,28 +44,22 @@ int LoadSymbols(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the mondule.
+[in] Unique identifier of the mondule.
 
 `baseAddress`\
-
- [in] Base memory address.
+[in] Base memory address.
 
 `pUnkMetadataImport`\
-
- [in] Object that contains the symbol metadata.
+[in] Object that contains the symbol metadata.
 
 `bstrModuleName`\
-
- [in] Name of the module.
+[in] Name of the module.
 
 `bstrSymSearchPath`\
-
- [in] Path to search for the symbol file.
+[in] Path to search for the symbol file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

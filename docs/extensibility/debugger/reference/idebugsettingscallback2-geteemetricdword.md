@@ -38,21 +38,17 @@ private int GetEEMetricDword(
 ```
 
 ## Parameters
- `guidLang`\
+`guidLang`\
+[in] Unique identifier of the programming language.
 
- [in] Unique identifier of the programming language.
+`guidVendor`\
+[in] Unique identifier of the vendor.
 
- `guidVendor`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the vendor.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pdwValue`\
-
- [out] Returns the value that corresponds to the metric string.
+`pdwValue`\
+[out] Returns the value that corresponds to the metric string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

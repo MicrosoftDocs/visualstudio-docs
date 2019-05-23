@@ -40,7 +40,7 @@ Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is s
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)  
  Explains why Just My Code must be enabled for debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] exceptions.  
   
- [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
+ [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
  Discusses some techniques and tools that can help you debug your AJAX code.  
   
  [IntelliTrace](../debugger/intellitrace.md)  

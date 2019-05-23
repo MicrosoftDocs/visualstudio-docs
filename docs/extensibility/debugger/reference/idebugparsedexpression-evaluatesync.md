@@ -46,33 +46,26 @@ int EvaluateSync(
 ```
 
 ## Parameters
- `dwEvalFlags`\
+`dwEvalFlags`\
+[in] A combination of [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) constants that control how the expression is to be evaluated.
 
- [in] A combination of [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) constants that control how the expression is to be evaluated.
+`dwTimeout`\
+[in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
- `dwTimeout`\
+`pSymbolProvider`\
+[in] The symbol provider, expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) interface.
 
- [in] Specifies the maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
+`pAddress`\
+[in] The current execution location within a method, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- `pSymbolProvider`\
+`pBinder`\
+[in] The binder, expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface.
 
- [in] The symbol provider, expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) interface.
+`bstrResultType`\
+[in] The type the result should be cast to. This argument can be a null value.
 
- `pAddress`\
-
- [in] The current execution location within a method, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
-
- `pBinder`\
-
- [in] The binder, expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface.
-
- `bstrResultType`\
-
- [in] The type the result should be cast to. This argument can be a null value.
-
- `ppResult`\
-
- [out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface that represents the results of evaluation.
+`ppResult`\
+[out] Returns the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface that represents the results of evaluation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

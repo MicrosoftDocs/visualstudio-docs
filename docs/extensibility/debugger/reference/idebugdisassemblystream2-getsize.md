@@ -34,9 +34,8 @@ int GetSize( 
 ```
 
 ## Parameters
- `pnSize`\
-
- [out] Returns the size, in instructions.
+`pnSize`\
+[out] Returns the size, in instructions.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

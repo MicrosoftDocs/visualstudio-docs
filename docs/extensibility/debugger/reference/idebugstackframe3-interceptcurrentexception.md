@@ -36,13 +36,11 @@ int InterceptCurrentException(
 ```
 
 ## Parameters
- `dwFlags`\
+`dwFlags`\
+[in] Specifies different actions. Currently, only the [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) value `IEA_INTERCEPT` is supported and must be specified.
 
- [in] Specifies different actions. Currently, only the [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) value `IEA_INTERCEPT` is supported and must be specified.
-
- `pqwCookie`\
-
- [out] Unique value identifying a particular exception.
+`pqwCookie`\
+[out] Unique value identifying a particular exception.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

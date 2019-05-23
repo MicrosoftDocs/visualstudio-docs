@@ -376,15 +376,15 @@ if (performance && performance.mark) {
   
 - Look for objects that are retained in memory inadvertently after the user has navigated to a new page, which is a common cause of memory issues. For example:  
   
-    - The incorrect use of the [URL.CreateObjectUrl](http://msdn.microsoft.com/library/windows/apps/hh453196.aspx) function can cause this problem.  
+    - The incorrect use of the [URL.CreateObjectUrl](https://msdn.microsoft.com/library/windows/apps/hh453196.aspx) function can cause this problem.  
   
-    - Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](http://msdn.microsoft.com/library/windows/apps/Hh700774.aspx) if you call the list's `createFiltered` method and then navigate away from a page.  
+    - Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](https://msdn.microsoft.com/library/windows/apps/Hh700774.aspx) if you call the list's `createFiltered` method and then navigate away from a page.  
   
     - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](../debugger/view-dom-event-listeners.md).  
   
 - Watch the latter part of [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
   
-- Read [Managing memory in Windows Store apps](http://msdn.microsoft.com/magazine/jj651575.aspx).  
+- Read [Managing memory in Windows Store apps](https://msdn.microsoft.com/magazine/jj651575.aspx).  
   
 - Consider temporarily modifying code to isolate problems. For example, you might want to:  
   

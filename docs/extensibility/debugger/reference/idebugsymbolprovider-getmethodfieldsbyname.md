@@ -38,17 +38,14 @@ int GetMethodFieldsByName(
 ```
 
 ## Parameters
- `pszFullName`\
+`pszFullName`\
+[in] The method name.
 
- [in] The method name.
+`nameMatch`\
+[in] Selects the type of match, for example, case-sensitive.
 
- `nameMatch`\
-
- [in] Selects the type of match, for example, case-sensitive.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the fields associated with this method.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the fields associated with this method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
