@@ -8,6 +8,34 @@ metadata:
    description: Find documentation for what you want to develop.
    ms.topic: hub-page
 
+tools: 
+  title: Languages
+  items: 
+    - title: C++
+      imageSrc: https://docs.microsoft.com/media/logos/logo_Cplusplus.svg
+      url: /cpp/
+    - title: C# 
+      imageSrc: https://docs.microsoft.com/media/logos/logo_Csharp.svg 
+      url: /dotnet/csharp 
+    - title: F# 
+      imageSrc: https://docs.microsoft.com/media/logos/logo_Fsharp.svg
+      url: ide/quickstart-fsharp.md
+    - title: Visual Basic
+      imageSrc: https://docs.microsoft.com/media/logos/logo_VB.svg
+      url: /dotnet/visual-basic 
+    - title: Python 
+      imageSrc: https://docs.microsoft.com/media/logos/logo_python.svg
+      url: /visualstudio/python 
+    - title: JavaScript
+      imageSrc: https://docs.microsoft.com/media/logos/logo_js.svg
+      url: /visualstudio/javascript 
+    - title: TypeScript
+      imageSrc: https://docs.microsoft.com/media/logos/logo_TS.svg
+      url: http://www.typescriptlang.org/docs/tutorial.html
+    - title: R (Visual Studio 2017 only)
+      imageSrc: https://docs.microsoft.com/media/logos/logo_R.svg
+      url: /visualstudio/rtvs/?view=vs-2017
+
 conceptualContent:
      title: Workloads
      items:
