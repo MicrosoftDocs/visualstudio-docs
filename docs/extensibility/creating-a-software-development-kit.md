@@ -28,7 +28,7 @@ A software development kit (SDK) is a collection of APIs that you can reference 
  Platform SDKs are required to develop apps for a platform. For example, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is required to develop apps for [!INCLUDE[win81](../debugger/includes/win81_md.md)].
 
 ### Installation
- All platform SDKs will be installed at*HKLM\Software\Microsoft\Microsoft SDKs\\[TPI]\v[TPV]\\@InstallationFolder = [SDK root]*. Accordingly, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is installed at *HKLM\Software\Microsoft\Microsoft SDKs\Windows\v8.1*.
+ All platform SDKs will be installed at *HKLM\Software\Microsoft\Microsoft SDKs\\[TPI]\v[TPV]\\@InstallationFolder = [SDK root]*. Accordingly, the [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK is installed at *HKLM\Software\Microsoft\Microsoft SDKs\Windows\v8.1*.
 
 ### Layout
  Platform SDKs will have the following layout:
