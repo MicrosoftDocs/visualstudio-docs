@@ -40,21 +40,17 @@ int GetAddressesFromPosition( 
 ```
 
 ## Parameters
- `pDocPos`\
+`pDocPos`\
+[in] The document position.
 
- [in] The document position.
+`fStatmentOnly`\
+[in] If TRUE, limits the debug addresses to a single statement.
 
- `fStatmentOnly`\
+`ppEnumBegAddresses`\
+[out] Returns an enumerator for the starting debug addresses associated with this statement or line.
 
- [in] If TRUE, limits the debug addresses to a single statement.
-
- `ppEnumBegAddresses`\
-
- [out] Returns an enumerator for the starting debug addresses associated with this statement or line.
-
- `ppEnumEndAddresses`\
-
- [out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
+`ppEnumEndAddresses`\
+[out] Returns an [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) enumerator for the ending debug addresses associated with this statement or line.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

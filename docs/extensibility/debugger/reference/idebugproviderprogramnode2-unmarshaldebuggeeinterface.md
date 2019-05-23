@@ -36,13 +36,11 @@ int UnmarshalDebuggeeInterface(
 ```
 
 ## Parameters
- `riid`\
+`riid`\
+[in] GUID of the interface to obtain.
 
- [in] GUID of the interface to obtain.
-
- `ppvObject`\
-
- [out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to get the desired interface.
+`ppvObject`\
+[out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to get the desired interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetMemoryContext ( 
 ```
 
 ## Parameters
- `ppMemory`\
-
- [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that represents the memory associated with the value of the reference.
+`ppMemory`\
+[out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that represents the memory associated with the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

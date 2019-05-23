@@ -38,21 +38,17 @@ private int GetEEMetricString(
 ```
 
 ## Parameters
- `guidLang`\
+`guidLang`\
+[in] Unique identifier of the programming language.
 
- [in] Unique identifier of the programming language.
+`guidVendor`\
+[in] Unique identifier of the vendor.
 
- `guidVendor`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the vendor.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pbstrValue`\
-
- [out] Returns the metric value string.
+`pbstrValue`\
+[out] Returns the metric value string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

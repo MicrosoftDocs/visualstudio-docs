@@ -38,17 +38,14 @@ int GetNextAddress( 
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] Given debug address.
 
- [in] Given debug address.
+`fStatementOnly`\
+[in] If TRUE, limits the debug addresses to a single statement.
 
- `fStatementOnly`\
-
- [in] If TRUE, limits the debug addresses to a single statement.
-
- `ppAddress`\
-
- [out] Returns the next debug address.
+`ppAddress`\
+[out] Returns the next debug address.
 
 ## Return Value
  Returns a valid `HRESULT`, typically S_OK.
