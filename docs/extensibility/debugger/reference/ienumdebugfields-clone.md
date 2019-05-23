@@ -12,6 +12,9 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugFields::Clone
 This method returns a copy of the current enumeration as a separate object.
@@ -30,10 +33,9 @@ int Clone(
 );
 ```
 
-#### Parameters
- `ppEnum`
-
- [out] Returns a copy of this enumeration as a separate object.
+## Parameters
+`ppEnum`\
+[out] Returns a copy of this enumeration as a separate object.
 
 ## Property Value/Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

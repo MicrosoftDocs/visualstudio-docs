@@ -36,13 +36,11 @@ int InPlaceUpdateObject(
 ```
 
 ## Parameters
- `dataIn`\
+`dataIn`\
+[in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the new data.
 
- [in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object containing the new data.
-
- `dataOut`\
-
- [out] Returns a new `IEEDataStorage` object containing the replaced data.
+`dataOut`\
+[out] Returns a new `IEEDataStorage` object containing the replaced data.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
