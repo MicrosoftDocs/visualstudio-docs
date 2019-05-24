@@ -18,7 +18,7 @@ namespace Trin_OL_SearchFolder
         //<Snippet1>
         private void SearchInBox()
         {
-            Outlook.MAPIFolder inbox = this.Application.ActiveExplorer().Session.
+            Outlook.Folder inbox = this.Application.ActiveExplorer().Session.
                 GetDefaultFolder(Outlook.OlDefaultFolders.olFolderInbox);
             Outlook.Items items = inbox.Items;
             Outlook.MailItem mailItem = null;
