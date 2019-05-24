@@ -1,5 +1,5 @@
 ---
-title: "Understanding and diagnosing UI-unresponsiveness caused by extensions| Microsoft Docs"
+title: "Understand/diagnose UI-unresponsiveness caused by extension"
 ms.date: "01/26/2018"
 ms.topic: "conceptual"
 author: "PooyaZv"

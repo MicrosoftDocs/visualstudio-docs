@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create an ASP.NET Core web app with Entity Framework and Visual Studio 2019"
+title: "Create ASP.NET Core web app with Entity Framework & VS 2019"
 titleSuffix: ""
 description: "As the first step prior to creating an ASP.NET Core web app, learn how to install Visual Studio 2019 with this video tutorial and step-by-step instructions."
 ms.custom: "get-started"

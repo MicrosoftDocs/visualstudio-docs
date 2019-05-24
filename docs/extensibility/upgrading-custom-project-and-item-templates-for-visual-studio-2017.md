@@ -1,5 +1,5 @@
 ---
-title: "Upgrading Custom Project and Item Templates for Visual Studio 2017 | Microsoft Docs"
+title: "Upgrade custom project and item templates for VS 2017"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
