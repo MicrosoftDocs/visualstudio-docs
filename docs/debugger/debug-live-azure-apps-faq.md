@@ -108,7 +108,7 @@ When installing the Remote Debugger extension for Virtual machine or Virtual mac
 			Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss
 						
 3. DebuggerListener InBound NatPools (VMSS-only)
-The Remote Debugger introduces DebuggerListener in-bound natpools that are applied to your scaleset's loadbalancer.
+The Remote Debugger introduces DebuggerListener in-bound natpools that are applied to your scaleset's load balancer.
 					
 	$inboundNatPools = $vmss.VirtualMachineProfile.NetworkProfile.NetworkInterfaceConfigurations.IpConfigurations.LoadBalancerInboundNatPools
 	$inboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null
