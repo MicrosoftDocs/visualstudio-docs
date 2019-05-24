@@ -64,6 +64,7 @@ For AKS:
 
 For Virtual machine/Virtual machine scale sets:
 1. Remote Debugger Extension
+
 There are several ways to disable the Remote Debugger:
 	- Cloud Explorer > your Virtual machine resource > Disable Debugging
 		- Disabling Debugging does not exist for Virtual machine scale set on Cloud Explorer
@@ -89,6 +90,7 @@ There are several ways to disable the Remote Debugger:
   
 
 2. Certificates and Azure KeyVault
+
 When installing the Remote Debugger extension for Virtual machine or Virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual machine/Virtual machine scale sets resources. 
 	- The Client Cert
 
@@ -112,12 +114,14 @@ When installing the Remote Debugger extension for Virtual machine or Virtual mac
 		- You will also need to delete the server secret from your resource via PowerShell.
 
 		For Virtual machines:
+
 			```
 			$vm.OSProfile.Secrets[0].VaultCertificates.Clear()
 			Update-AzVM -ResourceGroupName $rgName -VM $vm
 			```
 						
 		For Virtual machine scale sets:
+
 			```
 			$vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()
 			Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss
@@ -163,6 +167,7 @@ There are several ways to disable the Snapshot Debugger:
 - Azure portal > your Virtual machine/Virtual machine scale set resource blade > Extensions > Uninstall Microsoft.Insights.VMDiagnosticsSettings extension
 
 - PowerShell Cmdlets from [Az PowerShell](https://docs.microsoft.com/powershell/azure/overview)
+
 	Virtual machine:
 	```
 		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.Insights.VMDiagnosticsSettings 
@@ -173,7 +178,6 @@ There are several ways to disable the Snapshot Debugger:
 		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
 		Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name Microsoft.Insights.VMDiagnosticsSettings
 	```
-
 
 ## See also
 
