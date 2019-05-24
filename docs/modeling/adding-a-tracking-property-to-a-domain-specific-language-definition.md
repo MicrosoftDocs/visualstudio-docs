@@ -1,5 +1,5 @@
 ---
-title: Adding a Tracking Property to a Domain-Specific Language Definition
+title: Add tracking property to domain-specific language definition
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

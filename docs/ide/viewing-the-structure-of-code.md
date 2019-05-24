@@ -1,5 +1,5 @@
 ---
-title: View code structure using class view, call hierarchy, object browser, and code definition window
+title: Class view, call hierarchy, object browser, code definition
 ms.date: 05/18/2018
 ms.topic: conceptual
 f1_keywords:
