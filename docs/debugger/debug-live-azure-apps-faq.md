@@ -136,6 +136,7 @@ For AKS:
 2. Rebuild and redeploy the modified Docker image.
 
 For Virtual machine/Virtual machine scale sets:
+
 There are several ways to disable the Snapshot Debugger:
 - Cloud Explorer > your Virtual machine/Virtual machine scale set resource > Disable Diagnostics
 
