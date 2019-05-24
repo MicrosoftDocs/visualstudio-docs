@@ -275,7 +275,7 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
-        <a href="/cpp/ide/clickonce-deployment-for-visual-cpp-applications">
+        <a href="/cpp/windows/clickonce-deployment-for-visual-cpp-applications">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
