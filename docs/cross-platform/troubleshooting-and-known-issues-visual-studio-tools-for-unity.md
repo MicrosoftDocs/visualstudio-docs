@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Microsoft Docs"
+title: "Troubleshooting and known issues (VS Tools for Unity)"
 ms.custom: ""
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools

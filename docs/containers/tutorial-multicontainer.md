@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools multicontainer tutorial with Docker Compose and ASP.NET Core
+title: "Multicontainer tutorial using Docker Compose & ASP.NET Core"
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen
