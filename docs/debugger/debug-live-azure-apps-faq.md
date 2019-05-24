@@ -96,11 +96,12 @@ When installing the Remote Debugger extension for Virtual machine or Virtual mac
 
 		- This cert is a self-signed certificate located in Cert:/CurrentUser/My/
 
-			`Thumbprint                                Subject        `
+			```
+			Thumbprint                                Subject
+			----------                                -------
 
-			`----------                                -------        `
-
-			`1234123412341234123412341234123412341234  CN=ResourceName`
+			1234123412341234123412341234123412341234  CN=ResourceName
+			```
 
 		- One way to remove this certificate from your machine is via PowerShell
 			```
