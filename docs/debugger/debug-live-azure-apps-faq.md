@@ -71,11 +71,13 @@ There are several ways to disable the Remote Debugger:
 
 	- PowerShell Scripts/Cmdlets 
 		Virtual machine:
+
 		```
 		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
 		```		
 
 		Virtual machine scale sets:
+
 		```
 		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
 		$extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
@@ -104,6 +106,7 @@ When installing the Remote Debugger extension for Virtual machine or Virtual mac
 			```
 
 		- One way to remove this certificate from your machine is via PowerShell
+
 			```
 			$ResourceName = 'ResourceName' # from above
 			Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item 
