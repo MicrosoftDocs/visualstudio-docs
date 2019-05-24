@@ -1,5 +1,5 @@
 ---
-title: "FullClassName Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
+title: "FullClassName element (VS template wizard extension)"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-general"
 ms.topic: "conceptual"

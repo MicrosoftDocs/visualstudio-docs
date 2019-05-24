@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer | Microsoft Docs"
+title: "Download assembly on demand with ClickOnce deploy API/Designer"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

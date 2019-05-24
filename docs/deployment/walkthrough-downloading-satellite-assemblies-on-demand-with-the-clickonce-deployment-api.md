@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
+title: "Satellite assembly on demand with ClickOnce deployment API"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
