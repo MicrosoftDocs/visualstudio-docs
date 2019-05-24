@@ -38,21 +38,17 @@ private int GetEEMetricFile(
 ```
 
 ## Parameters
- `guidLang`\
+`guidLang`\
+[in] Unique identifier of the programming language.
 
- [in] Unique identifier of the programming language.
+`guidVendor`\
+[in] Unique identifier of the vendor.
 
- `guidVendor`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the vendor.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pbstrValue`\
-
- [out] Returns the contents of the metric file as a string.
+`pbstrValue`\
+[out] Returns the contents of the metric file as a string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

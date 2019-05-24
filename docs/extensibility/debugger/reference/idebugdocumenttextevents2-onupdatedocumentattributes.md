@@ -34,9 +34,8 @@ int onUpdateDocumentAttributes( 
 ```
 
 ## Parameters
- `textdocattr`\
-
- [in] A combination of flags from the [TEXT_DOC_ATTR_2](../../../extensibility/debugger/reference/text-doc-attr-2.md) enumeration that specifies the updated attributes of the document.
+`textdocattr`\
+[in] A combination of flags from the [TEXT_DOC_ATTR_2](../../../extensibility/debugger/reference/text-doc-attr-2.md) enumeration that specifies the updated attributes of the document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

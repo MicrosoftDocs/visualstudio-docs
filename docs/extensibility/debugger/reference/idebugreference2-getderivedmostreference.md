@@ -34,9 +34,8 @@ int GetDerivedMostReference( 
 ```
 
 ## Parameters
- `ppDerivedMost`\
-
- [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
+`ppDerivedMost`\
+[out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

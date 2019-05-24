@@ -34,8 +34,7 @@ int FunctionHasLineInfo(
 
 ## Parameters
 `pAddress`\
-
- [in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
+[in] The debug address that is represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns `S_FALSE`.

@@ -34,9 +34,8 @@ int UnpublishProgramNode(
 ```
 
 ## Parameters
- `pProgramNode`\
-
- [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object representing the program node being removed.
+`pProgramNode`\
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object representing the program node being removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

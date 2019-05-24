@@ -36,13 +36,11 @@ int WriteDump( 
 ```
 
 ## Parameters
- `DumpType`\
+`DumpType`\
+[in] A value from the [DUMPTYPE](../../../extensibility/debugger/reference/dumptype.md) enumeration that specifies the type of dump, for example, short or long.
 
- [in] A value from the [DUMPTYPE](../../../extensibility/debugger/reference/dumptype.md) enumeration that specifies the type of dump, for example, short or long.
-
- `pszDumpUrl`\
-
- [in] The URL to write the dump to. Typically, this is in the form of `file://c:\path\filename.ext`, but may be any valid URL.
+`pszDumpUrl`\
+[in] The URL to write the dump to. Typically, this is in the form of `file://c:\path\filename.ext`, but may be any valid URL.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

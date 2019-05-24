@@ -34,9 +34,8 @@ int GetSize(
 ```
 
 ## Parameters
- `size`\
-
- [out] The number of bytes contained in this object.
+`size`\
+[out] The number of bytes contained in this object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

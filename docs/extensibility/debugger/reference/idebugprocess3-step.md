@@ -41,17 +41,14 @@ int Step(
 ```
 
 ## Parameters
- `pThread`\
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
 
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread being stepped.
+`sk`\
+[in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
 
- `sk`\
-
- [in] One of the [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) values.
-
- `step`\
-
- [in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
+`step`\
+[in] One of the [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) values.
 
 ## Return Value
  If successful, returns S_OK; otherwise returns error code.

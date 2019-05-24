@@ -33,8 +33,7 @@ int GetIndex(
 
 ## Parameters
 `pIndex`\
-
- [out] Index value of this generic parameter.
+[out] Index value of this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -32,9 +32,8 @@ public int SetSite(
 ```
 
 ## Parameters
- `pSP`\
-
- [in] Reference to the interface of the service provider.
+`pSP`\
+[in] Reference to the interface of the service provider.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

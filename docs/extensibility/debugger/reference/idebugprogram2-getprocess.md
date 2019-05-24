@@ -34,9 +34,8 @@ int GetProcess(
 ```
 
 ## Parameters
- `ppProcess`\
-
- [out] Returns the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface that represents the process.
+`ppProcess`\
+[out] Returns the [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) interface that represents the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

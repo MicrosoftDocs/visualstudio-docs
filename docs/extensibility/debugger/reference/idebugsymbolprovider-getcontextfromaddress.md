@@ -36,13 +36,11 @@ int GetContextFromAddress(
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] The debug address as represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] The debug address as represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
-
- `ppDocContext`\
-
- [out] Returns a document context as represented by an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface.
+`ppDocContext`\
+[out] Returns a document context as represented by an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

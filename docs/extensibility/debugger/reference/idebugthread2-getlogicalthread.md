@@ -36,13 +36,11 @@ int GetLogicalThread( 
 ```
 
 ## Parameters
- `pStackFrame`\
+`pStackFrame`\
+[in] An [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object that represents the stack frame.
 
- [in] An [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) object that represents the stack frame.
-
- `ppLogicalThread`\
-
- [out] Returns an `IDebugLogicalThread2` interface that represents the associated logical thread. A debug engine implementation should set this to a null value.
+`ppLogicalThread`\
+[out] Returns an `IDebugLogicalThread2` interface that represents the associated logical thread. A debug engine implementation should set this to a null value.
 
 ## Return Value
  Debug engine implementations always return `E_NOTIMPL`.

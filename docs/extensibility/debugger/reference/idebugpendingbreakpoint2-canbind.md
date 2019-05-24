@@ -35,9 +35,8 @@ int CanBind ( 
 ```
 
 ## Parameters
- `ppErrorEnum`\
-
- [out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects if there could be errors.
+`ppErrorEnum`\
+[out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects if there could be errors.
 
 ## Return Value
  If successful, returns `S_OK.` Returns `S_FALSE` if the breakpoint cannot bind, in which case the errors are returned by the `ppErrorEnum` parameter. Otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

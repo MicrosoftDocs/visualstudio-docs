@@ -36,13 +36,11 @@ int ReloadSymbols( 
 ```
 
 ## Parameters
- `pszUrlToSymbols`\
+`pszUrlToSymbols`\
+[in] The path to the symbol store.
 
- [in] The path to the symbol store.
-
- `pbstrDebugMessage`\
-
- [out] Returns an informational message, such as a status or error message, that is displayed to the right of the module name in the Modules window.
+`pbstrDebugMessage`\
+[out] Returns an informational message, such as a status or error message, that is displayed to the right of the module name in the Modules window.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. A debug engine should always return `E_FAIL`.

@@ -36,13 +36,11 @@ int GetExtendedInfo ( 
 ```
 
 ## Parameters
- `guidExtendedInfo`\
+`guidExtendedInfo`\
+[in] GUID that determines the type of extended information to be retrieved. See Remarks for details.
 
- [in] GUID that determines the type of extended information to be retrieved. See Remarks for details.
-
- `pExtendedInfo`\
-
- [out] Returns a `VARIANT` (C++) or object (C#) that can be used to retrieve the extended property information. For example, this parameter might return an `IUnknown` interface that can be queried for an [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) interface. See Remarks for details.
+`pExtendedInfo`\
+[out] Returns a `VARIANT` (C++) or object (C#) that can be used to retrieve the extended property information. For example, this parameter might return an `IUnknown` interface that can be queried for an [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) interface. See Remarks for details.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code. Returns `S_GETEXTENDEDINFO_NO_EXTENDEDINFO` if there is no extended information to retrieve.

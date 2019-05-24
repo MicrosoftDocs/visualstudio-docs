@@ -33,8 +33,7 @@ int IsFunctionDeleted(
 
 ## Parameters
 `pAddress`\
-
- [in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
+[in] The debug address represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This address must be a METHOD_ADDRESS.
 
 ## Return Value
 If the function is deleted, returns `S_OK`. If the function is exists, returns `S_FALSE`.

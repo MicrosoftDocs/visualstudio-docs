@@ -36,13 +36,11 @@ int CreateReplacementObject(
 ```
 
 ## Parameters
- `dataIn`\
+`dataIn`\
+[in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object holding the data to be copied.
 
- [in] An [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object holding the data to be copied.
-
- `dataOut`\
-
- [out] Returns a new `IEEDataStorage` object.
+`dataOut`\
+[out] Returns a new `IEEDataStorage` object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

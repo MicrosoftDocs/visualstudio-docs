@@ -34,9 +34,8 @@ int GetCount(
 ```
 
 ## Parameters
- `pcelt`\
-
- [out] Returns the number of elements in the enumeration.
+`pcelt`\
+[out] Returns the number of elements in the enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

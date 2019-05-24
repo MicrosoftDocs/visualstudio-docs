@@ -40,11 +40,9 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
 ## Members
 
 `dwValidFields`\
-
 A combination of flags from the [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) enumeration specifying the kind of search information described in this structure.
 
 `bstrVerboseSearchInfo`\
-
 Search path and results concatenated into a single string.
 
 ## Remarks

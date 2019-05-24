@@ -34,9 +34,8 @@ int SetRegistryRoot(
 ```
 
 ## Parameters
- `ustrRegistryRoot`\
-
- [in] The new registry root.
+`ustrRegistryRoot`\
+[in] The new registry root.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

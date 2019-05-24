@@ -34,9 +34,8 @@ int GetBreakpointResolution( 
 ```
 
 ## Parameters
- `ppErrorResolution`\
-
- [out] Returns an [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md) object that describes the error.
+`ppErrorResolution`\
+[out] Returns an [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md) object that describes the error.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

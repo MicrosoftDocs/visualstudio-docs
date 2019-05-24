@@ -36,13 +36,11 @@ int GetLanguageInfo( 
 ```
 
 ## Parameters
- `pbstrLanguage`\
+`pbstrLanguage`\
+[in, out] Returns a string that contains the name of the language, such as "C++."
 
- [in, out] Returns a string that contains the name of the language, such as "C++."
-
- `pguidLanguage`\
-
- [in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
+`pguidLanguage`\
+[in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

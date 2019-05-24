@@ -34,9 +34,8 @@ int GetPortNotify(
 ```
 
 ## Parameters
- `ppPortNotify`\
-
- [out] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object.
+`ppPortNotify`\
+[out] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

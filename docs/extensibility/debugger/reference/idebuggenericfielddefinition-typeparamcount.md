@@ -33,9 +33,8 @@ int TypeParamCount(
 ```
 
 ## Parameters
- `pcParams`\
-
- [in, out] Number of type parameters.
+`pcParams`\
+[in, out] Number of type parameters.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

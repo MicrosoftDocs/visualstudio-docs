@@ -31,7 +31,7 @@ HRESULT GetAttachedSessionName(
 ```
 
 ## Parameters
- `pbstrSessionName`\
+`pbstrSessionName`\
 
 ## Return Value
  This method should always return `E_NOTIMPL`.

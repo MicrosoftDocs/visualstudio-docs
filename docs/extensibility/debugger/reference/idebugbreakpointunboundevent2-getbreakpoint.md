@@ -35,8 +35,7 @@ int GetBreakpoint(
 
 ## Parameters
 `ppBP`\
-
- [out] Returns an [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) object that represents the breakpoint that became unbound.
+[out] Returns an [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md) object that represents the breakpoint that became unbound.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

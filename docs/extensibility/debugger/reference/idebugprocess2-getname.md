@@ -36,13 +36,11 @@ int GetName( 
 ```
 
 ## Parameters
- `gnType`\
+`gnType`\
+[in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies what type of name to return.
 
- [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies what type of name to return.
-
- `pbstrName`\
-
- [out] Returns the name of the process.
+`pbstrName`\
+[out] Returns the name of the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

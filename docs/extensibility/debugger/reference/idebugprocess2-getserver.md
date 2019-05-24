@@ -34,9 +34,8 @@ int GetServer( 
 ```
 
 ## Parameters
- `ppServer`\
-
- [out] Returns an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the server on which this process is running.
+`ppServer`\
+[out] Returns an [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) object that represents the server on which this process is running.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -37,7 +37,6 @@ public struct METADATA_ADDRESS_FIELD {
 ## Members
 
 `tokField`\
-
 The ID of the field token.
 
 [C++] `_mdToken` is a `typedef` for a 32-bit `int`.

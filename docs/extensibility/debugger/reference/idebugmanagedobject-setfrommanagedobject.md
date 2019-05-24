@@ -34,9 +34,8 @@ int SetFromManagedObject(
 ```
 
 ## Parameters
- `pManagedObject`\
-
- [in] An interface that represents the managed object containing the new value.
+`pManagedObject`\
+[in] An interface that represents the managed object containing the new value.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

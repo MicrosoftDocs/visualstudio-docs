@@ -43,25 +43,20 @@ int GetMessage( 
 ```
 
 ## Parameters
- `pMessageType`\
+`pMessageType`\
+[out] Returns a value from the [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md) enumeration that describes the type of the message.
 
- [out] Returns a value from the [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md) enumeration that describes the type of the message.
+`pbstrMessage`\
+[out] Returns the message.
 
- `pbstrMessage`\
+`pdwType`\
+[out] Returns the type of the message, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) function for details.
 
- [out] Returns the message.
+`pbstrHelpFileName`\
+[in, out] Returns the help file name. May be a null (C++) or empty (C#) value if there is no help file.
 
- `pdwType`\
-
- [out] Returns the type of the message, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) function for details.
-
- `pbstrHelpFileName`\
-
- [in, out] Returns the help file name. May be a null (C++) or empty (C#) value if there is no help file.
-
- `pdwHelpId`\
-
- [in, out] Returns the help identifier. May be 0 if there is no help associated with this message.
+`pdwHelpId`\
+[in, out] Returns the help identifier. May be 0 if there is no help associated with this message.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

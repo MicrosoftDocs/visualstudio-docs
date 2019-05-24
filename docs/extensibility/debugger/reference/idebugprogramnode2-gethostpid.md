@@ -34,9 +34,8 @@ int GetHostPid ( 
 ```
 
 ## Parameters
- `pdwHostPid`\
-
- [out] Returns the system process identifier for the hosting process.
+`pdwHostPid`\
+[out] Returns the system process identifier for the hosting process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

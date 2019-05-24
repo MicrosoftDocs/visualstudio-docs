@@ -36,13 +36,11 @@ int GetCodeContext( 
 ```
 
 ## Parameters
- `uCodeLocationId`\
+`uCodeLocationId`\
+[in] Specifies the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
 
- [in] Specifies the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
-
- `ppCodeContext`\
-
- [out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the associated code context.
+`ppCodeContext`\
+[out] Returns an [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that represents the associated code context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

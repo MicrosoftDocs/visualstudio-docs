@@ -34,13 +34,11 @@ int QueryProperties(
 ```
 
 ## Parameters
- `celt`\
+`celt`\
+[in] Size of the arrays containing the property definitions and property values.
 
- [in] Size of the arrays containing the property definitions and property values.
-
- `dwPropType`\
-
- [in] An array that contains definitions of the queried properties. The possible values are:
+`dwPropType`\
+[in] An array that contains definitions of the queried properties. The possible values are:
 
 - PROCESS_PROPERTY_COMMAND_LINE = 1
 
@@ -48,8 +46,8 @@ int QueryProperties(
 
 - PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3
 
-  `pvarPropValue`\
-  [out] An array containing the property values.
+`pvarPropValue`\
+[out] An array containing the property values.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

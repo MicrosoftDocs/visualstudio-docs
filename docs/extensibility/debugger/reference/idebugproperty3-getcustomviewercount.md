@@ -35,8 +35,7 @@ int GetCustomViewerCount(
 
 ## Parameters
 `pcelt`\
-
- [out] The number of custom viewers available for this property.
+[out] The number of custom viewers available for this property.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

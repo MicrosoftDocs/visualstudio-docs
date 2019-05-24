@@ -34,9 +34,8 @@ int GetAttribute( 
 ```
 
 ## Parameters
- `pdwAttrib`\
-
- [out] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
+`pdwAttrib`\
+[out] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

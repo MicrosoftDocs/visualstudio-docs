@@ -40,21 +40,17 @@ int DisplayValue(
 ```
 
 ## Parameters
- `hwnd`\
+`hwnd`\
+[in] Parent window
 
- [in] Parent window
+`dwID`\
+[in] ID for custom viewers that support more than one type.
 
- `dwID`\
+`pHostServices`\
+[in] Reserved. Always set to null.
 
- [in] ID for custom viewers that support more than one type.
-
- `pHostServices`\
-
- [in] Reserved. Always set to null.
-
- `pDebugProperty`\
-
- [in] Interface that can be used to retrieve the value to be displayed.
+`pDebugProperty`\
+[in] Interface that can be used to retrieve the value to be displayed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code.

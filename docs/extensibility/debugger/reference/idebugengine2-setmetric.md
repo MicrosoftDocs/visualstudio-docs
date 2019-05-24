@@ -36,13 +36,11 @@ int SetMetric(
 ```
 
 ## Parameters
- `pszMetric`\
+`pszMetric`\
+[in] The metric name.
 
- [in] The metric name.
-
- `varValue`\
-
- [in] Specifies the metric value.
+`varValue`\
+[in] Specifies the metric value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetManagedObject(
 ```
 
 ## Parameters
- `ppManagedObject`\
-
- [out] Returns an interface that represents the managed object.
+`ppManagedObject`\
+[out] Returns an interface that represents the managed object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

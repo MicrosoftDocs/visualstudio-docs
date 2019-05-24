@@ -35,7 +35,7 @@ public enum enum_PPROGRAM_DESTROY_FLAGS
 ```
 
 ## Fields
- PROGRAM_DESTROY_CONTINUE_DEBUGGING
+ `PROGRAM_DESTROY_CONTINUE_DEBUGGING`\
  Destroy program, but continue to debug.
 
 ## Remarks

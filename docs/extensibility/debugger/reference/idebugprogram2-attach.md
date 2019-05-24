@@ -34,9 +34,8 @@ int Attach( 
 ```
 
 ## Parameters
- `pCallback`\
-
- [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used for debug event notification.
+`pCallback`\
+[in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used for debug event notification.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows some possible error codes.

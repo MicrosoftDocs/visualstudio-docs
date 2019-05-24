@@ -34,9 +34,8 @@ int GetExceptionDescription( 
 ```
 
 ## Parameters
- `pbstrDescription`\
-
- [out] Returns a displayable description of the exception.
+`pbstrDescription`\
+[out] Returns a displayable description of the exception.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

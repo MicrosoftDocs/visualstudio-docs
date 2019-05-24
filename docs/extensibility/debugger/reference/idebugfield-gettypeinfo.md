@@ -34,9 +34,8 @@ int GetTypeInfo(
 ```
 
 ## Parameters
- `pTypeInfo`\
-
- [out] Returns type information in the supplied [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure.
+`pTypeInfo`\
+[out] Returns type information in the supplied [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) structure.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

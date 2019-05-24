@@ -32,8 +32,8 @@ int SetLocale(
 ```
 
 ## Parameters
- `wLangID`\
- Identifier for the locale to set.
+`wLangID`\
+Identifier for the locale to set.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

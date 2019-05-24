@@ -34,9 +34,8 @@ int SetLocale( 
 ```
 
 ## Parameters
- `wLangID`\
-
- [in] Specifies the language locale. For example, 1033 for English.
+`wLangID`\
+[in] Specifies the language locale. For example, 1033 for English.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

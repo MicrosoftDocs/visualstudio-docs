@@ -34,9 +34,8 @@ int SetEngineGuid(
 ```
 
 ## Parameters
- `guidEngine`\
-
- [in] `GUID` of the engine.
+`guidEngine`\
+[in] `GUID` of the engine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

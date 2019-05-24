@@ -34,8 +34,7 @@ int GetFlags(
 
 ## Parameters
 `pdwFlags`\
-
- [out] Returns the flags for this generic parameter.
+[out] Returns the flags for this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

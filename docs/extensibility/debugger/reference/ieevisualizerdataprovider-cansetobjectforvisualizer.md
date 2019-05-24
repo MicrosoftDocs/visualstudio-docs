@@ -34,9 +34,8 @@ int CanSetObjectForVisualizer(
 ```
 
 ## Parameters
- `b`\
-
- [out] Nonzero (`TRUE`) if the object on the visualizer can be updated, zero (`FALSE`) if it cannot.
+`b`\
+[out] Nonzero (`TRUE`) if the object on the visualizer can be updated, zero (`FALSE`) if it cannot.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

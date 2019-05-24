@@ -34,9 +34,8 @@ int GetPortSupplier( 
 ```
 
 ## Parameters
- `ppSupplier`\
-
- [out] Returns an [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) object represents the port supplier for a port.
+`ppSupplier`\
+[out] Returns an [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) object represents the port supplier for a port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

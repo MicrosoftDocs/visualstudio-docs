@@ -34,9 +34,8 @@ int GetDefaultIndexer(
 ```
 
 ## Parameters
- `pbstrIndexer`
-
- [out] Returns a string containing the name of the default indexer.
+`pbstrIndexer`
+[out] Returns a string containing the name of the default indexer.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there is no default indexer. Otherwise, returns an error code.

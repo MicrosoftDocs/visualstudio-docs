@@ -9,7 +9,7 @@ ms.author: "gregvanl"
 manager: jillfra
 ms.workload:
   - "vssdk"
-monikerRange: vs-2017
+
 ---
 # Changes in Visual Studio 2017 extensibility
 

@@ -35,8 +35,7 @@ int GetEnclosingClass(
 
 ## Parameters
 `ppClassField`\
-
- [out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the enclosing class. Returns a null value if there is no enclosing class.
+[out] Returns an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object representing the enclosing class. Returns a null value if there is no enclosing class.
 
 ## Return Value
 If successful, returns S_OK; otherwise, returns an error code.

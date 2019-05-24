@@ -36,13 +36,11 @@ int GetLanguageInfo ( 
 ```
 
 ## Parameters
- `pbstrLanguage`\
+`pbstrLanguage`\
+[out] Returns the name of the language that implements the method associated with this stack frame.
 
- [out] Returns the name of the language that implements the method associated with this stack frame.
-
- `pguidLanguage`\
-
- [out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:
+`pguidLanguage`\
+[out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:
 
 -   `guidVBScriptLang`\
 
