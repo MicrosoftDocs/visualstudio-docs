@@ -33,9 +33,8 @@ public int GetFlags(
 ```
 
 ## Parameters
- `pdwFlags`\
-
- [out] Represents the program destroy flags.
+`pdwFlags`\
+[out] Represents the program destroy flags.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

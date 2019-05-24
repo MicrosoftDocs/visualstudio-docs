@@ -38,17 +38,14 @@ int GetClassTypeByName(
 ```
 
 ## Parameters
- `pszClassName`\
+`pszClassName`\
+[in] The class name.
 
- [in] The class name.
+`nameMatch`\
+[in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
- `nameMatch`\
-
- [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
-
- `ppField`\
-
- [out] Returns the class type as represented by the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
+`ppField`\
+[out] Returns the class type as represented by the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetExitCode( 
 ```
 
 ## Parameters
- `pdwExit`
-
- [out] Returns the program's exit code.
+`pdwExit`\
+[out] Returns the program's exit code.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -41,20 +41,16 @@ int GetCustomViewerList(
 
 ## Parameters
 `celtSkip`\
-
- [in] The number of viewers to skip over.
+[in] The number of viewers to skip over.
 
 `celtRequested`\
-
- [in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
+[in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
 
 `rgViewers`\
-
- [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
+[in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
 
 `pceltFetched`\
-
- [out] The actual number of viewers returned.
+[out] The actual number of viewers returned.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

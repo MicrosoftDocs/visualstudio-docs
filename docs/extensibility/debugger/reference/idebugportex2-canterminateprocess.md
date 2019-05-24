@@ -34,9 +34,8 @@ HRESULT CanTerminateProcess( 
 ```
 
 ## Parameters
- `pPortProcess`\
-
- [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process to be terminated.
+`pPortProcess`\
+[in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object representing the process to be terminated.
 
 ## Return Value
  Returns `S_OK` if the process can be terminated; otherwise, returns `S_FALSE`.

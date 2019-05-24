@@ -34,9 +34,8 @@ int SetThreadName ( 
 ```
 
 ## Parameters
- `pszName`\
-
- [in] The name of the thread.
+`pszName`\
+[in] The name of the thread.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

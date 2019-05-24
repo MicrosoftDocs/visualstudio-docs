@@ -34,9 +34,8 @@ int GetDocumentClassID( 
 ```
 
 ## Parameters
- `pclsid`
-
- [out] Returns a GUID that is the class ID of the document.
+`pclsid`
+[out] Returns a GUID that is the class ID of the document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

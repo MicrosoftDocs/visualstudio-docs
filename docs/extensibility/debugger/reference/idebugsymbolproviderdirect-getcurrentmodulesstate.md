@@ -35,13 +35,11 @@ int GetCurrentModulesState(
 ```
 
 ## Parameters
- `pState`\
+`pState`\
+[out] The state of the symbol provider group.
 
- [out] The state of the symbol provider group.
-
- `count`\
-
- [out] Number of modules in the group.
+`count`\
+[out] Number of modules in the group.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

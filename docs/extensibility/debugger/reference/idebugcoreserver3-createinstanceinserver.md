@@ -42,25 +42,20 @@ int CreateInstanceInServer(
 ```
 
 ## Parameters
- `szDll`\
+`szDll`\
+[in] Path to the dll that implements the CLSID specified in the `clsidObject` parameter. If this is `NULL`, then COM's `CoCreateInstance` function is called.
 
- [in] Path to the dll that implements the CLSID specified in the `clsidObject` parameter. If this is `NULL`, then COM's `CoCreateInstance` function is called.
+`wLangId`\
+[in] Locale of the debug engine. This can be 0 if the [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md) method should not be called.
 
- `wLangId`\
+`clsidObject`\
+[in] CLSID of the debug engine to create.
 
- [in] Locale of the debug engine. This can be 0 if the [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md) method should not be called.
+`riid`\
+[in] Interface ID of the specific interface to retrieve from the class object.
 
- `clsidObject`\
-
- [in] CLSID of the debug engine to create.
-
- `riid`\
-
- [in] Interface ID of the specific interface to retrieve from the class object.
-
- `ppvObject`\
-
- [out] `IUnknown` interface from the instantiated object. Cast or marshal this object to the desired interface.
+`ppvObject`\
+[out] `IUnknown` interface from the instantiated object. Cast or marshal this object to the desired interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

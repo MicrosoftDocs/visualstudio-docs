@@ -37,13 +37,11 @@ int Subtract(
 ```
 
 ## Parameters
- `dwCount`\
+`dwCount`\
+[in] The number of memory bytes to decrement.
 
- [in] The number of memory bytes to decrement.
-
- `ppMemCxt`\
-
- [out] Returns a new [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object.
+`ppMemCxt`\
+[out] Returns a new [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

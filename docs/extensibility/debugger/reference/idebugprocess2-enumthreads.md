@@ -34,9 +34,8 @@ int EnumThreads(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) object that contains a list of all threads in all programs in the process.
+`ppEnum`\
+[out] Returns an [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) object that contains a list of all threads in all programs in the process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

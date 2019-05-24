@@ -37,9 +37,8 @@ int Execute(
 ```
 
 ## Parameters
- `pThread`\
-
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread to execute.
+`pThread`\
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object representing the thread to execute.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

@@ -38,20 +38,17 @@ int GetSymbolSearchInfo(
 ```
 
 ## Parameters
- `pModule`\
+`pModule`\
+[out] An IDebugModule3 object representing the module for which the symbols were loaded.
 
- [out] An IDebugModule3 object representing the module for which the symbols were loaded.
-
- `pbstrDebugMessage`\
-
- [in, out] Returns a string containing any error messages from the module. If there is no error, then this string will just contain the module's name but it is never empty.
+`pbstrDebugMessage`\
+[in, out] Returns a string containing any error messages from the module. If there is no error, then this string will just contain the module's name but it is never empty.
 
 > [!NOTE]
 > [C++] `pbstrDebugMessage` cannot be `NULL` and must be freed with `SysFreeString`.
 
- `pdwModuleInfoFlags`\
-
- [out] A combination of flags from the [MODULE_INFO_FLAGS](../../../extensibility/debugger/reference/module-info-flags.md) enumeration indicating whether any symbols were loaded.
+`pdwModuleInfoFlags`\
+[out] A combination of flags from the [MODULE_INFO_FLAGS](../../../extensibility/debugger/reference/module-info-flags.md) enumeration indicating whether any symbols were loaded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code.

@@ -36,13 +36,11 @@ int GetSize( 
 ```
 
 ## Parameters
- `pcNumLines`\
+`pcNumLines`\
+[out] Returns the number of lines of text.
 
- [out] Returns the number of lines of text.
-
- `pcNumChars`\
-
- [out] Returns the number of characters of text.
+`pcNumChars`\
+[out] Returns the number of characters of text.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

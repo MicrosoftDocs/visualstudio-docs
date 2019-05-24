@@ -35,9 +35,8 @@ int SetResponse( 
 ```
 
 ## Parameters
- `dwResponse`\
-
- [in] Specifies the response, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) function for details.
+`dwResponse`\
+[in] Specifies the response, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) function for details.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

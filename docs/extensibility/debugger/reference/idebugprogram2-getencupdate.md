@@ -34,9 +34,8 @@ int GetENCUpdate(
 ```
 
 ## Parameters
- `ppUpdate`\
-
- [out] Returns an internal interface that can be used to update this program.
+`ppUpdate`\
+[out] Returns an internal interface that can be used to update this program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -38,17 +38,14 @@ int GetInfo ( 
 ```
 
 ## Parameters
- `dwFieldSpec`\
+`dwFieldSpec`\
+[in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the `pFrameInfo` parameter are to be filled in.
 
- [in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the `pFrameInfo` parameter are to be filled in.
+`nRadix`\
+[in] The radix to be used in formatting any numerical information.
 
- `nRadix`\
-
- [in] The radix to be used in formatting any numerical information.
-
- `pFrameInfo`\
-
- [out] A [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure that is filled in with the description of the stack frame.
+`pFrameInfo`\
+[out] A [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure that is filled in with the description of the stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

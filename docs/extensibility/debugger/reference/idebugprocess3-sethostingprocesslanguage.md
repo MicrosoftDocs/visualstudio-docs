@@ -34,9 +34,8 @@ int SetHostingProcessLanguage(
 ```
 
 ## Parameters
- `guidLang`\
-
- [in] `GUID` of the language that the DE should use. Specify `GUID_NULL` (C++) or `Guid.Empty` (C#) to have the DE use the default language.
+`guidLang`\
+[in] `GUID` of the language that the DE should use. Specify `GUID_NULL` (C++) or `Guid.Empty` (C#) to have the DE use the default language.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

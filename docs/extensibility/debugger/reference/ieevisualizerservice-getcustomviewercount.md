@@ -34,9 +34,8 @@ int GetCustomViewerCount(
 ```
 
 ## Parameters
- `pcelt`\
-
- [out] Returns the number of type visualizers available.
+`pcelt`\
+[out] Returns the number of type visualizers available.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

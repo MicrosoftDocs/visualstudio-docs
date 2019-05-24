@@ -38,17 +38,14 @@ int Attach( 
 ```
 
 ## Parameters
- `pCallback`\
+`pCallback`\
+[in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that represents the callback function that the attached debug engine sends events to.
 
- [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that represents the callback function that the attached debug engine sends events to.
+`dwReason`\
+[in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that describes the reason for the attach operation.
 
- `dwReason`\
-
- [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that describes the reason for the attach operation.
-
- `pSession`\
-
- [in] A value that uniquely identifies the session that is attaching to the program.
+`pSession`\
+[in] A value that uniquely identifies the session that is attaching to the program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code. This method should return `E_ATTACH_DEBUGGER_ALREADY_ATTACHED` if the program is already attached.

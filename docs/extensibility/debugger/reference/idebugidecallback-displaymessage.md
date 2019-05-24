@@ -32,9 +32,8 @@ int DisplayMessage (
 ```
 
 ## Parameters
- `szMessage`\
-
- [in] Message string to display in the debugger's output window.
+`szMessage`\
+[in] Message string to display in the debugger's output window.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

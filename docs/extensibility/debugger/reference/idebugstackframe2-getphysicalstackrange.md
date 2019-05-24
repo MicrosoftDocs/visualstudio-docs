@@ -36,13 +36,11 @@ int GetPhysicalStackRange ( 
 ```
 
 ## Parameters
- `paddrMin`\
+`paddrMin`\
+[out] Returns the lowest physical address associated with this stack frame.
 
- [out] Returns the lowest physical address associated with this stack frame.
-
- `paddrMax`\
-
- [out] Returns the highest physical address associated with this stack frame.
+`paddrMax`\
+[out] Returns the highest physical address associated with this stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

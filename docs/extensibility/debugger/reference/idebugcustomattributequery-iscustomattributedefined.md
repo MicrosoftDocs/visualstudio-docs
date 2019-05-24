@@ -34,8 +34,7 @@ int IsCustomAttributeDefined(
 
 ## Parameters
 `pszCustomAttributeName`\
-
- [in] Name of the custom attribute.
+[in] Name of the custom attribute.
 
 ## Return Value
 If the custom attribute is defined, returns `S_OK`; otherwise, returns `S_FALSE`.

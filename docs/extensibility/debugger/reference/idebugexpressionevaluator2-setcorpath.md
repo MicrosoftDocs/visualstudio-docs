@@ -33,9 +33,8 @@ int SetCorPath(
 ```
 
 ## Parameters
- `pcstrCorPath`\
-
- [in] Path to the CLR loaded in the debugger.
+`pcstrCorPath`\
+[in] Path to the CLR loaded in the debugger.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

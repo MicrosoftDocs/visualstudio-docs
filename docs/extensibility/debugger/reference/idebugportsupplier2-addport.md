@@ -36,13 +36,11 @@ int AddPort( 
 ```
 
 ## Parameters
- `pRequest`\
+`pRequest`\
+[in] An [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) object that describes the port to be added.
 
- [in] An [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) object that describes the port to be added.
-
- `ppPort`\
-
- [out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port.
+`ppPort`\
+[out] Returns an [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

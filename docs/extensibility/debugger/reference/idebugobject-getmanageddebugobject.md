@@ -34,9 +34,8 @@ int GetManagedDebugObject(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] Returns an [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md) object representing the newly created managed object.
+`ppObject`\
+[out] Returns an [IDebugManagedObject](../../../extensibility/debugger/reference/idebugmanagedobject.md) object representing the newly created managed object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code. Returns E_FAIL if this [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) does not represent a managed value class instance.

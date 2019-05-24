@@ -36,13 +36,11 @@ int onUpdateTextAttributes( 
 ```
 
 ## Parameters
- `pos`\
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text attributes were updated.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that indicates where the text attributes were updated.
-
- `dwNumToUpdate`\
-
- [in] Specifies the number of characters of text that were updated.
+`dwNumToUpdate`\
+[in] Specifies the number of characters of text that were updated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

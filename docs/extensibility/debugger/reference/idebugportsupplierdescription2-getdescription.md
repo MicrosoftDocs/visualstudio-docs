@@ -34,13 +34,11 @@ public int GetDescription(
 ```
 
 ## Parameters
- `pdwFlags`\
+`pdwFlags`\
+[out] Metadata flags for the description.
 
- [out] Metadata flags for the description.
-
- `pbstrText`\
-
- [out] Description of the port supplier.
+`pbstrText`\
+[out] Description of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

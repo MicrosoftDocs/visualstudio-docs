@@ -34,9 +34,8 @@ int GetPortId( 
 ```
 
 ## Parameters
- `pguidPort`\
-
- [out] Returns the GUID that identifies the port.
+`pguidPort`\
+[out] Returns the GUID that identifies the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

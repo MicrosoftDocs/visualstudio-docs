@@ -42,24 +42,19 @@ int GetLocalVariablelayout(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `cMethods`\
-
- [in] Number of method tokens in the `rgMethodTokens` array.
+[in] Number of method tokens in the `rgMethodTokens` array.
 
 `rgMethodTokens`\
-
- [in] Array of method tokens.
+[in] Array of method tokens.
 
 `pStreamLayout`\
-
- [out] A text stream that contains the variable layout.
+[out] A text stream that contains the variable layout.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

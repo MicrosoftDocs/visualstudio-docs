@@ -35,8 +35,7 @@ int GetEngineID(
 
 ## Parameters
 `pguidEngine`\
-
- [out] Returns the GUID of the DE.
+[out] Returns the GUID of the DE.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

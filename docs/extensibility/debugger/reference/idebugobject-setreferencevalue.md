@@ -34,9 +34,8 @@ int SetReferenceValue(
 ```
 
 ## Parameters
- `pObject`\
-
- [in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the new reference value.
+`pObject`\
+[in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the new reference value.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

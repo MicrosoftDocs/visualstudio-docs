@@ -36,13 +36,11 @@ int EnumPersistedPorts(
 ```
 
 ## Parameters
- `PortNames`\
+`PortNames`\
+[in] A [BSTR_ARRAY](../../../extensibility/debugger/reference/bstr-array.md) structure that contains a list of port names to find and return among the persisted ports. Only those persisted ports with these names will be returned.
 
- [in] A [BSTR_ARRAY](../../../extensibility/debugger/reference/bstr-array.md) structure that contains a list of port names to find and return among the persisted ports. Only those persisted ports with these names will be returned.
-
- `ppEnum`\
-
- [out] An object that implements the [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) interface.
+`ppEnum`\
+[out] An object that implements the [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

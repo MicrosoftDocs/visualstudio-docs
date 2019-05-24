@@ -34,9 +34,8 @@ int GetScope( 
 ```
 
 ## Parameters
- `pdwScope`\
-
- [out] Returns a value from the [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) enumeration that describes the scope of this disassembly stream.
+`pdwScope`\
+[out] Returns a value from the [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) enumeration that describes the scope of this disassembly stream.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

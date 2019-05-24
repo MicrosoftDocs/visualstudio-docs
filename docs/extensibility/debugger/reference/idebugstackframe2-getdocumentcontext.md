@@ -34,9 +34,8 @@ int GetDocumentContext ( 
 ```
 
 ## Parameters
- `ppCxt`\
-
- [out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents the current position in a source document.
+`ppCxt`\
+[out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents the current position in a source document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

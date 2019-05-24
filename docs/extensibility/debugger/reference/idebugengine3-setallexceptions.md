@@ -34,9 +34,8 @@ int SetAllExceptions(
 ```
 
 ## Parameters
- `dwState`\
-
- [in] One of the [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md) values.
+`dwState`\
+[in] One of the [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md) values.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

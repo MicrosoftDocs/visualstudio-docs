@@ -34,9 +34,8 @@ int Attach(
 ```
 
 ## Parameters
- `pSession`\
-
- [in] A value that uniquely identifies the session attaching to this process.
+`pSession`\
+[in] A value that uniquely identifies the session attaching to this process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
