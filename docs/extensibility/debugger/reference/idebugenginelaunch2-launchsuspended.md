@@ -58,57 +58,44 @@ int LaunchSuspended(
 ```
 
 ## Parameters
- `pszMachine`\
+`pszMachine`\
+[in] The name of the machine in which to launch the process. Use a null value to specify the local machine.
 
- [in] The name of the machine in which to launch the process. Use a null value to specify the local machine.
+`pPort`\
+[in] The [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface representing the port that the program will run in.
 
- `pPort`\
+`pszExe`\
+[in] The name of the executable to be launched.
 
- [in] The [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface representing the port that the program will run in.
+`pszArgs`\
+[in] The arguments to pass to the executable. May be a null value if there are no arguments.
 
- `pszExe`\
+`pszDir`\
+[in] The name of the working directory used by the executable. May be a null value if no working directory is required.
 
- [in] The name of the executable to be launched.
+`bstrEnv`\
+[in] Environment block of NULL-terminated strings, followed by an additional NULL terminator.
 
- `pszArgs`\
+`pszOptions`\
+[in] The options for the executable.
 
- [in] The arguments to pass to the executable. May be a null value if there are no arguments.
+`dwLaunchFlags`\
+[in] Specifies the [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md) for a session.
 
- `pszDir`\
+`hStdInput`\
+[in] Handle to an alternate input stream. May be 0 if redirection is not required.
 
- [in] The name of the working directory used by the executable. May be a null value if no working directory is required.
+`hStdOutput`\
+[in] Handle to an alternate output stream. May be 0 if redirection is not required.
 
- `bstrEnv`\
+`hStdError`\
+[in] Handle to an alternate error output stream. May be 0 if redirection is not required.
 
- [in] Environment block of NULL-terminated strings, followed by an additional NULL terminator.
+`pCallback`\
+[in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that receives debugger events.
 
- `pszOptions`\
-
- [in] The options for the executable.
-
- `dwLaunchFlags`\
-
- [in] Specifies the [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md) for a session.
-
- `hStdInput`\
-
- [in] Handle to an alternate input stream. May be 0 if redirection is not required.
-
- `hStdOutput`\
-
- [in] Handle to an alternate output stream. May be 0 if redirection is not required.
-
- `hStdError`\
-
- [in] Handle to an alternate error output stream. May be 0 if redirection is not required.
-
- `pCallback`\
-
- [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object that receives debugger events.
-
- `ppDebugProcess`\
-
- [out] Returns the resulting [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the launched process.
+`ppDebugProcess`\
+[out] Returns the resulting [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the launched process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

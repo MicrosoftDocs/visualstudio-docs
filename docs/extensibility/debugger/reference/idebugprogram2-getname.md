@@ -34,9 +34,8 @@ int GetName( 
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the program.
+`pbstrName`\
+[out] Returns the name of the program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

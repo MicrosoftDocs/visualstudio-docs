@@ -34,9 +34,8 @@ int IsReadOnly(
 ```
 
 ## Parameters
- `pfIsReadOnly`\
-
- [out] Returns non-zero (`TRUE`) if this object is read-only; otherwise, returns zero (`FALSE`).
+`pfIsReadOnly`\
+[out] Returns non-zero (`TRUE`) if this object is read-only; otherwise, returns zero (`FALSE`).
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

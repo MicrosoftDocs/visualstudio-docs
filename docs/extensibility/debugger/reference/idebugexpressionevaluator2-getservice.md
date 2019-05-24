@@ -35,13 +35,11 @@ int GetService (
 ```
 
 ## Parameters
- `uid`\
+`uid`\
+[in] Unique identifier of the service to retrieve.
 
- [in] Unique identifier of the service to retrieve.
-
- `ppService`\
-
- [out] Returns an object that represents the service.
+`ppService`\
+[out] Returns an object that represents the service.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

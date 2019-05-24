@@ -34,9 +34,8 @@ int GetServer(
 ```
 
 ## Parameters
- `ppServer`\
-
- [out] Returns an object implementing the [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) interface.
+`ppServer`\
+[out] Returns an object implementing the [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

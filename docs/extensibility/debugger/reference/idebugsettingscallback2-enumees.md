@@ -38,21 +38,17 @@ public int EnumEEs(
 ```
 
 ## Parameters
- `celtBuffer`\
+`celtBuffer`\
+[in] Number of elements in the `pceltEEs` buffer.
 
- [in] Number of elements in the `pceltEEs` buffer.
+`rgguidLang`\
+[in, out] Unique identifier for the programming language.
 
- `rgguidLang`\
+`rgguidVendor`\
+[in, out] Unique identifier for the vendor.
 
- [in, out] Unique identifier for the programming language.
-
- `rgguidVendor`\
-
- [in, out] Unique identifier for the vendor.
-
- `pceltEEs`\
-
- [in, out] Array of expression evaluators.
+`pceltEEs`\
+[in, out] Array of expression evaluators.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -38,17 +38,14 @@ int EnumFrameInfo ( 
 ```
 
 ## Parameters
- `dwFieldSpec`\
+`dwFieldSpec`\
+[in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures are to be filled out. Specify the `FIF_FUNCNAME_FORMAT` flag to format the function name into a single string.
 
- [in] A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields of the [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures are to be filled out. Specify the `FIF_FUNCNAME_FORMAT` flag to format the function name into a single string.
+`nRadix`\
+[in] Radix used in formatting numerical information in the enumerator.
 
- `nRadix`\
-
- [in] Radix used in formatting numerical information in the enumerator.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) object that contains a list of [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures describing the stack frame.
+`ppEnum`\
+[out] Returns an [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) object that contains a list of [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures describing the stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

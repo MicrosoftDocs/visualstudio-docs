@@ -36,13 +36,11 @@ int GetEngineInfo( 
 ```
 
 ## Parameters
- `pbstrEngine`\
+`pbstrEngine`\
+[out] Returns the name of the DE running this program.
 
- [out] Returns the name of the DE running this program.
-
- `pguidEngine`\
-
- [out] Returns the GUID of the DE running this program.
+`pguidEngine`\
+[out] Returns the GUID of the DE running this program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

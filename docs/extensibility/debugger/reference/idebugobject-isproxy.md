@@ -33,9 +33,8 @@ int IsProxy (
 ```
 
 ## Parameters
- `pfIsProxy`\
-
- [out] `TRUE` if the object is a transparent proxy; otherwise, `FALSE`.
+`pfIsProxy`\
+[out] `TRUE` if the object is a transparent proxy; otherwise, `FALSE`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

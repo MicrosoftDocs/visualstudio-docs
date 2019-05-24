@@ -36,13 +36,11 @@ int GetRequestInfo2(
 ```
 
 ## Parameters
- `dwFields`\
+`dwFields`\
+[in] A combination of flags from the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration that determine which fields of `pBPRequestInfo` are to be filled in.
 
- [in] A combination of flags from the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration that determine which fields of `pBPRequestInfo` are to be filled in.
-
- `bBPRequestInfo`\
-
- [out] The [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) structure to be filled in.
+`bBPRequestInfo`\
+[out] The [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) structure to be filled in.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

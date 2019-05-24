@@ -34,9 +34,8 @@ int GetType(
 ```
 
 ## Parameters
- `ppType`\
-
- [out] Returns the field type as another [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
+`ppType`\
+[out] Returns the field type as another [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

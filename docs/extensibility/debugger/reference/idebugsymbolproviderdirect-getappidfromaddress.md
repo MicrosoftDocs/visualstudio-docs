@@ -35,13 +35,11 @@ int GetAppIDFromAddress(
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
-
- `pAppID`\
-
- [out] Identifier of the application domain.
+`pAppID`\
+[out] Identifier of the application domain.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

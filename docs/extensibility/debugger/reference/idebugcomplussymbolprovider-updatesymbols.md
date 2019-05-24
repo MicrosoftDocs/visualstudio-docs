@@ -38,16 +38,13 @@ int UpdateSymbols (
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `pUpdateStream`\
-
- [in] Data stream that contains the updated debug symbols.
+[in] Data stream that contains the updated debug symbols.
 
 ## Example
 The following example shows how to implement this method for a **CDebugSymbolProvider** object that exposes the [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md) interface.

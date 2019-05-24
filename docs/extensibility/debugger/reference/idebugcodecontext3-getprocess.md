@@ -33,8 +33,7 @@ public int GetProcess(
 
 ## Parameters
 `ppProcess`\
-
- [out] Reference to the debug process interface.
+[out] Reference to the debug process interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetException( 
 ```
 
 ## Parameters
- `pExceptionInfo`\
-
- [in, out] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that is filled in with the description of the exception.
+`pExceptionInfo`\
+[in, out] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that is filled in with the description of the exception.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetMemoryBytes( 
 ```
 
 ## Parameters
- `ppMemoryBytes`\
-
- [out] Returns an [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object that represents the memory bytes of the program.
+`ppMemoryBytes`\
+[out] Returns an [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object that represents the memory bytes of the program.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

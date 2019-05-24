@@ -34,8 +34,7 @@ int PreloadModules (
 
 ## Parameters
 `pSym`\
-
- [in] Symbol provider for which the modules will be preloaded.
+[in] Symbol provider for which the modules will be preloaded.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

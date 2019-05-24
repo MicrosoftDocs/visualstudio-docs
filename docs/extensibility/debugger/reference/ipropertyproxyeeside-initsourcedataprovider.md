@@ -34,9 +34,8 @@ int InitSourceDataProvider(
 ```
 
 ## Parameters
- `dataOut`\
-
- [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object
+`dataOut`\
+[out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

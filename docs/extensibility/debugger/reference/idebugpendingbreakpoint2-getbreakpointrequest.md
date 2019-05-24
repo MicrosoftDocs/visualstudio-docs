@@ -35,9 +35,8 @@ int GetBreakpointRequest( 
 ```
 
 ## Parameters
- `ppBPRequest`\
-
- [out] Returns an [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) object representing the breakpoint request that was used to create this pending breakpoint.
+`ppBPRequest`\
+[out] Returns an [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) object representing the breakpoint request that was used to create this pending breakpoint.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

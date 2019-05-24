@@ -43,25 +43,20 @@ int ReadAt(
 ```
 
 ## Parameters
- `pStartContext`\
+`pStartContext`\
+[in] The [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that specifies where to start reading bytes.
 
- [in] The [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that specifies where to start reading bytes.
+`dwCount`\
+[in] The number of bytes to read. Also specifies the length of the `rgbMemory` array.
 
- `dwCount`\
+`rgbMemory`\
+[in, out] Array filled in with the bytes actually read.
 
- [in] The number of bytes to read. Also specifies the length of the `rgbMemory` array.
+`pdwRead`\
+[out] Returns the number of contiguous bytes actually read.
 
- `rgbMemory`\
-
- [in, out] Array filled in with the bytes actually read.
-
- `pdwRead`\
-
- [out] Returns the number of contiguous bytes actually read.
-
- `pdwUnreadable`\
-
- [in, out] Returns the number of unreadable bytes. May be a null value if the client is uninterested in the number of unreadable bytes.
+`pdwUnreadable`\
+[in, out] Returns the number of unreadable bytes. May be a null value if the client is uninterested in the number of unreadable bytes.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

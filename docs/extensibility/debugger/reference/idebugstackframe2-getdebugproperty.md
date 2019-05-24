@@ -34,9 +34,8 @@ int GetDebugProperty ( 
 ```
 
 ## Parameters
- `ppDebugProp`\
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that describes the properties of this stack frame.
+`ppDebugProp`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that describes the properties of this stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

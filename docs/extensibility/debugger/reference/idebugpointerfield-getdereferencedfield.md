@@ -34,9 +34,8 @@ int GetDereferencedField(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the type of target object.
+`ppField`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) describing the type of target object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int PublishProgramNode(
 ```
 
 ## Parameters
- `pProgramNode`\
-
- [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node to make available.
+`pProgramNode`\
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program node to make available.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

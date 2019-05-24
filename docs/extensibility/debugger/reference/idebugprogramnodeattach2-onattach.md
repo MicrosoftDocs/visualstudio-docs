@@ -34,9 +34,8 @@ int OnAttach(
 ```
 
 ## Parameters
- `guidProgramId`\
-
- [in] `GUID` to assign to the associated program.
+`guidProgramId`\
+[in] `GUID` to assign to the associated program.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method should not be called. Otherwise, returns an error code.

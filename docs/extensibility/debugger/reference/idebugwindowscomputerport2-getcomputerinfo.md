@@ -33,9 +33,8 @@ public int GetComputerInfo(
 ```
 
 ## Parameters
- `pInfo`\
-
- [out] Reference to a structure that contains the computer information.
+`pInfo`\
+[out] Reference to a structure that contains the computer information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

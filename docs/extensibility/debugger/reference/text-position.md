@@ -38,11 +38,9 @@ public struct TEXT_POSITION { 
 ## Members
 
 `dwLine`\
-
 Index of line in source file.
 
 `dwColumn`\
-
 Character offset into line.
 
 ## Remarks

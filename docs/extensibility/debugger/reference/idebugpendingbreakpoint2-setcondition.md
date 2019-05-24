@@ -35,9 +35,8 @@ int SetCondition( 
 ```
 
 ## Parameters
- `bpCondition`\
-
- [in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) structure that specifies the condition to set.
+`bpCondition`\
+[in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) structure that specifies the condition to set.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

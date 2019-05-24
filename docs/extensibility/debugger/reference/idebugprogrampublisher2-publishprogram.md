@@ -38,17 +38,14 @@ int PublishProgram(
 ```
 
 ## Parameters
- `Engines`\
+`Engines`\
+[in] An array of GUIDs for DEs that can launch or attach to this program.
 
- [in] An array of GUIDs for DEs that can launch or attach to this program.
+`szFriendlyName`\
+[in] Friendly name for the program (this appears in menus or dialogs presented to the user).
 
- `szFriendlyName`\
-
- [in] Friendly name for the program (this appears in menus or dialogs presented to the user).
-
- `pDebuggeeInterface`\
-
- [in] `IUnknown` interface for the program (this value is used as a cookie to uniquely identify the program; this same value is used to "unpublish" the program)
+`pDebuggeeInterface`\
+[in] `IUnknown` interface for the program (this value is used as a cookie to uniquely identify the program; this same value is used to "unpublish" the program)
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetICorDebugValue(
 ```
 
 ## Parameters
- `ppUnk`\
-
- [out] `IUnknown` interface that represents this alias. This interface can be queried for the `ICorDebugValue` interface.
+`ppUnk`\
+[out] `IUnknown` interface that represents this alias. This interface can be queried for the `ICorDebugValue` interface.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

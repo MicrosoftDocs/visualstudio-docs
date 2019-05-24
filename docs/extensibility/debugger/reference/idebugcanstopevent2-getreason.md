@@ -34,9 +34,8 @@ int GetReason( 
 ```
 
 ## Parameters
- `pcr`\
-
- [out] Returns a value from the [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) enumeration that describes the reason for this event.
+`pcr`\
+[out] Returns a value from the [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) enumeration that describes the reason for this event.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

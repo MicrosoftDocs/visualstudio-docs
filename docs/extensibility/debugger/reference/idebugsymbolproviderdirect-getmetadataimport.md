@@ -37,17 +37,14 @@ int GetMetaDataImport (
 ```
 
 ## Parameters
- `guid`\
+`guid`\
+[in] Unique identifier for the module.
 
- [in] Unique identifier for the module.
+`appID`\
+[in] Identifier for the application domain.
 
- `appID`\
-
- [in] Identifier for the application domain.
-
- `ppImport`\
-
- [out] Returns an object that contains the metadata import information.
+`ppImport`\
+[out] Returns an object that contains the metadata import information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -34,9 +34,8 @@ int GetExpression( 
 ```
 
 ## Parameters
- `ppExpr`\
-
- [out] Returns an [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the expression that was parsed.
+`ppExpr`\
+[out] Returns an [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the expression that was parsed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

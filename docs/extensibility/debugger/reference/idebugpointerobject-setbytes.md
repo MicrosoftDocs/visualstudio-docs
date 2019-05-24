@@ -40,21 +40,17 @@ int SetBytes(
 ```
 
 ## Parameters
- `dwStart`\
+`dwStart`\
+[in] An offset, in bytes, from the start of the object pointed to.
 
- [in] An offset, in bytes, from the start of the object pointed to.
+`dwCount`\
+[in] The number of bytes to set.
 
- `dwCount`\
+`pBytes`\
+[in] An array of bytes representing the new value. This value is stored into the object, starting at the given offset.
 
- [in] The number of bytes to set.
-
- `pBytes`\
-
- [in] An array of bytes representing the new value. This value is stored into the object, starting at the given offset.
-
- `pdwBytes`\
-
- [out] Returns the number of bytes actually set.
+`pdwBytes`\
+[out] Returns the number of bytes actually set.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.
