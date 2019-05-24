@@ -1,5 +1,5 @@
 ---
-title: "How to: Use ClickOnce to Deploy Applications That Can Run on Multiple Versions of the .NET Framework | Microsoft Docs"
+title: "Deploy ClickOnce apps on multiple .NET Framework versions"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

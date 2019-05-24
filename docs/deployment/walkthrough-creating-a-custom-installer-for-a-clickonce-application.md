@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Installer for a ClickOnce Application | Microsoft Docs"
+title: "Create custom installer for ClickOnce application"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
