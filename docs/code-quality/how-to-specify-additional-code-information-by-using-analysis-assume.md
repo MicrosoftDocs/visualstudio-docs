@@ -1,5 +1,5 @@
 ---
-title: "Additional code information using _Analysis_assume"
+title: "Use _Analysis_assume for code analysis hints"
 ms.date: 11/04/2016
 ms.topic: "conceptual"
 f1_keywords:

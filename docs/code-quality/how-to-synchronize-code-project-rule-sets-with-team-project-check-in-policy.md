@@ -1,5 +1,5 @@
 ---
-title: "Code project rule sets+Azure DevOps project check-in policy"
+title: "Sync project rule sets with check-in policy"
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
