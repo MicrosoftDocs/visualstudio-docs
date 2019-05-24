@@ -1,5 +1,5 @@
 ---
-title: "Deploying ClickOnce Applications For Testing and Production Servers without Resigning | Microsoft Docs"
+title: "ClickOnce app to test/production server without re-signing"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

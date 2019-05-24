@@ -1,5 +1,5 @@
 ---
-title: "Trigger suspend, resume, and background events while debugging UWP | Microsoft Docs"
+title: "Trigger suspend/resume/background events when debugging UWP"
 ms.custom: "seodec18"
 ms.date: "01/16/2018"
 ms.topic: "conceptual"
