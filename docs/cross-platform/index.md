@@ -98,7 +98,7 @@ Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
                 <div class="card">
                     <div class="cardText">
                         <h3>Platforms</h3>
-                        <p><a href="/cpp/windows/universal-windows-apps-cpp">Universal Windows Platform (UWP) documentation</a></p>
+                        <p><a href="/windows/uwp/">Universal Windows Platform (UWP) documentation</a></p>
                         <p><a href="https://developer.apple.com/reference">iOS API documentation</a></p>
                         <p><a href="https://developer.android.com/guide/index.html">Android API documentation</a></p>
                     </div>
