@@ -163,7 +163,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - \Microsoft.VC110.OPENMP\vcomp110.dll
 
-5. Copy only the following files from the *Debug_NonRedist\x86* or *Debug_NonRedist\x64* folder to the build computer, as described in [Prepare a test machine to run a debug executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.
+5. Copy only the following files from the *Debug_NonRedist\x86* or *Debug_NonRedist\x64* folder to the build computer, as described in [Prepare a test machine to run a debug executable](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable). No other files may be copied.
 
     - \Microsoft.VC110.DebugCRT\msvcp110d.dll
 
@@ -401,5 +401,5 @@ You can create a build environment that can be deployed to various computers and
 
 ## See also
 
-- [Prepare a test machine to run a debug executable](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)
+- [Prepare a test machine to run a debug executable](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)
 - [Command-line reference](../msbuild/msbuild-command-line-reference.md)
