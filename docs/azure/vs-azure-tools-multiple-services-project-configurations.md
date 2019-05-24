@@ -1,5 +1,5 @@
 ---
-title: Configure Azure project using many service configurations
+title: Configure Azure project with multiple service configurations
 description: Learn how to configure an Azure cloud service project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
 author: ghogen
 manager: jillfra
