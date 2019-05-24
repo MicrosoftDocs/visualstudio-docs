@@ -62,7 +62,7 @@ We recommend that you create unit tests to help keep your code working correctly
 > If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Use a different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-third-party-test-framework).  
   
 ## <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method  
- This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Usa different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-third-party-test-framework).  
+ This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Use a different test framework](/visualstudio/test/getting-started-with-unit-testing#use-a-third-party-test-framework).  
   
 #### Creating the Test and Method  
   

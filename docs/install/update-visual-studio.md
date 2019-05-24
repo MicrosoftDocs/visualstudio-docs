@@ -22,9 +22,9 @@ ms.technology: vs-installation
 
 ::: moniker range="vs-2017"
 
-We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
+We encourage you to update to the most [recent version](/visualstudio/releasenotes/vs2017-relnotes/) of Visual Studio 2017 so that you always get the latest features, fixes, and improvements.
 
-And if you'd like to try out the next version, consider downloading the [release candidate](//visualstudio/releases/2019/release-notes/) of Visual Studio 2019, too.
+And if you'd like to try out the next version, consider downloading the [release candidate](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019, too.
 
 > [!IMPORTANT]
 > You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).

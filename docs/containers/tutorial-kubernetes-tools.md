@@ -30,7 +30,7 @@ To leverage this new functionality, you'll need:
 ::: moniker range="vs-2017"
 - If you wish to publish to AKS from Visual Studio (*not* required for debugging in AKS using Azure Dev Spaces):
 
-    1. The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
+    1. The [AKS publishing tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes), available as a separate download.
 
     1. An Azure Kubernetes Service cluster. For more information, see
         [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
