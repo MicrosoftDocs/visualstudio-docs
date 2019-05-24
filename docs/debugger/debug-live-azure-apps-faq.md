@@ -53,21 +53,20 @@ Snapshot Debugger needs to open a set of ports in order to debug the snapshots t
 
 #### How do I disable the Remote Debugger extension?
 
-#####App Service:#####
+For App Services:
 1. Disable Remote Debugger extension via Azure portal for your App Service.
 2. Azure portal > your Application Service resource blade > *Application Settings*
 3. Navigate to the *Debugging* section and click the *Off* button for *Remote debugging*.
 
-#####AKS:#####
+For AKS:
 1. Update your Dockerfile to remove the sections corresponding to the [Visual Studio Snapshot Debugger on Docker images](https://github.com/Microsoft/vssnapshotdebugger-docker).
 2. Rebuild and redeploy the modified Docker image.
 
-#####Virtual machine/Virtual machine scale sets:#####
+For Virtual machine/Virtual machine scale sets:
 1. Remote Debugger Extension
 There are several ways to disable the Remote Debugger:
 	- Cloud Explorer > your Virtual machine resource > Disable Debugging
-		- Disable Debugging does not exist for Virtual machine scale set on Cloud Explorer
-		- It is now possible to remove all of our extensions through the portal for both Virtual machine and Virtual machine scale sets.
+		- Disabling Debugging does not exist for Virtual machine scale set on Cloud Explorer
 
 	- PowerShell Scripts/Cmdlets 
 		Virtual machine:
@@ -122,7 +121,7 @@ The Remote Debugger introduces DebuggerListener in-bound natpools that are appli
 
 #### How do I disable Snapshot Debugger?
 
-#####App Service:#####
+For App Service:
 1. Disable Snapshot Debugger via Azure portal for your App Service.
 2. Azure portal > your Application Service resource blade > *Application Settings*
 3. Delete the following App settings in the Azure portal and save your changes. 
@@ -132,11 +131,11 @@ The Remote Debugger introduces DebuggerListener in-bound natpools that are appli
 	> [!WARNING]
 	> Any changes to Application Settings will initiate an app restart. Details about Application Settings can be found [here](https://docs.microsoft.com/en-us/azure/app-service/web-sites-configure#app-settings). 
 
-#####AKS:#####
+For AKS:
 1. Update your Dockerfile to remove the sections corresponding to the [Visual Studio Snapshot Debugger on Docker images](https://github.com/Microsoft/vssnapshotdebugger-docker).
 2. Rebuild and redeploy the modified Docker image.
 
-#####Virtual machine/Virtual machine scale sets:#####
+For Virtual machine/Virtual machine scale sets:
 There are several ways to disable the Snapshot Debugger:
 - Cloud Explorer > your Virtual machine/Virtual machine scale set resource > Disable Diagnostics
 
