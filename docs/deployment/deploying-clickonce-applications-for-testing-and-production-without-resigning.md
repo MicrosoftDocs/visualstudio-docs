@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce app to test/production server without re-signing"
+title: "Deploy ClickOnce apps without re-signing"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
