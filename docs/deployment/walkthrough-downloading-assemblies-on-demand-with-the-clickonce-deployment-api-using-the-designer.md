@@ -1,5 +1,5 @@
 ---
-title: "Download assembly on demand with ClickOnce deploy API/Designer"
+title: "Download assemblies on demand with ClickOnce using the designer"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

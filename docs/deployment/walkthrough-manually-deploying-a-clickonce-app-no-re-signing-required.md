@@ -1,5 +1,5 @@
 ---
-title: "Manually deploy ClickOnce app: no re-signing, keep branding"
+title: "Manually deploy ClickOnce apps preserving branding"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

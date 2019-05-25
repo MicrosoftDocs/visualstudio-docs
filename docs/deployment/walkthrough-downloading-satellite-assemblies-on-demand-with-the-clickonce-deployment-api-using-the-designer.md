@@ -1,5 +1,5 @@
 ---
-title: "Satellite assembly on demand: ClickOnce deploy API/Designer"
+title: "Download satellite assembly on demand using ClickOnce designer"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
