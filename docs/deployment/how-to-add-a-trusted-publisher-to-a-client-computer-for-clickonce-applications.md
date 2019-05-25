@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications | Microsoft Docs"
+title: "Add trusted publisher to client computer for ClickOnce apps"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

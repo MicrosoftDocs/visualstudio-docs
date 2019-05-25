@@ -1,5 +1,5 @@
 ---
-title: "Step out of C# code when native frames are missing from the call stack | Microsoft Docs"
+title: "Step out of C# code when native frames aren't in call stack"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

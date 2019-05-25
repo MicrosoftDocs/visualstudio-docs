@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the Publish Language for a ClickOnce Application | Microsoft Docs"
+title: "Change publish language for ClickOnce application"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
