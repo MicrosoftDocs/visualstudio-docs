@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to a .NET Framework stand-alone app and collect app statistics"
+title: "Profiler to .NET Framework stand-alone app; get app stats"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
