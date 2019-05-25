@@ -1,5 +1,5 @@
 ---
-title: "Publish VS Extension via command line"
+title: "Publish extension using command line"
 ms.date: "07/12/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:

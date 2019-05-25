@@ -1,5 +1,5 @@
 ---
-title: "Understand/diagnose UI-unresponsiveness caused by extension"
+title: "Unresponsive UI caused by extensions"
 ms.date: "01/26/2018"
 ms.topic: "conceptual"
 author: "PooyaZv"
