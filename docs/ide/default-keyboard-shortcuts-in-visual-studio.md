@@ -798,7 +798,7 @@ The sections in the following table include commands that are global in that you
 | Edit.GotoBraceExtend | **Ctrl+Shift+]** |
 | Edit.GotoRecent | **Ctrl+T,R** |
 | Edit.GotoNextIssueinFile | **Alt+PgDn** |
-| Edit.GotoPreviousIssueinFile  **Alt+PgUp** |
+| Edit.GotoPreviousIssueinFile | **Alt+PgUp** |
 | Edit.HideSelection | **Ctrl+M, Ctrl+H** |
 | Edit.IncreaseFilterLevel | **Alt+.** |
 | Edit.IncrementalSearch | **Ctrl+I** |
