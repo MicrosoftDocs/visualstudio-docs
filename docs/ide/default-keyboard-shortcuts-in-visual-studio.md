@@ -167,8 +167,8 @@ The sections in the following table include commands that are global in that you
 |Edit.GoToDeclaration|**Ctrl+F12**|
 |Edit.GoToDefinition|**F12**|
 |Edit.GoToFindCombo|**Ctrl+D**|
-|Edit.GoToNextLocation|**F8**|
-|Edit.GoToPrevLocation|**Shift+F8**|
+|Edit.GoToNextLocation|**F8** (Next error in Error List or Output Window)|
+|Edit.GoToPrevLocation|**Shift+F8** (Previous error in Error List or Output Window)|
 |Edit.InsertSnippet|**Ctrl+K, Ctrl+X**|
 |Edit.MoveControlDown|**Ctrl+Down Arrow**|
 |Edit.MoveControlDownGrid|**Down Arrow**|
