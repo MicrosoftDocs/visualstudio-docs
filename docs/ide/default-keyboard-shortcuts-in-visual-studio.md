@@ -155,6 +155,7 @@ The sections in the following table include commands that are global in that you
 |Edit.Cut|**Ctrl+X**<br /><br /> or<br /><br /> **Shift+Delete**|
 |Edit.CycleClipboardRing|**Ctrl+Shift+V**<br /><br /> or<br /><br /> **Ctrl+Shift+Ins**|
 |Edit.Delete|**Delete**|
+|Edit.Duplicate|**Ctrl+D**|
 |Edit.Find|**Ctrl+F**|
 |Edit.FindAllReferences|**Shift+F12**|
 |Edit.FindinFiles|**Ctrl+Shift+F**|
@@ -166,7 +167,6 @@ The sections in the following table include commands that are global in that you
 |Edit.GoTo|**Ctrl+G**|
 |Edit.GoToDeclaration|**Ctrl+F12**|
 |Edit.GoToDefinition|**F12**|
-|Edit.GoToFindCombo|**Ctrl+D**|
 |Edit.GoToNextLocation|**F8**|
 |Edit.GoToPrevLocation|**Shift+F8**|
 |Edit.InsertSnippet|**Ctrl+K, Ctrl+X**|
