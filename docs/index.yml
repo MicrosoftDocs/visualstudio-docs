@@ -5,7 +5,7 @@ brand: visual-studio
 metadata:
    title: Visual Studio Documentation | Microsoft Docs
    titleSuffix: ""
-   description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+   description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
    monikerRange: ">=vs-2017"
 
@@ -40,11 +40,11 @@ productDirectory:
       url: https://code.visualstudio.com/docs
     - title: Visual Studio App Center 
       summary: Continuous integration, delivery, and learning for Android, iOS, macOS, and Windows apps. Ship 5-star, higher-quality apps faster and with confidence.
-      imageSrc: https://docs.microsoft.com/media/logos/vs-mobile-center.svg
+      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mobile-center.svg
       url: /appcenter
     - title: Visual Studio Subscriptions
       summary: Developer tools, cloud services, training and support all in one place.
-      imageSrc: https://docs.microsoft.com/visualstudio/products/images/vs-subscription-temp.svg
+      imageSrc: https://docs.microsoft.com/media/common/i_get-started.svg
       url: /visualstudio/subscriptions
 
 
