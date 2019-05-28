@@ -74,22 +74,23 @@ There are several ways to disable the Remote Debugger for Virtual machines and V
 	For Virtual machine:
 
 
-		```
-		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
-		```		
+	```
+	Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
+	```		
 
 
 	For Virtual machine scale sets:
 
 
-		```
-		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
-		$extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
-		Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension
-		```
+	```
+	$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
+	$extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
+	Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension
+	```
 
-	- Azure portal > your Virtual machine/Virtual machine scale sets resource blade > Extensions
-		- Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension
+- Azure portal > your Virtual machine/Virtual machine scale sets resource blade > Extensions
+	- Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension
+
 
 		> [!NOTE]
 		> Virtual machine scale sets - The Portal does not allow removing the DebuggerListener ports. You will need to use Azure PowerShell. See below for details.
