@@ -1,5 +1,5 @@
 ---
-title: "Server and Client Configuration Issues in ClickOnce Deployments | Microsoft Docs"
+title: "Server/client configuration issues in ClickOnce deployments"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
