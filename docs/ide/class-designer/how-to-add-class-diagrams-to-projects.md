@@ -66,7 +66,6 @@ In **Solution Explorer** or Class View, right-click the project and choose **Vie
 
 An auto-populated class diagram is created.
 
-## Notes
 > [!NOTE]
 > Class Designer is not available in .NET Core projects.
 
