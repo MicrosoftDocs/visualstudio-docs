@@ -64,20 +64,23 @@ For AKS:
 
 For Virtual machine/Virtual machine scale sets:
 1. Remote Debugger Extension
-	There are several ways to disable the Remote Debugger:
-		- Cloud Explorer > your Virtual machine resource > Disable Debugging (Disabling Debugging does not exist for Virtual machine scale set on Cloud Explorer).
+There are several ways to disable the Remote Debugger for Virtual machines and Virtual machine scale sets:
+
+- Cloud Explorer > your Virtual machine resource > Disable Debugging (Disabling Debugging does not exist for Virtual machine scale set on Cloud Explorer).
 
 
-PowerShell Scripts/Cmdlets 
+- PowerShell Scripts/Cmdlets 
 
-	Virtual machine:
-		
+	For Virtual machine:
+
+
 		```
 		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
 		```		
 
 
-	Virtual machine scale sets:
+	For Virtual machine scale sets:
+
 
 		```
 		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
