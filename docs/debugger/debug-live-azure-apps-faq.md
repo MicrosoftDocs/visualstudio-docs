@@ -66,6 +66,7 @@ For Virtual machine/Virtual machine scale sets:
 1. Remote Debugger Extension
 
 There are several ways to disable the Remote Debugger:
+
 	- Cloud Explorer > your Virtual machine resource > Disable Debugging
 		- Disabling Debugging does not exist for Virtual machine scale set on Cloud Explorer
 
@@ -96,40 +97,40 @@ There are several ways to disable the Remote Debugger:
 When installing the Remote Debugger extension for Virtual machine or Virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual machine/Virtual machine scale sets resources. 
 	- The Client Cert
 
-		- This cert is a self-signed certificate located in Cert:/CurrentUser/My/
+	This cert is a self-signed certificate located in Cert:/CurrentUser/My/
 
-			```
-			Thumbprint                                Subject
-			----------                                -------
+	```
+	Thumbprint                                Subject
+	----------                                -------
 
-			1234123412341234123412341234123412341234  CN=ResourceName
-			```
+	1234123412341234123412341234123412341234  CN=ResourceName
+	```
 
-		- One way to remove this certificate from your machine is via PowerShell
+	One way to remove this certificate from your machine is via PowerShell
 
-			```
-			$ResourceName = 'ResourceName' # from above
-			Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item 
-			```
+	```
+	$ResourceName = 'ResourceName' # from above
+	Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item 
+	```
 
 	- The Server Certificate
 		- The corresponding server certificate thumbprint is deployed as a secret to Azure KeyVault. VS will attempt to find or create a KeyVault with prefix MSVSAZ* in the region corresponding to the Virtual machine or Virtual machine scale sets resource. All Virtual machine or Virtual machine scale sets resources deployed to that region therefore will share the same KeyVault.
 		- To delete the server certificate thumbprint secret, go to the Azure portal and find the MSVSAZ* KeyVault in the same region that's hosting your resource. Delete the secret which should be labeled `remotedebugcert<<ResourceName>>`
 		- You will also need to delete the server secret from your resource via PowerShell.
 
-		For Virtual machines:
+	For Virtual machines:
 
-			```
-			$vm.OSProfile.Secrets[0].VaultCertificates.Clear()
-			Update-AzVM -ResourceGroupName $rgName -VM $vm
-			```
+	```
+	$vm.OSProfile.Secrets[0].VaultCertificates.Clear()
+	Update-AzVM -ResourceGroupName $rgName -VM $vm
+	```
 						
-		For Virtual machine scale sets:
+	For Virtual machine scale sets:
 
-			```
-			$vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()
-			Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss
-			```
+	```
+	$vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()
+	Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss
+	```
 						
 3. DebuggerListener InBound NAT pools (VMSS-only)
 
