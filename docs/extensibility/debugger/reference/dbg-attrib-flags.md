@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DBGPROP_ATTRIB_FLAGS enumerations"
 ms.assetid: 2f13e601-dadc-476e-a8ec-01c4515082e7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

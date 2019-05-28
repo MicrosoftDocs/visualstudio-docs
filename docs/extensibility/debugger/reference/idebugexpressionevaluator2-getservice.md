@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2::GetService"
   - "GetService"
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

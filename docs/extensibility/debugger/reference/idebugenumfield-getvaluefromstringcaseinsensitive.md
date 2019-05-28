@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEnumField::GetValueFromStringCaseInsensitive method"
 ms.assetid: ef95b38e-d9b2-4fb5-a166-7c2e14641dc7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

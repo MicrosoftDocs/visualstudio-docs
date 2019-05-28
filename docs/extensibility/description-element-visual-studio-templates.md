@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "Description element [Visual Studio project templates]"
 ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Visual Studio, integrating programming languages"
   - "programming languages, integrating into Visual Studio"
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "tool windows, registering managed"
   - "tool windows, registering"
 ms.assetid: 8c8c4a24-3da4-497b-9db2-0ddd7cfbfdd2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

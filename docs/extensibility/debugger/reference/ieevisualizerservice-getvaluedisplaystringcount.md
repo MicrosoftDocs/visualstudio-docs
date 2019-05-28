@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IEEVisualizerService::GetValueDisplayStringCount"
   - "GetValueDisplayStringCount"
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

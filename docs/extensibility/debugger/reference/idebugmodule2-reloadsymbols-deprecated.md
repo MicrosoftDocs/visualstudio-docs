@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugModule2::ReloadSymbols method"
 ms.assetid: 0f9f0133-7d58-4cd9-a6ca-1141e095749d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

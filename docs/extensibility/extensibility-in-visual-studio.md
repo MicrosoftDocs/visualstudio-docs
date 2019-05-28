@@ -3,8 +3,8 @@ title: "Extensibility in Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 81b0dbe6-ddf3-4899-b09c-a3837037231d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

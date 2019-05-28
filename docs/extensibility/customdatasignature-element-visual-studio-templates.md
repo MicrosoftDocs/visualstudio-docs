@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "<CustomDataSignature> Element (Visual Studio Templates)"
   - "CustomDataSignature Element (Visual Studio Templates)"
 ms.assetid: 8c3db51d-7014-4484-802a-15aa1353dbdb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

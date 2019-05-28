@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetMessage method"
   - "IDebugMessageEvent2::GetMessage method"
 ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

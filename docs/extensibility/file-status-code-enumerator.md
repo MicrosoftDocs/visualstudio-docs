@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "SccStatus enumerator"
   - "file status code enumerator"
 ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

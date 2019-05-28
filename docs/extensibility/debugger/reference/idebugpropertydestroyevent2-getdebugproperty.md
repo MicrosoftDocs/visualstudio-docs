@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPropertyDestroyEvent2::GetDebugProperty"
 ms.assetid: c96ae785-0ac8-4df4-8df3-15a8d7e13687
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

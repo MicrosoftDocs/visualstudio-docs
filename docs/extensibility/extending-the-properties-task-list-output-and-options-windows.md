@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "tutorials"
   - "tool windows"
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

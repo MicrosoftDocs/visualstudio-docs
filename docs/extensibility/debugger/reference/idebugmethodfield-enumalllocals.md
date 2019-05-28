@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMethodField::EnumAllLocals method"
 ms.assetid: 0bc7cc13-2628-4bd8-8c06-4d2aa6755ea8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

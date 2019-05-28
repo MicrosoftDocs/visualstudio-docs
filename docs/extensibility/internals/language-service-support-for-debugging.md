@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugger, language support"
   - "language services, debugging support"
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

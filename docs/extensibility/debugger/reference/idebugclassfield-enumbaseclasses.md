@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::EnumBaseClasses method"
 ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

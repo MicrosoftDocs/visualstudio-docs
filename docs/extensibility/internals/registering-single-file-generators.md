@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "registration, custom tools"
   - "custom tools, defining registry settings"
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

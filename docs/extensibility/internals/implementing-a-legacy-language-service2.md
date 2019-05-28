@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "language services [managed package framework], implementing"
 ms.assetid: 5bcafdc5-f922-48f6-a12e-6c8507a79a05
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

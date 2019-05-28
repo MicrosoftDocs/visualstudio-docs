@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], breakpoint unbound events"
   - "breakpoint bound events"
 ms.assetid: 61bf00b2-8293-49d3-b919-1efb0dec9151
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

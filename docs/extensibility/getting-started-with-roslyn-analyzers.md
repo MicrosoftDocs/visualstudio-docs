@@ -3,8 +3,8 @@ title: "Getting Started with Roslyn Analyzers | Microsoft Docs"
 ms.date: 04/02/2018
 ms.topic: "conceptual"
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

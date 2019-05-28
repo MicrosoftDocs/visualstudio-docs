@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "VS SDK (see Visual Studio SDK)"
   - "Visual Studio, SDK"
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

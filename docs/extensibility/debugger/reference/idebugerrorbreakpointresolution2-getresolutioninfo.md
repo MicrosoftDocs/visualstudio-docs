@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugErrorBreakpointResolution2::GetResolutionInfo"
 ms.assetid: d94c4f60-8796-4848-86ee-186bbaa613f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "EVALFLAGS enumeration"
 ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

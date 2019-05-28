@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetMetaDataImport"
   - "IDebugSymbolProviderDirect::GetMetaDataImport"
 ms.assetid: b51a492c-af00-4b08-93fb-6c19ee4916aa
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

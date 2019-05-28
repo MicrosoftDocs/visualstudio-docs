@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "expression evaluation, implementation strategy"
   - "debug engines, implementation strategies"
 ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

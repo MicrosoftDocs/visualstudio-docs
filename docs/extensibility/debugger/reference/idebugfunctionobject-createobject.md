@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugFunctionObject::CreateObject method"
 ms.assetid: c4c99dd5-609a-4e7c-8f29-eb728f57e995
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

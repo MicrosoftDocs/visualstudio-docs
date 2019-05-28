@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "QUERYCHANGESFUNC callback function"
   - "QUERYCHANGESDATA structure"
 ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

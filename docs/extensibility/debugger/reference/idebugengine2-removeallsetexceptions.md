@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2::RemoveAllSetExceptions"
 ms.assetid: 165fbe89-802d-4d99-85ca-c10fd6cccc09
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetFlags"
   - "IDebugGenericParamField::GetFlags"
 ms.assetid: adcbbca1-8960-4c88-86b0-8b9467056c97
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

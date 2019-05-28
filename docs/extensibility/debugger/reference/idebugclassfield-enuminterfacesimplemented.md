@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::EnumInterfacesImplemented method"
 ms.assetid: e5523e45-d350-491e-a92c-fe0ca97d2052
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

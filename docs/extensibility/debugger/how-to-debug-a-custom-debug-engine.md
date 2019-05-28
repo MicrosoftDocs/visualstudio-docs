@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debug engines, debugging"
   - "debugging [Debugging SDK], custom debug engines"
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

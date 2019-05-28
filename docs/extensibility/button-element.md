@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Buttons element (VSCT XML schema)"
   - "VSCT XML schema elements, Buttons"
 ms.assetid: 96dccf51-2b00-4700-9d28-924b34c21ecd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

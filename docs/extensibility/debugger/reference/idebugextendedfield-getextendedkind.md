@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugExtendedField::GetExtendedKind"
   - "GetExtendedKind"
 ms.assetid: 20dc1c13-3cc0-4bb4-9c99-fa85587c86c3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

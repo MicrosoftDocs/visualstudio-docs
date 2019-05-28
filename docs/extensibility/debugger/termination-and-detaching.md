@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "programs, termination events"
   - "debug engines, detaching from programs"
 ms.assetid: 268c1e51-6363-45d1-964c-1ab99bdfa4f9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

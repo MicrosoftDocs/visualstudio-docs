@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugModule3::LoadSymbols"
 ms.assetid: 7548c8c1-cbc6-48aa-a845-19058d4a85bb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

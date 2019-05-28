@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DEBUG_ADDRESS_UNION union"
 ms.assetid: e3d11aab-de0d-4109-b5dc-11e07e64382d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

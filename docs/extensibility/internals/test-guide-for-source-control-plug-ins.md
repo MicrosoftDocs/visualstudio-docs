@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "testing, source control plug-ins"
   - "source control plug-ins, test guide"
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetBaseIndices"
   - "IDebugArrayObject2::GetBaseIndices"
 ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

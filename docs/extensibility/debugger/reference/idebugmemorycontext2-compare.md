@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IDebugMemoryContext2::Compare method"
   - "Compare method"
 ms.assetid: c51b5128-848e-4d8e-b2e9-1161339763c3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

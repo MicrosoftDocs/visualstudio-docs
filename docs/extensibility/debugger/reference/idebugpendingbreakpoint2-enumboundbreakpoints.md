@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "EnumBoundBreakpoints method"
   - "IDebugPendingBreakpoint2::EnumBoundBreakpoints method"
 ms.assetid: 179c7c54-8446-462d-b099-e0f9cf06dc52
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

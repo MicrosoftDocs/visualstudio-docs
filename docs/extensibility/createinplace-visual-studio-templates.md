@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "CreateInPlace element [Visual Studio Templates]"
   - "<CreateInPlace> element [Visual Studio Templates]"
 ms.assetid: 420d46ea-2470-4da9-ad8e-95165588a920
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

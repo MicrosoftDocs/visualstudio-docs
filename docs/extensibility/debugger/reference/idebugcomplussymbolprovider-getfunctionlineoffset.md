@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetFunctionLineOffset"
   - "GetFunctionLineOffset"
 ms.assetid: 51460f5a-4e98-427a-8315-27246e24fb61
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

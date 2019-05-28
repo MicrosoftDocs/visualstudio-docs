@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortEx2::CanTerminateProcess"
 ms.assetid: 111f65d8-5a1a-42b3-9de3-dd9bb03a33fd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

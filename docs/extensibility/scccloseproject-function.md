@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccCloseProject function"
 ms.assetid: 259c2069-d349-4814-810f-1c3151b7fb84
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

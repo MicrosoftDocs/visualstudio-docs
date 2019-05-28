@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetSymAttribute"
   - "GetSymAttribute"
 ms.assetid: 6cbaac92-a60b-4165-a7f5-c34407770f3c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

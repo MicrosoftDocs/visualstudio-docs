@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "guid"
   - "menus"
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

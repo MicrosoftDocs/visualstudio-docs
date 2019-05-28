@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "designers [Visual Studio SDK], undo support"
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

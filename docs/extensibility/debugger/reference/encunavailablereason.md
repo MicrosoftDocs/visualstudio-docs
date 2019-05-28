@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "EncUnavailableReason enumeration"
 ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

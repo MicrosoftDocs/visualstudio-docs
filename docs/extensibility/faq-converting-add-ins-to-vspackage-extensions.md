@@ -3,8 +3,8 @@ title: "FAQ: Converting Add-ins to VSPackage Extensions | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 3a01d333-6e31-423f-ae06-5091a4fcb7a9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

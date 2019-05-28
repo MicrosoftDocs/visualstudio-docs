@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "ConstructInstantiation"
   - "IDebugGenericFieldDefinition::ConstructInstantiation"
 ms.assetid: ef8ae261-a98b-4dc2-93b3-7c5191818ba2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

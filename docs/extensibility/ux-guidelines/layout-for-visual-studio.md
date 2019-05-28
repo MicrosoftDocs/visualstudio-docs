@@ -3,8 +3,8 @@ title: "Layout for Visual Studio | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
