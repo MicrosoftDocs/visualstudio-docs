@@ -68,23 +68,23 @@ For Virtual machine/Virtual machine scale sets:
 		- Cloud Explorer > your Virtual machine resource > Disable Debugging (Disabling Debugging does not exist for Virtual machine scale set on Cloud Explorer).
 
 
-	PowerShell Scripts/Cmdlets 
-		Virtual machine:
+PowerShell Scripts/Cmdlets 
 
-
+	Virtual machine:
+		
 		```
 		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
 		```		
 
-		Virtual machine scale sets:
 
+	Virtual machine scale sets:
 
 		```
 		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
 		$extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
 		Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension
 		```
-						
+
 	- Azure portal > your Virtual machine/Virtual machine scale sets resource blade > Extensions
 		- Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension
 
@@ -95,7 +95,8 @@ For Virtual machine/Virtual machine scale sets:
 2. Certificates and Azure KeyVault
 
 When installing the Remote Debugger extension for Virtual machine or Virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual machine/Virtual machine scale sets resources. 
-	- The Client Cert
+
+- The Client Cert
 
 	This cert is a self-signed certificate located in Cert:/CurrentUser/My/
 
