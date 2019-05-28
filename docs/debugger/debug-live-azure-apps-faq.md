@@ -73,14 +73,12 @@ There are several ways to disable the Remote Debugger for Virtual machines and V
 
 	For Virtual machine:
 
-
 	```
 	Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
-	```		
+	```
 
 
 	For Virtual machine scale sets:
-
 
 	```
 	$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
