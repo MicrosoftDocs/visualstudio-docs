@@ -1,5 +1,5 @@
 ---
-title: "Debug live ASP.NET Azure virtual machines and Azure virtual machine scale sets"
+title: "Debug live ASP.NET Azure virtual machines and scale sets"
 description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
 ms.custom: ""
 ms.date: "02/06/2019"

@@ -1,5 +1,5 @@
 ---
-title: "Collect .NET Framework Memory Data by using the Profiler Command Line | Microsoft Docs"
+title: "Get .NET Framework memory data using profiler command line"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 7bce69e2-407c-4342-8516-641586968928

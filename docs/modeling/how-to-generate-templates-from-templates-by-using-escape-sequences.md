@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate Templates from Templates By Using Escape Sequences"
+title: "Use escape sequences to generate templates from templates"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

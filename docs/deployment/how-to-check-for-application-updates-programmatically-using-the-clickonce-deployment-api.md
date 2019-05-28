@@ -1,5 +1,5 @@
 ---
-title: "How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API | Microsoft Docs"
+title: "Automatic app updates using ClickOnce deployment API"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
