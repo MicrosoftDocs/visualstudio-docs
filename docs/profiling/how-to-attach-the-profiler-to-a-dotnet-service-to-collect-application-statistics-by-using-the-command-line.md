@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to a .NET service to collect app statistics"
+title: "Attach profiler to .NET service to collect app statistics"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"

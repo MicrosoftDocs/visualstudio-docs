@@ -1,5 +1,5 @@
 ---
-title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
+title: "Performance tools on Windows 8 & Windows Server 2012 apps"
 ms.date: "06/19/2017"
 ms.topic: "conceptual"
 author: "mikejo5000"
