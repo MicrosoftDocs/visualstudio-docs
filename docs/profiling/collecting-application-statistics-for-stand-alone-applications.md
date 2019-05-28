@@ -1,5 +1,5 @@
 ---
-title: "Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
+title: "Use profiler command line to collect stand-alone app stats"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

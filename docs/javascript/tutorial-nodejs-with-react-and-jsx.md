@@ -372,7 +372,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
     ::: moniker range=">=vs-2019"
 
     > [!NOTE]
-    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview#browser-cli-params-support).
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview).
 
     ::: moniker-end
 
