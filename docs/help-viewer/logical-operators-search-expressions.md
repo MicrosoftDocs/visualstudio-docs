@@ -1,5 +1,5 @@
 ---
-title: Logical operators and advanced operators in search expressions (Help Viewer)
+title: Logical/advanced operators in search expressions (Help Viewer)
 ms.date: 11/02/2017
 ms.topic: reference
 helpviewer_keywords:

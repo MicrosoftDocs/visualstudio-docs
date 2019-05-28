@@ -1,5 +1,5 @@
 ---
-title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule | Microsoft Docs"
+title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
 ms.date: "11/04/2016"
 ms.topic: reference
 helpviewer_keywords:

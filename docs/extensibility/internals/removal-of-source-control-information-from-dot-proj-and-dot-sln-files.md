@@ -1,5 +1,5 @@
 ---
-title: "Removal of Source Control Information from .Proj and .Sln Files | Microsoft Docs"
+title: "Remove source control information from .proj and .sln files"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

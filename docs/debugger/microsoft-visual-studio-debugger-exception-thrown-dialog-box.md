@@ -41,4 +41,4 @@ An exception has occurred in your program. This dialog box reports the kind of e
 ## See Also
 - [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)
 - [Best Practices for Exceptions](/dotnet/standard/exceptions/best-practices-for-exceptions)
-- [Exception Handling](/cpp/windows/exception-handling-cpp-component-extensions)
+- [Exception Handling](/cpp/extensions/exception-handling-cpp-component-extensions)

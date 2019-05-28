@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer | Microsoft Docs"
+title: "Download satellite assembly on demand using ClickOnce designer"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

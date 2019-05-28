@@ -1,5 +1,5 @@
 ---
-title: "How to: Modify a Standard Menu Command in a Domain-Specific Language"
+title: "Modify standard menu command in DSL"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,5 @@
 ---
-title: "How to: Change Between Member Notation and Association Notation (Class Designer)"
+title: "Change between member & association notation (Class Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
