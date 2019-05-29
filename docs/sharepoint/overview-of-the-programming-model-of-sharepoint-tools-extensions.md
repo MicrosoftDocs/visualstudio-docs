@@ -49,7 +49,7 @@ ms.workload:
 - *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
 
 ### SharePoint tools object model
- Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assemby that contains them.
+ Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assembly that contains them.
 
 #### Microsoft.VisualStudio.SharePoint.dll
 
