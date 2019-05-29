@@ -129,7 +129,7 @@ ms.custom: seodec18
                                                         </td>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">                                     <li>
-                                                                    <a class="barLink" href="/cpp/get-started/">
+                                                                    <a class="barLink" href="/cpp/get-started/tutorial-console-cpp">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
                                                                         C++
                                                                     </a>

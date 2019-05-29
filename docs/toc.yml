@@ -170,7 +170,7 @@
   - name: Visual Basic
     href: get-started/visual-basic/
   - name: C++
-    href: /cpp/get-started/
+    href: /cpp/get-started/tutorial-console-cpp
   - name: Python
     href: python/
   - name: Node.js
