@@ -149,7 +149,7 @@ additionalContent:
         url: profiling/index.md
 #      - title: Extend
 #        summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
-#        url: extensibility/
+#        url: extensibility/index.md
 #      - title: Data
 #        summary: Create data apps that connect to any database or service, and anywhere&#8212;local or cloud.
 #        url: data-tools/accessing-data-in-visual-studio.md
@@ -164,9 +164,9 @@ additionalContent:
         - title: Web and Cloud
           summary: |
             [Web development](/aspnet/) </br>
-            [Azure development and management](azure/index.md) </br>
-            [Python](python/index.md) </br>
-            [Node.js](javascript/) </br>
+            [Azure development and management](azure/index.yml) </br>
+            [Python](python/index.yml) </br>
+            [Node.js](javascript/index.yml) </br>
             [Data storage and processing](data-tools/index.md) </br>
             [Data science](python/data-science-and-analytical-applications-workload.md) </br>
             [Office/Sharepoint development](https://developer.microsoft.com/office/docs) 
@@ -184,7 +184,7 @@ additionalContent:
             [Game development with C++](/windows/uwp/gaming/e2e) 
         - title: Other toolsets
           summary: |
-            [Visual Studio extension development](extensibility/) </br>
+            [Visual Studio extension development](extensibility/index.md) </br>
             [Linux development with C++](/cpp/linux/) </br>
             [.NET Core cross-platform development](/dotnet/core/)
    footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](ide/talk-to-us.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html)"
