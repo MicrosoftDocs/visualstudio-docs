@@ -19,7 +19,7 @@
   - name: Accounts
     items:
     - name: Sign in to Visual Studio
-      displayName: peronalization accounts
+      displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
     - name: Work with multiple user accounts
       href: ide/work-with-multiple-user-accounts.md
