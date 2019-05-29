@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Terminate"
   - "IDebugExpressionEvaluator2::Terminate"
 ms.assetid: 38265100-4d80-4902-833a-07bb569f9ba8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

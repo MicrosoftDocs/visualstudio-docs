@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugContainerField::EnumFields method"
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

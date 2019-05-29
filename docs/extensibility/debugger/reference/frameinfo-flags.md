@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "FRAMEINFO_FLAGS enumeration"
 ms.assetid: 41578062-8455-412a-9d8b-1e1e9dc8d52e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

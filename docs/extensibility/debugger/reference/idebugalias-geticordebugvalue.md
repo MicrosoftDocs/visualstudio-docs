@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAlias::GetICorDebugValue method"
 ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -3,8 +3,8 @@ title: "What&#39;s New in the Visual Studio 2015 SDK | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: c64aac80-a411-463f-b7bd-8b7607a52ece
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

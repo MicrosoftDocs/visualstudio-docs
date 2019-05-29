@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugExpressionEvaluator2::PreloadModules"
   - "PreloadModules"
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "user interface, source control packages"
   - "source control packages, user interface"
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

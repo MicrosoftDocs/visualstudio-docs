@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetAddressesFromPosition method"
 ms.assetid: 1b0f02cb-8ace-4614-88f3-0e10239012b3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

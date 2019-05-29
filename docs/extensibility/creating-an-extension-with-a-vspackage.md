@@ -3,8 +3,8 @@ title: "Creating an Extension with a VSPackage | Microsoft Docs"
 ms.date: "3/16/2019"
 ms.topic: "conceptual"
 ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

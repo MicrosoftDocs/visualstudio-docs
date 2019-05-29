@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "custom start page"
   - "start page assembly"
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

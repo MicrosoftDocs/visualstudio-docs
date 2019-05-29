@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::GetInfo method"
 ms.assetid: 7d508200-89ce-400f-a8ea-f28e7610cb2b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

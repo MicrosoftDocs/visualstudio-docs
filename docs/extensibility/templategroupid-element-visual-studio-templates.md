@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "TemplateGroupID element [Visual Studio Templates]"
   - "<TemplateGroupID> element [Visual Studio Templates]"
 ms.assetid: bce7b49a-90bc-4691-aff3-a87e209f6d83
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

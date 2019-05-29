@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "colorable items"
   - "language services, custom colorable items"
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

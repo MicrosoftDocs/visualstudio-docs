@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_ADDRESS_ARRAYELEM structure"
 ms.assetid: 24321be5-7c17-4038-82a1-c20a2b68ff3c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

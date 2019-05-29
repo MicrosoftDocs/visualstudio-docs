@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "ATTACH_REASON enumeration"
 ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

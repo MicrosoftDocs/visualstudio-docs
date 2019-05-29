@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - extensions"
 ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: Meng
 ms.workload:
   - "vssdk"

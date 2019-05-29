@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2::IsChecksumEnabled"
 ms.assetid: 8b1853b5-745c-4cd6-88a9-ce0673971bb0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

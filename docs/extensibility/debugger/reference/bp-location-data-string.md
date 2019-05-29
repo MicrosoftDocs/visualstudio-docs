@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION_DATA_STRING structure"
 ms.assetid: 445d6f3f-95b0-47ac-85e2-51b778240687
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

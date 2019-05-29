@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "pkgdef"
   - "createpkgdef"
 ms.assetid: c745cb76-47a6-49ff-9eed-16af0f748e35
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

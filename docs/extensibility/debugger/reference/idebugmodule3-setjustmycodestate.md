@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugModule3::SetJustMyCodeState"
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

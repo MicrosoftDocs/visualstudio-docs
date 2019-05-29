@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "BuildOnLoad attribute [Visual Studio Templates]"
   - "BuildOnLoad element [Visual Studio Templates]"
 ms.assetid: 950f5fc1-d041-4090-9a5c-60844768a4cc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "<ProjectCollection> element [Visual Studio Templates]"
   - "ProjectCollection element [Visual Studio Templates]"
 ms.assetid: deb27180-2035-49ed-b835-c47bb3cd2f8f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

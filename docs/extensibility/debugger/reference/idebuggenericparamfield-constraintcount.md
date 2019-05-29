@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "ConstraintCount"
   - "IDebugGenericParamField::ConstraintCount"
 ms.assetid: 76bef0cb-8a3c-4ce5-87cc-1809de229f33
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

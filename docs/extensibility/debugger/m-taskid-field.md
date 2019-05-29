@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "m_taskId field, Task class [.NET Framework debug engines]"
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

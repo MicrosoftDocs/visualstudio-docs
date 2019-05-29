@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "language services"
   - "Visual Studio, language services"
 ms.assetid: 2700cd4d-5f68-43fc-b62f-dc80c3f3aa85
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

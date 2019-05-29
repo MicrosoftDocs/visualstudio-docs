@@ -6,8 +6,8 @@ helpviewer_keywords:
   - ".msi files, VSPackages"
   - "msi files, VSPackages"
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

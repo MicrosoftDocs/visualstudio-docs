@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "TYPE_INFO structure"
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "breakpoint validation"
   - "language services [managed package framework], breakpoint validation"
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

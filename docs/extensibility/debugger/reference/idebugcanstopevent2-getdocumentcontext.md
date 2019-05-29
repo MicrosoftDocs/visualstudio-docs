@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCanStopEvent2::GetDocumentContext"
 ms.assetid: 936a6c4e-30c5-4c7e-9ad5-910cc605a4b5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

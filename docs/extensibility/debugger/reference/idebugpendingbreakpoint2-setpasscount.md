@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "SetPassCount method"
   - "IDebugPendingBreakpoint2::SetPassCount method"
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

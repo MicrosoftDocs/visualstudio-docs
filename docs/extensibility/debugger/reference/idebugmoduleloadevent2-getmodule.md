@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugModuleLoadEvent2::GetModule"
 ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetArrayTypeFromAddress"
   - "IDebugComPlusSymbolProvider::GetArrayTypeFromAddress"
 ms.assetid: cc0c53f1-8c0f-49fa-8dbe-bc155e9ce0ef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

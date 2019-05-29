@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "GETNAME_TYPE enumeration"
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

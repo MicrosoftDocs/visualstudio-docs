@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "EVENTATTRIBUTES enumeration"
 ms.assetid: 04db10f7-df31-4464-98e8-b3777428179e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

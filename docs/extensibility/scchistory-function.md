@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccHistory function"
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

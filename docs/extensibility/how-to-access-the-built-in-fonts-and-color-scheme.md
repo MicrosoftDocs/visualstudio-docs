@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "font and color control [Visual Studio SDK], categories"
   - "colors, accessing built-in schemes"
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

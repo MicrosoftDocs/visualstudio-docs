@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "localize visual studio"
   - "localize vsct"
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

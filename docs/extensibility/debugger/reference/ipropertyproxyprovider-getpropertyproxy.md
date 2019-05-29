@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyProvider::GetPropertyProxy"
 ms.assetid: 3ebb7515-5bfe-48f4-9b8d-721b8f664eb6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

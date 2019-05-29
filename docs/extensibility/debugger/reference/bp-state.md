@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_STATE enumeration"
 ms.assetid: 08aa6a3f-3e5f-4c83-8eca-7b7b5f8e208d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

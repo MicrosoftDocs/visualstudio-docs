@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_ADDRESS_RETVAL structure"
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

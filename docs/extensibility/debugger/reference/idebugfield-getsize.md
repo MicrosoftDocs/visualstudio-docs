@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::GetSize method"
 ms.assetid: 73329924-3751-4f44-af54-5986b7943374
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

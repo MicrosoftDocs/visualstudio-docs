@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetMetricString"
   - "GetMetricString"
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
