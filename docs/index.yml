@@ -187,4 +187,4 @@ additionalContent:
           summary: |
             [Visual Studio extension development](extensibility/) </br>
             [Linux development with C++](/cpp/linux/) </br>
-            [].NET Core cross-platform development](/dotnet/core/)
+            [.NET Core cross-platform development](/dotnet/core/)
