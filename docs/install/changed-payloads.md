@@ -11,9 +11,11 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Package payloads changed after a release has already shipped
+# Package payload changes
 
 Some package payloads are allowed to change after a release has already shipped. When you or someone else creates a layout, this behavior might result in different layout content, depending on when a layout was created.
+
+## Verify that a layout includes package payload changes
 
 Here's how to determine if the layout that was previously created has acquired the package payloads that were modified after the release shipped:
 
