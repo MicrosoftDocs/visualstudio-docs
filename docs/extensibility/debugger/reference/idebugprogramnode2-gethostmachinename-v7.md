@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNode2::GetHostMachineName_V7"
   - "IDebugProgramNode2::GetHostMachineNameIDebugProgramNode2::GetHostMachineName"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

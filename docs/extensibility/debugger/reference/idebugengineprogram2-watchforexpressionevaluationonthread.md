@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

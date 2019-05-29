@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetAddressesFromContext method"
 ms.assetid: a3124883-a255-4543-a5ec-e1c7a97beb69
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

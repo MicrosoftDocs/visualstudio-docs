@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IDebugMemoryBytes2::WriteAt method"
   - "WriteAt method"
 ms.assetid: 61cc3704-47fa-4d9b-aa62-bb4585ac8fb1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

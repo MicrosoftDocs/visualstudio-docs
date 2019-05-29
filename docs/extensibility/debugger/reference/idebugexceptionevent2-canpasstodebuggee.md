@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExceptionEvent2::CanPassToDebuggee"
 ms.assetid: ae4bbe0a-fbe1-49be-a310-ea64279a434b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

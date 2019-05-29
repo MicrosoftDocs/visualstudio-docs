@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "getting started, Visual Studio integration"
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

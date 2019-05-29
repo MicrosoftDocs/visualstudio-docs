@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricString"
 ms.assetid: 85e3c093-6a91-4101-ab32-d8ac6eed4918
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Watch window, expressions"
   - "expression evaluation, Watch window expressions"
 ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Atom feed, VSIX private galleries"
   - "VSIX private galleries, Atom feed"
 ms.assetid: 5897f538-9c41-486f-97d9-a1976d20d9fd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

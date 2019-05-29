@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "command-line switches"
   - "command line, switches"
 ms.assetid: 0a22516f-f60e-4476-ac5b-f41e5ffaaf8b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

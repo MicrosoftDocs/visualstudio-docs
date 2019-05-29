@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "syntax coloring"
   - "language services, syntax coloring"
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

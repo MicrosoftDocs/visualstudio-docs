@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer2::EnumPorts"
 ms.assetid: 3d98dfd0-614f-4d68-90c6-8a9b9cab66f1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

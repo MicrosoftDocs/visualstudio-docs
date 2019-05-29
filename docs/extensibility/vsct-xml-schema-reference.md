@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Visual Studio command table configuration files (VSCT), XML schema"
   - "VSCT XML schema elements"
 ms.assetid: 49e7efae-e713-4762-a824-96fdaf92cdc9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

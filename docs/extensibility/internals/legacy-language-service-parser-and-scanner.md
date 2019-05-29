@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "parsers, language services [managed package framework]"
   - "language services [managed package framework], Parsers"
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

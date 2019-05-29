@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Bind method"
   - "IDebugPendingBreakpoint2::Bind method"
 ms.assetid: 46e3f307-219d-40cd-a929-d41399c60ecf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

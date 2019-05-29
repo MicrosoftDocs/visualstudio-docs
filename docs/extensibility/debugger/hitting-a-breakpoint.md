@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], hitting breakpoints"
   - "breakpoints, hitting"
 ms.assetid: a77816e3-b15b-46a0-90cd-be7242e4d6c9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

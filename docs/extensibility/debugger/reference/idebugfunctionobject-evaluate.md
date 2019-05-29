@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugFunctionObject::Evaluate method"
 ms.assetid: 29349ea3-d5c1-4135-aa76-ced073ab9683
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

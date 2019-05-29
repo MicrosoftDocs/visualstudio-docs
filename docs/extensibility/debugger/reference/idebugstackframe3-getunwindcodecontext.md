@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame3::GetUnwindCodeContext method"
 ms.assetid: b25f7e7d-2b24-48e4-93b3-829e61d73ebf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

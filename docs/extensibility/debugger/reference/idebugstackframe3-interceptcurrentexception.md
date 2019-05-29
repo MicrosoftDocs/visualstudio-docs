@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame3::InterceptCurrentException"
 ms.assetid: 116c7324-7645-4c15-b484-7a5cdd065ef5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

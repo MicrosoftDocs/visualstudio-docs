@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "OBJECT_TYPE enumeration"
 ms.assetid: c4d246f9-8a98-44ec-b2bb-ff5c684f668e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

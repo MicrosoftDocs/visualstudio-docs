@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAddress:GetAddress method"
 ms.assetid: 2590387b-5d36-4116-9a75-737957b8898e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

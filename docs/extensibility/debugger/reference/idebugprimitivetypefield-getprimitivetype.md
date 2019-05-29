@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetPrimitiveType"
   - "IDebugPrimitiveTypeField::GetPrimitiveType"
 ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

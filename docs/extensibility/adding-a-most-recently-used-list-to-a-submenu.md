@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "menus, creating MRU list"
   - "most recently used"
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

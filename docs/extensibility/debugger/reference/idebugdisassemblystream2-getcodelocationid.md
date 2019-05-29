@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetCodeLocationId"
 ms.assetid: 567adfb8-2f54-499a-a027-e4ecb82277ef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

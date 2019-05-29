@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration"
 ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

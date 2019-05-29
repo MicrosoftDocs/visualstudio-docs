@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]"
   - "debug engines, AsyncTaskMethodBuilder<TResult> structure [.NET Framework]"
 ms.assetid: 17ebc340-8170-4aff-bf54-dc4548c83632
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

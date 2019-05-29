@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccAdd function"
 ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

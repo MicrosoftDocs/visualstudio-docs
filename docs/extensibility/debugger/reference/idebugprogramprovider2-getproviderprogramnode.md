@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramProvider2::GetProviderProgramNode"
 ms.assetid: e62e8e83-acbb-4c52-aedf-ffbd4670db29
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

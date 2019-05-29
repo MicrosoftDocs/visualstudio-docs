@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Query Edit Query Save events"
   - "source control packages, Query Edit Query Save events"
 ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

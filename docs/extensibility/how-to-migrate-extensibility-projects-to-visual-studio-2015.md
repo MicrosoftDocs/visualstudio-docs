@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "Visual Studio SDK, upgrading"
 ms.assetid: 22491cdc-8f04-4e1c-8eb4-ff33798ec792
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

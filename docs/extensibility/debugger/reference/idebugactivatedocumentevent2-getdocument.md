@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetDocument method"
   - "IDebugActivateDocumentEvent2::GetDocument method"
 ms.assetid: b3c32f1b-f3de-409d-920d-ba7b3fa84fcd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

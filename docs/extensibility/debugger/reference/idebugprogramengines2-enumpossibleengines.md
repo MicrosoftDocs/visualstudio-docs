@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramEngines2::EnumPossibleEngines"
 ms.assetid: 993d70a4-f6a5-4e47-a603-0b162b9fde00
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

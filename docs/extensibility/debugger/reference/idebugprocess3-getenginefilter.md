@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetEngineFilter"
   - "IDebugProcess3::GetEngineFilter"
 ms.assetid: ccb7ecb0-f189-4e80-b5b2-221a095e01f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

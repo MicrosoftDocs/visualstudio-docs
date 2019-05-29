@@ -3,8 +3,8 @@ title: "How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

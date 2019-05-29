@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "TypeParamCount"
   - "IDebugGenericFieldDefinition::TypeParamCount"
 ms.assetid: d41dd5ea-aa25-4bf3-bcfd-e0bf451ead49
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

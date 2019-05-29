@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "REFERENCE_COMPARE enumeration"
 ms.assetid: e31cdc78-f621-498b-9ca4-aefa790b9f6f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

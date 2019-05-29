@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "CreateStringObjectWithLength"
   - "IDebugFunctionObject2::CreateStringObjectWithLength"
 ms.assetid: 1f43ec66-1615-4a4c-8b9d-e933f549f96d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

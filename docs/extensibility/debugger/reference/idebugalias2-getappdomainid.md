@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetAppDomainId"
   - "IDebugAlias2::GetAppDomainId"
 ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DisassemblyData structure"
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

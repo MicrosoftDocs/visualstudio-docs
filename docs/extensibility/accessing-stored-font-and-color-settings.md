@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "font and color control [Visual Studio SDK], persistence"
   - "colors, accessing stored settings"
 ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

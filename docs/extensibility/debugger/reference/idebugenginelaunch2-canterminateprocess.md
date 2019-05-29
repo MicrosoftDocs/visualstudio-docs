@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineLaunch2::CanTerminateProcess"
 ms.assetid: 7973454d-c957-4123-a0ee-80ebcdbbd2d1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

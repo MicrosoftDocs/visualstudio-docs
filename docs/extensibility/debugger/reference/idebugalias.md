@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAlias interface"
 ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

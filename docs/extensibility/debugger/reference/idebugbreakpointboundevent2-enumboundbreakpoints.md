@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints"
 ms.assetid: 1f588feb-522e-488d-be92-7bc19b9e3688
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

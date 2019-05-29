@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugDocumentChecksum2::GetChecksumAndAlgorithmI"
   - "GetChecksumAndAlgorithmI"
 ms.assetid: 25efef99-0ef3-4332-a752-607605fc6e67
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

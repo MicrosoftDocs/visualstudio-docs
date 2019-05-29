@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "ProjectSubType element [Visual Studio Templates]"
   - "<ProjectSubType> element [Visual Studio Templates]"
 ms.assetid: f6895cd4-3e95-4f0e-aa9e-8c7750f46ed4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

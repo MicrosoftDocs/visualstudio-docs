@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "menu commands, implementing"
   - "toolbars [Visual Studio], commands"
 ms.assetid: 8385f1a6-1e98-4dca-83d2-fcbed7177242
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

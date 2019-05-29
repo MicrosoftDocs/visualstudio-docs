@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProcessQueryProperties::QueryProperty"
 ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

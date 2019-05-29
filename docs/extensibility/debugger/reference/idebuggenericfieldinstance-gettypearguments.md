@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetTypeArguments"
   - "IDebugGenericFieldInstance::GetTypeArguments"
 ms.assetid: 6e7e0f95-181a-4805-adb3-c2407de0ab93
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
