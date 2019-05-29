@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "interop assemblies, command handlers"
   - "command handling with interop assemblies, registering"
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

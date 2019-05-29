@@ -3,8 +3,8 @@ title: "How to: Use Rule-based UI Context for Visual Studio Extensions | Microso
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 ms.workload:
   - "vssdk"
 ---

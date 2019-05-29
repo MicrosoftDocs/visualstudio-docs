@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], call stack evaluation"
   - "call stacks, evaluation"
 ms.assetid: 373d6b49-0459-4cce-816e-05745a44fe49
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

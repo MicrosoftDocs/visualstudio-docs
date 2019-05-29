@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, displaying locals"
 ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

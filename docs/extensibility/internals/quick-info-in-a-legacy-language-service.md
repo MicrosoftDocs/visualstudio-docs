@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "IntelliSense, Quick Info"
   - "language services [managed package framework], IntelliSense Quick Info"
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

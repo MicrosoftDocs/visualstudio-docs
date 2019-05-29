@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::GetInitialData"
 ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

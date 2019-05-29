@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetPhysicalStackRange"
 ms.assetid: 2f6992e2-ac1c-433f-83b7-a7f83a4ce63d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

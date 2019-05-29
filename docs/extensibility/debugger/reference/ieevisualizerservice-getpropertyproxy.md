@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerService::GetPropertyProxy method"
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

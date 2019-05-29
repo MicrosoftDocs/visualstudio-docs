@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "language services, supporting outlining"
   - "outlining, supporting"
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

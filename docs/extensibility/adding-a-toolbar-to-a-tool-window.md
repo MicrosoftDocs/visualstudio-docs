@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "tool windows, adding toolbars"
   - "toolbars [Visual Studio], adding to tool windows"
 ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

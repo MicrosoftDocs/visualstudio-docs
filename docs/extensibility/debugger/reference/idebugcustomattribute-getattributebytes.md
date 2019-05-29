@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttribute::GetAttributeBytes"
 ms.assetid: cf34583b-6530-4dcc-89f8-eb27e4e8d594
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

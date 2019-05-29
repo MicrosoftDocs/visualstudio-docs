@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "VSTextBuffer object, reference"
   - "views [Visual Studio SDK], VSTextBuffer object"
 ms.assetid: c5f94b45-7249-4e1f-a53d-1d2a1c61e0ef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

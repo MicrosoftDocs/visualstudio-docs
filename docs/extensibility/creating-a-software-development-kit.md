@@ -3,8 +3,8 @@ title: "Creating a Software Development Kit | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject2::IsEncOutdated method"
 ms.assetid: d3a8c02d-895b-478c-9957-d663130f308e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

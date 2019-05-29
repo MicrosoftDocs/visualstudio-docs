@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "solutions, user options"
   - "solution user options (.suo) file"
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

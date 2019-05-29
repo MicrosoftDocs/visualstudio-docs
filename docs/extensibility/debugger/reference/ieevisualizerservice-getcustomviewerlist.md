@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerList method"
 ms.assetid: 249d26ca-914f-43af-a400-8162477223f4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

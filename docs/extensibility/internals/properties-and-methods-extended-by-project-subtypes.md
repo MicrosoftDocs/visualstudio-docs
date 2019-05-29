@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project subtypes, extended methods"
   - "project subtypes, extended properties"
 ms.assetid: 2b9833bf-8551-4ae1-93db-197ba645c65e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

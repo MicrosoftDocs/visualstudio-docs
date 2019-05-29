@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugObject::IsProxy"
   - "IsProxy"
 ms.assetid: 06c66b87-db95-4400-ab26-5d33e743a439
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

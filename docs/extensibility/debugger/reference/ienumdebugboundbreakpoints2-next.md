@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Next"
 ms.assetid: cb3a249f-2282-4bdc-b6d8-a4ee4bfb8365
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

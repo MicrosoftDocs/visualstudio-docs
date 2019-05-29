@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::GetManagedViewerCreationData"
 ms.assetid: c4eb4d60-8816-4d52-bc8d-dffd4f066499
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Menus"
   - "Menus element (VSCT XML schema)"
 ms.assetid: ce0560f3-b4c9-4ab2-a99c-d4e10f37b9e0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

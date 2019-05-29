@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugQueryEngine2::GetEngineInterface"
 ms.assetid: ed84aa98-7ec7-48f3-97ae-821090bc3664
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

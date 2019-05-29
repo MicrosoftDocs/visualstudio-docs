@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetInfo method"
   - "IDebugModule2::GetInfo method"
 ms.assetid: de337e66-294f-4ac9-b21e-71fac7418e36
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

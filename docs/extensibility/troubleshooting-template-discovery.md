@@ -2,8 +2,8 @@
 title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
 ms.date: "01/02/2018"
 ms.topic: "conceptual"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

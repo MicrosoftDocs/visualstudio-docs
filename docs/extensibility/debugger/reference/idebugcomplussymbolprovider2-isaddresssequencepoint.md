@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::IsAddressSequencePoint"
   - "IsAddressSequencePoint"
 ms.assetid: 89b27c57-5295-428b-8229-a402500d8cd3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

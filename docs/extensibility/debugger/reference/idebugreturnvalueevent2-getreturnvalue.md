@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReturnValueEvent2::GetReturnValue"
 ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

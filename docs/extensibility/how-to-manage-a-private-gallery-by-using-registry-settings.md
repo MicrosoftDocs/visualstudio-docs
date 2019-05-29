@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSIX private galleries, managing"
   - "managing VSIX private galleries"
 ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

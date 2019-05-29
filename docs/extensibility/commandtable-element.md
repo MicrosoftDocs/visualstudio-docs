@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "CommandTable element (VSCT XML schema)"
   - "VSCT XML schema elements, CommandTable"
 ms.assetid: 15c38159-660a-4ef4-9643-aa6fcfca82a9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

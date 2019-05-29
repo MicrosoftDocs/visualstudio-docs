@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetAppIDFromAddress"
   - "GetAppIDFromAddress"
 ms.assetid: d76a0f36-79c4-4c58-9db3-880b00d11610
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

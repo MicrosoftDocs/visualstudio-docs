@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugModOpt::GetModOpts"
   - "GetModOpts"
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

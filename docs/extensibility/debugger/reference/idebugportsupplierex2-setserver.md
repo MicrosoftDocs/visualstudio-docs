@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierEx2::SetServer"
 ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

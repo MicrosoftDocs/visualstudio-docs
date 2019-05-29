@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "registration, VSPackages"
   - "VSPackages, registering"
 ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

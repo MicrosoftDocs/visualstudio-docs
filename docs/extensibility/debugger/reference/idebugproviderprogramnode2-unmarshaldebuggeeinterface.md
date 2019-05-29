@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
 ms.assetid: 2e4653c5-10f1-493c-9973-f31d266c5d48
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpressionEvaluator::SetRegistryRoot method"
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

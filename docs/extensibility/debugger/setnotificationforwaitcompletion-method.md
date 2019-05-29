@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]"
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugCustomAttributeQuery::GetCustomAttributeByName"
   - "GetCustomAttributeByName"
 ms.assetid: 6779727c-d10a-4abe-9acd-d0a1eb0737e7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

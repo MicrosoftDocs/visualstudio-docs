@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Subtract method"
   - "IDebugMemoryContext2::Subtract method"
 ms.assetid: 63df14c7-8d7e-47c1-afa7-5a1ab5d8eaba
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

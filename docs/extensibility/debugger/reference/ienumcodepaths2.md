@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumCodePaths2 interface"
 ms.assetid: 17ec9f9e-dc06-4532-b5db-da52efcc8630
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpressionEvaluator::SetLocale method"
 ms.assetid: d3d2027d-74e2-4ae6-bcc7-59d12f873b7c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

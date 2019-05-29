@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetEntryPoint"
   - "GetEntryPoint"
 ms.assetid: 9640e121-1da1-41f9-8e66-76efca36baf2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

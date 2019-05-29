@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "tool windows, configuring"
   - "tool windows, appearance"
 ms.assetid: 502a4926-bb83-473e-94e2-8e833c5f8b53
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

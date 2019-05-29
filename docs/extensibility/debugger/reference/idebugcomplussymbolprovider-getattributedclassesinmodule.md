@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetAttributedClassesinModule"
   - "GetAttributedClassesinModule"
 ms.assetid: d8b087f3-1d32-4570-9eb0-7e0f7b051bc8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

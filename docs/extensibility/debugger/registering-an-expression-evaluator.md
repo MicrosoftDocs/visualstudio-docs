@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluators, registering"
 ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

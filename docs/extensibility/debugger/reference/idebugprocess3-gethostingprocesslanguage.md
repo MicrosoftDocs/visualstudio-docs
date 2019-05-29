@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess3::GetHostingProcessLanguage"
 ms.assetid: 52fca002-a9ef-43b1-9192-afbe7bb59ad4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccCreateSubProject function"
 ms.assetid: 08154aed-ae5c-463c-8694-745d0e332965
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

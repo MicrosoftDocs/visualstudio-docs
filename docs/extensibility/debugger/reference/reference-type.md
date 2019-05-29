@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "REFERENCE_TYPE enumeration"
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

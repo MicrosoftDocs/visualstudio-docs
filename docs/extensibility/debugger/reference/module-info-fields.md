@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "MODULE_INFO_FIELDS enumeration"
 ms.assetid: 8bed85f4-235f-4192-b58f-5fad7a4d7a78
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

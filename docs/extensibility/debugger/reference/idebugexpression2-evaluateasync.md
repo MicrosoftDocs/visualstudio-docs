@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpression2::EvaluateAsync"
 ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

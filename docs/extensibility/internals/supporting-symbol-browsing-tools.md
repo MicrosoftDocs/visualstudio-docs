@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "symbols"
   - "libraries, symbol-browsing tools"
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

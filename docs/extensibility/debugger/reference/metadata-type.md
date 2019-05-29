@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_TYPE structure"
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

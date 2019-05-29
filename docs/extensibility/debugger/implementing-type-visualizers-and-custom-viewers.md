@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], custom viewer"
   - "debugging [Debugging SDK], type visualizer"
 ms.assetid: abef18c0-8272-4451-b82a-b4624edaba7d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
