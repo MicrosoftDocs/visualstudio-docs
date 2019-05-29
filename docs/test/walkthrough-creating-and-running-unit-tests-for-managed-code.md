@@ -359,7 +359,7 @@ Running the two test methods demonstrates that the tests work correctly.
 
 ### Continue the analysis
 
-But this isn't an ideal solution. Right now, we have no way to know which condition inside the method we're testing (`amount > m_balance` or `amount < 0`) led to the exception being thrown during the test. We just know `ArgumentOutOfRangeException` was thrown, we don't know what logic within the `Debit` caused that. It would be better if we could tell _which_ condition in ``BankAccount.Debit`` caused the exception to be thrown (`amount > m_balance` or `amount < 0`), so we can be confident that our method is sanity-checking its arguments correctly.
+The method being tested can be improved further. With the current implementation, we have no way to know which condition (`amount > m_balance` or `amount < 0`) led to the exception being thrown during the test. We just know that an `ArgumentOutOfRangeException` was thrown somewhere in the method. It would be better if we could tell which condition in `BankAccount.Debit` caused the exception to be thrown (`amount > m_balance` or `amount < 0`) so we can be confident that our method is sanity-checking its arguments correctly.
 
 Look at the method being tested (`BankAccount.Debit`) again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
 
