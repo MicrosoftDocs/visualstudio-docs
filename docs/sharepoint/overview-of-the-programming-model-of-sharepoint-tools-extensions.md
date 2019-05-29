@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Programming Model of SharePoint Tools Extensions | Microsoft Docs"
+title: "Overview of programming model of SharePoint tools extensions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

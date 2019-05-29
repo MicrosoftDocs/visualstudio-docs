@@ -1,5 +1,5 @@
 ---
-title: "How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server | Microsoft Docs"
+title: "Deploy, publish, & upgrade SharePoint solutions remotely"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
