@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically add text and formatting to cells in Word tables"
+title: "Add text & formatting to Word table cells programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

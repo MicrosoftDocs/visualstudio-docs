@@ -1,5 +1,5 @@
 ---
-title: "Extend Word documents and Excel workbooks in VSTO Add-ins at runtime"
+title: "Extend Word docs & Excel workbooks in VSTO Add-ins at runtime"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
