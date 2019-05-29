@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::GetCount"
 ms.assetid: 004f78dd-87d0-41a8-bcaa-f7fadbfeb8fc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetCount(
 ```
 
 ## Parameters
- `pcelt`\
-
- [out] Returns the number of elements in the enumeration.
+`pcelt`\
+[out] Returns the number of elements in the enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

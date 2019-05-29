@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], legacy - drop-down bar"
 ms.assetid: 4bb621bd-72f5-43d5-916f-9f66617da049
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

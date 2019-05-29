@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttribute::GetName"
 ms.assetid: ba509cc5-5816-4925-a094-4c72d88c360c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetName(
 ```
 
 ## Parameters
- `bstrName`\
-
- [out] Returns a string containing the name of the custom attribute.
+`bstrName`\
+[out] Returns a string containing the name of the custom attribute.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

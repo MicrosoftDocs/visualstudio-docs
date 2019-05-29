@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentPosition2::IsPositionInDocument"
 ms.assetid: d5cf57cb-b93b-4e1d-bec9-185f4fe8668d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int IsPositionInDocument( 
 ```
 
 ## Parameters
- `pDoc`\
-
- [in] The [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the containing document candidate.
+`pDoc`\
+[in] The [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) object that represents the containing document candidate.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

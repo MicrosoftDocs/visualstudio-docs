@@ -1,5 +1,5 @@
 ---
-title: VC++ Project Settings, Projects and Solutions, Options Dialog Box
+title: C++ Project Settings options
 ms.date: 08/02/2017
 ms.topic: reference
 f1_keywords:

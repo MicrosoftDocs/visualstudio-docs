@@ -81,6 +81,8 @@
         href: install/disable-or-move-the-package-cache.md
       - name: Control updates to Visual Studio deployments
         href: install/controlling-updates-to-visual-studio-deployments.md
+      - name: Update Visual Studio while on a servicing baseline
+        href: install/update-servicing-baseline.md
     - name: Manage installations
       items:
       - name: Tools for detecting and managing Visual Studio instances
@@ -124,6 +126,8 @@
           href: install/workload-component-id-vs-test-professional.md
         - name: Visual Studio Feedback Client
           href: install/workload-component-id-vs-feedback-client.md
+        - name: Package payload changes
+          href: install/changed-payloads.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
@@ -166,7 +170,7 @@
   - name: Visual Basic
     href: get-started/visual-basic/
   - name: C++
-    href: /cpp/get-started/
+    href: /cpp/get-started/tutorial-console-cpp
   - name: Python
     href: python/
   - name: Node.js

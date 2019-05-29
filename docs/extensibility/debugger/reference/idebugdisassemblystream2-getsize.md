@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetSize"
 ms.assetid: 8f512704-12d0-46d2-959a-4f8dffe117b5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetSize( 
 ```
 
 ## Parameters
- `pnSize`\
-
- [out] Returns the size, in instructions.
+`pnSize`\
+[out] Returns the size, in instructions.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

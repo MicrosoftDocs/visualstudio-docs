@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEvent2::GetAttributes"
 ms.assetid: 2ac5b5fb-da17-43f7-811a-313f677e60d7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetAttribute( 
 ```
 
 ## Parameters
- `pdwAttrib`\
-
- [out] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
+`pdwAttrib`\
+[out] A combination of flags from the [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

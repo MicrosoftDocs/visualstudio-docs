@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPointerObject::GetBytes method"
 ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,21 +40,17 @@ int GetBytes(
 ```
 
 ## Parameters
- `dwStart`\
+`dwStart`\
+[in] An offset, in bytes, from the start of the object pointed to.
 
- [in] An offset, in bytes, from the start of the object pointed to.
+`dwCount`\
+[in] The number of bytes to retrieve.
 
- `dwCount`\
+`pBytes`\
+[in, out] An array that is filled in with the value as a series of consecutive bytes, starting at the given offset from the object pointed to.
 
- [in] The number of bytes to retrieve.
-
- `pBytes`\
-
- [in, out] An array that is filled in with the value as a series of consecutive bytes, starting at the given offset from the object pointed to.
-
- `pdwBytes`\
-
- [out] Returns the number of bytes actually retrieved.
+`pdwBytes`\
+[out] Returns the number of bytes actually retrieved.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

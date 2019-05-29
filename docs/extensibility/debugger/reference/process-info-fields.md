@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "PROCESS_INFO_FIELDS enumeration"
 ms.assetid: 0d9cc345-3d3a-44d8-ae15-a67acb97a828
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

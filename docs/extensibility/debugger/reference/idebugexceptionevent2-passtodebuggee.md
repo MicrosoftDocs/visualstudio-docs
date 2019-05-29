@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExceptionEvent2::PassToDebuggee"
 ms.assetid: a20d0f0b-2ca0-4437-bd22-9213c81d2738
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int PassToDebuggee(
 ```
 
 ## Parameters
- `fPass`\
-
- [in] Nonzero (`TRUE`) if the exception should be passed on to the program being debugged when execution resumes, or zero (`FALSE`) if the exception should be discarded.
+`fPass`\
+[in] Nonzero (`TRUE`) if the exception should be passed on to the program being debugged when execution resumes, or zero (`FALSE`) if the exception should be discarded.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

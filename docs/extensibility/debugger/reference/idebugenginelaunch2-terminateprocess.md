@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngineLaunch2::TerminateProcess"
 ms.assetid: f7039e7f-5f57-4222-9ad2-11a66b2da6e0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int TerminateProcess ( 
 ```
 
 ## Parameters
- `pProcess`\
-
- [in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be terminated.
+`pProcess`\
+[in] An [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) object that represents the process to be terminated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code.

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugSymbolProviderDirect::GetMethodFromAddress"
   - "GetMethodFromAddress"
 ms.assetid: 33ffd197-1221-41bc-a9f6-f133ebdcb783
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,33 +45,26 @@ int GetMethodFromAddress(
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] Debug address that is represented by the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`pGuid`\
+[out] Unique identifier of the module.
 
- `pGuid`\
+`pAppID`\
+[out] Identifier of the application domain.
 
- [out] Unique identifier of the module.
+`pTokenClass`\
+[out] Token that represents the containing class.
 
- `pAppID`\
+`pTokenMethod`\
+[out] Token that represents the module.
 
- [out] Identifier of the application domain.
+`pdwOffset`\
+[out] An offset in bytes from the start of the `pAddress` parameter.
 
- `pTokenClass`\
-
- [out] Token that represents the containing class.
-
- `pTokenMethod`\
-
- [out] Token that represents the module.
-
- `pdwOffset`\
-
- [out] An offset in bytes from the start of the `pAddress` parameter.
-
- `pdwVersion`\
-
- [out] Version number of the method.
+`pdwVersion`\
+[out] Version number of the method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

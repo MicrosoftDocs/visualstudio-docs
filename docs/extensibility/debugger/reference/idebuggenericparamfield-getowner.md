@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugGenericParamField::GetOwner"
 ms.assetid: c7f6d166-a69e-40c4-bd0b-1a1fdf9aaacf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -33,8 +33,7 @@ int GetOwner(
 
 ## Parameters
 `ppOwner`\
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that owns this generic parameter.
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that owns this generic parameter.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

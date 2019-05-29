@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_RESOLUTION_LOCATION structure"
 ms.assetid: 21dc5246-69c1-43e3-855c-9cd4e596c0e6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

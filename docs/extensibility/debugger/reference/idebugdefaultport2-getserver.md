@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDefaultPort2::GetServer"
 ms.assetid: cacb4b74-0f39-471c-af38-54b73f5b2868
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetServer(
 ```
 
 ## Parameters
- `ppServer`\
-
- [out] Returns an object implementing the [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) interface.
+`ppServer`\
+[out] Returns an object implementing the [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

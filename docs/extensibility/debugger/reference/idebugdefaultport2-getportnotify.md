@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDefaultPort2::GetPortNotify"
 ms.assetid: 3ae715ee-9886-4694-a52b-59bb3b27467a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetPortNotify(
 ```
 
 ## Parameters
- `ppPortNotify`\
-
- [out] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object.
+`ppPortNotify`\
+[out] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

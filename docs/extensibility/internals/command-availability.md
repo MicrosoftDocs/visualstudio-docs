@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "commands, context"
   - "menu items, visibility contexts"
 ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

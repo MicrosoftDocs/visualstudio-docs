@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetName"
 ms.assetid: 069d4f96-363f-404e-9c89-5318c4c9821b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetName ( 
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the stack frame.
+`pbstrName`\
+[out] Returns the name of the stack frame.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

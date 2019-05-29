@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetCurrentLocation"
 ms.assetid: 512302f1-12b1-4107-8a6e-c5bc878ce1c3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetCurrentLocation( 
 ```
 
 ## Parameters
- `puCodeLocationId`\
-
- [out] Returns the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
+`puCodeLocationId`\
+[out] Returns the code location identifier. See the Remarks section for the [GetCodeLocationId](../../../extensibility/debugger/reference/idebugdisassemblystream2-getcodelocationid.md) method for a description of a code location identifier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

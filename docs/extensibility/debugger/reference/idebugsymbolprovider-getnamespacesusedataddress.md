@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetNamespacesUsedAtAddress method"
 ms.assetid: 392de54b-9af0-4567-953b-1b41acd1e05c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetNamespacesUsedAtAddress(
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] The debug address.
 
- [in] The debug address.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) enumerator for the namespaces.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

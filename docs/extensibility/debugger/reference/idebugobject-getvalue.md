@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject::GetValue method"
 ms.assetid: eec6051e-8ecb-49fa-bdd4-dd786f211692
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetValue(
 ```
 
 ## Parameters
- `pValue`\
+`pValue`\
+[in, out] An array that is filled in with a consecutive series of bytes representing the value of the object.
 
- [in, out] An array that is filled in with a consecutive series of bytes representing the value of the object.
-
- `nSize`\
-
- [in] The maximum number of bytes to fetch.
+`nSize`\
+[in] The maximum number of bytes to fetch.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

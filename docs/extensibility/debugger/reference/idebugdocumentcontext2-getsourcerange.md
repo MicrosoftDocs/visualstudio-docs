@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentContext2::GetSourceRange"
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetSourceRange( 
 ```
 
 ## Parameters
- `pBegPosition`\
+`pBegPosition`\
+[in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the starting position. Set this argument to a null value if this information is not needed.
 
- [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the starting position. Set this argument to a null value if this information is not needed.
-
- `pEndPosition`\
-
- [in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the ending position. Set this argument to a null value if this information is not needed.
+`pEndPosition`\
+[in, out] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure that is filled in with the ending position. Set this argument to a null value if this information is not needed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProcessSecurity::QueryCanSafelyAttach"
 ms.assetid: 63ec1ae8-27da-4574-aa15-1c986fe9fe58
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

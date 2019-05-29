@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPort2::GetPortSupplier"
 ms.assetid: 7a7b0615-df6b-4726-ab35-39dfa1ebed8f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetPortSupplier( 
 ```
 
 ## Parameters
- `ppSupplier`\
-
- [out] Returns an [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) object represents the port supplier for a port.
+`ppSupplier`\
+[out] Returns an [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) object represents the port supplier for a port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

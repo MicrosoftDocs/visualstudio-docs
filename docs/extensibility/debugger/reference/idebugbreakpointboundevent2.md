@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointBoundEvent2"
 ms.assetid: 24ba362e-5be1-481a-b071-e1ebd3cae6e8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

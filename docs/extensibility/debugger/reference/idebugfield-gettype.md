@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::GetType method"
 ms.assetid: b3cdec9f-ef7b-44d0-a775-d17ef7eae968
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetType(
 ```
 
 ## Parameters
- `ppType`\
-
- [out] Returns the field type as another [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
+`ppType`\
+[out] Returns the field type as another [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

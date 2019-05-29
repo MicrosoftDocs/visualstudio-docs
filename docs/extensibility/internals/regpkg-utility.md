@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "regpkg, registration utility"
   - "registration, regpkg utility"
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

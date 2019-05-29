@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject::IsEqual method"
 ms.assetid: 4b76e663-ef2e-41ff-9be1-bf26d666a34a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int IsEqual(
 ```
 
 ## Parameters
- `pObject`\
+`pObject`\
+[in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object to compare to.
 
- [in] An [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) object representing the object to compare to.
-
- `pfIsEqual`\
-
- [out] Returns non-zero (`TRUE`) if the values of the objects are equal; otherwise, returns zero (`FALSE`).
+`pfIsEqual`\
+[out] Returns non-zero (`TRUE`) if the values of the objects are equal; otherwise, returns zero (`FALSE`).
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

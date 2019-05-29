@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPropertyCreateEvent2::GetDebugProperty"
 ms.assetid: d7e43183-444c-4417-af19-82e28229f83a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDebugProperty ( 
 ```
 
 ## Parameters
- `ppProperty`\
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the new property.
+`ppProperty`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the new property.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

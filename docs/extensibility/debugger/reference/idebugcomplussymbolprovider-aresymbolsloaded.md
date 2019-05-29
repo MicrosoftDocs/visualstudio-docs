@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "AreSymbolsLoaded"
   - "IDebugComPlusSymbolProvider::AreSymbolsLoaded"
 ms.assetid: bbf8707d-f89c-4177-b019-d519f1ec6f4a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,12 +36,10 @@ int AreSymbolsLoaded (
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier for the application domain.
+[in] Identifier for the application domain.
 
 `guidModule`\
-
- [in] Unique identifier for the module.
+[in] Unique identifier for the module.
 
 ## Return Value
 If the debug symbols are loaded, returns `S_OK`; otherwise, returns `S_FALSE`.

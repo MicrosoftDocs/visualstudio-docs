@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "projects [Visual Studio SDK], opening items"
 ms.assetid: 9f707592-2fb6-4f75-9269-f6d4700a998e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

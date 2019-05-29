@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomViewer::DisplayValue"
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,21 +40,17 @@ int DisplayValue(
 ```
 
 ## Parameters
- `hwnd`\
+`hwnd`\
+[in] Parent window
 
- [in] Parent window
+`dwID`\
+[in] ID for custom viewers that support more than one type.
 
- `dwID`\
+`pHostServices`\
+[in] Reserved. Always set to null.
 
- [in] ID for custom viewers that support more than one type.
-
- `pHostServices`\
-
- [in] Reserved. Always set to null.
-
- `pDebugProperty`\
-
- [in] Interface that can be used to retrieve the value to be displayed.
+`pDebugProperty`\
+[in] Interface that can be used to retrieve the value to be displayed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code.

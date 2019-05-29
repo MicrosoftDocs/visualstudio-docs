@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Enable method"
   - "IDebugBoundBreakpoint2::Enable method"
 ms.assetid: 1b4e3f73-c94d-4aa3-9aa8-0d8cb8a6c5ca
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "THREADPROPERTIES structure"
 ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty2::SetValueAsReference method"
 ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,21 +40,17 @@ int SetValueAsReference(
 ```
 
 ## Parameters
- `rgpArgs`\
+`rgpArgs`\
+[in] An array of arguments to pass to the managed code property setter. If the property setter does not take arguments or if this [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object does not refer to such a property setter, `rgpArgs` should be a null value. This parameter is typically a null value.
 
- [in] An array of arguments to pass to the managed code property setter. If the property setter does not take arguments or if this [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object does not refer to such a property setter, `rgpArgs` should be a null value. This parameter is typically a null value.
+`dwArgCount`\
+[in] The number of arguments in the `rgpArgs` array.
 
- `dwArgCount`\
+`pValue`\
+[in] A reference, in the form of an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object, to the value to use to set this property.
 
- [in] The number of arguments in the `rgpArgs` array.
-
- `pValue`\
-
- [in] A reference, in the form of an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object, to the value to use to set this property.
-
- `dwTimeout`\
-
- [in] How long to take to set the value, in milliseconds. A typical value is `INFINITE`. This affects the length of time that any possible evaluation can take.
+`dwTimeout`\
+[in] How long to take to set the value, in milliseconds. A typical value is `INFINITE`. This affects the length of time that any possible evaluation can take.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns an error code, typically one of the following:

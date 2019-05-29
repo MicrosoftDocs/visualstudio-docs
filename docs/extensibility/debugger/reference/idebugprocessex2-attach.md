@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcessEx2::Attach method"
 ms.assetid: f3334ed7-39bf-4d02-a338-36f567b9b287
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int Attach(
 ```
 
 ## Parameters
- `pSession`\
-
- [in] A value that uniquely identifies the session attaching to this process.
+`pSession`\
+[in] A value that uniquely identifies the session attaching to this process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

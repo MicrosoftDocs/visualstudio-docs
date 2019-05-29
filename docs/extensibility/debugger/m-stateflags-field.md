@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "m_stateFlags field, Task class [.NET Framework debug engines]"
 ms.assetid: 82b20efc-08f2-4cd2-91f6-4e01e3da906b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

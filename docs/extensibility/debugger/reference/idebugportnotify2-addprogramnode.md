@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortNotify2::AddProgramNode"
 ms.assetid: 34c0e949-1eb9-4108-9cb8-a3eb87fcf190
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int AddProgramNode( 
 ```
 
 ## Parameters
- `pProgramNode`\
-
- [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program to be registered.
+`pProgramNode`\
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) object that represents the program to be registered.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -119,7 +119,8 @@ The sections in the following table include commands that are global in that you
 |Debug.StepIntoSpecific|**Shift+Alt+F11**|
 |Debug.StepOut|**Shift+F11**|
 |Debug.StepOutCurrentProcess|**Ctrl+Shift+Alt+F11**|
-|Debug.StepOver|**F10**|
+|Debug.StepOver|**F10** (When debugging: Performs a step over action)|
+|Debug.StepOver|**F10** (When not debugging: Starts debugging and stops on the first line of user code)|
 |Debug.StepOverCurrentProcess|**Ctrl+Alt+F10**|
 |Debug.StopDebugging|**Shift+F5**|
 |Debug.StopPerformanceAnalysis|**Shift+Alt+F2**|
@@ -180,7 +181,7 @@ The sections in the following table include commands that are global in that you
 |Edit.NavigateTo|**Ctrl+,**|
 |Edit.NextBookmark|**Ctrl+K, Ctrl+N**|
 |Edit.NextBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+N**|
-|Edit.OpenFile|**Ctrl+Shift+G**|
+|Edit.OpenFile|**Ctrl+Shift+G** (Opens the file name under the cursor)|
 |Edit.Paste|**Ctrl+V**<br /><br /> or<br /><br /> **Shift+Ins**|
 |Edit.PreviousBookmark|**Ctrl+K, Ctrl+P**|
 |Edit.PreviousBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+P**|
@@ -372,7 +373,7 @@ The sections in the following table include commands that are global in that you
 |View.ObjectBrowser|**Ctrl+Alt+J**|
 |View.ObjectBrowserGoToSearchCombo|**Ctrl+K, Ctrl+R**|
 |View.Output|**Ctrl+Alt+O** (letter 'O')|
-|View.PopBrowseContex|**Ctrl+Shift+8**|
+|View.PopBrowseContext|**Ctrl+Shift+8** (C++ only)|
 |View.PropertiesWindow|**F4**|
 |View.PropertyPages|**Shift+F4**|
 |View.ResourceView|**Ctrl+Shift+E**|
@@ -797,7 +798,7 @@ The sections in the following table include commands that are global in that you
 | Edit.GotoBraceExtend | **Ctrl+Shift+]** |
 | Edit.GotoRecent | **Ctrl+T,R** |
 | Edit.GotoNextIssueinFile | **Alt+PgDn** |
-| Edit.GotoPreviousIssueinFile  **Alt+PgUp** |
+| Edit.GotoPreviousIssueinFile | **Alt+PgUp** |
 | Edit.HideSelection | **Ctrl+M, Ctrl+H** |
 | Edit.IncreaseFilterLevel | **Alt+.** |
 | Edit.IncrementalSearch | **Ctrl+I** |

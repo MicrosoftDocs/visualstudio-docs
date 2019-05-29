@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::Clone"
 ms.assetid: c6ce01a2-7da3-46ec-9837-855042fa7244
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int Clone(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns a copy of this enumeration as a separate object.
+`ppEnum`\
+[out] Returns a copy of this enumeration as a separate object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

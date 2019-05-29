@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetTypeByName method"
 ms.assetid: b9d88d3b-8b75-484a-b9cc-dc8c0fbb4bc8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int GetTypeByName(
 ```
 
 ## Parameters
- `pszClassName`\
+`pszClassName`\
+[in] The symbol name.
 
- [in] The symbol name.
+`nameMatch`\
+[in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
- `nameMatch`\
-
- [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
-
- `ppField`\
-
- [out] Returns the symbol type as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
+`ppField`\
+[out] Returns the symbol type as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

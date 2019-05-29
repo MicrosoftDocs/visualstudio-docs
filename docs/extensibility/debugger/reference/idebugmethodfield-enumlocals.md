@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugMethodField::EnumLocals method"
 ms.assetid: b0456a6d-2b96-49e2-a871-516571b4f6a5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,12 +37,10 @@ int EnumLocals(
 
 ## Parameters
 `pAddress`\
-
- [in] An [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object representing the debug address that selects the context or scope from which to get the locals.
+[in] An [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object representing the debug address that selects the context or scope from which to get the locals.
 
 `ppLocals`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing a list of the locals; otherwise, returns a null value if there are no locals.
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing a list of the locals; otherwise, returns a null value if there are no locals.
 
 ## Return Value
 If successful, returns S_OK or returns S_FALSE if there are no locals. Otherwise, returns an error code.

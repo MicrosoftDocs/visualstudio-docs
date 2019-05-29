@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetMethodProperty method"
   - "IDebugExpressionEvaluator2 property"
 ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExceptionEvent2::GetExceptionDescription"
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetExceptionDescription( 
 ```
 
 ## Parameters
- `pbstrDescription`\
-
- [out] Returns a displayable description of the exception.
+`pbstrDescription`\
+[out] Returns a displayable description of the exception.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

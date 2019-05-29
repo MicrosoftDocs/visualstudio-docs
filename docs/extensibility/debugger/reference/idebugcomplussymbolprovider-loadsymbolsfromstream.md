@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::LoadSymbolsFromStream"
   - "LoadSymbolsFromStream"
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,24 +42,19 @@ int LoadSymbolsFromStream(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `baseAddress`\
-
- [in] Base memory address.
+[in] Base memory address.
 
 `pUnkMetadataImport`\
-
- [in] Object that contains the symbol metadata.
+[in] Object that contains the symbol metadata.
 
 `pStream`\
-
- [in] Data stream that contains the symbols.
+[in] Data stream that contains the symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

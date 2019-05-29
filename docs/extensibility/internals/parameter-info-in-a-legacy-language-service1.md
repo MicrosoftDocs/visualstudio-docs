@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "IVsMethodData interface"
   - "Parameter Info (IntelliSense)"
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

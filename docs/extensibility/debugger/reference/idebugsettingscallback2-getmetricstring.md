@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugSettingsCallback2::GetMetricString"
   - "GetMetricString"
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,21 +39,17 @@ private int GetMetricString(
 ```
 
 ## Parameters
- `pszType`\
+`pszType`\
+[in] Type of the metric.
 
- [in] Type of the metric.
+`guidSection`\
+[in] Unique identifier of the section.
 
- `guidSection`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the section.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pbstrValue`\
-
- [out] Returns the value string of the metric.
+`pbstrValue`\
+[out] Returns the value string of the metric.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

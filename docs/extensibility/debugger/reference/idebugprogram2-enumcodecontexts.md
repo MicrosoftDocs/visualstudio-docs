@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::EnumCodeContexts"
 ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int EnumCodeContexts( 
 ```
 
 ## Parameters
- `pDocPos`\
+`pDocPos`\
+[in] An [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) object representing an abstract position in a source file known to the IDE.
 
- [in] An [IDebugDocumentPosition2](../../../extensibility/debugger/reference/idebugdocumentposition2.md) object representing an abstract position in a source file known to the IDE.
-
- `ppEnum`
-
- [out] Returns an [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md) object that contains a list of the code contexts.
+`ppEnum`
+[out] Returns an [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md) object that contains a list of the code contexts.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

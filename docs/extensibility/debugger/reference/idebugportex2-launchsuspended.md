@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortEx2::LaunchSuspended"
 ms.assetid: 34b2cf99-2e52-4757-8969-1d12ac517ec0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -48,37 +48,29 @@ int LaunchSuspended( 
 ```
 
 ## Parameters
- `pszExe`\
+`pszExe`\
+[in] The name of the executable to be launched. This can be a full path or relative to the working directory specified in the `pszDir` parameter.
 
- [in] The name of the executable to be launched. This can be a full path or relative to the working directory specified in the `pszDir` parameter.
+`pszArgs`\
+[in] The arguments to pass to the executable. May be a null value if there are no arguments.
 
- `pszArgs`\
+`pszDir`\
+[in] The name of the working directory used by the executable. May be a null value if no working directory is required.
 
- [in] The arguments to pass to the executable. May be a null value if there are no arguments.
+`bstrEnv`\
+[in] Environment block of null-terminated strings, followed by an additional NULL terminator.
 
- `pszDir`\
+`hStdInput`\
+[in] Handle to an alternate input stream. May be 0 if redirection is not required.
 
- [in] The name of the working directory used by the executable. May be a null value if no working directory is required.
+`hStdOutput`\
+[in] Handle to an alternate output stream. May be 0 if redirection is not required.
 
- `bstrEnv`\
+`hStdError`\
+[in] Handle to an alternate error output stream. May be 0 if redirection is not required.
 
- [in] Environment block of null-terminated strings, followed by an additional NULL terminator.
-
- `hStdInput`\
-
- [in] Handle to an alternate input stream. May be 0 if redirection is not required.
-
- `hStdOutput`\
-
- [in] Handle to an alternate output stream. May be 0 if redirection is not required.
-
- `hStdError`\
-
- [in] Handle to an alternate error output stream. May be 0 if redirection is not required.
-
- `ppPortProcess`\
-
- [out] Returns an [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the launched process.
+`ppPortProcess`\
+[out] Returns an [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the launched process.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

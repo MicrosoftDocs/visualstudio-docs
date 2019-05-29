@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::GetReferenceInfo"
 ms.assetid: ae611714-f114-4cf2-b5bb-37461e6ff289
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,29 +44,23 @@ int GetReferenceInfo ( 
 ```
 
 ## Parameters
- `dwFields`\
+`dwFields`\
+[in] A combination of flags from the [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md) enumeration that determine the fields to be filled out in the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure.
 
- [in] A combination of flags from the [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md) enumeration that determine the fields to be filled out in the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure.
+`nRadix`\
+[in] The radix to be used in formatting any numerical information.
 
- `nRadix`\
+`dwTimeout`\
+[in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
 
- [in] The radix to be used in formatting any numerical information.
+`rgpArgs`\
+[in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects. Reserved for future use; set to a null value.
 
- `dwTimeout`\
+`dwArgCount`\
+[in] The number of reference arguments in the `rgpArgs` array. Reserved for future use; set to 0.
 
- [in] Maximum time, in milliseconds, to wait before returning from this method. Use `INFINITE` to wait indefinitely.
-
- `rgpArgs`\
-
- [in] An array of [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) objects. Reserved for future use; set to a null value.
-
- `dwArgCount`\
-
- [in] The number of reference arguments in the `rgpArgs` array. Reserved for future use; set to 0.
-
- `pReferenceInfo`\
-
- [out] A [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that is filled in with a description of the property.
+`pReferenceInfo`\
+[out] A [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that is filled in with a description of the property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

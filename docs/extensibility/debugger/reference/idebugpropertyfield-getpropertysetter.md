@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPropertyField::GetPropertySetter method"
 ms.assetid: 744d76fd-2bcc-4917-a040-ce4cc714ef61
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetPropertySetter(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns an [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) object representing the method that sets the property.
+`ppField`\
+[out] Returns an [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) object representing the method that sets the property.
 
 ## Return Value
  If successful, returns S_OK; otherwise returns an error code.

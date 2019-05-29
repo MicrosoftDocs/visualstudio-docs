@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentContext2::GetName"
 ms.assetid: 546c5b2e-f166-4edb-9e61-57d797ca98a1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,12 +37,10 @@ int GetName(
 
 ## Parameters
 `gnType`\
-
- [in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies the type of name to return.
+[in] A value from the [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) enumeration that specifies the type of name to return.
 
 `pbstrFileName`\
-
- [out] Returns the name of the file.
+[out] Returns the name of the file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

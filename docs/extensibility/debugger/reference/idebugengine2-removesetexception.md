@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2::RemoveSetException"
 ms.assetid: bdd25097-0e9d-4218-b417-0497ea48d2e8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int RemoveSetException( 
 ```
 
 ## Parameters
- `pException`\
-
- [in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception to be removed.
+`pException`\
+[in] An [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) structure that describes the exception to be removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

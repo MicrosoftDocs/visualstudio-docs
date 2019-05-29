@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "UnloadSymbols"
   - "IDebugComPlusSymbolProvider::UnloadSymbols"
 ms.assetid: 53e3ddc1-ab47-4097-8fef-b26e5504b37a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,12 +36,10 @@ int UnloadSymbols(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

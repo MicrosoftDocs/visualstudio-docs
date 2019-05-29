@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "font and color control [Visual Studio SDK], categories"
   - "custom categories"
 ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

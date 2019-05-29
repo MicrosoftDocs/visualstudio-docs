@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::GetDerivedMostReference"
 ms.assetid: 07253b74-7d39-48e0-8e85-ac8dfd919f6e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDerivedMostReference( 
 ```
 
 ## Parameters
- `ppDerivedMost`\
-
- [out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
+`ppDerivedMost`\
+[out] Returns an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) object that represents the derived-most property.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

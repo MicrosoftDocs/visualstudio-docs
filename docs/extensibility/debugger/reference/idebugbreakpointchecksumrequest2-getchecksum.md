@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2::GetChecksum"
 ms.assetid: ec434882-e5c0-4d76-a58b-22c260d8626e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,12 +35,10 @@ public int GetChecksum(
 
 ## Parameters
 `guidAlgorithm`\
-
- [in] Unique identifier of the checksum algorithm.
+[in] Unique identifier of the checksum algorithm.
 
 `pChecksumData`\
-
- [out] Document checksum for the breakpoint request.
+[out] Document checksum for the breakpoint request.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

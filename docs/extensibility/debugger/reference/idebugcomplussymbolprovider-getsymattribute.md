@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetSymAttribute"
   - "GetSymAttribute"
 ms.assetid: 6cbaac92-a60b-4165-a7f5-c34407770f3c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,32 +46,25 @@ int GetSymAttribute (
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `tokParent`\
-
- [in] Token for the parent attribute.
+[in] Token for the parent attribute.
 
 `pstrName`\
-
- [in] Name of the module.
+[in] Name of the module.
 
 `cBuffer`\
-
- [in] Number of bytes required for the output `buffer`.
+[in] Number of bytes required for the output `buffer`.
 
 `pcBuffer`\
-
- [out] Length of the output `buffer`.
+[out] Length of the output `buffer`.
 
 `buffer`\
-
- [out] Array that contains the symbols.
+[out] Array that contains the symbols.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

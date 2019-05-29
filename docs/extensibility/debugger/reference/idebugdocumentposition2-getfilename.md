@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentPosition2::GetFileName"
 ms.assetid: d713635e-088f-465b-b26d-00ac971c9e86
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetFileName( 
 ```
 
 ## Parameters
- `pbstrFileName`\
-
- [out] Returns the file name of the source file.
+`pbstrFileName`\
+[out] Returns the file name of the source file.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::CanBind method"
   - "CanBind method"
 ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,9 +35,8 @@ int CanBind ( 
 ```
 
 ## Parameters
- `ppErrorEnum`\
-
- [out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects if there could be errors.
+`ppErrorEnum`\
+[out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects if there could be errors.
 
 ## Return Value
  If successful, returns `S_OK.` Returns `S_FALSE` if the breakpoint cannot bind, in which case the errors are returned by the `ppErrorEnum` parameter. Otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

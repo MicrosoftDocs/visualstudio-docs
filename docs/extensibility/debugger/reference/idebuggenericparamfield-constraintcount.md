@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "ConstraintCount"
   - "IDebugGenericParamField::ConstraintCount"
 ms.assetid: 76bef0cb-8a3c-4ce5-87cc-1809de229f33
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,8 +34,7 @@ int ConstraintCount(
 
 ## Parameters
 `pcConst`\
-
- [in, out] Number of constraints that are associated with this field.
+[in, out] Number of constraints that are associated with this field.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

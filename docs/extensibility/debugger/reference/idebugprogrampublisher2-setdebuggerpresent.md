@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramPublisher2::SetDebuggerPresent"
 ms.assetid: c88c3ff4-3632-4199-b5de-83c6d21bcf75
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int SetDebuggerPresent(
 ```
 
 ## Parameters
- `fDebuggerPresent`\
-
- [in] Non-zero (`TRUE`) if a debugger is present, zero (`FALSE`) if it is not.
+`fDebuggerPresent`\
+[in] Non-zero (`TRUE`) if a debugger is present, zero (`FALSE`) if it is not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

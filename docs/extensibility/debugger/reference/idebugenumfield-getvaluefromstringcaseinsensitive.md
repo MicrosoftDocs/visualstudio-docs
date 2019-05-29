@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEnumField::GetValueFromStringCaseInsensitive method"
 ms.assetid: ef95b38e-d9b2-4fb5-a166-7c2e14641dc7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetValueFromStringCaseInsensitive(
 ```
 
 ## Parameters
- `pszValue`\
+`pszValue`\
+[in] A string specifying the name for which to get the value. Note that for C++, this is a wide character string.
 
- [in] A string specifying the name for which to get the value. Note that for C++, this is a wide character string.
-
- `pValue`\
-
- [out] Returns the associated numerical value.
+`pValue`\
+[out] Returns the associated numerical value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE`, if the name is not part of the enumeration, or an error code.

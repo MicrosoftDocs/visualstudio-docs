@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_TYPE structure"
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,15 +39,12 @@ public struct METADATA_TYPE {
 
 ## Parameters
  `ulAppDomainID`\
-
  ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
  `guidModule`\
-
  The GUID of the module that contains this field.
 
  `tokClass`\
-
  The metadata token ID of this type.
 
  [C++] `_mdToken` is a `typedef` for a 32-bit `int`.

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramEngines2::EnumPossibleEngines"
 ms.assetid: 993d70a4-f6a5-4e47-a603-0b162b9fde00
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int EnumPossibleEngines( 
 ```
 
 ## Parameters
- `celtBuffer`\
+`celtBuffer`\
+[in] The number of DE GUIDs to return. This also specifies the maximum size of the `rgguidEngines` array.
 
- [in] The number of DE GUIDs to return. This also specifies the maximum size of the `rgguidEngines` array.
+`rgguidEngines`\
+[in, out] An array of DE GUIDs to be filled in.
 
- `rgguidEngines`\
-
- [in, out] An array of DE GUIDs to be filled in.
-
- `pceltEngines`\
-
- [out] Returns the actual number of DE GUIDs that are returned.
+`pceltEngines`\
+[out] Returns the actual number of DE GUIDs that are returned.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns [C++] `HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER)` or [C#] 0x8007007A if the buffer is not large enough.

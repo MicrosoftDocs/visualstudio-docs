@@ -21,7 +21,7 @@ To leverage this new functionality, you'll need:
 
 ::: moniker range="vs-2017"
 - The latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the *ASP.NET and web development* workload.
-- The [Kubernetes tools for Visual Studio](https://aka.ms/get-vsk8stools), available as a separate download.
+- The [Kubernetes tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes), available as a separate download.
 ::: moniker-end
 ::: moniker range="vs-2019"
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the *ASP.NET and web development* workload.
@@ -30,7 +30,7 @@ To leverage this new functionality, you'll need:
 ::: moniker range="vs-2017"
 - If you wish to publish to AKS from Visual Studio (*not* required for debugging in AKS using Azure Dev Spaces):
 
-    1. The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
+    1. The [AKS publishing tools](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes), available as a separate download.
 
     1. An Azure Kubernetes Service cluster. For more information, see
         [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.

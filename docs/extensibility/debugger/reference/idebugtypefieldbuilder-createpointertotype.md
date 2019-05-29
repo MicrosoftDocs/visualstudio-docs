@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "CreatePointerToType"
   - "IDebugTypeFieldBuilder::CreatePointerToType"
 ms.assetid: 73966e8a-b643-43e0-9b4e-0aa4b402ebbe
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,13 +35,11 @@ int CreatePointerToType(
 ```
 
 ## Parameters
- `pTypeField`\
+`pTypeField`\
+[in] Type to point to. It is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
 
- [in] Type to point to. It is represented by the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.
-
- `pPtrToTypeField`\
-
- [out] Returns the pointer represented by a new **IDebugField** object.
+`pPtrToTypeField`\
+[out] Returns the pointer represented by a new **IDebugField** object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

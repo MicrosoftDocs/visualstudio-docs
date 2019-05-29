@@ -1,12 +1,12 @@
 ---
-title: "Extending a language service to support EditorConfig in Visual Studio | Microsoft Docs"
+title: "Extend language service to support EditorConfig"
 ms.date: "11/22/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "editorconfig [extensibility]"
   - "editorconfig, supporting in a language service"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

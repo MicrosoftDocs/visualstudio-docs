@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramHost2::GetHostMachineName"
 ms.assetid: 4677ffe4-aa9b-4450-a63b-74cd3984d956
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetHostMachineName( 
 ```
 
 ## Parameters
- `pbstrHostMachineName`\
-
- [out] Returns the name of the machine.
+`pbstrHostMachineName`\
+[out] Returns the name of the machine.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

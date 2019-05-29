@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "VsCodeWindowManager object"
   - "views [Visual Studio SDK], VSCodeWindowManager object"
 ms.assetid: e313add5-afdb-4d8d-abd1-764e1fc10c44
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

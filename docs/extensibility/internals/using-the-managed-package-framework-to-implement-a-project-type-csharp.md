@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "MPF projects"
   - "managed package framework, creating projects"
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

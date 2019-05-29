@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugOutputStringEvent2 interface"
 ms.assetid: 86596fd1-cecc-4813-8add-dc3d70068f9b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

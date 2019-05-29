@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortSupplier2::RemovePort"
 ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int RemovePort( 
 ```
 
 ## Parameters
- `pPort`\
-
- [in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port to be removed.
+`pPort`\
+[in] An [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) object that represents the port to be removed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

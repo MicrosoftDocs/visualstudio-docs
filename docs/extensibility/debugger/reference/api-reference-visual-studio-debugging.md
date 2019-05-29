@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "debugging [Debugging SDK], API reference"
 ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

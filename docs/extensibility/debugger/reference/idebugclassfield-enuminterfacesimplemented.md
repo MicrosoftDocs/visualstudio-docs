@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::EnumInterfacesImplemented method"
 ms.assetid: e5523e45-d350-491e-a92c-fe0ca97d2052
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int EnumInterfacesImplemented(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of interfaces implemented. Returns a null value if there are no interfaces.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of interfaces implemented. Returns a null value if there are no interfaces.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there are no interfaces implemented on this class. Otherwise, returns an error code.

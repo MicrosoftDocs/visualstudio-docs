@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramHost2::GetHostId"
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetHostId( 
 ```
 
 ## Parameters
- `pdwId`\
-
- [in, out] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that is filled in with the process identifier information.
+`pdwId`\
+[in, out] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure that is filled in with the process identifier information.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

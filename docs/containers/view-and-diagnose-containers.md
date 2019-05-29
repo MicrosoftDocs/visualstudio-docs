@@ -1,5 +1,5 @@
 ---
-title: View container logs and environment variables and access the filesystem.
+title: Container logs, environment variables, & filesystem access
 description: Describes how to improve your ability to debug and diagnose your container-based apps in Visual Studio by using a tool window  to see what's going on inside the containers that host your app.
 author: ghogen
 ms.author: ghogen

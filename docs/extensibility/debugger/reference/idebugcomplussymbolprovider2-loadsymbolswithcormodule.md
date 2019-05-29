@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule"
   - "LoadSymbolsWithCorModule"
 ms.assetid: b6abf3a4-ce60-4e66-9637-82ce911148de
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,32 +46,25 @@ int LoadSymbolsWithCorModule(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `baseAddress`\
-
- [in] Base memory address.
+[in] Base memory address.
 
 `pUnkMetadataImport`\
-
- [in] Object that contains the debug symbol metadata.
+[in] Object that contains the debug symbol metadata.
 
 `pUnkCorDebugModule`\
-
- [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
+[in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
 `bstrModuleName`\
-
- [in] Name of the module.
+[in] Name of the module.
 
 `bstrSymSearchPath`\
-
- [in] Path to search for the symbol file.
+[in] Path to search for the symbol file.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::GetThreadProperties"
 ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,12 +37,10 @@ int GetThreadProperties (
 
 ## Parameters
 `dwFields`\
-
- [in] A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration that determines which fields of `ptp` are to be filled in.
+[in] A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration that determines which fields of `ptp` are to be filled in.
 
 `ptp`\
-
- [in, out] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure that is filled in with the properties of the thread.
+[in, out] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) structure that is filled in with the properties of the thread.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

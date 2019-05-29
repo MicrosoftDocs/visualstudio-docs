@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDisassemblyStream2::GetScope"
 ms.assetid: 71c6e632-642a-42d8-a995-77e4ac190a5b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetScope( 
 ```
 
 ## Parameters
- `pdwScope`\
-
- [out] Returns a value from the [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) enumeration that describes the scope of this disassembly stream.
+`pdwScope`\
+[out] Returns a value from the [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) enumeration that describes the scope of this disassembly stream.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

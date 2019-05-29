@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "LoadSymbolsFromCallback"
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback"
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,32 +46,25 @@ int LoadSymbolsFromCallback(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `pUnkMetadataImport`\
-
- [in] Object that contains the symbol metadata.
+[in] Object that contains the symbol metadata.
 
 `pUnkCorDebugModule`\
-
- [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
+[in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
 `bstrModuleName`\
-
- [in] Name of the module.
+[in] Name of the module.
 
 `bstrSymSearchPath`\
-
- [in] Path to search for the symbol file.
+[in] Path to search for the symbol file.
 
 `pCallback`\
-
- [in] Object that represents the callback method.
+[in] Object that represents the callback method.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

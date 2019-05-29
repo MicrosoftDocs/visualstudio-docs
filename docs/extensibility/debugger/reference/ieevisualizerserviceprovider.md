@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerServiceProvider interface"
 ms.assetid: 859d1a51-1c65-4c8b-ae74-3b74b181ebcd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

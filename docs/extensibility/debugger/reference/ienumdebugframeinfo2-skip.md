@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugFrameInfo2::Skip"
 ms.assetid: 68cd3948-022a-41ad-bd9f-9ab776cf6248
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int Skip(
 ```
 
 ## Parameters
- `celt`\
-
- [in] Number of elements to skip.
+`celt`\
+[in] Number of elements to skip.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if `celt` is greater than the number of remaining elements; otherwise, returns an error code.

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProcess3::GetHostingProcessLanguage"
 ms.assetid: 52fca002-a9ef-43b1-9192-afbe7bb59ad4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetHostingProcessLanguage(
 ```
 
 ## Parameters
- `pguidLang`\
-
- [out] The `GUID` of the language of this process. `GUID_NULL` (C++) or `Guid.Empty` (C#) means that the language is not set.
+`pguidLang`\
+[out] The `GUID` of the language of this process. `GUID_NULL` (C++) or `Guid.Empty` (C#) means that the language is not set.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

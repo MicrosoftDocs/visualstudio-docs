@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetFunctionLineOffset"
   - "GetFunctionLineOffset"
 ms.assetid: 51460f5a-4e98-427a-8315-27246e24fb61
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,16 +38,13 @@ int GetFunctionLineOffset(
 
 ## Parameters
 `pAddress`\
-
- [in] Address that represents function.
+[in] Address that represents function.
 
 `dwLine`\
-
- [in] Line offset from beginning of function.
+[in] Line offset from beginning of function.
 
 `ppNewAddress`\
-
- [out] New address that represents line offset from beginning of function.
+[out] New address that represents line offset from beginning of function.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

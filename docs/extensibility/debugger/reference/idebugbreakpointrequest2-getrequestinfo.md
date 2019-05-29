@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointRequest2::GetRequestInfo"
 ms.assetid: 5defd8d7-6daa-479b-8909-fcc4ae0b357a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetRequestInfo( 
 ```
 
 ## Parameters
- `dwFields`\
+`dwFields`\
+[in] A combination of flags from the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration that determines which fields in the `pBPRequestInfo` parameter are to be filled out.
 
- [in] A combination of flags from the [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md) enumeration that determines which fields in the `pBPRequestInfo` parameter are to be filled out.
-
- `pBPRequestInfo`\
-
- [out] Specifies the [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) structure to be filled in with the description of the breakpoint request.
+`pBPRequestInfo`\
+[out] Specifies the [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) structure to be filled in with the description of the breakpoint request.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

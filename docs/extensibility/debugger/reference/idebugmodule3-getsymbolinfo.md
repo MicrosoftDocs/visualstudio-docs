@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetSymbolInfo method"
   - "IDebugModule3::GetSymbolInfo method"
 ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,12 +38,10 @@ int GetSymbolInfo(
 
 ## Parameters
 `dwFields`\
-
- [in] A combination of flags from the [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) enumeration specifying which fields of `pInfo` are to be filled in.
+[in] A combination of flags from the [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) enumeration specifying which fields of `pInfo` are to be filled in.
 
 `pInfo`\
-
- [out] A [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md) structure whose members are to be filled in with the specified information. If this is a null value, this method returns `E_INVALIDARG`.
+[out] A [MODULE_SYMBOL_SEARCH_INFO](../../../extensibility/debugger/reference/module-symbol-search-info.md) structure whose members are to be filled in with the specified information. If this is a null value, this method returns `E_INVALIDARG`.
 
 ## Return Value
 If the method succeeds, it returns `S_OK`; otherwise, it returns an error code.

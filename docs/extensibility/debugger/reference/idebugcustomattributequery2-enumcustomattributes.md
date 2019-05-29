@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::EnumCustomAttributes"
 ms.assetid: 94bfce74-aa3d-45f0-8e04-5715faf85217
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int EnumCustomAttributes(
 ```
 
 ## Parameters
- `ppEnum`
-
- [out] Returns an [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) object representing the list of custom attributes; otherwise, returns a null value if there are no custom attributes.
+`ppEnum`\
+[out] Returns an [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) object representing the list of custom attributes; otherwise, returns a null value if there are no custom attributes.
 
 ## Return Value
  If successful, returns S_OK or S_FALSE if there are no custom attributes on this field. Otherwise, returns an error code;

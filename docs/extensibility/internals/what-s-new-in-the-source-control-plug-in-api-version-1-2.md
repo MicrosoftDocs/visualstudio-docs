@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control plug-ins, what's new in API v1.2"
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7c5fa471-456e-4f95-8309-5750ec4e5e85
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

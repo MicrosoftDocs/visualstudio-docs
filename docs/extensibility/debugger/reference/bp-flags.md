@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_FLAGS enumeration"
 ms.assetid: c45dfc74-5e7f-4f1e-a147-ab2a55dccbd0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

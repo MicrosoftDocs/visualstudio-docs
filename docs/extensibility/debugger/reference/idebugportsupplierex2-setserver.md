@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierEx2::SetServer"
 ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,8 +32,8 @@ int SetServer(
 ```
 
 ## Parameters
- `pServer`\
- Core server to set for the port supplier.
+`pServer`\
+Core server to set for the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

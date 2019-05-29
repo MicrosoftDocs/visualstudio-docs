@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::GetName"
 ms.assetid: eec54b8f-4a0e-4919-b0f9-81d4bd1e0b6f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetName ( 
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the thread.
+`pbstrName`\
+[out] Returns the name of the thread.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

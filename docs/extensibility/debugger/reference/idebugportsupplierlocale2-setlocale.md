@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugPortSupplierLocale2::SetLocale"
 ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,8 +32,8 @@ int SetLocale(
 ```
 
 ## Parameters
- `wLangID`\
- Identifier for the locale to set.
+`wLangID`\
+Identifier for the locale to set.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

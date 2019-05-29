@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "TYPE_INFO structure"
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,15 +45,12 @@ public struct TYPE_INFO {
  A value from the [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) enumeration that determines how to interpret the union.
 
  `type.typeMeta`\
-
  [C++ only] Contains a [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) structure if `dwKind` is `TYPE_KIND_METADATA`.
 
  `type.typePdb`\
-
  [C++ only] Contains a [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) structure if `dwKind` is `TYPE_KIND_PDB`.
 
  `type.typeBuilt`\
-
  [C++ only] Contains a [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) structure if `dwKind` is `TYPE_KIND_BUILT`.
 
  `type.unused`\
@@ -63,7 +60,6 @@ public struct TYPE_INFO {
  Name of the union.
 
  `unionmember`\
-
  [C# only] Marshal this to the appropriate structure type based on `dwKind`.
 
 ## Remarks

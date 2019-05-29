@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttribute::GetAttributeTypeField"
 ms.assetid: d6ce26d5-42ba-44c1-8659-0516db5bc82d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetAttributeTypeField(
 ```
 
 ## Parameters
- `ppCAType`\
-
- [out] Returns the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that represents the class of which the custom attribute is an instance.
+`ppCAType`\
+[out] Returns the [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object that represents the class of which the custom attribute is an instance.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

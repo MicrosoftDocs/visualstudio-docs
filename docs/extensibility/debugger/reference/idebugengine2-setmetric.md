@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2:::SetMetric"
 ms.assetid: dcda4972-c32e-4693-a0e1-25d5c58b9782
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int SetMetric(
 ```
 
 ## Parameters
- `pszMetric`\
+`pszMetric`\
+[in] The metric name.
 
- [in] The metric name.
-
- `varValue`\
-
- [in] Specifies the metric value.
+`varValue`\
+[in] Specifies the metric value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

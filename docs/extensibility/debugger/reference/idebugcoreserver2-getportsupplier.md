@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer2::GetPortSupplier"
 ms.assetid: acf181d4-ef42-4aa5-86f9-95fd5467ea31
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetPortSupplier( 
 ```
 
 ## Parameters
- `guidPortSupplier`\
+`guidPortSupplier`\
+[in] GUID of the port supplier to be retrieved.
 
- [in] GUID of the port supplier to be retrieved.
-
- `ppPortSupplier`\
-
- [out] Returns an [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) object representing the desired port supplier.
+`ppPortSupplier`\
+[out] Returns an [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) object representing the desired port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

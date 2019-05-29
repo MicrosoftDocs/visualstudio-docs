@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "guid"
   - "menus"
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -50,6 +50,7 @@ This article enumerates the GUID and ID values of the menus and groups on the Vi
 |Build|IDM_VS_MENU_BUILD|
 |Format|IDM_VS_MENU_FORMAT|
 |Tools|IDM_VS_MENU_TOOLS|
+|Extensions|IDM_VS_MENU_EXTENSIONS|
 |Window|IDM_VS_MENU_WINDOW|
 |Addins|IDM_VS_MENU_ADDINS|
 |Community|IDM_VS_MENU_COMMUNITY|

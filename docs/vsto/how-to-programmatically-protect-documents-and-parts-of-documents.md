@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically protect documents and parts of documents"
+title: "Protect documents and parts of documents programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

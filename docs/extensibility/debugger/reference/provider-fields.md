@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "PROVIDER_FIELDS enumeration"
 ms.assetid: 39631545-2b0e-45b4-978b-d63656484b02
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

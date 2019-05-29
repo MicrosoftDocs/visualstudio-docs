@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DISASSEMBLY_STREAM_FIELDS enumeration"
 ms.assetid: cfc9b4de-c756-4844-bea7-d9f186a51d1b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

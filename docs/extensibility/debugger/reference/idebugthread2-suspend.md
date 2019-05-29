@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::Suspend"
 ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ HRESULT Suspend ( 
 ```
 
 ## Parameters
- `pdwSuspendCount`\
-
- [out] Returns the suspend count after the suspend operation.
+`pdwSuspendCount`\
+[out] Returns the suspend count after the suspend operation.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

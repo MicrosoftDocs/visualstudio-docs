@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetAttributedClassesForLanguage"
   - "IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage"
 ms.assetid: e5b1b8b6-52a6-4ade-9a36-644abfa9f4b2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,16 +38,13 @@ int GetAttributedClassesForLanguage (
 
 ## Parameters
 `guidLanguage`\
-
- [in] Unique identifier for the language.
+[in] Unique identifier for the language.
 
 `pstrAttribute`\
-
- [in] The attribute string.
+[in] The attribute string.
 
 `ppEnum`\
-
- [out] Returns an enumeration of the attribute classes.
+[out] Returns an enumeration of the attribute classes.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

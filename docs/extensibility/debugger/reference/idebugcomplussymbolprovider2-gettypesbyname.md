@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetTypesByName"
   - "IDebugComPlusSymbolProvider2::GetTypesByName"
 ms.assetid: ef76b1a8-6910-48fe-b4af-d9045eefd23f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,16 +38,13 @@ int GetTypesByName(
 
 ## Parameters
 `pszClassName`\
-
- [in] Name of the type.
+[in] Name of the type.
 
 `nameMatch`\
-
- [in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
+[in] Selects the type of match, for example, case-sensitive. A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration.
 
 `ppEnum`\
-
- [out] An enumerator that contains the type or types with the given name.
+[out] An enumerator that contains the type or types with the given name.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

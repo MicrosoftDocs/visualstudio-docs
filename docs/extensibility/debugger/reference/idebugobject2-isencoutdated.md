@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject2::IsEncOutdated method"
 ms.assetid: d3a8c02d-895b-478c-9957-d663130f308e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int IsEncOutdated(
 ```
 
 ## Parameters
- `pfEncOutdated`\
-
- [out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
+`pfEncOutdated`\
+[out] Nonzero (`TRUE`) if the Edit and Continue state is out of date, zero (`FALSE`) if it is not.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEELocalObject"
 ms.assetid: e69a3469-a049-420c-b918-c48a1e7b9baf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,21 +38,17 @@ private int GetEELocalObject(
 ```
 
 ## Parameters
- `guidLang`\
+`guidLang`\
+[in] Unique identifier of the programming language.
 
- [in] Unique identifier of the programming language.
+`guidVendor`\
+[in] Unique identifier of the vendor.
 
- `guidVendor`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the vendor.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `ppUnk`\
-
- [out] Returns the expression evaluator local object.
+`ppUnk`\
+[out] Returns the expression evaluator local object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

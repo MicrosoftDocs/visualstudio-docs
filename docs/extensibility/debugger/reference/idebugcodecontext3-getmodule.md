@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugCodeContext3::GetModule"
 ms.assetid: 8e4317b8-8255-486c-a896-a68ed94f8aa1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -33,8 +33,7 @@ public int GetModule(
 
 ## Parameters
 `ppModule`\
-
- [out] Reference to the debug module interface.
+[out] Reference to the debug module interface.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

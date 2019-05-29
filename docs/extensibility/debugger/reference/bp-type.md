@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_TYPE enumeration"
 ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

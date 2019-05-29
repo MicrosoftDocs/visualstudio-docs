@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "METADATA_ADDRESS_ARRAYELEM structure"
 ms.assetid: 24321be5-7c17-4038-82a1-c20a2b68ff3c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,13 +39,11 @@ public struct METADATA_ADDRESS_ARRAYELEM {
 ## Members
 
 `tokMethod`\
-
 The ID of the array this element is a part of.
 
 [C++] `_mdToken` is a `typedef` for a 32-bit `int`.
 
 `dwIndex`\
-
 The index of this element within the array.
 
 ## Remarks

@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging [Debugging SDK], exception handling"
 ms.assetid: 7279dc16-db14-482c-86b8-7b3da5a581d2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

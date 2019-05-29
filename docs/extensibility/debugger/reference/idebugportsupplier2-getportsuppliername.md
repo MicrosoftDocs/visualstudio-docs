@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortSupplier2::GetPortSupplierName"
 ms.assetid: e4c368ab-640d-4b5b-9f74-810dc9364d8f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetPortSupplierName( 
 ```
 
 ## Parameters
- `pbstrName`\
-
- [out] Returns the name of the port supplier.
+`pbstrName`\
+[out] Returns the name of the port supplier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

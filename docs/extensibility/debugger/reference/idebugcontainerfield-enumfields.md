@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugContainerField::EnumFields method"
 ms.assetid: 9e5e681b-ad49-4c62-bd95-4afa11d61a57
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,25 +42,20 @@ int EnumFields(
 ```
 
 ## Parameters
- `dwKindFilter`\
+`dwKindFilter`\
+[in] A combination of [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) constants that select the fields to be enumerated. Field kinds can describe storage types, such as class or primitive, or specific information, such as local, parameter, or "this" pointer.
 
- [in] A combination of [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) constants that select the fields to be enumerated. Field kinds can describe storage types, such as class or primitive, or specific information, such as local, parameter, or "this" pointer.
+`dwModifiersFilter`\
+[in] A combination of [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md) constants that select the fields to be enumerated. Field modifiers can be access permissions, such as public or private, or storage information, such as virtual, static, or final.
 
- `dwModifiersFilter`\
+`pszNameFilter`\
+[in] The name of the field to be enumerated. This can be a null value if all fields are to be returned.
 
- [in] A combination of [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md) constants that select the fields to be enumerated. Field modifiers can be access permissions, such as public or private, or storage information, such as virtual, static, or final.
+`nameMatch`\
+[in] A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration that controls whether searching is case-sensitive or not.
 
- `pszNameFilter`\
-
- [in] The name of the field to be enumerated. This can be a null value if all fields are to be returned.
-
- `nameMatch`\
-
- [in] A value from the [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) enumeration that controls whether searching is case-sensitive or not.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of fields. Returns a null value if there are no fields.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of fields. Returns a null value if there are no fields.
 
 ## Return Value
  If successful, returns S_OK or S_FALSE if there are no fields. Otherwise, returns an error code.

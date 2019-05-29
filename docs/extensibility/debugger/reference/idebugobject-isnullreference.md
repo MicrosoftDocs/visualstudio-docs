@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject::IsNullReference method"
 ms.assetid: 6dbfcdb0-954f-4486-8fac-7ea8d003e3a9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int IsNullReference(
 ```
 
 ## Parameters
- `pfIsNull`\
-
- [out] Returns non-zero (`TRUE`) if this object is a null reference; otherwise, returns zero (`FALSE`).
+`pfIsNull`\
+[out] Returns non-zero (`TRUE`) if this object is a null reference; otherwise, returns zero (`FALSE`).
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

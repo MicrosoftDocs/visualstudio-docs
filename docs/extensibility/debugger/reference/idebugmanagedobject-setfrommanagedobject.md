@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugManagedObject::SetFromManagedObject method"
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int SetFromManagedObject(
 ```
 
 ## Parameters
- `pManagedObject`\
-
- [in] An interface that represents the managed object containing the new value.
+`pManagedObject`\
+[in] An interface that represents the managed object containing the new value.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

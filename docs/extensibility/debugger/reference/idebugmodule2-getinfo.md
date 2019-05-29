@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetInfo method"
   - "IDebugModule2::GetInfo method"
 ms.assetid: de337e66-294f-4ac9-b21e-71fac7418e36
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,13 +37,11 @@ int GetInfo( 
 ```
 
 ## Parameters
- `dwFields`\
+`dwFields`\
+[in] A combination of flags from the [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) enumeration that specify which fields of `pInfo` are to be filled out.
 
- [in] A combination of flags from the [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) enumeration that specify which fields of `pInfo` are to be filled out.
-
- `pInfo`\
-
- [in, out] A [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) structure that is filled in with a description of the module.
+`pInfo`\
+[in, out] A [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) structure that is filled in with a description of the module.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

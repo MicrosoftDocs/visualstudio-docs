@@ -1,37 +1,16 @@
 ---
 title: "Writing to the User Settings Store | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "05/23/2019"
 ms.topic: "conceptual"
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Writing to the User Settings Store
 User settings are writeable settings like the ones in the **Tools / Options** dialog, properties windows, and certain other dialog boxes. Visual Studio extensions may use these to store small amounts of data. This walkthrough shows how to add Notepad to Visual Studio as an external tool by reading from and writing to the user settings store.
-
-### Backing up Your User Settings
-
-1. You must be able to reset the External Tools settings so that you can debug and repeat the procedure. To do this, you must save the original settings so that you can restore them as required.
-
-2. Open Regedit.exe.
-
-3. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.
-
-    > [!NOTE]
-    > Make sure that you are looking at the key that contains \14.0Exp\ and not \14.0\\. When you run the experimental instance of Visual Studio, your user settings are in the registry hive "14.0Exp".
-
-4. Right-click the \External Tools\ subkey, and then click **Export**. Make sure that **Selected branch** is selected.
-
-5. Save the resulting External Tools.reg file.
-
-6. Later, when you want to reset the External Tools settings, select the HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\ registry key and click **Delete** on the context menu.
-
-7. When the **Confirm Key Delete** dialog box appears, click **Yes**.
-
-8. Right-click the External Tools.reg file that you saved earlier, click **Open with**, and then click **Registry Editor**.
 
 ## Writing to the User Settings Store
 

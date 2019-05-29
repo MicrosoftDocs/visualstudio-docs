@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugFunctionObject::CreatePrimitiveObject method"
 ms.assetid: 6e9dc8b6-b4e1-4abf-b6e0-e885910775bc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int CreatePrimitiveObject(
 ```
 
 ## Parameters
- `ot`\
+`ot`\
+[in] A value from the [OBJECT_TYPE](../../../extensibility/debugger/reference/object-type.md) enumeration representing the type of primitive to create.
 
- [in] A value from the [OBJECT_TYPE](../../../extensibility/debugger/reference/object-type.md) enumeration representing the type of primitive to create.
-
- `ppObject`\
-
- [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the newly created object.
+`ppObject`\
+[out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) representing the newly created object.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

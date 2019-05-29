@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "PDB_TYPE structure"
 ms.assetid: 1c1bb772-77d6-4870-90b2-fd9247d0004e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -41,15 +41,12 @@ public struct PDB_TYPE {
 ## Members
 
 `ulAppDomainID`\
-
 ID of the application from which the symbol came. This is used to uniquely identify an instance of the application.
 
 `guidModule`\
-
 The GUID of the module that contains this field.
 
 `symid`\
-
 The ID of the symbol that corresponds to this field.
 
 ## Remarks

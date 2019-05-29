@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::GetMemoryContext"
 ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetMemoryContext ( 
 ```
 
 ## Parameters
- `ppMemory`\
-
- [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that represents the memory associated with the value of the reference.
+`ppMemory`\
+[out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) object that represents the memory associated with the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

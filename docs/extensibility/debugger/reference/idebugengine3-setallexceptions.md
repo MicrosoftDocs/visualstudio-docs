@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine3::SetAllExceptions"
 ms.assetid: 8f03a6ac-a854-42f7-933c-a2df1b351975
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int SetAllExceptions(
 ```
 
 ## Parameters
- `dwState`\
-
- [in] One of the [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md) values.
+`dwState`\
+[in] One of the [EXCEPTION_STATE](../../../extensibility/debugger/reference/exception-state.md) values.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

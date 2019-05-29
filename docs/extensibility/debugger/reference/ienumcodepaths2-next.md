@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumCodePaths2::Next"
 ms.assetid: c7a8fe97-2abc-4cee-8aef-64f1daa93b5c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int Next(
 ```
 
 ## Parameters
- `celt`\
+`celt`\
+[in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
 
- [in] The number of elements to retrieve. Also specifies the maximum size of the `rgelt` array.
+`rgelt`\
+[in, out] Array of [CODE_PATH](../../../extensibility/debugger/reference/code-path.md) elements to be filled in.
 
- `rgelt`\
-
- [in, out] Array of [CODE_PATH](../../../extensibility/debugger/reference/code-path.md) elements to be filled in.
-
- `pceltFetched`\
-
- [out] Returns the number of elements actually returned in `rgelt`.
+`pceltFetched`\
+[out] Returns the number of elements actually returned in `rgelt`.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.

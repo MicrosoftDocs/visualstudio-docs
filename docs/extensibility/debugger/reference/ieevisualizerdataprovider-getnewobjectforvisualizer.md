@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerDataProvider::GetNewObjectForVisualizer method"
 ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetNewObjectForVisualizer(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] The new object.
+`ppObject`\
+[out] The new object.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

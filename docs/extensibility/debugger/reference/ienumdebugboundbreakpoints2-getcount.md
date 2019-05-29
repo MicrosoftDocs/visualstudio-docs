@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugBoundBreakpoints2::GetCount"
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetCount(
 ```
 
 ## Parameters
- `pcelt`\
-
- [out] Returns the number of elements in the enumeration.
+`pcelt`\
+[out] Returns the number of elements in the enumeration.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IPropertyProxyEESide::InitSourceDataProvider"
 ms.assetid: 5156f593-5052-4e3a-9d02-081916fb342d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int InitSourceDataProvider(
 ```
 
 ## Parameters
- `dataOut`\
-
- [out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object
+`dataOut`\
+[out] Returns an [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) object
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

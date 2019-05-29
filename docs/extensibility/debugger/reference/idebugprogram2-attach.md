@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::Attach"
 ms.assetid: de069fbf-a565-4905-b102-f5658c55aacd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int Attach( 
 ```
 
 ## Parameters
- `pCallback`\
-
- [in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used for debug event notification.
+`pCallback`\
+[in] An [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) object to be used for debug event notification.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows some possible error codes.

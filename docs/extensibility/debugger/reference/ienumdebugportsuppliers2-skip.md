@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumDebugPortSuppliers2::Skip"
 ms.assetid: bd95d7e9-274f-485d-8bf6-865306ae1b81
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int Skip(
 ```
 
 ## Parameters
- `celt`\
-
- [in] Number of elements to skip.
+`celt`\
+[in] Number of elements to skip.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if `celt` is greater than the number of remaining elements; otherwise, returns an error code.

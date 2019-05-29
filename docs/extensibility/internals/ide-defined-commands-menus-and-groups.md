@@ -7,8 +7,8 @@ helpviewer_keywords:
   - ".vsct files, environment-defined constants"
   - "command groups, environment-defined"
 ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/02/2019"
+ms.date: "05/28/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -13,6 +13,66 @@ ms.workload:
 ---
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
+
+## 4.1.1.0
+ Released May 24, 2019
+
+### New Features
+
+- **Integration:**
+
+    - Updated MonoBehaviour API to 2019.1.
+
+### Bug fixes
+
+- **Integration:**
+
+    - Fixed reporting warnings and errors to output when lightweight build is enabled.
+    
+    - Fixed lightweight build performance.
+
+## 4.1.0.0
+ Released May 21, 2019
+
+### New Features
+
+- **Integration:**
+
+    - Added support for the new batch API to reload projects faster.
+    
+    - Disabled the full build for Unity projects, in favor of using the IntelliSense errors and warnings. Indeed Unity creates a Visual Studio solution with class library projects that represent what Unity is doing internally. That being said, the result of the build in Visual Studio is never used or picked up by Unity as their compilation pipeline is closed. Building in Visual Studio is just consuming resources for nothing. If you need a full build because you have tools or a setup that depends on it, you can disable this optimization (Tools/Options/Tools for Unity/Disable the full build of projects). 
+
+    - Automatically show the Unity Project Explorer (UPE) when a Unity project is loaded. The UPE will be docked next to the Solution Explorer.
+    
+    - Updated project name extraction mechanism with Unity 2019.x.
+
+    - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the ```Packages``` folder) and Local packages (embedded in the ```Packages``` folder) are visible.
+    
+- **Project Generation:**
+
+    - Preserve external properties when processing the solution file.
+
+- **Evaluation:**
+
+    - Added support for alias-qualified names (only the global namespace for now). So the expression evaluator is now accepting types using the form global::namespace.type.
+    
+    - Added support for ```pointer[index]``` form, which is semantically identical to pointer dereference ```*(pointer+index)``` form.
+
+### Bug fixes
+
+- **Integration:**
+
+    - Fixed dependency issues with Microsoft.VisualStudio.MPF.
+    
+    - Fixed UWP player attach, without any project loaded.
+    
+    - Fixed automatic asset database refresh when Visual Studio was not yet attached.
+    
+    - Fixed theme issues with labels and checkboxes.
+    
+- **Debugger:**
+
+    - Fixed stepping with static constructors.
 
 ## 4.0.0.5
  Released February 27, 2019

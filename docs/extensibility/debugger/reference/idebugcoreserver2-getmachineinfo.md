@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer2::GetInfo"
 ms.assetid: 8fa1a1d3-9fcb-4fb3-bf4e-e7172ac08d77
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,9 +36,8 @@ int GetMachineInfo( 
 ```
 
 ## Parameters
- `Fields`\
-
- [in] A combination of flags from the [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) enumeration that specify which fields of `pMachineInfo` are to be filled out.
+`Fields`\
+[in] A combination of flags from the [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) enumeration that specify which fields of `pMachineInfo` are to be filled out.
 
  `pMachineInfo`\
 

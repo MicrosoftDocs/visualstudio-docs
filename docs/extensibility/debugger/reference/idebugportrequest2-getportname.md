@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortRequest2::GetPortName"
 ms.assetid: 53e2a3a4-bb34-4a02-a983-6bd84ea70587
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetPortName( 
 ```
 
 ## Parameters
- `pbstrPortName`\
-
- [out] Returns the name of the port.
+`pbstrPortName`\
+[out] Returns the name of the port.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

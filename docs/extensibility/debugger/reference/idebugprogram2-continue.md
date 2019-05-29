@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::Continue"
 ms.assetid: e5a6e02a-d21b-4a03-a034-e8de1f71ce2e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,10 +36,9 @@ int Continue( 
 );
 ```
 
-#### Parameters
- `pThread`
-
- [in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread.
+## Parameters
+`pThread`
+[in] An [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) object that represents the thread.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

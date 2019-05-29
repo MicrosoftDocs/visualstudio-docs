@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IDebugPendingBreakpoint2::EnumErrorBreakpoints method"
   - "EnumErrorBreakpoints method"
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,13 +37,11 @@ int EnumErrorBreakpoints( 
 ```
 
 ## Parameters
- `bpErrorType`\
+`bpErrorType`\
+[in] A combination of values from the [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) enumeration that selects the type of errors to enumerate.
 
- [in] A combination of values from the [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) enumeration that selects the type of errors to enumerate.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects.
+`ppEnum`\
+[out] Returns an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) object that contains a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) objects.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

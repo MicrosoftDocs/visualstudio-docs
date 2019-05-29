@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCodeContext2::GetDocumentContext"
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDocumentContext( 
 ```
 
 ## Parameters
- `ppSrcCxt`\
-
- [out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context.
+`ppSrcCxt`\
+[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

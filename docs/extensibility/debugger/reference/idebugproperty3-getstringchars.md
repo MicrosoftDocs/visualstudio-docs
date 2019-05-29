@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty3::GetStringChars"
 ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,18 +39,15 @@ int GetStringChars(
 
 ## Parameters
 `buflen`\
-
- [in] Maximum number of characters the user-supplied buffer can hold.
+[in] Maximum number of characters the user-supplied buffer can hold.
 
 `rgString`\
-
- [out] Returns the string.
+[out] Returns the string.
 
  [C++ only], `rgString` is a pointer to a buffer that receives the Unicode characters of the string. This buffer must be at least `buflen` characters (not bytes) in size.
 
 `pceltFetched`\
-
- [out] Where the number of characters actually stored in the buffer is returned. (Can be `NULL` in C++.)
+[out] Where the number of characters actually stored in the buffer is returned. (Can be `NULL` in C++.)
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code.

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "ports, getting"
   - "debugging [Debugging SDK], ports"
 ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

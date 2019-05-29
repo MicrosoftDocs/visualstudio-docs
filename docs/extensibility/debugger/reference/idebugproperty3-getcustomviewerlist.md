@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty3::GetCustomViewerList"
 ms.assetid: 74490fd8-6f44-4618-beea-dab64961bb8a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -41,20 +41,16 @@ int GetCustomViewerList(
 
 ## Parameters
 `celtSkip`\
-
- [in] The number of viewers to skip over.
+[in] The number of viewers to skip over.
 
 `celtRequested`\
-
- [in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
+[in] The number of viewers to retrieve (also specifies the size of the `rgViewers` array).
 
 `rgViewers`\
-
- [in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
+[in, out] Array of [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) structures to be filled in.
 
 `pceltFetched`\
-
- [out] The actual number of viewers returned.
+[out] The actual number of viewers returned.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

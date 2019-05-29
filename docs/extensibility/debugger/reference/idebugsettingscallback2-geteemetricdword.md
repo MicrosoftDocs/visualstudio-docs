@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugSettingsCallback2::GetEEMetricDword"
 ms.assetid: c5f8f417-0ef0-4fd0-a779-b0a8ead4effe
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,21 +38,17 @@ private int GetEEMetricDword(
 ```
 
 ## Parameters
- `guidLang`\
+`guidLang`\
+[in] Unique identifier of the programming language.
 
- [in] Unique identifier of the programming language.
+`guidVendor`\
+[in] Unique identifier of the vendor.
 
- `guidVendor`\
+`pszMetric`\
+[in] Name of the metric.
 
- [in] Unique identifier of the vendor.
-
- `pszMetric`\
-
- [in] Name of the metric.
-
- `pdwValue`\
-
- [out] Returns the value that corresponds to the metric string.
+`pdwValue`\
+[out] Returns the value that corresponds to the metric string.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

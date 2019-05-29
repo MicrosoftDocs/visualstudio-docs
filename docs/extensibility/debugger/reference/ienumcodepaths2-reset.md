@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumCodePaths2::Reset"
 ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

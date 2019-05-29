@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "CreatePrimitive"
   - "IDebugTypeFieldBuilder::CreatePrimitive"
 ms.assetid: 512c6ff0-97c5-409f-939f-4cc969bc4bb9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,13 +35,11 @@ int CreatePrimitive (
 ```
 
 ## Parameters
- `dwElementType`\
+`dwElementType`\
+[in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
 
- [in] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.
-
- `pTypeField`\
-
- [out] Returns the IDebugField interface for the new type.
+`pTypeField`\
+[out] Returns the IDebugField interface for the new type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

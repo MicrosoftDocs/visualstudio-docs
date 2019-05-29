@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointUnboundEvent2::GetReason"
 ms.assetid: 0f8a4fec-d3eb-417d-8516-4f7b51904033
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,8 +35,7 @@ int GetReason(
 
 ## Parameters
 `pdwUnboundReason`\
-
- [out] Returns a value from the [BP_UNBOUND_REASON](../../../extensibility/debugger/reference/bp-unbound-reason.md) enumeration specifying the reason the breakpoint was unbound.
+[out] Returns a value from the [BP_UNBOUND_REASON](../../../extensibility/debugger/reference/bp-unbound-reason.md) enumeration specifying the reason the breakpoint was unbound.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSPackages, autoloading"
   - "VSPackages, loading"
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

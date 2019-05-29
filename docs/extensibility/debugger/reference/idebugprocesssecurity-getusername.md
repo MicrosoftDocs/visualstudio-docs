@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugProcessSecurity::GetUserName"
 ms.assetid: c73c60ac-da6e-45ae-8f04-95353a24ca3e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,9 +32,8 @@ int GetUserName (
 ```
 
 ## Parameters
- `pbstrUserName`\
-
- [out] A string containing the user name.
+`pbstrUserName`\
+[out] A string containing the user name.
 
 ## Return Value
  If the method succeeds, it returns `S_OK`. Otherwise it returns an error code.

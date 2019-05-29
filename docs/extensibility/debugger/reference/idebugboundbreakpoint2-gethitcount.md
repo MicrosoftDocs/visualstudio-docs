@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetHitCount method"
   - "IDebugBoundBreakpoint2::GetHitCount method"
 ms.assetid: 23481f37-047c-41d2-8286-4da1f4084961
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

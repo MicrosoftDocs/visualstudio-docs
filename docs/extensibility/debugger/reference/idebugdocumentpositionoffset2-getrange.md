@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugDocumentPositionOffset2::GetRange"
 ms.assetid: 27da7130-0932-4f97-abde-05e6fb018606
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,13 +34,11 @@ public int GetRange(
 ```
 
 ## Parameters
- `pdwBegOffset`\
+`pdwBegOffset`\
+[in, out] Offset for the start position of the range. Set this parameter to a null value if this information is not needed.
 
- [in, out] Offset for the start position of the range. Set this parameter to a null value if this information is not needed.
-
- `pdwEndOffset`\
-
- [in, out] Offset for the end position of the range. Set this parameter to a null value if this information is not needed.
+`pdwEndOffset`\
+[in, out] Offset for the end position of the range. Set this parameter to a null value if this information is not needed.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

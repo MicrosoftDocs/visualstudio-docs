@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCanStopEvent2::GetDocumentContext"
 ms.assetid: 936a6c4e-30c5-4c7e-9ad5-910cc605a4b5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDocumentContext ( 
 ```
 
 ## Parameters
- `ppDocCxt`\
-
- [out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface that represents a position in a source file document corresponding to the current code location.
+`ppDocCxt`\
+[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) interface that represents a position in a source file document corresponding to the current code location.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

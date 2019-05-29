@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "toolbox"
   - "wpf"
 ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

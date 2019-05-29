@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugField::GetContainer method"
 ms.assetid: 6d6c8213-6181-4adf-9584-3e4cac163dd8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetContainer(
 ```
 
 ## Parameters
- `ppContainerField`\
-
- [out] Returns the container as represented by the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
+`ppContainerField`\
+[out] Returns the container as represented by the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

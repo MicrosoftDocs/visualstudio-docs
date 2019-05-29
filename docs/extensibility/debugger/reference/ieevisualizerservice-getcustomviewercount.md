@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEEVisualizerService::GetCustomViewerCount method"
 ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetCustomViewerCount(
 ```
 
 ## Parameters
- `pcelt`\
-
- [out] Returns the number of type visualizers available.
+`pcelt`\
+[out] Returns the number of type visualizers available.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
