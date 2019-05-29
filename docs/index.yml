@@ -158,5 +158,33 @@ additionalContent:
 #        url: /visualstudio/liveshare/
 #      - title: Develop with containers
 #        summary: Use containers to isolate modular components and improve scalability.
-#        url: containers/
-   footer: Find documentation for the type of development you are doing at the [Workloads](/visualstudio/workloads) page. 
+#        url: containers/  
+   - title: Workloads
+     summary: Workloads represent types of app development, including languages, frameworks, target platforms or target devices.
+     items:
+        - title: Web and Cloud
+          summary: |
+            [Web development](/aspnet/) </br>
+            [Azure development and management](azure/index.md) </br>
+            [Python](python/index.md) </br>
+            [Node.js](javascript/) </br>
+            [Data storage and processing](data-tools/index.md) </br>
+            [Data science](python/data-science-and-analytical-applications-workload.md) </br>
+            [Office/Sharepoint development](https://developer.microsoft.com/office/docs) 
+        - title: Windows
+          summary: |
+            [.NET Desktop development](/dotnet/framework/develop-client-apps) </br>
+            [Universal Windows platform development](cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) </br>
+            [Windows development with C++](/cpp/windows/desktop-applications-visual-cpp)
+        - title: Mobile and gaming
+          summary: |
+            [Mobile development with .NET (Xamarin)](/xamarin/) </br>
+            [Game development with Unity](cross-platform/visual-studio-tools-for-unity.md) </br>
+            [Mobile development with JavaScript (Visual Studio 2017 and 2015 only)](/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) </br>
+            [Mobile development with C++](/visualstudio/cross-platform/) </br>
+            [Game development with C++](/windows/uwp/gaming/e2e) 
+        - title: Other toolsets
+          summary: |
+            [Visual Studio extension development](extensibility/) </br>
+            [Linux development with C++](/cpp/linux/) </br>
+            [].NET Core cross-platform development](/dotnet/core/)
