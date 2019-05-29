@@ -35,6 +35,9 @@ The constructor of an unsealed type calls a virtual method defined in its class.
 
 When a virtual method is called, the actual type that executes the method is not selected until run time. When a constructor calls a virtual method, it's possible that the constructor for the instance that invokes the method has not executed.
 
+> [!NOTE]
+> The binary analysis implementation of this rule has a different diagnostic message of "**\[Constructor name] contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences**". The [FxCop analyzers](install-fxcop-analyzers.md) implementation of this rule has a diagnostic message of "**Do not call overridable methods in constructors**".
+
 ## How to fix violations
 
 To fix a violation of this rule, do not call a type's virtual methods from within the type's constructors.
@@ -57,6 +60,3 @@ Calling base ctor.
 Derived DoSomething is called - initialized ? No
 Calling derived ctor.
 ```
-
-> [!NOTE]
-> The binary analysis implmentation of this rule has a different diagnostic message of "**\[Constructor name] contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences**". The [FxCop analyzers](install-fxcop-analyzers.md) implementation of this rule has a diagnostic message of "**Do not call overridable methods in constructors**".
