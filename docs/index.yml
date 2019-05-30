@@ -68,7 +68,7 @@ conceptualContent:
           url: /visualstudio/python
           itemType: get-started
         - text: JavaScript
-          url: /visualstudio/get-started/javascript
+          url: /visualstudio/javascript
           itemType: get-started
     - title: Create an app 
       links:
