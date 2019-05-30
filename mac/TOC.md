@@ -71,7 +71,8 @@
 ## [Available Workloads](workloads.md)
 ## ASP.NET Core
 ### [.NET Core Support](net-core-support.md)
-### [Building Your First ASP.NET Core App](asp-net-core.md)
+### [Getting Started with ASP.NET Core](asp-net-core.md)
+### [Building ASP.NET Core applications in Visual Studio for Mac](building-aspnetcore.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
 ## Azure
