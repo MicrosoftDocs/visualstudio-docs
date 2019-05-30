@@ -117,7 +117,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    >
    > ![.NET Core cross-platform development workload in the Visual Studio Installer](../../get-started/media/aspnet-core-web-dev-workload.png)
    >
-   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+   > After that, choose the **Modify** button in the Visual Studio Installer. If you're prompted to save your work, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
 
 1. In the **Configure your new project** window, type or enter *MyCoreApp* in the **Project name** box. Then, choose **Create**.
 
