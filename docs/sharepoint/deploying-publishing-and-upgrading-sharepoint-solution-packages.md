@@ -1,5 +1,5 @@
 ---
-title: "Deploying, Publishing, and Upgrading SharePoint Solution Packages | Microsoft Docs"
+title: "Deploy, publish, & upgrade SharePoint solution packages"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Import a Custom Master Page and Site Page with an Image | Microsoft Docs"
+title: "Import custom master page & site page with image"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
