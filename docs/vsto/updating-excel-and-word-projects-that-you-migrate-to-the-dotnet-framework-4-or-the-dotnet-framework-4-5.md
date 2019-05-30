@@ -1,5 +1,5 @@
 ---
-title: "Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
+title: "Update Excel & Word project migrated to .NET Framework 4 / 4.5"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

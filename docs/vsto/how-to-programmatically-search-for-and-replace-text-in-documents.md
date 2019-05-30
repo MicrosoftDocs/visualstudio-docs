@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically search for and replace text in Documents"
+title: "Find and replace text in documents programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

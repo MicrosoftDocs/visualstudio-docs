@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically save attachments from Outlook email items"
+title: "Save attachments from Outlook email items programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

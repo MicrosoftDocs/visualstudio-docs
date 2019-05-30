@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Display custom task panes with email messages in Outlook"
+title: "Display custom task panes with email messages in Outlook"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
