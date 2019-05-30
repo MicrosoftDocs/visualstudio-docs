@@ -85,6 +85,9 @@ When submitting an incident online, you will first be prompted to sign in. Using
    > [!div class="mx-imgBorder"]
    > ![Technical Support Benefit Incident Submission - Choose Plan](_img/vs-tech-support/vs-tech-support-choose-plan.png)
 
+   > [!NOTE]
+   > If you do not see your support plan, go back to the previous page and click **Next** again.  If that fails to display the support plan, copy the text of your support issue to your clipboard, refresh the page and recreate the support issue.
+
 6. Complete the remaining steps (severity, contact information, review).   After you submit your incident, you’ll see a confirmation that your incident has been successfully submitted and you can upload files to the case. A Support Professional will be assigned to your incident and will reach out to you to resolve your issue using the contact method you selected.
 
 #### Submit an incident by phone
