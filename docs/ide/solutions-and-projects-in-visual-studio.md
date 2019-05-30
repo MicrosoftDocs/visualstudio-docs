@@ -55,13 +55,13 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ## Create new projects
 
-The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create solutions and projects](../ide/creating-solutions-and-projects.md).
+The easiest way to create a new project is to start from a project template for a particular type of application or website. A project template consists of a basic set of pre-generated code files, config files, assets, and settings. These templates are available in the dialog box where you create a new project (**File** > **New** > **Project**). For more information, see [Create a new project in Visual Studio](create-new-project.md) and [Create solutions and projects](../ide/creating-solutions-and-projects.md).
 
-You can also create custom project and item templates. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
+If you often customize your projects in a certain way, You can create a custom project template that you can then use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
-When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can customize this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
+When you create a new project, it is saved by default at *%USERPROFILE%\source\repos*. You can change this location in the **Projects location** setting under **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Projects and Solutions page, Options dialog box](../ide/reference/projects-and-solutions-options-dialog-box.md).
 
-## Manage projects in Solution Explorer
+## Solution Explorer
 
 After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 

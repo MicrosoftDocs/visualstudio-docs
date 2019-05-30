@@ -9,9 +9,9 @@ author: angelosp
 ms.author: angelpe
 manager: jillfra
 ---
-# Customize file nesting in Solution Explorer
+# File nesting in Solution Explorer
 
-**Solution Explorer** nests related files to help organize them and make them easier to locate. For example, if you add a Windows Forms form to a project, the code file for the form is nested below the form in **Solution Explorer**. In ASP.NET Core projects, file nesting can be taken a step further. You can choose between the file nesting presets **Off**, **Default**, and **Web**. You can also [customize how files are nested](#customize-file-nesting) or [create solution-specific and project-specific settings](#create-solution-specific-and-project-specific-settings).
+**Solution Explorer** nests related files to help organize them and make them easier to locate. For example, if you add a Windows Forms form to a project, the code file for the form is nested below the form in **Solution Explorer**. In ASP.NET Core projects, file nesting can be taken a step further. You can choose between the file nesting presets **Off**, **Default**, and **Web**. You can also [customize how files are nested](#customize-file-nesting) or [create solution-specific and project-specific settings](#create-project-specific-settings).
 
 > [!NOTE]
 > The feature is currently only supported for ASP.NET Core projects.
@@ -122,7 +122,7 @@ You can manage all settings, including your own custom settings, through the sam
 
 ![Activate custom file nesting rules](media/filenesting_activatecustom.png)
 
-## Create solution-specific and project-specific settings
+## Create project-specific settings
 
 You can create solution-specific and project-specific settings through the right-click menu (context menu) of each solution and project:
 
@@ -136,7 +136,7 @@ You can do the opposite and tell Visual Studio to *only* use the solution-specif
 
 Solution-specific and project-specific settings can be checked into source control, and the entire team that works on the codebase can share them.
 
-## Disable global file nesting rules for a particular solution or project
+## Disable file nesting rules for a project
 
 You can disable existing global file nesting rules for specific solutions or projects by using the **remove** action for a provider instead of **add**. For example, if you add the following settings code to a project, all **pathSegment** rules that may exist globally for this specific project are disabled:
 
