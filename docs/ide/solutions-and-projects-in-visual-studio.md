@@ -3,20 +3,17 @@ title: Solutions and projects
 ms.date: 10/05/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.addnewsolutionitem"
-  - "vs.environment.projects"
-  - "vs.openproject"
   - "vs.addnewitem"
+  - "vs.addnewsolutionitem"
+  - "vs.openproject"
   - "vs.addexistingitem"
-  - "VS.SolutionExplorer"
   - "vs.addexistingsolutionitem"
+  - "vs.environment.projects"
   - "vs.environment.solutions"
+  - "VS.SolutionExplorer"
   - "VS.SolutionExplorer.Solutions"
 helpviewer_keywords:
-  - "solution items [Visual Studio]"
   - "solutions [Visual Studio]"
-  - "project items [Visual Studio]"
-  - "solutions [Visual Studio], designing"
   - "projects [Visual Studio]"
 author: gewarren
 ms.author: gewarren
@@ -66,9 +63,13 @@ When you create a new project, it is saved by default at *%USERPROFILE%\source\r
 
 ## Manage projects in Solution Explorer
 
-After you create a new project, you can use **Solution Explorer** to view and manage the project and solution, and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
+After you create a new project, you can use **Solution Explorer** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
 ![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
+
+Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
+
+For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
 ## See also
 
