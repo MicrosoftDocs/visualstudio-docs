@@ -190,7 +190,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![View the text on the About page](media/csharp-aspnet-razor-browser-page-about.png)
 
-1. Return to Visual Studio, and then press **Shift+F5** to stop debugging. This also closes the project in the browser window.
+1. Return to Visual Studio, and then press **Shift+F5** to stop Debug mode. This also closes the project in the browser window.
 
 1. In Visual Studio, choose **About.cshtml**. Then, delete the word _additional_ and in its place, add the words _file and directory_.
 
