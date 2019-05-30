@@ -347,7 +347,7 @@ The sections in the following table include commands that are global in that you
 |--------------| - |
 |View.AllWindows|**Shift+Alt+M**|
 |View.ArchitectureExplorer|**Ctrl+\\, Ctrl+R**|
-|View.Backward|**Alt+Left Arrow**|
+|View.Backward|**Alt+Left Arrow** (Functions differently from View.NavigateBackward in Text Editor)|
 |View.BookmarkWindow|**Ctrl+K, Ctrl+W**|
 |View.BrowseNext|**Ctrl+Shift+1**|
 |View.BrowsePrevious|**Ctrl+Shift+2**|
@@ -362,7 +362,7 @@ The sections in the following table include commands that are global in that you
 |View.ErrorList|**Ctrl+\\, E**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+E**|
 |View.F#Interactive|**Ctrl+Alt+F**|
 |View.FindSymbolResults|**Ctrl+Alt+F12**|
-|View.Forward|**Alt+Right Arrow**|
+|View.Forward|**Alt+Right Arrow**  (Functions differently from View.NavigateForward in Text Editor)|
 |View.ForwardBrowseContext|**Ctrl+Shift+7**|
 |View.FullScreen|**Shift+Alt+Enter**|
 |View.NavigateBackward|**Ctrl+-**|
