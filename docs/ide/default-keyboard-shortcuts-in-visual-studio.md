@@ -164,6 +164,7 @@ The sections in the following table include commands that are global in that you
 |Edit.FindPreviousSelected|**Ctrl+Shift+F3**|
 |Edit.GenerateMethod|**Ctrl+K, Ctrl+M**|
 |Edit.GoTo|**Ctrl+G**|
+|Edit.GoToAll|**Ctrl+,** or **Ctrl+T**|
 |Edit.GoToDeclaration|**Ctrl+F12**|
 |Edit.GoToDefinition|**F12**|
 |Edit.GoToFindCombo|**Ctrl+D**|
@@ -178,7 +179,6 @@ The sections in the following table include commands that are global in that you
 |Edit.MoveControlRightGrid|**Right Arrow**|
 |Edit.MoveControlUp|**Ctrl+Up Arrow**|
 |Edit.MoveControlUpGrid|**Up Arrow**|
-|Edit.NavigateTo|**Ctrl+,**|
 |Edit.NextBookmark|**Ctrl+K, Ctrl+N**|
 |Edit.NextBookmarkInFolder|**Ctrl+Shift+K, Ctrl+Shift+N**|
 |Edit.OpenFile|**Ctrl+Shift+G** (Opens the file name under the cursor)|
