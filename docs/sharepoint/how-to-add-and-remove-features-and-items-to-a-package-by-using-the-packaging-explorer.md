@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Remove Features and Items to a Package by Using the Packaging Explorer | Microsoft Docs"
+title: "Packaging Explorer: Add & remove features & items to package"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

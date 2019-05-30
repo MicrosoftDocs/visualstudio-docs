@@ -359,9 +359,9 @@ Running the two test methods demonstrates that the tests work correctly.
 
 ### Continue the analysis
 
-However, the last two test methods are also troubling. You can't be certain which condition in the method under test throws the exception when either test is run. Some way of differentiating the two conditions, that is a negative debit amount or an amount greater than the balance, would increase your confidence in the tests.
+The method being tested can be improved further. With the current implementation, we have no way to know which condition (`amount > m_balance` or `amount < 0`) led to the exception being thrown during the test. We just know that an `ArgumentOutOfRangeException` was thrown somewhere in the method. It would be better if we could tell which condition in `BankAccount.Debit` caused the exception to be thrown (`amount > m_balance` or `amount < 0`) so we can be confident that our method is sanity-checking its arguments correctly.
 
-Look at the method under test again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
+Look at the method being tested (`BankAccount.Debit`) again, and notice that both conditional statements use an `ArgumentOutOfRangeException` constructor that just takes name of the argument as a parameter:
 
 ```csharp
 throw new ArgumentOutOfRangeException("amount");
