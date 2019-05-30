@@ -167,7 +167,7 @@ The sections in the following table include commands that are global in that you
 |Edit.GoToDeclaration|**Ctrl+F12**|
 |Edit.GoToDefinition|**F12**|
 |Edit.GoToFindCombo|**Ctrl+D**|
-|Edit.GoToMember|**Ctrl+1, Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+1, M**<br /><br /> or<br /><br /> **Ctrl+\\**|
+|Edit.GoToMember|**Ctrl+1, Ctrl+M** or **Ctrl+1, M** or **Alt+\\**|
 |Edit.GoToNextLocation|**F8**|
 |Edit.GoToPrevLocation|**Shift+F8**|
 |Edit.InsertSnippet|**Ctrl+K, Ctrl+X**|
