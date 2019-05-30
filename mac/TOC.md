@@ -82,7 +82,7 @@
 ## Unity Game Development
 ### [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
-### [Getting Started with Unity](united-walkthrough.md)
+### [Getting Started with Unity](unity-walkthrough.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
 ### [Using .NET 4.x in Unity](/visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
 ### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
