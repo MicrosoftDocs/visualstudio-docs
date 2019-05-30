@@ -20,7 +20,7 @@ Depending on your scenario, use one of the following methods to enable the log:
 
 - If there's no *App.config* file present in your test project:
 
-   1. Determine which *QTAgent*.exe* process is launched when you run your test. One way to do this is to watch the **Details** tab in Windows **Task Manager**.
+   1. Determine which *QTAgent\*.exe* process is launched when you run your test. One way to do this is to watch the **Details** tab in Windows **Task Manager**.
    
    2. Open the corresponding *.config* file from the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE* folder. For example, if the process that runs is *QTAgent_40.exe*, open *QTAgent_40.exe.config*.
 
