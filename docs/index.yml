@@ -158,7 +158,7 @@ additionalContent:
         url: /visualstudio/liveshare/
       - title: Develop with containers
         summary: Use containers to isolate modular components and improve scalability.
-        url: containers/  
+        url: containers/index.yml
    - title: Workloads
      items:
         - title: Web and Cloud
