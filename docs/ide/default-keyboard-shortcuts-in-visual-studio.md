@@ -772,7 +772,6 @@ The sections in the following table include commands that are global in that you
 | Edit.CharRight | **Right Arrow** |
 | Edit.CharRightExtend | **Shift+Right Arrow** |
 | Edit.CharRightExtendColumn | **Shift+Alt+Right Arrow** |
-| Edit.CharTranspose | **Ctrl+T** |
 | Edit.ClearBookmarks | **Ctrl+K, Ctrl+L** |
 | Edit.CollapseAllOutlining | **Ctrl+M, Ctrl+A** |
 | Edit.CollapseCurrentRegion | **Ctrl+M, Ctrl+S** |
