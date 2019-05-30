@@ -164,7 +164,7 @@ The sections in the following table include commands that are global in that you
 |Edit.FindPreviousSelected|**Ctrl+Shift+F3**|
 |Edit.GenerateMethod|**Ctrl+K, Ctrl+M**|
 |Edit.GoTo|**Ctrl+G**|
-|Edit.GoToAll|**Ctrl+,**|
+|Edit.GoToAll|**Ctrl+,** or **Ctrl+T**|
 |Edit.GoToDeclaration|**Ctrl+F12**|
 |Edit.GoToDefinition|**F12**|
 |Edit.GoToFindCombo|**Ctrl+D**|
