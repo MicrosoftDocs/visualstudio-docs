@@ -42,6 +42,8 @@ int GetDocumentContext( 
 
 ## Remarks
  Generally, the document context can be thought of as a position in a source file while the code context is a position of a code instruction in an execution stream.
+ 
+ If no document context is available, returning `S_FALSE` is the desired behavior.
 
 ## See also
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
