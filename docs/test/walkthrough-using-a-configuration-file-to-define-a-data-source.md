@@ -1,5 +1,5 @@
 ---
-title: "Use configuration file to define data source"
+title: "Use config file to define data source"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
