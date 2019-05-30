@@ -179,7 +179,7 @@ additionalContent:
           summary: |
             [Mobile development with .NET (Xamarin)](/xamarin/) </br>
             [Game development with Unity](cross-platform/visual-studio-tools-for-unity.md) </br>
-            [Mobile development with JavaScript (Visual Studio 2017 and 2015 only)](/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) </br>
+            [Mobile development with JavaScript](/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) (Visual Studio 2017 and 2015 only) </br>
             [Mobile development with C++](/visualstudio/cross-platform/) </br>
             [Game development with C++](/windows/uwp/gaming/e2e) 
         - title: Other toolsets
