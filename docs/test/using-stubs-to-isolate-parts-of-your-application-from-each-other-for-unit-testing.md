@@ -1,5 +1,5 @@
 ---
-title: "Using stubs to isolate parts of your application for unit testing"
+title: "Use stubs to isolate parts of your app for unit testing"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.author: gewarren
