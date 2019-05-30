@@ -17,7 +17,7 @@ highlightedContent:
    - title: Welcome to the Visual Studio IDE
      itemType: overview
      url: /visualstudio/ide/visual-studio-ide
-   - title: What's New in Visual Studio 2019
+   - title: What's new in Visual Studio 2019
      itemType: get-started
      url: /visualstudio/ide/whats-new-visual-studio-2019
    - title: Improve your development skills
@@ -70,9 +70,6 @@ conceptualContent:
         - text: JavaScript
           url: /visualstudio/get-started/javascript
           itemType: get-started
-      footerLink:
-        text: See more
-        url: https://docs.microsoft.com/visualstudio/ide
     - title: Create an app 
       links:
         - text: Windows desktop app
