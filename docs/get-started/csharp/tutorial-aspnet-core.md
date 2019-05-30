@@ -39,7 +39,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ### Update Visual Studio
 
-If you've already installed Visual Studio, make sure that you are running the most recent release. For more information about how to update your installation, see the [Update Visual Studio to the most recent release](../../install/update-visual-studio.md) page.
+If you've already installed Visual Studio, make sure that you're running the most recent release. For more information about how to update your installation, see the [Update Visual Studio to the most recent release](../../install/update-visual-studio.md) page.
 
 ### Choose your theme (optional)
 
@@ -109,7 +109,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
    ![Choose the C# template for the ASP.NET Core Web Application](./media/vs-2019/csharp-create-new-project-search-aspnet-core-filtered.png)
 
    > [!NOTE]
-   > If you do not see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   > If you don't see the **ASP.NET Core Web Application** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
    > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
    >
@@ -133,7 +133,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ### About your solution
 
-This solution follows the **Razor Page** design pattern. It is different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that its streamlined to include the model and controller code within the Razor Page itself.
+This solution follows the **Razor Page** design pattern. It's different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that it's streamlined to include the model and controller code within the Razor Page itself.
 
 ## Tour your solution
 
@@ -178,7 +178,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
      >
      > You might also get a message that asks if you want to accept an IIS SSL Express certificate. To view the code in a web browser, choose **Yes**, and then choose **Yes** if you receive a follow-up security warning message.
 
-1. Visual Studio launches a browser window. You should then see **Home**, **About**, and **Contact** pages in the menu bar. (If you do not, choose the "hamburger" menu item to view them.)
+1. Visual Studio launches a browser window. You should then see **Home**, **About**, and **Contact** pages in the menu bar. (If you don't, choose the "hamburger" menu item to view them.)
 
     ![Select the "hamburger" menu item from the menu bar in your web app](media/csharp-aspnet-razor-browser-page.png)
 
@@ -214,7 +214,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
      }
     ```
 
-1. Notice that two wavy underlines appear under **Environment** and **String**. The wavy underlines appear because these types are not in scope.
+1. Notice that two wavy underlines appear under **Environment** and **String**. The wavy underlines appear because these types aren't in scope.
 
    ![Errors marked with wavy underlines in OnGet method](media/csharp-aspnet-razor-add-new-on-get-method.png)
 
