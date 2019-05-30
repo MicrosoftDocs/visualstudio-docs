@@ -226,7 +226,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
    ![Add the "using System;" directive](media/csharp-aspnet-razor-add-usings.png)
 
-1. Press **Ctrl**+**S** to save your changes and refresh your app in the web browser.
+1. Press **Ctrl**+**S** to save your changes, and then press **F5** to open your project in the web browser.
 
 1. At the top of the web site, choose **About** to view your changes.
 
