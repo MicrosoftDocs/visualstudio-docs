@@ -62,7 +62,7 @@ conceptualContent:
           url: /visualstudio/get-started/visual-basic/
           itemType: get-started
         - text: C++
-          url: /visualstudio/get-started/cpp/tutorial-console-cpp
+          url: /cpp/get-started/tutorial-console-cpp
           itemType: get-started
         - text: Python 
           url: /visualstudio/python
