@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer"
+title: "Analyze load test results in Graphs view of Load Test Analyzer"
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

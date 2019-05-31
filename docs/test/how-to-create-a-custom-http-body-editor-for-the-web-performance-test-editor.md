@@ -1,5 +1,5 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor"
+title: "Create custom HTTP body editor for Web Performance Test Editor"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

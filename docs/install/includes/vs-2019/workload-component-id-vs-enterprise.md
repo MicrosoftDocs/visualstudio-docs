@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 05/21/2019
+ms.date: 05/30/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -361,7 +361,7 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 targeting pac
 Microsoft.VisualStudio.Component.VC.140 | MSVC v140 - VS 2015 C++ build tools (v14.00) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.ATLMFC | C++ MFC for v142 build tools (x86 & x64) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.CLI.Support | C++/CLI support for v142 build tools (14.21) | 16.1.28829.92 | Optional
-Microsoft.VisualStudio.Component.VC.Llvm.Clang | Windows için clang derleyicisi | 16.1.28916.169 | Optional
+Microsoft.VisualStudio.Component.VC.Llvm.Clang | Clang Compiler for Windows | 16.1.28916.169 | Optional
 Microsoft.VisualStudio.Component.VC.Modules.x86.x64 | C++ Modules for v142 build tools (x64/x86 – experimental) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) | 16.1.28829.92 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299 | Windows 10 SDK (10.0.16299.0) | 16.0.28517.75 | Optional
