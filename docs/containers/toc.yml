@@ -7,8 +7,9 @@
   - name: Quickstart
     expanded: true
     items:
-    - name: Container Tools in Visual Studio
+    - name: ASP.NET Core app in a Container
       href: container-tools.md
+    - name: React.js Single-page App in a Container
   - name: Tutorials  
     expanded: true
     items:
