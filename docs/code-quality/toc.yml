@@ -706,7 +706,7 @@
   items:   
   - name: Overview
     href: code-analysis-for-c-cpp-overview.md
-  - name: "Quickstart: Code analysis for C/C++"
+  - name: Quickstart
     href: quick-start-code-analysis-for-c-cpp.md
   - name: Analyze C/C++ code for defects
     href: walkthrough-analyzing-c-cpp-code-for-defects.md
