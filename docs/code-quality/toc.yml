@@ -322,7 +322,7 @@
           href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210-assemblies-should-have-valid-strong-names.md
-      - name: Globalization Warnings
+      - name: Globalization warnings
         href: globalization-warnings.md
         items:
         - name: "CA1300: Specify MessageBoxOptions"
