@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
+title: "Create workflow with association and initiation forms"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

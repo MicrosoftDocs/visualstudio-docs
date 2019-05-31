@@ -1,5 +1,5 @@
 ---
-title: "Get started programming document-level customizations for Excel"
+title: "Excel: Get started programming document-level customizations"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

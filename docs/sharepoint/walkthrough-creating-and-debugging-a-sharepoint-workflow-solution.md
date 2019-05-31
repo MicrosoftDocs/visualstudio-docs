@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
+title: "Create & debug SharePoint workflow solution"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
