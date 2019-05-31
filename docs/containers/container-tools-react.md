@@ -35,16 +35,16 @@ For Docker installation, first review the information at [Docker Desktop for Win
 1. Select **React.js**. You cannot select **Enable Docker Support**, but don't worry, you can add that support later.
 
 ::: moniker range="vs-2017"
-   ![Screenshot of new React.js project](media/container-tools-react/vs-2017/new-react-project.png)
+   ![Screenshot of new React.js project](media/container-tools-react/vs2017/new-react-project.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-    ![Screenshot of new React.js project](media/container-tools-react/vs-2019/new-react-project.png)
+    ![Screenshot of new React.js project](media/container-tools-react/vs2019/new-react-project.png)
 ::: moniker-end
 
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
-   ![Add Docker support](media/container-tools-react/vs-2017/add-docker-support.png)
+   ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
 
 ## Dockerfile overview
 
@@ -97,10 +97,11 @@ The **Container Tools** option in the **Output** window shows what actions are t
 The app shows in the browser.
 
 ::: moniker range="vs-2017"
-   ![Screenshot of running app](media/vs2017/running-app.png)
+   ![Screenshot of running app](media/container-tools-react/vs2017/running-app.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-    ![Screenshot of running app](media/vs2019/running-app.png)
+    ![Screenshot of running app](media/container-tools-react/vs2019/running-app.png)
+::: moniker-end
 
 Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
 
