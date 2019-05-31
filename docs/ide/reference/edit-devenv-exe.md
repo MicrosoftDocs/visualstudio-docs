@@ -39,6 +39,8 @@ When a file isn't specified, an existing Visual Studio instance receives focus. 
 
 If the existing Visual Studio instance is in a modal state, the file opens in the existing instance when Visual Studio exits the modal state. For example, this situation may occur when the [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md) is open.
 
+If more than one instance of Visual Studio is open, the file is opened in the most recently opened instance.
+
 ## Example
 
 The first example opens the file `MyFile.cs` in an existing instance of Visual Studio. If a Visual Studio instance doesn't exist, the tool opens the file in a new instance. The second example is similar except that it opens three files instead of just one file.
