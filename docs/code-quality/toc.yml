@@ -188,7 +188,7 @@
       items:
       - name: Code Analysis Warnings for Managed Code by CheckId
         href: code-analysis-warnings-for-managed-code-by-checkid.md
-      - name: Cryptography Warnings
+      - name: Cryptography warnings
         href: cryptography-warnings.md
         items:
         - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
