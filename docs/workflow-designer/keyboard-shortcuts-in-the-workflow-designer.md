@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer - Keyboard Shortcuts in the Workflow Designer"
+title: "Workflow Designer: Keyboard shortcuts"
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
