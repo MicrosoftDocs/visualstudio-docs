@@ -17,7 +17,7 @@
       href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
     - name: FAQ 
       href: analyzers-faq.md
-  - name: Binary analyzers (Post build analysis through FxCop)
+  - name: Binary analyzers (static code analysis)
     items:
     - name: Binary analyzers overview
       href: walkthrough-analyzing-managed-code-for-code-defects.md
