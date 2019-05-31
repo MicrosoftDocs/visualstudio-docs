@@ -31,20 +31,28 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
-1. Create a new project using the **ASP.NET Core Web Application** template.
-1. Select **React.js**. You cannot select **Enable Docker Support**, but don't worry, you can add that support later.
-
 ::: moniker range="vs-2017"
+1. Create a new project using the **ASP.NET Core Web Application** template.
+1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
+
    ![Screenshot of new React.js project](media/container-tools-react/vs2017/new-react-project.png)
+
+1. Select the type of container you want (Windows or Linux) and click **OK**.
+1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
+
+   ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-    ![Screenshot of new React.js project](media/container-tools-react/vs2019/new-react-project.png)
-::: moniker-end
+1. Create a new project using the **ASP.NET Core Web Application** template.
+1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
+
+   ![Screenshot of new React.js project](media/container-tools-react/vs2019/new-react-project.png)
 
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
    ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
+::: moniker-end
 
 ## Dockerfile overview
 
@@ -100,7 +108,7 @@ The app shows in the browser.
    ![Screenshot of running app](media/container-tools-react/vs2017/running-app.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-    ![Screenshot of running app](media/container-tools-react/vs2019/running-app.png)
+   ![Screenshot of running app](media/container-tools-react/vs2019/running-app.png)
 ::: moniker-end
 
 Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
