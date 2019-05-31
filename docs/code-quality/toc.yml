@@ -7,7 +7,7 @@
     href: code-analysis-for-managed-code-overview.md
   - name: Roslyn analyzers (Source analysis)
     items:
-    - name: Roslyn analyzers overview
+    - name: Overview
       href: roslyn-analyzers-overview.md
     - name: Installation
       href: install-roslyn-analyzers.md
