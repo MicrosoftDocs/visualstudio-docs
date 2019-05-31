@@ -27,4 +27,3 @@ ms.topic: include
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
 
-[0]:media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png

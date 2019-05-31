@@ -29,11 +29,11 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 
 For Docker installation, first review the information at [Docker Desktop for Windows: What to know before you install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). Next, install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 
-## Add a project to a Docker container
+## Create a project and add Docker support
 
 ::: moniker range="vs-2017"
 1. Create a new project using the **ASP.NET Core Web Application** template.
-1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
+1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support after you create the project.
 
    ![Screenshot of new React.js project](media/container-tools-react/vs2017/new-react-project.png)
 
@@ -70,26 +70,26 @@ The *Dockerfile* should now look like this:
 ```
 FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
 WORKDIR /app
-EXPOSE 80
+EXPOSE 80 
 EXPOSE 443
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 
 FROM microsoft/dotnet:2.2-sdk-stretch AS build
 WORKDIR /src
-COPY ["HelloDockerTools/HelloDockerTools.csproj", "HelloDockerTools/"]
-RUN dotnet restore "HelloDockerTools/HelloDockerTools.csproj"
+COPY ["WebApplication37/WebApplication37.csproj", "WebApplication37/"]
+RUN dotnet restore "WebApplication37/WebApplication37.csproj"
 COPY . .
-WORKDIR "/src/HelloDockerTools"
-RUN dotnet build "HelloDockerTools.csproj" -c Release -o /app
+WORKDIR "/src/WebApplication37"
+RUN dotnet build "WebApplication37.csproj" -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish "HelloDockerTools.csproj" -c Release -o /app
+RUN dotnet publish "WebApplication37.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
+ENTRYPOINT ["dotnet", "WebApplication37.dll"]
 ```
 
 The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
@@ -102,7 +102,7 @@ Select **Docker** from the debug drop-down in the toolbar, and start debugging t
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. You should see the installation steps associated with *npm.exe*.
 
-The app shows in the browser.
+The browser shows the app's home page.
 
 ::: moniker range="vs-2017"
    ![Screenshot of running app](media/container-tools-react/vs2017/running-app.png)
@@ -111,13 +111,15 @@ The app shows in the browser.
    ![Screenshot of running app](media/container-tools-react/vs2019/running-app.png)
 ::: moniker-end
 
+Try navigating to the *Counter* page and test the client-side code for the counter by clicking the **Increment** button.
+
 Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
 
 The resulting Docker image of the app is tagged as *dev*. The image is based on the *2.2-aspnetcore-runtime* tag of the *microsoft/dotnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
 
 ```console
 REPOSITORY        TAG                     IMAGE ID      CREATED         SIZE
-hellodockertools  dev                     d72ce0f1dfe7  30 seconds ago  255MB
+webapplication37  dev                     d72ce0f1dfe7  30 seconds ago  255MB
 microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
 ```
 
@@ -128,7 +130,7 @@ Run the `docker ps` command in PMC. Notice the app is running using the containe
 
 ```console
 CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-cf5d2ef5f19a        hellodockertools:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
+cf5d2ef5f19a        webapplication37:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
 ```
 
 ## Publish Docker images
@@ -159,13 +161,15 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
-[0]:media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog-2019.png
-
-
 ## Additional resources
 
 * [Container development with Visual Studio](/visualstudio/containers)
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
 
+::: moniker range="vs-2017"
 [0]:media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
+::: moniker-end
+::: moniker range=">=vs-2019"
+[0]:media/hosting-web-apps-in-docker/vs-acr-provisioning-dialog-2019.png
+::: moniker-end
