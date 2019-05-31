@@ -41,7 +41,7 @@ The following are known limitations of XAML hot reload. To work around any limit
 |Creating resource objects in a resource dictionary such as those in your app's Page/Window or *App.xaml*|Not Supported|Supported|Example: adding a ```SolidColorBrush``` into a resource dictionary for use as a ```StaticResource```.</br>Note: Static resources, style converters, and other elements written into a resource dictionary can be applied/used while using XAML hot reload. Only the creation of the resource is not supported.</br> Changing the resource dictionary ```Source``` property.| 
 |Adding new controls, classes, windows, or other files to your project while the app is running|Not Supported|Not Supported|None|
 |Managing NuGet packages (adding/removing/updating packages)|Not Supported|Not Supported|None|
-|Changing data binding that uses the {x:Bind} markup extension|N/A|Supported in Visual Studio 2019 and later versions|Not supported in Visual Studio 2018 or previous versions|
+|Changing data binding that uses the {x:Bind} markup extension|N/A|Supported in Visual Studio 2019 and later versions|Not supported in Visual Studio 2017 or previous versions|
 
 ## Error messages
 
