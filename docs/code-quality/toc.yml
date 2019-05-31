@@ -20,6 +20,7 @@
   - name: Binary analyzers (static code analysis)
     items:
     - name: Binary analyzers overview
+    - displayName: "static code analysis"
       href: walkthrough-analyzing-managed-code-for-code-defects.md
     - name: Migration
       href: fxcop-analyzers.yml
@@ -31,7 +32,7 @@
         href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
       - name: Customize the code analysis dictionary
         href: how-to-customize-the-code-analysis-dictionary.md
-      - name: Code Analysis Policy Errors
+      - name: Code analysis policy errors
         href: code-analysis-policy-errors.md
   - name: FxCop analyzers 
     items:
@@ -52,21 +53,22 @@
       items:
       - name: Suppress code analysis warnings for generated code
         href: how-to-suppress-code-analysis-warnings-for-generated-code.md
-  - name: Migrating form binary post build analyzers (Static FxCop) to FxCop analyzers
+  - name: Migrate from binary analysis (Static FxCop) to FxCop analyzers
     items:
     - name: Overview
       href: fxcop-analyzers.yml
-    - name: Ported Rules
+    - name: Ported rules
       href: fxcop-rule-port-status.md
   - name: Rule sets
     items:
-    - name: Rule sets Overview
+    - name: Overview
+    - displayName: "rule sets"
       href: using-rule-sets-to-group-code-analysis-rules.md
     - name: Rule sets for analyzer packages
       href: analyzer-rule-sets.md
     - name: Rule sets for managed code
       items:
-      - name: Rule sets for managed code
+      - name: Overview
         href: how-to-configure-code-analysis-for-a-managed-code-project.md
       - name: Configure code analysis for an ASP.NET web app
         href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
@@ -76,7 +78,8 @@
         href: working-in-the-code-analysis-rule-set-editor.md
       - name: Code Analysis Application Errors
         items:
-        - name: Code Analysis Application Errors
+        - name: Reference
+        - displayName: "application errors"
           href: code-analysis-application-errors.md
           items:
           - name: "CA0001"
@@ -136,17 +139,17 @@
       - name: Check-in policies
         href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
         items:
-        - name: Implement Custom Code Analysis Check-in Policies for Managed Code
+        - name: Implement code analysis check-in policies
           href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
-        - name: Enforce Maintainable Code
+        - name: Enforce maintainable code
           href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
-        - name: Synchronize Project Rule Sets with Team Check-in Policy
+        - name: Synchronize project rule sets with check-in policy
           href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
-        - name: Version Compatibility
+        - name: Version compatibility
           href: version-compatibility-for-code-analysis-check-in-policies.md
   - name: Code metrics
     items:
-    - name: Code metrics Overview
+    - name: Overview
       href: rule-set-reference.md
     - name: Generate Code Metrics Data
       href: how-to-generate-code-metrics-data.md
@@ -186,7 +189,7 @@
     - name: Code analysis for managed code warnings
       href: code-analysis-for-managed-code-warnings.md
       items:
-      - name: Code Analysis Warnings for Managed Code by CheckId
+      - name: Warnings by CheckId
         href: code-analysis-warnings-for-managed-code-by-checkid.md
       - name: Cryptography warnings
         href: cryptography-warnings.md
@@ -347,7 +350,7 @@
           href: ca1309-use-ordinal-stringcomparison.md
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
           href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
-      - name: Interoperability Warnings
+      - name: Interoperability warnings
         href: interoperability-warnings.md
         items:
         - name: "CA1400: P-Invoke entry points should exist"
@@ -382,7 +385,7 @@
           href: ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md
         - name: "CA1415: Declare P-Invokes correctly"
           href: ca1415-declare-p-invokes-correctly.md
-      - name: Maintainability Warnings
+      - name: Maintainability warnings
         href: maintainability-warnings.md
         items:
         - name: "CA1500: Variable names should not match field names"
@@ -397,14 +400,14 @@
           href: ca1505-avoid-unmaintainable-code.md
         - name: "CA1506: Avoid excessive class coupling"
           href: ca1506-avoid-excessive-class-coupling.md
-      - name: Mobility Warnings
+      - name: Mobility warnings
         href: mobility-warnings.md
         items:
         - name: "CA1600: Do not use idle process priority"
           href: ca1600-do-not-use-idle-process-priority.md
         - name: "CA1601: Do not use timers that prevent power state changes"
           href: ca1601-do-not-use-timers-that-prevent-power-state-changes.md
-      - name: Naming Warnings
+      - name: Naming warnings
         href: naming-warnings.md
         items:
         - name: "CA1700: Do not name enum values 'Reserved'"
@@ -453,7 +456,7 @@
           href: ca1724-type-names-should-not-match-namespaces.md
         - name: "CA1726: Use preferred terms"
           href: ca1726-use-preferred-terms.md
-      - name: Performance Warnings
+      - name: Performance warnings
         href: performance-warnings.md
         items:
         - name: "CA1800: Do not cast unnecessarily"
@@ -488,7 +491,7 @@
           href: ca1823-avoid-unused-private-fields.md
         - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
           href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
-      - name: Portability Warnings
+      - name: Portability warnings
         href: portability-warnings.md
         items:
         - name: "CA1900: Value type fields should be portable"
@@ -497,7 +500,7 @@
           href: ca1901-p-invoke-declarations-should-be-portable.md
         - name: "CA1903: Use only API from targeted framework"
           href: ca1903-use-only-api-from-targeted-framework.md
-      - name: Reliability Warnings
+      - name: Reliability warnings
         href: reliability-warnings.md
         items:
         - name: "CA2000: Dispose objects before losing scope"
@@ -512,7 +515,7 @@
           href: ca2004-remove-calls-to-gc-keepalive.md
         - name: "CA2006: Use SafeHandle to encapsulate native resources"
           href: ca2006-use-safehandle-to-encapsulate-native-resources.md
-      - name: Security Warnings
+      - name: Security warnings
         href: security-warnings.md
         items:
         - name: "CA2100: Review SQL queries for security vulnerabilities"
@@ -613,7 +616,7 @@
           href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
           href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
-      - name: Usage Warnings
+      - name: Usage warnings
         href: usage-warnings.md
         items:
         - name: "CA1801: Review unused parameters"
