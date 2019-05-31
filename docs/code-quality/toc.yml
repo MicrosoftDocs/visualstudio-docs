@@ -3,7 +3,7 @@
 - name: Code analysis for managed code
   expanded: true
   items:   
-  - name: Code analysis overview
+  - name: Overview
     href: code-analysis-for-managed-code-overview.md
   - name: Roslyn analyzers (Source analysis)
     items:
