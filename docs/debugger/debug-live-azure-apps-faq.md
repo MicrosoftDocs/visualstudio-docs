@@ -64,38 +64,37 @@ For AKS:
 
 For virtual machine/virtual machine scale sets remove the Remote Debugger extension, Certificates, KeyVaults and InBound NAT pools as follows:
 
-1. Remove Remote Debugger extension
+1. Remove Remote Debugger extension  
 
-There are several ways to disable the Remote Debugger for virtual machines and virtual machine scale sets:
+   There are several ways to disable the Remote Debugger for virtual machines and virtual machine scale sets:  
 
-- Cloud Explorer > your virtual machine resource > Disable Debugging (Disabling Debugging does not exist for virtual machine scale set on Cloud Explorer).
+      - Disable the Remote Debugger through Cloud Explorer  
 
-
-- PowerShell Scripts/Cmdlets 
-
-	For virtual machine:
-
-	```
-	Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
-	```
+         - Cloud Explorer > your virtual machine resource > Disable Debugging (Disabling Debugging does not exist for virtual machine scale set on Cloud Explorer).  
 
 
-	For virtual machine scale sets:
+      - Disable the Remote Debugger with PowerShell Scripts/Cmdlets  
+         For virtual machine:  
 
-	```
-	$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
-	$extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
-	Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension
-	```
+         ```
+         Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger  
+         ```
 
-- Azure portal > your virtual machine/virtual machine scale sets resource blade > Extensions
-	- Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension
+         For virtual machine scale sets:  
+         ```
+         $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName  
+         $extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name  
+         Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension  
+         ```
+
+      - Disable the Remote Debugger through the Azure portal
+         - Azure portal > your virtual machine/virtual machine scale sets resource blade > Extensions  
+         - Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension  
 
 
-		> [!NOTE]
-		> Virtual machine scale sets - The portal does not allow removing the DebuggerListener ports. You will need to use Azure PowerShell. See below for details.
+         > [!NOTE]
+         > Virtual machine scale sets - The portal does not allow removing the DebuggerListener ports. You will need to use Azure PowerShell. See below for details.
   
-
 2. Remove Certificates and Azure KeyVault
 
 When installing the Remote Debugger extension for virtual machine or virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual Machine/virtual machine scale sets resources. 
