@@ -15,7 +15,7 @@
       href: use-roslyn-analyzers.md
     - name: Enable full solution analysis
       href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
-    - name: Roslyn analyzers FAQ 
+    - name: FAQ 
       href: analyzers-faq.md
   - name: Binary analyzers (Post build analysis through FxCop)
     items:
