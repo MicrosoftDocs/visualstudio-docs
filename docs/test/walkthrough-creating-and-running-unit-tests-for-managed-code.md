@@ -207,7 +207,7 @@ namespace BankTests
 
 ### Add a using statement
 
-Add a [`using` statement](/dotnet/csharp/language-reference/keywords/using-statement) to the test class to be able to call into the project under test (here, the `BankAccount` class) without using fully qualified names. We will also add `System` namespace for calling the `ArgumentOutOfRangeException` when we [create and run new test methods](#create-and-run-new-test-methods) below. At the top of the class file, add:
+Add a [`using` statement](/dotnet/csharp/language-reference/keywords/using-statement) to the test class to be able to call into the project under test (here, the `BankAccount` class) without using fully qualified names. We also add a `System` namespace for calling the `ArgumentOutOfRangeException` when we [create and run new test methods](#create-and-run-new-test-methods) below. At the top of the class file, add:
 
 ```csharp
 using BankAccountNS;
