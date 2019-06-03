@@ -20,7 +20,19 @@ You can use Visual Studio to create and update a local database file in SQL Serv
 
 ## Prerequisites
 
-To complete this walkthrough, you must have the optional **Data storage and processing** workload installed in Visual Studio. To install it, open **Visual Studio Installer** and choose **More** > **Modify** next to the version of Visual Studio you want to modify (if you have more than one version installed). On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
+To complete this walkthrough, you must have the optional **Data storage and processing** workload installed in Visual Studio. To install it, open **Visual Studio Installer** and choose **Modify** or **More** > **Modify** next to the version of Visual Studio you want to modify.
+
+::: moniker range=">=vs-2019"
+
+On the **Workloads** tab, under **Other Toolsets**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
+
+::: moniker-end
+
+::: moniker range="=vs-2017"
+
+On the **Workloads** tab, under **Web & Cloud**, choose **Data storage and processing**, and then click **Modify** to add the workload to Visual Studio.
+
+::: moniker-end
 
 ## Create a project and a local database file
 
