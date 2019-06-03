@@ -24,8 +24,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 4. Choose the new **PictureBox** control to select it, and then choose the black triangle on the new PictureBox control to display its task list, as shown in the following picture.
 
-     ![PictureBox tasks](../ide/media/express_pictureboxtasks.png)
-**PictureBox** tasks
+     ![PictureBox tasks](../ide/media/express_pictureboxtasks.png)<br/>***PictureBox*** *tasks*
 
     > [!NOTE]
     > If you accidentally add the wrong type of control to your TableLayoutPanel, you can delete it. Right-click the control, and then choose **Delete** on its context menu. You can also remove controls from the form by using the menu bar. On the menu bar, choose **Edit** > **Undo**, or **Edit** > **Delete**.
@@ -39,8 +38,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 7. Choose the **TableLayoutPanel** on the form and then add a CheckBox control to the form. Double-click the **CheckBox** item in the **Toolbox** to add a new CheckBox control to the next free cell in your table. Because a PictureBox takes up the first two cells in the TableLayoutPanel, the CheckBox control is added to the lower-left cell. Choose the **Text** property and type in the word **Stretch**, as shown in the following picture.
 
-     ![TextBox control with Stretch property](../ide/media/express_pictureviewercheckbox.png)
-**TextBox** control with **Stretch** property
+     ![TextBox control with Stretch property](../ide/media/express_pictureviewercheckbox.png)<br/>***TextBox*** *control with* ***Stretch*** *property*
 
 8. Choose the **TableLayoutPanel** on the form, and then go to the **Containers** group in the **Toolbox** (where you got your TableLayoutPanel control) and double-click the **FlowLayoutPanel** item to add a new control to the last cell in the PictureBox (bottom right). Then dock the FlowLayoutPanel in the TableLayoutPanel (either by choosing **Dock in parent container** on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's **Dock** property to **Fill**).
 
@@ -65,8 +63,7 @@ In this step, you add controls, such as a <xref:System.Windows.Forms.PictureBox>
 
 5. Choose the **Close** button to select it. Hold down the **Ctrl** key and choose the other three buttons, so that they are all selected. While all the buttons are selected, go to the **Properties** window and scroll up to the **AutoSize** property. This property tells the button to automatically resize itself to fit all of its text. Set it to **true**. Your buttons should now be sized properly and be in the right order. (As long as all four buttons are selected, you can change all four **AutoSize** properties at the same time.) The following picture shows the four buttons.
 
-     ![Picture Viewer with four buttons](../ide/media/express_autosize.png)
-**Picture Viewer** with four buttons
+     ![Picture Viewer with four buttons](../ide/media/express_autosize.png)<br/>***Picture Viewer*** *with four buttons*
 
 6. Now run your program again to see your newly laid out form. Choosing the buttons and the check box doesn't do anything yet, but it will work soon.
 
