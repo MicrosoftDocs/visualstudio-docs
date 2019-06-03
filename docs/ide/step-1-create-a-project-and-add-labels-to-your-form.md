@@ -24,7 +24,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. In the **Installed Templates** list, choose either **C#** or **Visual Basic**, and then choose **Windows Desktop**.
+1. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box, and then choose **Windows Desktop**.
 
 1. In the list of templates, choose the **Windows Forms App (.NET Framework)** template, name it *MathQuiz*, and then choose the **OK** button.
 
@@ -62,7 +62,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 ::: moniker-end
 
-## To create set properties for a form
+## To set properties for a form
 
 1. In Visual Studio, choose the form (either *Form1.cs* or *Form1.vb*, depending on the programming language), and then change its **Text** property to **Math Quiz**.
 

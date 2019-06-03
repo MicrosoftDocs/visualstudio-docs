@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
-ms.date: 05/31/2019
+ms.date: 06/01/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
