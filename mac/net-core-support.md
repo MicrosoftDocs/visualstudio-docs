@@ -13,9 +13,9 @@ The following table describes the versions of .NET Core supported by the stable 
 
 .NET Core SDK Version  |Visual Studio for Mac 8.0 (Stable)  |Visual Studio for Mac 8.1 (Preview)  |
 |---------|---------|---------|
-|v2.1.000 - v2.1.500    |✔|✗|
+|v2.1.0 - v2.1.5xx    |✔|✗|
 |v2.1.600 +     |✗|✔︎|
-|v2.2.0 - v2.2.100|✔︎|✗|
+|v2.2.1 - v2.2.1xx|✔︎|✗|
 |v2.2.200 + |✗| ✔︎ |
 |v3.0 < Preview 4 |✗|✗|
 |v3.0 Preview 4 + |✗|✔︎ |
