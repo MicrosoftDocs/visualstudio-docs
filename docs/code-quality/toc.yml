@@ -34,6 +34,11 @@
         href: how-to-customize-the-code-analysis-dictionary.md
       - name: Code analysis policy errors
         href: code-analysis-policy-errors.md
+      - name: Suppress warnings
+        href: in-source-suppression-overview.md
+        items:
+        - name: Suppress code analysis warnings for generated code
+          href: how-to-suppress-code-analysis-warnings-for-generated-code.md
   - name: FxCop analyzers 
     items:
     - name: Overview
@@ -48,11 +53,6 @@
     items:
     - name: Rule sets 
       href: analyzer-rule-sets.md
-    - name: Suppress warnings
-      href: in-source-suppression-overview.md
-      items:
-      - name: Suppress code analysis warnings for generated code
-        href: how-to-suppress-code-analysis-warnings-for-generated-code.md
   - name: Migrate from binary analysis (Static FxCop) to FxCop analyzers
     items:
     - name: Overview
@@ -78,67 +78,64 @@
         href: working-in-the-code-analysis-rule-set-editor.md
       - name: Code Analysis Application Errors
         items:
-        - name: Reference
-        - displayName: "application errors"
-          href: code-analysis-application-errors.md
-          items:
-          - name: "CA0001"
-            href: ca0001.md
-          - name: "CA0051"
-            href: ca0051.md
-          - name: "CA0052"
-            href: ca0052.md
-          - name: "CA0053"
-            href: ca0053.md
-          - name: "CA0054"
-            href: ca0054.md
-          - name: "CA0055"
-            href: ca0055.md
-          - name: "CA0056"
-            href: ca0056.md
-          - name: "CA0057"
-            href: ca0057.md
-          - name: "CA0058"
-            href: ca0058.md
-          - name: "CA0059"
-            href: ca0059.md
-          - name: "CA0060"
-            href: ca0060.md
-          - name: "CA0061"
-            href: ca0061.md
-          - name: "CA0062"
-            href: ca0062.md
-          - name: "CA0063"
-            href: ca0063.md
-          - name: "CA0064"
-            href: ca0064.md
-          - name: "CA0065"
-            href: ca0065.md
-          - name: "CA0066"
-            href: ca0066.md
-          - name: "CA0067"
-            href: ca0067.md
-          - name: "CA0068"
-            href: ca0068.md
-          - name: "CA0069"
-            href: ca0069.md
-          - name: "CA0070"
-            href: ca0070.md
-          - name: "CA0501"
-            href: ca0501.md
-          - name: "CA0502"
-            href: ca0502.md
-          - name: "CA0503"
-            href: ca0503.md
-          - name: "CA0504"
-            href: ca0504.md
-          - name: "CA0505"
-            href: ca0505.md
-          - name: FxCopCmd Errors
-            href: fxcopcmd-errors.md
+        - name: "CA0001"
+          href: ca0001.md
+        - name: "CA0051"
+          href: ca0051.md
+        - name: "CA0052"
+          href: ca0052.md
+        - name: "CA0053"
+          href: ca0053.md
+        - name: "CA0054"
+          href: ca0054.md
+        - name: "CA0055"
+          href: ca0055.md
+        - name: "CA0056"
+          href: ca0056.md
+        - name: "CA0057"
+          href: ca0057.md
+        - name: "CA0058"
+          href: ca0058.md
+        - name: "CA0059"
+          href: ca0059.md
+        - name: "CA0060"
+          href: ca0060.md
+        - name: "CA0061"
+          href: ca0061.md
+        - name: "CA0062"
+          href: ca0062.md
+        - name: "CA0063"
+          href: ca0063.md
+        - name: "CA0064"
+          href: ca0064.md
+        - name: "A0065"
+          href: ca0065.md
+        - name: "CA0066"
+          href: ca0066.md
+        - name: "CA0067"
+          href: ca0067.md
+        - name: "CA0068"
+          href: ca0068.md
+        - name: "CA0069"
+          href: ca0069.md
+        - name: "CA0070"
+          href: ca0070.md
+        - name: "CA0501"
+          href: ca0501.md
+        - name: "CA0502"
+          href: ca0502.md
+        - name: "CA0503"
+          href: ca0503.md
+        - name: "CA0504"
+          href: ca0504.md
+        - name: "CA0505"
+          href: ca0505.md
+        - name: FxCopCmd Errors
+          href: fxcopcmd-errors.md
       - name: Check-in policies
-        href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
         items:
+        - name: How to create or update check in policies
+          href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
         - name: Implement code analysis check-in policies
           href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
         - name: Enforce maintainable code
@@ -149,8 +146,6 @@
           href: version-compatibility-for-code-analysis-check-in-policies.md
   - name: Code metrics
     items:
-    - name: Overview
-      href: rule-set-reference.md
     - name: Generate Code Metrics Data
       href: how-to-generate-code-metrics-data.md
     - name: Work with Code Metrics Data
@@ -158,8 +153,9 @@
   - name: Reference
     items:
     - name: Rule sets
-      href: rule-set-reference.md
       items:
+      - name: Overview
+        href: rule-set-reference.md
       - name: All Rules rule set
         href: all-rules-rule-set.md
       - name: Basic Correctness Rules rule set for managed code
@@ -192,15 +188,17 @@
       - name: Warnings by CheckId
         href: code-analysis-warnings-for-managed-code-by-checkid.md
       - name: Cryptography warnings
-        href: cryptography-warnings.md
         items:
+        - name: Overview
+          href: cryptography-warnings.md
         - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
           href: ca5350-do-not-use-weak-cryptographic-algorithms.md
         - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
           href: ca5351-do-not-use-broken-cryptographic-algorithms.md
       - name: Design warnings
-        href: design-warnings.md
         items:
+        - name: Overview:
+          href: design-warnings.md
         - name: "CA1000: Do not declare static members on generic types"
           href: ca1000-do-not-declare-static-members-on-generic-types.md
         - name: "CA1001: Types that own disposable fields should be disposable"
@@ -326,8 +324,9 @@
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210-assemblies-should-have-valid-strong-names.md
       - name: Globalization warnings
-        href: globalization-warnings.md
         items:
+        - name: Overview: 
+          href: globalization-warnings.md
         - name: "CA1300: Specify MessageBoxOptions"
           href: ca1300-specify-messageboxoptions.md
         - name: "CA1301: Avoid duplicate accelerators"
@@ -351,8 +350,9 @@
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
           href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
       - name: Interoperability warnings
-        href: interoperability-warnings.md
         items:
+        - name: Overview:
+          href: interoperability-warnings.md
         - name: "CA1400: P-Invoke entry points should exist"
           href: ca1400-p-invoke-entry-points-should-exist.md
         - name: "CA1401: P-Invokes should not be visible"
@@ -386,8 +386,9 @@
         - name: "CA1415: Declare P-Invokes correctly"
           href: ca1415-declare-p-invokes-correctly.md
       - name: Maintainability warnings
-        href: maintainability-warnings.md
         items:
+        - name: Overview
+          href: maintainability-warnings.md
         - name: "CA1500: Variable names should not match field names"
           href: ca1500-variable-names-should-not-match-field-names.md
         - name: "CA1501: Avoid excessive inheritance"
@@ -401,15 +402,17 @@
         - name: "CA1506: Avoid excessive class coupling"
           href: ca1506-avoid-excessive-class-coupling.md
       - name: Mobility warnings
-        href: mobility-warnings.md
         items:
+        - name: Overview
+          href: mobility-warnings.md
         - name: "CA1600: Do not use idle process priority"
           href: ca1600-do-not-use-idle-process-priority.md
         - name: "CA1601: Do not use timers that prevent power state changes"
           href: ca1601-do-not-use-timers-that-prevent-power-state-changes.md
       - name: Naming warnings
-        href: naming-warnings.md
         items:
+        - name: Overview
+          href: naming-warnings.md
         - name: "CA1700: Do not name enum values 'Reserved'"
           href: ca1700-do-not-name-enum-values-reserved.md
         - name: "CA1701: Resource string compound words should be cased correctly"
@@ -457,8 +460,9 @@
         - name: "CA1726: Use preferred terms"
           href: ca1726-use-preferred-terms.md
       - name: Performance warnings
-        href: performance-warnings.md
         items:
+        - name: Overview
+          href: performance-warnings.md
         - name: "CA1800: Do not cast unnecessarily"
           href: ca1800-do-not-cast-unnecessarily.md
         - name: "CA1802: Use Literals Where Appropriate"
@@ -492,8 +496,9 @@
         - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
           href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
       - name: Portability warnings
-        href: portability-warnings.md
         items:
+        - name: Overview
+          href: portability-warnings.md
         - name: "CA1900: Value type fields should be portable"
           href: ca1900-value-type-fields-should-be-portable.md
         - name: "CA1901: P-Invoke declarations should be portable"
@@ -501,8 +506,9 @@
         - name: "CA1903: Use only API from targeted framework"
           href: ca1903-use-only-api-from-targeted-framework.md
       - name: Reliability warnings
-        href: reliability-warnings.md
         items:
+        - name: Overview
+          href: reliability-warnings.md
         - name: "CA2000: Dispose objects before losing scope"
           href: ca2000-dispose-objects-before-losing-scope.md
         - name: "CA2001: Avoid calling problematic methods"
@@ -516,8 +522,9 @@
         - name: "CA2006: Use SafeHandle to encapsulate native resources"
           href: ca2006-use-safehandle-to-encapsulate-native-resources.md
       - name: Security warnings
-        href: security-warnings.md
         items:
+        - name: Overview
+          href: security-warnings.md
         - name: "CA2100: Review SQL queries for security vulnerabilities"
           href: ca2100-review-sql-queries-for-security-vulnerabilities.md
         - name: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
@@ -617,8 +624,9 @@
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
           href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
       - name: Usage warnings
-        href: usage-warnings.md
         items:
+        - name: Overview
+          href: usage-warnings.md
         - name: "CA1801: Review unused parameters"
           href: ca1801-review-unused-parameters.md
         - name: "CA1806: Do not ignore method results"
@@ -720,8 +728,9 @@
   - name: Rule sets for C++ code
     href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
   - name: C++ Core Guidelines Checker Warnings
-    href: code-analysis-for-cpp-corecheck.md
     items:
+    - name: Overview
+      href: code-analysis-for-cpp-corecheck.md
     - name: C26400
       href: C26400.md
     - name: C26401
@@ -877,8 +886,9 @@
     - name: C26498
       href: C26498.md
   - name: Code Analysis for C/C++ Warnings
-    href: code-analysis-for-c-cpp-warnings.md
     items:
+    - name: Overview
+      href: code-analysis-for-c-cpp-warnings.md
     - name: C1250
       href: c1250.md
     - name: C1251
