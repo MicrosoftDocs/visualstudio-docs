@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
-ms.date: 03/23/2019
+ms.date: 06/01/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -22,14 +22,13 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 ## Open Visual Studio 2017
 
-1. On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.
+1. On the menu bar, choose **File** > **New** > **Project**. The dialog box should look similar to the following screenshot.
 
-     ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>
-***New project** dialog box*
+     ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>***New project*** *dialog box*
 
-2. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box.
+2. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box, and then choose **Windows Desktop**.
 
-3. In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form **PictureViewer**, and then choose the **OK** button.
+3. In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form *PictureViewer*, and then choose the **OK** button.
 
     >[!NOTE]
     >If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
@@ -44,7 +43,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
 
    After you apply the language and platform filters, choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
 
@@ -53,13 +52,13 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
    >
-   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
-   > 
+   >
    > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
    >
-   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. 
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload.
 
 1. In the **Configure your new project** window, type or enter *PictureViewer* in the **Project name** box. Then, choose **Create**.
 
