@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a Windows Forms Application project"
-ms.date: 03/23/2019
+ms.date: 05/31/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -22,14 +22,13 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
 ## Open Visual Studio 2017
 
-1. On the menu bar, choose **File** > **New** > **Project**. The dialog box should look like this.
+1. On the menu bar, choose **File** > **New** > **Project**. The dialog box should look similar to the following screenshot.
 
-     ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>
-***New project** dialog box*
+     ![New project dialog](../ide/media/newprojectdialogcallouts.png)<br/>***New project** dialog box*
 
-2. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box.
+2. Choose either **Visual C#** or **Visual Basic** on the left side of the **New Project** dialog box, and then choose **Windows Desktop**.
 
-3. In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form **PictureViewer**, and then choose the **OK** button.
+3. In the templates list, choose **Windows Forms App (.NET Framework)**. Name the new form *PictureViewer*, and then choose the **OK** button.
 
     >[!NOTE]
     >If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.

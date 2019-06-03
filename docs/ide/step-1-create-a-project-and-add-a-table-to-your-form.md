@@ -21,21 +21,47 @@ The first step in creating a matching game is to create the project and add a ta
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
+1. In the **Installed Templates** list, choose either **C#** or **Visual Basic**, and then choose **Windows Desktop**.
+
+1. In the list of templates, choose the **Windows Forms App (.NET Framework)** template, name it *MatchingGame*, and then choose the **OK** button.
+
+    A form that's named *Form1.cs* or *Form1.vb* appears, depending on the programming language that you chose.
+
+   > [!NOTE]
+   > If you don't see the **Windows Forms App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.<br/><br/>![.NET desktop development workload in the Visual Studio Installer](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> For more information, see the [Install Visual Studio](../install/install-visual-studio.md) page.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, type "WPF", choose **WPF App (.NET Framework)**, and then choose **Next**.
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-   (If you don't see the **WPF App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.)
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box.
 
-1. Give the project a name, **MatchingGame**, and choose **Create**
+1. Choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+
+   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   >
+   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload.
+
+1. In the **Configure your new project** window, type or enter *MatchingGame* in the **Project name** box. Then, choose **Create**.
 
 ::: moniker-end
 
-2. If you're not using Visual Studio Express, you need to select a programming language first. From the **Installed Templates** list, choose either **Visual C#** or **Visual Basic**.
+## To set properties for a form
+
+
 
 3. In the list of project templates, choose **Windows Forms Application**, name the project **MatchingGame**, and then choose the **OK** button.
 
