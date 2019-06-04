@@ -16,7 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Usage Warnings
-Usage warnings support proper usage of the .NET Framework.
+
+Usage warnings support proper usage of .NET.
 
 ## In This Section
 
@@ -29,7 +30,7 @@ Usage warnings support proper usage of the .NET Framework.
 |[CA2201: Do not raise reserved exception types](../code-quality/ca2201-do-not-raise-reserved-exception-types.md)|This makes the original error hard to detect and debug.|
 |[CA2202: Do not dispose objects multiple times](../code-quality/ca2202-do-not-dispose-objects-multiple-times.md)|A method implementation contains code paths that could cause multiple calls to System.IDisposable.Dispose or a Dispose equivalent (such as a Close() method on some types) on the same object.|
 |[CA2204: Literals should be spelled correctly](../code-quality/ca2204-literals-should-be-spelled-correctly.md)|A literal string in a method body contains one or more words that are not recognized by the Microsoft spelling checker library.|
-|[CA2205: Use managed equivalents of Win32 API](../code-quality/ca2205-use-managed-equivalents-of-win32-api.md)|A platform invoke method is defined and a method with the equivalent functionality exists in the .NET Framework class library.|
+|[CA2205: Use managed equivalents of Win32 API](../code-quality/ca2205-use-managed-equivalents-of-win32-api.md)|A platform invoke method is defined and a .NET method with the equivalent functionality is available.|
 |[CA2207: Initialize value type static fields inline](../code-quality/ca2207-initialize-value-type-static-fields-inline.md)|A value type declares an explicit static constructor. To fix a violation of this rule, initialize all static data when it is declared and remove the static constructor.|
 |[CA2208: Instantiate argument exceptions correctly](../code-quality/ca2208-instantiate-argument-exceptions-correctly.md)|A call is made to the default (parameterless) constructor of an exception type that is or derives from ArgumentException, or an incorrect string argument is passed to a parameterized constructor of an exception type that is or derives from ArgumentException.|
 |[CA2211: Non-constant fields should not be visible](../code-quality/ca2211-non-constant-fields-should-not-be-visible.md)|Static fields that are neither constants nor read-only are not thread-safe. Access to such a field must be carefully controlled and requires advanced programming techniques for synchronizing access to the class object.|
