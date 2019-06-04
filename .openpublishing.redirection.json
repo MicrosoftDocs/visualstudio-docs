@@ -7489,6 +7489,16 @@
             "source_path": "docs/vs-2015/ide/whats-new-in-visual-studio.md",
             "redirect_url": "/visualstudio/what-s-new-in-visual-studio-2015?view=vs-2015",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/azure/vs-azure-tools-resource-groups-ci.md",
+            "redirect_url": "/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/azure/vs-azure-tools-resource-groups-ci.md",
+            "redirect_url": "/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy",
+            "redirect_document_id": false
         }
     ]
 }
