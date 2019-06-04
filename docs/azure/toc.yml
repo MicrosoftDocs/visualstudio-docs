@@ -94,7 +94,7 @@
     - name: Manage service configurations and profiles
       href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
     - name: Set up named authentication credentials
-      href: vs-azure-tools-setting-up-named-authentication-credentials.
+      href: vs-azure-tools-setting-up-named-authentication-credentials.md
     - name: Continuous integration in Azure DevOps Services using Azure Resource Group deployment projects
       href: vs-azure-tools-resource-groups-ci.md
   - name: Work with Azure storage
