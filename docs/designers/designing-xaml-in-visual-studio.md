@@ -46,7 +46,7 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
 - **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](/azure/devops/user-guide/work-team-explorer).
 
-- **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET Framework that simplifies the installation and removal of packages from a solution.
+- **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET that simplifies the installation and removal of packages from a solution.
 
 ## Advanced Capabilities in Blend for Visual Studio
 
