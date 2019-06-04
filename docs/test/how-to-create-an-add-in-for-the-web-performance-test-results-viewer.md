@@ -250,9 +250,9 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 1. In **Solution Explorer**, right-click the WebPerfTestResultsViewerControl project node and select **Properties**.
 
-2. Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the **Properties**.
+2. Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** (or later). Close the **Properties** window.
 
-     This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
+   This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
 
 3. In **Solution Explorer**, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
 
@@ -294,15 +294,11 @@ The Visual Studio add-in created in the previous procedure references a Windows 
             }
     ```
 
-## Build the WebPerfTestResultsViewerAddin solution
-
-### To build the solution
+## Build the solution
 
 - On the **Build** menu, select **Build Solution**.
 
 ## Register the WebPerfTestResultsViewerAddin add-in
-
-### To register the add-in using the Add-in Manager
 
 1. On the **Tools** menu, select **Add-in Manager**.
 
@@ -312,15 +308,13 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 4. Choose **OK**.
 
-## Run the web performance test using the Build the WebPerfTestResultsViewerAddin add-in
-
-### To run the new VS add-in for the Web Test Results Viewer
+## Run the web performance test using the Web Test Results Viewer
 
 1. Run your web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the **Web Performance Test Results Viewer**.
 
 2. Choose the tab to see the properties presented in the DataGridView.
 
-## .NET Framework Security
+## .NET security
 
 To improve security by preventing malicious add-ins from automatically activating, Visual Studio provides settings in a **Tools Options** page named **Add-in/Macros Security**.
 

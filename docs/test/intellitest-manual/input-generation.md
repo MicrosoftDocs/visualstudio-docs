@@ -154,15 +154,9 @@ the user.
 <a name="visibility"></a>
 ## Visibility
 
-The .NET Framework has an elaborate visibility model:
-types, methods, fields, and other members can be
-**private**, **public**, **internal**, and more.
+.NET has an elaborate visibility model: types, methods, fields, and other members can be **private**, **public**, **internal**, and more.
 
-When IntelliTest generates tests, it will attempt to
-perform only actions (such as calling constructors,
-methods, and setting fields) that are legal with regard
-to .NET visibility rules from within the context of
-the generated tests.
+When IntelliTest generates tests, it will attempt to perform only actions (such as calling constructors, methods, and setting fields) that are legal with regard to .NET visibility rules from within the context of the generated tests.
 
 The rules are as follows:
 
