@@ -8,7 +8,7 @@
   - name: Roslyn analyzers (source analysis)
     items:
     - name: Overview
-      displayName: "roslyn analyzers", "source analysis"
+      displayName: roslyn analyzers, source analysis
       href: roslyn-analyzers-overview.md
     - name: Installation
       href: install-roslyn-analyzers.md
@@ -21,7 +21,7 @@
   - name: Binary analyzers (static code analysis)
     items:
     - name: Binary analyzers overview
-      displayName: "static code analysis", "binary analysis"
+      displayName: static code analysis, binary analysis
       href: walkthrough-analyzing-managed-code-for-code-defects.md
     - name: Migration
       href: fxcop-analyzers.yml
