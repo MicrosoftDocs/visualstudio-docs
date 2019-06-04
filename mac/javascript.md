@@ -34,7 +34,7 @@ Visual Studio for Mac uses the [JavaScript Language Service](/visualstudio/ide/j
 JavaScript intellisense in Visual Studio for Mac can be based on type inference, JSDoc, or TypeScript declaration.
 
 - **Type inference** – The type of an object is figured out by the surrounding code context. For more information, see Visual Studio's section on [IntelliSense based on type inference](/visualstudio/ide/javascript-intellisense#intellisense-based-on-type-inference).
-- **JSDoc** – There are times when type inference doesn't provide the correct type information. In these cases, the type information can be provided explicitly by [JSDoc](http://usejsdoc.org/about-getting-started.html) annotations. For more information, see Visual Studio's section on [IntelliSense based on JSDoc](/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc)
+- **JSDoc** – There are times when type inference doesn't provide the correct type information. In these cases, the type information can be provided explicitly by [JSDoc](https://jsdoc.app/about-getting-started.html) annotations. For more information, see Visual Studio's section on [IntelliSense based on JSDoc](/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc)
 - **TypeScript declaration files** – `.d.ts` files are used to provide values for JavaScript IntelliSense. Types declared in that file can be used as types on JSDoc comments. For more information, see Visual Studio's section on [IntelliSense based on TypeScript declaration files](/visualstudio/ide/javascript-intellisense#intellisense-based-on-typescript-declaration-files)
 
     ![adding a typescript definition file](media/javascript-image3.png)
