@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramDestroyEvent2::GetExitCode"
 ms.assetid: 7f540cf6-e2d1-42b0-913e-a26d654b7659
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -63,9 +63,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
      Instead, define an interface that can be implemented by the other component, and which can also be implemented by a stub for test purposes:
 
     ```csharp
-    public int GetContosoPrice(IStockFeed feed)
-    { return feed.GetSharePrice("COOO"); }
-
+    public int GetContosoPrice(IStockFeed feed) => feed.GetSharePrice("COOO");
     ```
 
     ```vb

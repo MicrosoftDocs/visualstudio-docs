@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "ButtonText element (VSCT XML schema)"
   - "VSCT XML schema elements, ButtonText"
 ms.assetid: 56aba884-0356-4894-ae4e-32d3938f6865
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccGetUserOption function"
 ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

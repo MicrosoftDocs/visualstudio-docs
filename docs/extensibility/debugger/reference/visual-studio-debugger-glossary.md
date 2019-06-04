@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "glossary [Debugging SDK]"
   - "debugging [Debugging SDK], glossary"
 ms.assetid: 4a2cfaab-1fbd-4a23-bd00-9ac4cc50d7fd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

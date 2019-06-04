@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccProperties function"
 ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

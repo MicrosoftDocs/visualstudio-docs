@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "stepping, in break mode"
   - "debugging [Debugging SDK], stepping in break mode"
 ms.assetid: b08dc8ee-6c63-4462-a097-6f525cfbb35a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

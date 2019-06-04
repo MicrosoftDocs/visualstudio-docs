@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "IntelliSense, IntellisenseHostFlags enumeration"
   - "IntellisenseHostFlags enumeration"
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

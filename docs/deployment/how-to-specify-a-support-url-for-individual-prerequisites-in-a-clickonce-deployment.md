@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment | Microsoft Docs"
+title: "Support URL for prerequisites in ClickOnce deployment"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IEnumCodePaths2::Skip"
 ms.assetid: 356472d8-68b2-4b7e-b5f0-1f16d4ee80af
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

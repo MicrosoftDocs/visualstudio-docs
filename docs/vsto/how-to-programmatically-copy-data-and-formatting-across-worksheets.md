@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically copy data and formatting across worksheets"
+title: "Copy data and formatting across worksheets programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

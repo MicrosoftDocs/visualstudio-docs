@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "VSTextView object, reference"
   - "views [Visual Studio SDK], reference"
 ms.assetid: 78272ddc-9718-4c65-a94e-a44a2e8d54f4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

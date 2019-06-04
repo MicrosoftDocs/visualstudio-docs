@@ -43,7 +43,7 @@ Yes, snapshot debugging can work for servers under load. The Snapshot Debugger t
 
 You can uninstall the Snapshot Debugger site extension on your App Service with the following steps:
 
-1. Turn off your App Service either through the Cloud Explorer in Visual Studio or Azure portal.
+1. Turn off your App Service either through the Cloud Explorer in Visual Studio or the Azure portal.
 1. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net) and navigate to **Site extensions**.
 1. Click the X on the Snapshot Debugger site extension to remove it.
 
@@ -51,10 +51,148 @@ You can uninstall the Snapshot Debugger site extension on your App Service with 
 
 Snapshot Debugger needs to open a set of ports in order to debug the snapshots taken in Azure, these are the same ports required for remote debugging. [You can find the list of ports here](../debugger/remote-debugger-port-assignments.md).
 
+#### How do I disable the Remote Debugger extension?
+
+For App Services:
+1. Disable Remote Debugger extension via the Azure portal for your App Service.
+2. Azure portal > your Application Service resource blade > *Application Settings*
+3. Navigate to the *Debugging* section and click the *Off* button for *Remote debugging*.
+
+For AKS:
+1. Update your Dockerfile to remove the sections corresponding to the [Visual Studio Snapshot Debugger on Docker images](https://github.com/Microsoft/vssnapshotdebugger-docker).
+2. Rebuild and redeploy the modified Docker image.
+
+For virtual machine/virtual machine scale sets remove the Remote Debugger extension, Certificates, KeyVaults and InBound NAT pools as follows:
+
+1. Remove Remote Debugger extension  
+
+   There are several ways to disable the Remote Debugger for virtual machines and virtual machine scale sets:  
+
+      - Disable the Remote Debugger through Cloud Explorer  
+
+         - Cloud Explorer > your virtual machine resource > Disable Debugging (Disabling Debugging does not exist for virtual machine scale set on Cloud Explorer).  
+
+
+      - Disable the Remote Debugger with PowerShell Scripts/Cmdlets  
+
+         For virtual machine:  
+
+         ```
+         Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger  
+         ```
+
+         For virtual machine scale sets:  
+         ```
+         $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName  
+         $extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name  
+         Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension  
+         ```
+
+      - Disable the Remote Debugger through the Azure portal
+         - Azure portal > your virtual machine/virtual machine scale sets resource blade > Extensions  
+         - Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension  
+
+
+         > [!NOTE]
+         > Virtual machine scale sets - The portal does not allow removing the DebuggerListener ports. You will need to use Azure PowerShell. See below for details.
+  
+2. Remove Certificates and Azure KeyVault
+
+   When installing the Remote Debugger extension for virtual machine or virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual Machine/virtual machine scale sets resources.  
+
+   - The Client Cert  
+
+      This cert is a self-signed certificate located in Cert:/CurrentUser/My/  
+
+      ```
+      Thumbprint                                Subject  
+      ----------                                -------  
+
+      1234123412341234123412341234123412341234  CN=ResourceName  
+      ```
+
+      One way to remove this certificate from your machine is via PowerShell
+
+      ```
+      $ResourceName = 'ResourceName' # from above  
+      Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item  
+      ```
+
+   - The Server Certificate
+      - The corresponding server certificate thumbprint is deployed as a secret to Azure KeyVault. VS will attempt to find or create a KeyVault with prefix MSVSAZ* in the region corresponding to the virtual machine or virtual machine scale sets resource. All virtual machine or virtual machine scale sets resources deployed to that region therefore will share the same KeyVault.  
+      - To delete the server certificate thumbprint secret, go to the Azure portal and find the MSVSAZ* KeyVault in the same region that's hosting your resource. Delete the secret which should be labeled `remotedebugcert<<ResourceName>>`  
+      - You will also need to delete the server secret from your resource via PowerShell.  
+
+      For virtual machines:  
+
+      ```
+      $vm.OSProfile.Secrets[0].VaultCertificates.Clear()  
+      Update-AzVM -ResourceGroupName $rgName -VM $vm  
+      ```
+						
+      For virtual machine scale sets:  
+
+      ```
+      $vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()  
+      Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss  
+      ```
+						
+3. Remove all DebuggerListener InBound NAT pools (virtual machine scale set only)  
+
+   The Remote Debugger introduces DebuggerListener in-bound NAT pools that are applied to your scaleset's load balancer.  
+
+   ```
+   $inboundNatPools = $vmss.VirtualMachineProfile.NetworkProfile.NetworkInterfaceConfigurations.IpConfigurations.LoadBalancerInboundNatPools  
+   $inboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null  
+   				
+   if ($LoadBalancerName)  
+   {
+      $lb = Get-AzLoadBalancer -ResourceGroupName $ResourceGroup -name $LoadBalancerName  
+      $lb.FrontendIpConfigurations[0].InboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null  
+      Set-AzLoadBalancer -LoadBalancer $lb  
+   }
+   ```
+
+#### How do I disable Snapshot Debugger?
+
+For App Service:
+1. Disable Snapshot Debugger via the Azure portal for your App Service.
+2. Azure portal > your Application Service resource blade > *Application Settings*
+3. Delete the following App settings in the Azure portal and save your changes. 
+	- INSTRUMENTATIONENGINE_EXTENSION_VERSION
+	- SNAPSHOTDEBUGGER_EXTENSION_VERSION
+
+	> [!WARNING]
+	> Any changes to Application Settings will initiate an app restart. Details about Application Settings can be found [here](https://docs.microsoft.com/azure/app-service/web-sites-configure#app-settings). 
+
+For AKS:
+1. Update your Dockerfile to remove the sections corresponding to the [Visual Studio Snapshot Debugger on Docker images](https://github.com/Microsoft/vssnapshotdebugger-docker).
+2. Rebuild and redeploy the modified Docker image.
+
+For virtual machine/virtual machine scale sets:
+
+There are several ways to disable the Snapshot Debugger:
+- Cloud Explorer > your virtual machine/virtual machine scale set resource > Disable Diagnostics
+
+- Azure portal > your virtual machine/virtual machine scale set resource blade > Extensions > Uninstall Microsoft.Insights.VMDiagnosticsSettings extension
+
+- PowerShell Cmdlets from [Az PowerShell](https://docs.microsoft.com/powershell/azure/overview)
+
+	Virtual machine:
+	```
+		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.Insights.VMDiagnosticsSettings 
+	```
+	
+	Virtual machine scale sets:
+	```
+		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
+		Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name Microsoft.Insights.VMDiagnosticsSettings
+	```
+
 ## See also
 
 - [Debugging in Visual Studio](../debugger/index.md)
 - [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
-- [Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
+- [Debug live ASP.NET Azure Virtual Machines\Virtual Machines scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)
 - [Troubleshooting and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md)

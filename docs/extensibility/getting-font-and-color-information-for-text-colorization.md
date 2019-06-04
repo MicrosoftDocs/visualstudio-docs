@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "text, coloring"
   - "font and color control [Visual Studio SDK], coloring"
 ms.assetid: d1f985bd-743e-40b7-9458-d9af53647c91
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

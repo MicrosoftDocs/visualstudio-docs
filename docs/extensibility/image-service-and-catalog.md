@@ -3,8 +3,8 @@ title: "Image Service and Catalog | Microsoft Docs"
 ms.date: "04/01/2019"
 ms.topic: "conceptual"
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -277,9 +277,9 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
-- **VsDpiAwareness.h**  
+- **VsDpiAwareness.h**
 
-    - Required if you use the DPI awareness helpers to get the current DPI.  
+    - Required if you use the DPI awareness helpers to get the current DPI.
 
 ::: moniker-end
 
@@ -345,49 +345,49 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
 
 ::: moniker range="vs-2017"
 
-```cpp  
-ImageAttributes attr = { 0 };  
-attr.StructSize      = sizeof(attributes);  
-attr.Format          = DF_Win32;  
-// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST  
-attr.ImageType       = IT_Bitmap;  
-attr.LogicalWidth    = 16;  
-attr.LogicalHeight   = 16;  
-attr.Dpi             = VsUI::DpiHelper::GetDeviceDpiX();  
-// Desired RGBA color, if you don't use this, don't set IAF_Background below  
-attr.Background      = 0xFFFFFFFF;  
-attr.Flags           = IAF_RequiredFlags | IAF_Background;  
+```cpp
+ImageAttributes attr = { 0 };
+attr.StructSize      = sizeof(attributes);
+attr.Format          = DF_Win32;
+// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST
+attr.ImageType       = IT_Bitmap;
+attr.LogicalWidth    = 16;
+attr.LogicalHeight   = 16;
+attr.Dpi             = VsUI::DpiHelper::GetDeviceDpiX();
+// Desired RGBA color, if you don't use this, don't set IAF_Background below
+attr.Background      = 0xFFFFFFFF;
+attr.Flags           = IAF_RequiredFlags | IAF_Background;
 
-CComPtr<IVsUIObject> spImg;  
-// Replace this KnownMoniker with your desired ImageMoniker  
-spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);  
-```  
+CComPtr<IVsUIObject> spImg;
+// Replace this KnownMoniker with your desired ImageMoniker
+spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
+```
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-```cpp 
+```cpp
 UINT dpiX, dpiY;
 HWND hwnd = // get the HWND where the image will be displayed
 VsUI::CDpiAwareness::GetDpiForWindow(hwnd, &dpiX, &dpiY);
- 
-ImageAttributes attr = { 0 };  
-attr.StructSize      = sizeof(attributes);  
-attr.Format          = DF_Win32;  
-// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST  
-attr.ImageType       = IT_Bitmap;  
-attr.LogicalWidth    = 16;  
-attr.LogicalHeight   = 16;  
-attr.Dpi             = dpiX;
-// Desired RGBA color, if you don't use this, don't set IAF_Background below  
-attr.Background      = 0xFFFFFFFF;  
-attr.Flags           = IAF_RequiredFlags | IAF_Background;  
 
-CComPtr<IVsUIObject> spImg;  
-// Replace this KnownMoniker with your desired ImageMoniker  
-spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);  
-```  
+ImageAttributes attr = { 0 };
+attr.StructSize      = sizeof(attributes);
+attr.Format          = DF_Win32;
+// IT_Bitmap for HBITMAP, IT_Icon for HICON, IT_ImageList for HIMAGELIST
+attr.ImageType       = IT_Bitmap;
+attr.LogicalWidth    = 16;
+attr.LogicalHeight   = 16;
+attr.Dpi             = dpiX;
+// Desired RGBA color, if you don't use this, don't set IAF_Background below
+attr.Background      = 0xFFFFFFFF;
+attr.Flags           = IAF_RequiredFlags | IAF_Background;
+
+CComPtr<IVsUIObject> spImg;
+// Replace this KnownMoniker with your desired ImageMoniker
+spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
+```
 
 ::: moniker-end
 
@@ -412,55 +412,55 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
 
 ::: moniker range="vs-2017"
 
-```csharp  
-ImageAttributes attributes = new ImageAttributes  
-{  
-    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),  
-    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList  
-    ImageType     = (uint)_UIImageType.IT_Bitmap,  
-    Format        = (uint)_UIDataFormat.DF_WinForms,  
-    LogicalWidth  = 16,  
-    LogicalHeight = 16,  
-    Dpi           = (int)DpiHelper.DeviceDpiX;  
-    // Desired RGBA color, if you don't use this, don't set IAF_Background below  
-    Background    = 0xFFFFFFFF,  
-    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background), 
-};  
+```csharp
+ImageAttributes attributes = new ImageAttributes
+{
+    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),
+    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList
+    ImageType     = (uint)_UIImageType.IT_Bitmap,
+    Format        = (uint)_UIDataFormat.DF_WinForms,
+    LogicalWidth  = 16,
+    LogicalHeight = 16,
+    Dpi           = (int)DpiHelper.DeviceDpiX;
+    // Desired RGBA color, if you don't use this, don't set IAF_Background below
+    Background    = 0xFFFFFFFF,
+    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),
+};
 
-// Replace this KnownMoniker with your desired ImageMoniker  
-IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);  
+// Replace this KnownMoniker with your desired ImageMoniker
+IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
 
-Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap  
-// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon  
-```  
+Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap
+// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
+```
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-```csharp  
+```csharp
 Control control = // get the control where the image will be displayed
 
-ImageAttributes attributes = new ImageAttributes  
-{  
-    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),  
-    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList  
-    ImageType     = (uint)_UIImageType.IT_Bitmap,  
-    Format        = (uint)_UIDataFormat.DF_WinForms,  
-    LogicalWidth  = 16,  
-    LogicalHeight = 16,  
-    Dpi           = (int)DpiAwareness.GetWindowDpi(control.Handle);  
-    // Desired RGBA color, if you don't use this, don't set IAF_Background below  
-    Background    = 0xFFFFFFFF,  
-    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),  
-};  
+ImageAttributes attributes = new ImageAttributes
+{
+    StructSize    = Marshal.SizeOf(typeof(ImageAttributes)),
+    // IT_Bitmap for Bitmap, IT_Icon for Icon, IT_ImageList for ImageList
+    ImageType     = (uint)_UIImageType.IT_Bitmap,
+    Format        = (uint)_UIDataFormat.DF_WinForms,
+    LogicalWidth  = 16,
+    LogicalHeight = 16,
+    Dpi           = (int)DpiAwareness.GetWindowDpi(control.Handle);
+    // Desired RGBA color, if you don't use this, don't set IAF_Background below
+    Background    = 0xFFFFFFFF,
+    Flags         = unchecked((uint)_ImageAttributesFlags.IAF_RequiredFlags | _ImageAttributesFlags.IAF_Background),
+};
 
-// Replace this KnownMoniker with your desired ImageMoniker  
-IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);  
+// Replace this KnownMoniker with your desired ImageMoniker
+IVsUIObject uIObj = imageService.GetImage(KnownMonikers.Blank, attributes);
 
-Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap  
-// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon  
-```  
+Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you need a bitmap
+// Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
+```
 
 ::: moniker-end
 
@@ -832,12 +832,12 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphGroupClass|GlyphItemProtected|ClassProtected|
         |GlyphGroupClass|GlyphItemPrivate|ClassPrivate|
         |GlyphGroupClass|GlyphItemShortcut|ClassShortcut|
-        |GlyphGroupConstant|GlyphItemPublic|ConstantPublic|  
-        |GlyphGroupConstant|GlyphItemInternal|ConstantInternal|  
-        |GlyphGroupConstant|GlyphItemFriend|ConstantInternal|  
-        |GlyphGroupConstant|GlyphItemProtected|ConstantProtected|  
-        |GlyphGroupConstant|GlyphItemPrivate|ConstantPrivate|  
-        |GlyphGroupConstant|GlyphItemShortcut|ConstantShortcut|  
+        |GlyphGroupConstant|GlyphItemPublic|ConstantPublic|
+        |GlyphGroupConstant|GlyphItemInternal|ConstantInternal|
+        |GlyphGroupConstant|GlyphItemFriend|ConstantInternal|
+        |GlyphGroupConstant|GlyphItemProtected|ConstantProtected|
+        |GlyphGroupConstant|GlyphItemPrivate|ConstantPrivate|
+        |GlyphGroupConstant|GlyphItemShortcut|ConstantShortcut|
         |GlyphGroupDelegate|GlyphItemPublic|DelegatePublic|
         |GlyphGroupDelegate|GlyphItemInternal|DelegateInternal|
         |GlyphGroupDelegate|GlyphItemFriend|DelegateInternal|
@@ -850,12 +850,12 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
         |GlyphGroupEnum|GlyphItemProtected|EnumerationProtected|
         |GlyphGroupEnum|GlyphItemPrivate|EnumerationPrivate|
         |GlyphGroupEnum|GlyphItemShortcut|EnumerationShortcut|
-        |GlyphGroupEnumMember|GlyphItemPublic|EnumerationItemPublic|  
-        |GlyphGroupEnumMember|GlyphItemInternal|EnumerationItemInternal|  
-        |GlyphGroupEnumMember|GlyphItemFriend|EnumerationItemInternal|  
-        |GlyphGroupEnumMember|GlyphItemProtected|EnumerationItemProtected|  
-        |GlyphGroupEnumMember|GlyphItemPrivate|EnumerationItemPrivate|  
-        |GlyphGroupEnumMember|GlyphItemShortcut|EnumerationItemShortcut|  
+        |GlyphGroupEnumMember|GlyphItemPublic|EnumerationItemPublic|
+        |GlyphGroupEnumMember|GlyphItemInternal|EnumerationItemInternal|
+        |GlyphGroupEnumMember|GlyphItemFriend|EnumerationItemInternal|
+        |GlyphGroupEnumMember|GlyphItemProtected|EnumerationItemProtected|
+        |GlyphGroupEnumMember|GlyphItemPrivate|EnumerationItemPrivate|
+        |GlyphGroupEnumMember|GlyphItemShortcut|EnumerationItemShortcut|
         |GlyphGroupEvent|GlyphItemPublic|EventPublic|
         |GlyphGroupEvent|GlyphItemInternal|EventInternal|
         |GlyphGroupEvent|GlyphItemFriend|EventInternal|

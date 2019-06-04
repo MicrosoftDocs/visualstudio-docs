@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically collapse ranges or selections in documents"
+title: "Collapse ranges or selections in documents programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

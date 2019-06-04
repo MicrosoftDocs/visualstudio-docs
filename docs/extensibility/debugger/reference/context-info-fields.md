@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "CONTEXT_INFO_FIELDS enumeration"
 ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

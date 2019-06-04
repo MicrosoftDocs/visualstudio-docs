@@ -1,5 +1,5 @@
 ---
-title: "Using Profiling Methods to Collect Performance Data from the Command Line | Microsoft Docs"
+title: "Use command line profiling methods to get performance data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 5613fafc-f298-4e7a-9a2d-a853b61cdf9c

@@ -64,7 +64,7 @@ sections:
     - image:
         src: https://docs.microsoft.com/media/logos/logo_cplusplus.svg
       text: C++
-      href: /cpp/get-started/
+      href: /cpp/get-started/tutorial-console-cpp
     - image:
         src: https://docs.microsoft.com/media/logos/logo_python.svg
       text: Python

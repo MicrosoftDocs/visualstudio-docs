@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugDocumentTextEvents2::onUpdateDocumentAttributes"
 ms.assetid: 31b7d151-9ce2-438e-b405-f8cc46b9f537
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

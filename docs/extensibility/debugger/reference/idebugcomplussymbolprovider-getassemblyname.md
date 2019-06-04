@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::GetAssemblyName"
   - "GetAssemblyName"
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

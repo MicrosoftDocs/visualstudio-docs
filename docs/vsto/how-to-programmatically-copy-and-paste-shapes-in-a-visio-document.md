@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically copy and paste shapes in a Visio document"
+title: "Copy and paste shapes in Visio document programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

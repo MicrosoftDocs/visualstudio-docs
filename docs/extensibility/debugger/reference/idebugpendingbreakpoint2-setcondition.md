@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "SetCondition method"
   - "IDebugPendingBreakpoint2::SetCondition method"
 ms.assetid: 0534224f-654f-4862-bc4d-a9a81a5f8899
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

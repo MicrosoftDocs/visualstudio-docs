@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "MACHINE_INFO_FIELDS enumeration"
 ms.assetid: 2d61d206-7d40-4df1-8c88-1b3c9c78821e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

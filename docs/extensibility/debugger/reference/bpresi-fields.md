@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BPRESI_FIELDS enumeration"
 ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

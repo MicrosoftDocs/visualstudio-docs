@@ -3,8 +3,8 @@ title: "Image Service Tools | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

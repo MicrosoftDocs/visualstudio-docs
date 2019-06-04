@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create a project and add labels to your form"
-ms.date: 11/04/2016
+ms.date: 05/31/2019
 ms.topic: conceptual
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -18,7 +18,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 > [!NOTE]
 > This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a timed math quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).
 
-## To create a project and set properties for a form
+## To create a project for a form
 
 ::: moniker range="vs-2017"
 
@@ -36,15 +36,32 @@ As the first steps in developing this quiz, you create the project, and you add 
 
 1. On the start window, choose **Create a new project**.
 
-1. In the search box, type "WPF", choose **WPF App (.NET Framework)**, and then choose **Next**.
+   ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-   (If you don't see the **WPF App (.NET Framework)** template, use the Visual Studio Installer to install the **.NET desktop development** workload.)
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box.
 
-1. Give the project a name, **MathQuiz**, and choose **Create**
+1. Choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+
+   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > Next, in the Visual Studio Installer, choose the Choose the **.NET desktop development** workload.
+   >
+   > ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload.
+
+1. In the **Configure your new project** window, type or enter *MathQuiz* in the **Project name** box. Then, choose **Create**.
 
 ::: moniker-end
 
-1. Choose the form, and then change its **Text** property to **Math Quiz**.
+## To create set properties for a form
+
+1. In Visual Studio, choose the form (either *Form1.cs* or *Form1.vb*, depending on the programming language), and then change its **Text** property to **Math Quiz**.
 
      The **Properties** window contains properties for the form.
 

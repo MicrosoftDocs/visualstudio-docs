@@ -18,23 +18,23 @@ Coded UI test logs filter and record important information about your coded UI t
 
 Depending on your scenario, use one of the following methods to enable the log:
 
-- Target .NET Framework version 4 with no *App.config* file present in the test project:
+- If there's no *App.config* file present in your test project:
 
-   1. Open the *QTAgent32_40.exe.config* file. By default, this file is located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
+   1. Determine which *QTAgent\*.exe* process is launched when you run your test. One way to do this is to watch the **Details** tab in Windows **Task Manager**.
+   
+   2. Open the corresponding *.config* file from the *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\IDE* folder. For example, if the process that runs is *QTAgent_40.exe*, open *QTAgent_40.exe.config*.
 
-   2. Modify the value for EqtTraceLevel to the log level you want.
+   2. Modify the value of **EqtTraceLevel** to the log level you want.
+   
+      ```xml
+      <!-- You must use integral values for "value".
+           Use 0 for off, 1 for error, 2 for warn, 3 for info, and 4 for verbose. -->
+      <add name="EqtTraceLevel" value="4" />
+      ```
 
    3. Save the file.
 
-- Target .NET Framework version 4.5 with no *App.config* file present in the test project:
-
-   1. Open the *QTAgent32.exe.config* file. By default, this file is located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
-
-   2. Modify the value of the EqtTraceLevel to the log level you want.
-
-   3. Save the file.
-
-- *App.config* file is present in the test project:
+- If there's an *App.config* file present in your test project:
 
     - Open the *App.config* file in the project, and add the following code under the configuration node:
 
@@ -48,11 +48,13 @@ Depending on your scenario, use one of the following methods to enable the log:
 
 - Enable logging from the test code itself:
 
-   <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState%2A> = HtmlLoggerState.AllActionSnapshot;
+   ```csharp
+   Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState = HtmlLoggerState.AllActionSnapshot;
+   ```
 
 ## Step 2: Run your coded UI test and view the log
 
-When you run a coded UI test with the modifications to the *QTAgent32.exe.config* file in place, you see an output link in the **Test Explorer** results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to "verbose."
+When you run a coded UI test with the modifications to the *QTAgent\*.exe.config* file in place, you see an output link in the **Test Explorer** results. Log files are produced not only when your test fails but also for successful tests when the trace level is set to **verbose**.
 
 1. On the **Test** menu, choose **Windows** and then select **Test Explorer**.
 

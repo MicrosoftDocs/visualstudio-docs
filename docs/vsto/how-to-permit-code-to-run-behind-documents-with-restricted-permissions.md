@@ -1,5 +1,5 @@
 ---
-title: "How to: Permit code to run behind documents with restricted permissions"
+title: "Permit code to run behind docs with restricted permissions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

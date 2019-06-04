@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "IDebugBreakpointChecksumRequest2 interface"
 ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

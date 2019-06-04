@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Deployment Step for SharePoint Projects | Microsoft Docs"
+title: "Create custom deployment step for SharePoint projects"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

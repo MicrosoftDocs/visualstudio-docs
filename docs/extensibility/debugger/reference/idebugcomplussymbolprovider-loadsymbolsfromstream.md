@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugComPlusSymbolProvider::LoadSymbolsFromStream"
   - "LoadSymbolsFromStream"
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

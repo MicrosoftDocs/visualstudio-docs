@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSPackages, structure"
   - "source control packages, VSPackage overview"
 ms.assetid: 92722be7-b397-48c3-a7a7-0b931a341961
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

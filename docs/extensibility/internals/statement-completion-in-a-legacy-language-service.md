@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "statement completion"
   - "language services, statement completion"
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

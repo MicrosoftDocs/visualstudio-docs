@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Add Enter event handlers for the NumericUpDown controls"
+title: "Step 5: Add Enter event handlers for NumericUpDown controls"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 45a99a5d-c881-4298-b74d-adb481dec5ee

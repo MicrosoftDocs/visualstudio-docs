@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer - System.Activities Tab, Choose Toolbox Items Dialog Box"
+title: "Workflow Designer: System.Activities, Choose Toolbox Items"
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

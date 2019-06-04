@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "CreateNewFolder element [Visual Studio project templates]"
 ms.assetid: acef2016-4140-45d6-ace8-b8160eabd676
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

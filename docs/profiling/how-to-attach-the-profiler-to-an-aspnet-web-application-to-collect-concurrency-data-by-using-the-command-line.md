@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to an ASP.NET app to collect cncurrency data"
+title: "Attach profiler to ASP.NET app to collect concurrency data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
