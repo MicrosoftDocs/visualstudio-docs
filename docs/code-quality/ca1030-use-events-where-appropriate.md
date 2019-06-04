@@ -39,11 +39,11 @@ By default, this rule only looks at externally visible methods, but this is [con
 
 This rule detects methods that have names that ordinarily would be used for events. Events follow the Observer or Publish-Subscribe design pattern; they are used when a state change in one object must be communicated to other objects. If a method gets called in response to a clearly defined state change, the method should be invoked by an event handler. Objects that call the method should raise events instead of calling the method directly.
 
-Some common examples of events are found in user interface applications where a user action such as clicking a button causes a segment of code to execute. The .NET Framework event model is not limited to user interfaces; it should be used anywhere you must communicate state changes to one or more objects.
+Some common examples of events are found in user interface applications where a user action such as clicking a button causes a segment of code to execute. The .NET event model is not limited to user interfaces. It should be used anywhere you must communicate state changes to one or more objects.
 
 ## How to fix violations
 
-If the method is called when the state of an object changes, you should consider changing the design to use the .NET event model.
+If the method is called when the state of an object changes, consider changing the design to use the .NET event model.
 
 ## When to suppress warnings
 

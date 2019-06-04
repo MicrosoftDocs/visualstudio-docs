@@ -40,15 +40,15 @@ The Managed Code Analysis tool provides warnings that indicate rule violations i
 |-|-|
 |[Warnings By CheckId](../code-quality/code-analysis-warnings-for-managed-code-by-checkid.md)|Lists all warnings by CheckId|
 |[Cryptography Warnings](../code-quality/cryptography-warnings.md)|Warnings that support safer libraries and applications through the correct use of cryptography.|
-|[Design Warnings](../code-quality/design-warnings.md)|Warnings that support correct library design as specified by the .NET Framework Design Guidelines.|
+|[Design Warnings](../code-quality/design-warnings.md)|Warnings that support correct library design as specified by the .NET Design Guidelines.|
 |[Globalization Warnings](../code-quality/globalization-warnings.md)|Warnings that support world-ready libraries and applications.|
 |[Interoperability Warnings](../code-quality/interoperability-warnings.md)|Warnings that support interaction with COM clients.|
 |[Maintainability Warnings](../code-quality/maintainability-warnings.md)|Warnings that support library and application maintenance.|
 |[Mobility Warnings](../code-quality/mobility-warnings.md)|Warnings that support efficient power usage.|
-|[Naming Warnings](../code-quality/naming-warnings.md)|Warnings that support adherence to the naming conventions of the .NET Framework Design Guidelines.|
+|[Naming Warnings](../code-quality/naming-warnings.md)|Warnings that support adherence to the naming conventions of the .NET Design Guidelines.|
 |[Performance Warnings](../code-quality/performance-warnings.md)|Warnings that support high-performance libraries and applications.|
 |[Portability Warnings](../code-quality/portability-warnings.md)|Warnings that support portability across different platforms.|
 |[Reliability Warnings](../code-quality/reliability-warnings.md)|Warnings that support library and application reliability, such as correct memory and thread usage.|
 |[Security Warnings](../code-quality/security-warnings.md)|Warnings that support safer libraries and applications.|
-|[Usage Warnings](../code-quality/usage-warnings.md)|Warnings that support appropriate usage of the .NET Framework.|
+|[Usage Warnings](../code-quality/usage-warnings.md)|Warnings that support appropriate usage of .NET.|
 |[Code Analysis Policy Errors](../code-quality/code-analysis-policy-errors.md)|Errors that occur if the code analysis policy is not satisfied at check-in.|

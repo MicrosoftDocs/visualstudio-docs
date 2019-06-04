@@ -30,7 +30,8 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A method sets the <xref:System.Data.IDbCommand.CommandText%2A?displayProperty=fullName> property by using a string that is built from a string argument to the method.
+
+A method sets the <xref:System.Data.IDbCommand.CommandText%2A?displayProperty=fullName> property by using a string that is built from a string argument to the method.
 
 ## Rule description
 
@@ -42,7 +43,7 @@ This rule assumes that the string argument contains user input. A SQL command st
 
 - Validate the user input for both type and content before you build the command string.
 
-The following .NET Framework types implement the <xref:System.Data.IDbCommand.CommandText%2A> property or provide constructors that set the property by using a string argument.
+The following .NET types implement the <xref:System.Data.IDbCommand.CommandText%2A> property or provide constructors that set the property by using a string argument.
 
 - <xref:System.Data.Odbc.OdbcCommand?displayProperty=fullName> and <xref:System.Data.Odbc.OdbcDataAdapter?displayProperty=fullName>
 
@@ -54,32 +55,36 @@ The following .NET Framework types implement the <xref:System.Data.IDbCommand.Co
 
 Notice that this rule is violated when the ToString method of a type is used explicitly or implicitly to construct the query string. The following is an example.
 
-```
+```csharp
 int x = 10;
 string query = "SELECT TOP " + x.ToString() + " FROM Table";
 ```
 
- The rule is violated because a malicious user can override the ToString() method.
+The rule is violated because a malicious user can override the ToString() method.
 
- The rule also is violated when ToString is used implicitly.
+The rule also is violated when ToString is used implicitly.
 
-```
+```csharp
 int x = 10;
 string query = String.Format("SELECT TOP {0} FROM Table", x);
 ```
 
 ## How to fix violations
- To fix a violation of this rule, use a parameterized query.
+
+To fix a violation of this rule, use a parameterized query.
 
 ## When to suppress warnings
- It is safe to suppress a warning from this rule if the command text does not contain any user input.
+
+It is safe to suppress a warning from this rule if the command text does not contain any user input.
 
 ## Example
- The following example shows a method, `UnsafeQuery`, that violates the rule and a method, `SaferQuery`, that satisfies the rule by using a parameterized command string.
 
- [!code-vb[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/VisualBasic/ca2100-review-sql-queries-for-security-vulnerabilities_1.vb)]
- [!code-csharp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CSharp/ca2100-review-sql-queries-for-security-vulnerabilities_1.cs)]
- [!code-cpp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CPP/ca2100-review-sql-queries-for-security-vulnerabilities_1.cpp)]
+The following example shows a method, `UnsafeQuery`, that violates the rule and a method, `SaferQuery`, that satisfies the rule by using a parameterized command string.
+
+[!code-vb[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/VisualBasic/ca2100-review-sql-queries-for-security-vulnerabilities_1.vb)]
+[!code-csharp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CSharp/ca2100-review-sql-queries-for-security-vulnerabilities_1.cs)]
+[!code-cpp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CPP/ca2100-review-sql-queries-for-security-vulnerabilities_1.cpp)]
 
 ## See also
- [Security Overview](/dotnet/framework/data/adonet/security-overview)
+
+- [Security Overview](/dotnet/framework/data/adonet/security-overview)

@@ -35,7 +35,7 @@ By default, this rule only looks at externally visible types, but this is [confi
 
 ## Rule description
 
-Before .NET, in order to pass custom information to the event handler, a new delegate had to be declared that specified a class that was derived from the <xref:System.EventArgs?displayProperty=fullName> class. This is no longer true in .NET. The .NET Framework introduced the <xref:System.EventHandler%601?displayProperty=fullName> delegate, a generic delegate that allows any class that's derived from <xref:System.EventArgs> to be used together with the event handler.
+Before .NET, in order to pass custom information to the event handler, a new delegate had to be declared that specified a class that was derived from the <xref:System.EventArgs?displayProperty=fullName> class. In .NET, the generic <xref:System.EventHandler%601?displayProperty=fullName> delegate allows any class that's derived from <xref:System.EventArgs> to be used together with the event handler.
 
 ## How to fix violations
 
