@@ -206,7 +206,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/code-quality//troubleshooting-code-metrics-issues.md",
+            "source_path": "docs/code-quality/troubleshooting-code-metrics-issues.md",
             "redirect_url": "/visualstudio/code-quality/code-metrics-values",
             "redirect_document_id": false
         },
