@@ -20,7 +20,7 @@
       href: analyzers-faq.md
   - name: Binary analyzers (static code analysis)
     items:
-    - name: Binary analyzers overview
+    - name: Overview
       displayName: static code analysis, binary analysis
       href: walkthrough-analyzing-managed-code-for-code-defects.md
     - name: Migration
@@ -49,9 +49,6 @@
       href: install-fxcop-analyzers.md
     - name: Configuration
       href: configure-fxcop-analyzers.md
-      items:
-      - name: Rule sets
-        href: analyzer-rule-sets.md
     - name: FAQ
       href: fxcop-analyzers-faq.md
   - name: Migrate from static analysis to FxCop analyzers
@@ -147,6 +144,9 @@
           href: version-compatibility-for-code-analysis-check-in-policies.md
   - name: Code metrics
     items:
+    - name: Overview
+      displayName: code metrics
+      href: code-metrics-values.md
     - name: Generate code metrics data
       href: how-to-generate-code-metrics-data.md
     - name: Work with code metrics data
@@ -185,8 +185,10 @@
       - name: Security Rules rule set for managed code
         href: security-rules-rule-set-for-managed-code.md
     - name: Managed code warnings
-      href: code-analysis-for-managed-code-warnings.md
       items:
+      - name: Overview
+        displayName: Managed code warnings
+        href: code-analysis-for-managed-code-warnings.md
       - name: Warnings by CheckId
         href: code-analysis-warnings-for-managed-code-by-checkid.md
       - name: Cryptography warnings
@@ -742,7 +744,7 @@
     href: using-the-cpp-core-guidelines-checkers.md
   - name: Rule sets for C++ code
     href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
-  - name: C++ Core Guidelines Checker Warnings
+  - name: C++ Core Guidelines checker warnings
     items:
     - name: Overview
       displayName: "C++ core guidelines checker warnings"
@@ -901,11 +903,11 @@
       href: C26497.md
     - name: C26498
       href: C26498.md
-  - name: Code Analysis for C/C++ Warnings
+  - name: C/C++ warnings
     items:
     - name: Overview
       displayName: "C++ warnings"
-      href: code-analysis-for-c-cpp-warnings.md
+      href: code-analsis-for-c-cpp-warnings.md
     - name: C1250
       href: c1250.md
     - name: C1251
