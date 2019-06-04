@@ -77,6 +77,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 
-- Need help with your Office Developer subscription? Check out the [support](https://developer.microsoft.com/office/support) resources on the [Office Dev Center](https://developer.microsoft.com/office).
+- Need help with your Office Developer subscription? Check out the [support](https://developer.microsoft.com/office/docs#officecommunity) resources on the [Office Dev Center](https://developer.microsoft.com/office).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
