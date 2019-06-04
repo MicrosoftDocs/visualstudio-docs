@@ -16,9 +16,9 @@ ms.technology: vs-installation
 ---
 # Update Visual Studio while on a servicing baseline
 
-Visual Studio 2019 will have frequent updates during its [product lifecycle](/visualstudio/productinfo/release-rhythm.md#release-channel-updates). These will include both minor release updates (for example: 16.0 to 16.1) that can include new features and components, and servicing updates (for example: 16.0.4 to 16.0.5) containing only targeted fixes for critical issues. 
+Visual Studio 2019 will have frequent updates during its [product lifecycle](/visualstudio/productinfo/release-rhythm#release-channel-updates). These will include both minor release updates (for example: 16.0 to 16.1) that can include new features and components, and servicing updates (for example: 16.0.4 to 16.0.5) containing only targeted fixes for critical issues. 
 
-Enterprise administrators can choose to keep their clients on a servicing baseline, which is supported with servicing updates for a year past the release of the next servicing baseline. This allows more flexibility for developers and administrators to adopt the new features, bug fixes, or components included in new minor updates. The first servicing baseline is 16.0.x. See [Support options for enterprise and professional customers](/visualstudio/releases/2019/servicing.md#support-options-for-enterprise-and-professional-customers) for more information.
+Enterprise administrators can choose to keep their clients on a servicing baseline, which is supported with servicing updates for a year past the release of the next servicing baseline. This allows more flexibility for developers and administrators to adopt the new features, bug fixes, or components included in new minor updates. The first servicing baseline is 16.0.x. See [Support options for enterprise and professional customers](https://docs.microsoft.com/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) for more information.
 
 ## How to get onto a servicing baseline
 

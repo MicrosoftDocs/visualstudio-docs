@@ -238,7 +238,7 @@ The following options can be used to authenticate with a server:
 
 To use basic authentication it is necessary to enable **Alternative authentication credentials** in Azure DevOps Services, by following the steps below:
 
-1. Sign in to your Azure DevOps organization as the owner (https://dev.azure.com/{organization}/{project}).
+1. Sign in to your Azure DevOps organization as the owner (https:\//dev.azure.com/{organization}/{project}).
 
 2. From your organization toolbar, select the gear icon and select **Policy**:
 
