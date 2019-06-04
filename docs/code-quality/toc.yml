@@ -907,7 +907,7 @@
     items:
     - name: Overview
       displayName: "C++ warnings"
-      href: code-analsis-for-c-cpp-warnings.md
+      href: code-analysis-for-c-cpp-warnings.md
     - name: C1250
       href: c1250.md
     - name: C1251
