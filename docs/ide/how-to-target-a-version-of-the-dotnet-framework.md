@@ -24,11 +24,11 @@ When you create a project, the available .NET Framework versions depend on which
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. Choose a template for the type of project that you want to create. Enter a name for the project.
+1. Choose a .NET Framework template for the type of project that you want to create. Enter a name for the project.
 
 1. From the **Framework** drop-down list at the bottom of the dialog box, choose the version of the .NET Framework that you want your project to target.
 
-   The list of frameworks shows only those versions that are applicable to the template that you chose. Some project types, such as .NET Core, do not require .NET Framework. In such instances, the **Framework** drop-down list is hidden.
+   The list of frameworks shows only those versions that are applicable to the template that you chose. Some project types, such as .NET Core, do not require .NET Framework. In such instances, the **Framework** drop-down list does not appear.
 
    ::: moniker range="vs-2017"
 

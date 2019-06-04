@@ -31,7 +31,7 @@ Dotfuscator Community supports a wide range of .NET assembly and application typ
 ## Intellectual Property Protection
 
 Your application's design, behavior, and implementation are forms of intellectual property (IP).
-However, applications created for the .NET Framework are essentially open books; it's very easy to reverse engineer .NET assemblies, [as they contain high-level metadata and intermediate code][assemblies].
+However, applications created for .NET are essentially open books; it's very easy to reverse engineer .NET assemblies, [as they contain high-level metadata and intermediate code][assemblies].
 
 Dotfuscator Community includes basic [.NET obfuscation][obfuscation] in the form of [renaming][renaming].
 Obfuscating your code with Dotfuscator reduces the risk of unauthorized access to source code through reverse engineering, as important naming information will no longer be public.

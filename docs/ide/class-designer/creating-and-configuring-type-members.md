@@ -302,7 +302,7 @@ If you try to save a project containing a type whose source-code file is read-on
 
 If a code file contains a syntax error, shapes displaying code in that file will be temporarily read-only until the syntax error is fixed. Shapes in this state display red text and a red icon which displays a tooltip reading "The source code file contains a parse error".
 
-A referenced type (such as a .NET Framework type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.
+A referenced type (such as a .NET type), which exists under another project node or under a referenced-assembly node, is indicated on the Class Designer design surface as read-only. A local type, which exists in the project you have open, is read-write, and its shape on the Class Designer design surface is indicated as such.
 
 Indexers are read-write in code and the **Class Details** window, but the indexer name is read-only.
 

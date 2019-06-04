@@ -51,9 +51,9 @@ For information about how to access this property programmatically, see <xref:VS
 
 ### Target framework (all configurations)
 
-Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
+Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-The default value matches the target framework that you specified when you created the project.
+For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
 
 > [!NOTE]
 > The prerequisite packages that are listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically when you open the dialog box for the first time. If you subsequently change the project's target framework, you must specify the prerequisites manually to match the new target framework.
