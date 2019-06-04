@@ -63,4 +63,4 @@ devenv.exe /useenv "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
-- [VC++ Directories Property Page (Windows)](/cpp/ide/vcpp-directories-property-page)
+- [VC++ Directories Property Page (Windows)](/cpp/build/reference/vcpp-directories-property-page)

@@ -40,8 +40,6 @@ For Makefile projects that are based on the NMake project template, choose **NMa
 
 ![Makefile project include paths](media/vcpp-intellisense-makefile-include-paths.png)
 
-For more information, see [How to: Enable IntelliSense for Makefile Projects](/cpp/ide/how-to-enable-intellisense-for-makefile-projects).
-
 ### Open Folder projects
 
 For CMake projects, make sure that #include paths are specified correctly for all configurations in CMakeLists.txt. Other project types might require a CppProperties.json file. For more information, see [Configure IntelliSense with CppProperties.json](/cpp/build/open-folder-projects-cpp#configure-intellisense-and-browsing-hints-with-cpppropertiesjson). Make sure that the paths are correct for each configuration that is defined in the file.
