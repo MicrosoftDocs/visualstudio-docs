@@ -13,7 +13,7 @@ ms.workload:
 ---
 # How to: Target a version of .NET
 
-This article describes how to target a version of the .NET Framework when you create a .NET Framework project. It also describes how to change the targeted version in an existing Visual Basic, C#, or F# project.
+This article describes how to target a specific version of the .NET Framework when you create a .NET Framework project. It also describes how to change the targeted version in an existing Visual Basic, C#, or F# project.
 
 > [!IMPORTANT]
 > For information about how to change the target version for C++ projects, see [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset).
@@ -24,15 +24,18 @@ When you create a .NET Framework project, the available .NET Framework versions 
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
-1. Choose a .NET Framework template for the type of project that you want to create. Enter a name for the project.
+1. Choose a .NET Framework template for the type of project that you want to create.
 
 1. From the **Framework** drop-down list at the bottom of the dialog box, choose the version of the .NET Framework that you want your project to target.
 
-   The list of frameworks shows only those versions that are applicable to the template that you chose. Some project types, such as .NET Core, do not require .NET Framework. In such instances, the **Framework** drop-down list does not appear.
+   The list of frameworks shows only those versions that are applicable to the template that you chose.
+
+   > [!NOTE]
+   > Some project types, such as .NET Core, do not display the **Framework** drop-down list.
 
    ::: moniker range="vs-2017"
 
-   ![Framework drop-down in New Project dialog](media/vside-newproject-framework.png)
+   ![Framework drop-down in New Project dialog Visual Studio 2017](media/vside-newproject-framework.png)
 
    ::: moniker-end
 
