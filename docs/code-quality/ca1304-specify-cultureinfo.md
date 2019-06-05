@@ -34,7 +34,7 @@ A method or constructor calls a member that has an overload that accepts a <xref
 
 ## Rule description
 
-When a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider?displayProperty=nameWithType> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET Framework members choose default culture and formatting based on assumptions that might not be correct for your code. To ensure the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
+When a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider?displayProperty=nameWithType> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET members choose default culture and formatting based on assumptions that might not be correct for your code. To ensure the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
 
 - If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>.
 

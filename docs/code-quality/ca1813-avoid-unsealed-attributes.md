@@ -33,7 +33,7 @@ A public type inherits from <xref:System.Attribute?displayProperty=fullName>, is
 
 ## Rule description
 
-The .NET Framework class library provides methods for retrieving custom attributes. By default, these methods search the attribute inheritance hierarchy. For example, <xref:System.Attribute.GetCustomAttribute%2A?displayProperty=fullName> searches for the specified attribute type or any attribute type that extends the specified attribute type. Sealing the attribute eliminates the search through the inheritance hierarchy, and can improve performance.
+.NET provides methods for retrieving custom attributes. By default, these methods search the attribute inheritance hierarchy. For example, <xref:System.Attribute.GetCustomAttribute%2A?displayProperty=fullName> searches for the specified attribute type or any attribute type that extends the specified attribute type. Sealing the attribute eliminates the search through the inheritance hierarchy, and can improve performance.
 
 ## How to fix violations
 

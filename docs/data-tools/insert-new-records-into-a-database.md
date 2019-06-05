@@ -74,7 +74,7 @@ The following example demonstrates inserting records into a database using comma
 [!code-vb[VbRaddataSaving#16](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_3.vb)]
 [!code-csharp[VbRaddataSaving#16](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_3.cs)]
 
-## .NET Framework security
+## .NET security
 
 You must have access to the database you are trying to connect to, as well as permission to perform inserts into the desired table.
 

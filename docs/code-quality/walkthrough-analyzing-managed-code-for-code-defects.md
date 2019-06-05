@@ -15,7 +15,7 @@ ms.workload:
 
 In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.
 
-This walkthrough steps you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the Microsoft .NET Framework design guidelines.
+This walkthrough steps you through the process of using code analysis to analyze your .NET managed code assemblies for conformance with the .NET design guidelines.
 
 ## Create a class library
 

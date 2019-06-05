@@ -78,7 +78,7 @@ For C/C++ projects, you can set header and LIB file locations in the project pro
 
 1. Select **OK**.
 
-For more information on C++ project settings, see [Property pages (Visual C++)](/cpp/ide/property-pages-visual-cpp).
+For more information on C++ project settings, see [Property pages (Visual C++)](/cpp/build/reference/property-pages-visual-cpp).
 
 ## <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version
 

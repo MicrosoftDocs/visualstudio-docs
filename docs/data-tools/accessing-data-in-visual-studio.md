@@ -149,6 +149,6 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)&mdash;Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.
 
-[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)&mdash;Discusses working with XML data, debugging XSLT, .NET Framework XML features, and the architecture of XML Query.
+[XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)&mdash;Discusses working with XML data, debugging XSLT, .NET XML features, and the architecture of XML Query.
 
-[XML Documents and Data](/dotnet/standard/data/xml/index)&mdash;Provides an overview to a comprehensive and integrated set of classes that work with XML documents and data in the .NET Framework.
+[XML Documents and Data](/dotnet/standard/data/xml/index)&mdash;Provides an overview to a comprehensive and integrated set of classes that work with XML documents and data in .NET.
