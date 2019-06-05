@@ -9,27 +9,30 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Migration Activity Designers
+# Migration activity designers
 
-The Migration activity designers are used to call workflow 3.0/3.5 activities from a workflow targeting the .NET Framework 4. The topics contained in this section provide guidance on how to use the Workflow Designer activity designers.
+The Migration activity designers are used to call workflow 3.0/3.5 activities from a workflow that targets .NET Framework 4 or later.
 
-## Related Sections
- For other types of activity designers, see the following topics.
+The topics contained in this section provide guidance on how to use the Workflow Designer activity designers.
 
- [Control Flow](../workflow-designer/control-flow-activity-designers.md)
+## Related sections
 
- [Flowchart](../workflow-designer/flowchart-activity-designers.md)
+For other types of activity designers, see the following topics:
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Control Flow](../workflow-designer/control-flow-activity-designers.md)
 
- [Messaging](../workflow-designer/messaging-activity-designers.md)
+- [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
- [Runtime](../workflow-designer/runtime-activity-designers.md)
+- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
 
- [Primitives](../workflow-designer/primitives-activity-designers.md)
+- [Messaging](../workflow-designer/messaging-activity-designers.md)
 
- [Transaction](../workflow-designer/transaction-activity-designers.md)
+- [Runtime](../workflow-designer/runtime-activity-designers.md)
 
- [Collection](../workflow-designer/collection-activity-designers.md)
+- [Primitives](../workflow-designer/primitives-activity-designers.md)
 
- [Error Handling](../workflow-designer/error-handling-activity-designers.md)
+- [Transaction](../workflow-designer/transaction-activity-designers.md)
+
+- [Collection](../workflow-designer/collection-activity-designers.md)
+
+- [Error Handling](../workflow-designer/error-handling-activity-designers.md)
