@@ -33,9 +33,7 @@ In Visual Studio, you can save modeling diagrams in read-only formats so that yo
 
 3. In the **Save the file as** dialog box, save the file as an **XPS Document (\*.xps)** file.
 
-## .NET Framework Security
-
-## See Also
+## See also
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Share models and exporting diagrams](../modeling/share-models-and-exporting-diagrams.md)
