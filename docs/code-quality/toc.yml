@@ -797,32 +797,33 @@
     href: demo-sample.md
   - name: Use the C++ Core Guidelines checkers
     href: using-the-cpp-core-guidelines-checkers.md
-  - name: Set Code Analysis Properties
+  - name: Set code analysis properties
     href: how-to-set-code-analysis-properties-for-c-cpp-projects.md
   - name: Rule sets for C++ code
     href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
-  - name: Use SAL Annotations to Reduce Code Defects
-      items:
-      - name: Use SAL Annotations to Reduce Code Defects
-        href: using-sal-annotations-to-reduce-c-cpp-code-defects.md
-      - name: Understand SAL
-        href: understanding-sal.md
-      - name: Annotate Function Parameters and Return Values
-        href: annotating-function-parameters-and-return-values.md
-      - name: Annotate Function Behavior
-        href: annotating-function-behavior.md
-      - name: Annotate Structs and Classes
-        href: annotating-structs-and-classes.md
-      - name: Annotate Locking Behavior
-        href: annotating-locking-behavior.md
-      - name: Specify When and Where an Annotation Applies
-        href: specifying-when-and-where-an-annotation-applies.md
-      - name: Intrinsic Functions
-        href: intrinsic-functions.md
-      - name: Best Practices and Examples (SAL)
-        href: best-practices-and-examples-sal.md
-    - name: Specify Additional Code Information by Using _Analysis_assume
-      href: how-to-specify-additional-code-information-by-using-analysis-assume.md
+  - name: Use SAL annotations to reduce code defects
+    items:
+    - name: Overview
+      displayName: SAL annotations
+      href: using-sal-annotations-to-reduce-c-cpp-code-defects.md
+    - name: Understand SAL
+      href: understanding-sal.md
+    - name: Annotate function parameters and return values
+      href: annotating-function-parameters-and-return-values.md
+    - name: Annotate function behavior
+      href: annotating-function-behavior.md
+    - name: Annotate structs and classes
+      href: annotating-structs-and-classes.md
+    - name: Annotate locking behavior
+      href: annotating-locking-behavior.md
+    - name: Specify when and where an annotation applies
+      href: specifying-when-and-where-an-annotation-applies.md
+    - name: Intrinsic functions
+      href: intrinsic-functions.md
+    - name: Best practices and examples (SAL)
+      href: best-practices-and-examples-sal.md
+  - name: Specify additional code information by using _Analysis_assume
+    href: how-to-specify-additional-code-information-by-using-analysis-assume.md
   - name: C++ Core Guidelines checker warnings
     items:
     - name: Overview
