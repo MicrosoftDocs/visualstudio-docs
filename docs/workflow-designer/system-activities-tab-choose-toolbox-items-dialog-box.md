@@ -14,14 +14,14 @@ ms.workload:
 ---
 # System.Activities tab, Choose Toolbox Items dialog box
 
-This tab of the **Choose Toolbox Items** dialog box displays a list of Windows Workflow Foundation (WF) activities, templates and items available to you. To display this list, select **Choose Toolbox Items** from the **Tools** menu or by right-clicking the **Toolbox** and selecting **Choose Items** to display the **Choose Toolbox Items** dialog box, and then select its **System.Activities** tab. Out of the box, the list contains workflow activities from System.Activities, System.ServiceModel.Activities, and System.Activities.Core.Presentation assemblies; however, only the system-provided activities shown and activities added through other assemblies displayed in the **Toolbox** are checked by default. Recently added activities are automatically checked and appear in the **Toolbox** when you click **OK** on the dialog box. Also, these items appear in the **Toolbox** under a new category that corresponds to the namespace where the activity/item/template resides.
+This tab of the **Choose Toolbox Items** dialog box displays a list of Windows Workflow Foundation (WF) activities, templates, and items available to you. To display this list, select **Choose Toolbox Items** from the **Tools** menu or by right-clicking the **Toolbox** and selecting **Choose Items** to display the **Choose Toolbox Items** dialog box, and then select its **System.Activities** tab. Out of the box, the list contains workflow activities from System.Activities, System.ServiceModel.Activities, and System.Activities.Core.Presentation assemblies; however, only the system-provided activities shown and activities added through other assemblies displayed in the **Toolbox** are checked by default. Recently added activities are automatically checked and appear in the **Toolbox** when you click **OK** on the dialog box. Also, these items appear in the **Toolbox** under a new category that corresponds to the namespace where the activity/item/template resides.
 
 > [!WARNING]
 > If you try to add an assembly that does not contain any workflow activities, an error dialog is displayed that explains that the assembly does not contain any activities.
 
 This dialog box is project agnostic and hence the **System.Activities** tab continues to show up in standalone XAML or a non-workflow project type.
 
-Filtering is done on each tab. This means it is not possible to add workflow activities through the **.NET Component** tab. They have to be added through the **System.Activities** tab itself.
+Filtering is done on each tab, and it's not possible to add workflow activities through the **.NET Component** tab. Add them through the **System.Activities** tab itself.
 
 You can uncheck any items you do not want to see in the **Toolbox** from this dialog tab, or alternatively, you can do so using the **Delete** right-click menu option in the **Toolbox** and de-referencing an assembly does not remove the item from the **Toolbox**.
 
