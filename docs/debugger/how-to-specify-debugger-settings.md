@@ -39,4 +39,4 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify va
 - [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
 - [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
-- [Common Macros for Build Commands and Properties](/cpp/ide/common-macros-for-build-commands-and-properties)
+- [Common Macros for Build Commands and Properties](/cpp/build/reference/common-macros-for-build-commands-and-properties)

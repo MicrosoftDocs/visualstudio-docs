@@ -26,7 +26,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/
 
  This article describes specific aspects of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]'s [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] hosting that should be considered when customizing projects and *.targets* files that you wish to load and build in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. These will help you make sure [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features like IntelliSense and debugging work for your custom project.
 
- For information about C++ projects, see [Project files](/cpp/ide/project-files).
+ For information about C++ projects, see [Project files](/cpp/build/reference/project-files).
 
 ## Project file name extensions
  *MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not have a language-neutral [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] based project system.

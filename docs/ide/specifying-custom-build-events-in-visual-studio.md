@@ -22,7 +22,7 @@ By specifying a custom build event, you can automatically run commands before a 
 
 - C# and F#--[How to: Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md).
 
-- Visual C++--[Specify build events](/cpp/ide/specifying-build-events).
+- Visual C++--[Specify build events](/cpp/build/specifying-build-events).
 
 ## Syntax
 
