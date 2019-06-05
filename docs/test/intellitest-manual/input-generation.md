@@ -210,6 +210,6 @@ The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to 
 
 Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).
 
-## See also
+## Further reading
 
 * [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)
