@@ -49,8 +49,8 @@ These are the classes that you should identify:
 
 - *YourDslName* `DomainModel` - This class is defined in `DomainModel.cs` in your DSL project.
 
-## Read from a fil
-e
+## Read from a file
+
 The following example is designed to read a DSL in which the important classes are as follows:
 
 - FamilyTreeModel
