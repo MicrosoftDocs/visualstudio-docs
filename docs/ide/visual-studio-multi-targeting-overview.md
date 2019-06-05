@@ -1,5 +1,5 @@
 ---
-title: Targeted frameworks
+title: Targeted .NET frameworks
 ms.date: 02/06/2018
 ms.topic: conceptual
 helpviewer_keywords:
