@@ -23,7 +23,7 @@ For information about how to configure a rule set for ASP.NET web applications, 
 > [!NOTE]
 > This article applies to static code analysis and not to [Roslyn analyzers](use-roslyn-analyzers.md), which don't run code analysis after build.
 
-## To configure a rule set for a .NET Framework project
+## Configure a rule set for a .NET Framework project
 
 1. Open the **Code Analysis** tab on the project's property pages. You can do this in either of the following ways:
 

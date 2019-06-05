@@ -201,6 +201,21 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/troubleshooting-code-analysis-issues.md",
+            "redirect_url": "/visualstudio/code-quality/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/troubleshooting-code-metrics-issues.md",
+            "redirect_url": "/visualstudio/code-quality/code-metrics-values",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/troubleshooting-quality-tools.md",
+            "redirect_url": "/visualstudio/code-quality/index",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
             "redirect_url": "/visualstudio/containers/",
             "redirect_document_id": false
@@ -1646,6 +1661,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/reference/synchronized-settings-environment-options-dialog-box.md",
+            "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/reference/accessibility-for-people-with-disabilities.md",
             "redirect_url": "/visualstudio/ide/reference/accessibility-features-of-visual-studio",
             "redirect_document_id": false
@@ -1703,6 +1723,26 @@
         {
             "source_path": "docs/ide/reference/visual-studio-reference.md",
             "redirect_url": "/visualstudio/ide/reference/general-user-interface-elements-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/options-page-debugging-node-properties.md",
+            "redirect_url": "/visualstudio/ide/reference/options-page-debugging-node-properties?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/options-page-environment-node-properties.md",
+            "redirect_url": "/visualstudio/ide/reference/options-page-environment-node-properties?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/options-page-fonts-and-colors-node-properties.md",
+            "redirect_url": "/visualstudio/ide/reference/options-page-fonts-and-colors-node-properties?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/options-page-text-editor-node-properties.md",
+            "redirect_url": "/visualstudio/ide/reference/options-page-text-editor-node-properties?view=vs-2015",
             "redirect_document_id": false
         },
         {
@@ -1893,6 +1933,11 @@
         {
             "source_path": "docs/install/install-vs-inconsistent-quality-network.md",
             "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/modeling/create-uml-modeling-projects-and-diagrams.md",
+            "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -2678,11 +2723,6 @@
         {
             "source_path": "docs/python/vs-tutorial-01-06.md",
             "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-06-working-with-git",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/reference/synchronized-settings-environment-options-dialog-box.md",
-            "redirect_url": "/visualstudio/ide/reference/accounts-environment-options-dialog-box",
             "redirect_document_id": false
         },
         {
@@ -7488,6 +7528,16 @@
         {
             "source_path": "docs/vs-2015/ide/whats-new-in-visual-studio.md",
             "redirect_url": "/visualstudio/what-s-new-in-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/azure/vs-azure-tools-resource-groups-ci.md",
+            "redirect_url": "/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/azure/vs-azure-tools-resource-groups-ci.md",
+            "redirect_url": "/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy",
             "redirect_document_id": false
         }
     ]

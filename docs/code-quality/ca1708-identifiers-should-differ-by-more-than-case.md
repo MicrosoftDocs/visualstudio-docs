@@ -42,7 +42,7 @@ Select a name that is unique when it is compared to other identifiers in a case-
 
 ## When to suppress warnings
 
-Do not suppress a warning from this rule. The library might not be usable in all available languages in the .NET Framework.
+Do not suppress a warning from this rule. The library might not be usable in all available languages in .NET.
 
 ## Configurability
 

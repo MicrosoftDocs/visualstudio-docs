@@ -25,13 +25,17 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A resource file was built using a version of the .NET Framework that is not currently supported.
+
+A resource file was built using a version of .NET that is not currently supported.
 
 ## Rule description
- Resource files that were built by using pre-release versions of the .NET Framework might not be usable by supported versions of the .NET Framework.
+
+Resource files that were built by using pre-release versions of .NET might not be usable by supported versions of .NET.
 
 ## How to fix violations
- To fix a violation of this rule, build the resource using a supported version of the .NET Framework.
+
+To fix a violation of this rule, build the resource using a supported version of .NET.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+
+Do not suppress a warning from this rule.
