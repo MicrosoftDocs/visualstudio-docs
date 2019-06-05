@@ -8,6 +8,7 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
   - "dotnet"
+monikerRange: vs-2017
 ---
 # Target older versions of .NET (F#)
 

@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Develop globalized and localized apps
 
-Visual Studio makes developing for an international audience easy by taking advantage of services built into the [.NET Framework](/dotnet/standard/globalization-localization/).
+Visual Studio makes developing for an international audience easy by taking advantage of services built into [.NET](/dotnet/standard/globalization-localization/).
 
 For example, the project system for Windows Forms apps can generate resource files for both the fallback UI culture and each additional UI culture. When you build a project in Visual Studio, the resource files are compiled from the Visual Studio XML format (.resx) to an intermediate binary format (.resources), which are then embedded in satellite assemblies. For more information, see [Resource files in Visual Studio](/dotnet/framework/resources/creating-resource-files-for-desktop-apps#VSResFiles) and [Create satellite assemblies for desktop apps](/dotnet/framework/resources/creating-satellite-assemblies-for-desktop-apps).
 

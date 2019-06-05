@@ -48,7 +48,8 @@ This topic describes MSBuild errors that might occur because of reference issues
 > After you close and reopen your project, you should also rebuild it to ensure that all references resolve correctly.
 
 ## See also
+
 - [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
 - [.NET Framework client profile](/dotnet/framework/deployment/client-profile)
-- [Targeting a specific .NET Framework version](../ide/visual-studio-multi-targeting-overview.md)
+- [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md)
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
