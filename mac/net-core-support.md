@@ -11,12 +11,12 @@ ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
 
 The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
 
-.Net Core Version  |Visual Studio for Mac 8.0 (Stable)  |Visual Studio for Mac 8.1 (Preview)  |
+.NET Core SDK Version  |Visual Studio for Mac 8.0 (Stable)  |Visual Studio for Mac 8.1 (Preview)  |
 |---------|---------|---------|
-|v2.1.0 - v2.1.5    |✔|✗|
-|v2.1.6 +     |✗|✔︎|
-|v2.2.0 - v2.2.1|✔︎|✗|
-|v2.2.2 + |✗| ✔︎ |
+|v2.1.0 - v2.1.5xx    |✔|✗|
+|v2.1.600 +     |✗|✔︎|
+|v2.2.1 - v2.2.1xx|✔︎|✗|
+|v2.2.200 + |✗| ✔︎ |
 |v3.0 < Preview 4 |✗|✗|
 |v3.0 Preview 4 + |✗|✔︎ |
 
