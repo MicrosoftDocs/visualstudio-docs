@@ -47,7 +47,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/Blame**|Tracks the tests as they're executing and, if the test host process crashes, emits the tests names in their sequence of execution up to and including the specific test that was running at the time of the crash. This output makes it easier to isolate the offending test and diagnose further. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/extensions/blame-datacollector.md).|
 |**/Diag:[*file name*]**|Writes diagnostic trace logs to the specified file.|
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
-|**/ParentProcessId:[*parentProcessId*]**|Process Id of the Parent Process responsible for launching current process.|
+|**/ParentProcessId:[*parentProcessId*]**|Process ID of the Parent Process responsible for launching current process.|
 |**/Port:[*port*]**|The Port for socket connection and receiving the event messages.|
 |**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://aka.ms/vstest-collect).|
 

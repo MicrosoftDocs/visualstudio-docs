@@ -10,7 +10,7 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ---
-# How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer
+# How to: Create an add-in for the Web Performance Test Results Viewer
 
 You can extend the UI for the **Web Performance Test Results Viewer** by using the following namespaces:
 

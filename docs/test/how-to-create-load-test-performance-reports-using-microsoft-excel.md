@@ -64,7 +64,7 @@ Excel reports can either be generated in the **Load Test Analyzer**, by using th
 
    2. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
 
-   3. In the **Databasename** drop-down list, select the database containing the load test results.
+   3. In the **Database name** drop-down list, select the database containing the load test results.
 
 3. In the **How do you want to generate your report** page, verify that **Create a report** is selected and choose **Next**.
 
@@ -119,7 +119,7 @@ Excel reports can either be generated in the **Load Test Analyzer**, by using th
 
    2. In the **Select database which contains load tests** page, under **Server name**, type the name of the server containing the load test results.
 
-   3. In the **Databasename** drop-down list, select the database containing the load test results.
+   3. In the **Database name** drop-down list, select the database containing the load test results.
 
 3. In the **How do you want to generate your report** page, verify that **Create a report** is selected and choose **Next**.
 
