@@ -81,8 +81,8 @@
         href: working-in-the-code-analysis-rule-set-editor.md
       - name: Code analysis application errors
         items:
-       - name: Overview
-         href: code-analysis-application-errors.md
+        - name: Overview
+          href: code-analysis-application-errors.md
         - name: "CA0001"
           href: ca0001.md
         - name: "CA0051"
