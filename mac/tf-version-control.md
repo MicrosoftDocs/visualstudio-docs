@@ -41,8 +41,6 @@ If you're comfortable using the macOS Terminal, then the Team Explorer Everywher
 
 You can follow the steps below to set up your connection to TFVC and commit changes.
 
-Special thanks to Chris Pilcher, a developer in our community, whose [original instructions for the TEE-CLC](https://gist.github.com/chris-pilcher/a3f14eb081d7ab983e5c) formed the basis of this section.
-
 ### Setting up the TEE-CLC
 
 There are two ways to get setup with the TEE-CLC.
