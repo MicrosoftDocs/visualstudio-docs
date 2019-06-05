@@ -79,7 +79,7 @@ TableAdapters extend the functionality of standard data adapters by encapsulatin
 
 ## TableAdapter methods and properties
 
-The TableAdapter class is not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. This means you can't look it up in the documentation or the **Object Browser**. It's created at design time when you use one of the wizards mentioned earlier. The name that's assigned to a TableAdapter when you create it is based on the name of the table you are working with. For example, when you create a TableAdapter based on a table in a database named `Orders`, the TableAdapter is named `OrdersTableAdapter`. The class name of the TableAdapter can be changed using the **Name** property in the **Dataset Designer**.
+The TableAdapter class is not part of the .NET Framework. This means you can't look it up in the documentation or the **Object Browser**. It's created at design time when you use one of the wizards mentioned earlier. The name that's assigned to a TableAdapter when you create it is based on the name of the table you are working with. For example, when you create a TableAdapter based on a table in a database named `Orders`, the TableAdapter is named `OrdersTableAdapter`. The class name of the TableAdapter can be changed using the **Name** property in the **Dataset Designer**.
 
 Following are the commonly used methods and properties of TableAdapters:
 
@@ -116,7 +116,7 @@ TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more informa
 
 By default, a TableAdapterManager class generates when you create a dataset that contains related tables. To prevent the class from being generated, change the value of the `Hierarchical Update` property of the dataset to false. When you drag a table that has a relation onto the design surface of a Windows Form or WPF page, Visual Studio declares a member variable of the class. If you don't use databinding, you have to manually declare the variable.
 
-The TableAdapterManager class is not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. Therefore, you cannot look it up in the documentation. It is created at design time as part of the dataset creation process.
+The TableAdapterManager class is not part of the .NET Framework. Therefore, you cannot look it up in the documentation. It is created at design time as part of the dataset creation process.
 
 The following are the frequently used methods and properties of the `TableAdapterManager` class:
 

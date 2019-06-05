@@ -134,7 +134,7 @@ You can customize the appearance and behavior of the properties window in your d
 
  The type of `AnEditor` must be derived from the type specified in the second parameter. The second parameter should be either <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.ComponentEditor>. For more information, see <xref:System.ComponentModel.EditorAttribute>.
 
- You can specify either your own editor, or an editor supplied in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], such as <xref:System.Windows.Forms.Design.FileNameEditor> or <xref:System.Drawing.Design.ImageEditor>. For example, use the following procedure to have a property in which the user can enter a file name.
+ You can specify either your own editor, or an editor supplied in the .NET Framework, such as <xref:System.Windows.Forms.Design.FileNameEditor> or <xref:System.Drawing.Design.ImageEditor>. For example, use the following procedure to have a property in which the user can enter a file name.
 
 ##### To define a file name domain property
 

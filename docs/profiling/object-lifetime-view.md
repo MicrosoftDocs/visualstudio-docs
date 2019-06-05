@@ -20,7 +20,7 @@ ms.workload:
 # Object Lifetime View
 The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the **Performance Session** property pages.
 
- The garbage collector of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.
+ The garbage collector of the .NET Framework manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.
 
  The garbage collector reclaims memory by deallocating a whole generation of objects. For objects that were created by the profiled application, the Object Lifetime view displays the number and size of the objects and the generation in which they are reclaimed.
 

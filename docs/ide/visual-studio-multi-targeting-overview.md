@@ -27,7 +27,7 @@ You can also create a solution that contains projects that target different vers
 
 Framework targeting includes the following features:
 
-- When you open a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], Visual Studio can automatically upgrade it or leave the target as-is.
+- When you open a project that targets an earlier version of the .NET Framework, Visual Studio can automatically upgrade it or leave the target as-is.
 
 - When you create a project, you can specify the version of the .NET Framework that you want to target.
 
@@ -37,7 +37,7 @@ Framework targeting includes the following features:
 
 - When you change the version of the .NET Framework that a project targets, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] makes any required changes to references and configuration files.
 
-When you work on a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], Visual Studio dynamically changes the development environment, as follows:
+When you work on a project that targets an earlier version of the .NET Framework, Visual Studio dynamically changes the development environment, as follows:
 
 - It filters items in the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.
 

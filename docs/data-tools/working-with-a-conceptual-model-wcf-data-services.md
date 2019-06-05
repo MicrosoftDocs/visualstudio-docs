@@ -21,7 +21,7 @@ When you use a conceptual model to describe the data in a database, you can quer
 
 | Topic | Description |
 | - | - |
-| [How to: Execute Data Service queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services) | Shows how to query a data service from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] application. |
+| [How to: Execute Data Service queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services) | Shows how to query a data service from a .NET Framework application. |
 | [How to: Project query results](/dotnet/framework/data/wcf/how-to-project-query-results-wcf-data-services) | Shows how to reduce the amount of data returned through a data service query. |
 
  When you use a conceptual model, you can define what kind of data is valid in the language that matches your domain. You can define valid data in the model, or you can add validation to operations that you perform on an entity or data service.

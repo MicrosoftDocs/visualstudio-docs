@@ -39,7 +39,7 @@ Text templates in Visual Studio provide a useful way of generating text of any k
      In your code, use `this.Host.ResolvePath(filename)` to obtain the full path of the file.
 
 ### Invoke methods from a template
- If the methods already exist, for example, in standard [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes:
+ If the methods already exist, for example, in standard .NET Framework classes:
 
 - Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).
 

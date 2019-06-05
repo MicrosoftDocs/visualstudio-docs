@@ -92,7 +92,7 @@ To access the **Configure Service Reference** dialog box, right-click a service 
  Displays the **Add Web Reference** dialog box.
 
 > [!NOTE]
-> This option should only be used for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+> This option should only be used for projects that target version 2.0 of the .NET Framework.
 >
 > [!NOTE]
 > The **Add Web Reference** button is only available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.

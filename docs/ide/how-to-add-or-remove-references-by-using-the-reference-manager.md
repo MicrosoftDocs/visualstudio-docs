@@ -86,9 +86,9 @@ Some components in the list may not be shown, depending on the .NET Framework ve
 
     For information about how to change the target .NET Framework version for a project, see [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
 
-- A component that uses [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)].
+- A component that uses .NET Framework 4 is incompatible with a project that targets the .NET Framework 4.5.
 
-    When you create a new application, some projects target the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] by default.
+    When you create a new application, some projects target the .NET Framework 4.5 by default.
 
 You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md).
 
@@ -131,9 +131,9 @@ You should avoid adding file references to outputs of another project in the sam
 
 The **Projects** tab lists all compatible projects within the current solution, in the **Solution** sub-tab.
 
-A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] project. For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
+A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the .NET Framework 4 but that references an assembly that's been built for the .NET Framework 2. However, the .NET Framework 2 project can't reference a .NET Framework 4 project. For more information, see [Multi-targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
-A project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].
+A project that targets the .NET Framework 4 is incompatible with a project that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].
 
 A file reference is created instead of a project reference if one project targets the .NET Framework 4 and another project targets an earlier version.
 
