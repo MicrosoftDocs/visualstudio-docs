@@ -330,7 +330,7 @@ Create a test method to verify correct behavior when the debit amount is less th
 
 ```csharp
 [TestMethod]
-[ExpectedException(typeof(ArgumentOutOfRangeException))]
+[ExpectedException(typeof(System.ArgumentOutOfRangeException))]
 public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
 {
     // Arrange
@@ -383,12 +383,12 @@ Then, modify the two conditional statements in the `Debit` method:
 ```csharp
     if (amount > m_balance)
     {
-        throw new ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
+        throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
     }
 
     if (amount < 0)
     {
-        throw new ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
+        throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
     }
 ```
 
@@ -412,7 +412,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     {
         account.Debit(debitAmount);
     }
-    catch (ArgumentOutOfRangeException e)
+    catch (System.ArgumentOutOfRangeException e)
     {
         // Assert
         StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
@@ -442,7 +442,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     {
         account.Debit(debitAmount);
     }
-    catch (ArgumentOutOfRangeException e)
+    catch (System.ArgumentOutOfRangeException e)
     {
         // Assert
         StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
