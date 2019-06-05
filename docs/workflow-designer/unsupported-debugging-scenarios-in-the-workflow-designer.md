@@ -11,9 +11,7 @@ author: gewarren
 ---
 # Unsupported debugging scenarios in the Workflow Designer
 
-The Workflow Designer in .NET Framework 4 added many new features, but there are still some debugging scenarios that it does not support.
-
-The following are the unsupported Workflow Designer debugging scenarios:
+The Workflow Designer does not support the following debugging scenarios:
 
 - Execution cannot be continued after code has been edited.
 
@@ -23,7 +21,7 @@ The following are the unsupported Workflow Designer debugging scenarios:
 
 - The workflow designer cannot be used to debug workflows created in code without the use of the designer.
 
-- Workflows created in earlier versions of Windows Workflow Foundation (WF) cannot be debugged in the .NET Framework 4 designer.
+- Workflows created in earlier versions of Windows Workflow Foundation (WF) cannot be debugged in .NET Framework 4 or later.
 
 - Breakpoints cannot be defined on links between activities or <xref:System.Activities.Statements.Flowchart> nodes.
 

@@ -15,7 +15,7 @@ ms.workload:
 The **Create Unit Tests** command creates unit test method stubs. This feature allows easy configuration of a test project, the test class, and the test method stub within it.
 
 > [!NOTE]
-> The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
+> The **Create Unit Tests** menu command is only available for managed code that targets .NET Framework (but not .NET Core).
 
 The **Create Unit Tests** menu command is extensible and can be used to generate tests for MSTest, MSTest V2, NUnit, and xUnit.
 

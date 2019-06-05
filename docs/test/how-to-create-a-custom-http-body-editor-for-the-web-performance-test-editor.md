@@ -37,7 +37,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 1. In the **Properties**, select the **Application** tab.
 
-1. In the **Target framework** drop-down list, select **.NET Framework 4**.
+1. In the **Target framework** drop-down list, select .NET Framework 4 (or later).
 
 1. The **Target Framework Change** dialog box is displayed.
 

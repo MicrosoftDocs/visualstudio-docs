@@ -65,7 +65,7 @@ The **section** element should look similar to this:
 ```
 
 > [!NOTE]
-> The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using.
+> The assembly name must match the version that you are using.
 
 ## Define connection strings
 
