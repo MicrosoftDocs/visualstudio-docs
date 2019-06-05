@@ -18,7 +18,7 @@ In Visual Studio, you can specify the version of .NET that you want your project
 
 For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
 
-You can also create a solution that contains projects that target different versions of .NET. Framework targeting helps guarantee that the application uses only functionality that is available in the specified frameowrk version.
+You can also create a solution that contains projects that target different versions of .NET. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version.
 
 > [!TIP]
 > You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
