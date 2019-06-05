@@ -82,4 +82,4 @@ In this example, the minimum version of the .NET Framework that is required by t
 
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Create project and item templates](../ide/creating-project-and-item-templates.md)
-- [Target a specific .NET Framework version](../ide/visual-studio-multi-targeting-overview.md)
+- [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md)
