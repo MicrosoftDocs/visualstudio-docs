@@ -30,7 +30,7 @@ The term *side-by-side* means that you can install and maintain multiple version
    For more information, see [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md) and also [Component Management](../extensibility/internals/component-management.md).
 
   > [!NOTE]
-  > Installing a version of Visual Studio also installs a corresponding version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], respectively.
+  > Installing a version of Visual Studio also installs a corresponding version of the .NET Framework. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the .NET Framework, respectively.
 
 ## In This Section
 - [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md)

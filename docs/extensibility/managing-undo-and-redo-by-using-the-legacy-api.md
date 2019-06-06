@@ -12,7 +12,7 @@ ms.workload:
   - "vssdk"
 ---
 # Manage undo and redo by using the legacy API
-Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] can have undo support automatically provided by the integrated development environment (IDE).
+Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the .NET Framework can have undo support automatically provided by the integrated development environment (IDE).
 
 ## In this section
 - [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)

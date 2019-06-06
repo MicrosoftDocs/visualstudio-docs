@@ -936,6 +936,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/how-to-step-out-of-managed-code-when-native-frames-are-missing-from-the-call-stack-window.md",
+            "redirect_url": "/visualstudio/debugger/how-to-use-the-call-stack-window",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/deploy-iis-with-web-deploy.md",
             "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later",
             "redirect_document_id": false
