@@ -34,7 +34,11 @@ ms.workload:
  Unused local variables and unnecessary assignments increase the size of an assembly and decrease performance.
 
 ## How to fix violations
- To fix a violation of this rule, remove or use the local variable. Note that the C# compiler that is included with .NET Framework 2.0 removes unused local variables when the `optimize` option is enabled.
+
+To fix a violation of this rule, remove or use the local variable.
+
+> [!NOTE]
+> The C# compiler removes unused local variables when the `optimize` option is enabled.
 
 ## When to suppress warnings
  Suppress a warning from this rule if the variable was compiler emitted. It is also safe to suppress a warning from this rule, or to disable the rule, if performance and code maintenance are not primary concerns.

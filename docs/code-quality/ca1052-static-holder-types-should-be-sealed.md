@@ -40,7 +40,7 @@ Rule CA1052 assumes that a type that contains only static members is not designe
 
 ## How to fix violations
 
-To fix a violation of this rule, mark the type as `sealed` or `NotInheritable`. If you're targeting .NET Framework 2.0 or later, a better approach is to mark the type as `static` or `Shared`. In this manner, you don't have to declare a private constructor to prevent the class from being created.
+To fix a violation of this rule, mark the type as `sealed` or `NotInheritable`. If the project targets .NET Framework 2.0 or later, a better approach is to mark the type as `static` or `Shared`. In this manner, you don't have to declare a private constructor to prevent the class from being created.
 
 ## When to suppress warnings
 
