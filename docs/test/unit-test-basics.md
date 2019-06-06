@@ -174,7 +174,7 @@ public void Withdraw_AmountMoreThanBalance_Throws()
     var account = new CheckingAccount("John Doe", 10.0);
 
     // act and assert
-    Assert.ThrowsException<ArgumentException>(() => account.Withdraw(20.0););
+    Assert.ThrowsException<System.ArgumentException>(() => account.Withdraw(20.0));
 }
 ```
 

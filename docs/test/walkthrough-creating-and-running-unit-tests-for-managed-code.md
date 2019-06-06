@@ -395,7 +395,7 @@ if (amount < 0)
 
 ### Refactor the test methods
 
-Refactor the test methods by removing the call to <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A>. Wrap the call to `Debit()` in a `try/catch` block, catch the specific exception that's expected, and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
+Refactor the test methods by removing the call to <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType>. Wrap the call to `Debit()` in a `try/catch` block, catch the specific exception that's expected, and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
 
 Now, the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like this:
 

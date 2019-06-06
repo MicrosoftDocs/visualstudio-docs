@@ -75,7 +75,7 @@ Unit tests can verify specific application behavior by their use of various kind
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A>
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert>
 
