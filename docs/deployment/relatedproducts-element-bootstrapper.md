@@ -68,7 +68,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
 |`Code`|The code name of the included product, as specified by the `ProductCode` attribute of the `Product` element. For more information, see [\<Product> Element](../deployment/product-element-bootstrapper.md).|
 
 ## Example
- The following code example specifies that the Microsoft Installer is installed with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], and therefore will not need a separate installation.
+ The following code example specifies that the Microsoft Installer is installed with the .NET Framework, and therefore will not need a separate installation.
 
 ```xml
 <RelatedProducts>

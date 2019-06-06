@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Application deployment prerequisites
 
-To have your application to install and run successfully, first install all components upon which your application is dependent onto the target computer. For example, most applications created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. In this case, the correct version of the common language runtime must be present on the destination computer before the application is installed.
+To have your application to install and run successfully, first install all components upon which your application is dependent onto the target computer. For example, most applications created using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the .NET Framework. In this case, the correct version of the common language runtime must be present on the destination computer before the application is installed.
 
  You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and any other redistributable as a part of your installation. This practice is known as *bootstrapping*. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a Windows executable program named *Setup.exe*, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
 
@@ -70,7 +70,7 @@ To have your application to install and run successfully, first install all comp
 | **-?, -h, -help** | Displays a Help dialog box. |
 | **-url, -componentsurl** | Shows the stored URL and components url for this set up. |
 | **-url=** `location` | Sets the URL where *Setup.exe* will look for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. |
-| **-componentsurl=** `location` | Sets the URL where *Setup.exe* will look for the dependencies, such as the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. |
+| **-componentsurl=** `location` | Sets the URL where *Setup.exe* will look for the dependencies, such as the .NET Framework. |
 | **-homesite=** `true` **&#124;** `false` | When `true`, downloads the dependencies from the preferred location on the vendor's site. This setting overrides the **-componentsurl** setting. When `false`, downloads the dependencies from the URL specified by **-componentsurl**. |
 
 ## Operating system support

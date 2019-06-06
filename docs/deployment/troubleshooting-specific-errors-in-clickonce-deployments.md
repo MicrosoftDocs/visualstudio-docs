@@ -30,7 +30,7 @@ This article lists the following common errors that can occur when you deploy a 
 
  First, make sure that the server is configured to associate the *.application* extension with content type "application/x-ms-application."
 
- If the server is configured correctly, check that the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] to re-register the content type on the client.
+ If the server is configured correctly, check that the .NET Framework 2.0 is installed on your computer. If the .NET Framework 2.0 is installed, and you are still seeing this problem, try uninstalling and reinstalling the .NET Framework 2.0 to re-register the content type on the client.
 
 #### Error message says, "Unable to retrieve application. Files missing in deployment" or "Application download has been interrupted, check for network errors and try again later"
  This message indicates that one or more files being referenced by the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests cannot be downloaded. The easiest way to debug this error is to try to download the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] says it cannot download. Here are some possible causes:
