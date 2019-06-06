@@ -1,5 +1,5 @@
 ---
-title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference"
+title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API"
 ms.date: 11/04/2017
 ms.topic: reference
 ms.author: mblome
