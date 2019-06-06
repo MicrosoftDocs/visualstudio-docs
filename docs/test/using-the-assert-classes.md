@@ -39,7 +39,7 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveExcepti
 
 If you write a new assert exception class, inherit from the base class <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException> to make it easier to identify the exception as an assertion failure instead of an unexpected exception thrown from your test or production code.
 
-Decorate a test method with the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> attribute when you want the test method to verify that an exception you expect to be thrown by a method in your application code is actually thrown.
+To verify that an exception you expect to be thrown by a method in your application code is actually thrown, use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A> method.
 
 ## See also
 

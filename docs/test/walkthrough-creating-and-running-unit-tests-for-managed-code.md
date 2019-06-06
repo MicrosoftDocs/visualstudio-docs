@@ -334,7 +334,6 @@ Create a test method to verify correct behavior when the debit amount is less th
 
 ```csharp
 [TestMethod]
-[ExpectedException(typeof(System.ArgumentOutOfRangeException))]
 public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
 {
     // Arrange
@@ -342,14 +341,12 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
     double debitAmount = -100.00;
     BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
 
-    // Act
-    account.Debit(debitAmount);
-
-    // Assert is handled by the ExpectedException attribute on the test method.
+    // Act and assert
+    Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => account.Debit(debitAmount));
 }
 ```
 
-Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> attribute to assert that the correct exception has been thrown. The attribute causes the test to fail unless an <xref:System.ArgumentOutOfRangeException> is thrown. If you temporarily modify the method under test to throw a more generic <xref:System.ApplicationException> when the debit amount is less than zero, the test behaves correctly&mdash;that is, it fails.
+Use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A> method to assert that the correct exception has been thrown. This method causes the test to fail unless an <xref:System.ArgumentOutOfRangeException> is thrown. If you temporarily modify the method under test to throw a more generic <xref:System.ApplicationException> when the debit amount is less than zero, the test behaves correctly&mdash;that is, it fails.
 
 To test the case when the amount withdrawn is greater than the balance, do the following steps:
 
@@ -359,7 +356,7 @@ To test the case when the amount withdrawn is greater than the balance, do the f
 
 3. Set the `debitAmount` to a number greater than the balance.
 
-Running the two test methods demonstrates that the tests work correctly.
+Running the two tests and verify that they pass.
 
 ### Continue the analysis
 
@@ -385,20 +382,20 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount is less than 
 Then, modify the two conditional statements in the `Debit` method:
 
 ```csharp
-    if (amount > m_balance)
-    {
-        throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
-    }
+if (amount > m_balance)
+{
+    throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
+}
 
-    if (amount < 0)
-    {
-        throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
-    }
+if (amount < 0)
+{
+    throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
+}
 ```
 
 ### Refactor the test methods
 
-Remove the `ExpectedException` test method attribute and instead, catch the thrown exception and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
+Refactor the test methods by removing the call to <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A>. Wrap the call to `Debit()` in a `try/catch` block, catch the specific exception that's expected, and verify its associated message. The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> method provides the ability to compare two strings.
 
 Now, the `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange` might look like this:
 
