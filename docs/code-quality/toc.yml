@@ -163,7 +163,6 @@
     - name: Rule sets
       items:
       - name: Overview
-        displayName: rule set reference
         href: rule-set-reference.md
       - name: All Rules rule set
         href: all-rules-rule-set.md
@@ -194,7 +193,6 @@
     - name: Managed code warnings
       items:
       - name: Overview
-        displayName: Managed code warnings
         href: code-analysis-for-managed-code-warnings.md
       - name: Warnings by CheckId
         href: code-analysis-warnings-for-managed-code-by-checkid.md
@@ -549,7 +547,6 @@
       - name: Security warnings
         items:
         - name: Overview
-          displayName: "security warnings"
           href: security-warnings.md
         - name: "CA2100: Review SQL queries for security vulnerabilities"
           href: ca2100-review-sql-queries-for-security-vulnerabilities.md
