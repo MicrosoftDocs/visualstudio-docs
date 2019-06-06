@@ -41,7 +41,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
 
-1. Select the type of container you want (Windows or Linux) and click **OK**.
+1. Select the Linux container type, and click **OK**.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 1. Create a new project using the **ASP.NET Core Web Application** template.
