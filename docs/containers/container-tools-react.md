@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET Core
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
-ms.date: 02/01/2019
+ms.date: 06/06/2019
 ms.technology: vs-azure
 ms.topic: include
 ---
@@ -155,11 +155,11 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
     ![Visual Studio's create Azure Container Registry dialog][0]
 
-1. Click **Create**
+1. Click **Create**.
 
    ![Screenshot showing successful publish](media/container-tools/publish-succeeded.png)
 
-## Next Steps
+## Next steps
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
