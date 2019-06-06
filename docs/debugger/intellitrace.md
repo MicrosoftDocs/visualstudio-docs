@@ -11,9 +11,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging applications"
   - "debugger, (See also IntelliTrace [Visual Studio ALM])"
   - "debugging, (See also IntelliTrace [Visual Studio ALM])"
-  - "IntelliTrace, collecting data from Test Manager"
   - "IntelliTrace"
-  - "Test Manager, debugging with IntelliTrace"
   - "IntelliTrace, debugging after a crash"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -38,7 +36,6 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 |||
 |-|-|
 |**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)<br />- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)|
-|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|- [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|
 
@@ -65,8 +62,6 @@ You can save IntelliTrace data from these sources:
 
 - An IntelliTrace session in Visual Studio 2015 Enterprise or later versions, or previous versions of Visual Studio Ultimate.
 
-- A test session in Microsoft Test Manager
-
 - ASP.NET web apps hosted on IIS, or SharePoint 2010 and SharePoint 2013 applications running in deployment when you use Microsoft Monitoring Agent, either alone or with System Center 2012. See [Use the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md) and [Monitoring with Microsoft Monitoring Agent](https://technet.microsoft.com/library/dn465153.aspx).
 
 Here are some examples of how IntelliTrace can help you with debugging:
@@ -78,10 +73,6 @@ Here are some examples of how IntelliTrace can help you with debugging:
 - An exception happens.
 
      Without IntelliTrace, you get a message about an exception but you don't have much information about the events that led to the exception. You can examine the call stack to see the chain of calls that led to the exception, but you can't see the sequence of events that happened during those calls. With IntelliTrace, you can examine the events that happened before the exception.
-
-- Your application crashes on a test computer but runs successfully on a development computer.
-
-     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
 
 - A bug or crash happens in a deployed application.
 
