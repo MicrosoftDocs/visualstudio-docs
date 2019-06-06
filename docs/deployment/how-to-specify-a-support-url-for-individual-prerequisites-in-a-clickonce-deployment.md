@@ -25,7 +25,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
 
 ### Specify a support URL for an individual prerequisite
 
-1. Open the application manifest (the *.manifest* file) for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.
+1. Open the application manifest (the *.manifest* file) for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.
 
 2. For an operating system prerequisite, add the `supportUrl` attribute to the `dependentOS` element:
 
@@ -59,7 +59,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
      </dependency>
    ```
 
-5. Optional. For applications that target the .NET Framework 4, open the deployment manifest (the *.application* file) for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.
+5. Optional. For applications that target the .NET Framework 4, open the deployment manifest (the *.application* file) for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.
 
 6. For a .NET Framework 4 prerequisite, add the `supportUrl` attribute to the `compatibleFrameworks` element:
 
