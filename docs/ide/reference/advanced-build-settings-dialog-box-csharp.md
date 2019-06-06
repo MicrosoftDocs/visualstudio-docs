@@ -85,7 +85,7 @@ Specifies the size of sections in the output file. Valid values are **512**, **1
 
 **Library Base Address**
 
-Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).
+Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the .NET Framework common language runtime. For more information, see [/baseaddress (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option).
 
 ## See Also
 

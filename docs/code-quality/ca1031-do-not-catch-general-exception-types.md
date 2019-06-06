@@ -41,7 +41,7 @@ ms.workload:
  Do not suppress a warning from this rule. Catching general exception types can hide run-time problems from the library user and can make debugging more difficult.
 
 > [!NOTE]
-> Starting with the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)], the common language runtime (CLR) no longer delivers corrupted state exceptions that occur in the operating system and managed code, such as access violations in [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)], to be handled by managed code. If you want to compile an application in the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] or later versions and maintain handling of corrupted state exceptions, you can apply the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute to the method that handles the corrupted state exception.
+> Starting with the .NET Framework 4, the common language runtime (CLR) no longer delivers corrupted state exceptions that occur in the operating system and managed code, such as access violations in [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)], to be handled by managed code. If you want to compile an application in the .NET Framework 4 or later versions and maintain handling of corrupted state exceptions, you can apply the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute to the method that handles the corrupted state exception.
 
 ## Example
  The following example shows a type that violates this rule and a type that correctly implements the `catch` block.

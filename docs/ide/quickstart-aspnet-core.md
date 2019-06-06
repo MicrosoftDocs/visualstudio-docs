@@ -2,7 +2,7 @@
 title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
 ms.custom: "mvc,seodec18"
-ms.date: 03/23/2019
+ms.date: 06/06/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
@@ -69,7 +69,7 @@ To start, you'll create an ASP.NET Core web application project. The project typ
    ![New ASP.NET Core Web Application dialog box](../ide/media/aspnet-core-2dot1.png)
 
    > [!NOTE]
-   > If you don't see **ASP.NET Core 2.1** or later, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio  to the most recent release](../install/update-visual-studio.md) page.
+   > If you don't see **ASP.NET Core 2.1**, make sure that you are running the most recent release of Visual Studio. For more information about how to update your installation, see the [Update Visual Studio  to the most recent release](../install/update-visual-studio.md) page.
 
 Soon after, Visual Studio opens your project file.
 
@@ -104,7 +104,7 @@ Soon after, Visual Studio opens your project file.
 
    ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** or later appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
 
    ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
 
