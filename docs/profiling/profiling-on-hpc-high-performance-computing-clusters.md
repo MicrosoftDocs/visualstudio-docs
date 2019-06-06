@@ -30,9 +30,9 @@ To profile on a HPC compute node, you must do the following:
 
 - Install Microsoft HPC Pack 2008 on the same computer as Visual Studio. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=177414).
 
-- Install the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and the stand alone profiler are available on the Visual Studio installation media. **Note** You must restart the compute after you have installed [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and before you install the Profiling Tools.
+- Install the .NET Framework 4 and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the .NET Framework and the stand alone profiler are available on the Visual Studio installation media. **Note** You must restart the compute after you have installed .NET Framework and before you install the Profiling Tools.
 
-  To install the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:
+  To install the .NET Framework 4 and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:
 
 1. Open the command prompt window that is installed with the HPC pack.
 
@@ -47,7 +47,7 @@ To profile on a HPC compute node, you must do the following:
 | | |
 |------------------| - |
 | *%HeadNode%* | Name of the head node for the cluster. |
-| *%FxPath%* | Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
+| *%FxPath%* | Path to the .NET Framework 4 installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
 | *%ProfilerPath%* | Path to the standalone version of the Profiling Tools installer. On the Visual Studio installation media the path is: Standalone Profiler\x64\vs_profiler.exe |
 
 ## Profile on an HPC compute node

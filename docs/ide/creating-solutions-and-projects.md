@@ -55,11 +55,11 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
-When you create a project, you can specify a specific version of the .NET Framework that you want the project to use.
+When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
 
 ::: moniker range="vs-2017"
 
-To specify a .NET framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
+To specify a .NET Framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
 
 ![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
 
@@ -70,7 +70,7 @@ To specify a .NET framework version, choose the **Framework** drop-down menu in 
 
 ::: moniker range=">=vs-2019"
 
-To specify a .NET framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
+To specify a .NET Framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
 
 ![Framework selector in configure new project](media/vs-2019/configure-new-project-framework.png)
 

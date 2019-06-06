@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Use regular expressions in Visual Studio
 
-Visual Studio uses [.NET Framework regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
+Visual Studio uses [.NET regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
 
 ## Replacement patterns
 

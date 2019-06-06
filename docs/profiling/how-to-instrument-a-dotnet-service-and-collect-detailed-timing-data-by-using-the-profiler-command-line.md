@@ -10,7 +10,7 @@ ms.workload:
 ---
 # How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
 
-This article describes how to use Visual Studio Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect detailed timing data.
+This article describes how to use Visual Studio Profiling Tools command-line tools to instrument a .NET Framework service and collect detailed timing data.
 
 > [!NOTE]
 > You cannot profile a service with the instrumentation method if the service cannot be restarted after the computer starts, such a service that starts only when the operating system starts.
@@ -19,7 +19,7 @@ This article describes how to use Visual Studio Profiling Tools command-line too
 >
 > Adding tier interaction data to a profiling run requires specific procedures with the command-line profiling tools. See [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).
 
-To collect detailed timing data from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then replace the non-instrumented version of the service with the instrumented version, making sure that the service is configured to start manually. You use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the global profiling environment variables and then restart the host computer. You then start the profiler.
+To collect detailed timing data from a .NET Framework service by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. You then replace the non-instrumented version of the service with the instrumented version, making sure that the service is configured to start manually. You use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the global profiling environment variables and then restart the host computer. You then start the profiler.
 
 When the service is started, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.
 
@@ -33,7 +33,7 @@ To end a profiling session, you turn off the service and then explicitly shut do
 
 3. Replace the original binary with the instrumented version. In the Windows Service Control Manager, make sure that the service Startup Type is set to Manual.
 
-4. Initialize the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] profiling environment variables. Type:
+4. Initialize the .NET Framework profiling environment variables. Type:
 
      **VSPerfClrEnv /globaltraceon**
 

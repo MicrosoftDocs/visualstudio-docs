@@ -35,7 +35,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
   However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](/previous-versions/visualstudio/visual-studio-2010/7z83t16a(v=vs.100)), in which case you must configure the Web server to unblock all file extensions used in the application.
 
-  You will have to configure *.manifest*, *.application*, and *.deploy*, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], or if you are using another Web server (for example, Apache).
+  You will have to configure *.manifest*, *.application*, and *.deploy*, for example, if you are using IIS where you have not installed the .NET Framework, or if you are using another Web server (for example, Apache).
 
 ## ClickOnce and Secure Sockets Layer (SSL)
  A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will work fine over SSL, except when Internet Explorer raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.
@@ -115,7 +115,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   For specific instructions on configuring MIME types on Windows Server, refer to Microsoft Knowledge Base article KB326965, "IIS 6.0 does not serve unknown MIME types" at [http://support.microsoft.com/default.aspx?scid=kb;en-us;326965](http://support.microsoft.com/default.aspx?scid=kb;en-us;326965).
 
 ## Content type mappings
- When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).
+ When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have .NET Framework 2.0 installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).
 
  If you deploy using an IIS server, run <em>inetmgr.</em>exe and add a new content type of "application/x-ms-application" for the *.application* extension.
 

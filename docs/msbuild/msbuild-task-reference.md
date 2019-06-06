@@ -163,7 +163,7 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [GetFrameworkPath task](../msbuild/getframeworkpath-task.md)
 
- Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.
+ Retrieves the path to the .NET Framework assemblies.
 
 - [GetFrameworkSdkPath task](../msbuild/getframeworksdkpath-task.md)
 

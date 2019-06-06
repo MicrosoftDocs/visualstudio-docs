@@ -144,7 +144,7 @@ The `Package` element is the top-level XML element inside of a package file.
 | `LicenseAgreement` | Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (*.txt*) or Rich Text Format. (*.rtf*) |
 
 ## Example
- The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].
+ The following code example shows a complete package file for redistributing the .NET Framework 2.0.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

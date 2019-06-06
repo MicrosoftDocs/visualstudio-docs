@@ -8,16 +8,17 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Creating a Windows Forms-Based Domain-Specific Language
-You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the Visual Studio Visualization and Modeling SDK.
+# Create a Windows Forms-based Domain-Specific Language
 
- ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
-A DSL instance, showing a Windows Form UI and the model explorer.
+You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL by using the Visual Studio Visualization and Modeling SDK.
 
-## Creating a Windows Forms DSL
- The **Minimal WinForm Designer** DSL template creates a minimal DSL that you can modify to suit your own requirements.
+The following image shows a Windows Form UI and the model explorer for a DSL instance:
 
-#### To create a minimal WinForms DSL
+![DSL instance in Visual Studio](../modeling/media/dsl-wpf-2.png)
+
+## Create a Windows Forms DSL
+
+The **Minimal WinForm Designer** DSL template creates a minimal DSL that you can modify to suit your own requirements.
 
 1. Create a DSL from the **Minimal WinForm Designer** template.
 
@@ -32,7 +33,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
    1. Transform All Templates.
 
-   2. Build and run the sample (**CTRL+F5**).
+   2. Build and run the sample (**Ctrl**+**F5**).
 
    3. In the experimental instance of Visual Studio, open the `Sample` file in the debugging project.
 
@@ -56,15 +57,15 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
     - A file named `DataBinding.cs` that contains an additional partial definition of `ModelViewControl`. To see its content, in **Solution Explorer**, open the shortcut menu for the file and choose **View Code**.
 
-### About the UI Project
- When you update the DSL Definition file to define your own DSL, you will have to update the control in the `UI` project to display your DSL. Unlike the `Dsl` and `DslPackage` projects, the sample `UI` project is not generated from `DslDefinitionl.dsl`. You can add .tt files to generate the code if you want, although that is not covered in this walkthrough.
+### About the UI project
 
-## Updating the DSL Definition
- The following the DSL definition is used in this walkthrough.
+When you update the DSL Definition file to define your own DSL, you will have to update the control in the `UI` project to display your DSL. Unlike the `Dsl` and `DslPackage` projects, the sample `UI` project is not generated from `DslDefinitionl.dsl`. You can add .tt files to generate the code if you want, although that is not covered in this walkthrough.
 
- ![DSL&#45;Wpf&#45;1](../modeling/media/dsl-wpf-1.png)
+## Update the DSL definition
 
-#### To update the DSL definition
+The following the DSL definition is used in this walkthrough.
+
+![DSL&#45;Wpf&#45;1](../modeling/media/dsl-wpf-1.png)
 
 1. Open DslDefinition.dsl in the DSL designer.
 
@@ -102,10 +103,11 @@ A DSL instance, showing a Windows Form UI and the model explorer.
     > [!NOTE]
     > At this stage, the other projects will not build without errors. However, we want to build the Dsl project so that its assembly is available to the Data Source Wizard.
 
-## Updating the UI Project
- Now you can create a new user control that will display the information that is stored in the DSL model. The easiest way to connect the user control to the model is through data bindings. The data binding adaptor type named **ModelingBindingSource** is specifically designed to connect DSLs to non-VMSDK interfaces.
+## Update the UI project
 
-#### To define your DSL model as a data source
+Now you can create a new user control that will display the information that is stored in the DSL model. The easiest way to connect the user control to the model is through data bindings. The data binding adaptor type named **ModelingBindingSource** is specifically designed to connect DSLs to non-VMSDK interfaces.
+
+### Define your DSL model as a data source
 
 1. On the **Data** menu, choose **Show Data Sources**.
 
@@ -123,7 +125,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
      ![DslWpf&#45;3](../modeling/media/dslwpf-3.png)
 
-#### To connect your model to a form
+### Connect your model to a form
 
 1. In the **UI** project, delete all the existing .cs files.
 
@@ -146,7 +148,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
    > [!NOTE]
    > An alternative step is to drag the Animals and Fields items from the Data Sources window onto the control. This action automatically creates data grids and bindings between the grid view and the data source. However, this binding does not work correctly for DSLs. Therefore it is better to create the data grids and bindings manually.
 
-7. If the Toolbox does not contain the **ModelingBindingSource** tool, add it. On the shortcut menu of the **Data** tab, choose **Choose Items**. In the **Choose Toolbox Items** dialog, select **ModelingBindingSource** from the **.NET Framework Tab**.
+7. If the Toolbox does not contain the **ModelingBindingSource** tool, add it. On the shortcut menu of the **Data** tab, choose **Choose Items**. In the **Choose Toolbox Items** dialog, select **ModelingBindingSource** from the **.NET Framework** tab.
 
 8. Using the Toolbox, create two instances of **ModelingBindingSource**, and name them `AnimalBinding` and `FieldBinding`.
 
@@ -169,7 +171,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
   ![DslWpf4](../modeling/media/dslwpf4.png)
   Schema of links between data sources and views.
 
-#### To complete the bindings to the DSL
+### Complete the bindings to the DSL
 
 1. Add the following code in a separate code file in the **UI** project:
 
@@ -203,10 +205,9 @@ A DSL instance, showing a Windows Form UI and the model explorer.
     string viewControlTypeName = "FarmControl";
     ```
 
-## Testing the DSL
- The DSL solution can now build and run, although you might want to add further improvements later.
+## Test the DSL
 
-#### To test the DSL
+The DSL solution can now build and run, although you might want to add further improvements later.
 
 1. Build and run the solution.
 
@@ -225,9 +226,9 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
      When you navigate away from each field in the form, the corresponding property changes in the Properties window.
 
-## Enhancing the DSL
+## Enhance the DSL
 
-#### To make the properties update immediately
+### Make the properties update immediately
 
 1. In the design view of FarmControl.cs, select a simple field such as Name, Size or IsOrganic.
 
@@ -239,7 +240,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
      Verify that when you change the content of the field, the corresponding property of the Farm model changes immediately.
 
-#### To provide Add buttons
+### Provide Add buttons
 
 1. In the design view of FarmControl.cs, use the toolbox to create a button on the form.
 
@@ -297,7 +298,8 @@ A DSL instance, showing a Windows Form UI and the model explorer.
    ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
 
 ### About the code to add an element
- For the new element buttons, the following alternative code is slightly simpler.
+
+For the new element buttons, the following alternative code is slightly simpler.
 
 ```csharp
 private void NewSheepButton_Click(object sender, EventArgs e)
@@ -310,12 +312,12 @@ private void NewSheepButton_Click(object sender, EventArgs e)
 }
 ```
 
- However, this code does not set a default name for the new item. It does not run any customized merge that you might have defined in the **Element Merge Directives** of the DSL, and it does not run any custom merge code that might have been defined.
+However, this code does not set a default name for the new item. It does not run any customized merge that you might have defined in the **Element Merge Directives** of the DSL, and it does not run any custom merge code that might have been defined.
 
- Therefore we recommend that you use <xref:Microsoft.VisualStudio.Modeling.ElementOperations> to create new elements. For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).
+Therefore we recommend that you use <xref:Microsoft.VisualStudio.Modeling.ElementOperations> to create new elements. For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).
 
-## See Also
+## See also
 
-- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
+- [How to define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
+- [Write code to customize a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)

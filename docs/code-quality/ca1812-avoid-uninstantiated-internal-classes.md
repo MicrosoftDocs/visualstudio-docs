@@ -52,7 +52,7 @@ If you apply the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribu
 
 To fix a violation of this rule, remove the type or add code that uses it. If the type contains only `static` methods, add one of the following to the type to prevent the compiler from emitting a default public instance constructor:
 
-- The `static` modifier for C# types that target [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] or later.
+- The `static` modifier for C# types that target .NET Framework 2.0 or later.
 
 - A private constructor for types that target .NET Framework versions 1.0 and 1.1.
 

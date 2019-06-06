@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Use the Argument Designer
 
-Compared to previous versions of the .NET Framework, the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. For more information, see [Variables and arguments (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).
+The argument designer makes it easy to allow data to flow into and out of an activity. Access the designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. For more information, see [Variables and arguments (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).
 
 ## To create a new argument
 

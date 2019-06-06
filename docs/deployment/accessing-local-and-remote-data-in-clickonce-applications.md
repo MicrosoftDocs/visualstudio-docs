@@ -66,7 +66,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../deployment/
 ### Isolated storage
  Isolated Storage provides an API for creating and accessing files by using a simple API. The actual location of the stored files is hidden from both the developer and the user.
 
- Isolated Storage works in all versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. Isolated Storage also works in partially trusted applications without the need for additional permission grants. You should use Isolated Storage if your application must run in partial trust, but must maintain application-specific data.
+ Isolated Storage works in all versions of the .NET Framework. Isolated Storage also works in partially trusted applications without the need for additional permission grants. You should use Isolated Storage if your application must run in partial trust, but must maintain application-specific data.
 
  For more information, see [Isolated Storage](/dotnet/standard/io/isolated-storage).
 
@@ -92,7 +92,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../deployment/
  If your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application cannot access a Web server because of security restrictions, the application must assert <xref:System.Net.WebPermission> for that Web site. For more information about increasing security permissions for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, see [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md).
 
 ### Access data through an XML Web service
- If you expose your data as an XML Web service, you can access the data by using an XML Web service proxy. The proxy is a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class you create by using either [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The operations of the XML Web service—such as retrieving customers, placing orders, and so on—are exposed as methods on the proxy. This makes Web services much easier to use than raw text or XML files.
+ If you expose your data as an XML Web service, you can access the data by using an XML Web service proxy. The proxy is a .NET Framework class you create by using either [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The operations of the XML Web service—such as retrieving customers, placing orders, and so on—are exposed as methods on the proxy. This makes Web services much easier to use than raw text or XML files.
 
  If your XML Web service operates over HTTP, the service will be bound by the same security restrictions as the <xref:System.Net.WebClient> and <xref:System.Net.HttpWebRequest> classes.
 

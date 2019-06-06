@@ -159,7 +159,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 
   - `OriginalItemSpec`, containing the original item specification of the reference.
 
-  - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] directory.
+  - `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the .NET Framework directory.
 
 - COM references:
 
