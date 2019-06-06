@@ -1286,6 +1286,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/creating-applications-in-bi-directional-languages.md",
+            "redirect_url": "/visualstudio/ide/use-bidirectional-languages",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/customizing-the-editor.md",
             "redirect_url": "/visualstudio/ide/how-to-change-text-case-in-the-editor",
             "redirect_document_id": false
