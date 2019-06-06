@@ -54,7 +54,7 @@ The **Assets** window contains all the available controls and is similar to the 
 
 |||
 |-|-|
-|![](../designers/media/b1_1.png)|**Search box** Type in the **Search** box to filter the list of assets.|
+|![Assets search box](../designers/media/b1_1.png)|**Search box** Type in the **Search** box to filter the list of assets.|
 |![Grid mode and list mode](../designers/media/b1_2.png)|**Grid mode and List mode** Switch between the **Grid mode** view and the **List mode** view of assets.|
 |![Assets categories](../designers/media/b1_3.png)|**Assets categories** Click a category or subcategory to view the list of assets in that category.|
 |![Styles](../designers/media/b1_4.png)|**Styles** Show all the styles that are contained in the resource dictionary.|
@@ -109,7 +109,7 @@ Use this window to view and modify the properties of an object. You can also set
 |![RGB color space](../designers/media/b1_12.png)|**RGB color space** Modify the color by adjusting the values for the **R**,  **G**, or **B** (red, green, blue) number editors.|
 |![Alpha channel](../designers/media/b1_13.png)|**Alpha channel** Modify the Alpha value by using the number editor next to **A**.|
 |![Convert color to resource](../designers/media/d839d12c-07a1-4127-a830-4a8e7069f4fe.png)|**Convert color to resource** Convert the selected color to a color resource. Color resources are available when you click the Color resources tab.|
-|![](../designers/media/b1_15.png)|**Hex value** View the hexadecimal value of the color displayed.|
+|![Color hex value](../designers/media/b1_15.png)|**Hex value** View the hexadecimal value of the color displayed.|
 |![Callout 16](../designers/media/b5_label_16.png)|**Gradient slider** Appears only if a gradient brush is selected.|
 |![Show advanced properties](../designers/media/d50027a1-6824-4ad8-8b4e-558b0756dcf8.png)|**Show advanced properties** View categories of properties that are less commonly used.|
 
