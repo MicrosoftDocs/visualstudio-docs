@@ -26,7 +26,7 @@ ms.workload:
 
 *Hierarchical update* refers to the process of saving updated data (from a dataset with two or more related tables) back to a database while maintaining referential integrity rules. *Referential integrity* refers to the consistency rules provided by the constraints in a database that control the behavior of inserting, updating, and deleting related records. For example, it's referential integrity that enforces the creation of a customer record before allowing orders to be created for that customer.  For more information about relationships in datasets, see [Relationships in datasets](../data-tools/relationships-in-datasets.md).
 
-The hierarchical update feature uses a `TableAdapterManager` to manage the `TableAdapter`s in a typed dataset. The `TableAdapterManager` component is a Visual Studio-generated class, so it's not part of the .NET Framework. When you drag a table from the **Data Sources** window to a Windows Form or WPF page, Visual Studio adds a variable of type TableAdapterManager to the form or page, and you see it in the designer in the component tray. For detailed information about the `TableAdapterManager` class, see the TableAdapterManager Reference section of [TableAdapters](../data-tools/create-and-configure-tableadapters.md).
+The hierarchical update feature uses a `TableAdapterManager` to manage the `TableAdapter`s in a typed dataset. The `TableAdapterManager` component is a Visual Studio-generated class, not a .NET type. When you drag a table from the **Data Sources** window to a Windows Form or WPF page, Visual Studio adds a variable of type TableAdapterManager to the form or page, and you see it in the designer in the component tray. For detailed information about the `TableAdapterManager` class, see the TableAdapterManager Reference section of [TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
 By default, a dataset treats related tables as "relations only," which means that it doesn't enforce foreign key constraints. You can modify that setting at design time by using the **Dataset Designer**. Select the relation line between two tables to bring up the **Relation** dialog box. The changes you make here will determine how the `TableAdapterManager` behaves when it send the changes in the related tables back to the database.
 
@@ -108,7 +108,7 @@ In addition to committing changes on a related child table before saving data to
 
 By default, a `TableAdapterManager` class is generated when you create a dataset that contains related tables. To prevent the class from being generated, change the value of the `Hierarchical Update` property of the dataset to false. When you drag a table that has a relation onto the design surface of a Windows Form or WPF page, Visual Studio declares a member variable of the class. If you don't use databinding, you have to manually declare the variable.
 
-The `TableAdapterManager` class is not part of the .NET Framework. Therefore, you can't look it up in the documentation. It is created at design time as part of the dataset creation process.
+The `TableAdapterManager` class is not a .NET type. Therefore, you can't look it up in the documentation. It's created at design time as part of the dataset creation process.
 
 The following are the frequently used methods and properties of the `TableAdapterManager` class:
 
