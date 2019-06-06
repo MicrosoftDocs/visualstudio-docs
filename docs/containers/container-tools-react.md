@@ -37,35 +37,37 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    ![Screenshot of new React.js project](media/container-tools-react/vs2017/new-react-project.png)
 
-1. Select the type of container you want (Windows or Linux) and click **OK**.
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
    ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
+
+1. Select the type of container you want (Windows or Linux) and click **OK**.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 1. Create a new project using the **ASP.NET Core Web Application** template.
-1. Select **React.js**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
+1. Select **React.js**, and click **Create**. You can't select **Enable Docker Support**, but don't worry, you can add that support later.
 
    ![Screenshot of new React.js project](media/container-tools-react/vs2019/new-react-project.png)
 
-1. Select the type of container you want (Windows or Linux) and click **Create**.
 1. Right-click on the project node, and choose **Add** > **Docker Support** to add a Dockerfile to your project.
 
    ![Add Docker support](media/container-tools-react/vs2017/add-docker-support.png)
+
+1. Select Linux as the container type.
 ::: moniker-end
 
 ## Dockerfile overview
 
 A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it.
 
-Open the *Dockerfile* in the project, and add the following lines to install Node.js 10.x in the container. Be sure to add these lines after the first section, to add the installation of the Node package manager *npm.exe* to the base image that is used in subsequent steps.
+Open the *Dockerfile* in the project, and add the following lines to install Node.js 10.x in the container. Be sure to add these lines in the first section, to add the installation of the Node package manager *npm.exe* to the base image that is used in subsequent steps.
 
 ```
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install -y nodejs
 ```
 
-The *Dockerfile* should now look like this:
+The *Dockerfile* should now look something like this:
 
 ```
 FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
