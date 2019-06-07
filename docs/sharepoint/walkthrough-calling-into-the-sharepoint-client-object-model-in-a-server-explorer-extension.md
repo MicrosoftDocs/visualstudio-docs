@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Calling into the SharePoint Client Object Model in a Server Explorer Extension | Microsoft Docs"
+title: "Server Explorer extension: Call SharePoint client object model"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
