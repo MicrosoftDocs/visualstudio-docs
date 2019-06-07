@@ -35,4 +35,4 @@ This topic describes how to explore your nodes using the [Content Model View](..
 
 8. Click the **Show Documentation** button in the XSD Toolbar to toggle documentation. You can also right-click the design surface to toggle the documentation.
 
-9. Rick-click the `purchaseOrder` node and select **Generate Sample XML** to see the XML instance document.
+9. Right-click the `purchaseOrder` node and select **Generate Sample XML** to see the XML instance document.
