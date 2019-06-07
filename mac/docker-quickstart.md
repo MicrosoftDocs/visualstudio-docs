@@ -6,6 +6,8 @@ ms.author: adhartle
 ms.date: 4/29/2019
 ---
 
+# Getting Started with Docker in Visual Studio for Mac
+
 With Visual Studio for Mac, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure.
 
 ## Prerequisites
