@@ -69,9 +69,7 @@
       href: using-rule-sets-to-group-code-analysis-rules.md
     - name: Rule sets for analyzer packages
       href: analyzer-rule-sets.md
-  - name: Rule sets for managed code
-    items:
-    - name: Overview
+    - name: Configure rule sets
       href: how-to-configure-code-analysis-for-a-managed-code-project.md
     - name: Configure code analysis for an ASP.NET web app
       href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
@@ -79,76 +77,76 @@
       href: how-to-create-a-custom-rule-set.md
     - name: Use the rule set editor
       href: working-in-the-code-analysis-rule-set-editor.md
-    - name: Code analysis application errors
-      items:
-      - name: Overview
-        href: code-analysis-application-errors.md
-      - name: "CA0001"
-        href: ca0001.md
-      - name: "CA0051"
-        href: ca0051.md
-      - name: "CA0052"
-        href: ca0052.md
-      - name: "CA0053"
-        href: ca0053.md
-      - name: "CA0054"
-        href: ca0054.md
-      - name: "CA0055"
-        href: ca0055.md
-      - name: "CA0056"
-        href: ca0056.md
-      - name: "CA0057"
-        href: ca0057.md
-      - name: "CA0058"
-        href: ca0058.md
-      - name: "CA0059"
-        href: ca0059.md
-      - name: "CA0060"
-        href: ca0060.md
-      - name: "CA0061"
-        href: ca0061.md
-      - name: "CA0062"
-        href: ca0062.md
-      - name: "CA0063"
-        href: ca0063.md
-      - name: "CA0064"
-        href: ca0064.md
-      - name: "A0065"
-        href: ca0065.md
-      - name: "CA0066"
-        href: ca0066.md
-      - name: "CA0067"
-        href: ca0067.md
-      - name: "CA0068"
-        href: ca0068.md
-      - name: "CA0069"
-        href: ca0069.md
-      - name: "CA0070"
-        href: ca0070.md
-      - name: "CA0501"
-        href: ca0501.md
-      - name: "CA0502"
-        href: ca0502.md
-      - name: "CA0503"
-        href: ca0503.md
-      - name: "CA0504"
-        href: ca0504.md
-      - name: "CA0505"
-        href: ca0505.md
-      - name: FxCopCmd errors
-        href: fxcopcmd-errors.md
-      - name: Check-in policies
-        items:
-        - name: How to create or update check in policies
-          href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
-        - name: Implement code analysis check-in policies
-          href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
-        - name: Enforce maintainable code
-          href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
-        - name: Synchronize project rule sets with check-in policy
-          href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
-        - name: Version compatibility
-          href: version-compatibility-for-code-analysis-check-in-policies.md
+  - name: Code analysis application errors
+    items:
+    - name: Overview
+      href: code-analysis-application-errors.md
+    - name: "CA0001"
+      href: ca0001.md
+    - name: "CA0051"
+      href: ca0051.md
+    - name: "CA0052"
+      href: ca0052.md
+    - name: "CA0053"
+      href: ca0053.md
+    - name: "CA0054"
+      href: ca0054.md
+    - name: "CA0055"
+      href: ca0055.md
+    - name: "CA0056"
+      href: ca0056.md
+    - name: "CA0057"
+      href: ca0057.md
+    - name: "CA0058"
+      href: ca0058.md
+    - name: "CA0059"
+      href: ca0059.md
+    - name: "CA0060"
+      href: ca0060.md
+    - name: "CA0061"
+      href: ca0061.md
+    - name: "CA0062"
+      href: ca0062.md
+    - name: "CA0063"
+      href: ca0063.md
+    - name: "CA0064"
+      href: ca0064.md
+    - name: "A0065"
+      href: ca0065.md
+    - name: "CA0066"
+      href: ca0066.md
+    - name: "CA0067"
+      href: ca0067.md
+    - name: "CA0068"
+      href: ca0068.md
+    - name: "CA0069"
+      href: ca0069.md
+    - name: "CA0070"
+      href: ca0070.md
+    - name: "CA0501"
+      href: ca0501.md
+    - name: "CA0502"
+      href: ca0502.md
+    - name: "CA0503"
+      href: ca0503.md
+    - name: "CA0504"
+      href: ca0504.md
+    - name: "CA0505"
+      href: ca0505.md
+    - name: FxCopCmd errors
+      href: fxcopcmd-errors.md
+  - name: Check-in policies
+    items:
+    - name: How to create or update check in policies
+      href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
+    - name: Implement code analysis check-in policies
+      href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
+    - name: Enforce maintainable code
+      href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
+    - name: Synchronize project rule sets with check-in policy
+      href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
+    - name: Version compatibility
+      href: version-compatibility-for-code-analysis-check-in-policies.md
   - name: Code metrics
     items:
     - name: Overview
