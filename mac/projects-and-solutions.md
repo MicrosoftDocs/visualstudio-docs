@@ -15,7 +15,7 @@ This article provides an overview of the *project* and *solution* concepts in Vi
 
 ## Projects
 
-When creating a new application, website, etc in Visual Studio for Mac, you start with a project. The project contains all the files required (source code, images, data files, etc.) that are needed to compile the executable, library, or website.
+When creating a new application, website, etc. in Visual Studio for Mac, you start with a project. The project contains all the files required (source code, images, data files, etc.) that are needed to compile the executable, library, or website.
 
 A project is defined by a file (e.g., `.csproj` for C# projects) which contains xml that defines the file and folder hierarchy, paths to files and project-specific settings, such as build settings.
 
