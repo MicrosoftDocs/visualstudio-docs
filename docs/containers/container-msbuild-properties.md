@@ -9,27 +9,38 @@ ms.topic: conceptual
 ---
 # Container Tools Build Properties
 
-You can customize your container projects by setting the properties that MSBuild uses to build your project.
+You can customize how Visual Studio builds your container projects by setting the properties that MSBuild uses to build your project. For example, you can change the name of the Dockerfile, specify tags and labels for your images, provide additional arguments passed to Docker commands, and control whether Visual Studio does certain performance optimizations such as building outside of the container environment. You can also set debugging properties such as the name of the executable to launch, and the command line arguments to provide.
+
+To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `DockerfileFile` property in the project file as follows.
+
+```xml
+<PropertyGroup>
+   <DockerfileFile>MyDockerfile</DockerfileFile>
+</PropertyGroup>
+```
+
+You can add the property setting to an existing `PropertyGroup` element, or if there isn't one, create a new `PropertyGroup` element.
 
 The following table shows the MSBuild properties available for container projects.
 
 | Property name | Description | Default value  |
 |---------------|-------------|----------------|
 | DockerfileFile | Describes the default Dockerfile that will be used to build/run the container for the project. This can be a path as well. | Dockerfile |
-| DockerfileTag | The tag that will be used when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping non-alphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (i.e. image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag |
-| DockerContext | The default context used when building the Docker image. | The value is ".." for dotnet core projects and "." for .NET Framework projects |
-| DockerTargetOS | The default target OS used when building the Docker image. | Linux |
-| DockerImageLabels | The default set of labels applied to the Docker image. |com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |
+| DockerfileTag | The tag that will be used when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping non-alphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (i.e. image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |
+| DockerContext | The default context used when building the Docker image. | The value is ".." for dotnet core projects and "." for .NET Framework projects. |
+| DockerDevelopmentMode | Controls whether or not Visual Studio optimizes build performance by building outside the container. | FastMode |
+| DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |
+| DockerImageLabels | The default set of labels applied to the Docker image. | com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |
 | ContainerVsDbgPath | The path for VSDBG debugger. | `%USERPROFILE%\vsdbg\vs2017u5` |
 | DockerfileBuildArguments | Additional arguments passed to the Docker build command. | Not applicable. |
 | DockerfileRunArguments | Additional arguments passed to the Docker run command. | Not applicable. |
 | DockerfileRunEnvironmentFiles | Semicolon-delimited list of environment files applied during Docker run. | Not applicable. |
 | DockerfileRepository | The Docker image repository to which images are pushed. | Not applicable. |
 | DockerfileFastModeStage | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (base) |
-| DockerDebuggeeProgram | When debugging, the debugger will be instructed to launch this executable | For .NET Core projects: dotnet, ASP.NET .NET Framework projects: Not applicable (IIS is always used) |
-| DockerDebuggeeArguments | When debugging, the debugger will be instructed to pass these arguments to the launched executable | Not applicable to ASP.NET .NET Framework projects |
-| DockerDebuggeeWorkingDirectory | When debugging, the debugger will be instructed to use this path as the working directory | C:\app (Windows) or /app (Linux) |
-| DockerDebuggeeKillProgram | This command will be used to kill the running process in a container | Not applicable to ASP.NET .NET Framework projects |
+| DockerDebuggeeProgram | When debugging, the debugger is instructed to launch this executable. | For .NET Core projects: dotnet, ASP.NET .NET Framework projects: Not applicable (IIS is always used) |
+| DockerDebuggeeArguments | When debugging, the debugger is instructed to pass these arguments to the launched executable. | Not applicable to ASP.NET .NET Framework projects |
+| DockerDebuggeeWorkingDirectory | When debugging, the debugger is instructed to use this path as the working directory. | C:\app (Windows) or /app (Linux) |
+| DockerDebuggeeKillProgram | This command is used to kill the running process in a container. | Not applicable to ASP.NET .NET Framework projects |
 
 ## Next steps
 
