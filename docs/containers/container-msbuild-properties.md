@@ -27,15 +27,14 @@ The following table shows the MSBuild properties available for container project
 |---------------|-------------|----------------|
 | DockerfileFile | Describes the default Dockerfile that will be used to build/run the container for the project. This can be a path as well. | Dockerfile |
 | DockerfileTag | The tag that will be used when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping non-alphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (i.e. image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |
-| DockerContext | The default context used when building the Docker image. | The value is ".." for dotnet core projects and "." for .NET Framework projects. |
-| DockerDevelopmentMode | Controls whether or not Visual Studio optimizes build performance by building outside the container. | FastMode |
+| DockerContext | The default context used when building the Docker image. | Set by Visual Studio. |
+| DockerDevelopmentMode | Controls whether or not Visual Studio optimizes build performance by building outside the container. Possible values: Fast or Regular. | Fast |
 | DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |
 | DockerImageLabels | The default set of labels applied to the Docker image. | com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |
 | ContainerVsDbgPath | The path for VSDBG debugger. | `%USERPROFILE%\vsdbg\vs2017u5` |
 | DockerfileBuildArguments | Additional arguments passed to the Docker build command. | Not applicable. |
 | DockerfileRunArguments | Additional arguments passed to the Docker run command. | Not applicable. |
 | DockerfileRunEnvironmentFiles | Semicolon-delimited list of environment files applied during Docker run. | Not applicable. |
-| DockerfileRepository | The Docker image repository to which images are pushed. | Not applicable. |
 | DockerfileFastModeStage | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (base) |
 | DockerDebuggeeProgram | When debugging, the debugger is instructed to launch this executable. | For .NET Core projects: dotnet, ASP.NET .NET Framework projects: Not applicable (IIS is always used) |
 | DockerDebuggeeArguments | When debugging, the debugger is instructed to pass these arguments to the launched executable. | Not applicable to ASP.NET .NET Framework projects |
