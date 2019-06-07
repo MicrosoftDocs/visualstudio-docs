@@ -1,5 +1,5 @@
 ---
-title: "building ASP.NET Core applications in Visual Studio for Mac"
+title: "Building ASP.NET Core applications in Visual Studio for Mac"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: asb3993
 ms.author: amburns
