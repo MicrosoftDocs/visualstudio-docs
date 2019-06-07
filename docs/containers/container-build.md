@@ -54,9 +54,9 @@ ENTRYPOINT ["dotnet", "WebApplication41.dll"]
 
 The final stage starts again from base, and includes the COPY --from=publish to copy the published output to the final image. This makes it possible for the final image to be a lot smaller, since it doesn't need to include all of the build tools that were in the `sdk` image.
 
-## Visual Studio build process for containerized apps in the Debug configuration
+## Faster builds for the Debug configuration
 
-For performance reasons, the build process for containerized apps is not as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is much slower than building outside of the container.  This is why when you build in the Debug configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting.
+For performance reasons, the build process for containerized apps is not as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is much slower than building outside of the container.  This is why when you build in the Debug configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. This is called FastMode build.
 
 Visual Studio accomplishes this by invoking `docker build` with an argument that tells Docker to build only the `base` stage.  Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. This is important because when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, any modifications should be placed in the first stage.  Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages will not be executed.
 
@@ -69,6 +69,13 @@ If you want to disable the performance optimization and build as the Dockerfile 
    <DockerDevelopmentMode>[TODO]</DockerDevelopmentMode>
 </PropertyGroup>
 ```
+
+## Docker build context
+
+When using the command line to build containerized solutions, you use the command `docker build <context>` for each project in the solution. You need to provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container.  In .NET Core projects, this is the folder that contains the solution file (.sln).  Expressed as a relative path, this is typically ".." for the normal case of a Dockerfile in a project folder and the solution file in the parent folder.  For .NET Framework projects, the build context is the project folder, not the solution folder.
+
+> [!NOTE]
+> For .NET Framework projects created with versions of Visual Studio prior to Visual Studio 2017 Update 3, the Dockerfile did not use multistage builds. When working with these older Dockerfiles, instead of building the project in the Dockerfile, Visual Studio builds each project and then copies the results to the container. Because the build steps weren't included in the Dockerfile, you can't build those projects using `docker build` from the command line.  To script these builds, run MSBuild separately for each project and then `docker build` to run the Dockerfile in each project and copy the results to the containers.
 
 ## Container reuse
 
@@ -94,13 +101,6 @@ docker build --target:unit-test
 You can then use the [Container Tools Window](view-and-diagnose-containers.md) (if you have the extension installed) to view the test logs.
 
 For more information, see [dotnet test](/dotnet/core/tools/dotnet-test).
-
-## Docker build context
-
-When using the command line to build containerized solutions, you use the command `docker build <context>` for each project in the solution. You need to provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container.  In .NET Core projects, this is the folder that contains the solution file (.sln).  Expressed as a relative path, this is typically ".." for the normal case of a Dockerfile in a project folder and the solution file in the parent folder.  For .NET Framework projects, the build context is the project folder, not the solution folder.
-
-> [!NOTE]
-> For .NET Framework projects created with versions of Visual Studio prior to Visual Studio 2017 Update 3, the Dockerfile did not use multistage builds. When working with these older Dockerfiles, instead of building the project in the Dockerfile, Visual Studio builds each project and then copies the results to the container. Because the build steps weren't included in the Dockerfile, you can't build those projects using `docker build` from the command line.  To script these builds, run MSBuild separately for each project and then `docker build` to run the Dockerfile in each project and copy the results to the containers.
 
 ## Next steps
 
