@@ -172,7 +172,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 1. From **Solution Explorer**, open **Startup.cs**. You may notice some red squiggles initially as NuGet packages are being restored in the background and the Roslyn compiler is building a complete picture of the project dependencies.
 
-    ![](hmedia/netcore-image29.png)
+    ![](media/netcore-image29.png)
 
 2. Locate the **Startup** method. This section defines the initial configuration for the application and is very densely packed. Let's break it down.
 
@@ -240,4 +240,4 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Summary
 
-In this lab, you've learned how to get started developing ASP.NET Core apps with Visual Studio for Mac. If you'd like to explore developing a more complete movies database application, check out the tutorial at [https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc).
+In this lab, you've learned how to get started developing ASP.NET Core apps with Visual Studio for Mac. If you'd like to explore developing a more complete movies database application, check out the tutorial at [https://docs.microsoft.com/aspnet/core/tutorials/first-mvc-app/start-mvc](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc).
