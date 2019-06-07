@@ -6,7 +6,7 @@ ms.author: adhartle
 ms.date: 4/29/2019
 ---
 
-TODO: Intro
+With Visual Studio for Mac, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure.
 
 ## Prerequisites
 
@@ -84,17 +84,3 @@ To see the list of running containers, use the `docker ps` command in Terminal.
 Note the port relay in the screenshot below (under **PORTS**). This shows that the container is listening on the port we saw in Safari above and relaying requests to the internal webserver on port 80 (as defined in the Dockerfile). From the application's perspecitive, it is listening on port 80.
 
 ![Docker container list](media/docker-quickstart-7.png)
-
-## Publishing a Docker Image to Azure
-
-Once you have completed debugging your project, you can move on to creating a production image of the app.
-
-1. Change the configuration from **Debug** to **Release** in the upper left corner of Visual Studio for Mac.
-1. Right click the main ASP.NET project in the Solution Explorer and go to **Publish > Publish to Azure
-1. In the Publish to Azure App Service window, select **New** to create a new App Service
-1. Fill ou the required information to create a new App Service
-  ![New App Service Window](media/docker-quickstart-8.png)
-1. In the next window, fill out the required information for creating an Azure [Container Registry](https://azure.microsoft.com/en-us/services/container-registry/)
-  ![Configure Azure Docker Container](media/docker-quickstart-9.png)
-
-Once this is complete, Visual Studio for Mac will create the required services on Azure and automatically publish your container and app.
