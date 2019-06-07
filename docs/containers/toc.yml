@@ -30,5 +30,14 @@
       href: view-and-diagnose-containers.md
     - name: Configure Container Tools
       href: container-tools-configure.md
+  - name: Concepts
+    items:
+    - name: Container Tools build process
+      href: container-build.md
   - name: Troubleshooting
     href: troubleshooting-docker-errors.md
+  - name: Reference
+    items:
+    - name: MSBuild properties for containerized apps
+      href: container-msbuild-properties.md
+      
