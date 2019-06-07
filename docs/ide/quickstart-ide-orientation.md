@@ -45,7 +45,7 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 The first thing you'll see after you open Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
-[![](media/vs-2019/start-window-labeled.png "The start window in Visual Studio 2019")](media/vs-2019/start-window-labeled.png#lightbox)
+[![Start window in Visual Studio 2019](media/vs-2019/start-window-labeled.png)](media/vs-2019/start-window-labeled.png#lightbox)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
