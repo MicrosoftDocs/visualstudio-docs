@@ -171,5 +171,11 @@ To enable this, right-click the project node in the Solution Explorer, choose **
 Next, add your tests to the test root folder you specified, and they will be available to run in the
 Test Explorer window. If they don't initially appear, you may need to rebuild the project.
 
-> [!NOTE]
-> This currently doesn't work for .NET Standard and .NET Core projects.
+### Unit test .NET Core and .NET Standard
+Additional to the properties above, you will also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and the property:
+
+```xml
+<PropertyGroup>
+    <GenerateProgramFile>false</GenerateProgramFile>
+</PropertyGroup>
+```
