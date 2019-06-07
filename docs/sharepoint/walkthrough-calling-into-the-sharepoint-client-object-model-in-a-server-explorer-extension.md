@@ -1,5 +1,5 @@
 ---
-title: "Server Explorer extension: Call SharePoint client object model"
+title: "Server Explorer: Extending the SharePoint Connections node"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

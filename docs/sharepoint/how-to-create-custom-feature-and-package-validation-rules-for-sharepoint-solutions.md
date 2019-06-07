@@ -1,5 +1,5 @@
 ---
-title: "SharePoint solution: Custom feature, package validation rules"
+title: "SharePoint solutions: Create custom feature, package validation rules"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,5 +1,5 @@
 ---
-title: "Fix customized Ribbon: Office project to .NET Framework 4, 4.5"
+title: "Update Ribbon customizations in Office projects migrated to .NET Framework 4, 4.5"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
