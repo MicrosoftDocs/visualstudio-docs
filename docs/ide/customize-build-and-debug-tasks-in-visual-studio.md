@@ -307,7 +307,7 @@ Settings read from the *.gitignore* file are applied to its parent directory and
 ## See also
 
 - [Develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Open Folder projects for C++](/cpp/build/non-msbuild-projects)
-- [CMake projects in C++](/cpp/build/cmake-tools-for-visual-cpp)
+- [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)
+- [CMake projects for C++](/cpp/build/cmake-projects-in-visual-studio)
 - [NMAKE reference](/cpp/build/reference/nmake-reference)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
