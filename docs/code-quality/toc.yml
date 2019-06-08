@@ -34,6 +34,12 @@
         href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
       - name: Customize the code analysis dictionary
         href: how-to-customize-the-code-analysis-dictionary.md
+    - name: Supression
+      items:
+      - name: Suppress warnings
+        href: in-source-suppression-overview.md
+      - name: Suppress code analysis warnings for generated code
+        href: how-to-suppress-code-analysis-warnings-for-generated-code.md
     - name: Code analysis application errors
       items:
       - name: Code analysis policy errors
@@ -94,12 +100,6 @@
         href: ca0505.md
       - name: FxCopCmd errors
         href: fxcopcmd-errors.md
-    - name: Supression
-      items:
-      - name: Suppress warnings
-        href: in-source-suppression-overview.md
-      - name: Suppress code analysis warnings for generated code
-        href: how-to-suppress-code-analysis-warnings-for-generated-code.md
   - name: FxCop analyzers
     items:
     - name: Overview
