@@ -46,7 +46,7 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 Violation of any one of these patterns triggers warning CA1063.
 
-Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own `protected virtual void Dispose(bool)` method. `Dispose()` should call `Dipose(true)`, and the finalizer should call `Dispose(false)`. If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define `Dispose(bool)` and call it. For more information, see [Clean up unmanaged resources (.NET guide)](/dotnet/standard/garbage-collection/unmanaged) and [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern).
+Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own `protected virtual void Dispose(bool)` method. `Dispose()` should call `Dispose(true)`, and the finalizer should call `Dispose(false)`. If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define `Dispose(bool)` and call it. For more information, see [Clean up unmanaged resources (.NET guide)](/dotnet/standard/garbage-collection/unmanaged) and [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern).
 
 By default, this rule only looks at externally visible types, but this is [configurable](#configurability).
 

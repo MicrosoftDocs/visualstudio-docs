@@ -75,6 +75,8 @@ Unit tests can verify specific application behavior by their use of various kind
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType>
+
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert>
@@ -84,8 +86,6 @@ Unit tests can verify specific application behavior by their use of various kind
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute>
 
 ## The TestContext class
 

@@ -40,6 +40,8 @@ The following exception types are too general to provide sufficient information 
 
 The following exception types are reserved and should be thrown only by the common language runtime:
 
+- <xref:System.AccessViolationException?displayProperty=fullName>
+
 - <xref:System.ExecutionEngineException?displayProperty=fullName>
 
 - <xref:System.IndexOutOfRangeException?displayProperty=fullName>
@@ -47,6 +49,14 @@ The following exception types are reserved and should be thrown only by the comm
 - <xref:System.NullReferenceException?displayProperty=fullName>
 
 - <xref:System.OutOfMemoryException?displayProperty=fullName>
+
+- <xref:System.Runtime.InteropServices.COMException?displayProperty=fullName>
+
+- <xref:System.Runtime.InteropServices.ExternalException?displayProperty=fullName>
+
+- <xref:System.Runtime.InteropServices.SEHException?displayProperty=fullName>
+
+- <xref:System.StackOverflowException?displayProperty=fullName>
 
 **Do Not Throw General Exceptions**
 

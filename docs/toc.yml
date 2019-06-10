@@ -141,7 +141,7 @@
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
   - name: Install Help Viewer
-    href: help-viewer/installation.md      
+    href: help-viewer/installation.md
 - name: Quickstarts
   items:
   - name: Visual Studio orientation
@@ -584,11 +584,13 @@
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
       href: xml-tools/xml-tools-in-visual-studio.md
-    - name: Develop international apps
-      displayName: Globalization localization world-ready
-      href: ide/globalizing-and-localizing-applications.md
-    - name: Bidirectional languages
-      href: ide/creating-applications-in-bi-directional-languages.md
+    - name: Develop inclusive apps
+      items:
+      - name: Design accessible apps
+        href: ide/reference/resources-for-designing-accessible-applications.md
+      - name: Design international apps
+        displayName: Globalization localization world-ready
+        href: ide/globalizing-and-localizing-applications.md
     - name: Additional tutorials
       items:
       - name: Create a WPF app with C# or Visual Basic
@@ -800,8 +802,6 @@
       href: ide/reference/accessibility-tips-and-tricks.md
     - name: Accessibility products and services from Microsoft
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
-    - name: Resources for designing accessible apps
-      href: ide/reference/resources-for-designing-accessible-applications.md
 - name: Reference
   items:
   - name: General User Interface Elements
@@ -1171,6 +1171,8 @@
       href: ide/user-permissions-and-visual-studio.md
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
+  - name: Bidirectional language input
+    href: ide/use-bidirectional-languages.md
   - name: Microsoft Help Viewer
     items:
     - name: Overview
