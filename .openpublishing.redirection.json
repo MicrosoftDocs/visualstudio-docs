@@ -1056,6 +1056,281 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "docs/extensibility/accessing-stored-font-and-color-settings.md",
+            "redirect_url": "/visualstudio/extensibility/accessing-stored-font-and-color-settings?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/accessing-text-layers-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/accessing-text-layers-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/accessing-the-text-buffer-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/accessing-thetext-view-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/accessing-thetext-view-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/adapting-legacy-code-to-the-editor.md",
+            "redirect_url": "/visualstudio/extensibility/adapting-legacy-code-to-the-editor?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/archive.md",
+            "redirect_url": "/visualstudio/extensibility/archive?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/changing-view-settings-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/changing-view-settings-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/command-handling.md",
+            "redirect_url": "/visualstudio/extensibility/command-handling?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/contained-languages.md",
+            "redirect_url": "/visualstudio/extensibility/contained-languages?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/context-menus.md",
+            "redirect_url": "/visualstudio/extensibility/context-menus?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/customizing-code-windows-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/customizing-code-windows-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/customizing-editor-controls-and-menus-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/drop-down-bar.md",
+            "redirect_url": "/visualstudio/extensibility/drop-down-bar?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/editor-factories.md",
+            "redirect_url": "/visualstudio/extensibility/editor-factories?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/extensibility-in-visual-studio.md",
+            "redirect_url": "/visualstudio/extensibility/extensibility-in-visual-studio?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/faq-converting-add-ins-to-vspackage-extensions.md",
+            "redirect_url": "/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/font-and-color-overview.md",
+            "redirect_url": "/visualstudio/extensibility/font-and-color-overview?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/getting-font-and-color-information-for-text-colorization.md",
+            "redirect_url": "/visualstudio/extensibility/getting-font-and-color-information-for-text-colorization?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-access-the-built-in-fonts-and-color-scheme?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-add-standard-text-markers.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-add-standard-text-markers?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-clear-the-undo-stack.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-clear-the-undo-stack?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-create-custom-text-markers.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-create-custom-text-markers?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-fire-events-when-the-editor-loses-focus.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-fire-events-when-the-editor-loses-focus?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-host-an-editor-in-another-editor.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-host-an-editor-in-another-editor?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-implement-error-markers.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-implement-error-markers?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-implement-the-find-and-replace-mechanism.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-implement-the-find-and-replace-mechanism?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-implement-undo-management.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-implement-undo-management?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-provide-context-for-editors.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-provide-context-for-editors?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-register-editor-file-types.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-register-editor-file-types?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-suppress-file-change-notifications.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-suppress-file-change-notifications?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-update-the-status-bar.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-update-the-status-bar?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-use-linked-undo-management.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-use-linked-undo-management?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/how-to-use-text-markers.md",
+            "redirect_url": "/visualstudio/extensibility/how-to-use-text-markers?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/implementing-custom-categories-and-display-items.md",
+            "redirect_url": "/visualstudio/extensibility/implementing-custom-categories-and-display-items?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/in-place-activation.md",
+            "redirect_url": "/visualstudio/extensibility/in-place-activation?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/inside-the-core-editor.md",
+            "redirect_url": "/visualstudio/extensibility/inside-the-core-editor?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/instantiating-the-core-editor-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/intellisense-hosting.md",
+            "redirect_url": "/visualstudio/extensibility/intellisense-hosting?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/language-services-and-the-core-editor.md",
+            "redirect_url": "/visualstudio/extensibility/language-services-and-the-core-editor?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/legacy-interfaces-in-the-editor.md",
+            "redirect_url": "/visualstudio/extensibility/legacy-interfaces-in-the-editor?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/managing-undo-and-redo-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/managing-undo-and-redo-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/menucommands-vs-olemenucommands.md",
+            "redirect_url": "/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/new-or-changed-behavior-with-editor-adapters.md",
+            "redirect_url": "/visualstudio/extensibility/new-or-changed-behavior-with-editor-adapters?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/providing-a-language-service-context-by-using-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/providing-a-language-service-context-by-using-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/text-buffer-events-in-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/text-buffer-events-in-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/tool-window-display-configuration.md",
+            "redirect_url": "/visualstudio/extensibility/tool-window-display-configuration?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/tool-windows-in-the-registry.md",
+            "redirect_url": "/visualstudio/extensibility/tool-windows-in-the-registry?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/understanding-and-diagnosing-ui-unresponsiveness-caused-by-extensions.md",
+            "redirect_url": "/visualstudio/extensibility/understanding-and-diagnosing-ui-unresponsiveness-caused-by-extensions?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/using-fonts-and-colors.md",
+            "redirect_url": "/visualstudio/extensibility/using-fonts-and-colors?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/using-text-markers-with-the-legacy-api.md",
+            "redirect_url": "/visualstudio/extensibility/using-text-markers-with-the-legacy-api?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/using-the-text-manager-to-monitor-global-settings.md",
+            "redirect_url": "/visualstudio/extensibility/using-the-text-manager-to-monitor-global-settings?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md",
+            "redirect_url": "/visualstudio/extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/extensibility/what-s-new-in-the-visual-studio-2015-sdk.md",
+            "redirect_url": "/visualstudio/extensibility/what-s-new-in-the-visual-studio-2015-sdk?view=vs-2015",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "docs/extensibility/buildprojectonload-visual-studio-templates.md",
             "redirect_url": "/visualstudio/extensibility/buildonload-visual-studio-templates",
             "redirect_document_id": false
@@ -1283,6 +1558,11 @@
         {
             "source_path": "docs/extensibility/walkthrough-creating-a-basic-isolated-shell-application.md",
             "redirect_url": "/visualstudio/extensibility/walkthrough-creating-a-basic-isolated-shell-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/creating-applications-in-bi-directional-languages.md",
+            "redirect_url": "/visualstudio/ide/use-bidirectional-languages",
             "redirect_document_id": false
         },
         {

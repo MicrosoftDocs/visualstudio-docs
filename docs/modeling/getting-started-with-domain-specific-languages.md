@@ -131,7 +131,7 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 Your experimental Visual Studio will resemble the following example:
 
-![](../modeling/media/dsl_min.png)
+![Domain specific language sample tree in Visual Studio](../modeling/media/dsl_min.png)
 
 ### The Content of a Model
 

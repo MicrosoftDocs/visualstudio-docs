@@ -24,7 +24,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 ::: moniker range=">=vs-2019"
 
-[![](media/vs-2019/ide-overview.png "The Visual Studio IDE")](media/vs-2019/ide-overview.png#lightbox)
+[![The Visual Studio 2019 IDE](media/vs-2019/ide-overview.png)](media/vs-2019/ide-overview.png#lightbox)
 
 ::: moniker-end
 

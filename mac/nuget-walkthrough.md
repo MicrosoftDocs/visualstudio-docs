@@ -3,14 +3,14 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: conceptdev
 ms.author: crdun
-ms.date: 04/14/2017
+ms.date: 04/24/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
 ---
 
 # Include a NuGet package in your project
 
-NuGet is the most popular package manager for .NET development and is built in to Visual Studio for Mac and Visual Studio on Windows. You can search for and add packages to your Xamarin.iOS and Xamarin.Android projects using either IDE.
+NuGet is the most popular package manager for .NET development and is built in to Visual Studio for Mac and Visual Studio on Windows. You can search for and add packages to your Xamarin, .NET Core and ASP.NET projects using either IDE.
 
 This article describes how to include a NuGet package in a project and demonstrates the tool chain that makes the process seamless.
 
@@ -26,7 +26,7 @@ First, create a project named `HelloNuget` as illustrated below. This example sh
 
 ## Adding a Package
 
-With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages**:
+With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add NuGet Packages**:
 
 ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
@@ -38,9 +38,9 @@ When the window opens it loads a list of packages from the default package sourc
 
 ![List NuGet Packages](media/nuget-walkthrough-AddPackages1.png)
 
-Use the search box in the top-right corner to find a specific package, for example `azure`. When you've found a package that you wish to use, select it and click the **Add Package** button to begin installation.
+Use the search box in the top-right corner to find a specific package, for example `azure mobile`. When you have found a package that you wish to use, select it and click the **Add Package** button to begin installation.
 
-[Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
+![Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
 
 Once the package has been downloaded, it will be added to your project. The solution will change as follows:
 
@@ -72,9 +72,9 @@ Right-click on **Packages** to access the context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
 
-* **Add Packages** - Opens the window to add more packages to the project.
-* **Update** - Checks the source server for each package and downloads any newer versions.
-* **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
+*   **Add NuGet Packages** - Opens the window to add more packages to the project.
+*   **Update** - Checks the source server for each package and downloads any newer versions.
+*   **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 

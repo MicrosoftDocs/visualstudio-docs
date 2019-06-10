@@ -80,7 +80,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Debug.DOMExplorer|**Ctrl+Alt+V, D**|
 |Debug.EnableBreakpoint|**Ctrl+F9**|
 |Debug.Exceptions|**Ctrl+Alt+E**|
-|Debug.FunctionBreakpoint|**Ctrl+K, B** (Visual Studio 2019<br />**Ctrl**+**B** (Visual Studio 2017)|
+|Debug.FunctionBreakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)|
 |Debug.GoToPreviousCallorIntelliTraceEvent|**Ctrl+Shift+F11**|
 |Debug.Graphics.StartDiagnostics|**Alt+F5**|
 |Debug.Immediate|**Ctrl+Alt+I**|
@@ -104,7 +104,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Debug.ParallelWatch3|**Ctrl+Shift+D, 3**|
 |Debug.ParallelWatch4|**Ctrl+Shift+D, 4**|
 |Debug.Processes|**Ctrl+Alt+Z**|
-|Debug.QuickWatch|**Shift+F9**<br /><br /> or<br /><br /> **Ctrl+Alt+Q**|
+|Debug.QuickWatch|**Shift+F9** or **Ctrl+Alt+Q**|
 |Debug.RefreshWindowsapp|**Ctrl+Shift+R**|
 |Debug.Registers|**Ctrl+Alt+G**|
 |Debug.Restart|**Ctrl+Shift+F5**|
