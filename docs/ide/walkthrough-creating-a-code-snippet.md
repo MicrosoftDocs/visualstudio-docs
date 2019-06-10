@@ -73,9 +73,9 @@ The following XML is the basic snippet template:
 
 5. Save the snippet as *SquareRoot.snippet* (you can save it anywhere).
 
-## Add a code snippet to Visual Studio
+## Import a code snippet
 
-1. You can add your own snippets to your Visual Studio installation by using the **Code Snippets Manager**. Open it by choosing **Tools** > **Code Snippets Manager**.
+1. You can import a snippet to your Visual Studio installation by using the **Code Snippets Manager**. Open it by choosing **Tools** > **Code Snippets Manager**.
 
 2. Click the **Import** button.
 
@@ -118,7 +118,7 @@ The following XML is the basic snippet template:
 ::: moniker-end
 
    > [!TIP]
-   > Since we're editing the file in the directory where Visual Studio placed it, we don't need to reimport it to Visual Studio.
+   > Since you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.
 
 2. Add **Author** and **Description** elements to the **Header** element, and fill them in.
 
@@ -134,6 +134,8 @@ The following XML is the basic snippet template:
 
 4. Open the **Code Snippets Manager** and select your code snippet. In the right pane, notice that the **Description** and **Author** fields are now populated.
 
+   ![Code snippet description in Code Snippet Manager](media/code-snippet-description-author.png)
+
 5. To add a shortcut, add a **Shortcut** element within the **Header** element:
 
    ```xml
@@ -147,7 +149,7 @@ The following XML is the basic snippet template:
 
 6. Save the snippet file again.
 
-7. To test the shortcut in the project you used previously, type **sqrt** in the editor and press **Tab** (once for Visual Basic, twice for C#).
+7. To test the shortcut, open the project you used previously, type **sqrt** in the editor and press **Tab** (once for Visual Basic, twice for C#).
 
    The snippet code is inserted.
 
@@ -170,6 +172,12 @@ You may want parts of a code snippet to be replaced by the user. For example, yo
        </Literal>
      </Declarations>
    </Snippet>
+   ```
+
+   Notice that the literal replacement is given an ID (`Number`). That ID is referenced from within the code snippet by surrounding it with `$` characters:
+
+   ```xml
+   <![CDATA[double root = Math.Sqrt($Number$);]]>
    ```
 
 2. Save the snippet file.
