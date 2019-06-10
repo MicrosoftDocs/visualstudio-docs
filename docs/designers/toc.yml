@@ -108,7 +108,7 @@
         items:
         - name: Overview
           displayName: Tutorial 1 Picture viewer
-          href: ../../ide/tutorial-1-create-a-picture-viewer.md
+          href: ../ide/tutorial-1-create-a-picture-viewer.md
         - name: "Step 1: Create a Windows Forms application project"
           href: ../ide/step-1-create-a-windows-forms-application-project.md
         - name: "Step 2: Run Your Program"
