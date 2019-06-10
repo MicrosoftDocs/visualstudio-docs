@@ -626,7 +626,11 @@ Specifies the type of the object. The `Object` element is used to identify an it
 | - |-----------------|
 |[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
- A text value is required. This text specifies the type of the object.
+A text value is required. This text specifies the type of the object. For example:
+
+```xml
+<Type>System.Data.SqlClient.SqlConnection</Type>
+```
 
 ## Url element
 
