@@ -108,73 +108,73 @@
         items:
         - name: Overview
           displayName: Tutorial 1 Picture viewer
-          href: ide/tutorial-1-create-a-picture-viewer.md
+          href: ../../ide/tutorial-1-create-a-picture-viewer.md
         - name: "Step 1: Create a Windows Forms application project"
-          href: ide/step-1-create-a-windows-forms-application-project.md
+          href: ../ide/step-1-create-a-windows-forms-application-project.md
         - name: "Step 2: Run Your Program"
-          href: ide/step-2-run-your-program.md
+          href: ../ide/step-2-run-your-program.md
         - name: "Step 3: Set Your Form Properties"
-          href: ide/step-3-set-your-form-properties.md
+          href: ../ide/step-3-set-your-form-properties.md
         - name: "Step 4: Lay Out Your Form with a TableLayoutPanel Control"
-          href: ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
+          href: ../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
         - name: "Step 5: Add Controls to Your Form"
-          href: ide/step-5-add-controls-to-your-form.md
+          href: ../ide/step-5-add-controls-to-your-form.md
         - name: "Step 6: Name Your Button Controls"
-          href: ide/step-6-name-your-button-controls.md
+          href: ../ide/step-6-name-your-button-controls.md
         - name: "Step 7: Add Dialog Components to Your Form"
-          href: ide/step-7-add-dialog-components-to-your-form.md
+          href: ../ide/step-7-add-dialog-components-to-your-form.md
         - name: "Step 8: Write Code for the Show a Picture Button Event Handler"
-          href: ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
+          href: ../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
         - name: "Step 9: Review, Comment, and Test Your Code"
-          href: ide/step-9-review-comment-and-test-your-code.md
+          href: ../ide/step-9-review-comment-and-test-your-code.md
         - name: "Step 10: Write Code for Additional Buttons and a Check Box"
-          href: ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
+          href: ../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
         - name: "Step 11: Run Your Program and Try Other Features"
-          href: ide/step-11-run-your-program-and-try-other-features.md
+          href: ../ide/step-11-run-your-program-and-try-other-features.md
       - name: "Tutorial 2: Create a timed math quiz (C#)"
         items:
         - name: Overview
           displayName: Tutorial 2 Timed math quiz
-          href: ide/tutorial-2-create-a-timed-math-quiz.md
+          href: ../ide/tutorial-2-create-a-timed-math-quiz.md
         - name: "Step 1: Create a Project and Add Labels to Your Form"
-          href: ide/step-1-create-a-project-and-add-labels-to-your-form.md
+          href: ../ide/step-1-create-a-project-and-add-labels-to-your-form.md
         - name: "Step 2: Create a Random Addition Problem"
-          href: ide/step-2-create-a-random-addition-problem.md
+          href: ../ide/step-2-create-a-random-addition-problem.md
         - name: "Step 3: Add a Countdown Timer"
-          href: ide/step-3-add-a-countdown-timer.md
+          href: ../ide/step-3-add-a-countdown-timer.md
         - name: "Step 4: Add the CheckTheAnswer() Method"
-          href: ide/step-4-add-the-checktheanswer-parens-method.md
+          href: ../ide/step-4-add-the-checktheanswer-parens-method.md
         - name: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls"
-          href: ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
+          href: ../ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
         - name: "Step 6: Add a Subtraction Problem"
-          href: ide/step-6-add-a-subtraction-problem.md
+          href: ../ide/step-6-add-a-subtraction-problem.md
         - name: "Step 7: Add Multiplication and Division Problems"
-          href: ide/step-7-add-multiplication-and-division-problems.md
+          href: ../ide/step-7-add-multiplication-and-division-problems.md
         - name: "Step 8: Customize the Quiz"
-          href: ide/step-8-customize-the-quiz.md
+          href: ../ide/step-8-customize-the-quiz.md
       - name: "Tutorial 3: Create a matching game (C#)"
         items:
         - name: Overview
           displayName: Tutorial 3 Matching game
-          href: ide/tutorial-3-create-a-matching-game.md
+          href: ../ide/tutorial-3-create-a-matching-game.md
         - name: "Step 1: Create a Project and Add a Table to Your Form"
-          href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
+          href: ../ide/step-1-create-a-project-and-add-a-table-to-your-form.md
         - name: "Step 2: Add a Random Object and a List of Icons"
-          href: ide/step-2-add-a-random-object-and-a-list-of-icons.md
+          href: ../ide/step-2-add-a-random-object-and-a-list-of-icons.md
         - name: "Step 3: Assign a Random Icon to Each Label"
-          href: ide/step-3-assign-a-random-icon-to-each-label.md
+          href: ../ide/step-3-assign-a-random-icon-to-each-label.md
         - name: "Step 4: Add a Click Event Handler to Each Label"
-          href: ide/step-4-add-a-click-event-handler-to-each-label.md
+          href: ../ide/step-4-add-a-click-event-handler-to-each-label.md
         - name: "Step 5: Add Label References"
-          href: ide/step-5-add-label-references.md
+          href: ../ide/step-5-add-label-references.md
         - name: "Step 6: Add a Timer"
-          href: ide/step-6-add-a-timer.md
+          href: ../ide/step-6-add-a-timer.md
         - name: "Step 7: Keep Pairs Visible"
-          href: ide/step-7-keep-pairs-visible.md
+          href: ../ide/step-7-keep-pairs-visible.md
         - name: "Step 8: Add a Method to Verify Whether the Player Won"
-          href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
+          href: ../ide/step-8-add-a-method-to-verify-whether-the-player-won.md
         - name: "Step 9: Try Other Features"
-          href: ide/step-9-try-other-features.md
+          href: ../ide/step-9-try-other-features.md
   - name: 3D assets
     items:
     - name: Work with 3D assets for games and apps
