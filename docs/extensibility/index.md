@@ -23,7 +23,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_VS.svg" alt="" />
+                            <img src="/media/logos/logo_VS.svg" alt="Visual Studio software development kit (SDK)" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -41,7 +41,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_extensions.svg" alt="" />
+                            <img src="/media/common/i_extensions.svg" alt=".NET compiler platform extensibility (&quot;Roslyn&quot;)" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -59,7 +59,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_tools.svg" alt="" />
+                            <img src="/media/common/i_tools.svg" alt="Creating a software development kit (SDK)" />
                         </div>
                     </div>
                     <div class="cardText">
