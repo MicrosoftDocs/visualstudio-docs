@@ -53,7 +53,7 @@ The sections in the following table include commands that are global in that you
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|Build.BuildSelection|**Ctrl+B**|
+|Build.BuildSelection|**Ctrl+B** (Visual Studio 2019)|
 |Build.BuildSolution|**Ctrl+Shift+B**|
 |Build.Cancel|**Ctrl+Break**|
 |Build.Compile|**Ctrl+F7**|
