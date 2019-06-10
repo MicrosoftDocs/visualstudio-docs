@@ -172,7 +172,7 @@ Next, add your tests to the test root folder you specified, and they will be ava
 Test Explorer window. If they don't initially appear, you may need to rebuild the project.
 
 ### Unit test .NET Core and .NET Standard
-Additional to the properties above, you will also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and the property:
+In addition to the properties above, you will also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and set the property:
 
 ```xml
 <PropertyGroup>
