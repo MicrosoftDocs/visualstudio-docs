@@ -34,7 +34,7 @@
         href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
       - name: Customize the code analysis dictionary
         href: how-to-customize-the-code-analysis-dictionary.md
-    - name: Supression
+    - name: Suppression
       items:
       - name: Suppress warnings
         href: in-source-suppression-overview.md
