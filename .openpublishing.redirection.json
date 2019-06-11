@@ -136,6 +136,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/code-quality/how-to-create-a-work-item-for-a-managed-code-defect.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/code-quality/anonymous-methods-and-code-analysis.md",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/code-quality/analyzing-application-quality-by-using-code-analysis-tools.md",
             "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
