@@ -2,7 +2,7 @@
 title: Regex completion through IntelliSense menu
 ms.date: 06/10/2019
 ms.topic: reference
-author: midumont
+author: mikadumont
 ms.author: midumont
 manager: jillfra
 dev_langs:
