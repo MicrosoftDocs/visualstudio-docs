@@ -71,7 +71,8 @@
 ## [Available Workloads](workloads.md)
 ## ASP.NET Core
 ### [.NET Core Support](net-core-support.md)
-### [Building Your First ASP.NET Core App](asp-net-core.md)
+### [Getting Started with ASP.NET Core](asp-net-core.md)
+### [Building ASP.NET Core applications in Visual Studio for Mac](building-asp-net-core.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
 ## Azure
@@ -82,6 +83,7 @@
 ## Unity Game Development
 ### [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
+### [Getting Started with Unity](unity-walkthrough.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
 ### [Using .NET 4.x in Unity](/visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
 ### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
