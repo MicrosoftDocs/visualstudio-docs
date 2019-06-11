@@ -99,4 +99,4 @@
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
 
 # [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
-# [Preview Release Notes]https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
