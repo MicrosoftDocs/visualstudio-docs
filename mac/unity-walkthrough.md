@@ -11,7 +11,6 @@ ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
 
 # Getting started building games with Unity in Visual Studio for Mac 
 
-
 Unity is a game engine that enables you to develop games in C#. This walkthrough shows how to get started developing and debugging Unity games using Visual Studio for Mac and the Visual Studio for Mac Tools for Unity extension alongside the Unity environment.
 
 Visual Studio for Mac Tools for Unity is a free extension, installed with Visual Studio for Mac. It enables Unity developers to take advantage of the productivity features of Visual Studio for Mac, including excellent IntelliSense support, debugging features, and more.
@@ -30,9 +29,7 @@ Visual Studio for Mac Tools for Unity is a free extension, installed with Visual
 
 This lab is intended for developers who are familiar with C#, although deep experience is not required.
 
-## Exercise 1: Getting started building games with Unity in Visual Studio for Mac ##
-
-### Task 1: Creating a basic Unity project
+## Task 1: Creating a basic Unity project
 
 1. Launch **Unity**. Sign in if requested.
 
@@ -54,7 +51,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 7. Select the **Main Camera** object from the **Hierarchy** pane.
 
-    ![main camera object highlighted in heirarchy pane](media/unity-image4.png)
+    ![main camera object highlighted in hierarchy pane](media/unity-image4.png)
 
 8. Select the **Inspector** pane from the right side of the window to review its properties. Camera properties include transform information, background, projection type, field of view, and so on. An Audio Listener component was also added by default, which essentially renders scene audio from a virtual microphone attached to the camera.
 
@@ -86,7 +83,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![cube object in scene](media/unity-image11.png)
 
-16. Take a quick look at the properties of the new **GameObject** and note that it has a name, tag, layer, and transform. These properties are common to all **GameObjects**. In addition, several components were attached to the **Cube** to provide needed functionality including mesh filter, box collider, and renderer.
+16. Take a quick look at the properties of the new **GameObject** and see that it has a name, tag, layer, and transform. These properties are common to all **GameObjects**. In addition, several components were attached to the **Cube** to provide needed functionality including mesh filter, box collider, and renderer.
 
     ![game object properties](media/unity-image12.png)
 
@@ -124,7 +121,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 25. Select **File > Save Scenes** to save the current scene. Name it **"MyScene"**.
 
-### Task 2: Working with Visual Studio for Mac Tools for Unity
+## Task 2: Working with Visual Studio for Mac Tools for Unity
 
 1. The best way to edit C# code is to use Visual Studio for Mac. You can configure Unity to use Visual Studio for Mac as its default handler. Select **Unity > Preferences**.
 
@@ -184,11 +181,11 @@ This lab is intended for developers who are familiar with C#, although deep expe
     }
     ```
 
-8. Take a quick look at the simple enemy behavior that is defined here. In the **Start** method, we get a reference to the player object (by its tag), as well as its **transform**. In the **Update** method, which is called every frame, the enemy will move towards the player object. Note how the keywords and names use color coding to make it easier to understand the codebase in Visual Studio for Mac.
+8. Take a quick look at the simple enemy behavior that is defined here. In the **Start** method, we get a reference to the player object (by its tag), as well as its **transform**. In the **Update** method, which is called every frame, the enemy will move towards the player object. The keywords and names use color coding to make it easier to understand the codebase in Visual Studio for Mac.
 
 9. Save the changes to the enemy script in **Visual Studio for Mac**.
 
-### Task 3: Debugging the Unity project
+## Task 3: Debugging the Unity project
 
 1. Set a breakpoint on the first line of code in the **Start** method. You can either click in the editor margin at the target line or place cursor on the line and press **F9**.
 
@@ -206,7 +203,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![breakpoint hit in visual studio for mac](media/unity-image28.png)
 
-5. From the **Locals** pad, locate the **this** pointer, which references an **EnemyAI** object. Expand the reference and note that you can browse the associated members like **Speed**.
+5. From the **Locals** pad, locate the **this** pointer, which references an **EnemyAI** object. Expand the reference and see that you can browse the associated members like **Speed**.
 
     ![locals debugging pad in visual studio for mac](media/unity-image29.png)
 
@@ -234,7 +231,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 12. Remove the breakpoint and press **F5** to resume execution.
 
-13. Return to **Unity** to view the running application and note that the enemy cube is now moving at a fifth of the original speed.
+13. Return to **Unity** to view the running application. The enemy cube is now moving at a fifth of the original speed.
 
     ![unity window with running application](media/unity-image35.png)
 
@@ -246,7 +243,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![stopping the debug session in Visual Studio for Mac](media/unity-image37.png)
 
-### Task 4: Exploring Unity features in Visual Studio for Mac
+## Task 4: Exploring Unity features in Visual Studio for Mac
 
 1. Visual Studio for Mac provides quick access to Unity documentation within the code editor. Place the cursor somewhere on the **Vector3** symbol within the **Update** method and press **⌘ Command + '**.
 
@@ -254,7 +251,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. A new browser window opens to the documentation for **Vector3**. Close the browser window when satisfied.
 
-    ![browser window open to documentation](media/unity-image39.png)
+    ![browser window opens to documentation](media/unity-image39.png)
 
 3. Visual Studio for Mac also provides some helpers to quickly create Unity behavior classes. From **Solution Explorer**, right-click **Assets** and select **Add > New MonoBehaviour**.
 

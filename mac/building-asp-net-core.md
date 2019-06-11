@@ -10,9 +10,9 @@ ms.assetid: 771C2F8E-46BC-4280-AFE8-ED9D5C7790CE
 # Building ASP.NET Core applications in Visual Studio for Mac 
 
 
-ASP.NET Core is an open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps and services, IoT apps, and mobile backends. ASP.NET Core apps can run on [.NET Core](https://www.microsoft.com/net/core/platform) or on the .NET Framework runtimes. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. ASP.NET Core is open source at [GitHub](https://github.com/aspnet/home).
+ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based internet connected applications, such as web apps and services, IoT apps, and mobile backends. ASP.NET Core apps can run on [.NET Core](https://www.microsoft.com/net/core/platform) or on the .NET Framework runtimes. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. ASP.NET Core is open source at [GitHub](https://github.com/aspnet/home).
 
-In this lab you will create and explore an ASP.NET Core application with Visual Studio for Mac.
+In this lab, you will create and explore an ASP.NET Core application with Visual Studio for Mac.
 
 ## Objectives
 
@@ -30,7 +30,7 @@ In this lab you will create and explore an ASP.NET Core application with Visual 
 
 This lab is intended for developers who are familiar with C#, although deep experience is not required.
 
-## Task 1: Creating a new ASP.NET Core application ##
+## Task 1: Creating a new ASP.NET Core application
 
 1. Launch **Visual Studio for Mac**.
 
@@ -54,7 +54,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image4.png)
 
-3. The **HomeController** class-by convention-handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory (like http://site.com/Home) and other methods handle requests to their named path based on convention, such as **About()** handling requests to **http://site.com/Home/About**. Of course, this is all configurable. One special item of note is that the **HomeController** is the default controller in a new project, so requests to the root of the site (**http://site.com**) would go through **Index()** of the **HomeController** just like requests to **http://site.com/Home** or **http://site.com/Home/Index**.
+3. The **HomeController** class-by convention-handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory (like http://site.com/Home) and other methods handle requests to their named path based on convention, such as **About()** handling requests to **http://site.com/Home/About**. Of course, this is all configurable. One notable is that the **HomeController** is the default controller in a new project, so requests to the root of the site (**http://site.com**) would go through **Index()** of the **HomeController** just like requests to **http://site.com/Home** or **http://site.com/Home/Index**.
 
     ![](media/netcore-image5.png)
 
@@ -70,7 +70,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image8.png)
 
-7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
+7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](https://docs.microsoft.com/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
 
     ![](media/netcore-image9.png)
 
@@ -80,7 +80,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image10.png)
 
-2. While there are only two lines of code here, they're pretty substantial. Let's break them down. First, a new **WebHostBuilder** is created. ASP.NET Core apps require a host in which to execute. A host must implement the **IWebHost** interface, which exposes collections of features and services, and a **Start** method. The host is typically created using an instance of a **WebHostBuilder**, which builds and returns a **WebHost** instance. The **WebHost** references the server that will handle requests.
+2. While there are only two lines of code here, they're substantial. Let's break them down. First, a new **WebHostBuilder** is created. ASP.NET Core apps require a host in which to execute. A host must implement the **IWebHost** interface, which exposes collections of features and services, and a **Start** method. The host is typically created using an instance of a **WebHostBuilder**, which builds and returns a **WebHost** instance. The **WebHost** references the server that will handle requests.
 
     ![](media/netcore-image11.png)
 
@@ -92,7 +92,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image13.png)
 
-5. If the app must work with the Internet Information Services (IIS) web server, the **UseIISIntegration** method should be called as part of building the host. Note that this does not configure a server, like **UseKestrel** does. To use IIS with ASP.NET Core, you must specify both **UseKestrel** and **UseIISIntegration**. **Kestrel** is designed to be run behind a proxy and should not be deployed directly facing the internet. **UseIISIntegration** specifies IIS as the reverse proxy server, but it's only relevant when running on machines that have IIS. If you deploy your application to Windows, leave it in. It doesn't hurt otherwise.
+5. If the app must work with the Internet Information Services (IIS) web server, the **UseIISIntegration** method should be called as part of building the host. That this does not configure a server, like **UseKestrel** does. To use IIS with ASP.NET Core, you must specify both **UseKestrel** and **UseIISIntegration**. **Kestrel** is designed to be run behind a proxy and should not be deployed directly facing the internet. **UseIISIntegration** specifies IIS as the reverse proxy server, but it's only relevant when running on machines that have IIS. If you deploy your application to Windows, leave it in. It doesn't hurt otherwise.
 
     ![](media/netcore-image14.png)
 
@@ -116,7 +116,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. The **Project Options** dialog includes everything you need to adjust how the application is built and run. Select the **Run > Configurations > Default** node from the left panel.
 
-3. Check **Run on external console** and uncheck **Pause console output**. Ordinarily the self-hosted application would not have its console visible, but would instead log its results to the **Output** pad. For the purposes of this lab we'll show it in a separate window as well, although you don't need to do that during normal development.
+3. Check **Run on external console** and uncheck **Pause console output**. Ordinarily the self-hosted application would not have its console visible, but would instead log its results to the **Output** pad. For the purposes of this lab, we'll show it in a separate window as well, although you don't need to do that during normal development.
 
 4. Click **OK**.
 
@@ -162,19 +162,19 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image27.png)
 
-17. Return to the browser window to see the updated text. Note that this change could be done at any time and didn't necessarily require a debugger breakpoint. Refresh the browser if you don't see the change reflected immediately.
+17. Return to the browser window to see the updated text. This change could be done at any time and didn't necessarily require a debugger breakpoint. Refresh the browser if you don't see the change reflected immediately.
 
     ![](media/netcore-image28.png)
 
 18. Close the test browser window and application console. This will stop debugging as well.
 
-## Task 5: Reviewing application startup configuration
+## Task 5: Application startup configuration
 
 1. From **Solution Explorer**, open **Startup.cs**. You may notice some red squiggles initially as NuGet packages are being restored in the background and the Roslyn compiler is building a complete picture of the project dependencies.
 
     ![](media/netcore-image29.png)
 
-2. Locate the **Startup** method. This section defines the initial configuration for the application and is very densely packed. Let's break it down.
+2. Locate the **Startup** method. This section defines the initial configuration for the application and is densely packed. Let's break it down.
 
     ![](media/netcore-image30.png)
 
@@ -186,7 +186,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image32.png)
 
-5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration).
+5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](https://docs.microsoft.com/aspnet/core/fundamentals/configuration).
 
     ![](media/netcore-image34.png)
 
@@ -196,11 +196,11 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Task 6: Inserting application middleware
 
-1. Locate the **Configure** method in the **Startup** class. This is where all the middleware is configured so that it can be inserted into the HTTP pipeline and used to process every request to the server. Note that while this method is called only once, the contents of the methods (such as **UseStaticFiles**) may be executed on every request.
+1. Locate the **Configure** method in the **Startup** class. This is where all the middleware is configured so that it can be inserted into the HTTP pipeline and used to process every request to the server. While this method is called only once, the contents of the methods (such as **UseStaticFiles**) may be executed on every request.
 
     ![](media/netcore-image36.png)
 
-2. You can also add additional middleware to be executed as part of the pipeline. Add the code below after **app.UseStaticFiles** to automatically add an **X-Test** header to every outgoing response. Note that IntelliSense will help complete the code as you type.
+2. You can also add additional middleware to be executed as part of the pipeline. Add the code below after **app.UseStaticFiles** to automatically add an **X-Test** header to every outgoing response. IntelliSense will help complete the code as you type.
 
     ```csharp
     app.Use(async (context, next) =>

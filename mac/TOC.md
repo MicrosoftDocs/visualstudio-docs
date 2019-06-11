@@ -72,7 +72,7 @@
 ## ASP.NET Core
 ### [.NET Core Support](net-core-support.md)
 ### [Getting Started with ASP.NET Core](asp-net-core.md)
-### [Building ASP.NET Core applications in Visual Studio for Mac](building-aspnetcore.md)
+### [Building ASP.NET Core applications in Visual Studio for Mac](building-asp-net-core.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
 ## Azure
