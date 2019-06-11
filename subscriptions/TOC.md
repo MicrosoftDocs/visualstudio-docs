@@ -14,9 +14,7 @@
 ### [Obtain & Manage Product Keys](product-keys.md)
 ### [Visual Studio with GitHub Enterprise](access-github.md)
 ### [Subscriber Benefits](subscriber-benefits.md)
-### Visual Studio Dev Essentials
-#### [Join Visual Studio Dev Essentials](join-dev-essentials.md)
-#### [Opt Out of Visual Studio Dev Essentials](leave-vsde.md)
+### [Visual Studio Dev Essentials](join-dev-essentials.md)
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE](vs-ide-benefit.md)
