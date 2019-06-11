@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options dialog box"
+title: "Office Excel Keyboard, Keyboard Settings, Options dialog box"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
