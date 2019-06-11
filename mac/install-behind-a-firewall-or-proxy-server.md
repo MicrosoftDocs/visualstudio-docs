@@ -34,6 +34,8 @@ Because the Visual Studio for Mac Installer downloads from a various domains and
 | download.visualstudio.microsoft.com | Installer Packages|
 | xamarin.azureedge.net | Installer Packages|
 | developer.xamarin.com | Installer Packages|
+| static.xamarin.com | Installer Packages|
+| dl.xamarin.com | Installer Packages|
 | dc.services.visualstudio.com| Crash Reporting |
 
 ### Third party domains
