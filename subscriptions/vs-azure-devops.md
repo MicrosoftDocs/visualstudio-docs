@@ -24,6 +24,7 @@ When you sign in to Azure DevOps using either the identity that you used for act
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail,                                        | Azure Boards & Repos (Basic), Azure Artifacts<sup>2</sup>                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP),Microsoft Partner Network (Enterprise), BizSpark, MCT Software & Services Developer.
   Excludes: MCT Software & Services, Imagine.*
