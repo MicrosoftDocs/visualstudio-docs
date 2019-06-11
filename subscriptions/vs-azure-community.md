@@ -49,8 +49,7 @@ Availability of the Azure Community benefit depends on your subscription level a
 |                              Visual Studio Test Professional (Standard)                               |    VL, Retail     |   One year    |    Yes     |
 |                                       MSDN Platforms (Standard)                                       |    VL, Retail     |   One year    |    Yes     |
 | Visual Studio Enterprise (monthly cloud), Visual Studio Professional (monthly cloud), NFR<sup>1</sup> |        All        | Not available |     No     |
-|                                     Visual Studio Dev Essentials                                      |        N/A        | Not available |     No     |
-|                                                                                                       |                   |               |            |
+
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft FTE, Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, Microsoft Certified Trainer (MCT)*
 
