@@ -121,7 +121,7 @@
           href: ../ide/step-5-add-controls-to-your-form.md
         - name: "Step 6: Name your button controls"
           href: ../ide/step-6-name-your-button-controls.md
-        - name: "Step 7: Add dialog components to your rorm"
+        - name: "Step 7: Add dialog components to your form"
           href: ../ide/step-7-add-dialog-components-to-your-form.md
         - name: "Step 8: Write Code for the Show a Picture button event handler"
           href: ../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
@@ -167,7 +167,7 @@
           href: ../ide/step-4-add-a-click-event-handler-to-each-label.md
         - name: "Step 5: Add label references"
           href: ../ide/step-5-add-label-references.md
-        - name: "Step 6: Add a rimer"
+        - name: "Step 6: Add a timer"
           href: ../ide/step-6-add-a-timer.md
         - name: "Step 7: Keep pairs visible"
           href: ../ide/step-7-keep-pairs-visible.md
