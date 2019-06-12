@@ -1,5 +1,5 @@
 ---
-title: "How to: Instrument a .NET Service and Collect Detailed Timing Data by Using the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line: Instrument .NET service, get timing detail"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 author: "mikejo5000"

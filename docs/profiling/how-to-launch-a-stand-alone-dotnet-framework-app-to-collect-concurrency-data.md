@@ -1,5 +1,5 @@
 ---
-title: "How to: Launch a Stand-Alone .NET Framework Application with the Profiler to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
+title: "Profiler command line: Open client .NET app, get concurrency data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 17a48848-bd3e-44ef-9971-e39836ff1df2
