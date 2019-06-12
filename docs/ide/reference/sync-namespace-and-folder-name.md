@@ -18,17 +18,17 @@ This refactoring applies to:
 
 **What:** Sync namespace and folder name.
 
-**When:** You want to re-architect parts of your solution by dragging a file to a new folder. 
+**When:** You want to rearchitect parts of your solution by dragging a file to a new folder. 
 
-**Why:** You want to make sure your namespace keeps up to date with your new folder structure.
+**Why:** You want to make sure your namespace keeps up-to date with your new folder structure.
 
 ## How-to
 
-1. Place your cursor in namespace name.
+1. Place your cursor in the namespace name.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
-3. Select **Change namespace to..** the new namespace name.
+3. Select **Change namespace to \<folder name>**.
 
-   ![Regex Completion IntelliSense](../media/sync-namespace-and-folder-name.png)
+   ![Regex Completion IntelliSense](media/sync-namespace-and-folder-name.png)
 
 ## See also
 
