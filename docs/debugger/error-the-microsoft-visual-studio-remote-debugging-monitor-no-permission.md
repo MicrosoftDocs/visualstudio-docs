@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
 
-This error occurs when the user who is trying to run the Visual Studio Remote Debugging Monitor (msvsmon) does not have an account on the local computer.
+This error occurs when the user who is trying to run the Visual Studio Remote Debugging Monitor (msvsmon) does not have an account on the local computer. This error may occur when debugging using the legacy debugging engine.
 
 ## To fix this problem
 
