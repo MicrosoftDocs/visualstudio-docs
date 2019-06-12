@@ -61,7 +61,7 @@ Certain IDE features and commands invoked in the [Command window](../../ide/refe
 
 You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET API. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md).
 
-In C++, you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing **F1** on a line of output, you can display an appropriate help topic. For more information, see [Format the output of a custom build step](/cpp/build/reference/formatting-the-output-of-a-custom-build-step-or-build-event).
+In C++, you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing **F1** on a line of output, you can display an appropriate help topic. For more information, see [Format the output of a custom build step](https://docs.microsoft.com/cpp/build/formatting-the-output-of-a-custom-build-step-or-build-event).
 
 ## Scroll behavior
 

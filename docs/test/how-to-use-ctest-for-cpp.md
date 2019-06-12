@@ -10,11 +10,11 @@ author: mikeblome
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later
 
-CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Development with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Desktop Development with C++** button, then click **Modify**. Check [CMake tools for Visual C++](/cpp/build/cmake-tools-for-visual-cpp) under the list of workload components.
+CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Development with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Desktop Development with C++** button, then click **Modify**. Check [CMake tools for Visual C++](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.cmake-tools) under the list of workload components.
 
 ## To write tests
 
-CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake tools for Visual C++](/cpp/ide/cmake-tools-for-visual-cpp).
+CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake tools for Visual C++](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.cmake-tools).
 
 ## To run tests
 
