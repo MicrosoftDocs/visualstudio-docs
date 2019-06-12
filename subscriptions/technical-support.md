@@ -24,6 +24,6 @@ When you have a question or need help with technical issues, a variety of suppor
 
 - [Technical Support](vs-tech-support.md): Expert assistance is available to resolve break-fix issues in non-production environments.
 
-- [Priority Support](vs-priority-support.md): Ask your question in a select list of forums. If the developer community doesn't answer within two days, Microsoft will respond. (Supported using Microsoft Accounts only.)
+- [Developer Community Forums](vs-priority-support.md): Access the full range of Developer Network forums. 
 
 - [Concierge Chat](vs-concierge-chat.md): Chat with us for assistance finding technical documentation and product information, or with using your subscription benefits.

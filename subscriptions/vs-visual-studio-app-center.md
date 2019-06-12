@@ -41,7 +41,7 @@ Getting started with Visual Studio App Center is easy.
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Included                                                            |Yes |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Included                                                            |Yes |
-| Visual Studio Dev Essentials | NA  | Included                                                            |Yes |
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Partner Network (MPN), MCT Software & Services, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD).*
 

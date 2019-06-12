@@ -399,6 +399,8 @@
             href: ide/reference/move-type-to-matching-file.md
           - name: Pull member up
             href: ide/reference/pull-members-up.md
+          - name: Regex completion through IntelliSense
+            href: ide/reference/regex-completion-through-intellisense.md
           - name: Remove unreachable code
             href: ide/reference/remove-unreachable-code.md
           - name: Rename

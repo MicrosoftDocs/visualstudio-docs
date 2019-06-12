@@ -1,5 +1,5 @@
 ---
-title: "How to: Attach the Profiler to a Native Service to Collect Application Statistics by Using the Command Line | Microsoft Docs"
+title: "VSPerfCmd: Attach profiler to native service to get app stats"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: f783817f-77a0-4eb8-985b-ec3b77eadc42
