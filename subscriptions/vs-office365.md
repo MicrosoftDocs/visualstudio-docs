@@ -11,7 +11,7 @@ searchscope: VS Subscription
 
 # Office 365 ProPlus in Visual Studio Subscriptions
 
-Create your best work. Work anywhere with apps that are always updated. Office 365 ProPlus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. Office 365 also comes with services like 1TB of OneDrive storage, 60 Skype minutes per month, and Microsoft chat and phone support. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
+Create your best work. Work anywhere with apps that are always updated. Office 365 ProPlus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
 ## Getting started with Office 365 ProPlus
 
@@ -53,7 +53,7 @@ If you're planning to develop applications for Office, you'll want to activate y
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-| Visual Studio Dev Essentials | N/A  | Not available |N/A |
+|  |
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network.*
 

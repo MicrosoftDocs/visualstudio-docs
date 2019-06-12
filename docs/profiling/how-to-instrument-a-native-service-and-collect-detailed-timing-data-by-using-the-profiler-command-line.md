@@ -1,5 +1,5 @@
 ---
-title: "How to: Instrument a Native Service and Collect Detailed Timing Data by Using the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line: Instrument native service, get timing data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: dfe58b39-63f8-4a87-ab3a-2b5b14faa8d0

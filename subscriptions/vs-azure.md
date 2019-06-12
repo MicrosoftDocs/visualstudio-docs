@@ -24,7 +24,6 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 |              Visual Studio Professional monthly              |        Not available        |                                                             |
 |                    Visual Studio Test Pro                    |     $50 monthly credit      |                             Yes                             |
 |                        MSDN Platforms                        |     $100 monthly credit     |                             Yes                             |
-|                 Visual Studio Dev Essentials                 | Free services + $200 credit | Free services are perpetual.  $200 credit is one-time only. |
 |               Visual Studio Enterprise - NFR\*               |     $150 monthly credit     |                             Yes                             |
 |                Visual Studio Enterprise - FTE                |     $150 monthly credit     |                             Yes                             |
 |     Visual Studio Enterprise - Microsoft Partner Network     |     $150 monthly credit     |                             Yes                             |

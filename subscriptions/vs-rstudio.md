@@ -86,9 +86,9 @@ RStudio is available in open source and commercial editions and runs on the desk
 |         Visual Studio Professional (Standard)          | VL, Retail |   Not available    | NA |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   Not available    | NA |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   Not available   | NA |
-|                     Visual Studio Dev Essentials                     |        NA         |   Not available    |       NA       |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
+||
 
 <sup>1</sup>  *NFR Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 
