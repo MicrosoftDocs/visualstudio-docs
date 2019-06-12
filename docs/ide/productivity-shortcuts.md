@@ -23,7 +23,7 @@ For a complete list of command shortcuts, see [Default keyboard shortcuts](../id
 |-|-|
 |Maximize floating window|**Double-click** on title bar|
 |Maximize/minimize windows|**Win**+**Up arrow** / **Win**+**Down arrow**|
-|Re-dock floating window|**Ctrl**+**double-click** on title bar|
+|Redock floating window|**Ctrl**+**double-click** on title bar|
 |Move/dock floating windows|**Win**+**Left arrow** / **Win**+**Right arrow**|
 |Close active document|**Ctrl**+**F4**|
 |Show open file list|**Ctrl**+**Alt**+**Down arrow**|
@@ -52,8 +52,8 @@ For a complete list of command shortcuts, see [Default keyboard shortcuts](../id
 |Quick Find Expand Drop Down|**Alt**+**Down arrow**|
 |Dismiss Find|**Esc**|
 |Quick Replace|**Ctrl**+**H**|
-|Quick Replace Replace Next|**Alt**+**R**|
-|Quick Replace Replace All|**Alt**+**A**|
+|Quick Replace - Replace Next|**Alt**+**R**|
+|Quick Replace - Replace All|**Alt**+**A**|
 |Find in Files|**Ctrl**+**Shift**+**F**|
 |Replace in Files|**Ctrl**+**Shift**+**H**|
 
@@ -125,5 +125,4 @@ For a complete list of command shortcuts, see [Default keyboard shortcuts](../id
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
 - [Productivity features in Visual Studio](productivity-features.md)
 - [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md)
-- [Keyboard shortcuts (Azure DevOps Services and TFS)](/azure/devops/project/navigation/keyboard-shortcuts?view=vsts)
 - [Common keyboard shortcuts in Visual Studio for Mac](/visualstudio/mac/keyboard-shortcuts)
