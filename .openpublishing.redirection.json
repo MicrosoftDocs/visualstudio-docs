@@ -7834,6 +7834,16 @@
             "source_path": "docs/vs-2015/azure/vs-azure-tools-resource-groups-ci.md",
             "redirect_url": "/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-modernreq.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/leave-vsde.md",
+            "redirect_url": "/visualstudio/subscriptions/join-dev-essentials",
+            "redirect_document_id": false
         }
     ]
 }
