@@ -59,7 +59,7 @@ For more information about keyboard shortcuts and commands, see [Productivity sh
 
 ## Navigate quickly to files or types
 
-Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). **Go To All** enables you to quickly jump to any file, type, member, or symbol declaration.
+Visual Studio has a feature called **Go To All** (**Ctrl**+**T**). **Go To All** enables you to quickly jump to any file, type, member, or symbol declaration.
 
 - Change the location of this search bar or turn off the live navigation preview by using the **gear** icon.
 - Filter results using syntax such as `t mytype`.

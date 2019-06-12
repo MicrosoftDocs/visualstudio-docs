@@ -165,5 +165,5 @@ The *Global* context means that the shortcut is applicable in any tool window in
 
 ## See also
 
-- [Identify and customize shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 - [All keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

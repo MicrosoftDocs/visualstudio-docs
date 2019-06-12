@@ -1,5 +1,5 @@
 ---
-title: Keyboard shortcuts
+title: Keyboard and mouse shortcuts
 ms.date: 11/02/2018
 ms.topic: reference
 author: gewarren
@@ -61,7 +61,7 @@ For a complete list of command shortcuts, see [Default keyboard shortcuts](../id
 
 |Task|Shortcut|
 |-|-|
-|Go to all|**Ctrl**+**T**|
+|Go To All|**Ctrl**+**T**|
 |Go to recent files|**Ctrl**+**T**,**R**|
 |Multi-caret multiple insertion points|**Ctrl**+**Alt**+**click**|
 |Multi-caret add matching selection|**Shift**+**Alt**+**Ins**|

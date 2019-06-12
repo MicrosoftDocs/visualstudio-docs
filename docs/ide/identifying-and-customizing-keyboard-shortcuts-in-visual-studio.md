@@ -22,7 +22,7 @@ ms.workload:
 
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:
 
-- Which default environment settings you chose the first time that you opened Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
+- Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
 
 - Whether you've customized the shortcut's behavior.
 
