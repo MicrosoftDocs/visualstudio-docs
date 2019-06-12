@@ -19,6 +19,8 @@ translation.priority.ht:
    If you don't have administrative permissions on the remote computer, right-click the **Remote Debugger** app and select **Run as administrator**. Otherwise, just start it normally.
 
    There may be different versions of *msvsmon.exe* in *x64*, *x32*, or other folders. Make sure to start the version you need to debug your app. 
+
+   For more information why we recommend running the service as an administrator, see [Run the remote debugger as an administrator](remote-debugging-errors-and-troubleshooting.md#run-the-remote-debugger-as-an-administrator).
    
 1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
   
