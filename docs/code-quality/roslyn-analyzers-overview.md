@@ -76,7 +76,7 @@ You cannot set the severity of rules from analyzers that were installed as a Vis
 
 ### Three categories of analyzers
 - Microsoft's recommended analyzers: [FxCop Analyzers](../code-quality/fxcop-analyzers.md)
-- Visual Studio IDE analyzers: [EditorConfig](../../ide/code-styles-and-code-cleanup.md)
+- Visual Studio IDE analyzers: [EditorConfig](../../../ide/code-styles-and-code-cleanup.md)
 - Third party analyzers: [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
 
 ## Next steps
