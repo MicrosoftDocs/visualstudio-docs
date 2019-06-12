@@ -403,6 +403,8 @@
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
             href: ide/reference/rename.md
+          - name: Split or merge if statements
+            href: ide/reference/split-or-merge-if-statement.md
           - name: Synchronize type and filename
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
