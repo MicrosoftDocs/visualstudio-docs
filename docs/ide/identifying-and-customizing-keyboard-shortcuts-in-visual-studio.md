@@ -22,7 +22,7 @@ ms.workload:
 
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:
 
-- Which default environment settings you chose the first time that you opened Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see env[Environment settings ](environment-setings.md).)
+- Which default environment settings you chose the first time that you opened Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
 
 - Whether you've customized the shortcut's behavior.
 
@@ -91,7 +91,7 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
 7. Choose the **Assign** button.
 
     > [!NOTE]
-    > If you specify a different shortcut for a command, click **Assign**, and then click **Cancel** to close the dialog box, the shortut you assigned is not reverted.
+    > If you specify a different shortcut for a command, click **Assign**, and then click **Cancel** to close the dialog box, the shortcut you assigned is not reverted.
 
 ## Share custom keyboard shortcuts
 
