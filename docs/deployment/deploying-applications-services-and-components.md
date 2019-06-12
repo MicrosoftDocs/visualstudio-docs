@@ -1,5 +1,5 @@
 ---
-title: "Deployment feature tour"
+title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
 ms.date: 01/29/2019
@@ -115,6 +115,16 @@ You can enable more sophisticated development and testing by deploying your appl
 ## Continuous deployment
 
 You can use Azure Pipelines to enable continuous deployment of your app. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts) and [Deploy to Azure](/azure/devops/deploy-azure/index?view=vsts).
+
+## Deploy a SQL database
+
+- [Change target platform and publish a database project (SQL Server Data Tools (SSDT))](/sql/ssdt/how-to-change-target-platform-and-publish-a-database-project)
+
+- [Deploy an Analysis Services Project (SSAS)](/sql/analysis-services/multidimensional-tutorial/lesson-2-5-deploying-an-analysis-services-project)
+
+- [Deploy Integration Services (SSIS) projects and packages](/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages)
+
+- [Build and deploy to a local database](/sql/ssdt/how-to-build-and-deploy-to-a-local-database)
 
 ## Deployment for other app types
 
