@@ -67,9 +67,9 @@ The table below details what Pluralsight subscription benefits are available to 
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
 |              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | No |
 |                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | No |
-|                     Visual Studio Dev Essentials                     |        NA         |   1 month    |       No       |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Partner Network (MPN), FTE, Imagine.*
 

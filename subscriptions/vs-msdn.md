@@ -47,7 +47,7 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Printed edition                                             |  No.  Available to new subscribers only         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Printed edition                                              | No.  Available to new subscribers only         |
 |Visual Studio Enterprise, Visual Studio Professional (monthly cloud)   | Azure |Not available      |  NA         |
-|Visual Studio Dev Essentials| NA |Digital edition       |  Yes|
+||
 
 <sup>1</sup>  *Printed edition:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Microsoft Partner Network (Enterprise), Imagine (Premium).*
 

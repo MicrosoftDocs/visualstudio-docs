@@ -97,3 +97,6 @@
 ## [Report a Problem](report-a-problem.md)
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
+
+# [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
+# [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
