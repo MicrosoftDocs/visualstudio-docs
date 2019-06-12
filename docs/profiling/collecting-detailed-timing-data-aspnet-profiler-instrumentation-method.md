@@ -1,5 +1,5 @@
 ---
-title: "Collecting Detailed Timing Data for an ASP.NET Web Application Using the Profiler Instrumentation Method from the Command Line | Microsoft Docs"
+title: "VSPerfCmd: Get timing data for ASP.NET web app using instrumentation"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
