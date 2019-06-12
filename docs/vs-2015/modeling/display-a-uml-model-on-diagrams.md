@@ -1,39 +1,36 @@
 ---
 title: "Display a UML model on diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API"
 ms.assetid: adf1f1f2-2ad9-4ade-82de-c6a5194ab471
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Display a UML model on diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 In the program code for an extension to Visual Studio, you can control how model elements are displayed on diagrams. To see which versions of Visual Studio support UML models, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
- In this topic:  
- -   [To display an element on a diagram](#Display)  
+In this topic:  
+- [To display an element on a diagram](#Display)  
   
--   [Accessing the shapes that represent an element](#GetShapes)  
+- [Accessing the shapes that represent an element](#GetShapes)  
   
--   [Moving and resizing shapes](#Moving)  
+- [Moving and resizing shapes](#Moving)  
   
--   [To remove a shape from a diagram](#Removing)  
+- [To remove a shape from a diagram](#Removing)  
   
--   [Opening and creating diagrams](#Opening)  
+- [Opening and creating diagrams](#Opening)  
   
--   [Example: Command for Aligning Shapes](#AlignCommand)  
+- [Example: Command for Aligning Shapes](#AlignCommand)  
   
-##  <a name="Display"></a> To display an element on a diagram  
+## <a name="Display"></a> To display an element on a diagram  
  When you create an element such as a use case or an action, the user can see it in UML Model Explorer, but it does not always automatically appear in a diagram. In some cases, you must write code to display it. The following table summarizes the alternatives.  
   
 |Type of element|For example|To display this, your code must|  
@@ -44,7 +41,7 @@ In the program code for an extension to Visual Studio, you can control how model
 |Child of behavior|Lifelines, messages, actions, object nodes|Automatic - no code required.<br /><br /> It is displayed if the parent is bound to a diagram.|  
 |Relationship|Association, generalization, flow, dependency|Automatic - no code required.<br /><br /> It is displayed on every diagram on which both ends are displayed.|  
   
-##  <a name="GetShapes"></a> Accessing the shapes that represent an element  
+## <a name="GetShapes"></a> Accessing the shapes that represent an element  
  The shape that represents an element belongs to the types:  
   
  `IShape`  
@@ -65,7 +62,7 @@ In the program code for an extension to Visual Studio, you can control how model
 |`IShape iShape = ...;`<br /><br /> `IShape<IClass> classShape = iShape.ToIShape<IClass>();`<br /><br /> `IClass aClass = classShape.Element;`|Cast a generic `IShape` to a strongly typed `IShape<IElement>`.|  
 |`IShape<IClassifier> classifierShape;`<br /><br /> `IShape<IUseCase> usecaseShape =`<br /><br /> `classifierShape.ToIShape<IUseCase>();`|Cast a shape from one parameterized shape type to another.|  
   
-##  <a name="Moving"></a> Moving and resizing shapes  
+## <a name="Moving"></a> Moving and resizing shapes  
   
 |||  
 |-|-|  
@@ -74,7 +71,7 @@ In the program code for an extension to Visual Studio, you can control how model
   
  For an example, see [Defining an Alignment Command](#AlignCommand).  
   
-##  <a name="Removing"></a> To remove a shape from a diagram  
+## <a name="Removing"></a> To remove a shape from a diagram  
  You can delete shapes of some types of element without deleting the element.  
   
 |Model Element|To remove the shape|  
@@ -83,7 +80,7 @@ In the program code for an extension to Visual Studio, you can control how model
 |A behavior: interaction or activity|You can delete the diagram from the project. Use `IDiagram.FileName` to get the path.<br /><br /> This does not delete the behavior from the model.|  
 |Any other shape|You cannot explicitly delete other shapes from a diagram. The shape will automatically disappear if the element is deleted from the model, or if the parent shape is removed from the diagram.|  
   
-##  <a name="Opening"></a> Opening and creating diagrams  
+## <a name="Opening"></a> Opening and creating diagrams  
   
 ### To access the user's current diagram from a command or gesture extension  
  Declare this imported property in your class:  
@@ -99,7 +96,7 @@ In the program code for an extension to Visual Studio, you can control how model
  `Context.CurrentDiagram as IClassDiagram;`  
   
 > [!NOTE]
->  An instance of `IDiagram` (and its subtypes such as `IClassDiagram`) is valid only within the command you are processing. It is not recommended to keep an `IDiagram` object in a variable that persists while control is returned to the user.  
+> An instance of `IDiagram` (and its subtypes such as `IClassDiagram`) is valid only within the command you are processing. It is not recommended to keep an `IDiagram` object in a variable that persists while control is returned to the user.  
   
  For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
@@ -159,7 +156,7 @@ foreach (ProjectItem item in project.ProjectItems)
 IModelStore modelStore = (project as IModelingProject).Store;  
 ```  
   
-##  <a name="AlignCommand"></a> Example: Command for Aligning Shapes  
+## <a name="AlignCommand"></a> Example: Command for Aligning Shapes  
  The following code implements a menu command that aligns shapes neatly. The user must first place two or more shapes in approximate alignment, either vertically or horizontally. Then the align command can be used to align their centers.  
   
  To make the command available, add this code to a menu command project, and then deploy the resulting extension to your users. For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
@@ -180,21 +177,21 @@ namespace AlignCommand
   // This command will straighten them up.  
   
   // Place this file in a menu command extension project.  
-  // See http://msdn.microsoft.com/library/ee329481.aspx  
+  // See https://msdn.microsoft.com/library/ee329481.aspx  
   
   [Export(typeof(ICommandExtension))]  
   [ClassDesignerExtension] // TODO: Add other diagram types if needed  
   class CommandExtension : ICommandExtension  
   {  
     /// <summary>  
-    /// See http://msdn.microsoft.com/library/ee329481.aspx  
+    /// See https://msdn.microsoft.com/library/ee329481.aspx  
     /// </summary>  
     [Import]  
     IDiagramContext context { get; set; }  
   
     /// <summary>  
     /// Transaction context.  
-    /// See http://msdn.microsoft.com/library/ee330926.aspx  
+    /// See https://msdn.microsoft.com/library/ee330926.aspx  
     /// </summary>  
     [Import]  
     ILinkedUndoContext linkedUndo { get; set; }  
@@ -380,6 +377,3 @@ namespace AlignCommand
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)   
  [Sample: Align Shapes on a Diagram menu command](http://go.microsoft.com/fwlink/?LinkId=213809)   
  [Sample: Creating Elements, Shapes and Stereotypes](http://go.microsoft.com/fwlink/?LinkId=213811)
-
-
-

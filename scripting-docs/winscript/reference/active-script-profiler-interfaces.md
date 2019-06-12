@@ -2,7 +2,6 @@
 title: "Active Script Profiler Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -42,9 +41,9 @@ Active Script Profiler Interfaces enable you to receive profiling events from th
 - [Active Script Profiler Constants, Enumerations and Structures](../../winscript/reference/active-script-profiler-constants-enumerations-and-structures.md)  
   
 > [!NOTE]
->  The Active Script Profiler Interfaces were first released with Internet Explorer 8. The `IActiveScriptProfilerControl2` and `IActiveScriptProfilerCallback2` interfaces were first released with Internet Explorer 9. The [IActiveScriptProfilerControl3 Interface](../../winscript/reference/iactivescriptprofilercontrol3-interface.md), [IActiveScriptProfilerCallback3 Interface](../../winscript/reference/iactivescriptprofilercallback3-interface.md), and [IActiveScriptProfilerHeapEnum Interface](../../winscript/reference/iactivescriptprofilerheapenum-interface.md) interfaces were first released with Internet Explorer 10. The [IActiveScriptProfilerControl5 Interface](../../winscript/reference/iactivescriptprofilercontrol5-interface.md) was first released with Internet Explorer 11.  
+> The Active Script Profiler Interfaces were first released with Internet Explorer 8. The `IActiveScriptProfilerControl2` and `IActiveScriptProfilerCallback2` interfaces were first released with Internet Explorer 9. The [IActiveScriptProfilerControl3 Interface](../../winscript/reference/iactivescriptprofilercontrol3-interface.md), [IActiveScriptProfilerCallback3 Interface](../../winscript/reference/iactivescriptprofilercallback3-interface.md), and [IActiveScriptProfilerHeapEnum Interface](../../winscript/reference/iactivescriptprofilerheapenum-interface.md) interfaces were first released with Internet Explorer 10. The [IActiveScriptProfilerControl5 Interface](../../winscript/reference/iactivescriptprofilercontrol5-interface.md) was first released with Internet Explorer 11.  
 >   
->  In Internet Explorer 8 and Internet Explorer 9, only the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language uses these interfaces to support script profiling.  
+> In Internet Explorer 8 and Internet Explorer 9, only the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language uses these interfaces to support script profiling.  
   
 ## See Also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

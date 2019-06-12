@@ -1,11 +1,8 @@
 ---
 title: "ClearCollection&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.ClearCollection`1.UI"
@@ -13,7 +10,7 @@ ms.assetid: db0e5da2-7b5a-4f1a-864c-f3aeeeeb51a7
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # ClearCollection&lt;T&gt; Activity Designer
 The **ClearCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.ClearCollection%601> activity.  

@@ -2,7 +2,6 @@
 title: "IActiveScriptError::GetSourceLineText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the line in the source file where an error occurred while a scripting 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSourceLineText(  
     BSTR *pbstrSourceLine  // address of buffer for source line  
 );  

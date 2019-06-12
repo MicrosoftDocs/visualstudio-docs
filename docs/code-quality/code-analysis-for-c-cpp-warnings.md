@@ -1,8 +1,6 @@
 ---
 title: Code Analysis for C/C++ Warnings
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 helpviewer_keywords:
   - "code analysis, warnings for C/C++ code"

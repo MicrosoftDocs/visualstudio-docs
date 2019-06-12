@@ -1,8 +1,6 @@
 ---
 title: Commands
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Visual Studio, commands"
@@ -11,29 +9,33 @@ helpviewer_keywords:
 ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Visual Studio Commands
+# Visual Studio commands
 
-Visual Studio commands allow you to invoke a command from the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) is used to indicate that a command rather than a search or debug operation is to follow.
+You can enter Visual Studio commands in the **Command** window, **Immediate** window, or **Find/Command** box. In each case, the greater than sign (`>`) indicates that a command, rather than a search or debug operation, follows.
 
-You can find a complete list of commands and their syntax in the **Keyboard, Environment Options** dialog box.
+You can find a complete list of commands and their syntax on the **Keyboard** page in **Tools** > **Options** > **Environment**.
 
-The escape character for Visual Studio commands is a caret (^) character, which means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,
+In localized versions of the IDE, command names can be entered either in the native language of the IDE or in English. For example, you can type either `File.NewFile` or `Fichier.NouveauFichier` in the French IDE to execute the same command.
+
+Many commands have aliases. For a list of command aliases, see [Command aliases](../../ide/reference/visual-studio-command-aliases.md). For command keyboard shortcuts, see [Default keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
+
+## Escape character
+
+The escape character for Visual Studio commands is a caret (^). The escape character means that the character immediately following it is interpreted literally rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example:
 
 ```
 >Edit.Find ^^t /regex
 ```
 
-A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored.
+A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it's ignored.
 
-In localized versions of the IDE, command names can be entered either in the native language of the IDE or in English. For example, you can type either `File.NewFile` or `Fichier.NouveauFichier` in the French IDE to execute the same command.
+## Commands with arguments
 
-Many commands have aliases. For a list of command aliases, see [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md).
-
-The following commands take arguments and/or switches.
+The following commands take arguments or switches:
 
 | Command Name | Description |
 | - | - |
@@ -70,8 +72,8 @@ The following commands take arguments and/or switches.
 | [Toggle Breakpoint](../../ide/reference/toggle-breakpoint-command.md) | Turns the breakpoint either on or off, depending on its current state, at the current location in the file. |
 | [Watch Command](../../ide/reference/watch-command.md) | Creates and opens a specified instance of a **Watch** window. |
 
-## See Also
+## See also
 
-- [Command Window](../../ide/reference/command-window.md)
-- [Find/Command Box](../../ide/find-command-box.md)
-- [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
+- [Command window](../../ide/reference/command-window.md)
+- [Find/Command box](../../ide/find-command-box.md)
+- [Visual Studio command aliases](../../ide/reference/visual-studio-command-aliases.md)

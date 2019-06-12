@@ -1,19 +1,16 @@
 ---
 title: "The Text Template Transformation Process | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, transformation process"
 ms.assetid: 80b3f0e0-49e7-4865-a1ac-dba068abe96b
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # The Text Template Transformation Process
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,19 +35,19 @@ The text template transformation process takes a text template file as the input
 ## The Host  
  The host is responsible for anything that relates to the environment outside the transformation process, including the following:  
   
--   Locating text and binary files requested by the engine or a directive processor. The host can search directories and the global assembly cache to locate assemblies. The host can locate custom directive processor code for the engine. The host can also locate and read text files and return their contents as strings.  
+- Locating text and binary files requested by the engine or a directive processor. The host can search directories and the global assembly cache to locate assemblies. The host can locate custom directive processor code for the engine. The host can also locate and read text files and return their contents as strings.  
   
--   Providing lists of standard assemblies and namespaces that are used by the engine to create the generated transformation class.  
+- Providing lists of standard assemblies and namespaces that are used by the engine to create the generated transformation class.  
   
--   Providing the application domain that is used when the engine compiles and executes the generated transformation class. A separate application domain is used in order to protect the host application from errors in the template code.  
+- Providing the application domain that is used when the engine compiles and executes the generated transformation class. A separate application domain is used in order to protect the host application from errors in the template code.  
   
--   Writing the generated output file.  
+- Writing the generated output file.  
   
--   Setting the default extension for the generated output file.  
+- Setting the default extension for the generated output file.  
   
--   Handling text template transformation errors. For example, the host can display the errors in the user interface or write them to a file. (In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], errors are displayed in the Error Message Window.)  
+- Handling text template transformation errors. For example, the host can display the errors in the user interface or write them to a file. (In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], errors are displayed in the Error Message Window.)  
   
--   Providing a required parameter value if a user has called a directive without providing a value. The directive processor can specify the name of the directive and the parameter and ask the host to provide a default value if it has one.  
+- Providing a required parameter value if a user has called a directive without providing a value. The directive processor can specify the name of the directive and the parameter and ask the host to provide a default value if it has one.  
   
 ## Directives and Directive Processors  
  A directive is a command in your text template. It provides parameters to the generation process. Typically directives define the source and type of the model or other input, and the file name extension of the output file.  
@@ -62,6 +59,3 @@ The text template transformation process takes a text template file as the input
  `<#@ import namespace="System.Text" #>`  
   
  The standard directive processor converts this to a `using` statement in the generated transformation class. You can then use the `StringBuilder` class in the rest of your template code without qualifying it as `System.Text.StringBuilder`.
-
-
-

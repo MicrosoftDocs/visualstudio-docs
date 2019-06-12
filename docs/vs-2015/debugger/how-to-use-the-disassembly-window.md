@@ -1,14 +1,9 @@
 ---
 title: "How to: Use the Disassembly Window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.disassembly"
 dev_langs: 
@@ -29,7 +24,7 @@ ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
 caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Disassembly Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,17 +54,17 @@ This feature is available only if address-level debugging is enabled the **Optio
   You probably will never have the desire or need to view machine-code instructions in their raw, numeric form, rather than assembly language. However, if you want to do so, you can use the Memory window for that purpose or choose Code Bytes from the shortcut menu in the Disassembly window.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To display the Disassembly window  
   
--   On the **Debug** menu, choose **Windows**, and click **Disassembly**.  
+- On the **Debug** menu, choose **Windows**, and click **Disassembly**.  
   
      The debugger must be running or in break mode.  
   
 ### To turn optional information on or off  
   
--   Right-click the **Disassembly** window, and set or clear the desired options in the shortcut menu.  
+- Right-click the **Disassembly** window, and set or clear the desired options in the shortcut menu.  
   
      A yellow arrow in the left margin marks the location of the current execution point. For native code, this corresponds to the CPU's program counter. This location shows the next instruction that will be executed in your program.  
   
@@ -78,8 +73,3 @@ This feature is available only if address-level debugging is enabled the **Optio
 ## See Also  
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)   
  [How to: Use the Registers Window](../debugger/how-to-use-the-registers-window.md)
-
-
-
-
-

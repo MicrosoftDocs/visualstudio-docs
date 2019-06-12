@@ -1,7 +1,6 @@
 ---
 title: "How to: Configure projects to target multiple platforms"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -22,19 +21,19 @@ Visual Studio provides a way for a solution to target several different CPU arch
 
 The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a release configuration that targets an [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)] platform, a release configuration that targets an x86 platform, and a debug configuration that targets an x86 platform.
 
-1.  On the **Build** menu, click **Configuration Manager**.
+1. On the **Build** menu, click **Configuration Manager**.
 
-2.  In the **Active solution platform box**, select the platform you want your solution to target, or select **\<New>** to create a new platform. Visual Studio will compile your application to target the platform that is set as the active platform in the **Configuration Manager** dialog box.
+2. In the **Active solution platform box**, select the platform you want your solution to target, or select **\<New>** to create a new platform. Visual Studio will compile your application to target the platform that is set as the active platform in the **Configuration Manager** dialog box.
 
 ## Remove a platform
 
 If you realize that you have no need for a platform, you can remove it using the **Configuration Manager** dialog box. This will remove all solution and project settings that you configured for that combination of configuration and target.
 
-1.  On the **Build** menu, click **Configuration Manager**.
+1. On the **Build** menu, click **Configuration Manager**.
 
-2.  In the **Active solution platform box**, select **\<Edit>**. The **Edit Solution Platforms** dialog box opens.
+2. In the **Active solution platform box**, select **\<Edit>**. The **Edit Solution Platforms** dialog box opens.
 
-3.  Click the platform you want to remove, and click **Remove**.
+3. Click the platform you want to remove, and click **Remove**.
 
 ## Target multiple platforms with one solution
 
@@ -42,11 +41,11 @@ Because you can change the settings based on the combination of configuration an
 
 ### To target multiple platforms
 
-1.  Use the **Configuration Manager** to add at least two target platforms for the solution.
+1. Use the **Configuration Manager** to add at least two target platforms for the solution.
 
-2.  Select the platform you want to target from the **Active solution platform** list.
+2. Select the platform you want to target from the **Active solution platform** list.
 
-3.  Build the solution.
+3. Build the solution.
 
 ### To build multiple solution configurations at once
 

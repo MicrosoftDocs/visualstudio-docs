@@ -1,14 +1,9 @@
 ---
 title: "CA1719: Parameter names should not match member names | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "ParameterNamesShouldNotMatchMemberNames"
   - "CA1719"
@@ -49,6 +44,3 @@ manager: "wpickett"
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
 
  [CA1707: Identifiers should not contain underscores](../code-quality/ca1707-identifiers-should-not-contain-underscores.md)
-
-
-

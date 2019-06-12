@@ -1,14 +1,9 @@
 ---
 title: "Pseudovariables | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -22,7 +17,7 @@ ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
 caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Pseudovariables
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +46,7 @@ $handles
 |`$clk`|Displays the time in clock cycles.|  
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|  
 |`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in Store apps that are running on Windows 8.1 or later. `$ exceptionstack` is not supported for C++ and SHE exceptions|  
-|`$ReturnValue`|Displays the return value of a .NET Framework method. See [Examine return values of method calls](http://msdn.microsoft.com/library/e3245b37-8e2e-4200-ba84-133726e95f1f)|  
+|`$ReturnValue`|Displays the return value of a .NET Framework method. See [Examine return values of method calls](https://msdn.microsoft.com/library/e3245b37-8e2e-4200-ba84-133726e95f1f)|  
   
  In C# and Visual Basic, you can use the pseudovariables shown in this table:  
   
@@ -67,13 +62,8 @@ $handles
 |`$delete` or `$$delete`|Deletes an implicit variable that was created in the **Immediate** window. The syntax is `$delete,` *variable* or`$delete,` *variable*`.`|  
 |`$objectids` or `$listobjectids`|Displays all active Object IDs as children of the specified expression. The syntax is `$objectid,` *expression* or`$listobjectids,` *expression*`.`|  
 |`$` *N* `#`|Displays object with Object ID equal to *N*.|  
-|`$dynamic`|Displays the special **Dynamic View** node for an object that implements the `IDynamicMetaObjectProvider`. Interface. The syntax is `$dynamic,` *object*. This feature applies only to code that uses .NET Framework version 4. See [Dynamic View](http://msdn.microsoft.com/library/4c851b17-2c12-46a0-9828-eb6ea6f5c563).|  
+|`$dynamic`|Displays the special **Dynamic View** node for an object that implements the `IDynamicMetaObjectProvider`. Interface. The syntax is `$dynamic,` *object*. This feature applies only to code that uses .NET Framework version 4. See [Dynamic View](https://msdn.microsoft.com/library/4c851b17-2c12-46a0-9828-eb6ea6f5c563).|  
   
 ## See Also  
  [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)   
- [Variable Windows](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
-
-
-
-
-
+ [Variable Windows](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

@@ -1,14 +1,9 @@
 ---
 title: "Choose Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Choose"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: 7b8b025a-d944-4f5c-9018-c89fc2ef146d
 caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Choose Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Evaluates child elements to select one set of `ItemGroup` elements and/or `PropertyGroup` elements to evaluate.  
   
  \<Project>  
@@ -124,6 +118,3 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 ## See Also  
  [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

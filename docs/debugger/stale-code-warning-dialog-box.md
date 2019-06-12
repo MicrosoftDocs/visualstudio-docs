@@ -1,8 +1,6 @@
 ---
 title: "Stale Code Warning Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.ENC.stalecode"
@@ -19,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 594b894c-e652-4e13-a980-9909473d5712
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

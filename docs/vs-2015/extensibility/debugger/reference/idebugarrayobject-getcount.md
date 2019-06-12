@@ -1,14 +1,9 @@
 ---
 title: "IDebugArrayObject::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugArrayObject::GetCount"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7931f3f7-033c-4bf8-8abd-95183952ebb0
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugArrayObject::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ int GetCount(
   
 ## See Also  
  [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)
-

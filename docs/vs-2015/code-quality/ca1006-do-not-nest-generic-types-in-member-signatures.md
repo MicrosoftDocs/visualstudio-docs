@@ -1,14 +1,9 @@
 ---
 title: "CA1006: Do not nest generic types in member signatures | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "DoNotNestGenericTypesInMemberSignatures"
   - "CA1006"
@@ -65,7 +60,4 @@ manager: "wpickett"
  [CA1007: Use generics where appropriate](../code-quality/ca1007-use-generics-where-appropriate.md)
 
 ## See Also
- [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)
-
-
-
+ [Generics](https://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)

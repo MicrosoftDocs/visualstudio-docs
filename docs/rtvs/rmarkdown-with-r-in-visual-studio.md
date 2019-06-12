@@ -2,13 +2,11 @@
 title: R Markdown
 description: How to create R Markdown documents in Visual Studio to produce high-quality reports, presentations, and dashboards.
 ms.date: 11/16/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -30,6 +28,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
     install.packages("rmarkdown")
 
     ```
+
 1. Create a new R Markdown file using the **File** > **New** > **File** menu command and selecting **R** > **R Markdown** from the list. In the context of a project, right-click the project in Solution Explorer and select **Add R Markdown** (or **Add** > **New Item** and selecting **R Markdown** from the list).
 
 1. The default contents of the new file are as follows:

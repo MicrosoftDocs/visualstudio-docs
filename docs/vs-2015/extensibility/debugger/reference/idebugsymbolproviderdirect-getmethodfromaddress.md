@@ -1,21 +1,16 @@
 ---
 title: "IDebugSymbolProviderDirect::GetMethodFromAddress | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "IDebugSymbolProviderDirect::GetMethodFromAddress"
   - "GetMethodFromAddress"
 ms.assetid: 33ffd197-1221-41bc-a9f6-f133ebdcb783
 caps.latest.revision: 9
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugSymbolProviderDirect::GetMethodFromAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -75,4 +70,3 @@ int GetMethodFromAddress(
   
 ## See Also  
  [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)
-

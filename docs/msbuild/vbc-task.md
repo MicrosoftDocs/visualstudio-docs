@@ -1,8 +1,6 @@
 ---
 title: "Vbc Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "04/12/2018"
-ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
@@ -17,17 +15,16 @@ helpviewer_keywords:
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 
 # Vbc task
-Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.dll*), or code modules (*.netmodule*). For more information on *vbc.exe*, see [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index).  
+Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.dll*), or code modules (*.netmodule*). For more information on *vbc.exe*, see [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index).
 
-## Parameters  
- The following table describes the parameters of the `Vbc` task.  
-
+## Parameters
+ The following table describes the parameters of the `Vbc` task.
 
 | Parameter | Description |
 |------------------------------| - |
@@ -48,7 +45,7 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 | `Imports` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Imports namespaces from the specified item collections. This parameter corresponds to the [-imports](/dotnet/visual-basic/reference/command-line-compiler/imports) switch of the *vbc.exe* compiler. |
 | `KeyContainer` | Optional `String` parameter.<br /><br /> Specifies the name of the cryptographic key container. This parameter corresponds to the [-keycontainer](/dotnet/visual-basic/reference/command-line-compiler/keycontainer) switch of the *vbc.exe* compiler. |
 | `KeyFile` | Optional `String` parameter.<br /><br /> Specifies the file name containing the cryptographic key. For more information, see [-keyfile](/dotnet/visual-basic/reference/command-line-compiler/keyfile). |
-| `LangVersion` | Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the language version, either "9" or "10". |
+| `LangVersion` | Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the [language version](/dotnet/visual-basic/language-reference/configure-language-version), such as "15.5". |
 | `LinkResources` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Creates a link to a .NET Framework resource in the output file; the resource file is not placed in the output file. This parameter corresponds to the [-linkresource](/dotnet/visual-basic/reference/command-line-compiler/linkresource) switch of the *vbc.exe* compiler. |
 | `MainEntryPoint` | Optional `String` parameter.<br /><br /> Specifies the class or module that contains the `Sub Main` procedure. This parameter corresponds to the [-main](/dotnet/visual-basic/reference/command-line-compiler/main) switch of the *vbc.exe* compiler. |
 | `ModuleAssemblyName` | Optional `String` parameter.<br /><br /> Specifies the assembly that this module is a part of. |
@@ -85,21 +82,21 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 | `Win32Icon` | Optional `String` parameter.<br /><br /> Inserts an *.ico* file in the assembly, which gives the output file the desired appearance in **File Explorer**. This parameter corresponds to the [-win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) switch of the *vbc.exe* compiler. |
 | `Win32Resources` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. This parameter corresponds to the [-win32resource](/dotnet/visual-basic/reference/command-line-compiler/win32resource) switch of the *vbc.exe* compiler. |
 
-## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).  
+## Remarks
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
 
-## Example  
- The following example compiles a Visual Basic project.  
+## Example
+ The following example compiles a Visual Basic project.
 
-```xml  
-<VBC  
-   Sources="@(sources)"  
-   Resources="strings.resources"  
-   Optimize="true"  
-   OutputAssembly="out.exe"/>  
-```  
+```xml
+<VBC
+   Sources="@(sources)"
+   Resources="strings.resources"
+   Optimize="true"
+   OutputAssembly="out.exe"/>
+```
 
-## See also  
- [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)   
- [Tasks](../msbuild/msbuild-tasks.md)   
- [Task reference](../msbuild/msbuild-task-reference.md)
+## See also
+- [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

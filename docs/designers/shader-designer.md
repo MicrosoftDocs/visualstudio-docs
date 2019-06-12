@@ -1,8 +1,6 @@
 ---
 title: Shader Designer
 ms.date: 09/21/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.effectdesigner"
@@ -10,7 +8,7 @@ f1_keywords:
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

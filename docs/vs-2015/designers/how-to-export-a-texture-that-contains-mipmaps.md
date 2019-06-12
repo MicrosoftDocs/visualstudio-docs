@@ -1,19 +1,14 @@
 ---
 title: "How to: Export a Texture that Contains Mipmaps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Export a Texture that Contains Mipmaps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,9 +17,9 @@ The Image Content Pipeline can generate mipmaps from a source image as part of y
   
  This document demonstrates these activities:  
   
--   Configuring the source image to be processed by the Image Content Pipeline.  
+- Configuring the source image to be processed by the Image Content Pipeline.  
   
--   Configuring the Image Content Pipeline to generate mipmaps.  
+- Configuring the Image Content Pipeline to generate mipmaps.  
   
 ## Exporting Mipmaps  
  Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces in a 3D game or app. It enhances the rendering performance of a game or app by pre-computing down-sampled versions of a texture so that the entire texture does not have to be down-sampled each time it is sampled.  
@@ -40,6 +35,3 @@ The Image Content Pipeline can generate mipmaps from a source image as part of y
 4. Choose the **OK** button.  
   
    When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified, including MIP levels, and the result is copied to the project’s output directory.
-
-
-

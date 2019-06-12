@@ -2,7 +2,6 @@
 title: "IObjectIdentity::IsEqualObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Determines if an object is equal to the current object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT IsEqualObject(  
   IUnknown*punk  
 );  

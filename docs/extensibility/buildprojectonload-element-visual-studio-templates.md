@@ -1,13 +1,12 @@
 ---
 title: "BuildProjectOnload Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

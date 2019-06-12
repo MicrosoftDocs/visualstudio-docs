@@ -1,5 +1,5 @@
 ---
-title: "Specify the Percentage of Virtual Users that Use Web Cache Data for load tests"
+title: "Load test: Set virtual user percentage using web cache data"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: f66d5d43-4121-4487-b27f-d0a0baaf7601
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify the percentage of virtual users that use web cache data
 

@@ -1,15 +1,14 @@
 ---
 title: "What is debugging?"
 description: "Understand what it means to debug an app"
-ms.custom: "debug-experiments"
+ms.custom: "debug-experiment"
 ms.date: "10/17/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -39,11 +38,14 @@ When you switch this setting, you change your project from a debug configuration
 
 ## When to use a debugger
 
-The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposable to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively. If you already know you need to learn about the debugger, see [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md). Otherwise, follow the link in **Next steps**.
+The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposable to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively.
 
 ## Next steps
 
-In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs. The following article shows C# code examples, but the concepts apply to all languages supported by Visual Studio.
+In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio and how to write code with less bugs. The following articles show C# code examples, but the concepts apply to all languages supported by Visual Studio.
 
 > [!div class="nextstepaction"]
-> [Fix bugs by writing better C# code](../debugger/write-better-code-with-visual-studio.md)
+> [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md)
+
+> [!div class="nextstepaction"]
+> [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)

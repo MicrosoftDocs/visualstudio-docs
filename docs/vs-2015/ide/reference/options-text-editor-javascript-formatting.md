@@ -1,14 +1,9 @@
 ---
 title: "Options, Text Editor, JavaScript, Formatting | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Formatting.General"
@@ -17,12 +12,11 @@ ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Options, Text Editor, JavaScript, Formatting
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools**, **Options**, and then expand **Text Editor**, **JavaScript**, and **Formatting**.  
   
  [!INCLUDE[note_settings_general](../../includes/note-settings-general-md.md)]  
@@ -65,6 +59,3 @@ Use the **Formatting** page of the **Options** dialog box to set options for for
   
 ## See Also  
  [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
-
-
-

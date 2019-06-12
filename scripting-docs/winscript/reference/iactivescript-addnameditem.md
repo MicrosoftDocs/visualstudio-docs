@@ -2,7 +2,6 @@
 title: "IActiveScript::AddNamedItem | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds the name of a root-level item to the scripting engine's name space. A root-
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddNamedItem(  
     LPCOLESTR pstrName,  // address of item name  
     DWORD dwFlags          // item flags  

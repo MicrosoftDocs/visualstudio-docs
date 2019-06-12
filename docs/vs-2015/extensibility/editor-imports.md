@@ -1,20 +1,15 @@
 ---
 title: "Editor Imports | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - services"
 ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Editor Imports
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ You can import a number of editor services, factories, and brokers that provide 
  To use an editor import, you import it as a field or property of a class that exports a Managed Extensibility Framework component part.  
   
 > [!NOTE]
->  For more information about the Managed Extensibility Framework, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
+> For more information about the Managed Extensibility Framework, see [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 ## Import Syntax  
  The following example shows how to import the editor options factory service.  
@@ -123,4 +118,3 @@ internal SVsServiceProvider ServiceProvider = null;
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

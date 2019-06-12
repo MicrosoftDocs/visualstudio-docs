@@ -1,14 +1,9 @@
 ---
 title: "Statement Completion for Identifiers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliSense [JavaScript], statement completion"
   - "statement completion, JavaScript IntelliSense"
@@ -16,7 +11,7 @@ ms.assetid: c2cd4945-c67e-471b-8057-96cfd25f7fb2
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Statement Completion for Identifiers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,6 +56,3 @@ JavaScript doesn't allow explicit typing for variable declarations. As a result,
   
 ## See Also  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)
-
-
-

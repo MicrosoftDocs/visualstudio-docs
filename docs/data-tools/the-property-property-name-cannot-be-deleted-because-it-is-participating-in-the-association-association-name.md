@@ -5,9 +5,7 @@ ms.topic: reference
 ms.assetid: 389873cc-92dd-48da-bfca-0f6c8e0ae3c2
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -29,5 +27,4 @@ Set the **Association Property** to a different property of the data class to en
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

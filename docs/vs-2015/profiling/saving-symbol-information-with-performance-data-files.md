@@ -1,14 +1,9 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "packsymbols, in profiling tools reports"
   - "profiling tools, packsymbols"
@@ -16,7 +11,7 @@ ms.assetid: 8b802505-e94d-4ee0-83e4-fdd790a332c1
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Saving Symbol Information with Performance Data Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,9 +45,9 @@ If you are using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated dev
   
 - Make sure that you have set the path of your Windows symbol cache. Do one of the following to set the symbol cache path:  
   
-  -   Set the Debugger->Symbols option in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE to the correct path.  
+  - Set the Debugger->Symbols option in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE to the correct path.  
   
-  -   Add the -symbolpath option to the VSPerfReport command line to include your symbols.  
+  - Add the -symbolpath option to the VSPerfReport command line to include your symbols.  
   
 - If you do not see any symbols in [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], make sure that you have the symbol server set up correctly for the ASP server.  
   
@@ -67,6 +62,3 @@ If you are using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] integrated dev
  [Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
-
-
-

@@ -1,19 +1,14 @@
 ---
 title: "How to: Create a Basic Texture Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 5af113fb-6415-4be0-8b23-10fddb10e80a
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create a Basic Texture Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,15 +17,15 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Removing nodes from a shader graph  
+- Removing nodes from a shader graph  
   
--   Adding nodes to a graph  
+- Adding nodes to a graph  
   
--   Setting shader parameters  
+- Setting shader parameters  
   
--   Setting parameter visibility  
+- Setting parameter visibility  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## Creating a basic texture shader  
  You can implement a basic, single-texture shader by writing the color and alpha values of a texture sample directly to the final output color.  
@@ -58,7 +53,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a cube.  
   
 > [!NOTE]
->  In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.  
+> In this illustration, a plane is used as the preview shape, and a texture has been specified to better demonstrate the effect of the shader.  
   
  ![Shader graph and a preview of its effect](../designers/media/digit-texture-effect.png "Digit-Texture-Effect")  
   
@@ -69,6 +64,3 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
  [Image Editor](../designers/image-editor.md)   
  [Shader Designer](../designers/shader-designer.md)   
  [Shader Designer Nodes](../designers/shader-designer-nodes.md)
-
-
-

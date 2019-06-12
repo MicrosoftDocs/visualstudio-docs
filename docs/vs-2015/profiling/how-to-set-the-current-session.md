@@ -1,14 +1,9 @@
 ---
 title: "How to: Set the Current Session | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "current performance sessions"
   - "Performance Explorer, selecting sessions"
@@ -21,7 +16,7 @@ ms.assetid: a593e551-18ec-46fd-bfd5-8a045165a334
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Set the Current Session
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +31,7 @@ You can open multiple performance sessions in the **Performance Explorer**, and 
   
 ### To set current performance session  
   
--   In **Performance Explorer**, right-click the performance session, and then click **Set as Current Session**.  
+- In **Performance Explorer**, right-click the performance session, and then click **Set as Current Session**.  
   
      The session name appears in bold.  
   
@@ -45,6 +40,3 @@ You can open multiple performance sessions in the **Performance Explorer**, and 
  [Performance Explorer Window](../profiling/performance-explorer-window.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)   
  [Performance Session Overview](../profiling/performance-session-overview.md)
-
-
-

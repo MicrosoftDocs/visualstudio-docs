@@ -1,14 +1,9 @@
 ---
 title: "How to: Build to a Common Output Directory | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "output directory"
   - "builds [Visual Studio], common directory"
@@ -17,7 +12,7 @@ ms.assetid: 1fcc2c48-07cb-4c4f-9556-36945e7dfc4e
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Build to a Common Output Directory
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,17 +21,14 @@ By default, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] builds each project in 
   
 ### To place all solution outputs in a common directory  
   
-1.  Click on one project in the solution.  
+1. Click on one project in the solution.  
   
-2.  On the **Project** menu, click **Properties**.  
+2. On the **Project** menu, click **Properties**.  
   
-3.  Depending on the type of project, click on either the **Compile** tab or the **Build** tab, and set the **Output path** to a folder to use for all projects in the solution.  
+3. Depending on the type of project, click on either the **Compile** tab or the **Build** tab, and set the **Output path** to a folder to use for all projects in the solution.  
   
-4.  Repeat steps 1-3 for all projects in the solution.  
+4. Repeat steps 1-3 for all projects in the solution.  
   
 ## See Also  
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [How to: Change the Build Output Directory](../ide/how-to-change-the-build-output-directory.md)
-
-
-

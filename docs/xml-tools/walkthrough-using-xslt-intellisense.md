@@ -1,13 +1,11 @@
 ---
 title: "Walkthrough: Using XSLT IntelliSense"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +15,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## To use IntelliSense in the name attribute of xsl:with-param and xsl:call-template elements
 
-1.  Create a new XSLT file and copy in the following code:
+1. Create a new XSLT file and copy in the following code:
 
     ```xml
     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
@@ -41,7 +39,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
     </xsl:stylesheet>
     ```
 
-2.  Insert your cursor after `<xsl:template name="msg23" match="msg23">` and press **Enter**. Then start typing the following `xsl:call-template` element:
+2. Insert your cursor after `<xsl:template name="msg23" match="msg23">` and press **Enter**. Then start typing the following `xsl:call-template` element:
 
     ```xml
     <xsl:call-template name="localized-message">
@@ -50,7 +48,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
      The list of template names appears in the `name=""` attribute of the `xsl:call-template` element as you type.
 
-3.  Insert your cursor after `<xsl:call-template name="localized-message">` and press **Enter**. Then start typing the following `xsl:with-param` element:
+3. Insert your cursor after `<xsl:call-template name="localized-message">` and press **Enter**. Then start typing the following `xsl:with-param` element:
 
     ```xml
     <xsl:with-param name="msgcode">msg23</xsl:with-param>
@@ -60,7 +58,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## To use IntelliSense in the mode attribute of an xsl:apply-templates element
 
-1.  Create a new XSLT file and copy in the following code:
+1. Create a new XSLT file and copy in the following code:
 
     ```xml
     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
@@ -107,7 +105,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
     </xsl:stylesheet>
     ```
 
-2.  Insert your cursor  after `<xsl:apply-templates select="phone" />` and press **Enter**. Then start typing the following `xsl: apply-templates` element:
+2. Insert your cursor  after `<xsl:apply-templates select="phone" />` and press **Enter**. Then start typing the following `xsl: apply-templates` element:
 
     ```xml
     <xsl:apply-templates select="phone"  mode="accountNumber">
@@ -117,7 +115,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## To use IntelliSense in the stylesheet-prefix and result-prefix attributes of an xsl:namespace-alias element
 
-1.  Create a new XSLT file and copy in the following code:
+1. Create a new XSLT file and copy in the following code:
 
     ```xml
     <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate"
@@ -148,7 +146,7 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
     </xsl:stylesheet>
     ```
 
-2.  Insert your cursor after `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate" version="1.0">` and press **Enter**. Then start typing the following `xsl:namespace-alias` element:
+2. Insert your cursor after `<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:alt="http://www.w3.org/1999/XSL/Transform-alternate" version="1.0">` and press **Enter**. Then start typing the following `xsl:namespace-alias` element:
 
     ```xml
     <xsl:namespace-alias stylesheet-prefix="alt" result-prefix="xsl"/>
@@ -158,4 +156,4 @@ This walkthrough demonstrates how to use XSLT IntelliSense to auto-complete valu
 
 ## See also
 
-- [XML Editor IntelliSense features](../xml-tools/xml-editor-intellisense-features.md)
+- [XML editor IntelliSense features](../xml-tools/xml-editor-intellisense-features.md)

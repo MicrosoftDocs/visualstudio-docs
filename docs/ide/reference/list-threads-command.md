@@ -1,8 +1,6 @@
 ---
 title: List Threads Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.listthreads"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

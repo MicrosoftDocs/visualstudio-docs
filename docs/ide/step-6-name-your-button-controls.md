@@ -1,15 +1,11 @@
 ---
 title: "Step 6: Name your button controls"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +13,7 @@ ms.workload:
 There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you added it, the IDE automatically named it **pictureBox1**. There's only one <xref:System.Windows.Forms.CheckBox>, which is named **checkBox1**. Soon, you will write some code, and that code will refer to the CheckBox and PictureBox. Because there's only one of each of these controls, you will know what it means when you see **pictureBox1** or **checkBox1** in your code.
 
 > [!NOTE]
->  In Visual Basic, the default first letter of any control name is initial cap, so the names are **PictureBox1**, **CheckBox1**, and so on.
+> In Visual Basic, the default first letter of any control name is initial cap, so the names are **PictureBox1**, **CheckBox1**, and so on.
 
  There are four buttons on your form, and the IDE named them **button1**, **button2**, **button3**, and **button4**. By just looking at their current names, you don't know which button is the **Close** button and which one is the **Show a picture** button. That's why giving your button controls more informative names is helpful.
 
@@ -25,22 +21,22 @@ There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you a
 
 ## To name your button controls
 
-1.  On the form, choose the **Close** button. (If you still have all the buttons selected, choose the **Esc** key to cancel the selection.) Scroll in the **Properties** window until you see the **(Name)** property. (The **(Name)** property is near the top when the properties are alphabetical.) Change the name to **closeButton**, as shown in the following picture.
+1. On the form, choose the **Close** button. (If you still have all the buttons selected, choose the **Esc** key to cancel the selection.) Scroll in the **Properties** window until you see the **(Name)** property. (The **(Name)** property is near the top when the properties are alphabetical.) Change the name to **closeButton**, as shown in the following picture.
 
      ![Properties window with closeButton name](../ide/media/express_setnameproperty.png)
 **Properties** window with **closeButton** name
 
     > [!NOTE]
-    >  If you try changing the name of your button to **closeButton**, with a space between the words close and Button, the IDE displays an error message: "Property value is not valid." Spaces (and a few other characters) are not allowed in control names.
+    > If you try changing the name of your button to **closeButton**, with a space between the words close and Button, the IDE displays an error message: "Property value is not valid." Spaces (and a few other characters) are not allowed in control names.
 
-2.  Rename the other three buttons to **backgroundButton**, **clearButton**, and **showButton**. You can verify the names by choosing the control selector drop-down list in the **Properties** window. The new button names appear.
+2. Rename the other three buttons to **backgroundButton**, **clearButton**, and **showButton**. You can verify the names by choosing the control selector drop-down list in the **Properties** window. The new button names appear.
 
-3.  Double-click the **Show a picture** button on the form. As an alternative, choose the **Show a picture** button on the form, and then choose the **Enter** key. When you do, the IDE opens an additional tab in the main window called **Form1.cs** (**Form1.vb** if you're using Visual Basic). This tab shows the code file behind the form, as shown in the following picture.
+3. Double-click the **Show a picture** button on the form. As an alternative, choose the **Show a picture** button on the form, and then choose the **Enter** key. When you do, the IDE opens an additional tab in the main window called **Form1.cs** (**Form1.vb** if you're using Visual Basic). This tab shows the code file behind the form, as shown in the following picture.
 
      ![Form1.cs tab with Visual C&#35; code](../ide/media/express_showbuttoncode.png)
 **Form1.cs** tab with Visual C# code
 
-4.  Focus on this part of the code. (Choose the **VB** tab below if you're using Visual Basic to view the Visual Basic version of the code.)
+4. Focus on this part of the code. (Choose the **VB** tab below if you're using Visual Basic to view the Visual Basic version of the code.)
 
      [!code-vb[VbExpressTutorial1Step6#1](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_1.vb)]
      [!code-csharp[VbExpressTutorial1Step6#1](../ide/codesnippet/CSharp/step-6-name-your-button-controls_1.cs)]
@@ -48,14 +44,14 @@ There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you a
      You are looking at code called `showButton_Click()`. The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.
 
     > [!NOTE]
-    >  In this tutorial, the Visual Basic code that's automatically generated has been simplified by removing everything between the parentheses, `()`. Whenever this occurs, you can remove the same code. Your program will work either way. For the remainder of the tutorials, any automatically generated code is simplified whenever possible.
+    > In this tutorial, the Visual Basic code that's automatically generated has been simplified by removing everything between the parentheses, `()`. Whenever this occurs, you can remove the same code. Your program will work either way. For the remainder of the tutorials, any automatically generated code is simplified whenever possible.
 
-5.  Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]** in Visual C#, **Form1.vb [Design]** in Visual Basic) and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.
+5. Choose the **Windows Forms Designer** tab again (**Form1.cs [Design]** in Visual C#, **Form1.vb [Design]** in Visual Basic) and then open the code file for the **Clear the picture** button to create a method for it in the form's code. Repeat this for the remaining two buttons. Each time, the IDE adds a new method to the form's code file.
 
-6.  To add one more method, open the code file for the **CheckBox** control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.
+6. To add one more method, open the code file for the **CheckBox** control in **Windows Forms Designer** to make the IDE add a `checkBox1_CheckedChanged()` method. That method is called whenever the user selects or clears the check box.
 
     > [!NOTE]
-    >  When working on a program, you often move between the code editor and **Windows Forms Designer**. The IDE makes it easy to navigate in your project. Use **Solution Explorer** to open **Windows Forms Designer** by double-clicking *Form1.cs* in Visual C# or *Form1.vb* in Visual Basic, or on the menu bar, choose **View** > **Designer**.
+    > When working on a program, you often move between the code editor and **Windows Forms Designer**. The IDE makes it easy to navigate in your project. Use **Solution Explorer** to open **Windows Forms Designer** by double-clicking *Form1.cs* in Visual C# or *Form1.vb* in Visual Basic, or on the menu bar, choose **View** > **Designer**.
 
      The following shows the new code that you see in the code editor.
 
@@ -72,6 +68,6 @@ There's only one <xref:System.Windows.Forms.PictureBox> on your form. When you a
 
 ## To continue or review
 
--   To go to the next tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
+- To go to the next tutorial step, see [Step 7: Add dialog components to your form](../ide/step-7-add-dialog-components-to-your-form.md).
 
--   To return to the previous tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).
+- To return to the previous tutorial step, see [Step 5: Add controls to your form](../ide/step-5-add-controls-to-your-form.md).

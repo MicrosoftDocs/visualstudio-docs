@@ -2,14 +2,12 @@
 title: "Workflow Designer - InitializeCorrelation Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.ServiceModel.Activities.InitializeCorrelation.UI"
 ms.assetid: 4c54f34c-ee84-42a6-abb0-ec260c1ccb76
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

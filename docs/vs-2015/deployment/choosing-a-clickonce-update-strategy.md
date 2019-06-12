@@ -1,14 +1,9 @@
 ---
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
 caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Choosing a ClickOnce Update Strategy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,10 +28,10 @@ manager: "wpickett"
  In addition, you can determine how often the application will check for updates, and you can make updates required.  
   
 > [!NOTE]
->  Application updates require network connectivity. If a network connection is not present, the application will run without checking for updates, regardless of the update strategy that you choose.  
+> Application updates require network connectivity. If a network connection is not present, the application will run without checking for updates, regardless of the update strategy that you choose.  
   
 > [!NOTE]
->  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md).  
+> In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md).  
   
 ## Checking for Updates After Application Startup  
  By using this strategy, the application will attempt to locate and read the deployment manifest file in the background while the application is running. If an update is available, the next time that the user runs the application, he will be prompted to download and install the update.  
@@ -78,7 +73,7 @@ manager: "wpickett"
  There may be occasions when you want to require users to run an updated version of your application. For example, you might make a change to an external resource such as a Web service that would prevent the earlier version of your application from working correctly. In this case, you would want to mark your update as required and prevent users from running the earlier version.  
   
 > [!NOTE]
->  Although you can require updates by using the other update strategies, checking **Before the application starts** is the only way to guarantee that an older version cannot be run. When the mandatory update is detected on startup, the user must either accept the update or close the application.  
+> Although you can require updates by using the other update strategies, checking **Before the application starts** is the only way to guarantee that an older version cannot be run. When the mandatory update is detected on startup, the user must either accept the update or close the application.  
   
  To mark an update as required, click **Specify a minimum required version for this application** in the **Application Updates** dialog box, and then specify the publish version (**Major**, **Minor**, **Build**, **Revision**), which specifies the lowest version number of the application that can be installed.  
   
@@ -125,6 +120,3 @@ manager: "wpickett"
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [How ClickOnce Performs Application Updates](../deployment/how-clickonce-performs-application-updates.md)   
  [How to: Manage Updates for a ClickOnce Application](../deployment/how-to-manage-updates-for-a-clickonce-application.md)
-
-
-

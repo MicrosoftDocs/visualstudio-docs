@@ -1,11 +1,8 @@
 ---
 title: "Transition Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.Transition.UI"
@@ -13,7 +10,7 @@ ms.assetid: f6e8b5cc-7fb8-4699-9703-f3c9fc7cc316
 caps.latest.revision: 7
 author: "steved0x"
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Transition Activity Designer
 A <xref:System.Activities.Statements.Transition> represents the transition between two states.  
@@ -37,7 +34,7 @@ A <xref:System.Activities.Statements.Transition> represents the transition betwe
  Transitions are created by dragging a line from one state to another, or by dropping a state onto the triangles that appear when one state is dragged over another state. To create a transition by dragging, hover the mouse over the edge of the source state, and drag a line from the source state to the destination state. To create a transition by dropping, drag the destination state and hover it over the source state, and drop it onto one of the four triangles that appear around the source state. The destination state can be either a new state dragged from the **Toolbox**, or an existing state dragged from the workflow designer.  
   
 > [!NOTE]
->  A single state in a state machine can have up to 76 transitions created using the workflow designer. The limit on transitions for a state for workflows created outside the designer is limited only by system resources.  
+> A single state in a state machine can have up to 76 transitions created using the workflow designer. The limit on transitions for a state for workflows created outside the designer is limited only by system resources.  
   
  Shared trigger transitions are the set of transitions which share the same trigger event. A shared trigger allows for the conditional progression to a destination state based on the evaluation of expressions configured for multiple transitions which share a common trigger event. To add additional actions to a transition and create a shared transition, click the circle that indicates the start of the desired transition and drag it to the desired state. The new transition will share a same trigger as the initial transition, but it will have a unique condition and action. Shared transitions can also be created from within the transition designer by clicking **Add shared trigger transition** at the bottom of the transition designer, and then selecting the desired target state from the **Available states to connect** drop-down.  
   

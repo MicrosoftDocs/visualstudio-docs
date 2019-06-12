@@ -1,14 +1,9 @@
 ---
 title: "Visual Studio Administrator Guide | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
@@ -17,14 +12,14 @@ ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 caps.latest.revision: 76
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation for Visual Studio 2017, see the [Visual Studio 2017 administrator guide](/visualstudio/install/visual-studio-administrator-guide).
+For the latest documentation on Visual Studio, see the [Visual Studio administrator guide](/visualstudio/install/visual-studio-administrator-guide).
 
-You can deploy Visual Studio 2015 on a network as long as each target computer meets the [minimum installation requirements](http://www.microsoft.com/visualstudio/eng/products/2013-editions). You can create a network share by running the installation file with the /layout switch (as described on the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page) and then copying it from the local machine to the network share. If you are using an ISO, you can mount the ISO and share it or copy the ISO to a network share.  
+You can deploy Visual Studio 2015 on a network as long as each target computer meets the [minimum installation requirements](https://visualstudio.microsoft.com/vs/older-downloads/). You can create a network share by running the installation file with the /layout switch (as described on the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page) and then copying it from the local machine to the network share. If you are using an ISO, you can mount the ISO and share it or copy the ISO to a network share.  
   
  Note that installations from a network share “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime you expect to have Visual Studio 2015 clients running in your organization.  
   
@@ -56,12 +51,13 @@ You can deploy Visual Studio 2015 on a network as long as each target computer m
  For more information on the administrator file experience, see [How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md) and [How to: Automatically apply product keys when deploying Visual Studio](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md).  For more information on the command-line controls, see the [Use Command-Line Parameters to Install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) page.  
   
 ## Specifying Customer Feedback Settings  
- By default, the Visual Studio installation enables customer feedback. You can configure Visual Studio to disable customer feedback on individual computers by changing the value of the following registry key to string "0":  
+
+By default, the Visual Studio installation enables customer feedback. You can configure Visual Studio to disable customer feedback on individual computers by changing the value of the following registry key to string "0":  
   
- **HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**  
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**  
 **OptIn**  
   
- (For example, change it to HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM OptIn="0")  
+(For example, change it to HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM OptIn="0")  
   
 ## Related Topics  
   

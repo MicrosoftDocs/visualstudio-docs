@@ -3,7 +3,7 @@ title: Adding Mobile Services by using Connected Services
 description: Add Mobile Services by using the Visual Studio Add Connected Services dialog box
 documentationcenter: na
 author: ghogen
-manager: douge
+manager: jillfra
 ms.assetid: 75c3cb93-88e1-476d-a416-f34caa3608e3
 ms.topic: conceptual
 ms.workload: azure-vs

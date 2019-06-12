@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::OnFunctionEnter | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Notifies the profiler object that the scripting engine is about to execute a fun
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionEnter(  
     [in] PROFILER_TOKEN scriptId,   
     [in] PROFILER_TOKEN functionId);  

@@ -1,14 +1,9 @@
 ---
 title: "Visualize code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code, understanding"
   - "code, visualizing"
@@ -17,7 +12,7 @@ ms.assetid: 0dd7d438-393a-4cd3-b417-9bf37379e1b0
 caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Visualize code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ You can use the visualization and modeling tools in Visual Studio to help you un
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-
-
-

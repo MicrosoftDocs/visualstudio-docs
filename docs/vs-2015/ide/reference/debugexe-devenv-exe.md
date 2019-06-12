@@ -1,14 +1,9 @@
 ---
 title: "-DebugExe (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "Devenv, /DebugExe switch"
   - "DebugExe switch"
@@ -17,12 +12,11 @@ ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /DebugExe (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Opens the specified executable file to be debugged.  
   
 ## Syntax  
@@ -49,6 +43,3 @@ Devenv.exe /debugexe MyApplication.exe
   
 ## See Also  
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
-
-
-

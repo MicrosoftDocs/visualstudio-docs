@@ -11,9 +11,7 @@ helpviewer_keywords:
 ms.assetid: 50d5c580-fbf7-408f-be70-e63ac4f4d0eb
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -49,12 +47,12 @@ If your application does not need to send updates back to a data source, it's po
 
 #### To delete records from a data table
 
--   Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.
+- Call the <xref:System.Data.DataRow.Delete%2A> method of a <xref:System.Data.DataRow>.
 
      This method doesn't physically remove the record. Instead, it marks the record for deletion.
 
     > [!NOTE]
-    >  If you get the count property of a <xref:System.Data.DataRowCollection>, the resulting count includes records that have been marked for deletion. To get an accurate count of records that aren't marked for deletion, you can loop through the collection looking at the <xref:System.Data.DataRow.RowState%2A> property of each record. (Records marked for deletion have a <xref:System.Data.DataRow.RowState%2A> of <xref:System.Data.DataRowState.Deleted>.) Alternatively, you can create a data view of a dataset that filters based on row state and get the count property from there.
+    > If you get the count property of a <xref:System.Data.DataRowCollection>, the resulting count includes records that have been marked for deletion. To get an accurate count of records that aren't marked for deletion, you can loop through the collection looking at the <xref:System.Data.DataRow.RowState%2A> property of each record. (Records marked for deletion have a <xref:System.Data.DataRow.RowState%2A> of <xref:System.Data.DataRowState.Deleted>.) Alternatively, you can create a data view of a dataset that filters based on row state and get the count property from there.
 
 The following example shows how to call the <xref:System.Data.DataRow.Delete%2A> method to mark the first row in the `Customers` table as deleted:
 
@@ -66,15 +64,15 @@ When changes are made to records in a dataset, information about those changes i
 
 Changes are tracked two ways in each data row:
 
--   Each data row contains information related to its <xref:System.Data.DataRow.RowState%2A> (for example, <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, or <xref:System.Data.DataRowState.Unchanged>).
+- Each data row contains information related to its <xref:System.Data.DataRow.RowState%2A> (for example, <xref:System.Data.DataRowState.Added>, <xref:System.Data.DataRowState.Modified>, <xref:System.Data.DataRowState.Deleted>, or <xref:System.Data.DataRowState.Unchanged>).
 
--   Each changed data row contains multiple versions of that row (<xref:System.Data.DataRowVersion>), the original version (before changes) and the current version (after changes). During the period when a change is pending (the time when you can respond to the <xref:System.Data.DataTable.RowChanging> event), a third version — the proposed version— is available as well.
+- Each changed data row contains multiple versions of that row (<xref:System.Data.DataRowVersion>), the original version (before changes) and the current version (after changes). During the period when a change is pending (the time when you can respond to the <xref:System.Data.DataTable.RowChanging> event), a third version — the proposed version— is available as well.
 
 The <xref:System.Data.DataSet.HasChanges%2A> method of a dataset returns `true` if changes have been made in the dataset. After determining that changed rows exist, you can call the `GetChanges` method of a <xref:System.Data.DataSet> or <xref:System.Data.DataTable> to return a set of changed rows.
 
 #### To determine if changes have been made to any rows
 
--   Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.
+- Call the <xref:System.Data.DataSet.HasChanges%2A> method of a dataset to check for changed rows.
 
 The following example shows how to check the return value from the <xref:System.Data.DataSet.HasChanges%2A> method to detect whether there are any changed rows in a dataset named `NorthwindDataset1`:
 
@@ -86,7 +84,7 @@ You can also check to see what type of changes were made in a dataset by passing
 
 #### To determine what type of changes have been made to a row
 
--   Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.
+- Pass a <xref:System.Data.DataRowState> value to the <xref:System.Data.DataSet.HasChanges%2A> method.
 
 The following example shows how to check a dataset named `NorthwindDataset1` to determine if any new rows have been added to it:
 
@@ -96,9 +94,9 @@ The following example shows how to check a dataset named `NorthwindDataset1` to 
 ## To locate rows that have errors
 When working with individual columns and rows of data, you might encounter errors. You can check the `HasErrors` property to determine if errors exist in a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, or <xref:System.Data.DataRow>.
 
-1.  Check the `HasErrors` property to see if there are any errors in the dataset.
+1. Check the `HasErrors` property to see if there are any errors in the dataset.
 
-2.  If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.
+2. If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.
 
 [!code-csharp[VbRaddataEditing#23](../data-tools/codesnippet/CSharp/edit-data-in-datasets_7.cs)]
 [!code-vb[VbRaddataEditing#23](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_7.vb)]

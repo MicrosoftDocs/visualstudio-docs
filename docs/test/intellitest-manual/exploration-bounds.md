@@ -1,14 +1,12 @@
 ---
 title: "Exploration bounds | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -25,17 +23,17 @@ public partial class FooTest {...}
 
 * **Constraint solving bounds**
   * [MaxConstraintSolverTime](#maxconstraintsolvertime) - The number of seconds the [constraint solver](input-generation.md#constraint-solver) has to discover inputs that will cause a new and different execution path to be followed.
-  * [MaxConstraintSolverMemory](#maxconstraintsolvermemory) - The size in Megabytes that the [constraint solver](input-generation.md#constraint-solver) may use to discover inputs.<p />
+  * [MaxConstraintSolverMemory](#maxconstraintsolvermemory) - The size in Megabytes that the [constraint solver](input-generation.md#constraint-solver) may use to discover inputs.
 * **Exploration Path Bounds**
   * [MaxBranches](#maxbranches) - The maximum number of branches that may be taken along a single execution path.
   * [MaxCalls](#maxcalls) - The maximum number of calls that may be made during a single execution path.
   * [MaxStack](#maxstack) - The maximum size of the stack at any time during a single execution path, measured as the number of active call frames.
-  * [MaxConditions](#maxconditions) - The maximum number of conditions over the inputs that may be checked during a single execution path.<p />
+  * [MaxConditions](#maxconditions) - The maximum number of conditions over the inputs that may be checked during a single execution path.
 * **Exploration Bounds**
   * [MaxRuns](#maxruns) - The maximum number of runs that will be attempted during an exploration.
   * [MaxRunsWithoutNewTests](#maxrunswithoutnewtests) - The maximum number of consecutive runs without a new test being emitted.
   * [MaxRunsWithUniquePaths](#maxrunswithuniquepaths) - The maximum number of runs with unique execution paths that will be attempted during an exploration.
-  * [MaxExceptions](#maxexceptions) - The maximum number of exceptions that may be found for a combination of all discovered execution paths.<p />
+  * [MaxExceptions](#maxexceptions) - The maximum number of exceptions that may be found for a combination of all discovered execution paths.
 * **Test Suite Code Generation Settings**
   * [TestExcludePathBoundsExceeded](#testexcludepathboundsexceeded) - When true, execution paths which exceed any of the path bounds ([MaxCalls](#maxcalls), [MaxBranches](#maxbranches), [MaxStack](#maxstack), [MaxConditions](#maxconditions)) are ignored.
   * [TestEmissionFilter](#testemissionfilter) - Indicates under which circumstances IntelliTest should emit tests.
@@ -44,7 +42,7 @@ public partial class FooTest {...}
 <a name="maxconstraintsolvertime"></a>
 ## MaxConstraintSolverTime
 
-The number of seconds the 
+The number of seconds the
 [constraint solver](input-generation.md#constraint-solver) has to calculate inputs that will cause a new and different execution path to be taken. This is an option of the **PexSettingsAttributeBase** and its derived types.
 
 The deeper that IntelliTest explores the execution paths of a program, the more complex the constraint systems that IntelliTest builds from the control-flow and data-flow of the program become. Depending on your time limitation, you can set this value to allow IntelliTest to take more or less time discovering new execution paths.
@@ -104,7 +102,7 @@ For example, each path in the following code consumes n+1 conditions:
 
 ```csharp
 [PexMethod]
-void ParameterizedTest(int n) 
+void ParameterizedTest(int n)
 {
      for (int i=0; i<n; i++) { // conditions are "0<n", "1<n", ..., "!(n<n)"
           ...
@@ -142,10 +140,10 @@ The maximum number of unique paths that IntelliTest will consider during an expl
 
 The motivation behind this exploration bound is that any code containing loops or recursion might have an infinite number of execution paths, and so IntelliTest must be limited during [input generation](input-generation.md).
 
-The two settings **MaxRuns** and **MaxRunsWithUniquePaths** are related as follows: 
+The two settings **MaxRuns** and **MaxRunsWithUniquePaths** are related as follows:
 
 * IntelliTest will call a parameterized test method up to **MaxRuns** times with different test inputs.
-* If the executed code is deterministic, IntelliTest will take a different execution path each time. However, under some conditions the executed code might follow an execution path it has already taken before, with different inputs. 
+* If the executed code is deterministic, IntelliTest will take a different execution path each time. However, under some conditions the executed code might follow an execution path it has already taken before, with different inputs.
 * IntelliTest counts how many unique execution paths it finds; this number is limited by the **MaxRunsWithUniquePaths** option.
 
 <a name="maxexceptions"></a>

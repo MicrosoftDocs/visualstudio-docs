@@ -1,19 +1,14 @@
 ---
 title: "How to: Specify Symbol File Locations from the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Symbol File Locations from the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ To display symbol information such as function names and line numbers, the VSPer
   You can also use both of these methods.  
   
 > [!NOTE]
->  If [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed on the local computer, a location for the Windows symbol files probably has been specified already. For more information, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md). You still must configure VSPerfReport to use the location and server as described later in this topic.  
+> If [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed on the local computer, a location for the Windows symbol files probably has been specified already. For more information, see [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md). You still must configure VSPerfReport to use the location and server as described later in this topic.  
   
 ## Specifying Windows Symbol Files  
   
@@ -62,6 +57,3 @@ To display symbol information such as function names and line numbers, the VSPer
  The following VSPerfReport command line adds the C:\Projects\Symbols directory to the search path by using the **/SymbolPath** option.  
   
  **VSPerfReport**  *MyApp* **.exe /SymbolPath:C:\Projects\Symbols /summary:all**
-
-
-

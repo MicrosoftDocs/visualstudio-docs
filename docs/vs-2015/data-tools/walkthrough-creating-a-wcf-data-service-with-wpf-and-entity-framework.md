@@ -1,12 +1,9 @@
 ---
 title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 helpviewer_keywords: 
   - "data services in Visual Studio"
   - "WCF Data Services, Visual Studio"
@@ -16,34 +13,33 @@ ms.assetid: da66ad1b-a25d-485c-af13-2d18f0422e3d
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] that is hosted in an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application and then access it from a Windows Forms application.  
   
  In this walkthrough you will:  
   
--   Create a Web application to host a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
+- Create a Web application to host a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
   
--   Create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] that represents the Customers table in the Northwind database.  
+- Create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] that represents the Customers table in the Northwind database.  
   
--   Create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
+- Create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
   
--   Create a client application and add a reference to the [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
+- Create a client application and add a reference to the [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)].  
   
--   Enable data binding to the service and generate the user interface.  
+- Enable data binding to the service and generate the user interface.  
   
--   Optionally add filtering capabilities to the application.  
+- Optionally add filtering capabilities to the application.  
   
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   The Northwind sample database.  
+- The Northwind sample database.  
   
-     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](http://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).  
+     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](https://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).  
   
 ## Creating the Service  
  To create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)], and then create the service from the model.  
@@ -78,21 +74,21 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 5. On the **Choose Your Data Connection** page, perform one of the following steps:  
   
-   -   If a data connection to the Northwind sample database is available in the drop-down list, choose it.  
+   - If a data connection to the Northwind sample database is available in the drop-down list, choose it.  
   
         -or-  
   
-   -   Choose the **New Connection** button to configure a new data connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
+   - Choose the **New Connection** button to configure a new data connection. For more information, see [Add new connections](../data-tools/add-new-connections.md).  
   
 6. If the database requires a password, choose the **Yes, include sensitive data in the connection string** option button, and then choose the **Next** button.  
   
    > [!NOTE]
-   >  If a dialog box appears, choose **Yes** to save the file to your project.  
+   > If a dialog box appears, choose **Yes** to save the file to your project.  
   
 7. On the **Choose your version** page, choose the **Entity Framework 5.0** option button, and then choose the **Next** button.  
   
    > [!NOTE]
-   >  In order to use the latest version of the Entity Framework 6 with WCF Services, you’ll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx).  
+   > In order to use the latest version of the Entity Framework 6 with WCF Services, you’ll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx).  
   
 8. On the **Choose Your Database Objects** page, expand the **Tables** node, select the **Customers** check box, and then choose the **Finish** button.  
   
@@ -127,7 +123,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
     An XML representation of the data in the Customers table is displayed.  
   
    > [!NOTE]
-   >  In some cases, Internet Explorer will misinterpret the data as an RSS feed. You must make sure that the option to display RSS feeds is disabled. For more information, see [Troubleshooting Service References](../data-tools/troubleshooting-service-references.md).  
+   > In some cases, Internet Explorer will misinterpret the data as an RSS feed. You must make sure that the option to display RSS feeds is disabled. For more information, see [Troubleshooting Service References](../data-tools/troubleshooting-service-references.md).  
   
 8. Close the browser window.  
   
@@ -234,11 +230,11 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 #### To add filtering by city  
   
-1.  In **Solution Explorer**, open the shortcut menu for the **Form1.vb** or **Form1.cs** node and choose **Open**.  
+1. In **Solution Explorer**, open the shortcut menu for the **Form1.vb** or **Form1.cs** node and choose **Open**.  
   
-2.  Add a <xref:System.Windows.Forms.TextBox> control and a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.  
+2. Add a <xref:System.Windows.Forms.TextBox> control and a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.  
   
-3.  Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, and choose **View Code**, and then add the following code in the `Button1_Click` event handler:  
+3. Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, and choose **View Code**, and then add the following code in the `Button1_Click` event handler:  
   
     ```vb  
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click  
@@ -267,13 +263,12 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
     }  
     ```  
   
-4.  In the previous code, replace `http://localhost:53161/NorthwindCustomers.svc` with the URL from the `Form1_Load` event handler.  
+4. In the previous code, replace `http://localhost:53161/NorthwindCustomers.svc` with the URL from the `Form1_Load` event handler.  
   
-5.  On the menu bar, choose **Debug**, **Start Debugging** to run the application.  
+5. On the menu bar, choose **Debug**, **Start Debugging** to run the application.  
   
-6.  In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
+6. In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
   
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
  [How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md)
-

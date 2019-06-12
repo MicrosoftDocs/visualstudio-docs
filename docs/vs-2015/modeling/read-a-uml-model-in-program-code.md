@@ -1,26 +1,23 @@
 ---
 title: "Read a UML model in program code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, reading models"
 ms.assetid: 0f63105e-6079-498a-94f1-318c0f5f9621
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Read a UML model in program code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 You can load a UML model and its diagrams using the UML API.  
   
-##  <a name="Reading"></a> Reading a Model in Program Code  
+## <a name="Reading"></a> Reading a Model in Program Code  
  To access the content of a model without showing it in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] window, use `ModelingProject.LoadReadOnly()`.  
   
  For example:  
@@ -67,11 +64,11 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
  You can also open models and diagrams in the user interface using the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] API. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
   
-##  <a name="Standalone"></a> Stand-Alone Applications  
+## <a name="Standalone"></a> Stand-Alone Applications  
  The example in the previous section will work in Visual Studio extensions. It is possible to read a model in a stand-alone application, but you must add some references to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
   
 > [!NOTE]
->  The details of how to read a model in a stand-alone application are likely to change in future versions of the product. Some features that are accessible in the current version might not be available in future versions.  
+> The details of how to read a model in a stand-alone application are likely to change in future versions of the product. Some features that are accessible in the current version might not be available in future versions.  
   
 #### To add references to read a model in a stand-alone application.  
   
@@ -79,9 +76,9 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
 2. Add the [!INCLUDE[TLA2#tla_net](../includes/tla2sharptla-net-md.md)] references you need for accessing UML models, typically:  
   
-   -   Microsoft.VisualStudio.Uml.Interfaces.dll  
+   - Microsoft.VisualStudio.Uml.Interfaces.dll  
   
-   -   Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
+   - Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll  
   
 3. In addition to the references listed in the previous sections, add the following project references from **\Program Files\Microsoft Visual Studio [version]\Common7\IDE\PrivateAssemblies**:  
   
@@ -104,6 +101,3 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

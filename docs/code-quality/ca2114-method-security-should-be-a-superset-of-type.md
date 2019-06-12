@@ -1,8 +1,6 @@
 ---
 title: "CA2114: Method security should be a superset of type"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "MethodSecurityShouldBeASupersetOfType"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 663f7aa4-8be5-4bd5-be92-4e9444f07077
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

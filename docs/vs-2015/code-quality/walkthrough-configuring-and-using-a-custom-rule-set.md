@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Configuring and Using a Custom Rule Set | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "code analysis, walkthroughs"
   - "code analysis, rule sets"
@@ -25,21 +20,21 @@ This walkthrough shows how to use code analysis tools that have been configured 
   
  In this walkthrough, you will step through these processes:  
   
--   Create a class library.  
+- Create a class library.  
   
--   Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.  
+- Select the **Microsoft Basic Design Guideline Rules** Code Analysis rule set.  
   
--   Add your own code to the class.  
+- Add your own code to the class.  
   
--   Run Code Analysis.  
+- Run Code Analysis.  
   
--   Customize the rule set.  
+- Customize the rule set.  
   
--   Run Code Analysis and see how the rule set customization behavior works.  
+- Run Code Analysis and see how the rule set customization behavior works.  
   
 ## Prerequisites  
   
--   [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
+- [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], or [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 ## Using Rule Sets with Code Analysis  
  First, create a simple class library.  
@@ -69,7 +64,7 @@ This walkthrough shows how to use code analysis tools that have been configured 
     On the File menu, click **Save Selected Items** to update the project file with information about the rule set that you selected and its settings.  
   
    > [!TIP]
-   >  In a real-world situation, a good practice to use for prioritizing which issues you want to target with code analysis is to start with the **Minimum Recommended Rules** rule set and correct the desired issues, and then incrementally add more rules or rule sets to find and correct the additional issues.  
+   > In a real-world situation, a good practice to use for prioritizing which issues you want to target with code analysis is to start with the **Minimum Recommended Rules** rule set and correct the desired issues, and then incrementally add more rules or rule sets to find and correct the additional issues.  
   
    Next, you will add some code to the class library which will be used to demonstrate violations of the CA1704 "Identifiers should be spelled correctly" Code Analysis rule. For more information, see [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md).  
   
@@ -147,13 +142,10 @@ This walkthrough shows how to use code analysis tools that have been configured 
   
 #### Run Code Analysis on the RuleSetSample project for the second time  
   
-1.  On the **Analyze** menu, click **Run Code Analysis on RuleSetSample**.  
+1. On the **Analyze** menu, click **Run Code Analysis on RuleSetSample**.  
   
-2.  In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.  
+2. In the Error List window, notice that when you click **Warnings**, you no longer see the CA1704 warning violations for the "Identifiers should be spelled correctly" rule.  
   
 ## See Also  
  [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)   
  [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)
-
-
-

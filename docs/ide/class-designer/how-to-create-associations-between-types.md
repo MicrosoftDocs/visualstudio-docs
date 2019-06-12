@@ -1,8 +1,6 @@
 ---
 title: "How to: Create Associations Between Types (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.classdesigner.associationline"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: adccb9c8-2f8a-4086-9fa9-f70f99fb6e00
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

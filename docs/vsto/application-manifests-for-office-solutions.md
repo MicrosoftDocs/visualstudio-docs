@@ -1,9 +1,6 @@
 ---
 title: "Application manifests for Office solutions"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -12,7 +9,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---

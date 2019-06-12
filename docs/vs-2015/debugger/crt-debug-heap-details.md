@@ -1,14 +1,9 @@
 ---
 title: "CRT Debug Heap Details | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -79,14 +74,14 @@ ms.assetid: bf78ace6-28e4-4a04-97c6-39e0cdd00ba4
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CRT Debug Heap Details
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 This topic provides a detailed look at the CRT debug heap.  
   
-##  <a name="BKMK_Contents"></a> Contents  
+## <a name="BKMK_Contents"></a> Contents  
  [Find buffer overruns with debug heap](#BKMK_Find_buffer_overruns_with_debug_heap)  
   
  [Types of blocks on the debug heap](#BKMK_Types_of_blocks_on_the_debug_heap)  
@@ -101,10 +96,10 @@ This topic provides a detailed look at the CRT debug heap.
   
  [Track Heap Allocation Requests](#BKMK_Track_Heap_Allocation_Requests)  
   
-##  <a name="BKMK_Find_buffer_overruns_with_debug_heap"></a> Find buffer overruns with debug heap  
+## <a name="BKMK_Find_buffer_overruns_with_debug_heap"></a> Find buffer overruns with debug heap  
  Two of the most common and intractable problems that programmers encounter are overwriting the end of an allocated buffer and memory leaks (failing to free allocations after they are no longer needed). The debug heap provides powerful tools to solve memory allocation problems of this kind.  
   
- The Debug versions of the heap functions call the standard or base versions used in Release builds. When you request a memory block, the debug heap manager allocates from the base heap a slightly larger block of memory than requested and returns a pointer to your portion of that block. For example, suppose your application contains the call: `malloc( 10 )`. In a Release build, [malloc](http://msdn.microsoft.com/library/144fcee2-be34-4a03-bb7e-ed6d4b99eea0) would call the base heap allocation routine requesting an allocation of 10 bytes. In a Debug build, however, `malloc` would call [_malloc_dbg](http://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb), which would then call the base heap allocation routine requesting an allocation of 10 bytes plus approximately 36 bytes of additional memory. All the resulting memory blocks in the debug heap are connected in a single linked list, ordered according to when they were allocated.  
+ The Debug versions of the heap functions call the standard or base versions used in Release builds. When you request a memory block, the debug heap manager allocates from the base heap a slightly larger block of memory than requested and returns a pointer to your portion of that block. For example, suppose your application contains the call: `malloc( 10 )`. In a Release build, [malloc](https://msdn.microsoft.com/library/144fcee2-be34-4a03-bb7e-ed6d4b99eea0) would call the base heap allocation routine requesting an allocation of 10 bytes. In a Debug build, however, `malloc` would call [_malloc_dbg](https://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb), which would then call the base heap allocation routine requesting an allocation of 10 bytes plus approximately 36 bytes of additional memory. All the resulting memory blocks in the debug heap are connected in a single linked list, ordered according to when they were allocated.  
   
  The additional memory allocated by the debug heap routines is used for bookkeeping information, for pointers that link debug memory blocks together, and for small buffers on either side of your data to catch overwrites of the allocated region.  
   
@@ -148,11 +143,11 @@ typedef struct _CrtMemBlockHeader
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> Types of blocks on the debug heap  
- Every memory block in the debug heap is assigned to one of five allocation types. These types are tracked and reported differently for purposes of leak detection and state reporting. You can specify a block's type by allocating it using a direct call to one of the debug heap allocation functions such as [_malloc_dbg](http://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb). The five types of memory blocks in the debug heap (set in the **nBlockUse** member of the **_CrtMemBlockHeader** structure) are as follows:  
+## <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> Types of blocks on the debug heap  
+ Every memory block in the debug heap is assigned to one of five allocation types. These types are tracked and reported differently for purposes of leak detection and state reporting. You can specify a block's type by allocating it using a direct call to one of the debug heap allocation functions such as [_malloc_dbg](https://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb). The five types of memory blocks in the debug heap (set in the **nBlockUse** member of the **_CrtMemBlockHeader** structure) are as follows:  
   
  **_NORMAL_BLOCK**  
- A call to [malloc](http://msdn.microsoft.com/library/144fcee2-be34-4a03-bb7e-ed6d4b99eea0) or [calloc](http://msdn.microsoft.com/library/17bb79a1-98cf-4096-90cb-1f9365cd6829) creates a Normal block. If you intend to use Normal blocks only, and have no need for Client blocks, you may want to define [_CRTDBG_MAP_ALLOC](http://msdn.microsoft.com/library/435242b8-caea-4063-b765-4a608200312b), which causes all heap allocation calls to be mapped to their debug equivalents in Debug builds. This will allow file name and line number information about each allocation call to be stored in the corresponding block header.  
+ A call to [malloc](https://msdn.microsoft.com/library/144fcee2-be34-4a03-bb7e-ed6d4b99eea0) or [calloc](https://msdn.microsoft.com/library/17bb79a1-98cf-4096-90cb-1f9365cd6829) creates a Normal block. If you intend to use Normal blocks only, and have no need for Client blocks, you may want to define [_CRTDBG_MAP_ALLOC](https://msdn.microsoft.com/library/435242b8-caea-4063-b765-4a608200312b), which causes all heap allocation calls to be mapped to their debug equivalents in Debug builds. This will allow file name and line number information about each allocation call to be stored in the corresponding block header.  
   
  `_CRT_BLOCK`  
  The memory blocks allocated internally by many run-time library functions are marked as CRT blocks so they can be handled separately. As a result, leak detection and other operations need not be affected by them. An allocation must never allocate, reallocate, or free any block of CRT type.  
@@ -165,7 +160,7 @@ typedef struct _CrtMemBlockHeader
 freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));  
 ```  
   
- A client-supplied hook function for dumping the objects stored in Client blocks can be installed using [_CrtSetDumpClient](http://msdn.microsoft.com/library/f3dd06d0-c331-4a12-b68d-25378d112033), and will then be called whenever a Client block is dumped by a debug function. Also, [_CrtDoForAllClientObjects](http://msdn.microsoft.com/library/d0fdb835-3cdc-45f1-9a21-54208e8df248) can be used to call a given function supplied by the application for every Client block in the debug heap.  
+ A client-supplied hook function for dumping the objects stored in Client blocks can be installed using [_CrtSetDumpClient](https://msdn.microsoft.com/library/f3dd06d0-c331-4a12-b68d-25378d112033), and will then be called whenever a Client block is dumped by a debug function. Also, [_CrtDoForAllClientObjects](https://msdn.microsoft.com/library/d0fdb835-3cdc-45f1-9a21-54208e8df248) can be used to call a given function supplied by the application for every Client block in the debug heap.  
   
  **_FREE_BLOCK**  
  Normally, blocks that are freed are removed from the list. To check that freed memory is not still being written to or to simulate low memory conditions, you can choose to keep freed blocks on the linked list, marked as Free and filled with a known byte value (currently 0xDD).  
@@ -173,7 +168,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
  **_IGNORE_BLOCK**  
  It is possible to turn off the debug heap operations for a period of time. During this time, memory blocks are kept on the list, but are marked as Ignore blocks.  
   
- To determine the type and subtype of a given block, use the function [_CrtReportBlockType](http://msdn.microsoft.com/library/0f4b9da7-bebb-4956-9541-b2581640ec6b) and the macros **_BLOCK_TYPE** and **_BLOCK_SUBTYPE**. The macros are defined (in crtdbg.h), as follows:  
+ To determine the type and subtype of a given block, use the function [_CrtReportBlockType](https://msdn.microsoft.com/library/0f4b9da7-bebb-4956-9541-b2581640ec6b) and the macros **_BLOCK_TYPE** and **_BLOCK_SUBTYPE**. The macros are defined (in crtdbg.h), as follows:  
   
 ```  
 #define _BLOCK_TYPE(block)          (block & 0xFFFF)  
@@ -182,14 +177,14 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Check_for_heap_integrity_and_memory_leaks"></a> Check for heap integrity and memory leaks  
+## <a name="BKMK_Check_for_heap_integrity_and_memory_leaks"></a> Check for heap integrity and memory leaks  
  Many of the debug heap's features must be accessed from within your code. The following section describes some of the features and how to use them.  
   
  `_CrtCheckMemory`  
- You can use a call to [_CrtCheckMemory](http://msdn.microsoft.com/library/457cc72e-60fd-4177-ab5c-6ae26a420765), for example, to check the heap's integrity at any point. This function inspects every memory block in the heap, verifies that the memory block header information is valid, and confirms that the buffers have not been modified.  
+ You can use a call to [_CrtCheckMemory](https://msdn.microsoft.com/library/457cc72e-60fd-4177-ab5c-6ae26a420765), for example, to check the heap's integrity at any point. This function inspects every memory block in the heap, verifies that the memory block header information is valid, and confirms that the buffers have not been modified.  
   
  `_CrtSetDbgFlag`  
- You can control how the debug heap keeps track of allocations using an internal flag, [_crtDbgFlag](http://msdn.microsoft.com/library/9e7adb47-8ab9-4e19-81d5-e2f237979973), which can be read and set using the [_CrtSetDbgFlag](http://msdn.microsoft.com/library/b5657ffb-6178-4cbf-9886-1af904ede94c) function. By changing this flag, you can instruct the debug heap to check for memory leaks when the program exits and report any leaks that are detected. Similarly, you can specify that freed memory blocks not be removed from the linked list, to simulate low-memory situations. When the heap is checked, these freed blocks are inspected in their entirety to ensure that they have not been disturbed.  
+ You can control how the debug heap keeps track of allocations using an internal flag, [_crtDbgFlag](https://msdn.microsoft.com/library/9e7adb47-8ab9-4e19-81d5-e2f237979973), which can be read and set using the [_CrtSetDbgFlag](https://msdn.microsoft.com/library/b5657ffb-6178-4cbf-9886-1af904ede94c) function. By changing this flag, you can instruct the debug heap to check for memory leaks when the program exits and report any leaks that are detected. Similarly, you can specify that freed memory blocks not be removed from the linked list, to simulate low-memory situations. When the heap is checked, these freed blocks are inspected in their entirety to ensure that they have not been disturbed.  
   
  The **_crtDbgFlag** flag contains the following bit fields:  
   
@@ -203,7 +198,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Configure_the_debug_heap"></a> Configure the debug heap  
+## <a name="BKMK_Configure_the_debug_heap"></a> Configure the debug heap  
  All calls to heap functions such as `malloc`, `free`, `calloc`, `realloc`, `new`, and `delete` resolve to debug versions of those functions that operate in the debug heap. When you free a memory block, the debug heap automatically checks the integrity of the buffers on either side of your allocated area and issues an error report if overwriting has occurred.  
   
  **To use the debug heap**  
@@ -238,7 +233,7 @@ _CrtSetDbgFlag( tmpFlag );
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> new, delete, and _CLIENT_BLOCKs in the C++ debug heap  
+## <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> new, delete, and _CLIENT_BLOCKs in the C++ debug heap  
  The debug versions of the C run-time library contain debug versions of the C++ `new` and `delete` operators. If you use the `_CLIENT_BLOCK` allocation type, you must call the debug version of the `new` operator directly or create macros that replace the `new` operator in debug mode, as shown in the following example:  
   
 ```  
@@ -276,7 +271,7 @@ int main( )   {
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions  
+## <a name="BKMK_Heap_State_Reporting_Functions"></a> Heap State Reporting Functions  
  **_CrtMemState**  
   
  To capture a summary snapshot of the state of the heap at a given time, use the _CrtMemState structure defined in CRTDBG.H:  
@@ -305,22 +300,22 @@ typedef struct _CrtMemState
   
 |Function|Description|  
 |--------------|-----------------|  
-|[_CrtMemCheckpoint](http://msdn.microsoft.com/library/f1bacbaa-5a0c-498a-ac7a-b6131d83dfbc)|Saves a snapshot of the heap in a **_CrtMemState** structure supplied by the application.|  
-|[_CrtMemDifference](http://msdn.microsoft.com/library/0f327278-b551-482f-958b-76941f796ba4)|Compares two memory state structures, saves the difference between them in a third state structure, and returns TRUE if the two states are different.|  
-|[_CrtMemDumpStatistics](http://msdn.microsoft.com/library/27b9d731-3184-4a2d-b9a7-6566ab28a9fe)|Dumps a given **_CrtMemState** structure. The structure may contain a snapshot of the state of the debug heap at a given moment or the difference between two snapshots.|  
-|[_CrtMemDumpAllObjectsSince](http://msdn.microsoft.com/library/c48a447a-e6bb-475c-9271-a3021182a0dc)|Dumps information about all objects allocated since a given snapshot was taken of the heap or from the start of execution. Every time it dumps a **_CLIENT_BLOCK** block, it calls a hook function supplied by the application, if one has been installed using **_CrtSetDumpClient**.|  
-|[_CrtDumpMemoryLeaks](http://msdn.microsoft.com/library/71b2eab4-7f55-44e8-a55a-bfea4f32d34c)|Determines whether any memory leaks occurred since the start of program execution and, if so, dumps all allocated objects. Every time **_CrtDumpMemoryLeaks** dumps a **_CLIENT_BLOCK** block, it calls a hook function supplied by the application, if one has been installed using **_CrtSetDumpClient**.|  
+|[_CrtMemCheckpoint](https://msdn.microsoft.com/library/f1bacbaa-5a0c-498a-ac7a-b6131d83dfbc)|Saves a snapshot of the heap in a **_CrtMemState** structure supplied by the application.|  
+|[_CrtMemDifference](https://msdn.microsoft.com/library/0f327278-b551-482f-958b-76941f796ba4)|Compares two memory state structures, saves the difference between them in a third state structure, and returns TRUE if the two states are different.|  
+|[_CrtMemDumpStatistics](https://msdn.microsoft.com/library/27b9d731-3184-4a2d-b9a7-6566ab28a9fe)|Dumps a given **_CrtMemState** structure. The structure may contain a snapshot of the state of the debug heap at a given moment or the difference between two snapshots.|  
+|[_CrtMemDumpAllObjectsSince](https://msdn.microsoft.com/library/c48a447a-e6bb-475c-9271-a3021182a0dc)|Dumps information about all objects allocated since a given snapshot was taken of the heap or from the start of execution. Every time it dumps a **_CLIENT_BLOCK** block, it calls a hook function supplied by the application, if one has been installed using **_CrtSetDumpClient**.|  
+|[_CrtDumpMemoryLeaks](https://msdn.microsoft.com/library/71b2eab4-7f55-44e8-a55a-bfea4f32d34c)|Determines whether any memory leaks occurred since the start of program execution and, if so, dumps all allocated objects. Every time **_CrtDumpMemoryLeaks** dumps a **_CLIENT_BLOCK** block, it calls a hook function supplied by the application, if one has been installed using **_CrtSetDumpClient**.|  
   
  ![Back to top](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
-##  <a name="BKMK_Track_Heap_Allocation_Requests"></a> Track Heap Allocation Requests  
+## <a name="BKMK_Track_Heap_Allocation_Requests"></a> Track Heap Allocation Requests  
  Although pinpointing the source file name and line number at which an assert or reporting macro executes is often very useful in locating the cause of a problem, the same is not as likely to be true of heap allocation functions. While macros can be inserted at many appropriate points in an application's logic tree, an allocation is often buried in a special routine that is called from many different places at many different times. The question is usually not what line of code made a bad allocation, but rather which one of the thousands of allocations made by that line of code was bad and why.  
   
  **Unique Allocation Request Numbers and _crtBreakAlloc**  
   
  The simplest way to identify the specific heap allocation call that went bad is to take advantage of the unique allocation request number associated with each block in the debug heap. When information about a block is reported by one of the dump functions, this allocation request number is enclosed in braces (for example, "{36}").  
   
- Once you know the allocation request number of an improperly allocated block, you can pass this number to [_CrtSetBreakAlloc](http://msdn.microsoft.com/library/33bfc6af-a9ea-405b-a29f-1c2d4d9880a1) to create a breakpoint. Execution will break just before allocating the block, and you can backtrack to determine what routine was responsible for the bad call. To avoid recompiling, you can accomplish the same thing in the debugger by setting **_crtBreakAlloc** to the allocation request number you are interested in.  
+ Once you know the allocation request number of an improperly allocated block, you can pass this number to [_CrtSetBreakAlloc](https://msdn.microsoft.com/library/33bfc6af-a9ea-405b-a29f-1c2d4d9880a1) to create a breakpoint. Execution will break just before allocating the block, and you can backtrack to determine what routine was responsible for the bad call. To avoid recompiling, you can accomplish the same thing in the debugger by setting **_crtBreakAlloc** to the allocation request number you are interested in.  
   
  **Creating Debug Versions of Your Allocation Routines**  
   
@@ -370,6 +365,3 @@ int addNewRecord(struct RecStruct *prevRecord,
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

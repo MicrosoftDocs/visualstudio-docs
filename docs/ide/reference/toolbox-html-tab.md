@@ -1,8 +1,6 @@
 ---
 title: Toolbox, HTML Tab
 ms.date: 06/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.toolbox.html"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "HTML tab in Toolbox"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

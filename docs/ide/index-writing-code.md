@@ -3,8 +3,6 @@ title: Write and manage code
 description: Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
 ms.date: 01/01/2018
 layout: LandingPage
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: landing-page
 author: gewarren
 ms.author: gewarren
@@ -14,6 +12,8 @@ ms.workload:
 # Write and manage code using Visual Studio
 
 Learn how to use the code editor and other tools in Visual Studio to write, navigate, manage, and improve your code.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -240,7 +240,7 @@ Create your first app in Visual Studio.
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/quickstart-uwp-csharp">
+        <a href="/visualstudio/get-started/csharp/tutorial-uwp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

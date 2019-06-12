@@ -1,11 +1,12 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Visual Studio Documentation | Microsoft Docs
-description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+title: Visual Studio Products | Microsoft Docs
+description: Explore the Visual Studio family of products.
 ms.topic: landing-page
 searchScope: []
 ---
+<!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
     <div class="container">
         <h1>Documentation for Visual Studio Products</h1>
@@ -23,7 +24,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-ide-2019.svg" src="./images/vs-ide-2019.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -42,12 +43,12 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mac-2019.svg" src="./images/vs-mac-2019.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Visual Studio for Mac</h3>
-                                                    <p>Build apps and games, using the Mac, for the cloud, iOS, Android, macOS, and wearables.</p>
+                                                    <p>Develop apps and games for iOS, Android, desktop, and web using .NET.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -73,7 +74,7 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-							<li>
+                            <li>
                                 <a href="/appcenter/" title="Visual Studio App Center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -111,7 +112,7 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-							<li>
+                            <li>
                                 <a href="/azure/devops/" title="Azure DevOps Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">

@@ -2,7 +2,7 @@
 title: Using Windows PowerShell Scripts to Publish to Dev and Test Environments | Microsoft Docs
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 5fff1301-5469-4d97-be88-c85c30f837c1
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -30,7 +30,7 @@ Additional tools and resources for working with PowerShell in Visual Studio for 
 
 ## Generating the publish scripts
 
-You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following [these instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio.md?toc=%2fazure%2fvirtual-machines%2fwindows%2fclassic%2ftoc.json). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
+You can generate the publish scripts for a virtual machine that hosts your website when you create a new project by following [these instructions](/azure/virtual-machines/windows/classic/web-app-visual-studio?toc=%2fazure%2fvirtual-machines%2fwindows%2fclassic%2ftoc.json). You can also [generate publish scripts for web apps in Azure App Service](/azure/app-service/scripts/app-service-powershell-deploy-github).
 
 ## Scripts that Visual Studio generates
 
@@ -150,7 +150,7 @@ If you have never run a Windows PowerShell script before, you must first set the
 
    ![Create Web Deploy Package](./media/vs-azure-tools-publishing-using-powershell-scripts/IC767885.png)
 
-   For more information, see [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-publish-scripts).
+   For more information, see [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx). You can also automate the creation of your Web Deploy package, as described in [Customizing and extending the publish scripts](#customizing-and-extending-the-publish-scripts).
 
 1. In **Solution Explorer**, open the context menu for the script, and then choose **Open with PowerShell ISE**.
 1. If running Windows PowerShell scripts on this computer for the first time, open a command prompt window with Administrator privileges and type the following command:

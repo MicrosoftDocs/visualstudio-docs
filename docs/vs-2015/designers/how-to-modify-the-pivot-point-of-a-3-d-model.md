@@ -1,19 +1,14 @@
 ---
 title: "How to: Modify the Pivot Point of a 3-D Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: c20b4ec8-29f5-4ca5-bc39-d4548ca6f573
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Modify the Pivot Point of a 3-D Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +17,7 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
   
  This document demonstrates this activity:  
   
--   Modifying the pivot point of an object  
+- Modifying the pivot point of an object  
   
 ## Modifying the pivot point of a 3-D model  
  You can redefine the origin of a 3-D model by modifying its pivot point.  
@@ -42,7 +37,7 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
     You can also specify the pivot point by using the **Pivot Translation** property in the **Properties** window.  
   
    > [!TIP]
-   >  You can view the effect of the new pivot point by rotating the object. To rotate it, use the **Rotate** tool or modify the **Rotation** property.  
+   > You can view the effect of the new pivot point by rotating the object. To rotate it, use the **Rotate** tool or modify the **Rotation** property.  
   
    Here's a model that has a modified pivot point:  
   
@@ -51,6 +46,3 @@ This document demonstrates how to use the Model Editor to modify the *pivot poin
 ## See Also  
  [How to: Create a Basic 3-D Model](../designers/how-to-create-a-basic-3-d-model.md)   
  [Model Editor](../designers/model-editor.md)
-
-
-

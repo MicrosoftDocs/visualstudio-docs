@@ -7,11 +7,12 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
+dev_langs:
+- CSharp
+- VB
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Code generation in a build process
 
@@ -21,7 +22,7 @@ There are some differences in what the build tasks can do, depending on which bu
 
 This means that you can't access things like project file names in the same way when you build a text template in MSBuild. However, you can [pass environment information into text templates and directive processors by using build parameters](#parameters).
 
-##  <a name="buildserver"></a> Configure your machines
+## <a name="buildserver"></a> Configure your machines
 
 To enable build tasks on your development computer, install Modeling SDK for Visual Studio.
 
@@ -53,7 +54,7 @@ If [your build server](/azure/devops/pipelines/agents/agents) runs on a computer
 
 You'll have to edit your project file to configure some of the features in MSBuild.
 
-In **Solution Explorer**, choose **Unload** from the context menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
+In **Solution Explorer**, choose **Unload** from the right-click menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
 
 When you've finished editing, choose **Reload**.
 
@@ -72,8 +73,8 @@ After that line, insert the Text Templating import:
 ```xml
 <!-- Optionally make the import portable across VS versions -->
   <PropertyGroup>
-    <!-- Get the Visual Studio version - defaults to 10: -->
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Get the Visual Studio version: -->
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
     <!-- Keep the next element all on one line: -->
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
@@ -209,7 +210,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 </PropertyGroup>
 ```
 
-##  <a name="parameters"></a> Pass build context data into the templates
+## <a name="parameters"></a> Pass build context data into the templates
 
 You can set parameter values in the project file. For example, you can pass [build](../msbuild/msbuild-properties.md) properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):
 
@@ -243,7 +244,7 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters will have default values.
 
-##  <a name="msbuild"></a> Use project properties in assembly and include directives
+## <a name="msbuild"></a> Use project properties in assembly and include directives
 
 Visual Studio macros like **$(SolutionDir)** don't work in MSBuild. You can use project properties instead.
 
@@ -290,5 +291,16 @@ If you update an included file, or another file read by the template, Visual Stu
 
 ## See also
 
-- There is good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+::: moniker range="vs-2017"
+
+- There's good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- There's good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets*
+
+::: moniker-end
+
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md)

@@ -1,14 +1,9 @@
 ---
 title: "VisibilityConstraints Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "VisibilityConstraints"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: d6dcd314-6fe4-4693-a189-91fa026c7b34
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # VisibilityConstraints Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,4 +62,3 @@ The VisibilityConstraints element determines the static visibility of groups of 
 ## See Also  
  [VisibilityItem Element](../extensibility/visibilityitem-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

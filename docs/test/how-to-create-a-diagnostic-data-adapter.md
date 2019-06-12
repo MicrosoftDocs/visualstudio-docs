@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Create a diagnostic data adapter
 
@@ -44,37 +42,25 @@ Use the following procedure to create diagnostic data adapter that collects a da
 
 For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/quickstart-create-a-load-test-project.md).
 
-##  Create and install a diagnostic data adapter
+## Create and install a diagnostic data adapter
 
-### To create and install a diagnostic data adapter
-
-1. Create a new class library.
-
-   1.  On the **File** menu, choose **New**, and then point to **New Project**.
-
-   2.  From **Project types**, select the language to use.
-
-   3.  From **Visual Studio installed templates**, select **Class Library**.
-
-   4.  Type a name for your Diagnostic Data Adapter.
-
-   5.  Choose **OK**.
+1. Create a new **Class Library** project.
 
 2. Add the assembly **Microsoft.VisualStudio.QualityTools.ExecutionCommon**.
 
-   1.  In **Solution Explorer**, right-click **References** and choose the **Add Reference** command.
+   1. In **Solution Explorer**, right-click **References** and choose the **Add Reference** command.
 
-   2.  Choose **.NET** and locate **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**.
+   2. Choose **.NET** and locate **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**.
 
-   3.  Choose **OK**.
+   3. Choose **OK**.
 
 3. Add the assembly **Microsoft.VisualStudio.QualityTools.Common**.
 
-   1.  In **Solution Explorer**, right-click **References** and select the **Add Reference** command.
+   1. In **Solution Explorer**, right-click **References** and select the **Add Reference** command.
 
-   2.  Choose **/.NET**, locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
+   2. Choose **/.NET**, locate **Microsoft.VisualStudio.QualityTools.Common.dll**.
 
-   3.  Choose **OK**.
+   3. Choose **OK**.
 
 4. Add the following `using` statements to your class file:
 

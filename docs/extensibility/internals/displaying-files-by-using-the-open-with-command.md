@@ -1,34 +1,31 @@
 ---
 title: "Displaying Files By Using the Open With Command | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "project types, supporting Open With command"
   - "Open With command"
   - "persistence, supporting Open With command"
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Display files by using the Open With command
-A project can ask the IDE to display the **Open With** dialog box. This request prompts the user to open a file that has a selection of standard editors. The following steps describe this process:  
-  
-1.  The project calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>, specifying a value of `OSE_UseOpenWithDialog` for the `OSEOpenDocEditor` parameter.  
-  
-2.  Based on the document's file name extension, the IDE determines which editors listed in the registry can open the specified document and displays this information in the **Open With** dialog box.  
-  
+A project can ask the IDE to display the **Open With** dialog box. This request prompts the user to open a file that has a selection of standard editors. The following steps describe this process:
+
+1. The project calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>, specifying a value of `OSE_UseOpenWithDialog` for the `OSEOpenDocEditor` parameter.
+
+2. Based on the document's file name extension, the IDE determines which editors listed in the registry can open the specified document and displays this information in the **Open With** dialog box.
+
     > [!NOTE]
-    >  Projects that have an intrinsic editor that must be included in the **Open With** dialog box must register an editor factory for each such editor. Intrinsic editors only function together with a particular type of project, which is enforced in the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method. The IDE has a built-in editor factory for the core text editor and the binary editor. The IDE also creates an instance of an editor factory on behalf of each registered Windows file association. An example of such a file is Microsoft Word.  
-  
-3.  As soon as the user selects an item from the **Open With** dialog box, the IDE then opens the document by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method. For more information, see [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md).  
-  
-## See also  
- [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md)   
- [Display files by using the Open File command](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)   
- [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md)
+    > Projects that have an intrinsic editor that must be included in the **Open With** dialog box must register an editor factory for each such editor. Intrinsic editors only function together with a particular type of project, which is enforced in the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method. The IDE has a built-in editor factory for the core text editor and the binary editor. The IDE also creates an instance of an editor factory on behalf of each registered Windows file association. An example of such a file is Microsoft Word.
+
+3. As soon as the user selects an item from the **Open With** dialog box, the IDE then opens the document by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method. For more information, see [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md).
+
+## See also
+- [Open and save project items](../../extensibility/internals/opening-and-saving-project-items.md)
+- [Display files by using the Open File command](../../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
+- [How to: Open standard editors](../../extensibility/how-to-open-standard-editors.md)

@@ -1,21 +1,16 @@
 ---
 title: "Attaching and Detaching to a Program | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, attaching to programs"
   - "debug engines, detaching from programs"
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Attaching and Detaching to a Program
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,11 +27,11 @@ Attaching the debugger requires sending the correct sequence of methods and even
   
     If `S_OK` is returned, the DE is to be loaded in the same process as the SDM. The SDM performs the following tasks:  
   
-   1.  Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.  
+   1. Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.  
   
-   2.  Co-creates the DE.  
+   2. Co-creates the DE.  
   
-   3.  Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).  
+   3. Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).  
   
 2. The DE sends an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) to the SDM with an `EVENT_SYNC` attribute.  
   
@@ -52,4 +47,3 @@ Attaching the debugger requires sending the correct sequence of methods and even
   
 ## See Also  
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
-

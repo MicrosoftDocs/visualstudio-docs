@@ -1,19 +1,16 @@
 ---
 title: "Calculated and Custom Storage Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language, programming domain properties"
 ms.assetid: 42b785f9-2b0f-4f13-a6b4-246e5e0d477a
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Calculated and Custom Storage Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,30 +31,30 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
   
 #### To define a Calculated or Custom Storage Property  
   
-1.  In DslDefinition.dsl, select the domain property either in the diagram or in **DSL Explorer**.  
+1. In DslDefinition.dsl, select the domain property either in the diagram or in **DSL Explorer**.  
   
-2.  In the **Properties** window, set the **Kind** field to **Calculated** or **Custom Storage**.  
+2. In the **Properties** window, set the **Kind** field to **Calculated** or **Custom Storage**.  
   
      Make sure that you have also set its **Type** to what you want.  
   
-3.  Click **Transform All Templates** in the toolbar of **Solution Explorer**.  
+3. Click **Transform All Templates** in the toolbar of **Solution Explorer**.  
   
-4.  On the **Build** menu, click **Build Solution**.  
+4. On the **Build** menu, click **Build Solution**.  
   
      You receive the following error message: "*YourClass* does not contain a definition for Get*YourProperty*."  
   
-5.  Double-click the error message.  
+5. Double-click the error message.  
   
      Dsl\GeneratedCode\DomainClasses.cs or DomainRelationships.cs opens. Above the highlighted method call, a comment prompts you to provide an implementation for Get*YourProperty*().  
   
     > [!NOTE]
-    >  This file is generated from DslDefinition.dsl. If you edit this file, your changes will be lost the next time that you click **Transform All Templates**. Instead, add the required method in a separate file.  
+    > This file is generated from DslDefinition.dsl. If you edit this file, your changes will be lost the next time that you click **Transform All Templates**. Instead, add the required method in a separate file.  
   
-6.  Create or open a class file in a separate folder, for example CustomCode\\*YourDomainClass*.cs.  
+6. Create or open a class file in a separate folder, for example CustomCode\\*YourDomainClass*.cs.  
   
      Make sure that the namespace is the same as in the generated code.  
   
-7.  In the class file, write a partial implementation of the domain class. In the class, write a definition for the missing `Get` method that resembles the following example:  
+7. In the class file, write a partial implementation of the domain class. In the class, write a definition for the missing `Get` method that resembles the following example:  
   
     ```  
     namespace Company.FamilyTree  
@@ -67,7 +64,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
     }  }  
     ```  
   
-8.  If you set **Kind** to **Custom Storage**, you will also have to provide a `Set` method. For example:  
+8. If you set **Kind** to **Custom Storage**, you will also have to provide a `Set` method. For example:  
   
     ```  
     void SetAgeValue(int value)  
@@ -82,7 +79,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
   
 10. Test the property. Make sure that you try **Undo** and **Redo**.  
   
-##  <a name="setters"></a> Transactions and Custom Setters  
+## <a name="setters"></a> Transactions and Custom Setters  
  In the Set method of Custom Storage property, you do not have to open a transaction, because the method is usually called inside an active transaction.  
   
  However, the Set method might also be called if the user invokes Undo or Redo, or if a transaction is being rolled back. When <xref:Microsoft.VisualStudio.Modeling.Store.InUndoRedoOrRollback%2A> is true, your Set method should behave as follows:  
@@ -112,6 +109,3 @@ void SetAgeValue(int value)
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Properties of Domain Properties](../modeling/properties-of-domain-properties.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
-
-
-

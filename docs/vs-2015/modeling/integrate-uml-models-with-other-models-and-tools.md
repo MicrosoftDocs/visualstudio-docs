@@ -1,19 +1,16 @@
 ---
 title: "Integrate UML models with other models and tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML - extending, references to models"
 ms.assetid: 9e75e7d1-93cf-4196-baa3-bd10b9af16d3
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Integrate UML models with other models and tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -101,6 +98,3 @@ UML models can be integrated with other models and with domain-specific language
  [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md)   
  [Sample: UML Profiles](http://go.microsoft.com/fwlink/?LinkID=213811)   
  [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813)
-
-
-

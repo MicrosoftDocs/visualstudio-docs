@@ -3,12 +3,11 @@ title: Introduction to editing for C# developers
 description: This 10-minute introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 ms.custom: "seodec18, get-started"
 ms.date: 11/20/2018
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: tutorial
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
@@ -18,8 +17,19 @@ ms.workload:
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
+::: moniker range="vs-2017"
+
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 This article assumes you're already familiar with C#. If you aren't, we suggest you look at a tutorial such as [Get started with C# and ASP.NET Core in Visual Studio](tutorial-aspnet-core.md) first.
 
@@ -30,9 +40,21 @@ This article assumes you're already familiar with C#. If you aren't, we suggest 
 
 Start by creating a new file and adding some code to it.
 
-1. Open Visual Studio, and from the **File** menu on the menu bar, choose **New** > **File**.
+::: moniker range="vs-2017"
 
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
+1. Open Visual Studio.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. Open Visual Studio. Press **Esc** or click **Continue without code** on the start window to open the development environment.
+
+::: moniker-end
+
+2. From the **File** menu on the menu bar, choose **New** > **File**.
+
+3. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
    A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
 
@@ -104,7 +126,7 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 ## View symbol definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `string` type.
+The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** or pressing **F12** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `string` type.
 
 1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 

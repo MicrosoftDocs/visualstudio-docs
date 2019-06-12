@@ -1,8 +1,6 @@
 ---
 title: Model Editor
 ms.date: 04/12/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.3dscene"
@@ -10,7 +8,7 @@ f1_keywords:
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Configure network emulation using test settings in Visual Studio
 
@@ -56,25 +54,25 @@ Before you perform the steps in this procedure, you must open your test settings
 
 ### To configure network emulation for your test settings
 
-1.  Select the role to use to emulate a specific network.
+1. Select the role to use to emulate a specific network.
 
     > [!NOTE]
     > You have to configure the Network Emulation adapter only on either the client role or the server role. You do not have to use the adapter on both roles. The adapter emulates network noise that affects communication between both roles, so that you do not have to use it on both. Unless it is necessary, you should pick a client role for the Network Emulation adapter to avoid extra overhead on the server role.
 
-2.  Select **Network Emulation** and then choose **Configure**.
+2. Select **Network Emulation** and then choose **Configure**.
 
      The dialog box to configure network emulation is displayed.
 
-3.  Choose the arrow next to **Select the network profile to use**, and select the network type that you want to emulate when you run a test (for example, **Cable-DSL 768Kps**).
+3. Choose the arrow next to **Select the network profile to use**, and select the network type that you want to emulate when you run a test (for example, **Cable-DSL 768Kps**).
 
     > [!WARNING]
     > If you run your tests on a real network that is a slower type than the network that you are emulating, the test will still run at the slower network speed. The emulation can only slow down the network environment, not speed it up.
 
-4.  If you include the network emulation diagnostic data adapter in the test settings and you intend to use it on your local machine, then you must also bind the network emulation driver to one of your machine’s network adapters. The network emulation driver is required for the network emulation diagnostic data adapter to function. The network emulation driver is installed and bound to your adapter in two ways:
+4. If you include the network emulation diagnostic data adapter in the test settings and you intend to use it on your local machine, then you must also bind the network emulation driver to one of your machine’s network adapters. The network emulation driver is required for the network emulation diagnostic data adapter to function. The network emulation driver is installed and bound to your adapter in two ways:
 
-    -   **Network emulation driver installed with Microsoft Visual Studio Test Agent:** The Microsoft Visual Studio Test Agent can be used on both remote machines and your local machine. When you install a Visual Studio Test Agent, the installation process includes a configuration step that binds the network emulation driver to your network card. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+    - **Network emulation driver installed with Microsoft Visual Studio Test Agent:** The Microsoft Visual Studio Test Agent can be used on both remote machines and your local machine. When you install a Visual Studio Test Agent, the installation process includes a configuration step that binds the network emulation driver to your network card. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
-    -   **Network emulation driver installed with Microsoft Visual Studio Test Professional:** When you use network emulation for the first time, you are prompted to bind the network emulation driver to a network card.
+    - **Network emulation driver installed with Microsoft Visual Studio Test Professional:** When you use network emulation for the first time, you are prompted to bind the network emulation driver to a network card.
 
     > [!TIP]
     > You can also install the network emulation driver from the command line on your local machine without installing the Visual Studio test agent by using the following command: **VSTestConfig NETWORKEMULATION /install**

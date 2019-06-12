@@ -1,14 +1,9 @@
 ---
 title: "IDiaLoadCallback2::RestrictOriginalPathAccess | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 31fde3af-2824-4b0f-8d0d-cee6046596f6
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaLoadCallback2::RestrictOriginalPathAccess
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ HRESULT RestrictOriginalPathAccess ();
   
 ## See Also  
  [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
-
-
-

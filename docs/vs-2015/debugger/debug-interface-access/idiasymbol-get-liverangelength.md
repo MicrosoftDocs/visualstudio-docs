@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_liveRangeLength | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: ffcce3cc-085c-44eb-8145-46e3819c54f9
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_liveRangeLength
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ HRESULT get_liveRangeLength ( 
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 > [!NOTE]
->  A returned error code means that the symbol does not have live range information.  
+> A returned error code means that the symbol does not have live range information.  
   
 ## Remarks  
   
@@ -53,6 +48,3 @@ HRESULT get_liveRangeLength ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

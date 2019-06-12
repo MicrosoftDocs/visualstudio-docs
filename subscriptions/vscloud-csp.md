@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/15/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Buy and manage Visual Studio cloud subscriptions for your customers
@@ -17,10 +15,8 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing)
 
-
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
-
 
 ## Prerequisites
 
@@ -29,11 +25,12 @@ You must first set up your customer tenant in the Partner Center and create an A
 [Learn more](/azure/devops/organizations/billing/csp/set-up-csp-customer)
 
 ## Who can buy Visual Studio subscriptions?
-Anyone with [owner or contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase Visual Studio subscriptions. 
+
+Anyone with [owner or contributor access](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0) to the Azure subscription can purchase Visual Studio subscriptions.
 
 ## How to buy
 
-<iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-buy-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
+> [!VIDEO https://channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-buy-Visual-Studio-Subscriptions/player]
 
 1. Log into the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and select a customer to buy for.
@@ -41,7 +38,7 @@ Anyone with [owner or contributor access](https://na01.safelinks.protection.outl
 0. Choose **Visual Studio Marketplace**.
 0. Make sure you're customer's name is in the upper right corner.
 0. Choose **Subscriptions**.
-0. Choose Enterprise or Professional and choose monthly or annual for Visual Studio.
+0. Choose Enterprise or Professional for Visual Studio.
 0. Choose **Buy**.
 0. Choose the Azure subscription to bill for the purchase.
 0. Enter the number of users your customer needs.
@@ -56,7 +53,7 @@ also access the Subscription Administration portal from the Partner Center by ch
 
 ## How to manage Visual Studio cloud subscriptions for your customer
 
-<iframe src="//channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player" width="600" height="315" allowFullScreen="true" frameBorder="0"></iframe>
+> [!VIDEO https://channel9.msdn.com/Shows/Visual-Studio-for-CSP-Partners/CSP-How-to-manage-Visual-Studio-Subscriptions/player]
 
 1. Log in to the [Microsoft Partner Center](https://partnercenter.microsoft.com).
 0. Choose **Customers** and the customer's name.
@@ -90,7 +87,6 @@ Here's how to interpret what you see on this spreadsheet:
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
 | Visual Studio     | Enterprise             |  Subscription                         | Visual Studio Enterprise monthly subscription   |
 | Visual Studio     | Professional           |  Subscription                         | Visual Studio Professional monthly subscription |
-
 
 We offer a 5% discount on the 6th unit you buy (for a given customer) each month of each Visual Studio subscription. That's why you see two rows for each
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5,
@@ -141,5 +137,5 @@ A:  No, prices for Visual Studio subscriptions are flat. The same price is offer
 
 ### Q: Are there Azure dev/test pricing options for CSPs?
 
-A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](http://aka.ms/azuredevtestpricing), but we do not have anything
+A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](https://aka.ms/azuredevtestpricing), but we do not have anything
 specifically for CSPs.

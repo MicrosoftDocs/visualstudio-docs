@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: View web page response time in a load test using the Load Test Analyzer
 
@@ -21,15 +19,15 @@ The time it takes for each web page to load is known as *response time*. When yo
 
 If you run your web performance test under stress in a load test, you will be able to analyze the following information for each page:
 
--   The average response time for the page.
+- The average response time for the page.
 
--   The percent of test iterations that meet the response time goal for the page.
+- The percent of test iterations that meet the response time goal for the page.
 
--   You can analyze web page response times by using the Tables view or the Graphs view in the **Load Test Analyzer**:
+- You can analyze web page response times by using the Tables view or the Graphs view in the **Load Test Analyzer**:
 
--   Analyzing web page response times in the tables view
+- Analyzing web page response times in the tables view
 
--   Analyzing web page response times in the graphs view
+- Analyzing web page response times in the graphs view
 
 ## View response time data in a table
 

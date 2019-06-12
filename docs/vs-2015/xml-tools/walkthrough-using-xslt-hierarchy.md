@@ -1,24 +1,18 @@
 ---
 title: "Walkthrough: Using XSLT Hierarchy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 5e60c8ec-cd05-4597-b856-55038218acf4
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Using XSLT Hierarchy
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style sheet often uses `includes` and `imports` instructions. Compilation starts from the principal style sheet, but when you see an error as a result of compiling an XSLT style sheet, the error may come from a different source than the principal style sheet. Fixing the error or editing the style sheet may require access to included or imported style sheets. Stepping through the style sheet in the debugger may open included and imported style sheets, and you may want to add a breakpoint at some point in one or more of the included style sheets.  
   
  Another scenario where the XSLT Hierarchy tool can be useful is putting breakpoints on the built-in template rules. Template rules are special templates generated for each mode of the style sheet and called by `xsl:apply-templates` when no other template matches the node. To implement debugging in built-in templates rules, XSLT debugger generates the file with the rules in the temporary folder and compiles them together with the principal style sheet. Without stepping into the code from some `xsl:apply-template`, it can be difficult to find style sheets that have been included in the principal style sheet or to find and open the style sheet with the built-in template rules.  
@@ -27,7 +21,7 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
   
 ### Procedure Title  
   
-1.  Open an XML document in Visual Studio. This example uses the following `collection.xml` document.  
+1. Open an XML document in Visual Studio. This example uses the following `collection.xml` document.  
   
     ```  
     <?xml version="1.0" encoding="utf-8"?>  
@@ -51,7 +45,7 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
     </COLLECTION>  
     ```  
   
-2.  Add the following `xslincludefile.xsl`:  
+2. Add the following `xslincludefile.xsl`:  
   
     ```  
     <?xml version='1.0'?>  
@@ -74,7 +68,7 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
     </xsl:stylesheet>  
     ```  
   
-3.  Add the following `xslinclude.xsl` file:  
+3. Add the following `xslinclude.xsl` file:  
   
     ```  
     <?xml version='1.0'?>  
@@ -108,14 +102,11 @@ The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style she
     </xsl:stylesheet>  
     ```  
   
-4.  Add a breakpoint at the instruction: `<xsl:include href="xslincludefile.xsl" />`  
+4. Add a breakpoint at the instruction: `<xsl:include href="xslincludefile.xsl" />`  
   
-5.  Start debugging.  
+5. Start debugging.  
   
-6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the step into button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.  
+6. When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the step into button. Note that the debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.  
   
 ## See Also  
  [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)
-
-
-

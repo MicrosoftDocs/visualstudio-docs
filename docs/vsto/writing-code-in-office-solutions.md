@@ -1,9 +1,6 @@
 ---
 title: "Write code in Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VST.Project.RefactoringCancelled"
@@ -31,9 +28,9 @@ helpviewer_keywords:
   - "projects [Office development in Visual Studio], writing code"
   - "Office applications [Office development in Visual Studio], programming model"
   - "managed code extensions [Office development in Visual Studio], writing code"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -60,9 +57,9 @@ ms.workload:
 
  Because the types in the Office PIAs correspond to types in the COM-based object models, the way you use these types is often different from other managed types. For example, the way you call methods that have optional parameters in an Office primary interop assembly depends on the programming language you are using in your project. For more information, see the following topics:
 
--   [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md).
+- [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md).
 
--   [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md).
+- [Late binding in Office solutions](../vsto/late-binding-in-office-solutions.md).
 
 ## Program model of Office projects
  All Office projects include one or more generated classes that provide the entry point for your code. These classes also provide access to the object model of the host application and access to features like actions panes and custom task panes.
@@ -96,8 +93,11 @@ ms.workload:
 ## Program with Visual Basic vs. Visual C# in Office solutions
  You can create Office solutions by using either Visual Basic or Visual C#. Because the Microsoft Office object models were designed to be used with Microsoft Visual Basic for Applications (VBA), Visual Basic developers can work comfortably with the objects exposed by the Microsoft Office applications. Visual C# developers can use most of the same features as Visual Basic developers, but there are some cases where they must write additional code to use the Office object models. There are also some differences between basic programming features in Office development and managed code written in Visual Basic and C#.
 
+<!-- markdownlint-disable MD003 MD020 -->
 ## Key differences between Visual Basic and Visual C#
- The following table shows key differences between Visual Basic and Visual C# in Office development.
+<!-- markdownlint-enable MD003 MD020 -->
+
+The following table shows key differences between Visual Basic and Visual C# in Office development.
 
 |Feature|Description|Visual Basic support|Visual C# support|
 |-------------|-----------------|--------------------------|------------------------|

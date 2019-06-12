@@ -1,9 +1,6 @@
 ---
 title: "Accessibility in Office projects"
-ms.custom: ""
 ms.date: 02/02/2017
-ms.technology: office-development
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 dev_langs:
   - "VB"
@@ -15,16 +12,17 @@ helpviewer_keywords:
   - "accessibility [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---
 # Accessibility in Office projects
-  Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](http://go.microsoft.com/fwlink/?LinkID=37113).
 
- In most cases, Office projects in Visual Studio meet accessibility standards or exposes properties that you can set to make your solutions accessible. However, there are some features that have limited accessibility.
+Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](http://go.microsoft.com/fwlink/?LinkID=37113).
 
- [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
+In most cases, Office projects in Visual Studio meet accessibility standards or exposes properties that you can set to make your solutions accessible. However, there are some features that have limited accessibility.
+
+[!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
 ## Accessibility at design time
 
@@ -36,21 +34,21 @@ ms.workload:
 
 #### To view shortcut keys for Ribbon tabs and controls in the designer
 
-1.  In Visual Studio, on the **Tools** menu, click **Options**.
+1. In Visual Studio, on the **Tools** menu, click **Options**.
 
-2.  Expand the **Office Tools** node, and select **Microsoft Office Excel Keyboard** or **Microsoft Office Word Keyboard**, as appropriate.
+2. Expand the **Office Tools** node, and select **Microsoft Office Excel Keyboard** or **Microsoft Office Word Keyboard**, as appropriate.
 
-3.  Select **Dynamic keyboard scheme**.
+3. Select **Dynamic keyboard scheme**.
 
      A message appears that states that you must restart Visual Studio for the change to take effect.
 
-4.  Click **OK**.
+4. Click **OK**.
 
-5.  Restart Visual Studio, and reopen your project.
+5. Restart Visual Studio, and reopen your project.
 
-6.  Open the document or workbook designer for your project.
+6. Open the document or workbook designer for your project.
 
-7.  Press **F6** to display the shortcut keys for the Ribbon.
+7. Press **F6** to display the shortcut keys for the Ribbon.
 
 ## Accessibility at runtime
 

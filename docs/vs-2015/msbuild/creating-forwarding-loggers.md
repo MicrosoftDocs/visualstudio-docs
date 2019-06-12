@@ -1,14 +1,9 @@
 ---
 title: "Creating Forwarding Loggers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, forwarding loggers"
   - "MSBuild, logging"
@@ -16,12 +11,11 @@ ms.assetid: 3aebf9c8-b62c-4cb2-b2d6-8cdfcd369a24
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Creating Forwarding Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Forwarding loggers improve logging efficiency by letting you choose the events you want to monitor when you build projects on a multi-processor system. By enabling forwarding loggers, you can prevent unwanted events from overwhelming the central logger, slowing build time, and cluttering your log.  
   
  To create a forwarding logger, you can either implement the <xref:Microsoft.Build.Framework.IForwardingLogger> interface and then implement its methods manually, or use the <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger> class and its pre-configured methods. (The latter will suffice for most applications.)  
@@ -45,6 +39,3 @@ Forwarding loggers improve logging efficiency by letting you choose the events y
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Build Loggers](../msbuild/build-loggers.md)   
  [Logging in a Multi-Processor Environment](../msbuild/logging-in-a-multi-processor-environment.md)
-
-
-

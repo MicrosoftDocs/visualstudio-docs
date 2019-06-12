@@ -1,18 +1,13 @@
 ---
 title: "Unit testing existing C++ applications with Test Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 7d08de69-c32e-4f0b-89aa-75347b15fb82
 caps.latest.revision: 13
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit testing existing C++ applications with Test Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,35 +47,35 @@ We recommend that, before you change an existing application, you make sure that
   
 ## Creating the tests  
   
-###  <a name="staticLink"></a> To change the code under test to a static library  
+### <a name="staticLink"></a> To change the code under test to a static library  
   
 - If your tests must use members that are not exported by a project under test, and the project under test is built as a dynamic library, consider converting it to a static library.  
   
-  1.  In Solution Explorer, on the shortcut menu of the project under test, choose **Properties**. The project properties window opens.  
+  1. In Solution Explorer, on the shortcut menu of the project under test, choose **Properties**. The project properties window opens.  
   
-  2.  Choose **Configuration Properties**, **General**.  
+  2. Choose **Configuration Properties**, **General**.  
   
-  3.  Set **Configuration Type** to **Static Library (.lib)**.  
+  3. Set **Configuration Type** to **Static Library (.lib)**.  
   
   Continue with the procedure [To link the tests to the object or library files](#objectRef).  
   
-###  <a name="projectRef"></a> To reference exported functions from the test project  
+### <a name="projectRef"></a> To reference exported functions from the test project  
   
 - If a project under test exports the functions that you want to test, then you can add a reference to the code project from the test project.  
   
-  1.  Create a C++ test project.  
+  1. Create a C++ test project.  
   
-      1.  On the **File** menu, choose **New**, **Project**, **Visual C++,Test**, **C++ Unit Test Project**.  
+      1. On the **File** menu, choose **New**, **Project**, **Visual C++,Test**, **C++ Unit Test Project**.  
   
-  2.  In Solution Explorer, on the shortcut menu of the test project, choose **References**. The project properties window opens.  
+  2. In Solution Explorer, on the shortcut menu of the test project, choose **References**. The project properties window opens.  
   
-  3.  Select **Common Properties**, **Framework and References**, and then choose the **Add New Reference** button.  
+  3. Select **Common Properties**, **Framework and References**, and then choose the **Add New Reference** button.  
   
-  4.  Select **Projects**, and then the project to be tested.  
+  4. Select **Projects**, and then the project to be tested.  
   
        Choose the **Add** button.  
   
-  5.  In the properties for the test project, add the location of the project under test to the Include Directories.  
+  5. In the properties for the test project, add the location of the project under test to the Include Directories.  
   
        Choose **Configuration Properties**, **VC++ Directories**, **Include Directories**.  
   
@@ -88,39 +83,39 @@ We recommend that, before you change an existing application, you make sure that
   
   Go to [Writing the unit tests](#addTests).  
   
-###  <a name="objectRef"></a> To link the tests to the object or library files  
+### <a name="objectRef"></a> To link the tests to the object or library files  
   
 - If the code under test does not export the functions that you want to test, you can add the output **.obj** or **.lib** file to the dependencies of the test project.  
   
-  1.  Create a C++ test project.  
+  1. Create a C++ test project.  
   
-      1.  On the **File** menu, choose **New**, **Project**, **Visual C++,Test**, **C++ Unit Test Project**.  
+      1. On the **File** menu, choose **New**, **Project**, **Visual C++,Test**, **C++ Unit Test Project**.  
   
-  2.  In Solution Explorer, on the shortcut menu of the test project, choose **Properties**. The project properties window opens.  
+  2. In Solution Explorer, on the shortcut menu of the test project, choose **Properties**. The project properties window opens.  
   
-  3.  Choose **Configuration Properties**, **Linker**, **Input**, **Additional Dependencies**.  
+  3. Choose **Configuration Properties**, **Linker**, **Input**, **Additional Dependencies**.  
   
        Choose **Edit**, and add the names of the **.obj** or **.lib** files. Do not use the full path names.  
   
-  4.  Choose **Configuration Properties**, **Linker**, **General**, **Additional Library Directories**.  
+  4. Choose **Configuration Properties**, **Linker**, **General**, **Additional Library Directories**.  
   
        Choose **Edit**, and add the directory path of the **.obj** or **.lib** files. The path is typically within the build folder of the project under test.  
   
-  5.  Choose **Configuration Properties**, **VC++ Directories**, **Include Directories**.  
+  5. Choose **Configuration Properties**, **VC++ Directories**, **Include Directories**.  
   
        Choose **Edit**, and then add the header directory of the project under test.  
   
   Go to [Writing the unit tests](#addTests).  
   
-###  <a name="sameProject"></a> To add unit tests in the same project  
+### <a name="sameProject"></a> To add unit tests in the same project  
   
 1. Modify the product code project properties to include the headers and library files that are required for unit testing.  
   
-   1.  In Solution Explorer, in the shortcut menu of the project under test, choose Properties. The project properties window opens.  
+   1. In Solution Explorer, in the shortcut menu of the project under test, choose Properties. The project properties window opens.  
   
-   2.  Choose **Configuration Properties**, **VC++ Directories**.  
+   2. Choose **Configuration Properties**, **VC++ Directories**.  
   
-   3.  Edit the Include and Library directories:  
+   3. Edit the Include and Library directories:  
   
        |||  
        |-|-|  
@@ -129,11 +124,11 @@ We recommend that, before you change an existing application, you make sure that
   
 2. Add a C++ Unit Test file:  
   
-   -   In Solution Explorer, in the shortcut menu of the project, choose **Add**, **New Item**, and then choose **C++ Unit Test**.  
+   - In Solution Explorer, in the shortcut menu of the project, choose **Add**, **New Item**, and then choose **C++ Unit Test**.  
   
    Go to [Writing the unit tests](#addTests).  
   
-##  <a name="addTests"></a> Writing the unit tests  
+## <a name="addTests"></a> Writing the unit tests  
   
 1. In each unit test code file, add an `#include` statement for the headers of the project under test.  
   
@@ -157,7 +152,7 @@ We recommend that, before you change an existing application, you make sure that
    }  
    ```  
   
-   For more information, see [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c).  
+   For more information, see [Unit testing native code with Test Explorer](https://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c).  
   
 ## Run the tests  
   
@@ -166,6 +161,3 @@ We recommend that, before you change an existing application, you make sure that
 2. In Test Explorer, choose **Run All**.  
   
    For more information, see [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md).
-
-
-

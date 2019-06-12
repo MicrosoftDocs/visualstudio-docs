@@ -1,14 +1,9 @@
 ---
 title: "Elimination of ~SAK Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "temporary files"
   - "~sak files"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 5277b5fa-073b-4bd1-8ba1-9dc913aa3c50
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Elimination of ~SAK Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,8 +44,7 @@ In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capabili
  [HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] "DoNotCreateTemporaryFilesInSourceControl"=dword:00000001  
   
 > [!NOTE]
->  If this registry key is set to dword:00000000, it is equivalent to the key being nonexistent, and Visual Studio still attempts to create the temporary files. However, if the registry key is set to dword:00000001, Visual Studio does not attempt to create the temporary files. Instead it assumes that the source control plug-in does not support the MSSCCPRJ.SCC file and does not support shared checkouts.  
+> If this registry key is set to dword:00000000, it is equivalent to the key being nonexistent, and Visual Studio still attempts to create the temporary files. However, if the registry key is set to dword:00000001, Visual Studio does not attempt to create the temporary files. Instead it assumes that the source control plug-in does not support the MSSCCPRJ.SCC file and does not support shared checkouts.  
   
 ## See Also  
  [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
-

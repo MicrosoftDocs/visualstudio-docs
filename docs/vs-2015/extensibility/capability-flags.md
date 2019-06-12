@@ -1,20 +1,15 @@
 ---
 title: "Capability Flags | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, capability flags"
 ms.assetid: a3f6071c-eac8-4bcd-8ffd-8d0a2d24a252
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Capability Flags
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,4 +75,3 @@ The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a sou
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
-

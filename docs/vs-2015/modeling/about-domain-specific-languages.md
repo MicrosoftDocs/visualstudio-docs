@@ -1,19 +1,16 @@
 ---
 title: "About Domain-Specific Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Domain-Specific Language"
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # About Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,15 +56,15 @@ Unlike a general-purpose language such as C# or UML, a domain-specific language 
 ## Aspects of Graphical Domain-Specific Development  
  A graphical domain-specific language must include the following features:  
   
--   Notation  
+- Notation  
   
--   Domain model  
+- Domain model  
   
--   Artifact generation  
+- Artifact generation  
   
--   Serialization  
+- Serialization  
   
--   Integration with Visual Studio  
+- Integration with Visual Studio  
   
 ### Notation  
  A domain-specific language must have a reasonably small set of elements that can be easily defined and extended to represent domain-specific constructs. A notation consists of shapes, which represent the elements, and connectors, which represent the relationships between elements, on a graphical diagram surface. In [!INCLUDE[dsl](../includes/dsl-md.md)], the shapes can be extended and refined to represent the elements of your domain-specific language.  
@@ -89,30 +86,27 @@ Unlike a general-purpose language such as C# or UML, a domain-specific language 
 ## Benefits of Domain-Specific Development  
  A domain-specific language can provide the following benefits:  
   
--   Contains constructs that exactly fit the problem space.  
+- Contains constructs that exactly fit the problem space.  
   
      Unlike general-purpose languages, a domain-specific language consists of elements and relationships that directly represent the logic of the problem space. For example, an insurance policy application must include elements for policies and claims. A domain-specific language makes it easier to design the application, and find and correct errors of logic.  
   
--   Lets non-developers and people who do not know the domain understand the overall design.  
+- Lets non-developers and people who do not know the domain understand the overall design.  
   
      By using a graphical domain-specific language, you can create a visual representation of the domain so that non-developers can easily understand the design of the application.  
   
--   Makes it easier to create a prototype of the final application.  
+- Makes it easier to create a prototype of the final application.  
   
      Developers can use the code that their model generates to create a prototype application that they can show to clients.  
   
 ## The Process of Domain-Specific Development  
  Most software development teams that use domain-specific languages follow these steps to create and use their models:  
   
--   The team distinguishes the variable parts of the domain from the parts that never change.  
+- The team distinguishes the variable parts of the domain from the parts that never change.  
   
--   The developers write code for the fixed parts and leave extension points for the variable parts.  
+- The developers write code for the fixed parts and leave extension points for the variable parts.  
   
--   The lead software developer or the architect creates a domain-specific language that incorporates the design patterns of the fixed parts of the domain and the extension points for the variable parts.  
+- The lead software developer or the architect creates a domain-specific language that incorporates the design patterns of the fixed parts of the domain and the extension points for the variable parts.  
   
--   The lead software developer or the architect deploys the domain-specific language to the developers of the various applications that the team produces.  
+- The lead software developer or the architect deploys the domain-specific language to the developers of the various applications that the team produces.  
   
--   Every developer creates a model that applies to the specific application.
-
-
-
+- Every developer creates a model that applies to the specific application.

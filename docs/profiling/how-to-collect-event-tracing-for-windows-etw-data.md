@@ -1,19 +1,17 @@
 ---
 title: "How to: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.events"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "event trace providers, performance tools"
   - "profiling tools, event trace providers"
   - "performance tools, enabling event trace providers"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: Collect Event Tracing for Windows (ETW) data

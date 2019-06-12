@@ -1,14 +1,9 @@
 ---
 title: "Enumerations and Structures | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -20,7 +15,7 @@ ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Enumerations and Structures
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -85,6 +80,3 @@ These are the enumerations and structures used by the DIA SDK.
   
 ## See Also  
  [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
-
-
-

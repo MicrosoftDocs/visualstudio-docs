@@ -1,14 +1,9 @@
 ---
 title: "How to: Build the Same Source Files with Different Options | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source files, building with different options"
   - "MSBuild, properties"
@@ -18,12 +13,11 @@ ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Build the Same Source Files with Different Options
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or [!INCLUDE[vcprx64](../includes/vcprx64-md.md)]. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], you use properties and conditions to create the different build configurations.  
   
 ## Using Properties to Modify Projects  
@@ -33,7 +27,7 @@ When you build projects, you frequently compile the same components with differe
   
 #### To set a group of properties based on another property  
   
--   Use a `Condition` attribute in a `PropertyGroup` element similar to the following:  
+- Use a `Condition` attribute in a `PropertyGroup` element similar to the following:  
   
     ```  
     <PropertyGroup Condition="'$(Flavor)'=='DEBUG'">  
@@ -44,7 +38,7 @@ When you build projects, you frequently compile the same components with differe
   
 #### To define a property based on another property  
   
--   Use a `Condition` attribute in a `Property` element similar to the following:  
+- Use a `Condition` attribute in a `Property` element similar to the following:  
   
     ```  
     <DebugType Condition="'$(Flavor)'=='DEBUG'">full</DebugType>  
@@ -55,7 +49,7 @@ When you build projects, you frequently compile the same components with differe
   
 #### To set a project property at the command line  
   
--   Use the **/property** switch with the property and property value. For example:  
+- Use the **/property** switch with the property and property value. For example:  
   
     ```  
     msbuild file.proj /property:Flavor=Debug  
@@ -190,5 +184,3 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)
-
-

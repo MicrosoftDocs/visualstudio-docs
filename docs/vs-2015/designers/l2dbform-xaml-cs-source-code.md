@@ -1,19 +1,14 @@
 ---
 title: "L2DBForm.xaml.cs Source Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: 5a40dad3-6763-4576-b3ad-874df3f2c8d9
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # L2DBForm.xaml.cs Source Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,9 +18,9 @@ This topic contains the contents and description of the C# source code in the fi
 ## Data Members  
  Two private data members are used to associate this class to the window resources used in L2DBForm.xaml.  
   
--   The namespace variable `myBooks` is initialized to `"http://www.mybooks.com"`.  
+- The namespace variable `myBooks` is initialized to `"http://www.mybooks.com"`.  
   
--   The member `bookList` is initialized in the constructor to the CDATA string in L2DBForm.xaml with the following line:  
+- The member `bookList` is initialized in the constructor to the CDATA string in L2DBForm.xaml with the following line:  
   
     ```  
     bookList = (XElement)((ObjectDataProvider)Resources["LoadedBooks"]).Data;  
@@ -34,11 +29,11 @@ This topic contains the contents and description of the C# source code in the fi
 ## OnAddBook Event Handler  
  This method contains the following three statements:  
   
--   The first conditional statement is used for input validation.  
+- The first conditional statement is used for input validation.  
   
--   The second statement creates a new <xref:System.Xml.Linq.XElement> from the string values the user entered in the **Add New Book** user interface (UI) section.  
+- The second statement creates a new <xref:System.Xml.Linq.XElement> from the string values the user entered in the **Add New Book** user interface (UI) section.  
   
--   The last statement adds this new book element to the data provider in L2DBForm.xaml. Consequently, dynamic data binding will automatically update the UI with this new item; no extra user-supplied code is required.  
+- The last statement adds this new book element to the data provider in L2DBForm.xaml. Consequently, dynamic data binding will automatically update the UI with this new item; no extra user-supplied code is required.  
   
 ## OnRemove Event Handler  
  The `OnRemove` handler is more complicated than the `OnAddBook` handler for two reasons. First, because the raw XML contains preserved white space, matching newlines must also be removed with the book entry. Second, as a convenience, the selection, which was on the deleted item, is reset to the previous one in the list.  
@@ -139,6 +134,3 @@ namespace LinqToXmlDataBinding {
 ## See Also  
  [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)   
  [L2DBForm.xaml Source Code](../designers/l2dbform-xaml-source-code.md)
-
-
-

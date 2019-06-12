@@ -1,14 +1,9 @@
 ---
 title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -34,7 +29,7 @@ ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
 caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Finding Memory Leaks Using the CRT Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,7 +51,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
   
  For the CRT functions to work correctly, the `#include` statements must follow the order shown here.  
   
- Including crtdbg.h maps the `malloc` and the [free](http://msdn.microsoft.com/library/74ded9cf-1863-432e-9306-327a42080bb8) functions to their debug versions, [_malloc_dbg](http://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
+ Including crtdbg.h maps the `malloc` and the [free](https://msdn.microsoft.com/library/74ded9cf-1863-432e-9306-327a42080bb8) functions to their debug versions, [_malloc_dbg](https://msdn.microsoft.com/library/c97eca51-140b-4461-8bd2-28965b49ecdb) and `free`, which track memory allocation and deallocation. This mapping occurs only in debug builds, which have `_DEBUG`. Release builds use the ordinary `malloc` and `free` functions.  
   
  The `#define` statement maps a base version of the CRT heap functions to the corresponding debug version. If you omit the `#define` statement, the memory leak dump will be less detailed.  
   
@@ -66,7 +61,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
 _CrtDumpMemoryLeaks();  
 ```  
   
- If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](http://msdn.microsoft.com/library/71b2eab4-7f55-44e8-a55a-bfea4f32d34c) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
+ If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](https://msdn.microsoft.com/library/71b2eab4-7f55-44e8-a55a-bfea4f32d34c) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
   
 ```  
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
@@ -81,7 +76,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 ```  
   
 ## Interpreting the Memory-Leak Report  
- If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](http://msdn.microsoft.com/library/71b2eab4-7f55-44e8-a55a-bfea4f32d34c) displays a memory-leak report that looks like this:  
+ If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](https://msdn.microsoft.com/library/71b2eab4-7f55-44e8-a55a-bfea4f32d34c) displays a memory-leak report that looks like this:  
   
 ```  
 Detected memory leaks!  
@@ -108,7 +103,7 @@ Object dump complete.
   
 - The memory allocation number, which is `18` in this example  
   
-- The [block type](http://msdn.microsoft.com/en-us/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
+- The [block type](https://msdn.microsoft.com/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
   
 - The hexadecimal memory location, which is `0x00780E80` in this example.  
   
@@ -265,6 +260,3 @@ if ( _CrtMemDifference( &s3, &s1, &s2) )
  [CRT Debug Heap Details](../debugger/crt-debug-heap-details.md)   
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugging Native Code](../debugger/debugging-native-code.md)
-
-
-

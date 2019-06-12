@@ -1,24 +1,18 @@
 ---
 title: "Sample XSD File: Relationships | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Sample XSD File: Relationships
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema with annotations and documentation.  
   
 ```xml  
@@ -65,6 +59,3 @@ The following XSD file is used in various examples in the XSD Schema Designer do
   
 </xs:schema>  
 ```
-
-
-

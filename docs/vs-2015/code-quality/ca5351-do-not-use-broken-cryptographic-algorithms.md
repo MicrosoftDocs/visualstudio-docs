@@ -1,13 +1,8 @@
 ---
 title: "CA5351 Do Not Use Broken Cryptographic Algorithms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 ms.assetid: 483f51b3-e186-4433-b48e-5ca24a9a9c94
 caps.latest.revision: 12
 author: gewarren
@@ -25,7 +20,7 @@ manager: "wpickett"
 |Breaking Change|Non Breaking|  
   
 > [!NOTE]
->  This warning was last updated on November 2015.  
+> This warning was last updated on November 2015.  
   
 ## Cause  
  Hashing functions such as <xref:System.Security.Cryptography.MD5> and encryption algorithms such as <xref:System.Security.Cryptography.DES> and <xref:System.Security.Cryptography.RC2> can expose significant risk and may result in the exposure of sensitive information through trivial attack techniques, such as brute force attacks and hash collisions.  
@@ -46,9 +41,9 @@ manager: "wpickett"
 ## How to Fix Violations  
  Use cryptographically stronger options:  
   
--   For MD5, use hashes in the [SHA-2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
+- For MD5, use hashes in the [SHA-2](https://msdn.microsoft.com/library/windows/desktop/aa382459.aspx) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).  
   
--   For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.  
+- For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule, unless it's been reviewed by a cryptographic expert.  

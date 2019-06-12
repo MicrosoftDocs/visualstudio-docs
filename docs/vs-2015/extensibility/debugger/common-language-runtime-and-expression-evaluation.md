@@ -1,27 +1,22 @@
 ---
 title: "Common Language Runtime and Expression Evaluation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, and common language runtime"
 ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Common Language Runtime and Expression Evaluation
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  Compilers, such as Visual Basic and C# (pronounced C-sharp), that target the Common Language Runtime (CLR), produce Microsoft Intermediate Language (MSIL), which is later compiled to native code. The CLR provides a debug engine (DE) to debug the resulting code. If you plan to integrate your proprietary programming language into the Visual Studio IDE, you can choose to compile to MSIL and therefore will not have to write your own DE. However, you will have to write an expression evaluator (EE) that is capable of evaluating expressions within the context of your programming language.  
   
@@ -38,4 +33,3 @@ manager: "ghogen"
   
 ## See Also  
  [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
-

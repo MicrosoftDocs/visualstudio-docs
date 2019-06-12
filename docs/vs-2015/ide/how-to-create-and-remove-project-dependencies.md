@@ -1,14 +1,9 @@
 ---
 title: "How to: Create and Remove Project Dependencies | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ProjectDependenciesDlg"
 helpviewer_keywords: 
@@ -22,7 +17,7 @@ ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create and Remove Project Dependencies
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +33,7 @@ When building a solution that contains multiple projects, it can be necessary to
     The **Project Dependencies** dialog box opens.  
   
    > [!NOTE]
-   >  The **Project Dependencies** option is only available in a solution with more than one project.  
+   > The **Project Dependencies** option is only available in a solution with more than one project.  
   
 3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.  
   
@@ -48,24 +43,21 @@ When building a solution that contains multiple projects, it can be necessary to
   
 ### To remove dependencies from projects  
   
-1.  In Solution Explorer, select a project.  
+1. In Solution Explorer, select a project.  
   
-2.  On the **Project** menu, choose **Project Dependencies**.  
+2. On the **Project** menu, choose **Project Dependencies**.  
   
      The **Project Dependencies** dialog box opens.  
   
     > [!NOTE]
-    >  The **Project Dependencies** option is only available in a solution with more than one project.  
+    > The **Project Dependencies** option is only available in a solution with more than one project.  
   
-3.  On the **Dependencies** tab, select a project from the **Project** drop-down menu.  
+3. On the **Dependencies** tab, select a project from the **Project** drop-down menu.  
   
-4.  In the **Depends on** field, clear the check boxes beside any other projects that are no longer dependencies of this project.  
+4. In the **Depends on** field, clear the check boxes beside any other projects that are no longer dependencies of this project.  
   
 ## See Also  
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
-
-
-
+ [NIB How to: Modify Project Properties and Configuration Settings](https://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

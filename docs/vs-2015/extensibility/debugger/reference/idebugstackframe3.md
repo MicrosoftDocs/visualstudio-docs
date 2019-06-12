@@ -1,14 +1,9 @@
 ---
 title: "IDebugStackFrame3 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugStackFrame3"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugStackFrame3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ IDebugStackFrame3 : IDebugStackFrame2
  The debug engine (DE) implements this interface on the same object that implements the [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) interface to support intercepted exceptions.  
   
 ## Notes for Callers  
- Call [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugStackFrame2` interface to obtain this interface.  
+ Call [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on an `IDebugStackFrame2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md), `IDebugStackFrame3` exposes the following methods.  
@@ -51,7 +46,7 @@ IDebugStackFrame3 : IDebugStackFrame2
  By intercepting an exception, the debugger can allow the user to make changes to the state of the program being debugged and then resume execution at the point where the exception was thrown.  
   
 > [!NOTE]
->  Intercepted exceptions are allowed only in managed code, that is, in a program that is running under the Common Language Runtime (CLR).  
+> Intercepted exceptions are allowed only in managed code, that is, in a program that is running under the Common Language Runtime (CLR).  
   
  A debug engine indicates that it supports intercepting exceptions by setting "metricExceptions" to a value of 1 at run time by using the `SetMetric` function. For more information, see [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md).  
   
@@ -66,4 +61,3 @@ IDebugStackFrame3 : IDebugStackFrame2
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)   
  [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
-

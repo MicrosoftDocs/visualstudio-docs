@@ -2,12 +2,10 @@
 title: "Workflow Designer - Transaction Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: 8dd0f60f-88ec-4258-bc8d-233689be9997
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

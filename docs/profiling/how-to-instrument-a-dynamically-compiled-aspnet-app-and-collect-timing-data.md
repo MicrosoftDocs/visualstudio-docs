@@ -1,13 +1,11 @@
 ---
-title: "How to: Instrument a Dynamically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line | Microsoft Docs"
-ms.custom: ""
+title: "Profiler command line: Instrument dynamic ASP.NET app, get timing data"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "aspnet"
 ---
 # How to: Instrument a dynamically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
@@ -15,7 +13,7 @@ ms.workload:
 This article describes how to use Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application by using the instrumentation profiling method.
 
 > [!NOTE]
->  To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
 To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, you modify the *web.config* file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to set the appropriate environment variables on the web server to enable profiling, and then restart the computer.
 
@@ -61,7 +59,6 @@ Start the profiler and then run the target application. While the profiler is at
      | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | Specifies a Windows performance counter to be collected during profiling. |
      | [/automark](../profiling/automark.md) **:** `Interval` | Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms. |
      | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file. |
-
 
 3. Start the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application in the typical way.
 
@@ -111,5 +108,5 @@ When you have completed all profiling, replace the *web.config* file, clear the 
 
 ## See also
 
-[Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
+[Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
 [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

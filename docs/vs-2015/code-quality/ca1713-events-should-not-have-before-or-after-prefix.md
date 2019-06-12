@@ -1,14 +1,9 @@
 ---
 title: "CA1713: Events should not have before or after prefix | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "EventsShouldNotHaveBeforeOrAfterPrefix"
   - "CA1713"
@@ -44,6 +39,3 @@ manager: "wpickett"
 
 ## When to Suppress Warnings
  Do not suppress a warning from this rule.
-
-
-

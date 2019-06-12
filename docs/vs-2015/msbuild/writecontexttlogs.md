@@ -1,14 +1,9 @@
 ---
 title: "WriteContextTLogs | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "WriteContextTLogs"
 api_location: 
@@ -21,12 +16,11 @@ ms.assetid: ffc6c7be-3f22-4624-9ffc-0122fe72b6ec
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # WriteContextTLogs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Writes logs files for the current context.  
   
 ## Syntax  
@@ -50,6 +44,3 @@ HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRoot
   
 ## See Also  
  [WriteAllTLogs](../msbuild/writealltlogs.md)
-
-
-

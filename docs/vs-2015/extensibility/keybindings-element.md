@@ -1,14 +1,9 @@
 ---
 title: "KeyBindings Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "KeyBindings"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 26a15d5c-ddea-4977-af7f-d795ff09c7ad
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # KeyBindings Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,4 +64,3 @@ The KeyBindings element groups KeyBinding elements and other KeyBindings groupin
 ## See Also  
  [KeyBinding Element](../extensibility/keybinding-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

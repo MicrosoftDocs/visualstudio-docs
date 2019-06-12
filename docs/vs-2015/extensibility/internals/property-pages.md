@@ -1,14 +1,9 @@
 ---
 title: "Property Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "configuration options, changing properties"
   - "property pages"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Property Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -85,4 +80,3 @@ Project Property Pages dialog box with field format and tree structure
  [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)   
  [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)   
  [Solution Configuration](../../extensibility/internals/solution-configuration.md)
-

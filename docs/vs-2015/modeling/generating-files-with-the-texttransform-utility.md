@@ -1,12 +1,9 @@
 ---
 title: "Generating Files with the TextTransform Utility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, TextTransform utility"
   - "TextTransform.exe"
@@ -14,7 +11,7 @@ ms.assetid: 06a48235-fe02-403e-a1cf-2ae70b4db62f
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Generating Files with the TextTransform Utility
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +19,7 @@ manager: "douge"
 TextTransform.exe is a command-line tool that you can use to transform a text template. When you call TextTransform.exe, you specify the name of a text template file as an argument. TextTransform.exe calls the text transformation engine and processes the text template. TextTransform.exe is usually called from scripts. However, it is not usually required, because you can perform text transformation either in Visual Studio or in the build process.  
   
 > [!NOTE]
->  If you want to perform text transformation as part of a build process, consider using the MSBuild text transformation task. For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md). In a machine on which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed, you can also write an application or [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that can transform text templates. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).  
+> If you want to perform text transformation as part of a build process, consider using the MSBuild text transformation task. For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md). In a machine on which [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] is installed, you can also write an application or [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that can transform text templates. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).  
   
  TextTransform.exe is located in the following directory:  
   
@@ -58,6 +55,3 @@ TextTransform [<options>] <templateName>
 |Generate files in a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|  
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|  
 |Write a text templating host that allows you to invoke text templates from your own application.|[Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md)|
-
-
-

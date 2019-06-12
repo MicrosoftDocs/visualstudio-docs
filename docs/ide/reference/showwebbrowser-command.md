@@ -1,8 +1,6 @@
 ---
 title: ShowWebBrowser Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "view.showwebbrowser"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,13 +1,11 @@
 ---
 title: R Tools for Visual Studio
-description: R Tools for Visual Studio (RTVS) is a free, open-source extension that provides many language features including IntelliSense, debugging, and remote workspaces.
+description: R Tools for Visual Studio 2017 (RTVS) is a free, open-source extension that provides many language features including IntelliSense, debugging, and remote workspaces.
 ms.date: 11/13/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: overview
 author: kraigb
 ms.author: kraigb
-manager: douge
+manager: jillfra
 ms.workload:
   - data-science
 ---
@@ -19,7 +17,7 @@ R is a highly extensible language and environment for statistical computing and 
 R Tools for Visual Studio (RTVS) is a free, [open-source](https://github.com/microsoft/RTVS) extension for Visual Studio 2017 and Visual Studio 2015 Update 3 (or higher), released under the MIT license. (A second open-source component called [RHost](https://github.com/microsoft/R-Host), which links to the R interpreter binaries, is released under the GNU Public License V2.)
 
 > [!Note]
-> RTVS is presently supported only in Visual Studio on Windows and not Visual Studio for Mac.
+> RTVS is presently supported only in Visual Studio 2017 on Windows and not Visual Studio for Mac. It is not available for Visual Studio 2019.
 
 To experience R in Visual Studio:
 

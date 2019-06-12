@@ -1,14 +1,9 @@
 ---
 title: "How to: Include a Data File in a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
 caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Include a Data File in a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,30 +59,27 @@ Each [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application you inst
   
 ### To include a data file by using MageUI.exe  
   
-1.  Add the data file to your application directory with the rest of your application's files.  
+1. Add the data file to your application directory with the rest of your application's files.  
   
-2.  Typically, your application directory will be a directory labeled with the deployment's current version—for example, v1.0.0.0.  
+2. Typically, your application directory will be a directory labeled with the deployment's current version—for example, v1.0.0.0.  
   
-3.  On the **File** menu, click **Open** to open your application manifest.  
+3. On the **File** menu, click **Open** to open your application manifest.  
   
-4.  Select the **Files** tab.  
+4. Select the **Files** tab.  
   
-5.  In the text box at the top of the tab, enter the directory that contains your application's files, and then click **Populate**.  
+5. In the text box at the top of the tab, enter the directory that contains your application's files, and then click **Populate**.  
   
      Your data file will appear in the grid.  
   
-6.  Set the **File Type** value of the data file to **Data**.  
+6. Set the **File Type** value of the data file to **Data**.  
   
-7.  Save the application manifest, and then re-sign the file.  
+7. Save the application manifest, and then re-sign the file.  
   
      MageUI.exe will prompt you to re-sign the file.  
   
-8.  Re-sign your deployment manifest  
+8. Re-sign your deployment manifest  
   
      You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
 ## See Also  
  [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
-
-
-

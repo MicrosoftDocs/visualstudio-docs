@@ -1,19 +1,14 @@
 ---
 title: "How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: d608f85a-41ae-4ca7-85e6-b96624dbc83c
 caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,7 +16,7 @@ manager: "ghogen"
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application and collect data about the number and size of .NET Framework memory allocations. You can also collect data about the lifetime of .NET Framework memory objects.  
 
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
 
  To collect performance data from a [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables on the computer that hosts the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application. You must then restart the computer to configure the Web server for profiling.  
 
@@ -39,7 +34,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfClrEnv** {**/globalsamplegc** &#124; **/globalsamplegclife**} [**/samplelineoff**]  
 
-   -   The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.  
+   - The options **/globalsamplegc** and **/globalsamplegclife** specify the type of memory data to collect.  
 
         Specify one and only one of the following options.  
 
@@ -48,7 +43,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
        |**/globalsamplegc**|Enables the collection of memory allocation data.|  
        |**/globalsamplegclife**|Enables the collection of both memory allocation data and object lifetime data.|  
 
-   -   The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.  
+   - The option **/samplelineoff** disables the assignment of collected data to specific source code lines. If this option is specified, data is assigned at the function level.  
 
 3. Restart the computer to set the new environment configuration.  
 
@@ -65,7 +60,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
      You can use any of the following options with the **/start:sample** option.  
 
    > [!NOTE]
-   >  The **/user** and **/crosssession** options are usually required for ASP.NET applications.  
+   > The **/user** and **/crosssession** options are usually required for ASP.NET applications.  
 
    |                                 Option                                  |                                                                                                                                                        Description                                                                                                                                                        |
    |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -76,23 +71,22 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                                       Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                                       |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                                         Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                                          |
 
-
 6. Start the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application in the typical way.  
 
 7. Attach the profiler to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process. Type:  
 
     **VSPerfCmd**  [/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [[/targetclr](../profiling/targetclr.md)**:**`Version`]  
 
-   -   The process ID `(PID)` specifies the process ID or the process name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process. You can view the process IDs of all running processes in Windows Task Manager.  
+   - The process ID `(PID)` specifies the process ID or the process name of the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process. You can view the process IDs of all running processes in Windows Task Manager.  
 
-   -   **/targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.  
+   - **/targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.  
 
 ## Controlling Data Collection  
  While the application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -130,6 +124,3 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 ## See Also  
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
-
-
-

@@ -2,7 +2,6 @@
 title: "Deploy UWP apps | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "01/16/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -11,7 +10,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -31,18 +30,18 @@ Deployment is automatic when you debug your app from Visual Studio by using the 
 
 - Deploying an app that will be debugged when it is started by another app or method.
 
-##  <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app
+## <a name="BKMK_How_to_deploy_a_Windows_Store_app"></a> How to deploy a UWP app
  Manually deploying an app is a simple process:
 
-1.  If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).
+1. If you are deploying to a remote device, specify the name or IP address of the device in the property project page of the app's startup project. (The steps to do this are listed further down in this topic.).
 
-2.  On the debugger Visual Studio toolbar, choose the deployment target from the drop-down list next to the **Start Debugging** button.
+2. On the debugger Visual Studio toolbar, choose the deployment target from the drop-down list next to the **Start Debugging** button.
 
      ![Run on Local Machine](../debugger/media/vsrun_f5_local.png "VSRUN_F5_Local")
 
-3.  On the **Build** menu, choose **Deploy**
+3. On the **Build** menu, choose **Deploy**
 
-##  <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device
+## <a name="BKMK_How_to_specify_a_remote_device"></a> How to specify a remote device
 
 **Prerequisites**
 
@@ -71,7 +70,7 @@ Deployment uses the remote debugger network channel to send the app files to the
 
     The **Remote Connection** dialog box displays the devices on the local network subnet and any device that is directly connected to the Visual Studio machine by an Ethernet cable.
 
-   **Specifying the remote device in a JavaScript or Visual C++ project page**
+   **Specifying the remote device in a Visual C++ project page**
 
    ![C&#43;&#43; project properties for remote debugging](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN_CPP_ProjProp_Remote")
 
@@ -87,7 +86,7 @@ Deployment uses the remote debugger network channel to send the app files to the
 
 10. Enter the network name of the remote device in the **Remote Machine** box or click **Find** to choose the device from the **Select Remote Debugger Connection** dialog box.
 
-##  <a name="BKMK_Deployment_options"></a> Deployment options
+## <a name="BKMK_Deployment_options"></a> Deployment options
 
 You can set the following deployment options on the Debug property page of the startup project.
 
@@ -99,18 +98,18 @@ To remove the network loopback exemption from the app:
 
 - On the C# and Visual Basic Debug property page, clear the **Allow Network Loopback** check box.
 
-- On the JavaScript and Debug property page, set the **Allow Network Loopback** value to **No**.
+- On the C++ Debug property page, set the **Allow Network Loopback** value to **No**.
 
-**Do not launch, but debug my code when it starts (C# and Visual Basic) / Launch Application (JavaScript and C++)**
+**Do not launch, but debug my code when it starts (C# and Visual Basic) / Launch Application (C++)**
 
 To configure the deployment to automatically start a debugging session when the app is launched:
 
 - On the C# and Visual Basic Debug property page, check the **Do not launch, but debug my code when it starts** check box.
 
-- On the JavaScript and Debug property page, set the **Launch Application** value to **Yes**.
+- On the C++ Debug property page, set the **Launch Application** value to **Yes**.
 
 ## See Also
 
 - [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
 - [Debug an installed app package](../debugger/debug-installed-app-package.md)
-- [Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)
+- [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)

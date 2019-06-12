@@ -1,17 +1,14 @@
 ---
 title: "Export UML diagrams to image files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: b29ce2a5-0ee3-4ab7-9aa3-13ca9c6b37a2
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Export UML diagrams to image files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +21,7 @@ You can export a UML document from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 
  The following code defines a shortcut menu command, also known as a context menu command, that saves an image to a file.  
   
 > [!NOTE]
->  To make this code work as a menu command, you must incorporate it into a MEF component. For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
+> To make this code work as a menu command, you must incorporate it into a MEF component. For more information, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
  The code first uses <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape.GetObject%2A> to get the <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram> of the underlying implementation. This type has a method <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.CreateBitmap%2A>.  
   
@@ -141,6 +138,3 @@ namespace SaveToImage
 ## See Also  
  [Export diagrams as images](../modeling/export-diagrams-as-images.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
-
-
-

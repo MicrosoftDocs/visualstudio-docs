@@ -1,30 +1,23 @@
 ---
 title: "Schema Cache | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Schema Cache
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-
 
 The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas directory. The schema cache is global to all users on your computer and includes standard XML Schemas that are used for IntelliSense and XML document validation.  
 
  The XML editor can also find schemas located in the solution, schemas specified in the **Schemas** field of the document **Properties** window, and schemas identified by the `xsi:schemaLocation` and `xsi:noNamespaceSchemaLocation` attributes.  
 
  The following table describes the schemas that are installed with the XML Editor.  
-
 
 |     Filename      |                                                      Description                                                      |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -50,7 +43,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
  The editor loads the schema cache directory when the XML editor package is loaded and watches for any changes while running. If a schema has been added, it is automatically loaded into an in-memory index of known schemas. If a schema has been removed, it is automatically removed from the in-memory index. If a schema has been updated, it automatically invalidates the in-memory cache of this schema.  
 
 > [!NOTE]
->  Because the schema cache directory is global to your computer, you should only add schemas here that are standard and useful to all the Visual Studio projects that may be created on your computer.  
+> Because the schema cache directory is global to your computer, you should only add schemas here that are standard and useful to all the Visual Studio projects that may be created on your computer.  
 
  The XML editor also supports any number of schema catalog files in the schema cache directory. Schema catalogs can point to other locations for schemas that you always want the editor to know about. The catalog.xsd file defines the format for the catalog file and is included in the schema cache directory. The catalog.xml file is the default catalog and it contains links to other schemas in the %InstallDir%. The following is a sampling of the catalog.xml file:  
 
@@ -106,30 +99,27 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
  You can customize the location for the schema cache using the **Miscellaneous** options page. If you have a directory of favorite schemas, the editor can be configured to use those schemas instead.  
 
 > [!NOTE]
->  This change affects only the current Visual Studio user.  
+> This change affects only the current Visual Studio user.  
 
 #### To change the schema cache location  
 
-1.  From the **Tools** menu, select **Options**.  
+1. From the **Tools** menu, select **Options**.  
 
-2.  Expand **Text Editor**, expand **XML**, and then click **Miscellaneous**.  
+2. Expand **Text Editor**, expand **XML**, and then click **Miscellaneous**.  
 
-3.  Click the **Browse** button on the **Schemas** field.  
+3. Click the **Browse** button on the **Schemas** field.  
 
-4.  Select the folder for the schema cache and click **OK**.  
+4. Select the folder for the schema cache and click **OK**.  
 
 #### To add another directory of common schemas  
 
-1.  Edit the catalog.xml file in the XML editor schema cache directory.  
+1. Edit the catalog.xml file in the XML editor schema cache directory.  
 
-2.  Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
+2. Add a new `<Catalog href="…"/>` element that points to the directory of additional schemas.  
 
-3.  Save your changes.  
+3. Save your changes.  
 
      The catalog is automatically reloaded.  
 
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

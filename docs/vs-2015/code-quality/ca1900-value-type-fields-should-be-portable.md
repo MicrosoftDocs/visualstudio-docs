@@ -1,14 +1,9 @@
 ---
 title: "CA1900: Value type fields should be portable | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords: 
   - "CA1900"
   - "ValueTypeFieldsShouldBePortable"
@@ -24,7 +19,7 @@ manager: "wpickett"
 # CA1900: Value type fields should be portable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio 2017, see [CA1900: Value type fields should be portable](https://docs.microsoft.com/visualstudio/code-quality/ca1900-value-type-fields-should-be-portable) on docs.microsoft.com.  
+For the latest documentation on Visual Studio, see [CA1900: Value type fields should be portable](https://docs.microsoft.com/visualstudio/code-quality/ca1900-value-type-fields-should-be-portable).  
   
 |||  
 |-|-|  
@@ -44,4 +39,3 @@ For the latest documentation on Visual Studio 2017, see [CA1900: Value type fiel
   
 ## When to Suppress Warnings  
  This warning should be suppressed only if it occurs in error.
-

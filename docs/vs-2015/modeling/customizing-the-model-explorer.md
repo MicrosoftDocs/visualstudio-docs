@@ -1,12 +1,9 @@
 ---
 title: "Customizing the Model Explorer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.explorerbehavior"
 helpviewer_keywords: 
@@ -15,20 +12,20 @@ ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing the Model Explorer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  
   
--   Change the window title.  
+- Change the window title.  
   
--   Change the tab icon.  
+- Change the tab icon.  
   
--   Change the icons for nodes.  
+- Change the icons for nodes.  
   
--   Hide nodes.  
+- Hide nodes.  
   
 ## Changing the Window Title  
  To change the window title of the generated explorer, select **Explorer Behavior** in the **DSL Explorer**, and then in the **Properties** window, set the **Title** property to the title you want.  
@@ -41,51 +38,51 @@ You can change the appearance and behavior of the explorer for your domain-speci
   
 #### To add an icon to an explorer node  
   
-1.  Create a [!INCLUDE[dsl](../includes/dsl-md.md)] solution by using the Task Flow solution template.  
+1. Create a [!INCLUDE[dsl](../includes/dsl-md.md)] solution by using the Task Flow solution template.  
   
-2.  Put a .bmp file that contains a 16x16-pixel icon in the **Dsl\Resources** folder in the solution.  
+2. Put a .bmp file that contains a 16x16-pixel icon in the **Dsl\Resources** folder in the solution.  
   
-3.  In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Explorer Node Settings**.  
+3. In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Explorer Node Settings**.  
   
      An **ExplorerNodeSettings** node appears under the **Custom Node Settings** node.  
   
-4.  Select **ExplorerNodeSettings**, and then in the **Properties** window, set **Class** to **Actor**.  
+4. Select **ExplorerNodeSettings**, and then in the **Properties** window, set **Class** to **Actor**.  
   
-5.  Set **Icon To Display** to the path of the icon file.  
+5. Set **Icon To Display** to the path of the icon file.  
   
-6.  Transform all templates, and then build and run the solution.  
+6. Transform all templates, and then build and run the solution.  
   
-7.  In the generated designer, open the Sample diagram.  
+7. In the generated designer, open the Sample diagram.  
   
      The Explorer should show three **Actor** nodes that have your icon.  
   
 > [!NOTE]
->  If you have set a node icon for any element that is displayed in the generated explorer, all explorer nodes will display the icon. If no icon has been set, the nodes will display the default icon.  
+> If you have set a node icon for any element that is displayed in the generated explorer, all explorer nodes will display the icon. If no icon has been set, the nodes will display the default icon.  
   
 ## Changing the Name Displayed on an Explorer Node  
  You can change how the names of model elements are displayed in your explorer. The following procedure shows how to display the name of the **Task** that is referenced by a **Comment** in the comment node.  
   
 #### To display a property  
   
-1.  Open the solution that you created in the earlier procedure.  
+1. Open the solution that you created in the earlier procedure.  
   
-2.  Make sure that the **Comment** references only a single domain class by setting the multiplicity of the role with property name **Subjects** to 0..1. The property name should become **Subject**, and the relationship name should become **CommentReferencesSubject**.  
+2. Make sure that the **Comment** references only a single domain class by setting the multiplicity of the role with property name **Subjects** to 0..1. The property name should become **Subject**, and the relationship name should become **CommentReferencesSubject**.  
   
-3.  In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Explorer Node Settings**.  
+3. In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Explorer Node Settings**.  
   
      An **ExplorerNodeSettings** node appears under the **Custom Node Settings** node.  
   
-4.  Select **ExplorerNodeSettings**, and then in the **Properties** window, set **Class** to **Comment**.  
+4. Select **ExplorerNodeSettings**, and then in the **Properties** window, set **Class** to **Comment**.  
   
-5.  Right-click the **Comment** node, and then click **Add New Property Path**.  
+5. Right-click the **Comment** node, and then click **Add New Property Path**.  
   
      A new node appears that is named **Property Displayed**.  
   
-6.  Select **Property Displayed**, and then in the **Properties** window, click the value field of **Path To Property**. Select **Comment**, then **CommentReferencesSubject**, then **FlowElement**. The resulting path should resemble **CommentReferencesSubject.Subject/!Subject**.  
+6. Select **Property Displayed**, and then in the **Properties** window, click the value field of **Path To Property**. Select **Comment**, then **CommentReferencesSubject**, then **FlowElement**. The resulting path should resemble **CommentReferencesSubject.Subject/!Subject**.  
   
-7.  In the value field of **Property**, select **Name**.  
+7. In the value field of **Property**, select **Name**.  
   
-8.  Transform all templates, and then build and run your solution.  
+8. Transform all templates, and then build and run your solution.  
   
 9. In the generated designer, open the Sample diagram.  
   
@@ -98,22 +95,19 @@ You can change the appearance and behavior of the explorer for your domain-speci
   
 #### To hide an explorer node  
   
-1.  Open the solution that you created in the earlier procedure.  
+1. Open the solution that you created in the earlier procedure.  
   
-2.  In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Domain Path**.  
+2. In the **DSL Explorer**, right-click **Explorer Behavior** and then click **Add New Domain Path**.  
   
      A **Domain Path** node appears under **Hidden Nodes**.  
   
-3.  Select **Domain Path**, and then in the **Properties** window, click the value field of **Path Definition**. Select **FlowGraph**, then **FlowGraphHasComments**. The resulting path should resemble **FlowGraphHasComments.Comments**  
+3. Select **Domain Path**, and then in the **Properties** window, click the value field of **Path Definition**. Select **FlowGraph**, then **FlowGraphHasComments**. The resulting path should resemble **FlowGraphHasComments.Comments**  
   
-4.  Transform all templates, and then build and run your solution.  
+4. Transform all templates, and then build and run your solution.  
   
-5.  In the generated designer, open the Sample diagram.  
+5. In the generated designer, open the Sample diagram.  
   
      The explorer should show only an **Actors** node, and should not show the **Comments** node.  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

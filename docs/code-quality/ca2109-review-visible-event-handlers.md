@@ -1,8 +1,6 @@
 ---
 title: "CA2109: Review visible event handlers"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2109"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8f8fa0ee-e94e-400e-b516-24d8727725d7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

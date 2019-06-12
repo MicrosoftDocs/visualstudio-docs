@@ -1,14 +1,9 @@
 ---
 title: "How to: Disable URL Activation of ClickOnce Applications by Using the Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: a337a582-e67c-409a-b52e-607cd1a8fc57
 caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Disable URL Activation of ClickOnce Applications by Using the Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,20 +31,17 @@ Typically, a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application 
   
 #### To disable URL activation for your application  
   
-1.  Right-click your project name in **Solution Explorer**, and click **Properties**.  
+1. Right-click your project name in **Solution Explorer**, and click **Properties**.  
   
-2.  On the **Properties** page, click the **Publish** tab.  
+2. On the **Properties** page, click the **Publish** tab.  
   
-3.  Click **Options**.  
+3. Click **Options**.  
   
-4.  Click **Manifests**.  
+4. Click **Manifests**.  
   
-5.  Select the check box labeled **Block application from being activated via a URL**.  
+5. Select the check box labeled **Block application from being activated via a URL**.  
   
-6.  Deploy your application.  
+6. Deploy your application.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)
-
-
-

@@ -12,9 +12,7 @@ helpviewer_keywords:
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -36,27 +34,27 @@ This walkthrough creates a lookup control that binds to data from two tables. Th
 
 During this walkthrough, you'll learn how to:
 
--   Create a new **Windows Forms Application**.
+- Create a new **Windows Forms Application**.
 
--   Add a new **User Control** to your project.
+- Add a new **User Control** to your project.
 
--   Visually design the user control.
+- Visually design the user control.
 
--   Implement the `LookupBindingProperty` attribute.
+- Implement the `LookupBindingProperty` attribute.
 
--   Create a dataset with the **Data Source Configuration** wizard.
+- Create a dataset with the **Data Source Configuration** wizard.
 
--   Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.
+- Set the **CustomerID** column on the **Orders** table, in the **Data Sources** window, to use the new control.
 
--   Create a form to display data in the new control.
+- Create a form to display data in the new control.
 
 ## Prerequisites
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
-2.  Install the Northwind sample database by following these steps:
+2. Install the Northwind sample database by following these steps:
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
@@ -86,9 +84,9 @@ The first step is to create a **Windows Forms Application** project.
 
 This walkthrough creates a lookup control from a **User Control**, so add a **User Control** item to the **LookupControlWalkthrough** project.
 
-1.  From the **Project** menu, select **Add User Control**.
+1. From the **Project** menu, select **Add User Control**.
 
-2.  Type `LookupBox` in the **Name** area, and then click **Add**.
+2. Type `LookupBox` in the **Name** area, and then click **Add**.
 
      The **LookupBox** control is added to **Solution Explorer**, and opens in the designer.
 
@@ -100,38 +98,38 @@ To design the LookupBox control, drag a <xref:System.Windows.Forms.ComboBox> fro
 
 For lookup controls that support data binding, you can implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>.
 
-1.  Switch the **LookupBox** control to code view. (On the **View** menu, choose **Code**.)
+1. Switch the **LookupBox** control to code view. (On the **View** menu, choose **Code**.)
 
-2.  Replace the code in the `LookupBox` with the following:
+2. Replace the code in the `LookupBox` with the following:
 
      [!code-vb[VbRaddataDisplaying#5](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.vb)]
      [!code-csharp[VbRaddataDisplaying#5](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.cs)]
 
-3.  From the **Build** menu, choose **Build Solution**.
+3. From the **Build** menu, choose **Build Solution**.
 
 ## Create a data source from your database
 
 This step creates a data source using the **Data Source Configuration** wizard, based on the `Customers` and `Orders` tables in the Northwind sample database.
 
-1.  To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
+1. To open the **Data Sources** window, on the **Data** menu, click **Show Data Sources**.
 
-2.  In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
+2. In the **Data Sources** window, select **Add New Data Source** to start the **Data Source Configuration** wizard.
 
-3.  Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
+3. Select **Database** on the **Choose a Data Source Type** page, and then click **Next**.
 
-4.  On the **Choose your Data Connection** page do one of the following:
+4. On the **Choose your Data Connection** page do one of the following:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
-5.  If your database requires a password, select the option to include sensitive data, and then click **Next**.
+5. If your database requires a password, select the option to include sensitive data, and then click **Next**.
 
-6.  On the **Save connection string to the Application Configuration file** page, click **Next**.
+6. On the **Save connection string to the Application Configuration file** page, click **Next**.
 
-7.  On the **Choose your Database Objects** page, expand the **Tables** node.
+7. On the **Choose your Database Objects** page, expand the **Tables** node.
 
-8.  Select the `Customers` and `Orders` tables, and then click **Finish**.
+8. Select the `Customers` and `Orders` tables, and then click **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the `Customers` and `Orders` tables appear in the **Data Sources** window.
 
@@ -139,21 +137,21 @@ This step creates a data source using the **Data Source Configuration** wizard, 
 
 Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form.
 
-1.  Open **Form1** in the designer.
+1. Open **Form1** in the designer.
 
-2.  Expand the **Customers** node in the **Data Sources** window.
+2. Expand the **Customers** node in the **Data Sources** window.
 
-3.  Expand the **Orders** node (the one in the **Customers** node below the **Fax** column).
+3. Expand the **Orders** node (the one in the **Customers** node below the **Fax** column).
 
-4.  Click the drop-down arrow on the **Orders** node, and choose **Details** from the control list.
+4. Click the drop-down arrow on the **Orders** node, and choose **Details** from the control list.
 
-5.  Click the drop-down arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.
+5. Click the drop-down arrow on the **CustomerID** column (in the **Orders** node), and choose **Customize**.
 
-6.  Select the **LookupBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
+6. Select the **LookupBox** from the list of **Associated Controls** in the **Data UI Customization Options** dialog box.
 
-7.  Click **OK**.
+7. Click **OK**.
 
-8.  Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.
+8. Click the drop-down arrow on the **CustomerID** column, and choose **LookupBox**.
 
 ## Add controls to the form
 
@@ -169,9 +167,9 @@ This sets up the data binding to display the `CompanyName` from the `Customers` 
 
 ## Run the application
 
--   Press **F5** to run the application.
+- Press **F5** to run the application.
 
--   Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
+- Navigate through some records, and verify that the `CompanyName` appears in the `LookupBox` control.
 
 ## See also
 

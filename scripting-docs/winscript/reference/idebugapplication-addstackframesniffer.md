@@ -2,7 +2,6 @@
 title: "IDebugApplication::AddStackFrameSniffer | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds a stack frame enumerator provider to this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddStackFrameSniffer(  
    IDebugStackFrameSniffer*  pdsfs,  
    DWORD*                    pdwCookie  

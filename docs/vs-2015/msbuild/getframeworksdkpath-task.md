@@ -1,14 +1,9 @@
 ---
 title: "GetFrameworkSdkPath Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkSdkPath"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GetFrameworkSdkPath Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Retrieves the path to the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)].  
   
 ## Task Parameters  
@@ -63,6 +57,3 @@ Retrieves the path to the [!INCLUDE[winsdklong](../includes/winsdklong-md.md)].
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

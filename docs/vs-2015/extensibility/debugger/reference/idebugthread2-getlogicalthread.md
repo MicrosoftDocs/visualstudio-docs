@@ -1,14 +1,9 @@
 ---
 title: "IDebugThread2::GetLogicalThread | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugThread2::GetLogicalThread"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: bce6230e-41d4-49b7-a050-2dde5efb6805
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugThread2::GetLogicalThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ int GetLogicalThread( 
   
 ## See Also  
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
-

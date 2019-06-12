@@ -1,19 +1,14 @@
 ---
 title: "Work with multiple user accounts | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: b73c865c-74e0-420e-89cc-43524f4aafd0
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Work with multiple user accounts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
   
 #### Sign in to Visual Studio  
   
-1.  Sign into Visual Studio 2015 with a Microsoft account or an organizational account. You should see your user name reflected in the upper right corner of the window, similar to this:  
+1. Sign into Visual Studio 2015 with a Microsoft account or an organizational account. You should see your user name reflected in the upper right corner of the window, similar to this:  
   
      ![Currentlly logged in user](../ide/media/vs2015-username.png "VS2015_UserName")  
   
@@ -43,14 +38,14 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
   
 ### Access your Azure account via Add Connected Service dialog  
   
-1.  Create a Universal App project in C#.  
+1. Create a Universal App project in C#.  
   
-2.  Right click on the project node in Solution Explorer and choose **Add > Connected Service**. The Add Connected Service wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.  
+2. Right click on the project node in Solution Explorer and choose **Add > Connected Service**. The Add Connected Service wizard appears and shows you the list of services in the Azure account that is associated with your Visual Studio login ID. Note that you do not have to sign in separately to Azure. However, you do need to sign in to the other accounts the first time you attempt to access their resources from a given computer.  
   
     > [!WARNING]
-    >  If this is the first time you are creating a Store app in Visual Studio 2015 on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124; . Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](https://msdn.microsoft.com/library/windows/apps/dn706236.aspx).  
+    > If this is the first time you are creating a Store app in Visual Studio 2015 on a specific computer, you will be prompted to enable your device for development mode by going to **Settings &#124; . Updates and Security &#124; For Developers** on your computer. For more information, see [Enable Your Device for Development](https://msdn.microsoft.com/library/windows/apps/dn706236.aspx).  
   
-###  <a name="access_azure"></a> Access Azure Active Directory in a Web project  
+### <a name="access_azure"></a> Access Azure Active Directory in a Web project  
  Azure AD enables support for end-user single Sign-In in ASP.NET MVC web applications, or AD Authentication in Web API services. Domain authentication is different from individual user account authentication; users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Office 365 apps can also use domain authentication. To see this in action, create a web application (**File > New Project > C# > Cloud > ASP.NET Web Application**). In the New ASP.NET Project dialog choose **Change Authentication**. The authentication wizard appears and enables you to choose what kind of authentication to use in your application.  
   
  ![Change authentication dialog for ASP.NET](../ide/media/vs2015-change-authentication.png "VS2015_change_authentication")  
@@ -71,6 +66,3 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
   
 ## Revisit the Add Connected Services Wizard and Server Explorer  
  Now go to **Server Explorer** again, right-click on the Azure node and choose **Manage and filter subscriptions**. Choose the new account by clicking the drop down arrow next to the current account, and then choose which subscriptions you want to display in Server Explorer. You should see all the services associated with the specified subscription.Even though you are not currently signed in to the Visual Studio IDE with the second account, you are signed in to that account's services and resources. The same is true for **Project > Add Connected Service** and **Team > Connect to Team Foundation Server**.
-
-
-

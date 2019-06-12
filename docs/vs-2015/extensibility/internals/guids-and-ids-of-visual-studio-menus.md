@@ -1,14 +1,9 @@
 ---
 title: "GUIDs and IDs of Menus | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "visual studio menus"
   - "visual studio groups"
@@ -19,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # GUIDs and IDs of Visual Studio Menus
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -179,7 +174,7 @@ This topic enumerates the GUID and ID values of the menus and groups on the Visu
  The following hierarchy shows the submenus that are associated with the menus on the Visual Studio menu bar. Because only a group can have a menu as its parent, every submenu must descend from a group on a menu, instead of directly from the menu. For more information about the relationship between menus, groups, and submenus, see [Adding a Submenu to a Menu](../../extensibility/adding-a-submenu-to-a-menu.md).
 
 > [!NOTE]
->  The names of the menus on the Visual Studio menu bar are not separately shown in this hierarchy because they can be inferred from the naming convention for groups in the IDE, as follows: IDG_VS_*Menu Name*_*Group Name*.
+> The names of the menus on the Visual Studio menu bar are not separately shown in this hierarchy because they can be inferred from the naming convention for groups in the IDE, as follows: IDG_VS_*Menu Name*_*Group Name*.
 
 |Parent Group|Submenu|Child Groups|
 |------------------|-------------|------------------|

@@ -1,8 +1,6 @@
 ---
 title: Class Designer errors
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: troubleshooting
 f1_keywords:
   - "vs.classdesigner.CPlusPlusViewInDiagramNoTypeFound"
@@ -27,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

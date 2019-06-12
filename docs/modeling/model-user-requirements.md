@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "stories"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Model user requirements
 
@@ -52,7 +50,7 @@ You can create several different views of the users' requirements.  Each view pr
 
 Notice that most of the diagram types can be used for other purposes. For an overview of diagram types, see [Create models for your app](../modeling/create-models-for-your-app.md).
 
-##  <a name="BusinessRules"></a> Showing Business Rules
+## <a name="BusinessRules"></a> Showing Business Rules
 
 A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.
 
@@ -72,19 +70,19 @@ The following topics provide more information:
 |-|-|
 |How to develop code that adheres to business rules|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|
 
-##  <a name="QoSRequirements"></a> Describing Quality of Service Requirements
+## <a name="QoSRequirements"></a> Describing Quality of Service Requirements
 
 There are several categories of quality of service requirement. They include the following:
 
--   Performance
+- Performance
 
--   Security
+- Security
 
--   Usability
+- Usability
 
--   Reliability
+- Reliability
 
--   Robustness
+- Robustness
 
 You can include some of these requirements in the descriptions of particular use cases. Other requirements are not specific to use cases, and are most effectively written in a separate document. When you can, it is useful to adhere to the vocabulary defined by the requirements model. In the following example, notice that the main words used in the requirement are the titles of actors, use cases, and classes in the preceding illustrations:
 

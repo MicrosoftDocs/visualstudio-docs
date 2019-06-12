@@ -1,19 +1,14 @@
 ---
 title: "Registering Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "services, registering"
 ms.assetid: c4ebac40-0374-4dda-948e-06fdda0e9c81
 caps.latest.revision: 8
-manager: "douge"
+manager: jillfra
 ---
 # Registering Services
 To support on-demand loading, a service provider must register its global services with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  

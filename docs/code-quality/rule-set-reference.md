@@ -1,14 +1,12 @@
 ---
 title: Code analysis rule set reference
 ms.date: 04/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 helpviewer_keywords:
   - "code analysis, rule sets reference"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

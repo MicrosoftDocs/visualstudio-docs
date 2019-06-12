@@ -1,18 +1,19 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: Visual Studio | Node.js
+title: Visual Studio | JavaScript and TypeScript
 metadata:
-  title: Node.js Development with Visual Studio | Microsoft Docs
-  meta.description: Tutorials and conceptual articles about developing Node.js apps with Visual Studio.
+  title: JavaScript and TypeScript Development with Visual Studio | Microsoft Docs
+  meta.description: Tutorials and conceptual articles about developing JavaScript and TypeScript apps with Visual Studio.
   author: mikejo5000
-  manager: douge
-  ms.prod: visual-studio-dev15
-  ms.technology: vs-nodejs
+  manager: jillfra
+  ms.prod: visual-studio-windows
+  ms.technology: vs-javascript
   ms.topic: landing-page
-  ms.date: 12/03/2018
+  ms.date: 01/15/2019
   ms.author: mikejo
   dev_langs:
     - JavaScript
+    - TypeScript
 sections:
 - title: Get Started with Visual Studio
   items:
@@ -26,34 +27,34 @@ sections:
       image:
         src: https://docs.microsoft.com/media/common/i_setup.svg
       title: Install Visual Studio
-    - href: ../ide/quickstart-ide-orientation?toc=/visualstudio/javascript/toc.json
+    - href: ../javascript/quickstart-ide-orientation-js.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/logos/logo_visual-studio.svg
       title: Tour the Visual Studio IDE
-- title: Node.js Tutorials
+- title: Tutorials
   items:
   - type: list
     style: cards
     className: cardsM
     columns: 3
-    items:    
+    items:
     - href: tutorial-nodejs.md
       html: <p>Create a web app with Node.js and Express</p>
       image:
-        src: https://docs.microsoft.com/media/logos/logo_nodejs.svg      
+        src: https://docs.microsoft.com/media/logos/logo_nodejs.svg
     - href: tutorial-nodejs-with-react-and-jsx.md
       html: <p>Create a web app with Node.js and React</p>
       image:
-        src: https://docs.microsoft.com/media/logos/logo_React.svg      
+        src: https://docs.microsoft.com/media/logos/logo_React.svg
     - href: quickstart-vuejs-with-nodejs.md
       html: <p>Create a web app with Node.js and Vue.js</p>
       image:
-        src: ../javascript/media/logo-vuejs.png  
+        src: ../javascript/media/logo-vuejs.png
     - href: publish-nodejs-app-azure.md
-      html: <p>Publish to Linux App Service</p>
+      html: <p>Publish a Node.js app to Linux App Service</p>
       image:
-        src: https://docs.microsoft.com/media/logos/logo_linux.svg  
+        src: https://docs.microsoft.com/media/logos/logo_linux-color.svg
 - title: Develop Applications
   items:
   - type: paragraph
@@ -66,24 +67,24 @@ sections:
     - href: write-and-edit-code.md
       html: <p>Write and edit code</p>
       image:
-        src: https://docs.microsoft.com/media/common/i_code-edit.svg      
+        src: https://docs.microsoft.com/media/common/i_code-edit.svg
     - href: nodejs-interactive-repl.md
-      html: <p>Use the interactive REPL</p>
+      html: <p>Use the Node.js interactive REPL</p>
       image:
-        src: https://docs.microsoft.com/media/common/i_cligeneric.svg      
+        src: https://docs.microsoft.com/media/common/i_cligeneric.svg
     - href: npm-package-management.md
       html: <p>Manage npm packages</p>
       image:
-        src: https://docs.microsoft.com/media/logos/logo_npm.svg      
+        src: https://docs.microsoft.com/media/logos/logo_npm.svg
     - href: debug-nodejs.md
       html: <p>Debug your code</p>
       image:
-        src: https://docs.microsoft.com/media/common/i_debug.svg      
+        src: https://docs.microsoft.com/media/common/i_debug.svg
     - href: develop-javascript-code-without-solutions-projects.md
       html: <p>Develop code without projects or solutions</p>
       image:
-        src: https://docs.microsoft.com/media/common/i_code-edit.svg      
+        src: https://docs.microsoft.com/media/common/i_code-edit.svg
     - href: unit-testing-javascript-with-visual-studio.md
       html: <p>Write and run unit tests</p>
       image:
-        src: https://docs.microsoft.com/media/common/i_unit-testing.svg      
+        src: https://docs.microsoft.com/media/common/i_unit-testing.svg

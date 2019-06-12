@@ -1,13 +1,32 @@
 ---
 title: Options, Text Editor, All Languages, Tabs
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
-  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.Basic.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.CoffeeScript.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.CSS.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.Dockerfile.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.F%2523.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.HQL.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.HTML.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.HTMLX.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.JSON.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.LESS.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.SCSS.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.XAML.Tabs"
+  - "VS.ToolsOptionsPages.Text_Editor.XML.Tabs"
 helpviewer_keywords:
   - "indents, Code Editor"
   - "Code Editor, default behavior"
@@ -19,7 +38,7 @@ helpviewer_keywords:
 ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

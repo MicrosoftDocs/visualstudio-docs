@@ -1,14 +1,9 @@
 ---
 title: "SccBackgroundGet Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "SccBackgroundGet"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # SccBackgroundGet Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +41,7 @@ SCCRTN SccBackgroundGet(
  [in, out] Array of names of files to be retrieved.  
   
 > [!NOTE]
->  The names must be fully qualified local filenames.  
+> The names must be fully qualified local filenames.  
   
  dwFlags  
  [in] Command flags (`SCC_GET_ALL`, `SCC_GET_RECURSIVE`).  
@@ -71,4 +66,3 @@ SCCRTN SccBackgroundGet(
 ## See Also  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccGet](../extensibility/sccget-function.md)
-

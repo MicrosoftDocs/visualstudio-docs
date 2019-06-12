@@ -1,11 +1,7 @@
 ---
 title: "Workspaces and language services in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-ms.assetid: 8631ffea-83c8-4fd4-a01e-c59772e89c84
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
@@ -58,4 +54,4 @@ The `Microsoft.VisualStudio.Workspace.*` APIs aren't the only way to enable your
 
 ## Next steps
 
-* [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles. 
+* [Workspace build](workspace-build.md) - Open Folder supports build systems such as MSBuild and makefiles.

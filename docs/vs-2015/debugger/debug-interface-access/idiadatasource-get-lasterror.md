@@ -1,14 +1,9 @@
 ---
 title: "IDiaDataSource::get_lastError | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: cf08850b-8b75-4e8c-90bd-bd0214756f99
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaDataSource::get_lastError
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,6 +43,3 @@ HRESULT errorCode = pSource->get_lastError( &fileName );
   
 ## See Also  
  [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)
-
-
-

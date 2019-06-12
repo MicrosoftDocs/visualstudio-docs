@@ -1,12 +1,10 @@
 ---
 title: Team Explorer reference
 ms.date: 12/04/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 ms.author: kaelli
 author: KathrynEE
-ms.manager: douge
+ms.manager: jillfra
 ---
 # Team Explorer reference
 
@@ -29,7 +27,7 @@ The **Home** page has different functions depending on whether you're connected 
 
 | **Home** page with Git | **Home** page with TFVC |
 | - | - |
-| ![Team Explorer Home page with Git in Visual Studio 2019](media/team-explorer-reference/team-explorer-git.png) | ![Team Explorer Home page with TFVC in Visual Studio 2017](media/team-explorer-reference/team-explorer-tfvc.png) |
+| ![Team Explorer Home page with Git in Visual Studio 2019](media/team-explorer-reference/team-explorer-git.png) | ![Team Explorer Home page with TFVC in Visual Studio](media/team-explorer-reference/team-explorer-tfvc.png) |
 
 ## Changes page (Git)
 
@@ -75,8 +73,12 @@ The **Work Items** page lets you see [work item](/azure/devops/boards/work-items
 - [Email query results list using Outlook](/azure/devops/boards/queries/share-plans)
 - [Create reports from query in Excel](/azure/devops/report/excel/create-status-and-trend-excel-reports) (TFS only)
 
+::: moniker range=">= vs-2019"
+
 > [!NOTE]
-> There's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs) in Visual Studio 2019 Preview 1. For information about viewing work items in Visual Studio 2019 Preview 1, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
+> There's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs) in Visual Studio 2019. For information about viewing work items in Visual Studio 2019, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
+
+::: moniker-end
 
 ## Builds page
 

@@ -1,14 +1,9 @@
 ---
 title: "Instrumentation Method Data Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools,instrumentation method views"
   - "instrumentation profiling method"
@@ -16,7 +11,7 @@ ms.assetid: 481f7579-f784-49ef-bb6c-2944e9d6ab42
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Instrumentation Method Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ This section contains reference information for the views and reports of profile
   
 ## See Also  
  [Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)
-
-
-

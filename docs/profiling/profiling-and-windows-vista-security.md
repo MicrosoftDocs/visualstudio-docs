@@ -1,8 +1,6 @@
 ---
 title: "Profiling and Windows Vista security | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/02/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Profiling Tools,security"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 842112fc-b886-4801-8cd7-a25b314b0393
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

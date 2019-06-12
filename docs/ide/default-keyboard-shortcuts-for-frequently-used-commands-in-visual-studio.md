@@ -1,21 +1,21 @@
 ---
 title: Default keyboard shortcuts for frequently used commands
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Default keyboard shortcuts for frequently used commands in Visual Studio
+# Popular keyboard shortcuts for Visual Studio
 
 You can access frequently used commands in Visual Studio by choosing these default keyboard shortcuts. For a complete list of commands that have default shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
+The *Global* context means that the shortcut is applicable in any tool window in Visual Studio.
+
 > [!NOTE]
-> You can look up the shortcut for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
+> You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
 ## Build
 
@@ -34,7 +34,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Debug.BreakAll|**Ctrl+Alt+Break** [Global]|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9** [Global]|
 |Debug.Exceptions|**Ctrl+Alt+E** [Global]|
-|Debug.QuickWatch|**Ctrl+Alt+Q** [Global]<br /><br /> or **Shift+F9** [Global]|
+|Debug.QuickWatch|**Ctrl+Alt+Q** [Global]<br /><br />or **Shift+F9** [Global]|
 |Debug.Restart|**Ctrl+Shift+F5** [Global]|
 |Debug.RunToCursor|**Ctrl+F10** [Global]|
 |Debug.SetNextStatement|**Ctrl+Shift+F10** [Global]|
@@ -50,13 +50,13 @@ You can access frequently used commands in Visual Studio by choosing these defau
 
 |Commands|Keyboard shortcuts [Contexts]|
 |--------------| - |
-|Edit.BreakLine|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br /> or **Shift+Enter** [Text Editor]|
+|Edit.BreakLine|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br />or **Shift+Enter** [Text Editor]|
 |Edit.CollapseToDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
 |Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** [Text Editor]|
-|Edit.CompleteWord|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+K**, **W** [Workflow Designer]<br /><br /> or **Ctrl+K, Ctrl+W** [Workflow Designer]|
-|Edit.Copy|**Ctrl+C** [Global]<br /><br /> or **Ctrl+Insert** [Global]|
-|Edit.Cut|**Ctrl+X** [Global]<br /><br /> or **Shift+Delete** [Global]|
-|Edit.Delete|**Delete** [Global, Team Explorer]<br /><br /> or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br /> or **Ctrl+Delete** [Class Diagram]|
+|Edit.CompleteWord|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K**, **W** [Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+W** [Workflow Designer]|
+|Edit.Copy|**Ctrl+C** [Global]<br /><br />or **Ctrl+Insert** [Global]|
+|Edit.Cut|**Ctrl+X** [Global]<br /><br />or **Shift+Delete** [Global]|
+|Edit.Delete|**Delete** [Global, Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]|
 |Edit.Find|**Ctrl+F** [Global]|
 |Edit.FindAllReferences|**Shift+F12** [Global]|
 |Edit.FindinFiles|**Ctrl+Shift+F** [Global]|
@@ -74,14 +74,14 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Edit.LineCut|**Ctrl+L** [Text Editor]|
 |Edit.LineDownExtendColumn|**Shift+Alt+Down Arrow** [Text Editor]|
 |Edit.LineOpenAbove|**Ctrl+Enter** [Text Editor]|
-|Edit.ListMembers|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br /> or **Ctrl+K, L** [Workflow Designer]|
+|Edit.ListMembers|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br />or **Ctrl+K, L** [Workflow Designer]|
 |Edit.NavigateTo|**Ctrl+,** [Global]|
 |Edit.OpenFile|**Ctrl+Shift+G** [Global]|
 |Edit.OvertypeMode|**Insert** [Text Editor]|
-|Edit.ParameterInfo|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br /> or **Ctrl+K, P** [Workflow Designer]|
-|Edit.Paste|**Ctrl+V** [Global]<br /><br /> or **Shift+Insert** [Global]|
+|Edit.ParameterInfo|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br />or **Ctrl+K, P** [Workflow Designer]|
+|Edit.Paste|**Ctrl+V** [Global]<br /><br />or **Shift+Insert** [Global]|
 |Edit.PeekDefinition|**Alt+F12** [Text Editor]|
-|Edit.Redo|**Ctrl+Y** [Global]<br /><br /> or **Shift+Alt+Backspace** [Global]<br /><br /> or **Ctrl+Shift+Z** [Global]|
+|Edit.Redo|**Ctrl+Y** [Global]<br /><br />or **Shift+Alt+Backspace** [Global]<br /><br />or **Ctrl+Shift+Z** [Global]|
 |Edit.Replace|**Ctrl+H** [Global]|
 |Edit.SelectAll|**Ctrl+A** [Global]|
 |Edit.SelectCurrentWord|**Ctrl+W** [Text Editor]|
@@ -93,7 +93,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Edit.ToggleCompletionMode|**Ctrl+Alt+Space** [Text Editor]|
 |Edit.ToggleOutliningExpansion|**Ctrl+M, Ctrl+M** [Text Editor]|
 |Edit.UncommentSelection|**Ctrl+K, Ctrl+U** [Text Editor]|
-|Edit.Undo|**Ctrl+Z** [Global]<br /><br /> or **Alt+Backspace** [Global]|
+|Edit.Undo|**Ctrl+Z** [Global]<br /><br />or **Alt+Backspace** [Global]|
 |Edit.WordDeleteToEnd|**Ctrl+Delete** [Text Editor]|
 |Edit.WordDeleteToStart|**Ctrl+Backspace** [Text Editor]|
 
@@ -138,7 +138,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |--------------| - |
 |View.ClassView|**Ctrl+Shift+C** [Global]|
 |View.EditLabel|**F2** [Global]|
-|View.ErrorList|**Ctrl+\\, Ctrl+E** [Global]<br /><br /> or **Ctrl+\\, E** [Global]|
+|View.ErrorList|**Ctrl+\\, Ctrl+E** [Global]<br /><br />or **Ctrl+\\, E** [Global]|
 |View.NavigateBackward|**Ctrl+-** [Global]|
 |View.NavigateForward|**Ctrl+Shift+-** [Global]|
 |View.ObjectBrowser|**Ctrl+Alt+J** [Global]|
@@ -146,11 +146,11 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |View.PropertiesWindow|**F4**|
 |View.Refresh|**F5** [Team Explorer]|
 |View.ServerExplorer|**Ctrl+Alt+S** [Global]|
-|View.ShowSmartTag|**Ctrl+.** [Global]<br /><br /> or **Shift+Alt+F10** [Global, HTML Editor Design View]|
+|View.ShowSmartTag|**Ctrl+.** [Global]<br /><br />or **Shift+Alt+F10** [Global, HTML Editor Design View]|
 |View.SolutionExplorer|**Ctrl+Alt+L** [Global]|
 |View.TfsTeamExplorer|**Ctrl+\\, Ctrl+M** [Global]|
 |View.Toolbox|**Ctrl+Alt+X** [Global]|
-|View.ViewCode|**Enter** [Class Diagram]<br /><br /> or **F7** [Settings Designer]|
+|View.ViewCode|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]|
 |View.ViewDesigner|**Shift+F7** [HTML Editor Source View]|
 
 ## Window
@@ -165,4 +165,5 @@ You can access frequently used commands in Visual Studio by choosing these defau
 
 ## See also
 
-- [Identifying and customizing keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [All keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

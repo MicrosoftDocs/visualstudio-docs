@@ -1,13 +1,11 @@
 ---
-title: "How to: Create DataContext methods mapped to stored procedures and functions (O-R Designer)"
+title: "Map DataContext methods to sprocs and functions (O-R Designer)"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -29,17 +27,17 @@ You can create <xref:System.Data.Linq.DataContext> methods by dragging stored pr
 
 ### To create DataContext methods that return automatically generated types
 
-1.  In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
+1. In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
 
-2.  Locate the desired stored procedure and drag it onto an empty area of the **O/R Designer**.
+2. Locate the desired stored procedure and drag it onto an empty area of the **O/R Designer**.
 
      The <xref:System.Data.Linq.DataContext> method is created with an automatically generated return type and appears in the **Methods** pane.
 
 ### To create DataContext methods that have the return type of an entity class
 
-1.  In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
+1. In **Server Explorer** or **Database Explorer**, expand the **Stored Procedures** node of the database with which you are working.
 
-2.  Locate the desired stored procedure and drag it onto an existing entity class in the **O/R Designer**.
+2. Locate the desired stored procedure and drag it onto an existing entity class in the **O/R Designer**.
 
      The <xref:System.Data.Linq.DataContext> method is created with the return type of the selected entity class and appears in the **Methods** pane.
 

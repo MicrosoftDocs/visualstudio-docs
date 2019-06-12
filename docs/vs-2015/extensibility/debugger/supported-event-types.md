@@ -1,20 +1,15 @@
 ---
 title: "Supported Event Types | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], supported events"
 ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
 caps.latest.revision: 13
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Supported Event Types
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,7 +39,7 @@ Visual Studio debugging currently supports the following event types:
     The interfaces [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md) and [IDebugExceptionEvent2](../../extensibility/debugger/reference/idebugexceptionevent2.md) are examples of stopping events.  
   
   > [!NOTE]
-  >  Asynchronous stopping events are not supported. It is an error to send an asynchronous stopping event.  
+  > Asynchronous stopping events are not supported. It is an error to send an asynchronous stopping event.  
   
 ## Discussion  
  The actual implementation of events depends on the design of your DE. The type of each event sent is determined by its attributes, which are set when you design the DE. For example, one DE may send an [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) as an asynchronous event, while another may send it as a stopping event.  
@@ -52,7 +47,7 @@ Visual Studio debugging currently supports the following event types:
  The following table specifies which program and thread parameters are required for which events, as well as event types. Any event can be synchronous. No event needs to be synchronous.  
   
 > [!NOTE]
->  The [IDebugEngine2](../../extensibility/debugger/reference/idebugengine2.md) interface is required for all events.  
+> The [IDebugEngine2](../../extensibility/debugger/reference/idebugengine2.md) interface is required for all events.  
   
 |Event|IDebugProgram2|IDebugThread2|Stopping Events|  
 |-----------|--------------------|-------------------|---------------------|  
@@ -88,4 +83,3 @@ Visual Studio debugging currently supports the following event types:
   
 ## See Also  
  [Sending Events](../../extensibility/debugger/sending-events.md)
-

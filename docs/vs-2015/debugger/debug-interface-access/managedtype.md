@@ -1,14 +1,9 @@
 ---
 title: "ManagedType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -19,7 +14,7 @@ ms.assetid: 5db99e2a-4f2e-4796-89b7-b401b151826f
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ManagedType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ A managed type (any symbol defined by metadata, or native to the memory and reso
   
 ## See Also  
  [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
-
-
-

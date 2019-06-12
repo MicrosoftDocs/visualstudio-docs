@@ -1,72 +1,77 @@
 ---
-title: "XML Editor IntelliSense Features"
+title: "XML editor IntelliSense Features"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# XML Editor IntelliSense features
+# XML editor IntelliSense features
 
 The XML editor provides full IntelliSense features comparable to other language editors provided in Visual Studio. This section explains how you can use the IntelliSense with XML Schema definition language (XSD) and XSLT documents.
 
 ## IntelliSense in an XSD document
- After a schema is associated with your document, you get a drop-down list of expected elements any time you type `"<"` or click the **Display an Object Member List** button on the XML editor toolbar. For information about how to associate schemas with your XML documents, see [XML document validation](../xml-tools/xml-document-validation.md).
 
- When you type SPACE from inside a start tag, you also get a drop-down list showing all attributes that can be added to the current element.
+After a schema is associated with your document, you get a drop-down list of expected elements any time you type `"<"` or click the **Display an Object Member List** button on the XML editor toolbar.
 
- When you type `"="` for an attribute value, or the opening quote for the value, you also get list of possible values for that attribute. Values are only provided if the schema provides enumerated values via `xsd:enumeration` facets, or if the attribute is a `Boolean` type. An IntelliSense list of known language codes is also provided for `xml:lang` or any `simpleType` that derives from `xsd:language`. An IntelliSense list of known `targetNamespace` values is provided for namespace declarations.
+![Display object member list button](media/display-object-member-list-xml.png)
 
- An IntelliSense list of possible values is also provided when you type `">"` to close a start tag if the element is a `simpleType`. The behavior for elements is similar to the behavior for attributes described in the previous paragraph.
+For information about how to associate schemas with your XML documents, see [XML document validation](../xml-tools/xml-document-validation.md).
 
- ToolTips also appear on these IntelliSense lists based on `xsd:annotation` and `xsd:documentation` information found in the associated schema.
+When you type SPACE from inside a start tag, you also get a drop-down list showing all attributes that can be added to the current element.
+
+When you type `"="` for an attribute value, or the opening quote for the value, you also get list of possible values for that attribute. Values are only provided if the schema provides enumerated values via `xsd:enumeration` facets, or if the attribute is a `Boolean` type. An IntelliSense list of known language codes is also provided for `xml:lang` or any `simpleType` that derives from `xsd:language`. An IntelliSense list of known `targetNamespace` values is provided for namespace declarations.
+
+An IntelliSense list of possible values is also provided when you type `">"` to close a start tag if the element is a `simpleType`. The behavior for elements is similar to the behavior for attributes described in the previous paragraph.
+
+ToolTips also appear on these IntelliSense lists based on `xsd:annotation` and `xsd:documentation` information found in the associated schema.
 
 ## IntelliSense in an XSLT document
- After you add a named template or an attribute to your XSLT document, you can use IntelliSense to insert the following:
 
--   Attribute set names.
+After you add a named template or an attribute to your XSLT document, you can use IntelliSense to insert the following:
 
--   Template modes.
+- Attribute set names.
 
--   Template names.
+- Template modes.
 
--   Parameter names for a given mode.
+- Template names.
 
--   Parameter names for a given named template.
+- Parameter names for a given mode.
+
+- Parameter names for a given named template.
 
 For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md) topic.
 
 ## Auto-completion
- The XML editor also makes editing XML easier by filling in required XML syntax for you. For example, if you type the following start tag:
 
- `<book>`
+The XML editor also makes editing XML easier by filling in required XML syntax for you. For example, if you type the following start tag:
 
- The XML editor fills in the end tag and positions the cursor after the start tag. The following is an example of this (the "&#124;" notes the cursor position):
+`<book>`
 
- `<book>`&#124;`</book>`
+The XML editor fills in the end tag and positions the cursor after the start tag. The following is an example of this (the "&#124;" notes the cursor position):
 
- Because attribute values must always have quotes, the XML editor fills in the quotes for you. For example, if you type the following:
+`<book>`&#124;`</book>`
 
- `<book title=`
+Because attribute values must always have quotes, the XML editor fills in the quotes for you. For example, if you type the following:
 
- The XML editor adds the quotes and positions the cursor between the quotes:
+`<book title=`
 
- `<book title="`&#124;`"`
+The XML editor adds the quotes and positions the cursor between the quotes:
 
- Similarly, the XML editor also inserts the following XML syntax automatically for you:
+`<book title="`&#124;`"`
 
--   End a processing instruction:  `?>`
+Similarly, the XML editor also inserts the following XML syntax automatically for you:
 
--   End a CDATA block: `]]>`
+- End a processing instruction:  `?>`
 
--   End a comment: `-->`
+- End a CDATA block: `]]>`
 
--   End a DTD declaration: `>`
+- End a comment: `-->`
+
+- End a DTD declaration: `>`
 
 The XML editor also has the ability to insert a namespace declaration if you select a namespace qualified element or attribute from an IntelliSense list and the namespace for that element or attribute is not yet in scope.
 
@@ -75,28 +80,30 @@ For example, if you select the `e:Book` element from the IntelliSense list where
 `<e:Book xmlns:e="http://books"`
 
 ## Brace matching
- The XML editor provides brace highlighting to give you immediate feedback on elements you have just closed. You can also use the keyboard shortcut (**Ctrl**+**]**) to jump from one brace to the matching brace.
 
- The XML editor does this for the following items:
+The XML editor provides brace highlighting to give you immediate feedback on elements you have just closed. You can also use the keyboard shortcut (**Ctrl**+**]**) to jump from one brace to the matching brace.
 
--   Matching start and end tags.
+The XML editor does this for the following items:
 
--   Any pair of "\<" or ">" angle brackets.
+- Matching start and end tags.
 
--   Start and end of comments.
+- Any pair of "\<" or ">" angle brackets.
 
--   Start and end of processing instructions.
+- Start and end of comments.
 
--   Start and end of CDATA blocks.
+- Start and end of processing instructions.
 
--   Start and end of DTD declarations.
+- Start and end of CDATA blocks.
 
--   Opening and closing quotes on attributes.
+- Start and end of DTD declarations.
+
+- Opening and closing quotes on attributes.
 
 ## Modify the IntelliSense options
- The IntelliSense and auto-completion features are enabled by default. However, you can change this by modifying your **Tools** > **Options** settings.
 
- The **Auto Insert** section of the **Miscellaneous** page controls the following behavior:
+The IntelliSense and auto-completion features are enabled by default. However, you can change this by modifying your **Tools** > **Options** settings.
+
+The **Auto Insert** section of the **Miscellaneous** page controls the following behavior:
 
 |Name|Description|
 |-|-----------------|
@@ -106,11 +113,11 @@ For example, if you select the `e:Book` element from the IntelliSense list where
 
 ### To change the auto-completion behavior
 
-1.  Select **Options** from the **Tools** menu.
+1. Select **Options** from the **Tools** menu.
 
-2.  Expand **Text Editor**, expand **XML**, and select **Miscellaneous**.
+2. Expand **Text Editor**, expand **XML**, and select **Miscellaneous**.
 
-3.  Make any changes to the **Auto insert** section and click **OK**.
+3. Make any changes to the **Auto insert** section and click **OK**.
 
 ## See also
 

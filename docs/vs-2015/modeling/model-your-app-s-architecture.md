@@ -1,19 +1,16 @@
 ---
 title: "Model your app&#39;s architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML, modeling architecture"
 ms.assetid: aedce746-9df5-49e1-9662-67eb1b83d313
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Model your app&#39;s architecture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,32 +22,32 @@ To help ensure that your software system or application meets your users' needs,
  The purpose of a model is to reduce the ambiguities that occur in natural-language descriptions, and to help you and your colleagues to visualize the design and to discuss alternative designs. A model should be used together with other documents or discussions. By itself, a model does not represent a complete specification of the architecture.  
   
 > [!NOTE]
->  Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.  
+> Throughout this topic, "system" means the software that you are developing. It might be a large collection of many software and hardware components, or a single application, or a part of an application.  
   
  The architecture of a system can be divided into two areas:  
   
--   [High-level Design](#Structure). This describes the major components and how they interact with one another to fulfill each requirement. If the system is large, each component might have its own high-level design that shows how it is composed of smaller components.  
+- [High-level Design](#Structure). This describes the major components and how they interact with one another to fulfill each requirement. If the system is large, each component might have its own high-level design that shows how it is composed of smaller components.  
   
--   [Design Patterns](#Patterns) and conventions used throughout the designs of the components. A pattern describes a particular approach to achieving a programming goal. By using the same patterns throughout a design, your team can reduce the cost of making changes and developing new software.  
+- [Design Patterns](#Patterns) and conventions used throughout the designs of the components. A pattern describes a particular approach to achieving a programming goal. By using the same patterns throughout a design, your team can reduce the cost of making changes and developing new software.  
   
-##  <a name="Structure"></a> High-level Design  
+## <a name="Structure"></a> High-level Design  
  A high-level design describes the major components of your system and how they interact with one another to achieve the goals of the design. The activities in the following list are involved in developing the high level design, although not necessarily in a particular sequence.  
   
  If you are updating existing code, you might begin by describing the major components. Make sure you understand any changes to the user requirements and then add or modify interactions between the components. If you are developing a new system, begin by understanding the main features of the users' needs. You can then explore sequences of interactions for the main use cases, and then consolidate the sequences into a component design.  
   
  In every case, it is helpful to develop the different activities in parallel, and to develop code and tests at an early stage. Avoid trying to complete one of these aspects before you start another. Typically, both the requirements and your understanding of the best way to design the system will change while you are writing and testing the code. Therefore, you should begin by understanding and coding the main features of the requirements and your design. Fill in the details in later iterations of the project.  
   
--   [Understanding the Requirements](#Requirements). The starting point of any design is a clear understanding of the users' needs.  
+- [Understanding the Requirements](#Requirements). The starting point of any design is a clear understanding of the users' needs.  
   
--   [Architectural Patterns](#BigDecisions). The choices you made about core technologies and architectural elements of the system.  
+- [Architectural Patterns](#BigDecisions). The choices you made about core technologies and architectural elements of the system.  
   
--   [Components and their Interfaces](#Components). You can draw component diagrams to show the major parts of the system, and show the interfaces through which they interact with one another. The interfaces of each component include all the messages that you identified in the sequence diagrams.  
+- [Components and their Interfaces](#Components). You can draw component diagrams to show the major parts of the system, and show the interfaces through which they interact with one another. The interfaces of each component include all the messages that you identified in the sequence diagrams.  
   
--   [Interactions between Components](#Interactions). For each use case, event, or incoming message, you can draw a sequence diagram that shows how the major components of the system interact to achieve the required response.  
+- [Interactions between Components](#Interactions). For each use case, event, or incoming message, you can draw a sequence diagram that shows how the major components of the system interact to achieve the required response.  
   
--   [Data Model of the Components and Interfaces](#Data). You can draw class diagrams to describe the information that is passed between components and stored inside the components.  
+- [Data Model of the Components and Interfaces](#Data). You can draw class diagrams to describe the information that is passed between components and stored inside the components.  
   
-##  <a name="Requirements"></a> Understanding the Requirements  
+## <a name="Requirements"></a> Understanding the Requirements  
  The high-level design of a complete application is most effectively developed together with a requirements model or other description of the users' needs. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).  
   
  If the system that you are developing is a component in a larger system, part or all of your requirements might be embodied in programmatic interfaces.  
@@ -75,7 +72,7 @@ To help ensure that your software system or application meets your users' needs,
   
   The amount of detail that you should put into either a requirements or an architectural model depends on the scale of the project and the size and distribution of the team. A small team on a short project might go no further than sketching a class diagram of the business concepts and some design patterns; a large project distributed over more than one region would need significantly more detail.  
   
-##  <a name="BigDecisions"></a> Architectural Patterns  
+## <a name="BigDecisions"></a> Architectural Patterns  
  Early in a development, you have to choose the major technologies and elements on which the design depends. The areas in which these choices must be made include the following:  
   
 - Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a Web client, and so on.  
@@ -88,7 +85,7 @@ To help ensure that your software system or application meets your users' needs,
   
   The selections that you make affect how you use and interpret the architectural model. For example, in a system that uses a database, associations in a class diagram might represent relations or foreign keys in the database, whereas in a system that is based on XML files, associations might indicate cross-references that use XPath. In a distributed system, messages in a sequence diagram can represent messages on a wire; in a self-contained application, they can represent function calls.  
   
-##  <a name="Components"></a> Components and their Interfaces  
+## <a name="Components"></a> Components and their Interfaces  
  The major recommendations of this section are as follows:  
   
 - Create component diagrams to show the major parts of your system.  
@@ -108,17 +105,17 @@ To help ensure that your software system or application meets your users' needs,
   
  A typical component diagram for a large system might include components like these:  
   
--   Presentation. The component that provides access to the user, typically running on a Web browser.  
+- Presentation. The component that provides access to the user, typically running on a Web browser.  
   
--   Web service components. Provides connection between clients and servers.  
+- Web service components. Provides connection between clients and servers.  
   
--   Use case controllers. Conduct the user through the steps of each scenario.  
+- Use case controllers. Conduct the user through the steps of each scenario.  
   
--   Business core. Contains classes that are based on classes in the requirements model, implements the key operations, and imposes business constraints.  
+- Business core. Contains classes that are based on classes in the requirements model, implements the key operations, and imposes business constraints.  
   
--   Database. Stores the business objects.  
+- Database. Stores the business objects.  
   
--   Logging and error handling components.  
+- Logging and error handling components.  
   
 ### Dependencies between Components  
  In addition to the components themselves, you can show the dependencies between them. A dependency arrow between two components shows that changes in the design of one could affect the design of the other. This usually happens because one component uses the services or functions that are provided by the other component, either directly or indirectly.  
@@ -175,7 +172,7 @@ To help ensure that your software system or application meets your users' needs,
   
   The use of required interfaces is usually preferable to the use of parts. Although the design can take longer, the resulting system is more flexible. It is also easier to test the components separately. This allows less coupling in their development plans.  
   
-##  <a name="Interactions"></a> Interactions between Components  
+## <a name="Interactions"></a> Interactions between Components  
  The major recommendations of this section are as follows:  
   
 - Identify the use cases of your system.  
@@ -193,11 +190,11 @@ To help ensure that your software system or application meets your users' needs,
 ### Identifying the initiating events  
  The work done by most software systems can be conveniently divided up by the responses it gives to different inputs or events. The initiating event might be one of the following events:  
   
--   The first action in a use case. It might appear in the requirements model as a step in a use case, or an action in an activity diagram. For more information, [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md) and [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
+- The first action in a use case. It might appear in the requirements model as a step in a use case, or an action in an activity diagram. For more information, [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md) and [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md).  
   
--   A message at a programmatic interface. If the system that you are developing is a component in a larger system, it should be described as an operation in one of the component's interfaces. See [Components and their Interfaces](#Components).  
+- A message at a programmatic interface. If the system that you are developing is a component in a larger system, it should be described as an operation in one of the component's interfaces. See [Components and their Interfaces](#Components).  
   
--   A particular condition that is monitored by your system, or a regular event such as a time of day.  
+- A particular condition that is monitored by your system, or a regular event such as a time of day.  
   
 ### Describe the computations  
  Draw sequence diagrams to show how the components respond to the initial event.  
@@ -215,14 +212,14 @@ To help ensure that your software system or application meets your users' needs,
   
  It is useful to add comments to the activity or sequence diagrams, to note what has been achieved after each operation. You can also write the effect of each operation in its **Local Postcondition** property.  
   
-###  <a name="Data"></a> Data Model of the Components and Interfaces  
+### <a name="Data"></a> Data Model of the Components and Interfaces  
  Define the parameters and return values of each operation in the component interfaces. Where the operations represent invocations such as Web service requests, the parameters are those pieces of information that are sent as part of the request. Where several values are returned from an operation, you can use parameters with the **Direction** property set to **Out**.  
   
  Each parameter and return value has a type. You can define these types using UML Class Diagrams. You do not have to represent implementation detail in these diagrams. For example, if you are describing data that is transmitted as XML, you can use an association to represent any kind of cross-reference between nodes of the XML, and use classes to represent nodes.  
   
  Use comments to describe business constraints on the associations and attributes. For example, if all the items on a customer's order must come from the same supplier, you can describe this by reference to the associations between the order items and the items on the product catalog, and between the catalog item and its supplier.  
   
-##  <a name="Patterns"></a> Design Patterns  
+## <a name="Patterns"></a> Design Patterns  
  A design pattern is an outline of how to design a particular aspect of the software, especially one that recurs in different parts of the system. By adopting a uniform approach across the project, you can reduce the cost of design, ensure consistency in the user interface, and reduce the cost of understanding and changing the code.  
   
  Some general design patterns such as Observer are well-known and widely applicable. In addition, there are patterns that are applicable just to your project. For example, in a Web sales system, there will be several operations in the code where changes are made to a customer's order. To ensure that the state of the order is accurately displayed at every stage, all these operations must follow a particular protocol to update the database.  
@@ -233,25 +230,25 @@ To help ensure that your software system or application meets your users' needs,
   
  A design pattern is described in a document, and typically includes these parts:  
   
--   Name.  
+- Name.  
   
--   Description of the context in which it is applicable. What criteria should make a developer consider applying this pattern?  
+- Description of the context in which it is applicable. What criteria should make a developer consider applying this pattern?  
   
--   Brief explanation of the problem it solves.  
+- Brief explanation of the problem it solves.  
   
--   Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:  
+- Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:  
   
-    -   Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
+    - Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
   
-    -   Elements describing framework classes that the developer should use.  
+    - Elements describing framework classes that the developer should use.  
   
--   Model of the interactions between the parts, using sequence or activity diagrams.  
+- Model of the interactions between the parts, using sequence or activity diagrams.  
   
--   Naming conventions.  
+- Naming conventions.  
   
--   Description of how the pattern solves the problem.  
+- Description of how the pattern solves the problem.  
   
--   Description of variations that developers might be able to adopt.  
+- Description of variations that developers might be able to adopt.  
   
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
@@ -259,6 +256,3 @@ To help ensure that your software system or application meets your users' needs,
  [Model user requirements](../modeling/model-user-requirements.md)   
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-
-
-

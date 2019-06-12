@@ -1,19 +1,16 @@
 ---
 title: "Link UML model updates by using transactions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML API, transactions"
 ms.assetid: a1df6c38-a3d1-4a3f-82bc-c8f363ab916e
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Link UML model updates by using transactions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,15 +56,15 @@ When you define an extension to the UML designers in Visual Studio, you can grou
   
  Notice the following:  
   
--   You must always include `Commit()` at the end of the transaction. If a transaction is disposed without being committed, the transaction will be rolled back. That is, the model will be restored to its state at the start of the transaction.  
+- You must always include `Commit()` at the end of the transaction. If a transaction is disposed without being committed, the transaction will be rolled back. That is, the model will be restored to its state at the start of the transaction.  
   
--   If an exception occurs that is not caught inside the transaction, the transaction will be rolled back. It is a frequent pattern to enclose the `using` block of the transaction inside a `try…catch` block.  
+- If an exception occurs that is not caught inside the transaction, the transaction will be rolled back. It is a frequent pattern to enclose the `using` block of the transaction inside a `try…catch` block.  
   
--   You can nest transactions.  
+- You can nest transactions.  
   
--   You can provide any non-blank name to `BeginTransaction()`.  
+- You can provide any non-blank name to `BeginTransaction()`.  
   
--   Only the UML Model Store is affected by these transactions. Modeling transactions do not affect: variables, external stores such as files and databases, layer diagrams, and code models.  
+- Only the UML Model Store is affected by these transactions. Modeling transactions do not affect: variables, external stores such as files and databases, layer diagrams, and code models.  
   
 ## Example  
   
@@ -109,6 +106,3 @@ When you define an extension to the UML designers in Visual Studio, you can grou
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
-
-
-

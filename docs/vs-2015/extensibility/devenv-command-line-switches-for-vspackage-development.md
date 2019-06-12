@@ -1,14 +1,9 @@
 ---
 title: "Devenv Command-Line Switches for VSPackage Development | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "/setup command line switch"
   - "/resetskippkgs command line switch"
@@ -21,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Devenv Command-Line Switches for VSPackage Development
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,11 +25,11 @@ manager: "ghogen"
   
  Tasks include:  
   
--   Deploying applications in predesigned configurations from outside the IDE.  
+- Deploying applications in predesigned configurations from outside the IDE.  
   
--   Automatically building projects using preset build settings or debug configurations.  
+- Automatically building projects using preset build settings or debug configurations.  
   
--   Loading the IDE in specific configurations, all from outside the IDE. In addition, you can customize the IDE upon launch.  
+- Loading the IDE in specific configurations, all from outside the IDE. In addition, you can customize the IDE upon launch.  
   
 ## Guidelines for Switches  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] documentation describes the user-level devenv command line switches. For more information, see [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md). Devenv also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
@@ -49,4 +44,3 @@ manager: "ghogen"
 ## See Also  
  [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)
-

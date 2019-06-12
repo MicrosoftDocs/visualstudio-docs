@@ -1,12 +1,9 @@
 ---
 title: "Troubleshooting Service References | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: reference
 f1_keywords:
   - "msvse_wcf.Err.ReferenceGroup_NamespaceConflictsOther"
   - "msvse_wcf.Err.AddSvcRefDlg_NothingSelectedOnGo"
@@ -19,7 +16,7 @@ ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
 caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting Service References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,25 +27,25 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 
  To fix this error:
 
-1.  In **Solution Explorer**, double-click the app.config file to open it.
+1. In **Solution Explorer**, double-click the app.config file to open it.
 
-2.  Locate the `MaxReceivedMessageSize` property and change it to a larger value.
+2. Locate the `MaxReceivedMessageSize` property and change it to a larger value.
 
 ## Cannot Find a Service in My Solution
  When you click the **Discover** button in the **Add Service References** dialog box, one or more WCF Service Library projects in the solution do not appear in the services list. This can occur if a Service Library has been added to the solution but has not yet been compiled.
 
  To fix this error:
 
--   In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
+- In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
 
 ## Error Accessing a Service over a Remote Desktop
  When a user accesses a Web-hosted WCF service over a remote desktop connection and the user does not have administrative permissions, NTLM authentication is used. If the user does not have administrative permissions, the user may receive the following error message: "The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'NTLM'."
 
  To fix this error:
 
-1.  In the Web site project, open the **Properties** pages.
+1. In the Web site project, open the **Properties** pages.
 
-2.  On the **Start Options** tab, clear the **NTLM Authentication** check box.
+2. On the **Start Options** tab, clear the **NTLM Authentication** check box.
 
     > [!NOTE]
     > You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.
@@ -67,32 +64,32 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 
  To fix this error, you have to manually rebuild the service project:
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  In the **Options** dialog box, expand **Projects and Solutions**, and then select **General**.
+2. In the **Options** dialog box, expand **Projects and Solutions**, and then select **General**.
 
-3.  Make sure that the **Show advanced build configurations** check box is selected, and then click **OK**.
+3. Make sure that the **Show advanced build configurations** check box is selected, and then click **OK**.
 
-4.  Load the WCF service project. For more information, see [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/en-us/02ecd6dd-0114-46fe-b335-ba9c5e3020d6).
+4. Load the WCF service project. For more information, see [NIB How to: Create Multi-Project Solutions](https://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6).
 
-5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).
+5. In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).
 
-6.  In **Solution Explorer**, select the WCF service project.
+6. In **Solution Explorer**, select the WCF service project.
 
-7.  On the **Build** menu, click **Rebuild** to rebuild the WCF service project.
+7. On the **Build** menu, click **Rebuild** to rebuild the WCF service project.
 
 ## WCF Data Services Do Not Display in the Browser
  When it attempts to view an XML representation of data in a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)], Internet Explorer may misinterpret the data as an RSS feed. You must make sure that the option to display RSS feeds is disabled.
 
  To fix this error, disable RSS feeds:
 
-1.  In Internet Explorer, on the **Tools** menu, click **Internet Options**.
+1. In Internet Explorer, on the **Tools** menu, click **Internet Options**.
 
-2.  On the **Content** tab, in the **Feeds** section, click **Settings**.
+2. On the **Content** tab, in the **Feeds** section, click **Settings**.
 
-3.  In the **Feed Settings** dialog box, clear the **Turn on feed reading view** check box, and then click **OK**.
+3. In the **Feed Settings** dialog box, clear the **Turn on feed reading view** check box, and then click **OK**.
 
-4.  Click **OK** to close the **Internet Options** dialog box.
+4. Click **OK** to close the **Internet Options** dialog box.
 
 ## See also
 

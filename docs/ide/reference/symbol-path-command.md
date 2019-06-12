@@ -1,8 +1,6 @@
 ---
 title: Symbol Path Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.symbolpath"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b697ef2d-3f5d-40df-b113-7068a5bec0d4
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

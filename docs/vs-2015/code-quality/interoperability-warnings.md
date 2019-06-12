@@ -1,14 +1,9 @@
 ---
 title: "Interoperability Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.Interoperabilityrules"
 helpviewer_keywords: 
@@ -46,6 +41,3 @@ Interoperability warnings support interaction with COM clients.
 |[CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413-avoid-non-public-fields-in-com-visible-value-types.md)|Nonpublic instance fields of COM-visible value types are visible to COM clients. Review the content of the fields for information that should not be exposed, or that will have unintended design or security effects.|  
 |[CA1414: Mark boolean P/Invoke arguments with MarshalAs](../code-quality/ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md)|The Boolean data type has multiple representations in unmanaged code.|  
 |[CA1415: Declare P/Invokes correctly](../code-quality/ca1415-declare-p-invokes-correctly.md)|This rule looks for platform invoke method declarations that target [!INCLUDE[TLA2#tla_win32](../includes/tla2sharptla-win32-md.md)] functions that have a pointer to an OVERLAPPED structure parameter and the corresponding managed parameter is not a pointer to a <xref:System.Threading.NativeOverlapped?displayProperty=fullName> structure.|
-
-
-

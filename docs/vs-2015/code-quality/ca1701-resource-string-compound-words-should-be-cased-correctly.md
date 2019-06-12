@@ -1,14 +1,9 @@
 ---
 title: "CA1701: Resource string compound words should be cased correctly | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "ResourceStringCompoundWordsShouldBeCasedCorrectly"
   - "CA1701"
@@ -55,8 +50,5 @@ manager: "wpickett"
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
 
 ## See Also
- [Capitalization Conventions](http://msdn.microsoft.com/library/4c4ea526-9203-486f-b72d-29d61c5b3c6d)
- [Naming Guidelines](http://msdn.microsoft.com/library/fc076d66-9b5f-42d3-aa65-61d970c794a3)
-
-
-
+ [Capitalization Conventions](https://msdn.microsoft.com/library/4c4ea526-9203-486f-b72d-29d61c5b3c6d)
+ [Naming Guidelines](https://msdn.microsoft.com/library/fc076d66-9b5f-42d3-aa65-61d970c794a3)

@@ -1,21 +1,16 @@
 ---
 title: "VisibilityItem Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "VisibilityItem element (VSCT XML schema)"
   - "VSCT XML schema elements, VisibilityItem"
 ms.assetid: 0932f551-972d-4194-84bb-426e3e4375e4
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # VisibilityItem Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,4 +73,3 @@ The `VisibilityItem` element determines the static visibility of commands and to
  <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>   
  [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md)   
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

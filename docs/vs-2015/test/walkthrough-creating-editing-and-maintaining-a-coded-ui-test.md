@@ -1,18 +1,13 @@
 ---
 title: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: f7c25ba7-5c9c-455b-9242-701cda56f90c
 caps.latest.revision: 43
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Walkthrough: Creating, Editing and Maintaining a Coded UI Test
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,29 +17,29 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 ## Prerequisites  
  For this walkthrough you will need:  
   
--   Visual Studio Enterprise  
+- Visual Studio Enterprise  
   
 ### Create a Simple WPF Application  
   
-1.  On the **FILE** menu, point to **New**, and then select **Project**.  
+1. On the **FILE** menu, point to **New**, and then select **Project**.  
   
      The **New Project** dialog box appears.  
   
-2.  In the **Installed** pane, expand **Visual C#**, and then select **Windows Desktop**.  
+2. In the **Installed** pane, expand **Visual C#**, and then select **Windows Desktop**.  
   
-3.  Above the middle pane, verify that the target framework drop-down list is set to **.NET Framework 4.5**.  
+3. Above the middle pane, verify that the target framework drop-down list is set to **.NET Framework 4.5**.  
   
-4.  In the middle pane, select the **WPF Application** template.  
+4. In the middle pane, select the **WPF Application** template.  
   
-5.  In the **Name** text box, type **SimpleWPFApp**.  
+5. In the **Name** text box, type **SimpleWPFApp**.  
   
-6.  Choose a folder where you will save the project. In the **Location** text box, type the name of the folder.  
+6. Choose a folder where you will save the project. In the **Location** text box, type the name of the folder.  
   
-7.  Choose **OK**.  
+7. Choose **OK**.  
   
      The WPF Designer for Visual Studio opens and displays MainWindow of the project.  
   
-8.  If the toolbox is not currently open, open it. Choose the **VIEW** menu, and then choose **Toolbox**.  
+8. If the toolbox is not currently open, open it. Choose the **VIEW** menu, and then choose **Toolbox**.  
   
 9. Under the **All WPF Controls** section, drag a **Button**, **CheckBox** and **ProgressBar** control onto the MainWindow in the design surface.  
   
@@ -105,46 +100,46 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 ### Verify the WPF Application Runs Correctly  
   
-1.  On the **DEBUG** menu, select **Start Debugging** or press **F5**.  
+1. On the **DEBUG** menu, select **Start Debugging** or press **F5**.  
   
-2.  Notice that the check box control is disabled. Choose **Start**.  
+2. Notice that the check box control is disabled. Choose **Start**.  
   
      In a few seconds, the progress bar should be 100% complete.  
   
-3.  You can now select the check box control.  
+3. You can now select the check box control.  
   
-4.  Close SimpleWPFApp.  
+4. Close SimpleWPFApp.  
   
 ### Create and Run a Coded UI Test for SimpleWPFApp  
   
-1.  Locate the SimpleWPFApp application that you created earlier. By default, the application will be located at C:\Users\\<username\>\Documents\Visual Studio \<version>\Projects\SimpleWPFApp\SimpleWPFApp\bin\Debug\SimpleWPFApp.exe  
+1. Locate the SimpleWPFApp application that you created earlier. By default, the application will be located at C:\Users\\<username\>\Documents\Visual Studio \<version>\Projects\SimpleWPFApp\SimpleWPFApp\bin\Debug\SimpleWPFApp.exe  
   
-2.  Create a desktop shortcut to the SimpleWPFApp application. Right-click SimpleWPFApp.exe and choose **Copy**. On your desktop, right-click and choose **Paste shortcut**.  
+2. Create a desktop shortcut to the SimpleWPFApp application. Right-click SimpleWPFApp.exe and choose **Copy**. On your desktop, right-click and choose **Paste shortcut**.  
   
     > [!TIP]
-    >  A shortcut to the application makes it easier to add or modify Coded UI tests for your application because it lets you start the application quickly.  
+    > A shortcut to the application makes it easier to add or modify Coded UI tests for your application because it lets you start the application quickly.  
   
-3.  In Solution Explorer, right-click the solution, choose **Add** and then select **New Project**.  
+3. In Solution Explorer, right-click the solution, choose **Add** and then select **New Project**.  
   
      The **Add New Project** dialog box appears.  
   
-4.  In the **Installed** pane, expand **Visual C#**, and then select **Test**.  
+4. In the **Installed** pane, expand **Visual C#**, and then select **Test**.  
   
-5.  In the middle pane, select the **Coded UI Test Project** template.  
+5. In the middle pane, select the **Coded UI Test Project** template.  
   
-6.  Choose **OK**.  
+6. Choose **OK**.  
   
      In Solution Explorer, the new coded UI test project named **CodedUITestProject1** is added to your solution.  
   
      The **Generate Code for Coded UI Test** dialog box appears.  
   
-7.  Select the **Record actions, edit UI map or add assertions** option and choose **OK**.  
+7. Select the **Record actions, edit UI map or add assertions** option and choose **OK**.  
   
      The UIMap – Coded UI Test Builder appears, and the Visual Studio window is minimized.  
   
      For more information about the options in the dialog box, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).  
   
-8.  Choose **Start Recording** on the UIMap – Coded UI Test Builder.  
+8. Choose **Start Recording** on the UIMap – Coded UI Test Builder.  
   
      ![Start recording](../test/media/cuit-builder-record.png "CUIT_Builder_Record")  
   
@@ -153,7 +148,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
      ![Pause the recording](../test/media/cuit.png "CUIT_")  
   
     > [!WARNING]
-    >  All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.  
+    > All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.  
   
 9. Launch the SimpleWPFApp using the desktop shortcut.  
   
@@ -179,19 +174,19 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 ### Run the Coded UI Test  
   
-1.  From the **TEST** menu, choose **Windows** and then choose **Test Explorer**.  
+1. From the **TEST** menu, choose **Windows** and then choose **Test Explorer**.  
   
-2.  From the **BUILD** menu, choose **Build Solution**.  
+2. From the **BUILD** menu, choose **Build Solution**.  
   
-3.  In the CodedUITest1.cs file, locate the **CodedUITestMethod** method, right-click and select **Run Tests**, or run the test from Test Explorer.  
+3. In the CodedUITest1.cs file, locate the **CodedUITestMethod** method, right-click and select **Run Tests**, or run the test from Test Explorer.  
   
      While the coded UI test runs, the SimpleWPFApp is visible. It conducts the steps that you did in the previous procedure. However, when the test tries to select the check box for the check box control, the Test Results window shows that the test failed. This is because the test tries to select the check box but is not aware that the check box control is disabled until the progress bar is 100% complete. You can correct this and similar issues by using the various `UITestControl.WaitForControlXXX()` methods that are available for coded UI testing. The next procedure will demonstrate using the `WaitForControlEnabled()` method to correct the issue that caused this test to fail. For more information, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).  
   
 ### Edit and Rerun the Coded UI Test  
   
-1.  In the Test Explorer window, select the failed test and in the **StackTrace** section, choose the first link to **UIMap.SimpleAppTest()**.  
+1. In the Test Explorer window, select the failed test and in the **StackTrace** section, choose the first link to **UIMap.SimpleAppTest()**.  
   
-2.  The UIMap.Designer.cs file opens with the point of error highlighted in the code:  
+2. The UIMap.Designer.cs file opens with the point of error highlighted in the code:  
   
     ```csharp  
   
@@ -199,22 +194,22 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
     uICheckBoxCheckBox.Checked = this.SimpleAppTestParams.UICheckBoxCheckBoxChecked;  
     ```  
   
-3.  To correct this problem, you can make the coded UI test wait for the CheckBox control to be enabled before continuing on to this line using the `WaitForControlEnabled()` method.  
+3. To correct this problem, you can make the coded UI test wait for the CheckBox control to be enabled before continuing on to this line using the `WaitForControlEnabled()` method.  
   
     > [!WARNING]
-    >  Do not modify the UIMap.Designer.cs file. Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
+    > Do not modify the UIMap.Designer.cs file. Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.  
   
-4.  In Solution Explorer, locate **UIMap.uitest** in your coded UI test project.  
+4. In Solution Explorer, locate **UIMap.uitest** in your coded UI test project.  
   
-5.  Open the shortcut menu for **UIMap.uitest** and choose **Open**.  
+5. Open the shortcut menu for **UIMap.uitest** and choose **Open**.  
   
      The coded UI test is displayed in the Coded UI Test Editor. You can now view and edit the coded UI test.  
   
-6.  In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality which won’t be overwritten when the test code is recompiled.  
+6. In the **UI Action** pane, select the test method (SimpleAppTest) that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality which won’t be overwritten when the test code is recompiled.  
   
-7.  Choose the **Move Code** button on the Coded UI Test Editor toolbar.  
+7. Choose the **Move Code** button on the Coded UI Test Editor toolbar.  
   
-8.  A Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.  
+8. A Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.  
   
      The test method is removed from the UIMap.uitest file and no longer is displayed in the UI Actions pane. To edit the moved test file, open the UIMap.cs file from Solution Explorer.  
   
@@ -223,7 +218,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
      The updates to the test method are saved in the UIMap.Designer file.  
   
     > [!CAUTION]
-    >  Once you have moved the method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor.  
+    > Once you have moved the method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor.  
   
 10. Rename the method from `SimpleAppTest()` to `ModifiedSimpleAppTest()`  
   
@@ -268,17 +263,17 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 ### Refactor a Control in the SimpleWPFApp  
   
-1.  In the MainWindow.xaml file, in the Designer, select the button control.  
+1. In the MainWindow.xaml file, in the Designer, select the button control.  
   
-2.  At the top of the Properties window, change the **Name** property value from button1 to buttonA.  
+2. At the top of the Properties window, change the **Name** property value from button1 to buttonA.  
   
-3.  On the **BUILD** menu, choose **Build Solution**.  
+3. On the **BUILD** menu, choose **Build Solution**.  
   
-4.  In Test Explorer, run **CodedUITestMethod1**.  
+4. In Test Explorer, run **CodedUITestMethod1**.  
   
      The test fails because the coded UI test cannot locate the button control that was originally mapped in the UIMap as button1. Refactoring can impact coded UI tests in this manner.  
   
-5.  In the Test Explorer window, in the **StackTrace** section, choose the first link next to **UIMpa.ModifiedSimpleAppTest()**.  
+5. In the Test Explorer window, in the **StackTrace** section, choose the first link next to **UIMpa.ModifiedSimpleAppTest()**.  
   
      The UIMap.cs file opens. The point of error is highlighted in the code:  
   
@@ -294,29 +289,29 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 ### Map Refactored Control and Edit and Rerun the Coded UI Test  
   
-1.  In the CodedUITest1.cs file, in the **CodedUITestMethod1()** method, right-click, select **Generate Code for Coded UI Test** and then choose **Use Coded UI Test Builder**.  
+1. In the CodedUITest1.cs file, in the **CodedUITestMethod1()** method, right-click, select **Generate Code for Coded UI Test** and then choose **Use Coded UI Test Builder**.  
   
      The UIMap – Coded UI Test Builder appears.  
   
-2.  Using the desktop shortcut you created earlier, run the SimpleWPFApp application that you created earlier.  
+2. Using the desktop shortcut you created earlier, run the SimpleWPFApp application that you created earlier.  
   
-3.  On the UIMap – Coded UI Test Builder, drag the crosshair tool to the **Start** button on the SimpleWPFApp.  
+3. On the UIMap – Coded UI Test Builder, drag the crosshair tool to the **Start** button on the SimpleWPFApp.  
   
      The **Start** button is enclosed in a blue box and the Coded UI Test Builder takes a few seconds to process the data for the selected control and displays the controls properties. Notice that the **AutomationUId** is named **buttonA**.  
   
-4.  In the properties for the control, choose the arrow at the upper-left corner to expand the UI Control Map. Notice that **UIStartButton1** is selected.  
+4. In the properties for the control, choose the arrow at the upper-left corner to expand the UI Control Map. Notice that **UIStartButton1** is selected.  
   
-5.  In the toolbar, choose the **Add control to UI Control Map**.  
+5. In the toolbar, choose the **Add control to UI Control Map**.  
   
      The status at the bottom of the window verifies the action by displaying **Selected control has been added to the UI control map**.  
   
-6.  On the UIMap – Coded UI Test Builder, choose **Generate Code**.  
+6. On the UIMap – Coded UI Test Builder, choose **Generate Code**.  
   
      The Coded UI Test Builder – Generate Code appears with a note indicating that no new method is required and that code will only be generated for the changes to the UI control map.  
   
-7.  Choose **Generate**.  
+7. Choose **Generate**.  
   
-8.  Close SimpleWPFApp.exe.  
+8. Close SimpleWPFApp.exe.  
   
 9. Close UIMap – Coded UI Test Builder.  
   
@@ -387,9 +382,6 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
   
 ## See Also  
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
- [Getting Started with the WPF Designer](http://msdn.microsoft.com/en-us/18e61d03-b96a-4058-a166-8ec6b3f6116b)   
+ [Getting Started with the WPF Designer](https://msdn.microsoft.com/18e61d03-b96a-4058-a166-8ec6b3f6116b)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
-
-
-

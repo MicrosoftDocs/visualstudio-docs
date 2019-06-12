@@ -1,14 +1,9 @@
 ---
 title: "IDebugBinder3::GetExceptionObjectAndType | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugBinder3::GetExceptionObjectAndType"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugBinder3::GetExceptionObjectAndType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,8 +45,7 @@ int GetExceptionObjectAndType(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 > [!NOTE]
->  To verify whether there is an exception, check the value returned by `ppException`: if it is a null value, then no exception is associated with this object.  
+> To verify whether there is an exception, check the value returned by `ppException`: if it is a null value, then no exception is associated with this object.  
   
 ## See Also  
  [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)
-

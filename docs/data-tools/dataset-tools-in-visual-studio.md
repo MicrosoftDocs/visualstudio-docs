@@ -1,8 +1,6 @@
 ---
 title: Dataset tools
 ms.date: 11/21/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
 ms.topic: conceptual
 f1_keywords:
   - "vs.data.DataSet"
@@ -46,7 +44,7 @@ helpviewer_keywords:
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -57,7 +55,7 @@ ms.workload:
 
 A `DataSet` object is an in-memory object that is essentially a mini-database. It contains `DataTable`, `DataColumn`, and `DataRow` objects in which you can store and modify data from one or more databases without having to maintain an open connection. The dataset maintains information about changes to its data, so updates can be tracked and sent back to the database when your application becomes reconnected.
 
-Datasets and related classes are defined in the <xref:System.Data?displayProperty=fullName> namespace in the .NET Framework class library. You can create and modify datasets dynamically in code using ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. Datasets that are created through designers use **TableAdapter** objects to interact with the database. Datasets that are created programmatically use **DataAdapter** objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
+Datasets and related classes are defined in the <xref:System.Data?displayProperty=fullName> namespace in the .NET API. You can create and modify datasets dynamically in code using ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. Datasets that are created through designers use **TableAdapter** objects to interact with the database. Datasets that are created programmatically use **DataAdapter** objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
 
 If your application needs to only read data from a database, and not perform updates, adds, or deletes, you can usually get better performance by using a `DataReader` object to retrieve data into a generic `List` object or another collection object. If you are displaying the data, you can data-bind the user interface to the collection.
 

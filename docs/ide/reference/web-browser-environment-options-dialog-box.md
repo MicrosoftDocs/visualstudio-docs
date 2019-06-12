@@ -1,8 +1,6 @@
 ---
 title: Web Browser, Environment, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.Environment.Web Browser"
@@ -11,7 +9,6 @@ f1_keywords:
 helpviewer_keywords:
   - "browsers, customizing"
   - "searching, search page for Web browser"
-  - "Visual Studio Start page, default URL"
   - "Web browsers, customizing"
   - "searches, default Web browser search page"
   - "URLs, specifying VS home page"
@@ -21,11 +18,11 @@ helpviewer_keywords:
 ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Web Browser, Environment, Options Dialog Box
+# Options dialog box: Environment \> Web Browser
 
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.
 
@@ -47,11 +44,11 @@ Lets you designate a Search page for the internal Web browser. This location can
 
 Sets the editor used to open a Web page when you choose **View Source** on the page from the internal Web browser.
 
--   **Source editor** Select to view source in the [editor](../../ide/writing-code-in-the-code-and-text-editor.md).
+- **Source editor** Select to view source in the [editor](../../ide/writing-code-in-the-code-and-text-editor.md).
 
--   **HTML editor** Select to view source in the [HTML designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.
+- **HTML editor** Select to view source in the [HTML designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.
 
--   **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.
+- **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.
 
 ## Internet Explorer Options
 

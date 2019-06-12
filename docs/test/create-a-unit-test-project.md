@@ -1,11 +1,9 @@
 ---
 title: "Create a unit test project"
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+ms.date: 01/29/2019
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -15,29 +13,41 @@ author: gewarren
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.
 
 > [!NOTE]
-> The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
+> The location of unit tests for native code and the test project structure can be different than the structure that is described in this article. For more information, see [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
 
-## To create a unit test project:
+## To create a unit test project
 
-1.  On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
+1. On the **File** menu, choose **New** > **Project**, or press **Ctrl**+**Shift**+**N**.
 
-2.  In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+::: moniker range="vs-2017"
 
-3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the Accounts project of our example, you would name the project **AccountsTests**.
+2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
-4.  In your unit test project, add a reference to the code under test.  Here's how to create the reference to a code project in the same solution:
+3. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. Name the project, and then select **OK**.
 
-    1.  Select the project in **Solution Explorer**.
+::: moniker-end
 
-    2.  On the **Project** menu, choose **Add Reference**.
+::: moniker range=">=vs-2019"
 
-    3.  In the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Check the code project name and close the dialog box.
+2. On the **Create a new project** page, type **unit test** into the search box. Select the **Unit Test Project (.NET Framework)** project template, and then click **Next**.
 
-5.  If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding references.
+3. On the **Configure your new project** page, enter a name for your project, and then click **Create**.
+
+::: moniker-end
+
+4. In your unit test project, add a reference to the code under test. To add a reference to a code project in the same solution:
+
+   1. Select the test project in **Solution Explorer**.
+
+   2. On the **Project** menu, choose **Add Reference**.
+
+   3. In **Reference Manager**, select the **Solution** node under **Projects**. Select the code project you want to test, and then select **OK**.
+
+   If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding a reference.
 
 ## Next steps
 
- See one of the following sections:
+See one of the following sections:
 
 **Writing unit tests**
 

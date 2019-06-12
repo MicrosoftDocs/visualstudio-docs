@@ -1,8 +1,6 @@
 ---
 title: "CA1304: Specify CultureInfo"
 ms.date: 06/30/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "SpecifyCultureInfo"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b912d76a-54fd-4c93-b25d-16491e0ae319
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -36,7 +34,7 @@ A method or constructor calls a member that has an overload that accepts a <xref
 
 ## Rule description
 
-When a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider?displayProperty=nameWithType> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET Framework members choose default culture and formatting based on assumptions that might not be correct for your code. To ensure the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
+When a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider?displayProperty=nameWithType> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET members choose default culture and formatting based on assumptions that might not be correct for your code. To ensure the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
 
 - If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>.
 
@@ -82,4 +80,4 @@ This example produces the following output:
 
 ## See also
 
-- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#Cultures)
+- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#work-with-culture-specific-settings)

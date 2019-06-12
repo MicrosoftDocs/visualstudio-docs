@@ -1,14 +1,9 @@
 ---
 title: "Watch Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.watch"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
 caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Watch Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.  
   
 ## Syntax  
@@ -47,12 +41,9 @@ Debug.Watch[index]
   
 ## See Also  
  [Autos and Locals Windows](../../debugger/autos-and-locals-windows.md)   
- [How to: Edit a Value in a Variable Window](http://msdn.microsoft.com/library/36f464ab-c900-4c0b-9ab3-557b3d9cdab5)   
- [How to: Use the QuickWatch Dialog Box](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
+ [How to: Edit a Value in a Variable Window](https://msdn.microsoft.com/library/36f464ab-c900-4c0b-9ab3-557b3d9cdab5)   
+ [How to: Use the QuickWatch Dialog Box](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

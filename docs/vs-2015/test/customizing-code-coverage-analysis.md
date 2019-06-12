@@ -1,18 +1,13 @@
 ---
 title: "Customizing Code Coverage Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Code Coverage Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +63,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ```  
   
 > [!WARNING]
->  Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.  
+> Symbol resolution can take time, especially when using a remote file location with a lot of assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (.dll and .exe) files.  
   
 ### Excluding and including  
  You can exclude specified assemblies from code coverage analysis. For example:  
@@ -133,7 +128,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ```  
   
 > [!WARNING]
->  If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.  
+> If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.  
   
 ### Other ways to include or exclude elements  
  See the [sample at the end of this topic](#sample) for examples.  
@@ -180,13 +175,13 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
  Choose **Test**, **Test Settings**, **Select Test Settings File** and select the .runsettings file. The file appears on the Test Settings menu, and you can select or cancel it. While selected, your .runsettings file applies whenever you use **Analyze Code Coverage**.  
   
 ### To customize run settings in a command line test  
- To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](http://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a).  
+ To run tests from the command line, use vstest.console.exe. The settings file is a parameter of this utility. For more information, see [Using VSTest.console from the command line](https://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a).  
   
-1.  Launch the Visual Studio Developer Command Prompt:  
+1. Launch the Visual Studio Developer Command Prompt:  
   
      On Windows **Start**, choose **All Programs**, **Microsoft Visual Studio**, **Visual Studio Tools**, **Developer Command Prompt**.  
   
-2.  Run:  
+2. Run:  
   
      `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings`  
   
@@ -207,7 +202,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
   
    The results are visible in the summary section of the build report.  
   
-##  <a name="sample"></a> Sample .runsettings file  
+## <a name="sample"></a> Sample .runsettings file  
  Copy this code and edit it to suit your own needs. This is the default .runsettings file.  
   
  (For other uses of the .runsettings file, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md).)  
@@ -236,7 +231,7 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 <!--  
 About include/exclude lists:  
 Empty "Include" clauses imply all; empty "Exclude" clauses imply none.  
-Each element in the list is a regular expression (ECMAScript syntax). See http://msdn.microsoft.com/library/2k3te2cs.aspx.  
+Each element in the list is a regular expression (ECMAScript syntax). See https://msdn.microsoft.com/library/2k3te2cs.aspx.  
 An item must first match at least one entry in the include list to be included.  
 Included items must then not match any entries in the exclude list to remain included.  
 -->  
@@ -327,6 +322,3 @@ Included items must then not match any entries in the exclude list to remain inc
 ## See Also  
  [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)   
  [Unit Test Your Code](../test/unit-test-your-code.md)
-
-
-

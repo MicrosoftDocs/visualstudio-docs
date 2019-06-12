@@ -1,21 +1,16 @@
 ---
 title: "Process Tab, Window Properties Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Window Properties dialog box, Process Tab"
 ms.assetid: bb464429-4e7c-4919-98b5-1aaafe89bb5f
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Process Tab, Window Properties Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,6 +23,3 @@ Use the **Process** tab to identify the process of the selected window. To displ
 |-----------|-----------------|  
 |**Process ID**|The ID of the process that owns the thread that created this window. Choose this value to view the properties of this process.|  
 |**Thread ID**|The ID of the thread that created this window. Choose this value to view the properties of this thread.|
-
-
-

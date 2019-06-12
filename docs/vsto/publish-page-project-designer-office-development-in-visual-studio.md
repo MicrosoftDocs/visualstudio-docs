@@ -1,9 +1,6 @@
 ---
 title: "Publish Page, Project Designer (Office development in Visual Studio)"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VST.ProjectProperties.Publish.2007System"
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "deploying applications [Office development in Visual Studio]"
   - "publishing, Office solutions"
   - "Property Pages dialog box, Publish [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -26,7 +23,7 @@ ms.workload:
  To access this page, select the project in **Solution Explorer**, and then, on the **Project** menu, choose *Projectname* **Properties**. If the **Publish** page is not displayed, choose the **Publish** tab.
 
 > [!NOTE]
->  You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
+> You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).
 
 ## UIElement list
  **Publishing Folder Location (web site, ftp server, or file path)**
@@ -87,9 +84,9 @@ ms.workload:
 
 - VSTO Add-in Load Behavior.
 
-  -   Load at Startup: specifies that the VSTO Add-in loads when the Office application starts.
+  - Load at Startup: specifies that the VSTO Add-in loads when the Office application starts.
 
-  -   Load on Demand: specifies that the VSTO Add-in loads when the application requires it, such as when a user clicks a UI element that uses functionality in the VSTO Add-in.
+  - Load on Demand: specifies that the VSTO Add-in loads when the application requires it, such as when a user clicks a UI element that uses functionality in the VSTO Add-in.
 
   **Publish language**
   This option sets the language of the Microsoft Software License Terms, and includes the language packs in the list of prerequisites. It does not affect the language of the customization. The language in the Setup program is determined by the installed languages of Visual Studio.

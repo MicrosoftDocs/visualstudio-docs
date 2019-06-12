@@ -1,8 +1,6 @@
 ---
-title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
-ms.custom: ""
+title: "Publish ClickOnce application using Publish wizard"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -16,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 2e4aa67c-4445-4f7b-9e03-9acb95829127
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -43,11 +41,11 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 
 4. In the **How will users install the application?** page, select the location where users will go to install the application:
 
-   -   If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)
+   - If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)
 
-   -   If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.)
+   - If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.)
 
-   -   If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.
+   - If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.
 
 5. On the **Will the application be available offline?** page, click the appropriate option:
 
@@ -76,7 +74,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 4. On the **How will users install the application?** page, click From a **CD-ROM or DVD-ROM**, and then click **Next**.
 
    > [!NOTE]
-   >  If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.
+   > If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.
 
 5. If you distribute your application on CD-ROM, you might want to provide updates from a Web site. In the **Where will the application check for updates?** page, choose an update option:
 
@@ -91,7 +89,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
     Publishing status is displayed in the status notification area.
 
    > [!NOTE]
-   >  After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.
+   > After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.
 
 ## See also
 

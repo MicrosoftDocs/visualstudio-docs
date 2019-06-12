@@ -2,7 +2,6 @@
 title: "ISimpleConnectionPoint::Advise | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Establishes a connection between the simple connection point object and the clie
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Advise(  
    IDispatch*  pdisp,  
    DWORD*      pdwCookie  

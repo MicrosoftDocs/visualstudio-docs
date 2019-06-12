@@ -1,12 +1,9 @@
 ---
 title: "Add commands and gestures to layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, adding custom commands"
   - "layer diagrams, adding custom gestures"
@@ -14,7 +11,7 @@ ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
 caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Add commands and gestures to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +21,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
  You can define several command and gesture handlers in the same Visual Studio project if you want. You can also combine several such projects into one VSIX. For example, you could define a single VSIX that includes layer commands, a domain-specific language, and commands for UML diagrams.  
   
 > [!NOTE]
->  You can also customize architecture validation, in which users’ source code is compared with layer diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
+> You can also customize architecture validation, in which users’ source code is compared with layer diagrams. You should define architecture validation in a separate Visual Studio project. You can add it to the same VSIX as other extensions. For more information, see [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md).  
   
 ## Requirements  
  See [Requirements](../modeling/extend-layer-diagrams.md#prereqs).  
@@ -59,30 +56,30 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 #### To add layer extensions to a separate VSIX  
   
-1.  Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain command or gesture handler classes.  
+1. Create a Class Library project in a new or existing Visual Studio solution. In the **New Project** dialog box, click **Visual C#** and then click **Class Library**. This project will contain command or gesture handler classes.  
   
     > [!NOTE]
-    >  You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.  
+    > You can define more than one command or gesture handler class in one class library, but you should define layer validation classes in a separate class library.  
   
-2.  Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:  
+2. Identify or create a VSIX project in your solution. A VSIX project contains a file that is named **source.extension.vsixmanifest**. To add a VSIX project:  
   
-    1.  In the **New Project** dialog box, expand **Visual C#**, then click **Extensibility**, and then click **VSIX Project**.  
+    1. In the **New Project** dialog box, expand **Visual C#**, then click **Extensibility**, and then click **VSIX Project**.  
   
-    2.  In Solution Explorer, right-click the VSIX project and then click **Set as Startup Project**.  
+    2. In Solution Explorer, right-click the VSIX project and then click **Set as Startup Project**.  
   
-    3.  Click **Select Editions** and make sure that **Visual Studio** is checked.  
+    3. Click **Select Editions** and make sure that **Visual Studio** is checked.  
   
-3.  In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.  
+3. In **source.extension.vsixmanifest**, under **Assets**, add the command or gesture handler project as a MEF component.  
   
-    1.  In the **Assets**.tab, choose **New**.  
+    1. In the **Assets**.tab, choose **New**.  
   
-    2.  At **Type**, select **Microsoft.VisualStudio.MefComponent**.  
+    2. At **Type**, select **Microsoft.VisualStudio.MefComponent**.  
   
-    3.  At **Source**, select **Project in current solution** and select the name of your command or gesture handler project.  
+    3. At **Source**, select **Project in current solution** and select the name of your command or gesture handler project.  
   
-    4.  Save the file.  
+    4. Save the file.  
   
-4.  Return to the command or gesture handler project, and add the following project references.  
+4. Return to the command or gesture handler project, and add the following project references.  
   
 |**Reference**|**What this allows you to do**|  
 |-------------------|------------------------------------|  
@@ -93,7 +90,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
 |Microsoft.VisualStudio.Modeling.Sdk.[version]|Define modeling extensions|  
 |Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]|Update shapes and diagrams|  
   
-1.  Edit the class file in the C# class library project to contain the code for your extension. For more information, see one of the following sections:  
+1. Edit the class file in the C# class library project to contain the code for your extension. For more information, see one of the following sections:  
   
      [Defining a Menu Command](#command)  
   
@@ -101,13 +98,13 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
      See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
-2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens. In this instance, create or open a layer diagram.  
+2. To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] opens. In this instance, create or open a layer diagram.  
   
-3.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
+3. To install the VSIX in the main instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
   
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
-##  <a name="command"></a> Defining a Menu Command  
+## <a name="command"></a> Defining a Menu Command  
  You can add more menu command definitions to an existing gesture or command project. Each command is defined by a class that has the following characteristics:  
   
 - The class is declared as follows:  
@@ -122,11 +119,11 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 - The methods that implement `ICommandExtension` are as follows:  
   
-  -   `string Text {get;}` - The label that appears in the menu.  
+  - `string Text {get;}` - The label that appears in the menu.  
   
-  -   `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.  
+  - `void QueryStatus(IMenuCommand command)` - called when the user right-clicks the diagram, and determines whether the command should be visible and enabled for the user's current selection.  
   
-  -   `void Execute(IMenuCommand command)` - called when the user selects the command.  
+  - `void Execute(IMenuCommand command)` - called when the user selects the command.  
   
 - To determine the current selection, you can import `IDiagramContext`:  
   
@@ -212,7 +209,7 @@ namespace MyLayerExtension // Change to your preference.
 }  
 ```  
   
-##  <a name="gesture"></a> Defining a Gesture Handler  
+## <a name="gesture"></a> Defining a Gesture Handler  
  A gesture handler responds when the user drags items onto the layer diagram, and when the user double-clicks anywhere in the diagram.  
   
  To your existing command or gesture handler VSIX project, you can add a code file that defines a gesture handler:  
@@ -265,6 +262,3 @@ namespace MyLayerExtensions // change to your preference
  [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md)   
  [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)
-
-
-

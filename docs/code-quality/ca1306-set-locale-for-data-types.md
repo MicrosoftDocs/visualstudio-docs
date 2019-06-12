@@ -1,8 +1,6 @@
 ---
 title: "CA1306: Set locale for data types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1306"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 104297b2-5806-4de0-a8d9-c589380a796c
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,22 +1,24 @@
 ---
 title: Publish to App Service on Linux
-ms.custom: ""
-ms.date: 07/23/2018
-ms.technology: vs-ide-deployment
-ms.topic: "quickstart"
+ms.date: 01/29/2019
+ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, website"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "azure"
 ---
 # Publish an ASP.NET Core app to App Service on Linux using Visual Studio
 
-You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Service on Linux.
+Starting in Visual Studio 2017 version 15.7, you can publish ASP.NET Core apps to Azure App Service Linux (using containers) using one of the following methods.
 
-Deployment to App Service on Linux using the **Publish** tool requires Visual Studio 2017 version 15.7.
+* For continuous (or automated) deployment of apps, use Azure DevOps with [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops).
+
+* For one-time (or manual) deployment of apps, use the **Publish** tool in Visual Studio to publish ASP.NET Core apps to App Service for Linux (using containers).
+
+This article describes how to use the **Publish** tool for one-time deployment.
 
 [!INCLUDE [quickstart-prereqs-azure-linux](includes/quickstart-prereqs-azure-linux.md)]
 

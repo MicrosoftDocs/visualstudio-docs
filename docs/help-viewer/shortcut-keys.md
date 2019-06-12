@@ -1,7 +1,6 @@
 ---
 title: Shortcut keys (Help Viewer)
 ms.date: 11/02/2017
-ms.prod: visual-studio-dev15
 ms.topic: reference
 helpviewer_keywords:
   - "shortcut keys [Help Viewer]"
@@ -9,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

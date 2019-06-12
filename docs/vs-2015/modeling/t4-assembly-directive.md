@@ -1,17 +1,14 @@
 ---
 title: "T4 Assembly Directive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 44949749-ce3c-4fb5-8690-a17f1564ac2f
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # T4 Assembly Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,7 +18,7 @@ In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design-time text template, the
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
 > [!NOTE]
->  You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
+> You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project.  
   
 ## Using the Assembly Directive  
  The syntax of the directive is as follows:  
@@ -63,7 +60,7 @@ In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design-time text template, the
   
 - The assembly containing your DSL.  
   
-##  <a name="msbuild"></a> Using project properties in both MSBuild and Visual Studio  
+## <a name="msbuild"></a> Using project properties in both MSBuild and Visual Studio  
  Visual Studio macros like $(SolutionDir) don’t work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.  
   
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myLibFolder`:  
@@ -91,6 +88,3 @@ In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] design-time text template, the
   
 ## See Also  
  [T4 Include Directive](../modeling/t4-include-directive.md)
-
-
-

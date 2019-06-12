@@ -3,7 +3,7 @@ title: "Using Visual Studio for Mac Tools for Unity"
 description: "This guide describes how to use Visual Studio for Mac Tools for Unity extension"
 author: therealjohn
 ms.author: johmil
-ms.date: 07/17/2017
+ms.date: 04/02/2019
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
 ---
 # Using Visual Studio for Mac Tools for Unity
@@ -97,6 +97,12 @@ To start debugging:
 
 3. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio for Mac.
 
+### Start Debugging in a Single Step
+
+Starting debugging and playing the Unity editor can be completed in a single step directly from Visual Studio for Mac by choosing the **Attach to Unity and Play** configuration.
+
+![Select Attach to Unity and Play](media/using-vsmac-tools-unity-image8.png)
+
 ### Stop debugging
 
 To stop debugging:
@@ -104,5 +110,8 @@ To stop debugging:
 1. Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command + Return**.
 
    ![Click Stop in Visual Studio](media/using-vsmac-tools-unity-image7.png)
+
+> [!NOTE]
+> If you started debugging using the **Attach to Unity and Play** configuration, the **Stop** button will also stop the Unity.
 
 To learn more about debugging in Visual Studio for Mac, see [Using the debugger](debugging.md).

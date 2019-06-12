@@ -1,19 +1,14 @@
 ---
 title: "Understanding SAL | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 caps.latest.revision: 20
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # Understanding SAL
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -123,15 +118,15 @@ wchar_t * wmemcpy(
 ### Example: The \_In\_ Annotation  
  The `_In_` annotation indicates that:  
   
--   The parameter must be valid and will not be modified.  
+- The parameter must be valid and will not be modified.  
   
--   The function will only read from the single-element buffer.  
+- The function will only read from the single-element buffer.  
   
--   The caller must provide the buffer and initialize it.  
+- The caller must provide the buffer and initialize it.  
   
--   `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.  
+- `_In_` specifies "read-only". A common mistake is to apply `_In_` to a parameter that should have the `_Inout_` annotation instead.  
   
--   `_In_` is allowed but ignored by the analyzer on non-pointer scalars.  
+- `_In_` is allowed but ignored by the analyzer on non-pointer scalars.  
   
 ```cpp  
 void InCallee(_In_ int *pInt)  
@@ -245,7 +240,7 @@ void OutOptCaller()
  `_Inout_` is used to annotate a pointer parameter that may be changed by the function. The pointer must point to valid initialized data before the call, and even if it changes, it must still have a valid value on return. The annotation specifies that the function may freely read from and write to the one-element buffer. The caller must provide the buffer and initialize it.  
   
 > [!NOTE]
->  Like `_Out_`, `_Inout_` must apply to a modifiable value.  
+> Like `_Out_`, `_Inout_` must apply to a modifiable value.  
   
 ```cpp  
   
@@ -418,6 +413,3 @@ bool GetValue(_Out_ int *pInt, bool flag)
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
-
-
-

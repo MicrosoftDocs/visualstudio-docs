@@ -1,14 +1,9 @@
 ---
 title: "UsingNameSpace | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: e8e1beb5-7cb9-43b4-9ff4-760d5f91ea2d
 caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # UsingNameSpace
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ manager: "ghogen"
 Some symbols might be referred to by namespace, and would subsequently be identified by a `SymTagUsingNameSpace` tag.  
   
 > [!NOTE]
->  The UsingNamespace symbol tag appears only in managed code.  
+> The UsingNamespace symbol tag appears only in managed code.  
   
 ## Properties  
  The following table shows the properties that are valid for this symbol type.  
@@ -40,6 +35,3 @@ Some symbols might be referred to by namespace, and would subsequently be identi
   
 ## See Also  
  [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)
-
-
-

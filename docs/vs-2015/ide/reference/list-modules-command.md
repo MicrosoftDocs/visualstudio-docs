@@ -1,14 +1,9 @@
 ---
 title: "List Modules Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.listmodules"
 helpviewer_keywords: 
@@ -19,12 +14,11 @@ ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
 caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # List Modules Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Lists the modules for the current process.  
   
 ## Syntax  
@@ -76,6 +70,3 @@ Debug.ListModules /Address:yes /Name:yes /Order:no /Path:no /Process:no /SymbolF
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [How to: Use the Modules Window](../../debugger/how-to-use-the-modules-window.md)
-
-
-

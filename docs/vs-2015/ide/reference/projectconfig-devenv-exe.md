@@ -1,14 +1,9 @@
 ---
 title: "-ProjectConfig (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "/projectconfig Devenv switch"
   - "configurations, rebuilding"
@@ -25,12 +20,11 @@ ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /ProjectConfig (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/project` argument.  
   
 ## Syntax  
@@ -66,11 +60,11 @@ devenv SolutionName {/build|/clean|/rebuild|/deploy} SolnConfigName [/project Pr
   
 ## Remarks  
   
--   Must be used with the `/project` switch as part of a `devenv /build`, /`clean`, `/rebuild`, or `/deploy` command.  
+- Must be used with the `/project` switch as part of a `devenv /build`, /`clean`, `/rebuild`, or `/deploy` command.  
   
--   Enclose strings that include spaces in double quotation marks.  
+- Enclose strings that include spaces in double quotation marks.  
   
--   Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
+- Summary information for builds, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.  
   
 ## Example  
  This example builds the project `CSharpConsoleApp`, using the `Debug` project build configuration within the `Debug` solution configuration of `MySolution`.  
@@ -87,6 +81,3 @@ devenv "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\M
  [/Rebuild (devenv.exe)](../../ide/reference/rebuild-devenv-exe.md)   
  [/Deploy (devenv.exe)](../../ide/reference/deploy-devenv-exe.md)   
  [/Out (devenv.exe)](../../ide/reference/out-devenv-exe.md)
-
-
-

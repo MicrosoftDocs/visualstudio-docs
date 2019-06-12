@@ -1,33 +1,33 @@
 - name: Azure Development with Visual Studio
   href: index.yml
   expanded: true
-- name: Publish to Azure
+- name: Deploy to Azure App Service
   expanded: true
   items:
-  - name: Publish an ASP.NET Core app to Azure 
+  - name: Deploy an ASP.NET Core app to Azure
     href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1
-  - name: Publish a .NET TODO List Web App to Azure
+  - name: Deploy a .NET TODO List Web App to Azure
     href: /dotnet/azure/dotnet-quickstart-vs?view=azure-dotnet
-  - name: Publish Azure Functions
-    href: /azure/azure-functions/functions-develop-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-  - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core 
+  - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
     href: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment?view=aspnetcore-2.1
   - name: Continuous deployment to Azure with Azure Pipelines
     href: /azure/devops/pipelines/get-started-yaml?view=vsts
-  - name: Publish an ASP.NET Web App to an Azure VM
+  - name: Deploy an ASP.NET Web App to an Azure VM
     href: /azure/virtual-machines/windows/publish-web-app-from-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: Connect to Azure services
   expanded: false
   items:
   - name: Add Azure storage
-    href: vs-azure-tools-connected-services-storage.md 
+    href: vs-azure-tools-connected-services-storage.md
   - name: Add Azure Key Vault
     href: /azure/key-vault/vs-key-vault-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Add Azure Active Directory (AD)
     href: /azure/active-directory/develop/vs-active-directory-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Add Cognitive Services
-    href: cognitive-services-connected-services.yml
+# Auto-expanded node
     items:
+    - name: Add Cognitive Services
+      href: cognitive-services-connected-services.yml
     - name: Text Analytics
       href: /azure/cognitive-services/text-analytics/vs-text-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
     - name: Bing Search
@@ -77,19 +77,19 @@
       href: vs-azure-tools-performance-profiling-cloud-services.md
     - name: Optimize your Azure code
       href: vs-azure-tools-optimizing-azure-code-in-visual-studio.md
-  - name: Publish a cloud service to Azure
+  - name: Deploy a cloud service to Azure
     items:
-    - name: Migrate and Publish a Web Application to an Azure Cloud Service
+    - name: Migrate and Deploy a Web Application to an Azure Cloud Service
       href: vs-azure-tools-migrate-publish-web-app-to-cloud-service.md
-    - name: Use the Visual Studio Publish Azure Application Wizard
+    - name: Use the Visual Studio Deploy Azure Application Wizard
       href: vs-azure-tools-publish-azure-application-wizard.md
-    - name: Publish a cloud service using Visual Studio
+    - name: Deploy a cloud service using Visual Studio
       href: vs-azure-tools-publishing-a-cloud-service.md
     - name: Use Windows PowerShell scripts to publish to dev and test environments
       href: vs-azure-tools-publishing-using-powershell-scripts.md
-    - name: Publish-WebApplicationVM (Windows PowerShell script)
+    - name: Deploy-WebApplicationVM (Windows PowerShell script)
       href: vs-azure-tools-publish-webapplicationvm.md
-    - name: Publish-WebApplicationWebSite (Windows PowerShell script)
+    - name: Deploy-WebApplicationWebSite (Windows PowerShell script)
       href: vs-azure-tools-publish-webapplicationwebsite-windows-powershell-script.md
     - name: Manage service configurations and profiles
       href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md

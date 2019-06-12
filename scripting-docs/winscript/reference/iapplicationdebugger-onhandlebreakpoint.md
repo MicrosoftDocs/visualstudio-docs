@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::onHandleBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles a breakpoint event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onHandleBreakPoint(  
    IRemoteDebugApplicationThread*  prpt,  
    BREAKREASON                     br,  

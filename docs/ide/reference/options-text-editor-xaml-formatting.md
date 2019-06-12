@@ -1,8 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Formatting
 ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
@@ -28,7 +26,7 @@ helpviewer_keywords:
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -40,13 +38,13 @@ Use the **Formatting** property page to specify how elements and attributes are 
 
 Autoformatting may occur when any of the following events is detected.
 
--   Completion of an end tag or simple tag.
+- Completion of an end tag or simple tag.
 
--   Completion of a start tag.
+- Completion of a start tag.
 
--   Pasting from the clipboard.
+- Pasting from the clipboard.
 
--   Formatting keyboard commands.
+- Formatting keyboard commands.
 
 You can specify which events cause autoformatting.
 
@@ -142,7 +140,6 @@ Empty lines in element content are not removed.
 
 ```xml
 <Grid>
-
 
 <Button Name="button1">Hello</Button>
 

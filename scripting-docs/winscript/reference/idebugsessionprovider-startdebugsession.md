@@ -2,7 +2,6 @@
 title: "IDebugSessionProvider::StartDebugSession | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Initiates a debug session with the specified application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartDebugSession(  
    IRemoteDebugApplication*  pda  
 );  

@@ -1,8 +1,6 @@
 ---
 title: Set Current Stack Frame Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "debug.setcurrentstackframe"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -2,14 +2,13 @@
 title: "Property settings for Web projects | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [Visual Studio], Web applications"
   - "project settings [Visual Studio], debug configurations"
   - "debug builds, project settings"
@@ -19,15 +18,15 @@ helpviewer_keywords:
 ms.assetid: 8ec5160a-6408-4f47-8d41-f0e20e79a3b9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Property Pages Settings for Web Projects
-You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
-  
-### Configuration Properties folder (Start Options category)  
-  
+You can change the property settings for a web site debug configuration in the **Property Pages** dialog box, as discussed in [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
+
+### Start Options category
+
 | **Setting** | **Description** |
 | - | - |
 | **Start Action** | Heading that groups options related to application startup. |
@@ -46,6 +45,6 @@ You can change the property settings for a web site debug configuration in the *
 | **Native code debugging** | Enables you to debug calls to native (unmanaged) Win32 code from your managed application. |
 | **SQL Server debugging** | Allows debugging of SQL Server database objects. |
 | **Silverlight debugging** | Allows debugging of Silverlight components. |
-  
-## See Also  
- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
+
+## See Also
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

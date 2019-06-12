@@ -1,14 +1,9 @@
 ---
 title: "Fonts and Colors, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.ToolsOptionsPag.Environment.Fonts_And_Colors"
   - "VS.ToolsOptionsPages.FontsAndColors"
@@ -31,16 +26,15 @@ ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Fonts and Colors, Environment, Options Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools / Options**, and then selecting **Environment / Fonts and Colors**. If this page does not appear in the list, select **Show all settings** in the **Options** dialog box.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.  
   
@@ -56,7 +50,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
    Changes to font style, size, and color display settings for Printer affect the appearance of text in printed documents.  
   
   > [!NOTE]
-  >  As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.  
+  > As needed, you can select a different default font for printing than that used for display in the text editor. This can be useful when printing code that contains both single-byte and double-byte characters.  
   
 - **Statement Completion**  
   
@@ -75,7 +69,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
    Changes to font style, size, and color display settings for this item affect the appearance of text in tool windows that have output panes in the IDE. For example, Output window, Command window, Immediate window, etc.  
   
   > [!NOTE]
-  >  Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.  
+  > Changes to the text of **[All Text Tool Windows]** items do not take effect during the session in which you make them. You can evaluate such changes by opening another instance of Visual Studio.  
   
   **Use Defaults**  
   Resets the font and color values of the list item selected in **Show settings for**. The **Use** button appears when other display schemes are available for selection. For example, you can choose from two schemes for the Printer.  
@@ -90,7 +84,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
   Lists the items for which you can modify the foreground and background color.  
   
 > [!NOTE]
->  **Plain Text** is the default display item. As such, properties assigned to **PlainText** will be overridden by properties assigned to other display items. For example, if you assign the color blue to **PlainText** and the color green to **Identifier**, all identifiers will appear in green. In this example, **Identifier** properties override **PlainText** properties.  
+> **Plain Text** is the default display item. As such, properties assigned to **PlainText** will be overridden by properties assigned to other display items. For example, if you assign the color blue to **PlainText** and the color green to **Identifier**, all identifiers will appear in green. In this example, **Identifier** properties override **PlainText** properties.  
   
  Some of display items include:  
   
@@ -214,7 +208,7 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
  Displays the Color dialog box to allow you to set a custom color for the item selected in the Display items list.  
   
 > [!NOTE]
->  Your ability to define custom colors may be limited by the color settings for your computer display. For example, if your computer is set to display 256 colors and you select a custom color from the **Color** dialog box, the IDE defaults to the closest available **Basic color** and displays the color black in the **Color** preview box.  
+> Your ability to define custom colors may be limited by the color settings for your computer display. For example, if your computer is set to display 256 colors and you select a custom color from the **Color** dialog box, the IDE defaults to the closest available **Basic color** and displays the color black in the **Color** preview box.  
   
  **Item background**  
  Provides a color palette from which you can choose a background color for the item selected in **Display items**. Because some items are related, and should therefore maintain a consistent display scheme, changing the background color of text also changes the defaults for elements such as Compiler Error, Keyword, or Operator.  
@@ -236,6 +230,3 @@ The **Fonts and Colors** page of the **Options** dialog box lets you establish a
  [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)   
  [Options Dialog Box](../../ide/reference/options-dialog-box-visual-studio.md)   
  [How to: Change Fonts and Colors](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Resource Contention Data Views | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profilng tools,concurrency profiling method view"
   - "concurrency profiling method views"
@@ -16,7 +11,7 @@ ms.assetid: be79ec41-f1dd-4984-993f-5c2962355a32
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Resource Contention Data Views
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +55,3 @@ This section contains reference information for the views and reports of profile
 ## Reference  
  [Function Details View](../profiling/function-details-view.md)  
  Displays a graphical chart of the relationship between a selected function and the functions that called and were called by the selected function.
-
-
-

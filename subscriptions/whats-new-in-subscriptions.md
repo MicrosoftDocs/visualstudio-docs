@@ -3,13 +3,11 @@ title: "What's new in Visual Studio subscriptions"
 description: "Learn about the new and updated features that you can use to manage Visual Studio subscriptions."
 ms.custom: ""
 ms.date: 06/25/2018
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ---
 # What&#39;s new in Visual Studio subscriptions
 
@@ -30,7 +28,6 @@ We've added new functionality for cloud admins that makes it easier to manage cl
 * [**Export**](/visualstudio/subscriptions/exporting-subscriptions): Export a list of your users and details about their assignments. A list such as this can prove useful when you want to track assignments and expiration dates.
 
    ![Export a subscriber list to Excel by using the Export button](media/export-subscriber-list-to-csv.png)
-
 
 * [**Bulk edit**](/visualstudio/subscriptions/edit-license#editing-multiple-subscribers-by-using-bulk-edit): Edit the subscription information of multiple subscribers, in bulk.
 

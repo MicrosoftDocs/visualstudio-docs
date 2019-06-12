@@ -1,14 +1,9 @@
 ---
 title: "Debugging ASP.NET and AJAX Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,16 +18,16 @@ ms.assetid: 9d531913-541b-47b8-864d-138021fca0c6
 caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging ASP.NET and AJAX Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
   
--   Keeping track of state is more complex in a Web application.  
+- Keeping track of state is more complex in a Web application.  
   
--   In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] code on the client.  
+- In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] code on the client.  
   
 ## In This Section  
  [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-aspnet.md)  
@@ -45,7 +40,7 @@ Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is s
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)  
  Explains why Just My Code must be enabled for debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] exceptions.  
   
- [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
+ [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
  Discusses some techniques and tools that can help you debug your AJAX code.  
   
  [IntelliTrace](../debugger/intellitrace.md)  
@@ -56,6 +51,3 @@ Debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications is s
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Basics](../debugger/debugger-basics.md)
-
-
-

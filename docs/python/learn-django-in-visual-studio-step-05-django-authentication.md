@@ -3,14 +3,12 @@ title: Learn Django tutorial in Visual Studio, step 5, authentication
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically authentication features as provided by the Django Web Project templates.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---

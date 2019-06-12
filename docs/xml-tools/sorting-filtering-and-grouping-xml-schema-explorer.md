@@ -1,13 +1,11 @@
 ---
 title: "Sorting, Filtering, and Grouping in XML Schema Explorer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -19,41 +17,41 @@ This topic describes the options that are available through the **Sorting, Filte
 
  The following filter options are available. By default, the **Show Namespaces** and **Show Schema Files** options are selected.
 
--   **Show Namespaces**.
+- **Show Namespaces**.
 
--   **Show Schema Files**.
+- **Show Schema Files**.
 
--   **Show Compositors (sequence/choice/all)**.
+- **Show Compositors (sequence/choice/all)**.
 
 ## Sorting options
 
  The following sorting options are available. The default is **Sort By Type**. **Sort By** options do not apply to files and namespaces.
 
--   **Sort By Type**.
+- **Sort By Type**.
 
--   **Sort By Name**.
+- **Sort By Name**.
 
--   **Document Order**.
+- **Document Order**.
 
 ### Sort By Type
 
  When the **Sort By Type** option is selected, global nodes are sorted in the following order. Nodes are then sorted alphabetically within each group.
 
-1.  `import` nodes.
+1. `import` nodes.
 
-2.  `include` nodes.
+2. `include` nodes.
 
-3.  `redefine` nodes.
+3. `redefine` nodes.
 
-4.  `attribute` nodes.
+4. `attribute` nodes.
 
-5.  `attributeGroup` nodes.
+5. `attributeGroup` nodes.
 
-6.  `complexType` nodes.
+6. `complexType` nodes.
 
-7.  `simpleType` nodes.
+7. `simpleType` nodes.
 
-8.  `element` nodes.
+8. `element` nodes.
 
 9. `group` nodes.
 
@@ -61,13 +59,13 @@ This topic describes the options that are available through the **Sorting, Filte
 
  When the **Sort By Name** option is selected, global nodes are sorted in the following order:
 
-1.  `import` nodes (in alphabetical order of namespaces).
+1. `import` nodes (in alphabetical order of namespaces).
 
-2.  `include` nodes (in alphabetical order of `schemaLocation` attributes).
+2. `include` nodes (in alphabetical order of `schemaLocation` attributes).
 
-3.  `redefine` nodes (in alphabetical order of `schemaLocation` attributes).
+3. `redefine` nodes (in alphabetical order of `schemaLocation` attributes).
 
-4.  Other global nodes in alphabetical order.
+4. Other global nodes in alphabetical order.
 
 ### Document Order
 

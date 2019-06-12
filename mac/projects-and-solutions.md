@@ -3,21 +3,38 @@ title: "Projects and Solutions"
 description: This document provides an overview of Projects and Solutions in Visual Studio for Mac.
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 05/23/2019
 ms.assetid: 8254505D-D96E-48BD-8A5E-CF6A917897EA
 ---
-# Projects and Solutions
+# Projects and Solutions in Visual Studio for Mac
 
-Visual Studio for Mac provides a _Solution Pad_ to display a tree view of the entire open solution. The **Solution** pad allows easy access to source code, resources, user interfaces, and assembly references contained in individual projects. Solution Pad, by default, opens one solution at a time. Each solution can include many projects, and each project can contain many items.
+This article provides an overview of the *project* and *solution* concepts in Visual Studio for Mac.
 
-## Using Projects and Solutions
+> [!NOTE] 
+> This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Projects and solutions in Visual Studio](/visualstudio/ide/solutions-and-projects-in-visual-studio).
 
-To create a new Project or Solution, refer to the [Creating new Projects and Solutions](create-new-projects.md) article.
+## Projects
 
-## Project and Solution Options
+When creating a new application, website, etc. in Visual Studio for Mac, you start with a project. The project contains all the files required (source code, images, data files, etc.) that are needed to compile the executable, library, or website.
 
-You can manage the properties of both projects and solutions by either double-clicking on the project or solution name, or by right-clicking and browsing to **Options**. More information on these options is provided in the [Managing Solutions and Project Properties](managing-solutions-and-project-properties.md) article.
+A project is defined by a file (e.g., `.csproj` for C# projects) which contains xml that defines the file and folder hierarchy, paths to files and project-specific settings, such as build settings.
+
+When a project is loaded by Visual Studio for Mac, the Solution Pad uses the project file to display the files and folders in your project. During compilation, MSBuild reads the settings from the project file to create the executable.
+
+## Solutions
+
+A *solution* is a container that groups together one or more related projects. Solutions are described by a text file (extension `.sln`) with its own unique format; it is not intended to be edited by hand.
+
+## Managing Projects in the Solution Pad
+
+Once a project has been created or loaded, you can use the Solution Pad to view and manage the project or solution and the files contained within. The following illustration shows the Solution Pad with a .NET Core solution that contains two projects:
+
+![Sample solution with multiple projects](media/solution-example.png)
+
+You can manage the properties of both projects and solutions by either double-clicking on the project or solution name, or by right-clicking and choosing **Options**.
+
+More information on these options is provided in the [Managing Solutions and Project Properties](managing-solutions-and-project-properties.md) article.
 
 ## See also
 
-- [Solutions and projects in Visual Studio (on Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)
+- [Solutions and projects in Visual Studio (Windows)](/visualstudio/ide/solutions-and-projects-in-visual-studio)

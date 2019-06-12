@@ -1,12 +1,9 @@
 ---
 title: "UML Activity Diagrams: Reference | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.teamarch.activitydiagram.diagram"
   - "vs.teamarch.activitydiagram.toolbox"
@@ -22,7 +19,7 @@ ms.assetid: 07efcd17-2a96-4052-9957-6dcccbb725ee
 caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # UML Activity Diagrams: Reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,7 +79,7 @@ An *activity diagram* shows a business process or a software process as a flow o
 |13|**Send Signal Action**|An action that sends a message or signal to another activity or to a concurrent thread in the same activity. The type and content of the message is implied by the action's title or specified in additional comments.<br /><br /> The action can send data in the signal, which can be passed to the action in an object flow or input pin (16).|  
 |14|**Accept Event Action**|An action that waits for a message or signal before the action can continue. The type of message the action can receive is implied by the title or specified in additional comments.<br /><br /> If the action has no incoming control flow, it produces a token whenever it receives a message.<br /><br /> The action can receive data in the signal, which can be passed on an object flow or output pin (17).<br /><br /> -   **IsUnmarshall** - If true, there can be several typed output pins, and data is unmarshalled onto them. If false, all data appears on one pin.|  
   
-###  <a name="DataFlow"></a> Data Flows  
+### <a name="DataFlow"></a> Data Flows  
  You can describe the flow of data from one action to another. For more information about the elements used in this section, see the Drawing Data Flows section of the topic Guidelines for Drawing an Activity Diagram.  
   
  ![Activity diagram showing data flow](../modeling/media/uml-actovdata.png "UML_ActOvData")  
@@ -99,6 +96,3 @@ An *activity diagram* shows a business process or a software process as a flow o
 ## See Also  
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)
-
-
-

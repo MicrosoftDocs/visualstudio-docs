@@ -2,7 +2,6 @@
 title: "IDebugApplication::DebugOutput | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the given string to be displayed by the debugger integrated development e
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DebugOutput(  
    LPCOLESTR  pstr  
 );  

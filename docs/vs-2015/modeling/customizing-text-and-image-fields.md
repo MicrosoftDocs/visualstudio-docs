@@ -1,17 +1,14 @@
 ---
 title: "Customizing Text and Image Fields | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: a7259fc0-5afa-4356-b27e-5641e01628a9
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing Text and Image Fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,7 +87,7 @@ public virtual StyleSetResourceId GetFontId(ShapeElement parentShape)
  If not, then override the `InitializeShapeFields` method of your shape class, and assign a value to the appropriate `Default...` property of the text field.  
   
 > [!WARNING]
->  To override `InitializeShapeFields()`, you must set the **Generates Double Derived** property of the shape class to `true` in the DSL Definition.  
+> To override `InitializeShapeFields()`, you must set the **Generates Double Derived** property of the shape class to `true` in the DSL Definition.  
   
  In this example, a shape has a text field that will be used for user comments. We want to use the standard comment font. Because it is a standard font from the style set, we can set the default font id:  
   
@@ -185,13 +182,13 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
 #### To create a subclass of ImageField  
   
-1.  Set the **Generates Double Derived** property of the parent shape class in your DSL Definition.  
+1. Set the **Generates Double Derived** property of the parent shape class in your DSL Definition.  
   
-2.  Override the `InitializeShapeFields` method of your shape class.  
+2. Override the `InitializeShapeFields` method of your shape class.  
   
-    -   Create a new code file in the DSL project, and write a partial class definition for the shape class. Override the method definition there.  
+    - Create a new code file in the DSL project, and write a partial class definition for the shape class. Override the method definition there.  
   
-3.  Inspect the code of `InitializeShapeFields` in DSL\GeneratedCode\Shapes.cs.  
+3. Inspect the code of `InitializeShapeFields` in DSL\GeneratedCode\Shapes.cs.  
   
      In your override method, call the base method and then create an instance of your own image field class. Use this to replace the regular image field in the `shapeFields` list.  
   
@@ -199,7 +196,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
  This example makes an icon change dependent on the state of the shape’s model element.  
   
 > [!WARNING]
->  This example demonstrates how to make a dynamic image decorator. But if you only want to switch between one or two images depending on the state of a model variable, it is simpler to create several image decorators, locate them in the same position on the shape, and then set the Visibility filter to depend on specific values of the model variable. To set this filter, select the shape map in the DSL Definition, open the DSL Details window, and click the Decorators tab.  
+> This example demonstrates how to make a dynamic image decorator. But if you only want to switch between one or two images depending on the state of a model variable, it is simpler to create several image decorators, locate them in the same position on the shape, and then set the Visibility filter to depend on specific values of the model variable. To set this filter, select the shape map in the DSL Definition, open the DSL Details window, and click the Decorators tab.  
   
  To run this example code, create a new DSL solution using the Minimal Language template. Add a Boolean domain property `AlternateState` to the ExampleElement domain class. Add an icon decorator to the ExampleShape class, and set its image to a bitmap file. Click **Transform All Templates**. Add a new code file in the DSL project, and insert the following code.  
   
@@ -271,6 +268,3 @@ partial class ExampleShape
  [Setting a Background Image on a Diagram](../modeling/setting-a-background-image-on-a-diagram.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
-
-

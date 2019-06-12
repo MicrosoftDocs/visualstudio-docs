@@ -1,14 +1,9 @@
 ---
 title: "ToolTaskExtension Base Class | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 f1_keywords: 
   - "MSBuild.ToolTask.ToolCommandFailed"
 dev_langs: 
@@ -20,12 +15,11 @@ ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
 caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # ToolTaskExtension Base Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.  
   
 ## Parameters  
@@ -53,6 +47,3 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 ## See Also  
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
-
-
-

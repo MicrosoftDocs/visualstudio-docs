@@ -1,14 +1,9 @@
 ---
 title: "Item Metadata in Task Batching | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, batching"
@@ -18,12 +13,11 @@ ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
 caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Metadata in Task Batching
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a task one time with each batch. It can be confusing to understand exactly what items are being passed with which batch. This topic covers the following common scenarios that involve batching.  
   
 - Dividing an item list into batches  
@@ -86,7 +80,7 @@ manager: "ghogen"
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] can divide multiple item lists into batches based on the same metadata. This makes it easy to divide different item lists into batches to build multiple assemblies. For example, you could have an item list of .cs files divided into an application batch and an assembly batch, and an item list of resource files divided into an application batch and an assembly batch. You could then use batching to pass these item lists into one task and build both the application and the assembly.  
   
 > [!NOTE]
->  If an item list being passed into a task contains no items with the referenced metadata, every item in that item list is passed into every batch.  
+> If an item list being passed into a task contains no items with the referenced metadata, every item in that item list is passed into every batch.  
   
  The following example shows how to divide multiple item list into batches based on item metadata. The `ExampColl` and `ExampColl2` item lists are each divided into three batches based on the `Number` item metadata. The presence of `%(Number)`in the `Text` attribute notifies [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] that batching should be performed. The `ExampColl` and `ExampColl2` item lists are divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.  
   
@@ -227,6 +221,3 @@ Items in ExampColl: Item2;Item5
  [Batching](../msbuild/msbuild-batching.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
-
-
-

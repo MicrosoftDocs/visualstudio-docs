@@ -1,14 +1,9 @@
 ---
 title: "CA1053: Static holder types should not have constructors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "StaticHolderTypesShouldNotHaveConstructors"
   - "CA1053"
@@ -41,7 +36,7 @@ manager: "wpickett"
  To fix a violation of this rule, remove the default constructor or make it private.
 
 > [!NOTE]
->  Some compilers automatically create a public default constructor if the type does not define any constructors. If this is the case with your type, add a private default constructor to eliminate the violation.
+> Some compilers automatically create a public default constructor if the type does not define any constructors. If this is the case with your type, add a private default constructor to eliminate the violation.
 
 ## When to Suppress Warnings
  Do not suppress a warning from this rule. The presence of the constructor suggests that the type is not a static type.
@@ -50,6 +45,3 @@ manager: "wpickett"
  The following example shows a type that violates this rule. Notice that there is no default constructor in the source code. When this code is compiled into an assembly, the C# compiler will insert a default constructor, which will violate this rule. To correct this, declare a private constructor.
 
  [!code-csharp[FxCop.Design.StaticTypes#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Design.StaticTypes/cs/FxCop.Design.StaticTypes.cs#1)]
-
-
-

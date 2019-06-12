@@ -1,12 +1,9 @@
 ---
 title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Preprocessed Text Template project item"
   - "TextTemplatingFilePreprocessor custom tool"
@@ -16,7 +13,7 @@ ms.assetid: 79b4b3c6-a9a7-4446-b6fd-e2388fc6b05f
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Run-Time Text Generation with T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,16 +47,16 @@ This report is Company Confidential.
   
 #### To create a run-time text template  
   
-1.  In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.  
+1. In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.  
   
-2.  In the **Add New Item** dialog box, select **Runtime Text Template**. (In [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] look under **Common Items\General**.)  
+2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] look under **Common Items\General**.)  
   
-3.  Type a name for your template file.  
+3. Type a name for your template file.  
   
     > [!NOTE]
-    >  The template file name will be used as a class name in the generated code. Therefore, it should not have spaces or punctuation.  
+    > The template file name will be used as a class name in the generated code. Therefore, it should not have spaces or punctuation.  
   
-4.  Choose **Add**.  
+4. Choose **Add**.  
   
      A new file is created that has extension **.tt**. Its **Custom Tool** property is set to **TextTemplatingFilePreprocessor**. It contains the following lines:  
   
@@ -76,18 +73,18 @@ This report is Company Confidential.
   
 #### To convert an existing text file to a run-time template  
   
-1.  Include the file into your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. In Solution Explorer, on the shortcut menu of the project, choose **Add**, **Existing Item**.  
+1. Include the file into your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. In Solution Explorer, on the shortcut menu of the project, choose **Add**, **Existing Item**.  
   
-2.  Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.  
+2. Set the file's **Custom Tools** property to **TextTemplatingFilePreprocessor**. In Solution Explorer, on the shortcut menu of the file, choose **Properties**.  
   
     > [!NOTE]
-    >  If the property is already set, make sure that it is **TextTemplatingFilePreprocessor** and not **TextTemplatingFileGenerator**. This can happen if you include a file that already has the extension **.tt**.  
+    > If the property is already set, make sure that it is **TextTemplatingFilePreprocessor** and not **TextTemplatingFileGenerator**. This can happen if you include a file that already has the extension **.tt**.  
   
-3.  Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.  
+3. Change the file name extension to **.tt**. Although this step is optional, it helps you avoid opening the file in an incorrect editor.  
   
-4.  Remove any spaces or punctuation from the main part of the file name. For example "My Web Page.tt" would be incorrect, but "MyWebPage.tt" is correct. The file name will be used as a class name in the generated code.  
+4. Remove any spaces or punctuation from the main part of the file name. For example "My Web Page.tt" would be incorrect, but "MyWebPage.tt" is correct. The file name will be used as a class name in the generated code.  
   
-5.  Insert the following line at the beginning of the file. If you are working in a Visual Basic project, replace "C#" with "VB".  
+5. Insert the following line at the beginning of the file. If you are working in a Visual Basic project, replace "C#" with "VB".  
   
      `<#@ template language="C#" #>`  
   
@@ -425,7 +422,4 @@ End material for DerivedTemplate1.
 ## See Also  
  [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)   
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)   
- [Understanding T4: Preprocessed Text Templates by Oleg Sych](http://www.olegsych.com/2009/09/t4-preprocessed-text-templates/)
-
-
-
+ [Understanding T4: Preprocessed Text Templates by Oleg Sych](https://github.com/olegsych/T4Toolbox)

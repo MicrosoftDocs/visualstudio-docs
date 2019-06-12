@@ -1,11 +1,8 @@
 ---
 title: "PickBranch Activity Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "System.Activities.Statements.PickBranch.UI"
@@ -13,7 +10,7 @@ ms.assetid: f523ad47-bbc0-4cda-a35c-41e67c4ba081
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # PickBranch Activity Designer
 The <xref:System.Activities.Statements.PickBranch> provides an event-based path of execution within a <xref:System.Activities.Statements.Pick> activity that can be triggered by an incoming event.  
@@ -55,5 +52,5 @@ The <xref:System.Activities.Statements.PickBranch> provides an event-based path 
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   
- [Pick Activity](http://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
- [Using the Pick Activity](http://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)
+ [Pick Activity](https://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
+ [Using the Pick Activity](https://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)

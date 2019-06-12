@@ -1,16 +1,14 @@
 ---
 title: "Command Availability | Microsoft Docs"
 ms.date: 03/22/2018
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "commands, context"
   - "menu items, visibility contexts"
 ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -40,12 +38,12 @@ The following command contexts are the most common:
 
 If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands:
 
-1.  Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method.
+1. Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method.
 
-2.  Get the state of a context GUID by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method.
+2. Get the state of a context GUID by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method.
 
-3.  Turn context GUIDs on and off by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method.
-   
+3. Turn context GUIDs on and off by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> method.
+
 > [!CAUTION]
 > Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.
 

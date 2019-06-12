@@ -1,12 +1,10 @@
 ---
 title: Rename a filename to match a type
 ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
   - VB
@@ -26,6 +24,9 @@ This refactoring applies to:
 **When:** You have renamed a file or type and haven't yet updated the corresponding file or type to match.
 
 **Why:** Placing a type in a file with a different name, or vice-versa, it difficult to find what you're looking for. By renaming either the type or filename, code becomes more readable and easier to navigate.
+
+> [!NOTE]
+> This refactoring is not yet available for .NET Standard and .NET Core projects.
 
 ## How-to
 
@@ -57,9 +58,6 @@ This refactoring applies to:
    - Visual Basic: In the example below, the file **Employee.vb** was renamed to **Person.vb** to match the type name.
 
        ![Inline result Visual Basic](media/synctype-result-vb.png)
-
-> ![NOTE]
-> This refactoring is not yet available for .NET Standard and .NET Core projects.
 
 ## See also
 

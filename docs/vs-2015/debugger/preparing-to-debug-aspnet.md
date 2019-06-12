@@ -1,14 +1,9 @@
 ---
 title: "Preparing to Debug ASP.NET | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,7 +15,7 @@ ms.assetid: d65d7299-51dd-4337-b334-aa1cbb37b77e
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Preparing to Debug ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ This section describes how to set up [!INCLUDE[vsprvs](../includes/vsprvs-md.md)
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
  Lists prerequisites for debugging a Web application on a remote server.  
   
- [How to: Configure IIS on Windows Server 2003](http://msdn.microsoft.com/en-us/23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
+ [How to: Configure IIS on Windows Server 2003](https://msdn.microsoft.com/23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
  Discusses special configuration steps needed for debugging system requirements for debugging [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] on [!INCLUDE[WinXPSvr](../includes/winxpsvr-md.md)].  
   
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)  
@@ -55,7 +50,4 @@ This section describes how to set up [!INCLUDE[vsprvs](../includes/vsprvs-md.md)
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [ASP.NET and IIS Configuration](http://msdn.microsoft.com/library/47ebf3b5-98de-4d31-a335-57e2ccd974b8)
-
-
-
+ [ASP.NET and IIS Configuration](https://msdn.microsoft.com/library/47ebf3b5-98de-4d31-a335-57e2ccd974b8)

@@ -2,13 +2,11 @@
 title: Edit R code
 description: Visual Studio provides a tailored editing experience for R while retaining all the features and the ability to use extensions.
 ms.date: 11/05/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -36,7 +34,7 @@ To change this behavior, see the **Advanced** > **Syntax check** setting under [
 
 ## Edit and organize code
 
-As you type code, RTVS provides auto-completion as described on the [IntelliSense](r-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
+As you type code, RTVS provides auto-completion as described on the [IntelliSense](r-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis:
 
 ![Animation of inline formatting](media/editing-inline-formatting.gif)
 
@@ -94,7 +92,7 @@ Formatting options (including turning off formatting) are set through **Tools** 
 
 ## Inserting Roxygen comments
 
-RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
+RTVS provides a shortcut for generating [Roxygen](https://cran.r-project.org/web/packages/roxygen2/index.html) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
 
 ![Animation of inserting a Roxygen comment](media/editing-roxygen-comments.gif)
 
@@ -125,6 +123,6 @@ Options on the **R** > **Advanced** tab are specific to RTVS:
 | | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit** > **IntelliSense** > **List Members** (**Ctrl**+**J**). |
 | | Completion list on **Tab** key | Off | Invokes completion list by typing one or more characters and pressing **Tab**. |
 | | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
-| Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. | 
+| Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. |
 | Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. |
 | Syntax check | Show syntax errors | On | Enables automatic syntax checking of code. |

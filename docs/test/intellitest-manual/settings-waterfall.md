@@ -1,14 +1,12 @@
 ---
 title: "Settings waterfall | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Settings waterfall"
 ms.author: gewarren
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -33,7 +31,7 @@ using Microsoft.Pex.Framework;
 
 namespace MyTests
 {
-    [PexClass(MaxBranches = 500)] // we override the 1000 value and set maxbranches to 500 
+    [PexClass(MaxBranches = 500)] // we override the 1000 value and set maxbranches to 500
     public partial class MyTests
     {
         [PexMethod(MaxBranches = 100)] // we override again, maxbranches = 100

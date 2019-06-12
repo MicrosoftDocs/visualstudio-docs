@@ -1,18 +1,13 @@
 ---
 title: "Sample Excel Extension: TechnologyManager Class | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
 caps.latest.revision: 11
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Sample Excel Extension: TechnologyManager Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,15 +32,15 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
 ## Methods to Get an Element  
  There are several important methods that are used by the coded UI testing framework to get an element specific to the technology by providing a handle, a point on the screen, or an element from a different technology. The code for these methods are self-explanatory. The base methods are as follows:  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetFocusedElement%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetFocusedElement%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromPoint%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromPoint%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromWindowHandle%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromWindowHandle%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromNativeElement%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.GetElementFromNativeElement%2A?displayProperty=fullName>  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.ConvertToThisTechnology%2A?displayProperty=fullName>  
+- <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyManager.ConvertToThisTechnology%2A?displayProperty=fullName>  
   
 ## ParseQueryId Method  
  When a coded UI test is created, the user can specify property values for some or all the controls in the test. These property values are used by the testing framework to create name-value pairs called search properties that are used to find specific UI controls during the test. All the search properties together represent the value of the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A?displayProperty=fullName> property of every element in the technology, which includes every control. Because a control might have to be found several times during a test, this method gives the technology manager a way to optimize parsing of search properties for the given control. This method also returns a cookie that the framework can use for subsequent searches for that control. This implementation of the method uses the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.AndCondition.Match%2A?displayProperty=fullName> method to parse the search properties.  
@@ -66,6 +61,3 @@ This class extends the <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.U
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement.QueryId%2A>   
  [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
-
-
-

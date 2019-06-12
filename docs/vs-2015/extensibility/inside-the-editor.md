@@ -1,20 +1,15 @@
 ---
 title: "Inside the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - architecture"
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 caps.latest.revision: 32
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Inside the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +40,7 @@ The editor is composed of a number of different subsystems, which are designed t
   
 - [IntelliSense](../extensibility/inside-the-editor.md#intellisense)  
   
-##  <a name="overview"></a> Overview of the Subsystems  
+## <a name="overview"></a> Overview of the Subsystems  
   
 ### Text Model Subsystem  
  The text model subsystem is responsible for representing text and enabling its manipulation. The text model subsystem contains the <xref:Microsoft.VisualStudio.Text.ITextBuffer> interface, which describes the sequence of characters that is to be displayed by the editor. This text can be modified, tracked, and otherwise manipulated in many ways. The text model also provides types for the following aspects:  
@@ -75,7 +70,7 @@ The editor is composed of a number of different subsystems, which are designed t
   
 ## A Closer Look at the Text Model and the Text View  
   
-###  <a name="textmodel"></a> The Text Model  
+### <a name="textmodel"></a> The Text Model  
  The text model subsystem consists of different groupings of text types. These include the text buffer, text snapshots, and text spans.  
   
 #### Text Buffers and Text Snapshots  
@@ -91,7 +86,7 @@ The editor is composed of a number of different subsystems, which are designed t
  You can view the contents of a text snapshot as a sequence of characters or as a sequence of lines. Characters and lines are both indexed starting at zero. An empty text snapshot contains zero characters and one empty line. A line is delimited by any valid Unicode line-break character sequence, or by the beginning or end of the buffer. Line-break characters are explicitly represented in the text snapshot, and the line breaks in a text snapshot do not all have to be the same.  
   
 > [!NOTE]
->  For more information about line-break characters in the Visual Studio editor, see [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md).  
+> For more information about line-break characters in the Visual Studio editor, see [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md).  
   
  A line of text is represented by an <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> object, which can be obtained from a text snapshot for a particular line number or for a particular character position.  
   
@@ -148,7 +143,7 @@ abXefYj
   
  Developers can define their own content types and register them by using the <xref:Microsoft.VisualStudio.Utilities.IContentTypeRegistryService>. Many editor features can be defined with respect to a specific content type by using the <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>. For example, editor margins, adornments, and mouse handlers can be defined so that they apply only to editors that display particular content types.  
   
-###  <a name="textview"></a> The Text View  
+### <a name="textview"></a> The Text View  
  The view part of the model view controller (MVC) pattern defines the text view, the formatting of the view, graphic elements such as the scroll bar, and the caret. All presentation elements of the Visual Studio editor are based on WPF.  
   
 #### Text Views  
@@ -183,21 +178,21 @@ abXefYj
 ## Editor Features  
  The features of the editor are designed so that the definition of the feature is separate from its implementation. The editor includes these features:  
   
--   Tags and classifiers  
+- Tags and classifiers  
   
--   Adornments  
+- Adornments  
   
--   Projection  
+- Projection  
   
--   Outlining  
+- Outlining  
   
--   Mouse and key bindings  
+- Mouse and key bindings  
   
--   Operations and primitives  
+- Operations and primitives  
   
--   IntelliSense  
+- IntelliSense  
   
-###  <a name="tagsandclassifiers"></a> Tags and Classifiers  
+### <a name="tagsandclassifiers"></a> Tags and Classifiers  
  Tags are markers that are associated with a span of text. They can be presented in different ways, for example, by using text coloring, underlines, graphics, or pop-ups. Classifiers are one kind of tag.  
   
  Other kinds of tags are <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag> for text highlighting, <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag> for outlining, and <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag> for compile errors.  
@@ -229,14 +224,14 @@ abXefYj
   
  An <xref:Microsoft.VisualStudio.Text.Classification.IClassificationFormatMap> is a map from a classification type to a set of text formatting properties. The implementation of the format map in the editor handles all the exports of classification formats.  
   
-###  <a name="adornments"></a> Adornments  
+### <a name="adornments"></a> Adornments  
  Adornments are graphic effects that are not directly related to the font and color of the characters in the text view. For example, the red squiggle underline that is used to mark non-compiling code in many programming languages is an embedded adornment, and tooltips are pop-up adornments. Adornments are derived from <xref:System.Windows.UIElement> and implement <xref:Microsoft.VisualStudio.Text.Tagging.ITag>. Two specialized types of adornment tag are the <xref:Microsoft.VisualStudio.Text.Tagging.SpaceNegotiatingAdornmentTag>, for adornments that occupy the same space as the text in a view, and the <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag>, for the squiggle underline.  
   
  Embedded adornments are graphics that form part of the formatted text view. They are organized in different Z-order layers. There are three built-in layers, as follows: text, the caret, and the selection. However, developers can define more layers and put them in order with respect to one another. The three kinds of embedded adornments are text-relative adornments (which move when the text moves, and are deleted when the text is deleted), view-relative adornments (which have to do with non-text parts of the view), and owner-controlled adornments (the developer must manage their placement).  
   
  Pop-up adornments are graphics that appear in a small window above the text view, for example, tooltips.  
   
-###  <a name="projection"></a> Projection  
+### <a name="projection"></a> Projection  
  Projection is a technique for constructing a different kind of text buffer that does not actually store text, but instead combines text from other text buffers. For example, a projection buffer can be used to concatenate the text from two other buffers and present the result as if it is in just one buffer, or to hide parts of the text in one buffer. A projection buffer can act as a source buffer to another projection buffer. A set of buffers that are related by projection can be constructed to rearrange text in many different ways. (Such a set is also known as a *buffer graph*.) The Visual Studio text outlining feature is implemented by using a projection buffer to hide the collapsed text, and the Visual Studio editor for ASP.NET pages uses projection to support embedded languages such as Visual Basic and C#.  
   
  An <xref:Microsoft.VisualStudio.Text.Projection.IProjectionBuffer> is created by using <xref:Microsoft.VisualStudio.Text.Projection.IProjectionBufferFactoryService>. A projection buffer is represented by an ordered sequence of <xref:Microsoft.VisualStudio.Text.ITrackingSpan> objects that are known as *source spans*. The contents of these spans are presented as a sequence of characters. The text buffers from which the source spans are drawn are named *source buffers*. Clients of a projection buffer do not have to be aware that it differs from an ordinary text buffer.  
@@ -270,18 +265,18 @@ P: ABCDEvwxyz
 ##### Events and Projection Buffers  
  When a projection buffer is modified, the modifications are sent from the projection buffer to the buffers that depend on it. After all the buffers are modified, buffer change events are raised, starting with the deepest buffer.  
   
-###  <a name="outlining"></a> Outlining  
+### <a name="outlining"></a> Outlining  
  Outlining is the ability to expand or collapse different blocks of text in a text view. Outlining is defined as a kind of <xref:Microsoft.VisualStudio.Text.Tagging.ITag>, in the same way as adornments are defined. A <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag> is a tag that defines a text region that can be expanded or collapsed. To use outlining, you must import the <xref:Microsoft.VisualStudio.Text.Outlining.IOutliningManagerService> to get an <xref:Microsoft.VisualStudio.Text.Outlining.IOutliningManager>. The outlining manager enumerates, collapses, and expands the different blocks, which are represented as <xref:Microsoft.VisualStudio.Text.Outlining.ICollapsible> objects, and raises events accordingly.  
   
-###  <a name="mousebindings"></a> Mouse Bindings  
+### <a name="mousebindings"></a> Mouse Bindings  
  Mouse bindings link mouse movements to different commands. Mouse bindings are defined by using an <xref:Microsoft.VisualStudio.Text.Editor.IMouseProcessorProvider>, and key bindings are defined by using an <xref:Microsoft.VisualStudio.Text.Editor.IKeyProcessorProvider>. The <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> automatically instantiates all bindings and connects them to mouse events in the view.  
   
  The <xref:Microsoft.VisualStudio.Text.Editor.IMouseProcessor> interface contains pre-process and post-process event handlers for different mouse events. To handle one of the events, you can override some of the methods in <xref:Microsoft.VisualStudio.Text.Editor.MouseProcessorBase>.  
   
-###  <a name="editoroperations"></a> Editor Operations  
+### <a name="editoroperations"></a> Editor Operations  
  Editor operations can be used to automate interaction with the editor, for scripting or other purposes. You can import the <xref:Microsoft.VisualStudio.Text.Operations.IEditorOperationsFactoryService> to access operations on a given <xref:Microsoft.VisualStudio.Text.Editor.ITextView>. You can then use these objects to modify the selection, scroll the view, or move the caret to different parts of the view.  
   
-###  <a name="intellisense"></a> IntelliSense  
+### <a name="intellisense"></a> IntelliSense  
  IntelliSense supports statement completion, signature help (also known as parameter info), Quick Info, and light bulbs.  
   
  Statement completion provides pop-up lists of potential completions for method names, XML elements, and other coding or markup elements. In general, a user gesture invokes a completion session. The session displays the list of potential completions, and the user can select one or dismiss the list. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker> is responsible for creating and triggering the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> computes the <xref:Microsoft.VisualStudio.Language.Intellisense.CompletionSet> of completion items for the session.  
@@ -289,4 +284,3 @@ P: ABCDEvwxyz
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)   
  [Editor Imports](../extensibility/editor-imports.md)
-

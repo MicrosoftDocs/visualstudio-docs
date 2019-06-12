@@ -1,14 +1,9 @@
 ---
 title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ReferenceManager"
 helpviewer_keywords: 
@@ -27,7 +22,7 @@ ms.assetid: 1aabb520-99b0-46c6-9368-21b4d84793eb
 caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Add or Remove References By Using the Reference Manager
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,13 +39,13 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
    **Reference Manager** opens and lists the available references by group. The project type determines which of the following groups appear:  
   
--   Assemblies, with the Framework and Extensions subgroups.  
+- Assemblies, with the Framework and Extensions subgroups.  
   
--   Solution, with the Projects subgroup.  
+- Solution, with the Projects subgroup.  
   
--   Windows, with the Core and Extensions subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.  
+- Windows, with the Core and Extensions subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.  
   
--   Browse, with the Recent subgroup.  
+- Browse, with the Recent subgroup.  
   
 ## Assemblies tab  
  The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn’t list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that’s registered in the GAC, the assembly won’t be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Project References](http://go.microsoft.com/fwlink/?LinkId=238512).  
@@ -65,13 +60,13 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
 1. Framework lists all assemblies that constitute the targeted Framework.  
   
-   -   Advertised assemblies are in the Full Framework and enumerated in the Framework list when your project targets a Profile of the targeted Framework. Advertised assemblies are grey to differentiate them from the assemblies that exist in the targeted Framework profile of the project. For example, if a project targets .NET Framework 4 Client, the Framework list shows advertised assemblies from .NET Framework 4. When a user adds an advertised assembly, the user is notified that, after the **Reference Manager** dialog box is closed, the project will be retargeted to the .NET Framework 4 and the advertised assembly will be added.  
+   - Advertised assemblies are in the Full Framework and enumerated in the Framework list when your project targets a Profile of the targeted Framework. Advertised assemblies are grey to differentiate them from the assemblies that exist in the targeted Framework profile of the project. For example, if a project targets .NET Framework 4 Client, the Framework list shows advertised assemblies from .NET Framework 4. When a user adds an advertised assembly, the user is notified that, after the **Reference Manager** dialog box is closed, the project will be retargeted to the .NET Framework 4 and the advertised assembly will be added.  
   
-   -   Projects for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../includes/net-win8-profile-md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won’t enumerate any of the assemblies from the Framework and instead display the following message: “All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework.” For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.  
+   - Projects for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../includes/net-win8-profile-md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won’t enumerate any of the assemblies from the Framework and instead display the following message: “All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework.” For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.  
   
 2. Extensions lists all assemblies that external vendors of components and controls have developed to extend the targeted Framework. Depending on the purpose of the user application, it might need these assemblies.  
   
-   -   Extensions is populated by enumerating the assemblies that are registered in the following locations:  
+   - Extensions is populated by enumerating the assemblies that are registered in the following locations:  
   
        ```  
        32-bit machine:  
@@ -87,18 +82,18 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
    Some components in the list may not be shown, depending on the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version of your project. This can occur under the following conditions:  
   
--   A component that uses a recent version of the .NET Framework is incompatible with a project that targets an earlier version of the .NET Framework.  
+- A component that uses a recent version of the .NET Framework is incompatible with a project that targets an earlier version of the .NET Framework.  
   
      For information about how to change the target .NET Framework version for a project, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
--   A component that uses [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../includes/net-v45-md.md)].  
+- A component that uses [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../includes/net-v45-md.md)].  
   
-     When you create a new application, some projects target the [!INCLUDE[net_v45](../includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).  
+     When you create a new application, some projects target the [!INCLUDE[net_v45](../includes/net-v45-md.md)] by default. For more information, see [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).  
   
--   You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
+- You should avoid adding file references to outputs of another project in the same solution, because doing this may cause compilation errors. Instead, use the **Projects** tab of the **Add Reference** dialog box to create project-to-project references. This makes team development easier by enabling better management of the class libraries you create in your projects. For more information, see [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md).  
   
--   > [!NOTE]
-    >  In Visual Studio 2015, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
+- > [!NOTE]
+    > In Visual Studio 2015, a file reference instead of a project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.  
   
 #### To display an assembly in the Add Reference dialog box  
   
@@ -172,7 +167,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
 </PropertyGroup>  
 ```  
   
- Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add System.Runtime, in which the Windows Runtime defines some standard classes and interfaces, such as IEnumerable, that are used throughout the Windows Runtime libraries. For information about how to add System.Runtime, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).  
+ Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add System.Runtime, in which the Windows Runtime defines some standard classes and interfaces, such as IEnumerable, that are used throughout the Windows Runtime libraries. For information about how to add System.Runtime, see [Managed desktop apps and Windows Runtime](https://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).  
   
 ### Extensions Subgroup  
  Extensions lists the user SDKs that extend the targeted Windows platform. This tab appears for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app projects only. Desktop projects won’t show this tab because they can consume only first-party .winmd files.  
@@ -180,7 +175,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
  An SDK is a collection of files that Visual Studio treats as a single component. In the Extensions tab, SDKs that apply to the project from which the **Reference Manager** dialog box was invoked are listed as single entries. When added to a project, all of the SDK content is consumed by Visual Studio such that the user doesn’t need to take any further actions to leverage the SDK contents in IntelliSense, toolbox, designers, Object Browser, build, deployment, debugging, and packaging. For information about how to display your SDK in the Extensions tab, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
 > [!NOTE]
->  If a project references an SDK that depends on another SDK, Visual Studio won’t consume the second SDK unless the user manually adds a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the **Reference Manager** dialog box helps the user identify SDK dependencies by listing not only the name and version of the SDK but also the name of any SDK dependencies in the details pane. If a user doesn’t notice the dependencies and only adds that SDK, MSBuild will prompt the user to add the dependencies.  
+> If a project references an SDK that depends on another SDK, Visual Studio won’t consume the second SDK unless the user manually adds a reference to the second SDK. When a user chooses an SDK on the **Extensions** tab, the **Reference Manager** dialog box helps the user identify SDK dependencies by listing not only the name and version of the SDK but also the name of any SDK dependencies in the details pane. If a user doesn’t notice the dependencies and only adds that SDK, MSBuild will prompt the user to add the dependencies.  
   
  If a project type doesn’t support **Extensions**, the tab doesn’t appear in the **Reference Manager** dialog box.  
   
@@ -195,9 +190,9 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
  When doing a file reference to a WinMD, the expected layout is that the *FileName*.winmd, *FileName*.dll, and *FileName*.pri files are all placed alongside each other. If you reference a WinMD in the following scenarios, an incomplete set of files will be copied into the project output directory and, consequently, build and runtime failures will occur.  
   
--   **Native component**: a native project will create one WinMD for each disjoint set of namespaces and one DLL that consists of the implementation. The WinMDs will have disparate names. When referencing this native component file, MSBuild won’t recognize that the dissimilarly named WinMDs make one component. Consequently, only the identically named *FileName*.dll and *FileName*.winmd will be copied, and runtime errors will occur. To work around this issue, create an Extension SDK. For more information, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
+- **Native component**: a native project will create one WinMD for each disjoint set of namespaces and one DLL that consists of the implementation. The WinMDs will have disparate names. When referencing this native component file, MSBuild won’t recognize that the dissimilarly named WinMDs make one component. Consequently, only the identically named *FileName*.dll and *FileName*.winmd will be copied, and runtime errors will occur. To work around this issue, create an Extension SDK. For more information, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
--   **Consuming controls**: at a minimum, a XAML control consists of a *FileName*.winmd, *FileName*.dll, *FileName*.pri, *XamlName*.xaml, and an *ImageName*.jpg. When the project is built, the resource files that are associated with the file reference won’t get copied into the project’s output directory, and only *FileName*.winmd, *FileName*.dll and *FileName*.pri will be copied. A build error is logged to inform the user that the resources *XamlName*.xaml and *ImageName*.jpg are missing. To succeed, the user will have to manually copy these resource files into the project output directory for build and debugging/runtime. To work around this issue, either create an Extension SDK by following the steps in [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md) or edit the project file to add the following property:  
+- **Consuming controls**: at a minimum, a XAML control consists of a *FileName*.winmd, *FileName*.dll, *FileName*.pri, *XamlName*.xaml, and an *ImageName*.jpg. When the project is built, the resource files that are associated with the file reference won’t get copied into the project’s output directory, and only *FileName*.winmd, *FileName*.dll and *FileName*.pri will be copied. A build error is logged to inform the user that the resources *XamlName*.xaml and *ImageName*.jpg are missing. To succeed, the user will have to manually copy these resource files into the project output directory for build and debugging/runtime. To work around this issue, either create an Extension SDK by following the steps in [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md) or edit the project file to add the following property:  
   
     ```  
     <PropertyGroup>  
@@ -206,7 +201,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
     ```  
   
     > [!NOTE]
-    >  If you add the property, the build might run slower.  
+    > If you add the property, the build might run slower.  
   
 ## Recent  
  Assemblies, COM, Windows, and Browse each support a Recent tab, which enumerates the list of components that were recently added to projects.  
@@ -215,8 +210,5 @@ You can use the **Reference Manager** dialog box to add and manage references to
  The search bar in the **Reference Manager** dialog box operates over the tab that’s in focus. For example, if a user types “System” in the search bar while the **Solution** tab is in focus, the search won’t return any results unless the solution consists of a project name that contains “System”.  
   
 ## See Also  
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)
-
-
-

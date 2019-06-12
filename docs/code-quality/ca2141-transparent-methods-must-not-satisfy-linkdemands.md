@@ -1,15 +1,13 @@
 ---
 title: "CA2141:Transparent methods must not satisfy LinkDemands"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2141"
 ms.assetid: 2957f5f7-c511-4180-ba80-752034f10a77
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

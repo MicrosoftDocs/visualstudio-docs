@@ -1,8 +1,6 @@
 ---
 title: Toolbox, Data Tab
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
   - "Toolbox, Data tab"
@@ -11,20 +9,20 @@ helpviewer_keywords:
 ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Toolbox, Data Tab
+# Toolbox, Data tab
 
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.
 
 > [!TIP]
 > Running the Data Source Configuration Wizard automatically creates and configures most data items. For more information, see [Add new data sources](../../data-tools/add-new-data-sources.md).
 
-## UI Element List
+## UI Element list
 
-To go directly to the .NET Framework reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.
+To go directly to the .NET reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.
 
 |Name|Description|
 |----------|-----------------|
@@ -33,7 +31,7 @@ To go directly to the .NET Framework reference page for a component, press **F1*
 |<xref:System.Windows.Forms.BindingSource>|Simplifies the process of binding controls to an underlying data source.|
 |<xref:System.Windows.Forms.BindingNavigator>|Represents the navigation and manipulation user interface (UI) for controls on a form that are bound to data.|
 
-## See Also
+## See also
 
 - [Access Data in Visual Studio](../../data-tools/accessing-data-in-visual-studio.md)
 - [Visual Studio data tools for .NET](../../data-tools/visual-studio-data-tools-for-dotnet.md)

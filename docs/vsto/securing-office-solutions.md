@@ -1,9 +1,6 @@
 ---
 title: "Secure Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ helpviewer_keywords:
   - "Office development in Visual Studio, security"
   - "Office applications [Office development in Visual Studio], security"
   - "security [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -35,7 +32,7 @@ ms.workload:
 
   [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
-##  <a name="GrantingTrustToSolutions"></a> Grant trust to Office solutions
+## <a name="GrantingTrustToSolutions"></a> Grant trust to Office solutions
  Granting trust to Office solutions means modifying the security policy of each end user to trust the Office solution based on the following evidence:
 
 - The certificate used to sign the deployment manifest.
@@ -44,16 +41,16 @@ ms.workload:
 
   For more information, see [Grant trust to Office solutions](../vsto/granting-trust-to-office-solutions.md).
 
-##  <a name="GrantingTrustToDocuments"></a> Grant trust to documents
+## <a name="GrantingTrustToDocuments"></a> Grant trust to documents
  A document-level customization requires that the document be in a directory that is designated as a trusted location. For more information, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).
 
-##  <a name="GrantingTrustWindowsInstaller"></a> Grant trust when using Windows Installer
+## <a name="GrantingTrustWindowsInstaller"></a> Grant trust when using Windows Installer
  You can use Windows Installer to create an MSI file to install Office solutions into the Program Files directory, which requires administrator rights. For Office solutions in the Program Files directory, the Visual Studio 2010 Tools for Office runtime considers these Office solutions to be trusted and does not show the ClickOnce trust prompt.
 
-##  <a name="Security"></a> Specific security considerations for Office solutions
+## <a name="Security"></a> Specific security considerations for Office solutions
  The security features provided by the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], and Microsoft Office can help to protect against a variety of possible security threats in Office solutions. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).
 
-##  <a name="SecurityDuringDeployment"></a> Security during development
+## <a name="SecurityDuringDeployment"></a> Security during development
  To make your development process easier, Visual Studio sets the security policy that is required to run and debug your solution on your computer every time that you build a project. In some scenarios, you might need to take additional security steps to develop the project.
 
 ### Document-level solutions
@@ -72,7 +69,7 @@ ms.workload:
 
  There can be many temporary certificates after a while, so you should clear the temporary certificates occasionally.
 
-##  <a name="VisualStudioToolsForOfficeRuntime"></a> Visual Studio Tools for Office runtime
+## <a name="VisualStudioToolsForOfficeRuntime"></a> Visual Studio Tools for Office runtime
  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] has features to verify the identity of the publisher and the permissions that are granted to a customization. It verifies these permissions through a sequence of security checks.
 
 ### Security during customization loading

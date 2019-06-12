@@ -1,14 +1,9 @@
 ---
 title: "How to: Display an Item List Separated with Commas | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MSBuild, separating items with semicolons"
   - "MSBuild, formatting item collections"
@@ -16,12 +11,11 @@ ms.assetid: 3cae844c-7c6d-4144-82dc-efad10ba458f
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Display an Item List Separated with Commas
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] ([!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.  
   
 ## Separating Items in a List with Commas  
@@ -41,7 +35,7 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstec
   
 #### To insert a comma and a space between items  
   
--   Use item notation similar to the following:  
+- Use item notation similar to the following:  
   
      `@(TXTFile, ', ')`  
   
@@ -72,6 +66,3 @@ When you work with item lists in [!INCLUDE[vstecmsbuildengine](../includes/vstec
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Items](../msbuild/msbuild-items.md)
-
-
-

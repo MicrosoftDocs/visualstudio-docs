@@ -1,14 +1,11 @@
 ---
 title: ".NET Compiler Platform (&quot;Roslyn&quot;) Extensibility | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 564201b3-1e18-4b88-b615-42c2f57f3fe8
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -18,4 +15,4 @@ The core mission of the .NET Compiler Platform ("Roslyn") is opening up the C# a
  The best part is that the Roslyn compilers, their APIs, samples and walkthroughs, and the real tools built on top of these APIs are all fully open source at [github.com/dotnet/roslyn](https://github.com/dotnet/Roslyn). Please go to the OSS site to learn more and get started with Roslyn. You will find links to get the latest C# and Visual Basic features that you can use as an end user, as well as links to get started as a tool builder leveraging the Roslyn APIs.
 
 ## See also
- [Get started with Roslyn analyzers](../extensibility/getting-started-with-roslyn-analyzers.md)
+- [Get started with Roslyn analyzers](../extensibility/getting-started-with-roslyn-analyzers.md)

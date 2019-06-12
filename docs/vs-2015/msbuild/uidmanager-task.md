@@ -1,14 +1,9 @@
 ---
 title: "UidManager Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,12 +19,11 @@ ms.assetid: 4fc7b5a5-11b0-46ca-9656-8c2a0b08d1fe
 caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # UidManager Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../includes/tlasharptla-xaml-md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../includes/tla2sharptla-xaml-md.md)] files.  
   
 ## Task Parameters  
@@ -62,8 +56,5 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
- [How to: Localize an Application](http://msdn.microsoft.com/library/5001227e-9326-48a4-9dcd-ba1b89ee6653)
-
-
-
+ [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [How to: Localize an Application](https://msdn.microsoft.com/library/5001227e-9326-48a4-9dcd-ba1b89ee6653)

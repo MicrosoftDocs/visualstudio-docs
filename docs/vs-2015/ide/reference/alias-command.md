@@ -1,14 +1,9 @@
 ---
 title: "Alias Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "tools.alias"
 helpviewer_keywords: 
@@ -21,16 +16,15 @@ ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Alias Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Creates a new alias for a complete command, complete command and arguments, or another alias.  
   
 > [!TIP]
->  Typing `>alias` without any arguments displays the current list of aliases and their definitions.  
+> Typing `>alias` without any arguments displays the current list of aliases and their definitions.  
   
 ## Syntax  
   
@@ -83,6 +77,3 @@ Tools.Alias [/delete] [/reset] [aliasname] [aliasstring]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

@@ -1,12 +1,10 @@
 ---
 title: Customize the IDE
 ms.date: 11/20/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -27,28 +25,32 @@ Many personalization options are exposed through the [Environment Options](../id
 
 - On the menu bar, choose **Tools** > **Options**, and if it's not already expanded, expand the **Environment** node.
 
-- Type `environment` in the **Quick Launch** box and choose **Environment --> General** from the results list.
+- Press **Ctrl**+**Q**, type **environment** in the search box, and then choose **Environment --> General** from the results.
 
-   > [!TIP]
-   > When the dialog box appears, you can press **F1** for help on the various settings on that page.
+> [!TIP]
+> When the Options dialog box appears, you can press **F1** for help on the various settings on that page.
 
 ## Environment color themes
 
-To change the color theme between light, dark and blue, type `environment` in the **Quick Launch** box, and then choose **Environment --> General**. In the **Options** dialog box, change the **Color theme** option.
+To change the color theme between light, dark and blue, type **environment** in the search box, and then choose **Environment --> General**. In the **Options** dialog box, change the **Color theme** option.
 
-To change colorization options in the editor, type `environment` in the **Quick Launch** box, and then choose **Environment --> Fonts and Colors**. See [How to: Change fonts and colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
+To change colorization options in the editor, type **environment** in the search box, and then choose **Environment --> Fonts and Colors**. See [How to: Change fonts and colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
 ### Main menu casing
 
-You can change the main menu casing between **Title Case** ("File") and **All Caps** ("FILE"). Type `environment` in the **Quick Launch** box, select **Environment --> General**, and then change the **Apply title case styling to menu bar** option.
+You can change the main menu casing between **Title Case** ("File") and **All Caps** ("FILE"). Type **environment** in the search box, select **Environment --> General**, and then change the **Apply title case styling to menu bar** option.
 
 ### Customize menus and toolbars
 
 To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
+::: moniker range="vs-2017"
+
 ## Start page
 
 To create a custom start page for you and your team, see [Customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md).
+
+::: moniker-end
 
 ## Window layouts
 

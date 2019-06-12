@@ -1,14 +1,9 @@
 ---
 title: "Class View and Object Browser Icons | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "icons, in Object Browser"
   - "signal icons"
@@ -22,7 +17,7 @@ ms.assetid: 58cc3f44-c296-4a88-a008-09d28598d9c0
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Class View and Object Browser Icons
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +44,7 @@ Class View** and the **Object Browser** display icons that represent code entiti
  The following signal icons apply to all the previous icons and indicate their accessibility.  
   
 > [!NOTE]
->  If your project is included in a source control database, additional signal icons may be displayed to indicate source-control status, such as checked in or checked out.  
+> If your project is included in a source control database, additional signal icons may be displayed to indicate source-control status, such as checked in or checked out.  
   
 |Icon|Description|  
 |----------|-----------------|  
@@ -62,6 +57,3 @@ Class View** and the **Object Browser** display icons that represent code entiti
   
 ## See Also  
  [Viewing the Structure of Code](../ide/viewing-the-structure-of-code.md)
-
-
-

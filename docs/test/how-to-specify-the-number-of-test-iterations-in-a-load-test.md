@@ -1,5 +1,5 @@
 ---
-title: "Specify the Number of Test Iterations in a Load Test Run Setting"
+title: "Specify number of test iterations in load test run setting"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 45a625db-b3e7-4d64-beda-b9a76248096d
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify the number of test iterations in a load test run setting
 
@@ -25,19 +23,19 @@ Using the **Load Test Editor**, you can edit the **Test Iterations** property of
 
 ## To specify the number of test iterations in a run setting
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears and displays the load test tree.
 
-2.  In the load test tree, in the **Run Settings** folder, choose a run setting.
+2. In the load test tree, in the **Run Settings** folder, choose a run setting.
 
-3.  On the **View** menu, select **Properties Window** to view the load run setting's categories and properties.
+3. On the **View** menu, select **Properties Window** to view the load run setting's categories and properties.
 
-4.  Set the **Use Test Iterations** property to **True**.
+4. Set the **Use Test Iterations** property to **True**.
 
-5.  In the **Test Iterations** property, enter a number that indicates the number of test iterations to run during the load test.
+5. In the **Test Iterations** property, enter a number that indicates the number of test iterations to run during the load test.
 
-6.  After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Test Iterations** value.
+6. After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Test Iterations** value.
 
 ## See also
 

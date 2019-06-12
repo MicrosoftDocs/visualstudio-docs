@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Missing Objects Due to Device State | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 1b0d2bbd-0729-4aa5-8308-70c5bf1468c5
 caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Missing Objects Due to Device State
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,13 +17,13 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md
   
  This walkthrough demonstrates how to:  
   
--   Use the **Graphics Event List** to locate potential sources of the problem.  
+- Use the **Graphics Event List** to locate potential sources of the problem.  
   
--   Use the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.  
+- Use the **Graphics Pipeline Stages** window to check the effect of the `DrawIndexed` Direct3D API calls.  
   
--   Use the **Graphics Pixel History** window to locate the problem more specifically.  
+- Use the **Graphics Pixel History** window to locate the problem more specifically.  
   
--   Inspect the device state for potential problems or misconfigurations.  
+- Inspect the device state for potential problems or misconfigurations.  
   
 ## Scenario  
  One of the reasons that objects might not appear where they are expected in a 3-D app is a misconfiguration of the graphics device that causes the objects to be excluded from rendering—for example, when the winding order causes triangles to be culled in error, or when the depth test function causes all pixels in the object to be rejected.  
@@ -107,6 +102,3 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md
    After you determine that the cause of the rendering issue might be a misconfigured depth function, you can use this information together with your knowledge of the code to locate where the depth function was set incorrectly, and then fix the problem. If you are unfamiliar with the code, you could search for the problem by using clues that you gathered while you were debugging—for example, based on the **depth stencil description** in this scenario, you could search the code for words like "depth" or "GREATER". After you fix the code, rebuild it and run the app again to discover that the rendering issue is solved:  
   
    ![App after the problem is fixed](../debugger/media/vsg-walkthru1-finalview.png "vsg_walkthru1_finalview")
-
-
-

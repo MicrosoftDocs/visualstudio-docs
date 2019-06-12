@@ -2,15 +2,13 @@
 title: "Workflow Designer - SendAndReceiveReply Template Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.ServiceModel.Activities.SendAndReceiveReply.UI"
   - "System.ServiceModel.Activities.ReceiveReply.UI"
 ms.assetid: 818a8c84-6593-416d-b016-1d91b85ffb68
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -37,7 +35,6 @@ For more information about using the **Send** designer to configure the <xref:Sy
 ### Properties of ReceiveReply
 
 The following table shows the <xref:System.ServiceModel.Activities.ReceiveReply> properties and describes how they're used in the designer. These properties can be edited in properties grid, and some can be edited on the Workflow Designer surface.
-
 
 | Property Name | Required | Usage |
 |-|----------|-|

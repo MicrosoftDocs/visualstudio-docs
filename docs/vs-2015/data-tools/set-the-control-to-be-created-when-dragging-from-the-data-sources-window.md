@@ -1,12 +1,9 @@
 ---
 title: "Set the control to be created when dragging from the Data Sources window | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,12 +18,11 @@ ms.assetid: 20597ff8-0c98-43ec-8fb1-05376804ba48
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Set the control to be created when dragging from the Data Sources window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can create data-bound controls by dragging items from the **Data Sources** window onto the WPF designer or Windows Forms designer. Each item in the **Data Sources** window has a default control that is created when you drag it to the designer. However, you can choose to create a different control.  
   
 ## Set the controls to be created for data tables or objects  
@@ -55,13 +51,13 @@ You can create data-bound controls by dragging items from the **Data Sources** w
   
 #### To set the controls to be created for columns or properties  
   
-1.  Make sure that the WPF designer or the Windows Forms designer is open.  
+1. Make sure that the WPF designer or the Windows Forms designer is open.  
   
-2.  In the **Data Sources** window, expand the desired table or object to display its columns or properties.  
+2. In the **Data Sources** window, expand the desired table or object to display its columns or properties.  
   
-3.  Select each column or property for which you want to set the control to be created.  
+3. Select each column or property for which you want to set the control to be created.  
   
-4.  Click the drop-down menu for the column or property, and then select the control you want to create when the item is dragged to the designer.  
+4. Click the drop-down menu for the column or property, and then select the control you want to create when the item is dragged to the designer.  
   
      The list of available controls depends on which designer you have open, which version of the .NET Framework your project targets, and which custom controls that support data binding you have added to the **Toolbox**. If the control you want to create is in the list of available controls, you can add the control to the list. For more information, see [Add custom controls to the Data Sources window](../data-tools/add-custom-controls-to-the-data-sources-window.md).  
   
@@ -71,4 +67,3 @@ You can create data-bound controls by dragging items from the **Data Sources** w
   
 ## See Also  
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
-

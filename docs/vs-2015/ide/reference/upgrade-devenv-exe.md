@@ -1,14 +1,9 @@
 ---
 title: "-Upgrade (devenv.exe) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 helpviewer_keywords: 
   - "/upgrade Devenv switch"
   - "Devenv, /upgrade switch"
@@ -17,12 +12,11 @@ ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # /Upgrade (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] formats for these files.  
   
 ## Syntax  
@@ -55,6 +49,3 @@ devenv "MyProject.sln" /upgrade
 ## See Also  
  [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)   
  [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
-
-
-

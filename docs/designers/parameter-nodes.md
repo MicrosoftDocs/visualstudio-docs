@@ -1,13 +1,11 @@
 ---
 title: Parameter Nodes
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 ms.assetid: da54db0b-3a3d-48dc-858c-7ac43aa04b13
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -2,7 +2,7 @@
 title: How to retain a constant virtual IP address for an Azure cloud service | Microsoft Docs
 description: Learn how to ensure that the virtual IP address (VIP) of your Azure cloud service doesn't change.
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 4a58e2c6-7a79-4051-8a2c-99182ff8b881
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure
@@ -25,28 +25,27 @@ You can specify deployment settings in the **Publish Wizard**, which supports se
 
 2. In **Solution Explorer**, right-click the project. On the shortcut menu, select **Publish**.
 
-	![Publish menu](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/solution-explorer-publish-menu.png)
+    ![Publish menu](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/solution-explorer-publish-menu.png)
 
 3. In the **Publish Azure Application** dialog box, select the Azure subscription to which you want to deploy. Sign in if necessary, and select **Next**.
 
-	![Publish Azure Application Sign In page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-signin.png)
+    ![Publish Azure Application Sign In page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-signin.png)
 
 4. On the **Common Settings** tab, verify that the name of the cloud service to which you’re deploying, the **Environment**, the **Build configuration**, and the **Service configuration** are all correct.
 
-	![Publish Azure Application Common Settings tab](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-common-settings.png)
+    ![Publish Azure Application Common Settings tab](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-common-settings.png)
 
 5. On the **Advanced Settings** tab, verify that the **Deployment label** and the **Storage account** are correct. Verify that the **Delete deployment on failure** check box is cleared, and verify that the **Deployment update** check box is selected. By clearing the **Delete deployment on failure** check box, you ensure that your VIP isn't lost if an error occurs during deployment. By selecting the **Deployment update** check box, you ensure that your deployment isn't deleted and your VIP isn't lost when you republish your application. 
 
-	![Publish Azure Application Advanced Settings tab](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-advanced-settings.png)
+    ![Publish Azure Application Advanced Settings tab](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-advanced-settings.png)
 
 6. To further specify how you want the roles to be updated, select **Settings** next to **Deployment update**. Select either **Incremental update** or **Simultaneous update**, and select **OK**. Choose **Incremental update** to update each instance of your application, one after another, so that the application is always available. Choose **Simultaneous update** to update all instances of your application at the same time. Simultaneous updating is faster, but your service might not be available during the update process. When you are finished, select **Next**.
 
-	![Publish Azure Application Deployment Settings page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-deployment-update-settings.png)
+    ![Publish Azure Application Deployment Settings page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-deployment-update-settings.png)
 
 7. In the **Publish Azure Application** dialog box, select **Next** until the **Summary** page is displayed. Verify your settings, and then select **Publish**.
-   
-	![Publish Azure Application Summary page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-summary.png)
+
+    ![Publish Azure Application Summary page](./media/vs-azure-tools-cloud-service-retain-a-constant-virtual-ip-address/azure-publish-summary.png)
 
 ## Next steps
 - [Using the Visual Studio Publish Azure Application Wizard](vs-azure-tools-publish-azure-application-wizard.md)
-

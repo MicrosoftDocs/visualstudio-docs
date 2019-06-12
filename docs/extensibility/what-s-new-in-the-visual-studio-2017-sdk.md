@@ -1,15 +1,12 @@
 ---
 title: "What&#39;s New in the Visual Studio 2017 SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/31/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # What&#39;s New in the Visual Studio 2017 SDK
@@ -28,7 +25,7 @@ The new format has support for:
 
 To learn about these changes, see the following topics:
 
-* [Changes to extensibility for 2017](breaking-changes-2017.md)
+* [Changes to extensibility for Visual Studio 2017](breaking-changes-2017.md)
 * [Ngen support in VSIX v3](ngen-support.md)
 * [Install outside the extensions folder](set-install-root.md)
 * [Frequently asked questions for Visual Studio 2017 extensibility](faq-2017.md)

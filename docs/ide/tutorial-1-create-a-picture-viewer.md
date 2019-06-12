@@ -1,15 +1,11 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.custom: ""
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,19 +13,19 @@ ms.workload:
 
 In this tutorial, you build a program that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on your form, set their properties, and use containers to smoothly resize the form. You also get started writing code. You learn how to:
 
--   Create a new project.
+- Create a new project.
 
--   Test (debug) an application.
+- Test (debug) an application.
 
--   Add basic controls like check boxes and buttons to a form.
+- Add basic controls like check boxes and buttons to a form.
 
--   Position controls on a form using layouts.
+- Position controls on a form using layouts.
 
--   Add **Open File** and **Color** dialog boxes to a form.
+- Add **Open File** and **Color** dialog boxes to a form.
 
--   Write code using IntelliSense and code snippets.
+- Write code using IntelliSense and code snippets.
 
--   Write event handler methods.
+- Write event handler methods.
 
 When you finish, your program will look like the following picture:
 

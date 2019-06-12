@@ -1,23 +1,24 @@
 ---
-title: "Debug a Node.js app"
-description: Visual Studio provides support for debugging Node.js applications in Visual Studio
-ms.custom: ""
+title: "Debug a JavaScript or TypeScript app"
+description: Visual Studio provides support for debugging JavaScript and TypeScript apps in Visual Studio
 ms.date: "12/03/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
 ---
 
-# Debug a Node.js app in Visual Studio
+# Debug a JavaScript or TypeScript app in Visual Studio
 
 You can debug JavaScript and TypeScript code using Visual Studio. You can set and hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
+
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio.
 
 ## Debug server-side script
 
@@ -54,6 +55,13 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
     `chrome.exe --remote-debugging-port=9222`
 
     This command starts Chrome with debugging enabled.
+
+    ::: moniker range=">=vs-2019"
+
+    > [!NOTE]
+    > You can also set the `--remote-debugging-port` flag at browser launch by selecting **Browse With...** > from the **Debug** toolbar, then choosing **Add**, and then setting the flag in the **Arguments** field. Use a different friendly name for the browser such as **Chrome with Debugging**. For details, see the [Release Notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview).
+
+    ::: moniker-end
 
 3. Switch to Visual Studio and set a breakpoint in your source code. (Set the breakpoint in a line of code that allows breakpoints, such as a `return` statement or a `var` declaration).
 
@@ -95,7 +103,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
     * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*), and are unable to do it, remove the source map file, *filename.js.map*.
 
      > [!TIP]
-     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process in Visual Studio 2017 by choosing **Debug** > **Reattach to Process**.
+     > Once you attach to the process the first time by following these steps, you can quickly reattach to the same process by choosing **Debug** > **Reattach to Process**.
 
 ## <a name="generate_sourcemaps"></a> Generate source maps for debugging
 
@@ -162,8 +170,8 @@ Debugging dynamically generated files is not automatic. You cannot automatically
    For Chrome, go to **Solution Explorer > Script Documents > YourPageName**.
 
     > [!NOTE]
-    > When using Chrome, you might get a message `no source is available between `<script>` tags.` This is OK, just continue debugging.
+    > When using Chrome, you might get a message **no source is available between \<script> tags**. This is OK, just continue debugging.
 
    For Internet Explorer, go to **Solution Explorer > Script Documents > Windows Internet Explorer > YourPageName**.
 
-For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://blogs.msdn.microsoft.com/webdev/2016/11/21/client-side-debugging-of-asp-net-projects-in-google-chrome/).
+For more information, see [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).

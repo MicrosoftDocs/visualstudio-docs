@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify Build Events (Visual Basic) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "pre-build events"
   - "events [Visual Studio], builds"
@@ -19,7 +14,7 @@ ms.assetid: 40dc83bf-a7c5-4a14-816a-fa0980b6e4c3
 caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Specify Build Events (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,25 +24,25 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
  Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.  
   
 > [!NOTE]
->  Visual Basic Express does not support entry of build events. This is supported only in the full Visual Studio product.  
+> Visual Basic Express does not support entry of build events. This is supported only in the full Visual Studio product.  
   
 ## How to Specify Pre-Build and Post-Build Events  
   
 #### To specify a build event  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Compile** tab.  
+2. Click the **Compile** tab.  
   
-3.  Click the **Build Events** button to open the **Build Events** dialog box.  
+3. Click the **Build Events** button to open the **Build Events** dialog box.  
   
-4.  Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.  
-  
-    > [!NOTE]
-    >  Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+4. Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.  
   
     > [!NOTE]
-    >  If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
+    > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.  
+  
+    > [!NOTE]
+    > If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.  
   
 ## Example: How to Change Manifest Information Using a Post-Build Event  
  The following procedure shows how to set the minimum operating system version in the application manifest using an .exe command called from a post-build event (the .exe.manifest file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To do this, the command will change the `<dependentOS>` section of the manifest:  
@@ -125,15 +120,15 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
 #### To invoke a post-build event to change the application manifest  
   
-1.  Create a Windows application for the project to be published. From the **File** menu, click **New**, and then click **Project**.  
+1. Create a Windows application for the project to be published. From the **File** menu, click **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows** and then the **Windows Application** template. Name the project `VBWinApp`.  
+2. In the **New Project** dialog box, in the **Visual Basic** node, select **Windows** and then the **Windows Application** template. Name the project `VBWinApp`.  
   
-3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+3. With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-4.  In the Project Designer, go to the **Publish** page and set **Publishing location** to `C:\TEMP\`.  
+4. In the Project Designer, go to the **Publish** page and set **Publishing location** to `C:\TEMP\`.  
   
-5.  Publish the project by clicking **Publish Now**.  
+5. Publish the project by clicking **Publish Now**.  
   
      The manifest file will be built and put in `C:\TEMP\VBWinApp_1_0_0_0\VBWinApp.exe.manifest`. To view the manifest, right-click the file and click **Open with**, then click **Select the program from a list**, and then click **Notepad**.  
   
@@ -143,9 +138,9 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />  
     ```  
   
-6.  In the Project Designer, go to the **Compile** tab and click the **Build Events** button to open the **Build Events** dialog box.  
+6. In the Project Designer, go to the **Compile** tab and click the **Build Events** button to open the **Build Events** dialog box.  
   
-7.  In the **Post-build Event Command Line** box, enter the following command:  
+7. In the **Post-build Event Command Line** box, enter the following command:  
   
      `C:\TEMP\ChangeOSVersionVB.exe "$(TargetPath).manifest" 5.1.2600.0`  
   
@@ -153,7 +148,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
      The `$(TargetPath)` macro expresses the full path for the executable being created. Therefore, $(TargetPath).manifest will specify the application manifest created in the bin directory. Publishing will copy this manifest to the publishing location that you set earlier.  
   
-8.  Publish the project again. Go to the **Publish** page and click **Publish Now**.  
+8. Publish the project again. Go to the **Publish** page and click **Publish Now**.  
   
      View the manifest again. To view the manifest, go to the publish directory, right-click the file and click **Open with** and then **Select the program from a list**, and then click **Notepad**.  
   
@@ -164,11 +159,8 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     ```  
   
 ## See Also  
- [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
+ [Managing Compilation Properties](https://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
  [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md)
-
-
-

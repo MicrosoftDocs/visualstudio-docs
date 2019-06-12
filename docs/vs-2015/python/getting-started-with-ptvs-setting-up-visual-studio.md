@@ -3,17 +3,13 @@ title: "Getting Started with PTVS: Setting up Visual Studio 2015 | Microsoft Doc
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "devlang-python"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-python
+ms.topic: conceptual
 ms.assetid: ec491c1d-bdb2-4c2b-a390-bd808cec635a
 caps.latest.revision: 6
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with PTVS: Setting up Visual Studio
 

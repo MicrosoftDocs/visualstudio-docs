@@ -1,23 +1,21 @@
 ---
-title: Commit in-process edits on data-bound controls before saving data
+title: Commit in-process edits on data-bound controls before saving
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
-  - "commiting edited records"
+  - "committing edited records"
   - "data-bound controls, in-process edits"
-  - "DataBinding class, commiting edited records"
-  - "hierarchical update, commiting edited records"
-  - "BindingSource class, commiting edited records"
+  - "DataBinding class, committing edited records"
+  - "hierarchical update, committing edited records"
+  - "BindingSource class, committing edited records"
   - "EndEdit method"
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -36,12 +34,12 @@ The following code uses a [LINQ (Language-Integrated Query)](/dotnet/csharp/linq
 
 ## To call EndEdit for all BindingSource components on a form
 
-1.  Add the following code to the form that contains the <xref:System.Windows.Forms.BindingSource> components.
+1. Add the following code to the form that contains the <xref:System.Windows.Forms.BindingSource> components.
 
      [!code-csharp[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.cs)]
      [!code-vb[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.vb)]
 
-2.  Add the following line of code immediately before any calls to save the form's data (the `TableAdapterManager.UpdateAll()` method):
+2. Add the following line of code immediately before any calls to save the form's data (the `TableAdapterManager.UpdateAll()` method):
 
      [!code-csharp[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.cs)]
      [!code-vb[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.vb)]

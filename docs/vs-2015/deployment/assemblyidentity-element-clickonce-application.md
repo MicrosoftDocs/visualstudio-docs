@@ -1,14 +1,9 @@
 ---
 title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#assemblyIdentity"
 dev_langs: 
@@ -21,7 +16,7 @@ ms.assetid: f48e9531-efac-4d11-8166-f63a5ece1ac5
 caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;assemblyIdentity&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +67,3 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../includes/ndpt
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)
-
-
-

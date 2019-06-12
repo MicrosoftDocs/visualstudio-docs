@@ -2,7 +2,6 @@
 title: "IDebugExpression Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Represents an asynchronously evaluated expression. Script engines typically implement this interface. A debugger IDE typically uses this interface to enable an immediate execution window or watch window.  
   
 > [!NOTE]
->  The `IDebugExpression` interface is available only from a stack frame.  
+> The `IDebugExpression` interface is available only from a stack frame.  
   
  In addition to the methods inherited from `IUnknown`, the `IDebugExpression` interface exposes the following methods.  
   

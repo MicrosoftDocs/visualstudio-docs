@@ -2,7 +2,6 @@
 title: "IJsDebugFrame::Evaluate Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Evaluate an expression in the context of this stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Evaluate(  
    LPCOLESTR pExpressionText,  
    IJsDebugProperty **ppDebugProperty,  

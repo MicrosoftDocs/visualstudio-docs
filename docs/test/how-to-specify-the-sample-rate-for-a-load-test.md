@@ -7,9 +7,7 @@ helpviewer_keywords:
 ms.assetid: 51cbe7d6-5dfd-4842-bca3-f7f8a665dc84
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify the sample rate for a load test run setting
 
@@ -32,19 +30,19 @@ Here are some guidelines for sample rates:
 
 ## To specify performance counter sampling rate in a run setting
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2.  In the load test tree, in the **Run Settings** folder, choose the run setting that you want to specify the sample rate for.
+2. In the load test tree, in the **Run Settings** folder, choose the run setting that you want to specify the sample rate for.
 
-3.  On the **View** menu, select **Properties Window**.
+3. On the **View** menu, select **Properties Window**.
 
      The load run setting's categories and properties are displayed in the **Properties** window.
 
-4.  In the **Sample Rate** property, enter a time value that indicates the frequency at which the load test will collect performance counter data.
+4. In the **Sample Rate** property, enter a time value that indicates the frequency at which the load test will collect performance counter data.
 
-5.  After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Sample Rate** value.
+5. After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Sample Rate** value.
 
 ## See also
 

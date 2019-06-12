@@ -1,5 +1,5 @@
 ---
-title: "How to: Modify a Standard Menu Command in a Domain-Specific Language"
+title: "Modify standard menu command in DSL"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, adding custom commands"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
 
@@ -24,15 +22,15 @@ You can modify the behavior of some of the standard commands that are defined au
 
 ### To discover what commands you can modify
 
-1.  In the `DslPackage` project, open `GeneratedCode\CommandSet.cs`. This C# file can be found in Solution Explorer as a subsidiary of `CommandSet.tt`.
+1. In the `DslPackage` project, open `GeneratedCode\CommandSet.cs`. This C# file can be found in Solution Explorer as a subsidiary of `CommandSet.tt`.
 
-2.  Find classes in this file whose names end with "`CommandSet`", for example `Language1CommandSet` and `Language1ClipboardCommandSet`.
+2. Find classes in this file whose names end with "`CommandSet`", for example `Language1CommandSet` and `Language1ClipboardCommandSet`.
 
-3.  In each command set class, type "`override`" followed by a space. IntelliSense will show a list of the methods that you can override. Each command has a pair of methods whose names begin "`ProcessOnStatus`" and "`ProcessOnMenu`".
+3. In each command set class, type "`override`" followed by a space. IntelliSense will show a list of the methods that you can override. Each command has a pair of methods whose names begin "`ProcessOnStatus`" and "`ProcessOnMenu`".
 
-4.  Note which of the command set classes contains the command you want to modify.
+4. Note which of the command set classes contains the command you want to modify.
 
-5.  Close the file without saving your edits.
+5. Close the file without saving your edits.
 
     > [!NOTE]
     > Ordinarily, you should not edit files that have been generated. Any edits will be lost the next time that the files are generated.
@@ -43,15 +41,15 @@ Create a new file that contains a partial declaration of the command set class.
 
 ### To extend the Command Set class
 
-1.  In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:
+1. In Solution Explorer, in the DslPackage project, open the GeneratedCode folder and then look under CommandSet.tt and open its generated file CommandSet.cs. Note the namespace and the name of the first class that is defined there. For example, you might see:
 
      `namespace Company.Language1`
 
      `{ ...  internal partial class Language1CommandSet : ...`
 
-2.  In **DslPackage**, create a folder named **Custom Code**. In this folder, create a new class file named `CommandSet.cs`.
+2. In **DslPackage**, create a folder named **Custom Code**. In this folder, create a new class file named `CommandSet.cs`.
 
-3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:
+3. In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:
 
     ```csharp
     using System;
@@ -124,17 +122,17 @@ If your code makes changes to the Store, such as creating, deleting or updating 
 
 The following fragments are frequently useful within these methods:
 
--   `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
+- `this.CurrentSelection`. The shape that the user right-clicked is always included in this list of shapes and connectors. If the user clicks on a blank part of the diagram, the Diagram is the only member of the list.
 
--   `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
+- `this.IsDiagramSelected()` - `true` if the user clicked a blank part of the diagram.
 
--   `this.IsCurrentDiagramEmpty()`
+- `this.IsCurrentDiagramEmpty()`
 
--   `this.IsSingleSelection()` - the user did not select multiple shapes
+- `this.IsSingleSelection()` - the user did not select multiple shapes
 
--   `this.SingleSelection` - the shape or diagram that the user right-clicked
+- `this.SingleSelection` - the shape or diagram that the user right-clicked
 
--   `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
+- `shape.ModelElement as MyLanguageElement` - the model element represented by a shape.
 
 For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 

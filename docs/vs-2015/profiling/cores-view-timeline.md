@@ -1,14 +1,9 @@
 ---
 title: "Cores View Timeline | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.cores.timeline.threads"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 10f0c666-ac2f-4ac5-9fb5-a88f660ab840
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Cores View Timeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,6 +22,3 @@ Every row in the timeline represents a logical processor core on the profiled sy
 ## See Also  
  [Cores View](../profiling/cores-view.md)   
  [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)
-
-
-

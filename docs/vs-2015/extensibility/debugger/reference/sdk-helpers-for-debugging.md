@@ -1,14 +1,9 @@
 ---
 title: "SDK Helpers for Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "dbgmetric.lib"
   - "registry, Debugging SDK"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 caps.latest.revision: 29
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # SDK Helpers for Debugging
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ manager: "ghogen"
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.  
   
 > [!NOTE]
->  There are no managed versions of these functions and declarations at this time.  
+> There are no managed versions of these functions and declarations at this time.  
   
 ## Overview  
  In order for debug engines, expression evaluators, and symbol providers to be used by Visual Studio, they must be registered. This is done by setting registry subkeys and entries, otherwise known as "setting metrics." The following global functions are designed to ease the process of updating these metrics. See the section on Registry Locations to find out the layout of each registry subkey that is updated by these functions.  
@@ -238,7 +233,7 @@ HRESULT EnumMetricSections(
  The metrics are read from and written to the registry, specifically in the `VisualStudio` subkey.  
   
 > [!NOTE]
->  Most of the time, the metrics will be written to the HKEY_LOCAL_MACHINE key. However, sometimes HKEY_CURRENT_USER will be the destination key. Dbgmetric.lib handles both keys. When getting a metric, it searches HKEY_CURRENT_USER first, then HKEY_LOCAL_MACHINE. When it is setting a metric, a parameter specifies which top-level key to use.  
+> Most of the time, the metrics will be written to the HKEY_LOCAL_MACHINE key. However, sometimes HKEY_CURRENT_USER will be the destination key. Dbgmetric.lib handles both keys. When getting a metric, it searches HKEY_CURRENT_USER first, then HKEY_LOCAL_MACHINE. When it is setting a metric, a parameter specifies which top-level key to use.  
   
  *[registry key]*\  
   
@@ -270,7 +265,7 @@ HRESULT EnumMetricSections(
 |*[metric value]*|The value assigned to the metric. The type the value should have (string, number, etc.) depends on the metric.|  
   
 > [!NOTE]
->  All GUIDs are stored in the format of `{GUID}`. For example, `{123D150B-FA18-461C-B218-45B3E4589F9B}`.  
+> All GUIDs are stored in the format of `{GUID}`. For example, `{123D150B-FA18-461C-B218-45B3E4589F9B}`.  
   
 ### Debug Engines  
  The following is the organization of the debug engines metrics in the registry. `Engine` is the metric type name for a debug engine and corresponds to *[metric type]* in the above registry subtree.  
@@ -349,7 +344,7 @@ HRESULT EnumMetricSections(
  The following is the organization of the expression evaluator metrics in the registry. `ExpressionEvaluator` is the metric type name for the expression evaluator and corresponds to *[metric type]*.  
   
 > [!NOTE]
->  The metric type for `ExpressionEvaluator` is not defined in dbgmetric.h, as it is assumed that all metric changes for expression evaluators will go through the appropriate expression evaluator metric functions (the layout of the `ExpressionEvaluator` subkey is somewhat complicated, so the details are hidden inside dbgmetric.lib).  
+> The metric type for `ExpressionEvaluator` is not defined in dbgmetric.h, as it is assumed that all metric changes for expression evaluators will go through the appropriate expression evaluator metric functions (the layout of the `ExpressionEvaluator` subkey is somewhat complicated, so the details are hidden inside dbgmetric.lib).  
   
  `ExpressionEvaluator`\  
   
@@ -427,4 +422,3 @@ HRESULT EnumMetricSections(
   
 ## See Also  
  [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
-

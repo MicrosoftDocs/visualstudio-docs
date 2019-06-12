@@ -1,19 +1,16 @@
 ---
 title: "Add custom properties to layer diagrams | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "layer diagrams, adding custom properties"
 ms.assetid: 52b3ac25-d10b-4507-a1fe-209ccb4d2777
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Add custom properties to layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,22 +24,25 @@ When you write extension code for layer diagrams, you can store values with any 
  **Initial preparation**  
   
 > [!IMPORTANT]
->  To make properties appear, you must make the following change on each computer where you want layer properties to be visible.  
+> To make properties appear, you must make the following change on each computer where you want layer properties to be visible.  
 > 
-> 1. Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
->    2.  Inside the `Content` element, add:  
+>  1. Run Notepad by using **Run as Administrator**. Open `%ProgramFiles%\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\ExtensibilityRuntime\extension.vsixmanifest`  
+>  
+>  2. Inside the `Content` element, add:  
 > 
->    ```xml  
->    <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
->    ```  
->    3.  Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
+>     ```xml  
+>     <MefComponent>Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.Provider.dll</MefComponent>  
+>     ```  
+>
+>  3. Under the **Visual Studio Tools** section of the Visual Studio application start menu, open **Developer Command Prompt**.  
 > 
->    Enter:  
+>     Enter:  
 > 
->    `devenv /rootSuffix /updateConfiguration`  
+>     `devenv /rootSuffix /updateConfiguration`  
 > 
->    `devenv /rootSuffix Exp /updateConfiguration`  
->    4.  Restart Visual Studio.  
+>     `devenv /rootSuffix Exp /updateConfiguration`  
+>    
+>  4. Restart Visual Studio.  
   
  **Make sure your code is in a VSIX project**  
   
@@ -63,15 +63,15 @@ public class MyProperty
   
  You can define properties on <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> or any of its derived classes, which include:  
   
--   `ILayerModel` - the model  
+- `ILayerModel` - the model  
   
--   `ILayer` - each layer  
+- `ILayer` - each layer  
   
--   `ILayerDependencyLink` - the links between layers  
+- `ILayerDependencyLink` - the links between layers  
   
--   `ILayerComment`  
+- `ILayerComment`  
   
--   `ILayerCommentLink`  
+- `ILayerCommentLink`  
   
 ## Example  
  The following code is a typical custom property descriptor. It defines a Boolean property on the layer model (`ILayerModel`) that lets the user provide values for a custom validation method.  
@@ -161,6 +161,3 @@ namespace MyNamespace
   
 ## See Also  
  [Extend layer diagrams](../modeling/extend-layer-diagrams.md)
-
-
-

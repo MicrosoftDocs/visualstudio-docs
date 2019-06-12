@@ -4,9 +4,7 @@ ms.date: 05/16/2018
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -14,7 +12,7 @@ ms.workload:
 
 When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but improves later performance. If your code changes, Visual Studio reindexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following suggestions:
 
-- [Map only the dependencies that interest you.](#create-a-code-map-to-see-specific-dependencies)
+- Map only the dependencies that interest you.
 
 - Before you generate the map for an entire solution, reduce the solution scope.
 

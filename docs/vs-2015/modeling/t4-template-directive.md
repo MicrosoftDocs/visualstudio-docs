@@ -1,17 +1,14 @@
 ---
 title: "T4 Template Directive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 2b0a8e04-6fee-4c6c-b086-e49fc728a3ed
 caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # T4 Template Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +30,7 @@ A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts w
  `compilerOptions="optimize+"`  
   
  Valid values:  
- Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](http://msdn.microsoft.com/library/96437ecc-6502-4cd3-b070-e9386a298e83) and [Visual Basic Compiler Options Listed by Category](http://msdn.microsoft.com/library/fbe36f7a-7cfa-4f77-a8d4-2be5958568e3).  
+ Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](https://msdn.microsoft.com/library/96437ecc-6502-4cd3-b070-e9386a298e83) and [Visual Basic Compiler Options Listed by Category](https://msdn.microsoft.com/library/fbe36f7a-7cfa-4f77-a8d4-2be5958568e3).  
   
  Ignored for run-time (preprocessed) templates.  
   
@@ -52,7 +49,8 @@ A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] T4 text template usually starts w
   
 ## debug attribute  
  Example:  
- ```  
+
+```  
 debug="true"  
 ```  
   
@@ -67,7 +65,8 @@ debug="true"
   
 ## hostspecific attribute  
  Example:  
- ```  
+
+```  
 hostspecific="true"  
 ```  
   
@@ -141,7 +140,8 @@ Squares of numbers:
  More typically, you specify another preprocessed template as the base class. The base template provides common blocks of text, which can be interleaved with text from the derived templates. You can use class feature blocks `<#+ ... #>` to define methods that contain text fragments. For example, you can place the framework of the output text in the base template, providing virtual methods that can be overridden in derived templates:  
   
  Run-time (preprocessed) text template BaseTemplate.tt:  
- ```scr  
+
+```scr  
 This is the common header.  
 <#   
   SpecificFragment1();   
@@ -160,7 +160,8 @@ This is the common footer.
 ```  
   
  Run-time (preprocessed) text template DerivedTemplate1.tt:  
- ```csharp  
+
+```csharp  
 <#@ template language="C#" inherits="BaseTemplate" #>  
 <#   
   // Run the base template:  
@@ -185,12 +186,14 @@ protected override void SpecificFragment2()
 ```  
   
  Application code to invoke DerivedTemplate1:  
- ```csharp  
+
+```csharp  
 Console.WriteLine(new DerivedTemplate().TransformText());  
 ```  
   
  Resulting output:  
- ```  
+
+```  
 This is the common header.  
    Fragment 1 for DerivedTemplate1  
 A common central text.  
@@ -203,7 +206,7 @@ This is the common footer.
  You can also use an ordinary hand-written class as the base class. The base class must provide the methods used by the derived class.  
   
 > [!WARNING]
->  If you use the `inherits` and `hostspecific` attributes together, specify hostspecific="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.  
+> If you use the `inherits` and `hostspecific` attributes together, specify hostspecific="trueFromBase" in the derived class and host="true" in the base class. This avoids a double definition of the `Host` property in the generated code.  
   
 ### Inheritance in a design-time text template  
  A design-time text template is a file for which **Custom Tool** is set to **TextTemplatingFileGenerator**. The template generates an output file of code or text, which forms part of your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project. To generate the output file, the template is first translated into an intermediate program code file, which you do not usually see. The `inherits` attribute specifies the base class for this intermediate code.  
@@ -235,6 +238,3 @@ This is the common footer.
  `internal`  
   
  In a runtime text template, this sets the visibility attribute of the generated class. By default, the class is part of the public API of your code, but by setting `visibility="internal"` you can make sure that only your code can use the text-generating class.
-
-
-

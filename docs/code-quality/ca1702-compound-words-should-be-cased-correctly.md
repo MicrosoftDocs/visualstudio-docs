@@ -1,8 +1,6 @@
 ---
 title: "CA1702: Compound words should be cased correctly"
 ms.date: 03/28/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1702"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 05481245-7ad8-48c3-a456-3aa44b6160a6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

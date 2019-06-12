@@ -13,9 +13,7 @@ helpviewer_keywords:
 ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -27,17 +25,15 @@ You can save data in your application back to the database by calling the `Updat
 
 Tasks illustrated in this walkthrough include:
 
--   Creating a new **Windows Forms Application** project.
+- Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
--   Creating and configuring a data source in your application with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
+- Setting the controls of the items in the [Data Sources window](add-new-data-sources.md#data-sources-window). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
--   Setting the controls of the items in the [Data Sources window](add-new-data-sources.md#data-sources-window). For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+- Creating data-bound controls by dragging items from the **Data Sources** window onto your form.
 
--   Creating data-bound controls by dragging items from the **Data Sources** window onto your form.
+- Modifying a few records in each table in the dataset.
 
--   Modifying a few records in each table in the dataset.
-
--   Modifying the code to send the updated data in the dataset back to the database.
+- Modifying the code to send the updated data in the dataset back to the database.
 
 ## Prerequisites
 
@@ -59,17 +55,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-The first step is to create a **Windows Forms Application**. Assigning a name to the project is optional during this step, but we'll give it a name because we'll save the project later.
-
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Windows Forms App** project type.
-
-4. Name the project **UpdateMultipleTablesWalkthrough**, and then choose **OK**.
-
-     The **UpdateMultipleTablesWalkthrough** project is created and added to **Solution Explorer**.
+Create a new **Windows Forms App** project for either C# or Visual Basic. Name the project **UpdateMultipleTablesWalkthrough**.
 
 ## Create the data source
 
@@ -85,11 +71,11 @@ This step creates a data source from the Northwind database using the **Data Sou
 
 4. On the **Choose your Data Connection** screen, do one of the following:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
          -or-
 
-    -   Select **New Connection** to open the **Add/Modify Connection** dialog box.
+    - Select **New Connection** to open the **Add/Modify Connection** dialog box.
 
 5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 

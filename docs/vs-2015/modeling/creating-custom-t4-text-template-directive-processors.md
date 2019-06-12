@@ -1,19 +1,16 @@
 ---
 title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, custom directive processors"
 ms.assetid: 422b47af-5441-4b02-b5ad-1b8b328457e3
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Creating Custom T4 Text Template Directive Processors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,9 +36,9 @@ The *text template transformation process* takes a *text template* file as the i
   
  Some examples of custom directive processors could be:  
   
--   A directive processor to return data from a database that accepts a user name and password as parameters.  
+- A directive processor to return data from a database that accepts a user name and password as parameters.  
   
--   A directive processor to open and read a file that accepts the name of the file as a parameter.  
+- A directive processor to open and read a file that accepts the name of the file as a parameter.  
   
 ### Principal parts of a custom directive processor  
  To develop a directive processor, you must create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
@@ -68,6 +65,3 @@ The *text template transformation process* takes a *text template* file as the i
   
  [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md)  
  Describes how to create a custom directive processor, how to register and test the directive processor, and how to format the output file as HTML.
-
-
-

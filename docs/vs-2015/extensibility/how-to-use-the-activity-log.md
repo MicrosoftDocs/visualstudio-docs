@@ -1,21 +1,16 @@
 ---
 title: "How to: Use the Activity Log | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, debugging"
   - "VSPackages, troubleshooting"
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
 caps.latest.revision: 30
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Activity Log
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,11 +18,11 @@ manager: "ghogen"
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.  
   
 > [!TIP]
->  The activity log is always turned on. Visual Studio keeps a rolling buffer of the last one hundred entries as well as the first ten entries, which have general configuration information.  
+> The activity log is always turned on. Visual Studio keeps a rolling buffer of the last one hundred entries as well as the first ten entries, which have general configuration information.  
   
 ### To write an entry to the activity log  
   
-1.  Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method or in any other method except the VSPackage constructor:  
+1. Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method or in any other method except the VSPackage constructor:  
   
     ```csharp  
     IVsActivityLog log = GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
@@ -41,13 +36,13 @@ VSPackages can write messages to the activity log. This feature is especially us
   
      This code gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry%2A> writes an informational entry into the activity log using the current cultural context.  
   
-2.  When the VSPackage is loaded (usually when a command is invoked or a window is opened), the text is written to the activity log.  
+2. When the VSPackage is loaded (usually when a command is invoked or a window is opened), the text is written to the activity log.  
   
 ### To examine the activity log  
   
-1.  Find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\14.0\ActivityLog.XML..  
+1. Find the activity log in the subfolder for  Visual Studio data: *%AppData%*\Microsoft\VisualStudio\14.0\ActivityLog.XML..  
   
-2.  Open the activity log with any text editor. Here is a typical entry:  
+2. Open the activity log with any text editor. Here is a typical entry:  
   
     ```  
     Called for: Company.MyApp.MyAppPackage ...  
@@ -63,4 +58,3 @@ VSPackages can write messages to the activity log. This feature is especially us
  <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   
  [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)   
  [VSPackages](../extensibility/internals/vspackages.md)
-

@@ -1,27 +1,22 @@
 ---
 title: "Registering an Expression Evaluator | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluators, registering"
 ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering an Expression Evaluator
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  The expression evaluator (EE) must register itself as a class factory with both the Windows COM environment and Visual Studio. An EE is implemented as a DLL so that it may be injected into either the debug engine (DE) address space or the Visual Studio address space, depending on which entity instantiates the EE.  
   
@@ -103,14 +98,14 @@ namespace EEMC
  The EE DLL implements the `DllRegisterServer` function to register itself with the  COM environment as well as Visual Studio.  
   
 > [!NOTE]
->  The MyCEE code sample registry code can be found in the file dllentry.cpp, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.  
+> The MyCEE code sample registry code can be found in the file dllentry.cpp, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.  
   
 ### DLL Server Process  
  When registering the EE, the DLL server:  
   
-1.  Registers its class factory `CLSID` as per normal COM conventions.  
+1. Registers its class factory `CLSID` as per normal COM conventions.  
   
-2.  Calls the helper function `SetEEMetric` to register with Visual Studio the EE metrics shown in the following table. The function `SetEEMetric` and the metrics specified below are part of the dbgmetric.lib library. See [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) for details.  
+2. Calls the helper function `SetEEMetric` to register with Visual Studio the EE metrics shown in the following table. The function `SetEEMetric` and the metrics specified below are part of the dbgmetric.lib library. See [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) for details.  
   
     |Metric|Description|  
     |------------|-----------------|  
@@ -120,9 +115,9 @@ namespace EEMC
     |`metricEngine`|`GUID`s of the debug engines (DE) that work with this EE|  
   
     > [!NOTE]
-    >  The `metricLanguage``GUID` identifies the language by name, but it is the `guidLang` argument to `SetEEMetric` that selects the language. When the compiler generates the debug information file, it should write the appropriate `guidLang` so that the DE knows which EE to use. The DE typically asks the symbol provider for this language `GUID`, which is stored in the debug information file.  
+    > The `metricLanguage``GUID` identifies the language by name, but it is the `guidLang` argument to `SetEEMetric` that selects the language. When the compiler generates the debug information file, it should write the appropriate `guidLang` so that the DE knows which EE to use. The DE typically asks the symbol provider for this language `GUID`, which is stored in the debug information file.  
   
-3.  Registers with Visual Studio by creating keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the version of Visual Studio to register with.  
+3. Registers with Visual Studio by creating keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the version of Visual Studio to register with.  
   
 ### Example  
  This function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.  
@@ -214,4 +209,3 @@ static HRESULT RegisterMetric( bool registerIt )
 ## See Also  
  [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
-

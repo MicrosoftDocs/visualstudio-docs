@@ -1,14 +1,9 @@
 ---
 title: "NameProfile | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "NameProfile"
   - "NameProfileA"
@@ -16,7 +11,7 @@ ms.assetid: 1bb05441-c4ff-4323-9fef-f3924fba4430
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # NameProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,7 +78,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
  If you specify a process or thread other than the current one, you must make sure that it has initialized and started running before you name it. Otherwise, the NameProfile method fails.  
   
 > [!IMPORTANT]
->  CreateProcess() and CreateThread() API functions can return before the thread or process is initialized.  
+> CreateProcess() and CreateThread() API functions can return before the thread or process is initialized.  
   
 ## .NET Framework Equivalent  
  Microsoft.VisualStudio.Profiler.dll  
@@ -136,6 +131,3 @@ void ExerciseNameProfile()
   
 ## See Also  
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
-
-
-

@@ -1,24 +1,18 @@
 ---
 title: "Configuring Targets and Tasks | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0
 caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Configuring Targets and Tasks
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 You can configure MSBuild targets and tasks to run out-of-process with MSBuild so that you can target contexts that differ from the one you are running on. For example, you can target a 32-bit .NET Framework 2.0 application while the development computer is running on a 64-bit .NET Framework 4.5 operating system. You can also target computers that run with the .NET Framework 4 or earlier. The combination of 32- or 64-bitness and the specific .NET Framework version is known as the *target context*.  
   
 ## Installation  
@@ -33,6 +27,3 @@ You can configure MSBuild targets and tasks to run out-of-process with MSBuild s
   
 ## See Also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
-
-
-

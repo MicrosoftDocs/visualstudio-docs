@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::CreateInstanceAtApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Allows the creation of objects in the application process by code that is out-of
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateInstanceAtApplication(  
    REFCLSID    rclsid,  
    IUnknown*   pUnkOuter,  

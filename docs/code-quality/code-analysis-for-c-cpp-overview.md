@@ -1,8 +1,6 @@
 ---
 title: Code Analysis for C/C++ Overview
 ms.date: 04/28/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 helpviewer_keywords:
   - "annotations, code analysis"
@@ -46,11 +44,11 @@ C:\>cl /analyze Sample.cpp
 
 ## #pragma support
 
-You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Set Code Analysis Properties for C/C++ Projects](how-to-set-code-analysis-properties-for-c-cpp-projects.md).
+You can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [Pragma Directives and the __Pragma Keyword](https://docs.microsoft.com/cpp/preprocessor/pragma-directives-and-the-pragma-keyword).
 
 ## Annotation support
 
-Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [How to: Specify Additional Code Information by Using __analysis_assume](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)
+Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 
 ## Run analysis tool as part of check-in policy
 

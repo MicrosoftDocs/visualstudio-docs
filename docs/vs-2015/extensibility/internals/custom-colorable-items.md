@@ -1,21 +1,16 @@
 ---
 title: "Custom Colorable Items | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "colorable items"
   - "language services, custom colorable items"
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Custom Colorable Items
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,11 +24,11 @@ You can override the list of types for colorizing, such as keywords and comments
  Because the IDE handles user overrides of colorable items in the **Fonts and Colors** dialog box, you need only supply each custom colorable item with a name. This name is what appears in the **Display items** list. The colorable items appear in alphabetical order. To group your language service's custom colorable items, you can begin each name with your language name, for example **NewLanguage - Comment** and **NewLanguage - Keyword**.  
   
 > [!CAUTION]
->  You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the CreateExpInstance tool, which is installed with the Visual Studio SDK, typically in the directory  
+> You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the CreateExpInstance tool, which is installed with the Visual Studio SDK, typically in the directory  
 >   
->  **C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
+> **C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
 >   
->  To reset the cache, call `CreateExpInstance /Reset`. For more information about CreateExpInstance, see [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md).  
+> To reset the cache, call `CreateExpInstance /Reset`. For more information about CreateExpInstance, see [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md).  
   
  The first item in your list of colorable items is never referenced. The first item corresponds to a colorable item index of 0, and [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] always supplies the default text colors and attributes for that item. The easiest way of dealing with this unreferenced item is to supply a placeholder colorable item in your list as the first item.  
   
@@ -71,4 +66,3 @@ You can override the list of types for colorizing, such as keywords and comments
  [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
  [Implementing Syntax Coloring](../../extensibility/internals/implementing-syntax-coloring.md)   
  [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
-

@@ -1,8 +1,6 @@
 ---
 title: "CA2123: Override link demands should be identical to base"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2123"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4538ecd5-fc6f-4480-ab00-90b2ce4730db
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

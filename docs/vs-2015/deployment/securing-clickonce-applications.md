@@ -1,14 +1,9 @@
 ---
 title: "Securing ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
 caps.latest.revision: 47
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Securing ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,20 +68,17 @@ manager: "wpickett"
  You should never pass arguments retrieved through a query string to a database or to the command line without checking the arguments to make sure that they are safe. Unsafe arguments are ones that include database or command line escape characters that could allow a malicious user to manipulate your application into executing arbitrary commands.  
   
 > [!NOTE]
->  Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application from the command line.  
+> Query-string arguments are the only way to pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application at startup. You cannot pass arguments to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application from the command line.  
   
 ## Deploying Obfuscated Assemblies  
  You might want to obfuscate your application by using Dotfuscator to prevent others from reverse engineering the code. However, assembly obfuscation is not integrated into the Visual Studio IDE or the ClickOnce deployment process. Therefore, you will have to perform the obfuscation outside of the deployment process, perhaps using a post-build step. After you build the project, you would perform the following steps manually, outside of Visual Studio:  
   
-1.  Perform the obfuscation by using Dotfuscator.  
+1. Perform the obfuscation by using Dotfuscator.  
   
-2.  Use Mage.exe or MageUI.exe to generate the ClickOnce manifests and sign them. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14).  
+2. Use Mage.exe or MageUI.exe to generate the ClickOnce manifests and sign them. For more information, see [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14).  
   
-3.  Manually publish (copy) the files to your deployment source location (Web server, UNC share, or CD-ROM).  
+3. Manually publish (copy) the files to your deployment source location (Web server, UNC share, or CD-ROM).  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
-
-
-

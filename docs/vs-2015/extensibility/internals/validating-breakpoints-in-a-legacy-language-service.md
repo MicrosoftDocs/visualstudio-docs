@@ -1,21 +1,16 @@
 ---
 title: "Validating Breakpoints in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "breakpoint validation"
   - "language services [managed package framework], breakpoint validation"
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Validating Breakpoints in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,13 +21,13 @@ A breakpoint indicates that program execution should stop at a particular point 
   
 ## Implementing Support for Validating Breakpoints  
   
--   The <xref:Microsoft.VisualStudio.Package.LanguageService.ValidateBreakpointLocation%2A> method is given the position of the breakpoint. Your implementation must decide whether or not the location is valid, and indicate this by returning a text span that identifies the code associated with the line position the breakpoint.  
+- The <xref:Microsoft.VisualStudio.Package.LanguageService.ValidateBreakpointLocation%2A> method is given the position of the breakpoint. Your implementation must decide whether or not the location is valid, and indicate this by returning a text span that identifies the code associated with the line position the breakpoint.  
   
--   Return <xref:Microsoft.VisualStudio.VSConstants.S_OK> if the location is valid, or <xref:Microsoft.VisualStudio.VSConstants.S_FALSE> if it is not valid.  
+- Return <xref:Microsoft.VisualStudio.VSConstants.S_OK> if the location is valid, or <xref:Microsoft.VisualStudio.VSConstants.S_FALSE> if it is not valid.  
   
--   If the breakpoint is valid the text span is highlighted along with the breakpoint.  
+- If the breakpoint is valid the text span is highlighted along with the breakpoint.  
   
--   If the breakpoint is invalid, an error message appears in the status bar.  
+- If the breakpoint is invalid, an error message appears in the status bar.  
   
 ### Example  
  This example shows an implementation of the <xref:Microsoft.VisualStudio.Package.LanguageService.ValidateBreakpointLocation%2A> method that calls the parser to obtain the span of code (if any) at the specified location.  
@@ -101,4 +96,3 @@ namespace TestLanguagePackage
   
 ## See Also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
-

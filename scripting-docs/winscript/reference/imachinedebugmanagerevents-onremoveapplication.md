@@ -2,7 +2,6 @@
 title: "IMachineDebugManagerEvents::onRemoveApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles the event when an application is removed from the running application li
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onRemoveApplication(  
    IRemoteDebugApplication*  pda,  
    DWORD                     dwAppCookie  

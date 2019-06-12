@@ -1,8 +1,6 @@
 ---
 title: Update existing project item templates
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "item templates, updating"
@@ -11,21 +9,21 @@ helpviewer_keywords:
   - "updating templates [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # How to: Update existing templates
 
-After you create a template and compress the files into a *.zip* file, you may want to modify the template. You can do this by manually changing the files in the template, or by exporting a new template from a project that is based on the template.
+After you create a template and compress the files into a *.zip* file, you may want to modify the template. You can do this by manually changing the files in the template or by exporting a new template from a project that's based on the template.
 
-## Using the Export Template Wizard to update an existing project template
+## Use the Export Template Wizard
 
 Visual Studio provides an **Export Template Wizard** that can be used to update an existing template:
 
-1. Open the **New Project** dialog box by choosing **File** > **New** > **Project**.
+1. Choose **File** > **New** > **Project** from the menu bar.
 
-1. Select the template that you want to update, enter a name and location for your project, and choose **OK**.
+1. Select the template that you want to update and continue through the steps to create the new project.
 
-1. Modify the project in Visual Studio.
+1. Modify the project in Visual Studio. For example, change the output type or add a new file to the project.
 
 1. On the **Project** menu, choose **Export Template**.
 
@@ -33,7 +31,7 @@ Visual Studio provides an **Export Template Wizard** that can be used to update 
 
 1. Follow the prompts in the wizard to export the template as a *.zip* file.
 
-1. (Optional) To add the template to the **New Project** dialog box, place the *.zip* file in the following directory: *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates*. You'll need to perform this step if you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**.
+1. (Optional) Place the *.zip* file in the following directory: *%USERPROFILE%\Documents\Visual Studio \<version\>\Templates\ProjectTemplates* to make it available for selection. You'll need to perform this step if you did not select the option **Automatically import the template into Visual Studio** in the **Export Template Wizard**.
 
 1. Delete the old template *.zip* file.
 

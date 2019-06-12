@@ -1,13 +1,11 @@
 ---
 title: Direct Selection tool modifier keys in Blend
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -20,7 +18,7 @@ The following table lists shortcuts that you can use to modify the shape of an e
 |Move a point on a path|Drag a point on a path|![Move a point on a path](../designers/media/cfcc5f41-a666-4524-a958-50b9051130ca.png)<br /><br /> Move point pointer|
 |Make tangent handles appear for a segment between two points on a path|Click a segment of a path|![Make tangent handles appear for a segment between two points on a path](../designers/media/2ace930f-98fa-410b-92cf-7a4b88503ee7.png)<br /><br /> Move segment pointer|
 |Move a segment between two points on a path|Drag a segment of a path|![Move a segment between two points on a path](../designers/media/2ace930f-98fa-410b-92cf-7a4b88503ee7.png)<br /><br /> Move segment pointer|
-|Change the angle of a tangent for a point on a path|Click a point or a segment of a path to make the tangent handles appear, and then drag one of the tangent end points|![](../designers/media/beb1a907-1e50-450c-aab3-4d7026f5e426.png)<br /><br /> Move tangent pointer|
+|Change the angle of a tangent for a point on a path|Click a point or a segment of a path to make the tangent handles appear, and then drag one of the tangent end points|![Change angle of tangent for point on path](../designers/media/beb1a907-1e50-450c-aab3-4d7026f5e426.png)<br /><br /> Move tangent pointer|
 |Make a point into a sharp corner or reduce the tangent to zero|Hover over a point, hold down **Alt**, and then click the point|![Make a point into a sharp corner or reduce the tangent to zero](../designers/media/21197b10-aba4-4a9d-8145-647d0ba8e518.png)<br /><br /> Convert point pointer|
 |Make any sharp corner smooth (or, if it's already smooth, change the angle of the curve as it passes through the clicked point)|Hover over a point, hold down **Alt**, and then drag the point|![Make any sharp corner smooth](../designers/media/21197b10-aba4-4a9d-8145-647d0ba8e518.png)<br /><br /> Convert point pointer|
 |Change a curve segment into a straight line|Hover over a segment in a path, hold down **Alt**, and then click the segment|![Change a curve segment into a straight line](../designers/media/975a855a-8536-441f-97ed-2f1496e416bf.png)<br /><br /> Convert segment pointer|

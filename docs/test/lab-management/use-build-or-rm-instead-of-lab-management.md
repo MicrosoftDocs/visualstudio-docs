@@ -1,13 +1,11 @@
 ---
 title: "Use Azure Pipelines for automated testing"
 ms.date: 10/19/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "automated testing, lab management, test lab"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren

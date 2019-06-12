@@ -1,42 +1,37 @@
 ---
 title: "Sample Implementation of Changing Values | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, local values"
   - "debugging [Debugging SDK], expression evaluation"
 ms.assetid: ee2d955b-12ca-4f27-89aa-c2d0e768b6b6
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Sample Implementation of Changing Values
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  Every local displayed in the **Locals** window has an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with it. This `IDebugProperty2` object contains the local's name, value, and type. When a user changes the value of a local, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) to update the value of the local in memory. In this example, the local is represented by the `CFieldProperty` class that implements the `IDebugProperty2` interface.  
   
 > [!NOTE]
->  For **Watch** and **QuickWatch** expressions, the value being changed is represented by the `CValueProperty` class in the MyCEE sample. However, the implementation of `IDebugProperty2::SetValueAsString` is the same as shown here.  
+> For **Watch** and **QuickWatch** expressions, the value being changed is represented by the `CValueProperty` class in the MyCEE sample. However, the implementation of `IDebugProperty2::SetValueAsString` is the same as shown here.  
   
  This implementation of `IDebugProperty2::SetValueAsString` performs the following tasks:  
   
-1.  Evaluates the expression to produce a value.  
+1. Evaluates the expression to produce a value.  
   
-2.  Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to its memory location and produce an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
+2. Binds the associated [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object to its memory location and produce an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
-3.  Converts the value to a series of bytes.  
+3. Converts the value to a series of bytes.  
   
-4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to store the bytes in memory.  
+4. Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to store the bytes in memory.  
   
 ## Managed Code  
  This is an implementation of `IDebugProperty2::SetValueAsString` in managed code.  
@@ -426,4 +421,3 @@ HRESULT FieldSetValue(
 ## See Also  
  [Changing the Value of a Local](../../extensibility/debugger/changing-the-value-of-a-local.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

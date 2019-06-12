@@ -1,13 +1,11 @@
 ---
 title: Debug or disable project code in XAML Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -17,13 +15,13 @@ In many cases, unhandled exceptions in the **XAML** designer can be caused by pr
 
 Project code includes:
 
--   Custom controls and user controls
+- Custom controls and user controls
 
--   Class libraries
+- Class libraries
 
--   Value converters
+- Value converters
 
--   Bindings against design time data generated from project code
+- Bindings against design time data generated from project code
 
 When project code is disabled, Visual Studio shows placeholders. For example, Visual Studio shows the name of the property for a binding where the data is no longer available, or a placeholder for a control that's no longer running.
 
@@ -31,43 +29,43 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 ## To determine if project code is causing an exception
 
-1.  In the unhandled exception dialog, choose the **Click here to reload the designer** link.
+1. In the unhandled exception dialog, choose the **Click here to reload the designer** link.
 
-2.  On the menu bar choose **Debug** > **Start Debugging** to build and run the application.
+2. On the menu bar choose **Debug** > **Start Debugging** to build and run the application.
 
      If the application builds and runs successfully, the design-time exception may be caused by your project code running in the designer.
 
 ## To debug project code running in the designer
 
-1.  In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
+1. In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
 
-2.  In the Windows Task Manager, choose the **End Task** button to close any instances of the Visual Studio XAML Designer that are currently running.
+2. In the Windows Task Manager, choose the **End Task** button to close any instances of the Visual Studio XAML Designer that are currently running.
 
      ![XAML designer instances in TaskManager](../designers/media/xaml_taskmanager.png)
 
-3.  In Visual Studio, open the XAML page which contains the code or control you want to debug.
+3. In Visual Studio, open the XAML page which contains the code or control you want to debug.
 
-4.  Open a new instance of Visual Studio, and then open a second instance of your project.
+4. Open a new instance of Visual Studio, and then open a second instance of your project.
 
-5.  Set a breakpoint in your project code.
+5. Set a breakpoint in your project code.
 
-6.  In the new instance of Visual Studio, on the menu bar, choose **Debug** > **Attach to Process**.
+6. In the new instance of Visual Studio, on the menu bar, choose **Debug** > **Attach to Process**.
 
-7.  In the **Attach to Process** dialog, in the **Available Processes** list, choose **XDesProc.exe**, and then choose the **Attach** button.
+7. In the **Attach to Process** dialog, in the **Available Processes** list, choose **XDesProc.exe**, and then choose the **Attach** button.
 
      ![The XAML designer process](../designers/media/xaml_attach.png)
 
      This is the process for the XAML designer in the first instance of Visual Studio.
 
-8.  In the first instance of Visual Studio, on the menu bar, choose **Debug** > **Start Debugging**.
+8. In the first instance of Visual Studio, on the menu bar, choose **Debug** > **Start Debugging**.
 
      You can now step into your code which is running in the designer.
 
 ## To disable project code in the designer
 
--   In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
+- In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
 
--   Alternatively, on the toolbar in the **XAML designer**, choose the **Disable project code** button.
+- Alternatively, on the toolbar in the **XAML designer**, choose the **Disable project code** button.
 
      ![The Disable Project Code button](../designers/media/xaml_disablecode.png)
 
@@ -76,7 +74,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
     > [!NOTE]
     > For projects that target ARM or X64 processors, Visual Studio cannot run project code in the designer, so the **Disable project code** button is disabled in the designer.
 
--   Either option causes the designer to reload and then disable all code for the associated project.
+- Either option causes the designer to reload and then disable all code for the associated project.
 
     > [!NOTE]
     > Disabling project code can lead to a loss of design-time data. An alternative is to debug the code running in the designer.
@@ -84,7 +82,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 ## Control display options
 
 > [!NOTE]
-> **Control Display Options** is only available for Universal Windows Platform applications that target the Windows 10 Fall Creators Update (build 16299) or later. The **Control Display Options** feature is available in Visual Studio 2017 version 15.9 or later. 
+> **Control Display Options** is only available for Universal Windows Platform applications that target the Windows 10 Fall Creators Update (build 16299) or later. The **Control Display Options** feature is available in Visual Studio 2017 version 15.9 or later.
 
 In the XAML designer, you can change your control display options to only display platform controls from the Windows SDK. This may improve reliability of the XAML designer.
 

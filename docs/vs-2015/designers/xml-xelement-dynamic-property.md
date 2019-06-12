@@ -1,21 +1,16 @@
 ---
 title: "Xml (XElement Dynamic Property) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 api_name: 
   - "XElement.Xml"
 ms.assetid: 69ab2a33-4fe7-4cfa-97f8-eaf063decb18
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Xml (XElement Dynamic Property)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +32,3 @@ elem.Xml
 ## See Also  
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Value](../designers/value-xelement-dynamic-property.md)
-
-
-

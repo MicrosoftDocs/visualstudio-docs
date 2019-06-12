@@ -1,6 +1,5 @@
 ---
 title: "TemplateContent Element (Visual Studio Templates) | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -9,9 +8,9 @@ f1_keywords:
 helpviewer_keywords:
   - "TemplateContent element [Visual Studio project templates]"
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---

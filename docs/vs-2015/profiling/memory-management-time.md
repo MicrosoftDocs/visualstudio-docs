@@ -1,14 +1,9 @@
 ---
 title: "Memory Management Time | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.timeline.paging"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 67af3509-3a7d-435d-bc37-5262448da915
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Memory Management Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,6 +23,3 @@ These segments in the timeline are associated with blocking times that are categ
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

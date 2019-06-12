@@ -1,14 +1,9 @@
 ---
 title: "CA2101: Specify marshaling for P-Invoke string arguments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "SpecifyMarshalingForPInvokeStringArguments"
   - "CA2101"
@@ -49,6 +44,3 @@ manager: "wpickett"
  The following example shows a method that violates this rule, and then shows how to fix the violation.
 
  [!code-csharp[FxCop.Security.PinvokeAnsiUnicode#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Security.PinvokeAnsiUnicode/cs/FxCop.Security.PinvokeAnsiUnicode.cs#1)]
-
-
-

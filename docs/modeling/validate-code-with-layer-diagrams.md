@@ -16,11 +16,9 @@ helpviewer_keywords:
   - "MSBuild, validating code"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Validate code with dependency diagrams
 
@@ -45,7 +43,7 @@ To make sure that code doesn't conflict with its design, validate your code with
 - A solution that has a modeling project with a dependency diagram. This dependency diagram must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -75,17 +73,17 @@ Dependency validation occurs in real time, and errors are shown immediately in t
 
 You can link layers to websites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.
 
-1.  On the dependency diagram, select one or more layers, right-click your selection, and then click **View Links**.
+1. On the dependency diagram, select one or more layers, right-click your selection, and then click **View Links**.
 
-2.  In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.
+2. In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.
 
 ## Include other .NET assemblies and projects for validation
 
 When you drag items to the dependency diagram, references to the corresponding .NET assemblies or projects are added automatically to the **Layer References** folder in the modeling project. This folder contains references to the assemblies and projects that are analyzed during validation. You can include other .NET assemblies and projects for validation without manually dragging them to the dependency diagram.
 
-1.  In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.
+1. In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.
 
-2.  In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.
+2. In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.
 
 ## Validate code manually
 
@@ -93,19 +91,19 @@ If you have an open dependency diagram  that is linked to solution items, you ca
 
 ### Validate code from an open dependency diagram
 
-1.  Right-click the diagram surface, and then click **Validate Architecture**.
+1. Right-click the diagram surface, and then click **Validate Architecture**.
 
     > [!NOTE]
     > By default, the **Build Action** property on the dependency diagram (.layerdiagram) file is set to **Validate** so that the diagram is included in the validation process.
 
-     The **Error List** window reports any errors that occur. For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+     The **Error List** window reports any errors that occur. For more information about validation errors, see [Troubleshoot layer validation issues](#troubleshoot-layer-validation-issues).
 
-2.  To view the source of each error, double-click the error in the **Error List** window.
+2. To view the source of each error, double-click the error in the **Error List** window.
 
     > [!NOTE]
     > Visual Studio might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the dependency diagram, or the code is missing a dependency that is specified by the dependency diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).
 
-3.  To manage errors, see [Manage validation errors](#ManageErrors).
+3. To manage errors, see [Resolve layer validation errors](#resolve-layer-validation-errors).
 
 ### Validate code at the command prompt
 
@@ -143,7 +141,7 @@ If you have an open dependency diagram  that is linked to solution items, you ca
 
      Any errors that occur will be listed. For more information about MSBuild, see [MSBuild](../msbuild/msbuild.md) and [MSBuild Task](../msbuild/msbuild-task.md).
 
-   For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+   For more information about validation errors, see [Troubleshoot layer validation issues](#troubleshoot-layer-validation-issues).
 
 ### Manage validation errors
 
@@ -179,23 +177,23 @@ Use a text editor to open the modeling project (.modelproj) file, and then inclu
 
 \- or -
 
-1.  In **Solution Explorer**, right-click the modeling project that contains the dependency diagram or diagrams, and then click **Properties**.
+1. In **Solution Explorer**, right-click the modeling project that contains the dependency diagram or diagrams, and then click **Properties**.
 
-2.  In the **Properties** window, set the modeling project's **Validate Architecture** property to **True**.
+2. In the **Properties** window, set the modeling project's **Validate Architecture** property to **True**.
 
     This includes the modeling project in the validation process.
 
-3.  In **Solution Explorer**, click the dependency diagram  (.layerdiagram) file that you want to use for validation.
+3. In **Solution Explorer**, click the dependency diagram  (.layerdiagram) file that you want to use for validation.
 
-4.  In the **Properties** window, make sure that the diagram's **Build Action** property is set to **Validate**.
+4. In the **Properties** window, make sure that the diagram's **Build Action** property is set to **Validate**.
 
     This includes the dependency diagram  in the validation process.
 
-To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
+To manage errors in the Error List window, see [Resolve layer validation errors](#resolve-layer-validation-errors).
 
 ## Troubleshoot layer validation issues
 
-The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
+The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Troubleshoot layer validation issues](#troubleshoot-layer-validation-issues).
 
 |**Issue**|**Possible Cause**|**Resolution**|
 |-|-|-|
@@ -231,6 +229,6 @@ The following section describes the syntax that is used in these errors, explain
 
 ## See also
 
-- [Live dependency validation in Visual Studio 2017](https://blogs.msdn.microsoft.com/devops/2016/11/30/live-dependency-validation-in-visual-studio-2017/)
+- [Live dependency validation in Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 - [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)

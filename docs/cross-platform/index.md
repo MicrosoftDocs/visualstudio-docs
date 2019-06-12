@@ -6,7 +6,6 @@ ms.date: 10/31/2018
 author: jasongroce
 ms.author: jasgro
 ms.topic: landing-page
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
 ms.workload:
   - apexprodleads
@@ -14,6 +13,8 @@ ms.workload:
 # Mobile development with C++ documentation
 
 Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsF">
     <li>
@@ -42,7 +43,7 @@ Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_learn-about.svg" alt="Learn about Visual C++ for cross-platform mobile develpment">
+                            <img src="/media/common/i_learn-about.svg" alt="Learn about Visual C++ for cross-platform mobile development">
                         </div>
                     </div>
                     <div class="cardText">
@@ -85,7 +86,7 @@ Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
                 <div class="card">
                     <div class="cardText">
                         <h3><a href="/cpp/visual-cpp-in-visual-studio">Visual C++</a></h3>
-                        <p><a href="/cpp/ide/ide-and-tools-for-visual-cpp-development">IDE and Tools for Visual C++ development</a><p>
+                        <p><a href="/cpp/ide/writing-and-refactoring-code">Reading and writing code</a><p>
                     </div>
                 </div>
             </div>
@@ -97,7 +98,7 @@ Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
                 <div class="card">
                     <div class="cardText">
                         <h3>Platforms</h3>
-                        <p><a href="/cpp/windows/universal-windows-apps-cpp">Universal Windows Platform (UWP) documentation</a></p>
+                        <p><a href="/cpp/cppcx/universal-windows-apps-cpp">Universal Windows Platform (UWP) documentation</a></p>
                         <p><a href="https://developer.apple.com/reference">iOS API documentation</a></p>
                         <p><a href="https://developer.android.com/guide/index.html">Android API documentation</a></p>
                     </div>

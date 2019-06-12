@@ -1,14 +1,9 @@
 ---
 title: "Item Metadata in Target Batching | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "batching [MSBuild]"
   - "MSBuild, target batching"
@@ -17,12 +12,11 @@ ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
 caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Metadata in Target Batching
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to perform dependency analysis on the inputs and outputs of a build target. If it is determined that the inputs or outputs of the target are up-to-date, the target will be skipped and the build will procede. `Target` elements use the `Inputs` and `Outputs` attributes to specify the items to inspect during dependency analysis.  
   
  If a target contains a task that uses batched items as inputs or outputs, the `Target` element of the target should use batching in its `Inputs` or `Outputs` attributes to enable [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to skip batches of items that are already up-to-date.  
@@ -73,6 +67,3 @@ manager: "ghogen"
  [Batching](../msbuild/msbuild-batching.md)   
  [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   
  [Item Metadata in Task Batching](../msbuild/item-metadata-in-task-batching.md)
-
-
-

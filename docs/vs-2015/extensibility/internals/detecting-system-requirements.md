@@ -1,21 +1,16 @@
 ---
 title: "Detecting System Requirements | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "setup, VSPackages"
   - "launch conditions"
 ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
 caps.latest.revision: 51
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Detecting System Requirements
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,7 +29,7 @@ A VSPackage cannot function unless Visual Studio is installed. When you use Micr
    When a "higher" edition is installed, the registry keys for that edition as well as for "lower" editions are added. That is, if the Enterprise edition is installed, the Install key is set to 1 for Enterprise, as well as for Professional and Community editions. Therefore you need to check only for the "highest" edition you need.  
   
 > [!NOTE]
->  In the 64-bit version of the registry editor, 32-bit keys are displayed under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\. The Visual Studio keys are under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing\\.  
+> In the 64-bit version of the registry editor, 32-bit keys are displayed under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\. The Visual Studio keys are under HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing\\.  
   
 |Product|Key|  
 |-------------|---------|  
@@ -48,4 +43,3 @@ A VSPackage cannot function unless Visual Studio is installed. When you use Micr
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md)
-

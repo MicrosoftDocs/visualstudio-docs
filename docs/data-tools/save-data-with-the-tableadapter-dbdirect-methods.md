@@ -13,9 +13,7 @@ helpviewer_keywords:
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -25,15 +23,15 @@ This walkthrough provides detailed instructions for running SQL statements direc
 
 During this walkthrough, you will learn how to:
 
--   Create a new **Windows Forms Application**.
+- Create a new **Windows Forms Application**.
 
--   Create and configure a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
+- Create and configure a dataset with the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).
 
--   Select the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+- Select the control to be created on the form when dragging items from the **Data Sources** window. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
--   Create a data-bound form by dragging items from the **Data Sources** window onto the form.
+- Create a data-bound form by dragging items from the **Data Sources** window onto the form.
 
--   Add methods to directly access the database and perform inserts, updates, and deletes.
+- Add methods to directly access the database and perform inserts, updates, and deletes.
 
 ## Prerequisites
 
@@ -83,11 +81,11 @@ This step uses the **Data Source Configuration Wizard** to create a data source 
 
 4. On the **Choose your Data Connection** screen, do one of the following:
 
-    -   If a data connection to the Northwind sample database is available in the drop-down list, select it.
+    - If a data connection to the Northwind sample database is available in the drop-down list, select it.
 
          -or-
 
-    -   Select **New Connection** to launch the **Add/Modify Connection** dialog box.
+    - Select **New Connection** to launch the **Add/Modify Connection** dialog box.
 
 5. If your database requires a password, select the option to include sensitive data, and then select **Next**.
 
@@ -148,21 +146,21 @@ A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:Syste
 
 ## Run the application
 
--   Select **F5** to run the application.
+- Select **F5** to run the application.
 
--   Select the **Insert** button, and verify that the new record appears in the grid.
+- Select the **Insert** button, and verify that the new record appears in the grid.
 
--   Select the **Update** button, and verify that the record is updated in the grid.
+- Select the **Update** button, and verify that the record is updated in the grid.
 
--   Select the **Delete** button, and verify that the record is removed from the grid.
+- Select the **Delete** button, and verify that the record is removed from the grid.
 
 ## Next steps
 
 Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form. Some enhancements you could make to this walkthrough include:
 
--   Adding search functionality to the form.
+- Adding search functionality to the form.
 
--   Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
+- Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
 
 ## See also
 

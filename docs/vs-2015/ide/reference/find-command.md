@@ -1,14 +1,9 @@
 ---
 title: "Find Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "edit.find"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
 caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Find Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.  
   
 ## Syntax  
@@ -86,6 +80,3 @@ Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

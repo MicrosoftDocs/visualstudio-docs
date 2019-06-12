@@ -2,14 +2,12 @@
 title: Django web project template for Python
 description: Visual Studio provide a comprehensive template for rapid creation of Django web applications with Python.
 ms.date: 11/12/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -34,7 +32,7 @@ Visual Studio provides full IntelliSense for Django projects:
 
     ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
 
-Visual Studio also provides full [debugging support](debugging-python-in-visual-studio.md) for Django projects: 
+Visual Studio also provides full [debugging support](debugging-python-in-visual-studio.md) for Django projects:
 
 ![Breakpoints](media/template-django-debugging.png)
 

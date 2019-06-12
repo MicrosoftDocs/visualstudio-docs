@@ -1,8 +1,6 @@
 ---
 title: Options, Text Editor, JavaScript, IntelliSense
 ms.date: 10/29/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"
@@ -11,7 +9,7 @@ f1_keywords:
 ms.assetid: b4a9816d-cf87-4dc6-a8d4-1591d6a48103
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -55,7 +53,6 @@ This option specifies the order in which files are loaded into the context of th
 > [!CAUTION]
 > If an object is defined unconditionally in two or more implicit references, the last reference in this list will be used to define the object.
 
-
 **Add a reference to the group**
 
 This option provides a way to add additional IntelliSense .js files by browsing to the appropriate files.
@@ -66,8 +63,6 @@ When this check box is selected, and if you have a JavaScript file opened outsid
 
 > [!NOTE]
 > For web projects, remote files referenced in your project are downloaded by default.
-
-
 
 ## See Also
 

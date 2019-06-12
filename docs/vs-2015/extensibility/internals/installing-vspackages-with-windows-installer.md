@@ -1,28 +1,23 @@
 ---
 title: "Installing VSPackages With Windows Installer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "installation [Visual Studio SDK], with Windows Installer"
   - "VSPackages, deploying"
 ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
 caps.latest.revision: 31
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Installing VSPackages With Windows Installer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 Integrating your VSPackage into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] splash screen and About dialog box.  
   
- Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. For more information, see [Windows Installer](http://msdn.microsoft.com/en-us/121be21b-b916-43e2-8f10-8b080516d2a0).  
+ Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. For more information, see [Windows Installer](https://msdn.microsoft.com/121be21b-b916-43e2-8f10-8b080516d2a0).  
   
 ## In This Section  
  [Windows Installer Basics](../../extensibility/internals/windows-installer-basics.md)  
@@ -61,4 +56,3 @@ Integrating your VSPackage into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 
 ## Related Sections  
  [Installing VSPackages](../../misc/installing-vspackages.md)  
  Discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] at the same time.
-

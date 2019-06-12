@@ -13,7 +13,7 @@ ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
 
 In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or solution to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using an EditorConfig file within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
 
-[EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio 2017.
+[EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio.
 
 ## Supported settings
 

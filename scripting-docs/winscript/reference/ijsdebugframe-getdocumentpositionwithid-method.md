@@ -2,7 +2,6 @@
 title: "IJsDebugFrame::GetDocumentPositionWithId Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Returns the current position of this stack frame within the user-level document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentPositionWithId(  
    UINT64 *pDocumentId,  
    DWORD *pCharacterOffset,  

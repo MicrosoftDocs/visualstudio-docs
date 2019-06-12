@@ -1,14 +1,9 @@
 ---
 title: "Expected '}' | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1009"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: dff04495-9a6e-4604-9231-e40433fec152
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,7 +20,7 @@ You did not include the right brace that marks the end of the function body, loo
   
 ### To correct this error  
   
--   Add the right brace that marks the ending of the function, loop, block, or object initializer.  
+- Add the right brace that marks the ending of the function, loop, block, or object initializer.  
   
 ## See Also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   

@@ -1,15 +1,13 @@
 ---
 title: "CA2132: Default constructors must be at least as critical as base type default constructors"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2132"
 ms.assetid: e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

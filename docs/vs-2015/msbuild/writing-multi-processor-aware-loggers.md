@@ -1,14 +1,9 @@
 ---
 title: "Writing Multi-Processor-Aware Loggers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 helpviewer_keywords: 
   - "msbuild, multi-proc aware loggers"
   - "multi-proc loggers"
@@ -17,12 +12,11 @@ ms.assetid: ff987d1b-1798-4803-9ef6-cc8fcc263516
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Writing Multi-Processor-Aware Loggers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The ability of [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to take advantage of multiple processors can decrease project building time, but it also adds complexity to build event logging. In a single-processor environment, events, messages, warnings, and errors arrive at the logger in a predictable, sequential manner. However, in a multi-processor environment, events from different sources can arrive at the same time or out of sequence. To provide for this, [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a multi-processor-aware logger and a new logging model, and lets you create custom "forwarding loggers."  
   
 ## Multi-Processor Logging Challenges  
@@ -81,7 +75,7 @@ msbuild.exe myproj.proj/distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.
 ```  
   
 > [!NOTE]
->  An asterisk (*) must separate the two logger names in the `/dl` switch.  
+> An asterisk (*) must separate the two logger names in the `/dl` switch.  
   
  Using the ConfigurableForwardingLogger is like using any other logger (as outlined in [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)), except that you attach the ConfigurableForwardingLogger logger instead of the typical [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] logger and you specify as parameters the events that you want the ConfigurableForwardingLogger to pass on to the central node.  
   
@@ -116,6 +110,3 @@ msbuild.exe myproj.proj /distributedlogger:XMLCentralLogger,MyLogger,Version=1.0
   
 ## See Also  
  [Creating Forwarding Loggers](../msbuild/creating-forwarding-loggers.md)
-
-
-

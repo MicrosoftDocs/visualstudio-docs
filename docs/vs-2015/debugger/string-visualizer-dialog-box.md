@@ -1,14 +1,9 @@
 ---
 title: "String Visualizer Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.stringviewer"
 dev_langs: 
@@ -28,7 +23,7 @@ ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # String Visualizer Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,6 +33,3 @@ This dialog box is one of the standard visualizers included with the Visual Stud
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
-
-
-

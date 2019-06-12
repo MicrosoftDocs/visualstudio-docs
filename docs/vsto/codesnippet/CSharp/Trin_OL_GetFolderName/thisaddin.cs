@@ -19,14 +19,14 @@ namespace Trin_OL_GetFolderName
         private void SetCurrentFolder()
         {
             string folderName = "TestFolder";
-            Outlook.MAPIFolder inBox = (Outlook.MAPIFolder)
-                this.Application.ActiveExplorer().Session.GetDefaultFolder
+            Outlook.Folder inBox = (Outlook.Folder)
+                Application.ActiveExplorer().Session.GetDefaultFolder
                 (Outlook.OlDefaultFolders.olFolderInbox);
             try
             {
-                this.Application.ActiveExplorer().CurrentFolder = inBox.
+                Application.ActiveExplorer().CurrentFolder = inBox.
                     Folders[folderName];
-                this.Application.ActiveExplorer().CurrentFolder.Display();
+                Application.ActiveExplorer().CurrentFolder.Display();
             }
             catch
             {

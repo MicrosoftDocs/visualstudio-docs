@@ -1,14 +1,9 @@
 ---
 title: "IDebugPortSupplier2::GetPortSupplierId | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortSupplier2::GetPortSupplierId"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 741d0829-0943-49bf-b56e-61e836043006
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugPortSupplier2::GetPortSupplierId
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,4 +41,3 @@ HRESULT GetPortSupplierId( 
   
 ## See Also  
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
-

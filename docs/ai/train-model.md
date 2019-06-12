@@ -7,9 +7,6 @@ ms.author: liwong
 manager: routlaw
 ms.date: 11/13/2017
 ms.topic: "conceptual"
-ms.devlang: multiple
-ms.service: multiple
-ms.technology: vs-ai-tools
 ms.workload:
   - "azure"
 ---
@@ -29,7 +26,7 @@ It's integrated with Visual Studio Tools for AI so you can dynamically scale out
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
-    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media/train-model/team-explorer.png)
+    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media/train-model/team-explorer-devops.png)
 
 4. In the URL field under **Local Git Repositories**, enter `https://github.com/Microsoft/samples-for-ai`, enter a folder for the cloned files, and select **Clone**.
 

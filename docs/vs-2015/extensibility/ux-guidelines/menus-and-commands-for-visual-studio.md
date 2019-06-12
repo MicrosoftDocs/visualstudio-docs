@@ -1,18 +1,13 @@
 ---
 title: "Menus and Commands"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 0a1ed675-2bd1-4603-ba3a-f40dfb5cfb69
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Menus and Commands for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,11 +29,11 @@ manager: "ghogen"
 ##### Do not create icons for every command.
  Think carefully before you create a command icon. Icons should be created only for commands that:
 
--   appear on a default toolbar.
+- appear on a default toolbar.
 
--   are likely to be added by users to a toolbar through the **Customize…** dialog.
+- are likely to be added by users to a toolbar through the **Customize…** dialog.
 
--   have an icon associated with the same action in another Microsoft product.
+- have an icon associated with the same action in another Microsoft product.
 
 ##### Limit the addition of keyboard shortcuts
  The vast majority of users employ a tiny fraction of all available shortcuts. When in doubt, don't bind your feature to a keyboard shortcut. Work with your user experience team before adding new shortcuts.
@@ -76,65 +71,65 @@ manager: "ghogen"
 
 ##### Core menus
 
--   File
+- File
 
--   Edit
+- Edit
 
--   View
+- View
 
--   Tools
+- Tools
 
--   Window
+- Window
 
--   Help
+- Help
 
 ##### Project-specific menus
 
--   Project
+- Project
 
--   Build
+- Build
 
--   Debug
+- Debug
 
 ##### Context-specific menus
 
--   Team
+- Team
 
--   Data
+- Data
 
--   Test
+- Test
 
--   Architecture
+- Architecture
 
--   Analyze
+- Analyze
 
 ##### Document-specific menus
 
--   Format
+- Format
 
--   Table
+- Table
 
 ##### When designing main menus, adhere to these rules:
 
--   Do not exceed 25 top-level items in a given context
+- Do not exceed 25 top-level items in a given context
 
--   Menus should never exceed 600 pixels in height.
+- Menus should never exceed 600 pixels in height.
 
--   Evaluate a main menu in multiple contexts, such as in the Ultimate SKU and the General Profile.
+- Evaluate a main menu in multiple contexts, such as in the Ultimate SKU and the General Profile.
 
--   Flyout menus are acceptable.
+- Flyout menus are acceptable.
 
--   Flyout menus should contain at least three items and no more than seven.
+- Flyout menus should contain at least three items and no more than seven.
 
--   Flyout menus should go only one level deep – some Visual Studio menu items have cascading submenus, but this pattern is not encouraged.
+- Flyout menus should go only one level deep – some Visual Studio menu items have cascading submenus, but this pattern is not encouraged.
 
--   Use no more than six separators. Groupings should adhere to the following illustration:
+- Use no more than six separators. Groupings should adhere to the following illustration:
 
      ![Guidelines for main menu grouping](../../extensibility/ux-guidelines/media/0501-b-mainmenus.png "0501-b_MainMenus")
 
--   While it is not required to have each grouping in the figure, adding additional groupings is restricted.
+- While it is not required to have each grouping in the figure, adding additional groupings is restricted.
 
--   Each grouping should have from two to seven menu items.
+- Each grouping should have from two to seven menu items.
 
 #### Main menu ordering
  Before adding a new top-level item, consider placing the command in an existing top-level menu. When adding a new top-level menu, be sure to place it in the correct location. Decide whether the menu is specific to project, context, or document. Keep the name of the top-level menu concise and use only one word.
@@ -146,30 +141,30 @@ manager: "ghogen"
 
  When designing context menus, adhere to the same rules as for the main menu, and in addition:
 
--   Do not exceed 25 top-level menu items.
+- Do not exceed 25 top-level menu items.
 
--   Flyout menus are acceptable but must not exceed one level deep – never use cascading flyouts.
+- Flyout menus are acceptable but must not exceed one level deep – never use cascading flyouts.
 
--   Use no more than six separators.
+- Use no more than six separators.
 
 ### Command placement in toolbars
 
 #### General toolbars
  When designing and arranging toolbars, follow these standards:
 
--   Don't use more than one verb per button. One button = one action.
+- Don't use more than one verb per button. One button = one action.
 
--   Use text alongside the icon only if it needs to be reinforced with the label.
+- Use text alongside the icon only if it needs to be reinforced with the label.
 
--   Use a combo box exclusively for properties that will be switched multiple times in one session. Otherwise, expose the property elsewhere.
+- Use a combo box exclusively for properties that will be switched multiple times in one session. Otherwise, expose the property elsewhere.
 
--   The width of a combo box should equal the width of the longest item within the box + 30%. For instance, if the longest item is 200 pixels, then the combo box should be 260 pixels wide.
+- The width of a combo box should equal the width of the longest item within the box + 30%. For instance, if the longest item is 200 pixels, then the combo box should be 260 pixels wide.
 
--   Limit the use of separators. The use of a separator next to a dropdown is an anti-pattern, because the shape of the dropdown itself acts as a visual separator.
+- Limit the use of separators. The use of a separator next to a dropdown is an anti-pattern, because the shape of the dropdown itself acts as a visual separator.
 
--   Icon groups should contain from three to six icons.
+- Icon groups should contain from three to six icons.
 
--   If qualifiers result in multiple useful commands, use a split button that stores the last setting:
+- If qualifiers result in multiple useful commands, use a split button that stores the last setting:
 
      ![Split buttons in Visual Studio](../../extensibility/ux-guidelines/media/0501-c-splitbuttons.png "0501-c_SplitButtons")
 
@@ -230,13 +225,13 @@ manager: "ghogen"
 
 #### When naming commands:
 
--   Construct text so that it is easily localizable. For more about localizing text, see [World Readiness for Visual Studio](http://msdn.microsoft.com/en-us/1cc35051-8126-441f-bea9-059245a47b1d).
+- Construct text so that it is easily localizable. For more about localizing text, see [Localization best practices](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps#localization-best-practices).
 
--   Be concise. Commands should use no more than three words.
+- Be concise. Commands should use no more than three words.
 
--   Use title-case capitalization: the first letter of each word should be capitalized. For more information about text formatting in Visual Studio, see [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).
+- Use title-case capitalization: the first letter of each word should be capitalized. For more information about text formatting in Visual Studio, see [Text style](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle).
 
--   Take into consideration where the command will be placed. Is it in a top-level menu or a flyout? For example, when grouping alignment commands in a flyout, the top-level command should be "Align” and the flyout commands should be "Left," "Right," "Center," "Justify," and so on. It would be redundant to name the flyout commands "Align Left" or "Align Right.”
+- Take into consideration where the command will be placed. Is it in a top-level menu or a flyout? For example, when grouping alignment commands in a flyout, the top-level command should be "Align” and the flyout commands should be "Left," "Right," "Center," "Justify," and so on. It would be redundant to name the flyout commands "Align Left" or "Align Right.”
 
      ![Visual Studio Format menu](../../extensibility/ux-guidelines/media/0502-a-formatmenu.png "0502-a_FormatMenu")
 
@@ -245,20 +240,20 @@ manager: "ghogen"
 
 #### Use an icon with a command only if:
 
--   The same command has an icon associated with it in another prominent Microsoft product, such as one of the Microsoft Office applications.
+- The same command has an icon associated with it in another prominent Microsoft product, such as one of the Microsoft Office applications.
 
--   The command will be placed in a default toolbar.
+- The command will be placed in a default toolbar.
 
--   The command is a specialty command that users are likely to add to a toolbar using the **“Customize…”** dialog.
+- The command is a specialty command that users are likely to add to a toolbar using the **“Customize…”** dialog.
 
 ## Access and shortcut keys
 
 ### Overview
  There are two kinds of keyboard key assignments:
 
--   **Access keys** (also known as accelerators) allow keyboard access via the menus for commanding and to each label in dialog UI. Access keys are mostly for accessibility purposes, are assigned to all menus and most dialog box controls, are not meant to be memorized, affect only the current window, and are localized.
+- **Access keys** (also known as accelerators) allow keyboard access via the menus for commanding and to each label in dialog UI. Access keys are mostly for accessibility purposes, are assigned to all menus and most dialog box controls, are not meant to be memorized, affect only the current window, and are localized.
 
--   **Shortcut keys** mostly use Control (Ctrl) and Function (Fn) key sequences. They are designed more for advanced users and aid in productivity. They are assigned only to the most-often used commands and allow quick access while bypassing the main menu. Shortcut keys are intended to be memorized, and for that reason must be assigned consistent with the profile scheme. Shortcut key schemes may vary from profile to profile. A user may customize shortcut keys through **Tools > Options > Keyboard**.
+- **Shortcut keys** mostly use Control (Ctrl) and Function (Fn) key sequences. They are designed more for advanced users and aid in productivity. They are assigned only to the most-often used commands and allow quick access while bypassing the main menu. Shortcut keys are intended to be memorized, and for that reason must be assigned consistent with the profile scheme. Shortcut key schemes may vary from profile to profile. A user may customize shortcut keys through **Tools > Options > Keyboard**.
 
 ### Assigning access keys
  Access keys consist of Alt plus alphanumeric key(s). Assign an access key to each menu item without exception. Follow Windows and common conventions for assigning access keys. for example, the access key for **File > New** should always be **Alt, F, N**.
@@ -286,6 +281,6 @@ manager: "ghogen"
 
   There is not a simple way to check shortcut availability. If you want to add a shortcut, follow these steps:
 
-1.  Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.
+1. Check the list of [Visual Studio 2013 shortcuts](http://visualstudioshortcuts.com/2013/) to determine if there are similar commands to group yours with.
 
-2.  Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.
+2. Go to **Tools > Options > Environment > Keyboard** and test your shortcut. Check each keyboard mapping scheme listed under "Apply the following additional keyboard mapping scheme." Check General, C#, VB, and C++ profiles, as those share unique shortcuts. Your shortcut is available if it's not mapped in any of those places.

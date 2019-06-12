@@ -1,14 +1,9 @@
 ---
 title: "Call Hierarchy | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "VS.CallHierarchy"
 helpviewer_keywords: 
@@ -17,12 +12,11 @@ ms.assetid: c55bda01-d7de-4823-8f9a-1bcc37dbb74a
 caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Call Hierarchy
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Call Hierarchy enables you to navigate through your code by displaying all calls to and from a selected method, property, or constructor. This enables you to better understand how code flows and to evaluate the effects of changes to code. You can examine several levels of code to view complex chains of method calls and additional entry points to the code, which enables you to explore all possible execution paths.  
   
  Call Hierarchy is available at design time, unlike the call stack that is displayed by the debugger.  
@@ -55,7 +49,7 @@ Call Hierarchy window
 - The **Code Definition Window**, if open, displays the code for the selected member. This window is available in C# and C++. For more information about this window, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).  
   
 > [!NOTE]
->  Call Hierarchy does not find method group references, which includes places where a method is added as an event handler or is assigned to a delegate. To find all references to a method, you can use the **Find All References** command.  
+> Call Hierarchy does not find method group references, which includes places where a method is added as an event handler or is assigned to a delegate. To find all references to a method, you can use the **Find All References** command.  
   
 ## Shortcut Menu Items  
  The following table describes several shortcut menu options that are available when you right-click a node in the tree view pane.  
@@ -68,6 +62,3 @@ Call Hierarchy window
 |**Find All References**|Runs the Find All References command on the selected node. This finds all the lines of code in your project that reference a class or member.<br /><br /> You can also use SHIFT+F12 to run the Find All References command on the selected node.|  
 |**Copy**|Copies the contents of the selected node (but not its subnodes).|  
 |**Refresh**|Collapses the selected node so that re-expanding it displays current information.|
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: Annotating Structs and Classes
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 f1_keywords:
   - "_Field_size_bytes_part_"
@@ -32,27 +30,27 @@ You can annotate struct and class members by using annotations that act like inv
 
 ## Struct and Class Annotations
 
--   `_Field_range_(low, high)`
+- `_Field_range_(low, high)`
 
      The field is in the range (inclusive) from `low` to `high`.  Equivalent to `_Satisfies_(_Curr_ >= low && _Curr_ <= high)` applied to the annotated object by using the appropriate pre or post conditions.
 
--   `_Field_size_(size)`, `_Field_size_opt_(size)`, `_Field_size_bytes_(size)`, `_Field_size_bytes_opt_(size)`
+- `_Field_size_(size)`, `_Field_size_opt_(size)`, `_Field_size_bytes_(size)`, `_Field_size_bytes_opt_(size)`
 
      A field that has a writable size in elements (or bytes) as specified by `size`.
 
--   `_Field_size_part_(size, count)`, `_Field_size_part_opt_(size, count)`,         `_Field_size_bytes_part_(size, count)`, `_Field_size_bytes_part_opt_(size, count)`
+- `_Field_size_part_(size, count)`, `_Field_size_part_opt_(size, count)`,         `_Field_size_bytes_part_(size, count)`, `_Field_size_bytes_part_opt_(size, count)`
 
      A field that has a writable size in elements (or bytes) as specified by `size`, and the `count` of those elements (bytes) that are readable.
 
--   `_Field_size_full_(size)`, `_Field_size_full_opt_(size)`, `_Field_size_bytes_full_(size)`, `_Field_size_bytes_full_opt_(size)`
+- `_Field_size_full_(size)`, `_Field_size_full_opt_(size)`, `_Field_size_bytes_full_(size)`, `_Field_size_bytes_full_opt_(size)`
 
      A field that has both readable and writable size in elements (or bytes) as specified by `size`.
 
--   `_Field_z_`
+- `_Field_z_`
 
      A field that has a null-terminated string.
 
--   `_Struct_size_bytes_(size)`
+- `_Struct_size_bytes_(size)`
 
      Applies to struct or class declaration.  Indicates that a valid object of that type may be larger than the declared type, with the number of bytes being specified by `size`.  For example:
 

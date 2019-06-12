@@ -1,47 +1,47 @@
 ---
 title: "IDebugExceptionEvent2::GetExceptionDescription | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugExceptionEvent2::GetExceptionDescription"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugExceptionEvent2::GetExceptionDescription"
 ms.assetid: d07d458f-5729-47e4-9b77-1bd59c61a75a
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugExceptionEvent2::GetExceptionDescription
-Gets a displayable description of the exception.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetExceptionDescription(   
-   BSTR* pbstrDescription  
-);  
-```  
-  
-```csharp  
-int GetExceptionDescription(   
-   out string pbstrDescription  
-);  
-```  
-  
-#### Parameters  
- `pbstrDescription`  
- [out] Returns a displayable description of the exception.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- The string returned from this method is typically the name of the exception and is shown in the **Output** window when the exception occurs.  
-  
-## See Also  
- [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)
+Gets a displayable description of the exception.
+
+## Syntax
+
+```cpp
+HRESULT GetExceptionDescription( 
+   BSTR* pbstrDescription
+);
+```
+
+```csharp
+int GetExceptionDescription( 
+   out string pbstrDescription
+);
+```
+
+## Parameters
+`pbstrDescription`\
+[out] Returns a displayable description of the exception.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ The string returned from this method is typically the name of the exception and is shown in the **Output** window when the exception occurs.
+
+## See also
+- [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)

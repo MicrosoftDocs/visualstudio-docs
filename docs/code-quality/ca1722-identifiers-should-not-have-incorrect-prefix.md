@@ -1,8 +1,6 @@
 ---
 title: "CA1722: Identifiers should not have incorrect prefix"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "IdentifiersShouldNotHaveIncorrectPrefix"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c3313c51-d004-4f9a-a0d1-6c4c4a1fb1e6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

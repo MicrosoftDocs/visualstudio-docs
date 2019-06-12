@@ -1,106 +1,103 @@
 ---
 title: "Binding Keyboard Shortcuts to Menu Items | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "keyboard command"
   - "keyboards"
   - "command key"
   - "keyboard shortcuts"
   - "menu items"
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Bind keyboard shortcuts to menu items
-To bind a keyboard shortcut to a custom menu command, just add an entry to the *.vsct* file for the package. This topic explains how to map a keyboard shortcut to a custom button, menu item, or toolbar command, and how to apply the keyboard mapping in the default editor or limit it to a custom editor.  
-  
- To assign keyboard shortcuts to existing Visual Studio menu items, see [Identify and customize keyboard shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
-  
-## Choose a key combination  
- Many keyboard shortcuts are already used in Visual Studio. You should not assign the same shortcut to more than one command because duplicate bindings are hard to detect and may also cause unpredictable results. Therefore, it is a good idea to verify the availability of a shortcut before you assign it.  
-  
-### To verify the availability of a keyboard shortcut  
-  
-1. In the **Tools** > **Options** > **Environment** window, select **Keyboard**.  
-  
-2. Make sure that **Use new shortcut in** is set to **Global**.  
-  
-3. In the **Press shortcut keys** box, type the keyboard shortcut that you want to use.  
-  
-    If the shortcut is already used in Visual Studio, the **Shortcut currently used by** box will show the command that the shortcut currently calls.  
-  
-4. Try different combinations of keys until you find one that is not mapped.  
-  
+To bind a keyboard shortcut to a custom menu command, just add an entry to the *.vsct* file for the package. This topic explains how to map a keyboard shortcut to a custom button, menu item, or toolbar command, and how to apply the keyboard mapping in the default editor or limit it to a custom editor.
+
+ To assign keyboard shortcuts to existing Visual Studio menu items, see [Identify and customize keyboard shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
+
+## Choose a key combination
+ Many keyboard shortcuts are already used in Visual Studio. You should not assign the same shortcut to more than one command because duplicate bindings are hard to detect and may also cause unpredictable results. Therefore, it is a good idea to verify the availability of a shortcut before you assign it.
+
+### To verify the availability of a keyboard shortcut
+
+1. In the **Tools** > **Options** > **Environment** window, select **Keyboard**.
+
+2. Make sure that **Use new shortcut in** is set to **Global**.
+
+3. In the **Press shortcut keys** box, type the keyboard shortcut that you want to use.
+
+    If the shortcut is already used in Visual Studio, the **Shortcut currently used by** box will show the command that the shortcut currently calls.
+
+4. Try different combinations of keys until you find one that is not mapped.
+
    > [!NOTE]
-   >  Keyboard shortcuts that use **Alt** may open a menu and not directly execute a command. Therefore, the **Shortcut currently used by** box may be blank when you type a shortcut that includes **Alt**. You can verify that the shortcut does not open a menu by closing the **Options** dialog box and then pressing the keys.  
-  
-   The following procedure assumes that you have an existing VSPackage with a menu command. If you need help doing that, take a look at [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
-  
-### To assign a keyboard shortcut to a command  
-  
-1. Open the *.vsct* file for your package.  
-  
-2. Create an empty `<KeyBindings>` section after the `<Commands>` if it is not already present.  
-  
+   > Keyboard shortcuts that use **Alt** may open a menu and not directly execute a command. Therefore, the **Shortcut currently used by** box may be blank when you type a shortcut that includes **Alt**. You can verify that the shortcut does not open a menu by closing the **Options** dialog box and then pressing the keys.
+
+   The following procedure assumes that you have an existing VSPackage with a menu command. If you need help doing that, take a look at [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
+
+### To assign a keyboard shortcut to a command
+
+1. Open the *.vsct* file for your package.
+
+2. Create an empty `<KeyBindings>` section after the `<Commands>` if it is not already present.
+
    > [!WARNING]
-   >  For more information about key bindings, see [Keybinding](../extensibility/keybinding-element.md).  
-  
-    In the `<KeyBindings>` section, create a `<KeyBinding>` entry.  
-  
-    Set the `guid`  and  `id` attributes to those of the command you want to invoke.  
-  
-    Set the `mod1` attribute to **Control**, **Alt**, or **Shift**.  
-  
-    The KeyBindings section should look something like this:  
-  
-   ```xml  
-   <KeyBindings>  
-       <KeyBinding guid="<name of command set>" id="<name of command id>"  
-           editor="guidVSStd97" key1="1" mod1="CONTROL"/>  
-   </KeyBindings>  
-  
-   ```  
-  
-   If your keyboard shortcut requires more than two keys, set the `mod2` and `key2` attributes.  
-  
-   In most situations, **Shift** should not be used without a second modifier because pressing it already causes most alphanumeric keys to type an uppercase letter or a symbol.  
-  
-   Virtual-key codes let you access special keys that do not have a character associated with them, for example, function keys and the **Backspace** key. For more information, see [Virtual-key codes](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes).  
-  
-   To make the command available in the Visual Studio editor, set the `editor` attribute to `guidVSStd97`.  
-  
-   To make the command available only in a custom editor, set the `editor` attribute to the name of the custom editor that was generated by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template when you created the VSPackage that includes the custom editor. To find the name value, look in the `<Symbols>` section for a `<GuidSymbol>` node whose `name` attribute ends in "`editorfactory`." This is the name of the custom editor.  
-  
-## Example  
- This example binds the keyboard shortcut **Ctrl**+**Alt**+**C** to a command named `cmdidMyCommand` in a package named `MyPackage`.  
-  
-```  
-<CommandTable>  
-. . .  
-<Commands>  
-. . .  
-</Commands>  
-<KeyBindings>  
-  <KeyBinding guid="guidMyPackageCmdSet" id="cmdidMyCommand"   
-      key1="C" mod1="CONTROL" mod2="ALT" editor="guidVSStd97" />  
-</KeyBindings>  
-. . .  
-</CommandTable>  
-```  
-  
-## Example  
- This example binds the keyboard shortcut **Ctrl**+**B** to a command named `cmdidBold` in a project named `TestEditor`. The command is available only in the custom editor and not in other editors.  
-  
-```xml  
-<KeyBinding guid="guidVSStd97" id="cmdidBold" editor="guidTestEditorEditorFactory" key1="B" mod1="Control" />  
-```  
-  
-## See also  
- [Extending menus and commands](../extensibility/extending-menus-and-commands.md)
+   > For more information about key bindings, see [Keybinding](../extensibility/keybinding-element.md).
+
+    In the `<KeyBindings>` section, create a `<KeyBinding>` entry.
+
+    Set the `guid`  and  `id` attributes to those of the command you want to invoke.
+
+    Set the `mod1` attribute to **Control**, **Alt**, or **Shift**.
+
+    The KeyBindings section should look something like this:
+
+   ```xml
+   <KeyBindings>
+       <KeyBinding guid="<name of command set>" id="<name of command id>"
+           editor="guidVSStd97" key1="1" mod1="CONTROL"/>
+   </KeyBindings>
+
+   ```
+
+   If your keyboard shortcut requires more than two keys, set the `mod2` and `key2` attributes.
+
+   In most situations, **Shift** should not be used without a second modifier because pressing it already causes most alphanumeric keys to type an uppercase letter or a symbol.
+
+   Virtual-key codes let you access special keys that do not have a character associated with them, for example, function keys and the **Backspace** key. For more information, see [Virtual-key codes](https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes).
+
+   To make the command available in the Visual Studio editor, set the `editor` attribute to `guidVSStd97`.
+
+   To make the command available only in a custom editor, set the `editor` attribute to the name of the custom editor that was generated by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template when you created the VSPackage that includes the custom editor. To find the name value, look in the `<Symbols>` section for a `<GuidSymbol>` node whose `name` attribute ends in "`editorfactory`." This is the name of the custom editor.
+
+## Example
+ This example binds the keyboard shortcut **Ctrl**+**Alt**+**C** to a command named `cmdidMyCommand` in a package named `MyPackage`.
+
+```
+<CommandTable>
+. . .
+<Commands>
+. . .
+</Commands>
+<KeyBindings>
+  <KeyBinding guid="guidMyPackageCmdSet" id="cmdidMyCommand"
+      key1="C" mod1="CONTROL" mod2="ALT" editor="guidVSStd97" />
+</KeyBindings>
+. . .
+</CommandTable>
+```
+
+## Example
+ This example binds the keyboard shortcut **Ctrl**+**B** to a command named `cmdidBold` in a project named `TestEditor`. The command is available only in the custom editor and not in other editors.
+
+```xml
+<KeyBinding guid="guidVSStd97" id="cmdidBold" editor="guidTestEditorEditorFactory" key1="B" mod1="Control" />
+```
+
+## See also
+- [Extending menus and commands](../extensibility/extending-menus-and-commands.md)

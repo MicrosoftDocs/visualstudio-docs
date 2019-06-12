@@ -1,8 +1,6 @@
 ---
 title: "CA1506: Avoid excessive class coupling"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AvoidExcessiveClassCoupling"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9f0943c0-e802-4e3f-8798-2ab8653ddc80
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -27,18 +25,22 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- A type or method is coupled with many other types.
+
+A type or method is coupled with many other types.
 
 ## Rule description
- This rule measures class coupling by counting the number of unique type references that a type or method contains.
 
- Types and methods that have a high degree of class coupling can be difficult to maintain. It is a good practice to have types and methods that exhibit low coupling and high cohesion.
+This rule measures class coupling by counting the number of unique type references that a type or method contains.
+
+Types and methods that have a high degree of class coupling can be difficult to maintain. It's a good practice to have types and methods that exhibit low coupling and high cohesion.
 
 ## How to fix violations
- To fix this violation, try to redesign the type or method to reduce the number of types to which it is coupled.
+
+To fix this violation, try to redesign the type or method to reduce the number of types to which it's coupled.
 
 ## When to suppress warnings
- Exclude this warning when the type or method is still considered maintainable despite its large number of dependencies on other types.
+
+Exclude this warning when the type or method is considered maintainable despite its large number of dependencies on other types.
 
 ## See also
 

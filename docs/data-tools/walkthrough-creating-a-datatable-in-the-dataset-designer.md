@@ -9,9 +9,7 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -33,33 +31,33 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 
 ## Add a new Dataset to the application
 
-1.  On the **Project** menu, select **Add New Item**.
+1. On the **Project** menu, select **Add New Item**.
 
      The **Add New Item** dialog box appears.
 
-2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.
+2. In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.
 
-3.  Choose **Add**.
+3. Choose **Add**.
 
      Visual Studio adds a file called **DataSet1.xsd** to the project and opens it in the **Dataset Designer**.
 
 ## Add a new DataTable to the Dataset
 
-1.  Drag a **DataTable** from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.
+1. Drag a **DataTable** from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.
 
      A table named **DataTable1** is added to the dataset.
 
-2.  Click the title bar of **DataTable1** and rename it `Music`.
+2. Click the title bar of **DataTable1** and rename it `Music`.
 
 ## Add columns to the DataTable
 
-1.  Right-click the **Music** table. Point to **Add**, and then click **Column**.
+1. Right-click the **Music** table. Point to **Add**, and then click **Column**.
 
-2.  Name the column `SongID`.
+2. Name the column `SongID`.
 
-3.  In the **Properties** window, set the <xref:System.Data.DataColumn.DataType%2A> property to <xref:System.Int16?displayProperty=fullName>.
+3. In the **Properties** window, set the <xref:System.Data.DataColumn.DataType%2A> property to <xref:System.Int16?displayProperty=fullName>.
 
-4.  Repeat this process and add the following columns:
+4. Repeat this process and add the following columns:
 
      `SongTitle`: <xref:System.String?displayProperty=fullName>
 

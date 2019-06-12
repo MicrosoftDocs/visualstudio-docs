@@ -1,8 +1,6 @@
 ---
 title: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2102"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: bf2df68f-d386-4379-ad9e-930a2c2e930d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

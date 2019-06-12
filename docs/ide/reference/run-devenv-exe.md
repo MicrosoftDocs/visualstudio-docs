@@ -1,53 +1,59 @@
 ---
 title: -Run (devenv.exe)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/run Devenv"
-  - "run Devenv switch"
+  - "/Run Devenv"
+  - "Run Devenv switch"
   - "applications [Visual Studio], running"
-  - "/r Devenv switch"
-  - "Devenv, /run switch"
-  - "r Devenv switch (/r)"
+  - "/R Devenv switch"
+  - "Devenv, /Run switch"
+  - "R Devenv switch (/R)"
 ms.assetid: b1f22f9d-39a5-4918-8a2a-4b5c1e872665
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # /Run (devenv.exe)
+
 Compiles and runs the specified project or solution.
 
 ## Syntax
 
-```cmd
-devenv {/run|/r} {SolutionName|ProjectName}
+```shell
+devenv {/Run|/R} {SolutionName|ProjectName} [/Out OutputFilename]
 ```
 
 ## Arguments
- `SolutionName`
 
- Required. The full path and name of a solution file.
+- *SolutionName*
 
- `ProjectName`
+  The full path and name of a solution file.
 
- Required. The full path and name of a project file.
+- *ProjectName*
+
+  The full path and name of a project file.
+
+- `/Out` *OutputFilename*
+
+  Optional. The name of a file that you want to send the tool's output to. If the file already exists, the tool appends the output to the end of the file.
 
 ## Remarks
- Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch launches the integrated development environment (IDE) and leaves it active after the project or solution has completed running.
 
--   Enclose strings that include spaces in double quotation marks.
+Compiles and runs the specified project or solution according to the settings specified for the active solution configuration. This switch launches the IDE and leaves it active after the project or solution has completed running.
 
--   Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/out` switch.
+- Enclose strings that include spaces in double quotation marks.
+
+- Summary information, including errors, can be displayed in the **Command** window, or in any log file specified with the `/Out` switch.
 
 ## Example
- This example runs the solution `MySolution` using the active deployment configuration.
 
-```cmd
-devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln"
+This example runs the solution `MySolution` using the active deployment configuration.
+
+```shell
+devenv /run "%USERPROFILE%\source\repos\MySolution\MySolution.sln"
 ```
 
 ## See Also

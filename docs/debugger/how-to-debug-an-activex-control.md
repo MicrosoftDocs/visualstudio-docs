@@ -1,8 +1,6 @@
 ---
 title: "How to: Debug an ActiveX Control | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vc.controls.debug"
@@ -23,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: bbc02cf7-a7e6-44fe-99af-87a43e1d7251
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -36,19 +34,19 @@ To debug your ActiveX control, you must specify a container (executable) for the
 
 ## To specify a container for the debug session
 
-1.  In Solution Explorer, select the project.
+1. In Solution Explorer, select the project.
 
-2.  From the **View** menu, choose **Property Pages**.
+2. From the **View** menu, choose **Property Pages**.
 
-3.  In the **Project Property Pages** dialog box, open the **Configuration Properties** folder, and select **Debugging**.
+3. In the **Project Property Pages** dialog box, open the **Configuration Properties** folder, and select **Debugging**.
 
-4.  Under the **Debugging** category, locate the **Command** property.
+4. Under the **Debugging** category, locate the **Command** property.
 
-5.  Specify the path name for the container. For example, C:\Program Files\Internet Explorer\IEXPLORE.EXE.
+5. Specify the path name for the container. For example, C:\Program Files\Internet Explorer\IEXPLORE.EXE.
 
-6.  If you specify Internet Explorer as the container and you are using Active Desktop, type `/new` in the **Command Arguments** box.
+6. If you specify Internet Explorer as the container and you are using Active Desktop, type `/new` in the **Command Arguments** box.
 
-7.  Click **OK**.
+7. Click **OK**.
 
      If you do not specify a container in the **Project Property Pages** dialog box, you can specify the container when you begin debugging. When you select an execution command to start debugging, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears. Specify the path name of the container in the dialog box.
 
@@ -58,4 +56,4 @@ To debug your ActiveX control, you must specify a container (executable) for the
 - [Testing Properties and Events with Test Container](/cpp/mfc/testing-properties-and-events-with-test-container)
 - [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
 - [Debugging in Visual Studio](../debugger/index.md)
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)

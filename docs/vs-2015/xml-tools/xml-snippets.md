@@ -1,24 +1,18 @@
 ---
 title: "XML Snippets | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-xml-tools
+ms.topic: conceptual
 ms.assetid: 348dbf64-3f09-4fff-b47a-a7ecdf3221cc
 caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # XML Snippets
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The XML Editor offers a feature, called *XML snippets*, that allows you to build XML files more quickly. You can reuse XML snippets by inserting them into your files. You can also generate XML data based on an XML Schema definition language (XSD) schema.  
   
 ## Reusable XML Snippets  
@@ -54,6 +48,3 @@ The XML Editor offers a feature, called *XML snippets*, that allows you to build
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)
-
-
-

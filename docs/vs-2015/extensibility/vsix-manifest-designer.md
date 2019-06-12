@@ -1,14 +1,9 @@
 ---
 title: "VSIX Manifest Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.Sdk.VsixManifestEditor"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # VSIX Manifest Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
  To open the **VSIX Manifest Designer**, locate a source.extension.vsixmanifest file in **Solution Explorer**, and open the file. If the file does not contain valid XML, the manifest designer will not open.  
   
 > [!NOTE]
->  Source.extension.vsixmanifest is output to extension.vsixmanifest when the package is built.  
+> Source.extension.vsixmanifest is output to extension.vsixmanifest when the package is built.  
   
 ## UIElement List  
  The **VSIX Manifest Designer** contains four sections that correspond to these top-level elements of the schema:  
@@ -152,4 +147,3 @@ Modifies a VSIX package manifest file, which sets the installation behavior for 
 ## See Also  
  [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)
-

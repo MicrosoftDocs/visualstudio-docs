@@ -1,19 +1,14 @@
 ---
 title: "How to: Create a Basic Lambert Shader | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 ms.assetid: ec5c10fb-9600-4240-8280-d59451ea1d68
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Create a Basic Lambert Shader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,11 +17,11 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
   
  This document demonstrates these activities:  
   
--   Adding nodes to a shader graph  
+- Adding nodes to a shader graph  
   
--   Disconnecting nodes  
+- Disconnecting nodes  
   
--   Connecting nodes  
+- Connecting nodes  
   
 ## The Lambert lighting model  
  The Lambert lighting model incorporates ambient and directional lighting to shade objects in a 3-D scene. The ambient components provide a base level of illumination in the 3-D scene. The directional components provide additional illumination from directional (far-away) light sources. Ambient illumination affects all surfaces in the scene equally, regardless of their orientation. For a given surface, it's a product of the ambient color of the surface and the color and intensity of ambient lighting in the scene. Directional lighting affects every surface in the scene differently, based on the orientation of the surface with respect to the direction of the light source. It's a product of the diffuse color and orientation of the surface, and the color, intensity, and direction of the light sources. Surfaces that face directly toward the light source receive the maximum contribution and surfaces that face directly away receive no contribution. Under the Lambert lighting model, the ambient component and one or more directional components are combined to determine the total diffuse color contribution for each point on the object.  
@@ -48,7 +43,7 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
    The following illustration shows the completed shader graph and a preview of the shader applied to a teapot model.  
   
 > [!NOTE]
->  To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader. A game or app can use this parameter to supply a unique color value for each object. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).  
+> To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader. A game or app can use this parameter to supply a unique color value for each object. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).  
   
  ![The shader graph and a preview of its effect.](../designers/media/digit-lambert-effect-graph.png "Digit-Lambert-Effect-Graph")  
   
@@ -66,6 +61,3 @@ This document demonstrates how to use the Shader Designer and the Directed Graph
  [How to: Create a Basic Phong Shader](../designers/how-to-create-a-basic-phong-shader.md)   
  [Shader Designer](../designers/shader-designer.md)   
  [Shader Designer Nodes](../designers/shader-designer-nodes.md)
-
-
-

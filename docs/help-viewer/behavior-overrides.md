@@ -1,18 +1,17 @@
 ---
 title: Help Content Manager overrides
 ms.date: 11/01/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Help Content Manager overrides
 
-You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://blogs.msdn.microsoft.com/visualstudio/2009/12/18/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.
+You can change the default behavior of Help Viewer and help-related features in the Visual Studio IDE. Some options are specified by creating a [.pkgdef](https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/) file to set various registry key values. Others are set directly in the registry.
 
 ## How to control Help Viewer behavior by using a .pkgdef file
 

@@ -1,8 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
 ms.date: 08/14/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.find"
@@ -29,13 +27,13 @@ helpviewer_keywords:
   - "multi-caret selection"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Find and replace text
 
-You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) or [Find/Replace in Files](#find-in-files-and-replace-in-files). New in Visual Studio 2017 version 15.8, you can find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
+You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace only *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
 
 > [!TIP]
 > If you're renaming code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
@@ -49,7 +47,10 @@ You can scope searches to the current document, the current solution, or a custo
 
 ## Find and Replace control
 
-The **Find and Replace** control appears in the upper right corner of the code editor window. The **Find and Replace** control immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
+- Press **Ctrl**+**F** as a shortcut to *find* a string in the current file.
+- Press **Ctrl**+**H** as a shortcut to *find and replace* a string in the current file.
+
+The **Find and Replace** control appears in the upper right corner of the code editor window. It immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
 
 ![Find and Replace in Visual Studio](media/find-and-replace-box.png)
 
@@ -65,7 +66,10 @@ A version of the **Find** control is also available in some tool windows. For ex
 
 ## Find in Files and Replace in Files
 
-**Find/Replace in Files** works like the **Find and Replace** control, except that you can define a scope for your search. Not only can you search the current open file in the editor, but also all open documents, the entire solution, the current project, and selected folder sets. You can also search by file name extension. To access the **Find/Replace in Files** dialog box, select **Find and Replace** on the **Edit** menu or press **Ctrl+Shift+F**.
+- Press **Ctrl**+**Shift**+**F** as a shortcut to *find* a string in multiple files.
+- Press **Ctrl**+**Shift**+**H** as a shortcut to *find and replace* a string in multiple files.
+
+**Find/Replace in Files** works like the **Find and Replace** control, except that you can define a scope for your search. Not only can you search the current open file in the editor, but also all open documents, the entire solution, the current project, and selected folder sets. You can also search by file name extension. To access the **Find/Replace in Files** dialog box, select **Find and Replace** on the **Edit** menu (or press **Ctrl**+**Shift**+**F**).
 
 ![Find in Files in Visual Studio](media/find-in-files-box.png)
 
@@ -89,7 +93,7 @@ You can define component sets as your search scope by choosing the **Edit Custom
 > [!NOTE]
 > This section applies to Visual Studio on Windows. For Visual Studio for Mac, see [Block selection](/visualstudio/mac/block-selection).
 
-**New in Visual Studio 2017 version 15.8**
+**Introduced in Visual Studio 2017 version 15.8**
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
 

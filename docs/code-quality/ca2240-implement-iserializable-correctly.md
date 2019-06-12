@@ -1,8 +1,6 @@
 ---
 title: "CA2240: Implement ISerializable correctly"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2240"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: cf05936d-0d6c-49ed-a1b4-220032e50b97
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

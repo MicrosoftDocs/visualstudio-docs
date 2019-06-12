@@ -1,20 +1,15 @@
 ---
 title: "How to: Troubleshoot Services | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "services, troubleshooting"
 ms.assetid: 001551da-4847-4f59-a0b2-fcd327d7f5ca
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Troubleshoot Services
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +34,7 @@ if (log == null) return;
   
 ### To troubleshoot a service  
   
-1.  Examine the system registry to see whether the service has been correctly registered. For more information, see [Registering Services](../misc/registering-services.md).  
+1. Examine the system registry to see whether the service has been correctly registered. For more information, see [Registering Services](../misc/registering-services.md).  
   
      The following .reg file fragment shows how the SVsTextManager service might be registered:  
   
@@ -51,17 +46,17 @@ if (log == null) return;
   
      In the example above, version number is the version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], such as 12.0 or 14.0, the key {F5E7E71D-1401-11d1-883B-0000F87579D2} is the service identifier (SID) of the service, SVsTextManager, and the default value {F5E7E720-1401-11d1-883B-0000F87579D2} is the package GUID of the text manager VSPackage, which provides the service.  
   
-2.  Use the service type and not the interface type when you call GetService. When requesting a service from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], <xref:Microsoft.VisualStudio.Shell.Package> extracts the GUID from the type. A service will not be found if the following conditions exist:  
+2. Use the service type and not the interface type when you call GetService. When requesting a service from [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], <xref:Microsoft.VisualStudio.Shell.Package> extracts the GUID from the type. A service will not be found if the following conditions exist:  
   
-    1.  An interface type is passed to GetService instead of the service type.  
+    1. An interface type is passed to GetService instead of the service type.  
   
-    2.  No GUID is explicitly assigned to the interface. Therefore, the system creates a default GUID for an object as needed.  
+    2. No GUID is explicitly assigned to the interface. Therefore, the system creates a default GUID for an object as needed.  
   
-3.  Be sure the VSPackage requesting the service has been sited. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sites a VSPackage after constructing it and before calling <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>.  
+3. Be sure the VSPackage requesting the service has been sited. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] sites a VSPackage after constructing it and before calling <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>.  
   
      If you have code in a VSPackage constructor that needs a service, move it to the Initialize method.  
   
-4.  Be sure that you are using the correct service provider.  
+4. Be sure that you are using the correct service provider.  
   
      Not all service providers are alike. The service provider that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] passes to a tool window differs from the one it passes to a VSPackage. The tool window service provider knows about <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>, but does not know about <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>. You can call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> to get a VSPackage service provider from within a tool window.  
   
@@ -71,4 +66,3 @@ if (log == null) return;
  [List of Available Services](../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [Service Essentials](../extensibility/internals/service-essentials.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "Profiling Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.diagnosticshub.overview"
 ms.assetid: 0fb6cd5d-e16a-4526-84a5-19e63c625bc5
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Profiling Tools
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 ## Memory Usage  
  ![DiagMemorySmall](../profiling/media/diagmemorysmall.png "DiagMemorySmall")  
   
- Find memory leaks and inefficient memory while you’re debugging with the **Memory Usage** tool. The tool lets you take snapshots of the managed and native memory heap. You can use this tool with desktop apps, Windows Universal apps, and ASP.NET apps. The **Memory Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See  [Memory Usage](../profiling/memory-usage.md) and [Memory Usage without Debugging](http://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0) for more information.  
+ Find memory leaks and inefficient memory while you’re debugging with the **Memory Usage** tool. The tool lets you take snapshots of the managed and native memory heap. You can use this tool with desktop apps, Windows Universal apps, and ASP.NET apps. The **Memory Usage** tool can be run from the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**) or outside the debugger (**Debug / Performance Profiler...**). See  [Memory Usage](../profiling/memory-usage.md) and [Memory Usage without Debugging](https://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0) for more information.  
   
 ## CPU Usage  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  
@@ -78,7 +73,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
  [IntelliTrace](../debugger/intellitrace.md) lets you record specific events, examine data in the **Locals** window during debugger events and function calls, and debug errors that are hard to reproduce.  IntelliTrace is primarily a debugging tool, but it also provides information that can be used for performance investigations. You can use this tool in Visual Studio Enterprise only, with desktop, Windows Universal, and ASP.NET C# apps. You can find IntelliTrace in the **Diagnostics Tools** window while you are debugging (**Debug / Windows / Show Diagnostic Tools**).  
   
 ## Profiling in Production  
- The recommended approach to profiling in production is to profile from the [command line using vsperf.exe](../profiling/using-the-profiling-tools-from-the-command-line.md) to collect a CPU Profile. For remote profiling support in Azure App Service, you can profile through the [Server Explorer or Kudu Portal](https://azure.microsoft.com/en-us/blog/remote-profiling-support-in-azure-app-service/).  
+ The recommended approach to profiling in production is to profile from the [command line using vsperf.exe](../profiling/using-the-profiling-tools-from-the-command-line.md) to collect a CPU Profile. For remote profiling support in Azure App Service, you can profile through the [Server Explorer or Kudu Portal](https://azure.microsoft.com/blog/remote-profiling-support-in-azure-app-service/).  
   
 ## Which Tool Should I Use?  
  Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:  
@@ -97,6 +92,3 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
   
 ## See Also  
  [Visual Studio IDE](../ide/visual-studio-ide.md)
-
-
-

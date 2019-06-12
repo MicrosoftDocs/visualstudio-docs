@@ -1,8 +1,6 @@
 ---
 title: "CA1049: Types that own native resources should be disposable"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1049"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 084e587d-0e45-4092-b767-49eed30d6a35
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

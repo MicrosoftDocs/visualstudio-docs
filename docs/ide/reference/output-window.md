@@ -1,8 +1,6 @@
 ---
 title: Output Window
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.build.output"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: d8931d88-250e-4db4-963f-2c5b3e99b45f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -61,9 +59,9 @@ To display the **Output** window whenever you build a project, in the **Options*
 
 Certain IDE features and commands invoked in the [Command window](../../ide/reference/command-window.md) deliver their output to the **Output** window. Output from external tools such as *.bat* and *.com* files, which is typically displayed in the command window, is routed to an **Output** pane when you select the **Use Output Window** option in [Manage external tools](../../ide/managing-external-tools.md). Many other kinds of messages can be displayed in **Output** panes as well. For example, when Transact-SQL syntax in a stored procedure is checked against a target database, the results are displayed in the **Output** window.
 
-You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET Framework Class Library. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md).
+You can also program your own applications to write diagnostic messages at run time to an **Output** pane. To do this, use members of the <xref:System.Diagnostics.Debug> class or <xref:System.Diagnostics.Trace> class in the <xref:System.Diagnostics> namespace of the .NET API. Members of the <xref:System.Diagnostics.Debug> class display output when you build Debug configurations of your solution or project; members of the <xref:System.Diagnostics.Trace> class display output when you build either Debug or Release configurations. For more information, see [Diagnostic messages in the Output window](../../debugger/diagnostic-messages-in-the-output-window.md).
 
-In C++, you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing **F1** on a line of output, you can display an appropriate help topic. For more information, see [Format the output of a custom build step](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event).
+In C++, you can create custom build steps and build events whose warnings and errors are displayed and counted in the **Output** pane. By pressing **F1** on a line of output, you can display an appropriate help topic. For more information, see [Format the output of a custom build step](/cpp/build/reference/formatting-the-output-of-a-custom-build-step-or-build-event).
 
 ## Scroll behavior
 

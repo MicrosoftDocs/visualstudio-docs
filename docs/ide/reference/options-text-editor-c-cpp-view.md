@@ -9,8 +9,6 @@ f1_keywords:
 author: mikeblome
 ms.author: mblome
 manager: wpickett
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.workload:
   - "cplusplus"
 ---

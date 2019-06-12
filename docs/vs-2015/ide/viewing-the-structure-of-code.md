@@ -1,14 +1,9 @@
 ---
 title: "Viewing the Structure of Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.documentoutline.window"
   - "vs.objectbrowser"
@@ -32,7 +27,7 @@ ms.assetid: e6064f58-5ad9-4f05-8c3f-12e994b6583f
 caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Viewing the Structure of Code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,9 +49,9 @@ You can examine the objects and members in Visual Studio projects, and the objec
  If you have Visual Studio Enterprise you can use code maps to visualize the structure of your code and its dependencies across the entire solution, and drill down to parts of the code that interest you. For more information, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
 > [!NOTE]
->  The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
+> The Visual Studio edition and the settings you are using may affect the features in the IDE. They might differ from those described in this topic.  
   
-##  <a name="BKMK_ClassView"></a> Class View (Visual Basic, C#, C++)  
+## <a name="BKMK_ClassView"></a> Class View (Visual Basic, C#, C++)  
  **Class View** is shown as part of **Solution Explorer** as well as in a separate window. The **Class View** window displays the elements of an application. The upper pane displays namespaces, types, interfaces, enumerations, and classes, and the lower pane displays the members that belong to the type selected in the upper pane. By using this window, you can move to member definitions in the source code (or in the **Object Browser** if the element is defined outside your solution).  
   
  You do not have to compile a project to view its elements in **Class View**. The window is refreshed as you modify the code in your project.  
@@ -109,7 +104,7 @@ You can examine the objects and members in Visual Studio projects, and the objec
 |**Go To Reference**|Displays a reference to the type or member in the source code, if available.|  
 |**View Call Hierarchy**|Displays the selected method in the **Call Hierarchy** window.|  
   
-##  <a name="BKMK_CallHierarchy"></a> Call Hierarchy (Visual Basic, C#, C++)  
+## <a name="BKMK_CallHierarchy"></a> Call Hierarchy (Visual Basic, C#, C++)  
  The **Call Hierarchy** window shows where a given method (or property or constructor) is called, and lists the methods that are called from that method. You can view multiple levels of the call graph, which shows the caller/callee relationships among the methods in a specified scope.  
   
  You can display the **Call Hierarchy** window by selecting a method (or property or constructor) and then choosing **View Class Hierarchy** on the shortcut menu. The display should resemble the following picture.  
@@ -134,7 +129,7 @@ Call Hierarchy window
 |**Copy**|Copies the selected node (but not its sub-nodes).|  
 |**Refresh**|Refreshes the information.|  
   
-##  <a name="BKMK_ObjectBrowser"></a> Object Browser  
+## <a name="BKMK_ObjectBrowser"></a> Object Browser  
  The **Object Browser** displays descriptions of the code in your projects.  
   
  You can filter what you want to view in the **Object Browser**. By using the drop-down list at the top of the window, you can choose among the following options:  
@@ -193,7 +188,7 @@ Call Hierarchy window
 |**Go To Reference**|Displays a reference to the type or member in the source code, if available.|  
 |**View Call Hierarchy**|Displays the selected method in the **Call Hierarchy** window.|  
   
-##  <a name="BKMK_CodeDefinition"></a> Code Definition Window (C#, C++)  
+## <a name="BKMK_CodeDefinition"></a> Code Definition Window (C#, C++)  
  The **Code Definition** window displays the definition of a selected type or member in the active project. The type or member can be selected in the code editor or in a code view window.  
   
  Although this window is read-only, you can set breakpoints or bookmarks in it. To modify the displayed definition, choose **Edit Definition** on the shortcut menu. This opens the source file in the code editor and moves the insertion point to the line where the definition begins.  
@@ -223,6 +218,3 @@ Call Hierarchy window
   
 ## See Also  
  [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md)
-
-
-

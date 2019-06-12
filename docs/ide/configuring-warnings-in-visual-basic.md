@@ -1,8 +1,6 @@
 ---
 title: Configuring Warnings in Visual Basic
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "errors [Visual Basic], warnings"
@@ -11,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

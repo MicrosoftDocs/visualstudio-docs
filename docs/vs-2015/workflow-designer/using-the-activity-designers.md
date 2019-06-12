@@ -1,11 +1,8 @@
 ---
 title: "Using the Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Workflow Designer [WFD], activity designer"
@@ -14,7 +11,7 @@ ms.assetid: 3c2725c3-091b-49ab-81e7-d4c7028d47a2
 caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Using the Activity Designers
 The [!INCLUDE[wfd1](../includes/wfd1-md.md)] includes a number of system-provided activities that you can use when constructing your activities and workflows. This section describes the categories of system-provided activities and their designers that are available. Topics on the individual activities and their respective designers within each of these categories describe what these activities do and provide guidance on how to use them.  

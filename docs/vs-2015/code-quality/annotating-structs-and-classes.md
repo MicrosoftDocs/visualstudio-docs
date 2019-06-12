@@ -1,14 +1,9 @@
 ---
 title: "Annotating Structs and Classes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "_Field_size_bytes_part_"
   - "_Field_size_bytes_full_opt_"
@@ -28,7 +23,7 @@ ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 caps.latest.revision: 11
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # Annotating Structs and Classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,23 +32,23 @@ You can annotate struct and class members by using annotations that act like inv
   
 ## Struct and Class Annotations  
   
--   `_Field_range_(low, high)`  
+- `_Field_range_(low, high)`  
   
      The field is in the range (inclusive) from `low` to `high`.  Equivalent to `_Satisfies_(_Curr_ >= low && _Curr_ <= high)` applied to the annotated object by using the appropriate pre or post conditions.  
   
--   `_Field_size_(size)`, `_Field_size_opt_(size)`, `_Field_size_bytes_(size)`, `_Field_size_bytes_opt_(size)`  
+- `_Field_size_(size)`, `_Field_size_opt_(size)`, `_Field_size_bytes_(size)`, `_Field_size_bytes_opt_(size)`  
   
      A field that has a writable size in elements (or bytes) as specified by `size`.  
   
--   `_Field_size_part_(size, count)`, `_Field_size_part_opt_(size, count)`,         `_Field_size_bytes_part_(size, count)`, `_Field_size_bytes_part_opt_(size, count)`  
+- `_Field_size_part_(size, count)`, `_Field_size_part_opt_(size, count)`,         `_Field_size_bytes_part_(size, count)`, `_Field_size_bytes_part_opt_(size, count)`  
   
      A field that has a writable size in elements (or bytes) as specified by `size`, and the `count` of those elements (bytes) that are readable.  
   
--   `_Field_size_full_(size)`, `_Field_size_full_opt_(size)`, `_Field_size_bytes_full_(size)`, `_Field_size_bytes_full_opt_(size)`  
+- `_Field_size_full_(size)`, `_Field_size_full_opt_(size)`, `_Field_size_bytes_full_(size)`, `_Field_size_bytes_full_opt_(size)`  
   
      A field that has both readable and writable size in elements (or bytes) as specified by `size`.  
   
--   `_Struct_size_bytes_(size)`  
+- `_Struct_size_bytes_(size)`  
   
      A field that has both readable and writable size in elements (or bytes) as specified by `size`.  
   
@@ -84,6 +79,3 @@ You can annotate struct and class members by using annotations that act like inv
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
-
-
-

@@ -1,13 +1,11 @@
 ---
 title: "Warnings and errors | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Warnings and errors"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -23,26 +21,26 @@ author: gewarren
   * [MaxCalls exceeded](#maxcalls-exceeded)
   * [MaxStack exceeded](#maxstack-exceeded)
   * [MaxRuns exceeded](#maxruns-exceeded)
-  * [MaxRunsWithoutNewTests exceeded](#maxrunswithoutnewtests-exceeded)<p />
+  * [MaxRunsWithoutNewTests exceeded](#maxrunswithoutnewtests-exceeded)
 
 * **Constraint Solving**
-  * [Cannot Concretize Solution](#cannot-concretize-solution)<p />
+  * [Cannot Concretize Solution](#cannot-concretize-solution)
 
 * **Domains**
   * [Need Help To Construct Object](#help-construct)
   * [Need Help To Find Types](#help-types)
-  * [Usable Type Guessed](#usable-type-guessed)<p />
+  * [Usable Type Guessed](#usable-type-guessed)
 
 * **Execution**
   * [Unexpected Failure During Exploration](#unexpected-exploration)
-  * [TargetInvocationException](#targetinvocationexception)<p />
+  * [TargetInvocationException](#targetinvocationexception)
 
 * **Instrumentation**
   * [Uninstrumented Method Called](#uninstrumented-method-called)
   * [External Method Called](#external-method-called)
   * [Uninstrumentable Method Called](#uninstrumentable-method-called)
   * [Testability Issue](#testability-issue)
-  * [Limitation](#limitation)<p />
+  * [Limitation](#limitation)
 
 * **Interpreter**
   * [Observed Call Mismatch](#observed-call-mismatch)

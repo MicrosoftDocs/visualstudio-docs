@@ -1,8 +1,6 @@
 ---
 title: "Live Unit Testing"
-ms.date: 2017-03-07
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+ms.date: "03/07/2017"
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"
@@ -12,42 +10,25 @@ ms.author: "ronpet"
 ms.workload:
   - "dotnet"
 ---
-# Live Unit Testing with Visual Studio 2017
+# Live Unit Testing with Visual Studio
 
 As you are developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage live in the Visual Studio IDE in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you are making bug fixes or adding new features.
 
 > [!NOTE]
-> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio 2017.
+> Live Unit Testing is available for C# and Visual Basic projects that target the .NET Core or .NET Framework in the Enterprise Edition of Visual Studio.
 
 When you use Live Unit Testing for your tests, Live Unit Testing persists data about the status of your tests. Its ability to use persisted data allows Live Unit Testing to offer superior performance while running your tests dynamically in response to code changes.
 
 ## Supported test frameworks
 Live Unit Testing works with the three popular unit testing frameworks listed in the following table. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
 
-<table>
-<tr>
-   <th>Test Framework</th>
-   <th>Visual Studio Adapter minimum version</th>
-   <th>Framework minimum version</th>
-</tr>
-<tr>
-   <td>xUnit.net</td>
-   <td> xunit.runner.visualstudio version 2.2.0-beta3-build1187</td>
-   <td>xunit 1.9.2</td>
-</tr>
-<tr>
-   <td>NUnit</td>
-   <td>NUnit3TestAdapter version 3.5.1</td>
-   <td>NUnit version 3.5.0</td>
-</tr>
-<tr>
-   <td>MSTest</td>
-   <td>MSTest.TestAdapter 1.1.4-preview</td>
-   <td>MSTest.TestFramework 1.0.5-preview</td>
-</tr>
-</table>
+|Test Framework  |Visual Studio Adapter minimum version  |Framework minimum version  |
+|---------|---------|---------|
+|xUnit.net |xunit.runner.visualstudio version 2.2.0-beta3-build1187 |xunit 1.9.2 |
+|NUnit |NUnit3TestAdapter version 3.5.1 |NUnit version 3.5.0 |
+|MSTest |MSTest.TestAdapter 1.1.4-preview |MSTest.TestFramework 1.0.5-preview |
 
-If you have older MSTest based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4.
+If you have older MSTest based test projects that are referencing `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4 or later.
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build** > **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**) before enabling Living Unit Testing.
 
@@ -175,8 +156,8 @@ For solutions with many test projects, you can control what projects and what in
 
 To select the individual projects in unit tests, do the following after Live Unit Testing is started:
 
-1.	Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
-1.	Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
+1. Right-click the solution in **Solution Explorer** and choose **Live Tests** > **Exclude** to exclude the entire solution.
+1. Right-click each test project that you'd like to include in the tests and choose **Live Tests** > **Include**.
 
 **Excluding individual tests from the code editor window**
 
@@ -197,4 +178,4 @@ You can also use the following attributes to exclude individual methods from Liv
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
 - [Live Unit Testing FAQ](live-unit-testing-faq.md)
-- [Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
+- [Channel 9 video: Live Unit Testing in Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)

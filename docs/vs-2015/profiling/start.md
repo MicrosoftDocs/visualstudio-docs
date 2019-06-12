@@ -1,19 +1,14 @@
 ---
 title: "Start | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: b85d0fe9-f67a-4b7c-8d48-7eecf3f2dfe9
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Start
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,13 +25,13 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  `Method`  
  Must be one of the following keywords:  
   
--   **TRACE** - Specifies the instrumentation method.  
+- **TRACE** - Specifies the instrumentation method.  
   
--   **SAMPLE** - Specifies the sampling method.  
+- **SAMPLE** - Specifies the sampling method.  
   
--   **COVERAGE** - Specifies code coverage.  
+- **COVERAGE** - Specifies code coverage.  
   
--   **CONCURRENCY** - Specifies the resource contention method.  
+- **CONCURRENCY** - Specifies the resource contention method.  
   
 ## Required Options  
  The **Output** option must be specified when **Start** is specified on the command line.  
@@ -78,6 +73,3 @@ VSPerfCmd.exe /Launch:TestApp.exe
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)
-
-
-

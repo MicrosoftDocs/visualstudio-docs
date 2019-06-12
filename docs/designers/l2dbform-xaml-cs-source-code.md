@@ -1,13 +1,11 @@
 ---
 title: L2DBForm.xaml.cs Source Code
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: sample
 ms.assetid: 5a40dad3-6763-4576-b3ad-874df3f2c8d9
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -19,9 +17,9 @@ This topic contains the contents and description of the C# source code in the fi
 
 Two private data members are used to associate this class to the window resources used in *L2DBForm.xaml*.
 
--   The namespace variable `myBooks` is initialized to `"http://www.mybooks.com"`.
+- The namespace variable `myBooks` is initialized to `"http://www.mybooks.com"`.
 
--   The member `bookList` is initialized in the constructor to the CDATA string in *L2DBForm.xaml* with the following line:
+- The member `bookList` is initialized in the constructor to the CDATA string in *L2DBForm.xaml* with the following line:
 
     ```csharp
     bookList = (XElement)((ObjectDataProvider)Resources["LoadedBooks"]).Data;
@@ -31,11 +29,11 @@ Two private data members are used to associate this class to the window resource
 
 This method contains the following three statements:
 
--   The first conditional statement is used for input validation.
+- The first conditional statement is used for input validation.
 
--   The second statement creates a new <xref:System.Xml.Linq.XElement> from the string values the user entered in the **Add New Book** user interface (UI) section.
+- The second statement creates a new <xref:System.Xml.Linq.XElement> from the string values the user entered in the **Add New Book** user interface (UI) section.
 
--   The last statement adds this new book element to the data provider in *L2DBForm.xaml*. Consequently, dynamic data binding will automatically update the UI with this new item; no extra user-supplied code is required.
+- The last statement adds this new book element to the data provider in *L2DBForm.xaml*. Consequently, dynamic data binding will automatically update the UI with this new item; no extra user-supplied code is required.
 
 ## OnRemove event handler
 
@@ -43,13 +41,13 @@ The `OnRemove` handler is more complicated than the `OnAddBook` handler for two 
 
 However, the core work of removing the selected book item is accomplished by only two statements:
 
--   First, the book element associated with the currently selected item in the list box is retrieved:
+- First, the book element associated with the currently selected item in the list box is retrieved:
 
     ```csharp
     XElement selBook = (XElement)lbBooks.SelectedItem;
     ```
 
--   Then, this element is deleted from the data provider:
+- Then, this element is deleted from the data provider:
 
     ```csharp
     selBook.Remove();

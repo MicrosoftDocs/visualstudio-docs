@@ -3,8 +3,6 @@ title: "&lt;customizations&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -15,7 +13,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customizations> element"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -68,7 +66,7 @@ ms.workload:
  The following code example illustrates the `customizations` element for a document-level customization.
 
 > [!NOTE]
->  This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+> This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

@@ -2,15 +2,13 @@
 title: "Debugging Workflows with the Workflow Designer"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 helpviewer_keywords:
   - "Visual Studio Workflow Designer [WFD], debugging workflows"
   - "Workflow Designer [WFD], debugging workflows"
 ms.assetid: d71308cf-d464-4536-8711-0d0a8eadb255
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

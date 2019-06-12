@@ -1,19 +1,14 @@
 ---
 title: "Profiling ASP.NET Load Tests | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: c3f5c363-be79-40b5-bfa7-db8d21378d8d
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Profiling ASP.NET Load Tests
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ You can collect profiling data from automated [!INCLUDE[TCMext](../includes/tcme
 
  [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](/visualstudio/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings?view=vs-2015)
 
- [Running System Tests Using Microsoft Visual Studio](http://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).
+ [Running System Tests Using Microsoft Visual Studio](https://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).
 
 ## See Also
 

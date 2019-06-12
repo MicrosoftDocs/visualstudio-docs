@@ -1,12 +1,10 @@
 ---
 title: "Walkthrough: Using XSLT Hierarchy"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ---
 # Walkthrough: Use XSLT hierarchy
 
@@ -65,7 +63,7 @@ The example in this topic demonstrates debugging in a referenced style sheet.
     </xsl:stylesheet>
     ```
 
-3.  Add the following *xslinclude.xsl* file:
+3. Add the following *xslinclude.xsl* file:
 
     ```xml
     <?xml version='1.0'?>
@@ -99,12 +97,12 @@ The example in this topic demonstrates debugging in a referenced style sheet.
     </xsl:stylesheet>
     ```
 
-4.  Add a breakpoint at the instruction `<xsl:include href="xslincludefile.xsl" />`.
+4. Add a breakpoint at the instruction `<xsl:include href="xslincludefile.xsl" />`.
 
-5.  Start debugging.
+5. Start debugging.
 
-6.  When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. The debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
+6. When the debugger stops at the instruction `<xsl:include href="xslincludefile.xsl" />`, press the **Step Into** button. The debugging can be continued in the referenced style sheet. The hierarchy is visible and the designer displays the right path.
 
 ## See also
 
-- [Walkthrough: XSLT profiler](../xml-tools/walkthrough-xslt-profiler.md)
+- [XSLT profiler](../xml-tools/xslt-profiler.md)

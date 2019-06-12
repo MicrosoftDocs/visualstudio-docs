@@ -1,20 +1,15 @@
 ---
 title: "Source Control VSPackage Architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control packages, architecture"
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
 caps.latest.revision: 26
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Source Control VSPackage Architecture
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,4 +46,3 @@ A source-control package is a VSPackage that uses services that the [!INCLUDE[vs
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   
  [Getting Started](../../extensibility/internals/getting-started-with-source-control-vspackages.md)
-

@@ -1,8 +1,6 @@
 ---
 title: Projects and Solutions, Options Dialog Box
 ms.date: 07/14/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.General"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -45,9 +43,13 @@ When unselected, the commands on the **Build** menu, such as **Build Solution**,
 
 When selected, the solution and all commands that act on solutions are always shown in the IDE. When cleared, all projects are created as stand-alone projects and you do not see the solution in Solution Explorer or commands that act on solutions in the IDE if the solution contains only one project.
 
+::: moniker range="vs-2017"
+
 ### Save new projects when created
 
 When selected, you can specify a location for your project in the **New Project** dialog box. When cleared, all new projects are created as temporary projects. When you are working with temporary projects, you can create and experiment with a project without having to specify a disk location.
+
+::: moniker-end
 
 ### Warn user when the project location is not trusted
 
@@ -67,7 +69,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ### Reopen documents on solution load
 
-**New in Visual Studio 2017 version 15.8 preview 2 and later**
+**Introduced in Visual Studio 2017 version 15.8**
 
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 
@@ -83,11 +85,11 @@ Specifies the default location where Visual Studio creates new projects and solu
 
 ### User project templates location
 
-Specifies the default location that the **New Project** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
+Specifies the default location that's used to search for user-created project templates. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
 ### User item templates location
 
-Specifies the default location that the **Add New Item** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
+Specifies the default location that's used to search for user-created item templates. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
 ## See also
 

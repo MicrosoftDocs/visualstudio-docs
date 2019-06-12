@@ -1,18 +1,14 @@
 ---
 title: "Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.unsafe_func_eval_abort"
 ms.assetid: 0a9f70ed-21ad-4a10-8535-b9c5885ad8f4
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,11 +40,3 @@ The error message will tell you the name of the function the debugger tried to c
 ### Solution #3: Disable all implicit evaluation
  
 If the previous solutions don't fix the issue, go to *Tools* / *Options*, and uncheck the setting *Debugging* / *General* / *Enable property evaluation and other implicit function calls*. This will disable most implicit function evaluations and should resolve the issue.
-
-
-
-  
-
-
-
-

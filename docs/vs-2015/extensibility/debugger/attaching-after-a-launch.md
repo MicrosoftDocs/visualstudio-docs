@@ -1,20 +1,15 @@
 ---
 title: "Attaching After a Launch | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debug engines, attaching to programs"
 ms.assetid: 5a3600a1-dc20-4e55-b2a4-809736a6ae65
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Attaching After a Launch
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,12 +19,12 @@ After a program has been launched, the debug session is ready to attach the debu
 ## Design Decisions  
  Because communication is easier within a shared address space, you must decide whether it makes more sense to facilitate the communication between the debug session and the DE, or between the DE and the program. Choose between the following:  
   
--   If it makes more sense to facilitate communication between the debug session and the DE, then the debug session co-creates the DE and asks the DE to attach to the program. This leaves the debug session and DE together in one address space, and the run-time environment and program together in another.  
+- If it makes more sense to facilitate communication between the debug session and the DE, then the debug session co-creates the DE and asks the DE to attach to the program. This leaves the debug session and DE together in one address space, and the run-time environment and program together in another.  
   
--   If it makes more sense to facilitate communication between the DE and the program, then the run-time environment co-creates the DE. This leaves the SDM in one address space, and the DE, run-time environment, and program together in another. This is typical of a DE that is implemented with an interpreter to run scripted languages.  
+- If it makes more sense to facilitate communication between the DE and the program, then the run-time environment co-creates the DE. This leaves the SDM in one address space, and the DE, run-time environment, and program together in another. This is typical of a DE that is implemented with an interpreter to run scripted languages.  
   
     > [!NOTE]
-    >  How the DE attaches to the program is implementation-dependent. Communication between the DE and the program is also implementation-dependent.  
+    > How the DE attaches to the program is implementation-dependent. Communication between the DE and the program is also implementation-dependent.  
   
 ## Implementation  
  Programmatically, when the session debug manager (SDM) first receives the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program to be launched, it calls the [Attach](../../extensibility/debugger/reference/idebugprogram2-attach.md) method, passing it an [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) object, which is later used to pass debug events back to the SDM. The `IDebugProgram2::Attach` method then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. For more information on how the SDM receives the `IDebugProgram2` interface, see [Notifying the Port](../../extensibility/debugger/notifying-the-port.md).  
@@ -56,4 +51,3 @@ After a program has been launched, the debug session is ready to attach the debu
  [IDebugProgramNodeAttach2](../../extensibility/debugger/reference/idebugprogramnodeattach2.md)   
  [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md)   
  [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md)
-

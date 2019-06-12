@@ -1,14 +1,9 @@
 ---
 title: "IDebugClassField::DoesInterfaceExist | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugClassField::DoesInterfaceExist"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: cc0c8642-1a76-4fda-a309-7018a34883c9
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugClassField::DoesInterfaceExist
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,4 +44,3 @@ int DoesInterfaceExist(
   
 ## See Also  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
-

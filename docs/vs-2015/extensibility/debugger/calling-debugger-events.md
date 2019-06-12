@@ -1,20 +1,15 @@
 ---
 title: "Calling Debugger Events | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], events"
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Calling Debugger Events
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,21 +19,21 @@ Events in debugging sessions occur in a specific order.
 ## Discussion  
  To understand the pattern of calls between the debug engine (DE) and the session debug manager (SDM), the following represents the calling order of the events that occur in a typical debugging session:  
   
-1.  [Attaching and detaching to a program](../../extensibility/debugger/attaching-and-detaching-to-a-program.md)  
+1. [Attaching and detaching to a program](../../extensibility/debugger/attaching-and-detaching-to-a-program.md)  
   
-2.  [Launching the debugger](../../extensibility/debugger/launching-the-debugger.md)  
+2. [Launching the debugger](../../extensibility/debugger/launching-the-debugger.md)  
   
-3.  [Terminating a program](../../extensibility/debugger/terminating-a-program.md)  
+3. [Terminating a program](../../extensibility/debugger/terminating-a-program.md)  
   
-4.  [Creating a breakpoint](../../extensibility/debugger/creating-a-breakpoint.md)  
+4. [Creating a breakpoint](../../extensibility/debugger/creating-a-breakpoint.md)  
   
-5.  [When a breakpoint binds or becoming unbound](../../extensibility/debugger/when-a-breakpoint-binds-or-becomes-unbound.md)  
+5. [When a breakpoint binds or becoming unbound](../../extensibility/debugger/when-a-breakpoint-binds-or-becomes-unbound.md)  
   
-6.  [Breakpoint errors](../../extensibility/debugger/breakpoint-errors.md)  
+6. [Breakpoint errors](../../extensibility/debugger/breakpoint-errors.md)  
   
-7.  [Hitting a breakpoint](../../extensibility/debugger/hitting-a-breakpoint.md)  
+7. [Hitting a breakpoint](../../extensibility/debugger/hitting-a-breakpoint.md)  
   
-8.  [Deleting a breakpoint](../../extensibility/debugger/deleting-a-breakpoint.md)  
+8. [Deleting a breakpoint](../../extensibility/debugger/deleting-a-breakpoint.md)  
   
 9. [Entering break mode](../../extensibility/debugger/entering-break-mode.md)  
   
@@ -50,4 +45,3 @@ Events in debugging sessions occur in a specific order.
   
 ## See Also  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
-

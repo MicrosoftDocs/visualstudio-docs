@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteInterruptPoll::QueryContinue | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Allows a host to specify that a script should terminate.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryContinue();  
 ```  
   

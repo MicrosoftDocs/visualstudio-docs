@@ -1,19 +1,14 @@
 ---
 title: "How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
 caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics by Using the Command Line
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,11 +16,11 @@ manager: "ghogen"
 This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools command-line tools to attach the profiler to an ASP.NET Web application and collect performance statistics by using the sampling method.  
 
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
 >   
->  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
+> Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
 >   
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
 
  To collect performance data from an ASP.NET Web application, the appropriate environment variables must be initialized and the computer that hosts the ASP.NET Web application must be restarted to configure the Web server for profiling.  
 
@@ -43,9 +38,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
     **VSPerfClrEnv /globalsampleon** [**/samplelineoff**]  
 
-   -   **/globalsampleon** enables sampling.  
+   - **/globalsampleon** enables sampling.  
 
-   -   **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.  
+   - **/samplelineoff** disables the assignment of collected data to specific source code lines. When this option is specified, data is assigned only to functions.  
 
 3. Restart the computer.  
 
@@ -58,7 +53,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
      You can use any one of the following options with the **/start:sample** option.  
 
    > [!NOTE]
-   >  The **/user** and **/crosssession** options are usually required for ASP.NET applications.  
+   > The **/user** and **/crosssession** options are usually required for ASP.NET applications.  
 
    |                                 Option                                  |                                                                                                                                                        Description                                                                                                                                                        |
    |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -68,14 +63,13 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |         [/automark](../profiling/automark.md) **:** `Interval`          |                                                                                       Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.                                                                                       |
    |       [/events](../profiling/events-vsperfcmd.md) **:** `Config`        |                                                                                         Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.                                                                                          |
 
-
 5. Start the ASP.NET Web application in the typical way.  
 
 6. Attach the profiler to the ASP.NET worker process. Type:**VSPerfCmd** [/attach](../profiling/attach.md)**:**{`PID`&#124;`ProcName`} [`Sample Event`] [[/targetclr](../profiling/targetclr.md)**:**`Version`]  
 
-   -   `PID` specifies the process ID of the ASP.NET worker process; `ProcName` specifies the name of the worker process. You can view the process IDs and names of all running processes in Windows Task Manager.  
+   - `PID` specifies the process ID of the ASP.NET worker process; `ProcName` specifies the name of the worker process. You can view the process IDs and names of all running processes in Windows Task Manager.  
 
-   -   By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately 100 times per second on a 1GH processor. You can specify one of the following **VSPerfCmd** options to change the clock cycle interval or to specify a different sampling event.  
+   - By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately 100 times per second on a 1GH processor. You can specify one of the following **VSPerfCmd** options to change the clock cycle interval or to specify a different sampling event.  
 
    |Sample event|Description|  
    |------------------|-----------------|  
@@ -85,14 +79,14 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
    |[/counter](../profiling/counter.md) **:** `Config`|Changes the sampling event and interval to the processor performance counter and interval that are specified in `Config`.|  
    |[/targetclr](../profiling/targetclr.md) **:** `Version`|Specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.|  
 
-   -   **targetclr:** `Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.  
+   - **targetclr:** `Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.  
 
 ## Controlling Data Collection  
  When the application is running, you can control data collection by starting and stopping the writing of data to the file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
 
 #### To start and stop data collection  
 
--   The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
+- The following pairs of **VSPerfCmd** options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.  
 
     |Option|Description|  
     |------------|-----------------|  
@@ -109,25 +103,22 @@ This topic describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Pro
 
 #### To end a profiling session  
 
-1.  Do one of the following to detach the profiler from the target application:  
+1. Do one of the following to detach the profiler from the target application:  
 
-    -   Type **VSPerfCmd /detach**  
+    - Type **VSPerfCmd /detach**  
 
          -or-  
 
-    -   Close the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process.  
+    - Close the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process.  
 
-2.  Shut down the profiler. Type:**VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
+2. Shut down the profiler. Type:**VSPerfCmd** [/shutdown](../profiling/shutdown.md)  
 
-3.  (Optional) Clear the profiling environment variables. Type:  
+3. (Optional) Clear the profiling environment variables. Type:  
 
      **VSPerfCmd /globaloff**  
 
-4.  Restart the computer.  
+4. Restart the computer.  
 
 ## See Also  
  [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
-
-
-

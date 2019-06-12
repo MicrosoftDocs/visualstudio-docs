@@ -1,8 +1,6 @@
 ---
 title: Go To Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "edit.goto"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

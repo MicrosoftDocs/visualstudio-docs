@@ -1,14 +1,9 @@
 ---
 title: "CA1901: P-Invoke declarations should be portable | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1901"
   - "PInvokeDeclarationsShouldBePortable"
@@ -37,9 +32,9 @@ manager: "wpickett"
 ## Rule Description
  Either of the following scenarios violates this rule occurs:
 
--   The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
+- The return value or parameter is typed as a fixed-size integer when it should be typed as an `IntPtr`.
 
--   The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
+- The return value or parameter is typed as an `IntPtr` when it should be typed as a fixed-size integer.
 
 ## How to Fix Violations
  You can fix this violation by using `IntPtr` or `UIntPtr` to represent handles instead of `Int32` or `UInt32`.
@@ -79,6 +74,3 @@ internal class NativeMethods{
 
 ## See Also
  [Portability Warnings](../code-quality/portability-warnings.md)
-
-
-

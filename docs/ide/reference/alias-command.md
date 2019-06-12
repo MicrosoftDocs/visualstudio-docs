@@ -1,8 +1,6 @@
 ---
 title: Alias Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "tools.alias"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -24,7 +22,6 @@ Creates a new alias for a complete command, complete command and arguments, or a
 
 > [!TIP]
 > Typing `>alias` without any arguments displays the current list of aliases and their definitions.
-
 
 ## Syntax
 

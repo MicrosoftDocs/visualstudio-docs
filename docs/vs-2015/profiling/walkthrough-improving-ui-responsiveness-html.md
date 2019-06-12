@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Improving UI responsiveness (HTML) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -23,7 +18,7 @@ ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Improving UI responsiveness (HTML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,16 +27,16 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
 ### Creating and running the performance test app  
   
-1.  In Visual Studio, create a new Windows Universal JavaScript project. (Select **File / New / Project**. Choose **JavaScript** in the left pane, and then choose **Windows**, **Windows 10**, then either **Universal**, or **Windows Phone**.  
+1. In Visual Studio, create a new Windows Universal JavaScript project. (Select **File / New / Project**. Choose **JavaScript** in the left pane, and then choose **Windows**, **Windows 10**, then either **Universal**, or **Windows Phone**.  
   
-2.  > [!IMPORTANT]
-    >  The diagnostic results shown in this topic are shown fora Windows 8 app.  
+2. > [!IMPORTANT]
+    > The diagnostic results shown in this topic are shown fora Windows 8 app.  
   
-3.  Choose one of the blank project templates in the middle pane, such as **Blank App**.  
+3. Choose one of the blank project templates in the middle pane, such as **Blank App**.  
   
-4.  In the **Name** box, specify a name such as `JS_Perf_Tester`, and then choose **OK**.  
+4. In the **Name** box, specify a name such as `JS_Perf_Tester`, and then choose **OK**.  
   
-5.  In **Solution Explorer**, open default.html and paste the following code between the \<body> tags:  
+5. In **Solution Explorer**, open default.html and paste the following code between the \<body> tags:  
   
     ```html  
     <div class="wrapper">  
@@ -49,7 +44,7 @@ This walkthrough leads you through the process of identifying and fixing a perfo
     </div>  
     ```  
   
-6.  Open default.css and add the following CSS code:  
+6. Open default.css and add the following CSS code:  
   
     ```css  
     #content {  
@@ -58,7 +53,7 @@ This walkthrough leads you through the process of identifying and fixing a perfo
     }  
     ```  
   
-7.  Open default.js and replace all the code with this code:  
+7. Open default.js and replace all the code with this code:  
   
     ```javascript  
     (function () {  
@@ -147,7 +142,7 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
     ```  
   
-8.  Choose the F5 key to start debugging. Verify that the **Waiting for values** button appears on the page.  
+8. Choose the F5 key to start debugging. Verify that the **Waiting for values** button appears on the page.  
   
 9. Choose **Waiting for values** and verify that the button text and color update approximately once per second. This is by design.  
   
@@ -203,9 +198,9 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
      A variety of facts may be gleaned from the data. For example:  
   
-    -   Each `Timer` event, color-coded to identify it as a scripting event, includes a call to `document.createElement`, followed by a style calculation and a call to `style.backgroundColor` and `appendChild()`.  
+    - Each `Timer` event, color-coded to identify it as a scripting event, includes a call to `document.createElement`, followed by a style calculation and a call to `style.backgroundColor` and `appendChild()`.  
   
-    -   In the short time span selected (approximately one to two seconds), there are a great number of `Timer`, `Layout`, and `Paint` events taking place. The `Timer` events occur far more frequently than the one update per second that is visibly apparent after you run the app and choose the **Waiting for values** button.  
+    - In the short time span selected (approximately one to two seconds), there are a great number of `Timer`, `Layout`, and `Paint` events taking place. The `Timer` events occur far more frequently than the one update per second that is visibly apparent after you run the app and choose the **Waiting for values** button.  
   
 10. To investigate, choose the link to the anonymous function for one of the `Timer` events in the lower left pane. The following function opens in default.js:  
   
@@ -224,7 +219,7 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
 ### Fixing the performance issue  
   
-1.  Replace the `update()` function with the following code:  
+1. Replace the `update()` function with the following code:  
   
     ```javascript  
     function update() {  
@@ -239,10 +234,7 @@ This walkthrough leads you through the process of identifying and fixing a perfo
   
      This fixed version of the code includes a 1000 millisecond delay, which was omitted from the previous version of the code, resulting in the use of a default delay value. From profiler data, it appears that the default value is zero milliseconds, which caused the `setValues()` function to run too frequently.  
   
-2.  Run the HTML UI responsiveness profiler again, and check the CPU utilization graph. You will find that the excessive events are gone, and CPU utilization has dropped to near zero. Fixed!  
+2. Run the HTML UI responsiveness profiler again, and check the CPU utilization graph. You will find that the excessive events are gone, and CPU utilization has dropped to near zero. Fixed!  
   
 ## See Also  
  [HTML UI responsiveness](../profiling/html-ui-responsiveness.md)
-
-
-

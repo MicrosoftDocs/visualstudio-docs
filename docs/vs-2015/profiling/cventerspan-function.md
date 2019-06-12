@@ -1,14 +1,9 @@
 ---
 title: "CvEnterSpan Function | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "cvmarkers/CvEnterSpanVA"
   - "cvmarkers/CvEnterSpanW"
@@ -29,7 +24,7 @@ ms.assetid: 91689e9c-6733-44b9-b36a-8b9b2eef7d1d
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CvEnterSpan Function
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,6 +129,3 @@ HRESULT CvEnterSpanExVA(
   
 ## See Also  
  [C++ Library Reference](../profiling/cpp-library-reference.md)
-
-
-

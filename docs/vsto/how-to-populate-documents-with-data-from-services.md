@@ -1,9 +1,6 @@
 ---
 title: "How to: Populate documents with data from services"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -14,7 +11,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to documents"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -30,21 +27,21 @@ The following example shows how to add data-bound controls to documents at desig
 
 ## To populate a document-level project with data from a web service
 
-1.  Open the **Data Sources** window and create a service data source for your project. For more information, see [Add new data sources](../data-tools/add-new-data-sources.md).
+1. Open the **Data Sources** window and create a service data source for your project. For more information, see [Add new data sources](../data-tools/add-new-data-sources.md).
 
-2.  Drag the table or field you want from the **Data Sources** window to your document.
+2. Drag the table or field you want from the **Data Sources** window to your document.
 
      A control is created on the document, a <xref:System.Windows.Forms.BindingSource> is created that is bound to the object class in your project, and classes are generated for the service.
 
-3.  In your code, create an instance of the web service class that you connected to in step 1.
+3. In your code, create an instance of the web service class that you connected to in step 1.
 
-4.  If there are properties that are required for communication with the web service, create instances of those properties.
+4. If there are properties that are required for communication with the web service, create instances of those properties.
 
-5.  Create and send a data request using methods exposed by the Web service and any property instances you created in step 4.
+5. Create and send a data request using methods exposed by the Web service and any property instances you created in step 4.
 
      The methods that you use depend on what the web service offers.
 
-6.  Assign the data response from the web service to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
+6. Assign the data response from the web service to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
 
 When you run the project, the controls display the first record in the data source. You can enable scrolling through the records by handling the currency events using the objects in the <xref:System.Windows.Forms.BindingSource>.
 

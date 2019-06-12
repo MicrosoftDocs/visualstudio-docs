@@ -1,14 +1,9 @@
 ---
 title: "How to: Locate the Product Key | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-install"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-install"
+ms.topic: conceptual
 f1_keywords:
   - "product key, Visual Studio"
   - "product keys"
@@ -16,7 +11,7 @@ ms.assetid: 65536281-7843-4121-b4b7-61b498bbd5f5
 caps.latest.revision: 24
 author: TerryGLee
 ms.author: tglee
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Locate the Visual Studio Product Key
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,13 +20,13 @@ You may want to locate the product key for [!INCLUDE[vsprvs](../includes/vsprvs-
 
 ### To find the product key for Visual Studio
 
--   Look for the product key in one of these locations:
+- Look for the product key in one of these locations:
 
-    -   On the installation media (if applicable).
+    - On the installation media (if applicable).
 
-    -   On the [My.VisualStudio.com](https://my.visualstudio.com/productkeys) website.
+    - On the [My.VisualStudio.com](https://my.visualstudio.com/productkeys) website.
 
-    -   Documentation or other communication from the vendor from whom you purchased the software.
+    - Documentation or other communication from the vendor from whom you purchased the software.
 
 ## See Also
  [How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)

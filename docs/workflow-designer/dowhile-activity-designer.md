@@ -2,14 +2,12 @@
 title: "Workflow Designer - DoWhile Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.DoWhile.UI"
 ms.assetid: 948deb35-d72f-462b-bea6-4b119c10a148
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

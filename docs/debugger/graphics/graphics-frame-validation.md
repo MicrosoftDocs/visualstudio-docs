@@ -1,16 +1,14 @@
 ---
 title: "Graphics Frame Validation | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/02/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.graphics.FrameValidation"
 ms.assetid: 1e639182-1301-4e28-9c1e-b5df732f3f1b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Graphics Frame Validation
@@ -21,7 +19,6 @@ Visual Studio 2017 and greater support the **Frame Validation** tool.  The Frame
 
 Click the **Run Validation** button at the top left corner to initiate the analysis.  It may take several minutes to complete depending on the complexity of the frame.  The data which appears here is a combination from two sources: the messages that D3D itself emits when [SDK Layers](/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers) is enabled, and data that is collected from the tool's own internal state tracking. Once complete, you will see several columns of data:
 
-
 | **Column** | **Description** |
 |------------| - |
 | Event Id | ID which maps to an entry in the [Event List](graphics-event-list.md) window. |
@@ -30,6 +27,6 @@ Click the **Run Validation** button at the top left corner to initiate the analy
 | Message | The message associated with the event. |
 | Event | The event associated with the error or warning. |
 
-## See Also  
-[Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)   
+## See Also
+[Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 <!-- /VERSIONLESS -->

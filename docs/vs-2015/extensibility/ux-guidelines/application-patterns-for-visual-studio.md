@@ -1,23 +1,18 @@
 ---
 title: "Application Patterns"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Application Patterns for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-##  <a name="BKMK_WindowInteractions"></a> Window interactions
+## <a name="BKMK_WindowInteractions"></a> Window interactions
 
 ### Overview
  The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This topic covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
@@ -39,24 +34,24 @@ manager: "ghogen"
 |**Instances**|*Multi-instance*<br /><br /> Several editors can be open at the same time and editing different files, while some editors also allow the same file to be open in more than one editor (using the **Window > New Window** command).<br /><br /> A single editor may be editing one or multiple files at the same time (Project Designer).|*Single- or multi-instance*<br /><br /> Contents change to reflect context (as in the Property Browser) or push focus/context to other windows (Task List, Solution Explorer).<br /><br /> Both single-instance and multi-instance tool windows should be associated with the active document window unless there is a compelling reason not to.|*Single-instance*|
 |**Examples**|**Text editors**, such as the code editor<br /><br /> **Design surfaces**, such as a form designer or a modeling surface<br /><br /> **Control layouts similar to dialogs**, such as the Manifest Designer|The **Solution Explorer** provides a solution and projects contained within the solution<br /><br /> The **Server Explorer** provides a hierarchical view of servers and data connections that the user chooses to open in the window. Opening an object from the database hierarchy, such as a query, opens a document window and allows the user to edit the query.<br /><br /> The **Property Browser** displays properties for the object selected either in a document window or another tool window. The properties are presented either in a hierarchical grid view or in complex dialog-like controls and allow the user to set the values for those properties.||
 
-##  <a name="BKMK_ToolWindows"></a> Tool windows
+## <a name="BKMK_ToolWindows"></a> Tool windows
 
 ### Overview
  Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
 
  When considering a new tool window in the IDE, authors should:
 
--   Use task-appropriate existing tool windows and not create new ones with similar functionality. New tool windows should only be created if they offer a significantly different “tool” or functionality that cannot be integrated into a similar window, or by turning an existing window into a pivoting hub.
+- Use task-appropriate existing tool windows and not create new ones with similar functionality. New tool windows should only be created if they offer a significantly different “tool” or functionality that cannot be integrated into a similar window, or by turning an existing window into a pivoting hub.
 
--   Use a standard command bar, if needed, at the top of the tool window.
+- Use a standard command bar, if needed, at the top of the tool window.
 
--   Be consistent with patterns already present in other tool windows for control presentation and keyboard navigation.
+- Be consistent with patterns already present in other tool windows for control presentation and keyboard navigation.
 
--   Be consistent with control presentation in other tool windows.
+- Be consistent with control presentation in other tool windows.
 
--   Document-specific tool windows should be auto-visible when possible so that they appear only when the parent document is activated.
+- Document-specific tool windows should be auto-visible when possible so that they appear only when the parent document is activated.
 
--   Ensure their window content is navigable by the keyboard (support arrow keys).
+- Ensure their window content is navigable by the keyboard (support arrow keys).
 
 #### Tool window states
  Visual Studio tool windows have different states, some of which are user-activated (like the auto-hide feature). Other states, such as auto-visible, allow tool windows to appear in the correct context and hide when not needed. There are five tool window states in total.
@@ -130,7 +125,7 @@ manager: "ghogen"
 |**Debugger:** a group of windows specific to debugging tasks and monitoring activities|Registers||
 |**Debugger:** a group of windows specific to debugging tasks and monitoring activities|Threads||
 
-##  <a name="BKMK_DocumentEditorConventions"></a> Document editor conventions
+## <a name="BKMK_DocumentEditorConventions"></a> Document editor conventions
 
 ### Document interactions
  The "document well" is the largest space within the IDE and is where the user generally has focused their attention in order to complete their tasks, assisted by supplemental tool windows. Document editors represent the fundamental units of work that the user opens and saves within Visual Studio. They retain a strong sense of selection tied to Solution Explorer or other active hierarchy windows. The user should be able to point to one of those hierarchy windows and know where the document is contained and its relationship to either the solution, the project, or another root object provided by a Visual Studio package.
@@ -139,21 +134,21 @@ manager: "ghogen"
 
 #### Common interactions for the document well
 
--   Maintain a consistent interaction model in the common **New File** and **Open File** experiences.
+- Maintain a consistent interaction model in the common **New File** and **Open File** experiences.
 
--   Update related functionality in related windows and menus when the document window opens.
+- Update related functionality in related windows and menus when the document window opens.
 
--   Menu commands are appropriately integrated into common menus such as **Edit**, **Format**, and **View** menus. If a substantial amount of specialized commands are available, then a new menu can be created which is visible only when the document has focus.
+- Menu commands are appropriately integrated into common menus such as **Edit**, **Format**, and **View** menus. If a substantial amount of specialized commands are available, then a new menu can be created which is visible only when the document has focus.
 
--   An embedded toolbar may be placed at the top of the editor. This is preferable to having a separate toolbar that appears outside the editor.
+- An embedded toolbar may be placed at the top of the editor. This is preferable to having a separate toolbar that appears outside the editor.
 
--   Always maintain a selection in the Solution Explorer or similar active hierarchy window.
+- Always maintain a selection in the Solution Explorer or similar active hierarchy window.
 
--   Double-clicking a document in the Solution Explorer should perform the same action as **Open**.
+- Double-clicking a document in the Solution Explorer should perform the same action as **Open**.
 
--   If more than one editor can be used on a document type, the user should be able to override or reset the default action on a given document type using the **Open With** dialog box by right-clicking on the file and selecting **Open With** from the shortcut menu.
+- If more than one editor can be used on a document type, the user should be able to override or reset the default action on a given document type using the **Open With** dialog box by right-clicking on the file and selecting **Open With** from the shortcut menu.
 
--   Don’t build a wizard in a document well.
+- Don’t build a wizard in a document well.
 
 ### User expectations for specific document types
  There are several different basic types of document editors and each has a set of interactions that are consistent with others of the same type.
@@ -174,71 +169,71 @@ manager: "ghogen"
 
 #### Text-based editors
 
--   The document participates in the preview tab model, allowing for previewing the document without opening it.
+- The document participates in the preview tab model, allowing for previewing the document without opening it.
 
--   The structure of the document may be represented within a companion tool window, such as a document outline.
+- The structure of the document may be represented within a companion tool window, such as a document outline.
 
--   IntelliSense (if appropriate) will behave consistently with other code editors.
+- IntelliSense (if appropriate) will behave consistently with other code editors.
 
--   Pop-ups or assistive UI follow similar styles and patterns for existing similar UI, such as CodeLens.
+- Pop-ups or assistive UI follow similar styles and patterns for existing similar UI, such as CodeLens.
 
--   Messages regarding document status will be presented in an infobar control at the top of the document or in the status bar.
+- Messages regarding document status will be presented in an infobar control at the top of the document or in the status bar.
 
--   The user must be able to customize the appearance of fonts and colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
+- The user must be able to customize the appearance of fonts and colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
 
 #### Design surfaces
 
--   An empty designer should have a watermark on the surface indicating how to get started.
+- An empty designer should have a watermark on the surface indicating how to get started.
 
--   View-switching mechanisms will follow existing patterns such as double-click to open a code editor, or tabs within the document window allowing interaction with both panes.
+- View-switching mechanisms will follow existing patterns such as double-click to open a code editor, or tabs within the document window allowing interaction with both panes.
 
--   Adding elements to the design surface should be done via the Toolbox, unless a highly specific tool window is required.
+- Adding elements to the design surface should be done via the Toolbox, unless a highly specific tool window is required.
 
--   Items on the surface will follow a consistent selection model.
+- Items on the surface will follow a consistent selection model.
 
--   Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
+- Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
 
 #### Dialog-style editors
 
--   Control layout should follow normal dialog layout conventions.
+- Control layout should follow normal dialog layout conventions.
 
--   Tabs within the editor should not match the appearance of the document tabs, they should match one of the two allowed interior tab styles.
+- Tabs within the editor should not match the appearance of the document tabs, they should match one of the two allowed interior tab styles.
 
--   Users must be able to interact with the controls using keyboard only; either by activating the editor and tabbing through controls or by using standard mnemonics.
+- Users must be able to interact with the controls using keyboard only; either by activating the editor and tabbing through controls or by using standard mnemonics.
 
--   The designer should use the common Save model. No overall Save or commit buttons should be placed on the surface, although other buttons may be appropriate.
+- The designer should use the common Save model. No overall Save or commit buttons should be placed on the surface, although other buttons may be appropriate.
 
 #### Model designers
 
--   An empty designer should have a watermark on the surface indicating how to get started.
+- An empty designer should have a watermark on the surface indicating how to get started.
 
--   Adding elements to the design surface should be done via the Toolbox.
+- Adding elements to the design surface should be done via the Toolbox.
 
--   Items on the surface will follow a consistent selection model.
+- Items on the surface will follow a consistent selection model.
 
--   Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
+- Embedded toolbars contain document-specific commands only, not common commands such as **Save**.
 
--   A legend may appear on the surface, either indicative or a watermark.
+- A legend may appear on the surface, either indicative or a watermark.
 
--   The user must be able to customize the appearance of the fonts/colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
+- The user must be able to customize the appearance of the fonts/colors using a **Tools > Options** page, either the shared Fonts and Colors page or one specific to the editor.
 
 #### Reports
 
--   Reports are typically information-only and don’t participate in the Save model. However, they may include interaction such as links to other relevant information or sections that expand and collapse.
+- Reports are typically information-only and don’t participate in the Save model. However, they may include interaction such as links to other relevant information or sections that expand and collapse.
 
--   Most commands on the surface should be hyperlinks, not buttons.
+- Most commands on the surface should be hyperlinks, not buttons.
 
--   Layout should include a header and follow the standard report layout guidelines.
+- Layout should include a header and follow the standard report layout guidelines.
 
 #### Dashboards
 
--   Dashboards don’t have an interaction model themselves, but serve as a means to offer a variety of other tools.
+- Dashboards don’t have an interaction model themselves, but serve as a means to offer a variety of other tools.
 
--   They do not participate in the Save model.
+- They do not participate in the Save model.
 
--   Users must be able to interact with the controls using keyboard only, either by activating the editor and tabbing through controls or by using standard mnemonics.
+- Users must be able to interact with the controls using keyboard only, either by activating the editor and tabbing through controls or by using standard mnemonics.
 
-##  <a name="BKMK_Dialogs"></a> Dialogs
+## <a name="BKMK_Dialogs"></a> Dialogs
 
 ### Introduction
  Dialogs in Visual Studio should typically support one discrete unit of the user's work and then be dismissed.
@@ -275,33 +270,33 @@ manager: "ghogen"
 ### Dialog design
  Well-designed dialogs take the following elements into consideration:
 
--   The user task being supported
+- The user task being supported
 
--   The dialog text style, language, and terminology
+- The dialog text style, language, and terminology
 
--   Control choice and UI conventions
+- Control choice and UI conventions
 
--   Visual layout specification and control alignment
+- Visual layout specification and control alignment
 
--   Keyboard access
+- Keyboard access
 
 #### Content organization
  Consider the differences between these basic types of dialogs:
 
--   [Simple dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_SimpleDialogs) present controls in a single modal window. The presentation might include variations of complex control patterns, including a field picker or an icon bar.
+- [Simple dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_SimpleDialogs) present controls in a single modal window. The presentation might include variations of complex control patterns, including a field picker or an icon bar.
 
--   [Layered dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_LayeredDialogs) are used to make the most of screen real estate when a single piece of UI comprises multiple groups of controls. The dialog's groupings are "layered" through tab controls, navigation list controls, or buttons so that the user can choose which grouping to see at any given moment.
+- [Layered dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_LayeredDialogs) are used to make the most of screen real estate when a single piece of UI comprises multiple groups of controls. The dialog's groupings are "layered" through tab controls, navigation list controls, or buttons so that the user can choose which grouping to see at any given moment.
 
--   [Wizards](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Wizards) are useful for directing the user through a logical sequence of steps toward the completion of a task. A series of choices are offered in sequential panels, sometimes introducing different workflows ("branches") dependent on a choice made in the previous panel.
+- [Wizards](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Wizards) are useful for directing the user through a logical sequence of steps toward the completion of a task. A series of choices are offered in sequential panels, sometimes introducing different workflows ("branches") dependent on a choice made in the previous panel.
 
-####  <a name="BKMK_SimpleDialogs"></a> Simple dialogs
+#### <a name="BKMK_SimpleDialogs"></a> Simple dialogs
  A simple dialog is a presentation of controls in a single modal window. This presentation might include variations of complex control patterns, such as a field picker. For simple dialogs, follow the standard general layout as well as any specific layout required for complex control groupings.
 
  ![Simple dialog in Visual Studio](../../extensibility/ux-guidelines/media/0704-01-createstrongnamekey.png "0704-01_CreateStrongNameKey")
 
  **Create Strong Name Key is an example of a simple dialog in Visual Studio.**
 
-####  <a name="BKMK_LayeredDialogs"></a> Layered dialogs
+#### <a name="BKMK_LayeredDialogs"></a> Layered dialogs
  Layered dialogs include tabs, dashboards, and embedded trees. They are used to maximize real estate when there are multiple groups of controls offered in a single piece of UI. The groupings are layered so that the user can choose which grouping to see at any one time.
 
  In the most straightforward case, the mechanism for switching between groupings is a tab control. There are several alternatives available. See Prioritizing and layering for how to choose the most appropriate style.
@@ -312,18 +307,18 @@ manager: "ghogen"
 
  **Tools > Options is an example of a layered dialog in Visual Studio.**
 
-####  <a name="BKMK_Wizards"></a> Wizards
+#### <a name="BKMK_Wizards"></a> Wizards
  Wizards are useful for directing the user through a logical sequence of steps in the completion of a task. A series of choices are offered in sequential panels, and the user must continue through each step before proceeding to the next. Once sufficient defaults are available, the **Finish** button is enabled.
 
  Modal wizards are used for tasks that:
 
--   Contain branching, where different paths are offered depending on user choices
+- Contain branching, where different paths are offered depending on user choices
 
--   Contain dependencies between steps, where subsequent steps depend on user input from the preceding step(s)
+- Contain dependencies between steps, where subsequent steps depend on user input from the preceding step(s)
 
--   Are sufficiently complex that the UI should be used to explain the choices offered and the possible outcomes in each step
+- Are sufficiently complex that the UI should be used to explain the choices offered and the possible outcomes in each step
 
--   Are transactional, requiring a set of steps to be completed in its entirety before any changes are committed
+- Are transactional, requiring a set of steps to be completed in its entirety before any changes are committed
 
 ### Common conventions
  To achieve optimal design and functionality with your dialogs, follow these conventions on dialog size, position, standards, control configuration and alignment, UI text, title bars, control buttons, and access keys.
@@ -335,9 +330,9 @@ manager: "ghogen"
 
  There are two recommendations for resizable dialogs:
 
-1.  That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
+1. That a minimum size is a defined for the dialog that will optimize for the control set without clipping, and adjust to accommodate reasonable localization growth.
 
-2.  That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
+2. That the user-scaled size persists from session to session. For example, if the user scales a dialog to 150%, then a subsequent launch of the dialog will display at 150%.
 
 #### Position
  Dialogs must appear centered within the IDE on first launch. For non-resizable dialogs, it is not required that the last position of the dialog be persisted, so it will appear centered on subsequent launches. For resizable dialogs, the size should be persisted on subsequent launches. For resizable dialogs that are modal, the position does not need to be persisted. Displaying them centered within the IDE prevents the possibility of the dialog appearing in an unpredictable or unusable position when the user's display configuration has changed. For modeless dialogs that can be repositioned, the user's position should be maintained on subsequent launches, as the dialog may be used frequently as an integral part of a larger workflow.
@@ -393,7 +388,7 @@ manager: "ghogen"
 #### Imagery
  Use images sparingly in dialogs. Do not use large icons in dialogs merely to use up space. Use images only if they are an important part of conveying the message to the user, such as warning icons or status animations.
 
-###  <a name="BKMK_PrioritizingAndLayering"></a> Prioritizing and layering
+### <a name="BKMK_PrioritizingAndLayering"></a> Prioritizing and layering
 
 #### Prioritizing your UI
  It might be necessary to bring certain UI elements to the forefront and place more advanced behavior and options (including obscure commands) into dialogs. Bring commonly used functionality to the forefront by making room for it, and by making it visible by default in the UI with a text label when the dialog is shown.
@@ -424,7 +419,7 @@ manager: "ghogen"
 ##### Adaptive UI
  Showing or hiding UI based on usage or a user's self-reported experience is another way of presenting necessary UI while hiding other portions. This is not recommended in Visual Studio as the algorithms for deciding when to show or hide UI can be tricky, and the rules will always be wrong for some set of cases.
 
-##  <a name="BKMK_Projects"></a> Projects
+## <a name="BKMK_Projects"></a> Projects
 
 ### Projects in the Solution Explorer
  Most projects are classified as reference-based, directory-based, or mixed. All three types of projects are supported simultaneously in the Solution Explorer. The root of the user experience in working with projects takes place inside this window. Although different project nodes are reference, directory, or mixed-mode type projects, there is a common interaction pattern that should be applied as a starting point before diverging into project-specific user patterns.

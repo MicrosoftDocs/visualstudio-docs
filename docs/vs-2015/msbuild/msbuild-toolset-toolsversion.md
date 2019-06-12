@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Toolset (ToolsVersion) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 helpviewer_keywords: 
   - "MSBuild, multitargeting"
   - "targeting a specific .NET framework [MSBuild]"
@@ -18,12 +13,11 @@ ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
 caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Toolset (ToolsVersion)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typically, a MSBuild Toolset includes a microsoft.common.tasks file, a microsoft.common.targets file, and compilers such as csc.exe and vbc.exe. Most Toolsets can be used to compile applications to more than one version of the .NET Framework and more than one system platform. However, the MSBuild 2.0 Toolset can be used to target only the .NET Framework 2.0.  
   
 ## ToolsVersion Attribute  
@@ -97,7 +91,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
  As described earlier in this topic, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  
   
 > [!NOTE]
->  If toolset property names collide, the value that's defined for the subkey path overrides the value that's defined for the root key path.  
+> If toolset property names collide, the value that's defined for the subkey path overrides the value that's defined for the root key path.  
   
  Sub-toolsets become active in the presence of the `VisualStudioVersion` build property. This property may take one of these values:  
   
@@ -118,6 +112,3 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
 ## See Also  
  [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)   
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
-
-
-

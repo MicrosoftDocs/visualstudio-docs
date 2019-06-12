@@ -1,12 +1,9 @@
 ---
 title: "Customizing T4 Text Transformation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "text templates, API"
   - "text templates, custom hosts"
@@ -14,7 +11,7 @@ ms.assetid: 62cd9a3c-a6e1-4b29-93f5-f2a0cf47dc92
 caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing T4 Text Transformation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +37,3 @@ Text templates are a feature of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tha
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)  
   
  Provides the syntax of text template directives and control blocks.
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "How to: Implement an Interface (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "interfaces [Visual Studio], implementing"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -23,9 +21,9 @@ In **Class Designer**, you can implement an interface on the class diagram by co
 
 ## To implement an interface by drawing an inheritance line
 
-1.  On the class diagram, display the interface and the class that will implement the interface.
+1. On the class diagram, display the interface and the class that will implement the interface.
 
-2.  Draw an inheritance line from the class and the interface.
+2. Draw an inheritance line from the class and the interface.
 
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members.
 
@@ -33,14 +31,14 @@ For more information, see [How to: Create inheritance between types](how-to-crea
 
 ## To implement an interface from the Class View window
 
-1.  On the class diagram, display the class that you want to implement the interface.
+1. On the class diagram, display the class that you want to implement the interface.
 
-2.  Open **Class View** and locate the interface.
+2. Open **Class View** and locate the interface.
 
     > [!TIP]
     > If **Class View** is not open, open **Class View** from the **View** menu or press **Ctrl**+**Shift**+**C**.
 
-3.  Drag the interface node to the class shape on the diagram.
+3. Drag the interface node to the class shape on the diagram.
 
      A lollipop appears attached to the class and a label with the interface name identifies the inheritance relationship. Visual Studio generates stubs for all interface members; at this point, the interface is implemented.
 

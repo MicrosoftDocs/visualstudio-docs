@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/28/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Setting Up Administrators for Cloud Subscriptions
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Set up administrators for Visual Studio Cloud subscriptions
@@ -41,7 +39,6 @@ To add administrators:
 The subscriber you designated appears in the center of the page, and their role shows as "User Access Administrator".
 
 The new administrator can now sign in to the [management portal](https://manage.visualstudio.com), select the same Azure subscription that was used to purchase the cloud subscriptions from the list in the upper left corner of the page, and begin to manage those subscriptions.
-
 
 > [!NOTE]
 > If you see users with access to edit your cloud subscriptions that you didn't establish as administrators, they may have roles in the underlying Azure subscription that allow them to manage subscriptions. Those roles include: owner, contributor, service admin, or co-admin. For more information, visit [Add billing managers](/azure/devops/organizations/billing/add-backup-billing-managers?view=vsts).

@@ -1,16 +1,14 @@
 ---
-title: "How to: Migrate Extensibility Projects to Visual Studio 2017| Microsoft Docs"
-ms.custom: ""
+title: "How to: Migrate Extensibility Projects to Visual Studio 2017 | Microsoft Docs"
 ms.date: "11/09/2016"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+monikerRange: vs-2017
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017
 
@@ -34,7 +32,8 @@ The project file (for example **.csproj*) will be updated:
 
 ## Update the Microsoft.VSSDK.BuildTools NuGet package
 
->**Note:** If your solution does not reference the Microsoft.VSSDK.BuildTools NuGet package, you can skip this step.
+> [!Note]
+> If your solution does not reference the Microsoft.VSSDK.BuildTools NuGet package, you can skip this step.
 
 In order to build your extension in the new VSIX v3 (version 3) format, your solution will need to be built with the new VSSDK Build Tools. This will be installed with Visual Studio 2017, but your VSIX v2 extension might be holding a reference to an older version via NuGet. If so, you will need to manually install an update of the Microsoft.VSSDK.BuildTools NuGet package for your solution.
 
@@ -51,13 +50,14 @@ To update the NuGet references to Microsoft.VSSDK.BuildTools:
 
 To ensure that the user's installation of Visual Studio has all the assemblies required to run the extension, specify all the prerequisite components or packages in the extension manifest file. When a user attempts to install the extension, the VSIXInstaller will check to see if all the prerequisites are installed. If some are missing, the user will be prompted to install the missing components as part of the extension installation process.
 
->**Note:** At a minimum, all extensions should specify the Visual Studio core editor component as a prerequisite.
+> [!Note]
+> At a minimum, all extensions should specify the Visual Studio core editor component as a prerequisite.
 
 * Edit the extension manifest file (usually called *source.extension.vsixmanifest*).
 * Ensure `InstallationTarget` includes 15.0.
 * Add required installation prerequisites (as shown in the example below).
-  * We recommend you specify only Component IDs for installation prerequisites.
-  * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
+   * We recommend you specify only Component IDs for installation prerequisites.
+   * See the section at the end of this document for [instructions on identifying Component IDs](#find-component-ids).
 
 Example:
 
@@ -77,23 +77,25 @@ Example:
 
 Instead of directly editing the manifest XML, you can use the new **Prerequisites** tab in the Manifest Designer to select the prerequisites and the XML will be updated for you.
 
->**Note:** The Manifest Designer will only allow you to select Components (not Workloads or Packages) that are installed on the current Visual Studio instance. If you need to add a prerequisite for a workload, package, or component that is not currently installed, edit the manifest XML directly.
+> [!Note]
+> The Manifest Designer will only allow you to select Components (not Workloads or Packages) that are installed on the current Visual Studio instance. If you need to add a prerequisite for a workload, package, or component that is not currently installed, edit the manifest XML directly.
 
 * Open *source.extension.vsixmanifest [Design]* file.
 * Select **Prerequisites** tab and press **New** button.
 
-  ![VSIX manifest designer](media/vsix-manifest-designer.png)
+   ![VSIX manifest designer](media/vsix-manifest-designer.png)
 
 * The **Add New Prerequisite** window will open.
 
-  ![add vsix prerequisite](media/add-vsix-prerequisite.png)
+   ![add vsix prerequisite](media/add-vsix-prerequisite.png)
 
 * Click on the dropdown for **Name** and select the desired prerequisite.
-* Update the version if required.
+* Update the version if necessary.
 
-  >Note: The version field will be pre-populated with the version of the currently installed component, with a range spanning up to (but not including) the next major version of the component.
+   > [!Note]
+   > The version field will be pre-populated with the version of the currently installed component, with a range spanning up to (but not including) the next major version of the component.
 
-  ![add roslyn prerequisite](media/add-roslyn-prerequisite.png)
+   ![add roslyn prerequisite](media/add-roslyn-prerequisite.png)
 
 * Press **OK**.
 
@@ -105,24 +107,26 @@ It might look like: *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterpr
 
 ![start external program](media/start-external-program.png)
 
->**Note:** The Debug Start Action is typically stored in the *.csproj.user* file. This file is usually included in the *.gitignore* file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a *.csproj.user* file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the *.csproj.user* file will contain references to the previous Visual Studio version's install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
+> [!Note]
+> The Debug Start Action is typically stored in the *.csproj.user* file. This file is usually included in the *.gitignore* file and, hence, is not normally saved with other project files when committed to source control. As such, if you have pulled your solution fresh from source control it is likely the project will have no values set for Start Action. New VSIX projects created with Visual Studio 2017 will have a *.csproj.user* file created with defaults pointing to the current Visual Studio install directory. However if you are migrating a VSIX v2 extension, it is likely that the *.csproj.user* file will contain references to the previous Visual Studio version's install directory. Setting the value for **Debug** > **Start action** will allow the correct Visual Studio experimental instance to launch when you try to debug your extension.
 
 ## Check that the extension builds correctly (as a VSIX v3)
 
 * Build the VSIX project.
 * Unzip the generated VSIX.
-  * By default, the VSIX file lives inside *bin/Debug* or *bin/Release* as *[YourCustomExtension].vsix*.
-  * Rename *.vsix* to *.zip* to easily view the contents.
+   * By default, the VSIX file lives inside *bin/Debug* or *bin/Release* as *[YourCustomExtension].vsix*.
+   * Rename *.vsix* to *.zip* to easily view the contents.
 * Check for the existence of three files:
-  * *extension.vsixmanifest*
-  * *manifest.json*
-  * *catalog.json*
+   * *extension.vsixmanifest*
+   * *manifest.json*
+   * *catalog.json*
 
 ## Check when all required prerequisites are installed
 
 Test that the VSIX installs successfully on a machine with all required prerequisites installed.
 
->**Note:** Before installing any extension, please shut down all instances of Visual Studio.
+> [!Note]
+> Before installing any extension, please shut down all instances of Visual Studio.
 
 Attempt to install the extension:
 
@@ -131,11 +135,11 @@ Attempt to install the extension:
 ![VSIX installer on Visual Studio 2017](media/vsixinstaller-vs-2017.png)
 
 * Optional: Check on previous versions of Visual Studio.
-  * Proves backward compatibility.
-  * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015.
+   * Proves backward compatibility.
+   * Should work for Visual Studio 2012, Visual Studio 2013, Visual Studio 2015.
 * Optional: Check that VSIX Installer Version Checker offers a choice of versions.
-  * Includes previous versions of Visual Studio (if installed).
-  * Includes Visual Studio 2017.
+   * Includes previous versions of Visual Studio (if installed).
+   * Includes Visual Studio 2017.
 
 If Visual Studio was recently opened, you might see a dialog box like this:
 
@@ -143,7 +147,8 @@ If Visual Studio was recently opened, you might see a dialog box like this:
 
 Wait for the processes to shut down, or manually end the tasks. You can find the processes by the listed name, or with the PID listed in parenthesis.
 
->**Note:** These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you've shut down all instances of Visual Studio on the machine - including those from other users, then continue to retry.
+> [!Note]
+> These processes will not automatically shut down while an instance of Visual Studio is running. Ensure that you've shut down all instances of Visual Studio on the machine - including those from other users, then continue to retry.
 
 ## Check when missing the required prerequisites
 
@@ -159,9 +164,9 @@ When looking up your dependencies, you will find that one dependency could map t
 
 To provide further guidance, we have identified a few common extension types and their suggested prerequisites:
 
-Extension Type | Display Name |	Id
+Extension Type | Display Name | ID
 --- | --- | ---
-Editor | Visual Studio core editor	| Microsoft.VisualStudio.Component.CoreEditor
+Editor | Visual Studio core editor | Microsoft.VisualStudio.Component.CoreEditor
 Roslyn | C# and Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
 WPF | Managed Desktop Workload Core | Microsoft.VisualStudio.Component.ManagedDesktop.Core
 Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.JustInTime
@@ -176,7 +181,7 @@ If you are unsure which component contains a specific binary, download the [Comp
 
 There are four columns in the Excel sheet: **Component Name**, **ComponentId**, **Version**, and **Binary / File Names**.  You can use the filters to search and find specific components and binaries.
 
-For all your references, first determine which ones are in the core editor (Microsoft.VisualStudio.Component.CoreEditor) component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in core editor, add filters in the **Binaries / Files Names** section to find components that have any of the subset of those references.
+For all your references, first determine which ones are in the core editor (Microsoft.VisualStudio.Component.CoreEditor) component.  At minimum, we require the core editor component to be specified as a prerequisite for all extensions. Of the references that are left that are not in core editor, add filters in the **Binaries / Files Names** section to find components that have any of the subsets of those references.
 
 Examples:
 

@@ -1,17 +1,16 @@
 ---
-title: "Debugger windows | Microsoft Docs"
+title: "Inspect data using debugger windows | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "04/25/2017"
-ms.technology: "vs-ide-debug"
+ms.date: "04/25/2018"
 ms.topic: "conceptual"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# Learn about Debugger Windows in Visual Studio
+# Inspect data using debugger windows in Visual Studio
 
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops, click **Debug > Windows**.
 
@@ -35,7 +34,7 @@ You can open most debugger windows while you are debugging your program. To see 
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|
 |Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/python-interactive-repl-in-visual-studio.md)|
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|
-|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)|
+|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](/visualstudio/debugger/quickstart-debug-html-and-css)|
 |Live Visual Tree|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
 |Live Property Explorer|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|
 |Processes|CTRL+ALT+Z|[Debug Threads and Processes](../debugger/debug-threads-and-processes.md)|

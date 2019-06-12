@@ -1,14 +1,9 @@
 ---
 title: "How to: Troubleshoot Unsuccessful Project Upgrades | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: troubleshooting
 f1_keywords:
   - "VisualStudio.SourceControl.CannotOpenFromSourceControlDSW"
   - "vs.UpgradeProjectSolution.8.0"
@@ -22,7 +17,7 @@ ms.assetid: 842fe448-c044-4343-8eae-d81711cf48ba
 caps.latest.revision: 31
 author: "kraigb"
 ms.author: "kraigb"
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,11 +29,11 @@ Sometimes Visual Studio cannot fully convert a project from an earlier version o
 
 #### To resolve incorrect file paths
 
-1.  Open your project file in a text editor.
+1. Open your project file in a text editor.
 
-2.  Scan for file paths that may be incorrect, especially those that contain a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] version number.
+2. Scan for file paths that may be incorrect, especially those that contain a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] version number.
 
-3.  Modify incorrect file paths so that they point to the new targets.
+3. Modify incorrect file paths so that they point to the new targets.
 
 ## The Project Does Not Build Because References Are Not Valid
  When you upgrade [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you might also be upgrading the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version. If your project contains references that are discontinued in the newer [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] version, they may not resolve correctly. This is especially likely for references that include version numbers, for example, `Microsoft.VisualStudio.Shell.Interop.8.0`.
@@ -57,4 +52,4 @@ Sometimes Visual Studio cannot fully convert a project from an earlier version o
 
 ## See Also
  [/Upgrade (devenv.exe)](../ide/reference/upgrade-devenv-exe.md)
- [Converting to ASP.NET 4](http://msdn.microsoft.com/library/790147c6-36c1-41b5-a52d-30b9ccd2bd10)
+ [Converting to ASP.NET 4](https://msdn.microsoft.com/library/790147c6-36c1-41b5-a52d-30b9ccd2bd10)

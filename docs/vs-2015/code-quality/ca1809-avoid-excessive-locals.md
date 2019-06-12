@@ -1,14 +1,9 @@
 ---
 title: "CA1809: Avoid excessive locals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CA1809"
   - "AvoidExcessiveLocals"
@@ -45,6 +40,3 @@ manager: "wpickett"
 
 ## Related Rules
  [CA1804: Remove unused locals](../code-quality/ca1804-remove-unused-locals.md)
-
-
-

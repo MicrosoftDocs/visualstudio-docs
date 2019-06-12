@@ -1,14 +1,9 @@
 ---
 title: "Item Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,12 +16,11 @@ ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
 caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Item Element (MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Contains a user-defined item and its metadata. Every item that is used in a [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project must be specified as a child of an `ItemGroup` element.  
   
  \<Project>  
@@ -95,6 +89,3 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
  [Items](../msbuild/msbuild-items.md)   
  [MSBuild Properties](msbuild-properties1.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
-
-
-

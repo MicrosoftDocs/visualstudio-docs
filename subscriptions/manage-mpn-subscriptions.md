@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 12/11/2017
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
@@ -39,7 +37,6 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
     - Contact Email
 13. Sign-in is now complete, and the subscriber should have access to benefits
 
-
 ### Competency Partners
 1. Select **Requirements and Assets**
 2. Select **Privileges**
@@ -63,7 +60,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 > [!NOTE]
 > The Technical Contact Role is required for Visual Studio subscriptions
->     - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
+> - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
 
 ## Need help?
 Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)

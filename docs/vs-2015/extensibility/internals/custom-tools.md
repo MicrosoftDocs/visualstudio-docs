@@ -1,14 +1,9 @@
 ---
 title: "Custom Tools | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSPackages, custom tools"
   - "tools [Visual Studio], custom"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Custom Tools
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ manager: "ghogen"
 ## Related Sections  
  [Extending Projects](../../extensibility/extending-projects.md)  
  Describes how to use [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] projects and solutions to organize code files and resource files, and how to implement source control.
-

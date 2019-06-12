@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 867a9c21-0909-4963-bc02-d41e9393008c
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Specify the timing details storage property for a load test run setting
 
@@ -43,15 +41,15 @@ You can edit a run setting's **Timing Details Storage** property's value in the 
 
 ## To configure the timing details storage property in a load test
 
-1.  Open a load test in the load test editor.
+1. Open a load test in the load test editor.
 
-2.  Expand the **Run Settings** node in the load test.
+2. Expand the **Run Settings** node in the load test.
 
-3.  Choose on the run settings that you want to configure, for example **Run Settings1[Active]**.
+3. Choose on the run settings that you want to configure, for example **Run Settings1[Active]**.
 
-4.  Open the **Properties** Window. On the **View** menu, select **Properties Window**.
+4. Open the **Properties** Window. On the **View** menu, select **Properties Window**.
 
-5.  Under the **Results** category, choose the **Timing Details Storage** property and select **All Individual Details**.
+5. Under the **Results** category, choose the **Timing Details Storage** property and select **All Individual Details**.
 
      After you have configured the **All Individual Details** setting for the **Timing Details Storage** property, you can run your load test and view the **Virtual User Activity Chart**. For more information, see [How to: Analyze what virtual users are doing during a load test](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md).
 

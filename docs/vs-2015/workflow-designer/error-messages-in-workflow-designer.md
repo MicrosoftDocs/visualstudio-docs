@@ -1,11 +1,8 @@
 ---
 title: "Error Messages in Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "WFDErrorMessages.UI"
@@ -15,7 +12,7 @@ ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
 caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Error Messages in Workflow Designer
 This topic describes the types of error messages that can be encountered when working with [!INCLUDE[wfd1](../includes/wfd1-md.md)].  

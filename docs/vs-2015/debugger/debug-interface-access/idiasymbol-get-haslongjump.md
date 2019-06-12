@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_hasLongJump | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,12 +12,12 @@ ms.assetid: 14484cb1-43b0-47a1-a9a8-081b55566886
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_hasLongJump
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Retrieves a flag that specifies whether the function contains a use of the [longjmp](http://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f) command (paired with a [setjmp](http://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2) command, these form the C-style method of exception handling).  
+Retrieves a flag that specifies whether the function contains a use of the [longjmp](https://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f) command (paired with a [setjmp](https://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2) command, these form the C-style method of exception handling).  
   
 ## Syntax  
   
@@ -40,7 +35,7 @@ HRESULT get_hasLongJump
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.  
+> A return value of `S_FALSE` means that the property is not available for the symbol.  
   
 ## Requirements  
   
@@ -52,8 +47,5 @@ HRESULT get_hasLongJump
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)   
- [longjmp](http://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f)   
- [setjmp](http://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2)
-
-
-
+ [longjmp](https://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f)   
+ [setjmp](https://msdn.microsoft.com/library/684a8b27-e8eb-455b-b4a8-733ca1cbd7d2)

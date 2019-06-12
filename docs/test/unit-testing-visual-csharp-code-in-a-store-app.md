@@ -1,18 +1,16 @@
 ---
 title: "Unit testing Visual C# code"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 author: gewarren
 ---
-# Unit testing Visual C# code
+# Unit test C# code
 
-This article describes one way to create unit tests for a Visual C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.
+This article describes one way to create unit tests for a C# class in a UWP app. The Rooter class demonstrates vague memories of limit theory from calculus by implementing a function that calculates an estimate of the square root of a given number. The Maths app can then use this function to show a user the fun things that can be done with math.
 
 This article demonstrates how to use unit testing as the first step in development. In this approach, you first write a test method that verifies a specific behavior in the system that you are testing and then you write the code that passes the test. By making changes in the order of the following procedures, you can reverse this strategy to first write the code that you want to test and then write the unit tests.
 
@@ -22,13 +20,13 @@ This article also creates a single Visual Studio solution and separate projects 
 
 1. On the **File** menu, choose **New** > **Project**.
 
-2. In the **New Project** dialog box, expand **Installed** > **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.
+2. Search for and select the **Blank App (Universal Windows)** project template.
 
-3. Name the project `Maths` and make sure **Create directory for solution** is selected.
+3. Name the project `Maths`.
 
 4. In **Solution Explorer**, choose the solution name, choose **Add** from the shortcut menu, and then choose **New Project**.
 
-5. In the **New Project** dialog box, expand **Installed**, then expand **Visual C#** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
+5. Search for and select the **Unit Test App (Universal Windows)** project template.
 
 6. Open *UnitTest1.cs* in the Visual Studio editor.
 

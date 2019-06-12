@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_undecoratedNameEx | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 579aed0b-c57d-41a1-a94a-3bf665fd4a9d
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_undecoratedNameEx
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,13 +39,13 @@ HRESULT get_undecoratedNameEx( 
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means the property is not available for the symbol.  
+> A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
  The `undecorateOptions` can be a combination of the following flags.  
   
 > [!NOTE]
->  The flag names are not defined in the DIA SDK, so you need to either add the declarations to your code or use the raw values.  
+> The flag names are not defined in the DIA SDK, so you need to either add the declarations to your code or use the raw values.  
   
 |Flag|Value|Description|  
 |----------|-----------|-----------------|  
@@ -77,6 +72,3 @@ HRESULT get_undecoratedNameEx( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

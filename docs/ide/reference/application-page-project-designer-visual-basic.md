@@ -1,8 +1,6 @@
 ---
 title: Application page of VB project properties
 ms.date: 10/30/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vb.ProjectPropertiesApplicationWPF"
@@ -12,7 +10,7 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -53,14 +51,14 @@ For information about how to access this property programmatically, see <xref:VS
 
 ### Target framework (all configurations)
 
-Specifies the version of the .NET Framework that the application targets. This option can have different values depending on which versions of the .NET Framework are installed on your computer.
+Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-The default value matches the target framework that you specified in the **New Project** dialog box.
+For .NET Framework projects, the default value matches the target framework that you specified when you created the project.
 
 > [!NOTE]
 > The prerequisite packages that are listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically when you open the dialog box for the first time. If you subsequently change the project's target framework, you must specify the prerequisites manually to match the new target framework.
 
-For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Visual Studio Multi-Targeting Overview](../../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
 
 ### Application type
 
@@ -72,7 +70,7 @@ For more information about the **Application type** property, see [/target (Visu
 
 ### Auto-generate binding redirects
 
-Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**. This checkbox was introduced in Visual Studio 2017 version 15.7.
+Binding redirects are added to your project if your app or its components reference more than one version of the same assembly. If you want to manually define binding redirects in the project file, deselect **Auto-generate binding redirects**.
 
 For more information about redirection, see [Redirecting assembly versions](/dotnet/framework/configure-apps/redirect-assembly-versions).
 

@@ -1,14 +1,9 @@
 ---
 title: "IDebugProperty2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProperty2"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProperty2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ manager: "ghogen"
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.  
   
 > [!NOTE]
->  This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugProperty2` can represent such an entity.  
+> This use of "property" should not be confused with that meaning a member variable of a class, although an `IDebugProperty2` can represent such an entity.  
   
 ## Syntax  
   
@@ -81,4 +76,3 @@ IDebugProperty2 : IUnknown
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md)   
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
-

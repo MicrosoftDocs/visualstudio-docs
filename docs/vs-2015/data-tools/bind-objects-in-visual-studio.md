@@ -1,12 +1,9 @@
 ---
 title: "Bind objects"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
@@ -21,16 +18,15 @@ ms.assetid: ed743ce6-73af-45e5-a8ff-045eddaccc86
 caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Bind objects in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-
 Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Frameworkautogenerates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object.    For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).
 
 > [!TIP]
->  The approaches to object binding in this article should only be considered if your application is already based on datasets.These approaches can also be used if you are already familiar with datasets, and the data you will be processing is tabular and not too complex or too big. For an even simpler example, involving loading data directly into objects by using a DataReader and manually updating the UI without databinding, see [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md).
+> The approaches to object binding in this article should only be considered if your application is already based on datasets.These approaches can also be used if you are already familiar with datasets, and the data you will be processing is tabular and not too complex or too big. For an even simpler example, involving loading data directly into objects by using a DataReader and manually updating the UI without databinding, see [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md).
 
 ## Object requirements
  The only requirement for custom objects to work with the data design tools in Visual Studio is that the object needs at least one public property.
@@ -40,20 +36,20 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ## Examples of using custom objects as data sources
  While there are countless ways to implement your application logic when working with objects as a data source, for SQL databases there are a few standard operations that can be simplified by using the Visual Studio–generated TableAdapter objects. This page explains how to implement these standard processes using TableAdapters.It is not intended as a guide for creating your custom objects. For example, you will typically perform the following standard operations regardless of the specific implementation of your objects, or application's logic:
 
--   Loading data into objects (typically from a database).
+- Loading data into objects (typically from a database).
 
--   Creating a typed collection of objects.
+- Creating a typed collection of objects.
 
--   Adding objects to and removing objects from a collection.
+- Adding objects to and removing objects from a collection.
 
--   Displaying the object data to users on a form.
+- Displaying the object data to users on a form.
 
--   Changing/editing the data in an object.
+- Changing/editing the data in an object.
 
--   Saving data from objects back to the database.
+- Saving data from objects back to the database.
 
 > [!NOTE]
->  In order to better understand, and provide context for the examples on this page, we suggest that you complete the following: [Walkthrough: Connecting to Data in Objects (Windows Forms)](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05). That walkthrough creates the objects discussed here.
+> In order to better understand, and provide context for the examples on this page, we suggest that you complete the following: [Walkthrough: Connecting to Data in Objects (Windows Forms)](https://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05). That walkthrough creates the objects discussed here.
 
 ### Loaddata into objects
  For this example, you load data into your objects by using TableAdapters. By default, TableAdapters are created with two kinds of methods that fetch data from a database and populate data tables.
@@ -65,7 +61,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
   The easiest way to load your custom objects with data is to call the `TableAdapter.GetData` method, loop through the collection of rows in the returned data table, and populate each object with the values in each row. You can create a `GetData` method that returns a populated data table for any query added to a TableAdapter.
 
 > [!NOTE]
->  Visual Studio names the TableAdapter queries `Fill` and `GetData` by default, but those names can be changed to any valid method name.
+> Visual Studio names the TableAdapter queries `Fill` and `GetData` by default, but those names can be changed to any valid method name.
 
  The following example shows how to loop through the rows in a data table, and populate an object with data:
 
@@ -73,14 +69,14 @@ Visual Studio provides design-time tools for working with custom objects as the 
  [!code-vb[VbRaddataConnecting#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Form1.vb#4)]
 
 ### Create a typed collection of objects
- You can create collection classes for your objects, or use the typed collections that are automatically provided by the [BindingSource Component](http://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9).
+ You can create collection classes for your objects, or use the typed collections that are automatically provided by the [BindingSource Component](https://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9).
 
  When you are creating a custom collection class for objects, we suggest that you inherit from <xref:System.ComponentModel.BindingList%601>. This generic class provides functionality to administer your collection, as well as the ability to raise events that send notifications to the data-binding infrastructure in Windows Forms.
 
  The automatically-generated collection in the <xref:System.Windows.Forms.BindingSource> uses a <xref:System.ComponentModel.BindingList%601> for its typed collection. If your application does not require additional functionality, then you can maintain your collection within the <xref:System.Windows.Forms.BindingSource>. For more information, see the <xref:System.Windows.Forms.BindingSource.List%2A> property of the <xref:System.Windows.Forms.BindingSource> class.
 
 > [!NOTE]
->  If your collection requires functionality not provided by the base implementation of the <xref:System.ComponentModel.BindingList%601>, you should create a custom collection so you can add to the class as needed.
+> If your collection requires functionality not provided by the base implementation of the <xref:System.ComponentModel.BindingList%601>, you should create a custom collection so you can add to the class as needed.
 
  The following code shows how to create the class for a strongly-typed collection of `Order` objects:
 
@@ -90,12 +86,12 @@ Visual Studio provides design-time tools for working with custom objects as the 
 ### Addobjects to a collection
  You add objects to a collection by calling the `Add` method of your custom collection class or of the <xref:System.Windows.Forms.BindingSource>.
 
- For an example of adding to a collection using a <xref:System.Windows.Forms.BindingSource>, see the `LoadCustomers` method in [Walkthrough: Connecting to Data in Objects (Windows Forms)](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05).
+ For an example of adding to a collection using a <xref:System.Windows.Forms.BindingSource>, see the `LoadCustomers` method in [Walkthrough: Connecting to Data in Objects (Windows Forms)](https://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05).
 
- For an example of adding objects to a custom collection, see the `LoadOrders` method in [Walkthrough: Connecting to Data in Objects (Windows Forms)](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05).
+ For an example of adding objects to a custom collection, see the `LoadOrders` method in [Walkthrough: Connecting to Data in Objects (Windows Forms)](https://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05).
 
 > [!NOTE]
->  The `Add` method is automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList%601>.
+> The `Add` method is automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList%601>.
 
  The following code shows how to add objects to the typed collection in a <xref:System.Windows.Forms.BindingSource>:
 
@@ -105,7 +101,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
  The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:
 
 > [!NOTE]
->  In this example the `Orders` collection is a property of the `Customer` object.
+> In this example the `Orders` collection is a property of the `Customer` object.
 
  [!code-csharp[VbRaddataConnecting#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Class1.cs#6)]
  [!code-vb[VbRaddataConnecting#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Class1.vb#6)]
@@ -114,7 +110,7 @@ Visual Studio provides design-time tools for working with custom objects as the 
  You remove objects from a collection by calling the `Remove` or `RemoveAt` method of your custom collection class or of <xref:System.Windows.Forms.BindingSource>.
 
 > [!NOTE]
->  The `Remove` and `RemoveAt` methods are automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList%601>.
+> The `Remove` and `RemoveAt` methods are automatically provided for your custom collection when you inherit from <xref:System.ComponentModel.BindingList%601>.
 
  The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt%2A> method:
 

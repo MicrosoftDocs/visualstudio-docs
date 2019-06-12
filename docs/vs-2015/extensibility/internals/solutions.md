@@ -1,21 +1,16 @@
 ---
 title: "Solutions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "solutions, VSPackages"
   - "VSPackages, solutions"
 ms.assetid: 78c6ac4b-6817-4bf3-ae2f-053e4ff96d17
 caps.latest.revision: 20
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Solutions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,4 +27,3 @@ A solution is a grouping of one or more projects that work together to create an
   
  [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)  
  Explains the .suo file.
-

@@ -1,20 +1,18 @@
 ---
 title: "How to: Collect Windows Counter Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.syscounter"
   - "vs.performance.property.wincounter"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "windows counters"
   - "performance tools, using windows counters"
   - "profiling tools, using windows counters"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: Collect Windows counter data
@@ -44,6 +42,6 @@ Windows Counters are system performance counters that can be collected at set in
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[Performance session properties](../profiling/performance-session-properties.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[Performance session properties](../profiling/performance-session-properties.md)
 [CPU and Windows counters](../profiling/cpu-and-windows-counters.md)

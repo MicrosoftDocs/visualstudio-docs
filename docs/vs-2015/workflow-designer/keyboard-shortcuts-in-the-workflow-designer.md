@@ -1,11 +1,8 @@
 ---
 title: "Keyboard Shortcuts in the Workflow Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 f1_keywords: 
   - "WFDKeyboardShortcuts.UI"
@@ -13,7 +10,7 @@ ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
 caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Keyboard Shortcuts in the Workflow Designer
 All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] can be accessed by keyboard.  
@@ -51,13 +48,13 @@ All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] ca
   
 - To connect activities:  
   
-  1.  Select the source activity by tabbing to the activity.  
+  1. Select the source activity by tabbing to the activity.  
   
-  2.  Press CTRL+E, M as many times as necessary to move keyboard focus to the destination activity.  
+  2. Press CTRL+E, M as many times as necessary to move keyboard focus to the destination activity.  
   
-  3.  Press CTRL+E, S to add the destination activity to the selection.  
+  3. Press CTRL+E, S to add the destination activity to the selection.  
   
-  4.  Press CTRL+E, F to add the connector from the source to the destination.  
+  4. Press CTRL+E, F to add the connector from the source to the destination.  
   
   Notes about connecting activities by keyboard:  
   
@@ -70,18 +67,18 @@ All of the core functionality of the [!INCLUDE[wfd1](../includes/wfd1-md.md)] ca
 ### Expression Editing  
  By default, the default keyboard shortcuts for [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] text editing apply inside the expression editor in [!INCLUDE[wfd2](../includes/wfd2-md.md)], with the following limitations:  
   
--   Remapping the keyboard shortcuts for the following commands has no effect. You can only use the default keyboard shortcuts to access these commands when editing an expression.  
+- Remapping the keyboard shortcuts for the following commands has no effect. You can only use the default keyboard shortcuts to access these commands when editing an expression.  
   
-    1.  Cut  
+    1. Cut  
   
-    2.  Copy  
+    2. Copy  
   
-    3.  Paste  
+    3. Paste  
   
-    4.  Select All  
+    4. Select All  
   
-    5.  Undo  
+    5. Undo  
   
-    6.  Redo  
+    6. Redo  
   
--   To remap the keyboard shortcuts for expression editing commands inside [!INCLUDE[wfd2](../includes/wfd2-md.md)] in [!INCLUDE[vs2010](../includes/vs2010-md.md)], edit the shortcuts in the [!INCLUDE[wfd2](../includes/wfd2-md.md)] scope. Changes made in the Text Editor scope do not automatically apply to [!INCLUDE[wfd2](../includes/wfd2-md.md)]. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).
+- To remap the keyboard shortcuts for expression editing commands inside [!INCLUDE[wfd2](../includes/wfd2-md.md)] in [!INCLUDE[vs2010](../includes/vs2010-md.md)], edit the shortcuts in the [!INCLUDE[wfd2](../includes/wfd2-md.md)] scope. Changes made in the Text Editor scope do not automatically apply to [!INCLUDE[wfd2](../includes/wfd2-md.md)]. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).

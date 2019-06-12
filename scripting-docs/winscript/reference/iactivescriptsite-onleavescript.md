@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::OnLeaveScript | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Informs the host that the scripting engine has returned from executing script co
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnLeaveScript(void);  
 ```  
   

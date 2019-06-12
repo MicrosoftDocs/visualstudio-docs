@@ -1,14 +1,9 @@
 ---
 title: "Visual Basic-Specific IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliSense [Visual Basic]"
   - "IntelliSense [Visual Studio], Visual Basic"
@@ -16,16 +11,16 @@ ms.assetid: 4dec8753-05e5-4f74-b304-5f8c4ed8723b
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Basic-Specific IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 The Visual Basic source code editor offers the following IntelliSense features:  
   
--   Syntax tips  
+- Syntax tips  
   
-     Syntax tips display the syntax of the statement that you are typing. This is useful for statements such as [Declare](http://msdn.microsoft.com/library/d3f21fb0-b804-4c99-97ed-583b23894cf1).  
+     Syntax tips display the syntax of the statement that you are typing. This is useful for statements such as [Declare](https://msdn.microsoft.com/library/d3f21fb0-b804-4c99-97ed-583b23894cf1).  
   
 ## Automatic Completion  
   
@@ -52,6 +47,3 @@ The Visual Basic source code editor offers the following IntelliSense features:
   
 ## See Also  
  [Using IntelliSense](../ide/using-intellisense.md)
-
-
-

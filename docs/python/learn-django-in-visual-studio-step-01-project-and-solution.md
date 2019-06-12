@@ -3,14 +3,12 @@ title: Learn Django tutorial in Visual Studio, step 1, Django basics
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
 ms.date: 11/19/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
 ms.topic: tutorial
-author: kraigb
-ms.author: kraigb
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -31,7 +29,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Visual Studio 2017 on Windows with the following options:
+- Visual Studio 2017 or later on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
@@ -62,7 +60,7 @@ When working with Django from the command line, you typically start a project by
     - **Solution**: leave this control set to default **Create new solution** option.
     - **Solution name**: set to **LearningDjango**, which is appropriate for the solution as a container for multiple projects in this tutorial.
     - **Create directory for solution**: Leave set (the default).
-    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio 2017 installer and add the **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
+    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio installer and add the **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 1. After a moment, Visual Studio prompts you with a dialog saying **This project requires external packages** (shown below). This dialog appears because the template includes a *requirements.txt* file referencing the latest Django 1.x package. (Select **Show required packages** to see the exact dependencies.)
 

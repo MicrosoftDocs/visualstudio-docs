@@ -1,9 +1,7 @@
 ---
-title: Globalizing and localizing applications
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+title: Localization tools
+ms.date: 02/15/2019
+ms.topic: reference
 helpviewer_keywords:
   - "globalization [Visual Studio]"
   - "Visual Basic code, international applications"
@@ -14,30 +12,38 @@ helpviewer_keywords:
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Globalizing and localizing applications
+# Develop globalized and localized apps
 
-If you plan on distributing your application to an international audience, you'll need to keep several things in mind during the design and development phases. Even if you don't have such plans, a small effort up front can make things considerably easier should your plans change in future versions of your application. Services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] make it easy to develop a single application that can adapt to different locales using managed development with Visual Studio.
+Visual Studio makes developing for an international audience easy by taking advantage of services built into [.NET](/dotnet/standard/globalization-localization/).
 
-## Resources
+For example, the project system for Windows Forms apps can generate resource files for both the fallback UI culture and each additional UI culture. When you build a project in Visual Studio, the resource files are compiled from the Visual Studio XML format (.resx) to an intermediate binary format (.resources), which are then embedded in satellite assemblies. For more information, see [Resource files in Visual Studio](/dotnet/framework/resources/creating-resource-files-for-desktop-apps#VSResFiles) and [Create satellite assemblies for desktop apps](/dotnet/framework/resources/creating-satellite-assemblies-for-desktop-apps).
 
- Visual Studio was designed from the start to make developing for an international audience easy by taking advantage of services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. The following articles will help introduce you to the internationalization features built into Visual Studio.
+## Bidirectional languages
 
- [Introduction to international applications based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)
- Introduces the concepts related to developing software for an international market using Visual Studio and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+You can use Visual Studio to create applications that correctly display text in languages written right-to-left, including Arabic and Hebrew. For some features, you can simply set properties. In other cases, you must implement features in code.
 
- [Localizing applications](../ide/localizing-applications.md)
- Provides links to pages about customizing applications for a given culture.
+> [!NOTE]
+> In order to enter and display bidirectional languages, you must be working with a version of Windows that is configured with the appropriate language. This can either be an English version of Windows with the appropriate language pack installed, or the appropriately localized version of Windows.
 
- [Globalizing applications](../ide/globalizing-applications.md)
- Provides links to pages about creating applications that support multiple cultures.
+### Apps that support bidirectional languages
+
+- Windows apps
+
+   You can create fully bidirectional applications that include support for bidirectional text, right-to-left reading order, and mirroring (reversing the layout of windows, menus, dialog boxes, and so on). Except for mirroring, these features are available by default or as property settings. Mirroring is supported inherently for some features, such as message boxes. However, in other cases you must implement mirroring in code. For more information, see [bidirectional support for Windows Forms applications](/dotnet/framework/winforms/advanced/bi-directional-support-for-windows-forms-applications).
+
+- Web apps
+
+   Web services support sending and receiving UTF-8 and Unicode text, making them suitable for applications that involve bidirectional languages. Web client applications rely on browsers for their user interface, so the degree of bidirectional support in a web application is dependent on how well the user's browser supports those bidirectional features. In Visual Studio, you can create applications with support for Arabic or Hebrew text, right-to-left reading order, file encoding, and local culture settings. For more information, see [Bidirectional support for ASP.NET web applications](https://msdn.microsoft.com/Library/5576f9b1-9b86-41ef-8354-092d366bcd03).
+
+> [!NOTE]
+> Console apps do not include text support for bidirectional languages. This is a consequence of how Windows works with console applications.
 
 ## See also
 
-- [Best practices for developing world-ready applications](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps) provides background information on programming for an international audience.
-- [Class library overview](/dotnet/standard/class-library-overview) introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.
-- <xref:System.Globalization> points out the classes in this namespace, which define culture-related information, including the language, the country/region, the calendars in use, the format patterns for dates, currency and numbers, and the sort order for strings.
-- <xref:System.Resources> points out the classes and interfaces in this namespace, which allows developers to create, store, and manage various culture-specific resources used in an application.
+- [Support for bidirectional languages in Visual Studio](use-bidirectional-languages.md)
+- [Globalize and localize .NET apps](/dotnet/standard/globalization-localization/)
+- [Resources in .NET apps](/dotnet/framework/resources/)

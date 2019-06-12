@@ -4,10 +4,8 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 03/02/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 # Visual Studio cloud subscriptions billing FAQ
@@ -48,7 +46,7 @@ Azure subscription is part of your Enterprise Agreement.
 Another approach is to attempt to visit the [Azure Enterprise Portal](http://ea.azure.com).  If you can reach it successfully, then you already have either
 the Enterprise Admin or the Account Owner role. Only Account Owners can set up new Azure billing accounts in an Enterprise Agreement. If you cannot access
 the Azure Enterprise Portal, then please inquire within your organization to find out who your Enterprise Admin is, and ask that person to add you as an
-Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](http://aka.ms/AzureEntSupport)
+Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](https://aka.ms/AzureEntSupport)
 and request the contact information.  You need your organization's name and your Enterprise Agreement enrollment number for the support ticket.
 
 ### Q: Can I use the Azure Monetary Commitment funds from my Enterprise Agreement to buy Visual Studio cloud subscriptions?
@@ -127,7 +125,6 @@ A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (
 
 * [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
 * [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
-
 
 ## Related resources
 

@@ -1,10 +1,8 @@
 ---
 title: "How to: Set Permissions | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "profiling, setting permissions"
   - "security [Visual Studio ALM], setting permissions"
   - "permissions [Visual Studio ALM], profiling"
@@ -12,8 +10,8 @@ helpviewer_keywords:
   - "performance tools, setting profiling permissions"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: Set permissions
@@ -117,6 +115,6 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[VSPerfCmd](../profiling/vsperfcmd.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[VSPerfCmd](../profiling/vsperfcmd.md)
 [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)

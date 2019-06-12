@@ -1,37 +1,36 @@
 ---
 title: "IDiaSectionContrib::get_dataCrc | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDiaSectionContrib::get_dataCrc method"
 ms.assetid: 33b7488f-dc9c-47b3-b08c-737e0eb1bf7d
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # IDiaSectionContrib::get_dataCrc
-Retrieves the cyclic redundancy check (CRC) of the data in the section.  
-  
-## Syntax  
-  
-```C++  
-HRESULT get_dataCrc (   
-   DWORD* pRetVal  
-);  
-```  
-  
-#### Parameters  
- `pRetVal`  
- [out] Returns the CRC of the data in the section.  
-  
-## Return Value  
- If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.  
-  
-## See Also  
- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)
+Retrieves the cyclic redundancy check (CRC) of the data in the section.
+
+## Syntax
+
+```C++
+HRESULT get_dataCrc ( 
+   DWORD* pRetVal
+);
+```
+
+#### Parameters
+ `pRetVal`
+
+[out] Returns the CRC of the data in the section.
+
+## Return Value
+ If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
+
+## See Also
+- [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

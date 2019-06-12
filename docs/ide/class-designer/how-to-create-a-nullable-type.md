@@ -1,8 +1,6 @@
 ---
 title: "How to: Create a Nullable Type (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "nullable types, Class Designer"
@@ -10,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -25,9 +23,9 @@ A *nullable type* is a value type that you extend so that it takes the typical r
 
 Nullable types are instances of the <xref:System.Nullable%601> structure. Each instance of a nullable type has two public read-only properties, `HasValue` and `Value`:
 
--   `HasValue` is of type `bool` and indicates whether the variable contains a defined value. `True` means that the variable contains a non-null value. You can test for a defined value by using a statement such as `if (x.HasValue)` or `if (y != null)`.
+- `HasValue` is of type `bool` and indicates whether the variable contains a defined value. `True` means that the variable contains a non-null value. You can test for a defined value by using a statement such as `if (x.HasValue)` or `if (y != null)`.
 
--   `Value` is of the same type as the underlying type. If `HasValue` is `True`, `Value` contains a meaningful value. If `HasValue` is `False`, accessing `Value` will throw an invalid operation exception.
+- `Value` is of the same type as the underlying type. If `HasValue` is `True`, `Value` contains a meaningful value. If `HasValue` is `False`, accessing `Value` will throw an invalid operation exception.
 
 By default, when you declare a variable as a nullable type, it has no defined value (`HasValue` is `False`), other than the default value of its underlying value type.
 
@@ -39,26 +37,26 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
 
 ## To add a nullable type by using the Class Designer
 
-1.  In the class diagram, expand an existing class or create a new class.
+1. In the class diagram, expand an existing class or create a new class.
 
-2.  To add a class to the project, on the **Class Diagram** menu, click **Add** > **Add Class**.
+2. To add a class to the project, on the **Class Diagram** menu, click **Add** > **Add Class**.
 
-3.  To expand the class shape, on the **Class Diagram** menu, click **Expand**.
+3. To expand the class shape, on the **Class Diagram** menu, click **Expand**.
 
-4.  Select the class shape. On the **Class Diagram** menu, click **Add** > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.
+4. Select the class shape. On the **Class Diagram** menu, click **Add** > **Field**. A new field that has the default name **Field** will appear in the class shape and also in the **Class Details** window.
 
-5.  In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.
+5. In the **Name** column of the **Class Details** window (or in the class shape itself), change the name of the new field to a valid and meaningful name.
 
-6.  In the **Type** column of the **Class Details** window, declare the type as a nullable type by specifying the following:
+6. In the **Type** column of the **Class Details** window, declare the type as a nullable type by specifying the following:
 
     - `int?` (Visual C#)
     - `Nullable(Of Integer)` (Visual Basic)
 
 ## To add a nullable type by using the Code Editor
 
-1.  Add a class to the project. Select the project node in **Solution Explorer**, and, on the **Project** menu, click **Add Class**.
+1. Add a class to the project. Select the project node in **Solution Explorer**, and, on the **Project** menu, click **Add Class**.
 
-2.  In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
+2. In the .cs or .vb file for the new class, add one or more nullable types in the new class to the class declaration.
 
     ```csharp
     // Declare a nullable type in Visual C#:
@@ -75,11 +73,11 @@ For more information about nullable types in C#, see [Nullable Types](/dotnet/cs
     End Class
     ```
 
-3.  From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.
+3. From Class View, drag the new class icon to the Class Designer design surface. A class shape appears in the class diagram.
 
-4.  Expand the details for the class shape and move the mouse pointer over the class members. The tooltip displays the declaration of each member.
+4. Expand the details for the class shape and move the mouse pointer over the class members. The tooltip displays the declaration of each member.
 
-5.  Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.
+5. Right-click the class shape and click **Class Details**. You can view or modify the new type's properties in the **Class Details** window.
 
 ## See also
 

@@ -1,13 +1,11 @@
 ---
 title: Synchronize settings
 ms.date: 12/10/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -37,7 +35,7 @@ By default, the following settings are synchronized:
 
    - All settings on the **Environment** > **StartUp** options page.
 
-   - All settings on the **Text Editor** options pages.
+   - All settings on the **Text Editor** options pages, for example, [code style preferences](code-styles-and-code-cleanup.md).
 
    - All settings on the **XAML Designer** options pages.
 
@@ -56,20 +54,30 @@ Settings are synchronized across versions and editions of Visual Studio installe
 
 ## Side-by-side synchronized settings
 
-In Visual Studio 2017 version 15.3 and later, certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio 2017. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2017\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*.
+::: moniker range="vs-2017"
+
+Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2017\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx\Settings*.
 
 > [!NOTE]
-> To use the new installation-specific settings, do a fresh installation. When you perform an upgrade of an existing Visual Studio 2017 installation to the most current update, it uses the existing shared location.
+> To use the new installation-specific settings, do a fresh installation. When you upgrade an existing Visual Studio installation, it uses the existing shared location.
 
-If you currently have side-by-side installations of Visual Studio 2017 and want to use the new installation-specific settings file location, follow these steps:
+If you currently have side-by-side installations of Visual Studio and want to use the new installation-specific settings file location, follow these steps:
 
 1. Upgrade to Visual Studio 2017 version 15.3 or later.
 
-1. Use the **Import\Export settings** wizard to export all your existing settings to some location outside of the *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* folder.
+2. Use the **Import\Export settings** wizard to export all your existing settings to some location outside of the *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* folder.
 
-1. Open the **Developer Command Prompt for VS 2017** of the upgraded Visual Studio installation and run `devenv /resetuserdata`.
+3. Open the **Developer Command Prompt for VS 2017** and run `devenv /resetuserdata`.
 
-1. Launch Visual Studio and import the saved settings from the exported settings file.
+1. Open Visual Studio and import the saved settings from the exported settings file.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
+
+::: moniker-end
 
 ## See also
 

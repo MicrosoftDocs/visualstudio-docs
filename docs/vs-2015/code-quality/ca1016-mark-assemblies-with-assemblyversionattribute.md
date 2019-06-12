@@ -1,14 +1,9 @@
 ---
 title: "CA1016: Mark assemblies with AssemblyVersionAttribute | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "MarkAssembliesWithAssemblyVersion"
   - "CA1016"
@@ -61,8 +56,5 @@ manager: "wpickett"
  [!code-vb[FxCop.Design.AssembliesVersion#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Design.AssembliesVersion/vb/FxCop.Design.AssembliesVersion.vb#1)]
 
 ## See Also
- [Assembly Versioning](http://msdn.microsoft.com/library/775ad4fb-914f-453c-98ef-ce1089b6f903)
- [How to: Create a Publisher Policy](http://msdn.microsoft.com/library/8046bc5d-2fa9-4277-8a5e-6dcc96c281d9)
-
-
-
+ [Assembly Versioning](https://msdn.microsoft.com/library/775ad4fb-914f-453c-98ef-ce1089b6f903)
+ [How to: Create a Publisher Policy](https://msdn.microsoft.com/library/8046bc5d-2fa9-4277-8a5e-6dcc96c281d9)

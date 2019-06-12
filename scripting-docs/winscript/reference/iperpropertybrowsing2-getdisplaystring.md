@@ -2,7 +2,6 @@
 title: "IPerPropertyBrowsing2::GetDisplayString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Gets a string to display types which are not inherently viewable The returned te
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDisplayString(  
    DISPID  dispid,  
    BSTR*  pBstr  

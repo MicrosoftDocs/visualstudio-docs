@@ -1,12 +1,10 @@
 ---
 title: Refactor code to convert a for loop to a foreach statement
 ms.date: 05/10/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:

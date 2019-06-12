@@ -136,7 +136,7 @@
         Dim visioRectShape As Visio.Shape = visioPage.Drop(visioRectMaster, 4.25, 5.5)
         visioRectShape.Text = "Rectangle text."
 
-        Dim visioStarMaster As Visio.Master = visioStencil.Masters("Star 7")
+        Dim visioStarMaster As Visio.Master = visioStencil.Masters("5-Point Star 7")
         Dim visioStarShape As Visio.Shape = visioPage.Drop(visioStarMaster, 2.0, 5.5)
         visioStarShape.Text = "Star text."
 
@@ -160,7 +160,7 @@
         Dim visioRectShape As Visio.Shape = visioPage.Drop(visioRectMaster, 4.25, 5.5)
         visioRectShape.Text = "Rectangle text."
 
-        Dim visioStarMaster As Visio.Master = visioStencil.Masters("Star 7")
+        Dim visioStarMaster As Visio.Master = visioStencil.Masters("5-Point Star 7")
         Dim visioStarShape As Visio.Shape = visioPage.Drop(visioStarMaster, 2.0, 5.5)
         visioStarShape.Text = "Star text."
 

@@ -1,14 +1,9 @@
 ---
 title: "GenerateApplicationManifest Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest"
 dev_langs: 
@@ -24,12 +19,11 @@ ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
 caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # GenerateApplicationManifest Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest or a native manifest. A native manifest describes a component by defining a unique identity for the component and identifying all assemblies and files that make up the component. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application manifest extends a native manifest by indicating the entry point of the application, and specifying the application security level.  
   
 ## Parameters  
@@ -90,10 +84,10 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
  This illustrates the simplest possible manifest generation scenario where [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] manifests are generated for a single program. A default name and identity are inferred from the assembly for the manifest.  
   
 > [!NOTE]
->  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 > [!NOTE]
->  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
+> For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
   
 ```  
 <Project DefaultTargets="Build"  
@@ -143,10 +137,10 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
  This example is similar to previous example except the name and identity of the manifests are explicitly specified. Also, this example is configured as an online application instead of an installed application.  
   
 > [!NOTE]
->  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 > [!NOTE]
->  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
+> For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
   
 ```  
 <Project DefaultTargets="Build"  
@@ -201,10 +195,10 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
  This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManifest` tasks to generate [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and deployment manifests for an application with multiple files and assemblies.  
   
 > [!NOTE]
->  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 > [!NOTE]
->  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
+> For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
   
 ```  
 <Project DefaultTargets="Build"  
@@ -321,7 +315,7 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
  This example produces the Test.exe.manifest, making the application XCOPY deployable taking advantage of Registration Free COM.  
   
 > [!NOTE]
->  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
+> In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment.  
   
 ```  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -357,6 +351,3 @@ Generates a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application m
  [GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)   
  [SignFile Task](../msbuild/signfile-task.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

@@ -1,11 +1,9 @@
 ---
 title: "Customizing Code Coverage Analysis"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -85,7 +83,7 @@ If **Include** is empty, then code coverage processing includes all assemblies t
 
 Include and exclude nodes use regular expressions. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions aren't the same as wildcards. In particular:
 
-- **.\\*** matches a string of any characters
+- **.\*** matches a string of any characters
 
 - **\\.** matches a dot ".")
 

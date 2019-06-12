@@ -1,14 +1,9 @@
 ---
 title: "How to: Set Code Analysis Properties for C-C++ Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.propertypages.native"
   - "VC.Project.VCCLCompilerTool.EnablePrefast"
@@ -23,7 +18,7 @@ ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
 caps.latest.revision: 19
 author: mikeblome
 ms.author: mblome
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Set Code Analysis Properties for C/C++ Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ You can configure which rules the code analysis tool uses to analyze the code in
 ## See Also  
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)   
  [Code Analysis for C/C++ Warnings](../code-quality/code-analysis-for-c-cpp-warnings.md)
-
-
-

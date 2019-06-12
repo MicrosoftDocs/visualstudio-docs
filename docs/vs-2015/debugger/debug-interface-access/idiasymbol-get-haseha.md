@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_hasEHa | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: cb61dfd9-fe69-461c-8185-288440454864
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_hasEHa
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ HRESULT get_hasEHa(
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.  
   
 > [!NOTE]
->  A return value of `S_FALSE` means that the property is not available for the symbol.  
+> A return value of `S_FALSE` means that the property is not available for the symbol.  
   
 ## Remarks  
  It is possible to mix asynchronous or structured exception handling with C++-style exception handling, but it requires a specific compiler switch, /EHa, to enable it.  
@@ -54,6 +49,3 @@ HRESULT get_hasEHa(
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: Manage external tools
 ms.date: 11/20/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "vs.externaltools"
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "external tools [Visual Studio]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -20,13 +18,24 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 
 ## Tools available on the Tools menu
 
-The **Tools** menu contains several built-in commands, such as:
+The **Tools** menu contains several built-in commands, including:
+
+::: moniker range="vs-2017"
 
 * **Extensions and Updates** to [Manage Visual Studio Extensions](finding-and-using-visual-studio-extensions.md)
 * **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
-* **PreEmptive Protection - Dotfuscator** to launch [Dotfuscator Community Edition (CE)](dotfuscator/index.md) if it is [installed](dotfuscator/install.md)
 * **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+* **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
+* **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
+* **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
+
+::: moniker-end
 
 ## Add new tools to the Tools menu
 
@@ -60,8 +69,8 @@ The following is a full list of arguments that can be used when defining an exte
 |Target Name|$(TargetName)|The file name of the item to be built.|
 |Target Extension|$(TargetExt)|The file name extension of the item to be built.|
 |Binary Directory|$(BinDir)|The final location of the binary that is being built (defined as drive + path).|
-|Project Directory|$(ProjDir)|The directory of the current project (drive + path).|
-|Project File Name|$(ProjFileName)|The file name of the current project (drive + path + file name).|
+|Project Directory|$(ProjectDir)|The directory of the current project (drive + path).|
+|Project File Name|$(ProjectFileName)|The file name of the current project (drive + path + file name).|
 |Solution Directory|$(SolutionDir)|The directory of the current solution (drive + path).|
 |Solution File Name|$(SolutionFileName)|The file name of the current solution (drive + path + file name).|
 

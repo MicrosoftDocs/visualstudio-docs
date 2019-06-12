@@ -1,20 +1,15 @@
 ---
 title: "Substitution Strings Used in .Pkgdef and .Pkgundef Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio shell, isolated mode%2C .pkgdef and .pkgundef files"
 ms.assetid: b1755d63-d794-4fd7-864b-70a9684881c2
 caps.latest.revision: 5
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Substitution Strings Used in .Pkgdef and .Pkgundef Files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ You can use the substitution strings listed below in the .pkgdef and .pkgundef f
 |$WINDIR$|The Windows folder.|  
   
  If the parser does not recognize the substitution string or it cannot determine the value of a registry entry or an environment variable, then it does not perform substitution on that part of the string.
-

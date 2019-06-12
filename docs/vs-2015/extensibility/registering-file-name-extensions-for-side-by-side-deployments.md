@@ -1,20 +1,15 @@
 ---
 title: "Registering File Name Extensions for Side-By-Side Deployments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "file extensions, registering for side-by-side"
 ms.assetid: 9ab046a2-147d-4167-aa14-7d661b1eaaa5
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering File Name Extensions for Side-By-Side Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +32,3 @@ For VSPackages deployed in a side-by-side environment, you must register file na
 ## Related Sections  
  [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)  
  Describes issues related to multiple versions of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and your VSPackage during development and deployment to end users.
-

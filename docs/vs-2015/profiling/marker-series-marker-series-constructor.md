@@ -1,14 +1,9 @@
 ---
 title: "marker_series::marker_series Constructor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series::marker_series"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 042c7d23-f1d8-4e09-9e76-a21c30243790
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # marker_series::marker_series Constructor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +49,3 @@ marker_series(
   
 ## See Also  
  [marker_series Class](../profiling/marker-series-class.md)
-
-
-

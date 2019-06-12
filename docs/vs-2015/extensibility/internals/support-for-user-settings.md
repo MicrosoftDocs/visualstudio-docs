@@ -1,14 +1,9 @@
 ---
 title: "Support for User Settings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Custom Settings Points"
   - "user settings [Visual Studio SDK], registering persistence support"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
 caps.latest.revision: 27
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Support for User Settings
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,9 +20,9 @@ A VSPackage may define one or more settings categories, which are groups of stat
   
  A registry entry that is referred to as a Custom Settings Point and a GUID defines a VSPackage's settings category. A VSPackage can support multiple settings categories, each defined by a Custom Settings Point.  
   
--   Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35).  
+- Implementations of settings that are based on interop assemblies (using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface) should create Custom Settings Point by either editing the registry or using a Registrar script (.rgs file). For more information, see [Creating Registrar Scripts](https://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35).  
   
--   Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.  
+- Code that uses the Managed Package Framework (MPF) should create Custom Settings Points by attaching a <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> to the VSPackage for each Custom Settings Point.  
   
      If a single VSPackage supports several Custom Settings Points, each Custom Settings Point is implemented by a separate class, and each is registered by a unique instance of the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> class. Consequently, a settings implementing class can support more than one settings category.  
   
@@ -35,7 +30,7 @@ A VSPackage may define one or more settings categories, which are groups of stat
  Custom Settings Points are created in a registry entry in the following location: HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\\`<CSPName>`, where `<CSPName>` is the name of the Custom Settings Point the VSPackage supports and *\<Version>* is the version of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], for example 8.0.  
   
 > [!NOTE]
->  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).  
+> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).  
   
  The structure of the registry entry is illustrated below:  
   
@@ -58,4 +53,3 @@ A VSPackage may define one or more settings categories, which are groups of stat
 |Category|REG_SZ|GUID|GUID identifying the settings category.<br /><br /> For implementations based on interop assemblies, this value can be an arbitrarily chosen GUID, which the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE passes to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ExportSettings%2A> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ImportSettings%2A> methods. All implementations of these two methods should verify their GUID arguments.<br /><br /> For implementations based on MPF, this GUID is obtained by the <xref:System.Type> of the class implementing the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] settings mechanism.|  
 |ResourcePackage|REG_SZ|GUID|Optional.<br /><br /> Path to satellite DLL containing localized strings if the implementing VSPackage does not supply them.<br /><br /> MPF uses reflection to obtain the correct resource VSPackage, so the <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> class does not set this argument.|  
 |AlternateParent|REG_SZ|Name of the folder under the Tools Options page containing this Custom Settings Point.|Optional.<br /><br /> You must set this value only if a settings implementation supports **Tools Options** pages that use the persistence mechanism in the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] rather than the mechanism in the automation model to save state.<br /><br /> In these cases, the value in the AlternateParent key is the `topic` section of the `topic.sub-topic` string used to identify the particular **ToolsOptions** page. For example, for the **ToolsOptions** page `"TextEditor.Basic"` the value of AlternateParent would be `"TextEditor"`.<br /><br /> When <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> generates the Custom Settings Point, it is the same as the category name.|
-

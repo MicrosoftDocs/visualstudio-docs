@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Create a diagnostic data adapter to collect custom data or affect a test machine
 

@@ -1,13 +1,11 @@
 ---
 title: Working with Shaders
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 6b2ea1ed-b995-4e75-af19-c68fd37a3bc5
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -35,4 +33,4 @@ Because DGSL is compatible with DGML, you can use tools that are designed to ana
 |-----------|-----------------|
 |[Shader Designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|
 |[Shader Designer nodes](../designers/shader-designer-nodes.md)|Discusses the kinds of Shader Designer nodes that you can use to achieve graphics effects.|
-|[Shader Designer examples](../designers/shader-designer-examples.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|
+|[Shader Designer examples](../designers/how-to-create-a-basic-color-shader.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|

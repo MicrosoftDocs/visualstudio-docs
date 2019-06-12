@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::GetItemInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Allows the scripting engine to obtain information about an item added with the [
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetItemInfo(  
     LPCOLESTR pstrName,     // address of item name  
     DWORD dwReturnMask,     // bit mask for information retrieval  

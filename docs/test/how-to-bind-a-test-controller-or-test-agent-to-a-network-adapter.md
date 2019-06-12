@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Bind a test controller or test agent to a network adapter
 
@@ -31,19 +29,19 @@ If a computer that has the test controller or the test agent software installed 
 
 ### To obtain the IP addresses of the network adapters
 
-1.  From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **cmd**, and then choose **Enter**.
+1. From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **cmd**, and then choose **Enter**.
 
-2.  Type **ipconfig /all**.
+2. Type **ipconfig /all**.
 
      The IP addresses for your network adapters are displayed. Record the IP address of the network adapter that you want to bind your controller to.
 
 ### To bind a network adapter to a test controller
 
-1.  From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **services.msc**, and then choose **Enter**.
+1. From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **services.msc**, and then choose **Enter**.
 
      The **Services** dialog box is displayed.
 
-2.  In the results pane, under the **Name** column, right-click the **Visual Studio Test Controller** service and then choose **Stop**.
+2. In the results pane, under the **Name** column, right-click the **Visual Studio Test Controller** service and then choose **Stop**.
 
      -or-
 
@@ -51,9 +49,9 @@ If a computer that has the test controller or the test agent software installed 
 
      `net stop vsttcontroller`
 
-3.  Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3. Open the *QTCcontroller.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
-4.  locate `<appSettings>` tag.
+4. locate `<appSettings>` tag.
 
     ```xml
     <appSettings>
@@ -67,14 +65,14 @@ If a computer that has the test controller or the test agent software installed 
     </appSettings>
     ```
 
-5.  Add the `BindTo` key to specify which network adapter to use in the `<appSettings>` section.
+5. Add the `BindTo` key to specify which network adapter to use in the `<appSettings>` section.
 
     ```xml
             <add key="BindTo" value="<YOUR IP ADDRESS>"/>
     </appSettings>
     ```
 
-6.  Start the test controller service. To do this, run the following command at a command prompt:
+6. Start the test controller service. To do this, run the following command at a command prompt:
 
     `net start vsttcontroller`
 
@@ -85,11 +83,11 @@ If a computer that has the test controller or the test agent software installed 
 
 ### To bind a network interface card to a test agent
 
-1.  From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **services.msc**, and then choose **Enter**.
+1. From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **services.msc**, and then choose **Enter**.
 
     The **Services** dialog box is displayed.
 
-2.  In the results pane, under the **Name** column, right-click the **Visual Studio Test Agent** service and then choose **Stop**.
+2. In the results pane, under the **Name** column, right-click the **Visual Studio Test Agent** service and then choose **Stop**.
 
      -or-
 
@@ -97,9 +95,9 @@ If a computer that has the test controller or the test agent software installed 
 
      **net stop vsttagent**
 
-3.  Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE*.
+3. Open the *QTAgentService.exe.config* XML configuration file located in *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE*.
 
-4.  locate `<appSettings>` tag.
+4. locate `<appSettings>` tag.
 
     ```xml
     <appSettings>
@@ -113,14 +111,14 @@ If a computer that has the test controller or the test agent software installed 
     </appSettings>  </appSettings>
     ```
 
-5.  Add the `BindTo` key to specify which network adapter to use in the `<appSettings>` section.
+5. Add the `BindTo` key to specify which network adapter to use in the `<appSettings>` section.
 
     ```xml
             <add key="BindTo" value="<YOUR IP ADDRESS>"/>
     </appSettings>
     ```
 
-6.  Start the test agent service. To do this, run the following command at a command prompt:
+6. Start the test agent service. To do this, run the following command at a command prompt:
 
     `net start vsttagent`
 
@@ -129,5 +127,4 @@ If a computer that has the test controller or the test agent software installed 
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
 - [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
 - [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
 - [How to: Specify timeout periods for test controllers and test agents](../test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md)

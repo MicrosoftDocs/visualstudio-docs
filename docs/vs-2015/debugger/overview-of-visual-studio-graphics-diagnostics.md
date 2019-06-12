@@ -1,19 +1,14 @@
 ---
 title: "Overview of Graphics Diagnostics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: ddd429d9-ac70-4ac4-9e69-299c6ea2df09
 caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Overview of Visual Studio Graphics Diagnostics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +59,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 
 ##### To open the DirectX control panel
 
--   On the menu bar, choose **Debug**, **Graphics**, **DirectX Control Panel**.
+- On the menu bar, choose **Debug**, **Graphics**, **DirectX Control Panel**.
 
 ## Graphics Analyzer
  The Visual Studio Graphics Analyzer is a dedicated interface for examining rendering and performance problems in frames you've already captured. Inside Graphics Analyzer, you'll find several tools to help you explore and understand the rendering behavior of your app. Each tool exposes a different kind of information about the frame that's being inspected, and the tools are designed to be used in concert to intuitively narrow-in on the source of a rendering problem, starting from the its appearance in the framebuffer.

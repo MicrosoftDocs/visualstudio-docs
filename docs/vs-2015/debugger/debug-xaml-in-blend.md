@@ -1,14 +1,9 @@
 ---
 title: "Debug XAML in Blend | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debug XAML in Blend
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] 
  Syntax errors occur if the XAML or the code-behind files do not follow the formatting rules of the language. The description of the error can help you understand how to fix it. The list also specifies the name of the file and the line number where the error occurs. XAML errors are listed on the **Markup** tab in the **Results** panel.  
   
 > [!TIP]
->  XAML is an XML-based markup language and follows XML syntax rules.  
+> XAML is an XML-based markup language and follows XML syntax rules.  
   
  Some common causes of XAML syntax errors are:  
   
@@ -126,6 +121,3 @@ You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] 
   
 ## Getting help  
  If you need more help debugging your [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] app, you can search the [Windows Store app community forums](http://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.
-
-
-

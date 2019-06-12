@@ -2,7 +2,6 @@
 title: "IDispatchEx::GetMemberProperties | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves a member's properties.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetMemberProperties(  
    DISPID id,  
    DWORD grfdexFetch,  
@@ -76,7 +75,7 @@ HRESULT GetMemberProperties(
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
    DISPID dispid;  
    IDispatchEx *pdex;   

@@ -1,14 +1,9 @@
 ---
 title: "Project Type Design Decisions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "project types, project file persistence"
   - "project types, commitment mechanics"
@@ -17,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Project Type Design Decisions
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ Before you create a new project type, you must make several design decisions reg
   
  The items in a project can be files, or they can be more abstract objects such as objects in a database repository or data connections across the Internet. If the items are files, the project can be either a reference-based or a directory-based project.  
   
- In reference-based projects, items can appear in more than one project. However, the actual file that an item represents is located in one directory only. In directory-based projects, all project items exist in the directory structure. For more information, see [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0).  
+ In reference-based projects, items can appear in more than one project. However, the actual file that an item represents is located in one directory only. In directory-based projects, all project items exist in the directory structure. For more information, see [NIB:Item Management in Projects](https://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0).  
   
  Local items are stored on the same computer where the application is installed. Remote items can be stored on a separate server in a local network, or elsewhere on the Internet.  
   
@@ -59,10 +54,9 @@ Before you create a new project type, you must make several design decisions reg
   
 ## See Also  
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
- [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0)   
+ [NIB:Item Management in Projects](https://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)   
  [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)   
  [Project Persistence](../../extensibility/internals/project-persistence.md)   
  [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)   
  [Project Model Core Components](../../extensibility/internals/project-model-core-components.md)   
  [Creating Project Types](../../extensibility/internals/creating-project-types.md)
-

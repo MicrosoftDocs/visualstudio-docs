@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication110::GetMainThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Returns the main thread for hosts that call [SetSite](http://go.microsoft.com/fwlink/?LinkId=232439), otherwise returns E_FAIL.  
   
 > [!IMPORTANT]
->  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

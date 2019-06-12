@@ -1,21 +1,16 @@
 ---
 title: "Group Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "VSCT XML schema elements, Groups"
   - "Groups element (VSCT XML schema)"
 ms.assetid: 69faee18-cbf4-470a-b952-c1919c583df8
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Group Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,4 +60,3 @@ Defines a VSPackage command group.
   
 ## See Also  
  [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
-

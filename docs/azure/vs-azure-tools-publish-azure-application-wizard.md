@@ -2,10 +2,8 @@
 title: Publish an Azure cloud service
 description: Learn how to configure the various settings in the Visual Studio Publish Azure Application Wizard
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 7d8f1ac9-e439-47e0-a183-0642c4ea1920
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -34,7 +32,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Convert** > **Convert to Azure Cloud Service Project**. 
+1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Convert** > **Convert to Azure Cloud Service Project**.
 
 1. In **Solution Explorer**, right-click the newly created Azure project, and, from the context menu, select **Publish**.
 
@@ -52,7 +50,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 **Cloud service** - Using the dropdown, either select an existing cloud service, or select **&lt;Create New>**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account (Advanced Settings).
 
-**Environment** - Select either **Production** or **Staging**. Choose the staging environment if you want to deploy your application in a test environment. 
+**Environment** - Select either **Production** or **Staging**. Choose the staging environment if you want to deploy your application in a test environment.
 
 **Build configuration** - Select either **Debug** or **Release**.
 
@@ -66,7 +64,7 @@ You can access the Publish Azure Application wizard in two ways depending on the
 
 ![Advanced settings](./media/vs-azure-tools-publish-azure-application-wizard/settings-advanced-settings.png)
 
-**Deployment label** - Either accept the default name, or enter a name of your choosing. To append the date to the deployment label, leave the check box selected. 
+**Deployment label** - Either accept the default name, or enter a name of your choosing. To append the date to the deployment label, leave the check box selected.
 
 **Storage account** - Select the storage account to use for this deployment, **&lt;Create New> to create a storage account. The data center displays in parentheses for each storage account. It is recommended that the data center location for the storage account is the same as the data center location for the cloud service (Common Settings).
 
@@ -74,7 +72,7 @@ The Azure storage account stores the package for the application deployment. Aft
 
 **Delete deployment on failure** - Select this option to have the deployment deleted if any errors are encountered during publishing. This should be unchecked if you want to maintain a constant virtual IP address for your cloud service.
 
-**Deployment update** - Select this option if you want to deploy only updated components. This type of deployment can be faster than a full deployment. This should be checked if you want to maintain a constant virtual IP address for your cloud service. 
+**Deployment update** - Select this option if you want to deploy only updated components. This type of deployment can be faster than a full deployment. This should be checked if you want to maintain a constant virtual IP address for your cloud service.
 
 **Deployment update - settings** - This dialog is used to further specify how you want the roles to be updated. If you choose **Incremental update**, each instance of your application is updated one after another, so that the application is always available. If you choose **Simultaneous update**, all instances of your application are updated at the same time. Simultaneous updating is faster, but your service might not be available during the update process.
 

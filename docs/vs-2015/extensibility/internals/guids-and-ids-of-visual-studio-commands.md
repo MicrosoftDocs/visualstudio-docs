@@ -1,14 +1,9 @@
 ---
 title: "GUIDs and IDs of Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "commands"
   - "id"
@@ -18,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 2ea4bee2-0259-4675-8e65-2023b312b516
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # GUIDs and IDs of Visual Studio Commands
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,11 +48,11 @@ The GUID and ID values of the commands included in the Visual Studio integrated 
 ### Special Cases
  In the following cases, the menu text or tooltip text may not exactly match what is in the command definition.
 
--   Menu items that include an underlined character, such as the **Print** command on the **File** menu, in which the P is underlined.
+- Menu items that include an underlined character, such as the **Print** command on the **File** menu, in which the P is underlined.
 
      Characters that are preceded by the '&' character in menu item names are displayed as underlined. However, .vsct files are written in XML, which uses the '&' character to indicate special characters and requires that an ampersand that is to be displayed must be spelled out as '&amp;'. Therefore, in a .vsct file, the **Print** command appears as '&amp;Print'.
 
--   Commands that have dynamic text, such as **Save** *Current Filename*, and dynamically generated menu items, such as the items on the **Recent Files** list.
+- Commands that have dynamic text, such as **Save** *Current Filename*, and dynamically generated menu items, such as the items on the **Recent Files** list.
 
      There is no reliable way to search on dynamic text. Instead, find a group that hosts the desired command by consulting [GUIDs and IDs of Visual Studio Menus](../../extensibility/internals/guids-and-ids-of-visual-studio-menus.md) or [GUIDs and IDs of Visual Studio Toolbars](../../extensibility/internals/guids-and-ids-of-visual-studio-toolbars.md), and search on the ID of that group. If the command definition does not have the group as its [Parent Element](../../extensibility/parent-element.md), search SharedCmdPlace.vsct and ShellCmdPlace.vsct (or VsDbgCmdPlace.vsct for debugger commands) for a `<CommandPlacement>` element that sets the parent of the command. SharedCmdPlace.vsct, ShellCmdPlace.vsct, andVsDbgCmdPlace.vsct are in the *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc\ folder.
 

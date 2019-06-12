@@ -1,18 +1,16 @@
 ---
 title: "CPU and Windows Counters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.counters"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Windows counters in Profiling Tools"
   - "CPU counters in Profiling Tools"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # CPU and Windows counters
@@ -125,7 +123,7 @@ Using the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, you can list
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)  
-[How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)
+[How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)
 [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)

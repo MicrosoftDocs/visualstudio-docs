@@ -1,14 +1,9 @@
 ---
 title: "How to: Access the Built-in Fonts and Color Scheme | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "fonts, accessing built-in"
   - "font and color control [Visual Studio SDK], categories"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Access the Built-in Fonts and Color Scheme
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,21 +35,21 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
     This GUID is used to uniquely identify a category<strong>.</strong> This category reuses the IDE's default fonts and colors specification.  
   
    > [!NOTE]
-   >  When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.  
+   > When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.  
   
 2. The category's name must be added to a string table inside the VSPackage's resources (.rc) file, so that it can be localized as needed when displayed in the IDE.  
   
-    For more information, see [Adding or Deleting a String](http://msdn.microsoft.com/library/077077b4-0f4b-4633-92d6-60b321164cab).  
+    For more information, see [Adding or Deleting a String](https://msdn.microsoft.com/library/077077b4-0f4b-4633-92d6-60b321164cab).  
   
 ### To register a category using built-in fonts and colors  
   
-1.  Construct a special type of category registry entry in the following location:  
+1. Construct a special type of category registry entry in the following location:  
   
      [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<Category>*]  
   
      *\<Category>* is the non-localized name of the category.  
   
-2.  Populate the registry to use the stock fonts and color scheme with four values:  
+2. Populate the registry to use the stock fonts and color scheme with four values:  
   
     |Name|Type|Data|Description|  
     |----------|----------|----------|-----------------|  
@@ -63,7 +58,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
     |NameID|REG_DWORD|ID|The resource ID of a localizable category name in the VSPackage.|  
     |ToolWindowPackage|REG_SZ|GUID|The GUID of the VSPackage implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.|  
   
-3.  
+3. 
   
 ### To initiate the use of system-provided fonts and colors  
   
@@ -101,4 +96,3 @@ if (spPropCatContainer != NULL){
  [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)   
  [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)   
  [Font and Color Overview](../extensibility/font-and-color-overview.md)
-

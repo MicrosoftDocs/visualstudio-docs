@@ -1,14 +1,9 @@
 ---
 title: "Replace In Files Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "edit.replaceinfiles"
 helpviewer_keywords: 
@@ -19,12 +14,11 @@ ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Replace In Files Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.  
   
 ## Syntax  
@@ -100,6 +94,3 @@ Edit.ReplaceinFiles findwhat replacewith [/all] [/case]
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

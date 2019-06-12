@@ -3,18 +3,14 @@ title: "Package GUIDs of Visual Studio 2015 Features | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio shell, isolated mode%2C package GUIDs"
 ms.assetid: f56f0356-f3ac-48bc-9674-94259e29a4df
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Package GUIDs of Visual Studio Features
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

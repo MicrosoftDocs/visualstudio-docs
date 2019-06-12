@@ -1,17 +1,14 @@
 ---
 title: "Control Flow Activity Designers | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Control Flow Activity Designers
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] includes a number of system-provided activities that you can use when constructing your workflows. This section contains the system-provided activities used to control the flow within a workflow. The following topics describe these activities and provide guidance on how to use them.  
@@ -20,7 +17,7 @@ manager: "erikre"
  [DoWhile](../workflow-designer/dowhile-activity-designer.md)  
  Executes the activity contained in its body at least once, until a specified condition evaluates to **true**.  
   
- [ForEach\<T>](http://msdn.microsoft.com/en-us/a680cddd-2760-497a-b27b-c023fcbc6f33)  
+ [ForEach\<T>](foreach-t-activity-designer.md)  
  Executes the activity contained in its body for each item in a specified collection.  
   
  [If](../workflow-designer/if-activity-designer.md)  
@@ -41,7 +38,7 @@ manager: "erikre"
  [Sequence](../workflow-designer/sequence-activity-designer.md)  
  Contains an ordered collection of child activities that it executes in order.  
   
- [Switch\<T>](http://msdn.microsoft.com/en-us/ce1aa634-c4db-4475-a1c8-a88478a57212)  
+ [Switch\<T>](switch-t-activity-designer.md)  
  Evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.  
   
  [While](../workflow-designer/while-activity-designer.md)  

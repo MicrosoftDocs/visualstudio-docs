@@ -1,21 +1,16 @@
 ---
 title: "Callback Functions Implemented by the IDE | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, callback functions"
   - "callback functions, source control plug-ins"
 ms.assetid: 4a8833f0-6ac0-4ea7-9400-8275aa991468
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Callback Functions Implemented by the IDE
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,4 +53,3 @@ To make integration with the integrated development environment (IDE) as seamles
   
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)  
  Describes the contents of the reference section of the Source Control Plug-in SDK.
-

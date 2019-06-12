@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # MSI and VSIX Deployment of a DSL
 You can install a domain-specific language on your own computer or on other computers. Visual Studio must already be installed on the target computer.
@@ -21,16 +19,17 @@ You can install a domain-specific language on your own computer or on other comp
 |VSX (Visual Studio Extension)|Very easy to deploy: Copy and execute the **.vsix** file from the DslPackage project.<br /><br /> For more information see [Installing and Uninstalling a DSL by using the VSX](#Installing).|
 |MSI (installer file)|-   Allows the user to open Visual Studio by double-clicking a DSL file.<br />-   Associates an icon with the DSL file type in the target computer.<br />-   Associates an XSD (XML schema) with the DSL file type. This avoids warnings when the file is loaded into Visual Studio.<br /><br /> You must add a setup project to your solution to create an MSI.<br /><br /> For more information, see [Deploying a DSL by using an MSI file](#msi).|
 
-## <a name="Installing"></a> Installing and Uninstalling a DSL by using the VSX
- When your DSL is installed by this method, the user can open a DSL file from within Visual Studio, but the file cannot be opened from Windows Explorer.
+## <a name="Installing"></a> Install and Uninstall a DSL by using the VSX
 
-#### To install a DSL by using the VSX
+When your DSL is installed by this method, the user can open a DSL file from within Visual Studio, but the file cannot be opened from Windows Explorer.
 
-1. In your computer, find the **.vsix** file that was built by your DSL Package project.
+### To install a DSL by using the VSX
 
-   1.  In **Solution Explorer**, right-click the **DslPackage** project, and then click **Open Folder in Windows Explorer**.
+1. Locate the **.vsix** file that was built by your DSL Package project:
 
-   2.  Locate the file **bin\\\*\\**_YourProject_**.DslPackage.vsix**
+   1. In **Solution Explorer**, right-click the **DslPackage** project, and then click **Open Folder in File Explorer**.
+
+   2. Locate the file **bin\\\*\\**_YourProject_**.DslPackage.vsix**
 
 2. Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.
 
@@ -46,9 +45,9 @@ You can install a domain-specific language on your own computer or on other comp
 
 5. To test the DSL, use Visual Studio to create a new file that has the extension that you defined for your DSL.
 
-#### To uninstall a DSL that was installed by using VSX
+### To uninstall a DSL that was installed by using VSX
 
-1. On the **Tools** menu, click **Extension Manager**.
+1. On the **Tools** menu, choose **Extensions and Updates**.
 
 2. Expand **Installed Extensions**.
 
@@ -65,13 +64,13 @@ You can install a domain-specific language on your own computer or on other comp
 
  To build an MSI, you add a Setup project to your Visual Studio solution. The easiest method of creating a Setup project is to use the CreateMsiSetupProject.tt template, which you can download from the [VMSDK site](http://go.microsoft.com/fwlink/?LinkID=186128).
 
-#### To Deploy a DSL in an MSI
+### To Deploy a DSL in an MSI
 
 1. Set `InstalledByMsi` in the extension manifest. This prevents the VSX from being installed and uninstalled except by the MSI. This is important if you will include other components in the MSI.
 
-   1.  Open DslPackage\source.extension.tt
+   1. Open DslPackage\source.extension.tt
 
-   2.  Insert the following line before `<SupportedProducts>`:
+   2. Insert the following line before `<SupportedProducts>`:
 
        ```xml
        <InstalledByMsi>true</InstalledByMsi>
@@ -81,15 +80,15 @@ You can install a domain-specific language on your own computer or on other comp
 
 3. Make sure that the following attributes of your DSL are correct:
 
-   -   In DSL Explorer click the root node, and in Properties window, review:
+   - In DSL Explorer click the root node, and in Properties window, review:
 
-       -   Description
+       - Description
 
-       -   Version
+       - Version
 
-   -   Click the **Editor** node and in the Properties window, click **Icon**. Set the value to reference an icon file in **DslPackage\Resources**, such as **File.ico**
+   - Click the **Editor** node and in the Properties window, click **Icon**. Set the value to reference an icon file in **DslPackage\Resources**, such as **File.ico**
 
-   -   On the **Build** menu, open **Configuration Manager**, and select the configuration that you want to build, such as **Release** or **Debug**.
+   - On the **Build** menu, open **Configuration Manager**, and select the configuration that you want to build, such as **Release** or **Debug**.
 
 4. Go to [Visualization and Modeling SDK home page](http://go.microsoft.com/fwlink/?LinkID=186128), and from the **Downloads** tab, download **CreateMsiSetupProject.tt**.
 
@@ -117,16 +116,16 @@ You can install a domain-specific language on your own computer or on other comp
 
 11. In the target computer, create a new file that has the file extension of your DSL. Verify that:
 
-    -   In Windows Explorer list view, the file appears with the icon and description that you defined.
+    - In Windows Explorer list view, the file appears with the icon and description that you defined.
 
-    -   When you double-click the file, Visual Studio starts, and opens the DSL file in your DSL editor.
+    - When you double-click the file, Visual Studio starts, and opens the DSL file in your DSL editor.
 
     If you prefer, you can create the Setup project manually, instead of using the text template. For a walkthrough that includes this procedure see Chapter 5 of the [Visualization and Modeling SDK Lab](http://go.microsoft.com/fwlink/?LinkId=208878).
 
-#### To uninstall a DSL that was installed from an MSI
+### To uninstall a DSL that was installed from an MSI
 
-1.  In Windows, open the **Programs and Features** control panel.
+1. In Windows, open the **Programs and Features** control panel.
 
-2.  Uninstall the DSL.
+2. Uninstall the DSL.
 
-3.  Restart Visual Studio.
+3. Restart Visual Studio.

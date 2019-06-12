@@ -1,21 +1,16 @@
 ---
 title: "HLSL Shader Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.shaderviewer"
 ms.assetid: 4ccec541-3c49-42bd-972a-686eb3a88fbc
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # HLSL Shader Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,12 +47,12 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
   
 #### To start the HLSL debugger from the Graphics Pipeline Stages window  
   
-1.  In the **Graphics Pipeline Stages** window, locate the pipeline stage that's associated with the shader that you want to debug.  
+1. In the **Graphics Pipeline Stages** window, locate the pipeline stage that's associated with the shader that you want to debug.  
   
-2.  Below the title of the pipeline stage, choose **Start Debugging**, which appears as a small green arrow.  
+2. Below the title of the pipeline stage, choose **Start Debugging**, which appears as a small green arrow.  
   
     > [!NOTE]
-    >  This entry point into the HLSL debugger debugs only the first shader thread for the corresponding stage—that is, the first vertex or pixel that is processed. You can use Pixel History to access other threads of these shader stages.  
+    > This entry point into the HLSL debugger debugs only the first shader thread for the corresponding stage—that is, the first vertex or pixel that is processed. You can use Pixel History to access other threads of these shader stages.  
   
 #### To start the HLSL debugger from the Graphics Pixel History  
   
@@ -70,7 +65,7 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
     To the right of the chosen shader, choose **Start Debugging**, which appears as a small green arrow.  
   
    > [!NOTE]
-   >  This entry point into the HLSL debugger debugs either the pixel shader thread that corresponds to the chosen draw call, primitive, and pixel that you have chosen, or to the vertex shader threads whose results are interpolated by the draw call, primitive, and pixel that you have chosen. In the case of vertex shaders, you can further refine the entry point to a specific vertex by expanding the vertex shader details.  
+   > This entry point into the HLSL debugger debugs either the pixel shader thread that corresponds to the chosen draw call, primitive, and pixel that you have chosen, or to the vertex shader threads whose results are interpolated by the draw call, primitive, and pixel that you have chosen. In the case of vertex shaders, you can further refine the entry point to a specific vertex by expanding the vertex shader details.  
   
    For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](../debugger/graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.  
   
@@ -78,6 +73,3 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
  [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
  [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)   
  [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)
-
-
-

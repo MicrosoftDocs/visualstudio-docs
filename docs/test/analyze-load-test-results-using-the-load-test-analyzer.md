@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Analyze load test results using the Load Test Analyzer
 
@@ -21,11 +19,11 @@ Find bottlenecks, identify errors, and measure improvements in your app when you
 
 Analyze load test results in these ways:
 
--   Monitor a load test when it is running.
+- Monitor a load test when it is running.
 
--   Analyze a load test after it has completed.
+- Analyze a load test after it has completed.
 
--   View results from a previous load test.
+- View results from a previous load test.
 
 You can also create reports that compare two or more reports for trend analysis to share with stakeholders. See [Reporting load tests results for test comparisons or trend analysis](../test/compare-load-test-results.md).
 

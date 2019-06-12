@@ -1,14 +1,9 @@
 ---
 title: "EndTrackingContext | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 api_name: 
   - "EndTrackingContext"
 api_location: 
@@ -21,12 +16,11 @@ ms.assetid: c2c5d794-8dc8-4594-8717-70dc79a0e75d
 caps.latest.revision: 7
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # EndTrackingContext
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 End the current tracking context.  
   
 ## Syntax  
@@ -43,6 +37,3 @@ HRESULT WINAPI EndTrackingContext();
   
 ## See Also  
  [StartTrackingContext](../msbuild/starttrackingcontext.md)
-
-
-

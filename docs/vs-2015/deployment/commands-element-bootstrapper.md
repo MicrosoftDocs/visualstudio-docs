@@ -1,14 +1,9 @@
 ---
 title: "&lt;Commands&gt; Element (Bootstrapper) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -20,7 +15,7 @@ ms.assetid: e61d5787-fe1f-4ebf-b0cf-0d7909be7ffb
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;Commands&gt; Element (Bootstrapper)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -208,6 +203,3 @@ The `Commands` element implements tests described by the elements underneath the
 ## See Also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [\<InstallChecks> Element](../deployment/installchecks-element-bootstrapper.md)
-
-
-

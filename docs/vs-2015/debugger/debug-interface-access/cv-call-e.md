@@ -1,14 +1,9 @@
 ---
 title: "CV_call_e | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: f230560b-4243-432d-8f19-46df112043b9
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CV_call_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ manager: "ghogen"
 Specifies the calling convention for a function.  
   
 > [!NOTE]
->  Only the most common enumeration values are documented here. The complete enumeration is available in the cvconst.h header file.  
+> Only the most common enumeration values are documented here. The complete enumeration is available in the cvconst.h header file.  
   
 ## Syntax  
   
@@ -68,6 +63,3 @@ typedef enum CV_call_e { 
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_callingConvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md)
-
-
-

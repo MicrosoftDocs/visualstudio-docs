@@ -1,15 +1,13 @@
 ---
 title: Configure Python on Azure App Service (Windows)
 description: How to install a Python interpreter and libraries on Azure App Service, and configuring web applications to properly refer to that interpreter.
-ms.date: 10/18/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 01/07/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.custom: seodec18
-ms.workload: 
+ms.workload:
   - python
   - data-science
   - azure
@@ -73,7 +71,7 @@ For example, after adding a reference to `python361x64` (Python 3.6.1 x64), your
 
 ## Set web.config to point to the Python interpreter
 
-After installing the site extension (through either the portal or an Azure Resource Manager template), you next point your app's *web.config* file to the Python interpreter. The *web.config* file instructs the IIS (7+) web server running on App Service about how it should handle Python requests through either FastCGI or HttpPlatform.
+After installing the site extension (through either the portal or an Azure Resource Manager template), you next point your app's *web.config* file to the Python interpreter. The *web.config* file instructs the IIS (7+) web server running on App Service about how it should handle Python requests through either HttpPlatform (recommended) or FastCGI.
 
 Begin by finding the full path to the site extension's *python.exe*, then create and modify the appropriate *web.config* file.
 
@@ -94,6 +92,33 @@ If you have trouble seeing the path for the extension, you can find it manually 
 1. On your App Service page, select the **Development Tools** > **Console**.
 1. Enter the command `ls ../home` or `dir ..\home` to see the top-level extensions folders, such as *Python361x64*.
 1. Enter a command like `ls ../home/python361x64` or `dir ..\home\python361x64` to verify that it contains *python.exe* and other interpreter files.
+
+### Configure the HttpPlatform handler
+
+The HttpPlatform module passes socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but requires a startup script that runs a local web server. You specify the script in the `<httpPlatform>` element of *web.config*, where the `processPath` attribute points to the site extension's Python interpreter and the `arguments` attribute points to your script and any arguments you want to provide:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.webServer>
+    <handlers>
+      <add name="PythonHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified"/>
+    </handlers>
+    <httpPlatform processPath="D:\home\Python361x64\python.exe"
+                  arguments="D:\home\site\wwwroot\runserver.py --port %HTTP_PLATFORM_PORT%"
+                  stdoutLogEnabled="true"
+                  stdoutLogFile="D:\home\LogFiles\python.log"
+                  startupTimeLimit="60"
+                  processesPerApplication="16">
+      <environmentVariables>
+        <environmentVariable name="SERVER_PORT" value="%HTTP_PLATFORM_PORT%" />
+      </environmentVariables>
+    </httpPlatform>
+  </system.webServer>
+</configuration>
+```
+
+The `HTTP_PLATFORM_PORT` environment variable shown here contains the port that your local server should listen on for connections from localhost. This example also shows how to create another environment variable, if desired, in this case `SERVER_PORT`.
 
 ### Configure the FastCGI handler
 
@@ -122,36 +147,9 @@ The `<appSettings>` defined here are available to your app as environment variab
 
 - The value for `PYTHONPATH` may be freely extended but must include the root of your app.
 - `WSGI_HANDLER` must point to a WSGI app importable from your app.
-- `WSGI_LOG` is optional but recommended for debugging your app. 
+- `WSGI_LOG` is optional but recommended for debugging your app.
 
 See [Publish to Azure](publishing-python-web-applications-to-azure-from-visual-studio.md) for additional details on *web.config* contents for Bottle, Flask, and Django web apps.
-
-### Configure the HttpPlatform handler
-
-The HttpPlatform module passes socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but requires a startup script that runs a local web server. You specify the script in the `<httpPlatform>` element of *web.config*, where the `processPath` attribute points to the site extension's Python interpreter and the `arguments` attribute points to your script and any arguments you want to provide:
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <system.webServer>
-    <handlers>
-      <add name="PythonHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified"/>
-    </handlers>
-    <httpPlatform processPath="D:\home\Python361x64\python.exe"
-                  arguments="D:\home\site\wwwroot\runserver.py --port %HTTP_PLATFORM_PORT%"
-                  stdoutLogEnabled="true"
-                  stdoutLogFile="D:\home\LogFiles\python.log"
-                  startupTimeLimit="60"
-                  processesPerApplication="16">
-      <environmentVariables>
-        <environmentVariable name="SERVER_PORT" value="%HTTP_PLATFORM_PORT%" />
-      </environmentVariables>
-    </httpPlatform>
-  </system.webServer>
-</configuration>
-```
-
-The `HTTP_PLATFORM_PORT` environment variable shown here contains the port that your local server should listen on for connections from localhost. This example also shows how to create another environment variable, if desired, in this case `SERVER_PORT`.
 
 ## Install packages
 

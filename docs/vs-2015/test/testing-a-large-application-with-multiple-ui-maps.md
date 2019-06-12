@@ -1,21 +1,16 @@
 ---
 title: "Testing a Large Application with Multiple UI Maps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
 ms.assetid: 6e1ae9ec-e9b1-458a-bd96-0eb15e46f1d5
 caps.latest.revision: 24
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Testing a Large Application with Multiple UI Maps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,9 +36,9 @@ This topic discusses how to use coded UI tests when you are testing a large appl
 ## Do you need multiple UI Maps?  
  Create multiple UI Maps in each of these types of situations:  
   
--   Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a Web site, or the purchase page of a shopping cart.  
+- Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a Web site, or the purchase page of a shopping cart.  
   
--   An independent set of controls that are accessed from various points of the application, such as a wizard with several pages of operations. If each page of a wizard is especially complex, you could create separate UI Maps for each page.  
+- An independent set of controls that are accessed from various points of the application, such as a wizard with several pages of operations. If each page of a wizard is especially complex, you could create separate UI Maps for each page.  
   
 ## Adding Multiple UI Maps  
   
@@ -58,7 +53,7 @@ This topic discusses how to use coded UI tests when you are testing a large appl
     The **Add New Item** dialog box is displayed.  
   
    > [!NOTE]
-   >  You must be in a coded UI test project to add a new coded UI test map.  
+   > You must be in a coded UI test project to add a new coded UI test map.  
   
 3. Select **Coded UI Test Map** from the list.  
   
@@ -143,6 +138,3 @@ namespace ContosoProject
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)   
  [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
-
-
-

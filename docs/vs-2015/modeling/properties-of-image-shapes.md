@@ -1,12 +1,9 @@
 ---
 title: "Properties of Image Shapes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: reference
 f1_keywords: 
   - "vs.dsltools.dsldesigner.selectimagedialog"
   - "vs.dsltools.dsldesigner.imageshape"
@@ -16,7 +13,7 @@ ms.assetid: 9ce00ccd-07f2-4640-ac96-2a60481d0d72
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Properties of Image Shapes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +69,4 @@ You can use image shapes to specify how domain classes appear in a generated des
 |Image|The path to the image file that is used for this shape.|\<none>|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

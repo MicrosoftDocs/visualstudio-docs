@@ -1,11 +1,7 @@
 ---
 title: "Learn about mobile development with Xamarin | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 caps.latest.revision: 14
 ms.author: crdun
@@ -14,20 +10,19 @@ manager: "crdun"
 # Learn about mobile development with Xamarin
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 This topic directs you to overview material that helps you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.  
   
 > [!NOTE]
->  Unless otherwise noted, we suggest initially reading only those pages linked to directly here, and not subsidiary pages. If the installation process is still running after completing this list, feel free to go back and explore additional topics.  
+> Unless otherwise noted, we suggest initially reading only those pages linked to directly here, and not subsidiary pages. If the installation process is still running after completing this list, feel free to go back and explore additional topics.  
 >   
->  Also feel free to review the topics marked "Essentials" and come back to the "Deeper Dive" topics later.  
+> Also feel free to review the topics marked "Essentials" and come back to the "Deeper Dive" topics later.  
   
 ## Essentials: Introduction to Xamarin  
  *10-20 minutes*  
   
-1.  [Mobile Apps in Visual Studio with Xamarin](https://www.visualstudio.com/explore/xamarin-vs) (visualstudio.com) provides a very short rundown of the primary characteristics of Xamarin.  
+1. [Mobile Apps in Visual Studio with Xamarin](https://www.visualstudio.com/explore/xamarin-vs) (visualstudio.com) provides a very short rundown of the primary characteristics of Xamarin.  
   
-2.  [Building Cross-Platform Mobile Apps using C# and Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Building-cross-platform-mobile-apps-using-C-and-Visual-Studio-2015) (Channel9, 15m16s) with Xamarin evangelist, James Montemagno. The first three minutes are a Xamarin overview, followed by code demonstrations.  
+2. [Building Cross-Platform Mobile Apps using C# and Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2015-Final-Release-Event/Building-cross-platform-mobile-apps-using-C-and-Visual-Studio-2015) (Channel9, 15m16s) with Xamarin evangelist, James Montemagno. The first three minutes are a Xamarin overview, followed by code demonstrations.  
   
 ## Essentials: Overview of the Visual Studio and Xamarin Environment  
  *5-15 minutes*  
@@ -43,9 +38,9 @@ This topic directs you to overview material that helps you understand developing
 ## Essentials: How projects are structured  
  *10-30 minutes*  
   
-1.  [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (xamarin.com). We recommend using the portable class libraries option, as it best supports using only those .NET APIs that are supported across all target platforms. Most business logic code will reside in the PCL, including access to databases, calls to REST APIs, and calls to portable Xamarin components (see [Deeper Dive: Xamarin Components](#components) at the end of this topic). Common UI code written with Xamarin.Forms can also reside in a PCL.  
+1. [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (xamarin.com). We recommend using the portable class libraries option, as it best supports using only those .NET APIs that are supported across all target platforms. Most business logic code will reside in the PCL, including access to databases, calls to REST APIs, and calls to portable Xamarin components (see [Deeper Dive: Xamarin Components](#components) at the end of this topic). Common UI code written with Xamarin.Forms can also reside in a PCL.  
   
-2.  (Optional) [Case Study: Tasky](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/case_study-tasky/) (xamarin.com), describes some best practices for design and structure of a full-featured app such as structuring the project with a PCL for shared code that separates data, data access, and business layers, .  
+2. (Optional) [Case Study: Tasky](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/case_study-tasky/) (xamarin.com), describes some best practices for design and structure of a full-featured app such as structuring the project with a PCL for shared code that separates data, data access, and business layers, .  
   
 ## Essentials: native and Xamarin.Forms UI layers  
  *10-40 minutes*  
@@ -68,33 +63,32 @@ This topic directs you to overview material that helps you understand developing
   
   To learn more:  
   
-1.  [Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/) (xamarin.com) provides a brief overview and the pros and cons of Xamarin.Forms vs. native UI layers (that is, Xamarin.iOS and Xamarin.Android).  
+1. [Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/) (xamarin.com) provides a brief overview and the pros and cons of Xamarin.Forms vs. native UI layers (that is, Xamarin.iOS and Xamarin.Android).  
   
-2.  The first three minutes of James Montemagno’s video [Xamarin.Forms: Native iOS, Android & Windows apps with C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9, 13m3s) gives another overview, and you can continue watching for demos.  
+2. The first three minutes of James Montemagno’s video [Xamarin.Forms: Native iOS, Android & Windows apps with C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9, 13m3s) gives another overview, and you can continue watching for demos.  
   
-3.  (Optional) [An Introduction to Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/introduction-to-xamarin-forms/) (xamarin.com)  
+3. (Optional) [An Introduction to Xamarin.Forms](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/introduction-to-xamarin-forms/) (xamarin.com)  
   
-4.  (Optional) See examples of using OnPlatform for customization in the [Device Class](http://developer.xamarin.com/guides/xamarin-forms/platform-features/device/) documentation (xamarin.com)  
+4. (Optional) See examples of using OnPlatform for customization in the [Device Class](http://developer.xamarin.com/guides/xamarin-forms/platform-features/device/) documentation (xamarin.com)  
   
-5.  (Optional) [Cross-Platform - Share UI Code Across Mobile Platforms with Xamarin.Forms](https://msdn.microsoft.com/magazine/dn904669.aspx) by Jason Smith (MSDN Magazine) outlines the different customization options within Xamarin.Forms, for which the details are covered on [Customizing Controls on Each Platform](http://developer.xamarin.com/guides/xamarin-forms/custom-renderer/) (xamarin.com).  
+5. (Optional) [Cross-Platform - Share UI Code Across Mobile Platforms with Xamarin.Forms](https://msdn.microsoft.com/magazine/dn904669.aspx) by Jason Smith (MSDN Magazine) outlines the different customization options within Xamarin.Forms, for which the details are covered on [Customizing Controls on Each Platform](http://developer.xamarin.com/guides/xamarin-forms/custom-renderer/) (xamarin.com).  
   
 ## Deeper Dive: Debugging with Emulators  
  *10-15 minutes*  
   
  To debug your cross-platform apps without having to use a physical device, you will need to use the following:  
   
-1.  **An Android emulator.** Depending on which version of Windows you are using, we recommend either Microsoft’s Visual Studio Emulator for Android or the Xamarin Player, both of which offer fast performance and support a variety of device capabilities:  
+1. **An Android emulator.** Depending on which version of Windows you are using, we recommend either Microsoft’s Visual Studio Emulator for Android or the Xamarin Player, both of which offer fast performance and support a variety of device capabilities:  
   
-    -   **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
+    - **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
   
-    -   **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com).  
+    - **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](http://developer.xamarin.com/guides/android/getting_started/installation/android-player) (xamarin.com).  
   
-2.  **Apple’s iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
+2. **Apple’s iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
   
-3.  **Microsoft’s Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
+3. **Microsoft’s Windows Phone Emulator.** To learn more, read [Windows Phone Emulator for Windows Phone 8](https://msdn.microsoft.com/library/dn632391.aspx).  
   
-##  <a name="components"></a> Deeper Dive: Xamarin Components  
+## <a name="components"></a> Deeper Dive: Xamarin Components  
  *10 minutes*  
   
  Many extended capabilities are available to Xamarin apps through Xamarin components. You can find the full catalog available for download on [http://components.xamarin.com/](http://components.xamarin.com/), which includes components for additional UI controls, authentication, a variety of cloud services such as Microsoft Azure, and much more.
-

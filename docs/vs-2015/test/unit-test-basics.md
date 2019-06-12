@@ -1,20 +1,15 @@
 ---
 title: "Unit Test Basics | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-test
+ms.topic: conceptual
 f1_keywords: 
   - "vs.UnitTest.CreateUnitTest"
 ms.assetid: a80ba9cd-4575-483c-b957-af7ed8dc7e20
 caps.latest.revision: 29
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Unit Test Basics
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,34 +18,34 @@ Check that your code is working as expected by creating and running unit tests. 
   
  Unit testing has the greatest effect on the quality of your code when it’s an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.  
   
- You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](http://msdn.microsoft.com/library/dn823749.aspx).  
+ You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](https://msdn.microsoft.com/library/dn823749.aspx).  
   
  Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)  
   
--   [Quick starts](#BKMK_Quick_starts)  
+- [Quick starts](#BKMK_Quick_starts)  
   
--   [The MyBank Solution example](#BKMK_The_MyBank_Solution_example)  
+- [The MyBank Solution example](#BKMK_The_MyBank_Solution_example)  
   
--   [Create unit test projects and test methods](#BKMK_Creating_the_unit_test_projects)  
+- [Create unit test projects and test methods](#BKMK_Creating_the_unit_test_projects)  
   
--   [Write your tests](#BKMK_Writing_your_tests)  
+- [Write your tests](#BKMK_Writing_your_tests)  
   
--   [Run tests in Test Explorer](#BKMK_Running_tests_in_Test_Explorer)  
+- [Run tests in Test Explorer](#BKMK_Running_tests_in_Test_Explorer)  
   
--   [Run and view tests](#BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar)  
+- [Run and view tests](#BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar)  
   
-##  <a name="BKMK_Unit_testing_overview"></a> Unit testing overview  
+## <a name="BKMK_Unit_testing_overview"></a> Unit testing overview  
   
-###  <a name="BKMK_Quick_starts"></a> Quick starts  
+### <a name="BKMK_Quick_starts"></a> Quick starts  
  For an introduction to unit testing that takes you directly into coding, see one of these topics:  
   
--   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
+- [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
   
--   [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
+- [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
   
--   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
+- [Unit testing native code with Test Explorer](https://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
   
-##  <a name="BKMK_The_MyBank_Solution_example"></a> The MyBank Solution example  
+## <a name="BKMK_The_MyBank_Solution_example"></a> The MyBank Solution example  
  In this topic, we use the development of a fictional application called `MyBank` as an example. You don’t need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.  
   
  ![MyBank Solution](../test/media/ute-mybanksolution.png "UTE_MyBankSolution")  
@@ -91,7 +86,7 @@ public void Withdraw(double amount)
   
  Now that we have some code, it’s time for testing.  
   
-##  <a name="BKMK_Creating_the_unit_test_projects"></a> Create unit test projects and test methods  
+## <a name="BKMK_Creating_the_unit_test_projects"></a> Create unit test projects and test methods  
  It is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements.  
   
  **Generate unit test project and unit test stubs**  
@@ -123,25 +118,25 @@ public void Withdraw(double amount)
 7. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.  
   
    > [!WARNING]
-   >  Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
+   > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.  
   
 8. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.  
   
     To create the reference to the code project:  
   
-   1.  Select the project in Solution Explorer.  
+   1. Select the project in Solution Explorer.  
   
-   2.  On the **Project** menu, choose **Add Reference**.  
+   2. On the **Project** menu, choose **Add Reference**.  
   
-   3.  On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
+   3. On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.  
   
    Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:  
   
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project  
+- `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project  
   
--   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.  
+- `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.  
   
-##  <a name="BKMK_Writing_your_tests"></a> Write your tests  
+## <a name="BKMK_Writing_your_tests"></a> Write your tests  
  The unit test framework that you use and Visual Studio IntelliSense will guide you through writing the code for your unit tests for a code project. To run in Test Explorer, most frameworks require that you add specific attributes to identify unit test methods. The frameworks also provide a way—usually through assert statements or method attributes—to indicate whether the test method has passed or failed. Other attributes identify optional setup methods that are at class initialization and before each test method and teardown methods that are run after each test method and before the class is destroyed.  
   
  The AAA (Arrange, Act, Assert) pattern is a common way of writing unit tests for a method under test.  
@@ -187,9 +182,9 @@ public void Withdraw_AmountMoreThanBalance_Throws()
   
  For more information about the Microsoft Unit Testing Frameworks, see one of the following topics:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
+- [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
+- [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
   
 ## Set timeouts for unit tests  
  To set a timeout on an individual test method:  
@@ -216,7 +211,7 @@ public void My_Test ()
 }  
 ```  
   
-##  <a name="BKMK_Running_tests_in_Test_Explorer"></a> Run tests in Test Explorer  
+## <a name="BKMK_Running_tests_in_Test_Explorer"></a> Run tests in Test Explorer  
  When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.  
   
  ![Unit Test Explorer](../ide/media/ute-failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
@@ -225,7 +220,7 @@ public void My_Test ()
   
  You can also filter the tests in any view by matching text in the search box at the global level or by selecting one of the pre-defined filters. You can run any selection of the tests at any time. The results of a test run are immediately apparent in the pass/fail bar at the top of the explorer window. Details of a test method result are displayed when you select the test.  
   
-###  <a name="BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar"></a> Run and view tests  
+### <a name="BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar"></a> Run and view tests  
  The Test Explorer toolbar helps you discover, organize, and run the tests that you are interested in.  
   
  ![Run tests from the Test Explorer toolbar](../test/media/ute-toolbar.png "UTE_ToolBar")  
@@ -234,16 +229,16 @@ public void My_Test ()
   
  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.  
   
-###  <a name="BKMK_Running_tests_after_every_build"></a> Run tests after every build  
+### <a name="BKMK_Running_tests_after_every_build"></a> Run tests after every build  
   
 > [!WARNING]
->  Running unit tests after every build is supported only in Visual Studio Enterprise.  
+> Running unit tests after every build is supported only in Visual Studio Enterprise.  
   
 |||  
 |-|-|  
 |![Run after build](../test/media/ute-runafterbuild-btn.png "UTE_RunAfterBuild_btn")|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the Test Explorer toolbar.|  
   
-###  <a name="BKMK_Filtering_and_grouping_the_test_list"></a> Filter and group the test list  
+### <a name="BKMK_Filtering_and_grouping_the_test_list"></a> Filter and group the test list  
  When you have a large number of tests, you can Type in Test Explorer search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.  
   
  ![Search filter categories](../test/media/ute-searchfilter.png "UTE_SearchFilter")  
@@ -262,7 +257,7 @@ public void My_Test ()
 1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.  
   
    > [!NOTE]
-   >  Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
+   > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.  
   
 2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.  
   
@@ -279,7 +274,7 @@ public void My_Test ()
    **A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.  
   
 > [!NOTE]
->  These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
+> These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you’re using a different framework, consult the framework documentation for equivalent functionality.  
   
  For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.  
   
@@ -343,6 +338,3 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
    ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")  
   
    Your unit test stubs will be created using the selected framework.
-
-
-

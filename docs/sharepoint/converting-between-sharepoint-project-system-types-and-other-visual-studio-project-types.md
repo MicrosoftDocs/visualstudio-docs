@@ -1,18 +1,15 @@
 ---
-title: "Converting Between SharePoint Project System Types and Other Visual Studio Project Types | Microsoft Docs"
-ms.custom: ""
+title: "Convert: SharePoint project system types to/from other types"
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
   - "SharePoint project service"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -39,13 +36,12 @@ ms.workload:
 
  This example requires:
 
--   An extension of the SharePoint project system that has a reference to the *EnvDTE.dll* assembly. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
+- An extension of the SharePoint project system that has a reference to the *EnvDTE.dll* assembly. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).
 
--   Code that registers the `projectService_ProjectAdded` method to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> event of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For an example, see [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).
+- Code that registers the `projectService_ProjectAdded` method to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> event of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For an example, see [How to: Create a SharePoint project extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).
 
 ## See also
 
 - [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
 - [How to: Retrieve the SharePoint project service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md)
 - [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)
-

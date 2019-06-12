@@ -4,11 +4,9 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Directed Graph Markup Language (DGML) reference
 
@@ -19,7 +17,7 @@ Note that some versions of Visual Studio support only a subset of DGML capabilit
 > [!NOTE]
 > When you edit a .dgml file, IntelliSense helps you identify attributes that are available for each element and their values. To specify color in an attribute, use names for common colors, such as "Blue", or ARGB hexadecimal values, such as "#ffa0b1c3". DGML uses a small subset of Windows Presentation Foundation (WPF) color definition formats. For more information, see [Colors Class](http://go.microsoft.com/fwlink/?LinkId=182345).
 
-##  <a name="DGML"></a> DGML syntax
+## <a name="DGML"></a> DGML syntax
 
 The following table describes kinds of elements that are used in DGML:
 
@@ -296,7 +294,7 @@ The following table describes kinds of elements that are used in DGML:
   </DirectedGraph>
   ```
 
-###  <a name="AddAlias"></a> Aliases for commonly-used paths
+### <a name="AddAlias"></a> Aliases for commonly-used paths
 
 Replacing commonly-used paths with aliases helps reduce the size of the .dgml file and the time required to load or save the file. To create an alias, add a `<Paths></Paths>` section at the end of the .dgml file. In this section, add a `<Path/>` element to define an alias for the path:
 

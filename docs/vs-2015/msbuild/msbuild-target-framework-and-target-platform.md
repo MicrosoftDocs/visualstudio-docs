@@ -1,24 +1,18 @@
 ---
 title: "MSBuild Target Framework and Target Platform | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 ms.assetid: df6517c5-edd6-4cc4-97ad-b3cdfc78e799
 caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Target Framework and Target Platform
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family (“x86”). The combination of target framework and target platform is known as the *target context*.  
   
 ## Target Framework and Profile  
@@ -87,6 +81,3 @@ A project can be built to run on a *target framework*, which is a particular ver
   
 ## See Also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
-
-
-

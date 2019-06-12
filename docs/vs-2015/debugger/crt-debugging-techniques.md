@@ -1,14 +1,9 @@
 ---
 title: "CRT Debugging Techniques | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "c.runtime.debugging"
 dev_langs: 
@@ -25,7 +20,7 @@ ms.assetid: 9be561f6-14a8-44ff-925d-d911d5b8e6ff
 caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CRT Debugging Techniques
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +52,3 @@ If you are debugging a program that uses the C run-time library, these debugging
   
  [Debugger Security](../debugger/debugger-security.md)  
  Provides recommendations for more secure debugging.
-
-
-

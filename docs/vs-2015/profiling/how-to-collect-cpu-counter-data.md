@@ -1,14 +1,9 @@
 ---
 title: "How to: Collect CPU Counter Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.property.cpucounters"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 102fb6ca-5fbf-4b05-925f-56912ce3f44b
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Collect CPU Counter Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,22 +48,19 @@ A CPU event counter is used to collect hardware-specific performance data. This 
   
 ### To collect CPU performance counter data when you profile by instrumentation  
   
-1.  On the performance session **Property Pages**, click **CPU Counters.**  
+1. On the performance session **Property Pages**, click **CPU Counters.**  
   
-2.  Select the **Collect CPU Counters** check box.  
+2. Select the **Collect CPU Counters** check box.  
   
-3.  Expand the **Available performance counters** tree until you find the sample events that you want to collect.  
+3. Expand the **Available performance counters** tree until you find the sample events that you want to collect.  
   
-4.  For each event that you want to collect, select the event and then click the right arrow to add the event to the **Selected Counters** list.  
+4. For each event that you want to collect, select the event and then click the right arrow to add the event to the **Selected Counters** list.  
   
     > [!NOTE]
-    >  **Available performance counters** is enabled only if you select the **Collect CPU counters** check box.  
+    > **Available performance counters** is enabled only if you select the **Collect CPU counters** check box.  
   
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)   
  [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)   
  [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)
-
-
-

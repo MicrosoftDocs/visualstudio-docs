@@ -1,40 +1,35 @@
 ---
 title: "Program Control | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], control of execution"
 ms.assetid: 6be80904-e66c-4cae-8891-1113b799fb01
 caps.latest.revision: 10
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Program Control
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 In Visual Studio debugging, all of the following stepping and continuing routines occur at the program level:  
   
--   Setting the next statement, that is, setting your computer to the next instruction to be executed in a particular frame environment  
+- Setting the next statement, that is, setting your computer to the next instruction to be executed in a particular frame environment  
   
--   Executing, that is, continuing to exit out of stepping mode  
+- Executing, that is, continuing to exit out of stepping mode  
   
--   Stepping to the next instruction  
+- Stepping to the next instruction  
   
--   Continuing with the current stepping mode  
+- Continuing with the current stepping mode  
   
--   Suspending the threads contained by the program  
+- Suspending the threads contained by the program  
   
--   Resuming the threads contained by the program  
+- Resuming the threads contained by the program  
   
 > [!NOTE]
->  Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.  
+> Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.  
   
 ## Methods of Program Control  
  The following table shows the methods of [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) that must be implemented for a minimally functional debug engine (DE) and execution control.  
@@ -49,4 +44,3 @@ In Visual Studio debugging, all of the following stepping and continuing routine
   
 ## See Also  
  [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
-

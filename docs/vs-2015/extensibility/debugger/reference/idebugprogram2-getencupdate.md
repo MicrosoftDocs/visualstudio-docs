@@ -1,14 +1,9 @@
 ---
 title: "IDebugProgram2::GetENCUpdate | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugProgram2::GetENCUpdate"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9832aac8-6320-4fd8-91dd-2a0852febb00
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugProgram2::GetENCUpdate
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -45,8 +40,7 @@ int GetENCUpdate(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 > [!NOTE]
->  A custom debug engine should always return `E_NOTIMPL`.  
+> A custom debug engine should always return `E_NOTIMPL`.  
   
 ## See Also  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
-

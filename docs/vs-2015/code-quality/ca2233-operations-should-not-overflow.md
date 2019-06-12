@@ -1,14 +1,9 @@
 ---
 title: "CA2233: Operations should not overflow | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "OperationsShouldNotOverflow"
   - "CA2233"
@@ -106,16 +101,13 @@ End Sub
 
  **To turn on checked arithmetic overflow/underflow in C#**
 
-1.  In **Solution Explorer**, right-click your project and choose **Properties**.
+1. In **Solution Explorer**, right-click your project and choose **Properties**.
 
-2.  Select the **Build** tab and click **Advanced**.
+2. Select the **Build** tab and click **Advanced**.
 
-3.  Select **Check for arithmetic overflow/underflow** and click **OK**.
+3. Select **Check for arithmetic overflow/underflow** and click **OK**.
 
 ## See Also
  <xref:System.OverflowException?displayProperty=fullName>
- [C# Operators](http://msdn.microsoft.com/library/0301e31f-22ad-49af-ac3c-d5eae7f0ac43)
- [Checked and Unchecked](http://msdn.microsoft.com/library/a84bc877-2c7f-4396-8735-1ce97c42f35e)
-
-
-
+ [C# Operators](https://msdn.microsoft.com/library/0301e31f-22ad-49af-ac3c-d5eae7f0ac43)
+ [Checked and Unchecked](https://msdn.microsoft.com/library/a84bc877-2c7f-4396-8735-1ce97c42f35e)

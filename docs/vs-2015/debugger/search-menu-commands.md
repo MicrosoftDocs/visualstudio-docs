@@ -1,21 +1,16 @@
 ---
 title: "Search Menu Commands | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Search menu commands"
 ms.assetid: f36dff9a-49ef-46ce-8c9a-76246458c0d0
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Search Menu Commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,6 +25,3 @@ The **Search** menu provides commands to search for specific windows.
   
  **Find Previous**  
  Searches the current view for the previous matching window, process, thread, or message. This menu item (and the related toolbar button) is available only when there is a valid search result that is not unique.
-
-
-

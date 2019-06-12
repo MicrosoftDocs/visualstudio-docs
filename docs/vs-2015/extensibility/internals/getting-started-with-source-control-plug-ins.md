@@ -1,21 +1,16 @@
 ---
 title: "Getting Started with Source Control Plug-ins | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, getting started"
   - "getting started, source control plug-ins"
 ms.assetid: 46ac1f9f-4ecc-4a72-88d3-4c7e1647e1cb
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Getting Started with Source Control Plug-ins
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ To create a source control plug-in, you must create a DLL that implements the fu
   
  [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)  
  Defines the Source Control Plug-in SDK and describes the included resources.
-

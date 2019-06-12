@@ -1,14 +1,9 @@
 ---
 title: "Quick Info in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Quick Info, supporting in language services [managed package framework]"
   - "IntelliSense, Quick Info"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Quick Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ IntelliSense Quick Info shows information about an identifier in the source when
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Displaying QuickInfo Tooltips](../../extensibility/walkthrough-displaying-quickinfo-tooltips.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
  The managed package framework (MPF) language service classes provide full support for displaying the IntelliSense Quick Info tool tip. All you have to do is supply the text to be displayed and enable the quick info feature.  
   
@@ -43,4 +38,3 @@ IntelliSense Quick Info shows information about an identifier in the source when
  Most parsers do an initial parse of the entire source file and store the results in a parse tree. The complete parse is carried out when <xref:Microsoft.VisualStudio.Package.ParseReason> is passed to <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method. Other kinds of parsing can then use the parse tree to obtain the desired information.  
   
  For example, the parse reason value of <xref:Microsoft.VisualStudio.Package.ParseReason> can find the identifier at the source location and look it up in the parse tree to obtain the type information. This type information is then passed to the <xref:Microsoft.VisualStudio.Package.AuthoringScope> class, and is returned by the <xref:Microsoft.VisualStudio.Package.AuthoringScope.GetDataTipText%2A> method.
-

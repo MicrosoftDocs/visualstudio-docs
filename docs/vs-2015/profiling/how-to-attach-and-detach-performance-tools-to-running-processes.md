@@ -1,14 +1,9 @@
 ---
 title: "How to: Attach and Detach Performance Tools to Running Processes | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.attach"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
 caps.latest.revision: 35
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Attach and Detach Performance Tools to Running Processes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ manager: "ghogen"
 The profiler can be used to attach to or detach from a running process to make sampling and gathering performance data easier. You can use this method to profile a process when you want to avoid gathering data about application load time, or to monitor the performance of a process after it reaches a specific state.  
   
 > [!NOTE]
->  The following steps apply to attaching and detaching processes from within the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] integrated development environmnent (IDE). For information about how to use command line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md). For information about how to profile services, see [Profiling Services](../profiling/command-line-profiling-of-services.md).  
+> The following steps apply to attaching and detaching processes from within the [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] integrated development environmnent (IDE). For information about how to use command line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md). For information about how to profile services, see [Profiling Services](../profiling/command-line-profiling-of-services.md).  
   
  The processes that are available to profile depend on the User Access Permissions that are set by an administrator of the computer. A User account may, for example, have permission for any of the following:  
   
@@ -43,7 +38,7 @@ The profiler can be used to attach to or detach from a running process to make s
   
 ### To attach to a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
+1. On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
   
      \- or -  
   
@@ -51,13 +46,13 @@ The profiler can be used to attach to or detach from a running process to make s
   
      The **Attach Profiler to Process** dialog box appears.  
   
-2.  Click the name of the process that you want to attach to.  
+2. Click the name of the process that you want to attach to.  
   
-3.  Click **Attach**.  
+3. Click **Attach**.  
   
 ### To detach from a running process  
   
-1.  On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
+1. On the **Analyze** menu, point to **Profiler** and then click **Attach/Detach**.  
   
      \- or -  
   
@@ -65,9 +60,9 @@ The profiler can be used to attach to or detach from a running process to make s
   
      The **Attach Profiler to Process** dialog box appears.  
   
-2.  Click the image name from which you want to detach.  
+2. Click the image name from which you want to detach.  
   
-3.  Click **Detach**.  
+3. Click **Detach**.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
@@ -75,6 +70,3 @@ The profiler can be used to attach to or detach from a running process to make s
  [How to: Start and End Performance Data Collection](../profiling/how-to-start-and-end-performance-data-collection.md)   
  [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)
-
-
-

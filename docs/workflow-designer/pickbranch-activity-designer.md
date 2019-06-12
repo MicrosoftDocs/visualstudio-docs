@@ -2,14 +2,12 @@
 title: "Workflow Designer - PickBranch Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.PickBranch.UI"
 ms.assetid: f523ad47-bbc0-4cda-a35c-41e67c4ba081
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -27,7 +25,7 @@ Access the **PickBranch** designer in the **Control Flow** category of the **Too
 
 Two empty <xref:System.Activities.Statements.PickBranch> objects with display names of **Branch1** and **Branch2** are created by default as elements of a <xref:System.Activities.Statements.Pick> activity when the **Pick** activity designer is initially dropped on to the Workflow Designer. These respective <xref:System.Activities.Statements.PickBranch.DisplayName%2A> property values can be edited in the **PickBranch** designer header or within the **Properties** window for each branch.
 
-There are two ways to add <xref:System.Activities.Statements.PickBranch> objects to the collection of a <xref:System.Activities.Statements.Pick> object: dragging and dropping the **PickBranch** designer from the **Toolbox**, or by using the context menu from within the **Pick** design surface:
+There are two ways to add <xref:System.Activities.Statements.PickBranch> objects to the collection of a <xref:System.Activities.Statements.Pick> object: dragging and dropping the **PickBranch** designer from the **Toolbox**, or by using the right-click menu from within the **Pick** design surface:
 
 - The **PickBranch** designer creates a <xref:System.Activities.Statements.PickBranch> when it is dragged from the **Toolbox** and dropped into one of the branches of a **Pick** activity designer on the Workflow Designer surface. The new <xref:System.Activities.Statements.PickBranch> objects can be placed inside the <xref:System.Activities.Statements.Pick> designer to the left or right of any existing <xref:System.Activities.Statements.PickBranch> elements already contained in the collection. When dragging a **PickBranch** designer onto the **Pick** designer with a mouse, the **Pick** designer uses a vertical blue-gray band to indicate where the <xref:System.Activities.Statements.PickBranch> is added for a given mouse placement.
 

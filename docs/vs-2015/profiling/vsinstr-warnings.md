@@ -1,14 +1,9 @@
 ---
 title: "VSInstr Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "instrumentation, VSInstr tool"
   - "warnings"
@@ -19,7 +14,7 @@ ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
 caps.latest.revision: 25
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # VSInstr Warnings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ The following table lists warnings issued by the VSInstr.exe tool. You can use t
 |Warning Number|Description|  
 |--------------------|-----------------|  
 |**VSP2000**|Internal Error. Cannot get the module file name for this executable.|  
-|**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the sn.exe tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (Strong Name Tool)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6).|  
+|**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the sn.exe tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (Strong Name Tool)](https://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6).|  
 |**VSP2002**|Could not find function \<funcname> in file \<filename><br /><br /> This warning occurs if a function cannot be located in the specified file.|  
 |**VSP2003**|Could not find any cross jumps to the function \<funcname> in file \<filename>.<br /><br /> This warning occurs if VSInstr cannot nullify cross jumps. Cross jumps are used for code optimization.|  
 |**VSP2004**|Function \<funcname> was excluded by using the EXCLUDE command-line switch but was required because it contained a cross jump.<br /><br /> This warning occurs if the function was excluded by using the EXCLUDE option, but is needed during the instrumentation process. The profiler automatically includes the required function.|  
@@ -46,6 +41,3 @@ The following table lists warnings issued by the VSInstr.exe tool. You can use t
   
 ## See Also  
  [VSInstr](../profiling/vsinstr.md)
-
-
-

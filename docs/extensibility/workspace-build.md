@@ -1,11 +1,7 @@
 ---
 title: "Workspace build in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-ms.assetid: 813f7a5e-f298-4469-9f4c-a5bddf5a6e14
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"

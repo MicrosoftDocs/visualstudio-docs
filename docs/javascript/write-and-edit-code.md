@@ -1,14 +1,11 @@
 ---
 title: Introduction to editing for JavaScript developers
 description: This introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding JavaScript code easier.
-ms.custom: ""
 ms.date: 12/13/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-nodejs
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
@@ -19,12 +16,9 @@ ms.workload:
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio.
 
 This article assumes you're already familiar with JavaScript development. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
-
-> [!TIP]
-> To follow along with this article, make sure you have the JavaScript settings selected for Visual Studio. For information about selecting settings for the integrated development environment (IDE), see [Environment settings](../ide/environment-settings.md). When you import settings, import **JavaScript** settings.
 
 ## Add a new project file
 
@@ -92,7 +86,7 @@ Right-click on `render` and choose **Peek Definition** from the content menu. Or
 
    ![Peek definition window](../javascript/media/write-code-peek-definition.png)
 
-1. Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
+Close the peeked definition window by choosing the small box with an "x" at the top right of the pop-up window.
 
 ## Use code snippets
 

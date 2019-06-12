@@ -1,19 +1,14 @@
 ---
 title: "Command-Line Capture Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d
 caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Command-Line Capture Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,7 +73,7 @@ DXCap.exe –info
  Under validation mode, `events` specifies the set of graphics events whose immediate results are compared. For example, `-examine present,draw,copy,clear` limits the comparison to only the events belonging to those categories.  
   
 > [!TIP]
->  We recommend starting with `-examine present,draw,copy,clear` because this will reveal most issues but take significantly less time than a more extensive set of events. If necessary, you can specify a larger or different set of events to validate those events and reveal other kinds of issues.  
+> We recommend starting with `-examine present,draw,copy,clear` because this will reveal most issues but take significantly less time than a more extensive set of events. If necessary, you can specify a larger or different set of events to validate those events and reveal other kinds of issues.  
   
  `-haltonfail`  
  Under validation mode, `-haltonfail` halts validation when differences are detected between the hardware and WARP renderer. Validation resumes after a key is pressed.  
@@ -139,7 +134,7 @@ DXCap.exe –c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.co
  The command in the example above captures graphics information from the desktop version of Internet Explorer while viewing the webpage located at www.fishgl.com which uses the WebGL API to render 3-D content.  
   
 > [!NOTE]
->  Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `–c` option.  
+> Because command line arguments that appear after the app are passed to it, you must specify the arguments intended for DXCap.exe before using the `–c` option.  
   
 ### Capture graphics information from a Windows Store app.  
  You can capture graphics information from a Windows Store app.  
@@ -296,6 +291,3 @@ DXCap.exe –p regression_test_12.vsglog –toXML temp.xml
 ```  
   
 ## Requirements
-
-
-

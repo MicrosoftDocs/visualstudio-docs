@@ -3,18 +3,14 @@ title: "Extending Other Parts of Visual Studio 2015 | Microsoft Docs"
 titleSuffix: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "user interfaces"
 ms.assetid: 27d2f1e1-2503-4aca-9cfc-707abd07ccf0
 caps.latest.revision: 23
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Extending Other Parts of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,9 +23,9 @@ There are many more parts of the Visual Studio UI that you can extend. Here we s
 ## Extending the Toolbox
  Learn how to add new controls and other items to the Toolbox and how to use Toolbox functionality:
 
--   [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
+- [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
 
--   [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)
+- [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)
 
 ## Extending the Status Bar
  Learn how to read and write to the status bar and the progress bar, and how to provide animations and other UI: [Extending the Status Bar](../extensibility/extending-the-status-bar.md).

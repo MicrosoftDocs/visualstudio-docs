@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, providing overridable classes"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Override and extend the generated classes
 
@@ -50,9 +48,9 @@ Nevertheless, you can override these methods by setting the **Generates Double D
 
 For example, in the sample Library.dsl, the `CirculationBook` domain class has the `Generates``Double Derived` property set to `true`. The generated code for that domain class contains two classes:
 
--   `CirculationBookBase`, which is an abstract and which contains all the methods and properties.
+- `CirculationBookBase`, which is an abstract and which contains all the methods and properties.
 
--   `CirculationBook`, which is derived from `CirculationBookBase`. It is empty, except for its constructors.
+- `CirculationBook`, which is derived from `CirculationBookBase`. It is empty, except for its constructors.
 
 To override any method, you create a partial definition of the derived class such as `CirculationBook`. You can override both the generated methods and the methods inherited from the modeling framework.
 

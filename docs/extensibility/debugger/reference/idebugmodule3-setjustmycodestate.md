@@ -1,44 +1,44 @@
 ---
 title: "IDebugModule3::SetJustMyCodeState | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugModule3::SetJustMyCodeState"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugModule3::SetJustMyCodeState"
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugModule3::SetJustMyCodeState
-Marks the module as being user code or not.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT SetJustMyCodeState(  
-   BOOL fIsUserCode  
-);  
-```  
-  
-```csharp  
-int SetJustMyCodeState(  
-   int fIsUserCode  
-);  
-```  
-  
-#### Parameters  
- `fIsUserCode`  
- [in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns error code.  
-  
-## See Also  
- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)
+Marks the module as being user code or not.
+
+## Syntax
+
+```cpp
+HRESULT SetJustMyCodeState(
+   BOOL fIsUserCode
+);
+```
+
+```csharp
+int SetJustMyCodeState(
+   int fIsUserCode
+);
+```
+
+## Parameters
+`fIsUserCode`\
+[in] Nonzero (`TRUE`) if the module should be considered user code, zero (`FALSE`) if it should not.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns error code.
+
+## See also
+- [IDebugModule3](../../../extensibility/debugger/reference/idebugmodule3.md)

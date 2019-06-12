@@ -1,8 +1,6 @@
 ---
 title: Use the Task List
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
   - "TaskListWindow"
@@ -13,7 +11,7 @@ helpviewer_keywords:
   - "Visual Studio, task list"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -79,6 +77,9 @@ To create a custom token:
 4. In the **Priority** drop-down list, choose a default priority for the new token.
 
 5. Choose **Add**.
+
+> [!TIP]
+> The **Add** button becomes enabled after you enter a name. You must enter a name before clicking **Add**.
 
 ### C++ TODO comments
 

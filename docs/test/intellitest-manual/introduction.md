@@ -1,13 +1,11 @@
 ---
 title: "Overview | Microsoft IntelliTest Developer Test Tool"
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "IntelliTest, Visual Studio IntelliTest developer testing tool"
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 author: gewarren
@@ -56,8 +54,7 @@ Test Project, and will be automatically detected
 afterwards by Visual Studio Test Explorer.
 
 **Complement existing testing practices**
-Use IntelliTest to complement any existing testing
-practices that you may already follow.
+Use IntelliTest to complement any existing testing practices that you may already follow.
 
 If you want to test:
 
@@ -75,14 +72,7 @@ If you want to test:
 
 ## The Hello World of IntelliTest
 
-IntelliTest finds inputs relevant to the tested
-program, which means you can use it to generate the
-famous **Hello World!** string. this assumes that
-you have created a C# MSTest-based test project and
-added a reference to **Microsoft.Pex.Framework**. If
-you are using a different test framework, create a C#
-class library and refer to the test framework documentation
-on how to set up the project.
+IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. this assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you are using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
 
 The following example creates two constraints on the parameter named **value** so that IntelliTest will generate the required string:
 
@@ -114,7 +104,7 @@ Once compiled and executed, IntelliTest generates a set of tests such as the fol
 7. "Hello\0World!"
 8. "Hello World!"
 
-Read [Generate unit tests with Intellitest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following code:
+Read [Generate unit tests with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following code:
 
 ```csharp
 [TestMethod]
@@ -142,12 +132,9 @@ This section describes the limitations of IntelliTest:
 
 ### Nondeterminism
 
-IntelliTest assumes that the analyzed program is
-deterministic. If it is not, IntelliTest will cycle
-until it reaches an exploration bound.
+IntelliTest assumes that the analyzed program is deterministic. If it is not, IntelliTest will cycle until it reaches an exploration bound.
 
-IntelliTest considers a program to be non-determistic
-if it relies on inputs that IntelliTest cannot control.
+IntelliTest considers a program to be non-determistic if it relies on inputs that IntelliTest cannot control.
 
 IntelliTest controls inputs provided to
 [parameterized unit tests](test-generation.md#parameterized-unit-testing)
@@ -168,8 +155,7 @@ the program. In such cases IntelliTest loses control
 over the execution of the program and its search
 becomes inefficient.
 
-Sometimes it is not obvious when this happens.
-Consider the following examples:
+Sometimes it is not obvious when this happens. Consider the following examples:
 
 * The result of the **GetHashCode()** method is
   provided by unmanaged code, and is not predictable.
@@ -207,26 +193,17 @@ IntelliTest is supported only on the X86, 32-bit .NETframework.
 
 ### Language
 
-In principle, IntelliTest can analyze arbitrary .NET
-programs, written in any .NET language. However, in
-Visual Studio it supports only C#.
+In principle, IntelliTest can analyze arbitrary .NET programs, written in any .NET language. However, in Visual Studio it supports only C#.
 
 ### Symbolic reasoning
 
-IntelliTest uses an automatic
-[constraint solver](input-generation.md#constraint-solver)
-to determine which values are relevant for the test
-and the program under test. However, the abilities of
-the constraint solver are, and always will be, limited.
+IntelliTest uses an automatic [constraint solver](input-generation.md#constraint-solver) to determine which values are relevant for the test and the program under test. However, the abilities of the constraint solver are, and always will be, limited.
 
 ### Incorrect stack traces
 
-Because IntelliTest catches and "rethrows" exceptions
-in each instrumented method, the line numbers in
-stack traces will not be correct. This is a limitation
-by design of the "rethrow" instruction.
+Because IntelliTest catches and "rethrows" exceptions in each instrumented method, the line numbers in stack traces will not be correct. This is a limitation by design of the "rethrow" instruction.
 
 ## Further reading
 
-* [Introductory blog post](https://blogs.msdn.microsoft.com/devops/2014/11/19/introducing-smart-unit-tests/).
+* [Introductory blog post](https://devblogs.microsoft.com/devops/introducing-smart-unit-tests/).
 * [Generate unit tests for your code with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md)

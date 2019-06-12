@@ -1,20 +1,15 @@
 ---
 title: "Designing XML Command Table (.Vsct) Files | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "VSCT files, designing"
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
 caps.latest.revision: 28
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Designing XML Command Table (.Vsct) Files
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -99,19 +94,19 @@ An XML command table (.vsct) file describes the layout and appearance of command
 ## .Vsct File Design Guidelines  
  To successfully design a .vsct file, follow these guidelines.  
   
--   Commands can be placed only in groups, groups can be placed only in menus, and menus can be placed only in groups. Only menus are actually displayed in the IDE, groups and commands are not.  
+- Commands can be placed only in groups, groups can be placed only in menus, and menus can be placed only in groups. Only menus are actually displayed in the IDE, groups and commands are not.  
   
--   Submenus cannot be directly assigned to a menu, but must be assigned to a group, which is in turn assigned to a menu.  
+- Submenus cannot be directly assigned to a menu, but must be assigned to a group, which is in turn assigned to a menu.  
   
--   Commands, submenus and groups can be assigned to one parenting group or menu using the parent field of their defining directive.  
+- Commands, submenus and groups can be assigned to one parenting group or menu using the parent field of their defining directive.  
   
--   Organizing a command table solely through the parent fields in the directives has a significant limitation. The directives that define objects can take only one parent argument.  
+- Organizing a command table solely through the parent fields in the directives has a significant limitation. The directives that define objects can take only one parent argument.  
   
--   Reusing commands, groups, or submenus requires the use of a new directive to create a new instance of the object with its own `GUID:ID` pair.  
+- Reusing commands, groups, or submenus requires the use of a new directive to create a new instance of the object with its own `GUID:ID` pair.  
   
--   Each `GUID:ID` pair must be unique. Reusing a command that has, for example, been placed on a menu, a toolbar, or on a context menu, is handled by the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
+- Each `GUID:ID` pair must be unique. Reusing a command that has, for example, been placed on a menu, a toolbar, or on a context menu, is handled by the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
   
--   Commands and submenus can also be assigned to multiple groups, and groups can be assigned to multiple menus using the [Commands Element](../../extensibility/commands-element.md).  
+- Commands and submenus can also be assigned to multiple groups, and groups can be assigned to multiple menus using the [Commands Element](../../extensibility/commands-element.md).  
   
 ## .Vsct File Notes  
  If you make any changes to a .vsct file after you both compile it and place it in a native satellite DLL, you should run **devenv.exe /setup /nosetupvstemplates**. Doing this forces the VSPackage resources specified in the experimental registry to be reread and the internal database that describes [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] to be rebuilt.  
@@ -124,4 +119,3 @@ An XML command table (.vsct) file describes the layout and appearance of command
   
 ## See Also  
  [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md)
-

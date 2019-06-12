@@ -15,9 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5e32e10e-9bac-4969-9bdd-b8f6919d3516
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -30,11 +28,11 @@ After the data in your dataset has been modified and validated, you can send the
 
  The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:
 
-1.  Call the adapter's `Update` method in a `try`/`catch` block.
+1. Call the adapter's `Update` method in a `try`/`catch` block.
 
-2.  If an exception is caught, locate the data row that caused the error.
+2. If an exception is caught, locate the data row that caused the error.
 
-3.  Reconcile the problem in the data row (programmatically if you can, or by presenting the invalid row to the user for modification), and then try the update again (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).
+3. Reconcile the problem in the data row (programmatically if you can, or by presenting the invalid row to the user for modification), and then try the update again (<xref:System.Data.DataRow.HasErrors%2A>, <xref:System.Data.DataTable.GetErrors%2A>).
 
 ## Save data to a database
 
@@ -42,7 +40,7 @@ Call the `Update` method of a TableAdapter. Pass the name of the data table that
 
 ### To update a database by using a TableAdapter
 
--   Enclose the TableAdapter's`Update` method in a `try`/`catch` block. The following example shows how to  update  the contents of the `Customers` table in `NorthwindDataSet` from within a `try`/`catch` block .
+- Enclose the TableAdapter's`Update` method in a `try`/`catch` block. The following example shows how to  update  the contents of the `Customers` table in `NorthwindDataSet` from within a `try`/`catch` block .
 
      [!code-csharp[VbRaddataSaving#9](../data-tools/codesnippet/CSharp/update-data-by-using-a-tableadapter_1.cs)]
      [!code-vb[VbRaddataSaving#9](../data-tools/codesnippet/VisualBasic/update-data-by-using-a-tableadapter_1.vb)]

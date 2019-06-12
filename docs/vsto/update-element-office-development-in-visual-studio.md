@@ -1,9 +1,6 @@
 ---
 title: "&lt;update&gt; element (Office development in Visual Studio)"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ helpviewer_keywords:
   - "update element"
   - "<update> element"
   - "application manifests [Office development in Visual Studio], <update> element"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---

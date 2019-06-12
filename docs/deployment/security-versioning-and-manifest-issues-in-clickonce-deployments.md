@@ -1,14 +1,12 @@
 ---
-title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
-ms.custom: ""
+title: "Security/versioning/manifest issues in ClickOnce deployment"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "versioning, ClickOnce applications"
   - "ClickOnce applications, Windows Vista User Account Control"
   - "ClickOnce applications, versioning issues"
@@ -21,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce applications, security issues"
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
@@ -55,7 +53,7 @@ This error can occur only if you are editing your [!INCLUDE[ndptecclick](../depl
 
 ## Specify individual .NET Framework assemblies in the manifest
 
-Your application will fail to load if you have manually edited a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to reference an older version of a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assembly. For example, if you added a reference to the System.Net assembly for a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies, as the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] against which your application runs is specified as a dependency in the application manifest.
+Your application will fail to load if you have manually edited a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to reference an older version of a .NET Framework assembly. For example, if you added a reference to the System.Net assembly for a version of the .NET Framework prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual .NET Framework assemblies, as the version of the .NET Framework against which your application runs is specified as a dependency in the application manifest.
 
 ## Manifest parsing issues
 
@@ -92,6 +90,6 @@ If you want to move or copy an application, you must also update the `deployment
 
 ## See also
 
-[Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)  
-[Securw ClickOnce applications](../deployment/securing-clickonce-applications.md)  
+[Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+[Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)
 [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

@@ -1,23 +1,18 @@
 ---
 title: "Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
 caps.latest.revision: 6
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Roslyn Analyzers and Code-aware Library for ImmutableArrays
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The [.NET Compiler Platform](https://github.com/dotnet/roslyn) (“Roslyn”) helps you build code-aware libraries. A code-aware library provides functionality you can use and tooling (Roslyn analyzers) to help you use the library in the best way or to avoid errors. This topic shows you how to build a real world Roslyn analyzer to catch common errors when using the [NIB: Immutable Collections](http://msdn.microsoft.com/library/33f4449d-7078-450a-8d60-d9229f66bbca) NuGet package. The example also demonstrates how to provide a code fix for a code issue found by the analyzer. Users see code fixes in the Visual Studio light bulb UI and can apply a fix for the code automatically.
+The [.NET Compiler Platform](https://github.com/dotnet/roslyn) (“Roslyn”) helps you build code-aware libraries. A code-aware library provides functionality you can use and tooling (Roslyn analyzers) to help you use the library in the best way or to avoid errors. This topic shows you how to build a real world Roslyn analyzer to catch common errors when using the [NIB: Immutable Collections](https://msdn.microsoft.com/library/33f4449d-7078-450a-8d60-d9229f66bbca) NuGet package. The example also demonstrates how to provide a code fix for a code issue found by the analyzer. Users see code fixes in the Visual Studio light bulb UI and can apply a fix for the code automatically.
 
 ## Getting Started
 You need the following to build this example:
@@ -26,7 +21,7 @@ You need the following to build this example:
 
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md). You can also, when installing Visual Studio, check Visual Studio Extensibility Tools under Common Tools to install the SDK at the same time. If you have already installed Visual Studio, you can also install this SDK by going to the main menu **File &#124; New &#124;Project …**, choosing C# in the left navigation pane, and then choosing Extensibility. When you choose the “**Install the Visual Studio Extensibility Tools**” breadcrumb project template, it prompts you to download and install the SDK.
 
-- [.NET Compiler Platform (“Roslyn”) SDK](http://aka.ms/roslynsdktemplates). You can also install this SDK by going to the main menu **File &#124; New &#124; Project …**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose “**Download the .NET Compiler Platform SDK**” breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer). This extremely useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
+- [.NET Compiler Platform (“Roslyn”) SDK](https://aka.ms/roslynsdktemplates). You can also install this SDK by going to the main menu **File &#124; New &#124; Project …**, choosing **C#** in the left navigation pane, and then choosing **Extensibility**. When you choose “**Download the .NET Compiler Platform SDK**” breadcrumb project template, it prompts you to download and install the SDK. This SDK includes the [Roslyn Syntax Visualizer](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer). This extremely useful tool helps you figure out what code model types you should look for in your analyzer. The analyzer infrastructure calls into your code for specific code model types, so your code only executes when necessary and can focus only on analyzing relevant code.
 
 ## What’s the Problem?
 Imagine you provide a library with ImmutableArray (for example, <xref:System.Collections.Immutable.ImmutableArray%601?displayProperty=fullName>) support. C# developers have lots of experience with .NET arrays. However, due to the nature of ImmutableArrays and optimization techniques used in the implementation, C# developer intuitions cause users of your library to write broken code, as explained below. Furthermore, users do not see their errors until run time, which isn’t the quality experience they are used to in Visual Studio with .NET.
@@ -314,4 +309,3 @@ You can see all the finished code [here](https://github.com/DustinCampbell/CoreF
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md) 
 [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers) 
 [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Diagnostics/FxCop)
-

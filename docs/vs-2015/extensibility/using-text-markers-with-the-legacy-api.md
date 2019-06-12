@@ -1,20 +1,15 @@
 ---
 title: "Using Text Markers with the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - text markers"
 ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Using Text Markers with the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ A text marker is a floating range of text in a buffer that can affect the displa
  Because of the performance overhead associated with text markers, do not create many markers for your text buffers. Each marker is updated every time that a user edits the buffer contents.  
   
 > [!NOTE]
->  Users can change the color of a visible marker type but not its shape and style. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
+> Users can change the color of a visible marker type but not its shape and style. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
   
 ## Related Topics  
   
@@ -35,7 +30,7 @@ A text marker is a floating range of text in a buffer that can affect the displa
 |[How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)|Describes how to create and add a custom text marker type to a text view.|  
 |[How to: Use Text Markers](../extensibility/how-to-use-text-markers.md)|Explains how to add text markers.|  
 |[Inside the Core Editor](../extensibility/inside-the-core-editor.md)|Describes the features of the core editor and provides details about how to customize the core editor.|  
-|[Editor Features](http://msdn.microsoft.com/en-us/bdac940d-1f14-4019-a01f-fd0bb3dc7198)|Describes the features available in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor.|  
+|[Editor Features](https://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)|Describes the features available in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] core editor.|  
   
 ## Reference  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsPackageDefinedTextMarkerType>  
@@ -70,4 +65,3 @@ A text marker is a floating range of text in a buffer that can affect the displa
   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStreamMarker>  
  Provides access to and adjusts the position of a text marker in a text buffer by using one-dimensional coordinates. If it is possible, do not use this interface.
-

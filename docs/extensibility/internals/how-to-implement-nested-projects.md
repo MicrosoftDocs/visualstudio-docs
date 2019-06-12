@@ -1,17 +1,14 @@
 ---
 title: "How to: Implement Nested Projects | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "nested projects, implementing"
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -21,18 +18,18 @@ When you create a nested project type, there are several additional steps that m
 
 ## Create nested projects
 
-1.  The integrated development environment (IDE) loads the parent project's project file and startup information by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> interface. The parent project is created and added to the solution.
+1. The integrated development environment (IDE) loads the parent project's project file and startup information by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> interface. The parent project is created and added to the solution.
 
     > [!NOTE]
     > At this point, it is too early in the process for the parent project to create the nested project because the parent project must be created before the child projects can be created. Following this sequence, the parent project can apply settings to the child projects and the child projects can acquire information from the parent projects if needed. This sequence is if it is needed on by clients such as source code control (SCC) and **Solution Explorer**.
 
      The parent project must wait for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren%2A> method to be called by the IDE before it can create its nested (child) project or projects.
 
-2.  The IDE calls `QueryInterface` on the parent project for <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject>. If this call succeeds, the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren%2A> method of the parent to open all of the nested projects for the parent project.
+2. The IDE calls `QueryInterface` on the parent project for <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject>. If this call succeeds, the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren%2A> method of the parent to open all of the nested projects for the parent project.
 
-3.  The parent project calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents.FireOnBeforeOpeningChildren%2A> method to notify listeners that nested projects are about to be created. SCC, for example, is listening to those events to know if the steps in the solution and project creation process are occurring in order. If the steps occur out of order, the solution might not be registered with source code control correctly.
+3. The parent project calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents.FireOnBeforeOpeningChildren%2A> method to notify listeners that nested projects are about to be created. SCC, for example, is listening to those events to know if the steps in the solution and project creation process are occurring in order. If the steps occur out of order, the solution might not be registered with source code control correctly.
 
-4.  The parent project calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AddVirtualProject%2A> method or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AddVirtualProjectEx%2A> method on each of its child projects.
+4. The parent project calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AddVirtualProject%2A> method or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AddVirtualProjectEx%2A> method on each of its child projects.
 
      You pass <xref:Microsoft.VisualStudio.Shell.Interop.__VSADDVPFLAGS> to the `AddVirtualProject` method to indicate that the virtual (nested) project should be added to the project window, excluded from the build, added to source code control, and so on. `VSADDVPFLAGS` lets you control the visibility of the nested project and indicate what functionality is associated with it.
 
@@ -40,15 +37,15 @@ When you create a nested project type, there are several additional steps that m
 
      If there is no GUID available, such as when you add a new nested project, the solution creates one for the project at the time it is added to the parent. It is the responsibility of the parent project to persist that project GUID in its project file. If you delete a nested project, the GUID for that project can also be deleted.
 
-5.  The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren> method on each child project of the parent project.
+5. The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsParentProject.OpenChildren> method on each child project of the parent project.
 
      The parent project must implement `IVsParentProject` if you want to nest projects. But the parent project never calls `QueryInterface` for `IVsParentProject` even if it has parent projects underneath it. The solution handles the call to `IVsParentProject` and, if it is implemented, calls `OpenChildren` to create the nested projects. `AddVirtualProjectEX` is always called from `OpenChildren`. It should never be called by the parent project to keep the hierarchy creation events in order.
 
-6.  The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A> method on the child project.
+6. The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A> method on the child project.
 
-7.  The parent project calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents.FireOnAfterOpeningChildren%2A> method to notify listeners that the child projects for the parent have been created.
+7. The parent project calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents.FireOnAfterOpeningChildren%2A> method to notify listeners that the child projects for the parent have been created.
 
-8.  The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents.FireOnAfterOpenProject%2A> method on the parent project after all child projects have been opened.
+8. The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents.FireOnAfterOpenProject%2A> method on the parent project after all child projects have been opened.
 
      If it does not already exist, the parent project creates a GUID for each nested project by calling `CoCreateGuid`.
 
@@ -62,7 +59,7 @@ When you create a nested project type, there are several additional steps that m
      Because parent and child projects are instantiated programmatically, you can set properties for nested projects at this point.
 
     > [!NOTE]
-    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>. In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
+    > Not only do you receive the context information from the nested project, but you can also ask if the parent project has any context for that item by checking [__VSHPROPID.VSHPROPID_UserContext](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_UserContext>). In that way, you can add extra dynamic help attributes and menu options specific to individual nested projects.
 
 10. The hierarchy is built for display in **Solution Explorer** with a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetNestedHierarchy%2A> method.
 

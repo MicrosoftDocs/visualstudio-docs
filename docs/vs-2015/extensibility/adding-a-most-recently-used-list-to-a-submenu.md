@@ -1,14 +1,9 @@
 ---
 title: "Adding a Most Recently Used List to a Submenu | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "MRU lists"
   - "menus, creating MRU list"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
 caps.latest.revision: 47
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Adding a Most Recently Used List to a Submenu
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,16 +37,16 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
 ## Creating a Dynamic Item List Command  
   
-1.  Open TestCommandPackage.vsct.  
+1. Open TestCommandPackage.vsct.  
   
-2.  In the `Symbols` section, in the `GuidSymbol` node named guidTestCommandPackageCmdSet, add the symbol for the `MRUListGroup` group and the `cmdidMRUList` command, as follows.  
+2. In the `Symbols` section, in the `GuidSymbol` node named guidTestCommandPackageCmdSet, add the symbol for the `MRUListGroup` group and the `cmdidMRUList` command, as follows.  
   
     ```csharp  
     <IDSymbol name="MRUListGroup" value="0x1200"/>  
     <IDSymbol name="cmdidMRUList" value="0x0200"/>  
     ```  
   
-3.  In the `Groups` section, add the declared group after the existing group entries.  
+3. In the `Groups` section, add the declared group after the existing group entries.  
   
     ```cpp  
     <Group guid="guidTestCommandPackageCmdSet" id="MRUListGroup"   
@@ -61,7 +56,7 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
     ```  
   
-4.  In the `Buttons` section, add a node to represent the newly declared command, after the existing button entries.  
+4. In the `Buttons` section, add a node to represent the newly declared command, after the existing button entries.  
   
     ```csharp  
     <Button guid="guidTestCommandPackageCmdSet" id="cmdidMRUList"  
@@ -77,32 +72,32 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
      The `DynamicItemStart` flag enables the command to be generated dynamically.  
   
-5.  Build the project and start debugging to test the display of the new command.  
+5. Build the project and start debugging to test the display of the new command.  
   
      On the **TestMenu** menu, click the new submenu, **Sub Menu**, to display the new command, **MRU Placeholder**. After a dynamic MRU list of commands is implemented in the next procedure, this command label will be replaced by that list every time that the submenu is opened.  
   
 ## Filling the MRU List  
   
-1.  In TestCommandPackageGuids.cs, add the following lines after the existing command IDs in the `TestCommandPackageGuids` class definition.  
+1. In TestCommandPackageGuids.cs, add the following lines after the existing command IDs in the `TestCommandPackageGuids` class definition.  
   
     ```csharp  
     public const string guidTestCommandPackageCmdSet = "00000000-0000-0000-0000-00000000"; // get the GUID from the .vsct file  
     public const uint cmdidMRUList = 0x200;  
     ```  
   
-2.  In TestCommand.cs add the following using statement.  
+2. In TestCommand.cs add the following using statement.  
   
     ```csharp  
     using System.Collections;  
     ```  
   
-3.  Add the following code in the TestCommand constructor after the last AddCommand call. The `InitMRUMenu` will be defined later  
+3. Add the following code in the TestCommand constructor after the last AddCommand call. The `InitMRUMenu` will be defined later  
   
     ```csharp  
     this.InitMRUMenu(commandService);  
     ```  
   
-4.  Add the following code in the TestCommand class. This code initializes the list of strings that represent the items to be shown on the MRU list.  
+4. Add the following code in the TestCommand class. This code initializes the list of strings that represent the items to be shown on the MRU list.  
   
     ```csharp  
     private int numMRUItems = 4;  
@@ -126,7 +121,7 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
     }  
     ```  
   
-5.  After the `InitializeMRUList` method, add the `InitMRUMenu` method. This initializes the MRU list menu commands.  
+5. After the `InitializeMRUList` method, add the `InitMRUMenu` method. This initializes the MRU list menu commands.  
   
     ```csharp  
     private void InitMRUMenu(OleMenuCommandService mcs)  
@@ -146,7 +141,7 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
      You must create a menu command object for every possible item in the MRU list. The IDE calls the `OnMRUQueryStatus` method for each item in the MRU list until there are no more items. In managed code, the only way for the IDE to know that there are no more items is to create all possible items first. If you want, you can mark additional items as not visible at first by using `mc.Visible = false;` after the menu command is created. These items can then be made visible later by using `mc.Visible = true;` in the `OnMRUQueryStatus` method.  
   
-6.  After the `InitMRUMenu` method, add the following `OnMRUQueryStatus` method. This is the handler that sets the text for each MRU item.  
+6. After the `InitMRUMenu` method, add the following `OnMRUQueryStatus` method. This is the handler that sets the text for each MRU item.  
   
     ```csharp  
     private void OnMRUQueryStatus(object sender, EventArgs e)  
@@ -163,7 +158,7 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
     }  
     ```  
   
-7.  After the `OnMRUQueryStatus` method, add the following `OnMRUExec` method. This is the handler for selecting an MRU item. This method moves the selected item to the top of the list and then displays the selected item in a message box.  
+7. After the `OnMRUQueryStatus` method, add the following `OnMRUExec` method. This is the handler for selecting an MRU item. This method moves the selected item to the top of the list and then displays the selected item in a message box.  
   
     ```csharp  
     private void OnMRUExec(object sender, EventArgs e)  
@@ -193,17 +188,16 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
 #### To test the MRU menu list  
   
-1.  Build the project and start debugging  
+1. Build the project and start debugging  
   
-2.  On the **TestMenu** menu, click **Invoke TestCommand**. Doing this displays a message box that indicates that the command was selected.  
+2. On the **TestMenu** menu, click **Invoke TestCommand**. Doing this displays a message box that indicates that the command was selected.  
   
     > [!NOTE]
-    >  This step is required to force the VSPackage to load and correctly display the MRU list. If you skip this step, the MRU list is not displayed.  
+    > This step is required to force the VSPackage to load and correctly display the MRU list. If you skip this step, the MRU list is not displayed.  
   
-3.  On the **Test Menu** menu, click **Sub Menu**. A list of four items is displayed at the end of the submenu, below a separator. When you click **Item 3**, a message box should appear and display the text, "Selected Item 3". (If the list of four items is not displayed, ensure that you have followed the instructions in the earlier step.)  
+3. On the **Test Menu** menu, click **Sub Menu**. A list of four items is displayed at the end of the submenu, below a separator. When you click **Item 3**, a message box should appear and display the text, "Selected Item 3". (If the list of four items is not displayed, ensure that you have followed the instructions in the earlier step.)  
   
-4.  Open the submenu again. Notice that **Item 3** is now at the top of the list and the other items have been pushed down one position. Click **Item 3** again and notice that the message box still displays "Selected Item 3", which indicates that the text has correctly moved to the new position together with the command label.  
+4. Open the submenu again. Notice that **Item 3** is now at the top of the list and the other items have been pushed down one position. Click **Item 3** again and notice that the message box still displays "Selected Item 3", which indicates that the text has correctly moved to the new position together with the command label.  
   
 ## See Also  
  [Dynamically Adding Menu Items](../extensibility/dynamically-adding-menu-items.md)
-

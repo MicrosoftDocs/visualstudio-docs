@@ -1,20 +1,15 @@
 ---
 title: "Source Control Plug-in Architecture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, architecture"
 ms.assetid: 35351d4c-9414-409b-98fc-f2023e2426b7
 caps.latest.revision: 25
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Source Control Plug-in Architecture
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,4 +37,3 @@ Architecture Diagram showing interaction between VS and source control plug-in
  [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)   
  [Glossary](../../extensibility/source-control-plug-in-glossary.md)   
  [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Common MSBuild Project Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,12 +18,11 @@ ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 caps.latest.revision: 39
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Common MSBuild Project Properties
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in .targets files that MSBuild provides.  
   
  Project files in Visual Studio (.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more .targets files to define their build process. For more information, see [.Targets Files](../msbuild/msbuild-dot-targets-files.md).  
@@ -114,7 +108,7 @@ The following table lists frequently used properties that are defined in the Vis
 |Satellite_Version|Specifies the version information for the satellite assembly.|  
 |Satellite_Win32Icon|Inserts an .ico icon file in the satellite assembly.|  
 |Satellite_Win32Resource|Inserts a Win32 resource (.res file) into the satellite assembly.|  
-|SubsystemVersion|Specifies the minimum version of the subsystem that the generated executable file can use. This property is equivalent to the `/subsystemversion` compiler switch. For information about the default value of this property, see [/subsystemversion (Visual Basic)](http://msdn.microsoft.com/library/08be22b2-f447-4cd3-8203-120b1b920b54) or [/subsystemversion (C# Compiler Options)](http://msdn.microsoft.com/library/a99fce81-9d92-4813-9874-bee777041445).|  
+|SubsystemVersion|Specifies the minimum version of the subsystem that the generated executable file can use. This property is equivalent to the `/subsystemversion` compiler switch. For information about the default value of this property, see [/subsystemversion (Visual Basic)](https://msdn.microsoft.com/library/08be22b2-f447-4cd3-8203-120b1b920b54) or [/subsystemversion (C# Compiler Options)](https://msdn.microsoft.com/library/a99fce81-9d92-4813-9874-bee777041445).|  
 |TargetCompactFramework|The version of the .NET Compact Framework that is required to run the application that you are building. Specifying this lets you reference certain framework assemblies that you may not be able to reference otherwise.|  
 |TargetFrameworkVersion|The version of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] that is required to run the application that you are building. Specifying this lets you reference certain framework assemblies that you may not be able to reference otherwise.|  
 |TreatWarningsAsErrors|A boolean parameter that, if `true`, causes all warnings to be treated as errors. This parameter is equivalent to the `/nowarn` compiler switch.|  
@@ -130,6 +124,3 @@ The following table lists frequently used properties that are defined in the Vis
   
 ## See Also  
  [Common MSBuild Project Items](../msbuild/common-msbuild-project-items.md)
-
-
-

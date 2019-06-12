@@ -1,17 +1,14 @@
 ---
 title: "T4 Output Directive | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 03a14993-47ad-4f2e-8032-57db28d5842a
 caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # T4 Output Directive
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,6 +71,3 @@ In [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] text templates, the `output` dir
  `0` (System default)  
   
  In general, you can use the WebName string or the CodePage number of any of the encodings returned by <xref:System.Text.Encoding.GetEncodings%2A?displayProperty=fullName>.
-
-
-

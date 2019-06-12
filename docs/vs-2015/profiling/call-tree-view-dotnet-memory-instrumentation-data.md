@@ -1,21 +1,16 @@
 ---
 title: "Call Tree View - .NET Memory Instrumentation Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Call Tree view"
 ms.assetid: dd359707-245a-4a36-8305-2e980b9edd53
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Call Tree View - .NET Memory Instrumentation Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -105,6 +100,3 @@ The Call Tree view of .NET memory allocation profiling data that was collected b
 |**Avg Application Exclusive Time**|The average application exclusive time of a call to this function when it was called by the parent function in the call tree.|  
 |**Max Application Exclusive Time**|The maximum application exclusive time of a call to this function when it was called by the parent function in the call tree.|  
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function when it was called by the parent function in the call tree.|
-
-
-

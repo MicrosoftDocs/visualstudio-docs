@@ -3,34 +3,47 @@ title: "Creating new Projects and Solutions"
 description: "This article describes how to create projects and solutions in Visual Studio for Mac"
 author: conceptdev
 ms.author: crdun
-ms.date: 05/06/2018
+ms.date: 05/23/2019
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---
-# Creating new Projects and Solutions
+# Creating a New Project
 
-## Creating new Projects and Solutions from a template
+## Opening the Project Creation Dialog
 
-Solutions can be created at any time by using a predefined template. To create a solution this way, browse to **File > New Solution**, select the required platform(s), and then the required template:
+There are a few ways to create a new project in Visual Studio for Mac. When you first open Visual Studio for Mac, the welcome screen will be shown. From here you can choose **New** which will take you to the project creation screen.
 
-![Create new Solutions](media/projects-and-solutions-image0.png)
+> [!TIP]
+> Additionally, from the welcome screen, you can also open, and search for, recent projects and solutions. You can also open recent projects by going to the menu bar and choosing **File > Recent Solutions**
 
-This will create a solution, which can contain one or many projects, depending on the type of template chosen.
+![Welcome screen with create new project](media/first-run-project.png)
 
-The solution explorer can be navigated by using the context actions or the menu bar.
+If Visual Studio for Mac is already open with a solution loaded, you can create a new solution by going to the menu bar and choosing **File > New Solution**. Creating a new solution this way will close the solution that is already loaded.
 
-To add a new Project to the solution, right-click on the Solution name and select **Add > Add New Project** to display the New Project dialog:
+## Creating a New Project from a Template
 
-![Add a new Project](media/projects-and-solutions-image4.png)
+The **New Project** dialog, by default, will show your recently used templates sorted by *most recently used*.
 
-This method of adding new projects can be used to take advantage of Xamarin code-sharing capabilities. Adding a Shared Project or a Portable Library template to an existing Solution provides a way to contain any cross-platform logic that can be used within all other projects in a solution. For more information on building cross-platform applications, refer to the [relevant guide](https://developer.xamarin.com/guides/cross-platform/application_fundamentals/code-sharing/).
+If you do not want to use a recent template, you can choose from the categories on the left of the dialog. Each category contains several project templates for you to choose from. Clicking on a project type allows you to see a description on the right side of the screen.
 
-## Opening Recent Solutions.
+![New project screen](media/project-creation-screen.png)
 
-The landing page of Visual Studio displays a list of recent projects that you have been working on:
+## Configuring Your New Project
 
-![Recent solutions section on welcome page](media/create-new-projects-recent.png)
+Once you have chosen a project template, the following screens will take you through any configuration steps required to set up the project; this can vary by project type.
 
-You can filter this list using the Filter box or remove individual items from the list.
+All projects require a new project, along with a location to store the files. If the project is part of a new solution, rather than adding it to an existing solution, a solution name will also be required.
+
+Optionally, at this stage you can also configure Git source control options. The following image is an example of the final configuration step for a .NET Core project:
+
+![Configuring a new project](media/configure-new-project.png)
+
+## Adding Additional Projects to a Solution
+
+You can add additional projects to a solution by right-clicking the solution in the Solution Pad and choosing either **Add > Add New Project** or **Add > Add Existing Project**.
+
+Adding a new project will take you through project creation, as shown in [Configuring Your New Project](#configuring-your-new-project).
+
+Choosing to add an existing project will allow you to browse for an existing project on your machine and add it to the solution.
 
 ## See also
 

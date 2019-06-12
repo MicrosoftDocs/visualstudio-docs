@@ -1,14 +1,9 @@
 ---
 title: "Accessibility Features of the Help Viewer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-help-viewer
+ms.topic: conceptual
 helpviewer_keywords: 
   - "accessibility features [Help Viewer 2.0]"
   - "Help Viewer 2.0, accessibility features"
@@ -16,7 +11,7 @@ ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
 caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Accessibility Features of the Help Viewer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ Microsoft is committed to making its products and services easier for everyone t
   
 ## See Also  
  [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
-
-
-

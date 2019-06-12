@@ -1,20 +1,20 @@
 ---
 title: "IDebugProgramNode2::GetHostMachineName_V7 | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IDebugProgramNode2::GetHostMachineName"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IDebugProgramNode2::GetHostMachineName_V7"
   - "IDebugProgramNode2::GetHostMachineNameIDebugProgramNode2::GetHostMachineName"
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IDebugProgramNode2::GetHostMachineName_V7
 
@@ -35,9 +35,9 @@ int GetHostMachineName_V7 (
 );
 ```
 
-#### Parameters
+## Parameters
 
-`pbstrHostMachineName`  
+`pbstrHostMachineName`\
 [out] Returns the name of the machine in which the program is running.
 
 ## Return Value
@@ -49,6 +49,6 @@ An implementation should always return `E_NOTIMPL`.
 > [!WARNING]
 > As of Visual Studio 2005, this method is no longer used and should always return `E_NOTIMPL`.
 
-## See Also
+## See also
 
-[IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
+- [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

@@ -1,8 +1,6 @@
 ---
 title: "CA1032: Implement standard exception constructors"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1032"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a8623c56-273a-4c95-8d83-95911a042be7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

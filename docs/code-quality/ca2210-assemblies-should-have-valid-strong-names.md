@@ -1,8 +1,6 @@
 ---
 title: "CA2210: Assemblies should have valid strong names"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AssembliesShouldHaveValidStrongNames"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8ed33d1c-8ec6-4b47-a692-e22dc8693088
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -60,11 +58,11 @@ Note that to load and analyze a delay-signed assembly, you must disable verifica
 
 Use one of the following procedures:
 
-- Use the Assembly Linker tool (Al.exe) provided by the .NET Framework SDK.
+- Use the [Assembly Linker tool (Al.exe)](/dotnet/framework/tools/al-exe-assembly-linker).
+
+- For the .NET Framework 2.0, use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).
 
 - For the .NET Framework v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.
-
-- For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).
 
 ### Sign your assembly with a strong name in Visual Studio
 
@@ -86,7 +84,7 @@ Use one of the following procedures:
 
 ### Sign your assembly with a strong name outside Visual Studio
 
-Use the strong name tool (Sn.exe) that is provided by the .NET Framework SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).
+Use the [Strong name tool (Sn.exe)](/dotnet/framework/tools/sn-exe-strong-name-tool).
 
 ## When to suppress warnings
 

@@ -1,14 +1,9 @@
 ---
 title: "Accessing Local and Remote Data in ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: be5cbe12-6cb6-49c9-aa59-a1624e1eef3d
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Accessing Local and Remote Data in ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,11 +25,11 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
 ## Local Data  
  With [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], you can load and store data locally by using any one of the following methods:  
   
--   [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Data Directory  
+- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Data Directory  
   
--   Isolated Storage  
+- Isolated Storage  
   
--   Other Local Files  
+- Other Local Files  
   
 ### ClickOnce Data Directory  
  Every [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application installed on a local computer has a data directory, stored in the user's Documents and Settings folder. Any file included in a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application and marked as a "data" file is copied to this directory when an application is installed. Data files can be of any file type, the most frequently used being text, XML, and database files such as Microsoft Access .mdb files.  
@@ -42,7 +37,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
  The data directory is intended for application-managed data, which is data that the application explicitly stores and maintains. All static, nondependency files not marked as "data" in the application manifest will instead reside in the Application Directory. This directory is where the application's executable (.exe) files and assemblies reside.  
   
 > [!NOTE]
->  When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is uninstalled, its Data Directory is also removed. Never use the Data Directory to store end-user–managed data, such as documents.  
+> When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is uninstalled, its Data Directory is also removed. Never use the Data Directory to store end-user–managed data, such as documents.  
   
 #### Marking Data Files in a ClickOnce Distribution  
  To put an existing file inside the Data Directory, you must mark the existing file as a data file in your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application's application manifest file. For more information, see [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).  
@@ -51,7 +46,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
  Reading from the Data Directory requires that your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application request Read permission; similarly, writing to the directory requires Write permission. Your application will automatically have this permission if it is configured to run with Full Trust. For more information about elevating permissions for your application by using either Permission Elevation or Trusted Application Deployment, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  
   
 > [!NOTE]
->  If your organization does not use Trusted Application Deployment and has turned off Permission Elevation, asserting permissions will fail.  
+> If your organization does not use Trusted Application Deployment and has turned off Permission Elevation, asserting permissions will fail.  
   
  After your application has these permissions, it can access the Data Directory by using method calls on classes within the <xref:System.IO>. You can obtain the path of the Data Directory within a Windows Forms [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application by using the <xref:System.Deployment.Application.ApplicationDeployment.DataDirectory%2A> property defined on the <xref:System.Deployment.Application.ApplicationDeployment.CurrentDeployment%2A> property of <xref:System.Deployment.Application.ApplicationDeployment>. This is the most convenient and recommended way to access your data. The following code example demonstrates how to do this for a text file named CSV.txt that you have included in your deployment as a data file.  
   
@@ -76,7 +71,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
   
  Isolated Storage works in all versions of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]. Isolated Storage also works in partially trusted applications without the need for additional permission grants. You should use Isolated Storage if your application must run in partial trust, but must maintain application-specific data.  
   
- For more information, see [Isolated Storage](http://msdn.microsoft.com/library/aff939d7-9e49-46f2-a8cd-938d3020e94e).  
+ For more information, see [Isolated Storage](https://msdn.microsoft.com/library/aff939d7-9e49-46f2-a8cd-938d3020e94e).  
   
 ### Other Local Files  
  If your application must work with or save end-user data such as reports, images, music, and so on, your application will require <xref:System.Security.Permissions.FileIOPermission> to read and write data to the local file system.  
@@ -85,7 +80,7 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
  At some point, your application will likely have to retrieve information from a remote Web site, such as customer data or market information. This section discusses the most common techniques for retrieving remote data.  
   
 ### Accessing Files by Using HTTP  
- You can access data from a Web server by using either the <xref:System.Net.WebClient> or the <xref:System.Net.HttpWebRequest> class in the <xref:System.Net> namespace. The data can be either static files or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications that return raw text or XML data. If your data is in XML format, the fastest way to retrieve the data is by using the <xref:System.Xml.XmlDocument> class, whose <xref:System.Xml.XmlDocument.Load%2A> method takes a URL as an argument. For an example, see [Reading an XML Document into the DOM](http://msdn.microsoft.com/library/a4fb291f-5630-49ba-a49a-5b66c3b71e49).  
+ You can access data from a Web server by using either the <xref:System.Net.WebClient> or the <xref:System.Net.HttpWebRequest> class in the <xref:System.Net> namespace. The data can be either static files or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] applications that return raw text or XML data. If your data is in XML format, the fastest way to retrieve the data is by using the <xref:System.Xml.XmlDocument> class, whose <xref:System.Xml.XmlDocument.Load%2A> method takes a URL as an argument. For an example, see [Reading an XML Document into the DOM](https://msdn.microsoft.com/library/a4fb291f-5630-49ba-a49a-5b66c3b71e49).  
   
  You have to consider security when your application accesses remote data over HTTP. By default, your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application's access to network resources may be restricted, depending on how your application was deployed. These restrictions are applied to prevent malicious programs from gaining access to privileged remote data or from using a user's computer to attack other computers on the network.  
   
@@ -111,6 +106,3 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../includes/nd
   
 ## See Also  
  [How to: Include a Data File in a ClickOnce Application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)
-
-
-

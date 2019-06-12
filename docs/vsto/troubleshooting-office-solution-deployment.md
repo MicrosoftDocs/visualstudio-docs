@@ -1,9 +1,6 @@
 ---
 title: "Troubleshoot Office solution deployment"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], troubleshooting"
   - "Office development in Visual Studio, troubleshooting"
   - "deploying applications [Office development in Visual Studio], troubleshooting"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -40,11 +37,11 @@ ms.workload:
 
 #### To set the time-out value
 
-1.  In the registry, navigate to the following key:
+1. In the registry, navigate to the following key:
 
      **HKEY_CURRENT_USER\Software\Microsoft\VSTA**
 
-2.  In the **AddInTimeout** subkey, set the time-out value in milliseconds.
+2. In the **AddInTimeout** subkey, set the time-out value in milliseconds.
 
      If the **AddInTimeout** subkey doesn't exist, create it as a DWORD.
 
@@ -115,7 +112,7 @@ ms.workload:
 ## Can't install a ClickOnce solution by opening the deployment manifest from the web
  Users can install Office solutions by opening the deployment manifest from the web. However, some installations of Internet Information Services (IIS) block the *.vsto* file name extension. You must define the MIME type in IIS before you use it to deploy an Office solution.
 
- For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](http://technet.microsoft.com/library/cc725608(WS.10).aspx).
+ For information about how to define the MIME type in IIS 7, see [Add a MIME Type (IIS7)](https://technet.microsoft.com/library/cc725608(WS.10).aspx).
 
  Set the extension to **.vsto** and the MIME type to **application/x-ms-vsto**.
 

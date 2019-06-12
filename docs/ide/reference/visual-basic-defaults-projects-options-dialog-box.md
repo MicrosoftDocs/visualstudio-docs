@@ -1,8 +1,6 @@
 ---
 title: Visual Basic Defaults, Projects, Options Dialog Box
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.VBDefaults"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

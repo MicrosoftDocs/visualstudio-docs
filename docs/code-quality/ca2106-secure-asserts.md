@@ -1,8 +1,6 @@
 ---
 title: "CA2106: Secure asserts"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2106"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 91feb36e-6e2c-436c-8272-5aee31f77e98
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

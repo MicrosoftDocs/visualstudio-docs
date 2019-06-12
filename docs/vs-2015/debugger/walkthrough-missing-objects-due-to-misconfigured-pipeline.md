@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Missing Objects Due to Misconfigured Pipeline | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: ed8ac02d-b38f-4055-82fb-67757c2ccbb9
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,13 +17,13 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
   
  This walkthrough illustrates these tasks:  
   
--   Using the **Graphics Event List** to locate potential sources of the problem.  
+- Using the **Graphics Event List** to locate potential sources of the problem.  
   
--   Using the **Graphics Pipeline Stages** window to examine the effect of the `DrawIndexed` Direct3D API call.  
+- Using the **Graphics Pipeline Stages** window to examine the effect of the `DrawIndexed` Direct3D API call.  
   
--   Inspecting the device context to confirm that a shader stage was not set.  
+- Inspecting the device context to confirm that a shader stage was not set.  
   
--   Using the **Graphics Pipeline Stages** window together with the **Graphics Event Call Stack** to help find the source of the unset pixel shader.  
+- Using the **Graphics Pipeline Stages** window together with the **Graphics Event Call Stack** to help find the source of the unset pixel shader.  
   
 ## Scenario  
  When an object is missing in a 3-D app, it's sometimes because one of the shader stages is not set before the object is rendered. In apps that have simple rendering needs, the source of this error is usually located somewhere in the call stack of the object's draw call. However, as an optimization, some apps batch together objects that have shader programs, textures, or other data in common to minimize state-change overhead. In these apps, the source of the error might be buried in the batching system, rather than located in the call stack of the draw call. The scenario in this walkthrough demonstrates an app that has simple rendering needs, and so the source of the error can be found in the call stack.  
@@ -63,7 +58,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
     In the **Graphics Pipeline Stages** window, the **Input Assembler** stage shows the object's geometry before it's transformed, and the **Vertex Shader** stage shows the same object after it's transformed. In this scenario, notice that the **Graphics Pipeline Stages** window shows the **Input Assembler** and  **Vertex Shader** stages, but not the **Pixel Shader** stage for one of the draw calls.  
   
    > [!NOTE]
-   >  If other pipeline stages—for example, the hull shader, domain shader, or geometry shader stages—process the object, any of them might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.  
+   > If other pipeline stages—for example, the hull shader, domain shader, or geometry shader stages—process the object, any of them might be the cause of the problem. Typically, the problem is related to the earliest stage in which the result is not displayed or is displayed in an unexpected way.  
   
 4. Stop when you reach the draw call that corresponds to the missing object. In this scenario, the **Graphics Pipeline Stages** window indicates that the geometry was issued to the GPU (indicated by the presence of the **Input Assembler** stage) and transformed (indicated by the **Vertex Shader** stage), but doesn't appear in the render target because there doesn't seem to be an active pixel shader (indicated by the absence of the **Pixel Shader** stage). In this scenario, you can even see the silhouette of the missing object in the **Output Merger** stage:  
   
@@ -86,7 +81,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
 1. Find the `PSSetShader` call that corresponds to the missing object. In the **Graphics Event List** window, enter "Draw;PSSetShader" in the **Search** box in the upper-right corner of the **Graphics Event List** window. This filters the list so that it only contains "PSSetShader" events, and events that have "Draw" in their titles. Choose the first `PSSetShader` call that appears before the draw call of the missing object.  
   
    > [!NOTE]
-   >  `PSSetShader` won't appear in the **Graphics Event List** window if it was not set during this frame. Usually this occurs only if just one pixel shader is used for all objects, or if the `PSSetShader` call was unintentionally skipped during this frame. In either case, we recommend that you search the app's source code for `PSSetShader` calls, and use traditional debugging techniques to examine the behavior of these calls.  
+   > `PSSetShader` won't appear in the **Graphics Event List** window if it was not set during this frame. Usually this occurs only if just one pixel shader is used for all objects, or if the `PSSetShader` call was unintentionally skipped during this frame. In either case, we recommend that you search the app's source code for `PSSetShader` calls, and use traditional debugging techniques to examine the behavior of these calls.  
   
 2. Open the **Graphics Event Call Stack** window. On the **Graphics Diagnostics** toolbar, choose **Graphics Event Call Stack**.  
   
@@ -95,7 +90,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
     ![The code that doesn't initialize the pixel shader](../debugger/media/gfx-diag-demo-misconfigured-pipeline-step-5.png "gfx_diag_demo_misconfigured_pipeline_step_5")  
   
    > [!NOTE]
-   >  If you can't locate the source of the null value just by examining the call stack, we recommend that you set a conditional breakpoint on the `PSSetShader` call, such that execution of the program breaks when the pixel shader will be set to null. Then restart the app in debug mode and use traditional debugging techniques to locate the source of the null value.  
+   > If you can't locate the source of the null value just by examining the call stack, we recommend that you set a conditional breakpoint on the `PSSetShader` call, such that execution of the program breaks when the pixel shader will be set to null. Then restart the app in debug mode and use traditional debugging techniques to locate the source of the null value.  
   
    To fix the problem, assign the correct pixel shader by using the first parameter of the `ID3D11DeviceContext::PSSetShader` API call.  
   
@@ -104,6 +99,3 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../includes/vsprv
    After you fix the code, you can rebuild it and run the app again to verify that the rendering issue is solved:  
   
    ![The object is now displayed](../debugger/media/gfx-diag-demo-misconfigured-pipeline-resolution.jpg "gfx_diag_demo_misconfigured_pipeline_resolution")
-
-
-

@@ -1,54 +1,152 @@
 ---
-title: "Tutorial: Get started with C# console apps"
+title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 12/12/2018
+ms.date: 03/23/2019
 ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
+ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
-manager: douge
+manager: jillfra
 dev_langs:
   - CSharp
 ms.workload:
   - "dotnet"
   - "dotnetcore"
 ---
-# Tutorial: Get started with a C# console app in Visual Studio
+# Tutorial: Create a simple C# console app in Visual Studio
 
-In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the [Visual Studio integrated development environment (IDE)](../visual-studio-ide.md) while you do so.
+In this tutorial for C#, you'll use Visual Studio to create and run a console app and explore some features of the Visual Studio integrated development environment (IDE) while you do so.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+
+::: moniker-end
 
 ## Create a project
 
 To start, we'll create a C# application project. The project type comes with all the template files you'll need, before you've even added anything!
 
+::: moniker range="vs-2017"
+
 1. Open Visual Studio 2017.
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
+   (Alternatively, press **Ctrl**+**Shift**+**N**).
 
-3. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *Calculator*.
+3. In the left pane of the **New Project** dialog box, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file ***Calculator***.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](./media/new-project-csharp-calculator-console-app.png)
 
-### Add a workgroup (optional)
+### Add a workload (optional)
 
-If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. To find out how to do this, see the "[What's a workload and how do I add one?](#workload)" section in the FAQ.
+If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. Here's how.
+
+#### Option 1: Use the New Project dialog box
+
+1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
+
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+
+#### Option 2: Use the Tools menu bar
+
+1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
+
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+1. On the start window, choose **Create a new project**.
+
+   ![View the 'Create a new project' window](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   ![Choose the C# template for the Console App (.NET Framework)](./media/vs-2019/csharp-create-new-project-search-console-net-core-filtered.png)
+
+   > [!NOTE]
+   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > ![The 'Install more tools and features' link from the 'Not finding what you're looking for' message in the 'Create new project' window](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
+   > 
+   > Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   >
+   > ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work; if so, do so. Next, choose **Continue** to install the workload. Then, return to step 2 in this "[Create a project](#create-a-project)" procedure.
+
+1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, choose **Create**.
+
+   ![in the 'Configure your new project' window, name your project 'Calculator'](./media/vs-2019/csharp-name-your-calculator-project.png)
+
+   Visual Studio opens your new project, which includes default "Hello World" code.
+   
+::: moniker-end
 
 ## Create the app
 
-First, we'll add code to create a basic calculator. Next, we'll tweak the code to add functionality. After that, we'll debug the app to find and fix errors. Finally, we'll refine the code to make it more efficient.
+First, we'll explore some basic integer math in C#. Then, we'll add code to create a basic calculator. After that, we'll debug the app to find and fix errors. And finally, we'll refine the code to make it more efficient.
 
-Let's start by adding the basic calculator code to your project.
+### Explore integer math
+
+Let's start with some basic integer math in C#.
 
 1. In the code editor, delete the default "Hello World" code.
 
     ![Delete the default Hello World code from your new calculator app](./media/csharp-console-calculator-deletehelloworld.png)
 
-   Specifically, delete all the code you see in the code editor.
+   Specifically, delete the line that says, `Console.WriteLine("Hello World!");`.
+
+1. In its place, type the following code:
+
+    ```csharp
+            int a = 42;
+            int b = 119;
+            int c = a + b;
+            Console.WriteLine(c);
+            Console.ReadKey();
+    ```
+
+    Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
+
+    ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
+
+1. Choose **Calculator** to run your program, or press **F5**.
+
+   ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
+
+   A console window opens that reveals the sum of 42 + 119, which is **161**.
+
+    ![Console window showing the results of integer math](./media/csharp-console-integer-math.png)
+
+1. **(Optional)** You can change the operator to change the result. For example, you can change the `+` operator in the `int c = a + b;` line of code to `-` for subtraction, `*` for multiplication, or `/` for division. Then, when you run the program, the result changes, too.
+
+1. Close the console window.
+
+### Add code to create a calculator
+
+Let's continue by adding a more complex set of calculator code to your project.
+
+1. Delete all the code you see in the code editor.
 
 1. Enter or paste the following new code into the code editor:
 
@@ -107,6 +205,7 @@ Let's start by adding the basic calculator code to your project.
         }
     }
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
@@ -119,9 +218,13 @@ Let's start by adding the basic calculator code to your project.
 
     ![Console window showing the Calculator app and includes prompts on which actions to take](./media/csharp-console-calculator.png)
 
+### Add functionality to the calculator
+
+Let's tweak the code to add further functionality.
+
 ### Add decimals
 
-The calculator app currently accepts and returns whole numbers. But, it'll be more precise if we add code that allows for decimals.
+The calculator app currently accepts and returns whole numbers. But, it will be more precise if we add code that allows for decimals.
 
 As in the following screenshot, if you run the app and divide number 42 by the number 119, your result is 0 (zero), which isn't exact.
 
@@ -129,9 +232,13 @@ As in the following screenshot, if you run the app and divide number 42 by the n
 
 Let's fix the code so that it handles decimals.
 
+1. Press **Ctrl** + **F** to open the **Find and Replace** control.
+
 1. Change each instance of the `int` variable to `float`.
 
-   (You can use the [Find and Replace](../../ide/finding-and-replacing-text.md#find-and-replace-control) control to help you with this task. To access the search control within the code editor, press **Crtl**+**F**. Then, choose the **Find Next** button or the **Find Previous** button on the search control. To access replacement options, choose the button next to the **Find** text box. To make one replacement at a time, choose the **Replace Next** button next to the **Replace** text box. To replace all matches, choose the **Replace All** button.)
+   Make sure that you toggle **Match case** (**Alt**+**C**) and **Match whole word** (**Alt**+**W**) in the **Find and Replace** control.
+
+    ![Animation of the Find and Replace control showing how to change the int variable to float](./media/find-replace-control-animation.gif)
 
 1. Run your calculator app again and divide the number **42** by the number **119**.
 
@@ -141,9 +248,7 @@ Let's fix the code so that it handles decimals.
 
 However, the app produces only a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
 
-1. Change each instance of the `float` variable to `double`.
-
-1. Change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
+1. Use the **Find and Replace** control (**Ctrl** + **F**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
 
 1. Run your calculator app and divide the number **42.5** by the number **119.75**.
 
@@ -155,11 +260,14 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 ## Debug the app
 
-We've improved on our basic calculator app, but it doesn't yet have failsafes in place to handle exceptions, such as user input errors.
+We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
 For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
 
-Let's walk through a few common user input errors, locate them in the [debugger](../../debugger/debugger-feature-tour.md), and fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger, and fix them in the code.
+
+>[!TIP]
+>For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
 
 ### Fix the "divide by zero" error
 
@@ -203,7 +311,7 @@ To fix this error, we must refactor the code that we've previously entered.
 
 #### Revise the code
 
-Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.  
+Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.
 
 The `calculator` class will handle the bulk of the calculation work, and the `program` class will handle the user interface and error-capturing work.
 
@@ -335,9 +443,10 @@ Let's get started.
         }
     }
     ```
+
 1. Choose **Calculator** to run your program, or press **F5**.
 
-1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following:
+1. Follow the prompts and divide the number **42** by the number **119**. Your app should look similar to the following screenshot:
 
     ![Console window showing the refactored Calculator app that includes prompts on which actions to take and error handling for incorrect inputs](./media/csharp-console-calculator-refactored.png)
 
@@ -357,7 +466,7 @@ Let's get started.
 
 ## Code complete
 
-During this tutortial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
+During this tutorial, we've made a lot of changes to the calculator app. The app now handles computing resources more efficiently, and it handles most user input errors.
 
 Here's the complete code, all in one place:
 
@@ -477,55 +586,14 @@ namespace Calculator
 
 ```
 
-## Quick answers FAQ
-
-Here's a quick FAQ to highlight some key concepts. The FAQ also includes answers to questions that might come up when you follow the procedures in the tutorial.
-
-### What is C#?
-
-C# is a type-safe programming language that runs on the .NET Framework and .NET Core. With C#, you can create Windows applications, client-server applications, database applications, XML Web services, distributed components, and more.
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
-
-### What is a console app?
-
-A console app takes input and displays output in a command-line window, a.k.a. a console.
-
-### What is .NET Core?
-
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source.
-
-(Both the .NET Framework and .NET Core include libraries of prebuilt functionality. They also include a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
-
-### <a id="workload"></a>What's a workload and how do I add one?
-
-A workload in Visual Studio represents a set of programming options and templates that you can use to customize your Visual Studio installation. A workload installs only the tools you need for the programming language and platform of your choice. Here's how to install them.
-
-#### Option 1: Use the New Project dialog box
-
-1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
-
-   ![Choose the Open Visual Studio Installer link from the New Project dialog box](./media/csharp-open-visual-studio-installer-generic-dark.png)
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](./media/dot-net-core-xplat-dev-workload.png)
-
-#### Option 2: Use the Tools menu bar
-
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
-
-1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
-
 ## Next steps
 
 Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
 
 > [!div class="nextstepaction"]
-> [C# Tutorials](/dotnet/csharp/tutorials/)
+> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
 
 ## See also
 
-* [C# Fundamentals for Absolute Beginners video course](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169)
+* [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+* [Learn to debug C# code in Visual Studio](tutorial-debugger.md)

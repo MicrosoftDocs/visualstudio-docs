@@ -1,19 +1,16 @@
 ---
 title: "Edit UML sequence diagrams by using the UML API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords: 
   - "UML activity diagrams, programming"
 ms.assetid: 8cdd0203-85ef-4c62-9abc-da4cb26fa504
 caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Edit UML sequence diagrams by using the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +69,7 @@ public class MySequenceDiagramCommand : ICommandExtension
  There are two kinds of sequence diagrams: those that are manually created in a UML modeling project, and those that were generated from program code. Use the `UmlMode` property to discover which sequence diagram you have.  
   
 > [!NOTE]
->  This property returns false only for sequence diagrams generated from code using Visual Studio 2013 and earlier. This includes code-generated sequence diagrams migrated from 2013 and earlier. This version of Visual Studio doesn't support generating new sequence diagrams.  
+> This property returns false only for sequence diagrams generated from code using Visual Studio 2013 and earlier. This includes code-generated sequence diagrams migrated from 2013 and earlier. This version of Visual Studio doesn't support generating new sequence diagrams.  
   
  For example, if you want to make a menu command that is only visible on UML sequence diagrams, then the `QueryStatus()` method could include the following statement:  
   
@@ -250,6 +247,3 @@ cf.CreateInteractionOperand(cf.Operands.Last(), true);
  [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md)   
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)   
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
-
-
-

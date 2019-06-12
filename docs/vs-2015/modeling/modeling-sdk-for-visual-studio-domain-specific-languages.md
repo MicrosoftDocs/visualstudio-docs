@@ -1,14 +1,9 @@
 ---
 title: "Modeling SDK - Domain-Specific Languages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language Tools"
   - "Domain-Specific Language"
@@ -16,7 +11,7 @@ ms.assetid: 17a531e2-1964-4a9d-84fd-6fb1b4aee662
 caps.latest.revision: 79
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

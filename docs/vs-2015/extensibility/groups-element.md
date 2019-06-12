@@ -1,21 +1,16 @@
 ---
 title: "Groups Element | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 helpviewer_keywords: 
   - "VSCT XML schema elements, Groups"
   - "Groups element (VSCT XML schema)"
 ms.assetid: 740ca4ec-79fa-4b98-8f9a-2a137f9f7f98
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Groups Element
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,4 +61,3 @@ Contains entries that define the command groups of a VSPackage.
 ## See Also  
  [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
-

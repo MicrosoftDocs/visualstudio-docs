@@ -1,9 +1,6 @@
 ---
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/22/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
@@ -21,9 +18,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packaging"
   - "SharePoint development in Visual Studio, troubleshooting"
   - "SharePoint development in Visual Studio, deployment conflict resolution"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -70,9 +67,9 @@ ms.workload:
 ### Resolution
  To work around this problem, perform the following steps:
 
-1.  Install update KB967535 as outlined in the Microsoft Support article [FIX: A hotfix is available to fix two problems in ASP.NET on IIS 7.0 for Windows Vista and Windows Server 2008](http://go.microsoft.com/fwlink/?LinkId=179055).
+1. Install update KB967535 as outlined in the Microsoft Support article [FIX: A hotfix is available to fix two problems in ASP.NET on IIS 7.0 for Windows Vista and Windows Server 2008](http://go.microsoft.com/fwlink/?LinkId=179055).
 
-2.  Add the following line to the Web.config file:
+2. Add the following line to the Web.config file:
 
     ```xml
     <compilation batch="false" optimizeCompilations="true">

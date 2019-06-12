@@ -1,14 +1,9 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "System.ServiceModel.Security.MessageSecurityException exception"
   - "MessageSecurityException exception"
@@ -16,16 +11,16 @@ ms.assetid: 61ad69a1-ac50-49de-9a7c-8454a84ec5bd
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException
 A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thrown when [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] determines that a message is not correctly secured or has been tampered with. The error occurs most frequently when the following conditions are all true:  
   
--   You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
+- You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
   
--   You do not have Administrator permissions on the remote site.  
+- You do not have Administrator permissions on the remote site.  
   
--   Requests to localhost on the remote site are being handled by the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server.  
+- Requests to localhost on the remote site are being handled by the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server.  
   
 ## Associated Tips  
  **Resolve NTLM authentication problems when using the ASP.Net Development Server.**  
@@ -34,7 +29,7 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
  If a remote user might run the Web site by using the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server and also work with a Web service or WCF service, you can either create a custom service binding or turn off NTLM security.  
   
 > [!IMPORTANT]
->  Turning off NTLM security is not recommended and could constitute a security threat.  
+> Turning off NTLM security is not recommended and could constitute a security threat.  
   
  If you create a custom service binding, you are still protected by NTLM authentication.  
   
@@ -73,16 +68,16 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thro
    You can follow these steps to disable NTLM security when you are working with a WCF service reference.  
   
 > [!IMPORTANT]
->  Turning off NTLM security is not recommended and could constitute a security threat.  
+> Turning off NTLM security is not recommended and could constitute a security threat.  
   
 #### To turn off NTLM security  
   
-1.  In **Solution Explorer**, right-click the Web site name, and then click **Property Pages**.  
+1. In **Solution Explorer**, right-click the Web site name, and then click **Property Pages**.  
   
-2.  Select **Start Options**, and then clear the **NTLM Authentication** check box.  
+2. Select **Start Options**, and then clear the **NTLM Authentication** check box.  
   
-3.  Click **OK**.  
+3. Click **OK**.  
   
 ## See Also  
  <xref:System.ServiceModel.Security.MessageSecurityException>   
- [Use the Exception Assistant](http://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)
+ [Use the Exception Assistant](https://msdn.microsoft.com/library/e0a78c50-7318-4d54-af51-40c00aea8711)

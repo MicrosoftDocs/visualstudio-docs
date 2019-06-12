@@ -1,14 +1,9 @@
 ---
 title: "Walkthrough: Creating a Custom Installer for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -23,7 +18,7 @@ ms.assetid: fb222cc5-8aeb-4b94-8c49-b93e342f5f69
 caps.latest.revision: 36
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Walkthrough: Creating a Custom Installer for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,11 +29,11 @@ Any ClickOnce application based on an .exe file can be silently installed and up
   
 ### To create a custom ClickOnce application installer  
   
-1.  In your ClickOnce application, add references to System.Deployment and System.Windows.Forms.  
+1. In your ClickOnce application, add references to System.Deployment and System.Windows.Forms.  
   
-2.  Add a new class to your application and specify any name. This walkthrough uses the name `MyInstaller`.  
+2. Add a new class to your application and specify any name. This walkthrough uses the name `MyInstaller`.  
   
-3.  Add the following `Imports` or `using` statements to the top of your new class.  
+3. Add the following `Imports` or `using` statements to the top of your new class.  
   
     ```vb  
     Imports System.Deployment.Application  
@@ -50,17 +45,17 @@ Any ClickOnce application based on an .exe file can be silently installed and up
     using System.Windows.Forms;  
     ```  
   
-4.  Add the following methods to your class.  
+4. Add the following methods to your class.  
   
      These methods call <xref:System.Deployment.Application.InPlaceHostingManager> methods to download the deployment manifest, assert appropriate permissions, ask the user for permission to install, and then download and install the application into the ClickOnce cache. A custom installer can specify that a ClickOnce application is pre-trusted, or can defer the trust decision to the <xref:System.Deployment.Application.InPlaceHostingManager.AssertApplicationRequirements%2A> method call. This code pre-trusts the application.  
   
     > [!NOTE]
-    >  Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.  
+    > Permissions assigned by pre-trusting cannot exceed the permissions of the custom installer code.  
   
      [!code-csharp[System.Deployment.Application.InPlaceHostingManager#1](../snippets/csharp/VS_Snippets_Winforms/System.Deployment.Application.InPlaceHostingManager/CS/Form1.cs#1)]
      [!code-vb[System.Deployment.Application.InPlaceHostingManager#1](../snippets/visualbasic/VS_Snippets_Winforms/System.Deployment.Application.InPlaceHostingManager/VB/Form1.vb#1)]  
   
-5.  To attempt installation from your code, call the `InstallApplication` method. For example, if you named your class `MyInstaller`, you might call `InstallApplication` in the following way.  
+5. To attempt installation from your code, call the `InstallApplication` method. For example, if you named your class `MyInstaller`, you might call `InstallApplication` in the following way.  
   
     ```vb  
     Dim installer As New MyInstaller()  
@@ -80,6 +75,3 @@ Any ClickOnce application based on an .exe file can be silently installed and up
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<entryPoint> Element](../deployment/entrypoint-element-clickonce-application.md)
-
-
-

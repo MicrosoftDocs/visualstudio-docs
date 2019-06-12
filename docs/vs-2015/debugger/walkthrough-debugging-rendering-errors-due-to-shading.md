@@ -1,19 +1,14 @@
 ---
 title: "Walkthrough: Debugging Rendering Errors Due to Shading | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 01875b05-cc7b-4add-afba-f2b776f86974
 caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Walkthrough: Debugging Rendering Errors Due to Shading
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,11 +17,11 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../includes/vsprvs-md
   
  This walkthrough demonstrates how to:  
   
--   Examine the graphics log document to identify pixels that show the problem.  
+- Examine the graphics log document to identify pixels that show the problem.  
   
--   Use the **Graphics Pixel History** window to examine the pixel state more closely.  
+- Use the **Graphics Pixel History** window to examine the pixel state more closely.  
   
--   Use the **HLSL Debugger** to examine the pixel and vertex shaders.  
+- Use the **HLSL Debugger** to examine the pixel and vertex shaders.  
   
 ## Scenario  
  Incorrect coloring on objects commonly occurs when a vertex shader passes a pixel shader incorrect or incomplete information.  
@@ -107,6 +102,3 @@ output.color = input.color;
  After you fix the code, rebuild it and run the app again to discover that the rendering issue is solved.  
   
  ![The object is rendered with the correct colors.](../debugger/media/gfx-diag-demo-render-error-shader-resolution.png "gfx_diag_demo_render_error_shader_resolution")
-
-
-

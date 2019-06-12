@@ -1,14 +1,9 @@
 ---
 title: "How to: Configure Projects to Target Multiple Platforms | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio], targeting platforms"
   - "platforms, changing target platforms"
@@ -16,7 +11,7 @@ ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Configure Projects to Target Multiple Platforms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,31 +23,31 @@ manager: "ghogen"
   
 #### To set your configuration to target a different platform  
   
-1.  On the **Build** menu, click **Configuration Manager**.  
+1. On the **Build** menu, click **Configuration Manager**.  
   
-2.  In the **Active solution platform box**, select the platform you want your solution to target, or select **\<New>** to create a new platform. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will compile your application to target the platform that is set as the active platform in the **Configuration Manager** dialog box.  
+2. In the **Active solution platform box**, select the platform you want your solution to target, or select **\<New>** to create a new platform. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will compile your application to target the platform that is set as the active platform in the **Configuration Manager** dialog box.  
   
 ## Removing a Platform  
  If you realize that you have no need for a platform, you can remove it using the Configuration Manager dialog box. This will remove all solution and project settings that you configured for that combination of configuration and target.  
   
 #### To remove a platform  
   
-1.  On the **Build** menu, click **Configuration Manager**.  
+1. On the **Build** menu, click **Configuration Manager**.  
   
-2.  In the **Active solution platform box**, select **\<Edit>**. The **Edit Solution Platforms** dialog box opens.  
+2. In the **Active solution platform box**, select **\<Edit>**. The **Edit Solution Platforms** dialog box opens.  
   
-3.  Click the platform you want to remove, and click **Remove**.  
+3. Click the platform you want to remove, and click **Remove**.  
   
 ## Targeting Multiple Platforms with One Solution  
  Because you can change the settings based on the combination of configuration and platform settings, you can set up a solution that can target more than one platform.  
   
 #### To target multiple platforms  
   
-1.  Use the **Configuration Manager** to add at least two target platforms for the solution.  
+1. Use the **Configuration Manager** to add at least two target platforms for the solution.  
   
-2.  Select the platform you want to target from the **Active solution platform** list.  
+2. Select the platform you want to target from the **Active solution platform** list.  
   
-3.  Build the solution.  
+3. Build the solution.  
   
 #### To build multiple solution configurations at once  
   
@@ -66,6 +61,3 @@ manager: "ghogen"
  [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
-
-
-

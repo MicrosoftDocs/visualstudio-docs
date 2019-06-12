@@ -1,12 +1,9 @@
 ---
 title: "Add code to datasets in n-tier applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-data-tools
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,12 +13,12 @@ ms.assetid: d43c2ccd-4902-43d8-b1a8-d10ca5d3210c
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Add code to datasets in n-tier applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can extend the functionality of a dataset by creating a partial class file for the dataset and adding code to it (instead of adding code to the *DatasetName*.Dataset.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) or [Partial Classes and Methods](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1).
+You can extend the functionality of a dataset by creating a partial class file for the dataset and adding code to it (instead of adding code to the *DatasetName*.Dataset.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](https://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) or [Partial Classes and Methods](https://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1).
 
 The code that defines a dataset is generated every time changes are made to the dataset definition. This code is also generated when you make changes during the running of any wizard that modifies the configuration of a dataset. To prevent your code from being deleted during the regeneration of a dataset, add code to the dataset's partial class file.
 
@@ -35,15 +32,15 @@ By default, after you separate the dataset and `TableAdapter` code, the result i
 
 ## Add code to datasets in n-tier applications
 
-1.  Locate the project that contains the .xsd file (the dataset).
+1. Locate the project that contains the .xsd file (the dataset).
 
-2.  Select the **.xsd** file to open the dataset.
+2. Select the **.xsd** file to open the dataset.
 
-3.  Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
+3. Right-click the data table to which you want to add code (the table name in the title bar), and then select **View Code**.
 
      A partial class is created and opens in the Code Editor.
 
-4.  Add code inside the partial class declaration.
+4. Add code inside the partial class declaration.
 
      The following example shows where to add code to the CustomersDataTable in the NorthwindDataSet:
 
@@ -66,7 +63,7 @@ By default, after you separate the dataset and `TableAdapter` code, the result i
 
 - [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)
 - [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)
-- [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)
-- [TableAdapterManager Overview](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)
-- [Hierarchical Update Overview](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)
+- [TableAdapters](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)
+- [TableAdapterManager Overview](https://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)
+- [Hierarchical Update Overview](https://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

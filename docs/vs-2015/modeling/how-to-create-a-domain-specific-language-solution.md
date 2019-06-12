@@ -1,12 +1,9 @@
 ---
 title: "How to: Create a Domain-Specific Language Solution | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.designerwizard"
 helpviewer_keywords: 
@@ -17,7 +14,7 @@ ms.assetid: e585b63b-34d2-405a-8d81-39ea22317975
 caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # How to: Create a Domain-Specific Language Solution
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +49,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
        The **Domain-Specific Language Designer Wizard** appears.  
   
       > [!NOTE]
-      >  Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.  
+      > Preferably, the name that you type should be a valid Visual C# identifier, because it might be used to generate code.  
   
       ![Create DSL dialog](../modeling/media/create-dsldialog.png "Create_DSLDialog")  
   
@@ -64,18 +61,18 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
 3. Enter a filename extension on the **File Extension** page. It should be unique in your computer, and in any computers on which you want to install the DSL. You should see the message **No applications or Visual Studio editors use this extension**.  
   
-   -   If you have used the file name extension in previous experimental DSLs that have not been fully installed, you can clear them out by using the **Reset the Experimental Instance** tool, which can be found in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK menu.  
+   - If you have used the file name extension in previous experimental DSLs that have not been fully installed, you can clear them out by using the **Reset the Experimental Instance** tool, which can be found in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] SDK menu.  
   
-   -   If another [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, consider uninstalling it. On the **Tools** menu, click **Extension Manager**.  
+   - If another [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, consider uninstalling it. On the **Tools** menu, click **Extension Manager**.  
   
 4. Inspect, and if necessary adjust, the fields in the remaining pages of the wizard. When you are satisfied with the settings, click **Finish**. For more information about the settings, see [DSL Designer Wizard Pages](#settings).  
   
     The wizard creates a solution that has two projects, which are named **Dsl** and **DslPackage**.  
   
    > [!NOTE]
-   >  If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
+   > If you see a message that alerts you not to run text templates from untrusted sources, click **OK**. You can set this message not to appear again.  
   
-##  <a name="settings"></a> The DSL Designer Wizard Pages  
+## <a name="settings"></a> The DSL Designer Wizard Pages  
  You can leave several of the fields unchanged from their default values. However, make sure that you set the File Extension field.  
   
 ### Solution Settings page  
@@ -95,15 +92,15 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
  If you see a list of tools or packages, you should do one of the following:  
   
--   Type a different file extension.  
+- Type a different file extension.  
   
      \- or -  
   
--   Reset the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Experimental Instance. This will unregister all of the DSLs that you have previously built. On the **Start** menu, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**. You can rebuild any other DSLs that you want to use again.  
+- Reset the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Experimental Instance. This will unregister all of the DSLs that you have previously built. On the **Start** menu, click **All Programs**, **Microsoft Visual Studio 2010 SDK**, **Tools**, and then **Reset the Microsoft Visual Studio 2010 Experimental instance**. You can rebuild any other DSLs that you want to use again.  
   
      \- or -  
   
--   If a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, uninstall it. On the **Tools** menu, click **Extension Manager**.  
+- If a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension that uses this file extension has been fully installed on your computer, uninstall it. On the **Tools** menu, click **Extension Manager**.  
   
 ### Product Settings page  
  **What is the name of the product that the new domain-specific language belongs to?**  
@@ -130,7 +127,4 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)
-
-
-
+ [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

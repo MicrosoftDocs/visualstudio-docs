@@ -1,14 +1,9 @@
 ---
 title: "Server and Client Configuration Issues in ClickOnce Deployments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +17,7 @@ ms.assetid: 929e5fcc-dd56-409c-bb57-00bd9549b20b
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Server and Client Configuration Issues in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +36,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
 - .deploy  
   
-  However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](http://msdn.microsoft.com/en-us/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
+  However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](https://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
   
   You will have to configure .manifest, .application, and .deploy, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], or if you are using another Web server (for example, Apache).  
   
@@ -53,13 +48,13 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
  You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see http://go.microsoft.com/fwlink/?LinkId=158730.  
   
- For more information, see [\<defaultProxy> Element (Network Settings)](http://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f).  
+ For more information, see [\<defaultProxy> Element (Network Settings)](https://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f).  
   
 ## ClickOnce and Web Browser Compatibility  
  Currently, [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] installations will launch only if the URL to the deployment manifest is opened using Internet Explorer. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.  
   
 > [!NOTE]
->  Mozilla Firefox is supported if the deployment provider is not blank or the Microsoft .NET Framework Assistant extension is installed. This extension is packaged with .NET Framework 3.5 SP1. For XBAP support, the NPWPF plug-in is activated when needed.  
+> Mozilla Firefox is supported if the deployment provider is not blank or the Microsoft .NET Framework Assistant extension is installed. This extension is packaged with .NET Framework 3.5 SP1. For XBAP support, the NPWPF plug-in is activated when needed.  
   
 ## Activating ClickOnce Applications Through Browser Scripting  
  If you have developed a custom Web page that launches a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application using Active Scripting, you may find that the application will not launch on some machines. Internet Explorer contains a setting called **Automatic prompting for file downloads**, which affects this behavior. This setting is available on the **Security** Tab in its **Options** menu that affects this behavior. It is called **Automatic prompting for file downloads**, and it is listed underneath the **Downloads** category. The property is set to **Enable** by default for intranet Web pages, and to **Disable** by default for Internet Web pages. When this setting is set to **Disable**, any attempt to activate a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application programmatically (for example, by assigning its URL to the `document.location` property) will be blocked. Under this circumstance, users can launch applications only through a user-initiated download, for example, by clicking a hyperlink set to the application's URL.  
@@ -77,7 +72,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ```  
   
 > [!NOTE]
->  You can make NTLM (NT challenge-response) authentication work if the site prompts for credentials other than your default credentials, and, in the security dialog box, you click **OK** when you are prompted if you want to save the supplied credentials for future sessions. However, this workaround will not work for basic authentication.  
+> You can make NTLM (NT challenge-response) authentication work if the site prompts for credentials other than your default credentials, and, in the security dialog box, you click **OK** when you are prompted if you want to save the supplied credentials for future sessions. However, this workaround will not work for basic authentication.  
   
 ## Using Third-Party Web Servers  
  If you are deploying a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application from a Web server other than IIS, you may experience a problem if the server is returning the incorrect content type for key [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] files, such as the deployment manifest and application manifest. To resolve this problem, see your Web server's Help documentation about how to add new content types to the server, and make sure that all the file name extension mappings listed in the following table are in place.  
@@ -91,7 +86,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 |`.msp`|`application/octet-stream`|  
   
 ## ClickOnce and Mapped Drives  
- If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14).  
+ If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14).  
   
 ## FTP Protocol Not Supported for Installing Applications  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:  
@@ -138,6 +133,3 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)   
  [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md)
-
-
-

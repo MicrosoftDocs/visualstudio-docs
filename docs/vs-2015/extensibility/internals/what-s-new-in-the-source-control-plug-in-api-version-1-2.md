@@ -1,21 +1,16 @@
 ---
 title: "What&#39;s New in the Source Control Plug-in API Version 1.2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "source control plug-ins, what's new in API v1.2"
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7c5fa471-456e-4f95-8309-5750ec4e5e85
 caps.latest.revision: 15
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # What&#39;s New in the Source Control Plug-in API Version 1.2
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,4 +35,3 @@ This section highlights the advanced source code control functionality in the So
   
 ## See Also  
  [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
-

@@ -1,21 +1,16 @@
 ---
 title: "IDiaSymbol::get_isAcceleratorGroupSharedLocal | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 ms.assetid: 17a20542-5b45-478f-bb80-0d56031aadb5
 caps.latest.revision: 6
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_isAcceleratorGroupSharedLocal
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,6 +35,3 @@ HRESULT get_isAcceleratorGroupSharedLocal(
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_baseDataSlot](../../debugger/debug-interface-access/idiasymbol-get-basedataslot.md)   
  [IDiaSymbol::get_baseDataOffset](../../debugger/debug-interface-access/idiasymbol-get-basedataoffset.md)
-
-
-

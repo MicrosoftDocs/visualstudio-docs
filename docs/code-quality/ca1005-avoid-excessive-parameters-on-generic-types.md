@@ -1,8 +1,6 @@
 ---
 title: "CA1005: Avoid excessive parameters on generic types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AvoidExcessiveParametersOnGenericTypes"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 372b2f28-5c59-4815-9753-6c65b2bb3589
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

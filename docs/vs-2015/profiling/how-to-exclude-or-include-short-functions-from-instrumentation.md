@@ -1,14 +1,9 @@
 ---
 title: "How to: Exclude or Include Short Functions from Instrumentation | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "profiling tools, instrument events"
   - "profiling tools, include short functions"
@@ -17,7 +12,7 @@ ms.assetid: eaeead79-aafe-4490-86ff-6ed4cad9c15f
 caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Exclude or Include Short Functions from Instrumentation
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,23 +21,20 @@ By default, the Profiling tools exclude *small functions* from instrumentation. 
   
 ### To exclude or include short functions from instrumentation  
   
-1.  In **Performance Explorer**, select **Performance Session** and then right-click and select **Properties**.  
+1. In **Performance Explorer**, select **Performance Session** and then right-click and select **Properties**.  
   
      The **Property Pages** dialog box is displayed.  
   
-2.  In the **Property Pages**, click the **Instrumentation** properties.  
+2. In the **Property Pages**, click the **Instrumentation** properties.  
   
-3.  To exclude short functions from instrumentation, select **Exclude short functions from Instrumentation**. This is the default setting.  
+3. To exclude short functions from instrumentation, select **Exclude short functions from Instrumentation**. This is the default setting.  
   
      -or-  
   
      To include short functions in instrumentation, clear **Exclude short functions from Instrumentation**.  
   
-4.  Click **OK**.  
+4. Click **OK**.  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [Performance Session Properties](../profiling/performance-session-properties.md)
-
-
-

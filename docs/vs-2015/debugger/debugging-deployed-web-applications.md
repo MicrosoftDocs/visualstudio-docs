@@ -1,14 +1,9 @@
 ---
 title: "Debugging Deployed Web Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -25,7 +20,7 @@ ms.assetid: b938a91b-be96-416f-83bc-4177e7f3929a
 caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debugging Deployed Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +30,7 @@ If you need to debug a Web application that is running on a production server, t
  To use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to debug a deployed application, you must attach to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process and make sure that the debugger has access to symbols for the application. You must also locate and open the source files for the application. For more information, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md), and [System Requirements](../debugger/aspnet-debugging-system-requirements.md).  
   
 > [!NOTE]
->  Many [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications reference DLLs that contain business logic or other useful code. Such a reference automatically copies the DLL from your local computer to the \bin folder of the Web application's virtual directory. When you are debugging, remember that your Web application is referencing that copy of the DLL and not the copy on your local computer.  
+> Many [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web applications reference DLLs that contain business logic or other useful code. Such a reference automatically copies the DLL from your local computer to the \bin folder of the Web application's virtual directory. When you are debugging, remember that your Web application is referencing that copy of the DLL and not the copy on your local computer.  
   
  The process for attaching to the [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] worker process is the same as attaching to any other remote process. When you are attached, if you do not have the correct project open, a dialog box appears when the application breaks. This dialog box asks for the location of the source files for the application. The file name that you specify in the dialog box must match the file name specified in the debug symbols on the Web server. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
@@ -45,6 +40,3 @@ If you need to debug a Web application that is running on a production server, t
  [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)   
  [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md)   
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
-
-
-

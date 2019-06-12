@@ -2,18 +2,16 @@
 title: File nesting rules for Solution Explorer
 ms.date: 05/25/2018
 ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 helpviewer_keywords:
  - "file nesting"
  - "Solution Explorer, file nesting"
 author: angelosp
 ms.author: angelpe
-manager: douge
+manager: jillfra
 ---
-# Customize file nesting in Solution Explorer
+# File nesting in Solution Explorer
 
-Nesting of related files in **Solution Explorer** is not new, but until now you had no control over the nesting rules. You can choose between the presets **Off**, **Default** and **Web**, but you can also customize the nesting exactly to your liking. You can even create solution-specific and project-specific settings, but more on all of that later. First let’s go over what you get out-of-the-box.
+**Solution Explorer** nests related files to help organize them and make them easier to locate. For example, if you add a Windows Forms form to a project, the code file for the form is nested below the form in **Solution Explorer**. In ASP.NET Core projects, file nesting can be taken a step further. You can choose between the file nesting presets **Off**, **Default**, and **Web**. You can also [customize how files are nested](#customize-file-nesting) or [create solution-specific and project-specific settings](#create-project-specific-settings).
 
 > [!NOTE]
 > The feature is currently only supported for ASP.NET Core projects.
@@ -124,9 +122,9 @@ You can manage all settings, including your own custom settings, through the sam
 
 ![Activate custom file nesting rules](media/filenesting_activatecustom.png)
 
-## Create solution-specific and project-specific settings
+## Create project-specific settings
 
-You can create solution-specific and project-specific settings through the context menu of each solution and project:
+You can create solution-specific and project-specific settings through the right-click menu (context menu) of each solution and project:
 
 ![Solution and project-specific nesting rules](media/filenesting_solutionprojectspecific.png)
 
@@ -138,7 +136,7 @@ You can do the opposite and tell Visual Studio to *only* use the solution-specif
 
 Solution-specific and project-specific settings can be checked into source control, and the entire team that works on the codebase can share them.
 
-## Disable global file nesting rules for a particular solution or project
+## Disable file nesting rules for a project
 
 You can disable existing global file nesting rules for specific solutions or projects by using the **remove** action for a provider instead of **add**. For example, if you add the following settings code to a project, all **pathSegment** rules that may exist globally for this specific project are disabled:
 
@@ -153,3 +151,4 @@ You can disable existing global file nesting rules for specific solutions or pro
 ## See also
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
+- [Solutions and projects in Visual Studio](solutions-and-projects-in-visual-studio.md)

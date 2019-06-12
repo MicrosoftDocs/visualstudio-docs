@@ -1,20 +1,15 @@
 ---
 title: "Managed Extensibility Framework in the Editor | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - using MEF for extensions"
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Managed Extensibility Framework in the Editor
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ The editor is built by using Managed Extensibility Framework (MEF) components. Y
   
  The MEF is contained in the .NET Framework version 4 System.ComponentModel.Composition.dll assembly.  
   
- For more information about MEF, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
+ For more information about MEF, see [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 ### Component Parts and Composition Containers  
  A component part is a class or a member of a class that can do one (or both) of the following:  
@@ -83,26 +78,25 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
   
 #### To consume editor functionality from a MEF component part  
   
-1.  Add references to System.Composition.ComponentModel.dll, which is in the global assembly cache (GAC), and to the editor assemblies.  
+1. Add references to System.Composition.ComponentModel.dll, which is in the global assembly cache (GAC), and to the editor assemblies.  
   
-2.  Add the relevant using statements.  
+2. Add the relevant using statements.  
   
     ```  
     using System.ComponentModel.Composition;  
     using Microsoft.VisualStudio.Text;  
     ```  
   
-3.  Add the `[Import]` attribute to your service interface, as follows.  
+3. Add the `[Import]` attribute to your service interface, as follows.  
   
     ```  
     [Import]  
     ITextBufferFactoryService textBufferService;  
     ```  
   
-4.  When you have obtained the service, you can consume any one of its components.  
+4. When you have obtained the service, you can consume any one of its components.  
   
-5.  When you have compiled your assembly, put it in the ..\Common7\IDE\Components\ folder of your Visual Studio installation.  
+5. When you have compiled your assembly, put it in the ..\Common7\IDE\Components\ folder of your Visual Studio installation.  
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)
-

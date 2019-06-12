@@ -1,14 +1,9 @@
 ---
 title: "Parameter Info in a Legacy Language Service2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "IntelliSense, Parameter Info tool tip"
   - "language services [managed package framework], IntelliSense Parameter Info"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
 caps.latest.revision: 24
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Parameter Info in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ IntelliSense Parameter Info is a tooltip that displays the signature of a method
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Extending the Editor and Language Services](../../extensibility/extending-the-editor-and-language-services.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
 ## Implementation  
  The parser should set the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> is set when it finds a parameter list start character (often an open parenthesis). It should set a <xref:Microsoft.VisualStudio.Package.TokenTriggers> trigger when it finds a parameter separator (often a comma). This causes a Parameter Info tooltip to be updated and show the next parameter in bold. The parser should set the trigger value <xref:Microsoft.VisualStudio.Package.TokenTriggers> when if finds the parameter list end character (often a close parenthesis).  
@@ -36,7 +31,7 @@ IntelliSense Parameter Info is a tooltip that displays the signature of a method
  The <xref:Microsoft.VisualStudio.Package.TokenTriggers> trigger value initiates a call to the <xref:Microsoft.VisualStudio.Package.Source.MethodTip%2A> method, which in turn calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method parser with a parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>. If the parser determines that the identifier before the parameter list start character is a recognized method name, it returns a list of matching method signatures in the <xref:Microsoft.VisualStudio.Package.AuthoringScope> object. If any method signatures were found, the Parameter Info tooltip is displayed with the first signature in the list. This tooltip is then updated as more of the signature is typed. When the parameter list end character is typed, the Parameter Info tooltip is removed from view.  
   
 > [!NOTE]
->  To ensure that the Parameter Info tooltip is properly formatted, you must override the properties on the <xref:Microsoft.VisualStudio.Package.Methods> class to supply the appropriate characters. The base <xref:Microsoft.VisualStudio.Package.Methods> class assumes a C#-style method signature. See the <xref:Microsoft.VisualStudio.Package.Methods> class for details on how this can be done.  
+> To ensure that the Parameter Info tooltip is properly formatted, you must override the properties on the <xref:Microsoft.VisualStudio.Package.Methods> class to supply the appropriate characters. The base <xref:Microsoft.VisualStudio.Package.Methods> class assumes a C#-style method signature. See the <xref:Microsoft.VisualStudio.Package.Methods> class for details on how this can be done.  
   
 ## Enabling Support for the Parameter Info  
  To support Parameter Info tooltips, you must set the `ShowCompletion` named parameter of the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> to `true`. The language service reads the value of this registry entry from the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableCodeSense%2A> property.  
@@ -112,11 +107,10 @@ testfunc("a string",3);
   
  The steps that the parser takes are outlined below:  
   
-1.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartName%2A> with the text "testfunc".  
+1. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartName%2A> with the text "testfunc".  
   
-2.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartParameters%2A>.  
+2. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.StartParameters%2A>.  
   
-3.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>.  
+3. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.NextParameter%2A>.  
   
-4.  The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>.
-
+4. The parser calls <xref:Microsoft.VisualStudio.Package.AuthoringSink.EndParameters%2A>.

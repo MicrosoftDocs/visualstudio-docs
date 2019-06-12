@@ -6,11 +6,9 @@ helpviewer_keywords:
   - "Domain-Specific Language, overriding event handlers"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Domain property value change handlers
 
@@ -48,15 +46,15 @@ public partial class Comment
 
 Notice the following points about property handlers:
 
--   The property handler methods are called both when the user makes changes to a domain property, and when program code assigns a different value to the property.
+- The property handler methods are called both when the user makes changes to a domain property, and when program code assigns a different value to the property.
 
--   The methods are called only when the value actually changes. The handler is not invoked if program code assigns a value that is equal to the current value.
+- The methods are called only when the value actually changes. The handler is not invoked if program code assigns a value that is equal to the current value.
 
--   Calculated and custom storage domain properties do not have OnValueChanged and OnValueChanging methods.
+- Calculated and custom storage domain properties do not have OnValueChanged and OnValueChanging methods.
 
--   You cannot use a change handler to modify the new value. If you want to do that, for example to restrict the value to a particular range, define a `ChangeRule`.
+- You cannot use a change handler to modify the new value. If you want to do that, for example to restrict the value to a particular range, define a `ChangeRule`.
 
--   You cannot add a change handler to a property that represents a role of a relationship. Instead, define an `AddRule` and a `DeleteRule` on the relationship class. These rules are triggered when the links are created or changed. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).
+- You cannot add a change handler to a property that represents a role of a relationship. Instead, define an `AddRule` and a `DeleteRule` on the relationship class. These rules are triggered when the links are created or changed. For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).
 
 ### Changes in and out of the store
 

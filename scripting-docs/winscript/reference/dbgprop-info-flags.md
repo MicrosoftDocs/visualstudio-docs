@@ -2,7 +2,6 @@
 title: "DBGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,7 +25,7 @@ Used to specify `DebugPropertyInfo` fields
   
 ## Syntax  
   
-```  
+```cpp
 enum {  
    DBGPROP_INFO_NAME  =0x001,  
    DBGPROP_INFO_TYPE  =0x002,  

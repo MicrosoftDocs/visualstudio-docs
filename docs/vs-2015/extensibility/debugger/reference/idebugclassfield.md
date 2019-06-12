@@ -1,14 +1,9 @@
 ---
 title: "IDebugClassField | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugClassField"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 49358cbc-8973-4862-9dcc-79b1248e6712
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugClassField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ IDebugClassField : IDebugContainerField
  A symbol provider implements this interface on the same object that implements the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface. This interface is a specialization that represents a class type.  
   
 ## Notes for Callers  
- A number of interfaces have methods that can return this interface including [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md), [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), and [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md). Also, you can use [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to obtain this interface from the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface if the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method returns the flag `FIELD_TYPE_CLASS`.  
+ A number of interfaces have methods that can return this interface including [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md), [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), and [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md). Also, you can use [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to obtain this interface from the [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interface if the [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) method returns the flag `FIELD_TYPE_CLASS`.  
   
 ## Methods in Vtable Order  
  In addition to the methods on the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) and [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) interfaces, this interface implements the following:  
@@ -59,4 +54,3 @@ IDebugClassField : IDebugContainerField
 ## See Also  
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)
-

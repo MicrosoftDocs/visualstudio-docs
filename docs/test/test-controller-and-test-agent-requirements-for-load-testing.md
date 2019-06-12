@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Test controller and test agent requirements for load testing
 

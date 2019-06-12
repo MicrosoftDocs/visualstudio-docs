@@ -9,9 +9,7 @@ helpviewer_keywords:
 ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -21,10 +19,9 @@ When you use a conceptual model to describe the data in a database, you can quer
 
  You can use conceptual models with WCF Data Services applications. The following topics show how to query data through a conceptual model.
 
-
 | Topic | Description |
 | - | - |
-| [How to: Execute Data Service queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services) | Shows how to query a data service from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] application. |
+| [How to: Execute Data Service queries](/dotnet/framework/data/wcf/how-to-execute-data-service-queries-wcf-data-services) | Shows how to query a data service from a .NET application. |
 | [How to: Project query results](/dotnet/framework/data/wcf/how-to-project-query-results-wcf-data-services) | Shows how to reduce the amount of data returned through a data service query. |
 
  When you use a conceptual model, you can define what kind of data is valid in the language that matches your domain. You can define valid data in the model, or you can add validation to operations that you perform on an entity or data service.

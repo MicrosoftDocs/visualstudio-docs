@@ -1,14 +1,9 @@
 ---
 title: "Outlining in a Legacy Language Service | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "outlining"
   - "language services [managed package framework], outlining"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Outlining in a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ Outlining makes it possible to collapse a complex program into an overview or ou
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Outlining](../../extensibility/walkthrough-outlining.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
 ## Enabling Support for Outlining  
  The `AutoOutlining` registry entry is set to 1 to enable automatic outlining. Automatic outlining sets up a parse of the whole source when a file is loaded or changed in order to identify hidden regions and show the outlining glyphs. Outlining can also be controlled manually by the user.  
@@ -121,4 +116,3 @@ namespace MyLanguagePackage
 ## See Also  
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)   
  [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)
-

@@ -1,19 +1,14 @@
 ---
 title: "Create JSDoc Comments for JavaScript IntelliSense | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 ms.assetid: a0dadc81-3755-4a47-bcee-c1010819ff2a
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Create JSDoc Comments for JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +17,6 @@ IntelliSense in Visual Studio displays information that you add to a script usin
 
 ## JSDoc Comment Tags  
  The following standard JSDoc comment tags are used by IntelliSense to display information about your code.  
-
 
 |  JSDoc tag   |                       Syntax                        |                                                     Notes                                                      |
 |--------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -86,6 +80,3 @@ const RED = 'FF0000';
 function old() {  
 }  
 ```
-
-
-

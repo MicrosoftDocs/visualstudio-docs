@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 0c0fcc99-673b-4ea0-a268-0475f66e5cb6
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Create custom code and plug-ins for load tests
 

@@ -1,13 +1,11 @@
 ---
 title: Use XAML
 ms.date: 07/17/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -48,7 +46,7 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
 - **Team Explorer:** With Team Explorer you can manage your projects with GIT or TFS repositories to facilitate team collaboration. See [Work in Team Explorer](/azure/devops/user-guide/work-team-explorer).
 
-- **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET Framework that simplifies the installation and removal of packages from a solution.
+- **NuGet:** You can manage NuGet packages in both Visual Studio and Blend for Visual Studio. NuGet is a package manager for the .NET that simplifies the installation and removal of packages from a solution.
 
 ## Advanced Capabilities in Blend for Visual Studio
 

@@ -1,14 +1,9 @@
 ---
 title: "&lt;file&gt; Element (ClickOnce Application) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 f1_keywords: 
   - "http://www.w3.org/2000/09/xmldsig#Transform"
   - "urn:schemas-microsoft-com:asm.v2#file"
@@ -27,7 +22,7 @@ ms.assetid: 56e3490c-eed5-4841-b1bf-eefe778b6ac9
 caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # &lt;file&gt; Element (ClickOnce Application)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -202,6 +197,3 @@ Identifies all nonassembly files downloaded and used by the application.
   
 ## See Also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)
-
-
-

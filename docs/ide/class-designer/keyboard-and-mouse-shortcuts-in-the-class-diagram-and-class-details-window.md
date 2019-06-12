@@ -1,8 +1,6 @@
 ---
 title: Keyboard and Mouse Shortcuts for Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs.classdetails.window"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -99,3 +97,6 @@ Use the following keys to navigate the **Class Details** window:
 ## See also
 
 - [Create and configure type members](creating-and-configuring-type-members.md)
+- [How to use the keyboard exclusively](../reference/how-to-use-the-keyboard-exclusively.md)
+- [Default keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md)
+- [Keyboard shortcuts in Blend](../../designers/keyboard-shortcuts-in-blend.md)

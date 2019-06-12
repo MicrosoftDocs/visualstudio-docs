@@ -1,11 +1,8 @@
 ---
 title: "Creating a Workflow Project | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: ".net-framework-4.6"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.prod: visual-studio-dev14
+ms.technology: vs-workflow-designer
 ms.topic: "reference"
 helpviewer_keywords: 
   - "Workflow Designer, creating a workflow project"
@@ -15,7 +12,7 @@ ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
 caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
-manager: "erikre"
+manager: jillfra
 ---
 # Creating a Workflow Project
 Workflows, [!INCLUDE[indigo1](../includes/indigo1-md.md)] workflow services, custom activities, and custom activity designers can be created using [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project templates. This section describes how to create libraries and applications with the project templates available in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
@@ -41,7 +38,7 @@ Workflows, [!INCLUDE[indigo1](../includes/indigo1-md.md)] workflow services, cus
  Describes how to add additional workflow activities or designers and other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] items such as code activities to an existing project.  
   
 ## Related Sections  
- [Designing Workflows](http://msdn.microsoft.com/library/41f727b5-b142-4c1b-b046-492b96135ae6)  
+ [Designing Workflows](https://msdn.microsoft.com/library/41f727b5-b142-4c1b-b046-492b96135ae6)  
   
 ## See Also  
  [Using the Workflow Designer](../workflow-designer/using-the-workflow-designer.md)

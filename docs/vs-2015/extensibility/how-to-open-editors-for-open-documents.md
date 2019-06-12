@@ -1,20 +1,15 @@
 ---
 title: "How to: Open Editors for Open Documents | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], opening for open documents"
 ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Open Editors for Open Documents
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,14 +42,13 @@ Before a project opens a document window, the project first must determine wheth
   
 #### To open a standard editor for an open file  
   
-1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>.  
+1. Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A>.  
   
      This method first verifies that the document is not already open by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A>. If the document is already open, then its editor window is resurfaced.  
   
-2.  If the document is not open, then complete the steps in [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md).  
+2. If the document is not open, then complete the steps in [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md).  
   
 ## See Also  
  [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
  [How to: Open Project-Specific Editors](../extensibility/how-to-open-project-specific-editors.md)   
  [How to: Open Standard Editors](../extensibility/how-to-open-standard-editors.md)
-

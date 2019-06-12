@@ -1,14 +1,9 @@
 ---
 title: "Error: Site Uses IP Address | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.webdbg_siteusesipaddress"
 dev_langs: 
@@ -22,7 +17,7 @@ ms.assetid: b2b8ddc8-746d-46e3-87a6-b956b1ee048d
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Site Uses IP Address
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,14 +28,11 @@ This error occurs when the debugger tries to auto-attach to a Web application th
   
 ### To correct this error  
   
-1.  Use manual attach instead (from the Debug menu, choose **Attach to Process**).  
+1. Use manual attach instead (from the Debug menu, choose **Attach to Process**).  
   
      —or—  
   
-2.  Change the **IIS Web site identification** setting.  
+2. Change the **IIS Web site identification** setting.  
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
-
-
-

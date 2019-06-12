@@ -1,40 +1,35 @@
 ---
 title: "Images and Icons"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Images and Icons for Visual Studio
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-##  <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
+## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
  Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](http://www.microsoft.com/en-my/download/details.aspx?id=35825).
 
 ### Types of images
 
--   **Icons**. Small images that appear in commands, hierarchies, templates, and so on. The default icon size used in Visual Studio is a 16x16 PNG. Icons produced by the image service automatically generate the XAML format for HDPI support.
+- **Icons**. Small images that appear in commands, hierarchies, templates, and so on. The default icon size used in Visual Studio is a 16x16 PNG. Icons produced by the image service automatically generate the XAML format for HDPI support.
 
      **NOTE:** While images are used in the menu system, you should not create an icon for every command. Consult [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md) to see whether your command should get an icon.
 
--   **Thumbnails.** Images used in the preview area of a dialog, such as the New Project dialog.
+- **Thumbnails.** Images used in the preview area of a dialog, such as the New Project dialog.
 
--   **Dialog images.** Images that appear in dialogs or wizards, either as descriptive graphics or message indicators. Use infrequently and only when necessary to illustrate a difficult concept or gain the user's attention (alert, warning).
+- **Dialog images.** Images that appear in dialogs or wizards, either as descriptive graphics or message indicators. Use infrequently and only when necessary to illustrate a difficult concept or gain the user's attention (alert, warning).
 
--   **Animated images.** Used in progress indicators, status bars, and operation dialogs.
+- **Animated images.** Used in progress indicators, status bars, and operation dialogs.
 
--   **Cursors.** Used to indicate whether an operation is allowed using the mouse, where an object may be dropped, and so on.
+- **Cursors.** Used to indicate whether an operation is allowed using the mouse, where an object may be dropped, and so on.
 
-##  <a name="BKMK_IconDesign"></a> Icon design
+## <a name="BKMK_IconDesign"></a> Icon design
 
 ### Overview
  Visual Studio uses modern-style icons, which have clean geometry and a 50/50 balance of positive/negative (light/dark), and use direct, understandable metaphors. Crucial icon design points center around clarity, simplification, and context.
@@ -243,19 +238,19 @@ manager: "ghogen"
 
 #### File types
 
--   **32-bit PNG:** the preferred format for icons. A lossless data compression file format that can store a single raster (pixel) image. 32-bit PNG files support alpha-channel transparency, gamma correction, and interlacing.
+- **32-bit PNG:** the preferred format for icons. A lossless data compression file format that can store a single raster (pixel) image. 32-bit PNG files support alpha-channel transparency, gamma correction, and interlacing.
 
--   **32-bit BMP:** for non-WPF controls. Also called XP or high color, 32-bit BMP is an RGB/A image format, a true-color image with an alpha-channel transparency. The alpha channel is a layer of transparency designated in Adobe Photoshop that is then saved within the bitmap as an additional (fourth) color channel. A black background is added during artwork production to all 32-bit BMP files to provide a quick visual cue about the color depth. This black background represents the area to be masked out in the UI.
+- **32-bit BMP:** for non-WPF controls. Also called XP or high color, 32-bit BMP is an RGB/A image format, a true-color image with an alpha-channel transparency. The alpha channel is a layer of transparency designated in Adobe Photoshop that is then saved within the bitmap as an additional (fourth) color channel. A black background is added during artwork production to all 32-bit BMP files to provide a quick visual cue about the color depth. This black background represents the area to be masked out in the UI.
 
--   **32-bit ICO:** for Project icons and Add Item. All ICO files are 32-bit true color with alpha-channel transparency (RGB/A). Because ICO files can store multiple sizes and color depths, Vista icons are often in an ICO format containing 16x16, 32x32, 48x48, and 256x256 image sizes. In order to display properly in Windows Explorer, ICO files must be saved-down to 24-bit and 8-bit color depths for each image size.
+- **32-bit ICO:** for Project icons and Add Item. All ICO files are 32-bit true color with alpha-channel transparency (RGB/A). Because ICO files can store multiple sizes and color depths, Vista icons are often in an ICO format containing 16x16, 32x32, 48x48, and 256x256 image sizes. In order to display properly in Windows Explorer, ICO files must be saved-down to 24-bit and 8-bit color depths for each image size.
 
--   **XAML:** for design surfaces and Windows adorners. XAML icons are vector-based image files that support scaling, rotating, filing, and transparency. They are not common in Visual Studio today but are becoming more popular because of their flexibility.
+- **XAML:** for design surfaces and Windows adorners. XAML icons are vector-based image files that support scaling, rotating, filing, and transparency. They are not common in Visual Studio today but are becoming more popular because of their flexibility.
 
--   **SVG**
+- **SVG**
 
--   **24-bit BMP:** for the Visual Studio command bar. A true-color RGB image format, 24-bit BMP is an icon convention that creates a layer of transparency by using magenta (R=255, G=0, B=255) as a color key for a knock-out transparency layer. In a 24-bit BMP, all magenta surfaces are displayed using the background color.
+- **24-bit BMP:** for the Visual Studio command bar. A true-color RGB image format, 24-bit BMP is an icon convention that creates a layer of transparency by using magenta (R=255, G=0, B=255) as a color key for a knock-out transparency layer. In a 24-bit BMP, all magenta surfaces are displayed using the background color.
 
--   **24-bit GIF:** for the Visual Studio command bar. A true-color RGB image format that supports transparency. GIF files are often used in Wizard artwork and GIF animations.
+- **24-bit GIF:** for the Visual Studio command bar. A true-color RGB image format that supports transparency. GIF files are often used in Wizard artwork and GIF animations.
 
 ### Icon construction
  The smallest icon size in Visual Studio is 16x16. The largest in common use is 32x32. Keep in mind not to fill up the entire 16x16, 24x24, or 32x32 frame when designing an icon. Legible, uniform icon construction is essential to user recognition. Adhere to the following points when building icons.
@@ -279,18 +274,18 @@ manager: "ghogen"
 
  For more information on using color in Visual Studio icons, see [Using color in images](../../extensibility/ux-guidelines/images-and-icons-for-visual-studio.md#BKMK_UsingColorInImages).
 
-##  <a name="BKMK_UsingColorInImages"></a> Using color in images
+## <a name="BKMK_UsingColorInImages"></a> Using color in images
 
 ### Overview
  Icons in Visual Studio are primarily monochromatic. Color is reserved to convey specific information and never for decoration. Color is used:
 
--   to indicate an action
+- to indicate an action
 
--   to alert the user to a status notification
+- to alert the user to a status notification
 
--   to designate language affiliation
+- to designate language affiliation
 
--   to differentiate items within IntelliSense
+- to differentiate items within IntelliSense
 
 ### Accessibility
  Visual Studio compliance guidelines require that all icons checked into the product pass the accessibility requirements for color and contrast. Colors in the visual language palette have been tested and meet these requirements.

@@ -1,12 +1,9 @@
 ---
 title: "How to: Enable and Disable Full Solution Analysis for Managed Code | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 helpviewer_keywords: 
   - "full solution analysis"
 ms.assetid: 04315147-5792-47f0-8b5f-9ac8413c6a57
@@ -19,7 +16,7 @@ manager: "wpickett"
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 NOTE]
->  This topic applies only to Visual Studio 2015 Update 3 RC and later.  
+> This topic applies only to Visual Studio 2015 Update 3 RC and later.  
   
  *Full solution analysis* is a Visual Studio feature that enables you to choose whether you see code analysis issues only in open Visual C# or Visual Basic files in your solution, or in both open and closed Visual C# or Visual Basic files in your solution.  
   
@@ -27,11 +24,11 @@ NOTE]
   
 #### To toggle full solution analysis  
   
-1.  On the main menu in Visual Studio, choose **Tools** &#124; **Options** to view the **Options** dialog box.  
+1. On the main menu in Visual Studio, choose **Tools** &#124; **Options** to view the **Options** dialog box.  
   
-2.  In the **Options** dialog box, choose **Text Editor** &#124; **C#** or **Basic** &#124; **Advanced**.  
+2. In the **Options** dialog box, choose **Text Editor** &#124; **C#** or **Basic** &#124; **Advanced**.  
   
-3.  Select the **Enable full solution analysis** check box to enable full solution analysis, or clear the box to disable it. Choose the **OK** button when you're done.  
+3. Select the **Enable full solution analysis** check box to enable full solution analysis, or clear the box to disable it. Choose the **OK** button when you're done.  
   
      ![Enable full solution analysis check box.](../code-quality/media/fsa-toolsoptions.png "FSA_ToolsOptions")  
   
@@ -53,6 +50,3 @@ NOTE]
  By default, full solution analysis is enabled for Visual Basic and disabled for Visual C#.  
   
  Visual Studio Update 3 RC includes an enhanced code analyzer diagnostic v2 engine that significantly reduces memory usage and decreases CPU time to idle, even if full solution analysis is enabled.
-
-
-

@@ -1,14 +1,9 @@
 ---
 title: "Error: Kerberos Authentication Failed | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 f1_keywords: 
   - "vs.debug.error.callback_kerberos_auth_failed"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: c18053f9-9074-4bc3-a8bf-13e4acbea921
 caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Error: Kerberos Authentication Failed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,23 +42,20 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
   
 ### To verify that DNS on the target computer is correctly resolving the debugger host computer name  
   
-1.  On the target computer, open the **Start** menu, point to **Accessories** and then click **Command Prompt**.  
+1. On the target computer, open the **Start** menu, point to **Accessories** and then click **Command Prompt**.  
   
-2.  In the **Command Prompt** window, type:  
+2. In the **Command Prompt** window, type:  
   
     ```  
     ping <debugger_host_computer_name>  
     ```  
   
-3.  The first line of the `ping` response shows the full computer name and IP address returned by DNS for the specified computer.  
+3. The first line of the `ping` response shows the full computer name and IP address returned by DNS for the specified computer.  
   
-4.  On the debugger host computer, open a **Command Prompt** window and run `ipconfig`.  
+4. On the debugger host computer, open a **Command Prompt** window and run `ipconfig`.  
   
-5.  Compare the IP address values.  
+5. Compare the IP address values.  
   
 ## See Also  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)   
  [Remote Debugging](../debugger/remote-debugging.md)
-
-
-

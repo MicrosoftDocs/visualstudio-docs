@@ -1,14 +1,9 @@
 ---
 title: "Code Generation and T4 Text Templates | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-techdebt"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
 helpviewer_keywords: 
@@ -21,7 +16,7 @@ ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
 caps.latest.revision: 84
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Code Generation and T4 Text Templates
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,7 +87,7 @@ namespace Fabrikam.FirstJob
  For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
 > [!NOTE]
->  The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.  
+> The term *model* is sometimes used to describe data read by one or more templates. The model can be in any format, in any kind of file or database. It does not have to be a UML model or a Domain-Specific Language model. 'Model' just indicates that the data can be defined in terms of the business concepts, rather than resembling the code.  
   
  The text template transformation feature is named *T4*.  
   
@@ -124,6 +119,3 @@ namespace Fabrikam.FirstJob
 ## See Also  
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
-
-
-

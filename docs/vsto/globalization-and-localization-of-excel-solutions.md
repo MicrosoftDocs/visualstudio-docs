@@ -1,9 +1,6 @@
 ---
 title: "Globalization and localization of Excel solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,7 +9,7 @@ helpviewer_keywords:
   - "globalization [Office development in Visual Studio], configuring"
 author: John-Hart
 ms.author: johnhart
-manager: douge
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -44,7 +41,7 @@ ms.workload:
  You must still make sure that any part of your code that interacts with the document text continues to match the language of the text, and that bookmarks, named ranges, and other display fields accommodate any reformatting of the Office document that was necessary to adjust for different grammar and text length. For document templates that contain relatively little text, you might want to consider storing the text in resource files, and then loading the text at runtime.
 
 ### Text direction
- In Excel, you can set a property of the worksheet to render text right to left. Host controls, or any control that has a `RightToLeft` property, that is placed on the designer automatically match these settings at runtime. Word does not have a document setting for bi-directional text (you just change your alignment of text), so the controls cannot be mapped to this setting. Instead, you must set the text alignment for each control. It is possible to write code to walk through all of the controls and force them to render text from right to left.
+ In Excel, you can set a property of the worksheet to render text right to left. Host controls, or any control that has a `RightToLeft` property, that is placed on the designer automatically match these settings at runtime. Word does not have a document setting for bidirectional text (you just change your alignment of text), so the controls cannot be mapped to this setting. Instead, you must set the text alignment for each control. It is possible to write code to walk through all of the controls and force them to render text from right to left.
 
 ### Change culture
  Your document-level customization code typically shares the main UI thread of Excel, so any changes you make to the thread culture affects everything else that is running on that thread; the change is not restricted to your customization.

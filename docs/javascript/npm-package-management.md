@@ -3,12 +3,11 @@ title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
 ms.custom: "seodec18"
 ms.date: "06/06/2018"
-ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 dev_langs:
   - JavaScript
 ms.workload:
@@ -33,7 +32,7 @@ The easiest way to install npm packages is through the npm package installation 
 
 ![Install new npm package from solution explorer](../javascript/media/solution-explorer-install-package.png)
 
-In this window you can search for a package, specify options, and install. 
+In this window you can search for a package, specify options, and install.
 
 ![Search npm package](../javascript/media/search-package.png)
 
@@ -55,7 +54,7 @@ npm packages are shown in Solution Explorer. The entries under the **npm** node 
 
 ### Package status
 * ![Installed package](../javascript/media/installed-npm.png) - Installed and listed in package.json
-* ![Extraneous package](../javascript/media/extraneous-npm.png) - Installed, but not explicitly 
+* ![Extraneous package](../javascript/media/extraneous-npm.png) - Installed, but not explicitly
 listed in package.json
 * ![Missing package](../javascript/media/missing-npm.png) - Not installed, but listed in package.json
 
@@ -72,12 +71,12 @@ You can also use the `.npm` command in the Node.js Interactive Window to execute
 In the window, you can use commands such as the following to install a package:
 
 `.npm install azure@4.2.3`
- 
+
  > [!Tip]
- > By default, npm will execute in your project's home directory. If you have multiple projects 
- > in your solution specify the name or the path of the project in brackets. 
- `.npm [MyProjectNameOrPath] install azure@4.2.3`
+ > By default, npm will execute in your project's home directory. If you have multiple projects
+ > in your solution specify the name or the path of the project in brackets.
+ > `.npm [MyProjectNameOrPath] install azure@4.2.3`
 
  > [!Tip]
  > If your project doesn't contain a package.json file, use `.npm init -y` to create a new package.json file
-  with default entries. 
+ > with default entries.

@@ -1,14 +1,9 @@
 ---
 title: "Cores View Logical Cores | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.cores.timeline.logicalcores"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 8a471929-9a26-43e4-adef-d3b40f00f9e3
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Cores View Logical Cores
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,6 +21,3 @@ Each channel name represents one of the logical cores that exist on the profiled
   
 ## See Also  
  [Cores View](../profiling/cores-view.md)
-
-
-

@@ -1,8 +1,6 @@
 ---
 title: "CA1026: Default parameters should not be used"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1026"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 09643415-36ef-4d0f-9411-5721e14e2512
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

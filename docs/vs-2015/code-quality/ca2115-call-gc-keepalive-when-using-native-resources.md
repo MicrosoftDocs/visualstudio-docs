@@ -1,14 +1,9 @@
 ---
 title: "CA2115: Call GC.KeepAlive when using native resources | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "CallGCKeepAliveWhenUsingNativeResources"
   - "CA2115"
@@ -55,7 +50,7 @@ manager: "wpickett"
  In the following example, `BadMethod` does not include a call to `GC.KeepAlive` and therefore violates the rule. `GoodMethod` contains the corrected code.
 
 > [!NOTE]
->  This example is pseudo-code Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.
+> This example is pseudo-code Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.
 
  [!code-csharp[FxCop.Security.IntptrAndFinalize#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Security.IntptrAndFinalize/cs/FxCop.Security.IntptrAndFinalize.cs#1)]
 
@@ -64,7 +59,4 @@ manager: "wpickett"
  <xref:System.IntPtr?displayProperty=fullName>
  <xref:System.Object.Finalize%2A?displayProperty=fullName>
  <xref:System.UIntPtr?displayProperty=fullName>
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
-
-
-
+ [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

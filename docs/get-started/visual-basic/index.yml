@@ -1,17 +1,19 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: Visual Studio | Visual Basic
+title: Visual Studio tutorials | Visual Basic
 metadata:
   title: Visual Basic development with Visual Studio | Microsoft Docs
   description: Tutorials and conceptual articles about developing Visual Basic apps with Visual Studio.
   ms.custom: seodec18
   author: ghogen
-  manager: douge
-  ms.prod: visual-studio-dev15
+  manager: jillfra
+  ms.prod: visual-studio-windows
   ms.technology: vs-acquisition
   ms.topic: landing-page
   ms.date: 10/30/2018
   ms.author: ghogen
+abstract:
+  description: This page contains links to beginner tutorials for learning Visual Studio for Visual Basic users. For the full Visual Studio documentation, see <a href="/visualstudio/ide/">Visual Studio</a>. For the Visual Basic language documentation, see <a href=/dotnet/visual-basic>Visual Basic Guide</a>.
 sections:
 - title: Get started
   items:
@@ -37,6 +39,11 @@ sections:
     className: cardsM
     columns: 3
     items:
+    - href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+      html: <p></p>
+      image:
+        src: https://docs.microsoft.com/media/common/i_pull-request.svg
+      title: Open code from a repo
     - href: tutorial-console.md
       html: <p></p>
       image:
@@ -66,7 +73,7 @@ sections:
     className: cardsM
     columns: 3
     items:
-    - href: quickstart-editor.md
+    - href: tutorial-editor.md
       html: <p></p>
       image:
         src: https://docs.microsoft.com/media/common/i_code-edit.svg

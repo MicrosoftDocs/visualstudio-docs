@@ -2,7 +2,6 @@
 title: "IDebugDocumentText::GetPositionOfLine | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the character-position corresponding to the first character of a line.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPositionOfLine(  
    ULONG   cLineNumber,  
    ULONG*  pcCharacterPosition  

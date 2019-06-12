@@ -2,13 +2,11 @@
 title: Sample R projects
 description: An index of a collection of samples to get started with R and Visual Studio.
 ms.date: 01/24/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -44,7 +42,7 @@ As with all examples, open the file, place the cursor at the top, and then step 
 
     ![Example benchmark plot](media/samples-mro-benchmark-plot.png)
 
-- `Bike_Rental_Estimation_with_MRS` creates a demand prediction model for bike rentals based on a historical data set, using Microsoft ML Server. 
+- `Bike_Rental_Estimation_with_MRS` creates a demand prediction model for bike rentals based on a historical data set, using Microsoft ML Server.
 
 - `Data_Exploration` contains three scripts:
 
@@ -55,14 +53,14 @@ As with all examples, open the file, place the cursor at the top, and then step 
       ![Output of Using ggplot2.R example](media/samples-3d-interactive.png)
 
 - `Datasets` contains three *.csv* files used by other samples
-- `Flight_Delays_Prediction_with_R` and `Flight_Delays_Prediction_with_MRS` shows how to predict flight delays using R, machine learning, and historical on-time performance and weather data. 
+- `Flight_Delays_Prediction_with_R` and `Flight_Delays_Prediction_with_MRS` shows how to predict flight delays using R, machine learning, and historical on-time performance and weather data.
 - `Machine learning` contains three samples for learning to predict flight delays, housing prices, and bike rentals. Together, these samples demonstrate the application of R and Microsoft ML Server to real-world problems. They also show you how to use several popular machine learning models and deploy them as an Azure Web Service using an [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/) workspace.
 
 - `R_MRO_MRS_Comparison` is a six-part comparison that shows the similarities and differences of R, Microsoft R Open and Microsoft ML Server with commands, syntax, constructs, and performance.
 
 ## What's special about Microsoft R Open and Microsoft ML Server?
 
-[Microsoft R Open](http://aka.ms/rtvs-r-open), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
+[Microsoft R Open](https://aka.ms/rtvs-r-open), Microsoft's distribution of R, is different from [CRAN R](https://cran.r-project.org/) in two important ways:
 
 1. [Better computation performance](https://mran.revolutionanalytics.com/rro/#intelmkl1) when used with the [Intel Math Kernel Libraries](https://software.intel.com/intel-mkl). The libraries are available as a free download from Microsoft for use with Microsoft R Open.
 

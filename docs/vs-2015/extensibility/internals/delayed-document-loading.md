@@ -1,18 +1,13 @@
 ---
 title: "Delayed Document Loading | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 ms.assetid: fb07b8e2-a4e3-4cb0-b04f-8eb11c491f35
 caps.latest.revision: 7
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Delayed Document Loading
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,17 +23,17 @@ When a user reopens a Visual Studio solution, most of the associated documents a
   
 - The window frame GetProperty method <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> on any of the following properties:  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
-  -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
+  - <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>  
   
   If your extension uses managed code, you should not call <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.GetDocumentInfo%2A> unless you are certain that the document is not in the pending-initialization state, or you want the document to be fully initialized.. This is because this method always returns the doc data object, creating it if necessary. Instead, you should call one of the methods on the IVsRunningDocumentTable4 interface.  
   
@@ -64,4 +59,3 @@ When a user reopens a Visual Studio solution, most of the associated documents a
  There is no visible cue to indicate whether a document has been initialized, so it can be difficult to find out if your extension is forcing initialization. You can set a registry key that makes verification easier, because it causes the title of every document that is not fully initialized to have the text `[Stub]` in the title.  
   
  In **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\BackgroundSolutionLoad]**, set **StubTabTitleFormatString** to **{0} [Stub]**.
-

@@ -1,14 +1,9 @@
 ---
 title: "Code Analysis, Project Designer | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs29106"
 helpviewer_keywords: 
@@ -18,12 +13,11 @@ ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
 caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Code Analysis, Project Designer
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Contains the code analysis tool that you can opt to run on your code. The tool reports information about your assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.  
   
 ## UIElement List  
@@ -67,6 +61,3 @@ Contains the code analysis tool that you can opt to run on your code. The tool r
  [Code Analysis for Managed Code Warnings](../../code-quality/code-analysis-for-managed-code-warnings.md)   
  [Code Analysis for Managed Code Overview](../../code-quality/code-analysis-for-managed-code-overview.md)   
  [Walkthrough: Analyzing Managed Code for Code Defects](../../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
-
-
-

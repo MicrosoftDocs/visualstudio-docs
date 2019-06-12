@@ -1,21 +1,16 @@
 ---
 title: "How to: Use the Finder Tool | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Window Finder Tool"
 ms.assetid: 5841926b-08c3-4e43-88bd-4223d04f9aef
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Use the Finder Tool
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,13 +24,13 @@ Finder Tool in the Find Window dialog box
   
 ### To display window properties or messages  
   
-1.  Arrange your windows so that both Spy++ and the target window are visible.  
+1. Arrange your windows so that both Spy++ and the target window are visible.  
   
-2.  From the **Spy** menu, choose **Find Window**.  
+2. From the **Spy** menu, choose **Find Window**.  
   
      The [Find Window Dialog Box](../debugger/find-window-dialog-box.md) opens.  
   
-3.  Drag the **Finder Tool** over the target window.  
+3. Drag the **Finder Tool** over the target window.  
   
      As you drag the tool, the **Find Window** dialog box displays details on the selected window.  
   
@@ -44,11 +39,11 @@ Finder Tool in the Find Window dialog box
      If you have the handle of the window you want to examine (for example, copied from the debugger), type it into the **Handle** text box.  
   
     > [!TIP]
-    >  To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
+    > To reduce screen clutter, select the **Hide Spy** option. This option conceals the main Spy++ window, leaving only the **Find Window** dialog box visible on top of your other applications. The Spy++ main window is restored when you click **OK** or **Cancel**, or when you clear the **Hide Spy++** option.  
   
-4.  Under **Show**, select either **Properties** or **Messages**.  
+4. Under **Show**, select either **Properties** or **Messages**.  
   
-5.  Press **OK**.  
+5. Press **OK**.  
   
      If you selected **Properties**, the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages View](../debugger/messages-view.md) window opens.  
   
@@ -56,6 +51,3 @@ Finder Tool in the Find Window dialog box
  [Spy++ Views](../debugger/spy-increment-views.md)   
  [Using Spy++](../debugger/using-spy-increment.md)   
  [Spy++ Reference](../debugger/spy-increment-reference.md)
-
-
-

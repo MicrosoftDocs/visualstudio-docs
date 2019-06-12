@@ -1,14 +1,9 @@
 ---
 title: "Edit and Continue Errors and Warnings (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "devlang-csharp"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.csharp.enc.error_4001"
   - "vs.csharp.enc.error_4034"
@@ -65,7 +60,7 @@ helpviewer_keywords:
 ms.assetid: c0e12b0a-8009-4a4a-979f-c804a91a5d9b
 caps.latest.revision: 11
 ms.author: mikejo
-manager: "douge"
+manager: jillfra
 ---
 # Edit and Continue Errors and Warnings (C#)
 You have made an edit to a section of code that is not allowed in Visual C# Edit and Continue.  
@@ -78,11 +73,11 @@ You have made an edit to a section of code that is not allowed in Visual C# Edit
   
 ### To correct this error  
   
-1.  On the **Debug** menu, choose **Undo** to undo the change.  
+1. On the **Debug** menu, choose **Undo** to undo the change.  
   
      -or-  
   
-2.  Stop the debugging session, make your edits, and start a new debugging session.  
+2. Stop the debugging session, make your edits, and start a new debugging session.  
   
 ## See Also  
  [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)

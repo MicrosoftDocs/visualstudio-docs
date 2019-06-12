@@ -2,7 +2,6 @@
 title: "View Disassembly Code in the debugger | Microsoft Docs"
 ms.custom: "seodec18"
 ms.date: "10/30/2018"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.disassembly"
@@ -20,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

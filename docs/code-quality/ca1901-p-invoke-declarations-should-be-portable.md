@@ -1,8 +1,6 @@
 ---
 title: "CA1901: P-Invoke declarations should be portable"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1901"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 90361812-55ca-47f7-bce9-b8775d3b8803
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -66,7 +64,7 @@ HICON ExtractIcon(HINSTANCE hInst, LPCTSTR lpszExeFileName,
 
 ```csharp
 internal class NativeMethods{
-    [DllImport("shell32.dll", CharSet=CharSet.Auto)] 
+    [DllImport("shell32.dll", CharSet=CharSet.Auto)]
     internal static extern IntPtr ExtractIcon(IntPtr hInst,
         string lpszExeFileName, uint nIconIndex);
 }

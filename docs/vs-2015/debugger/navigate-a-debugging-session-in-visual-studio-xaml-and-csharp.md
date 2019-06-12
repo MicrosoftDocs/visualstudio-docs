@@ -1,14 +1,9 @@
 ---
 title: "Navigate a debugging session (Xaml and C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 dev_langs:
   - "FSharp"
   - "VB"
@@ -18,7 +13,7 @@ ms.assetid: 1da33203-333f-4a05-b4e2-8d407c497233
 caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Navigate a debugging session in Visual Studio (Xaml and C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,17 +29,17 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 ## In this topic
  You can learn how to:
 
--   [Create the sample app](#BKMK_CreateTheApplication)
+- [Create the sample app](#BKMK_CreateTheApplication)
 
--   [Set and run to a breakpoint, step into a method, and examine program data](#BKMK_StepInto)
+- [Set and run to a breakpoint, step into a method, and examine program data](#BKMK_StepInto)
 
--   [Step into, over, and out of methods](#BKMK_StepIntoOverOut)
+- [Step into, over, and out of methods](#BKMK_StepIntoOverOut)
 
--   [Set a conditional breakpoint, run to the cursor, and visualize a variable](#BKMK_ConditionCursorVisualize)
+- [Set a conditional breakpoint, run to the cursor, and visualize a variable](#BKMK_ConditionCursorVisualize)
 
--   [Edit and continue, recover from an exception](#BKMK_EditContinueRecoverExceptions)
+- [Edit and continue, recover from an exception](#BKMK_EditContinueRecoverExceptions)
 
-##  <a name="BKMK_CreateTheApplication"></a> Create the sample app
+## <a name="BKMK_CreateTheApplication"></a> Create the sample app
  Debugging is about code, so the sample app uses the framework of the Windows Store app only to create a source file in which you can see how navigating a debug session works and how to examine and change program state. All of the code that you will invoke is called from the constructor of the main page; no controls are added and no events are handled.
 
  **Create a default C# Windows Store app.** Open Visual Studio. On the home page, choose the **New Project** link. On the New Project dialog box, choose **Visual C#** in the **Installed** list and then choose **Windows Store**. In the list of project templates, choose **Application**. Visual Studio creates a new solution and project and displays the MainPage.xaml designer and XAML code editor.
@@ -55,7 +50,7 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 
  You can now follow along with the examples in this topic.
 
-##  <a name="BKMK_StepInto"></a> Set and run to a breakpoint, step into a method, and examine program data
+## <a name="BKMK_StepInto"></a> Set and run to a breakpoint, step into a method, and examine program data
  The most common way that you can start a debug session is to choose **Start Debugging** from the **Debug** menu (Keyboard: F5). Execution begins and continues until a breakpoint is reached, you manually suspend execution, an exception occurs, or the app ends.
 
  When execution is suspended in the debugger, you can view the value of an active variable in a data tip by hovering the mouse over the variable. You can also open the Locals and Autos windows to see lists of the active variables and their current values. Adding one or more variables to a watch window lets you focus on the value of the variables as the app continues execution.
@@ -111,7 +106,7 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 
   You can watch multiple variables in a watch window. The values of watched variables, like values in the Locals and data tip windows, are updated whenever execution is suspended. You can also add variables to the watch window from the code editor. Select the variable to watch, right-click, and then choose **Add Watch**.
 
-##  <a name="BKMK_StepIntoOverOut"></a> Step into, over, and out of methods
+## <a name="BKMK_StepIntoOverOut"></a> Step into, over, and out of methods
  In contrast to stepping into a method called by a parent method, stepping over a method executes the child method and then suspends execution in the calling method as the parent resumes. You might step over a method when you are familiar with the way the method works and are sure that its execution will not affect the issue that you are investigating.
 
  Stepping over a line of code that doesn't contain a method call executes the line just like stepping into the line.
@@ -143,7 +138,7 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 
  **Stop debugging.** On the Debug menu, choose Stop Debugging (Keyboard: Shift+F5). This ends your debug session.
 
-##  <a name="BKMK_ConditionCursorVisualize"></a> Set a conditional breakpoint, run to the cursor, and visualize a variable
+## <a name="BKMK_ConditionCursorVisualize"></a> Set a conditional breakpoint, run to the cursor, and visualize a variable
  A conditional breakpoint specifies a condition that causes the debugger to suspend execution. The condition is specified by any code expression that can be evaluated as true or false. For example, you might use a conditional breakpoint to examine the program state in a frequently called method only when a variable reaches a certain value.
 
  Running to the cursor is like setting a one-time breakpoint. When execution is suspended, you can select a line in the source and resume execution until the selected line is reached. For example, you might be stepping through a loop in a method and determine that the code in the loop is performing correctly. Rather than stepping through every iteration of the loop, you can run to the cursor that is positioned after the loop is executed.
@@ -179,7 +174,7 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
 
  **Stop debugging.** On the Debug menu, choose Stop Debugging (Keyboard: Shift+F5). This ends your debug session.
 
-##  <a name="BKMK_EditContinueRecoverExceptions"></a> Edit and continue, recover from an exception
+## <a name="BKMK_EditContinueRecoverExceptions"></a> Edit and continue, recover from an exception
  In some circumstances, when you break into code in the Visual Studio debugger you have the opportunity to change the value of variables and even the logics of statements. This functionality is called edit and continue.
 
  Edit and continue can be especially useful when you break at an exception. Instead of having to stop and restart debugging a long and involved procedure to avoid the exception, you can "unwind" the exception to move execution to the point immediately before the exception occurred, and then change the offending variable or statement and continue with the current debugging session in state that does not throw an exception.

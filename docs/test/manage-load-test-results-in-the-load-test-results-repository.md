@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 1cd63c4b-4f74-4133-b675-5e8fbeab25f3
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Manage load test results in the Load Test Results Repository
 

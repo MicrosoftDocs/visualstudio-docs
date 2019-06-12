@@ -1,29 +1,24 @@
 ---
 title: "Expression Evaluation Context | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "expression evaluation, context"
 ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Expression Evaluation Context
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, an **expression evaluation context**:  
   
--   Represents a context for expression evaluation. Generally, an evaluation context corresponds to the lexical scope within which to evaluate variables, parameters, functions, and methods. For example, an expression evaluation context associated with a stack frame will provide the context for evaluating local variables, method parameters, and class members (if applicable).  
+- Represents a context for expression evaluation. Generally, an evaluation context corresponds to the lexical scope within which to evaluate variables, parameters, functions, and methods. For example, an expression evaluation context associated with a stack frame will provide the context for evaluating local variables, method parameters, and class members (if applicable).  
   
--   Exists when a program has stopped at a breakpoint. The expression itself is a data structure representing a parsed expression that is ready for binding and evaluating within the given context.  
+- Exists when a program has stopped at a breakpoint. The expression itself is a data structure representing a parsed expression that is ready for binding and evaluating within the given context.  
   
      In more detail, expressions are created using the [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) method. When an expression is evaluated, it generates a printable string containing the name and type of variable or argument and its value. This string is displayed in the Watch window or in the Locals window of the IDE.  
   
@@ -32,4 +27,3 @@ In [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugging, an **expression ev
 ## See Also  
  [Expression Evaluation Interfaces](../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "POPLISTFUNC | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 f1_keywords: 
   - "POPDIRLISTFUNC"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
 caps.latest.revision: 17
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # POPLISTFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,11 +56,10 @@ typedef BOOL (*POPLISTFUNC) (
  For each file that the source control plug-in wants to add to or delete from the file list, it calls this function, passing in the `lpFileName`. The `fAddRemove` flag indicates a new file to add to the list or an old file to delete. The `nStatus` parameter gives the status of the file. When the SCC plug-in has finished adding and deleting files, it returns from the [SccPopulateList](../extensibility/sccpopulatelist-function.md) call.  
   
 > [!NOTE]
->  The `SCC_CAP_POPULATELIST` capability bit is required for Visual Studio.  
+> The `SCC_CAP_POPULATELIST` capability bit is required for Visual Studio.  
   
 ## See Also  
  [Callback Functions Implemented by the IDE](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
  [SccPopulateList](../extensibility/sccpopulatelist-function.md)   
  [File Status Code](../extensibility/file-status-code-enumerator.md)
-

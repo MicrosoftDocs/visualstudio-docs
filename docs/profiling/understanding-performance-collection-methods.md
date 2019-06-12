@@ -1,17 +1,15 @@
 ---
 title: "Understanding Performance Collection Methods | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.wizard.methodpage"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools, profiling methods"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Understand performance collection methods
@@ -127,5 +125,5 @@ Tier interaction data that is collected by Profiling Tools
 
 ## See also
 
-[How to: Collect performance data for a web site](../profiling/how-to-collect-performance-data-for-a-web-site.md)  
+[How to: Collect performance data for a web site](../profiling/how-to-collect-performance-data-for-a-web-site.md)
 [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)

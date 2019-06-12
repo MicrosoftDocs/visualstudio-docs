@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::SetDefaultTextAttr | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the default attributes to use for text that is not in a script block.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDefaultTextAttr(  
    SOURCE_TEXT_ATTR  staTextAttr  
 );  

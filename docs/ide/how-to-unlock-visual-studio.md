@@ -1,15 +1,16 @@
 ---
 title: "How to: Unlock Visual Studio"
-ms.date: 07/20/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
+titleSuffix: ""
+ms.date: 03/30/2019
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
-author: "TerryGLee"
-ms.author: "tglee"
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
   - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 ---
 # How to: Unlock Visual Studio
 
@@ -23,7 +24,7 @@ You can evaluate Visual Studio for free up to 30 days. Signing into the IDE exte
 
 To unlock Visual Studio using a Visual Studio subscription or an Azure DevOps organization associated with a Microsoft account, or a work or school account:
 
-1. Click on the **Sign in** button in the upper right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog and click on the **Sign in** button).
+1. Choose the **Sign in** button in the upper-right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog and choose the **Sign in** button).
 
 1. Enter the credentials for either a Microsoft account or a work or school account. Visual Studio finds a Visual Studio subscription or an Azure DevOps organization associated with your account.
 
@@ -32,9 +33,9 @@ To unlock Visual Studio using a Visual Studio subscription or an Azure DevOps or
 
 ## To unlock Visual Studio with a product key
 
-1. Select **File** > **Account Settings** to open the **Account Settings** dialog and click on the **License with a Product Key** link.
+1. Select **File** > **Account Settings** to open the **Account Settings** dialog, and then choose the **License with a Product Key** link.
 
-Enter the product key in the space provided.
+1. Enter the product key in the space provided.
 
 > [!TIP]
 > Pre-release versions of Visual Studio do not have product keys. You must sign in to the IDE to use pre-release versions.
@@ -43,7 +44,7 @@ Enter the product key in the space provided.
 
 ### Update stale licenses
 
- You may have seen the below message that your license is going stale in Visual Studio, which reads, "Your license has gone stale and must be updated."
+ You might have seen the following message that says that your license is going stale in Visual Studio. It reads, "Your license has gone stale and must be updated."
 
  ![Visual Studio stale license message](../ide/media/vs2017_stale-license.png)
 
@@ -52,12 +53,12 @@ Enter the product key in the space provided.
 - You have not used Visual Studio or have had no internet connection for an extended period of time.
 - You signed out of Visual Studio.
 
-Before the license token goes stale, Visual Studio first shows a warning message asking you to reenter your credentials.
+Before the license token goes stale, Visual Studio first shows a warning message that asks you to reenter your credentials.
 
-If you do not reenter your credentials, the token starts to go stale and the **Account Settings** dialog tells you how many days you have left before your token will fully expire. After your token expires, you will need to reenter your credentials for this account or license with another method above before you can continue using Visual Studio.
+If you do not reenter your credentials, the token starts to go stale and the **Account Settings** dialog tells you how many days you have left before your token will fully expire. After your token expires, you must reenter your credentials for the account before you can continue using Visual Studio.
 
 > [!Important]
-> If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio in order to avoid interruption.
+> If you are using Visual Studio for extended periods in environments with limited or no internet access, you should use a product key to unlock Visual Studio to avoid interruption.
 
 ### Update expired licenses
 

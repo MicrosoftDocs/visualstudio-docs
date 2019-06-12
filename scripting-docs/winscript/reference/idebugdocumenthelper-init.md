@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::Init | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ The `Init` method initializes a debug document helper with a name and initial at
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Init(  
    IDebugApplication*  pda,  
    LPCOLESTR           pszShortName,  

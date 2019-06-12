@@ -1,21 +1,16 @@
 ---
 title: "Working with 3-D Assets for Games and Apps | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics"
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Working with 3-D Assets for Games and Apps
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +38,7 @@ This document describes the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tools t
  You can use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer, which is a graph-based shader design tool, to create custom visual effects without knowing HLSL programming.  
   
 > [!NOTE]
->  For more information about how to start with DirectX programming, see [DirectX](http://go.microsoft.com/fwlink/p/?LinkId=224633). For more information about how to debug a DirectX-based app, see [Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md).  
+> For more information about how to start with DirectX programming, see [DirectX](http://go.microsoft.com/fwlink/p/?LinkId=224633). For more information about how to debug a DirectX-based app, see [Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md).  
   
 ## DirectX version compatibility  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses DirectX to render 2-D and 3-D assets. You can select either the DirectX 11 renderer, or the Windows Advanced Rasterization Platform (WARP) software renderer. The DirectX 11 renderer provides high-performance, hardware-accelerated rendering on DirectX 11 and DirectX 10 GPUs. The WARP renderer helps make sure that your assets work with a broad range of computers—this includes computers that don't have modern graphics hardware and computers that have integrated graphics hardware. For more information about WARP, see [Windows Advanced Rasterization Platform (WARP) Guide](http://go.microsoft.com/fwlink/p/?LinkId=224634).  
@@ -56,6 +51,3 @@ This document describes the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] tools t
 |[Working with 3-D Models](../designers/working-with-3-d-models.md)|Describes how to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to work with 3-D models.|  
 |[Working with Shaders](../designers/working-with-shaders.md)|Describes how to use the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Shader Designer to create and modify custom shader effects.|  
 |[Using 3-D Assets in Your Game or App](../designers/using-3-d-assets-in-your-game-or-app.md)|Describes how to use assets, which you created by using the Image Editor, Model Editor, or Shader Designer, in your game or app.|
-
-
-

@@ -7,8 +7,8 @@ ms.topic: "conceptual"
 ms.assetid: 663140ea-a568-472b-a79a-dfea8818e06a
 author: "corob"
 ms.author: "mblome"
-manager: douge
-f1_keywords: 
+manager: jillfra
+f1_keywords:
   - VC.Project.VCClangCompilerTool.AdditionalIncludeDirectories
   - VC.Project.VCClangCompilerTool.DebugInformationFormat
   - VC.Project.VCClangCompilerTool.ObjectFile
@@ -41,7 +41,7 @@ f1_keywords:
   - VC.Project.VCClangCompilerTool.ForcedIncludeFiles
   - VC.Project.VCClangCompilerTool.MultiProcessorCompilation
   - vc.project.AdditionalOptionsPage
-ms.workload: 
+ms.workload:
   - "xplat-cplusplus"
 ---
 
@@ -62,7 +62,7 @@ Enable C++ Exceptions | Specifies the model of exception handling to be used by 
 Enable Function-Level Linking | Allows the compiler to package individual functions in the form of packaged functions (COMDATs). Required for edit and continue to work.     (ffunction-sections).
 Enable Data-Level Linking | Enables linker optimizations to remove unused data by emitting each data item in a separate section.
 Enable Advanced SIMD(Neon) | Enables code generation for NEON floating point hardware. This is applicable for arm architecture only.
-Floating-point ABI | Selection option to choose the floating point ABI. | **Soft** - 'Soft' causes compiler to generate output containing library calls for floating-point operations.<br>**SoftFP** - 'SoftFP' allows the generation of code using hardware floating-point instructions, but still uses the soft-float calling conventions.<br>**Hard** - 'Hard' alows generation of floating-point instructions and uses FPU-specific calling conventions.<br>
+Floating-point ABI | Selection option to choose the floating point ABI. | **Soft** - 'Soft' causes compiler to generate output containing library calls for floating-point operations.<br>**SoftFP** - 'SoftFP' allows the generation of code using hardware floating-point instructions, but still uses the soft-float calling conventions.<br>**Hard** - 'Hard' allows generation of floating-point instructions and uses FPU-specific calling conventions.<br>
 Security Check | The Security Check helps detect stack-buffer over-runs, a common attempted attack upon a program's security. (fstack-protector). | **Disable Security Check** - Disable Security Check.<br>**Enable Security Check** - Enable Security Check. (fstack-protector)<br>
 Position Independent Code | Generate Position Independent Code (PIC) for use in a shared library.
 Use Short Enums | Enum type uses only as many bytes required by input set of possible values.

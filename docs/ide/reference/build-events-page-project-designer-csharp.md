@@ -1,8 +1,6 @@
 ---
 title: Build Events Page, Project Designer (C#)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "cs.ProjectPropertiesBuildEvents"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
@@ -34,13 +32,11 @@ Use the **Build Events** page of the **Project Designer** to specify build confi
 > [!NOTE]
 > Pre-build events do not run if the project is up to date and no build is triggered.
 
-
  **Post-build event command line**
  Specifies any commands to execute after the build ends. To type long commands, click **Edit Post-build** to display the **Pre-build Event/Post-build Event Command Line Dialog Box**.
 
 > [!NOTE]
 > Add a `call` statement before all post-build commands that run .bat files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
-
 
  **Run the post-build event**
  Specifies the following conditions for the post-build event to run, as shown in the following table.

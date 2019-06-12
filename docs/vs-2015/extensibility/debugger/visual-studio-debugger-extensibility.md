@@ -1,21 +1,16 @@
 ---
 title: "Visual Studio Debugger Extensibility | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Visual Studio], Debugging SDK"
   - "Debugging SDK"
 ms.assetid: c088b6a2-c3ad-446b-830d-9c6f41b2934b
 caps.latest.revision: 33
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Visual Studio Debugger Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
   
  The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] includes a complete reference to all [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] elements required to create a new DE. In addition, there are samples and tutorials that will help get you started.  
   
- For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](http://msdn.microsoft.com/en-us/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
+ For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](https://msdn.microsoft.com/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
   
  The following sections describe how to extend the debugger by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   
@@ -48,4 +43,3 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
   
  [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md)  
  Contains links to a common language runtime expression evaluator sample and a debug engine sample.
-

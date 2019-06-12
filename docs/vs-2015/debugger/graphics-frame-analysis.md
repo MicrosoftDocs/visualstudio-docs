@@ -1,21 +1,16 @@
 ---
 title: "Graphics Frame Analysis | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.graphics.frameanalysis"
 ms.assetid: 336c48ba-a1c4-4db9-b2a4-3de4a129cdd6
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Graphics Frame Analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +18,7 @@ manager: "ghogen"
 Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and optimize the rendering performance of your Direct3D game or app.  
   
 > [!IMPORTANT]
->  Graphics Analyzer supports Frame Analysis for apps that use Direct3D 11 on supported platforms including Windows 10. Frame Analysis is not currently supported for apps that use Direct3D 12.  
+> Graphics Analyzer supports Frame Analysis for apps that use Direct3D 11 on supported platforms including Windows 10. Frame Analysis is not currently supported for apps that use Direct3D 12.  
   
 ## Frame analysis  
  Frame analysis uses the same information that's captured in a graphics log file for diagnostic purposes, but uses it to summarize rendering performance instead. Performance information is not recorded to the log during capture; instead the performance information is generated later, during frame analysis, by timing events and collecting statistics as the frame is played back. This approach has several advantages over recording performance information during capture:  
@@ -97,7 +92,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Statistical significance  
  To bring attention to rendering variations that have the highest relevance, Frame Analysis determines the statistical significance of each rendering variant and displays the significant ones as boldface. It displays the ones that improve performance as green and the ones that reduce performance as red. It displays results that are not statistically significant as normal type.  
   
- ![The statistical relevence of the draw call variant](../debugger/media/pix-frame-analysis-summary-stats.png "pix_frame_analysis_summary_stats")  
+ ![The statistical relevance of the draw call variant](../debugger/media/pix-frame-analysis-summary-stats.png "pix_frame_analysis_summary_stats")  
   
  To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).  
   
@@ -117,7 +112,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
  The hardware counter information provides a very detailed view of specific hardware-platform behavior for each draw call, which can help you identify the cause of performance bottlenecks very precisely.  
   
 > [!NOTE]
->  Different hardware platforms support different counters; there is no standard. The counters and what they represent are determined solely by each GPU manufacturer.  
+> Different hardware platforms support different counters; there is no standard. The counters and what they represent are determined solely by each GPU manufacturer.  
   
 ### Marker regions and events  
  Frame Analysis supports user-defined event markers and event groups. They are displayed in the Summary table and in the Detail tables.  
@@ -138,13 +133,13 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
  Frame Analysis limits the number of retries to 10. If your platform has aggressive power management or clock-gating, it might cause Frame Analysis to fail and report an error because it has exceeded the retry limit. You might be able to mitigate this problem by resetting your platform's power management and clock speed throttling to be less aggressive, if the platform enables it.  
   
-##  <a name="HardwareSupport"></a> Hardware support  
+## <a name="HardwareSupport"></a> Hardware support  
   
 ### Timestamps and occlusion queries  
  Timestamps are supported on all platforms that support Frame Analysis. Depth occlusion queries—required for the Pixels Occluded counter—are supported on platforms that support feature level 9.2 or higher.  
   
 > [!NOTE]
->  Although timestamps are supported on all platforms that support Frame Analysis, the accuracy and consistency of timestamps varies from platform to platform.  
+> Although timestamps are supported on all platforms that support Frame Analysis, the accuracy and consistency of timestamps varies from platform to platform.  
   
 ### GPU counters  
  Support for GPU hardware counters is hardware-dependent.  
@@ -158,7 +153,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   No other platform that supports Frame Analysis collects GPU hardware counters.  
   
 > [!NOTE]
->  Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.  
+> Because GPU hardware counters are hardware resources, it can take multiple passes to collect the complete set of hardware counters for each rendering variant. As a result, the order in which GPU counters are collected is unspecified.  
   
 ### Windows phone  
  Timestamps, occlusion queries, and GPU hardware counters are only supported on Windows Phone handsets that originally shipped with Windows Phone 8.1. Frame Analysis requires these in order to play back the graphics log file. Windows Phone handsets that were originally shipped with Windows Phone 8 do not support Frame Analysis, even for handsets that have been updated to Windows Phone 8.1.  
@@ -173,15 +168,15 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
  In Graphics Analyzer, when you play back a graphics log file that uses a higher feature level than the playback machine supports, it automatically falls back to WARP. In Frame Analysis it explicitly does not fall back to WARP and it generates an error—WARP is useful for examining the correctness of your Direct3D app, but not for examining its performance.  
   
 > [!NOTE]
->  Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. For example, you can capture graphics information on a Windows Phone and play it back on a desktop computer, and the reverse is also supported. In both cases, the graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
+> Although it's important to keep the feature-level issues in mind, you can capture and play back graphics log files on different hardware configurations and devices. For example, you can capture graphics information on a Windows Phone and play it back on a desktop computer, and the reverse is also supported. In both cases, the graphics log can be played back as long as the log file doesn't contain APIs or use feature levels that aren't supported on the playback machine.  
   
 ### Direct3D 10 and lower  
  Frame Analysis is only supported for the Direct3D 11 API. If your app calls the Direct3D 10 API, Frame Analysis won't recognize or profile them even though they're recognized and used by other Graphics Analyzer tools. If your app uses both the Direct3D11 and the Direct3D 10 APIs, only the Direct3D 11 calls are profiled.  
   
 > [!NOTE]
->  This applies only to the Direct3D API calls that you're using, not feature levels. As long as you're using the Direct3D 11, Direct3D 11.1, or Direct3D 11.2 API, you can use whatever feature level you like and Frame Analysis will just work.  
+> This applies only to the Direct3D API calls that you're using, not feature levels. As long as you're using the Direct3D 11, Direct3D 11.1, or Direct3D 11.2 API, you can use whatever feature level you like and Frame Analysis will just work.  
   
-##  <a name="Variants"></a> Variants  
+## <a name="Variants"></a> Variants  
  Each change that Frame Analysis makes to the way a frame is rendered during playback is known as a *variant*. The variants that Frame Analysis examines correspond to common, relatively easy changes that you could make to improve the rendering performance or visual quality of your app—for example, reducing the size of textures, using texture compression, or enabling different kinds of anti-aliasing. Variants override the usual rendering context and parameters of your app. Here's a summary:  
   
 |Variant|Description|  
@@ -201,6 +196,3 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 |**BC Texture Compression**|Enables block compression on all textures that have a B8G8R8X8, B8G8R8A8, or R8G8B8A8 pixel format variant. B8G8R8X8 format variants are compressed by using BC1; B8G8R8A8 and R8G8B8A8 format variants are compressed by using BC3.<br /><br /> For more information, see [BC Texture Compression Variant](../debugger/bc-texture-compression-variant.md).|  
   
  The result for most variants is prescriptive: "Reducing texture size by half is 25 percent faster" or "Enabling 2x MSAA is only 2 percent slower". Other variants might require more interpretation—for example, if the variant that changes the viewport dimensions to 1x1 shows a large performance gain, it might indicate that rendering is bottlenecked by a low fill rate; alternatively, if there's no significant change in performance, it might indicate that rendering is bottlenecked by vertex processing.
-
-
-

@@ -1,21 +1,16 @@
 ---
 title: "Instruction Pointers (IPs) View - Sampling Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: c7f647bb-c5a3-4708-9f9d-33c0fd6e2e96
 caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Instruction Pointers (IPs) View - Sampling Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +18,7 @@ manager: "ghogen"
 The IPs view of sampling data lists performance data for the assembly instructions that were directly executing when the samples were collected in the profiling run.  
   
 > [!NOTE]
->  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
+> Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 |Column|Description|  
 |------------|-----------------|  
@@ -45,6 +40,3 @@ The IPs view of sampling data lists performance data for the assembly instructio
   
 ## See Also  
  [Instruction Pointers (IPs) View - Sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)
-
-
-

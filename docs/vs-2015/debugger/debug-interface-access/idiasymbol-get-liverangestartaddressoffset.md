@@ -1,14 +1,9 @@
 ---
 title: "IDiaSymbol::get_liveRangeStartAddressOffset | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: f5b28914-0a14-4b22-8259-59d7f97ee610
 caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # IDiaSymbol::get_liveRangeStartAddressOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +35,7 @@ HRESULT get_liveRangeStartAddressOffset ( 
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 > [!NOTE]
->  A returned error code means that the symbol does not have live range information.  
+> A returned error code means that the symbol does not have live range information.  
   
 ## Remarks  
  The address formed by the section and offset is the beginning of the range in which the symbol is valid.  
@@ -56,6 +51,3 @@ HRESULT get_liveRangeStartAddressOffset ( 
   
 ## See Also  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
-
-
-

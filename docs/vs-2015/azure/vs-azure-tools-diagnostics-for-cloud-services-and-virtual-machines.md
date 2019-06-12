@@ -2,7 +2,7 @@
 title: Set up diagnostics for Azure Cloud Services and virtual machines | Microsoft Docs
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: mikejo5000
-manager: douge
+manager: jillfra
 ms.assetid: e70cd7b4-6298-43aa-adea-6fd618414c26
 ms.topic: conceptual
 ms.workload: azure-vs
@@ -144,12 +144,13 @@ If you're using Azure SDK 2.6 or later and you want to specify a custom data sou
 
 If you're using Azure SDK 2.5 and want to specify a custom data source, you can add it to the `WindowsEventLog` section of the diagnostics.wadcfgx file, like in the following example:
 
-```
+```xml
 <WindowsEventLog scheduledTransferPeriod="PT1M">
    <DataSource name="Application!*" />
    <DataSource name="CustomDataSource!*" />
 </WindowsEventLog>
 ```
+
 ### Performance counters
 Performance counter information can help you locate system bottlenecks and fine-tune system and application performance. For more information, see [Create and use performance counters in an Azure application](https://msdn.microsoft.com/library/azure/hh411542.aspx). To capture performance counters, select the **Enable transfer of Performance Counters** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the performance counters that you want to track.
 

@@ -1,8 +1,6 @@
 ---
 title: "CA1060: Move P-Invokes to NativeMethods class"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "MovePInvokesToNativeMethodsClass"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 06686c8c-6ad3-42f7-a355-cbaefa347cfc
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB

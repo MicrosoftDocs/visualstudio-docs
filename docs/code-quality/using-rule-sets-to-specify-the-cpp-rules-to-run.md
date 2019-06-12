@@ -1,8 +1,6 @@
 ---
 title: Using Rule Sets to Specify the C++ Rules to Run
 ms.date: 04/28/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
@@ -14,7 +12,7 @@ ms.workload:
 
 In Visual Studio, you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. The default rule sets are stored in `%VSINSTALLDIR%\Team Tools\Static Analysis Tools\Rule Sets`.
 
-**Visual Studio 2017 version 15.7**
+**Visual Studio 2017 version 15.7 and later**
 You can create custom rule sets using any text editor and apply them in command line builds no matter what build system you are using. For more information, see [/analyze:ruleset](/cpp/build/reference/analyze-code-analysis).
 
 To create a custom C++ rule set in Visual Studio, a C/C++ project must be open in the Visual Studio IDE. You then open a standard rule set in the rule set editor and then add or remove specific rules and optionally change the action that occurs when code analysis determines that a rule has been violated.
@@ -79,8 +77,9 @@ You can create a custom rule set in a text editor, store it in any location with
 
 The following example shows a basic rule set file that you can use as a starting point:
 
-```xml
+::: moniker range="vs-2017"
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RuleSet Name="New Rule Set" Description=" " ToolsVersion="15.0">
   <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
@@ -89,3 +88,19 @@ The following example shows a basic rule set file that you can use as a starting
   </Rules>
 </RuleSet>
 ```
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="New Rule Set" Description=" " ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <Rule Id="C6001" Action="Warning" />
+    <Rule Id="C26494" Action="Warning" />
+  </Rules>
+</RuleSet>
+```
+
+::: moniker-end

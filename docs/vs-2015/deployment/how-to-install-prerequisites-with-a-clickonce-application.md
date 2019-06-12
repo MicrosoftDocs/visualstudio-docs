@@ -1,14 +1,9 @@
 ---
 title: "How to: Install Prerequisites with a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
 caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Install Prerequisites with a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,47 +26,44 @@ All [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications require 
  Instead of packaging and publishing prerequisites, you can also specify a download location for the components. For example, rather than including prerequisites with every application that you publish, you might use a centralized file share or Web location that contains the installers for all of your prerequisites—at install time, the components will be downloaded and installed from that location.  
   
 > [!IMPORTANT]
->  You should add prerequisite installer packages to your development computer before you publish your first [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application. For more information, see [How to: Include Prerequisites with a ClickOnce Application](../deployment/how-to-include-prerequisites-with-a-clickonce-application.md).  
+> You should add prerequisite installer packages to your development computer before you publish your first [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application. For more information, see [How to: Include Prerequisites with a ClickOnce Application](../deployment/how-to-include-prerequisites-with-a-clickonce-application.md).  
   
  Prerequisites are managed in the **Prerequisites** dialog box, accessible from the **Publish** pane of the **Project Designer**.  
   
 > [!NOTE]
->  In addition to the predetermined list of prerequisites, you can add your own components to the list. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
+> In addition to the predetermined list of prerequisites, you can add your own components to the list. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
   
 ### To specify prerequisites to install with a ClickOnce application  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Select the **Publish** pane.  
+2. Select the **Publish** pane.  
   
-3.  Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
+3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
   
-4.  In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
+4. In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
   
-5.  In the **Prerequisites** list, check the components that you wish to install, and then click **OK**.  
+5. In the **Prerequisites** list, check the components that you wish to install, and then click **OK**.  
   
      The selected components will be packaged and published along with your application.  
   
 ### To specify a different download location for prerequisites  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.  
   
-2.  Select the **Publish** pane.  
+2. Select the **Publish** pane.  
   
-3.  Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
+3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.  
   
-4.  In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
+4. In the **Prerequisites** dialog box, make sure that the **Create setup program to install prerequisite components** check box is selected.  
   
-5.  In the **Specify the install location for prerequisites** section, select **Download prerequisites from the following location**.  
+5. In the **Specify the install location for prerequisites** section, select **Download prerequisites from the following location**.  
   
-6.  Select a location from the drop-down list, or enter a URL, file path, or FTP location, and then click **OK.**  
+6. Select a location from the drop-down list, or enter a URL, file path, or FTP location, and then click **OK.**  
   
     > [!NOTE]
-    >  You must make sure that installers for the specified components exist at the specified location.  
+    > You must make sure that installers for the specified components exist at the specified location.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

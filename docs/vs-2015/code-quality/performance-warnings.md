@@ -1,14 +1,9 @@
 ---
 title: "Performance Warnings | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
 f1_keywords: 
   - "vs.codeanalysis.performancerules"
 helpviewer_keywords: 
@@ -50,6 +45,3 @@ Performance warnings support high-performance libraries and applications.
 |[CA1822: Mark members as static](../code-quality/ca1822-mark-members-as-static.md)|Members that do not access instance data or call instance methods can be marked as static (Shared in [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]). After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.|  
 |[CA1823: Avoid unused private fields](../code-quality/ca1823-avoid-unused-private-fields.md)|Private fields were detected that do not appear to be accessed in the assembly.|  
 |[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](../code-quality/ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md)|The NeutralResourcesLanguage attribute informs the ResourceManager of the language that was used to display the resources of a neutral culture for an assembly. This improves lookup performance for the first resource that you load and can reduce your working set.|
-
-
-

@@ -2,13 +2,10 @@
 title: Suggest a feature
 description: "Describes what suggestions are on Developer Community, how to make a suggestion, and how suggestions are used by Microsoft in the Visual Studio road map."
 ms.date: 12/17/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 author: seaniyer
 ms.author: seiyer
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -126,4 +123,4 @@ The response time depends on the status your feedback is in. Please review the e
 
 ## See also
 
-- [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://blogs.msdn.microsoft.com/visualstudio/2018/10/09/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)
+- [Introducing 'Suggest a Feature' in Developer Community (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/introducing-suggest-a-feature-in-developer-community/?utm_source=vs_developer_news&utm_medium=referral)

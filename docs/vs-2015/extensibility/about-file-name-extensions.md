@@ -1,21 +1,16 @@
 ---
 title: "About File Name Extensions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "file extensions"
   - "file name extensions"
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # About File Name Extensions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ HKEY_CLASSES_ROOT\
 ## See Also  
  [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)   
  [Specifying File Handlers for File Name Extensions](../extensibility/specifying-file-handlers-for-file-name-extensions.md)
-

@@ -1,14 +1,9 @@
 ---
 title: "Threads View (Parallel Performance) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.threadblocking"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Threads View (Parallel Performance)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,19 +36,19 @@ Threads View is the most detailed and feature-rich view in the Concurrency Visua
 ## Usage  
  Here are some ways that you can use the Threads View:  
   
--   Identify reasons why the user interface (UI) of an app is unresponsive during certain execution phases.  
+- Identify reasons why the user interface (UI) of an app is unresponsive during certain execution phases.  
   
--   Identify the amount of time that's spent blocking on synchronization, I/O, page faults, and other events.  
+- Identify the amount of time that's spent blocking on synchronization, I/O, page faults, and other events.  
   
--   Identify the degree of interference from other processes that are executing on the system.  
+- Identify the degree of interference from other processes that are executing on the system.  
   
--   Identify load-balancing issues for parallel execution.  
+- Identify load-balancing issues for parallel execution.  
   
--   Identify the reasons for scalability that is suboptimal or nonexistent (for example, why the performance of a parallel app does not improve when more logical cores are available).  
+- Identify the reasons for scalability that is suboptimal or nonexistent (for example, why the performance of a parallel app does not improve when more logical cores are available).  
   
--   Understand the degree of concurrency in the app, to help in parallelization.  
+- Understand the degree of concurrency in the app, to help in parallelization.  
   
--   Understand dependencies among worker threads and critical paths of execution.  
+- Understand dependencies among worker threads and critical paths of execution.  
   
 ## Examining Specific Time Intervals and Threads  
  The Threads View shows a timeline. You can zoom and pan within the timeline to examine specific intervals and threads of your application. On the x-axis is time and on the y-axis are several channels:  
@@ -96,7 +91,7 @@ Threads View is the most detailed and feature-rich view in the Concurrency Visua
  When you select a point in an execution segment, the Concurrency Visualizer looks for that point in time on the relevant call stack and then displays a black caret above the selected point in the execution segment and displays the call stack itself on the **Current stack** tab. You can select multiple points on the execution segment.  
   
 > [!NOTE]
->  The Concurrency Visualizer might not be able to resolve a selection on an execution segment. Typically, this occurs when the duration of the segment is less than one millisecond.  
+> The Concurrency Visualizer might not be able to resolve a selection on an execution segment. Typically, this occurs when the duration of the segment is less than one millisecond.  
   
  To get an execution profile for all enabled (unhidden) threads in the currently selected time range, choose the **Execution** button in the active legend.  
   
@@ -150,6 +145,3 @@ Threads View is the most detailed and feature-rich view in the Concurrency Visua
   
 ## See Also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
-
-
-

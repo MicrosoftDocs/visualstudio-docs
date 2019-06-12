@@ -1,14 +1,9 @@
 ---
 title: "IDebugReference2::SetValueAsString | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugReference2::SetValueAsString"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9a508ced-fd54-44f5-bb42-ec15c80384d7
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugReference2::SetValueAsString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -56,4 +51,3 @@ int SetValueAsString ( 
   
 ## See Also  
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
-

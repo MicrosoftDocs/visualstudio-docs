@@ -1,15 +1,13 @@
 ---
 title: "Testi a Large Application with Multiple UI Maps"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -38,9 +36,9 @@ Using multiple UI Map files can provide the following benefits:
 ## Do you need multiple UI Maps?
  Create multiple UI Maps in each of these types of situations:
 
--   Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a website, or the purchase page of a shopping cart.
+- Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a website, or the purchase page of a shopping cart.
 
--   An independent set of controls that is accessed from various points of the application, such as a wizard with several pages of operations. If each page of a wizard is especially complex, you could create separate UI Maps for each page.
+- An independent set of controls that is accessed from various points of the application, such as a wizard with several pages of operations. If each page of a wizard is especially complex, you could create separate UI Maps for each page.
 
 ## Add multiple UI Maps
 

@@ -1,8 +1,6 @@
 ---
 title: "CA2216: Disposable types should declare finalizer"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "DisposableTypesShouldDeclareFinalizer"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 0cabcc5e-b526-452b-8c2a-0cbe3b93c0ef
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

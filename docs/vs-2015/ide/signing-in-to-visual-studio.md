@@ -9,7 +9,7 @@ ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Signing in to Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -19,19 +19,19 @@ You can personalize and optimize your development experience in Visual Studio if
 ## Why should I sign in to Visual Studio?
  You gain the following benefits by signing in to Visual Studio:
 
--   **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) for more information.
+- **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](https://aka.ms/vsdevhelp) for more information.
 
--   **Synchronizes your Visual Studio settings** – Settings that you customize, such as key bindings, window layout and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](http://msdn.microsoft.com/library/dn135229%28v=vs.120%29.aspx).
+- **Synchronizes your Visual Studio settings** – Settings that you customize, such as key bindings, window layout and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](https://msdn.microsoft.com/library/dn135229%28v=vs.120%29.aspx).
 
--   **Permanently unlocks Visual Studio Express Edition** – You can use any edition of Visual Studio Express for as long as you like, instead of being limited to the trial period of 30 days.
+- **Permanently unlocks Visual Studio Express Edition** – You can use any edition of Visual Studio Express for as long as you like, instead of being limited to the trial period of 30 days.
 
--   **Unlocks the Visual Studio Community Edition** instead of being limited to the trial period of 30 days.
+- **Unlocks the Visual Studio Community Edition** instead of being limited to the trial period of 30 days.
 
--   **Extends the Visual Studio trial period** – You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.
+- **Extends the Visual Studio trial period** – You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.
 
--   **Unlocks Visual Studio if you use an account that's associated with an MSDN or VSO subscription**. See [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
+- **Unlocks Visual Studio if you use an account that's associated with an MSDN or VSO subscription**. See [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
 
--   **Automatically connects to services such as Azure and Visual Studio Team Services** in the IDE without prompting again for credentials for the same account.
+- **Automatically connects to services such as Azure and Visual Studio Team Services** in the IDE without prompting again for credentials for the same account.
 
 ## How to sign in to Visual Studio
  When you start Visual studio for the first time, you're asked to sign in and provide some basic registration information. You should choose a Microsoft account or a work or school account that best represents you. If you don't have any of these accounts, you can create a Microsoft account for free. See [How do I sign up for a Microsoft account?](http://windows.microsoft.com/windows-live/sign-up-create-account-how)
@@ -47,12 +47,12 @@ You can personalize and optimize your development experience in Visual Studio if
 ## To change your profile information
  In **File &#124; Account Settings,** you can see and update information about your Visual Studio profile and license. To edit your profile information, such as your account name, avatar picture, or email address:
 
-1.  Go to **File &#124; Account Settings**.
+1. Go to **File &#124; Account Settings**.
 
-2.  In the **Account Settings** dialog box, **Manage Visual Studio profile** link.
+2. In the **Account Settings** dialog box, **Manage Visual Studio profile** link.
 
-3.  On the **My Microsoft Information** page in the browser, choose the **Edit Information** button.
+3. On the **My Microsoft Information** page in the browser, choose the **Edit Information** button.
 
-4.  Change the settings that you want.
+4. Change the settings that you want.
 
-5.  When you're done, choose the **Save changes** button.
+5. When you're done, choose the **Save changes** button.

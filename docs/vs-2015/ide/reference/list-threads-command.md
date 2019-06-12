@@ -1,14 +1,9 @@
 ---
 title: "List Threads Command | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "debug.listthreads"
 helpviewer_keywords: 
@@ -19,12 +14,11 @@ ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # List Threads Command
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 Displays a list of the threads in the current program.  
   
 ## Syntax  
@@ -53,6 +47,3 @@ Debug.ListThreads [index]
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-
-
-

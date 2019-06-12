@@ -1,13 +1,11 @@
 ---
 title: "Create and Edit an XSD Schema File"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: conceptual
 ms.assetid: 91b10cd7-c0cd-4e5a-a46b-4fed60dff542
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -25,14 +23,10 @@ This topic describes how to create a new XML Schema (XSD) file and then add cont
 
 ## To edit a file
 
-1. Select the **Use XML Editor to view and edit the underlying XML Schema file** link on the Start View.
+1. Select the **Use XML editor to view and edit the underlying XML Schema file** link on the Start View.
 
-   The XML Editor appears with the new file open.
+   The XML editor appears with the new file open.
 
 2. Copy the XML Schema sample code from [Purchase order schema](../xml-tools/sample-xsd-file-simple-schema.md) and paste it to replace the code that was added to the new XSD file by default.
 
    The **XML Schema Explorer** is updated with the new schema set.
-
-## See also
-
-- [Working with XML data](../xml-tools/working-with-xml-data.md)

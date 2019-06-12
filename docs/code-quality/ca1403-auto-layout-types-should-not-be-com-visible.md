@@ -1,8 +1,6 @@
 ---
 title: "CA1403: Auto layout types should not be COM visible"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "AutoLayoutTypesShouldNotBeComVisible"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: a7007714-f9b4-4730-94e0-67d3dc68991f
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -35,7 +33,7 @@ A Component Object Model (COM) visible value type is marked with the <xref:Syste
 
 ## Rule description
 
-<xref:System.Runtime.InteropServices.LayoutKind> layout types are managed by the common language runtime. The layout of these types can change between versions of the .NET Framework, which breaks COM clients that expect a specific layout. If the <xref:System.Runtime.InteropServices.StructLayoutAttribute> attribute is not specified, the C#, Visual Basic, and C++ compilers specify [LayoutKind.Auto](<xref:System.Runtime.InteropServices.LayoutKind.Auto>) for value types.
+<xref:System.Runtime.InteropServices.LayoutKind> layout types are managed by the common language runtime. The layout of these types can change between versions of .NET, which breaks COM clients that expect a specific layout. If the <xref:System.Runtime.InteropServices.StructLayoutAttribute> attribute is not specified, the C#, Visual Basic, and C++ compilers specify [LayoutKind.Auto](<xref:System.Runtime.InteropServices.LayoutKind.Auto>) for value types.
 
 Unless marked otherwise, all public, non-generic types are visible to COM, and all non-public and generic types are invisible to COM. However, to reduce false positives, this rule requires the COM visibility of the type to be explicitly stated. The containing assembly must be marked with the <xref:System.Runtime.InteropServices.ComVisibleAttribute?displayProperty=fullName> set to `false` and the type must be marked with the <xref:System.Runtime.InteropServices.ComVisibleAttribute> set to `true`.
 

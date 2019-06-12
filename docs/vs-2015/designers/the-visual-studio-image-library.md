@@ -1,14 +1,9 @@
 ---
 title: "Image Library | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-designers
+ms.topic: conceptual
 helpviewer_keywords:
   - "animation [Visual Studio]"
   - "graphics [Visual Studio], Image Library"
@@ -21,7 +16,7 @@ ms.assetid: f7a2e7c8-3b9f-4f8e-a6a8-000d72e3811d
 caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # The Visual Studio Image Library
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,4 +28,4 @@ The Visual Studio Image Library contains application images that appear in Micro
  The image library is divided into five categories: Common Elements, Actions, Annotations, Icons and Objects. Readme files are included in the PDF format for the Common Elements and Icon types. They contain information about how to use these images appropriately in your applications.
 
 ## See Also
- [Images, Bitmaps, and Metafiles](http://msdn.microsoft.com/library/7152b45b-a55c-49bc-8c78-ae002a844f71)
+ [Images, Bitmaps, and Metafiles](https://msdn.microsoft.com/library/7152b45b-a55c-49bc-8c78-ae002a844f71)

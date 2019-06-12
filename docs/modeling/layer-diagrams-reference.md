@@ -17,11 +17,9 @@ helpviewer_keywords:
   - "constraints, architectural"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Dependency diagrams: reference
 
@@ -30,19 +28,19 @@ In Visual Studio, you can use a *dependency diagram* to visualize the high-level
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 > [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
 
 You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.
 
 Use a dependency diagram to help you perform the following tasks:
 
--   Communicate the existing or intended logical architecture of your system.
+- Communicate the existing or intended logical architecture of your system.
 
--   Discover conflicts between your existing code and the intended architecture.
+- Discover conflicts between your existing code and the intended architecture.
 
--   Visualize the impact of changes on the intended architecture when you refactor, update, or evolve your system.
+- Visualize the impact of changes on the intended architecture when you refactor, update, or evolve your system.
 
--   Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.
+- Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.
 
 This topic describes the elements that you can use on a dependency diagram. For more detailed information about how to create and draw dependency diagrams, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).
 
@@ -64,17 +62,17 @@ The following table describes the elements that you can use on a dependency diag
 
 You can link each layer to artifacts in your solution, such as projects, classes, namespaces, project files, and other parts of your software. The number on a layer shows the number of artifacts that are linked to the layer. However, when reading the number of artifacts on a layer, remember the following:
 
--   If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
+- If a layer links to an artifact that contains other artifacts, but the layer does not link directly to the other artifacts, then the number includes only the linked artifact. However, the other artifacts are included for analysis during layer validation.
 
      For example, if a layer is linked to a single namespace, then the number of linked artifacts is 1, even if the namespace contains classes. If the layer also has links to each class in the namespace, then the number will include the linked classes.
 
--   If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
+- If a layer contains other layers that are linked to artifacts, then the container layer is also linked to those artifacts, even though the number on the container layer does not include those artifacts.
 
 For more information about linking layers and artifacts, see:
 
--   [Dependency diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
+- [Dependency diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
 
--   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
+- [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
 
 ### Examine the linked artifacts
 

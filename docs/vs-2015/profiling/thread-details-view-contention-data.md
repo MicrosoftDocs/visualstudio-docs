@@ -1,14 +1,9 @@
 ---
 title: "Thread Details View - Contention Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.threaddetails"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 874c3b1c-88d8-479a-bb35-1291d9aa8e67
 caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Thread Details View - Contention Data
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,19 +25,19 @@ The Thread Details view presents a timeline graph of the blocking events in the 
   
 #### To zoom in on a timeline segment  
   
--   Click and drag the mouse pointer to select an area of the timeline.  
+- Click and drag the mouse pointer to select an area of the timeline.  
   
      When you release the mouse, the view zooms to the selected time segment. You can repeat the process to zoom in greater detail. The scroll box on the time scroll bar represents the relative size of the time segment that is displayed in the view.  
   
 #### To zoom out on a timeline  
   
--   Click **Zoom Out** to return to the previous zoom level.  
+- Click **Zoom Out** to return to the previous zoom level.  
   
--   Click **Zoom Reset** to show the entire timeline in the view.  
+- Click **Zoom Reset** to show the entire timeline in the view.  
   
 #### To view the call stack of an event  
   
--   In the timeline graph, click the vertical bar that represents the event..  
+- In the timeline graph, click the vertical bar that represents the event..  
   
 #### To view or edit the source code of a function in the call stack  
   
@@ -52,15 +47,12 @@ The Thread Details view presents a timeline graph of the blocking events in the 
   
 #### To view the contention events of a resource in all threads in the profiling run  
   
--   In the timeline graph, click the name or id of the resource.  
+- In the timeline graph, click the name or id of the resource.  
   
      The [Resource Details View](../profiling/resource-details-view-contention-data.md) appears for the selected resource.  
   
 #### To view the thread contention data in the Processes window  
   
--   In the timeline graph, click **Total**.  
+- In the timeline graph, click **Total**.  
   
      The [Process View](../profiling/process-view-contention-data.md) appears with the thread selected.
-
-
-

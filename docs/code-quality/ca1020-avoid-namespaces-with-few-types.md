@@ -1,8 +1,6 @@
 ---
 title: "CA1020: Avoid namespaces with few types"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1020"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 9cb272f6-a3ff-45af-b35d-70dea620b074
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

@@ -1,19 +1,14 @@
 ---
 title: "EndCapture | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 ms.assetid: 06084c3b-e065-49b6-968e-d578762fb871
 caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # EndCapture
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,6 +29,3 @@ void EndCapture();
 ## See Also  
  [BeginCapture](../debugger/begincapture.md)   
  [CaptureCurrentFrame](../debugger/capturecurrentframe.md)
-
-
-

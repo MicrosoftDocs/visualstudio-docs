@@ -1,9 +1,6 @@
 ---
 title: "How to: Sign Office solutions"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -12,9 +9,9 @@ helpviewer_keywords:
   - "certificates [Office development in Visual Studio], Office solutions"
   - "security [Office development in Visual Studio], signing Office solutions"
   - "signing manifests [Office development in Visual Studio]"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -32,15 +29,15 @@ ms.workload:
 
 ### To sign an Office solution by using a certificate
 
-1.  On the **Project** menu, click _SolutionName_**Properties**.
+1. On the **Project** menu, click _SolutionName_**Properties**.
 
-2.  Click the **Signing** tab.
+2. Click the **Signing** tab.
 
-3.  Select **Sign the ClickOnce manifests**.
+3. Select **Sign the ClickOnce manifests**.
 
-4.  Locate the certificate by clicking **Select from Store** or **Select from File** and navigating to the certificate.
+4. Locate the certificate by clicking **Select from Store** or **Select from File** and navigating to the certificate.
 
-5.  To verify that the correct certificate is being used, click **More Details** to view the certificate information.
+5. To verify that the correct certificate is being used, click **More Details** to view the certificate information.
 
 ## See also
 

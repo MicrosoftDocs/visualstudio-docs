@@ -1,8 +1,6 @@
 ---
-title: VC++ Project Settings, Projects and Solutions, Options Dialog Box
+title: C++ Project Settings options
 ms.date: 08/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.VCBuild"
@@ -17,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
@@ -26,9 +24,9 @@ This dialog box lets you define [!INCLUDE[vcprvc](../../code-quality/includes/vc
 
 ### To access this dialog box
 
-1.  On the **Tools** menu, click **Options**.
+1. On the **Tools** menu, click **Options**.
 
-2.  Select **Projects and Solutions**, and then select **VC++ Project Settings**.
+2. Select **Projects and Solutions**, and then select **VC++ Project Settings**.
 
 ## Build Logging
  **Yes**
@@ -89,5 +87,5 @@ Do not use cached project data. Parse the project files each time the project lo
 
 ## See also
 
-- [Building C/C++ Programs](/cpp/build/building-c-cpp-programs)
+- [Building C/C++ Programs](/cpp/build/projects-and-build-systems-cpp)
 - [C/C++ Building Reference](/cpp/build/reference/c-cpp-building-reference)

@@ -13,9 +13,7 @@ helpviewer_keywords:
 ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -33,15 +31,15 @@ To roll back the transaction, throw an exception prior to calling the <xref:Syst
 
 ## To add a reference to the System.Transactions.dll
 
-1.  On the **Project** menu, select **Add Reference**.
+1. On the **Project** menu, select **Add Reference**.
 
-2.  On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.
+2. On the **.NET** tab (**SQL Server** tab for SQL Server projects), select **System.Transactions**, and then select **OK**.
 
      A reference to *System.Transactions.dll* is added to the project.
 
 ## To save data in a transaction
 
--   Add code to save data within the using statement that contains the transaction. The following code shows how to create and instantiate a <xref:System.Transactions.TransactionScope> object in a using statement:
+- Add code to save data within the using statement that contains the transaction. The following code shows how to create and instantiate a <xref:System.Transactions.TransactionScope> object in a using statement:
 
      [!code-vb[VbRaddataSaving#11](../data-tools/codesnippet/VisualBasic/save-data-by-using-a-transaction_1.vb)]
      [!code-csharp[VbRaddataSaving#11](../data-tools/codesnippet/CSharp/save-data-by-using-a-transaction_1.cs)]

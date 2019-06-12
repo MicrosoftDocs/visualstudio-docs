@@ -1,8 +1,6 @@
 ---
 title: "CA1819: Properties should not return arrays"
-ms.date: 09/28/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+ms.date: 03/11/2019
 ms.topic: reference
 f1_keywords:
   - "PropertiesShouldNotReturnArrays"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 85fcf312-57f8-438a-8b10-34441fe0bdeb
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CSharp
  - VB
@@ -31,7 +29,9 @@ ms.workload:
 
 ## Cause
 
-A public or protected property in a public type returns an array.
+A property returns an array.
+
+By default, this rule only looks at externally visible properties and types, but this is [configurable](#configurability).
 
 ## Rule description
 
@@ -48,6 +48,16 @@ You can suppress a warning that's raised for a property of an attribute that's d
 You can suppress the warning if the property is part of a [Data Transfer Object (DTO)](/previous-versions/msp-n-p/ff649585(v=pandp.10)) class.
 
 Otherwise, do not suppress a warning from this rule.
+
+## Configurability
+
+If you're running this rule from [FxCop analyzers](install-fxcop-analyzers.md) (and not through static code analysis), you can configure which parts of your codebase to run this rule on, based on their accessibility. For example, to specify that the rule should run only against the non-public API surface, add the following key-value pair to an .editorconfig file in your project:
+
+```ini
+dotnet_code_quality.ca1819.api_surface = private, internal
+```
+
+You can configure this option for just this rule, for all rules, or for all rules in this category (Performance). For more information, see [Configure FxCop analyzers](configure-fxcop-analyzers.md).
 
 ## Example violation
 

@@ -1,14 +1,9 @@
 ---
 title: "Assembly Information Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vb.ProjectPropertiesAssemblyInfo"
 helpviewer_keywords: 
@@ -17,13 +12,12 @@ ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
 caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Assembly Information Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
-The **Assembly Information** dialog box is used to specify the values of the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../../includes/csprcs-md.md)]. For more information about assembly attributes, see [Attributes](http://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205).  
+The **Assembly Information** dialog box is used to specify the values of the [!INCLUDE[dnprdnshort](../../includes/dnprdnshort-md.md)] global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../../includes/csprcs-md.md)]. For more information about assembly attributes, see [Attributes](https://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205).  
   
  To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Application** tab. On the **Application** page, click the **Assembly Information** button.  
   
@@ -63,7 +57,4 @@ The **Assembly Information** dialog box is used to specify the values of the [!I
   
 ## See Also  
  [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)   
- [Attributes](http://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)
-
-
-
+ [Attributes](https://msdn.microsoft.com/library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)

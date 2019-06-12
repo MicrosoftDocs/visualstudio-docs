@@ -11,9 +11,7 @@ helpviewer_keywords:
 ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -25,7 +23,7 @@ The code that defines a TableAdapter is generated every time changes are made to
 By default, after you separate the dataset and TableAdapter code, the result is a discrete class file in each project. The original project has a file named *DatasetName.Designer.vb* (or *DatasetName.Designer.cs*) that contains the TableAdapter code. The project that's designated in the **Dataset Project** property has a file named *DatasetName.DataSet.Designer.vb* (or *DatasetName.DataSet.Designer.cs*) that contains the dataset code.
 
 > [!NOTE]
->  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing partial dataset classes must be moved manually to the dataset project.
+> When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing partial dataset classes must be moved manually to the dataset project.
 
 > [!NOTE]
 > The dataset provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers when validation is needed. For more information, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).
@@ -34,17 +32,17 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
 ## To add user code to a TableAdapter in an n-tier application
 
-1.  Locate the project that contains the *.xsd* file.
+1. Locate the project that contains the *.xsd* file.
 
-2.  Double click the *.xsd* file to open the **Dataset Designer**.
+2. Double click the *.xsd* file to open the **Dataset Designer**.
 
-3.  Right-click the TableAdapter that you want to add code to, and then select **View Code**.
+3. Right-click the TableAdapter that you want to add code to, and then select **View Code**.
 
      A partial class is created and opens in the Code Editor.
 
-4.  Add code inside the partial class declaration.
+4. Add code inside the partial class declaration.
 
-5.  The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:
+5. The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:
 
     ```vb
     Partial Public Class CustomersTableAdapter

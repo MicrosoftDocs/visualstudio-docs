@@ -1,14 +1,9 @@
 ---
 title: "Solution (.Sln) File | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "sln files, VSPackages"
   - "solutions, .sln files"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 7d7ef539-2e4b-4637-b853-8ec7626609df
 caps.latest.revision: 14
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Solution (.Sln) File
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -102,5 +97,4 @@ EndGlobal
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>   
  [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)   
- [Solutions](../../extensibility/internals/solutions.md)
-
+ [Solutions](../../extensibility/internals/solutions-overview.md)

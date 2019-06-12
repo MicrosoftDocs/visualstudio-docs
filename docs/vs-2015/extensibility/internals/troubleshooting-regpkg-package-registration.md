@@ -1,26 +1,21 @@
 ---
 title: "Troubleshooting RegPkg Package Registration | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: troubleshooting
 helpviewer_keywords: 
   - "RegPkg"
 ms.assetid: f33f822f-697a-4bad-9c10-554b4c8f6246
 caps.latest.revision: 16
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Troubleshooting RegPkg Package Registration
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!NOTE]
->  The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md).  
+> The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md).  
   
  To register a package by using RegPkg in [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], you must use the version of RegPkg that is appropriate for your package.  
   
@@ -39,4 +34,3 @@ manager: "ghogen"
   
 ## See Also  
  [Releasing a Product](../../misc/releasing-a-visual-studio-integration-product.md)
-

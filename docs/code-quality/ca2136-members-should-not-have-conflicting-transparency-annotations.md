@@ -1,8 +1,6 @@
 ---
 title: "CA2136: Members should not have conflicting transparency annotations"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2127"
@@ -14,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: ff5a1d18-7c52-4da5-8990-60be83a8ea81
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

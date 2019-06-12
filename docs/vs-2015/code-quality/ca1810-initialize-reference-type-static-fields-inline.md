@@ -1,14 +1,9 @@
 ---
 title: "CA1810: Initialize reference type static fields inline | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
 f1_keywords:
   - "InitializeReferenceTypeStaticFieldsInline"
   - "CA1810"
@@ -41,9 +36,9 @@ manager: "wpickett"
 
  Static constructor checks can decrease performance. Often a static constructor is used only to initialize static fields, in which case you must only make sure that static initialization occurs before the first access of a static field. The `beforefieldinit` behavior is appropriate for these and most other types. It is only inappropriate when static initialization affects global state and one of the following is true:
 
--   The effect on global state is expensive and is not required if the type is not used.
+- The effect on global state is expensive and is not required if the type is not used.
 
--   The global state effects can be accessed without accessing any static fields of the type.
+- The global state effects can be accessed without accessing any static fields of the type.
 
 ## How to Fix Violations
  To fix a violation of this rule, initialize all static data when it is declared and remove the static constructor.
@@ -69,6 +64,3 @@ manager: "wpickett"
 **} // end of class NoStaticConstructor**
 ## Related Rules
  [CA2207: Initialize value type static fields inline](../code-quality/ca2207-initialize-value-type-static-fields-inline.md)
-
-
-

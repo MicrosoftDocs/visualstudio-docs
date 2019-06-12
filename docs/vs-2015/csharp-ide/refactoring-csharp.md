@@ -1,14 +1,9 @@
 ---
 title: "Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: conceptual
 f1_keywords: 
   - "vs.csharp.refactoring.preview"
   - "vs.csharp.refactoring.issues"
@@ -22,7 +17,7 @@ ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
 caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,17 +26,17 @@ Refactoring is the process of improving your code after it has been written by c
   
  Visual C# provides the following refactoring commands on the **Refactoring** menu:  
   
--   [Extract Method Refactoring (C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
+- [Extract Method Refactoring (C#)](../csharp-ide/extract-method-refactoring-csharp.md)  
   
--   [Rename Refactoring (C#)](../csharp-ide/rename-refactoring-csharp.md)  
+- [Rename Refactoring (C#)](../csharp-ide/rename-refactoring-csharp.md)  
   
--   [Encapsulate Field Refactoring (C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
+- [Encapsulate Field Refactoring (C#)](../csharp-ide/encapsulate-field-refactoring-csharp.md)  
   
--   [Extract Interface Refactoring (C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
+- [Extract Interface Refactoring (C#)](../csharp-ide/extract-interface-refactoring-csharp.md)  
   
--   [Remove Parameters Refactoring (C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
+- [Remove Parameters Refactoring (C#)](../csharp-ide/remove-parameters-refactoring-csharp.md)  
   
--   [Reorder Parameters Refactoring (C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
+- [Reorder Parameters Refactoring (C#)](../csharp-ide/reorder-parameters-refactoring-csharp.md)  
   
 ## Multi-Project Refactoring  
  Visual Studio supports multi-project refactoring for projects that are in the same solution. All of the refactoring operations that correct references across files correct those references across all projects of the same language. This works for any project-to-project references. For example, if you have a console application that references a class library, when you rename a class library type (using the `Rename` refactoring operation), the references to the class library type in the console application are also updated.  
@@ -53,7 +48,7 @@ Refactoring is the process of improving your code after it has been written by c
  If the compiler does not have a complete understanding of your program, and it is possible that the refactoring engine might not update all the appropriate references, the warning dialog box is displayed. This warning dialog box also provides an opportunity for you to preview your code in the **Preview Changes** dialog box before you commit changes.  
   
 > [!NOTE]
->  If a method contains a syntax error (which the IDE indicates with a red wavy underline), then the refactoring engine will not update any references to an element within that method. The example below illustrates this behavior.  
+> If a method contains a syntax error (which the IDE indicates with a red wavy underline), then the refactoring engine will not update any references to an element within that method. The example below illustrates this behavior.  
   
  By default, if you execute a refactoring operation without previewing reference changes and a compilation error is detected in your program, then the development environment displays this warning dialog box.  
   

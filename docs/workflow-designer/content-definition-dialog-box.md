@@ -2,14 +2,12 @@
 title: "Workflow Designer - Content Definition Dialog Box"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "MessageContent.UI"
 ms.assetid: 7e4237c3-90a1-4149-bd8a-3643d1dde0df
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

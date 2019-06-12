@@ -1,17 +1,14 @@
 ---
 title: "Updating Shapes and Connectors to Reflect the Model | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 ms.assetid: 51eb2af9-00e7-4725-a87d-62fb4f39f444
 caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Updating Shapes and Connectors to Reflect the Model
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,9 +26,9 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## Set Shape Map properties to control the visibility of a decorator  
  You can control the visibility of a decorator without writing program code, by configuring the mapping between the shape and the domain class in the DSL Definition. For more information, see the following topics:  
   
--   [How to: Control the Visibility of a Decorator -redirect](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
+- [How to: Control the Visibility of a Decorator -redirect](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
   
--   [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
+- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
   
 ## Expose the color and style of a shape as properties  
  In the DSL Definition, right-click the shape class, point to **Add Exposed**, and then click one of the items such as **Fill Color**.  
@@ -112,7 +109,7 @@ partial class MyLanguageDiagram
   
  This method can be used both for domain properties and non-store features, such as the size of the shape.  
   
-##  <a name="OnAssociatedProperty"></a> Use AssociateValueWith() to update other features of a shape  
+## <a name="OnAssociatedProperty"></a> Use AssociateValueWith() to update other features of a shape  
  For some features of a shape, such as whether it has a shadow, or the arrow style of a connector, there is no built-in method of exposing the feature as a domain property.  Changes to such features are not under the control of the transaction system. Therefore, it is not appropriate to update them using rules, because rules are not invoked when the user performs the Undo command.  
   
  Instead, you can update such features by using <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnAssociatedPropertyChanged%2A>. In the following example, the arrow style of a connector is controlled by a value of a domain property in the relationship that the connector displays:  
@@ -159,6 +156,3 @@ public partial class ArrowConnector // My connector class.
  `AssociateValueWith()` should be called one time for each domain property that you want to register. After it has been called, any changes to the specified property will call `OnAssociatedPropertyChanged()` in any shapes that present the property’s model element.  
   
  It is not necessary to call `AssociateValueWith()` for each instance. Although InitializeResources is an instance method, it is invoked only one time for each shape class.
-
-
-

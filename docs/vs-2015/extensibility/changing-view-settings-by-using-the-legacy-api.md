@@ -1,20 +1,15 @@
 ---
 title: "Changing View Settings by Using the Legacy API | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - changing view settings"
 ms.assetid: 12c9b300-0894-4124-96a1-764326176d77
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Changing View Settings by Using the Legacy API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,13 +21,13 @@ Settings for core editor features, such as word wrap, selection margin, and virt
   
  Following is the typical process for changing view settings for an instance of the core editor.  
   
-1.  Call `QueryInterface` on the (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>) for the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> interface.  
+1. Call `QueryInterface` on the (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>) for the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> interface.  
   
-2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> method, specifying a value of GUID_EditPropCategory_View_MasterSettings for the `rguidCategory` parameter.  
+2. Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory%2A> method, specifying a value of GUID_EditPropCategory_View_MasterSettings for the `rguidCategory` parameter.  
   
      Doing this returns a pointer to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer> interface, which contains the set of forced properties for the view. Any settings in this group are permanently forced. If a setting is not in this group, then it will follow the options specified in the **Options** dialog box or the user's commands.  
   
-3.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> method, specifying the appropriate settings value in the `idprop` parameter.  
+3. Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> method, specifying the appropriate settings value in the `idprop` parameter.  
   
      For example, to force word wrap, call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty%2A> and specify a value of VSEDITPROPID_ViewLangOpt_WordWrap, `vt` for the `idprop` parameter. In this call, `vt` is a VARIANT of type VT_BOOL and `vt.boolVal` is VARIANT_TRUE.  
   
@@ -47,4 +42,3 @@ Settings for core editor features, such as word wrap, selection margin, and virt
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)   
  [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md)
-

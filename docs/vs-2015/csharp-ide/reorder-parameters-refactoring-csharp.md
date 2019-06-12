@@ -1,14 +1,9 @@
 ---
 title: "Reorder Parameters Refactoring (C#) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-csharp"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords: 
   - "vs.csharp.refactoring.reorder"
 dev_langs: 
@@ -20,7 +15,7 @@ ms.assetid: 4dabf21a-a9f0-41e9-b11b-55760cf2bd90
 caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
-manager: "wpickett"
+manager: jillfra
 ---
 # Reorder Parameters Refactoring (C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,11 +25,11 @@ manager: "wpickett"
  To perform the `Reorder Parameters` operation, put the cursor on or next to a method, indexer, or delegate. When the cursor is in position, invoke the `Reorder Parameters` operation by pressing the keyboard shortcut, or by clicking the command from the shortcut menu.  
   
 > [!NOTE]
->  You cannot reorder the first parameter in an extension method.  
+> You cannot reorder the first parameter in an extension method.  
   
 ### To reorder parameters  
   
-1.  Create a class library named `ReorderParameters`, and then replace `Class1` with the following example code.  
+1. Create a class library named `ReorderParameters`, and then replace `Class1` with the following example code.  
   
     ```csharp  
     class ProtoClassA  
@@ -55,21 +50,21 @@ manager: "wpickett"
     }  
     ```  
   
-2.  Place the cursor on `MethodB`, either in the method declaration or the method call.  
+2. Place the cursor on `MethodB`, either in the method declaration or the method call.  
   
-3.  On the **Refactor** menu, click **Reorder Parameters**.  
+3. On the **Refactor** menu, click **Reorder Parameters**.  
   
      The **Reorder Parameters** dialog box appears.  
   
-4.  In the **Reorder Parameters** dialog box, select `int i` in the **Parameters** list, and then click the down button.  
+4. In the **Reorder Parameters** dialog box, select `int i` in the **Parameters** list, and then click the down button.  
   
      Alternatively, you can drag `int i` after `bool b` in the **Parameters** list.  
   
-5.  In the **Reorder Parameters** dialog box, click **OK**.  
+5. In the **Reorder Parameters** dialog box, click **OK**.  
   
      If the **Preview reference changes** option is selected in the **Reorder Parameters** dialog box, the **Preview Changes - Reorder Parameters** dialog box will appear. It provides a preview of the changes in the parameter list for `MethodB` in both the signature and the method call.  
   
-    1.  If the **Preview Changes - Reorder Parameters** dialog box appears, click **Apply**.  
+    1. If the **Preview Changes - Reorder Parameters** dialog box appears, click **Apply**.  
   
          In this example, the method declaration and all the method call sites for `MethodB` are updated.  
   

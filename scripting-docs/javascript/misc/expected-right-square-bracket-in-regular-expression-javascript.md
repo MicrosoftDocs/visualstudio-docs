@@ -1,14 +1,9 @@
 ---
 title: "Expected ']' in regular expression (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5019"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 1ca2079a-44dd-479f-a1e3-e04a14d0739e
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,10 +20,10 @@ You attempted to create a character class for a regular expression match, but di
   
 ### To correct this error  
   
--   Add the right bracket to the regular expression.  
+- Add the right bracket to the regular expression.  
   
     > [!NOTE]
-    >  If you want to match a single bracket, escape it with a backslash - \\[ - so it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
+    > If you want to match a single bracket, escape it with a backslash - \\[ - so it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   

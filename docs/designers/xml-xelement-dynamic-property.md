@@ -1,15 +1,13 @@
 ---
 title: Xml (XElement Dynamic Property)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: reference
 apiname:
   - "XElement.Xml"
 ms.assetid: 69ab2a33-4fe7-4cfa-97f8-eaf063decb18
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -33,5 +31,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString(System.X
 
 ## See also
 
-- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/attribute-xelement-dynamic-property.md)
 - [Value](../designers/value-xelement-dynamic-property.md)

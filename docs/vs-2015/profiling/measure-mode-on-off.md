@@ -1,14 +1,9 @@
 ---
 title: "Measure Mode On-Off | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.tools.measure"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: fbd99736-9ea8-47d2-af51-7e3a4e9c29c1
 caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Measure Mode On/Off
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,6 +25,3 @@ By using this tool, you can precisely measure a length of time in the timeline. 
  [Manage Channels](../profiling/manage-channels.md)   
  [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

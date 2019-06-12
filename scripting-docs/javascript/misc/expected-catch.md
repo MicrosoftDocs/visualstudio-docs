@@ -1,14 +1,9 @@
 ---
 title: "Expected 'catch' | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1033"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: f1cd947f-eba2-411e-8e84-8ca86f608643
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,9 +20,9 @@ You used the exception handling **try** block, but did not write the associated 
   
 ### To correct this error  
   
--   Add the associated **catch** block.  
+- Add the associated **catch** block.  
   
--   Try using a **finally** block instead of a **catch** block.  
+- Try using a **finally** block instead of a **catch** block.  
   
 ## See Also  
  [try...catch...finally Statement](../../javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md)   

@@ -1,13 +1,11 @@
 ---
-title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
-ms.custom: ""
+title: "Performance tools on Windows 8 & Windows Server 2012 apps"
 ms.date: "06/19/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Performance tools on Windows 8 and Windows Server 2012 applications
@@ -33,7 +31,7 @@ These profiling features and options are not supported when profiling UWP apps:
 
 For more information about profiling UWP apps, see the following articles:
 
-- [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)
+- [Run UWP apps on the local machine](/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml)
 - [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)
 - [First look at profiling tools](profiling-feature-tour.md)
 - [JavaScript memory](../profiling/javascript-memory.md)

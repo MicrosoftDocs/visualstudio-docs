@@ -2,7 +2,7 @@
 title: Optimizing your Azure code
 description: Learn about how Azure code optimization tools in Visual Studio help make your code more robust and better-performing.
 author: ghogen
-manager: douge
+manager: jillfra
 ms.assetid: ed48ee06-e2d2-4322-af22-07200fb16987
 ms.topic: conceptual
 ms.custom: vs-azure
@@ -67,7 +67,7 @@ public async Task RunAsync()
 
     HttpClient client = new HttpClient();
 
-    Task<string> urlString = client.GetStringAsync("http://msdn.microsoft.com");
+    Task<string> urlString = client.GetStringAsync("https://msdn.microsoft.com");
 
     while (true)
     {
@@ -210,6 +210,7 @@ while (true)
    }
 }
 ```
+
 ## Consider using asynchronous Service Bus methods
 ### ID
 AP2003

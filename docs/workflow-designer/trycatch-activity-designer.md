@@ -2,15 +2,13 @@
 title: "Workflow Designer - TryCatch Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.TryCatch.UI"
   - "System.Activities.Statements.Catch`1.UI"
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -29,7 +27,7 @@ The **TryCatch** activity designer can be dragged from the **Toolbox** and dropp
 
 Click the expand button on the right top corner of **TryCatch** designer to see the **Try**, **Catches**, and **Finally** boxes in the expanded view. To add a catch, click the **Add new catch** button on **TryCatch** designer. The button changes to a type combo box. Select an exception type and press ENTER to add the catch. After adding a **Catch**, the catch area expands and an activity can be dropped into the catch to define the execution logic for the catch. Note that there is a text box on the right side of the expanded catch area. You can name the exception variable using this text box. The exception variable can only be used for activities within the same **Catch**.
 
-The **TryCatch** designer does not support editing **Catch**. If you want to change the exception type, you have to delete the **Catch** and add a new one. A **Catch** can be deleted by selecting it and deleting it or by using the **Delete** menu on the context menu accessed by right clicking.
+The **TryCatch** designer does not support editing **Catch**. If you want to change the exception type, you have to delete the **Catch** and add a new one. A **Catch** can be deleted by selecting it and deleting it or by selecting **Delete** on the context menu that's accessed by right-clicking.
 
 ### The TryCatch Properties
 

@@ -1,14 +1,9 @@
 ---
 title: "IDebugPortNotify2 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
 f1_keywords: 
   - "IDebugPortNotify2"
 helpviewer_keywords: 
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 43278b79-bf16-4c08-bcf1-6f7f7a17feab
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # IDebugPortNotify2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -33,7 +28,7 @@ IDebugPortNotify2 : IUnknown
  A custom port supplier implements this interface to support adding and removing programs from the port. It is typically implemented on the same object that implements the [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface.  
   
 ## Notes for Callers  
- A call to [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the `IDebugPort2` interface returns this interface. Also, a call to [GetPortNotify](../../../extensibility/debugger/reference/idebugdefaultport2-getportnotify.md) returns this interface. A debug engine can see this interface as a parameter to [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md).  
+ A call to [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the `IDebugPort2` interface returns this interface. Also, a call to [GetPortNotify](../../../extensibility/debugger/reference/idebugdefaultport2-getportnotify.md) returns this interface. A debug engine can see this interface as a parameter to [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md).  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortNotify2`.  
@@ -56,4 +51,3 @@ IDebugPortNotify2 : IUnknown
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
-

@@ -3,13 +3,14 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: conceptdev
 ms.author: crdun
-ms.date: 04/14/2017
+ms.date: 04/24/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
+ms.custom: video
 ---
 
 # Include a NuGet package in your project
 
-NuGet is the most popular package manager for .NET development and is built in to Visual Studio for Mac and Visual Studio on Windows. You can search for and add packages to your Xamarin.iOS and Xamarin.Android projects using either IDE.
+NuGet is the most popular package manager for .NET development and is built in to Visual Studio for Mac and Visual Studio on Windows. You can search for and add packages to your Xamarin, .NET Core and ASP.NET projects using either IDE.
 
 This article describes how to include a NuGet package in a project and demonstrates the tool chain that makes the process seamless.
 
@@ -25,7 +26,7 @@ First, create a project named `HelloNuget` as illustrated below. This example sh
 
 ## Adding a Package
 
-With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add Packages**:
+With the project open in Visual Studio for Mac, right-click on the **Packages** folder in the **Solution Pad** and select **Add NuGet Packages**:
 
 ![Add new NuGet package context action](media/nuget-walkthrough-PackagesMenu.png)
 
@@ -37,15 +38,15 @@ When the window opens it loads a list of packages from the default package sourc
 
 ![List NuGet Packages](media/nuget-walkthrough-AddPackages1.png)
 
-Use the search box in the top-right corner to find a specific package, for example `azure`. When you've found a package that you wish to use, select it and click the **Add Package** button to begin installation.
+Use the search box in the top-right corner to find a specific package, for example `azure mobile`. When you have found a package that you wish to use, select it and click the **Add Package** button to begin installation.
 
-[Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
+![Add Azure NuGet Package](media/nuget-walkthrough-AddPackages2.png)
 
 Once the package has been downloaded, it will be added to your project. The solution will change as follows:
 
 * The **References** node will contain a list of all the assemblies that are part of a NuGet package.
 * The **Packages** node displays each NuGet package that you have downloaded. You can update or remove a package from this list.
-* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](http://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
+* A **packages.config** file will be added to the project. This XML file is used by the IDE to track which package versions are referenced in this project. This file should not be hand-edited, but you should keep it in version control. Note that a project.json file can be used instead of a packages.config file. The project.json file is a new package file format introduced with NuGet 3, which supports transitive restore. More detailed information on project.json can be found in the [NuGet documentation](https://docs.microsoft.com/NuGet/Schema/Project-Json). The project.json file needs to be added manually and the project closed and re-opened before the project.json file is used in Visual Studio for Mac.
 
 ## Using NuGet Packages
 
@@ -71,7 +72,7 @@ Right-click on **Packages** to access the context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackagesMenu.png)
 
-*   **Add Packages** - Opens the window to add more packages to the project.
+*   **Add NuGet Packages** - Opens the window to add more packages to the project.
 *   **Update** - Checks the source server for each package and downloads any newer versions.
 *   **Restore** - Downloads any missing packages (without updating existing packages to newer versions).
 
@@ -81,9 +82,9 @@ You can also right-click on individual packages to access a context menu:
 
 ![Packages menu](media/nuget-walkthrough-PackageMenu.png)
 
-*   **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
-*   **Update** - Checks the source server and downloads a newer version (if it exists).
-*   **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
+* **Version Number** - The version number is a disabled menu item - it is provided for informational purposes only.
+* **Update** - Checks the source server and downloads a newer version (if it exists).
+* **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
 
 ## Adding Package Sources
 
@@ -108,6 +109,10 @@ The NuGet documentation discusses [using NuGet without committing packages to so
 ![Automatically restore packages](media/nuget-walkthrough-AutoRestore.png)
 
 Refer to your particular source control documentation for details on how to exclude the `packages` directory from being tracked.
+
+## Related Video
+
+> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Using-NuGet/player]
 
 ## See also
 

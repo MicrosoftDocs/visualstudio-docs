@@ -1,16 +1,14 @@
 ---
 title: "MSBuild Inline Tasks with RoslynCodeTaskFactory | Microsoft Docs"
-ms.custom: ""
 ms.date: "09/21/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "MSBuild, tasks"
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # MSBuild inline tasks with RoslynCodeTaskFactory
@@ -18,151 +16,151 @@ Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCode
 
 >[!NOTE]
 >The RoslynCodeTaskFactory is available in MSBuild 15.8 and above only.
-  
+
 ## The structure of an inline task with RoslynCodeTaskFactory
- RoslynCodeTaskFactory inline tasks are declared in an identical way as [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), the only difference being that they target .NET Standard.  The inline task and the `UsingTask` element that contains it are typically included in a *.targets* file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
-  
-```xml  
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <!-- This simple inline task does nothing. -->  
-  <UsingTask  
-    TaskName="DoNothing"  
-    TaskFactory="RoslynCodeTaskFactory"  
-    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >  
-    <ParameterGroup />  
-    <Task>  
-      <Reference Include="" />  
-      <Using Namespace="" />  
-      <Code Type="Fragment" Language="cs">  
-      </Code>  
-    </Task>  
-  </UsingTask>  
-</Project>  
-```  
-  
- The `UsingTask` element in the example has three attributes that describe the task and the inline task factory that compiles it.  
-  
--   The `TaskName` attribute names the task, in this case, `DoNothing`.  
-  
--   The `TaskFactory` attribute names the class that implements the inline task factory.  
-  
--   The `AssemblyFile` attribute gives the location of the inline task factory. Alternatively, you can use the `AssemblyName` attribute to specify the fully qualified name of the inline task factory class, which is typically located in the global assembly cache (GAC).  
+ RoslynCodeTaskFactory inline tasks are declared in an identical way as [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), the only difference being that they target .NET Standard.  The inline task and the `UsingTask` element that contains it are typically included in a *.targets* file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.
 
-The remaining elements of the `DoNothing` task are empty and are provided to illustrate the order and structure of an inline task. A more robust example is presented later in this topic.  
-  
--   The `ParameterGroup` element is optional. When specified, it declares the parameters for the task. For more information about input and output parameters, see [Input and Output Parameters](#input-and-output-parameters) later in this topic.  
-  
--   The `Task` element describes and contains the task source code.  
-  
--   The `Reference` element specifies references to the .NET assemblies that you are using in your code. This is equivalent to adding a reference to a project in Visual Studio. The `Include` attribute specifies the path of the referenced assembly.  
-  
--   The `Using` element lists the namespaces that you want to access. This resembles the `Using` statement in Visual C#. The `Namespace` attribute specifies the namespace to include.  
+```xml
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- This simple inline task does nothing. -->
+  <UsingTask
+    TaskName="DoNothing"
+    TaskFactory="RoslynCodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
+    <ParameterGroup />
+    <Task>
+      <Reference Include="" />
+      <Using Namespace="" />
+      <Code Type="Fragment" Language="cs">
+      </Code>
+    </Task>
+  </UsingTask>
+</Project>
+```
 
-`Reference` and `Using` elements are language-agnostic. Inline tasks can be written in any one of the supported .NET CodeDom languages, for example, Visual Basic or Visual C#.  
-  
-> [!NOTE]
->  Elements contained by the `Task` element are specific to the task factory, in this case, the code task factory.  
-  
-### Code element  
-The last child element to appear within the `Task` element is the `Code` element. The `Code` element contains or locates the code that you want to be compiled into a task. What you put in the `Code` element depends on how you want to write the task.  
+ The `UsingTask` element in the example has three attributes that describe the task and the inline task factory that compiles it.
 
-The `Language` attribute specifies the language in which your code is written. Acceptable values are `cs` for C#, `vb` for Visual Basic.  
+- The `TaskName` attribute names the task, in this case, `DoNothing`.
 
-The `Type` attribute specifies the type of code that is found in the `Code` element.  
-  
--   If the value of `Type` is `Class`, then the `Code` element contains code for a class that derives from the <xref:Microsoft.Build.Framework.ITask> interface.  
-  
--   If the value of `Type` is `Method`, then the code defines an override of the `Execute` method of the <xref:Microsoft.Build.Framework.ITask> interface.  
-  
--   If the value of `Type` is `Fragment`, then the code defines the contents of the `Execute` method, but not the signature or the `return` statement.  
+- The `TaskFactory` attribute names the class that implements the inline task factory.
 
-The code itself typically appears between a `<![CDATA[` marker and a `]]>` marker. Because the code is in a CDATA section, you do not have to worry about escaping reserved characters, for example, "\<" or ">".  
+- The `AssemblyFile` attribute gives the location of the inline task factory. Alternatively, you can use the `AssemblyName` attribute to specify the fully qualified name of the inline task factory class, which is typically located in the global assembly cache (GAC).
 
-Alternatively, you can use the `Source` attribute of the `Code` element to specify the location of a file that contains the code for your task. The code in the source file must be of the type that is specified by the `Type` attribute. If the `Source` attribute is present, the default value of `Type` is `Class`. If `Source` is not present, the default value is `Fragment`.  
+The remaining elements of the `DoNothing` task are empty and are provided to illustrate the order and structure of an inline task. A more robust example is presented later in this topic.
+
+- The `ParameterGroup` element is optional. When specified, it declares the parameters for the task. For more information about input and output parameters, see [Input and Output Parameters](#input-and-output-parameters) later in this topic.
+
+- The `Task` element describes and contains the task source code.
+
+- The `Reference` element specifies references to the .NET assemblies that you are using in your code. This is equivalent to adding a reference to a project in Visual Studio. The `Include` attribute specifies the path of the referenced assembly.
+
+- The `Using` element lists the namespaces that you want to access. This resembles the `Using` statement in Visual C#. The `Namespace` attribute specifies the namespace to include.
+
+`Reference` and `Using` elements are language-agnostic. Inline tasks can be written in any one of the supported .NET CodeDom languages, for example, Visual Basic or Visual C#.
 
 > [!NOTE]
->  When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.  
-  
-## Hello World  
- Here is a more robust inline task with RoslynCodeTaskFactory. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.  
-  
-```xml  
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <!-- This simple inline task displays "Hello, world!" -->  
-  <UsingTask  
-    TaskName="HelloWorld"  
-    TaskFactory="RoslynCodeTaskFactory"  
-    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >  
-    <ParameterGroup />  
-    <Task>  
+> Elements contained by the `Task` element are specific to the task factory, in this case, the code task factory.
+
+### Code element
+The last child element to appear within the `Task` element is the `Code` element. The `Code` element contains or locates the code that you want to be compiled into a task. What you put in the `Code` element depends on how you want to write the task.
+
+The `Language` attribute specifies the language in which your code is written. Acceptable values are `cs` for C#, `vb` for Visual Basic.
+
+The `Type` attribute specifies the type of code that is found in the `Code` element.
+
+- If the value of `Type` is `Class`, then the `Code` element contains code for a class that derives from the <xref:Microsoft.Build.Framework.ITask> interface.
+
+- If the value of `Type` is `Method`, then the code defines an override of the `Execute` method of the <xref:Microsoft.Build.Framework.ITask> interface.
+
+- If the value of `Type` is `Fragment`, then the code defines the contents of the `Execute` method, but not the signature or the `return` statement.
+
+The code itself typically appears between a `<![CDATA[` marker and a `]]>` marker. Because the code is in a CDATA section, you do not have to worry about escaping reserved characters, for example, "\<" or ">".
+
+Alternatively, you can use the `Source` attribute of the `Code` element to specify the location of a file that contains the code for your task. The code in the source file must be of the type that is specified by the `Type` attribute. If the `Source` attribute is present, the default value of `Type` is `Class`. If `Source` is not present, the default value is `Fragment`.
+
+> [!NOTE]
+> When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.
+
+## Hello World
+ Here is a more robust inline task with RoslynCodeTaskFactory. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.
+
+```xml
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- This simple inline task displays "Hello, world!" -->
+  <UsingTask
+    TaskName="HelloWorld"
+    TaskFactory="RoslynCodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
+    <ParameterGroup />
+    <Task>
       <Reference Include="System.Xml"/>
-      <Using Namespace="System"/>  
-      <Using Namespace="System.IO"/>  
-      <Code Type="Fragment" Language="cs">  
-<![CDATA[  
-// Display "Hello, world!"  
-Log.LogError("Hello, world!");  
-]]>  
-      </Code>  
-    </Task>  
-  </UsingTask>  
-</Project>  
-```  
+      <Using Namespace="System"/>
+      <Using Namespace="System.IO"/>
+      <Code Type="Fragment" Language="cs">
+<![CDATA[
+// Display "Hello, world!"
+Log.LogError("Hello, world!");
+]]>
+      </Code>
+    </Task>
+  </UsingTask>
+</Project>
+```
 
-You could save the HelloWorld task in a file that is named *HelloWorld.targets*, and then invoke it from a project as follows.  
+You could save the HelloWorld task in a file that is named *HelloWorld.targets*, and then invoke it from a project as follows.
 
-```xml  
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-  <Import Project="HelloWorld.targets" />  
-  <Target Name="Hello">  
-    <HelloWorld />  
-  </Target>  
-</Project>  
-```  
-  
-## Input and output parameters  
- Inline task parameters are child elements of a `ParameterGroup` element. Every parameter takes the name of the element that defines it. The following code defines the parameter `Text`.  
-  
-```xml  
-<ParameterGroup>  
-    <Text />  
-</ParameterGroup>  
-```  
+```xml
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="HelloWorld.targets" />
+  <Target Name="Hello">
+    <HelloWorld />
+  </Target>
+</Project>
+```
 
-Parameters may have one or more of these attributes:  
+## Input and output parameters
+ Inline task parameters are child elements of a `ParameterGroup` element. Every parameter takes the name of the element that defines it. The following code defines the parameter `Text`.
 
--   `Required` is an optional attribute that is `false` by default. If `true`, then the parameter is required and must be given a value before calling the task.  
-  
--   `ParameterType` is an optional attribute that is `System.String` by default. It may be set to any fully qualified type that is either an item or a value that can be converted to and from a string by using System.Convert.ChangeType. (In other words, any type that can be passed to and from an external task.)  
-  
--   `Output` is an optional attribute that is `false` by default. If `true`, then the parameter must be given a value before returning from the Execute method.  
+```xml
+<ParameterGroup>
+    <Text />
+</ParameterGroup>
+```
 
-For example,  
+Parameters may have one or more of these attributes:
 
-```xml  
-<ParameterGroup>  
-    <Expression Required="true" />  
-    <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />  
-    <Tally ParameterType="System.Int32" Output="true" />  
-</ParameterGroup>  
-```  
+- `Required` is an optional attribute that is `false` by default. If `true`, then the parameter is required and must be given a value before calling the task.
 
-defines these three parameters:  
+- `ParameterType` is an optional attribute that is `System.String` by default. It may be set to any fully qualified type that is either an item or a value that can be converted to and from a string by using System.Convert.ChangeType. (In other words, any type that can be passed to and from an external task.)
 
--   `Expression` is a required input parameter of type System.String.  
-  
--   `Files` is a required item list input parameter.  
-  
--   `Tally` is an output parameter of type System.Int32.  
+- `Output` is an optional attribute that is `false` by default. If `true`, then the parameter must be given a value before returning from the Execute method.
 
-If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.  
-  
-## Example  
- The following inline task logs some messages and returns a string.  
-  
-```xml  
-<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">  
-  
+For example,
+
+```xml
+<ParameterGroup>
+    <Expression Required="true" />
+    <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
+    <Tally ParameterType="System.Int32" Output="true" />
+</ParameterGroup>
+```
+
+defines these three parameters:
+
+- `Expression` is a required input parameter of type System.String.
+
+- `Files` is a required item list input parameter.
+
+- `Tally` is an output parameter of type System.Int32.
+
+If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
+
+## Example
+ The following inline task logs some messages and returns a string.
+
+```xml
+<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">
+
     <UsingTask TaskName="MySample"
                TaskFactory="RoslynCodeTaskFactory"
                AssemblyFile="$(MSBuildBinPath)\Microsoft.Build.Tasks.Core.dll">
@@ -183,22 +181,22 @@ If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then p
             </Code>
         </Task>
     </UsingTask>
-  
-    <Target Name="Demo">  
+
+    <Target Name="Demo">
       <MySample Parameter1="A value for parameter 1" Parameter2="A value for parameter 2">
           <Output TaskParameter="Parameter3" PropertyName="NewProperty" />
       </MySample>
 
       <Message Text="NewProperty: '$(NewProperty)'" />
-    </Target>  
-</Project>  
-```  
+    </Target>
+</Project>
+```
 
-These inline tasks can combine paths and get the file name.  
+These inline tasks can combine paths and get the file name.
 
-```xml  
-<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">  
-  
+```xml
+<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">
+
     <UsingTask TaskName="PathCombine"
                TaskFactory="RoslynCodeTaskFactory"
                AssemblyFile="$(MSBuildBinPath)\Microsoft.Build.Tasks.Core.dll">
@@ -232,8 +230,8 @@ These inline tasks can combine paths and get the file name.
             </Code>
         </Task>
     </UsingTask>
-  
-    <Target Name="Demo">  
+
+    <Target Name="Demo">
         <PathCombine Paths="$(Temp);MyFolder;$([System.Guid]::NewGuid()).txt">
             <Output TaskParameter="Combined" PropertyName="MyCombinedPaths" />
         </PathCombine>
@@ -245,10 +243,10 @@ These inline tasks can combine paths and get the file name.
         </PathGetFileName>
 
         <Message Text="File name: '$(MyFileName)'" />
-    </Target>  
-</Project>  
-```  
+    </Target>
+</Project>
+```
 
-## See also  
- [Tasks](../msbuild/msbuild-tasks.md)   
- [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)
+## See also
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

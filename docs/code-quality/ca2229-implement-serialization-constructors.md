@@ -1,8 +1,6 @@
 ---
 title: "CA2229: Implement serialization constructors"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA2229"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 8e04d5fe-dfad-445a-972e-0648324fac45
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

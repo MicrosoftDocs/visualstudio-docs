@@ -7,11 +7,9 @@ helpviewer_keywords:
   - "models, versions of Visual Studio"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Read models and diagrams in other Visual Studio editions
 
@@ -30,16 +28,16 @@ For this reason, if you want to read a dependency diagram, you must also have ac
 
 To read a dependency diagram, the minimum set of files that you need is as follows:
 
--   The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.
+- The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.
 
     > [!NOTE]
     > For dependency diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.
 
--   The modeling project file (**MyModel.modelproj**)
+- The modeling project file (**MyModel.modelproj**)
 
--   The root model file (**ModelDefinition\MyModel.uml**)
+- The root model file (**ModelDefinition\MyModel.uml**)
 
--   The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)
+- The package files for any package referenced in the diagram (**ModelDefinition\MyPackage.uml**)
 
 ## Changes that you can Make in Read-Only Mode
 

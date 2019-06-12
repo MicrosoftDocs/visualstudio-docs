@@ -1,21 +1,16 @@
 ---
 title: "Visualizing and Viewing Data | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], viewing data"
   - "debugging [Debugging SDK], visualizing data"
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
 caps.latest.revision: 21
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Visualizing and Viewing Data
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,12 +28,12 @@ Type visualizers and custom viewers present data in a way that is quickly meanin
  The [IEEVisualizerService](../../extensibility/debugger/reference/ieevisualizerservice.md) is obtained by calling [CreateVisualizerService](../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md). This method requires the [IDebugBinder3](../../extensibility/debugger/reference/idebugbinder3.md) interface, which is obtained from the [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) interface passed to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md). `IEEVisualizerServiceProvider::CreateVisualizerService` also requires the [IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md) and [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) interfaces which were passed to `IDebugParsedExpression::EvaluateSync`. The final interface required to create the `IEEVisualizerService` interface is the [IEEVisualizerDataProvider](../../extensibility/debugger/reference/ieevisualizerdataprovider.md) interface, which the EE implements. This interface allows changes to be made to the property being visualized. All property data is encapsulated in an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) interface, which is also implemented by the EE.  
   
 ### Accessing Property Data  
- Accessing property data is done through the [IPropertyProxyEESide](../../extensibility/debugger/reference/ipropertyproxyeeside.md) interface. To obtain this interface, Visual Studio calls [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the property object to get the [IPropertyProxyProvider](../../extensibility/debugger/reference/ipropertyproxyprovider.md) interface (implemented on the same object that implements the [IDebugProperty3](../../extensibility/debugger/reference/idebugproperty3.md) interface) and then calls the [GetPropertyProxy](../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) method to obtain the `IPropertyProxyEESide` interface.  
+ Accessing property data is done through the [IPropertyProxyEESide](../../extensibility/debugger/reference/ipropertyproxyeeside.md) interface. To obtain this interface, Visual Studio calls [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) on the property object to get the [IPropertyProxyProvider](../../extensibility/debugger/reference/ipropertyproxyprovider.md) interface (implemented on the same object that implements the [IDebugProperty3](../../extensibility/debugger/reference/idebugproperty3.md) interface) and then calls the [GetPropertyProxy](../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) method to obtain the `IPropertyProxyEESide` interface.  
   
  All data passed into and out of the `IPropertyProxyEESide` interface is encapsulated in the [IEEDataStorage](../../extensibility/debugger/reference/ieedatastorage.md) interface. This interface represents an array of bytes and is implemented by both Visual Studio and the EE. When a property's data is to be changed, Visual Studio creates an `IEEDataStorage` object holding the new data and calls [CreateReplacementObject](../../extensibility/debugger/reference/ipropertyproxyeeside-createreplacementobject.md) with that data object in order to obtain a new `IEEDataStorage` object that, in turn, is passed to [InPlaceUpdateObject](../../extensibility/debugger/reference/ipropertyproxyeeside-inplaceupdateobject.md) to update the property's data. `IPropertyProxyEESide::CreateReplacementObject` allows the EE to instantiate its own class that implements the `IEEDataStorage` interface.  
   
 ## Supporting Custom Viewers  
- The flag `DBG_ATTRIB_VALUE_CUSTOM_VIEWER` is set in the `dwAttrib` field of the [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) structure (returned by a call to [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md)) to indicate that the object has a custom viewer associated with it. When this flag is set, Visual Studio obtains the [IDebugProperty3](../../extensibility/debugger/reference/idebugproperty3.md) interface from the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface using [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3).  
+ The flag `DBG_ATTRIB_VALUE_CUSTOM_VIEWER` is set in the `dwAttrib` field of the [DEBUG_PROPERTY_INFO](../../extensibility/debugger/reference/debug-property-info.md) structure (returned by a call to [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md)) to indicate that the object has a custom viewer associated with it. When this flag is set, Visual Studio obtains the [IDebugProperty3](../../extensibility/debugger/reference/idebugproperty3.md) interface from the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) interface using [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3).  
   
  If the user selects a custom viewer, Visual Studio instantiates the custom viewer using the viewer's `CLSID` supplied by the `IDebugProperty3::GetCustomViewerList` method. Visual Studio then calls [DisplayValue](../../extensibility/debugger/reference/idebugcustomviewer-displayvalue.md) to show the value to the user.  
   
@@ -50,4 +45,3 @@ Type visualizers and custom viewers present data in a way that is quickly meanin
 ## See Also  
  [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)   
  [Type Visualizer and Custom Viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)
-

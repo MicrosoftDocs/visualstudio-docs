@@ -1,100 +1,98 @@
 ---
 title: "UsingTask Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.technology: msbuild
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "UsingTask element [MSBuild]"
   - "<UsingTask> element [MSBuild]"
 ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # UsingTask element (MSBuild)
-Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.  
+Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.
 
- \<Project>  
- \<UsingTask>  
+ \<Project>
+ \<UsingTask>
 
-## Syntax  
+## Syntax
 
-```xml  
-<UsingTask TaskName="TaskName"  
-    AssemblyName = "AssemblyName"   
-    TaskFactory = "ClassName"  
-    Condition="'String A'=='String B'" />  
-```  
+```xml
+<UsingTask TaskName="TaskName"
+    AssemblyName = "AssemblyName"
+    TaskFactory = "ClassName"
+    Condition="'String A'=='String B'" />
+```
 
-## Attributes and elements  
- The following sections describe attributes, child elements, and parent elements.  
+## Attributes and elements
+ The following sections describe attributes, child elements, and parent elements.
 
-### Attributes  
+### Attributes
 
-|Attribute|Description|  
-|---------------|-----------------|  
-|`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.Load%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|  
-|`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.LoadFrom%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|  
-|`TaskFactory`|Optional attribute.<br /><br /> Specifies the class in the assembly that is responsible for generating instances of the specified `Task` name.  The user may also specify a `TaskBody` as a child element that the task factory receives and uses to generate the task. The contents of the `TaskBody` are specific to the task factory.|  
-|`TaskName`|Required attribute.<br /><br /> The name of the task to reference from an assembly. If ambiguities are possible, this attribute should always specify full namespaces. If there are ambiguities, MSBuild chooses an arbitrary match, which could produce unexpected results.|  
-|`Condition`|Optional attribute.<br /><br /> The condition to evaluate. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
+|Attribute|Description|
+|---------------|-----------------|
+|`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.Load%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|
+|`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.LoadFrom%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|
+|`TaskFactory`|Optional attribute.<br /><br /> Specifies the class in the assembly that is responsible for generating instances of the specified `Task` name.  The user may also specify a `TaskBody` as a child element that the task factory receives and uses to generate the task. The contents of the `TaskBody` are specific to the task factory.|
+|`TaskName`|Required attribute.<br /><br /> The name of the task to reference from an assembly. If ambiguities are possible, this attribute should always specify full namespaces. If there are ambiguities, MSBuild chooses an arbitrary match, which could produce unexpected results.|
+|`Condition`|Optional attribute.<br /><br /> The condition to evaluate. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
-### Child elements  
+### Child elements
 
-|Element|Description|  
-|-------------|-----------------|  
-|[ParameterGroup](../msbuild/parametergroup-element.md)|The set of parameters that appear on the task that is generated by the specified `TaskFactory`.|  
-|[Task](../msbuild/task-element-msbuild.md)|The data that is passed to the `TaskFactory` to generate an instance of the task.|  
+|Element|Description|
+|-------------|-----------------|
+|[ParameterGroup](../msbuild/parametergroup-element.md)|The set of parameters that appear on the task that is generated by the specified `TaskFactory`.|
+|[Task](../msbuild/task-element-msbuild.md)|The data that is passed to the `TaskFactory` to generate an instance of the task.|
 
-### Parent elements  
+### Parent elements
 
 | Element | Description |
 | - | - |
 | [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
 
-## Remarks  
- Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
+## Remarks
+ Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
 > [!NOTE]
->  Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the *.tasks* files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.  
+> Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the *.tasks* files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.
 
- In MSBuild 4.0, using tasks can be loaded from *.overridetask* files.  
+ In MSBuild 4.0, using tasks can be loaded from *.overridetask* files.
 
-## Example  
- The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.  
+## Example
+ The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.
 
-```xml  
-<UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-              ...  
-</ParameterGroup>  
-       <TaskBody>  
-      ... Task factory-specific data ...  
-       </TaskBody>  
-</UsingTask>  
-```  
+```xml
+<UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">
+       <ParameterGroup>
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>
+              ...
+</ParameterGroup>
+       <TaskBody>
+      ... Task factory-specific data ...
+       </TaskBody>
+</UsingTask>
+```
 
-## Example  
- The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.  
+## Example
+ The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
 
-```xml  
-<UsingTask TaskName="Email"  
-              AssemblyFile="c:\myTasks\myTask.dll" />  
-```  
+```xml
+<UsingTask TaskName="Email"
+              AssemblyFile="c:\myTasks\myTask.dll" />
+```
 
-## See also  
- [Tasks](../msbuild/msbuild-tasks.md)   
- [Task reference](../msbuild/msbuild-task-reference.md)   
- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+## See also
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

@@ -2,7 +2,6 @@
 title: "IDispError Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Provides detailed contextual error information.  
   
 > [!NOTE]
->  This interface is not implemented.  
+> This interface is not implemented.  
   
  In addition to the methods inherited from `IUnknown`, the `IDispError` interface exposes the following methods.  
   

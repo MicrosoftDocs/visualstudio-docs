@@ -1,12 +1,9 @@
 ---
 title: "Customizing File Storage and XML Serialization | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
-ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-modeling
+ms.topic: conceptual
 f1_keywords: 
   - "vs.dsltools.dsldesigner.xmlbehavior"
 helpviewer_keywords: 
@@ -15,7 +12,7 @@ ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
 caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Customizing File Storage and XML Serialization
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,22 +24,22 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
  You can also write program code for more advanced customization.  
   
 > [!NOTE]
->  If you want to save the model in a particular format, but you do not need to reload it from that form, consider using text templates to generate output from the model, instead of a custom serialization scheme. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
+> If you want to save the model in a particular format, but you do not need to reload it from that form, consider using text templates to generate output from the model, instead of a custom serialization scheme. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
   
 ## Model and Diagram Files  
  Each model is usually saved in two files:  
   
--   The model file has a name such as **Model1.mydsl**. It stores the model elements and relationships and their properties. The file extension such as **.mydsl** is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.  
+- The model file has a name such as **Model1.mydsl**. It stores the model elements and relationships and their properties. The file extension such as **.mydsl** is determined by the **FileExtension** property of the **Editor** node in the DSL Definition.  
   
--   The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model is not lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors will be created.  
+- The diagram file has a name such as **Model1.mydsl.diagram**. It stores the shapes, connectors, and their positions, colors, line thicknesses, and other details of the appearance of the diagram. If the user deletes a **.diagram** file, the essential information in the model is not lost. Only the layout of the diagram is lost. When the model file is opened, a default set of shapes and connectors will be created.  
   
 #### To change the file extension of a DSL  
   
-1.  Open the DSL Definition. In DSL Explorer, click the Editor node.  
+1. Open the DSL Definition. In DSL Explorer, click the Editor node.  
   
-2.  In the Properties window, edit the **FileExtension** property. Do not include the initial "." of the file name extension.  
+2. In the Properties window, edit the **FileExtension** property. Do not include the initial "." of the file name extension.  
   
-3.  In Solution Explorer, change the name of the two item template files in **DslPackage\ProjectItemTemplates**. These files have names that follow this format:  
+3. In Solution Explorer, change the name of the two item template files in **DslPackage\ProjectItemTemplates**. These files have names that follow this format:  
   
      `myDsl.diagram`  
   
@@ -78,17 +75,17 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
  Notice the following points about the serialized model:  
   
--   Each XML node has a name that is the same as a domain class name, except that the initial letter is lowercase. For example, `familyTreeModel` and `person`.  
+- Each XML node has a name that is the same as a domain class name, except that the initial letter is lowercase. For example, `familyTreeModel` and `person`.  
   
--   Domain properties such as Name and BirthYear are serialized as attributes in the XML nodes. Again, the initial character of the property name is converted to lowercase.  
+- Domain properties such as Name and BirthYear are serialized as attributes in the XML nodes. Again, the initial character of the property name is converted to lowercase.  
   
--   Each relationship is serialized as an XML node nested inside the source end of the relationship. The node has the same name as the source role property, but with a lower case initial character.  
+- Each relationship is serialized as an XML node nested inside the source end of the relationship. The node has the same name as the source role property, but with a lower case initial character.  
   
      For example, in the DSL Definition, a role that is named **People** is sourced at the **FamilyTree** class.  In the XML, this is represented by the node named `people` nested inside the `familyTreeModel` node.  
   
--   The target end of each embedding relationship is serialized as a node nested under the relationship. For example, the `people` node contains several `person` nodes.  
+- The target end of each embedding relationship is serialized as a node nested under the relationship. For example, the `people` node contains several `person` nodes.  
   
--   The target end of each reference relationship is serialized as a *moniker*, which encodes a reference to the target element.  
+- The target end of each reference relationship is serialized as a *moniker*, which encodes a reference to the target element.  
   
      For example, under a `person` node, there can be a `children` relationship. This node contains monikers such as:  
   
@@ -122,33 +119,33 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 #### To set a domain class to be referenced by ID monikers  
   
-1.  Make sure that **Is Moniker Key** is `false` for every domain property in the class and its base classes.  
+1. Make sure that **Is Moniker Key** is `false` for every domain property in the class and its base classes.  
   
-    1.  In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**.  
+    1. In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**.  
   
-    2.  Verify that **Is Moniker Key** is `false` for every domain property.  
+    2. Verify that **Is Moniker Key** is `false` for every domain property.  
   
-    3.  If the domain class has a base class, repeat the procedure in that class.  
+    3. If the domain class has a base class, repeat the procedure in that class.  
   
-2.  Set **Serialize Id** = `true` for the domain class.  
+2. Set **Serialize Id** = `true` for the domain class.  
   
      This property can be found under **Xml Serialization Behavior**.  
   
 #### To set a domain class to be referenced by qualified key monikers  
   
--   Set **Is Moniker Key** for a domain property of an existing domain class. The type of the property must be `string`.  
+- Set **Is Moniker Key** for a domain property of an existing domain class. The type of the property must be `string`.  
   
-    1.  In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**, and then select the domain property.  
+    1. In DSL Explorer, expand **Xml Serialization Behavior\Class Data\\**_\<the domain class>_**\Element Data**, and then select the domain property.  
   
-    2.  In the Properties window, set **Is Moniker Key** to `true`.  
+    2. In the Properties window, set **Is Moniker Key** to `true`.  
   
--   \- or -  
+- \- or -  
   
      Create a new domain class using the **Named Domain Class** tool.  
   
      This tool creates a new class that has a domain property called Name. The **Is Element Name** and **Is Moniker Key** properties of this domain property are initialized to `true`.  
   
--   \- or -  
+- \- or -  
   
      Create an Inheritance relationship from the domain class to another class that has a moniker key property.  
   
@@ -157,11 +154,11 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
  There are several methods that help avoid this situation:  
   
--   Set **Is Element Name** = `true` for the key domain property. Select the domain property on the DSL Definition diagram and then set the value in the Properties window.  
+- Set **Is Element Name** = `true` for the key domain property. Select the domain property on the DSL Definition diagram and then set the value in the Properties window.  
   
      When the user creates a new instance of the class, this value causes the domain property to be automatically assigned a different value. The default behavior adds a number to the end of the class name. This does not prevent the user from changing the name to a duplicate, but it helps in the case when the user does not set the value before saving the model.  
   
--   Enable validation for the DSL. In DSL Explorer, select Editor\Validation, and set the **Uses...** properties to `true`.  
+- Enable validation for the DSL. In DSL Explorer, select Editor\Validation, and set the **Uses...** properties to `true`.  
   
      There is an automatically-generated validation method that checks for ambiguities. The method is in the `Load` validation category. This makes sure that the user will be warned that it might not be possible to re-open the file.  
   
@@ -201,7 +198,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
 ## Customizing the structure of the XML  
  To make the following customizations, expand the **Xml Serialization Behavior** node in DSL Explorer. Under a domain class, expand the Element Data node to see the list of properties and relationships that are sourced at this class. Select a relationship and adjust its options in the Properties window.  
   
--   Set **Omit Element** to true to omit the source role node, leaving just the list of target elements. You should not set this option if there is more than one relationship between the source and target classes.  
+- Set **Omit Element** to true to omit the source role node, leaving just the list of target elements. You should not set this option if there is more than one relationship between the source and target classes.  
   
     ```  
   
@@ -215,7 +212,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
     ```  
   
--   Set **Use Full Form** to embed the target nodes in nodes representing the relationship instances. This option is set automatically when you add domain properties to a domain relationship.  
+- Set **Use Full Form** to embed the target nodes in nodes representing the relationship instances. This option is set automatically when you add domain properties to a domain relationship.  
   
     ```  
   
@@ -233,7 +230,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
     ```  
   
--   Set **Representation** = **Element** to have a domain property saved as an element instead of as an attribute value.  
+- Set **Representation** = **Element** to have a domain property saved as an element instead of as an attribute value.  
   
     ```  
     <person name="Elizabeth I" birthYear="1533">  
@@ -241,7 +238,7 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
     </person>  
     ```  
   
--   To change the order in which attributes and relationships are serialized, right-click an item under Element Data, and use the **Move Up** or **Move Down** menu commands.  
+- To change the order in which attributes and relationships are serialized, right-click an item under Element Data, and use the **Move Up** or **Move Down** menu commands.  
   
 ## Major customization using program code  
  You can replace parts or all of the serialization algorithms.  
@@ -250,13 +247,13 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
   
 #### To customize the serialization of a particular class  
   
-1.  Set **Is Custom** in the node for that class under **Xml Serialization Behavior**.  
+1. Set **Is Custom** in the node for that class under **Xml Serialization Behavior**.  
   
-2.  Transform All Templates, build the solution, and investigate the resulting compilation errors. Comments near each error explain what code you have to provide.  
+2. Transform All Templates, build the solution, and investigate the resulting compilation errors. Comments near each error explain what code you have to provide.  
   
 #### To provide your own serialization for the whole model  
   
-1.  Override methods in Dsl\GeneratedCode\SerializationHelper.cs  
+1. Override methods in Dsl\GeneratedCode\SerializationHelper.cs  
   
 ## Options in Xml Serialization Behavior  
  In DSL Explorer, the Xml Serialization Behavior node contains a child node for each domain class, relationship, shape, connector and diagram class. Under each of those nodes is a list of properties and relationships sourced at that element. Relationships are represented both in their own right and under their source classes.  
@@ -307,6 +304,3 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
 ## See Also  
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)
-
-
-

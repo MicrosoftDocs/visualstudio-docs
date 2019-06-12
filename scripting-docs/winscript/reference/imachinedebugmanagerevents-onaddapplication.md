@@ -2,7 +2,6 @@
 title: "IMachineDebugManagerEvents::onAddApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles the event when an application is added to the running application list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onAddApplication(  
    IRemoteDebugApplication*  pda,  
    DWORD                     dwAppCookie  

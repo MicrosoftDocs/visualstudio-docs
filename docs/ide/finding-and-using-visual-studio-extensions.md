@@ -1,8 +1,6 @@
 ---
 title: Find and use extensions
-ms.date: 06/07/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 01/30/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.ExtensionManager"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -21,57 +19,110 @@ ms.workload:
 
 Visual Studio extensions are code packages that run inside Visual Studio and provide new or improved Visual Studio features. You can find more information about Visual Studio extensions here: [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-You can use the **Extensions and Updates** dialog box to install Visual Studio extensions and samples from websites and other locations, and then enable, disable, update, or uninstall them. (**Tools > Extensions and Updates**, or type **Extensions** in the **Quick Launch** window). The dialog box also shows updates for installed samples and extensions. You can also download extensions from websites, or get them from other developers.
+::: moniker range="vs-2017"
 
-> [!NOTE]
-> Starting in Visual Studio 2015, extensions hosted on the Visual Studio Marketplace are automatically updated. You can change this setting through the **Extensions and Updates** dialog.  See the section on **Automatic Extension Updates** below for details.
+Use the **Extensions and Updates** dialog box to install and manage Visual Studio extensions. To open the **Extensions and Updates** dialog, choose **Tools** > **Extensions and Updates**, or type **Extensions** in the **Quick Launch** search box.
 
-## Finding Visual Studio extensions
+::: moniker-end
 
-You can install extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Extensions may be controls, samples, templates, tools, or other components that add functionality to Visual Studio. Visual Studio supports extensions in the VSIX package format—these include project templates, item templates, **Toolbox** items, Managed Extension Framework (MEF) components, and VSPackages. You can also download and install MSI-based extensions, but the **Extensions and Updates** dialog box can't enable or disable them. The Visual Studio Marketplace contains both VSIX and MSI extensions.
+::: moniker range=">=vs-2019"
 
-## Installing or uninstalling Visual Studio extensions
+Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and choose **Manage Extensions**.
 
-In the **Extensions and Updates**, find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the **Search** window.) Click **Download**.  The extension will be scheduled for install. Your extension will be installed once all instances of Visual Studio are closed.
+::: moniker-end
+
+![Extensions window in Visual Studio](media/finding-using-visual-studio-extensions/extensions-and-updates.png)
+
+The pane on the left categorizes extensions by those that are installed, those available on Visual Studio Marketplace (**Online**), and those that have updates available. **Roaming Extension Manager** keeps a list of all the Visual Studio extensions you've installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
+
+## Find Visual Studio extensions
+
+You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). Extensions may be controls, samples, templates, tools, or other components that add functionality to Visual Studio. Visual Studio supports extensions in the VSIX package format—these include project templates, item templates, **Toolbox** items, Managed Extension Framework (MEF) components, and VSPackages.
+
+::: moniker range="vs-2017"
+
+You can also download and install MSI-based extensions, but the **Extensions and Updates** dialog box can't enable or disable them. Visual Studio Marketplace contains both VSIX and MSI extensions.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+You can also download and install MSI-based extensions, but the **Manage Extensions** dialog box can't enable or disable them. Visual Studio Marketplace contains both VSIX and MSI extensions.
+
+::: moniker-end
+
+## Install or uninstall Visual Studio extensions
+
+::: moniker range="vs-2017"
+
+From **Tools** > **Extensions and Updates**, find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the **Search** window.) Click **Download**. The extension is scheduled for install. Your extension will be installed once all instances of Visual Studio are closed.
 
 If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Extensions and Updates** dialog box lists the dependencies that must be installed before you can install the extension.
 
-If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. You can disable only VSIX extensions; extensions that were installed using an MSI can only be uninstalled. Find the extension and click **Uninstall** or **Disable**. You must restart Visual Studio in order to unload a disabled extension.
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+From **Extensions** > **Manage Extensions**, find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the **Search** window.) Click **Download**. The extension is scheduled for install. Your extension will be installed once all instances of Visual Studio are closed.
+
+If you try to install an extension that has dependencies, the installer verifies whether they're already installed. If they aren't installed, the **Manage Extensions** dialog box lists the dependencies that must be installed before you can install the extension.
+
+::: moniker-end
+
+If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. You can disable only VSIX extensions; extensions that were installed using an MSI can only be uninstalled. Find the extension and click **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
 
 ## Per-user and administrative extensions
 
-Most extensions are per-user extensions and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\<Visual Studio version\>\Extensions\\* folder. A few extensions are administrative extensions, and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
+Most extensions are per-user extensions and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\<Visual Studio version\>\Extensions\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
 
-To protect your system against extensions that may contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This means that per-user extensions are disabled when Visual Studio is run with administrative user permissions. To do this, go to the **Extensions and Updates** options page (**Tools > Options** > **Environment** > **Extensions and Updates**, or just type **Extension** in the **Quick Launch** window). Clear the **Load per user extensions when running as administrator** check box, then restart Visual Studio.
+To protect your system against extensions that may contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This means that per-user extensions are disabled when Visual Studio is run with administrative user permissions. To do this, go to the extensions options page (**Tools** > **Options** > **Environment** > **Extensions**). Clear the **Load per user extensions when running as administrator** check box, then restart Visual Studio.
 
 ## Automatic extension updates
 
-Per-user extensions are automatically updated when a new version is available for the Visual Studio Marketplace.  The new version of the extension is detected and installed in the background and on the next restart of Visual Studio, the new version of the extension will be running.
-
-Only per-user extensions can be automatically updated.  Administrative extensions which are installed for all users will not be updated and you still manually install new versions through the **Extensions and Updates** dialog's **Updates** node. You can see which extensions will be automatically updated in the extension's details pane of **Extensions and Updates** dialog.
+Extensions are automatically updated when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
 If you wish to disable automatic updates, you can disable the feature for all extensions or only specific extensions.
 
-- To disable automatic updates for all extensions, choose the **Change your Extensions and Updates settings** link in the **Extensions and Updates** dialog and uncheck **Automatically update extensions**.
+::: moniker range="vs-2017"
+
+- To disable automatic updates for all extensions, choose the **Change your Extensions and Updates settings** link in the **Tools** > **Extensions and Updates** dialog box. In the **Options** dialog, uncheck **Automatically update extensions**.
 
 - To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Extensions and Updates** dialog.
 
-> [!NOTE]
-> Starting in Visual Studio 2015 Update 2, you can specify (in **Tools > Options > Environment > Extensions and Updates**) whether you want automatic updates for per-user extensions,  all user extensions or both (the default setting).
+::: moniker-end
 
-## Extension crash/unresponsiveness notifications
+::: moniker range=">=vs-2019"
 
-New in **Visual Studio 2017 version 15.3**, Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
+- To disable automatic updates for all extensions, choose the **Change your settings for Extensions** link in the **Extensions** > **Manage Extensions** dialog box. In the **Options** dialog, uncheck **Automatically update extensions**.
 
-New in **Visual Studio 2017 version 15.6**, Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
+- To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Manage Extensions** dialog.
+
+::: moniker-end
+
+## Extension crash and unresponsiveness notifications
+
+Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
+
+Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
 
 When these notifications are shown, you can ignore the notification or take one of the following actions:
 
-- Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Extensions and Updates** dialog box if you want.
+::: moniker range="vs-2017"
+
+- Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Tools** > **Extensions and Updates** dialog box if you want.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+- Choose **Disable this extension**. Visual Studio disables the extension and lets you know whether you need to restart your system for the disabling to take effect. You can re-enable the extension in the **Extensions** > **Manage Extensions** dialog box if you want.
+
+::: moniker-end
 
 - Choose **Never show this message again**.
-  - If the notification concerns a crash in a previous session, Visual Studio will no longer show a notification when a crash associated with this extension occurs. Visual Studio will still show notifications when unresponsiveness can be associated with this extension, or for crashes or unresponsiveness that can be associated with other extensions.
-  - If the notification concerns unresponsiveness, the IDE will no longer show a notification when this extension is associated with unresponsiveness. Visual Studio will still show crash-related notifications for this extension, and crash- and unresponsiveness-related notifications for other extensions.
+
+  - If the notification concerns a crash in a previous session, Visual Studio no longer shows a notification when a crash associated with this extension occurs. Visual Studio will still show notifications when unresponsiveness can be associated with this extension, or for crashes or unresponsiveness that can be associated with other extensions.
+  - If the notification concerns unresponsiveness, the IDE no longer shows a notification when this extension is associated with unresponsiveness. Visual Studio will still show crash-related notifications for this extension, and crash- and unresponsiveness-related notifications for other extensions.
 
 - Choose **Learn more** to come to this page.
 
@@ -84,11 +135,21 @@ When these notifications are shown, you can ignore the notification or take one 
 
 When you install an online sample, the solution is stored in two locations:
 
-- A working copy is stored in the location that you specified in the **New Project** dialog box.
+- A working copy is stored in the location that you specified when you created the project.
 
 - A separate master copy is stored on your computer.
 
-You can use the **Extensions and Updates** dialog box to perform these samples-related tasks:
+::: moniker range="vs-2017"
+
+You can use the **Tools** > **Extensions and Updates** dialog box to perform these samples-related tasks:
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+You can use the **Extensions** > **Manage Extensions** dialog box to perform these samples-related tasks:
+
+::: moniker-end
 
 - List the master copies of samples that you have installed.
 
@@ -96,19 +157,38 @@ You can use the **Extensions and Updates** dialog box to perform these samples-r
 
 - Install Sample Packs, which are collections of samples that relate to a technology or feature.
 
-- Install individual online samples. (You can also do this in the **New Project** dialog box.)
+- Install individual online samples.
 
 - View update notifications when source code changes are published for installed samples.
 
 - Update the master copy of an installed sample when there is an update notification.
 
-## Installing without using the Extensions and Updates dialog box
+::: moniker range="vs-2017"
 
-Extensions that have been packaged in *.vsix* files may be available in locations other than the Visual Studio Marketplace. The **Extensions and Updates** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file, or selecting the file and pressing the **Enter** key. After that, just follow the instructions. When the extension is installed, you can use the **Extensions and Updates** dialog box to enable it, disable it, or uninstall it.
+## Install without using the Extensions and Updates dialog box
+
+Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Tools** > **Extensions and Updates** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file, or selecting the file and pressing the **Enter** key. After that, just follow the instructions. When the extension is installed, you can use the **Extensions and Updates** dialog box to enable it, disable it, or uninstall it.
 
 ## Extension types not supported by the Extensions and Updates dialog box
 
-Visual Studio continues to support extensions that are installed by the Microsoft Installer (MSI) but not through the **Extensions and Updates** dialog box without modification.
+Visual Studio continues to support extensions that are installed by the Microsoft Installer (MSI) but not through the **Tools** > **Extensions and Updates** dialog box without modification.
 
 > [!TIP]
-> If an MSI-based extension includes an *extension.vsixmanifest* file, the extension will appear in the **Extensions and Updates** dialog box.
+> If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Extensions and Updates** dialog box.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+## Install without using the Manage Extensions dialog box
+
+Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file, or selecting the file and pressing the **Enter** key. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
+
+## Extension types not supported by the Manage Extensions dialog box
+
+Visual Studio continues to support extensions that are installed by the Microsoft Installer (MSI) but not through the **Extensions** > **Manage Extensions** dialog box without modification.
+
+> [!TIP]
+> If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Manage Extensions** dialog box.
+
+::: moniker-end

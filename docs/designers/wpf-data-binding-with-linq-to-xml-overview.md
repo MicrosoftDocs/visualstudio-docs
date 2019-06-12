@@ -1,13 +1,11 @@
 ---
 title: WPF Data Binding with LINQ to XML Overview
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 3bf80845-891b-41de-a71b-4080b5bd3ea6
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +15,7 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
 
 ## XAML and LINQ to XML
 
-The Extensible Application Markup Language (XAML) is an XML dialect created by Microsoft to support .NET Framework 3.0 technologies. It is used in WPF to represent user interface elements and related features, such as events and data binding. In Windows Workflow Foundation, XAML is used to represent program structure, such as program control (*workflows*). XAML enables the declarative aspects of a technology to be separated from the related procedural code that defines the more individualized behavior of a program.
+The Extensible Application Markup Language (XAML) is an XML dialect created by Microsoft to support .NET technologies. It is used in WPF to represent user interface elements and related features, such as events and data binding. In Windows Workflow Foundation, XAML is used to represent program structure, such as program control (*workflows*). XAML enables the declarative aspects of a technology to be separated from the related procedural code that defines the more individualized behavior of a program.
 
 There are two broad ways that XAML and LINQ to XML can interact:
 

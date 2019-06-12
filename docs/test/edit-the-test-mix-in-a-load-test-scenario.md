@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 303e1d70-5d98-424a-b51e-e0898e16d3f8
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario
 
@@ -37,37 +35,37 @@ You can add more web performance and unit tests to the text mix of the scenario 
 
 ### To add more tests to an existing scenario
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  In the **Load Test Editor**, right-click an existing scenario and then choose **Add Tests**.
+2. In the **Load Test Editor**, right-click an existing scenario and then choose **Add Tests**.
 
      The **Add Tests** dialog box is displayed. All web performance, unit, and coded UI tests in your solution that are not already in your scenario are available to add to the scenario.
 
-3.  In the **Available tests** pane, select the web performance, unit, and coded UI tests that you want to add. Choose the right arrow to add the tests to the **Selected tests** pane.
+3. In the **Available tests** pane, select the web performance, unit, and coded UI tests that you want to add. Choose the right arrow to add the tests to the **Selected tests** pane.
 
-4.  When you finish adding tests, choose **OK**.
+4. When you finish adding tests, choose **OK**.
 
      The tests are added to the test mix. A new distribution is assigned automatically to the tests in the test mix.
 
-5.  (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
+5. (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
-##  Remove tests from a scenario
+## Remove tests from a scenario
  ![Removing a test from an existing load test](../test/media/ltest_removetest.png)
 
 ### To remove tests from a scenario
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  In the **Load Test Editor**, in the load test tree, right-click the scenario from which you want to remove a test and select **Edit Test Mix**. The **Edit Test Mix** dialog box is displayed.
+2. In the **Load Test Editor**, in the load test tree, right-click the scenario from which you want to remove a test and select **Edit Test Mix**. The **Edit Test Mix** dialog box is displayed.
 
-3.  Select the web performance, unit, or coded UI test in the grid and then choose **Remove**.
+3. Select the web performance, unit, or coded UI test in the grid and then choose **Remove**.
 
     > [!NOTE]
     > After you remove the test, adjust the test mix to your preferred distribution.
 
-4.  When you finish removing tests, choose **OK**.
+4. When you finish removing tests, choose **OK**.
 
-##  <a name="EditingTestMixAboutMixControl"></a> About the Mix Control
+## <a name="EditingTestMixAboutMixControl"></a> About the Mix Control
  The mix control allows you to adjust the percentage of load that is distributed among tests, browser types, or network types in a load test scenario. You adjust the percentage values by moving sliders. Adjusting the mix for tests specifies the probability of a virtual user running a specific test in a load test scenario.
 
  When you move a slider, the percentage values of all available items change. If you have more than two items, the amount you add or remove is distributed evenly among the other items. It is possible to override this behavior. If you select the check box in the lock column for a particular item, you lock the specified percentage value for that item. Then, when you move a slider, the amount you add or remove is only applied to any remaining unlocked items.
@@ -77,12 +75,10 @@ You can add more web performance and unit tests to the text mix of the scenario 
 > [!WARNING]
 > The **Distribute** button overrides any items that are locked.
 
-
  It is also possible to type the percentage values directly into the **%** column instead of using the sliders. If you enter a percentage value directly, the other items will not adjust automatically.
 
 > [!NOTE]
 > The sliders are disabled when the total does not add up to 100%, or when the percentage values entered into the **%** column are decimals.
-
 
  When you enter percentage values manually, you should make sure that the sum of all items is 100%. When you save a mix, if the sum is not 100%, you will be prompted to accept the percentage values as they are, or to go back and adjust them. If you choose to accept them as they are, they will be prorated to 100%.  For example, if you have two items and you manually set them to 80% and 40%, the first item will be set to 66.67% (80 divided by 120) and the second item will be set to 33.33% (40 divided by 120).
 

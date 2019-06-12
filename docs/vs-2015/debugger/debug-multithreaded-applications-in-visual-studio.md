@@ -1,14 +1,9 @@
 ---
 title: "Debug Multithreaded Applications"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords:
   - "vs.debug.gputthreads"
 dev_langs:
@@ -26,7 +21,7 @@ ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
 caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Debug Multithreaded Applications in Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +32,7 @@ A thread is a sequence of instructions to which the operating system allocates p
 
  In addition, multithreading introduces some new types of potential bugs. Often, for example, two or more threads have to access the same resource, but only one thread can safely access the resource at a time. Some form of mutual exclusion is necessary to make sure that only one thread is accessing the resource at a time. If mutual exclusion is performed incorrectly, it can create a *deadlock* condition where no thread can execute. Deadlocks can be a particularly hard problem to debug.
 
- Visual Studio provides a **Threads** window, a GPU Threads window, a Parallel Watch window, and other features that make multithreaded debugging easier. The best way to learn about the threading features is by doing the walkthroughs. See [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md) and [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5).
+ Visual Studio provides a **Threads** window, a GPU Threads window, a Parallel Watch window, and other features that make multithreaded debugging easier. The best way to learn about the threading features is by doing the walkthroughs. See [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough-debugging-a-multithreaded-application.md) and [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5).
 
  Visual Studio also provides powerful breakpoints and tracepoints, which can be very useful when you debug multithreaded applications. You can use breakpoint filters to place breakpoints on individual threads. See [Using Breakpoints](../debugger/using-breakpoints.md)
 
@@ -90,18 +85,19 @@ A thread is a sequence of instructions to which the operating system allocates p
  Examine and work with threads that are running on the GPU during debugging.
 
 ## Related Sections
- [Using Breakpoints](../debugger/using-breakpoints.md)
- -   Use breakpoint filters when you want to place a breakpoint on an individual thread.
+
+[Using Breakpoints](../debugger/using-breakpoints.md)
+- Use breakpoint filters when you want to place a breakpoint on an individual thread.
 
 - Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.
 
-  [Threading](http://msdn.microsoft.com/library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)
+  [Threading](https://msdn.microsoft.com/library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)
   Threading concepts in [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] programming, including example code.
 
-  [Multithreading in Components](http://msdn.microsoft.com/library/2fc31e68-fb71-4544-b654-0ce720478779)
+  [Multithreading in Components](https://msdn.microsoft.com/library/2fc31e68-fb71-4544-b654-0ce720478779)
   How to use multithreading in [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] components.
 
-  [Multithreading Support for Older Code (Visual C++)](http://msdn.microsoft.com/library/24425b1f-5031-4c6b-aac7-017115a40e7c)
+  [Multithreading Support for Older Code (Visual C++)](https://msdn.microsoft.com/library/24425b1f-5031-4c6b-aac7-017115a40e7c)
   Threading concepts and example code for C++ programmers using MFC.
 
 ## See Also

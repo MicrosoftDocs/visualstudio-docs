@@ -1,20 +1,15 @@
 ---
 title: "Implementing a Legacy Language Service1 | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "language services, managed"
 ms.assetid: df638f24-166d-4b80-be82-c9c39ca7a556
 caps.latest.revision: 19
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Implementing a Legacy Language Service
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,7 +19,7 @@ You can use classes in the managed package framework (MPF) to implement a legacy
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).  
   
 > [!NOTE]
->  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
+> We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
 ## In This Section  
  [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)  
@@ -47,4 +42,3 @@ You can use classes in the managed package framework (MPF) to implement a legacy
   
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)  
  Provides links to topics that detail what must be done to implement all the features of a language service by using MPF.
-

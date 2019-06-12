@@ -1,13 +1,11 @@
 ---
 title: Organize objects into layout containers in XAML Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -25,19 +23,7 @@ Layout panels help you arrange objects on a page, but they do more than that. Th
 
 Start your page by choosing one of these layout panels. Your page can have more than one. For example, you might start with a **Grid** layout panel, and then add a **StackPanel** to an area in the **Grid** so that you can arrange controls vertically in that element.
 
-The following layout panels are the most popularly used, but there are others. You can find them all in the **Assets** panel.
-
-- [Grid](#Grid)
-
-- [UniformGrid](#UniformGrid)
-
-- [Canvas](#Canvas)
-
-- [StackPanel](#stackpanel)
-
-- [WrapPanel](#wrappanel)
-
-- [DockPanel](#dockpanel)
+The following layout panels are the most popularly used, but there are others. You can find them all in **Toolbox** in Visual Studio or the **Assets** panel in Blend for Visual Studio.
 
 ### Grid
 
@@ -87,15 +73,7 @@ Arrange objects so that they stay, or *dock*, to one edge of the panel.
 
 You can add your objects to layout controls as well. They aren't as feature-rich as a layout panel, but you might find them helpful for certain scenarios.
 
-The following layout controls are the most popular, but there are others. You can find them all in the **Assets** panel.
-
-- [Border](#Border)
-
-- [Popup](#Popup)
-
-- [ScrollViewer](#scrollviewer)
-
-- [Viewbox](#viewbox)
+The following layout controls are the most popular, but there are others. You can find them all in **Toolbox** in Visual Studio or the **Assets** panel in Blend for Visual Studio.
 
 ### Border
 

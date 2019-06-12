@@ -1,22 +1,20 @@
 ---
 title: "XmlPoke Task | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: msbuild
 ms.topic: "reference"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "XmlPoke task [MSBuild]"
   - "MSBuild, XmlPoke task"
 ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # XmlPoke task
@@ -26,7 +24,7 @@ Sets values as specified by an XPath query into an XML file.
 ## Parameters
 
  The following table describes the parameters of the `XmlPoke` task.
-  
+
 |Parameter|Description|
 |---------------|-----------------|
 |`Namespaces`|Optional `String` parameter.<br /><br /> Specifies the namespaces for XPath query prefixes. `Namespaces` is an XML snippet consisting of `Namespace` elements with attributes `Prefix` and `Uri`. The attribute `Prefix` specifies the prefix to associate with the namespace specified in `Uri` attribute. Do not use an empty `Prefix`.|
@@ -77,5 +75,5 @@ In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisher
 
 ## See also
 
- [Tasks](../msbuild/msbuild-tasks.md)   
- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)

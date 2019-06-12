@@ -10,9 +10,7 @@ helpviewer_keywords:
 ms.assetid: 81536233-1962-40d9-9511-0b4633814d90
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results
 
@@ -47,25 +45,25 @@ For more information, see [How to: Specify the timing details storage property](
 
 ## To display a particular performance counter on a load test graph
 
-1.  After a load test is finished, or after you load a test result, in the Load Test Analyzer's toolbar, choose **Graphs**.
+1. After a load test is finished, or after you load a test result, in the Load Test Analyzer's toolbar, choose **Graphs**.
 
      The **Counters** panel is displayed in the Graphs view.
 
     > [!NOTE]
     > If the **Counters** panel is not visible, choose **Show Counters Panel** on the toolbar.
 
-2.  In the **Counters** panel, expand nodes in the hierarchy until you find the performance counter that you want to see displayed graphically.
+2. In the **Counters** panel, expand nodes in the hierarchy until you find the performance counter that you want to see displayed graphically.
 
      For example, to display the available memory on a computer where tests are running, expand **Computers**, expand the node for the computer, and then expand **Memory**. You will see the **Available MBytes** counter.
 
-3.  Choose the graph on which you want to display the performance counter.
+3. Choose the graph on which you want to display the performance counter.
 
-4.  Right-click the performance counter in the **Counters** panel and select **Show Counter on Graph**.
+4. Right-click the performance counter in the **Counters** panel and select **Show Counter on Graph**.
 
     > [!TIP]
     > To temporarily stop displaying the performance counter's data on the graph, clear the check box for the performance counter in the Legend. This allows the min, max and average statistics to still be analyzed without viewing the trend line on the graph. This can be useful if the graph contains several overlapping performance counter plots while you are analyzing issues. For more information, see [Use the Graphs view legend to analyze load tests](../test/use-the-graphs-view-legend-to-analyze-load-tests.md).
 
-5.  To remove the performance counter data from the graph, right-click the performance counter in the **Counter** column of the legend and select **Delete**.
+5. To remove the performance counter data from the graph, right-click the performance counter in the **Counter** column of the legend and select **Delete**.
 
      \- or -
 

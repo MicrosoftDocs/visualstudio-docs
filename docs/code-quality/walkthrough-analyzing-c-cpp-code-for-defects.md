@@ -1,8 +1,6 @@
 ---
 title: "Walkthrough: Analyzing C/C++ Code for Defects"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "C/C++, code analysis"
@@ -63,7 +61,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
      warning C6230: Implicit cast between semantically different types: using HRESULT in a Boolean context.
 
-     The code editor displays the line that caused the warning in the function `bool``ProcessDomain()`. This warning indicates that a HRESULT is being used in an 'if' statement where a Boolean result is expected.
+     The code editor displays the line that caused the warning in the function `bool ProcessDomain()`. This warning indicates that a HRESULT is being used in an 'if' statement where a Boolean result is expected.
 
 3. Correct this warning by using the SUCCEEDED macro. Your code should resemble the following code:
 

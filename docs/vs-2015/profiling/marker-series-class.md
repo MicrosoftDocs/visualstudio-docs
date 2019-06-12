@@ -1,14 +1,9 @@
 ---
 title: "marker_series Class | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: b8445ed0-c512-4f92-b6b4-3d05c044f939
 caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # marker_series Class
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +53,3 @@ class marker_series;
   
 ## See Also  
  [diagnostic Namespace](../profiling/diagnostic-namespace.md)
-
-
-

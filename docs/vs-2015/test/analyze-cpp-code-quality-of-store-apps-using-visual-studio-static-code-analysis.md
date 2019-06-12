@@ -2,7 +2,7 @@
 title: C++ static code analysis Store apps
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.technology: vs-ide-general
+ms.technology: vs-ide-test
 ms.topic: conceptual
 f1_keywords:
   - "vs.codeanalysis.propertypages.native.express"
@@ -10,7 +10,7 @@ ms.assetid: c5355e43-a37c-4686-a969-18e3dfc59a9c
 caps.latest.revision: 15
 author: "alexhomer1"
 ms.author: gewarren
-manager: "douge"
+manager: jillfra
 ---
 # Analyze C++ code quality of Store apps using Visual Studio static code analysis
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -20,9 +20,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  The code analysis tool in Visual Studio express editions examines your code for a set of common problems and violations of good programming practice. Code analysis warnings differ from compiler errors and warnings because code analysis searches for specific code patterns that are valid but could still create issues for you or other people who use your code. Code analysis can also find defects in your code that are difficult to discover through testing. Running the code analysis tool at regular intervals during your development process can enhance the quality of your completed app.
 
 > [!NOTE]
-> In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](http://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
+> In Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional, you can use the full functionality of code analysis tools. See [Analyzing Application Quality by Using Code Analysis Tools](https://msdn.microsoft.com/library/dd264897.aspx) in the MSDN Library.
 
-##  <a name="BKMK_Run"></a> Running code analysis
+## <a name="BKMK_Run"></a> Running code analysis
  To run code analysis on your Visual Studio solution:
 
 - On the **Build** menu, choose **Run Code Analysis on Solution**.
@@ -37,7 +37,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
    ![Code Analysis window](../test/media/ca-cpp-collapsed.png "CA_CPP_Collapsed")
 
-##  <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings
+## <a name="BKMK_Analyze"></a> Analyzing and resolving code analysis warnings
  To analyze a specific warning, choose the title of the warning in the Code Analysis window. The warning expands to display detailed information about the issue. When possible, code analysis displays the line number and analysis logic that led to the warning.
 
  ![Expanded code analysis warning](../test/media/ca-cpp-expanded-callout.png "CA_CPP_Expanded_Callout")
@@ -49,9 +49,9 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  After you understand the problem, you can resolve it in your code. Then rerun code analysis to make sure that the warning no longer appears in the Code Analysis window, and that your fix has not raised new warnings.
 
 > [!TIP]
->  You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and then choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.
+> You can rerun code analysis from the Code Analysis window. Choose the **Analyze** button and then choose the scope of the analysis. You can rerun analysis on the entire solution or on a selected project.
 
-##  <a name="BKMK_Suppress"></a> Suppressing code analysis warnings
+## <a name="BKMK_Suppress"></a> Suppressing code analysis warnings
  There are times when you might decide not to fix a code analysis warning. You might decide that resolving the warning requires too much recoding in relation to the probability that the issue will arise in any real-world implementation of your code. Or you might believe that the analysis that is used in the warning is inappropriate for the particular context. You can suppress individual warnings so that they no longer appear in the Code Analysis window.
 
  To suppress a warning:
@@ -64,14 +64,13 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
    Suppressing a message inserts `#pragma(warning:`*WarningId*`)` that suppresses the warning for the line of code.
 
-##  <a name="BKMK_Search"></a> Searching and filtering code analysis results
+## <a name="BKMK_Search"></a> Searching and filtering code analysis results
  You can search long lists of warning messages and you can filter warnings in multi-project solutions.
 
  ![Search and filter the code analysis window](../test/media/ca-searchfilter.png "CA_SearchFilter")
 
-##  <a name="Warnings"></a> C++ code analysis warnings
+## <a name="Warnings"></a> C++ code analysis warnings
  Code analysis raises the following warnings for C++ code:
-
 
 |                                      Rule                                      |                                                  Description                                                  |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -111,7 +110,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                       [C6504](../code-quality/c6504.md)                        |                                              Null On Non-Pointer                                              |
 |                       [C6505](../code-quality/c6505.md)                        |                                               MustCheck On Void                                               |
 |                       [C6506](../code-quality/c6506.md)                        |                                      Buffer Size On Non-Pointer Or Array                                      |
-| [C6507](http://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)        |                                       Null Mismatch At Dereference Zero                                       |
+| [C6507](https://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)        |                                       Null Mismatch At Dereference Zero                                       |
 |                       [C6508](../code-quality/c6508.md)                        |                                           Write Access On Constant                                            |
 |                       [C6509](../code-quality/c6509.md)                        |                                          Return Used On Precondition                                          |
 |                       [C6510](../code-quality/c6510.md)                        |                                        Null Terminated On Non-Pointer                                         |
@@ -122,12 +121,11 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                       [C6516](../code-quality/c6516.md)                        |                                          No Properties On Attribute                                           |
 |                       [C6517](../code-quality/c6517.md)                        |                                       Valid Size On Non-Readable Buffer                                       |
 |                       [C6518](../code-quality/c6518.md)                        |                                     Writable Size On Non-Writable Buffer                                      |
-| [C6519](http://msdn.microsoft.com/2b6326b0-0539-4d26-8fb1-720114933232)  |                  Invalid annotation: value of the 'NeedsRelease' property must be Yes or No                   |
-| [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        Invalid Size String Dereference                                        |
+| [C6521](https://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        Invalid Size String Dereference                                        |
 |                       [C6522](../code-quality/c6522.md)                        |                                           Invalid Size String Type                                            |
-| [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         Invalid Size String Parameter                                         |
+| [C6523](https://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         Invalid Size String Parameter                                         |
 |                       [C6525](../code-quality/c6525.md)                        |                                   Invalid Size String Unreachable Location                                    |
-| [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        Invalid Size String Buffer Type                                        |
+| [C6526](https://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        Invalid Size String Buffer Type                                        |
 |                       [C6527](../code-quality/c6527.md)                        |              Invalid annotation: 'NeedsRelease' property may not be used on values of void type               |
 |                       [C6530](../code-quality/c6530.md)                        |                                       Unrecognized Format String Style                                        |
 |                       [C6540](../code-quality/c6540.md)                        | The use of attribute annotations on this function will invalidate all of its existing __declspec annotations  |
@@ -188,7 +186,6 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 |                      [C28254](../code-quality/c28254.md)                       |                               dynamic_cast<>() is not supported in annotations                                |
 |                      [C28262](../code-quality/c28262.md)                       |                    A syntax error in the annotation was found in function, for annotation                     |
 |                      [C28263](../code-quality/c28263.md)                       |                 A syntax error in a conditional annotation was found for Intrinsic annotation                 |
-| [C28264](http://msdn.microsoft.com/bf6ea983-a06e-4752-a042-747a7dbf338c) |                                    Result lists values must be constants.                                     |
 |                      [C28267](../code-quality/c28267.md)                       |                    A syntax error in the annotations was found annotation in the function.                    |
 |                      [C28272](../code-quality/c28272.md)                       |      The annotation for function, parameter when examining is inconsistent with the function declaration      |
 |                      [C28273](../code-quality/c28273.md)                       |                    For function, the clues are inconsistent with the function declaration                     |

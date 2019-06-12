@@ -1,21 +1,16 @@
 ---
 title: "How to: Limit Instrumentation to Specific Functions | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "performance tools, limiting instrumentation to functions"
 ms.assetid: bd98d6bf-2560-4eba-b063-2facb09f87c4
 caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # How to: Limit Instrumentation to Specific Functions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +24,7 @@ You can limit instrumentation and data collection to one or more functions by se
   Limiting data collection in this manner is supported only when the instrumentation profiling method is selected.  
   
 > [!NOTE]
->  You can also use the **Advanced** page of the **Performance Session** property pages to set other options that are available to the Profiling Tools [VSInstr](../profiling/vsinstr.md) command line instrumentation tool.  
+> You can also use the **Advanced** page of the **Performance Session** property pages to set other options that are available to the Profiling Tools [VSInstr](../profiling/vsinstr.md) command line instrumentation tool.  
   
 ### To limit instrumentation to specific functions in a performance session  
   
@@ -46,7 +41,7 @@ You can limit instrumentation and data collection to one or more functions by se
     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.  
   
    > [!NOTE]
-   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
+   > To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
   
 ### To limit instrumentation to specific functions in a binary  
   
@@ -65,12 +60,9 @@ You can limit instrumentation and data collection to one or more functions by se
     `FuncSpec` is the namespace and function name. It has the format `Namespace`**::**`FunctionName`. Use a semicolon to separate multiple functions. Use an asterisk (\*) to specify a wildcard for one or more characters. For example, **/include:MyNS::\\*** specifies all functions in the MyNS namespace.  
   
    > [!NOTE]
-   >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
+   > To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../includes/vsprvsts-md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
   
 ## See Also  
  [Controlling Data Collection](../profiling/controlling-data-collection.md)   
  [How to: Limit Instrumentation to Specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)   
  [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)
-
-
-

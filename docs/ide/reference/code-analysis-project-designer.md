@@ -1,8 +1,6 @@
 ---
 title: Code Analysis, Project Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "vs29106"
@@ -12,63 +10,53 @@ helpviewer_keywords:
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # Code Analysis, Project Designer
-Contains the code analysis tool that you can opt to run on your code. The tool reports information about your assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
 
-## UIElement List
- Enable Code Analysis
+Contains the code analysis tool that you can opt to run on your code. The tool reports information about your assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Design Guidelines.
 
+## UIElement list
+
+ Enable Code Analysis\
  Enables or disables code analysis for your project.
 
- Design Rules
-
+ Design Rules\
  Enables or disables the design rules. You can also expand this entry to enable or disable individual rules.
 
- Globalization Rules
-
+ Globalization Rules\
  Enables or disables the globalization rules. You can also expand this entry to enable or disable individual rules.
 
- Interoperability Rules
-
+ Interoperability Rules\
  Enables or disables the interoperability rules. You can also expand this entry to enable or disable individual rules.
 
- Maintainability Rules
-
+ Maintainability Rules\
  Enables or disables the maintainability rules. You can also expand this entry to enable or disable individual rules.
 
- Mobility Rules
-
+ Mobility Rules\
  Enables or disables the mobility rules. You can also expand this entry to enable or disable individual rules.
 
- Naming Rules
-
+ Naming Rules\
  Enables or disables the naming rules. You can also expand this entry to enable or disable individual rules.
 
- Performance Rules
-
+ Performance Rules\
  Enables or disables the performance rules. You can also expand this entry to enable or disable individual rules.
 
- Portability Rules
-
+ Portability Rules\
  Enables or disables the portability rules. You can also expand this entry to enable or disable individual rules.
 
- Reliability Rules
-
+ Reliability Rules\
  Enables or disables the reliability rules. You can also expand this entry to enable or disable individual rules.
 
- Security Rules
-
+ Security Rules\
  Enables or disables the security rules. You can also expand this entry to enable or disable individual rules.
 
- Usage Rules
-
+ Usage Rules\
  Enables or disables the usage rules. You can also expand this entry to enable or disable individual rules.
 
-## See Also
+## See also
 
 - [Code Analysis for Managed Code Warnings](../../code-quality/code-analysis-for-managed-code-warnings.md)
 - [Code Analysis for Managed Code Overview](../../code-quality/code-analysis-for-managed-code-overview.md)

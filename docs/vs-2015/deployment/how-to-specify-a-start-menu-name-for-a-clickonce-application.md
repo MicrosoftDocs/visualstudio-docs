@@ -1,14 +1,9 @@
 ---
 title: "How to: Specify a Start Menu Name for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,7 +16,7 @@ ms.assetid: 4b5183b2-2fd4-4433-9310-4a73bb12c4e3
 caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Specify a Start Menu Name for a ClickOnce Application
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,21 +31,18 @@ When a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is ins
   
 ### To specify a Start menu name  
   
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
-2.  Click the **Publish** tab.  
+2. Click the **Publish** tab.  
   
-3.  Click the **Options** button to open the **Publish Options** dialog box.  
+3. Click the **Options** button to open the **Publish Options** dialog box.  
   
-4.  Click **Description**.  
+4. Click **Description**.  
   
-5.  In the **Publish Options** dialog box, enter the name to display in **Product name**.  
+5. In the **Publish Options** dialog box, enter the name to display in **Product name**.  
   
-6.  Optionally, you can enter a publisher name in **Publisher name**.  
+6. Optionally, you can enter a publisher name in **Publisher name**.  
   
 ## See Also  
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
-
-
-

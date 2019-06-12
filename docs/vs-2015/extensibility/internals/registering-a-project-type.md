@@ -1,14 +1,9 @@
 ---
 title: "Registering a Project Type | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], new project registry entries"
   - "registry, new project types"
@@ -16,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
 caps.latest.revision: 22
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Registering a Project Type
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +21,7 @@ When you create a new project type, you must create registry entries that enable
  In the example below, the statements from the registry provide default paths and data where applicable, followed by a table that contains entries from the registry script for each statement. The tables provide the script entries and additional information about the statements.  
   
 > [!NOTE]
->  The following registry information is intended to be an example of the type and purposes of the entries in the registry scripts you will be writing to register your project type. Your actual entries and their uses might vary based on the specific requirements of your project type. You should review the samples available to find one that closely resembles the type of project you are developing, and then review the registry script for that sample.  
+> The following registry information is intended to be an example of the type and purposes of the entries in the registry scripts you will be writing to register your project type. Your actual entries and their uses might vary based on the specific requirements of your project type. You should review the samples available to find one that closely resembles the type of project you are developing, and then review the registry script for that sample.  
   
  The following examples are from HKEY_CLASSES_ROOT.  
   
@@ -269,4 +264,3 @@ When you create a new project type, you must create registry entries that enable
  [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)   
  [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
-

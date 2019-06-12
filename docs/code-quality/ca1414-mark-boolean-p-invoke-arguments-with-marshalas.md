@@ -1,8 +1,6 @@
 ---
 title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
   - "CA1414"
@@ -13,7 +11,7 @@ helpviewer_keywords:
 ms.assetid: c0c84cf5-7701-4897-9114-66fc4b895699
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
  - CPP
  - CSharp

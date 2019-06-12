@@ -1,14 +1,9 @@
 ---
 title: "UnregisterAssembly Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UnregisterAssembly"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: 04f549dd-3591-4dda-9c3a-cf6ede9df2c3
 caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # UnregisterAssembly Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Unregisters the specified assemblies for COM interop purposes. Performs the reverse of the [RegisterAssembly task](../msbuild/registerassembly-task.md).  
   
 ## Parameters  
@@ -67,6 +61,3 @@ Unregisters the specified assemblies for COM interop purposes. Performs the reve
  [RegisterAssembly Task](../msbuild/registerassembly-task.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

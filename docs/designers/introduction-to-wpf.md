@@ -1,13 +1,11 @@
 ---
 title: Introduction to WPF
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-designers
 ms.topic: conceptual
 ms.assetid: b8d7cf43-d1f2-4f3d-adb0-4f3a6428edc0
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 dev_langs:
   - csharp
   - vb
@@ -20,13 +18,13 @@ Windows Presentation Foundation (WPF) lets you create desktop client application
 
 ![Contoso Healthcare UI sample](../designers/media/wpfintrofigure24.png)
 
-The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is included in the .NET Framework, so you can build applications that incorporate other elements of the .NET Framework class library.
+The core of WPF is a resolution-independent and vector-based rendering engine that is built to take advantage of modern graphics hardware. WPF extends the core with a comprehensive set of application-development features that include Extensible Application Markup Language (XAML), controls, data binding, layout, 2D and 3D graphics, animation, styles, templates, documents, media, text, and typography. WPF is part of .NET, so you can build applications that incorporate other elements of the .NET API.
 
 This overview is intended for newcomers and covers the key capabilities and concepts of WPF.
 
 ## Program with WPF
 
-WPF exists as a subset of .NET Framework types that are for the most part located in the <xref:System.Windows> namespace. If you have previously built applications with .NET Framework using managed technologies like ASP.NET and Windows Forms, the fundamental WPF programming experience should be familiar; you instantiate classes, set properties, call methods, and handle events, all using your favorite .NET programming language, such as C# or Visual Basic.
+WPF exists as a subset of .NET types that are (for the most part) located in the <xref:System.Windows> namespace. If you have previously built applications with .NET using managed technologies like ASP.NET and Windows Forms, the fundamental WPF programming experience should be familiar; you instantiate classes, set properties, call methods, and handle events, using your favorite .NET programming language, such as C# or Visual Basic.
 
 WPF includes additional programming constructs that enhance properties and events: [dependency properties](/dotnet/framework/wpf/advanced/dependency-properties-overview) and [routed events](/dotnet/framework/wpf/advanced/routed-events-overview).
 
@@ -220,9 +218,9 @@ The following figure shows the result of the XAML markup in the preceding exampl
 
 Most applications are created to provide users with the means to view and edit data. For WPF applications, the work of storing and accessing data is already provided for by technologies such as SQL Server and ADO .NET. After the data is accessed and loaded into an application's managed objects, the hard work for WPF applications begins. Essentially, this involves two things:
 
-1.  Copying the data from the managed objects into controls, where the data can be displayed and edited.
+1. Copying the data from the managed objects into controls, where the data can be displayed and edited.
 
-2.  Ensuring that changes made to data by using controls are copied back to the managed objects.
+2. Ensuring that changes made to data by using controls are copied back to the managed objects.
 
 To simplify application development, WPF provides a data binding engine to automatically perform these steps. The core unit of the data binding engine is the <xref:System.Windows.Data.Binding> class, whose job is to bind a control (the binding target) to a data object (the binding source). This relationship is illustrated by the following figure:
 
@@ -571,11 +569,11 @@ The following example defines a common background color that is shared by a <xre
 
 This example implements a background color resource by using the `Window.Resources` property element. This resource is available to all children of the <xref:System.Windows.Window>. There are a variety of resource scopes, including the following, listed in the order in which they are resolved:
 
-1.  An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
+1. An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
 
-2.  A <xref:System.Windows.Window> or a <xref:System.Windows.Controls.Page> (also using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
+2. A <xref:System.Windows.Window> or a <xref:System.Windows.Controls.Page> (also using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).
 
-3.  An <xref:System.Windows.Application> (using the <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> property).
+3. An <xref:System.Windows.Application> (using the <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> property).
 
 The variety of scopes gives you flexibility with respect to the way in which you define and share your resources.
 

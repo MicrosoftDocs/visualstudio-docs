@@ -2,10 +2,8 @@
 title: Browse and manage storage resources by using Server Explorer | Microsoft Docs
 description: Browsing and managing storage resources by using Server Explorer
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d
-ms.prod: visual-studio-dev15
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -39,7 +37,7 @@ The **Blobs** node displays a list of containers for the selected storage accoun
 ### To create a blob container
 
 1. Open the shortcut menu for the **Blobs** node, and then select **Create Blob Container**.
-1. In the **Create Blob Container** dialog box, enter the name of the new container.  
+1. In the **Create Blob Container** dialog box, enter the name of the new container.
 1. Select Enter on your keyboard, or you can click or tap outside the name field to save the blob container.
 
    > [!NOTE]
@@ -281,7 +279,7 @@ If you created a storage account by using the **Read-Access Geo Redundant** repl
 
 ### To remove a storage account from Server Explorer
 
-In Server Explorer, open the shortcut menu for the account name, and then select **Delete**. 
+In Server Explorer, open the shortcut menu for the account name, and then select **Delete**.
 
 If you delete a storage account, any saved key information for that account is also removed.
 

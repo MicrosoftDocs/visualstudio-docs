@@ -1,14 +1,9 @@
 ---
 title: "Function Details View | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.performance.view.functiondetails"
 helpviewer_keywords: 
@@ -18,7 +13,7 @@ ms.assetid: 8806954f-cf28-48d5-81b2-d722ceaf7d27
 caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Function Details View
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -113,6 +108,3 @@ The **Function Details View** window displays the following information:
 |-|-|  
 |**Inclusive Contentions (Contentions)**|-   For a **Calling Function**, the number of resource contention events that occurred in the instances of the selected function that the function called. The number includes contention events in functions that the selected function called.<br />-   For the **Function Body**, the total number of contention events that occurred when the function was executing its own code. Contentions occurring in functions that were called by the selected function are not included.<br />-   For a called function, the number of contention events that occurred in the instances of the function that were called by the selected function. The number includes contention events that occurred in functions that function called.|  
 |**Inclusive Blocked Time (Blocked Time)**|-   For a calling function, the time that was spent in resource contention events for the instances of the selected function that the function called. The time includes blocked time in functions that selected function called.<br />-   For the **Function Body**, the total time that was spent in contention events that occurred when the function was executing its own code. Contentions occurring in functions that the selected function called are not included.<br />-   For a called function, the time that was spent in resource contention events for the instances of the function that the selected function called. The time includes blocked time that occurred in functions that the function called.|
-
-
-

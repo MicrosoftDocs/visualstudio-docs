@@ -1,19 +1,16 @@
 ---
 title: "Localizing VSIX Packages | Microsoft Docs"
-ms.custom: ""
 ms.date: "10/26/2017"
-ms.technology: 
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "localize package"
   - "localize extension"
   - "localized deployment"
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Localizing VSIX Packages
@@ -24,7 +21,7 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 
 ## Directory structure
 
- When a user installs an extension, **Extensions and Updates** checks the top level of the VSIX package for a folder whose name matches the Visual Studio locale of the target computer. If **Extensions and Updates** finds a *.vsixlangpack* file in the folder, it substitutes the localized values in that file for the corresponding values in the *.vsixmanifest* file. These values are displayed when the extension is being installed. The following example shows the directory structure for a VSIX package that is localized into Spanish (es-ES) and French (fr-FR).  
+ When a user installs an extension, **Extensions and Updates** checks the top level of the VSIX package for a folder whose name matches the Visual Studio locale of the target computer. If **Extensions and Updates** finds a *.vsixlangpack* file in the folder, it substitutes the localized values in that file for the corresponding values in the *.vsixmanifest* file. These values are displayed when the extension is being installed. The following example shows the directory structure for a VSIX package that is localized into Spanish (es-ES) and French (fr-FR).
 
 ```text
 .
@@ -50,7 +47,7 @@ When you create a vsixlangpack file, you must set the `Include in Vsix` property
 
 1. In **Solution Explorer**, right-click the Extension.vsixlangpack file, and then click **Properties**.
 
-2.  In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
+2. In the **Property Grid**, click **Include in Vsix**, and set its value to `true`.
 
 ## Example
 
@@ -60,7 +57,7 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 
 ### Code
 
- [*Extension.vsixmanifest*]
+- [*Extension.vsixmanifest*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,7 +77,7 @@ The following example shows relevant portions of an *Extension.vsixmanifest* fil
 </PackageManifest>
 ```
 
- [*Extension.vsixlangpack*]
+- [*Extension.vsixlangpack*]
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

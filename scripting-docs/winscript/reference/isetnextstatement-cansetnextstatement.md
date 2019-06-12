@@ -2,7 +2,6 @@
 title: "ISetNextStatement::CanSetNextStatement | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ This method determines whether the execution point, which determines the next st
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CanSetNextStatement(  
    IDebugStackFrame*  pStackFrame,  
    IDebugCodeContext*  pCodeContext  

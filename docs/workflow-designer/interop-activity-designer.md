@@ -2,14 +2,12 @@
 title: "Workflow Designer - Interop Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
   - "System.Activities.Statements.Interop.UI"
 ms.assetid: 800a3403-ba86-41c4-8de1-c4fee9703eb1
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -25,11 +23,7 @@ The <xref:System.Activities.Statements.Interop> activity manages the execution o
 
 The **Interop** activity designer can be found in the **Migration** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
-The [Migration](../workflow-designer/migration-activity-designers.md) category that contains the <xref:System.Activities.Statements.Interop> activity only shows up in **Toolbox** if your project targets the full .NET Framework 4.
-
-For C# projects, you can re-target the project to use the full .NET Framework 4 by right-clicking the project in **Solution Explorer** and selecting **Properties**. On the **Application** tab, select the **NET Framework 4** option in the **Target framework**. Select **Yes** to confirm this change.
-
-For Visual Basic projects, you can re-target the project to use the full .NET Framework 4 by right-clicking on the project in **Solution Explorer** and selecting **Properties**. On the **Compile** tab, click the **Advanced Compile Options** button. Select **.Net Framework 4** from the **Target framework list**, and then click **OK**. Select **Yes** to confirm this change.
+The [Migration](../workflow-designer/migration-activity-designers.md) category that contains the <xref:System.Activities.Statements.Interop> activity only appears in **Toolbox** if your project targets .NET Framework 4 (full) or later. If necessary, you can change the framework version that your project targets.
 
 The **Interop** activity designer can be dragged from **Toolbox** and dropped onto the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **Interop** activity designer creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. You can edit the <xref:System.Activities.Activity.DisplayName%2A> in the header of the **Interop** activity designer, or in the **DisplayName** box of the property grid.
 

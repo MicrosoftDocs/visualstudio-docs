@@ -1,8 +1,6 @@
 ---
 title: Application property page for UWP apps
 ms.date: 01/23/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - AppPackage.Properties.Application
@@ -10,7 +8,7 @@ helpviewer_keywords:
   - "Application page [UWP project]"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "uwp"
 ---
@@ -40,7 +38,7 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 You can set the target version and minimum version of Windows 10 for your app by using the drop-down lists in this section. It is recommended that you target the latest version of Windows 10, and if you are developing an enterprise app, that you support an older minimum version too. For more information about which Windows 10 version to choose, see [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version).
 
-For information about platform targeting in Visual Studio 2017, see [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs#platform-targeting).
+For information about platform targeting in Visual Studio, see [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs#platform-targeting).
 
 ## See also
 

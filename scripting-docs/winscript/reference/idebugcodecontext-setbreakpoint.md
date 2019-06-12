@@ -2,7 +2,6 @@
 title: "IDebugCodeContext::SetBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets or clears a breakpoint at this code context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetBreakPoint(  
    BREAKPOINT_STATE  bps  
 );  

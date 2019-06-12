@@ -1,47 +1,47 @@
 ---
 title: "IEnumDebugFields::GetCount | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "IEnumDebugFields::GetCount"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IEnumDebugFields::GetCount method"
 ms.assetid: 3f471b40-4db3-49f7-b504-58b2476eef74
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
+dev_langs:
+  - CPP
+  - CSharp
 ---
 # IEnumDebugFields::GetCount
-This method returns the number of elements in the enumeration.  
-  
-## Syntax  
-  
-```cpp  
-HRESULT GetCount(  
-   [out] ULONG* pcelt  
-);  
-```  
-  
-```csharp  
-int GetCount(  
-   out uint pcelt  
-);  
-```  
-  
-#### Parameters  
- `pcelt`  
- [out] Returns the number of elements in the enumeration.  
-  
-## Return Value  
- If successful, returns `S_OK`; otherwise, returns an error code.  
-  
-## Remarks  
- This method is not part of the customary COM enumeration interface which specifies that only Next, Clone, Skip, and Reset need to be implemented.  
-  
-## See Also  
- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
+This method returns the number of elements in the enumeration.
+
+## Syntax
+
+```cpp
+HRESULT GetCount(
+   [out] ULONG* pcelt
+);
+```
+
+```csharp
+int GetCount(
+   out uint pcelt
+);
+```
+
+## Parameters
+`pcelt`\
+[out] Returns the number of elements in the enumeration.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ This method is not part of the customary COM enumeration interface which specifies that only Next, Clone, Skip, and Reset need to be implemented.
+
+## See also
+- [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

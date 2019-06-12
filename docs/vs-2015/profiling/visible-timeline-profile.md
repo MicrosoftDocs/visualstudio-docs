@@ -1,14 +1,9 @@
 ---
 title: "Visible Timeline Profile | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "vs.cv.threads.activelegend"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: 559841d1-967c-4b51-8574-6ace23969580
 caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Visible Timeline Profile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,6 +21,3 @@ The Visible Timeline Profile for the Thread Blocking View provides statistical i
   
 ## See Also  
  [Threads View](../profiling/threads-view-parallel-performance.md)
-
-
-

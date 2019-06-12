@@ -1,39 +1,34 @@
 ---
 title: "Evaluating Locals | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "debugging [Debugging SDK], evaluating locals"
   - "expression evaluation, evaluating locals"
 ms.assetid: 7d1ed528-4e7a-4d8f-87b4-162440644a75
 caps.latest.revision: 12
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Evaluating Locals
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+> In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) is called to obtain the value of a local, as well as the local's name and type. Since the value of a local is dependent on the current state of the program, the local's value must be obtained from memory. The [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object is used to bind the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object representing the local to the appropriate location in memory containing the value. This location in memory is represented by an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
  This functionality of retrieving the value of a local is encapsulated in a helper function that performs the following tasks:  
   
-1.  Binds the `IDebugField` object to memory to obtain an `IDebugObject` object.  
+1. Binds the `IDebugField` object to memory to obtain an `IDebugObject` object.  
   
-2.  Gets the value from memory. This value is represented as a series of bytes.  
+2. Gets the value from memory. This value is represented as a series of bytes.  
   
-3.  Formats the value based on the local's type.  
+3. Formats the value based on the local's type.  
   
-4.  Returns a generic object that contains the local's value. In C#, this is an `object`, and in C++, this is a `VARIANT`.  
+4. Returns a generic object that contains the local's value. In C#, this is an `object`, and in C++, this is a `VARIANT`.  
   
 ## Managed Code  
  This is an implementation of a function that retrieves the value of a local in managed code.  
@@ -194,4 +189,3 @@ HRESULT FieldGetPrimitiveValue(
  [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
  [Getting Local Values](../../extensibility/debugger/getting-local-values.md)   
  [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
-

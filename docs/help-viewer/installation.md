@@ -1,14 +1,13 @@
 ---
 title: Install offline help
 ms.date: 11/01/2017
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 helpviewer_keywords:
   - "installing Help Viewer"
   - "Help Viewer, installing"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -26,21 +25,17 @@ Help Viewer is an optional installation component of Visual Studio. To install i
 
 1. Choose the **Modify** button to start the installation of Microsoft Help Viewer.
 
-Another way to easily install Microsoft Help Viewer is via the **Quick Launch** box:
+Another way to easily install Microsoft Help Viewer is through the search box:
 
-1. Type or enter **help viewer** in the **Quick Launch** box on the Visual Studio title bar.
+1. Press **Ctrl**+**Q** and then type or enter **help viewer** in the search box.
 
-   ![Quick Launch box](media/installation/quick-launch.png)
+   ![Search box](media/installation/quick-launch.png)
 
 1. Choose the result called **Help Viewer (Individual Component)**.
 
 1. In the dialog box that opens, choose the **Install** button.
 
    ![Install button](media/installation/install.png)
-
-| | |
-|---------|---------|
-| ![movie camera icon for video](../install/media/video-icon.png) | [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=ZMfaVID6D_7411787171) on how to install the Microsoft Help Viewer by using Visual Studio Installer. |
 
 ## See also
 

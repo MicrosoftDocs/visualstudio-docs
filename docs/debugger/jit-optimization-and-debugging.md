@@ -1,22 +1,20 @@
 ---
 title: "JIT Optimization and Debugging | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugging [Visual Studio], optimized code"
   - "optimized code, debugging"
 ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # JIT Optimization and Debugging
@@ -42,8 +40,8 @@ If you are only interested in debugging the code you are building locally, it is
 1. In situations where you are attaching the debugger to an already running process, this option will have no effect on modules that were already loaded at the time the debugger was attached.
 2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable 'COMPlus_ZapDisable' set to '1'.
 
-## See Also  
- [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Managed Execution Process](/dotnet/standard/managed-execution-process)
+## See Also
+- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+- [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
+- [Managed Execution Process](/dotnet/standard/managed-execution-process)

@@ -1,13 +1,11 @@
 ---
 title: Debug Python code
 description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 10/10/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-python
+ms.date: 03/13/2019
 ms.topic: conceptual
-author: kraigb
-ms.author: kraigb
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.custom: seodec18
 ms.workload:
   - python
@@ -24,10 +22,6 @@ Also see the following scenario-specific debugging articles:
 - [Mixed-mode Python/C++ debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - [Symbols for mixed-mode debugging](debugging-symbols-for-mixed-mode-c-cpp-python.md)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Debugging-Python-Ep5dp5LWE_3805918567) for a demonstration of Python debugging (3m 32s).|
-
 <a name="debugging-without-a-project"></a>
 
 > [!Tip]
@@ -41,7 +35,7 @@ Also see the following scenario-specific debugging articles:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections.
 
-A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
+A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). Visual Studio 2017 version 15.6 and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md).
@@ -166,26 +160,22 @@ The **Debug Interactive** window supports special meta-commands in addition to t
 | --- | --- | --- |
 | `$continue`, `$cont`, `$c` | Starts running the program from the current statement. |
 | `$down`, `$d` | Move the current frame one level down in the stack trace. |
-| `$frame` | | Displays the current frame id.
-| `$frame` | frame id | Switches the current frame to the specified frame id.
+| `$frame` | | Displays the current frame ID.
+| `$frame` | frame ID | Switches the current frame to the specified frame ID.
 | `$load` | Loads commands from file and executes until complete |
-| `$proc` |  | Displays the current process id. |
-| `$proc` | process id | Switches the current process to the specified process id. |
+| `$proc` |  | Displays the current process ID. |
+| `$proc` | process ID | Switches the current process to the specified process ID. |
 | `$procs` | | Lists the processes currently being debugged. |
 | `$stepin`, `$step`, `$s` | Steps into the next function call, if possible. |
 | `$stepout`, `$return`, `$r` | Steps out of the current function. |
 | `$stepover`, `$until`, `$unt` | Steps over the next function call. |
-| `$thread` | | Displays the current thread id. |
-| `$thread` | thread id | Switches the current thread to the specified thread id. |
+| `$thread` | | Displays the current thread ID. |
+| `$thread` | thread ID | Switches the current thread to the specified thread ID. |
 | `$threads` | | Lists the threads currently being debugged. |
 | `$up`, `$u` | | Move the current frame one level up in the stack trace. |
 | `$where`, `$w`, `$bt` | Lists the frames for the current thread. |
 
 Note that the standard debugger windows such as **Processes**, **Threads**, and **Call Stack** are not synchronized with the **Debug Interactive** window. Changing the active process, thread, or frame in the **Debug Interactive** window does not affect the other debugger windows. Similarly, changing the active process, thread, or frame in the other debugger windows does not affect the **Debug Interactive** window.
-
-The **Debug Interactive** window has its own set of options, which you can access through **Tools** > **Options** > **Python Tools** > **Debug Interactive Window**. Unlike the regular **Python Interactive** window, which has a separate instance for each Python environment, there is only one **Debug Interactive** window and it always uses the Python interpreter for the process being debugged. See [Options - Debugging options](python-support-options-and-settings-in-visual-studio.md#debugging-options).
-
-![Debug Interactive Window Options](media/debugging-interactive-options.png)
 
 <a name="use-the-experimental-debugger"></a>
 
@@ -247,7 +237,7 @@ The following steps enable debugging in the current Visual Studio session:
 1. Enter the following command:
 
     ```ps
-    DebugAdapterHost.Logging /On
+    DebugAdapterHost.Logging /On /OutputWindow
     ```
 
 1. Start debugging and go through whatever steps are necessary to reproduce your issue. During this time, debug logs appear in the **Output** window under **Debug Adapter Host Log**. You can then copy the logs from that window and paste into a GitHub issue, email, etc.
@@ -257,7 +247,7 @@ The following steps enable debugging in the current Visual Studio session:
 1. If Visual Studio hangs or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
     ```ps
-    DebugAdapterHost.Logging /On /OutputWindow
+    DebugAdapterHost.Logging /On
     ```
 
 1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.

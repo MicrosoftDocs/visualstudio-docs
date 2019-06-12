@@ -1,8 +1,6 @@
 ---
-title: "How to: Change the Publish Language for a ClickOnce Application | Microsoft Docs"
-ms.custom: ""
+title: "Change publish language for ClickOnce application"
 ms.date: "11/04/2016"
-ms.technology: vs-ide-deployment
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -15,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ef5024c4-cda1-4970-bc75-32a2a10c92c3
 author: mikejo5000
 ms.author: mikejo
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -26,19 +24,19 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.
 
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
 
 ## To change the publish language
 
-1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
+1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
-2.  Click the **Publish** tab.
+2. Click the **Publish** tab.
 
-3.  Click the **Options** button to open the **Publish Options** dialog box.
+3. Click the **Options** button to open the **Publish Options** dialog box.
 
-4.  Click **Description**.
+4. Click **Description**.
 
-5.  In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
+5. In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.
 
 ## See also
 

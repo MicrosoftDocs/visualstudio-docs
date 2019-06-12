@@ -1,14 +1,9 @@
 ---
 title: "&lt;param&gt; (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "<param> JavaScript XML tag"
   - "param JavaScript XML tag"
@@ -16,7 +11,7 @@ ms.assetid: 2c4e0167-c1dd-4e54-83f1-c437856bddc1
 caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # &lt;param&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -122,6 +117,3 @@ function calculate(a) {
   
 ## See Also  
  [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
-
-
-

@@ -8,9 +8,7 @@ helpviewer_keywords:
 ms.assetid: 257d2a24-d582-4cfe-8b2b-51f51ba9cc84
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+manager: jillfra
 ---
 # How to: Add additional run settings to a load test
 
@@ -22,21 +20,21 @@ You can add more run settings to your load test with different property settings
 
 ## To add another run setting
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  (Optional) Expand the **Run Settings** folder.
+2. (Optional) Expand the **Run Settings** folder.
 
-3.  Right-click the **Run Settings** folder and select **Add Run Settings**.
+3. Right-click the **Run Settings** folder and select **Add Run Settings**.
 
      A new run setting is added to the **Run Settings** folder.
 
-4.  On the **View** menu, choose **Properties Window**.
+4. On the **View** menu, choose **Properties Window**.
 
      The **Properties** window is displayed with the properties for the selected run setting.
 
-5.  In the **Properties** window, use the text box for the **Name** property to give the new run setting a name that describes the intent of the run setting (for example, **Run Setting: Five minute run**).
+5. In the **Properties** window, use the text box for the **Name** property to give the new run setting a name that describes the intent of the run setting (for example, **Run Setting: Five minute run**).
 
-6.  Use the **Properties** window to change the run settings. For example, change the run duration to **00:05:00** to run your test for five minutes.
+6. Use the **Properties** window to change the run settings. For example, change the run duration to **00:05:00** to run your test for five minutes.
 
     > [!NOTE]
     > For a full list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).

@@ -1,14 +1,9 @@
 ---
 title: "MSBuild Task | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: reference
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#MSBuild"
 dev_langs: 
@@ -23,12 +18,11 @@ ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
 caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # MSBuild Task
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-  
 Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from another [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project.  
   
 ## Parameters  
@@ -68,7 +62,7 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 3.5, however, provides two new reserved metadata items, Properties and AdditionalProperties, that provide you a flexible way to pass different properties for different projects being built using the [MSBuild Task](../msbuild/msbuild-task.md).  
   
 > [!NOTE]
->  These new metadata items are applicable only to items passed in the Projects attribute of the [MSBuild Task](../msbuild/msbuild-task.md).  
+> These new metadata items are applicable only to items passed in the Projects attribute of the [MSBuild Task](../msbuild/msbuild-task.md).  
   
 ## Multi-Processor Build Benefits  
  One of the major benefits of using this new metadata occurs when you build your projects in parallel on a multi-processor system. The metadata allows you to consolidate all projects into a single [MSBuild Task](../msbuild/msbuild-task.md) call without having to perform any batching or conditional [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] tasks. And when you call only a single [MSBuild Task](../msbuild/msbuild-task.md), all of the projects listed in the Projects attribute will be built in parallel. (Only, however, if the `BuildInParallel=true` attribute is present in the [MSBuild Task](../msbuild/msbuild-task.md).) For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).  
@@ -77,7 +71,7 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
  A common scenario is when you are building multiple solution files using the [MSBuild Task](../msbuild/msbuild-task.md), only using different build configurations. You may want to build solution a1 using the Debug configuration and solution a2 using the Release configuration. In [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 2.0, this project file would look like the following:  
   
 > [!NOTE]
->  In the following example, "…" represents additional solution files.  
+> In the following example, "…" represents additional solution files.  
   
 ### a.proj  
   
@@ -192,6 +186,3 @@ Builds [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] projects from an
 ## See Also  
  [Tasks](../msbuild/msbuild-tasks.md)   
  [Task Reference](../msbuild/msbuild-task-reference.md)
-
-
-

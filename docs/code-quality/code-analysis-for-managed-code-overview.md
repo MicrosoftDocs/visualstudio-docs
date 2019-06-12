@@ -1,8 +1,6 @@
 ---
 title: Static code analysis for managed code
 ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
   - "vs.projectpropertypages.codeanalysis"
@@ -11,15 +9,15 @@ helpviewer_keywords:
   - "managed code, code analysis"
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "dotnet"
 ---
 # Overview of static code analysis for managed code in Visual Studio
 
-Visual Studio 2017 can perform code analysis of managed code in two ways: with *FxCop* static analysis of managed assemblies, and with the more modern *Roslyn analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using code analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
+Visual Studio can perform code analysis of managed code in two ways: with *FxCop* static analysis of managed assemblies, and with the more modern *Roslyn analyzers*. This topic covers FxCop static code analysis. To learn more about analyzing code by using code analyzers, see [Overview of Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md).
 
-Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.
+Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the [.NET Design Guidelines](/dotnet/standard/design-guidelines/).
 
 The analysis tool represents the checks it performs during an analysis as warning messages. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.
 
@@ -55,7 +53,7 @@ Public class MyClass
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings and want to become productive right away, you can *baseline* the analysis state of your project. From the **Analyze** menu, select **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017 or Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings and want to become productive right away, you can *baseline* the analysis state of your project. From the **Analyze** menu, select **Run Code Analysis and Suppress Active Issues**.
 
 ## Run code analysis as part of check-in policy
 

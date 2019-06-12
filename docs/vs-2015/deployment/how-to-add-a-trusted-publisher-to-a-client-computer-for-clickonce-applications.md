@@ -1,14 +1,9 @@
 ---
 title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +15,7 @@ ms.assetid: 35fe324c-45a1-4509-b7be-5c18b4b1b4ab
 caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +25,7 @@ With Trusted Application Deployment, you can configure client computers so that 
  The commands you use vary slightly depending on whether the certificate authority (CA) that issued your certificate is part of a client's trusted root. If a Windows client computer is part of a domain, it will contain, in a list, CAs that are considered trusted roots. This list is usually configured by the system administrator. If your certificate was issued by one of these trusted roots, or by a CA that chains to one of these trusted roots, you can add the certificate to the client's trusted root store. If, on the other hand, your certificate was not issued by one of these trusted roots, you must add the certificate to both the client's Trusted Root store and Trusted Publisher store.  
   
 > [!NOTE]
->  You must add certificates this way on every client computer to which you plan to deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application that requires elevated permissions. You add the certificates either manually or through an application you deploy to your clients. You only need to configure these computers once, after which you can deploy any number of [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications signed with the same certificate.  
+> You must add certificates this way on every client computer to which you plan to deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application that requires elevated permissions. You add the certificates either manually or through an application you deploy to your clients. You only need to configure these computers once, after which you can deploy any number of [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications signed with the same certificate.  
   
  You may also add a certificate to a store programmatically using the <xref:System.Security.Cryptography.X509Certificates.X509Store> class.  
   
@@ -38,21 +33,21 @@ With Trusted Application Deployment, you can configure client computers so that 
   
 ### To add a certificate to the Trusted Publishers store under the trusted root  
   
-1.  Obtain a digital certificate from a CA.  
+1. Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
-3.  From the command prompt on client computers, run the following command:  
+3. From the command prompt on client computers, run the following command:  
   
      **certmgr.exe -add certificate.cer -c -s -r localMachine TrustedPublisher**  
   
 ### To add a certificate to the Trusted Publishers store under a different root  
   
-1.  Obtain a digital certificate from a CA.  
+1. Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
-3.  From the command prompt on client computers, run the following command:  
+3. From the command prompt on client computers, run the following command:  
   
      **certmgr.exe -add good.cer -c -s -r localMachine Root**  
   
@@ -71,6 +66,3 @@ With Trusted Application Deployment, you can configure client computers so that 
  [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
  [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)   
  [How to: Configure the ClickOnce Trust Prompt Behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)
-
-
-

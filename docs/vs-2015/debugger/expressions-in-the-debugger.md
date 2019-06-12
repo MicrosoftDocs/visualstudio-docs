@@ -1,13 +1,8 @@
 ---
 title: "Expressions in the Debugger | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: conceptual
 f1_keywords: 
   - "vs.debug.expressions"
@@ -31,7 +26,7 @@ ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 caps.latest.revision: 30
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Expressions in the Debugger
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,7 +88,7 @@ int main()
   
 ```  
   
-###  <a name="BKMK_Using_debugger_intrinisic_functions_to_maintain_state"></a> Using debugger intrinsic functions to maintain state  
+### <a name="BKMK_Using_debugger_intrinisic_functions_to_maintain_state"></a> Using debugger intrinsic functions to maintain state  
  The debugger intrinsic functions give you a way to call certain C/C++ functions in expressions without changing the state of the application.  
   
  Debugger intrinsic functions:  
@@ -117,15 +112,15 @@ int main()
   
 ## C++/CLI - Unsupported Expressions  
   
--   Casts that involve pointers, or user-defined casts, are not supported.  
+- Casts that involve pointers, or user-defined casts, are not supported.  
   
--   Object comparison and assignment are not supported.  
+- Object comparison and assignment are not supported.  
   
--   Overloaded operators and overloaded functions are not supported.  
+- Overloaded operators and overloaded functions are not supported.  
   
--   Boxing and unboxing are not supported.  
+- Boxing and unboxing are not supported.  
   
--   `Sizeof` operator is not supported.  
+- `Sizeof` operator is not supported.  
   
 ## C# - Unsupported Expressions  
   
@@ -134,19 +129,19 @@ int main()
   
  The following features of dynamic objects are not supported:  
   
--   The compound operators `+=`, `-=`, `%=`, `/=`, and `*=`  
+- The compound operators `+=`, `-=`, `%=`, `/=`, and `*=`  
   
--   Many casts, including numeric casts and type-argument casts  
+- Many casts, including numeric casts and type-argument casts  
   
--   Method calls with more than two arguments  
+- Method calls with more than two arguments  
   
--   Property getters with more than two arguments  
+- Property getters with more than two arguments  
   
--   Property setters with arguments  
+- Property setters with arguments  
   
--   Assigning to an indexer  
+- Assigning to an indexer  
   
--   Boolean operators `&&` and `||`  
+- Boolean operators `&&` and `||`  
   
 ### Anonymous Methods  
  Creation of new anonymous methods is not supported.  
@@ -158,19 +153,19 @@ int main()
   
  The following features of dynamic objects are not supported:  
   
--   The compound operators `+=`, `-=`, `%=`, `/=`, and `*=`  
+- The compound operators `+=`, `-=`, `%=`, `/=`, and `*=`  
   
--   Many casts, including numeric casts and type-argument casts  
+- Many casts, including numeric casts and type-argument casts  
   
--   Method calls with more than two arguments  
+- Method calls with more than two arguments  
   
--   Property getters with more than two arguments  
+- Property getters with more than two arguments  
   
--   Property setters with arguments  
+- Property setters with arguments  
   
--   Assigning to an indexer  
+- Assigning to an indexer  
   
--   Boolean operators `&&` and `||`  
+- Boolean operators `&&` and `||`  
   
 ### Local Constants  
  Local constants are not supported.  
@@ -183,43 +178,38 @@ int main()
   
 ### Unsupported Keywords  
   
--   `AddressOf`  
+- `AddressOf`  
   
--   `End`  
+- `End`  
   
--   `Error`  
+- `Error`  
   
--   `Exit`  
+- `Exit`  
   
--   `Goto`  
+- `Goto`  
   
--   `On Error`  
+- `On Error`  
   
--   `Resume`  
+- `Resume`  
   
--   `Return`  
+- `Return`  
   
--   `Select/Case`  
+- `Select/Case`  
   
--   `Stop`  
+- `Stop`  
   
--   `SyncLock`  
+- `SyncLock`  
   
--   `Throw`  
+- `Throw`  
   
--   `Try/Catch/Finally`  
+- `Try/Catch/Finally`  
   
--   `With`  
+- `With`  
   
--   Namespace or module level keywords, such as `End Sub` or `Module`.  
+- Namespace or module level keywords, such as `End Sub` or `Module`.  
   
 ## See Also  
  [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md)   
  [Context Operator (C++)](../debugger/context-operator-cpp.md)   
  [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md)   
  [Pseudovariables](../debugger/pseudovariables.md)
-
-
-
-
-

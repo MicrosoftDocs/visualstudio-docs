@@ -1,14 +1,9 @@
 ---
 title: "GUIDs and IDs of Toolbars | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords:
   - "visual studio groups"
   - "toolbars"
@@ -20,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
 caps.latest.revision: 8
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # GUIDs and IDs of Visual Studio Toolbars
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +23,7 @@ manager: "ghogen"
 This topic enumerates the GUID and ID values of the toolbars that are included in the Visual Studio integrated development environment (IDE), and of the groups they contain. These values are defined in .vsct files that are installed as part of the Visual Studio SDK. For more information, see [IDE-Defined Commands, Menus, and Groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).
 
 > [!NOTE]
->  Many of the toolbars available to Visual Studio are not defined by Visual Studio, and their GUID and ID values are not public. This topic lists only toolbars that are defined in Visual Studio SDK .vsct files.
+> Many of the toolbars available to Visual Studio are not defined by Visual Studio, and their GUID and ID values are not public. This topic lists only toolbars that are defined in Visual Studio SDK .vsct files.
 
  For more information about how to work with IDE objects that are defined in .vsct files, see [Extending Menus and Commands](../../extensibility/extending-menus-and-commands.md).
 
@@ -109,7 +104,7 @@ This topic enumerates the GUID and ID values of the toolbars that are included i
  Toolbars can appear directly in the IDE or in tool windows such as **Solution Explorer**. Because tool windows are not defined in .vsct files, tool window toolbars do not have defined parents. Instead, they are placed in code. The following table shows the toolbars that appear on tool windows in the IDE, and the command groups they contain.
 
 > [!NOTE]
->  Toolbars and groups use the GUID `guidSHLMainMenu`, except where otherwise specified by using GUID:ID syntax. Where a GUID is specified for a toolbar, it also applies to the groups that descend from that toolbar.
+> Toolbars and groups use the GUID `guidSHLMainMenu`, except where otherwise specified by using GUID:ID syntax. Where a GUID is specified for a toolbar, it also applies to the groups that descend from that toolbar.
 
 |Tool Window|Toolbar|Groups|
 |-----------------|-------------|------------|

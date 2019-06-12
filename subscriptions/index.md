@@ -7,8 +7,6 @@ layout: LandingPage
 Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description:  Welcome to Visual Studio Subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
 Searchscope: VS Subscription
 ---
 
@@ -21,6 +19,7 @@ Visual Studio subscriptions is a comprehensive set of resources for you to creat
 Administrators sign in to [https://manage.visualstudio.com](https://manage.visualstudio.com) to assign subscriptions to your team.<br>
 Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com) to access your subscription benefits.
 
+<!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="/azure/">
@@ -152,7 +151,7 @@ To make your subscription even more useful, we add and update the subscription b
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li>Team Foundation Server and TFS CAL</li>
+                            <li>Azure DevOps Server and CAL</li>
                         </ul>
                     </div>
                 </div>
@@ -165,7 +164,7 @@ To make your subscription even more useful, we add and update the subscription b
                 <div class="card">
                     <div class="cardText">
                         <h3>Cloud Services</h3>
-                        <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit and free access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
+                        <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit for access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>

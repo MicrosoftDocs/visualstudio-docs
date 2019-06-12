@@ -4,20 +4,18 @@ author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/04/2018
-ms.topic: Get-Started-Article
+ms.topic: conceptual
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
 
-# Using the subscriber portal - my.<span></span>visualstudio<span></span>.com
+# Using the subscriber portal - my.visualstudio.com
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
 Using the portal requires that you sign in with the identity associated with your subscription.  This may your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](signing-in.md).
 
-The portal is organized in six pages.  Each page provides you with access to different products or services included with your subscription.  The six pages are Benefits, Downloads, Product Keys, Subscriptions, Support, and Marketplace. 
+The portal is organized in six pages.  Each page provides you with access to different products or services included with your subscription.  The six pages are Benefits, Downloads, Product Keys, Subscriptions, Support, and Marketplace.
 
 ## [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
 The tools and services included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  If you're using Visual Studio Dev Essentials, you'll also see a category entitled Featured, which may contain selected benefits from the other three categories.
@@ -48,4 +46,4 @@ In addition to the individual benefits found in the Support category on the Bene
 
 ## [Marketplace](https://marketplace.visualstudio.com/)
 
-Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Team Foundation Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
+Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Azure DevOps Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.

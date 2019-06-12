@@ -1,15 +1,14 @@
 ---
 title: "What&#39;s New in MSBuild 15 | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/01/2017"
-ms.technology: msbuild
 ms.topic: "conceptual"
 ms.assetid: 9976b6fd-d052-4017-b848-35b5bf4b2f66
 author: mikejo5000
 ms.author: mikejo
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
+monikerRange: "vs-2017"
 ---
 # What's new in MSBuild 15
 
@@ -19,7 +18,7 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
 
  MSBuild is now installed in a folder under each version of Visual Studio. For example, *C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild*. You can also use the following PowerShell module to locate MSBuild: [vssetup.powershell](https://github.com/Microsoft/vssetup.powershell).
 
- MSBuild is no longer installed in the Global Assembly Cache. To reference MSBuild programmatically, use NuGet packages.
+ MSBuild is no longer installed in the Global Assembly Cache. To reference MSBuild programmatically, use NuGet packages. For more information, see [Updating an existing application for MSBuild 15.0](../msbuild/updating-an-existing-application.md).
 
 ## Changed properties
 
@@ -44,8 +43,8 @@ MSBuild is now available as part of the [.NET Core SDK](https://www.microsoft.co
 - `EnsureTrailingSlash` adds a trailing slash to a path if one doesn't already exist.
 - `NormalizePath` combines path elements and ensures that the output string has the correct directory separator characters for the current operating system.
 - `NormalizeDirectory` combines path elements, ensures a trailing slash, and ensures that the output string has the correct directory separator characters for the current operating system.
-- `GetPathOfFileAbove` returns the path of the file immediately preceding this one. It is functionally equivalent to calling 
+- `GetPathOfFileAbove` returns the path of the file immediately preceding this one. It is functionally equivalent to calling
   `<Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />`
 
 ## See also
-[MSBuild](../msbuild/msbuild.md)
+- [MSBuild](../msbuild/msbuild.md)

@@ -1,14 +1,9 @@
 ---
 title: "CV_CPU_TYPE_e | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: reference
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
@@ -17,7 +12,7 @@ ms.assetid: df470a7e-1d04-448e-b920-c731189514fa
 caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # CV_CPU_TYPE_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +20,7 @@ manager: "ghogen"
 Specifies the target processor.  
   
 > [!NOTE]
->  The processor is identified in the enumeration element after the `CV_CFL_*` prefix.  
+> The processor is identified in the enumeration element after the `CV_CFL_*` prefix.  
   
 ## Syntax  
   
@@ -105,6 +100,3 @@ typedef enum CV_CPU_TYPE_e { 
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol::get_platform](../../debugger/debug-interface-access/idiasymbol-get-platform.md)
-
-
-

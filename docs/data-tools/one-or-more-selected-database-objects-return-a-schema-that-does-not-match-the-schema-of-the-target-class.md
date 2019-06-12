@@ -5,9 +5,7 @@ ms.topic: reference
 ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
 author: gewarren
 ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -25,5 +23,4 @@ When you drag database objects onto existing entity classes, the data returned b
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

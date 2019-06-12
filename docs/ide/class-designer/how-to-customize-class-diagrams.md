@@ -1,8 +1,6 @@
 ---
 title: "How to: Customize Class Diagrams (Class Designer)"
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
   - "class diagrams, customizing"
@@ -12,7 +10,7 @@ helpviewer_keywords:
 ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
 author: gewarren
 ms.author: gewarren
-manager: douge
+manager: jillfra
 ms.workload:
   - "multiple"
 ---

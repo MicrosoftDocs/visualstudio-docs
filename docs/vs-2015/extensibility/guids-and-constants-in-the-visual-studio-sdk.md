@@ -1,21 +1,16 @@
 ---
 title: "GUIDs and Constants in the Visual Studio SDK | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "constants, Visual Studio SDK"
   - "GUIDs, Visual Studio SDK"
 ms.assetid: 438c1079-0747-4995-ae7a-32aa399c96f5
 caps.latest.revision: 11
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # GUIDs and Constants in the Visual Studio SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,4 +30,3 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selecti
   
  [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)  
  Lists different types of command items used for extending project systems.
-

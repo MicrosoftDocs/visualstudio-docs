@@ -2,7 +2,7 @@
 title: Creating an Azure cloud service project
 description: Learn now to create an Azure cloud service project with Visual Studio
 author: ghogen
-manager: douge
+manager: jillfra
 assetId: ec580df7-3dcc-45a9-a1d9-8c110678dfb5
 ms.prod: visual-studio-dev14
 ms.technology: vs-azure

@@ -1,9 +1,6 @@
 ---
-title: "Walkthrough: Debugging a SharePoint Application by Using IntelliTrace | Microsoft Docs"
-ms.custom: ""
+title: "Debug SharePoint application using IntelliTrace"
 ms.date: "02/02/2017"
-ms.technology:
-  - "office-development"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -14,9 +11,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, IntelliTrace"
   - "data collector"
   - "IntelliTrace"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -30,15 +27,15 @@ By using IntelliTrace, you can more easily debug SharePoint solutions. Tradition
 
  This walkthrough illustrates the following tasks:
 
-- [Create a Feature Receiver](#BKMK_CreateReceiver)
+- [Create a Feature Receiver](#create-a-feature-receiver)
 
-- [Add Code to the Feature Receiver](#BKMK_AddCode)
+- [Add Code to the Feature Receiver](#add-code-to-the-feature-receiver)
 
-- [Test the Project](#BKMK_Test1)
+- [Test the Project](#test-the-project)
 
-- [Collect IntelliTrace Data by using Microsoft Monitoring Agent](#BKMK_CollectDiagnosticData)
+- [Collect IntelliTrace Data by using Microsoft Monitoring Agent](#collect-intellitrace-data-by-using-microsoft-monitoring-agent)
 
-- [Debug and Fix the SharePoint Solution](#BKMK_DebugSolution)
+- [Debug and Fix the SharePoint Solution](#debug-and-fix-the-sharepoint-solution)
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 

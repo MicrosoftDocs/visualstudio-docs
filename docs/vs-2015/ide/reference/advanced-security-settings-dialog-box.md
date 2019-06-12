@@ -1,14 +1,9 @@
 ---
 title: "Advanced Security Settings Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-general"
+ms.topic: reference
 f1_keywords: 
   - "vs.err.debug_in_zone_no_hostproc"
   - "vs.err.debug_in_zone_no_hostproc:11310"
@@ -22,12 +17,11 @@ ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
 caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
-manager: "ghogen"
+manager: jillfra
 ---
 # Advanced Security Settings Dialog Box
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-  
 This dialog box allows you to specify security settings related to debugging in zone.  
   
  To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab. On the **Security** page, select **Enable ClickOnce Security Settings**, click **This is a partial trust application**, and then click **Advanced**.  
@@ -48,6 +42,3 @@ This dialog box allows you to specify security settings related to debugging in 
   
 ## See Also  
  [Security Page, Project Designer](../../ide/reference/security-page-project-designer.md)
-
-
-

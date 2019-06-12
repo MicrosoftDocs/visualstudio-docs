@@ -1,14 +1,9 @@
 ---
 title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-deployment"
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -28,7 +23,7 @@ ms.assetid: d5d0c90b-ac1a-44e2-88dc-0d0ffd881624
 caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
-manager: "wpickett"
+manager: jillfra
 ---
 # Security, Versioning, and Manifest Issues in ClickOnce Deployments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,11 +61,11 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclic
   
  If you have manually edited your deployment or application manifests, you may have unintentionally corrupted them. Corrupted manifest will prevent a correct [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] installation. You can debug such errors at run time by clicking **Details** on the **ClickOnce Error** dialog box, and reading the error message in the log. The log will list one of the following messages:  
   
--   A description of the syntax error, and the line number and character position where the error occurred.  
+- A description of the syntax error, and the line number and character position where the error occurred.  
   
--   The name of an element or attribute used in violation of the manifest's schema. If you have added XML manually to your manifests, you will have to compare your additions to the manifest schemas. For more information, see [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) and [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
+- The name of an element or attribute used in violation of the manifest's schema. If you have added XML manually to your manifests, you will have to compare your additions to the manifest schemas. For more information, see [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) and [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
   
--   An ID conflict. Dependency references in deployment and application manifests must be unique in both their `name` and `publicKeyToken` attributes. If both attributes match between any two elements within a manifest, manifest parsing will not succeed.  
+- An ID conflict. Dependency references in deployment and application manifests must be unique in both their `name` and `publicKeyToken` attributes. If both attributes match between any two elements within a manifest, manifest parsing will not succeed.  
   
 ## Precautions When Manually Changing Manifests or Applications  
  When you update an application manifest, you must re-sign both the application manifest and the deployment manifest. The deployment manifest contains a reference to the application manifest that includes that file's hash and its digital signature.  
@@ -87,12 +82,9 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../includes/ndptecclic
  If you want to move or copy an application, you must also update the `deploymentProvider` path, so that the client actually installs from the new location. Updating this path is mostly a concern if you have installed applications. For online applications that are always launched through the original URL, setting the `deploymentProvider` is optional. If `deploymentProvider` is set, it will be honored; otherwise, the URL used to start the application will be used as the base URL to download application files.  
   
 > [!NOTE]
->  Every time that you update the manifest you must also sign it again.  
+> Every time that you update the manifest you must also sign it again.  
   
 ## See Also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
-
-
-

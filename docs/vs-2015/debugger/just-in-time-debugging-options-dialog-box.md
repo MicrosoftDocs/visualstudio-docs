@@ -1,14 +1,9 @@
 ---
 title: "Just-In-Time, Debugging, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: conceptual
 f1_keywords: 
   - "VS.ToolsOptionsPages.Debugger.JIT"
   - "vs.debug.options.JIT"
@@ -28,7 +23,7 @@ ms.assetid: 7f11b2e3-3fb5-449d-b07c-6ecf1d6a487d
 caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
-manager: "ghogen"
+manager: jillfra
 ---
 # Just-In-Time, Debugging, Options Dialog Box
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,6 +58,3 @@ To access the **Just-In-Time** page, go to the **Tools** menu and click **Option
 ## See Also  
  [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)   
  [How to: Specify Debugger Settings](../debugger/how-to-specify-debugger-settings.md)
-
-
-

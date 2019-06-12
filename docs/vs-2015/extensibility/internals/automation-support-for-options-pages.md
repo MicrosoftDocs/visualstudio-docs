@@ -1,21 +1,16 @@
 ---
 title: "Automation Support for Options Pages | Microsoft Docs"
-ms.custom: ""
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-sdk"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Tools Options pages [Visual Studio SDK], automation support"
   - "automation [Visual Studio SDK], creating Tools Options pages"
 ms.assetid: 0b25b82c-7432-4e0a-9e84-350269ba8260
 caps.latest.revision: 30
 ms.author: gregvanl
-manager: "ghogen"
+manager: jillfra
 ---
 # Automation Support for Options Pages
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,4 +34,3 @@ VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (To
   
 ## See Also  
  [Exposing Project Objects](../../extensibility/internals/exposing-project-objects.md)
-
