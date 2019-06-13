@@ -119,7 +119,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
    You can stop and start the remote debugger service from **Control Panel > Services**.
 
-## Set Up Debugging with Remote Symbols
+## Set up debugging with remote symbols
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
