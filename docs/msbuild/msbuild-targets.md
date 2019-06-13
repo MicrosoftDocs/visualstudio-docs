@@ -1,6 +1,6 @@
 ---
 title: "MSBuild Targets | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "06/13/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, targets"

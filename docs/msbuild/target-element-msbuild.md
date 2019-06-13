@@ -1,6 +1,6 @@
 ---
 title: "Target Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
+ms.date: "06/13/2019"
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#Target"
