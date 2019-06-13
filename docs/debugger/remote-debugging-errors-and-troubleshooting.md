@@ -35,7 +35,7 @@ You may come across the following errors when attempting to debug remotely.
 
 ## Run the remote debugger as an administrator
 
-You may come across issues if you don't run the remote debugger as an administrator. For example, if you are running the remote debugger as a service, you may see the following error: "The Visual Studio Remote Debugger (MSVSMON.EXE) has insufficient privileges to debug this process." If you are running the remote debugger as an application (not a service), you may see the [different user account](error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md) error.
+You may come across issues if you don't run the remote debugger as an administrator. For example, you may see the following error: "The Visual Studio Remote Debugger (MSVSMON.EXE) has insufficient privileges to debug this process." If you are running the remote debugger as an application (not a service), you may see the [different user account](error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-is-running-as-a-different-user.md) error.
 
 ### When running the remote debugger as a service
 
