@@ -130,7 +130,7 @@ When deciding where to put the properties, use the following general guidelines:
 
 - Define targets in *.targets* files. However, if the *.targets* file is imported by an SDK, remember that this scenario makes overriding the target more difficult because the user's project doesn't have a place to override it by default.
 
-- Is possible, prefer customizing properties at evaluation time over changing properties inside a target. This guideline makes it easier to load a project and understand what it's doing.
+- If possible, prefer customizing properties at evaluation time over changing properties inside a target. This guideline makes it easier to load a project and understand what it's doing.
 
 ## MSBuildProjectExtensionsPath
 
