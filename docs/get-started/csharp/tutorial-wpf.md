@@ -307,4 +307,4 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 
 ## See also
 
-- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+- [Productivity tips](../../ide/productivity-features.md)

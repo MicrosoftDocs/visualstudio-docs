@@ -2201,6 +2201,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/productivity-tips-for-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/productivity-features",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/tips-and-tricks-for-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/productivity-shortcuts",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/install/index.md",
             "redirect_url": "/visualstudio/install/install-visual-studio",
             "redirect_document_id": false
