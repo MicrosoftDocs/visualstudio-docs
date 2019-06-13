@@ -1,6 +1,6 @@
 ---
 title: "How to: Write unit tests for C++ DLLs"
-ms.date: 05/01/2019
+ms.date: 06/13/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: markl
@@ -146,13 +146,9 @@ The following steps show how to create a DLL project in Visual Studio 2017.
 
 1. Add the DLL project to the project references of the test project:
 
-   1. Open the properties of the test project and choose **Common Properties** > **Framework and References**.
+   1. Right-click on the test project node in **Solution Explorer** and choose **Add** > **Reference**.
 
-        ![C++ project properties | Framework and References](../test/media/utecpp08.png)
-
-   2. Choose **Add New Reference**.
-
-        In the **Add Reference** dialog box, select the DLL project and choose **Add**.
+   2. In the **Add Reference** dialog box, select the DLL project and choose **Add**.
 
         ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
 
