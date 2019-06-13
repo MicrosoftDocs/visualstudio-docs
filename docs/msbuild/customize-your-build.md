@@ -104,7 +104,9 @@ Or more simply: the first *Directory.Build.props* that doesn't import anything i
 
 ### Choose between adding properties to a .props or .targets file
 
-When using explicit imports, you can import from a *.props* or *.targets* file at any point. We recommend you follow the widely-used convention:
+MSBuild is import-order dependent, and the last definition of a property (or a `UsingTask` or target) is the definition used.
+
+When using explicit imports, you can import from a *.props* or *.targets* file at any point. Here is the widely-used convention:
 
 - *.props* files are imported early in the import order.
 
