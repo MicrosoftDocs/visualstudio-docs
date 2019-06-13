@@ -40,7 +40,7 @@ Targets group tasks together in a particular order and allow the build process t
 
 ## Target build order
 
- Targets must be ordered if the input to one target depends on the output of another target. MSBuild is import-order dependent, and the last definition of a target is the definition used.
+ Targets must be ordered if the input to one target depends on the output of another target.
  
  There are several ways to specify the order in which targets run.
 
