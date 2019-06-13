@@ -102,6 +102,34 @@ A summary of MSBuild's general approach is as follows:
 
 Or more simply: the first *Directory.Build.props* that doesn't import anything is where MSBuild stops.
 
+### Choose between adding properties to a .props or .targets file
+
+When using explicit imports, you can import from a *.props* or *.targets* file at any point. We recommend you follow the widely-used convention:
+
+- *.props* files are imported early in the import order.
+
+- *.targets*  files are imported late in the build order.
+
+This convention is enforced by `<Project Sdk="SdkName">` imports (that is, the import of *Sdk.props* comes first, before all of the contents of the file, then *Sdk.targets* comes last, after all of the contents of the file).
+
+When deciding where to put the properties, use the following general guidelines:
+
+- For many properties, it doesn't matter where they're defined, because they're not overwritten and will be read only at execution time.
+
+- For behavior that might be customized in an individual project, set defaults in *.props* files.
+
+- Avoid setting dependent properties in *.props* files by reading the value of a possibly-customized property, because the customization won't happen until MSBuild reads the user's project.
+
+- Set dependent properties in *.targets* files, because they'll pick up customizations from individual projects.
+
+- If you need to override properties, do it in a *.targets* file, after all user-project customizations have had a chance to take effect. Be cautious when using derived properties; derived properties may need to be overridden as well.
+
+- Include items in *.props* files (conditioned on a property). All properties are considered before any item, so user-project property customizations get picked up, and this gives the user's project the opportunity to `Remove` or `Update` any item brought in by the import.
+
+- Define targets in *.targets* files. However, if the *.targets* file is imported by an SDK, remember that this makes overriding the target more difficult because the user's project doesn't have a place to override it by default.
+
+- Is possible, prefer customizing properties at evaluation time over changing properties inside a target. This makes it easier to load a project and understand what it's doing.
+
 ## MSBuildProjectExtensionsPath
 
 By default, *Microsoft.Common.props* imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.props` and *Microsoft.Common.targets* imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.targets`. The default value of `MSBuildProjectExtensionsPath` is `$(BaseIntermediateOutputPath)`, `obj/`. NuGet uses this mechanism to refer to build logic delivered with packages; that is, at restore time, it creates `{project}.nuget.g.props` files that refer to the package contents.
