@@ -146,13 +146,9 @@ In **Solution Explorer**, choose the solution name. From the shortcut menu, choo
 
 1. Add RooterLib to the RooterLibTests project.
 
-   1. In **Solution Explorer**, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
+   1. In **Solution Explorer**, choose the **RooterLibTests** project and then choose **Add** > **Reference** on the shortcut menu.
 
-   2. On the **RooterLib Project Properties** dialog box, expand **Common Properties** and choose **Framework and References**.
-
-   3. Choose **Add New Reference**
-
-   4. In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
+   1. In the **Add Reference** dialog box, choose **Projects**. Then select the **RouterLib** item.
 
 2. Include the RooterLib header file in *unittest1.cpp*.
 

@@ -36,18 +36,18 @@ The following code uses `_Analysis_assume` to correct the code analysis warning 
 
 using namespace vc_attributes;
 
-// calls free and sets ch to null
-void FreeAndNull(char* ch);
-
 //requires pc to be null
 void f([Pre(Null=Yes)] char* pc);
 
-void test( )
+// calls free and sets ch to null
+void FreeAndNull(char** ch);
+
+void test()
 {
-  char *pc = (char*)malloc(5);
-  FreeAndNull(pc);
-  _Analysis_assume(pc == NULL);
-  f(pc);
+    char pc = (char)malloc(5);
+    FreeAndNull(&pc);
+    __analysis_assume(pc == NULL);
+    f(pc);
 }
 ```
 
