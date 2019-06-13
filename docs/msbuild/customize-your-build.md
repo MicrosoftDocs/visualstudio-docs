@@ -150,7 +150,7 @@ You can disable this extensibility mechanism by setting the property `ImportProj
 > [!WARNING]
 > Using these extension mechanisms makes it harder to get repeatable builds across machines. Try to use a configuration that can be checked into your source control system and shared among all developers of your codebase.
 
-By convention, many cores build logic files import
+By convention, many core build logic files import
 
 ```xml
 $(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportBefore\*.targets

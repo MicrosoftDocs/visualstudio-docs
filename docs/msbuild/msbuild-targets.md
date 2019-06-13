@@ -38,6 +38,8 @@ Targets group tasks together in a particular order and allow the build process t
 
  If AfterBuild executes, it displays only "Second occurrence".
 
+ MSBuild is import-order dependent, and the last definition of a target is the definition used.
+
 ## Target build order
 
  Targets must be ordered if the input to one target depends on the output of another target.
