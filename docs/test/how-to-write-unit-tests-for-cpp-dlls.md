@@ -66,15 +66,13 @@ author: mikeblome
 
       ::: moniker-end
 
-  2. In **Solution Explorer**, on the shortcut menu of the test project, choose **References**. The project **Properties** window opens.
+  1. In **Solution Explorer**, right-click on the test project, then choose **Add** > **Reference**.
 
-  3. Select **Common Properties** > **Framework and References**, and then choose the **Add New Reference** button.
-
-  4. Select **Projects**, and then the project to be tested.
+  1. Select **Projects**, and then the project to be tested.
 
        Choose the **Add** button.
 
-  5. In the properties for the test project, add the location of the project under test to the Include Directories.
+  1. In the properties for the test project, add the location of the project under test to the Include Directories.
 
        Choose **Configuration Properties** > **VC++ Directories** > **Include Directories**.
 

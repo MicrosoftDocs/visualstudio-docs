@@ -37,9 +37,6 @@ To report a problem with Visual Studio for Mac, select **Help > Report a Problem
 
 1. If you don’t find the problem you encountered, choose **Report a New Problem** at the side of the screen.
 
-   > [!NOTE]
-   > The **Report a New Problem** button only appears in the Visual Studio for Mac interface for Developer Community. You can't report a problem directly on the [Developer Community](https://developercommunity.visualstudio.com/) website.
-
 1. Create a descriptive title for the problem that helps us route it to the correct Visual Studio for Mac team.
 
 1. Give us any additional details, and if possible, provide us with the steps to reproduce the problem.
