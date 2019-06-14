@@ -97,6 +97,13 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
    > [!NOTE]
    > If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshoot .NET targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
+> [!TIP]
+> Depending on the target framework, it can be represented in the following ways in the project file:
+>
+> - For a .NET Core app: `<TargetFramework>netcoreapp2.1</TargetFramework>`
+> - For a .NET Standard app: `<TargetFramework>netstandard2.0</TargetFramework>`
+> - For a .NET Framework app: `<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>`
+
 ## Resolve system and user assembly references
 
 To target a .NET version, you must first install the appropriate assembly references. You can download developer packs for different versions of .NET on the [.NET downloads](https://www.microsoft.com/net/download/windows) page.
