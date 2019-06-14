@@ -1571,6 +1571,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/how-to-target-a-version-of-the-dotnet-framework.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/creating-applications-in-bi-directional-languages.md",
             "redirect_url": "/visualstudio/ide/use-bidirectional-languages",
             "redirect_document_id": false
