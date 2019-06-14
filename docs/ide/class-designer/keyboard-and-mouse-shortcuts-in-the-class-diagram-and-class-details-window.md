@@ -97,3 +97,6 @@ Use the following keys to navigate the **Class Details** window:
 ## See also
 
 - [Create and configure type members](creating-and-configuring-type-members.md)
+- [How to use the keyboard exclusively](../reference/how-to-use-the-keyboard-exclusively.md)
+- [Default keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md)
+- [Keyboard shortcuts in Blend](../../designers/keyboard-shortcuts-in-blend.md)

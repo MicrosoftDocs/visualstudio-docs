@@ -68,8 +68,8 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                            |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available       |  Yes|
-| Visual Studio Dev Essentials | NA  | Not available |NA|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
 

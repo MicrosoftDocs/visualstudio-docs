@@ -65,8 +65,8 @@ To learn more about the Office 365 Developer subscription, check out the [Office
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
-| Visual Studio Dev Essentials | NA  | Not available |NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark,  MCT Software & Services Developer, MCT Software & Services.  Excludes:  Microsoft Partner Network (MPN), Imagine, Most Valuable Professional (MVP), Regional Director (RD).*
 

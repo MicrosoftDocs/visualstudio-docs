@@ -300,13 +300,13 @@ Congratulations on completing this tutorial! You can find the *.exe* you built u
 ::: moniker range="vs-2017"
 
 - [What's new in Visual Studio 2017](../../ide/whats-new-visual-studio-2017.md)
-- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+- [Productivity tips](../../ide/productivity-features.md)
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
 - [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
-- [Productivity tips](../../ide/productivity-tips-for-visual-studio.md)
+- [Productivity tips](../../ide/productivity-features.md)
 
 ::: moniker-end

@@ -399,6 +399,8 @@
             href: ide/reference/move-type-to-matching-file.md
           - name: Pull member up
             href: ide/reference/pull-members-up.md
+          - name: Regex completion through IntelliSense
+            href: ide/reference/regex-completion-through-intellisense.md
           - name: Remove unreachable code
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
@@ -415,24 +417,6 @@
             href: ide/reference/wrap-align-indent-parameters.md
         - name: "Walkthrough: Generate code from usage"
           href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
-      - name: Tips and tricks
-        items:
-        - name: Productivity tips
-          href: ide/productivity-tips-for-visual-studio.md
-        - name: Keyboard shortcuts
-          # Auto-expanded node
-          items:
-          - name: Keyboard shortcuts
-            href: ide/tips-and-tricks-for-visual-studio.md
-          - name: Identify and customize keyboard shortcuts
-            href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
-          - name: Shortcuts for frequently used commands
-            href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-          - name: All keyboard shortcuts
-            href: ide/default-keyboard-shortcuts-in-visual-studio.md
-        - name: Tips for C# developers
-          displayName: ReSharper
-          href: ide/csharp-developer-productivity.md
       - name: IntelliSense
         items:
         - name: Use IntelliSense
@@ -676,6 +660,20 @@
     href: extensibility/visual-studio-sdk.md
   - name: Analyze and Model Architecture...
     href: modeling/analyze-and-model-your-architecture.md
+  - name: Tips and tricks
+    items:
+    - name: Productivity features
+      href: ide/productivity-features.md
+    - name: Productivity shortcuts
+      href: ide/productivity-shortcuts.md
+    - name: Tips for C# developers
+      displayName: ReSharper
+      href: ide/csharp-developer-productivity.md
+    - name: Customize keyboard shortcuts
+      href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
+    - name: Use the keyboard exclusively
+      displayName: accessibility
+      href: ide/reference/how-to-use-the-keyboard-exclusively.md
   - name: Personalize
     items:
     - name: Customize the IDE
@@ -684,6 +682,7 @@
     - name: "Quickstart: Personalize theme and text colors"
       href: ide/quickstart-personalize-the-ide.md
     - name: Environment settings
+      displayName: profiles
       href: ide/environment-settings.md
     - name: Synchronized settings
       href: ide/synchronized-settings-in-visual-studio.md
@@ -703,7 +702,7 @@
       displayName: marketplace, gallery, vsix
     - name: Manage external tools
       href: ide/managing-external-tools.md
-  - name: Performance
+  - name: Performance of Visual Studio
     items:
     - name: Optimize performance
       href: ide/optimize-visual-studio-performance.md
@@ -719,15 +718,96 @@
       href: ide/reference/accessibility-features-of-visual-studio.md
     - name: Set IDE accessibility options
       href: ide/reference/how-to-set-ide-accessibility-options.md
-    - name: Use the keyboard exclusively
-      href: ide/reference/how-to-use-the-keyboard-exclusively.md
     - name: Accessibility tips and tricks
       href: ide/reference/accessibility-tips-and-tricks.md
     - name: Accessibility products and services from Microsoft
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: Reference
   items:
-  - name: General User Interface Elements
+  - name: Keyboard shortcuts
+    items:
+    - name: Popular commands
+      displayName: keyboard shortcuts
+      href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
+    - name: All commands
+      displayName: keyboard commands
+      href: ide/default-keyboard-shortcuts-in-visual-studio.md
+  - name: Visual Studio commands
+    items:
+    - name: Reference
+      displayName: Visual Studio commands
+      href: ide/reference/visual-studio-commands.md
+    - name: Command aliases
+      href: ide/reference/visual-studio-command-aliases.md
+    - name: Add Existing Item command
+      href: ide/reference/add-existing-item-command.md
+    - name: Add Existing Project command
+      href: ide/reference/add-existing-project-command.md
+    - name: Add New Item command
+      href: ide/reference/add-new-item-command.md
+    - name: Alias command
+      href: ide/reference/alias-command.md
+    - name: Evaluate Statement command
+      href: ide/reference/evaluate-statement-command.md
+    - name: Find command
+      href: ide/reference/find-command.md
+    - name: Find in Files command
+      href: ide/reference/find-in-files-command.md
+    - name: Go To command
+      href: ide/reference/go-to-command.md
+    - name: Import and Export Settings command
+      href: ide/reference/import-and-export-settings-command.md
+    - name: List Call Stack command
+      href: ide/reference/list-call-stack-command.md
+    - name: List Disassembly command
+      href: ide/reference/list-disassembly-command.md
+    - name: List Memory command
+      href: ide/reference/list-memory-command.md
+    - name: List Modules command
+      href: ide/reference/list-modules-command.md
+    - name: List Registers command
+      href: ide/reference/list-registers-command.md
+    - name: List Source command
+      href: ide/reference/list-source-command.md
+    - name: List Threads command
+      href: ide/reference/list-threads-command.md
+    - name: Log Command window output command
+      href: ide/reference/log-command-window-output-command.md
+    - name: New File command
+      href: ide/reference/new-file-command.md
+    - name: Open File command
+      href: ide/reference/open-file-command.md
+    - name: Open Project command
+      href: ide/reference/open-project-command.md
+    - name: Print command
+      href: ide/reference/print-command.md
+    - name: Quick Watch command
+      href: ide/reference/quick-watch-command.md
+    - name: Replace command
+      href: ide/reference/replace-command.md
+    - name: Replace In Files command
+      href: ide/reference/replace-in-files-command.md
+    - name: Set Current Process
+      href: ide/reference/set-current-process.md
+    - name: Set Current Stack Frame command
+      href: ide/reference/set-current-stack-frame-command.md
+    - name: Set Current Thread command
+      href: ide/reference/set-current-thread-command.md
+    - name: Set Radix command
+      href: ide/reference/set-radix-command.md
+    - name: Shell command
+      href: ide/reference/shell-command.md
+    - name: ShowWebBrowser command
+      href: ide/reference/showwebbrowser-command.md
+    - name: Start command
+      href: ide/reference/start-command.md
+    - name: Symbol Path command
+      href: ide/reference/symbol-path-command.md
+    - name: Toggle Breakpoint command
+      href: ide/reference/toggle-breakpoint-command.md
+    - name: Watch command
+      href: ide/reference/watch-command.md
+  - name: General user interface elements
     displayName: Windows and dialogs
     items:
     - name: Call Hierarchy
@@ -962,7 +1042,7 @@
         href: ide/reference/toolbox-data-tab.md
       - name: Toolbox, HTML Tab
         href: ide/reference/toolbox-html-tab.md
-  - name: Devenv Command Line Switches
+  - name: Devenv command-line switches
     items:
     - name: Reference
       displayName: devenv command-line switches
@@ -1011,81 +1091,6 @@
       href: ide/reference/upgrade-devenv-exe.md
     - name: -UseEnv (devenv.exe)
       href: ide/reference/useenv-devenv-exe.md
-  - name: Visual Studio Commands
-    items:
-    - name: Reference
-      displayName: Visual Studio commands
-      href: ide/reference/visual-studio-commands.md
-    - name: Visual Studio Command Aliases
-      href: ide/reference/visual-studio-command-aliases.md
-    - name: Add Existing Item Command
-      href: ide/reference/add-existing-item-command.md
-    - name: Add Existing Project Command
-      href: ide/reference/add-existing-project-command.md
-    - name: Add New Item Command
-      href: ide/reference/add-new-item-command.md
-    - name: Alias Command
-      href: ide/reference/alias-command.md
-    - name: Evaluate Statement Command
-      href: ide/reference/evaluate-statement-command.md
-    - name: Find Command
-      href: ide/reference/find-command.md
-    - name: Find in Files Command
-      href: ide/reference/find-in-files-command.md
-    - name: Go To Command
-      href: ide/reference/go-to-command.md
-    - name: Import and Export Settings Command
-      href: ide/reference/import-and-export-settings-command.md
-    - name: List Call Stack Command
-      href: ide/reference/list-call-stack-command.md
-    - name: List Disassembly Command
-      href: ide/reference/list-disassembly-command.md
-    - name: List Memory Command
-      href: ide/reference/list-memory-command.md
-    - name: List Modules Command
-      href: ide/reference/list-modules-command.md
-    - name: List Registers Command
-      href: ide/reference/list-registers-command.md
-    - name: List Source Command
-      href: ide/reference/list-source-command.md
-    - name: List Threads Command
-      href: ide/reference/list-threads-command.md
-    - name: Log Command Window Output Command
-      href: ide/reference/log-command-window-output-command.md
-    - name: New File Command
-      href: ide/reference/new-file-command.md
-    - name: Open File Command
-      href: ide/reference/open-file-command.md
-    - name: Open Project Command
-      href: ide/reference/open-project-command.md
-    - name: Print Command
-      href: ide/reference/print-command.md
-    - name: Quick Watch Command
-      href: ide/reference/quick-watch-command.md
-    - name: Replace Command
-      href: ide/reference/replace-command.md
-    - name: Replace In Files Command
-      href: ide/reference/replace-in-files-command.md
-    - name: Set Current Process
-      href: ide/reference/set-current-process.md
-    - name: Set Current Stack Frame Command
-      href: ide/reference/set-current-stack-frame-command.md
-    - name: Set Current Thread Command
-      href: ide/reference/set-current-thread-command.md
-    - name: Set Radix Command
-      href: ide/reference/set-radix-command.md
-    - name: Shell Command
-      href: ide/reference/shell-command.md
-    - name: ShowWebBrowser Command
-      href: ide/reference/showwebbrowser-command.md
-    - name: Start Command
-      href: ide/reference/start-command.md
-    - name: Symbol Path Command
-      href: ide/reference/symbol-path-command.md
-    - name: Toggle Breakpoint Command
-      href: ide/reference/toggle-breakpoint-command.md
-    - name: Watch Command
-      href: ide/reference/watch-command.md
   - name: Security
     items:
     - name: Develop secure applications
