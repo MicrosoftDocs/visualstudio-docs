@@ -21,14 +21,13 @@ For Docker installation, review and follow the information at [Install Docker De
 
 ## Creating an ASP.NET Core Web Application and Adding Docker Support
 
-1. Create a new solution by going to **File > New Solution**
-1. Under **.NET Core > App** choose the **Web Application** template
+1. Create a new solution by going to **File > New Solution**.
+1. Under **.NET Core > App** choose the **Web Application** template:
 ![Create a new ASP.NET application](media/docker-quickstart-1.png)
-1. Select the target framework. In this example we will use .NET Core 2.2
+1. Select the target framework. In this example we will use .NET Core 2.2:
 ![Set target framework](media/docker-quickstart-2.png)
-1. Enter the project details, such as name (_DockerDemo_ in this example)
-1. The created project contains all the basics you need to build and run an ASP.NET Core web site
-1. In the Solution Pad, right click the DockerDemo project and select **Add > Add Docker Support**.
+1. Enter the project details, such as name (_DockerDemo_ in this example). The created project contains all the basics you need to build and run an ASP.NET Core web site.
+1. In the Solution Pad, right click the DockerDemo project and select **Add > Add Docker Support**:
 ![Add docker support](media/docker-quickstart-3.png)
 
 Visual Studio for Mac will automatically add a new project to your solution called **docker-compose** and add a **Dockerfile** to your existing project.
@@ -73,16 +72,18 @@ Select the `docker-compose` project as the Startup Project and start debugging (
 > [!TIP]
 > On the first run after installing Docker Desktop, you may receive the following error when trying to debug: `Cannot start service dockerdemo: Mounts denied`
 > 
-> Add `/usr/local/share/dotnet/sdk/NuGetFallbackFolder` to the File Sharing tab in Docker Desktop.
+> Add `/usr/local/share/dotnet/sdk/NuGetFallbackFolder` to the File Sharing tab in Docker Desktop:
 >
 > ![Adding the NuGetFallbackFolder folder to File Sharing](media/docker-quickstart-5.png)
 
-When the build is completed, the application will be launched in Safari. Note that the container will be listening on a port, `http://localhost:32768` for example, and this port may vary.
+When the build is completed, the application will be launched in Safari:
 
 ![Default Docker project running in Safari](media/docker-quickstart-6.png)
 
-To see the list of running containers, use the `docker ps` command in Terminal. 
+Note that the container will be listening on a port, `http://localhost:32768` for example, and this port may vary.
 
-Note the port relay in the screenshot below (under **PORTS**). This shows that the container is listening on the port we saw in Safari above and relaying requests to the internal webserver on port 80 (as defined in the Dockerfile). From the application's perspecitive, it is listening on port 80.
+To see the list of running containers, use the `docker ps` command in Terminal.
+
+Note the port relay in the screenshot below (under **PORTS**). This shows that the container is listening on the port we saw in Safari above and relaying requests to the internal webserver on port 80 (as defined in the Dockerfile). From the application's perspecitive, it is listening on port 80:
 
 ![Docker container list](media/docker-quickstart-7.png)
