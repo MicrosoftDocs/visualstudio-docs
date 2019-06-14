@@ -405,6 +405,8 @@
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
             href: ide/reference/rename.md
+          - name: Sync namespace and folder name
+            href: ide/reference/sync-namespace-and-folder-name.md
           - name: Synchronize type and filename
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
