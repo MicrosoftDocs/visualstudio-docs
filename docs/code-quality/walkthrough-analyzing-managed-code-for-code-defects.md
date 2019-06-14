@@ -11,7 +11,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# Walkthrough: Static code analyses for code defects
+# Walkthrough: Use static code analysis to find code defects
 
 In this walkthrough, you'll analyze a managed project for code defects by using the code analysis tool.
 

@@ -74,7 +74,10 @@ The following screenshot shows the command-line build output from building a pro
 
 You cannot set the severity of rules from analyzers that were installed as a Visual Studio extension. To configure [rule severity](../code-quality/use-roslyn-analyzers.md#rule-severity), install the analyzers as a NuGet package.
 
-### Three categories of analyzers
+### Categories
+
+Below are the different types of analyzers that help analyze your code. 
+
 - Microsoft's recommended analyzers: [FxCop Analyzers](../code-quality/fxcop-analyzers.yml)
 - Visual Studio IDE analyzers: [EditorConfig](../ide/code-styles-and-code-cleanup.md)
 - Third party analyzers: [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)

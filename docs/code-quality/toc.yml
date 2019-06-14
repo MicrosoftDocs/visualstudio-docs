@@ -22,7 +22,7 @@
     - name: Overview
       displayName: static code analysis, binary analysis
       href: static-code-analysis-for-managed-code-overview.md
-    - name: Static code analysis for code defects
+    - name: Static code analysis walkthrough
       href: walkthrough-analyzing-managed-code-for-code-defects.md
     - name: Migration
       href: fxcop-analyzers.yml
@@ -141,6 +141,8 @@
       href: analyzer-rule-sets.md
     - name: Configure rule sets
       href: how-to-configure-code-analysis-for-a-managed-code-project.md
+    - name: Configure code analysis for an ASP.NET web app
+      href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
     - name: Create a custom rule set
       href: how-to-create-a-custom-rule-set.md
     - name: Use the rule set editor
