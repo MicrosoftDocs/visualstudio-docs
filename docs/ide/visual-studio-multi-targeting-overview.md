@@ -77,9 +77,7 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 In an existing Visual Basic, C#, or F# project, you change the target .NET version in the project properties dialog box. For information about how to change the target version for C++ projects, see [How to modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset) instead.
 
-1. In **Solution Explorer**, open the shortcut menu for the project that you want to change, and then choose **Properties**.
-
-   ![Visual Studio Solution Explorer Properties](../ide/media/vs_slnexplorer_properties.png)
+1. In **Solution Explorer**, open the right-click menu for the project that you want to change, and then choose **Properties**.
 
 1. In the left column of the **Properties** window, choose the **Application** tab.
 
@@ -94,8 +92,8 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
    The project unloads. When it reloads, it targets the .NET version that you just chose.
 
-   > [!NOTE]
-   > If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshoot .NET targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+> [!NOTE]
+> If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, modify the references. See [Troubleshoot .NET targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
 > [!TIP]
 > Depending on the target framework, it can be represented in the following ways in the project file:
