@@ -1413,6 +1413,7 @@ The following list shows the formatting convention rules available in Visual Stu
         - csharp_space_between_method_call_name_and_opening_parenthesis
         - csharp_space_between_method_call_empty_parameter_list_parentheses
         - csharp_space_after_comma
+        - csharp_space_after_dot
     - [Wrapping options](#wrapping)
         - csharp_preserve_single_line_statements
         - csharp_preserve_single_line_blocks
@@ -1855,6 +1856,7 @@ The following table shows the rule names, applicable languages, default values, 
 | csharp_space_between_method_call_name_and_opening_parenthesis | C# | false | 15.7 |
 | csharp_space_between_method_call_empty_parameter_list_parentheses | C# | false | 15.7 |
 | csharp_space_after_comma | C# | ? | 
+| csharp_space_after_dot | C# | ? |
 
 **csharp\_space\_after_cast**
 
@@ -2136,6 +2138,21 @@ int[] x = new int[] { 1, 2, 3, 4, 5 };
 int[] x = new int[] { 1,2,3,4,5 }
 ```
 
+**csharp_space_after_dot**
+
+- When this rule is set to **true**, insert space after a dot.
+- When this rule is set to **false**, remove space after a dot
+
+Code examples:
+
+```csharp
+//csharp_space_after_dot = true
+this. Goo();
+
+//csharp_space_after_dot = false
+this.Goo();
+```
+
 Example *.editorconfig* file:
 
 ```ini
@@ -2153,6 +2170,7 @@ csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
 csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_between_method_call_empty_parameter_list_parentheses = false
 csharp_space_after_comma = true
+csharp_space_after_dot = false
 ```
 
 #### <a name="wrapping"></a>Wrapping options
@@ -2354,6 +2372,7 @@ csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
 csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_between_method_call_empty_parameter_list_parentheses = false
 csharp_space_after_comma = true
+csharp_space_after_dot = false
 
 # Wrapping preferences
 csharp_preserve_single_line_statements = true
