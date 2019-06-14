@@ -28,7 +28,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Change namespace to \<folder name>**.
 
-   ![Regex Completion IntelliSense](media/sync-namespace-and-folder-name.png)
+   ![Sync Namespace And Folder Name](media/sync-namespace-and-folder-name.png)
 
 ## See also
 
