@@ -75,7 +75,7 @@ Element hierarchy:
     </TemplateData>
     <TemplateContent>
         <Project File="MyStarterKit.csproj">
-            <ProjectItem>Form1.cs<ProjectItem>
+            <ProjectItem>Form1.cs</ProjectItem>
             <ProjectItem>Form1.Designer.cs</ProjectItem>
             <ProjectItem>Program.cs</ProjectItem>
             <ProjectItem>Properties\AssemblyInfo.cs</ProjectItem>
