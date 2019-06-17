@@ -2,8 +2,6 @@
 title: Code analysis for managed code
 ms.date: 06/12/2019
 ms.topic: conceptual
-f1_keywords:
-  - "vs.projectpropertypages.codeanalysis"
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"

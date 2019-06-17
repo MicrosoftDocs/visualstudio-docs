@@ -8,6 +8,8 @@ metadata:
   ms.prod: visual-studio-dev16
   ms.technology: vs-ide-code-analysis
   ms.topic: landing-page
+  f1_keywords:
+  - "vs.projectpropertypages.codeanalysis"
   ms.author: gewarren
   author: gewarren
   manager: jillfra
