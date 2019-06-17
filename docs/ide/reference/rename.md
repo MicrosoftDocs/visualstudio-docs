@@ -70,7 +70,7 @@ When you rename a named type that matches the file name already, there is a chec
 
       ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
 
-   - Visual Basic: This option is not currently available for Visual Basic
+   - Visual Basic: This option is not currently available for Visual Basic.
          
 
 **Note**: This option is not supported for partial types with multiple definitions.
