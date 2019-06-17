@@ -1,12 +1,12 @@
 ---
-title: Tutorial - Create a multi-container app with Docker Compose
+title: Tutorial - Create a Multi-Container App with Docker Compose
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
 author: bytesguy
 ms.author: adhartle
-ms.date: 4/29/2019
+ms.date: 06/17/2019
 ---
 
-# Create a multi-container app with Docker Compose
+# Create a Multi-Container App with Docker Compose
 
 In this tutorial, you'll learn how to manage more than one container and communicate between them when using Docker Compose in Visual Studio for Mac.
 
@@ -38,7 +38,7 @@ Next we will create a second project which will act as our backend API. The **.N
 1. Enter the project details, such as Project Name (_DockerDemoAPI_ in this example).
 1. Once created, go to the Solution Pad and right click the DockerDemoAPI project and select **Add > Add Docker Support**.
 
-The **docker-compose.yml** file in the **docker-compose** project will be automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects will be deployed to a seperate Docker container.
+The **docker-compose.yml** file in the **docker-compose** project will be automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects will be deployed to a separate Docker container.
 
 ```
 version: '3.4'
@@ -57,7 +57,7 @@ services:
       dockerfile: DockerDemoAPI/Dockerfile
 ```
 
-## Integrating The Two Containers
+## Integrate The Two Containers
 
 We now have two ASP.NET projects in our solution and both are configured with Docker support. Next we need to add some code!
 
