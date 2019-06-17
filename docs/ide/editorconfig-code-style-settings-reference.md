@@ -1855,8 +1855,8 @@ The following table shows the rule names, applicable languages, default values, 
 | csharp_space_between_method_declaration_empty_parameter_list_parentheses | C# | false | 15.7 |
 | csharp_space_between_method_call_name_and_opening_parenthesis | C# | false | 15.7 |
 | csharp_space_between_method_call_empty_parameter_list_parentheses | C# | false | 15.7 |
-| csharp_space_after_comma | C# | true | ? | 
-| csharp_space_after_dot | C# | false | ? |
+| csharp_space_after_comma | C# | true | | 
+| csharp_space_after_dot | C# | false | |
 
 **csharp\_space\_after_cast**
 
