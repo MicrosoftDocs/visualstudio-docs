@@ -7,9 +7,9 @@ ms.date: 06/06/2019
 ms.technology: vs-azure
 ms.topic: conceptual
 ---
-# Container Tools build process for Visual Studio
+# Build container apps using Visual Studio or the command line
 
-This topic explains the Visual Studio build process for containerized apps that use Docker.  For performance reasons, Visual Studio follows a special process for containerized apps. You should understand this process if you plan to customize your build by modifying the Dockerfile.
+Whether you're building from the Visual Studio IDE, or setting up a command line build, you need to know how Visual Studio builds uses the Dockerfile to build your projects.  For performance reasons, Visual Studio follows a special process for containerized apps. Understanding how Visual Studio builds your projects is especially important when you customize your build process by modifying the Dockerfile.
 
 When Visual Studio builds a project that doesn't use Docker containers, it invokes MSBuild on the local machine and generates the output files in a folder (typically `bin`) under your local solution folder. In the case of a containerized project, however, the build process takes account of the Dockerfile's instructions for building the containerized app. The Dockerfile that Visual Studio uses is divided into multiple stages. This process relies on Docker's *multistage build* feature.
 
