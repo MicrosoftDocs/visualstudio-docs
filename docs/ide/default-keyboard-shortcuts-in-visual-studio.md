@@ -783,6 +783,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | Edit.CollapseCurrentRegion | **Ctrl+M, Ctrl+S** |
 | Edit.CollapseTag | **Ctrl+M, Ctrl+T** |
 | Edit.CollapseToDefinitions | **Ctrl+M, Ctrl+O** (letter 'O') |
+| Edit.ContractSelection | **Shift+Alt+-** (non-C++ only) |
 | Edit.CommentSelection | **Ctrl+K, Ctrl+C** |
 | Edit.CompleteWord | **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** |
 | Edit.CopyParameterTip | **Ctrl+Shift+Alt+C** |
@@ -795,6 +796,8 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | Edit.DocumentStartExtend | **Ctrl+Shift+Home** |
 | Edit.ExpandAllOutlining | **Ctrl+M, Ctrl+X** |
 | Edit.ExpandCurrentRegion | **Ctrl+M, Ctrl+E** |
+| Edit.ExpandSelection | **Shift+Alt+=** (non-C++ only) |
+| Edit.ExpandSelectiontoContainingBlock | **Shift+Alt+]** |
 | Edit.FormatDocument | **Ctrl+K, Ctrl+D** |
 | Edit.FormatSelection | **Ctrl+K, Ctrl+F** |
 | Edit.GotoAll | **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** |
