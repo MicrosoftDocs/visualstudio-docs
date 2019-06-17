@@ -15,6 +15,7 @@ You can run unit tests with every build of your containerized project by modifyi
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+- Unit tests set up to run using [dotnet test](/dotnet/core/tools/dotnet-test)
 - Install the [Containers window extension](https://aka.ms/vscontainerspreview)
 
 ## Add unit tests to the Dockerfile
@@ -40,6 +41,3 @@ You can then use the [Containers window](view-and-diagnose-containers.md) (if yo
 
 To view your test logs, use **Ctrl**+**Q** and search for **Containers** to open the **Containers** window. In the **Containers** window, find your container, open the **Files** tab, look for your test results (.trx) file in the container's filesystem, and open it to view the results in Visual Studio.
 
-## See also
-
-[dotnet test](/dotnet/core/tools/dotnet-test)

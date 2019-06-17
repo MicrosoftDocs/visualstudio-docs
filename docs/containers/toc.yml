@@ -40,6 +40,6 @@
     href: troubleshooting-docker-errors.md
   - name: Reference
     items:
-    - name: MSBuild properties for containerized apps
+    - name: MSBuild properties for container projects
       href: container-msbuild-properties.md
       
