@@ -20,7 +20,7 @@ You can run unit tests with every build of your containerized project by modifyi
 
 ## Add unit tests to the Dockerfile
 
-Visual Studio does some special performance optimizations that you should know about before modifying the Dockerfile. When building the **Debug** configuration, Visual Studio builds projects on the local machine, and copies the results to the container. This means that only the first stage of the multistage Dockerfile is actually executed as specified in the Dockerfile. For more information, see [Container Tools build process for Visual Studio](container-build.md).
+Visual Studio does some special performance optimizations before modifying the Dockerfile. When building the **Debug** configuration, Visual Studio builds projects on the local machine, and copies the results to the container. So, only the first stage of the multistage Dockerfile is executed as specified in the Dockerfile. For more information, see [Container Tools build process for Visual Studio](container-build.md).
 
 To add unit tests to a multistage Dockerfile, add a `unit-test` stage to the Dockerfile between the `build` and `publish` stages.
 
@@ -29,7 +29,7 @@ FROM build AS unit-test
 RUN dotnet unit-test --logger:trx
 ```
 
-Visual Studio only runs the first stage in **Debug** configuration, so the `unit-test` stage is only run in the **Release** configuration. But even in **Release** configuration, the log results won't be included in the final image, because the final image is built from the `base` stage, not from the `unit-test` stage. If you want to run the tests to produce an image that you can access to view the logs, you can do so from the command line as follows:
+Visual Studio only runs the first stage in **Debug** configuration, so the `unit-test` stage is only run in the **Release** configuration. But even in **Release** configuration, the log results won't be included in the final image, because the final image is built from the `base` stage, not from the `unit-test` stage. To run the tests and produce an image where you can view the logs, use the following command:
 
 ```cmd
 docker build --target:unit-test
