@@ -1571,6 +1571,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/how-to-target-a-version-of-the-dotnet-framework.md",
+            "redirect_url": "/visualstudio/ide/visual-studio-multi-targeting-overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/creating-applications-in-bi-directional-languages.md",
             "redirect_url": "/visualstudio/ide/use-bidirectional-languages",
             "redirect_document_id": false
@@ -2198,6 +2203,16 @@
         {
             "source_path": "docs/ide/visual-studio-2017-for-dotnet-developers.md",
             "redirect_url": "/visualstudio/ide/csharp-developer-productivity",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/productivity-tips-for-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/productivity-features",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/tips-and-tricks-for-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/productivity-shortcuts",
             "redirect_document_id": false
         },
         {
@@ -7833,6 +7848,16 @@
         {
             "source_path": "docs/vs-2015/azure/vs-azure-tools-resource-groups-ci.md",
             "redirect_url": "/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-modernreq.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/leave-vsde.md",
+            "redirect_url": "/visualstudio/subscriptions/join-dev-essentials",
             "redirect_document_id": false
         }
     ]

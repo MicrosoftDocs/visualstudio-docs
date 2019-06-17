@@ -65,7 +65,6 @@ You can stop at any point, and resume your training in your next session.  Just 
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3-months                                             |  No.  Available to new subscribers only           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3-months                                              |  No.  Available to new subscribers only           |
-| Visual Studio Dev Essentials | N/A  | 2 months | No. Available to new subscribers only |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 

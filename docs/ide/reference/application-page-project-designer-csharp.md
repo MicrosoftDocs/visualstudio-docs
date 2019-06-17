@@ -55,7 +55,7 @@ For a project that targets .NET Core, the available versions may appear as follo
 > [!NOTE]
 > The prerequisite packages listed in the [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.
 
-For more information, see [How to: Target a Version of the .NET Framework](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) and [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
+For more information, see [Framework targeting overview](../../ide/visual-studio-multi-targeting-overview.md).
 
 **Output type**
 

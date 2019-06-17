@@ -12,7 +12,7 @@
 
 On the remote device or server that you want to debug on, rather than the Visual Studio machine, download and install the correct version of the remote tools from the links in the following table.
 
-- Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions.
+- Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions. (For example, if you are using Visual Studio 2017, download the latest update of the remote tools for Visual Studio 2017. In this scenario, do not download the remote tools for Visual Studio 2019.)
 - Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug a 32-bit app on a remote computer running a 64-bit operating system, install the 64-bit remote tools.
 
 ::: moniker range=">=vs-2019"

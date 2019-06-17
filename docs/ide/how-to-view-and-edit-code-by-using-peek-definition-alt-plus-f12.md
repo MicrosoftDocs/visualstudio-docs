@@ -80,4 +80,4 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 
 - [Navigate code](../ide/navigating-code.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
-- [Productivity tips](../ide/productivity-tips-for-visual-studio.md)
+- [Productivity features in Visual Studio](../ide/productivity-features.md)

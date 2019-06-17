@@ -69,6 +69,10 @@ Before tampering: Grades: 90, 90, 90 Private Grades: 90, 90, 90  Secure Grades, 
 After tampering: Grades: 90, 555, 90 Private Grades: 90, 555, 90  Secure Grades, 90, 90, 90
 ```
 
+## Related rules
+
+ - [CA2104 : Do not declare read only mutable reference types](../code-quality/ca2104-do-not-declare-read-only-mutable-reference-types.md) 
+
 ## See also
 
 - <xref:System.Array?displayProperty=fullName>

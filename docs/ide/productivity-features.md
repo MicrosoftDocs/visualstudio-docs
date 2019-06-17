@@ -10,9 +10,9 @@ ms.workload:
 ---
 # Productivity tips for Visual Studio
 
-This topic contains various tips to help you write, navigate, and debug your code more quickly and efficiently.
+This articles discusses tips for Visual Studio features that help you write, navigate, and debug your code more quickly and efficiently.
 
-For information about common keyboard shortcuts, see [Keyboard tips](../ide/tips-and-tricks-for-visual-studio.md). Or, for a complete list of keyboard shortcuts, see [Identify and customize keyboard shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) and [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Write code
 
@@ -122,15 +122,15 @@ You can quickly access the Developer Command Prompt, or another Visual Studio to
 
 ## Manage files, toolbars, and windows
 
-At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips.
+At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips:
 
 - **Keep files that you frequently use visible in the editor**. You can pin files to the left side of the tab well so that they remain visible regardless of how many files are open in the editor.
 
-     To pin a file, choose the file's tab, and then choose the **Toggle Pin Status** button.
+   To pin a file, choose the file's tab, and then choose the **Toggle Pin Status** button.
 
 - **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create "rafts." For more information, see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
 
-     You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.
+   You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.
 
 - **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that's used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change fonts and colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) and [How to: Change fonts and colors in the editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md).
 
