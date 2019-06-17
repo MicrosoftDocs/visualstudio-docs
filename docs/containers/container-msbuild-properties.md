@@ -26,9 +26,9 @@ The following table shows the MSBuild properties available for container project
 | Property name | Description | Default value  |
 |---------------|-------------|----------------|
 | DockerfileFile | Describes the default Dockerfile that will be used to build/run the container for the project. This can be a path as well. | Dockerfile |
-| DockerfileTag | The tag that will be used when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping non-alphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (i.e. image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |
+| DockerfileTag | The tag that will be used when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping non-alphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (for example, image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |
 | DockerContext | The default context used when building the Docker image. | Set by Visual Studio. |
-| DockerDevelopmentMode | Controls whether or not Visual Studio optimizes build performance by building outside the container. Possible values: Fast or Regular. | Fast |
+| ContainerDevelopmentMode | Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled.  Allowed values are **Fast** and **Regular**. | Fast |
 | DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |
 | DockerImageLabels | The default set of labels applied to the Docker image. | com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |
 | ContainerVsDbgPath | The path for VSDBG debugger. | `%USERPROFILE%\vsdbg\vs2017u5` |
