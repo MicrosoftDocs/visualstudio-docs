@@ -1,12 +1,12 @@
 ---
-title: Getting Started with Docker in Visual Studio for Mac
+title: Get Started with Docker in Visual Studio for Mac
 description: Learn how to add Docker to your projects in Visual Studio for Mac
 author: bytesguy
 ms.author: adhartle
-ms.date: 4/29/2019
+ms.date: 06/17/2019
 ---
 
-# Getting Started with Docker in Visual Studio for Mac
+# Get Started with Docker in Visual Studio for Mac
 
 With Visual Studio for Mac, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure.
 
@@ -84,6 +84,6 @@ Note that the container will be listening on a port, `http://localhost:32768` fo
 
 To see the list of running containers, use the `docker ps` command in Terminal.
 
-Note the port relay in the screenshot below (under **PORTS**). This shows that the container is listening on the port we saw in Safari above and relaying requests to the internal webserver on port 80 (as defined in the Dockerfile). From the application's perspecitive, it is listening on port 80:
+Note the port relay in the screenshot below (under **PORTS**). This shows that the container is listening on the port we saw in Safari above and relaying requests to the internal webserver on port 80 (as defined in the Dockerfile). From the application's perspective, it is listening on port 80:
 
 ![Docker container list](media/docker-quickstart-7.png)
