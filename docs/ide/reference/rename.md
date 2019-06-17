@@ -64,14 +64,9 @@ This refactoring applies to:
 
 ## Keeping names synced
 
-When you rename a named type that matches the file name already, there is a checkbox that will appear to enable you to rename the file as well. This applies when renaming classes, interfaces, and enums.
+When you rename a type that matches the file name it's in, a checkbox appears to enable you to rename the file as well. This applies when renaming classes, interfaces, and enumerations.
 
-   - C#:
-
-      ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
-
-   - Visual Basic: This option is not currently available for Visual Basic.
-         
+   ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
 
 **Note**: This option is not supported for partial types with multiple definitions.
 
