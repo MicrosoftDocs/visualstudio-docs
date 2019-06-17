@@ -42,7 +42,7 @@ By default, references are grouped by project, then by definition. However, you 
 **Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's right-click or context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
 
 ## Filter by reference type in .NET
-In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, Name, Namespaces, and Type.
+In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, Name, Namespace, and Type.
 
 ![Find References Window Kind column ](../ide/media/vside_findallreferencesKind.png)
 
