@@ -240,7 +240,7 @@
       href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
     - name: Product and Package Schema Reference
       items:
-      - name: Overviewo of Product and Package Schema Reference
+      - name: Overview of Product and Package Schema Reference
         href: product-and-package-schema-reference.md
       - name: <Product> Element (Bootstrapper)
         href: product-element-bootstrapper.md
