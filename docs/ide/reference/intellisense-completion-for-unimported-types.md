@@ -1,0 +1,34 @@
+---
+title: IntelliSense completion for unimported types
+ms.date: 06/17/2019
+ms.topic: reference
+author: mikadumont
+ms.author: midumont
+manager: jillfra
+dev_langs:
+  - CSharp
+ms.workload: 
+  - "dotnet"
+---
+# IntelliSense completion for unimported types
+
+This refactoring applies to:
+
+- C#
+
+**What:** IntelliSense completion for unimported types.
+
+**When:** You want to add a type that already has a dependency in your project but the import statement has not yet been added to your file. 
+
+**Why:** You don't have to manually add the import statement to your file.
+
+## How-to
+
+1. Once you start using a type that has a dependency in your project, IntelliSense will give you suggestions.
+2. Press **tab** and the import statement will be added to your file.
+
+   ![Sync Namespace And Folder Name](media/intellisense-completion-unimported-types.png)
+
+## See also
+
+- [Refactoring](../refactoring-in-visual-studio.md)
