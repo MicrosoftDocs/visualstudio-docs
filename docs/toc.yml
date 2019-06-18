@@ -478,7 +478,7 @@
             href: ide/editorconfig-language-conventions.md
           - name: Formatting conventions
             href: ide/editorconfig-formatting-conventions.md
-          - name: .NET naming conventions
+          - name: Naming conventions
             href: ide/editorconfig-naming-conventions.md
       - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md

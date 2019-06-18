@@ -20,17 +20,15 @@ Most of the rules for formatting conventions have the following format:
 
 `rule_name = false|true`
 
-You specify either **true** (prefer this style) or **false** (do not prefer this style). For a few rules, instead of true or false, you specify other values to describe when and where to apply the rule.
-
-Formatting conventions do not contain a specified severity.
+You specify either **true** (prefer this style) or **false** (do not prefer this style). For a few rules, instead of true or false, you specify other values to describe when and where to apply the rule. You don't specify a severity.
 
 The following list shows the formatting convention rules available in Visual Studio:
 
-- .NET formatting settings
+- [.NET formatting settings](#net-formatting-settings)
     - [Organize usings](#organize-using-directives)
         - dotnet_sort_system_directives_first
         - dotnet_separate_import_directive_groups
-- C# formatting settings
+- [C# formatting settings](#c-formatting-settings)
     - [Newline options](#new-line-options)
         - csharp_new_line_before_open_brace
         - csharp_new_line_before_else
@@ -65,6 +63,10 @@ The following list shows the formatting convention rules available in Visual Stu
 
 The formatting rules in this section apply to C# and Visual Basic code.
 
+### Organize using directives
+
+These formatting rules concern the sorting and display of `using` directives and `Imports` statements.
+
 Example *.editorconfig* file:
 
 ```ini
@@ -73,10 +75,6 @@ Example *.editorconfig* file:
 dotnet_sort_system_directives_first = true
 dotnet_separate_import_directive_groups = true
 ```
-
-### Organize using directives
-
-These formatting rules concern the sorting and display of `using` directives and `Imports` statements.
 
 #### dotnet\_sort\_system\_directives_first
 
@@ -1001,5 +999,5 @@ public int MyProperty
 ## See also
 
 - [Language conventions](editorconfig-language-conventions.md)
-- [.NET naming conventions for EditorConfig](editorconfig-naming-conventions.md)
+- [Naming conventions](editorconfig-naming-conventions.md)
 - [.NET coding convention settings for EditorConfig](editorconfig-code-style-settings-reference.md)

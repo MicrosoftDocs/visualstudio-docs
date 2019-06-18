@@ -27,14 +27,14 @@ The following table lists the possible severity values and their effects:
 Severity | Effect
 :------- | ------
 `none` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `none` severity never appear in the **Quick Actions and Refactorings** menu. In most cases, this is considered "disabled" or "ignored".
-`silent` (also `refactoring` in Visual Studio 2017 version 15.8) | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup as well as appear in the **Quick Actions and Refactorings** menu.
+`silent` (also `refactoring` in Visual Studio 2017 version 15.8 and later) | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup as well as appear in the **Quick Actions and Refactorings** menu.
 `suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
 
 The following list shows the allowable language code style settings:
 
-- .NET code style settings
+- [.NET code style settings](#net-code-style-settings)
     - ["This." and "Me." qualifiers](#this-and-me)
         - dotnet\_style\_qualification\_for_field
         - dotnet\_style\_qualification\_for_property
@@ -66,7 +66,7 @@ The following list shows the allowable language code style settings:
     - ["Null" checking preferences](#null-checking-preferences)
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
-- C# code style settings
+- [C# code style settings](#c-code-style-settings)
     - [Implicit and explicit types](#implicit-and-explicit-types)
         - csharp\_style\_var\_for\_built\_in_types
         - csharp\_style\_var\_when\_type\_is_apparent
@@ -593,6 +593,7 @@ dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
 dotnet_style_prefer_conditional_expression_over_return = true:suggestion
+```
 
 #### dotnet\_style\_object_initializer
 
@@ -1553,5 +1554,5 @@ if (test) this.Display();
 ## See also
 
 - [Formatting conventions](editorconfig-formatting-conventions.md)
-- [.NET naming conventions for EditorConfig](editorconfig-naming-conventions.md)
+- [Naming conventions](editorconfig-naming-conventions.md)
 - [.NET coding convention settings for EditorConfig](editorconfig-code-style-settings-reference.md)
