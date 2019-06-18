@@ -86,6 +86,9 @@ This provider nests files with an additional extension under the file without an
 
 * *file.html.css* is nested under *file.html* because of the **addedExtension** rule
 
+> [!NOTE]
+> Since this rule can be applied to all file extensions (any extension can be added), it is not needed to specify any options in that provider section
+
 ### The pathSegment provider
 
 This provider nests files with an additional extension under a file without an additional extension. The additional extension can only appear at the middle of the full filename. Consider the following example:
@@ -93,6 +96,9 @@ This provider nests files with an additional extension under a file without an a
 ![pathSegment example rules](media/filenesting_pathsegment.png) ![pathSegment example effect](media/filenesting_pathsegment_effect.png)
 
 * *jquery.min.js* is nested under *jquery.js* because of the **pathSegment** rule
+
+> [!NOTE]
+> Since this rule can be applied to all file extensions (any extension can be added), it is not needed to specify any options in that provider section
 
 ### The allExtensions provider
 
