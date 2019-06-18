@@ -32,7 +32,7 @@ Severity | Effect
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
 
-The following list shows the allowable language code style settings:
+The following list shows the language code style rules available in Visual Studio:
 
 - [.NET code style settings](#net-code-style-settings)
     - ["This." and "Me." qualifiers](#this-and-me)

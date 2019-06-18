@@ -82,11 +82,9 @@ dotnet_separate_import_directive_groups = true
 |-|-|
 | **Rule name** | dotnet_sort_system_directives_first |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-
-- When this rule is set to **true**, sort System.* `using` directives alphabetically, and place them before other using directives.
-- When this rule is set to **false**, do not place System.* `using` directives before other `using` directives.
+| **Values** | <ul><li>**true** - Sort System.* `using` directives alphabetically, and place them before other using directives.</li><li>**false** - Do not place System.* `using` directives before other `using` directives.</li></ul> |
+| **Visual Studio default** | true |
 
 Code examples:
 
@@ -108,11 +106,9 @@ using System.Threading.Tasks;
 |-|-|
 | **Rule name** | dotnet_separate_import_directive_groups |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | false |
 | **Introduced version** | Visual Studio 2017 version 15.5 |
-
-- When this rule is set to **true**, place a blank line between `using` directive groups.
-- When this rule is set to **false**, do not place a blank line between `using` directive groups.
+| **Values** | <ul><li>**true** - Place a blank line between `using` directive groups.</li><li>**false** - Do not place a blank line between `using` directive groups.</li></ul> |
+| **Visual Studio default** | false |
 
 Code examples:
 
