@@ -278,11 +278,8 @@ try {
 | **Rule name** | csharp_new_line_before_members_in_object_initializers |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Require members of object initializers to be on separate lines<br />`false` - Require members of object initializers to be on the same line |
 | **Visual Studio default** | `true` |
-
-- When this rule is set to **true**, require members of object initializers to be on separate lines.
-- When this rule is set to **false**, require members of object initializers to be on the same line.
 
 Code examples:
 
@@ -308,11 +305,8 @@ var z = new B()
 | **Rule name** | csharp_new_line_before_members_in_anonymous_types |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Require members of anonymous types to be on separate lines<br />`false` - Require members of anonymous types to be on the same line |
 | **Visual Studio default** | `true` |
-
-- When this rule is set to **true**, require members of anonymous types to be on separate lines.
-- When this rule is set to **false**, require members of anonymous types to be on the same line.
 
 Code examples:
 
@@ -338,11 +332,8 @@ var z = new
 | **Rule name** | csharp_new_line_between_query_expression_clauses |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Require elements of query expression clauses to be on separate lines<br />`false` - Require elements of query expression clauses to be on the same line |
 | **Visual Studio default** | `true` |
-
-- When this rule is set to **true**, require elements of query expression clauses to be on separate lines.
-- When this rule is set to **false**, require elements of query expression clauses to be on the same line.
 
 Code examples:
 
@@ -378,11 +369,11 @@ csharp_indent_labels = flush_left
 | **Rule name** | csharp_indent_case_contents |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Indent `switch` case contents<br />`false` - Do not indent `switch` case contents |
 | **Visual Studio default** | `true` |
 
-- When this rule is set to **true**, indent `switch` case contents.
-- When this rule is set to **false**, do not indent `switch` case contents.
+- When this rule is set to **true**, i.
+- When this rule is set to **false**, d.
 
 Code examples:
 
@@ -421,11 +412,8 @@ switch(c) {
 | **Rule name** | csharp_indent_switch_labels |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Indent `switch` labels<br />`false` - Do not indent `switch` labels |
 | **Visual Studio default** | `true` |
-
-- When this rule is set to **true**, indent `switch` labels.
-- When this rule is set to **false**, do not indent `switch` labels.
 
 Code examples:
 
@@ -464,16 +452,8 @@ default:
 | **Rule name** | csharp_indent_labels |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `flush_left` - Labels are placed at the leftmost column<br />`one_less_than_current` - Labels are placed at one less indent to the current context<br />`no_change` - Labels are placed at the same indent as the current context |
 | **Visual Studio default** | `no_change` |
-
-This rule does not accept a **true** or **false** value; instead it accepts a value from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| flush_left | Labels are placed at the leftmost column |
-| one_less_than_current | Labels are placed at one less indent to the current context |
-| no_change | Labels are placed at the same indent as the current context |
 
 Code examples:
 
@@ -549,11 +529,8 @@ csharp_space_after_dot = false
 | **Rule name** | csharp_space_after_cast |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Require a space between a cast and the value<br />`false` - Require _no_ space between the cast and the value |
 | **Visual Studio default** | `false` |
-
-- When this rule is set to **true**, require a space between a cast and the value.
-- When this rule is set to **false**, require _no_ space between the cast and the value.
 
 Code examples:
 
@@ -572,11 +549,8 @@ int y = (int)x;
 | **Rule name** | csharp_space_after_keywords_in_control_flow_statements |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Require a space after a keyword in a control flow statement such as a `for` loop<br />`false` - Require _no_ space after a keyword in a control flow statement such as a `for` loop |
 | **Visual Studio default** | `true` |
-
-- When this rule is set to **true**, require a space after a keyword in a control flow statement such as a `for` loop.
-- When this rule is set to **false**, require _no_ space after a keyword in a control flow statement such as a `for` loop.
 
 Code examples:
 
@@ -595,11 +569,8 @@ for(int i;i<x;i++) { ... }
 | **Rule name** | csharp_space_between_method_declaration_parameter_list_parentheses |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Place a space character after the opening parenthesis and before the closing parenthesis of a method declaration parameter list<br />`false` - Do not place space characters after the opening parenthesis and before the closing parenthesis of a method declaration parameter list |
 | **Visual Studio default** | `false` |
-
-- When this rule is set to **true**, place a space character after the opening parenthesis and before the closing parenthesis of a method declaration parameter list.
-- When this rule is set to **false**, do not place space characters after the opening parenthesis and before the closing parenthesis of a  method declaration parameter list.
 
 Code examples:
 
@@ -618,11 +589,8 @@ void Bark(int x) { ... }
 | **Rule name** | csharp_space_between_method_call_parameter_list_parentheses |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Place a space character after the opening parenthesis and before the closing parenthesis of a method call<br />`false` - Do not place space characters after the opening parenthesis and before the closing parenthesis of a method call |
 | **Visual Studio default** | `false` |
-
-- When this rule is set to **true**, place a space character after the opening parenthesis and before the closing parenthesis of a method call.
-- When this rule is set to **false**, do not place space characters after the opening parenthesis and before the closing parenthesis of a method call.
 
 Code examples:
 
@@ -702,11 +670,8 @@ class C: I
 | **Rule name** | csharp_space_after_colon_in_inheritance_clause |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Require a space after the colon for bases or interfaces in a type declaration<br />`false` - Require _no_ space after the colon for bases or interfaces in a type declaration |
 | **Visual Studio default** | `true` |
-
-- When this rule is set to **true**, require a space after the colon for bases or interfaces in a type declaration.
-- When this rule is set to **false**, require _no_ space after the colon for bases or interfaces in a type declaration.
 
 Code examples:
 
@@ -741,16 +706,8 @@ class C :I
 | **Rule name** | csharp_space_around_binary_operators |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-| **Values** | `` - <br />`` - |
+| **Values** | `before_and_after` - Insert space before and after the binary operator<br />`none` - Remove spaces before and after the binary operator<br />`ignore` - Ignore spaces around binary operators |
 | **Visual Studio default** | `before_and_after` |
-
-This rule accepts one value from the following table:
-
-| Value | Description |
-| ----- |:------------|
-| before_and_after | Insert space before and after the binary operator |
-| none | Remove spaces before and after the binary operator |
-| ignore | Ignore spaces around binary operators |
 
 If you omit this rule, or use a value other than `before_and_after`, `none`, or `ignore`, the setting is not applied.
 
@@ -774,11 +731,8 @@ return x  *  (x-y);
 | **Rule name** | csharp_space_between_method_declaration_empty_parameter_list_parentheses |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Insert space within empty parameter list parentheses for a method declaration<br />`false` - Remove space within empty parameter list parentheses for a method declaration |
 | **Visual Studio default** | `false` |
-
-- When this rule is set to **true**, insert space within empty parameter list parentheses for a method declaration.
-- When this rule is set to **false**, remove space within empty parameter list parentheses for a method declaration.
 
 Code examples:
 
@@ -813,11 +767,8 @@ void Goo(int x)
 | **Rule name** | csharp_space_between_method_call_name_and_opening_parenthesis |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Insert space between method call name and opening parenthesis<br />`false` - Remove space between method call name and opening parenthesis |
 | **Visual Studio default** | `false` |
-
-- When this rule is set to **true**, insert space between method call name and opening parenthesis.
-- When this rule is set to **false**, remove space between method call name and opening parenthesis.
 
 Code examples:
 
@@ -852,11 +803,8 @@ void Goo(int x)
 | **Rule name** | csharp_space_between_method_call_empty_parameter_list_parentheses |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-| **Values** | `` - <br />`` - |
+| **Values** | `true` - Insert space within empty argument list parentheses<br />`false` - Remove space within empty argument list parentheses |
 | **Visual Studio default** | `false` |
-
-- When this rule is set to **true**, insert space within empty argument list parentheses.
-- When this rule is set to **false**, remove space within empty argument list parentheses.
 
 Code examples:
 
