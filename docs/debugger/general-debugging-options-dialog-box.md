@@ -195,6 +195,11 @@ When this option is selected, the [Run to Click](../debugger/debugger-feature-to
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
 
+::: moniker range=">= vs-2019" 
+**Enable fast expression evaluation (Managed only)**:
+Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
+::: moniker-end
+
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
