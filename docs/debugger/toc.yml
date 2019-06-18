@@ -38,9 +38,9 @@
   items:
   - name: Navigate through code with the debugger
     href: navigating-through-code-with-the-debugger.md
-  - name: Use breakpoints
+  - name: Pause code
     items:
-    - name: Pause code
+    - name: Use breakpoints
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
@@ -98,7 +98,7 @@
       href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
     - name: Mixed code and missing information in the Call Stack window
       href: mixed-code-and-missing-information-in-the-call-stack-window.md
-  - name: Edit and continue
+  - name: Pause code and continue
     items:
     - name: Edit code and continue debugging
       href: edit-and-continue.md
@@ -140,7 +140,7 @@
         href: how-to-find-which-dll-your-program-crashed-in.md
     - name: View script documents
       href: how-to-view-script-documents.md
-  - name: Tips and tricks for the debugger
+  - name: Tips and tricks
     items:
     - name: Debugger tips and tricks
       href: debugger-tips-and-tricks.md
@@ -256,7 +256,7 @@
           href: visualizer-api-reference.md
     - name: restore hidden debugger commands
       href: how-to-restore-hidden-debugger-commands.md
-  - name: Remote debugger
+  - name: Remote debugging
     items:
     - name: Remote debugging
       href: remote-debugging.md
