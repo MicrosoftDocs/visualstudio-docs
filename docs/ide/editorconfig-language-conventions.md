@@ -99,7 +99,7 @@ The style rules in this section are applicable to both C# and Visual Basic. To s
 
 ### <a name="this-and-me"></a>"This." and "Me." qualifiers
 
-This style rule (rule IDs IDE0003 and IDE0009) can be applied to fields, properties, methods, or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.
+This style rule can be applied to fields, properties, methods, or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.
 
 These rules could appear in an *.editorconfig* file as follows:
 
@@ -117,6 +117,7 @@ dotnet_style_qualification_for_event = false:suggestion
 |||
 |-|-|
 | **Rule name** | dotnet_style_qualification_for_field |
+| **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
 | **Visual Studio default** | false:silent |
 
@@ -146,6 +147,7 @@ capacity = 0
 |||
 |-|-|
 | **Rule name** | dotnet_style_qualification_for_property |
+| **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
 | **Visual Studio default** | false:silent |
 
@@ -175,6 +177,7 @@ ID = 0
 |||
 |-|-|
 | **Rule name** | dotnet_style_qualification_for_method |
+| **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
 | **Visual Studio default** | false:silent |
 
@@ -204,6 +207,7 @@ Display()
 |||
 |-|-|
 | **Rule name** | dotnet_style_qualification_for_event |
+| **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
 | **Visual Studio default** | false:silent |
 
@@ -926,14 +930,23 @@ End If
 
 The style rules in this section concern null-checking preferences.
 
-The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
+These rules could appear in an *.editorconfig* file as follows:
 
-| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ---- |
-| dotnet_style_coalesce_expression | IDE0029 | C# and Visual Basic | true:suggestion | First release |
-| dotnet_style_null_propagation | IDE0031 | C# 6.0+ and Visual Basic 14+ | true:suggestion | First release |
+```ini
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
+dotnet_style_coalesce_expression = true:suggestion
+dotnet_style_null_propagation = true:suggestion
+```
 
 #### dotnet\_style\_coalesce_expression
+
+|||
+|-|-|
+| **Rule name** | dotnet_style_coalesce_expression |
+| **Rule ID** | IDE0029 |
+| **Applicable languages** | C# and Visual Basic |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer null coalescing expressions to ternary operator checking.
 - When this rule is set to **false**, prefer ternary operator checking to null coalescing expressions.
@@ -960,6 +973,13 @@ Dim v = If(x IsNot Nothing, x, y)
 
 #### dotnet\_style\_null_propagation
 
+|||
+|-|-|
+| **Rule name** | dotnet_style_null_propagation |
+| **Rule ID** | IDE0031 |
+| **Applicable languages** | C# 6.0+ and Visual Basic 14+ |
+| **Visual Studio default** | true:suggestion |
+
 - When this rule is set to **true**, prefer to use null-conditional operator when possible.
 - When this rule is set to **false**, prefer to use ternary null checking where possible.
 
@@ -983,22 +1003,13 @@ Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```
 
-These rules could appear in an *.editorconfig* file as follows:
-
-```ini
-# CSharp and Visual Basic code style settings:
-[*.{cs,vb}]
-dotnet_style_coalesce_expression = true:suggestion
-dotnet_style_null_propagation = true:suggestion
-```
-
 ## C# code style settings
 
 The style rules in this section are applicable to C# only.
 
 ### Implicit and explicit types
 
-The style rules in this section (rule IDs IDE0007 and IDE0008) concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.
+The style rules in this section concern the use of the [var](/dotnet/csharp/language-reference/keywords/var) keyword versus an explicit type in a variable declaration. This rule can be applied separately to built-in types, when the type is apparent, and elsewhere.
 
 Example *.editorconfig* file:
 
@@ -1010,13 +1021,14 @@ csharp_style_var_when_type_is_apparent = true:suggestion
 csharp_style_var_elsewhere = true:suggestion
 ```
 
-| Rule name | Applicable languages | Visual Studio default |
-| ----------- | -------------------- | ----------------------|
-| csharp_style_var_for_built_in_types | C# | true:silent |
-| csharp_style_var_when_type_is_apparent | C# | true:silent |
-| csharp_style_var_elsewhere | C# | true:silent |
-
 #### csharp\_style\_var\_for\_built\_in_types
+
+|||
+|-|-|
+| **Rule name** | csharp_style_var_for_built_in_types |
+| **Rule ID** | IDE0007 and IDE0008 |
+| **Applicable languages** | C#  |
+| **Visual Studio default** | true:silent |
 
 - When this rule is set to **true**, prefer `var` is used to declare variables with built-in system types such as `int`.
 - When this rule is set to **false**, prefer explicit type over `var` to declare variables with built-in system types such as `int`.
@@ -1033,6 +1045,13 @@ int x = 5;
 
 #### csharp\_style\_var\_when\_type\_is_apparent
 
+|||
+|-|-|
+| **Rule name** | csharp_style_var_when_type_is_apparent |
+| **Rule ID** | IDE0007 and IDE0008 |
+| **Applicable languages** | C#  |
+| **Visual Studio default** | true:silent |
+
 - When this rule is set to **true**, prefer `var` when the type is already mentioned on the right-hand side of a declaration expression.
 - When this rule is set to **false**, prefer explicit type over `var` when the type is already mentioned on the right-hand side of a declaration expression.
 
@@ -1047,6 +1066,13 @@ Customer obj = new Customer();
 ```
 
 #### csharp\_style\_var_elsewhere
+
+|||
+|-|-|
+| **Rule name** | csharp_style_var_elsewhere |
+| **Rule ID** | IDE0007 and IDE0008 |
+| **Applicable languages** | C#  |
+| **Visual Studio default** | true:silent |
 
 - When this rule is set to **true**, prefer `var` over explicit type in all cases, unless overridden by another code style rule.
 - When this rule is set to **false**, prefer explicit type over `var` in all cases, unless overridden by another code style rule.
@@ -1078,16 +1104,14 @@ csharp_style_expression_bodied_indexers = true:suggestion
 csharp_style_expression_bodied_accessors = true:suggestion
 ```
 
-| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ---------------- |
-| csharp_style_expression_bodied_methods | IDE0022 | C# 6.0+ | false:silent | 15.3 |
-| csharp_style_expression_bodied_constructors | IDE0021 | C# 7.0+ | false:silent | 15.3 |
-| csharp_style_expression_bodied_operators | IDE0023 and IDE0024 | C# 7.0+ | false:silent | 15.3 |
-| csharp_style_expression_bodied_properties | IDE0025 | C# 7.0+ | true:silent | 15.3 |
-| csharp_style_expression_bodied_indexers | IDE0026 | C# 7.0+ | true:silent | 15.3 |
-| csharp_style_expression_bodied_accessors | IDE0027 | C# 7.0+ | true:silent | 15.3 |
-
 #### csharp\_style\_expression\_bodied_methods
+
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_methods |
+| **Rule ID** | IDE0022 |
+| **Applicable languages** | C# 6.0+  |
+| **Visual Studio default** | false:silent |
 
 This rule accepts values from the following table:
 
@@ -1109,6 +1133,13 @@ public int GetAge() { return this.Age; }
 
 #### csharp\_style\_expression\_bodied_constructors
 
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_constructors |
+| **Rule ID** | IDE0021 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | false:silent |
+
 This rule accepts values from the following table:
 
 | Value | Description |
@@ -1128,6 +1159,13 @@ public Customer(int age) { Age = age; }
 ```
 
 #### csharp\_style\_expression\_bodied_operators
+
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_operators |
+| **Rule ID** | IDE0023 and IDE0024 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | false:silent |
 
 This rule accepts values from the following table:
 
@@ -1151,6 +1189,13 @@ public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 
 #### csharp\_style\_expression\_bodied_properties
 
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_properties |
+| **Rule ID** | IDE0025 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:silent |
+
 This rule accepts values from the following table:
 
 | Value | Description |
@@ -1171,6 +1216,13 @@ public int Age { get { return _age; }}
 
 #### csharp\_style\_expression\_bodied_indexers
 
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_indexers |
+| **Rule ID** | IDE0026 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:silent |
+
 This rule accepts values from the following table:
 
 | Value | Description |
@@ -1190,6 +1242,13 @@ public T this[int i] { get { return _values[i]; } }
 ```
 
 #### csharp\_style\_expression\_bodied_accessors
+
+|||
+|-|-|
+| **Rule name** | csharp_style_expression_bodied_accessors |
+| **Rule ID** | IDE0027 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:silent |
 
 This rule accepts values from the following table:
 
@@ -1222,12 +1281,14 @@ csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 ```
 
-| Rule name | Rule ID | Applicable languages | Visual Studio default |
-| --------- | ------- | -------------------- | ----------------------|
-| csharp_style_pattern_matching_over_is_with_cast_check | IDE0020 | C# 7.0+ | true:suggestion |
-| csharp_style_pattern_matching_over_as_with_null_check | IDE0019 | C# 7.0+ | true:suggestion |
-
 #### csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
+
+|||
+|-|-|
+| **Rule name** | csharp_style_pattern_matching_over_is_with_cast_check |
+| **Rule ID** | IDE0020 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer pattern matching instead of `is` expressions with type casts.
 - When this rule is set to **false**, prefer `is` expressions with type casts instead of pattern matching.
@@ -1243,6 +1304,13 @@ if (o is int) {var i = (int)o; ... }
 ```
 
 #### csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
+
+|||
+|-|-|
+| **Rule name** | csharp_style_pattern_matching_over_as_with_null_check |
+| **Rule ID** | IDE0019 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type.
 - When this rule is set to **false**, prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type.
@@ -1262,13 +1330,14 @@ if (s != null) {...}
 
 This style rule concerns whether `out` variables are declared inline or not. Starting in C# 7, you can [declare an out variable in the argument list of a method call](/dotnet/csharp/language-reference/keywords/out-parameter-modifier#calling-a-method-with-an-out-argument), rather than in a separate variable declaration.
 
-The following table shows the rule name, rule ID, applicable language versions, and default values:
-
-| Rule name | Rule ID | Applicable languages | Visual Studio default |
-| --------- | -------- | -------------------- | ----------------------|
-| csharp_style_inlined_variable_declaration | IDE0018 | C# 7.0+ | true:suggestion |
-
 #### csharp\_style\_inlined\_variable_declaration
+
+|||
+|-|-|
+| **Rule name** | csharp_style_inlined_variable_declaration |
+| **Rule ID** | IDE0018 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer `out` variables to be declared inline in the argument list of a method call when possible.
 - When this rule is set to **false**, prefer `out` variables to be declared before the method call.
@@ -1306,13 +1375,14 @@ csharp_style_deconstructed_variable_declaration = true:suggestion
 csharp_style_pattern_local_over_anonymous_function = true:suggestion
 ```
 
-| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ---------------- |
-| csharp_prefer_simple_default_expression | IDE0034 | C# 7.1+ | true:suggestion | 15.3 |
-| csharp_style_deconstructed_variable_declaration | IDE0042 | C# 7.0+ | true:suggestion | 15.5 |
-| csharp_style_pattern_local_over_anonymous_function | IDE0039 | C# 7.0+ | true:suggestion | 15.5 |
-
 #### csharp\_prefer\_simple\_default_expression
+
+|||
+|-|-|
+| **Rule name** | csharp_prefer_simple_default_expression |
+| **Rule ID** | IDE0034 |
+| **Applicable languages** | C# 7.1+  |
+| **Visual Studio default** | true:suggestion |
 
 This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
 
@@ -1330,6 +1400,13 @@ void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { 
 ```
 
 #### csharp\_style\_deconstructed\_variable_declaration
+
+|||
+|-|-|
+| **Rule name** | csharp_style_deconstructed_variable_declaration |
+| **Rule ID** | IDE0042 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer deconstructed variable declaration.
 - When this rule is set to **false**, do not prefer deconstruction in variable declarations.
@@ -1353,6 +1430,13 @@ Console.WriteLine($"{point.x} {point.y}");
 ```
 
 #### csharp\_style\_pattern\_local\_over\_anonymous_function
+
+|||
+|-|-|
+| **Rule name** | csharp_style_pattern_local_over_anonymous_function |
+| **Rule ID** | IDE0039 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer local functions over anonymous functions.
 - When this rule is set to **false**, prefer anonymous functions over local functions.
@@ -1387,12 +1471,14 @@ csharp_style_throw_expression = true:suggestion
 csharp_style_conditional_delegate_call = false:suggestion
 ```
 
-| Rule name | Rule ID | Applicable languages | Visual Studio default |
-| --------- | ------- | -------------------- | ----------------------|
-| csharp_style_throw_expression | IDE0016 | C# 7.0+ | true:suggestion |
-| csharp_style_conditional_delegate_call | IDE0041 | C# 6.0+ | true:suggestion |
-
 #### csharp\_style\_throw_expression
+
+|||
+|-|-|
+| **Rule name** | csharp_style_throw_expression |
+| **Rule ID** | IDE0016 |
+| **Applicable languages** | C# 7.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer to use `throw` expressions instead of `throw` statements.
 - When this rule is set to **false**, prefer to use `throw` statements instead of `throw` expressions.
@@ -1409,6 +1495,13 @@ this.s = s;
 ```
 
 #### csharp\_style\_conditional\_delegate_call
+
+|||
+|-|-|
+| **Rule name** | csharp_style_conditional_delegate_call |
+| **Rule ID** | IDE0041 |
+| **Applicable languages** | C# 6.0+  |
+| **Visual Studio default** | true:suggestion |
 
 - When this rule is set to **true**, prefer to use the conditional coalescing operator (`?.`) when invoking a lambda expression, instead of performing a null check.
 - When this rule is set to **false**, prefer to perform a null check before invoking a lambda expression, instead of using the conditional coalescing operator (`?.`).
@@ -1435,11 +1528,14 @@ Example *.editorconfig* file:
 csharp_prefer_braces = true:silent
 ```
 
-| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
-| --------- | ------- | -------------------- | ----------------------| ---------------- |
-| csharp_prefer_braces | IDE0011 | C# | true:silent | 15.3 |
-
 #### csharp\_prefer\_braces
+
+|||
+|-|-|
+| **Rule name** | csharp_prefer_braces |
+| **Rule ID** | IDE0011 |
+| **Applicable languages** | C# |
+| **Visual Studio default** | true:silent |
 
 - When this rule is set to **true**, prefer curly braces even for one line of code.
 - When this rule is set to **false**, prefer no curly braces if allowed.
