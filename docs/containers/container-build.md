@@ -7,7 +7,7 @@ ms.date: 06/06/2019
 ms.technology: vs-azure
 ms.topic: conceptual
 ---
-# Build container apps using Visual Studio or the command line
+# Building containerized apps using Visual Studio or the command line
 
 Whether you're building from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio builds uses the Dockerfile to build your projects.  For performance reasons, Visual Studio follows a special process for containerized apps. Understanding how Visual Studio builds your projects is especially important when you customize your build process by modifying the Dockerfile.
 

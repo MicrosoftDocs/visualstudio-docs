@@ -34,7 +34,7 @@
       href: container-unit-testing.md
   - name: Concepts
     items:
-    - name: Container Tools build process
+    - name: Building containerized apps
       href: container-build.md
   - name: Troubleshooting
     href: troubleshooting-docker-errors.md
