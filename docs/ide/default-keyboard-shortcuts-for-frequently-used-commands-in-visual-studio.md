@@ -30,7 +30,7 @@ The *Global* context means that the shortcut is applicable in any tool window in
 
 |Commands|Keyboard shortcuts [Contexts]|
 |--------------| - |
-|Debug.BreakatFunction|**Ctrl+B** [Global]|
+|Debug.BreakAtFunction|**Ctrl+B** [Global]|
 |Debug.BreakAll|**Ctrl+Alt+Break** [Global]|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9** [Global]|
 |Debug.Exceptions|**Ctrl+Alt+E** [Global]|
@@ -59,7 +59,7 @@ The *Global* context means that the shortcut is applicable in any tool window in
 |Edit.Delete|**Delete** [Global, Team Explorer]<br /><br />or **Shift+Delete** [Sequence Diagram, UML Activity Diagram, Layer Diagram]<br /><br />or **Ctrl+Delete** [Class Diagram]|
 |Edit.Find|**Ctrl+F** [Global]|
 |Edit.FindAllReferences|**Shift+F12** [Global]|
-|Edit.FindinFiles|**Ctrl+Shift+F** [Global]|
+|Edit.FindInFiles|**Ctrl+Shift+F** [Global]|
 |Edit.FindNext|**F3** [Global]|
 |Edit.FindNextSelected|**Ctrl+F3** [Global]|
 |Edit.FormatDocument|**Ctrl+K, Ctrl+D** [Text Editor]|
@@ -111,7 +111,7 @@ The *Global* context means that the shortcut is applicable in any tool window in
 |File.Rename|**F2** [Team Explorer]|
 |File.SaveAll|**Ctrl+Shift+S** [Global]|
 |File.SaveSelectedItems|**Ctrl+S** [Global]|
-|File.ViewinBrowser|**Ctrl+Shift+W** [Global]|
+|File.ViewInBrowser|**Ctrl+Shift+W** [Global]|
 
 ## Project
 
@@ -130,7 +130,7 @@ The *Global* context means that the shortcut is applicable in any tool window in
 
 |Command|Keyboard shortcut [Context]|
 |-------------| - |
-|Tools.AttachtoProcess|**Ctrl+Alt+P** [Global]|
+|Tools.AttachToProcess|**Ctrl+Alt+P** [Global]|
 
 ## View
 
