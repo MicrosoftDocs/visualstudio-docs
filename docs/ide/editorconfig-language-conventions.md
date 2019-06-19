@@ -16,19 +16,22 @@ ms.workload:
 ---
 # Language conventions
 
-Language conventions for EditorConfig in Visual Studio come in two categories:
+Language conventions for EditorConfig in Visual Studio fall into two categories:
 
 - [.NET code style settings](#net-code-style-settings)
 
 - [C# code style settings](#c-code-style-settings)
 
+> [!TIP]
+> To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
+
 ## Rule format
 
 Rules for language conventions have the following general format:
 
-`options_name = false|true|<other value> : none|silent|suggestion|warning|error`
+`option_name = value:severity`
 
-For each language code style rule, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style); others accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the **severity**.
+For each language convention, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style); others accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the **severity**.
 
 ### Severity
 
@@ -45,9 +48,6 @@ Severity | Effect
 ## .NET code style settings
 
 The style rules in this section are applicable to both C# and Visual Basic.
-
-> [!TIP]
-> To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
 
 - ["This." and "Me." qualifiers](#this-and-me)
    - dotnet\_style\_qualification\_for_field

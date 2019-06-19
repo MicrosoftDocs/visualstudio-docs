@@ -24,11 +24,11 @@ Formatting conventions for EditorConfig for Visual Studio fall into two categori
 
 ## Rule format
 
-Most of the rules for formatting conventions have the following format:
+Rules for formatting conventions have the following format:
 
-`rule_name = false|true`
+`rule_name = value`
 
-For many rules, you specify either `true` (prefer this style) or `false` (do not prefer this style). For some rules, you specify other values to describe when and where to apply the rule. You don't specify a severity.
+For many rules, you specify either `true` (prefer this style) or `false` (do not prefer this style) for `value`. For other rules, you specify a value such as `flush_left` or `before_and_after` to describe when and where to apply the rule. You don't specify a severity.
 
 ## .NET formatting settings
 
