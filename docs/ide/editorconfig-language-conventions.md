@@ -16,13 +16,23 @@ ms.workload:
 ---
 # Language conventions
 
-Rules for language conventions have the following format:
+Language conventions for EditorConfig in Visual Studio come in two categories:
 
-`options_name = false|true : none|silent|suggestion|warning|error`
+- [.NET code style settings](#net-code-style-settings)
 
-For each language code style rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
+- [C# code style settings](#c-code-style-settings)
 
-The following table lists the possible severity values and their effects:
+## Rule format
+
+Rules for language conventions have the following general format:
+
+`options_name = false|true|<other value> : none|silent|suggestion|warning|error`
+
+For each language code style rule, you specify a value that defines if or when to prefer the style. Many rules accept a value of `true` (prefer this style) or `false` (do not prefer this style); others accept values such as `when_on_single_line` or `never`. The second part of the rule specifies the **severity**.
+
+### Severity
+
+A language convention severity specifies the level at which to enforce that style. The following table lists the possible severity values and their effects:
 
 Severity | Effect
 :------- | ------
@@ -32,70 +42,44 @@ Severity | Effect
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
 
-The following list shows the language code style rules available in Visual Studio:
-
-- [.NET code style settings](#net-code-style-settings)
-    - ["This." and "Me." qualifiers](#this-and-me)
-        - dotnet\_style\_qualification\_for_field
-        - dotnet\_style\_qualification\_for_property
-        - dotnet\_style\_qualification\_for_method
-        - dotnet\_style\_qualification\_for_event
-    - [Language keywords instead of framework type names for type references](#language-keywords)
-        - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
-        - dotnet\_style\_predefined\_type\_for\_member_access
-    - [Modifier preferences](#normalize-modifiers)
-        - dotnet\_style\_require\_accessibility_modifiers
-        - csharp\_preferred\_modifier_order
-        - visual\_basic\_preferred\_modifier_order
-        - dotnet\_style\_readonly\_field
-    - [Parentheses preferences](#parentheses-preferences)
-        - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
-        - dotnet\_style\_parentheses\_in\_other\_binary\_operators
-        - dotnet\_style\_parentheses\_in\_other\_operators
-        - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
-    - [Expression-level preferences](#expression-level-preferences)
-        - dotnet\_style\_object_initializer
-        - dotnet\_style\_collection_initializer
-        - dotnet\_style\_explicit\_tuple_names
-        - dotnet\_style\_prefer\_inferred\_tuple_names
-        - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
-        - dotnet\_style\_prefer\_auto\_properties
-        - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
-        - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
-        - dotnet\_style\_prefer\_conditional\_expression\_over\_return
-    - ["Null" checking preferences](#null-checking-preferences)
-        - dotnet\_style\_coalesce_expression
-        - dotnet\_style\_null_propagation
-- [C# code style settings](#c-code-style-settings)
-    - [Implicit and explicit types](#implicit-and-explicit-types)
-        - csharp\_style\_var\_for\_built\_in_types
-        - csharp\_style\_var\_when\_type\_is_apparent
-        - csharp\_style\_var_elsewhere
-    - [Expression-bodied members](#expression-bodied-members)
-        - csharp\_style\_expression\_bodied_methods
-        - csharp\_style\_expression\_bodied_constructors
-        - csharp\_style\_expression\_bodied_operators
-        - csharp\_style\_expression\_bodied_properties
-        - csharp\_style\_expression\_bodied_indexers
-        - csharp\_style\_expression\_bodied_accessors
-    - [Pattern matching](#pattern-matching)
-        - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
-        - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
-    - [Inlined variable declarations](#inlined-variable-declarations)
-        - csharp\_style\_inlined\_variable_declaration
-    - [Expression-level preferences](#expression-level-preferences)
-        - csharp\_prefer\_simple\_default_expression
-        - csharp\_style\_deconstructed\_variable_declaration
-        - csharp\_style\_pattern\_local\_over\_anonymous_function
-    - ["Null" checking preferences](#null-checking-preferences)
-        - csharp\_style\_throw_expression
-        - csharp\_style\_conditional\_delegate_call
-    - [Code block preferences](#code-block-preferences)
-        - csharp\_prefer_braces
-
 ## .NET code style settings
 
-The style rules in this section are applicable to both C# and Visual Basic. To see code examples in your preferred programming language, choose it using the language picker at the top-right corner of your browser window.
+The style rules in this section are applicable to both C# and Visual Basic.
+
+> [!TIP]
+> To see the code examples in your preferred programming language, choose it using the language picker at the top-right corner of the browser window.
+
+- ["This." and "Me." qualifiers](#this-and-me)
+   - dotnet\_style\_qualification\_for_field
+   - dotnet\_style\_qualification\_for_property
+   - dotnet\_style\_qualification\_for_method
+   - dotnet\_style\_qualification\_for_event
+- [Language keywords instead of framework type names for type references](#language-keywords)
+   - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
+   - dotnet\_style\_predefined\_type\_for\_member_access
+- [Modifier preferences](#normalize-modifiers)
+   - dotnet\_style\_require\_accessibility_modifiers
+   - csharp\_preferred\_modifier_order
+   - visual\_basic\_preferred\_modifier_order
+   - dotnet\_style\_readonly\_field
+- [Parentheses preferences](#parentheses-preferences)
+   - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
+   - dotnet\_style\_parentheses\_in\_other\_binary\_operators
+   - dotnet\_style\_parentheses\_in\_other\_operators
+   - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
+- [Expression-level preferences](#expression-level-preferences)
+   - dotnet\_style\_object_initializer
+   - dotnet\_style\_collection_initializer
+   - dotnet\_style\_explicit\_tuple_names
+   - dotnet\_style\_prefer\_inferred\_tuple_names
+   - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
+   - dotnet\_style\_prefer\_auto\_properties
+   - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
+   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+- ["Null" checking preferences](#null-checking-preferences)
+   - dotnet\_style\_coalesce_expression
+   - dotnet\_style\_null_propagation
 
 ### <a name="this-and-me"></a>"This." and "Me." qualifiers
 
@@ -957,6 +941,32 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ## C# code style settings
 
 The style rules in this section are applicable to C# only.
+
+- [Implicit and explicit types](#implicit-and-explicit-types)
+   - csharp\_style\_var\_for\_built\_in_types
+   - csharp\_style\_var\_when\_type\_is_apparent
+   - csharp\_style\_var_elsewhere
+- [Expression-bodied members](#expression-bodied-members)
+   - csharp\_style\_expression\_bodied_methods
+   - csharp\_style\_expression\_bodied_constructors
+   - csharp\_style\_expression\_bodied_operators
+   - csharp\_style\_expression\_bodied_properties
+   - csharp\_style\_expression\_bodied_indexers
+   - csharp\_style\_expression\_bodied_accessors
+- [Pattern matching](#pattern-matching)
+   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
+   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
+- [Inlined variable declarations](#inlined-variable-declarations)
+   - csharp\_style\_inlined\_variable_declaration
+- [Expression-level preferences](#expression-level-preferences)
+   - csharp\_prefer\_simple\_default_expression
+   - csharp\_style\_deconstructed\_variable_declaration
+   - csharp\_style\_pattern\_local\_over\_anonymous_function
+- ["Null" checking preferences](#null-checking-preferences)
+   - csharp\_style\_throw_expression
+    - csharp\_style\_conditional\_delegate_call
+- [Code block preferences](#code-block-preferences)
+   - csharp\_prefer_braces
 
 ### Implicit and explicit types
 
