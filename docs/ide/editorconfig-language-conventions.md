@@ -119,10 +119,8 @@ dotnet_style_qualification_for_event = false:suggestion
 | **Rule name** | dotnet_style_qualification_for_field |
 | **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | false:silent |
-
-- When this rule is set to **true**, prefer fields to be prefaced with `this.` in C# or `Me.` in Visual Basic.
-- When this rule is set to **false**, prefer fields _not_ to be prefaced with `this.` or `Me.`.
+| **Values** | `true` - Prefer fields to be prefaced with `this.` in C# or `Me.` in Visual Basic<br />`false` - Prefer fields _not_ to be prefaced with `this.` or `Me.` |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -149,10 +147,8 @@ capacity = 0
 | **Rule name** | dotnet_style_qualification_for_property |
 | **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | false:silent |
-
-- When this rule is set to **true**, prefer properties to be prefaced with `this.` in C# or `Me.` in Visual Basic.
-- When this rule is set to **false**, prefer properties _not_ to be prefaced with `this.` or `Me.`.
+| **Values** | `true` - Prefer properties to be prefaced with `this.` in C# or `Me.` in Visual Basic<br />`false` - Prefer properties _not_ to be prefaced with `this.` or `Me.` |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -179,10 +175,8 @@ ID = 0
 | **Rule name** | dotnet_style_qualification_for_method |
 | **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | false:silent |
-
-- When this rule is set to **true**, prefer methods to be prefaced with `this.` in C# or `Me.` in Visual Basic.
-- When this rule is set to **false**, prefer methods _not_ to be prefaced with `this.` or `Me.`.
+| **Values** | `true` - Prefer methods to be prefaced with `this.` in C# or `Me.` in Visual Basic.<br />`false` - Prefer methods _not_ to be prefaced with `this.` or `Me.`. |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -209,10 +203,8 @@ Display()
 | **Rule name** | dotnet_style_qualification_for_event |
 | **Rule ID** | IDE0003 and IDE0009 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | false:silent |
-
-- When this rule is set to **true**, prefer events to be prefaced with `this.` in C# or `Me.` in Visual Basic.
-- When this rule is set to **false**, prefer events _not_ to be prefaced with `this.` or `Me.`.
+| **Values** | `true` - Prefer events to be prefaced with `this.` in C# or `Me.` in Visual Basic.<br />`false` - Prefer events _not_ to be prefaced with `this.` or `Me.`. |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -252,10 +244,8 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 | **Rule name** | dotnet_style_predefined_type_for_locals_parameters_members |
 | **Rule ID** | IDE0012 and IDE0014 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:silent |
-
-- When this rule is set to **true**, prefer the language keyword for local variables, method parameters, and class members, instead of the type name, for types that have a keyword to represent them.
-- When this rule is set to **false**, prefer the type name for local variables, method parameters, and class members, instead of the language keyword.
+| **Values** | `true` - Prefer the language keyword for local variables, method parameters, and class members, instead of the type name, for types that have a keyword to represent them<br />`false` - Prefer the type name for local variables, method parameters, and class members, instead of the language keyword |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -282,10 +272,8 @@ Private _member As Int32
 | **Rule name** | dotnet_style_predefined_type_for_member_access |
 | **Rule ID** | IDE0013 and IDE0015 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:silent |
-
-- When this rule is set to **true**, prefer the language keyword for member access expressions, instead of the type name, for types that have a keyword to represent them.
-- When this rule is set to **false**, prefer the type name for member access expressions, instead of the language keyword.
+| **Values** | `true` - Prefer the language keyword for member access expressions, instead of the type name, for types that have a keyword to represent them<br />`false` - Prefer the type name for member access expressions, instead of the language keyword |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -333,17 +321,9 @@ visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public
 | **Rule name** | dotnet_style_require_accessibility_modifiers |
 | **Rule ID** | IDE0040 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | for_non_interface_members:silent |
+| **Values** | `always` - Prefer accessibility modifiers to be specified.<br /><br />`for_non_interface_members` - Prefer accessibility modifiers to be declared except for public interface members. (This is the same as **always** and has been added for future-proofing if C# adds default interface methods.)<br /><br />`never` - Do not prefer accessibility modifiers to be specified.<br /><br />`omit_if_default` - Prefer accessibility modifiers to be specified except if they are the default modifier. |
+| **Visual Studio default** | `for_non_interface_members:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.5 |
-
-This rule accepts a value from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| always | Prefer accessibility modifiers to be specified |
-| for\_non\_interface_members | Prefer accessibility modifiers to be declared except for public interface members. (This is the same as **always** and has been added for future-proofing if C# adds default interface methods.) |
-| never | Do not prefer accessibility modifiers to be specified |
-| omit_if_default | Prefer accessibility modifiers to be specified except if they are the default modifier |
 
 Code examples:
 
@@ -369,7 +349,8 @@ class MyClass
 | **Rule name** | csharp_preferred_modifier_order |
 | **Rule ID** | IDE0036 |
 | **Applicable languages** | C# |
-| **Visual Studio default** | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:silent |
+| **Values** | One or more C# modifiers, such as `public`, `private`, and `protected` |
+| **Visual Studio default** | `public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.5 |
 
 - When this rule is set to a list of modifiers, prefer the specified ordering.
@@ -392,7 +373,8 @@ class MyClass
 | **Rule name** | visual_basic_preferred_modifier_order |
 | **Rule ID** | IDE0036 |
 | **Applicable languages** | Visual Basic |
-| **Visual Studio default** | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:silent |
+| **Values** | One or more Visual Basic modifiers, such as `Partial`, `Private`, and `Public` |
+| **Visual Studio default** | `Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.5 |
 
 - When this rule is set to a list of modifiers, prefer the specified ordering.
@@ -414,11 +396,9 @@ End Class
 | **Rule name** | dotnet_style_readonly_field |
 | **Rule ID** | IDE0044 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer that fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic) if they are only ever assigned inline, or inside of a constructor<br />`false` - Specify no preference over whether fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic) |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-
-- When this rule is set to **true**, prefer that fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic) if they are only ever assigned inline, or inside of a constructor.
-- When this rule is set to **false**, specify no preference over whether fields should be marked with `readonly` (C#) or `ReadOnly` (Visual Basic).
 
 Code examples:
 
@@ -459,11 +439,9 @@ dotnet_style_parentheses_in_other_operators = never_if_unnecessary:silent
 | **Rule name** | dotnet_style_parentheses_in_arithmetic_binary_operators |
 | **Rule ID** | IDE0047 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | always_for_clarity:silent |
+| **Values** | `always_for_clarity` - Prefer parentheses to clarify arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence<br /><br />`never_if_unnecessary` - Prefer to not have parentheses when arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence is obvious |
+| **Visual Studio default** | `always_for_clarity:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.8 |
-
-- When this rule is set to **always_for_clarity**, prefer parentheses to clarify arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence.
-- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence is obvious.
 
 Code examples:
 
@@ -490,11 +468,9 @@ Dim v = a + b * c
 | **Rule name** | dotnet_style_parentheses_in_relational_binary_operators |
 | **Rule ID** | IDE0047 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | always_for_clarity:silent |
+| **Values** | `always_for_clarity` - Prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence<br /><br />`never_if_unnecessary` - Prefer to not have parentheses when relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence is obvious |
+| **Visual Studio default** | `always_for_clarity:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.8 |
-
-- When this rule is set to **always_for_clarity**, prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence.
-- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence is obvious.
 
 Code examples:
 
@@ -521,11 +497,9 @@ Dim v = a < b = c > d
 | **Rule name** | dotnet_style_parentheses_in_other_binary_operators |
 | **Rule ID** | IDE0047 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | always_for_clarity:silent |
+| **Values** | `always_for_clarity` - Prefer parentheses to clarify other binary operator (`&&`, `||`, `??`) precedence<br />`never_if_unnecessary` - Prefer to not have parentheses when other binary operator (`&&`, `||`, `??`) precedence is obvious |
+| **Visual Studio default** | `always_for_clarity:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.8 |
-
-- When this rule is set to **always_for_clarity**, prefer parentheses to clarify other binary operator (`&&`, `||`, `??`) precedence.
-- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when other binary operator (`&&`, `||`, `??`) precedence is obvious.
 
 Code examples:
 
@@ -552,11 +526,9 @@ Dim v = a OrElse b AndAlso c
 | **Rule name** | dotnet_style_parentheses_in_other_operators |
 | **Rule ID** | IDE0047 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | never_if_unnecessary:silent |
+| **Values** | `always_for_clarity` - Prefer parentheses to clarify operator precedence<br />`never_if_unnecessary` - Prefer to not have parentheses when operator precedence is obvious |
+| **Visual Studio default** | `never_if_unnecessary:silent` |
 | **Introduced version** | Visual Studio 2017 version 15.8 |
-
-- When this rule is set to **always_for_clarity**, prefer parentheses to clarify operator precedence.
-- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when operator precedence is obvious.
 
 Code examples:
 
@@ -602,10 +574,8 @@ dotnet_style_prefer_conditional_expression_over_return = true:suggestion
 | **Rule name** | dotnet_style_object_initializer |
 | **Rule ID** | IDE0017 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer objects to be initialized using object initializers when possible.
-- When this rule is set to **false**, prefer objects to *not* be initialized using object initializers.
+| **Values** | `true` - Prefer objects to be initialized using object initializers when possible<br />`false` - Prefer objects to *not* be initialized using object initializers |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -634,10 +604,8 @@ c.Age = 21
 | **Rule name** | dotnet_style_collection_initializer |
 | **Rule ID** | IDE0028 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer collections to be initialized using collection initializers when possible.
-- When this rule is set to **false**, prefer collections to *not* be initialized using collection initializers.
+| **Values** | `true` - Prefer collections to be initialized using collection initializers when possible<br />`false` - Prefer collections to *not* be initialized using collection initializers |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -670,10 +638,8 @@ list.Add(3)
 | **Rule name** | dotnet_style_explicit_tuple_names |
 | **Rule ID** | IDE0033 |
 | **Applicable languages** | C# 7.0+ and Visual Basic 15+ |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer tuple names to ItemX properties.
-- When this rule is set to **false**, prefer ItemX properties to tuple names.
+| **Values** | `true` - Prefer tuple names to ItemX properties<br />`false` - Prefer ItemX properties to tuple names |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -704,11 +670,9 @@ Dim name = customer.Item1
 | **Rule name** | dotnet_style_prefer_inferred_tuple_names |
 | **Rule ID** | IDE0037 |
 | **Applicable languages** | C# 7.1+ and Visual Basic 15+ |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer inferred tuple element names<br />`false` - Prefer explicit tuple element names |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.6 |
-
-- When this rule is set to **true**, prefer inferred tuple element names.
-- When this rule is set to **false**, prefer explicit tuple element names.
 
 Code examples:
 
@@ -735,11 +699,9 @@ Dim tuple = (name:=name, age:=age)
 | **Rule name** | dotnet_style_prefer_inferred_anonymous_type_member_names |
 | **Rule ID** | IDE0037 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer inferred anonymous type member names<br />`false` - Prefer explicit anonymous type member names |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.6 |
-
-- When this rule is set to **true**, prefer inferred anonymous type member names.
-- When this rule is set to **false**, prefer explicit anonymous type member names.
 
 Code examples:
 
@@ -766,11 +728,9 @@ Dim anon = New With {.name = name, .age = age}
 | **Rule name** | dotnet_style_prefer_auto_properties |
 | **Rule ID** | IDE0032 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer autoproperties over properties with private backing fields<br />`false` - Prefer properties with private backing fields over autoproperties |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-
-- When this rule is set to **true**, prefer autoproperties over properties with private backing fields.
-- When this rule is set to **false**, prefer properties with private backing fields over autoproperties.
 
 Code examples:
 
@@ -811,11 +771,9 @@ End Property
 | **Rule name** | dotnet_style_prefer_is_null_check_over_reference_equality_method |
 | **Rule ID** | IDE0041 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer using a null check with pattern-matching over `object.ReferenceEquals`<br />`false` - Prefer `object.ReferenceEquals` over a null check with pattern-matching |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-
-- When this rule is set to **true**, prefer using a null check with pattern-matching over object.ReferenceEquals.
-- When this rule is set to **false**, prefer object.ReferenceEquals over a null check with pattern-matching.
 
 Code examples:
 
@@ -848,11 +806,9 @@ End If
 | **Rule name** | dotnet_style_prefer_conditional_expression_over_assignment |
 | **Rule ID** | IDE0045 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer assignments with a ternary conditional over an if-else statement<br />`false` - Prefer assignments with an if-else statement over a ternary conditional |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.8 |
-
-- When this rule is set to **true**, prefer assignments with a ternary conditional over an if-else statement.
-- When this rule is set to **false**, prefer assignments with an if-else statement over a ternary conditional.
 
 Code examples:
 
@@ -892,11 +848,9 @@ End If
 | **Rule name** | dotnet_style_prefer_conditional_expression_over_return |
 | **Rule ID** | IDE0046 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
+| **Values** | `true` - Prefer return statements to use a ternary conditional over an if-else statement<br />`false` - Prefer return statements to use an if-else statement over a ternary conditional |
+| **Visual Studio default** | `true:suggestion` |
 | **Introduced version** | Visual Studio 2017 version 15.8 |
-
-- When this rule is set to **true**, prefer return statements to use a ternary conditional over an if-else statement.
-- When this rule is set to **false**, prefer return statements to use an if-else statement over a ternary conditional.
 
 Code examples:
 
@@ -947,10 +901,8 @@ dotnet_style_null_propagation = true:suggestion
 | **Rule name** | dotnet_style_coalesce_expression |
 | **Rule ID** | IDE0029 |
 | **Applicable languages** | C# and Visual Basic |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer null coalescing expressions to ternary operator checking.
-- When this rule is set to **false**, prefer ternary operator checking to null coalescing expressions.
+| **Values** | `true` - Prefer null coalescing expressions to ternary operator checking<br />`false` - Prefer ternary operator checking to null coalescing expressions |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -979,10 +931,8 @@ Dim v = If(x IsNot Nothing, x, y)
 | **Rule name** | dotnet_style_null_propagation |
 | **Rule ID** | IDE0031 |
 | **Applicable languages** | C# 6.0+ and Visual Basic 14+ |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer to use null-conditional operator when possible.
-- When this rule is set to **false**, prefer to use ternary null checking where possible.
+| **Values** | `true` - Prefer to use null-conditional operator when possible<br />`false` - Prefer to use ternary null checking where possible |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1029,10 +979,8 @@ csharp_style_var_elsewhere = true:suggestion
 | **Rule name** | csharp_style_var_for_built_in_types |
 | **Rule ID** | IDE0007 and IDE0008 |
 | **Applicable languages** | C#  |
-| **Visual Studio default** | true:silent |
-
-- When this rule is set to **true**, prefer `var` is used to declare variables with built-in system types such as `int`.
-- When this rule is set to **false**, prefer explicit type over `var` to declare variables with built-in system types such as `int`.
+| **Values** | `true` - Prefer `var` is used to declare variables with built-in system types such as `int`<br />`false` - Prefer explicit type over `var` to declare variables with built-in system types such as `int` |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -1051,10 +999,8 @@ int x = 5;
 | **Rule name** | csharp_style_var_when_type_is_apparent |
 | **Rule ID** | IDE0007 and IDE0008 |
 | **Applicable languages** | C#  |
-| **Visual Studio default** | true:silent |
-
-- When this rule is set to **true**, prefer `var` when the type is already mentioned on the right-hand side of a declaration expression.
-- When this rule is set to **false**, prefer explicit type over `var` when the type is already mentioned on the right-hand side of a declaration expression.
+| **Values** | `true` - Prefer `var` when the type is already mentioned on the right-hand side of a declaration expression<br />`false` - Prefer explicit type over `var` when the type is already mentioned on the right-hand side of a declaration expression |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -1073,10 +1019,8 @@ Customer obj = new Customer();
 | **Rule name** | csharp_style_var_elsewhere |
 | **Rule ID** | IDE0007 and IDE0008 |
 | **Applicable languages** | C#  |
-| **Visual Studio default** | true:silent |
-
-- When this rule is set to **true**, prefer `var` over explicit type in all cases, unless overridden by another code style rule.
-- When this rule is set to **false**, prefer explicit type over `var` in all cases, unless overridden by another code style rule.
+| **Values** | `true` - Prefer `var` over explicit type in all cases, unless overridden by another code style rule<br />`false` - Prefer explicit type over `var` in all cases, unless overridden by another code style rule |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -1112,15 +1056,8 @@ csharp_style_expression_bodied_accessors = true:suggestion
 | **Rule name** | csharp_style_expression_bodied_methods |
 | **Rule ID** | IDE0022 |
 | **Applicable languages** | C# 6.0+  |
-| **Visual Studio default** | false:silent |
-
-This rule accepts values from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| true | Prefer expression-bodied members for methods |
-| when_on_single_line | Prefer expression-bodied members for methods when they will be a single line |
-| false | Prefer block bodies for methods |
+| **Values** | `true` - Prefer expression-bodied members for methods<br />`when_on_single_line` - Prefer expression-bodied members for methods when they will be a single line<br />`false` - Prefer block bodies for methods |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -1139,15 +1076,8 @@ public int GetAge() { return this.Age; }
 | **Rule name** | csharp_style_expression_bodied_constructors |
 | **Rule ID** | IDE0021 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | false:silent |
-
-This rule accepts values from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| true | Prefer expression-bodied members for constructors |
-| when_on_single_line | Prefer expression-bodied members for constructors when they will be a single line |
-| false | Prefer block bodies for constructors |
+| **Values** | `true` - Prefer expression-bodied members for constructors<br />`when_on_single_line` - Prefer expression-bodied members for constructors when they will be a single line<br />`false` - Prefer block bodies for constructors |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -1166,15 +1096,8 @@ public Customer(int age) { Age = age; }
 | **Rule name** | csharp_style_expression_bodied_operators |
 | **Rule ID** | IDE0023 and IDE0024 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | false:silent |
-
-This rule accepts values from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| true | Prefer expression-bodied members for operators |
-| when_on_single_line | Prefer expression-bodied members for operators when they will be a single line |
-| false | Prefer block bodies for operators |
+| **Values** | `true` - Prefer expression-bodied members for operators<br />`when_on_single_line` - Prefer expression-bodied members for operators when they will be a single line<br />`false` - Prefer block bodies for operators |
+| **Visual Studio default** | `false:silent` |
 
 Code examples:
 
@@ -1195,15 +1118,8 @@ public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 | **Rule name** | csharp_style_expression_bodied_properties |
 | **Rule ID** | IDE0025 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:silent |
-
-This rule accepts values from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| true | Prefer expression-bodied members for properties |
-| when_on_single_line | Prefer expression-bodied members for properties when they will be a single line |
-| false | Prefer block bodies for properties |
+| **Values** | `true` - Prefer expression-bodied members for properties<br />`when_on_single_line` - Prefer expression-bodied members for properties when they will be a single line<br />`false` - Prefer block bodies for properties |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -1222,15 +1138,8 @@ public int Age { get { return _age; }}
 | **Rule name** | csharp_style_expression_bodied_indexers |
 | **Rule ID** | IDE0026 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:silent |
-
-This rule accepts values from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| true | Prefer expression-bodied members for indexers |
-| when_on_single_line | Prefer expression-bodied members for indexers when they will be a single line |
-| false | Prefer block bodies for indexers |
+| **Values** | `true` - Prefer expression-bodied members for indexers<br />`when_on_single_line` - Prefer expression-bodied members for indexers when they will be a single line<br />`false` - Prefer block bodies for indexers |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -1249,15 +1158,8 @@ public T this[int i] { get { return _values[i]; } }
 | **Rule name** | csharp_style_expression_bodied_accessors |
 | **Rule ID** | IDE0027 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:silent |
-
-This rule accepts values from the following table:
-
-| Value | Description |
-| ----- |:----------- |
-| true | Prefer expression-bodied members for accessors |
-| when_on_single_line | Prefer expression-bodied members for accessors when they will be a single line |
-| false | Prefer block bodies for accessors |
+| **Values** | `true` - Prefer expression-bodied members for accessors<br />`when_on_single_line` - Prefer expression-bodied members for accessors when they will be a single line<br />`false` - Prefer block bodies for accessors |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 
@@ -1289,10 +1191,8 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 | **Rule name** | csharp_style_pattern_matching_over_is_with_cast_check |
 | **Rule ID** | IDE0020 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer pattern matching instead of `is` expressions with type casts.
-- When this rule is set to **false**, prefer `is` expressions with type casts instead of pattern matching.
+| **Values** | `true` - Prefer pattern matching instead of `is` expressions with type casts<br />`false` - Prefer `is` expressions with type casts instead of pattern matching |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1311,10 +1211,8 @@ if (o is int) {var i = (int)o; ... }
 | **Rule name** | csharp_style_pattern_matching_over_as_with_null_check |
 | **Rule ID** | IDE0019 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type.
-- When this rule is set to **false**, prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type.
+| **Values** | `true` - Prefer pattern matching instead of `as` expressions with null checks to determine if something is of a particular type<br />`false` - Prefer `as` expressions with null checks instead of pattern matching to determine if something is of a particular type |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1338,10 +1236,8 @@ This style rule concerns whether `out` variables are declared inline or not. Sta
 | **Rule name** | csharp_style_inlined_variable_declaration |
 | **Rule ID** | IDE0018 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer `out` variables to be declared inline in the argument list of a method call when possible.
-- When this rule is set to **false**, prefer `out` variables to be declared before the method call.
+| **Values** | `true` - Prefer `out` variables to be declared inline in the argument list of a method call when possible<br />`false` - Prefer `out` variables to be declared before the method call |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1378,17 +1274,15 @@ csharp_style_pattern_local_over_anonymous_function = true:suggestion
 
 #### csharp\_prefer\_simple\_default_expression
 
+This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
+
 |||
 |-|-|
 | **Rule name** | csharp_prefer_simple_default_expression |
 | **Rule ID** | IDE0034 |
 | **Applicable languages** | C# 7.1+  |
-| **Visual Studio default** | true:suggestion |
-
-This style rule concerns using the [`default` literal for default value expressions](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
-
-- When this rule is set to **true**, prefer `default` over `default(T)`.
-- When this rule is set to **false**, prefer `default(T)` over `default`.
+| **Values** | `true` - Prefer `default` over `default(T)`<br />`false` - Prefer `default(T)` over `default` |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1407,10 +1301,8 @@ void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { 
 | **Rule name** | csharp_style_deconstructed_variable_declaration |
 | **Rule ID** | IDE0042 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer deconstructed variable declaration.
-- When this rule is set to **false**, do not prefer deconstruction in variable declarations.
+| **Values** | `true` - Prefer deconstructed variable declaration<br />`false` - Do not prefer deconstruction in variable declarations |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1437,10 +1329,8 @@ Console.WriteLine($"{point.x} {point.y}");
 | **Rule name** | csharp_style_pattern_local_over_anonymous_function |
 | **Rule ID** | IDE0039 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer local functions over anonymous functions.
-- When this rule is set to **false**, prefer anonymous functions over local functions.
+| **Values** | `true` - Prefer local functions over anonymous functions<br />`false` - Prefer anonymous functions over local functions |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1479,10 +1369,8 @@ csharp_style_conditional_delegate_call = false:suggestion
 | **Rule name** | csharp_style_throw_expression |
 | **Rule ID** | IDE0016 |
 | **Applicable languages** | C# 7.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer to use `throw` expressions instead of `throw` statements.
-- When this rule is set to **false**, prefer to use `throw` statements instead of `throw` expressions.
+| **Values** | `true` - Prefer to use `throw` expressions instead of `throw` statements<br />`false` - Prefer to use `throw` statements instead of `throw` expressions |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1502,10 +1390,8 @@ this.s = s;
 | **Rule name** | csharp_style_conditional_delegate_call |
 | **Rule ID** | IDE0041 |
 | **Applicable languages** | C# 6.0+  |
-| **Visual Studio default** | true:suggestion |
-
-- When this rule is set to **true**, prefer to use the conditional coalescing operator (`?.`) when invoking a lambda expression, instead of performing a null check.
-- When this rule is set to **false**, prefer to perform a null check before invoking a lambda expression, instead of using the conditional coalescing operator (`?.`).
+| **Values** | `true` - refer to use the conditional coalescing operator (`?.`) when invoking a lambda expression, instead of performing a null check<br />`false` - Prefer to perform a null check before invoking a lambda expression, instead of using the conditional coalescing operator (`?.`) |
+| **Visual Studio default** | `true:suggestion` |
 
 Code examples:
 
@@ -1536,10 +1422,8 @@ csharp_prefer_braces = true:silent
 | **Rule name** | csharp_prefer_braces |
 | **Rule ID** | IDE0011 |
 | **Applicable languages** | C# |
-| **Visual Studio default** | true:silent |
-
-- When this rule is set to **true**, prefer curly braces even for one line of code.
-- When this rule is set to **false**, prefer no curly braces if allowed.
+| **Values** | `true` - Prefer curly braces even for one line of code<br />`false` - Prefer no curly braces if allowed |
+| **Visual Studio default** | `true:silent` |
 
 Code examples:
 

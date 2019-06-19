@@ -156,7 +156,7 @@ This rule concerns whether an open brace `{` should be placed on the same line a
 | **Rule name** | csharp_new_line_before_open_brace |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `all` - Require braces to be on a new line for all expressions ("Allman" style).<br />`none` - Require braces to be on the same line for all expressions ("K&R").<br />`accessors`, `anonymous_methods`, `anonymous_types`, `control_blocks`, `events`, `indexers`, `lambdas`, `local_functions`, `methods`, `object_collection_array_initializers`, `properties`, `types` - Require braces to be on a new line for the specified code element ("Allman" style) |
+| **Values** | `all` - Require braces to be on a new line for all expressions ("Allman" style).<br /><br />`none` - Require braces to be on the same line for all expressions ("K&R").<br /><br />`accessors`, `anonymous_methods`, `anonymous_types`, `control_blocks`, `events`, `indexers`, `lambdas`, `local_functions`, `methods`, `object_collection_array_initializers`, `properties`, `types` - Require braces to be on a new line for the specified code element ("Allman" style). |
 | **Visual Studio default** | `all` |
 
 Code examples:
@@ -215,7 +215,7 @@ if (...) {
 | **Rule name** | csharp_new_line_before_catch |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `true` - Place `catch` statements on a new line.<br />Place `catch` statements on the same line. |
+| **Values** | `true` - Place `catch` statements on a new line.<br />`false` - Place `catch` statements on the same line. |
 | **Visual Studio default** | `true` |
 
 Code examples:
@@ -452,7 +452,7 @@ default:
 | **Rule name** | csharp_indent_labels |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `flush_left` - Labels are placed at the leftmost column<br />`one_less_than_current` - Labels are placed at one less indent to the current context<br />`no_change` - Labels are placed at the same indent as the current context |
+| **Values** | `flush_left` - Labels are placed at the leftmost column<br /><br />`one_less_than_current` - Labels are placed at one less indent to the current context<br /><br />`no_change` - Labels are placed at the same indent as the current context |
 | **Visual Studio default** | `no_change` |
 
 Code examples:
@@ -609,7 +609,7 @@ MyMethod(argument);
 | **Rule name** | csharp_space_between_parentheses |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.3 |
-| **Values** | `control_flow_statements` - Place space between parentheses of control flow statements<br />`expressions` - Place space between parentheses of expressions<br />`type_casts` - Place space between parentheses in type casts |
+| **Values** | `control_flow_statements` - Place space between parentheses of control flow statements<br /><br />`expressions` - Place space between parentheses of expressions<br /><br />`type_casts` - Place space between parentheses in type casts |
 | **Visual Studio default** | `false` |
 
 If you omit this rule or use a value other than `control_flow_statements`, `expressions`, or `type_casts`, the setting is not applied.
@@ -706,7 +706,7 @@ class C :I
 | **Rule name** | csharp_space_around_binary_operators |
 | **Applicable languages** | C# |
 | **Introduced version** | Visual Studio 2017 version 15.7 |
-| **Values** | `before_and_after` - Insert space before and after the binary operator<br />`none` - Remove spaces before and after the binary operator<br />`ignore` - Ignore spaces around binary operators |
+| **Values** | `before_and_after` - Insert space before and after the binary operator<br /><br />`none` - Remove spaces before and after the binary operator<br /><br />`ignore` - Ignore spaces around binary operators |
 | **Visual Studio default** | `before_and_after` |
 
 If you omit this rule, or use a value other than `before_and_after`, `none`, or `ignore`, the setting is not applied.
