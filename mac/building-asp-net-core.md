@@ -54,7 +54,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image4.png)
 
-3. The **HomeController** class-by convention-handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory (like http://site.com/Home) and other methods handle requests to their named path based on convention, such as **About()** handling requests to **http://site.com/Home/About**. Of course, this is all configurable. One notable is that the **HomeController** is the default controller in a new project, so requests to the root of the site (**http://site.com**) would go through **Index()** of the **HomeController** just like requests to **http://site.com/Home** or **http://site.com/Home/Index**.
+3. The **HomeController** class-by convention-handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory (like `http://site.com/Home`) and other methods handle requests to their named path based on convention, such as **About()** handling requests to `http://site.com/Home/About`. Of course, this is all configurable. One notable is that the **HomeController** is the default controller in a new project, so requests to the root of the site (`http://site.com`) would go through **Index()** of the **HomeController** just like requests to `http://site.com/Home` or `http://site.com/Home/Index`.
 
     ![](media/netcore-image5.png)
 

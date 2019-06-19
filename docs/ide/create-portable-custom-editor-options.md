@@ -49,7 +49,7 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - insert\_final_newline
 - root
 
-EditorConfig editor settings are supported in all Visual Studio-supported languages except for XML. In addition, EditorConfig supports [code style](../ide/editorconfig-code-style-settings-reference.md) and [naming](../ide/editorconfig-naming-conventions.md) conventions for C# and Visual Basic.
+EditorConfig editor settings are supported in all Visual Studio-supported languages except for XML. In addition, EditorConfig supports [code style](../ide/editorconfig-code-style-settings-reference.md) conventions including [language](../ide/editorconfig-language-conventions.md), [formatting](../ide/editorconfig-formatting-conventions.md), and [naming](../ide/editorconfig-naming-conventions.md) conventions for C# and Visual Basic.
 
 ## Add and remove EditorConfig files
 
@@ -169,7 +169,6 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 ## See also
 
 - [.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md)
-- [.NET naming conventions](../ide/editorconfig-naming-conventions.md)
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](http://editorconfig.org/)
 - [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
