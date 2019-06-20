@@ -26,13 +26,13 @@ This refactoring applies to:
 
 1. Place your cursor in the class name.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
-3. Select **Move to namespace..**.
+3. Select **Move to namespace**.
 
-   ![Move Type To Namespace](media/move-to-namespace.png)
+   ![Move to namespace refactoring](media/move-to-namespace.png)
 
-4. This launches a dialogue where you can select the target namespace you would like to move the type to. 
+4. In the dialog box that opens, select the target namespace you'd like to move the type to. 
 
-   ![Move Type To Namespace](media/select-target-namespace.png)
+   ![Select a namespace dialog box](media/select-target-namespace.png)
 
 ## See also
 
