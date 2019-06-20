@@ -68,7 +68,8 @@ When you rename a type that matches the file name it's in, a checkbox appears to
 
 ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
 
-**Note**: This option is not supported for partial types with multiple definitions.
+> [!NOTE]
+> This option is not supported for partial types with multiple definitions.
 
 ## Remarks
 
