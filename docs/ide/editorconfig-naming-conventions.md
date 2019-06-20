@@ -203,6 +203,8 @@ If you close and reopen your code file, instead of seeing the suggestion under t
 
 ## See also
 
+- [Language conventions](editorconfig-language-conventions.md)
+- [Formatting conventions](editorconfig-formatting-conventions.md)
 - [Roslyn naming conventions](https://github.com/dotnet/roslyn/blob/master/.editorconfig#L63)
-- [.NET language and formatting conventions](../ide/editorconfig-code-style-settings-reference.md)
 - [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
+- [.NET coding convention settings for EditorConfig](editorconfig-code-style-settings-reference.md)

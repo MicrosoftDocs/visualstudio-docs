@@ -393,6 +393,8 @@
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
             href: ide/reference/move-type-to-matching-file.md
+          - name: Move type to namespace
+            href: ide/reference/move-type-to-namespace.md
           - name: Pull member up
             href: ide/reference/pull-members-up.md
           - name: Regex completion through IntelliSense
@@ -403,6 +405,8 @@
             href: ide/reference/rename.md
           - name: Sort usings
             href: ide/reference/sort-usings.md
+          - name: Split or merge if statements
+            href: ide/reference/split-or-merge-if-statement.md
           - name: Sync namespace and folder name
             href: ide/reference/sync-namespace-and-folder-name.md
           - name: Synchronize type and filename
@@ -470,10 +474,16 @@
         - name: Use EditorConfig files for code style
           displayName: Configure code style analyzers
           href: ide/create-portable-custom-editor-options.md
-        - name: .NET language and formatting conventions
-          href: ide/editorconfig-code-style-settings-reference.md
-        - name: .NET naming conventions
-          href: ide/editorconfig-naming-conventions.md
+        - name: .NET coding conventions
+          items:
+          - name: Overview
+            href: ide/editorconfig-code-style-settings-reference.md
+          - name: Language conventions
+            href: ide/editorconfig-language-conventions.md
+          - name: Formatting conventions
+            href: ide/editorconfig-formatting-conventions.md
+          - name: Naming conventions
+            href: ide/editorconfig-naming-conventions.md
       - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
       - name: Set bookmarks in code

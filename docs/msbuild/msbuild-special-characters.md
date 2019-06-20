@@ -1,6 +1,6 @@
 ---
 title: "MSBuild Special Characters | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "06/12/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "escape characters"
@@ -26,7 +26,7 @@ ms.workload:
 |%|%25|Referencing metadata|
 |$|%24|Referencing properties|
 |@|%40|Referencing item lists|
-|&#96;|%27|Conditions and other expressions|
+|'|%27|Conditions and other expressions|
 |;|%3B|List separator|
 |?|%3F|Wildcard character for file names in `Include` and `Exclude` attributes|
 |*|%2A|Wildcard character for use in file names in `Include` and `Exclude` attributes|
