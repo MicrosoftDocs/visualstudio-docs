@@ -18,9 +18,9 @@ This refactoring applies to:
 
 **What:** Convert switch statement to switch expression.
 
-**When:** You want to use the new C# 8.0 switch expression language feature. 
+**When:** You want to use convert a switch statement to a switch expression and vice versa. 
 
-**Why:** 
+**Why:** If you are only using expressions this will allow an easy transition from traditional switch statements.
 
 ## How-to
 
