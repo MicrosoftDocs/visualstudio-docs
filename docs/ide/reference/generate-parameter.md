@@ -20,7 +20,7 @@ This refactoring applies to:
 
 **When:** You receive an error from a variable that doesn't exist in the current context you can generate a parameter as a code fix. 
 
-**Why:** 
+**Why:** You can quickly modify a method signature without losing context.
 
 ## How-to
 
