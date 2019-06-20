@@ -66,7 +66,7 @@ This refactoring applies to:
 
 When you rename a type that matches the file name it's in, a checkbox appears to enable you to rename the file as well. This applies when renaming classes, interfaces, and enumerations.
 
-   ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
+![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
 
 **Note**: This option is not supported for partial types with multiple definitions.
 
