@@ -62,6 +62,15 @@ This refactoring applies to:
 
 4. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
+## Synchronize type and file name
+
+When you rename a type that matches the file name it's in, a checkbox appears to enable you to rename the file as well. This applies when renaming classes, interfaces, and enumerations.
+
+![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
+
+> [!NOTE]
+> This option is not supported for partial types with multiple definitions.
+
 ## Remarks
 
 - If you use a name that already exists which would cause a conflict, the **Rename** box will warn you.
