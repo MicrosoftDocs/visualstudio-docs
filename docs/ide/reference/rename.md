@@ -62,7 +62,7 @@ This refactoring applies to:
 
 4. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
-## Keeping names synced
+## Synchronize type and file name
 
 When you rename a type that matches the file name it's in, a checkbox appears to enable you to rename the file as well. This applies when renaming classes, interfaces, and enumerations.
 
