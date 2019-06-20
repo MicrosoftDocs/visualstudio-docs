@@ -159,29 +159,48 @@ additionalContent:
    - title: Workloads
      items:
         - title: Web and Cloud
-          summary: |
-            [Web development](/aspnet/) </br>
-            [Azure development and management](azure/index.yml) </br>
-            [Python](python/index.yml) </br>
-            [Node.js](javascript/index.yml) </br>
-            [Data storage and processing](data-tools/index.md) </br>
-            [Data science](python/data-science-and-analytical-applications-workload.md) </br>
-            [Office/Sharepoint development](https://developer.microsoft.com/office/docs) 
+          links:
+            - text: Web development
+              url: /aspnet/
+            - text: Azure development and management
+              url: azure/index.yml
+            - text: Python
+              url: python/index.yml
+            - text: Node.js
+              url: javascript/index.yml
+            - text: Data storage and processing
+              url: data-tools/index.md
+            - text: Data science
+              url: python/data-science-and-analytical-applications-workload.md
+            - text: Office/Sharepoint development
+              url: https://developer.microsoft.com/office/docs) 
         - title: Windows
-          summary: |
-            [.NET Desktop development](/dotnet/framework/develop-client-apps) </br>
-            [Universal Windows platform development](cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) </br>
-            [Windows development with C++](/cpp/windows/desktop-applications-visual-cpp)
+          links:
+            - text: .NET Desktop development
+              url: /dotnet/framework/develop-client-apps
+            - text: Universal Windows platform development
+              url: cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md
+            - text: Windows development with C++
+              url: /cpp/windows/desktop-applications-visual-cpp)
         - title: Mobile and gaming
-          summary: |
-            [Mobile development with .NET (Xamarin)](/xamarin/) </br>
-            [Game development with Unity](cross-platform/visual-studio-tools-for-unity.md) </br>
-            [Mobile development with JavaScript](/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) (Visual Studio 2017 and 2015 only) </br>
-            [Mobile development with C++](/visualstudio/cross-platform/) </br>
-            [Game development with C++](/windows/uwp/gaming/e2e) 
+          links:
+            - text: Mobile development with .NET (Xamarin)
+              url: /xamarin/
+            - text: Game development with Unity
+              url: cross-platform/visual-studio-tools-for-unity.md
+            - text: Mobile development with JavaScript
+              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017)
+              note: (Visual Studio 2017 and 2015 only)
+            - text: Mobile development with C++
+              url: /visualstudio/cross-platform/
+            - text: Game development with C++
+              url: /windows/uwp/gaming/e2e) 
         - title: Other toolsets
-          summary: |
-            [Visual Studio extension development](extensibility/index.md) </br>
-            [Linux development with C++](/cpp/linux/) </br>
-            [.NET Core cross-platform development](/dotnet/core/)
+          links:
+            - text: Visual Studio extension development
+              url: extensibility/index.md
+            - text: Linux development with C++
+              url: /cpp/linux/
+            - text: .NET Core cross-platform development
+              url: /dotnet/core/)
    footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](ide/talk-to-us.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html)"
