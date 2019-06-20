@@ -377,6 +377,8 @@
             href: ide/reference/convert-foreach-linq.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
+          - name: Convert switch statement to switch expression
+            href: ide/reference/convert-switch-statement-to-switch-expression.md
           - name: Encapsulate field
             href: ide/reference/encapsulate-field.md
           - name: Extract interface
