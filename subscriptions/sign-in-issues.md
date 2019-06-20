@@ -6,7 +6,6 @@ manager: lank
 ms.date: 11/07/2018
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 
 # Issues signing in to Visual Studio subscriptions

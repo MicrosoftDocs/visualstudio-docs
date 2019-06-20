@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/02/2018
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
-searchscope: VS Subscription
 ---
 
 # Signing in to Visual Studio subscriptions may fail when using aliases

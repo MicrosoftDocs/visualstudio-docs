@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/25/2018
 ms.topic: conceptual
 description:  Learn how to activate Visual Studio subscriptions you purchased in the Microsoft Store.
-searchscope: VS Subscription
 ---
 
 # How do I activate a subscription acquired from the Microsoft Store?

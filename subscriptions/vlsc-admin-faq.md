@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/13/2018
 ms.topic: conceptual
 description: Volume License Service Center Admin Migration FAQs
-searchscope: VS Subscription
 ---
 # Visual Studio subscriptions administration migration
 

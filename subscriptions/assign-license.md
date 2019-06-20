@@ -6,7 +6,6 @@ manager: jillfra
 ms.date: 07/16/2018
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to subscribers
-searchscope: VS Subscription
 ---
 
 # Assign licenses in the Visual Studio subscriptions administrator portal

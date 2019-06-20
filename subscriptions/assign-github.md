@@ -6,7 +6,6 @@ manager: lank
 ms.date: 04/23/2019
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio + GitHub bundle
-searchscope: VS Subscription
 ---
 
 # Managing Visual Studio subscriptions with GitHub Enterprise

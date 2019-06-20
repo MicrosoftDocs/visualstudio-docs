@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description: Learn how to manage your organization's Visual Studio subscriptions with the Administrator Portal.
-searchscope: VS Subscription
 ---
 
 # Using the Visual Studio subscriptions administrator portal

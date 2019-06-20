@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 02/13/2018
 ms.topic: conceptual
 description:  Learn how administrators can resolve over-claimed subscriptions
-searchscope: VS Subscription
 ---
 
 # Overallocated subscriptions

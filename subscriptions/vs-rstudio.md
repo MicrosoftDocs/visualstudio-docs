@@ -6,7 +6,6 @@ manager: lank
 ms.date: 04/02/2019
 ms.topic: conceptual
 description: Learn about the RStudio Desktop benefit included in Visual Studio Enterprise subscriptions
-searchscope: VS Subscription
 ---
 
 # The RStudio Desktop benefit included in Visual Studio Enterprise subscriptions

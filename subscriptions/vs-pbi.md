@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Power BI Pro in Visual Studio subscriptions

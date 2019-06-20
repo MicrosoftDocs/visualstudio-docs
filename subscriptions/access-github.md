@@ -6,7 +6,6 @@ manager: lank
 ms.date: 04/15/2019
 ms.topic: conceptual
 description: Learn about the new Visual Studio + GitHub bundle
-searchscope: VS Subscription
 ---
 
 # Introducing Visual Studio subscriptions with GitHub Enterprise  

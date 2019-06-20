@@ -7,7 +7,6 @@ layout: LandingPage
 Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description:  Welcome to Visual Studio Subscriptions
-Searchscope: VS Subscription
 ---
 
 # Visual Studio Subscriptions

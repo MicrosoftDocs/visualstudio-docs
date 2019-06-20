@@ -31,12 +31,17 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "extendBreadcrumb": true,
+      "manager": "lank",
+      "ms.topic": "conceptual",
       "ms.prod": "visual-studio-family",
-      "ms.technology": "vs-subscriptions"
+      "ms.technology": "vs-subscriptions",
+      "searchScope": ["VS Subscriptions"]
     },
     "fileMetadata": {},
     "template": [],

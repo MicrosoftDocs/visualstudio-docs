@@ -6,7 +6,6 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Xamarin University Training subscription included with selected Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Xamarin University training benefit in Visual Studio subscriptions

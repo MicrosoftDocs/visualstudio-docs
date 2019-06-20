@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/20/2018
 ms.topic: conceptual
 description:  Details on what subscriptions are offered through the Microsoft for Startups program.
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions offered to startups

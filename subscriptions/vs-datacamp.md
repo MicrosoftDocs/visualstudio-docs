@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # The DataCamp training benefit in Visual Studio subscriptions

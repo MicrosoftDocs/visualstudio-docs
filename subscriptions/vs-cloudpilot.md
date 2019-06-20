@@ -6,7 +6,6 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the CloudPilot benefit available in selected Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 
 # The CloudPilot benefit in Visual Studio subscriptions

@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # WhiteSource Bolt in Visual Studio subscriptions
 

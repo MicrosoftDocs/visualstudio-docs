@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft products included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Using subscriber downloads in Visual Studio subscriptions

@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description: Learn how to get the most out of your Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 # Managing subscriptions
 

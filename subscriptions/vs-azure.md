@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
 

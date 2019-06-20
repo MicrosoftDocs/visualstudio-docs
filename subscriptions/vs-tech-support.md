@@ -6,7 +6,6 @@ manager: lank
 ms.date: 2/13/2019
 ms.topic: conceptual
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # Activate and use the Technical Support benefit in Visual Studio subscriptions
 

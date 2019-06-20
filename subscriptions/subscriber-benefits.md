@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 02/12/2018
 ms.topic: conceptual
 description:  Learn about the benefits included in your Visual Studio subscription
-searchscope: VS Subscription
 ---
 
 # Benefits included in your Visual Studio subscription
