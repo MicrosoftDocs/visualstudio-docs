@@ -393,6 +393,8 @@
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
             href: ide/reference/move-type-to-matching-file.md
+          - name: Move type to namespace
+            href: ide/reference/move-type-to-namespace.md
           - name: Pull member up
             href: ide/reference/pull-members-up.md
           - name: Regex completion through IntelliSense
