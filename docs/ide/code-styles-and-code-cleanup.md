@@ -84,11 +84,12 @@ For C# code files, Visual Studio 2019 has a **Code Cleanup** button at the botto
 > [!TIP]
 > Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
 
-First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**. Once you have configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. 
+First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.  
 
 ![Configure Code Cleanup in Visual Studio 2019](media/configure-code-cleanup.png)
 
-You can also run code cleanup across your entire project or solution. Right click on the project or solution name, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+Once you have configured code cleanup, you can either click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup. You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+
 
 ![Run Code Cleanup Across Entire Project or Solution](media/run-code-cleanup-project-solution.png)
 

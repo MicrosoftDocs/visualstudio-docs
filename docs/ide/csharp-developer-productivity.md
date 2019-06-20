@@ -102,7 +102,7 @@ Visual Studio provides on-demand formatting of your code file, including code st
 
 ![Code Cleanup button in Visual Studio 2019](media/execute-code-cleanup.png)
 
-You can also run code cleanup across your entire project or solution. Right click on the project or solution name, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
+You can also run code cleanup across your entire project or solution. Right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
 
 ![Run Code Cleanup Across Entire Project or Solution](media/run-code-cleanup-project-solution.png)
 
