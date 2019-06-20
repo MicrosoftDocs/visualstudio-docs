@@ -16,9 +16,9 @@ Visual Studio 2019 for Mac brings lots of new improvements: a brand new C# edito
 - [Visual Studio 2019 for Mac version 8.1 is now available (and a Preview for 8.2)](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-version-8-1-is-now-available-and-a-preview-for-8-2/)
 
 > [!IMPORTANT]
-> There is a known issue with Visual Studio 2017 for Mac **version 7.7.3**, where the updater will continually show "Error retrieving update information". If this happens, [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and follow the steps through the Installer install Visual Studio 2019 for Mac. Note that this will overwrite your existing instance of Visual Studio 2017 for Mac.
+> There is a known issue with Visual Studio 2017 for Mac **version 7.7.3**, where the updater will continually show "Error retrieving update information". If this happens, [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and follow the steps to [install](https://docs.microsoft.com/visualstudio/mac/installation?view=vsmac-2019) Visual Studio 2019 for Mac. Note that this will overwrite your existing instance of Visual Studio 2017 for Mac.
 
-To get the latest version you can either use the updater by browsing to **Visual Studio > Check for Updates…**:
+To get the latest version you can either use the [updater](https://docs.microsoft.com/visualstudio/mac/update?view=vsmac-2017) by browsing to **Visual Studio > Check for Updates…**:
 
 ![updater dialog](media/update-vsmac-updater.png)
 
