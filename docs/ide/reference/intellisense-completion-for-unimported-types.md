@@ -25,9 +25,11 @@ This refactoring applies to:
 ## How-to
 
 1. Once you start using a type that has a dependency in your project, IntelliSense will give you suggestions.
-2. Press **tab** and the import statement will be added to your file.
+2. Press **tab**. 
 
-   ![Sync Namespace And Folder Name](media/intellisense-completion-unimported-types.png)
+   The import statement will be added to your file.
+
+   ![IntelliSense completion for unimported types](media/intellisense-completion-unimported-types.png)
 
 ## See also
 
