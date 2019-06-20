@@ -797,6 +797,8 @@
       href: ide/reference/shell-command.md
     - name: ShowWebBrowser command
       href: ide/reference/showwebbrowser-command.md
+    - name: Sort usings
+      href: ide/reference/sort-usings.md
     - name: Start command
       href: ide/reference/start-command.md
     - name: Symbol Path command
