@@ -18,7 +18,7 @@ This refactoring applies to:
 
 **What:** Convert switch statement to switch expression.
 
-**When:** You want to use convert a switch statement to a switch expression and vice versa. 
+**When:** You want to convert a `switch` statement to a `switch` expression and vice versa. 
 
 **Why:** If you are only using expressions this will allow an easy transition from traditional switch statements.
 
