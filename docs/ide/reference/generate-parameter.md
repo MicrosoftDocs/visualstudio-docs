@@ -18,7 +18,7 @@ This refactoring applies to:
 
 **What:** Automatically generates a method parameter.
 
-**When:** You receive an error from a variable that doesn't exist in the current context you can generate a parameter as a code fix. 
+**When:** You reference a variable in a method that doesn't exist in the current context and receive an error; you can generate a parameter as a code fix. 
 
 **Why:** You can quickly modify a method signature without losing context.
 
