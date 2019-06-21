@@ -125,7 +125,8 @@ Popular quick fixes and refactorings include:
 - Remove Unnecessary Usings
 - Foreach Loop to LINQ Query or to LINQ method
 - Pull Members Up
-- For more information, see [code generation features](code-generation-in-visual-studio.md)
+
+For more information, see [code generation features](code-generation-in-visual-studio.md).
 
 You can [install FxCop analyzers](../code-quality/install-fxcop-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
 
