@@ -18,15 +18,14 @@ This refactoring applies to:
 
 **What:** Sort usings.
 
-**When:** You want to sort usings at the top of your file so that they are in alphabetical order. 
+**When:** You want to sort `using` directives at the top of your file so that they are in alphabetical order. 
 
-**Why:** It is a matter of style preference.
+**Why:** It makes it easier to find a using directive.
 
 ## How-to
 
-1. Select **edit** from the menu bar.
-2. Select **Intellisense**.
-3. Select **Sort Usings**.
+1. Select **Edit** from the menu bar.
+2. Select **Intellisense** > **Sort Usings**.
 
    ![Sort usings](media/sort-usings.png)
 
