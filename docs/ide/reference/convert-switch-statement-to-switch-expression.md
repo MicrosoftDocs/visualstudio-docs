@@ -20,7 +20,7 @@ This refactoring applies to:
 
 **When:** You want to convert a `switch` statement to a `switch` expression and vice versa. 
 
-**Why:** If you are only using expressions this will allow an easy transition from traditional switch statements.
+**Why:** If you are only using expressions, this refactoring enables an easy transition from traditional `switch` statements.
 
 ## How-to
 
