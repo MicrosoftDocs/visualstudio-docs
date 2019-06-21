@@ -6,6 +6,7 @@ ms.author: amburns
 ms.date: 06/20/2018
 ms.technology: vs-ide-install
 ms.assetid: BC836802-CC65-41F7-BAEC-A42AED0371A9
+hide_comments: false
 ---
 
 # Update Visual Studio 2017 for Mac (version 7) to Visual Studio 2019 for Mac (version 8.0)
