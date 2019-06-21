@@ -1,5 +1,6 @@
 ---
 title: Sort usings
+description: How to sort `using` directives at the top of your file so that they are in alphabetical order.
 ms.date: 06/19/2019
 ms.topic: reference
 author: mikadumont
