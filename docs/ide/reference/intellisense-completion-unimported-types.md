@@ -1,6 +1,6 @@
 ---
 title: IntelliSense completion for unimported types
-ms.date: 06/17/2019
+ms.date: 06/20/2019
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** IntelliSense completion for unimported types.
+**What:** IntelliSense gives completion for unimported types.
 
 **When:** You want to add a type that already has a dependency in your project but the import statement has not yet been added to your file. 
 
