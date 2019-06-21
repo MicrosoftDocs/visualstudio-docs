@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** Convert switch statement to switch expression.
+**What:** Convert a [switch statement](/dotnet/csharp/language-reference/keywords/switch) to a C# 8.0 [switch expression](/dotnet/csharp/whats-new/csharp-8#switch-expressions).
 
 **When:** You want to convert a `switch` statement to a `switch` expression and vice versa. 
 
