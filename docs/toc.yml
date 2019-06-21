@@ -383,6 +383,8 @@
             href: ide/reference/extract-interface.md
           - name: Extract method
             href: ide/reference/extract-method.md
+          - name: Generate parameter
+            href: ide/reference/generate-parameter.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
           - name: IntelliSense completion unimported types
