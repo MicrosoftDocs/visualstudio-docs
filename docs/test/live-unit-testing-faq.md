@@ -192,15 +192,6 @@ Your solution can build even if you're not making edits if the build process of 
 
 Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing will get into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it will break out of the build loop because the inputs and outputs checks will indicate that everything is up-to-date.  
 
-## Lightweight solution load
-
-**How does Live Unit testing work with the lightweight solution load feature?**
-
-Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then, it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit, or NUnit) being loaded.
-
-> [!NOTE]
-> Lightweight solution load is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
-
 ## New process coverage
 
 **Why doesn't Live Unit Testing capture coverage from a new process created by a test?**

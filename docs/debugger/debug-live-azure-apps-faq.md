@@ -163,7 +163,7 @@ For App Service:
 	- SNAPSHOTDEBUGGER_EXTENSION_VERSION
 
 	> [!WARNING]
-	> Any changes to Application Settings will initiate an app restart. Details about Application Settings can be found [here](https://docs.microsoft.com/azure/app-service/web-sites-configure#app-settings). 
+	> Any changes to Application Settings will initiate an app restart. For more information about Application Settings, see [Configure an App Service app in the Azure portal](/azure/app-service/web-sites-configure).
 
 For AKS:
 1. Update your Dockerfile to remove the sections corresponding to the [Visual Studio Snapshot Debugger on Docker images](https://github.com/Microsoft/vssnapshotdebugger-docker).
