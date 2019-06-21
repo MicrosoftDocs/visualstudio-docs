@@ -1,5 +1,5 @@
 ---
-title: Generate parameter
+title: Generate parameter refactoring
 ms.date: 06/19/2019
 ms.topic: reference
 author: mikadumont
