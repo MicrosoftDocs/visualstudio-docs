@@ -30,7 +30,7 @@ To access the dialog box, select a project node in **Solution Explorer**, and th
 |**Download prerequisites from the same location as my application**|Specifies that the prerequisite components be installed from the same location as the application. This copies all the prerequisite packages to the publish location. For this option to work, the prerequisite packages must be on the development computer.|
 |**Download prerequisites from the following location**|Specifies that the prerequisite components be installed from the location that you enter. You can use the **Browse** button to select a location.|
 
->[!NOTE]
+> [!NOTE]
 > Prerequisites must be in the *C:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper* folder. If you turn of installing the prerequisites, delete the setup.exe file from your Publish folder, and then recreate it.
 
 ## Prerequisites information
