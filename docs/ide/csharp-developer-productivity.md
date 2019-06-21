@@ -86,7 +86,7 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 ::: moniker-end
 
-- Try out [IntelliCode for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). IntelliCode infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
 - Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
 
@@ -155,7 +155,7 @@ Visual Studio has many features to help you search and [navigate your code](../i
 
 ## Improved IntelliSense
 
-Download [IntelliCode for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
+Use IntelliCode for Visual Studio to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
 
 ## Unit testing
 
