@@ -53,11 +53,11 @@ EditorConfig editor settings are supported in all Visual Studio-supported langua
 
 ## Add and remove EditorConfig files
 
-Adding an EditorConfig file to your project or codebase does not convert existing styles to the new ones. For example, if you have indents in your file that are formatted with tabs, and you add an EditorConfig file that indents with spaces, the indent characters are not automatically converted to spaces. However, any new lines of code are formatted according to the EditorConfig file. Additionally, if you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the settings in the EditorConfig file are applied to existing lines of code.
+When you add an EditorConfig file to your project or codebase, any new lines of code are formatted according to the EditorConfig file. However, adding an EditorConfig file does not convert existing styles to the new ones until you format the document. For example, if you have indents in your file that are formatted with tabs and you add an EditorConfig file that indents with spaces, the indent characters are not automatically converted to spaces. When you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the settings in the EditorConfig file are applied to existing lines of code.
 
-If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files to revert to the global editor settings for new lines of code.
+If you remove an EditorConfig file from your project or codebase and you want new lines of code to be formatted according to the global editor settings, you must close and reopen any open code files.
 
-### To add an EditorConfig file to a project or solution
+### Add an EditorConfig file to a project
 
 1. Open a project or solution in Visual Studio. Select either the project or solution node, depending on whether your *.editorconfig* settings should apply to all projects in the solution or just one. You can also select a folder in your project or solution to add the *.editorconfig* file to.
 
@@ -65,34 +65,27 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
    The **Add New Item** dialog box opens.
 
-1. In the categories on the left, choose **General**, and then choose the **Text File** template. In the **Name** text box, enter `.editorconfig` and then choose **Add**.
+1. In the search box, search for **editorconfig**.
+
+   Two **editorconfig File** item templates are shown in the search results.
+
+   ![EditorConfig file item templates in Visual Studio](media/editorconfig-item-templates.png)
+
+1. Select the **editorconfig File (.NET)** template to add an EditorConfig file prepopulated with the default [.NET code style, formatting, and naming conventions](../ide/editorconfig-code-style-settings-reference.md).
 
    An *.editorconfig* file appears in Solution Explorer, and it opens in the editor.
 
-   ![.editorconfig file in Solution Explorer](media/editorconfig-in-solution-explorer.png)
+   ![.editorconfig file in Solution Explorer and editor](media/editorconfig-dotnet.png)
 
-1. Edit the file as desired, for example:
-
-   ```ini
-   root = true
-
-   [*.{cs,vb}]
-   indent_size = 4
-   trim_trailing_whitespace = true
-
-   [*.cs]
-   csharp_new_line_before_open_brace = methods
-   ```
+1. Edit the file as desired.
 
 ### Other ways to add an EditorConfig file
 
 There are a couple other ways you can add an EditorConfig file to your project:
 
-- Install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) to more easily add an empty *.editorconfig* file to your project. After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in **Solution Explorer**. This extension also improves the editing experience for the *.editorconfig* file.
+- The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
-   ![Add .editorconfig file with extension](media/editorconfig-extension-add.png)
-
-- Try out the [IntelliCode extension](/visualstudio/intellicode/intellicode-visual-studio). This experimental extension infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- Starting in Visual Studio 2019, you can [generate an EditorConfig file based on your code-style settings](/visualstudio/ide/code-styles-and-code-cleanup#code-styles-in-editorconfig-files) in **Tools** > **Options**.
 
 ## File hierarchy and precedence
 

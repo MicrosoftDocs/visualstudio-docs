@@ -72,27 +72,23 @@ Visual Studio has a feature called **Go To All** (**Ctrl**+**T**). **Go To All**
 
 ## Enforce code style rules
 
-You can use an *.editorconfig* file to codify coding conventions and have them travel with your source.
+You can use an EditorConfig file to codify coding conventions and have them travel with your source.
 
-::: moniker range="vs-2017"
+- You can add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item**. In the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
 
-- You can install the [EditorConfig language services extension](https://aka.ms/editorconfig), which makes it easy to add and edit an *.editorconfig* file in Visual Studio.
-
-::: moniker-end
+   ![EditorConfig item templates in Visual Studio](media/editorconfig-item-templates.png)
 
 ::: moniker range=">=vs-2019"
 
-- Automatically create an *.editorconfig* file from your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
+- Automatically create an *.editorconfig* file based on your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
 
    ![Generate .editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file.png)
 
 ::: moniker-end
 
-- Try out the [IntelliCode extension for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). IntelliCode infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- Try out [IntelliCode for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). IntelliCode infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
 
-- Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation.
-
-- See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example *.editorconfig* file.
+- Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
 
 ![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
