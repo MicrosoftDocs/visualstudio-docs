@@ -53,7 +53,7 @@ EditorConfig editor settings are supported in all Visual Studio-supported langua
 
 ## Add and remove EditorConfig files
 
-When you add an EditorConfig file to your project or codebase, any new lines of code are formatted according to the EditorConfig file. However, adding an EditorConfig file does not convert existing styles to the new ones until you format the document. For example, if you have indents in your file that are formatted with tabs and you add an EditorConfig file that indents with spaces, the indent characters are not automatically converted to spaces. When you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the settings in the EditorConfig file are applied to existing lines of code.
+When you add an EditorConfig file to your project or codebase, any new lines of code you write are formatted according to the EditorConfig file. However, adding an EditorConfig file does not convert existing styles to the new ones until you format the document. For example, if you have indents in your file that are formatted with tabs and you add an EditorConfig file that indents with spaces, the indent characters are not automatically converted to spaces. When you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**), the settings in the EditorConfig file are applied to existing lines of code.
 
 If you remove an EditorConfig file from your project or codebase and you want new lines of code to be formatted according to the global editor settings, you must close and reopen any open code files.
 
@@ -71,7 +71,7 @@ If you remove an EditorConfig file from your project or codebase and you want ne
 
    ![EditorConfig file item templates in Visual Studio](media/editorconfig-item-templates.png)
 
-1. Select the **editorconfig File (.NET)** template to add an EditorConfig file prepopulated with the default [.NET code style, formatting, and naming conventions](../ide/editorconfig-code-style-settings-reference.md).
+1. Select the **editorconfig File (default)** template to add an EditorConfig file prepopulated with two core EditorConfig options for indent style and size. Or, select the **editorconfig File (.NET)** template to add an EditorConfig file prepopulated with default [.NET code style, formatting, and naming conventions](../ide/editorconfig-code-style-settings-reference.md).
 
    An *.editorconfig* file appears in Solution Explorer, and it opens in the editor.
 

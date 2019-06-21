@@ -74,7 +74,9 @@ Visual Studio has a feature called **Go To All** (**Ctrl**+**T**). **Go To All**
 
 You can use an EditorConfig file to codify coding conventions and have them travel with your source.
 
-- You can add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item**. In the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
+![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
+
+- Add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item**. In the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
 
    ![EditorConfig item templates in Visual Studio](media/editorconfig-item-templates.png)
 
@@ -88,11 +90,9 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 - The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
-- Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
+Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
 
-![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
-
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Code Cleanup
 
@@ -114,17 +114,17 @@ Visual Studio comes with numerous refactorings, code generation actions, and cod
 
 Popular quick fixes and refactorings include:
 
-- *Rename*
-- *Extract Method*
-- *Change Method Signature*
-- *Generate Constructor*
-- *Generate Method*
-- *Move Type to File*
-- *Add Null-Check*
-- *Add Parameter*
-- *Remove Unnecessary Usings*
-- *Foreach Loop to LINQ Query or to LINQ method*
-- *Pull Members Up*
+- Rename
+- Extract Method
+- Change Method Signature
+- Generate Constructor
+- Generate Method
+- Move Type to File
+- Add Null-Check
+- Add Parameter
+- Remove Unnecessary Usings
+- Foreach Loop to LINQ Query or to LINQ method
+- Pull Members Up
 - For more information, see [code generation features](code-generation-in-visual-studio.md)
 
 You can [install FxCop analyzers](../code-quality/install-fxcop-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
