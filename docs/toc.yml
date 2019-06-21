@@ -384,7 +384,7 @@
           - name: Extract method
             href: ide/reference/extract-method.md
           - name: Generate parameter
-            href: ide/generate-parameter.md
+            href: ide/reference/generate-parameter.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
           - name: Invert conditional expressions and logical operations
