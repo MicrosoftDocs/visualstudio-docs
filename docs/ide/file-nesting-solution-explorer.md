@@ -94,14 +94,16 @@ Consider the following example:
 
 ### The pathSegment provider
 
-This provider nests files with an additional extension under a file without an additional extension. The additional extension can only appear at the middle of the full filename. Consider the following example:
+This provider nests files with an additional extension under a file without an additional extension. The additional extension can only appear at the middle of the full filename.
+
+Consider the following example:
 
 ![pathSegment example rules](media/filenesting_pathsegment.png) ![pathSegment example effect](media/filenesting_pathsegment_effect.png)
 
 * *jquery.min.js* is nested under *jquery.js* because of the **pathSegment** rule
 
 > [!NOTE]
-> - If you don't specify any specific file extensions for the `pathSegment` rule, it applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension on the end is nested under the other file.
+> - If you don't specify any specific file extensions for the `pathSegment` rule, it applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension in the middle is nested under the other file.
 > - You can limit the effect of the `pathSegment` rule to specific file extensions by specifying them in the following way:
 >    ```
 >    "pathSegment": {
