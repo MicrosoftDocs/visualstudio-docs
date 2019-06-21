@@ -40,9 +40,21 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy-sml.png)](media/install-privacy.png#lightbox)
 
-6. The list of available workloads is displayed. Select the ones you wish to use:
+6. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Choose which optional workload features you would like to install](media/install-selection-sml.png)](media/install-selection.png#lightbox)
+    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
+
+   If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
+
+   * **Apps using Xamarin**:
+      - Xamarin.Forms – Select **Android** and **iOS** platforms.
+      - iOS only – Select **iOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Android only – Select **Android** platform (Note that you should also select the relevant dependencies).
+      - Mac only – Select **macOS** platform (Note that you will need to install [**Xcode**](https://developer.apple.com/xcode/)).
+      - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
+   * **.NET Core applications** – Select **.NET Core** platform.
+   * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
+   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.
 
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.

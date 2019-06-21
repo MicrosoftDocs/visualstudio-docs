@@ -18,3 +18,4 @@ On a rare occasion, you may see the error message "Error retrieving update infor
 - If you continue to see this error message, you can also try to update using the Installer, if the **.dmg** is still on your machine, or you can download it from [visualstudio.com](https://visualstudio.microsoft.com/vs/mac/)
     - The installer will update any installed components on your machine.
     - By re-running the installer, you'll also be able to install any missing components that you had not previously installed.
+- You can also try clearing your cached downloads, by deleting the file located at `~/Library/Caches/VisualStudio/7.0/TempDownload/index.xml`.
