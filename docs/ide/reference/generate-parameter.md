@@ -16,7 +16,7 @@ This refactoring applies to:
 
 - C#
 
-**What:** Generate parameter.
+**What:** Automatically generates a method parameter.
 
 **When:** You receive an error from a variable that doesn't exist in the current context you can generate a parameter as a code fix. 
 
