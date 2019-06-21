@@ -1,5 +1,6 @@
 ---
 title: IntelliSense completion for unimported types
+description: How to use IntelliSense completion for types that you haven't imported yet with a `using` directive.
 ms.date: 06/20/2019
 ms.topic: reference
 author: mikadumont
