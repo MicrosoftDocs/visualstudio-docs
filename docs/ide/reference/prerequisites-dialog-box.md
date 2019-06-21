@@ -31,7 +31,7 @@ To access the dialog box, select a project node in **Solution Explorer**, and th
 |**Download prerequisites from the following location**|Specifies that the prerequisite components be installed from the location that you enter. You can use the **Browse** button to select a location.|
 
 > [!NOTE]
-> Prerequisites must be in the *C:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper* folder. If you turn of installing the prerequisites, delete the setup.exe file from your Publish folder, and then recreate it.
+> Prerequisites must be in the *%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper* folder. If you turn off installing the prerequisites, delete the setup.exe file from your Publish folder, and then recreate it.
 
 ## Prerequisites information
 
