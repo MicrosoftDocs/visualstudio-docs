@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Display text in a text box in a worksheet using a button"
+title: "Display text in text box in worksheet using button"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
