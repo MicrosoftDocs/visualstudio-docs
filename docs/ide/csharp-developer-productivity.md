@@ -72,31 +72,27 @@ Visual Studio has a feature called **Go To All** (**Ctrl**+**T**). **Go To All**
 
 ## Enforce code style rules
 
-You can use an *.editorconfig* file to codify coding conventions and have them travel with your source.
+You can use an EditorConfig file to codify coding conventions and have them travel with your source.
 
-::: moniker range="vs-2017"
+![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
-- You can install the [EditorConfig language services extension](https://aka.ms/editorconfig), which makes it easy to add and edit an *.editorconfig* file in Visual Studio.
+- Add a default or .NET-style EditorConfig file to your project by choosing **Add** > **New Item**. In the **Add New Item** dialog box, search for "editorconfig". Select either of the **editorconfig File** item templates and then choose **Add**.
 
-::: moniker-end
+   ![EditorConfig item templates in Visual Studio](media/editorconfig-item-templates.png)
 
 ::: moniker range=">=vs-2019"
 
-- Automatically create an *.editorconfig* file from your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
+- Automatically create an *.editorconfig* file based on your code style settings in **Tools** > **Options** > **Text Editor** > **C#** > **Code Style**.
 
    ![Generate .editorconfig file from settings in VS 2019](media/vs-2019/generate-editorconfig-file.png)
 
 ::: moniker-end
 
-- Try out the [IntelliCode extension for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). IntelliCode infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
-- Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation.
+Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
 
-- See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example *.editorconfig* file.
-
-![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
-
-::: moniker range="vs-2019"
+::: moniker range=">=vs-2019"
 
 ## Code Cleanup
 
@@ -118,18 +114,19 @@ Visual Studio comes with numerous refactorings, code generation actions, and cod
 
 Popular quick fixes and refactorings include:
 
-- *Rename*
-- *Extract Method*
-- *Change Method Signature*
-- *Generate Constructor*
-- *Generate Method*
-- *Move Type to File*
-- *Add Null-Check*
-- *Add Parameter*
-- *Remove Unnecessary Usings*
-- *Foreach Loop to LINQ Query or to LINQ method*
-- *Pull Members Up*
-- For more information, see [code generation features](code-generation-in-visual-studio.md)
+- Rename
+- Extract Method
+- Change Method Signature
+- Generate Constructor
+- Generate Method
+- Move Type to File
+- Add Null-Check
+- Add Parameter
+- Remove Unnecessary Usings
+- Foreach Loop to LINQ Query or to LINQ method
+- Pull Members Up
+
+For more information, see [code generation features](code-generation-in-visual-studio.md).
 
 You can [install FxCop analyzers](../code-quality/install-fxcop-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
 
@@ -159,7 +156,7 @@ Visual Studio has many features to help you search and [navigate your code](../i
 
 ## Improved IntelliSense
 
-Download [IntelliCode for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode) to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
+Use IntelliCode for Visual Studio to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
 
 ## Unit testing
 
