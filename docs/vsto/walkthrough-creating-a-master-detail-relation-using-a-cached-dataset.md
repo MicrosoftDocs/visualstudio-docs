@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a master detail relation using a cached dataset"
+title: "Create master detail relation using cached dataset"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

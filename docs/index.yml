@@ -173,7 +173,7 @@ additionalContent:
             - text: Data science
               url: python/data-science-and-analytical-applications-workload.md
             - text: Office/Sharepoint development
-              url: https://developer.microsoft.com/office/docs) 
+              url: https://developer.microsoft.com/office/docs
         - title: Windows
           links:
             - text: .NET Desktop development
@@ -181,7 +181,7 @@ additionalContent:
             - text: Universal Windows platform development
               url: cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md
             - text: Windows development with C++
-              url: /cpp/windows/desktop-applications-visual-cpp)
+              url: /cpp/windows/desktop-applications-visual-cpp
         - title: Mobile and gaming
           links:
             - text: Mobile development with .NET (Xamarin)
@@ -189,12 +189,12 @@ additionalContent:
             - text: Game development with Unity
               url: cross-platform/visual-studio-tools-for-unity.md
             - text: Mobile development with JavaScript
-              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017)
+              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017
               note: (Visual Studio 2017 and 2015 only)
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
             - text: Game development with C++
-              url: /windows/uwp/gaming/e2e) 
+              url: /windows/uwp/gaming/e2e
         - title: Other toolsets
           links:
             - text: Visual Studio extension development
@@ -202,5 +202,5 @@ additionalContent:
             - text: Linux development with C++
               url: /cpp/linux/
             - text: .NET Core cross-platform development
-              url: /dotnet/core/)
+              url: /dotnet/core/
    footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](ide/talk-to-us.md) - [Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html)"
