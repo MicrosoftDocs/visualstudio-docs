@@ -19,7 +19,7 @@ Naming conventions should be ordered from most-specific to least-specific in the
 
 For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention, using the properties described below. The order of the properties is not important.
 
-To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. We'll refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
+To begin, choose a title for your naming rule that you will use in each of the properties that are needed to fully describe the rule. For example, `public_members_must_be_capitalized` is a good, descriptive name for a naming rule. This page will refer to the title you choose as **<namingRuleTitle\>** in the sections that follow.
 
 ## Symbols
 
@@ -110,7 +110,7 @@ A naming rule matches signatures that have *all* the modifiers specified in `req
 
 ## Style
 
-Now that we've identified the group of symbols to apply the naming rule to, we must describe the naming style. A style can be that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style. The style property has the following format:
+Now that you've identified the group of symbols to apply the naming rule to, you can describe the naming style. A style can be that the name has a certain prefix or a certain suffix, or that individual words in the name are separated with a certain character. You can also specify a capitalization style. The style property has the following format:
 
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`
 
@@ -168,6 +168,14 @@ error | When this style is not being followed, show a compiler error in the **Er
 
 > [!NOTE]
 > You do not have to build your project in order to see naming rule violations. They appear as code is edited, either in the **Error List** or as a suggestion.
+
+## Default naming styles
+
+If you don't specify any custom naming rules, Visual Studio uses the following default styles:
+
+- For classes, structs, enumerations, properties, and events with `public`, `private`, `internal`, `protected`, or `protected_internal` accessibility, the default naming style is Pascal case.
+
+- For interfaces with `public`, `private`, `internal`, `protected`, or `protected_internal` accessibility, the default naming style is Pascal case with a required prefix of **I**.
 
 ## Example
 

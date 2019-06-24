@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project"
+title: "Add controls to worksheet at runtime in VSTO add-in project"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

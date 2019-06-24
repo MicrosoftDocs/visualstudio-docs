@@ -74,7 +74,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 - - -
 
-![Closed - Not a Bug state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotaBug.jpg)
+![Closed - Not a Bug state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotABug.jpg)
 
 **Closed - Not a Bug**  indicates that we've determined that the reported functionality is by current design.
 
