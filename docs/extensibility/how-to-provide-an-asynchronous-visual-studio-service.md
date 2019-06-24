@@ -68,7 +68,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
             await TaskScheduler.Default;
             // do background operations that involve IO or other async methods
 
-            await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+            await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             // query Visual Studio services on main thread unless they are documented as free threaded explicitly.
             // The reason for this is the final cast to service interface (such as IVsShell) may involve COM operations to add/release references.
 
