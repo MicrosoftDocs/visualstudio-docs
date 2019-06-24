@@ -1,9 +1,9 @@
 ---
 title:  Manage Visual Studio Subscriptions
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 10/03/2017
+ms.author: lank
+manager: lank
+ms.date: 06/24/2019
 ms.topic: conceptual
 description: Learn how to get the most out of your Visual Studio subscriptions
 searchscope: VS Subscription
