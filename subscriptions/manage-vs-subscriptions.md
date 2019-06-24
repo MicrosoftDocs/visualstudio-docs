@@ -119,6 +119,9 @@ You can easily change the contact information and preferences in your profile.
    > [!div class="mx-imgBorder"]
    > ![Editing Profile Information](_img/manage-vs-subscriptions/edit-profile-resized.png)
 
+### Setting communications preferences
+If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
+   
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 
 If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps Services or IDE resources that are associated with your school or work accounts.
