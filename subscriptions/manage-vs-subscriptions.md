@@ -121,6 +121,9 @@ You can easily change the contact information and preferences in your profile.
 
 ### Setting communications preferences
 If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png)
    
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 
