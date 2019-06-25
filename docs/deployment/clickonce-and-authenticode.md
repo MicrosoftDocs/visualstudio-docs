@@ -27,7 +27,7 @@ ms.workload:
 ## Authenticode and code signing
  A *digital certificate* is a file that contains a cryptographic public/private key pair, along with metadata describing the publisher to whom the certificate was issued and the agency that issued the certificate.
 
- There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to code signing](https://docs.microsoft.com/en-us/windows/desktop/seccrypto/cryptography-tools).
+ There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to code signing](https://docs.microsoft.com/windows/desktop/seccrypto/cryptography-tools).
 
  You can obtain a certificate for code signing in one of three ways:
 
