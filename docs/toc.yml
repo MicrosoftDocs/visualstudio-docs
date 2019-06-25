@@ -61,8 +61,6 @@
       items:
       - name: Create a network-based installation of Visual Studio
         href: install/create-a-network-installation-of-visual-studio.md
-      - name: Update a network-based installation of Visual Studio
-        href: install/update-a-network-installation-of-visual-studio.md
       - name: Network considerations
         items:
         - name: Install and use Visual Studio behind a firewall or proxy server
@@ -77,16 +75,18 @@
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Set defaults for enterprise deployments of Visual Studio
         href: install/set-defaults-for-enterprise-deployments.md
-      - name: Disable or move the package cache
-        href: install/disable-or-move-the-package-cache.md
-      - name: Control updates to Visual Studio deployments
-        href: install/controlling-updates-to-visual-studio-deployments.md
-      - name: Update Visual Studio while on a servicing baseline
-        href: install/update-servicing-baseline.md
-    - name: Manage installations
+    - name: Manage & update installations
       items:
       - name: Tools for detecting and managing Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
+      - name: Update a network-based installation of Visual Studio
+        href: install/update-a-network-installation-of-visual-studio.md
+      - name: Update Visual Studio while on a servicing baseline
+        href: install/update-servicing-baseline.md
+      - name: Control updates to Visual Studio deployments
+        href: install/controlling-updates-to-visual-studio-deployments.md
+      - name: Disable or move the package cache
+        href: install/disable-or-move-the-package-cache.md
     - name: Manage subscriptions
       items:
       - name: "Visual Studio subscriptions: Administrator overview"
