@@ -3,7 +3,7 @@ title: "Modify Visual Studio"
 titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017,seodec18"
-ms.date: 03/30/2018
+ms.date: 06/25/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
@@ -40,7 +40,10 @@ Here's how.
  Workloads contain the features you need for the programming language or platform that you are using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
 >[!IMPORTANT]
->To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+>To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+
+>[!TIP]
+> The following procedure assumes that you have an internet connection. For more information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
 ::: moniker range="vs-2017"
 
@@ -116,4 +119,6 @@ If you don't want to install workloads to customize your Visual Studio installat
 
 * [Update Visual Studio](update-visual-studio.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
+* [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
+* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
