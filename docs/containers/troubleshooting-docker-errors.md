@@ -56,7 +56,8 @@ When using Docker for macOS, you might encounter an error referencing the folder
 You might encounter the following error in Visual Studio when working with containers:
 
 ```
-The current user must be in the 'docker-users' group to use Docker Desktop. Add yourself to the 'docker-users' group and then log out of Windows.
+The current user must be in the 'docker-users' group to use Docker Desktop. 
+Add yourself to the 'docker-users' group and then log out of Windows.
 ```
 
 You must be a member of the 'docker-users' group in order to have permissions to work with Docker containers.  To add yourself to the group in Windows 10, follow these steps:
@@ -64,16 +65,16 @@ You must be a member of the 'docker-users' group in order to have permissions to
 1. From the Start menu, open **Computer Management**.
 1. Expand **Local Users and Groups**, and choose **Groups**.
 1. Find the **docker-users** group, right-click and choose **Add to group**.
-1. Add your user account(s).
+1. Add your user account or accounts.
 1. Log out and log back in again for these changes to take effect.
 
 You can also use the `net localgroup` command at the Administrator command prompt to add users to specific groups.
 
 ```cmd
-net localgroup docker-users DOMAIN/username /add
+net localgroup docker-users DOMAIN\username /add
 ```
 
-Or to use a PowerShell command, see [Add-LocalGroupMember](/powershell/module/microsoft.powershell.localaccounts/add-localgroupmember).
+In PowerShell, use the [Add-LocalGroupMember](/powershell/module/microsoft.powershell.localaccounts/add-localgroupmember) function.
 
 ## Microsoft/DockerTools GitHub repo
 
