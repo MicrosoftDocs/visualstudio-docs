@@ -66,7 +66,7 @@ You must be a member of the 'docker-users' group in order to have permissions to
 1. Expand **Local Users and Groups**, and choose **Groups**.
 1. Find the **docker-users** group, right-click and choose **Add to group**.
 1. Add your user account or accounts.
-1. Log out and log back in again for these changes to take effect.
+1. Sign out and sign back in again for these changes to take effect.
 
 You can also use the `net localgroup` command at the Administrator command prompt to add users to specific groups.
 
