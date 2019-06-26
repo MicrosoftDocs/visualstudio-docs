@@ -102,7 +102,7 @@
         href: fxcopcmd-errors.md
     - name: Check-in policies
       items:
-      - name: How to create or update check in policies
+      - name: How to create or update check-in policies
         href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
       - name: Implement code analysis check-in policies
         href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
