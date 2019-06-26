@@ -66,6 +66,14 @@
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Set defaults for enterprise deployments of Visual Studio
         href: install/set-defaults-for-enterprise-deployments.md
+      - name: Deploy Help Viewer
+        items:
+        - name: Help Viewer Administrator Guide
+          href: help-viewer/administrator-guide.md
+        - name: Command-Line Arguments for the Help Content Manager
+          href: help-viewer/command-line-arguments.md
+        - name: Help Content Manager Overrides
+          href: help-viewer/behavior-overrides.md
     - name: Manage & update installations
       items:
       - name: Tools for detecting and managing Visual Studio instances
@@ -84,14 +92,6 @@
       items:
       - name: "Visual Studio subscriptions: Administrator overview"
         href: /visualstudio/subscriptions/admin-responsibilities
-    - name: Deploy Help Viewer
-      items:
-      - name: Help Viewer Administrator Guide
-        href: help-viewer/administrator-guide.md
-      - name: Command-Line Arguments for the Help Content Manager
-        href: help-viewer/command-line-arguments.md
-      - name: Help Content Manager Overrides
-        href: help-viewer/behavior-overrides.md
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
