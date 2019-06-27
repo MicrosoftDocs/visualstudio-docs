@@ -176,6 +176,7 @@ c:\vslayout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDeskto
 ## See also
 
 - [Create a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+- [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 - [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)

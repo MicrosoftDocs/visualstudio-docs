@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically store and retrieve date values in Excel ranges"
+title: "Store & retrieve date values in Excel ranges programmatically"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

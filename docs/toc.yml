@@ -226,11 +226,7 @@
       - name: Specify an application icon (Visual Basic, C#)
         href: ide/how-to-specify-an-application-icon-visual-basic-csharp.md
       - name: Target a framework
-        items:
-        - name: Multi-targeting overview
-          href: ide/visual-studio-multi-targeting-overview.md
-        - name: Target a version of the .NET Framework
-          href: ide/how-to-target-a-version-of-the-dotnet-framework.md
+        href: ide/visual-studio-multi-targeting-overview.md
       - name: Create templates
         items:
         - name: Create project and item templates
@@ -381,14 +377,20 @@
             href: ide/reference/convert-foreach-linq.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
+          - name: Convert switch statement to switch expression
+            href: ide/reference/convert-switch-statement-to-switch-expression.md
           - name: Encapsulate field
             href: ide/reference/encapsulate-field.md
           - name: Extract interface
             href: ide/reference/extract-interface.md
           - name: Extract method
             href: ide/reference/extract-method.md
+          - name: Generate parameter
+            href: ide/reference/generate-parameter.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
+          - name: IntelliSense completion unimported types
+            href: ide/reference/intellisense-completion-unimported-types.md
           - name: Invert conditional expressions and logical operations
             href: ide/reference/invert-conditional-logical.md
           - name: Invert if statement
@@ -397,6 +399,8 @@
             href: ide/reference/move-declaration-near-reference.md
           - name: Move type to matching file
             href: ide/reference/move-type-to-matching-file.md
+          - name: Move type to namespace
+            href: ide/reference/move-type-to-namespace.md
           - name: Pull member up
             href: ide/reference/pull-members-up.md
           - name: Regex completion through IntelliSense
@@ -405,6 +409,12 @@
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
             href: ide/reference/rename.md
+          - name: Sort usings
+            href: ide/reference/sort-usings.md
+          - name: Split or merge if statements
+            href: ide/reference/split-or-merge-if-statement.md
+          - name: Sync namespace and folder name
+            href: ide/reference/sync-namespace-and-folder-name.md
           - name: Synchronize type and filename
             href: ide/reference/sync-type-and-file.md
           - name: Use explicit type
@@ -470,10 +480,16 @@
         - name: Use EditorConfig files for code style
           displayName: Configure code style analyzers
           href: ide/create-portable-custom-editor-options.md
-        - name: .NET language and formatting conventions
-          href: ide/editorconfig-code-style-settings-reference.md
-        - name: .NET naming conventions
-          href: ide/editorconfig-naming-conventions.md
+        - name: .NET coding conventions
+          items:
+          - name: Overview
+            href: ide/editorconfig-code-style-settings-reference.md
+          - name: Language conventions
+            href: ide/editorconfig-language-conventions.md
+          - name: Formatting conventions
+            href: ide/editorconfig-formatting-conventions.md
+          - name: Naming conventions
+            href: ide/editorconfig-naming-conventions.md
       - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
       - name: Set bookmarks in code

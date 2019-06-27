@@ -35,10 +35,10 @@ int GetDocumentContext( 
 
 ## Parameters
 `ppSrcCxt`\
-[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context.
+[out] Returns the [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that corresponds to the code context. If `S_OK` is returned, ths should be non-`null`.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns an error code.
+ If successful, returns `S_OK`; otherwise, returns an error code. A debug engine should return a failure code such as `E_FAIL` when the `out` parameter is `null` such as when the code context has no associated source position.
 
 ## Remarks
  Generally, the document context can be thought of as a position in a source file while the code context is a position of a code instruction in an execution stream.

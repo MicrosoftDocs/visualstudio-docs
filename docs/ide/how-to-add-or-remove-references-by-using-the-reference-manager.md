@@ -86,7 +86,7 @@ Some components in the list may not be shown, depending on the framework version
 
 - A component that uses a recent framework version is incompatible with a project that targets an earlier version.
 
-   For information about how to change the target framework version for a project, see [How to: Target a framework version](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+   For information about how to change the target framework version for a project, see [Framework targeting overview](visual-studio-multi-targeting-overview.md).
 
 - A component that uses .NET Framework 4 is incompatible with a project that targets the .NET Framework 4.5.
 

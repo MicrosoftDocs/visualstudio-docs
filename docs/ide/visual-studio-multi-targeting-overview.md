@@ -14,11 +14,11 @@ ms.workload:
 ---
 # Framework targeting overview
 
-In Visual Studio, you can specify the version of .NET that you want your project to target. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
+In Visual Studio, you can specify the version of .NET that you want your project to target. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
+
+A Visual Studio solution can contain projects that target different versions of .NET.
 
 For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
-
-You can also create a solution that contains projects that target different versions of .NET. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version.
 
 > [!TIP]
 > You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
@@ -73,13 +73,40 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 ::: moniker-end
 
-In an existing project, you can change the target .NET version in the project properties dialog box. For more information, see [How to: Target a version of .NET](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+## Change the target framework
+
+In an existing Visual Basic, C#, or F# project, you change the target .NET version in the project properties dialog box. For information about how to change the target version for C++ projects, see [How to modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset) instead.
+
+1. In **Solution Explorer**, open the right-click menu for the project that you want to change, and then choose **Properties**.
+
+1. In the left column of the **Properties** window, choose the **Application** tab.
+
+   ![Project properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png)
+
+   > [!NOTE]
+   > After you create a UWP app, you can't change the targeted version of either Windows or .NET.
+
+1. In the **Target Framework** list, choose the version that you want.
+
+1. In the verification dialog box that appears, choose the **Yes** button.
+
+   The project unloads. When it reloads, it targets the .NET version that you just chose.
+
+> [!NOTE]
+> If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, modify the references. See [Troubleshoot .NET targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+
+> [!TIP]
+> Depending on the target framework, it can be represented in the following ways in the project file:
+>
+> - For a .NET Core app: `<TargetFramework>netcoreapp2.1</TargetFramework>`
+> - For a .NET Standard app: `<TargetFramework>netstandard2.0</TargetFramework>`
+> - For a .NET Framework app: `<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>`
 
 ## Resolve system and user assembly references
 
 To target a .NET version, you must first install the appropriate assembly references. You can download developer packs for different versions of .NET on the [.NET downloads](https://www.microsoft.com/net/download/windows) page.
 
-For .NET Framework projects, the **Add Reference** dialog box disables system assemblies that do not pertain to the target .NET Framework version so that they cannot be inadvertently added to a project. (System assemblies are *.dll* files that are included in a .NET Framework version.) References that belong to a framework version that's higher than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the .NET Framework target of the project to one that includes the reference. For more information, see [How to: Target a framework version](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+For .NET Framework projects, the **Add Reference** dialog box disables system assemblies that do not pertain to the target .NET Framework version so that they cannot be inadvertently added to a project. (System assemblies are *.dll* files that are included in a .NET Framework version.) References that belong to a framework version that's higher than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the .NET Framework target of the project to one that includes the reference.
 
 For more information about assembly references, see [Resolve assemblies at design time](../msbuild/resolving-assemblies-at-design-time.md).
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons"
+title: "Update chart in worksheet using radio buttons"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

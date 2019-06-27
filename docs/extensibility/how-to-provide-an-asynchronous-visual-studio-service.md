@@ -68,7 +68,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
             await TaskScheduler.Default;
             // do background operations that involve IO or other async methods
 
-            await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+            await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             // query Visual Studio services on main thread unless they are documented as free threaded explicitly.
             // The reason for this is the final cast to service interface (such as IVsShell) may involve COM operations to add/release references.
 
@@ -151,13 +151,13 @@ public sealed class TestAsyncPackage : AsyncPackage
         this.AddService(typeof(STextWriterService), CreateTextWriterService);
 
         ITextWriterService textService = await this.GetServiceAsync(typeof(STextWriterService)) as ITextWriterService;
-
-        await textService.WriteLineAsync(<userpath>), "this is a test");
+        string userpath = @"C:\MyDir\MyFile.txt";
+        await textService.WriteLineAsync(userpath, "this is a test");
     }
 
     ```
 
-     Don't forget to change *\<userpath>* to a filename and path that makes sense on your machine!
+     Don't forget to change `userpath` to a filename and path that makes sense on your machine!
 
 2. Build and run the code. When the experimental instance of Visual Studio appears, open a solution. This causes the `AsyncPackage` to autoload. When the initializer has run, you should find a file in the location you specified.
 
@@ -183,8 +183,9 @@ public sealed class TestAsyncPackage : AsyncPackage
 
         ITextWriterService textService =
            await this.GetServiceAsync(typeof(STextWriterService)) as ITextWriterService;
-
-        await textService.WriteLineAsync((<userpath>, "this is a test");
+        
+        string userpath = @"C:\MyDir\MyFile.txt";
+        await textService.WriteLineAsync(userpath, "this is a test");
 
         await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
         TestAsyncCommand.Initialize(this);
@@ -212,8 +213,8 @@ public sealed class TestAsyncPackage : AsyncPackage
            await AsyncServiceProvider.GlobalProvider.GetServiceAsync(typeof(STextWriterService))
               as ITextWriterService;
 
-        // don't forget to change <userpath> to a local path
-        await textService.WriteLineAsync((<userpath>),"this is a test");
+        string userpath = @"C:\MyDir\MyFile.txt";
+        await textService.WriteLineAsync(userpath, "this is a test");
        }
 
     ```
