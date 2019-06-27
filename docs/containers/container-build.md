@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools Build Overview
+title: Visual Studio Container Tools build overview
 author: ghogen
 description: Overview of the Container Tools build process
 ms.author: ghogen
