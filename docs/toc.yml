@@ -1204,6 +1204,15 @@
     - name: Report a problem states and FAQ
       displayName: Developer Community
       href: ide/report-a-problem.md
+    - name: Create minidumps for a Visual Studio process with all callstacks
+      displayName: Create minidumps with call stacks
+      href: ide/report-a-problem-minidumps.md
+    - name: Create logs for MSBuild problems
+      displayName: Create logs for MSBuild problems
+      href: ide/msbuild-logs.md
+    - name: Collect an ETL trace with PerfView
+      displayName: ETL trace with PerfView
+      href: ide/report-a-problem-perfview.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
   - name: Developer Community data privacy
