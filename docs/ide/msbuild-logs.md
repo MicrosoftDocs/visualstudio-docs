@@ -82,7 +82,7 @@ If MSBuild is unnecessarily rebuilding a project or project item, create a detai
   Debug\Project1.tlog\CL.write.1.tlog
 ```
 
-If you are building in VS IDE (with detailed output window verbosity), the reason each project is not Up-To-Date will be printed in the output window:
+If you are building in the Visual Studio IDE (with detailed output window verbosity), the **Output Window** displays the reason why each project is not up-to-date:
 
 ```output
 1>------ Up-To-Date check: Project: Project1, Configuration: Debug Win32 ------
@@ -110,7 +110,7 @@ A Msbuild.binlog file will be created in the directory that you ran MSBuild from
 ## Create a detailed log
 
 1. From the Visual Studio main menu, go to **Tools** > **Options** > **Projects and Solutions** >**Build and Run**.
-1. Set **Msbuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the Output window and the second one controls build verbosity in the \<projectname\>.log file that is created in the each project's Intermediate directory during build.
+1. Set **Msbuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the **Output Window** and the second one controls build verbosity in the \<projectname\>.log file that is created in the each project's Intermediate directory during build.
 1. From a Visual Studio developer command prompt, enter one of these commands, substituting your actual path and configuration values:
 
     ```cmd

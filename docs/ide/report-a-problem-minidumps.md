@@ -1,5 +1,5 @@
 ---
-title: Create minidumps with all callstacks
+title: Create minidumps with all call stacks
 ms.date: 06/27/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,7 +17,7 @@ ms.workload:
 
 # Create minidumps for a Visual Studio process with all callstacks
 
-In some cases Microsoft might ask for a minidump of a running Visual Studio process with information for all call stacks. To create this minidump, perform these steps:
+In some cases Microsoft might ask for a minidump of a running Visual Studio process with information for all call stacks. To collect this information, perform these steps:
 
 ## Create the minidump file
 
@@ -36,7 +36,7 @@ In some cases Microsoft might ask for a minidump of a running Visual Studio proc
 1. Open the dump file in Visual Studio.
 
 1. Got to **Tools** > **Options** > **Debugging** > **Symbols** and make sure that **Microsoft Symbol Servers** is checked in the **Symbol file (.pdb) locations**.
-1. Open the **Command** window (**View** > **Other Windows** >** Command Window**) 
+1. Open the **Command** window (**View** > **Other Windows** > **Command Window**)
 1. Type ‘~*k’. The window displays all threads' call stacks.
 1. Copy all text from Command Window and save to a text file.
 1. Attach the txt file to the bug.
