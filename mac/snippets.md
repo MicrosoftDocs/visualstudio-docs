@@ -81,8 +81,6 @@ There are two reserved keywords that you can use in a snippet:
 
 The `for` snippet in the previous section is an example of both these reserved keywords.
 
-Refer to the [Visual Studio code snippets reference](/visualstudio/ide/code-snippets-schema-reference#keywords) for more information.
-
 ## See also
 
 - [Code snippets (Visual Studio on Windows)](/visualstudio/ide/code-snippets)
