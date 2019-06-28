@@ -15,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Create minidumps for a Visual Studio process with all callstacks
+# Create minidumps for a Visual Studio process with all call stacks
 
 In some cases Microsoft might ask for a minidump of a running Visual Studio process with information for all call stacks. To collect this information, perform these steps:
 
