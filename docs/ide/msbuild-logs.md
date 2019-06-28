@@ -17,23 +17,27 @@ ms.workload:
 
 # Troubleshoot and create logs for MSBuild problems
 
-## A project property appears to be set to particular value, but has no effect on build
+The following procedures can help you diagnose build problems in your Visual Studio project, and, if necessary, create a log to send to Microsoft for investigation.
+
+## A property value is ignored
+
+If a project property appears to be set to particular value, but has no effect on build, follow these steps:
 
 1. Open the Visual Studio Developer Command Prompt that corresponds to your version of Visual Studio.
-1. Run the following command, after substituting the values for your solution path and project name:
+1. Run the following command, after substituting the values for your solution path, configuration, and project name:
 
     ```cmd
     msbuild /p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /pp:out.xml MyProject.vcxproj
     ```
 
-    This command produces a "preprocessed" msbuild project (out.xml). You can search that file for a specific property to see where it is defined. 
+    This command produces a "preprocessed" msbuild project file (out.xml). You can search that file for a specific property to see where it is defined.
 
-The last definition of a property is what will be used during the build. Also, msbuild evaluates the project in several passes:
+The last definition of a property is what the build consumes. If property is set twice, the second value overwrites the first. Also, MSBuild evaluates the project in several passes:
 
 - PropertyGroups and Imports
-- IntemDefinitionGroups
-- IntemGroups
-- Targets 
+- ItemDefinitionGroups
+- ItemGroups
+- Targets
 
 Therefore, given the following order:
 
@@ -42,11 +46,11 @@ Therefore, given the following order:
    <MyProperty>A</MyProperty>
 </PropertyGroup>
 <ItemGroup>
-   <MyItems Include="MyFile.txt" />
+   <MyItems Include="MyFile.txt"/>
 </ItemGroup>
 <ItemDefinitionGroup>
   <MyItems>
-      <MyMetadata>$(MyProperty) </MyMetadata>
+      <MyMetadata>$(MyProperty)</MyMetadata>
   </MyItems>
 </ItemDefinitionGroup>
 <PropertyGroup>
@@ -58,10 +62,10 @@ The value of "MyMetadata" for "MyFile.txt" item will be evaluated to "B" during 
 
 ## Incremental build is building more than it should
 
-To see why msbuild thinks it needs to rebuild something, a detailed or binary build log is needed. When you have the log (see below how to produce it) you can search it for the file which was built unnecessarily (or just "will be compiled" if you don't expect anything to be built)  and see something like this:
+If MSBuild is unnecessarily rebuilding a project or project item, create a detailed or binary build log. You can search the log for the file which was built or compiled unnecessarily. The output looks something like this:
 
 ```output
-Task "CL"
+  Task "CL"
 
   Using cached input dependency table built from:
 
@@ -86,9 +90,10 @@ If you are building in VS IDE (with detailed output window verbosity), the reaso
 1>Project is not up-to-date: build input 'f:\test\project1\project1\project1.h' was modified after the last build finished.
 ```
 
-## How to produce a binary msbuild log
+## Create a binary msbuild log
 
-1. Go to VS2019 Developer Command Prompt (replace VS2019 with the VS version used) and run there:
+1. Open the Developer Command Prompt for your version of Visual Studio
+1. From the command prompt, run one of the following commands. (Remember to use your actual project and configuration values.):
 
     ```cmd
     Msbuild /p:Configuration="MyConfiguration";Platform="x86" /bl MySolution.sln
@@ -100,15 +105,13 @@ If you are building in VS IDE (with detailed output window verbosity), the reaso
     Msbuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /bl MyProject.vcxproj
     ```
 
-A Msbuild.binlog file will be created in the directory that you ran msbuild from. You can view and search it by using the [Msbuild Structured Log Viewer](http://www.msbuildlog.com/).
+A Msbuild.binlog file will be created in the directory that you ran MSBuild from. You can view and search it by using the [Msbuild Structured Log Viewer](http://www.msbuildlog.com/).
 
-## How to produce a detailed log
+## Create a detailed log
 
-In Visual Studio:
-
-1. Go to **Tools** > **Options** > **Projects and Solutions** >**Build and Run**.
+1. From the Visual Studio main menu, go to **Tools** > **Options** > **Projects and Solutions** >**Build and Run**.
 1. Set **Msbuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the Output window and the second one controls build verbosity in the \<projectname\>.log file that is created in the each project's Intermediate directory during build.
-1. From a Visual Studio developer command prompt, enter these commands, substituting your actual paths:
+1. From a Visual Studio developer command prompt, enter one of these commands, substituting your actual path and configuration values:
 
     ```cmd
     Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln 
@@ -120,4 +123,4 @@ In Visual Studio:
     Msbuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /fl MyProject.vcxproj
     ```
 
-    Msbuild.log file will be created in the directory that you ran msbuild from.  
+    An Msbuild.log file will be created in the directory that you ran msbuild from.

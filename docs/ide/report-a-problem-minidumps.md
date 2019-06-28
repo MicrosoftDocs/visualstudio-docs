@@ -17,9 +17,13 @@ ms.workload:
 
 # Create minidumps for a Visual Studio process with all callstacks
 
+In some cases Microsoft might ask for a minidump of a running Visual Studio process with information for all call stacks. To create this minidump, perform these steps:
+
+## Create the minidump file
+
 1. Start a new instance of Visual Studio.
 1. From the main menu, choose **Debug** > **Attach To Process**.
-1. Check the relevant **Managed** and **Native** checkboxes and press **Attach**.
+1. Check the relevant **Managed** and **Native** check boxes and press **Attach**.
 
    ![Attach to process](../ide/media/attach-to-process.png)
 
@@ -27,7 +31,7 @@ ms.workload:
 1. From the main menu, choose **Debug** > **Break All**.
 1. From the main menu, choose **Debug** > **Save Dump As**.
 
-## Get the call stacks from a minidump
+## Get the call stacks from the minidump
 
 1. Open the dump file in Visual Studio.
 
