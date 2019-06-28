@@ -5,7 +5,7 @@ description: Learn how to use Visual Studio Container Tools and Docker for Windo
 ms.author: ghogen
 ms.date: 06/06/2019
 ms.technology: vs-azure
-ms.topic: include
+ms.topic: quickstart
 ---
 # Quickstart: Use Docker with a React Single-page App in Visual Studio
 
