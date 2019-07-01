@@ -13,6 +13,7 @@ dev_langs:
  - CPP
 ms.workload:
   - "multiple"
+ms.description: "Collect minidumps to send to Microsoft for help with troubleshooting issues with Visual Studio"
 ---
 
 # Create minidumps for a Visual Studio process with all call stacks

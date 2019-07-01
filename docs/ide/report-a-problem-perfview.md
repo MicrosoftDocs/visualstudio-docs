@@ -14,6 +14,7 @@ dev_langs:
  - CPP
 ms.workload:
   - "multiple"
+ms.description: "Use perfview.exe to collect ETL traces for troubleshooting issues with Visual Studio"
 ---
 
 # Collect an ETL trace with PerfView
