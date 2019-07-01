@@ -163,11 +163,11 @@ additionalContent:
             - text: Web development
               url: /aspnet/
             - text: Azure development and management
-              url: azure/index.yml
+              url: /visualstudio/azure
             - text: Python
-              url: python/index.yml
+              url: /visualstudio/python
             - text: Node.js
-              url: javascript/index.yml
+              url: /visualstudio/javascript
             - text: Data storage and processing
               url: data-tools/index.md
             - text: Data science
