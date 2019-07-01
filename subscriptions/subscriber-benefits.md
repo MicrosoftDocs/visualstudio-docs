@@ -2,8 +2,8 @@
 title: Visual Studio Subscriptions - Subscriber Benefits
 author: evanwindom
 ms.author: jaunger
-manager: evelynp
-ms.date: 02/12/2018
+manager: lank
+ms.date: 06/28/2019
 ms.topic: conceptual
 description:  Learn about the benefits included in your Visual Studio subscription
 searchscope: VS Subscription
@@ -11,9 +11,10 @@ searchscope: VS Subscription
 
 # Benefits included in your Visual Studio subscription
 
-Visual Studio subscriptions offer the most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  The specific benefits will vary based on the type of subscription you have.  To provide the maximum value for subscribers, the benefits provided change periodically as we make adjustments to focus on the newest and most useful technologies, training materials, and partner benefits available.
+Visual Studio subscriptions (formerly known as MSDN subscriptions) offer the most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  The specific benefits will vary based on the type of subscription you have.  To provide the maximum value for subscribers, the benefits provided change periodically as we make adjustments to focus on the newest and most useful technologies, training materials, and partner benefits available.
 
-Benefits are grouped into three categories:
+
+Benefits are grouped into three categories in the [subscriber portal](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs:).
 
 ## Tools
 The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](vs-ide-benefit.md), [Azure DevOps Services](vs-azure-devops.md), and [Azure](vs-azure.md).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
@@ -25,7 +26,7 @@ To help you continuously enhance your skillset and keep up with the latest techn
 - Microsoft Azure for .Net Developers, and other great content from Pluralsight
 - Data Science for Developers from DataCamp
 - Designing Database Solutions for SQL Server from Microsoft Virtual Academy
-- LinkedIn Learning bring you access to the people, insights, and skills you need to excel.
+- LinkedIn Learning brings you access to the people, insights, and skills you need to excel.
 
 ## Support
 As a Visual Studio subscriber, you also have access to various types of support in case you have a question or need technical assistance.
