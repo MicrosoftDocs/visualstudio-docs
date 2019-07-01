@@ -164,11 +164,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
  ![Use case showing many to many multiplicity](../modeling/media/uml-ucguidemulti2.png "UML_UCGuideMulti2")  
   
-- To state that several actors of the same class can take part in a single occurrence of a use case, set the multiplicity at the actor end of the association to **1..\\***.  
+- To state that several actors of the same class can take part in a single occurrence of a use case, set the multiplicity at the actor end of the association to **1..\***.  
   
    In the illustration, one or more restaurants can take part in fulfilling the same meal order.  
   
-- To show that each actor can participate at the same time in several occurrences of a use case, set the multiplicity at the use case end of the association to **\\***.  
+- To show that each actor can participate at the same time in several occurrences of a use case, set the multiplicity at the use case end of the association to **\***.  
   
    In the illustration, each restaurant can work on fulfilling more than one order at a time.  
   
@@ -184,11 +184,11 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
    - **1** to state that exactly one instance of this role participates in each link.  
   
-   - **1..\\*** to state that one or more instance of this role participate in each link.  
+   - **1..\*** to state that one or more instance of this role participate in each link.  
   
    - **0..1** to state that participation is optional.  
   
-   - **\\*** to state that zero or more instances of this role participate in the link.  
+   - **\*** to state that zero or more instances of this role participate in the link.  
   
 > [!NOTE]
 > Many teams do not place multiplicity information on use case diagrams, leaving the multiplicities at the default value of 1. Instead, they provide the information in separate descriptions of the use cases. In this case, all the multiplicities in the use case diagrams will be hidden.  
