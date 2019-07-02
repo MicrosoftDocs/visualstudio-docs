@@ -35,10 +35,9 @@ For a complete list of everything that's new in this version, see the [release n
 
 ## Develop
 
-View the following video to learn more about how you can save time with new features.
-<br><br>
+View the following video to learn more about how you can save time with new features. <br>(*Video length: 3.00 minutes*)
+<br>
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
->*Video length: 3.00 minutes*
 
 ### Improved search
 
