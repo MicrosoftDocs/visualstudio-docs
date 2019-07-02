@@ -80,43 +80,25 @@ You can use `docker build` or `MSBuild` to build from the command line.
 
 To build a containerized solution from the command line, you can usually use the command `docker build <context>` for each project in the solution. You provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the f`older that you copy files from when you copy to the container.  In .NET Core projects, use the folder that contains the solution file (.sln).  Expressed as a relative path, this argument is typically ".." for a Dockerfile in a project folder, and the solution file in its parent folder.  For .NET Framework projects, the build context is the project folder, not the solution folder.
 
-> [!NOTE] 
-> For .NET Framework projects, and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4, the Dockerfile did not use multistage builds. When Visual Studio builds with these Dockerfiles, instead of building the project in the Dockerfile, Visual Studio builds each project and then copies the results to the container. Because the build steps aren't included in the Dockerfile, you can't build such projects using `docker build` from the command line. You should use MSBuild to build these projects.
-
 ### MSBuild
 
-To build a project or solution for single docker container, you can use MSBuild with the `/t:ContainerBuild` command option.
+For .NET Framework projects, and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4, Visual Studio did not use the steps in the generated Dockerfile to build your code. When Visual Studio builds with these Dockerfiles, instead of building the project in the container, Visual Studio builds each project and then the Dockerfile stage executes that copies the results to the container. Because the build steps aren't included in the Dockerfile, you can't build such projects using `docker build` from the command line. You should use MSBuild to build these projects.
+
+To build an image for single docker container project you can use MSBuild with the `/t:ContainerBuild` command option. For example:
 
 ```cmd
-MSBuild <solution_name>.sln /t:ContainerBuild /p:Configuration=Debug
+MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 ```
 
 You'll see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE.
 
 When the **Debug** configuration is specified (and the **ContainerDevelopmentMode** property is set to **Fast**), Visual Studio uses the build optimization described in this article, so your project builds more quickly on the local machine and is copied to the container.  When the **Release** configuration is specified, the build occurs in the container and might be slower.
 
-If you are using a Docker Compose project, use the command:
+If you are using a Docker Compose project, use the command to build images:
 
 ```
-msbuild /t:DockerPackageService /p:DockerAppType=AspNet /p:Configuration=Release <project_name>\<project_name>.csproj
-msbuild /p:Configuration=Release docker-compose.dcproj
+msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
 ```
-
-## Scripting a containerized build using Azure DevOps
-
-You can use Azure Pipelines to build your containerized apps and publish to Azure Container Registry or Docker Hub. Follow the instructions for setting up an Azure Pipeline in this article: [Build, test, and push Docker container app](/azure/devops/pipelines/languages/docker?view=azure-devops). However, to build your solution, add an MSBuild task to your pipeline. Internally, MSBuild uses `docker build` to build your containers.
-
-Add an MSBuild task to your pipeline as follows:
-
-```
-- task: MSBuild@1
-  displayName: 'Build Application and main Docker Image'
-  inputs:
-    solution: '**/*.sln'
-    msbuildArguments: '/t:ContainerBuild /p:Configuration=$(buildConfiguration)'
-```
-
-For more information, see [MSBuild task](/azure/devops/pipelines/tasks/build/msbuild?view=azure-devops).
 
 ## Next steps
 

@@ -7869,6 +7869,11 @@
             "source_path": "subscriptions/leave-vsde.md",
             "redirect_url": "/visualstudio/subscriptions/join-dev-essentials",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/containers/container-unit-testing.md",
+            "redirect_url": "/visualstudio/containers",
+            "redirect_document_id": false
         }
     ]
 }
