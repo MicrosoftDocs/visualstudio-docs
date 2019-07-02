@@ -30,8 +30,6 @@
       href: view-and-diagnose-containers.md
     - name: Configure Container Tools
       href: container-tools-configure.md
-    - name: Run unit tests
-      href: container-unit-testing.md
   - name: Concepts
     items:
     - name: Building containerized apps
