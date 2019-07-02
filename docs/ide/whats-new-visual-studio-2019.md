@@ -37,7 +37,7 @@ For a complete list of everything that's new in this version, see the [release n
 
 View the following video to learn more about how you can save time with new features.
 <br><br>
-> [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]<br>
+> [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 >*Video length: 3.00 minutes*
 
 ### Improved search
@@ -101,7 +101,7 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 
 View the following video to learn more about how you can team up to solve issues.
 <br><br>
-> [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]<br>
+> [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 >*Video length: 4.22 minutes*
 
 ### Cloud-first workflow
@@ -140,7 +140,7 @@ For more information, see the [Code reviews using the Visual Studio Pull Request
 
 View the following video to learn more about how you can zero in with precise targeting while you debug.
 <br><br>
-> [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]<br>
+> [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 >*Video length: 3.54 minutes*
 
 ### Performance gains
