@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/22/2019
+ms.date: 06/29/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -35,9 +35,10 @@ For a complete list of everything that's new in this version, see the [release n
 
 ## Develop
 
-Save time with new features.
+View the following video to learn more about how you can save time with new features.
 <br><br>
-> [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
+> [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]<br>
+>*Video length: 3.00 minutes*
 
 ### Improved search
 
@@ -98,9 +99,10 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 
 ## Collaborate
 
-Team up to solve issues.
+View the following video to learn more about how you can team up to solve issues.
 <br><br>
-> [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
+> [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]<br>
+>*Video length: 4.22 minutes*
 
 ### Cloud-first workflow
 
@@ -136,9 +138,10 @@ For more information, see the [Code reviews using the Visual Studio Pull Request
 
 ## Debug
 
-Zero in with precise targeting.
+View the following video to learn more about how you can zero in with precise targeting while you debug.
 <br><br>
-> [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
+> [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]<br>
+>*Video length: 3.54 minutes*
 
 ### Performance gains
 
