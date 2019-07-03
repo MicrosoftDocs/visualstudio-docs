@@ -4,6 +4,7 @@ hide_bc: true
 title: Visual Studio Products | Microsoft Docs
 description: Explore the Visual Studio family of products.
 ms.topic: landing-page
+ms.date: 07/02/2019
 searchScope: []
 ---
 <!-- markdownlint-disable MD033 -->
@@ -61,7 +62,7 @@ searchScope: []
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage">
+                                                    <div class="cardImage"> 
                                                         <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" />
                                                     </div>
                                                 </div>
