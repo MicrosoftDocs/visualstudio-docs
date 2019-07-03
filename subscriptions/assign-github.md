@@ -39,9 +39,9 @@ Since this process is more complex, it may take several days after subscriptions
 
 GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides a variety of help topics and administrator guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
 
-### GitHub<span></span>.com 
+### GitHub.com 
 
-For more information on managing GitHub<span></span>.com please check out the following topics on [GitHub Help](https://help.github.com/en).
+For more information on managing GitHub.com please check out the following topics on [GitHub Help](https://help.github.com/en).
 - [Full list of help topics](https://help.github.com/en)
 - [Managing membership in your organization](https://help.github.com/en/articles/managing-membership-in-your-organization)
 > - [Inviting users to join your organization](https://help.github.com/en/articles/inviting-users-to-join-your-organization)
