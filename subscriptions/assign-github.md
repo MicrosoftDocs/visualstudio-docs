@@ -67,11 +67,13 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 
 
 ## Support resources
--  You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
--  Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
--  Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
+
+- You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
+- Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## Next steps
+
 For more information about managing Visual Studio Subscriptions with GitHub Enterprise, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).
