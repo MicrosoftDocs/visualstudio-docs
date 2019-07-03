@@ -7874,6 +7874,11 @@
             "source_path": "docs/containers/container-unit-testing.md",
             "redirect_url": "/visualstudio/containers",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-xamarin.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
         }
     ]
 }
