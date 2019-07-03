@@ -184,7 +184,7 @@ Agent logs can be found in the following locations:
 Instrumentation logs can be found in the following locations:
 
 - App Services:
-  - Error logging is automatically sent to D:\Home\LogFiles\eventlog.xml, events are marked with <<Provider Name="Instrumentation Engine" //>> or "Production Breakpoints"
+  - Error logging is automatically sent to D:\Home\LogFiles\eventlog.xml, events are marked with `<Provider Name="Instrumentation Engine" />` or "Production Breakpoints"
 - VM/VMSS:
   - Sign in to your VM and open Event Viewer.
   - Open the following view: *Windows Logs>Application*.
