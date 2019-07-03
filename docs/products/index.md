@@ -63,7 +63,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage"> 
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" />
+<!-->                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" /><-->
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
