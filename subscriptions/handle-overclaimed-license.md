@@ -42,4 +42,5 @@ If your organization has an Enterprise Agreement (EA), admins are able to assign
 Learn more about managing [Visual Studio Subscriptions with GitHub Enterprise](assign-github.md).
 
 ## Support resources
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
