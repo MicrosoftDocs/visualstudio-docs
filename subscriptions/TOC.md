@@ -36,7 +36,6 @@
 #### [DataCamp](vs-datacamp.md)
 #### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
-#### [Xamarin University Training](vs-xamarin.md)
 #### [MSDN Magazine subscription](vs-msdn.md)
 ### [Support Benefits](technical-support.md)
 #### [Azure Advisory Chat](vs-azure-advisory-chat.md)
