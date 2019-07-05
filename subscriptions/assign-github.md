@@ -65,7 +65,6 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 > - [User security](https://help.github.com/en/enterprise/2.16/admin/user-management/user-security)
 - [Installing and configuring GitHub Enterprise Server](https://help.github.com/en/enterprise/2.16/admin/installation)
 
-
 ## Support resources
 
 - You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
