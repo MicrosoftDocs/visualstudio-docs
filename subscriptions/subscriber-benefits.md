@@ -13,7 +13,6 @@ searchscope: VS Subscription
 
 Visual Studio subscriptions (formerly known as MSDN subscriptions) offer the most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  The specific benefits will vary based on the type of subscription you have.  To provide the maximum value for subscribers, the benefits provided change periodically as we make adjustments to focus on the newest and most useful technologies, training materials, and partner benefits available.
 
-
 Benefits are grouped into three categories in the [subscriber portal](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs:).
 
 ## Tools
