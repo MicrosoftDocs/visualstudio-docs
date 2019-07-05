@@ -42,9 +42,6 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 - A solution that has a modeling project with a dependency diagram. This dependency diagram must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
 
-> [!NOTE]
-> Dependency diagrams are not supported for .NET Core projects in Visual Studio.
-
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).
