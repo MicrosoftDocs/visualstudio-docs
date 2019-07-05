@@ -1,6 +1,6 @@
 ---
-title: Debugging apps in a local Docker container | Microsoft Docs
-description: Learn how to modify an app that is running in a local Docker container, refresh the container via Edit and Refresh and set debugging breakpoints
+title: Debug apps in a local Docker container | Microsoft Docs
+description: Learn how to modify an app that is running in a local Docker container, refresh the container via Edit and Refresh, and then set debugging breakpoints.
 author: ghogen
 manager: jillfra
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
@@ -10,17 +10,15 @@ ms.date: 03/05/2019
 ms.author: ghogen
 ms.technology: vs-azure
 ---
-# Debugging apps in a local Docker container
+# Debug apps in a local Docker container
 
-Visual Studio provides a consistent way to develop in a Docker container and validate your application locally.
-You don't have to restart the container each time you make a code change.
-This article illustrates how to use the "Edit and Refresh" feature to start an ASP.NET Core Web app in a local Docker container,
-make any necessary changes, and then refresh the browser to see those changes.
-This article also shows you how to set breakpoints for debugging.
+Visual Studio provides a consistent way to develop in a Docker container and validate your application locally. You don't have to restart the container each time you make a code change.
+
+This article illustrates how to use the "Edit and Refresh" feature to start an ASP.NET Core Web app in a local Docker container, make any necessary changes, and then refresh the browser to see those changes. This article also shows you how to set breakpoints for debugging.
 
 ## Prerequisites
 
-The following tools must be installed.
+The following tools must be installed:
 
 ::: moniker range="vs-2017"
 
@@ -38,7 +36,7 @@ To run Docker containers locally, you'll need a local docker client.
 You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled,
 or you can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V, and requires Windows 10.
 
-If using Docker Toolbox, you'll need to configure the Docker client.
+If you use Docker Toolbox, you must configure the Docker client.
 
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two example, first a .NET Core web app, and second, a .NET Framework console app.
 
@@ -67,33 +65,33 @@ To quickly iterate changes, you can start your application within a container, a
     <h1>Hello from a Docker Container!</h1>
     ```
 
-5. Viewing the output window, when the .NET build is completed and you see these lines, switch back to your browser and refresh the page.
+5. Viewing the output window, when the .NET build is finished and you see the following lines, switch back to your browser and refresh the page:
 
    ```output
    Now listening on: http://*:80
    Application started. Press Ctrl+C to shut down
    ```
 
-6. Your changes have been applied!
+Your changes have been applied!
 
 ### Debug with breakpoints
 
-Often, changes will need further inspection, leveraging the debugging features of Visual Studio.
+Often, changes will need further inspection. You can use the debugging features of Visual Studio for this task.
 
-1. Return to Visual Studio and open `Index.cshtml.cs`
+1. In Visual Studio, open *Index.cshtml.cs*.
 2. Replace the contents of the `OnGet` method with the following:
 
    ```csharp
        ViewData["Message"] = "Your application description page from within a Container";
    ```
 
-3. Set a breakpoint to the left of the code line.
-4. Hit F5 to start debugging and hit the breakpoint.
-5. Switch to Visual Studio to view the breakpoint, inspect values, and so on.
+3. To the left of the code line, set a breakpoint.
+4. To start debugging and hit the breakpoint, press F5.
+5. Switch to Visual Studio to view the breakpoint. Inspect values.
 
    ![Breakpoint](media/edit-and-refresh/breakpoint.png)
 
-## Create a .NET Framework Console App
+## Create a .NET Framework console app
 
 When using .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you are only using a single Docker project.
 
