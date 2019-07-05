@@ -311,9 +311,9 @@ To fix this error, we must refactor the code that we've previously entered.
 
 #### Revise the code
 
-Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `calculator` and `program`.
+Rather than rely on the `program` class to handle all the code, we'll divide our app into two classes: `Calculator` and `Program`.
 
-The `calculator` class will handle the bulk of the calculation work, and the `program` class will handle the user interface and error-capturing work.
+The `Calculator` class will handle the bulk of the calculation work, and the `Program` class will handle the user interface and error-capturing work.
 
 Let's get started.
 
@@ -514,7 +514,7 @@ namespace Calculator
         static void Main(string[] args)
         {
             bool endApp = false;
-            // Display title as the C# console calculator app
+            // Display title as the C# console calculator app.
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("------------------------\n");
 
