@@ -314,15 +314,15 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 
 Now implement the match predicate. We need to determine two things: first, whether the command ID is valid (it is greater than or equal to the declared command ID), and second, whether it specifies a possible project (it is less than the number of projects in the solution).
 
-    ```csharp
-    private bool IsValidDynamicItem(int commandId)
-    {
-        // The match is valid if the command ID is >= the id of our root dynamic start item
-        // and the command ID minus the ID of our root dynamic start item
-        // is less than or equal to the number of projects in the solution.
-        return (commandId >= (int)DynamicMenuPackageGuids.cmdidMyCommand) && ((commandId - (int)DynamicMenuPackageGuids.cmdidMyCommand) < dte2.Solution.Projects.Count);
-    }
-    ```
+```csharp
+private bool IsValidDynamicItem(int commandId)
+{
+    // The match is valid if the command ID is >= the id of our root dynamic start item
+    // and the command ID minus the ID of our root dynamic start item
+    // is less than or equal to the number of projects in the solution.
+    return (commandId >= (int)DynamicMenuPackageGuids.cmdidMyCommand) && ((commandId - (int)DynamicMenuPackageGuids.cmdidMyCommand) < dte2.Solution.Projects.Count);
+}
+```
 
 ## Set the VSPackage to load only when a solution has multiple projects
  Because the **Set Startup Project** command doesn't make sense unless the active solution has more than one project, you can set your VSPackage to auto-load only in that case. You use <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> together with the UI context <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects>. In the *DynamicMenuPackage.cs* file add the following attributes to the DynamicMenuPackage class:
