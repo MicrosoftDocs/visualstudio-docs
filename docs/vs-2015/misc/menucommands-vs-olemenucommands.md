@@ -13,7 +13,7 @@ caps.latest.revision: 46
 manager: jillfra
 ---
 # MenuCommands Vs. OleMenuCommands
-You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and impementling the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
+You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and implementing the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
   
  The commands that a VSPackage makes available to the IDE must be visible and enabled before a user can use them. When commands are created in a .vsct file by using the Visual Studio Package project template, they are visible and enabled by default. Setting some command flags, such as `DynamicItemStart`, can change the default behavior. The visibility, enabled status, and other properties of a command can also be changed in code at run time by accessing the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is associated with the command.  
   
