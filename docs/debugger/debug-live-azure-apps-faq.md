@@ -72,7 +72,6 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 
          - Cloud Explorer > your virtual machine resource > Disable Debugging (Disabling Debugging does not exist for virtual machine scale set on Cloud Explorer).  
 
-
       - Disable the Remote Debugger with PowerShell Scripts/Cmdlets  
 
          For virtual machine:  
@@ -91,7 +90,6 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
       - Disable the Remote Debugger through the Azure portal
          - Azure portal > your virtual machine/virtual machine scale sets resource blade > Extensions  
          - Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension  
-
 
          > [!NOTE]
          > Virtual machine scale sets - The portal does not allow removing the DebuggerListener ports. You will need to use Azure PowerShell. See below for details.

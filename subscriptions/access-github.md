@@ -69,14 +69,12 @@ A:  If you're using GitHub Enterprise Server, you can click on the **Support** l
 
 A:  Along with a GitHub Enterprise subscription, you receive a full Visual Studio subscription.  You receive all the benefits such as software downloads, cloud services, technical support and partner benefits included in those subscriptions, just as you would if the subscription was purchased separately.
 
-
 ## Support resources
 - You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
-
 
 ## Next steps
 

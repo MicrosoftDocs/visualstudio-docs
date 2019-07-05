@@ -12,7 +12,6 @@ ms.date: 10/23/2018
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domains that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
 
-
 - [**Install Visual Studio for Mac**](#install-visual-studio-for-mac): These tables include the domains that must allow connectivity so that you have access to all features and workloads of Visual Studio for Mac.
 
 - [**Use Visual Studio for Mac**](#use-visual-studio-for-mac): These tables include domains that must allow connectivity so that you have access to the related features.
