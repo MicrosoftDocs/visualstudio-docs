@@ -64,92 +64,91 @@ For AKS:
 
 For virtual machine/virtual machine scale sets remove the Remote Debugger extension, Certificates, KeyVaults and InBound NAT pools as follows:
 
-1. Remove Remote Debugger extension  
+1. Remove Remote Debugger extension
 
-   There are several ways to disable the Remote Debugger for virtual machines and virtual machine scale sets:  
+   There are several ways to disable the Remote Debugger for virtual machines and virtual machine scale sets:
 
-      - Disable the Remote Debugger through Cloud Explorer  
+      - Disable the Remote Debugger through Cloud Explorer
 
-         - Cloud Explorer > your virtual machine resource > Disable Debugging (Disabling Debugging does not exist for virtual machine scale set on Cloud Explorer).  
+         - Cloud Explorer > your virtual machine resource > Disable Debugging (Disabling Debugging does not exist for virtual machine scale set on Cloud Explorer).
 
+      - Disable the Remote Debugger with PowerShell Scripts/Cmdlets
 
-      - Disable the Remote Debugger with PowerShell Scripts/Cmdlets  
+         For virtual machine:
 
-         For virtual machine:  
-
+         ```powershell
+         Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
          ```
-         Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger  
-         ```
 
-         For virtual machine scale sets:  
-         ```
-         $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName  
-         $extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name  
-         Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension  
+         For virtual machine scale sets:
+
+         ```powershell
+         $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
+         $extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
+         Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension
          ```
 
       - Disable the Remote Debugger through the Azure portal
-         - Azure portal > your virtual machine/virtual machine scale sets resource blade > Extensions  
-         - Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension  
-
+         - Azure portal > your virtual machine/virtual machine scale sets resource blade > Extensions
+         - Uninstall Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger extension
 
          > [!NOTE]
          > Virtual machine scale sets - The portal does not allow removing the DebuggerListener ports. You will need to use Azure PowerShell. See below for details.
-  
+
 2. Remove Certificates and Azure KeyVault
 
-   When installing the Remote Debugger extension for virtual machine or virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual Machine/virtual machine scale sets resources.  
+   When installing the Remote Debugger extension for virtual machine or virtual machine scale sets, both client and server certificates are created to authenticate the VS client with the Azure Virtual Machine/virtual machine scale sets resources.
 
-   - The Client Cert  
+   - The Client Cert
 
-      This cert is a self-signed certificate located in Cert:/CurrentUser/My/  
+      This cert is a self-signed certificate located in Cert:/CurrentUser/My/
 
       ```
-      Thumbprint                                Subject  
-      ----------                                -------  
+      Thumbprint                                Subject
+      ----------                                -------
 
-      1234123412341234123412341234123412341234  CN=ResourceName  
+      1234123412341234123412341234123412341234  CN=ResourceName
       ```
 
       One way to remove this certificate from your machine is via PowerShell
 
-      ```
-      $ResourceName = 'ResourceName' # from above  
-      Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item  
+      ```powershell
+      $ResourceName = 'ResourceName' # from above
+      Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item
       ```
 
    - The Server Certificate
-      - The corresponding server certificate thumbprint is deployed as a secret to Azure KeyVault. VS will attempt to find or create a KeyVault with prefix MSVSAZ* in the region corresponding to the virtual machine or virtual machine scale sets resource. All virtual machine or virtual machine scale sets resources deployed to that region therefore will share the same KeyVault.  
-      - To delete the server certificate thumbprint secret, go to the Azure portal and find the MSVSAZ* KeyVault in the same region that's hosting your resource. Delete the secret which should be labeled `remotedebugcert<<ResourceName>>`  
-      - You will also need to delete the server secret from your resource via PowerShell.  
+      - The corresponding server certificate thumbprint is deployed as a secret to Azure KeyVault. VS will attempt to find or create a KeyVault with prefix MSVSAZ* in the region corresponding to the virtual machine or virtual machine scale sets resource. All virtual machine or virtual machine scale sets resources deployed to that region therefore will share the same KeyVault.
+      - To delete the server certificate thumbprint secret, go to the Azure portal and find the MSVSAZ* KeyVault in the same region that's hosting your resource. Delete the secret which should be labeled `remotedebugcert<<ResourceName>>`
+      - You will also need to delete the server secret from your resource via PowerShell.
 
-      For virtual machines:  
+      For virtual machines:
 
+      ```powershell
+      $vm.OSProfile.Secrets[0].VaultCertificates.Clear()
+      Update-AzVM -ResourceGroupName $rgName -VM $vm
       ```
-      $vm.OSProfile.Secrets[0].VaultCertificates.Clear()  
-      Update-AzVM -ResourceGroupName $rgName -VM $vm  
-      ```
-						
-      For virtual machine scale sets:  
 
-      ```
-      $vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()  
-      Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss  
-      ```
-						
-3. Remove all DebuggerListener InBound NAT pools (virtual machine scale set only)  
+      For virtual machine scale sets:
 
-   The Remote Debugger introduces DebuggerListener in-bound NAT pools that are applied to your scaleset's load balancer.  
+      ```powershell
+      $vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()
+      Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss
+      ```
 
-   ```
-   $inboundNatPools = $vmss.VirtualMachineProfile.NetworkProfile.NetworkInterfaceConfigurations.IpConfigurations.LoadBalancerInboundNatPools  
-   $inboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null  
-   				
-   if ($LoadBalancerName)  
+3. Remove all DebuggerListener InBound NAT pools (virtual machine scale set only)
+
+   The Remote Debugger introduces DebuggerListener in-bound NAT pools that are applied to your scaleset's load balancer.
+
+   ```powershell
+   $inboundNatPools = $vmss.VirtualMachineProfile.NetworkProfile.NetworkInterfaceConfigurations.IpConfigurations.LoadBalancerInboundNatPools
+   $inboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null
+
+   if ($LoadBalancerName)
    {
-      $lb = Get-AzLoadBalancer -ResourceGroupName $ResourceGroup -name $LoadBalancerName  
-      $lb.FrontendIpConfigurations[0].InboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null  
-      Set-AzLoadBalancer -LoadBalancer $lb  
+      $lb = Get-AzLoadBalancer -ResourceGroupName $ResourceGroup -name $LoadBalancerName
+      $lb.FrontendIpConfigurations[0].InboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null
+      Set-AzLoadBalancer -LoadBalancer $lb
    }
    ```
 
@@ -158,12 +157,12 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 For App Service:
 1. Disable Snapshot Debugger via the Azure portal for your App Service.
 2. Azure portal > your Application Service resource blade > *Application Settings*
-3. Delete the following App settings in the Azure portal and save your changes. 
-	- INSTRUMENTATIONENGINE_EXTENSION_VERSION
-	- SNAPSHOTDEBUGGER_EXTENSION_VERSION
+3. Delete the following App settings in the Azure portal and save your changes.
+   - INSTRUMENTATIONENGINE_EXTENSION_VERSION
+   - SNAPSHOTDEBUGGER_EXTENSION_VERSION
 
-	> [!WARNING]
-	> Any changes to Application Settings will initiate an app restart. For more information about Application Settings, see [Configure an App Service app in the Azure portal](/azure/app-service/web-sites-configure).
+   > [!WARNING]
+   > Any changes to Application Settings will initiate an app restart. For more information about Application Settings, see [Configure an App Service app in the Azure portal](/azure/app-service/web-sites-configure).
 
 For AKS:
 1. Update your Dockerfile to remove the sections corresponding to the [Visual Studio Snapshot Debugger on Docker images](https://github.com/Microsoft/vssnapshotdebugger-docker).
@@ -178,16 +177,18 @@ There are several ways to disable the Snapshot Debugger:
 
 - PowerShell Cmdlets from [Az PowerShell](https://docs.microsoft.com/powershell/azure/overview)
 
-	Virtual machine:
-	```
-		Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.Insights.VMDiagnosticsSettings 
-	```
-	
-	Virtual machine scale sets:
-	```
-		$vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
-		Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name Microsoft.Insights.VMDiagnosticsSettings
-	```
+   Virtual machine:
+
+   ```powershell
+      Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.Insights.VMDiagnosticsSettings
+   ```
+
+   Virtual machine scale sets:
+
+   ```powershell
+      $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
+      Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name Microsoft.Insights.VMDiagnosticsSettings
+   ```
 
 ## See also
 

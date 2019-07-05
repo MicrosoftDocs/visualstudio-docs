@@ -38,7 +38,6 @@ If your organization has an Enterprise Agreement (EA), admins are able to assign
 >
 > It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
 
-
 Learn more about managing [Visual Studio Subscriptions with GitHub Enterprise](assign-github.md).
 
 ## Support resources
