@@ -77,12 +77,13 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 
          For virtual machine:
 
-         ```
+         ```powershell
          Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.VisualStudio.Azure.RemoteDebug.VSRemoteDebugger
          ```
 
          For virtual machine scale sets:
-         ```
+
+         ```powershell
          $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
          $extension = $vmss.VirtualMachineProfile.ExtensionProfile.Extensions | Where {$_.Name.StartsWith('VsDebuggerService')} | Select -ExpandProperty Name
          Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name $extension
@@ -113,7 +114,7 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 
       One way to remove this certificate from your machine is via PowerShell
 
-      ```
+      ```powershell
       $ResourceName = 'ResourceName' # from above
       Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match $ResourceName} | Remove-Item
       ```
@@ -125,14 +126,14 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 
       For virtual machines:
 
-      ```
+      ```powershell
       $vm.OSProfile.Secrets[0].VaultCertificates.Clear()
       Update-AzVM -ResourceGroupName $rgName -VM $vm
       ```
 
       For virtual machine scale sets:
 
-      ```
+      ```powershell
       $vmss.VirtualMachineProfile.OsProfile.Secrets[0].VaultCertificates.Clear()
       Update-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName -VirtualMachineScaleSet $vmss
       ```
@@ -141,7 +142,7 @@ For virtual machine/virtual machine scale sets remove the Remote Debugger extens
 
    The Remote Debugger introduces DebuggerListener in-bound NAT pools that are applied to your scaleset's load balancer.
 
-   ```
+   ```powershell
    $inboundNatPools = $vmss.VirtualMachineProfile.NetworkProfile.NetworkInterfaceConfigurations.IpConfigurations.LoadBalancerInboundNatPools
    $inboundNatPools.RemoveAll({ param($pool) $pool.Id.Contains('inboundNatPools/DebuggerListenerNatPool-') }) | Out-Null
 
@@ -179,12 +180,14 @@ There are several ways to disable the Snapshot Debugger:
 - PowerShell Cmdlets from [Az PowerShell](https://docs.microsoft.com/powershell/azure/overview)
 
    Virtual machine:
-   ```
+
+   ```powershell
       Remove-AzVMExtension -ResourceGroupName $rgName -VMName $vmName -Name Microsoft.Insights.VMDiagnosticsSettings
    ```
 
    Virtual machine scale sets:
-   ```
+
+   ```powershell
       $vmss = Get-AzVmss -ResourceGroupName $rgName -VMScaleSetName $vmssName
       Remove-AzVmssExtension -VirtualMachineScaleSet $vmss -Name Microsoft.Insights.VMDiagnosticsSettings
    ```

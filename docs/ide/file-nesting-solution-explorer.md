@@ -104,7 +104,8 @@ Consider the following example:
 > [!NOTE]
 > - If you don't specify any specific file extensions for the `pathSegment` rule, it applies to all file extensions. That is, any file with the same name and extension as another file plus an additional extension in the middle is nested under the other file.
 > - You can limit the effect of the `pathSegment` rule to specific file extensions by specifying them in the following way:
->    ```
+>
+>    ```json
 >    "pathSegment": {
 >       "add": {
 >         ".*": [
