@@ -964,7 +964,7 @@ The style rules in this section are applicable to C# only.
    - csharp\_style\_pattern\_local\_over\_anonymous_function
 - ["Null" checking preferences](#null-checking-preferences)
    - csharp\_style\_throw_expression
-    - csharp\_style\_conditional\_delegate_call
+   - csharp\_style\_conditional\_delegate_call
 - [Code block preferences](#code-block-preferences)
    - csharp\_prefer_braces
 

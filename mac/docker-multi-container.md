@@ -80,14 +80,14 @@ We now have two ASP.NET projects in our solution and both are configured with Do
    ```
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
-    
+
       ```cshtml
       @page
       @model IndexModel
       @{
           ViewData["Title"] = "Home page";
       }
-    
+
       <div class="text-center">
           <h1 class="display-4">Welcome</h1>
           <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
@@ -96,7 +96,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       ```
 
 1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*:
-    
+
       ```csharp
         // GET api/values/5
         [HttpGet("{id}")]
@@ -105,6 +105,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
             return "webapi (with value " + id + ")";
         }
       ```
+
 1. Set the `docker-compose` project as the startup project and go to **Run > Start Debugging**. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1).":
 
 ![Docker multi container solution running](media/docker-multicontainer-debug.png)

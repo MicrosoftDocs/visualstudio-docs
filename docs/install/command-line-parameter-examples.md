@@ -64,17 +64,20 @@ For lists of the workloads and components that you can install by using the comm
    start /wait vs_professional.exe --installPath "C:\VS" --passive --wait > nul
    echo %errorlevel%
    ```
-   ```PS
+
+   ```powershell
    $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru
    ```
+
    or
-   ```PS
+
+   ```powershell
     $startInfo = New-Object System.Diagnostics.ProcessStartInfo
     $startInfo.FileName = "vs_enterprise.exe"
-    $startInfo.Arguments = "--all --quiet --wait" 
+    $startInfo.Arguments = "--all --quiet --wait"
     $process = New-Object System.Diagnostics.Process
     $process.StartInfo = $startInfo
-    $process.Start() 
+    $process.Start()
     $process.WaitForExit()
    ```
 
