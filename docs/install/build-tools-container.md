@@ -85,7 +85,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```
 
    > [!WARNING]
-   > If you base your image directly on microsoft/windowsservercore or mcr.microsoft.com/windows/servercore (see [Microsoft syndicates container catalog](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/)), the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.2](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.7.2 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
+   > If you base your image directly on microsoft/windowsservercore or mcr.microsoft.com/windows/servercore (see [Microsoft syndicates container catalog](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/)), the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.2](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.7.2 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
    >
    > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr.microsoft.com/windows/servercore:1809 or later. No error is displayed.
    >
