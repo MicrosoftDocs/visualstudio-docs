@@ -22,13 +22,13 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker range="vs-2017"
 
-* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the Web Development workload installed.
+* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the Web Development workload installed
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the Web Development workload installed.
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) with the Web Development workload installed
 
 ::: moniker-end
 
@@ -49,11 +49,11 @@ Docker containers are available for .NET Framework and .NET Core projects. Let's
 
 To quickly iterate changes, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
 
-1. Set the Solution Configuration to **Debug**. Then, press Ctrl+F5 to build your Docker image and run it locally.
+1. Set **Solution Configuration** to **Debug**. Then, press Ctrl+F5 to build your Docker image and run it locally.
 
     When the container image is built and running in a Docker container, Visual Studio launches the web app in your default browser.
 
-2. Go to the *Index* file. We'll make changes on this page.
+2. Go to the *Index* page. We'll make changes on this page.
 3. Return to Visual Studio and open *Index.cshtml*.
 4. Add the following HTML content to the end of the file, and then save the changes.
 
@@ -89,10 +89,10 @@ Often, changes require further inspection. You can use the debugging features of
 
 ## Create a .NET Framework console app
 
-When you use .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you're only using a single Docker project.
+When you use .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you're using only a single Docker project.
 
 1. Create a new .NET Framework Console app project.
-1. In Solution Explorer, right-click the project node, and then select **Add** > **Container Orchestration Support**.  In the dialog box that appears, select **Docker Compose**. A Dockerfile is added to your project and a Docker Compose project is added with associated support files.
+1. In Solution Explorer, right-click the project node, and then select **Add** > **Container Orchestration Support**.  In the dialog box that appears, select **Docker Compose**. A Dockerfile is added to your project and a Docker Compose project with associated support files is added.
 
 ### Debug with breakpoints
 
@@ -125,3 +125,4 @@ Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-doc
 * To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://aka.ms/dockertoolsforvsts).
 * For an index of Windows Server and Nano Server articles, see [Windows container information](https://aka.ms/containers).
 * Learn about the [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).
+
