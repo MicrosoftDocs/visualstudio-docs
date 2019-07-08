@@ -16,7 +16,9 @@ helpviewer_keywords:
 ---
 # Add tags to project templates
 
-Beginning in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. Tags are used in two places in the **New Project** dialog box:
+Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
+
+Tags are used in two places in the **New Project** dialog box:
 
 - Tags appear under the template description.
 
@@ -81,7 +83,9 @@ The text provides the name of the template.
 
 ## Built-in tags
 
-Visual Studio offers a list of built-in tags. When you add a build-in tag, the tag renders a localized resource. Following is a list of built-in tags and their corresponding values in parentheses:
+Visual Studio offers a list of built-in tags. When you add a built-in tag, the tag renders a localized resource. 
+
+The following list shows built-in tags that are available in Visual Studio. Corresponding values are shown in parentheses.
 
 | Language | Platform | Project type |
 | -- | -- | -- |
