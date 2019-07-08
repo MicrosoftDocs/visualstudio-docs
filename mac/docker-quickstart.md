@@ -1,8 +1,8 @@
 ---
 title: Get started with Docker in Visual Studio for Mac
 description: Learn how to add Docker to your projects in Visual Studio for Mac
-author: bytesguy
-ms.author: adhartle
+author: asb3993
+ms.author: amburns
 ms.date: 06/17/2019
 ---
 
