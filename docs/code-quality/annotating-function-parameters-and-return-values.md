@@ -529,16 +529,16 @@ This article describes typical uses of annotations for simple function parameter
 
      **Example**
 
-```cpp
-int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
-{
-       va_list args; 
-       va_start(args, format);
-       int ret = vwscanf_s(format, args);
-       va_end(args); 
-       return ret;
-}
-```
+    ```cpp
+    int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
+    {
+           va_list args; 
+           va_start(args, format);
+           int ret = vwscanf_s(format, args);
+           va_end(args); 
+           return ret;
+    }
+    ```
 
 ## Related Resources
 
