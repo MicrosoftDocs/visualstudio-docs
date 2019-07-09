@@ -57,9 +57,9 @@ VoiceOver commands appear in this guide as **VO+*key*** whereby **VO** refers to
 To navigate the Visual Studio for Mac user interface, use the following key combinations:
 
 - **VO + Right / Left**: Navigate between user interface elements
-    - VoiceOver will announce the label and type of control, and explain how to interact with it.
+  - VoiceOver will announce the label and type of control, and explain how to interact with it.
 - **VO + Shift + Down / Up**: Step into / out of an element
-    - Once inside an element you can use **VO + Left / Right** to navigate around elements within it.
+  - Once inside an element you can use **VO + Left / Right** to navigate around elements within it.
 - **VO + Space**: Select / interact with a control
 - **VO + M**: Interact with the Visual Studio for Mac Menu Bar
 

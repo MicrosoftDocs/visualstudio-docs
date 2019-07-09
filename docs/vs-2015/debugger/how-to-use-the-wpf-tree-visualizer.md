@@ -37,21 +37,21 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
   
 - In the **Visual Tree** pane, type the string you want to search for in the **Search** box.  
   
-     The WPF Tree visualizer immediately finds the first object in the visual tree that matches the string you have typed. Type more characters to find a more accurate match.  
-  
-    - To go to the next match within the visual tree, click **Next**.  
-  
-    - To go back to the previous match, click **Prev**.  
-  
-    - To clear the search criteria, click **Clear**.  
-  
+  The WPF Tree visualizer immediately finds the first object in the visual tree that matches the string you have typed. Type more characters to find a more accurate match.  
+
+  - To go to the next match within the visual tree, click **Next**.  
+
+  - To go back to the previous match, click **Prev**.  
+
+  - To clear the search criteria, click **Clear**.  
+
 ### To search the properties list  
   
 - In the **Properties of** _Name_**:**_Type_ pane, type the string your want to search for in the **Filter** box.  
   
-     The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.  
-  
-    - To clear the search criteria, click **Clear**.  
+  The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.  
+
+  - To clear the search criteria, click **Clear**.  
   
 ### To close the visualizer  
   

@@ -93,8 +93,8 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 - Need help with using CAST Highlight?  Check out these resources:
-    - [Submit a support request](https://casthighlight.com/support/)
-    - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
+  - [Submit a support request](https://casthighlight.com/support/)
+  - [Getting Started Guide (PDF)](https://casthighlight.com/Getting-Started-Guide.pdf)
 
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

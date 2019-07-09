@@ -38,15 +38,15 @@ Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class 
   
 - **GenerateFromSchema**  
   
-     Optional **String** parameter.  
-  
-     Specifies the types that are generated from the specified schema.  
-  
-     Specify one of the following values, each of which corresponds to an XSD option.  
-  
-    - **classes** - **/classes**  
-  
-    - **dataset** - **/dataset**  
+  Optional **String** parameter.  
+
+  Specifies the types that are generated from the specified schema.  
+
+  Specify one of the following values, each of which corresponds to an XSD option.  
+
+  - **classes** - **/classes**  
+
+  - **dataset** - **/dataset**  
   
 - **Language**  
   

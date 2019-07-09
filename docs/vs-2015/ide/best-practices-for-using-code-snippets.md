@@ -54,11 +54,11 @@ The code in a code snippet shows only the most basic way to do something. For mo
   
 - Open all downloaded snippet files in Notepad or the XML editor of Visual Studio and review them carefully before installing them. Look for the following issues:  
   
-    - The snippet code could damage your system if you execute it. Read the source code carefully before running it.  
-  
-    - The Help URL block of the snippet file can contain URLs that execute a malicious script file or display an offensive Web site.  
-  
-    - The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.  
+  - The snippet code could damage your system if you execute it. Read the source code carefully before running it.  
+
+  - The Help URL block of the snippet file can contain URLs that execute a malicious script file or display an offensive Web site.  
+
+  - The snippet may contain references that are added silently to your project and may be loaded from anywhere on your system. These references may have been downloaded to your computer from where you downloaded the snippet. The snippet may then make a call to a method in the reference that executes malicious code. To protect yourself against such an attack, review the Imports and References blocks of the snippet file.  
   
 ## See Also  
  [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   

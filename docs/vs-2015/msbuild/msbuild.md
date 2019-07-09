@@ -53,14 +53,14 @@ The [!INCLUDE[vstecmsbuildengine](../includes/vstecmsbuildengine-md.md)] is a pl
   
 - [Project File](#BKMK_ProjectFile)  
   
-    - [Properties](#BKMK_Properties)  
-  
-    - [Items](#BKMK_Items)  
-  
-    - [Tasks](#BKMK_Tasks)  
-  
-    - [Targets](#BKMK_Targets)  
-  
+  - [Properties](#BKMK_Properties)  
+
+  - [Items](#BKMK_Items)  
+
+  - [Tasks](#BKMK_Tasks)  
+
+  - [Targets](#BKMK_Targets)  
+
 - [Build Logs](#BKMK_BuildLogs)  
   
 - [Using MSBuild in Visual Studio](#BKMK_VisualStudio)  

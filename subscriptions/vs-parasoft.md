@@ -81,7 +81,7 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
 ## Support resources
 - Need help with Parasoft products?  Check out these resources:
-    - Technical Support:  https://www.parasoft.com/support/
-    - Parasoft Resource Center:  https://www.parasoft.com/resources/
+  - Technical Support:  https://www.parasoft.com/support/
+  - Parasoft Resource Center:  https://www.parasoft.com/resources/
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

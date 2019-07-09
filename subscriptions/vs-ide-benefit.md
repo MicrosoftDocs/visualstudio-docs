@@ -74,6 +74,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 - Need help with Visual Studio IDE, check out these resources:
-    - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
-    - [Documentation](/visualstudio/)
+  - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
+  - [Documentation](/visualstudio/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).

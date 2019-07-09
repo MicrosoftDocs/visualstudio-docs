@@ -46,21 +46,21 @@ Activities other than the `MainLauncher` will need to have `Exported=true` added
 The following list provides some examples of data that could be included in run configurations:
 
 * Regular .NET project
-    * Alternative startup app
-    * Start arguments
-    * Working directory
-    * Environment variables
-    * Mono runtime options (to be used only when running on Mono)
+  * Alternative startup app
+  * Start arguments
+  * Working directory
+  * Environment variables
+  * Mono runtime options (to be used only when running on Mono)
 * Android project
-    * Entry point (activity, service, receiver)
-    * Intent arguments and data
+  * Entry point (activity, service, receiver)
+  * Intent arguments and data
 * iOS project
-    * Mode (Normal, Background Fetch)
+  * Mode (Normal, Background Fetch)
 * iOS extension project
-    * Startup app: default or custom
+  * Startup app: default or custom
 * WatchKit project
-    * Mode (Glance, Notification)
-    * Notification payload
+  * Mode (Glance, Notification)
+  * Notification payload
 
 ## See also
 
