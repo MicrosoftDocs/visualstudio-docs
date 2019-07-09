@@ -1,8 +1,8 @@
 ---
 title: "Understanding Build Configurations"
 description: "This article describes the various build configurations in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 04/14/2017
 ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 ---
