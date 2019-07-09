@@ -35,16 +35,16 @@ The Workflow Designer in [!INCLUDE[netfx40_short](../includes/netfx40-short-md.m
   
 - The Breakpoint window or shortcut menu does not support the following columns or options for workflow debugging:  
   
-    - Condition  
-  
-    - Hit Count  
-  
-    - When Hit  
-  
-    - Function  
-  
-    - Data  
-  
-    - Process  
-  
-    - Go to Disassembly
+  - Condition  
+
+  - Hit Count  
+
+  - When Hit  
+
+  - Function  
+
+  - Data  
+
+  - Process  
+
+  - Go to Disassembly

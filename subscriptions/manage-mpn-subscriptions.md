@@ -55,7 +55,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 - Details regarding the Microsoft Partner Network [Visual Studio subscriptions](https://partner.microsoft.com/membership/msdn-subscriptions)
 
 - Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits](https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf)
-    - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
+  - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
 
 > [!NOTE]
 > The Technical Contact Role is required for Visual Studio subscriptions

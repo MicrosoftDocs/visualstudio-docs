@@ -44,33 +44,33 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
   
 - [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)  
   
-     Describes the physical process. At least the following methods must be implemented:  
-  
-    - [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)  
-  
-    - [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)  
-  
-    - [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)  
-  
-    - [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
-  
-    - [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)  
-  
-    - [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)  
-  
+  Describes the physical process. At least the following methods must be implemented:  
+
+  - [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)  
+
+  - [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)  
+
+  - [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)  
+
+  - [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
+
+  - [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)  
+
+  - [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)  
+
 - [IDebugProcessEx2](../../extensibility/debugger/reference/idebugprocessex2.md)  
   
-     Provides a way for the SDM to attach and detach itself from a process.  
+    Provides a way for the SDM to attach and detach itself from a process.  
   
 - [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)  
   
-     Describes the logical program. At least the following methods must be implemented:  
-  
-    - [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)  
-  
-    - [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)  
-  
-    - [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)  
+  Describes the logical program. At least the following methods must be implemented:  
+
+  - [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)  
+
+  - [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)  
+
+  - [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)  
   
 - [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md)  
   

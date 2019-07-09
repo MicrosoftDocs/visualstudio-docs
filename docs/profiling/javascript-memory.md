@@ -349,11 +349,11 @@ if (performance && performance.mark) {
 
 - Look for objects that are retained in memory inadvertently after the user has navigated to a new page, which is a common cause of memory issues. For example:
 
-    - The incorrect use of the [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) function can cause this problem.
+  - The incorrect use of the [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) function can cause this problem.
 
-    - Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.
+  - Some objects might provide a `dispose` method and recommendations for use. For example, you should call `dispose` on a [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) if you call the list's `createFiltered` method and then navigate away from a page.
 
-    - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).
+  - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css).
 
 - Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
 
@@ -361,8 +361,8 @@ if (performance && performance.mark) {
 
 - Consider temporarily modifying code to isolate problems. For example, you might want to:
 
-    - Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data).)
+  - Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data).)
 
-         You can use these commands to help isolate issues that you can't isolate by manually taking a heap snapshot.
+    You can use these commands to help isolate issues that you can't isolate by manually taking a heap snapshot.
 
-    - Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.
+  - Create a test object and trace it in the JavaScript memory analyzer views, such as the Types view. For example, you can attach a very large object to another object to see whether a particular object or element has been garbage-collected.
