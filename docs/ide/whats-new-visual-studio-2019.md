@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/22/2019
+ms.date: 06/29/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -35,8 +35,8 @@ For a complete list of everything that's new in this version, see the [release n
 
 ## Develop
 
-Save time with new features.
-<br><br>
+View the following video to learn more about how you can save time with new features. <br><br>*Video length: 3.00 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
 ### Improved search
@@ -84,7 +84,7 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
-   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
+   ![A screenshot of the configure code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
 
 ### Per-monitor aware (PMA) rendering
 
@@ -98,8 +98,8 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 
 ## Collaborate
 
-Team up to solve issues.
-<br><br>
+View the following video to learn more about how you can team up to solve issues. <br><br>*Video length: 4.22 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
 ### Cloud-first workflow
@@ -136,8 +136,8 @@ For more information, see the [Code reviews using the Visual Studio Pull Request
 
 ## Debug
 
-Zero in with precise targeting.
-<br><br>
+View the following video to learn more about how you can zero in with precise targeting while you debug. <br><br>*Video length: 3.54 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains

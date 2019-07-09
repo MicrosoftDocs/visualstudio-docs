@@ -377,14 +377,20 @@
             href: ide/reference/convert-foreach-linq.md
           - name: Convert LINQ query to foreach statement
             href: ide/reference/convert-linq-to-foreach.md
+          - name: Convert switch statement to switch expression
+            href: ide/reference/convert-switch-statement-to-switch-expression.md
           - name: Encapsulate field
             href: ide/reference/encapsulate-field.md
           - name: Extract interface
             href: ide/reference/extract-interface.md
           - name: Extract method
             href: ide/reference/extract-method.md
+          - name: Generate parameter
+            href: ide/reference/generate-parameter.md
           - name: Inline temporary variable
             href: ide/reference/inline-temporary-variable.md
+          - name: IntelliSense completion unimported types
+            href: ide/reference/intellisense-completion-unimported-types.md
           - name: Invert conditional expressions and logical operations
             href: ide/reference/invert-conditional-logical.md
           - name: Invert if statement
@@ -403,6 +409,8 @@
             href: ide/reference/remove-unreachable-code.md
           - name: Rename
             href: ide/reference/rename.md
+          - name: Sort usings
+            href: ide/reference/sort-usings.md
           - name: Split or merge if statements
             href: ide/reference/split-or-merge-if-statement.md
           - name: Sync namespace and folder name
@@ -1196,6 +1204,15 @@
     - name: Report a problem states and FAQ
       displayName: Developer Community
       href: ide/report-a-problem.md
+    - name: Create minidumps for a Visual Studio process with all callstacks
+      displayName: Create minidumps with call stacks
+      href: ide/report-a-problem-minidumps.md
+    - name: Create logs for MSBuild problems
+      displayName: Create logs for MSBuild problems
+      href: ide/msbuild-logs.md
+    - name: Collect an ETL trace with PerfView
+      displayName: ETL trace with PerfView
+      href: ide/report-a-problem-perfview.md
   - name: Suggest a feature for Visual Studio
     href: ide/suggest-a-feature.md
   - name: Developer Community data privacy

@@ -1,8 +1,8 @@
 ---
 title: "Uninstall Visual Studio for Mac"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
-author: conceptdev
-ms.author: crdun
+author: asb3993
+ms.author: amburns
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8

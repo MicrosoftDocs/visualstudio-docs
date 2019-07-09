@@ -3,7 +3,7 @@ title: "Team Foundation Version Control (TFVC)"
 description: "Connecting from Visual Studio for Mac to Team Foundation Server/Azure DevOps with Team Foundation Version Control (TFVC)."
 author: conceptdev
 ms.author: crdun
-ms.date: 04/28/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
@@ -14,6 +14,8 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
 Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
+>
+> If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 
 Azure Repos provides two models of version control: [Git](/azure/devops/repos/git/?view=azure-devops), a distributed version control system, and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=azure-devops) (TFVC), a centralized version control system.
 
@@ -107,6 +109,8 @@ To learn more about the commands mentioned here, or others, you can use the foll
 > [!NOTE]
 > For the best version control experience on macOS, we recommend using Git instead of Team Foundation Version Control (TFVC). 
 Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](/visualstudio/mac/set-up-git-repository) article.
+>
+> If you previously used the preview release of the TFVC extension for Visual Studio for Mac, it is no longer supported when upgrading to Visual Studio 2019 for Mac.
 
 In the Visual Studio for Mac Extension gallery, there is a Team Foundation Version control extension that offers limited support to connect to TFVC. The extension is not supported and has several known issues, so your experience may vary when using it.
 

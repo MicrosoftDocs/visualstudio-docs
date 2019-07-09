@@ -2,7 +2,7 @@
 title: "Visual Studio administrator guide"
 titleSuffix: ""
 description: "Learn more about how to deploy Visual Studio in an enterprise environment."
-ms.date: 05/22/2019
+ms.date: 06/02/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
@@ -34,7 +34,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on your servicing needs.
 
-  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page, as well as the [How to: Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
 
   If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
@@ -56,7 +56,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on your servicing needs.
 
-  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) page, as well as the [How to: Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
 
   If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 

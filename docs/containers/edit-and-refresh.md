@@ -115,6 +115,12 @@ When using .NET Framework console app projects, the option to add Docker support
 
    ![Breakpoint](media/edit-and-refresh/breakpoint-console.png)
 
+## Container reuse
+
+During the development cycle, Visual Studio only rebuilds your container images and the container itself when you change the Dockerfile, but if not, it reuses the container from a previous run.
+
+If you manually modified your container and want to restart from a clean container image, use the **Build** > **Clean** command in Visual Studio, and then build as normal.
+
 ## Summary
 
 With Docker support in Visual Studio, you can get the productivity of working locally,

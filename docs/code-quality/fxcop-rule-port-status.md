@@ -61,8 +61,8 @@ Rule ID | Title
 [CA1063](ca1063-implement-idisposable-correctly.md) | Implement IDisposable Correctly
 [CA1064](ca1064-exceptions-should-be-public.md) | Exceptions should be public
 [CA1065](ca1065-do-not-raise-exceptions-in-unexpected-locations.md) | Do not raise exceptions in unexpected locations
-CA1066 | Type {0} should implement IEquatable<T> because it overrides Equals
-CA1067 | Override Object.Equals(object) when implementing IEquatable<T>
+CA1066 | Type {0} should implement IEquatable\<T> because it overrides Equals
+CA1067 | Override Object.Equals(object) when implementing IEquatable\<T>
 CA1068 | CancellationToken parameters must come last
 CA1200 | Avoid using cref tags with a prefix
 [CA1303](ca1303-do-not-pass-literals-as-localized-parameters.md) | Do not pass literals as localized parameters

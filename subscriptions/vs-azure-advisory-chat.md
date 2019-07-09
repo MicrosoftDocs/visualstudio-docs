@@ -37,7 +37,6 @@ Using the Azure Advisory Chat is easy.
 |                                          Visual Studio Test Professional (Standard)                                          |        All        | Not available |     No     |
 |                                                  MSDN Platforms (Standard)                                                   |        All        | Not available |     No     |
 
-
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, MCT*
 
 > [!NOTE]

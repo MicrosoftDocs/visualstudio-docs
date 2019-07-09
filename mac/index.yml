@@ -3,8 +3,8 @@ documentType: LandingData
 title: Visual Studio 2019 for Mac documentation
 metadata:
   description: This article introduces the features of Visual Studio for Mac.
-  author: conceptdev
-  ms.author: crdun
+  author: asb3993
+  ms.author: amburns
   ms.date: 04/02/2019
   ms.topic: landing-page
   ms.prod: visual-studio-mac
