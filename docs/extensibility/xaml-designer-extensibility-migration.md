@@ -1,6 +1,6 @@
 ---
 title: XAML Designer Extensibility Migration
-ms.date: 04/17/2019
+ms.date: 07/09/2019
 ms.topic: conceptual
 author: lutzroeder
 ms.author: lutzr
