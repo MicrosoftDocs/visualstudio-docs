@@ -59,17 +59,17 @@ In this tutorial, you will:
 ::: moniker range=">=vs-2019"
 2. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure App Service your project is deployed to and an Azure storage account, and then click **Attach**.
 
-      ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
+   ![Launch the snapshot debugger from the Debug menu](../debugger/media/snapshot-debug-menu-attach.png)
 
-      ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-appservices.png)
+   ![Select Azure Resource](../debugger/media/snapshot-select-azure-resource-appservices.png)
 
 ::: moniker-end
 
-  > [!IMPORTANT]
-  > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
+   > [!IMPORTANT]
+   > The first time you select **Attach Snapshot Debugger**, you're prompted to install the Snapshot Debugger site extension on your Azure App Service. This installation requires a restart of your Azure App Service.
 
-  > [!NOTE]
-  > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+   > [!NOTE]
+   > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
 
    Visual Studio is now in snapshot debugging mode.
    ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
