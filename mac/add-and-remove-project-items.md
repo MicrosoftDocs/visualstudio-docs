@@ -1,8 +1,8 @@
 ---
 title: "Adding and Removing Project Items"
 description: This document describes how to add and remove project items in Visual Studio for Mac
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: 4071689D-1C21-42D7-8963-550E7BCB4B67
 ---

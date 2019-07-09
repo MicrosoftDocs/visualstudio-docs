@@ -1,8 +1,8 @@
 ---
 title: "Razor"
 description: "Information on the razor support in asp.net core apps in Visual Studio for Mac"
-author: conceptdev
-ms.author: crdun
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 05/03/2018
 ms.topic: article
 ms.technology: vs-ide-general

@@ -1,8 +1,8 @@
 ---
 title: "Introduction to Azure Functions"
 description: "Using Azure functions in Visual Studio for Mac."
-author: conceptdev
-ms.author: crdun
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 04/02/2019
 ms.topic: article
 ms.technology: vs-ide-install
