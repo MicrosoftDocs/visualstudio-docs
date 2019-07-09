@@ -40,7 +40,8 @@
       "ms.topic": "conceptual",
       "ms.prod": "visual-studio-family",
       "ms.technology": "vs-subscriptions",
-      "searchScope": ["VS Subscriptions"]
+      "searchScope": ["VS Subscriptions"],
+      "hideScope": true
     },
     "fileMetadata": {},
     "template": [],
