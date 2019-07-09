@@ -279,6 +279,7 @@ This article describes typical uses of annotations for simple function parameter
      A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
 
 ## Optional Pointer Parameters
+
  When a pointer parameter annotation includes `_opt_`, it indicates that the parameter may be null. Otherwise, the annotation performs the same as the version that doesn't include `_opt_`. Here is a list of the `_opt_` variants of the pointer parameter annotations:
 
 ||||
@@ -378,6 +379,7 @@ This article describes typical uses of annotations for simple function parameter
    The returned pointer points to a valid buffer if the function succeeds, or null if the function fails. This annotation is for a reference parameter.
 
 ## Output Reference Parameters
+
  A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
 
  **Annotations and Descriptions**
@@ -439,13 +441,18 @@ This article describes typical uses of annotations for simple function parameter
      Result must be valid in post-state, but may be null in post state. Points to valid buffer of `s` bytes of valid elements.
 
 ## Return Values
+
  The return value of a function resembles an `_Out_` parameter but is at a different level of de-reference, and you don't have to consider the concept of the pointer to the result.  For the following annotations, the return value is the annotated object—a scalar, a pointer to a struct, or a pointer to a buffer. These annotations have the same semantics as the corresponding `_Out_` annotation.
 
 |||
 |-|-|
 |`_Ret_z_`<br /><br /> `_Ret_writes_(s)`<br /><br /> `_Ret_writes_bytes_(s)`<br /><br /> `_Ret_writes_z_(s)`<br /><br /> `_Ret_writes_to_(s,c)`<br /><br /> `_Ret_writes_maybenull_(s)`<br /><br /> `_Ret_writes_to_maybenull_(s)`<br /><br /> `_Ret_writes_maybenull_z_(s)`|`_Ret_maybenull_`<br /><br /> `_Ret_maybenull_z_`<br /><br /> `_Ret_null_`<br /><br /> `_Ret_notnull_`<br /><br /> `_Ret_writes_bytes_to_`<br /><br /> `_Ret_writes_bytes_maybenull_`<br /><br /> `_Ret_writes_bytes_to_maybenull_`|
 
+## scanf and printf parameters
+
+
 ## Other Common Annotations
+
  **Annotations and Descriptions**
 
 - `_In_range_(low, hi)`
@@ -483,7 +490,58 @@ This article describes typical uses of annotations for simple function parameter
 
      `min(pM->nSize, sizeof(MyStruct))`
 
+## Annotate format string parameters
+
+- `_Printf_format_string_` 
+     Indicates that the parameter is a format string for use in a `printf` expression.
+
+     **Example**
+
+    ```cpp
+    int MyPrintF(_Printf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwprintf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+    - `- _Scanf_format_string_`
+     Indicates that the parameter is a format string for use in a `scanf` expression.
+
+     **Example**
+
+    ```cpp
+    int MyScanF(_Scanf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwscanf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+- `_Scanf_s_format_string_`
+     Indicates that the parameter is a format string for use in a `scanf_s` expression.
+
+     **Example**
+
+```cpp
+int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
+{
+       va_list args; 
+       va_start(args, format);
+       int ret = vwscanf_s(format, args);
+       va_end(args); 
+       return ret;
+}
+```
+
 ## Related Resources
+
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
 
 ## See Also
