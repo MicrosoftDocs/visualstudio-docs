@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Using product keys in Visual Studio subscriptions

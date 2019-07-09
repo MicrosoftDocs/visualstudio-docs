@@ -6,7 +6,6 @@ manager: lank
 ms.date: 06/28/2019
 ms.topic: conceptual
 description:  Learn about the benefits included in your Visual Studio subscription
-searchscope: VS Subscription
 ---
 
 # Benefits included in your Visual Studio subscription

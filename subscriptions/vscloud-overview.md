@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
-searchscope: VS Subscription
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
 

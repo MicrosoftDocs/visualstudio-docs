@@ -6,7 +6,6 @@ manager: lank
 ms.date: 07/02/2018
 ms.topic: conceptual
 description:  Learn about the Open and Open License migration to the Visual Studio Subscriptions administration portal.
-searchscope: VS Subscription
 
 ---
 # Open and Open License migration to the new Visual Studio Subscriptions Administration Portal

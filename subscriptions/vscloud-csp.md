@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/15/2018
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
-searchscope: VS Subscription
 ---
 # Buy and manage Visual Studio cloud subscriptions for your customers
 

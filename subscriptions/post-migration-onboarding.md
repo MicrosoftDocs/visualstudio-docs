@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 07/12/2018
 ms.topic: conceptual
 description: Learn how to successfully onboard your organization for Visual Studio subscriptions after migrating to the administration portal.
-searchscope: VS Subscription
 ---
 # Onboard to the Visual Studio Subscriptions Administration Portal after your organization is migrated
 

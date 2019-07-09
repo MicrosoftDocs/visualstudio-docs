@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 3/14/2018
 ms.topic: conceptual
 description:  Example of onboarding communications provided to VLSC administrators
-searchscope: VS Subscription
 ---
 
 # Onboarding email communications for administrators

@@ -3,7 +3,6 @@ title: "What's new in Visual Studio subscriptions"
 description: "Learn about the new and updated features that you can use to manage Visual Studio subscriptions."
 ms.custom: ""
 ms.date: 06/27/2019
-searchscope: VS Subscription
 ms.topic: conceptual
 author: evanwindom
 ms.author: lank
@@ -28,7 +27,7 @@ For more information, please our [maximum usage](maximum-usage.md) article.
 ## 2019 Q2 (April-June)
 
 ### Visual Studio with GitHub Enterprise subscriptions
-At the //build conference in May, Microsoft announced that Enterprise Agreement customers can now purchase Visual Studio subscriptions that include GitHub Enterprise.  It's an easy way to acquire both Visual Studio subscriptoins and GitHub Enterprise for a single lower price.  
+At the //build conference in May, Microsoft announced that Enterprise Agreement customers can now purchase Visual Studio subscriptions that include GitHub Enterprise.  It's an easy way to acquire both Visual Studio subscriptions and GitHub Enterprise for a single lower price.  
 
 GitHub Enterprise is available with Visual Studio Enterprise and Visual Studio Professional subscriptions acquired through Enterprise Agreements. There's also a "step-up" offer that allows you to add GitHub Enterprise even if your Enterprise agreement isn't due to renew.
 

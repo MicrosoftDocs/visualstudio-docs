@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Azure Community benefit included in selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Azure Community
