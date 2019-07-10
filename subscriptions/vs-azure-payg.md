@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description:  Learn how to set up your Azure Pay-As-You-Go account.
-searchscope: VS Subscription
 ---
 
 # Setting up an Azure Dev/Test Pay-As-You-Go subscription

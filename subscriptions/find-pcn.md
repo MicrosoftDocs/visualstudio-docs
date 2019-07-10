@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/29/2017
 ms.topic: conceptual
 description:  Learn how to locate your Public Customer Number (PCN) or Authorization Number
-searchscope: VS Subscription
 ---
 
 # How do I locate my “Public Customer Number” (PCN) or Authorization Number?

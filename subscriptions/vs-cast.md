@@ -6,7 +6,6 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the CAST Highlight benefit available in selected Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 
 # The CAST Highlight benefit in Visual Studio subscriptions

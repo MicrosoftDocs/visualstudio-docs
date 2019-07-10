@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 04/18/2018
 ms.topic: conceptual
 description:  Learn how to resend the subscription assignment to subscribers from manage.visualstudio.com or VLSC
-searchscope: VS Subscription
 ---
 
 # How to resend subscription assignment emails in the Visual Studio subscription management portal
