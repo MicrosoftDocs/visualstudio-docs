@@ -6,7 +6,6 @@ manager: lank
 ms.date: 08/01/2018
 ms.topic: conceptual
 description:  Learn about technical support benefits included in Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 
 # Technical support benefits included with Visual Studio subscriptions

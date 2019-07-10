@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/02/2018
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
-searchscope: VS Subscription
 ---
 # Visual Studio cloud subscriptions billing FAQ
 

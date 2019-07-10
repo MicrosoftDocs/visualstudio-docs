@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/14/2018
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
-searchscope: VS Subscription
 ---
 
 # Exporting subscription information

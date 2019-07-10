@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
-searchscope: VS Subscription
 ---
 
 # Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)

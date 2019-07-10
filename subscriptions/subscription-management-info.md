@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/13/2018
 ms.topic: conceptual
 description:  Find More Information About Subscription Management
-searchscope: VS Subscription
 ---
 
 # Learn about subscription management

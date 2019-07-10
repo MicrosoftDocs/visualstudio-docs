@@ -6,7 +6,6 @@ manager: lank
 ms.date: 10/31/2018
 ms.topic: conceptual
 description:  Learn how subscriber data is anonymized when access to subscriptions is lost.
-searchscope: VS Subscription
 ---
 
 # Anonymization of Visual Studio subscriber information

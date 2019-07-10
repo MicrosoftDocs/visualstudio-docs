@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/11/2017
 ms.topic: conceptual
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
-searchscope: VS Subscription
 ---
 
 # Managing Visual Studio subscriptions offered through the Microsoft Partner Network (MPN)

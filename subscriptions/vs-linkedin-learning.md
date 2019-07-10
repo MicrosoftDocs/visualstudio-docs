@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # The LinkedIn Learning benefit in Visual Studio subscriptions

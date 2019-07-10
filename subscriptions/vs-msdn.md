@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Sign up to receive the MSDN Magazine subscription included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # The MSDN Magazine benefit in Visual Studio subscriptions

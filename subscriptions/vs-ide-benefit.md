@@ -6,7 +6,6 @@ manager: lank
 ms.date: 04/03/2019
 ms.topic: conceptual
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 
 # Using the Visual Studio 2019 benefit

@@ -6,7 +6,6 @@ manager: lank
 ms.date: 05/14/2019
 ms.topic: conceptual
 description:  How to Sign In to Your Visual Studio Subscription
-searchscope: VS Subscription
 ---
 
 # Signing in to your Visual Studio subscription

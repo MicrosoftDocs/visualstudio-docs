@@ -6,7 +6,6 @@ manager: lank
 ms.date: 03/24/2019
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
-searchscope: VS Subscription
 ---
 # Using the Maximum Usage feature to track the number of assigned subscriptions
 

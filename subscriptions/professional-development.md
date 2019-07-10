@@ -6,7 +6,6 @@ manager: lank
 ms.date: 07/31/2018
 ms.topic: conceptual
 description:  Professional development benefits included in Visual Studio subscriptions
-searchscope: VS Subscription
 ---
 
 # Professional development benefits available in Visual Studio subscriptions

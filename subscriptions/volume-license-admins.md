@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/14/2018
 ms.topic: conceptual
 description:  Learn how subscription administrators can access the administration portal and manage subscriptions acquired through Volume Licensing (VL)
-searchscope: VS Subscription
 
 ---
 # Accessing the portal and managing administrators - for subscriptions acquired through Volume Licensing (VL)

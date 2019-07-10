@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 09/19/2018
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
-searchscope: VS Subscription
 ---
 # Azure DevOps benefits for Visual Studio subscribers
 
