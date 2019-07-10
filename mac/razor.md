@@ -1,5 +1,5 @@
 ---
-title: Razor
+title: Creating Razor web apps
 description: Provides information about Razor support in asp.net core apps in Visual Studio for Mac.
 author: sayedihashimi
 ms.author: sayedha
@@ -9,13 +9,13 @@ ms.technology: vs-ide-general
 ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 ---
 
-# Razor
+# Creating Razor web apps
 
-Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
+This guide offers an introduction to creating your first Razor web app. For more in-depth guidance, see the [Razor Pages in .NET Core documentation](/aspnet/core/razor-pages/index).
+
+Note that Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
 
 ![Razor editing in Visual Studio for Mac](media/razor-editor.png)
-
-This guide offers an introduction to creating your first Razor web app. For a more in-depth guide, see the [Razor Pages in .NET Core documentation](/aspnet/core/razor-pages/index).
 
 ## Creating a new Razor project
 
@@ -27,13 +27,13 @@ This guide offers an introduction to creating your first Razor web app. For a mo
 
 ![Razor project template](media/razor-new-project1.png)
 
-* Select your .NET Core target framework if required (recommended 2.2 or later), and then select **Next**. Choose a name for your project, and add git support if required. Select **Create** to create the project.
+* Select your .NET Core target framework if desired (recommended 2.2 or later), and then select **Next**. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
 
 ![Razor project name](media/razor-new-project2.png)
 
-Visual Studio for Mac opens your project in the Code layout.
+Visual Studio for Mac opens your project in the Code layout window.
 
-* Run the project without debugging using **Cmd-Opt-F5**
+* Run the project without debugging by using **Cmd-Opt-F5**.
 
 Visual Studio starts [Kestral](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel), launches a browser to `https://localhost:5001`, and displays your first Razor web app:
 
@@ -41,15 +41,15 @@ Visual Studio starts [Kestral](https://docs.microsoft.com/aspnet/core/fundamenta
 
 ## Project anatomy
 
-Razor web apps consist of the following components:
+Razor web apps include the following components:
 
 ### Pages folder
 
-The Pages folder within the project is where the web pages can be found, along with the code-behind for each:
+The Pages folder is where you can find a project's web pages, along with the code-behind for each:
 * A **.cshtml* file for the HTML markup and Razor syntax.
 * A **.cshtml.cs* file for your C# code-behind for handling page events.
 
-Supporting files have names that begin with an underscore. For example, the _Layout.cshtml file configures UI elements common to all pages. This file sets up the navigation menu at the top of the page and the copyright notice at the bottom of the page. For more information, see [Layout in ASP.NET Core](https://docs.microsoft.com/aspnet/core/mvc/views/layout).
+Supporting files have names that begin with an underscore. For example, the _Layout.cshtml file configures UI elements common to all pages. This file sets up the navigation menu at the top of the page and the copyright notice at the bottom. For more information, see [Layout in ASP.NET Core](https://docs.microsoft.com/aspnet/core/mvc/views/layout).
 
 ### Launch settings
 
@@ -57,7 +57,7 @@ The *launchSettings.json* file contains the IIS settings, application URL, and o
 
 ### App settings
 
-The *appSettings,json* file contains configuration data such as connection strings.
+The *appSettings.json* file contains configuration data such as connection strings.
 
 For more information about configuration, see the [Configuration in ASP.NET guide](https://docs.microsoft.com/aspnet/core/fundamentals/configuration/index).
 
@@ -73,6 +73,6 @@ Contains the entry point for the program. For more information, see [ASP.NET Cor
 
 Contains code that configures app behavior, such as whether the app requires consent for cookies. For more information, see [App startup in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/startup).
 
-## See aso
+## See also
 
 For a more comprehensive guide on creating Razor web apps, see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
