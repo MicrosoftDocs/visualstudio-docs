@@ -1,5 +1,5 @@
 ---
-title: Creating Razor web apps
+title: Create Razor web apps
 description: Provides information about Razor support in asp.net core apps in Visual Studio for Mac.
 author: sayedihashimi
 ms.author: sayedha
@@ -9,11 +9,11 @@ ms.technology: vs-ide-general
 ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 ---
 
-# Creating Razor web apps
+# Create Razor web apps
 
 This guide offers an introduction to creating your first Razor web app. For more in-depth guidance, see the [Razor Pages in .NET Core documentation](/aspnet/core/razor-pages/index).
 
-Note that Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
+Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
 
 ![Razor editing in Visual Studio for Mac](media/razor-editor.png)
 
@@ -23,7 +23,7 @@ Note that Visual Studio for Mac provides support for Razor editing, including In
 
 ![Visual Studio for Mac new project](media/razor-new.png)
 
-* In the New Project dialog box, go to **.NET Core** > **App** > **Web Application** and select **Next**:
+* In the **New Project** dialog box, go to **.NET Core** > **App** > **Web Application** and select **Next**:
 
 ![Razor project template](media/razor-new-project1.png)
 
@@ -33,7 +33,7 @@ Note that Visual Studio for Mac provides support for Razor editing, including In
 
 Visual Studio for Mac opens your project in the Code layout window.
 
-* Run the project without debugging by using **Cmd-Opt-F5**.
+* Run the project without debugging by using **Command-Option-F5**.
 
 Visual Studio starts [Kestral](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel), launches a browser to `https://localhost:5001`, and displays your first Razor web app:
 
@@ -45,7 +45,7 @@ Razor web apps include the following components:
 
 ### Pages folder
 
-The Pages folder is where you can find a project's web pages, along with the code-behind for each:
+Contains a project's web pages, along with the code-behind for each:
 * A **.cshtml* file for the HTML markup and Razor syntax.
 * A **.cshtml.cs* file for your C# code-behind for handling page events.
 
@@ -53,7 +53,7 @@ Supporting files have names that begin with an underscore. For example, the _Lay
 
 ### Launch settings
 
-The *launchSettings.json* file contains the IIS settings, application URL, and other related settings.
+The *launchSettings.json* file contains the IIS settings, the application URL, and other related settings.
 
 ### App settings
 
@@ -75,4 +75,4 @@ Contains code that configures app behavior, such as whether the app requires con
 
 ## See also
 
-For a more comprehensive guide on creating Razor web apps, see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
+For a more comprehensive guide to creating Razor web apps, see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
