@@ -11,7 +11,7 @@ ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 
 # Create Razor web apps
 
-This guide offers an introduction to creating your first Razor web app. For more in-depth guidance, see the [Introduction to Razor Pages in ASP.NET Core](/aspnet/core/razor-pages/index).
+This guide offers an introduction to creating your first Razor web app. For more in-depth guidance, see [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/index).
 
 Visual Studio for Mac provides support for Razor editing, including IntelliSense and syntax highlighting in *.cshtml* files.
 
