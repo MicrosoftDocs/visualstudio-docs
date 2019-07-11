@@ -60,8 +60,8 @@ Dependency validation occurs in real time, and errors are shown immediately in t
 
 * To enable full solution analysis when using live dependency validation, open the options settings from the gold bar that appears in the **Error List**.
 
-   - You can permanently dismiss the gold bar if you are not interested in seeing all the architectural issues in your solution.
-   - If you don't enable full solution analysis, the analysis is done only for the files being edited.
+  - You can permanently dismiss the gold bar if you are not interested in seeing all the architectural issues in your solution.
+  - If you don't enable full solution analysis, the analysis is done only for the files being edited.
 
 * When upgrading projects to enable live validation, a dialog shows the progress of the conversion.
 

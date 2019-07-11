@@ -53,9 +53,9 @@ The log file contains the following columns:
 
 - **FullPathToTemplate**, which has the following values:
 
-    - 1 for manifest-based deployment
+  - 1 for manifest-based deployment
 
-    - 0 for disk-based deployment
+  - 0 for disk-based deployment
 
 - **TemplateFileName**
 

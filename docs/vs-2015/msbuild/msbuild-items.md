@@ -33,23 +33,23 @@ MSBuild items are inputs into the build system, and they typically represent fil
   
 - [Item Metadata](#BKMK_ItemMetadata)  
   
-    - [Referencing Item Metadata in a Project File](#BKMK_ReferencingItemMetadata)  
-  
-    - [Well-known Item Metadata](#BKMK_WellKnownItemMetadata)  
-  
-    - [Transforming Item Types By Using Metadata](#BKMK_Transforming)  
+  - [Referencing Item Metadata in a Project File](#BKMK_ReferencingItemMetadata)  
+
+  - [Well-known Item Metadata](#BKMK_WellKnownItemMetadata)  
+
+  - [Transforming Item Types By Using Metadata](#BKMK_Transforming)  
   
 - [Item Definitions](#BKMK_ItemDefinitions)  
   
 - [Attributes for Items in an ItemGroup of a Target](#BKMK_AttributesWithinTargets)  
   
-    - [Remove Attribute](#BKMK_RemoveAttribute)  
-  
-    - [KeepMetadata Attribute](#BKMK_KeepMetadata)  
-  
-    - [RemoveMetadata Attribute](#BKMK_RemoveMetadata)  
-  
-    - [KeepDuplicates Attribute](#BKMK_KeepDuplicates)  
+  - [Remove Attribute](#BKMK_RemoveAttribute)  
+
+  - [KeepMetadata Attribute](#BKMK_KeepMetadata)  
+
+  - [RemoveMetadata Attribute](#BKMK_RemoveMetadata)  
+
+  - [KeepDuplicates Attribute](#BKMK_KeepDuplicates)  
   
 ## <a name="BKMK_Creating1"></a> Creating Items in a Project File  
  You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that’s named `Compile`, which includes two files.  
