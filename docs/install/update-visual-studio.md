@@ -8,9 +8,10 @@ ms.topic: conceptual
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 helpviewer_keywords:
-  - "VS.ToolsOptionsPages.Environment.ProductUpdates"
   - "update [Visual Studio]"
   - "change [Visual Studio]"
+f1_keywords:
+  - "VS.ToolsOptionsPages.Environment.ProductUpdates" 
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -257,7 +258,7 @@ You can check for an update and then install it by using the menu bar or the sea
 
 ## Customize update settings
 
-You can customize the update settings in Visual Studio in several different ways, such as by changing the installation mode and selecting automatic downloads.
+You can customize the update settings in Visual Studio in several different ways, such as by changing the installation mode and by selecting automatic downloads.
 
 There are two installation modes to choose from:
 
@@ -266,7 +267,7 @@ There are two installation modes to choose from:
 
 You can also choose the **Automatically download updates** setting, which allows updates to download while your machine is idle.
 
-Here's how.
+Here's how:
 
 1. On the menu bar, choose **Tools** > **Options**.
 
