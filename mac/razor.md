@@ -21,15 +21,15 @@ Visual Studio for Mac provides support for Razor editing, including IntelliSense
 
 1. On the welcome screen, select **New** to create a new project:
 
-![Visual Studio for Mac new project](media/razor-new.png)
+     ![Visual Studio for Mac new project](media/razor-new.png)
 
-2. In the **New Project** dialog box, go to **.NET Core** > **App** > **Web Application** and select **Next**:
+1. In the **New Project** dialog box, go to **.NET Core** > **App** > **Web Application** and select **Next**:
 
-![Razor project template](media/razor-new-project1.png)
+     ![Razor project template](media/razor-new-project1.png)
 
-3. Select your .NET Core target framework (we recommend version 2.2 or later), and then select **Next**. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
+1. Select your .NET Core target framework (we recommend version 2.2 or later), and then select **Next**. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
 
-![Razor project name](media/razor-new-project2.png)
+     ![Razor project name](media/razor-new-project2.png)
 
 Visual Studio for Mac opens your project in the Code layout window.
 
