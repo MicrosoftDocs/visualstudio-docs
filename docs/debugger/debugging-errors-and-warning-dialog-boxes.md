@@ -32,7 +32,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Debugger Cannot Display Source Code or Disassembly](../debugger/debugger-cannot-display-source-code-or-disassembly.md)
  
- [Debugging Services Running Out of Memory](../debugger/error-debugging-services-running-out-of-memory.md)
+ [Debugger Services Running Out of Memory](../debugger/error-debugger-services-no-memory.md)
 
  [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md)
 
