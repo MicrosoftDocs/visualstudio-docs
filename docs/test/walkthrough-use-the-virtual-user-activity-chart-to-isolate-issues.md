@@ -24,9 +24,9 @@ The Virtual User Activity Chart lets you visualize the virtual user activity tha
 
 - Complete these procedures:
 
-    - [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
+  - [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
 
-    - [Create and run a load test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
+  - [Create and run a load test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
 
 ## Open the ColorWebApp solution created in the previous walkthroughs
 

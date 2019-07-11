@@ -91,11 +91,11 @@ Resolution&mdash;There are two possible types of faults:
 
 - **Regular expression error**
 
-     Each string in the file is a regular expression. Review each one for errors, and in particular look for:
+  Each string in the file is a regular expression. Review each one for errors, and in particular look for:
 
-    - Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`
+  - Mismatched parentheses (...) or unescaped parentheses \\(...\\). If you want to match a parenthesis in the search string, you must escape it. For example, to match a function use: `.*MyFunction\(double\)`
 
-    - Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`
+  - Asterisk or plus at the start of an expression. To match any string of characters, use a dot followed by an asterisk: `.*`
 
 ### Custom .runsettings file with incorrect exclusions
 

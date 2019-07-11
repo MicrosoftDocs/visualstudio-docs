@@ -202,15 +202,15 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
  You can specify how the items in a buffer are stored by setting properties of the object node:  
   
 - Set the **Ordering** property:  
-  
-    - **Unordered** to specify a random or unspecified order. (Default.)  
-  
-    - **Ordered** to specify an order according to a specific key.  
-  
-    - **Fifo** to specify an order of first-in, first-out.  
-  
-    - **Lifo** to specify an order of last-in, first-out.  
-  
+
+  - **Unordered** to specify a random or unspecified order. (Default.)  
+
+  - **Ordered** to specify an order according to a specific key.  
+
+  - **Fifo** to specify an order of first-in, first-out.  
+
+  - **Lifo** to specify an order of last-in, first-out.  
+
 - Set the **Upper Bound** property to specify the maximum number of objects that can be contained in the buffer. The default is *. This means that there is no limit.  
   
 ### Describing Data Flow with Input and Output Pins  
@@ -311,7 +311,7 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
   
 - You can set the **Is Synchronous** property of the action to indicate whether your activity waits for the operation to complete.  
   
-    - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
+  - If you set **Is Synchronous** to false, you are indicating that the flow can continue to the next action before the called operation is complete. You should not define output pins or outgoing data flows from the action.  
   
 ## <a name="Concurrent"></a> Concurrent Flows  
  You can use the **Fork Node** and the **Join Node** to describe two or more threads of activities that can execute at the same time.  

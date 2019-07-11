@@ -36,15 +36,15 @@ Depending on your scenario, use one of the following methods to enable the log:
 
 - If there's an *App.config* file present in your test project:
 
-    - Open the *App.config* file in the project, and add the following code under the configuration node:
+  - Open the *App.config* file in the project, and add the following code under the configuration node:
 
-      ```xml
-      <system.diagnostics>
-        <switches>
-          <add name="EqtTraceLevel" value="4" />
-        </switches>
-      </system.diagnostics>`
-      ```
+    ```xml
+    <system.diagnostics>
+      <switches>
+        <add name="EqtTraceLevel" value="4" />
+      </switches>
+    </system.diagnostics>`
+    ```
 
 - Enable logging from the test code itself:
 

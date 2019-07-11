@@ -82,9 +82,9 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
 - The document must have one of the following file name extensions:
 
-    - For Word: *.docm* or *.doc*
+  - For Word: *.docm* or *.doc*
 
-    - For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
+  - For Excel: *.xlsm*, *.xltm*, *.xls*, or *.xlt*
 
 - The document must already contain a VBA project that has VBA code in it.
 
