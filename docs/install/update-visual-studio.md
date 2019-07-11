@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 helpviewer_keywords:
+  - "VS.ToolsOptionsPages.Environment.ProductUpdates"
   - "update [Visual Studio]"
   - "change [Visual Studio]"
 author: TerryGLee
