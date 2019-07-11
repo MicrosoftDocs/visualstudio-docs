@@ -27,7 +27,7 @@ Visual Studio for Mac provides support for Razor editing, including IntelliSense
 
 ![Razor project template](media/razor-new-project1.png)
 
-* Select your .NET Core target framework if desired (recommended 2.2 or later), and then select **Next**. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
+* Select your .NET Core target framework (version 2.2 or later recommended), and then select **Next**. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
 
 ![Razor project name](media/razor-new-project2.png)
 
