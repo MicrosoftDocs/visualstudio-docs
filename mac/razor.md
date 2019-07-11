@@ -31,9 +31,9 @@ Visual Studio for Mac provides support for Razor editing, including IntelliSense
 
      ![Razor project name](media/razor-new-project2.png)
 
-Visual Studio for Mac opens your project in the Code layout window.
+   Visual Studio for Mac opens your project in the Code layout window.
 
-* Run the project without debugging by using **Command-Option-F5**.
+1. Run the project without debugging by using **Command-Option-F5**.
 
    Visual Studio starts [Kestrel](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel), opens a browser to `https://localhost:5001`, and displays your first Razor web app.
 
