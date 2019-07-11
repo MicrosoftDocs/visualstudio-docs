@@ -258,16 +258,14 @@ You can check for an update and then install it by using the menu bar or the sea
 
 You can customize the update settings in Visual Studio in several different ways, such as by changing the installation mode and selecting automatic downloads.
 
-There are two installation modes to choose from: 
+There are two installation modes to choose from:
 
 * **Install while downloading**
-* **Download all, then install** 
+* **Download all, then install**
 
-You can also choose the **Automatically download updates** setting, which allows updates to download while your machine is idle. 
+You can also choose the **Automatically download updates** setting, which allows updates to download while your machine is idle.
 
-Here's how. 
-
-## To change the update settings
+Here's how.
 
 1. On the menu bar, choose **Tools** > **Options**.
 
