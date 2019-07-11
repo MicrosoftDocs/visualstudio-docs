@@ -73,11 +73,11 @@ By default, the default keyboard shortcuts for Visual Basic text editing apply i
 
 - Remapping the keyboard shortcuts for the following commands has no effect. You can only use the default keyboard shortcuts to access these commands when editing an expression.
 
-   - Cut
-   - Copy
-   - Paste
-   - Select All
-   - Undo
-   - Redo
+  - Cut
+  - Copy
+  - Paste
+  - Select All
+  - Undo
+  - Redo
 
 - To remap the keyboard shortcuts for expression editing commands inside Workflow Designer in Visual Studio, edit the shortcuts in the Workflow Designer scope. Changes made in the Text Editor scope do not automatically apply to Workflow Designer. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).

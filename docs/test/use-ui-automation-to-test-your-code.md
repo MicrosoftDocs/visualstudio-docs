@@ -279,23 +279,23 @@ After you've created your Coded UI test, you can edit it by using any of the fol
 
 - **Code Editor:**
 
-    - Manually add code for the controls in your test as described in the [Coded UI control actions and properties](#coded-ui-control-actions-and-properties) section in this topic.
+  - Manually add code for the controls in your test as described in the [Coded UI control actions and properties](#coded-ui-control-actions-and-properties) section in this topic.
 
-    - After you create a Coded UI test, you can modify it to be data-driven. For more information, see [Create a data-driven Coded UI test](../test/creating-a-data-driven-coded-ui-test.md).
+  - After you create a Coded UI test, you can modify it to be data-driven. For more information, see [Create a data-driven Coded UI test](../test/creating-a-data-driven-coded-ui-test.md).
 
-    - In a Coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Make coded UI tests wait for specific events during playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a Coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
+  - In a Coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Make coded UI tests wait for specific events during playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a Coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
 
-    - Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 controls in coded UI tests](../test/using-html5-controls-in-coded-ui-tests.md).
+  - Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 controls in coded UI tests](../test/using-html5-controls-in-coded-ui-tests.md).
 
-    - Coded UI test coding guidance:
+  - Coded UI test coding guidance:
 
-       - [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md)
+    - [Anatomy of a coded UI test](../test/anatomy-of-a-coded-ui-test.md)
 
-       - [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)
+    - [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)
 
-       - [Test a large application with multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+    - [Test a large application with multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
 
-       - [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+    - [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
 
 ### The generated code
 

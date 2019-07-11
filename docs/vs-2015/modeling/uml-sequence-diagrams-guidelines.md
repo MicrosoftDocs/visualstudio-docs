@@ -199,7 +199,7 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 - Note exceptions or alternatives that might be performed as an alternative to the typical sequence shown. For example "Customer can choose to skip the rest of this sequence."  
   
-    - Consider using fragments as a more formal alternative to this kind of note. See [Describing Control Structures with Fragments](#Fragments)  
+  - Consider using fragments as a more formal alternative to this kind of note. See [Describing Control Structures with Fragments](#Fragments)  
   
 ## Deciding the Scope of the Diagram  
  It is important to be clear about what the diagram is intended to show.  
@@ -366,13 +366,13 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
   
 - Right-click the message that you want to move, and then click **Move to Diagram**.  
   
-     Visual Studio:  
-  
-    - Replaces with an interaction use the selected message and any subsidiary messages.  
-  
-    - Moves the replaced messages to a new sequence diagram.  
-  
-    - Creates a link between the interaction use and the new sequence diagram.  
+  Visual Studio:  
+
+  - Replaces with an interaction use the selected message and any subsidiary messages.  
+
+  - Moves the replaced messages to a new sequence diagram.  
+
+  - Creates a link between the interaction use and the new sequence diagram.  
   
 #### To navigate to the sequence referenced by an interaction use  
   

@@ -53,9 +53,9 @@ The **Minimal WinForm Designer** DSL template creates a minimal DSL that you can
 
 - The `UI` project contains a working sample of a form control bound to the DSL. However, it will not work when you have changed the DSL Definition. The `UI` project contains:
 
-    - A Windows Forms class named `ModelViewControl`.
+  - A Windows Forms class named `ModelViewControl`.
 
-    - A file named `DataBinding.cs` that contains an additional partial definition of `ModelViewControl`. To see its content, in **Solution Explorer**, open the shortcut menu for the file and choose **View Code**.
+  - A file named `DataBinding.cs` that contains an additional partial definition of `ModelViewControl`. To see its content, in **Solution Explorer**, open the shortcut menu for the file and choose **View Code**.
 
 ### About the UI project
 
