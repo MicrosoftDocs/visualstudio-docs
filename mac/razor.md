@@ -35,9 +35,9 @@ Visual Studio for Mac opens your project in the Code layout window.
 
 * Run the project without debugging by using **Command-Option-F5**.
 
-Visual Studio starts [Kestrel](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel), opens a browser to `https://localhost:5001`, and displays your first Razor web app.
+   Visual Studio starts [Kestrel](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel), opens a browser to `https://localhost:5001`, and displays your first Razor web app.
 
-![Razor web app in Safari](media/razor-webapp.png)
+   ![Razor web app in Safari](media/razor-webapp.png)
 
 ## Project anatomy
 
