@@ -144,9 +144,9 @@ After you create a custom editor, you can add more features to it.
   
 - There are two places a custom editor can expose automation objects:  
   
-    - `Document.Object`  
-  
-    - `Window.Object`  
+  - `Document.Object`  
+
+  - `Window.Object`  
   
 ## See Also  
  [Contributing to the Automation Model](../extensibility/internals/contributing-to-the-automation-model.md)   

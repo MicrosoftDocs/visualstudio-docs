@@ -61,7 +61,7 @@ You should now be able to access the App Center portal and create your account.
 
 ## Support Resources
 - Need help with App Center?
-    - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
-    - Check out complete [App Center documentation](/appcenter/)
+  - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
+  - Check out complete [App Center documentation](/appcenter/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

@@ -238,9 +238,9 @@ To help ensure that your software system or application meets your users' needs,
   
 - Model of the major parts and their relationships. These might be classes or components and interfaces, with associations and dependencies between them. The elements usually fall into two categories:  
   
-    - Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
-  
-    - Elements describing framework classes that the developer should use.  
+  - Elements that the developer must replicate in every part of the code where the pattern is used. You can use template types to describe these. For more information, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
+
+  - Elements describing framework classes that the developer should use.  
   
 - Model of the interactions between the parts, using sequence or activity diagrams.  
   

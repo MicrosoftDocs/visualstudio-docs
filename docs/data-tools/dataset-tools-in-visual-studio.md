@@ -69,13 +69,13 @@ Visual Studio provides tooling to simplify working with datasets. The basic end-
 
 - Use the **TableAdapter Configuration Wizard** to specify the query or stored procedure that populates the dataset, and what database operations (update, delete, and so on) to implement. For more information, see these topics:
 
-    - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
+  - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
 
-    - [Edit data in datasets](../data-tools/edit-data-in-datasets.md)
+  - [Edit data in datasets](../data-tools/edit-data-in-datasets.md)
 
-    - [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
+  - [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
 
-    - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+  - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 
 - Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
 

@@ -32,12 +32,12 @@ The State window in Visual Studio graphics Diagnostics helps you understand the 
 ##### To change the state view  
   
 - In the State window, in the upper left-hand just below the titlebar, choose the button that corresponds to the state view style you want to use.  
-  
-    - **Show API input state view**  
-  
-    - **Show Logical state view**  
-  
-    - **Show Pinned state view**  
+
+  - **Show API input state view**  
+
+  - **Show Logical state view**  
+
+  - **Show Pinned state view**  
   
 > [!IMPORTANT]
 > You must pin state in the **Show API input state** or **Show Logical state** views for it to be displayed in the **Show Pinned state view**.  

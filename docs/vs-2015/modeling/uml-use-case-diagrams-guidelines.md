@@ -109,13 +109,13 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
   
 - Create **Actors** to represent classes of people, organizations, other systems, software or devices that interact with your system or subsystem.  
   
-    - To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
-  
-    - For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
+  - To learn how to draw actors and other elements, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md).  
+
+  - For each distinct set of goals, identify actors by their type or role, even though the physical persons or entities might be the same. For example, Restaurant and Customer are separate actors, even though a restaurant employee might sometimes be a customer.  
   
 - Create **Use Cases** for each of the goals that each actor seeks to achieve with the system.  
   
-    - Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
+  - Name and describe the use cases in words that the actor would understand, instead of implementation terms.  
   
 - Use **Associations** to link actors to use cases.  
   
