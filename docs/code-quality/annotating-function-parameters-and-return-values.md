@@ -453,7 +453,7 @@ This article describes typical uses of annotations for simple function parameter
 
 ## Format string parameters
 
-- `_Printf_format_string_` 
+- `_Printf_format_string_`
      Indicates that the parameter is a format string for use in a `printf` expression.
 
      **Example**
@@ -469,7 +469,7 @@ This article describes typical uses of annotations for simple function parameter
     }
     ```
 
-    - `_Scanf_format_string_`
+- `_Scanf_format_string_`
      Indicates that the parameter is a format string for use in a `scanf` expression.
 
      **Example**
