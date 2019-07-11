@@ -1,6 +1,6 @@
 ---
 title: Annotating Function Parameters and Return Values
-ms.date: 11/04/2016
+ms.date: 07/11/2019
 ms.topic: "conceptual"
 f1_keywords:
   - "_Outptr_opt_result_bytebuffer_to_"
@@ -119,6 +119,9 @@ f1_keywords:
   - "_Outref_result_bytebuffer_"
   - "_Result_nullonfailure_"
   - "_Ret_null_"
+  - "_Scanf_format_string_"
+  - "_Scanf_s_format_string_"
+  - "_Printf_format_string_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 author: mikeblome
 ms.author: mblome
@@ -448,8 +451,55 @@ This article describes typical uses of annotations for simple function parameter
 |-|-|
 |`_Ret_z_`<br /><br /> `_Ret_writes_(s)`<br /><br /> `_Ret_writes_bytes_(s)`<br /><br /> `_Ret_writes_z_(s)`<br /><br /> `_Ret_writes_to_(s,c)`<br /><br /> `_Ret_writes_maybenull_(s)`<br /><br /> `_Ret_writes_to_maybenull_(s)`<br /><br /> `_Ret_writes_maybenull_z_(s)`|`_Ret_maybenull_`<br /><br /> `_Ret_maybenull_z_`<br /><br /> `_Ret_null_`<br /><br /> `_Ret_notnull_`<br /><br /> `_Ret_writes_bytes_to_`<br /><br /> `_Ret_writes_bytes_maybenull_`<br /><br /> `_Ret_writes_bytes_to_maybenull_`|
 
-## scanf and printf parameters
+## Format string parameters
 
+- `_Printf_format_string_` 
+     Indicates that the parameter is a format string for use in a `printf` expression.
+
+     **Example**
+
+    ```cpp
+    int MyPrintF(_Printf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwprintf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+    - `_Scanf_format_string_`
+     Indicates that the parameter is a format string for use in a `scanf` expression.
+
+     **Example**
+
+    ```cpp
+    int MyScanF(_Scanf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwscanf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+- `_Scanf_s_format_string_`
+     Indicates that the parameter is a format string for use in a `scanf_s` expression.
+
+     **Example**
+
+    ```cpp
+    int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
+    {
+           va_list args; 
+           va_start(args, format);
+           int ret = vwscanf_s(format, args);
+           va_end(args); 
+           return ret;
+    }
+    ```
 
 ## Other Common Annotations
 
@@ -489,56 +539,6 @@ This article describes typical uses of annotations for simple function parameter
      The buffer size in bytes of a parameter `pM` of type `MyStruct *` is then taken to be:
 
      `min(pM->nSize, sizeof(MyStruct))`
-
-## Annotate format string parameters
-
-- `_Printf_format_string_` 
-     Indicates that the parameter is a format string for use in a `printf` expression.
-
-     **Example**
-
-    ```cpp
-    int MyPrintF(_Printf_format_string_ const wchar_t* format, ...)
-    {
-           va_list args;
-           va_start(args, format);
-           int ret = vwprintf(format, args);
-           va_end(args);
-           return ret;
-    }
-    ```
-
-    - `- _Scanf_format_string_`
-     Indicates that the parameter is a format string for use in a `scanf` expression.
-
-     **Example**
-
-    ```cpp
-    int MyScanF(_Scanf_format_string_ const wchar_t* format, ...)
-    {
-           va_list args;
-           va_start(args, format);
-           int ret = vwscanf(format, args);
-           va_end(args);
-           return ret;
-    }
-    ```
-
-- `_Scanf_s_format_string_`
-     Indicates that the parameter is a format string for use in a `scanf_s` expression.
-
-     **Example**
-
-    ```cpp
-    int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
-    {
-           va_list args; 
-           va_start(args, format);
-           int ret = vwscanf_s(format, args);
-           va_end(args); 
-           return ret;
-    }
-    ```
 
 ## Related Resources
 
