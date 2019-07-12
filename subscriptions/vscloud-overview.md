@@ -21,7 +21,7 @@ You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptio
 * To bill your purchases, you need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/). You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
 
 ## Who can buy Visual Studio cloud subscriptions?
-Anyone with [owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [service admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#change-the-service-administrator-for-an-azure-subscription), or [co-admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#add-or-change-co-administrator) access to the Azure subscription can purchase cloud subscriptions.
+Anyone with [owner](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [service admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription), or [co-admin](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription) access to the Azure subscription can purchase cloud subscriptions.
 
 ## How to buy cloud subscriptions
 
