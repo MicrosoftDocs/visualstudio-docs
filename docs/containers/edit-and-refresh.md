@@ -14,7 +14,7 @@ ms.technology: vs-azure
 
 Visual Studio provides a consistent way to develop in a Docker container and validate your application locally. You don't have to restart the container each time you make a code change.
 
-This article illustrates how to use the Edit and Refresh feature in Visual Studio to start an ASP.NET Core Web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging.
+This article illustrates how to use the Edit and Refresh feature in Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ To debug apps in a local Docker container, the following tools must be installed
 
 To run Docker containers locally, you must have a local Docker client. You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled. You also can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10. If you use Docker Toolbox, you must configure the Docker client.
 
-Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples: first, we look at a .NET Core web app, and then, we look at a .NET Framework console app.
+Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
 
 ## Create a web app
 
@@ -124,5 +124,5 @@ Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-doc
 * Learn more about [container development with Visual Studio](/visualstudio/containers).
 * To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://aka.ms/dockertoolsforvsts).
 * For an index of Windows Server and Nano Server articles, see [Windows container information](https://aka.ms/containers).
-* Learn about the [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).
+* Learn about [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).
 
