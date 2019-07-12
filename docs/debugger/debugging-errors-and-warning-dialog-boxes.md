@@ -31,6 +31,8 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
  [Cannot Change Value Dialog Box](../debugger/cannot-change-value-dialog-box.md)
 
  [Debugger Cannot Display Source Code or Disassembly](../debugger/debugger-cannot-display-source-code-or-disassembly.md)
+ 
+ [Debugger Services Running Out of Memory](../debugger/error-debugger-services-no-memory.md)
 
  [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md)
 
