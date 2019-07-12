@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "index filtering [Help Viewer]"
   - "Help Viewer, index filtering"
 ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

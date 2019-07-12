@@ -1,8 +1,8 @@
 ---
 title: Source Editor
 description: Using the source editor in Visual Studio for Mac
-author: conceptdev
-ms.author: crdun
+author: cobey
+ms.author: cobey
 ms.date: 05/06/2018
 ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
 ---

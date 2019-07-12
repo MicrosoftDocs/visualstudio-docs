@@ -1,8 +1,8 @@
 ---
 title: "Team Foundation Version Control (TFVC)"
 description: "Connecting from Visual Studio for Mac to Team Foundation Server/Azure DevOps with Team Foundation Version Control (TFVC)."
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 06/25/2019
 ms.topic: article
 ms.technology: vs-ide-general

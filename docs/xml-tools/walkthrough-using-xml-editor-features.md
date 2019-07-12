@@ -52,7 +52,7 @@ The steps in this walkthrough show you how to create a new XML document. The wal
 
     - **employee** to add the root element.
 
-2. Select **<!--** to add a comment node and press **Enter**.
+2. Select **&lt;!--** to add a comment node and press **Enter**.
 
      The editor inserts a comment end tag and places the cursor between the start and end comment tags.
 

@@ -220,7 +220,7 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - **Always** try to create an indicator that summarizes the information it makes available. Consider providing a count of the number of data items available (for example, "3 references" instead of simply "References") or think of some other way to summarize the data.
 
-    - In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
+  - In cases where the data for an indicator cannot always be computed and displayed, immediately consider providing progressive feedback as the values are computed. For example, consider animating changes that reflect updates to the available data, similar to the way the email live tile on Windows Phone refreshes as the number of unread emails increases.
 
 - **Never** add more indicators than a user can reasonably take in for a given piece of content. Ambient indicators should be useful without requiring any interaction from the user. Indicators lose their ambience if they require overflow and other management controls to bring them into view.
 
@@ -229,11 +229,11 @@ Composite patterns combine interaction and design elements in distinct configura
 
 - **Always** require the user to perform some explicit gesture to open the additional content. Common open gestures include:
 
-    - **Hover:** tooltips or non-interactive informational content
+  - **Hover:** tooltips or non-interactive informational content
 
-    - **Explicit command:** inline presenter
+  - **Explicit command:** inline presenter
 
-    - **Double-click the ambient indicator:** CodeLens pop-up window
+  - **Double-click the ambient indicator:** CodeLens pop-up window
 
 - **Always** dismiss the detail content whenever the user presses the Esc key.
 

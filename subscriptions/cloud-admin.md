@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 03/28/2018
 ms.topic: conceptual
 description: Setting Up Administrators for Cloud Subscriptions
-searchscope: VS Subscription
 ---
 # Set up administrators for Visual Studio Cloud subscriptions
 

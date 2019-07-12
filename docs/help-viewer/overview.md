@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -39,7 +39,7 @@ In a project file you can use wildcards to include all the files in one director
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
     ```  
   
-     - or -  
+     \- or -  
   
     ```  
     <VBFile Include="*.vb" Exclude="Form2.vb"/>  
@@ -53,7 +53,7 @@ In a project file you can use wildcards to include all the files in one director
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
     ```  
   
-     - or -  
+     \- or -  
   
     ```  
     <VBFile Include="*.vb" Exclude="Form2.vb;Form3.vb"/>  

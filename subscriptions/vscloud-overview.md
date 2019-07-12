@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
-searchscope: VS Subscription
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
 
@@ -100,7 +99,6 @@ A: Annual subscriptions purchased during a given month are charged immediately f
 #### Q: What if I want to decrease the number of subscriptions for my customers?
 
 A: Your administrator can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
-
 
 #### Q: If I cancel my subscription, will I be able to buy another Annual Cloud subscription later?
 A:  Although you will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).

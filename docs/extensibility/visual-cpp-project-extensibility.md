@@ -146,13 +146,13 @@ Although a toolset can override the entire build process, usually you just want 
 
 - `$(VCTargetsPath)`\\*Microsoft.CppCommon.targets*
 
-   This file defines the main parts of the native build process, and also imports:
+  This file defines the main parts of the native build process, and also imports:
 
-   - `$(VCTargetsPath)`\\*Microsoft.CppBuild.targets*
+  - `$(VCTargetsPath)`\\*Microsoft.CppBuild.targets*
 
-   - `$(VCTargetsPath)`\\*Microsoft.BuildSteps.targets*
+  - `$(VCTargetsPath)`\\*Microsoft.BuildSteps.targets*
 
-   - `$(MSBuildToolsPath)`\\*Microsoft.Common.Targets*
+  - `$(MSBuildToolsPath)`\\*Microsoft.Common.Targets*
 
 - `$(VCTargetsPath)`\\*Microsoft.Cpp.Common.props*
 

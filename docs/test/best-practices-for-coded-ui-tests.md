@@ -56,11 +56,11 @@ User interfaces frequently change during development. Here are some ways to redu
 
 - If a control has an assertion that is no longer valid:
 
-    - Delete the method that contains the assertion.
+  - Delete the method that contains the assertion.
 
-    - Remove the call to this method from the test method.
+  - Remove the call to this method from the test method.
 
-    - Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.
+  - Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.
 
 For more information about how to record coded UI tests, see [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md).
 

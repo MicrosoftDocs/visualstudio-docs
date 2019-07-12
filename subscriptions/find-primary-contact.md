@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 01/22/2018
 ms.topic: conceptual
 description:  Visual Studio Subscriptions - Locating the Primary Contact
-searchscope: VS Subscription
 ---
 
 # Locating the Primary Contact associated with Visual Studio subscriptions

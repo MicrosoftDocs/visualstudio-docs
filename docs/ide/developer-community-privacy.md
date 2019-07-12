@@ -58,24 +58,24 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Web debugger log files, if they exist:
 
-   - *%TEMP%\vscode-chrome-debug.txt*
+  - *%TEMP%\vscode-chrome-debug.txt*
 
-   - *%TEMP%\vscode-node-debug2.txt*
+  - *%TEMP%\vscode-node-debug2.txt*
 
-   - *%TEMP%\vscode-edge-debug.txt*
+  - *%TEMP%\vscode-edge-debug.txt*
 
 - A screenshot, if you choose to include it
 
 - Recording data, if you choose to include a recording, which includes:
 
-   - Steps to reproduce the problem
+  - Steps to reproduce the problem
 
-   - ETL trace file
+  - ETL trace file
 
-   - Dump file
+  - Dump file
 
-    > [!NOTE]
-    > You can delete any of the recording data that you don't wish to submit before submitting the report.
+  > [!NOTE]
+  > You can delete any of the recording data that you don't wish to submit before submitting the report.
 
 ## See also
 

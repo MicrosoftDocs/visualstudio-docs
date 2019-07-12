@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn how to activate the Azure benefit included in your Visual Studio subscription.
-searchscope: VS Subscription
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
 
@@ -102,7 +101,7 @@ If you believe you’ve received this email in error, please contact [Azure cust
 ## Support Resources
 
 - Need help with Azure?  Check out these resources:
-    - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
-    - [Azure documentation](/azure/)
+  - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
+  - [Azure documentation](/azure/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

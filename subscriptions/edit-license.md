@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description:  Learn how administrators can edit subscription assignments.
-searchscope: VS Subscription
 ---
 
 # Editing Visual Studio subscription assignments

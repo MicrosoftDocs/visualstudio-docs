@@ -6,8 +6,6 @@ manager: evelynp
 ms.date: 03/13/2018
 ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions administrators.
-searchscope: VS Subscription
-
 ---
 # Overview of administrator responsibilities
 As an administrator, you have the ability to manage subscriptions for your organization.  The administrator role also carries responsibilities to ensure that the subscriptions are managed in accordance with the license terms. This article outlines the responsibilities, benefits, and limitations of the administrator role.

@@ -6,7 +6,6 @@ manager: evelynp
 ms.date: 02/13/2018
 ms.topic: conceptual
 description:  Learn about Visual Studio Dev Essentials, and how to sign up.
-searchscope: VS Subscription
 ---
 
 # Visual Studio Dev Essentials

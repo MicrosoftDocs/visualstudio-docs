@@ -50,36 +50,36 @@ Severity | Effect
 The style rules in this section are applicable to both C# and Visual Basic.
 
 - ["This." and "Me." qualifiers](#this-and-me)
-   - dotnet\_style\_qualification\_for_field
-   - dotnet\_style\_qualification\_for_property
-   - dotnet\_style\_qualification\_for_method
-   - dotnet\_style\_qualification\_for_event
+  - dotnet\_style\_qualification\_for_field
+  - dotnet\_style\_qualification\_for_property
+  - dotnet\_style\_qualification\_for_method
+  - dotnet\_style\_qualification\_for_event
 - [Language keywords instead of framework type names for type references](#language-keywords)
-   - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
-   - dotnet\_style\_predefined\_type\_for\_member_access
+  - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
+  - dotnet\_style\_predefined\_type\_for\_member_access
 - [Modifier preferences](#normalize-modifiers)
-   - dotnet\_style\_require\_accessibility_modifiers
-   - csharp\_preferred\_modifier_order
-   - visual\_basic\_preferred\_modifier_order
-   - dotnet\_style\_readonly\_field
+  - dotnet\_style\_require\_accessibility_modifiers
+  - csharp\_preferred\_modifier_order
+  - visual\_basic\_preferred\_modifier_order
+  - dotnet\_style\_readonly\_field
 - [Parentheses preferences](#parentheses-preferences)
-   - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
-   - dotnet\_style\_parentheses\_in\_other\_binary\_operators
-   - dotnet\_style\_parentheses\_in\_other\_operators
-   - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
+  - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
+  - dotnet\_style\_parentheses\_in\_other\_binary\_operators
+  - dotnet\_style\_parentheses\_in\_other\_operators
+  - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
 - [Expression-level preferences](#expression-level-preferences)
-   - dotnet\_style\_object_initializer
-   - dotnet\_style\_collection_initializer
-   - dotnet\_style\_explicit\_tuple_names
-   - dotnet\_style\_prefer\_inferred\_tuple_names
-   - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
-   - dotnet\_style\_prefer\_auto\_properties
-   - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
-   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
-   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+  - dotnet\_style\_object_initializer
+  - dotnet\_style\_collection_initializer
+  - dotnet\_style\_explicit\_tuple_names
+  - dotnet\_style\_prefer\_inferred\_tuple_names
+  - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
+  - dotnet\_style\_prefer\_auto\_properties
+  - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+  - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
+  - dotnet\_style\_prefer\_conditional\_expression\_over\_return
 - ["Null" checking preferences](#null-checking-preferences)
-   - dotnet\_style\_coalesce_expression
-   - dotnet\_style\_null_propagation
+  - dotnet\_style\_coalesce_expression
+  - dotnet\_style\_null_propagation
 
 ### <a name="this-and-me"></a>"This." and "Me." qualifiers
 
@@ -943,30 +943,30 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 The style rules in this section are applicable to C# only.
 
 - [Implicit and explicit types](#implicit-and-explicit-types)
-   - csharp\_style\_var\_for\_built\_in_types
-   - csharp\_style\_var\_when\_type\_is_apparent
-   - csharp\_style\_var_elsewhere
+  - csharp\_style\_var\_for\_built\_in_types
+  - csharp\_style\_var\_when\_type\_is_apparent
+  - csharp\_style\_var_elsewhere
 - [Expression-bodied members](#expression-bodied-members)
-   - csharp\_style\_expression\_bodied_methods
-   - csharp\_style\_expression\_bodied_constructors
-   - csharp\_style\_expression\_bodied_operators
-   - csharp\_style\_expression\_bodied_properties
-   - csharp\_style\_expression\_bodied_indexers
-   - csharp\_style\_expression\_bodied_accessors
+  - csharp\_style\_expression\_bodied_methods
+  - csharp\_style\_expression\_bodied_constructors
+  - csharp\_style\_expression\_bodied_operators
+  - csharp\_style\_expression\_bodied_properties
+  - csharp\_style\_expression\_bodied_indexers
+  - csharp\_style\_expression\_bodied_accessors
 - [Pattern matching](#pattern-matching)
-   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
-   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
+  - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
+  - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
 - [Inlined variable declarations](#inlined-variable-declarations)
-   - csharp\_style\_inlined\_variable_declaration
+  - csharp\_style\_inlined\_variable_declaration
 - [Expression-level preferences](#expression-level-preferences)
-   - csharp\_prefer\_simple\_default_expression
-   - csharp\_style\_deconstructed\_variable_declaration
-   - csharp\_style\_pattern\_local\_over\_anonymous_function
+  - csharp\_prefer\_simple\_default_expression
+  - csharp\_style\_deconstructed\_variable_declaration
+  - csharp\_style\_pattern\_local\_over\_anonymous_function
 - ["Null" checking preferences](#null-checking-preferences)
-   - csharp\_style\_throw_expression
-    - csharp\_style\_conditional\_delegate_call
+  - csharp\_style\_throw_expression
+  - csharp\_style\_conditional\_delegate_call
 - [Code block preferences](#code-block-preferences)
-   - csharp\_prefer_braces
+  - csharp\_prefer_braces
 
 ### Implicit and explicit types
 

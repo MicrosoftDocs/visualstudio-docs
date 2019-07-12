@@ -6,7 +6,6 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description:  Learn about the Office 365 benefit included in some Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Office 365 ProPlus in Visual Studio Subscriptions
