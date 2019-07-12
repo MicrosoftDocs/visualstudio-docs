@@ -582,13 +582,13 @@
       - name: Design international apps
         displayName: Globalization localization world-ready
         href: ide/globalizing-and-localizing-applications.md
-  - name: Access data >
+  - name: Access data > >
     displayName: Data connections
     href: data-tools/accessing-data-in-visual-studio.md
-  - name: Design user interfaces >
+  - name: Design user interfaces > >
     displayName: XAML designer
     href: designers/designing-user-interfaces.md
-  - name: Develop apps with Workflow Designer >
+  - name: Develop apps with Workflow Designer > >
     href: workflow-designer/developing-applications-with-the-workflow-designer.md
   - name: Compile and build
     items:
@@ -638,9 +638,9 @@
         href: ide/how-to-configure-projects-to-target-platforms.md
       - name: Configure projects to target multiple platforms
         href: ide/how-to-configure-projects-to-target-multiple-platforms.md
-    - name: MSBuild >
+    - name: MSBuild > >
       href: msbuild/msbuild.md
-    - name: Azure Pipelines and TFS >
+    - name: Azure Pipelines and TFS > >
       displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
       href: /azure/devops/pipelines/index?view=vsts
     - name: Specify build events (Visual Basic)
@@ -651,23 +651,23 @@
       href: ide/configuring-warnings-in-visual-basic.md
     - name: "Walkthrough: Create a multiple-computer build environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
-  - name: Debug >
+  - name: Debug > >
     href: debugger/index.md
-  - name: Test >
+  - name: Test > >
     displayName: Unit testing
     href: test/improve-code-quality.md
-  - name: Measure performance >
+  - name: Measure performance > >
     displayName: Profiling
     href: profiling/index.md
-  - name: Analyze code quality >
+  - name: Analyze code quality > >
     displayName: Code analysis FxCop Analyzers
     href: code-quality/index.md
-  - name: Deploy >
+  - name: Deploy > >
     href: deployment/index.md
-  - name: Extend Visual Studio >
+  - name: Extend Visual Studio > >
     displayName: Visual Studio SDK
     href: extensibility/visual-studio-sdk.md
-  - name: Analyze and Model Architecture >
+  - name: Analyze and Model Architecture > >
     href: modeling/analyze-and-model-your-architecture.md
   - name: Tips and tricks
     items:
