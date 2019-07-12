@@ -260,4 +260,4 @@
 - name: The Visual Studio image library
   href: the-visual-studio-image-library.md
 - name: Develop apps with Workflow Designer
-href: ../workflow-designer/developing-applications-with-the-workflow-designer.md
+  href: ../workflow-designer/developing-applications-with-the-workflow-designer.md
