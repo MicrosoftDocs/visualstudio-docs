@@ -26,7 +26,7 @@ The servicing baseline option gives developers and administrators more flexibili
 To start using a servicing baseline, download a fixed-version Visual Studio installer bootstrapper from [My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=visual%20studio%202019%20version%2016.0). The bootstrappers have links to the product configurations, workloads, and components for that specific version. 
 
 > [!NOTE]
-> Be careful to distinguish between the fixed-version bootstrapper and the normal bootstrappers. The normal bootstrappers are configured to use the latest available release of Visual Studio. The normal boostrappers have a number in the file name (for example, vs_enterprise__123456789-123456789.exe) when they're downloaded from My.VisualStudio.com.
+> Be careful to distinguish between the fixed-version bootstrapper and the standard bootstrappers. The standard bootstrappers are configured to use the latest available release of Visual Studio. The standard boostrappers have a number in the file name (for example, vs_enterprise__123456789-123456789.exe) when they're downloaded from My.VisualStudio.com.
 
 During installation, enterprise administrators must configure their clients to prevent the clients from updating to the latest release. You can configure the clients in multiple ways:
 - [Change the `channelUri` setting in the response configuration file](update-servicing-baseline.md#install-a-servicing-baseline-on-a-network) to use a channel manifest in the layout or local folder.
@@ -39,25 +39,22 @@ Administrators who use a network layout installation should modify the `channelU
 
 ### Install a servicing baseline via the internet
 
-If you deploy an internet-based installation, at the command line that you use to launch setup, add `--channelUri` with a nonexistent channel manifest. Adding the parameter disables Visual Studio from using the latest available release for an update. Here's an example:
-
+For an internet-based installation, add `--channelUri` with a non-existent channel manifest to the command-line used to launch setup. This disables Visual Studio from using the latest available release for an update. Here's an example:
   ```cmd
    vs_enterprise.exe --channelUri c:\doesnotexist.chman 
   ```
 
 ### Use policy settings to disable clients from updating
 
-Another option to control updates on a client is to [turn off update notifications](controlling-updates-to-visual-studio-deployments.md). Use this option if the `channelUri` value wasn't changed during installation. Turning off update notifications disables the client from receiving links to the latest available release. A fixed-version bootstrapper is still required for updating to a specific version on the client.
+Another option to control updates on a client is to [turn off update notifications](controlling-updates-to-visual-studio-deployments.md). Use this option if the channelUri value was not changed on installation. It will disable the client from receiving links to the latest available release. A fixed-version bootstrapper is still necessary to update to a specific version on the client.
 
 ## How to stay on a servicing baseline
 
 When an update for a servicing baseline is available, fixed-version bootstrapper files are made available for the servicing update at [My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=visual%20studio%202019%20version%2016.0). 
 
-The bootstrapper files can be used in several scenarios. Administrators who deploy via network layout installation should update the [layout location](update-a-network-installation-of-visual-studio.md). Clients that were installed from the location receive update notifications. 
+For administrators deploying via network layout install, the administrator will want to update the [layout location](update-a-network-installation-of-visual-studio.md). Clients that installed from the location will receive update notifications. If the update needs to be deployed to clients, follow [these instructions](update-a-network-installation-of-visual-studio.md#how-to-deploy-an-update-to-client-machines). When modifying the 'response.json' for an update, do not add additional workloads, components, or languages. Managing these settings must be done as a 'modify' deployment after the product has been updated. 
 
-If the update needs to be deployed to clients, follow the steps described in [How to deploy an update to client machines](update-a-network-installation-of-visual-studio.md#how-to-deploy-an-update-to-client-machines). When you modify the *response.json* file for an update, don't add more workloads, components, or languages. You must manage settings for additional workloads, components, or languages as a *modify* deployment after the product is updated. 
-
-If you deploy an internet-based installation, run the new fixed-version bootstrapper with the `--channelUri` parameter pointed to a nonexistent channel manifest on the client. If the update is deployed in quiet or passive mode, use two separate commands:
+For an internet-based installation, run the new fixed version bootstrapper with the `--channelUri` parameter pointing to a non-existent channel manifest on the client. If the update is deployed in quiet or passive mode, use two separate commands:
 
 1. Update the Visual Studio installer:
 
