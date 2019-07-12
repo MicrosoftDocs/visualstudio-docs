@@ -11,8 +11,8 @@ ms.custom: "include file"
 
 ---
 
-1. In the Visual Studio menu, select **File > New > Project**.
-2. In the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
+1. In the Visual Studio menu, select **File** > **New** > **Project**.
+2. In the **Templates** section of the **New Project** dialog box, select **Visual C#** > **Web**.
 3. Select **ASP.NET Core Web Application**.
 4. Enter a name for your new application (or use the default name), and then select **OK**.
 5. Select **Web Application**.
