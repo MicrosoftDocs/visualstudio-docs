@@ -18,15 +18,15 @@
   href: how-to-use-the-imports-designer.md
 - name: Use breadcrumb navigation
   href: how-to-use-breadcrumb-navigation.md
-- name: Use Search in the Workflow Designer
+- name: Use search
   href: how-to-use-search-in-the-workflow-designer.md
-- name: Define and consume activity delegates in the Workflow Designer
+- name: Define and consume activity delegates
   href: how-to-define-and-consume-activity-delegates-in-the-workflow-designer.md
-- name: Add comments to a workflow in the Workflow Designer
+- name: Add comments to a workflow
   href: how-to-add-comments-to-a-workflow-in-the-workflow-designer.md
 - name: Activity designers
   items:
-  - name: Control Flow Activity Designers
+  - name: Control flow activity designers
     items:
     - name: Overview and reference
       displayName: Control flow activity designers
@@ -51,7 +51,7 @@
       href: switch-t-activity-designer.md
     - name: While Activity Designer
       href: while-activity-designer.md
-  - name: Flowchart Activity Designers
+  - name: Flowchart activity designers
     items:
     - name: Overview and reference
       displayName: Flow chart activity designers
@@ -62,7 +62,7 @@
       href: flowdecision-activity-designer.md
     - name: FlowSwitch<T> Activity Designer
       href: flowswitch-t-activity-designer.md
-  - name: State Machine Activity Designers
+  - name: State Machine activity designers
     items:
     - name: Overview and reference
       displayName: State machine activity designers
@@ -75,7 +75,7 @@
       href: finalstate-activity-designer.md
     - name: Transition Activity Designer
       href: transition-activity-designer.md
-  - name: Messaging Activity Designers
+  - name: Messaging activity designers
     items:
     - name: Overview and reference
       displayName: Messaging activity designers
@@ -94,7 +94,7 @@
       href: sendandreceivereply-template-designer.md
     - name: TransactedReceiveScope Activity Designer
       href: transactedreceivescope-activity-designer.md
-  - name: Runtime Activity Designers
+  - name: Runtime activity designers
     items:
     - name: Overview and reference
       displayName: Run-time activity designers
@@ -103,7 +103,7 @@
       href: persist-activity-designer.md
     - name: TerminateWorkflow Activity Designer
       href: terminateworkflow-activity-designer.md
-  - name: Primitives Activity Designers
+  - name: Primitives activity designers
     items:
     - name: Overview and reference
       displayName: Primitives activity designers
@@ -118,7 +118,7 @@
       href: invokemethod-activity-designer.md
     - name: WriteLine Activity Designer
       href: writeline-activity-designer.md
-  - name: Transaction Activity Designers
+  - name: Transaction activity designers
     items:
     - name: Overview and reference
       displayName: Transaction activity designers
@@ -133,7 +133,7 @@
       href: confirm-activity-designer.md
     - name: TransactionScope Activity Designer
       href: transactionscope-activity-designer.md
-  - name: Collection Activity Designers
+  - name: Collection activity designers
     items:
     - name: Overview and reference
       displayName: Collection activity designers
@@ -146,7 +146,7 @@
       href: existsincollection-t-activity-designer.md
     - name: RemoveFromCollection<T> Activity Designer
       href: removefromcollection-t-activity-designer.md
-  - name: Error Handling Activity Designers
+  - name: Error-handling activity designers
     items:
     - name: Overview and reference
       displayName: Error handling activity designers
@@ -157,7 +157,7 @@
       href: throw-activity-designer.md
     - name: TryCatch Activity Designer
       href: trycatch-activity-designer.md
-  - name: Migration Activity Designers
+  - name: Migration activity designers
     items:
     - name: Overview and reference
       displayName: Migration activity designers
