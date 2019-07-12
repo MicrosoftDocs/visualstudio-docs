@@ -588,6 +588,8 @@
   - name: Design user interfaces...
     displayName: XAML designer
     href: designers/designing-user-interfaces.md
+  - name: Develop apps with Workflow Designer
+    href: ../workflow-designer/developing-applications-with-the-workflow-designer.md
   - name: Compile and build
     items:
     - name: Overview
